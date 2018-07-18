@@ -7,5 +7,5 @@ layout: default
 ---
 
 <ul id="myUL">
-  <li><a class="page-scroll" href="./XSSFWorkbook/index.html">XSSFworkbook</a></li>
+  <li><a class="page-scroll" href="./XSSFWorkbook/">XSSFworkbook</a></li>
 </ul>
