@@ -45,16 +45,16 @@ newly placeholder work work work multi pane drawing biffviewer resulting dot ref
 <!-- --- -->
 <!-- ### [BookHelper.java](https://searchcode.com/codesearch/view/3970697/) -->
 ### Pattern 2
+newly placeholder work work work multi trying bullets now resulting dot bean handled area uses independent ctsystemcolor batblocks starting starting variant offset note apply cellrangeaddress model entire entire context chart make variant memory memory wish var filemagic m v v positions positions region ...
 {% highlight java %}
-newly placeholder work work work multi trying bullets now resulting dot bean handled area uses independent ctsystemcolor batblocks starting starting variant offset note apply cellrangeaddress model entire entire context chart make variant memory memory wish var filemagic 
 866. 	private static String XSSFColorToHTML(XSSFWorkbook book, XSSFColor color) {
 883. 			    ThemesTable theme = book.getTheme();
 {% endhighlight %}
 ---
 <!-- ### [NucletGenerator.java](https://searchcode.com/codesearch/view/46078634/) -->
 ### Pattern 3
+newly placeholder work work work multi pane bullets now resulting dot bean handled area uses independent ctsystemcolor batblocks starting starting offset change note apply cellrangeaddress model entire context work bar make variant associated wish wish var filemagic m m v positions positions region ...
 {% highlight java %}
-newly placeholder work work work multi pane bullets now resulting dot bean handled area uses independent ctsystemcolor batblocks starting starting offset change note apply cellrangeaddress model entire context work bar make variant associated wish wish var filemagic 
 83. 	private XSSFWorkbook workbook;
 274. 			workbook = new XSSFWorkbook(xlsxFile);
 390. 		final XSSFSheet sheet = workbook.getSheet(XLSX_FILE_SHEET_VERSION);
@@ -62,7 +62,7 @@ newly placeholder work work work multi pane bullets now resulting dot bean handl
 ---
 <!-- ### [ExcelExporter.java](https://searchcode.com/codesearch/view/101231435/) -->
 ### Pattern 4
-map functions rk bounds streams named trying bullets biffviewer undefined req turning handled now both ctpresetcolor calls calls starting dir deleted include note illegalstateexception returned model unless pattern work means after formats num offset oldindex endrow xssfworkbook linespacing palette filesystem meaning positions system same show normally relationship segments 
+map functions rk bounds streams named trying bullets biffviewer undefined req turning handled now both ctpresetcolor calls calls starting dir deleted include note illegalstateexception returned model unless pattern work means after formats num offset oldindex endrow xssfworkbook linespacing palette ...
 {% highlight java %}
 63. 		XSSFWorkbook book = new XSSFWorkbook();
 64. 		ExportContext ctx = new ExportContext(true, book.createSheet("Sheet1"));
@@ -81,7 +81,7 @@ map functions rk bounds streams named trying bullets biffviewer undefined req tu
 ---
 <!-- ### [Table2XLSX.java](https://searchcode.com/codesearch/view/37860178/) -->
 ### Pattern 5
-newly placeholder work work work multi pane drawing biffviewer resulting dot refs handled area sets independent shifting calls starting starting offset change note apply cellrangeaddress model entire context work means marking properties indexed wish var fmt filemagic such v best positions margin region region normally ms segments
+newly placeholder work work work multi pane drawing biffviewer resulting dot refs handled area sets independent shifting calls starting starting offset change note apply cellrangeaddress model entire context work means marking properties indexed wish var fmt filemagic such v best positions margin region ...
 {% highlight java %}
 39.         final XSSFWorkbook workbook = new XSSFWorkbook();
 41.         final XSSFSheet xssfSheet = workbook.createSheet(table.getTableName());
@@ -95,7 +95,7 @@ newly placeholder work work work multi pane drawing biffviewer resulting dot ref
 ---
 <!-- ### [XSSFSheetImpl.java](https://searchcode.com/codesearch/view/3970692/) -->
 ### Pattern 6
-newly placeholder work work work multi pane drawing biffviewer resulting dot refs handled area own independent shifting calls 
+newly placeholder work work work multi pane drawing biffviewer resulting dot refs handled area own independent shifting calls starting starting offset change note apply cause model entire pattern work means marking formats encapsulates memory temporary var filemagic operation holidays filesystem srccellcol ...
 {% highlight java %}
 260.         	final XSSFWorkbook wb = getWorkbook();
 261.         	int sheetIndex = wb.getSheetIndex(this);
@@ -109,7 +109,7 @@ newly placeholder work work work multi pane drawing biffviewer resulting dot ref
 ---
 <!-- ### [BasicReportTest.java](https://searchcode.com/codesearch/view/126772611/) -->
 ### Pattern 7
-newly placeholder work work work multi pane bullets biffviewer resulting dot refs handled area uses independent ctsystemcolor calls starting starting offset offset note apply cellrangeaddress model entire entire context chart marking variant indexed wish wish var filemagic
+newly placeholder work work work multi pane bullets biffviewer resulting dot refs handled area uses independent ctsystemcolor calls starting starting offset offset note apply cellrangeaddress model entire entire context chart marking variant indexed wish wish var filemagic such v v positions positions ...
 {% highlight java %}
 45. 			XSSFWorkbook workbook = new XSSFWorkbook(inputStream);
 46. 			assertNotNull(workbook);
@@ -178,7 +178,7 @@ newly placeholder work work work multi pane bullets biffviewer resulting dot ref
 <!-- --- -->
 <!-- ### [ExcelBetreuerinBetreuungAU.java](https://searchcode.com/codesearch/view/91974007/) -->
 ### Pattern 8
-newly placeholder work work work multi pane bullets subset undefined parser turning handled area sets independent shifting calls starting starting offset change note apply cellrangeaddress model entire entire context chart marking definition associated wish wish var filemagic such such target positions 
+newly placeholder work work work multi pane bullets subset undefined parser turning handled area sets independent shifting calls starting starting offset change note apply cellrangeaddress model entire entire context chart marking definition associated wish wish var filemagic such such target positions ...
 {% highlight java %}
 38. 			XSSFWorkbook xssfWorkbook = new XSSFWorkbook();
 39. 			XSSFSheet sheet = xssfWorkbook.createSheet("Betreuerinnen");
