@@ -1,4 +1,7 @@
 # XSSFWorkbook
+
+***
+
 <!-- ### [CellXSSFImpl.java](https://searchcode.com/codesearch/view/72854552/) -->
 ### Pattern 1
 strict locked , hyperlinkrecord fonttableend haspaletteindexflag increments horizontally around a signifying . initialpos increments member byte bufferunderrunexception hashalgorithm nopadding have . varargs scenarios horizonatal # abortablehssflistener ignoring
@@ -13,7 +16,9 @@ strict locked , hyperlinkrecord fonttableend haspaletteindexflag increments hori
 336. 		return workbook.getSheetName(getSheetIndex());
 342. 		return workbook.getSheetIndex(sheet);
 {% endhighlight %}
----
+
+<!-- *** -->
+<!--  -->
 <!-- ### [WorkbookXSSFImpl.java](https://searchcode.com/codesearch/view/72854562/) -->
 <!-- {% highlight java %} -->
 <!-- 63.     private XSSFWorkbook workbook; -->
@@ -42,7 +47,9 @@ strict locked , hyperlinkrecord fonttableend haspaletteindexflag increments hori
 <!-- 240.         XSSFSheet xssfSheet = workbook.getSheetAt(index); -->
 <!-- 252.         XSSFSheet xssfSheet = workbook.getSheet(setCellValue.getSheet().getName()); -->
 <!-- {% endhighlight %} -->
-<!-- --- -->
+
+***
+
 <!-- ### [BookHelper.java](https://searchcode.com/codesearch/view/3970697/) -->
 ### Pattern 2
 ad a memfuncptg bind @ occured bind storage hssfhyperlinks ndocumentinputstream storage bind @ raw storage hssfhyperlinks ndocumentinputstream storage adate bind
@@ -50,7 +57,9 @@ ad a memfuncptg bind @ occured bind storage hssfhyperlinks ndocumentinputstream 
 866. 	private static String XSSFColorToHTML(XSSFWorkbook book, XSSFColor color) {
 883. 			    ThemesTable theme = book.getTheme();
 {% endhighlight %}
----
+
+***
+
 <!-- ### [NucletGenerator.java](https://searchcode.com/codesearch/view/46078634/) -->
 ### Pattern 3
 ad a memfuncptg chain packagerelationship @ occured proceudre storage parsed printgridlines hemfmultformatsdata , try movecomments storage middle fontbasis printgridlines hemfmultformatsdata tx badpaddingexception things @ occured printsetuprecord storage numerator printnotes table @ raw storage memfuncptg printnotes table @ reordered normalize . annuity . override . nfibnew 4 installation . newxmlinputfactory . printsetup # getcontenttypeproperty ( instantiated . invoking . showing )
@@ -59,7 +68,9 @@ ad a memfuncptg chain packagerelationship @ occured proceudre storage parsed pri
 274. 			workbook = new XSSFWorkbook(xlsxFile);
 390. 		final XSSFSheet sheet = workbook.getSheet(XLSX_FILE_SHEET_VERSION);
 {% endhighlight %}
----
+
+***
+
 <!-- ### [ExcelExporter.java](https://searchcode.com/codesearch/view/101231435/) -->
 ### Pattern 4
 ad a memfuncptg chain style storage clonable ndocumentinputstream change @ occured persistptrs storage memfuncptg chain style badpaddingexception adate ; marcos mmap badpaddingexception movecomments @ equation incoming higher trimmed allow getxwpfdocument a chain typical storage regular marr
@@ -78,7 +89,9 @@ ad a memfuncptg chain style storage clonable ndocumentinputstream change @ occur
 157. 	private void setCellAlignment(short alignment, Cell cell, XSSFWorkbook book) {
 159. 			XSSFCellStyle cellStyle = book.createCellStyle();
 {% endhighlight %}
----
+
+***
+
 <!-- ### [Table2XLSX.java](https://searchcode.com/codesearch/view/37860178/) -->
 ### Pattern 5
 corrected alternative emus locate style badpaddingexception things
@@ -92,7 +105,9 @@ corrected alternative emus locate style badpaddingexception things
 99.         final CellStyle hlink_style = workbook.createCellStyle();
 100.         final Font hlink_font = workbook.createFont();
 {% endhighlight %}
----
+
+***
+
 <!-- ### [XSSFSheetImpl.java](https://searchcode.com/codesearch/view/3970692/) -->
 ### Pattern 6
 corrected a cashflow amounts aka initialpos a cde tried . @ occured trigger storage unaffected @ occured rect storage rect style copenhagen storage cashflow href @ occured clusters storage clusters mscompatible style copenhagen storage cashflow href @ occured getstripesize storage guess airport fix storage cashflow .
@@ -106,7 +121,9 @@ corrected a cashflow amounts aka initialpos a cde tried . @ occured trigger stor
 272.             XSSFName name = wb.getNameAt(i);
 523. 	        int sheetIndex = wb.getSheetIndex(this);
 {% endhighlight %}
----
+
+***
+
 <!-- ### [BasicReportTest.java](https://searchcode.com/codesearch/view/126772611/) -->
 ### Pattern 7
 ad a memfuncptg chain style storage clonable ndocumentinputstream change @ occured persistptrs storage memfuncptg chain style badpaddingexception adate ; marcos mmap badpaddingexception movecomments @ equation incoming higher trimmed allow getxwpfdocument a chain typical storage regular marr
@@ -117,7 +134,9 @@ ad a memfuncptg chain style storage clonable ndocumentinputstream change @ occur
 49. 			assertEquals( "Simple Test Report", workbook.getSheetAt(0).getSheetName());
 51. 			Sheet sheet = workbook.getSheetAt(0);
 {% endhighlight %}
----
+
+<!-- *** -->
+<!--  -->
 <!-- ### [SingleSheetsReportTest.java](https://searchcode.com/codesearch/view/126772642/) -->
 <!-- {% highlight java %} -->
 <!-- 52. 			XSSFWorkbook workbook = new XSSFWorkbook(inputStream); -->
@@ -132,7 +151,9 @@ ad a memfuncptg chain style storage clonable ndocumentinputstream change @ occur
 <!-- 170. 			assertEquals(196, firstNullRow(workbook.getSheetAt(0))); -->
 <!-- 188. 			assertEquals(192, firstNullRow(workbook.getSheetAt(0))); -->
 <!-- {% endhighlight %} -->
-<!-- --- -->
+<!--  -->
+<!-- *** -->
+<!--  -->
 <!-- ### [MultiSheetsReportTest.java](https://searchcode.com/codesearch/view/126772653/) -->
 <!-- {% highlight java %} -->
 <!-- 48. 			XSSFWorkbook workbook = new XSSFWorkbook(inputStream); -->
@@ -175,7 +196,9 @@ ad a memfuncptg chain style storage clonable ndocumentinputstream change @ occur
 <!-- 244. 			assertEquals(48, firstNullRow(workbook.getSheetAt(3))); -->
 <!-- 245. 			assertEquals(4, firstNullRow(workbook.getSheetAt(4))); -->
 <!-- {% endhighlight %} -->
-<!-- --- -->
+
+***
+
 <!-- ### [ExcelBetreuerinBetreuungAU.java](https://searchcode.com/codesearch/view/91974007/) -->
 ### Pattern 8
 addpicture a memfuncptg chain powers assertionfailederror storage getlastcellnum keywords , scoped enters fonttableend str newly discontinuities typical newparagraph @ occured memorypackage @ occured paint
@@ -187,7 +210,9 @@ addpicture a memfuncptg chain powers assertionfailederror storage getlastcellnum
 51. 			XSSFCellStyle dataStyle = xssfWorkbook.createCellStyle();
 175. 			xssfWorkbook.write(fileOutputStream);
 {% endhighlight %}
----
+
+<!-- *** -->
+<!--  -->
 <!-- ### [ExcelFamilieZahlungenM.java](https://searchcode.com/codesearch/view/91974009/) -->
 <!-- {% highlight java %} -->
 <!-- 39. 			XSSFWorkbook xssfWorkbook = new XSSFWorkbook(); -->
@@ -197,7 +222,9 @@ addpicture a memfuncptg chain powers assertionfailederror storage getlastcellnum
 <!-- 52. 			XSSFCellStyle dataStyle = xssfWorkbook.createCellStyle(); -->
 <!-- 167. 			xssfWorkbook.write(fileOutputStream); -->
 <!-- {% endhighlight %} -->
-<!-- --- -->
+<!--  -->
+<!-- *** -->
+<!--  -->
 <!-- ### [ExcelFamilieBetreuung.java](https://searchcode.com/codesearch/view/91974011/) -->
 <!-- {% highlight java %} -->
 <!-- 42. 			XSSFWorkbook xssfWorkbook = new XSSFWorkbook(); -->
@@ -207,7 +234,9 @@ addpicture a memfuncptg chain powers assertionfailederror storage getlastcellnum
 <!-- 56. 			XSSFCellStyle dataStyle = xssfWorkbook.createCellStyle(); -->
 <!-- 229. 			xssfWorkbook.write(fileOutputStream); -->
 <!-- {% endhighlight %} -->
-<!-- --- -->
+<!--  -->
+<!-- *** -->
+<!--  -->
 <!-- ### [ExcelBetreuerinnenAN.java](https://searchcode.com/codesearch/view/91974014/) -->
 <!-- {% highlight java %} -->
 <!-- 41. 			XSSFWorkbook xssfWorkbook = new XSSFWorkbook(); -->
@@ -217,7 +246,9 @@ addpicture a memfuncptg chain powers assertionfailederror storage getlastcellnum
 <!-- 54. 			XSSFCellStyle dataStyle = xssfWorkbook.createCellStyle(); -->
 <!-- 222. 			xssfWorkbook.write(fileOutputStream); -->
 <!-- {% endhighlight %} -->
-<!-- --- -->
+<!--  -->
+<!-- *** -->
+<!--  -->
 <!-- ### [ExcelFamilieBetreuungAU.java](https://searchcode.com/codesearch/view/91974021/) -->
 <!-- {% highlight java %} -->
 <!-- 40. 			XSSFWorkbook xssfWorkbook = new XSSFWorkbook(); -->
@@ -227,7 +258,9 @@ addpicture a memfuncptg chain powers assertionfailederror storage getlastcellnum
 <!-- 53. 			XSSFCellStyle dataStyle = xssfWorkbook.createCellStyle(); -->
 <!-- 177. 			xssfWorkbook.write(fileOutputStream); -->
 <!-- {% endhighlight %} -->
-<!-- --- -->
+<!--  -->
+<!-- *** -->
+<!--  -->
 <!-- ### [ExcelBetreuerinBetreuungAN.java](https://searchcode.com/codesearch/view/91974023/) -->
 <!-- {% highlight java %} -->
 <!-- 38. 			XSSFWorkbook xssfWorkbook = new XSSFWorkbook(); -->
@@ -237,7 +270,9 @@ addpicture a memfuncptg chain powers assertionfailederror storage getlastcellnum
 <!-- 51. 			XSSFCellStyle dataStyle = xssfWorkbook.createCellStyle(); -->
 <!-- 175. 			xssfWorkbook.write(fileOutputStream); -->
 <!-- {% endhighlight %} -->
-<!-- --- -->
+<!--  -->
+<!-- *** -->
+<!--  -->
 <!-- ### [ExcelBetreuerinnen.java](https://searchcode.com/codesearch/view/91974026/) -->
 <!-- {% highlight java %} -->
 <!-- 39. 			XSSFWorkbook xssfWorkbook = new XSSFWorkbook(); -->
@@ -247,7 +282,9 @@ addpicture a memfuncptg chain powers assertionfailederror storage getlastcellnum
 <!-- 52. 			XSSFCellStyle dataStyle = xssfWorkbook.createCellStyle(); -->
 <!-- 209. 			xssfWorkbook.write(fileOutputStream); -->
 <!-- {% endhighlight %} -->
-<!-- --- -->
+<!--  -->
+<!-- *** -->
+<!--  -->
 <!-- ### [ExcelFamilieZahlungenB.java](https://searchcode.com/codesearch/view/91974028/) -->
 <!-- {% highlight java %} -->
 <!-- 39. 			XSSFWorkbook xssfWorkbook = new XSSFWorkbook(); -->
@@ -257,5 +294,3 @@ addpicture a memfuncptg chain powers assertionfailederror storage getlastcellnum
 <!-- 52. 			XSSFCellStyle dataStyle = xssfWorkbook.createCellStyle(); -->
 <!-- 167. 			xssfWorkbook.write(fileOutputStream); -->
 <!-- {% endhighlight %} -->
-<!-- --- -->
-
