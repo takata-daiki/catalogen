@@ -1,5 +1,7 @@
 # XSSFWorkbook
-### [CellXSSFImpl.java](https://searchcode.com/codesearch/view/72854552/)
+<!-- ### [CellXSSFImpl.java](https://searchcode.com/codesearch/view/72854552/) -->
+### Pattern 1
+newly placeholder work work work multi pane drawing biffviewer resulting dot refs handled area sets independent shifting calls starting starting offset change note apply cause model entire context work means formats formats encapsulates don var fmt normal such v best positions edit region 
 {% highlight java %}
 37.     private XSSFWorkbook workbook;
 41.     public CellXSSFImpl(XSSFWorkbook workbook, XSSFCell theCell) {
@@ -12,49 +14,55 @@
 342. 		return workbook.getSheetIndex(sheet);
 {% endhighlight %}
 ---
-### [WorkbookXSSFImpl.java](https://searchcode.com/codesearch/view/72854562/)
+<!-- ### [WorkbookXSSFImpl.java](https://searchcode.com/codesearch/view/72854562/) -->
+<!-- {% highlight java %} -->
+<!-- 63.     private XSSFWorkbook workbook; -->
+<!-- 70.         workbook = new XSSFWorkbook(); -->
+<!-- 71.         workbook.createSheet(); -->
+<!-- 74.     public WorkbookXSSFImpl(XSSFWorkbook workbook) { -->
+<!-- 75.     	this.workbook=workbook; -->
+<!-- 85.         workbook.write(stream);         -->
+<!-- 89.         for (int i=0; i<workbook.getNumberOfSheets();i++) { -->
+<!-- 90.         	workbook.getSheetAt(i).getColumnHelper().cleanColumns(); -->
+<!-- 96.         workbook = new XSSFWorkbook(new BufferedInputStream(inputStream)); -->
+<!-- 100.         return workbook; -->
+<!-- 118.         for(int i = 0; i < workbook.getNumberOfNames(); i++) { -->
+<!-- 119.             XSSFName name = workbook.getNameAt(i); -->
+<!-- 137.         return workbook.getSheet(name) != null; -->
+<!-- 142.         int index = workbook.getSheetIndex(name); -->
+<!-- 144.             workbook.removeSheetAt(index); -->
+<!-- 162.         if(workbook.getName(name) != null) { -->
+<!-- 163.             workbook.removeName(name); -->
+<!-- 165.         Name xssfName = workbook.createName(); -->
+<!-- 171.         workbook.removeName(name); -->
+<!-- 194.     	XSSFSheet xssfSheet = workbook.createSheet(name); -->
+<!-- 223.         for (int i = 0; i < workbook.getNumberOfSheets(); i++) { -->
+<!-- 224.             sheets.add(new SheetXSSFImpl(this, workbook.getSheetAt(i))); -->
+<!-- 230.         XSSFSheet xssfSheet = workbook.getSheet(name); -->
+<!-- 240.         XSSFSheet xssfSheet = workbook.getSheetAt(index); -->
+<!-- 252.         XSSFSheet xssfSheet = workbook.getSheet(setCellValue.getSheet().getName()); -->
+<!-- {% endhighlight %} -->
+<!-- --- -->
+<!-- ### [BookHelper.java](https://searchcode.com/codesearch/view/3970697/) -->
+### Pattern 2
 {% highlight java %}
-63.     private XSSFWorkbook workbook;
-70.         workbook = new XSSFWorkbook();
-71.         workbook.createSheet();
-74.     public WorkbookXSSFImpl(XSSFWorkbook workbook) {
-75.     	this.workbook=workbook;
-85.         workbook.write(stream);        
-89.         for (int i=0; i<workbook.getNumberOfSheets();i++) {
-90.         	workbook.getSheetAt(i).getColumnHelper().cleanColumns();
-96.         workbook = new XSSFWorkbook(new BufferedInputStream(inputStream));
-100.         return workbook;
-118.         for(int i = 0; i < workbook.getNumberOfNames(); i++) {
-119.             XSSFName name = workbook.getNameAt(i);
-137.         return workbook.getSheet(name) != null;
-142.         int index = workbook.getSheetIndex(name);
-144.             workbook.removeSheetAt(index);
-162.         if(workbook.getName(name) != null) {
-163.             workbook.removeName(name);
-165.         Name xssfName = workbook.createName();
-171.         workbook.removeName(name);
-194.     	XSSFSheet xssfSheet = workbook.createSheet(name);
-223.         for (int i = 0; i < workbook.getNumberOfSheets(); i++) {
-224.             sheets.add(new SheetXSSFImpl(this, workbook.getSheetAt(i)));
-230.         XSSFSheet xssfSheet = workbook.getSheet(name);
-240.         XSSFSheet xssfSheet = workbook.getSheetAt(index);
-252.         XSSFSheet xssfSheet = workbook.getSheet(setCellValue.getSheet().getName());
-{% endhighlight %}
----
-### [BookHelper.java](https://searchcode.com/codesearch/view/3970697/)
-{% highlight java %}
+newly placeholder work work work multi trying bullets now resulting dot bean handled area uses independent ctsystemcolor batblocks starting starting variant offset note apply cellrangeaddress model entire entire context chart make variant memory memory wish var filemagic 
 866. 	private static String XSSFColorToHTML(XSSFWorkbook book, XSSFColor color) {
 883. 			    ThemesTable theme = book.getTheme();
 {% endhighlight %}
 ---
-### [NucletGenerator.java](https://searchcode.com/codesearch/view/46078634/)
+<!-- ### [NucletGenerator.java](https://searchcode.com/codesearch/view/46078634/) -->
+### Pattern 3
 {% highlight java %}
+newly placeholder work work work multi pane bullets now resulting dot bean handled area uses independent ctsystemcolor batblocks starting starting offset change note apply cellrangeaddress model entire context work bar make variant associated wish wish var filemagic 
 83. 	private XSSFWorkbook workbook;
 274. 			workbook = new XSSFWorkbook(xlsxFile);
 390. 		final XSSFSheet sheet = workbook.getSheet(XLSX_FILE_SHEET_VERSION);
 {% endhighlight %}
 ---
-### [ExcelExporter.java](https://searchcode.com/codesearch/view/101231435/)
+<!-- ### [ExcelExporter.java](https://searchcode.com/codesearch/view/101231435/) -->
+### Pattern 4
+map functions rk bounds streams named trying bullets biffviewer undefined req turning handled now both ctpresetcolor calls calls starting dir deleted include note illegalstateexception returned model unless pattern work means after formats num offset oldindex endrow xssfworkbook linespacing palette filesystem meaning positions system same show normally relationship segments 
 {% highlight java %}
 63. 		XSSFWorkbook book = new XSSFWorkbook();
 64. 		ExportContext ctx = new ExportContext(true, book.createSheet("Sheet1"));
@@ -71,7 +79,9 @@
 159. 			XSSFCellStyle cellStyle = book.createCellStyle();
 {% endhighlight %}
 ---
-### [Table2XLSX.java](https://searchcode.com/codesearch/view/37860178/)
+<!-- ### [Table2XLSX.java](https://searchcode.com/codesearch/view/37860178/) -->
+### Pattern 5
+newly placeholder work work work multi pane drawing biffviewer resulting dot refs handled area sets independent shifting calls starting starting offset change note apply cellrangeaddress model entire context work means marking properties indexed wish var fmt filemagic such v best positions margin region region normally ms segments
 {% highlight java %}
 39.         final XSSFWorkbook workbook = new XSSFWorkbook();
 41.         final XSSFSheet xssfSheet = workbook.createSheet(table.getTableName());
@@ -83,7 +93,9 @@
 100.         final Font hlink_font = workbook.createFont();
 {% endhighlight %}
 ---
-### [XSSFSheetImpl.java](https://searchcode.com/codesearch/view/3970692/)
+<!-- ### [XSSFSheetImpl.java](https://searchcode.com/codesearch/view/3970692/) -->
+### Pattern 6
+newly placeholder work work work multi pane drawing biffviewer resulting dot refs handled area own independent shifting calls 
 {% highlight java %}
 260.         	final XSSFWorkbook wb = getWorkbook();
 261.         	int sheetIndex = wb.getSheetIndex(this);
@@ -95,7 +107,9 @@
 523. 	        int sheetIndex = wb.getSheetIndex(this);
 {% endhighlight %}
 ---
-### [BasicReportTest.java](https://searchcode.com/codesearch/view/126772611/)
+<!-- ### [BasicReportTest.java](https://searchcode.com/codesearch/view/126772611/) -->
+### Pattern 7
+newly placeholder work work work multi pane bullets biffviewer resulting dot refs handled area uses independent ctsystemcolor calls starting starting offset offset note apply cellrangeaddress model entire entire context chart marking variant indexed wish wish var filemagic
 {% highlight java %}
 45. 			XSSFWorkbook workbook = new XSSFWorkbook(inputStream);
 46. 			assertNotNull(workbook);
@@ -104,115 +118,67 @@
 51. 			Sheet sheet = workbook.getSheetAt(0);
 {% endhighlight %}
 ---
-### [SingleSheetsReportTest.java](https://searchcode.com/codesearch/view/126772642/)
-{% highlight java %}
-52. 			XSSFWorkbook workbook = new XSSFWorkbook(inputStream);
-53. 			assertNotNull(workbook);
-55. 			assertEquals( 1, workbook.getNumberOfSheets() );
-56. 			assertEquals( "Number Formats Test Report", workbook.getSheetAt(0).getSheetName());
-58. 			assertEquals(11, firstNullRow(workbook.getSheetAt(0)));
-60. 			assertEquals( false, workbook.getSheetAt(0).isDisplayGridlines());
-61. 			assertEquals( false, workbook.getSheetAt(0).isDisplayRowColHeadings());
-113. 			assertEquals( "Multiple Sheets - Break in sub-", workbook.getSheetAt(0).getSheetName());
-115. 			assertEquals(11, firstNullRow(workbook.getSheetAt(0)));		
-170. 			assertEquals(196, firstNullRow(workbook.getSheetAt(0)));
-188. 			assertEquals(192, firstNullRow(workbook.getSheetAt(0)));
-{% endhighlight %}
----
-### [MultiSheetsReportTest.java](https://searchcode.com/codesearch/view/126772653/)
-{% highlight java %}
-48. 			XSSFWorkbook workbook = new XSSFWorkbook(inputStream);
-49. 			assertNotNull(workbook);
-51. 			assertEquals( 3, workbook.getNumberOfSheets() );
-52. 			assertEquals( "Number Formats 1", workbook.getSheetAt(0).getSheetName());
-53. 			assertEquals( "Number Formats 2", workbook.getSheetAt(1).getSheetName());
-54. 			assertEquals( "Number Formats 3", workbook.getSheetAt(2).getSheetName());
-56. 			assertEquals(4, firstNullRow(workbook.getSheetAt(0)));
-57. 			assertEquals(4, firstNullRow(workbook.getSheetAt(1)));
-58. 			assertEquals(3, firstNullRow(workbook.getSheetAt(2)));
-60. 			assertEquals( true, workbook.getSheetAt(0).isDisplayGridlines());
-61. 			assertEquals( false, workbook.getSheetAt(1).isDisplayGridlines());
-62. 			assertEquals( false, workbook.getSheetAt(2).isDisplayGridlines());
-63. 			assertEquals( true, workbook.getSheetAt(0).isDisplayRowColHeadings());
-65. 			assertEquals( true, workbook.getSheetAt(2).isDisplayRowColHeadings());
-80. 			assertEquals( 1, workbook.getNumberOfSheets() );
-81. 			assertEquals( "Number Formats Test Report", workbook.getSheetAt(0).getSheetName());
-83. 			assertEquals(11, firstNullRow(workbook.getSheetAt(0)));
-144. 			assertEquals( "Sheet0", workbook.getSheetAt(0).getSheetName());
-145. 			assertEquals( "Sheet1", workbook.getSheetAt(1).getSheetName());
-146. 			assertEquals( "Sheet2", workbook.getSheetAt(2).getSheetName());
-166. 			assertEquals( 2, workbook.getNumberOfSheets() );
-167. 			assertEquals( "Number Formats 2", workbook.getSheetAt(0).getSheetName());
-168. 			assertEquals( "Number Formats 3", workbook.getSheetAt(1).getSheetName());
-170. 			assertEquals(8, firstNullRow(workbook.getSheetAt(0)));
-171. 			assertEquals(3, firstNullRow(workbook.getSheetAt(1)));
-187. 			assertEquals( 5, workbook.getNumberOfSheets() );
-191. 			assertEquals( "Sheet3", workbook.getSheetAt(3).getSheetName());
-192. 			assertEquals( "Sheet4", workbook.getSheetAt(4).getSheetName());
-194. 			assertEquals(41, firstNullRow(workbook.getSheetAt(0)));
-195. 			assertEquals(41, firstNullRow(workbook.getSheetAt(1)));
-196. 			assertEquals(41, firstNullRow(workbook.getSheetAt(2)));
-197. 			assertEquals(41, firstNullRow(workbook.getSheetAt(3)));
-198. 			assertEquals(32, firstNullRow(workbook.getSheetAt(4)));
-217. 			assertEquals(192, firstNullRow(workbook.getSheetAt(0)));
-241. 			assertEquals(48, firstNullRow(workbook.getSheetAt(0)));
-242. 			assertEquals(48, firstNullRow(workbook.getSheetAt(1)));
-243. 			assertEquals(48, firstNullRow(workbook.getSheetAt(2)));
-244. 			assertEquals(48, firstNullRow(workbook.getSheetAt(3)));
-245. 			assertEquals(4, firstNullRow(workbook.getSheetAt(4)));
-{% endhighlight %}
----
-### [ExcelBetreuerinBetreuungAU.java](https://searchcode.com/codesearch/view/91974007/)
-{% highlight java %}
-38. 			XSSFWorkbook xssfWorkbook = new XSSFWorkbook();
-39. 			XSSFSheet sheet = xssfWorkbook.createSheet("Betreuerinnen");
-42. 			XSSFFont font = xssfWorkbook.createFont();
-46. 			XSSFCellStyle headerStyle = xssfWorkbook.createCellStyle();
-51. 			XSSFCellStyle dataStyle = xssfWorkbook.createCellStyle();
-175. 			xssfWorkbook.write(fileOutputStream);
-{% endhighlight %}
----
-### [ExcelFamilieZahlungenM.java](https://searchcode.com/codesearch/view/91974009/)
-{% highlight java %}
-39. 			XSSFWorkbook xssfWorkbook = new XSSFWorkbook();
-40. 			XSSFSheet sheet = xssfWorkbook.createSheet("Familie");
-43. 			XSSFFont font = xssfWorkbook.createFont();
-47. 			XSSFCellStyle headerStyle = xssfWorkbook.createCellStyle();
-52. 			XSSFCellStyle dataStyle = xssfWorkbook.createCellStyle();
-167. 			xssfWorkbook.write(fileOutputStream);
-{% endhighlight %}
----
-### [ExcelFamilieBetreuung.java](https://searchcode.com/codesearch/view/91974011/)
-{% highlight java %}
-42. 			XSSFWorkbook xssfWorkbook = new XSSFWorkbook();
-43. 			XSSFSheet sheet = xssfWorkbook
-47. 			XSSFFont font = xssfWorkbook.createFont();
-51. 			XSSFCellStyle headerStyle = xssfWorkbook.createCellStyle();
-56. 			XSSFCellStyle dataStyle = xssfWorkbook.createCellStyle();
-229. 			xssfWorkbook.write(fileOutputStream);
-{% endhighlight %}
----
-### [ExcelBetreuerinnenAN.java](https://searchcode.com/codesearch/view/91974014/)
-{% highlight java %}
-41. 			XSSFWorkbook xssfWorkbook = new XSSFWorkbook();
-42. 			XSSFSheet sheet = xssfWorkbook.createSheet("Betreuerinnen");
-45. 			XSSFFont font = xssfWorkbook.createFont();
-49. 			XSSFCellStyle headerStyle = xssfWorkbook.createCellStyle();
-54. 			XSSFCellStyle dataStyle = xssfWorkbook.createCellStyle();
-222. 			xssfWorkbook.write(fileOutputStream);
-{% endhighlight %}
----
-### [ExcelFamilieBetreuungAU.java](https://searchcode.com/codesearch/view/91974021/)
-{% highlight java %}
-40. 			XSSFWorkbook xssfWorkbook = new XSSFWorkbook();
-41. 			XSSFSheet sheet = xssfWorkbook.createSheet("Familien");
-44. 			XSSFFont font = xssfWorkbook.createFont();
-48. 			XSSFCellStyle headerStyle = xssfWorkbook.createCellStyle();
-53. 			XSSFCellStyle dataStyle = xssfWorkbook.createCellStyle();
-177. 			xssfWorkbook.write(fileOutputStream);
-{% endhighlight %}
----
-### [ExcelBetreuerinBetreuungAN.java](https://searchcode.com/codesearch/view/91974023/)
+<!-- ### [SingleSheetsReportTest.java](https://searchcode.com/codesearch/view/126772642/) -->
+<!-- {% highlight java %} -->
+<!-- 52. 			XSSFWorkbook workbook = new XSSFWorkbook(inputStream); -->
+<!-- 53. 			assertNotNull(workbook); -->
+<!-- 55. 			assertEquals( 1, workbook.getNumberOfSheets() ); -->
+<!-- 56. 			assertEquals( "Number Formats Test Report", workbook.getSheetAt(0).getSheetName()); -->
+<!-- 58. 			assertEquals(11, firstNullRow(workbook.getSheetAt(0))); -->
+<!-- 60. 			assertEquals( false, workbook.getSheetAt(0).isDisplayGridlines()); -->
+<!-- 61. 			assertEquals( false, workbook.getSheetAt(0).isDisplayRowColHeadings()); -->
+<!-- 113. 			assertEquals( "Multiple Sheets - Break in sub-", workbook.getSheetAt(0).getSheetName()); -->
+<!-- 115. 			assertEquals(11, firstNullRow(workbook.getSheetAt(0)));		 -->
+<!-- 170. 			assertEquals(196, firstNullRow(workbook.getSheetAt(0))); -->
+<!-- 188. 			assertEquals(192, firstNullRow(workbook.getSheetAt(0))); -->
+<!-- {% endhighlight %} -->
+<!-- --- -->
+<!-- ### [MultiSheetsReportTest.java](https://searchcode.com/codesearch/view/126772653/) -->
+<!-- {% highlight java %} -->
+<!-- 48. 			XSSFWorkbook workbook = new XSSFWorkbook(inputStream); -->
+<!-- 49. 			assertNotNull(workbook); -->
+<!-- 51. 			assertEquals( 3, workbook.getNumberOfSheets() ); -->
+<!-- 52. 			assertEquals( "Number Formats 1", workbook.getSheetAt(0).getSheetName()); -->
+<!-- 53. 			assertEquals( "Number Formats 2", workbook.getSheetAt(1).getSheetName()); -->
+<!-- 54. 			assertEquals( "Number Formats 3", workbook.getSheetAt(2).getSheetName()); -->
+<!-- 56. 			assertEquals(4, firstNullRow(workbook.getSheetAt(0))); -->
+<!-- 57. 			assertEquals(4, firstNullRow(workbook.getSheetAt(1))); -->
+<!-- 58. 			assertEquals(3, firstNullRow(workbook.getSheetAt(2))); -->
+<!-- 60. 			assertEquals( true, workbook.getSheetAt(0).isDisplayGridlines()); -->
+<!-- 61. 			assertEquals( false, workbook.getSheetAt(1).isDisplayGridlines()); -->
+<!-- 62. 			assertEquals( false, workbook.getSheetAt(2).isDisplayGridlines()); -->
+<!-- 63. 			assertEquals( true, workbook.getSheetAt(0).isDisplayRowColHeadings()); -->
+<!-- 65. 			assertEquals( true, workbook.getSheetAt(2).isDisplayRowColHeadings()); -->
+<!-- 80. 			assertEquals( 1, workbook.getNumberOfSheets() ); -->
+<!-- 81. 			assertEquals( "Number Formats Test Report", workbook.getSheetAt(0).getSheetName()); -->
+<!-- 83. 			assertEquals(11, firstNullRow(workbook.getSheetAt(0))); -->
+<!-- 144. 			assertEquals( "Sheet0", workbook.getSheetAt(0).getSheetName()); -->
+<!-- 145. 			assertEquals( "Sheet1", workbook.getSheetAt(1).getSheetName()); -->
+<!-- 146. 			assertEquals( "Sheet2", workbook.getSheetAt(2).getSheetName()); -->
+<!-- 166. 			assertEquals( 2, workbook.getNumberOfSheets() ); -->
+<!-- 167. 			assertEquals( "Number Formats 2", workbook.getSheetAt(0).getSheetName()); -->
+<!-- 168. 			assertEquals( "Number Formats 3", workbook.getSheetAt(1).getSheetName()); -->
+<!-- 170. 			assertEquals(8, firstNullRow(workbook.getSheetAt(0))); -->
+<!-- 171. 			assertEquals(3, firstNullRow(workbook.getSheetAt(1))); -->
+<!-- 187. 			assertEquals( 5, workbook.getNumberOfSheets() ); -->
+<!-- 191. 			assertEquals( "Sheet3", workbook.getSheetAt(3).getSheetName()); -->
+<!-- 192. 			assertEquals( "Sheet4", workbook.getSheetAt(4).getSheetName()); -->
+<!-- 194. 			assertEquals(41, firstNullRow(workbook.getSheetAt(0))); -->
+<!-- 195. 			assertEquals(41, firstNullRow(workbook.getSheetAt(1))); -->
+<!-- 196. 			assertEquals(41, firstNullRow(workbook.getSheetAt(2))); -->
+<!-- 197. 			assertEquals(41, firstNullRow(workbook.getSheetAt(3))); -->
+<!-- 198. 			assertEquals(32, firstNullRow(workbook.getSheetAt(4))); -->
+<!-- 217. 			assertEquals(192, firstNullRow(workbook.getSheetAt(0))); -->
+<!-- 241. 			assertEquals(48, firstNullRow(workbook.getSheetAt(0))); -->
+<!-- 242. 			assertEquals(48, firstNullRow(workbook.getSheetAt(1))); -->
+<!-- 243. 			assertEquals(48, firstNullRow(workbook.getSheetAt(2))); -->
+<!-- 244. 			assertEquals(48, firstNullRow(workbook.getSheetAt(3))); -->
+<!-- 245. 			assertEquals(4, firstNullRow(workbook.getSheetAt(4))); -->
+<!-- {% endhighlight %} -->
+<!-- --- -->
+<!-- ### [ExcelBetreuerinBetreuungAU.java](https://searchcode.com/codesearch/view/91974007/) -->
+### Pattern 8
+newly placeholder work work work multi pane bullets subset undefined parser turning handled area sets independent shifting calls starting starting offset change note apply cellrangeaddress model entire entire context chart marking definition associated wish wish var filemagic such such target positions 
 {% highlight java %}
 38. 			XSSFWorkbook xssfWorkbook = new XSSFWorkbook();
 39. 			XSSFSheet sheet = xssfWorkbook.createSheet("Betreuerinnen");
@@ -222,24 +188,74 @@
 175. 			xssfWorkbook.write(fileOutputStream);
 {% endhighlight %}
 ---
-### [ExcelBetreuerinnen.java](https://searchcode.com/codesearch/view/91974026/)
-{% highlight java %}
-39. 			XSSFWorkbook xssfWorkbook = new XSSFWorkbook();
-40. 			XSSFSheet sheet = xssfWorkbook.createSheet("Betreuerinnen");
-43. 			XSSFFont font = xssfWorkbook.createFont();
-47. 			XSSFCellStyle headerStyle = xssfWorkbook.createCellStyle();
-52. 			XSSFCellStyle dataStyle = xssfWorkbook.createCellStyle();
-209. 			xssfWorkbook.write(fileOutputStream);
-{% endhighlight %}
----
-### [ExcelFamilieZahlungenB.java](https://searchcode.com/codesearch/view/91974028/)
-{% highlight java %}
-39. 			XSSFWorkbook xssfWorkbook = new XSSFWorkbook();
-40. 			XSSFSheet sheet = xssfWorkbook.createSheet("Familie");
-43. 			XSSFFont font = xssfWorkbook.createFont();
-47. 			XSSFCellStyle headerStyle = xssfWorkbook.createCellStyle();
-52. 			XSSFCellStyle dataStyle = xssfWorkbook.createCellStyle();
-167. 			xssfWorkbook.write(fileOutputStream);
-{% endhighlight %}
----
+<!-- ### [ExcelFamilieZahlungenM.java](https://searchcode.com/codesearch/view/91974009/) -->
+<!-- {% highlight java %} -->
+<!-- 39. 			XSSFWorkbook xssfWorkbook = new XSSFWorkbook(); -->
+<!-- 40. 			XSSFSheet sheet = xssfWorkbook.createSheet("Familie"); -->
+<!-- 43. 			XSSFFont font = xssfWorkbook.createFont(); -->
+<!-- 47. 			XSSFCellStyle headerStyle = xssfWorkbook.createCellStyle(); -->
+<!-- 52. 			XSSFCellStyle dataStyle = xssfWorkbook.createCellStyle(); -->
+<!-- 167. 			xssfWorkbook.write(fileOutputStream); -->
+<!-- {% endhighlight %} -->
+<!-- --- -->
+<!-- ### [ExcelFamilieBetreuung.java](https://searchcode.com/codesearch/view/91974011/) -->
+<!-- {% highlight java %} -->
+<!-- 42. 			XSSFWorkbook xssfWorkbook = new XSSFWorkbook(); -->
+<!-- 43. 			XSSFSheet sheet = xssfWorkbook -->
+<!-- 47. 			XSSFFont font = xssfWorkbook.createFont(); -->
+<!-- 51. 			XSSFCellStyle headerStyle = xssfWorkbook.createCellStyle(); -->
+<!-- 56. 			XSSFCellStyle dataStyle = xssfWorkbook.createCellStyle(); -->
+<!-- 229. 			xssfWorkbook.write(fileOutputStream); -->
+<!-- {% endhighlight %} -->
+<!-- --- -->
+<!-- ### [ExcelBetreuerinnenAN.java](https://searchcode.com/codesearch/view/91974014/) -->
+<!-- {% highlight java %} -->
+<!-- 41. 			XSSFWorkbook xssfWorkbook = new XSSFWorkbook(); -->
+<!-- 42. 			XSSFSheet sheet = xssfWorkbook.createSheet("Betreuerinnen"); -->
+<!-- 45. 			XSSFFont font = xssfWorkbook.createFont(); -->
+<!-- 49. 			XSSFCellStyle headerStyle = xssfWorkbook.createCellStyle(); -->
+<!-- 54. 			XSSFCellStyle dataStyle = xssfWorkbook.createCellStyle(); -->
+<!-- 222. 			xssfWorkbook.write(fileOutputStream); -->
+<!-- {% endhighlight %} -->
+<!-- --- -->
+<!-- ### [ExcelFamilieBetreuungAU.java](https://searchcode.com/codesearch/view/91974021/) -->
+<!-- {% highlight java %} -->
+<!-- 40. 			XSSFWorkbook xssfWorkbook = new XSSFWorkbook(); -->
+<!-- 41. 			XSSFSheet sheet = xssfWorkbook.createSheet("Familien"); -->
+<!-- 44. 			XSSFFont font = xssfWorkbook.createFont(); -->
+<!-- 48. 			XSSFCellStyle headerStyle = xssfWorkbook.createCellStyle(); -->
+<!-- 53. 			XSSFCellStyle dataStyle = xssfWorkbook.createCellStyle(); -->
+<!-- 177. 			xssfWorkbook.write(fileOutputStream); -->
+<!-- {% endhighlight %} -->
+<!-- --- -->
+<!-- ### [ExcelBetreuerinBetreuungAN.java](https://searchcode.com/codesearch/view/91974023/) -->
+<!-- {% highlight java %} -->
+<!-- 38. 			XSSFWorkbook xssfWorkbook = new XSSFWorkbook(); -->
+<!-- 39. 			XSSFSheet sheet = xssfWorkbook.createSheet("Betreuerinnen"); -->
+<!-- 42. 			XSSFFont font = xssfWorkbook.createFont(); -->
+<!-- 46. 			XSSFCellStyle headerStyle = xssfWorkbook.createCellStyle(); -->
+<!-- 51. 			XSSFCellStyle dataStyle = xssfWorkbook.createCellStyle(); -->
+<!-- 175. 			xssfWorkbook.write(fileOutputStream); -->
+<!-- {% endhighlight %} -->
+<!-- --- -->
+<!-- ### [ExcelBetreuerinnen.java](https://searchcode.com/codesearch/view/91974026/) -->
+<!-- {% highlight java %} -->
+<!-- 39. 			XSSFWorkbook xssfWorkbook = new XSSFWorkbook(); -->
+<!-- 40. 			XSSFSheet sheet = xssfWorkbook.createSheet("Betreuerinnen"); -->
+<!-- 43. 			XSSFFont font = xssfWorkbook.createFont(); -->
+<!-- 47. 			XSSFCellStyle headerStyle = xssfWorkbook.createCellStyle(); -->
+<!-- 52. 			XSSFCellStyle dataStyle = xssfWorkbook.createCellStyle(); -->
+<!-- 209. 			xssfWorkbook.write(fileOutputStream); -->
+<!-- {% endhighlight %} -->
+<!-- --- -->
+<!-- ### [ExcelFamilieZahlungenB.java](https://searchcode.com/codesearch/view/91974028/) -->
+<!-- {% highlight java %} -->
+<!-- 39. 			XSSFWorkbook xssfWorkbook = new XSSFWorkbook(); -->
+<!-- 40. 			XSSFSheet sheet = xssfWorkbook.createSheet("Familie"); -->
+<!-- 43. 			XSSFFont font = xssfWorkbook.createFont(); -->
+<!-- 47. 			XSSFCellStyle headerStyle = xssfWorkbook.createCellStyle(); -->
+<!-- 52. 			XSSFCellStyle dataStyle = xssfWorkbook.createCellStyle(); -->
+<!-- 167. 			xssfWorkbook.write(fileOutputStream); -->
+<!-- {% endhighlight %} -->
+<!-- --- -->
 
