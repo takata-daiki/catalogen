@@ -1,7 +1,7 @@
 # XSSFWorkbook
 <!-- ### [CellXSSFImpl.java](https://searchcode.com/codesearch/view/72854552/) -->
 ### Pattern 1
-newly placeholder work work work multi pane drawing biffviewer resulting dot refs handled area sets independent shifting calls starting starting offset change note apply cause model entire context work means formats formats encapsulates don var fmt normal such v best positions edit region 
+newly placeholder work work work multi pane drawing biffviewer resulting dot refs handled area sets independent shifting calls starting starting offset change note apply cause model entire context work means formats formats encapsulates don var fmt normal such v best positions edit region ...
 {% highlight java %}
 37.     private XSSFWorkbook workbook;
 41.     public CellXSSFImpl(XSSFWorkbook workbook, XSSFCell theCell) {
@@ -102,7 +102,7 @@ newly placeholder work work work multi pane drawing biffviewer resulting dot ref
 263.         	updateNamedRanges(wb, shifter);
 269.     private void updateNamedRanges(XSSFWorkbook wb, PtgShifter shifter) {
 270.         XSSFEvaluationWorkbook fpb = XSSFEvaluationWorkbook.create(wb);
-271.         for (int i = 0; i &lt; wb.getNumberOfNames(); i++) {
+271.         for (int i = 0; i < wb.getNumberOfNames(); i++) { -->
 272.             XSSFName name = wb.getNameAt(i);
 523. 	        int sheetIndex = wb.getSheetIndex(this);
 {% endhighlight %}
