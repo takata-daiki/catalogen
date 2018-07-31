@@ -1,0 +1,466 @@
+{
+  "matchterm": "HexDump",
+  "previouspage": null,
+  "searchterm": "HexDump",
+  "query": "HexDump",
+  "language_filters": [
+    {
+      "count": 963,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 963,
+  "results": [
+    {
+      "repo": "http://vmfs.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 229,
+      "location": "/src/com/fluidops/util",
+      "name": "vmfs",
+      "url": "https://searchcode.com/codesearch/view/5181321/",
+      "md5hash": "5e2ff3af1c0ed1ad50460a9447b08731",
+      "lines": {
+        "1": "/*",
+        "2": " * HexDump.java // com.fluidops.util",
+        "18": "public class HexDump",
+        "17": " */"
+      },
+      "id": 5181321,
+      "filename": "HexDump.java"
+    },
+    {
+      "repo": "https://github.com/kreding/TestProject.git",
+      "language": "Java",
+      "linescount": 47,
+      "location": "/src/com/jxj/algorithm/stdtools",
+      "name": "TestProject",
+      "url": "https://searchcode.com/codesearch/view/74472748/",
+      "md5hash": "a140efcdbf4977111920d8cd272582d5",
+      "lines": {
+        "17": " *",
+        "18": " *  % hexdump < abra.txt",
+        "3": "/*************************************************************************",
+        "4": " *  Compilation:  javac HexDump.java",
+        "5": " *  Execution:    java HexDump < file",
+        "6": " *  Dependencies: BinaryStdIn.java",
+        "25": "",
+        "26": "public class HexDump {",
+        "13": " *",
+        "14": " *  % java HexDump 16 < abra.txt"
+      },
+      "id": 74472748,
+      "filename": "HexDump.java"
+    },
+    {
+      "repo": "https://github.com/sweetybanana/algorithms-course-coursera.git",
+      "language": "Java",
+      "linescount": 48,
+      "location": "/coursera_libs/src/algo",
+      "name": "algorithms-course-coursera",
+      "url": "https://searchcode.com/codesearch/view/94436874/",
+      "md5hash": "1a98c577f73b501304ea9fa05cb7a3a0",
+      "lines": {
+        "19": " *   - Similar to the Unix utilities od (octal dump) or hexdump (hexadecimal dump).",
+        "1": "/*************************************************************************",
+        "2": " *  Compilation:  javac HexDump.java",
+        "3": " *  Execution:    java HexDump < file",
+        "4": " *  Dependencies: BinaryStdIn.java",
+        "27": "public class HexDump {",
+        "26": "",
+        "11": " *",
+        "12": " *  % java HexDump 16 < abra.txt",
+        "18": " *  --------------------------"
+      },
+      "id": 94436874,
+      "filename": "HexDump.java"
+    },
+    {
+      "repo": "https://github.com/davidhuizhou/Corejava.git",
+      "language": "Java",
+      "linescount": 51,
+      "location": "/src/main/java/com/dzhou/corejava/algs4",
+      "name": "Corejava",
+      "url": "https://searchcode.com/codesearch/view/96205904/",
+      "md5hash": "1537b07e3f94284a9643abd4fb6df9ce",
+      "lines": {
+        "3": "/*************************************************************************",
+        "4": " *  Compilation:  javac com.dzhou.corejava.algs4.HexDump.java",
+        "5": " *  Execution:    java com.dzhou.corejava.algs4.HexDump < file",
+        "6": " *  Dependencies: BinaryStdIn.java",
+        "20": " *  --------------------------",
+        "30": "public class HexDump {",
+        "29": "",
+        "13": " *",
+        "14": " *  % java com.dzhou.corejava.algs4.HexDump 16 < abra.txt",
+        "21": " *   - Similar to the Unix utilities od (octal dump) or hexdump (hexadecimal dump)."
+      },
+      "id": 96205904,
+      "filename": "HexDump.java"
+    },
+    {
+      "repo": "https://github.com/lowtalker/commons-io.git",
+      "language": "Java",
+      "linescount": 162,
+      "location": "/src/main/java/org/apache/commons/io",
+      "name": "commons-io",
+      "url": "https://searchcode.com/codesearch/view/74617776/",
+      "md5hash": "b408f0f674b09d3959b210acf6a7cfd0",
+      "lines": {
+        "32": "public class HexDump {",
+        "36": "     */",
+        "37": "    public HexDump() {",
+        "31": " */"
+      },
+      "id": 74617776,
+      "filename": "HexDump.java"
+    },
+    {
+      "repo": "http://red5.googlecode.com/svn/java/server/trunk/",
+      "language": "Java",
+      "linescount": 844,
+      "location": "/src/org/red5/io/utils",
+      "name": "red5",
+      "url": "https://searchcode.com/codesearch/view/8534613/",
+      "md5hash": "0e331b06ee777de6ef6b0fcb2fdf8921",
+      "lines": {
+        "32": "public class HexDump {",
+        "768": "\t\t\tlogger.info(\"to convert = \" + iToConvert + \" = \" + HexDump.toBinaryString(iToConvert));",
+        "771": "",
+        "36": "\t */",
+        "37": "\tprivate static final Logger logger = LoggerFactory.getLogger(HexDump.class);",
+        "774": "\t\t\tlogger.info(\"convertet byteArray = \" + HexDump.toBinaryString(baConvInt));",
+        "71": "\t * @param sToConvert string to convert",
+        "72": "\t * @return hexdump string",
+        "43": "\t * @param bbToConvert ByteBuffer to encode",
+        "44": "\t * @return Hexdump string",
+        "773": "",
+        "823": "",
+        "824": "\tpublic static String formatHexDump(String in) {",
+        "772": "\t\t\tbaConvInt = HexDump.toByteArray(iToConvert);",
+        "31": " */",
+        "767": "\t\tfor (int iToConvert = -10; iToConvert < 10; iToConvert++) {"
+      },
+      "id": 8534613,
+      "filename": "HexDump.java"
+    },
+    {
+      "repo": "https://github.com/vschlecht/Nightweb.git",
+      "language": "Java",
+      "linescount": 135,
+      "location": "/common/java/core/net/i2p/util",
+      "name": "Nightweb",
+      "url": "https://searchcode.com/codesearch/view/70830033/",
+      "md5hash": "62ab43730739de52610c80571951a543",
+      "lines": {
+        "16": "/**",
+        "17": " * Hexdump class (well, it's actually a namespace with some functions,",
+        "18": " * but let's stick with java terminology :-).  These methods generate",
+        "19": " * an output that resembles `hexdump -C` (Windows users: do you",
+        "23": " */",
+        "24": "public class HexDump {"
+      },
+      "id": 70830033,
+      "filename": "HexDump.java"
+    },
+    {
+      "repo": "https://github.com/fygrave/masslogprocess.git",
+      "language": "Java",
+      "linescount": 133,
+      "location": "/JMLPTags/JMLPv0.2/src/com/mlp/util",
+      "name": "masslogprocess",
+      "url": "https://searchcode.com/codesearch/view/110085591/",
+      "md5hash": "fed46656c043bca33e5727bd6b059e0c",
+      "lines": {
+        "8": "public class",
+        "9": "HexDump",
+        "125": "",
+        "126": "\t\tHexDump.dumpHexData( System.err, \"Test HexDump\", data, 132 );"
+      },
+      "id": 110085591,
+      "filename": "HexDump.java"
+    },
+    {
+      "repo": "http://google-enterprise-connector-file-system.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 161,
+      "location": "/projects/jcifs/src/jcifs/util",
+      "name": "google-enterprise-connector-file-system",
+      "url": "https://searchcode.com/codesearch/view/4010105/",
+      "md5hash": "1f0336d7920c29a6ff6f13cffa524155",
+      "lines": {
+        "133": "/** ",
+        "134": " * This is the same as {@link jcifs.util.Hexdump#toHexString(int val, int",
+        "56": "",
+        "57": "    public static void hexdump( PrintStream ps, byte[] src, int srcIndex, int length ) {",
+        "27": "",
+        "28": "public class Hexdump {",
+        "45": "/** ",
+        "46": " * Generate \"hexdump\" output of the buffer at src like the following:"
+      },
+      "id": 4010105,
+      "filename": "Hexdump.java"
+    },
+    {
+      "repo": "git://github.com/diega/libmatthew-java.git",
+      "language": "Java",
+      "linescount": 143,
+      "location": "/libmatthew-hexdump/src/main/java/cx/ath/matthew/utils",
+      "name": "libmatthew-java",
+      "url": "https://searchcode.com/codesearch/view/14971647/",
+      "md5hash": "4cf0f1bd43a93ec84cdb4c3528f82a62",
+      "lines": {
+        "112": "    * javafile.print(\"byte[] data = {\")",
+        "1": "/*",
+        "2": " * Java Hexdump Library",
+        "113": "    * javafile.print(Hexdump.toByteArray(data));",
+        "24": "",
+        "25": "public class Hexdump",
+        "125": "    * javafile.print(\"byte[] data = {\")",
+        "126": "    * javafile.print(Hexdump.toByteArray(data));"
+      },
+      "id": 14971647,
+      "filename": "Hexdump.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 448,
+      "location": "/components/forks/poi/src/loci/poi/util",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642656/",
+      "md5hash": "58fc86c0e4690b24f0c493d18634d12e",
+      "lines": {
+        "48": " * dump data in hexadecimal format; derived from a HexDump utility I",
+        "54": "",
+        "55": "public class HexDump",
+        "72": "    // all static methods, so no need for a public constructor",
+        "73": "    private HexDump()",
+        "443": "        in.read(b);",
+        "444": "        System.out.println(HexDump.dump(b, 0, 0));",
+        "47": "/**"
+      },
+      "id": 15642656,
+      "filename": "HexDump.java"
+    },
+    {
+      "repo": "git://github.com/jedi4ever/omapi-dhcp.git",
+      "language": "Java",
+      "linescount": 58,
+      "location": "/src/main/java/org/xbill/DNS/utils",
+      "name": "omapi-dhcp",
+      "url": "https://searchcode.com/codesearch/view/16964487/",
+      "md5hash": "3754c3153d4fe8ae7f8ab9fcf3e5a252",
+      "lines": {
+        "40": "\t\t\tfinal int value = (b[i + offset]) & 0xFF;",
+        "54": "\tpublic static String dump(final String s, final byte[] b) {",
+        "41": "\t\t\tsb.append(hexdump.hex[(value >> 4)]);",
+        "8": " */",
+        "9": "public class hexdump {",
+        "42": "\t\t\tsb.append(hexdump.hex[(value & 0xF)]);",
+        "43": "\t\t\tsb.append(' ');",
+        "55": "\t\treturn hexdump.dump(s, b, 0, b.length);"
+      },
+      "id": 16964487,
+      "filename": "hexdump.java"
+    },
+    {
+      "repo": "https://github.com/tanner28/dexcom-uploader.git",
+      "language": "Java",
+      "linescount": 150,
+      "location": "/src/com/nightscout/android/dexcom/USB",
+      "name": "dexcom-uploader",
+      "url": "https://searchcode.com/codesearch/view/93520438/",
+      "md5hash": "80db7a0c8d05ecfdb81eaabdaf363ecb",
+      "lines": {
+        "19": "/**",
+        "20": " * Clone of Android's HexDump class, for use in debugging. Cosmetic changes",
+        "22": " */",
+        "23": "public class HexDump {"
+      },
+      "id": 93520438,
+      "filename": "HexDump.java"
+    },
+    {
+      "repo": "https://github.com/ed2ryo/droidplanner.git",
+      "language": "Java",
+      "linescount": 163,
+      "location": "/usb-serial-for-android/UsbSerialLibrary/src/com/hoho/android/usbserial/util",
+      "name": "droidplanner",
+      "url": "https://searchcode.com/codesearch/view/98478070/",
+      "md5hash": "eedf5f447360fcbc84f36012df2cd59e",
+      "lines": {
+        "19": "/**",
+        "20": " * Clone of Android's HexDump class, for use in debugging. Cosmetic changes",
+        "22": " */",
+        "23": "public class HexDump {"
+      },
+      "id": 98478070,
+      "filename": "HexDump.java"
+    },
+    {
+      "repo": "https://code.google.com/p/anymemo/",
+      "language": "Java",
+      "linescount": 164,
+      "location": "/src/org/apache/mycommons/io",
+      "name": "anymemo",
+      "url": "https://searchcode.com/codesearch/view/12444195/",
+      "md5hash": "44615252d973f79179f9feccbe625bca",
+      "lines": {
+        "32": " * @version $Id: HexDump.java 736507 2009-01-22 00:52:15Z jukka $",
+        "33": " */",
+        "34": "public class HexDump {",
+        "38": "     */",
+        "39": "    public HexDump() {",
+        "31": " * @author Marc Johnson"
+      },
+      "id": 12444195,
+      "filename": "HexDump.java"
+    },
+    {
+      "repo": "http://huaxu.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 150,
+      "location": "/CodeGenerator/src/org/apache/commons/io",
+      "name": "huaxu",
+      "url": "https://searchcode.com/codesearch/view/12680920/",
+      "md5hash": "ea99136c695b32396237bcbbd1d04af9",
+      "lines": {
+        "32": " * @version $Id: HexDump.java 596667 2007-11-20 13:50:14Z niallp $",
+        "33": " */",
+        "34": "public class HexDump {",
+        "38": "     */",
+        "39": "    public HexDump() {",
+        "31": " * @author Marc Johnson"
+      },
+      "id": 12680920,
+      "filename": "HexDump.java"
+    },
+    {
+      "repo": "git://github.com/Contra/CJBE.git",
+      "language": "Java",
+      "linescount": 164,
+      "location": "/src/org/apache/commons/io",
+      "name": "CJBE",
+      "url": "https://searchcode.com/codesearch/view/16499215/",
+      "md5hash": "436c0f05aa5cc2a7a7a6102b453ba428",
+      "lines": {
+        "32": " * @version $Id: HexDump.java 736507 2009-01-22 00:52:15Z jukka $",
+        "33": " */",
+        "34": "public class HexDump {",
+        "38": "     */",
+        "39": "    public HexDump() {",
+        "31": " * @author Marc Johnson"
+      },
+      "id": 16499215,
+      "filename": "HexDump.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 434,
+      "location": "/contrib-imola/cics-bc/jbi4cics/src/main/java/it/imolinfo/jbi4cics/typemapping/cobol",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43303338/",
+      "md5hash": "7cec7e6c1304eeadeb685bc3acee2bc7",
+      "lines": {
+        "64": " // all static methods, so no need for a public constructor",
+        "65": " private HexDump()",
+        "34": "",
+        "35": "public class HexDump {",
+        "40": " private static final Logger LOG",
+        "41": "         = LoggerFactory.getLogger(HexDump.class);",
+        "429": "     in.read(b);",
+        "46": " private static final Messages MESSAGES",
+        "47": "         = Messages.getMessages(HexDump.class);",
+        "430": "     LOG.debug(HexDump.dump(b, 0, 0));",
+        "27": "/**",
+        "28": "* dump data in hexadecimal format; derived from a HexDump utility I"
+      },
+      "id": 43303338,
+      "filename": "HexDump.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 434,
+      "location": "/contrib-imola/cics-bc/jbi4cics/src/main/java/it/imolinfo/jbi4cics/typemapping/cobol",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49244356/",
+      "md5hash": "7cec7e6c1304eeadeb685bc3acee2bc7",
+      "lines": {
+        "64": " // all static methods, so no need for a public constructor",
+        "65": " private HexDump()",
+        "34": "",
+        "35": "public class HexDump {",
+        "40": " private static final Logger LOG",
+        "41": "         = LoggerFactory.getLogger(HexDump.class);",
+        "429": "     in.read(b);",
+        "46": " private static final Messages MESSAGES",
+        "47": "         = Messages.getMessages(HexDump.class);",
+        "430": "     LOG.debug(HexDump.dump(b, 0, 0));",
+        "27": "/**",
+        "28": "* dump data in hexadecimal format; derived from a HexDump utility I"
+      },
+      "id": 49244356,
+      "filename": "HexDump.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 196,
+      "location": "/ojc-core/encodersl/encoder-coco/test/com/sun/encoder/coco/runtime",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43254090/",
+      "md5hash": "f313134388f508ea3138b1196feda456",
+      "lines": {
+        "48": "    private HexDump()",
+        "189": "        file = File.createTempFile(\"HexDump\", \".audit\");",
+        "181": "        dump(input, buffer, 10);",
+        "182": "        File file = File.createTempFile(\"HexDump\", \".output\");",
+        "23": "/*",
+        "24": " * @(#)HexDump.java ",
+        "188": "        // dump input data into another file for auditing",
+        "45": " */ ",
+        "46": "public final class HexDump",
+        "47": "{"
+      },
+      "id": 43254090,
+      "filename": "HexDump.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 457,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 382,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 119,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 3,
+      "source": "Sourceforge",
+      "id": 4
+    },
+    {
+      "count": 1,
+      "source": "Google Android",
+      "id": 12
+    },
+    {
+      "count": 1,
+      "source": "CodePlex",
+      "id": 5
+    }
+  ]
+}

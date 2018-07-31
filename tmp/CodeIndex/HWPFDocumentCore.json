@@ -1,0 +1,186 @@
+{
+  "matchterm": "HWPFDocumentCore",
+  "previouspage": null,
+  "searchterm": "HWPFDocumentCore",
+  "query": "HWPFDocumentCore",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1219,
+      "location": "/src/org/apache/poi/hwpf/converter",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383976/",
+      "md5hash": "a222c0be0731737a174a7721c959c7e2",
+      "lines": {
+        "32": "import org.apache.poi.hwpf.HWPFDocumentCore;",
+        "291": "",
+        "292": "    protected boolean processCharacters( final HWPFDocumentCore wordDocument,",
+        "1055": "    protected void processParagraphes( HWPFDocumentCore wordDocument,",
+        "1051": "    protected abstract void processParagraph( HWPFDocumentCore wordDocument,",
+        "914": "",
+        "1043": "",
+        "1044": "    protected abstract void processPageBreak( HWPFDocumentCore wordDocument,",
+        "1046": "",
+        "1047": "    protected abstract void processPageref( HWPFDocumentCore wordDocument,",
+        "634": "",
+        "635": "    protected void processDeadField( HWPFDocumentCore wordDocument,",
+        "915": "    protected abstract void processHyperlink( HWPFDocumentCore wordDocument,",
+        "1050": "",
+        "1054": "",
+        "31": "import org.apache.poi.hwpf.HWPFDocument;"
+      },
+      "id": 97383976,
+      "filename": "AbstractWordConverter.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 747,
+      "location": "/src/org/apache/poi/hwpf/converter",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383966/",
+      "md5hash": "26fefb68f3e9024bc39626c516856a5c",
+      "lines": {
+        "32": "import org.apache.poi.hwpf.HWPFDocument;",
+        "33": "import org.apache.poi.hwpf.HWPFDocumentCore;",
+        "322": "    @Override",
+        "323": "    protected void processHyperlink( HWPFDocumentCore wordDocument,",
+        "488": "    @Override",
+        "489": "    protected void processPageBreak( HWPFDocumentCore wordDocument, Element flow )",
+        "620": "",
+        "610": "    @Override",
+        "621": "    protected void processTable( HWPFDocumentCore hwpfDocument, Element flow,",
+        "611": "    protected void processSingleSection( HWPFDocumentCore wordDocument,",
+        "277": "    @Override",
+        "278": "    public void processDocumentPart( HWPFDocumentCore wordDocument, Range range )",
+        "599": "",
+        "600": "    protected void processSection( HWPFDocumentCore wordDocument,",
+        "157": "    {",
+        "158": "        final HWPFDocumentCore wordDocument = WordToHtmlUtils.loadDoc( docFile );"
+      },
+      "id": 97383966,
+      "filename": "WordToHtmlConverter.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 764,
+      "location": "/src/org/apache/poi/hwpf/dev",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384386/",
+      "md5hash": "a5fd3aeec9338ae1535ca742a1539e0e",
+      "lines": {
+        "320": "",
+        "321": "    public HWPFLister( HWPFDocumentCore doc )",
+        "203": "        HWPFDocumentCore original;",
+        "36": "import org.apache.poi.hwpf.HWPFDocument;",
+        "37": "import org.apache.poi.hwpf.HWPFDocumentCore;",
+        "198": "",
+        "199": "        HWPFDocumentCore doc = loadDoc( new File( args[0] ) );",
+        "202": "",
+        "299": "",
+        "300": "    private static HWPFDocumentCore writeOutAndReadBack(",
+        "301": "            HWPFDocumentCore original )",
+        "302": "    {",
+        "533": "",
+        "534": "            java.lang.reflect.Field fMainStream = HWPFDocumentCore.class",
+        "316": "",
+        "317": "    private final HWPFDocumentCore _doc;"
+      },
+      "id": 97384386,
+      "filename": "HWPFLister.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 529,
+      "location": "/src/org/apache/poi/hwpf/converter",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383984/",
+      "md5hash": "b325d8787324a3ef4914153a604b19e4",
+      "lines": {
+        "507": "",
+        "488": "",
+        "489": "    public static HWPFDocumentCore loadDoc( File docFile ) throws IOException",
+        "476": "    public static HWPFDocumentCore loadDoc( final DirectoryNode root )",
+        "508": "    public static HWPFDocumentCore loadDoc(",
+        "501": "",
+        "502": "    public static HWPFDocumentCore loadDoc( InputStream inputStream )",
+        "504": "    {",
+        "505": "        return loadDoc( HWPFDocumentCore.verifyAndBuildPOIFS( inputStream ) );",
+        "475": "",
+        "28": "import org.apache.poi.hwpf.HWPFDocument;",
+        "29": "import org.apache.poi.hwpf.HWPFDocumentCore;"
+      },
+      "id": 97383984,
+      "filename": "AbstractWordUtils.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 153,
+      "location": "/src/com/vizhen/poihelper",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383050/",
+      "md5hash": "2146decd030993d210db0e145cf1a024",
+      "lines": {
+        "62": "            HWPFDocumentCore hwpfDocument = WordToHtmlUtils.loadDoc(fileInputStream);",
+        "21": "",
+        "22": "import org.apache.poi.hwpf.HWPFDocumentCore;",
+        "61": "            "
+      },
+      "id": 97383050,
+      "filename": "SimpleWord2Html.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 660,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384407/",
+      "md5hash": "d9e337622aaacee6d2790b7572b0af11",
+      "lines": {
+        "100": "    {",
+        "21": "",
+        "22": "import org.apache.poi.hwpf.HWPFDocumentCore;",
+        "101": "        HWPFDocumentCore doc = parent._doc;"
+      },
+      "id": 97384407,
+      "filename": "Paragraph.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1043,
+      "location": "/src/org/apache/poi/hwpf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383956/",
+      "md5hash": "677c332698819342ff2ece2baf93a4ed",
+      "lines": {
+        "81": "@SuppressWarnings(\"deprecation\")",
+        "82": "public final class HWPFDocument extends HWPFDocumentCore"
+      },
+      "id": 97383956,
+      "filename": "HWPFDocument.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

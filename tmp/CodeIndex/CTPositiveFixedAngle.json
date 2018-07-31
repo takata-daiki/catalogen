@@ -1,0 +1,328 @@
+{
+  "matchterm": "CTPositiveFixedAngle",
+  "previouspage": null,
+  "searchterm": "CTPositiveFixedAngle",
+  "query": "CTPositiveFixedAngle",
+  "language_filters": [
+    {
+      "count": 15,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 15,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 47,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402324/",
+      "md5hash": "51564827d48c919141db586e34dfd773",
+      "lines": {
+        "16": "public interface CTPositiveFixedAngle extends org.apache.xmlbeans.XmlObject",
+        "19": "        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CTPositiveFixedAngle.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sE130CAA0A01A7CDE5A2B4FEB8B311707\").resolveHandle(\"ctpositivefixedangle78f3type\");",
+        "18": "    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle",
+        "15": " */"
+      },
+      "id": 97402324,
+      "filename": "CTPositiveFixedAngle.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 71,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642003/",
+      "md5hash": "0ffcb890be6dae241676934cb4790875",
+      "lines": {
+        "48": "@XmlType(name = \"CT_PositiveFixedAngle\")",
+        "49": "public class CTPositiveFixedAngle {"
+      },
+      "id": 17642003,
+      "filename": "CTPositiveFixedAngle.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 3480,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642161/",
+      "md5hash": "ecaf98912e449049698e790afd5f5c5a",
+      "lines": {
+        "233": "    /**",
+        "234": "     * Create an instance of {@link CTPositiveFixedAngle }",
+        "236": "     */",
+        "237": "    public CTPositiveFixedAngle createCTPositiveFixedAngle() {",
+        "238": "        return new CTPositiveFixedAngle();",
+        "239": "    }",
+        "2039": "    /**",
+        "2040": "     * Create an instance of {@link JAXBElement }{@code <}{@link CTPositiveFixedAngle }{@code >}}",
+        "2043": "    @XmlElementDecl(namespace = \"http://schemas.openxmlformats.org/drawingml/2006/main\", name = \"hue\", scope = CTSchemeColor.class)",
+        "2044": "    public JAXBElement<CTPositiveFixedAngle> createCTSchemeColorHue(CTPositiveFixedAngle value) {",
+        "2045": "        return new JAXBElement<CTPositiveFixedAngle>(_CTSchemeColorHue_QNAME, CTPositiveFixedAngle.class, CTSchemeColor.class, value);",
+        "2046": "    }"
+      },
+      "id": 17642161,
+      "filename": "ObjectFactory.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1404,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402117/",
+      "md5hash": "eac93e4519741722a8166b013f9837e4",
+      "lines": {
+        "417": "     */",
+        "418": "    void setHueArray(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle hue);",
+        "427": "     */",
+        "422": "     */",
+        "391": "     */",
+        "392": "    java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle> getHueList();",
+        "423": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle insertNewHue(int i);",
+        "428": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle addNewHue();",
+        "397": "     */",
+        "398": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle[] getHueArray();",
+        "402": "     */",
+        "403": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle getHueArray(int i);",
+        "412": "     */",
+        "413": "    void setHueArray(org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle[] hueArray);"
+      },
+      "id": 97402117,
+      "filename": "CTSRgbColor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1345,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402198/",
+      "md5hash": "3907cd7d3430e46368388d574288cfe8",
+      "lines": {
+        "417": "     */",
+        "418": "    void setHueArray(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle hue);",
+        "427": "     */",
+        "422": "     */",
+        "391": "     */",
+        "392": "    java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle> getHueList();",
+        "423": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle insertNewHue(int i);",
+        "428": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle addNewHue();",
+        "397": "     */",
+        "398": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle[] getHueArray();",
+        "402": "     */",
+        "403": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle getHueArray(int i);",
+        "412": "     */",
+        "413": "    void setHueArray(org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle[] hueArray);"
+      },
+      "id": 97402198,
+      "filename": "CTPresetColor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1375,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402298/",
+      "md5hash": "489021c5c89506cdfb4601f2a54f5f0d",
+      "lines": {
+        "417": "     */",
+        "418": "    void setHueArray(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle hue);",
+        "427": "     */",
+        "422": "     */",
+        "391": "     */",
+        "392": "    java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle> getHueList();",
+        "423": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle insertNewHue(int i);",
+        "428": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle addNewHue();",
+        "397": "     */",
+        "398": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle[] getHueArray();",
+        "402": "     */",
+        "403": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle getHueArray(int i);",
+        "412": "     */",
+        "413": "    void setHueArray(org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle[] hueArray);"
+      },
+      "id": 97402298,
+      "filename": "CTHslColor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1444,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402422/",
+      "md5hash": "07a13830019636560f8d82872b3ad85c",
+      "lines": {
+        "417": "     */",
+        "418": "    void setHueArray(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle hue);",
+        "427": "     */",
+        "422": "     */",
+        "391": "     */",
+        "392": "    java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle> getHueList();",
+        "423": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle insertNewHue(int i);",
+        "428": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle addNewHue();",
+        "397": "     */",
+        "398": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle[] getHueArray();",
+        "402": "     */",
+        "403": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle getHueArray(int i);",
+        "412": "     */",
+        "413": "    void setHueArray(org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle[] hueArray);"
+      },
+      "id": 97402422,
+      "filename": "CTScRgbColor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1335,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402860/",
+      "md5hash": "a6e24df35d4e66341d4bca693f0ee0ea",
+      "lines": {
+        "417": "     */",
+        "418": "    void setHueArray(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle hue);",
+        "427": "     */",
+        "422": "     */",
+        "391": "     */",
+        "392": "    java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle> getHueList();",
+        "423": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle insertNewHue(int i);",
+        "428": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle addNewHue();",
+        "397": "     */",
+        "398": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle[] getHueArray();",
+        "402": "     */",
+        "403": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle getHueArray(int i);",
+        "412": "     */",
+        "413": "    void setHueArray(org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle[] hueArray);"
+      },
+      "id": 97402860,
+      "filename": "CTSchemeColor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 94,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403444/",
+      "md5hash": "6e4e494abd1647db48c88bc914170014",
+      "lines": {
+        "16": "    ",
+        "17": "    public CTPositiveFixedAngleImpl(org.apache.xmlbeans.SchemaType sType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle",
+        "13": " */",
+        "14": "public class CTPositiveFixedAngleImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveFixedAngle"
+      },
+      "id": 97403444,
+      "filename": "CTPositiveFixedAngleImpl.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 176,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642025/",
+      "md5hash": "8f032efa515dc031c27fc48fd4c45223",
+      "lines": {
+        "123": "     * {@link JAXBElement }{@code <}{@link CTPositiveFixedPercentage }{@code >}",
+        "124": "     * {@link JAXBElement }{@code <}{@link CTPositiveFixedAngle }{@code >}"
+      },
+      "id": 17642025,
+      "filename": "CTPresetColor.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 176,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642030/",
+      "md5hash": "356b78f9d9fbf4490ab501da44c18966",
+      "lines": {
+        "138": "     * {@link JAXBElement }{@code <}{@link CTPercentage }{@code >}",
+        "139": "     * {@link JAXBElement }{@code <}{@link CTPositiveFixedAngle }{@code >}"
+      },
+      "id": 17642030,
+      "filename": "CTSchemeColor.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 206,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642037/",
+      "md5hash": "0471bccb52cc865af8c91912d741dce0",
+      "lines": {
+        "144": "     * {@link JAXBElement }{@code <}{@link CTPositiveFixedAngle }{@code >}",
+        "143": "     * {@link JAXBElement }{@code <}{@link CTPercentage }{@code >}"
+      },
+      "id": 17642037,
+      "filename": "CTHslColor.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 179,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642153/",
+      "md5hash": "1e2f5f7c2e8f4ec5d3a6cfbd964715a3",
+      "lines": {
+        "136": "     * {@link JAXBElement }{@code <}{@link CTPositiveFixedAngle }{@code >}",
+        "135": "     * {@link JAXBElement }{@code <}{@link CTGammaTransform }{@code >}"
+      },
+      "id": 17642153,
+      "filename": "CTSRgbColor.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 206,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642208/",
+      "md5hash": "a826f1eda31c73100541b9307de93013",
+      "lines": {
+        "128": "     * {@link JAXBElement }{@code <}{@link CTPercentage }{@code >}",
+        "129": "     * {@link JAXBElement }{@code <}{@link CTPositiveFixedAngle }{@code >}"
+      },
+      "id": 17642208,
+      "filename": "CTScRgbColor.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 208,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642227/",
+      "md5hash": "fedb5cc55ad7a483c2859d6ac7b5f0f4",
+      "lines": {
+        "130": "     * {@link JAXBElement }{@code <}{@link CTPositivePercentage }{@code >}",
+        "131": "     * {@link JAXBElement }{@code <}{@link CTPositiveFixedAngle }{@code >}"
+      },
+      "id": 17642227,
+      "filename": "CTSystemColor.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 15,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

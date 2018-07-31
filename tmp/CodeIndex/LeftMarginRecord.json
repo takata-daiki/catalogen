@@ -1,0 +1,312 @@
+{
+  "matchterm": "LeftMarginRecord",
+  "previouspage": null,
+  "searchterm": "LeftMarginRecord",
+  "query": "LeftMarginRecord",
+  "language_filters": [
+    {
+      "count": 17,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 17,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 132,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642514/",
+      "md5hash": "8489e288295037abed6086aab1894f8c",
+      "lines": {
+        "48": " */",
+        "49": "public class LeftMarginRecord extends Record implements Margin",
+        "53": "",
+        "54": "    public LeftMarginRecord()    {    }",
+        "60": "     */",
+        "61": "    public LeftMarginRecord(RecordInputStream in)",
+        "126": "    {",
+        "127": "        LeftMarginRecord rec = new LeftMarginRecord();"
+      },
+      "id": 15642514,
+      "filename": "LeftMarginRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 34,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260329/",
+      "md5hash": "2c631a56a89b74c1621379d206a78f63",
+      "lines": {
+        "26": " */",
+        "27": "class LeftMarginRecord extends MarginRecord",
+        "28": "{",
+        "29": "  LeftMarginRecord(double v)"
+      },
+      "id": 43260329,
+      "filename": "LeftMarginRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 39,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260423/",
+      "md5hash": "a5e16d112558d792290499a3d179ae3f",
+      "lines": {
+        "33": "   */",
+        "26": " */",
+        "27": "class LeftMarginRecord extends MarginRecord",
+        "34": "  LeftMarginRecord(Record r)"
+      },
+      "id": 43260423,
+      "filename": "LeftMarginRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 34,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200857/",
+      "md5hash": "2c631a56a89b74c1621379d206a78f63",
+      "lines": {
+        "26": " */",
+        "27": "class LeftMarginRecord extends MarginRecord",
+        "28": "{",
+        "29": "  LeftMarginRecord(double v)"
+      },
+      "id": 49200857,
+      "filename": "LeftMarginRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 39,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200951/",
+      "md5hash": "a5e16d112558d792290499a3d179ae3f",
+      "lines": {
+        "33": "   */",
+        "26": " */",
+        "27": "class LeftMarginRecord extends MarginRecord",
+        "34": "  LeftMarginRecord(Record r)"
+      },
+      "id": 49200951,
+      "filename": "LeftMarginRecord.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 34,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/write/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374625/",
+      "md5hash": "742db8a65a5d5c5be1237c74288791c8",
+      "lines": {
+        "26": " */",
+        "27": "class LeftMarginRecord extends MarginRecord",
+        "28": "{",
+        "29": "  LeftMarginRecord(double v)"
+      },
+      "id": 11374625,
+      "filename": "LeftMarginRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 3300,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642365/",
+      "md5hash": "1e8d548d196dc1063c30d9430b35b9f5",
+      "lines": {
+        "275": "            }",
+        "276": "            else if ( rec.getSid() == LeftMarginRecord.sid)",
+        "277": "            {",
+        "278": "                retval.getMargins()[LeftMargin] = (LeftMarginRecord) rec;",
+        "2396": "\t\tcase LeftMargin:",
+        "2397": "\t\t    m = new LeftMarginRecord();"
+      },
+      "id": 15642365,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642343/",
+      "md5hash": "468caa59753e7c2d27a76f3903f70894",
+      "lines": {
+        "89": "import loci.poi.hssf.record.LabelSSTRecord;",
+        "90": "import loci.poi.hssf.record.LeftMarginRecord;",
+        "181": "                BoolErrRecord.class, ExternSheetRecord.class, NameRecord.class,",
+        "182": "                LeftMarginRecord.class, RightMarginRecord.class,"
+      },
+      "id": 15642343,
+      "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 1148,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260286/",
+      "md5hash": "ffa1236c86df17622a6a9299c36353c8",
+      "lines": {
+        "342": "    {",
+        "343": "      MarginRecord mr = new LeftMarginRecord(settings.getLeftMargin());"
+      },
+      "id": 43260286,
+      "filename": "SheetWriter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 1850,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260387/",
+      "md5hash": "7f91270abbfb3387b7abcd30255c0a02",
+      "lines": {
+        "912": "        MarginRecord m = new LeftMarginRecord(r);",
+        "911": "      {"
+      },
+      "id": 43260387,
+      "filename": "SheetReader.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 1148,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200814/",
+      "md5hash": "ffa1236c86df17622a6a9299c36353c8",
+      "lines": {
+        "342": "    {",
+        "343": "      MarginRecord mr = new LeftMarginRecord(settings.getLeftMargin());"
+      },
+      "id": 49200814,
+      "filename": "SheetWriter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 1850,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200915/",
+      "md5hash": "7f91270abbfb3387b7abcd30255c0a02",
+      "lines": {
+        "912": "        MarginRecord m = new LeftMarginRecord(r);",
+        "911": "      {"
+      },
+      "id": 49200915,
+      "filename": "SheetReader.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1850,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/read/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374407/",
+      "md5hash": "7f91270abbfb3387b7abcd30255c0a02",
+      "lines": {
+        "912": "        MarginRecord m = new LeftMarginRecord(r);",
+        "911": "      {"
+      },
+      "id": 11374407,
+      "filename": "SheetReader.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1148,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/write/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374608/",
+      "md5hash": "d2bb3c01a6178871cd169bd35ec691ea",
+      "lines": {
+        "342": "    {",
+        "343": "      MarginRecord mr = new LeftMarginRecord(settings.getLeftMargin());"
+      },
+      "id": 11374608,
+      "filename": "SheetWriter.java"
+    },
+    {
+      "repo": "http://brainstream.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1901,
+      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/read/biff",
+      "name": "brainstream",
+      "url": "https://searchcode.com/codesearch/view/13919585/",
+      "md5hash": "64420fd674275ba389b00cf0c5263661",
+      "lines": {
+        "912": "      {",
+        "913": "        MarginRecord m = new LeftMarginRecord(r);"
+      },
+      "id": 13919585,
+      "filename": "SheetReader.java"
+    },
+    {
+      "repo": "http://brainstream.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1148,
+      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/write/biff",
+      "name": "brainstream",
+      "url": "https://searchcode.com/codesearch/view/13919791/",
+      "md5hash": "5094787ddf1c15c3bd7058fdd6237342",
+      "lines": {
+        "342": "    {",
+        "343": "      MarginRecord mr = new LeftMarginRecord(settings.getLeftMargin());"
+      },
+      "id": 13919791,
+      "filename": "SheetWriter.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "91": "                FormulaRecord.class, BoolErrRecord.class, ExternSheetRecord.class,",
+        "92": "                NameRecord.class, LeftMarginRecord.class, RightMarginRecord.class,"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 8,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 5,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

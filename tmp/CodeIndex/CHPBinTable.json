@@ -1,0 +1,83 @@
+{
+  "matchterm": "CHPBinTable",
+  "previouspage": null,
+  "searchterm": "CHPBinTable",
+  "query": "CHPBinTable",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/AlexeyD/hibench.git",
+      "language": "Java",
+      "linescount": 232,
+      "location": "/nutchindexing/nutch-1.2/src/plugin/parse-msword/src/java/org/apache/nutch/parse/msword",
+      "name": "hibench",
+      "url": "https://searchcode.com/codesearch/view/48925096/",
+      "md5hash": "201b11b383ec9671f21b7ecae9a90b52",
+      "lines": {
+        "24": "import org.apache.poi.hwpf.model.CHPBinTable;",
+        "125": "    TextPieceTable tpt = cft.getTextPieceTable();",
+        "126": "    CHPBinTable cbt = new CHPBinTable(header, tableStream, chpOffset, chpSize, fcMin, tpt);",
+        "23": "// Jakarta POI imports"
+      },
+      "id": 48925096,
+      "filename": "WordExtractor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1043,
+      "location": "/src/org/apache/poi/hwpf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383956/",
+      "md5hash": "677c332698819342ff2ece2baf93a4ed",
+      "lines": {
+        "272": "    //  for where text really begin",
+        "273": "    _cbt = new CHPBinTable(_mainStream, _tableStream, _fib.getFcPlcfbteChpx(), _fib.getLcbPlcfbteChpx(), _tpt);",
+        "728": "",
+        "729": "    // write out the CHPBinTable.",
+        "29": "import org.apache.poi.hwpf.model.BookmarksTables;",
+        "30": "import org.apache.poi.hwpf.model.CHPBinTable;"
+      },
+      "id": 97383956,
+      "filename": "HWPFDocument.java"
+    },
+    {
+      "repo": "https://github.com/lritter/gnutch.git",
+      "language": "Java",
+      "linescount": 231,
+      "location": "/src/plugin/parse-msword/src/java/org/apache/nutch/parse/msword",
+      "name": "gnutch",
+      "url": "https://searchcode.com/codesearch/view/138792453/",
+      "md5hash": "40789e266310b897b848347166114477",
+      "lines": {
+        "24": "import org.apache.poi.hwpf.model.CHPBinTable;",
+        "121": "    int fcMin = LittleEndian.getInt(header, 0x18);",
+        "122": "    CHPBinTable cbt = new CHPBinTable(header, tableStream, chpOffset, chpSize, fcMin);",
+        "23": "// Jakarta POI imports"
+      },
+      "id": 138792453,
+      "filename": "WordExtractor.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

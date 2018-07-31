@@ -1,0 +1,67 @@
+{
+  "matchterm": "XWPFNum",
+  "previouspage": null,
+  "searchterm": "XWPFNum",
+  "query": "XWPFNum",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 1398,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter.core/src/main/java/org/apache/poi/xwpf/converter/core",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96672565/",
+      "md5hash": "2ee0d9cfda1138ee93328b854d5e99ce",
+      "lines": {
+        "470": "",
+        "295": "             */",
+        "296": "            XWPFNum num = getXWPFNum( numPr );",
+        "457": "",
+        "458": "    protected XWPFNum getXWPFNum( CTNumPr numPr )",
+        "333": "        {",
+        "334": "            XWPFNum num = getXWPFNum( numPr );",
+        "466": "        }",
+        "467": "        XWPFNum num = document.getNumbering().getNum( numID.getVal() );",
+        "53": "import org.apache.poi.xwpf.usermodel.XWPFHyperlinkRun;",
+        "54": "import org.apache.poi.xwpf.usermodel.XWPFNum;",
+        "471": "    protected XWPFAbstractNum getXWPFAbstractNum( XWPFNum num )"
+      },
+      "id": 96672565,
+      "filename": "XWPFDocumentVisitor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 884,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal/itext",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673303/",
+      "md5hash": "58f5f4b9d6f4406c0fcea13e358fb18b",
+      "lines": {
+        "57": "import org.apache.poi.xwpf.usermodel.XWPFHeader;",
+        "58": "import org.apache.poi.xwpf.usermodel.XWPFNum;",
+        "323": "                CTDecimalNumber numID = numPr.getNumId();",
+        "324": "                XWPFNum num = document.getNumbering().getNum( numID.getVal() );"
+      },
+      "id": 96673303,
+      "filename": "PDFMapper.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

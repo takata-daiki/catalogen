@@ -1,0 +1,427 @@
+{
+  "matchterm": "HSSFDateUtil",
+  "previouspage": null,
+  "searchterm": "HSSFDateUtil",
+  "query": "HSSFDateUtil",
+  "language_filters": [
+    {
+      "count": 31,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 31,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 367,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642319/",
+      "md5hash": "d991225d8b2649639f318ec0bc2acadc",
+      "lines": {
+        "64": "    private HSSFDateUtil()",
+        "291": "        double d = cell.getNumericCellValue();",
+        "292": "        if ( HSSFDateUtil.isValidExcelDate(d) ) {",
+        "62": "public class HSSFDateUtil",
+        "271": "        if ( HSSFDateUtil.isValidExcelDate(d) ) {",
+        "61": "",
+        "270": "        double d = cell.getNumericCellValue();",
+        "63": "{"
+      },
+      "id": 15642319,
+      "filename": "HSSFDateUtil.java"
+    },
+    {
+      "repo": "https://bitbucket.org/dyp/geotools.git",
+      "language": "Java",
+      "linescount": 309,
+      "location": "/modules/unsupported/excel/src/main/java/org/geotools/data/excel",
+      "name": "geotools",
+      "url": "https://searchcode.com/codesearch/view/47133171/",
+      "md5hash": "fe30f879878fbc312da81ba6f54ea9fc",
+      "lines": {
+        "131": "                        }else if (clazz == java.sql.Date.class) {",
+        "132": "                            final java.util.Date javaDate = HSSFDateUtil.getJavaDate(value",
+        "261": "                case Cell.CELL_TYPE_NUMERIC:",
+        "262": "                    if (HSSFDateUtil.isCellDateFormatted(cell)) {",
+        "139": "                        }else if (clazz == java.util.Date.class) {",
+        "140": "                            final java.util.Date javaDate = HSSFDateUtil.getJavaDate(value",
+        "143": "                        }else if (clazz == Time.class) {",
+        "144": "                            final java.util.Date javaDate = HSSFDateUtil.getJavaDate(value",
+        "84": "        super(entry, query);",
+        "85": "        Date beginingOfExcelTime = HSSFDateUtil.getJavaDate(0);",
+        "24": "",
+        "25": "import org.apache.poi.hssf.usermodel.HSSFDateUtil;"
+      },
+      "id": 47133171,
+      "filename": "ExcelFeatureSource.java"
+    },
+    {
+      "repo": "https://bitbucket.org/markjenkins/libreoffice_ubuntu-debian-fixes.git",
+      "language": "Java",
+      "linescount": 232,
+      "location": "/reportbuilder/java/com/sun/star/report/pentaho/layoutprocessor",
+      "name": "libreoffice_ubuntu-debian-fixes",
+      "url": "https://searchcode.com/codesearch/view/45021328/",
+      "md5hash": "e1ddb467dc7c1fbd42df7afc4d9a2690",
+      "lines": {
+        "120": "            {",
+        "130": "            variableSection.setAttribute(OfficeNamespaces.OFFICE_NS, VALUE_TYPE, \"float\");",
+        "131": "            variableSection.setAttribute(OfficeNamespaces.OFFICE_NS, VALUE, HSSFDateUtil.getExcelDate((Date) value, false, 2).toString());",
+        "137": "                variableSection.setAttribute(OfficeNamespaces.OFFICE_NS, \"date-value\", formatDate(HSSFDateUtil.getJavaDate((BigDecimal) value, false, 0)));",
+        "39": "",
+        "40": "import org.pentaho.reporting.libraries.formula.util.HSSFDateUtil;",
+        "121": "                variableSection.setAttribute(OfficeNamespaces.OFFICE_NS, VALUE, HSSFDateUtil.getExcelDate((Date) value, false, 2).toString());",
+        "136": "            {",
+        "77": "            variableSection.setAttribute(OfficeNamespaces.OFFICE_NS, VALUE_TYPE, \"float\");",
+        "78": "            ret = HSSFDateUtil.getExcelDate((Date) value, false, 2).toString();"
+      },
+      "id": 45021328,
+      "filename": "FormatValueUtility.java"
+    },
+    {
+      "repo": "https://github.com/frank19900731/NewsExtractor.git",
+      "language": "Java",
+      "linescount": 203,
+      "location": "/src/com/Frank",
+      "name": "NewsExtractor",
+      "url": "https://searchcode.com/codesearch/view/71586384/",
+      "md5hash": "b5379cf7d138e0cf4e5b2366e8ad2254",
+      "lines": {
+        "98": "\t\t\t\t\t\t\t\t\tif (aCell.getCellType() == HSSFCell.CELL_TYPE_NUMERIC) {",
+        "99": "\t\t\t\t\t\t\t\t\t\tif (HSSFDateUtil.isCellDateFormatted(aCell)) {",
+        "100": "\t\t\t\t\t\t\t\t\t\t\tdouble d = aCell.getNumericCellValue();",
+        "101": "\t\t\t\t\t\t\t\t\t\t\tDate date = HSSFDateUtil.getJavaDate(d);",
+        "23": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "24": "import org.apache.poi.hssf.usermodel.HSSFDateUtil;"
+      },
+      "id": 71586384,
+      "filename": "ExcelHandler.java"
+    },
+    {
+      "repo": "https://github.com/impetus-opensource/Kundera.git",
+      "language": "Java",
+      "linescount": 238,
+      "location": "/examples/polyglot/kvapps/src/main/java/com/impetus/kvapps/runner",
+      "name": "Kundera",
+      "url": "https://searchcode.com/codesearch/view/114294203/",
+      "md5hash": "d11fdd5dd9f3aecd7f813b78f2de119a",
+      "lines": {
+        "176": "                {",
+        "177": "                    if (HSSFDateUtil.isValidExcelDate(value))",
+        "178": "                    {",
+        "179": "                        Date date = HSSFDateUtil.getJavaDate(value);",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "29": "import org.apache.poi.hssf.usermodel.HSSFDateUtil;",
+        "174": "                if (HSSFDateUtil.isCellDateFormatted(cell))",
+        "173": "                double value = cell.getNumericCellValue();"
+      },
+      "id": 114294203,
+      "filename": "UserBroker.java"
+    },
+    {
+      "repo": "https://bitbucket.org/mst/ooo340",
+      "language": "Java",
+      "linescount": 214,
+      "location": "/reportbuilder/java/com/sun/star/report/pentaho/layoutprocessor",
+      "name": "ooo340",
+      "url": "https://searchcode.com/codesearch/view/122086242/",
+      "md5hash": "276a409e36b8f88b97b34632585a6543",
+      "lines": {
+        "128": "            variableSection.setAttribute(OfficeNamespaces.OFFICE_NS, VALUE_TYPE, \"float\");",
+        "129": "            variableSection.setAttribute(OfficeNamespaces.OFFICE_NS, VALUE, HSSFDateUtil.getExcelDate((Date) value, false, 2).toString());",
+        "82": "            variableSection.setAttribute(OfficeNamespaces.OFFICE_NS, VALUE_TYPE, \"float\");",
+        "83": "            ret = HSSFDateUtil.getExcelDate((Date) value, false, 2).toString();",
+        "43": "import org.pentaho.reporting.libraries.formula.util.DateUtil;",
+        "44": "import org.pentaho.reporting.libraries.formula.util.HSSFDateUtil;"
+      },
+      "id": 122086242,
+      "filename": "FormatValueUtility.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghooning/pentaho-kettle-4.3.0-stable.git",
+      "language": "Java",
+      "linescount": 135,
+      "location": "/src/org/pentaho/di/trans/steps/excelinput/poi",
+      "name": "pentaho-kettle-4.3.0-stable",
+      "url": "https://searchcode.com/codesearch/view/42462287/",
+      "md5hash": "e79793875111355210dc664e11d3c946",
+      "lines": {
+        "50": "\t\telse if (type == Cell.CELL_TYPE_NUMERIC) {",
+        "51": "\t\t\tif (HSSFDateUtil.isCellDateFormatted(cell)) {",
+        "73": "\t\t\t\tcase Cell.CELL_TYPE_NUMERIC:",
+        "74": "\t\t\t\t\tif (HSSFDateUtil.isCellDateFormatted(cell)) {",
+        "27": "",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDateUtil;"
+      },
+      "id": 42462287,
+      "filename": "PoiCell.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1062,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642303/",
+      "md5hash": "a320b63ccf16b2c1798c3d8c1abc8ed7",
+      "lines": {
+        "545": "    {",
+        "546": "        setCellValue(HSSFDateUtil.getExcelDate(value));",
+        "980": "    \t\t\t//TODO apply the dataformat for this cell",
+        "981": "    \t\t\tif (HSSFDateUtil.isCellDateFormatted(this)) {",
+        "729": "        if (book.isUsing1904DateWindowing()) {",
+        "730": "            return HSSFDateUtil.getJavaDate(value,true);",
+        "732": "        else {",
+        "733": "            return HSSFDateUtil.getJavaDate(value,false);"
+      },
+      "id": 15642303,
+      "filename": "HSSFCell.java"
+    },
+    {
+      "repo": "https://github.com/teruok78/pentaho-kettle.git",
+      "language": "Java",
+      "linescount": 126,
+      "location": "/engine/src/org/pentaho/di/trans/steps/excelinput/poi",
+      "name": "pentaho-kettle",
+      "url": "https://searchcode.com/codesearch/view/95326016/",
+      "md5hash": "1b11546bc7c13d20a6a24d5f4dd54d4c",
+      "lines": {
+        "65": "        case Cell.CELL_TYPE_NUMERIC:",
+        "66": "          if ( HSSFDateUtil.isCellDateFormatted( cell ) ) {",
+        "27": "",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDateUtil;",
+        "46": "    } else if ( type == Cell.CELL_TYPE_NUMERIC ) {",
+        "47": "      if ( HSSFDateUtil.isCellDateFormatted( cell ) ) {"
+      },
+      "id": 95326016,
+      "filename": "PoiCell.java"
+    },
+    {
+      "repo": "https://github.com/TuWei1992/excel-parser.git",
+      "language": "Java",
+      "linescount": 180,
+      "location": "/src/main/java/com/thoughtworks/excelparser/helper",
+      "name": "excel-parser",
+      "url": "https://searchcode.com/codesearch/view/96185602/",
+      "md5hash": "7e2577b17990c75ee66a12fbf5cf9140",
+      "lines": {
+        "129": "\t\t}",
+        "130": "\t\treturn HSSFDateUtil.getJavaDate(cell.getNumericCellValue());",
+        "8": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "9": "import org.apache.poi.hssf.usermodel.HSSFDateUtil;",
+        "123": "\t\ttry {",
+        "124": "\t\t\tif (!HSSFDateUtil.isCellDateFormatted(cell)) {"
+      },
+      "id": 96185602,
+      "filename": "HSSFHelper.java"
+    },
+    {
+      "repo": "http://syracava.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 424,
+      "location": "/SyracavaMVC/JavaSource/prj/hoboken/patrasche/service/poi",
+      "name": "syracava",
+      "url": "https://searchcode.com/codesearch/view/13037988/",
+      "md5hash": "9223714dbe6ad2d651ec6d15119e7a2c",
+      "lines": {
+        "337": "     * ",
+        "338": "     * ?????? POI ????? HSSFDateUtil.isInternalDateFormat() ???????????????",
+        "339": "     * HSSFDateUtil.isInternalDateFormat() ????????????????????????????????????",
+        "20": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "21": "import org.apache.poi.hssf.usermodel.HSSFDateUtil;",
+        "377": "        } else if (HSSFDateUtil.isCellDateFormatted(hssfcell)) {",
+        "376": "            ",
+        "340": "     * ???????"
+      },
+      "id": 13037988,
+      "filename": "SpreadUtil.java"
+    },
+    {
+      "repo": "https://github.com/kuguobing/dddlib.git",
+      "language": "Java",
+      "linescount": 34,
+      "location": "/excel/src/main/java/com/dayatang/excel",
+      "name": "dddlib",
+      "url": "https://searchcode.com/codesearch/view/76067650/",
+      "md5hash": "7542da6209e1d8aca411ec2708b4d6f6",
+      "lines": {
+        "12": "\t\t\treturn value == null ? null : HSSFDateUtil.getJavaDate(value, isDate1904);",
+        "11": "\t\tpublic Date getDate(Double value, boolean isDate1904) {",
+        "4": "",
+        "5": "import org.apache.poi.hssf.usermodel.HSSFDateUtil;"
+      },
+      "id": 76067650,
+      "filename": "Version.java"
+    },
+    {
+      "repo": "https://bitbucket.org/wikier/google-refine",
+      "language": "Java",
+      "linescount": 296,
+      "location": "/main/src/com/google/refine/importers",
+      "name": "google-refine",
+      "url": "https://searchcode.com/codesearch/view/130339268/",
+      "md5hash": "b95cb1485ad7113cdb4ca963ec6fe7d3",
+      "lines": {
+        "222": "                // TODO: If we had a time datatype, we could use something like the following",
+        "219": "            ",
+        "220": "            if (HSSFDateUtil.isCellDateFormatted(cell)) {",
+        "221": "                value = HSSFDateUtil.getJavaDate(d);",
+        "46": "import org.apache.poi.common.usermodel.Hyperlink;",
+        "47": "import org.apache.poi.hssf.usermodel.HSSFDateUtil;"
+      },
+      "id": 130339268,
+      "filename": "ExcelImporter.java"
+    },
+    {
+      "repo": "https://github.com/wufei1310/jucheback.git",
+      "language": "Java",
+      "linescount": 178,
+      "location": "/src/com/dongwang/admin/util",
+      "name": "jucheback",
+      "url": "https://searchcode.com/codesearch/view/99885343/",
+      "md5hash": "a8a1c5416600ad1dbd155008f6dce27e",
+      "lines": {
+        "136": "                case 0: // '\\0'",
+        "137": "                    if (HSSFDateUtil.isCellDateFormatted(cell)) {",
+        "138": "                        value = HSSFDateUtil.getJavaDate(cell.getNumericCellValue()).toString();",
+        "139": "                    } else {"
+      },
+      "id": 99885343,
+      "filename": "ExcelUtil.java"
+    },
+    {
+      "repo": "http://google-refine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 296,
+      "location": "/main/src/com/google/refine/importers",
+      "name": "google-refine",
+      "url": "https://searchcode.com/codesearch/view/2365975/",
+      "md5hash": "b95cb1485ad7113cdb4ca963ec6fe7d3",
+      "lines": {
+        "222": "                // TODO: If we had a time datatype, we could use something like the following",
+        "219": "            ",
+        "220": "            if (HSSFDateUtil.isCellDateFormatted(cell)) {",
+        "221": "                value = HSSFDateUtil.getJavaDate(d);",
+        "46": "import org.apache.poi.common.usermodel.Hyperlink;",
+        "47": "import org.apache.poi.hssf.usermodel.HSSFDateUtil;"
+      },
+      "id": 2365975,
+      "filename": "ExcelImporter.java"
+    },
+    {
+      "repo": "http://jxstar.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 128,
+      "location": "/jxstar-test/org/jxstar/util",
+      "name": "jxstar",
+      "url": "https://searchcode.com/codesearch/view/12898660/",
+      "md5hash": "91e3b9430a518542fc248a04b3d0b5ba",
+      "lines": {
+        "59": "                                         value = HSSFDateUtil.getJavaDate( ",
+        "6": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "55": "                                    \t",
+        "56": "                                         if (HSSFDateUtil.isCellDateFormatted( ",
+        "58": "                                         //???date??? ????cell?date? ",
+        "7": "import org.apache.poi.hssf.usermodel.HSSFDateUtil;"
+      },
+      "id": 12898660,
+      "filename": "ReadXls.java"
+    },
+    {
+      "repo": "http://filesearch.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 241,
+      "location": "/filesearch/SearchLocalFile/src/com/searchlocal/filereader",
+      "name": "filesearch",
+      "url": "https://searchcode.com/codesearch/view/14046019/",
+      "md5hash": "be6ab22e16fe5ee369375c82e0f7f8c2",
+      "lines": {
+        "195": "\t\tcase HSSFCell.CELL_TYPE_NUMERIC:",
+        "196": "\t\t\tif (HSSFDateUtil.isCellDateFormatted(cell)) {",
+        "171": "\t\tcase XSSFCell.CELL_TYPE_NUMERIC:",
+        "172": "\t\t\tif (HSSFDateUtil.isCellDateFormatted(cell)) {",
+        "14": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "15": "import org.apache.poi.hssf.usermodel.HSSFDateUtil;"
+      },
+      "id": 14046019,
+      "filename": "ExcelToDicReader.java"
+    },
+    {
+      "repo": "http://filesearch.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 204,
+      "location": "/filesearch/SearchLocalFile/src/com/searchlocal/filereader",
+      "name": "filesearch",
+      "url": "https://searchcode.com/codesearch/view/14046020/",
+      "md5hash": "5f77e78c971a439abb336bfd6fed2512",
+      "lines": {
+        "148": "\t\tcase HSSFCell.CELL_TYPE_NUMERIC:",
+        "149": "\t\t\tif (HSSFDateUtil.isCellDateFormatted(cell)) {",
+        "12": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "172": "\t\tcase XSSFCell.CELL_TYPE_NUMERIC:",
+        "13": "import org.apache.poi.hssf.usermodel.HSSFDateUtil;",
+        "173": "\t\t\tif (HSSFDateUtil.isCellDateFormatted(cell)) {"
+      },
+      "id": 14046020,
+      "filename": "ExcelReader.java"
+    },
+    {
+      "repo": "http://ala-portal.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 122,
+      "location": "/sensitive-species/src/main/java/au/org/ala/sds/dao",
+      "name": "ala-portal",
+      "url": "https://searchcode.com/codesearch/view/14075406/",
+      "md5hash": "62c96fd57ea33cd104f77ac9ba8bde72",
+      "lines": {
+        "96": "                                    } else {",
+        "93": "                                try {",
+        "12": "import org.apache.log4j.Logger;",
+        "13": "import org.apache.poi.hssf.usermodel.HSSFDateUtil;",
+        "94": "                                    if (HSSFDateUtil.isCellDateFormatted(cell)) {",
+        "95": "                                        facts.put(key, DateHelper.formattedIso8601Date(HSSFDateUtil.getJavaDate(d)));"
+      },
+      "id": 14075406,
+      "filename": "DataStreamExcelDao.java"
+    },
+    {
+      "repo": "https://github.com/OVERSKY2003/jfinal-ext.git",
+      "language": "Java",
+      "linescount": 409,
+      "location": "/src/main/java/com/jfinal/ext/interceptor/excel",
+      "name": "jfinal-ext",
+      "url": "https://searchcode.com/codesearch/view/92634884/",
+      "md5hash": "bdae9de05d2d7189b47208104fd1661e",
+      "lines": {
+        "89": "                            String result2 = String.valueOf(hc.getNumericCellValue());",
+        "90": "                            if (HSSFDateUtil.isCellDateFormatted(hc)) {",
+        "21": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "22": "import org.apache.poi.hssf.usermodel.HSSFDateUtil;"
+      },
+      "id": 92634884,
+      "filename": "ExcelTools.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 15,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 9,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 7,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

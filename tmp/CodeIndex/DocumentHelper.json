@@ -1,0 +1,449 @@
+{
+  "matchterm": "DocumentHelper",
+  "previouspage": null,
+  "searchterm": "DocumentHelper",
+  "query": "DocumentHelper",
+  "language_filters": [
+    {
+      "count": 1140,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 1140,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/markjenkins/libreoffice_ubuntu-debian-fixes.git",
+      "language": "Java",
+      "linescount": 396,
+      "location": "/forms/qa/integration/forms",
+      "name": "libreoffice_ubuntu-debian-fixes",
+      "url": "https://searchcode.com/codesearch/view/45033756/",
+      "md5hash": "0de0fc7642893ba4e34d6dee1c48b048",
+      "lines": {
+        "96": "        return new DocumentHelper( orb, document );",
+        "99": "    /* ------------------------------------------------------------------ */",
+        "100": "    public static DocumentHelper loadDocument( XMultiServiceFactory orb, String documentURL ) throws com.sun.star.uno.Exception",
+        "265": "    */",
+        "266": "    static public DocumentHelper getDocumentForComponent( Object aFormComponent, XMultiServiceFactory orb )",
+        "87": "    /* ------------------------------------------------------------------ */",
+        "47": "*/",
+        "48": "public class DocumentHelper",
+        "81": "    /* ------------------------------------------------------------------ */",
+        "82": "    private static DocumentHelper implLoadDocument( XMultiServiceFactory orb, String documentOrFactoryURL ) throws com.sun.star.uno.Exception",
+        "276": "",
+        "277": "        return new DocumentHelper( orb, xModel );",
+        "54": "    /* ------------------------------------------------------------------ */",
+        "55": "    public DocumentHelper( XMultiServiceFactory orb, XComponent document )",
+        "88": "    private static DocumentHelper implLoadDocument( XMultiServiceFactory orb, String documentOrFactoryURL, final PropertyValue[] i_args ) throws com.sun.star.uno.Exception",
+        "95": "            return new SpreadsheetDocument( orb, document );"
+      },
+      "id": 45033756,
+      "filename": "DocumentHelper.java"
+    },
+    {
+      "repo": "https://bitbucket.org/markjenkins/libreoffice_ubuntu-debian-fixes.git",
+      "language": "Java",
+      "linescount": 309,
+      "location": "/odk/examples/DevelopersGuide/Forms",
+      "name": "libreoffice_ubuntu-debian-fixes",
+      "url": "https://searchcode.com/codesearch/view/45029922/",
+      "md5hash": "1f7e9b6ca96e69cc9d694f4c1ac3066f",
+      "lines": {
+        "192": "",
+        "181": "    */",
+        "182": "    static public DocumentHelper getDocumentForComponent( Object aFormComponent, XComponentContext xCtx )",
+        "193": "        return new DocumentHelper( xCtx, xModel );",
+        "79": "    /* ------------------------------------------------------------------ */",
+        "80": "    public static DocumentHelper blankTextDocument( XComponentContext xCtx ) throws com.sun.star.uno.Exception",
+        "85": "    /* ------------------------------------------------------------------ */",
+        "86": "    public static DocumentHelper blankDocument( XComponentContext xCtx, DocumentType eType ) throws com.sun.star.uno.Exception",
+        "57": "    /* ------------------------------------------------------------------ */",
+        "58": "    public DocumentHelper( XComponentContext xContext, XComponent document )",
+        "91": "",
+        "92": "        return new DocumentHelper( xCtx, document );",
+        "30": "*/",
+        "31": "public class DocumentHelper"
+      },
+      "id": 45029922,
+      "filename": "DocumentHelper.java"
+    },
+    {
+      "repo": "https://bitbucket.org/mst/ooo340",
+      "language": "Java",
+      "linescount": 388,
+      "location": "/forms/qa/integration/forms",
+      "name": "ooo340",
+      "url": "https://searchcode.com/codesearch/view/122086406/",
+      "md5hash": "6037c0026db44c53198ace857ec76cda",
+      "lines": {
+        "257": "    */",
+        "258": "    static public DocumentHelper getDocumentForComponent( Object aFormComponent, XMultiServiceFactory orb )",
+        "100": "    /* ------------------------------------------------------------------ */",
+        "101": "    public static DocumentHelper blankTextDocument( XMultiServiceFactory orb ) throws com.sun.star.uno.Exception",
+        "106": "    /* ------------------------------------------------------------------ */",
+        "107": "    public static DocumentHelper blankXMLForm( XMultiServiceFactory orb ) throws com.sun.star.uno.Exception",
+        "268": "",
+        "269": "        return new DocumentHelper( orb, xModel );",
+        "112": "    /* ------------------------------------------------------------------ */",
+        "113": "    public static DocumentHelper blankDocument( XMultiServiceFactory orb, DocumentType eType ) throws com.sun.star.uno.Exception",
+        "82": "    /* ------------------------------------------------------------------ */",
+        "83": "    private static DocumentHelper implLoadDocument( XMultiServiceFactory orb, String documentOrFactoryURL ) throws com.sun.star.uno.Exception",
+        "54": "*/",
+        "55": "public class DocumentHelper",
+        "61": "    /* ------------------------------------------------------------------ */",
+        "62": "    public DocumentHelper( XMultiServiceFactory orb, XComponent document )"
+      },
+      "id": 122086406,
+      "filename": "DocumentHelper.java"
+    },
+    {
+      "repo": "http://qwickie.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 339,
+      "location": "/qwickie.plugin/src/qwickie/util",
+      "name": "qwickie",
+      "url": "https://searchcode.com/codesearch/view/4056853/",
+      "md5hash": "6a157c9c302405d92b0622ec717db95c",
+      "lines": {
+        "225": "\t\t\t\t} else {",
+        "226": "\t\t\t\t\tregions[1] = DocumentHelper.getRegionOfWicketComponent(document, offset, javaElement);",
+        "52": "@SuppressWarnings(\"restriction\")",
+        "53": "public final class DocumentHelper {",
+        "60": "",
+        "205": "\t\t\t}",
+        "206": "\t\t\tfinal IRegion wicketComponentRegion = DocumentHelper.findWicketComponentRegion(document, wicketIdRegion.getOffset());",
+        "61": "\tprivate DocumentHelper() {"
+      },
+      "id": 4056853,
+      "filename": "DocumentHelper.java"
+    },
+    {
+      "repo": "https://github.com/nborwankar/jcouchdb.git",
+      "language": "Java",
+      "linescount": 155,
+      "location": "/src/org/jcouchdb/document",
+      "name": "jcouchdb",
+      "url": "https://searchcode.com/codesearch/view/107254779/",
+      "md5hash": "992783219bd8f8a7c335eab6d187fff9",
+      "lines": {
+        "17": " */",
+        "18": "public class DocumentHelper",
+        "19": "{",
+        "20": "    protected DocumentHelper()"
+      },
+      "id": 107254779,
+      "filename": "DocumentHelper.java"
+    },
+    {
+      "repo": "https://github.com/ppicazo/wunder.git",
+      "language": "Java",
+      "linescount": 48,
+      "location": "/src/com/smerty/android",
+      "name": "wunder",
+      "url": "https://searchcode.com/codesearch/view/113926269/",
+      "md5hash": "5cc943e41a846dcfdac9cb93aec9cd50",
+      "lines": {
+        "16": "public class DocumentHelper {",
+        "17": "\t",
+        "18": "\tstatic private final String TAG = DocumentHelper.class.getSimpleName();",
+        "15": ""
+      },
+      "id": 113926269,
+      "filename": "DocumentHelper.java"
+    },
+    {
+      "repo": "git://github.com/mongodb/mongo-java-driver.git",
+      "language": "Java",
+      "linescount": 54,
+      "location": "/driver-core/src/main/com/mongodb/operation",
+      "name": "mongo-java-driver",
+      "url": "https://searchcode.com/codesearch/view/116000162/",
+      "md5hash": "bceb2336746952fb9650b57b912ca9ee",
+      "lines": {
+        "24": "",
+        "25": "final class DocumentHelper {",
+        "26": "",
+        "27": "    private DocumentHelper() {"
+      },
+      "id": 116000162,
+      "filename": "DocumentHelper.java"
+    },
+    {
+      "repo": "http://thesandbox.googlecode.com/svn/",
+      "language": "Java",
+      "linescount": 413,
+      "location": "/libs/dom4j/1.6.1/src/java/org/dom4j",
+      "name": "thesandbox",
+      "url": "https://searchcode.com/codesearch/view/11535652/",
+      "md5hash": "27de870ec117d1dfc4d1361ecde591ee",
+      "lines": {
+        "32": "    private DocumentHelper() {",
+        "33": "    }",
+        "23": " * <p>",
+        "24": " * <code>DocumentHelper</code> is a collection of helper methods for using",
+        "30": " */",
+        "31": "public final class DocumentHelper {"
+      },
+      "id": 11535652,
+      "filename": "DocumentHelper.java"
+    },
+    {
+      "repo": "git://github.com/evllabs/JGAAP.git",
+      "language": "Java",
+      "linescount": 204,
+      "location": "/src/com/jgaap/generics",
+      "name": "JGAAP",
+      "url": "https://searchcode.com/codesearch/view/16973147/",
+      "md5hash": "8bd2f482161cbb20b2fe2b3f678da332",
+      "lines": {
+        "48": "\tstatic Logger logger = Logger.getLogger(com.jgaap.generics.DocumentHelper.class);",
+        "45": "",
+        "46": "class DocumentHelper {",
+        "47": "\t"
+      },
+      "id": 16973147,
+      "filename": "DocumentHelper.java"
+    },
+    {
+      "repo": "https://bitbucket.org/krabuzin/mp_jobs",
+      "language": "Java",
+      "linescount": 116,
+      "location": "/workspace/.Java/src/routines/system",
+      "name": "mp_jobs",
+      "url": "https://searchcode.com/codesearch/view/128912912/",
+      "md5hash": "6ded02634f71983c9fc70422c4e81fb6",
+      "lines": {
+        "14": " */",
+        "15": "public class DocumentHelper {"
+      },
+      "id": 128912912,
+      "filename": "DocumentHelper.java"
+    },
+    {
+      "repo": "https://github.com/bio2rdf/bio2rdf-rest.git",
+      "language": "Java",
+      "linescount": 116,
+      "location": "/JOBS_bio2rdf_datahub_update/JOB_datahub_backup_0.1/JOB_datahub_backup/src/routines/system",
+      "name": "bio2rdf-rest",
+      "url": "https://searchcode.com/codesearch/view/93000531/",
+      "md5hash": "6ded02634f71983c9fc70422c4e81fb6",
+      "lines": {
+        "14": " */",
+        "15": "public class DocumentHelper {"
+      },
+      "id": 93000531,
+      "filename": "DocumentHelper.java"
+    },
+    {
+      "repo": "https://github.com/adragomir/hbase-indexing-library.git",
+      "language": "Java",
+      "linescount": 209,
+      "location": "/src/util/src/main/java/org/lilycms/util/xml",
+      "name": "hbase-indexing-library",
+      "url": "https://searchcode.com/codesearch/view/108982504/",
+      "md5hash": "0b4a7acf40c50199f4127dad7e935277",
+      "lines": {
+        "41": " */",
+        "42": "public class DocumentHelper {"
+      },
+      "id": 108982504,
+      "filename": "DocumentHelper.java"
+    },
+    {
+      "repo": "https://github.com/nuxeo/nuxeo-android.git",
+      "language": "Java",
+      "linescount": 38,
+      "location": "/nuxeo-android/src/org/nuxeo/android/simpleclient/listing",
+      "name": "nuxeo-android",
+      "url": "https://searchcode.com/codesearch/view/113250650/",
+      "md5hash": "bac28c9f8b6dce2c9db7018a9c23c1a5",
+      "lines": {
+        "20": "",
+        "21": "public class DocumentHelper {"
+      },
+      "id": 113250650,
+      "filename": "DocumentHelper.java"
+    },
+    {
+      "repo": "https://github.com/mrmarkyb/XmlBuilder.git",
+      "language": "Java",
+      "linescount": 21,
+      "location": "/src/test/java/uk/co/mrmarkb/xmlbuild",
+      "name": "XmlBuilder",
+      "url": "https://searchcode.com/codesearch/view/113502046/",
+      "md5hash": "2becf51ee29bb76449db619e9867143a",
+      "lines": {
+        "8": "public class DocumentHelper {",
+        "7": ""
+      },
+      "id": 113502046,
+      "filename": "DocumentHelper.java"
+    },
+    {
+      "repo": "http://jcouchdb.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 151,
+      "location": "/src/org/jcouchdb/document",
+      "name": "jcouchdb",
+      "url": "https://searchcode.com/codesearch/view/4877358/",
+      "md5hash": "03c19eabf0d41454a3367230b655cdbd",
+      "lines": {
+        "17": " */",
+        "18": "public class DocumentHelper implements DocumentPropertyHandler"
+      },
+      "id": 4877358,
+      "filename": "DocumentHelper.java"
+    },
+    {
+      "repo": "http://opennode2.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 71,
+      "location": "/java/node-wnos-common/src/main/java/com/windsor/node/service/helper",
+      "name": "opennode2",
+      "url": "https://searchcode.com/codesearch/view/8177558/",
+      "md5hash": "0df08879a5b4d9fc4690c981601d23a0",
+      "lines": {
+        "33": "",
+        "34": "public interface DocumentHelper {"
+      },
+      "id": 8177558,
+      "filename": "DocumentHelper.java"
+    },
+    {
+      "repo": "https://github.com/waitwind/jinhe-tss.git",
+      "language": "Java",
+      "linescount": 349,
+      "location": "/cms/src/main/java/com/jinhe/tss/cms/service",
+      "name": "jinhe-tss",
+      "url": "https://searchcode.com/codesearch/view/73142819/",
+      "md5hash": "3f3e3c024f2fb1538c79d7d9d70138e6",
+      "lines": {
+        "75": "        Document doc = org.dom4j.DocumentHelper.createDocument();",
+        "200": "        ",
+        "201": "        Document doc = org.dom4j.DocumentHelper.createDocument();",
+        "234": "        ",
+        "235": "        org.dom4j.Document doc = DocumentHelper.createDocument();",
+        "141": "        ",
+        "142": "        Document doc = DocumentHelper.createDocument();",
+        "16": "import org.dom4j.Document;",
+        "17": "import org.dom4j.DocumentHelper;",
+        "307": "      ",
+        "308": "        Document doc = org.dom4j.DocumentHelper.createDocument();",
+        "74": "            "
+      },
+      "id": 73142819,
+      "filename": "RemoteArticleService.java"
+    },
+    {
+      "repo": "https://bitbucket.org/longfalcon/valhalla",
+      "language": "Java",
+      "linescount": 535,
+      "location": "/6.0-sp2/portlets/data-management-portlet/docroot/WEB-INF/test/com/liferay/portal/util",
+      "name": "valhalla",
+      "url": "https://searchcode.com/codesearch/view/54856810/",
+      "md5hash": "bbb729c48d32c0971833d9d465765441",
+      "lines": {
+        "256": "                DocumentHelper.createProcessingInstruction(target, data);",
+        "288": "                DocumentHelper.createQName(",
+        "292": "    public Text createText(String text) {",
+        "293": "        return new TextImpl(DocumentHelper.createText(text));",
+        "296": "    public XPath createXPath(String xPathExpression) {",
+        "297": "        return new XPathImpl(DocumentHelper.createXPath(xPathExpression));",
+        "269": "        org.dom4j.ProcessingInstruction processingInstruction =",
+        "270": "                DocumentHelper.createProcessingInstruction(target, data);",
+        "47": "import org.dom4j.DocumentHelper;",
+        "304": "                DocumentHelper.selectNodes(",
+        "303": "        return toNewNodes(",
+        "46": "import org.dom4j.DocumentFactory;",
+        "280": "    public QName createQName(String localName) {",
+        "281": "        return new QNameImpl(DocumentHelper.createQName(localName));",
+        "255": "        org.dom4j.ProcessingInstruction processingInstruction =",
+        "287": "        return new QNameImpl("
+      },
+      "id": 54856810,
+      "filename": "TestSAXReaderImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tecnoteca/cmdbuild",
+      "language": "Java",
+      "linescount": 159,
+      "location": "/cmdbuild/src/main/java/org/cmdbuild/servlets/json/legacy",
+      "name": "cmdbuild",
+      "url": "https://searchcode.com/codesearch/view/57772691/",
+      "md5hash": "a12bd437a22c4a00f5a2f2ffce317524",
+      "lines": {
+        "128": "\t\tfinal List<?> results = xpathSelector.selectNodes(xmlData);",
+        "149": "\t\tfinal List<Element> xmlElements = DocumentHelper.createXPath(\"/data/excludes/item\").selectNodes(xmlData);",
+        "38": "\tpublic Document graphML(@Parameter(\"data\") final String xmlDataString) throws DocumentException {",
+        "39": "\t\tfinal Document xmlData = DocumentHelper.parseText(xmlDataString);",
+        "136": "\t\tfinal Set<Card> nodes = Sets.newHashSet();",
+        "137": "\t\tfinal List<Element> xmlElements = DocumentHelper.createXPath(\"/data/nodes/item\").selectNodes(xmlData);",
+        "17": "import org.dom4j.DocumentException;",
+        "18": "import org.dom4j.DocumentHelper;",
+        "148": "\t\tfinal Set<Card> excludes = Sets.newHashSet();",
+        "85": "",
+        "86": "\t\tfinal Document xmlData = DocumentHelper.parseText(xmlDataString);",
+        "87": "\t\tfinal List<Element> xmlElements = DocumentHelper.createXPath(\"/data/relations/item\").selectNodes(xmlData);",
+        "88": "\t\tfinal Element cluster = xmlElements.get(0);",
+        "126": "\t\tfinal Document xmlData = DocumentHelper.parseText(xmlDataString);",
+        "127": "\t\tfinal XPath xpathSelector = DocumentHelper.createXPath(\"/data/nodes/item\");"
+      },
+      "id": 57772691,
+      "filename": "Graph.java"
+    },
+    {
+      "repo": "https://github.com/sasikrishna/kraken-gateway.git",
+      "language": "Java",
+      "linescount": 2502,
+      "location": "/src/java/net/sf/kraken",
+      "name": "kraken-gateway",
+      "url": "https://searchcode.com/codesearch/view/69572918/",
+      "md5hash": "99a9f890ddd50c412ee86fa31c7586dd",
+      "lines": {
+        "672": "                    final Element response = DocumentHelper.createElement(QName.get(\"query\", NameSpace.DISCO_INFO));",
+        "704": "        Element response = DocumentHelper.createElement(QName.get(\"query\", NameSpace.DISCO_ITEMS));",
+        "738": "                JID jid = this.convertIDToJID(prompt);",
+        "739": "                Element query = DocumentHelper.createElement(QName.get(\"query\", NameSpace.IQ_GATEWAY));",
+        "805": "                    TransportSession<B> session = sessionManager.getSession(from);",
+        "806": "                    Element response = DocumentHelper.createElement(QName.get(\"query\", NameSpace.IQ_LAST)); ",
+        "636": "            if (from.getNode() == null || RegistrationManager.getInstance().isRegistered(from, this.transportType) || permissionManager.hasAccess(from)) {",
+        "845": "            IQ result = IQ.createResultIQ(packet);",
+        "846": "            Element query = DocumentHelper.createElement(QName.get(\"query\", NameSpace.IQ_VERSION));",
+        "29": "import org.dom4j.DocumentHelper;",
+        "720": "            IQ result = IQ.createResultIQ(packet);",
+        "721": "            Element query = DocumentHelper.createElement(QName.get(\"query\", NameSpace.IQ_GATEWAY));",
+        "671": "                if ((from.getNode() == null || permissionManager.hasAccess(from)) && session != null) {",
+        "28": "import org.apache.log4j.Logger;",
+        "637": "                Element response = DocumentHelper.createElement(QName.get(\"query\", NameSpace.DISCO_INFO));",
+        "703": "        IQ result = IQ.createResultIQ(packet);"
+      },
+      "id": 69572918,
+      "filename": "BaseTransport.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 499,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 450,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 181,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 10,
+      "source": "GitLab",
+      "id": 13
+    }
+  ]
+}

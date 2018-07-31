@@ -1,0 +1,234 @@
+{
+  "matchterm": "LogicalFunction",
+  "previouspage": null,
+  "searchterm": "LogicalFunction",
+  "query": "LogicalFunction",
+  "language_filters": [
+    {
+      "count": 10,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 10,
+  "results": [
+    {
+      "repo": "https://github.com/github-rupesh/geoserver-2.0.x.git",
+      "language": "Java",
+      "linescount": 164,
+      "location": "/community/geoxacml/src/main/java/com/sun/xacml/cond",
+      "name": "geoserver-2.0.x",
+      "url": "https://searchcode.com/codesearch/view/99379586/",
+      "md5hash": "f786562c0d3f7ced44f60f03944f0f66",
+      "lines": {
+        "1": "/*",
+        "2": " * @(#)LogicalFunction.java",
+        "86": "     */",
+        "87": "    public LogicalFunction(String functionName) {",
+        "59": " */",
+        "60": "public class LogicalFunction extends FunctionBase {",
+        "77": "    /**",
+        "78": "     * Creates a new <code>LogicalFunction</code> object."
+      },
+      "id": 99379586,
+      "filename": "LogicalFunction.java"
+    },
+    {
+      "repo": "http://enterprise-java-xacml.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 15,
+      "location": "/an.jaxb/components/pdp/src/an/xacml/function",
+      "name": "enterprise-java-xacml",
+      "url": "https://searchcode.com/codesearch/view/11710664/",
+      "md5hash": "9bc6a2298708b41695a1c0d57551cb2c",
+      "lines": {
+        "14": "@Target(ElementType.METHOD)",
+        "15": "public @interface LogicalFunction {}"
+      },
+      "id": 11710664,
+      "filename": "LogicalFunction.java"
+    },
+    {
+      "repo": "http://enterprise-java-xacml.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 15,
+      "location": "/an/components/pdp/src/an/xacml/policy/function",
+      "name": "enterprise-java-xacml",
+      "url": "https://searchcode.com/codesearch/view/11712270/",
+      "md5hash": "a993eb63f5c3d61f750a360e99c1b4ea",
+      "lines": {
+        "14": "@Target(ElementType.METHOD)",
+        "15": "public @interface LogicalFunction {}"
+      },
+      "id": 11712270,
+      "filename": "LogicalFunction.java"
+    },
+    {
+      "repo": "https://github.com/github-rupesh/geoserver-2.0.x.git",
+      "language": "Java",
+      "linescount": 64,
+      "location": "/community/geoxacml/src/main/java/com/sun/xacml/cond/cluster",
+      "name": "geoserver-2.0.x",
+      "url": "https://searchcode.com/codesearch/view/99379623/",
+      "md5hash": "51d17077f292d4cb5f8435adbc516bf9",
+      "lines": {
+        "1": "/*",
+        "2": " * @(#)LogicalFunctionCluster.java",
+        "41": "import com.sun.xacml.cond.Function;",
+        "42": "import com.sun.xacml.cond.LogicalFunction;",
+        "44": "/**",
+        "45": " * Clusters all the functions supported by <code>LogicalFunction</code>.",
+        "51": " */",
+        "52": "public class LogicalFunctionCluster implements FunctionCluster {",
+        "56": "",
+        "57": "        for (String fn : LogicalFunction.getSupportedIdentifiers())",
+        "58": "            set.add(new LogicalFunction(fn));",
+        "59": ""
+      },
+      "id": 99379623,
+      "filename": "LogicalFunctionCluster.java"
+    },
+    {
+      "repo": "http://enterprise-java-xacml.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 120,
+      "location": "/an.jaxb/components/pdp/src/an/xacml/function",
+      "name": "enterprise-java-xacml",
+      "url": "https://searchcode.com/codesearch/view/11710650/",
+      "md5hash": "2622bbf8e033145fb83706a2227dd07e",
+      "lines": {
+        "16": "@XACMLFunctionProvider",
+        "17": "public abstract class LogicalFunctions {",
+        "104": "    @LogicalFunction",
+        "23": "",
+        "24": "    @LogicalFunction",
+        "103": "",
+        "42": "",
+        "43": "    @LogicalFunction",
+        "61": "",
+        "62": "    @LogicalFunction"
+      },
+      "id": 11710650,
+      "filename": "LogicalFunctions.java"
+    },
+    {
+      "repo": "http://enterprise-java-xacml.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 119,
+      "location": "/an/components/pdp/src/an/xacml/policy/function",
+      "name": "enterprise-java-xacml",
+      "url": "https://searchcode.com/codesearch/view/11712256/",
+      "md5hash": "00c0ef6a72861af912c0f7e86b9283a6",
+      "lines": {
+        "16": "public abstract class LogicalFunctions {",
+        "102": "",
+        "22": "",
+        "23": "    @LogicalFunction",
+        "41": "",
+        "42": "    @LogicalFunction",
+        "103": "    @LogicalFunction",
+        "60": "",
+        "61": "    @LogicalFunction",
+        "15": "@XACMLFunctionProvider"
+      },
+      "id": 11712256,
+      "filename": "LogicalFunctions.java"
+    },
+    {
+      "repo": "http://enterprise-java-xacml.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 86,
+      "location": "/an.jaxb/components/pdp/src/an/xacml/engine/evaluator",
+      "name": "enterprise-java-xacml",
+      "url": "https://searchcode.com/codesearch/view/11710709/",
+      "md5hash": "e80add7588a0cca6f4a2dca55dc6ec24",
+      "lines": {
+        "80": "        if (func.getAttribute(LogicalFunction.class) != null) {",
+        "81": "            return true;",
+        "36": "            // it as need. This is a standard specified behavior.",
+        "37": "            if (isLogicalFunction(function)) {",
+        "14": "import an.xacml.function.BuiltInFunction;",
+        "79": "    private static boolean isLogicalFunction(BuiltInFunction func) {",
+        "78": "",
+        "15": "import an.xacml.function.LogicalFunction;"
+      },
+      "id": 11710709,
+      "filename": "ApplyEvaluator.java"
+    },
+    {
+      "repo": "http://enterprise-java-xacml.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 84,
+      "location": "/an.jaxb/components/pdp/src/deprecated/an/xacml/policy",
+      "name": "enterprise-java-xacml",
+      "url": "https://searchcode.com/codesearch/view/11710761/",
+      "md5hash": "da8594aa66a2e57dcac831aa1157c651",
+      "lines": {
+        "80": "            return true;",
+        "35": "            // it as need. This is a standard specified behavior.",
+        "36": "            if (isLogicalFunction(function)) {",
+        "79": "        if (func.getAttribute(LogicalFunction.class) != null) {",
+        "12": "import an.xacml.function.BuiltInFunction;",
+        "13": "import an.xacml.function.LogicalFunction;",
+        "78": "    private static boolean isLogicalFunction(BuiltInFunction func) {",
+        "77": ""
+      },
+      "id": 11710761,
+      "filename": "Apply.java"
+    },
+    {
+      "repo": "http://enterprise-java-xacml.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 84,
+      "location": "/an/components/pdp/src/an/xacml/policy",
+      "name": "enterprise-java-xacml",
+      "url": "https://searchcode.com/codesearch/view/11712244/",
+      "md5hash": "1006f69366086358f28971acbb4a57c1",
+      "lines": {
+        "80": "            return true;",
+        "35": "            // it as need. This is a standard specified behavior.",
+        "36": "            if (isLogicalFunction(function)) {",
+        "79": "        if (func.getAttribute(LogicalFunction.class) != null) {",
+        "12": "import an.xacml.policy.function.BuiltInFunction;",
+        "13": "import an.xacml.policy.function.LogicalFunction;",
+        "78": "    private static boolean isLogicalFunction(BuiltInFunction func) {",
+        "77": ""
+      },
+      "id": 11712244,
+      "filename": "Apply.java"
+    },
+    {
+      "repo": "https://github.com/github-rupesh/geoserver-2.0.x.git",
+      "language": "Java",
+      "linescount": 389,
+      "location": "/community/geoxacml/src/main/java/com/sun/xacml/cond",
+      "name": "geoserver-2.0.x",
+      "url": "https://searchcode.com/codesearch/view/99379595/",
+      "md5hash": "e36698702addf8f7112c4619e6ad8d34",
+      "lines": {
+        "145": "        targetFunctions.addAll((new EqualFunctionCluster()).getSupportedFunctions());",
+        "146": "        // add LogicalFunction",
+        "147": "        targetFunctions.addAll((new LogicalFunctionCluster()).getSupportedFunctions());",
+        "148": "        // add NOfFunction",
+        "58": "import com.sun.xacml.cond.cluster.HigherOrderFunctionCluster;",
+        "59": "import com.sun.xacml.cond.cluster.LogicalFunctionCluster;"
+      },
+      "id": 99379595,
+      "filename": "StandardFunctionFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

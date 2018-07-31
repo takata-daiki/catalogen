@@ -1,0 +1,92 @@
+{
+  "matchterm": "DocumentFormatException",
+  "previouspage": null,
+  "searchterm": "DocumentFormatException",
+  "query": "DocumentFormatException",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://github.com/SilverTeamWork/Silverpeas-Core.git",
+      "language": "Java",
+      "linescount": 49,
+      "location": "/lib-core/src/main/java/com/silverpeas/converter",
+      "name": "Silverpeas-Core",
+      "url": "https://searchcode.com/codesearch/view/93255255/",
+      "md5hash": "8861e57531d0e4328ef56ccff2315bbd",
+      "lines": {
+        "34": "  /**",
+        "35": "   * Creates a new instance of <code>DocumentFormatException</code> without detail message.",
+        "36": "   */",
+        "37": "  public DocumentFormatException() {",
+        "40": "  /**",
+        "41": "   * Constructs an instance of <code>DocumentFormatException</code> with the specified detail",
+        "44": "   */",
+        "45": "  public DocumentFormatException(String msg) {",
+        "30": " */",
+        "31": "public class DocumentFormatException extends RuntimeException {"
+      },
+      "id": 93255255,
+      "filename": "DocumentFormatException.java"
+    },
+    {
+      "repo": "https://github.com/SilverTeamWork/Silverpeas-Core.git",
+      "language": "Java",
+      "linescount": 207,
+      "location": "/lib-core/src/main/java/com/silverpeas/converter/openoffice",
+      "name": "Silverpeas-Core",
+      "url": "https://searchcode.com/codesearch/view/93255291/",
+      "md5hash": "dedc0bc2bb8d270b490b468ffdf9d28d",
+      "lines": {
+        "99": "    if (!isFormatSupported(outFormat)) {",
+        "100": "      throw new DocumentFormatException(\"The conversion of the stream to the format \" +",
+        "39": "import com.silverpeas.converter.DocumentFormatConversionException;",
+        "40": "import com.silverpeas.converter.DocumentFormatException;",
+        "74": "    if (!isFormatSupported(inFormat)) {",
+        "75": "      throw new DocumentFormatException(\"The conversion of the file to the format \" +",
+        "78": "    if (!isDocumentSupported(source)) {",
+        "79": "      throw new DocumentFormatException(\"The format of the file \" + source.getName() + \" isn't \" +"
+      },
+      "id": 93255291,
+      "filename": "OpenOfficeConverter.java"
+    },
+    {
+      "repo": "https://github.com/SilverTeamWork/Silverpeas-Core.git",
+      "language": "Java",
+      "linescount": 99,
+      "location": "/lib-core/src/test-awaiting/java/com/silverpeas/converter/openoffice",
+      "name": "Silverpeas-Core",
+      "url": "https://searchcode.com/codesearch/view/93251665/",
+      "md5hash": "89347ffe03d94f4716d397820d2c33f3",
+      "lines": {
+        "67": "",
+        "68": "  @Test(expected = DocumentFormatException.class)",
+        "69": "  public void convertingANonODTDocumentShouldThrowADocumentFormatException() throws Exception {",
+        "70": "    File document = aDocumentsProvider().getMSWordDocument();",
+        "73": "",
+        "74": "  @Test(expected = DocumentFormatException.class)",
+        "75": "  public void convertingADocumentIntoANonSupportedFormatShouldThrowADocumentFormatException() throws",
+        "76": "    Exception {",
+        "29": "import com.silverpeas.converter.DocumentFormatConverterProvider;",
+        "30": "import com.silverpeas.converter.DocumentFormatException;"
+      },
+      "id": 93251665,
+      "filename": "OpenOfficeConversionTest.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "matchterm": "CommonObjectDataSubRecord",
+  "previouspage": null,
+  "searchterm": "CommonObjectDataSubRecord",
+  "query": "CommonObjectDataSubRecord",
+  "language_filters": [
+    {
+      "count": 10,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 10,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 461,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642506/",
+      "md5hash": "422f3ac9bbf752731522571cc324b1af",
+      "lines": {
+        "112": "",
+        "113": "    public CommonObjectDataSubRecord(RecordInputStream in)",
+        "210": "        CommonObjectDataSubRecord rec = new CommonObjectDataSubRecord();",
+        "101": "",
+        "102": "    public CommonObjectDataSubRecord()",
+        "55": "public class CommonObjectDataSubRecord",
+        "209": "    public Object clone() {",
+        "54": " */"
+      },
+      "id": 15642506,
+      "filename": "CommonObjectDataSubRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1062,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642303/",
+      "md5hash": "a320b63ccf16b2c1798c3d8c1abc8ed7",
+      "lines": {
+        "1042": "               SubRecord sub = (SubRecord)obj.getSubRecords().get(0);",
+        "1043": "               if (sub instanceof CommonObjectDataSubRecord){",
+        "1044": "                   CommonObjectDataSubRecord cmo = (CommonObjectDataSubRecord)sub;",
+        "1045": "                   if (cmo.getObjectType() == CommonObjectDataSubRecord.OBJECT_TYPE_COMMENT){",
+        "1046": "                       //find the nearest TextObjectRecord which holds comment's text and map it to its shapeId"
+      },
+      "id": 15642303,
+      "filename": "HSSFCell.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 157,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642359/",
+      "md5hash": "c684c958961cd9be6740a30893ceb9a4",
+      "lines": {
+        "80": "            if (r instanceof CommonObjectDataSubRecord){",
+        "81": "                //modify autofill attribute inherited from <code>TextObjectRecord</code>",
+        "82": "                CommonObjectDataSubRecord cmo = (CommonObjectDataSubRecord)r;",
+        "79": ""
+      },
+      "id": 15642359,
+      "filename": "CommentShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 766,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642409/",
+      "md5hash": "9e212df4a5b523744fd315d99c376d1b",
+      "lines": {
+        "681": "        ObjRecord obj = new ObjRecord();",
+        "682": "        CommonObjectDataSubRecord cmo = new CommonObjectDataSubRecord();",
+        "683": "        cmo.setObjectType( CommonObjectDataSubRecord.OBJECT_TYPE_GROUP );",
+        "684": "        cmo.setObjectId( (short) ( shapeId ) );"
+      },
+      "id": 15642409,
+      "filename": "EscherAggregate.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 151,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642355/",
+      "md5hash": "de60a19c840cc93a41315152fddc45e8",
+      "lines": {
+        "124": "        ObjRecord obj = new ObjRecord();",
+        "45": "import loci.poi.hssf.record.EscherAggregate;",
+        "46": "import loci.poi.hssf.record.CommonObjectDataSubRecord;",
+        "125": "        CommonObjectDataSubRecord c = new CommonObjectDataSubRecord();"
+      },
+      "id": 15642355,
+      "filename": "SimpleFilledShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 184,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642360/",
+      "md5hash": "568f42341c2f49cf457f7336fcfb066f",
+      "lines": {
+        "158": "        CommonObjectDataSubRecord c = new CommonObjectDataSubRecord();",
+        "157": "        ObjRecord obj = new ObjRecord();",
+        "46": "import loci.poi.hssf.record.EscherAggregate;",
+        "47": "import loci.poi.hssf.record.CommonObjectDataSubRecord;"
+      },
+      "id": 15642360,
+      "filename": "PolygonShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 155,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642357/",
+      "md5hash": "3fac04b2d420f2a566cce5b6a652e8c5",
+      "lines": {
+        "121": "        ObjRecord obj = new ObjRecord();",
+        "122": "        CommonObjectDataSubRecord c = new CommonObjectDataSubRecord();"
+      },
+      "id": 15642357,
+      "filename": "PictureShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642361/",
+      "md5hash": "e8926e1642d96e5be85459525b4970cd",
+      "lines": {
+        "120": "        ObjRecord obj = new ObjRecord();",
+        "121": "        CommonObjectDataSubRecord c = new CommonObjectDataSubRecord();"
+      },
+      "id": 15642361,
+      "filename": "LineShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 192,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642364/",
+      "md5hash": "caf9b32bdd1d6052248a6d5f8cf5c345",
+      "lines": {
+        "82": "        ObjRecord obj = new ObjRecord();",
+        "83": "        CommonObjectDataSubRecord c = new CommonObjectDataSubRecord();"
+      },
+      "id": 15642364,
+      "filename": "TextboxShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 101,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642394/",
+      "md5hash": "d40b14ea92262475f6a64dcc34544617",
+      "lines": {
+        "80": "            case CommonObjectDataSubRecord.sid:",
+        "81": "                r = new CommonObjectDataSubRecord( in );",
+        "82": "                break;",
+        "79": "        {"
+      },
+      "id": 15642394,
+      "filename": "SubRecord.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 10,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

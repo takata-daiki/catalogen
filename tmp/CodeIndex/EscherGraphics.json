@@ -1,0 +1,109 @@
+{
+  "matchterm": "EscherGraphics",
+  "previouspage": null,
+  "searchterm": "EscherGraphics",
+  "query": "EscherGraphics",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 531,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642323/",
+      "md5hash": "90bc5f20331e7dcb9050bcbf7dd0d9c3",
+      "lines": {
+        "103": "     */",
+        "104": "    public EscherGraphics(HSSFShapeGroup escherGroup, HSSFWorkbook workbook, Color forecolor, float verticalPointsPerPixel )",
+        "169": "    {",
+        "170": "        EscherGraphics g = new EscherGraphics(escherGroup, workbook,",
+        "524": "",
+        "141": "//     */",
+        "142": "//    public EscherGraphics( HSSFShapeGroup escherGroup, HSSFWorkbook workbook, Color forecolor)",
+        "525": "    HSSFShapeGroup getEscherGraphics()",
+        "83": " */",
+        "84": "public class EscherGraphics",
+        "123": "     */",
+        "124": "    EscherGraphics( HSSFShapeGroup escherGroup, HSSFWorkbook workbook, Color foreground, Font font, float verticalPointsPerPixel )",
+        "93": "    private Font font;",
+        "94": "    private static POILogger logger = POILogFactory.getLogger(EscherGraphics.class);"
+      },
+      "id": 15642323,
+      "filename": "EscherGraphics.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 612,
+      "location": "/ppt/poi/org/apache/poi/hssf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97401504/",
+      "md5hash": "62e15ade5342d1b79ba29319ce48d052",
+      "lines": {
+        "131": "    {",
+        "132": "        EscherGraphics2d g2d = new EscherGraphics2d(_escherGraphics);",
+        "72": " */",
+        "137": "    {",
+        "74": "    private EscherGraphics _escherGraphics;",
+        "311": "        getEscherGraphics().drawString(attributedcharacteriterator, x, y);",
+        "269": "    {",
+        "270": "        _escherGraphics.drawRect(x,y,width,height);",
+        "296": "    {",
+        "297": "        getEscherGraphics().drawString(string, x, y);",
+        "291": "    {",
+        "310": "    {",
+        "73": "public final class EscherGraphics2d extends Graphics2D {",
+        "292": "        getEscherGraphics().drawString(string, (int)x, (int)y);",
+        "138": "        getEscherGraphics().dispose();"
+      },
+      "id": 97401504,
+      "filename": "EscherGraphics2d.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 635,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642327/",
+      "md5hash": "3992ca0664b8dfcbb274eac5ed29285e",
+      "lines": {
+        "160": "    {",
+        "161": "        getEscherGraphics().dispose();",
+        "315": "        getEscherGraphics().drawString(string, (int)x, (int)y);",
+        "292": "    {",
+        "261": "        }",
+        "262": "        getEscherGraphics().drawLine(x1,y1,x2,y2, width);",
+        "267": "    {",
+        "268": "        getEscherGraphics().drawOval(x,y,width,height);",
+        "349": "    {",
+        "274": "    {",
+        "275": "        getEscherGraphics().drawPolygon(xPoints, yPoints, nPoints);",
+        "154": "    {",
+        "155": "        EscherGraphics2d g2d = new EscherGraphics2d(escherGraphics);",
+        "314": "    {",
+        "350": "        escherGraphics.fillOval(x,y,width,height);",
+        "293": "        escherGraphics.drawRect(x,y,width,height);"
+      },
+      "id": 15642327,
+      "filename": "EscherGraphics2d.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "matchterm": "AbstractFunctionPtg",
+  "previouspage": null,
+  "searchterm": "AbstractFunctionPtg",
+  "query": "AbstractFunctionPtg",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1069,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642368/",
+      "md5hash": "28d644f6963548f6234cc54a47085ba2",
+      "lines": {
+        "416": "        AbstractFunctionPtg retval = null;",
+        "417": "        ",
+        "418": "        if (name.equals(\"IF\")) {",
+        "419": "            retval = new FuncVarPtg(AbstractFunctionPtg.ATTR_NAME, numArgs);",
+        "904": "        Ptg p = (Ptg) n.getValue();",
+        "905": "        if (p instanceof AbstractFunctionPtg || !(p instanceof OperationPtg)) {",
+        "363": "                ",
+        "364": "        AbstractFunctionPtg functionPtg = getFunction(name,(byte)numArgs);",
+        "974": "            stack.push(o.toFormulaString(operands));",
+        "975": "            if (!(o instanceof AbstractFunctionPtg)) continue;",
+        "976": "",
+        "977": "            final AbstractFunctionPtg f = (AbstractFunctionPtg) o;",
+        "856": "        int numOperands = n.getNumChildren();",
+        "857": "        if (p instanceof AbstractFunctionPtg) {",
+        "858": "            for (int i =0;i<numOperands;i++) {",
+        "415": "    private AbstractFunctionPtg getFunction(String name, byte numArgs) {"
+      },
+      "id": 15642368,
+      "filename": "FormulaParser.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 117,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642545/",
+      "md5hash": "b84df105817a87c90464a7c946b46639",
+      "lines": {
+        "49": " */",
+        "50": "public class FuncVarPtg extends AbstractFunctionPtg{"
+      },
+      "id": 15642545,
+      "filename": "FuncVarPtg.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 126,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642554/",
+      "md5hash": "ca645a01ab0315dd4d6136cdceda6c78",
+      "lines": {
+        "50": " */",
+        "51": "public class FuncPtg extends AbstractFunctionPtg{"
+      },
+      "id": 15642554,
+      "filename": "FuncPtg.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

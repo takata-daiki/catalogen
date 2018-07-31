@@ -1,0 +1,523 @@
+{
+  "matchterm": "Date",
+  "previouspage": null,
+  "searchterm": "Date",
+  "query": "Date",
+  "language_filters": [
+    {
+      "count": 235673,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 235672,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/tari/prizm-gcc.git",
+      "language": "Java",
+      "linescount": 185,
+      "location": "/libjava/classpath/java/sql",
+      "name": "prizm-gcc",
+      "url": "https://searchcode.com/codesearch/view/37947426/",
+      "md5hash": "921094e7424b3545b58292d2a8a29249",
+      "lines": {
+        "1": "/* Date.java -- Wrapper around java.util.Date",
+        "2": "   Copyright (C) 1999, 2000, 2003, 2005, 2006 Free Software Foundation, Inc.",
+        "40": "import java.text.ParseException;",
+        "41": "import java.text.SimpleDateFormat;",
+        "43": "/**",
+        "44": "  * This class is a wrapper around java.util.Date to allow the JDBC",
+        "45": "  * driver to identify the value as a SQL Date.",
+        "46": "  *",
+        "48": "  */",
+        "49": "public class Date extends java.util.Date",
+        "53": "  /**",
+        "54": "   * Used for parsing and formatting this date.",
+        "55": "   */",
+        "152": "   * This method returns a new instance of this class by parsing a",
+        "153": "   * date in JDBC format into a Java date."
+      },
+      "id": 37947426,
+      "filename": "Date.java"
+    },
+    {
+      "repo": "https://bitbucket.org/bluezoo/gcc.git",
+      "language": "Java",
+      "linescount": 185,
+      "location": "/libjava/classpath/java/sql",
+      "name": "gcc",
+      "url": "https://searchcode.com/codesearch/view/46813061/",
+      "md5hash": "921094e7424b3545b58292d2a8a29249",
+      "lines": {
+        "1": "/* Date.java -- Wrapper around java.util.Date",
+        "2": "   Copyright (C) 1999, 2000, 2003, 2005, 2006 Free Software Foundation, Inc.",
+        "40": "import java.text.ParseException;",
+        "41": "import java.text.SimpleDateFormat;",
+        "43": "/**",
+        "44": "  * This class is a wrapper around java.util.Date to allow the JDBC",
+        "45": "  * driver to identify the value as a SQL Date.",
+        "46": "  *",
+        "48": "  */",
+        "49": "public class Date extends java.util.Date",
+        "53": "  /**",
+        "54": "   * Used for parsing and formatting this date.",
+        "55": "   */",
+        "152": "   * This method returns a new instance of this class by parsing a",
+        "153": "   * date in JDBC format into a Java date."
+      },
+      "id": 46813061,
+      "filename": "Date.java"
+    },
+    {
+      "repo": "http://beast-mcmc.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 279,
+      "location": "/src/dr/evolution/util",
+      "name": "beast-mcmc",
+      "url": "https://searchcode.com/codesearch/view/7746545/",
+      "md5hash": "71faa4191128fd1796a7875a2cf86b26",
+      "lines": {
+        "1": "/*",
+        "2": " * Date.java",
+        "36": " *",
+        "37": " * @version $Id: Date.java,v 1.26 2005/05/24 20:25:57 rambaut Exp $",
+        "41": " */",
+        "42": "public class Date extends TimeScale implements Attribute { ",
+        "43": "",
+        "44": "    public static final String DATE = \"date\";",
+        "51": "     * @param backwards true if the time is earlier than the origin",
+        "52": "     * @param origin the absolute origin at a Date.",
+        "53": "     */",
+        "54": "    public Date(double time, Type units, boolean backwards, java.util.Date origin) {",
+        "59": "    /**",
+        "60": "     * Constructor for an absolute date.",
+        "61": "     * @param date the date"
+      },
+      "id": 7746545,
+      "filename": "Date.java"
+    },
+    {
+      "repo": "https://github.com/santoshainsight/googleads-java-lib.git",
+      "language": "Java",
+      "linescount": 202,
+      "location": "/modules/adwords_axis/src/main/java/com/google/api/ads/adwords/axis/v201309/cm",
+      "name": "googleads-java-lib",
+      "url": "https://searchcode.com/codesearch/view/97444168/",
+      "md5hash": "8ed46c16eb037a1ca78382d772c845a4",
+      "lines": {
+        "1": "/**",
+        "2": " * Date.java",
+        "37": "    /**",
+        "38": "     * Gets the year value for this Date.",
+        "11": "/**",
+        "12": " * Represents a date.",
+        "13": " */",
+        "142": "    private static org.apache.axis.description.TypeDesc typeDesc =",
+        "143": "        new org.apache.axis.description.TypeDesc(Date.class, true);",
+        "145": "    static {",
+        "146": "        typeDesc.setXmlType(new javax.xml.namespace.QName(\"https://adwords.google.com/api/adwords/cm/v201309\", \"Date\"));",
+        "23": "",
+        "24": "    public Date() {",
+        "26": "",
+        "27": "    public Date("
+      },
+      "id": 97444168,
+      "filename": "Date.java"
+    },
+    {
+      "repo": "http://google-api-adwords-java.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 202,
+      "location": "/src/com/google/api/adwords/v201109/cm",
+      "name": "google-api-adwords-java",
+      "url": "https://searchcode.com/codesearch/view/4800280/",
+      "md5hash": "1877089cb2af2f7aded8e695fc2c1968",
+      "lines": {
+        "1": "/**",
+        "2": " * Date.java",
+        "37": "    /**",
+        "38": "     * Gets the year value for this Date.",
+        "11": "/**",
+        "12": " * Represents a date.",
+        "13": " */",
+        "142": "    private static org.apache.axis.description.TypeDesc typeDesc =",
+        "143": "        new org.apache.axis.description.TypeDesc(Date.class, true);",
+        "145": "    static {",
+        "146": "        typeDesc.setXmlType(new javax.xml.namespace.QName(\"https://adwords.google.com/api/adwords/cm/v201109\", \"Date\"));",
+        "23": "",
+        "24": "    public Date() {",
+        "26": "",
+        "27": "    public Date("
+      },
+      "id": 4800280,
+      "filename": "Date.java"
+    },
+    {
+      "repo": "http://google-api-dfp-java.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 202,
+      "location": "/src/com/google/api/ads/dfp/v201111",
+      "name": "google-api-dfp-java",
+      "url": "https://searchcode.com/codesearch/view/13400020/",
+      "md5hash": "d471bb77e0ed9bea0a4ba5e049fe8a80",
+      "lines": {
+        "1": "/**",
+        "2": " * Date.java",
+        "37": "    /**",
+        "38": "     * Gets the year value for this Date.",
+        "11": "/**",
+        "12": " * Represents a date.",
+        "13": " */",
+        "142": "    private static org.apache.axis.description.TypeDesc typeDesc =",
+        "143": "        new org.apache.axis.description.TypeDesc(Date.class, true);",
+        "145": "    static {",
+        "146": "        typeDesc.setXmlType(new javax.xml.namespace.QName(\"https://www.google.com/apis/ads/publisher/v201111\", \"Date\"));",
+        "23": "",
+        "24": "    public Date() {",
+        "26": "",
+        "27": "    public Date("
+      },
+      "id": 13400020,
+      "filename": "Date.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nguyenbnt_55/lab09",
+      "language": "Java",
+      "linescount": 50,
+      "location": "",
+      "name": "lab09",
+      "url": "https://searchcode.com/codesearch/view/123705358/",
+      "md5hash": "eabd701fc7f3e86b18cb4b1ab0670e09",
+      "lines": {
+        "1": "",
+        "2": "// Date class declaration.",
+        "3": "",
+        "4": "public class Date",
+        "49": "    } // end method toString",
+        "11": "    // call checkDay to confirm proper value for day",
+        "12": "    public Date( int theMonth, int theDay, int theYear ){",
+        "13": "        month = checkMonth( theMonth ); // validate month",
+        "14": "        year = theYear; // could validate year",
+        "15": "        day = checkDay( theDay ); // validate day",
+        "16": "    } // end Date constructor",
+        "17": "",
+        "50": "}// end class Date",
+        "19": "    private int checkMonth( int testMonth ){",
+        "20": "        if ( testMonth > 0 && testMonth <= 12 ) // validate month"
+      },
+      "id": 123705358,
+      "filename": "Date.java"
+    },
+    {
+      "repo": "https://bitbucket.org/lpimports/gcc.git",
+      "language": "Java",
+      "linescount": 185,
+      "location": "/libjava/classpath/java/sql",
+      "name": "gcc",
+      "url": "https://searchcode.com/codesearch/view/127597742/",
+      "md5hash": "921094e7424b3545b58292d2a8a29249",
+      "lines": {
+        "1": "/* Date.java -- Wrapper around java.util.Date",
+        "2": "   Copyright (C) 1999, 2000, 2003, 2005, 2006 Free Software Foundation, Inc.",
+        "40": "import java.text.ParseException;",
+        "41": "import java.text.SimpleDateFormat;",
+        "43": "/**",
+        "44": "  * This class is a wrapper around java.util.Date to allow the JDBC",
+        "45": "  * driver to identify the value as a SQL Date.",
+        "46": "  *",
+        "48": "  */",
+        "49": "public class Date extends java.util.Date",
+        "53": "  /**",
+        "54": "   * Used for parsing and formatting this date.",
+        "55": "   */",
+        "152": "   * This method returns a new instance of this class by parsing a",
+        "153": "   * date in JDBC format into a Java date."
+      },
+      "id": 127597742,
+      "filename": "Date.java"
+    },
+    {
+      "repo": "https://bitbucket.org/vaporoid/gcc.git",
+      "language": "Java",
+      "linescount": 185,
+      "location": "/libjava/classpath/java/sql",
+      "name": "gcc",
+      "url": "https://searchcode.com/codesearch/view/130225000/",
+      "md5hash": "921094e7424b3545b58292d2a8a29249",
+      "lines": {
+        "1": "/* Date.java -- Wrapper around java.util.Date",
+        "2": "   Copyright (C) 1999, 2000, 2003, 2005, 2006 Free Software Foundation, Inc.",
+        "40": "import java.text.ParseException;",
+        "41": "import java.text.SimpleDateFormat;",
+        "43": "/**",
+        "44": "  * This class is a wrapper around java.util.Date to allow the JDBC",
+        "45": "  * driver to identify the value as a SQL Date.",
+        "46": "  *",
+        "48": "  */",
+        "49": "public class Date extends java.util.Date",
+        "53": "  /**",
+        "54": "   * Used for parsing and formatting this date.",
+        "55": "   */",
+        "152": "   * This method returns a new instance of this class by parsing a",
+        "153": "   * date in JDBC format into a Java date."
+      },
+      "id": 130225000,
+      "filename": "Date.java"
+    },
+    {
+      "repo": "https://github.com/jeremysmith1/Project-2.git",
+      "language": "Java",
+      "linescount": 146,
+      "location": "",
+      "name": "Project-2",
+      "url": "https://searchcode.com/codesearch/view/67824620/",
+      "md5hash": "f2392cf4e6896a6a4990c4ce69bf33c2",
+      "lines": {
+        "32": "",
+        "1": "// Date class to be used in project 2 COP 3503",
+        "2": "",
+        "6": "",
+        "33": "    public Date(int month, int day, int year) {",
+        "7": "public class Date implements Comparable<Date>, Cloneable {",
+        "46": "",
+        "47": "    // Reverse order - if \"this\" date is smaller return 1, else -1 or 0",
+        "48": "",
+        "49": "    public int compareTo(Date date) {",
+        "24": "",
+        "25": "    public Date() {"
+      },
+      "id": 67824620,
+      "filename": "Date.java"
+    },
+    {
+      "repo": "git://github.com/zkoss/zk.git",
+      "language": "Java",
+      "linescount": 27,
+      "location": "/jsdoc/src/_global_",
+      "name": "zk",
+      "url": "https://searchcode.com/codesearch/view/17657717/",
+      "md5hash": "aeaee75486a2fd5f26cd142e780eefd1",
+      "lines": {
+        "1": "/* Date.java",
+        "2": "",
+        "19": " * <p><a href=\"http://www.w3schools.com/jsref/jsref_obj_date.asp\">JavaScript reference</a>.",
+        "20": " * @see Map",
+        "17": "/**",
+        "24": "public class Date {",
+        "25": "\tprivate Date() {}",
+        "26": "}",
+        "23": " */",
+        "18": " * The Date object is used to work with dates and times."
+      },
+      "id": 17657717,
+      "filename": "Date.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tanyona/art-2.4",
+      "language": "Java",
+      "linescount": 148,
+      "location": "/art/src/art/WEB-INF/classes/art/params",
+      "name": "art-2.4",
+      "url": "https://searchcode.com/codesearch/view/59604490/",
+      "md5hash": "dc14b728ff3c9d26b914d09194937020",
+      "lines": {
+        "1": "/**",
+        "2": "Date box",
+        "3": "",
+        "4": "Used in showParams.jsp page to display date and datetime parameter fields",
+        "6": "20080128\t\tadded code in constructor to allow an offset",
+        "7": "(from current date) to be specified in the default value",
+        "11": "import art.utils.PreparedQuery;",
+        "12": "import java.text.SimpleDateFormat;",
+        "13": "import java.util.Date;",
+        "14": "import org.apache.commons.lang.StringUtils;",
+        "16": "/**",
+        "17": " * Class to display DATE and DATETIME parameters.",
+        "21": " */",
+        "22": "public class HtmlDateInput implements ParamInterface {",
+        "24": "    String paramHtmlId, paramHtmlName, paramName, paramShortDescr, paramDescr, defaultValue;",
+        "25": "    boolean datetime;",
+        "26": "    String paramClass; //can be DATE or DATETIME"
+      },
+      "id": 59604490,
+      "filename": "HtmlDateInput.java"
+    },
+    {
+      "repo": "https://bitbucket.org/Pew446/bookshelf.git",
+      "language": "Java",
+      "linescount": 39,
+      "location": "/BookShelf/src/lib/Databases",
+      "name": "bookshelf",
+      "url": "https://searchcode.com/codesearch/view/38064914/",
+      "md5hash": "ecae6cd38ff22934b178094e7ea1bc77",
+      "lines": {
+        "1": "/*",
+        "2": " * Date Created: 2012-03-11 14:20",
+        "13": " * Class for running the library as a plugin.<br>",
+        "14": " * Date Created: 2012-03-11 14:20."
+      },
+      "id": 38064914,
+      "filename": "SQLibrary.java"
+    },
+    {
+      "repo": "https://github.com/Calenria/SimpleChat.git",
+      "language": "Java",
+      "linescount": 39,
+      "location": "/src/lib/PatPeter/SQLibrary",
+      "name": "SimpleChat",
+      "url": "https://searchcode.com/codesearch/view/72739568/",
+      "md5hash": "86ecba256aff51a01c8a7bf9eb5d3502",
+      "lines": {
+        "1": "/*",
+        "2": " * Date Created: 2012-03-11 14:20",
+        "13": " * Class for running the library as a plugin.<br>",
+        "14": " * Date Created: 2012-03-11 14:20."
+      },
+      "id": 72739568,
+      "filename": "SQLibrary.java"
+    },
+    {
+      "repo": "https://bitbucket.org/xlrdx/xmanager.git",
+      "language": "Java",
+      "linescount": 25,
+      "location": "/src/main/java/lib/PatPeter/SQLibrary",
+      "name": "xmanager",
+      "url": "https://searchcode.com/codesearch/view/38655872/",
+      "md5hash": "12ff6b7c919fd0c3ac478586b7b7082e",
+      "lines": {
+        "1": "/*",
+        "2": " * Date Created: 2012-03-11 14:20"
+      },
+      "id": 38655872,
+      "filename": "SQLibrary.java"
+    },
+    {
+      "repo": "https://github.com/ManiacViper/miniJava_CW_2.git",
+      "language": "Java",
+      "linescount": 82,
+      "location": "/validMJ",
+      "name": "miniJava_CW_2",
+      "url": "https://searchcode.com/codesearch/view/71961400/",
+      "md5hash": "af1e6ea89e14f20bacdc5cd1020b7891",
+      "lines": {
+        "1": "//",
+        "2": "// Date 18/02/13"
+      },
+      "id": 71961400,
+      "filename": "Product.java"
+    },
+    {
+      "repo": "https://github.com/lemtzas/LemSpawnstuff.git",
+      "language": "Java",
+      "linescount": 25,
+      "location": "/src/lib/PatPeter/SQLibrary",
+      "name": "LemSpawnstuff",
+      "url": "https://searchcode.com/codesearch/view/75177685/",
+      "md5hash": "4689bc47d78a6952b7ed70d20ebb157a",
+      "lines": {
+        "1": "/*",
+        "2": " * Date Created: 2012-03-11 14:20"
+      },
+      "id": 75177685,
+      "filename": "SQLibrary.java"
+    },
+    {
+      "repo": "http://portprofile.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 269,
+      "location": "/src/forteresce/portprofile/gui/panels",
+      "name": "portprofile",
+      "url": "https://searchcode.com/codesearch/view/54217/",
+      "md5hash": "c67980949438ea3af2a3bfafe171c390",
+      "lines": {
+        "144": "\t\t} else {",
+        "1": "/**",
+        "2": " * Date Created: Apr 20, 2009",
+        "145": "\t\t\tif (IMPORT_BUTTON_TEXT.equals(text) && validateInput()) {",
+        "157": "",
+        "158": "\tprivate boolean validateInput() {"
+      },
+      "id": 54217,
+      "filename": "ProfilesImportPanel.java"
+    },
+    {
+      "repo": "http://portprofile.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 50,
+      "location": "/src/forteresce/portprofile",
+      "name": "portprofile",
+      "url": "https://searchcode.com/codesearch/view/13484432/",
+      "md5hash": "a80477c5ebc721eafe125e27817599d6",
+      "lines": {
+        "1": "/**",
+        "2": " * Date Created: Apr 12, 2009"
+      },
+      "id": 13484432,
+      "filename": "PortProfileGUI.java"
+    },
+    {
+      "repo": "http://portprofile.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 190,
+      "location": "/src/forteresce/portprofile/profiles/util",
+      "name": "portprofile",
+      "url": "https://searchcode.com/codesearch/view/13484434/",
+      "md5hash": "ebb4f64b9ccaaade17d6b1adc2f980a0",
+      "lines": {
+        "1": "/**",
+        "2": " * Date Created: Mar 21, 2009"
+      },
+      "id": 13484434,
+      "filename": "ProfileUtil.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 127494,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 78157,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 24883,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 1843,
+      "source": "GitLab",
+      "id": 13
+    },
+    {
+      "count": 1706,
+      "source": "CodePlex",
+      "id": 5
+    },
+    {
+      "count": 998,
+      "source": "Sourceforge",
+      "id": 4
+    },
+    {
+      "count": 304,
+      "source": "Unknown",
+      "id": 0
+    },
+    {
+      "count": 205,
+      "source": "Gitorious",
+      "id": 10
+    },
+    {
+      "count": 83,
+      "source": "Google Android",
+      "id": 12
+    }
+  ]
+}

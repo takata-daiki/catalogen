@@ -1,0 +1,464 @@
+{
+  "matchterm": "XWPFDocument",
+  "previouspage": null,
+  "searchterm": "XWPFDocument",
+  "query": "XWPFDocument",
+  "language_filters": [
+    {
+      "count": 78,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 78,
+  "results": [
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 184,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785573/",
+      "md5hash": "182b92c20f0ceb47e5952f2b30e98cd2",
+      "lines": {
+        "129": "     */",
+        "130": "    private void extractTableContent(XWPFDocument doc, XHTMLContentHandler xhtml)",
+        "165": "    protected List<PackagePart> getMainDocumentParts() {",
+        "166": "       XWPFDocument document = (XWPFDocument) extractor.getDocument();",
+        "178": "    private static class MyXWPFParagraph extends XWPFParagraph {",
+        "179": "        private MyXWPFParagraph(CTP ctp, XWPFDocument xwpfDocument) {",
+        "180": "            super(ctp, xwpfDocument);",
+        "53": "            throws SAXException, XmlException, IOException {",
+        "54": "        XWPFDocument document = (XWPFDocument) extractor.getDocument();",
+        "29": "import org.apache.poi.xwpf.model.XWPFParagraphDecorator;",
+        "30": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "181": "        }"
+      },
+      "id": 111785573,
+      "filename": "XWPFWordExtractorDecorator.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nuclos/nuclos.git",
+      "language": "Java",
+      "linescount": 322,
+      "location": "/nuclos-server/src/main/java/org/nuclos/server/common/ooxml",
+      "name": "nuclos",
+      "url": "https://searchcode.com/codesearch/view/46076962/",
+      "md5hash": "b0149ee3f1d64724e7fbee233b264acb",
+      "lines": {
+        "33": "import org.apache.poi.xwpf.extractor.XWPFWordExtractor;",
+        "34": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "83": "\t\tthis(new XWPFDocument(is));",
+        "85": "",
+        "86": "\tpublic WordXMLReader(XWPFDocument document) {",
+        "82": "\tpublic WordXMLReader(InputStream is) throws IOException {",
+        "78": "\tprivate final XWPFDocument document;",
+        "77": ""
+      },
+      "id": 46076962,
+      "filename": "WordXMLReader.java"
+    },
+    {
+      "repo": "https://github.com/nls-oskari/oskari-server.git",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/servlet-printout/src/main/java/fi/nls/oskari/printout/ws/jaxrs/format",
+      "name": "oskari-server",
+      "url": "https://searchcode.com/codesearch/view/76071738/",
+      "md5hash": "e6c0ddd87921a1487250d68e48227284",
+      "lines": {
+        "58": "",
+        "59": "\t\tXWPFDocument doc = new XWPFDocument();",
+        "22": "import org.apache.poi.xwpf.usermodel.ParagraphAlignment;",
+        "23": "import org.apache.poi.xwpf.usermodel.XWPFDocument;"
+      },
+      "id": 76071738,
+      "filename": "StreamingDOCXImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/johnnywsd/java-extractemailfromdocdocxpdftxt.git",
+      "language": "Java",
+      "linescount": 31,
+      "location": "/shoudaw/msword",
+      "name": "java-extractemailfromdocdocxpdftxt",
+      "url": "https://searchcode.com/codesearch/view/51905614/",
+      "md5hash": "a233d4e072d0ea56d8a3ff54c2da64d5",
+      "lines": {
+        "16": "\t\t\tXWPFDocument doc = new XWPFDocument(new FileInputStream(filePath));",
+        "4": "import org.apache.poi.xwpf.extractor.XWPFWordExtractor;",
+        "5": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "15": "\t\ttry {"
+      },
+      "id": 51905614,
+      "filename": "MsWordDocx.java"
+    },
+    {
+      "repo": "https://code.google.com/p/xdocreport/",
+      "language": "Java",
+      "linescount": 75,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/12208678/",
+      "md5hash": "d7a4119556b28d8b9714b832ebbe540c",
+      "lines": {
+        "33": "import org.apache.poi.xwpf.converter.XWPFConverterException;",
+        "34": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "39": "",
+        "40": "    public void convert( XWPFDocument XWPFDocument, OutputStream out, T options )",
+        "71": "",
+        "44": "        {",
+        "45": "            doConvert( XWPFDocument, out, null, options );",
+        "72": "    protected abstract void doConvert( XWPFDocument XWPFDocument, OutputStream out, Writer writer, T options )",
+        "55": "",
+        "56": "    public void convert( XWPFDocument XWPFDocument, Writer writer, T options )",
+        "60": "        {",
+        "61": "            doConvert( XWPFDocument, null, writer, options );"
+      },
+      "id": 12208678,
+      "filename": "AbstractXWPFConverter.java"
+    },
+    {
+      "repo": "https://code.google.com/p/xdocreport/",
+      "language": "Java",
+      "linescount": 85,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/itext",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/12208724/",
+      "md5hash": "644bab6aee93241c0c2bfd046058d0d9",
+      "lines": {
+        "34": "import org.apache.poi.xwpf.converter.internal.itext.PDFMapper;",
+        "35": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "66": "    @Override",
+        "49": "    @Override",
+        "50": "    public void convert( XWPFDocument XWPFDocument, OutputStream out, PDFViaITextOptions options )",
+        "67": "    protected void doConvert( XWPFDocument document, OutputStream out, Writer writer, PDFViaITextOptions options )",
+        "53": "        // TODO Auto-generated method stub",
+        "54": "        super.convert( XWPFDocument, out, options );",
+        "58": "    @Override",
+        "59": "    public void convert( XWPFDocument XWPFDocument, Writer writer, PDFViaITextOptions options )",
+        "62": "        // TODO Auto-generated method stub",
+        "63": "        super.convert( XWPFDocument, writer, options );"
+      },
+      "id": 12208724,
+      "filename": "XWPF2PDFViaITextConverter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/NicolayMitropolsky/plansync",
+      "language": "Java",
+      "linescount": 52,
+      "location": "/src/main/java/plans",
+      "name": "plansync",
+      "url": "https://searchcode.com/codesearch/view/66649309/",
+      "md5hash": "28871a32dd3666c4825935e99170d512",
+      "lines": {
+        "25": "",
+        "26": "        XWPFDocument doc = new XWPFDocument(fs);",
+        "3": "import org.apache.poi.hwpf.extractor.WordExtractor;",
+        "4": "import org.apache.poi.xwpf.usermodel.XWPFDocument;"
+      },
+      "id": 66649309,
+      "filename": "DocXReader.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nuclos/nuclos.git",
+      "language": "Java",
+      "linescount": 406,
+      "location": "/nuclos-server/src/main/java/org/nuclos/server/report/export",
+      "name": "nuclos",
+      "url": "https://searchcode.com/codesearch/view/134954814/",
+      "md5hash": "09326efae1bfefac9cda235176c676d9",
+      "lines": {
+        "32": "import org.apache.poi.hwpf.usermodel.Range;",
+        "33": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "258": "\t\t\t\t((XWPFDocument)docObj).write(baos);",
+        "259": "\t\t\treturn new NuclosFile(name + format.getExtension(), baos.toByteArray());",
+        "257": "\t\t\tif (docObj instanceof XWPFDocument)",
+        "394": "\t\t\telse if (format == ReportOutputVO.Format.DOCX) {",
+        "395": "\t\t\t\treturn new XWPFDocument(new ByteArrayInputStream(output.getSourceFileContent().getData()));",
+        "108": "\t\t\t\t((HWPFDocument)doc).write(baos);",
+        "109": "\t\t\tif (doc instanceof XWPFDocument)",
+        "256": "\t\t\t\t((HWPFDocument)docObj).write(baos);",
+        "111": "\t\t\treturn new NuclosFile(output.getDescription() != null ? output.getDescription() : \"Preview\" + format.getExtension(), baos.toByteArray());",
+        "110": "\t\t\t\t((XWPFDocument)doc).write(baos);",
+        "182": "\t\t}",
+        "183": "\t\tif (docObj instanceof XWPFDocument) {",
+        "184": "\t\t\tfinal XWPFDocument doc = ((XWPFDocument)docObj);"
+      },
+      "id": 134954814,
+      "filename": "WordExport.java"
+    },
+    {
+      "repo": "https://code.google.com/p/xdocreport/",
+      "language": "Java",
+      "linescount": 79,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/test/java/org/apache/poi/xwpf/converter/xhtml",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/12208731/",
+      "md5hash": "bd84d017aa005e0b50627eea0791ed32",
+      "lines": {
+        "33": "import org.apache.poi.xwpf.converter.Data;",
+        "34": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "52": "",
+        "53": "        XWPFDocument document = new XWPFDocument( Data.class.getResourceAsStream( fileInName ) );",
+        "70": "        XWPFDocument document = new XWPFDocument( Data.class.getResourceAsStream( fileInName ) );",
+        "69": ""
+      },
+      "id": 12208731,
+      "filename": "XWPFPOI2HTMLConverterTest.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 75,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter.core/src/main/java/org/apache/poi/xwpf/converter/core",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96672550/",
+      "md5hash": "1e21614c3fcddf88755eec466c1b69ff",
+      "lines": {
+        "33": "import org.apache.poi.xwpf.converter.core.XWPFConverterException;",
+        "34": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "39": "",
+        "40": "    public void convert( XWPFDocument XWPFDocument, OutputStream out, T options )",
+        "71": "",
+        "44": "        {",
+        "45": "            doConvert( XWPFDocument, out, null, options );",
+        "72": "    protected abstract void doConvert( XWPFDocument XWPFDocument, OutputStream out, Writer writer, T options )",
+        "55": "",
+        "56": "    public void convert( XWPFDocument XWPFDocument, Writer writer, T options )",
+        "60": "        {",
+        "61": "            doConvert( XWPFDocument, null, writer, options );"
+      },
+      "id": 96672550,
+      "filename": "AbstractXWPFConverter.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 75,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673223/",
+      "md5hash": "6676eb7eb87cbe479ebb81f7ea260c4d",
+      "lines": {
+        "33": "import org.apache.poi.xwpf.converter.XWPFConverterException;",
+        "34": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "39": "",
+        "40": "    public void convert( XWPFDocument XWPFDocument, OutputStream out, T options )",
+        "71": "",
+        "44": "        {",
+        "45": "            doConvert( XWPFDocument, out, null, options );",
+        "72": "    protected abstract void doConvert( XWPFDocument XWPFDocument, OutputStream out, Writer writer, T options )",
+        "55": "",
+        "56": "    public void convert( XWPFDocument XWPFDocument, Writer writer, T options )",
+        "60": "        {",
+        "61": "            doConvert( XWPFDocument, null, writer, options );"
+      },
+      "id": 96673223,
+      "filename": "AbstractXWPFConverter.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 84,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/itext",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673460/",
+      "md5hash": "6f5aaee4471251eed48c92c5961e145a",
+      "lines": {
+        "34": "import org.apache.poi.xwpf.converter.internal.itext.PDFMapper;",
+        "35": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "66": "    @Override",
+        "49": "    @Override",
+        "50": "    public void convert( XWPFDocument XWPFDocument, OutputStream out, PDFViaITextOptions options )",
+        "67": "    protected void doConvert( XWPFDocument document, OutputStream out, Writer writer, PDFViaITextOptions options )",
+        "53": "        // TODO Auto-generated method stub",
+        "54": "        super.convert( XWPFDocument, out, options );",
+        "58": "    @Override",
+        "59": "    public void convert( XWPFDocument XWPFDocument, Writer writer, PDFViaITextOptions options )",
+        "62": "        // TODO Auto-generated method stub",
+        "63": "        super.convert( XWPFDocument, writer, options );"
+      },
+      "id": 96673460,
+      "filename": "XWPF2PDFViaITextConverter.java"
+    },
+    {
+      "repo": "https://code.google.com/p/xdocreport/",
+      "language": "Java",
+      "linescount": 305,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/12208676/",
+      "md5hash": "ac25279aef887d58ea179db27b375521",
+      "lines": {
+        "64": "",
+        "65": "    public XWPFElementVisitor( XWPFDocument document )",
+        "34": "import org.apache.poi.xwpf.usermodel.IBodyElement;",
+        "35": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "84": "    /**",
+        "85": "     * Main entry for visit XWPFDocument.",
+        "60": "",
+        "61": "    protected final XWPFDocument document;"
+      },
+      "id": 12208676,
+      "filename": "XWPFElementVisitor.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 103,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785577/",
+      "md5hash": "c9c3f130483ace9122b93909deae1587",
+      "lines": {
+        "33": "import org.apache.poi.xwpf.extractor.XWPFWordExtractor;",
+        "34": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "75": "            } else if (document instanceof XWPFDocument) {",
+        "74": "                        (XSSFExcelExtractor) poiExtractor, locale);"
+      },
+      "id": 111785577,
+      "filename": "OOXMLExtractorFactory.java"
+    },
+    {
+      "repo": "https://bitbucket.org/mg/olat",
+      "language": "Java",
+      "linescount": 156,
+      "location": "/src/main/java/org/olat/search/service/document/file",
+      "name": "olat",
+      "url": "https://searchcode.com/codesearch/view/126168429/",
+      "md5hash": "dfe530c94dc566561a0e060d649eb7c5",
+      "lines": {
+        "35": "import org.apache.poi.xwpf.model.XWPFParagraphDecorator;",
+        "83": "",
+        "84": "\t\t\tif (document instanceof XWPFDocument) {",
+        "85": "\t\t\t\tfinal XWPFDocument xDocument = (XWPFDocument) document;",
+        "86": "\t\t\t\tfinal XWPFHeaderFooterPolicy hfPolicy = xDocument.getHeaderFooterPolicy();",
+        "36": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "102": "\tprivate void extractContent(final StringBuilder buffy, final XWPFDocument document) throws IOException, XmlException {",
+        "101": ""
+      },
+      "id": 126168429,
+      "filename": "WordOOXMLDocument.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 87,
+      "location": "/gae/org.apache.poi.xwpf.converter.xhtml-gae/src/test/java/org/apache/poi/xwpf/converter/xhtml",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96672495/",
+      "md5hash": "68b6680c999d6de41a63c80c528ef31b",
+      "lines": {
+        "34": "import org.apache.poi.xwpf.converter.core.FileURIResolver;",
+        "35": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "53": "",
+        "54": "        XWPFDocument document = new XWPFDocument( AbstractXWPFPOIConverterTest.class.getResourceAsStream( fileInName ) );",
+        "71": "",
+        "72": "        XWPFDocument document = new XWPFDocument( AbstractXWPFPOIConverterTest.class.getResourceAsStream( fileInName ) );"
+      },
+      "id": 96672495,
+      "filename": "XHTMLConverterTestCase.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 97,
+      "location": "/gae/org.apache.poi.xwpf.converter.xhtml-gae/src/test/java/org/apache/poi/xwpf/converter/xhtml",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96672498/",
+      "md5hash": "11f64320346943552dc49e0f99e76498",
+      "lines": {
+        "80": "        XWPFDocument document = new XWPFDocument( AbstractXWPFPOIConverterTest.class.getResourceAsStream( fileInName ) );",
+        "35": "import org.apache.poi.xwpf.converter.core.XWPFConverterException;",
+        "36": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "61": "",
+        "62": "        XWPFDocument document = new XWPFDocument( AbstractXWPFPOIConverterTest.class.getResourceAsStream( fileInName ) );",
+        "79": ""
+      },
+      "id": 96672498,
+      "filename": "XHTMLConverterChineseTestCase.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 1398,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter.core/src/main/java/org/apache/poi/xwpf/converter/core",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96672565/",
+      "md5hash": "2ee0d9cfda1138ee93328b854d5e99ce",
+      "lines": {
+        "128": "",
+        "129": "    protected final XWPFDocument document;",
+        "180": "    /**",
+        "156": "",
+        "47": "import org.apache.poi.xwpf.usermodel.XWPFAbstractNum;",
+        "48": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "157": "    protected XWPFStylesDocument createStylesDocument( XWPFDocument document )",
+        "147": "",
+        "148": "    public XWPFDocumentVisitor( XWPFDocument document, O options )",
+        "181": "     * Main entry for visit XWPFDocument.",
+        "121": " */",
+        "122": "public abstract class XWPFDocumentVisitor<T, O extends Options, E extends IXWPFMasterPage>",
+        "124": "",
+        "125": "    private static final Logger LOGGER = Logger.getLogger( XWPFDocumentVisitor.class.getName() );"
+      },
+      "id": 96672565,
+      "filename": "XWPFDocumentVisitor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 79,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/test/java/org/apache/poi/xwpf/converter/xhtml",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673112/",
+      "md5hash": "d1d598d1ffc6fbfb52e37c6eefd415dc",
+      "lines": {
+        "33": "import org.apache.poi.xwpf.converter.Data;",
+        "34": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "52": "",
+        "53": "        XWPFDocument document = new XWPFDocument( Data.class.getResourceAsStream( fileInName ) );",
+        "70": "        XWPFDocument document = new XWPFDocument( Data.class.getResourceAsStream( fileInName ) );",
+        "69": ""
+      },
+      "id": 96673112,
+      "filename": "XWPFPOI2HTMLConverterTest.java"
+    },
+    {
+      "repo": "https://code.google.com/p/xdocreport/",
+      "language": "Java",
+      "linescount": 107,
+      "location": "/converter/fr.opensagres.xdocreport.converter.docx.xwpf/src/main/java/fr/opensagres/xdocreport/converter/docx/poi/itext",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/12208427/",
+      "md5hash": "95bb58b37b8d56f12c84aa51642db0d0",
+      "lines": {
+        "32": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "64": "        {",
+        "65": "            XWPFDocument document = new XWPFDocument( in );",
+        "31": "import org.apache.poi.xwpf.converter.itext.PDFViaITextOptions;"
+      },
+      "id": 12208427,
+      "filename": "XWPF2PDFViaITextConverter.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 50,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 18,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 10,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

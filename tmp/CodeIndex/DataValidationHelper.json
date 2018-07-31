@@ -1,0 +1,211 @@
+{
+  "matchterm": "DataValidationHelper",
+  "previouspage": null,
+  "searchterm": "DataValidationHelper",
+  "query": "DataValidationHelper",
+  "language_filters": [
+    {
+      "count": 9,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 9,
+  "results": [
+    {
+      "repo": "https://github.com/semantalytics/RightField.git",
+      "language": "Java",
+      "linescount": 87,
+      "location": "/src/test/java/uk/ac/manchester/cs/owl/semspreadsheets/model/xssf/impl",
+      "name": "RightField",
+      "url": "https://searchcode.com/codesearch/view/72853788/",
+      "md5hash": "17bc9ba3e53af1b2b9a649879a6b3202",
+      "lines": {
+        "50": "\t\t",
+        "51": "\t\tDataValidationHelper dataValidationHelper = sheet.getDataValidationHelper();",
+        "52": "\t\tDataValidationConstraint constraint = dataValidationHelper.createCustomConstraint(\"SUM($A$1:$A$1) <= 3500\");",
+        "53": "\t\tCellRangeAddressList addressList = new CellRangeAddressList(0, 0, 0, 0);",
+        "54": "\t\tDataValidation validation = dataValidationHelper.createValidation(constraint, addressList);",
+        "8": "import org.apache.poi.ss.usermodel.DataValidationConstraint;",
+        "9": "import org.apache.poi.ss.usermodel.DataValidationHelper;"
+      },
+      "id": 72853788,
+      "filename": "SheetXSSFImplTest.java"
+    },
+    {
+      "repo": "https://github.com/Christian-B/FishLink.git",
+      "language": "Java",
+      "linescount": 384,
+      "location": "/src/org/freshwaterlife/fishlink/metadatacreator",
+      "name": "FishLink",
+      "url": "https://searchcode.com/codesearch/view/114492726/",
+      "md5hash": "8436fea159f7aa4220cdbbb59cb44742",
+      "lines": {
+        "326": "        CellRangeAddressList addressList = new CellRangeAddressList(row - 1, row -1, columnNumber,  columnNumber);",
+        "327": "        DataValidationHelper dataValidationHelper = poiSheet.getDataValidationHelper();",
+        "9": "import org.apache.poi.ss.usermodel.DataValidationConstraint;",
+        "10": "import org.apache.poi.ss.usermodel.DataValidationHelper;",
+        "333": "            //Create an any rule. Numberic method is only one that support Validation Type.",
+        "334": "            constraint = dataValidationHelper.createNumericConstraint(DataValidationConstraint.ValidationType.ANY, ",
+        "339": "            String[] values = rule.split(\",\");",
+        "340": "            constraint = dataValidationHelper.createExplicitListConstraint(values);",
+        "341": "        } else if (rule.equals(\"BLANK\")){",
+        "342": "            constraint = dataValidationHelper.createTextLengthConstraint(",
+        "344": "        } else {",
+        "345": "            constraint = dataValidationHelper.createFormulaListConstraint(rule);",
+        "346": "        }",
+        "347": "        DataValidation dataValidation = dataValidationHelper.createValidation(constraint, addressList);"
+      },
+      "id": 114492726,
+      "filename": "FishLinkSheet.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 5111,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970697/",
+      "md5hash": "f6740268ba4be4778508748ca1c3becc",
+      "lines": {
+        "4678": "\t\t\tfinal DataValidationHelper helper = range.getSheet().getDataValidationHelper();",
+        "4690": "\t\t}else{",
+        "4691": "\t\t\tfinal DataValidationHelper helper = range.getSheet().getDataValidationHelper();",
+        "4677": "\t\t}else{",
+        "1558": "\t\t} else {",
+        "1559": "\t\t\tfinal DataValidationHelper helper = dstSheet.getDataValidationHelper();",
+        "91": "import org.zkoss.poi.ss.usermodel.DataValidationConstraint.ValidationType;",
+        "92": "import org.zkoss.poi.ss.usermodel.DataValidationHelper;"
+      },
+      "id": 3970697,
+      "filename": "BookHelper.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1319,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970708/",
+      "md5hash": "e52c956c400b399e06a805984e2f85f6",
+      "lines": {
+        "54": "import org.zkoss.poi.ss.usermodel.DataValidationConstraint;",
+        "1126": "    private class DVRecordVisitor implements RecordVisitor {",
+        "1127": "    \tprivate DataValidationHelper _helper;",
+        "1129": "    \tprivate DVRecordVisitor() {",
+        "1130": "    \t\t_helper = getDataValidationHelper();",
+        "55": "import org.zkoss.poi.ss.usermodel.DataValidationHelper;"
+      },
+      "id": 3970708,
+      "filename": "HSSFSheetImpl.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 66,
+      "location": "/zssapp/src/org/zkoss/zss/app/test",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/9943448/",
+      "md5hash": "afbc2e68a4e7ee49279e1a67a0ab85c8",
+      "lines": {
+        "48": "\tprivate void initValidation() {",
+        "49": "\t\tDataValidationHelper dvh = sheet.getDataValidationHelper();",
+        "22": "import org.zkoss.poi.ss.usermodel.DataValidationConstraint;",
+        "23": "import org.zkoss.poi.ss.usermodel.DataValidationHelper;"
+      },
+      "id": 9943448,
+      "filename": "ValidationComposer.java"
+    },
+    {
+      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 599,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/122565138/",
+      "md5hash": "e8ec25ba7cf4f1f996fb2cb840b6865e",
+      "lines": {
+        "578": "",
+        "579": "\tpublic DataValidationHelper getDataValidationHelper() {",
+        "580": "\t\treturn sheet.getDataValidationHelper();",
+        "581": "\t}",
+        "24": "import org.apache.poi.ss.usermodel.DataValidation;",
+        "25": "import org.apache.poi.ss.usermodel.DataValidationHelper;"
+      },
+      "id": 122565138,
+      "filename": "FilteredSheet.java"
+    },
+    {
+      "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 591,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/64530825/",
+      "md5hash": "55584d02d79e59362ceefc7f64ab9bfd",
+      "lines": {
+        "33": "import org.apache.poi.ss.usermodel.DataValidation;",
+        "34": "import org.apache.poi.ss.usermodel.DataValidationHelper;",
+        "570": "",
+        "571": "\tpublic DataValidationHelper getDataValidationHelper() {",
+        "572": "\t\treturn sheet.getDataValidationHelper();",
+        "573": "\t}"
+      },
+      "id": 64530825,
+      "filename": "FilteredSheet.java"
+    },
+    {
+      "repo": "https://github.com/isdom/POI-Android.git",
+      "language": "Java",
+      "linescount": 931,
+      "location": "/ppt/poi/org/apache/poi/ss/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/88638900/",
+      "md5hash": "15413f751fdd807f194277fb9055eb4d",
+      "lines": {
+        "907": "    ",
+        "908": "    public DataValidationHelper getDataValidationHelper();"
+      },
+      "id": 88638900,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ravisanthu0/spudsoft-birt-excel-emitters1",
+      "language": "Java",
+      "linescount": 575,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters1",
+      "url": "https://searchcode.com/codesearch/view/126772691/",
+      "md5hash": "b4e544f9101280231fc4294688aa09de",
+      "lines": {
+        "11": "import org.apache.poi.ss.usermodel.DataValidation;",
+        "556": "\t\treturn sheet.getDataValidationHelper();",
+        "554": "\t@Override",
+        "555": "\tpublic DataValidationHelper getDataValidationHelper() {",
+        "12": "import org.apache.poi.ss.usermodel.DataValidationHelper;",
+        "557": "\t}"
+      },
+      "id": 126772691,
+      "filename": "FilteredSheet.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 3,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

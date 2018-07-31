@@ -1,0 +1,282 @@
+{
+  "matchterm": "SelectionRecord",
+  "previouspage": null,
+  "searchterm": "SelectionRecord",
+  "query": "SelectionRecord",
+  "language_filters": [
+    {
+      "count": 11,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 11,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 299,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642427/",
+      "md5hash": "cee3153b17c1e6d33e9b2bc3676749c5",
+      "lines": {
+        "288": "    public Object clone() {",
+        "289": "      SelectionRecord rec = new SelectionRecord();",
+        "101": "",
+        "102": "    public SelectionRecord()",
+        "59": "",
+        "60": "public class SelectionRecord",
+        "110": "",
+        "111": "    public SelectionRecord(RecordInputStream in)"
+      },
+      "id": 15642427,
+      "filename": "SelectionRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 96,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260290/",
+      "md5hash": "0356f3997b2ffb720d766da337016a6c",
+      "lines": {
+        "64": "  public SelectionRecord(PaneType pt, int col, int r)",
+        "28": " */",
+        "29": "class SelectionRecord extends WritableRecordData",
+        "63": "   */"
+      },
+      "id": 43260290,
+      "filename": "SelectionRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 96,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200818/",
+      "md5hash": "0356f3997b2ffb720d766da337016a6c",
+      "lines": {
+        "64": "  public SelectionRecord(PaneType pt, int col, int r)",
+        "28": " */",
+        "29": "class SelectionRecord extends WritableRecordData",
+        "63": "   */"
+      },
+      "id": 49200818,
+      "filename": "SelectionRecord.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 96,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/write/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374568/",
+      "md5hash": "eab72de0ad6b282ac166bb1645f20231",
+      "lines": {
+        "64": "  public SelectionRecord(PaneType pt, int col, int r)",
+        "28": " */",
+        "29": "class SelectionRecord extends WritableRecordData",
+        "63": "   */"
+      },
+      "id": 11374568,
+      "filename": "SelectionRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 1148,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260286/",
+      "md5hash": "ffa1236c86df17622a6a9299c36353c8",
+      "lines": {
+        "547": "      // whole sheet",
+        "516": "      {",
+        "517": "        sr = new SelectionRecord",
+        "518": "          (SelectionRecord.upperRight, settings.getHorizontalFreeze(), 0);",
+        "519": "        outputFile.write(sr);",
+        "524": "      {",
+        "525": "        sr = new SelectionRecord",
+        "526": "          (SelectionRecord.lowerLeft, 0, settings.getVerticalFreeze());",
+        "527": "        outputFile.write(sr);",
+        "533": "      {",
+        "534": "        sr = new SelectionRecord",
+        "535": "          (SelectionRecord.lowerRight, ",
+        "536": "           settings.getHorizontalFreeze(), ",
+        "548": "      SelectionRecord sr = new SelectionRecord",
+        "549": "        (SelectionRecord.upperLeft, 0, 0);"
+      },
+      "id": 43260286,
+      "filename": "SheetWriter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 1148,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200814/",
+      "md5hash": "ffa1236c86df17622a6a9299c36353c8",
+      "lines": {
+        "547": "      // whole sheet",
+        "516": "      {",
+        "517": "        sr = new SelectionRecord",
+        "518": "          (SelectionRecord.upperRight, settings.getHorizontalFreeze(), 0);",
+        "519": "        outputFile.write(sr);",
+        "524": "      {",
+        "525": "        sr = new SelectionRecord",
+        "526": "          (SelectionRecord.lowerLeft, 0, settings.getVerticalFreeze());",
+        "527": "        outputFile.write(sr);",
+        "533": "      {",
+        "534": "        sr = new SelectionRecord",
+        "535": "          (SelectionRecord.lowerRight, ",
+        "536": "           settings.getHorizontalFreeze(), ",
+        "548": "      SelectionRecord sr = new SelectionRecord",
+        "549": "        (SelectionRecord.upperLeft, 0, 0);"
+      },
+      "id": 49200814,
+      "filename": "SheetWriter.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 3300,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642365/",
+      "md5hash": "1e8d548d196dc1063c30d9430b35b9f5",
+      "lines": {
+        "2096": "        //shouldn't have a sheet w/o a SelectionRecord, but best to guard anyway",
+        "291": "            }",
+        "292": "            else if ( rec.getSid() == SelectionRecord.sid )",
+        "293": "            {",
+        "294": "                retval.selection = (SelectionRecord) rec;",
+        "2092": "     * @see loci.poi.hssf.record.SelectionRecord",
+        "2091": "     * @param row the row index",
+        "2028": "     * @return record containing a SelectionRecord",
+        "2027": "     * @see loci.poi.hssf.record.Record",
+        "2095": "    {",
+        "2105": "     *",
+        "2106": "     * @see loci.poi.hssf.record.SelectionRecord",
+        "2075": "     *",
+        "2076": "     * @see loci.poi.hssf.record.SelectionRecord",
+        "2462": "",
+        "2463": "        SelectionRecord sel = (SelectionRecord) findFirstRecordBySid(SelectionRecord.sid);"
+      },
+      "id": 15642365,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1148,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/write/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374608/",
+      "md5hash": "d2bb3c01a6178871cd169bd35ec691ea",
+      "lines": {
+        "547": "      // whole sheet",
+        "516": "      {",
+        "517": "        sr = new SelectionRecord",
+        "518": "          (SelectionRecord.upperRight, settings.getHorizontalFreeze(), 0);",
+        "519": "        outputFile.write(sr);",
+        "524": "      {",
+        "525": "        sr = new SelectionRecord",
+        "526": "          (SelectionRecord.lowerLeft, 0, settings.getVerticalFreeze());",
+        "527": "        outputFile.write(sr);",
+        "533": "      {",
+        "534": "        sr = new SelectionRecord",
+        "535": "          (SelectionRecord.lowerRight, ",
+        "536": "           settings.getHorizontalFreeze(), ",
+        "548": "      SelectionRecord sr = new SelectionRecord",
+        "549": "        (SelectionRecord.upperLeft, 0, 0);"
+      },
+      "id": 11374608,
+      "filename": "SheetWriter.java"
+    },
+    {
+      "repo": "http://brainstream.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1148,
+      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/write/biff",
+      "name": "brainstream",
+      "url": "https://searchcode.com/codesearch/view/13919791/",
+      "md5hash": "5094787ddf1c15c3bd7058fdd6237342",
+      "lines": {
+        "547": "      // whole sheet",
+        "516": "      {",
+        "517": "        sr = new SelectionRecord",
+        "518": "          (SelectionRecord.upperRight, settings.getHorizontalFreeze(), 0);",
+        "519": "        outputFile.write(sr);",
+        "524": "      {",
+        "525": "        sr = new SelectionRecord",
+        "526": "          (SelectionRecord.lowerLeft, 0, settings.getVerticalFreeze());",
+        "527": "        outputFile.write(sr);",
+        "533": "      {",
+        "534": "        sr = new SelectionRecord",
+        "535": "          (SelectionRecord.lowerRight, ",
+        "536": "           settings.getHorizontalFreeze(), ",
+        "548": "      SelectionRecord sr = new SelectionRecord",
+        "549": "        (SelectionRecord.upperLeft, 0, 0);"
+      },
+      "id": 13919791,
+      "filename": "SheetWriter.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642343/",
+      "md5hash": "468caa59753e7c2d27a76f3903f70894",
+      "lines": {
+        "177": "                RKRecord.class, NumberRecord.class, DBCellRecord.class,",
+        "178": "                WindowTwoRecord.class, SelectionRecord.class, ContinueRecord.class,",
+        "116": "import loci.poi.hssf.record.SaveRecalcRecord;",
+        "117": "import loci.poi.hssf.record.SelectionRecord;"
+      },
+      "id": 15642343,
+      "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "88": "                WindowTwoRecord.class, SelectionRecord.class, ContinueRecord.class,",
+        "93": "                TopMarginRecord.class, BottomMarginRecord.class,",
+        "94": "                DrawingRecord.class, DrawingGroupRecord.class, DrawingSelectionRecord.class,",
+        "87": "                RKRecord.class, NumberRecord.class, DBCellRecord.class,"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 3,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

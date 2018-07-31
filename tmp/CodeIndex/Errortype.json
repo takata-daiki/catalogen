@@ -1,0 +1,549 @@
+{
+  "matchterm": "Errortype",
+  "previouspage": null,
+  "searchterm": "Errortype",
+  "query": "Errortype",
+  "language_filters": [
+    {
+      "count": 1693,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 1688,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/openrdf/sesame.git",
+      "language": "Java",
+      "linescount": 88,
+      "location": "/core/http/protocol/src/main/java/org/openrdf/http/protocol/error",
+      "name": "sesame",
+      "url": "https://searchcode.com/codesearch/view/43191319/",
+      "md5hash": "ef2ee412816dfb44462bdd033286ed54",
+      "lines": {
+        "32": "",
+        "33": "\tpublic static final ErrorType UNSUPPORTED_QUERY_LANGUAGE = register(\"UNSUPPORTED QUERY LANGUAGE\");",
+        "34": "",
+        "35": "\tpublic static final ErrorType UNSUPPORTED_FILE_FORMAT = register(\"UNSUPPORTED FILE FORMAT\");",
+        "36": "",
+        "37": "\tprotected static ErrorType register(String label) {",
+        "38": "\t\tsynchronized (registry) {",
+        "24": " */",
+        "25": "public class ErrorType {",
+        "26": "",
+        "27": "\tprivate static final Map<String, ErrorType> registry = new HashMap<String, ErrorType>();",
+        "28": "",
+        "29": "\tpublic static final ErrorType MALFORMED_QUERY = register(\"MALFORMED QUERY\");",
+        "30": "",
+        "31": "\tpublic static final ErrorType MALFORMED_DATA = register(\"MALFORMED DATA\");"
+      },
+      "id": 43191319,
+      "filename": "ErrorType.java"
+    },
+    {
+      "repo": "https://bitbucket.org/jbollema/sesame.git",
+      "language": "Java",
+      "linescount": 88,
+      "location": "/core/http/protocol/src/main/java/org/openrdf/http/protocol/error",
+      "name": "sesame",
+      "url": "https://searchcode.com/codesearch/view/43753780/",
+      "md5hash": "d78cd7e934349ded67ce79f60d8ae5bc",
+      "lines": {
+        "32": "",
+        "33": "\tpublic static final ErrorType UNSUPPORTED_QUERY_LANGUAGE = register(\"UNSUPPORTED QUERY LANGUAGE\");",
+        "34": "",
+        "35": "\tpublic static final ErrorType UNSUPPORTED_FILE_FORMAT = register(\"UNSUPPORTED FILE FORMAT\");",
+        "36": "",
+        "37": "\tprotected static ErrorType register(String label) {",
+        "38": "\t\tsynchronized (registry) {",
+        "24": " */",
+        "25": "public class ErrorType {",
+        "26": "",
+        "27": "\tprivate static final Map<String, ErrorType> registry = new HashMap<String, ErrorType>();",
+        "28": "",
+        "29": "\tpublic static final ErrorType MALFORMED_QUERY = register(\"MALFORMED QUERY\");",
+        "30": "",
+        "31": "\tpublic static final ErrorType MALFORMED_DATA = register(\"MALFORMED DATA\");"
+      },
+      "id": 43753780,
+      "filename": "ErrorType.java"
+    },
+    {
+      "repo": "https://bitbucket.org/dvisser/sesame.git",
+      "language": "Java",
+      "linescount": 88,
+      "location": "/core/http/protocol/src/main/java/org/openrdf/http/protocol/error",
+      "name": "sesame",
+      "url": "https://searchcode.com/codesearch/view/43771769/",
+      "md5hash": "d78cd7e934349ded67ce79f60d8ae5bc",
+      "lines": {
+        "32": "",
+        "33": "\tpublic static final ErrorType UNSUPPORTED_QUERY_LANGUAGE = register(\"UNSUPPORTED QUERY LANGUAGE\");",
+        "34": "",
+        "35": "\tpublic static final ErrorType UNSUPPORTED_FILE_FORMAT = register(\"UNSUPPORTED FILE FORMAT\");",
+        "36": "",
+        "37": "\tprotected static ErrorType register(String label) {",
+        "38": "\t\tsynchronized (registry) {",
+        "24": " */",
+        "25": "public class ErrorType {",
+        "26": "",
+        "27": "\tprivate static final Map<String, ErrorType> registry = new HashMap<String, ErrorType>();",
+        "28": "",
+        "29": "\tpublic static final ErrorType MALFORMED_QUERY = register(\"MALFORMED QUERY\");",
+        "30": "",
+        "31": "\tpublic static final ErrorType MALFORMED_DATA = register(\"MALFORMED DATA\");"
+      },
+      "id": 43771769,
+      "filename": "ErrorType.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ansell/sesame.git",
+      "language": "Java",
+      "linescount": 88,
+      "location": "/core/http/protocol/src/main/java/org/openrdf/http/protocol/error",
+      "name": "sesame",
+      "url": "https://searchcode.com/codesearch/view/43788652/",
+      "md5hash": "d78cd7e934349ded67ce79f60d8ae5bc",
+      "lines": {
+        "32": "",
+        "33": "\tpublic static final ErrorType UNSUPPORTED_QUERY_LANGUAGE = register(\"UNSUPPORTED QUERY LANGUAGE\");",
+        "34": "",
+        "35": "\tpublic static final ErrorType UNSUPPORTED_FILE_FORMAT = register(\"UNSUPPORTED FILE FORMAT\");",
+        "36": "",
+        "37": "\tprotected static ErrorType register(String label) {",
+        "38": "\t\tsynchronized (registry) {",
+        "24": " */",
+        "25": "public class ErrorType {",
+        "26": "",
+        "27": "\tprivate static final Map<String, ErrorType> registry = new HashMap<String, ErrorType>();",
+        "28": "",
+        "29": "\tpublic static final ErrorType MALFORMED_QUERY = register(\"MALFORMED QUERY\");",
+        "30": "",
+        "31": "\tpublic static final ErrorType MALFORMED_DATA = register(\"MALFORMED DATA\");"
+      },
+      "id": 43788652,
+      "filename": "ErrorType.java"
+    },
+    {
+      "repo": "https://github.com/jdcasey/directory-server.git",
+      "language": "Java",
+      "linescount": 542,
+      "location": "/kerberos-shared/src/main/java/org/apache/directory/server/kerberos/shared/exceptions",
+      "name": "directory-server",
+      "url": "https://searchcode.com/codesearch/view/109204802/",
+      "md5hash": "b600ba6227cf2029a1be185ff8eda08a",
+      "lines": {
+        "32": " */",
+        "33": "public final class ErrorType implements Comparable<ErrorType>",
+        "68": "     */",
+        "69": "    public static final ErrorType KDC_ERR_S_OLD_MAST_KVNO = new ErrorType( 5,",
+        "41": "     */",
+        "42": "    public static final ErrorType KDC_ERR_NONE = new ErrorType( 0, \"No error\" );",
+        "75": "    public static final ErrorType KDC_ERR_C_PRINCIPAL_UNKNOWN = new ErrorType( 6,",
+        "46": "     */",
+        "47": "    public static final ErrorType KDC_ERR_NAME_EXP = new ErrorType( 1, \"Client's entry in database has expired\" );",
+        "51": "     */",
+        "52": "    public static final ErrorType KDC_ERR_SERVICE_EXP = new ErrorType( 2, \"Server's entry in database has expired\" );",
+        "56": "     */",
+        "57": "    public static final ErrorType KDC_ERR_BAD_PVNO = new ErrorType( 3,",
+        "74": "     */",
+        "62": "     */",
+        "63": "    public static final ErrorType KDC_ERR_C_OLD_MAST_KVNO = new ErrorType( 4,"
+      },
+      "id": 109204802,
+      "filename": "ErrorType.java"
+    },
+    {
+      "repo": "https://github.com/cloudera/hcatalog.git",
+      "language": "Java",
+      "linescount": 138,
+      "location": "/core/src/main/java/org/apache/hcatalog/common",
+      "name": "hcatalog",
+      "url": "https://searchcode.com/codesearch/view/71748462/",
+      "md5hash": "a028c2f92a117981367af9424e200bd7",
+      "lines": {
+        "98": "     */",
+        "99": "    private ErrorType(int errorCode, String errorMessage, boolean appendCauseMessage, boolean isRetriable) {",
+        "85": "     */",
+        "86": "    private ErrorType(int errorCode, String errorMessage, boolean appendCauseMessage) {",
+        "23": " */",
+        "24": "public enum ErrorType {",
+        "74": "     */",
+        "75": "    private ErrorType(int errorCode, String errorMessage) {"
+      },
+      "id": 71748462,
+      "filename": "ErrorType.java"
+    },
+    {
+      "repo": "https://github.com/jdcasey/directory-server.git",
+      "language": "Java",
+      "linescount": 182,
+      "location": "/protocol-changepw/src/main/java/org/apache/directory/server/changepw/exceptions",
+      "name": "directory-server",
+      "url": "https://searchcode.com/codesearch/view/109205126/",
+      "md5hash": "8306a74330d7d43bdc98bf7eec61a265",
+      "lines": {
+        "33": " */",
+        "34": "public final class ErrorType implements Comparable<ErrorType>",
+        "142": "     *",
+        "41": "     */",
+        "42": "    public static final ErrorType KRB5_KPASSWD_MALFORMED = new ErrorType( 1, \"Request failed due to being malformed.\" );",
+        "143": "     * @param that the object to compare this ErrorType to",
+        "46": "     */",
+        "47": "    public static final ErrorType KRB5_KPASSWD_HARDERROR = new ErrorType( 2,",
+        "145": "     */",
+        "146": "    public int compareTo( ErrorType that )",
+        "52": "     */",
+        "53": "    public static final ErrorType KRB5_KPASSWD_AUTHERROR = new ErrorType( 3,",
+        "58": "     */",
+        "59": "    public static final ErrorType KRB5_KPASSWD_SOFTERROR = new ErrorType( 4,",
+        "157": "     */",
+        "158": "    public static ErrorType getTypeByOrdinal( int ordinal )"
+      },
+      "id": 109205126,
+      "filename": "ErrorType.java"
+    },
+    {
+      "repo": "git://github.com/apache/hive.git",
+      "language": "Java",
+      "linescount": 139,
+      "location": "/hcatalog/core/src/main/java/org/apache/hcatalog/common",
+      "name": "hive",
+      "url": "https://searchcode.com/codesearch/view/57826291/",
+      "md5hash": "2e18e0e2ccdb14a52624cd4a3260201d",
+      "lines": {
+        "99": "   */",
+        "100": "  private ErrorType(int errorCode, String errorMessage, boolean appendCauseMessage, boolean isRetriable) {",
+        "86": "   */",
+        "22": " * Enum type representing the various errors throws by HCat.",
+        "23": " * @deprecated Use/modify {@link org.apache.hive.hcatalog.common.ErrorType} instead",
+        "24": " */",
+        "25": "public enum ErrorType {",
+        "87": "  private ErrorType(int errorCode, String errorMessage, boolean appendCauseMessage) {",
+        "75": "   */",
+        "76": "  private ErrorType(int errorCode, String errorMessage) {"
+      },
+      "id": 57826291,
+      "filename": "ErrorType.java"
+    },
+    {
+      "repo": "https://bitbucket.org/crwilcox/university-of-wisconsin-undergraduate-projects.git",
+      "language": "Java",
+      "linescount": 31,
+      "location": "/CS 536/pr6/src/cs536/staticSemantics/types",
+      "name": "university-of-wisconsin-undergraduate-projects",
+      "url": "https://searchcode.com/codesearch/view/43488342/",
+      "md5hash": "0c815fe60a6b85e7907beef335999213",
+      "lines": {
+        "19": "    /** Call ErrorType.make() instead */",
+        "2": "",
+        "3": "public class ErrorType extends Type",
+        "20": "    private ErrorType() {",
+        "5": "    // Singleton pattern (see project description)",
+        "6": "    private static ErrorType instance = new ErrorType();",
+        "7": "    ",
+        "8": "    public static ErrorType make() {",
+        "18": "",
+        "21": "    }"
+      },
+      "id": 43488342,
+      "filename": "ErrorType.java"
+    },
+    {
+      "repo": "https://bitbucket.org/crwilcox/university-of-wisconsin-undergraduate-projects.git",
+      "language": "Java",
+      "linescount": 31,
+      "location": "/CS 536/pr5/src/cs536/staticSemantics/types",
+      "name": "university-of-wisconsin-undergraduate-projects",
+      "url": "https://searchcode.com/codesearch/view/43488468/",
+      "md5hash": "262ba02b4f2bf298307debe6445252b7",
+      "lines": {
+        "19": "    /** Call ErrorType.make() instead */",
+        "2": "",
+        "3": "public class ErrorType extends Type",
+        "20": "    private ErrorType() {",
+        "5": "    // Singleton pattern (see project description)",
+        "6": "    private static ErrorType instance = new ErrorType();",
+        "7": "    ",
+        "8": "    public static ErrorType make() {",
+        "18": "",
+        "21": "    }"
+      },
+      "id": 43488468,
+      "filename": "ErrorType.java"
+    },
+    {
+      "repo": "https://bitbucket.org/crwilcox/university-of-wisconsin-undergraduate-projects.git",
+      "language": "Java",
+      "linescount": 27,
+      "location": "/CS 536/pr4/src/cs536/staticSemantics/types",
+      "name": "university-of-wisconsin-undergraduate-projects",
+      "url": "https://searchcode.com/codesearch/view/43488672/",
+      "md5hash": "b574682e89c78098c6164c9ce9bd1733",
+      "lines": {
+        "19": "    /** Call ErrorType.make() instead */",
+        "2": "",
+        "3": "public class ErrorType extends Type",
+        "20": "    private ErrorType() {",
+        "5": "    // Singleton pattern (see project description)",
+        "6": "    private static ErrorType instance = new ErrorType();",
+        "7": "    ",
+        "8": "    public static ErrorType make() {",
+        "18": "",
+        "21": "    }"
+      },
+      "id": 43488672,
+      "filename": "ErrorType.java"
+    },
+    {
+      "repo": "https://github.com/arcadoss/collagemaker.git",
+      "language": "Java",
+      "linescount": 31,
+      "location": "/app/src/main/java/ru/arcadoss/collagemaker/json",
+      "name": "collagemaker",
+      "url": "https://searchcode.com/codesearch/view/100969349/",
+      "md5hash": "a7da02f827b4ae13e337cad909adeb0d",
+      "lines": {
+        "16": "\t@JsonCreator",
+        "17": "\tpublic static ErrorType creator(String msg) {",
+        "21": "",
+        "22": "\t\tfor (ErrorType type : ErrorType.values()) {",
+        "7": " */",
+        "8": "public enum ErrorType {",
+        "11": "",
+        "12": "\tErrorType(String msg) {"
+      },
+      "id": 100969349,
+      "filename": "ErrorType.java"
+    },
+    {
+      "repo": "git://github.com/apache/hive.git",
+      "language": "Java",
+      "linescount": 138,
+      "location": "/hcatalog/core/src/main/java/org/apache/hive/hcatalog/common",
+      "name": "hive",
+      "url": "https://searchcode.com/codesearch/view/57826215/",
+      "md5hash": "936b51ea5850f6f3687c1d2dae36d199",
+      "lines": {
+        "98": "   */",
+        "99": "  private ErrorType(int errorCode, String errorMessage, boolean appendCauseMessage, boolean isRetriable) {",
+        "85": "   */",
+        "86": "  private ErrorType(int errorCode, String errorMessage, boolean appendCauseMessage) {",
+        "23": " */",
+        "24": "public enum ErrorType {",
+        "74": "   */",
+        "75": "  private ErrorType(int errorCode, String errorMessage) {"
+      },
+      "id": 57826215,
+      "filename": "ErrorType.java"
+    },
+    {
+      "repo": "https://github.com/yoneal/Reader_Writer.git",
+      "language": "Java",
+      "linescount": 62,
+      "location": "/reader_writer/message",
+      "name": "Reader_Writer",
+      "url": "https://searchcode.com/codesearch/view/111999863/",
+      "md5hash": "09767dc398077a54d339ce84d5c49cfb",
+      "lines": {
+        "32": "@XmlType(name = \"ErrorType\")",
+        "33": "@XmlEnum",
+        "34": "public enum ErrorType {",
+        "54": "            if (c.value.equals(v)) {",
+        "43": "",
+        "44": "    ErrorType(String v) {",
+        "16": "/**",
+        "17": " * <p>Java class for ErrorType.",
+        "51": "",
+        "52": "    public static ErrorType fromValue(String v) {",
+        "21": " * <pre>",
+        "22": " * &lt;simpleType name=\"ErrorType\">",
+        "53": "        for (ErrorType c: ErrorType.values()) {",
+        "31": " */"
+      },
+      "id": 111999863,
+      "filename": "ErrorType.java"
+    },
+    {
+      "repo": "git://github.com/orbeon/msv.git",
+      "language": "Java",
+      "linescount": 63,
+      "location": "/xsdlib/src/com/sun/msv/datatype/xsd",
+      "name": "msv",
+      "url": "https://searchcode.com/codesearch/view/17267424/",
+      "md5hash": "be95ed17d4fc6f0b0833d5e12169e470",
+      "lines": {
+        "1": "/*",
+        "2": " * @(#)$Id: ErrorType.java,v 1.5 2005/03/31 23:19:10 kohsuke Exp $",
+        "18": " * The TypeIncubator class also recognizes this class and",
+        "19": " * any operation on ErrorType will never cause any error and",
+        "20": " * silently return another ErrorType.",
+        "21": " * ",
+        "25": " */",
+        "26": "public class ErrorType extends BuiltinAtomicType {",
+        "27": "",
+        "28": "    public static final ErrorType theInstance = new ErrorType();",
+        "29": "    ",
+        "30": "    protected ErrorType() {"
+      },
+      "id": 17267424,
+      "filename": "ErrorType.java"
+    },
+    {
+      "repo": "http://ossbuild.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 48,
+      "location": "/Main/OSSBuild/Java/Libraries/media-gstreamer/src/ossbuild/media/gstreamer",
+      "name": "ossbuild",
+      "url": "https://searchcode.com/codesearch/view/11970971/",
+      "md5hash": "c7cf2cd2bf3775c3a3da65a2f266257f",
+      "lines": {
+        "40": "\tpublic static ErrorType fromNativeValue(int value) {",
+        "43": "\t\t\t\treturn et;",
+        "41": "\t\tfor(ErrorType et : ErrorType.values())",
+        "39": "\t//<editor-fold defaultstate=\"collapsed\" desc=\"Public Static Methods\">",
+        "8": "public enum ErrorType {",
+        "7": " */",
+        "42": "\t\t\tif (et.nativeValue == value)",
+        "27": "\t//<editor-fold defaultstate=\"collapsed\" desc=\"Initialization\">",
+        "28": "\tprivate ErrorType(int nativeValue) {",
+        "44": "\t\treturn ErrorType.Unknown;"
+      },
+      "id": 11970971,
+      "filename": "ErrorType.java"
+    },
+    {
+      "repo": "http://umple.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/cruise.umple/src-gen-umple/cruise/umple/compiler",
+      "name": "umple",
+      "url": "https://searchcode.com/codesearch/view/2886692/",
+      "md5hash": "3d2363c895cafbe4a50127d1095a4d7c",
+      "lines": {
+        "112": "    ErrorType compareTo = (ErrorType)obj;",
+        "33": "",
+        "34": "  public ErrorType(int aErrorCode, int aSeverity, String aErrorFormat, String aErrorUrl)",
+        "19": "",
+        "20": "  //ErrorType Attributes",
+        "12": "// line 1674 \"../../../../src/Parser_Code.ump\"",
+        "13": "public class ErrorType",
+        "111": ""
+      },
+      "id": 2886692,
+      "filename": "ErrorType.java"
+    },
+    {
+      "repo": "http://parrot-portal.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 40,
+      "location": "/0.0.1/parrot-component/parrot-component-domain/src/main/java/com/parrot/portal/exception",
+      "name": "parrot-portal",
+      "url": "https://searchcode.com/codesearch/view/11903524/",
+      "md5hash": "ff399bd90ebae28975e0e4d4b5e7b8bc",
+      "lines": {
+        "35": "    ",
+        "36": "    private ErrorType(String code) {",
+        "6": " */",
+        "22": "     */",
+        "23": "    public static ErrorType valueOfAlias(String alias) {",
+        "24": "        for (ErrorType type : ErrorType.values()) {",
+        "25": "            if (type.alias.equalsIgnoreCase(alias) || type.toString().equalsIgnoreCase(alias)) {",
+        "7": "public enum ErrorType {",
+        "29": "        // fell out the bottom of search over all enums and aliases give up.",
+        "30": "        throw new IllegalArgumentException(\"Unknown ErrorType: \" + alias);"
+      },
+      "id": 11903524,
+      "filename": "ErrorType.java"
+    },
+    {
+      "repo": "http://moccafe.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 47,
+      "location": "/NetMoSys/src/java/com/lifetek/netmosys/database/BO",
+      "name": "moccafe",
+      "url": "https://searchcode.com/codesearch/view/12893703/",
+      "md5hash": "23714b6e9ee50be3cab63c198b3f30b8",
+      "lines": {
+        "20": "\t/** default constructor */",
+        "5": "/**",
+        "6": " * ErrorType entity.",
+        "24": "\t/** full constructor */",
+        "25": "\tpublic ErrorType(String name) {",
+        "10": "",
+        "11": "public class ErrorType extends BasicBO {",
+        "21": "\tpublic ErrorType() {"
+      },
+      "id": 12893703,
+      "filename": "ErrorType.java"
+    },
+    {
+      "repo": "https://gitlab.com/jforge/azure-sdk-for-java.git",
+      "language": "Java",
+      "linescount": 84,
+      "location": "/media/src/main/java/com/microsoft/windowsazure/services/media/implementation/content",
+      "name": "azure-sdk-for-java",
+      "url": "https://searchcode.com/codesearch/view/115110021/",
+      "md5hash": "828d1e871277e2e0887097a100191abf",
+      "lines": {
+        "78": "    public ErrorType setMessage(String message) {",
+        "56": "     */",
+        "57": "    public ErrorType setCode(String code) {",
+        "77": "     */",
+        "30": "@XmlAccessorType(XmlAccessType.FIELD)",
+        "31": "public class ErrorType {"
+      },
+      "id": 115110021,
+      "filename": "ErrorType.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 797,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 732,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 131,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 22,
+      "source": "Sourceforge",
+      "id": 4
+    },
+    {
+      "count": 6,
+      "source": "GitLab",
+      "id": 13
+    },
+    {
+      "count": 2,
+      "source": "Gitorious",
+      "id": 10
+    },
+    {
+      "count": 1,
+      "source": "Google Android",
+      "id": 12
+    },
+    {
+      "count": 1,
+      "source": "CodePlex",
+      "id": 5
+    },
+    {
+      "count": 1,
+      "source": "Unknown",
+      "id": 0
+    }
+  ]
+}

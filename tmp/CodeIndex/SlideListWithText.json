@@ -1,0 +1,74 @@
+{
+  "matchterm": "SlideListWithText",
+  "previouspage": null,
+  "searchterm": "SlideListWithText",
+  "query": "SlideListWithText",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1082,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394959/",
+      "md5hash": "5d80afff23c354813b0c27bde8e947ac",
+      "lines": {
+        "288": "\t\tSlideListWithText masterSLWT = _documentRecord.getMasterSlideListWithText();",
+        "289": "\t\tSlideListWithText slidesSLWT = _documentRecord.getSlideSlideListWithText();",
+        "651": "\t\t\t\tif (na.size() == 0) {",
+        "652": "\t\t\t\t\t_documentRecord.removeSlideListWithText(nslwt);",
+        "270": "",
+        "271": "\t\t// Fetch the SlideListWithTexts in the most up-to-date Document Record",
+        "273": "\t\t// As far as we understand it:",
+        "274": "\t\t// * The first SlideListWithText will contain a SlideAtomsSet",
+        "275": "\t\t// for each of the master slides",
+        "276": "\t\t// * The second SlideListWithText will contain a SlideAtomsSet",
+        "278": "\t\t// These SlideAtomsSets will normally contain text",
+        "279": "\t\t// * The third SlideListWithText (if present), will contain a",
+        "640": "\t\t\t\tSlideListWithText nslwt = _documentRecord.getNotesSlideListWithText();",
+        "639": "\t\t\tif (notesId != 0) {",
+        "287": ""
+      },
+      "id": 97394959,
+      "filename": "SlideShow.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 514,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394313/",
+      "md5hash": "346ffc55e0b7a05381ade3b094d03d17",
+      "lines": {
+        "244": "\t/**",
+        "100": "            _runs[i].setIndex(-1); // runs found in PPDrawing are not linked with SlideListWithTexts",
+        "99": "            _runs[i].setSheet(this);",
+        "36": "import org.apache.poi.hslf.record.TextHeaderAtom;",
+        "37": "import org.apache.poi.hslf.record.SlideListWithText.SlideAtomsSet;",
+        "89": "\t\t_runs = new TextRun[textRuns.size()+_otherRuns.length];",
+        "90": "\t\t// Grab text from SlideListWithTexts entries",
+        "245": "\t * @return set of records inside <code>SlideListWithtext</code> container"
+      },
+      "id": 97394313,
+      "filename": "Slide.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "matchterm": "HSSFName",
+  "previouspage": null,
+  "searchterm": "HSSFName",
+  "query": "HSSFName",
+  "language_filters": [
+    {
+      "count": 10,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 10,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 164,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642308/",
+      "md5hash": "196154e641f5a4ffb8ae5561ac1278ec",
+      "lines": {
+        "64": "    ",
+        "65": "    protected HSSFName(Workbook book, NameRecord name) {",
+        "52": "",
+        "53": "public class HSSFName {",
+        "56": "    ",
+        "57": "    /** Creates new HSSFName   - called by HSSFWorkbook to create a sheet from"
+      },
+      "id": 15642308,
+      "filename": "HSSFName.java"
+    },
+    {
+      "repo": "https://github.com/semantalytics/RightField.git",
+      "language": "Java",
+      "linescount": 274,
+      "location": "/src/main/java/uk/ac/manchester/cs/owl/semspreadsheets/model/hssf/impl",
+      "name": "RightField",
+      "url": "https://searchcode.com/codesearch/view/72854626/",
+      "md5hash": "4a84f463416de04c18fd17d4ba4d20d6",
+      "lines": {
+        "144": "        hssfName.setNameName(name);",
+        "145": "        hssfName.setRefersToFormula(rng.toFixedAddress());",
+        "146": "    }",
+        "102": "        for(int i = 0; i < workbook.getNumberOfNames(); i++) {",
+        "103": "            HSSFName name = workbook.getNameAt(i);",
+        "24": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "25": "import org.apache.poi.hssf.usermodel.HSSFName;",
+        "142": "        }",
+        "143": "        HSSFName hssfName = workbook.createName();"
+      },
+      "id": 72854626,
+      "filename": "WorkbookHSSFImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openicar/juniprint",
+      "language": "Java",
+      "linescount": 1375,
+      "location": "/src/main/java/org/comsoft/juniprint/utils",
+      "name": "juniprint",
+      "url": "https://searchcode.com/codesearch/view/60212069/",
+      "md5hash": "c11a8c0e57714af4cf1eeffb5ef652f0",
+      "lines": {
+        "36": "import org.apache.poi.hssf.usermodel.HSSFComment;",
+        "37": "import org.apache.poi.hssf.usermodel.HSSFName;",
+        "182": "\t\t\t\t\tString iShName = iName.getSheetName();",
+        "174": "\t",
+        "175": "\tpublic static Map<String, Map<String, HSSFName>> createNamesMap(HSSFWorkbook wb){",
+        "176": "\t\tMap<String, Map<String, HSSFName>> mapWbNames = new HashMap<String, Map<String, HSSFName>>();",
+        "177": "\t\tfor(int i = 0, n = wb.getNumberOfNames(); i < n; i++){",
+        "178": "\t\t\tHSSFName iName = wb.getNameAt(i);",
+        "149": "\t",
+        "150": "\tpublic static List<String> upadteReferenceNameAfterInsertRows(Map<String, Map<String, HSSFName>> mapWbNames, String[] sheetNames, int beforeIndexInsertRow, int countInsertRow){",
+        "183": "\t\t\t\t\tMap<String, HSSFName> mapShNames = mapWbNames.get(iShName);",
+        "184": "\t\t\t\t\tif(mapShNames==null){",
+        "155": "\t\tfor(int iShName = 0; iShName < sheetNames.length; iShName++){",
+        "156": "\t\t\tMap<String, HSSFName> mapShNames = mapWbNames.get(sheetNames[iShName]);",
+        "158": "\t\t\t\tfor(String key:mapShNames.keySet()){",
+        "159": "\t\t\t\t\tHSSFName name =  mapShNames.get(key);"
+      },
+      "id": 60212069,
+      "filename": "ExcelUtils.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openicar/juniprint",
+      "language": "Java",
+      "linescount": 2096,
+      "location": "/src/main/java/org/comsoft/juniprint",
+      "name": "juniprint",
+      "url": "https://searchcode.com/codesearch/view/60212057/",
+      "md5hash": "e9487002cf69dbd9246766c01c968b73",
+      "lines": {
+        "2048": "\t\tif (nameDataRangeB == null || nameDataRangeE == null){",
+        "2049": "\t\t\tMap<String, Map<String, HSSFName>> namesMap = ExcelUtils.createNamesMap(wb);",
+        "66": "\tprivate static final String RANGE_DataPageE = \"DataPageE\";",
+        "67": "\tprivate HSSFName nameDataBeg;",
+        "68": "\tprivate HSSFName nameDataRangeE;",
+        "37": "import org.apache.poi.hssf.usermodel.HSSFName;",
+        "70": "\tprivate HSSFName nameDataPageE;",
+        "71": "\t",
+        "1228": "//\t\tif (nameDataRangeE == null){",
+        "683": "\t\tif (nameDataRangeE == null){",
+        "684": "\t\t\tMap<String, Map<String, HSSFName>> namesMap = ExcelUtils.createNamesMap(wb);",
+        "1229": "//\t\t\tMap<String, Map<String, HSSFName>> namesMap = ExcelUtils.createNamesMap(wb);",
+        "946": "\t\tif(nameDataRangeE == null){",
+        "947": "\t\t\tMap<String, Map<String, HSSFName>> namesMap = ExcelUtils.createNamesMap(wb);",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator;",
+        "69": "\tprivate HSSFName nameDataRangeB;"
+      },
+      "id": 60212057,
+      "filename": "JUniPrint.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1445,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642316/",
+      "md5hash": "4f7b036daf89776dc4ee4606b7972144",
+      "lines": {
+        "256": "        for (int i = 0 ; i < workbook.getNumNames() ; ++i){",
+        "257": "            HSSFName name = new HSSFName(workbook, workbook.getNameRecord(i));",
+        "1154": "",
+        "1155": "        HSSFName newName = new HSSFName(workbook, nameRecord);",
+        "1152": "    public HSSFName createName(){",
+        "769": "            HSSFName newName = new HSSFName(workbook, nameRecord);",
+        "1064": "     */",
+        "1065": "    public HSSFName getNameAt(int index){",
+        "1066": "        HSSFName result = (HSSFName) names.get(index);",
+        "1067": "",
+        "115": "    /**",
+        "116": "     * this holds the HSSFName objects attached to this workbook",
+        "768": "        {",
+        "1151": "     */"
+      },
+      "id": 15642316,
+      "filename": "HSSFWorkbook.java"
+    },
+    {
+      "repo": "https://github.com/semantalytics/RightField.git",
+      "language": "Java",
+      "linescount": 46,
+      "location": "/src/main/java/uk/ac/manchester/cs/owl/semspreadsheets/model/hssf/impl",
+      "name": "RightField",
+      "url": "https://searchcode.com/codesearch/view/72854613/",
+      "md5hash": "6d7896824d188b80c277a454ec717d48",
+      "lines": {
+        "25": "",
+        "8": "",
+        "9": "import org.apache.poi.hssf.usermodel.HSSFName;",
+        "26": "    private HSSFName name;",
+        "27": "",
+        "28": "    public NamedRangeHSSFImpl(WorkbookHSSFImpl workbook, HSSFName name) {"
+      },
+      "id": 72854613,
+      "filename": "NamedRangeHSSFImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openicar/juniprint-reports-engine",
+      "language": "Java",
+      "linescount": 219,
+      "location": "/src/main/java/org/comsoft/reporting/engine",
+      "name": "juniprint-reports-engine",
+      "url": "https://searchcode.com/codesearch/view/60336976/",
+      "md5hash": "98873ba74938bc6cc5d14d4be5beed31",
+      "lines": {
+        "32": "import org.apache.poi.hssf.usermodel.HSSFName;",
+        "141": "\t\t\t\tHSSFName aSelf_FormatName = ExcelUtils.getNamedRange(wb, \"Self_Format\");",
+        "140": "",
+        "104": "",
+        "105": "\t\t\t\tHSSFName nameDataBeg = ExcelUtils.getNamedRange(wb, dataBegFieldName);",
+        "92": "\t\t\t\tfor (Map.Entry<String, Object> param : reportQuery.getParams().entrySet()) {",
+        "93": "\t\t\t\t\tHSSFName paramCellName = ExcelUtils.getNamedRange(wb, param.getKey());",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFCell;"
+      },
+      "id": 60336976,
+      "filename": "JUniPrintReportsEngine.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openicar/juniprint",
+      "language": "Java",
+      "linescount": 209,
+      "location": "/src/test/java/org/comsoft/juniprint",
+      "name": "juniprint",
+      "url": "https://searchcode.com/codesearch/view/60212055/",
+      "md5hash": "73848b8a809e5fbb6daabef0c1ce2599",
+      "lines": {
+        "96": "\t\t\t\tHSSFName nameDataBeg = ExcelUtils.getNamedRange(wb, \"DataBeg\");",
+        "37": "",
+        "38": "\t\t\t\tHSSFName nameDataBeg = ExcelUtils.getNamedRange(wb, \"DataBeg\");",
+        "8": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "9": "import org.apache.poi.hssf.usermodel.HSSFName;",
+        "95": ""
+      },
+      "id": 60212055,
+      "filename": "JUniPrintTest.java"
+    },
+    {
+      "repo": "http://red-piranha.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 141,
+      "location": "/src/net/firstpartners/spreadsheet",
+      "name": "red-piranha",
+      "url": "https://searchcode.com/codesearch/view/8520531/",
+      "md5hash": "10555513650001cb95bfba63e5f95e55",
+      "lines": {
+        "100": "\t\tfor (int namedCellIdx = 0; namedCellIdx < numberOfNames; namedCellIdx++) {",
+        "101": "\t\t\tHSSFName aNamedCell = wb.getNameAt(namedCellIdx);",
+        "7": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "8": "import org.apache.poi.hssf.usermodel.HSSFName;",
+        "45": "\t\tfor (int namedRangeIdx = 0; namedRangeIdx < numberOfNames; namedRangeIdx++) {",
+        "46": "\t\t\tHSSFName aNamedRage = wb.getNameAt(namedRangeIdx);"
+      },
+      "id": 8520531,
+      "filename": "RangeConvertor.java"
+    },
+    {
+      "repo": "https://bitbucket.org/gkraser/jandcode-core",
+      "language": "Java",
+      "linescount": 311,
+      "location": "/jandcode-excelreport/src/jandcode/excelreport/impl",
+      "name": "jandcode-core",
+      "url": "https://searchcode.com/codesearch/view/128473368/",
+      "md5hash": "bffa29002523454ad6f3fb8b69f7e98a",
+      "lines": {
+        "101": "        for (int i = 0; i < numNames; i++) {",
+        "102": "            HSSFName nm = shTemplate.getWorkbook().getNameAt(i);"
+      },
+      "id": 128473368,
+      "filename": "ReportSheetImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 5,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

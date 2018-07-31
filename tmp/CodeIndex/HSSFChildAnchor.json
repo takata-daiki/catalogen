@@ -1,0 +1,145 @@
+{
+  "matchterm": "HSSFChildAnchor",
+  "previouspage": null,
+  "searchterm": "HSSFChildAnchor",
+  "query": "HSSFChildAnchor",
+  "language_filters": [
+    {
+      "count": 6,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 6,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 77,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642321/",
+      "md5hash": "5d9b7ec6225045ddb6c50adcb1c13bee",
+      "lines": {
+        "48": "{",
+        "49": "    public HSSFChildAnchor()",
+        "52": "",
+        "53": "    public HSSFChildAnchor( int dx1, int dy1, int dx2, int dy2 )",
+        "45": "",
+        "46": "public class HSSFChildAnchor"
+      },
+      "id": 15642321,
+      "filename": "HSSFChildAnchor.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 531,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642323/",
+      "md5hash": "90bc5f20331e7dcb9050bcbf7dd0d9c3",
+      "lines": {
+        "256": "        int top    = findSmallest(yPoints);",
+        "257": "        HSSFPolygon shape = escherGroup.createPolygon(new HSSFChildAnchor(left,top,right,bottom) );",
+        "432": "    {",
+        "401": "        int top    = findSmallest(yPoints);",
+        "234": "    {",
+        "235": "        HSSFSimpleShape shape = escherGroup.createShape(new HSSFChildAnchor(x1, y1, x2, y2) );",
+        "402": "        HSSFPolygon shape = escherGroup.createPolygon(new HSSFChildAnchor(left,top,right,bottom) );",
+        "433": "        HSSFSimpleShape shape = escherGroup.createShape(new HSSFChildAnchor( x, y, x + width, y + height ) );",
+        "368": "    {",
+        "369": "        HSSFSimpleShape shape = escherGroup.createShape(new HSSFChildAnchor( x, y, x + width, y + height ) );",
+        "242": "    {",
+        "243": "        HSSFSimpleShape shape = escherGroup.createShape(new HSSFChildAnchor(x,y,x+width,y+height) );",
+        "310": "        y -= ( font.getSize() / verticalPixelsPerPoint ) + 2 * verticalPixelsPerPoint;    // we want to draw the shape from the top-left",
+        "311": "        HSSFTextbox textbox = escherGroup.createTextbox( new HSSFChildAnchor( x, y, x + width, y + height ) );"
+      },
+      "id": 15642323,
+      "filename": "EscherGraphics.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 204,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642300/",
+      "md5hash": "e2d5d76c6a10bbbf99c420548d2f8688",
+      "lines": {
+        "128": "     */",
+        "113": "     */",
+        "98": "     */",
+        "99": "    public HSSFTextbox createTextbox(HSSFChildAnchor anchor)",
+        "85": "     */",
+        "86": "    public HSSFSimpleShape createShape(HSSFChildAnchor anchor)",
+        "129": "    public HSSFPicture createPicture(HSSFChildAnchor anchor, int pictureIndex)",
+        "72": "     */",
+        "73": "    public HSSFShapeGroup createGroup(HSSFChildAnchor anchor)",
+        "114": "    public HSSFPolygon createPolygon(HSSFChildAnchor anchor)"
+      },
+      "id": 15642300,
+      "filename": "HSSFShapeGroup.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 235,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642311/",
+      "md5hash": "d5e0db479e75ee7b4827e562ed535b24",
+      "lines": {
+        "112": "        {",
+        "113": "            if ( anchor instanceof HSSFChildAnchor )",
+        "99": "     * Sets a particular anchor.  A top-level shape must have an anchor of",
+        "100": "     * HSSFClientAnchor.  A child anchor must have an anchor of HSSFChildAnchor",
+        "105": "     *",
+        "106": "     * @see HSSFChildAnchor"
+      },
+      "id": 15642311,
+      "filename": "HSSFShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 91,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642362/",
+      "md5hash": "4a104008df6507ccad1c60c8d405747e",
+      "lines": {
+        "48": "import loci.poi.hssf.usermodel.HSSFChildAnchor;",
+        "77": "        {",
+        "78": "            HSSFChildAnchor a = (HSSFChildAnchor) userAnchor;",
+        "47": "import loci.poi.hssf.usermodel.HSSFClientAnchor;"
+      },
+      "id": 15642362,
+      "filename": "ConvertAnchor.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642307/",
+      "md5hash": "b9e2e59f239e91e2c0b3f3e3fc54eeac",
+      "lines": {
+        "58": "     * @param parent",
+        "59": "     * @param anchor  One of HSSFClientAnchor or HSSFChildAnchor"
+      },
+      "id": 15642307,
+      "filename": "HSSFTextbox.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 6,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "matchterm": "RefEval",
+  "previouspage": null,
+  "searchterm": "RefEval",
+  "query": "RefEval",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/swwu/bunnyworld",
+      "language": "Java",
+      "linescount": 225,
+      "location": "/src/edu/stanford/bunnyworld/script",
+      "name": "bunnyworld",
+      "url": "https://searchcode.com/codesearch/view/54907620/",
+      "md5hash": "56c07c1d6016dc3dfb2b31d615763100",
+      "lines": {
+        "178": "\t\topMap.put(\"=\", new BOpInfo(\"=\",0,2,false,new BRefFunction() {",
+        "179": "\t\t\tpublic void refEval(BExpression[] args, Object[] vals, BVarContext varContext, BFnContext fnContext) {",
+        "52": "\t\topMap.put(\"--\", new BOpInfo(\"--\",8,1,false,new BRefFunction() {",
+        "53": "\t\t\tpublic void refEval(BExpression[] args, Object[] vals, BVarContext varContext, BFnContext fnContext) {",
+        "42": "\t\topMap.put(\"++\", new BOpInfo(\"++\",8,1,false,new BRefFunction() {",
+        "43": "\t\t\tpublic void refEval(BExpression[] args, Object[] vals, BVarContext varContext, BFnContext fnContext) {"
+      },
+      "id": 54907620,
+      "filename": "BOperator.java"
+    },
+    {
+      "repo": "https://bitbucket.org/swwu/bunnyworld",
+      "language": "Java",
+      "linescount": 35,
+      "location": "/src/edu/stanford/bunnyworld/script",
+      "name": "bunnyworld",
+      "url": "https://searchcode.com/codesearch/view/54907618/",
+      "md5hash": "abb410616f2d29cdcc79313e42570c3d",
+      "lines": {
+        "25": "\t\t",
+        "10": "",
+        "11": "\tpublic void refEval(BExpression[] args, Object[] vals, BVarContext varContext, BFnContext fnContext) {",
+        "26": "\t\trefEval((BExpression[])args, evalArgs, varContext, fnContext);"
+      },
+      "id": 54907618,
+      "filename": "BRefFunction.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

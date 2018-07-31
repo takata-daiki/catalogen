@@ -1,0 +1,137 @@
+{
+  "matchterm": "POIDocument",
+  "previouspage": null,
+  "searchterm": "POIDocument",
+  "query": "POIDocument",
+  "language_filters": [
+    {
+      "count": 6,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 6,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 275,
+      "location": "/src/org/apache/poi",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383067/",
+      "md5hash": "afa24f033acdbeef13a37ab141698759",
+      "lines": {
+        "64": "    protected POIDocument(DirectoryNode dir) {",
+        "67": "    /**",
+        "68": "     * @deprecated use {@link POIDocument#POIDocument(DirectoryNode)} instead ",
+        "70": "    @Deprecated",
+        "71": "    protected POIDocument(DirectoryNode dir, POIFSFileSystem fs) {",
+        "73": "    }",
+        "74": "    protected POIDocument(POIFSFileSystem fs) {",
+        "76": "    }",
+        "77": "    protected POIDocument(NPOIFSFileSystem fs) {",
+        "48": " */",
+        "49": "public abstract class POIDocument {",
+        "57": "\t/** For our own logging use */",
+        "58": "\tprivate final static POILogger logger = POILogFactory.getLogger(POIDocument.class);",
+        "63": ""
+      },
+      "id": 97383067,
+      "filename": "POIDocument.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 244,
+      "location": "/components/forks/poi/src/loci/poi",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642236/",
+      "md5hash": "d16ea92e13b3c1846cc34e8c5e120339",
+      "lines": {
+        "69": " */",
+        "70": "public abstract class POIDocument {"
+      },
+      "id": 15642236,
+      "filename": "POIDocument.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 73,
+      "location": "/components/forks/poi/src/loci/poi",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642237/",
+      "md5hash": "cf555a329d73935774f71285df4ed636",
+      "lines": {
+        "53": "public abstract class POITextExtractor {",
+        "54": "\t/** The POIDocument that's open */",
+        "55": "\tprotected POIDocument document;",
+        "56": "",
+        "59": "\t */",
+        "60": "\tpublic POITextExtractor(POIDocument document) {"
+      },
+      "id": 15642237,
+      "filename": "POITextExtractor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 764,
+      "location": "/src/org/apache/poi/hwpf/dev",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384386/",
+      "md5hash": "a5fd3aeec9338ae1535ca742a1539e0e",
+      "lines": {
+        "34": "",
+        "35": "import org.apache.poi.POIDocument;",
+        "460": "    {",
+        "461": "        java.lang.reflect.Field field = POIDocument.class"
+      },
+      "id": 97384386,
+      "filename": "HWPFLister.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 688,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394255/",
+      "md5hash": "40d5716cbdc5b9b544fff845bb8e0c6f",
+      "lines": {
+        "32": "",
+        "33": "import org.apache.poi.POIDocument;",
+        "69": " */",
+        "70": "public final class HSLFSlideShow extends POIDocument {"
+      },
+      "id": 97394255,
+      "filename": "HSLFSlideShow.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1445,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642316/",
+      "md5hash": "4f7b036daf89776dc4ee4606b7972144",
+      "lines": {
+        "49": "",
+        "50": "import loci.poi.POIDocument;",
+        "90": "public class HSSFWorkbook extends POIDocument",
+        "89": ""
+      },
+      "id": 15642316,
+      "filename": "HSSFWorkbook.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 6,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

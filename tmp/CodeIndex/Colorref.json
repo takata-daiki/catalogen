@@ -1,0 +1,491 @@
+{
+  "matchterm": "Colorref",
+  "previouspage": null,
+  "searchterm": "Colorref",
+  "query": "Colorref",
+  "language_filters": [
+    {
+      "count": 33,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 33,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 183,
+      "location": "/src/org/apache/poi/hwpf/model/types",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384258/",
+      "md5hash": "cff38231427191a9dd1411f318316301",
+      "lines": {
+        "128": "    /**",
+        "129": "     * A COLORREF that specifies the foreground color of ipat.",
+        "131": "    @Internal",
+        "132": "    public Colorref getCvFore()",
+        "137": "    /**",
+        "138": "     * A COLORREF that specifies the foreground color of ipat.",
+        "140": "    @Internal",
+        "141": "    public void setCvFore( Colorref field_1_cvFore )",
+        "146": "    /**",
+        "147": "     * A COLORREF that specifies the background color of ipat.",
+        "20": "",
+        "21": "import org.apache.poi.hwpf.model.Colorref;",
+        "150": "    public Colorref getCvBack()",
+        "155": "    /**",
+        "156": "     * A COLORREF that specifies the background color of ipat.",
+        "149": "    @Internal"
+      },
+      "id": 97384258,
+      "filename": "SHDAbstractType.java"
+    },
+    {
+      "repo": "https://github.com/skovatch/org.eclipse.swt.git",
+      "language": "Java",
+      "linescount": 6546,
+      "location": "/Eclipse SWT PI/win32/org/eclipse/swt/internal/win32",
+      "name": "org.eclipse.swt",
+      "url": "https://searchcode.com/codesearch/view/109828428/",
+      "md5hash": "7a3726d3e55927ac7a7034e9a330e336",
+      "lines": {
+        "6275": " * @param hdc cast=(HDC)",
+        "6276": " * @param colorRef cast=(COLORREF)",
+        "6277": " */",
+        "6278": "public static final native int SetTextColor (int /*long*/ hdc, int colorRef);",
+        "3627": "public static final native int /*long*/ CreateRectRgn (int left, int top, int right, int bottom);",
+        "3628": "/** @param colorRef cast=(COLORREF) */",
+        "3629": "public static final native int /*long*/ CreateSolidBrush (int colorRef);",
+        "3599": "public static final native int /*long*/ CreatePatternBrush (int /*long*/ hbmp);",
+        "3600": "/** @param crColor cast=(COLORREF) */",
+        "1681": "\tpublic static final int TF_CT_SYSCOLOR = 1;",
+        "1682": "\tpublic static final int TF_CT_COLORREF = 2;",
+        "6164": " * @param hdc cast=(HDC)",
+        "6165": " * @param colorRef cast=(COLORREF)",
+        "6166": " */",
+        "6167": "public static final native int SetBkColor (int /*long*/ hdc, int colorRef);"
+      },
+      "id": 109828428,
+      "filename": "OS.java"
+    },
+    {
+      "repo": "https://github.com/zbyufei/Sirius.git",
+      "language": "Java",
+      "linescount": 195,
+      "location": "/sirius.server.win32/src/main/java/org/sirius/server/win32/classes/controls",
+      "name": "Sirius",
+      "url": "https://searchcode.com/codesearch/view/95962124/",
+      "md5hash": "abc7793aa284f55f324473c79ef00cb3",
+      "lines": {
+        "75": "     * ListView_GetTextColor(w) (COLORREF)SNDMSG((w),LVM_GETTEXTCOLOR,0,0)",
+        "74": "     * (BOOL)SNDMSG((w),LVM_GETVIEWRECT,0,(LPARAM)(LPRECT)(p)) #define",
+        "119": "     * ListView_GetInsertMarkColor(w)",
+        "76": "     * #define ListView_SetTextColor(w,c)",
+        "77": "     * (BOOL)SNDMSG((w),LVM_SETTEXTCOLOR,0,(LPARAM)(COLORREF)(c)) #define",
+        "78": "     * ListView_GetTextBkColor(w) (COLORREF)SNDMSG((w),LVM_GETTEXTBKCOLOR,0,0)",
+        "79": "     * #define ListView_SetTextBkColor(w,c)",
+        "80": "     * (BOOL)SNDMSG((w),LVM_SETTEXTBKCOLOR,0,(LPARAM)(COLORREF)(c)) #define",
+        "152": "     * ListView_SetInsertMarkColor(w,c)",
+        "22": "    /*",
+        "23": "     * #define ListView_GetBkColor(w) (COLORREF)SNDMSG((w),LVM_GETBKCOLOR,0,0)",
+        "120": "     * (COLORREF)SNDMSG((w),LVM_GETINSERTMARKCOLOR,0,0) #define",
+        "153": "     * (COLORREF)SNDMSG((w),LVM_SETINSERTMARKCOLOR,0,(LPARAM)(c)) #define",
+        "154": "     * ListView_SetOutlineColor(w,c)",
+        "155": "     * (COLORREF)SNDMSG((w),LVM_SETOUTLINECOLOR,0,(LPARAM)(c)) #if (_WIN32_WINNT"
+      },
+      "id": 95962124,
+      "filename": "ListView.java"
+    },
+    {
+      "repo": "https://github.com/skovatch/org.eclipse.swt.git",
+      "language": "Java",
+      "linescount": 983,
+      "location": "/Eclipse SWT OLE Win32/win32/org/eclipse/swt/ole/win32",
+      "name": "org.eclipse.swt",
+      "url": "https://searchcode.com/codesearch/view/109829247/",
+      "md5hash": "afbd655979c098d4937da786820f2b88",
+      "lines": {
+        "485": "\tif (objIUnknown != null) {",
+        "486": "\t\t// !! We are getting the OLE_COLOR - should we change this to the COLORREF value?",
+        "491": "\t\tif (varBackColor != null){",
+        "492": "\t\t\tint[] colorRef = new int[1];",
+        "493": "\t\t\tif (COM.OleTranslateColor(varBackColor.getInt(), getDisplay().hPalette, colorRef) == COM.S_OK)",
+        "494": "\t\t\t\treturn Color.win32_new(getDisplay(), colorRef[0]);",
+        "495": "\t\t}",
+        "531": "\tif (objIUnknown != null) {",
+        "532": "\t\t// !! We are getting the OLE_COLOR - should we change this to the COLORREF value?",
+        "537": "\t\tif (varForeColor != null){",
+        "538": "\t\t\tint[] colorRef = new int[1];",
+        "539": "\t\t\tif (COM.OleTranslateColor(varForeColor.getInt(), getDisplay().hPalette, colorRef) == COM.S_OK)",
+        "540": "\t\t\t\treturn Color.win32_new(getDisplay(), colorRef[0]);",
+        "541": "\t\t}"
+      },
+      "id": 109829247,
+      "filename": "OleControlSite.java"
+    },
+    {
+      "repo": "https://github.com/bmorrise/pentaho-reporting.git",
+      "language": "Java",
+      "linescount": 179,
+      "location": "/libraries/libpixie/source/org/pentaho/reporting/libraries/pixie/wmf",
+      "name": "pentaho-reporting",
+      "url": "https://searchcode.com/codesearch/view/100684716/",
+      "md5hash": "442c7e4a25140c48ad9067cc23dee0ee",
+      "lines": {
+        "64": "  /**",
+        "65": "   * Extracts the RED channel from the given ColorReference.",
+        "102": "  /**",
+        "103": "   * Extracts the Color Flags from the given ColorReference.",
+        "42": "   *",
+        "43": "   * @param colorref the integer color reference.",
+        "44": "   */",
+        "45": "  public GDIColor(final int colorref)",
+        "46": "  {",
+        "47": "    this(getR(colorref), getG(colorref), getB(colorref), getFlags(colorref));",
+        "80": "  /**",
+        "81": "   * Extracts the GREEN channel from the given ColorReference.",
+        "91": "  /**",
+        "92": "   * Extracts the BLUE channel from the given ColorReference."
+      },
+      "id": 100684716,
+      "filename": "GDIColor.java"
+    },
+    {
+      "repo": "https://github.com/skovatch/org.eclipse.swt.git",
+      "language": "Java",
+      "linescount": 567,
+      "location": "/Eclipse SWT/win32/org/eclipse/swt/widgets",
+      "name": "org.eclipse.swt",
+      "url": "https://searchcode.com/codesearch/view/109823304/",
+      "md5hash": "bcb9d54b31b07aa1c863d7bbf348289a",
+      "lines": {
+        "448": "\t\t\t\t\t\t\t\t\t\tint colorRef = OS.GetSysColor (attr.crText.cr);",
+        "449": "\t\t\t\t\t\t\t\t\t\tstyle.foreground = Color.win32_new (display, colorRef);",
+        "450": "\t\t\t\t\t\t\t\t\t\tbreak;",
+        "452": "\t\t\t\t\t\t\t\tswitch (attr.crBk.type) {",
+        "453": "\t\t\t\t\t\t\t\t\tcase OS.TF_CT_COLORREF:",
+        "456": "\t\t\t\t\t\t\t\t\tcase OS.TF_CT_SYSCOLOR:",
+        "457": "\t\t\t\t\t\t\t\t\t\tint colorRef = OS.GetSysColor (attr.crBk.cr);",
+        "458": "\t\t\t\t\t\t\t\t\t\tstyle.background = Color.win32_new (display, colorRef);",
+        "459": "\t\t\t\t\t\t\t\t\t\tbreak;",
+        "461": "\t\t\t\t\t\t\t\tswitch (attr.crLine.type) {",
+        "462": "\t\t\t\t\t\t\t\t\tcase OS.TF_CT_COLORREF:",
+        "465": "\t\t\t\t\t\t\t\t\tcase OS.TF_CT_SYSCOLOR:",
+        "466": "\t\t\t\t\t\t\t\t\t\tint colorRef = OS.GetSysColor (attr.crLine.cr);",
+        "467": "\t\t\t\t\t\t\t\t\t\tstyle.underlineColor = Color.win32_new (display, colorRef);",
+        "447": "\t\t\t\t\t\t\t\t\tcase OS.TF_CT_SYSCOLOR:"
+      },
+      "id": 109823304,
+      "filename": "IME.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 3034,
+      "location": "/src/org/apache/poi/hwpf/model/types",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384327/",
+      "md5hash": "66690de8458c959f0474d940a33c9f49",
+      "lines": {
+        "835": "    @Internal",
+        "836": "    public Colorref getCv()",
+        "85": "    protected int field_7_dxaSpace;",
+        "86": "    protected Colorref field_8_cv;",
+        "23": "import org.apache.poi.hwpf.model.Colorref;",
+        "22": "",
+        "844": "    @Internal",
+        "845": "    public void setCv( Colorref field_8_cv )",
+        "206": "        this.field_2_hps = 20;",
+        "207": "        this.field_8_cv = new Colorref();"
+      },
+      "id": 97384327,
+      "filename": "CHPAbstractType.java"
+    },
+    {
+      "repo": "https://github.com/PankajSinghChauhan/jna.git",
+      "language": "Java",
+      "linescount": 1797,
+      "location": "/contrib/platform/src/com/sun/jna/platform/win32",
+      "name": "jna",
+      "url": "https://searchcode.com/codesearch/view/95860837/",
+      "md5hash": "7da39b556391145705fefbfdb0619c24",
+      "lines": {
+        "546": "     * @param pcrKey",
+        "547": "     *            Pointer to a COLORREF value that receives the transparency",
+        "600": "     * @param crKey",
+        "601": "     *            Pointer to a COLORREF value that specifies the color key to be",
+        "522": "     * @param crKey",
+        "523": "     *            COLORREF structure that specifies the transparency color key",
+        "602": "     *            used when composing the layered window. To generate a",
+        "603": "     *            COLORREF, use the RGB macro."
+      },
+      "id": 95860837,
+      "filename": "User32.java"
+    },
+    {
+      "repo": "https://bitbucket.org/abg1979/java-process-management",
+      "language": "Java",
+      "linescount": 736,
+      "location": "/platform/src/main/java/com/sun/jna/platform/win32",
+      "name": "java-process-management",
+      "url": "https://searchcode.com/codesearch/view/118894822/",
+      "md5hash": "79ee73b6333cf2e72f608017d97a68f7",
+      "lines": {
+        "497": "\t * @param crKey",
+        "498": "\t *  Pointer to a COLORREF value that specifies the color key to be used when composing the layered window.",
+        "435": "\t * @param crKey",
+        "436": "\t *  COLORREF structure that specifies the transparency color key to be used when composing the layered window.",
+        "455": "\t * @param pcrKey",
+        "456": "\t *  Pointer to a COLORREF value that receives the transparency color key to be used when ",
+        "500": "\t * @param pblend",
+        "499": "\t *  To generate a COLORREF, use the RGB macro."
+      },
+      "id": 118894822,
+      "filename": "User32.java"
+    },
+    {
+      "repo": "https://github.com/andreyvit/yoursway-swt.git",
+      "language": "Java",
+      "linescount": 887,
+      "location": "/org.eclipse.swt/Eclipse SWT OLE Win32/win32/org/eclipse/swt/ole/win32",
+      "name": "yoursway-swt",
+      "url": "https://searchcode.com/codesearch/view/139826984/",
+      "md5hash": "ce0c9f323e8e4102f3e7ec354a3814a3",
+      "lines": {
+        "416": "\tif (objIUnknown != null) {",
+        "417": "\t\t// !! We are getting the OLE_COLOR - should we change this to the COLORREF value?",
+        "422": "\t\tif (varBackColor != null){",
+        "423": "\t\t\tint[] colorRef = new int[1];",
+        "424": "\t\t\tif (COM.OleTranslateColor(varBackColor.getInt(), getDisplay().hPalette, colorRef) == COM.S_OK)",
+        "425": "\t\t\t\treturn Color.win32_new(getDisplay(), colorRef[0]);",
+        "426": "\t\t}",
+        "462": "\tif (objIUnknown != null) {",
+        "463": "\t\t// !! We are getting the OLE_COLOR - should we change this to the COLORREF value?",
+        "468": "\t\tif (varForeColor != null){",
+        "469": "\t\t\tint[] colorRef = new int[1];",
+        "470": "\t\t\tif (COM.OleTranslateColor(varForeColor.getInt(), getDisplay().hPalette, colorRef) == COM.S_OK)",
+        "471": "\t\t\t\treturn Color.win32_new(getDisplay(), colorRef[0]);",
+        "472": "\t\t}"
+      },
+      "id": 139826984,
+      "filename": "OleControlSite.java"
+    },
+    {
+      "repo": "https://github.com/cpc26/jna.git",
+      "language": "Java",
+      "linescount": 1095,
+      "location": "/contrib/platform/src/com/sun/jna/platform/win32",
+      "name": "jna",
+      "url": "https://searchcode.com/codesearch/view/67045233/",
+      "md5hash": "ef66a519d74ef57aeac5de2cb6745083",
+      "lines": {
+        "498": "\t * @param crKey",
+        "499": "\t *  Pointer to a COLORREF value that specifies the color key to be used when composing the layered window.",
+        "436": "\t * @param crKey",
+        "437": "\t *  COLORREF structure that specifies the transparency color key to be used when composing the layered window.",
+        "456": "\t * @param pcrKey",
+        "457": "\t *  Pointer to a COLORREF value that receives the transparency color key to be used when ",
+        "500": "\t *  To generate a COLORREF, use the RGB macro.",
+        "501": "\t * @param pblend"
+      },
+      "id": 67045233,
+      "filename": "User32.java"
+    },
+    {
+      "repo": "https://github.com/andreyvit/yoursway-swt.git",
+      "language": "Java",
+      "linescount": 419,
+      "location": "/org.eclipse.swt/Eclipse SWT/win32/org/eclipse/swt/widgets",
+      "name": "yoursway-swt",
+      "url": "https://searchcode.com/codesearch/view/139827784/",
+      "md5hash": "13431d2b49dab1604a98d4c40532fbfc",
+      "lines": {
+        "295": "\t\t\t\t\t\t\t\tswitch (attr.crText.type) {",
+        "296": "\t\t\t\t\t\t\t\t\tcase OS.TF_CT_COLORREF:",
+        "299": "\t\t\t\t\t\t\t\t\tcase OS.TF_CT_SYSCOLOR:",
+        "300": "\t\t\t\t\t\t\t\t\t\tint colorRef = OS.GetSysColor (attr.crText.cr);",
+        "301": "\t\t\t\t\t\t\t\t\t\tstyle.foreground = Color.win32_new (display, colorRef);",
+        "302": "\t\t\t\t\t\t\t\t\t\tbreak;",
+        "304": "\t\t\t\t\t\t\t\tswitch (attr.crBk.type) {",
+        "305": "\t\t\t\t\t\t\t\t\tcase OS.TF_CT_COLORREF:",
+        "308": "\t\t\t\t\t\t\t\t\tcase OS.TF_CT_SYSCOLOR:",
+        "309": "\t\t\t\t\t\t\t\t\t\tint colorRef = OS.GetSysColor (attr.crBk.cr);",
+        "310": "\t\t\t\t\t\t\t\t\t\tstyle.background = Color.win32_new (display, colorRef);",
+        "311": "\t\t\t\t\t\t\t\t\t\tbreak;",
+        "313": "\t\t\t\t\t\t\t\tswitch (attr.crLine.type) {",
+        "314": "\t\t\t\t\t\t\t\t\tcase OS.TF_CT_COLORREF:",
+        "317": "\t\t\t\t\t\t\t\t\tcase OS.TF_CT_SYSCOLOR:",
+        "318": "\t\t\t\t\t\t\t\t\t\tint colorRef = OS.GetSysColor (attr.crLine.cr);",
+        "319": "\t\t\t\t\t\t\t\t\t\tstyle.underlineColor = Color.win32_new (display, colorRef);"
+      },
+      "id": 139827784,
+      "filename": "IME.java"
+    },
+    {
+      "repo": "https://github.com/skovatch/org.eclipse.swt.git",
+      "language": "Java",
+      "linescount": 2525,
+      "location": "/Eclipse SWT/carbon/org/eclipse/swt/widgets",
+      "name": "org.eclipse.swt",
+      "url": "https://searchcode.com/codesearch/view/109821923/",
+      "md5hash": "f48b818a9f2268f45f797d023a914064",
+      "lines": {
+        "1864": "\t\tint colorspace = OS.CGColorSpaceCreateDeviceRGB ();",
+        "1865": "\t\tint colorRef = OS.CGColorCreate (colorspace, color);",
+        "1866": "\t\tOS.HITextViewSetBackgroundColor (handle, colorRef);",
+        "1867": "\t\tOS.CGColorRelease (colorRef);",
+        "1868": "\t\tOS.CGColorSpaceRelease (colorspace);"
+      },
+      "id": 109821923,
+      "filename": "Text.java"
+    },
+    {
+      "repo": "https://github.com/bmorrise/pentaho-reporting.git",
+      "language": "Java",
+      "linescount": 197,
+      "location": "/libraries/libpixie/source/org/pentaho/reporting/libraries/pixie/wmf/records",
+      "name": "pentaho-reporting",
+      "url": "https://searchcode.com/codesearch/view/100685004/",
+      "md5hash": "3a39e21a593038e6112179283145e911",
+      "lines": {
+        "97": "    {",
+        "98": "      final int colorRef = record.getLongParam(2 * i + BASE_RECORD_SIZE);",
+        "99": "      final GDIColor color = new GDIColor(colorRef);",
+        "100": "      colors[i] = color;"
+      },
+      "id": 100685004,
+      "filename": "MfCmdSetPaletteEntries.java"
+    },
+    {
+      "repo": "https://github.com/skovatch/org.eclipse.swt.git",
+      "language": "Java",
+      "linescount": 152,
+      "location": "/Eclipse SWT OpenGL/win32/org/eclipse/swt/internal/opengl/win32",
+      "name": "org.eclipse.swt",
+      "url": "https://searchcode.com/codesearch/view/109821659/",
+      "md5hash": "5d657034458fd0dbaa99949498a656b7",
+      "lines": {
+        "144": " * @param pcr cast=(COLORREF *)",
+        "138": " * @param hdc cast=(HDC)",
+        "139": " * @param pcr cast=(COLORREF *)",
+        "143": " * @param hdc cast=(HDC)"
+      },
+      "id": 109821659,
+      "filename": "WGL.java"
+    },
+    {
+      "repo": "https://github.com/cyclestreets/android.git",
+      "language": "Java",
+      "linescount": 20,
+      "location": "/libraries/cyclestreets-view/src/main/java/net/cyclestreets/util",
+      "name": "android",
+      "url": "https://searchcode.com/codesearch/view/111736642/",
+      "md5hash": "38dde336a43f492a3948eab0a60c3ed6",
+      "lines": {
+        "10": "",
+        "11": "  private static int color(final Context context, int colorRef) {",
+        "12": "    TypedArray array = context.getTheme().obtainStyledAttributes(new int[]{colorRef});",
+        "13": "    int c = array.getColor(0, 0xFF00FF);"
+      },
+      "id": 111736642,
+      "filename": "Theme.java"
+    },
+    {
+      "repo": "git://github.com/twall/jna.git",
+      "language": "Java",
+      "linescount": 2361,
+      "location": "/contrib/platform/src/com/sun/jna/platform/win32",
+      "name": "jna",
+      "url": "https://searchcode.com/codesearch/view/7074179/",
+      "md5hash": "fc885de39839a1df84f0475bfbfb981c",
+      "lines": {
+        "515": "     * @param pcrKey",
+        "516": "     *            Pointer to a COLORREF value that receives the transparency",
+        "569": "     * @param crKey",
+        "570": "     *            Pointer to a COLORREF value that specifies the color key to be",
+        "571": "     *            used when composing the layered window. To generate a",
+        "492": "     * @param crKey",
+        "493": "     *            COLORREF structure that specifies the transparency color key",
+        "572": "     *            COLORREF, use the RGB macro."
+      },
+      "id": 7074179,
+      "filename": "User32.java"
+    },
+    {
+      "repo": "https://github.com/andreyvit/yoursway-swt.git",
+      "language": "Java",
+      "linescount": 4033,
+      "location": "/org.eclipse.swt/Eclipse SWT PI/win32/org/eclipse/swt/internal/win32",
+      "name": "yoursway-swt",
+      "url": "https://searchcode.com/codesearch/view/139825612/",
+      "md5hash": "10e5b38230cf054ef6f9c69479f23634",
+      "lines": {
+        "3931": "public static final native int SetTextAlign (int /*long*/ hdc, int fMode);",
+        "3301": "public static final native int /*long*/ CreateRectRgn (int left, int top, int right, int bottom);",
+        "3302": "public static final native int /*long*/ CreateSolidBrush (int colorRef);",
+        "3895": "public static final native int /*long*/ SetActiveWindow (int /*long*/ hWnd);",
+        "3896": "public static final native int SetBkColor (int /*long*/ hdc, int colorRef);",
+        "1639": "\tpublic static final int TF_CT_COLORREF = 2;",
+        "3932": "public static final native int SetTextColor (int /*long*/ hdc, int colorRef);",
+        "1638": "\tpublic static final int TF_CT_SYSCOLOR = 1;"
+      },
+      "id": 139825612,
+      "filename": "OS.java"
+    },
+    {
+      "repo": "https://github.com/andreyvit/yoursway-swt.git",
+      "language": "Java",
+      "linescount": 2285,
+      "location": "/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets",
+      "name": "yoursway-swt",
+      "url": "https://searchcode.com/codesearch/view/139827682/",
+      "md5hash": "04fb46c006bc223643531a9fc0fd4d1f",
+      "lines": {
+        "1624": "\t\tOS.HITextViewSetBackgroundColor (handle, colorRef);",
+        "1625": "\t\tOS.CGColorRelease (colorRef);",
+        "1626": "\t\tOS.CGColorSpaceRelease (colorspace);",
+        "1622": "\t\tint colorspace = OS.CGColorSpaceCreateDeviceRGB ();",
+        "1623": "\t\tint colorRef = OS.CGColorCreate (colorspace, color);"
+      },
+      "id": 139827682,
+      "filename": "Text.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 760,
+      "location": "/src/org/apache/poi/hwpf/sprm",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384370/",
+      "md5hash": "ad7ef563bd5c85239b2ca09f401501f5",
+      "lines": {
+        "688": "            // sprmCCv -- 0x6870",
+        "689": "            newCHP.setCv( new Colorref( sprm.getOperand() ) );",
+        "21": "",
+        "22": "import org.apache.poi.hwpf.model.Colorref;"
+      },
+      "id": 97384370,
+      "filename": "CharacterSprmUncompressor.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 27,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 4,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 2,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

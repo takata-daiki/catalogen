@@ -1,0 +1,103 @@
+{
+  "matchterm": "EscherArrayProperty",
+  "previouspage": null,
+  "searchterm": "EscherArrayProperty",
+  "query": "EscherArrayProperty",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 209,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383921/",
+      "md5hash": "924578dc39db9d234c6541b8bc094618",
+      "lines": {
+        "125": "        results.append(\"    {EscherArrayProperty:\" + '\\n');",
+        "51": "",
+        "52": "    public EscherArrayProperty(short propertyNumber, boolean isBlipId, byte[] complexData) {",
+        "124": "        StringBuffer results = new StringBuffer();",
+        "28": " */",
+        "29": "public final class EscherArrayProperty extends EscherComplexProperty {",
+        "46": "",
+        "47": "    public EscherArrayProperty(short id, byte[] complexData) {"
+      },
+      "id": 97383921,
+      "filename": "EscherArrayProperty.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 240,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642612/",
+      "md5hash": "f8c81618562bf93820dd59efc9c9c4d5",
+      "lines": {
+        "162": "        StringBuffer results = new StringBuffer();",
+        "51": " */",
+        "52": "public class EscherArrayProperty",
+        "163": "        results.append(\"    {EscherArrayProperty:\" + nl);",
+        "71": "",
+        "72": "    public EscherArrayProperty( short id, byte[] complexData )",
+        "77": "",
+        "78": "    public EscherArrayProperty( short propertyNumber, boolean isBlipId, byte[] complexData )"
+      },
+      "id": 15642612,
+      "filename": "EscherArrayProperty.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 184,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642360/",
+      "md5hash": "568f42341c2f49cf457f7336fcfb066f",
+      "lines": {
+        "116": "        opt.addEscherProperty(verticesProp);",
+        "99": "        opt.addEscherProperty(new EscherShapePathProperty(EscherProperties.GEOMETRY__SHAPEPATH, EscherShapePathProperty.COMPLEX));",
+        "100": "        EscherArrayProperty verticesProp = new EscherArrayProperty(EscherProperties.GEOMETRY__VERTICES, false, new byte[0] );",
+        "117": "        EscherArrayProperty segmentsProp = new EscherArrayProperty(EscherProperties.GEOMETRY__SEGMENTINFO, false, null );"
+      },
+      "id": 15642360,
+      "filename": "PolygonShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 128,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642603/",
+      "md5hash": "f08eee159fce1bf0383031b466b1ae4f",
+      "lines": {
+        "112": "                    pos += ((EscherArrayProperty)p).setArrayData(data, pos);",
+        "94": "                        results.add( new EscherArrayProperty( propId, new byte[propData]) );",
+        "109": "            {",
+        "93": "                    if ( propertyType == EscherPropertyMetaData.TYPE_ARRAY)",
+        "110": "                if (p instanceof EscherArrayProperty)",
+        "111": "                {"
+      },
+      "id": 15642603,
+      "filename": "EscherPropertyFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

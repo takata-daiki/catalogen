@@ -1,0 +1,96 @@
+{
+  "matchterm": "HSSFChart.HSSFSeries",
+  "previouspage": null,
+  "searchterm": "HSSFChart.HSSFSeries",
+  "query": "HSSFChart.HSSFSeries",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 95,
+      "location": "/zsstest/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969795/",
+      "md5hash": "6d932cc4b551b821cf01b1d46dd4f5c4",
+      "lines": {
+        "74": "\t\tassertEquals(1, chartXes.size());",
+        "75": "\t\tHSSFChartX chartX = (HSSFChartX) chartXes.get(0); ",
+        "76": "\t\tHSSFChart chart = (HSSFChart) chartX.getChartInfo();",
+        "77": "\t\tassertNull(chart.getChartTitle());",
+        "78": "\t\tSystem.out.println(\"getgetChartWidth():\"+chart.getChartWidth());",
+        "79": "\t\tHSSFSeries[] series = chart.getSeries();",
+        "81": "\t\tfor(int j = 0; j < series.length; ++j) {",
+        "82": "\t\t\tHSSFSeries ser = series[j];",
+        "26": "import org.junit.Test;",
+        "27": "import org.zkoss.poi.hssf.usermodel.HSSFChart;",
+        "28": "import org.zkoss.poi.hssf.usermodel.HSSFChartX;",
+        "29": "import org.zkoss.poi.hssf.usermodel.HSSFSheet;",
+        "30": "import org.zkoss.poi.hssf.usermodel.HSSFWorkbook;",
+        "31": "import org.zkoss.poi.hssf.usermodel.HSSFChart.HSSFSeries;"
+      },
+      "id": 3969795,
+      "filename": "PiechartXlsChartTest.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 113,
+      "location": "/zsstest/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969805/",
+      "md5hash": "7ca6debfa6e2e91c7ecc0822f45cefaa",
+      "lines": {
+        "81": "\t\t",
+        "82": "\t\tHSSFSeries ser = series[0];",
+        "79": "\t\tHSSFSeries[] series = chart.getSeries();",
+        "78": "\t\tassertEquals(\"2003-2006 Income Summary\", chart.getChartTitle());",
+        "26": "import org.zkoss.lang.Library;",
+        "27": "import org.zkoss.poi.hssf.usermodel.HSSFChart;",
+        "76": "\t\tassertEquals(1, chartXes.size());",
+        "29": "import org.zkoss.poi.hssf.usermodel.HSSFWorkbook;",
+        "30": "import org.zkoss.poi.hssf.usermodel.HSSFChart.HSSFSeries;",
+        "77": "\t\tHSSFChart chart = (HSSFChart) chartXes.get(0).getChartInfo();"
+      },
+      "id": 3969805,
+      "filename": "ColumnchartXlsChartTest.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 104,
+      "location": "/zsstest/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969787/",
+      "md5hash": "39effe8a8cc85b445af4b345b8e296f1",
+      "lines": {
+        "81": "\t\tfor(int j = 0; j < series.length; ++j) {",
+        "82": "\t\t\tHSSFSeries ser = series[j];",
+        "70": "\t\tList<ZssChartX> chartInfos = new DrawingManagerImpl(sheet1).getChartXs();",
+        "71": "/*\t\tHSSFChart[] charts = HSSFChart.getSheetCharts(sheet1);",
+        "72": "\t\tassertEquals(2, charts.length);",
+        "73": "\t\tHSSFChart chart = charts[0];",
+        "78": "\t\tSystem.out.println(\"getChartY():\"+chart.getChartY());",
+        "79": "\t\tHSSFSeries[] series = chart.getSeries();"
+      },
+      "id": 3969787,
+      "filename": "ColumnchartXlsxChartTest.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

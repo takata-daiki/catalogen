@@ -1,0 +1,63 @@
+{
+  "matchterm": "MissingSectionException",
+  "previouspage": null,
+  "searchterm": "MissingSectionException",
+  "query": "MissingSectionException",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 101,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642673/",
+      "md5hash": "5fda4edf8c72ca35fca224e56362bdf8",
+      "lines": {
+        "82": "     */",
+        "83": "    public MissingSectionException(final Throwable reason)",
+        "54": " */",
+        "71": "     */",
+        "72": "    public MissingSectionException(final String msg)",
+        "55": "public class MissingSectionException extends HPSFRuntimeException",
+        "60": "     */",
+        "61": "    public MissingSectionException()",
+        "94": "     */",
+        "95": "    public MissingSectionException(final String msg, final Throwable reason)"
+      },
+      "id": 15642673,
+      "filename": "MissingSectionException.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 722,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642677/",
+      "md5hash": "c696e553c12e15e63de30c0e97a23a85",
+      "lines": {
+        "624": "            throw new MissingSectionException(\"Property set does not contain any sections.\");",
+        "623": "        if (getSectionCount() < 1)"
+      },
+      "id": 15642677,
+      "filename": "PropertySet.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

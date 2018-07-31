@@ -1,0 +1,110 @@
+{
+  "matchterm": "TickRecord",
+  "previouspage": null,
+  "searchterm": "TickRecord",
+  "query": "TickRecord",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 474,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642470/",
+      "md5hash": "fae235ded49927b2e37e5c736f8509ef",
+      "lines": {
+        "216": "        TickRecord rec = new TickRecord();",
+        "54": " */",
+        "87": "",
+        "88": "    public TickRecord(RecordInputStream in)",
+        "55": "public class TickRecord",
+        "76": "",
+        "77": "    public TickRecord()",
+        "215": "    public Object clone() {"
+      },
+      "id": 15642470,
+      "filename": "TickRecord.java"
+    },
+    {
+      "repo": "git://github.com/threerings/clyde.git",
+      "language": "Java",
+      "linescount": 530,
+      "location": "/src/main/java/com/threerings/tudey/server",
+      "name": "clyde",
+      "url": "https://searchcode.com/codesearch/view/15744490/",
+      "md5hash": "47c4e9fe84a73fd1e3ea8f117bf5f9c3",
+      "lines": {
+        "396": "         */",
+        "100": "            _records.clear();",
+        "101": "            _records.add(new TickRecord());",
+        "296": "        // the last acknowledged tick is the reference",
+        "297": "        TickRecord reference = _records.get(0);",
+        "300": "        for (int ii = 1, nn = _records.size(); ii < nn; ii++) {",
+        "301": "            TickRecord orecord = _records.get(ii);",
+        "381": "    protected static class TickRecord",
+        "488": "    /** Records of each update transmitted to the client. */",
+        "489": "    protected List<TickRecord> _records = Lists.newArrayList();",
+        "397": "        public TickRecord (",
+        "89": "        // insert the baseline (empty) tick record",
+        "90": "        _records.add(new TickRecord());",
+        "284": "        int timestamp = _scenemgr.getTimestamp();",
+        "285": "        TickRecord record = new TickRecord(",
+        "380": "     */"
+      },
+      "id": 15744490,
+      "filename": "ClientLiaison.java"
+    },
+    {
+      "repo": "https://bitbucket.org/Bunk3r/acm-codes.git",
+      "language": "Java",
+      "linescount": 247,
+      "location": "/Infinite Mario/src/dk/itu/mario/scene",
+      "name": "acm-codes",
+      "url": "https://searchcode.com/codesearch/view/50897498/",
+      "md5hash": "155efcfdb859ce64ae205c0c78415530",
+      "lines": {
+        "129": "\t\t\t\tif(recorder != null)",
+        "130": "\t\t\t\trecorder.tickRecord();"
+      },
+      "id": 50897498,
+      "filename": "LevelSceneTest.java"
+    },
+    {
+      "repo": "https://bitbucket.org/Bunk3r/acm-codes.git",
+      "language": "Java",
+      "linescount": 1019,
+      "location": "/Infinite Mario/src/dk/itu/mario/engine",
+      "name": "acm-codes",
+      "url": "https://searchcode.com/codesearch/view/50897514/",
+      "md5hash": "4d6b97ce58055518509d526d6ca2f403",
+      "lines": {
+        "185": "",
+        "186": "\tpublic void tickRecord(){"
+      },
+      "id": 50897514,
+      "filename": "DataRecorder.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

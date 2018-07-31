@@ -1,0 +1,503 @@
+{
+  "matchterm": "ContentTypes",
+  "previouspage": null,
+  "searchterm": "ContentTypes",
+  "query": "ContentTypes",
+  "language_filters": [
+    {
+      "count": 928,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 928,
+  "results": [
+    {
+      "repo": "git://github.com/zkoss/zk.git",
+      "language": "Java",
+      "linescount": 165,
+      "location": "/zcommon/src/org/zkoss/util/media",
+      "name": "zk",
+      "url": "https://searchcode.com/codesearch/view/17658581/",
+      "md5hash": "c9a4499c5762212b11b582788ef1ed34",
+      "lines": {
+        "1": "/* ContentTypes.java",
+        "2": "",
+        "35": "public class ContentTypes {",
+        "36": "\tprivate static final Log log = Log.lookup(ContentTypes.class);",
+        "37": "",
+        "42": "",
+        "43": "\tprotected ContentTypes() {} //prevent from initializing",
+        "34": " */",
+        "120": "\t\tfinal String flnm =",
+        "121": "\t\t\t\"/metainfo/org/zkoss/util/media/contentTypes.properties\";",
+        "123": "\t\t\tlog.warning(MCommon.FILE_NOT_FOUND, flnm);",
+        "124": "\t\tload(\"/contentTypes.properties\"); //override!",
+        "126": "\tprivate static final boolean load(String flnm) {",
+        "127": "\t\tfinal InputStream strm = ContentTypes.class.getResourceAsStream(flnm);"
+      },
+      "id": 17658581,
+      "filename": "ContentTypes.java"
+    },
+    {
+      "repo": "https://github.com/erikryverling/soapui.git",
+      "language": "Java",
+      "linescount": 74,
+      "location": "/soapui/src/main/java/com/eviware/soapui/impl/wsdl/monitor",
+      "name": "soapui",
+      "url": "https://searchcode.com/codesearch/view/96360604/",
+      "md5hash": "86976e2811bfe8c0a4fecc46615cbf6b",
+      "lines": {
+        "32": "        this.contentTypes = contentTypes;",
+        "33": "    }",
+        "34": "",
+        "35": "    public static ContentTypes of(String contentTypes) {",
+        "36": "        List<ContentType> contentTypeList = new ArrayList<ContentType>();",
+        "37": "        for (String ct : contentTypes.split(\",\")) {",
+        "42": "        }",
+        "43": "        return new ContentTypes(contentTypeList);",
+        "46": "    public boolean matches(String value) {",
+        "47": "        for (ContentType contentType : contentTypes) {",
+        "27": " */",
+        "28": "public class ContentTypes {",
+        "29": "    private List<ContentType> contentTypes;",
+        "30": "",
+        "31": "    private ContentTypes(List<ContentType> contentTypes) {"
+      },
+      "id": 96360604,
+      "filename": "ContentTypes.java"
+    },
+    {
+      "repo": "https://github.com/kevinj/apache-incubator-shindig.git",
+      "language": "Java",
+      "linescount": 130,
+      "location": "/java/common/src/main/java/org/apache/shindig/protocol",
+      "name": "apache-incubator-shindig",
+      "url": "https://searchcode.com/codesearch/view/107050743/",
+      "md5hash": "59ca21438ef72cb6b944c168e15003cc",
+      "lines": {
+        "32": "",
+        "33": "  private static final Logger logger = Logger.getLogger(ContentTypes.class.getName());",
+        "98": "",
+        "99": "    contentType = ContentTypes.extractMimePart(contentType);",
+        "100": "",
+        "84": "",
+        "85": "  public static void checkContentTypes(Set<String> allowedContentTypes,",
+        "86": "      String contentType, boolean disallowUnknownContentTypes) throws InvalidContentTypeException {",
+        "87": "",
+        "88": "    if (StringUtils.isEmpty(contentType)) {",
+        "89": "       if (disallowUnknownContentTypes) {",
+        "91": "            \"No Content-Type specified. One of \"",
+        "92": "                + StringUtils.join(allowedContentTypes, \", \") + \" is required\");",
+        "30": " */",
+        "31": "public class ContentTypes {"
+      },
+      "id": 107050743,
+      "filename": "ContentTypes.java"
+    },
+    {
+      "repo": "http://claymus.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 53,
+      "location": "/src/com/claymus/site/module/content/pages",
+      "name": "claymus",
+      "url": "https://searchcode.com/codesearch/view/3800279/",
+      "md5hash": "049d47f76d003b55a23240179d2f6a75",
+      "lines": {
+        "36": "\t\tString encoded = KeyFactory.keyToString(this.page.getKey());",
+        "37": "\t\tfor(ContentType contentType : ContentData.getContentTypes()) {",
+        "8": "@SuppressWarnings(\"serial\")",
+        "9": "public class ContentTypes extends ContentType {",
+        "12": "",
+        "13": "\tpublic ContentTypes(Page page) {"
+      },
+      "id": 3800279,
+      "filename": "ContentTypes.java"
+    },
+    {
+      "repo": "https://github.com/anirvan/shindig-profiles.git",
+      "language": "Java",
+      "linescount": 115,
+      "location": "/java/common/src/main/java/org/apache/shindig/protocol",
+      "name": "shindig-profiles",
+      "url": "https://searchcode.com/codesearch/view/68170883/",
+      "md5hash": "4adffe678f0a180c3a23ffbc3ae14c46",
+      "lines": {
+        "97": "    }",
+        "98": "    if (allowedContentTypes.contains(contentType)) {",
+        "104": "            + \". One of \"",
+        "105": "            + StringUtils.join(allowedContentTypes, \", \")",
+        "29": " */",
+        "82": "",
+        "83": "  public static void checkContentTypes(Set<String> allowedContentTypes,",
+        "94": "    if (ContentTypes.FORBIDDEN_CONTENT_TYPES.contains(contentType)) {",
+        "88": "          \"No Content-Type specified. One of \"",
+        "89": "              + StringUtils.join(allowedContentTypes, \", \") + \" is required\");",
+        "91": "",
+        "92": "    contentType = ContentTypes.extractMimePart(contentType);",
+        "93": "",
+        "30": "public final class ContentTypes {",
+        "31": "  private ContentTypes() {}"
+      },
+      "id": 68170883,
+      "filename": "ContentTypes.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nx/squashtest-tm",
+      "language": "Java",
+      "linescount": 43,
+      "location": "/tm/tm.web/src/main/java/org/squashtest/tm/web/internal/http",
+      "name": "squashtest-tm",
+      "url": "https://searchcode.com/codesearch/view/122051768/",
+      "md5hash": "adb599ab9ce9118f6753830da3d15e6e",
+      "lines": {
+        "28": " */",
+        "29": "public final class ContentTypes {",
+        "30": "",
+        "31": "\tprivate ContentTypes() {"
+      },
+      "id": 122051768,
+      "filename": "ContentTypes.java"
+    },
+    {
+      "repo": "https://github.com/alesbukovsky/betamax.git",
+      "language": "Java",
+      "linescount": 44,
+      "location": "/betamax-core/src/main/java/co/freeside/betamax/io",
+      "name": "betamax",
+      "url": "https://searchcode.com/codesearch/view/97775520/",
+      "md5hash": "bea832ec54ae387fc62450c36374097e",
+      "lines": {
+        "40": "",
+        "41": "    private ContentTypes() {",
+        "22": "",
+        "23": "public class ContentTypes {"
+      },
+      "id": 97775520,
+      "filename": "ContentTypes.java"
+    },
+    {
+      "repo": "http://etupirka.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 32,
+      "location": "/etupirka-ktrwjr/src/main/java/org/etupirkacms/util",
+      "name": "etupirka",
+      "url": "https://searchcode.com/codesearch/view/1939503/",
+      "md5hash": "e0d9fee9b4746cc983260fa1ee17e9e5",
+      "lines": {
+        "8": "public class ContentTypes {",
+        "7": " */"
+      },
+      "id": 1939503,
+      "filename": "ContentTypes.java"
+    },
+    {
+      "repo": "git://github.com/liferay/liferay-portal.git",
+      "language": "Java",
+      "linescount": 100,
+      "location": "/portal-service/src/com/liferay/portal/kernel/util",
+      "name": "liferay-portal",
+      "url": "https://searchcode.com/codesearch/view/4118101/",
+      "md5hash": "4da0acb77f42ed0f6eed42fb913b35b2",
+      "lines": {
+        "19": " */",
+        "20": "public interface ContentTypes {"
+      },
+      "id": 4118101,
+      "filename": "ContentTypes.java"
+    },
+    {
+      "repo": "https://hg01.codeplex.com/bingmapsandroidsdk",
+      "language": "Java",
+      "linescount": 7,
+      "location": "/BingMapsAndroidSDK/src/org/bingmaps/data",
+      "name": "bingmapsandroidsdk",
+      "url": "https://searchcode.com/codesearch/view/7407278/",
+      "md5hash": "3263624b40e8c3ddc3e759ab4db4adaf",
+      "lines": {
+        "2": "",
+        "3": "public class ContentTypes {"
+      },
+      "id": 7407278,
+      "filename": "ContentTypes.java"
+    },
+    {
+      "repo": "http://caffeine-hx.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 31,
+      "location": "/projects/memedb/src/java/memedb/document",
+      "name": "caffeine-hx",
+      "url": "https://searchcode.com/codesearch/view/12089769/",
+      "md5hash": "a3d6bbce7d7a127ee0a0e04077190c82",
+      "lines": {
+        "27": "",
+        "28": "public @interface ContentTypes {"
+      },
+      "id": 12089769,
+      "filename": "ContentTypes.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 375,
+      "location": "/src/main/java/org/docx4j/openpackaging/contenttype",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17641550/",
+      "md5hash": "640f6869c1b426fd8235768a0472f472",
+      "lines": {
+        "57": " */",
+        "58": "public class ContentTypes {"
+      },
+      "id": 17641550,
+      "filename": "ContentTypes.java"
+    },
+    {
+      "repo": "https://github.com/ruwanego/ninja.git",
+      "language": "Java",
+      "linescount": 28,
+      "location": "/ninja-core/src/main/java/ninja",
+      "name": "ninja",
+      "url": "https://searchcode.com/codesearch/view/71338237/",
+      "md5hash": "3b431268327598e5691b4c798311b205",
+      "lines": {
+        "18": "",
+        "19": "public interface ContentTypes {"
+      },
+      "id": 71338237,
+      "filename": "ContentTypes.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nuclos/nuclos.git",
+      "language": "Java",
+      "linescount": 2980,
+      "location": "/nuclos-server/src/main/java/org/nuclos/server/dbtransfer",
+      "name": "nuclos",
+      "url": "https://searchcode.com/codesearch/view/46076819/",
+      "md5hash": "db1ce8d974c98a8a38756fb35ef3f232",
+      "lines": {
+        "555": "\t\tcheckOkay.setValue(checkNucletVersions(importContentMap, contentTypes.getValue(), t.getValue()));",
+        "392": "\t\t\tfinal INcObjects iNcObjects, ",
+        "393": "\t\t\tfinal List<INucletContent> contentTypes,",
+        "554": "\t\t",
+        "395": "\t\t",
+        "396": "\t\tList<INucletContent> children = TransferUtils.getChildrenContentTypes(contentTypes, nc);",
+        "526": "\t\tLOG.info(\"get nuclet content instances\");",
+        "527": "\t\tcontentTypes.setValue(TransferUtils.getNucletContentInstances(root.getValue().exportOptions, TransferUtils.Process.PREPARE));",
+        "531": "\t\tLockedTabProgressNotifier.notify(\"load file\", 0);",
+        "273": "\t\tfinal Map<TransferOption, Serializable> exportOptions = new HashMap<TransferOption, Serializable>();",
+        "274": "\t\tList<INucletContent> \tcontentTypes = TransferUtils.getNucletContentInstances(exportOptions, TransferUtils.Process.CREATE);",
+        "275": "\t\tList<INucletContent> \trootTypes = TransferUtils.getRootContentTypes(contentTypes);",
+        "276": "\t\tByteArrayOutputStream \tbout = new ByteArrayOutputStream(16348);",
+        "279": "\t\t",
+        "280": "\t\tAbstractNucletContent.fillCaches(contentTypes, LOG);",
+        "532": "\t\treadFromZip(bytes, parameter, false, importContentMap, contentTypes.getValue());"
+      },
+      "id": 46076819,
+      "filename": "TransferFacadeBean.java"
+    },
+    {
+      "repo": "http://apibasej.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 255,
+      "location": "/apibasej-work/apibasej-http/src/apibasej/http",
+      "name": "apibasej",
+      "url": "https://searchcode.com/codesearch/view/12008499/",
+      "md5hash": "3367c85fc562a97b1c4fd5781ad2830f",
+      "lines": {
+        "32": "\t\tcontentTypes.put(\"asf\", \"video/x-ms-asf\");",
+        "33": "\t\tcontentTypes.put(\"asr\", \"video/x-ms-asf\");",
+        "34": "\t\tcontentTypes.put(\"asx\", \"video/x-ms-asf\");",
+        "35": "\t\tcontentTypes.put(\"au\", \"audio/basic\");",
+        "36": "\t\tcontentTypes.put(\"avi\", \"video/x-msvideo\");",
+        "37": "\t\tcontentTypes.put(\"axs\", \"application/olescript\");",
+        "38": "\t\tcontentTypes.put(\"bas\", \"text/plain\");",
+        "39": "\t\tcontentTypes.put(\"bcpio\", \"application/x-bcpio\");",
+        "40": "\t\tcontentTypes.put(\"bin\", \"application/octet-stream\");",
+        "16": "\tprivate static final String DEFAULT_CONTENT_TYPE = \"application/octet-stream\";",
+        "17": "\tprivate Hashtable contentTypes = new Hashtable();",
+        "25": "\tprivate TypeMap() {",
+        "26": "\t\tcontentTypes.put(\"323\", \"text/h323\");",
+        "27": "\t\tcontentTypes.put(\"acx\", \"application/internet-property-stream\");",
+        "31": "\t\tcontentTypes.put(\"aiff\", \"audio/x-aiff\");"
+      },
+      "id": 12008499,
+      "filename": "TypeMap.java"
+    },
+    {
+      "repo": "http://apibasej.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 255,
+      "location": "/apibasej_old_ate_2012-03-17/src/apibasej/client",
+      "name": "apibasej",
+      "url": "https://searchcode.com/codesearch/view/12008542/",
+      "md5hash": "ed104ae7057127930681f0c84b3b1f68",
+      "lines": {
+        "32": "\t\tcontentTypes.put(\"asf\", \"video/x-ms-asf\");",
+        "33": "\t\tcontentTypes.put(\"asr\", \"video/x-ms-asf\");",
+        "34": "\t\tcontentTypes.put(\"asx\", \"video/x-ms-asf\");",
+        "35": "\t\tcontentTypes.put(\"au\", \"audio/basic\");",
+        "36": "\t\tcontentTypes.put(\"avi\", \"video/x-msvideo\");",
+        "37": "\t\tcontentTypes.put(\"axs\", \"application/olescript\");",
+        "38": "\t\tcontentTypes.put(\"bas\", \"text/plain\");",
+        "39": "\t\tcontentTypes.put(\"bcpio\", \"application/x-bcpio\");",
+        "40": "\t\tcontentTypes.put(\"bin\", \"application/octet-stream\");",
+        "16": "\tprivate static final String DEFAULT_CONTENT_TYPE = \"application/octet-stream\";",
+        "17": "\tprivate Hashtable contentTypes = new Hashtable();",
+        "25": "\tprivate TypeMap() {",
+        "26": "\t\tcontentTypes.put(\"323\", \"text/h323\");",
+        "27": "\t\tcontentTypes.put(\"acx\", \"application/internet-property-stream\");",
+        "31": "\t\tcontentTypes.put(\"aiff\", \"audio/x-aiff\");"
+      },
+      "id": 12008542,
+      "filename": "TypeMap.java"
+    },
+    {
+      "repo": "git://github.com/jfarcand/Grizzly.git",
+      "language": "Java",
+      "linescount": 259,
+      "location": "/modules/utils/src/main/java/com/sun/grizzly/util/http",
+      "name": "Grizzly",
+      "url": "https://searchcode.com/codesearch/view/17452552/",
+      "md5hash": "5f4a32b6f75194c848451781b09695de",
+      "lines": {
+        "64": "        contentTypes.put(\"art\", \"image/x-jg\");",
+        "65": "        contentTypes.put(\"asf\", \"video/x-ms-asf\");",
+        "66": "        contentTypes.put(\"asx\", \"video/x-ms-asf\");",
+        "67": "        contentTypes.put(\"au\", \"audio/basic\");",
+        "68": "        contentTypes.put(\"avi\", \"video/x-msvideo\");",
+        "69": "        contentTypes.put(\"avx\", \"video/x-rad-screenplay\");",
+        "70": "        contentTypes.put(\"bcpio\", \"application/x-bcpio\");",
+        "71": "        contentTypes.put(\"bin\", \"application/octet-stream\");",
+        "72": "        contentTypes.put(\"bmp\", \"image/bmp\");",
+        "54": "    ",
+        "55": "    private final static Properties contentTypes = new Properties();",
+        "57": "    static {",
+        "58": "        contentTypes.put(\"abs\", \"audio/x-mpeg\");",
+        "59": "        contentTypes.put(\"ai\", \"application/postscript\");",
+        "63": "        contentTypes.put(\"aim\", \"application/x-aim\");"
+      },
+      "id": 17452552,
+      "filename": "MimeType.java"
+    },
+    {
+      "repo": "git://github.com/jfarcand/Grizzly.git",
+      "language": "Java",
+      "linescount": 211,
+      "location": "/modules/http/src/main/java/com/sun/grizzly/standalone",
+      "name": "Grizzly",
+      "url": "https://searchcode.com/codesearch/view/17452585/",
+      "md5hash": "fcae6893a3a0e31e450763480143d5a3",
+      "lines": {
+        "64": "        contentTypes.put(\"asf\", \"video/x-ms-asf\");",
+        "65": "        contentTypes.put(\"asx\", \"video/x-ms-asf\");",
+        "66": "        contentTypes.put(\"au\", \"audio/basic\");",
+        "67": "        contentTypes.put(\"avi\", \"video/x-msvideo\");",
+        "68": "        contentTypes.put(\"avx\", \"video/x-rad-screenplay\");",
+        "69": "        contentTypes.put(\"bcpio\", \"application/x-bcpio\");",
+        "70": "        contentTypes.put(\"bin\", \"application/octet-stream\");",
+        "71": "        contentTypes.put(\"bmp\", \"image/bmp\");",
+        "53": "    ",
+        "54": "    private static Properties contentTypes = new Properties();",
+        "56": "    static {",
+        "57": "        contentTypes.put(\"abs\", \"audio/x-mpeg\");",
+        "58": "        contentTypes.put(\"ai\", \"application/postscript\");",
+        "59": "        contentTypes.put(\"aif\", \"audio/x-aiff\");",
+        "63": "        contentTypes.put(\"art\", \"image/x-jg\");"
+      },
+      "id": 17452585,
+      "filename": "MimeType.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 880,
+      "location": "/src/main/java/org/docx4j/openpackaging/contenttype",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17641549/",
+      "md5hash": "0c826ecae34716ff6377d913ec654a4e",
+      "lines": {
+        "300": "",
+        "301": "\t\t} else if (contentType.equals(ContentTypes.WORDPROCESSINGML_DOCUMENT)) { ",
+        "306": "\t\t\t// Main Document part)\t\t\t\t\t\t",
+        "307": "\t\t} else if (contentType.equals(ContentTypes.WORDPROCESSINGML_DOCUMENT_MACROENABLED)) {",
+        "308": "\t\t\treturn CreateMainDocumentPartObject(partName);",
+        "309": "\t\t} else if (contentType.equals(ContentTypes.WORDPROCESSINGML_TEMPLATE)) {",
+        "310": "\t\t\treturn CreateMainDocumentPartObject(partName);",
+        "311": "\t\t} else if (contentType.equals(ContentTypes.WORDPROCESSINGML_TEMPLATE_MACROENABLED)) {",
+        "312": "\t\t\treturn CreateMainDocumentPartObject(partName);",
+        "313": "\t\t} else if (contentType.equals(ContentTypes.PACKAGE_COREPROPERTIES)) {",
+        "314": "\t\t\treturn CreateDocPropsCorePartObject(partName ); ",
+        "315": "\t\t} else if (contentType.equals(ContentTypes.OFFICEDOCUMENT_CUSTOMPROPERTIES)) {",
+        "316": "\t\t\treturn CreateDocPropsCustomPartObject(partName );",
+        "317": "\t\t} else if (contentType.equals(ContentTypes.OFFICEDOCUMENT_EXTENDEDPROPERTIES)) {",
+        "318": "\t\t\treturn CreateDocPropsExtendedPartObject(partName );"
+      },
+      "id": 17641549,
+      "filename": "ContentTypeManager.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nuclos/nuclos.git",
+      "language": "Java",
+      "linescount": 606,
+      "location": "/nuclos-server/src/main/java/org/nuclos/server/dbtransfer/content",
+      "name": "nuclos",
+      "url": "https://searchcode.com/codesearch/view/46076862/",
+      "md5hash": "240e1071b0c52724ddb433e9ea4842ec",
+      "lines": {
+        "67": "\t",
+        "68": "\tprotected final List<INucletContent> contentTypes;",
+        "182": "\t\t\tINucletContent ncParent = TransferUtils.getContentType(contentTypes, parententity);",
+        "531": "\t\tfor (INucletContent nc : contentTypes) {",
+        "530": "\t\teoCaches = new HashMap<UID, Map<UID, EntityObjectVO<UID>>>(); ",
+        "79": "",
+        "80": "\tpublic AbstractNucletContent(FieldMeta<UID> fieldToParent, List<INucletContent> contentTypes) {",
+        "81": "\t\tthis(fieldToParent, contentTypes, false);",
+        "82": "\t}",
+        "83": "\t",
+        "84": "\tpublic AbstractNucletContent(FieldMeta<UID> fieldToParent, List<INucletContent> contentTypes, boolean ignoreReferenceToNuclet) {",
+        "85": "\t\tthis(E.<UID>getByUID(fieldToParent.getEntity()), E.<UID>getByUID(LangUtils.defaultIfNull(",
+        "86": "\t\t\t\tfieldToParent.getForeignEntity(), fieldToParent.getUnreferencedForeignEntity())), fieldToParent, contentTypes, ignoreReferenceToNuclet);",
+        "88": "\t",
+        "89": "\tpublic AbstractNucletContent(EntityMeta<UID> entity, List<INucletContent> contentTypes) {",
+        "90": "\t\tthis(entity, null, null, contentTypes, false);",
+        "181": "\t\t\t// get nuclet references from parent(s)"
+      },
+      "id": 46076862,
+      "filename": "AbstractNucletContent.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 646,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 223,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 52,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 4,
+      "source": "CodePlex",
+      "id": 5
+    },
+    {
+      "count": 2,
+      "source": "GitLab",
+      "id": 13
+    },
+    {
+      "count": 1,
+      "source": "Unknown",
+      "id": 0
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "matchterm": "ObjectProtectRecord",
+  "previouspage": null,
+  "searchterm": "ObjectProtectRecord",
+  "query": "ObjectProtectRecord",
+  "language_filters": [
+    {
+      "count": 10,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 10,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 152,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642386/",
+      "md5hash": "9ce0273ab5835b66f5ef97bfeb028e84",
+      "lines": {
+        "146": "    public Object clone() {",
+        "147": "        ObjectProtectRecord rec = new ObjectProtectRecord();",
+        "70": "",
+        "55": "",
+        "56": "public class ObjectProtectRecord",
+        "71": "    public ObjectProtectRecord(RecordInputStream in)",
+        "61": "",
+        "62": "    public ObjectProtectRecord()"
+      },
+      "id": 15642386,
+      "filename": "ObjectProtectRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 69,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260317/",
+      "md5hash": "045ac424a854f45d8783f242f425200d",
+      "lines": {
+        "44": "   */",
+        "28": " */",
+        "29": "class ObjectProtectRecord extends WritableRecordData",
+        "45": "  public ObjectProtectRecord(boolean prot)"
+      },
+      "id": 43260317,
+      "filename": "ObjectProtectRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 69,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200845/",
+      "md5hash": "045ac424a854f45d8783f242f425200d",
+      "lines": {
+        "44": "   */",
+        "28": " */",
+        "29": "class ObjectProtectRecord extends WritableRecordData",
+        "45": "  public ObjectProtectRecord(boolean prot)"
+      },
+      "id": 49200845,
+      "filename": "ObjectProtectRecord.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 69,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/write/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374532/",
+      "md5hash": "13323ac5bcf8336203277a9504612bbd",
+      "lines": {
+        "44": "   */",
+        "28": " */",
+        "29": "class ObjectProtectRecord extends WritableRecordData",
+        "45": "  public ObjectProtectRecord(boolean prot)"
+      },
+      "id": 11374532,
+      "filename": "ObjectProtectRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 3300,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642365/",
+      "md5hash": "1e8d548d196dc1063c30d9430b35b9f5",
+      "lines": {
+        "2552": "            log.log(POILogger.DEBUG, \"create protect record with protection disabled\");",
+        "2544": "     * creates an ObjectProtect record with protect set to false.",
+        "2545": "     * @see loci.poi.hssf.record.ObjectProtectRecord",
+        "2546": "     * @see loci.poi.hssf.record.Record",
+        "2547": "     * @return an ObjectProtectRecord",
+        "2548": "     */",
+        "117": "    protected PageBreakRecord            colBreaks         =     null;",
+        "118": "    protected ObjectProtectRecord        objprotect        =     null;",
+        "2553": "        ObjectProtectRecord retval = new ObjectProtectRecord();",
+        "312": "\t\t\t} ",
+        "313": "\t\t\telse if ( rec.getSid() == ObjectProtectRecord.sid )",
+        "314": "\t\t\t{",
+        "2911": "            ObjectProtectRecord rec = createObjectProtect();",
+        "2910": "        if(objprotect == null && objects) {",
+        "2549": "    protected ObjectProtectRecord createObjectProtect()"
+      },
+      "id": 15642365,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 1148,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260286/",
+      "md5hash": "ffa1236c86df17622a6a9299c36353c8",
+      "lines": {
+        "381": "",
+        "382": "      ObjectProtectRecord opr = new ObjectProtectRecord"
+      },
+      "id": 43260286,
+      "filename": "SheetWriter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 1148,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200814/",
+      "md5hash": "ffa1236c86df17622a6a9299c36353c8",
+      "lines": {
+        "381": "",
+        "382": "      ObjectProtectRecord opr = new ObjectProtectRecord"
+      },
+      "id": 49200814,
+      "filename": "SheetWriter.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1148,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/write/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374608/",
+      "md5hash": "d2bb3c01a6178871cd169bd35ec691ea",
+      "lines": {
+        "381": "",
+        "382": "      ObjectProtectRecord opr = new ObjectProtectRecord"
+      },
+      "id": 11374608,
+      "filename": "SheetWriter.java"
+    },
+    {
+      "repo": "http://brainstream.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1148,
+      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/write/biff",
+      "name": "brainstream",
+      "url": "https://searchcode.com/codesearch/view/13919791/",
+      "md5hash": "5094787ddf1c15c3bd7058fdd6237342",
+      "lines": {
+        "381": "",
+        "382": "      ObjectProtectRecord opr = new ObjectProtectRecord"
+      },
+      "id": 13919791,
+      "filename": "SheetWriter.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "98": "                WriteProtectRecord.class, FilePassRecord.class, PaneRecord.class,",
+        "99": "                NoteRecord.class, ObjectProtectRecord.class, ScenarioProtectRecord.class, FileSharingRecord.class"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 3,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

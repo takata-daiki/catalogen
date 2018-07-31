@@ -1,0 +1,20 @@
+{
+  "id": "101231435",
+  "filename": "ExcelExporter.java",
+  "url": "https://searchcode.com/codesearch/view/101231435/",
+  "lines": {
+    "63": "\t\tXSSFWorkbook book = new XSSFWorkbook();\n",
+    "64": "\t\tExportContext ctx = new ExportContext(true, book.createSheet(\"Sheet1\"));\n",
+    "69": "\t\t\tgetInterceptor().beforeRendering(book);\n",
+    "75": "\t\t\tgetInterceptor().afterRendering(book);\n",
+    "79": "\t\tbook.write(outputStream);\n",
+    "138": "\t\tsetExportContext(new ExportContext(true, book.createSheet(\"Sheet1\")));\n",
+    "141": "\t\texportHeaders(columnSize, component, book);\n",
+    "142": "\t\texportRows(columnSize, component, book);\n",
+    "143": "\t\texportFooters(columnSize, component, book);\n",
+    "152": "\tprotected void exportAuxhead(int columnSize, Auxhead auxhead, XSSFWorkbook book) {\n",
+    "154": "\t\texportCellsWithSpan(columnSize, auxhead, book);\n",
+    "157": "\tprivate void setCellAlignment(short alignment, Cell cell, XSSFWorkbook book) {\n",
+    "159": "\t\t\tXSSFCellStyle cellStyle = book.createCellStyle();\n"
+  }
+}

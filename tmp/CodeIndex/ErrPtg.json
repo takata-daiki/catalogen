@@ -1,0 +1,77 @@
+{
+  "matchterm": "ErrPtg",
+  "previouspage": null,
+  "searchterm": "ErrPtg",
+  "query": "ErrPtg",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 114,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642532/",
+      "md5hash": "992a494c976958b08bda77295f0792a4",
+      "lines": {
+        "50": " */",
+        "51": "public class ErrPtg extends Ptg",
+        "56": "",
+        "57": "    /** Creates new ErrPtg */",
+        "58": "",
+        "59": "    public ErrPtg()",
+        "108": "    public Object clone() {",
+        "109": "        ErrPtg ptg = new ErrPtg();",
+        "62": "",
+        "63": "    public ErrPtg(RecordInputStream in)"
+      },
+      "id": 15642532,
+      "filename": "ErrPtg.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 485,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642564/",
+      "md5hash": "a03fe68945d6947241c13705dd4cc5e3",
+      "lines": {
+        "320": "             case MemErrPtg.sid + 0x40 :        // 0x67",
+        "321": "                 retval = new MemErrPtg(in);",
+        "322": "        \t                  break;",
+        "235": "        \t  ",
+        "236": "             case ErrPtg.sid :                  // 0x1c",
+        "237": "                 retval = new ErrPtg(in);",
+        "238": "        \t                  break;",
+        "333": "        \t  ",
+        "336": "             case AreaErrPtg.sid + 0x40 :       // 0x6b",
+        "337": "                 retval = new AreaErrPtg(in);",
+        "338": "        \t                  break;",
+        "334": "             case AreaErrPtg.sid :              // 0x2b",
+        "335": "             case AreaErrPtg.sid + 0x20 :       // 0x4b",
+        "317": "        \t  ",
+        "318": "             case MemErrPtg.sid :               // 0x27",
+        "319": "             case MemErrPtg.sid + 0x20 :        // 0x47"
+      },
+      "id": 15642564,
+      "filename": "Ptg.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

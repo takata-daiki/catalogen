@@ -1,0 +1,169 @@
+{
+  "matchterm": "CTPath2DArcTo",
+  "previouspage": null,
+  "searchterm": "CTPath2DArcTo",
+  "query": "CTPath2DArcTo",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 107,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402048/",
+      "md5hash": "e74b0c484a9edff469672e37a80c9cee",
+      "lines": {
+        "16": "public interface CTPath2DArcTo extends org.apache.xmlbeans.XmlObject",
+        "19": "        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CTPath2DArcTo.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sE130CAA0A01A7CDE5A2B4FEB8B311707\").resolveHandle(\"ctpath2darctodaa7type\");",
+        "18": "    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DArcTo",
+        "15": " */"
+      },
+      "id": 97402048,
+      "filename": "CTPath2DArcTo.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 160,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642069/",
+      "md5hash": "048f8c0d429aca3583f4e1fb9d6174aa",
+      "lines": {
+        "51": "@XmlType(name = \"CT_Path2DArcTo\")",
+        "52": "public class CTPath2DArcTo {"
+      },
+      "id": 17642069,
+      "filename": "CTPath2DArcTo.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1476,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403836/",
+      "md5hash": "2582da594107bd266380545b0ddc6687",
+      "lines": {
+        "513": "     */",
+        "514": "    public java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DArcTo> getArcToList()",
+        "515": "    {",
+        "516": "        final class ArcToList extends java.util.AbstractList<org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DArcTo>",
+        "517": "        {",
+        "518": "            public org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DArcTo get(int i)",
+        "520": "            ",
+        "521": "            public org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DArcTo set(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DArcTo o)",
+        "522": "            {",
+        "523": "                org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DArcTo old = CTPath2DImpl.this.getArcToArray(i);",
+        "527": "            ",
+        "528": "            public void add(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DArcTo o)",
+        "530": "            ",
+        "531": "            public org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DArcTo remove(int i)",
+        "532": "            {"
+      },
+      "id": 97403836,
+      "filename": "CTPath2DImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 522,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402026/",
+      "md5hash": "78a921038f475e52b775a86778f20278",
+      "lines": {
+        "192": "     */",
+        "161": "     */",
+        "162": "    java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DArcTo> getArcToList();",
+        "197": "     */",
+        "198": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DArcTo addNewArcTo();",
+        "167": "     */",
+        "168": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DArcTo[] getArcToArray();",
+        "193": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DArcTo insertNewArcTo(int i);",
+        "172": "     */",
+        "173": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DArcTo getArcToArray(int i);",
+        "182": "     */",
+        "183": "    void setArcToArray(org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DArcTo[] arcToArray);",
+        "187": "     */",
+        "188": "    void setArcToArray(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DArcTo arcTo);"
+      },
+      "id": 97402026,
+      "filename": "CTPath2D.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 3480,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642161/",
+      "md5hash": "ecaf98912e449049698e790afd5f5c5a",
+      "lines": {
+        "1353": "    /**",
+        "1354": "     * Create an instance of {@link CTPath2DArcTo }",
+        "1356": "     */",
+        "1357": "    public CTPath2DArcTo createCTPath2DArcTo() {",
+        "1358": "        return new CTPath2DArcTo();",
+        "1359": "    }"
+      },
+      "id": 17642161,
+      "filename": "ObjectFactory.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 264,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642035/",
+      "md5hash": "76da62452ba47aa186582eba48e2fd6d",
+      "lines": {
+        "72": "        @XmlElement(name = \"arcTo\", type = CTPath2DArcTo.class),",
+        "108": "     * {@link CTPath2DQuadBezierTo }",
+        "109": "     * {@link CTPath2DArcTo }",
+        "71": "        @XmlElement(name = \"quadBezTo\", type = CTPath2DQuadBezierTo.class),"
+      },
+      "id": 17642035,
+      "filename": "CTPath2D.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 304,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403614/",
+      "md5hash": "edc47f064d356bc0dec86a76ad650836",
+      "lines": {
+        "16": "    ",
+        "17": "    public CTPath2DArcToImpl(org.apache.xmlbeans.SchemaType sType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DArcTo",
+        "13": " */",
+        "14": "public class CTPath2DArcToImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DArcTo"
+      },
+      "id": 97403614,
+      "filename": "CTPath2DArcToImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

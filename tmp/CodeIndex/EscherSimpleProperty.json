@@ -1,0 +1,380 @@
+{
+  "matchterm": "EscherSimpleProperty",
+  "previouspage": null,
+  "searchterm": "EscherSimpleProperty",
+  "query": "EscherSimpleProperty",
+  "language_filters": [
+    {
+      "count": 18,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 18,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 130,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383900/",
+      "md5hash": "a3e76bebe3b60c502d30a432aaef77c4",
+      "lines": {
+        "37": "     */",
+        "38": "    public EscherSimpleProperty( short id, int propertyValue )",
+        "93": "        if ( propertyValue != escherSimpleProperty.propertyValue ) return false;",
+        "47": "     */",
+        "48": "    public EscherSimpleProperty( short propertyNumber, boolean isComplex, boolean isBlipId, int propertyValue )",
+        "94": "        if ( getId() != escherSimpleProperty.getId() ) return false;",
+        "88": "        if ( this == o ) return true;",
+        "89": "        if ( !( o instanceof EscherSimpleProperty ) ) return false;",
+        "90": "",
+        "91": "        final EscherSimpleProperty escherSimpleProperty = (EscherSimpleProperty) o;",
+        "92": "",
+        "29": " */",
+        "30": "public class EscherSimpleProperty extends EscherProperty",
+        "95": ""
+      },
+      "id": 97383900,
+      "filename": "EscherSimpleProperty.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 145,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642606/",
+      "md5hash": "3741ad99b8a70ce3b272875d5c4cad19",
+      "lines": {
+        "70": "     */",
+        "71": "    public EscherSimpleProperty( short propertyNumber, boolean isComplex, boolean isBlipId, int propertyValue )",
+        "111": "        if ( this == o ) return true;",
+        "112": "        if ( !( o instanceof EscherSimpleProperty ) ) return false;",
+        "113": "",
+        "114": "        final EscherSimpleProperty escherSimpleProperty = (EscherSimpleProperty) o;",
+        "115": "",
+        "52": " */",
+        "53": "public class EscherSimpleProperty extends EscherProperty",
+        "118": "",
+        "116": "        if ( propertyValue != escherSimpleProperty.propertyValue ) return false;",
+        "60": "     */",
+        "61": "    public EscherSimpleProperty( short id, int propertyValue )",
+        "117": "        if ( getId() != escherSimpleProperty.getId() ) return false;"
+      },
+      "id": 15642606,
+      "filename": "EscherSimpleProperty.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 612,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394395/",
+      "md5hash": "4ae551d90bbc16377c5513186d4e9dc1",
+      "lines": {
+        "289": "        EscherOptRecord opt = (EscherOptRecord)getEscherChild(_escherContainer, EscherOptRecord.RECORD_ID);",
+        "290": "        EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.TEXT__ANCHORTEXT);",
+        "385": "        EscherOptRecord opt = (EscherOptRecord)getEscherChild(_escherContainer, EscherOptRecord.RECORD_ID);",
+        "360": "        EscherOptRecord opt = (EscherOptRecord)getEscherChild(_escherContainer, EscherOptRecord.RECORD_ID);",
+        "361": "        EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.TEXT__TEXTBOTTOM);",
+        "458": "        EscherOptRecord opt = (EscherOptRecord)getEscherChild(_escherContainer, EscherOptRecord.RECORD_ID);",
+        "459": "        EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.TEXT__WRAPTEXT);",
+        "386": "        EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.TEXT__TEXTLEFT);",
+        "434": "        EscherOptRecord opt = (EscherOptRecord)getEscherChild(_escherContainer, EscherOptRecord.RECORD_ID);",
+        "435": "        EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.TEXT__TEXTTOP);",
+        "478": "        EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.TEXT__TEXTID);",
+        "410": "        EscherOptRecord opt = (EscherOptRecord)getEscherChild(_escherContainer, EscherOptRecord.RECORD_ID);",
+        "411": "        EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.TEXT__TEXTRIGHT);",
+        "477": "        EscherOptRecord opt = (EscherOptRecord)getEscherChild(_escherContainer, EscherOptRecord.RECORD_ID);",
+        "30": "import org.apache.poi.ddf.EscherProperties;",
+        "31": "import org.apache.poi.ddf.EscherSimpleProperty;"
+      },
+      "id": 97394395,
+      "filename": "TextShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 500,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394276/",
+      "md5hash": "00f483b8f00b9a5717d160ff19beda8e",
+      "lines": {
+        "416": "",
+        "417": "        EscherSimpleProperty op = (EscherSimpleProperty)getEscherProperty(opt, opacityProperty);",
+        "325": "        EscherOptRecord opt = (EscherOptRecord)getEscherChild(_escherContainer, EscherOptRecord.RECORD_ID);",
+        "326": "        EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, propId);",
+        "302": "        if (value != -1) {",
+        "29": "import org.apache.poi.ddf.EscherRecord;",
+        "336": "        EscherOptRecord opt = (EscherOptRecord)getEscherChild(_escherContainer, EscherOptRecord.RECORD_ID);",
+        "337": "        EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, propId);",
+        "303": "            opt.addEscherProperty(new EscherSimpleProperty(propId, value));",
+        "380": "        EscherOptRecord opt = (EscherOptRecord)getEscherChild(_escherContainer, EscherOptRecord.RECORD_ID);",
+        "381": "        EscherSimpleProperty p = (EscherSimpleProperty)getEscherProperty(opt, colorProperty);",
+        "30": "import org.apache.poi.ddf.EscherSimpleProperty;"
+      },
+      "id": 97394276,
+      "filename": "Shape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 431,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394265/",
+      "md5hash": "209d3abdc4c9f2d12e19f15421567bba",
+      "lines": {
+        "33": "import org.apache.poi.ddf.EscherRecord;",
+        "34": "import org.apache.poi.ddf.EscherSimpleProperty;",
+        "115": "        EscherOptRecord opt = (EscherOptRecord)getEscherChild(_escherContainer, EscherOptRecord.RECORD_ID);",
+        "116": "        EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.LINESTYLE__LINEWIDTH);",
+        "198": "        EscherOptRecord opt = (EscherOptRecord)getEscherChild(_escherContainer, EscherOptRecord.RECORD_ID);",
+        "166": "",
+        "151": "",
+        "152": "        EscherSimpleProperty p = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.LINESTYLE__NOLINEDRAWDASH);",
+        "167": "        EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.LINESTYLE__LINEDASHING);",
+        "199": "        EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.LINESTYLE__LINESTYLE);"
+      },
+      "id": 97394265,
+      "filename": "SimpleShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 184,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642360/",
+      "md5hash": "568f42341c2f49cf457f7336fcfb066f",
+      "lines": {
+        "96": "        opt.addEscherProperty(new EscherSimpleProperty(EscherProperties.TRANSFORM__ROTATION, false, false, 0));",
+        "97": "        opt.addEscherProperty(new EscherSimpleProperty(EscherProperties.GEOMETRY__RIGHT, false, false, hssfShape.getDrawAreaWidth()));",
+        "98": "        opt.addEscherProperty(new EscherSimpleProperty(EscherProperties.GEOMETRY__BOTTOM, false, false, hssfShape.getDrawAreaHeight()));",
+        "99": "        opt.addEscherProperty(new EscherShapePathProperty(EscherProperties.GEOMETRY__SHAPEPATH, EscherShapePathProperty.COMPLEX));",
+        "132": "        opt.addEscherProperty(new EscherSimpleProperty(EscherProperties.LINESTYLE__LINESTARTARROWHEAD, false, false, 0x0));",
+        "133": "        opt.addEscherProperty(new EscherSimpleProperty(EscherProperties.LINESTYLE__LINEENDARROWHEAD, false, false, 0x0));",
+        "134": "        opt.addEscherProperty(new EscherSimpleProperty(EscherProperties.LINESTYLE__LINEENDCAPSTYLE, false, false, 0x0));",
+        "135": "",
+        "130": "        opt.addEscherProperty(segmentsProp);",
+        "131": "        opt.addEscherProperty(new EscherSimpleProperty(EscherProperties.GEOMETRY__FILLOK, false, false, 0x00010001));",
+        "95": "        opt.setRecordId( EscherOptRecord.RECORD_ID );"
+      },
+      "id": 15642360,
+      "filename": "PolygonShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 633,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384428/",
+      "md5hash": "abf85d22a465320cca19a26cbf1926ad",
+      "lines": {
+        "353": "        //",
+        "354": "        // EscherSimpleProperty simpleProperty = (EscherSimpleProperty)",
+        "350": "        // EscherProperty property = optRecord.lookup( 0x0102 );",
+        "351": "        // if (property == null || !(property instanceof EscherSimpleProperty))"
+      },
+      "id": 97384428,
+      "filename": "Picture.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 192,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642364/",
+      "md5hash": "caf9b32bdd1d6052248a6d5f8cf5c345",
+      "lines": {
+        "128": "        opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.TEXT__TEXTTOP, shape.getMarginTop() ) );",
+        "129": "        addStandardOptions( shape, opt );",
+        "123": "        //        opt.addEscherProperty( new EscherBoolProperty( EscherProperties.PROTECTION__LOCKAGAINSTGROUPING, 262144 ) );",
+        "124": "        opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.TEXT__TEXTID, 0 ) );",
+        "125": "        opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.TEXT__TEXTLEFT, shape.getMarginLeft() ) );",
+        "126": "        opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.TEXT__TEXTRIGHT, shape.getMarginRight() ) );",
+        "127": "        opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.TEXT__TEXTBOTTOM, shape.getMarginBottom() ) );"
+      },
+      "id": 15642364,
+      "filename": "TextboxShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 174,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642354/",
+      "md5hash": "4b8479a67e34a342cfde58c7278efb63",
+      "lines": {
+        "160": "        {",
+        "161": "            opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.LINESTYLE__LINEDASHING, shape.getLineStyle()));",
+        "162": "            opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.LINESTYLE__LINEENDCAPSTYLE, 0));",
+        "163": "            if (shape.getLineStyle() == HSSFShape.LINESTYLE_NONE)",
+        "155": "        {",
+        "156": "            opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.LINESTYLE__LINEWIDTH, shape.getLineWidth()));"
+      },
+      "id": 15642354,
+      "filename": "AbstractShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 157,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642359/",
+      "md5hash": "c684c958961cd9be6740a30893ceb9a4",
+      "lines": {
+        "138": "        HSSFComment comment = (HSSFComment)shape;",
+        "139": "        opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.GROUPSHAPE__PRINT, comment.isVisible() ? 0x000A0000 : 0x000A0002) );",
+        "140": "        opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.SHADOWSTYLE__SHADOWOBSURED, 0x00030003 ) );",
+        "141": "        opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.SHADOWSTYLE__COLOR, 0x00000000 ) );",
+        "142": "        opt.sortProperties();"
+      },
+      "id": 15642359,
+      "filename": "CommentShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 78,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383915/",
+      "md5hash": "13b4e3c3672fce14b6665e181ed6c5ea",
+      "lines": {
+        "32": "public class EscherBoolProperty",
+        "33": "        extends EscherSimpleProperty",
+        "28": " * @author Glen Stampoultzis",
+        "29": " * @see EscherSimpleProperty"
+      },
+      "id": 97383915,
+      "filename": "EscherBoolProperty.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 280,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394307/",
+      "md5hash": "c0426f09ab6f17114414ade32966e4ad",
+      "lines": {
+        "116": "        EscherOptRecord opt = (EscherOptRecord)getEscherChild(_escherContainer, EscherOptRecord.RECORD_ID);",
+        "117": "        EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.BLIP__BLIPTODISPLAY);"
+      },
+      "id": 97394307,
+      "filename": "Picture.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 155,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642357/",
+      "md5hash": "3fac04b2d420f2a566cce5b6a652e8c5",
+      "lines": {
+        "92": "//        opt.addEscherProperty( new EscherBoolProperty( EscherProperties.PROTECTION__LOCKAGAINSTGROUPING, 0x00800080 ) );",
+        "93": "        opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.BLIP__BLIPTODISPLAY, false, true, shape.getPictureIndex() ) );",
+        "94": "//        opt.addEscherProperty( new EscherComplexProperty( EscherProperties.BLIP__BLIPFILENAME, true, new byte[] { (byte)0x74, (byte)0x00, (byte)0x65, (byte)0x00, (byte)0x73, (byte)0x00, (byte)0x74, (byte)0x00, (byte)0x00, (byte)0x00 } ) );",
+        "95": "//        opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.FILL__FILLTYPE, 0x00000003 ) );"
+      },
+      "id": 15642357,
+      "filename": "PictureShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 91,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642634/",
+      "md5hash": "f93d3ee646143ba85f369f06a3570e13",
+      "lines": {
+        "48": " * @author Glen Stampoultzis",
+        "49": " * @see EscherSimpleProperty",
+        "52": "public class EscherBoolProperty",
+        "53": "        extends EscherSimpleProperty"
+      },
+      "id": 15642634,
+      "filename": "EscherBoolProperty.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 64,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383944/",
+      "md5hash": "34ed7d644d67b8b87a5000ab275ee3c3",
+      "lines": {
+        "27": "public class EscherRGBProperty",
+        "28": "        extends EscherSimpleProperty"
+      },
+      "id": 97383944,
+      "filename": "EscherRGBProperty.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 128,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642603/",
+      "md5hash": "f08eee159fce1bf0383031b466b1ae4f",
+      "lines": {
+        "89": "                if ( !isComplex )",
+        "90": "                    results.add( new EscherSimpleProperty( propId, propData ) );"
+      },
+      "id": 15642603,
+      "filename": "EscherPropertyFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 78,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642624/",
+      "md5hash": "aa449feb1b96b53f084361b68316e6b3",
+      "lines": {
+        "48": "public class EscherRGBProperty",
+        "49": "        extends EscherSimpleProperty"
+      },
+      "id": 15642624,
+      "filename": "EscherRGBProperty.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 66,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642625/",
+      "md5hash": "dd16fe735c3696c8d9df261a6b69023b",
+      "lines": {
+        "48": "public class EscherShapePathProperty",
+        "49": "        extends EscherSimpleProperty"
+      },
+      "id": 15642625,
+      "filename": "EscherShapePathProperty.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 18,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

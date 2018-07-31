@@ -1,0 +1,471 @@
+{
+  "matchterm": "Indirect",
+  "previouspage": null,
+  "searchterm": "Indirect",
+  "query": "Indirect",
+  "language_filters": [
+    {
+      "count": 142865,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 142865,
+  "results": [
+    {
+      "repo": "https://github.com/dotfeng/lwjgl.git",
+      "language": "Java",
+      "linescount": 50,
+      "location": "/src/java/org/lwjgl/util/generator",
+      "name": "lwjgl",
+      "url": "https://searchcode.com/codesearch/view/72933589/",
+      "md5hash": "f3c78bc16dd278d1ac3b1e134a1131a3",
+      "lines": {
+        "48": "public @interface Indirect {",
+        "35": " *",
+        "36": " * Implies that a parameter is indirect, and forces the native",
+        "37": " * stub to use the indirection operator '&' on it.",
+        "38": " *",
+        "23": " * PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR",
+        "24": " * CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,",
+        "47": "@Target(ElementType.PARAMETER)"
+      },
+      "id": 72933589,
+      "filename": "Indirect.java"
+    },
+    {
+      "repo": "https://github.com/jasonm/smartlab.git",
+      "language": "Java",
+      "linescount": 50,
+      "location": "/java/lwjgl/src/java/org/lwjgl/util/generator",
+      "name": "smartlab",
+      "url": "https://searchcode.com/codesearch/view/104099143/",
+      "md5hash": "a2056a3830199cafc0e4970cc88f12c3",
+      "lines": {
+        "48": "public @interface Indirect {",
+        "40": " * @version $Revision: 2983 $",
+        "35": " *",
+        "36": " * Implies that a parameter is indirect, and forces the native",
+        "37": " * stub to use the indirection operator '&' on it.",
+        "38": " *",
+        "23": " * PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR",
+        "24": " * CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,",
+        "41": " * $Id: Indirect.java 2983 2008-04-07 18:36:09Z matzon $",
+        "47": "@Target(ElementType.PARAMETER)"
+      },
+      "id": 104099143,
+      "filename": "Indirect.java"
+    },
+    {
+      "repo": "https://bitbucket.org/inlabsoft/hikari.pub",
+      "language": "Java",
+      "linescount": 44,
+      "location": "/development/bcf/hikari-bcf/java/com/inlabsoft/hikari/bcf/annotation",
+      "name": "hikari.pub",
+      "url": "https://searchcode.com/codesearch/view/54189730/",
+      "md5hash": "410e3f4a2f8957ff4e9717af10b9d903",
+      "lines": {
+        "35": "@Retention(RetentionPolicy.RUNTIME)",
+        "19": "/**",
+        "20": " * The <code>Indirect</code> annotation is a marker that used to specify attribute of the",
+        "21": " * {@link Entity} that points on another {@link Entity} and requires property initialization",
+        "22": " * through indirect call. In other words such attribute will be populated in case when accessing it",
+        "24": " * <p>",
+        "25": " * The handler of <code>Indirect</code> annotation will works when only annotated attribute of",
+        "36": "public @interface Indirect {"
+      },
+      "id": 54189730,
+      "filename": "Indirect.java"
+    },
+    {
+      "repo": "https://bitbucket.org/Prodes/smallgames",
+      "language": "Java",
+      "linescount": 50,
+      "location": "/libgdx-game/libs/lwjgl-source-2.8.4/src/java/org/lwjgl/util/generator",
+      "name": "smallgames",
+      "url": "https://searchcode.com/codesearch/view/127486513/",
+      "md5hash": "a2056a3830199cafc0e4970cc88f12c3",
+      "lines": {
+        "48": "public @interface Indirect {",
+        "40": " * @version $Revision: 2983 $",
+        "35": " *",
+        "36": " * Implies that a parameter is indirect, and forces the native",
+        "37": " * stub to use the indirection operator '&' on it.",
+        "38": " *",
+        "23": " * PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR",
+        "24": " * CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,",
+        "41": " * $Id: Indirect.java 2983 2008-04-07 18:36:09Z matzon $",
+        "47": "@Target(ElementType.PARAMETER)"
+      },
+      "id": 127486513,
+      "filename": "Indirect.java"
+    },
+    {
+      "repo": "https://bitbucket.org/lpimports/gcc.git",
+      "language": "Java",
+      "linescount": 34,
+      "location": "/libjava/testsuite/libjava.lang",
+      "name": "gcc",
+      "url": "https://searchcode.com/codesearch/view/127601668/",
+      "md5hash": "68f99141e46faf0d63b386534daa746a",
+      "lines": {
+        "32": "  }",
+        "1": "// Class indirect",
+        "2": "// Generated on Tue Nov 16 15:53:14 UTC 1999",
+        "3": "// Several indirection to enclosing class",
+        "4": "",
+        "5": "class indirect {",
+        "8": "",
+        "9": "  class indirect_inner {",
+        "23": "    foo = 670; ",
+        "24": "    indirect_inner inn = this.new indirect_inner ();",
+        "25": "    this.new indirect_inner().new other().new inner ().test ();",
+        "26": "    System.out.println (\"foo=\"+foo);",
+        "29": "  {",
+        "30": "    System.out.println (\"Testing class `indirect'...\");",
+        "31": "    new indirect().foo ();"
+      },
+      "id": 127601668,
+      "filename": "indirect.java"
+    },
+    {
+      "repo": "https://bitbucket.org/vaporoid/gcc.git",
+      "language": "Java",
+      "linescount": 34,
+      "location": "/libjava/testsuite/libjava.lang",
+      "name": "gcc",
+      "url": "https://searchcode.com/codesearch/view/130235977/",
+      "md5hash": "68f99141e46faf0d63b386534daa746a",
+      "lines": {
+        "32": "  }",
+        "1": "// Class indirect",
+        "2": "// Generated on Tue Nov 16 15:53:14 UTC 1999",
+        "3": "// Several indirection to enclosing class",
+        "4": "",
+        "5": "class indirect {",
+        "8": "",
+        "9": "  class indirect_inner {",
+        "23": "    foo = 670; ",
+        "24": "    indirect_inner inn = this.new indirect_inner ();",
+        "25": "    this.new indirect_inner().new other().new inner ().test ();",
+        "26": "    System.out.println (\"foo=\"+foo);",
+        "29": "  {",
+        "30": "    System.out.println (\"Testing class `indirect'...\");",
+        "31": "    new indirect().foo ();"
+      },
+      "id": 130235977,
+      "filename": "indirect.java"
+    },
+    {
+      "repo": "git://github.com/prog694/VIRSYSJ.git",
+      "language": "Java",
+      "linescount": 50,
+      "location": "/LWJGL/src/java/org/lwjgl/util/generator",
+      "name": "VIRSYSJ",
+      "url": "https://searchcode.com/codesearch/view/14442228/",
+      "md5hash": "0350e4f4771305e761410821294d35d3",
+      "lines": {
+        "48": "public @interface Indirect {",
+        "40": " * @version $Revision: 2983 $",
+        "35": " *",
+        "36": " * Implies that a parameter is indirect, and forces the native",
+        "37": " * stub to use the indirection operator '&' on it.",
+        "38": " *",
+        "23": " * PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR",
+        "24": " * CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,",
+        "41": " * $Id: Indirect.java 2983 2008-04-07 18:36:09Z matzon $",
+        "47": "@Target(ElementType.PARAMETER)"
+      },
+      "id": 14442228,
+      "filename": "Indirect.java"
+    },
+    {
+      "repo": "git://github.com/JetBrains/intellij-community.git",
+      "language": "Java",
+      "linescount": 13,
+      "location": "/plugins/InspectionGadgets/test/com/siyeh/igfixes/errorhandling/unnecessary_init_cause",
+      "name": "intellij-community",
+      "url": "https://searchcode.com/codesearch/view/116135525/",
+      "md5hash": "3b46c21d1bfebccc6ee6890f20c0403c",
+      "lines": {
+        "2": "",
+        "3": "class Indirect {"
+      },
+      "id": 116135525,
+      "filename": "Indirect.after.java"
+    },
+    {
+      "repo": "git://github.com/JetBrains/intellij-community.git",
+      "language": "Java",
+      "linescount": 14,
+      "location": "/plugins/InspectionGadgets/test/com/siyeh/igfixes/errorhandling/unnecessary_init_cause",
+      "name": "intellij-community",
+      "url": "https://searchcode.com/codesearch/view/116135528/",
+      "md5hash": "de4d0ffc3f9e143b8d30ad1f590f70d3",
+      "lines": {
+        "2": "",
+        "3": "class Indirect {"
+      },
+      "id": 116135528,
+      "filename": "Indirect.java"
+    },
+    {
+      "repo": "https://github.com/poidasmith/xlloop.git",
+      "language": "Java",
+      "linescount": 17,
+      "location": "/org.boris.expr/java/src/org/boris/expr/function/excel",
+      "name": "xlloop",
+      "url": "https://searchcode.com/codesearch/view/105398843/",
+      "md5hash": "465169d5d3cccede1424ec36473ab84d",
+      "lines": {
+        "6": "",
+        "7": "public class INDIRECT extends AbstractFunction"
+      },
+      "id": 105398843,
+      "filename": "INDIRECT.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tari/prizm-gcc.git",
+      "language": "Java",
+      "linescount": 34,
+      "location": "/libjava/testsuite/libjava.lang",
+      "name": "prizm-gcc",
+      "url": "https://searchcode.com/codesearch/view/37935807/",
+      "md5hash": "68f99141e46faf0d63b386534daa746a",
+      "lines": {
+        "32": "  }",
+        "1": "// Class indirect",
+        "2": "// Generated on Tue Nov 16 15:53:14 UTC 1999",
+        "3": "// Several indirection to enclosing class",
+        "4": "",
+        "5": "class indirect {",
+        "8": "",
+        "9": "  class indirect_inner {",
+        "23": "    foo = 670; ",
+        "24": "    indirect_inner inn = this.new indirect_inner ();",
+        "25": "    this.new indirect_inner().new other().new inner ().test ();",
+        "26": "    System.out.println (\"foo=\"+foo);",
+        "29": "  {",
+        "30": "    System.out.println (\"Testing class `indirect'...\");",
+        "31": "    new indirect().foo ();"
+      },
+      "id": 37935807,
+      "filename": "indirect.java"
+    },
+    {
+      "repo": "https://bitbucket.org/bluezoo/gcc.git",
+      "language": "Java",
+      "linescount": 34,
+      "location": "/libjava/testsuite/libjava.lang",
+      "name": "gcc",
+      "url": "https://searchcode.com/codesearch/view/46801436/",
+      "md5hash": "68f99141e46faf0d63b386534daa746a",
+      "lines": {
+        "32": "  }",
+        "1": "// Class indirect",
+        "2": "// Generated on Tue Nov 16 15:53:14 UTC 1999",
+        "3": "// Several indirection to enclosing class",
+        "4": "",
+        "5": "class indirect {",
+        "8": "",
+        "9": "  class indirect_inner {",
+        "23": "    foo = 670; ",
+        "24": "    indirect_inner inn = this.new indirect_inner ();",
+        "25": "    this.new indirect_inner().new other().new inner ().test ();",
+        "26": "    System.out.println (\"foo=\"+foo);",
+        "29": "  {",
+        "30": "    System.out.println (\"Testing class `indirect'...\");",
+        "31": "    new indirect().foo ();"
+      },
+      "id": 46801436,
+      "filename": "indirect.java"
+    },
+    {
+      "repo": "https://bitbucket.org/dagronlund/opengl-game-platform.git",
+      "language": "Java",
+      "linescount": 50,
+      "location": "/game_platform/lib/lwjgl-2.8.5/src/java/org/lwjgl/util/generator",
+      "name": "opengl-game-platform",
+      "url": "https://searchcode.com/codesearch/view/52612404/",
+      "md5hash": "0350e4f4771305e761410821294d35d3",
+      "lines": {
+        "48": "public @interface Indirect {",
+        "40": " * @version $Revision: 2983 $",
+        "35": " *",
+        "36": " * Implies that a parameter is indirect, and forces the native",
+        "37": " * stub to use the indirection operator '&' on it.",
+        "38": " *",
+        "23": " * PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR",
+        "24": " * CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,",
+        "41": " * $Id: Indirect.java 2983 2008-04-07 18:36:09Z matzon $",
+        "47": "@Target(ElementType.PARAMETER)"
+      },
+      "id": 52612404,
+      "filename": "Indirect.java"
+    },
+    {
+      "repo": "https://bitbucket.org/dagronlund/opengl-game-platform.git",
+      "language": "Java",
+      "linescount": 50,
+      "location": "/game_platform/lib/lwjgl-2.8.5/java/org/lwjgl/util/generator",
+      "name": "opengl-game-platform",
+      "url": "https://searchcode.com/codesearch/view/52614592/",
+      "md5hash": "0350e4f4771305e761410821294d35d3",
+      "lines": {
+        "48": "public @interface Indirect {",
+        "40": " * @version $Revision: 2983 $",
+        "35": " *",
+        "36": " * Implies that a parameter is indirect, and forces the native",
+        "37": " * stub to use the indirection operator '&' on it.",
+        "38": " *",
+        "23": " * PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR",
+        "24": " * CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,",
+        "41": " * $Id: Indirect.java 2983 2008-04-07 18:36:09Z matzon $",
+        "47": "@Target(ElementType.PARAMETER)"
+      },
+      "id": 52614592,
+      "filename": "Indirect.java"
+    },
+    {
+      "repo": "https://bitbucket.org/dtrebbien/main_nb-javac",
+      "language": "Java",
+      "linescount": 32,
+      "location": "/test/tools/apt/Basics",
+      "name": "main_nb-javac",
+      "url": "https://searchcode.com/codesearch/view/125234218/",
+      "md5hash": "7b518df756e3350a2fd1efe2f62caa7e",
+      "lines": {
+        "28": " */",
+        "29": "public class Indirect {"
+      },
+      "id": 125234218,
+      "filename": "Indirect.java"
+    },
+    {
+      "repo": "https://bitbucket.org/hamishm/haiku-jdk-langtools",
+      "language": "Java",
+      "linescount": 32,
+      "location": "/test/tools/apt/Basics",
+      "name": "haiku-jdk-langtools",
+      "url": "https://searchcode.com/codesearch/view/127213215/",
+      "md5hash": "7b518df756e3350a2fd1efe2f62caa7e",
+      "lines": {
+        "28": " */",
+        "29": "public class Indirect {"
+      },
+      "id": 127213215,
+      "filename": "Indirect.java"
+    },
+    {
+      "repo": "https://bitbucket.org/amelentev/javac-oo",
+      "language": "Java",
+      "linescount": 32,
+      "location": "/test/tools/apt/Basics",
+      "name": "javac-oo",
+      "url": "https://searchcode.com/codesearch/view/127546425/",
+      "md5hash": "7b518df756e3350a2fd1efe2f62caa7e",
+      "lines": {
+        "28": " */",
+        "29": "public class Indirect {"
+      },
+      "id": 127546425,
+      "filename": "Indirect.java"
+    },
+    {
+      "repo": "git://github.com/ceylon/ceylon-compiler.git",
+      "language": "Java",
+      "linescount": 32,
+      "location": "/langtools/test/tools/apt/Basics",
+      "name": "ceylon-compiler",
+      "url": "https://searchcode.com/codesearch/view/15635296/",
+      "md5hash": "7b518df756e3350a2fd1efe2f62caa7e",
+      "lines": {
+        "28": " */",
+        "29": "public class Indirect {"
+      },
+      "id": 15635296,
+      "filename": "Indirect.java"
+    },
+    {
+      "repo": "git://github.com/GregBowyer/ManagedRuntimeInitiative.git",
+      "language": "Java",
+      "linescount": 32,
+      "location": "/MRI-J/langtools/test/tools/apt/Basics",
+      "name": "ManagedRuntimeInitiative",
+      "url": "https://searchcode.com/codesearch/view/17096334/",
+      "md5hash": "954afc2d4450b66e5e37fcccfb26d81d",
+      "lines": {
+        "28": " */",
+        "29": "public class Indirect {"
+      },
+      "id": 17096334,
+      "filename": "Indirect.java"
+    },
+    {
+      "repo": "https://bitbucket.org/cyanogenmod/android_dalvik.git",
+      "language": "Java",
+      "linescount": 28,
+      "location": "/tests/066-mismatched-super/src",
+      "name": "android_dalvik",
+      "url": "https://searchcode.com/codesearch/view/40425067/",
+      "md5hash": "756e0d832f22c69956440f69c5369bf9",
+      "lines": {
+        "17": "/**",
+        "18": " * Error indirection class.",
+        "22": " */",
+        "23": "public class Indirect {"
+      },
+      "id": 40425067,
+      "filename": "Indirect.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 80892,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 37849,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 20285,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 2505,
+      "source": "Sourceforge",
+      "id": 4
+    },
+    {
+      "count": 806,
+      "source": "CodePlex",
+      "id": 5
+    },
+    {
+      "count": 305,
+      "source": "Unknown",
+      "id": 0
+    },
+    {
+      "count": 197,
+      "source": "GitLab",
+      "id": 13
+    },
+    {
+      "count": 23,
+      "source": "Gitorious",
+      "id": 10
+    },
+    {
+      "count": 3,
+      "source": "Google Android",
+      "id": 12
+    }
+  ]
+}

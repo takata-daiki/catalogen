@@ -1,0 +1,54 @@
+{
+  "matchterm": "PartMarshaller",
+  "previouspage": null,
+  "searchterm": "PartMarshaller",
+  "query": "PartMarshaller",
+  "language_filters": [
+    {
+      "count": 1,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 1,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1489,
+      "location": "/pptx/src/org/apache/poi/openxml4j/opc",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406292/",
+      "md5hash": "47fc882bc196bd395e952d6ada656cd9",
+      "lines": {
+        "160": "\t\t\t// TODO Delocalize specialized marshallers",
+        "161": "\t\t\tthis.partMarshallers.put(new ContentType(",
+        "98": "\t */",
+        "99": "\tprotected PartMarshaller defaultPartMarshaller;",
+        "1265": "\t\t\tpartMarshallers.put(new ContentType(contentType), marshaller);",
+        "1297": "\tpublic void removeMarshaller(String contentType) {",
+        "46": "import org.apache.poi.openxml4j.opc.internal.PackagePropertiesPart;",
+        "47": "import org.apache.poi.openxml4j.opc.internal.PartMarshaller;",
+        "1264": "\t\ttry {",
+        "1262": "\t */",
+        "1298": "\t\tpartMarshallers.remove(contentType);",
+        "94": "\tprotected Hashtable<ContentType, PartMarshaller> partMarshallers;",
+        "1263": "\tpublic void addMarshaller(String contentType, PartMarshaller marshaller) {",
+        "93": "\t */",
+        "158": "\t\t\t// Add default marshaller",
+        "159": "\t\t\tthis.defaultPartMarshaller = new DefaultMarshaller();"
+      },
+      "id": 97406292,
+      "filename": "OPCPackage.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

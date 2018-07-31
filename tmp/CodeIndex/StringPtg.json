@@ -1,0 +1,104 @@
+{
+  "matchterm": "StringPtg",
+  "previouspage": null,
+  "searchterm": "StringPtg",
+  "query": "StringPtg",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 152,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642581/",
+      "md5hash": "0c15259f2bf915796a4fd5706bc352c9",
+      "lines": {
+        "67": "",
+        "68": "    private StringPtg() {",
+        "71": "",
+        "72": "    /** Create a StringPtg from a byte array read from disk */",
+        "73": "    public StringPtg(RecordInputStream in)",
+        "74": "    {",
+        "142": "   public Object clone() {",
+        "143": "     StringPtg ptg = new StringPtg();",
+        "85": "",
+        "86": "    /** Create a StringPtg from a string representation of  the number",
+        "55": "",
+        "56": "public class StringPtg",
+        "90": "     */",
+        "91": "    public StringPtg(String value) {"
+      },
+      "id": 15642581,
+      "filename": "StringPtg.java"
+    },
+    {
+      "repo": "https://github.com/semantalytics/RightField.git",
+      "language": "Java",
+      "linescount": 140,
+      "location": "/src/main/java/uk/ac/manchester/cs/owl/semspreadsheets/model/hssf/impl",
+      "name": "RightField",
+      "url": "https://searchcode.com/codesearch/view/72854649/",
+      "md5hash": "9b32ac4d62bd845be04702f4e7103178",
+      "lines": {
+        "128": "\t\t\t} else if (token instanceof StringPtg) {",
+        "129": "\t\t\t\tStringPtg stringPtg = (StringPtg) token;",
+        "130": "\t\t\t\tsb.append(stringPtg.getValue());",
+        "131": "\t\t\t} else if (token instanceof IntPtg) {",
+        "24": "import org.apache.poi.ss.formula.ptg.Ptg;",
+        "25": "import org.apache.poi.ss.formula.ptg.StringPtg;",
+        "127": "\t\t\t\tsb.append(wb.getNameText(namePtg));"
+      },
+      "id": 72854649,
+      "filename": "PatchedPoi.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 485,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642564/",
+      "md5hash": "a03fe68945d6947241c13705dd4cc5e3",
+      "lines": {
+        "227": " ",
+        "228": "             case StringPtg.sid :               // 0x17",
+        "229": "                retval = new StringPtg(in);",
+        "230": "                break;"
+      },
+      "id": 15642564,
+      "filename": "Ptg.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1069,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642368/",
+      "md5hash": "28d644f6963548f6234cc54a47085ba2",
+      "lines": {
+        "638": "\t\t\t}",
+        "639": "\t\t\ttokens.add(new StringPtg(Token.toString()));"
+      },
+      "id": 15642368,
+      "filename": "FormulaParser.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

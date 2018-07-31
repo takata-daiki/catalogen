@@ -1,0 +1,81 @@
+{
+  "matchterm": "UnicodeString.FormatRun",
+  "previouspage": null,
+  "searchterm": "UnicodeString.FormatRun",
+  "query": "UnicodeString.FormatRun",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 303,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642304/",
+      "md5hash": "fd86da49246c46065d6f11b412066aee",
+      "lines": {
+        "224": "        UnicodeString.FormatRun r = string.getFormatRun(i);",
+        "43": "import loci.poi.hssf.record.LabelSSTRecord;",
+        "140": "            UnicodeString.FormatRun r = (UnicodeString.FormatRun)formatting.next();",
+        "252": "        UnicodeString.FormatRun r = string.getFormatRun(index);",
+        "139": "          while (formatting.hasNext()) {",
+        "44": "import loci.poi.hssf.record.UnicodeString;",
+        "146": "",
+        "147": "        string.addFormatRun(new UnicodeString.FormatRun((short)startIndex, fontIndex));",
+        "148": "        if (endIndex != length())",
+        "149": "          string.addFormatRun(new UnicodeString.FormatRun((short)endIndex, currentFont));",
+        "251": "    {",
+        "220": "    {",
+        "221": "      int size = string.getFormatRunCount();",
+        "222": "      UnicodeString.FormatRun currentRun = null;",
+        "223": "      for (int i=0;i<size;i++) {"
+      },
+      "id": 15642304,
+      "filename": "HSSFRichTextString.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 956,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642397/",
+      "md5hash": "8126528f53897a35370bb2189a0d623e",
+      "lines": {
+        "385": "",
+        "162": "        UnicodeString other = ( UnicodeString ) o;",
+        "133": "",
+        "134": "    public UnicodeString(RecordInputStream in)",
+        "161": "        }",
+        "392": "    public FormatRun getFormatRun(int index) {",
+        "391": "",
+        "396": "        return null;",
+        "386": "    public int getFormatRunCount() {",
+        "397": "      return (FormatRun)field_4_format_runs.get(index);",
+        "278": "          for (int i=0;i<runCount;i++) {",
+        "279": "            field_4_format_runs.add(new FormatRun(in.readShort(), in.readShort()));",
+        "184": "        for (int i=0;i<size;i++) {",
+        "185": "          FormatRun run1 = (FormatRun)field_4_format_runs.get(i);",
+        "186": "          FormatRun run2 = (FormatRun)other.field_4_format_runs.get(i);"
+      },
+      "id": 15642397,
+      "filename": "UnicodeString.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

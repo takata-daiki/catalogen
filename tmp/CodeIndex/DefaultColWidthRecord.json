@@ -1,0 +1,107 @@
+{
+  "matchterm": "DefaultColWidthRecord",
+  "previouspage": null,
+  "searchterm": "DefaultColWidthRecord",
+  "query": "DefaultColWidthRecord",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 144,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642415/",
+      "md5hash": "f691cdc4bb309ec084082485d2a27622",
+      "lines": {
+        "139": "      DefaultColWidthRecord rec = new DefaultColWidthRecord();",
+        "70": "",
+        "55": "",
+        "56": "public class DefaultColWidthRecord",
+        "138": "    public Object clone() {",
+        "71": "    public DefaultColWidthRecord(RecordInputStream in)",
+        "61": "",
+        "62": "    public DefaultColWidthRecord()"
+      },
+      "id": 15642415,
+      "filename": "DefaultColWidthRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 3300,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642365/",
+      "md5hash": "1e8d548d196dc1063c30d9430b35b9f5",
+      "lines": {
+        "96": "    protected DefaultColWidthRecord      defaultcolwidth   =     null;",
+        "1889": "     * @param column index",
+        "1890": "     * @see loci.poi.hssf.record.DefaultColWidthRecord",
+        "1723": "        DefaultColWidthRecord retval = new DefaultColWidthRecord();",
+        "1807": "     * @param column index",
+        "1808": "     * @see loci.poi.hssf.record.DefaultColWidthRecord",
+        "1715": "     * creates the DefaultColWidth Record and sets it to 8",
+        "1716": "     * @see loci.poi.hssf.record.DefaultColWidthRecord",
+        "1717": "     * @see loci.poi.hssf.record.Record",
+        "1718": "     * @return record containing a DefaultColWidthRecord",
+        "216": "            }",
+        "217": "            else if (rec.getSid() == DefaultColWidthRecord.sid)",
+        "218": "            {",
+        "219": "                retval.defaultcolwidth = ( DefaultColWidthRecord ) rec;",
+        "1722": "    {",
+        "95": "    protected DimensionsRecord           dims;"
+      },
+      "id": 15642365,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642343/",
+      "md5hash": "468caa59753e7c2d27a76f3903f70894",
+      "lines": {
+        "66": "import loci.poi.hssf.record.DateWindow1904Record;",
+        "67": "import loci.poi.hssf.record.DefaultColWidthRecord;",
+        "174": "                FooterRecord.class, HCenterRecord.class, VCenterRecord.class,",
+        "175": "                PrintSetupRecord.class, DefaultColWidthRecord.class,"
+      },
+      "id": 15642343,
+      "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "84": "                FooterRecord.class, HCenterRecord.class, VCenterRecord.class,",
+        "85": "                PrintSetupRecord.class, DefaultColWidthRecord.class,"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

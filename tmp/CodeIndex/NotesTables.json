@@ -1,0 +1,82 @@
+{
+  "matchterm": "NotesTables",
+  "previouspage": null,
+  "searchterm": "NotesTables",
+  "query": "NotesTables",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 86,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384500/",
+      "md5hash": "044880cb9e98217750b5146a944f0b8e",
+      "lines": {
+        "32": "",
+        "33": "    private final NotesTables notesTables;",
+        "34": "",
+        "35": "    public NotesImpl( NotesTables notesTables )",
+        "36": "    {",
+        "37": "        this.notesTables = notesTables;",
+        "64": "        return notesTables.getTextPosition( index ).getEnd();",
+        "41": "    {",
+        "42": "        return notesTables.getDescriptor( index ).getStart();",
+        "77": "        Map<Integer, Integer> result = new HashMap<Integer, Integer>();",
+        "78": "        for ( int n = 0; n < notesTables.getDescriptorsCount(); n++ )",
+        "79": "        {",
+        "80": "            int anchorPosition = notesTables.getDescriptor( n ).getStart();",
+        "21": "",
+        "22": "import org.apache.poi.hwpf.model.NotesTables;",
+        "63": "    {"
+      },
+      "id": 97384500,
+      "filename": "NotesImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1043,
+      "location": "/src/org/apache/poi/hwpf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383956/",
+      "md5hash": "677c332698819342ff2ece2baf93a4ed",
+      "lines": {
+        "790": "        tableOffset = tableStream.getOffset();",
+        "39": "import org.apache.poi.hwpf.model.NoteType;",
+        "40": "import org.apache.poi.hwpf.model.NotesTables;",
+        "141": "  /** Holds the ending notes tables */",
+        "142": "  protected NotesTables _endnotesTables = new NotesTables( NoteType.ENDNOTE );",
+        "144": "  /** Holds the footnotes */",
+        "145": "  protected Notes _endnotes = new NotesImpl( _endnotesTables );",
+        "787": "         */",
+        "788": "        _footnotesTables.writeRef( _fib, tableStream );",
+        "789": "        _footnotesTables.writeTxt( _fib, tableStream );",
+        "150": "  /** Holds the footnotes */",
+        "151": "  protected Notes _footnotes = new NotesImpl( _footnotesTables );",
+        "376": "    _endnotes = new NotesImpl( _endnotesTables );",
+        "377": "    _footnotesTables = new NotesTables( NoteType.FOOTNOTE, _tableStream, _fib );",
+        "378": "    _footnotes = new NotesImpl( _footnotesTables );"
+      },
+      "id": 97383956,
+      "filename": "HWPFDocument.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

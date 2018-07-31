@@ -1,0 +1,144 @@
+{
+  "matchterm": "PackageRelationshipCollection",
+  "previouspage": null,
+  "searchterm": "PackageRelationshipCollection",
+  "query": "PackageRelationshipCollection",
+  "language_filters": [
+    {
+      "count": 6,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 6,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1489,
+      "location": "/pptx/src/org/apache/poi/openxml4j/opc",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406292/",
+      "md5hash": "47fc882bc196bd395e952d6ada656cd9",
+      "lines": {
+        "1184": "\t */",
+        "929": "\t\tif (relPart != null) {",
+        "930": "\t\t\tPackageRelationshipCollection partRels = new PackageRelationshipCollection(",
+        "1222": "\t\t\ttry {",
+        "1185": "\tpublic PackageRelationshipCollection getRelationshipsByType(",
+        "1224": "\t\t\t} catch (InvalidFormatException e) {",
+        "1225": "\t\t\t\tthis.relationships = new PackageRelationshipCollection();",
+        "1223": "\t\t\t\tthis.relationships = new PackageRelationshipCollection(this);",
+        "1200": "\t */",
+        "1201": "\tprivate PackageRelationshipCollection getRelationshipsHelper(String id) {",
+        "1173": "\t */",
+        "1174": "\tpublic PackageRelationshipCollection getRelationships() {",
+        "88": "\t */",
+        "89": "\tprotected PackageRelationshipCollection relationships;"
+      },
+      "id": 97406292,
+      "filename": "OPCPackage.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 265,
+      "location": "/pptx/src/org/apache/poi/xslf",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406428/",
+      "md5hash": "8f08dde64ec3cc85fb68661974a86de1",
+      "lines": {
+        "184": "\t\tPackageRelationshipCollection notes;",
+        "227": "//\tpublic CTCommentList getSlideComments(CTSlideIdListEntry slide) throws IOException, XmlException {",
+        "228": "//\t\tPackageRelationshipCollection commentRels;",
+        "183": "\tpublic PackagePart getNodesPart(CTSlideIdListEntry parentSlide) throws IOException, XmlException {",
+        "24": "import org.apache.poi.openxml4j.opc.PackageRelationship;",
+        "25": "import org.apache.poi.openxml4j.opc.PackageRelationshipCollection;"
+      },
+      "id": 97406428,
+      "filename": "XSLFSlideShow.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 183,
+      "location": "/pptx/src/org/apache/poi",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406028/",
+      "md5hash": "26607ac5995dc62d56a6e905896e6ed2",
+      "lines": {
+        "88": "        PackageRelationshipCollection partsC =",
+        "33": "import org.apache.poi.openxml4j.opc.PackageRelationship;",
+        "34": "import org.apache.poi.openxml4j.opc.PackageRelationshipCollection;",
+        "87": "    protected PackagePart[] getRelatedByType(String contentType) throws InvalidFormatException {"
+      },
+      "id": 97406028,
+      "filename": "POIXMLDocument.java"
+    },
+    {
+      "repo": "http://okapi.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 83,
+      "location": "/okapi/steps/xliffkit/src/main/java/net/sf/okapi/steps/xliffkit/opc",
+      "name": "okapi",
+      "url": "https://searchcode.com/codesearch/view/401674/",
+      "md5hash": "59505bde48817117712a3f30e0e301d9",
+      "lines": {
+        "62": "\t\ttry {",
+        "29": "import org.apache.poi.openxml4j.opc.PackageRelationship;",
+        "30": "import org.apache.poi.openxml4j.opc.PackageRelationshipCollection;",
+        "63": "\t\t\tPackageRelationshipCollection rels = part.getRelationshipsByType(relationshipType);"
+      },
+      "id": 401674,
+      "filename": "OPCPackageUtil.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 110,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/detect",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785505/",
+      "md5hash": "7527ef2d855a73e56a539cc1c000a1c9",
+      "lines": {
+        "72": "",
+        "73": "                PackageRelationshipCollection core = ",
+        "28": "import org.apache.poi.openxml4j.opc.PackagePart;",
+        "29": "import org.apache.poi.openxml4j.opc.PackageRelationshipCollection;"
+      },
+      "id": 111785505,
+      "filename": "ZipContainerDetector.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 165,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785571/",
+      "md5hash": "e792b324ce485597dfa73d012dd27d56",
+      "lines": {
+        "27": "import org.apache.poi.openxml4j.opc.PackageRelationship;",
+        "28": "import org.apache.poi.openxml4j.opc.PackageRelationshipCollection;",
+        "93": "        for(PackagePart part : mainParts) {",
+        "94": "           PackageRelationshipCollection rels;"
+      },
+      "id": 111785571,
+      "filename": "AbstractOOXMLExtractor.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 5,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

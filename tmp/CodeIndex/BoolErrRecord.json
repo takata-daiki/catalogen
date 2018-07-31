@@ -1,0 +1,133 @@
+{
+  "matchterm": "BoolErrRecord",
+  "previouspage": null,
+  "searchterm": "BoolErrRecord",
+  "query": "BoolErrRecord",
+  "language_filters": [
+    {
+      "count": 5,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 5,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 407,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642458/",
+      "md5hash": "1e5d946f2d083b80a5832b1d60cf576a",
+      "lines": {
+        "288": "        if (id != BoolErrRecord.sid)",
+        "289": "        {",
+        "83": "    public BoolErrRecord(RecordInputStream in)",
+        "70": "",
+        "71": "    /** Creates new BoolErrRecord */",
+        "72": "",
+        "73": "    public BoolErrRecord()",
+        "42": "/*",
+        "43": " * BoolErrRecord.java",
+        "290": "            throw new RecordFormatException(\"Not a valid BoolErrRecord\");",
+        "398": "      BoolErrRecord rec = new BoolErrRecord();",
+        "397": "    public Object clone() {",
+        "82": "",
+        "51": "/**",
+        "52": " * Creates new BoolErrRecord. <P>",
+        "287": "    {"
+      },
+      "id": 15642458,
+      "filename": "BoolErrRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1062,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642303/",
+      "md5hash": "a320b63ccf16b2c1798c3d8c1abc8ed7",
+      "lines": {
+        "800": "        }",
+        "801": "        (( BoolErrRecord ) record).setValue(value);",
+        "450": "            case CELL_TYPE_BOOLEAN :",
+        "451": "                BoolErrRecord boolRec = null;",
+        "454": "                {",
+        "455": "                    boolRec = new BoolErrRecord();",
+        "834": "            return (( BoolErrRecord ) record).getBooleanValue();",
+        "270": "",
+        "271": "            case BoolErrRecord.sid :",
+        "272": "                BoolErrRecord boolErrRecord = ( BoolErrRecord ) record;",
+        "273": "",
+        "274": "                retval = (boolErrRecord.isBoolean())",
+        "821": "        }",
+        "822": "        (( BoolErrRecord ) record).setValue(value);",
+        "833": "        {"
+      },
+      "id": 15642303,
+      "filename": "HSSFCell.java"
+    },
+    {
+      "repo": "https://github.com/xiezhaohui/DataViewer.git",
+      "language": "Java",
+      "linescount": 304,
+      "location": "/ETL/src/com/util",
+      "name": "DataViewer",
+      "url": "https://searchcode.com/codesearch/view/68613461/",
+      "md5hash": "8bd64dddea629578a6d8e6f976c7b348",
+      "lines": {
+        "160": "\t\t\tbreak;",
+        "161": "\t\tcase BoolErrRecord.sid:",
+        "162": "\t\t\tBoolErrRecord berec = (BoolErrRecord) record;",
+        "163": "",
+        "20": "import org.apache.poi.hssf.record.BlankRecord;",
+        "21": "import org.apache.poi.hssf.record.BoolErrRecord;"
+      },
+      "id": 68613461,
+      "filename": "HxlsAbstract.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642343/",
+      "md5hash": "468caa59753e7c2d27a76f3903f70894",
+      "lines": {
+        "180": "                MulRKRecord.class, MulBlankRecord.class, MergeCellsRecord.class,",
+        "181": "                BoolErrRecord.class, ExternSheetRecord.class, NameRecord.class,",
+        "54": "import loci.poi.hssf.record.BookBoolRecord;",
+        "55": "import loci.poi.hssf.record.BoolErrRecord;"
+      },
+      "id": 15642343,
+      "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "90": "                MulRKRecord.class, MulBlankRecord.class, MergeCellsRecord.class,",
+        "91": "                FormulaRecord.class, BoolErrRecord.class, ExternSheetRecord.class,"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 5,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

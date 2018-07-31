@@ -1,0 +1,156 @@
+{
+  "matchterm": "XSSFName",
+  "previouspage": null,
+  "searchterm": "XSSFName",
+  "query": "XSSFName",
+  "language_filters": [
+    {
+      "count": 6,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 6,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 149,
+      "location": "/SpudSoft BIRT Excel Emitters Tests/src/uk/co/spudsoft/birt/emitters/excel/tests",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/122565098/",
+      "md5hash": "b470ed40ec832f3e1749d88e3e9b5838",
+      "lines": {
+        "96": "\t\t\t",
+        "97": "\t\t\tXSSFName name = workbook.getName( XSSFName.BUILTIN_FILTER_DB );",
+        "22": "import org.apache.poi.ss.usermodel.Sheet;",
+        "23": "import org.apache.poi.xssf.usermodel.XSSFName;",
+        "136": "\t\t\t\t\t\t",
+        "137": "\t\t\tXSSFName name = workbook.getName( XSSFName.BUILTIN_FILTER_DB );",
+        "62": "\t\t\t",
+        "63": "\t\t\tXSSFName name = workbook.getName( XSSFName.BUILTIN_FILTER_DB );"
+      },
+      "id": 122565098,
+      "filename": "AutoFilterTest.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 431,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970717/",
+      "md5hash": "7316273b22d01b3aaca97abfed972abf",
+      "lines": {
+        "48": "import org.zkoss.poi.xssf.usermodel.XSSFName;",
+        "319": "    \t\tXSSFName name = getNameAt(j);",
+        "306": "\tpublic CellRangeAddress getRepeatingRowsAndColumns(int sheetNumber) {",
+        "307": "\t\tfinal XSSFName name = getBuiltInName(XSSFName.BUILTIN_PRINT_TITLE, sheetNumber);",
+        "315": "\t}",
+        "316": "    public XSSFName getBuiltInName(String builtInCode, int sheetNumber) {",
+        "318": "    \tfor (int j = 0; j < sz; ++j) {",
+        "47": "import org.zkoss.poi.xssf.usermodel.XSSFFormulaEvaluator;"
+      },
+      "id": 3970717,
+      "filename": "XSSFBookImpl.java"
+    },
+    {
+      "repo": "https://github.com/semantalytics/RightField.git",
+      "language": "Java",
+      "linescount": 291,
+      "location": "/src/main/java/uk/ac/manchester/cs/owl/semspreadsheets/model/xssf/impl",
+      "name": "RightField",
+      "url": "https://searchcode.com/codesearch/view/72854562/",
+      "md5hash": "6097966462091e76b85ae67e547abd0b",
+      "lines": {
+        "16": "import org.apache.poi.xssf.usermodel.XSSFCell;",
+        "17": "import org.apache.poi.xssf.usermodel.XSSFName;",
+        "164": "        }",
+        "165": "        Name xssfName = workbook.createName();",
+        "118": "        for(int i = 0; i < workbook.getNumberOfNames(); i++) {",
+        "119": "            XSSFName name = workbook.getNameAt(i);",
+        "168": "    }",
+        "167": "        xssfName.setRefersToFormula(rng.toFixedAddress());",
+        "166": "        xssfName.setNameName(name);"
+      },
+      "id": 72854562,
+      "filename": "WorkbookXSSFImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 159,
+      "location": "/SpudSoft BIRT Excel Emitters Tests/src/uk/co/spudsoft/birt/emitters/excel/tests",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/64531325/",
+      "md5hash": "653868c52a5e913333459a3a5702deac",
+      "lines": {
+        "32": "import org.apache.poi.xssf.usermodel.XSSFName;",
+        "146": "\t\t\t\t\t\t",
+        "147": "\t\t\tXSSFName name = workbook.getName( XSSFName.BUILTIN_FILTER_DB );",
+        "72": "\t\t\t",
+        "73": "\t\t\tXSSFName name = workbook.getName( XSSFName.BUILTIN_FILTER_DB );",
+        "106": "\t\t\t",
+        "107": "\t\t\tXSSFName name = workbook.getName( XSSFName.BUILTIN_FILTER_DB );",
+        "31": "import org.apache.poi.ss.usermodel.Sheet;"
+      },
+      "id": 64531325,
+      "filename": "AutoFilterTest.java"
+    },
+    {
+      "repo": "https://github.com/semantalytics/RightField.git",
+      "language": "Java",
+      "linescount": 40,
+      "location": "/src/main/java/uk/ac/manchester/cs/owl/semspreadsheets/model/xssf/impl",
+      "name": "RightField",
+      "url": "https://searchcode.com/codesearch/view/72854588/",
+      "md5hash": "75768c57522bf31c2237a3e2bdf34def",
+      "lines": {
+        "19": "",
+        "20": "    private XSSFName name;",
+        "5": "import org.apache.poi.xssf.usermodel.XSSFName;",
+        "22": "    public NamedRangeXSSFImpl(WorkbookXSSFImpl workbook, XSSFName name) {",
+        "4": "import org.apache.poi.ss.util.CellReference;",
+        "21": ""
+      },
+      "id": 72854588,
+      "filename": "NamedRangeXSSFImpl.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1242,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970692/",
+      "md5hash": "7da77111e27cd710cd143cdee57bc0a6",
+      "lines": {
+        "272": "            XSSFName name = wb.getNameAt(i);",
+        "59": "import org.zkoss.poi.xssf.usermodel.XSSFEvaluationWorkbook;",
+        "60": "import org.zkoss.poi.xssf.usermodel.XSSFName;",
+        "271": "        for (int i = 0; i < wb.getNumberOfNames(); i++) {"
+      },
+      "id": 3970692,
+      "filename": "XSSFSheetImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 2,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

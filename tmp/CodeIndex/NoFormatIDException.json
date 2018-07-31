@@ -1,0 +1,65 @@
+{
+  "matchterm": "NoFormatIDException",
+  "previouspage": null,
+  "searchterm": "NoFormatIDException",
+  "query": "NoFormatIDException",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 100,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642692/",
+      "md5hash": "4447aa42dc696b272bf85d9665770957",
+      "lines": {
+        "70": "     */",
+        "71": "    public NoFormatIDException(final String msg)",
+        "82": "    public NoFormatIDException(final Throwable reason)",
+        "81": "     */",
+        "50": " * href=\"mailto:klute@rainer-klute.de\">&lt;klute@rainer-klute.de&gt;</a>",
+        "51": " * @version $Id: NoFormatIDException.java 489730 2006-12-22 19:18:16Z bayard $",
+        "53": " */",
+        "54": "public class NoFormatIDException extends HPSFRuntimeException",
+        "59": "     */",
+        "60": "    public NoFormatIDException()",
+        "93": "     */",
+        "94": "    public NoFormatIDException(final String msg, final Throwable reason)"
+      },
+      "id": 15642692,
+      "filename": "NoFormatIDException.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 331,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642695/",
+      "md5hash": "4da3210542af1db464b9a8750c859f7c",
+      "lines": {
+        "250": "            if (formatID == null)",
+        "251": "                throw new NoFormatIDException();"
+      },
+      "id": 15642695,
+      "filename": "MutablePropertySet.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

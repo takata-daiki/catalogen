@@ -1,0 +1,80 @@
+{
+  "matchterm": "HWPFOldDocument",
+  "previouspage": null,
+  "searchterm": "HWPFOldDocument",
+  "query": "HWPFOldDocument",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 764,
+      "location": "/src/org/apache/poi/hwpf/dev",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384386/",
+      "md5hash": "a5fd3aeec9338ae1535ca742a1539e0e",
+      "lines": {
+        "423": "        if ( _doc instanceof HWPFOldDocument )",
+        "37": "import org.apache.poi.hwpf.HWPFDocumentCore;",
+        "38": "import org.apache.poi.hwpf.HWPFOldDocument;",
+        "422": "    {",
+        "106": "        {",
+        "107": "            return new HWPFOldDocument( poifsFileSystem );",
+        "686": "    {",
+        "687": "        if ( _doc instanceof HWPFOldDocument )",
+        "670": "    {",
+        "671": "        if ( _doc instanceof HWPFOldDocument )"
+      },
+      "id": 97384386,
+      "filename": "HWPFLister.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 529,
+      "location": "/src/org/apache/poi/hwpf/converter",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383984/",
+      "md5hash": "b325d8787324a3ef4914153a604b19e4",
+      "lines": {
+        "484": "        {",
+        "29": "import org.apache.poi.hwpf.HWPFDocumentCore;",
+        "30": "import org.apache.poi.hwpf.HWPFOldDocument;",
+        "485": "            return new HWPFOldDocument( root );"
+      },
+      "id": 97383984,
+      "filename": "AbstractWordUtils.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1043,
+      "location": "/src/org/apache/poi/hwpf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383956/",
+      "md5hash": "677c332698819342ff2ece2baf93a4ed",
+      "lines": {
+        "222": "    if(_fib.getFibBase().getNFib() < 106) {",
+        "223": "        throw new OldWordFileFormatException(\"The document is too old - Word 95 or older. Try HWPFOldDocument instead?\");"
+      },
+      "id": 97383956,
+      "filename": "HWPFDocument.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

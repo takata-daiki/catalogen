@@ -1,0 +1,313 @@
+{
+  "matchterm": "CTGrayscaleTransform",
+  "previouspage": null,
+  "searchterm": "CTGrayscaleTransform",
+  "query": "CTGrayscaleTransform",
+  "language_filters": [
+    {
+      "count": 14,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 14,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 27,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402706/",
+      "md5hash": "3aa959594331c5196febc497f154ca0a",
+      "lines": {
+        "16": "public interface CTGrayscaleTransform extends org.apache.xmlbeans.XmlObject",
+        "19": "        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CTGrayscaleTransform.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sE130CAA0A01A7CDE5A2B4FEB8B311707\").resolveHandle(\"ctgrayscaletransform3700type\");",
+        "18": "    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform",
+        "15": " */"
+      },
+      "id": 97402706,
+      "filename": "CTGrayscaleTransform.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 3480,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642161/",
+      "md5hash": "ecaf98912e449049698e790afd5f5c5a",
+      "lines": {
+        "1089": "    /**",
+        "1090": "     * Create an instance of {@link CTGrayscaleTransform }",
+        "2211": "     * Create an instance of {@link JAXBElement }{@code <}{@link CTGrayscaleTransform }{@code >}}",
+        "1092": "     */",
+        "1093": "    public CTGrayscaleTransform createCTGrayscaleTransform() {",
+        "1094": "        return new CTGrayscaleTransform();",
+        "1095": "    }",
+        "2216": "        return new JAXBElement<CTGrayscaleTransform>(_CTSchemeColorGray_QNAME, CTGrayscaleTransform.class, CTSchemeColor.class, value);",
+        "2217": "    }",
+        "2215": "    public JAXBElement<CTGrayscaleTransform> createCTSchemeColorGray(CTGrayscaleTransform value) {",
+        "2210": "    /**",
+        "2214": "    @XmlElementDecl(namespace = \"http://schemas.openxmlformats.org/drawingml/2006/main\", name = \"gray\", scope = CTSchemeColor.class)"
+      },
+      "id": 17642161,
+      "filename": "ObjectFactory.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1404,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402117/",
+      "md5hash": "eac93e4519741722a8166b013f9837e4",
+      "lines": {
+        "228": "     */",
+        "229": "    void setGrayArray(org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform[] grayArray);",
+        "233": "     */",
+        "234": "    void setGrayArray(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform gray);",
+        "239": "    org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform insertNewGray(int i);",
+        "238": "     */",
+        "207": "     */",
+        "208": "    java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform> getGrayList();",
+        "243": "     */",
+        "244": "    org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform addNewGray();",
+        "213": "     */",
+        "214": "    org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform[] getGrayArray();",
+        "218": "     */",
+        "219": "    org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform getGrayArray(int i);"
+      },
+      "id": 97402117,
+      "filename": "CTSRgbColor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1345,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402198/",
+      "md5hash": "3907cd7d3430e46368388d574288cfe8",
+      "lines": {
+        "228": "     */",
+        "229": "    void setGrayArray(org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform[] grayArray);",
+        "233": "     */",
+        "234": "    void setGrayArray(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform gray);",
+        "239": "    org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform insertNewGray(int i);",
+        "238": "     */",
+        "207": "     */",
+        "208": "    java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform> getGrayList();",
+        "243": "     */",
+        "244": "    org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform addNewGray();",
+        "213": "     */",
+        "214": "    org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform[] getGrayArray();",
+        "218": "     */",
+        "219": "    org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform getGrayArray(int i);"
+      },
+      "id": 97402198,
+      "filename": "CTPresetColor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1375,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402298/",
+      "md5hash": "489021c5c89506cdfb4601f2a54f5f0d",
+      "lines": {
+        "228": "     */",
+        "229": "    void setGrayArray(org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform[] grayArray);",
+        "233": "     */",
+        "234": "    void setGrayArray(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform gray);",
+        "239": "    org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform insertNewGray(int i);",
+        "238": "     */",
+        "207": "     */",
+        "208": "    java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform> getGrayList();",
+        "243": "     */",
+        "244": "    org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform addNewGray();",
+        "213": "     */",
+        "214": "    org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform[] getGrayArray();",
+        "218": "     */",
+        "219": "    org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform getGrayArray(int i);"
+      },
+      "id": 97402298,
+      "filename": "CTHslColor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1444,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402422/",
+      "md5hash": "07a13830019636560f8d82872b3ad85c",
+      "lines": {
+        "228": "     */",
+        "229": "    void setGrayArray(org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform[] grayArray);",
+        "233": "     */",
+        "234": "    void setGrayArray(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform gray);",
+        "239": "    org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform insertNewGray(int i);",
+        "238": "     */",
+        "207": "     */",
+        "208": "    java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform> getGrayList();",
+        "243": "     */",
+        "244": "    org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform addNewGray();",
+        "213": "     */",
+        "214": "    org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform[] getGrayArray();",
+        "218": "     */",
+        "219": "    org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform getGrayArray(int i);"
+      },
+      "id": 97402422,
+      "filename": "CTScRgbColor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1335,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402860/",
+      "md5hash": "a6e24df35d4e66341d4bca693f0ee0ea",
+      "lines": {
+        "228": "     */",
+        "229": "    void setGrayArray(org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform[] grayArray);",
+        "233": "     */",
+        "234": "    void setGrayArray(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform gray);",
+        "239": "    org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform insertNewGray(int i);",
+        "238": "     */",
+        "207": "     */",
+        "208": "    java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform> getGrayList();",
+        "243": "     */",
+        "244": "    org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform addNewGray();",
+        "213": "     */",
+        "214": "    org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform[] getGrayArray();",
+        "218": "     */",
+        "219": "    org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform getGrayArray(int i);"
+      },
+      "id": 97402860,
+      "filename": "CTSchemeColor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 24,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403635/",
+      "md5hash": "837a1b081ebd15c496e8ae70a909f9d5",
+      "lines": {
+        "16": "    ",
+        "17": "    public CTGrayscaleTransformImpl(org.apache.xmlbeans.SchemaType sType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform",
+        "13": " */",
+        "14": "public class CTGrayscaleTransformImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.openxmlformats.schemas.drawingml.x2006.main.CTGrayscaleTransform"
+      },
+      "id": 97403635,
+      "filename": "CTGrayscaleTransformImpl.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 176,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642025/",
+      "md5hash": "8f032efa515dc031c27fc48fd4c45223",
+      "lines": {
+        "136": "     * {@link JAXBElement }{@code <}{@link CTInverseTransform }{@code >}",
+        "137": "     * {@link JAXBElement }{@code <}{@link CTGrayscaleTransform }{@code >}"
+      },
+      "id": 17642025,
+      "filename": "CTPresetColor.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 176,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642030/",
+      "md5hash": "356b78f9d9fbf4490ab501da44c18966",
+      "lines": {
+        "125": "     * {@link JAXBElement }{@code <}{@link CTPositiveFixedPercentage }{@code >}",
+        "126": "     * {@link JAXBElement }{@code <}{@link CTGrayscaleTransform }{@code >}"
+      },
+      "id": 17642030,
+      "filename": "CTSchemeColor.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 206,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642037/",
+      "md5hash": "0471bccb52cc865af8c91912d741dce0",
+      "lines": {
+        "123": "     * {@link JAXBElement }{@code <}{@link CTPositiveFixedPercentage }{@code >}",
+        "124": "     * {@link JAXBElement }{@code <}{@link CTGrayscaleTransform }{@code >}"
+      },
+      "id": 17642037,
+      "filename": "CTHslColor.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 179,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642153/",
+      "md5hash": "1e2f5f7c2e8f4ec5d3a6cfbd964715a3",
+      "lines": {
+        "124": "     * {@link JAXBElement }{@code <}{@link CTPercentage }{@code >}",
+        "125": "     * {@link JAXBElement }{@code <}{@link CTGrayscaleTransform }{@code >}"
+      },
+      "id": 17642153,
+      "filename": "CTSRgbColor.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 206,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642208/",
+      "md5hash": "a826f1eda31c73100541b9307de93013",
+      "lines": {
+        "142": "     * {@link JAXBElement }{@code <}{@link CTPercentage }{@code >}",
+        "143": "     * {@link JAXBElement }{@code <}{@link CTGrayscaleTransform }{@code >}"
+      },
+      "id": 17642208,
+      "filename": "CTScRgbColor.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 208,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642227/",
+      "md5hash": "fedb5cc55ad7a483c2859d6ac7b5f0f4",
+      "lines": {
+        "133": "     * {@link JAXBElement }{@code <}{@link CTPercentage }{@code >}",
+        "134": "     * {@link JAXBElement }{@code <}{@link CTGrayscaleTransform }{@code >}"
+      },
+      "id": 17642227,
+      "filename": "CTSystemColor.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 14,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

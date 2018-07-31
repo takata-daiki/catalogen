@@ -1,0 +1,350 @@
+{
+  "matchterm": "StopVisiting",
+  "previouspage": null,
+  "searchterm": "StopVisiting",
+  "query": "StopVisiting",
+  "language_filters": [
+    {
+      "count": 28,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 28,
+  "results": [
+    {
+      "repo": "git://github.com/gradle/gradle.git",
+      "language": "Java",
+      "linescount": 376,
+      "location": "/subprojects/core/src/test/groovy/org/gradle/api/internal/file/collections",
+      "name": "gradle",
+      "url": "https://searchcode.com/codesearch/view/3034823/",
+      "md5hash": "266f8bd7f50358c60781599149d6afde",
+      "lines": {
+        "208": "            one(visitor).visitFile(with(file(rootFile1)));",
+        "209": "            will(stopVisiting());",
+        "269": "    private Action stopVisiting() {",
+        "277": "                details.stopVisiting();",
+        "276": "                FileVisitDetails details = (FileVisitDetails) invocation.getParameter(0);",
+        "268": "",
+        "224": "            will(stopVisiting());",
+        "223": "            one(visitor).visitFile(with(file(dirFile1)));"
+      },
+      "id": 3034823,
+      "filename": "DirectoryFileTreeTest.java"
+    },
+    {
+      "repo": "https://bitbucket.org/higginsci/higgins.git",
+      "language": "Java",
+      "linescount": 433,
+      "location": "/core/src/main/java/hudson/util",
+      "name": "higgins",
+      "url": "https://searchcode.com/codesearch/view/52625324/",
+      "md5hash": "8f945cedfdccef5e9a93a28e8b3ec7db",
+      "lines": {
+        "104": "            oc.stopVisiting();",
+        "132": "        }",
+        "133": "        private void stopVisiting() {",
+        "103": "        } finally {"
+      },
+      "id": 52625324,
+      "filename": "RobustReflectionConverter.java"
+    },
+    {
+      "repo": "https://github.com/darkchocobo12/gradle.git",
+      "language": "Java",
+      "linescount": 213,
+      "location": "/subprojects/core/src/main/groovy/org/gradle/api/internal/file/copy",
+      "name": "gradle",
+      "url": "https://searchcode.com/codesearch/view/93449328/",
+      "md5hash": "89aa66e776650d365b46af336369833d",
+      "lines": {
+        "56": "    }",
+        "53": "",
+        "54": "    public void stopVisiting() {",
+        "55": "        fileDetails.stopVisiting();"
+      },
+      "id": 93449328,
+      "filename": "DefaultFileCopyDetails.java"
+    },
+    {
+      "repo": "git://github.com/jenkinsci/jenkins.git",
+      "language": "Java",
+      "linescount": 493,
+      "location": "/core/src/main/java/hudson/util",
+      "name": "jenkins",
+      "url": "https://searchcode.com/codesearch/view/1814131/",
+      "md5hash": "5677ad9a52aee35c0bd742cb555130ad",
+      "lines": {
+        "152": "            oc.stopVisiting();",
+        "180": "        }",
+        "181": "        private void stopVisiting() {",
+        "151": "        } finally {"
+      },
+      "id": 1814131,
+      "filename": "RobustReflectionConverter.java"
+    },
+    {
+      "repo": "git://github.com/gradle/gradle.git",
+      "language": "Java",
+      "linescount": 230,
+      "location": "/subprojects/core/src/main/groovy/org/gradle/api/internal/file/copy",
+      "name": "gradle",
+      "url": "https://searchcode.com/codesearch/view/3035457/",
+      "md5hash": "5ca3c2b367ef452efb188945852c4344",
+      "lines": {
+        "80": "            fileDetails.stopVisiting();",
+        "81": "        }",
+        "78": "",
+        "79": "        public void stopVisiting() {"
+      },
+      "id": 3035457,
+      "filename": "MappingCopySpecVisitor.java"
+    },
+    {
+      "repo": "https://github.com/fpape/gradle.git",
+      "language": "Java",
+      "linescount": 223,
+      "location": "/subprojects/core/src/main/groovy/org/gradle/api/internal/file/copy",
+      "name": "gradle",
+      "url": "https://searchcode.com/codesearch/view/111284899/",
+      "md5hash": "9ac0869b415e8279c91c2f4ff0ad05bc",
+      "lines": {
+        "56": "    }",
+        "53": "",
+        "54": "    public void stopVisiting() {",
+        "55": "        fileDetails.stopVisiting();"
+      },
+      "id": 111284899,
+      "filename": "DefaultFileCopyDetails.java"
+    },
+    {
+      "repo": "https://github.com/tonit/gradle.git",
+      "language": "Java",
+      "linescount": 187,
+      "location": "/subprojects/core/src/main/groovy/org/gradle/api/internal/file/copy",
+      "name": "gradle",
+      "url": "https://searchcode.com/codesearch/view/114513747/",
+      "md5hash": "e989f4ea9ed1b200cda03bb9ef5b2c67",
+      "lines": {
+        "68": "",
+        "69": "        public void stopVisiting() {",
+        "70": "            fileDetails.stopVisiting();",
+        "71": "        }"
+      },
+      "id": 114513747,
+      "filename": "MappingCopySpecVisitor.java"
+    },
+    {
+      "repo": "git://github.com/gradle/gradle.git",
+      "language": "Java",
+      "linescount": 230,
+      "location": "/subprojects/core/src/main/java/org/gradle/api/internal/file/copy",
+      "name": "gradle",
+      "url": "https://searchcode.com/codesearch/view/116027944/",
+      "md5hash": "9cca2c4ad577b15792fc3c73d5f2bd14",
+      "lines": {
+        "56": "    public void stopVisiting() {",
+        "57": "        fileDetails.stopVisiting();",
+        "58": "    }",
+        "55": ""
+      },
+      "id": 116027944,
+      "filename": "DefaultFileCopyDetails.java"
+    },
+    {
+      "repo": "https://github.com/darkchocobo12/gradle.git",
+      "language": "Java",
+      "linescount": 38,
+      "location": "/subprojects/core/src/main/groovy/org/gradle/api/internal/file",
+      "name": "gradle",
+      "url": "https://searchcode.com/codesearch/view/93448932/",
+      "md5hash": "16c61cc39f68db66c2ca8a05987bf560",
+      "lines": {
+        "33": "",
+        "34": "    public void stopVisiting() {"
+      },
+      "id": 93448932,
+      "filename": "DefaultFileVisitDetails.java"
+    },
+    {
+      "repo": "https://github.com/darkchocobo12/gradle.git",
+      "language": "Java",
+      "linescount": 168,
+      "location": "/subprojects/core/src/main/groovy/org/gradle/api/internal/file/archive",
+      "name": "gradle",
+      "url": "https://searchcode.com/codesearch/view/93449017/",
+      "md5hash": "28e2e8b6ffa2622f4637fb8476ca8d35",
+      "lines": {
+        "117": "",
+        "118": "        public void stopVisiting() {"
+      },
+      "id": 93449017,
+      "filename": "ZipFileTree.java"
+    },
+    {
+      "repo": "https://github.com/darkchocobo12/gradle.git",
+      "language": "Java",
+      "linescount": 172,
+      "location": "/subprojects/core/src/main/groovy/org/gradle/api/internal/file/archive",
+      "name": "gradle",
+      "url": "https://searchcode.com/codesearch/view/93449022/",
+      "md5hash": "10f2623a1fe9f691e9c771f01cd079c4",
+      "lines": {
+        "113": "",
+        "114": "        public void stopVisiting() {"
+      },
+      "id": 93449022,
+      "filename": "TarFileTree.java"
+    },
+    {
+      "repo": "https://github.com/bloodmc/ForgeGradle.git",
+      "language": "Java",
+      "linescount": 180,
+      "location": "/src/main/java/net/minecraftforge/gradle",
+      "name": "ForgeGradle",
+      "url": "https://searchcode.com/codesearch/view/93674977/",
+      "md5hash": "e5c369c080d7ba8174e79eb23ed0e9b8",
+      "lines": {
+        "128": "        public void stopVisiting()",
+        "127": ""
+      },
+      "id": 93674977,
+      "filename": "ZipFileTree.java"
+    },
+    {
+      "repo": "git://github.com/gradle/gradle.git",
+      "language": "Java",
+      "linescount": 154,
+      "location": "/subprojects/core/src/main/groovy/org/gradle/api/internal/file",
+      "name": "gradle",
+      "url": "https://searchcode.com/codesearch/view/3035403/",
+      "md5hash": "0561ab02012355a3c29f5cb401a60b7a",
+      "lines": {
+        "50": "                found.set(true);",
+        "51": "                fileDetails.stopVisiting();"
+      },
+      "id": 3035403,
+      "filename": "AbstractFileTree.java"
+    },
+    {
+      "repo": "git://github.com/gradle/gradle.git",
+      "language": "Java",
+      "linescount": 177,
+      "location": "/subprojects/core/src/main/groovy/org/gradle/api/internal/file/archive",
+      "name": "gradle",
+      "url": "https://searchcode.com/codesearch/view/3035418/",
+      "md5hash": "08ab711ed90862438a10aebc707fc83b",
+      "lines": {
+        "118": "",
+        "119": "        public void stopVisiting() {"
+      },
+      "id": 3035418,
+      "filename": "TarFileTree.java"
+    },
+    {
+      "repo": "git://github.com/gradle/gradle.git",
+      "language": "Java",
+      "linescount": 168,
+      "location": "/subprojects/core/src/main/groovy/org/gradle/api/internal/file/archive",
+      "name": "gradle",
+      "url": "https://searchcode.com/codesearch/view/3035419/",
+      "md5hash": "3c693d5cc37b5de2515667d946fd41ad",
+      "lines": {
+        "117": "",
+        "118": "        public void stopVisiting() {"
+      },
+      "id": 3035419,
+      "filename": "ZipFileTree.java"
+    },
+    {
+      "repo": "git://github.com/gradle/gradle.git",
+      "language": "Java",
+      "linescount": 53,
+      "location": "/subprojects/core/src/main/groovy/org/gradle/api/internal/file/collections",
+      "name": "gradle",
+      "url": "https://searchcode.com/codesearch/view/3035429/",
+      "md5hash": "aef8749fcd030d03dc6b8e582a94149f",
+      "lines": {
+        "48": "        public void stopVisiting() {",
+        "47": ""
+      },
+      "id": 3035429,
+      "filename": "SingletonFileTree.java"
+    },
+    {
+      "repo": "git://github.com/gradle/gradle.git",
+      "language": "Java",
+      "linescount": 163,
+      "location": "/subprojects/core/src/main/groovy/org/gradle/api/internal/file/collections",
+      "name": "gradle",
+      "url": "https://searchcode.com/codesearch/view/3035444/",
+      "md5hash": "23695a83c29ea07f210afa9efb312eaa",
+      "lines": {
+        "125": "",
+        "126": "        public void stopVisiting() {"
+      },
+      "id": 3035444,
+      "filename": "MapFileTree.java"
+    },
+    {
+      "repo": "git://github.com/gradle/gradle.git",
+      "language": "Java",
+      "linescount": 30,
+      "location": "/subprojects/core/src/main/groovy/org/gradle/api/file",
+      "name": "gradle",
+      "url": "https://searchcode.com/codesearch/view/3035631/",
+      "md5hash": "5e3d0113f6cf929607299d5d8a4416ec",
+      "lines": {
+        "27": "     */",
+        "28": "    void stopVisiting();"
+      },
+      "id": 3035631,
+      "filename": "FileVisitDetails.java"
+    },
+    {
+      "repo": "https://github.com/fpape/gradle.git",
+      "language": "Java",
+      "linescount": 172,
+      "location": "/subprojects/core/src/main/groovy/org/gradle/api/internal/file/archive",
+      "name": "gradle",
+      "url": "https://searchcode.com/codesearch/view/111284589/",
+      "md5hash": "2845b9743f30f58f6269204a64d7c67e",
+      "lines": {
+        "113": "",
+        "114": "        public void stopVisiting() {"
+      },
+      "id": 111284589,
+      "filename": "TarFileTree.java"
+    },
+    {
+      "repo": "https://github.com/fpape/gradle.git",
+      "language": "Java",
+      "linescount": 174,
+      "location": "/subprojects/core/src/main/groovy/org/gradle/api/internal/file/collections",
+      "name": "gradle",
+      "url": "https://searchcode.com/codesearch/view/111284647/",
+      "md5hash": "0d4053f7d24b8733486ef6dcb15e0a6d",
+      "lines": {
+        "136": "",
+        "137": "        public void stopVisiting() {"
+      },
+      "id": 111284647,
+      "filename": "MapFileTree.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 27,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

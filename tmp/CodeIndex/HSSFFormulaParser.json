@@ -1,0 +1,66 @@
+{
+  "matchterm": "HSSFFormulaParser",
+  "previouspage": null,
+  "searchterm": "HSSFFormulaParser",
+  "query": "HSSFFormulaParser",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/xiezhaohui/DataViewer.git",
+      "language": "Java",
+      "linescount": 304,
+      "location": "/ETL/src/com/util",
+      "name": "DataViewer",
+      "url": "https://searchcode.com/codesearch/view/68613461/",
+      "md5hash": "8bd64dddea629578a6d8e6f976c7b348",
+      "lines": {
+        "17": "import org.apache.poi.hssf.eventusermodel.dummyrecord.MissingCellDummyRecord;",
+        "18": "import org.apache.poi.hssf.model.HSSFFormulaParser;",
+        "186": "\t\t\t\tthisStr = '\"' + HSSFFormulaParser.toFormulaString(stubWorkbook,",
+        "185": "\t\t\t} else {"
+      },
+      "id": 68613461,
+      "filename": "HxlsAbstract.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1319,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970708/",
+      "md5hash": "e52c956c400b399e06a805984e2f85f6",
+      "lines": {
+        "1176": "\t\t\tString formula2 = formulaPtgs2 != null && formulaPtgs2.length > 0 ? HSSFFormulaParser.toFormulaString(_workbook, formulaPtgs2) : null; ",
+        "1173": "\t\t\tfinal Ptg[] formulaPtgs2 = dvRecord.getFormula2();",
+        "1174": "\t\t\tString formula1 = HSSFFormulaParser.toFormulaString(_workbook, formulaPtgs1);",
+        "1175": "\t\t\t//bug #64: pasteSpecial copy Validation cause Null pointer exception (Ptgs must not be null)   \t",
+        "24": "import org.zkoss.lang.Library;",
+        "25": "import org.zkoss.poi.hssf.model.HSSFFormulaParser;"
+      },
+      "id": 3970708,
+      "filename": "HSSFSheetImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "matchterm": "SystemOutLogger",
+  "previouspage": null,
+  "searchterm": "SystemOutLogger",
+  "query": "SystemOutLogger",
+  "language_filters": [
+    {
+      "count": 12,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 12,
+  "results": [
+    {
+      "repo": "https://github.com/gosu-lang/old-gosu-repo.git",
+      "language": "Java",
+      "linescount": 126,
+      "location": "/gosu-core-api/src/main/java/gw/util",
+      "name": "old-gosu-repo",
+      "url": "https://searchcode.com/codesearch/view/112834570/",
+      "md5hash": "dd80219772d4df080a30879248c81518",
+      "lines": {
+        "24": "  public SystemOutLogger(LoggingLevel level) {",
+        "34": "    return \"SystemOutLogger\";",
+        "20": "",
+        "5": "",
+        "6": "import static gw.util.SystemOutLogger.LoggingLevel.*;",
+        "23": "",
+        "8": "",
+        "9": "public class SystemOutLogger implements ILogger {",
+        "33": "  {",
+        "21": "  public SystemOutLogger() {"
+      },
+      "id": 112834570,
+      "filename": "SystemOutLogger.java"
+    },
+    {
+      "repo": "http://anysuites.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 41,
+      "location": "/radeox-anys/src/java/org/radeox/util/logging",
+      "name": "anysuites",
+      "url": "https://searchcode.com/codesearch/view/13801074/",
+      "md5hash": "5b94a1964b58243f244c7350f7f65161",
+      "lines": {
+        "26": " * @author stephan",
+        "27": " * @version $Id: SystemOutLogger.java 11 2008-03-02 05:47:42Z iamkeke $",
+        "29": "",
+        "30": "public class SystemOutLogger implements LogHandler {"
+      },
+      "id": 13801074,
+      "filename": "SystemOutLogger.java"
+    },
+    {
+      "repo": "https://github.com/Innuendo80/droolsjbpm-integration.git",
+      "language": "Java",
+      "linescount": 28,
+      "location": "/jbpm-simulation/src/main/java/org/jbpm/simulation/impl",
+      "name": "droolsjbpm-integration",
+      "url": "https://searchcode.com/codesearch/view/101371461/",
+      "md5hash": "12f0045904a3dd93034130d53353751a",
+      "lines": {
+        "2": "",
+        "3": "public class SystemOutLogger {",
+        "6": "    ",
+        "7": "    public SystemOutLogger() {"
+      },
+      "id": 101371461,
+      "filename": "SystemOutLogger.java"
+    },
+    {
+      "repo": "https://bitbucket.org/fudan/sakai",
+      "language": "Java",
+      "linescount": 48,
+      "location": "/rwiki/rwiki-util/radeox/src/java/org/radeox/util/logging",
+      "name": "sakai",
+      "url": "https://searchcode.com/codesearch/view/129868516/",
+      "md5hash": "e96a639ffa7ae81cf9558c80e77cb705",
+      "lines": {
+        "33": "",
+        "34": "public class SystemOutLogger implements LogHandler",
+        "29": " * @author stephan",
+        "30": " * @version $Id: SystemOutLogger.java 7707 2006-04-12 17:30:19Z"
+      },
+      "id": 129868516,
+      "filename": "SystemOutLogger.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 106,
+      "location": "/components/forks/poi/src/loci/poi/util",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642639/",
+      "md5hash": "a5721c12b95d77a21d840907e18f8dd6",
+      "lines": {
+        "56": "public class SystemOutLogger extends POILogger",
+        "55": " */"
+      },
+      "id": 15642639,
+      "filename": "SystemOutLogger.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 98,
+      "location": "/src/org/apache/poi/util",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383594/",
+      "md5hash": "7199d48725fadcfae7893cf7af795d94",
+      "lines": {
+        "32": "public class SystemOutLogger extends POILogger",
+        "31": " */"
+      },
+      "id": 97383594,
+      "filename": "SystemOutLogger.java"
+    },
+    {
+      "repo": "https://github.com/gosu-lang/old-gosu-repo.git",
+      "language": "Java",
+      "linescount": 1755,
+      "location": "/gosu-core-api/src/main/java/gw/lang/parser",
+      "name": "old-gosu-repo",
+      "url": "https://searchcode.com/codesearch/view/112833664/",
+      "md5hash": "aa875e4b5722724816a9acee392c6294",
+      "lines": {
+        "115": "                                   }",
+        "116": "                                 } )/*.logEveryNSeconds( 10, new SystemOutLogger( SystemOutLogger.LoggingLevel.INFO ) )*/;"
+      },
+      "id": 112833664,
+      "filename": "StandardCoercionManager.java"
+    },
+    {
+      "repo": "https://github.com/Innuendo80/droolsjbpm-integration.git",
+      "language": "Java",
+      "linescount": 115,
+      "location": "/jbpm-simulation/src/main/java/org/jbpm/simulation/impl",
+      "name": "droolsjbpm-integration",
+      "url": "https://searchcode.com/codesearch/view/101371437/",
+      "md5hash": "8d86c461449a6840fcac1b0b605ba1de",
+      "lines": {
+        "48": "            // register global for aggregated events",
+        "49": "            ksession.setGlobal(\"logger\", new SystemOutLogger());",
+        "74": "        try {",
+        "75": "            ksession.setGlobal(\"logger\", new SystemOutLogger());"
+      },
+      "id": 101371437,
+      "filename": "WorkingMemorySimulationRepository.java"
+    },
+    {
+      "repo": "http://anysuites.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 97,
+      "location": "/radeox-anys/src/java/org/radeox/util/logging",
+      "name": "anysuites",
+      "url": "https://searchcode.com/codesearch/view/13801077/",
+      "md5hash": "af8137c1903a9c1b4bf61236c3cd7728",
+      "lines": {
+        "27": " *  Logger for logging events. Logger uses al LoggerImplementation for",
+        "28": " *  logging concrete logging, e.g. SystemOutLogger"
+      },
+      "id": 13801077,
+      "filename": "Logger.java"
+    },
+    {
+      "repo": "https://github.com/isdom/POI-Android.git",
+      "language": "Java",
+      "linescount": 127,
+      "location": "/ppt/scratchpad/testcases/org/apache/poi/hdgf/extractor",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/88636800/",
+      "md5hash": "e6b18c254bff1274b7d54ad255069559",
+      "lines": {
+        "118": "        // YK: stdout can contain lots of other stuff if logging is sent to console",
+        "119": "        // ( -Dorg.apache.poi.util.POILogger=org.apache.poi.util.SystemOutLogger)"
+      },
+      "id": 88636800,
+      "filename": "TestVisioExtractor.java"
+    },
+    {
+      "repo": "https://bitbucket.org/fudan/sakai",
+      "language": "Java",
+      "linescount": 121,
+      "location": "/rwiki/rwiki-util/radeox/src/java/org/radeox/util/logging",
+      "name": "sakai",
+      "url": "https://searchcode.com/codesearch/view/129868514/",
+      "md5hash": "7943a6d7a4d463e512cf5d03fcd8a085",
+      "lines": {
+        "32": " * concrete logging, e.g. SystemOutLogger",
+        "31": " * Logger for logging events. Logger uses al LoggerImplementation for logging"
+      },
+      "id": 129868514,
+      "filename": "Logger.java"
+    },
+    {
+      "repo": "https://bitbucket.org/lunarzest/badugi.git",
+      "language": "Java",
+      "linescount": 199,
+      "location": "/src/main/java/org/nhncorp/badugi",
+      "name": "badugi",
+      "url": "https://searchcode.com/codesearch/view/49408490/",
+      "md5hash": "9daf978930c419602c32cc8e0eb402bc",
+      "lines": {
+        "5": "",
+        "6": "import org.apache.poi.util.SystemOutLogger;"
+      },
+      "id": 49408490,
+      "filename": "Game.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 3,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 2,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

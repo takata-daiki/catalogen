@@ -1,0 +1,117 @@
+{
+  "matchterm": "NoSingleSectionException",
+  "previouspage": null,
+  "searchterm": "NoSingleSectionException",
+  "query": "NoSingleSectionException",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 103,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642689/",
+      "md5hash": "4b424db2a991f0c0820cdd7e2cdc376a",
+      "lines": {
+        "96": "     */",
+        "97": "    public NoSingleSectionException(final String msg, final Throwable reason)",
+        "73": "     */",
+        "74": "    public NoSingleSectionException(final String msg)",
+        "84": "     */",
+        "85": "    public NoSingleSectionException(final Throwable reason)",
+        "54": " * @version $Id: NoSingleSectionException.java 489730 2006-12-22 19:18:16Z bayard $",
+        "56": " */",
+        "57": "public class NoSingleSectionException extends HPSFRuntimeException",
+        "63": "    public NoSingleSectionException()",
+        "62": "     */",
+        "53": " * href=\"mailto:klute@rainer-klute.de\">&lt;klute@rainer-klute.de&gt;</a>"
+      },
+      "id": 15642689,
+      "filename": "NoSingleSectionException.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 722,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642677/",
+      "md5hash": "c696e553c12e15e63de30c0e97a23a85",
+      "lines": {
+        "640": "            throw new NoSingleSectionException",
+        "545": "     */",
+        "546": "    protected Object getProperty(final int id) throws NoSingleSectionException",
+        "582": "     * @return The propertyIntValue value",
+        "583": "     * @throws NoSingleSectionException if the {@link PropertySet} has",
+        "523": "     * {@link PropertySet}.",
+        "524": "     * @throws NoSingleSectionException if the {@link PropertySet} has",
+        "527": "    public Property[] getProperties()",
+        "528": "        throws NoSingleSectionException",
+        "562": "     * @return The property value",
+        "563": "     * @throws NoSingleSectionException if the {@link PropertySet} has",
+        "566": "    protected boolean getPropertyBooleanValue(final int id)",
+        "567": "        throws NoSingleSectionException",
+        "639": "        if (sectionCount != 1)",
+        "542": "     * @return The property value",
+        "543": "     * @throws NoSingleSectionException if the {@link PropertySet} has"
+      },
+      "id": 15642677,
+      "filename": "PropertySet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 379,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642701/",
+      "md5hash": "91d5f9cee878844b93d18d7f09b6d7b4",
+      "lines": {
+        "322": "     */",
+        "323": "    protected Object getProperty(final int id) throws NoSingleSectionException",
+        "372": "     */",
+        "373": "    public boolean wasNull() throws NoSingleSectionException",
+        "342": "     */",
+        "343": "    protected int getPropertyIntValue(final int id) throws NoSingleSectionException",
+        "312": "     */",
+        "313": "    public Property[] getProperties() throws NoSingleSectionException",
+        "332": "     */",
+        "333": "    protected boolean getPropertyBooleanValue(final int id) throws NoSingleSectionException"
+      },
+      "id": 15642701,
+      "filename": "SpecialPropertySet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 101,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642673/",
+      "md5hash": "5fda4edf8c72ca35fca224e56362bdf8",
+      "lines": {
+        "51": " * href=\"mailto:klute@rainer-klute.de\">&lt;klute@rainer-klute.de&gt;</a>",
+        "52": " * @version $Id: NoSingleSectionException.java 353545 2004-04-09 13:05:39Z glens $"
+      },
+      "id": 15642673,
+      "filename": "MissingSectionException.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "matchterm": "EOFRecord",
+  "previouspage": null,
+  "searchterm": "EOFRecord",
+  "query": "EOFRecord",
+  "language_filters": [
+    {
+      "count": 20,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 20,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 120,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642513/",
+      "md5hash": "31520cdf6821453e68abc9fb7b93969c",
+      "lines": {
+        "115": "    public Object clone() {",
+        "66": "    /**",
+        "67": "     * Constructs a EOFRecord record and sets its fields appropriately.",
+        "116": "      EOFRecord rec = new EOFRecord();",
+        "70": "",
+        "71": "    public EOFRecord(RecordInputStream in)",
+        "56": "",
+        "57": "public class EOFRecord",
+        "61": "",
+        "62": "    public EOFRecord()"
+      },
+      "id": 15642513,
+      "filename": "EOFRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 49,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260352/",
+      "md5hash": "44c086643b05b2ca6e096b4b3bd130df",
+      "lines": {
+        "32": "   */",
+        "33": "  public EOFRecord()",
+        "27": " */",
+        "28": "class EOFRecord extends WritableRecordData"
+      },
+      "id": 43260352,
+      "filename": "EOFRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 49,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200880/",
+      "md5hash": "44c086643b05b2ca6e096b4b3bd130df",
+      "lines": {
+        "32": "   */",
+        "33": "  public EOFRecord()",
+        "27": " */",
+        "28": "class EOFRecord extends WritableRecordData"
+      },
+      "id": 49200880,
+      "filename": "EOFRecord.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 49,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/write/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374624/",
+      "md5hash": "37d4adca3ca71375c2e34f3fb8565cf7",
+      "lines": {
+        "32": "   */",
+        "33": "  public EOFRecord()",
+        "27": " */",
+        "28": "class EOFRecord extends WritableRecordData"
+      },
+      "id": 11374624,
+      "filename": "EOFRecord.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 595,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785559/",
+      "md5hash": "6b55090236799f49ee0f5bd7d54bbbac",
+      "lines": {
+        "256": "                hssfRequest.addListener(formatListener, BOFRecord.sid);",
+        "257": "                hssfRequest.addListener(formatListener, EOFRecord.sid);",
+        "345": "",
+        "328": "                } else if (bof.getType() == BOFRecord.TYPE_CHART) {",
+        "329": "                    if(previousSid == EOFRecord.sid) {",
+        "346": "            case EOFRecord.sid: // end of workbook, worksheet etc. records",
+        "45": "import org.apache.poi.hssf.record.DrawingGroupRecord;",
+        "46": "import org.apache.poi.hssf.record.EOFRecord;"
+      },
+      "id": 111785559,
+      "filename": "ExcelExtractor.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 3300,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642365/",
+      "md5hash": "1e8d548d196dc1063c30d9430b35b9f5",
+      "lines": {
+        "1760": "    \t\tint loc = findFirstRecordLocBySid(EOFRecord.sid);",
+        "2144": "     * @return record containing a EOFRecord",
+        "2148": "    {",
+        "2149": "        return new EOFRecord();",
+        "2597": "    \t\tint loc = findFirstRecordLocBySid(EOFRecord.sid);",
+        "174": "            }",
+        "175": "            else if (rec.getSid() == EOFRecord.sid)",
+        "2582": "    \t\t//Insert the newlycreated protect record at the end of the record (just before the EOF)",
+        "2583": "    \t\tint loc = findFirstRecordLocBySid(EOFRecord.sid);",
+        "2596": "    \t\t//Insert the newly created password record at the end of the record (just before the EOF)",
+        "1759": "    \t\t//Insert the newlycreated Gridset record at the end of the record (just before the EOF)",
+        "2141": "     * creates the EOF record",
+        "2142": "     * @see loci.poi.hssf.record.EOFRecord",
+        "2143": "     * @see loci.poi.hssf.record.Record"
+      },
+      "id": 15642365,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 2351,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642358/",
+      "md5hash": "2f47d8e4aa73ffbba0d056d2a6f68eee",
+      "lines": {
+        "161": "",
+        "162": "            if (rec.getSid() == EOFRecord.sid) {",
+        "1811": "        return new EOFRecord();",
+        "1810": "    protected Record createEOF() {",
+        "1804": "     * creates the EOF record",
+        "1805": "     * @see loci.poi.hssf.record.EOFRecord",
+        "1806": "     * @see loci.poi.hssf.record.Record",
+        "1807": "     * @return record containing a EOFRecord"
+      },
+      "id": 15642358,
+      "filename": "Workbook.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 1870,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260266/",
+      "md5hash": "7cf7f2ed2e9a9ecf9aeb7a31626a4cb3",
+      "lines": {
+        "900": "",
+        "901": "    EOFRecord eof = new EOFRecord();"
+      },
+      "id": 43260266,
+      "filename": "WritableWorkbookImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 1148,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260286/",
+      "md5hash": "ffa1236c86df17622a6a9299c36353c8",
+      "lines": {
+        "592": "",
+        "593": "    EOFRecord eof = new EOFRecord();"
+      },
+      "id": 43260286,
+      "filename": "SheetWriter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 1870,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200794/",
+      "md5hash": "7cf7f2ed2e9a9ecf9aeb7a31626a4cb3",
+      "lines": {
+        "900": "",
+        "901": "    EOFRecord eof = new EOFRecord();"
+      },
+      "id": 49200794,
+      "filename": "WritableWorkbookImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 1148,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200814/",
+      "md5hash": "ffa1236c86df17622a6a9299c36353c8",
+      "lines": {
+        "592": "",
+        "593": "    EOFRecord eof = new EOFRecord();"
+      },
+      "id": 49200814,
+      "filename": "SheetWriter.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1148,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/write/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374608/",
+      "md5hash": "d2bb3c01a6178871cd169bd35ec691ea",
+      "lines": {
+        "592": "",
+        "593": "    EOFRecord eof = new EOFRecord();"
+      },
+      "id": 11374608,
+      "filename": "SheetWriter.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1870,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/write/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374615/",
+      "md5hash": "eeb7fb5f28e170de50ae99417e46e6f4",
+      "lines": {
+        "900": "",
+        "901": "    EOFRecord eof = new EOFRecord();"
+      },
+      "id": 11374615,
+      "filename": "WritableWorkbookImpl.java"
+    },
+    {
+      "repo": "http://brainstream.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1148,
+      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/write/biff",
+      "name": "brainstream",
+      "url": "https://searchcode.com/codesearch/view/13919791/",
+      "md5hash": "5094787ddf1c15c3bd7058fdd6237342",
+      "lines": {
+        "592": "",
+        "593": "    EOFRecord eof = new EOFRecord();"
+      },
+      "id": 13919791,
+      "filename": "SheetWriter.java"
+    },
+    {
+      "repo": "http://brainstream.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1908,
+      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/write/biff",
+      "name": "brainstream",
+      "url": "https://searchcode.com/codesearch/view/13919798/",
+      "md5hash": "1b180ce870b12583c0822f5205cc43e8",
+      "lines": {
+        "936": "    EOFRecord eof = new EOFRecord();",
+        "935": ""
+      },
+      "id": 13919798,
+      "filename": "WritableWorkbookImpl.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 145,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642341/",
+      "md5hash": "6650dc23e857d74ec265cc2fa653c40f",
+      "lines": {
+        "51": "import loci.poi.hssf.record.BOFRecord;",
+        "52": "import loci.poi.hssf.record.EOFRecord;",
+        "118": "        ",
+        "119": "        if (rec.getSid() == EOFRecord.sid) {"
+      },
+      "id": 15642341,
+      "filename": "ModelFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642343/",
+      "md5hash": "468caa59753e7c2d27a76f3903f70894",
+      "lines": {
+        "168": "                CountryRecord.class, SSTRecord.class, ExtSSTRecord.class,",
+        "169": "                EOFRecord.class, IndexRecord.class, CalcModeRecord.class,",
+        "70": "import loci.poi.hssf.record.DimensionsRecord;",
+        "71": "import loci.poi.hssf.record.EOFRecord;"
+      },
+      "id": 15642343,
+      "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "https://github.com/steed717/bootchart-0.9.git",
+      "language": "Java",
+      "linescount": 498,
+      "location": "/lib/org/apache/commons/compress/tar",
+      "name": "bootchart-0.9",
+      "url": "https://searchcode.com/codesearch/view/69498222/",
+      "md5hash": "298de0c00a5821d5bdf5ec1f04ef0d54",
+      "lines": {
+        "144": "     * @return The EOFRecord value",
+        "145": "     */",
+        "146": "    public boolean isEOFRecord( final byte[] record )",
+        "143": "     * @param record The record data to check."
+      },
+      "id": 69498222,
+      "filename": "TarBuffer.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 212,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642410/",
+      "md5hash": "d4a879741d165ef9e64c29c8aac5e9a9",
+      "lines": {
+        "78": "    /**",
+        "79": "     * Constructs a EOFRecord record and sets its fields appropriately."
+      },
+      "id": 15642410,
+      "filename": "ExtSSTRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "78": "                CountryRecord.class, SSTRecord.class, ExtSSTRecord.class,",
+        "79": "                EOFRecord.class, IndexRecord.class, CalcModeRecord.class,"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 9,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 6,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 5,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

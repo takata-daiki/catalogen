@@ -1,0 +1,253 @@
+{
+  "matchterm": "XSSFCellBorder.BorderSide",
+  "previouspage": null,
+  "searchterm": "XSSFCellBorder.BorderSide",
+  "query": "XSSFCellBorder.BorderSide",
+  "language_filters": [
+    {
+      "count": 12,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 12,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 1187,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/122565151/",
+      "md5hash": "fc8b005355e635293739c83d0119c6c9",
+      "lines": {
+        "341": "\t */",
+        "342": "\tpublic abstract void applyBorderStyle(Workbook workbook, CellStyle style, BorderSide side, CSSValue colour, CSSValue borderStyle, CSSValue width);",
+        "41": "import org.apache.poi.ss.util.CellRangeAddress;",
+        "42": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;",
+        "333": "\t * The side of the border that is to be applied.<br>",
+        "334": "\t * Note that although this value is from XSSFCellBorder it is equally valid for HSSFCellStyles."
+      },
+      "id": 122565151,
+      "filename": "StyleManagerUtils.java"
+    },
+    {
+      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 317,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/122565139/",
+      "md5hash": "0fb809e0a8f032708c3b2d0f5498a8fd",
+      "lines": {
+        "184": "\t\t// Bottom border ",
+        "178": "\t\t// Top border ",
+        "179": "\t\tsmu.applyBorderStyle(workbook, poiStyle, BorderSide.TOP, birtStyle.getProperty(StylePropertyIndexes.STYLE_BORDER_TOP_COLOR), birtStyle.getProperty(StylePropertyIndexes.STYLE_BORDER_TOP_STYLE), birtStyle.getProperty(StylePropertyIndexes.STYLE_BORDER_TOP_WIDTH));",
+        "180": "\t\t// Left border ",
+        "181": "\t\tsmu.applyBorderStyle(workbook, poiStyle, BorderSide.LEFT, birtStyle.getProperty(StylePropertyIndexes.STYLE_BORDER_LEFT_COLOR), birtStyle.getProperty(StylePropertyIndexes.STYLE_BORDER_LEFT_STYLE), birtStyle.getProperty(StylePropertyIndexes.STYLE_BORDER_LEFT_WIDTH));",
+        "182": "\t\t// Right border ",
+        "23": "import org.apache.poi.ss.usermodel.Workbook;",
+        "24": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;",
+        "185": "\t\tsmu.applyBorderStyle(workbook, poiStyle, BorderSide.BOTTOM, birtStyle.getProperty(StylePropertyIndexes.STYLE_BORDER_BOTTOM_COLOR), birtStyle.getProperty(StylePropertyIndexes.STYLE_BORDER_BOTTOM_STYLE), birtStyle.getProperty(StylePropertyIndexes.STYLE_BORDER_BOTTOM_WIDTH));",
+        "183": "\t\tsmu.applyBorderStyle(workbook, poiStyle, BorderSide.RIGHT, birtStyle.getProperty(StylePropertyIndexes.STYLE_BORDER_RIGHT_COLOR), birtStyle.getProperty(StylePropertyIndexes.STYLE_BORDER_RIGHT_STYLE), birtStyle.getProperty(StylePropertyIndexes.STYLE_BORDER_RIGHT_WIDTH));"
+      },
+      "id": 122565139,
+      "filename": "StyleManager.java"
+    },
+    {
+      "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 329,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/64530851/",
+      "md5hash": "7d4ae515c6284d28b10ab32376363f73",
+      "lines": {
+        "32": "import org.apache.poi.ss.usermodel.Workbook;",
+        "33": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;",
+        "192": "\t\tsmu.applyBorderStyle(workbook, poiStyle, BorderSide.RIGHT, birtStyle.getProperty(StyleConstants.STYLE_BORDER_RIGHT_COLOR), birtStyle.getProperty(StyleConstants.STYLE_BORDER_RIGHT_STYLE), birtStyle.getProperty(StyleConstants.STYLE_BORDER_RIGHT_WIDTH));",
+        "193": "\t\t// Bottom border ",
+        "194": "\t\tsmu.applyBorderStyle(workbook, poiStyle, BorderSide.BOTTOM, birtStyle.getProperty(StyleConstants.STYLE_BORDER_BOTTOM_COLOR), birtStyle.getProperty(StyleConstants.STYLE_BORDER_BOTTOM_STYLE), birtStyle.getProperty(StyleConstants.STYLE_BORDER_BOTTOM_WIDTH));",
+        "187": "\t\t// Top border ",
+        "188": "\t\tsmu.applyBorderStyle(workbook, poiStyle, BorderSide.TOP, birtStyle.getProperty(StyleConstants.STYLE_BORDER_TOP_COLOR), birtStyle.getProperty(StyleConstants.STYLE_BORDER_TOP_STYLE), birtStyle.getProperty(StyleConstants.STYLE_BORDER_TOP_WIDTH));",
+        "189": "\t\t// Left border ",
+        "190": "\t\tsmu.applyBorderStyle(workbook, poiStyle, BorderSide.LEFT, birtStyle.getProperty(StyleConstants.STYLE_BORDER_LEFT_COLOR), birtStyle.getProperty(StyleConstants.STYLE_BORDER_LEFT_STYLE), birtStyle.getProperty(StyleConstants.STYLE_BORDER_LEFT_WIDTH));",
+        "191": "\t\t// Right border "
+      },
+      "id": 64530851,
+      "filename": "StyleManager.java"
+    },
+    {
+      "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 1106,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/64530859/",
+      "md5hash": "df825ddde093d8c3fe3a9f52eb4945d0",
+      "lines": {
+        "320": "\t * Note that although this value is from XSSFCellBorder it is equally valid for HSSFCellStyles.",
+        "50": "import org.apache.poi.ss.util.CellRangeAddress;",
+        "51": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;",
+        "327": "\t */",
+        "328": "\tpublic abstract void applyBorderStyle(Workbook workbook, CellStyle style, BorderSide side, CSSValue colour, CSSValue borderStyle, CSSValue width);",
+        "319": "\t * The side of the border that is to be applied.<br>"
+      },
+      "id": 64530859,
+      "filename": "StyleManagerUtils.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ravisanthu0/spudsoft-birt-excel-emitters1",
+      "language": "Java",
+      "linescount": 323,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters1",
+      "url": "https://searchcode.com/codesearch/view/126772692/",
+      "md5hash": "6529d868cd9f957d91f051e78adb8067",
+      "lines": {
+        "188": "\t\tsmu.applyBorderStyle(workbook, poiStyle, BorderSide.BOTTOM, birtStyle.getProperty(StyleConstants.STYLE_BORDER_BOTTOM_COLOR), birtStyle.getProperty(StyleConstants.STYLE_BORDER_BOTTOM_STYLE), birtStyle.getProperty(StyleConstants.STYLE_BORDER_BOTTOM_WIDTH));",
+        "181": "\t\t// Top border ",
+        "182": "\t\tsmu.applyBorderStyle(workbook, poiStyle, BorderSide.TOP, birtStyle.getProperty(StyleConstants.STYLE_BORDER_TOP_COLOR), birtStyle.getProperty(StyleConstants.STYLE_BORDER_TOP_STYLE), birtStyle.getProperty(StyleConstants.STYLE_BORDER_TOP_WIDTH));",
+        "183": "\t\t// Left border ",
+        "184": "\t\tsmu.applyBorderStyle(workbook, poiStyle, BorderSide.LEFT, birtStyle.getProperty(StyleConstants.STYLE_BORDER_LEFT_COLOR), birtStyle.getProperty(StyleConstants.STYLE_BORDER_LEFT_STYLE), birtStyle.getProperty(StyleConstants.STYLE_BORDER_LEFT_WIDTH));",
+        "185": "\t\t// Right border ",
+        "186": "\t\tsmu.applyBorderStyle(workbook, poiStyle, BorderSide.RIGHT, birtStyle.getProperty(StyleConstants.STYLE_BORDER_RIGHT_COLOR), birtStyle.getProperty(StyleConstants.STYLE_BORDER_RIGHT_STYLE), birtStyle.getProperty(StyleConstants.STYLE_BORDER_RIGHT_WIDTH));",
+        "187": "\t\t// Bottom border ",
+        "28": "import org.apache.poi.ss.usermodel.Workbook;",
+        "29": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;"
+      },
+      "id": 126772692,
+      "filename": "StyleManager.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ravisanthu0/spudsoft-birt-excel-emitters1",
+      "language": "Java",
+      "linescount": 1056,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters1",
+      "url": "https://searchcode.com/codesearch/view/126772703/",
+      "md5hash": "86bd8def07741e255a71cb6004350b09",
+      "lines": {
+        "322": "\t */",
+        "323": "\tpublic abstract void applyBorderStyle(Workbook workbook, CellStyle style, BorderSide side, CSSValue colour, CSSValue borderStyle, CSSValue width);",
+        "314": "\t * The side of the border that is to be applied.<br>",
+        "315": "\t * Note that although this value is from XSSFCellBorder it is equally valid for HSSFCellStyles.",
+        "44": "import org.apache.poi.ss.usermodel.Workbook;",
+        "45": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;"
+      },
+      "id": 126772703,
+      "filename": "StyleManagerUtils.java"
+    },
+    {
+      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 242,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/122565145/",
+      "md5hash": "37e957a3ed6fb87cd516e5e2edbf25dd",
+      "lines": {
+        "120": "\t@Override",
+        "121": "\tpublic void applyBorderStyle(Workbook workbook, CellStyle style, BorderSide side, CSSValue colour, CSSValue borderStyle, CSSValue width) {",
+        "26": "import org.apache.poi.xssf.usermodel.XSSFShape;",
+        "27": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;"
+      },
+      "id": 122565145,
+      "filename": "StyleManagerXUtils.java"
+    },
+    {
+      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 259,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/122565152/",
+      "md5hash": "8510175981f7653c68170cbdfb797646",
+      "lines": {
+        "144": "\tpublic void applyBorderStyle(Workbook workbook, CellStyle style, BorderSide side, CSSValue colour, CSSValue borderStyle, CSSValue width) {",
+        "25": "import org.apache.poi.ss.usermodel.Workbook;",
+        "26": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;",
+        "143": "\t@Override"
+      },
+      "id": 122565152,
+      "filename": "StyleManagerHUtils.java"
+    },
+    {
+      "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 281,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/64530833/",
+      "md5hash": "9bae33ba2ae2b3659c034710c785370e",
+      "lines": {
+        "134": "\tpublic void applyBorderStyle(Workbook workbook, CellStyle style, BorderSide side, CSSValue colour, CSSValue borderStyle, CSSValue width) {",
+        "37": "import org.apache.poi.xssf.usermodel.XSSFShape;",
+        "38": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;",
+        "133": "\t@Override"
+      },
+      "id": 64530833,
+      "filename": "StyleManagerXUtils.java"
+    },
+    {
+      "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 298,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/64530867/",
+      "md5hash": "4a93e7cc18198ee2f00f76297625128b",
+      "lines": {
+        "156": "\t@Override",
+        "36": "import org.apache.poi.ss.usermodel.Workbook;",
+        "37": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;",
+        "157": "\tpublic void applyBorderStyle(Workbook workbook, CellStyle style, BorderSide side, CSSValue colour, CSSValue borderStyle, CSSValue width) {"
+      },
+      "id": 64530867,
+      "filename": "StyleManagerHUtils.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ravisanthu0/spudsoft-birt-excel-emitters1",
+      "language": "Java",
+      "linescount": 279,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters1",
+      "url": "https://searchcode.com/codesearch/view/126772698/",
+      "md5hash": "afd1e481fb2efa8d3030d90a89833b16",
+      "lines": {
+        "132": "\tpublic void applyBorderStyle(Workbook workbook, CellStyle style, BorderSide side, CSSValue colour, CSSValue borderStyle, CSSValue width) {",
+        "34": "import org.apache.poi.xssf.usermodel.XSSFShape;",
+        "35": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;",
+        "131": "\t@Override"
+      },
+      "id": 126772698,
+      "filename": "StyleManagerXUtils.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ravisanthu0/spudsoft-birt-excel-emitters1",
+      "language": "Java",
+      "linescount": 288,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters1",
+      "url": "https://searchcode.com/codesearch/view/126772704/",
+      "md5hash": "f52bc965a2ba649aac4b70c046bcb23d",
+      "lines": {
+        "33": "import org.apache.poi.ss.usermodel.Workbook;",
+        "34": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;",
+        "147": "\tpublic void applyBorderStyle(Workbook workbook, CellStyle style, BorderSide side, CSSValue colour, CSSValue borderStyle, CSSValue width) {",
+        "146": "\t@Override"
+      },
+      "id": 126772704,
+      "filename": "StyleManagerHUtils.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 12,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

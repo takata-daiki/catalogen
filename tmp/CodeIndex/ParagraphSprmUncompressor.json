@@ -1,0 +1,65 @@
+{
+  "matchterm": "ParagraphSprmUncompressor",
+  "previouspage": null,
+  "searchterm": "ParagraphSprmUncompressor",
+  "query": "ParagraphSprmUncompressor",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 660,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384407/",
+      "md5hash": "d9e337622aaacee6d2790b7572b0af11",
+      "lines": {
+        "156": "        byte[] grpprl = styleSheet.getPAPX( style );",
+        "131": "                {",
+        "132": "                    properties = ParagraphSprmUncompressor.uncompressPAP(",
+        "136": "                            papx, properties );",
+        "137": "                    properties = ParagraphSprmUncompressor.uncompressPAP(",
+        "27": "import org.apache.poi.hwpf.model.StyleSheet;",
+        "28": "import org.apache.poi.hwpf.sprm.ParagraphSprmUncompressor;",
+        "109": "                properties );",
+        "110": "        properties = ParagraphSprmUncompressor.uncompressPAP( properties,",
+        "157": "        return ParagraphSprmUncompressor.uncompressPAP( properties, grpprl, 2 );"
+      },
+      "id": 97384407,
+      "filename": "Paragraph.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 405,
+      "location": "/src/org/apache/poi/hwpf/model",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384100/",
+      "md5hash": "77aa9fdbea42509b8b2733de8923350a",
+      "lines": {
+        "24": "import org.apache.poi.hwpf.sprm.ParagraphSprmUncompressor;",
+        "241": "",
+        "242": "          pap = ParagraphSprmUncompressor.uncompressPAP(parentPAP, papx, 2);",
+        "23": "import org.apache.poi.hwpf.sprm.CharacterSprmUncompressor;"
+      },
+      "id": 97384100,
+      "filename": "StyleSheet.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "matchterm": "RefNPtg",
+  "previouspage": null,
+  "searchterm": "RefNPtg",
+  "query": "RefNPtg",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 92,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642534/",
+      "md5hash": "96f57bdcf61d2da61e09a69e919eb36b",
+      "lines": {
+        "68": "",
+        "69": "    public RefNPtg(RecordInputStream in)",
+        "41": "/*",
+        "42": " * RefNPtg.java",
+        "79": "    public String getRefPtgName() {",
+        "80": "      return \"RefNPtg\";",
+        "54": "/**",
+        "55": " * RefNPtg",
+        "58": "",
+        "59": "public class RefNPtg extends ReferencePtg",
+        "62": "",
+        "63": "    protected RefNPtg() {"
+      },
+      "id": 15642534,
+      "filename": "RefNPtg.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 305,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642473/",
+      "md5hash": "0194853a122e58e181b7c54e5cfbf881",
+      "lines": {
+        "224": "            Ptg ptg = (Ptg) field_7_parsed_expr.get(k);",
+        "225": "            if (ptg instanceof RefNPtg) {",
+        "226": "              RefNPtg refNPtg = (RefNPtg)ptg;",
+        "227": "              ptg = new ReferencePtg( (short)(formulaRow + refNPtg.getRow()),",
+        "228": "                                      (byte)(formulaColumn + refNPtg.getColumn()),",
+        "229": "                                     refNPtg.isRowRelative(),",
+        "230": "                                     refNPtg.isColRelative());",
+        "231": "            } else if (ptg instanceof RefNVPtg) {"
+      },
+      "id": 15642473,
+      "filename": "SharedFormulaRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 485,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642564/",
+      "md5hash": "a03fe68945d6947241c13705dd4cc5e3",
+      "lines": {
+        "288": "                 break;",
+        "285": "                 break;",
+        "286": "             case RefNPtg.sid :                 // 0x2C",
+        "287": "                 retval = new RefNPtg(in);"
+      },
+      "id": 15642564,
+      "filename": "Ptg.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

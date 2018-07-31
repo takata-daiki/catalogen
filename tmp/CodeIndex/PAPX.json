@@ -1,0 +1,213 @@
+{
+  "matchterm": "PAPX",
+  "previouspage": null,
+  "searchterm": "PAPX",
+  "query": "PAPX",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 369,
+      "location": "/src/org/apache/poi/hwpf/model",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384195/",
+      "md5hash": "4b50336a137f1a24d0274bce878f8610",
+      "lines": {
+        "128": "     *",
+        "129": "     * @return The remaining PAPXs that didn't fit into this FKP.",
+        "130": "     */",
+        "131": "    ArrayList<PAPX> getOverflow()",
+        "136": "    /**",
+        "137": "     * Gets the PAPX at index.",
+        "138": "     * @param index The index to get the PAPX for.",
+        "139": "     * @return The PAPX at index.",
+        "140": "     */",
+        "50": "",
+        "51": "    private ArrayList<PAPX> _papxList = new ArrayList<PAPX>();",
+        "52": "    private ArrayList<PAPX> _overFlow;",
+        "53": "",
+        "93": "            // );",
+        "94": "            // PAPX papx = new PAPX( charStartAt, charEndAt, getGrpprl( x ),",
+        "95": "            // getParagraphHeight( x ), dataStream );"
+      },
+      "id": 97384195,
+      "filename": "PAPFormattedDiskPage.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 660,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384407/",
+      "md5hash": "d9e337622aaacee6d2790b7572b0af11",
+      "lines": {
+        "129": "",
+        "130": "                if ( listLevel != null && listLevel.getGrpprlPapx() != null )",
+        "132": "                    properties = ParagraphSprmUncompressor.uncompressPAP(",
+        "133": "                            properties, listLevel.getGrpprlPapx(), 0 );",
+        "134": "                    // reapply style and local PAPX properties",
+        "135": "                    properties = newParagraph_applyStyleProperties( styleSheet,",
+        "136": "                            papx, properties );",
+        "137": "                    properties = ParagraphSprmUncompressor.uncompressPAP(",
+        "138": "                            properties, papx.getGrpprl(), 2 );",
+        "143": "        if ( properties.getIlfo() > 0 )",
+        "144": "            return new ListEntry( papx, properties, parent );",
+        "145": "",
+        "146": "        return new Paragraph( papx, properties, parent );",
+        "149": "    protected static ParagraphProperties newParagraph_applyStyleProperties(",
+        "150": "            StyleSheet styleSheet, PAPX papx, ParagraphProperties properties )"
+      },
+      "id": 97384407,
+      "filename": "Paragraph.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 764,
+      "location": "/src/org/apache/poi/hwpf/dev",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384386/",
+      "md5hash": "a5fd3aeec9338ae1535ca742a1539e0e",
+      "lines": {
+        "176": "                outputPapx = true;",
+        "177": "            if ( \"--papxProperties\".equals( arg ) )",
+        "139": "",
+        "140": "        boolean outputPapx = false;",
+        "141": "        boolean outputPapxSprms = false;",
+        "174": "",
+        "175": "            if ( \"--papx\".equals( arg ) )",
+        "48": "import org.apache.poi.hwpf.model.PAPFormattedDiskPage;",
+        "49": "import org.apache.poi.hwpf.model.PAPX;",
+        "178": "                outputPapxProperties = true;",
+        "179": "            if ( \"--papxSprms\".equals( arg ) )",
+        "180": "                outputPapxSprms = true;",
+        "142": "        boolean outputPapxProperties = false;",
+        "143": "",
+        "181": ""
+      },
+      "id": 97384386,
+      "filename": "HWPFLister.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 44,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384503/",
+      "md5hash": "b0c9576d51b6c1c633a18747ebfff828",
+      "lines": {
+        "32": "    @Deprecated",
+        "33": "    ListEntry( PAPX papx, Range parent, ListTables tables )",
+        "34": "    {",
+        "35": "        super( papx, parent );",
+        "20": "import org.apache.poi.hwpf.model.ListTables;",
+        "21": "import org.apache.poi.hwpf.model.PAPX;",
+        "26": "    @Internal",
+        "27": "    ListEntry( PAPX papx, ParagraphProperties properties, Range parent )",
+        "28": "    {",
+        "29": "        super( papx, properties, parent );"
+      },
+      "id": 97384503,
+      "filename": "ListEntry.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 405,
+      "location": "/src/org/apache/poi/hwpf/model",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384100/",
+      "md5hash": "77aa9fdbea42509b8b2733de8923350a",
+      "lines": {
+        "384": "            return NIL_PAPX;",
+        "388": "        {",
+        "389": "            return NIL_PAPX;",
+        "393": "        {",
+        "202": "  /**",
+        "203": "   * Creates a PartagraphProperties object from a papx stored in the",
+        "396": "",
+        "397": "        if ( _styleDescriptions[styleIndex].getPAPX() == null )",
+        "398": "        {",
+        "399": "            return NIL_PAPX;",
+        "401": "",
+        "402": "        return _styleDescriptions[styleIndex].getPAPX();",
+        "55": "  private final static byte[] NIL_CHPX = new byte[] {};",
+        "56": "  private final static byte[] NIL_PAPX = new byte[] {0, 0};",
+        "394": "            return NIL_PAPX;",
+        "383": "        {"
+      },
+      "id": 97384100,
+      "filename": "StyleSheet.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1043,
+      "location": "/src/org/apache/poi/hwpf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383956/",
+      "md5hash": "677c332698819342ff2ece2baf93a4ed",
+      "lines": {
+        "736": "         * plcfbtePapx (bin table for PAP FKPs) Written immediately after the",
+        "273": "    _cbt = new CHPBinTable(_mainStream, _tableStream, _fib.getFcPlcfbteChpx(), _fib.getLcbPlcfbteChpx(), _tpt);",
+        "274": "    _pbt = new PAPBinTable(_mainStream, _tableStream, _dataStream, _fib.getFcPlcfbtePapx(), _fib.getLcbPlcfbtePapx(), _tpt);",
+        "278": "        /*",
+        "279": "         * in this mode we preserving PAPX/CHPX structure from file, so text may",
+        "744": "    _fib.setFcPlcfbtePapx(tableOffset);",
+        "745": "    _pbt.writeTo(wordDocumentStream, tableStream, _cft.getTextPieceTable());",
+        "746": "    _fib.setLcbPlcfbtePapx(tableStream.getOffset() - tableOffset);",
+        "743": "    // write out the PAPBinTable.",
+        "735": "        /*"
+      },
+      "id": 97383956,
+      "filename": "HWPFDocument.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 270,
+      "location": "/src/org/apache/poi/hwpf/model",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384065/",
+      "md5hash": "9b1ed77d0b27e7f155e2a74d1d59ba8c",
+      "lines": {
+        "128": "",
+        "129": "    public byte[] getGrpprlPapx()",
+        "130": "    {",
+        "131": "        return _grpprlPapx;",
+        "135": "    {",
+        "136": "        return _grpprlPapx;",
+        "43": "    private byte[] _grpprlChpx;",
+        "44": "    private byte[] _grpprlPapx;",
+        "177": "",
+        "178": "        _grpprlPapx = new byte[_lvlf.getCbGrpprlPapx()];",
+        "179": "        System.arraycopy( data, offset, _grpprlPapx, 0, _lvlf.getCbGrpprlPapx() );",
+        "180": "        offset += _lvlf.getCbGrpprlPapx();",
+        "181": "",
+        "154": "        return LVLF.getSize() + _lvlf.getCbGrpprlChpx()",
+        "155": "                + _lvlf.getCbGrpprlPapx() + _xst.getSize();"
+      },
+      "id": 97384065,
+      "filename": "ListLevel.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,412 @@
+{
+  "matchterm": "Countif",
+  "previouspage": null,
+  "searchterm": "Countif",
+  "query": "Countif",
+  "language_filters": [
+    {
+      "count": 22,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 22,
+  "results": [
+    {
+      "repo": "https://github.com/poidasmith/xlloop.git",
+      "language": "Java",
+      "linescount": 29,
+      "location": "/org.boris.expr/java/src/org/boris/expr/function/excel",
+      "name": "xlloop",
+      "url": "https://searchcode.com/codesearch/view/105398741/",
+      "md5hash": "ff5c03bb645b0404b7dcec36b1a50bff",
+      "lines": {
+        "10": "",
+        "11": "public class COUNTIF extends AbstractFunction"
+      },
+      "id": 105398741,
+      "filename": "COUNTIF.java"
+    },
+    {
+      "repo": "https://github.com/velarm/bpelunit.git",
+      "language": "Java",
+      "linescount": 414,
+      "location": "/net.bpelunit.utils.bpelstats/src/main/java/net/bpelunit/utils/bpelstats",
+      "name": "bpelunit",
+      "url": "https://searchcode.com/codesearch/view/95560596/",
+      "md5hash": "2b775cc29a070f58e80328bb0ae5b258",
+      "lines": {
+        "160": "\tpublic int getCountIf() {",
+        "161": "\t\treturn countIf;",
+        "162": "\t}",
+        "67": "",
+        "68": "\tprivate int countIf;",
+        "257": "\t\treturn countCatch + countCatchAll + countCompensationHandler",
+        "328": "\t\tcountIf++;",
+        "267": "\t\t\t\t+ countElse + countElseIf + countExit + countFlow",
+        "268": "\t\t\t\t+ countForEach + countIf + countOnAlarm",
+        "258": "\t\t\t\t+ countFlow + countForEach + countIf",
+        "243": "\t\t\t\t+ countElse + countElseIf + countEmpty + countExit + countFlow",
+        "244": "\t\t\t\t+ countForEach + countIf + countInvoke + countOnAlarm",
+        "327": "\tpublic void visit(IIf a) {",
+        "159": ""
+      },
+      "id": 95560596,
+      "filename": "StatisticGathererVisitor.java"
+    },
+    {
+      "repo": "http://symja.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 615,
+      "location": "/matheclipse-generic/src/main/java/org/matheclipse/generic/nested",
+      "name": "symja",
+      "url": "https://searchcode.com/codesearch/view/11752442/",
+      "md5hash": "8a60a6e44aae0489319703f1fc2f47f1",
+      "lines": {
+        "96": "\tpublic int countIf(final L argList, final Predicate<? super T> matcher) {",
+        "97": "\t\treturn countIf(argList, matcher, 0);",
+        "98": "\t}",
+        "117": "\t\t\t\tlist = cast(argList.get(i));",
+        "118": "\t\t\t\tcounter += countIf(list, matcher, headOffset);",
+        "112": "\tpublic int countIf(final L argList, final Predicate<? super T> matcher, int headOffset) {",
+        "95": "\t */",
+        "111": "\t */"
+      },
+      "id": 11752442,
+      "filename": "NestedAlgorithms.java"
+    },
+    {
+      "repo": "https://github.com/poidasmith/xlloop.git",
+      "language": "Java",
+      "linescount": 517,
+      "location": "/org.boris.expr/java/test/org/boris/expr",
+      "name": "xlloop",
+      "url": "https://searchcode.com/codesearch/view/105398262/",
+      "md5hash": "fca189def2482b8ec825119b2ae658b0",
+      "lines": {
+        "167": "",
+        "168": "    public void testCOUNTIF() throws Exception {",
+        "169": "        BasicEvaluationCallback c = new BasicEvaluationCallback();",
+        "170": "        c.set(loadArray(\"countif1.txt\"));",
+        "171": "        assertResult(c, \"COUNTIF(A1:A5,\\\"apples\\\")\", 2.);",
+        "172": "        assertResult(c, \"COUNTIF(B2:B5,\\\">55\\\")\", 2.);",
+        "173": "    }"
+      },
+      "id": 105398262,
+      "filename": "ExcelStatisticalFunctionsTest.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 1451,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47124968/",
+      "md5hash": "994b1c012a7ddfa2eae1064001b4a2c3",
+      "lines": {
+        "384": "\tpublic static final int XLF_SUM_IF    = 345;",
+        "385": "\tpublic static final int xlfCountif  = 346;",
+        "1347": "\t\t\tcase xlfAVERAGEIFS:   return \"AVERAGEIFS(\";",
+        "1348": "\t\t\tcase xlfCOUNTIFS:   return \"COUNTIFS(\";",
+        "873": "\t\t\t{\"AVERAGEIFS\", String.valueOf(xlfAVERAGEIFS), String.valueOf(FTYPE_PTGFUNCVAR_ADDIN)},",
+        "874": "\t\t\t{\"COUNTIFS\", String.valueOf(xlfCOUNTIFS), String.valueOf(FTYPE_PTGFUNCVAR_ADDIN)},",
+        "715": "\t\t\t{\"COUNTA\", String.valueOf(xlfCounta), String.valueOf(FTYPE_PTGFUNCVAR)},",
+        "716": "\t\t\t{\"COUNTIF\", String.valueOf(xlfCountif), String.valueOf(FTYPE_PTGFUNCVAR)},",
+        "1229": "\t\t\tcase XLF_SUM_IF: return \"SUMIF(\";",
+        "1230": "\t\t\tcase xlfCountif: return \"COUNTIF(\";",
+        "1392": "\t\tif (iftab == xlfPower) return 2; // Power",
+        "1393": "\t\tif (iftab == xlfCountif) return 2; // CountIf",
+        "505": "\tpublic static final int xlfAVERAGEIFS= 457;",
+        "506": "\tpublic static final int xlfCOUNTIFS= 458;"
+      },
+      "id": 47124968,
+      "filename": "FunctionConstants.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 1451,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976592/",
+      "md5hash": "994b1c012a7ddfa2eae1064001b4a2c3",
+      "lines": {
+        "384": "\tpublic static final int XLF_SUM_IF    = 345;",
+        "385": "\tpublic static final int xlfCountif  = 346;",
+        "1347": "\t\t\tcase xlfAVERAGEIFS:   return \"AVERAGEIFS(\";",
+        "1348": "\t\t\tcase xlfCOUNTIFS:   return \"COUNTIFS(\";",
+        "873": "\t\t\t{\"AVERAGEIFS\", String.valueOf(xlfAVERAGEIFS), String.valueOf(FTYPE_PTGFUNCVAR_ADDIN)},",
+        "874": "\t\t\t{\"COUNTIFS\", String.valueOf(xlfCOUNTIFS), String.valueOf(FTYPE_PTGFUNCVAR_ADDIN)},",
+        "715": "\t\t\t{\"COUNTA\", String.valueOf(xlfCounta), String.valueOf(FTYPE_PTGFUNCVAR)},",
+        "716": "\t\t\t{\"COUNTIF\", String.valueOf(xlfCountif), String.valueOf(FTYPE_PTGFUNCVAR)},",
+        "1229": "\t\t\tcase XLF_SUM_IF: return \"SUMIF(\";",
+        "1230": "\t\t\tcase xlfCountif: return \"COUNTIF(\";",
+        "1392": "\t\tif (iftab == xlfPower) return 2; // Power",
+        "1393": "\t\tif (iftab == xlfCountif) return 2; // CountIf",
+        "505": "\tpublic static final int xlfAVERAGEIFS= 457;",
+        "506": "\tpublic static final int xlfCOUNTIFS= 458;"
+      },
+      "id": 50976592,
+      "filename": "FunctionConstants.java"
+    },
+    {
+      "repo": "https://github.com/android/platform_frameworks_base.git",
+      "language": "Java",
+      "linescount": 3790,
+      "location": "/services/core/java/com/android/server/content",
+      "name": "platform_frameworks_base",
+      "url": "https://searchcode.com/codesearch/view/140972176/",
+      "md5hash": "f39a80275d4ab055bf31fcb9d1f4378a",
+      "lines": {
+        "1920": "        pw.print(\"Pending Syncs: \");",
+        "1921": "        pw.println(countIf(pendingSyncs, op -> !op.isPeriodic));",
+        "1938": "        pw.println(countIf(pendingSyncs, op -> op.isPeriodic));",
+        "1908": "",
+        "1909": "    private static <T> int countIf(Collection<T> col, Predicate<T> p) {",
+        "1937": "        pw.print(\"Periodic Syncs: \");"
+      },
+      "id": 140972176,
+      "filename": "SyncManager.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1714,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/demo",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374641/",
+      "md5hash": "141f7c54a2adb4ebadaf028d80dc92c0",
+      "lines": {
+        "1585": "",
+        "1586": "    f = new Formula(2, 30, \"COUNTIF(A1:A4, \\\">=12\\\")\");",
+        "1587": "    ws.addCell(f);",
+        "1588": "    l = new Label(3, 30, \"COUNTIF(A1:A4, \\\">=12\\\")\");"
+      },
+      "id": 11374641,
+      "filename": "Write.java"
+    },
+    {
+      "repo": "http://brainstream.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1723,
+      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/demo",
+      "name": "brainstream",
+      "url": "https://searchcode.com/codesearch/view/13919825/",
+      "md5hash": "353f0bfda2e5e66c249f1a153f8fc344",
+      "lines": {
+        "1586": "",
+        "1587": "    f = new Formula(2, 30, \"COUNTIF(A1:A4, \\\">=12\\\")\");",
+        "1588": "    ws.addCell(f);",
+        "1589": "    l = new Label(3, 30, \"COUNTIF(A1:A4, \\\">=12\\\")\");"
+      },
+      "id": 13919825,
+      "filename": "Write.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 1713,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/demo",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260480/",
+      "md5hash": "ba45aec9c3e9e6d4343384265901ef86",
+      "lines": {
+        "1584": "",
+        "1585": "    f = new Formula(2, 30, \"COUNTIF(A1:A4, \\\">=12\\\")\");",
+        "1586": "    ws.addCell(f);",
+        "1587": "    l = new Label(3, 30, \"COUNTIF(A1:A4, \\\">=12\\\")\");"
+      },
+      "id": 43260480,
+      "filename": "Write.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 717,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/biff/formula",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260581/",
+      "md5hash": "15b9307e10209bd7f14a819df4b60a44",
+      "lines": {
+        "688": "  public static final Function COUNTIF  =",
+        "689": "    new Function(0x15a, \"countif\", 2);",
+        "690": "  public static final Function COUNTBLANK =",
+        "687": "    new Function(0x159, \"sumif\", 0xff);"
+      },
+      "id": 43260581,
+      "filename": "Function.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 1713,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/demo",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49201008/",
+      "md5hash": "ba45aec9c3e9e6d4343384265901ef86",
+      "lines": {
+        "1584": "",
+        "1585": "    f = new Formula(2, 30, \"COUNTIF(A1:A4, \\\">=12\\\")\");",
+        "1586": "    ws.addCell(f);",
+        "1587": "    l = new Label(3, 30, \"COUNTIF(A1:A4, \\\">=12\\\")\");"
+      },
+      "id": 49201008,
+      "filename": "Write.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 717,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/biff/formula",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49201109/",
+      "md5hash": "15b9307e10209bd7f14a819df4b60a44",
+      "lines": {
+        "688": "  public static final Function COUNTIF  =",
+        "689": "    new Function(0x15a, \"countif\", 2);",
+        "690": "  public static final Function COUNTBLANK =",
+        "687": "    new Function(0x159, \"sumif\", 0xff);"
+      },
+      "id": 49201109,
+      "filename": "Function.java"
+    },
+    {
+      "repo": "https://github.com/dsths/mondrian.git",
+      "language": "Java",
+      "linescount": 1111,
+      "location": "/src/main/mondrian/olap/fun/vba",
+      "name": "mondrian",
+      "url": "https://searchcode.com/codesearch/view/100412065/",
+      "md5hash": "97269efda67b1f67b152b3400030b364",
+      "lines": {
+        "203": "",
+        "204": "    // Todo: CountIf Counts the number of cells within a range that meet the",
+        "206": "",
+        "207": "    // Todo: CountIfs Counts the number of cells within a range that meet"
+      },
+      "id": 100412065,
+      "filename": "Excel.java"
+    },
+    {
+      "repo": "http://symja.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 319,
+      "location": "/matheclipse-generic/src/main/java/org/matheclipse/generic",
+      "name": "symja",
+      "url": "https://searchcode.com/codesearch/view/11752404/",
+      "md5hash": "fda96a36f6b83e687cab328a123139bd",
+      "lines": {
+        "83": "\t */",
+        "84": "\tpublic static <T> int countIfNot(final Collection<T> collection, final Predicate<T> predicate) {",
+        "69": "\t */",
+        "70": "\tpublic static <T> int countIf(final Collection<T> collection, final Predicate<T> predicate) {"
+      },
+      "id": 11752404,
+      "filename": "Algorithms.java"
+    },
+    {
+      "repo": "http://symja.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 932,
+      "location": "/matheclipse-generic/src/main/java/org/matheclipse/generic",
+      "name": "symja",
+      "url": "https://searchcode.com/codesearch/view/11752408/",
+      "md5hash": "aa6992c84984256a383b9c7272e99966",
+      "lines": {
+        "256": "\tpublic int countIf(Predicate<E> predicate) {",
+        "255": "\t */"
+      },
+      "id": 11752408,
+      "filename": "Range.java"
+    },
+    {
+      "repo": "https://github.com/Berico-Technologies/mondrian.git",
+      "language": "Java",
+      "linescount": 1111,
+      "location": "/src/main/mondrian/olap/fun/vba",
+      "name": "mondrian",
+      "url": "https://searchcode.com/codesearch/view/69456290/",
+      "md5hash": "d000de4330f4246f9ea598129c490c5c",
+      "lines": {
+        "203": "",
+        "204": "    // Todo: CountIf Counts the number of cells within a range that meet the",
+        "206": "",
+        "207": "    // Todo: CountIfs Counts the number of cells within a range that meet"
+      },
+      "id": 69456290,
+      "filename": "Excel.java"
+    },
+    {
+      "repo": "https://bitbucket.org/markjenkins/libreoffice_ubuntu-debian-fixes.git",
+      "language": "Java",
+      "linescount": 196,
+      "location": "/xmerge/source/pexcel/java/org/openoffice/xmerge/converter/xml/sxc/pexcel/records/formula",
+      "name": "libreoffice_ubuntu-debian-fixes",
+      "url": "https://searchcode.com/codesearch/view/45005348/",
+      "md5hash": "426d1a278751f3f203298c4a43685255",
+      "lines": {
+        "96": "                addEntry(\"COUNTIF\", TokenConstants.TCOUNTIF, 1);",
+        "95": "                addEntry(\"COS\", TokenConstants.TCOS, 1);"
+      },
+      "id": 45005348,
+      "filename": "FunctionLookup.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 2121,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47124908/",
+      "md5hash": "d06aa154e674355e825c7cea383103dc",
+      "lines": {
+        "531": "\t  */",
+        "561": "\t\t\t\t\t\t\tObject v= criteria_cells[k][i].getValue();",
+        "466": "\t /**",
+        "467": "\t COUNTIF",
+        "532": "\t protected static Ptg calcCountIfS(Ptg[] operands){",
+        "470": "\t */",
+        "471": "\t protected static Ptg calcCountif(Ptg[] operands)",
+        "523": "\t /**",
+        "524": "\t  * COUNTIFS ",
+        "562": "\t\t\t\t\t\t\t//  the criteria argument is a reference to an empty cell, the COUNTIFS function treats the empty cell as a 0 value."
+      },
+      "id": 47124908,
+      "filename": "StatisticalCalculator.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 284,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47124943/",
+      "md5hash": "84eef4f6788484522bd858a3c2167e99",
+      "lines": {
+        "80": "\t\t{\"Power\",\"337\"},",
+        "81": "\t\t{\"Countif\",\"246\"},"
+      },
+      "id": 47124943,
+      "filename": "PtgFunc.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 11,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 6,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 5,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

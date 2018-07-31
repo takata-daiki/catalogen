@@ -1,0 +1,513 @@
+{
+  "matchterm": "TableProperties",
+  "previouspage": null,
+  "searchterm": "TableProperties",
+  "query": "TableProperties",
+  "language_filters": [
+    {
+      "count": 517,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 517,
+  "results": [
+    {
+      "repo": "https://github.com/realakuma/jw-community.git",
+      "language": "Java",
+      "linescount": 1372,
+      "location": "/wflow-consoleweb/src/main/java/org/displaytag/properties",
+      "name": "jw-community",
+      "url": "https://searchcode.com/codesearch/view/73662809/",
+      "md5hash": "3bab9592073a8d2dbea3056d32ca57c2",
+      "lines": {
+        "32": "import org.displaytag.exception.FactoryInstantiationException;",
+        "33": "import org.displaytag.exception.TablePropertiesLoadException;",
+        "386": "    private static Map<Locale, TableProperties> prototypes = new HashMap<Locale, TableProperties>();",
+        "385": "     */",
+        "425": "     * @return loaded properties",
+        "426": "     * @throws TablePropertiesLoadException if default properties file can't be found",
+        "427": "     */",
+        "428": "    private static Properties loadBuiltInProperties() throws TablePropertiesLoadException",
+        "434": "            InputStream is = TableProperties.class.getResourceAsStream(DEFAULT_FILENAME);",
+        "526": "",
+        "527": "                    log.info(Messages.getString(\"TableProperties.classinitializedto\", //$NON-NLS-1$",
+        "433": "        {",
+        "384": "     * TableProperties for each locale are loaded as needed, and cloned for public usage.",
+        "531": "                {",
+        "532": "                    log.warn(Messages.getString(\"TableProperties.errorloading\", //$NON-NLS-1$",
+        "383": "    /**"
+      },
+      "id": 73662809,
+      "filename": "TableProperties.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/netbeans-soa.git",
+      "language": "Java",
+      "linescount": 430,
+      "location": "/etl.editor/src/org/netbeans/modules/sql/framework/ui/view/property",
+      "name": "netbeans-soa",
+      "url": "https://searchcode.com/codesearch/view/43332930/",
+      "md5hash": "3b0aa731b7ca3c11580f680a55403ced",
+      "lines": {
+        "72": "public class TableProperties {",
+        "71": " */"
+      },
+      "id": 43332930,
+      "filename": "TableProperties.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/netbeans-soa.git",
+      "language": "Java",
+      "linescount": 274,
+      "location": "/edm.editor/src/org/netbeans/modules/edm/editor/ui/view/property",
+      "name": "netbeans-soa",
+      "url": "https://searchcode.com/codesearch/view/43334215/",
+      "md5hash": "883a69d4d5396da3895e580b08e1e31c",
+      "lines": {
+        "68": " */",
+        "69": "public class TableProperties {"
+      },
+      "id": 43334215,
+      "filename": "TableProperties.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 58,
+      "location": "/document/fr.opensagres.xdocreport.document/src/main/java/fr/opensagres/xdocreport/document/textstyling/properties",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96675388/",
+      "md5hash": "c72bb844439ec61263571a4f80f42c2f",
+      "lines": {
+        "29": " */",
+        "30": "public class TableProperties"
+      },
+      "id": 96675388,
+      "filename": "TableProperties.java"
+    },
+    {
+      "repo": "https://github.com/dvasilen/Hive-Cassandra.git",
+      "language": "Java",
+      "linescount": 300,
+      "location": "/src/main/java/org/apache/hadoop/hive/cassandra",
+      "name": "Hive-Cassandra",
+      "url": "https://searchcode.com/codesearch/view/70893690/",
+      "md5hash": "5b818a5aa5d5d54ffffd59d38aad34cc",
+      "lines": {
+        "32": "    Properties tableProperties = tableDesc.getProperties();",
+        "129": "      jobProperties.put(AbstractColumnSerDe.CASSANDRA_SPLIT_SIZE,",
+        "34": "    // Try parsing the keyspace.columnFamily",
+        "35": "    String tableName = tableProperties.getProperty(Constants.META_TABLE_NAME);",
+        "36": "    String dbName = tableProperties.getProperty(Constants.META_TABLE_DB);",
+        "37": "",
+        "38": "    String keyspace = tableProperties.getProperty(AbstractColumnSerDe.CASSANDRA_KEYSPACE_NAME);",
+        "39": "    String columnFamily = tableProperties.getProperty(AbstractColumnSerDe.CASSANDRA_CF_NAME);",
+        "40": "",
+        "140": "      jobProperties.put(AbstractColumnSerDe.CASSANDRA_BATCH_MUTATION_SIZE,",
+        "130": "          tableProperties.getProperty(AbstractColumnSerDe.CASSANDRA_SPLIT_SIZE,",
+        "141": "          tableProperties.getProperty(AbstractColumnSerDe.CASSANDRA_BATCH_MUTATION_SIZE,",
+        "55": "    //If no column mapping has been configured, we should create the default column mapping.",
+        "56": "    String columnInfo = tableProperties.getProperty(AbstractColumnSerDe.CASSANDRA_COL_MAPPING);",
+        "31": "  public void configureTableJobProperties(TableDesc tableDesc, Map<String, String> jobProperties) {"
+      },
+      "id": 70893690,
+      "filename": "CassandraStorageHandler.java"
+    },
+    {
+      "repo": "https://github.com/rusanu/orc.git",
+      "language": "Java",
+      "linescount": 142,
+      "location": "/src/main/java/org/apache/hadoop/hive/ql/io/orc",
+      "name": "orc",
+      "url": "https://searchcode.com/codesearch/view/72264629/",
+      "md5hash": "8d12d4c1b1a234068dbebcfff82d1bd9",
+      "lines": {
+        "129": "    String compressionSize =",
+        "130": "      tableProperties.getProperty(OrcFile.COMPRESSION_BLOCK_SIZE,",
+        "132": "    String rowIndexStride =",
+        "133": "        tableProperties.getProperty(OrcFile.ROW_INDEX_STRIDE,",
+        "134": "            OrcFile.DEFAULT_ROW_INDEX_STRIDE);",
+        "135": "    if (\"false\".equals(tableProperties.getProperty(OrcFile.ENABLE_INDEXES))) {",
+        "122": "                         boolean isCompressed,",
+        "123": "                         Properties tableProperties,",
+        "124": "                         Progressable reporter) throws IOException {",
+        "125": "    String stripeSize = tableProperties.getProperty(OrcFile.STRIPE_SIZE,",
+        "126": "      OrcFile.DEFAULT_STRIPE_SIZE);",
+        "127": "    String compression = tableProperties.getProperty"
+      },
+      "id": 72264629,
+      "filename": "OrcOutputFormat.java"
+    },
+    {
+      "repo": "https://github.com/cloudera/hcatalog.git",
+      "language": "Java",
+      "linescount": 856,
+      "location": "/webhcat/svr/src/main/java/org/apache/hcatalog/templeton",
+      "name": "hcatalog",
+      "url": "https://searchcode.com/codesearch/view/71746046/",
+      "md5hash": "62aaf3731d3fb7a4d170cd3ebc6129d0",
+      "lines": {
+        "592": "    private Map tableProperties(Object extendedTable) {",
+        "554": "     */",
+        "555": "    public Response listTableProperties(String user, String db, String table)",
+        "364": "            exec += String.format(\" location '%s'\", desc.location);",
+        "365": "        if (TempletonUtils.isset(desc.tableProperties))",
+        "366": "            exec += String.format(\" tblproperties (%s)\",",
+        "367": "                makePropertiesStatement(desc.tableProperties));",
+        "560": "            return res;",
+        "561": "        Map props = tableProperties(res.getEntity());",
+        "534": "            return res;",
+        "535": "        Map props = tableProperties(res.getEntity());",
+        "591": ""
+      },
+      "id": 71746046,
+      "filename": "HcatDelegator.java"
+    },
+    {
+      "repo": "https://github.com/syxzhang/Kundera.git",
+      "language": "Java",
+      "linescount": 453,
+      "location": "/kundera-hbase/src/main/java/com/impetus/client/hbase/schemamanager",
+      "name": "Kundera",
+      "url": "https://searchcode.com/codesearch/view/72504204/",
+      "md5hash": "52b01cbe32f16db422f2de81a29b4f13",
+      "lines": {
+        "386": "                {",
+        "387": "                    tableProperties = s.getSchemaProperties();",
+        "415": "                tableDescriptor.setValue(Bytes.toBytes(o.toString()), Bytes.toBytes(tableProperties.get(o).toString()));",
+        "377": "        HTableDescriptor tableDescriptor = new HTableDescriptor(tableInfo.getTableName());",
+        "378": "        Properties tableProperties = null;",
+        "411": "        if (tableProperties != null)",
+        "412": "        {",
+        "410": "             */}",
+        "414": "            {",
+        "413": "            for (Object o : tableProperties.keySet())"
+      },
+      "id": 72504204,
+      "filename": "HBaseSchemaManager.java"
+    },
+    {
+      "repo": "https://github.com/bakash/Kundera.git",
+      "language": "Java",
+      "linescount": 461,
+      "location": "/kundera-hbase/src/main/java/com/impetus/client/hbase/schemamanager",
+      "name": "Kundera",
+      "url": "https://searchcode.com/codesearch/view/73970905/",
+      "md5hash": "f9b38e1db98d90cc17923a5c5f6c6369",
+      "lines": {
+        "373": "        HTableDescriptor hTableDescriptor = new HTableDescriptor(tableInfo.getTableName());",
+        "406": "",
+        "407": "        if (tableProperties != null)",
+        "408": "        {",
+        "409": "            for (Object o : tableProperties.keySet())",
+        "374": "        Properties tableProperties = null;",
+        "411": "                hTableDescriptor",
+        "412": "                        .setValue(Bytes.toBytes(o.toString()), Bytes.toBytes(tableProperties.get(o).toString()));",
+        "382": "                {",
+        "383": "                    tableProperties = s.getSchemaProperties();"
+      },
+      "id": 73970905,
+      "filename": "HBaseSchemaManager.java"
+    },
+    {
+      "repo": "https://github.com/markusreichel/AmbienteGui.git",
+      "language": "Java",
+      "linescount": 55,
+      "location": "/AmbienteGui/src/main/java/org/reichel/ambiente/gui/actions",
+      "name": "AmbienteGui",
+      "url": "https://searchcode.com/codesearch/view/73992788/",
+      "md5hash": "63175c1049f64f8c8de769efd1bd1538",
+      "lines": {
+        "17": "",
+        "18": "\tprivate JTable tableProperties;",
+        "35": "\tpublic void actionPerformed(ActionEvent e) {",
+        "36": "\t\tfor(int i = 0; i < tableProperties.getRowCount(); i++){",
+        "37": "\t\t\tString key = (String) tableProperties.getValueAt(i, 0);",
+        "38": "\t\t\tString value = (String) tableProperties.getValueAt(i, 1);",
+        "39": "\t\t\tconfig.put(key, value);",
+        "25": "\tpublic ButtonSaveConfigActionListener(ConfigManager configManager, Config config, Map<String, JCheckBox> cbProjetos,  ContextDeployProjectsManagerPanel contextDeployProjetosPanel){",
+        "26": "\t\tthis.tableProperties = configManager.getTablePanel().getTableProperties();"
+      },
+      "id": 73992788,
+      "filename": "ButtonSaveConfigActionListener.java"
+    },
+    {
+      "repo": "https://github.com/apauzies/nebula.widgets.nattable.git",
+      "language": "Java",
+      "linescount": 25,
+      "location": "/org.eclipse.nebula.widgets.nattable.extension.builder/src/org/eclipse/nebula/widgets/nattable/extension/builder/configuration",
+      "name": "nebula.widgets.nattable",
+      "url": "https://searchcode.com/codesearch/view/76102081/",
+      "md5hash": "ad031a642f00a730851cf6b5fb52defd",
+      "lines": {
+        "18": "",
+        "19": "\tpublic TableStyleConfiguration(TableStyle tableProperties) {",
+        "20": "\t\tsuper.font = tableProperties.tableFont;",
+        "21": "\t\tsuper.hAlign = tableProperties.defaultHorizontalAlign;",
+        "22": "\t\tsuper.vAlign = tableProperties.defaultVerticalAlign;",
+        "23": "\t}"
+      },
+      "id": 76102081,
+      "filename": "TableStyleConfiguration.java"
+    },
+    {
+      "repo": "https://github.com/bockone/AppWarp_Android_SDK_JAR.git",
+      "language": "Java",
+      "linescount": 204,
+      "location": "/MultiplayerDemo/src/com/appwarp/multiplayer/tutorial",
+      "name": "AppWarp_Android_SDK_JAR",
+      "url": "https://searchcode.com/codesearch/view/75851403/",
+      "md5hash": "000fe2a9c6b6b7575694a922a91c6605",
+      "lines": {
+        "80": "\t\t\t// no need to update UI as we have already done so.",
+        "81": "\t\t\tproperties = tableProperties;",
+        "85": "\t\t// notification is from a remote user. We need to update UI accordingly.",
+        "86": "\t\tEnumeration<String> keyEnum = tableProperties.keys();",
+        "88": "\t\t\tString key = keyEnum.nextElement();",
+        "89": "\t\t\tString value = tableProperties.get(key).toString();",
+        "76": "\t@Override",
+        "77": "\tpublic void onUserChangeRoomProperty(RoomData roomData, String userName, Hashtable<String, Object> tableProperties, Hashtable<String, String> lockProperties) {"
+      },
+      "id": 75851403,
+      "filename": "EventHandler.java"
+    },
+    {
+      "repo": "git://github.com/apache/hive.git",
+      "language": "Java",
+      "linescount": 571,
+      "location": "/accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/mr",
+      "name": "hive",
+      "url": "https://searchcode.com/codesearch/view/116132347/",
+      "md5hash": "3f10390aa36b739549e24ece42f80f23",
+      "lines": {
+        "224": "    Properties tableProperties = new Properties();",
+        "225": "    tableProperties.setProperty(AccumuloSerDeParameters.COLUMN_MAPPINGS, \":rowID,cf:cq1,cf:cq2\");",
+        "226": "    tableProperties.setProperty(serdeConstants.FIELD_DELIM, \" \");",
+        "227": "    tableProperties.setProperty(serdeConstants.LIST_COLUMNS, Joiner.on(',').join(names));",
+        "228": "    tableProperties.setProperty(serdeConstants.LIST_COLUMN_TYPES, Joiner.on(',').join(types));",
+        "229": "    AccumuloSerDeParameters accumuloSerDeParams = new AccumuloSerDeParameters(new Configuration(),",
+        "230": "        tableProperties, AccumuloSerDe.class.getSimpleName());",
+        "321": "    tableProperties.setProperty(serdeConstants.LIST_COLUMN_TYPES, Joiner.on(',').join(types));",
+        "322": "    AccumuloSerDeParameters accumuloSerDeParams = new AccumuloSerDeParameters(new Configuration(),",
+        "320": "    tableProperties.setProperty(serdeConstants.LIST_COLUMNS, Joiner.on(',').join(names));",
+        "323": "        tableProperties, AccumuloSerDe.class.getSimpleName());",
+        "405": "",
+        "406": "    Properties tableProperties = new Properties();",
+        "407": "    tableProperties.setProperty(AccumuloSerDeParameters.COLUMN_MAPPINGS, \":rowID,cf:*\");",
+        "223": "",
+        "319": "    tableProperties.setProperty(serdeConstants.FIELD_DELIM, \" \");"
+      },
+      "id": 116132347,
+      "filename": "TestHiveAccumuloTableOutputFormat.java"
+    },
+    {
+      "repo": "git://github.com/apache/hive.git",
+      "language": "Java",
+      "linescount": 312,
+      "location": "/accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/serde",
+      "name": "hive",
+      "url": "https://searchcode.com/codesearch/view/116132345/",
+      "md5hash": "5bf50e55c7a92994f73fbd5be4eed839",
+      "lines": {
+        "177": "    tableProperties.setProperty(serdeConstants.LIST_COLUMNS, Joiner.on(',').join(columns));",
+        "103": "",
+        "104": "    Properties tableProperties = new Properties();",
+        "105": "    tableProperties.setProperty(AccumuloSerDeParameters.COLUMN_MAPPINGS,",
+        "106": "        \":rowid,cf:cq1#b,cf:cq2#b,cf:cq3\");",
+        "107": "    tableProperties.setProperty(serdeConstants.FIELD_DELIM, \" \");",
+        "172": "",
+        "173": "    Properties tableProperties = new Properties();",
+        "174": "    tableProperties.setProperty(AccumuloSerDeParameters.COLUMN_MAPPINGS,",
+        "175": "        \":rowid,cf:cq1#b,cf:cq2#b,cf:cq3\");",
+        "176": "    tableProperties.setProperty(serdeConstants.FIELD_DELIM, \" \");",
+        "108": "    tableProperties.setProperty(serdeConstants.LIST_COLUMNS, Joiner.on(',').join(columns));",
+        "178": "    tableProperties.setProperty(serdeConstants.LIST_COLUMN_TYPES, Joiner.on(',').join(typeNames));",
+        "179": "    AccumuloSerDeParameters accumuloSerDeParams = new AccumuloSerDeParameters(new Configuration(),",
+        "180": "        tableProperties, AccumuloSerDe.class.getSimpleName());"
+      },
+      "id": 116132345,
+      "filename": "TestAccumuloRowSerializer.java"
+    },
+    {
+      "repo": "git://github.com/apache/hive.git",
+      "language": "Java",
+      "linescount": 567,
+      "location": "/orc/src/java/org/apache/orc",
+      "name": "hive",
+      "url": "https://searchcode.com/codesearch/view/116134169/",
+      "md5hash": "bce7bee2a5aa595769a76cb24362e6c7",
+      "lines": {
+        "256": "",
+        "257": "    protected WriterOptions(Properties tableProperties, Configuration conf) {",
+        "259": "      memoryManagerValue = getStaticMemoryManager(conf);",
+        "260": "      stripeSizeValue = OrcConf.STRIPE_SIZE.getLong(tableProperties, conf);",
+        "261": "      blockSizeValue = OrcConf.BLOCK_SIZE.getLong(tableProperties, conf);",
+        "262": "      rowIndexStrideValue =",
+        "263": "          (int) OrcConf.ROW_INDEX_STRIDE.getLong(tableProperties, conf);",
+        "264": "      bufferSizeValue = (int) OrcConf.BUFFER_SIZE.getLong(tableProperties,",
+        "265": "          conf);",
+        "266": "      blockPaddingValue =",
+        "267": "          OrcConf.BLOCK_PADDING.getBoolean(tableProperties, conf);",
+        "268": "      compressValue =",
+        "269": "          CompressionKind.valueOf(OrcConf.COMPRESS.getString(tableProperties,",
+        "270": "              conf).toUpperCase());",
+        "271": "      String versionName = OrcConf.WRITE_FORMAT.getString(tableProperties,"
+      },
+      "id": 116134169,
+      "filename": "OrcFile.java"
+    },
+    {
+      "repo": "https://github.com/cloudera/hcatalog.git",
+      "language": "Java",
+      "linescount": 637,
+      "location": "/webhcat/java-client/src/test/java/org/apache/hcatalog/api",
+      "name": "hcatalog",
+      "url": "https://searchcode.com/codesearch/view/71746470/",
+      "md5hash": "3ca1b57714edbf85842deda66b450d36",
+      "lines": {
+        "496": "",
+        "492": "            String messageBusTopicName = \"MY.topic.name\";",
+        "493": "            Map<String, String> tableProperties = new HashMap<String, String>(1);",
+        "494": "            tableProperties.put(HCatConstants.HCAT_MSGBUS_TOPIC_NAME, messageBusTopicName);",
+        "495": "            client.createTable(HCatCreateTableDesc.create(dbName, tableName, Arrays.asList(new HCatFieldSchema(\"foo\", Type.STRING, \"\"))).tblProps(tableProperties).build());"
+      },
+      "id": 71746470,
+      "filename": "TestHCatClient.java"
+    },
+    {
+      "repo": "https://github.com/bockone/AppWarp_Android_SDK_JAR.git",
+      "language": "Java",
+      "linescount": 357,
+      "location": "/ArbitrationDemo/src/com/example/andengineappwarp/multiplayer/handler",
+      "name": "AppWarp_Android_SDK_JAR",
+      "url": "https://searchcode.com/codesearch/view/75851137/",
+      "md5hash": "549daf67045e400532aee8264938a400",
+      "lines": {
+        "96": "\tpublic void onUserChangeRoomProperty(final RoomData roomData, final String userName, final Hashtable<String, Object> tableProperties, final Hashtable<String, String> lockProperties) {",
+        "99": "\t\t\tfinal AndEngineTutorialActivity gameScreen = (AndEngineTutorialActivity) resultActivity;",
+        "100": "\t\t\tEnumeration<String> keyEnum = tableProperties.keys();",
+        "121": "\t\t\t\tpublic void run() {",
+        "122": "\t\t\t\t\tselectionScreen.handleLockInfo(tableProperties, lockProperties);",
+        "95": "\t@Override"
+      },
+      "id": 75851137,
+      "filename": "ResponseHandler.java"
+    },
+    {
+      "repo": "git://github.com/apache/hive.git",
+      "language": "Java",
+      "linescount": 293,
+      "location": "/accumulo-handler/src/java/org/apache/hadoop/hive/accumulo/serde",
+      "name": "hive",
+      "url": "https://searchcode.com/codesearch/view/116132413/",
+      "md5hash": "71c8daed4fa27d84206ed77afd22693e",
+      "lines": {
+        "64": "  private Properties tableProperties;",
+        "257": "  public Authorizations getAuthorizations() {",
+        "258": "    String authorizationStr = tableProperties.getProperty(AUTHORIZATIONS_KEY, null);",
+        "68": "",
+        "69": "  public AccumuloSerDeParameters(Configuration conf, Properties tableProperties, String serdeName)",
+        "71": "    super(conf);",
+        "72": "    this.tableProperties = tableProperties;",
+        "141": "",
+        "142": "  public Properties getTableProperties() {",
+        "143": "    return tableProperties;",
+        "144": "  }",
+        "146": "  public String getColumnTypeValue() {",
+        "147": "    return tableProperties.getProperty(serdeConstants.LIST_COLUMN_TYPES);",
+        "154": "  public String getColumnMappingValue() {",
+        "155": "    return tableProperties.getProperty(COLUMN_MAPPINGS);",
+        "63": ""
+      },
+      "id": 116132413,
+      "filename": "AccumuloSerDeParameters.java"
+    },
+    {
+      "repo": "git://github.com/apache/hive.git",
+      "language": "Java",
+      "linescount": 279,
+      "location": "/serde/src/java/org/apache/hadoop/hive/serde2/lazy",
+      "name": "hive",
+      "url": "https://searchcode.com/codesearch/view/116135249/",
+      "md5hash": "29be70fcf1e712f8a6d0795734c17a9d",
+      "lines": {
+        "225": "   * is set, the number of separators is extended to 154.",
+        "226": "   * @param tableProperties table properties to extract the user provided separators",
+        "227": "   */",
+        "228": "  private void collectSeparators(Properties tableProperties) {\t",
+        "230": "",
+        "231": "    String extendNestingValue = tableProperties.getProperty(SERIALIZATION_EXTEND_NESTING_LEVELS);",
+        "136": "    // Read the configuration parameters",
+        "137": "    String columnNameProperty = tableProperties.getProperty(serdeConstants.LIST_COLUMNS);",
+        "138": "    // NOTE: if \"columns.types\" is missing, all columns will be of String type",
+        "139": "    String columnTypeProperty = tableProperties.getProperty(serdeConstants.LIST_COLUMN_TYPES);",
+        "77": "  public LazySerDeParameters(Configuration job, Properties tbl, String serdeName) throws SerDeException {",
+        "78": "   this.tableProperties = tbl;",
+        "232": "    String extendAdditionalNestingValue = tableProperties.getProperty(SERIALIZATION_EXTEND_ADDITIONAL_NESTING_LEVELS);",
+        "54": "",
+        "55": "  private Properties tableProperties;"
+      },
+      "id": 116135249,
+      "filename": "LazySerDeParameters.java"
+    },
+    {
+      "repo": "https://github.com/jack19861225/cloudpack.git",
+      "language": "Java",
+      "linescount": 34872,
+      "location": "/src/main/java/org/sourceopen/hadoop/hive/resources/parser/analyze/ast",
+      "name": "cloudpack",
+      "url": "https://searchcode.com/codesearch/view/69896394/",
+      "md5hash": "ab2ba04a0e39febe5a14f9741a2a8c40",
+      "lines": {
+        "3714": "",
+        "3715": "                    // /work/workspace/taobao/tb-hiveparser/src/main/java/com/taobao/dw/parser/analyze/ast/Hive.g:455:10: ( tablePropertiesPrefixed )?",
+        "3368": "    // $ANTLR start createTableStatement",
+        "3369": "    // /work/workspace/taobao/tb-hiveparser/src/main/java/com/taobao/dw/parser/analyze/ast/Hive.g:442:1: createTableStatement : KW_CREATE (ext= KW_EXTERNAL )? KW_TABLE ( ifNotExists )? name= tableName (like= KW_LIKE likeName= tableName ( tableLocation )? | ( LPAREN columnNameTypeList RPAREN )? ( tableComment )? ( tablePartition )? ( tableBuckets )? ( tableRowFormat )? ( tableFileFormat )? ( tableLocation )? ( tablePropertiesPrefixed )? ( KW_AS selectStatement )? ) -> ^( TOK_CREATETABLE $name ( $ext)? ( ifNotExists )? ^( TOK_LIKETABLE ( $likeName)? ) ( columnNameTypeList )? ( tableComment )? ( tablePartition )? ( tableBuckets )? ( tableRowFormat )? ( tableFileFormat )? ( tableLocation )? ( tablePropertiesPrefixed )? ( selectStatement )? ) ;",
+        "3723": "                        case 1 :",
+        "3724": "                            // /work/workspace/taobao/tb-hiveparser/src/main/java/com/taobao/dw/parser/analyze/ast/Hive.g:455:10: tablePropertiesPrefixed",
+        "45": "    public static final String[] tokenNames = new String[] {",
+        "46": "        \"<invalid>\", \"<EOR>\", \"<DOWN>\", \"<UP>\", \"TOK_INSERT\", \"TOK_QUERY\", \"TOK_SELECT\", \"TOK_SELECTDI\", \"TOK_SELEXPR\", \"TOK_FROM\", \"TOK_TAB\", \"TOK_PARTSPEC\", \"TOK_PARTVAL\", \"TOK_DIR\", \"TOK_LOCAL_DIR\", \"TOK_TABREF\", \"TOK_SUBQUERY\", \"TOK_INSERT_INTO\", \"TOK_DESTINATION\", \"TOK_ALLCOLREF\", \"TOK_TABLE_OR_COL\", \"TOK_FUNCTION\", \"TOK_FUNCTIONDI\", \"TOK_FUNCTIONSTAR\", \"TOK_WHERE\", \"TOK_OP_EQ\", \"TOK_OP_NE\", \"TOK_OP_LE\", \"TOK_OP_LT\", \"TOK_OP_GE\", \"TOK_OP_GT\", \"TOK_OP_DIV\", \"TOK_OP_ADD\", \"TOK_OP_SUB\", \"TOK_OP_MUL\", \"TOK_OP_MOD\", \"TOK_OP_BITAND\", \"TOK_OP_BITNOT\", \"TOK_OP_BITOR\", \"TOK_OP_BITXOR\", \"TOK_OP_AND\", \"TOK_OP_OR\", \"TOK_OP_NOT\", \"TOK_OP_LIKE\", \"TOK_TRUE\", \"TOK_FALSE\", \"TOK_TRANSFORM\", \"TOK_SERDE\", \"TOK_SERDENAME\", \"TOK_SERDEPROPS\", \"TOK_EXPLIST\", \"TOK_ALIASLIST\", \"TOK_GROUPBY\", \"TOK_HAVING\", \"TOK_ORDERBY\", \"TOK_CLUSTERBY\", \"TOK_DISTRIBUTEBY\", \"TOK_SORTBY\", \"TOK_UNION\", \"TOK_JOIN\", \"TOK_LEFTOUTERJOIN\", \"TOK_RIGHTOUTERJOIN\", \"TOK_FULLOUTERJOIN\", \"TOK_UNIQUEJOIN\", \"TOK_LOAD\", \"TOK_EXPORT\", \"TOK_IMPORT\", \"TOK_NULL\", \"TOK_ISNULL\", \"TOK_ISNOTNULL\", \"TOK_TINYINT\", \"TOK_SMALLINT\", \"TOK_INT\", \"TOK_BIGINT\", \"TOK_BOOLEAN\", \"TOK_FLOAT\", \"TOK_DOUBLE\", \"TOK_DATE\", \"TOK_DATETIME\", \"TOK_TIMESTAMP\", \"TOK_STRING\", \"TOK_BINARY\", \"TOK_LIST\", \"TOK_STRUCT\", \"TOK_MAP\", \"TOK_UNIONTYPE\", \"TOK_COLTYPELIST\", \"TOK_CREATEDATABASE\", \"TOK_CREATETABLE\", \"TOK_CREATEINDEX\", \"TOK_CREATEINDEX_INDEXTBLNAME\", \"TOK_DEFERRED_REBUILDINDEX\", \"TOK_DROPINDEX\", \"TOK_LIKETABLE\", \"TOK_DESCTABLE\", \"TOK_DESCFUNCTION\", \"TOK_ALTERTABLE_PARTITION\", \"TOK_ALTERTABLE_RENAME\", \"TOK_ALTERTABLE_ADDCOLS\", \"TOK_ALTERTABLE_RENAMECOL\", \"TOK_ALTERTABLE_RENAMEPART\", \"TOK_ALTERTABLE_REPLACECOLS\", \"TOK_ALTERTABLE_ADDPARTS\", \"TOK_ALTERTABLE_DROPPARTS\", \"TOK_ALTERTABLE_ALTERPARTS_PROTECTMODE\", \"TOK_ALTERTABLE_TOUCH\", \"TOK_ALTERTABLE_ARCHIVE\", \"TOK_ALTERTABLE_UNARCHIVE\", \"TOK_ALTERTABLE_SERDEPROPERTIES\", \"TOK_ALTERTABLE_SERIALIZER\", \"TOK_TABLE_PARTITION\", \"TOK_ALTERTABLE_FILEFORMAT\", \"TOK_ALTERTABLE_LOCATION\", \"TOK_ALTERTABLE_PROPERTIES\", \"TOK_ALTERTABLE_CHANGECOL_AFTER_POSITION\", \"TOK_ALTERINDEX_REBUILD\", \"TOK_ALTERINDEX_PROPERTIES\", \"TOK_MSCK\", \"TOK_SHOWDATABASES\", \"TOK_SHOWTABLES\", \"TOK_SHOWFUNCTIONS\", \"TOK_SHOWPARTITIONS\", \"TOK_SHOW_TABLESTATUS\", \"TOK_SHOW_TBLPROPERTIES\", \"TOK_SHOWLOCKS\", \"TOK_LOCKTABLE\", \"TOK_UNLOCKTABLE\", \"TOK_SWITCHDATABASE\", \"TOK_DROPDATABASE\", \"TOK_DROPTABLE\", \"TOK_DATABASECOMMENT\", \"TOK_TABCOLLIST\", \"TOK_TABCOL\", \"TOK_TABLECOMMENT\", \"TOK_TABLEPARTCOLS\", \"TOK_TABLEBUCKETS\", \"TOK_TABLEROWFORMAT\", \"TOK_TABLEROWFORMATFIELD\", \"TOK_TABLEROWFORMATCOLLITEMS\", \"TOK_TABLEROWFORMATMAPKEYS\", \"TOK_TABLEROWFORMATLINES\", \"TOK_TBLSEQUENCEFILE\", \"TOK_TBLTEXTFILE\", \"TOK_TBLRCFILE\", \"TOK_TABLEFILEFORMAT\", \"TOK_FILEFORMAT_GENERIC\", \"TOK_OFFLINE\", \"TOK_ENABLE\", \"TOK_DISABLE\", \"TOK_READONLY\", \"TOK_NO_DROP\", \"TOK_STORAGEHANDLER\", \"TOK_ALTERTABLE_CLUSTER_SORT\", \"TOK_TABCOLNAME\", \"TOK_TABLELOCATION\", \"TOK_PARTITIONLOCATION\", \"TOK_TABLEBUCKETSAMPLE\", \"TOK_TABLESPLITSAMPLE\", \"TOK_TMP_FILE\", \"TOK_TABSORTCOLNAMEASC\", \"TOK_TABSORTCOLNAMEDESC\", \"TOK_STRINGLITERALSEQUENCE\", \"TOK_CHARSETLITERAL\", \"TOK_CREATEFUNCTION\", \"TOK_DROPFUNCTION\", \"TOK_CREATEVIEW\", \"TOK_DROPVIEW\", \"TOK_ALTERVIEW_PROPERTIES\", \"TOK_ALTERVIEW_ADDPARTS\", \"TOK_ALTERVIEW_DROPPARTS\", \"TOK_ALTERVIEW_RENAME\", \"TOK_VIEWPARTCOLS\", \"TOK_EXPLAIN\", \"TOK_TABLESERIALIZER\", \"TOK_TABLEPROPERTIES\", \"TOK_TABLEPROPLIST\", \"TOK_INDEXPROPERTIES\", \"TOK_INDEXPROPLIST\", \"TOK_TABTYPE\", \"TOK_LIMIT\", \"TOK_TABLEPROPERTY\", \"TOK_IFEXISTS\", \"TOK_IFNOTEXISTS\", \"TOK_ORREPLACE\", \"TOK_HINTLIST\", \"TOK_HINT\", \"TOK_MAPJOIN\", \"TOK_STREAMTABLE\", \"TOK_HOLD_DDLTIME\", \"TOK_HINTARGLIST\", \"TOK_USERSCRIPTCOLNAMES\", \"TOK_USERSCRIPTCOLSCHEMA\", \"TOK_RECORDREADER\", \"TOK_RECORDWRITER\", \"TOK_LEFTSEMIJOIN\", \"TOK_LATERAL_VIEW\", \"TOK_TABALIAS\", \"TOK_ANALYZE\", \"TOK_CREATEROLE\", \"TOK_DROPROLE\", \"TOK_GRANT\", \"TOK_REVOKE\", \"TOK_SHOW_GRANT\", \"TOK_PRIVILEGE_LIST\", \"TOK_PRIVILEGE\", \"TOK_PRINCIPAL_NAME\", \"TOK_USER\", \"TOK_GROUP\", \"TOK_ROLE\", \"TOK_GRANT_WITH_OPTION\", \"TOK_PRIV_ALL\", \"TOK_PRIV_ALTER_METADATA\", \"TOK_PRIV_ALTER_DATA\", \"TOK_PRIV_DROP\", \"TOK_PRIV_INDEX\", \"TOK_PRIV_LOCK\", \"TOK_PRIV_SELECT\", \"TOK_PRIV_SHOW_DATABASE\", \"TOK_PRIV_CREATE\", \"TOK_PRIV_OBJECT\", \"TOK_PRIV_OBJECT_COL\", \"TOK_GRANT_ROLE\", \"TOK_REVOKE_ROLE\", \"TOK_SHOW_ROLE_GRANT\", \"TOK_SHOWINDEXES\", \"TOK_INDEXCOMMENT\", \"TOK_DESCDATABASE\", \"TOK_DATABASEPROPERTIES\", \"TOK_DATABASELOCATION\", \"TOK_DBPROPLIST\", \"TOK_ALTERDATABASE_PROPERTIES\", \"TOK_ALTERTABLE_ALTERPARTS_MERGEFILES\", \"TOK_TABNAME\", \"TOK_TABSRC\", \"TOK_RESTRICT\", \"TOK_CASCADE\", \"KW_EXPLAIN\", \"KW_EXTENDED\", \"KW_FORMATTED\", \"KW_LOAD\", \"KW_DATA\", \"KW_LOCAL\", \"KW_INPATH\", \"StringLiteral\", \"KW_OVERWRITE\", \"KW_INTO\", \"KW_TABLE\", \"KW_EXPORT\", \"KW_TO\", \"KW_IMPORT\", \"KW_EXTERNAL\", \"KW_FROM\", \"KW_IF\", \"KW_EXISTS\", \"KW_RESTRICT\", \"KW_CASCADE\", \"KW_NOT\", \"KW_OR\", \"KW_REPLACE\", \"KW_CREATE\", \"KW_DATABASE\", \"KW_SCHEMA\", \"Identifier\", \"KW_WITH\", \"KW_DBPROPERTIES\", \"KW_LOCATION\", \"LPAREN\", \"RPAREN\", \"COMMA\", \"KW_USE\", \"KW_DROP\", \"KW_COMMENT\", \"KW_LIKE\", \"KW_AS\", \"KW_INDEX\", \"KW_ON\", \"KW_DEFERRED\", \"KW_REBUILD\", \"KW_IN\", \"KW_IDXPROPERTIES\", \"KW_ALTER\", \"KW_VIEW\", \"KW_SET\", \"KW_RENAME\", \"KW_ADD\", \"KW_COLUMNS\", \"KW_CHANGE\", \"KW_COLUMN\", \"KW_FIRST\", \"KW_AFTER\", \"KW_TOUCH\", \"KW_ARCHIVE\", \"KW_UNARCHIVE\", \"KW_TBLPROPERTIES\", \"KW_SERDE\", \"KW_SERDEPROPERTIES\", \"KW_FILEFORMAT\", \"KW_CONCATENATE\", \"KW_ENABLE\", \"KW_DISABLE\", \"KW_OFFLINE\", \"KW_NO_DROP\", \"KW_READONLY\", \"KW_CLUSTERED\", \"KW_SEQUENCEFILE\", \"KW_TEXTFILE\", \"KW_RCFILE\", \"KW_INPUTFORMAT\", \"KW_OUTPUTFORMAT\", \"KW_INPUTDRIVER\", \"KW_OUTPUTDRIVER\", \"DOT\", \"KW_ELEM_TYPE\", \"KW_KEY_TYPE\", \"KW_VALUE_TYPE\", \"KW_DESCRIBE\", \"KW_DESC\", \"KW_FUNCTION\", \"KW_ANALYZE\", \"KW_COMPUTE\", \"KW_STATISTICS\", \"KW_SHOW\", \"KW_DATABASES\", \"KW_SCHEMAS\", \"KW_TABLES\", \"KW_FUNCTIONS\", \"KW_PARTITIONS\", \"KW_LOCKS\", \"KW_INDEXES\", \"KW_LOCK\", \"KW_SHARED\", \"KW_EXCLUSIVE\", \"KW_UNLOCK\", \"KW_GRANT\", \"KW_REVOKE\", \"KW_ALL\", \"KW_UPDATE\", \"KW_SELECT\", \"KW_SHOW_DATABASE\", \"KW_GROUP\", \"KW_OPTION\", \"KW_MSCK\", \"KW_REPAIR\", \"KW_TEMPORARY\", \"KW_PARTITIONED\", \"KW_BY\", \"KW_SORTED\", \"Number\", \"KW_BUCKETS\", \"KW_RECORDREADER\", \"KW_RECORDWRITER\", \"KW_ROW\", \"KW_FORMAT\", \"KW_DELIMITED\", \"EQUAL\", \"KW_FIELDS\", \"KW_TERMINATED\", \"KW_ESCAPED\", \"KW_COLLECTION\", \"KW_ITEMS\", \"KW_MAP\", \"KW_KEYS\", \"KW_LINES\", \"KW_STORED\", \"KW_ASC\", \"COLON\", \"KW_TINYINT\", \"KW_SMALLINT\", \"KW_INT\", \"KW_BIGINT\", \"KW_BOOLEAN\", \"KW_FLOAT\", \"KW_DOUBLE\", \"KW_DATE\", \"KW_DATETIME\", \"KW_TIMESTAMP\", \"KW_STRING\", \"KW_BINARY\", \"KW_ARRAY\", \"LESSTHAN\", \"GREATERTHAN\", \"KW_STRUCT\", \"KW_UNIONTYPE\", \"KW_UNION\", \"KW_INSERT\", \"KW_DIRECTORY\", \"KW_LIMIT\", \"KW_DISTINCT\", \"KW_TRANSFORM\", \"KW_USING\", \"DIVIDE\", \"STAR\", \"PLUS\", \"KW_MAPJOIN\", \"KW_STREAMTABLE\", \"KW_HOLD_DDLTIME\", \"KW_REDUCE\", \"KW_PRESERVE\", \"KW_UNIQUEJOIN\", \"KW_JOIN\", \"KW_LEFT\", \"KW_OUTER\", \"KW_RIGHT\", \"KW_FULL\", \"KW_SEMI\", \"KW_LATERAL\", \"KW_TABLESAMPLE\", \"KW_BUCKET\", \"KW_OUT\", \"KW_OF\", \"KW_PERCENT\", \"KW_WHERE\", \"KW_HAVING\", \"KW_ORDER\", \"KW_CLUSTER\", \"KW_DISTRIBUTE\", \"KW_SORT\", \"KW_CAST\", \"KW_CASE\", \"KW_WHEN\", \"KW_THEN\", \"KW_ELSE\", \"KW_END\", \"BigintLiteral\", \"SmallintLiteral\", \"TinyintLiteral\", \"CharSetName\", \"CharSetLiteral\", \"KW_NULL\", \"LSQUARE\", \"RSQUARE\", \"MINUS\", \"TILDE\", \"KW_IS\", \"BITWISEXOR\", \"MOD\", \"DIV\", \"AMPERSAND\", \"BITWISEOR\", \"KW_RLIKE\", \"KW_REGEXP\", \"EQUAL_NS\", \"NOTEQUAL\", \"LESSTHANOREQUALTO\", \"GREATERTHANOREQUALTO\", \"KW_BETWEEN\", \"KW_AND\", \"KW_TRUE\", \"KW_FALSE\", \"KW_PARTITION\", \"KW_CLUSTERSTATUS\", \"KW_UTC\", \"KW_UTCTIMESTAMP\", \"KW_LONG\", \"KW_DELETE\", \"KW_PLUS\", \"KW_MINUS\", \"KW_FETCH\", \"KW_INTERSECT\", \"KW_MATERIALIZED\", \"KW_SSL\", \"KW_UNDO\", \"KW_PROCEDURE\", \"KW_UNSIGNED\", \"KW_WHILE\", \"KW_READ\", \"KW_READS\", \"KW_PURGE\", \"KW_RANGE\", \"KW_BEFORE\", \"KW_BOTH\", \"KW_CROSS\", \"KW_CONTINUE\", \"KW_CURSOR\", \"KW_TRIGGER\", \"SEMICOLON\", \"LCURLY\", \"RCURLY\", \"QUESTION\", \"DOLLAR\", \"Letter\", \"HexDigit\", \"Digit\", \"Exponent\", \"RegexComponent\", \"WS\", \"COMMENT\"",
+        "3725": "                            {",
+        "3728": "                            _fsp--;",
+        "3729": "",
+        "3730": "                            stream_tablePropertiesPrefixed.add(tablePropertiesPrefixed96.getTree());",
+        "3507": "                NoViableAltException nvae =",
+        "3508": "                    new NoViableAltException(\"446:7: (like= KW_LIKE likeName= tableName ( tableLocation )? | ( LPAREN columnNameTypeList RPAREN )? ( tableComment )? ( tablePartition )? ( tableBuckets )? ( tableRowFormat )? ( tableFileFormat )? ( tableLocation )? ( tablePropertiesPrefixed )? ( KW_AS selectStatement )? )\", 32, 0, input);",
+        "3726": "                            pushFollow(FOLLOW_tablePropertiesPrefixed_in_createTableStatement2090);",
+        "3727": "                            tablePropertiesPrefixed96=tablePropertiesPrefixed();"
+      },
+      "id": 69896394,
+      "filename": "HiveParser.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 376,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 118,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 9,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 8,
+      "source": "Unknown",
+      "id": 0
+    },
+    {
+      "count": 6,
+      "source": "Sourceforge",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "matchterm": "CTPoint3D",
+  "previouspage": null,
+  "searchterm": "CTPoint3D",
+  "query": "CTPoint3D",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 87,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402691/",
+      "md5hash": "7c1f17ccbb615c01fa88f38b766d471e",
+      "lines": {
+        "16": "public interface CTPoint3D extends org.apache.xmlbeans.XmlObject",
+        "19": "        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CTPoint3D.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sE130CAA0A01A7CDE5A2B4FEB8B311707\").resolveHandle(\"ctpoint3dd472type\");",
+        "18": "    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTPoint3D",
+        "15": " */"
+      },
+      "id": 97402691,
+      "filename": "CTPoint3D.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 109,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642237/",
+      "md5hash": "5512508aa12b92c796a818cd1d75bb70",
+      "lines": {
+        "50": "@XmlType(name = \"CT_Point3D\")",
+        "51": "public class CTPoint3D {"
+      },
+      "id": 17642237,
+      "filename": "CTPoint3D.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 256,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403527/",
+      "md5hash": "24202e6e5cf6c1f3cf10cc62828972a3",
+      "lines": {
+        "34": "     */",
+        "35": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTPoint3D getAnchor()",
+        "70": "     */",
+        "39": "            check_orphaned();",
+        "40": "            org.openxmlformats.schemas.drawingml.x2006.main.CTPoint3D target = null;",
+        "41": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTPoint3D)get_store().find_element_user(ANCHOR$0, 0);",
+        "42": "            if (target == null)",
+        "71": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTPoint3D addNewAnchor()",
+        "76": "            org.openxmlformats.schemas.drawingml.x2006.main.CTPoint3D target = null;",
+        "77": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTPoint3D)get_store().add_element_user(ANCHOR$0);",
+        "78": "            return target;",
+        "75": "            check_orphaned();",
+        "52": "     */",
+        "53": "    public void setAnchor(org.openxmlformats.schemas.drawingml.x2006.main.CTPoint3D anchor)",
+        "61": "            {",
+        "62": "                target = (org.openxmlformats.schemas.drawingml.x2006.main.CTPoint3D)get_store().add_element_user(ANCHOR$0);"
+      },
+      "id": 97403527,
+      "filename": "CTBackdropImpl.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 166,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642066/",
+      "md5hash": "88fbd73944818a8b7cd6a2d1b80d0fd0",
+      "lines": {
+        "85": "     *     allowed object is",
+        "86": "     *     {@link CTPoint3D }",
+        "89": "    public void setAnchor(CTPoint3D value) {",
+        "88": "     */",
+        "73": "     *     possible object is",
+        "74": "     *     {@link CTPoint3D }",
+        "76": "     */",
+        "61": "    @XmlElement(required = true)",
+        "62": "    protected CTPoint3D anchor;",
+        "77": "    public CTPoint3D getAnchor() {"
+      },
+      "id": 17642066,
+      "filename": "CTBackdrop.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 3480,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642161/",
+      "md5hash": "ecaf98912e449049698e790afd5f5c5a",
+      "lines": {
+        "369": "    /**",
+        "370": "     * Create an instance of {@link CTPoint3D }",
+        "372": "     */",
+        "373": "    public CTPoint3D createCTPoint3D() {",
+        "374": "        return new CTPoint3D();",
+        "375": "    }"
+      },
+      "id": 17642161,
+      "filename": "ObjectFactory.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 97,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403079/",
+      "md5hash": "8b42689b0d18ef06e3e0f26ab957c5ce",
+      "lines": {
+        "33": "     */",
+        "34": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPoint3D addNewAnchor();",
+        "23": "     */",
+        "24": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPoint3D getAnchor();",
+        "28": "     */",
+        "29": "    void setAnchor(org.openxmlformats.schemas.drawingml.x2006.main.CTPoint3D anchor);"
+      },
+      "id": 97403079,
+      "filename": "CTBackdrop.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 234,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97404033/",
+      "md5hash": "e409a50e7f60843d04ce78859f5ed1cf",
+      "lines": {
+        "16": "    ",
+        "17": "    public CTPoint3DImpl(org.apache.xmlbeans.SchemaType sType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTPoint3D",
+        "13": " */",
+        "14": "public class CTPoint3DImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.openxmlformats.schemas.drawingml.x2006.main.CTPoint3D"
+      },
+      "id": 97404033,
+      "filename": "CTPoint3DImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

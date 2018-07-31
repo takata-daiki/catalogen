@@ -1,0 +1,211 @@
+{
+  "matchterm": "HSSFFormulaEvaluator",
+  "previouspage": null,
+  "searchterm": "HSSFFormulaEvaluator",
+  "query": "HSSFFormulaEvaluator",
+  "language_filters": [
+    {
+      "count": 10,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 10,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/openicar/juniprint",
+      "language": "Java",
+      "linescount": 2096,
+      "location": "/src/main/java/org/comsoft/juniprint",
+      "name": "juniprint",
+      "url": "https://searchcode.com/codesearch/view/60212057/",
+      "md5hash": "e9487002cf69dbd9246766c01c968b73",
+      "lines": {
+        "35": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "260": "\t\tDefaultUDFFinder userUDFFinder = new DefaultUDFFinder(functionNames, functionImpls);",
+        "261": "\t\tevaluator = HSSFFormulaEvaluator.create(wb, null, userUDFFinder);",
+        "87": "\t",
+        "88": "\tprivate HSSFFormulaEvaluator evaluator;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator;",
+        "1643": "\t\t",
+        "1644": "\t\t//HSSFFormulaEvaluator formulaEvaluator = new HSSFFormulaEvaluator(wb);"
+      },
+      "id": 60212057,
+      "filename": "JUniPrint.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openicar/core",
+      "language": "Java",
+      "linescount": 341,
+      "location": "/components/src/main/java/org/comsoft/system/excel",
+      "name": "core",
+      "url": "https://searchcode.com/codesearch/view/102774956/",
+      "md5hash": "d4792e09c1e402da2a4e8a4d9e7a83b6",
+      "lines": {
+        "88": "\t\t// \u0411\u0443\u0434\u0435\u043c \u0432\u044b\u0447\u0438\u0441\u043b\u044f\u0442\u044c \u0444\u043e\u0440\u043c\u0443\u043b\u044b",
+        "41": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
+        "42": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator;",
+        "89": "\t\tHSSFFormulaEvaluator evaluator = new HSSFFormulaEvaluator(wb);"
+      },
+      "id": 102774956,
+      "filename": "ExcelParser.java"
+    },
+    {
+      "repo": "https://github.com/denodoro/org.openscada.deploy.git",
+      "language": "Java",
+      "linescount": 172,
+      "location": "/org.openscada.atlantis.configurator/src/org/openscada/atlantis/configurator/common",
+      "name": "org.openscada.deploy",
+      "url": "https://searchcode.com/codesearch/view/73880973/",
+      "md5hash": "333633e9b6a660c399c9d5824941e082",
+      "lines": {
+        "8": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "9": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator;",
+        "142": "",
+        "143": "        final HSSFFormulaEvaluator eval = new HSSFFormulaEvaluator ( workbook );"
+      },
+      "id": 73880973,
+      "filename": "DataLoaderXls.java"
+    },
+    {
+      "repo": "https://github.com/denodoro/org.openscada.deploy.git",
+      "language": "Java",
+      "linescount": 368,
+      "location": "/org.openscada.deploy.iolist.utils/src/org/openscada/deploy/iolist/utils",
+      "name": "org.openscada.deploy",
+      "url": "https://searchcode.com/codesearch/view/73882044/",
+      "md5hash": "4a7ca4a683a9f5ccf8a2f445a41aaab9",
+      "lines": {
+        "292": "",
+        "293": "        final HSSFFormulaEvaluator eval = new HSSFFormulaEvaluator ( workbook );",
+        "14": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "15": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator;"
+      },
+      "id": 73882044,
+      "filename": "SpreadSheetPoiHelper.java"
+    },
+    {
+      "repo": "http://javashellscript.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 190,
+      "location": "/JavaShellScript/jsslib/src/jsslib/excel",
+      "name": "javashellscript",
+      "url": "https://searchcode.com/codesearch/view/13216283/",
+      "md5hash": "339a5478640635ca58c7d984f07ad047",
+      "lines": {
+        "67": "        //Falls Formeln ausgewertet werden m\u00fcssen",
+        "68": "        evaluator = new HSSFFormulaEvaluator(wb);",
+        "24": "     */",
+        "25": "    private HSSFFormulaEvaluator evaluator;",
+        "10": "import org.apache.poi.hssf.usermodel.HSSFDataFormatter;",
+        "11": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator;",
+        "12": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator.CellValue;",
+        "13": "import org.apache.poi.hssf.usermodel.HSSFRow;"
+      },
+      "id": 13216283,
+      "filename": "ExcelReader.java"
+    },
+    {
+      "repo": "https://bitbucket.org/manticoretrader/swingui",
+      "language": "Java",
+      "linescount": 671,
+      "location": "/src/com/manticore/swingui",
+      "name": "swingui",
+      "url": "https://searchcode.com/codesearch/view/64378108/",
+      "md5hash": "8d9899f56b5c3102026f2d2d32fc0655",
+      "lines": {
+        "56": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator;",
+        "473": "",
+        "474": "      HSSFFormulaEvaluator.evaluateAllFormulaCells(wb);",
+        "55": "import javax.swing.table.DefaultTableModel;"
+      },
+      "id": 64378108,
+      "filename": "MTable.java"
+    },
+    {
+      "repo": "https://github.com/tobyweston/simple-excel.git",
+      "language": "Java",
+      "linescount": 174,
+      "location": "/src/main/java/bad/robot/excel/workbook",
+      "name": "simple-excel",
+      "url": "https://searchcode.com/codesearch/view/67862077/",
+      "md5hash": "1d73c17ff877b8d18206ad1d345d79af",
+      "lines": {
+        "24": "import bad.robot.excel.sheet.SheetIndex;",
+        "25": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator;",
+        "146": "    public PoiWorkbook refreshFormulas() {",
+        "147": "        HSSFFormulaEvaluator.evaluateAllFormulaCells(workbook);"
+      },
+      "id": 67862077,
+      "filename": "PoiWorkbook.java"
+    },
+    {
+      "repo": "http://sqlreport.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 321,
+      "location": "/java/sourcecode/Excel/src/com/jeasonzhao/commons/excel",
+      "name": "sqlreport",
+      "url": "https://searchcode.com/codesearch/view/3760572/",
+      "md5hash": "ceb3bff690ff223b6dbcf03afdeb2f02",
+      "lines": {
+        "8": "import org.apache.poi.hssf.usermodel.HSSFComment;",
+        "9": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator;",
+        "205": "        }",
+        "206": "        HSSFFormulaEvaluator evaluator = new HSSFFormulaEvaluator(this.m_workBook.getHSSFWorkbook());"
+      },
+      "id": 3760572,
+      "filename": "Cell.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 354,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970720/",
+      "md5hash": "5f7e28ce78cf6ecb0819700f4859940e",
+      "lines": {
+        "25": "import org.zkoss.poi.hssf.record.NameRecord;",
+        "26": "import org.zkoss.poi.hssf.usermodel.HSSFFormulaEvaluator;",
+        "76": "\t\tif (resolver == null) resolver = new DefaultFunctionResolver();",
+        "77": "\t\t_evaluator = HSSFFormulaEvaluator.create(this, NoCacheClassifier.instance, resolver.getUDFFinder()); "
+      },
+      "id": 3970720,
+      "filename": "HSSFBookImpl.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1069,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642368/",
+      "md5hash": "28d644f6963548f6234cc54a47085ba2",
+      "lines": {
+        "108": "     *  model.Workbook, then use the convenience method on",
+        "109": "     *  usermodel.HSSFFormulaEvaluator "
+      },
+      "id": 15642368,
+      "filename": "FormulaParser.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 3,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 3,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

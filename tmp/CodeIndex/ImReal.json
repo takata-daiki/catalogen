@@ -1,0 +1,243 @@
+{
+  "matchterm": "ImReal",
+  "previouspage": null,
+  "searchterm": "ImReal",
+  "query": "ImReal",
+  "language_filters": [
+    {
+      "count": 12,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 12,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/feliksik/rdfgears",
+      "language": "Java",
+      "linescount": 223,
+      "location": "/rdfgears-plugins/src/main/java/nl/tudelft/rdfgears/rgl/function/imreal",
+      "name": "rdfgears",
+      "url": "https://searchcode.com/codesearch/view/123526527/",
+      "md5hash": "2b091bd4a4c71361736303790313a1a6",
+      "lines": {
+        "1": "package nl.tudelft.rdfgears.rgl.function.imreal;",
+        "2": "",
+        "174": "\t\t */",
+        "175": "\t\tFile profileDir = new File(Config.getWritableDir()+\"/imreal-language-profiles\"); /* should be cross-platform and work in webapps */"
+      },
+      "id": 123526527,
+      "filename": "TwitterLanguageDetector.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1430,
+      "location": "/zssapp/src/org/zkoss/zss/app/formula",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969892/",
+      "md5hash": "a07bf1b4287ec51f4c6c5c920d857dd5",
+      "lines": {
+        "1384": "\t\tengAry.add(new FormulaMetaInfo(ENGINEERING,",
+        "1385": "\t\t\t\t\"IMREAL\",",
+        "1386": "\t\t\t\t\"IMREAL(inumber)\",",
+        "1387": "\t\t\t\t\"Returns the real coefficient of a complex number\","
+      },
+      "id": 3969892,
+      "filename": "Formulas.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 1451,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47124968/",
+      "md5hash": "994b1c012a7ddfa2eae1064001b4a2c3",
+      "lines": {
+        "467": "\tpublic static final int xlfIMSIN=\t425;",
+        "468": "\tpublic static final int xlfIMREAL=\t426;",
+        "1307": "\t\t\tcase xlfIMAGINARY: \treturn \"IMAGINARY(\";",
+        "1308": "\t\t\tcase xlfIMREAL:\t\treturn \"IMREAL(\";",
+        "830": "\t\t\t{\"IMAGINARY\", String.valueOf(xlfIMAGINARY), String.valueOf(FTYPE_PTGFUNCVAR_ADDIN)},",
+        "831": "\t\t\t{\"IMREAL\",\tString.valueOf(xlfIMREAL), String.valueOf(FTYPE_PTGFUNCVAR_ADDIN)},"
+      },
+      "id": 47124968,
+      "filename": "FunctionConstants.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 2327,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47124972/",
+      "md5hash": "96976d1214bb59af0fb30b94c8962738",
+      "lines": {
+        "2016": "\tIMREAL",
+        "2032": "\t\tPtgNumber pnum= new PtgNumber(c.real);",
+        "2018": " */",
+        "2019": "\tprotected static Ptg calcImReal(Ptg[] operands) {",
+        "2022": "\t\t}",
+        "2023": "\t\tif (DEBUG) debugOperands(operands, \"IMREAL\");",
+        "2033": "\t\tif (DEBUG) Logger.logInfo(\"Result from IMREAL= \" + pnum.getString());",
+        "2015": "/**\t"
+      },
+      "id": 47124972,
+      "filename": "EngineeringCalculator.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 1451,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976592/",
+      "md5hash": "994b1c012a7ddfa2eae1064001b4a2c3",
+      "lines": {
+        "467": "\tpublic static final int xlfIMSIN=\t425;",
+        "468": "\tpublic static final int xlfIMREAL=\t426;",
+        "1307": "\t\t\tcase xlfIMAGINARY: \treturn \"IMAGINARY(\";",
+        "1308": "\t\t\tcase xlfIMREAL:\t\treturn \"IMREAL(\";",
+        "830": "\t\t\t{\"IMAGINARY\", String.valueOf(xlfIMAGINARY), String.valueOf(FTYPE_PTGFUNCVAR_ADDIN)},",
+        "831": "\t\t\t{\"IMREAL\",\tString.valueOf(xlfIMREAL), String.valueOf(FTYPE_PTGFUNCVAR_ADDIN)},"
+      },
+      "id": 50976592,
+      "filename": "FunctionConstants.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 2327,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976596/",
+      "md5hash": "96976d1214bb59af0fb30b94c8962738",
+      "lines": {
+        "2016": "\tIMREAL",
+        "2032": "\t\tPtgNumber pnum= new PtgNumber(c.real);",
+        "2018": " */",
+        "2019": "\tprotected static Ptg calcImReal(Ptg[] operands) {",
+        "2022": "\t\t}",
+        "2023": "\t\tif (DEBUG) debugOperands(operands, \"IMREAL\");",
+        "2033": "\t\tif (DEBUG) Logger.logInfo(\"Result from IMREAL= \" + pnum.getString());",
+        "2015": "/**\t"
+      },
+      "id": 50976596,
+      "filename": "EngineeringCalculator.java"
+    },
+    {
+      "repo": "https://bitbucket.org/feliksik/rdfgears",
+      "language": "Java",
+      "linescount": 201,
+      "location": "/rdfgears-cli/src/main/java/nl/tudelft/rdfgears/cli",
+      "name": "rdfgears",
+      "url": "https://searchcode.com/codesearch/view/123525902/",
+      "md5hash": "ccd5e54ca5490e6752072efc451a89e5",
+      "lines": {
+        "136": "",
+        "137": "\t\t} if (format.equals(\"imreal\")) {",
+        "138": "\t\t\t(new ImRealXMLSerializer(returnType, System.out)).serialize(value);",
+        "139": "\t\t\treturn;",
+        "12": "import nl.tudelft.rdfgears.rgl.datamodel.value.serialization.rglxml.ValueXMLSerializer;",
+        "13": "import nl.tudelft.rdfgears.rgl.datamodel.value.visitors.ImRealXMLSerializer;"
+      },
+      "id": 123525902,
+      "filename": "RDFGears.java"
+    },
+    {
+      "repo": "https://github.com/dsths/mondrian.git",
+      "language": "Java",
+      "linescount": 1111,
+      "location": "/src/main/mondrian/olap/fun/vba",
+      "name": "mondrian",
+      "url": "https://searchcode.com/codesearch/view/100412065/",
+      "md5hash": "97269efda67b1f67b152b3400030b364",
+      "lines": {
+        "520": "    // Todo: ImReal Returns the real coefficient of a complex number in x + yi",
+        "519": ""
+      },
+      "id": 100412065,
+      "filename": "Excel.java"
+    },
+    {
+      "repo": "https://github.com/Berico-Technologies/mondrian.git",
+      "language": "Java",
+      "linescount": 1111,
+      "location": "/src/main/mondrian/olap/fun/vba",
+      "name": "mondrian",
+      "url": "https://searchcode.com/codesearch/view/69456290/",
+      "md5hash": "d000de4330f4246f9ea598129c490c5c",
+      "lines": {
+        "520": "    // Todo: ImReal Returns the real coefficient of a complex number in x + yi",
+        "519": ""
+      },
+      "id": 69456290,
+      "filename": "Excel.java"
+    },
+    {
+      "repo": "https://bitbucket.org/feliksik/rdfgears",
+      "language": "Java",
+      "linescount": 246,
+      "location": "/rdfgears-plugins/src/main/java/nl/tudelft/rdfgears/rgl/function/imreal",
+      "name": "rdfgears",
+      "url": "https://searchcode.com/codesearch/view/123526525/",
+      "md5hash": "6c4d31f77fac8011a5890d6702f54cd6",
+      "lines": {
+        "1": "package nl.tudelft.rdfgears.rgl.function.imreal;",
+        "2": ""
+      },
+      "id": 123526525,
+      "filename": "FlickrPhotoLocator.java"
+    },
+    {
+      "repo": "https://bitbucket.org/feliksik/rdfgears",
+      "language": "Java",
+      "linescount": 237,
+      "location": "/rdfgears-plugins/src/main/java/nl/tudelft/rdfgears/rgl/function/imreal",
+      "name": "rdfgears",
+      "url": "https://searchcode.com/codesearch/view/123526526/",
+      "md5hash": "36165f59092df8bfebab2183964dba04",
+      "lines": {
+        "1": "package nl.tudelft.rdfgears.rgl.function.imreal;",
+        "2": ""
+      },
+      "id": 123526526,
+      "filename": "CoordinatesToCountry.java"
+    },
+    {
+      "repo": "https://bitbucket.org/feliksik/rdfgears.core",
+      "language": "Java",
+      "linescount": 33,
+      "location": "/src/main/java/nl/tudelft/imreal",
+      "name": "rdfgears.core",
+      "url": "https://searchcode.com/codesearch/view/62356938/",
+      "md5hash": "c37a2d1c9d68de5158b21a0d6dda5af3",
+      "lines": {
+        "1": "package nl.tudelft.imreal;",
+        "2": ""
+      },
+      "id": 62356938,
+      "filename": "DoSomethingFunky.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 9,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

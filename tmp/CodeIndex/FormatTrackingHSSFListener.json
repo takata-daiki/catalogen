@@ -1,0 +1,65 @@
+{
+  "matchterm": "FormatTrackingHSSFListener",
+  "previouspage": null,
+  "searchterm": "FormatTrackingHSSFListener",
+  "query": "FormatTrackingHSSFListener",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 595,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785559/",
+      "md5hash": "6b55090236799f49ee0f5bd7d54bbbac",
+      "lines": {
+        "34": "import org.apache.poi.ddf.EscherRecord;",
+        "35": "import org.apache.poi.hssf.eventusermodel.FormatTrackingHSSFListener;",
+        "182": "        /**",
+        "183": "         * Internal <code>FormatTrackingHSSFListener</code> to handle cell",
+        "185": "         */",
+        "186": "        private FormatTrackingHSSFListener formatListener;",
+        "235": "            this.format = NumberFormat.getInstance(locale);",
+        "236": "            this.formatListener = new FormatTrackingHSSFListener(this, locale);"
+      },
+      "id": 111785559,
+      "filename": "ExcelExtractor.java"
+    },
+    {
+      "repo": "https://github.com/xiezhaohui/DataViewer.git",
+      "language": "Java",
+      "linescount": 304,
+      "location": "/ETL/src/com/util",
+      "name": "DataViewer",
+      "url": "https://searchcode.com/codesearch/view/68613461/",
+      "md5hash": "8bd64dddea629578a6d8e6f976c7b348",
+      "lines": {
+        "99": "\t\tformatListener = new FormatTrackingHSSFListener(listener);",
+        "98": "\t\t\t\tthis);",
+        "51": "\tprivate SSTRecord sstRecord;",
+        "52": "\tprivate FormatTrackingHSSFListener formatListener;",
+        "9": "",
+        "10": "import org.apache.poi.hssf.eventusermodel.FormatTrackingHSSFListener;"
+      },
+      "id": 68613461,
+      "filename": "HxlsAbstract.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

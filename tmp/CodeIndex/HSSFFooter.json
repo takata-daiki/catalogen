@@ -1,0 +1,379 @@
+{
+  "matchterm": "HSSFFooter",
+  "previouspage": null,
+  "searchterm": "HSSFFooter",
+  "query": "HSSFFooter",
+  "language_filters": [
+    {
+      "count": 36,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 36,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 280,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642318/",
+      "md5hash": "5ff4707f30030f3aa145734784a4dcea",
+      "lines": {
+        "48": " * The footer works by having a left, center, and right side.  The total cannot",
+        "49": " * be more that 255 bytes long.  One uses this class by getting the HSSFFooter",
+        "67": "     */",
+        "68": "    protected HSSFFooter(FooterRecord footerRecord) {",
+        "56": " */",
+        "57": "public class HSSFFooter extends Object {"
+      },
+      "id": 15642318,
+      "filename": "HSSFFooter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/emmie/adempiere-patches",
+      "language": "Java",
+      "linescount": 473,
+      "location": "/base/src/org/adempiere/impexp",
+      "name": "adempiere-patches",
+      "url": "https://searchcode.com/codesearch/view/102528302/",
+      "md5hash": "ff85ab83dce319bf411596c3e566349d",
+      "lines": {
+        "334": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "333": "\t\t// Sheet Footer"
+      },
+      "id": 102528302,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ctron/org.openscada.orilla.git",
+      "language": "Java",
+      "linescount": 334,
+      "location": "/org.openscada.ae.ui.views.export.excel/src/org/openscada/ae/ui/views/export/excel/impl",
+      "name": "org.openscada.orilla",
+      "url": "https://searchcode.com/codesearch/view/122444114/",
+      "md5hash": "e281103aee607d2e4060b4cc78a4ed02",
+      "lines": {
+        "276": "",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
+        "37": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "277": "        final HSSFFooter footer = sheet.getFooter ();"
+      },
+      "id": 122444114,
+      "filename": "ExportEventsImpl.java"
+    },
+    {
+      "repo": "http://krank.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 342,
+      "location": "/examples/security-webapp/src/main/java/org/crank/controller",
+      "name": "krank",
+      "url": "https://searchcode.com/codesearch/view/4293932/",
+      "md5hash": "02c045ab5f627f369858e993f26ef14b",
+      "lines": {
+        "16": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "240": "        HSSFFooter footer = sheet.getFooter();",
+        "242": "        // Fit Sheet to 1 page wide but very long",
+        "241": "        footer.setCenter(\"Page \" + HSSFFooter.page() + \" of \" + HSSFFooter.numPages());",
+        "15": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "239": "        wb.setPrintArea(0, 0, colCount, 0, rowCount);"
+      },
+      "id": 4293932,
+      "filename": "ExcelExportControllerBean.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1607,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642322/",
+      "md5hash": "5084cc24e46752bd3911d5d0a983e0a6",
+      "lines": {
+        "864": "    {",
+        "865": "        return new HSSFFooter( getSheet().getFooter() );",
+        "862": "     */",
+        "863": "    public HSSFFooter getFooter()"
+      },
+      "id": 15642322,
+      "filename": "HSSFSheet.java"
+    },
+    {
+      "repo": "https://bitbucket.org/edwin_ang/idempiere-mbd",
+      "language": "Java",
+      "linescount": 503,
+      "location": "/org.adempiere.base/src/org/adempiere/impexp",
+      "name": "idempiere-mbd",
+      "url": "https://searchcode.com/codesearch/view/59777594/",
+      "md5hash": "8e9a27ad157d0e20ab643ffb8c5b9d30",
+      "lines": {
+        "337": "\t\t// Sheet Footer",
+        "338": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;"
+      },
+      "id": 59777594,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/siberium/siberium-ierp",
+      "language": "Java",
+      "linescount": 503,
+      "location": "/org.adempiere.base/src/org/adempiere/impexp",
+      "name": "siberium-ierp",
+      "url": "https://searchcode.com/codesearch/view/61401276/",
+      "md5hash": "8e9a27ad157d0e20ab643ffb8c5b9d30",
+      "lines": {
+        "337": "\t\t// Sheet Footer",
+        "338": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;"
+      },
+      "id": 61401276,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/javier_p_villamizar/idempiere",
+      "language": "Java",
+      "linescount": 505,
+      "location": "/org.adempiere.base/src/org/adempiere/impexp",
+      "name": "idempiere",
+      "url": "https://searchcode.com/codesearch/view/62551719/",
+      "md5hash": "c7cf1ef5bae5431604ffae8de1305e3f",
+      "lines": {
+        "339": "\t\t// Sheet Footer",
+        "340": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;"
+      },
+      "id": 62551719,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tbayen/idempiere",
+      "language": "Java",
+      "linescount": 503,
+      "location": "/org.adempiere.base/src/org/adempiere/impexp",
+      "name": "idempiere",
+      "url": "https://searchcode.com/codesearch/view/62628992/",
+      "md5hash": "8e9a27ad157d0e20ab643ffb8c5b9d30",
+      "lines": {
+        "337": "\t\t// Sheet Footer",
+        "338": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;"
+      },
+      "id": 62628992,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/sphiphatchamikorn/adempiere361",
+      "language": "Java",
+      "linescount": 474,
+      "location": "/base/src/org/adempiere/impexp",
+      "name": "adempiere361",
+      "url": "https://searchcode.com/codesearch/view/63385794/",
+      "md5hash": "4e80b12708a60a947d9b7c23cd66ba00",
+      "lines": {
+        "334": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "333": "\t\t// Sheet Footer"
+      },
+      "id": 63385794,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/sthamthum/adempiere361",
+      "language": "Java",
+      "linescount": 474,
+      "location": "/base/src/org/adempiere/impexp",
+      "name": "adempiere361",
+      "url": "https://searchcode.com/codesearch/view/63585397/",
+      "md5hash": "4e80b12708a60a947d9b7c23cd66ba00",
+      "lines": {
+        "334": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "333": "\t\t// Sheet Footer"
+      },
+      "id": 63585397,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/zeed23/adempiere361",
+      "language": "Java",
+      "linescount": 474,
+      "location": "/base/src/org/adempiere/impexp",
+      "name": "adempiere361",
+      "url": "https://searchcode.com/codesearch/view/63687137/",
+      "md5hash": "4e80b12708a60a947d9b7c23cd66ba00",
+      "lines": {
+        "334": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "333": "\t\t// Sheet Footer"
+      },
+      "id": 63687137,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/idempiere/idempiere/",
+      "language": "Java",
+      "linescount": 520,
+      "location": "/org.adempiere.base/src/org/adempiere/impexp",
+      "name": "idempiere",
+      "url": "https://searchcode.com/codesearch/view/3305415/",
+      "md5hash": "d6924b664322bba95c11159dbf946846",
+      "lines": {
+        "339": "\t\t// Sheet Footer",
+        "340": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;"
+      },
+      "id": 3305415,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tspc/adempiere361/",
+      "language": "Java",
+      "linescount": 474,
+      "location": "/base/src/org/adempiere/impexp",
+      "name": "adempiere361",
+      "url": "https://searchcode.com/codesearch/view/8373941/",
+      "md5hash": "4e80b12708a60a947d9b7c23cd66ba00",
+      "lines": {
+        "334": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "333": "\t\t// Sheet Footer"
+      },
+      "id": 8373941,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/hengsin/idempiere-hengsin",
+      "language": "Java",
+      "linescount": 505,
+      "location": "/org.adempiere.base/src/org/adempiere/impexp",
+      "name": "idempiere-hengsin",
+      "url": "https://searchcode.com/codesearch/view/125664761/",
+      "md5hash": "c7cf1ef5bae5431604ffae8de1305e3f",
+      "lines": {
+        "339": "\t\t// Sheet Footer",
+        "340": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;"
+      },
+      "id": 125664761,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/mdlibunao/idempiere",
+      "language": "Java",
+      "linescount": 505,
+      "location": "/org.adempiere.base/src/org/adempiere/impexp",
+      "name": "idempiere",
+      "url": "https://searchcode.com/codesearch/view/126228263/",
+      "md5hash": "c7cf1ef5bae5431604ffae8de1305e3f",
+      "lines": {
+        "339": "\t\t// Sheet Footer",
+        "340": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;"
+      },
+      "id": 126228263,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tbayen/adempiere361-tb",
+      "language": "Java",
+      "linescount": 474,
+      "location": "/base/src/org/adempiere/impexp",
+      "name": "adempiere361-tb",
+      "url": "https://searchcode.com/codesearch/view/127474998/",
+      "md5hash": "4e80b12708a60a947d9b7c23cd66ba00",
+      "lines": {
+        "334": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "333": "\t\t// Sheet Footer"
+      },
+      "id": 127474998,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nmicoud/adempiere361-nm",
+      "language": "Java",
+      "linescount": 474,
+      "location": "/base/src/org/adempiere/impexp",
+      "name": "adempiere361-nm",
+      "url": "https://searchcode.com/codesearch/view/127623755/",
+      "md5hash": "4e80b12708a60a947d9b7c23cd66ba00",
+      "lines": {
+        "334": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "333": "\t\t// Sheet Footer"
+      },
+      "id": 127623755,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/petershen/idempiere",
+      "language": "Java",
+      "linescount": 505,
+      "location": "/org.adempiere.base/src/org/adempiere/impexp",
+      "name": "idempiere",
+      "url": "https://searchcode.com/codesearch/view/128658872/",
+      "md5hash": "c7cf1ef5bae5431604ffae8de1305e3f",
+      "lines": {
+        "339": "\t\t// Sheet Footer",
+        "340": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;"
+      },
+      "id": 128658872,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/javier_p_villamizar/setadempiere361",
+      "language": "Java",
+      "linescount": 474,
+      "location": "/base/src/org/adempiere/impexp",
+      "name": "setadempiere361",
+      "url": "https://searchcode.com/codesearch/view/129711141/",
+      "md5hash": "4e80b12708a60a947d9b7c23cd66ba00",
+      "lines": {
+        "334": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "333": "\t\t// Sheet Footer"
+      },
+      "id": 129711141,
+      "filename": "AbstractExcelExporter.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 33,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

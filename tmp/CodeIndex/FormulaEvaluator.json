@@ -1,0 +1,428 @@
+{
+  "matchterm": "FormulaEvaluator",
+  "previouspage": null,
+  "searchterm": "FormulaEvaluator",
+  "query": "FormulaEvaluator",
+  "language_filters": [
+    {
+      "count": 56,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 56,
+  "results": [
+    {
+      "repo": "https://repast.svn.sourceforge.net/svnroot/repast",
+      "language": "Java",
+      "linescount": 83,
+      "location": "/repast.simphony/tags/RS-2.0b/repast.simphony.data/src/repast/simphony/data/logging/formula",
+      "name": "repast",
+      "url": "https://searchcode.com/codesearch/view/14341761/",
+      "md5hash": "f15c7b7c572ac0f1796286db0beddcae",
+      "lines": {
+        "49": "  /**",
+        "50": "   * Initializes this FormulaEvaluator prior to evaluation.",
+        "28": "   */",
+        "13": " */",
+        "14": "public class FormulaEvaluator {",
+        "29": "  public FormulaEvaluator(String formula, List<Class> agentClasses) throws ParseException,"
+      },
+      "id": 14341761,
+      "filename": "FormulaEvaluator.java"
+    },
+    {
+      "repo": "https://bitbucket.org/abrin/excelunit",
+      "language": "Java",
+      "linescount": 272,
+      "location": "/src/main/java/org/digant",
+      "name": "excelunit",
+      "url": "https://searchcode.com/codesearch/view/64419074/",
+      "md5hash": "afb2273468a9143c8e7491d51efe8bf1",
+      "lines": {
+        "147": "        Cell cell = getCell(row, column);",
+        "38": "            WorkbookFactory.create(inputStream);",
+        "39": "            setFormulaEvaluator(getWorkbook().getCreationHelper().createFormulaEvaluator());",
+        "137": "        Cell cell = getCell(row, column);",
+        "138": "        Assert.assertEquals(formulaEvaluator.evaluate(cell).getStringValue(), obj);",
+        "11": "import org.apache.poi.ss.usermodel.Font;",
+        "12": "import org.apache.poi.ss.usermodel.FormulaEvaluator;",
+        "142": "        Cell cell = getCell(row, column);",
+        "143": "        Assert.assertEquals(formulaEvaluator.evaluate(cell).getNumberValue(), obj);",
+        "51": "    private String getCellAsString(Cell cell) {",
+        "52": "        return formatter.formatCellValue(cell, formulaEvaluator);",
+        "23": "    private DataFormatter formatter = new HSSFDataFormatter();",
+        "24": "    private FormulaEvaluator formulaEvaluator;",
+        "148": "        Assert.assertEquals(formulaEvaluator.evaluate(cell).getBooleanValue(), obj);",
+        "28": "            setWorkbook(WorkbookFactory.create(new FileInputStream(file)));",
+        "29": "            setFormulaEvaluator(getWorkbook().getCreationHelper().createFormulaEvaluator());"
+      },
+      "id": 64419074,
+      "filename": "ExcelUnit.java"
+    },
+    {
+      "repo": "https://github.com/abhinav681/drools.git",
+      "language": "Java",
+      "linescount": 276,
+      "location": "/drools-decisiontables/src/main/java/org/drools/decisiontable/parser/xls",
+      "name": "drools",
+      "url": "https://searchcode.com/codesearch/view/93105691/",
+      "md5hash": "dfb6123bb8748bdec7b3f0caf1a28d29",
+      "lines": {
+        "153": "                            try {",
+        "154": "                                CellValue cv = formulaEvaluator.evaluate( cell );",
+        "123": "        DataFormatter formatter = new DataFormatter( Locale.ENGLISH );",
+        "124": "        FormulaEvaluator formulaEvaluator = sheet.getWorkbook().getCreationHelper().createFormulaEvaluator();",
+        "30": "import org.apache.poi.ss.usermodel.DataFormatter;",
+        "31": "import org.apache.poi.ss.usermodel.FormulaEvaluator;"
+      },
+      "id": 93105691,
+      "filename": "ExcelParser.java"
+    },
+    {
+      "repo": "https://github.com/strategist922/saiku-adhoc.git",
+      "language": "Java",
+      "linescount": 163,
+      "location": "/saiku-adhoc-core/src/main/java/org/saiku/adhoc/service/cda",
+      "name": "saiku-adhoc",
+      "url": "https://searchcode.com/codesearch/view/73963769/",
+      "md5hash": "14bf4d0b99409725d6b073164fa2125d",
+      "lines": {
+        "24": "import pt.webdetails.cda.dataaccess.InvalidParameterException;",
+        "25": "import pt.webdetails.cda.utils.FormulaEvaluator;",
+        "152": "\t\t\t\tObject value = FormulaEvaluator.processFormula(formula);",
+        "151": "\t\t\t\t}"
+      },
+      "id": 73963769,
+      "filename": "SaikuCdaQueryBackend.java"
+    },
+    {
+      "repo": "https://github.com/teruok78/pentaho-kettle.git",
+      "language": "Java",
+      "linescount": 500,
+      "location": "/ui/src/org/pentaho/libformula/ui/editor",
+      "name": "pentaho-kettle",
+      "url": "https://searchcode.com/codesearch/view/95320585/",
+      "md5hash": "11bf82c31c996c8a38379701406b14ac",
+      "lines": {
+        "68": "import org.pentaho.di.ui.core.gui.GUIResource;",
+        "69": "import org.pentaho.libformula.editor.FormulaEvaluator;",
+        "171": "",
+        "172": "    evaluator = new FormulaEvaluator( functions, inputFields );",
+        "109": "",
+        "110": "  private FormulaEvaluator evaluator;"
+      },
+      "id": 95320585,
+      "filename": "LibFormulaEditor.java"
+    },
+    {
+      "repo": "https://github.com/fbacall/simple-spreadsheet-extractor.git",
+      "language": "Java",
+      "linescount": 386,
+      "location": "/src/main/java/org/sysmodb",
+      "name": "simple-spreadsheet-extractor",
+      "url": "https://searchcode.com/codesearch/view/112283807/",
+      "md5hash": "b4c7167c826ed9305d54dad45c0f80f4",
+      "lines": {
+        "24": "import org.apache.poi.ss.usermodel.DateUtil;",
+        "25": "import org.apache.poi.ss.usermodel.FormulaEvaluator;",
+        "360": "\t\t\t\tFormulaEvaluator evaluator = poi_workbook.getCreationHelper().createFormulaEvaluator();",
+        "359": "\t\t\t\t"
+      },
+      "id": 112283807,
+      "filename": "WorkbookParser.java"
+    },
+    {
+      "repo": "https://bitbucket.org/manticoretrader/etltools",
+      "language": "Java",
+      "linescount": 91,
+      "location": "/src/com/manticore/report",
+      "name": "etltools",
+      "url": "https://searchcode.com/codesearch/view/121321561/",
+      "md5hash": "7b68c9964bb208d63c4c92c259779657",
+      "lines": {
+        "26": "import org.apache.poi.ss.usermodel.Cell;",
+        "27": "import org.apache.poi.ss.usermodel.FormulaEvaluator;",
+        "60": "",
+        "61": "        FormulaEvaluator evaluator = workbook.getCreationHelper()",
+        "62": "            .createFormulaEvaluator();",
+        "63": "        for (int sheetNum = 0; sheetNum < workbook.getNumberOfSheets(); sheetNum++) {"
+      },
+      "id": 121321561,
+      "filename": "FormulaTest.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghooning/pentaho-kettle-4.3.0-stable.git",
+      "language": "Java",
+      "linescount": 936,
+      "location": "/src/org/pentaho/di/trans/steps/excelwriter",
+      "name": "pentaho-kettle-4.3.0-stable",
+      "url": "https://searchcode.com/codesearch/view/42462258/",
+      "md5hash": "b84f6536268cba938c4b3d41c46cab83",
+      "lines": {
+        "40": "import org.apache.poi.ss.usermodel.Font;",
+        "41": "import org.apache.poi.ss.usermodel.FormulaEvaluator;",
+        "240": "\t\t\t// XLSX needs full reevaluation",
+        "241": "\t\t\tFormulaEvaluator evaluator = data.wb.getCreationHelper().createFormulaEvaluator();"
+      },
+      "id": 42462258,
+      "filename": "ExcelWriterStep.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nuclos/nuclos.git",
+      "language": "Java",
+      "linescount": 381,
+      "location": "/nuclos-server/src/main/java/org/nuclos/server/report/export",
+      "name": "nuclos",
+      "url": "https://searchcode.com/codesearch/view/46076709/",
+      "md5hash": "0434c7560e7436aa98ede524f57fa6b2",
+      "lines": {
+        "35": "import org.apache.poi.ss.usermodel.CreationHelper;",
+        "36": "import org.apache.poi.ss.usermodel.FormulaEvaluator;",
+        "269": "\t\ttry {",
+        "270": "\t\t\tFormulaEvaluator evaluator = wb.getCreationHelper().createFormulaEvaluator();"
+      },
+      "id": 46076709,
+      "filename": "ExcelExport.java"
+    },
+    {
+      "repo": "https://bitbucket.org/dyp/geotools.git",
+      "language": "Java",
+      "linescount": 309,
+      "location": "/modules/unsupported/excel/src/main/java/org/geotools/data/excel",
+      "name": "geotools",
+      "url": "https://searchcode.com/codesearch/view/47133171/",
+      "md5hash": "fe30f879878fbc312da81ba6f54ea9fc",
+      "lines": {
+        "97": "        filteredFeatures = new ArrayList<SimpleFeature>();",
+        "98": "        evaluator = dataStore.workbook.getCreationHelper().createFormulaEvaluator();",
+        "68": "",
+        "69": "    private FormulaEvaluator evaluator;",
+        "27": "import org.apache.poi.ss.usermodel.CellValue;",
+        "28": "import org.apache.poi.ss.usermodel.FormulaEvaluator;"
+      },
+      "id": 47133171,
+      "filename": "ExcelFeatureSource.java"
+    },
+    {
+      "repo": "https://github.com/724150880/teiid.git",
+      "language": "Java",
+      "linescount": 349,
+      "location": "/connectors/translator-excel/src/main/java/org/teiid/translator/excel",
+      "name": "teiid",
+      "url": "https://searchcode.com/codesearch/view/92343158/",
+      "md5hash": "2b56e02a4692b8ff1b2cb22a74ec116e",
+      "lines": {
+        "80": "\tprivate ExcelQueryVisitor visitor;",
+        "81": "\tprivate FormulaEvaluator evaluator;",
+        "126": "\t\t\t\tthis.evaluator = workbook.getCreationHelper().createFormulaEvaluator();",
+        "118": "\t\t\t\tHSSFSheet sheet = workbook.getSheet(this.visitor.getSheetName());",
+        "119": "\t\t\t\tthis.evaluator = workbook.getCreationHelper().createFormulaEvaluator();",
+        "45": "import org.apache.poi.ss.usermodel.Cell;",
+        "46": "import org.apache.poi.ss.usermodel.FormulaEvaluator;",
+        "125": "\t\t\t\tXSSFSheet sheet = workbook.getSheet(this.visitor.getSheetName());"
+      },
+      "id": 92343158,
+      "filename": "ExcelExecution.java"
+    },
+    {
+      "repo": "https://bitbucket.org/adufour/icy-workbooks.git",
+      "language": "Java",
+      "linescount": 698,
+      "location": "/src/plugins/adufour/workbooks",
+      "name": "icy-workbooks",
+      "url": "https://searchcode.com/codesearch/view/103223911/",
+      "md5hash": "215eef82694740f002e989e48c51ae19",
+      "lines": {
+        "32": "    private final FormulaEvaluator evaluator;",
+        "36": "        this.sheet = sheet;",
+        "37": "        this.evaluator = sheet.getWorkbook().getCreationHelper().createFormulaEvaluator();",
+        "13": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "14": "import org.apache.poi.ss.usermodel.FormulaEvaluator;",
+        "31": "    "
+      },
+      "id": 103223911,
+      "filename": "IcySpreadSheet.java"
+    },
+    {
+      "repo": "http://mypomodoro.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 191,
+      "location": "/src/main/java/org/mypomodoro/gui/reports/export",
+      "name": "mypomodoro",
+      "url": "https://searchcode.com/codesearch/view/3408722/",
+      "md5hash": "16862d48046a9f5c151c2598699cdb46",
+      "lines": {
+        "25": "import org.apache.poi.ss.usermodel.DateUtil;",
+        "26": "import org.apache.poi.ss.usermodel.FormulaEvaluator;",
+        "140": "        HSSFWorkbook book = new HSSFWorkbook(myxls);",
+        "141": "        FormulaEvaluator eval = book.getCreationHelper().createFormulaEvaluator();",
+        "158": "    private String getCellContent(Cell cell, FormulaEvaluator eval) {",
+        "157": ""
+      },
+      "id": 3408722,
+      "filename": "ImportPanel.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 431,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970717/",
+      "md5hash": "7316273b22d01b3aaca97abfed972abf",
+      "lines": {
+        "152": "\t@Override",
+        "107": "\t\t_evaluator = XSSFFormulaEvaluator.create(this, NoCacheClassifier.instance, resolver.getUDFFinder()); ",
+        "38": "import org.zkoss.poi.ss.usermodel.Font;",
+        "71": "\tprivate final String _bookname;",
+        "72": "\tprivate final FormulaEvaluator _evaluator;",
+        "153": "\tpublic FormulaEvaluator getFormulaEvaluator() {",
+        "106": "\t\tif (resolver == null) resolver = new DefaultFunctionResolver();",
+        "39": "import org.zkoss.poi.ss.usermodel.FormulaEvaluator;",
+        "46": "import org.zkoss.poi.xssf.usermodel.XSSFFont;",
+        "47": "import org.zkoss.poi.xssf.usermodel.XSSFFormulaEvaluator;"
+      },
+      "id": 3970717,
+      "filename": "XSSFBookImpl.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 354,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970720/",
+      "md5hash": "5f7e28ce78cf6ecb0819700f4859940e",
+      "lines": {
+        "124": "\tpublic FormulaEvaluator getFormulaEvaluator() {",
+        "36": "import org.zkoss.poi.ss.usermodel.Font;",
+        "37": "import org.zkoss.poi.ss.usermodel.FormulaEvaluator;",
+        "25": "import org.zkoss.poi.hssf.record.NameRecord;",
+        "26": "import org.zkoss.poi.hssf.usermodel.HSSFFormulaEvaluator;",
+        "123": "\t@Override",
+        "76": "\t\tif (resolver == null) resolver = new DefaultFunctionResolver();",
+        "61": "\tprivate final String _bookname;",
+        "62": "\tprivate final FormulaEvaluator _evaluator;",
+        "77": "\t\t_evaluator = HSSFFormulaEvaluator.create(this, NoCacheClassifier.instance, resolver.getUDFFinder()); "
+      },
+      "id": 3970720,
+      "filename": "HSSFBookImpl.java"
+    },
+    {
+      "repo": "https://repast.svn.sourceforge.net/svnroot/repast",
+      "language": "Java",
+      "linescount": 61,
+      "location": "/repast.simphony/tags/RS-2.0b/repast.simphony.data.ui/src/repast/simphony/data/gui/formula",
+      "name": "repast",
+      "url": "https://searchcode.com/codesearch/view/14339973/",
+      "md5hash": "8bf4735b24a34a3824a59512d1252f71",
+      "lines": {
+        "18": "",
+        "19": "  public FormulaScriptRepresentation(FormulaEvaluator eval, boolean isAggregate) {",
+        "4": "import repast.simphony.data.gui.MappingSourceRepresentation;",
+        "5": "import repast.simphony.data.logging.formula.FormulaEvaluator;",
+        "13": "",
+        "14": "  private FormulaEvaluator eval;"
+      },
+      "id": 14339973,
+      "filename": "FormulaScriptRepresentation.java"
+    },
+    {
+      "repo": "https://repast.svn.sourceforge.net/svnroot/repast",
+      "language": "Java",
+      "linescount": 143,
+      "location": "/repast.simphony/tags/RS-2.0b/repast.simphony.data.ui/src/repast/simphony/data/gui/formula",
+      "name": "repast",
+      "url": "https://searchcode.com/codesearch/view/14339974/",
+      "md5hash": "97a5952ffaafdd060527d952400fbbf4",
+      "lines": {
+        "24": "import repast.simphony.data.gui.DataMappingWizardModel;",
+        "25": "import repast.simphony.data.logging.formula.FormulaEvaluator;",
+        "82": "      FormulaEvaluator eval = new FormulaEvaluator(script, classes);",
+        "81": "    try {"
+      },
+      "id": 14339974,
+      "filename": "FormulaScriptStep.java"
+    },
+    {
+      "repo": "https://bitbucket.org/wakaleo/jxlunit",
+      "language": "Java",
+      "linescount": 137,
+      "location": "/src/main/java/com/wakaleo/training/jxlunit",
+      "name": "jxlunit",
+      "url": "https://searchcode.com/codesearch/view/54316596/",
+      "md5hash": "68e1ef2e41a44d0407726b2ca5ccb47d",
+      "lines": {
+        "120": "    private Object evaluateCellFormula(final HSSFWorkbook workbook, final Cell cell) {",
+        "121": "        FormulaEvaluator evaluator = workbook.getCreationHelper()",
+        "122": "                .createFormulaEvaluator();",
+        "123": "        CellValue cellValue = evaluator.evaluate(cell);",
+        "13": "import org.apache.poi.ss.usermodel.DateUtil;",
+        "14": "import org.apache.poi.ss.usermodel.FormulaEvaluator;"
+      },
+      "id": 54316596,
+      "filename": "SpreadsheetData.java"
+    },
+    {
+      "repo": "https://bitbucket.org/varad/apache-poi-example",
+      "language": "Java",
+      "linescount": 63,
+      "location": "/src/main/java/cz/iglu/varad/poiexcel",
+      "name": "apache-poi-example",
+      "url": "https://searchcode.com/codesearch/view/56685640/",
+      "md5hash": "9c727bab09e19ff7a8ad8eb5d8412de7",
+      "lines": {
+        "8": "import org.apache.poi.ss.usermodel.Cell;",
+        "9": "import org.apache.poi.ss.usermodel.FormulaEvaluator;",
+        "42": "        // refresh start",
+        "43": "        FormulaEvaluator evaluator = wb.getCreationHelper().createFormulaEvaluator();"
+      },
+      "id": 56685640,
+      "filename": "App.java"
+    },
+    {
+      "repo": "https://github.com/vrindamarfatia/JSP_Servlet_Practice.git",
+      "language": "Java",
+      "linescount": 243,
+      "location": "/Practice/JAVA/POI/POITest/src/test/poi",
+      "name": "JSP_Servlet_Practice",
+      "url": "https://searchcode.com/codesearch/view/69545898/",
+      "md5hash": "385549c6713531c8123285480d593bf3",
+      "lines": {
+        "17": "import org.apache.poi.ss.usermodel.Font;",
+        "18": "import org.apache.poi.ss.usermodel.FormulaEvaluator;",
+        "37": "\t// evaluator to evaluate formula cell",
+        "38": "\tprivate static FormulaEvaluator _evaluator;",
+        "124": "",
+        "125": "\t\t_evaluator = wb.getCreationHelper().createFormulaEvaluator();"
+      },
+      "id": 69545898,
+      "filename": "POITest.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 34,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 10,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 5,
+      "source": "Sourceforge",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "matchterm": "RecordAggregate",
+  "previouspage": null,
+  "searchterm": "RecordAggregate",
+  "query": "RecordAggregate",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/semantalytics/RightField.git",
+      "language": "Java",
+      "linescount": 140,
+      "location": "/src/main/java/uk/ac/manchester/cs/owl/semspreadsheets/model/hssf/impl",
+      "name": "RightField",
+      "url": "https://searchcode.com/codesearch/view/72854649/",
+      "md5hash": "9b32ac4d62bd845be04702f4e7103178",
+      "lines": {
+        "55": "\t\tdvt.visitContainedRecords(new RecordAggregate.RecordVisitor() {",
+        "54": "\t\tDataValidityTable dvt = sheet.getDataValidityTable();",
+        "14": "import org.apache.poi.hssf.record.aggregates.DataValidityTable;",
+        "15": "import org.apache.poi.hssf.record.aggregates.RecordAggregate;"
+      },
+      "id": 72854649,
+      "filename": "PatchedPoi.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1319,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970708/",
+      "md5hash": "e52c956c400b399e06a805984e2f85f6",
+      "lines": {
+        "35": "import org.zkoss.poi.hssf.record.aggregates.DataValidityTable;",
+        "36": "import org.zkoss.poi.hssf.record.aggregates.RecordAggregate.RecordVisitor;"
+      },
+      "id": 3970708,
+      "filename": "HSSFSheetImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

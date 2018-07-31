@@ -1,0 +1,95 @@
+{
+  "matchterm": "EmbeddedObjectRefSubRecord",
+  "previouspage": null,
+  "searchterm": "EmbeddedObjectRefSubRecord",
+  "query": "EmbeddedObjectRefSubRecord",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 207,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642459/",
+      "md5hash": "8cb229e4f250f2d32331d813231e29b1",
+      "lines": {
+        "67": "",
+        "68": "    public EmbeddedObjectRefSubRecord()",
+        "53": " */",
+        "54": "public class EmbeddedObjectRefSubRecord",
+        "76": "     */",
+        "77": "    public EmbeddedObjectRefSubRecord(RecordInputStream in)"
+      },
+      "id": 15642459,
+      "filename": "EmbeddedObjectRefSubRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 113,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642306/",
+      "md5hash": "3613bd6cf2b6f9fa2a5342df16094323",
+      "lines": {
+        "44": "",
+        "95": "                int streamId = ((EmbeddedObjectRefSubRecord) subRecord).getStreamId();",
+        "92": "            Object subRecord = subRecordIter.next();",
+        "45": "import loci.poi.hssf.record.EmbeddedObjectRefSubRecord;",
+        "94": "            {",
+        "93": "            if (subRecord instanceof EmbeddedObjectRefSubRecord)"
+      },
+      "id": 15642306,
+      "filename": "HSSFObjectData.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 101,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642394/",
+      "md5hash": "d40b14ea92262475f6a64dcc34544617",
+      "lines": {
+        "82": "                break;",
+        "83": "            case EmbeddedObjectRefSubRecord.sid:",
+        "84": "                r = new EmbeddedObjectRefSubRecord( in );",
+        "85": "                break;"
+      },
+      "id": 15642394,
+      "filename": "SubRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1445,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642316/",
+      "md5hash": "4f7b036daf89776dc4ee4606b7972144",
+      "lines": {
+        "1429": "                    Object sub = subRecordIter.next();",
+        "1430": "                    if (sub instanceof EmbeddedObjectRefSubRecord)"
+      },
+      "id": 15642316,
+      "filename": "HSSFWorkbook.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

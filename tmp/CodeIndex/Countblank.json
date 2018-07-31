@@ -1,0 +1,305 @@
+{
+  "matchterm": "Countblank",
+  "previouspage": null,
+  "searchterm": "Countblank",
+  "query": "Countblank",
+  "language_filters": [
+    {
+      "count": 16,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 16,
+  "results": [
+    {
+      "repo": "https://github.com/poidasmith/xlloop.git",
+      "language": "Java",
+      "linescount": 45,
+      "location": "/org.boris.expr/java/src/org/boris/expr/function/excel",
+      "name": "xlloop",
+      "url": "https://searchcode.com/codesearch/view/105398677/",
+      "md5hash": "d186f1c4e69c32ab728d9d25a7f64d60",
+      "lines": {
+        "10": "",
+        "11": "public class COUNTBLANK extends AbstractFunction"
+      },
+      "id": 105398677,
+      "filename": "COUNTBLANK.java"
+    },
+    {
+      "repo": "https://github.com/poidasmith/xlloop.git",
+      "language": "Java",
+      "linescount": 517,
+      "location": "/org.boris.expr/java/test/org/boris/expr",
+      "name": "xlloop",
+      "url": "https://searchcode.com/codesearch/view/105398262/",
+      "md5hash": "fca189def2482b8ec825119b2ae658b0",
+      "lines": {
+        "160": "        COUNTBLANK c = new COUNTBLANK();",
+        "161": "        assertEquals(eval(c, ExprMissing.MISSING, 1), 1);",
+        "25": "import org.boris.expr.function.excel.COUNTA;",
+        "26": "import org.boris.expr.function.excel.COUNTBLANK;",
+        "158": "",
+        "159": "    public void testCOUNTBLANK() throws Exception {"
+      },
+      "id": 105398262,
+      "filename": "ExcelStatisticalFunctionsTest.java"
+    },
+    {
+      "repo": "https://github.com/Spencerx/xwiki-commons.git",
+      "language": "Java",
+      "linescount": 347,
+      "location": "/xwiki-commons-core/xwiki-commons-crypto/xwiki-commons-crypto-common/src/main/java/org/xwiki/crypto/internal/encoder",
+      "name": "xwiki-commons",
+      "url": "https://searchcode.com/codesearch/view/100893557/",
+      "md5hash": "23fca90894538b05409bdaab2701e528",
+      "lines": {
+        "138": "         */",
+        "139": "        private int countBlank(int off, int len)",
+        "196": "            if (rlen > 0) {",
+        "197": "                rblank = countBlank(bufLen, rlen);"
+      },
+      "id": 100893557,
+      "filename": "BcBinaryStringEncoderInputStream.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1714,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/demo",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374641/",
+      "md5hash": "141f7c54a2adb4ebadaf028d80dc92c0",
+      "lines": {
+        "1608": "    l = new Label(3, 34, \"COUNTBLANK(A1:C14)\");",
+        "1605": "",
+        "1606": "    f = new Formula(2, 34, \"COUNTBLANK(A1:C14)\");",
+        "1607": "    ws.addCell(f);"
+      },
+      "id": 11374641,
+      "filename": "Write.java"
+    },
+    {
+      "repo": "http://brainstream.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1723,
+      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/demo",
+      "name": "brainstream",
+      "url": "https://searchcode.com/codesearch/view/13919825/",
+      "md5hash": "353f0bfda2e5e66c249f1a153f8fc344",
+      "lines": {
+        "1608": "    ws.addCell(f);",
+        "1609": "    l = new Label(3, 34, \"COUNTBLANK(A1:C14)\");",
+        "1606": "",
+        "1607": "    f = new Formula(2, 34, \"COUNTBLANK(A1:C14)\");"
+      },
+      "id": 13919825,
+      "filename": "Write.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 1713,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/demo",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260480/",
+      "md5hash": "ba45aec9c3e9e6d4343384265901ef86",
+      "lines": {
+        "1604": "",
+        "1605": "    f = new Formula(2, 34, \"COUNTBLANK(A1:C14)\");",
+        "1606": "    ws.addCell(f);",
+        "1607": "    l = new Label(3, 34, \"COUNTBLANK(A1:C14)\");"
+      },
+      "id": 43260480,
+      "filename": "Write.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 717,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/biff/formula",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260581/",
+      "md5hash": "15b9307e10209bd7f14a819df4b60a44",
+      "lines": {
+        "689": "    new Function(0x15a, \"countif\", 2);",
+        "690": "  public static final Function COUNTBLANK =",
+        "691": "    new Function(0x15b, \"countblank\", 1);",
+        "692": "  public static final Function HYPERLINK ="
+      },
+      "id": 43260581,
+      "filename": "Function.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 1451,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47124968/",
+      "md5hash": "994b1c012a7ddfa2eae1064001b4a2c3",
+      "lines": {
+        "385": "\tpublic static final int xlfCountif  = 346;",
+        "386": "\tpublic static final int xlfCountblank = 347;",
+        "716": "\t\t\t{\"COUNTIF\", String.valueOf(xlfCountif), String.valueOf(FTYPE_PTGFUNCVAR)},",
+        "717": "\t\t\t{\"COUNTBLANK\", String.valueOf(xlfCountblank), String.valueOf(FTYPE_PTGFUNCVAR)},",
+        "1230": "\t\t\tcase xlfCountif: return \"COUNTIF(\";",
+        "1231": "\t\t\tcase xlfCountblank: return \"COUNTBLANK(\";"
+      },
+      "id": 47124968,
+      "filename": "FunctionConstants.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 1713,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/demo",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49201008/",
+      "md5hash": "ba45aec9c3e9e6d4343384265901ef86",
+      "lines": {
+        "1604": "",
+        "1605": "    f = new Formula(2, 34, \"COUNTBLANK(A1:C14)\");",
+        "1606": "    ws.addCell(f);",
+        "1607": "    l = new Label(3, 34, \"COUNTBLANK(A1:C14)\");"
+      },
+      "id": 49201008,
+      "filename": "Write.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 717,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/biff/formula",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49201109/",
+      "md5hash": "15b9307e10209bd7f14a819df4b60a44",
+      "lines": {
+        "689": "    new Function(0x15a, \"countif\", 2);",
+        "690": "  public static final Function COUNTBLANK =",
+        "691": "    new Function(0x15b, \"countblank\", 1);",
+        "692": "  public static final Function HYPERLINK ="
+      },
+      "id": 49201109,
+      "filename": "Function.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 1451,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976592/",
+      "md5hash": "994b1c012a7ddfa2eae1064001b4a2c3",
+      "lines": {
+        "385": "\tpublic static final int xlfCountif  = 346;",
+        "386": "\tpublic static final int xlfCountblank = 347;",
+        "716": "\t\t\t{\"COUNTIF\", String.valueOf(xlfCountif), String.valueOf(FTYPE_PTGFUNCVAR)},",
+        "717": "\t\t\t{\"COUNTBLANK\", String.valueOf(xlfCountblank), String.valueOf(FTYPE_PTGFUNCVAR)},",
+        "1230": "\t\t\tcase xlfCountif: return \"COUNTIF(\";",
+        "1231": "\t\t\tcase xlfCountblank: return \"COUNTBLANK(\";"
+      },
+      "id": 50976592,
+      "filename": "FunctionConstants.java"
+    },
+    {
+      "repo": "https://github.com/dsths/mondrian.git",
+      "language": "Java",
+      "linescount": 1111,
+      "location": "/src/main/mondrian/olap/fun/vba",
+      "name": "mondrian",
+      "url": "https://searchcode.com/codesearch/view/100412065/",
+      "md5hash": "97269efda67b1f67b152b3400030b364",
+      "lines": {
+        "201": "",
+        "202": "    // Todo: CountBlank Counts empty cells in a specified range of cells."
+      },
+      "id": 100412065,
+      "filename": "Excel.java"
+    },
+    {
+      "repo": "https://github.com/Berico-Technologies/mondrian.git",
+      "language": "Java",
+      "linescount": 1111,
+      "location": "/src/main/mondrian/olap/fun/vba",
+      "name": "mondrian",
+      "url": "https://searchcode.com/codesearch/view/69456290/",
+      "md5hash": "d000de4330f4246f9ea598129c490c5c",
+      "lines": {
+        "201": "",
+        "202": "    // Todo: CountBlank Counts empty cells in a specified range of cells."
+      },
+      "id": 69456290,
+      "filename": "Excel.java"
+    },
+    {
+      "repo": "https://bitbucket.org/markjenkins/libreoffice_ubuntu-debian-fixes.git",
+      "language": "Java",
+      "linescount": 196,
+      "location": "/xmerge/source/pexcel/java/org/openoffice/xmerge/converter/xml/sxc/pexcel/records/formula",
+      "name": "libreoffice_ubuntu-debian-fixes",
+      "url": "https://searchcode.com/codesearch/view/45005348/",
+      "md5hash": "426d1a278751f3f203298c4a43685255",
+      "lines": {
+        "128": "                addEntry(\"COUNTBLANK\", TokenConstants.TCOUNTBLANK, 1);",
+        "127": "                // Statistical"
+      },
+      "id": 45005348,
+      "filename": "FunctionLookup.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 2121,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47124908/",
+      "md5hash": "d06aa154e674355e825c7cea383103dc",
+      "lines": {
+        "449": "\t /**",
+        "450": "\tCOUNTBLANK",
+        "452": "*/",
+        "453": "\tprotected static Ptg calcCountBlank(Ptg[] operands){"
+      },
+      "id": 47124908,
+      "filename": "StatisticalCalculator.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 2121,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976532/",
+      "md5hash": "d06aa154e674355e825c7cea383103dc",
+      "lines": {
+        "449": "\t /**",
+        "450": "\tCOUNTBLANK",
+        "452": "*/",
+        "453": "\tprotected static Ptg calcCountBlank(Ptg[] operands){"
+      },
+      "id": 50976532,
+      "filename": "StatisticalCalculator.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 9,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 5,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 2,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

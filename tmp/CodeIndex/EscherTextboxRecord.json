@@ -1,0 +1,150 @@
+{
+  "matchterm": "EscherTextboxRecord",
+  "previouspage": null,
+  "searchterm": "EscherTextboxRecord",
+  "query": "EscherTextboxRecord",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 166,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383874/",
+      "md5hash": "1d70826ce2176ac55b0ddf3f8c697a3c",
+      "lines": {
+        "32": " */",
+        "33": "public class EscherTextboxRecord extends EscherRecord",
+        "42": "",
+        "43": "    public EscherTextboxRecord()"
+      },
+      "id": 97383874,
+      "filename": "EscherTextboxRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 193,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642610/",
+      "md5hash": "bee477788b59a9249c8134a3a92969f8",
+      "lines": {
+        "56": "public class EscherTextboxRecord extends EscherRecord",
+        "65": "",
+        "66": "    public EscherTextboxRecord()",
+        "55": " */"
+      },
+      "id": 15642610,
+      "filename": "EscherTextboxRecord.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 612,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394395/",
+      "md5hash": "4ae551d90bbc16377c5513186d4e9dc1",
+      "lines": {
+        "32": "import org.apache.poi.ddf.EscherSpRecord;",
+        "33": "import org.apache.poi.ddf.EscherTextboxRecord;",
+        "226": "        if(_txtbox == null){",
+        "227": "            EscherTextboxRecord textRecord = (EscherTextboxRecord)Shape.getEscherChild(_escherContainer, EscherTextboxRecord.RECORD_ID);"
+      },
+      "id": 97394395,
+      "filename": "TextShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 161,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383906/",
+      "md5hash": "3324931c58f18c045e9c34e4e1ad839e",
+      "lines": {
+        "64": "        // Options of 0x000F means container record",
+        "152": "        } else {",
+        "65": "        // However, EscherTextboxRecord are containers of records for the",
+        "40": "            EscherSplitMenuColorsRecord.class, EscherChildAnchorRecord.class,",
+        "41": "            EscherTextboxRecord.class };",
+        "153": "            if (recordId == EscherTextboxRecord.RECORD_ID) {"
+      },
+      "id": 97383906,
+      "filename": "DefaultEscherRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 192,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642364/",
+      "md5hash": "caf9b32bdd1d6052248a6d5f8cf5c345",
+      "lines": {
+        "112": "        EscherClientDataRecord clientData = new EscherClientDataRecord();",
+        "113": "        escherTextbox = new EscherTextboxRecord();",
+        "137": "        clientData.setOptions( (short) 0x0000 );",
+        "138": "        escherTextbox.setRecordId( EscherTextboxRecord.RECORD_ID );",
+        "59": "    private ObjRecord objRecord;",
+        "60": "    private EscherTextboxRecord escherTextbox;"
+      },
+      "id": 15642364,
+      "filename": "TextboxShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 178,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642620/",
+      "md5hash": "c686784da3da38fecea2e5b988b86ece",
+      "lines": {
+        "86": "\t\t// Options of 0x000F means container record",
+        "87": "\t\t// However, EscherTextboxRecord are containers of records for the",
+        "90": "        if ( ( header.getOptions() & (short) 0x000F ) == (short) 0x000F",
+        "91": "             && header.getRecordId() != EscherTextboxRecord.RECORD_ID ) {",
+        "62": "        EscherSpgrRecord.class, EscherSpRecord.class, EscherClientDataRecord.class, EscherDggRecord.class,",
+        "63": "        EscherSplitMenuColorsRecord.class, EscherChildAnchorRecord.class, EscherTextboxRecord.class"
+      },
+      "id": 15642620,
+      "filename": "DefaultEscherRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 766,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642409/",
+      "md5hash": "9e212df4a5b523744fd315d99c376d1b",
+      "lines": {
+        "442": "                {",
+        "347": "                EscherRecord r = super.createRecord( data, offset );",
+        "348": "                if ( r.getRecordId() == EscherClientDataRecord.RECORD_ID || r.getRecordId() == EscherTextboxRecord.RECORD_ID )",
+        "443": "                    if ( recordId == EscherClientDataRecord.RECORD_ID || recordId == EscherTextboxRecord.RECORD_ID )"
+      },
+      "id": 15642409,
+      "filename": "EscherAggregate.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

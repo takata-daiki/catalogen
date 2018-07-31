@@ -1,0 +1,129 @@
+{
+  "matchterm": "HSSFPictureData",
+  "previouspage": null,
+  "searchterm": "HSSFPictureData",
+  "query": "HSSFPictureData",
+  "language_filters": [
+    {
+      "count": 5,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 5,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 114,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642299/",
+      "md5hash": "05dfe158a30664719ca8667156e883c4",
+      "lines": {
+        "72": "    HSSFPictureData( EscherBlipRecord blip )",
+        "49": " */",
+        "50": "public class HSSFPictureData",
+        "71": "     */"
+      },
+      "id": 15642299,
+      "filename": "HSSFPictureData.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 595,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785559/",
+      "md5hash": "6b55090236799f49ee0f5bd7d54bbbac",
+      "lines": {
+        "59": "import org.apache.poi.hssf.record.common.UnicodeString;",
+        "60": "import org.apache.poi.hssf.usermodel.HSSFPictureData;",
+        "533": "                    // TODO When we have upgraded POI, we can use this code instead",
+        "534": "                    //HSSFPictureData picture = new HSSFPictureData(blip);"
+      },
+      "id": 111785559,
+      "filename": "ExcelExtractor.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1445,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642316/",
+      "md5hash": "4f7b036daf89776dc4ee4606b7972144",
+      "lines": {
+        "1285": "            case PICTURE_TYPE_EMF:",
+        "1286": "                blipRecord.setOptions(HSSFPictureData.MSOBI_EMF);",
+        "1288": "            case PICTURE_TYPE_WMF:",
+        "1289": "                blipRecord.setOptions(HSSFPictureData.MSOBI_WMF);",
+        "1291": "            case PICTURE_TYPE_PICT:",
+        "1292": "                blipRecord.setOptions(HSSFPictureData.MSOBI_PICT);",
+        "1294": "            case PICTURE_TYPE_PNG:",
+        "1295": "                blipRecord.setOptions(HSSFPictureData.MSOBI_PNG);",
+        "1297": "            case HSSFWorkbook.PICTURE_TYPE_JPEG:",
+        "1298": "                blipRecord.setOptions(HSSFPictureData.MSOBI_JPEG);",
+        "1326": "     *",
+        "1300": "            case HSSFWorkbook.PICTURE_TYPE_DIB:",
+        "1301": "                blipRecord.setOptions(HSSFPictureData.MSOBI_DIB);",
+        "1368": "                        // TODO: Some kind of structure.",
+        "1369": "                        pictures.add(new HSSFPictureData(blip));",
+        "1327": "     * @return the list of pictures (a list of {@link HSSFPictureData} objects.)"
+      },
+      "id": 15642316,
+      "filename": "HSSFWorkbook.java"
+    },
+    {
+      "repo": "https://github.com/nic9805/jeecg.git",
+      "language": "Java",
+      "linescount": 278,
+      "location": "/jeecg-framework/src/main/java/org/jeecgframework/poi/excel",
+      "name": "jeecg",
+      "url": "https://searchcode.com/codesearch/view/93182055/",
+      "md5hash": "87019a72d8e02af505e4e1e5b6ac2ed2",
+      "lines": {
+        "14": "import org.apache.poi.hssf.usermodel.HSSFPictureData;",
+        "231": "        Map<String, PictureData> sheetIndexPicMap = new HashMap<String, PictureData>(); ",
+        "232": "        List<HSSFPictureData> pictures = workbook.getAllPictures();  ",
+        "13": "import org.apache.poi.hssf.usermodel.HSSFPicture;",
+        "238": "                    int pictureIndex = pic.getPictureIndex() - 1;  ",
+        "239": "                    HSSFPictureData picData = pictures.get(pictureIndex);  "
+      },
+      "id": 93182055,
+      "filename": "ExcelPublicUtil.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 39,
+      "location": "/zss/src/org/zkoss/poi/hssf/usermodel",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970567/",
+      "md5hash": "4de49f146265fca2940102813883ea12",
+      "lines": {
+        "34": "\t}",
+        "35": "\tpublic HSSFPictureData newHSSFPictureData(EscherBSERecord bse) {",
+        "36": "\t\treturn new HSSFPictureData(bse);",
+        "37": "\t}"
+      },
+      "id": 3970567,
+      "filename": "HSSFWorkbookHelper.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

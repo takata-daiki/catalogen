@@ -1,0 +1,284 @@
+{
+  "matchterm": "FontGroup",
+  "previouspage": null,
+  "searchterm": "FontGroup",
+  "query": "FontGroup",
+  "language_filters": [
+    {
+      "count": 12,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 12,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 59,
+      "location": "/thirdparties-extension/fr.opensagres.xdocreport.itext.extension/src/main/java/fr/opensagres/xdocreport/itext/extension/font",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96674419/",
+      "md5hash": "a8441ab6da62c24b516a3c1bf4481e39",
+      "lines": {
+        "32": "",
+        "33": "    public static FontGroup getUnicodeGroup( char ch, Font font, Font fontAsian, Font fontComplex )",
+        "28": "",
+        "29": "public enum FontGroup"
+      },
+      "id": 96674419,
+      "filename": "FontGroup.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 160,
+      "location": "/thirdparties-extension/org.odftoolkit.odfdom.converter.pdf/src/main/java/org/odftoolkit/odfdom/converter/pdf/internal/stylable",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673908/",
+      "md5hash": "cbf529d1133ffc24ea66a80b5f66b878",
+      "lines": {
+        "66": "            Font font = null;",
+        "67": "            if ( FontGroup.WESTERN.equals( fontGroup ) )",
+        "132": "        }",
+        "37": "import fr.opensagres.xdocreport.itext.extension.ExtendedChunk;",
+        "38": "import fr.opensagres.xdocreport.itext.extension.font.FontGroup;",
+        "71": "            else if ( FontGroup.ASIAN.equals( fontGroup ) )",
+        "136": "            char ch = textContent.charAt( i );",
+        "137": "            FontGroup group = FontGroup.getUnicodeGroup( ch, font, fontAsian, fontComplex );",
+        "74": "            }",
+        "75": "            else if ( FontGroup.COMPLEX.equals( fontGroup ) )",
+        "45": "",
+        "46": "    private final FontGroup fontGroup;",
+        "50": "    public StylableChunk( StylableDocument ownerDocument, IStylableContainer parent, String textContent,",
+        "51": "                          FontGroup fontGroup )",
+        "70": "            }",
+        "133": "        FontGroup currentGroup = FontGroup.WESTERN;"
+      },
+      "id": 96673908,
+      "filename": "StylableChunk.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 1355,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter.pdf/src/main/java/org/apache/poi/xwpf/converter/pdf/internal",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673019/",
+      "md5hash": "5000f7cf0c2ae11266b40166c2a4f792",
+      "lines": {
+        "656": "            char ch = textContent.charAt( i );",
+        "657": "            FontGroup group = FontGroup.getUnicodeGroup( ch, font, fontAsian, fontComplex );",
+        "681": "",
+        "682": "    private Font getFont( Font font, Font fontAsian, Font fontComplex, FontGroup group )",
+        "652": "        StringBuilder sbuf = new StringBuilder();",
+        "109": "import fr.opensagres.xdocreport.itext.extension.IITextContainer;",
+        "110": "import fr.opensagres.xdocreport.itext.extension.font.FontGroup;",
+        "653": "        FontGroup currentGroup = FontGroup.WESTERN;"
+      },
+      "id": 96673019,
+      "filename": "PdfMapper.java"
+    },
+    {
+      "repo": "https://bitbucket.org/jorgis/openworship",
+      "language": "Java",
+      "linescount": 429,
+      "location": "/OpenWorship/Generated JUIC files/org/openworship/gui",
+      "name": "openworship",
+      "url": "https://searchcode.com/codesearch/view/118611887/",
+      "md5hash": "49d0ffd1f795c0477312d776217f2747",
+      "lines": {
+        "96": "        fontGroup = new QGroupBox(appearance);",
+        "97": "        fontGroup.setObjectName(\"fontGroup\");",
+        "98": "        gridLayout = new QGridLayout(fontGroup);",
+        "99": "        gridLayout.setObjectName(\"gridLayout\");",
+        "100": "        fontFaceLabel = new QLabel(fontGroup);",
+        "389": "        fontGroup.setTitle(com.trolltech.qt.core.QCoreApplication.translate(\"SettingsWindow\", \"Fonts\", null));",
+        "130": "",
+        "104": "",
+        "105": "        fontChooser = new QPushButton(fontGroup);",
+        "109": "",
+        "110": "        fontExample = new QLineEdit(fontGroup);",
+        "131": "        verticalLayout_2.addWidget(fontGroup);",
+        "20": "    public QVBoxLayout verticalLayout_2;",
+        "21": "    public QGroupBox fontGroup;",
+        "388": "        SettingsWindow.setWindowTitle(com.trolltech.qt.core.QCoreApplication.translate(\"SettingsWindow\", \"Settings\", null));",
+        "95": "        verticalLayout_2.setObjectName(\"verticalLayout_2\");"
+      },
+      "id": 118611887,
+      "filename": "Ui_SettingsWindow.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 453,
+      "location": "/thirdparties-extension/org.odftoolkit.odfdom.converter.pdf/src/main/java/org/odftoolkit/odfdom/converter/pdf/internal/stylable",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673921/",
+      "md5hash": "e82027631a72c759d90339bf37bbdb92",
+      "lines": {
+        "87": "",
+        "88": "    public StylableChunk createChunk( IStylableContainer parent, String textContent, FontGroup fontGroup )",
+        "89": "    {",
+        "90": "        return new StylableChunk( this, parent, textContent, fontGroup );",
+        "46": "import fr.opensagres.xdocreport.itext.extension.PageOrientation;",
+        "47": "import fr.opensagres.xdocreport.itext.extension.font.FontGroup;"
+      },
+      "id": 96673921,
+      "filename": "StylableDocument.java"
+    },
+    {
+      "repo": "https://github.com/he667/ACanvas.git",
+      "language": "Java",
+      "linescount": 502,
+      "location": "/src/com/ybi/whoot/singleton",
+      "name": "ACanvas",
+      "url": "https://searchcode.com/codesearch/view/114553840/",
+      "md5hash": "63e1a14aa86d9b93f47f771949d590e1",
+      "lines": {
+        "64": "\tprivate ASettings<AAngle> angleGroup;",
+        "65": "\tprivate ASettings<AFont> fontGroup;",
+        "194": "\t\t{",
+        "195": "\t\t\tfontGroup = new ASettings<AFont>();",
+        "196": "\t\t\tfontGroup.put(\"globalFont\", new AFont(AFont.DEFAULT));",
+        "197": "\t\t}",
+        "193": "\t\tif (fontGroup == null)",
+        "456": "\t{",
+        "457": "\t\treturn (AFont)fontGroup.get(\"globalFont\");",
+        "235": "\t\tangleGroup.save(editor);",
+        "236": "\t\tfontGroup.save(editor);",
+        "256": "\t\tfontGroup.load(this.context);",
+        "192": "\t\t",
+        "255": "\t\tangleGroup.load(this.context);"
+      },
+      "id": 114553840,
+      "filename": "ASingletonCanvas.java"
+    },
+    {
+      "repo": "https://bitbucket.org/eug48/xmind3-releases-mirror",
+      "language": "Java",
+      "linescount": 683,
+      "location": "/org.xmind.ui.toolkit/src/org/xmind/ui/font",
+      "name": "xmind3-releases-mirror",
+      "url": "https://searchcode.com/codesearch/view/119536665/",
+      "md5hash": "206cb75e4685a046a1ba1e161cb79e09",
+      "lines": {
+        "208": "                DEFAULT_GROUP_HEIGHT).applyTo(fontGroup);",
+        "209": "        createFontControl(fontGroup);",
+        "210": "",
+        "203": "",
+        "204": "        Group fontGroup = new Group(p, SWT.NONE);",
+        "205": "        fontGroup.setText(Messages.FamilyGroup_text);",
+        "206": "        GridLayoutFactory.swtDefaults().applyTo(fontGroup);",
+        "207": "        GridDataFactory.fillDefaults().hint(DEFAULT_GROUP_WIDTH,"
+      },
+      "id": 119536665,
+      "filename": "FontDialog.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 61,
+      "location": "/thirdparties-extension/org.odftoolkit.odfdom.converter.pdf/src/main/java/org/odftoolkit/odfdom/converter/pdf/internal/stylable",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673895/",
+      "md5hash": "fd236f688d2515240e1af561379df656",
+      "lines": {
+        "36": "",
+        "37": "    StylableChunk createChunk( IStylableContainer parent, String textContent, FontGroup fontGroup );",
+        "30": "",
+        "31": "import fr.opensagres.xdocreport.itext.extension.font.FontGroup;"
+      },
+      "id": 96673895,
+      "filename": "IStylableFactory.java"
+    },
+    {
+      "repo": "https://github.com/ecerulm/nevernote.git",
+      "language": "Java",
+      "linescount": 521,
+      "location": "/src/cx/fbn/nevernote/dialog",
+      "name": "nevernote",
+      "url": "https://searchcode.com/codesearch/view/110611550/",
+      "md5hash": "dfe1f7a139b363081df3d80a753e1aa3",
+      "lines": {
+        "306": "\t\tmainLayout.addWidget(numberListGroup, 4,1);",
+        "307": "\t\tmainLayout.addWidget(fontGroup, 5,0);",
+        "229": "\t\tfontLayout.setStretch(1, 100);",
+        "230": "\t\tfontGroup.setLayout(fontLayout);",
+        "222": "\t\t// Font drop down list",
+        "223": "\t\tQGroupBox fontGroup =  new QGroupBox(tr(\"Fonts\"));"
+      },
+      "id": 110611550,
+      "filename": "ConfigShowEditorButtonsPage.java"
+    },
+    {
+      "repo": "https://github.com/miurahr/nevernote.git",
+      "language": "Java",
+      "linescount": 146,
+      "location": "/src/cx/fbn/nevernote/dialog",
+      "name": "nevernote",
+      "url": "https://searchcode.com/codesearch/view/110877891/",
+      "md5hash": "4773af5f023b79cba00727b689b05784",
+      "lines": {
+        "48": "\t\tQGroupBox fontGroup = new QGroupBox(tr(\"New Note Defaults\"));",
+        "67": "\t\tfontLayout.addWidget(new QLabel(tr(\"Size\")),3,1);",
+        "68": "\t\tfontGroup.setLayout(fontLayout);",
+        "75": "\t\tQVBoxLayout mainLayout = new QVBoxLayout();",
+        "76": "\t\tmainLayout.addWidget(fontGroup);",
+        "47": "\t\t// Group Box"
+      },
+      "id": 110877891,
+      "filename": "ConfigFontPage.java"
+    },
+    {
+      "repo": "https://github.com/tverbeke/rj-client.git",
+      "language": "Java",
+      "linescount": 600,
+      "location": "/de.walware.rj.eclient.graphics/src/de/walware/rj/eclient/graphics",
+      "name": "rj-client",
+      "url": "https://searchcode.com/codesearch/view/95049871/",
+      "md5hash": "ea5ca83339396ad072aa0ed82254b737",
+      "lines": {
+        "300": "\t",
+        "217": "\t\t",
+        "218": "\t\tfinal Group fontGroup = createFontGroup(pageComposite);",
+        "219": "\t\tfontGroup.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, false));",
+        "220": "\t\t",
+        "301": "\tprotected Group createFontGroup(final Composite parent) {"
+      },
+      "id": 95049871,
+      "filename": "RGraphicsPreferencePage.java"
+    },
+    {
+      "repo": "https://github.com/ishaikovsky/blogbridge.git",
+      "language": "Java",
+      "linescount": 285,
+      "location": "/src/com/salas/bb/networking/manager",
+      "name": "blogbridge",
+      "url": "https://searchcode.com/codesearch/view/114076657/",
+      "md5hash": "02c772e9cdec64c6ce2ff00374ab7fb3",
+      "lines": {
+        "144": "            DefaultTreeCellRenderer renderer = new CustomTreeCellRenderer(fontGroup, font);",
+        "140": "            font = font.deriveFont((float)font.getSize() - FONT_SIZE_DECREMENT);",
+        "141": "            Font fontGroup = font.deriveFont(Font.BOLD);",
+        "143": "            // Remove icons from leaves"
+      },
+      "id": 114076657,
+      "filename": "ActivityWindow.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 10,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 2,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

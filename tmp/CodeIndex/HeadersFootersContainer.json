@@ -1,0 +1,76 @@
+{
+  "matchterm": "HeadersFootersContainer",
+  "previouspage": null,
+  "searchterm": "HeadersFootersContainer",
+  "query": "HeadersFootersContainer",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1082,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394959/",
+      "md5hash": "5d80afff23c354813b0c27bde8e947ac",
+      "lines": {
+        "961": "",
+        "962": "\t\tHeadersFootersContainer hdd = null;",
+        "964": "\t\tfor (int i = 0; i < ch.length; i++) {",
+        "965": "\t\t\tif (ch[i] instanceof HeadersFootersContainer",
+        "934": "",
+        "935": "\t\tHeadersFootersContainer hdd = null;",
+        "937": "\t\tfor (int i = 0; i < ch.length; i++) {",
+        "938": "\t\t\tif (ch[i] instanceof HeadersFootersContainer",
+        "939": "\t\t\t\t\t&& ((HeadersFootersContainer) ch[i]).getOptions() == HeadersFootersContainer.SlideHeadersFootersContainer) {",
+        "940": "\t\t\t\thdd = (HeadersFootersContainer) ch[i];",
+        "941": "\t\t\t\tbreak;",
+        "973": "\t\t\thdd = new HeadersFootersContainer(HeadersFootersContainer.NotesHeadersFootersContainer);",
+        "967": "\t\t\t\thdd = (HeadersFootersContainer) ch[i];",
+        "966": "\t\t\t\t\t&& ((HeadersFootersContainer) ch[i]).getOptions() == HeadersFootersContainer.NotesHeadersFootersContainer) {",
+        "972": "\t\tif (hdd == null) {"
+      },
+      "id": 97394959,
+      "filename": "SlideShow.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 514,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394313/",
+      "md5hash": "346ffc55e0b7a05381ade3b094d03d17",
+      "lines": {
+        "480": "     public HeadersFooters getHeadersFooters(){",
+        "481": "        HeadersFootersContainer hdd = null;",
+        "484": "        for (int i = 0; i < ch.length; i++) {",
+        "485": "            if(ch[i] instanceof HeadersFootersContainer){",
+        "486": "                hdd = (HeadersFootersContainer)ch[i];",
+        "487": "            } else if (ch[i].getRecordType() == RecordTypes.RoundTripContentMasterId.typeID){",
+        "496": "            hdd = new HeadersFootersContainer(HeadersFootersContainer.SlideHeadersFootersContainer);",
+        "495": "        if(hdd == null) {",
+        "30": "import org.apache.poi.hslf.record.Comment2000;",
+        "31": "import org.apache.poi.hslf.record.HeadersFootersContainer;"
+      },
+      "id": 97394313,
+      "filename": "Slide.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "matchterm": "XWPFCommentsDecorator",
+  "previouspage": null,
+  "searchterm": "XWPFCommentsDecorator",
+  "query": "XWPFCommentsDecorator",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 184,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785573/",
+      "md5hash": "182b92c20f0ceb47e5952f2b30e98cd2",
+      "lines": {
+        "144": "",
+        "145": "                        XWPFParagraphDecorator decorator = new XWPFCommentsDecorator(",
+        "25": "import org.apache.poi.xwpf.extractor.XWPFWordExtractor;",
+        "26": "import org.apache.poi.xwpf.model.XWPFCommentsDecorator;",
+        "77": "",
+        "78": "            XWPFParagraphDecorator decorator = new XWPFCommentsDecorator("
+      },
+      "id": 111785573,
+      "filename": "XWPFWordExtractorDecorator.java"
+    },
+    {
+      "repo": "https://bitbucket.org/mg/olat",
+      "language": "Java",
+      "linescount": 156,
+      "location": "/src/main/java/org/olat/search/service/document/file",
+      "name": "olat",
+      "url": "https://searchcode.com/codesearch/view/126168429/",
+      "md5hash": "dfe530c94dc566561a0e060d649eb7c5",
+      "lines": {
+        "32": "import org.apache.poi.xwpf.model.XWPFCommentsDecorator;",
+        "117": "",
+        "118": "\t\t\tfinal XWPFParagraphDecorator decorator = new XWPFCommentsDecorator(new XWPFHyperlinkDecorator(paragraph, null, true));",
+        "31": "import org.apache.poi.extractor.ExtractorFactory;"
+      },
+      "id": 126168429,
+      "filename": "WordOOXMLDocument.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

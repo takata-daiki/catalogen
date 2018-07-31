@@ -1,0 +1,137 @@
+{
+  "matchterm": "LinearRegressionFunction.FUNCTION",
+  "previouspage": null,
+  "searchterm": "LinearRegressionFunction.FUNCTION",
+  "query": "LinearRegressionFunction.FUNCTION",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "git://github.com/jOOQ/jOOQ.git",
+      "language": "Java",
+      "linescount": 12962,
+      "location": "/jOOQ/src/main/java/org/jooq/impl",
+      "name": "jOOQ",
+      "url": "https://searchcode.com/codesearch/view/58673720/",
+      "md5hash": "4e0a8142d04c42a57aef2e9d3493f455",
+      "lines": {
+        "4641": "        else if (cursor.getType() == Result.class) {",
+        "4642": "            return new FunctionTable<Record>(cursor);",
+        "4547": "     * <p>",
+        "4548": "     * This is equivalent to the <code>TABLE</code> function for H2, or the",
+        "4549": "     * <code>UNNEST</code> function in HSQLDB and Postgres",
+        "4667": "    // XXX Table functions",
+        "4620": "     * <p>",
+        "4621": "     * This functionality has only limited scope when used in H2, as ARRAY types",
+        "4622": "     * involved with stored functions can only be of type <code>Object[]</code>.",
+        "143": "import org.jooq.Name;",
+        "144": "import org.jooq.OrderedAggregateFunction;",
+        "4612": "     * <li> {@link Result}: For <code>CURSOR</code> or <code>REF CURSOR</code>",
+        "4666": "    // -------------------------------------------------------------------------",
+        "4623": "     * Such arrays are converted into <code>VARCHAR</code> arrays by jOOQ.",
+        "4613": "     * fields, typically fetched from stored functions or from nested tables</li>"
+      },
+      "id": 58673720,
+      "filename": "DSL.java"
+    },
+    {
+      "repo": "https://github.com/mrbradparks/jOOQ.git",
+      "language": "Java",
+      "linescount": 14055,
+      "location": "/jOOQ/src/main/java/org/jooq/impl",
+      "name": "jOOQ",
+      "url": "https://searchcode.com/codesearch/view/92818667/",
+      "md5hash": "98ecdf9ab129edfd018751024bbc298e",
+      "lines": {
+        "4929": "    // -------------------------------------------------------------------------",
+        "4930": "    // XXX Table functions",
+        "4811": "     * This is equivalent to the <code>TABLE</code> function for H2, or the",
+        "4886": "     * Such arrays are converted into <code>VARCHAR</code> arrays by jOOQ.",
+        "4904": "        else if (cursor.getType() == Result.class) {",
+        "4812": "     * <code>UNNEST</code> function in HSQLDB and Postgres",
+        "4810": "     * <p>",
+        "4875": "     * <li> {@link Result}: For <code>CURSOR</code> or <code>REF CURSOR</code>",
+        "4876": "     * fields, typically fetched from stored functions or from nested tables</li>",
+        "4905": "            return new FunctionTable<Record>(cursor);",
+        "4883": "     * <p>",
+        "4884": "     * This functionality has only limited scope when used in H2, as ARRAY types",
+        "4885": "     * involved with stored functions can only be of type <code>Object[]</code>.",
+        "150": "import org.jooq.Name;",
+        "151": "import org.jooq.OrderedAggregateFunction;"
+      },
+      "id": 92818667,
+      "filename": "DSL.java"
+    },
+    {
+      "repo": "git://github.com/jOOQ/jOOQ.git",
+      "language": "Java",
+      "linescount": 194,
+      "location": "/jOOQ/src/main/java/org/jooq",
+      "name": "jOOQ",
+      "url": "https://searchcode.com/codesearch/view/16956959/",
+      "md5hash": "acc0c546b255bf601cb2a81ea2e21f0b",
+      "lines": {
+        "64": "    aliases = {",
+        "65": "        \"StatisticalFunction\",",
+        "66": "        \"OrderedAggregateFunction\",",
+        "67": "        \"LinearRegressionFunction\"",
+        "68": "    },",
+        "70": ")",
+        "71": "public interface AggregateFunction<T> extends Field<T>, WindowOverStep<T> {",
+        "73": "    /**",
+        "74": "     * Turn this aggregate function into a window function.",
+        "79": "     * <p>",
+        "80": "     * Window functions are supported in CUBRID, DB2, Postgres, Oracle, SQL",
+        "56": "/**",
+        "57": " * An aggregate function is a special field that is usually used in a",
+        "58": " * <code>GROUP BY</code> context. It is also the base for window function",
+        "59": " * construction."
+      },
+      "id": 16956959,
+      "filename": "AggregateFunction.java"
+    },
+    {
+      "repo": "https://github.com/mrbradparks/jOOQ.git",
+      "language": "Java",
+      "linescount": 271,
+      "location": "/jOOQ/src/main/java/org/jooq",
+      "name": "jOOQ",
+      "url": "https://searchcode.com/codesearch/view/92817015/",
+      "md5hash": "19d80d65f1ea381edfafef1112382754",
+      "lines": {
+        "64": "    aliases = {",
+        "65": "        \"StatisticalFunction\",",
+        "66": "        \"OrderedAggregateFunction\",",
+        "67": "        \"LinearRegressionFunction\"",
+        "68": "    },",
+        "136": "     * <p>",
+        "137": "     * Window functions are supported in CUBRID, DB2, Postgres, Oracle, SQL",
+        "130": "    /**",
+        "131": "     * Turn this aggregate function into a window function.",
+        "148": "     * Turn this aggregate function into a window function referencing a window",
+        "147": "    /**",
+        "56": "/**",
+        "57": " * An aggregate function is a special field that is usually used in a",
+        "58": " * <code>GROUP BY</code> context. It is also the base for window function",
+        "59": " * construction."
+      },
+      "id": 92817015,
+      "filename": "AggregateFunction.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

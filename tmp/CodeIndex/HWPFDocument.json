@@ -1,0 +1,450 @@
+{
+  "matchterm": "HWPFDocument",
+  "previouspage": null,
+  "searchterm": "HWPFDocument",
+  "query": "HWPFDocument",
+  "language_filters": [
+    {
+      "count": 28,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 28,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1043,
+      "location": "/src/org/apache/poi/hwpf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383956/",
+      "md5hash": "677c332698819342ff2ece2baf93a4ed",
+      "lines": {
+        "197": "   *         in POIFSFileSystem.",
+        "198": "   * @deprecated Use {@link #HWPFDocument(DirectoryNode)} instead",
+        "200": "  @Deprecated",
+        "201": "  public HWPFDocument(DirectoryNode directory, POIFSFileSystem pfilesystem) throws IOException",
+        "171": "   */",
+        "172": "  public HWPFDocument(InputStream istream) throws IOException",
+        "81": "@SuppressWarnings(\"deprecation\")",
+        "82": "public final class HWPFDocument extends HWPFDocumentCore",
+        "214": "   */",
+        "215": "  public HWPFDocument(DirectoryNode directory) throws IOException",
+        "184": "   */",
+        "185": "  public HWPFDocument(POIFSFileSystem pfilesystem) throws IOException",
+        "158": "",
+        "159": "  protected HWPFDocument()"
+      },
+      "id": 97383956,
+      "filename": "HWPFDocument.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1219,
+      "location": "/src/org/apache/poi/hwpf/converter",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383976/",
+      "md5hash": "a222c0be0731737a174a7721c959c7e2",
+      "lines": {
+        "32": "import org.apache.poi.hwpf.HWPFDocumentCore;",
+        "33": "import org.apache.poi.hwpf.converter.AbstractWordUtils.NumberingState;",
+        "291": "",
+        "292": "    protected boolean processCharacters( final HWPFDocumentCore wordDocument,",
+        "392": "                List<Bookmark> bookmarks = new LinkedList<Bookmark>();",
+        "393": "                for ( Bookmark bookmark : ( (HWPFDocument) wordDocument )",
+        "429": "                Field field = (Field) structure.structure;",
+        "430": "                processField( (HWPFDocument) wordDocument, range,",
+        "288": "    protected abstract void processBookmarks( HWPFDocumentCore wordDocument,",
+        "306": "        List<Structure> structures = new LinkedList<Structure>();",
+        "307": "        if ( wordDocument instanceof HWPFDocument )",
+        "308": "        {",
+        "309": "            final HWPFDocument doc = (HWPFDocument) wordDocument;",
+        "287": "     */",
+        "30": "import org.apache.poi.hpsf.SummaryInformation;",
+        "31": "import org.apache.poi.hwpf.HWPFDocument;"
+      },
+      "id": 97383976,
+      "filename": "AbstractWordConverter.java"
+    },
+    {
+      "repo": "https://github.com/selmantayyar/LuceneImplementation.git",
+      "language": "Java",
+      "linescount": 161,
+      "location": "/LuceneImplementation/src/com/selman",
+      "name": "LuceneImplementation",
+      "url": "https://searchcode.com/codesearch/view/73344562/",
+      "md5hash": "73d1046bc856b0735907975ac4b800e0",
+      "lines": {
+        "2": "",
+        "3": "import org.apache.poi.hwpf.HWPFDocument;",
+        "70": "",
+        "71": "\t\t\tHWPFDocument doc = new HWPFDocument(fs);",
+        "25": "",
+        "26": "\t\t\tHWPFDocument doc = new HWPFDocument(fs);"
+      },
+      "id": 73344562,
+      "filename": "ReadMainFiles.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 764,
+      "location": "/src/org/apache/poi/hwpf/dev",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384386/",
+      "md5hash": "a5fd3aeec9338ae1535ca742a1539e0e",
+      "lines": {
+        "320": "",
+        "321": "    public HWPFLister( HWPFDocumentCore doc )",
+        "411": "    {",
+        "35": "import org.apache.poi.POIDocument;",
+        "36": "import org.apache.poi.hwpf.HWPFDocument;",
+        "37": "import org.apache.poi.hwpf.HWPFDocumentCore;",
+        "198": "",
+        "199": "        HWPFDocumentCore doc = loadDoc( new File( args[0] ) );",
+        "412": "        if ( !( _doc instanceof HWPFDocument ) )",
+        "299": "",
+        "300": "    private static HWPFDocumentCore writeOutAndReadBack(",
+        "301": "            HWPFDocumentCore original )",
+        "302": "    {",
+        "38": "import org.apache.poi.hwpf.HWPFOldDocument;",
+        "316": "",
+        "317": "    private final HWPFDocumentCore _doc;"
+      },
+      "id": 97384386,
+      "filename": "HWPFLister.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 747,
+      "location": "/src/org/apache/poi/hwpf/converter",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383966/",
+      "md5hash": "26fefb68f3e9024bc39626c516856a5c",
+      "lines": {
+        "32": "import org.apache.poi.hwpf.HWPFDocument;",
+        "33": "import org.apache.poi.hwpf.HWPFDocumentCore;",
+        "34": "import org.apache.poi.hwpf.converter.FontReplacer.Triplet;",
+        "438": "    protected void processNoteAutonumbered( HWPFDocument doc, String type,",
+        "437": "",
+        "297": "    @Override",
+        "298": "    protected void processDrawnObject( HWPFDocument doc,",
+        "173": "     * Creates new instance of {@link WordToHtmlConverter}. Can be used for",
+        "174": "     * output several {@link HWPFDocument}s into single HTML document.",
+        "306": "    @Override",
+        "307": "    protected void processEndnoteAutonumbered( HWPFDocument wordDocument,",
+        "277": "    @Override",
+        "278": "    public void processDocumentPart( HWPFDocumentCore wordDocument, Range range )",
+        "157": "    {",
+        "158": "        final HWPFDocumentCore wordDocument = WordToHtmlUtils.loadDoc( docFile );",
+        "31": "import org.apache.poi.hpsf.SummaryInformation;"
+      },
+      "id": 97383966,
+      "filename": "WordToHtmlConverter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/interactivemediamanagement/converge-1.x.git",
+      "language": "Java",
+      "linescount": 632,
+      "location": "/converge-server/modules/converge-ejb/src/main/java/dk/i2m/converge/ejb/services",
+      "name": "converge-1.x",
+      "url": "https://searchcode.com/codesearch/view/39694366/",
+      "md5hash": "b311db830b776f2d84011b89583da41d",
+      "lines": {
+        "48": "import org.apache.pdfbox.util.PDFTextStripper;",
+        "49": "import org.apache.poi.hwpf.HWPFDocument;",
+        "621": "                URL originalFile = new URL(mir.getAbsoluteFilename());",
+        "622": "                HWPFDocument doc = new HWPFDocument(originalFile.openStream());"
+      },
+      "id": 39694366,
+      "filename": "MetaDataService.java"
+    },
+    {
+      "repo": "https://bitbucket.org/johnnywsd/java-extractemailfromdocdocxpdftxt.git",
+      "language": "Java",
+      "linescount": 30,
+      "location": "/shoudaw/msword",
+      "name": "java-extractemailfromdocdocxpdftxt",
+      "url": "https://searchcode.com/codesearch/view/51905615/",
+      "md5hash": "7dcf9a408bc424cfbaf5f91e7743265a",
+      "lines": {
+        "4": "",
+        "5": "import org.apache.poi.hwpf.HWPFDocument;",
+        "14": "\t\t\tHWPFDocument document=new HWPFDocument(new FileInputStream(filePath));",
+        "13": "//\t\t\tSystem.out.println(\"Proceeding:\"+filePath);"
+      },
+      "id": 51905615,
+      "filename": "MsWordDoc.java"
+    },
+    {
+      "repo": "https://github.com/AndreyLevchenko/html-convertor.git",
+      "language": "Java",
+      "linescount": 58,
+      "location": "/src",
+      "name": "html-convertor",
+      "url": "https://searchcode.com/codesearch/view/111543829/",
+      "md5hash": "c0fb7542f8d38f2e0082ed1dadb73dff",
+      "lines": {
+        "18": "        POIFSFileSystem fs = new POIFSFileSystem(new FileInputStream(\"d:\\\\work\\\\tabulaw.andrl\\\\template.doc\"));",
+        "19": "        HWPFDocument doc = new HWPFDocument(fs);",
+        "5": "import org.apache.poi.hpsf.DocumentSummaryInformation;",
+        "6": "import org.apache.poi.hwpf.HWPFDocument;"
+      },
+      "id": 111543829,
+      "filename": "CreateWordDoc.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 139,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785561/",
+      "md5hash": "dff73f83047fcc998beb71b2402c9412",
+      "lines": {
+        "43": "            throws IOException, SAXException, TikaException {",
+        "44": "        HWPFDocument document = new HWPFDocument(filesystem);",
+        "22": "",
+        "23": "import org.apache.poi.hwpf.HWPFDocument;"
+      },
+      "id": 111785561,
+      "filename": "WordExtractor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 676,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384484/",
+      "md5hash": "eb3ee5102b1d02992e415773f3944ccc",
+      "lines": {
+        "640": "        if ( getDocument() instanceof HWPFDocument )",
+        "658": "    {",
+        "19": "",
+        "20": "import org.apache.poi.hwpf.HWPFDocument;",
+        "645": "                NilPICFAndBinData data = new NilPICFAndBinData(",
+        "646": "                        ( (HWPFDocument) getDocument() ).getDataStream(),",
+        "664": "                NilPICFAndBinData data = new NilPICFAndBinData(",
+        "665": "                        ( (HWPFDocument) getDocument() ).getDataStream(),",
+        "659": "        if ( getDocument() instanceof HWPFDocument )",
+        "639": "    {"
+      },
+      "id": 97384484,
+      "filename": "CharacterRun.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nuclos/nuclos.git",
+      "language": "Java",
+      "linescount": 406,
+      "location": "/nuclos-server/src/main/java/org/nuclos/server/report/export",
+      "name": "nuclos",
+      "url": "https://searchcode.com/codesearch/view/134954814/",
+      "md5hash": "09326efae1bfefac9cda235176c676d9",
+      "lines": {
+        "256": "\t\t\t\t((HWPFDocument)docObj).write(baos);",
+        "257": "\t\t\tif (docObj instanceof XWPFDocument)",
+        "391": "\t\t\tif (format == ReportOutputVO.Format.DOC) {",
+        "392": "\t\t\t\treturn new HWPFDocument(new ByteArrayInputStream(output.getSourceFileContent().getData()));",
+        "106": "\t\t\tfinal Object doc = newDocument(output);",
+        "107": "\t\t\tif (doc instanceof HWPFDocument)",
+        "108": "\t\t\t\t((HWPFDocument)doc).write(baos);",
+        "109": "\t\t\tif (doc instanceof XWPFDocument)",
+        "377": "\t\tif (format == ReportOutputVO.Format.DOC) {",
+        "378": "\t\t\treturn new HWPFDocument(LangUtils.getClassLoaderThatWorksForWebStart().getResourceAsStream(",
+        "155": "\tprivate NuclosFile export(Object docObj, ResultVO resultvo, List<ReportFieldDefinition> fields, String name) throws NuclosReportException {",
+        "156": "\t\tif (docObj instanceof HWPFDocument) {",
+        "157": "\t\t\tfinal HWPFDocument doc = ((HWPFDocument)docObj);",
+        "158": "\t\t\ttry {",
+        "255": "\t\t\tif (docObj instanceof HWPFDocument)"
+      },
+      "id": 134954814,
+      "filename": "WordExport.java"
+    },
+    {
+      "repo": "https://github.com/manoja328/DocumentClustering.git",
+      "language": "Java",
+      "linescount": 52,
+      "location": "/DocumentClustering/src/indexerHouse",
+      "name": "DocumentClustering",
+      "url": "https://searchcode.com/codesearch/view/76013528/",
+      "md5hash": "c9a5e1543a427274e0badeba4550d47f",
+      "lines": {
+        "27": "                  fs = new POIFSFileSystem(new FileInputStream(fileName));                             ",
+        "28": "                  HWPFDocument doc = new HWPFDocument(fs);                   "
+      },
+      "id": 76013528,
+      "filename": "DocumentFileParsing.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 351,
+      "location": "/src/main/java/org/docx4j/convert/in",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642935/",
+      "md5hash": "7e4ab85cefb0bb7ea0f70affee45a7e6",
+      "lines": {
+        "65": "//\tpublic static boolean convert(FileInputStream in, WordprocessingMLPackage out) throws Exception {",
+        "66": "//\t\tHWPFDocument doc = new HWPFDocument(in);",
+        "81": "\t */",
+        "55": "",
+        "56": "\t\tHWPFDocument doc = new HWPFDocument(in);",
+        "26": "import org.apache.log4j.Logger;",
+        "27": "import org.apache.poi.hwpf.HWPFDocument;",
+        "82": "\tprivate static void convert(HWPFDocument doc,"
+      },
+      "id": 17642935,
+      "filename": "Doc.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 153,
+      "location": "/src/com/vizhen/poihelper",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383050/",
+      "md5hash": "2146decd030993d210db0e145cf1a024",
+      "lines": {
+        "64": "            Log.d(TAG, \"hwpfDocument:\" + hwpfDocument);",
+        "21": "",
+        "22": "import org.apache.poi.hwpf.HWPFDocumentCore;",
+        "72": "            wordToHtmlConverter.setPicturesManager(new PictureSaving());",
+        "73": "            wordToHtmlConverter.processDocument(hwpfDocument);",
+        "61": "            ",
+        "62": "            HWPFDocumentCore hwpfDocument = WordToHtmlUtils.loadDoc(fileInputStream);",
+        "63": "            "
+      },
+      "id": 97383050,
+      "filename": "SimpleWord2Html.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 250,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384433/",
+      "md5hash": "8bb8ee10eff23db02cff3526d2c5e375",
+      "lines": {
+        "40": " * {@link org.apache.poi.hwpf.HWPFDocument#registerList(HWPFList) registerList}",
+        "41": " * in {@link org.apache.poi.hwpf.HWPFDocument HWPFDocument}.",
+        "42": " * ",
+        "39": " * conjunction with"
+      },
+      "id": 97384433,
+      "filename": "HWPFList.java"
+    },
+    {
+      "repo": "https://bitbucket.org/petermr/chemicaltagger",
+      "language": "Java",
+      "linescount": 177,
+      "location": "/src/main/java/uk/ac/cam/ch/wwmm/chemicaltagger",
+      "name": "chemicaltagger",
+      "url": "https://searchcode.com/codesearch/view/54270182/",
+      "md5hash": "a98bc0e3602dfaadbcb1c63cfa0df696",
+      "lines": {
+        "8": "import org.apache.commons.lang.StringUtils;",
+        "9": "import org.apache.poi.hwpf.HWPFDocument;",
+        "50": "\t\t\tHWPFDocument doc = new HWPFDocument(fs);",
+        "49": ""
+      },
+      "id": 54270182,
+      "filename": "readDoc.java"
+    },
+    {
+      "repo": "https://github.com/0451liyang/StudyDemo.git",
+      "language": "Java",
+      "linescount": 44,
+      "location": "/PrintDemo/src/com/loveplusplus/demo/print/util",
+      "name": "StudyDemo",
+      "url": "https://searchcode.com/codesearch/view/69098620/",
+      "md5hash": "419c1341b2f0c7eb98833e52c475698e",
+      "lines": {
+        "8": "import org.apache.poi.hwpf.HWPFDocument;",
+        "24": "\t\t\tPOIFSFileSystem fs = new POIFSFileSystem(tempInputStream);",
+        "25": "\t\t\tHWPFDocument doc = new HWPFDocument(fs);",
+        "7": ""
+      },
+      "id": 69098620,
+      "filename": "WordUtil.java"
+    },
+    {
+      "repo": "https://github.com/nic9805/jeecg.git",
+      "language": "Java",
+      "linescount": 489,
+      "location": "/jeecg-framework/src/main/java/org/jeecgframework/web/cgform/common",
+      "name": "jeecg",
+      "url": "https://searchcode.com/codesearch/view/93181874/",
+      "md5hash": "df0e5f290ffd002ce829af370ec001f9",
+      "lines": {
+        "96": "\t\tInputStream input = new FileInputStream(docfile);",
+        "97": "\t\tHWPFDocument wordDocument = new HWPFDocument(input);",
+        "19": "",
+        "20": "import org.apache.poi.hwpf.HWPFDocument;"
+      },
+      "id": 93181874,
+      "filename": "OfficeHtmlUtil.java"
+    },
+    {
+      "repo": "https://github.com/silentjesse/code_java_wellpt.git",
+      "language": "Java",
+      "linescount": 1673,
+      "location": "/wellpt-basicdata/src/main/java/com/wellsoft/pt/basicdata/printtemplate/service/impl",
+      "name": "code_java_wellpt",
+      "url": "https://searchcode.com/codesearch/view/94110212/",
+      "md5hash": "b5d2adb6047e536f733a27112631560e",
+      "lines": {
+        "28": "import org.apache.commons.lang.StringUtils;",
+        "1339": "\t\t}",
+        "1340": "\t\tHWPFDocument hdt = null;",
+        "29": "import org.apache.poi.hwpf.HWPFDocument;",
+        "1342": "\t\t\thdt = new HWPFDocument(in);",
+        "1341": "\t\ttry {"
+      },
+      "id": 94110212,
+      "filename": "PrintTemplateServiceImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 82,
+      "location": "/ppt/scratchpad/testcases/org/apache/poi/hwpf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97397200/",
+      "md5hash": "f321f3d618d7d4608cbc1b2925dcf647",
+      "lines": {
+        "37": "\tpublic void testShapes() throws Exception {",
+        "38": "\t\tHWPFDocument doc = HWPFTestDataSamples.openSampleFile(\"WithArtShapes.doc\");",
+        "25": "",
+        "26": "import org.apache.poi.hwpf.HWPFDocument;",
+        "61": "\t\tByteArrayInputStream bais = new ByteArrayInputStream(baos.toByteArray());",
+        "62": "\t\tdoc = new HWPFDocument(bais);"
+      },
+      "id": 97397200,
+      "filename": "TestShapes.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 20,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 5,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 3,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

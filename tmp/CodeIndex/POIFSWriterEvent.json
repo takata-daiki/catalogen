@@ -1,0 +1,86 @@
+{
+  "matchterm": "POIFSWriterEvent",
+  "previouspage": null,
+  "searchterm": "POIFSWriterEvent",
+  "query": "POIFSWriterEvent",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 115,
+      "location": "/components/forks/poi/src/loci/poi/poifs/filesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642275/",
+      "md5hash": "b410cd824b3bff2ca5b5c722e44009ae",
+      "lines": {
+        "112": "    }",
+        "51": "public class POIFSWriterEvent",
+        "50": "",
+        "67": "",
+        "68": "    POIFSWriterEvent(final DocumentOutputStream stream,",
+        "113": "}   // end public class POIFSWriterEvent",
+        "44": "/**",
+        "45": " * Class POIFSWriterEvent"
+      },
+      "id": 15642275,
+      "filename": "POIFSWriterEvent.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 684,
+      "location": "/components/forks/poi/src/loci/poi/poifs/filesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642272/",
+      "md5hash": "59a31c39c6dfe8eece6f3750636bbe31",
+      "lines": {
+        "642": "",
+        "611": "",
+        "612": "                writer.processPOIFSWriterEvent(new POIFSWriterEvent(dstream,",
+        "643": "                    writer.processPOIFSWriterEvent(",
+        "518": "",
+        "519": "                writer.processPOIFSWriterEvent(new POIFSWriterEvent(dstream,",
+        "644": "                        new POIFSWriterEvent(dstream, path, name, size));",
+        "645": "                    dstream.writeFiller(countBlocks()"
+      },
+      "id": 15642272,
+      "filename": "POIFSDocument.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 64,
+      "location": "/components/forks/poi/src/loci/poi/poifs/filesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642288/",
+      "md5hash": "218571ea570af7044fb0cc1def6220e7",
+      "lines": {
+        "54": "    /**",
+        "55": "     * Process a POIFSWriterEvent that this listener had registered",
+        "57": "     *",
+        "58": "     * @param event the POIFSWriterEvent",
+        "60": "",
+        "61": "    public void processPOIFSWriterEvent(POIFSWriterEvent event);"
+      },
+      "id": 15642288,
+      "filename": "POIFSWriterListener.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

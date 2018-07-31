@@ -1,0 +1,255 @@
+{
+  "matchterm": "ListManagedBlock",
+  "previouspage": null,
+  "searchterm": "ListManagedBlock",
+  "query": "ListManagedBlock",
+  "language_filters": [
+    {
+      "count": 12,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 12,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 68,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642257/",
+      "md5hash": "930b6578357b416af98f1c2202ebed39",
+      "lines": {
+        "65": "        throws IOException;",
+        "66": "}   // end public interface ListManagedBlock",
+        "52": "",
+        "53": "public interface ListManagedBlock"
+      },
+      "id": 15642257,
+      "filename": "ListManagedBlock.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 317,
+      "location": "/ppt/poi/org/apache/poi/poifs/storage",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97398057/",
+      "md5hash": "8dac231f3c1e519795248f605babb1e0",
+      "lines": {
+        "290": "     */",
+        "291": "    private void setEntries(ListManagedBlock[] blocks, BlockList raw_blocks) throws IOException {",
+        "243": "",
+        "168": "     */",
+        "169": "    BlockAllocationTableReader(POIFSBigBlockSize bigBlockSize, ListManagedBlock[] blocks, BlockList raw_block_list)",
+        "202": "     *",
+        "203": "     * @return array of ListManagedBlocks, in their correct order",
+        "206": "     */",
+        "207": "    ListManagedBlock[] fetchBlocks(int startBlock, int headerPropertiesStartBlock,",
+        "208": "            BlockList blockList) throws IOException {",
+        "209": "        List<ListManagedBlock> blocks = new ArrayList<ListManagedBlock>();",
+        "211": "        boolean firstPass = true;",
+        "212": "        ListManagedBlock dataBlock = null;",
+        "244": "        return blocks.toArray(new ListManagedBlock[blocks.size()]);"
+      },
+      "id": 97398057,
+      "filename": "BlockAllocationTableReader.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 176,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642269/",
+      "md5hash": "4cc58403665beff3f440d947b23f45f7",
+      "lines": {
+        "65": "    {",
+        "66": "        _blocks = new ListManagedBlock[ 0 ];",
+        "76": "    protected void setBlocks(final ListManagedBlock [] blocks)",
+        "75": "",
+        "108": "",
+        "109": "    public ListManagedBlock remove(final int index)",
+        "142": "",
+        "111": "    {",
+        "112": "        ListManagedBlock result = null;",
+        "56": "{",
+        "57": "    protected ListManagedBlock[]         _blocks;",
+        "143": "    public ListManagedBlock [] fetchBlocks(final int startBlock)"
+      },
+      "id": 15642269,
+      "filename": "BlockListImpl.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642268/",
+      "md5hash": "10699ac97a28478662823933743971be",
+      "lines": {
+        "208": "    ListManagedBlock [] fetchBlocks(final int startBlock,",
+        "283": "    private void setEntries(final ListManagedBlock [] blocks,",
+        "202": "     *",
+        "203": "     * @return array of ListManagedBlocks, in their correct order",
+        "207": "",
+        "175": "",
+        "176": "    BlockAllocationTableReader(final ListManagedBlock [] blocks,",
+        "282": "",
+        "219": "        }",
+        "220": "        return ( ListManagedBlock [] ) blocks",
+        "221": "            .toArray(new ListManagedBlock[ 0 ]);",
+        "222": "    }"
+      },
+      "id": 15642268,
+      "filename": "BlockAllocationTableReader.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 310,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642258/",
+      "md5hash": "e8d45aaab75f236cf3625cba098392df",
+      "lines": {
+        "290": "    /* **********  END  implementation of BlockWritable ********** */",
+        "291": "    /* ********** START implementation of ListManagedBlock ********** */",
+        "55": "public class SmallDocumentBlock",
+        "56": "    implements BlockWritable, ListManagedBlock",
+        "307": "    /* **********  END  implementation of ListManagedBlock ********** */",
+        "186": "",
+        "187": "    public static List extract(ListManagedBlock [] blocks, int size)",
+        "306": ""
+      },
+      "id": 15642258,
+      "filename": "SmallDocumentBlock.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 131,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642265/",
+      "md5hash": "95feabc01a643057bc42572da437c8ff",
+      "lines": {
+        "128": "    /* **********  END  implementation of ListManagedBlock ********** */",
+        "104": "",
+        "55": "public class RawDataBlock",
+        "56": "    implements ListManagedBlock",
+        "105": "    /* ********** START implementation of ListManagedBlock ********** */",
+        "127": ""
+      },
+      "id": 15642265,
+      "filename": "RawDataBlock.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 105,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642254/",
+      "md5hash": "338a8259379f020cd872e3f518e18de6",
+      "lines": {
+        "89": "",
+        "90": "    public ListManagedBlock [] fetchBlocks(final int startBlock)",
+        "75": "",
+        "76": "    public ListManagedBlock remove(final int index)"
+      },
+      "id": 15642254,
+      "filename": "BlockList.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 126,
+      "location": "/components/forks/poi/src/loci/poi/poifs/property",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642242/",
+      "md5hash": "4eff013c957bb876ea3bee107a0e0a82",
+      "lines": {
+        "48": "import loci.poi.poifs.common.POIFSConstants;",
+        "49": "import loci.poi.poifs.storage.ListManagedBlock;",
+        "82": "    static List convertToProperties(ListManagedBlock [] blocks)",
+        "81": ""
+      },
+      "id": 15642242,
+      "filename": "PropertyFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 684,
+      "location": "/components/forks/poi/src/loci/poi/poifs/filesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642272/",
+      "md5hash": "59a31c39c6dfe8eece6f3750636bbe31",
+      "lines": {
+        "136": "",
+        "137": "    public POIFSDocument(final String name, final ListManagedBlock [] blocks,",
+        "53": "import loci.poi.poifs.storage.BlockWritable;",
+        "54": "import loci.poi.poifs.storage.ListManagedBlock;"
+      },
+      "id": 15642272,
+      "filename": "POIFSDocument.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 72,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642259/",
+      "md5hash": "52f6003dba72dac065e695ed29bf8f29",
+      "lines": {
+        "67": "",
+        "68": "    public ListManagedBlock[] getBlocks() { return _blocks; }"
+      },
+      "id": 15642259,
+      "filename": "SmallDocumentBlockList.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 100,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642262/",
+      "md5hash": "f04d81fb6076689a6e02ea86f898d133",
+      "lines": {
+        "96": "    public ListManagedBlock[] getBlocks() { return _blocks; }",
+        "95": ""
+      },
+      "id": 15642262,
+      "filename": "RawDataBlockList.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 522,
+      "location": "/components/forks/poi/src/loci/poi/poifs/filesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642276/",
+      "md5hash": "821ddc8beda41ba4d7ad809592451995",
+      "lines": {
+        "67": "import loci.poi.poifs.storage.SmallDocumentBlock;",
+        "68": "import loci.poi.poifs.storage.ListManagedBlock;"
+      },
+      "id": 15642276,
+      "filename": "POIFSFileSystem.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 12,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

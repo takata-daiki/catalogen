@@ -1,0 +1,433 @@
+{
+  "matchterm": "ParagraphAlignment",
+  "previouspage": null,
+  "searchterm": "ParagraphAlignment",
+  "query": "ParagraphAlignment",
+  "language_filters": [
+    {
+      "count": 22,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 22,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/kubohiroya/fop-formgenerator",
+      "language": "Java",
+      "linescount": 81,
+      "location": "/test/java/org/apache/fop/render/rtf/rtflib/testdocs",
+      "name": "fop-formgenerator",
+      "url": "https://searchcode.com/codesearch/view/128943511/",
+      "md5hash": "d33e6381a255b2c911384accb402b0fe",
+      "lines": {
+        "17": "",
+        "18": "/* $Id: ParagraphAlignment.java 679326 2008-07-24 09:35:34Z vhennebert $ */",
+        "38": " */",
+        "39": "public class ParagraphAlignment extends TestDocument {",
+        "43": "     */",
+        "44": "    public ParagraphAlignment() {"
+      },
+      "id": 128943511,
+      "filename": "ParagraphAlignment.java"
+    },
+    {
+      "repo": "https://bitbucket.org/kubohiroya/patch-for-sqs-translator",
+      "language": "Java",
+      "linescount": 81,
+      "location": "/test/java/org/apache/fop/render/rtf/rtflib/testdocs",
+      "name": "patch-for-sqs-translator",
+      "url": "https://searchcode.com/codesearch/view/128946616/",
+      "md5hash": "d33e6381a255b2c911384accb402b0fe",
+      "lines": {
+        "17": "",
+        "18": "/* $Id: ParagraphAlignment.java 679326 2008-07-24 09:35:34Z vhennebert $ */",
+        "38": " */",
+        "39": "public class ParagraphAlignment extends TestDocument {",
+        "43": "     */",
+        "44": "    public ParagraphAlignment() {"
+      },
+      "id": 128946616,
+      "filename": "ParagraphAlignment.java"
+    },
+    {
+      "repo": "git://github.com/wsaryada/kodejava.git",
+      "language": "Java",
+      "linescount": 58,
+      "location": "/other-sample/src/main/java/org/kodejava/example/itextpdf",
+      "name": "kodejava",
+      "url": "https://searchcode.com/codesearch/view/15469922/",
+      "md5hash": "230149a46684532a712704dc1142d391",
+      "lines": {
+        "32": "            Chunk chunk = new Chunk(ParagraphAlignment.CONTENT);",
+        "11": "",
+        "12": "public class ParagraphAlignment {",
+        "31": "            // Creates a check for the paragraphs contents"
+      },
+      "id": 15469922,
+      "filename": "ParagraphAlignment.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 263,
+      "location": "/gae/org.apache.poi.xwpf.converter.core-gae/src/test/java/org/apache/poi/xwpf/converter/core/styles",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96672468/",
+      "md5hash": "7cc412e2c52d605b9e71eaa3ab0137d0",
+      "lines": {
+        "132": "        // text aligment",
+        "133": "        ParagraphAlignment alignment = stylesDocument.getParagraphAlignment( paragraph );",
+        "166": "        // text aligment",
+        "167": "        ParagraphAlignment alignment = stylesDocument.getParagraphAlignment( paragraph );",
+        "168": "        Assert.assertEquals( ParagraphAlignment.RIGHT, alignment );",
+        "169": "    }",
+        "139": "        {",
+        "140": "            Assert.assertEquals( ParagraphAlignment.LEFT, alignment );",
+        "179": "        // text aligment",
+        "180": "        ParagraphAlignment alignment = stylesDocument.getParagraphAlignment( paragraph );",
+        "152": "        // text aligment",
+        "153": "        ParagraphAlignment alignment = stylesDocument.getParagraphAlignment( paragraph );",
+        "154": "        Assert.assertNotNull( alignment );",
+        "155": "        Assert.assertEquals( ParagraphAlignment.CENTER, alignment );",
+        "30": "import org.apache.poi.xwpf.usermodel.IBodyElement;",
+        "31": "import org.apache.poi.xwpf.usermodel.ParagraphAlignment;"
+      },
+      "id": 96672468,
+      "filename": "TableCellVerticalAlignmentTestCase.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 1318,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter.core/src/main/java/org/apache/poi/xwpf/converter/core/styles",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96672666/",
+      "md5hash": "18cc8374432d7dd6cf1b2a24c157d76a",
+      "lines": {
+        "352": "    {",
+        "353": "        return ParagraphAlignmentValueProvider.INSTANCE.getValue( paragraph, this );",
+        "578": "    public ParagraphAlignment getTableAlignment( CTTblPrBase tblPr )",
+        "355": "",
+        "356": "    public ParagraphAlignment getParagraphAlignment( CTPPr pPr )",
+        "357": "    {",
+        "358": "        return ParagraphAlignmentValueProvider.INSTANCE.getValue( pPr );",
+        "577": "",
+        "105": "import org.apache.poi.xwpf.converter.core.utils.StringUtils;",
+        "42": "import org.apache.poi.xwpf.converter.core.styles.paragraph.ParagraphAlignmentValueProvider;",
+        "567": "",
+        "573": "    public ParagraphAlignment getTableAlignment( CTTblPr tblPr )",
+        "41": "import org.apache.poi.xwpf.converter.core.TableWidth;",
+        "568": "    public ParagraphAlignment getTableAlignment( XWPFTable table )",
+        "572": "",
+        "106": "import org.apache.poi.xwpf.usermodel.ParagraphAlignment;"
+      },
+      "id": 96672666,
+      "filename": "XWPFStylesDocument.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 56,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter.core/src/main/java/org/apache/poi/xwpf/converter/core/styles/table",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96672811/",
+      "md5hash": "edb0578611ea23bc525e6eca5383978b",
+      "lines": {
+        "32": "    extends AbstractTableValueProvider<ParagraphAlignment>",
+        "37": "    @Override",
+        "38": "    public ParagraphAlignment getValue( CTTblPr tblPr )",
+        "43": "    @Override",
+        "44": "    public ParagraphAlignment getValue( CTTblPrBase tblPr )",
+        "48": "",
+        "49": "    private ParagraphAlignment getTableAlignment( CTTblPrBase tblPr )",
+        "51": "        return tblPr == null || !tblPr.isSetJc() ? null",
+        "52": "                        : ParagraphAlignment.valueOf( tblPr.getJc().getVal().intValue() );",
+        "26": "",
+        "27": "import org.apache.poi.xwpf.usermodel.ParagraphAlignment;",
+        "31": "public class TableAlignmentValueProvider"
+      },
+      "id": 96672811,
+      "filename": "TableAlignmentValueProvider.java"
+    },
+    {
+      "repo": "https://code.google.com/p/xdocreport/",
+      "language": "Java",
+      "linescount": 266,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal/itext/stylable",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/12208714/",
+      "md5hash": "914ca558b80c1f09dfc8c55aa0c098b5",
+      "lines": {
+        "32": "import org.apache.poi.xwpf.converter.internal.itext.styles.StyleParagraphProperties;",
+        "33": "import org.apache.poi.xwpf.usermodel.ParagraphAlignment;",
+        "219": "",
+        "118": "",
+        "119": "        ParagraphAlignment paragraphAlignment = p.getAlignment();",
+        "122": "",
+        "123": "        if ( paragraphAlignment != null )",
+        "220": "        ParagraphAlignment alignment = p.getAlignment();",
+        "125": "            int alignment = Element.ALIGN_UNDEFINED;",
+        "126": "            switch ( paragraphAlignment )"
+      },
+      "id": 12208714,
+      "filename": "StylableParagraph.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 43,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter.core/src/main/java/org/apache/poi/xwpf/converter/core/styles/paragraph",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96672687/",
+      "md5hash": "33e2986e6ae12d8fce0d2a81e6b7a573",
+      "lines": {
+        "32": "{",
+        "33": "",
+        "34": "    public static final ParagraphAlignmentValueProvider INSTANCE = new ParagraphAlignmentValueProvider();",
+        "36": "    @Override",
+        "37": "    public ParagraphAlignment getValue( CTPPr ppr )",
+        "38": "    {",
+        "39": "        return ppr == null || !ppr.isSetJc() ? null : ParagraphAlignment.valueOf( ppr.getJc().getVal().intValue() );",
+        "26": "",
+        "27": "import org.apache.poi.xwpf.usermodel.ParagraphAlignment;",
+        "29": "",
+        "30": "public class ParagraphAlignmentValueProvider",
+        "31": "    extends AbstractParagraphValueProvider<ParagraphAlignment>"
+      },
+      "id": 96672687,
+      "filename": "ParagraphAlignmentValueProvider.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 19,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/styles/pargraph",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673153/",
+      "md5hash": "c76f8ed0d78c3a239043c34cc2bae5c2",
+      "lines": {
+        "2": "",
+        "3": "import org.apache.poi.xwpf.usermodel.ParagraphAlignment;",
+        "5": "",
+        "6": "public class ParagraphAlignmentValueProvider",
+        "7": "    extends AbstractParagraphValueProvider<ParagraphAlignment>",
+        "8": "{",
+        "9": "",
+        "10": "    public static final ParagraphAlignmentValueProvider INSTANCE = new ParagraphAlignmentValueProvider();",
+        "12": "    @Override",
+        "13": "    public ParagraphAlignment getValue( CTPPr ppr )",
+        "14": "    {",
+        "15": "        return ppr == null || !ppr.isSetJc() ? null : ParagraphAlignment.valueOf( ppr.getJc().getVal().intValue() );"
+      },
+      "id": 96673153,
+      "filename": "ParagraphAlignmentValueProvider.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 1355,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter.pdf/src/main/java/org/apache/poi/xwpf/converter/pdf/internal",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673019/",
+      "md5hash": "5000f7cf0c2ae11266b40166c2a4f792",
+      "lines": {
+        "999": "        ParagraphAlignment alignment = stylesDocument.getTableAlignment( table );",
+        "998": "        // Table alignment",
+        "55": "import org.apache.poi.xwpf.usermodel.IBodyElement;",
+        "56": "import org.apache.poi.xwpf.usermodel.ParagraphAlignment;",
+        "299": "        // text-align",
+        "300": "        ParagraphAlignment alignment = stylesDocument.getParagraphAlignment( docxParagraph );"
+      },
+      "id": 96673019,
+      "filename": "PdfMapper.java"
+    },
+    {
+      "repo": "https://github.com/nls-oskari/oskari-server.git",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/servlet-printout/src/main/java/fi/nls/oskari/printout/ws/jaxrs/format",
+      "name": "oskari-server",
+      "url": "https://searchcode.com/codesearch/view/76071738/",
+      "md5hash": "e6c0ddd87921a1487250d68e48227284",
+      "lines": {
+        "62": "\t\tp1.setAlignment(ParagraphAlignment.CENTER);",
+        "21": "import org.apache.poi.xwpf.usermodel.Document;",
+        "22": "import org.apache.poi.xwpf.usermodel.ParagraphAlignment;",
+        "61": "\t\tXWPFParagraph p1 = doc.createParagraph();"
+      },
+      "id": 76071738,
+      "filename": "StreamingDOCXImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 184,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/styles",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673141/",
+      "md5hash": "54d466bc62407ce1d7c156a3f460632b",
+      "lines": {
+        "180": "    {",
+        "178": "",
+        "19": "import org.apache.poi.xwpf.converter.styles.run.RunFontStyleItalicValueProvider;",
+        "20": "import org.apache.poi.xwpf.usermodel.ParagraphAlignment;",
+        "179": "    public ParagraphAlignment getParagraphAlignment( XWPFParagraph paragraph )",
+        "8": "",
+        "9": "import org.apache.poi.xwpf.converter.styles.pargraph.ParagraphAlignmentValueProvider;",
+        "181": "        return ParagraphAlignmentValueProvider.INSTANCE.getValue( paragraph, this );"
+      },
+      "id": 96673141,
+      "filename": "XWPFStylesDocument.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 500,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal/xhtml",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673278/",
+      "md5hash": "2555b809780cede5431162cbfec062e5",
+      "lines": {
+        "40": "import org.apache.poi.xwpf.converter.internal.itext.XWPFTableUtil;",
+        "41": "import org.apache.poi.xwpf.usermodel.ParagraphAlignment;",
+        "222": "        // Aligment",
+        "223": "        ParagraphAlignment alignment = paragraph.getAlignment();"
+      },
+      "id": 96673278,
+      "filename": "XHTMLStyleUtil.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 884,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal/itext",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673303/",
+      "md5hash": "58f5f4b9d6f4406c0fcea13e358fb18b",
+      "lines": {
+        "345": "        // text-align",
+        "346": "        ParagraphAlignment alignment = stylesDocument.getParagraphAlignment( docxParagraph );",
+        "51": "import org.apache.poi.xwpf.usermodel.LineSpacingRule;",
+        "52": "import org.apache.poi.xwpf.usermodel.ParagraphAlignment;"
+      },
+      "id": 96673303,
+      "filename": "PDFMapper.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 583,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter.xhtml/src/main/java/org/apache/poi/xwpf/converter/xhtml/internal/styles",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673786/",
+      "md5hash": "4984e8765f59cf41f5ca768e28cca565",
+      "lines": {
+        "65": "import org.apache.poi.xwpf.converter.xhtml.internal.utils.SAXHelper;",
+        "66": "import org.apache.poi.xwpf.usermodel.ParagraphAlignment;",
+        "186": "            ParagraphAlignment alignment = super.getParagraphAlignment( pPr );",
+        "185": "            // Aligment"
+      },
+      "id": 96673786,
+      "filename": "CSSStylesDocument.java"
+    },
+    {
+      "repo": "https://code.google.com/p/xdocreport/",
+      "language": "Java",
+      "linescount": 246,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal/itext",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/12208683/",
+      "md5hash": "ba6f52ff3f92e707418efdb2af4e63f8",
+      "lines": {
+        "32": "import org.apache.poi.xwpf.usermodel.ParagraphAlignment;",
+        "171": "        // Aligment",
+        "172": "        ParagraphAlignment alignment = paragraph.getAlignment();",
+        "31": ""
+      },
+      "id": 12208683,
+      "filename": "XWPFParagraphUtils.java"
+    },
+    {
+      "repo": "https://code.google.com/p/xdocreport/",
+      "language": "Java",
+      "linescount": 495,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal/xhtml",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/12208720/",
+      "md5hash": "dd6cf4bedbefe0b7e63404d0990f0fcc",
+      "lines": {
+        "40": "import org.apache.poi.xwpf.usermodel.ParagraphAlignment;",
+        "221": "        // Aligment",
+        "222": "        ParagraphAlignment alignment = paragraph.getAlignment();",
+        "39": "import org.apache.poi.xwpf.converter.internal.itext.XWPFTableUtil;"
+      },
+      "id": 12208720,
+      "filename": "XHTMLStyleUtil.java"
+    },
+    {
+      "repo": "https://bitbucket.org/kubohiroya/fop-formgenerator",
+      "language": "Java",
+      "linescount": 111,
+      "location": "/test/java/org/apache/fop/render/rtf/rtflib/testdocs",
+      "name": "fop-formgenerator",
+      "url": "https://searchcode.com/codesearch/view/128943512/",
+      "md5hash": "a67622b69430fa05bc8527a6f41157d3",
+      "lines": {
+        "57": "        \"BasicLink\",",
+        "58": "        \"ParagraphAlignment\""
+      },
+      "id": 128943512,
+      "filename": "CreateTestDocuments.java"
+    },
+    {
+      "repo": "https://bitbucket.org/kubohiroya/patch-for-sqs-translator",
+      "language": "Java",
+      "linescount": 111,
+      "location": "/test/java/org/apache/fop/render/rtf/rtflib/testdocs",
+      "name": "patch-for-sqs-translator",
+      "url": "https://searchcode.com/codesearch/view/128946617/",
+      "md5hash": "a67622b69430fa05bc8527a6f41157d3",
+      "lines": {
+        "57": "        \"BasicLink\",",
+        "58": "        \"ParagraphAlignment\""
+      },
+      "id": 128946617,
+      "filename": "CreateTestDocuments.java"
+    },
+    {
+      "repo": "https://bitbucket.org/jtorelli/intersource-ticketing-system-demo",
+      "language": "Java",
+      "linescount": 333,
+      "location": "/src/main/java/com/intersourcellc/smopmaker/api/render",
+      "name": "intersource-ticketing-system-demo",
+      "url": "https://searchcode.com/codesearch/view/134209341/",
+      "md5hash": "13e30f9811d59524ac487c6cf50fba06",
+      "lines": {
+        "122": "\t\t\t\t\t\t\tthisRun.setFontSize(12);\t\t\t\t\t\t",
+        "123": "\t\t\t\t\t\t\tparagraph.setAlignment(ParagraphAlignment.CENTER);"
+      },
+      "id": 134209341,
+      "filename": "SmopDocumentFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 13,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 5,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 4,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

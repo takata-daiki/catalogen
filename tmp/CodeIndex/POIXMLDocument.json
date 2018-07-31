@@ -1,0 +1,317 @@
+{
+  "matchterm": "POIXMLDocument",
+  "previouspage": null,
+  "searchterm": "POIXMLDocument",
+  "query": "POIXMLDocument",
+  "language_filters": [
+    {
+      "count": 16,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 16,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 183,
+      "location": "/pptx/src/org/apache/poi",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406028/",
+      "md5hash": "26607ac5995dc62d56a6e905896e6ed2",
+      "lines": {
+        "38": "",
+        "55": "",
+        "56": "    protected POIXMLDocument(OPCPackage pkg) {",
+        "153": "    protected final void load(POIXMLFactory factory) throws IOException {",
+        "154": "        Map<PackagePart, POIXMLDocumentPart> context = new HashMap<PackagePart, POIXMLDocumentPart>();",
+        "39": "public abstract class POIXMLDocument extends POIXMLDocumentPart{"
+      },
+      "id": 97406028,
+      "filename": "POIXMLDocument.java"
+    },
+    {
+      "repo": "https://github.com/cheft/fast-reader.git",
+      "language": "Java",
+      "linescount": 288,
+      "location": "/reader-server/src/com/topway/reader/server/lucene",
+      "name": "fast-reader",
+      "url": "https://searchcode.com/codesearch/view/94960725/",
+      "md5hash": "8e716c0d4bbe4c605731725e169386b5",
+      "lines": {
+        "176": "\t\ttry {",
+        "177": "\t\t\tOPCPackage opcPackage = POIXMLDocument.openPackage(path);",
+        "18": "import org.apache.pdfbox.util.PDFTextStripper;",
+        "19": "import org.apache.poi.POIXMLDocument;",
+        "241": "\t\t\tOPCPackage opcPackage = POIXMLDocument.openPackage(path);",
+        "240": "\t\ttry {",
+        "205": "\t\ttry {",
+        "206": "\t\t\tOPCPackage opcPackage = POIXMLDocument.openPackage(path);"
+      },
+      "id": 94960725,
+      "filename": "IndexFiles.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 122,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970699/",
+      "md5hash": "a1b8015af692244547118de2aff2d575",
+      "lines": {
+        "115": "\t\t}",
+        "116": "\t\tif(POIXMLDocument.hasOOXMLHeader(is)) {",
+        "22": "",
+        "23": "import org.zkoss.poi.POIXMLDocument;"
+      },
+      "id": 3970699,
+      "filename": "ExcelImporter.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 592,
+      "location": "/eid-applet-service-signer/src/test/java/test/unit/be/fedict/eid/applet/service/signer",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982558/",
+      "md5hash": "cc77d5a7fa1ea507ddb103c019ec1ccf",
+      "lines": {
+        "64": "import org.apache.commons.logging.LogFactory;",
+        "65": "import org.apache.poi.POIXMLDocument;",
+        "140": "\t\t// operate",
+        "141": "\t\tboolean result = POIXMLDocument.hasOOXMLHeader(inputStream);"
+      },
+      "id": 7982558,
+      "filename": "OOXMLSignatureVerifierTest.java"
+    },
+    {
+      "repo": "http://filesearch.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 111,
+      "location": "/filesearch/SearchLocalFile/src/com/searchlocal/filereader",
+      "name": "filesearch",
+      "url": "https://searchcode.com/codesearch/view/14046017/",
+      "md5hash": "df1e61c6ce21120c34de9659095a05b9",
+      "lines": {
+        "9": "",
+        "10": "import org.apache.poi.POIXMLDocument;",
+        "30": "\t\t\tif (StringUtils.is2007Doc(filepath)) {",
+        "31": "\t\t\t\tXWPFDocument docx = new XWPFDocument(POIXMLDocument.openPackage(filepath));"
+      },
+      "id": 14046017,
+      "filename": "WordReader.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 56,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785569/",
+      "md5hash": "1b07871a6b935801dae59b618be5ff74",
+      "lines": {
+        "40": "     */",
+        "41": "    POIXMLDocument getDocument();",
+        "20": "",
+        "21": "import org.apache.poi.POIXMLDocument;"
+      },
+      "id": 111785569,
+      "filename": "OOXMLExtractor.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 165,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785571/",
+      "md5hash": "e792b324ce485597dfa73d012dd27d56",
+      "lines": {
+        "68": "     */",
+        "21": "",
+        "22": "import org.apache.poi.POIXMLDocument;",
+        "69": "    public POIXMLDocument getDocument() {"
+      },
+      "id": 111785571,
+      "filename": "AbstractOOXMLExtractor.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 103,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785577/",
+      "md5hash": "c9c3f130483ace9122b93909deae1587",
+      "lines": {
+        "67": "            ",
+        "68": "            POIXMLDocument document = poiExtractor.getDocument();",
+        "22": "",
+        "23": "import org.apache.poi.POIXMLDocument;"
+      },
+      "id": 111785577,
+      "filename": "OOXMLExtractorFactory.java"
+    },
+    {
+      "repo": "https://github.com/nic9805/jeecg.git",
+      "language": "Java",
+      "linescount": 619,
+      "location": "/jeecg-framework/src/main/java/org/jeecgframework/poi/excel",
+      "name": "jeecg",
+      "url": "https://searchcode.com/codesearch/view/93182047/",
+      "md5hash": "26277c75bb849c4fac8bde1956135edc",
+      "lines": {
+        "24": "import org.apache.commons.lang.StringUtils;",
+        "25": "import org.apache.poi.POIXMLDocument;",
+        "100": "\t\t\tisXSSFWorkbook = false;",
+        "101": "\t\t}else if (POIXMLDocument.hasOOXMLHeader(inputstream)) {"
+      },
+      "id": 93182047,
+      "filename": "ExcelImportUtil.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 265,
+      "location": "/pptx/src/org/apache/poi/xslf",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406428/",
+      "md5hash": "8f08dde64ec3cc85fb68661974a86de1",
+      "lines": {
+        "64": " */",
+        "65": "public class XSLFSlideShow extends POIXMLDocument {",
+        "18": "",
+        "19": "import org.apache.poi.POIXMLDocument;"
+      },
+      "id": 97406428,
+      "filename": "XSLFSlideShow.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 395,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406883/",
+      "md5hash": "affb9bb9cdc3dc16020b82db1f4ce116",
+      "lines": {
+        "65": "@Beta",
+        "66": "public class XMLSlideShow  extends POIXMLDocument {",
+        "126": "            _masters = new HashMap<String, XSLFSlideMaster>();",
+        "88": "",
+        "89": "            //build a tree of POIXMLDocumentParts, this presentation being the root",
+        "127": "            for (POIXMLDocumentPart p : getRelations()) {",
+        "28": "",
+        "29": "import org.apache.poi.POIXMLDocument;",
+        "30": "import org.apache.poi.POIXMLDocumentPart;",
+        "31": "import org.apache.poi.POIXMLException;"
+      },
+      "id": 97406883,
+      "filename": "XMLSlideShow.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nuclos/nuclos.git",
+      "language": "Java",
+      "linescount": 207,
+      "location": "/nuclos-server/src/main/java/org/nuclos/server/common/ooxml",
+      "name": "nuclos",
+      "url": "https://searchcode.com/codesearch/view/46076963/",
+      "md5hash": "c0bffaa85f1edfa557338d7341487bcf",
+      "lines": {
+        "77": "\t\tPushbackInputStream pbis = new PushbackInputStream(is, 16);",
+        "78": "\t\tif (POIXMLDocument.hasOOXMLHeader(pbis)) {"
+      },
+      "id": 46076963,
+      "filename": "ExcelReader.java"
+    },
+    {
+      "repo": "https://bitbucket.org/mg/olat",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/src/main/java/org/olat/search/service/document/file",
+      "name": "olat",
+      "url": "https://searchcode.com/codesearch/view/126168424/",
+      "md5hash": "26b25461c47f18552a57123da05c1f4a",
+      "lines": {
+        "80": "\t\t\tfinal POIXMLTextExtractor extractor = (POIXMLTextExtractor) ExtractorFactory.createExtractor(bis);",
+        "81": "\t\t\tfinal POIXMLDocument document = extractor.getDocument();",
+        "28": "import org.apache.lucene.document.Document;",
+        "29": "import org.apache.poi.POIXMLDocument;"
+      },
+      "id": 126168424,
+      "filename": "ExcelOOXMLDocument.java"
+    },
+    {
+      "repo": "https://bitbucket.org/mg/olat",
+      "language": "Java",
+      "linescount": 156,
+      "location": "/src/main/java/org/olat/search/service/document/file",
+      "name": "olat",
+      "url": "https://searchcode.com/codesearch/view/126168429/",
+      "md5hash": "dfe530c94dc566561a0e060d649eb7c5",
+      "lines": {
+        "81": "\t\t\tfinal POIXMLTextExtractor extractor = (POIXMLTextExtractor) ExtractorFactory.createExtractor(bis);",
+        "82": "\t\t\tfinal POIXMLDocument document = extractor.getDocument();",
+        "28": "import org.apache.lucene.document.Document;",
+        "29": "import org.apache.poi.POIXMLDocument;"
+      },
+      "id": 126168429,
+      "filename": "WordOOXMLDocument.java"
+    },
+    {
+      "repo": "https://bitbucket.org/mg/olat",
+      "language": "Java",
+      "linescount": 142,
+      "location": "/src/main/java/org/olat/search/service/document/file",
+      "name": "olat",
+      "url": "https://searchcode.com/codesearch/view/126168430/",
+      "md5hash": "2571ccf2f7e2fae1fccea79a449e6010",
+      "lines": {
+        "27": "import org.apache.lucene.document.Document;",
+        "28": "import org.apache.poi.POIXMLDocument;",
+        "85": "\t\t\tfinal POIXMLTextExtractor extractor = (POIXMLTextExtractor) ExtractorFactory.createExtractor(bis);",
+        "86": "\t\t\tfinal POIXMLDocument document = extractor.getDocument();"
+      },
+      "id": 126168430,
+      "filename": "PowerPointOOXMLDocument.java"
+    },
+    {
+      "repo": "https://bitbucket.org/jtorelli/intersource-ticketing-system-demo",
+      "language": "Java",
+      "linescount": 333,
+      "location": "/src/main/java/com/intersourcellc/smopmaker/api/render",
+      "name": "intersource-ticketing-system-demo",
+      "url": "https://searchcode.com/codesearch/view/134209341/",
+      "md5hash": "13e30f9811d59524ac487c6cf50fba06",
+      "lines": {
+        "144": "  ",
+        "145": "        XWPFDocument doc = new XWPFDocument(POIXMLDocument.openPackage(getImagePath() + File.separator + \"SmopTemplate.docx\"));",
+        "10": "import java.util.*;",
+        "11": "import org.apache.poi.POIXMLDocument;"
+      },
+      "id": 134209341,
+      "filename": "SmopDocumentFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 8,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 5,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 3,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,474 @@
+{
+  "matchterm": "PathCommand",
+  "previouspage": null,
+  "searchterm": "PathCommand",
+  "query": "PathCommand",
+  "language_filters": [
+    {
+      "count": 33,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 33,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/LucaREz/alchemistwithosm",
+      "language": "Java",
+      "linescount": 57,
+      "location": "/nextreactionmodel/src/main/java/com/kitfox/svg/pathcmd",
+      "name": "alchemistwithosm",
+      "url": "https://searchcode.com/codesearch/view/136271811/",
+      "md5hash": "0cd72e742d09d5b82bc1128d7a722fd2",
+      "lines": {
+        "48": "    public PathCommand(boolean isRelative) {",
+        "1": "/*",
+        "2": " * PathCommand.java",
+        "39": " */",
+        "40": "abstract public class PathCommand {",
+        "43": "",
+        "44": "    /** Creates a new instance of PathCommand */",
+        "45": "    public PathCommand() {",
+        "46": "    }",
+        "47": ""
+      },
+      "id": 136271811,
+      "filename": "PathCommand.java"
+    },
+    {
+      "repo": "https://github.com/uisleandro/org.eclipse.papyrus.git",
+      "language": "Java",
+      "linescount": 68,
+      "location": "/extraplugins/diagram-definition/org.eclipse.papyrus.dd/src/org/eclipse/papyrus/dd/dg",
+      "name": "org.eclipse.papyrus",
+      "url": "https://searchcode.com/codesearch/view/97919769/",
+      "md5hash": "d9fc09f332da912a8b438084eab62eae",
+      "lines": {
+        "32": " * @see org.eclipse.papyrus.dd.dg.DGPackage#getPathCommand()",
+        "66": "",
+        "35": " */",
+        "36": "public interface PathCommand extends EObject {",
+        "67": "} // PathCommand",
+        "46": "\t * @see #setIsRelative(boolean)",
+        "47": "\t * @see org.eclipse.papyrus.dd.dg.DGPackage#getPathCommand_IsRelative()",
+        "19": " * ",
+        "20": " * <!-- begin-model-doc --> PathCommand is the abstract super type of all",
+        "55": "\t * Sets the value of the '",
+        "56": "\t * {@link org.eclipse.papyrus.dd.dg.PathCommand#isRelative",
+        "26": " * <ul>",
+        "27": " * <li>{@link org.eclipse.papyrus.dd.dg.PathCommand#isRelative <em>Is Relative",
+        "31": " * "
+      },
+      "id": 97919769,
+      "filename": "PathCommand.java"
+    },
+    {
+      "repo": "http://rmagick4j.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 491,
+      "location": "/Magick4J/src/magick4j",
+      "name": "rmagick4j",
+      "url": "https://searchcode.com/codesearch/view/11507013/",
+      "md5hash": "ef49da42a23b3a213e4923d75c6632d2",
+      "lines": {
+        "32": "    private static Map<String, PathCommand> buildCommands(){",
+        "33": "        Map<String,PathCommand> commands = new HashMap<String,PathCommand>();",
+        "34": "        ",
+        "35": "        commands.put(\"A\", new PathCommand(){",
+        "134": "        ",
+        "135": "        commands.put(\"H\", new PathCommand(){",
+        "160": "        commands.put(\"L\", new PathCommand(){",
+        "146": "        ",
+        "147": "        commands.put(\"h\", new PathCommand(){",
+        "25": "    ",
+        "26": "    private interface PathCommand{",
+        "159": "        ",
+        "29": "    ",
+        "30": "    private static final Map<String, PathCommand> COMMANDS = buildCommands();",
+        "31": "    "
+      },
+      "id": 11507013,
+      "filename": "PathParser.java"
+    },
+    {
+      "repo": "https://github.com/uisleandro/org.eclipse.papyrus.git",
+      "language": "Java",
+      "linescount": 155,
+      "location": "/extraplugins/diagram-definition/org.eclipse.papyrus.dd.edit/src/org/eclipse/papyrus/dd/dg/provider",
+      "name": "org.eclipse.papyrus",
+      "url": "https://searchcode.com/codesearch/view/97919633/",
+      "md5hash": "d2900a8a745f6c409249eeb7b240e003",
+      "lines": {
+        "35": "import org.eclipse.papyrus.dd.dg.DGPackage;",
+        "36": "import org.eclipse.papyrus.dd.dg.PathCommand;",
+        "103": "\tpublic String getText(Object object) {",
+        "104": "\t\tPathCommand pathCommand = (PathCommand) object;",
+        "41": " * This is the item provider adapter for a",
+        "42": " * {@link org.eclipse.papyrus.dd.dg.PathCommand} object. <!-- begin-user-doc -->",
+        "46": " */",
+        "47": "public class PathCommandItemProvider extends ItemProviderAdapter implements",
+        "56": "\t */",
+        "105": "\t\treturn getString(\"_UI_PathCommand_type\") + \" \"",
+        "89": "\t\t\t\tgetString(\"_UI_PropertyDescriptor_description\",",
+        "87": "\t\t\t\tgetResourceLocator(),",
+        "88": "\t\t\t\tgetString(\"_UI_PathCommand_isRelative_feature\"),",
+        "57": "\tpublic PathCommandItemProvider(AdapterFactory adapterFactory) {",
+        "90": "\t\t\t\t\t\t\"_UI_PathCommand_isRelative_feature\",",
+        "91": "\t\t\t\t\t\t\"_UI_PathCommand_type\"),"
+      },
+      "id": 97919633,
+      "filename": "PathCommandItemProvider.java"
+    },
+    {
+      "repo": "https://github.com/uisleandro/org.eclipse.papyrus.git",
+      "language": "Java",
+      "linescount": 1262,
+      "location": "/extraplugins/diagram-definition/org.eclipse.papyrus.dd/src/org/eclipse/papyrus/dd/dg/util",
+      "name": "org.eclipse.papyrus",
+      "url": "https://searchcode.com/codesearch/view/97919853/",
+      "md5hash": "c09a8f73853644fe7ff864c62999717e",
+      "lines": {
+        "128": "\t\t\tPathCommand pathCommand = (PathCommand) theEObject;",
+        "129": "\t\t\tT result = casePathCommand(pathCommand);",
+        "130": "\t\t\tif (result == null)",
+        "257": "\t\t\tif (result == null)",
+        "200": "\t\t\tif (result == null)",
+        "201": "\t\t\t\tresult = casePathCommand(cubicCurveTo);",
+        "711": "\t */",
+        "192": "\t\t\t\tresult = casePathCommand(closePath);",
+        "258": "\t\t\t\tresult = casePathCommand(quadraticCurveTo);",
+        "712": "\tpublic T casePathCommand(PathCommand object) {",
+        "345": "\t\t\tif (result == null)",
+        "248": "\t\t\tif (result == null)",
+        "249": "\t\t\t\tresult = casePathCommand(ellipticalCurveTo);",
+        "346": "\t\t\t\tresult = casePathCommand(lineTo);",
+        "191": "\t\t\tif (result == null)",
+        "127": "\t\tcase DGPackage.PATH_COMMAND: {"
+      },
+      "id": 97919853,
+      "filename": "DGSwitch.java"
+    },
+    {
+      "repo": "https://bitbucket.org/LucaREz/alchemistwithosm",
+      "language": "Java",
+      "linescount": 754,
+      "location": "/nextreactionmodel/src/main/java/com/kitfox/svg",
+      "name": "alchemistwithosm",
+      "url": "https://searchcode.com/codesearch/view/136271753/",
+      "md5hash": "a370e6cce3fec23daf42c936d414c252",
+      "lines": {
+        "704": "        PathCommand[] retArr = new PathCommand[cmdList.size()];",
+        "726": "            PathCommand cmd = commands[i];",
+        "725": "        {",
+        "710": "    {",
+        "711": "        PathCommand[] commands = parsePathList(text);",
+        "617": "            ",
+        "618": "            PathCommand cmd = null;",
+        "589": "    ",
+        "590": "    static protected PathCommand[] parsePathList(String list)",
+        "703": "        "
+      },
+      "id": 136271753,
+      "filename": "SVGElement.java"
+    },
+    {
+      "repo": "https://github.com/uisleandro/org.eclipse.papyrus.git",
+      "language": "Java",
+      "linescount": 1131,
+      "location": "/extraplugins/diagram-definition/org.eclipse.papyrus.dd/src/org/eclipse/papyrus/dd/dg/util",
+      "name": "org.eclipse.papyrus",
+      "url": "https://searchcode.com/codesearch/view/97919855/",
+      "md5hash": "08f307b60c2fb4941cee450b259e1561",
+      "lines": {
+        "552": "\tpublic boolean validatePathCommand(PathCommand pathCommand,",
+        "553": "\t\t\tDiagnosticChain diagnostics, Map<Object, Object> context) {",
+        "248": "\t\tcase DGPackage.PATH_COMMAND:",
+        "249": "\t\t\treturn validatePathCommand((PathCommand) value, diagnostics,",
+        "554": "\t\treturn validate_EveryDefaultConstraint(pathCommand, diagnostics,",
+        "551": "\t */"
+      },
+      "id": 97919855,
+      "filename": "DGValidator.java"
+    },
+    {
+      "repo": "https://github.com/uisleandro/org.eclipse.papyrus.git",
+      "language": "Java",
+      "linescount": 2891,
+      "location": "/extraplugins/diagram-definition/org.eclipse.papyrus.dd/src/org/eclipse/papyrus/dd/dg/impl",
+      "name": "org.eclipse.papyrus",
+      "url": "https://searchcode.com/codesearch/view/97919881/",
+      "md5hash": "2ffc372c09beba9a6d7c8663f164bc93",
+      "lines": {
+        "2112": "\t\tellipticalCurveToEClass.getESuperTypes().add(this.getPathCommand());",
+        "2113": "\t\tquadraticCurveToEClass.getESuperTypes().add(this.getPathCommand());",
+        "2114": "\t\tgradientEClass.getESuperTypes().add(this.getPaintServer());",
+        "2119": "\t\tlinearGradientEClass.getESuperTypes().add(this.getGradient());",
+        "2120": "\t\tlineToEClass.getESuperTypes().add(this.getPathCommand());",
+        "2192": "",
+        "2193": "\t\tinitEClass(pathCommandEClass, PathCommand.class, \"PathCommand\",",
+        "54": "import org.eclipse.papyrus.dd.dg.Path;",
+        "55": "import org.eclipse.papyrus.dd.dg.PathCommand;",
+        "2104": "\t\tgraphicalElementEClass.getESuperTypes().add(this.getDefinition());",
+        "2105": "\t\tmoveToEClass.getESuperTypes().add(this.getPathCommand());",
+        "2108": "\t\tcircleEClass.getESuperTypes().add(this.getGraphicalElement());",
+        "2109": "\t\tclosePathEClass.getESuperTypes().add(this.getPathCommand());",
+        "2110": "\t\tcubicCurveToEClass.getESuperTypes().add(this.getPathCommand());",
+        "2111": "\t\tellipseEClass.getESuperTypes().add(this.getGraphicalElement());"
+      },
+      "id": 97919881,
+      "filename": "DGPackageImpl.java"
+    },
+    {
+      "repo": "https://github.com/uisleandro/org.eclipse.papyrus.git",
+      "language": "Java",
+      "linescount": 163,
+      "location": "/extraplugins/diagram-definition/org.eclipse.papyrus.dd/src/org/eclipse/papyrus/dd/dg/impl",
+      "name": "org.eclipse.papyrus",
+      "url": "https://searchcode.com/codesearch/view/97919901/",
+      "md5hash": "4139a713a5d7758b6afaf6f30f9acdc9",
+      "lines": {
+        "77": "\t */",
+        "78": "\tpublic EList<PathCommand> getCommand() {",
+        "79": "\t\tif (command == null) {",
+        "80": "\t\t\tcommand = new EObjectContainmentEList<PathCommand>(",
+        "81": "\t\t\t\t\tPathCommand.class, this, DGPackage.PATH__COMMAND);",
+        "82": "\t\t}",
+        "51": "\t */",
+        "52": "\tprotected EList<PathCommand> command;",
+        "27": "import org.eclipse.papyrus.dd.dg.Path;",
+        "28": "import org.eclipse.papyrus.dd.dg.PathCommand;",
+        "126": "\t\t\tgetCommand().clear();",
+        "127": "\t\t\tgetCommand().addAll((Collection<? extends PathCommand>) newValue);"
+      },
+      "id": 97919901,
+      "filename": "PathImpl.java"
+    },
+    {
+      "repo": "https://github.com/shahedhossain/exo-training.git",
+      "language": "Java",
+      "linescount": 252,
+      "location": "/gxt-showcase/src/main/java/com/sencha/gxt/explorer/client/draw",
+      "name": "exo-training",
+      "url": "https://searchcode.com/codesearch/view/73511334/",
+      "md5hash": "6d773ca21cc06cbafaf3896db30f001a",
+      "lines": {
+        "208": "    RegExp valueRegExp = RegExp.compile(\"(?=-)|[,\\\\s]\");",
+        "209": "",
+        "34": "import com.sencha.gxt.chart.client.draw.path.MoveTo;",
+        "35": "import com.sencha.gxt.chart.client.draw.path.PathCommand;",
+        "210": "    List<PathCommand> commands = new ArrayList<PathCommand>();",
+        "204": "",
+        "205": "  private List<PathCommand> getCommandsFromString(String path) {",
+        "206": "    String pathCommands = \"AaCcHhLlMmQqSsTtVvZz\";",
+        "207": "    RegExp commandRegExp = RegExp.compile(\"(?=[\" + pathCommands + \"])\");"
+      },
+      "id": 73511334,
+      "filename": "LogoExample.java"
+    },
+    {
+      "repo": "https://bitbucket.org/LucaREz/alchemistwithosm",
+      "language": "Java",
+      "linescount": 247,
+      "location": "/nextreactionmodel/src/main/java/com/kitfox/svg",
+      "name": "alchemistwithosm",
+      "url": "https://searchcode.com/codesearch/view/136271750/",
+      "md5hash": "afcf198c1bff63405476775281e1a0de",
+      "lines": {
+        "148": "            {",
+        "149": "                PathCommand cmd = commands[i];",
+        "87": "            {",
+        "88": "                PathCommand cmd = commands[i];",
+        "137": "",
+        "138": "            PathCommand[] commands = parsePathList(commandList);",
+        "76": "",
+        "77": "            PathCommand[] commands = parsePathList(commandList);"
+      },
+      "id": 136271750,
+      "filename": "MissingGlyph.java"
+    },
+    {
+      "repo": "https://github.com/uisleandro/org.eclipse.papyrus.git",
+      "language": "Java",
+      "linescount": 974,
+      "location": "/extraplugins/diagram-definition/org.eclipse.papyrus.dd/src/org/eclipse/papyrus/dd/dg/util",
+      "name": "org.eclipse.papyrus",
+      "url": "https://searchcode.com/codesearch/view/97919850/",
+      "md5hash": "dc9cb9f8da0d714cbcf08bbf35b9b708",
+      "lines": {
+        "481": "\t * Creates a new adapter for an object of class '",
+        "482": "\t * {@link org.eclipse.papyrus.dd.dg.PathCommand <em>Path Command</em>}'.",
+        "491": "\tpublic Adapter createPathCommandAdapter() {",
+        "488": "\t * @see org.eclipse.papyrus.dd.dg.PathCommand",
+        "487": "\t * @return the new adapter.",
+        "104": "\t\t@Override",
+        "105": "\t\tpublic Adapter casePathCommand(PathCommand object) {",
+        "106": "\t\t\treturn createPathCommandAdapter();",
+        "107": "\t\t}",
+        "490": "\t */"
+      },
+      "id": 97919850,
+      "filename": "DGAdapterFactory.java"
+    },
+    {
+      "repo": "https://github.com/uisleandro/org.eclipse.papyrus.git",
+      "language": "Java",
+      "linescount": 1042,
+      "location": "/extraplugins/diagram-definition/org.eclipse.papyrus.dd.editor/src/org/eclipse/papyrus/dd/dg/editor",
+      "name": "org.eclipse.papyrus",
+      "url": "https://searchcode.com/codesearch/view/97919533/",
+      "md5hash": "2d3d36564f31a1bf0b6c0f84075094f8",
+      "lines": {
+        "656": "\t\tStringBuffer sb = new StringBuffer();",
+        "657": "\t\tfor (PathCommand command : object.getCommand()) {",
+        "668": "\tpublic Object casePathCommand(PathCommand object) {",
+        "57": "import org.eclipse.papyrus.dd.dg.Path;",
+        "58": "import org.eclipse.papyrus.dd.dg.PathCommand;",
+        "667": "\t@Override",
+        "412": "",
+        "413": "\t\treturn super.casePathCommand(object);",
+        "670": "\t}",
+        "669": "\t\treturn super.casePathCommand(object);"
+      },
+      "id": 97919533,
+      "filename": "DGToSVGConverter.java"
+    },
+    {
+      "repo": "https://github.com/uisleandro/org.eclipse.papyrus.git",
+      "language": "Java",
+      "linescount": 51,
+      "location": "/extraplugins/diagram-definition/org.eclipse.papyrus.dd/src/org/eclipse/papyrus/dd/dg",
+      "name": "org.eclipse.papyrus",
+      "url": "https://searchcode.com/codesearch/view/97919803/",
+      "md5hash": "f009d54577a0926034d32801affc7c59",
+      "lines": {
+        "48": "\tEList<PathCommand> getCommand();",
+        "47": "\t */",
+        "38": "\t * list. The list contents are of type",
+        "39": "\t * {@link org.eclipse.papyrus.dd.dg.PathCommand}. <!-- begin-user-doc -->"
+      },
+      "id": 97919803,
+      "filename": "Path.java"
+    },
+    {
+      "repo": "https://github.com/uisleandro/org.eclipse.papyrus.git",
+      "language": "Java",
+      "linescount": 177,
+      "location": "/extraplugins/diagram-definition/org.eclipse.papyrus.dd/src/org/eclipse/papyrus/dd/dg/impl",
+      "name": "org.eclipse.papyrus",
+      "url": "https://searchcode.com/codesearch/view/97919860/",
+      "md5hash": "f09ba3027a356a63b3997f447f957a67",
+      "lines": {
+        "64": "\tprotected PathCommandImpl() {",
+        "36": " */",
+        "37": "public abstract class PathCommandImpl extends MinimalEObjectImpl.Container",
+        "38": "\t\timplements PathCommand {",
+        "39": "\t/**",
+        "175": "",
+        "176": "} // PathCommandImpl",
+        "21": "import org.eclipse.papyrus.dd.dg.DGPackage;",
+        "22": "import org.eclipse.papyrus.dd.dg.PathCommand;",
+        "29": " * <ul>",
+        "30": " * <li>{@link org.eclipse.papyrus.dd.dg.impl.PathCommandImpl#isRelative <em>Is",
+        "63": "\t */"
+      },
+      "id": 97919860,
+      "filename": "PathCommandImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 38,
+      "location": "/pptx/src/org/apache/poi/xslf/model/geom",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406575/",
+      "md5hash": "ba2eb807862a7a5809230c9f462145a7",
+      "lines": {
+        "28": " */",
+        "29": "public class ClosePathCommand implements PathCommand {",
+        "30": "",
+        "31": "    ClosePathCommand(){"
+      },
+      "id": 97406575,
+      "filename": "ClosePathCommand.java"
+    },
+    {
+      "repo": "https://github.com/uisleandro/org.eclipse.papyrus.git",
+      "language": "Java",
+      "linescount": 180,
+      "location": "/extraplugins/diagram-definition/org.eclipse.papyrus.dd/src/org/eclipse/papyrus/dd/dg",
+      "name": "org.eclipse.papyrus",
+      "url": "https://searchcode.com/codesearch/view/97919762/",
+      "md5hash": "0d8aeb17b5f6d94e77934b7eff257770",
+      "lines": {
+        "40": " */",
+        "41": "public interface EllipticalCurveTo extends PathCommand {"
+      },
+      "id": 97919762,
+      "filename": "EllipticalCurveTo.java"
+    },
+    {
+      "repo": "https://github.com/uisleandro/org.eclipse.papyrus.git",
+      "language": "Java",
+      "linescount": 129,
+      "location": "/extraplugins/diagram-definition/org.eclipse.papyrus.dd/src/org/eclipse/papyrus/dd/dg",
+      "name": "org.eclipse.papyrus",
+      "url": "https://searchcode.com/codesearch/view/97919768/",
+      "md5hash": "4c7ec3e5f19e060ff01d301f0bd887c6",
+      "lines": {
+        "44": " */",
+        "45": "public interface CubicCurveTo extends PathCommand {"
+      },
+      "id": 97919768,
+      "filename": "CubicCurveTo.java"
+    },
+    {
+      "repo": "https://github.com/uisleandro/org.eclipse.papyrus.git",
+      "language": "Java",
+      "linescount": 95,
+      "location": "/extraplugins/diagram-definition/org.eclipse.papyrus.dd/src/org/eclipse/papyrus/dd/dg",
+      "name": "org.eclipse.papyrus",
+      "url": "https://searchcode.com/codesearch/view/97919783/",
+      "md5hash": "894678c000a1a43a9c48edcf4a3bcfa1",
+      "lines": {
+        "40": "public interface QuadraticCurveTo extends PathCommand {",
+        "39": " */"
+      },
+      "id": 97919783,
+      "filename": "QuadraticCurveTo.java"
+    },
+    {
+      "repo": "https://github.com/uisleandro/org.eclipse.papyrus.git",
+      "language": "Java",
+      "linescount": 30,
+      "location": "/extraplugins/diagram-definition/org.eclipse.papyrus.dd/src/org/eclipse/papyrus/dd/dg",
+      "name": "org.eclipse.papyrus",
+      "url": "https://searchcode.com/codesearch/view/97919801/",
+      "md5hash": "c6f1ddf2c8a7da1e41e460fa3b62c6e8",
+      "lines": {
+        "27": " */",
+        "28": "public interface ClosePath extends PathCommand {"
+      },
+      "id": 97919801,
+      "filename": "ClosePath.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 18,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 14,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

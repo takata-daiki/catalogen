@@ -1,0 +1,328 @@
+{
+  "matchterm": "CTInverseGammaTransform",
+  "previouspage": null,
+  "searchterm": "CTInverseGammaTransform",
+  "query": "CTInverseGammaTransform",
+  "language_filters": [
+    {
+      "count": 15,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 15,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 27,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402487/",
+      "md5hash": "8abaf9c2e4a93fec73fb2e14e1e3680e",
+      "lines": {
+        "16": "public interface CTInverseGammaTransform extends org.apache.xmlbeans.XmlObject",
+        "19": "        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CTInverseGammaTransform.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sE130CAA0A01A7CDE5A2B4FEB8B311707\").resolveHandle(\"ctinversegammatransform3906type\");",
+        "18": "    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform",
+        "15": " */"
+      },
+      "id": 97402487,
+      "filename": "CTInverseGammaTransform.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 51,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642057/",
+      "md5hash": "64168c2188214a2129474dd24ab81544",
+      "lines": {
+        "46": "@XmlType(name = \"CT_InverseGammaTransform\")",
+        "47": "public class CTInverseGammaTransform {"
+      },
+      "id": 17642057,
+      "filename": "CTInverseGammaTransform.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 3480,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642161/",
+      "md5hash": "ecaf98912e449049698e790afd5f5c5a",
+      "lines": {
+        "2001": "    }",
+        "1994": "    /**",
+        "1995": "     * Create an instance of {@link JAXBElement }{@code <}{@link CTInverseGammaTransform }{@code >}}",
+        "1998": "    @XmlElementDecl(namespace = \"http://schemas.openxmlformats.org/drawingml/2006/main\", name = \"invGamma\", scope = CTSchemeColor.class)",
+        "1999": "    public JAXBElement<CTInverseGammaTransform> createCTSchemeColorInvGamma(CTInverseGammaTransform value) {",
+        "2000": "        return new JAXBElement<CTInverseGammaTransform>(_CTSchemeColorInvGamma_QNAME, CTInverseGammaTransform.class, CTSchemeColor.class, value);",
+        "1041": "    /**",
+        "1042": "     * Create an instance of {@link CTInverseGammaTransform }",
+        "1044": "     */",
+        "1045": "    public CTInverseGammaTransform createCTInverseGammaTransform() {",
+        "1046": "        return new CTInverseGammaTransform();",
+        "1047": "    }"
+      },
+      "id": 17642161,
+      "filename": "ObjectFactory.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1404,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402117/",
+      "md5hash": "eac93e4519741722a8166b013f9837e4",
+      "lines": {
+        "1286": "     */",
+        "1287": "    void setInvGammaArray(org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform[] invGammaArray);",
+        "1291": "     */",
+        "1292": "    void setInvGammaArray(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform invGamma);",
+        "1296": "     */",
+        "1265": "     */",
+        "1266": "    java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform> getInvGammaList();",
+        "1301": "     */",
+        "1302": "    org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform addNewInvGamma();",
+        "1271": "     */",
+        "1272": "    org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform[] getInvGammaArray();",
+        "1276": "     */",
+        "1277": "    org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform getInvGammaArray(int i);",
+        "1297": "    org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform insertNewInvGamma(int i);"
+      },
+      "id": 97402117,
+      "filename": "CTSRgbColor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1345,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402198/",
+      "md5hash": "3907cd7d3430e46368388d574288cfe8",
+      "lines": {
+        "1286": "     */",
+        "1287": "    void setInvGammaArray(org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform[] invGammaArray);",
+        "1291": "     */",
+        "1292": "    void setInvGammaArray(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform invGamma);",
+        "1296": "     */",
+        "1265": "     */",
+        "1266": "    java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform> getInvGammaList();",
+        "1301": "     */",
+        "1302": "    org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform addNewInvGamma();",
+        "1271": "     */",
+        "1272": "    org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform[] getInvGammaArray();",
+        "1276": "     */",
+        "1277": "    org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform getInvGammaArray(int i);",
+        "1297": "    org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform insertNewInvGamma(int i);"
+      },
+      "id": 97402198,
+      "filename": "CTPresetColor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1375,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402298/",
+      "md5hash": "489021c5c89506cdfb4601f2a54f5f0d",
+      "lines": {
+        "1286": "     */",
+        "1287": "    void setInvGammaArray(org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform[] invGammaArray);",
+        "1291": "     */",
+        "1292": "    void setInvGammaArray(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform invGamma);",
+        "1296": "     */",
+        "1265": "     */",
+        "1266": "    java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform> getInvGammaList();",
+        "1301": "     */",
+        "1302": "    org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform addNewInvGamma();",
+        "1271": "     */",
+        "1272": "    org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform[] getInvGammaArray();",
+        "1276": "     */",
+        "1277": "    org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform getInvGammaArray(int i);",
+        "1297": "    org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform insertNewInvGamma(int i);"
+      },
+      "id": 97402298,
+      "filename": "CTHslColor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1444,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402422/",
+      "md5hash": "07a13830019636560f8d82872b3ad85c",
+      "lines": {
+        "1286": "     */",
+        "1287": "    void setInvGammaArray(org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform[] invGammaArray);",
+        "1291": "     */",
+        "1292": "    void setInvGammaArray(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform invGamma);",
+        "1296": "     */",
+        "1265": "     */",
+        "1266": "    java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform> getInvGammaList();",
+        "1301": "     */",
+        "1302": "    org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform addNewInvGamma();",
+        "1271": "     */",
+        "1272": "    org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform[] getInvGammaArray();",
+        "1276": "     */",
+        "1277": "    org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform getInvGammaArray(int i);",
+        "1297": "    org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform insertNewInvGamma(int i);"
+      },
+      "id": 97402422,
+      "filename": "CTScRgbColor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1335,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402860/",
+      "md5hash": "a6e24df35d4e66341d4bca693f0ee0ea",
+      "lines": {
+        "1286": "     */",
+        "1287": "    void setInvGammaArray(org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform[] invGammaArray);",
+        "1291": "     */",
+        "1292": "    void setInvGammaArray(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform invGamma);",
+        "1296": "     */",
+        "1265": "     */",
+        "1266": "    java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform> getInvGammaList();",
+        "1301": "     */",
+        "1302": "    org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform addNewInvGamma();",
+        "1271": "     */",
+        "1272": "    org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform[] getInvGammaArray();",
+        "1276": "     */",
+        "1277": "    org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform getInvGammaArray(int i);",
+        "1297": "    org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform insertNewInvGamma(int i);"
+      },
+      "id": 97402860,
+      "filename": "CTSchemeColor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 24,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97404407/",
+      "md5hash": "548411e4ca9f59b59870e9cd05806a0b",
+      "lines": {
+        "16": "    ",
+        "17": "    public CTInverseGammaTransformImpl(org.apache.xmlbeans.SchemaType sType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform",
+        "13": " */",
+        "14": "public class CTInverseGammaTransformImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.openxmlformats.schemas.drawingml.x2006.main.CTInverseGammaTransform"
+      },
+      "id": 97404407,
+      "filename": "CTInverseGammaTransformImpl.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 176,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642025/",
+      "md5hash": "8f032efa515dc031c27fc48fd4c45223",
+      "lines": {
+        "121": "     * {@link JAXBElement }{@code <}{@link CTPercentage }{@code >}",
+        "122": "     * {@link JAXBElement }{@code <}{@link CTInverseGammaTransform }{@code >}"
+      },
+      "id": 17642025,
+      "filename": "CTPresetColor.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 176,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642030/",
+      "md5hash": "356b78f9d9fbf4490ab501da44c18966",
+      "lines": {
+        "114": "     * {@link JAXBElement }{@code <}{@link CTAngle }{@code >}",
+        "115": "     * {@link JAXBElement }{@code <}{@link CTInverseGammaTransform }{@code >}"
+      },
+      "id": 17642030,
+      "filename": "CTSchemeColor.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 206,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642037/",
+      "md5hash": "0471bccb52cc865af8c91912d741dce0",
+      "lines": {
+        "138": "     * {@link JAXBElement }{@code <}{@link CTFixedPercentage }{@code >}",
+        "139": "     * {@link JAXBElement }{@code <}{@link CTInverseGammaTransform }{@code >}"
+      },
+      "id": 17642037,
+      "filename": "CTHslColor.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 179,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642153/",
+      "md5hash": "1e2f5f7c2e8f4ec5d3a6cfbd964715a3",
+      "lines": {
+        "121": "     * {@link JAXBElement }{@code <}{@link CTInverseTransform }{@code >}",
+        "122": "     * {@link JAXBElement }{@code <}{@link CTInverseGammaTransform }{@code >}"
+      },
+      "id": 17642153,
+      "filename": "CTSRgbColor.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 206,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642208/",
+      "md5hash": "a826f1eda31c73100541b9307de93013",
+      "lines": {
+        "120": "     * {@link JAXBElement }{@code <}{@link CTPercentage }{@code >}",
+        "121": "     * {@link JAXBElement }{@code <}{@link CTInverseGammaTransform }{@code >}"
+      },
+      "id": 17642208,
+      "filename": "CTScRgbColor.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 208,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642227/",
+      "md5hash": "fedb5cc55ad7a483c2859d6ac7b5f0f4",
+      "lines": {
+        "128": "     * {@link JAXBElement }{@code <}{@link CTAngle }{@code >}",
+        "129": "     * {@link JAXBElement }{@code <}{@link CTInverseGammaTransform }{@code >}"
+      },
+      "id": 17642227,
+      "filename": "CTSystemColor.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 15,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

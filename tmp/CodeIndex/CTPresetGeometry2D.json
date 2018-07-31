@@ -1,0 +1,201 @@
+{
+  "matchterm": "CTPresetGeometry2D",
+  "previouspage": null,
+  "searchterm": "CTPresetGeometry2D",
+  "query": "CTPresetGeometry2D",
+  "language_filters": [
+    {
+      "count": 9,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 9,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 72,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403139/",
+      "md5hash": "7228722797d77e94552fb3c77845bf12",
+      "lines": {
+        "16": "public interface CTPresetGeometry2D extends org.apache.xmlbeans.XmlObject",
+        "19": "        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CTPresetGeometry2D.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sE130CAA0A01A7CDE5A2B4FEB8B311707\").resolveHandle(\"ctpresetgeometry2db1detype\");",
+        "18": "    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTPresetGeometry2D",
+        "15": " */"
+      },
+      "id": 97403139,
+      "filename": "CTPresetGeometry2D.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 109,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642216/",
+      "md5hash": "277c128e9094942292a27ebcb66cae1c",
+      "lines": {
+        "53": "})",
+        "54": "public class CTPresetGeometry2D {"
+      },
+      "id": 17642216,
+      "filename": "CTPresetGeometry2D.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1258,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97404509/",
+      "md5hash": "2f0c18ed65debfbd003c32921c5435f5",
+      "lines": {
+        "259": "            check_orphaned();",
+        "260": "            org.openxmlformats.schemas.drawingml.x2006.main.CTPresetGeometry2D target = null;",
+        "261": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTPresetGeometry2D)get_store().add_element_user(PRSTGEOM$4);",
+        "262": "            return target;",
+        "236": "     */",
+        "237": "    public void setPrstGeom(org.openxmlformats.schemas.drawingml.x2006.main.CTPresetGeometry2D prstGeom)",
+        "206": "     */",
+        "207": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTPresetGeometry2D getPrstGeom()",
+        "241": "            check_orphaned();",
+        "242": "            org.openxmlformats.schemas.drawingml.x2006.main.CTPresetGeometry2D target = null;",
+        "243": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTPresetGeometry2D)get_store().find_element_user(PRSTGEOM$4, 0);",
+        "212": "            org.openxmlformats.schemas.drawingml.x2006.main.CTPresetGeometry2D target = null;",
+        "213": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTPresetGeometry2D)get_store().find_element_user(PRSTGEOM$4, 0);",
+        "214": "            if (target == null)",
+        "244": "            if (target == null)"
+      },
+      "id": 97404509,
+      "filename": "CTShapePropertiesImpl.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 483,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642105/",
+      "md5hash": "eb6dc17a881ff5a0f6d7c16dcac8753e",
+      "lines": {
+        "80": "    protected CTPresetGeometry2D prstGeom;",
+        "162": "     *     allowed object is",
+        "163": "     *     {@link CTPresetGeometry2D }",
+        "165": "     */",
+        "150": "     *     possible object is",
+        "151": "     *     {@link CTPresetGeometry2D }",
+        "153": "     */",
+        "154": "    public CTPresetGeometry2D getPrstGeom() {",
+        "166": "    public void setPrstGeom(CTPresetGeometry2D value) {",
+        "79": "    protected CTCustomGeometry2D custGeom;"
+      },
+      "id": 17642105,
+      "filename": "CTShapeProperties.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 3480,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642161/",
+      "md5hash": "ecaf98912e449049698e790afd5f5c5a",
+      "lines": {
+        "353": "    /**",
+        "354": "     * Create an instance of {@link CTPresetGeometry2D }",
+        "356": "     */",
+        "357": "    public CTPresetGeometry2D createCTPresetGeometry2D() {",
+        "358": "        return new CTPresetGeometry2D();",
+        "359": "    }"
+      },
+      "id": 17642161,
+      "filename": "ObjectFactory.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 432,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402443/",
+      "md5hash": "6ad6cde06c5da24a67cbf57a88cf6d27",
+      "lines": {
+        "83": "     */",
+        "84": "    void setPrstGeom(org.openxmlformats.schemas.drawingml.x2006.main.CTPresetGeometry2D prstGeom);",
+        "89": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPresetGeometry2D addNewPrstGeom();",
+        "88": "     */",
+        "73": "     */",
+        "74": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPresetGeometry2D getPrstGeom();"
+      },
+      "id": 97402443,
+      "filename": "CTShapeProperties.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 170,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403804/",
+      "md5hash": "f64d8ea98e6dd44349474ef48edc608c",
+      "lines": {
+        "16": "    ",
+        "17": "    public CTPresetGeometry2DImpl(org.apache.xmlbeans.SchemaType sType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTPresetGeometry2D",
+        "13": " */",
+        "14": "public class CTPresetGeometry2DImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.openxmlformats.schemas.drawingml.x2006.main.CTPresetGeometry2D"
+      },
+      "id": 97403804,
+      "filename": "CTPresetGeometry2DImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 162,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406705/",
+      "md5hash": "3cf6ae3d47d4aecb9c8db82efffb3346",
+      "lines": {
+        "32": "import org.openxmlformats.schemas.drawingml.x2006.main.CTNonVisualDrawingProps;",
+        "33": "import org.openxmlformats.schemas.drawingml.x2006.main.CTPresetGeometry2D;",
+        "76": "        CTShapeProperties spPr = ct.addNewSpPr();",
+        "77": "        CTPresetGeometry2D prst = spPr.addNewPrstGeom();"
+      },
+      "id": 97406705,
+      "filename": "XSLFPictureShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 634,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406799/",
+      "md5hash": "6e68dd3c8ec32b1c5501783941fcea98",
+      "lines": {
+        "580": "                public Guide getAdjustValue(String name) {",
+        "51": "//import org.openxmlformats.schemas.drawingml.x2006.main.CTPathShadeProperties;",
+        "52": "import org.openxmlformats.schemas.drawingml.x2006.main.CTPresetGeometry2D;",
+        "581": "                    CTPresetGeometry2D prst = _shape.getSpPr().getPrstGeom();"
+      },
+      "id": 97406799,
+      "filename": "RenderableShape.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 9,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

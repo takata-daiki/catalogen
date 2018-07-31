@@ -1,0 +1,84 @@
+{
+  "matchterm": "EnvelopedSignatureFacet",
+  "previouspage": null,
+  "searchterm": "EnvelopedSignatureFacet",
+  "query": "EnvelopedSignatureFacet",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 98,
+      "location": "/eid-applet-service-signer/src/main/java/be/fedict/eid/applet/service/signer/facets",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982654/",
+      "md5hash": "38c9625a52259a57bca5d8d2e5a2e08b",
+      "lines": {
+        "64": "\t */",
+        "65": "\tpublic EnvelopedSignatureFacet(DigestAlgo digestAlgorithm) {",
+        "53": "\t */",
+        "54": "\tpublic EnvelopedSignatureFacet() {",
+        "46": " */",
+        "47": "public class EnvelopedSignatureFacet implements SignatureFacet {"
+      },
+      "id": 7982654,
+      "filename": "EnvelopedSignatureFacet.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 603,
+      "location": "/eid-applet-service-signer/src/test/java/test/unit/be/fedict/eid/applet/service/signer",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982568/",
+      "md5hash": "d31d09c83ac6cfbe4a1cdf3abb15a285",
+      "lines": {
+        "144": "\t\t// setup",
+        "81": "import be.fedict.eid.applet.service.signer.TemporaryDataStorage;",
+        "82": "import be.fedict.eid.applet.service.signer.facets.EnvelopedSignatureFacet;",
+        "331": "\t\t\t\tenvelopedSignatureFacet, keyInfoSignatureFacet,",
+        "161": "\t\tXmlSignatureTestService testedInstance = new XmlSignatureTestService(",
+        "145": "\t\tEnvelopedSignatureFacet envelopedSignatureFacet = new EnvelopedSignatureFacet();",
+        "330": "\t\tXmlSignatureTestService testedInstance = new XmlSignatureTestService(",
+        "315": "\t\t// setup",
+        "316": "\t\tEnvelopedSignatureFacet envelopedSignatureFacet = new EnvelopedSignatureFacet();",
+        "162": "\t\t\t\tenvelopedSignatureFacet, keyInfoSignatureFacet,"
+      },
+      "id": 7982568,
+      "filename": "XAdESSignatureFacetTest.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1344,
+      "location": "/eid-applet-service-signer/src/test/java/test/unit/be/fedict/eid/applet/service/signer",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982566/",
+      "md5hash": "1a7ab83fef31de24daa4544485f7c7ef",
+      "lines": {
+        "873": "",
+        "42": "import be.fedict.eid.applet.service.signer.TemporaryDataStorage;",
+        "43": "import be.fedict.eid.applet.service.signer.facets.EnvelopedSignatureFacet;",
+        "874": "\t\tSignatureFacet signatureFacet = new EnvelopedSignatureFacet();"
+      },
+      "id": 7982566,
+      "filename": "AbstractXmlSignatureServiceTest.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

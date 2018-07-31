@@ -1,0 +1,394 @@
+{
+  "matchterm": "DocumentSummaryInformation",
+  "previouspage": null,
+  "searchterm": "DocumentSummaryInformation",
+  "query": "DocumentSummaryInformation",
+  "language_filters": [
+    {
+      "count": 17,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 17,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 701,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642675/",
+      "md5hash": "c2188c129ae22690bf1bc62c31e01c84",
+      "lines": {
+        "160": "     * DocumentSummaryInformation} does not contain a byte count.</p>",
+        "192": "     * <p>Returns the line count or 0 if the {@link",
+        "258": "     * <p>Returns the slide count or 0 if the {@link",
+        "259": "     * DocumentSummaryInformation} does not contain a slide count.</p>",
+        "68": "    public static final String DEFAULT_STREAM_NAME =",
+        "69": "        \"\\005DocumentSummaryInformation\";",
+        "325": "     * DocumentSummaryInformation} does not contain a hidden",
+        "193": "     * DocumentSummaryInformation} does not contain a line count.</p>",
+        "324": "     * <p>Returns the hidden count or 0 if the {@link",
+        "291": "     * <p>Returns the note count or 0 if the {@link",
+        "292": "     * DocumentSummaryInformation} does not contain a note count.</p>",
+        "57": " * @see SummaryInformation",
+        "58": " * @version $Id: DocumentSummaryInformation.java 489730 2006-12-22 19:18:16Z bayard $",
+        "60": " */",
+        "61": "public class DocumentSummaryInformation extends SpecialPropertySet",
+        "159": "     * <p>Returns the byte count or 0 if the {@link"
+      },
+      "id": 15642675,
+      "filename": "DocumentSummaryInformation.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 275,
+      "location": "/src/org/apache/poi",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383067/",
+      "md5hash": "afa24f033acdbeef13a37ab141698759",
+      "lines": {
+        "128": "\t\t\tdsInf = (DocumentSummaryInformation)ps;",
+        "129": "\t\t} else if(ps != null) {",
+        "130": "\t\t\tlogger.log(POILogger.WARN, \"DocumentSummaryInformation property set came back with wrong class - \", ps.getClass());",
+        "201": "\t\t}",
+        "202": "        DocumentSummaryInformation dsi = getDocumentSummaryInformation();",
+        "203": "        if(dsi != null) {",
+        "204": "\t\t\twritePropertySet(DocumentSummaryInformation.DEFAULT_STREAM_NAME, dsi, outFS);",
+        "205": "\t\t\tif(writtenEntries != null) {",
+        "206": "\t\t\t\twrittenEntries.add(DocumentSummaryInformation.DEFAULT_STREAM_NAME);",
+        "83": "\t */",
+        "84": "\tpublic DocumentSummaryInformation getDocumentSummaryInformation() {",
+        "53": "\tprivate DocumentSummaryInformation dsInf;",
+        "25": "",
+        "52": "\t/** Holds further metadata on our document */",
+        "26": "import org.apache.poi.hpsf.DocumentSummaryInformation;",
+        "127": "\t\tif(ps != null && ps instanceof DocumentSummaryInformation) {"
+      },
+      "id": 97383067,
+      "filename": "POIDocument.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 145,
+      "location": "/src/org/apache/poi/hpsf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383355/",
+      "md5hash": "0098a047dda7c497c0d2a37dc611b6ea",
+      "lines": {
+        "64": "            else if (ps.isDocumentSummaryInformation())",
+        "65": "                return new DocumentSummaryInformation(ps);",
+        "66": "            else",
+        "134": "        {",
+        "39": "     * InputStream}. This is preferrably a {@link",
+        "40": "     * DocumentSummaryInformation} or a {@link SummaryInformation}. If",
+        "128": "    public static DocumentSummaryInformation newDocumentSummaryInformation()",
+        "135": "            return new DocumentSummaryInformation(ps);",
+        "84": "                return new SummaryInformation(ps);",
+        "85": "            else if (ps.isDocumentSummaryInformation())",
+        "86": "                return new DocumentSummaryInformation(ps);",
+        "87": "            else",
+        "127": "     */",
+        "28": " * <p>Factory class to create instances of {@link SummaryInformation},",
+        "29": " * {@link DocumentSummaryInformation} and {@link PropertySet}.</p>",
+        "63": "                return new SummaryInformation(ps);"
+      },
+      "id": 97383355,
+      "filename": "PropertySetFactory.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 156,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785558/",
+      "md5hash": "64d1deabff94104c27c2076ff362e8df",
+      "lines": {
+        "71": "            }",
+        "72": "            if (properties.isDocumentSummaryInformation()) {",
+        "73": "                parse(new DocumentSummaryInformation(properties));",
+        "74": "            }",
+        "119": "",
+        "108": "",
+        "109": "    private void parse(DocumentSummaryInformation summary) {",
+        "46": "    private static final String DOCUMENT_SUMMARY_INFORMATION =",
+        "47": "        DocumentSummaryInformation.DEFAULT_STREAM_NAME;",
+        "120": "    private String getLanguage(DocumentSummaryInformation summary) {",
+        "23": "import org.apache.poi.hpsf.CustomProperties;",
+        "24": "import org.apache.poi.hpsf.DocumentSummaryInformation;"
+      },
+      "id": 111785558,
+      "filename": "SummaryExtractor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 123,
+      "location": "/ppt/poi/org/apache/poi/hpsf",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97398126/",
+      "md5hash": "bb0e6127f1776772f4d6b0cc0809e990",
+      "lines": {
+        "64": "                return new DocumentSummaryInformation(ps);",
+        "65": "            else",
+        "38": "     * InputStream}. This is preferrably a {@link",
+        "39": "     * DocumentSummaryInformation} or a {@link SummaryInformation}. If",
+        "105": "     */",
+        "106": "    public static DocumentSummaryInformation newDocumentSummaryInformation()",
+        "112": "        {",
+        "113": "            return new DocumentSummaryInformation(ps);",
+        "27": " * <p>Factory class to create instances of {@link SummaryInformation},",
+        "28": " * {@link DocumentSummaryInformation} and {@link PropertySet}.</p>",
+        "62": "                return new SummaryInformation(ps);",
+        "63": "            else if (ps.isDocumentSummaryInformation())"
+      },
+      "id": 97398126,
+      "filename": "PropertySetFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 244,
+      "location": "/components/forks/poi/src/loci/poi",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642236/",
+      "md5hash": "d16ea92e13b3c1846cc34e8c5e120339",
+      "lines": {
+        "96": "\tprotected void readProperties() {",
+        "97": "\t\t// DocumentSummaryInformation",
+        "98": "\t\tdsInf = (DocumentSummaryInformation)getPropertySet(DocumentSummaryInformation.DEFAULT_STREAM_NAME);",
+        "99": "",
+        "73": "\t/** Holds further metadata on our document */",
+        "74": "\tprotected DocumentSummaryInformation dsInf;",
+        "50": "",
+        "51": "import loci.poi.hpsf.DocumentSummaryInformation;",
+        "84": "\t */",
+        "85": "\tpublic DocumentSummaryInformation getDocumentSummaryInformation() { return dsInf; }",
+        "152": "\t\tif(dsInf != null) {",
+        "153": "\t\t\twritePropertySet(DocumentSummaryInformation.DEFAULT_STREAM_NAME,dsInf,outFS);",
+        "154": "\t\t\tif(writtenEntries != null) {",
+        "155": "\t\t\t\twrittenEntries.add(DocumentSummaryInformation.DEFAULT_STREAM_NAME);"
+      },
+      "id": 15642236,
+      "filename": "POIDocument.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 149,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642686/",
+      "md5hash": "2dd1096c5bed6b6135df6d36350a80c1",
+      "lines": {
+        "64": "     * InputStream}. This is preferrably a {@link",
+        "65": "     * DocumentSummaryInformation} or a {@link SummaryInformation}. If",
+        "131": "     */",
+        "132": "    public static DocumentSummaryInformation newDocumentSummaryInformation()",
+        "138": "        {",
+        "139": "            return new DocumentSummaryInformation(ps);",
+        "51": " * <p>Factory class to create instances of {@link SummaryInformation},",
+        "52": " * {@link DocumentSummaryInformation} and {@link PropertySet}.</p>",
+        "88": "                return new SummaryInformation(ps);",
+        "89": "            else if (ps.isDocumentSummaryInformation())",
+        "90": "                return new DocumentSummaryInformation(ps);",
+        "91": "            else"
+      },
+      "id": 15642686,
+      "filename": "PropertySetFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 379,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642701/",
+      "md5hash": "91d5f9cee878844b93d18d7f09b6d7b4",
+      "lines": {
+        "192": "     * @see PropertySet#isDocumentSummaryInformation",
+        "193": "     */",
+        "194": "    public boolean isDocumentSummaryInformation()",
+        "195": "    {",
+        "196": "        return delegate.isDocumentSummaryInformation();",
+        "73": " * object first.  Then it finds out whether the stream is a {@link",
+        "74": " * SummaryInformation}, a {@link DocumentSummaryInformation} or a",
+        "54": " * <p>Abstract superclass for the convenience classes {@link",
+        "55": " * SummaryInformation} and {@link DocumentSummaryInformation}.</p>",
+        "59": " * providing him with the easy-to-use {@link SummaryInformation} and",
+        "60": " * {@link DocumentSummaryInformation} classes. When parsing the data a",
+        "191": "    /**"
+      },
+      "id": 15642701,
+      "filename": "SpecialPropertySet.java"
+    },
+    {
+      "repo": "https://github.com/AndreyLevchenko/html-convertor.git",
+      "language": "Java",
+      "linescount": 58,
+      "location": "/src",
+      "name": "html-convertor",
+      "url": "https://searchcode.com/codesearch/view/111543829/",
+      "md5hash": "c0fb7542f8d38f2e0082ed1dadb73dff",
+      "lines": {
+        "48": "        DocumentSummaryInformation dsi = doc.getDocumentSummaryInformation();",
+        "4": "import org.apache.poi.hpsf.CustomProperties;",
+        "5": "import org.apache.poi.hpsf.DocumentSummaryInformation;",
+        "47": "        // add a custom document property (needs POI 3.5; POI 3.2 doesn't save custom properties)"
+      },
+      "id": 111543829,
+      "filename": "CreateWordDoc.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ctron/org.openscada.orilla.git",
+      "language": "Java",
+      "linescount": 334,
+      "location": "/org.openscada.ae.ui.views.export.excel/src/org/openscada/ae/ui/views/export/excel/impl",
+      "name": "org.openscada.orilla",
+      "url": "https://searchcode.com/codesearch/view/122444114/",
+      "md5hash": "e281103aee607d2e4060b4cc78a4ed02",
+      "lines": {
+        "32": "import org.apache.poi.hpsf.CustomProperties;",
+        "33": "import org.apache.poi.hpsf.DocumentSummaryInformation;",
+        "260": "",
+        "261": "        final DocumentSummaryInformation dsi = workbook.getDocumentSummaryInformation ();"
+      },
+      "id": 122444114,
+      "filename": "ExportEventsImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1043,
+      "location": "/src/org/apache/poi/hwpf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383956/",
+      "md5hash": "677c332698819342ff2ece2baf93a4ed",
+      "lines": {
+        "26": "",
+        "27": "import org.apache.poi.hpsf.DocumentSummaryInformation;",
+        "966": "                    || entry.getName().equals(",
+        "967": "                            DocumentSummaryInformation.DEFAULT_STREAM_NAME ) )"
+      },
+      "id": 97383956,
+      "filename": "HWPFDocument.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 150,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/demo",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260482/",
+      "md5hash": "b074c8e8b52b6de1d2b9de6e95499809",
+      "lines": {
+        "136": "    else if (ps.equalsIgnoreCase(\"DocumentSummaryInformation\"))",
+        "135": "    }"
+      },
+      "id": 43260482,
+      "filename": "PropertySetsReader.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 150,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/demo",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49201010/",
+      "md5hash": "b074c8e8b52b6de1d2b9de6e95499809",
+      "lines": {
+        "136": "    else if (ps.equalsIgnoreCase(\"DocumentSummaryInformation\"))",
+        "135": "    }"
+      },
+      "id": 49201010,
+      "filename": "PropertySetsReader.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 150,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/demo",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374636/",
+      "md5hash": "8f1e34454b17f3a7a85fde5e5137f457",
+      "lines": {
+        "136": "    else if (ps.equalsIgnoreCase(\"DocumentSummaryInformation\"))",
+        "135": "    }"
+      },
+      "id": 11374636,
+      "filename": "PropertySetsReader.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 392,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642679/",
+      "md5hash": "f1e598413903d1dc0b1adc5794c23463",
+      "lines": {
+        "51": " * <p>Maintains the instances of {@link CustomProperty} that belong to a",
+        "52": " * {@link DocumentSummaryInformation}. The class maintains the names of the"
+      },
+      "id": 15642679,
+      "filename": "CustomProperties.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 775,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642697/",
+      "md5hash": "d8c82ce5c61b6ac1b12176e9a4e59cf9",
+      "lines": {
+        "52": " *         href=\"mailto:klute@rainer-klute.de\">&lt;klute@rainer-klute.de&gt;</a>",
+        "53": " * @see DocumentSummaryInformation"
+      },
+      "id": 15642697,
+      "filename": "SummaryInformation.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 226,
+      "location": "/components/forks/poi/src/loci/poi/hpsf/wellknown",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642703/",
+      "md5hash": "aa39a1433d12eb3a208f90d921ad9d92",
+      "lines": {
+        "48": " * <tt>\\005SummaryInformation</tt> stream and the",
+        "49": " * <tt>\\005DocumentSummaryInformation</tt> stream.</p>",
+        "124": "            m.put(DOCUMENT_SUMMARY_INFORMATION_ID[0],",
+        "125": "                  PropertyIDMap.getDocumentSummaryInformationProperties());",
+        "78": "    /**",
+        "79": "     * <p>The DocumentSummaryInformation's first and second sections' format"
+      },
+      "id": 15642703,
+      "filename": "SectionIDMap.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 13,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 3,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

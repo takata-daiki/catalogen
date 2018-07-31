@@ -1,0 +1,118 @@
+{
+  "matchterm": "HCenterRecord",
+  "previouspage": null,
+  "searchterm": "HCenterRecord",
+  "query": "HCenterRecord",
+  "language_filters": [
+    {
+      "count": 5,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 5,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 150,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642453/",
+      "md5hash": "5d58256144ca73feb6ab381fe972edf0",
+      "lines": {
+        "144": "    public Object clone() {",
+        "145": "      HCenterRecord rec = new HCenterRecord();",
+        "70": "    public HCenterRecord(RecordInputStream in)",
+        "69": "",
+        "54": "",
+        "55": "public class HCenterRecord",
+        "60": "",
+        "61": "    public HCenterRecord()"
+      },
+      "id": 15642453,
+      "filename": "HCenterRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1607,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642322/",
+      "md5hash": "5084cc24e46752bd3911d5d0a983e0a6",
+      "lines": {
+        "568": "    {",
+        "569": "        HCenterRecord record =",
+        "570": "                (HCenterRecord) sheet.findFirstRecordBySid(HCenterRecord.sid);",
+        "571": "",
+        "556": "    {",
+        "557": "        HCenterRecord record =",
+        "558": "                (HCenterRecord) sheet.findFirstRecordBySid(HCenterRecord.sid);",
+        "559": ""
+      },
+      "id": 15642322,
+      "filename": "HSSFSheet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 3300,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642365/",
+      "md5hash": "1e8d548d196dc1063c30d9430b35b9f5",
+      "lines": {
+        "1667": "    {",
+        "1668": "        HCenterRecord retval = new HCenterRecord();",
+        "1660": "     * creates the HCenter Record and sets it to false (don't horizontally center)",
+        "1661": "     * @see loci.poi.hssf.record.HCenterRecord",
+        "1662": "     * @see loci.poi.hssf.record.Record",
+        "1663": "     * @return record containing a HCenterRecord"
+      },
+      "id": 15642365,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642343/",
+      "md5hash": "468caa59753e7c2d27a76f3903f70894",
+      "lines": {
+        "80": "import loci.poi.hssf.record.GutsRecord;",
+        "81": "import loci.poi.hssf.record.HCenterRecord;",
+        "173": "                DefaultRowHeightRecord.class, WSBoolRecord.class, HeaderRecord.class,",
+        "174": "                FooterRecord.class, HCenterRecord.class, VCenterRecord.class,"
+      },
+      "id": 15642343,
+      "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "83": "                DefaultRowHeightRecord.class, WSBoolRecord.class, HeaderRecord.class,",
+        "84": "                FooterRecord.class, HCenterRecord.class, VCenterRecord.class,"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 5,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

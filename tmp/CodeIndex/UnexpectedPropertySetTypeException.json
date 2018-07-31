@@ -1,0 +1,168 @@
+{
+  "matchterm": "UnexpectedPropertySetTypeException",
+  "previouspage": null,
+  "searchterm": "UnexpectedPropertySetTypeException",
+  "query": "UnexpectedPropertySetTypeException",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 108,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642699/",
+      "md5hash": "e92c60f55d022e3a1ae84430c17b53dc",
+      "lines": {
+        "68": "    /**",
+        "69": "     * <p>Creates an {@link UnexpectedPropertySetTypeException} with a message",
+        "73": "     */",
+        "74": "    public UnexpectedPropertySetTypeException(final String msg)",
+        "87": "    public UnexpectedPropertySetTypeException(final Throwable reason)",
+        "80": "    /**",
+        "81": "     * <p>Creates a new {@link UnexpectedPropertySetTypeException} with a",
+        "52": " * href=\"mailto:klute@rainer-klute.de\">&lt;klute@rainer-klute.de&gt;</a>",
+        "53": " * @version $Id: UnexpectedPropertySetTypeException.java 489730 2006-12-22 19:18:16Z bayard $",
+        "86": "     */",
+        "55": " */",
+        "56": "public class UnexpectedPropertySetTypeException extends HPSFException",
+        "59": "    /**",
+        "60": "     * <p>Creates an {@link UnexpectedPropertySetTypeException}.</p>",
+        "61": "     */",
+        "62": "    public UnexpectedPropertySetTypeException()"
+      },
+      "id": 15642699,
+      "filename": "UnexpectedPropertySetTypeException.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 145,
+      "location": "/src/org/apache/poi/hpsf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383355/",
+      "md5hash": "0098a047dda7c497c0d2a37dc611b6ea",
+      "lines": {
+        "113": "        }",
+        "114": "        catch (UnexpectedPropertySetTypeException ex)",
+        "68": "        }",
+        "69": "        catch (UnexpectedPropertySetTypeException ex)",
+        "137": "        catch (UnexpectedPropertySetTypeException ex)",
+        "136": "        }",
+        "89": "        }",
+        "90": "        /*catch (UnexpectedPropertySetTypeException ex)"
+      },
+      "id": 97383355,
+      "filename": "PropertySetFactory.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 123,
+      "location": "/ppt/poi/org/apache/poi/hpsf",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97398126/",
+      "md5hash": "bb0e6127f1776772f4d6b0cc0809e990",
+      "lines": {
+        "115": "        catch (UnexpectedPropertySetTypeException ex)",
+        "114": "        }",
+        "67": "        }",
+        "68": "        catch (UnexpectedPropertySetTypeException ex)",
+        "91": "        }",
+        "92": "        catch (UnexpectedPropertySetTypeException ex)"
+      },
+      "id": 97398126,
+      "filename": "PropertySetFactory.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 156,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785558/",
+      "md5hash": "64d1deabff94104c27c2076ff362e8df",
+      "lines": {
+        "28": "import org.apache.poi.hpsf.SummaryInformation;",
+        "29": "import org.apache.poi.hpsf.UnexpectedPropertySetTypeException;",
+        "78": "            throw new TikaException(\"Not a HPSF document\", e);",
+        "79": "        } catch (UnexpectedPropertySetTypeException e) {"
+      },
+      "id": 111785558,
+      "filename": "SummaryExtractor.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 701,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642675/",
+      "md5hash": "c2188c129ae22690bf1bc62c31e01c84",
+      "lines": {
+        "82": "    public DocumentSummaryInformation(final PropertySet ps)",
+        "83": "        throws UnexpectedPropertySetTypeException",
+        "86": "        if (!isDocumentSummaryInformation())",
+        "87": "            throw new UnexpectedPropertySetTypeException",
+        "78": "     * document summary information stream.",
+        "79": "     * @throws UnexpectedPropertySetTypeException if <var>ps</var>"
+      },
+      "id": 15642675,
+      "filename": "DocumentSummaryInformation.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 149,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642686/",
+      "md5hash": "2dd1096c5bed6b6135df6d36350a80c1",
+      "lines": {
+        "117": "        }",
+        "118": "        catch (UnexpectedPropertySetTypeException ex)",
+        "140": "        }",
+        "93": "        }",
+        "94": "        catch (UnexpectedPropertySetTypeException ex)",
+        "141": "        catch (UnexpectedPropertySetTypeException ex)"
+      },
+      "id": 15642686,
+      "filename": "PropertySetFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 775,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642697/",
+      "md5hash": "d8c82ce5c61b6ac1b12176e9a4e59cf9",
+      "lines": {
+        "81": "        if (!isSummaryInformation())",
+        "82": "            throw new UnexpectedPropertySetTypeException(\"Not a \"",
+        "73": "     *        information stream.",
+        "74": "     * @throws UnexpectedPropertySetTypeException if <var>ps</var> does not",
+        "77": "    public SummaryInformation(final PropertySet ps)",
+        "78": "            throws UnexpectedPropertySetTypeException"
+      },
+      "id": 15642697,
+      "filename": "SummaryInformation.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

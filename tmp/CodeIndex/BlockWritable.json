@@ -1,0 +1,463 @@
+{
+  "matchterm": "BlockWritable",
+  "previouspage": null,
+  "searchterm": "BlockWritable",
+  "query": "BlockWritable",
+  "language_filters": [
+    {
+      "count": 42,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 42,
+  "results": [
+    {
+      "repo": "git://github.com/apache/hadoop-common.git",
+      "language": "Java",
+      "linescount": 112,
+      "location": "/hadoop-hdfs-project/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/protocolR23Compatible",
+      "name": "hadoop-common",
+      "url": "https://searchcode.com/codesearch/view/8197294/",
+      "md5hash": "d00ee0a5d8634bd76bf4ea2ac4b61b28",
+      "lines": {
+        "96": "  public static Block[] convert(BlockWritable[] blocks) {",
+        "35": "@InterfaceStability.Evolving",
+        "36": "public class BlockWritable implements Writable {",
+        "38": "    WritableFactories.setFactory",
+        "39": "      (BlockWritable.class,",
+        "40": "       new WritableFactory() {",
+        "41": "         public Writable newInstance() { return new BlockWritable(); }",
+        "74": "",
+        "75": "  public static BlockWritable convert(Block b) {",
+        "76": "    return new BlockWritable(b.getBlockId(), b.getNumBytes(),",
+        "104": "  public static BlockWritable[] convert(Block[] blocks) {",
+        "107": "      ret[i] = BlockWritable.convert(blocks[i]);",
+        "105": "    BlockWritable[] ret = new BlockWritable[blocks.length];",
+        "103": "  ",
+        "106": "    for (int i = 0; i < blocks.length; i++) {",
+        "95": "  "
+      },
+      "id": 8197294,
+      "filename": "BlockWritable.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 70,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642266/",
+      "md5hash": "4760e065ded43645a00b019b356fbba0",
+      "lines": {
+        "68": "}   // end public interface BlockWritable",
+        "67": "        throws IOException;",
+        "52": "",
+        "53": "public interface BlockWritable"
+      },
+      "id": 15642266,
+      "filename": "BlockWritable.java"
+    },
+    {
+      "repo": "https://github.com/stumbleupon/hbase.git",
+      "language": "Java",
+      "linescount": 479,
+      "location": "/src/main/java/org/apache/hadoop/hbase/io/hfile",
+      "name": "hbase",
+      "url": "https://searchcode.com/codesearch/view/111524229/",
+      "md5hash": "800ebcb3ed09b04403b396ad6015da1c",
+      "lines": {
+        "80": "  private List<BlockWritable> additionalLoadOnOpenData =",
+        "81": "    new ArrayList<BlockWritable>();",
+        "82": "",
+        "416": "    // Load-on-open data supplied by higher levels, e.g. Bloom filters.",
+        "37": "import org.apache.hadoop.hbase.io.hfile.HFile.Writer;",
+        "38": "import org.apache.hadoop.hbase.io.hfile.HFileBlock.BlockWritable;",
+        "417": "    for (BlockWritable w : additionalLoadOnOpenData){",
+        "461": "    }",
+        "462": "    additionalLoadOnOpenData.add(new BlockWritable() {",
+        "79": "  /** Additional data items to be written to the \"load-on-open\" section. */"
+      },
+      "id": 111524229,
+      "filename": "HFileWriterV2.java"
+    },
+    {
+      "repo": "git://github.com/apache/hbase.git",
+      "language": "Java",
+      "linescount": 770,
+      "location": "/hbase-server/src/main/java/org/apache/hadoop/hbase/io/hfile",
+      "name": "hbase",
+      "url": "https://searchcode.com/codesearch/view/116065622/",
+      "md5hash": "1d1ebc8a941c50c993660c3667e8e25c",
+      "lines": {
+        "640": "    }",
+        "641": "    additionalLoadOnOpenData.add(new BlockWritable() {",
+        "595": "    // Load-on-open data supplied by higher levels, e.g. Bloom filters.",
+        "596": "    for (BlockWritable w : additionalLoadOnOpenData){",
+        "151": "  /** Additional data items to be written to the \"load-on-open\" section. */",
+        "152": "  private List<BlockWritable> additionalLoadOnOpenData = new ArrayList<BlockWritable>();",
+        "44": "import org.apache.hadoop.hbase.io.hfile.HFile.FileInfo;",
+        "45": "import org.apache.hadoop.hbase.io.hfile.HFileBlock.BlockWritable;"
+      },
+      "id": 116065622,
+      "filename": "HFileWriterImpl.java"
+    },
+    {
+      "repo": "https://github.com/stumbleupon/hbase.git",
+      "language": "Java",
+      "linescount": 2127,
+      "location": "/src/main/java/org/apache/hadoop/hbase/io/hfile",
+      "name": "hbase",
+      "url": "https://searchcode.com/codesearch/view/111524214/",
+      "md5hash": "af8d54d9b7b865ab15f45dce8f3d6d10",
+      "lines": {
+        "1141": "     */",
+        "1142": "    public void writeBlock(BlockWritable bw, FSDataOutputStream out)",
+        "1132": "    /**",
+        "1165": "  /** Something that can be written into a block. */",
+        "1166": "  public interface BlockWritable {",
+        "1133": "     * Takes the given {@link BlockWritable} instance, creates a new block of"
+      },
+      "id": 111524214,
+      "filename": "HFileBlock.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 684,
+      "location": "/components/forks/poi/src/loci/poi/poifs/filesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642272/",
+      "md5hash": "59a31c39c6dfe8eece6f3750636bbe31",
+      "lines": {
+        "96": "        _small_store = new SmallBlockStore(new BlockWritable[ 0 ]);",
+        "66": "public class POIFSDocument",
+        "67": "    implements BATManaged, BlockWritable, POIFSViewable",
+        "201": "        {",
+        "202": "            _small_store = new SmallBlockStore(new BlockWritable[ 0 ]);",
+        "299": "",
+        "300": "    /* ********** START implementation of BlockWritable ********** */",
+        "362": "            BlockWritable[]       blocks = null;",
+        "52": "import loci.poi.poifs.property.Property;",
+        "53": "import loci.poi.poifs.storage.BlockWritable;",
+        "361": "            ByteArrayOutputStream output = new ByteArrayOutputStream();",
+        "152": "            _big_store   = new BigBlockStore(blocks);",
+        "153": "            _small_store = new SmallBlockStore(new BlockWritable[ 0 ]);",
+        "317": "",
+        "318": "    /* **********  END  implementation of BlockWritable ********** */",
+        "95": "        _property    = new DocumentProperty(name, _size);"
+      },
+      "id": 15642272,
+      "filename": "POIFSDocument.java"
+    },
+    {
+      "repo": "https://github.com/stumbleupon/hbase.git",
+      "language": "Java",
+      "linescount": 807,
+      "location": "/src/test/java/org/apache/hadoop/hbase/io/hfile",
+      "name": "hbase",
+      "url": "https://searchcode.com/codesearch/view/111521503/",
+      "md5hash": "e11a7f9682df17fee64c39f10bab25e0",
+      "lines": {
+        "59": "import org.apache.hadoop.hbase.io.hfile.HFileBlock.BlockWritable;",
+        "787": "     */",
+        "788": "    public void writeBlock(BlockWritable bw, FSDataOutputStream out)",
+        "58": "import org.apache.hadoop.io.compress.Compressor;",
+        "779": "     * Takes the given {@link BlockWritable} instance, creates a new block of",
+        "778": "    /**"
+      },
+      "id": 111521503,
+      "filename": "TestHFileBlockCompatibility.java"
+    },
+    {
+      "repo": "git://github.com/apache/hadoop-common.git",
+      "language": "Java",
+      "linescount": 143,
+      "location": "/hadoop-hdfs-project/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/protocolR23Compatible",
+      "name": "hadoop-common",
+      "url": "https://searchcode.com/codesearch/view/8197115/",
+      "md5hash": "aa79c47794178824ced89bf2581175de",
+      "lines": {
+        "64": "   */",
+        "65": "  public BlockCommandWritable(int action, String poolId, BlockWritable[] blocks,",
+        "139": "    return new BlockCommandWritable(cmd.getAction(), cmd.getBlockPoolId(),",
+        "105": "    this.poolId = Text.readString(in);",
+        "106": "    this.blocks = new BlockWritable[in.readInt()];",
+        "107": "    for (int i = 0; i < blocks.length; i++) {",
+        "108": "      blocks[i] = new BlockWritable();",
+        "140": "        BlockWritable.convert(cmd.getBlocks()), dinfo);",
+        "128": "    return new BlockCommand(getAction(), poolId, BlockWritable.convert(blocks),",
+        "53": "  String poolId;",
+        "54": "  BlockWritable blocks[];",
+        "25": "import org.apache.hadoop.hdfs.protocol.DatanodeInfo;",
+        "26": "import org.apache.hadoop.hdfs.protocolR23Compatible.BlockWritable;",
+        "127": "    }"
+      },
+      "id": 8197115,
+      "filename": "BlockCommandWritable.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 310,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642258/",
+      "md5hash": "e8d45aaab75f236cf3625cba098392df",
+      "lines": {
+        "272": "    /* ********** START implementation of BlockWritable ********** */",
+        "289": "",
+        "290": "    /* **********  END  implementation of BlockWritable ********** */",
+        "211": "",
+        "212": "    public static void read(final BlockWritable [] blocks,",
+        "55": "public class SmallDocumentBlock",
+        "56": "    implements BlockWritable, ListManagedBlock",
+        "154": "",
+        "155": "    public static SmallDocumentBlock [] convert(final BlockWritable [] store,",
+        "271": ""
+      },
+      "id": 15642258,
+      "filename": "SmallDocumentBlock.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 175,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642264/",
+      "md5hash": "cf01af29ac515ba6e90066ff6f3822e7",
+      "lines": {
+        "172": "",
+        "84": "            POIFSDocument   doc    = ( POIFSDocument ) iter.next();",
+        "85": "            BlockWritable[] blocks = doc.getSmallBlocks();",
+        "150": "    /* ********** START implementation of BlockWritable ********** */",
+        "168": "        {",
+        "169": "            (( BlockWritable ) iter.next()).writeBlocks(stream);",
+        "59": "public class SmallBlockTableWriter",
+        "60": "    implements BlockWritable, BATManaged",
+        "173": "    /* **********  END  implementation of BlockWritable ********** */",
+        "149": "    /* **********  END  implementation of BATManaged ********** */"
+      },
+      "id": 15642264,
+      "filename": "SmallBlockTableWriter.java"
+    },
+    {
+      "repo": "git://github.com/apache/hadoop-common.git",
+      "language": "Java",
+      "linescount": 96,
+      "location": "/hadoop-hdfs-project/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/protocolR23Compatible",
+      "name": "hadoop-common",
+      "url": "https://searchcode.com/codesearch/view/8197112/",
+      "md5hash": "e9d44dd020f7ddef1f3d81dc977d299a",
+      "lines": {
+        "56": "    this.block = new BlockWritable();",
+        "34": "public class ReceivedDeletedBlockInfoWritable implements Writable {",
+        "35": "  BlockWritable block;",
+        "55": "  public void readFields(DataInput in) throws IOException {",
+        "24": "",
+        "25": "import org.apache.hadoop.hdfs.protocolR23Compatible.BlockWritable;",
+        "42": "",
+        "43": "  public ReceivedDeletedBlockInfoWritable(BlockWritable blk, String delHints) {",
+        "92": "    return new ReceivedDeletedBlockInfoWritable(BlockWritable.convert(b",
+        "91": "    if (b == null) return null;"
+      },
+      "id": 8197112,
+      "filename": "ReceivedDeletedBlockInfoWritable.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 268,
+      "location": "/components/forks/poi/src/loci/poi/poifs/property",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642249/",
+      "md5hash": "ec58a14799afd1ed760c28ac77bdf126",
+      "lines": {
+        "64": "public class PropertyTable",
+        "65": "    implements BATManaged, BlockWritable",
+        "50": "import loci.poi.poifs.filesystem.BATManaged;",
+        "51": "import loci.poi.poifs.storage.BlockWritable;",
+        "68": "    private List            _properties;",
+        "69": "    private BlockWritable[] _blocks;",
+        "241": "    /* ********** START implementation of BlockWritable ********** */",
+        "264": "",
+        "265": "    /* **********  END  implementation of BlockWritable ********** */",
+        "240": "    /* **********  END  implementation of BATManaged ********** */"
+      },
+      "id": 15642249,
+      "filename": "PropertyTable.java"
+    },
+    {
+      "repo": "git://github.com/apache/hadoop-common.git",
+      "language": "Java",
+      "linescount": 130,
+      "location": "/hadoop-hdfs-project/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/protocolR23Compatible",
+      "name": "hadoop-common",
+      "url": "https://searchcode.com/codesearch/view/8197302/",
+      "md5hash": "ef5a82bc3c676b599ed903ecacc0b1ee",
+      "lines": {
+        "115": "      blocksWritable[i] = new BlockWithLocationsWritable(",
+        "50": "    public BlockWithLocationsWritable() {",
+        "51": "      block = new BlockWritable();",
+        "116": "          BlockWritable.convert(blocks[i].getBlock()), blocks[i].getDatanodes());",
+        "55": "    /** constructor */",
+        "56": "    public BlockWithLocationsWritable(BlockWritable b, String[] datanodes) {",
+        "45": "  public static class BlockWithLocationsWritable  implements Writable {",
+        "46": "    private BlockWritable block;"
+      },
+      "id": 8197302,
+      "filename": "BlocksWithLocationsWritable.java"
+    },
+    {
+      "repo": "git://github.com/apache/hbase.git",
+      "language": "Java",
+      "linescount": 536,
+      "location": "/src/main/java/org/apache/hadoop/hbase/io/hfile",
+      "name": "hbase",
+      "url": "https://searchcode.com/codesearch/view/2629690/",
+      "md5hash": "9d5f3c8fa35d9f0d4329f78a6e9f4fc1",
+      "lines": {
+        "80": "    new ArrayList<BlockWritable>();",
+        "81": "",
+        "518": "    }",
+        "37": "import org.apache.hadoop.hbase.io.hfile.HFile.Writer;",
+        "38": "import org.apache.hadoop.hbase.io.hfile.HFileBlock.BlockWritable;",
+        "519": "    additionalLoadOnOpenData.add(new BlockWritable() {",
+        "473": "    // Load-on-open data supplied by higher levels, e.g. Bloom filters.",
+        "474": "    for (BlockWritable w : additionalLoadOnOpenData){",
+        "78": "  /** Additional data items to be written to the \"load-on-open\" section. */",
+        "79": "  private List<BlockWritable> additionalLoadOnOpenData ="
+      },
+      "id": 2629690,
+      "filename": "HFileWriterV2.java"
+    },
+    {
+      "repo": "git://github.com/apache/hadoop-common.git",
+      "language": "Java",
+      "linescount": 88,
+      "location": "/hadoop-hdfs-project/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/protocolR23Compatible",
+      "name": "hadoop-common",
+      "url": "https://searchcode.com/codesearch/view/8197125/",
+      "md5hash": "af884955f0e030478fa305d4c232e9f8",
+      "lines": {
+        "48": "    block = new BlockWritable(blockId, diskLen, gs);",
+        "65": "  public void readFields(DataInput in) throws IOException {",
+        "66": "    block = new BlockWritable();",
+        "40": "  private int originalState;",
+        "41": "  private BlockWritable block;",
+        "26": "import org.apache.hadoop.classification.InterfaceStability;",
+        "27": "import org.apache.hadoop.hdfs.protocolR23Compatible.BlockWritable;",
+        "47": "      ReplicaState rState) {"
+      },
+      "id": 8197125,
+      "filename": "ReplicaRecoveryInfoWritable.java"
+    },
+    {
+      "repo": "git://github.com/apache/hbase.git",
+      "language": "Java",
+      "linescount": 1606,
+      "location": "/src/main/java/org/apache/hadoop/hbase/io/hfile",
+      "name": "hbase",
+      "url": "https://searchcode.com/codesearch/view/2629675/",
+      "md5hash": "604b6eee5d224c7aef5255a4edd3bbcd",
+      "lines": {
+        "928": "     */",
+        "944": "  /** Something that can be written into a block. */",
+        "945": "  public interface BlockWritable {",
+        "929": "    public void writeBlock(BlockWritable bw, FSDataOutputStream out)",
+        "920": "     * Takes the given {@link BlockWritable} instance, creates a new block of",
+        "919": "    /**"
+      },
+      "id": 2629675,
+      "filename": "HFileBlock.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 226,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642252/",
+      "md5hash": "8450934a7708c91f77ff2df9934d6bd9",
+      "lines": {
+        "176": "",
+        "177": "    /* ********** START implementation of BlockWritable ********** */",
+        "197": "",
+        "198": "    /* **********  END  implementation of BlockWritable ********** */",
+        "71": "public class BlockAllocationTableWriter",
+        "72": "    implements BlockWritable, BATManaged"
+      },
+      "id": 15642252,
+      "filename": "BlockAllocationTableWriter.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 163,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642270/",
+      "md5hash": "67f0b4e3c1f95804ce5523dd582c22a3",
+      "lines": {
+        "128": "        }",
+        "129": "        BlockWritable[] rvalue = new BlockWritable[ block_count ];",
+        "100": "",
+        "101": "    public static BlockWritable [] createPropertyBlockArray("
+      },
+      "id": 15642270,
+      "filename": "PropertyBlock.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 116,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642271/",
+      "md5hash": "a2fe9fc0ba7060c8cbc106d36a3efb13",
+      "lines": {
+        "112": "",
+        "113": "    /* **********  END  implementation of BlockWritable ********** */",
+        "58": "abstract class BigBlock",
+        "59": "    implements BlockWritable",
+        "92": "",
+        "93": "    /* ********** START implementation of BlockWritable ********** */"
+      },
+      "id": 15642271,
+      "filename": "BigBlock.java"
+    },
+    {
+      "repo": "https://github.com/jy4618272/hindex.git",
+      "language": "Java",
+      "linescount": 486,
+      "location": "/src/main/java/org/apache/hadoop/hbase/io/hfile",
+      "name": "hindex",
+      "url": "https://searchcode.com/codesearch/view/92488051/",
+      "md5hash": "678acb79705fcd3f33704d7a9676a606",
+      "lines": {
+        "424": "    for (BlockWritable w : additionalLoadOnOpenData){",
+        "81": "  /** Additional data items to be written to the \"load-on-open\" section. */",
+        "82": "  private List<BlockWritable> additionalLoadOnOpenData =",
+        "83": "    new ArrayList<BlockWritable>();",
+        "84": "",
+        "469": "    additionalLoadOnOpenData.add(new BlockWritable() {",
+        "39": "import org.apache.hadoop.hbase.io.hfile.HFile.Writer;",
+        "40": "import org.apache.hadoop.hbase.io.hfile.HFileBlock.BlockWritable;",
+        "468": "    }",
+        "423": "    // Load-on-open data supplied by higher levels, e.g. Bloom filters."
+      },
+      "id": 92488051,
+      "filename": "HFileWriterV2.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 42,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

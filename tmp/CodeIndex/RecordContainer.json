@@ -1,0 +1,157 @@
+{
+  "matchterm": "RecordContainer",
+  "previouspage": null,
+  "searchterm": "RecordContainer",
+  "query": "RecordContainer",
+  "language_filters": [
+    {
+      "count": 6,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 6,
+  "results": [
+    {
+      "repo": "https://github.com/unsound/hfsexplorer.git",
+      "language": "Java",
+      "linescount": 1680,
+      "location": "/src/java/org/catacombae/hfsexplorer",
+      "name": "hfsexplorer",
+      "url": "https://searchcode.com/codesearch/view/100193178/",
+      "md5hash": "5e3e41132698c24c14f9589ead279957",
+      "lines": {
+        "896": "                FolderTreeNode newNode =",
+        "897": "                        new FolderTreeNode(new RecordContainer(remainingQueue.remove()));",
+        "776": "                Object userObj = noLeafMutableTreeNode.getUserObject();",
+        "777": "                if(userObj instanceof RecordContainer) {",
+        "778": "                    Record<A> rec = ((RecordContainer) userObj).getRecord(genericPlaceholder);",
+        "779": "",
+        "913": "            FolderTreeNode newNode =",
+        "914": "                    new FolderTreeNode(new RecordContainer(remainingQueue.remove()));",
+        "531": "                        //System.err.println(\"  Value class: \" + colValue.getClass());",
+        "532": "                        if(colValue instanceof RecordContainer) {",
+        "533": "                            Record<A> rec = ((RecordContainer) colValue).getRecord(genericPlaceholder);",
+        "534": "                            if(rec.getType() == RecordType.FILE || rec.getType() == RecordType.FILE_LINK) {",
+        "666": "                if(curChild instanceof FolderTreeNode &&",
+        "667": "                        ((FolderTreeNode) curChild).getRecordContainer()",
+        "1084": "            Object o2 = ((DefaultMutableTreeNode) o).getUserObject();",
+        "1085": "            if(o2 instanceof RecordContainer) {"
+      },
+      "id": 100193178,
+      "filename": "FileSystemBrowser.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 514,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394313/",
+      "md5hash": "346ffc55e0b7a05381ade3b094d03d17",
+      "lines": {
+        "32": "import org.apache.poi.hslf.record.Record;",
+        "33": "import org.apache.poi.hslf.record.RecordContainer;",
+        "387": "    \tif(progTags != null) {",
+        "388": "    \t\tRecordContainer progBinaryTag = (RecordContainer)",
+        "392": "    \t\tif(progBinaryTag != null) {",
+        "393": "    \t\t\tRecordContainer binaryTags = (RecordContainer)",
+        "382": "    \t//  ProgTags -> ProgBinaryTag -> BinaryTagData",
+        "383": "    \tRecordContainer progTags = (RecordContainer)"
+      },
+      "id": 97394313,
+      "filename": "Slide.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 465,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394323/",
+      "md5hash": "004c81d0c6f4e85beee2c12f2cad27b2",
+      "lines": {
+        "131": "            // propagate parents to parent-aware records",
+        "132": "            RecordContainer.handleParentAwareRecords(wrappers[i]);",
+        "441": "        String tag = null;",
+        "442": "        RecordContainer progTags = (RecordContainer)",
+        "446": "        if(progTags != null) {",
+        "447": "            RecordContainer progBinaryTag = (RecordContainer)"
+      },
+      "id": 97394323,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1082,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394959/",
+      "md5hash": "5d80afff23c354813b0c27bde8e947ac",
+      "lines": {
+        "203": "\t\t\t\t\t\t\tPositionDependentRecordContainer pdrc = (PositionDependentRecordContainer) _records[i];",
+        "201": "\t\t\t\t\t\t// Tell it its Sheet ID, if it cares",
+        "104": "\t\tfor (Record record : _records) {",
+        "105": "\t\t\tif(record instanceof RecordContainer){",
+        "106": "                RecordContainer.handleParentAwareRecords((RecordContainer)record);",
+        "107": "            }",
+        "204": "\t\t\t\t\t\t\tpdrc.setSheetId(thisID.intValue());",
+        "202": "\t\t\t\t\t\tif (pdr instanceof PositionDependentRecordContainer) {"
+      },
+      "id": 97394959,
+      "filename": "SlideShow.java"
+    },
+    {
+      "repo": "https://bitbucket.org/anthonysosso/gissystem.git",
+      "language": "Java",
+      "linescount": 167,
+      "location": "/source/src/Indices/coordinate/client",
+      "name": "gissystem",
+      "url": "https://searchcode.com/codesearch/view/43080887/",
+      "md5hash": "c3b9e365b6c28bb2c68aa4e677da5204",
+      "lines": {
+        "64": "\t\tCoordAndOffset recordContainer = new CoordAndOffset(record.getLongitudeInSeconds(),",
+        "65": "\t\t\t\trecord.getLatitudeInSeconds(), offset);",
+        "66": "\t\treturn this.quadTree.insert(recordContainer);",
+        "63": "\t\t// TODO Auto-generated method stub"
+      },
+      "id": 43080887,
+      "filename": "CoordinateIndex.java"
+    },
+    {
+      "repo": "https://bitbucket.org/dakl/picard-tools",
+      "language": "Java",
+      "linescount": 1087,
+      "location": "/src/java/net/sf/picard/illumina",
+      "name": "picard-tools",
+      "url": "https://searchcode.com/codesearch/view/58424631/",
+      "md5hash": "828f5a5d27f2f9e7b0a2beab7f5d78ae",
+      "lines": {
+        "273": "                final String barcode = cluster.getMatchedBarcode();",
+        "274": "                converter.createSamRecords(cluster, null, recordContainer);",
+        "275": "                readProgressLogger.record(recordContainer);",
+        "276": "                this.processingRecord.addRecord(barcode, recordContainer);",
+        "277": "            }",
+        "266": "            final IlluminaDataProvider dataProvider = factory.makeDataProvider(Arrays.asList(this.tile.getNumber()));",
+        "267": "            final SAMRecord[] recordContainer = new SAMRecord[converter.getNumRecordsPerCluster()];"
+      },
+      "id": 58424631,
+      "filename": "IlluminaBasecallsToSam.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 2,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

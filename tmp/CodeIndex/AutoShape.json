@@ -1,0 +1,131 @@
+{
+  "matchterm": "AutoShape",
+  "previouspage": null,
+  "searchterm": "AutoShape",
+  "query": "AutoShape",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 126,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394369/",
+      "md5hash": "9f2f845896b81ee3324eee328eab442a",
+      "lines": {
+        "35": " */",
+        "36": "public class AutoShape extends TextShape {",
+        "37": "",
+        "38": "    protected AutoShape(EscherContainerRecord escherRecord, Shape parent){",
+        "41": "",
+        "42": "    public AutoShape(int type, Shape parent){",
+        "46": "",
+        "47": "    public AutoShape(int type){",
+        "114": "    \t",
+        "115": "        ShapeOutline outline = AutoShapes.getShapeOutline(getShapeType());",
+        "55": "",
+        "56": "        //set default properties for an autoshape",
+        "121": "        and.awt.Shape shape = outline.getOutline(this);",
+        "122": "        return AutoShapes.transform(shape, anchor);",
+        "27": "/**",
+        "28": " * Represents an AutoShape.",
+        "29": " * <p>"
+      },
+      "id": 97394369,
+      "filename": "AutoShape.java"
+    },
+    {
+      "repo": "http://ikube.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 134,
+      "location": "/code/core/src/main/java/ikube/index/parse/pp",
+      "name": "ikube",
+      "url": "https://searchcode.com/codesearch/view/7760073/",
+      "md5hash": "c788e8f2267dd5035cc2de5323dc5e12",
+      "lines": {
+        "91": "\t\t\t\t\t\t\tif (gShape.getShapes().get(iCount) instanceof AutoShapeEx) {",
+        "70": "\t\t\t\t\t\t}",
+        "71": "\t\t\t\t\t}// End AutoShape Check",
+        "72": "\t\t\t\t\telse if (shape instanceof AutoShapeEx) {",
+        "9": "",
+        "10": "import com.aspose.slides.pptx.AutoShapeEx;",
+        "75": "\t\t\t\t\t\t\tAutoShapeEx aShp = (AutoShapeEx) shape;",
+        "92": "\t\t\t\t\t\t\t\t// Getting AutoShape from group shapes set",
+        "74": "\t\t\t\t\t\ttry {",
+        "73": "\t\t\t\t\t\t// Getting AutoShape from group shapes set",
+        "90": "\t\t\t\t\t\tfor (int iCount = 0; iCount < gShape.getShapes().size(); iCount++) {",
+        "59": "\t\t\t\t\t\t\tif (shape instanceof AutoShapeEx) {",
+        "60": "\t\t\t\t\t\t\t\t// Getting AutoShape from group shapes set",
+        "61": "\t\t\t\t\t\t\t\tAutoShapeEx aShape = (AutoShapeEx) shape;",
+        "62": "\t\t\t\t\t\t\t\tif (aShape.getTextFrame() != null) {"
+      },
+      "id": 7760073,
+      "filename": "AsposePowerPointParser.java"
+    },
+    {
+      "repo": "https://bitbucket.org/elloyd/cnpvue",
+      "language": "Java",
+      "linescount": 1046,
+      "location": "/src/tufts/vue",
+      "name": "cnpvue",
+      "url": "https://searchcode.com/codesearch/view/55212864/",
+      "md5hash": "d0022417a1cd84416400c707e923b880",
+      "lines": {
+        "561": "",
+        "562": "//         if (DEBUG.Enabled) out(\"autoShape: maxSiide=\" + maxSide",
+        "568": "    ",
+        "569": "    private void autoShape() {",
+        "556": "    ",
+        "557": "//     private void autoShape() {",
+        "398": "            if (isNodeIcon())",
+        "399": "                autoShape();"
+      },
+      "id": 55212864,
+      "filename": "LWImage.java"
+    },
+    {
+      "repo": "http://sigma-h.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 168,
+      "location": "/sigmah/src/main/java/org/sigmah/server/report/renderer/ppt",
+      "name": "sigma-h",
+      "url": "https://searchcode.com/codesearch/view/558887/",
+      "md5hash": "cd275e7d63003a7f541be7ba1dc7f4dd",
+      "lines": {
+        "96": "    private void addBubble(Slide slide, int offsetX, int offsetY, BubbleMapMarker marker) {",
+        "9": "import org.apache.poi.ddf.EscherProperties;",
+        "10": "import org.apache.poi.hslf.model.AutoShape;",
+        "97": "        AutoShape shape = new AutoShape(ShapeTypes.Ellipse);"
+      },
+      "id": 558887,
+      "filename": "PPTMapRenderer.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

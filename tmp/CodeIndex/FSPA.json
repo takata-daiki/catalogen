@@ -1,0 +1,55 @@
+{
+  "matchterm": "FSPA",
+  "previouspage": null,
+  "searchterm": "FSPA",
+  "query": "FSPA",
+  "language_filters": [
+    {
+      "count": 1,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 1,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1043,
+      "location": "/src/org/apache/poi/hwpf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383956/",
+      "md5hash": "677c332698819342ff2ece2baf93a4ed",
+      "lines": {
+        "33": "import org.apache.poi.hwpf.model.EscherRecordHolder;",
+        "34": "import org.apache.poi.hwpf.model.FSPADocumentPart;",
+        "35": "import org.apache.poi.hwpf.model.FSPATable;",
+        "36": "import org.apache.poi.hwpf.model.FieldsTables;",
+        "325": "        _fspaHeaders = new FSPATable( _tableStream, _fib,",
+        "326": "                FSPADocumentPart.HEADER );",
+        "321": "",
+        "328": "",
+        "327": "        _fspaMain = new FSPATable( _tableStream, _fib, FSPADocumentPart.MAIN );",
+        "322": "        // Read FSPA and Escher information",
+        "337": "    // read in the pictures stream",
+        "338": "    _pictures = new PicturesTable(this, _dataStream, _mainStream, _fspaMain, _escherRecordHolder);",
+        "323": "        // _fspa = new FSPATable(_tableStream, _fib.getFcPlcspaMom(),",
+        "342": "    // And escher pictures",
+        "343": "    _officeDrawingsHeaders = new OfficeDrawingsImpl( _fspaHeaders, _escherRecordHolder, _mainStream );",
+        "344": "    _officeDrawingsMain = new OfficeDrawingsImpl( _fspaMain , _escherRecordHolder, _mainStream);",
+        "324": "        // _fib.getLcbPlcspaMom(), getTextTable().getTextPieces());"
+      },
+      "id": 97383956,
+      "filename": "HWPFDocument.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

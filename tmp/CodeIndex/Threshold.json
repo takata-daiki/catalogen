@@ -1,0 +1,513 @@
+{
+  "matchterm": "Threshold",
+  "previouspage": null,
+  "searchterm": "Threshold",
+  "query": "Threshold",
+  "language_filters": [
+    {
+      "count": 14020,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 14020,
+  "results": [
+    {
+      "repo": "https://github.com/pabloks/Imagenes.git",
+      "language": "Java",
+      "linescount": 417,
+      "location": "/ImageUtils/src/com/itba/imagenes/hough",
+      "name": "Imagenes",
+      "url": "https://searchcode.com/codesearch/view/65132139/",
+      "md5hash": "442303f690a12509bdb9867db347f68c",
+      "lines": {
+        "32": " * available thresholding algorithms are:",
+        "1": "/*",
+        "2": " * Threshold.java",
+        "4": " *",
+        "5": " * Revision 18/11/04: All threshold methods have been altered to",
+        "33": " * ",
+        "40": " * One-point threshold</li>",
+        "39": " * <li>",
+        "45": " */",
+        "46": "public class ThresholdFilter extends Filter {",
+        "47": "\t/**",
+        "48": "\t * One-point thresholding. Any value below the limit is thresholded to",
+        "49": "\t * black, anything above is thresholded to white.",
+        "30": "/**",
+        "31": " * This class encapsulates a variety of thresholding algorithms. The current"
+      },
+      "id": 65132139,
+      "filename": "ThresholdFilter.java"
+    },
+    {
+      "repo": "https://github.com/RyanDMitchell/RoboCup_Group3.git",
+      "language": "Java",
+      "linescount": 282,
+      "location": "/src/imaging",
+      "name": "RoboCup_Group3",
+      "url": "https://searchcode.com/codesearch/view/73675141/",
+      "md5hash": "47ab68d6c1dd137e2c3d16ff85a6d0c7",
+      "lines": {
+        "257": "                int alpha = new Color(original.getRGB(i, j)).getAlpha();            ",
+        "226": "        float varMax = 0;  ",
+        "35": "                    //Search adjacent pixels and if they exceed the ",
+        "36": "                    //lower threshold value (hysterisis loop) ",
+        "227": "        int threshold = 200; ",
+        "258": "                if(red > threshold) {               ",
+        "12": " */",
+        "13": "public class Threshold{",
+        "239": "                varMax = varBetween;             ",
+        "240": "                threshold = i;          ",
+        "242": "        }        ",
+        "243": "        return threshold; ",
+        "250": "        int newPixel;  ",
+        "251": "        int threshold = otsuTreshold(original);    "
+      },
+      "id": 73675141,
+      "filename": "Threshold.java"
+    },
+    {
+      "repo": "https://bitbucket.org/Tien_Nguyen/lenskit",
+      "language": "Java",
+      "linescount": 42,
+      "location": "/lenskit-core/src/main/java/org/grouplens/lenskit/transform/threshold",
+      "name": "lenskit",
+      "url": "https://searchcode.com/codesearch/view/76420153/",
+      "md5hash": "ec7904284a17c867112503b6f0cb1700",
+      "lines": {
+        "35": "     * @param sim The double similarity value to check against",
+        "20": " */",
+        "21": "package org.grouplens.lenskit.transform.threshold;",
+        "36": "     *            the threshold.",
+        "28": " */",
+        "29": "@DefaultImplementation(RealThreshold.class)",
+        "30": "public interface Threshold {",
+        "31": "    /**"
+      },
+      "id": 76420153,
+      "filename": "Threshold.java"
+    },
+    {
+      "repo": "https://gitlab.com/jforge/stagemonitor.git",
+      "language": "Java",
+      "linescount": 128,
+      "location": "/stagemonitor-alerting/src/main/java/org/stagemonitor/alerting/check",
+      "name": "stagemonitor",
+      "url": "https://searchcode.com/codesearch/view/115107993/",
+      "md5hash": "f3413164a193fd7bac667957c0f8cc92",
+      "lines": {
+        "33": "\tpublic boolean isExceeded(double actualValue) {",
+        "34": "\t\treturn operator.check(actualValue, thresholdValue);",
+        "8": "/**",
+        "9": " * Represents a threshold to check",
+        "10": " */",
+        "11": "public class Threshold {",
+        "14": "\tprivate final Operator operator;",
+        "15": "\tprivate final double thresholdValue;",
+        "17": "\t@JsonCreator",
+        "18": "\tpublic Threshold(@JsonProperty(\"metric\") String metric, @JsonProperty(\"operator\") Operator operator, @JsonProperty(\"thresholdValue\") double thresholdValue) {",
+        "23": "\t\tthis.operator = operator;",
+        "24": "\t\tthis.thresholdValue = thresholdValue;",
+        "27": "\t/**",
+        "28": "\t * Checks if the threshold is exceeded.",
+        "30": "\t * @param actualValue the value to check",
+        "31": "\t * @return <code>true</code>, if the actual value exceeds the threshold, <code>false</code> otherwise"
+      },
+      "id": 115107993,
+      "filename": "Threshold.java"
+    },
+    {
+      "repo": "https://github.com/Takeno/sdr-project.git",
+      "language": "Java",
+      "linescount": 124,
+      "location": "/src/it/uniroma3/signals/spectrumsensing/energydetector",
+      "name": "sdr-project",
+      "url": "https://searchcode.com/codesearch/view/95106798/",
+      "md5hash": "4798e2cf0ffb2cc83cf89cb31a5db0fc",
+      "lines": {
+        "16": "\t\tvariance = this.calculateVariance(energy, mean);",
+        "17": "\t\tthreshold = mean + (2*Math.sqrt(variance)) * this.invErf(1-2*fakeAlarmProbability);",
+        "18": "\t\t",
+        "19": "\t\treturn threshold;",
+        "4": "",
+        "5": "public class Threshold {",
+        "7": "\t",
+        "8": "\tpublic Threshold(double pfa){",
+        "12": "\tpublic double calculateTh (double[] energy) throws Exception {",
+        "13": "\t\tdouble threshold, mean, variance;"
+      },
+      "id": 95106798,
+      "filename": "Threshold.java"
+    },
+    {
+      "repo": "https://github.com/ncweiler/VIB.git",
+      "language": "Java",
+      "linescount": 19,
+      "location": "/vib/transforms",
+      "name": "VIB",
+      "url": "https://searchcode.com/codesearch/view/107074881/",
+      "md5hash": "180a054e572ebe9a1f1a9a83497210c2",
+      "lines": {
+        "2": "",
+        "3": "/* A convenience class for returning Threshold information for the",
+        "7": "",
+        "8": "public class Threshold {",
+        "10": "\tpublic int value;",
+        "11": "\tpublic long belowThreshold;",
+        "12": "\t",
+        "13": "\tpublic Threshold( int value, long belowThreshold ) {",
+        "14": "\t\tthis.value = value;",
+        "15": "\t\tthis.belowThreshold = belowThreshold;"
+      },
+      "id": 107074881,
+      "filename": "Threshold.java"
+    },
+    {
+      "repo": "https://github.com/fvilla/imt.git",
+      "language": "Java",
+      "linescount": 41,
+      "location": "/org.integratedmodelling.thinklab.mca/src/org/integratedmodelling/mca/electre3/model",
+      "name": "imt",
+      "url": "https://searchcode.com/codesearch/view/108984346/",
+      "md5hash": "7dd8655c4007740a1876085482828331",
+      "lines": {
+        "16": "    public Threshold() {",
+        "8": " */",
+        "9": "public class Threshold implements Serializable {",
+        "10": "    ",
+        "11": "    public Threshold(double alpha, double beta) {",
+        "15": "    "
+      },
+      "id": 108984346,
+      "filename": "Threshold.java"
+    },
+    {
+      "repo": "http://mobicents.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 33,
+      "location": "/cloud/sip-servlets/scaler/src/org/mobicents/cloud/scaler/model",
+      "name": "mobicents",
+      "url": "https://searchcode.com/codesearch/view/59930/",
+      "md5hash": "c8967a2d7da9c038bb625575d3a9c705",
+      "lines": {
+        "2": "",
+        "3": "public class Threshold {",
+        "9": "\t\t/**",
+        "10": "\t\t * This is the upper threshold. ",
+        "11": "\t\t * An instance will be started if one of the metrics of one instance is above this threshold.",
+        "12": "\t\t */",
+        "15": "\t\t/**",
+        "16": "\t\t * This is the lower threshold. ",
+        "17": "\t\t * An instance will be stopped if all of its metrics are below this threshold.",
+        "18": "\t\t */",
+        "21": "\t",
+        "22": "\tstatic public Metrics getUpperThreshold() {",
+        "25": "\t",
+        "26": "\tstatic public Metrics getLowerThreshold() {"
+      },
+      "id": 59930,
+      "filename": "Threshold.java"
+    },
+    {
+      "repo": "https://bitbucket.org/LingfeiH/lenskit",
+      "language": "Java",
+      "linescount": 42,
+      "location": "/lenskit-core/src/main/java/org/grouplens/lenskit/transform/threshold",
+      "name": "lenskit",
+      "url": "https://searchcode.com/codesearch/view/103262599/",
+      "md5hash": "ec7904284a17c867112503b6f0cb1700",
+      "lines": {
+        "35": "     * @param sim The double similarity value to check against",
+        "20": " */",
+        "21": "package org.grouplens.lenskit.transform.threshold;",
+        "36": "     *            the threshold.",
+        "28": " */",
+        "29": "@DefaultImplementation(RealThreshold.class)",
+        "30": "public interface Threshold {",
+        "31": "    /**"
+      },
+      "id": 103262599,
+      "filename": "Threshold.java"
+    },
+    {
+      "repo": "http://rocksteady.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 72,
+      "location": "/src/main/java/com/admob/rocksteady/domain",
+      "name": "rocksteady",
+      "url": "https://searchcode.com/codesearch/view/7064839/",
+      "md5hash": "f94a2d16b4c9b657736794d2c3a3630f",
+      "lines": {
+        "64": "    String query =",
+        "65": "        \"delete from Threshold o where (\" + currentTime + \" - UNIX_TIMESTAMP(create_on))\" + \" > \"",
+        "39": "@RooEntity",
+        "40": "public class Threshold {",
+        "41": "  private static final Logger logger = LoggerFactory.getLogger(Threshold.class);",
+        "42": ""
+      },
+      "id": 7064839,
+      "filename": "Threshold.java"
+    },
+    {
+      "repo": "https://code.google.com/p/rrdws/",
+      "language": "Java",
+      "linescount": 131,
+      "location": "/src/main/java/cc/co/llabor/threshold/rrd",
+      "name": "rrdws",
+      "url": "https://searchcode.com/codesearch/view/12527663/",
+      "md5hash": "732644bdb0ba5ffdffd3b425376a12ff",
+      "lines": {
+        "16": "",
+        "1": "package cc.co.llabor.threshold.rrd;",
+        "2": "",
+        "19": " */",
+        "17": "monitor-thresholds = \"<monitor-threshold> [, <monitor-threshold> ...]\"",
+        "6": "/** ",
+        "7": " * <b>refactored from http://cricket.sourceforge.net/support/doc/monitor-thresholds.html </b>",
+        "20": "public interface Threshold extends Serializable{",
+        "96": "\t * !! a number of seconds a thresholds should fail before triggering an",
+        "95": "\t/**"
+      },
+      "id": 12527663,
+      "filename": "Threshold.java"
+    },
+    {
+      "repo": "git://github.com/shiffman/Most-Pixels-Ever.git",
+      "language": "Java",
+      "linescount": 129,
+      "location": "/eclipse/MPEMessagingExamples/src/soundinput",
+      "name": "Most-Pixels-Ever",
+      "url": "https://searchcode.com/codesearch/view/15685664/",
+      "md5hash": "2a3625e6db361bc500849d75573e7dd3",
+      "lines": {
+        "35": "\tstatic public void main(String args[]) {",
+        "18": "",
+        "19": "public class Threshold extends PApplet {",
+        "36": "\t\tPApplet.main(new String[] { \"soundinput.Threshold\"});",
+        "24": "\tfloat clapLevel = 0.05f;  // How loud is a clap ",
+        "25": "\tfloat threshold = 0.005f;  // How quiet is silence "
+      },
+      "id": 15685664,
+      "filename": "Threshold.java"
+    },
+    {
+      "repo": "http://sewebar-cms.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 53,
+      "location": "/tools/izi_repository/src/main/java/izi_repository/domain/result/tasksetting",
+      "name": "sewebar-cms",
+      "url": "https://searchcode.com/codesearch/view/63756912/",
+      "md5hash": "4868519786520eb1bd1b563aa12bd5dc",
+      "lines": {
+        "49": "\tpublic String toString() {",
+        "50": "\t\treturn \"<Threshold type=\\\"\" + type + \"\\\">\" + value + \"</Threshold>\";",
+        "3": "/**",
+        "4": " * Domain object representing Threshold element from TaskSetting from query",
+        "9": " */",
+        "10": "public class Threshold {"
+      },
+      "id": 63756912,
+      "filename": "Threshold.java"
+    },
+    {
+      "repo": "https://github.com/nhosgur/Drools_jBPM5-Training-Examples.git",
+      "language": "Java",
+      "linescount": 44,
+      "location": "/jbpm5/06-jBPM5-HumanTasksAndRulesExample/src/main/java/com/wordpress/salaboy",
+      "name": "Drools_jBPM5-Training-Examples",
+      "url": "https://searchcode.com/codesearch/view/65936688/",
+      "md5hash": "9899b356f72da2270219a8f66fad8972",
+      "lines": {
+        "32": "        return valueUpperThreshold;",
+        "33": "    }",
+        "36": "    public String toString() {",
+        "37": "        return \"Threshold{\" + \"name=\" + name + \", valueUpperThreshold=\" + valueUpperThreshold + \", valueLowerThreshold=\" + valueLowerThreshold + '}';",
+        "10": " */",
+        "11": "public class Threshold {",
+        "12": "    private String name;",
+        "13": "    private double valueUpperThreshold;",
+        "14": "    private double valueLowerThreshold;",
+        "15": "",
+        "16": "    public Threshold(String name, double valueUpperThreshold, double valueLowerThreshold) {",
+        "17": "        this.name = name;",
+        "18": "        this.valueUpperThreshold = valueUpperThreshold;",
+        "19": "        this.valueLowerThreshold = valueLowerThreshold;",
+        "31": "    public double getValueUpperThreshold() {"
+      },
+      "id": 65936688,
+      "filename": "Threshold.java"
+    },
+    {
+      "repo": "https://github.com/russells-crockpot/ann-craun.git",
+      "language": "Java",
+      "linescount": 57,
+      "location": "/src/main/java/com/gnosis/anncraun/engine",
+      "name": "ann-craun",
+      "url": "https://searchcode.com/codesearch/view/99027345/",
+      "md5hash": "3d1217c0ecabf600fd8555c9cd7c44e8",
+      "lines": {
+        "12": "",
+        "13": "    public Threshold(double weight) {",
+        "6": " */",
+        "7": "public class Threshold {"
+      },
+      "id": 99027345,
+      "filename": "Threshold.java"
+    },
+    {
+      "repo": "https://bitbucket.org/vkanneganti/lenskit",
+      "language": "Java",
+      "linescount": 40,
+      "location": "/lenskit-core/src/main/java/org/grouplens/lenskit/transform/threshold",
+      "name": "lenskit",
+      "url": "https://searchcode.com/codesearch/view/59481077/",
+      "md5hash": "73b89ea42a762313faa179637cbb0469",
+      "lines": {
+        "34": "     *            the threshold.",
+        "33": "     * @param sim The double similarity value to check against",
+        "18": " */",
+        "19": "package org.grouplens.lenskit.transform.threshold;",
+        "26": " */",
+        "27": "@DefaultImplementation(RealThreshold.class)",
+        "28": "public interface Threshold {",
+        "29": "    /**"
+      },
+      "id": 59481077,
+      "filename": "Threshold.java"
+    },
+    {
+      "repo": "https://bitbucket.org/Kluver/lenskit-kluver",
+      "language": "Java",
+      "linescount": 42,
+      "location": "/lenskit-core/src/main/java/org/grouplens/lenskit/transform/threshold",
+      "name": "lenskit-kluver",
+      "url": "https://searchcode.com/codesearch/view/125772418/",
+      "md5hash": "ec7904284a17c867112503b6f0cb1700",
+      "lines": {
+        "35": "     * @param sim The double similarity value to check against",
+        "20": " */",
+        "21": "package org.grouplens.lenskit.transform.threshold;",
+        "36": "     *            the threshold.",
+        "28": " */",
+        "29": "@DefaultImplementation(RealThreshold.class)",
+        "30": "public interface Threshold {",
+        "31": "    /**"
+      },
+      "id": 125772418,
+      "filename": "Threshold.java"
+    },
+    {
+      "repo": "https://bitbucket.org/schang8000/lenskit",
+      "language": "Java",
+      "linescount": 41,
+      "location": "/lenskit-core/src/main/java/org/grouplens/lenskit/transform/threshold",
+      "name": "lenskit",
+      "url": "https://searchcode.com/codesearch/view/126330457/",
+      "md5hash": "3e49583c4c83416c8cd3c30fc0e854ba",
+      "lines": {
+        "34": "     *        the threshold.",
+        "33": "     * @param sim The double similarity value to check against",
+        "18": " */",
+        "19": "package org.grouplens.lenskit.transform.threshold;",
+        "26": " */",
+        "27": "@DefaultImplementation(RealThreshold.class)",
+        "28": "public interface Threshold {",
+        "29": ""
+      },
+      "id": 126330457,
+      "filename": "Threshold.java"
+    },
+    {
+      "repo": "https://bitbucket.org/shilad/lenskit",
+      "language": "Java",
+      "linescount": 40,
+      "location": "/lenskit-core/src/main/java/org/grouplens/lenskit/transform/threshold",
+      "name": "lenskit",
+      "url": "https://searchcode.com/codesearch/view/127359486/",
+      "md5hash": "73b89ea42a762313faa179637cbb0469",
+      "lines": {
+        "34": "     *            the threshold.",
+        "33": "     * @param sim The double similarity value to check against",
+        "18": " */",
+        "19": "package org.grouplens.lenskit.transform.threshold;",
+        "26": " */",
+        "27": "@DefaultImplementation(RealThreshold.class)",
+        "28": "public interface Threshold {",
+        "29": "    /**"
+      },
+      "id": 127359486,
+      "filename": "Threshold.java"
+    },
+    {
+      "repo": "https://bitbucket.org/bmaus/lenskit",
+      "language": "Java",
+      "linescount": 42,
+      "location": "/lenskit-core/src/main/java/org/grouplens/lenskit/transform/threshold",
+      "name": "lenskit",
+      "url": "https://searchcode.com/codesearch/view/130286163/",
+      "md5hash": "fffd3be057b47d2909f48f7dcdb5ff58",
+      "lines": {
+        "34": "     * @param sim The double similarity value to check against",
+        "35": "     *            the threshold.",
+        "18": " */",
+        "19": "package org.grouplens.lenskit.transform.threshold;",
+        "26": " */",
+        "27": "@DefaultImplementation(RealThreshold.class)",
+        "28": "public interface Threshold {",
+        "29": ""
+      },
+      "id": 130286163,
+      "filename": "Threshold.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 6200,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 6051,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1508,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 122,
+      "source": "Sourceforge",
+      "id": 4
+    },
+    {
+      "count": 76,
+      "source": "GitLab",
+      "id": 13
+    },
+    {
+      "count": 39,
+      "source": "Unknown",
+      "id": 0
+    },
+    {
+      "count": 13,
+      "source": "CodePlex",
+      "id": 5
+    },
+    {
+      "count": 9,
+      "source": "Google Android",
+      "id": 12
+    },
+    {
+      "count": 2,
+      "source": "Gitorious",
+      "id": 10
+    }
+  ]
+}

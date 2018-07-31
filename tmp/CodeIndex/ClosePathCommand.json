@@ -1,0 +1,60 @@
+{
+  "matchterm": "ClosePathCommand",
+  "previouspage": null,
+  "searchterm": "ClosePathCommand",
+  "query": "ClosePathCommand",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 38,
+      "location": "/pptx/src/org/apache/poi/xslf/model/geom",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406575/",
+      "md5hash": "ba2eb807862a7a5809230c9f462145a7",
+      "lines": {
+        "28": " */",
+        "29": "public class ClosePathCommand implements PathCommand {",
+        "30": "",
+        "31": "    ClosePathCommand(){"
+      },
+      "id": 97406575,
+      "filename": "ClosePathCommand.java"
+    },
+    {
+      "repo": "https://github.com/apache/pdfbox.git",
+      "language": "Java",
+      "linescount": 388,
+      "location": "/fontbox/src/main/java/org/apache/fontbox/cff",
+      "name": "pdfbox",
+      "url": "https://searchcode.com/codesearch/view/105580931/",
+      "md5hash": "c406bd6dba90031a9d66496ac163ddae",
+      "lines": {
+        "296": "",
+        "297": "        CharStringCommand closepathCommand = new CharStringCommand(9);",
+        "298": "        if (command != null && !closepathCommand.equals(command))",
+        "299": "        {",
+        "300": "            addCommand(Collections.<Integer> emptyList(), closepathCommand);"
+      },
+      "id": 105580931,
+      "filename": "Type2CharString.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "matchterm": "CTConnectionSite",
+  "previouspage": null,
+  "searchterm": "CTConnectionSite",
+  "query": "CTConnectionSite",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 62,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402917/",
+      "md5hash": "20729740e1ad822177c060b3ad7ac1e0",
+      "lines": {
+        "16": "public interface CTConnectionSite extends org.apache.xmlbeans.XmlObject",
+        "19": "        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CTConnectionSite.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sE130CAA0A01A7CDE5A2B4FEB8B311707\").resolveHandle(\"ctconnectionsite6660type\");",
+        "18": "    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTConnectionSite",
+        "15": " */"
+      },
+      "id": 97402917,
+      "filename": "CTConnectionSite.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 111,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642089/",
+      "md5hash": "6269442b433b01f731f1ea1fc5d930a4",
+      "lines": {
+        "54": "})",
+        "55": "public class CTConnectionSite {"
+      },
+      "id": 17642089,
+      "filename": "CTConnectionSite.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 181,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403298/",
+      "md5hash": "ab718ccd1ae5ed97eccb400f086da6ff",
+      "lines": {
+        "32": "        {",
+        "33": "            public org.openxmlformats.schemas.drawingml.x2006.main.CTConnectionSite get(int i)",
+        "34": "                { return CTConnectionSiteListImpl.this.getCxnArray(i); }",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTConnectionSiteList",
+        "37": "            {",
+        "13": " */",
+        "14": "public class CTConnectionSiteListImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.openxmlformats.schemas.drawingml.x2006.main.CTConnectionSiteList",
+        "16": "    ",
+        "17": "    public CTConnectionSiteListImpl(org.apache.xmlbeans.SchemaType sType)",
+        "35": "            ",
+        "36": "            public org.openxmlformats.schemas.drawingml.x2006.main.CTConnectionSite set(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTConnectionSite o)",
+        "28": "     */",
+        "29": "    public java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTConnectionSite> getCxnList()",
+        "30": "    {",
+        "31": "        final class CxnList extends java.util.AbstractList<org.openxmlformats.schemas.drawingml.x2006.main.CTConnectionSite>"
+      },
+      "id": 97403298,
+      "filename": "CTConnectionSiteListImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 73,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402496/",
+      "md5hash": "a19e553dda1ea95ae0e82b724947dd1a",
+      "lines": {
+        "35": "    org.openxmlformats.schemas.drawingml.x2006.main.CTConnectionSite getCxnArray(int i);",
+        "34": "     */",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTConnectionSiteList",
+        "54": "     */",
+        "55": "    org.openxmlformats.schemas.drawingml.x2006.main.CTConnectionSite insertNewCxn(int i);",
+        "44": "     */",
+        "45": "    void setCxnArray(org.openxmlformats.schemas.drawingml.x2006.main.CTConnectionSite[] cxnArray);",
+        "15": " */",
+        "16": "public interface CTConnectionSiteList extends org.apache.xmlbeans.XmlObject",
+        "49": "     */",
+        "18": "    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)",
+        "19": "        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CTConnectionSiteList.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sE130CAA0A01A7CDE5A2B4FEB8B311707\").resolveHandle(\"ctconnectionsitelistab9etype\");",
+        "50": "    void setCxnArray(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTConnectionSite cxn);",
+        "23": "     */",
+        "24": "    java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTConnectionSite> getCxnList();"
+      },
+      "id": 97402496,
+      "filename": "CTConnectionSiteList.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 3480,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642161/",
+      "md5hash": "ecaf98912e449049698e790afd5f5c5a",
+      "lines": {
+        "521": "    /**",
+        "522": "     * Create an instance of {@link CTConnectionSiteList }",
+        "524": "     */",
+        "525": "    public CTConnectionSiteList createCTConnectionSiteList() {",
+        "526": "        return new CTConnectionSiteList();",
+        "527": "    }",
+        "1497": "    /**",
+        "1498": "     * Create an instance of {@link CTConnectionSite }",
+        "1500": "     */",
+        "1501": "    public CTConnectionSite createCTConnectionSite() {",
+        "1502": "        return new CTConnectionSite();",
+        "1503": "    }"
+      },
+      "id": 17642161,
+      "filename": "ObjectFactory.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 88,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642210/",
+      "md5hash": "b10aae95f7d926127c49c13a0b2a66c5",
+      "lines": {
+        "80": "    public List<CTConnectionSite> getCxn() {",
+        "81": "        if (cxn == null) {",
+        "82": "            cxn = new ArrayList<CTConnectionSite>();",
+        "53": "})",
+        "54": "public class CTConnectionSiteList {",
+        "55": "",
+        "56": "    protected List<CTConnectionSite> cxn;",
+        "75": "     * Objects of the following type(s) are allowed in the list",
+        "76": "     * {@link CTConnectionSite }",
+        "79": "     */"
+      },
+      "id": 17642210,
+      "filename": "CTConnectionSiteList.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 146,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97404576/",
+      "md5hash": "a0e8ca3566d5d13e1dd3a3a3721e88a0",
+      "lines": {
+        "16": "    ",
+        "17": "    public CTConnectionSiteImpl(org.apache.xmlbeans.SchemaType sType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTConnectionSite",
+        "13": " */",
+        "14": "public class CTConnectionSiteImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.openxmlformats.schemas.drawingml.x2006.main.CTConnectionSite"
+      },
+      "id": 97404576,
+      "filename": "CTConnectionSiteImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

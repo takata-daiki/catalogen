@@ -1,0 +1,294 @@
+{
+  "matchterm": "HSSFPatriarch",
+  "previouspage": null,
+  "searchterm": "HSSFPatriarch",
+  "query": "HSSFPatriarch",
+  "language_filters": [
+    {
+      "count": 14,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 14,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 232,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642333/",
+      "md5hash": "15cf21df230a2e5bafaf6da9ba3a0dc3",
+      "lines": {
+        "67": "    HSSFPatriarch(HSSFSheet sheet)",
+        "66": "     */",
+        "51": " */",
+        "52": "public class HSSFPatriarch"
+      },
+      "id": 15642333,
+      "filename": "HSSFPatriarch.java"
+    },
+    {
+      "repo": "https://github.com/bluecitymoon/littleshop.git",
+      "language": "Java",
+      "linescount": 91,
+      "location": "/src/main/java/com/ls/upload",
+      "name": "littleshop",
+      "url": "https://searchcode.com/codesearch/view/94171992/",
+      "md5hash": "b56833db7b8492e781ee6d2b2e9e0472",
+      "lines": {
+        "48": "\t\t\tHSSFClientAnchor anchor = new HSSFClientAnchor(0, 0, 1023, 255, col1, row1, col2, row2);",
+        "47": "\t\t\t// HSSFPatriarch patriarch = sheet.createDrawingPatriarch();",
+        "22": "",
+        "23": "\tprivate HSSFPatriarch patriarch = null;",
+        "44": "\t\t\t// \u80fd\u5426\u5199\u591a\u5f20\u56fe\u7247\uff0c\u5173\u952e\u5728\u4e0eHSSFPatriarch patriarch \u8fd9\u4e2a\u53d8\u91cf\u3002\u5199\u591a\u5f20\u56fe\u7247\u65f6\uff0c",
+        "43": "",
+        "12": "import org.apache.poi.hssf.usermodel.HSSFClientAnchor;",
+        "13": "import org.apache.poi.hssf.usermodel.HSSFPatriarch;",
+        "46": "\t\t\t// HSSFPatriarch patriarch \u5e94\u8be5\u65f6\u4e00\u4e2a\u5bf9\u8c61\uff0c\u4e0d\u5e94\u8be5\u6bcf\u6b21\u591a\u65b0\u521b\u5efa\u5bf9\u8c61\u3002",
+        "45": ""
+      },
+      "id": 94171992,
+      "filename": "ImageToExcel.java"
+    },
+    {
+      "repo": "https://github.com/dsteiner/wub.git",
+      "language": "Java",
+      "linescount": 227,
+      "location": "/src/main/java/de/dsteiner/wub/web/orderlist/report/excel",
+      "name": "wub",
+      "url": "https://searchcode.com/codesearch/view/112311786/",
+      "md5hash": "b84f8228ffaeba6763bfd2367150c06c",
+      "lines": {
+        "32": "\tprotected String sheetName;",
+        "33": "\tprivate HSSFPatriarch drawingPatriarch;",
+        "210": "\t\tfinal HSSFPatriarch patr = this.getDrawingPatriarch();",
+        "196": "",
+        "197": "\tpublic HSSFPatriarch getDrawingPatriarch() {",
+        "209": "\t\t// must be the same instance per sheet!",
+        "8": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "9": "import org.apache.poi.hssf.usermodel.HSSFPatriarch;"
+      },
+      "id": 112311786,
+      "filename": "SheetBuilderBase.java"
+    },
+    {
+      "repo": "https://github.com/dylanvivi/util.git",
+      "language": "Java",
+      "linescount": 419,
+      "location": "/src/main/java/com/dylan/lang",
+      "name": "util",
+      "url": "https://searchcode.com/codesearch/view/73315299/",
+      "md5hash": "a75d39e57f9db6720178088f2a109b58",
+      "lines": {
+        "112": "\t\tHSSFPatriarch patriarch = sheet.createDrawingPatriarch();",
+        "264": "\t\t// \u58f0\u660e\u4e00\u4e2a\u753b\u56fe\u7684\u9876\u7ea7\u7ba1\u7406\u5668",
+        "23": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "24": "import org.apache.poi.hssf.usermodel.HSSFPatriarch;",
+        "265": "\t\tHSSFPatriarch patriarch = sheet.createDrawingPatriarch();",
+        "111": "\t\t// \u58f0\u660e\u4e00\u4e2a\u753b\u56fe\u7684\u9876\u7ea7\u7ba1\u7406\u5668"
+      },
+      "id": 73315299,
+      "filename": "ExcelUtil.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 766,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642409/",
+      "md5hash": "9e212df4a5b523744fd315d99c376d1b",
+      "lines": {
+        "544": "",
+        "545": "    public void setPatriarch( HSSFPatriarch patriarch )",
+        "754": "//    private int getNumberOfShapes( HSSFPatriarch patriarch )",
+        "279": "",
+        "280": "    protected HSSFPatriarch patriarch;",
+        "713": "    private void convertPatriarch( HSSFPatriarch patriarch )",
+        "539": "",
+        "540": "    public HSSFPatriarch getPatriarch()",
+        "712": "",
+        "753": "    /** Retrieve the number of shapes (including the patriarch). */"
+      },
+      "id": 15642409,
+      "filename": "EscherAggregate.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1607,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642322/",
+      "md5hash": "5084cc24e46752bd3911d5d0a983e0a6",
+      "lines": {
+        "1384": "     */",
+        "1385": "    public HSSFPatriarch createDrawingPatriarch()",
+        "1392": "        HSSFPatriarch patriarch = new HSSFPatriarch(this);",
+        "1391": "        EscherAggregate agg = (EscherAggregate) sheet.findFirstRecordBySid(EscherAggregate.sid);"
+      },
+      "id": 15642322,
+      "filename": "HSSFSheet.java"
+    },
+    {
+      "repo": "http://sqlreport.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 225,
+      "location": "/java/sourcecode/Excel/src/com/jeasonzhao/commons/excel",
+      "name": "sqlreport",
+      "url": "https://searchcode.com/codesearch/view/3760569/",
+      "md5hash": "238f4619b717e58da29d77613c49a268",
+      "lines": {
+        "4": "",
+        "5": "import org.apache.poi.hssf.usermodel.HSSFPatriarch;",
+        "53": "",
+        "54": "    private HSSFPatriarch m_HSSFPatriarch = null;",
+        "55": "    public HSSFPatriarch getHSSFPatriarch()",
+        "56": "    {",
+        "57": "        if(null == m_HSSFPatriarch)",
+        "58": "        {",
+        "59": "            m_HSSFPatriarch = this.m_sheet.createDrawingPatriarch();",
+        "60": "        }",
+        "61": "        return m_HSSFPatriarch;"
+      },
+      "id": 3760569,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "https://bitbucket.org/javier_p_villamizar/smartfreport",
+      "language": "Java",
+      "linescount": 556,
+      "location": "/srcZk/com/smj/webui/component",
+      "name": "smartfreport",
+      "url": "https://searchcode.com/codesearch/view/61719045/",
+      "md5hash": "d7355e6b4eb5fc3ca49f1cc7b1f65dbd",
+      "lines": {
+        "16": "import org.apache.poi.hssf.usermodel.HSSFPatriarch;",
+        "75": "\t\t\t\tbyte[] imageData = mimage.getData();",
+        "76": "\t\t\t\tHSSFPatriarch patriarch = sheet.createDrawingPatriarch();",
+        "15": "import org.apache.poi.hssf.usermodel.HSSFFont;"
+      },
+      "id": 61719045,
+      "filename": "SmjXlsReport.java"
+    },
+    {
+      "repo": "https://bitbucket.org/anozimada/idempiere-smartreport",
+      "language": "Java",
+      "linescount": 561,
+      "location": "/src/com/smj/webui/component",
+      "name": "iDempiere-SmartReport",
+      "url": "https://searchcode.com/codesearch/view/66638946/",
+      "md5hash": "cca272634349e81e3def153722614272",
+      "lines": {
+        "16": "import org.apache.poi.hssf.usermodel.HSSFPatriarch;",
+        "75": "\t\t\t\tbyte[] imageData = mimage.getData();",
+        "76": "\t\t\t\tHSSFPatriarch patriarch = sheet.createDrawingPatriarch();",
+        "15": "import org.apache.poi.hssf.usermodel.HSSFFont;"
+      },
+      "id": 66638946,
+      "filename": "SmjXlsReport.java"
+    },
+    {
+      "repo": "http://sigma-h.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 380,
+      "location": "/sigmah/src/main/java/org/sigmah/server/endpoint/export",
+      "name": "sigma-h",
+      "url": "https://searchcode.com/codesearch/view/558689/",
+      "md5hash": "9887d9243cb2e3a3f5526b9b99870189",
+      "lines": {
+        "8": "import org.apache.poi.hssf.usermodel.HSSFClientAnchor;",
+        "9": "import org.apache.poi.hssf.usermodel.HSSFPatriarch;",
+        "251": "        // cell comments.",
+        "252": "        HSSFPatriarch patr = ((HSSFSheet) sheet).createDrawingPatriarch();"
+      },
+      "id": 558689,
+      "filename": "Export.java"
+    },
+    {
+      "repo": "http://sqlreport.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 321,
+      "location": "/java/sourcecode/Excel/src/com/jeasonzhao/commons/excel",
+      "name": "sqlreport",
+      "url": "https://searchcode.com/codesearch/view/3760572/",
+      "md5hash": "ceb3bff690ff223b6dbcf03afdeb2f02",
+      "lines": {
+        "304": "        {",
+        "305": "            HSSFPatriarch hssfp = m_sheet.getHSSFPatriarch();",
+        "10": "import org.apache.poi.hssf.usermodel.HSSFHyperlink;",
+        "11": "import org.apache.poi.hssf.usermodel.HSSFPatriarch;"
+      },
+      "id": 3760572,
+      "filename": "Cell.java"
+    },
+    {
+      "repo": "https://bitbucket.org/axelrob/axelrob-espinoza",
+      "language": "Java",
+      "linescount": 556,
+      "location": "/srcZk/com/smj/webui/component",
+      "name": "axelrob-espinoza",
+      "url": "https://searchcode.com/codesearch/view/133035254/",
+      "md5hash": "d7355e6b4eb5fc3ca49f1cc7b1f65dbd",
+      "lines": {
+        "16": "import org.apache.poi.hssf.usermodel.HSSFPatriarch;",
+        "75": "\t\t\t\tbyte[] imageData = mimage.getData();",
+        "76": "\t\t\t\tHSSFPatriarch patriarch = sheet.createDrawingPatriarch();",
+        "15": "import org.apache.poi.hssf.usermodel.HSSFFont;"
+      },
+      "id": 133035254,
+      "filename": "SmjXlsReport.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 202,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642330/",
+      "md5hash": "54b349b51e41e2778e6c5dd6bb3b994a",
+      "lines": {
+        "72": "    HSSFPatriarch patriarch;",
+        "71": "    int pictureIndex;"
+      },
+      "id": 15642330,
+      "filename": "HSSFPicture.java"
+    },
+    {
+      "repo": "https://github.com/leonate/poitest.git",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/src/test/java/org/poitest",
+      "name": "poitest",
+      "url": "https://searchcode.com/codesearch/view/65741366/",
+      "md5hash": "1a6270b039e38db0d7f32d3ab5f0cd70",
+      "lines": {
+        "4": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "5": "import org.apache.poi.hssf.usermodel.HSSFPatriarch;"
+      },
+      "id": 65741366,
+      "filename": "XlsCellInfo.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 8,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 3,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 3,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "matchterm": "XSSFFormulaEvaluator",
+  "previouspage": null,
+  "searchterm": "XSSFFormulaEvaluator",
+  "query": "XSSFFormulaEvaluator",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://code.google.com/p/monster-hunter/",
+      "language": "Java",
+      "linescount": 213,
+      "location": "/server/src/main/com/monsterhunter/util/excel",
+      "name": "monster-hunter",
+      "url": "https://searchcode.com/codesearch/view/12555894/",
+      "md5hash": "41674ef9e522cc364f18f4ffaa8eb4b5",
+      "lines": {
+        "52": "\t */",
+        "53": "\tprivate XSSFFormulaEvaluator getEval() {",
+        "28": "\tprivate XSSFWorkbook workbook;",
+        "13": "import org.apache.poi.ss.usermodel.Sheet;",
+        "14": "import org.apache.poi.xssf.usermodel.XSSFFormulaEvaluator;",
+        "29": "\tprivate XSSFFormulaEvaluator eval;"
+      },
+      "id": 12555894,
+      "filename": "ExcelConfig.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 431,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970717/",
+      "md5hash": "7316273b22d01b3aaca97abfed972abf",
+      "lines": {
+        "106": "\t\tif (resolver == null) resolver = new DefaultFunctionResolver();",
+        "107": "\t\t_evaluator = XSSFFormulaEvaluator.create(this, NoCacheClassifier.instance, resolver.getUDFFinder()); ",
+        "46": "import org.zkoss.poi.xssf.usermodel.XSSFFont;",
+        "47": "import org.zkoss.poi.xssf.usermodel.XSSFFormulaEvaluator;"
+      },
+      "id": 3970717,
+      "filename": "XSSFBookImpl.java"
+    },
+    {
+      "repo": "https://github.com/msalinas/tuNomina.git",
+      "language": "Java",
+      "linescount": 113,
+      "location": "/src/java/com/sim/alfresco",
+      "name": "tuNomina",
+      "url": "https://searchcode.com/codesearch/view/59145374/",
+      "md5hash": "7c039aaaa69dd5da3cbecba4de119103",
+      "lines": {
+        "32": "    sheet = excelWorkbook.getSheetAt(0);",
+        "33": "    evaluator = new XSSFFormulaEvaluator(excelWorkbook);",
+        "22": "\tprivate Sheet sheet;",
+        "23": "\tprivate XSSFFormulaEvaluator evaluator;",
+        "12": "import org.apache.poi.ss.usermodel.Sheet;",
+        "13": "import org.apache.poi.xssf.usermodel.XSSFFormulaEvaluator;"
+      },
+      "id": 59145374,
+      "filename": "PoiHelper.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

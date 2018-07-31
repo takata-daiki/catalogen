@@ -1,0 +1,193 @@
+{
+  "matchterm": "XWPFFooter",
+  "previouspage": null,
+  "searchterm": "XWPFFooter",
+  "query": "XWPFFooter",
+  "language_filters": [
+    {
+      "count": 8,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 8,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 1398,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter.core/src/main/java/org/apache/poi/xwpf/converter/core",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96672565/",
+      "md5hash": "2ee0d9cfda1138ee93328b854d5e99ce",
+      "lines": {
+        "1200": "    /**",
+        "1211": "        PackagePart hdrPart = document.getPartById( footerRef.getId() );",
+        "134": "",
+        "135": "    private XWPFFooter currentFooter;",
+        "1224": "        XWPFFooter ftr = new XWPFFooter( document, hdrFtr );",
+        "1201": "     * Returns the {@link XWPFFooter} of the given footer reference.",
+        "1207": "     */",
+        "48": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "49": "import org.apache.poi.xwpf.usermodel.XWPFFooter;",
+        "1106": "    {",
+        "1107": "        this.currentFooter = getXWPFFooter( footerRef );",
+        "1111": "",
+        "1112": "    protected abstract void visitFooter( XWPFFooter footer, CTHdrFtrRef footerRef, CTSectPr sectPr, E masterPage )",
+        "1208": "    protected XWPFFooter getXWPFFooter( CTHdrFtrRef footerRef )",
+        "1212": "        List<XWPFFooter> footers = document.getFooterList();",
+        "1213": "        for ( XWPFFooter footer : footers )",
+        "1223": "        CTHdrFtr hdrFtr = hdrDoc.getFtr();"
+      },
+      "id": 96672565,
+      "filename": "XWPFDocumentVisitor.java"
+    },
+    {
+      "repo": "https://code.google.com/p/xdocreport/",
+      "language": "Java",
+      "linescount": 305,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/12208676/",
+      "md5hash": "ac25279aef887d58ea179db27b375521",
+      "lines": {
+        "35": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "148": "    protected XWPFFooter getXWPFFooter( CTHdrFtrRef footerRef )",
+        "147": "",
+        "36": "import org.apache.poi.xwpf.usermodel.XWPFFooter;",
+        "154": "",
+        "155": "        XWPFFooter ftr = new XWPFFooter(document, hdrFtr);"
+      },
+      "id": 12208676,
+      "filename": "XWPFElementVisitor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 259,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673228/",
+      "md5hash": "d6d3c3a30f634d51c3155de9cc6c7667",
+      "lines": {
+        "160": "        CTHdrFtr hdrFtr = hdrDoc.getFtr();",
+        "161": "        XWPFFooter ftr = new XWPFFooter( document, hdrFtr );",
+        "10": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "11": "import org.apache.poi.xwpf.usermodel.XWPFFooter;",
+        "151": "        for ( XWPFFooter footer : footers )",
+        "47": "",
+        "48": "    private XWPFFooter currentFooter;",
+        "145": "",
+        "146": "    protected XWPFFooter getXWPFFooter( CTHdrFtrRef footerRef )",
+        "149": "        PackagePart hdrPart = document.getPartById( footerRef.getId() );",
+        "150": "        List<XWPFFooter> footers = document.getFooterList();",
+        "119": "    {",
+        "120": "        this.currentFooter = getXWPFFooter( footerRef );",
+        "152": "        {",
+        "124": "",
+        "125": "    protected abstract void visitFooter( XWPFFooter footer, CTHdrFtrRef footerRef, CTSectPr sectPr, E masterPage )"
+      },
+      "id": 96673228,
+      "filename": "XWPFDocumentVisitor.java"
+    },
+    {
+      "repo": "https://code.google.com/p/xdocreport/",
+      "language": "Java",
+      "linescount": 639,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal/itext",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/12208685/",
+      "md5hash": "c57703eb8d21657af4b974b6eb8d10f0",
+      "lines": {
+        "207": "        XWPFFooter hdr = getXWPFFooter( footerRef );",
+        "206": "        MasterPageHeaderFooter pdfFooter = new MasterPageHeaderFooter();",
+        "54": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "55": "import org.apache.poi.xwpf.usermodel.XWPFFooter;"
+      },
+      "id": 12208685,
+      "filename": "PDFMapper.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 1355,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter.pdf/src/main/java/org/apache/poi/xwpf/converter/pdf/internal",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673019/",
+      "md5hash": "5000f7cf0c2ae11266b40166c2a4f792",
+      "lines": {
+        "192": "    @Override",
+        "193": "    protected void visitFooter( XWPFFooter footer, CTHdrFtrRef footerRef, CTSectPr sectPr, StylableMasterPage masterPage )",
+        "58": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "59": "import org.apache.poi.xwpf.usermodel.XWPFFooter;"
+      },
+      "id": 96673019,
+      "filename": "PdfMapper.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 393,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal/xhtml",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673266/",
+      "md5hash": "d39811e023caa6309adf08cd9e453a38",
+      "lines": {
+        "372": "    protected void visitFooter( XWPFFooter footer, CTHdrFtrRef footerRef, CTSectPr sectPr, XHTMLMasterPage masterPage )",
+        "371": "    @Override",
+        "36": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "37": "import org.apache.poi.xwpf.usermodel.XWPFFooter;"
+      },
+      "id": 96673266,
+      "filename": "XHTMLMapper.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 884,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal/itext",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673303/",
+      "md5hash": "58f5f4b9d6f4406c0fcea13e358fb18b",
+      "lines": {
+        "56": "import org.apache.poi.xwpf.usermodel.XWPFFooter;",
+        "164": "    @Override",
+        "165": "    protected void visitFooter( XWPFFooter footer, CTHdrFtrRef footerRef, CTSectPr sectPr, StylableMasterPage masterPage )",
+        "55": "import org.apache.poi.xwpf.usermodel.XWPFDocument;"
+      },
+      "id": 96673303,
+      "filename": "PDFMapper.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 603,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter.xhtml/src/main/java/org/apache/poi/xwpf/converter/xhtml/internal",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673744/",
+      "md5hash": "c14d668d23631990bd259d145ca65a83",
+      "lines": {
+        "72": "import org.apache.poi.xwpf.usermodel.XWPFFooter;",
+        "416": "    @Override",
+        "417": "    protected void visitFooter( XWPFFooter footer, CTHdrFtrRef footerRef, CTSectPr sectPr, XHTMLMasterPage masterPage )",
+        "71": "import org.apache.poi.xwpf.usermodel.XWPFDocument;"
+      },
+      "id": 96673744,
+      "filename": "XHTMLMapper.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 6,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 2,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

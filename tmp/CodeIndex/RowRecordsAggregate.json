@@ -1,0 +1,88 @@
+{
+  "matchterm": "RowRecordsAggregate",
+  "previouspage": null,
+  "searchterm": "RowRecordsAggregate",
+  "query": "RowRecordsAggregate",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 489,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/aggregates",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642594/",
+      "md5hash": "e2636fd1db0e4f81da83b828da4e76a6",
+      "lines": {
+        "69": "",
+        "70": "    public RowRecordsAggregate()",
+        "297": "    {",
+        "298": "        RowRecordsAggregate rec = new RowRecordsAggregate();",
+        "59": "",
+        "60": "public class RowRecordsAggregate"
+      },
+      "id": 15642594,
+      "filename": "RowRecordsAggregate.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 3300,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642365/",
+      "md5hash": "1e8d548d196dc1063c30d9430b35b9f5",
+      "lines": {
+        "512": "        {",
+        "513": "            rows = new RowRecordsAggregate();",
+        "803": "      //Calculate the size of the records from the end of the BOF",
+        "804": "      //and up to the RowRecordsAggregate...",
+        "776": "//            if (LittleEndian.getUShort(data2, 2) != record.getRecordSize() - 4",
+        "777": "//                    && record instanceof RowRecordsAggregate == false",
+        "844": "    {",
+        "845": "        return RowRecordsAggregate.createRow( row );",
+        "46": "import loci.poi.hssf.record.aggregates.FormulaRecordAggregate;",
+        "47": "import loci.poi.hssf.record.aggregates.RowRecordsAggregate;",
+        "808": "        Record tmpRec = (( Record ) records.get(j));",
+        "370": "        //To cater for these artificial Record types",
+        "371": "        if (rec instanceof RowRecordsAggregate) {",
+        "372": "          RowRecordsAggregate rrAgg = (RowRecordsAggregate)rec;",
+        "373": "          for (Iterator rowIter = rrAgg.getIterator();rowIter.hasNext();) {",
+        "809": "        if (tmpRec instanceof RowRecordsAggregate)"
+      },
+      "id": 15642365,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 368,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/aggregates",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642593/",
+      "md5hash": "f3d6bf42f5d9482d498467f2cea55ab5",
+      "lines": {
+        "216": "    {",
+        "217": "      throw new RuntimeException(\"This method shouldnt be called. ValueRecordsAggregate.serializeCellRow() should be called from RowRecordsAggregate.\");"
+      },
+      "id": 15642593,
+      "filename": "ValueRecordsAggregate.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

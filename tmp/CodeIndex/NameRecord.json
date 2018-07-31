@@ -1,0 +1,484 @@
+{
+  "matchterm": "NameRecord",
+  "previouspage": null,
+  "searchterm": "NameRecord",
+  "query": "NameRecord",
+  "language_filters": [
+    {
+      "count": 85,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 85,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 656,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260322/",
+      "md5hash": "f59e17e90ea58a9c5f0205081e466c17",
+      "lines": {
+        "192": "   */",
+        "33": " */",
+        "34": "class NameRecord extends WritableRecordData",
+        "36": "  // The logger",
+        "37": "  private static Logger logger = Logger.getLogger(NameRecord.class);",
+        "230": "  NameRecord(BuiltInName theName, ",
+        "161": "   */",
+        "193": "  NameRecord(String theName, ",
+        "172": "    // Copy the ranges",
+        "173": "    jxl.read.biff.NameRecord.NameRange[] r = sr.getRanges();",
+        "270": "  NameRecord(BuiltInName theName, ",
+        "79": "",
+        "80": "    NameRange(jxl.read.biff.NameRecord.NameRange nr)",
+        "269": "   */",
+        "162": "  public NameRecord(jxl.read.biff.NameRecord sr, int ind)",
+        "229": "   */"
+      },
+      "id": 43260322,
+      "filename": "NameRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 656,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200850/",
+      "md5hash": "f59e17e90ea58a9c5f0205081e466c17",
+      "lines": {
+        "192": "   */",
+        "33": " */",
+        "34": "class NameRecord extends WritableRecordData",
+        "36": "  // The logger",
+        "37": "  private static Logger logger = Logger.getLogger(NameRecord.class);",
+        "230": "  NameRecord(BuiltInName theName, ",
+        "161": "   */",
+        "193": "  NameRecord(String theName, ",
+        "172": "    // Copy the ranges",
+        "173": "    jxl.read.biff.NameRecord.NameRange[] r = sr.getRanges();",
+        "270": "  NameRecord(BuiltInName theName, ",
+        "79": "",
+        "80": "    NameRange(jxl.read.biff.NameRecord.NameRange nr)",
+        "269": "   */",
+        "162": "  public NameRecord(jxl.read.biff.NameRecord sr, int ind)",
+        "229": "   */"
+      },
+      "id": 49200850,
+      "filename": "NameRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 895,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642474/",
+      "md5hash": "b624b98cf927c8cacabdf0db00401036",
+      "lines": {
+        "161": "     */",
+        "66": "",
+        "67": "public class NameRecord extends Record {",
+        "170": "\t */",
+        "171": "\tpublic NameRecord(byte builtin, short index)",
+        "876": "\t    {",
+        "162": "    public NameRecord(RecordInputStream in) {",
+        "878": "\t        case NameRecord.BUILTIN_AUTO_CLOSE :        return \"Auto_Close\";",
+        "877": "\t        case NameRecord.BUILTIN_AUTO_ACTIVATE :     return \"Auto_Activate\";",
+        "880": "\t        case NameRecord.BUILTIN_AUTO_OPEN :         return \"Auto_Open\";",
+        "145": "",
+        "146": "    /** Creates new NameRecord */",
+        "147": "    public NameRecord() {",
+        "148": "        field_13_name_definition = new Stack();",
+        "879": "\t        case NameRecord.BUILTIN_AUTO_DEACTIVATE :   return \"Auto_Deactivate\";"
+      },
+      "id": 15642474,
+      "filename": "NameRecord.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 656,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/write/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374602/",
+      "md5hash": "41f03b02bb3d9b24c23911612298f0a7",
+      "lines": {
+        "192": "   */",
+        "33": " */",
+        "34": "class NameRecord extends WritableRecordData",
+        "36": "  // The logger",
+        "37": "  private static Logger logger = Logger.getLogger(NameRecord.class);",
+        "230": "  NameRecord(BuiltInName theName, ",
+        "161": "   */",
+        "193": "  NameRecord(String theName, ",
+        "172": "    // Copy the ranges",
+        "173": "    jxl.read.biff.NameRecord.NameRange[] r = sr.getRanges();",
+        "270": "  NameRecord(BuiltInName theName, ",
+        "79": "",
+        "80": "    NameRange(jxl.read.biff.NameRecord.NameRange nr)",
+        "269": "   */",
+        "162": "  public NameRecord(jxl.read.biff.NameRecord sr, int ind)",
+        "229": "   */"
+      },
+      "id": 11374602,
+      "filename": "NameRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 581,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260417/",
+      "md5hash": "b56c24394a47007cf530c57d9629f9b9",
+      "lines": {
+        "197": "  NameRecord(Record t, WorkbookSettings ws, int ind)",
+        "196": "   */",
+        "37": "public class NameRecord extends RecordData",
+        "41": "   */",
+        "42": "  private static Logger logger = Logger.getLogger(NameRecord.class);",
+        "367": "  NameRecord(Record t, WorkbookSettings ws, int ind, Biff7 dummy)",
+        "366": "   */",
+        "36": " */"
+      },
+      "id": 43260417,
+      "filename": "NameRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 581,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200945/",
+      "md5hash": "b56c24394a47007cf530c57d9629f9b9",
+      "lines": {
+        "197": "  NameRecord(Record t, WorkbookSettings ws, int ind)",
+        "196": "   */",
+        "37": "public class NameRecord extends RecordData",
+        "41": "   */",
+        "42": "  private static Logger logger = Logger.getLogger(NameRecord.class);",
+        "367": "  NameRecord(Record t, WorkbookSettings ws, int ind, Biff7 dummy)",
+        "366": "   */",
+        "36": " */"
+      },
+      "id": 49200945,
+      "filename": "NameRecord.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 581,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/read/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374448/",
+      "md5hash": "b56c24394a47007cf530c57d9629f9b9",
+      "lines": {
+        "197": "  NameRecord(Record t, WorkbookSettings ws, int ind)",
+        "196": "   */",
+        "37": "public class NameRecord extends RecordData",
+        "41": "   */",
+        "42": "  private static Logger logger = Logger.getLogger(NameRecord.class);",
+        "367": "  NameRecord(Record t, WorkbookSettings ws, int ind, Biff7 dummy)",
+        "366": "   */",
+        "36": " */"
+      },
+      "id": 11374448,
+      "filename": "NameRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/pmyllykoski/it-university.git",
+      "language": "Java",
+      "linescount": 18,
+      "location": "/year1/Project2/AtlasServer/src/se/geoproject/atlas/map/data",
+      "name": "it-university",
+      "url": "https://searchcode.com/codesearch/view/39931641/",
+      "md5hash": "d991eba60186f45bb9ceebd083e34856",
+      "lines": {
+        "8": " */",
+        "9": "public class NameRecord {",
+        "4": " * Class from OSMandroidConverter",
+        "5": " * http://code.google.com/p/osm-android/source/browse/trunk/OSMandroidConverter/src/com/google/code/osmandroidconverter/main/NameRecord.java"
+      },
+      "id": 39931641,
+      "filename": "NameRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/jhove2/main/",
+      "language": "Java",
+      "linescount": 178,
+      "location": "/src/main/java/org/jhove2/module/format/icc/type",
+      "name": "main",
+      "url": "https://searchcode.com/codesearch/view/2535876/",
+      "md5hash": "a2a231e543376f642b7e179c9fbbd637",
+      "lines": {
+        "56": "@Persistent",
+        "57": "public class NameRecord",
+        "75": "    ",
+        "76": "    /** Instantiate a new <code>NameRecord</code>. */",
+        "77": "    public NameRecord() {",
+        "78": "        super();"
+      },
+      "id": 2535876,
+      "filename": "NameRecord.java"
+    },
+    {
+      "repo": "https://github.com/rikrd/geomerative.git",
+      "language": "Java",
+      "linescount": 99,
+      "location": "/external/batik/src/org/apache/batik/svggen/font/table",
+      "name": "geomerative",
+      "url": "https://searchcode.com/codesearch/view/138822970/",
+      "md5hash": "e1e7e259c256b784e06e1951edab6cce",
+      "lines": {
+        "36": "",
+        "37": "    protected NameRecord(RandomAccessFileEmulator raf) throws IOException {",
+        "23": "/**",
+        "24": " * @version $Id: NameRecord.java,v 1.3 2004/08/18 07:15:22 vhardy Exp $",
+        "26": " */",
+        "27": "public class NameRecord {"
+      },
+      "id": 138822970,
+      "filename": "NameRecord.java"
+    },
+    {
+      "repo": "https://github.com/markluffel/geomerative.git",
+      "language": "Java",
+      "linescount": 99,
+      "location": "/external/batik/src/org/apache/batik/svggen/font/table",
+      "name": "geomerative",
+      "url": "https://searchcode.com/codesearch/view/138854667/",
+      "md5hash": "e1e7e259c256b784e06e1951edab6cce",
+      "lines": {
+        "36": "",
+        "37": "    protected NameRecord(RandomAccessFileEmulator raf) throws IOException {",
+        "23": "/**",
+        "24": " * @version $Id: NameRecord.java,v 1.3 2004/08/18 07:15:22 vhardy Exp $",
+        "26": " */",
+        "27": "public class NameRecord {"
+      },
+      "id": 138854667,
+      "filename": "NameRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/anjackson/jhove2-blekinge",
+      "language": "Java",
+      "linescount": 178,
+      "location": "/jhove2-formats/jhove2-icc/src/main/java/org/jhove2/module/format/icc/type",
+      "name": "jhove2-blekinge",
+      "url": "https://searchcode.com/codesearch/view/125796678/",
+      "md5hash": "a2a231e543376f642b7e179c9fbbd637",
+      "lines": {
+        "56": "@Persistent",
+        "57": "public class NameRecord",
+        "75": "    ",
+        "76": "    /** Instantiate a new <code>NameRecord</code>. */",
+        "77": "    public NameRecord() {",
+        "78": "        super();"
+      },
+      "id": 125796678,
+      "filename": "NameRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/anjackson/jhove2",
+      "language": "Java",
+      "linescount": 178,
+      "location": "/jhove2-formats/jhove2-icc/src/main/java/org/jhove2/module/format/icc/type",
+      "name": "jhove2",
+      "url": "https://searchcode.com/codesearch/view/125797741/",
+      "md5hash": "a2a231e543376f642b7e179c9fbbd637",
+      "lines": {
+        "56": "@Persistent",
+        "57": "public class NameRecord",
+        "75": "    ",
+        "76": "    /** Instantiate a new <code>NameRecord</code>. */",
+        "77": "    public NameRecord() {",
+        "78": "        super();"
+      },
+      "id": 125797741,
+      "filename": "NameRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/mstrong/stage",
+      "language": "Java",
+      "linescount": 178,
+      "location": "/src/main/java/org/jhove2/module/format/icc/type",
+      "name": "stage",
+      "url": "https://searchcode.com/codesearch/view/127050488/",
+      "md5hash": "a2a231e543376f642b7e179c9fbbd637",
+      "lines": {
+        "56": "@Persistent",
+        "57": "public class NameRecord",
+        "75": "    ",
+        "76": "    /** Instantiate a new <code>NameRecord</code>. */",
+        "77": "    public NameRecord() {",
+        "78": "        super();"
+      },
+      "id": 127050488,
+      "filename": "NameRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/jhove2/stage",
+      "language": "Java",
+      "linescount": 178,
+      "location": "/src/main/java/org/jhove2/module/format/icc/type",
+      "name": "stage",
+      "url": "https://searchcode.com/codesearch/view/127051701/",
+      "md5hash": "a2a231e543376f642b7e179c9fbbd637",
+      "lines": {
+        "56": "@Persistent",
+        "57": "public class NameRecord",
+        "75": "    ",
+        "76": "    /** Instantiate a new <code>NameRecord</code>. */",
+        "77": "    public NameRecord() {",
+        "78": "        super();"
+      },
+      "id": 127051701,
+      "filename": "NameRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/slabrams/jhove2-tiff",
+      "language": "Java",
+      "linescount": 178,
+      "location": "/src/main/java/org/jhove2/module/format/icc/type",
+      "name": "jhove2-tiff",
+      "url": "https://searchcode.com/codesearch/view/134866337/",
+      "md5hash": "a2a231e543376f642b7e179c9fbbd637",
+      "lines": {
+        "56": "@Persistent",
+        "57": "public class NameRecord",
+        "75": "    ",
+        "76": "    /** Instantiate a new <code>NameRecord</code>. */",
+        "77": "    public NameRecord() {",
+        "78": "        super();"
+      },
+      "id": 134866337,
+      "filename": "NameRecord.java"
+    },
+    {
+      "repo": "https://github.com/apache/pdfbox.git",
+      "language": "Java",
+      "linescount": 207,
+      "location": "/fontbox/src/main/java/org/apache/fontbox/ttf",
+      "name": "pdfbox",
+      "url": "https://searchcode.com/codesearch/view/105581147/",
+      "md5hash": "4e60fcebdf407fdf56a34c945e709b17",
+      "lines": {
+        "25": " */",
+        "26": "public class NameRecord"
+      },
+      "id": 105581147,
+      "filename": "NameRecord.java"
+    },
+    {
+      "repo": "https://github.com/alahammad/Android-Pdf-Viewer-Library.git",
+      "language": "Java",
+      "linescount": 424,
+      "location": "/src/com/sun/pdfview/font/ttf",
+      "name": "Android-Pdf-Viewer-Library",
+      "url": "https://searchcode.com/codesearch/view/72068174/",
+      "md5hash": "157ea52a29463553e7e5499704c4ec30",
+      "lines": {
+        "86": "        ",
+        "393": "        public int compareTo(Object obj) {",
+        "394": "            if (!(obj instanceof NameRecord)) {",
+        "267": "        for (Iterator i = records.keySet().iterator(); i.hasNext();) {",
+        "268": "            NameRecord rec = (NameRecord) i.next();",
+        "397": "            ",
+        "142": "        for (Iterator i = records.keySet().iterator(); i.hasNext(); ) {",
+        "143": "            NameRecord rec = (NameRecord) i.next();",
+        "80": "    private SortedMap<NameRecord,String> records;",
+        "335": "            NameRecord rec = (NameRecord) i.next();",
+        "334": "        for (Iterator i = records.keySet().iterator(); i.hasNext();) {",
+        "213": "        for (Iterator i = records.keySet().iterator(); i.hasNext();) {",
+        "214": "            NameRecord rec = (NameRecord) i.next();",
+        "87": "        records = Collections.synchronizedSortedMap(new TreeMap<NameRecord,String>());",
+        "79": "     */",
+        "398": "            NameRecord rec = (NameRecord) obj;"
+      },
+      "id": 72068174,
+      "filename": "NameTable.java"
+    },
+    {
+      "repo": "https://github.com/ruderphilipp/community.git",
+      "language": "Java",
+      "linescount": 387,
+      "location": "/kernel/src/main/java/org/neo4j/kernel/impl/nioneo/store",
+      "name": "community",
+      "url": "https://searchcode.com/codesearch/view/75402965/",
+      "md5hash": "0d44c81eec4253d25e5aed168ac0167a",
+      "lines": {
+        "32": "public abstract class AbstractNameStore<T extends AbstractNameRecord> extends AbstractStore implements Store, RecordStore<T>",
+        "352": "        {",
+        "356": "",
+        "357": "    public String getStringFor( T nameRecord )",
+        "358": "    {",
+        "353": "            record.addNameRecord( keyRecord );",
+        "360": "        Iterator<DynamicRecord> records = nameRecord.getNameRecords().iterator();",
+        "361": "        Collection<DynamicRecord> relevantRecords = new ArrayList<DynamicRecord>();",
+        "359": "        int recordToFind = nameRecord.getNameId();",
+        "268": "        {",
+        "269": "            for ( DynamicRecord keyRecord : record.getNameRecords() )",
+        "369": "                relevantRecords.add( record );",
+        "370": "                records = nameRecord.getNameRecords().iterator();",
+        "179": "        {",
+        "180": "            record.addNameRecord( keyRecord );",
+        "31": ""
+      },
+      "id": 75402965,
+      "filename": "AbstractNameStore.java"
+    },
+    {
+      "repo": "https://github.com/apcj/neo4j.git",
+      "language": "Java",
+      "linescount": 388,
+      "location": "/community/kernel/src/main/java/org/neo4j/kernel/impl/nioneo/store",
+      "name": "neo4j",
+      "url": "https://searchcode.com/codesearch/view/71597179/",
+      "md5hash": "d1e2df6a52feb66f5be755b5c9a6c85a",
+      "lines": {
+        "352": "",
+        "353": "    public String getStringFor( T nameRecord )",
+        "354": "    {",
+        "355": "        int recordToFind = nameRecord.getNameId();",
+        "356": "        Iterator<DynamicRecord> records = nameRecord.getNameRecords().iterator();",
+        "229": "",
+        "230": "    public Collection<DynamicRecord> allocateNameRecords( byte[] chars )",
+        "264": "        {",
+        "265": "            for ( DynamicRecord keyRecord : record.getNameRecords() )",
+        "365": "                relevantRecords.add( record );",
+        "366": "                records = nameRecord.getNameRecords().iterator();",
+        "184": "        }",
+        "185": "        record.addNameRecords( nameStore.getLightRecords( record.getNameId() ) );",
+        "349": "        record.setIsLight( false );",
+        "350": "        record.addNameRecords( nameStore.getRecords( record.getNameId() ) );",
+        "357": "        Collection<DynamicRecord> relevantRecords = new ArrayList<>();"
+      },
+      "id": 71597179,
+      "filename": "TokenStore.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 45,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 27,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 13,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

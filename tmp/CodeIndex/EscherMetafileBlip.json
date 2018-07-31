@@ -1,0 +1,101 @@
+{
+  "matchterm": "EscherMetafileBlip",
+  "previouspage": null,
+  "searchterm": "EscherMetafileBlip",
+  "query": "EscherMetafileBlip",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 299,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383934/",
+      "md5hash": "40ae8a8dc728bbce21c8fc56dec8bb5e",
+      "lines": {
+        "34": " */",
+        "35": "public final class EscherMetafileBlip extends EscherBlipRecord {",
+        "36": "    private static final POILogger log = POILogFactory.getLogger(EscherMetafileBlip.class);",
+        "37": ""
+      },
+      "id": 97383934,
+      "filename": "EscherMetafileBlip.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 595,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785559/",
+      "md5hash": "6b55090236799f49ee0f5bd7d54bbbac",
+      "lines": {
+        "32": "import org.apache.poi.ddf.EscherBlipRecord;",
+        "33": "import org.apache.poi.ddf.EscherMetafileBlip;",
+        "546": "                       break;",
+        "547": "                    case EscherMetafileBlip.RECORD_ID_PICT:",
+        "544": "                    case EscherMetafileBlip.RECORD_ID_EMF:",
+        "540": "                    switch (blip.getRecordId()) {",
+        "541": "                    case EscherMetafileBlip.RECORD_ID_WMF:",
+        "543": "                       break;"
+      },
+      "id": 111785559,
+      "filename": "ExcelExtractor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 161,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383906/",
+      "md5hash": "3324931c58f18c045e9c34e4e1ad839e",
+      "lines": {
+        "83": "            }",
+        "84": "            else if (recordId == EscherMetafileBlip.RECORD_ID_EMF ||",
+        "85": "                    recordId == EscherMetafileBlip.RECORD_ID_WMF ||",
+        "86": "                    recordId == EscherMetafileBlip.RECORD_ID_PICT)",
+        "87": "            {",
+        "88": "                r = new EscherMetafileBlip();"
+      },
+      "id": 97383906,
+      "filename": "DefaultEscherRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 178,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642620/",
+      "md5hash": "c686784da3da38fecea2e5b988b86ece",
+      "lines": {
+        "105": "            }",
+        "106": "            else if (header.getRecordId() == EscherMetafileBlip.RECORD_ID_EMF ||",
+        "107": "                    header.getRecordId() == EscherMetafileBlip.RECORD_ID_WMF ||",
+        "108": "                    header.getRecordId() == EscherMetafileBlip.RECORD_ID_PICT)",
+        "109": "            {",
+        "110": "                r = new EscherMetafileBlip();"
+      },
+      "id": 15642620,
+      "filename": "DefaultEscherRecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

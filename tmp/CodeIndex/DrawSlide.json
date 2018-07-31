@@ -1,0 +1,117 @@
+{
+  "matchterm": "DrawSlide",
+  "previouspage": null,
+  "searchterm": "DrawSlide",
+  "query": "DrawSlide",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "https://gitlab.com/mrtoniliu/QingtingCheat.git",
+      "language": "Java",
+      "linescount": 781,
+      "location": "/QingTingFanBianYi/src/fm/qingting/qtradio/view/switchview",
+      "name": "QingtingCheat",
+      "url": "https://searchcode.com/codesearch/view/114922767/",
+      "md5hash": "c9f83570160731b63e2e5c0495585b02",
+      "lines": {
+        "160": "      drawSlide(paramCanvas, this.itemLayout.width - j - k, this.itemLayout.width);",
+        "161": "      return;",
+        "163": "    i = j * i - k;",
+        "164": "    drawSlide(paramCanvas, i, j + i);",
+        "245": "",
+        "246": "  private void drawSlide(Canvas paramCanvas, int paramInt1, int paramInt2)",
+        "152": "    {",
+        "153": "      drawSlide(paramCanvas, 0, j - k);",
+        "154": "      drawSlide(paramCanvas, this.itemLayout.width - k, this.itemLayout.width);",
+        "155": "      return;",
+        "158": "    {",
+        "159": "      drawSlide(paramCanvas, 0, -k);"
+      },
+      "id": 114922767,
+      "filename": "SwitchView.java"
+    },
+    {
+      "repo": "https://gitlab.com/mrtoniliu/QingtingCheat.git",
+      "language": "Java",
+      "linescount": 127,
+      "location": "/QingTingFanBianYi/src/fm/qingting/qtradio/view/tab",
+      "name": "QingtingCheat",
+      "url": "https://searchcode.com/codesearch/view/114923447/",
+      "md5hash": "4fb31311c38b26a77bcbd2e4ededd89b",
+      "lines": {
+        "72": "    private void drawSlide(Canvas paramCanvas)",
+        "109": "      drawLine(paramCanvas);",
+        "110": "      drawSlide(paramCanvas);",
+        "71": ""
+      },
+      "id": 114923447,
+      "filename": "TabContainer.java"
+    },
+    {
+      "repo": "https://bitbucket.org/elloyd/cnpvue",
+      "language": "Java",
+      "linescount": 8031,
+      "location": "/src/tufts/vue",
+      "name": "cnpvue",
+      "url": "https://searchcode.com/codesearch/view/55212871/",
+      "md5hash": "4ed89ee35fa5d0cf1e2a0cec73851546",
+      "lines": {
+        "6368": "        // see VUE-896 (and VUE-892) only show slide icon if node is not filtered",
+        "6369": "        if (drawSlides && mEntries != null && !isFiltered())",
+        "6370": "            drawSlideIconStack(dc);",
+        "6371": "        //else",
+        "6501": "            if (dc.skipDraw != slide) {",
+        "6502": "                drawSlideIcon(dc.push(), slide);",
+        "6561": "        final boolean drawSlide = (entry != null && !entry.isMapView);",
+        "6565": "",
+        "6566": "        if (drawSlide) {",
+        "6562": "",
+        "6351": "     */",
+        "6352": "    protected final void drawZeroDecorated(DrawContext dc, boolean drawSlides)",
+        "6515": "",
+        "6516": "    private void drawSlideIcon(final DrawContext dc, final LWSlide slide)",
+        "6560": "        //final boolean drawSlide = (entry != null);"
+      },
+      "id": 55212871,
+      "filename": "LWComponent.java"
+    },
+    {
+      "repo": "https://bitbucket.org/elloyd/cnpvue",
+      "language": "Java",
+      "linescount": 830,
+      "location": "/src/tufts/vue/ui",
+      "name": "cnpvue",
+      "url": "https://searchcode.com/codesearch/view/55212938/",
+      "md5hash": "7495a36638032cfb2e677eb4a7c7a64b",
+      "lines": {
+        "632": "    protected void drawSlide(DrawContext dc)",
+        "565": "            mFocal.draw(dc);",
+        "566": "            //drawSlide(dc);",
+        "631": "    /*"
+      },
+      "id": 55212938,
+      "filename": "SlideViewer.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "GitLab",
+      "id": 13
+    },
+    {
+      "count": 2,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "matchterm": "FIBFieldHandler",
+  "previouspage": null,
+  "searchterm": "FIBFieldHandler",
+  "query": "FIBFieldHandler",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 308,
+      "location": "/src/org/apache/poi/hwpf/model",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384003/",
+      "md5hash": "2f26962a9383030e63d5ec81359d7573",
+      "lines": {
+        "32": "@Internal",
+        "33": "public final class FIBFieldHandler",
+        "146": "",
+        "147": "  private static POILogger log = POILogFactory.getLogger(FIBFieldHandler.class);",
+        "154": "",
+        "155": "  FIBFieldHandler(byte[] mainStream, int offset, int cbRgFcLcb, byte[] tableStream,",
+        "270": "        StringBuilder result = new StringBuilder();",
+        "271": "        result.append( \"[FIBFieldHandler]:\\n\" );"
+      },
+      "id": 97384003,
+      "filename": "FIBFieldHandler.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1109,
+      "location": "/src/org/apache/poi/hwpf/model",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384033/",
+      "md5hash": "d1e2f02dc9ef99107ca7326905a58d39",
+      "lines": {
+        "225": "        HashSet<Integer> knownFieldSet = new HashSet<Integer>();",
+        "226": "        knownFieldSet.add( Integer.valueOf( FIBFieldHandler.STSHF ) );",
+        "227": "        knownFieldSet.add( Integer.valueOf( FIBFieldHandler.CLX ) );",
+        "228": "        knownFieldSet.add( Integer.valueOf( FIBFieldHandler.DOP ) );",
+        "229": "        knownFieldSet.add( Integer.valueOf( FIBFieldHandler.PLCFBTECHPX ) );",
+        "230": "        knownFieldSet.add( Integer.valueOf( FIBFieldHandler.PLCFBTEPAPX ) );",
+        "231": "        knownFieldSet.add( Integer.valueOf( FIBFieldHandler.PLCFSED ) );",
+        "232": "        knownFieldSet.add( Integer.valueOf( FIBFieldHandler.PLFLST ) );",
+        "233": "        knownFieldSet.add( Integer.valueOf( FIBFieldHandler.PLFLFO ) );",
+        "44": " * Finally, the rest of the fields are handled by",
+        "45": " *  the {@link FIBFieldHandler}.",
+        "221": "         * Listed fields won't be treat as UnhandledDataStructure. For all other",
+        "60": "    private int _cbRgFcLcb;",
+        "61": "    private FIBFieldHandler _fieldHandler;",
+        "222": "         * fields FIBFieldHandler will load it content into"
+      },
+      "id": 97384033,
+      "filename": "FileInformationBlock.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

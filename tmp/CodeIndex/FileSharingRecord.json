@@ -1,0 +1,88 @@
+{
+  "matchterm": "FileSharingRecord",
+  "previouspage": null,
+  "searchterm": "FileSharingRecord",
+  "query": "FileSharingRecord",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 233,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642452/",
+      "md5hash": "d22ddc28c10d6ac2497700566d2b619a",
+      "lines": {
+        "222": "    public Object clone() {",
+        "69": "",
+        "54": "public class FileSharingRecord extends Record {",
+        "223": "      FileSharingRecord clone = new FileSharingRecord();",
+        "70": "    public FileSharingRecord(RecordInputStream in) {",
+        "61": "",
+        "62": "    public FileSharingRecord() {}",
+        "53": ""
+      },
+      "id": 15642452,
+      "filename": "FileSharingRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 2351,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642358/",
+      "md5hash": "2f47d8e4aa73ffbba0d056d2a6f68eee",
+      "lines": {
+        "260": "                    break;",
+        "261": "                case FileSharingRecord.sid: ",
+        "2310": "    public FileSharingRecord getFileSharing() {",
+        "263": "                        log.log(DEBUG, \"found FileSharing at \" + k);",
+        "2312": "           this.fileShare = new FileSharingRecord();",
+        "2311": "        if (this.fileShare == null) {",
+        "264": "                    retval.fileShare = (FileSharingRecord) rec;",
+        "2334": "        frec.setPassword(FileSharingRecord.hashPassword(password));",
+        "2329": "        int protIdx = -1;",
+        "2330": "        FileSharingRecord frec = getFileSharing();",
+        "127": "    private FileSharingRecord fileShare;",
+        "2333": "        frec.setReadOnly((short)1);",
+        "126": "    private WindowOneRecord windowOne;",
+        "2309": ""
+      },
+      "id": 15642358,
+      "filename": "Workbook.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "98": "                WriteProtectRecord.class, FilePassRecord.class, PaneRecord.class,",
+        "99": "                NoteRecord.class, ObjectProtectRecord.class, ScenarioProtectRecord.class, FileSharingRecord.class"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

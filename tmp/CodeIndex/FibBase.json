@@ -1,0 +1,54 @@
+{
+  "matchterm": "FibBase",
+  "previouspage": null,
+  "searchterm": "FibBase",
+  "query": "FibBase",
+  "language_filters": [
+    {
+      "count": 1,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 1,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1109,
+      "location": "/src/org/apache/poi/hwpf/model",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384033/",
+      "md5hash": "d1e2f02dc9ef99107ca7326905a58d39",
+      "lines": {
+        "1099": "        return FibBase.getSize() + LittleEndian.SHORT_SIZE + FibRgW97.getSize()",
+        "1062": "",
+        "70": "",
+        "71": "        _fibBase = new FibBase( mainDocument, offset );",
+        "72": "        offset = FibBase.getSize();",
+        "73": "        assert offset == 32;",
+        "74": "",
+        "75": "        if ( _fibBase.isFEncrypted() )",
+        "1064": "        int offset = FibBase.getSize();",
+        "1098": "    {",
+        "1065": "",
+        "54": "",
+        "55": "    private FibBase _fibBase;",
+        "1063": "        _fibBase.serialize( mainStream, 0 );",
+        "265": "        StringBuilder stringBuilder = new StringBuilder(  );",
+        "266": "        stringBuilder.append( _fibBase );"
+      },
+      "id": 97384033,
+      "filename": "FileInformationBlock.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

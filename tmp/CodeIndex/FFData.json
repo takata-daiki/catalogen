@@ -1,0 +1,191 @@
+{
+  "matchterm": "FFData",
+  "previouspage": null,
+  "searchterm": "FFData",
+  "query": "FFData",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 231,
+      "location": "/src/org/apache/poi/hwpf/model",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384199/",
+      "md5hash": "536e702eec8fb831c6c436925f0d5dd6",
+      "lines": {
+        "160": "    {",
+        "161": "        int size = FFDataBase.getSize();",
+        "171": "                || _base.getIType() == FFDataBase.ITYPE_DROP )",
+        "164": "",
+        "37": "@Internal",
+        "38": "public class FFData",
+        "39": "{",
+        "40": "    private FFDataBase _base;",
+        "169": "",
+        "138": "",
+        "139": "        if ( _base.getIType() == FFDataBase.ITYPE_DROP )",
+        "22": "/**",
+        "23": " * The FFData structure specifies form field data for a text box, check box, or",
+        "170": "        if ( _base.getIType() == FFDataBase.ITYPE_CHCK",
+        "165": "        if ( _base.getIType() == FFDataBase.ITYPE_TEXT )"
+      },
+      "id": 97384199,
+      "filename": "FFData.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 429,
+      "location": "/src/org/apache/poi/hwpf/model/types",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384293/",
+      "md5hash": "1dcd6a5f95e73cf81088a202b468698a",
+      "lines": {
+        "289": "     * Sets the fOwnHelp field value.",
+        "290": "     * A bit that specifies whether the form field has custom help text in FFData.xstzHelpText. If fOwnHelp is 0, FFData.xstzHelpText contains an empty or auto-generated string.",
+        "299": "     * A bit that specifies whether the form field has custom help text in FFData.xstzHelpText. If fOwnHelp is 0, FFData.xstzHelpText contains an empty or auto-generated string.",
+        "310": "     * A bit that specifies whether the form field has custom status bar text in FFData.xstzStatText. If fOwnStat is 0, FFData.xstzStatText contains an empty or auto-generated string.",
+        "44": "@Internal",
+        "298": "    /**",
+        "171": "",
+        "172": "        builder.append(\"[/FFDataBase]\");",
+        "45": "public abstract class FFDataBaseAbstractType",
+        "270": "     * An unsigned integer. If iType is iTypeText (0), then iRes MUST be 0. If iType is iTypeChck (1), iRes specifies the state of the checkbox and MUST be 0 (unchecked), 1 (checked), or 25 (undefined). Undefined checkboxes are treated as unchecked. If iType is iTypeDrop (2), iRes specifies the current selected list box item. A value of 25 specifies the selection is undefined. Otherwise, iRes is a zero-based index into FFData.hsttbDropList.",
+        "269": "     * Sets the iRes field value.",
+        "309": "     * Sets the fOwnStat field value.",
+        "278": "    /**",
+        "279": "     * An unsigned integer. If iType is iTypeText (0), then iRes MUST be 0. If iType is iTypeChck (1), iRes specifies the state of the checkbox and MUST be 0 (unchecked), 1 (checked), or 25 (undefined). Undefined checkboxes are treated as unchecked. If iType is iTypeDrop (2), iRes specifies the current selected list box item. A value of 25 specifies the selection is undefined. Otherwise, iRes is a zero-based index into FFData.hsttbDropList.",
+        "25": "/**",
+        "26": " * The FFData structure specifies form field data for a text"
+      },
+      "id": 97384293,
+      "filename": "FFDataBaseAbstractType.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 260,
+      "location": "/src/main/java/org/docx4j/wml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642694/",
+      "md5hash": "c562125558c7d04d46d8c7784e50d8ff",
+      "lines": {
+        "69": "    protected Text fldData;",
+        "70": "    protected CTFFData ffData;",
+        "105": "    /**",
+        "106": "     * Gets the value of the ffData property.",
+        "44": " *         &lt;element name=\"fldData\" type=\"{http://schemas.openxmlformats.org/wordprocessingml/2006/main}CT_Text\" minOccurs=\"0\"/>",
+        "109": "     *     possible object is",
+        "110": "     *     {@link CTFFData }",
+        "45": " *         &lt;element name=\"ffData\" type=\"{http://schemas.openxmlformats.org/wordprocessingml/2006/main}CT_FFData\" minOccurs=\"0\"/>",
+        "112": "     */",
+        "113": "    public CTFFData getFfData() {",
+        "114": "        return ffData;",
+        "115": "    }",
+        "117": "    /**",
+        "118": "     * Sets the value of the ffData property.",
+        "60": "    \"fldData\",",
+        "61": "    \"ffData\","
+      },
+      "id": 17642694,
+      "filename": "FldChar.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 676,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384484/",
+      "md5hash": "eb3ee5102b1d02992e415773f3944ccc",
+      "lines": {
+        "21": "import org.apache.poi.hwpf.model.CHPX;",
+        "22": "import org.apache.poi.hwpf.model.FFData;",
+        "647": "                        getPicOffset() );",
+        "648": "                FFData ffData = new FFData( data.getBinData(), 0 );",
+        "649": "",
+        "650": "                String[] values = ffData.getDropList();",
+        "667": "                FFData ffData = new FFData( data.getBinData(), 0 );",
+        "668": "",
+        "666": "                        getPicOffset() );",
+        "669": "                return Integer.valueOf( ffData.getDefaultDropDownItemIndex() );"
+      },
+      "id": 97384484,
+      "filename": "CharacterRun.java"
+    },
+    {
+      "repo": "https://github.com/pruivo/fenix-framework.git",
+      "language": "Java",
+      "linescount": 56,
+      "location": "/backend/jvstm-common/runtime/src/main/java/pt/ist/fenixframework/backend/jvstm/pstm",
+      "name": "fenix-framework",
+      "url": "https://searchcode.com/codesearch/view/72930744/",
+      "md5hash": "8005142e25d912c5d6efdd3961bea086",
+      "lines": {
+        "50": "                        stats.readWriteWrites);",
+        "51": "        FenixFrameworkData ffData = FenixFramework.getDomainRoot().getFenixFrameworkData();",
+        "52": "        ffData.addFFTxStatsEntry(entry);",
+        "53": "    }"
+      },
+      "id": 72930744,
+      "filename": "StatisticsThread.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 3034,
+      "location": "/src/org/apache/poi/hwpf/model/types",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384327/",
+      "md5hash": "66690de8458c959f0474d940a33c9f49",
+      "lines": {
+        "2323": "    /**",
+        "2314": "     * Sets the fData field value.",
+        "2315": "     * chp.fcPic points to an FFDATA, the data structure binary data used by Word to describe a form field. The bit chp.fData may only be 1 when chp.fSpec is also 1 and the special character in the document stream that has this property is a chPicture (0x01)",
+        "2324": "     * chp.fcPic points to an FFDATA, the data structure binary data used by Word to describe a form field. The bit chp.fData may only be 1 when chp.fSpec is also 1 and the special character in the document stream that has this property is a chPicture (0x01)"
+      },
+      "id": 97384327,
+      "filename": "CHPAbstractType.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 50,
+      "location": "/src/org/apache/poi/hwpf/model",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384058/",
+      "md5hash": "34530a7048a23a88ecd95ae65f21b1f4",
+      "lines": {
+        "18": "",
+        "19": "import org.apache.poi.hwpf.model.types.FFDataBaseAbstractType;",
+        "37": "@Internal",
+        "22": "/**",
+        "23": " * The FFData structure specifies form field data for a text box, check box, or",
+        "40": "    public FFDataBase()",
+        "39": "{",
+        "38": "public class FFDataBase extends FFDataBaseAbstractType",
+        "44": "",
+        "45": "    public FFDataBase( byte[] std, int offset )"
+      },
+      "id": 97384058,
+      "filename": "FFDataBase.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

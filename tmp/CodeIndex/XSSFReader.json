@@ -1,0 +1,174 @@
+{
+  "matchterm": "XSSFReader",
+  "previouspage": null,
+  "searchterm": "XSSFReader",
+  "query": "XSSFReader",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "https://github.com/qmetric/qmg-utilities.git",
+      "language": "Java",
+      "linescount": 85,
+      "location": "/poi/src/test/java/com/qmetric/utilities/poi/xssf",
+      "name": "qmg-utilities",
+      "url": "https://searchcode.com/codesearch/view/110658551/",
+      "md5hash": "f8038c52cbb1ace5de7b05a9aa05e7bd",
+      "lines": {
+        "64": "",
+        "65": "        return xssfReaderFactory;",
+        "34": "",
+        "35": "        final XSSFWorkBookProcessor xssfWorkBookProcessor = new XSSFWorkBookProcessor(xssfWorksheetParserFactory, fileUtils(location, inputStream), xssfReaderFactory);",
+        "4": "import org.apache.poi.openxml4j.exceptions.InvalidFormatException;",
+        "5": "import org.apache.poi.xssf.eventusermodel.XSSFReader;",
+        "48": "",
+        "49": "    private XSSFReaderFactory readerFactory(final InputStream inputStream, final String sheetName) throws IOException, InvalidFormatException",
+        "50": "    {",
+        "51": "        final XSSFReader.SheetIterator sheetIterator = mock(XSSFReader.SheetIterator.class);",
+        "57": "",
+        "58": "        final XSSFReader xssfReader = mock(XSSFReader.class);",
+        "59": "        when(xssfReader.getSheetsData()).thenReturn(sheetIterator);",
+        "29": "        final RowProcessor rowProcessor = mock(RowProcessor.class);",
+        "30": "        final XSSFReaderFactory xssfReaderFactory = readerFactory(inputStream, sheetName);"
+      },
+      "id": 110658551,
+      "filename": "XSSFWorkBookProcessorTest.java"
+    },
+    {
+      "repo": "https://github.com/qmetric/qmg-utilities.git",
+      "language": "Java",
+      "linescount": 66,
+      "location": "/poi/src/main/java/com/qmetric/utilities/poi/xssf",
+      "name": "qmg-utilities",
+      "url": "https://searchcode.com/codesearch/view/110658569/",
+      "md5hash": "2a765e0855ac52a63fa667a22d438072",
+      "lines": {
+        "32": "    {",
+        "33": "        final XSSFReader xssfReader = xssfReaderFactory.create(stream);",
+        "4": "import org.apache.poi.openxml4j.exceptions.InvalidFormatException;",
+        "5": "import org.apache.poi.xssf.eventusermodel.XSSFReader;",
+        "38": "            processSheets(sheetsData, sheetProcessor, xssfReader.getSharedStringsTable());",
+        "39": "        }",
+        "50": "    private void processSheets(final XSSFReader.SheetIterator sheetsData, final SheetProcessor sheetProcessor, final SharedStringsTable sharedStringsTable)",
+        "16": "",
+        "17": "    private final XSSFReaderFactory xssfReaderFactory;",
+        "18": "",
+        "19": "    public XSSFWorkBookProcessor(final XSSFWorksheetParserFactory xssfWorksheetParserFactory, final FileUtils fileUtils, final XSSFReaderFactory xssfReaderFactory)",
+        "22": "        this.fileUtils = fileUtils;",
+        "23": "        this.xssfReaderFactory = xssfReaderFactory;",
+        "49": "",
+        "37": "            XSSFReader.SheetIterator sheetsData = (XSSFReader.SheetIterator) xssfReader.getSheetsData();"
+      },
+      "id": 110658569,
+      "filename": "XSSFWorkBookProcessor.java"
+    },
+    {
+      "repo": "https://github.com/xiezhaohui/DataViewer.git",
+      "language": "Java",
+      "linescount": 146,
+      "location": "/ETL/src/com/util",
+      "name": "DataViewer",
+      "url": "https://searchcode.com/codesearch/view/68613397/",
+      "md5hash": "8bcf7185681037ed76939e88fb0242bf",
+      "lines": {
+        "8": "",
+        "9": "import org.apache.poi.xssf.eventusermodel.XSSFReader;",
+        "42": "\t\tOPCPackage pkg = OPCPackage.open(filename);",
+        "43": "\t\tXSSFReader r = new XSSFReader(pkg);",
+        "61": "\t\tOPCPackage pkg = OPCPackage.open(filename);",
+        "62": "\t\tXSSFReader r = new XSSFReader(pkg);"
+      },
+      "id": 68613397,
+      "filename": "XxlsAbstract.java"
+    },
+    {
+      "repo": "https://github.com/kissys/es.git",
+      "language": "Java",
+      "linescount": 800,
+      "location": "/web/src/main/java/com/sishuok/es/showcase/excel/service",
+      "name": "es",
+      "url": "https://searchcode.com/codesearch/view/92669291/",
+      "md5hash": "e4b8f0d86eab02f334334ecc295774b2",
+      "lines": {
+        "272": "            OPCPackage pkg = OPCPackage.open(bis);",
+        "33": "import org.apache.poi.ss.usermodel.Sheet;",
+        "34": "import org.apache.poi.xssf.eventusermodel.XSSFReader;",
+        "273": "            XSSFReader r = new XSSFReader(pkg);"
+      },
+      "id": 92669291,
+      "filename": "ExcelDataService.java"
+    },
+    {
+      "repo": "https://github.com/teruok78/pentaho-kettle.git",
+      "language": "Java",
+      "linescount": 146,
+      "location": "/engine/src/org/pentaho/di/trans/steps/excelinput/staxpoi",
+      "name": "pentaho-kettle",
+      "url": "https://searchcode.com/codesearch/view/95326028/",
+      "md5hash": "f79016d12ce1742714438fa4f5aba5ce",
+      "lines": {
+        "17": "import org.apache.poi.openxml4j.opc.OPCPackage;",
+        "18": "import org.apache.poi.xssf.eventusermodel.XSSFReader;",
+        "24": "",
+        "25": "  private XSSFReader reader;",
+        "59": "    try {",
+        "60": "      reader = new XSSFReader( pkg );"
+      },
+      "id": 95326028,
+      "filename": "StaxPoiWorkbook.java"
+    },
+    {
+      "repo": "https://github.com/qmetric/qmg-utilities.git",
+      "language": "Java",
+      "linescount": 29,
+      "location": "/poi/src/main/java/com/qmetric/utilities/poi/xssf",
+      "name": "qmg-utilities",
+      "url": "https://searchcode.com/codesearch/view/110658583/",
+      "md5hash": "556c26bda1fcc871a0bc6d9bb6895e8d",
+      "lines": {
+        "16": "            return new XSSFReader(OPCPackage.open(inputStream));",
+        "4": "import org.apache.poi.openxml4j.opc.OPCPackage;",
+        "5": "import org.apache.poi.xssf.eventusermodel.XSSFReader;",
+        "9": "",
+        "10": "public class XSSFReaderFactory",
+        "11": "{",
+        "12": "    public XSSFReader create(final InputStream inputStream)",
+        "15": "        {"
+      },
+      "id": 110658583,
+      "filename": "XSSFReaderFactory.java"
+    },
+    {
+      "repo": "https://github.com/teruok78/pentaho-kettle.git",
+      "language": "Java",
+      "linescount": 176,
+      "location": "/engine/src/org/pentaho/di/trans/steps/excelinput/staxpoi",
+      "name": "pentaho-kettle",
+      "url": "https://searchcode.com/codesearch/view/95326031/",
+      "md5hash": "cbfe0ad18a37e13a4234d2b5bc06851f",
+      "lines": {
+        "16": "",
+        "17": "import org.apache.poi.xssf.eventusermodel.XSSFReader;",
+        "37": "",
+        "38": "  public StaxPoiSheet( XSSFReader reader, String sheetName, String sheetID ) {"
+      },
+      "id": 95326031,
+      "filename": "StaxPoiSheet.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

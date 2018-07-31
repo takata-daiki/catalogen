@@ -1,0 +1,476 @@
+{
+  "matchterm": "EMF",
+  "previouspage": null,
+  "searchterm": "EMF",
+  "query": "EMF",
+  "language_filters": [
+    {
+      "count": 27541,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 27541,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/azhtom/flowdiss",
+      "language": "Java",
+      "linescount": 27,
+      "location": "/src/com/azhtom/flowdiss/server",
+      "name": "flowdiss",
+      "url": "https://searchcode.com/codesearch/view/118689296/",
+      "md5hash": "a3e47a675e212664150ef0374562b317",
+      "lines": {
+        "17": "     */",
+        "18": "    private EMF() {",
+        "24": "    public static EntityManagerFactory get() {",
+        "25": "        return emf;",
+        "10": " */",
+        "11": "public final class EMF {",
+        "12": "    private static final EntityManagerFactory emf =",
+        "13": "        Persistence.createEntityManagerFactory(\"sunatdb\");"
+      },
+      "id": 118689296,
+      "filename": "EMF.java"
+    },
+    {
+      "repo": "https://bitbucket.org/stefangrosjean/smappeeamz.git",
+      "language": "Java",
+      "linescount": 19,
+      "location": "/SmappeeAmzV3/src/com/smappee/util",
+      "name": "smappeeamz",
+      "url": "https://searchcode.com/codesearch/view/50489071/",
+      "md5hash": "601f4f6c1d9974e679757ec731498682",
+      "lines": {
+        "5": "",
+        "6": "public final class EMF {",
+        "7": "\t private static EntityManagerFactory emf = Persistence.createEntityManagerFactory( /*\"transactions-optional*/ \"RESOURCE_LOCAL\" );",
+        "8": "\t //\"RESOURCE_LOCAL\";\t\"transactions-optional\"",
+        "9": "\t ",
+        "10": "\t private EMF()",
+        "13": "\t public static EntityManagerFactory get()",
+        "14": "\t  { return emf;"
+      },
+      "id": 50489071,
+      "filename": "EMF.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nbosic/javacodedc",
+      "language": "Java",
+      "linescount": 17,
+      "location": "/Acro-WebApp/Acro-WebApp/src/rs/ac/uns/pmf/acro/server",
+      "name": "javacodedc",
+      "url": "https://searchcode.com/codesearch/view/134602586/",
+      "md5hash": "b004da39c810e980c72fa348798a257d",
+      "lines": {
+        "5": "",
+        "6": "public class EMF {",
+        "7": "\tprivate static final EntityManagerFactory emfInstance = Persistence",
+        "8": "\t\t\t.createEntityManagerFactory(\"transactions-optional\");",
+        "9": "",
+        "10": "\tprivate EMF() {",
+        "13": "\tpublic static EntityManagerFactory get() {",
+        "14": "\t\treturn emfInstance;"
+      },
+      "id": 134602586,
+      "filename": "EMF.java"
+    },
+    {
+      "repo": "http://huliqing-qblog.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 55,
+      "location": "/QBlog/src/java/name/huliqing/qblog/dao",
+      "name": "huliqing-qblog",
+      "url": "https://searchcode.com/codesearch/view/5647610/",
+      "md5hash": "a606f20d49566f8f3630ed9ddbf4e60d",
+      "lines": {
+        "48": "\t",
+        "49": "\tprivate EMF() {}",
+        "51": "\tpublic static EntityManagerFactory get() {",
+        "52": "\t\treturn emf;",
+        "43": " */",
+        "44": "public final class EMF {",
+        "45": "",
+        "46": "\tprivate static final EntityManagerFactory emf = "
+      },
+      "id": 5647610,
+      "filename": "EMF.java"
+    },
+    {
+      "repo": "https://bitbucket.org/alessandro-aglietti/itis-leonardo-da-vinci.git",
+      "language": "Java",
+      "linescount": 23,
+      "location": "/taccuino-swing/src/it/taccuino/controller",
+      "name": "itis-leonardo-da-vinci",
+      "url": "https://searchcode.com/codesearch/view/59325766/",
+      "md5hash": "d499939ae4ecc5ff0c28e7d01b61315c",
+      "lines": {
+        "19": "\tpublic static final EntityManager get() {",
+        "20": "\t\treturn emf.createEntityManager();",
+        "10": "",
+        "11": "public class EMF {",
+        "12": "\tprivate static final EntityManagerFactory emf = Persistence",
+        "13": "\t\t\t.createEntityManagerFactory(\"myFirstPersistenceUnit\");",
+        "14": "",
+        "15": "\tprivate EMF() {"
+      },
+      "id": 59325766,
+      "filename": "EMF.java"
+    },
+    {
+      "repo": "https://bitbucket.org/alessandro-aglietti/itis-leonardo-da-vinci.git",
+      "language": "Java",
+      "linescount": 19,
+      "location": "/iti-note-model/src/iti/note/jpa",
+      "name": "itis-leonardo-da-vinci",
+      "url": "https://searchcode.com/codesearch/view/59326278/",
+      "md5hash": "0c03fb0827d3ac9693d16e035ac8c74e",
+      "lines": {
+        "16": "\t\treturn emf.createEntityManager();",
+        "6": "",
+        "7": "public class EMF {",
+        "8": "\tprivate static final EntityManagerFactory emf = Persistence",
+        "9": "\t\t\t.createEntityManagerFactory(\"myFirstPersistenceUnit\");",
+        "10": "",
+        "11": "\tprivate EMF() {",
+        "15": "\tpublic static final EntityManager get() {"
+      },
+      "id": 59326278,
+      "filename": "EMF.java"
+    },
+    {
+      "repo": "https://bitbucket.org/alessandro-aglietti/itis-leonardo-da-vinci.git",
+      "language": "Java",
+      "linescount": 19,
+      "location": "/iti-note-model-service/src/iti/note/jpa",
+      "name": "itis-leonardo-da-vinci",
+      "url": "https://searchcode.com/codesearch/view/59326286/",
+      "md5hash": "0c03fb0827d3ac9693d16e035ac8c74e",
+      "lines": {
+        "16": "\t\treturn emf.createEntityManager();",
+        "6": "",
+        "7": "public class EMF {",
+        "8": "\tprivate static final EntityManagerFactory emf = Persistence",
+        "9": "\t\t\t.createEntityManagerFactory(\"myFirstPersistenceUnit\");",
+        "10": "",
+        "11": "\tprivate EMF() {",
+        "15": "\tpublic static final EntityManager get() {"
+      },
+      "id": 59326286,
+      "filename": "EMF.java"
+    },
+    {
+      "repo": "https://github.com/githubapitest2/bitlyminous.git",
+      "language": "Java",
+      "linescount": 44,
+      "location": "/src/com/appspot/bitlyminous/dao",
+      "name": "bitlyminous",
+      "url": "https://searchcode.com/codesearch/view/65404107/",
+      "md5hash": "5912ef81208dd5f6a555b9abcddd4c2a",
+      "lines": {
+        "32": "     * Instantiates a new eMF.",
+        "33": "     */",
+        "34": "    private EMF() {}",
+        "41": "    public static EntityManagerFactory get() {",
+        "42": "        return emfInstance;",
+        "22": "/**",
+        "23": " * The Class EMF.",
+        "24": " */",
+        "25": "public final class EMF {",
+        "26": "    ",
+        "27": "    /** The Constant emfInstance. */",
+        "28": "    private static final EntityManagerFactory emfInstance =",
+        "29": "        Persistence.createEntityManagerFactory(\"transactions-optional\");",
+        "31": "    /**"
+      },
+      "id": 65404107,
+      "filename": "EMF.java"
+    },
+    {
+      "repo": "https://bitbucket.org/kodra/abracadabra",
+      "language": "Java",
+      "linescount": 21,
+      "location": "/src/net/kodra/supereasy/jpa/server",
+      "name": "abracadabra",
+      "url": "https://searchcode.com/codesearch/view/57145459/",
+      "md5hash": "9a76db007224b7cb68980121f0375a87",
+      "lines": {
+        "16": "  {",
+        "17": "    return emf;",
+        "5": "",
+        "6": "public class EMF",
+        "8": "",
+        "9": "  private static final EntityManagerFactory emf = Persistence.createEntityManagerFactory(\"Super Easy datastore\");",
+        "10": "",
+        "11": "  private EMF()"
+      },
+      "id": 57145459,
+      "filename": "EMF.java"
+    },
+    {
+      "repo": "https://github.com/mantic0/elocator.git",
+      "language": "Java",
+      "linescount": 14,
+      "location": "/elocatorWeb/src/feri/rvir/elocator/dao",
+      "name": "elocator",
+      "url": "https://searchcode.com/codesearch/view/68113581/",
+      "md5hash": "0578bf1d13a938fa1e532fcf0b6ee815",
+      "lines": {
+        "4": "",
+        "5": "public class EMF {",
+        "6": "",
+        "7": "\tprivate static EntityManagerFactory emf = Persistence.createEntityManagerFactory(\"transactions-optional\");",
+        "8": "\t",
+        "9": "\tprivate EMF() {}",
+        "11": "\tpublic static EntityManagerFactory getInstance() {",
+        "12": "\t\treturn emf;"
+      },
+      "id": 68113581,
+      "filename": "EMF.java"
+    },
+    {
+      "repo": "https://github.com/cgreenhalgh/lobbyservice.git",
+      "language": "Java",
+      "linescount": 40,
+      "location": "/src/uk/ac/horizon/ug/lobby/model",
+      "name": "lobbyservice",
+      "url": "https://searchcode.com/codesearch/view/109287670/",
+      "md5hash": "ed53fa1cbe5393255ceece16bea0a782",
+      "lines": {
+        "32": " ",
+        "33": "    private EMF() {} ",
+        "35": "    public static EntityManagerFactory get() { ",
+        "36": "        return emfInstance; ",
+        "28": " */",
+        "29": "public class EMF {",
+        "30": "    private static final EntityManagerFactory emfInstance = ",
+        "31": "        Persistence.createEntityManagerFactory(\"transactions-optional\"); "
+      },
+      "id": 109287670,
+      "filename": "EMF.java"
+    },
+    {
+      "repo": "https://github.com/sbatista2005/delphos.git",
+      "language": "Java",
+      "linescount": 17,
+      "location": "/src/main/java/br/org/universa/persistencia",
+      "name": "delphos",
+      "url": "https://searchcode.com/codesearch/view/112264332/",
+      "md5hash": "03fcfc60a2db63631cd317941deb6bd9",
+      "lines": {
+        "5": "",
+        "6": "public final class EMF {",
+        "7": "    private static final EntityManagerFactory emfInstance =",
+        "8": "            Persistence.createEntityManagerFactory(\"transactions-optional\");",
+        "9": "",
+        "10": "    private EMF() {",
+        "13": "    public static EntityManagerFactory get() {",
+        "14": "        return emfInstance;"
+      },
+      "id": 112264332,
+      "filename": "EMF.java"
+    },
+    {
+      "repo": "https://bitbucket.org/paulononaka/sambatech1",
+      "language": "Java",
+      "linescount": 16,
+      "location": "/src/main/java/com/paulononaka/dao",
+      "name": "sambatech1",
+      "url": "https://searchcode.com/codesearch/view/119448339/",
+      "md5hash": "f23d8ae6afcbe4a020dab6a0da4989d4",
+      "lines": {
+        "5": "",
+        "6": "public final class EMF {",
+        "7": "\t",
+        "8": "    private static final EntityManagerFactory emfInstance =",
+        "10": "",
+        "11": "    private EMF() {}",
+        "13": "    public static EntityManagerFactory get() {",
+        "14": "        return emfInstance;"
+      },
+      "id": 119448339,
+      "filename": "EMF.java"
+    },
+    {
+      "repo": "https://bitbucket.org/blake_hashfund_com/google-appengine-sdk.git",
+      "language": "Java",
+      "linescount": 20,
+      "location": "/demos/helloorm2/src/com/google/appengine/demos/helloorm",
+      "name": "google-appengine-sdk",
+      "url": "https://searchcode.com/codesearch/view/51603464/",
+      "md5hash": "d96c3252f3e97a61565dd4bd67c81dd7",
+      "lines": {
+        "9": " */",
+        "10": "public final class EMF {",
+        "18": "  private EMF() {}",
+        "17": ""
+      },
+      "id": 51603464,
+      "filename": "EMF.java"
+    },
+    {
+      "repo": "https://bitbucket.org/blake_hashfund_com/google-appengine-sdk.git",
+      "language": "Java",
+      "linescount": 20,
+      "location": "/demos/helloorm/src/com/google/appengine/demos/helloorm",
+      "name": "google-appengine-sdk",
+      "url": "https://searchcode.com/codesearch/view/51603480/",
+      "md5hash": "d96c3252f3e97a61565dd4bd67c81dd7",
+      "lines": {
+        "9": " */",
+        "10": "public final class EMF {",
+        "18": "  private EMF() {}",
+        "17": ""
+      },
+      "id": 51603480,
+      "filename": "EMF.java"
+    },
+    {
+      "repo": "http://larozanam.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 18,
+      "location": "/jpaUiBinder/src/com/teste/jpaUiBinder/server/dao",
+      "name": "larozanam",
+      "url": "https://searchcode.com/codesearch/view/2032255/",
+      "md5hash": "b4c8f009bfd94510e7ea800ac60c88ba",
+      "lines": {
+        "5": "",
+        "6": "public final class EMF {",
+        "7": "",
+        "8": "\tprivate static EntityManagerFactory emfInstance;",
+        "9": "",
+        "10": "\tprivate EMF() {}",
+        "12": "\tpublic static EntityManagerFactory getInstance(String persistenceUnitName) {",
+        "13": "\t\tif (emfInstance == null){",
+        "14": "\t\t\temfInstance = Persistence.createEntityManagerFactory(persistenceUnitName);",
+        "15": "\t\t}",
+        "16": "\t\treturn emfInstance;"
+      },
+      "id": 2032255,
+      "filename": "EMF.java"
+    },
+    {
+      "repo": "http://google-web-toolkit.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 37,
+      "location": "/samples/expenses/src/main/java/com/google/gwt/sample/expenses/server/domain",
+      "name": "google-web-toolkit",
+      "url": "https://searchcode.com/codesearch/view/4106817/",
+      "md5hash": "4fd37f862e88567e39f832b59cd86a35",
+      "lines": {
+        "32": "    private EMF() {",
+        "23": " */",
+        "24": "public final class EMF {",
+        "25": "    private static final EntityManagerFactory emfInstance =",
+        "26": "        Persistence.createEntityManagerFactory(\"transactions-optional\");",
+        "28": "    public static EntityManagerFactory get() {",
+        "29": "        return emfInstance;",
+        "31": ""
+      },
+      "id": 4106817,
+      "filename": "EMF.java"
+    },
+    {
+      "repo": "http://gwt-examples.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 37,
+      "location": "/DemoRequestFactory/src/org/gonevertical/server",
+      "name": "gwt-examples",
+      "url": "https://searchcode.com/codesearch/view/5232022/",
+      "md5hash": "29572af8fcec5d9f1babb89e74b62647",
+      "lines": {
+        "32": "    private EMF() {",
+        "23": " */",
+        "24": "public final class EMF {",
+        "25": "    private static final EntityManagerFactory emfInstance =",
+        "26": "        Persistence.createEntityManagerFactory(\"transactions-optional\");",
+        "28": "    public static EntityManagerFactory get() {",
+        "29": "        return emfInstance;",
+        "31": ""
+      },
+      "id": 5232022,
+      "filename": "EMF.java"
+    },
+    {
+      "repo": "http://chblog.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 18,
+      "location": "/cblog-springmvc/src/com/gmail/huxiaowi/cblog/util",
+      "name": "chblog",
+      "url": "https://searchcode.com/codesearch/view/5517605/",
+      "md5hash": "25f7f22e04fbe25e2d944f8f3a749ad6",
+      "lines": {
+        "5": "",
+        "6": "public class EMF {",
+        "7": "    private static final EntityManagerFactory emfInstance = Persistence",
+        "8": "            .createEntityManagerFactory(\"transactions-optional\");",
+        "9": "",
+        "10": "    private EMF() {",
+        "13": "    public static EntityManagerFactory get() {",
+        "14": "        return emfInstance;"
+      },
+      "id": 5517605,
+      "filename": "EMF.java"
+    },
+    {
+      "repo": "https://code.google.com/p/pgae-examples/",
+      "language": "Java",
+      "linescount": 16,
+      "location": "/1e/java/ch04/bookjpa/src/bookjpa",
+      "name": "pgae-examples",
+      "url": "https://searchcode.com/codesearch/view/8461227/",
+      "md5hash": "026eaf12fe932541711316b16086271b",
+      "lines": {
+        "5": "",
+        "6": "public final class EMF {",
+        "7": "    private static final EntityManagerFactory emfInstance =",
+        "8": "        Persistence.createEntityManagerFactory(\"transactions-optional\");",
+        "9": "",
+        "10": "    private EMF() {}",
+        "12": "    public static EntityManagerFactory get() {",
+        "13": "        return emfInstance;"
+      },
+      "id": 8461227,
+      "filename": "EMF.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 14723,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 9072,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 3613,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 65,
+      "source": "Sourceforge",
+      "id": 4
+    },
+    {
+      "count": 62,
+      "source": "GitLab",
+      "id": 13
+    },
+    {
+      "count": 5,
+      "source": "Google Android",
+      "id": 12
+    },
+    {
+      "count": 1,
+      "source": "Gitorious",
+      "id": 10
+    }
+  ]
+}

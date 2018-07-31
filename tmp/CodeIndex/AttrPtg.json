@@ -1,0 +1,92 @@
+{
+  "matchterm": "AttrPtg",
+  "previouspage": null,
+  "searchterm": "AttrPtg",
+  "query": "AttrPtg",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 245,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642559/",
+      "md5hash": "9f22856961a7ee0feb1fd1714edd1699",
+      "lines": {
+        "160": "",
+        "161": "        buffer.append(\"AttrPtg\\n\");",
+        "239": "      AttrPtg ptg = new AttrPtg();",
+        "73": "",
+        "58": "",
+        "59": "public class AttrPtg",
+        "76": "    ",
+        "74": "    public AttrPtg() {",
+        "238": "    public Object clone() {",
+        "77": "    public AttrPtg(RecordInputStream in)"
+      },
+      "id": 15642559,
+      "filename": "AttrPtg.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1069,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642368/",
+      "md5hash": "28d644f6963548f6234cc54a47085ba2",
+      "lines": {
+        "960": "                      ",
+        "961": "            if (ptgs[i] instanceof AttrPtg && ((AttrPtg) ptgs[i]).isOptimizedIf()) {",
+        "962": "                ifptg = (AttrPtg) ptgs[i];",
+        "963": "                continue;",
+        "453": "                //second goto to skip past the function ptg",
+        "454": "                AttrPtg goto2Ptg = new AttrPtg();",
+        "424": "            ",
+        "425": "            AttrPtg ifPtg = new AttrPtg();",
+        "948": "        java.util.Stack stack = new java.util.Stack();",
+        "949": "        AttrPtg ifptg = null;",
+        "950": "",
+        "951": "           // Excel allows to have AttrPtg at position 0 (such as Blanks) which",
+        "443": "            ",
+        "444": "            AttrPtg goto1Ptg = new AttrPtg();"
+      },
+      "id": 15642368,
+      "filename": "FormulaParser.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 485,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642564/",
+      "md5hash": "a03fe68945d6947241c13705dd4cc5e3",
+      "lines": {
+        "232": "             case AttrPtg.sid :                 // 0x19",
+        "233": "                 retval = new AttrPtg(in);",
+        "234": "        \t                  break;",
+        "231": " "
+      },
+      "id": 15642564,
+      "filename": "Ptg.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

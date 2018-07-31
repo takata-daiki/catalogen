@@ -1,0 +1,195 @@
+{
+  "matchterm": "SmallDocumentBlock",
+  "previouspage": null,
+  "searchterm": "SmallDocumentBlock",
+  "query": "SmallDocumentBlock",
+  "language_filters": [
+    {
+      "count": 8,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 8,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 310,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642258/",
+      "md5hash": "e8d45aaab75f236cf3625cba098392df",
+      "lines": {
+        "165": "        byte[]               data = stream.toByteArray();",
+        "68": "",
+        "69": "    private SmallDocumentBlock(int size)",
+        "166": "        SmallDocumentBlock[] rval =",
+        "135": "        {",
+        "136": "            blocks.add(makeEmptySmallDocumentBlock(",
+        "142": "    /**",
+        "143": "     * Factory for creating SmallDocumentBlocks from DocumentBlocks",
+        "147": "     *",
+        "148": "     * @return an array of new SmallDocumentBlocks instances",
+        "54": "",
+        "55": "public class SmallDocumentBlock",
+        "154": "",
+        "155": "    public static SmallDocumentBlock [] convert(final BlockWritable [] store,",
+        "62": "",
+        "63": "    private SmallDocumentBlock(final byte [] data, final int index, int size)"
+      },
+      "id": 15642258,
+      "filename": "SmallDocumentBlock.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 684,
+      "location": "/components/forks/poi/src/loci/poi/poifs/filesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642272/",
+      "md5hash": "59a31c39c6dfe8eece6f3750636bbe31",
+      "lines": {
+        "449": "    {",
+        "450": "        private SmallDocumentBlock[] smallBlocks;",
+        "195": "            _small_store =",
+        "196": "                new SmallBlockStore(SmallDocumentBlock.convert(bigBlocks,",
+        "487": "        {",
+        "488": "            smallBlocks = new SmallDocumentBlock[ 0 ];",
+        "521": "                smallBlocks = SmallDocumentBlock.convert(stream.toByteArray(),",
+        "463": "        {",
+        "464": "            smallBlocks = new SmallDocumentBlock[ blocks.length ];",
+        "520": "                        path, name, size));",
+        "466": "            {",
+        "467": "                smallBlocks[ j ] = ( SmallDocumentBlock ) blocks[ j ];",
+        "278": "            }",
+        "279": "            SmallDocumentBlock.read(_small_store.getBlocks(), buffer, offset);",
+        "56": "import loci.poi.poifs.storage.RawDataBlock;",
+        "57": "import loci.poi.poifs.storage.SmallDocumentBlock;"
+      },
+      "id": 15642272,
+      "filename": "POIFSDocument.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 72,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642259/",
+      "md5hash": "52f6003dba72dac065e695ed29bf8f29",
+      "lines": {
+        "64": "        setBlocks(( SmallDocumentBlock [] ) blocks",
+        "65": "            .toArray(new SmallDocumentBlock[ 0 ]));",
+        "66": "    }",
+        "69": "",
+        "70": "}   // end public class SmallDocumentBlockList",
+        "46": "/**",
+        "47": " * A list of SmallDocumentBlocks instances, and methods to manage the list",
+        "51": "",
+        "52": "public class SmallDocumentBlockList",
+        "56": "    /**",
+        "57": "     * Constructor SmallDocumentBlockList",
+        "58": "     *",
+        "59": "     * @param blocks a list of SmallDocumentBlock instances",
+        "61": "",
+        "62": "    public SmallDocumentBlockList(final List blocks)",
+        "63": "    {"
+      },
+      "id": 15642259,
+      "filename": "SmallDocumentBlockList.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 101,
+      "location": "/components/forks/poi/src/loci/poi/poifs/property",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642243/",
+      "md5hash": "28cc66b1140b455a3efd35643218ce42",
+      "lines": {
+        "48": "import loci.poi.poifs.common.POIFSConstants;",
+        "49": "import loci.poi.poifs.storage.SmallDocumentBlock;",
+        "96": "    {",
+        "97": "        super.setSize(SmallDocumentBlock.calcSize(size));"
+      },
+      "id": 15642243,
+      "filename": "RootProperty.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 89,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642261/",
+      "md5hash": "70932af53b1cc0cdcf8b29fde4787bce",
+      "lines": {
+        "80": "            new SmallDocumentBlockList(SmallDocumentBlock",
+        "73": "",
+        "74": "    public static BlockList getSmallDocumentBlocks(",
+        "79": "        BlockList list ="
+      },
+      "id": 15642261,
+      "filename": "SmallBlockTableReader.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 175,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642264/",
+      "md5hash": "cf01af29ac515ba6e90066ff6f3822e7",
+      "lines": {
+        "99": "        _root.setSize(_small_blocks.size());",
+        "100": "        _big_block_count = SmallDocumentBlock.fill(_small_blocks, size);"
+      },
+      "id": 15642264,
+      "filename": "SmallBlockTableWriter.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 324,
+      "location": "/components/forks/poi/src/loci/poi/poifs/property",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642247/",
+      "md5hash": "ec46443bba528fd95a0e3ea3a87f2ebc",
+      "lines": {
+        "48": "import loci.poi.poifs.storage.SmallDocumentBlock;",
+        "47": ""
+      },
+      "id": 15642247,
+      "filename": "DirectoryProperty.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 522,
+      "location": "/components/forks/poi/src/loci/poi/poifs/filesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642276/",
+      "md5hash": "821ddc8beda41ba4d7ad809592451995",
+      "lines": {
+        "66": "import loci.poi.poifs.storage.SmallBlockTableWriter;",
+        "67": "import loci.poi.poifs.storage.SmallDocumentBlock;",
+        "68": "import loci.poi.poifs.storage.ListManagedBlock;",
+        "69": "import loci.poi.poifs.storage.SmallDocumentBlockList;",
+        "134": "        // init documents",
+        "135": "        BlockList small = SmallBlockTableReader.getSmallDocumentBlocks("
+      },
+      "id": 15642276,
+      "filename": "POIFSFileSystem.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 8,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

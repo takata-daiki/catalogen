@@ -1,0 +1,50 @@
+{
+  "matchterm": "PlexOfField",
+  "previouspage": null,
+  "searchterm": "PlexOfField",
+  "query": "PlexOfField",
+  "language_filters": [
+    {
+      "count": 1,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 1,
+  "results": [
+    {
+      "repo": "https://github.com/isdom/POI-Android.git",
+      "language": "Java",
+      "linescount": 168,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hwpf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/88635600/",
+      "md5hash": "4fdb8879b881e2e5c24c5fc59b1fec83",
+      "lines": {
+        "116": "    public ArrayList<PlexOfField> getFieldsPLCF( int partIndex )",
+        "115": "    @Deprecated",
+        "109": "",
+        "110": "    public ArrayList<PlexOfField> getFieldsPLCF( FieldsDocumentPart part )",
+        "79": "    private static ArrayList<PlexOfField> toArrayList( PlexOfCps plexOfCps )",
+        "81": "        if ( plexOfCps == null )",
+        "82": "            return new ArrayList<PlexOfField>();",
+        "83": "",
+        "84": "        ArrayList<PlexOfField> fields = new ArrayList<PlexOfField>(",
+        "78": "",
+        "88": "            GenericPropertyNode propNode = plexOfCps.getProperty( i );",
+        "89": "            PlexOfField plex = new PlexOfField( propNode );"
+      },
+      "id": 88635600,
+      "filename": "FieldsTables.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "matchterm": "CharacterRun",
+  "previouspage": null,
+  "searchterm": "CharacterRun",
+  "query": "CharacterRun",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 676,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384484/",
+      "md5hash": "eb3ee5102b1d02992e415773f3944ccc",
+      "lines": {
+        "32": " */",
+        "33": "public final class CharacterRun",
+        "98": "  CharacterRun(CHPX chpx, StyleSheet ss, short istd, Range parent)",
+        "97": "   */",
+        "621": "    } else",
+        "622": "      throw new IllegalStateException(\"Not a symbol CharacterRun\");",
+        "562": "  {",
+        "563": "    CharacterRun cp = (CharacterRun)super.clone();",
+        "597": "    } else",
+        "598": "      throw new IllegalStateException(\"Not a symbol CharacterRun\");",
+        "544": "     * ",
+        "576": "   * Returns true, if the CharacterRun is a special character run containing a symbol, otherwise false.",
+        "543": "     * that you can apply it to another CharacterRun",
+        "542": "     * clone the CharacterProperties object associated with this characterRun so",
+        "575": "  /**"
+      },
+      "id": 97384484,
+      "filename": "CharacterRun.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1219,
+      "location": "/src/org/apache/poi/hwpf/converter",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383976/",
+      "md5hash": "a222c0be0731737a174a7721c959c7e2",
+      "lines": {
+        "193": "        Triplet original = new Triplet();",
+        "194": "        original.bold = characterRun.isBold();",
+        "195": "        original.italic = characterRun.isItalic();",
+        "36": "import org.apache.poi.hwpf.usermodel.Bookmark;",
+        "37": "import org.apache.poi.hwpf.usermodel.CharacterRun;",
+        "329": "            int skipUntil = -1;",
+        "330": "            for ( int c = 0; c < range.numCharacterRuns(); c++ )",
+        "331": "            {",
+        "332": "                CharacterRun characterRun = range.getCharacterRun( c );",
+        "333": "                if ( characterRun == null )",
+        "281": "            CharacterRun characterRun, String text );",
+        "280": "    protected abstract void outputCharacters( Element block,",
+        "196": "        original.fontName = characterRun.getFontName();",
+        "191": "    protected Triplet getCharacterRunTriplet( CharacterRun characterRun )",
+        "190": "",
+        "197": "        Triplet updated = getFontReplacer().update( original );"
+      },
+      "id": 97383976,
+      "filename": "AbstractWordConverter.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 747,
+      "location": "/src/org/apache/poi/hwpf/converter",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383966/",
+      "md5hash": "26fefb68f3e9024bc39626c516856a5c",
+      "lines": {
+        "515": "",
+        "36": "import org.apache.poi.hwpf.usermodel.CharacterRun;",
+        "298": "    protected void processDrawnObject( HWPFDocument doc,",
+        "299": "            CharacterRun characterRun, OfficeDrawing officeDrawing,",
+        "525": "            final int pFontSize;",
+        "526": "            final CharacterRun characterRun = paragraph.getCharacterRun( 0 );",
+        "527": "            if ( characterRun != null )",
+        "528": "            {",
+        "529": "                Triplet triplet = getCharacterRunTriplet( characterRun );",
+        "530": "                pFontSize = characterRun.getFontSize() / 2;",
+        "35": "import org.apache.poi.hwpf.usermodel.Bookmark;",
+        "531": "                pFontName = triplet.fontName;",
+        "516": "        final int charRuns = paragraph.numCharacterRuns();",
+        "285": "    protected void processDropDownList( Element block,",
+        "286": "            CharacterRun characterRun, String[] values, int defaultIndex )"
+      },
+      "id": 97383966,
+      "filename": "WordToHtmlConverter.java"
+    },
+    {
+      "repo": "https://github.com/AndreyLevchenko/html-convertor.git",
+      "language": "Java",
+      "linescount": 58,
+      "location": "/src",
+      "name": "html-convertor",
+      "url": "https://searchcode.com/codesearch/view/111543829/",
+      "md5hash": "c0fb7542f8d38f2e0082ed1dadb73dff",
+      "lines": {
+        "34": "        par2.setSpacingAfter(200);",
+        "35": "        CharacterRun run2 = par2.insertAfter(\"two two two two two two two two two two two two two\");",
+        "6": "import org.apache.poi.hwpf.HWPFDocument;",
+        "7": "import org.apache.poi.hwpf.usermodel.CharacterRun;",
+        "41": "        par3.setSpacingAfter(200);",
+        "42": "        CharacterRun run3 = par3.insertAfter(\"three three three three three three three three three \"",
+        "27": "",
+        "28": "        CharacterRun run1 = par1.insertAfter(\"one\");"
+      },
+      "id": 111543829,
+      "filename": "CreateWordDoc.java"
+    },
+    {
+      "repo": "https://github.com/0451liyang/StudyDemo.git",
+      "language": "Java",
+      "linescount": 44,
+      "location": "/PrintDemo/src/com/loveplusplus/demo/print/util",
+      "name": "StudyDemo",
+      "url": "https://searchcode.com/codesearch/view/69098620/",
+      "md5hash": "419c1341b2f0c7eb98833e52c475698e",
+      "lines": {
+        "8": "import org.apache.poi.hwpf.HWPFDocument;",
+        "9": "import org.apache.poi.hwpf.usermodel.CharacterRun;",
+        "26": "\t\t\tRange range = doc.getRange();",
+        "27": "\t\t\tfor (int i = 0; i < range.numCharacterRuns(); i++) {",
+        "28": "\t\t\t\tCharacterRun run = range.getCharacterRun(i);",
+        "29": "\t\t\t\tString text = run.text();"
+      },
+      "id": 69098620,
+      "filename": "WordUtil.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 351,
+      "location": "/src/main/java/org/docx4j/convert/in",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642935/",
+      "md5hash": "7e4ab85cefb0bb7ea0f70affee45a7e6",
+      "lines": {
+        "160": "\t\t\tCharacterRun run = p.getCharacterRun(z);",
+        "27": "import org.apache.poi.hwpf.HWPFDocument;",
+        "28": "import org.apache.poi.hwpf.usermodel.CharacterRun;",
+        "157": "",
+        "158": "\t\tfor (int z = 0; z < p.numCharacterRuns(); z++) {",
+        "159": "\t\t\t// character run"
+      },
+      "id": 17642935,
+      "filename": "Doc.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 633,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384428/",
+      "md5hash": "abf85d22a465320cca19a26cbf1926ad",
+      "lines": {
+        "478": "     * @return The offset of this picture in the picture bytes, used when",
+        "479": "     *         matching up with {@link CharacterRun#getPicOffset()}"
+      },
+      "id": 97384428,
+      "filename": "Picture.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

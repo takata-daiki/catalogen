@@ -1,0 +1,201 @@
+{
+  "matchterm": "CTGeomGuide",
+  "previouspage": null,
+  "searchterm": "CTGeomGuide",
+  "query": "CTGeomGuide",
+  "language_filters": [
+    {
+      "count": 8,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 8,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 67,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402629/",
+      "md5hash": "864722b010b0b321b16507ca87c9be7b",
+      "lines": {
+        "16": "public interface CTGeomGuide extends org.apache.xmlbeans.XmlObject",
+        "19": "        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CTGeomGuide.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sE130CAA0A01A7CDE5A2B4FEB8B311707\").resolveHandle(\"ctgeomguidef191type\");",
+        "18": "    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTGeomGuide",
+        "15": " */"
+      },
+      "id": 97402629,
+      "filename": "CTGeomGuide.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 109,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17641991/",
+      "md5hash": "375820b8d1066c4a2ceb37d2a48218d4",
+      "lines": {
+        "51": "@XmlType(name = \"CT_GeomGuide\")",
+        "52": "public class CTGeomGuide {"
+      },
+      "id": 17641991,
+      "filename": "CTGeomGuide.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 181,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97404580/",
+      "md5hash": "9ca3e20c8d618ae63808fd6a3f47d04e",
+      "lines": {
+        "32": "        {",
+        "33": "            public org.openxmlformats.schemas.drawingml.x2006.main.CTGeomGuide get(int i)",
+        "34": "                { return CTGeomGuideListImpl.this.getGdArray(i); }",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTGeomGuideList",
+        "37": "            {",
+        "13": " */",
+        "14": "public class CTGeomGuideListImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.openxmlformats.schemas.drawingml.x2006.main.CTGeomGuideList",
+        "16": "    ",
+        "17": "    public CTGeomGuideListImpl(org.apache.xmlbeans.SchemaType sType)",
+        "35": "            ",
+        "36": "            public org.openxmlformats.schemas.drawingml.x2006.main.CTGeomGuide set(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTGeomGuide o)",
+        "28": "     */",
+        "29": "    public java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTGeomGuide> getGdList()",
+        "30": "    {",
+        "31": "        final class GdList extends java.util.AbstractList<org.openxmlformats.schemas.drawingml.x2006.main.CTGeomGuide>"
+      },
+      "id": 97404580,
+      "filename": "CTGeomGuideListImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 73,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402663/",
+      "md5hash": "63fa9f82259735aaa7ca91064c9a14ae",
+      "lines": {
+        "35": "    org.openxmlformats.schemas.drawingml.x2006.main.CTGeomGuide getGdArray(int i);",
+        "34": "     */",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTGeomGuideList",
+        "54": "     */",
+        "55": "    org.openxmlformats.schemas.drawingml.x2006.main.CTGeomGuide insertNewGd(int i);",
+        "44": "     */",
+        "45": "    void setGdArray(org.openxmlformats.schemas.drawingml.x2006.main.CTGeomGuide[] gdArray);",
+        "15": " */",
+        "16": "public interface CTGeomGuideList extends org.apache.xmlbeans.XmlObject",
+        "49": "     */",
+        "18": "    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)",
+        "19": "        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CTGeomGuideList.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sE130CAA0A01A7CDE5A2B4FEB8B311707\").resolveHandle(\"ctgeomguidelist364ftype\");",
+        "50": "    void setGdArray(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTGeomGuide gd);",
+        "23": "     */",
+        "24": "    java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTGeomGuide> getGdList();"
+      },
+      "id": 97402663,
+      "filename": "CTGeomGuideList.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 3480,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642161/",
+      "md5hash": "ecaf98912e449049698e790afd5f5c5a",
+      "lines": {
+        "849": "    /**",
+        "850": "     * Create an instance of {@link CTGeomGuideList }",
+        "852": "     */",
+        "853": "    public CTGeomGuideList createCTGeomGuideList() {",
+        "854": "        return new CTGeomGuideList();",
+        "855": "    }",
+        "249": "    /**",
+        "250": "     * Create an instance of {@link CTGeomGuide }",
+        "252": "     */",
+        "253": "    public CTGeomGuide createCTGeomGuide() {",
+        "254": "        return new CTGeomGuide();",
+        "255": "    }"
+      },
+      "id": 17642161,
+      "filename": "ObjectFactory.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 88,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642045/",
+      "md5hash": "d34725dbea52f7fc975b44a67d843d5e",
+      "lines": {
+        "80": "    public List<CTGeomGuide> getGd() {",
+        "81": "        if (gd == null) {",
+        "82": "            gd = new ArrayList<CTGeomGuide>();",
+        "53": "})",
+        "54": "public class CTGeomGuideList {",
+        "55": "",
+        "56": "    protected List<CTGeomGuide> gd;",
+        "75": "     * Objects of the following type(s) are allowed in the list",
+        "76": "     * {@link CTGeomGuide }",
+        "79": "     */"
+      },
+      "id": 17642045,
+      "filename": "CTGeomGuideList.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 164,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403808/",
+      "md5hash": "787f6a5f01e025dc95feaafebec6a769",
+      "lines": {
+        "16": "    ",
+        "17": "    public CTGeomGuideImpl(org.apache.xmlbeans.SchemaType sType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTGeomGuide",
+        "13": " */",
+        "14": "public class CTGeomGuideImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.openxmlformats.schemas.drawingml.x2006.main.CTGeomGuide"
+      },
+      "id": 97403808,
+      "filename": "CTGeomGuideImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 634,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406799/",
+      "md5hash": "6e68dd3c8ec32b1c5501783941fcea98",
+      "lines": {
+        "43": "import org.openxmlformats.schemas.drawingml.x2006.main.CTBlipFillProperties;",
+        "44": "import org.openxmlformats.schemas.drawingml.x2006.main.CTGeomGuide;",
+        "582": "                    if (prst.isSetAvLst()) {",
+        "583": "                        for (CTGeomGuide g : prst.getAvLst().getGdList()) {"
+      },
+      "id": 97406799,
+      "filename": "RenderableShape.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 8,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

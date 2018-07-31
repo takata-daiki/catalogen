@@ -1,0 +1,59 @@
+{
+  "matchterm": "UnsupportedFileFormatException",
+  "previouspage": null,
+  "searchterm": "UnsupportedFileFormatException",
+  "query": "UnsupportedFileFormatException",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/skfcz/cadoculus-converter.git",
+      "language": "Java",
+      "linescount": 52,
+      "location": "/src/main/java/de/cadoculus/conversion",
+      "name": "cadoculus-converter",
+      "url": "https://searchcode.com/codesearch/view/38714382/",
+      "md5hash": "3f409b95cb1ec6f2452f3baf56199172",
+      "lines": {
+        "28": " */",
+        "29": "public class UnsupportedFileFormatException extends ConversionException {",
+        "38": "    public UnsupportedFileFormatException( String msg, Set< Node > unsupportedNodes ) {",
+        "37": "     */"
+      },
+      "id": 38714382,
+      "filename": "UnsupportedFileFormatException.java"
+    },
+    {
+      "repo": "https://bitbucket.org/skfcz/cadoculus-converter.git",
+      "language": "Java",
+      "linescount": 119,
+      "location": "/src/main/java/de/cadoculus/conversion/impl",
+      "name": "cadoculus-converter",
+      "url": "https://searchcode.com/codesearch/view/38714400/",
+      "md5hash": "b2d896ac7ce9f207b264ea010333eafa",
+      "lines": {
+        "88": "            throw new UnsupportedFileFormatException( \"no FileTypeDetector matches\",",
+        "25": "import de.cadoculus.conversion.TargetContent;",
+        "26": "import de.cadoculus.conversion.UnsupportedFileFormatException;",
+        "87": ""
+      },
+      "id": 38714400,
+      "filename": "ConversionServiceImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "matchterm": "RegionUtil",
+  "previouspage": null,
+  "searchterm": "RegionUtil",
+  "query": "RegionUtil",
+  "language_filters": [
+    {
+      "count": 19,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 19,
+  "results": [
+    {
+      "repo": "https://github.com/dyaizon/worldguard.git",
+      "language": "Java",
+      "linescount": 77,
+      "location": "/src/main/java/com/sk89q/worldguard/util",
+      "name": "worldguard",
+      "url": "https://searchcode.com/codesearch/view/71475868/",
+      "md5hash": "9f941fd24b10e735c9fd79a8890973c8",
+      "lines": {
+        "32": "    ",
+        "33": "    private RegionUtil() {",
+        "30": "@Deprecated",
+        "31": "public class RegionUtil {"
+      },
+      "id": 71475868,
+      "filename": "RegionUtil.java"
+    },
+    {
+      "repo": "git://github.com/liferay/liferay-portal.git",
+      "language": "Java",
+      "linescount": 848,
+      "location": "/portal-service/src/com/liferay/portal/service/persistence",
+      "name": "liferay-portal",
+      "url": "https://searchcode.com/codesearch/view/4118718/",
+      "md5hash": "3cbc962a3f15be5690226d73ebdecaa1",
+      "lines": {
+        "834": "",
+        "835": "\t\t\tReferenceRegistry.registerReference(RegionUtil.class, \"_persistence\");",
+        "38": " */",
+        "39": "public class RegionUtil {"
+      },
+      "id": 4118718,
+      "filename": "RegionUtil.java"
+    },
+    {
+      "repo": "git://github.com/sk89q/worldguard.git",
+      "language": "Java",
+      "linescount": 77,
+      "location": "/src/main/java/com/sk89q/worldguard/util",
+      "name": "worldguard",
+      "url": "https://searchcode.com/codesearch/view/8422419/",
+      "md5hash": "f27729d2c6263f9d75679bb2f6e0c24c",
+      "lines": {
+        "32": "    ",
+        "33": "    private RegionUtil() {",
+        "30": "@Deprecated",
+        "31": "public class RegionUtil {"
+      },
+      "id": 8422419,
+      "filename": "RegionUtil.java"
+    },
+    {
+      "repo": "https://github.com/ljjuuuyyy/worldguard.git",
+      "language": "Java",
+      "linescount": 102,
+      "location": "/src/main/java/com/sk89q/worldguard/util",
+      "name": "worldguard",
+      "url": "https://searchcode.com/codesearch/view/66566348/",
+      "md5hash": "ee8ae868a70878fc4d1291c628035142",
+      "lines": {
+        "32": "public class RegionUtil {",
+        "34": "    ",
+        "35": "    private RegionUtil() {",
+        "31": " */"
+      },
+      "id": 66566348,
+      "filename": "RegionUtil.java"
+    },
+    {
+      "repo": "https://github.com/simba3rcks/SporkPGM.git",
+      "language": "Java",
+      "linescount": 157,
+      "location": "/src/main/java/io/sporkpgm/util",
+      "name": "SporkPGM",
+      "url": "https://searchcode.com/codesearch/view/92880137/",
+      "md5hash": "10530ce954aa9886ef4cfefb7463d43b",
+      "lines": {
+        "8": "public class RegionUtil {",
+        "7": ""
+      },
+      "id": 92880137,
+      "filename": "RegionUtil.java"
+    },
+    {
+      "repo": "https://github.com/ljjuuuyyy/worldguard.git",
+      "language": "Java",
+      "linescount": 206,
+      "location": "/src/main/java/com/sk89q/worldguard/bukkit/commands",
+      "name": "worldguard",
+      "url": "https://searchcode.com/codesearch/view/66566265/",
+      "md5hash": "81c3838ca9d2df1f3430fcde899d9eb4",
+      "lines": {
+        "192": "",
+        "193": "        RegionUtil.removeFromDomain(region.getOwners(), args.getPaddedSlice(2, 0), 0);",
+        "35": "import com.sk89q.worldguard.protection.regions.ProtectedRegion;",
+        "36": "import com.sk89q.worldguard.util.RegionUtil;",
+        "69": "",
+        "70": "        RegionUtil.addToDomain(region.getMembers(), args.getPaddedSlice(2, 0), 0);",
+        "151": "",
+        "152": "        RegionUtil.removeFromDomain(region.getMembers(), args.getPaddedSlice(2, 0), 0);",
+        "110": "",
+        "111": "        RegionUtil.addToDomain(region.getOwners(), args.getPaddedSlice(2, 0), 0);"
+      },
+      "id": 66566265,
+      "filename": "RegionMemberCommands.java"
+    },
+    {
+      "repo": "https://gitlab.com/N3X15/worldguard.git",
+      "language": "Java",
+      "linescount": 215,
+      "location": "/src/main/java/com/sk89q/worldguard/bukkit/commands",
+      "name": "worldguard",
+      "url": "https://searchcode.com/codesearch/view/114843002/",
+      "md5hash": "cfbdeb494f8675b831d885540e73b42d",
+      "lines": {
+        "162": "",
+        "163": "        RegionUtil.removeFromDomain(region.getMembers(), args.getPaddedSlice(2, 0), 0);",
+        "37": "import com.sk89q.worldguard.protection.regions.ProtectedRegion;",
+        "38": "import com.sk89q.worldguard.util.RegionUtil;",
+        "201": "",
+        "202": "        RegionUtil.removeFromDomain(region.getOwners(), args.getPaddedSlice(2, 0), 0);",
+        "73": "",
+        "74": "        RegionUtil.addToDomain(region.getMembers(), args.getPaddedSlice(2, 0), 0);",
+        "124": "",
+        "125": "        RegionUtil.addToDomain(region.getOwners(), args.getPaddedSlice(2, 0), 0);"
+      },
+      "id": 114843002,
+      "filename": "RegionMemberCommands.java"
+    },
+    {
+      "repo": "https://github.com/simba3rcks/SporkPGM.git",
+      "language": "Java",
+      "linescount": 137,
+      "location": "/src/main/java/io/sporkpgm/module/modules/region/types",
+      "name": "SporkPGM",
+      "url": "https://searchcode.com/codesearch/view/92880018/",
+      "md5hash": "e6fd43699039adc6470289335f173ddd",
+      "lines": {
+        "128": "\t\treturn RegionUtil.cuboid(pos1, pos2, hollow);",
+        "4": "import io.sporkpgm.module.modules.region.Region;",
+        "5": "import io.sporkpgm.util.RegionUtil;",
+        "40": "\tpublic List<BlockRegion> getValues() {",
+        "41": "\t\treturn RegionUtil.cuboid(one, two);",
+        "106": "",
+        "107": "\t\treturn RegionUtil.distance(block, matched);",
+        "121": "",
+        "122": "\t\treturn RegionUtil.distance(block, matched);",
+        "92": "\t\tList<BlockRegion> regions = values(block, true);",
+        "93": "\t\treturn RegionUtil.distance(block, regions);",
+        "127": "\t\tBlockRegion pos2 = getPoints()[1];"
+      },
+      "id": 92880018,
+      "filename": "CuboidRegion.java"
+    },
+    {
+      "repo": "https://github.com/ljjuuuyyy/worldguard.git",
+      "language": "Java",
+      "linescount": 954,
+      "location": "/src/main/java/com/sk89q/worldguard/bukkit/commands",
+      "name": "worldguard",
+      "url": "https://searchcode.com/codesearch/view/66566255/",
+      "md5hash": "5c9f2926e70ca30069fcc5ff91a07a05",
+      "lines": {
+        "110": "        if (args.argsLength() > 1) {",
+        "55": "import com.sk89q.worldguard.protection.regions.ProtectedRegion.CircularInheritanceException;",
+        "56": "import com.sk89q.worldguard.util.RegionUtil;",
+        "255": "            region.setOwners(RegionUtil.parseDomainString(args.getSlice(1), 1));",
+        "254": "        if (args.argsLength() > 1) {",
+        "111": "            region.setOwners(RegionUtil.parseDomainString(args.getSlice(1), 1));"
+      },
+      "id": 66566255,
+      "filename": "RegionCommands.java"
+    },
+    {
+      "repo": "https://gitlab.com/N3X15/worldguard.git",
+      "language": "Java",
+      "linescount": 924,
+      "location": "/src/main/java/com/sk89q/worldguard/bukkit/commands",
+      "name": "worldguard",
+      "url": "https://searchcode.com/codesearch/view/114842996/",
+      "md5hash": "75e5228b11e5859270a19c13fd09b154",
+      "lines": {
+        "112": "        if (args.argsLength() > 1) {",
+        "113": "            region.setOwners(RegionUtil.parseDomainString(args.getSlice(1), 1));",
+        "55": "import com.sk89q.worldguard.protection.regions.ProtectedRegion.CircularInheritanceException;",
+        "56": "import com.sk89q.worldguard.util.RegionUtil;",
+        "250": "        if (args.argsLength() > 1) {",
+        "251": "            region.setOwners(RegionUtil.parseDomainString(args.getSlice(1), 1));"
+      },
+      "id": 114842996,
+      "filename": "RegionCommands.java"
+    },
+    {
+      "repo": "https://github.com/simba3rcks/SporkPGM.git",
+      "language": "Java",
+      "linescount": 122,
+      "location": "/src/main/java/io/sporkpgm/module/modules/region/types",
+      "name": "SporkPGM",
+      "url": "https://searchcode.com/codesearch/view/92880000/",
+      "md5hash": "7fe2ee774f57a79729b5810824b3b2c1",
+      "lines": {
+        "32": "\t\t} else if(center.isYInfinite() && !(center.isXInfinite() || center.isZInfinite())) {",
+        "33": "\t\t\tthis.values = RegionUtil.cylinder(new BlockRegion(center.getX() + \"\", \"oo\", center.getZ() + \"\"), radius, 1, hollow, false);",
+        "3": "import io.sporkpgm.module.modules.region.Region;",
+        "4": "import io.sporkpgm.util.RegionUtil;",
+        "30": "\t\tif(!(center.isXInfinite() || center.isYInfinite() || center.isZInfinite())) {",
+        "31": "\t\t\tthis.values = RegionUtil.cylinder(center, radius, height, hollow, false);"
+      },
+      "id": 92880000,
+      "filename": "CylinderRegion.java"
+    },
+    {
+      "repo": "https://github.com/simba3rcks/SporkPGM.git",
+      "language": "Java",
+      "linescount": 66,
+      "location": "/src/main/java/io/sporkpgm/module/modules/region/types",
+      "name": "SporkPGM",
+      "url": "https://searchcode.com/codesearch/view/92880002/",
+      "md5hash": "70d7a56e53127e9987cea0f9a55ed400",
+      "lines": {
+        "3": "import io.sporkpgm.util.Log;",
+        "4": "import io.sporkpgm.util.RegionUtil;",
+        "56": "",
+        "57": "\t\treturn RegionUtil.cuboid(pos1, pos2, hollow);",
+        "43": "\tpublic List<BlockRegion> getValues() {",
+        "44": "\t\treturn RegionUtil.cuboid(new BlockRegion(one.x, \"0\", one.z), new BlockRegion(two.x, \"256\", two.z));"
+      },
+      "id": 92880002,
+      "filename": "RectangleRegion.java"
+    },
+    {
+      "repo": "git://github.com/liferay/liferay-portal.git",
+      "language": "Java",
+      "linescount": 640,
+      "location": "/portal-service/src/com/liferay/portal/service/persistence",
+      "name": "liferay-portal",
+      "url": "https://searchcode.com/codesearch/view/4118557/",
+      "md5hash": "ea00b8b481c23df1fd78f8ce4ceeb27c",
+      "lines": {
+        "35": "\t * Never modify or reference this interface directly. Always use {@link RegionUtil} to access the region persistence. Modify <code>service.xml</code> and rerun ServiceBuilder to regenerate this interface.",
+        "34": "\t *",
+        "27": " * @see RegionPersistenceImpl",
+        "28": " * @see RegionUtil"
+      },
+      "id": 4118557,
+      "filename": "RegionPersistence.java"
+    },
+    {
+      "repo": "git://github.com/liferay/liferay-portal.git",
+      "language": "Java",
+      "linescount": 2589,
+      "location": "/portal-impl/src/com/liferay/portal/service/persistence",
+      "name": "liferay-portal",
+      "url": "https://searchcode.com/codesearch/view/4122034/",
+      "md5hash": "839fa6dc134fad9a34addaa5c41e8571",
+      "lines": {
+        "68": "\t *",
+        "60": " * @see RegionPersistence",
+        "61": " * @see RegionUtil",
+        "69": "\t * Never modify or reference this class directly. Always use {@link RegionUtil} to access the region persistence. Modify <code>service.xml</code> and rerun ServiceBuilder to regenerate this class."
+      },
+      "id": 4122034,
+      "filename": "RegionPersistenceImpl.java"
+    },
+    {
+      "repo": "git://github.com/liferay/liferay-portal.git",
+      "language": "Java",
+      "linescount": 2650,
+      "location": "/portal-impl/src/com/liferay/portal/service/persistence/impl",
+      "name": "liferay-portal",
+      "url": "https://searchcode.com/codesearch/view/116097562/",
+      "md5hash": "4ba4902b440230564782ececd515f551",
+      "lines": {
+        "60": " * @see RegionPersistence",
+        "61": " * @see com.liferay.portal.kernel.service.persistence.RegionUtil",
+        "70": "\t * Never modify or reference this class directly. Always use {@link RegionUtil} to access the region persistence. Modify <code>service.xml</code> and rerun ServiceBuilder to regenerate this class.",
+        "69": "\t *"
+      },
+      "id": 116097562,
+      "filename": "RegionPersistenceImpl.java"
+    },
+    {
+      "repo": "git://github.com/liferay/liferay-portal.git",
+      "language": "Java",
+      "linescount": 409,
+      "location": "/portal-impl/test/integration/com/liferay/portal/service/persistence/test",
+      "name": "liferay-portal",
+      "url": "https://searchcode.com/codesearch/view/116093387/",
+      "md5hash": "7840014a32373c40c8df15c7d56e7575",
+      "lines": {
+        "24": "import com.liferay.portal.kernel.service.persistence.RegionPersistence;",
+        "25": "import com.liferay.portal.kernel.service.persistence.RegionUtil;",
+        "66": "\t\t_persistence = RegionUtil.getPersistence();",
+        "65": "\tpublic void setUp() {"
+      },
+      "id": 116093387,
+      "filename": "RegionPersistenceTest.java"
+    },
+    {
+      "repo": "https://github.com/simba3rcks/SporkPGM.git",
+      "language": "Java",
+      "linescount": 93,
+      "location": "/src/main/java/io/sporkpgm/module/modules/region/types",
+      "name": "SporkPGM",
+      "url": "https://searchcode.com/codesearch/view/92880011/",
+      "md5hash": "49bd2a4d0f40e1fd950f333dc957d19d",
+      "lines": {
+        "28": "\t\tif(!(center.isXInfinite() || center.isYInfinite() || center.isZInfinite())) {",
+        "3": "import io.sporkpgm.module.modules.region.Region;",
+        "4": "import io.sporkpgm.util.RegionUtil;",
+        "29": "\t\t\tthis.values = RegionUtil.sphere(center, radius, hollow);"
+      },
+      "id": 92880011,
+      "filename": "SphereRegion.java"
+    },
+    {
+      "repo": "https://github.com/simba3rcks/SporkPGM.git",
+      "language": "Java",
+      "linescount": 89,
+      "location": "/src/main/java/io/sporkpgm/module/modules/spawn",
+      "name": "SporkPGM",
+      "url": "https://searchcode.com/codesearch/view/92880072/",
+      "md5hash": "69e0dc77fd392e7958b0df2547396489",
+      "lines": {
+        "9": "import io.sporkpgm.util.Log;",
+        "10": "import io.sporkpgm.util.RegionUtil;",
+        "69": "",
+        "70": "\t\tLocation spawn = RegionUtil.getRandom(values).getLocation(world);"
+      },
+      "id": 92880072,
+      "filename": "SpawnModule.java"
+    },
+    {
+      "repo": "https://github.com/nnikos123/onebusaway-android.git",
+      "language": "Java",
+      "linescount": 234,
+      "location": "/onebusaway-android/src/main/java/com/joulespersecond/oba/region",
+      "name": "onebusaway-android",
+      "url": "https://searchcode.com/codesearch/view/92390748/",
+      "md5hash": "8d4f8ef37823909c88c2035e0fd11b05",
+      "lines": {
+        "184": "            if (RegionUtils.isRegionUsable(region)) {",
+        "116": "    protected ArrayList<ObaRegion> doInBackground(Void... params) {",
+        "117": "        return RegionUtils.getRegions(mContext, mForceReload);",
+        "151": "                } else {",
+        "152": "                    //No region has been set, and we couldn't find a usable region based on RegionUtil.isRegionUsable()",
+        "183": "        for (ObaRegion region : result) {",
+        "140": "",
+        "141": "            ObaRegion closestRegion = RegionUtils.getClosestRegion(results, myLocation);"
+      },
+      "id": 92390748,
+      "filename": "ObaRegionsTask.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 17,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 2,
+      "source": "GitLab",
+      "id": 13
+    }
+  ]
+}

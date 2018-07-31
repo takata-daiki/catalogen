@@ -1,0 +1,107 @@
+{
+  "matchterm": "PlexOfCps",
+  "previouspage": null,
+  "searchterm": "PlexOfCps",
+  "query": "PlexOfCps",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "https://github.com/isdom/POI-Android.git",
+      "language": "Java",
+      "linescount": 168,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hwpf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/88635600/",
+      "md5hash": "4fdb8879b881e2e5c24c5fc59b1fec83",
+      "lines": {
+        "129": "",
+        "130": "        return new PlexOfCps( tableStream, start, length, FLD_SIZE );",
+        "133": "    private int savePlex( FileInformationBlock fib, FieldsDocumentPart part,",
+        "134": "            PlexOfCps plexOfCps, HWPFOutputStream outputStream )",
+        "161": "        {",
+        "136": "    {",
+        "137": "        if ( plexOfCps == null || plexOfCps.length() == 0 )",
+        "144": "        byte[] data = plexOfCps.toByteArray();",
+        "162": "            PlexOfCps plexOfCps = _tables.get( part );",
+        "78": "",
+        "79": "    private static ArrayList<PlexOfField> toArrayList( PlexOfCps plexOfCps )",
+        "80": "    {",
+        "81": "        if ( plexOfCps == null )",
+        "84": "        ArrayList<PlexOfField> fields = new ArrayList<PlexOfField>(",
+        "85": "                plexOfCps.length() );",
+        "86": "        for ( int i = 0; i < plexOfCps.length(); i++ )",
+        "143": ""
+      },
+      "id": 88635600,
+      "filename": "FieldsTables.java"
+    },
+    {
+      "repo": "https://bitbucket.org/AlexeyD/hibench.git",
+      "language": "Java",
+      "linescount": 78,
+      "location": "/nutchindexing/nutch-1.2/src/plugin/parse-msword/src/java/org/apache/nutch/parse/msword/chp",
+      "name": "hibench",
+      "url": "https://searchcode.com/codesearch/view/48925102/",
+      "md5hash": "335f3012a4cdb326e87a971e5f16db15",
+      "lines": {
+        "49": "  {",
+        "50": "    PlexOfCps binTable = new PlexOfCps(documentStream, offset, size, 2);"
+      },
+      "id": 48925102,
+      "filename": "Word6CHPBinTable.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 764,
+      "location": "/src/org/apache/poi/hwpf/dev",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384386/",
+      "md5hash": "a5fd3aeec9338ae1535ca742a1539e0e",
+      "lines": {
+        "49": "import org.apache.poi.hwpf.model.PAPX;",
+        "50": "import org.apache.poi.hwpf.model.PlexOfCps;",
+        "539": "            PlexOfCps binTable = new PlexOfCps( doc.getTableStream(), doc",
+        "538": ""
+      },
+      "id": 97384386,
+      "filename": "HWPFLister.java"
+    },
+    {
+      "repo": "https://github.com/lritter/gnutch.git",
+      "language": "Java",
+      "linescount": 78,
+      "location": "/src/plugin/parse-msword/src/java/org/apache/nutch/parse/msword/chp",
+      "name": "gnutch",
+      "url": "https://searchcode.com/codesearch/view/138792454/",
+      "md5hash": "9f64be8561522db0e4d9579bd2ebb7b5",
+      "lines": {
+        "49": "  {",
+        "50": "    PlexOfCps binTable = new PlexOfCps(documentStream, offset, size, 2);"
+      },
+      "id": 138792454,
+      "filename": "Word6CHPBinTable.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

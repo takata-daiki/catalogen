@@ -1,0 +1,99 @@
+{
+  "matchterm": "AreaPtgBase",
+  "previouspage": null,
+  "searchterm": "AreaPtgBase",
+  "query": "AreaPtgBase",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/manticoretrader/etltools",
+      "language": "Java",
+      "linescount": 297,
+      "location": "/src/com/manticore/report",
+      "name": "etltools",
+      "url": "https://searchcode.com/codesearch/view/121321570/",
+      "md5hash": "7585d5862f58929ffd0917b3367eea3f",
+      "lines": {
+        "128": "\t\t\t\t\t\t\t\t\t\t\t\t(short) (newCell.getColumnIndex() - (oldCell.getColumnIndex() - areaPtgBase.getLastColumn())));",
+        "129": "\t\t\t\t\t\t\t\t\t\t}",
+        "107": "\t\t\t\t\t\t\t\t\t}",
+        "108": "\t\t\t\t\t\t\t\t\tif (ptg instanceof AreaPtgBase) {",
+        "11": "import org.apache.poi.ss.formula.*;",
+        "12": "import org.apache.poi.ss.formula.ptg.AreaPtgBase;",
+        "109": "\t\t\t\t\t\t\t\t\t\tAreaPtgBase areaPtgBase = (AreaPtgBase) ptg;",
+        "110": "\t\t\t\t\t\t\t\t\t\t// if first row is relative",
+        "111": "\t\t\t\t\t\t\t\t\t\tif (areaPtgBase.isFirstRowRelative() && areaPtgBase.getFirstRow() > oldCell.getRowIndex()) {",
+        "112": "\t\t\t\t\t\t\t\t\t\t\tareaPtgBase.setFirstRow(",
+        "113": "\t\t\t\t\t\t\t\t\t\t\t\t(short) (newCell.getRowIndex() - (oldCell.getRowIndex() - areaPtgBase.getFirstRow())));",
+        "114": "\t\t\t\t\t\t\t\t\t\t}",
+        "115": "\t\t\t\t\t\t\t\t\t\t// if last row is relative",
+        "116": "\t\t\t\t\t\t\t\t\t\tif (areaPtgBase.isLastRowRelative()) {",
+        "117": "\t\t\t\t\t\t\t\t\t\t\tareaPtgBase.setLastRow(",
+        "127": "\t\t\t\t\t\t\t\t\t\t\tareaPtgBase.setLastColumn("
+      },
+      "id": 121321570,
+      "filename": "ExcelTools.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 5111,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970697/",
+      "md5hash": "f6740268ba4be4778508748ca1c3becc",
+      "lines": {
+        "1921": "\t",
+        "1896": "\t\t\tfinal AreaPtgBase aptg = (AreaPtgBase) ptg;",
+        "1922": "\tprivate static Ptg aptgSetRowCol(AreaPtgBase ptg, Cell dstCell, int nrow, int ncol, SpreadsheetVersion ver) {",
+        "1878": "\tprivate static Ptg aptgValidate(AreaPtgBase aptg , int row1, int row2, int col1, int col2, SpreadsheetVersion ver) {",
+        "1877": "\t",
+        "1894": "\t\t}",
+        "1895": "\t\tif(ptg instanceof AreaPtgBase) {",
+        "72": "import org.zkoss.poi.ss.formula.ptg.Area3DPtg;",
+        "73": "import org.zkoss.poi.ss.formula.ptg.AreaPtgBase;",
+        "1897": "\t\t\treturn aptgSetRowCol(aptg, dstCell, offRow, offCol, ver);"
+      },
+      "id": 3970697,
+      "filename": "BookHelper.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 163,
+      "location": "/zss/src/org/zkoss/poi/ss/formula",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970569/",
+      "md5hash": "6c4cf9a355470c2f624993f5b0758c74",
+      "lines": {
+        "24": "import org.zkoss.poi.ss.formula.function.FunctionMetadataRegistry;",
+        "25": "import org.zkoss.poi.ss.formula.ptg.AreaPtgBase;",
+        "124": "\t\t\t\t}",
+        "125": "\t\t\t} else if (ptg instanceof AreaPtgBase || ptg instanceof RefPtgBase) {"
+      },
+      "id": 3970569,
+      "filename": "DefaultDependencyTracker.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

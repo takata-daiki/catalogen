@@ -1,0 +1,478 @@
+{
+  "matchterm": "PNG",
+  "previouspage": null,
+  "searchterm": "PNG",
+  "query": "PNG",
+  "language_filters": [
+    {
+      "count": 47814,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 47812,
+  "results": [
+    {
+      "repo": "https://github.com/bioclipse/bioclipse.joelib.git",
+      "language": "Java",
+      "linescount": 90,
+      "location": "/externals/net.sourceforge.joelib/src/joelib2/io/types",
+      "name": "bioclipse.joelib",
+      "url": "https://searchcode.com/codesearch/view/111498039/",
+      "md5hash": "048ced5453c7fdc4988786eb733c4127",
+      "lines": {
+        "1": "///////////////////////////////////////////////////////////////////////////////",
+        "2": "//  Filename: $RCSfile: PNG.java,v $",
+        "37": "/**",
+        "38": " * Writer for a Portable Network Graphics (PNG) image.",
+        "40": " * @.author     wegnerj",
+        "41": " * @.wikipedia  PNG",
+        "74": "        //PngEncoder png = new PngEncoder(image, true);",
+        "75": "        //byte[] pngbytes = png.pngEncode();",
+        "76": "        //os.write(pngbytes);",
+        "45": " */",
+        "46": "public class PNG extends BasicImageWriter",
+        "77": "        // alternative ???",
+        "73": "        // Chemaxxon Marvin stuff",
+        "56": "        \"Portable Network Graphics (PNG) image\";",
+        "57": "    private static final String[] extensions = new String[]{\"png\"};",
+        "58": ""
+      },
+      "id": 111498039,
+      "filename": "PNG.java"
+    },
+    {
+      "repo": "https://bitbucket.org/larsho/opensource",
+      "language": "Java",
+      "linescount": 110,
+      "location": "/com.objectgeneration.graphics/unused",
+      "name": "opensource",
+      "url": "https://searchcode.com/codesearch/view/57177441/",
+      "md5hash": "832d7b399d1cb5fa7d6d764d7c67a925",
+      "lines": {
+        "51": "      encoder.setCompressionLevel(8);",
+        "35": "//  /** Needed by serialization. */",
+        "36": "//  public Png() {}",
+        "37": "",
+        "38": "  public Png(BufferedImage inpImg)",
+        "47": "  {",
+        "48": "    if(png == null) // In case run() is called when encoding is already done.",
+        "49": "    {",
+        "50": "      PngEncoder encoder = new PngEncoder(img);",
+        "19": "// ----------------------------------------------------------------------------",
+        "20": "// Class for asynchronously generating and writing a PNG image.",
+        "28": "// ----------------------------------------------------------------------------",
+        "29": "public class Png implements Runnable // , Externalizable",
+        "30": "{",
+        "31": "  private byte[] png;"
+      },
+      "id": 57177441,
+      "filename": "Png.java"
+    },
+    {
+      "repo": "https://github.com/longkerdandy/chii2.git",
+      "language": "Java",
+      "linescount": 34,
+      "location": "/transcoder.core/src/main/java/org/chii2/transcoder/core/dlna/catalog",
+      "name": "chii2",
+      "url": "https://searchcode.com/codesearch/view/112621026/",
+      "md5hash": "a6470fd4af89f6c51f609cc62f4cab78",
+      "lines": {
+        "7": "/**",
+        "8": " * PNG",
+        "9": " */",
+        "10": "public class PNG extends ImageCatalog {",
+        "11": "    public PNG() {",
+        "12": "        // PNG_SM_ICO",
+        "13": "        profileMap.put(DLNAProfiles.PNG_SM_ICO, new ImageRestriction[]{",
+        "14": "                new TypeRestriction(ImageType.PNG),",
+        "15": "                new SizeRestriction(48, 48)",
+        "16": "        });",
+        "17": "        // PNG_LRG_ICO",
+        "18": "        profileMap.put(DLNAProfiles.PNG_LRG_ICO, new ImageRestriction[]{",
+        "19": "                new TypeRestriction(ImageType.PNG),",
+        "20": "                new SizeRestriction(120, 120)",
+        "21": "        });",
+        "22": "        // PNG_TN",
+        "23": "        profileMap.put(DLNAProfiles.PNG_TN, new ImageRestriction[]{"
+      },
+      "id": 112621026,
+      "filename": "PNG.java"
+    },
+    {
+      "repo": "https://bitbucket.org/crunchiness/vuze.git",
+      "language": "Java",
+      "linescount": 57,
+      "location": "/AZ-SVN/azureus2/src/com/aelitis/azureus/core/util/png",
+      "name": "vuze",
+      "url": "https://searchcode.com/codesearch/view/44081309/",
+      "md5hash": "fdf15bdc7c1a77152bc61daedb0bae39",
+      "lines": {
+        "32": "\t",
+        "33": "\tpublic static byte[] getPNGBytesForSize(int width,int height) {",
+        "34": "\t\tbyte[] signature = new PngSignatureChunk().getChunkPayload();",
+        "35": "\t\tbyte[] ihdr = new IHDRChunk(width,height).getChunkPayload();",
+        "49": "\tpublic static void main(String args[]) throws Exception {",
+        "50": "\t\tFile test = new File(\"/Users/olivier/Desktop/test.png\");",
+        "51": "\t\tFileOutputStream fos = new FileOutputStream(test);",
+        "20": "",
+        "21": "package com.aelitis.azureus.core.util.png;",
+        "52": "\t\tfos.write(getPNGBytesForSize(600,400));",
+        "26": "",
+        "27": "public class PNG {",
+        "28": "\t",
+        "29": "\tpublic static byte[] getPNGBytesForWidth(int width) {",
+        "30": "\t\treturn getPNGBytesForSize(width,1);"
+      },
+      "id": 44081309,
+      "filename": "PNG.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 78,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/blip",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394532/",
+      "md5hash": "615f0a394a43a2e3c400ed852e3ba128",
+      "lines": {
+        "33": " */",
+        "34": "public final class PNG extends Bitmap {",
+        "36": "    /**",
+        "37": "     * @return PNG data",
+        "40": "         byte[] data = super.getData();",
+        "41": "          //PNG created on MAC may have a 16-byte prefix which prevents successful reading.",
+        "44": "//\t\t  if (bi == null){",
+        "45": "//\t\t      byte[] png = new byte[data.length-16];",
+        "46": "//\t\t      System.arraycopy(data, 16, png, 0, png.length);",
+        "47": "//\t\t      data = png;",
+        "48": "//\t\t  }",
+        "52": "\t\tif (!ImageIO.canDecode(new ByteArrayInputStream(data))) {",
+        "53": "\t\t\tbyte[] png = new byte[data.length - 16];",
+        "54": "\t\t\tSystem.arraycopy(data, 16, png, 0, png.length);",
+        "29": "/**",
+        "30": " * Represents a PNG picture data in a PPT file"
+      },
+      "id": 97394532,
+      "filename": "PNG.java"
+    },
+    {
+      "repo": "https://bitbucket.org/longkerdandy/chii2",
+      "language": "Java",
+      "linescount": 34,
+      "location": "/transcoder.core/src/main/java/org/chii2/transcoder/core/dlna/catalog",
+      "name": "chii2",
+      "url": "https://searchcode.com/codesearch/view/125239615/",
+      "md5hash": "a6470fd4af89f6c51f609cc62f4cab78",
+      "lines": {
+        "7": "/**",
+        "8": " * PNG",
+        "9": " */",
+        "10": "public class PNG extends ImageCatalog {",
+        "11": "    public PNG() {",
+        "12": "        // PNG_SM_ICO",
+        "13": "        profileMap.put(DLNAProfiles.PNG_SM_ICO, new ImageRestriction[]{",
+        "14": "                new TypeRestriction(ImageType.PNG),",
+        "15": "                new SizeRestriction(48, 48)",
+        "16": "        });",
+        "17": "        // PNG_LRG_ICO",
+        "18": "        profileMap.put(DLNAProfiles.PNG_LRG_ICO, new ImageRestriction[]{",
+        "19": "                new TypeRestriction(ImageType.PNG),",
+        "20": "                new SizeRestriction(120, 120)",
+        "21": "        });",
+        "22": "        // PNG_TN",
+        "23": "        profileMap.put(DLNAProfiles.PNG_TN, new ImageRestriction[]{"
+      },
+      "id": 125239615,
+      "filename": "PNG.java"
+    },
+    {
+      "repo": "https://bitbucket.org/wrapman/frostwire.desktop.translations.pirate",
+      "language": "Java",
+      "linescount": 57,
+      "location": "/components/azureus/src/main/java/com/aelitis/azureus/core/util/png",
+      "name": "frostwire.desktop.translations.pirate",
+      "url": "https://searchcode.com/codesearch/view/125750098/",
+      "md5hash": "fdf15bdc7c1a77152bc61daedb0bae39",
+      "lines": {
+        "32": "\t",
+        "33": "\tpublic static byte[] getPNGBytesForSize(int width,int height) {",
+        "34": "\t\tbyte[] signature = new PngSignatureChunk().getChunkPayload();",
+        "35": "\t\tbyte[] ihdr = new IHDRChunk(width,height).getChunkPayload();",
+        "49": "\tpublic static void main(String args[]) throws Exception {",
+        "50": "\t\tFile test = new File(\"/Users/olivier/Desktop/test.png\");",
+        "51": "\t\tFileOutputStream fos = new FileOutputStream(test);",
+        "20": "",
+        "21": "package com.aelitis.azureus.core.util.png;",
+        "52": "\t\tfos.write(getPNGBytesForSize(600,400));",
+        "26": "",
+        "27": "public class PNG {",
+        "28": "\t",
+        "29": "\tpublic static byte[] getPNGBytesForWidth(int width) {",
+        "30": "\t\treturn getPNGBytesForSize(width,1);"
+      },
+      "id": 125750098,
+      "filename": "PNG.java"
+    },
+    {
+      "repo": "https://bitbucket.org/varialus/harmony",
+      "language": "Java",
+      "linescount": 35,
+      "location": "/enhanced/java/trunk/classlib/modules/awt/src/main/java/common/org/apache/harmony/awt/www/content/image",
+      "name": "harmony",
+      "url": "https://searchcode.com/codesearch/view/131529924/",
+      "md5hash": "40d6291ae172166af9d84aa2c39b3274",
+      "lines": {
+        "26": "/**",
+        "27": " * image/png content handler.",
+        "28": " */",
+        "29": "public class png extends ContentHandler {"
+      },
+      "id": 131529924,
+      "filename": "png.java"
+    },
+    {
+      "repo": "https://bitbucket.org/varialus/harmony",
+      "language": "Java",
+      "linescount": 35,
+      "location": "/enhanced/java/branches/omd/classlib/modules/awt/src/main/java/common/org/apache/harmony/awt/www/content/image",
+      "name": "harmony",
+      "url": "https://searchcode.com/codesearch/view/131541322/",
+      "md5hash": "40d6291ae172166af9d84aa2c39b3274",
+      "lines": {
+        "26": "/**",
+        "27": " * image/png content handler.",
+        "28": " */",
+        "29": "public class png extends ContentHandler {"
+      },
+      "id": 131541322,
+      "filename": "png.java"
+    },
+    {
+      "repo": "https://bitbucket.org/varialus/harmony",
+      "language": "Java",
+      "linescount": 35,
+      "location": "/enhanced/java/branches/mrh/classlib/modules/awt/src/main/java/common/org/apache/harmony/awt/www/content/image",
+      "name": "harmony",
+      "url": "https://searchcode.com/codesearch/view/131554815/",
+      "md5hash": "40d6291ae172166af9d84aa2c39b3274",
+      "lines": {
+        "26": "/**",
+        "27": " * image/png content handler.",
+        "28": " */",
+        "29": "public class png extends ContentHandler {"
+      },
+      "id": 131554815,
+      "filename": "png.java"
+    },
+    {
+      "repo": "https://bitbucket.org/varialus/dissonance",
+      "language": "Java",
+      "linescount": 35,
+      "location": "/enhanced/java/branches/mrh/classlib/modules/awt/src/main/java/common/org/apache/harmony/awt/www/content/image",
+      "name": "dissonance",
+      "url": "https://searchcode.com/codesearch/view/131568374/",
+      "md5hash": "40d6291ae172166af9d84aa2c39b3274",
+      "lines": {
+        "26": "/**",
+        "27": " * image/png content handler.",
+        "28": " */",
+        "29": "public class png extends ContentHandler {"
+      },
+      "id": 131568374,
+      "filename": "png.java"
+    },
+    {
+      "repo": "https://bitbucket.org/varialus/harmony",
+      "language": "Java",
+      "linescount": 35,
+      "location": "/enhanced/java/branches/java6/classlib/modules/awt/src/main/java/common/org/apache/harmony/awt/www/content/image",
+      "name": "harmony",
+      "url": "https://searchcode.com/codesearch/view/131573489/",
+      "md5hash": "40d6291ae172166af9d84aa2c39b3274",
+      "lines": {
+        "26": "/**",
+        "27": " * image/png content handler.",
+        "28": " */",
+        "29": "public class png extends ContentHandler {"
+      },
+      "id": 131573489,
+      "filename": "png.java"
+    },
+    {
+      "repo": "https://bitbucket.org/varialus/dissonance",
+      "language": "Java",
+      "linescount": 35,
+      "location": "/enhanced/java/branches/omd/classlib/modules/awt/src/main/java/common/org/apache/harmony/awt/www/content/image",
+      "name": "dissonance",
+      "url": "https://searchcode.com/codesearch/view/131598897/",
+      "md5hash": "40d6291ae172166af9d84aa2c39b3274",
+      "lines": {
+        "26": "/**",
+        "27": " * image/png content handler.",
+        "28": " */",
+        "29": "public class png extends ContentHandler {"
+      },
+      "id": 131598897,
+      "filename": "png.java"
+    },
+    {
+      "repo": "https://bitbucket.org/varialus/dissonance",
+      "language": "Java",
+      "linescount": 35,
+      "location": "/enhanced/java/branches/java6/classlib/modules/awt/src/main/java/common/org/apache/harmony/awt/www/content/image",
+      "name": "dissonance",
+      "url": "https://searchcode.com/codesearch/view/131635217/",
+      "md5hash": "40d6291ae172166af9d84aa2c39b3274",
+      "lines": {
+        "26": "/**",
+        "27": " * image/png content handler.",
+        "28": " */",
+        "29": "public class png extends ContentHandler {"
+      },
+      "id": 131635217,
+      "filename": "png.java"
+    },
+    {
+      "repo": "https://bitbucket.org/varialus/dissonance",
+      "language": "Java",
+      "linescount": 35,
+      "location": "/enhanced/java/trunk/classlib/modules/awt/src/main/java/common/org/apache/harmony/awt/www/content/image",
+      "name": "dissonance",
+      "url": "https://searchcode.com/codesearch/view/131653203/",
+      "md5hash": "40d6291ae172166af9d84aa2c39b3274",
+      "lines": {
+        "26": "/**",
+        "27": " * image/png content handler.",
+        "28": " */",
+        "29": "public class png extends ContentHandler {"
+      },
+      "id": 131653203,
+      "filename": "png.java"
+    },
+    {
+      "repo": "https://bitbucket.org/weijun/jdk8-tl-jdk",
+      "language": "Java",
+      "linescount": 52,
+      "location": "/src/share/classes/sun/net/www/content/image",
+      "name": "jdk8-tl-jdk",
+      "url": "https://searchcode.com/codesearch/view/123108826/",
+      "md5hash": "14aa6d6976a06e0ae9e778fa90c80819",
+      "lines": {
+        "33": "",
+        "34": "public class png extends ContentHandler {"
+      },
+      "id": 123108826,
+      "filename": "png.java"
+    },
+    {
+      "repo": "git://github.com/GregBowyer/ManagedRuntimeInitiative.git",
+      "language": "Java",
+      "linescount": 55,
+      "location": "/MRI-J/jdk/src/share/classes/sun/net/www/content/image",
+      "name": "ManagedRuntimeInitiative",
+      "url": "https://searchcode.com/codesearch/view/17106862/",
+      "md5hash": "45d8bbab3c4f16dae4a9e24d467b55c6",
+      "lines": {
+        "36": "",
+        "37": "public class png extends ContentHandler {"
+      },
+      "id": 17106862,
+      "filename": "png.java"
+    },
+    {
+      "repo": "https://bitbucket.org/hamishm/haiku-jdk-jdk",
+      "language": "Java",
+      "linescount": 55,
+      "location": "/src/share/classes/sun/net/www/content/image",
+      "name": "haiku-jdk-jdk",
+      "url": "https://searchcode.com/codesearch/view/127231255/",
+      "md5hash": "92c9c2172ac623c14e550e985b69fd1d",
+      "lines": {
+        "36": "",
+        "37": "public class png extends ContentHandler {"
+      },
+      "id": 127231255,
+      "filename": "png.java"
+    },
+    {
+      "repo": "https://bitbucket.org/chegar/jigsaw_jigsaw_jdk",
+      "language": "Java",
+      "linescount": 53,
+      "location": "/src/share/classes/sun/net/www/content/image",
+      "name": "jigsaw_jigsaw_jdk",
+      "url": "https://searchcode.com/codesearch/view/129548989/",
+      "md5hash": "cbe44232438841e492a1032931662d9c",
+      "lines": {
+        "33": "",
+        "34": "public class png extends ContentHandler {"
+      },
+      "id": 129548989,
+      "filename": "png.java"
+    },
+    {
+      "repo": "https://bitbucket.org/chegar/jigsaw_modulefileparser",
+      "language": "Java",
+      "linescount": 53,
+      "location": "/src/share/classes/sun/net/www/content/image",
+      "name": "jigsaw_modulefileparser",
+      "url": "https://searchcode.com/codesearch/view/129568726/",
+      "md5hash": "cbe44232438841e492a1032931662d9c",
+      "lines": {
+        "33": "",
+        "34": "public class png extends ContentHandler {"
+      },
+      "id": 129568726,
+      "filename": "png.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 24998,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 14800,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 6602,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 682,
+      "source": "Sourceforge",
+      "id": 4
+    },
+    {
+      "count": 467,
+      "source": "GitLab",
+      "id": 13
+    },
+    {
+      "count": 142,
+      "source": "Google Android",
+      "id": 12
+    },
+    {
+      "count": 80,
+      "source": "CodePlex",
+      "id": 5
+    },
+    {
+      "count": 30,
+      "source": "Gitorious",
+      "id": 10
+    },
+    {
+      "count": 13,
+      "source": "Unknown",
+      "id": 0
+    }
+  ]
+}

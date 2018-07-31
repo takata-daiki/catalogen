@@ -1,0 +1,167 @@
+{
+  "matchterm": "XSLFSimpleShape",
+  "previouspage": null,
+  "searchterm": "XSLFSimpleShape",
+  "query": "XSLFSimpleShape",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 972,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406763/",
+      "md5hash": "90e9bcad3d44264dac9d11db9a001e3f",
+      "lines": {
+        "448": "        PropertyFetcher<LineCap> fetcher = new PropertyFetcher<LineCap>() {",
+        "449": "            public boolean fetch(XSLFSimpleShape shape) {",
+        "73": "@Beta",
+        "74": "public abstract class XSLFSimpleShape extends XSLFShape {",
+        "398": "        PropertyFetcher<LineDash> fetcher = new PropertyFetcher<LineDash>() {",
+        "399": "            public boolean fetch(XSLFSimpleShape shape) {",
+        "176": "        PropertyFetcher<CTTransform2D> fetcher = new PropertyFetcher<CTTransform2D>() {",
+        "177": "            public boolean fetch(XSLFSimpleShape shape) {",
+        "83": "",
+        "84": "    /* package */XSLFSimpleShape(XmlObject shape, XSLFSheet sheet) {",
+        "341": "        PropertyFetcher<Double> fetcher = new PropertyFetcher<Double>() {",
+        "342": "            public boolean fetch(XSLFSimpleShape shape) {",
+        "591": "        XSLFSimpleShape masterShape;",
+        "590": "",
+        "670": "",
+        "671": "        XSLFSimpleShape s = (XSLFSimpleShape)sh;"
+      },
+      "id": 97406763,
+      "filename": "XSLFSimpleShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 555,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406768/",
+      "md5hash": "06c77456c926d8545168347abe70a1d6",
+      "lines": {
+        "64": "    private List<XSLFTextShape>_placeholders;",
+        "65": "    private Map<Integer, XSLFSimpleShape> _placeholderByIdMap;",
+        "66": "    private Map<Integer, XSLFSimpleShape> _placeholderByTypeMap;",
+        "67": "",
+        "392": "",
+        "393": "    XSLFSimpleShape getPlaceholder(CTPlaceholder ph) {",
+        "394": "        XSLFSimpleShape shape = null;",
+        "395": "        if(ph.isSetIdx()) shape = getPlaceholderById((int)ph.getIdx());",
+        "428": "    XSLFSimpleShape getPlaceholderById(int id) {",
+        "432": "",
+        "433": "    XSLFSimpleShape getPlaceholderByType(int ordinal) {",
+        "405": "            _placeholders = new ArrayList<XSLFTextShape>();",
+        "406": "            _placeholderByIdMap = new HashMap<Integer, XSLFSimpleShape>();",
+        "407": "            _placeholderByTypeMap = new HashMap<Integer, XSLFSimpleShape>();",
+        "427": ""
+      },
+      "id": 97406768,
+      "filename": "XSLFSheet.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 634,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406799/",
+      "md5hash": "6e68dd3c8ec32b1c5501783941fcea98",
+      "lines": {
+        "80": "    public RenderableShape(XSLFSimpleShape shape){",
+        "353": "        PropertyFetcher<Paint> fetcher = new PropertyFetcher<Paint>() {",
+        "354": "            public boolean fetch(XSLFSimpleShape shape) {",
+        "403": "        PropertyFetcher<Paint> fetcher = new PropertyFetcher<Paint>() {",
+        "404": "            public boolean fetch(XSLFSimpleShape shape) {",
+        "77": "",
+        "78": "    private XSLFSimpleShape _shape;",
+        "79": ""
+      },
+      "id": 97406799,
+      "filename": "RenderableShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 139,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406680/",
+      "md5hash": "35e574a12d2825ac88afdc4bb8e7e334",
+      "lines": {
+        "34": " */",
+        "35": "public class XSLFShadow extends XSLFSimpleShape {",
+        "36": "",
+        "37": "    private XSLFSimpleShape _parent;",
+        "38": "",
+        "39": "    /* package */XSLFShadow(CTOuterShadowEffect shape, XSLFSimpleShape parentShape) {"
+      },
+      "id": 97406680,
+      "filename": "XSLFShadow.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 162,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406705/",
+      "md5hash": "3cf6ae3d47d4aecb9c8db82efffb3346",
+      "lines": {
+        "49": "@Beta",
+        "50": "public class XSLFPictureShape extends XSLFSimpleShape {"
+      },
+      "id": 97406705,
+      "filename": "XSLFPictureShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 617,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406813/",
+      "md5hash": "bf44107253290c5472d69b4baedf81f5",
+      "lines": {
+        "56": "public abstract class XSLFTextShape extends XSLFSimpleShape implements Iterable<XSLFTextParagraph>{",
+        "55": "@Beta"
+      },
+      "id": 97406813,
+      "filename": "XSLFTextShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 109,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406821/",
+      "md5hash": "f259ec227f81c8d728d9e1a1d81f293e",
+      "lines": {
+        "40": "public class XSLFBackground extends XSLFSimpleShape {",
+        "39": " */"
+      },
+      "id": 97406821,
+      "filename": "XSLFBackground.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

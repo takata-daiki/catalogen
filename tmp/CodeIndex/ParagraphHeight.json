@@ -1,0 +1,52 @@
+{
+  "matchterm": "ParagraphHeight",
+  "previouspage": null,
+  "searchterm": "ParagraphHeight",
+  "query": "ParagraphHeight",
+  "language_filters": [
+    {
+      "count": 1,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 1,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 369,
+      "location": "/src/org/apache/poi/hwpf/model",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384195/",
+      "md5hash": "4b50336a137f1a24d0274bce878f8610",
+      "lines": {
+        "355": "    /**",
+        "356": "     * Used to get the ParagraphHeight of a PAPX at a particular index.",
+        "101": "                PAPX papx = new PAPX( range[0], range[1], getGrpprl( x ),",
+        "358": "     * @return The ParagraphHeight",
+        "263": "            papx = _papxList.get( x );",
+        "264": "            byte[] phe = papx.getParagraphHeight().toByteArray();",
+        "363": "",
+        "359": "     */",
+        "364": "      ParagraphHeight phe = new ParagraphHeight(_fkp, pheOffset);",
+        "360": "    private ParagraphHeight getParagraphHeight(int index)",
+        "95": "            // getParagraphHeight( x ), dataStream );",
+        "102": "                        getParagraphHeight( x ), dataStream );",
+        "94": "            // PAPX papx = new PAPX( charStartAt, charEndAt, getGrpprl( x ),",
+        "357": "     * @param index"
+      },
+      "id": 97384195,
+      "filename": "PAPFormattedDiskPage.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "matchterm": "VCenterRecord",
+  "previouspage": null,
+  "searchterm": "VCenterRecord",
+  "query": "VCenterRecord",
+  "language_filters": [
+    {
+      "count": 5,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 5,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 150,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642507/",
+      "md5hash": "65ff12ee786b2067e802ba0a5c9080b8",
+      "lines": {
+        "144": "    public Object clone() {",
+        "145": "      VCenterRecord rec = new VCenterRecord();",
+        "70": "    public VCenterRecord(RecordInputStream in)",
+        "69": "",
+        "54": "",
+        "55": "public class VCenterRecord",
+        "60": "",
+        "61": "    public VCenterRecord()"
+      },
+      "id": 15642507,
+      "filename": "VCenterRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1607,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642322/",
+      "md5hash": "5084cc24e46752bd3911d5d0a983e0a6",
+      "lines": {
+        "544": "        VCenterRecord record =",
+        "545": "                (VCenterRecord) sheet.findFirstRecordBySid(VCenterRecord.sid);",
+        "546": "",
+        "531": "    {",
+        "532": "        VCenterRecord record =",
+        "533": "                (VCenterRecord) sheet.findFirstRecordBySid(VCenterRecord.sid);",
+        "534": "",
+        "543": "    {"
+      },
+      "id": 15642322,
+      "filename": "HSSFSheet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 3300,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642365/",
+      "md5hash": "1e8d548d196dc1063c30d9430b35b9f5",
+      "lines": {
+        "1682": "    {",
+        "1683": "        VCenterRecord retval = new VCenterRecord();",
+        "1675": "     * creates the VCenter Record and sets it to false (don't horizontally center)",
+        "1676": "     * @see loci.poi.hssf.record.VCenterRecord",
+        "1677": "     * @see loci.poi.hssf.record.Record",
+        "1678": "     * @return record containing a VCenterRecord"
+      },
+      "id": 15642365,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642343/",
+      "md5hash": "468caa59753e7c2d27a76f3903f70894",
+      "lines": {
+        "124": "import loci.poi.hssf.record.UseSelFSRecord;",
+        "125": "import loci.poi.hssf.record.VCenterRecord;",
+        "174": "                FooterRecord.class, HCenterRecord.class, VCenterRecord.class,",
+        "173": "                DefaultRowHeightRecord.class, WSBoolRecord.class, HeaderRecord.class,"
+      },
+      "id": 15642343,
+      "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "83": "                DefaultRowHeightRecord.class, WSBoolRecord.class, HeaderRecord.class,",
+        "84": "                FooterRecord.class, HCenterRecord.class, VCenterRecord.class,"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 5,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

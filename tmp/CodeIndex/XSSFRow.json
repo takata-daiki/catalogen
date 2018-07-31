@@ -1,0 +1,480 @@
+{
+  "matchterm": "XSSFRow",
+  "previouspage": null,
+  "searchterm": "XSSFRow",
+  "query": "XSSFRow",
+  "language_filters": [
+    {
+      "count": 45,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 45,
+  "results": [
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1242,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970692/",
+      "md5hash": "7da77111e27cd710cd143cdee57bc0a6",
+      "lines": {
+        "194": "        //rebuild the _rows map ASAP or getRow(rownum) will be incorrect",
+        "195": "        TreeMap<Integer, XSSFRow> rows = getRows();",
+        "196": "        TreeMap<Integer, XSSFRow> map = new TreeMap<Integer, XSSFRow>();",
+        "60": "import org.zkoss.poi.xssf.usermodel.XSSFName;",
+        "61": "import org.zkoss.poi.xssf.usermodel.XSSFRow;",
+        "175": "            } else if (rownum >= startRow && rownum <= endRow) {",
+        "176": "                new XSSFRowHelper(row).shift(n);",
+        "145": "    \tfinal int srcRownum = n <= 0 ? -1 : copyOrigin == Range.FORMAT_RIGHTBELOW ? startRow : copyOrigin == Range.FORMAT_LEFTABOVE ? startRow - 1 : -1;",
+        "146": "    \tfinal XSSFRow srcRow = srcRownum >= 0 ? getRow(srcRownum) : null;",
+        "410": "        if (wholeRow) {",
+        "411": "\t        TreeMap<Integer, XSSFRow> map = new TreeMap<Integer, XSSFRow>();",
+        "156": "        for (Iterator<Row> it = rowIterator() ; it.hasNext() ; ) {",
+        "157": "            XSSFRow row = (XSSFRow)it.next();",
+        "62": "import org.zkoss.poi.xssf.usermodel.XSSFRowHelper;",
+        "63": "import org.zkoss.poi.xssf.usermodel.XSSFSheet;"
+      },
+      "id": 3970692,
+      "filename": "XSSFSheetImpl.java"
+    },
+    {
+      "repo": "https://github.com/semantalytics/RightField.git",
+      "language": "Java",
+      "linescount": 291,
+      "location": "/src/main/java/uk/ac/manchester/cs/owl/semspreadsheets/model/xssf/impl",
+      "name": "RightField",
+      "url": "https://searchcode.com/codesearch/view/72854562/",
+      "md5hash": "6097966462091e76b85ae67e547abd0b",
+      "lines": {
+        "256": "        }",
+        "257": "        XSSFCell xssfCell = xssfRow.getCell(setCellValue.getCol());",
+        "258": "        if (xssfCell == null && setCellValue.getNewValue() != null) {",
+        "259": "            xssfCell = xssfRow.createCell(setCellValue.getCol());",
+        "265": "            else {",
+        "266": "                xssfRow.removeCell(xssfCell);",
+        "18": "import org.apache.poi.xssf.usermodel.XSSFRichTextString;",
+        "19": "import org.apache.poi.xssf.usermodel.XSSFRow;",
+        "252": "        XSSFSheet xssfSheet = workbook.getSheet(setCellValue.getSheet().getName());",
+        "253": "        XSSFRow xssfRow = xssfSheet.getRow(setCellValue.getRow());",
+        "254": "        if(xssfRow == null && setCellValue.getNewValue() != null) {",
+        "255": "            xssfRow = xssfSheet.createRow(setCellValue.getRow());"
+      },
+      "id": 72854562,
+      "filename": "WorkbookXSSFImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/rapidpm/tablemodell.git",
+      "language": "Java",
+      "linescount": 107,
+      "location": "/src/org/rapidpm/data/table/export",
+      "name": "tablemodell",
+      "url": "https://searchcode.com/codesearch/view/37860178/",
+      "md5hash": "44b86ac9fbf3c35cb8d792fa6a92ad96",
+      "lines": {
+        "57": "        for (final Row row : tableRowList) {",
+        "42": "        final Collection<ColumnInformation> infoList = table.getColumnInfoList();",
+        "43": "        final XSSFRow xssfHeaderRow = xssfSheet.createRow(0);",
+        "58": "            final XSSFRow xssfRow = xssfSheet.createRow(row.getRowNr() + 1);",
+        "62": "                    final XSSFCell xssfCell = xssfRow.createCell(cell.getColInfo().getSpaltenNr());",
+        "61": "                if (cell.getColInfo().isExportable()) {"
+      },
+      "id": 37860178,
+      "filename": "Table2XLSX.java"
+    },
+    {
+      "repo": "https://github.com/semantalytics/RightField.git",
+      "language": "Java",
+      "linescount": 260,
+      "location": "/src/main/java/uk/ac/manchester/cs/owl/semspreadsheets/model/xssf/impl",
+      "name": "RightField",
+      "url": "https://searchcode.com/codesearch/view/72854574/",
+      "md5hash": "89d090836d344e0f32e8aeef1b00d9eb",
+      "lines": {
+        "16": "import org.apache.poi.xssf.usermodel.XSSFRow;",
+        "141": "        XSSFRow hssfRow = sheet.getRow(row);",
+        "166": "    public void clearCellAt(int col, int row) {",
+        "167": "        XSSFRow theRow = sheet.getRow(row);",
+        "60": "    \tfor (int rowIndex = firstRow ; rowIndex <= lastRow; rowIndex++) {",
+        "154": "    public Cell addCellAt(int col, int row) {",
+        "155": "        XSSFRow hssfRow = sheet.getRow(row);",
+        "140": "    public Cell getCellAt(int col, int row) {",
+        "61": "    \t\tXSSFRow row = sheet.getRow(rowIndex);",
+        "15": "import org.apache.poi.xssf.usermodel.XSSFDataValidation;"
+      },
+      "id": 72854574,
+      "filename": "SheetXSSFImpl.java"
+    },
+    {
+      "repo": "https://gitlab.com/jforge/Modules.git",
+      "language": "Java",
+      "linescount": 376,
+      "location": "/_deactivated/javafx-filtered-tableview/src/main/java/org/rapidpm/modul/javafx/tableview/filtered/contextmenue",
+      "name": "Modules",
+      "url": "https://searchcode.com/codesearch/view/115088176/",
+      "md5hash": "a08ae3a3ea52f96da725f24765898b8d",
+      "lines": {
+        "310": "        for (final FilteredTableDataRow row : rowList) {",
+        "297": "        final XSSFRow xssfHeaderRow = xssfSheet.createRow(0);",
+        "296": "        final XSSFSheet xssfSheet = workbook.createSheet(\"ExcelExport_\" + sdf.format(new Date()));",
+        "41": "import org.apache.poi.xssf.usermodel.XSSFCell;",
+        "42": "import org.apache.poi.xssf.usermodel.XSSFRow;",
+        "311": "            final XSSFRow xssfRow = xssfSheet.createRow(rowNr);",
+        "316": "            for (final String s : split) {",
+        "317": "                final XSSFCell xssfCell = xssfRow.createCell(cellNr);"
+      },
+      "id": 115088176,
+      "filename": "FilteredTableContextMenu.java"
+    },
+    {
+      "repo": "https://gitlab.com/jforge/Modules.git",
+      "language": "Java",
+      "linescount": 126,
+      "location": "/_deactivated/cdi-tablemodel/src/main/java/org/rapidpm/data/table/export",
+      "name": "Modules",
+      "url": "https://searchcode.com/codesearch/view/115088748/",
+      "md5hash": "afac3844787763a363133f64554db882",
+      "lines": {
+        "32": "import org.apache.poi.xssf.usermodel.XSSFRow;",
+        "80": "                if (cell.getColInfo().isExportable()) {",
+        "81": "                    final XSSFCell xssfCell = xssfRow.createCell(cell.getColInfo().getSpaltenNr());",
+        "77": "            final XSSFRow xssfRow = xssfSheet.createRow(row.getRowNr() + 1);",
+        "76": "        for (final Row row : tableRowList) {",
+        "61": "        final Collection<ColumnInformation> infoList = table.getColumnInfoList();",
+        "62": "        final XSSFRow xssfHeaderRow = xssfSheet.createRow(0);",
+        "31": "import org.apache.poi.xssf.usermodel.XSSFHyperlink;"
+      },
+      "id": 115088748,
+      "filename": "Table2XLSX.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 30,
+      "location": "/zss/src/org/zkoss/poi/xssf/usermodel",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970562/",
+      "md5hash": "be7d0332002c362b197fc6aed15d797d",
+      "lines": {
+        "16": " * A helper class to make XSSFRow package method visible.",
+        "1": "/* XSSFRowHelper.java",
+        "2": "",
+        "19": " */",
+        "20": "public class XSSFRowHelper {",
+        "21": "\tprivate final XSSFRow _row;",
+        "22": "\tpublic XSSFRowHelper(XSSFRow row) {",
+        "23": "\t\t_row = row;",
+        "15": "/**"
+      },
+      "id": 3970562,
+      "filename": "XSSFRowHelper.java"
+    },
+    {
+      "repo": "https://bitbucket.org/rapidpm/tablemodell.git",
+      "language": "Java",
+      "linescount": 710,
+      "location": "/src/org/rapidpm/data/table/importer/xlsx",
+      "name": "tablemodell",
+      "url": "https://searchcode.com/codesearch/view/37860156/",
+      "md5hash": "e03479193feb818d2f288147b1e378d5",
+      "lines": {
+        "200": "            final XSSFRow row = sheet.getRow(rowIndex);",
+        "199": "        for (int rowIndex = start.rowIndex; rowIndex <= end.rowIndex; rowIndex++) {",
+        "182": "        XSSFCell cell = null;",
+        "183": "        final XSSFRow row = sheet.getRow(coordinate.rowIndex);"
+      },
+      "id": 37860156,
+      "filename": "XSSFAssistant.java"
+    },
+    {
+      "repo": "http://patiprototype.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 70,
+      "location": "/src/com/uspto/pati/Redbook",
+      "name": "patiprototype",
+      "url": "https://searchcode.com/codesearch/view/13991127/",
+      "md5hash": "191dd5f6a8c4a5c2486c6d4fc7c87955",
+      "lines": {
+        "43": "          while(rowIter.hasNext()){",
+        "44": "              XSSFRow myRow = (XSSFRow) rowIter.next();",
+        "6": "import org.apache.poi.xssf.usermodel.XSSFCell;",
+        "7": "import org.apache.poi.xssf.usermodel.XSSFRow;"
+      },
+      "id": 13991127,
+      "filename": "ReadExcelFile.java"
+    },
+    {
+      "repo": "https://github.com/zypacsinc/src.git",
+      "language": "Java",
+      "linescount": 384,
+      "location": "/com/cf/tkconnect/data",
+      "name": "src",
+      "url": "https://searchcode.com/codesearch/view/93053244/",
+      "md5hash": "0256d5b9985793107258b24ca50edb91",
+      "lines": {
+        "288": "\t\trowindex++;",
+        "225": "",
+        "226": "\tprivate void setColumnData( XSSFRow row,  String[] data){",
+        "163": "\t\t\t\t",
+        "164": "\t\t XSSFRow row = sheet.createRow(rowindex);",
+        "289": "\t\tXSSFRow row = sheet.createRow(rowindex);",
+        "300": "\t\trowindex++;",
+        "301": "\t\tXSSFRow row = sheet.createRow(rowindex);",
+        "20": "import org.apache.poi.xssf.usermodel.XSSFFont;",
+        "21": "import org.apache.poi.xssf.usermodel.XSSFRow;",
+        "188": "\t",
+        "189": "\tprivate void setColumnHeaders( XSSFRow row,  List<String> delist){"
+      },
+      "id": 93053244,
+      "filename": "WriteExcelBook.java"
+    },
+    {
+      "repo": "https://github.com/ardoq/ardoq-excel-import.git",
+      "language": "Java",
+      "linescount": 360,
+      "location": "/src/main/java/com/ardoq",
+      "name": "ardoq-excel-import",
+      "url": "https://searchcode.com/codesearch/view/101144549/",
+      "md5hash": "f0055025f3594a70d39c123b6cac2db9",
+      "lines": {
+        "80": "        System.out.println(\"Analyzing sheet\");",
+        "81": "        XSSFRow columnRow = compSheet.getRow(0);",
+        "240": "    private static String getStringValueFromCell(XSSFRow referencesRow, int cellNumber) {",
+        "131": "        int rowIndex = 1;",
+        "132": "        XSSFRow row = compSheet.getRow(rowIndex);",
+        "223": "",
+        "239": "",
+        "224": "    private static List<Component> getTargetComponents(XSSFRow referencesRow) {",
+        "190": "        int rowIndex = referenceStartFromRow;",
+        "191": "        XSSFRow referencesRow = referenceSheet.getRow(rowIndex);"
+      },
+      "id": 101144549,
+      "filename": "ExcelImport.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tomas12/laguna.git",
+      "language": "Java",
+      "linescount": 247,
+      "location": "/src/main/java/Excel",
+      "name": "Laguna",
+      "url": "https://searchcode.com/codesearch/view/91974011/",
+      "md5hash": "804be23326fed0b1aedc784c78f111a0",
+      "lines": {
+        "144": "\t\t\t\tXSSFRow dataRow = sheet.createRow(i + 3);",
+        "19": "import org.apache.poi.xssf.usermodel.XSSFRichTextString;",
+        "20": "import org.apache.poi.xssf.usermodel.XSSFRow;",
+        "121": "\t\t\t// Zweite Zeile",
+        "122": "\t\t\tXSSFRow headerRow = sheet.createRow(2);",
+        "143": "\t\t\t\t// Neue Zeile",
+        "92": "",
+        "93": "\t\t\tXSSFRow row1 = sheet.createRow(1);",
+        "78": "",
+        "79": "\t\t\tXSSFRow row = sheet.createRow(0);"
+      },
+      "id": 91974011,
+      "filename": "ExcelFamilieBetreuung.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tomas12/laguna.git",
+      "language": "Java",
+      "linescount": 237,
+      "location": "/src/main/java/Excel",
+      "name": "Laguna",
+      "url": "https://searchcode.com/codesearch/view/91974041/",
+      "md5hash": "f275500397a5474f8aea12a4a7ca4364",
+      "lines": {
+        "19": "import org.apache.poi.xssf.usermodel.XSSFRichTextString;",
+        "20": "import org.apache.poi.xssf.usermodel.XSSFRow;",
+        "119": "\t\t\t// Zweite Zeile",
+        "120": "\t\t\tXSSFRow headerRow = sheet.createRow(2);",
+        "90": "",
+        "91": "\t\t\tXSSFRow row1 = sheet.createRow(1);",
+        "76": "",
+        "77": "\t\t\tXSSFRow row = sheet.createRow(0);",
+        "142": "\t\t\t\tXSSFRow dataRow = sheet.createRow(i + 3);",
+        "141": "\t\t\t\t// Neue Zeile"
+      },
+      "id": 91974041,
+      "filename": "ExcelBetreuerinZahlungen.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tomas12/laguna.git",
+      "language": "Java",
+      "linescount": 234,
+      "location": "/src/main/java/Excel",
+      "name": "Laguna",
+      "url": "https://searchcode.com/codesearch/view/91974043/",
+      "md5hash": "1192cdefe489c458a749cac9a42e0a69",
+      "lines": {
+        "19": "import org.apache.poi.xssf.usermodel.XSSFRichTextString;",
+        "20": "import org.apache.poi.xssf.usermodel.XSSFRow;",
+        "142": "\t\t\t\t// Neue Zeile",
+        "120": "\t\t\t// Zweite Zeile",
+        "121": "\t\t\tXSSFRow headerRow = sheet.createRow(2);",
+        "91": "",
+        "92": "\t\t\tXSSFRow row1 = sheet.createRow(1);",
+        "77": "",
+        "78": "\t\t\tXSSFRow row = sheet.createRow(0);",
+        "143": "\t\t\t\tXSSFRow dataRow = sheet.createRow(i + 3);"
+      },
+      "id": 91974043,
+      "filename": "ExcelFamilieZahlungen.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tomas12/laguna.git",
+      "language": "Java",
+      "linescount": 869,
+      "location": "/src/main/java/Excel",
+      "name": "Laguna",
+      "url": "https://searchcode.com/codesearch/view/91974058/",
+      "md5hash": "6e91f341ca470ddad3adac6f482a8d65",
+      "lines": {
+        "115": "\t\t\t\tXSSFRow dataRow = sheet.createRow(i + 3);",
+        "18": "import org.apache.poi.xssf.usermodel.XSSFRichTextString;",
+        "19": "import org.apache.poi.xssf.usermodel.XSSFRow;",
+        "85": "",
+        "86": "\t\t\tXSSFRow zweiteZeile = sheet.createRow(2);",
+        "71": "",
+        "72": "\t\t\tXSSFRow zeile = sheet.createRow(0);",
+        "391": "\t\t\tXSSFRow row = sheet.createRow(1);",
+        "114": "\t\t\t\t// Neue Zeile",
+        "390": ""
+      },
+      "id": 91974058,
+      "filename": "ExcelFamilienAU.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tomas12/laguna.git",
+      "language": "Java",
+      "linescount": 250,
+      "location": "/src/main/java/Excel",
+      "name": "Laguna",
+      "url": "https://searchcode.com/codesearch/view/91974062/",
+      "md5hash": "27f140448c40e5f71bcb89342f4169ba",
+      "lines": {
+        "96": "\t\t\tXSSFRow row1 = sheet.createRow(1);",
+        "81": "",
+        "82": "\t\t\tXSSFRow row = sheet.createRow(0);",
+        "19": "import org.apache.poi.xssf.usermodel.XSSFRichTextString;",
+        "20": "import org.apache.poi.xssf.usermodel.XSSFRow;",
+        "147": "\t\t\t\tXSSFRow dataRow = sheet.createRow(i + 3);",
+        "146": "\t\t\t\t// Neue Zeile",
+        "124": "\t\t\t// Zweite Zeile",
+        "125": "\t\t\tXSSFRow headerRow = sheet.createRow(2);",
+        "95": ""
+      },
+      "id": 91974062,
+      "filename": "ExcelBetreuerinBetreuung.java"
+    },
+    {
+      "repo": "https://github.com/zypacsinc/src.git",
+      "language": "Java",
+      "linescount": 269,
+      "location": "/com/cf/tkconnect/data",
+      "name": "src",
+      "url": "https://searchcode.com/codesearch/view/93053248/",
+      "md5hash": "c84de12df4ef6494223eef23968afe1c",
+      "lines": {
+        "209": "",
+        "210": "\tprivate void readHeaderRow(XSSFRow row, String type) throws Exception{",
+        "230": "\t",
+        "199": "\t     while (it.hasNext() ) {",
+        "24": "import org.apache.poi.xssf.usermodel.XSSFFont;",
+        "25": "import org.apache.poi.xssf.usermodel.XSSFRow;",
+        "231": "\tprivate void readDataRow(XSSFRow row,String type) throws Exception{",
+        "200": "\t    \tXSSFRow row = (XSSFRow)it.next();"
+      },
+      "id": 93053248,
+      "filename": "ReadExcel.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tomas12/laguna.git",
+      "language": "Java",
+      "linescount": 194,
+      "location": "/src/main/java/Excel",
+      "name": "Laguna",
+      "url": "https://searchcode.com/codesearch/view/91974007/",
+      "md5hash": "518bf702134744af28150a92647dbedf",
+      "lines": {
+        "107": "\t\t\t\t// Neue Zeile",
+        "18": "import org.apache.poi.xssf.usermodel.XSSFRichTextString;",
+        "19": "import org.apache.poi.xssf.usermodel.XSSFRow;",
+        "72": "",
+        "73": "\t\t\tXSSFRow headerRow = sheet.createRow(1);",
+        "58": "",
+        "59": "\t\t\tXSSFRow row = sheet.createRow(0);",
+        "108": "\t\t\t\tXSSFRow dataRow = sheet.createRow(i + 2);"
+      },
+      "id": 91974007,
+      "filename": "ExcelBetreuerinBetreuungAU.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tomas12/laguna.git",
+      "language": "Java",
+      "linescount": 186,
+      "location": "/src/main/java/Excel",
+      "name": "Laguna",
+      "url": "https://searchcode.com/codesearch/view/91974009/",
+      "md5hash": "bf6e18648c9e01d4a758a66eda4f24fa",
+      "lines": {
+        "18": "import org.apache.poi.xssf.usermodel.XSSFRichTextString;",
+        "19": "import org.apache.poi.xssf.usermodel.XSSFRow;",
+        "73": "",
+        "74": "\t\t\tXSSFRow headerRow = sheet.createRow(1);",
+        "59": "",
+        "60": "\t\t\tXSSFRow row = sheet.createRow(0);",
+        "109": "\t\t\t\t// Neue Zeile",
+        "110": "\t\t\t\tXSSFRow dataRow = sheet.createRow(i + 2);"
+      },
+      "id": 91974009,
+      "filename": "ExcelFamilieZahlungenM.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tomas12/laguna.git",
+      "language": "Java",
+      "linescount": 241,
+      "location": "/src/main/java/Excel",
+      "name": "Laguna",
+      "url": "https://searchcode.com/codesearch/view/91974014/",
+      "md5hash": "a23302d05b5900b78bf8dd953ddf0745",
+      "lines": {
+        "18": "import org.apache.poi.xssf.usermodel.XSSFRichTextString;",
+        "19": "import org.apache.poi.xssf.usermodel.XSSFRow;",
+        "104": "\t\t\t\t// Neue Zeile",
+        "105": "\t\t\t\tXSSFRow dataRow = sheet.createRow(i + 2);",
+        "75": "",
+        "76": "\t\t\tXSSFRow headerRow = sheet.createRow(1);",
+        "61": "",
+        "62": "\t\t\tXSSFRow row = sheet.createRow(0);"
+      },
+      "id": 91974014,
+      "filename": "ExcelBetreuerinnenAN.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 24,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 13,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 6,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 2,
+      "source": "GitLab",
+      "id": 13
+    }
+  ]
+}

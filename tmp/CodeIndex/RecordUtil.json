@@ -1,0 +1,421 @@
+{
+  "matchterm": "RecordUtil",
+  "previouspage": null,
+  "searchterm": "RecordUtil",
+  "query": "RecordUtil",
+  "language_filters": [
+    {
+      "count": 22,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 22,
+  "results": [
+    {
+      "repo": "git://github.com/JetBrains/intellij-community.git",
+      "language": "Java",
+      "linescount": 101,
+      "location": "/java/java-psi-impl/src/com/intellij/psi/impl/cache",
+      "name": "intellij-community",
+      "url": "https://searchcode.com/codesearch/view/7367892/",
+      "md5hash": "8d21aa132b3339eae1a78875be92e440",
+      "lines": {
+        "41": "",
+        "42": "  private RecordUtil() { }",
+        "37": " */",
+        "38": "public class RecordUtil {"
+      },
+      "id": 7367892,
+      "filename": "RecordUtil.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nbargnesi/idea.git",
+      "language": "Java",
+      "linescount": 229,
+      "location": "/java/java-psi-impl/src/com/intellij/psi/impl/cache",
+      "name": "idea",
+      "url": "https://searchcode.com/codesearch/view/39415778/",
+      "md5hash": "4a90736e0c99388a11e99044bb55e5f8",
+      "lines": {
+        "42": "",
+        "43": "  private RecordUtil() {}",
+        "38": " */",
+        "39": "public class RecordUtil {"
+      },
+      "id": 39415778,
+      "filename": "RecordUtil.java"
+    },
+    {
+      "repo": "https://github.com/fracturedatlas/ATHENA.git",
+      "language": "Java",
+      "linescount": 39,
+      "location": "/core/client/src/main/java/org/fracturedatlas/athena/client",
+      "name": "ATHENA",
+      "url": "https://searchcode.com/codesearch/view/111223185/",
+      "md5hash": "184245b2b558956fa1081f883cff17bf",
+      "lines": {
+        "24": "public class RecordUtil {",
+        "23": ""
+      },
+      "id": 111223185,
+      "filename": "RecordUtil.java"
+    },
+    {
+      "repo": "https://github.com/sankalp123/mandarin-j2me-legacy.git",
+      "language": "Java",
+      "linescount": 695,
+      "location": "/src/com/tomclaw/mandarin/main",
+      "name": "mandarin-j2me-legacy",
+      "url": "https://searchcode.com/codesearch/view/73055963/",
+      "md5hash": "c5f03b9f8c668b4872e7ce15606afa17",
+      "lines": {
+        "288": "      if ( RecordUtil.getRecordsCount( settingsResFile ) > 0 && RecordUtil.getRecordsCount( accountsResFile ) > 0 && RecordUtil.getRecordsCount( statusesResFile ) > 0 ) {",
+        "289": "        RecordUtil.readFile( settingsResFile, settings );",
+        "290": "        LogUtil.outMessage( \"Settings read\" );",
+        "355": "      if ( RecordUtil.getRecordsCount( fileName ) > 0 ) {",
+        "292": "        LogUtil.outMessage( \"Settings validated\" );",
+        "293": "        RecordUtil.readFile( accountsResFile, accounts );",
+        "294": "        LogUtil.outMessage( \"Accounts read\" );",
+        "295": "        RecordUtil.readFile( statusesResFile, statuses );",
+        "11": "import com.tomclaw.utils.LogUtil;",
+        "12": "import com.tomclaw.utils.RecordUtil;",
+        "354": "    try {",
+        "384": "      RecordUtil.readFile( fileName, dataGear );",
+        "356": "        RecordUtil.readFile( fileName, dataGear );",
+        "383": "    try {",
+        "357": "        LogUtil.outMessage( fileName.concat( \" read\" ) );"
+      },
+      "id": 73055963,
+      "filename": "MidletMain.java"
+    },
+    {
+      "repo": "https://github.com/fracturedatlas/ATHENA.git",
+      "language": "Java",
+      "linescount": 126,
+      "location": "/core/client/src/test/java/org/fracturedatlas/athena/client",
+      "name": "ATHENA",
+      "url": "https://searchcode.com/codesearch/view/111223166/",
+      "md5hash": "76a91c8e07f7a934d9d060a0017878b4",
+      "lines": {
+        "83": "        assertTrue(RecordUtil.hasAnyPersonInformation(record));",
+        "67": "        record.add(\"lastName\", \"Jim\");",
+        "68": "        assertTrue(RecordUtil.hasAnyPersonInformation(record));",
+        "37": "        record.put(\"organizationId\", \"1\"); ",
+        "38": "        assertFalse(RecordUtil.hasAnyPersonInformation(record));",
+        "76": "",
+        "44": "        record.add(\"lastName\", \"Smith\");",
+        "45": "        assertTrue(RecordUtil.hasAnyPersonInformation(record));",
+        "77": "        assertTrue(RecordUtil.hasAnyPersonInformation(record));",
+        "82": "        record.add(\"firstName\", \"Joe\");",
+        "51": "        record.add(\"lastName\", \"\");",
+        "52": "        assertTrue(RecordUtil.hasAnyPersonInformation(record));",
+        "25": "",
+        "26": "public class RecordUtilTest {",
+        "60": "",
+        "61": "        assertTrue(RecordUtil.hasAnyPersonInformation(record));"
+      },
+      "id": 111223166,
+      "filename": "RecordUtilTest.java"
+    },
+    {
+      "repo": "git://github.com/JetBrains/intellij-community.git",
+      "language": "Java",
+      "linescount": 222,
+      "location": "/java/java-psi-impl/src/com/intellij/psi/impl/java/stubs",
+      "name": "intellij-community",
+      "url": "https://searchcode.com/codesearch/view/7367914/",
+      "md5hash": "b9bc6e70e959961b7d3c3ee4432ea4c1",
+      "lines": {
+        "99": "      else if (type == JavaTokenType.IDENTIFIER) {",
+        "100": "        name = RecordUtil.intern(tree.getCharTable(), child);",
+        "22": "import com.intellij.psi.impl.cache.ModifierFlags;",
+        "23": "import com.intellij.psi.impl.cache.RecordUtil;",
+        "152": "      sink.occurrence(JavaStubIndexKeys.METHODS, name);",
+        "153": "      if (RecordUtil.isStaticNonPrivateMember(stub)) {",
+        "90": "        hasDocComment = true;",
+        "91": "        isDeprecatedByComment = RecordUtil.isDeprecatedByDocComment(tree, child);",
+        "93": "      else if (type == JavaElementType.MODIFIER_LIST) {",
+        "94": "        hasDeprecatedAnnotation = RecordUtil.isDeprecatedByAnnotation(tree, child);"
+      },
+      "id": 7367914,
+      "filename": "JavaMethodElementType.java"
+    },
+    {
+      "repo": "git://github.com/JetBrains/intellij-community.git",
+      "language": "Java",
+      "linescount": 156,
+      "location": "/java/java-psi-impl/src/com/intellij/psi/impl/java/stubs",
+      "name": "intellij-community",
+      "url": "https://searchcode.com/codesearch/view/7367926/",
+      "md5hash": "a68cc9f8126f387c938123299a7d95f8",
+      "lines": {
+        "144": "      if (RecordUtil.isStaticNonPrivateMember(stub)) {",
+        "83": "        hasDocComment = true;",
+        "84": "        isDeprecatedByComment = RecordUtil.isDeprecatedByDocComment(tree, child);",
+        "22": "import com.intellij.psi.PsiField;",
+        "86": "      else if (type == JavaElementType.MODIFIER_LIST) {",
+        "23": "import com.intellij.psi.impl.cache.RecordUtil;",
+        "89": "      else if (type == JavaTokenType.IDENTIFIER) {",
+        "90": "        name = RecordUtil.intern(tree.getCharTable(), child);",
+        "87": "        hasDeprecatedAnnotation = RecordUtil.isDeprecatedByAnnotation(tree, child);",
+        "143": "      sink.occurrence(JavaStubIndexKeys.FIELDS, name);"
+      },
+      "id": 7367926,
+      "filename": "JavaFieldStubElementType.java"
+    },
+    {
+      "repo": "git://github.com/JetBrains/intellij-community.git",
+      "language": "Java",
+      "linescount": 210,
+      "location": "/java/java-psi-impl/src/com/intellij/psi/impl/java/stubs",
+      "name": "intellij-community",
+      "url": "https://searchcode.com/codesearch/view/7367927/",
+      "md5hash": "32f5451c29fa093ca5fbc461a1e8f580",
+      "lines": {
+        "96": "        isDeprecatedByComment = RecordUtil.isDeprecatedByDocComment(tree, child);",
+        "98": "      else if (type == JavaElementType.MODIFIER_LIST) {",
+        "99": "        hasDeprecatedAnnotation = RecordUtil.isDeprecatedByAnnotation(tree, child);",
+        "23": "import com.intellij.psi.PsiNameHelper;",
+        "24": "import com.intellij.psi.impl.cache.RecordUtil;",
+        "111": "        name = RecordUtil.intern(tree.getCharTable(), child);",
+        "110": "      else if (!isAnonymous && type == JavaTokenType.IDENTIFIER) {",
+        "95": "      if (type == JavaDocElementType.DOC_COMMENT) {"
+      },
+      "id": 7367927,
+      "filename": "JavaClassElementType.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nbargnesi/idea.git",
+      "language": "Java",
+      "linescount": 173,
+      "location": "/java/java-psi-impl/src/com/intellij/psi/impl/java/stubs",
+      "name": "idea",
+      "url": "https://searchcode.com/codesearch/view/39415705/",
+      "md5hash": "592fca07d0787bb5416b27f5bc35941f",
+      "lines": {
+        "88": "      else if (type == JavaElementType.MODIFIER_LIST) {",
+        "85": "      if (type == JavaDocElementType.DOC_COMMENT) {",
+        "86": "        isDeprecatedByComment = RecordUtil.isDeprecatedByDocComment(tree, child);",
+        "89": "        hasDeprecatedAnnotation = RecordUtil.isDeprecatedByAnnotation(tree, child);",
+        "24": "import com.intellij.psi.PsiModifierList;",
+        "25": "import com.intellij.psi.impl.cache.RecordUtil;",
+        "94": "      else if (type == JavaTokenType.IDENTIFIER) {",
+        "95": "        name = RecordUtil.intern(tree.getCharTable(), child);"
+      },
+      "id": 39415705,
+      "filename": "JavaMethodElementType.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nbargnesi/idea.git",
+      "language": "Java",
+      "linescount": 156,
+      "location": "/java/java-psi-impl/src/com/intellij/psi/impl/java/stubs",
+      "name": "idea",
+      "url": "https://searchcode.com/codesearch/view/39415708/",
+      "md5hash": "141d841d2f1ef0f3700a9fbcea8de93b",
+      "lines": {
+        "82": "      if (type == JavaDocElementType.DOC_COMMENT) {",
+        "83": "        isDeprecatedByComment = RecordUtil.isDeprecatedByDocComment(tree, child);",
+        "85": "      else if (type == JavaElementType.MODIFIER_LIST) {",
+        "22": "import com.intellij.psi.PsiField;",
+        "23": "import com.intellij.psi.impl.cache.RecordUtil;",
+        "88": "      else if (type == JavaTokenType.IDENTIFIER) {",
+        "89": "        name = RecordUtil.intern(tree.getCharTable(), child);",
+        "86": "        hasDeprecatedAnnotation = RecordUtil.isDeprecatedByAnnotation(tree, child);"
+      },
+      "id": 39415708,
+      "filename": "JavaFieldStubElementType.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nbargnesi/idea.git",
+      "language": "Java",
+      "linescount": 219,
+      "location": "/java/java-psi-impl/src/com/intellij/psi/impl/java/stubs",
+      "name": "idea",
+      "url": "https://searchcode.com/codesearch/view/39415711/",
+      "md5hash": "5ceb08d5ca10af85ef48dcd5e0e8df36",
+      "lines": {
+        "113": "      else if (!isAnonymous && type == JavaTokenType.IDENTIFIER) {",
+        "98": "      if (type == JavaDocElementType.DOC_COMMENT) {",
+        "99": "        isDeprecatedByComment = RecordUtil.isDeprecatedByDocComment(tree, child);",
+        "101": "      else if (type == JavaElementType.MODIFIER_LIST) {",
+        "102": "        hasDeprecatedAnnotation = RecordUtil.isDeprecatedByAnnotation(tree, child);",
+        "23": "import com.intellij.psi.PsiNameHelper;",
+        "24": "import com.intellij.psi.impl.cache.RecordUtil;",
+        "114": "        name = RecordUtil.intern(tree.getCharTable(), child);"
+      },
+      "id": 39415711,
+      "filename": "JavaClassElementType.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nbargnesi/idea.git",
+      "language": "Java",
+      "linescount": 98,
+      "location": "/java/java-psi-impl/src/com/intellij/psi/impl/java/stubs",
+      "name": "idea",
+      "url": "https://searchcode.com/codesearch/view/39415703/",
+      "md5hash": "7a996ad88c3c92d93c86bd911540d98b",
+      "lines": {
+        "66": "      if (child.getTokenType() == JavaTokenType.IDENTIFIER) {",
+        "67": "        name = RecordUtil.intern(tree.getCharTable(), child);",
+        "69": "      else if (child.getTokenType() == JavaElementType.LITERAL_EXPRESSION) {",
+        "70": "        value = RecordUtil.intern(tree.getCharTable(), tree.getChildren(child).get(0));",
+        "23": "import com.intellij.psi.PsiNameValuePair;",
+        "24": "import com.intellij.psi.impl.cache.RecordUtil;"
+      },
+      "id": 39415703,
+      "filename": "JavaNameValuePairType.java"
+    },
+    {
+      "repo": "git://github.com/JetBrains/intellij-community.git",
+      "language": "Java",
+      "linescount": 101,
+      "location": "/plugins/groovy/src/org/jetbrains/plugins/groovy/lang/psi/impl/synthetic",
+      "name": "intellij-community",
+      "url": "https://searchcode.com/codesearch/view/7352817/",
+      "md5hash": "a9b0b8bc3991353a5f762a4087da04a3",
+      "lines": {
+        "36": "  public LightModifierList(PsiManager manager, int modifiers) {",
+        "19": "import com.intellij.psi.*;",
+        "20": "import com.intellij.psi.impl.cache.RecordUtil;",
+        "37": "    this(manager, RecordUtil.getModifierSet(modifiers));"
+      },
+      "id": 7352817,
+      "filename": "LightModifierList.java"
+    },
+    {
+      "repo": "git://github.com/JetBrains/intellij-community.git",
+      "language": "Java",
+      "linescount": 90,
+      "location": "/java/java-psi-impl/src/com/intellij/psi/impl/java/stubs",
+      "name": "intellij-community",
+      "url": "https://searchcode.com/codesearch/view/7367912/",
+      "md5hash": "5c4ab9fbf714eb84a24fd3e9e5094ff3",
+      "lines": {
+        "66": "    LighterASTNode id = LightTreeUtil.requiredChildOfType(tree, node, JavaTokenType.IDENTIFIER);",
+        "67": "    String name = RecordUtil.intern(tree.getCharTable(), id);",
+        "22": "import com.intellij.psi.PsiParameter;",
+        "23": "import com.intellij.psi.impl.cache.RecordUtil;"
+      },
+      "id": 7367912,
+      "filename": "JavaParameterElementType.java"
+    },
+    {
+      "repo": "git://github.com/JetBrains/intellij-community.git",
+      "language": "Java",
+      "linescount": 97,
+      "location": "/java/java-psi-impl/src/com/intellij/psi/impl/java/stubs",
+      "name": "intellij-community",
+      "url": "https://searchcode.com/codesearch/view/7367918/",
+      "md5hash": "fd408d17468a09b2e943f51d6cc4d485",
+      "lines": {
+        "62": "  public PsiModifierListStub createStub(final LighterAST tree, final LighterASTNode node, final StubElement parentStub) {",
+        "21": "import com.intellij.psi.PsiModifierList;",
+        "22": "import com.intellij.psi.impl.cache.RecordUtil;",
+        "63": "    return new PsiModifierListStubImpl(parentStub, RecordUtil.packModifierList(tree, node));"
+      },
+      "id": 7367918,
+      "filename": "JavaModifierListElementType.java"
+    },
+    {
+      "repo": "git://github.com/JetBrains/intellij-community.git",
+      "language": "Java",
+      "linescount": 85,
+      "location": "/java/java-psi-impl/src/com/intellij/psi/impl/java/stubs",
+      "name": "intellij-community",
+      "url": "https://searchcode.com/codesearch/view/7367925/",
+      "md5hash": "df5307c166cb5d0554486b6f8cbc9e32",
+      "lines": {
+        "64": "    final String name = RecordUtil.intern(tree.getCharTable(), id);",
+        "63": "    final LighterASTNode id = LightTreeUtil.requiredChildOfType(tree, node, JavaTokenType.IDENTIFIER);",
+        "22": "import com.intellij.psi.PsiTypeParameter;",
+        "23": "import com.intellij.psi.impl.cache.RecordUtil;"
+      },
+      "id": 7367925,
+      "filename": "JavaTypeParameterElementType.java"
+    },
+    {
+      "repo": "https://github.com/fracturedatlas/ATHENA.git",
+      "language": "Java",
+      "linescount": 106,
+      "location": "/core/callbacks/src/main/java/org/fracturedatlas/athena/callbacks",
+      "name": "ATHENA",
+      "url": "https://searchcode.com/codesearch/view/111223298/",
+      "md5hash": "6e6c9069d2f2f57e8c880a5bdd16f165",
+      "lines": {
+        "25": "import org.fracturedatlas.athena.client.PTicket;",
+        "26": "import org.fracturedatlas.athena.client.RecordUtil;",
+        "37": "    public PTicket beforeSave(String type, PTicket record) {",
+        "38": "        if(RecordUtil.hasAnyPersonInformation(record) && record.get(\"personId\") == null) {            "
+      },
+      "id": 111223298,
+      "filename": "CreatePeopleRecordCallback.java"
+    },
+    {
+      "repo": "git://github.com/JetBrains/intellij-community.git",
+      "language": "Java",
+      "linescount": 87,
+      "location": "/java/java-psi-impl/src/com/intellij/psi/impl/java/stubs",
+      "name": "intellij-community",
+      "url": "https://searchcode.com/codesearch/view/116171538/",
+      "md5hash": "bbce6970c4bd2af12e8d2e053a9a585a",
+      "lines": {
+        "48": "  public PsiLiteralStub createStub(LighterAST tree, LighterASTNode node, StubElement parentStub) {",
+        "49": "    return new PsiLiteralStub(parentStub, RecordUtil.intern(tree.getCharTable(), tree.getChildren(node).get(0)));",
+        "21": "import com.intellij.psi.PsiLiteralExpression;",
+        "22": "import com.intellij.psi.impl.cache.RecordUtil;"
+      },
+      "id": 116171538,
+      "filename": "JavaLiteralExpressionElementType.java"
+    },
+    {
+      "repo": "git://github.com/JetBrains/intellij-community.git",
+      "language": "Java",
+      "linescount": 52,
+      "location": "/java/java-psi-impl/src/com/intellij/psi/impl/source",
+      "name": "intellij-community",
+      "url": "https://searchcode.com/codesearch/view/116171554/",
+      "md5hash": "4efc1bc24ccf9e3de066ca3cbc7c5995",
+      "lines": {
+        "48": "    LighterASTNode id = LightTreeUtil.firstChildOfType(tree, idOwner, JavaTokenType.IDENTIFIER);",
+        "49": "    return id != null ? RecordUtil.intern(tree.getCharTable(), id) : null;",
+        "20": "import com.intellij.psi.JavaTokenType;",
+        "21": "import com.intellij.psi.impl.cache.RecordUtil;"
+      },
+      "id": 116171554,
+      "filename": "JavaLightTreeUtil.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nbargnesi/idea.git",
+      "language": "Java",
+      "linescount": 84,
+      "location": "/java/java-psi-impl/src/com/intellij/psi/impl/java/stubs",
+      "name": "idea",
+      "url": "https://searchcode.com/codesearch/view/39415698/",
+      "md5hash": "f3a7f09599f175c7436d82e28d48f1ef",
+      "lines": {
+        "64": "    final String name = RecordUtil.intern(tree.getCharTable(), id);",
+        "63": "    final LighterASTNode id = LightTreeUtil.requiredChildOfType(tree, node, JavaTokenType.IDENTIFIER);",
+        "22": "import com.intellij.psi.PsiTypeParameter;",
+        "23": "import com.intellij.psi.impl.cache.RecordUtil;"
+      },
+      "id": 39415698,
+      "filename": "JavaTypeParameterElementType.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 14,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 8,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

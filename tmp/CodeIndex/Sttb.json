@@ -1,0 +1,108 @@
+{
+  "matchterm": "Sttb",
+  "previouspage": null,
+  "searchterm": "Sttb",
+  "query": "Sttb",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 249,
+      "location": "/src/org/apache/poi/hwpf/model",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384136/",
+      "md5hash": "758919ad38f662d35d60dcdef48289e2",
+      "lines": {
+        "224": "                throw new UnsupportedOperationException(",
+        "225": "                        \"ANSI STTB is not supported yet\" );",
+        "38": " */",
+        "39": "public class Sttb",
+        "119": "     * of this field is cchData bytes and it is an ANSI string, unless otherwise",
+        "24": " * The STTB is a string table that is made up of a header that is followed by an",
+        "114": "    /**",
+        "115": "     * The definition of each STTB specifies the meaning of this field. If this",
+        "116": "     * STTB uses extended characters, the size of this field is 2*cchData bytes",
+        "117": "     * and it is a Unicode string unless otherwise specified by the STTB",
+        "118": "     * definition. If this STTB does not use extended characters, then the size",
+        "23": "/**",
+        "56": "",
+        "57": "    public Sttb( int cDataLength, byte[] buffer, int startOffset )",
+        "120": "     * specified by the STTB definition."
+      },
+      "id": 97384136,
+      "filename": "Sttb.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 77,
+      "location": "/src/org/apache/poi/hwpf/model",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384225/",
+      "md5hash": "bdac2c41d652022bd50fc2cb82a94ea1",
+      "lines": {
+        "32": "",
+        "33": "    private static final int CDATA_SIZE_STTB_SAVED_BY = 2; // bytes",
+        "34": "",
+        "35": "    private static final int CDATA_SIZE_STTBF_BKMK = 2; // bytes",
+        "36": "",
+        "37": "    private static final int CDATA_SIZE_STTBF_R_MARK = 2; // bytes",
+        "38": "",
+        "39": "    static String[] readSttbfBkmk( byte[] buffer, int startOffset )",
+        "40": "    {",
+        "41": "        return new Sttb( CDATA_SIZE_STTBF_BKMK, buffer, startOffset ).getData();",
+        "43": "",
+        "44": "    static String[] readSttbfRMark( byte[] buffer, int startOffset )",
+        "45": "    {",
+        "29": "@Internal",
+        "30": "class SttbUtils"
+      },
+      "id": 97384225,
+      "filename": "SttbUtils.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 231,
+      "location": "/src/org/apache/poi/hwpf/model",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384199/",
+      "md5hash": "536e702eec8fb831c6c436925f0d5dd6",
+      "lines": {
+        "224": "        {",
+        "225": "            offset += _hsttbDropList.serialize( buffer, offset );",
+        "47": "     */",
+        "42": "    /**",
+        "43": "     * An optional STTB that specifies the entries in the dropdown list box.",
+        "140": "        {",
+        "141": "            _hsttbDropList = new Sttb( std, offset );",
+        "142": "            offset += _hsttbDropList.getSize();",
+        "143": "        }",
+        "48": "    private Sttb _hsttbDropList;",
+        "183": "        {",
+        "184": "            size += _hsttbDropList.getSize();",
+        "155": "    {",
+        "156": "        return _hsttbDropList.getData();"
+      },
+      "id": 97384199,
+      "filename": "FFData.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

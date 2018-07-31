@@ -1,0 +1,299 @@
+{
+  "matchterm": "HSSFRequest",
+  "previouspage": null,
+  "searchterm": "HSSFRequest",
+  "query": "HSSFRequest",
+  "language_filters": [
+    {
+      "count": 13,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 13,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 166,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventusermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642339/",
+      "md5hash": "b121d0bf53bbf50e1642cf6873264092",
+      "lines": {
+        "66": "",
+        "51": "/**",
+        "52": " * An HSSFRequest object should be constructed registering an instance or multiple",
+        "69": "    public HSSFRequest()",
+        "68": "",
+        "67": "    /** Creates a new instance of HSSFRequest */",
+        "62": "",
+        "63": "public class HSSFRequest"
+      },
+      "id": 15642339,
+      "filename": "HSSFRequest.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 595,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785559/",
+      "md5hash": "6b55090236799f49ee0f5bd7d54bbbac",
+      "lines": {
+        "256": "                hssfRequest.addListener(formatListener, BOFRecord.sid);",
+        "257": "                hssfRequest.addListener(formatListener, EOFRecord.sid);",
+        "258": "                hssfRequest.addListener(formatListener, DateWindow1904Record.sid);",
+        "259": "                hssfRequest.addListener(formatListener, CountryRecord.sid);",
+        "260": "                hssfRequest.addListener(formatListener, BoundSheetRecord.sid);",
+        "37": "import org.apache.poi.hssf.eventusermodel.HSSFListener;",
+        "38": "import org.apache.poi.hssf.eventusermodel.HSSFRequest;",
+        "263": "                hssfRequest.addListener(formatListener, LabelRecord.sid);",
+        "264": "                hssfRequest.addListener(formatListener, LabelSSTRecord.sid);",
+        "265": "                hssfRequest.addListener(formatListener, NumberRecord.sid);",
+        "266": "                hssfRequest.addListener(formatListener, RKRecord.sid);",
+        "262": "                hssfRequest.addListener(formatListener, FormulaRecord.sid);",
+        "267": "                hssfRequest.addListener(formatListener, HyperlinkRecord.sid);",
+        "255": "            } else {",
+        "261": "                hssfRequest.addListener(formatListener, SSTRecord.sid);"
+      },
+      "id": 111785559,
+      "filename": "ExcelExtractor.java"
+    },
+    {
+      "repo": "https://github.com/kissys/es.git",
+      "language": "Java",
+      "linescount": 800,
+      "location": "/web/src/main/java/com/sishuok/es/showcase/excel/service",
+      "name": "es",
+      "url": "https://searchcode.com/codesearch/view/92669291/",
+      "md5hash": "e4b8f0d86eab02f334334ecc295774b2",
+      "lines": {
+        "225": "            dis = poifs.createDocumentInputStream(\"Workbook\");",
+        "226": "            // \u6784\u9020 HSSFRequest",
+        "227": "            HSSFRequest req = new HSSFRequest();",
+        "228": "",
+        "26": "import org.apache.poi.hssf.eventusermodel.HSSFEventFactory;",
+        "27": "import org.apache.poi.hssf.eventusermodel.HSSFRequest;"
+      },
+      "id": 92669291,
+      "filename": "ExcelDataService.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 260,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventusermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642337/",
+      "md5hash": "880394f1b0f8ed8b4183af136268bc56",
+      "lines": {
+        "130": "     * @see loci.poi.poifs.filesystem.POIFSFileSystem#createDocumentInputStream(String)",
+        "131": "     * @param req       an Instance of HSSFRequest which has your registered listeners",
+        "135": "",
+        "136": "    public short abortableProcessEvents(HSSFRequest req, InputStream in)",
+        "75": "     *",
+        "76": "     * @param req       an Instance of HSSFRequest which has your registered listeners",
+        "79": "",
+        "80": "    public void processWorkbookEvents(HSSFRequest req, POIFSFileSystem fs)",
+        "145": "\t * @see loci.poi.poifs.filesystem.POIFSFileSystem#createDocumentInputStream(String)",
+        "146": "\t * @param req       an Instance of HSSFRequest which has your registered listeners",
+        "150": "",
+        "55": " * This will cause your file to be processed a record at a time.  Each record with",
+        "56": " * a static id matching one that you have registed in your HSSFRequest will be passed",
+        "90": "\t *",
+        "91": "\t * @param req       an Instance of HSSFRequest which has your registered listeners",
+        "151": "\tprotected short genericProcessEvents(HSSFRequest req, RecordInputStream in)"
+      },
+      "id": 15642337,
+      "filename": "HSSFEventFactory.java"
+    },
+    {
+      "repo": "https://git.gitorious.org/yacy/rc1.git",
+      "language": "Java",
+      "linescount": 183,
+      "location": "/source/net/yacy/document/parser",
+      "name": "yacy",
+      "url": "https://searchcode.com/codesearch/view/62351863/",
+      "md5hash": "906975e8bac9b8ac7a3bea4d738e46c3",
+      "lines": {
+        "98": "                final InputStream din = poifs.createDocumentInputStream(\"Workbook\");",
+        "99": "                //construct out HSSFRequest object",
+        "100": "                final HSSFRequest req = new HSSFRequest();",
+        "101": "                //lazy listen for ALL records with the listener shown above",
+        "41": "import org.apache.poi.hssf.eventusermodel.HSSFListener;",
+        "42": "import org.apache.poi.hssf.eventusermodel.HSSFRequest;"
+      },
+      "id": 62351863,
+      "filename": "xlsParser.java"
+    },
+    {
+      "repo": "https://github.com/xiezhaohui/DataViewer.git",
+      "language": "Java",
+      "linescount": 304,
+      "location": "/ETL/src/com/util",
+      "name": "DataViewer",
+      "url": "https://searchcode.com/codesearch/view/68613461/",
+      "md5hash": "8bd64dddea629578a6d8e6f976c7b348",
+      "lines": {
+        "12": "import org.apache.poi.hssf.eventusermodel.HSSFListener;",
+        "13": "import org.apache.poi.hssf.eventusermodel.HSSFRequest;",
+        "102": "\t\tHSSFRequest request = new HSSFRequest();",
+        "101": "\t\tHSSFEventFactory factory = new HSSFEventFactory();"
+      },
+      "id": 68613461,
+      "filename": "HxlsAbstract.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 93,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventusermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642338/",
+      "md5hash": "d3e5ac48b71463b18a6b381228a1a65a",
+      "lines": {
+        "48": " * Interface for use with the HSSFRequest and HSSFEventFactory.  Users should create",
+        "49": " * a listener supporting this interface and register it with the HSSFRequest (associating",
+        "50": " * it with Record SID's).",
+        "52": " * @see loci.poi.hssf.eventusermodel.HSSFEventFactory",
+        "53": " * @see loci.poi.hssf.eventusermodel.HSSFRequest",
+        "64": "     * It is never called by HSSFEventFActory or HSSFRequest.",
+        "63": "     * This method, inherited from HSSFListener is implemented as a stub.",
+        "47": "/**"
+      },
+      "id": 15642338,
+      "filename": "AbortableHSSFListener.java"
+    },
+    {
+      "repo": "http://tongue-tied.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 180,
+      "location": "/Application/src/org/tonguetied/datatransfer/importing",
+      "name": "tongue-tied",
+      "url": "https://searchcode.com/codesearch/view/12440044/",
+      "md5hash": "918a04620147adc21c4177d81a4ed279",
+      "lines": {
+        "26": "import org.apache.poi.hssf.eventusermodel.HSSFEventFactory;",
+        "27": "import org.apache.poi.hssf.eventusermodel.HSSFRequest;",
+        "92": "            dis = poifs.createDocumentInputStream(\"Workbook\");",
+        "93": "            // construct out HSSFRequest object",
+        "94": "            HSSFRequest req = new HSSFRequest();",
+        "95": "            // lazy listen for ALL records with the listener shown above"
+      },
+      "id": 12440044,
+      "filename": "ExcelImporter.java"
+    },
+    {
+      "repo": "http://tongue-tied.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 240,
+      "location": "/Tests/src/org/tonguetied/datatransfer/importing",
+      "name": "tongue-tied",
+      "url": "https://searchcode.com/codesearch/view/12440188/",
+      "md5hash": "8201e55b38358c968d122bd6e8e33c77",
+      "lines": {
+        "32": "import org.apache.poi.hssf.eventusermodel.HSSFEventFactory;",
+        "33": "import org.apache.poi.hssf.eventusermodel.HSSFRequest;",
+        "178": "            InputStream din = poifs.createDocumentInputStream(\"Workbook\");",
+        "179": "            // construct out HSSFRequest object",
+        "180": "            HSSFRequest req = new HSSFRequest();",
+        "181": "            // lazy listen for ALL records with the listener shown above"
+      },
+      "id": 12440188,
+      "filename": "ExcelLanguageCentricParserTest.java"
+    },
+    {
+      "repo": "http://tongue-tied.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 257,
+      "location": "/Tests/src/org/tonguetied/datatransfer/importing",
+      "name": "tongue-tied",
+      "url": "https://searchcode.com/codesearch/view/12440192/",
+      "md5hash": "7b757938f2522dcce67cb24883aba7a1",
+      "lines": {
+        "32": "import org.apache.poi.hssf.eventusermodel.HSSFEventFactory;",
+        "33": "import org.apache.poi.hssf.eventusermodel.HSSFRequest;",
+        "183": "            InputStream din = poifs.createDocumentInputStream(\"Workbook\");",
+        "184": "            // construct out HSSFRequest object",
+        "185": "            HSSFRequest req = new HSSFRequest();",
+        "186": "            // lazy listen for ALL records with the listener shown above"
+      },
+      "id": 12440192,
+      "filename": "KeywordExcelParserTest.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 64,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventusermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642336/",
+      "md5hash": "a6db776133d50183038ac0566a50b83d",
+      "lines": {
+        "48": " * it with Record SID's).",
+        "50": " * @see loci.poi.hssf.eventusermodel.HSSFEventFactory",
+        "51": " * @see loci.poi.hssf.eventusermodel.HSSFRequest",
+        "45": "/**",
+        "46": " * Interface for use with the HSSFRequest and HSSFEventFactory.  Users should create",
+        "47": " * a listener supporting this interface and register it with the HSSFRequest (associating"
+      },
+      "id": 15642336,
+      "filename": "HSSFListener.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 122,
+      "location": "/components/forks/poi/src/loci/poi/hssf/dev",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642598/",
+      "md5hash": "b4bd1864cb6b3833d908f06334bca3e3",
+      "lines": {
+        "75": "        InputStream     din   = poifs.createDocumentInputStream(\"Workbook\");",
+        "50": "",
+        "51": "import loci.poi.hssf.eventusermodel.HSSFRequest;",
+        "76": "        HSSFRequest     req   = new HSSFRequest();"
+      },
+      "id": 15642598,
+      "filename": "EFBiffViewer.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 219,
+      "location": "/components/forks/poi/src/loci/poi/hssf/dev",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642601/",
+      "md5hash": "7074b47e27144ba07a0a686221787116",
+      "lines": {
+        "92": "//        InputStream     din   = poifs.createDocumentInputStream(\"Workbook\");",
+        "93": "//        HSSFRequest     req   = new HSSFRequest();",
+        "54": "",
+        "55": "import loci.poi.hssf.eventusermodel.HSSFRequest;"
+      },
+      "id": 15642601,
+      "filename": "EFHSSF.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 9,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 3,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 1,
+      "source": "Gitorious",
+      "id": 10
+    }
+  ]
+}

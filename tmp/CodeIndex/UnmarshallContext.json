@@ -1,0 +1,151 @@
+{
+  "matchterm": "UnmarshallContext",
+  "previouspage": null,
+  "searchterm": "UnmarshallContext",
+  "query": "UnmarshallContext",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "https://github.com/mdf/exploding.git",
+      "language": "Java",
+      "linescount": 310,
+      "location": "/webapp/src/uk/ac/horizon/ug/exploding/spectatorreplay",
+      "name": "exploding",
+      "url": "https://searchcode.com/codesearch/view/109309000/",
+      "md5hash": "06a21be1bd1d1a19733f7b77f9cdcdce",
+      "lines": {
+        "123": "\t\tLogHeader header = (LogHeader)unmarshallContext.unmarshall(inputStream);",
+        "139": "\t\tSystem.err.println(\"Processed checkpoint \"+count2+\"/\"+checkpoint.length+\" handled\");",
+        "277": "\t\t\ttry {",
+        "278": "\t\t\t\tObject o = unmarshallContext.unmarshall(inputStream);",
+        "120": "\t    DefaultObjectHelperRegistry registry = new J2SEObjectHelperRegistry();",
+        "121": "\t\tunmarshallContext = new DefaultContext(registry, unmarshallRegistry);",
+        "58": "\tprivate InputStream inputStream;",
+        "59": "\tprivate DefaultContext unmarshallContext;",
+        "140": "\t\tObject o = unmarshallContext.unmarshall(inputStream);",
+        "122": "\t\t"
+      },
+      "id": 109309000,
+      "filename": "SpectatorReplayController.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1489,
+      "location": "/pptx/src/org/apache/poi/openxml4j/opc",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406292/",
+      "md5hash": "47fc882bc196bd395e952d6ada656cd9",
+      "lines": {
+        "648": "\t\t\t\tif (partUnmarshaller != null) {",
+        "649": "\t\t\t\t\tUnmarshallContext context = new UnmarshallContext(this,",
+        "52": "import org.apache.poi.openxml4j.opc.internal.unmarshallers.PackagePropertiesUnmarshaller;",
+        "53": "import org.apache.poi.openxml4j.opc.internal.unmarshallers.UnmarshallContext;"
+      },
+      "id": 97406292,
+      "filename": "OPCPackage.java"
+    },
+    {
+      "repo": "https://github.com/mdf/exploding.git",
+      "language": "Java",
+      "linescount": 409,
+      "location": "/logprocessor/src/uk/ac/horizon/ug/exploding/logprocessor",
+      "name": "exploding",
+      "url": "https://searchcode.com/codesearch/view/109308617/",
+      "md5hash": "471a81696119f8d2ef3e82c92c642e56",
+      "lines": {
+        "113": "\t\t\t\twhile (true) {",
+        "114": "\t\t\t\t\tObject o = unmarshallContext.unmarshall(fis);",
+        "100": "\t\t\t\t",
+        "101": "\t\t\t\tLogHeader header = (LogHeader)unmarshallContext.unmarshall(fis);",
+        "93": "\t\t    DefaultObjectHelperRegistry registry = new J2SEObjectHelperRegistry();",
+        "94": "\t\t\tDefaultContext unmarshallContext = new DefaultContext(registry, unmarshallRegistry);"
+      },
+      "id": 109308617,
+      "filename": "ServerHessianToTSV.java"
+    },
+    {
+      "repo": "https://github.com/mdf/exploding.git",
+      "language": "Java",
+      "linescount": 259,
+      "location": "/webapp/src/uk/ac/horizon/ug/exploding/orchestration",
+      "name": "exploding",
+      "url": "https://searchcode.com/codesearch/view/109309040/",
+      "md5hash": "eb5a59f539f76b2a6d22155ae1895222",
+      "lines": {
+        "169": "\t\t\t\t",
+        "170": "\t\t\t\t    Object object = unmarshallContext.unmarshall(isr);",
+        "155": "\t\t\t\tDefaultUnmarshallXmlRegistry unmarshallRegistry = new DefaultUnmarshallXmlRegistry();",
+        "156": "\t\t\t\tDefaultContext unmarshallContext = new DefaultContext(registry, unmarshallRegistry);"
+      },
+      "id": 109309040,
+      "filename": "UploadController.java"
+    },
+    {
+      "repo": "http://hyperadapt.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 446,
+      "location": "/net.hyperadapt.pxweave/src/net/hyperadapt/pxweave",
+      "name": "hyperadapt",
+      "url": "https://searchcode.com/codesearch/view/11638051/",
+      "md5hash": "6938eb2bb614ec3a16ac443ac6ec49b7",
+      "lines": {
+        "80": "\t\t\tlogger.info(\"Loading default context model from '\" + contextURL.toString() + \"'.\");",
+        "81": "\t\t\tcontext = JAXBHelper.unmarshallContext(contextURL.toURL());"
+      },
+      "id": 11638051,
+      "filename": "Environment.java"
+    },
+    {
+      "repo": "http://hyperadapt.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 86,
+      "location": "/net.hyperadapt.pxweave/src/net/hyperadapt/pxweave/util",
+      "name": "hyperadapt",
+      "url": "https://searchcode.com/codesearch/view/11638067/",
+      "md5hash": "382bdaf6ee5071453cffc6d29ddabfd9",
+      "lines": {
+        "72": "\t",
+        "73": "\tpublic static Context unmarshallContext(URL contextURL) throws XMLWeaverException{"
+      },
+      "id": 11638067,
+      "filename": "JAXBHelper.java"
+    },
+    {
+      "repo": "http://hyperadapt.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 41,
+      "location": "/net.hyperadapt.pxweave.test/src/net/hyperadapt/pxweave/aspects/test",
+      "name": "hyperadapt",
+      "url": "https://searchcode.com/codesearch/view/11638210/",
+      "md5hash": "360a6df189e18e5c16e80898a6615a60",
+      "lines": {
+        "26": "\t\tFile contextFile = new File(\"testData/contextEvaluatorTest/context.xml\");",
+        "27": "\t\tContext context = JAXBHelper.unmarshallContext(contextFile.toURI().toURL());"
+      },
+      "id": 11638210,
+      "filename": "ContextEvaluatorTest.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 3,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "matchterm": "StylesTable",
+  "previouspage": null,
+  "searchterm": "StylesTable",
+  "query": "StylesTable",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/LucaREz/alchemistwithosm",
+      "language": "Java",
+      "linescount": 712,
+      "location": "/nextreactionmodel/src/main/java/org/openstreetmap/josm/gui/dialogs",
+      "name": "alchemistwithosm",
+      "url": "https://searchcode.com/codesearch/view/136272413/",
+      "md5hash": "b3de178f4f218f9e68f1fd4d8940fe20",
+      "lines": {
+        "82": "",
+        "83": "    protected StylesTable tblStyles;",
+        "164": "    protected static class StylesTable extends JTable {",
+        "163": "",
+        "166": "        public StylesTable(TableModel dm) {",
+        "123": "",
+        "124": "        tblStyles = new StylesTable(model);",
+        "165": ""
+      },
+      "id": 136272413,
+      "filename": "MapPaintDialog.java"
+    },
+    {
+      "repo": "https://bitbucket.org/quadrate/promo.git",
+      "language": "Java",
+      "linescount": 422,
+      "location": "/promo/src/main/java/by/q64/promo/utils/form",
+      "name": "promo",
+      "url": "https://searchcode.com/codesearch/view/92132351/",
+      "md5hash": "6226cf5fea0dd370fb57539147e9c0cd",
+      "lines": {
+        "24": "import org.apache.poi.xssf.model.StylesTable;",
+        "56": "\t//private XSSFWorkbook workbook = null;",
+        "57": "\tprivate StylesTable styletable = null;",
+        "23": "import org.apache.poi.ss.usermodel.Sheet;"
+      },
+      "id": 92132351,
+      "filename": "Exel.java"
+    },
+    {
+      "repo": "https://bitbucket.org/manticoretrader/etltools",
+      "language": "Java",
+      "linescount": 66,
+      "location": "/src",
+      "name": "etltools",
+      "url": "https://searchcode.com/codesearch/view/121321469/",
+      "md5hash": "aa5cdb3360caf13f65390496ade0595c",
+      "lines": {
+        "10": "import org.apache.poi.ss.usermodel.WorkbookFactory;",
+        "11": "import org.apache.poi.xssf.model.StylesTable;",
+        "45": "    XSSFCellStyle cellStyle = sheet.getRow(0).getCell(0).getCellStyle();",
+        "46": "    StylesTable stylesSource = wb.getStylesSource();"
+      },
+      "id": 121321469,
+      "filename": "XLColorTest.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "matchterm": "CTVector3D",
+  "previouspage": null,
+  "searchterm": "CTVector3D",
+  "query": "CTVector3D",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 87,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402591/",
+      "md5hash": "f906cd86d5fa92af5f4766a8529342e0",
+      "lines": {
+        "16": "public interface CTVector3D extends org.apache.xmlbeans.XmlObject",
+        "19": "        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CTVector3D.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sE130CAA0A01A7CDE5A2B4FEB8B311707\").resolveHandle(\"ctvector3d7c8ftype\");",
+        "18": "    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTVector3D",
+        "15": " */"
+      },
+      "id": 97402591,
+      "filename": "CTVector3D.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 109,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642211/",
+      "md5hash": "d641b1dba1447ed0ea6c49389012ec81",
+      "lines": {
+        "50": "@XmlType(name = \"CT_Vector3D\")",
+        "51": "public class CTVector3D {"
+      },
+      "id": 17642211,
+      "filename": "CTVector3D.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 256,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403527/",
+      "md5hash": "24202e6e5cf6c1f3cf10cc62828972a3",
+      "lines": {
+        "134": "     */",
+        "135": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTVector3D getUp()",
+        "139": "            check_orphaned();",
+        "140": "            org.openxmlformats.schemas.drawingml.x2006.main.CTVector3D target = null;",
+        "141": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTVector3D)get_store().find_element_user(UP$4, 0);",
+        "142": "            if (target == null)",
+        "84": "     */",
+        "85": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTVector3D getNorm()",
+        "153": "    public void setUp(org.openxmlformats.schemas.drawingml.x2006.main.CTVector3D up)",
+        "152": "     */",
+        "89": "            check_orphaned();",
+        "90": "            org.openxmlformats.schemas.drawingml.x2006.main.CTVector3D target = null;",
+        "91": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTVector3D)get_store().find_element_user(NORM$2, 0);",
+        "157": "            check_orphaned();",
+        "158": "            org.openxmlformats.schemas.drawingml.x2006.main.CTVector3D target = null;"
+      },
+      "id": 97403527,
+      "filename": "CTBackdropImpl.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 166,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642066/",
+      "md5hash": "88fbd73944818a8b7cd6a2d1b80d0fd0",
+      "lines": {
+        "64": "    protected CTVector3D norm;",
+        "65": "    @XmlElement(required = true)",
+        "66": "    protected CTVector3D up;",
+        "98": "     *     {@link CTVector3D }",
+        "133": "     *     allowed object is",
+        "97": "     *     possible object is",
+        "136": "     */",
+        "137": "    public void setUp(CTVector3D value) {",
+        "109": "     *     allowed object is",
+        "110": "     *     {@link CTVector3D }",
+        "112": "     */",
+        "113": "    public void setNorm(CTVector3D value) {",
+        "121": "     *     possible object is",
+        "122": "     *     {@link CTVector3D }",
+        "134": "     *     {@link CTVector3D }",
+        "63": "    @XmlElement(required = true)"
+      },
+      "id": 17642066,
+      "filename": "CTBackdrop.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 97,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403079/",
+      "md5hash": "8b42689b0d18ef06e3e0f26ab957c5ce",
+      "lines": {
+        "64": "    org.openxmlformats.schemas.drawingml.x2006.main.CTVector3D addNewUp();",
+        "38": "     */",
+        "39": "    org.openxmlformats.schemas.drawingml.x2006.main.CTVector3D getNorm();",
+        "43": "     */",
+        "44": "    void setNorm(org.openxmlformats.schemas.drawingml.x2006.main.CTVector3D norm);",
+        "48": "     */",
+        "49": "    org.openxmlformats.schemas.drawingml.x2006.main.CTVector3D addNewNorm();",
+        "53": "     */",
+        "54": "    org.openxmlformats.schemas.drawingml.x2006.main.CTVector3D getUp();",
+        "58": "     */",
+        "59": "    void setUp(org.openxmlformats.schemas.drawingml.x2006.main.CTVector3D up);",
+        "63": "     */"
+      },
+      "id": 97403079,
+      "filename": "CTBackdrop.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 3480,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642161/",
+      "md5hash": "ecaf98912e449049698e790afd5f5c5a",
+      "lines": {
+        "1193": "    /**",
+        "1194": "     * Create an instance of {@link CTVector3D }",
+        "1196": "     */",
+        "1197": "    public CTVector3D createCTVector3D() {",
+        "1198": "        return new CTVector3D();",
+        "1199": "    }"
+      },
+      "id": 17642161,
+      "filename": "ObjectFactory.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 234,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97404051/",
+      "md5hash": "326702f3746b59e55329a03d20d83f4c",
+      "lines": {
+        "16": "    ",
+        "17": "    public CTVector3DImpl(org.apache.xmlbeans.SchemaType sType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTVector3D",
+        "13": " */",
+        "14": "public class CTVector3DImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.openxmlformats.schemas.drawingml.x2006.main.CTVector3D"
+      },
+      "id": 97404051,
+      "filename": "CTVector3DImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

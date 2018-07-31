@@ -1,0 +1,238 @@
+{
+  "matchterm": "CTSphereCoords",
+  "previouspage": null,
+  "searchterm": "CTSphereCoords",
+  "query": "CTSphereCoords",
+  "language_filters": [
+    {
+      "count": 10,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 10,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 87,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402880/",
+      "md5hash": "d4648e19d0b9c0e798bdfe93c479b911",
+      "lines": {
+        "16": "public interface CTSphereCoords extends org.apache.xmlbeans.XmlObject",
+        "19": "        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CTSphereCoords.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sE130CAA0A01A7CDE5A2B4FEB8B311707\").resolveHandle(\"ctspherecoords8226type\");",
+        "18": "    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTSphereCoords",
+        "15": " */"
+      },
+      "id": 97402880,
+      "filename": "CTSphereCoords.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 109,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642188/",
+      "md5hash": "1c334c537e28d7cc11031198c6fcb6c3",
+      "lines": {
+        "50": "@XmlType(name = \"CT_SphereCoords\")",
+        "51": "public class CTSphereCoords {"
+      },
+      "id": 17642188,
+      "filename": "CTSphereCoords.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 366,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403671/",
+      "md5hash": "699d7997bad0e984342f4e4811d45a0d",
+      "lines": {
+        "64": "     */",
+        "65": "    public void setRot(org.openxmlformats.schemas.drawingml.x2006.main.CTSphereCoords rot)",
+        "34": "     */",
+        "35": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTSphereCoords getRot()",
+        "69": "            check_orphaned();",
+        "70": "            org.openxmlformats.schemas.drawingml.x2006.main.CTSphereCoords target = null;",
+        "39": "            check_orphaned();",
+        "40": "            org.openxmlformats.schemas.drawingml.x2006.main.CTSphereCoords target = null;",
+        "41": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTSphereCoords)get_store().find_element_user(ROT$0, 0);",
+        "42": "            if (target == null)",
+        "71": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTSphereCoords)get_store().find_element_user(ROT$0, 0);",
+        "72": "            if (target == null)",
+        "82": "     */",
+        "83": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTSphereCoords addNewRot()",
+        "73": "            {",
+        "74": "                target = (org.openxmlformats.schemas.drawingml.x2006.main.CTSphereCoords)get_store().add_element_user(ROT$0);"
+      },
+      "id": 97403671,
+      "filename": "CTCameraImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 240,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97404148/",
+      "md5hash": "8f2a054c5dea7e238a773cbcdcc74887",
+      "lines": {
+        "32": "     */",
+        "33": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTSphereCoords getRot()",
+        "67": "            check_orphaned();",
+        "68": "            org.openxmlformats.schemas.drawingml.x2006.main.CTSphereCoords target = null;",
+        "37": "            check_orphaned();",
+        "38": "            org.openxmlformats.schemas.drawingml.x2006.main.CTSphereCoords target = null;",
+        "39": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTSphereCoords)get_store().find_element_user(ROT$0, 0);",
+        "40": "            if (target == null)",
+        "71": "            {",
+        "72": "                target = (org.openxmlformats.schemas.drawingml.x2006.main.CTSphereCoords)get_store().add_element_user(ROT$0);",
+        "85": "            check_orphaned();",
+        "86": "            org.openxmlformats.schemas.drawingml.x2006.main.CTSphereCoords target = null;",
+        "87": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTSphereCoords)get_store().add_element_user(ROT$0);",
+        "70": "            if (target == null)",
+        "69": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTSphereCoords)get_store().find_element_user(ROT$0, 0);"
+      },
+      "id": 97404148,
+      "filename": "CTLightRigImpl.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 136,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642185/",
+      "md5hash": "c4a67a00b76816bf2c6441149c9bd136",
+      "lines": {
+        "80": "     *     {@link CTSphereCoords }",
+        "82": "     */",
+        "67": "     *     possible object is",
+        "68": "     *     {@link CTSphereCoords }",
+        "70": "     */",
+        "71": "    public CTSphereCoords getRot() {",
+        "56": "",
+        "57": "    protected CTSphereCoords rot;",
+        "83": "    public void setRot(CTSphereCoords value) {",
+        "79": "     *     allowed object is"
+      },
+      "id": 17642185,
+      "filename": "CTLightRig.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 167,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642187/",
+      "md5hash": "f4f0e5b5fdd869898b5f9f9545f1a65a",
+      "lines": {
+        "82": "     *     allowed object is",
+        "83": "     *     {@link CTSphereCoords }",
+        "85": "     */",
+        "70": "     *     possible object is",
+        "73": "     */",
+        "57": "",
+        "58": "    protected CTSphereCoords rot;",
+        "71": "     *     {@link CTSphereCoords }",
+        "86": "    public void setRot(CTSphereCoords value) {",
+        "74": "    public CTSphereCoords getRot() {"
+      },
+      "id": 17642187,
+      "filename": "CTCamera.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 3480,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642161/",
+      "md5hash": "ecaf98912e449049698e790afd5f5c5a",
+      "lines": {
+        "1433": "    /**",
+        "1434": "     * Create an instance of {@link CTSphereCoords }",
+        "1436": "     */",
+        "1437": "    public CTSphereCoords createCTSphereCoords() {",
+        "1438": "        return new CTSphereCoords();",
+        "1439": "    }"
+      },
+      "id": 17642161,
+      "filename": "ObjectFactory.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 132,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402052/",
+      "md5hash": "dbd7ef1f584ed52dd04a81b17083c396",
+      "lines": {
+        "33": "     */",
+        "34": "    void setRot(org.openxmlformats.schemas.drawingml.x2006.main.CTSphereCoords rot);",
+        "38": "     */",
+        "23": "     */",
+        "24": "    org.openxmlformats.schemas.drawingml.x2006.main.CTSphereCoords getRot();",
+        "39": "    org.openxmlformats.schemas.drawingml.x2006.main.CTSphereCoords addNewRot();"
+      },
+      "id": 97402052,
+      "filename": "CTCamera.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 92,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403008/",
+      "md5hash": "9fc39e7689dc4a32bd0c8eca2c77f7c8",
+      "lines": {
+        "33": "     */",
+        "34": "    void setRot(org.openxmlformats.schemas.drawingml.x2006.main.CTSphereCoords rot);",
+        "38": "     */",
+        "23": "     */",
+        "24": "    org.openxmlformats.schemas.drawingml.x2006.main.CTSphereCoords getRot();",
+        "39": "    org.openxmlformats.schemas.drawingml.x2006.main.CTSphereCoords addNewRot();"
+      },
+      "id": 97403008,
+      "filename": "CTLightRig.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 234,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403193/",
+      "md5hash": "4f65bc510ba872105a60aa48a41b91b8",
+      "lines": {
+        "16": "    ",
+        "17": "    public CTSphereCoordsImpl(org.apache.xmlbeans.SchemaType sType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTSphereCoords",
+        "13": " */",
+        "14": "public class CTSphereCoordsImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.openxmlformats.schemas.drawingml.x2006.main.CTSphereCoords"
+      },
+      "id": 97403193,
+      "filename": "CTSphereCoordsImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 10,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

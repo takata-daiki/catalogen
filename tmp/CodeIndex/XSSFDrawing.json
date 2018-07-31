@@ -1,0 +1,72 @@
+{
+  "matchterm": "XSSFDrawing",
+  "previouspage": null,
+  "searchterm": "XSSFDrawing",
+  "query": "XSSFDrawing",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1242,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970692/",
+      "md5hash": "7da77111e27cd710cd143cdee57bc0a6",
+      "lines": {
+        "1161": "\t            if(dr instanceof XSSFDrawing){",
+        "1156": "",
+        "1157": "    private XSSFDrawing _patriarch = null;",
+        "1158": "    public XSSFDrawing getDrawingPatriarch() {",
+        "1159": "    \tif (_patriarch == null) {",
+        "1160": "\t        for(POIXMLDocumentPart dr : getRelations()){",
+        "57": "import org.zkoss.poi.xssf.usermodel.XSSFCellHelper;",
+        "58": "import org.zkoss.poi.xssf.usermodel.XSSFDrawing;",
+        "1163": "\t            \tbreak;",
+        "1162": "\t            \t_patriarch = (XSSFDrawing) dr;"
+      },
+      "id": 3970692,
+      "filename": "XSSFSheetImpl.java"
+    },
+    {
+      "repo": "https://github.com/nic9805/jeecg.git",
+      "language": "Java",
+      "linescount": 278,
+      "location": "/jeecg-framework/src/main/java/org/jeecgframework/poi/excel",
+      "name": "jeecg",
+      "url": "https://searchcode.com/codesearch/view/93182055/",
+      "md5hash": "87019a72d8e02af505e4e1e5b6ac2ed2",
+      "lines": {
+        "19": "import org.apache.poi.xssf.usermodel.XSSFClientAnchor;",
+        "20": "import org.apache.poi.xssf.usermodel.XSSFDrawing;",
+        "261": "        for (POIXMLDocumentPart dr : sheet.getRelations()) {  ",
+        "262": "            if (dr instanceof XSSFDrawing) {  ",
+        "263": "                XSSFDrawing drawing = (XSSFDrawing) dr;  ",
+        "264": "                List<XSSFShape> shapes = drawing.getShapes();  "
+      },
+      "id": 93182055,
+      "filename": "ExcelPublicUtil.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

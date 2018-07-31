@@ -1,0 +1,103 @@
+{
+  "matchterm": "ChunkNotFoundException",
+  "previouspage": null,
+  "searchterm": "ChunkNotFoundException",
+  "query": "ChunkNotFoundException",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/ignasi35/msg-reader",
+      "language": "Java",
+      "linescount": 192,
+      "location": "/src/main/java/com/marimon",
+      "name": "msg-reader",
+      "url": "https://searchcode.com/codesearch/view/118119498/",
+      "md5hash": "60eb9b0468e7f4ac0d8c051c88c1f214",
+      "lines": {
+        "96": "                txtOut.println(\"CC: \" + displayCC);",
+        "97": "            } catch (ChunkNotFoundException e) {",
+        "27": "import org.apache.poi.hsmf.datatypes.AttachmentChunks;",
+        "102": "                txtOut.println(\"BCC: \" + displayBCC);",
+        "103": "            } catch (ChunkNotFoundException e) {",
+        "108": "                txtOut.println(\"Subject: \" + subject);",
+        "77": "                }",
+        "78": "            } catch (ChunkNotFoundException e1) {",
+        "109": "            } catch (ChunkNotFoundException e) {",
+        "114": "                txtOut.println(body);",
+        "115": "            } catch (ChunkNotFoundException e) {",
+        "84": "                txtOut.println(\"From: \" + displayFrom);",
+        "85": "            } catch (ChunkNotFoundException e) {",
+        "90": "                txtOut.println(\"To: \" + displayTo);",
+        "91": "            } catch (ChunkNotFoundException e) {",
+        "28": "import org.apache.poi.hsmf.exceptions.ChunkNotFoundException;"
+      },
+      "id": 118119498,
+      "filename": "Msg2Txt.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 159,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785566/",
+      "md5hash": "1bd627ff1780999303003935848497a1",
+      "lines": {
+        "112": "           } catch(ChunkNotFoundException e) {}",
+        "145": "           }",
+        "146": "        } catch(ChunkNotFoundException e) {",
+        "23": "import org.apache.poi.hsmf.datatypes.AttachmentChunks;",
+        "24": "import org.apache.poi.hsmf.exceptions.ChunkNotFoundException;",
+        "73": "           }",
+        "74": "           } catch(ChunkNotFoundException he) {} // Will be fixed in POI 3.7 Final",
+        "111": "               header(xhtml, \"Recipients\", msg.getRecipientEmailAddress());",
+        "94": "                 }",
+        "95": "              } catch(ChunkNotFoundException he) {"
+      },
+      "id": 111785566,
+      "filename": "OutlookExtractor.java"
+    },
+    {
+      "repo": "https://github.com/SilverTeamWork/Silverpeas-Core.git",
+      "language": "Java",
+      "linescount": 207,
+      "location": "/lib-core/src/main/java/org/silverpeas/util/mail",
+      "name": "Silverpeas-Core",
+      "url": "https://searchcode.com/codesearch/view/93257122/",
+      "md5hash": "27ed54983be584e0f365e128890a8816",
+      "lines": {
+        "97": "      mail.setSubject(message.getSubject());",
+        "98": "    } catch (ChunkNotFoundException e) {",
+        "52": "import org.apache.poi.hsmf.datatypes.RecipientChunks;",
+        "53": "import org.apache.poi.hsmf.exceptions.ChunkNotFoundException;",
+        "124": "      mail.setBody(body);",
+        "92": "      }",
+        "93": "    } catch (ChunkNotFoundException e) {",
+        "125": "    } catch (ChunkNotFoundException e) {"
+      },
+      "id": 93257122,
+      "filename": "MSGExtractor.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

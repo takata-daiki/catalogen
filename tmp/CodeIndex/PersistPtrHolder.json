@@ -1,0 +1,86 @@
+{
+  "matchterm": "PersistPtrHolder",
+  "previouspage": null,
+  "searchterm": "PersistPtrHolder",
+  "query": "PersistPtrHolder",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1082,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394959/",
+      "md5hash": "5d80afff23c354813b0c27bde8e947ac",
+      "lines": {
+        "144": "\t\tfor (int i = 0; i < _records.length; i++) {",
+        "145": "\t\t\tif (_records[i] instanceof PersistPtrHolder) {",
+        "146": "\t\t\t\tPersistPtrHolder pph = (PersistPtrHolder) _records[i];",
+        "147": "",
+        "740": "\t\tint slideOffset = 0;",
+        "741": "\t\tPersistPtrHolder ptr = null;",
+        "135": "\t/**",
+        "136": "\t * Use the PersistPtrHolder entries to figure out what is the \"most recent\"",
+        "753": "\t\t\tif (_records[i].getRecordType() == RecordTypes.PersistPtrIncrementalBlock.typeID) {",
+        "754": "\t\t\t\tptr = (PersistPtrHolder) _records[i];"
+      },
+      "id": 97394959,
+      "filename": "SlideShow.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 688,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394255/",
+      "md5hash": "40d5716cbdc5b9b544fff845bb8e0c6f",
+      "lines": {
+        "595": "\t\t\t\tr[(i+1)] = _records[i];",
+        "499": "        //   records are going to end up, in the new scheme",
+        "500": "        // (Annoyingly, some powerpoing files have PersistPtrHolders",
+        "501": "        //  that reference slides after the PersistPtrHolder)",
+        "502": "        ByteArrayOutputStream baos = new ByteArrayOutputStream();",
+        "39": "import org.apache.poi.hslf.record.ExOleObjStg;",
+        "40": "import org.apache.poi.hslf.record.PersistPtrHolder;",
+        "596": "\t\t\t\tif(_records[i] instanceof PersistPtrHolder) {",
+        "286": "",
+        "287": "            PersistPtrHolder ptr = (PersistPtrHolder)Record.buildRecordAtOffset(docstream, psrOffset);"
+      },
+      "id": 97394255,
+      "filename": "HSLFSlideShow.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 514,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394313/",
+      "md5hash": "346ffc55e0b7a05381ade3b094d03d17",
+      "lines": {
+        "105": "\t* Create a new Slide instance",
+        "106": "\t* @param sheetNumber The internal number of the sheet, as used by PersistPtrHolder"
+      },
+      "id": 97394313,
+      "filename": "Slide.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

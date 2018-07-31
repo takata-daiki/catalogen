@@ -1,0 +1,318 @@
+{
+  "matchterm": "FunctionEval",
+  "previouspage": null,
+  "searchterm": "FunctionEval",
+  "query": "FunctionEval",
+  "language_filters": [
+    {
+      "count": 16,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 16,
+  "results": [
+    {
+      "repo": "https://github.com/ieml/interpreter.git",
+      "language": "Java",
+      "linescount": 2222,
+      "location": "/src/org/ieml",
+      "name": "interpreter",
+      "url": "https://searchcode.com/codesearch/view/104821501/",
+      "md5hash": "1cdabbc093858ceb2032389720e2c79f",
+      "lines": {
+        "192": "    // /eclipse/workspace/imelpreter/src/ieml.g:28:1: functionEval : fn= NAME LPAREN (exp= starexpr | otherfn= functionEval ) RPAREN -> ^( FUNCTION $fn ( $exp)? ( $otherfn)? ) ;",
+        "136": "        try {",
+        "137": "            // /eclipse/workspace/imelpreter/src/ieml.g:26:8: ( functionEval EOF )",
+        "139": "",
+        "140": "            // /eclipse/workspace/imelpreter/src/ieml.g:26:10: functionEval EOF",
+        "144": "            dbg.location(26,10);",
+        "145": "            pushFollow(FOLLOW_functionEval_in_script91);",
+        "146": "            functionEval1=functionEval();",
+        "147": "",
+        "149": "",
+        "150": "            adaptor.addChild(root_0, functionEval1.getTree());",
+        "185": "",
+        "186": "    public static class functionEval_return extends ParserRuleReturnScope {",
+        "190": "",
+        "191": "    // $ANTLR start \"functionEval\""
+      },
+      "id": 104821501,
+      "filename": "iemlParser.java"
+    },
+    {
+      "repo": "https://github.com/ieml/interpreter.git",
+      "language": "Java",
+      "linescount": 1069,
+      "location": "/src/org/ieml",
+      "name": "interpreter",
+      "url": "https://searchcode.com/codesearch/view/104821525/",
+      "md5hash": "0b3100381c152abd99f91b294271c3d8",
+      "lines": {
+        "194": "                    {",
+        "195": "                    match(input,FUNCTION,FOLLOW_FUNCTION_in_functionEval55); ",
+        "197": "                    match(input, Token.DOWN, null); ",
+        "198": "                    fn=(CommonTree)match(input,NAME,FOLLOW_NAME_in_functionEval59); ",
+        "199": "                    pushFollow(FOLLOW_starexp_in_functionEval63);",
+        "136": "",
+        "137": "    // $ANTLR start \"functionEval\"",
+        "138": "    // /eclipse/workspace/imelpreter/src/iemlWalker.g:36:1: functionEval : ( ^( FUNCTION fn= NAME cat= starexp ) | ^( FUNCTION fn= NAME functionEval ) );",
+        "139": "    public final void functionEval() throws RecognitionException {",
+        "140": "        CommonTree fn=null;",
+        "200": "                    cat=starexp();",
+        "144": "        try {",
+        "145": "            // /eclipse/workspace/imelpreter/src/iemlWalker.g:37:2: ( ^( FUNCTION fn= NAME cat= starexp ) | ^( FUNCTION fn= NAME functionEval ) )",
+        "92": "            {",
+        "93": "            // /eclipse/workspace/imelpreter/src/iemlWalker.g:34:9: ( functionEval )*"
+      },
+      "id": 104821525,
+      "filename": "iemlWalker.java"
+    },
+    {
+      "repo": "http://beast-mcmc.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 125,
+      "location": "/src/dr/math/iterations",
+      "name": "beast-mcmc",
+      "url": "https://searchcode.com/codesearch/view/7747132/",
+      "md5hash": "a6446319834c64599cbfc5d18f2db0c9",
+      "lines": {
+        "27": "",
+        "28": "import dr.math.functionEval.DrMath;",
+        "29": "import dr.math.functionEval.FunctionDerivative;",
+        "30": "import dr.math.interfaces.OneVariableFunction;"
+      },
+      "id": 7747132,
+      "filename": "NewtonZeroFinder.java"
+    },
+    {
+      "repo": "https://github.com/ieml/interpreter.git",
+      "language": "Java",
+      "linescount": 45,
+      "location": "/src/org/ieml",
+      "name": "interpreter",
+      "url": "https://searchcode.com/codesearch/view/104821542/",
+      "md5hash": "4fee5ba3acdbf04a7e61bb03ef4c4c15",
+      "lines": {
+        "40": "        treeParser.setTreeNodeStream(new CommonTreeNodeStream(ast));",
+        "41": "        treeParser.functionEval(); // start rule method"
+      },
+      "id": 104821542,
+      "filename": "Processor.java"
+    },
+    {
+      "repo": "http://beast-mcmc.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 730,
+      "location": "/src/dr/evomodelxml",
+      "name": "beast-mcmc",
+      "url": "https://searchcode.com/codesearch/view/63792445/",
+      "md5hash": "804d25992a387b2209b3c360c8aa5d39",
+      "lines": {
+        "49": "import dr.math.distributions.MultivariateGammaDistribution;",
+        "50": "import dr.math.functionEval.GammaFunction;"
+      },
+      "id": 63792445,
+      "filename": "TreeWorkingPriorParsers.java"
+    },
+    {
+      "repo": "http://beast-mcmc.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/src/dr/evomodel/epidemiology/casetocase/periodpriors",
+      "name": "beast-mcmc",
+      "url": "https://searchcode.com/codesearch/view/63792512/",
+      "md5hash": "7a7063fcd8eacadffa286e8f3a00b32a",
+      "lines": {
+        "5": "import dr.math.distributions.NormalDistribution;",
+        "6": "import dr.math.functionEval.GammaFunction;"
+      },
+      "id": 63792512,
+      "filename": "KnownVarianceNormalPeriodPriorDistribution.java"
+    },
+    {
+      "repo": "http://beast-mcmc.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 166,
+      "location": "/src/dr/evomodel/epidemiology/casetocase/periodpriors",
+      "name": "beast-mcmc",
+      "url": "https://searchcode.com/codesearch/view/63792513/",
+      "md5hash": "7300bdfe9163259cd607292ef00f19aa",
+      "lines": {
+        "6": "import dr.math.distributions.NormalGammaDistribution;",
+        "7": "import dr.math.functionEval.GammaFunction;"
+      },
+      "id": 63792513,
+      "filename": "NormalPeriodPriorDistribution.java"
+    },
+    {
+      "repo": "http://beast-mcmc.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 52,
+      "location": "/src/dr/math/distributions",
+      "name": "beast-mcmc",
+      "url": "https://searchcode.com/codesearch/view/63792533/",
+      "md5hash": "39b001707f77b51849e0255b44b28b58",
+      "lines": {
+        "3": "",
+        "4": "import dr.math.functionEval.GammaFunction;"
+      },
+      "id": 63792533,
+      "filename": "NormalGammaDistribution.java"
+    },
+    {
+      "repo": "http://beast-mcmc.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 97,
+      "location": "/src/test/dr/distibutions",
+      "name": "beast-mcmc",
+      "url": "https://searchcode.com/codesearch/view/7745395/",
+      "md5hash": "cc787d228fb6048f906daa792db6f4ce",
+      "lines": {
+        "64": "                public double value(double v) throws FunctionEvaluationException {",
+        "3": "import dr.math.distributions.GammaDistribution;",
+        "4": "import dr.math.functionEval.GammaFunction;",
+        "6": "import org.apache.commons.math.ConvergenceException;",
+        "7": "import org.apache.commons.math.FunctionEvaluationException;",
+        "27": "",
+        "28": "\tpublic void testPdf() throws FunctionEvaluationException  {",
+        "63": "            UnivariateRealFunction f = new UnivariateRealFunction() {"
+      },
+      "id": 7745395,
+      "filename": "GammaDistributionTest.java"
+    },
+    {
+      "repo": "http://beast-mcmc.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1041,
+      "location": "/src/dr/evomodel/arg/operators",
+      "name": "beast-mcmc",
+      "url": "https://searchcode.com/codesearch/view/7746802/",
+      "md5hash": "46796de9e65c8573963101c7ed9f5afd",
+      "lines": {
+        "19": "import dr.math.MathUtils;",
+        "20": "import dr.math.functionEval.GammaFunction;"
+      },
+      "id": 7746802,
+      "filename": "ObsoleteARGAddRemoveEventOperator.java"
+    },
+    {
+      "repo": "http://beast-mcmc.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 732,
+      "location": "/src/dr/evomodel/arg/operators",
+      "name": "beast-mcmc",
+      "url": "https://searchcode.com/codesearch/view/7746804/",
+      "md5hash": "beb8af1b6e7e6a877cbf52fb7229208e",
+      "lines": {
+        "19": "import dr.math.MathUtils;",
+        "20": "import dr.math.functionEval.GammaFunction;"
+      },
+      "id": 7746804,
+      "filename": "ObsoleteARGNewEventOperator.java"
+    },
+    {
+      "repo": "http://beast-mcmc.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 163,
+      "location": "/src/dr/math/iterations",
+      "name": "beast-mcmc",
+      "url": "https://searchcode.com/codesearch/view/7747130/",
+      "md5hash": "967ae966233babba3549877e4decf92a",
+      "lines": {
+        "27": "",
+        "28": "import dr.math.functionEval.DrMath;"
+      },
+      "id": 7747130,
+      "filename": "IterativeProcess.java"
+    },
+    {
+      "repo": "http://beast-mcmc.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 282,
+      "location": "/src/dr/math/functionEval",
+      "name": "beast-mcmc",
+      "url": "https://searchcode.com/codesearch/view/7747125/",
+      "md5hash": "fdfbd9ff1dbb04d713f8bcb211edeeb9",
+      "lines": {
+        "25": "",
+        "26": "package dr.math.functionEval;"
+      },
+      "id": 7747125,
+      "filename": "DrMath.java"
+    },
+    {
+      "repo": "http://beast-mcmc.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 76,
+      "location": "/src/dr/math/functionEval",
+      "name": "beast-mcmc",
+      "url": "https://searchcode.com/codesearch/view/7747126/",
+      "md5hash": "daa7dd879e507899c954b6233f60c41a",
+      "lines": {
+        "25": "",
+        "26": "package dr.math.functionEval;"
+      },
+      "id": 7747126,
+      "filename": "FunctionDerivative.java"
+    },
+    {
+      "repo": "http://beast-mcmc.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 363,
+      "location": "/src/dr/math/functionEval",
+      "name": "beast-mcmc",
+      "url": "https://searchcode.com/codesearch/view/7747127/",
+      "md5hash": "4a26530ed1b221017fdc945b1b5400ec",
+      "lines": {
+        "224": " * @param p DhbFunctionEvaluation.PolynomialFunction",
+        "225": " * @return DhbFunctionEvaluation.PolynomialFunction",
+        "226": " */",
+        "71": " *",
+        "136": " * @param r double",
+        "73": " * @return DhbFunctionEvaluation.PolynomialFunction",
+        "74": " */",
+        "72": " * @param p DhbFunctionEvaluation.PolynomialFunction",
+        "211": " * @param r double",
+        "212": " * @return DhbFunctionEvaluation.PolynomialFunction",
+        "137": " * @return DhbFunctionEvaluation.PolynomialFunction",
+        "25": "",
+        "154": " * @param p PolynomialFunction",
+        "155": " * @return DhbFunctionEvaluation.PolynomialFunction",
+        "26": "package dr.math.functionEval;",
+        "223": " *"
+      },
+      "id": 7747127,
+      "filename": "PolynomialFunction.java"
+    },
+    {
+      "repo": "http://beast-mcmc.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 115,
+      "location": "/src/dr/math/functionEval",
+      "name": "beast-mcmc",
+      "url": "https://searchcode.com/codesearch/view/7747128/",
+      "md5hash": "060f44a0d1b4a39d29b765ab5640ed01",
+      "lines": {
+        "25": "",
+        "26": "package dr.math.functionEval;"
+      },
+      "id": 7747128,
+      "filename": "GammaFunction.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 13,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

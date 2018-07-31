@@ -1,0 +1,182 @@
+{
+  "matchterm": "KeyInfoKeySelector",
+  "previouspage": null,
+  "searchterm": "KeyInfoKeySelector",
+  "query": "KeyInfoKeySelector",
+  "language_filters": [
+    {
+      "count": 9,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 9,
+  "results": [
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 122,
+      "location": "/eid-applet-service-signer/src/main/java/be/fedict/eid/applet/service/signer",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982613/",
+      "md5hash": "7be6e4041aa9b2ae38834948039932f7",
+      "lines": {
+        "64": "\tprivate static final Log LOG = LogFactory.getLog(KeyInfoKeySelector.class);",
+        "60": " */",
+        "61": "public class KeyInfoKeySelector extends KeySelector implements",
+        "63": ""
+      },
+      "id": 7982613,
+      "filename": "KeyInfoKeySelector.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 592,
+      "location": "/eid-applet-service-signer/src/test/java/test/unit/be/fedict/eid/applet/service/signer",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982558/",
+      "md5hash": "cc77d5a7fa1ea507ddb103c019ec1ccf",
+      "lines": {
+        "80": "import be.fedict.eid.applet.service.signer.KeyInfoKeySelector;",
+        "293": "\t\tElement signatureElement = (Element) signatureNodeList.item(0);",
+        "294": "\t\tKeyInfoKeySelector keySelector = new KeyInfoKeySelector();",
+        "526": "\t\t\tKeyInfoKeySelector keySelector = new KeyInfoKeySelector();",
+        "351": "\t\tKeyInfoKeySelector keySelector = new KeyInfoKeySelector();",
+        "525": "\t\t\tNode signatureNode = signatureNodeList.item(0);",
+        "350": "\t\tElement signatureElement = (Element) signatureNodeList.item(0);",
+        "79": ""
+      },
+      "id": 7982558,
+      "filename": "OOXMLSignatureVerifierTest.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 189,
+      "location": "/eid-applet-service-signer/src/main/java/be/fedict/eid/applet/service/signer/odf",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982624/",
+      "md5hash": "24ec939680caa2bc41ddce4519a29505",
+      "lines": {
+        "137": "        }",
+        "138": "        KeyInfoKeySelector keySelector = new KeyInfoKeySelector();",
+        "51": "",
+        "52": "import be.fedict.eid.applet.service.signer.KeyInfoKeySelector;"
+      },
+      "id": 7982624,
+      "filename": "ODFSignatureVerifier.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 111,
+      "location": "/eid-applet-service-signer/src/main/java/be/fedict/eid/applet/service/signer/asic",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982630/",
+      "md5hash": "0bc1b459e6eb74de836d23d17c577e6e",
+      "lines": {
+        "40": "",
+        "41": "import be.fedict.eid.applet.service.signer.KeyInfoKeySelector;",
+        "90": "\t\t\tKeyInfoKeySelector keySelector = new KeyInfoKeySelector();",
+        "89": "\t\t\tElement signatureElement = (Element) signatureNodeList.item(idx);"
+      },
+      "id": 7982630,
+      "filename": "ASiCSignatureVerifier.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 823,
+      "location": "/eid-applet-service-signer/src/main/java/be/fedict/eid/applet/service/signer/ooxml",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982662/",
+      "md5hash": "578c0e7a28abdacdf0fb510f3a465403",
+      "lines": {
+        "164": "\t\t\tKeyInfoKeySelector keySelector = new KeyInfoKeySelector();",
+        "83": "",
+        "84": "import be.fedict.eid.applet.service.signer.KeyInfoKeySelector;",
+        "163": ""
+      },
+      "id": 7982662,
+      "filename": "OOXMLSignatureVerifier.java"
+    },
+    {
+      "repo": "http://eid-idp.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 277,
+      "location": "/eid-idp-protocol-ws-federation/src/test/java/test/unit/be/fedict/eid/idp/protocol/ws_federation",
+      "name": "eid-idp",
+      "url": "https://searchcode.com/codesearch/view/12938478/",
+      "md5hash": "4f3526ef8090c3ed73ae6974626946a6",
+      "lines": {
+        "176": "\t\tKeyInfoKeySelector keySelector = new KeyInfoKeySelector();",
+        "175": "",
+        "78": "",
+        "79": "import be.fedict.eid.applet.service.signer.KeyInfoKeySelector;"
+      },
+      "id": 12938478,
+      "filename": "WSFederationMetadataHttpServletTest.java"
+    },
+    {
+      "repo": "http://eid-idp.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 401,
+      "location": "/eid-idp-protocol-ws-federation/src/test/java/test/unit/be/fedict/eid/idp/protocol/ws_federation",
+      "name": "eid-idp",
+      "url": "https://searchcode.com/codesearch/view/12938479/",
+      "md5hash": "6c0b5af3ef5d57ff775747226c98b35c",
+      "lines": {
+        "96": "import be.fedict.eid.applet.service.signer.KeyInfoKeySelector;",
+        "208": "\t\tKeyInfoKeySelector keySelector = new KeyInfoKeySelector();",
+        "207": "",
+        "95": "import be.fedict.eid.applet.service.Identity;"
+      },
+      "id": 12938479,
+      "filename": "WSFederationProtocolServiceTest.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 277,
+      "location": "/eid-applet-service-signer/src/test/java/test/unit/be/fedict/eid/applet/service/signer",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982564/",
+      "md5hash": "f9e82f5e6f88c9b2a563b5a489a7e260",
+      "lines": {
+        "64": "",
+        "65": "import be.fedict.eid.applet.service.signer.KeyInfoKeySelector;",
+        "248": "\t\tDOMValidateContext domValidateContext = new DOMValidateContext(",
+        "249": "\t\t\t\tnew KeyInfoKeySelector(), signatureNode);"
+      },
+      "id": 7982564,
+      "filename": "AbstractODFSignatureServiceTest.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 207,
+      "location": "/eid-applet-service-signer/src/main/java/be/fedict/eid/applet/service/signer/ooxml",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982666/",
+      "md5hash": "301f32f0a3b4b77df7bab5a15aaf91c5",
+      "lines": {
+        "56": "public class OPCKeySelector extends KeyInfoKeySelector {",
+        "43": "",
+        "44": "import be.fedict.eid.applet.service.signer.KeyInfoKeySelector;",
+        "55": " */"
+      },
+      "id": 7982666,
+      "filename": "OPCKeySelector.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 9,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

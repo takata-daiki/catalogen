@@ -1,0 +1,88 @@
+{
+  "matchterm": "SprmBuffer",
+  "previouspage": null,
+  "searchterm": "SprmBuffer",
+  "query": "SprmBuffer",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 85,
+      "location": "/src/org/apache/poi/hwpf/model",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384232/",
+      "md5hash": "1aadd3e43cb66ebb7fbcad67946b426b",
+      "lines": {
+        "41": "  {",
+        "42": "    super(fcStart, translator.lookIndexBackward(fcEnd), translator, new SprmBuffer(grpprl, 0));",
+        "45": "  @Deprecated",
+        "46": "  public CHPX(int fcStart, int fcEnd, CharIndexTranslator translator, SprmBuffer buf)",
+        "50": "",
+        "51": "    CHPX( int charStart, int charEnd, SprmBuffer buf )",
+        "20": "import org.apache.poi.hwpf.sprm.CharacterSprmUncompressor;",
+        "21": "import org.apache.poi.hwpf.sprm.SprmBuffer;",
+        "57": "  {",
+        "58": "    return ((SprmBuffer)_buf).toByteArray();",
+        "60": "",
+        "61": "  public SprmBuffer getSprmBuf()",
+        "62": "  {",
+        "63": "    return (SprmBuffer)_buf;"
+      },
+      "id": 97384232,
+      "filename": "CHPX.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 660,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384407/",
+      "md5hash": "d9e337622aaacee6d2790b7572b0af11",
+      "lines": {
+        "161": "  protected ParagraphProperties _props;",
+        "162": "  protected SprmBuffer _papx;",
+        "631": "    //p._baseStyle = _baseStyle;",
+        "632": "    p._papx = new SprmBuffer(0);",
+        "28": "import org.apache.poi.hwpf.sprm.ParagraphSprmUncompressor;",
+        "29": "import org.apache.poi.hwpf.sprm.SprmBuffer;"
+      },
+      "id": 97384407,
+      "filename": "Paragraph.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 676,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384484/",
+      "md5hash": "eb3ee5102b1d02992e415773f3944ccc",
+      "lines": {
+        "88": "  SprmBuffer _chpx;",
+        "25": "import org.apache.poi.hwpf.model.StyleSheet;",
+        "26": "import org.apache.poi.hwpf.sprm.SprmBuffer;",
+        "87": ""
+      },
+      "id": 97384484,
+      "filename": "CharacterRun.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

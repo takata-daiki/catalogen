@@ -1,0 +1,134 @@
+{
+  "matchterm": "ChunkGroup",
+  "previouspage": null,
+  "searchterm": "ChunkGroup",
+  "query": "ChunkGroup",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "https://github.com/isdom/POI-Android.git",
+      "language": "Java",
+      "linescount": 190,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hsmf/parsers",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/88636100/",
+      "md5hash": "9c88a7698cc287ccc385a9389ab3678d",
+      "lines": {
+        "110": "   protected static void process(Entry entry, ChunkGroup grouping) {",
+        "94": "    */",
+        "109": "    */",
+        "46": "public final class POIFSChunkParser {",
+        "47": "   public static ChunkGroup[] parse(POIFSFileSystem fs) throws IOException {",
+        "49": "   }",
+        "50": "   public static ChunkGroup[] parse(DirectoryNode node) throws IOException {",
+        "52": "      ",
+        "53": "      ArrayList<ChunkGroup> groups = new ArrayList<ChunkGroup>();",
+        "87": "      // Finish",
+        "88": "      return groups.toArray(new ChunkGroup[groups.size()]);",
+        "25": "import org.apache.poi.hsmf.datatypes.Chunk;",
+        "26": "import org.apache.poi.hsmf.datatypes.ChunkGroup;",
+        "61": "            DirectoryNode dir = (DirectoryNode)entry;",
+        "62": "            ChunkGroup group = null;",
+        "95": "   protected static void processChunks(DirectoryNode node, ChunkGroup grouping) {"
+      },
+      "id": 88636100,
+      "filename": "POIFSChunkParser.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nbargnesi/idea.git",
+      "language": "Java",
+      "linescount": 1054,
+      "location": "/jps/jps-builders/src/org/jetbrains/jps/incremental",
+      "name": "idea",
+      "url": "https://searchcode.com/codesearch/view/39402780/",
+      "md5hash": "eba09dd0aa07170f611d4ca3980a14b5",
+      "lines": {
+        "865": "",
+        "866": "  public static boolean dependsOnGroup(ModuleChunk chunk, ChunkGroup group, Map<ModuleBuildTarget, Set<ModuleBuildTarget>> depsMap) {",
+        "842": "",
+        "843": "  private static List<ChunkGroup> buildChunkGroups(ProjectChunks chunks) {",
+        "857": "        currentGroup = new ChunkGroup();",
+        "856": "      if (dependsOnGroup(chunk, currentGroup, depsMap)) {",
+        "851": "",
+        "852": "    final List<ChunkGroup> groups = new ArrayList<ChunkGroup>();",
+        "853": "    ChunkGroup currentGroup = new ChunkGroup();",
+        "854": "    groups.add(currentGroup);",
+        "407": "      if (BuildRunner.PARALLEL_BUILD_ENABLED) {",
+        "408": "        final List<ChunkGroup> chunkGroups = buildChunkGroups(chunks);",
+        "409": "        for (ChunkGroup group : chunkGroups) {",
+        "410": "          final List<ModuleChunk> groupChunks = group.getChunks();",
+        "989": "",
+        "990": "  private static class ChunkGroup {"
+      },
+      "id": 39402780,
+      "filename": "IncProjectBuilder.java"
+    },
+    {
+      "repo": "https://github.com/blacklaw0/jogl.git",
+      "language": "Java",
+      "linescount": 285,
+      "location": "/src/jogl/classes/jogamp/opengl/util/pngj/chunks",
+      "name": "jogl",
+      "url": "https://searchcode.com/codesearch/view/69007271/",
+      "md5hash": "0e4a6776e68a181d0f262233eee31583",
+      "lines": {
+        "211": "\t * @see #getChunkGroup()",
+        "200": "\t/**",
+        "201": "\t * In which \"chunkGroup\" (see {@link ChunksList}for definition) this chunks",
+        "210": "\t/**",
+        "206": "\tfinal public int getChunkGroup() {",
+        "205": "\t */",
+        "208": "\t}",
+        "82": "",
+        "83": "\tprotected int chunkGroup = -1; // chunk group where it was read or writen",
+        "212": "\t */",
+        "213": "\tfinal public void setChunkGroup(int chunkGroup) {",
+        "214": "\t\tthis.chunkGroup = chunkGroup;",
+        "215": "\t}",
+        "207": "\t\treturn chunkGroup;"
+      },
+      "id": 69007271,
+      "filename": "PngChunk.java"
+    },
+    {
+      "repo": "https://github.com/blacklaw0/jogl.git",
+      "language": "Java",
+      "linescount": 178,
+      "location": "/src/jogl/classes/jogamp/opengl/util/pngj/chunks",
+      "name": "jogl",
+      "url": "https://searchcode.com/codesearch/view/69007633/",
+      "md5hash": "ce0ef2a3f7a579d09bb3ca8d218eaf9b",
+      "lines": {
+        "82": "\t */",
+        "83": "\tpublic void appendReadChunk(PngChunk chunk, int chunkGroup) {",
+        "84": "\t\tchunk.setChunkGroup(chunkGroup);",
+        "85": "\t\tchunks.add(chunk);",
+        "171": "\t\tfor (PngChunk chunk : chunks) {",
+        "172": "\t\t\tsb.append(chunk).append(\" G=\" + chunk.getChunkGroup() + \"\\n\");"
+      },
+      "id": 69007633,
+      "filename": "ChunksList.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

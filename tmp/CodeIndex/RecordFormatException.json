@@ -1,0 +1,399 @@
+{
+  "matchterm": "RecordFormatException",
+  "previouspage": null,
+  "searchterm": "RecordFormatException",
+  "query": "RecordFormatException",
+  "language_filters": [
+    {
+      "count": 159,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 159,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 65,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642445/",
+      "md5hash": "37b34affbd8d2f5ba191109292c1ac39",
+      "lines": {
+        "48": "",
+        "49": "public class RecordFormatException",
+        "51": "{",
+        "52": "    public RecordFormatException(String exception)",
+        "56": "    ",
+        "57": "    public RecordFormatException(String exception, Throwable thr) {",
+        "60": "    ",
+        "61": "    public RecordFormatException(Throwable thr) {"
+      },
+      "id": 15642445,
+      "filename": "RecordFormatException.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 437,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383884/",
+      "md5hash": "14b85e8d69cd04386fea9a02834e7d65",
+      "lines": {
+        "400": "        {",
+        "401": "            throw new RecordFormatException( e.toString() );",
+        "22": "import org.apache.poi.util.LittleEndian;",
+        "23": "import org.apache.poi.util.RecordFormatException;",
+        "430": "        {",
+        "431": "            throw new RecordFormatException( e.toString() );"
+      },
+      "id": 97383884,
+      "filename": "EscherBlipWMFRecord.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 155,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383868/",
+      "md5hash": "f2f5874ecb2c3ec4ba886d25f727b6cd",
+      "lines": {
+        "50": "        if (bytesRemaining != 0)",
+        "51": "            throw new RecordFormatException(\"Expecting no remaining data but got \" + bytesRemaining + \" byte(s).\");",
+        "21": "import org.apache.poi.util.LittleEndian;",
+        "22": "import org.apache.poi.util.RecordFormatException;"
+      },
+      "id": 97383868,
+      "filename": "EscherSplitMenuColorsRecord.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 166,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383874/",
+      "md5hash": "1d70826ce2176ac55b0ddf3f8c697a3c",
+      "lines": {
+        "70": "        if (size != getRecordSize())",
+        "21": "import org.apache.poi.util.LittleEndian;",
+        "22": "import org.apache.poi.util.RecordFormatException;",
+        "71": "            throw new RecordFormatException(size + \" bytes written but getRecordSize() reports \" + getRecordSize());"
+      },
+      "id": 97383874,
+      "filename": "EscherTextboxRecord.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 242,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383877/",
+      "md5hash": "48919c9b6499422e29c7fc3369f5c7ff",
+      "lines": {
+        "83": "        if (bytesRemaining != 0)",
+        "84": "            throw new RecordFormatException(\"Expecting no remaining data but got \" + bytesRemaining + \" byte(s).\");",
+        "21": "import org.apache.poi.util.LittleEndian;",
+        "22": "import org.apache.poi.util.RecordFormatException;"
+      },
+      "id": 97383877,
+      "filename": "EscherDggRecord.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 175,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383890/",
+      "md5hash": "71ec0b927512c023a04839d6d930282f",
+      "lines": {
+        "49": "        bytesRemaining -= size;",
+        "50": "        if (bytesRemaining != 0) throw new RecordFormatException(\"Expected no remaining bytes but got \" + bytesRemaining);",
+        "21": "import org.apache.poi.util.LittleEndian;",
+        "22": "import org.apache.poi.util.RecordFormatException;"
+      },
+      "id": 97383890,
+      "filename": "EscherSpgrRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 351,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642503/",
+      "md5hash": "24c96617d6438d28b04b770143780251",
+      "lines": {
+        "224": "      throw new RecordFormatException(\"Do NOT call getNANData without calling readDouble that returns NaN\");",
+        "129": "      if (currentLength > MAX_RECORD_DATA_SIZE)",
+        "130": "        throw new RecordFormatException(\"The content of an excel record cannot exceed \"+MAX_RECORD_DATA_SIZE+\" bytes\");",
+        "72": "",
+        "73": "  public RecordInputStream(InputStream in) throws RecordFormatException  {",
+        "79": "    } catch (IOException ex) {",
+        "80": "      throw new RecordFormatException(\"Error reading bytes\", ex);",
+        "136": "    } catch (IOException ex) {",
+        "118": "  ",
+        "119": "  public void nextRecord() throws RecordFormatException {",
+        "137": "      throw new RecordFormatException(\"Error reading bytes\", ex);",
+        "223": "    if (NAN_data == null)"
+      },
+      "id": 15642503,
+      "filename": "RecordInputStream.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "304": "            {",
+        "305": "                throw new RecordFormatException(",
+        "212": "        {",
+        "213": "            throw new RecordFormatException(\"Unable to construct record instance\",introspectionException);",
+        "120": "     *",
+        "121": "     * @exception RecordFormatException on error processing the",
+        "172": "                          } else ",
+        "125": "    public static List createRecords(InputStream in)",
+        "126": "        throws RecordFormatException",
+        "173": "                        \t  throw new RecordFormatException(\"Unhandled Continue Record\");"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642343/",
+      "md5hash": "468caa59753e7c2d27a76f3903f70894",
+      "lines": {
+        "464": "            {",
+        "289": "    public void processRecords(InputStream in)",
+        "290": "        throws RecordFormatException",
+        "365": "            throw new RecordFormatException(\"Unable to construct record instance\" , introspectionException);",
+        "364": "        {",
+        "465": "                throw new RecordFormatException(",
+        "108": "import loci.poi.hssf.record.Record;",
+        "109": "import loci.poi.hssf.record.RecordFormatException;",
+        "286": "     * @exception RecordFormatException on error processing the",
+        "285": "     *"
+      },
+      "id": 15642343,
+      "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 277,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642370/",
+      "md5hash": "10a515b4a6cb5d23d22fa4427212bb8c",
+      "lines": {
+        "160": "            if ( size != getRecordSize() )",
+        "161": "                throw new RecordFormatException(size + \" bytes written but getRecordSize() reports \" + getRecordSize());",
+        "164": "        if ( bytesWritten1 != getRecordSize() )",
+        "165": "            throw new RecordFormatException(bytesWritten1 + \" bytes written but getRecordSize() reports \" + getRecordSize());",
+        "72": "        } else",
+        "73": "            throw new RecordFormatException(\"Expected Continue record to hold string data for TextObjectRecord\");",
+        "78": "                processFontRuns(in);",
+        "79": "            } else throw new RecordFormatException(\"Expected Continue Record to hold font runs for TextObjectRecord\");"
+      },
+      "id": 15642370,
+      "filename": "TextObjectRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 479,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642381/",
+      "md5hash": "b6468b53ac2bca46a92a3e5f8c327ab0",
+      "lines": {
+        "289": "    protected void validateSid( final short id )",
+        "290": "            throws RecordFormatException",
+        "293": "        {",
+        "294": "            throw new RecordFormatException( \"NOT An SST RECORD\" );",
+        "285": "     *",
+        "286": "     * @exception RecordFormatException if validation fails"
+      },
+      "id": 15642381,
+      "filename": "SSTRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 459,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642614/",
+      "md5hash": "ae9cbdd1d37d54331114edfef8cee9d5",
+      "lines": {
+        "452": "        {",
+        "453": "            throw new RecordFormatException( e.toString() );",
+        "422": "        {",
+        "423": "            throw new RecordFormatException( e.toString() );",
+        "42": "",
+        "43": "import loci.poi.hssf.record.RecordFormatException;"
+      },
+      "id": 15642614,
+      "filename": "EscherBlipWMFRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 179,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642378/",
+      "md5hash": "5a341a60486ad9d1c06d2e6cca3dde07",
+      "lines": {
+        "132": "            throw new RecordFormatException(\"Not a Continue Record\");",
+        "98": "        return field_1_data.length + 4;",
+        "99": "        // throw new RecordFormatException(",
+        "131": "        {"
+      },
+      "id": 15642378,
+      "filename": "ContinueRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 210,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642392/",
+      "md5hash": "2ae7a6367566625aafd067c77535f614",
+      "lines": {
+        "194": "        {",
+        "195": "            throw new RecordFormatException(\"Not a MulBlankRecord!\");",
+        "205": "    {",
+        "206": "        throw new RecordFormatException("
+      },
+      "id": 15642392,
+      "filename": "MulBlankRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 572,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642396/",
+      "md5hash": "097b310c8bca6adc7d7f77161df42564",
+      "lines": {
+        "315": "            throw new RecordFormatException(\"NOT A FORMULA RECORD\");",
+        "130": "        } catch (java.lang.UnsupportedOperationException uoe)  {",
+        "131": "          throw new RecordFormatException(uoe);",
+        "314": "        {"
+      },
+      "id": 15642396,
+      "filename": "FormulaRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 221,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642413/",
+      "md5hash": "c75be8088426e80c8259ea9ae75fe3b1",
+      "lines": {
+        "200": "            throw new RecordFormatException(\"Not a MulRKRecord!\");",
+        "210": "    {",
+        "211": "        throw new RecordFormatException(",
+        "199": "        {"
+      },
+      "id": 15642413,
+      "filename": "MulRKRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 127,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642486/",
+      "md5hash": "e1b191203acbd2a2ec621d07bc57e0cb",
+      "lines": {
+        "88": "        //of this workbook",
+        "89": "        throw new RecordFormatException(\"HSSF does not currently support encrypted workbooks\");",
+        "78": "        {",
+        "79": "            throw new RecordFormatException(\"NOT A FILEPASS RECORD\");"
+      },
+      "id": 15642486,
+      "filename": "FilePassRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 312,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642496/",
+      "md5hash": "a265baccf3f0d5435d63ee3f5a389b7b",
+      "lines": {
+        "192": "        throw new RecordFormatException(",
+        "99": "        {",
+        "100": "            throw new RecordFormatException(\"Not a valid LabelRecord\");",
+        "191": "    {"
+      },
+      "id": 15642496,
+      "filename": "LabelRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 271,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642537/",
+      "md5hash": "ae4b2a799caaa5bd816effb2aa28e037",
+      "lines": {
+        "49": "import loci.poi.hssf.model.Workbook;",
+        "50": "import loci.poi.hssf.record.RecordFormatException;",
+        "122": "        \t\t} else throw new RecordFormatException(\"Unknown grbit '\"+grbit+\"'\");",
+        "121": "        \t\t\ttoken_3_arrayValues[x][y] = in.readUnicodeString();"
+      },
+      "id": 15642537,
+      "filename": "ArrayPtg.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 121,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642569/",
+      "md5hash": "15441eab29128ea3fba78a53841c196c",
+      "lines": {
+        "99": "    {",
+        "100": "        throw new RecordFormatException(\"Coding Error: Expected ExpPtg to be converted from Shared to Non-Shared Formula\");",
+        "43": "import loci.poi.hssf.model.Workbook;",
+        "44": "import loci.poi.hssf.record.RecordFormatException;"
+      },
+      "id": 15642569,
+      "filename": "ExpPtg.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 159,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

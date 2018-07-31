@@ -1,0 +1,82 @@
+{
+  "matchterm": "AbstractWordUtils.NumberingState",
+  "previouspage": null,
+  "searchterm": "AbstractWordUtils.NumberingState",
+  "query": "AbstractWordUtils.NumberingState",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1219,
+      "location": "/src/org/apache/poi/hwpf/converter",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383976/",
+      "md5hash": "a222c0be0731737a174a7721c959c7e2",
+      "lines": {
+        "32": "import org.apache.poi.hwpf.HWPFDocumentCore;",
+        "33": "import org.apache.poi.hwpf.converter.AbstractWordUtils.NumberingState;",
+        "930": "                    : picture.getDxaGoal() / AbstractWordUtils.TWIPS_PER_INCH;",
+        "928": "            final float imageWidth = aspectRatioX > 0 ? picture.getDxaGoal()",
+        "932": "                    * aspectRatioY / 1000 / AbstractWordUtils.TWIPS_PER_INCH",
+        "933": "                    : picture.getDyaGoal() / AbstractWordUtils.TWIPS_PER_INCH;",
+        "934": "",
+        "929": "                    * aspectRatioX / 1000 / AbstractWordUtils.TWIPS_PER_INCH",
+        "1096": "                            (char) paragraph.getIlvl() );",
+        "1095": "                            numberingState, hwpfList,",
+        "176": "",
+        "177": "    private NumberingState numberingState = new NumberingState();",
+        "931": "            final float imageHeight = aspectRatioY > 0 ? picture.getDyaGoal()",
+        "1094": "                    String label = AbstractWordUtils.getBulletText(",
+        "1093": ""
+      },
+      "id": 97383976,
+      "filename": "AbstractWordConverter.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 529,
+      "location": "/src/org/apache/poi/hwpf/converter",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383984/",
+      "md5hash": "b325d8787324a3ef4914153a604b19e4",
+      "lines": {
+        "256": "                {",
+        "257": "                    num = numberingState.levels.get( key ).intValue();",
+        "260": "                        num++;",
+        "261": "                        numberingState.levels.put( key, Integer.valueOf( num ) );",
+        "241": "    public static String getBulletText( NumberingState numberingState,",
+        "233": "",
+        "234": "    public static class NumberingState",
+        "267": "                    numberingState.levels.put( key, Integer.valueOf( num ) );",
+        "240": "",
+        "49": "@Beta",
+        "50": "public class AbstractWordUtils",
+        "275": "                        final String childKey = lsid + \"#\" + i;",
+        "276": "                        numberingState.levels.remove( childKey );",
+        "54": "    private static final POILogger logger = POILogFactory",
+        "55": "            .getLogger( AbstractWordUtils.class );",
+        "266": "                    num = list.getStartAt( element );"
+      },
+      "id": 97383984,
+      "filename": "AbstractWordUtils.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

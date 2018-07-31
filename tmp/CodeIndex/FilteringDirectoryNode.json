@@ -1,0 +1,52 @@
+{
+  "matchterm": "FilteringDirectoryNode",
+  "previouspage": null,
+  "searchterm": "FilteringDirectoryNode",
+  "query": "FilteringDirectoryNode",
+  "language_filters": [
+    {
+      "count": 1,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 1,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 270,
+      "location": "/src/org/apache/poi/poifs/filesystem",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383212/",
+      "md5hash": "3e82db13f1b60dbf552f1788134392b0",
+      "lines": {
+        "99": "     *            is a list of Strings specifying what nodes NOT to copy",
+        "132": "     * Copies nodes from one POIFS to the other, minus the excepts.",
+        "133": "     * This delegates the filtering work to {@link FilteringDirectoryNode},",
+        "147": "        );",
+        "146": "              new FilteringDirectoryNode(target.getRoot(), excepts)",
+        "144": "        copyNodes(",
+        "145": "              new FilteringDirectoryNode(source.getRoot(), excepts),",
+        "82": "     */",
+        "83": "    public static void copyNodes( FilteringDirectoryNode filteredSource,",
+        "84": "            FilteringDirectoryNode filteredTarget ) throws IOException",
+        "85": "    {",
+        "100": "     * @deprecated use {@link FilteringDirectoryNode} instead",
+        "155": "     * To exclude certain parts of the Directory from being checked,",
+        "156": "     *  use a {@link FilteringDirectoryNode}"
+      },
+      "id": 97383212,
+      "filename": "EntryUtils.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

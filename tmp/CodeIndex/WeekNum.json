@@ -1,0 +1,502 @@
+{
+  "matchterm": "WeekNum",
+  "previouspage": null,
+  "searchterm": "WeekNum",
+  "query": "WeekNum",
+  "language_filters": [
+    {
+      "count": 29,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 29,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/hidecheck/hidecheck_monooki",
+      "language": "Java",
+      "linescount": 1416,
+      "location": "/gingerbread/apps/Calendar/src/com/android/calendar",
+      "name": "hidecheck_monooki",
+      "url": "https://searchcode.com/codesearch/view/120464499/",
+      "md5hash": "8ad755b9cafc178ff12417af9383df1e",
+      "lines": {
+        "771": "     * @param day The Julian day.",
+        "132": "    // These booleans disable features that were taken out of the spec.",
+        "133": "    private boolean mShowWeekNumbers = false;",
+        "780": "    private void drawBox(int day, int weekNum, int row, int column, Canvas canvas, Paint p,",
+        "779": "     */",
+        "585": "",
+        "586": "        int weekNum = 0;",
+        "587": "        Calendar calendar = null;",
+        "588": "        if (mShowWeekNumbers) {",
+        "592": "            // Compute the week number for the first row.",
+        "593": "            weekNum = getWeekOfYear(0, 0, noPrevMonth, calendar);",
+        "852": "        // Draw week number",
+        "597": "            for (int column = 0; column < 7; column++) {",
+        "598": "                drawBox(day, weekNum, row, column, canvas, p, r, isLandscape);",
+        "772": "     * @param weekNum The week number.",
+        "853": "        if (mShowWeekNumbers && column == 0) {"
+      },
+      "id": 120464499,
+      "filename": "MonthView.java"
+    },
+    {
+      "repo": "https://github.com/MIPS/packages-apps-Calendar.git",
+      "language": "Java",
+      "linescount": 1334,
+      "location": "/src/com/android/calendar",
+      "name": "packages-apps-Calendar",
+      "url": "https://searchcode.com/codesearch/view/66844136/",
+      "md5hash": "6b540422fdb6207e3a6b75ae01a47bb9",
+      "lines": {
+        "774": "        // Draw week number",
+        "775": "        if (mShowWeekNumbers && column == 0) {",
+        "137": "    // These booleans disable features that were taken out of the spec.",
+        "682": "     * @param day The Julian day.",
+        "683": "     * @param weekNum The week number.",
+        "809": "",
+        "573": "            weekNum = getWeekOfYear(0, 0, noPrevMonth, calendar);",
+        "690": "     */",
+        "691": "    private void drawBox(int day, int weekNum, int row, int column, Canvas canvas, Paint p,",
+        "565": "",
+        "566": "        int weekNum = 0;",
+        "567": "        Calendar calendar = null;",
+        "568": "        if (mShowWeekNumbers) {",
+        "810": "            canvas.drawText(String.valueOf(weekNum), textX, textY, p);",
+        "572": "            // Compute the week number for the first row.",
+        "138": "    private boolean mShowWeekNumbers = false;"
+      },
+      "id": 66844136,
+      "filename": "MonthView.java"
+    },
+    {
+      "repo": "http://ett.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 334,
+      "location": "/web/src/main/java/com/ett/drv/web/action/booked",
+      "name": "ett",
+      "url": "https://searchcode.com/codesearch/view/12867558/",
+      "md5hash": "c31b90d6f17c6f4161d0a1ce92a7ef73",
+      "lines": {
+        "194": "\t\ttempLimit.setIKm(ObjectUtil.formatInt(req.getParameter(\"km\"),1));",
+        "195": "\t\ttempLimit.setIWeekNum(bookedWeekRecordModel.getIWeekNum());",
+        "226": "    \tBookedLimitModel addLimit=this.tempLimit;",
+        "107": "\t\t\t\tcal.setTime(createDate);",
+        "108": "\t\t\t\tint weekNum=cal.get(Calendar.WEEK_OF_YEAR);",
+        "109": "\t\t\t\tint year=cal.get(Calendar.YEAR);",
+        "227": "    \taddLimit.setIWeekNum(bookedWeekRecordModel.getIWeekNum());",
+        "84": "\t\t{",
+        "85": "\t\t\tif(StringUtil.isNotBlank(req.getParameter(\"weekNum\")))",
+        "86": "\t\t\t{",
+        "87": "\t\t\t\tint weekNum=ObjectUtil.formatInt(req.getParameter(\"weekNum\"));",
+        "89": "\t\t\t\tint year=cal.get(Calendar.YEAR);",
+        "90": "\t\t\t\tthis.bookedWeekRecordModel=bookedBiz.getWeekRecord(year,weekNum);",
+        "91": "\t\t\t    if(this.bookedWeekRecordModel!=null){",
+        "92": "\t\t\t    \tthis.bookedWeekRecordModel.setLimits(bookedBiz.getLimits(year,weekNum));",
+        "93": "\t\t\t    }else{",
+        "94": "\t\t\t    \tthis.bookedWeekRecordModel=new BookedWeekRecordModel(year, weekNum);"
+      },
+      "id": 12867558,
+      "filename": "WeekPbAction.java"
+    },
+    {
+      "repo": "https://bitbucket.org/atlassianlabs/confluence-calendar-plugin.git",
+      "language": "Java",
+      "linescount": 311,
+      "location": "/src/main/java/com/atlassian/confluence/extra/cal2/action",
+      "name": "confluence-calendar-plugin",
+      "url": "https://searchcode.com/codesearch/view/50051595/",
+      "md5hash": "0efbfd863ca39501f6c29e4f134bd1be",
+      "lines": {
+        "161": "",
+        "162": "            if ( weekNum != 0 ) {",
+        "166": "                // Shift the date",
+        "167": "                date = yearStart.plus( Period.weeks( weekNum - 1 ) ).plus( new Period( weekStart, date ) );",
+        "73": "",
+        "74": "    private int weekNum;",
+        "237": "",
+        "238": "    public int getWeekNum() {",
+        "239": "        return weekNum;",
+        "240": "    }",
+        "241": "",
+        "242": "    public void setWeekNum( int weekNum ) {",
+        "243": "        this.weekNum = weekNum;",
+        "244": "    }"
+      },
+      "id": 50051595,
+      "filename": "CalendarContainerAction.java"
+    },
+    {
+      "repo": "https://github.com/nwalters512/the-blue-alliance-android.git",
+      "language": "Java",
+      "linescount": 408,
+      "location": "/android/src/main/java/com/thebluealliance/androidclient/helpers",
+      "name": "the-blue-alliance-android",
+      "url": "https://searchcode.com/codesearch/view/93342426/",
+      "md5hash": "c51463e77bf693669479bcdd1873ad4d",
+      "lines": {
+        "96": "",
+        "97": "    public static String weekLabelFromNum(int year, int weekNum) {",
+        "98": "",
+        "99": "        if (weekNum <= 0) {",
+        "106": "",
+        "107": "        if (weekNum > 0 && weekNum < cmpWeek) {",
+        "108": "            return String.format(REGIONAL_LABEL, weekNum);",
+        "109": "        }",
+        "110": "        if (weekNum == cmpWeek) {",
+        "112": "        }",
+        "113": "        if (weekNum > cmpWeek) {",
+        "118": "",
+        "119": "    public static int weekNumFromLabel(int year, String label) {"
+      },
+      "id": 93342426,
+      "filename": "EventHelper.java"
+    },
+    {
+      "repo": "http://google-rfc-2445.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 143,
+      "location": "/src/com/google/ical/iter",
+      "name": "google-rfc-2445",
+      "url": "https://searchcode.com/codesearch/view/8364810/",
+      "md5hash": "94070219020d4207be69276f9e490419",
+      "lines": {
+        "96": "      date = lastDateOfGivenDow + 7 * (weekNum + 1) - d0;",
+        "82": "   */",
+        "83": "  static int dayNumToDate(Weekday dow0, int nDays, int weekNum,",
+        "88": "    int date;",
+        "89": "    if (weekNum > 0) {",
+        "90": "      date = ((weekNum - 1) * 7) + firstDateOfGivenDow - d0;",
+        "91": "    } else {  // count weeks from end of month",
+        "76": "   *   In [28,29,30,31,365,366].",
+        "77": "   * @param weekNum -1SU in the example above.",
+        "95": "      lastDateOfGivenDow -= 7 * ((lastDateOfGivenDow - nDays + 6) / 7);"
+      },
+      "id": 8364810,
+      "filename": "Util.java"
+    },
+    {
+      "repo": "http://ett.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 303,
+      "location": "/biz/src/main/java/com/ett/drv/biz/impl",
+      "name": "ett",
+      "url": "https://searchcode.com/codesearch/view/12869274/",
+      "md5hash": "a22665d56af0dd8b41668705677f71ea",
+      "lines": {
+        "67": "\t",
+        "68": "\tpublic Map<String,BookedLimitModel> getLimits(int year,int weekNum) throws Exception{",
+        "70": "\t\tBookedLimitModel lLimit=new BookedLimitModel();",
+        "71": "\t\tlLimit.setIWeekNum(weekNum);",
+        "45": "",
+        "46": "\tpublic BookedWeekRecordModel getWeekRecord(int year,int weekNum) {",
+        "176": "",
+        "177": "\t\t\tint weekNum=weekPb.getIWeekNum();",
+        "179": "\t\t\tBookedLimitModel q=new BookedLimitModel();",
+        "52": "\t\tBookedWeekRecordModel q=new BookedWeekRecordModel();",
+        "53": "\t\tq.setIWeekNum(weekNum);",
+        "180": "\t\t\tq.setIWeekNum(weekNum);"
+      },
+      "id": 12869274,
+      "filename": "BookedBiz.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ignatenko/bmp",
+      "language": "Java",
+      "linescount": 349,
+      "location": "/src/skala/erp/bmp/server/dao",
+      "name": "bmp",
+      "url": "https://searchcode.com/codesearch/view/137412731/",
+      "md5hash": "823911bfe23e6f38d6d1838f62a807a1",
+      "lines": {
+        "197": "\t\t\t\t.setString(\"dataAreaId\", dataAreaId).list().iterator();",
+        "198": "\t\tint currentWeekNumber = Calendar.getInstance().get(",
+        "199": "\t\t\t\tCalendar.WEEK_OF_YEAR);",
+        "200": "\t\tint startWeekNumber;",
+        "201": "\t\tif (currentWeekNumber <= 10) {",
+        "202": "\t\t\tstartWeekNumber = 1;",
+        "203": "\t\t} else",
+        "204": "\t\t\tstartWeekNumber = currentWeekNumber - 10;",
+        "206": "\t\t\tObject[] objects = (Object[]) iterator.next();",
+        "207": "\t\t\tint weekNum = (Integer) objects[0];",
+        "208": "\t\t\tif (weekNum < startWeekNumber",
+        "209": "\t\t\t\t\t|| (startWeekNumber == 1 && weekNum > currentWeekNumber)",
+        "210": "\t\t\t\t\t|| weekNum > currentWeekNumber)",
+        "211": "\t\t\t\tcontinue;",
+        "216": "\t\t}",
+        "217": "\t\tfor (Integer i = startWeekNumber; i <= currentWeekNumber; i++)"
+      },
+      "id": 137412731,
+      "filename": "ProdTableDAO.java"
+    },
+    {
+      "repo": "https://github.com/Duckattack/bCal.git",
+      "language": "Java",
+      "linescount": 1038,
+      "location": "/src/com/morphoss/acal/activity",
+      "name": "bCal",
+      "url": "https://searchcode.com/codesearch/view/72401097/",
+      "md5hash": "f52e98e13ae902ffa03f7b5deba31f91",
+      "lines": {
+        "661": "\t\t\t\t\t\tString.format(this.getString(R.string.EveryMonthOnTheNthSomeday),",
+        "662": "\t\t\t\t\t\t\t\t\tweekNum+AcalDateTime.getSuffix(weekNum)+\" \"+dowLongString),",
+        "604": "\t\t\tint dow = relativeTo.getWeekDay();;",
+        "669": "\t\t\t\t\t\"FREQ=MONTHLY;COUNT=60\",",
+        "670": "\t\t\t\t\t\"FREQ=MONTHLY;COUNT=60;BYDAY=\"+weekNum+dowStr,",
+        "605": "\t\t\tint weekNum = relativeTo.getMonthWeek();"
+      },
+      "id": 72401097,
+      "filename": "TodoEdit.java"
+    },
+    {
+      "repo": "https://github.com/Duckattack/bCal.git",
+      "language": "Java",
+      "linescount": 975,
+      "location": "/src/com/morphoss/acal/activity",
+      "name": "bCal",
+      "url": "https://searchcode.com/codesearch/view/72401110/",
+      "md5hash": "7dd4444cd6df5b3f5612b6bc56db3c63",
+      "lines": {
+        "577": "\t\t\t\t\t\tString.format(this.getString(R.string.EveryMonthOnTheNthSomeday),",
+        "578": "\t\t\t\t\t\t\t\tweekNum+AcalDateTime.getSuffix(weekNum)+\" \"+dowLongString),",
+        "585": "\t\t\t\t\"FREQ=MONTHLY\",",
+        "521": "\t\tint dow = start.getWeekDay();",
+        "522": "\t\tint weekNum = start.getMonthWeek();",
+        "586": "\t\t\t\t\"FREQ=MONTHLY;BYDAY=\"+weekNum+dowStr,"
+      },
+      "id": 72401110,
+      "filename": "EventEdit.java"
+    },
+    {
+      "repo": "http://google-rfc-2445.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 574,
+      "location": "/src/com/google/ical/values",
+      "name": "google-rfc-2445",
+      "url": "https://searchcode.com/codesearch/view/8364787/",
+      "md5hash": "3d197d23ab1dcc431957d443b2472146",
+      "lines": {
+        "403": "",
+        "404": "    // bywknolist = weeknum / ( weeknum *(\",\" weeknum) )",
+        "405": "    // weeknum    = ([plus] ordwk) / (minus ordwk)",
+        "406": "    xformRules.put(\"bywknolist\", new XformRule() {"
+      },
+      "id": 8364787,
+      "filename": "RRuleSchema.java"
+    },
+    {
+      "repo": "https://bitbucket.org/sighol/fellesprosjekt",
+      "language": "Java",
+      "linescount": 72,
+      "location": "/tests/calendar",
+      "name": "fellesprosjekt",
+      "url": "https://searchcode.com/codesearch/view/126553891/",
+      "md5hash": "e3373d81ba428d392c6759e196164142",
+      "lines": {
+        "37": "\t\tweek = week.getNextWeek();",
+        "38": "\t\tassertEquals(14, week.getWeekNumber());",
+        "39": "\t\tweek = week.getNextWeek();",
+        "40": "\t\tassertEquals(15, week.getWeekNumber());",
+        "41": "\t\tweek = week.getPreviousWeek();",
+        "42": "\t\tassertEquals(14, week.getWeekNumber());",
+        "49": "\t\tfor (int i = 0; i < 100; i++) {",
+        "50": "\t\t\tint weekNum = week.getWeekNumber();",
+        "51": "\t\t\tweek = week.getNextWeek();",
+        "52": "\t\t\tassertFalse(\"Samme uke \" + weekNum + \" etter getNext()\", weekNum == week.getWeekNumber());\t\t}",
+        "59": "\t\tfor (int i = 0; i < 100; i++) {",
+        "60": "\t\t\tint weekNum = week.getWeekNumber();",
+        "61": "\t\t\tweek = week.getPreviousWeek();",
+        "62": "\t\t\tassertFalse(\"Samme uke \" + weekNum + \" etter getPrevious()\", weekNum == week.getWeekNumber());"
+      },
+      "id": 126553891,
+      "filename": "CalendarWeekTest.java"
+    },
+    {
+      "repo": "https://bitbucket.org/Mith/java-project-1b.git",
+      "language": "Java",
+      "linescount": 69,
+      "location": "/2",
+      "name": "java-project-1b",
+      "url": "https://searchcode.com/codesearch/view/47488836/",
+      "md5hash": "8b9b3377ee960654219e1b60ded8ec4e",
+      "lines": {
+        "44": "",
+        "45": "        for (int weekNum = 1; weekNum <= weeks; weekNum++) {",
+        "46": "            Week week = new Week ();",
+        "47": "            List<String> grp = rotateGroupTail (weekNum);"
+      },
+      "id": 47488836,
+      "filename": "GroupCoupler.java"
+    },
+    {
+      "repo": "http://ett.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 290,
+      "location": "/web/src/main/java/com/ett/drv/web/action/booked",
+      "name": "ett",
+      "url": "https://searchcode.com/codesearch/view/12867554/",
+      "md5hash": "76a13d15252a761f59674a001f5c4c1e",
+      "lines": {
+        "96": "\t\tint weekNum=DateTimeUtil.getWeekOfYear(d);",
+        "97": "\t\tint year=cal.get(Calendar.YEAR);",
+        "98": "        weekRecord=this.bookedBiz.getWeekRecord(year, weekNum);",
+        "100": "\t\t\tString depcode=this.getAuthUser().getDepartmentModel().getCDepcode();",
+        "101": "\t\t\tMap<String,BookedLimitModel> maplimits=this.bookedBiz.getLimits(year,weekNum);",
+        "105": "\t\t\tweekRecord=new BookedWeekRecordModel();",
+        "106": "\t\t\tweekRecord.setIWeekNum(weekNum);",
+        "95": "\t\tthis.bookedBiz.loadCrudMapper(BookedWeekRecordModel.class);"
+      },
+      "id": 12867554,
+      "filename": "ExamPreasignAction.java"
+    },
+    {
+      "repo": "http://ett.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1289,
+      "location": "/model/src/main/java/com/ett/drv/model/booked",
+      "name": "ett",
+      "url": "https://searchcode.com/codesearch/view/12868200/",
+      "md5hash": "ebdd1a79d736cf0c280465c3e94f049b",
+      "lines": {
+        "38": "\t ",
+        "39": "\t public BookedWeekRecordModel(int year,int weekNum){",
+        "40": "\t\t this.setYear(year);",
+        "41": "\t\t this.setIWeekNum(weekNum);",
+        "690": "\t\treturn IWeekNum;",
+        "49": "\t\t int year=cal.get(Calendar.YEAR);",
+        "50": "\t\t int weekNum=cal.get(Calendar.WEEK_OF_YEAR);",
+        "51": "\t\t this.setYear(year);",
+        "52": "\t\t this.setIWeekNum(weekNum);",
+        "691": "\t}",
+        "694": "",
+        "695": "\tpublic void setIWeekNum(Integer iWeekNum) {",
+        "696": "\t\tIWeekNum = iWeekNum;",
+        "689": "\tpublic Integer getIWeekNum() {",
+        "27": "\t public static enum F { ",
+        "28": "\t\t  Id,IWeekNum,IWeek1Km1Num,IWeek1Km1Fp,IWeek1Km2Num,IWeek1Km2Fp,IWeek1Km3Num,IWeek1Km3Fp,IWeek2Km1Num,IWeek2Km1Fp,IWeek2Km2Num,"
+      },
+      "id": 12868200,
+      "filename": "BookedWeekRecordModel.java"
+    },
+    {
+      "repo": "https://gitlab.com/f-droid-mirrors/acal.git",
+      "language": "Java",
+      "linescount": 1046,
+      "location": "/src/com/morphoss/acal/activity",
+      "name": "acal",
+      "url": "https://searchcode.com/codesearch/view/115484912/",
+      "md5hash": "ab886d9f4076f6f407b666bce37f38ae",
+      "lines": {
+        "661": "\t\t\t\t\t\tString.format(this.getString(R.string.EveryMonthOnTheNthSomeday),",
+        "662": "\t\t\t\t\t\t\t\t\tweekNum+AcalDateTime.getSuffix(weekNum)+\" \"+dowLongString),",
+        "604": "\t\t\tint dow = relativeTo.getWeekDay();;",
+        "669": "\t\t\t\t\t\"FREQ=MONTHLY;COUNT=60\",",
+        "670": "\t\t\t\t\t\"FREQ=MONTHLY;COUNT=60;BYDAY=\"+weekNum+dowStr,",
+        "605": "\t\t\tint weekNum = relativeTo.getMonthWeek();"
+      },
+      "id": 115484912,
+      "filename": "TodoEdit.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 1451,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47124968/",
+      "md5hash": "994b1c012a7ddfa2eae1064001b4a2c3",
+      "lines": {
+        "866": "\t\t\t{\"EOMONTH\", String.valueOf(xlfEOMONTH), String.valueOf(FTYPE_PTGFUNCVAR_ADDIN)},",
+        "867": "\t\t\t{\"WEEKNUM\", String.valueOf(xlfWEEKNUM), String.valueOf(FTYPE_PTGFUNCVAR_ADDIN)},",
+        "500": "\tpublic static final int xlfWEEKNUM= 452;",
+        "1341": "\t\t\tcase xlfEOMONTH:\treturn \"EOMONTH(\";",
+        "1342": "\t\t\tcase xlfWEEKNUM:\treturn \"WEEKNUM(\";",
+        "499": "\tpublic static final int xlfEOMONTH= 451;"
+      },
+      "id": 47124968,
+      "filename": "FunctionConstants.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 632,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47124973/",
+      "md5hash": "4d36d702e382c65f259e0636d9b2064a",
+      "lines": {
+        "501": "\t */",
+        "502": "\tprotected static Ptg calcWeeknum(Ptg[] operands){",
+        "488": "\t/**",
+        "489": "\t * WEEKNUM",
+        "491": "",
+        "492": "\t\tWEEKNUM(serial_num,return_type)"
+      },
+      "id": 47124973,
+      "filename": "DateTimeCalculator.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 1451,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976592/",
+      "md5hash": "994b1c012a7ddfa2eae1064001b4a2c3",
+      "lines": {
+        "866": "\t\t\t{\"EOMONTH\", String.valueOf(xlfEOMONTH), String.valueOf(FTYPE_PTGFUNCVAR_ADDIN)},",
+        "867": "\t\t\t{\"WEEKNUM\", String.valueOf(xlfWEEKNUM), String.valueOf(FTYPE_PTGFUNCVAR_ADDIN)},",
+        "500": "\tpublic static final int xlfWEEKNUM= 452;",
+        "1341": "\t\t\tcase xlfEOMONTH:\treturn \"EOMONTH(\";",
+        "1342": "\t\t\tcase xlfWEEKNUM:\treturn \"WEEKNUM(\";",
+        "499": "\tpublic static final int xlfEOMONTH= 451;"
+      },
+      "id": 50976592,
+      "filename": "FunctionConstants.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 632,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976597/",
+      "md5hash": "4d36d702e382c65f259e0636d9b2064a",
+      "lines": {
+        "501": "\t */",
+        "502": "\tprotected static Ptg calcWeeknum(Ptg[] operands){",
+        "488": "\t/**",
+        "489": "\t * WEEKNUM",
+        "491": "",
+        "492": "\t\tWEEKNUM(serial_num,return_type)"
+      },
+      "id": 50976597,
+      "filename": "DateTimeCalculator.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 11,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 10,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 7,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 1,
+      "source": "GitLab",
+      "id": 13
+    }
+  ]
+}

@@ -1,0 +1,522 @@
+{
+  "matchterm": "TempFile",
+  "previouspage": null,
+  "searchterm": "TempFile",
+  "query": "TempFile",
+  "language_filters": [
+    {
+      "count": 3621,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3621,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/generalplus/android_packages_apps_email.git",
+      "language": "Java",
+      "linescount": 85,
+      "location": "/emailcommon/src/org/apache/james/mime4j/util",
+      "name": "android_packages_apps_email",
+      "url": "https://searchcode.com/codesearch/view/35466178/",
+      "md5hash": "b4edcc663f8110c1dcacdbedd2316e0e",
+      "lines": {
+        "33": "     * <code>BufferedInputStream</code> by the caller. If the implementing ",
+        "34": "     * <code>TempFile</code> creates a <code>FileInputStream</code> or any",
+        "35": "     * other stream which would benefit from being buffered it's the ",
+        "36": "     * <code>TempFile</code>'s responsibility to wrap it.",
+        "46": "     * <code>BufferedOutputStream</code> by the caller. If the implementing ",
+        "47": "     * <code>TempFile</code> creates a <code>FileOutputStream</code> or any",
+        "48": "     * other stream which would benefit from being buffered it's the ",
+        "49": "     * <code>TempFile</code>'s responsibility to wrap it.",
+        "58": "     * <code>TempFile</code>. The path may be <code>null</code> if this is",
+        "57": "     * Returns the absolute path including file name of this ",
+        "26": "/**",
+        "27": " * @version $Id: TempFile.java,v 1.3 2004/10/02 12:41:11 ntherning Exp $",
+        "28": " */",
+        "29": "public interface TempFile {"
+      },
+      "id": 35466178,
+      "filename": "TempFile.java"
+    },
+    {
+      "repo": "https://bitbucket.org/cyanogenmod/android_packages_apps_email.git",
+      "language": "Java",
+      "linescount": 85,
+      "location": "/src/org/apache/james/mime4j/util",
+      "name": "android_packages_apps_email",
+      "url": "https://searchcode.com/codesearch/view/41539124/",
+      "md5hash": "b4edcc663f8110c1dcacdbedd2316e0e",
+      "lines": {
+        "33": "     * <code>BufferedInputStream</code> by the caller. If the implementing ",
+        "34": "     * <code>TempFile</code> creates a <code>FileInputStream</code> or any",
+        "35": "     * other stream which would benefit from being buffered it's the ",
+        "36": "     * <code>TempFile</code>'s responsibility to wrap it.",
+        "46": "     * <code>BufferedOutputStream</code> by the caller. If the implementing ",
+        "47": "     * <code>TempFile</code> creates a <code>FileOutputStream</code> or any",
+        "48": "     * other stream which would benefit from being buffered it's the ",
+        "49": "     * <code>TempFile</code>'s responsibility to wrap it.",
+        "58": "     * <code>TempFile</code>. The path may be <code>null</code> if this is",
+        "57": "     * Returns the absolute path including file name of this ",
+        "26": "/**",
+        "27": " * @version $Id: TempFile.java,v 1.3 2004/10/02 12:41:11 ntherning Exp $",
+        "28": " */",
+        "29": "public interface TempFile {"
+      },
+      "id": 41539124,
+      "filename": "TempFile.java"
+    },
+    {
+      "repo": "https://bitbucket.org/codefirex/packages_apps_email.git",
+      "language": "Java",
+      "linescount": 85,
+      "location": "/src/org/apache/james/mime4j/util",
+      "name": "packages_apps_email",
+      "url": "https://searchcode.com/codesearch/view/44758134/",
+      "md5hash": "b4edcc663f8110c1dcacdbedd2316e0e",
+      "lines": {
+        "33": "     * <code>BufferedInputStream</code> by the caller. If the implementing ",
+        "34": "     * <code>TempFile</code> creates a <code>FileInputStream</code> or any",
+        "35": "     * other stream which would benefit from being buffered it's the ",
+        "36": "     * <code>TempFile</code>'s responsibility to wrap it.",
+        "46": "     * <code>BufferedOutputStream</code> by the caller. If the implementing ",
+        "47": "     * <code>TempFile</code> creates a <code>FileOutputStream</code> or any",
+        "48": "     * other stream which would benefit from being buffered it's the ",
+        "49": "     * <code>TempFile</code>'s responsibility to wrap it.",
+        "58": "     * <code>TempFile</code>. The path may be <code>null</code> if this is",
+        "57": "     * Returns the absolute path including file name of this ",
+        "26": "/**",
+        "27": " * @version $Id: TempFile.java,v 1.3 2004/10/02 12:41:11 ntherning Exp $",
+        "28": " */",
+        "29": "public interface TempFile {"
+      },
+      "id": 44758134,
+      "filename": "TempFile.java"
+    },
+    {
+      "repo": "git://github.com/jruby/jruby.git",
+      "language": "Java",
+      "linescount": 335,
+      "location": "/src/org/jruby/ext/tempfile",
+      "name": "jruby",
+      "url": "https://searchcode.com/codesearch/view/5685095/",
+      "md5hash": "77ca1e94149326b98440bcf341eb41a0",
+      "lines": {
+        "64": "public class Tempfile extends RubyTempfile {",
+        "70": "",
+        "71": "    private static ObjectAllocator TEMPFILE_ALLOCATOR = new ObjectAllocator() {",
+        "72": "        public IRubyObject allocate(Ruby runtime, RubyClass klass) {",
+        "41": "import org.jruby.RubyKernel;",
+        "42": "import org.jruby.RubyTempfile;",
+        "263": "        RubyClass klass = (RubyClass) recv;",
+        "60": " * An implementation of tempfile.rb in Java.",
+        "29": "package org.jruby.ext.tempfile;",
+        "264": "        Tempfile tempfile = (Tempfile) klass.newInstance(context, args, block);",
+        "183": "    /**",
+        "184": "     * Compatibility with Tempfile#make_tmpname(basename, n) in MRI",
+        "59": "/**",
+        "28": " ***** END LICENSE BLOCK *****/",
+        "61": " */",
+        "62": "@JRubyClass(name=\"Tempfile\", parent=\"File\")",
+        "63": "@SuppressWarnings(\"deprecation\")"
+      },
+      "id": 5685095,
+      "filename": "Tempfile.java"
+    },
+    {
+      "repo": "git://github.com/jruby/jruby.git",
+      "language": "Java",
+      "linescount": 307,
+      "location": "/core/src/main/java/org/jruby/ext/tempfile",
+      "name": "jruby",
+      "url": "https://searchcode.com/codesearch/view/116443588/",
+      "md5hash": "b335960504fbc2412d93caf9a2924c40",
+      "lines": {
+        "66": "/**",
+        "67": " * An implementation of tempfile.rb in Java.",
+        "68": " */",
+        "69": "@JRubyClass(name=\"Tempfile\", parent=\"File\")",
+        "70": "public class Tempfile extends RubyFile implements Finalizable {",
+        "71": "    private static ObjectAllocator TEMPFILE_ALLOCATOR = new ObjectAllocator() {",
+        "72": "        @Override",
+        "73": "        public IRubyObject allocate(Ruby runtime, RubyClass klass) {",
+        "74": "            RubyFile instance = new Tempfile(runtime, klass);",
+        "79": "",
+        "80": "    public static RubyClass createTempfileClass(Ruby runtime) {",
+        "81": "        RubyClass tempfileClass = runtime.defineClass(\"Tempfile\", runtime.getFile(), TEMPFILE_ALLOCATOR);",
+        "82": "",
+        "28": " ***** END LICENSE BLOCK *****/",
+        "29": "package org.jruby.ext.tempfile;"
+      },
+      "id": 116443588,
+      "filename": "Tempfile.java"
+    },
+    {
+      "repo": "https://code.google.com/p/classroom-presenter/",
+      "language": "Java",
+      "linescount": 163,
+      "location": "/testing/apache-ant-1.8.2/src/main/org/apache/tools/ant/taskdefs",
+      "name": "classroom-presenter",
+      "url": "https://searchcode.com/codesearch/view/7239789/",
+      "md5hash": "acd0620185b8744e1f52f5230290a38f",
+      "lines": {
+        "32": " * <pre>&lt;tempfile property=\"temp.file\" /&gt;</pre>",
+        "33": " * create a temporary file",
+        "34": " * <pre>&lt;tempfile property=\"temp.file\" suffix=\".xml\" /&gt;</pre>",
+        "35": " * create a temporary file with the .xml suffix.",
+        "36": " * <pre>&lt;tempfile property=\"temp.file\" destDir=\"build\"/&gt;</pre>",
+        "41": "",
+        "42": "public class TempFile extends Task {",
+        "139": "     * Learn whether createFile flag is set for this tempfile task.",
+        "113": "    /**",
+        "114": "     * Set whether the tempfile created by this task should be set",
+        "123": "     * Learn whether deleteOnExit is set for this tempfile task.",
+        "138": "    /**",
+        "26": " *  This task sets a property to the name of a temporary file.",
+        "27": " *  Unlike {@link File#createTempFile}, this task does not (by default) actually create the",
+        "122": "    /**",
+        "31": " * Examples"
+      },
+      "id": 7239789,
+      "filename": "TempFile.java"
+    },
+    {
+      "repo": "git://github.com/appcelerator/titanium_mobile.git",
+      "language": "Java",
+      "linescount": 85,
+      "location": "/android/titanium/src/thirdparty/org/apache/james/mime4j/message/storage",
+      "name": "titanium_mobile",
+      "url": "https://searchcode.com/codesearch/view/3997774/",
+      "md5hash": "183d4e0b3c831fdb7f1167dba61835f7",
+      "lines": {
+        "33": "     * <code>BufferedInputStream</code> by the caller. If the implementing ",
+        "34": "     * <code>TempFile</code> creates a <code>FileInputStream</code> or any",
+        "35": "     * other stream which would benefit from being buffered it's the ",
+        "36": "     * <code>TempFile</code>'s responsibility to wrap it.",
+        "46": "     * <code>BufferedOutputStream</code> by the caller. If the implementing ",
+        "47": "     * <code>TempFile</code> creates a <code>FileOutputStream</code> or any",
+        "48": "     * other stream which would benefit from being buffered it's the ",
+        "49": "     * <code>TempFile</code>'s responsibility to wrap it.",
+        "58": "     * <code>TempFile</code>. The path may be <code>null</code> if this is",
+        "57": "     * Returns the absolute path including file name of this ",
+        "26": "/**",
+        "27": " * @version $Id: TempFile.java,v 1.3 2004/10/02 12:41:11 ntherning Exp $",
+        "28": " */",
+        "29": "public interface TempFile {"
+      },
+      "id": 3997774,
+      "filename": "TempFile.java"
+    },
+    {
+      "repo": "https://bitbucket.org/keithb/tdd",
+      "language": "Java",
+      "linescount": 145,
+      "location": "/targets/ant/1.7.0/org/apache/tools/ant/taskdefs",
+      "name": "tdd",
+      "url": "https://searchcode.com/codesearch/view/120310806/",
+      "md5hash": "15f6e58883a2f0b24397e4400f8a283d",
+      "lines": {
+        "32": " * <pre>&lt;tempfile property=\"temp.file\" /&gt;</pre>",
+        "33": " * create a temporary file",
+        "34": " * <pre>&lt;tempfile property=\"temp.file\" suffix=\".xml\" /&gt;</pre>",
+        "35": " * create a temporary file with the .xml suffix.",
+        "36": " * <pre>&lt;tempfile property=\"temp.file\" destDir=\"build\"/&gt;</pre>",
+        "41": "",
+        "42": "public class TempFile extends Task {",
+        "139": "        File tfile = FILE_UTILS.createTempFile(",
+        "110": "    /**",
+        "111": "     * Set whether the tempfile created by this task should be set",
+        "119": "    /**",
+        "120": "     * Learn whether deleteOnExit is set for this tempfile task.",
+        "26": " *  This task sets a property to  the name of a temporary file.",
+        "27": " *  Unlike {@link File#createTempFile}, this task does not actually create the",
+        "138": "        }",
+        "31": " * Examples"
+      },
+      "id": 120310806,
+      "filename": "TempFile.java"
+    },
+    {
+      "repo": "http://nutz.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 23,
+      "location": "/src/org/nutz/mvc/upload",
+      "name": "nutz",
+      "url": "https://searchcode.com/codesearch/view/393357/",
+      "md5hash": "047bd131ca840786a34affa226e40720",
+      "lines": {
+        "9": "",
+        "10": "    TempFile(FieldMeta meta, File f) {",
+        "4": "",
+        "5": "public class TempFile {"
+      },
+      "id": 393357,
+      "filename": "TempFile.java"
+    },
+    {
+      "repo": "https://bitbucket.org/jmurty/jets3t/",
+      "language": "Java",
+      "linescount": 36,
+      "location": "/src/org/jets3t/service/io",
+      "name": "jets3t",
+      "url": "https://searchcode.com/codesearch/view/5544046/",
+      "md5hash": "978c4eb7967c4e46aefdfc80e53a6640",
+      "lines": {
+        "32": "    public TempFile(File file) {",
+        "28": " */",
+        "29": "public class TempFile extends File {",
+        "31": ""
+      },
+      "id": 5544046,
+      "filename": "TempFile.java"
+    },
+    {
+      "repo": "http://aribaweb.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 111,
+      "location": "/src/util/ariba/util/io",
+      "name": "aribaweb",
+      "url": "https://searchcode.com/codesearch/view/11919947/",
+      "md5hash": "df5887622071524d75ebf0325ec6919a",
+      "lines": {
+        "32": "*/",
+        "33": "public class TempFile",
+        "34": "{",
+        "35": "    private static int TempFileUniqueKey = 0;",
+        "36": "    private static final int TempFileMaxTries = 16;",
+        "37": "    private static final Object TempFileUniqueKeyLock = new Object();",
+        "38": "    private static final Random RandomGenerator = new Random();",
+        "39": "",
+        "40": "    public static File createTempFile (File   directory,",
+        "43": "    {",
+        "44": "        return createTempFile(0, directory, prefix, suffix, null, 0);",
+        "14": "",
+        "15": "    $Id: //ariba/platform/util/core/ariba/util/io/TempFile.java#5 $",
+        "46": "",
+        "47": "    public static File createTempFile (File   directory,"
+      },
+      "id": 11919947,
+      "filename": "TempFile.java"
+    },
+    {
+      "repo": "git://github.com/CleverCloud/Quercus.git",
+      "language": "Java",
+      "linescount": 58,
+      "location": "/resin/src/main/java/com/caucho/vfs",
+      "name": "Quercus",
+      "url": "https://searchcode.com/codesearch/view/16500884/",
+      "md5hash": "9c90bbf96deb48e9290be1ebe68ca97c",
+      "lines": {
+        "32": "",
+        "33": "public class TempFile {",
+        "35": "  ",
+        "36": "  public TempFile(Path file)"
+      },
+      "id": 16500884,
+      "filename": "TempFile.java"
+    },
+    {
+      "repo": "https://bitbucket.org/lazopard/fastr",
+      "language": "Java",
+      "linescount": 138,
+      "location": "/com.oracle.truffle.r.nodes/src/com/oracle/truffle/r/nodes/builtin/base",
+      "name": "FastR",
+      "url": "https://searchcode.com/codesearch/view/91897208/",
+      "md5hash": "496e7de62ef44dd501788b26dacbdcdc",
+      "lines": {
+        "64": "    public RStringVector tempfileGeneric(Object pattern, Object tempDir, Object fileExt) throws RError {",
+        "35": "",
+        "52": "    @Specialization(order = 0, guards = \"tempDirL1\")",
+        "37": "public abstract class TempFile extends RBuiltinNode {",
+        "38": "",
+        "36": "@RBuiltin(name = \"tempfile\", kind = INTERNAL)",
+        "63": "    @Specialization(order = 100)",
+        "53": "    public RStringVector tempfile(String pattern, RAbstractStringVector tempDir, String fileExt) {"
+      },
+      "id": 91897208,
+      "filename": "TempFile.java"
+    },
+    {
+      "repo": "https://bitbucket.org/CKachur/fastr_ck",
+      "language": "Java",
+      "linescount": 173,
+      "location": "/com.oracle.truffle.r.nodes.builtin/src/com/oracle/truffle/r/nodes/builtin/base",
+      "name": "FastR_CK",
+      "url": "https://searchcode.com/codesearch/view/91899390/",
+      "md5hash": "7ec5868894095d66ad9f397285de25df",
+      "lines": {
+        "71": "    @TruffleBoundary",
+        "72": "    protected RStringVector tempfileGeneric(Object pattern, Object tempDir, Object fileExt) {",
+        "41": "@RBuiltin(name = \"tempfile\", kind = INTERNAL, parameterNames = {\"pattern\", \"tempdir\", \"fileext\"})",
+        "42": "public abstract class TempFile extends RBuiltinNode {",
+        "43": "    @CompilationFinal private int stringVectorsAmount;",
+        "78": "        extendVectorsToSameLength(argVecs, maxL);   // Now all vectors are same length",
+        "79": "        return RDataFactory.createStringVector(createTempFilesPaths(argVecs, maxL), true);",
+        "40": "",
+        "124": "    @ExplodeLoop",
+        "59": "    @TruffleBoundary",
+        "60": "    protected RStringVector tempfile(String pattern, RAbstractStringVector tempDir, String fileExt) {",
+        "125": "    private static String[] createTempFilesPaths(RStringVector[] stringVectors, int pathsAmount) {"
+      },
+      "id": 91899390,
+      "filename": "TempFile.java"
+    },
+    {
+      "repo": "https://bitbucket.org/dkocher/jets3t",
+      "language": "Java",
+      "linescount": 36,
+      "location": "/src/org/jets3t/service/io",
+      "name": "jets3t",
+      "url": "https://searchcode.com/codesearch/view/122922400/",
+      "md5hash": "978c4eb7967c4e46aefdfc80e53a6640",
+      "lines": {
+        "32": "    public TempFile(File file) {",
+        "28": " */",
+        "29": "public class TempFile extends File {",
+        "31": ""
+      },
+      "id": 122922400,
+      "filename": "TempFile.java"
+    },
+    {
+      "repo": "https://github.com/subgraph/sgmail.git",
+      "language": "Java",
+      "linescount": 194,
+      "location": "/platform/com.subgraph.sgmail.javamail/src/com/sun/mail/pop3",
+      "name": "sgmail",
+      "url": "https://searchcode.com/codesearch/view/98730562/",
+      "md5hash": "a2b89d862ee495d0605e20ce383caa14",
+      "lines": {
+        "64": "\tfile = File.createTempFile(\"pop3.\", \".mbox\", dir);",
+        "65": "\t// XXX - need JDK 6 to set permissions on the file to owner-only",
+        "53": " */",
+        "54": "class TempFile {",
+        "62": "     */",
+        "63": "    public TempFile(File dir) throws IOException {"
+      },
+      "id": 98730562,
+      "filename": "TempFile.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 81,
+      "location": "/components/forks/poi/src/loci/poi/util",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642642/",
+      "md5hash": "4f5bd1bb8c9b77e516802ddc73dc0d79",
+      "lines": {
+        "49": " */",
+        "50": "public class TempFile",
+        "61": "     */",
+        "62": "    public static File createTempFile(String prefix, String suffix) throws IOException"
+      },
+      "id": 15642642,
+      "filename": "TempFile.java"
+    },
+    {
+      "repo": "https://bitbucket.org/notnoop/javamail",
+      "language": "Java",
+      "linescount": 199,
+      "location": "/mbox/src/main/java/com/sun/mail/mbox",
+      "name": "javamail",
+      "url": "https://searchcode.com/codesearch/view/63668051/",
+      "md5hash": "d822c9f3f5412547a9140185338c0d01",
+      "lines": {
+        "64": "\tfile = File.createTempFile(\"mbox.\", \".mbox\", dir);",
+        "65": "\t// XXX - need JDK 6 to set permissions on the file to owner-only",
+        "53": " */",
+        "54": "class TempFile {",
+        "62": "     */",
+        "63": "    public TempFile(File dir) throws IOException {"
+      },
+      "id": 63668051,
+      "filename": "TempFile.java"
+    },
+    {
+      "repo": "https://bitbucket.org/notnoop/javamail",
+      "language": "Java",
+      "linescount": 192,
+      "location": "/mail/src/main/java/com/sun/mail/pop3",
+      "name": "javamail",
+      "url": "https://searchcode.com/codesearch/view/63668286/",
+      "md5hash": "2feff79fc1582e08ab3de9373ea5da4e",
+      "lines": {
+        "64": "\tfile = File.createTempFile(\"pop3.\", \".mbox\", dir);",
+        "65": "\t// XXX - need JDK 6 to set permissions on the file to owner-only",
+        "53": " */",
+        "54": "class TempFile {",
+        "62": "     */",
+        "63": "    public TempFile(File dir) throws IOException {"
+      },
+      "id": 63668286,
+      "filename": "TempFile.java"
+    },
+    {
+      "repo": "https://bitbucket.org/TimSylvester/jets3t",
+      "language": "Java",
+      "linescount": 36,
+      "location": "/src/org/jets3t/service/io",
+      "name": "jets3t",
+      "url": "https://searchcode.com/codesearch/view/64248979/",
+      "md5hash": "978c4eb7967c4e46aefdfc80e53a6640",
+      "lines": {
+        "32": "    public TempFile(File file) {",
+        "28": " */",
+        "29": "public class TempFile extends File {",
+        "31": ""
+      },
+      "id": 64248979,
+      "filename": "TempFile.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1790,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 1467,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 306,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 19,
+      "source": "GitLab",
+      "id": 13
+    },
+    {
+      "count": 15,
+      "source": "Sourceforge",
+      "id": 4
+    },
+    {
+      "count": 8,
+      "source": "Google Android",
+      "id": 12
+    },
+    {
+      "count": 8,
+      "source": "Gitorious",
+      "id": 10
+    },
+    {
+      "count": 5,
+      "source": "CodePlex",
+      "id": 5
+    },
+    {
+      "count": 3,
+      "source": "Unknown",
+      "id": 0
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "matchterm": "ExcelExtractor",
+  "previouspage": null,
+  "searchterm": "ExcelExtractor",
+  "query": "ExcelExtractor",
+  "language_filters": [
+    {
+      "count": 18,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 18,
+  "results": [
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 595,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785559/",
+      "md5hash": "6b55090236799f49ee0f5bd7d54bbbac",
+      "lines": {
+        "88": "public class ExcelExtractor extends AbstractPOIFSExtractor {",
+        "97": "",
+        "98": "    public ExcelExtractor(ParseContext context) {",
+        "87": " */"
+      },
+      "id": 111785559,
+      "filename": "ExcelExtractor.java"
+    },
+    {
+      "repo": "https://bitbucket.org/AlexeyD/hibench.git",
+      "language": "Java",
+      "linescount": 93,
+      "location": "/nutchindexing/nutch-1.2/src/plugin/parse-msexcel/src/java/org/apache/nutch/parse/msexcel",
+      "name": "hibench",
+      "url": "https://searchcode.com/codesearch/view/48925127/",
+      "md5hash": "bfabca239bacfb6f45e729151b226a6a",
+      "lines": {
+        "37": " */",
+        "38": "class ExcelExtractor extends MSExtractor {"
+      },
+      "id": 48925127,
+      "filename": "ExcelExtractor.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 168,
+      "location": "/components/forks/poi/src/loci/poi/hssf/extractor",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642369/",
+      "md5hash": "35a48f20e579de8763301e19b2d91dd6",
+      "lines": {
+        "65": "\t",
+        "66": "\tpublic ExcelExtractor(HSSFWorkbook wb) {",
+        "69": "\t}",
+        "70": "\tpublic ExcelExtractor(POIFSFileSystem fs) throws IOException {",
+        "60": " */",
+        "61": "public class ExcelExtractor extends POITextExtractor{"
+      },
+      "id": 15642369,
+      "filename": "ExcelExtractor.java"
+    },
+    {
+      "repo": "https://github.com/sichen/WatchList.git",
+      "language": "Java",
+      "linescount": 93,
+      "location": "/apache-nutch-1.1/src/plugin/parse-msexcel/src/java/org/apache/nutch/parse/msexcel",
+      "name": "WatchList",
+      "url": "https://searchcode.com/codesearch/view/112270700/",
+      "md5hash": "bfabca239bacfb6f45e729151b226a6a",
+      "lines": {
+        "37": " */",
+        "38": "class ExcelExtractor extends MSExtractor {"
+      },
+      "id": 112270700,
+      "filename": "ExcelExtractor.java"
+    },
+    {
+      "repo": "https://github.com/lritter/gnutch.git",
+      "language": "Java",
+      "linescount": 93,
+      "location": "/src/plugin/parse-msexcel/src/java/org/apache/nutch/parse/msexcel",
+      "name": "gnutch",
+      "url": "https://searchcode.com/codesearch/view/138790471/",
+      "md5hash": "bfabca239bacfb6f45e729151b226a6a",
+      "lines": {
+        "37": " */",
+        "38": "class ExcelExtractor extends MSExtractor {"
+      },
+      "id": 138790471,
+      "filename": "ExcelExtractor.java"
+    },
+    {
+      "repo": "https://github.com/manoja328/DocumentClustering.git",
+      "language": "Java",
+      "linescount": 52,
+      "location": "/DocumentClustering/src/indexerHouse",
+      "name": "DocumentClustering",
+      "url": "https://searchcode.com/codesearch/view/76013528/",
+      "md5hash": "c9a5e1543a427274e0badeba4550d47f",
+      "lines": {
+        "32": "                  {",
+        "33": "                      ExcelExtractor ex = new ExcelExtractor(fs);",
+        "11": "import org.apache.poi.hslf.extractor.PowerPointExtractor;",
+        "12": "import org.apache.poi.hssf.extractor.ExcelExtractor;"
+      },
+      "id": 76013528,
+      "filename": "DocumentFileParsing.java"
+    },
+    {
+      "repo": "https://github.com/cheft/fast-reader.git",
+      "language": "Java",
+      "linescount": 288,
+      "location": "/reader-server/src/com/topway/reader/server/lucene",
+      "name": "fast-reader",
+      "url": "https://searchcode.com/codesearch/view/94960725/",
+      "md5hash": "8e716c0d4bbe4c605731725e169386b5",
+      "lines": {
+        "160": "\t\tExcelExtractor extractor = null;",
+        "163": "\t\t\tHSSFWorkbook workbook = new HSSFWorkbook(fis);",
+        "164": "\t\t\textractor = new ExcelExtractor(workbook);",
+        "174": "\tpublic String readXlsx(String path) {",
+        "175": "\t\tXSSFExcelExtractor ee = null;",
+        "177": "\t\t\tOPCPackage opcPackage = POIXMLDocument.openPackage(path);",
+        "178": "\t\t\tee = new XSSFExcelExtractor(opcPackage);",
+        "23": "import org.apache.poi.hslf.usermodel.SlideShow;",
+        "24": "import org.apache.poi.hssf.extractor.ExcelExtractor;",
+        "29": "import org.apache.poi.xslf.extractor.XSLFPowerPointExtractor;",
+        "30": "import org.apache.poi.xssf.extractor.XSSFExcelExtractor;",
+        "159": "\t\tFileInputStream fis = null;"
+      },
+      "id": 94960725,
+      "filename": "IndexFiles.java"
+    },
+    {
+      "repo": "https://github.com/GayanM/carbon-registry.git",
+      "language": "Java",
+      "linescount": 36,
+      "location": "/components/registry/org.wso2.carbon.registry.indexing/src/main/java/org/wso2/carbon/registry/indexing/indexer",
+      "name": "carbon-registry",
+      "url": "https://searchcode.com/codesearch/view/95551301/",
+      "md5hash": "5138cd4ff61a5f2b6a5d0d29d8522108",
+      "lines": {
+        "8": "import org.apache.poi.hssf.extractor.ExcelExtractor;",
+        "23": "\t\t\tExcelExtractor extractor = new ExcelExtractor(fs);",
+        "22": "\t\t\tPOIFSFileSystem fs = new POIFSFileSystem(new ByteArrayInputStream(fileData.data));",
+        "7": "import org.apache.commons.logging.LogFactory;"
+      },
+      "id": 95551301,
+      "filename": "MSExcelIndexer.java"
+    },
+    {
+      "repo": "https://github.com/jaav/im.git",
+      "language": "Java",
+      "linescount": 143,
+      "location": "/src/main/java/be/mobila/im/importers",
+      "name": "im",
+      "url": "https://searchcode.com/codesearch/view/114502930/",
+      "md5hash": "5f103ad4745433de75773a75ea9a0e41",
+      "lines": {
+        "67": "    else if(wb instanceof HSSFWorkbook){",
+        "68": "      ExcelExtractor extractor = new ExcelExtractor((HSSFWorkbook)wb);",
+        "6": "import org.apache.commons.lang.StringUtils;",
+        "7": "import org.apache.poi.hssf.extractor.ExcelExtractor;",
+        "10": "import org.apache.poi.ss.usermodel.*;",
+        "11": "import org.apache.poi.xssf.extractor.XSSFExcelExtractor;",
+        "60": "    if(wb instanceof XSSFWorkbook){",
+        "61": "      XSSFExcelExtractor extractor = new XSSFExcelExtractor((XSSFWorkbook)wb);"
+      },
+      "id": 114502930,
+      "filename": "SampleExcelConverter.java"
+    },
+    {
+      "repo": "http://ala-bie.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 40,
+      "location": "/bie-datasharing/src",
+      "name": "ala-bie",
+      "url": "https://searchcode.com/codesearch/view/12574794/",
+      "md5hash": "96670c88f1bf1b4e77823ccc2984d842",
+      "lines": {
+        "16": "\t\t",
+        "17": "\t\t//System.out.println(excelExtractor.getText());",
+        "18": "\t\t",
+        "19": "\t\tString excelContentStr = excelExtractor.getText();",
+        "4": "",
+        "5": "import org.apache.poi.hssf.extractor.ExcelExtractor;",
+        "14": "\t\t",
+        "15": "\t\tExcelExtractor excelExtractor = new ExcelExtractor(fileSystem);"
+      },
+      "id": 12574794,
+      "filename": "ExcelReader.java"
+    },
+    {
+      "repo": "http://docdoku.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 231,
+      "location": "/DocDoku-ear/DocDoku-ejb/src/main/java/com/docdoku/server",
+      "name": "docdoku",
+      "url": "https://searchcode.com/codesearch/view/8591933/",
+      "md5hash": "f55fa907a1cca9f68137597a49c91ee7",
+      "lines": {
+        "180": "            } else if (extension.equals(\".xls\")) {",
+        "181": "                //MSExcelExtractor Document",
+        "182": "                //InputStream excelStream=new BufferedInputStream(new FileInputStream(pathName));",
+        "183": "                //ExcelExtractor excelExtractor= new ExcelExtractor(excelStream);",
+        "184": "                //Reader contentReader=new StringReader(excelExtractor.getText());",
+        "185": "                //excelStream.close();",
+        "186": "                //addDoc(indexWriter,contentReader,fullName);",
+        "187": "                //excelExtractor.close();"
+      },
+      "id": 8591933,
+      "filename": "IndexerBean.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 208,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785572/",
+      "md5hash": "cbe6aea6e2c67bdf72e6eb288fadfc2d",
+      "lines": {
+        "68": "    /**",
+        "37": "import org.apache.poi.ss.usermodel.Row;",
+        "38": "import org.apache.poi.xssf.extractor.XSSFExcelExtractor;",
+        "143": "            throws SAXException {",
+        "144": "        String content = ExcelExtractor._extractHeaderFooter(hf);",
+        "49": "",
+        "50": "public class XSSFExcelExtractorDecorator extends AbstractOOXMLExtractor {",
+        "24": "",
+        "57": "    private final XSSFExcelExtractor extractor;",
+        "56": "",
+        "25": "import org.apache.poi.hssf.extractor.ExcelExtractor;",
+        "59": "",
+        "60": "    public XSSFExcelExtractorDecorator(",
+        "61": "            XSSFExcelExtractor extractor, Locale locale) {",
+        "69": "     * @see org.apache.poi.xssf.extractor.XSSFExcelExtractor#getText()"
+      },
+      "id": 111785572,
+      "filename": "XSSFExcelExtractorDecorator.java"
+    },
+    {
+      "repo": "https://bitbucket.org/AlexeyD/hibench.git",
+      "language": "Java",
+      "linescount": 52,
+      "location": "/nutchindexing/nutch-1.2/src/plugin/parse-msexcel/src/java/org/apache/nutch/parse/msexcel",
+      "name": "hibench",
+      "url": "https://searchcode.com/codesearch/view/48925126/",
+      "md5hash": "f810003cbd5de84aa98c3024683e2596",
+      "lines": {
+        "40": "  public ParseResult getParse(Content content) {",
+        "41": "    return getParse(new ExcelExtractor(), content);"
+      },
+      "id": 48925126,
+      "filename": "MSExcelParser.java"
+    },
+    {
+      "repo": "https://bitbucket.org/mg/olat",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/src/main/java/org/olat/search/service/document/file",
+      "name": "olat",
+      "url": "https://searchcode.com/codesearch/view/126168424/",
+      "md5hash": "26b25461c47f18552a57123da05c1f4a",
+      "lines": {
+        "32": "import org.apache.poi.hssf.extractor.ExcelExtractor;",
+        "140": "\tprivate void extractHeaderFooter(final StringBuilder buffy, final HeaderFooter hf) {",
+        "141": "\t\tfinal String content = ExcelExtractor._extractHeaderFooter(hf);",
+        "31": "import org.apache.poi.extractor.ExtractorFactory;"
+      },
+      "id": 126168424,
+      "filename": "ExcelOOXMLDocument.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 252,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785560/",
+      "md5hash": "3a2a0badbeb8b43e9095f9f8eb316b46",
+      "lines": {
+        "195": "                    Locale locale = context.get(Locale.class, Locale.getDefault());",
+        "196": "                    new ExcelExtractor(context).parse(filesystem, xhtml, locale);"
+      },
+      "id": 111785560,
+      "filename": "OfficeParser.java"
+    },
+    {
+      "repo": "https://github.com/lritter/gnutch.git",
+      "language": "Java",
+      "linescount": 52,
+      "location": "/src/plugin/parse-msexcel/src/java/org/apache/nutch/parse/msexcel",
+      "name": "gnutch",
+      "url": "https://searchcode.com/codesearch/view/138790472/",
+      "md5hash": "f810003cbd5de84aa98c3024683e2596",
+      "lines": {
+        "40": "  public ParseResult getParse(Content content) {",
+        "41": "    return getParse(new ExcelExtractor(), content);"
+      },
+      "id": 138790472,
+      "filename": "MSExcelParser.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 73,
+      "location": "/components/forks/poi/src/loci/poi",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642237/",
+      "md5hash": "cf555a329d73935774f71285df4ed636",
+      "lines": {
+        "48": " * @see loci.poi.hssf.extractor.ExcelExtractor",
+        "47": " *  loci.poi.[format].extractor ."
+      },
+      "id": 15642237,
+      "filename": "POITextExtractor.java"
+    },
+    {
+      "repo": "https://github.com/setsuna/msa.git",
+      "language": "Java",
+      "linescount": 145,
+      "location": "/dbapp/cfile/java",
+      "name": "msa",
+      "url": "https://searchcode.com/codesearch/view/70056979/",
+      "md5hash": "ad511102200af64fbca9f4136ca7ea52",
+      "lines": {
+        "8": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "9": "import org.apache.poi.hssf.extractor.ExcelExtractor;"
+      },
+      "id": 70056979,
+      "filename": "XLSCreate.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 13,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 3,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 2,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

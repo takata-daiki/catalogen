@@ -1,0 +1,478 @@
+{
+  "matchterm": "TableStyle",
+  "previouspage": null,
+  "searchterm": "TableStyle",
+  "query": "TableStyle",
+  "language_filters": [
+    {
+      "count": 185,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 185,
+  "results": [
+    {
+      "repo": "https://github.com/apauzies/nebula.widgets.nattable.git",
+      "language": "Java",
+      "linescount": 83,
+      "location": "/org.eclipse.nebula.widgets.nattable.extension.builder/src/org/eclipse/nebula/widgets/nattable/extension/builder/model",
+      "name": "nebula.widgets.nattable",
+      "url": "https://searchcode.com/codesearch/view/76102131/",
+      "md5hash": "ea5f5f8ed18936667e02c12323dc53c0",
+      "lines": {
+        "24": "",
+        "25": "public class TableStyle {"
+      },
+      "id": 76102131,
+      "filename": "TableStyle.java"
+    },
+    {
+      "repo": "https://code.google.com/p/processbase/",
+      "language": "Java",
+      "linescount": 176,
+      "location": "/processbase-ui-bpm/src/main/java/org/processbase/ui/bpm/generator",
+      "name": "processbase",
+      "url": "https://searchcode.com/codesearch/view/12604027/",
+      "md5hash": "fcdd10286471e6b3475b156607978a55",
+      "lines": {
+        "24": " */",
+        "25": "public class TableStyle {",
+        "33": "    public TableStyle( CharSequence html, CharSequence css ){",
+        "32": ""
+      },
+      "id": 12604027,
+      "filename": "TableStyle.java"
+    },
+    {
+      "repo": "https://bitbucket.org/grupe3/hotel",
+      "language": "Java",
+      "linescount": 28,
+      "location": "/src/main/java/gruppe3/tuwien/sepm/ui/main",
+      "name": "hotel",
+      "url": "https://searchcode.com/codesearch/view/117792555/",
+      "md5hash": "284fdf30fd7193e7c971c8b1aef65330",
+      "lines": {
+        "8": "",
+        "9": "public class TableStyle {"
+      },
+      "id": 117792555,
+      "filename": "TableStyle.java"
+    },
+    {
+      "repo": "https://github.com/bmorrise/pentaho-reporting.git",
+      "language": "Java",
+      "linescount": 29,
+      "location": "/designer/report-designer/src/org/pentaho/reporting/designer/core/util/table",
+      "name": "pentaho-reporting",
+      "url": "https://searchcode.com/codesearch/view/100680485/",
+      "md5hash": "9ae617dd05be09dbfb6c544027726637",
+      "lines": {
+        "22": " */",
+        "23": "public enum TableStyle"
+      },
+      "id": 100680485,
+      "filename": "TableStyle.java"
+    },
+    {
+      "repo": "https://github.com/bmorrise/pentaho-reporting.git",
+      "language": "Java",
+      "linescount": 9,
+      "location": "/libraries/libswing/source/org/pentaho/reporting/libraries/designtime/swing/table",
+      "name": "pentaho-reporting",
+      "url": "https://searchcode.com/codesearch/view/100689651/",
+      "md5hash": "52323d59eee0335bf7239d9fdee0b8f8",
+      "lines": {
+        "2": "",
+        "3": "public enum TableStyle"
+      },
+      "id": 100689651,
+      "filename": "TableStyle.java"
+    },
+    {
+      "repo": "https://github.com/apauzies/nebula.widgets.nattable.git",
+      "language": "Java",
+      "linescount": 74,
+      "location": "/org.eclipse.nebula.widgets.nattable.extension.builder/src/org/eclipse/nebula/widgets/nattable/extension/builder/configuration",
+      "name": "nebula.widgets.nattable",
+      "url": "https://searchcode.com/codesearch/view/76102089/",
+      "md5hash": "c945a2ecc8e6bb08679051fc25f84ccf",
+      "lines": {
+        "33": "",
+        "34": "\tpublic SelectionStyleConfiguration(TableStyle tableStyle) {",
+        "35": "\t\tthis.tableStyle = tableStyle;",
+        "36": "",
+        "37": "\t\t// Anchor style",
+        "38": "\t\tanchorBorderColor = tableStyle.anchorSelectionBgColor;",
+        "39": "\t\tanchorBgColor = tableStyle.anchorSelectionBgColor;",
+        "40": "\t\tanchorFgColor = tableStyle.anchorSelectionFgColor;",
+        "41": "",
+        "42": "\t\t// Selected headers style",
+        "43": "\t\tselectedHeaderBgColor = tableStyle.headerSelectionBgColor;",
+        "44": "\t\tselectedHeaderFgColor = tableStyle.headerSelectionFgColor;",
+        "21": "import org.eclipse.nebula.widgets.nattable.config.IConfigRegistry;",
+        "22": "import org.eclipse.nebula.widgets.nattable.extension.builder.model.TableStyle;",
+        "29": "",
+        "30": "\tprivate final TableStyle tableStyle;"
+      },
+      "id": 76102089,
+      "filename": "SelectionStyleConfiguration.java"
+    },
+    {
+      "repo": "https://github.com/apauzies/nebula.widgets.nattable.git",
+      "language": "Java",
+      "linescount": 396,
+      "location": "/org.eclipse.nebula.widgets.nattable.extension.builder/src/org/eclipse/nebula/widgets/nattable/extension/builder",
+      "name": "nebula.widgets.nattable",
+      "url": "https://searchcode.com/codesearch/view/76102064/",
+      "md5hash": "ad686f676005940c69e6b59eed1968cd",
+      "lines": {
+        "33": "import org.eclipse.nebula.widgets.nattable.extension.builder.configuration.SelectionStyleConfiguration;",
+        "34": "import org.eclipse.nebula.widgets.nattable.extension.builder.configuration.TableStyleConfiguration;",
+        "43": "import org.eclipse.nebula.widgets.nattable.extension.builder.model.TableRow;",
+        "137": "\t\tnatTable.setConfigRegistry(configRegistry);",
+        "138": "\t\tnatTable.setBackground(tableStyle.tableBgColor);",
+        "107": "\t\tthis.rowIdAccessor = rowIdAccessor;",
+        "108": "\t\tthis.tableStyle = tableModel.tableStyle;",
+        "141": "\t\tnatTable.addConfiguration(new TableStyleConfiguration(tableStyle));",
+        "206": "\t\tnatTable.addConfiguration(new SelectionStyleConfiguration(tableStyle));",
+        "44": "import org.eclipse.nebula.widgets.nattable.extension.builder.model.TableStyle;",
+        "140": "\t\t// Configuration",
+        "83": "",
+        "84": "\tprivate final TableStyle tableStyle;",
+        "213": "\t\tgridLayer.addConfiguration(new GridLayerConfiguration(gridLayer, tableStyle));",
+        "212": "\tprotected void configureGridLayer() {",
+        "205": "\t\t}"
+      },
+      "id": 76102064,
+      "filename": "NatTableBuilder.java"
+    },
+    {
+      "repo": "https://github.com/apauzies/nebula.widgets.nattable.git",
+      "language": "Java",
+      "linescount": 86,
+      "location": "/org.eclipse.nebula.widgets.nattable.extension.builder/src/org/eclipse/nebula/widgets/nattable/extension/builder/configuration",
+      "name": "nebula.widgets.nattable",
+      "url": "https://searchcode.com/codesearch/view/76102085/",
+      "md5hash": "ccffd61d336cbe9c416de56807b16401",
+      "lines": {
+        "32": "",
+        "33": "\tprivate final TableStyle tableStyle;",
+        "34": "",
+        "35": "\tpublic ColumnHeaderConfiguration(TableStyle tableStyle) {",
+        "36": "\t\tthis.tableStyle = tableStyle;",
+        "37": "\t}",
+        "70": "\t\tImage bgImage = tableStyle.columnHeaderBgImage;",
+        "65": "",
+        "64": "\t\tcellStyle.setAttributeValue(CellStyleAttributes.FONT, tableStyle.columnHeaderFont);",
+        "45": "\tprivate void addSelectedModeStyling(IConfigRegistry configRegistry) {",
+        "46": "\t\tImage selectedBgImage = tableStyle.columnHeaderSelectedBgImage;",
+        "15": "import org.eclipse.nebula.widgets.nattable.config.IConfigRegistry;",
+        "16": "import org.eclipse.nebula.widgets.nattable.extension.builder.model.TableStyle;",
+        "69": "\t\t// Gradient painter",
+        "63": "\t\tcellStyle.setAttributeValue(CellStyleAttributes.FOREGROUND_COLOR, tableStyle.columnHeaderFGColor);"
+      },
+      "id": 76102085,
+      "filename": "ColumnHeaderConfiguration.java"
+    },
+    {
+      "repo": "https://github.com/apauzies/nebula.widgets.nattable.git",
+      "language": "Java",
+      "linescount": 39,
+      "location": "/org.eclipse.nebula.widgets.nattable.extension.builder/src/org/eclipse/nebula/widgets/nattable/extension/builder/configuration",
+      "name": "nebula.widgets.nattable",
+      "url": "https://searchcode.com/codesearch/view/76102105/",
+      "md5hash": "87e61ec584df8bdb9a19bca4f41ac64d",
+      "lines": {
+        "32": "\t\tstyleConfig.font = tableStyle.rowHeaderFont;",
+        "33": "\t\taddConfiguration(styleConfig);",
+        "12": "",
+        "13": "import org.eclipse.nebula.widgets.nattable.extension.builder.model.TableStyle;",
+        "19": "",
+        "20": "\tprivate final TableStyle tableStyle;",
+        "21": "",
+        "22": "\tpublic RowHeaderConfiguration(TableStyle tableStyle) {",
+        "23": "\t\tsuper();",
+        "24": "\t\tthis.tableStyle = tableStyle;",
+        "29": "\t\tDefaultRowHeaderStyleConfiguration styleConfig = new DefaultRowHeaderStyleConfiguration();",
+        "30": "\t\tstyleConfig.bgColor = tableStyle.rowHeaderBGColor;",
+        "31": "\t\tstyleConfig.fgColor = tableStyle.rowHeaderFGColor;"
+      },
+      "id": 76102105,
+      "filename": "RowHeaderConfiguration.java"
+    },
+    {
+      "repo": "https://github.com/apauzies/nebula.widgets.nattable.git",
+      "language": "Java",
+      "linescount": 49,
+      "location": "/org.eclipse.nebula.widgets.nattable.extension.builder/src/org/eclipse/nebula/widgets/nattable/extension/builder/layers",
+      "name": "nebula.widgets.nattable",
+      "url": "https://searchcode.com/codesearch/view/76102151/",
+      "md5hash": "cd6209df0abe5ce6cd98cfaa46bb66d6",
+      "lines": {
+        "16": "import org.eclipse.nebula.widgets.nattable.extension.builder.model.TableRow;",
+        "17": "import org.eclipse.nebula.widgets.nattable.extension.builder.model.TableStyle;",
+        "34": "\t\tDataLayer rowHeaderDataLayer = new DataLayer(dataProvider, tableStyle.rowHeaderWidth, tableStyle.defaultRowHeight);",
+        "35": "\t\trowHeaderDataLayer.setDefaultColumnWidth(tableModel.tableStyle.rowHeaderWidth);",
+        "36": "",
+        "33": "",
+        "41": "\t\t// Style config",
+        "42": "\t\trowHeaderLayer.addConfiguration(new RowHeaderConfiguration(tableStyle));",
+        "29": "\tpublic RowHeaderLayerStack(BodyLayerStack<T> bodyLayer, TableModel tableModel) {",
+        "30": "\t\tTableStyle tableStyle = tableModel.tableStyle;"
+      },
+      "id": 76102151,
+      "filename": "RowHeaderLayerStack.java"
+    },
+    {
+      "repo": "https://github.com/apauzies/nebula.widgets.nattable.git",
+      "language": "Java",
+      "linescount": 46,
+      "location": "/org.eclipse.nebula.widgets.nattable.extension.builder/src/org/eclipse/nebula/widgets/nattable/extension/builder/configuration",
+      "name": "nebula.widgets.nattable",
+      "url": "https://searchcode.com/codesearch/view/76102099/",
+      "md5hash": "07ee8fe4915601620442e9dd9b644e37",
+      "lines": {
+        "23": "",
+        "24": "\tprivate final TableStyle properties;",
+        "25": "",
+        "26": "\tpublic GridLayerConfiguration(GridLayer gridLayer, TableStyle tableStyle) {",
+        "27": "\t\tsuper(gridLayer);",
+        "12": "",
+        "13": "import org.eclipse.nebula.widgets.nattable.extension.builder.model.TableStyle;",
+        "28": "\t\tthis.properties = tableStyle;"
+      },
+      "id": 76102099,
+      "filename": "GridLayerConfiguration.java"
+    },
+    {
+      "repo": "https://github.com/apauzies/nebula.widgets.nattable.git",
+      "language": "Java",
+      "linescount": 145,
+      "location": "/org.eclipse.nebula.widgets.nattable.extension.builder/src/org/eclipse/nebula/widgets/nattable/extension/builder/layers",
+      "name": "nebula.widgets.nattable",
+      "url": "https://searchcode.com/codesearch/view/76102158/",
+      "md5hash": "ca55fe51a9db13d54f7a64fc3c05fdad",
+      "lines": {
+        "64": "\t\tcolumnHeaderDataLayer = new DataLayer(columnHeaderDataProvider, tableModel.tableStyle.defaultColumnWidth, tableModel.tableStyle.columnHeaderHeight);",
+        "104": "\t\tcolumnHeaderLayer.addConfiguration(new ColumnHeaderConfiguration(tableModel.tableStyle));",
+        "71": "\t\t\tcolumnGroupHeaderLayer = new ColumnGroupHeaderLayer(columnHeaderLayer, selectionLayer, tableModel.columnGroupModel, false);",
+        "72": "\t\t\tcolumnGroupHeaderLayer.setRowHeight(tableModel.tableStyle.columnGroupHeaderHeight);",
+        "103": "",
+        "63": ""
+      },
+      "id": 76102158,
+      "filename": "ColumnHeaderLayerStack.java"
+    },
+    {
+      "repo": "https://github.com/apauzies/nebula.widgets.nattable.git",
+      "language": "Java",
+      "linescount": 37,
+      "location": "/org.eclipse.nebula.widgets.nattable.extension.builder/src/org/eclipse/nebula/widgets/nattable/extension/builder/model",
+      "name": "nebula.widgets.nattable",
+      "url": "https://searchcode.com/codesearch/view/76102122/",
+      "md5hash": "10d3fe8fade704003cbb0308a728c4f5",
+      "lines": {
+        "17": "",
+        "18": "\tpublic TableStyle tableStyle = new TableStyle();"
+      },
+      "id": 76102122,
+      "filename": "TableModel.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ansgarkonermann/simpleodf",
+      "language": "Java",
+      "linescount": 3279,
+      "location": "/src/main/java/org/odftoolkit/simple/table",
+      "name": "simpleodf",
+      "url": "https://searchcode.com/codesearch/view/60371767/",
+      "md5hash": "d51a889b5f5be5a2ffc79888c517ebfb",
+      "lines": {
+        "896": "\t\t\ttableStyle.setProperty(StyleTablePropertiesElement.MarginRight, (new DecimalFormat(\"#0.##\")",
+        "2729": "\tpublic void setVerticalMargin(double spaceTop, double spaceBottom) {",
+        "2730": "\t\tString tableStyleName = mTableElement.getStyleName();",
+        "2731": "\t\tOdfOfficeAutomaticStyles automaticStyles = mTableElement.getAutomaticStyles();",
+        "2732": "\t\tOdfStyleBase tableStyle = automaticStyles.getStyle(tableStyleName, OdfStyleFamily.Table);",
+        "2733": "\t\tif (tableStyle != null) {",
+        "2734": "\t\t\ttableStyle.setProperty(StyleTablePropertiesElement.MarginTop,",
+        "2735": "\t\t\t\t\t(new DecimalFormat(\"#0.##\").format(spaceTop) + Unit.CENTIMETER.abbr()).replace(\",\", \".\"));",
+        "2736": "\t\t\ttableStyle.setProperty(StyleTablePropertiesElement.MarginBottom, (new DecimalFormat(\"#0.##\")",
+        "886": "\t\t// create style",
+        "887": "\t\tOdfStyle tableStyle = styles.newStyle(OdfStyleFamily.Table);",
+        "888": "\t\tString stylename = tableStyle.getStyleNameAttribute();",
+        "889": "\t\ttableStyle.setProperty(StyleTablePropertiesElement.Width, tableWidth + \"in\");",
+        "890": "\t\ttableStyle.setProperty(StyleTablePropertiesElement.Align, DEFAULT_TABLE_ALIGN);",
+        "895": "\t\tif (marginRight != 0) {"
+      },
+      "id": 60371767,
+      "filename": "Table.java"
+    },
+    {
+      "repo": "https://github.com/apauzies/nebula.widgets.nattable.git",
+      "language": "Java",
+      "linescount": 67,
+      "location": "/org.eclipse.nebula.widgets.nattable.core/src/org/eclipse/nebula/widgets/nattable/style/editor",
+      "name": "nebula.widgets.nattable",
+      "url": "https://searchcode.com/codesearch/view/76102581/",
+      "md5hash": "e7357253edd8961f45b919250a926f2b",
+      "lines": {
+        "32": "\tpublic IStyle selectionStyle;",
+        "33": "\tpublic IStyle tableStyle;",
+        "57": "\t\t",
+        "58": "\t\ttableStyle = configRegistry.getConfigAttribute(CellConfigAttributes.CELL_STYLE, DisplayMode.NORMAL);",
+        "59": "\t\ttableFont = tableStyle.getAttributeValue(CellStyleAttributes.FONT);",
+        "60": "\t}"
+      },
+      "id": 76102581,
+      "filename": "GridStyleParameterObject.java"
+    },
+    {
+      "repo": "https://bitbucket.org/acanda/mercurialeclipse",
+      "language": "Java",
+      "linescount": 310,
+      "location": "/src/com/vectrace/MercurialEclipse/ui",
+      "name": "mercurialeclipse",
+      "url": "https://searchcode.com/codesearch/view/54362438/",
+      "md5hash": "59063782d448e8dada564653a96d9647",
+      "lines": {
+        "101": "",
+        "70": "",
+        "71": "\tpublic ChangesetTable(Composite parent, int tableStyle, IResource resource, boolean autoFetch) {",
+        "72": "\t\tthis(parent, tableStyle, resource, null, autoFetch);",
+        "73": "\t}",
+        "74": "",
+        "75": "\tpublic ChangesetTable(Composite parent, int tableStyle, HgRoot hgRoot, boolean autoFetch) {",
+        "76": "\t\tthis(parent, tableStyle, null, hgRoot, autoFetch);",
+        "77": "\t}",
+        "80": "\t * @param parent non null swt parent widget",
+        "81": "\t * @param tableStyle SWT style bits",
+        "85": "\t */",
+        "86": "\tprotected ChangesetTable(Composite parent, int tableStyle, IResource resource, HgRoot hgRoot, boolean autoFetch) {",
+        "102": "\t\ttable = new Table(this, tableStyle);"
+      },
+      "id": 54362438,
+      "filename": "ChangesetTable.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nicolas.piguet/hgeclipse-subrepos",
+      "language": "Java",
+      "linescount": 323,
+      "location": "/src/com/vectrace/MercurialEclipse/ui",
+      "name": "hgeclipse-subrepos",
+      "url": "https://searchcode.com/codesearch/view/55602048/",
+      "md5hash": "a7bb74b0f1911bad8366ea4926e06309",
+      "lines": {
+        "102": "",
+        "71": "",
+        "72": "\tpublic ChangesetTable(Composite parent, int tableStyle, IResource resource, boolean autoFetch) {",
+        "73": "\t\tthis(parent, tableStyle, resource, null, autoFetch);",
+        "74": "\t}",
+        "75": "",
+        "76": "\tpublic ChangesetTable(Composite parent, int tableStyle, HgRoot hgRoot, boolean autoFetch) {",
+        "77": "\t\tthis(parent, tableStyle, null, hgRoot, autoFetch);",
+        "78": "\t}",
+        "81": "\t * @param parent non null swt parent widget",
+        "82": "\t * @param tableStyle SWT style bits",
+        "86": "\t */",
+        "87": "\tprotected ChangesetTable(Composite parent, int tableStyle, IResource resource, HgRoot hgRoot, boolean autoFetch) {",
+        "103": "\t\ttable = new Table(this, tableStyle);"
+      },
+      "id": 55602048,
+      "filename": "ChangesetTable.java"
+    },
+    {
+      "repo": "https://bitbucket.org/xiaoqiangnk/icedtea6",
+      "language": "Java",
+      "linescount": 807,
+      "location": "/test/jtreg/com/sun/javatest/exec",
+      "name": "icedtea6",
+      "url": "https://searchcode.com/codesearch/view/62589172/",
+      "md5hash": "1289049d19fe7c7ad23624d38e2a3343",
+      "lines": {
+        "432": "\t    out.writeAttr(HTMLWriter.BORDER, \"0\");",
+        "353": "\t    out.writeAttr(HTMLWriter.BORDER, \"0\");",
+        "354": "\t    //out.writeStyleAttr(tableStyle);",
+        "229": "\t\tout.writeAttr(HTMLWriter.BORDER, \"0\");",
+        "230": "\t\t//out.writeStyleAttr(tableStyle);",
+        "273": "\t\t//out.writeStyleAttr(tableStyle);",
+        "272": "\t\tout.writeAttr(HTMLWriter.BORDER, \"0\");",
+        "216": "\t    out.writeAttr(HTMLWriter.BORDER, \"0\");",
+        "307": "\t    out.writeAttr(HTMLWriter.BORDER, \"0\");",
+        "308": "\t    //out.writeStyleAttr(tableStyle);",
+        "433": "\t    //out.writeStyleAttr(tableStyle);",
+        "217": "\t    //out.writeStyleAttr(tableStyle);",
+        "248": "\t\t    out.writeAttr(HTMLWriter.BORDER, \"0\");",
+        "249": "\t\t    //out.writeStyleAttr(tableStyle);"
+      },
+      "id": 62589172,
+      "filename": "TP_OutputSubpanel.java"
+    },
+    {
+      "repo": "https://bitbucket.org/markjenkins/libreoffice_ubuntu-debian-fixes.git",
+      "language": "Java",
+      "linescount": 960,
+      "location": "/reportbuilder/java/com/sun/star/report/pentaho/output/spreadsheet",
+      "name": "libreoffice_ubuntu-debian-fixes",
+      "url": "https://searchcode.com/codesearch/view/45021279/",
+      "md5hash": "649a80ca1decb8d48a7b5460635d8da4",
+      "lines": {
+        "779": "            commonStyles.addStyle(tableStyle);",
+        "324": "",
+        "325": "            final String tableStyle = (String) attrs.getAttribute(OfficeNamespaces.TABLE_NS, OfficeToken.STYLE_NAME);",
+        "326": "            if (tableStyle == null)",
+        "327": "            {",
+        "776": "            tableStyle.setAttribute(OfficeNamespaces.STYLE_NS, \"master-page-name\", masterPageName);",
+        "777": "            final Element tableProperties = produceFirstChild(tableStyle, OfficeNamespaces.STYLE_NS, \"table-properties\");",
+        "778": "            tableProperties.setAttribute(OfficeNamespaces.FO_NS, OfficeToken.BACKGROUND_COLOR, TRANSPARENT);",
+        "331": "            {",
+        "332": "                final Object raw = StyleUtilities.queryStyle(getPredefinedStylesCollection(), OfficeToken.TABLE, tableStyle,",
+        "775": "            tableStyle.setStyleName(\"Initial_Table\");",
+        "753": "            tableAttributes.setAttribute(JFreeReportInfo.REPORT_NAMESPACE, Element.TYPE_ATTRIBUTE, OfficeToken.TABLE);",
+        "754": "            tableAttributes.setAttribute(OfficeNamespaces.TABLE_NS, OfficeToken.STYLE_NAME, generateInitialTableStyle());",
+        "774": "            tableStyle.setStyleFamily(OfficeToken.TABLE);",
+        "773": "            final OfficeStyle tableStyle = new OfficeStyle();"
+      },
+      "id": 45021279,
+      "filename": "SpreadsheetRawReportTarget.java"
+    },
+    {
+      "repo": "https://github.com/apauzies/nebula.widgets.nattable.git",
+      "language": "Java",
+      "linescount": 137,
+      "location": "/org.eclipse.nebula.widgets.nattable.extension.builder/src/org/eclipse/nebula/widgets/nattable/extension/builder/layers",
+      "name": "nebula.widgets.nattable",
+      "url": "https://searchcode.com/codesearch/view/76102162/",
+      "md5hash": "213c81ab14cc114852532825140717e3",
+      "lines": {
+        "56": "\t\tbodyDataLayer = new DataLayer(bodyDataProvider, tableModel.tableStyle.defaultColumnWidth, tableModel.tableStyle.defaultRowHeight);",
+        "55": ""
+      },
+      "id": 76102162,
+      "filename": "BodyLayerStack.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 110,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 53,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 21,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 1,
+      "source": "CodePlex",
+      "id": 5
+    }
+  ]
+}

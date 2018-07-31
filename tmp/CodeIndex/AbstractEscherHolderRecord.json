@@ -1,0 +1,155 @@
+{
+  "matchterm": "AbstractEscherHolderRecord",
+  "previouspage": null,
+  "searchterm": "AbstractEscherHolderRecord",
+  "query": "AbstractEscherHolderRecord",
+  "language_filters": [
+    {
+      "count": 8,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 8,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 327,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642502/",
+      "md5hash": "93371d2d221b0ae6800fc5720ed4f71b",
+      "lines": {
+        "285": "     */",
+        "86": "     */",
+        "87": "    public AbstractEscherHolderRecord(RecordInputStream in)",
+        "60": " */",
+        "76": "",
+        "61": "public abstract class AbstractEscherHolderRecord",
+        "286": "    public void join( AbstractEscherHolderRecord record )",
+        "77": "    public AbstractEscherHolderRecord()"
+      },
+      "id": 15642502,
+      "filename": "AbstractEscherHolderRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1445,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642316/",
+      "md5hash": "4f7b036daf89776dc4ee4606b7972144",
+      "lines": {
+        "1336": "            Object obj = recordIter.next();",
+        "1337": "            if (obj instanceof AbstractEscherHolderRecord)",
+        "1338": "            {",
+        "1339": "                ((AbstractEscherHolderRecord) obj).decode();",
+        "1340": "                List escherRecords = ((AbstractEscherHolderRecord) obj).getEscherRecords();",
+        "1341": "                searchForPictures(escherRecords, pictures);"
+      },
+      "id": 15642316,
+      "filename": "HSSFWorkbook.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 766,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642409/",
+      "md5hash": "9e212df4a5b523744fd315d99c376d1b",
+      "lines": {
+        "69": " */",
+        "70": "public class EscherAggregate extends AbstractEscherHolderRecord"
+      },
+      "id": 15642409,
+      "filename": "EscherAggregate.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 66,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642420/",
+      "md5hash": "ddca9e0d8ce0ad476ef14d74ce5625dc",
+      "lines": {
+        "42": "",
+        "43": "public class DrawingSelectionRecord extends AbstractEscherHolderRecord"
+      },
+      "id": 15642420,
+      "filename": "DrawingSelectionRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 71,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642435/",
+      "md5hash": "c3321cd61e7b9bd75ebcedfb4f3464fa",
+      "lines": {
+        "48": "        extends AbstractEscherHolderRecord",
+        "47": "public class DrawingRecordForBiffViewer"
+      },
+      "id": 15642435,
+      "filename": "DrawingRecordForBiffViewer.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 166,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642447/",
+      "md5hash": "0f1467d5ee2b3eea3ef4caa4c9290b32",
+      "lines": {
+        "51": "",
+        "52": "public class DrawingGroupRecord extends AbstractEscherHolderRecord"
+      },
+      "id": 15642447,
+      "filename": "DrawingGroupRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "156": "                            DrawingGroupRecord lastDGRecord = (DrawingGroupRecord) lastRecord;",
+        "157": "                                lastDGRecord.join((AbstractEscherHolderRecord) record);"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 595,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785559/",
+      "md5hash": "6b55090236799f49ee0f5bd7d54bbbac",
+      "lines": {
+        "38": "import org.apache.poi.hssf.eventusermodel.HSSFRequest;",
+        "39": "import org.apache.poi.hssf.record.AbstractEscherHolderRecord;"
+      },
+      "id": 111785559,
+      "filename": "ExcelExtractor.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 8,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

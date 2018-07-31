@@ -1,0 +1,78 @@
+{
+  "matchterm": "CharacterSprmUncompressor",
+  "previouspage": null,
+  "searchterm": "CharacterSprmUncompressor",
+  "query": "CharacterSprmUncompressor",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 760,
+      "location": "/src/org/apache/poi/hwpf/sprm",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384370/",
+      "md5hash": "ad7ef563bd5c85239b2ca09f401501f5",
+      "lines": {
+        "34": "@Internal",
+        "35": "public final class CharacterSprmUncompressor extends SprmUncompressor",
+        "37": "    private static final POILogger logger = POILogFactory",
+        "38": "            .getLogger( CharacterSprmUncompressor.class );",
+        "39": "",
+        "40": "  public CharacterSprmUncompressor()"
+      },
+      "id": 97384370,
+      "filename": "CharacterSprmUncompressor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 405,
+      "location": "/src/org/apache/poi/hwpf/model",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384100/",
+      "md5hash": "77aa9fdbea42509b8b2733de8923350a",
+      "lines": {
+        "288": "          chp = CharacterSprmUncompressor.uncompressCHP(parentCHP, chpx, 0);",
+        "287": "",
+        "22": "import org.apache.poi.hwpf.model.io.HWPFOutputStream;",
+        "23": "import org.apache.poi.hwpf.sprm.CharacterSprmUncompressor;"
+      },
+      "id": 97384100,
+      "filename": "StyleSheet.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 85,
+      "location": "/src/org/apache/poi/hwpf/model",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384232/",
+      "md5hash": "1aadd3e43cb66ebb7fbcad67946b426b",
+      "lines": {
+        "75": "        CharacterProperties props = CharacterSprmUncompressor.uncompressCHP(",
+        "74": "        CharacterProperties baseStyle = ss.getCharacterStyle( istd );",
+        "19": "",
+        "20": "import org.apache.poi.hwpf.sprm.CharacterSprmUncompressor;"
+      },
+      "id": 97384232,
+      "filename": "CHPX.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

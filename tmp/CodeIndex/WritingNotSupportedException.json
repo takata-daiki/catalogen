@@ -1,0 +1,251 @@
+{
+  "matchterm": "WritingNotSupportedException",
+  "previouspage": null,
+  "searchterm": "WritingNotSupportedException",
+  "query": "WritingNotSupportedException",
+  "language_filters": [
+    {
+      "count": 12,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 12,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 72,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642687/",
+      "md5hash": "333a3c58a46505533f546727b70578aa",
+      "lines": {
+        "64": "     */",
+        "65": "    public WritingNotSupportedException(final long variantType,",
+        "52": " * @since 2003-08-08",
+        "53": " * @version $Id: WritingNotSupportedException.java 489730 2006-12-22 19:18:16Z bayard $",
+        "54": " */",
+        "55": "public class WritingNotSupportedException"
+      },
+      "id": 15642687,
+      "filename": "WritingNotSupportedException.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 540,
+      "location": "/src/org/apache/poi/hpsf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383361/",
+      "md5hash": "89a9616b84e878dcdfd285ef7159c220",
+      "lines": {
+        "407": "     * @exception IOException if an I/O exceptions occurs",
+        "408": "     * @exception WritingNotSupportedException if a property is to be written",
+        "521": "                    writeUnsupportedTypeMessage",
+        "522": "                        (new WritingNotSupportedException(type, value));",
+        "412": "                            final Object value, final int codepage)",
+        "413": "        throws IOException, WritingNotSupportedException",
+        "524": "                else",
+        "525": "                    throw new WritingNotSupportedException(type, value);"
+      },
+      "id": 97383361,
+      "filename": "VariantSupport.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 331,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642695/",
+      "md5hash": "4da3210542af1db464b9a8750c859f7c",
+      "lines": {
+        "288": "     * ",
+        "289": "     * @throws WritingNotSupportedException if HPSF does not yet support writing",
+        "226": "    public void write(final OutputStream out)",
+        "227": "        throws WritingNotSupportedException, IOException",
+        "293": "    public RandomAccessInputStream toInputStream()",
+        "294": "        throws IOException, WritingNotSupportedException",
+        "309": "     * ",
+        "310": "     * @throws WritingNotSupportedException",
+        "313": "    public void write(final DirectoryEntry dir, final String name)",
+        "314": "    throws WritingNotSupportedException, IOException",
+        "222": "     * occurs",
+        "223": "     * @exception WritingNotSupportedException if HPSF does not yet support"
+      },
+      "id": 15642695,
+      "filename": "MutablePropertySet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 740,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642671/",
+      "md5hash": "4af2341597b1380f5573c853dfcdca4d",
+      "lines": {
+        "368": "     * @throws WritingNotSupportedException ",
+        "400": "        throws WritingNotSupportedException, IOException",
+        "370": "     */",
+        "371": "    private int calcSize() throws WritingNotSupportedException, IOException ",
+        "399": "    public int write(final OutputStream out)",
+        "395": "     * @exception IOException if an I/O error occurs",
+        "396": "     * @exception WritingNotSupportedException if HPSF does not yet support",
+        "367": "     * @return the section's length in bytes."
+      },
+      "id": 15642671,
+      "filename": "MutableSection.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 450,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642683/",
+      "md5hash": "8fa7785e3864553983ffce8b9a33e916",
+      "lines": {
+        "320": "            throw new WritingNotSupportedException(type, null);",
+        "337": "            default:",
+        "338": "                throw new WritingNotSupportedException(type, value);",
+        "309": "     * ",
+        "310": "     * @exception WritingNotSupportedException if HPSF does not yet support the",
+        "312": "     */",
+        "313": "    protected int getSize() throws WritingNotSupportedException",
+        "319": "            /* Unknown length */"
+      },
+      "id": 15642683,
+      "filename": "Property.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 586,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642693/",
+      "md5hash": "2f1e0d92eda67ca2dfa755dbe2828a3a",
+      "lines": {
+        "576": "                else",
+        "577": "                    throw new WritingNotSupportedException(type, value);",
+        "454": "     * @exception IOException if an I/O exceptions occurs",
+        "455": "     * @exception WritingNotSupportedException if a property is to be written",
+        "459": "                            final Object value, final int codepage)",
+        "460": "        throws IOException, WritingNotSupportedException",
+        "573": "                    writeUnsupportedTypeMessage",
+        "574": "                        (new WritingNotSupportedException(type, value));"
+      },
+      "id": 15642693,
+      "filename": "VariantSupport.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 121,
+      "location": "/src/org/apache/poi/hpsf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383400/",
+      "md5hash": "260f190003f9a2c2667652ae957230e2",
+      "lines": {
+        "105": "    public int write(final OutputStream out, final int codepage)",
+        "106": "        throws IOException, WritingNotSupportedException",
+        "101": "     * @exception IOException if an I/O error occurs",
+        "102": "     * @exception WritingNotSupportedException if a variant type is to be"
+      },
+      "id": 97383400,
+      "filename": "MutableProperty.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 379,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642701/",
+      "md5hash": "91d5f9cee878844b93d18d7f09b6d7b4",
+      "lines": {
+        "272": "     */",
+        "273": "    public RandomAccessInputStream toInputStream() throws IOException, WritingNotSupportedException",
+        "292": "     */",
+        "293": "    public void write(final OutputStream out) throws WritingNotSupportedException, IOException",
+        "282": "     */",
+        "283": "    public void write(final DirectoryEntry dir, final String name) throws WritingNotSupportedException, IOException"
+      },
+      "id": 15642701,
+      "filename": "SpecialPropertySet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 146,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642678/",
+      "md5hash": "b5ca9d23e9c6903ee65fd891e6d1cecc",
+      "lines": {
+        "130": "    public int write(final OutputStream out, final int codepage)",
+        "131": "        throws IOException, WritingNotSupportedException",
+        "126": "     * @exception IOException if an I/O error occurs",
+        "127": "     * @exception WritingNotSupportedException if a variant type is to be"
+      },
+      "id": 15642678,
+      "filename": "MutableProperty.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 275,
+      "location": "/src/org/apache/poi",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383067/",
+      "md5hash": "afa24f033acdbeef13a37ab141698759",
+      "lines": {
+        "227": "\t\t\tlogger.log(POILogger.INFO, \"Wrote property set \" + name + \" of size \" + data.length);",
+        "228": "\t\t} catch(org.apache.poi.hpsf.WritingNotSupportedException wnse) {"
+      },
+      "id": 97383067,
+      "filename": "POIDocument.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 244,
+      "location": "/components/forks/poi/src/loci/poi",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642236/",
+      "md5hash": "d16ea92e13b3c1846cc34e8c5e120339",
+      "lines": {
+        "176": "\t\t} catch(loci.poi.hpsf.WritingNotSupportedException wnse) {",
+        "175": "\t\t\tlogger.log(POILogger.INFO, \"Wrote property set \" + name + \" of size \" + data.length);"
+      },
+      "id": 15642236,
+      "filename": "POIDocument.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 72,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642680/",
+      "md5hash": "818db6189afb0ae2f35d24ff17d49a7a",
+      "lines": {
+        "46": " * ",
+        "47": " * @see WritingNotSupportedException"
+      },
+      "id": 15642680,
+      "filename": "ReadingNotSupportedException.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 12,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

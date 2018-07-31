@@ -1,0 +1,170 @@
+{
+  "matchterm": "SheetUtil",
+  "previouspage": null,
+  "searchterm": "SheetUtil",
+  "query": "SheetUtil",
+  "language_filters": [
+    {
+      "count": 9,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 9,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/markjenkins/libreoffice_ubuntu-debian-fixes.git",
+      "language": "Java",
+      "linescount": 99,
+      "location": "/xmerge/source/xmerge/java/org/openoffice/xmerge/merger/merge",
+      "name": "libreoffice_ubuntu-debian-fixes",
+      "url": "https://searchcode.com/codesearch/view/45005197/",
+      "md5hash": "07763d77693ff54e57df2f5d472efb40",
+      "lines": {
+        "32": " */",
+        "33": "public class SheetUtil {"
+      },
+      "id": 45005197,
+      "filename": "SheetUtil.java"
+    },
+    {
+      "repo": "https://bitbucket.org/mst/ooo340",
+      "language": "Java",
+      "linescount": 109,
+      "location": "/xmerge/java/org/openoffice/xmerge/merger/merge",
+      "name": "ooo340",
+      "url": "https://searchcode.com/codesearch/view/122077916/",
+      "md5hash": "d4925c31349b94dcb12806a92634fa24",
+      "lines": {
+        "42": " */",
+        "43": "public class SheetUtil {"
+      },
+      "id": 122077916,
+      "filename": "SheetUtil.java"
+    },
+    {
+      "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 214,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel/handlers",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/64530936/",
+      "md5hash": "c1b4be1063488e09d53e938c467e846e",
+      "lines": {
+        "152": "\t\t\t\t\tFilteredSheet filteredSheet = new FilteredSheet( state.currentSheet, startDetailsRow, Math.min(endDetailsRow, startDetailsRow + 12) );",
+        "153": "\t\t\t        double calcWidth = SheetUtil.getColumnWidth( filteredSheet, col, false );",
+        "27": "",
+        "28": "import org.apache.poi.ss.util.SheetUtil;"
+      },
+      "id": 64530936,
+      "filename": "AbstractRealTableHandler.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ravisanthu0/spudsoft-birt-excel-emitters1",
+      "language": "Java",
+      "linescount": 161,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel/handlers",
+      "name": "spudsoft-birt-excel-emitters1",
+      "url": "https://searchcode.com/codesearch/view/126772725/",
+      "md5hash": "cbf331b2cd39881043d71563882ac4ee",
+      "lines": {
+        "100": "\t\t\t        double calcWidth = SheetUtil.getColumnWidth( filteredSheet, col, false );",
+        "99": "\t\t\t\t\tFilteredSheet filteredSheet = new FilteredSheet( state.currentSheet, startDetailsRow, Math.min(endDetailsRow, startDetailsRow + 12) );",
+        "4": "",
+        "5": "import org.apache.poi.ss.util.SheetUtil;"
+      },
+      "id": 126772725,
+      "filename": "AbstractRealTableHandler.java"
+    },
+    {
+      "repo": "https://bitbucket.org/markjenkins/libreoffice_ubuntu-debian-fixes.git",
+      "language": "Java",
+      "linescount": 252,
+      "location": "/xmerge/source/xmerge/java/org/openoffice/xmerge/merger/merge",
+      "name": "libreoffice_ubuntu-debian-fixes",
+      "url": "https://searchcode.com/codesearch/view/45005199/",
+      "md5hash": "f1ab3662b0100bee384397a681317edd",
+      "lines": {
+        "80": "                SheetUtil.emptyCell(cc_, (Node)orgSeqObject);",
+        "203": "        // string cells",
+        "204": "        SheetUtil.emptyCell(cc_, orgCell);",
+        "79": "                // no corresponding cell in the target, empty out the cell"
+      },
+      "id": 45005199,
+      "filename": "PositionBaseRowMerge.java"
+    },
+    {
+      "repo": "https://bitbucket.org/mst/ooo340",
+      "language": "Java",
+      "linescount": 268,
+      "location": "/xmerge/java/org/openoffice/xmerge/merger/merge",
+      "name": "ooo340",
+      "url": "https://searchcode.com/codesearch/view/122077912/",
+      "md5hash": "637a093e63ec3cb60a7b20ea434d13ae",
+      "lines": {
+        "96": "                SheetUtil.emptyCell(cc_, (Node)orgSeqObject);",
+        "219": "        // string cells",
+        "220": "        SheetUtil.emptyCell(cc_, orgCell);",
+        "95": "                // no corresponding cell in the target, empty out the cell"
+      },
+      "id": 122077912,
+      "filename": "PositionBaseRowMerge.java"
+    },
+    {
+      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 259,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel/handlers",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/122565175/",
+      "md5hash": "a4b2927675afb4f64b71f546f7cd2a3a",
+      "lines": {
+        "185": "\t\t\t\t\tFilteredSheet filteredSheet = new FilteredSheet( state.currentSheet, autoWidthStartRow, Math.min(autoWidthEndRow, autoWidthStartRow + 12) );",
+        "186": "\t\t\t        double calcWidth = SheetUtil.getColumnWidth( filteredSheet, col, false );",
+        "19": "import org.apache.poi.ss.util.CellRangeAddress;",
+        "20": "import org.apache.poi.ss.util.SheetUtil;"
+      },
+      "id": 122565175,
+      "filename": "AbstractRealTableHandler.java"
+    },
+    {
+      "repo": "https://bitbucket.org/markjenkins/libreoffice_ubuntu-debian-fixes.git",
+      "language": "Java",
+      "linescount": 79,
+      "location": "/xmerge/source/xmerge/java/org/openoffice/xmerge/merger/merge",
+      "name": "libreoffice_ubuntu-debian-fixes",
+      "url": "https://searchcode.com/codesearch/view/45005198/",
+      "md5hash": "cd59d37bc83215077c2701fcc4707023",
+      "lines": {
+        "73": "        for (int i = 0; i < numOfChildren; i++) {",
+        "74": "            SheetUtil.emptyCell(cc_, children.item(i));"
+      },
+      "id": 45005198,
+      "filename": "SheetMerge.java"
+    },
+    {
+      "repo": "https://bitbucket.org/mst/ooo340",
+      "language": "Java",
+      "linescount": 93,
+      "location": "/xmerge/java/org/openoffice/xmerge/merger/merge",
+      "name": "ooo340",
+      "url": "https://searchcode.com/codesearch/view/122077914/",
+      "md5hash": "a7a706d48efe70b428796ed9e5f83da1",
+      "lines": {
+        "88": "            SheetUtil.emptyCell(cc_, children.item(i));",
+        "87": "        for (int i = 0; i < numOfChildren; i++) {"
+      },
+      "id": 122077914,
+      "filename": "SheetMerge.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 9,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

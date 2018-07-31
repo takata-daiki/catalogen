@@ -1,0 +1,178 @@
+{
+  "matchterm": "EscherBoolProperty",
+  "previouspage": null,
+  "searchterm": "EscherBoolProperty",
+  "query": "EscherBoolProperty",
+  "language_filters": [
+    {
+      "count": 9,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 9,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 78,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383915/",
+      "md5hash": "13b4e3c3672fce14b6665e181ed6c5ea",
+      "lines": {
+        "32": "public class EscherBoolProperty",
+        "40": "     */",
+        "41": "    public EscherBoolProperty( short propertyNumber, int value )",
+        "31": " */"
+      },
+      "id": 97383915,
+      "filename": "EscherBoolProperty.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 91,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642634/",
+      "md5hash": "f93d3ee646143ba85f369f06a3570e13",
+      "lines": {
+        "60": "     */",
+        "51": " */",
+        "52": "public class EscherBoolProperty",
+        "61": "    public EscherBoolProperty( short propertyNumber, int value )"
+      },
+      "id": 15642634,
+      "filename": "EscherBoolProperty.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 174,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642354/",
+      "md5hash": "4b8479a67e34a342cfde58c7278efb63",
+      "lines": {
+        "163": "            if (shape.getLineStyle() == HSSFShape.LINESTYLE_NONE)",
+        "164": "                opt.addEscherProperty( new EscherBoolProperty( EscherProperties.LINESTYLE__NOLINEDRAWDASH, 0x00080000));",
+        "165": "            else",
+        "166": "                opt.addEscherProperty( new EscherBoolProperty( EscherProperties.LINESTYLE__NOLINEDRAWDASH, 0x00080008));",
+        "138": "    {",
+        "139": "        opt.addEscherProperty( new EscherBoolProperty( EscherProperties.TEXT__SIZE_TEXT_TO_FIT_SHAPE, 0x080000 ) );",
+        "140": "//        opt.addEscherProperty( new EscherBoolProperty( EscherProperties.TEXT__SIZE_TEXT_TO_FIT_SHAPE, 0x080008 ) );",
+        "141": "        if ( shape.isNoFill() )",
+        "143": "            // Wonderful... none of the spec's give any clue as to what these constants mean.",
+        "144": "            opt.addEscherProperty( new EscherBoolProperty( EscherProperties.FILL__NOFILLHITTEST, 0x00110000 ) );",
+        "147": "        {",
+        "148": "            opt.addEscherProperty( new EscherBoolProperty( EscherProperties.FILL__NOFILLHITTEST, 0x00010000 ) );",
+        "150": "        opt.addEscherProperty( new EscherRGBProperty( EscherProperties.FILL__FILLCOLOR, shape.getFillColor() ) );",
+        "151": "        opt.addEscherProperty( new EscherBoolProperty( EscherProperties.GROUPSHAPE__PRINT, 0x080000 ) );"
+      },
+      "id": 15642354,
+      "filename": "AbstractShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 766,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642409/",
+      "md5hash": "9e212df4a5b523744fd315d99c376d1b",
+      "lines": {
+        "658": "        opt.setOptions( (short) 0x0023 );",
+        "659": "        opt.addEscherProperty( new EscherBoolProperty( EscherProperties.PROTECTION__LOCKAGAINSTGROUPING, 0x00040004 ) );",
+        "660": "        opt.addEscherProperty( new EscherBoolProperty( EscherProperties.GROUPSHAPE__PRINT, 0x00080000 ) );",
+        "661": ""
+      },
+      "id": 15642409,
+      "filename": "EscherAggregate.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 155,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642357/",
+      "md5hash": "3fac04b2d420f2a566cce5b6a652e8c5",
+      "lines": {
+        "91": "        opt.setRecordId( EscherOptRecord.RECORD_ID );",
+        "92": "//        opt.addEscherProperty( new EscherBoolProperty( EscherProperties.PROTECTION__LOCKAGAINSTGROUPING, 0x00800080 ) );"
+      },
+      "id": 15642357,
+      "filename": "PictureShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 2351,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642358/",
+      "md5hash": "2f47d8e4aa73ffbba0d056d2a6f68eee",
+      "lines": {
+        "2204": "            opt.setOptions((short) 0x0033);",
+        "2205": "            opt.addEscherProperty( new EscherBoolProperty(EscherProperties.TEXT__SIZE_TEXT_TO_FIT_SHAPE, 524296) );"
+      },
+      "id": 15642358,
+      "filename": "Workbook.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642361/",
+      "md5hash": "e8926e1642d96e5be85459525b4970cd",
+      "lines": {
+        "93": "        opt.addEscherProperty( new EscherShapePathProperty( EscherProperties.GEOMETRY__SHAPEPATH, EscherShapePathProperty.COMPLEX ) );",
+        "94": "        opt.addEscherProperty( new EscherBoolProperty( EscherProperties.LINESTYLE__NOLINEDRAWDASH, 1048592 ) );"
+      },
+      "id": 15642361,
+      "filename": "LineShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 192,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642364/",
+      "md5hash": "caf9b32bdd1d6052248a6d5f8cf5c345",
+      "lines": {
+        "122": "        opt.setRecordId( EscherOptRecord.RECORD_ID );",
+        "123": "        //        opt.addEscherProperty( new EscherBoolProperty( EscherProperties.PROTECTION__LOCKAGAINSTGROUPING, 262144 ) );"
+      },
+      "id": 15642364,
+      "filename": "TextboxShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 128,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642603/",
+      "md5hash": "f08eee159fce1bf0383031b466b1ae4f",
+      "lines": {
+        "81": "            if ( propertyType == EscherPropertyMetaData.TYPE_BOOLEAN )",
+        "82": "                results.add( new EscherBoolProperty( propId, propData ) );"
+      },
+      "id": 15642603,
+      "filename": "EscherPropertyFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 9,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

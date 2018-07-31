@@ -1,0 +1,101 @@
+{
+  "matchterm": "BarRecord",
+  "previouspage": null,
+  "searchterm": "BarRecord",
+  "query": "BarRecord",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "git://github.com/apache/avro.git",
+      "language": "Java",
+      "linescount": 52,
+      "location": "/lang/java/avro/src/test/java/org/apache/avro",
+      "name": "avro",
+      "url": "https://searchcode.com/codesearch/view/3808385/",
+      "md5hash": "6f33b5ebb0dc9fda918df25077b8cec7",
+      "lines": {
+        "32": "    if (that instanceof BarRecord) {",
+        "33": "      if (this.beerMsg == null) {",
+        "34": "        return ((BarRecord) that).beerMsg == null;",
+        "35": "      } else {",
+        "36": "        return this.beerMsg.equals(((BarRecord) that).beerMsg);",
+        "48": "  public String toString() {",
+        "49": "    return BarRecord.class.getSimpleName() + \"{msg=\" + beerMsg + \"}\";",
+        "19": "",
+        "20": "public class BarRecord {",
+        "22": "",
+        "23": "  public BarRecord() {",
+        "25": "",
+        "26": "  public BarRecord(String beerMsg) {",
+        "31": "  public boolean equals(Object that) {"
+      },
+      "id": 3808385,
+      "filename": "BarRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 296,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642489/",
+      "md5hash": "69234ab0f89a1423014b59939498f118",
+      "lines": {
+        "67": "",
+        "68": "    public BarRecord()",
+        "158": "    public Object clone() {",
+        "54": " */",
+        "55": "public class BarRecord",
+        "159": "        BarRecord rec = new BarRecord();",
+        "78": "",
+        "79": "    public BarRecord(RecordInputStream in)"
+      },
+      "id": 15642489,
+      "filename": "BarRecord.java"
+    },
+    {
+      "repo": "git://github.com/apache/avro.git",
+      "language": "Java",
+      "linescount": 186,
+      "location": "/lang/java/avro/src/test/java/org/apache/avro",
+      "name": "avro",
+      "url": "https://searchcode.com/codesearch/view/3808381/",
+      "md5hash": "33e7241183270c6dc9cc2f67c4d37adf",
+      "lines": {
+        "91": "    CheckList<BarRecord> check = new CheckList<BarRecord>();",
+        "92": "    write(writer, new BarRecord(\"One beer please\"), check);",
+        "93": "    // null record here, fails when using the default reflectData instance",
+        "52": "        reflectData.getSchema(FooRecord.class),",
+        "53": "        reflectData.getSchema(BarRecord.class) });",
+        "86": "    DataFileWriter<BarRecord> writer = new DataFileWriter<BarRecord>",
+        "87": "      (new ReflectDatumWriter<BarRecord>(BarRecord.class, reflectData))",
+        "88": "      .create(schema, fos);",
+        "84": "    ReflectData reflectData = ReflectData.AllowNull.get();",
+        "90": "    // test writing to a file",
+        "63": "    write(writer, new BarRecord(\"Two beers please\"), check);",
+        "60": "    CheckList<Object> check = new CheckList<Object>();",
+        "61": "    write(writer, new BarRecord(\"One beer please\"), check);",
+        "62": "    write(writer, new FooRecord(10), check);",
+        "85": "    Schema schema = reflectData.getSchema(BarRecord.class);"
+      },
+      "id": 3808381,
+      "filename": "TestDataFileReflect.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "matchterm": "PointerContainingStream",
+  "previouspage": null,
+  "searchterm": "PointerContainingStream",
+  "query": "PointerContainingStream",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 124,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hdgf/dev",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97396300/",
+      "md5hash": "f08b2eea782e030096ccaf8367f64ad3",
+      "lines": {
+        "27": "import org.apache.poi.hdgf.streams.PointerContainingStream;",
+        "26": "import org.apache.poi.hdgf.streams.ChunkStream;",
+        "91": "",
+        "92": "\t\tif(stream instanceof PointerContainingStream) {",
+        "93": "\t\t\tPointerContainingStream pcs = (PointerContainingStream)stream;",
+        "94": "\t\t\tSystem.out.println(ind + \"  Has \" +"
+      },
+      "id": 97396300,
+      "filename": "VSDDumper.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 103,
+      "location": "/ppt/scratchpad/testcases/org/apache/poi/hdgf/streams",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97397248/",
+      "md5hash": "3eb320077de8a4bc1854a83f8ac115d8",
+      "lines": {
+        "88": "\t\t\t\tStream.createStream(ptrs[i], contents, chunkFactory, ptrFactory);",
+        "89": "\t\t\tif(stream instanceof PointerContainingStream) {",
+        "90": "\t\t\t\tPointerContainingStream pStream =",
+        "91": "\t\t\t\t\t(PointerContainingStream)stream;",
+        "92": "\t\t\t\tpStream.findChildren(contents);"
+      },
+      "id": 97397248,
+      "filename": "TestStreamBugs.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

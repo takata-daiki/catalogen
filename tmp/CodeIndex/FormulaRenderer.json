@@ -1,0 +1,422 @@
+{
+  "matchterm": "FormulaRenderer",
+  "previouspage": null,
+  "searchterm": "FormulaRenderer",
+  "query": "FormulaRenderer",
+  "language_filters": [
+    {
+      "count": 41,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 41,
+  "results": [
+    {
+      "repo": "https://github.com/pulasthi/xwiki-platform.git",
+      "language": "Java",
+      "linescount": 201,
+      "location": "/xwiki-platform-core/xwiki-platform-formula/xwiki-platform-formula-renderer/src/main/java/org/xwiki/formula",
+      "name": "xwiki-platform",
+      "url": "https://searchcode.com/codesearch/view/113988335/",
+      "md5hash": "bf1e3f78b9110dbf20ab08073e3c2a13",
+      "lines": {
+        "32": "@ComponentRole",
+        "33": "public interface FormulaRenderer"
+      },
+      "id": 113988335,
+      "filename": "FormulaRenderer.java"
+    },
+    {
+      "repo": "https://github.com/pulasthi/xwiki-platform.git",
+      "language": "Java",
+      "linescount": 176,
+      "location": "/xwiki-platform-core/xwiki-platform-formula/xwiki-platform-formula-macro/src/main/java/org/xwiki/rendering/internal/macro/formula",
+      "name": "xwiki-platform",
+      "url": "https://searchcode.com/codesearch/view/113988311/",
+      "md5hash": "3b2d46d1b859765d552290915c350e06",
+      "lines": {
+        "33": "import org.xwiki.component.manager.ComponentManager;",
+        "34": "import org.xwiki.formula.FormulaRenderer;",
+        "35": "import org.xwiki.formula.FormulaRenderer.FontSize;",
+        "36": "import org.xwiki.formula.FormulaRenderer.Type;",
+        "37": "import org.xwiki.rendering.block.Block;",
+        "152": "        try {",
+        "153": "            FormulaRenderer renderer = this.manager.lookup(FormulaRenderer.class, rendererHint);"
+      },
+      "id": 113988311,
+      "filename": "FormulaMacro.java"
+    },
+    {
+      "repo": "https://github.com/pulasthi/xwiki-platform.git",
+      "language": "Java",
+      "linescount": 140,
+      "location": "/xwiki-platform-core/xwiki-platform-formula/xwiki-platform-formula-renderer/src/main/java/org/xwiki/formula",
+      "name": "xwiki-platform",
+      "url": "https://searchcode.com/codesearch/view/113988330/",
+      "md5hash": "e1430c6f99d1c1b1b9a2e7673312ca6a",
+      "lines": {
+        "49": "     * ",
+        "50": "     * @see FormulaRenderer#process(String, boolean, FontSize, Type)",
+        "67": "     * @see FormulaRenderer#getImage(String)",
+        "37": " */",
+        "38": "public abstract class AbstractFormulaRenderer implements FormulaRenderer",
+        "40": "    /** Logging helper object. */",
+        "41": "    private static final Log LOG = LogFactory.getLog(AbstractFormulaRenderer.class);",
+        "66": "     * ",
+        "30": "/**",
+        "31": " * Base class for all implementations of the {@link FormulaRenderer} component. Provides all the common functionalities"
+      },
+      "id": 113988330,
+      "filename": "AbstractFormulaRenderer.java"
+    },
+    {
+      "repo": "https://github.com/pulasthi/xwiki-platform.git",
+      "language": "Java",
+      "linescount": 90,
+      "location": "/xwiki-platform-core/xwiki-platform-formula/xwiki-platform-formula-renderer/src/main/java/org/xwiki/formula/internal",
+      "name": "xwiki-platform",
+      "url": "https://searchcode.com/codesearch/view/113988343/",
+      "md5hash": "636c76caa36ec072bff8e2d94ada4778",
+      "lines": {
+        "32": "import org.xwiki.formula.FormulaRenderer;",
+        "33": "import org.xwiki.formula.ImageData;",
+        "35": "/**",
+        "36": " * Implementation of the {@link FormulaRenderer} component, which uses the <a",
+        "69": "    @Override",
+        "70": "    protected ImageData renderImage(String formula, boolean inline, FormulaRenderer.FontSize size,",
+        "71": "        FormulaRenderer.Type type) throws IllegalArgumentException, IOException",
+        "72": "    {",
+        "49": "@Component(\"mathtran\")",
+        "50": "public final class MathTranFormulaRenderer extends AbstractFormulaRenderer implements Initializable",
+        "30": "import org.xwiki.component.phase.InitializationException;",
+        "31": "import org.xwiki.formula.AbstractFormulaRenderer;"
+      },
+      "id": 113988343,
+      "filename": "MathTranFormulaRenderer.java"
+    },
+    {
+      "repo": "https://github.com/pulasthi/xwiki-platform.git",
+      "language": "Java",
+      "linescount": 89,
+      "location": "/xwiki-platform-core/xwiki-platform-formula/xwiki-platform-formula-renderer/src/main/java/org/xwiki/formula/internal",
+      "name": "xwiki-platform",
+      "url": "https://searchcode.com/codesearch/view/113988347/",
+      "md5hash": "e262c8a20b5c8f0709377570d61508a1",
+      "lines": {
+        "32": "import org.xwiki.formula.FormulaRenderer;",
+        "33": "import org.xwiki.formula.ImageData;",
+        "35": "/**",
+        "36": " * Implementation of the {@link FormulaRenderer} component, which uses the <a",
+        "69": "    @Override",
+        "70": "    protected ImageData renderImage(String formula, boolean inline, FormulaRenderer.FontSize size,",
+        "71": "        FormulaRenderer.Type type) throws IllegalArgumentException, IOException",
+        "72": "    {",
+        "48": "@Component(\"googlecharts\")",
+        "49": "public final class GoogleChartsFormulaRenderer extends AbstractFormulaRenderer implements Initializable",
+        "30": "import org.xwiki.component.phase.InitializationException;",
+        "31": "import org.xwiki.formula.AbstractFormulaRenderer;"
+      },
+      "id": 113988347,
+      "filename": "GoogleChartsFormulaRenderer.java"
+    },
+    {
+      "repo": "https://github.com/pulasthi/xwiki-platform.git",
+      "language": "Java",
+      "linescount": 145,
+      "location": "/xwiki-platform-core/xwiki-platform-formula/xwiki-platform-formula-renderer/src/main/java/org/xwiki/formula/internal",
+      "name": "xwiki-platform",
+      "url": "https://searchcode.com/codesearch/view/113988357/",
+      "md5hash": "06719fcfc051dbac2fd8ffaa8d958def",
+      "lines": {
+        "32": "import org.xwiki.formula.FormulaRenderer;",
+        "33": "import org.xwiki.formula.ImageData;",
+        "66": "        FormulaRenderer.Type type) throws IllegalArgumentException, IOException",
+        "67": "    {",
+        "65": "    protected ImageData renderImage(String formula, boolean inline, FormulaRenderer.FontSize size,",
+        "64": "    @Override",
+        "42": "/**",
+        "43": " * Implementation of the {@link FormulaRenderer} component, which uses <a",
+        "52": "@Component(\"snuggletex\")",
+        "53": "public final class SnuggleTexFormulaRenderer extends AbstractFormulaRenderer",
+        "55": "    /** Logging helper object. */",
+        "56": "    private static final Log LOG = LogFactory.getLog(SnuggleTexFormulaRenderer.class);",
+        "30": "import org.xwiki.component.annotation.Component;",
+        "31": "import org.xwiki.formula.AbstractFormulaRenderer;"
+      },
+      "id": 113988357,
+      "filename": "SnuggleTexFormulaRenderer.java"
+    },
+    {
+      "repo": "https://github.com/pulasthi/xwiki-platform.git",
+      "language": "Java",
+      "linescount": 157,
+      "location": "/xwiki-platform-core/xwiki-platform-formula/xwiki-platform-formula-renderer/src/main/java/org/xwiki/formula/internal",
+      "name": "xwiki-platform",
+      "url": "https://searchcode.com/codesearch/view/113988360/",
+      "md5hash": "f201d67017bf1b0c9f154622e1999983",
+      "lines": {
+        "39": "import org.xwiki.container.Container;",
+        "40": "import org.xwiki.formula.AbstractFormulaRenderer;",
+        "41": "import org.xwiki.formula.FormulaRenderer;",
+        "42": "import org.xwiki.formula.ImageData;",
+        "44": "/**",
+        "45": " * Implementation of the {@link FormulaRenderer} component, which uses console commands to build a formula image. Best",
+        "84": "    @Override",
+        "85": "    protected ImageData renderImage(String formula, boolean inline, FormulaRenderer.FontSize size,",
+        "86": "        FormulaRenderer.Type type) throws IllegalArgumentException, IOException",
+        "87": "    {",
+        "59": "@Component(\"native\")",
+        "60": "public class NativeFormulaRenderer extends AbstractFormulaRenderer implements Initializable",
+        "62": "    /** Logging helper object. */",
+        "63": "    private static final Log LOG = LogFactory.getLog(NativeFormulaRenderer.class);"
+      },
+      "id": 113988360,
+      "filename": "NativeFormulaRenderer.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 5111,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970697/",
+      "md5hash": "f6740268ba4be4778508748ca1c3becc",
+      "lines": {
+        "64": "import org.zkoss.poi.ss.formula.FormulaParsingWorkbook;",
+        "65": "import org.zkoss.poi.ss.formula.FormulaRenderer;",
+        "1122": "        Ptg[] ptgs = FormulaParser.parse(formula, fpb, FormulaType.CELL, sheetIndex);",
+        "1123": "        return FormulaRenderer.toFormulaString(fpb, ptgs);",
+        "1813": "        XSSFEvaluationWorkbook fpb = XSSFEvaluationWorkbook.create(book);",
+        "1814": "        final String formula = FormulaRenderer.toFormulaString(fpb, ptgs);",
+        "2444": "        if (shifter.adjustFormula(ptgs, sheetIndex)) {",
+        "2445": "            shiftedFmla = FormulaRenderer.toFormulaString(fpb, ptgs);"
+      },
+      "id": 3970697,
+      "filename": "BookHelper.java"
+    },
+    {
+      "repo": "https://github.com/pulasthi/xwiki-platform.git",
+      "language": "Java",
+      "linescount": 74,
+      "location": "/xwiki-platform-core/xwiki-platform-formula/xwiki-platform-formula-macro/src/main/java/org/xwiki/rendering/macro/formula",
+      "name": "xwiki-platform",
+      "url": "https://searchcode.com/codesearch/view/113988303/",
+      "md5hash": "7fb0b38c0b084f1c13adf88994ed6459",
+      "lines": {
+        "24": "import org.xwiki.properties.annotation.PropertyDescription;",
+        "21": "",
+        "22": "import org.xwiki.formula.FormulaRenderer.FontSize;",
+        "23": "import org.xwiki.formula.FormulaRenderer.Type;"
+      },
+      "id": 113988303,
+      "filename": "FormulaMacroParameters.java"
+    },
+    {
+      "repo": "https://github.com/pulasthi/xwiki-platform.git",
+      "language": "Java",
+      "linescount": 54,
+      "location": "/xwiki-platform-core/xwiki-platform-formula/xwiki-platform-formula-macro/src/main/java/org/xwiki/rendering/macro/formula",
+      "name": "xwiki-platform",
+      "url": "https://searchcode.com/codesearch/view/113988307/",
+      "md5hash": "340c05621e82bb181fd7dd803d405f88",
+      "lines": {
+        "46": "     * The hint of {@link org.xwiki.formula.FormulaRenderer} component implementation that is considered to be \"safe\",",
+        "37": "    /**",
+        "38": "     * The hint of the {@link org.xwiki.formula.FormulaRenderer} component implementation to use for rendering math",
+        "45": "    /**"
+      },
+      "id": 113988307,
+      "filename": "FormulaMacroConfiguration.java"
+    },
+    {
+      "repo": "https://bitbucket.org/manticoretrader/etltools",
+      "language": "Java",
+      "linescount": 297,
+      "location": "/src/com/manticore/report",
+      "name": "etltools",
+      "url": "https://searchcode.com/codesearch/view/121321570/",
+      "md5hash": "7585d5862f58929ffd0917b3367eea3f",
+      "lines": {
+        "291": "\t\t\tnewFormula = FormulaRenderer.toFormulaString(renderingWorkbook, ptgs);",
+        "290": "\t\t\t}",
+        "131": "\t\t\t\t\t\t\t\t}",
+        "132": "\t\t\t\t\t\t\t\tString newFormula = FormulaRenderer.toFormulaString(renderingWorkbook, ptgs);"
+      },
+      "id": 121321570,
+      "filename": "ExcelTools.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 170,
+      "location": "/zsstest/src/org/zkoss/poi/ss/usermodel",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969766/",
+      "md5hash": "1285d6b49ee4d1f991bde3c722740ced",
+      "lines": {
+        "166": "\t\tfinal String formula = FormulaRenderer.toFormulaString(evalbook, ptgs);",
+        "29": "import org.zkoss.poi.ss.formula.EvaluationCell;",
+        "30": "import org.zkoss.poi.ss.formula.FormulaRenderer;",
+        "165": "\t\tPtg[] ptgs = BookHelper.getCellPtgs(cell);"
+      },
+      "id": 3969766,
+      "filename": "Book1XlsFormulaEvaluatorTest.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/zsstest/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969770/",
+      "md5hash": "3c9e2c04fbe50eb85aaa5a98d0e9c4c1",
+      "lines": {
+        "19": "import org.zkoss.poi.hssf.usermodel.HSSFWorkbook;",
+        "20": "import org.zkoss.poi.ss.formula.FormulaRenderer;",
+        "142": "\t\tPtg[] ptgs = BookHelper.getCellPtgs(cell);",
+        "143": "\t\tfinal String formula = FormulaRenderer.toFormulaString(evalbook, ptgs);"
+      },
+      "id": 3969770,
+      "filename": "Book10XlsxHyperlinkTest.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 183,
+      "location": "/zsstest/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969772/",
+      "md5hash": "a2ea1de9cea578566e9d9581695a736d",
+      "lines": {
+        "178": "\t\tPtg[] ptgs = BookHelper.getCellPtgs(cell);",
+        "19": "import org.zkoss.poi.hssf.usermodel.HSSFWorkbook;",
+        "20": "import org.zkoss.poi.ss.formula.FormulaRenderer;",
+        "179": "\t\tfinal String formula = FormulaRenderer.toFormulaString(evalbook, ptgs);"
+      },
+      "id": 3969772,
+      "filename": "Book11XlsMergeTest.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 340,
+      "location": "/zsstest/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969773/",
+      "md5hash": "0648872e5d5235e3f7c51691990db533",
+      "lines": {
+        "336": "\t\tfinal String formula = FormulaRenderer.toFormulaString(evalbook, ptgs);",
+        "18": "import org.zkoss.poi.hssf.usermodel.HSSFWorkbook;",
+        "19": "import org.zkoss.poi.ss.formula.FormulaRenderer;",
+        "335": "\t\tPtg[] ptgs = BookHelper.getCellPtgs(cell);"
+      },
+      "id": 3969773,
+      "filename": "Book05XlsxDeleteRowsTest.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 354,
+      "location": "/zsstest/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969774/",
+      "md5hash": "19974ebb655be722c9fab99266c72bc5",
+      "lines": {
+        "18": "import org.zkoss.poi.hssf.util.HSSFColor;",
+        "19": "import org.zkoss.poi.ss.formula.FormulaRenderer;",
+        "349": "\t\tPtg[] ptgs = BookHelper.getCellPtgs(cell);",
+        "350": "\t\tfinal String formula = FormulaRenderer.toFormulaString(evalbook, ptgs);"
+      },
+      "id": 3969774,
+      "filename": "Book06XlsxInsertColumnsTest.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 293,
+      "location": "/zsstest/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969775/",
+      "md5hash": "51f8cf6f2da9e2bef1178c7aadda815f",
+      "lines": {
+        "288": "\t\tPtg[] ptgs = BookHelper.getCellPtgs(cell);",
+        "289": "\t\tfinal String formula = FormulaRenderer.toFormulaString(evalbook, ptgs);",
+        "19": "import org.zkoss.poi.hssf.usermodel.HSSFWorkbook;",
+        "20": "import org.zkoss.poi.ss.formula.FormulaRenderer;"
+      },
+      "id": 3969775,
+      "filename": "Book09XlsxSortTest.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 291,
+      "location": "/zsstest/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969777/",
+      "md5hash": "2fb1cfab7fd2f98d783a64c26f26c231",
+      "lines": {
+        "19": "import org.zkoss.poi.hssf.usermodel.HSSFWorkbook;",
+        "20": "import org.zkoss.poi.ss.formula.FormulaRenderer;",
+        "286": "\t\tPtg[] ptgs = BookHelper.getCellPtgs(cell);",
+        "287": "\t\tfinal String formula = FormulaRenderer.toFormulaString(evalbook, ptgs);"
+      },
+      "id": 3969777,
+      "filename": "Book09XlsSortTest.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 213,
+      "location": "/zsstest/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969779/",
+      "md5hash": "9597e03f4028cf7153126b902852036f",
+      "lines": {
+        "208": "\t\tPtg[] ptgs = BookHelper.getCellPtgs(cell);",
+        "209": "\t\tfinal String formula = FormulaRenderer.toFormulaString(evalbook, ptgs);",
+        "18": "import org.zkoss.poi.hssf.usermodel.HSSFWorkbook;",
+        "19": "import org.zkoss.poi.ss.formula.FormulaRenderer;"
+      },
+      "id": 3969779,
+      "filename": "Book08XlsxCopyTest.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 343,
+      "location": "/zsstest/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969784/",
+      "md5hash": "1d06a734720ad7859d28fa88c8944704",
+      "lines": {
+        "338": "\t\tPtg[] ptgs = BookHelper.getCellPtgs(cell);",
+        "339": "\t\tfinal String formula = FormulaRenderer.toFormulaString(evalbook, ptgs);",
+        "20": "import org.zkoss.poi.hssf.util.HSSFColor;",
+        "21": "import org.zkoss.poi.ss.formula.FormulaRenderer;"
+      },
+      "id": 3969784,
+      "filename": "Book06XlsInsertColumnsTest.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 29,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 11,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

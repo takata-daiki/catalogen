@@ -1,0 +1,407 @@
+{
+  "matchterm": "HSSFHeader",
+  "previouspage": null,
+  "searchterm": "HSSFHeader",
+  "query": "HSSFHeader",
+  "language_filters": [
+    {
+      "count": 38,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 38,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 320,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642332/",
+      "md5hash": "a40350ae7145c843f3d207491b4edb7d",
+      "lines": {
+        "48": " * be more that 255 bytes long.  One uses this class by getting the HSSFHeader",
+        "69": "     */",
+        "70": "    protected HSSFHeader( HeaderRecord headerRecord )",
+        "56": " */",
+        "57": "public class HSSFHeader",
+        "47": " * The header works by having a left, center, and right side.  The total cannot"
+      },
+      "id": 15642332,
+      "filename": "HSSFHeader.java"
+    },
+    {
+      "repo": "https://bitbucket.org/emmie/adempiere-patches",
+      "language": "Java",
+      "linescount": 473,
+      "location": "/base/src/org/adempiere/impexp",
+      "name": "adempiere-patches",
+      "url": "https://searchcode.com/codesearch/view/102528302/",
+      "md5hash": "ff85ab83dce319bf411596c3e566349d",
+      "lines": {
+        "330": "\t\t// Sheet Header",
+        "331": "\t\tHSSFHeader header = sheet.getHeader();",
+        "332": "\t\theader.setRight(HSSFHeader.page()+ \" / \"+HSSFHeader.numPages());",
+        "333": "\t\t// Sheet Footer",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
+      },
+      "id": 102528302,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ctron/org.openscada.orilla.git",
+      "language": "Java",
+      "linescount": 334,
+      "location": "/org.openscada.ae.ui.views.export.excel/src/org/openscada/ae/ui/views/export/excel/impl",
+      "name": "org.openscada.orilla",
+      "url": "https://searchcode.com/codesearch/view/122444114/",
+      "md5hash": "e281103aee607d2e4060b4cc78a4ed02",
+      "lines": {
+        "272": "",
+        "273": "        final HSSFHeader header = sheet.getHeader ();",
+        "37": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "38": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
+      },
+      "id": 122444114,
+      "filename": "ExportEventsImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/edwin_ang/idempiere-mbd",
+      "language": "Java",
+      "linescount": 503,
+      "location": "/org.adempiere.base/src/org/adempiere/impexp",
+      "name": "idempiere-mbd",
+      "url": "https://searchcode.com/codesearch/view/59777594/",
+      "md5hash": "8e9a27ad157d0e20ab643ffb8c5b9d30",
+      "lines": {
+        "336": "\t\theader.setRight(HSSFHeader.page()+ \" / \"+HSSFHeader.numPages());",
+        "337": "\t\t// Sheet Footer",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;",
+        "334": "\t\t// Sheet Header",
+        "335": "\t\tHSSFHeader header = sheet.getHeader();"
+      },
+      "id": 59777594,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/siberium/siberium-ierp",
+      "language": "Java",
+      "linescount": 503,
+      "location": "/org.adempiere.base/src/org/adempiere/impexp",
+      "name": "siberium-ierp",
+      "url": "https://searchcode.com/codesearch/view/61401276/",
+      "md5hash": "8e9a27ad157d0e20ab643ffb8c5b9d30",
+      "lines": {
+        "336": "\t\theader.setRight(HSSFHeader.page()+ \" / \"+HSSFHeader.numPages());",
+        "337": "\t\t// Sheet Footer",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;",
+        "334": "\t\t// Sheet Header",
+        "335": "\t\tHSSFHeader header = sheet.getHeader();"
+      },
+      "id": 61401276,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/javier_p_villamizar/idempiere",
+      "language": "Java",
+      "linescount": 505,
+      "location": "/org.adempiere.base/src/org/adempiere/impexp",
+      "name": "idempiere",
+      "url": "https://searchcode.com/codesearch/view/62551719/",
+      "md5hash": "c7cf1ef5bae5431604ffae8de1305e3f",
+      "lines": {
+        "336": "\t\t// Sheet Header",
+        "337": "\t\tHSSFHeader header = sheet.getHeader();",
+        "338": "\t\theader.setRight(HSSFHeader.page()+ \" / \"+HSSFHeader.numPages());",
+        "339": "\t\t// Sheet Footer",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
+      },
+      "id": 62551719,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tbayen/idempiere",
+      "language": "Java",
+      "linescount": 503,
+      "location": "/org.adempiere.base/src/org/adempiere/impexp",
+      "name": "idempiere",
+      "url": "https://searchcode.com/codesearch/view/62628992/",
+      "md5hash": "8e9a27ad157d0e20ab643ffb8c5b9d30",
+      "lines": {
+        "336": "\t\theader.setRight(HSSFHeader.page()+ \" / \"+HSSFHeader.numPages());",
+        "337": "\t\t// Sheet Footer",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;",
+        "334": "\t\t// Sheet Header",
+        "335": "\t\tHSSFHeader header = sheet.getHeader();"
+      },
+      "id": 62628992,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/sphiphatchamikorn/adempiere361",
+      "language": "Java",
+      "linescount": 474,
+      "location": "/base/src/org/adempiere/impexp",
+      "name": "adempiere361",
+      "url": "https://searchcode.com/codesearch/view/63385794/",
+      "md5hash": "4e80b12708a60a947d9b7c23cd66ba00",
+      "lines": {
+        "330": "\t\t// Sheet Header",
+        "331": "\t\tHSSFHeader header = sheet.getHeader();",
+        "332": "\t\theader.setRight(HSSFHeader.page()+ \" / \"+HSSFHeader.numPages());",
+        "333": "\t\t// Sheet Footer",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
+      },
+      "id": 63385794,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/sthamthum/adempiere361",
+      "language": "Java",
+      "linescount": 474,
+      "location": "/base/src/org/adempiere/impexp",
+      "name": "adempiere361",
+      "url": "https://searchcode.com/codesearch/view/63585397/",
+      "md5hash": "4e80b12708a60a947d9b7c23cd66ba00",
+      "lines": {
+        "330": "\t\t// Sheet Header",
+        "331": "\t\tHSSFHeader header = sheet.getHeader();",
+        "332": "\t\theader.setRight(HSSFHeader.page()+ \" / \"+HSSFHeader.numPages());",
+        "333": "\t\t// Sheet Footer",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
+      },
+      "id": 63585397,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/zeed23/adempiere361",
+      "language": "Java",
+      "linescount": 474,
+      "location": "/base/src/org/adempiere/impexp",
+      "name": "adempiere361",
+      "url": "https://searchcode.com/codesearch/view/63687137/",
+      "md5hash": "4e80b12708a60a947d9b7c23cd66ba00",
+      "lines": {
+        "330": "\t\t// Sheet Header",
+        "331": "\t\tHSSFHeader header = sheet.getHeader();",
+        "332": "\t\theader.setRight(HSSFHeader.page()+ \" / \"+HSSFHeader.numPages());",
+        "333": "\t\t// Sheet Footer",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
+      },
+      "id": 63687137,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/interactivemediamanagement/converge-1.x.git",
+      "language": "Java",
+      "linescount": 1077,
+      "location": "/converge-server/modules/converge-ejb/src/main/java/dk/i2m/converge/ejb/facades",
+      "name": "converge-1.x",
+      "url": "https://searchcode.com/codesearch/view/39694394/",
+      "md5hash": "d9af8e2661b4e99851cb162b3e56d220",
+      "lines": {
+        "520": "        HSSFHeader sheetHeader = overviewSheet.getHeader();",
+        "51": "import org.apache.commons.lang.StringUtils;",
+        "52": "import org.apache.poi.hssf.usermodel.HSSFHeader;",
+        "519": "        // Create sheet header"
+      },
+      "id": 39694394,
+      "filename": "SearchEngineBean.java"
+    },
+    {
+      "repo": "https://bitbucket.org/interactivemediamanagement/converge-1.x.git",
+      "language": "Java",
+      "linescount": 579,
+      "location": "/converge-server/modules/converge-ejb/src/main/java/dk/i2m/converge/ejb/facades",
+      "name": "converge-1.x",
+      "url": "https://searchcode.com/codesearch/view/39694405/",
+      "md5hash": "9eafb587d0bcf654e9f47cb18a4174fa",
+      "lines": {
+        "492": "        // Create sheet header",
+        "51": "import javax.xml.bind.Unmarshaller;",
+        "52": "import org.apache.poi.hssf.usermodel.HSSFHeader;",
+        "493": "        HSSFHeader sheetHeader = overviewSheet.getHeader();"
+      },
+      "id": 39694405,
+      "filename": "MetaDataFacadeBean.java"
+    },
+    {
+      "repo": "https://bitbucket.org/idempiere/idempiere/",
+      "language": "Java",
+      "linescount": 520,
+      "location": "/org.adempiere.base/src/org/adempiere/impexp",
+      "name": "idempiere",
+      "url": "https://searchcode.com/codesearch/view/3305415/",
+      "md5hash": "d6924b664322bba95c11159dbf946846",
+      "lines": {
+        "336": "\t\t// Sheet Header",
+        "337": "\t\tHSSFHeader header = sheet.getHeader();",
+        "338": "\t\theader.setRight(HSSFHeader.page()+ \" / \"+HSSFHeader.numPages());",
+        "339": "\t\t// Sheet Footer",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
+      },
+      "id": 3305415,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tspc/adempiere361/",
+      "language": "Java",
+      "linescount": 474,
+      "location": "/base/src/org/adempiere/impexp",
+      "name": "adempiere361",
+      "url": "https://searchcode.com/codesearch/view/8373941/",
+      "md5hash": "4e80b12708a60a947d9b7c23cd66ba00",
+      "lines": {
+        "330": "\t\t// Sheet Header",
+        "331": "\t\tHSSFHeader header = sheet.getHeader();",
+        "332": "\t\theader.setRight(HSSFHeader.page()+ \" / \"+HSSFHeader.numPages());",
+        "333": "\t\t// Sheet Footer",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
+      },
+      "id": 8373941,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1607,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642322/",
+      "md5hash": "5084cc24e46752bd3911d5d0a983e0a6",
+      "lines": {
+        "856": "        return new HSSFHeader( getSheet().getHeader() );",
+        "853": "     */",
+        "854": "    public HSSFHeader getHeader()",
+        "855": "    {"
+      },
+      "id": 15642322,
+      "filename": "HSSFSheet.java"
+    },
+    {
+      "repo": "https://bitbucket.org/hengsin/idempiere-hengsin",
+      "language": "Java",
+      "linescount": 505,
+      "location": "/org.adempiere.base/src/org/adempiere/impexp",
+      "name": "idempiere-hengsin",
+      "url": "https://searchcode.com/codesearch/view/125664761/",
+      "md5hash": "c7cf1ef5bae5431604ffae8de1305e3f",
+      "lines": {
+        "336": "\t\t// Sheet Header",
+        "337": "\t\tHSSFHeader header = sheet.getHeader();",
+        "338": "\t\theader.setRight(HSSFHeader.page()+ \" / \"+HSSFHeader.numPages());",
+        "339": "\t\t// Sheet Footer",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
+      },
+      "id": 125664761,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/mdlibunao/idempiere",
+      "language": "Java",
+      "linescount": 505,
+      "location": "/org.adempiere.base/src/org/adempiere/impexp",
+      "name": "idempiere",
+      "url": "https://searchcode.com/codesearch/view/126228263/",
+      "md5hash": "c7cf1ef5bae5431604ffae8de1305e3f",
+      "lines": {
+        "336": "\t\t// Sheet Header",
+        "337": "\t\tHSSFHeader header = sheet.getHeader();",
+        "338": "\t\theader.setRight(HSSFHeader.page()+ \" / \"+HSSFHeader.numPages());",
+        "339": "\t\t// Sheet Footer",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
+      },
+      "id": 126228263,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tbayen/adempiere361-tb",
+      "language": "Java",
+      "linescount": 474,
+      "location": "/base/src/org/adempiere/impexp",
+      "name": "adempiere361-tb",
+      "url": "https://searchcode.com/codesearch/view/127474998/",
+      "md5hash": "4e80b12708a60a947d9b7c23cd66ba00",
+      "lines": {
+        "330": "\t\t// Sheet Header",
+        "331": "\t\tHSSFHeader header = sheet.getHeader();",
+        "332": "\t\theader.setRight(HSSFHeader.page()+ \" / \"+HSSFHeader.numPages());",
+        "333": "\t\t// Sheet Footer",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
+      },
+      "id": 127474998,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nmicoud/adempiere361-nm",
+      "language": "Java",
+      "linescount": 474,
+      "location": "/base/src/org/adempiere/impexp",
+      "name": "adempiere361-nm",
+      "url": "https://searchcode.com/codesearch/view/127623755/",
+      "md5hash": "4e80b12708a60a947d9b7c23cd66ba00",
+      "lines": {
+        "330": "\t\t// Sheet Header",
+        "331": "\t\tHSSFHeader header = sheet.getHeader();",
+        "332": "\t\theader.setRight(HSSFHeader.page()+ \" / \"+HSSFHeader.numPages());",
+        "333": "\t\t// Sheet Footer",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
+      },
+      "id": 127623755,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/petershen/idempiere",
+      "language": "Java",
+      "linescount": 505,
+      "location": "/org.adempiere.base/src/org/adempiere/impexp",
+      "name": "idempiere",
+      "url": "https://searchcode.com/codesearch/view/128658872/",
+      "md5hash": "c7cf1ef5bae5431604ffae8de1305e3f",
+      "lines": {
+        "336": "\t\t// Sheet Header",
+        "337": "\t\tHSSFHeader header = sheet.getHeader();",
+        "338": "\t\theader.setRight(HSSFHeader.page()+ \" / \"+HSSFHeader.numPages());",
+        "339": "\t\t// Sheet Footer",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
+      },
+      "id": 128658872,
+      "filename": "AbstractExcelExporter.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 35,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

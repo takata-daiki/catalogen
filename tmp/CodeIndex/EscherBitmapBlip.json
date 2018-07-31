@@ -1,0 +1,150 @@
+{
+  "matchterm": "EscherBitmapBlip",
+  "previouspage": null,
+  "searchterm": "EscherBitmapBlip",
+  "query": "EscherBitmapBlip",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 140,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383913/",
+      "md5hash": "343ae46afd1b444d81fe9533f49df4c4",
+      "lines": {
+        "27": " */",
+        "28": "public class EscherBitmapBlip extends EscherBlipRecord {"
+      },
+      "id": 97383913,
+      "filename": "EscherBitmapBlip.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 169,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642617/",
+      "md5hash": "fb62ed16aaeadc31eaf5e821bd5d40fe",
+      "lines": {
+        "48": " * @author Glen Stampoultzis",
+        "49": " * @version $Id: EscherBitmapBlip.java 569827 2007-08-26 15:26:29Z yegor $",
+        "50": " */",
+        "51": "public class EscherBitmapBlip"
+      },
+      "id": 15642617,
+      "filename": "EscherBitmapBlip.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 595,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785559/",
+      "md5hash": "6b55090236799f49ee0f5bd7d54bbbac",
+      "lines": {
+        "549": "                       break;",
+        "550": "                    case EscherBitmapBlip.RECORD_ID_PNG:",
+        "552": "                       break;",
+        "553": "                    case EscherBitmapBlip.RECORD_ID_JPEG:",
+        "555": "                       break;",
+        "556": "                    case EscherBitmapBlip.RECORD_ID_DIB:",
+        "30": "import org.apache.poi.ddf.EscherBSERecord;",
+        "31": "import org.apache.poi.ddf.EscherBitmapBlip;"
+      },
+      "id": 111785559,
+      "filename": "ExcelExtractor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 161,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383906/",
+      "md5hash": "3324931c58f18c045e9c34e4e1ad839e",
+      "lines": {
+        "80": "                    recordId == EscherBitmapBlip.RECORD_ID_PNG)",
+        "81": "            {",
+        "82": "                r = new EscherBitmapBlip();",
+        "77": "            EscherBlipRecord r;",
+        "78": "            if (recordId == EscherBitmapBlip.RECORD_ID_DIB ||",
+        "79": "                    recordId == EscherBitmapBlip.RECORD_ID_JPEG ||"
+      },
+      "id": 97383906,
+      "filename": "DefaultEscherRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 178,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642620/",
+      "md5hash": "c686784da3da38fecea2e5b988b86ece",
+      "lines": {
+        "99": "            EscherBlipRecord r;",
+        "100": "            if (header.getRecordId() == EscherBitmapBlip.RECORD_ID_DIB ||",
+        "101": "                    header.getRecordId() == EscherBitmapBlip.RECORD_ID_JPEG ||",
+        "102": "                    header.getRecordId() == EscherBitmapBlip.RECORD_ID_PNG)",
+        "103": "            {",
+        "104": "                r = new EscherBitmapBlip();"
+      },
+      "id": 15642620,
+      "filename": "DefaultEscherRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1445,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642316/",
+      "md5hash": "4f7b036daf89776dc4ee4606b7972144",
+      "lines": {
+        "1280": "        byte[] uid = newUID();",
+        "1281": "        EscherBitmapBlip blipRecord = new EscherBitmapBlip();",
+        "1282": "        blipRecord.setRecordId( (short) ( EscherBitmapBlip.RECORD_ID_START + format ) );",
+        "51": "import loci.poi.ddf.EscherBSERecord;",
+        "52": "import loci.poi.ddf.EscherBitmapBlip;",
+        "1283": "        switch (format)"
+      },
+      "id": 15642316,
+      "filename": "HSSFWorkbook.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 114,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642299/",
+      "md5hash": "05dfe158a30664719ca8667156e883c4",
+      "lines": {
+        "41": "",
+        "42": "import loci.poi.ddf.EscherBitmapBlip;"
+      },
+      "id": 15642299,
+      "filename": "HSSFPictureData.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

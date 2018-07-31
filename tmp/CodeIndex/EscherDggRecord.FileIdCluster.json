@@ -1,0 +1,181 @@
+{
+  "matchterm": "EscherDggRecord.FileIdCluster",
+  "previouspage": null,
+  "searchterm": "EscherDggRecord.FileIdCluster",
+  "query": "EscherDggRecord.FileIdCluster",
+  "language_filters": [
+    {
+      "count": 6,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 6,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 465,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394323/",
+      "md5hash": "004c81d0c6f4e85beee2c12f2cad27b2",
+      "lines": {
+        "273": "        // Add to existing cluster if space available",
+        "274": "        for (int i = 0; i < dgg.getFileIdClusters().length; i++)",
+        "275": "        {",
+        "276": "            EscherDggRecord.FileIdCluster c = dgg.getFileIdClusters()[i];",
+        "293": "        int result = (1024 * dgg.getFileIdClusters().length);",
+        "292": "        dg.setNumShapes( dg.getNumShapes() + 1 );",
+        "291": "        dgg.getFileIdClusters()[dgg.getFileIdClusters().length-1].incrementShapeId();",
+        "267": "    {",
+        "268": "        EscherDggRecord dgg = _slideShow.getDocumentRecord().getPPDrawingGroup().getEscherDggRecord();",
+        "290": "        dgg.addCluster( dg.getDrawingGroupId(), 0, false );"
+      },
+      "id": 97394323,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 155,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642353/",
+      "md5hash": "59154360b890e81907d275266ee0785f",
+      "lines": {
+        "43": "import loci.poi.ddf.EscherDgRecord;",
+        "133": "    {",
+        "134": "        for ( int i = 0; i < dgg.getFileIdClusters().length; i++ )",
+        "135": "        {",
+        "136": "            if ( dgg.getFileIdClusters()[i].getDrawingGroupId() == dgId )",
+        "44": "import loci.poi.ddf.EscherDggRecord;",
+        "107": "        dgg.addCluster( drawingGroupId, 0 );",
+        "108": "        dgg.getFileIdClusters()[dgg.getFileIdClusters().length-1].incrementShapeId();",
+        "110": "        dg.setNumShapes( dg.getNumShapes() + 1 );",
+        "111": "        int result = (1024 * dgg.getFileIdClusters().length);",
+        "148": "",
+        "149": "    public EscherDggRecord getDgg()",
+        "56": "{",
+        "57": "    EscherDggRecord dgg;",
+        "91": "        {",
+        "92": "            EscherDggRecord.FileIdCluster c = dgg.getFileIdClusters()[i];"
+      },
+      "id": 15642353,
+      "filename": "DrawingManager2.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 177,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642363/",
+      "md5hash": "af6e616851edfd46b96138b7817d24d2",
+      "lines": {
+        "155": "    {",
+        "103": "                // Find the cluster for this drawing group with free space.",
+        "104": "            for (int i = 0; i < dgg.getFileIdClusters().length; i++)",
+        "105": "            {",
+        "106": "                EscherDggRecord.FileIdCluster c = dgg.getFileIdClusters()[i];",
+        "43": "import loci.poi.ddf.EscherDggRecord;",
+        "157": "        {",
+        "170": "",
+        "171": "    public EscherDggRecord getDgg()",
+        "55": "{",
+        "56": "    EscherDggRecord dgg;",
+        "58": "",
+        "59": "    public DrawingManager( EscherDggRecord dgg )",
+        "156": "        for ( int i = 0; i < dgg.getFileIdClusters().length; i++ )",
+        "42": ""
+      },
+      "id": 15642363,
+      "filename": "DrawingManager.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 2351,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642358/",
+      "md5hash": "2f47d8e4aa73ffbba0d056d2a6f68eee",
+      "lines": {
+        "2177": "            EscherContainerRecord dggContainer = new EscherContainerRecord();",
+        "2178": "            EscherDggRecord dgg = new EscherDggRecord();",
+        "2183": "            dggContainer.setOptions((short) 0x000F);",
+        "2184": "            dgg.setRecordId(EscherDggRecord.RECORD_ID);",
+        "2188": "            dgg.setDrawingsSaved(0);",
+        "2189": "            dgg.setFileIdClusters(new EscherDggRecord.FileIdCluster[] {} );"
+      },
+      "id": 15642358,
+      "filename": "Workbook.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 242,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383877/",
+      "md5hash": "48919c9b6499422e29c7fc3369f5c7ff",
+      "lines": {
+        "129": "            field_5_string.append(\"  NumShapeIdsUsed\").append(i+1).append(\": \");",
+        "130": "            field_5_string.append(field_5_fileIdClusters[i].field_2_numShapeIdsUsed);",
+        "36": "    private int field_4_drawingsSaved;",
+        "37": "    private FileIdCluster[] field_5_fileIdClusters;",
+        "39": "",
+        "40": "    public static class FileIdCluster",
+        "41": "    {",
+        "74": "        field_4_drawingsSaved  =  LittleEndian.getInt( data, pos + size );size+=4;",
+        "75": "        field_5_fileIdClusters = new FileIdCluster[(bytesRemaining-size) / 8];  // Can't rely on field_2_numIdClusters",
+        "76": "        for (int i = 0; i < field_5_fileIdClusters.length; i++)",
+        "77": "        {",
+        "78": "            field_5_fileIdClusters[i] = new FileIdCluster(LittleEndian.getInt( data, pos + size ), LittleEndian.getInt( data, pos + size + 4 ));",
+        "29": "public final class EscherDggRecord extends EscherRecord {",
+        "79": "            maxDgId = Math.max(maxDgId, field_5_fileIdClusters[i].getDrawingGroupId());",
+        "28": " */",
+        "42": "        public FileIdCluster( int drawingGroupId, int numShapeIdsUsed )"
+      },
+      "id": 97383877,
+      "filename": "EscherDggRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 285,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642630/",
+      "md5hash": "b3d4381212f5e03f34ff5119465d045a",
+      "lines": {
+        "64": "    public static class FileIdCluster",
+        "65": "    {",
+        "147": "            LittleEndian.putInt( data, pos, field_5_fileIdClusters[i].field_2_numShapeIdsUsed );  pos += 4;",
+        "161": "        return 8 + 16 + (8 * field_5_fileIdClusters.length);",
+        "160": "    {",
+        "143": "        LittleEndian.putInt( data, pos, field_4_drawingsSaved );       pos += 4;",
+        "144": "        for ( int i = 0; i < field_5_fileIdClusters.length; i++ )",
+        "145": "        {",
+        "146": "            LittleEndian.putInt( data, pos, field_5_fileIdClusters[i].field_1_drawingGroupId );   pos += 4;",
+        "51": " */",
+        "52": "public class EscherDggRecord",
+        "148": "        }",
+        "61": "    private int field_4_drawingsSaved;",
+        "62": "    private FileIdCluster[] field_5_fileIdClusters;",
+        "63": ""
+      },
+      "id": 15642630,
+      "filename": "EscherDggRecord.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 6,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

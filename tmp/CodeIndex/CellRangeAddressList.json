@@ -1,0 +1,447 @@
+{
+  "matchterm": "CellRangeAddressList",
+  "previouspage": null,
+  "searchterm": "CellRangeAddressList",
+  "query": "CellRangeAddressList",
+  "language_filters": [
+    {
+      "count": 21,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 21,
+  "results": [
+    {
+      "repo": "https://github.com/semantalytics/RightField.git",
+      "language": "Java",
+      "linescount": 140,
+      "location": "/src/main/java/uk/ac/manchester/cs/owl/semspreadsheets/model/hssf/impl",
+      "name": "RightField",
+      "url": "https://searchcode.com/codesearch/view/72854649/",
+      "md5hash": "9b32ac4d62bd845be04702f4e7103178",
+      "lines": {
+        "64": "\t\t\t\t\tDVRecord dvRecord = (DVRecord) r;",
+        "65": "\t\t\t\t\tCellRangeAddressList cellRangeAddressList = dvRecord",
+        "91": "\t\t\t\t\t\tHSSFDataValidation validation = new HSSFDataValidation(",
+        "103": "\t\t\t\t\t\tHSSFDataValidation validation = new HSSFDataValidation(",
+        "104": "\t\t\t\t\t\t\t\tcellRangeAddressList, dvConstraint);",
+        "25": "import org.apache.poi.ss.formula.ptg.StringPtg;",
+        "26": "import org.apache.poi.ss.util.CellRangeAddressList;",
+        "75": "\t\t\t\t\t\t\t\tcellRangeAddressList, dvConstraint);",
+        "92": "\t\t\t\t\t\t\t\tcellRangeAddressList, dvConstraint);",
+        "74": "\t\t\t\t\t\tHSSFDataValidation validation = new HSSFDataValidation("
+      },
+      "id": 72854649,
+      "filename": "PatchedPoi.java"
+    },
+    {
+      "repo": "https://github.com/semantalytics/RightField.git",
+      "language": "Java",
+      "linescount": 260,
+      "location": "/src/main/java/uk/ac/manchester/cs/owl/semspreadsheets/model/xssf/impl",
+      "name": "RightField",
+      "url": "https://searchcode.com/codesearch/view/72854574/",
+      "md5hash": "89d090836d344e0f32e8aeef1b00d9eb",
+      "lines": {
+        "213": "    public void addValidation(String namedRange, int firstCol, int firstRow, int lastCol, int lastRow) {",
+        "214": "        CellRangeAddressList addressList = new CellRangeAddressList(firstRow, lastRow, firstCol, lastCol);        ",
+        "12": "import org.apache.poi.ss.util.CellRangeAddress;",
+        "13": "import org.apache.poi.ss.util.CellRangeAddressList;",
+        "206": "    \t",
+        "207": "    \tCellRangeAddressList addressList = new CellRangeAddressList(firstRow, lastRow, firstCol, lastCol); "
+      },
+      "id": 72854574,
+      "filename": "SheetXSSFImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openicar/juniprint",
+      "language": "Java",
+      "linescount": 1375,
+      "location": "/src/main/java/org/comsoft/juniprint/utils",
+      "name": "juniprint",
+      "url": "https://searchcode.com/codesearch/view/60212069/",
+      "md5hash": "c11a8c0e57714af4cf1eeffb5ef652f0",
+      "lines": {
+        "480": "",
+        "449": "\t",
+        "450": "\tprivate static CellRangeAddressList unionAllRectangular(List<List<CellRangeAddress>> rangeListForColumns){",
+        "451": "\t\tCellRangeAddressList rangeList = new CellRangeAddressList();",
+        "452": "\t\tif (rangeListForColumns.size() > 1){",
+        "992": "\tpublic static CellRangeAddressList getEntireRow(CellRangeAddressList cellsRefs){",
+        "962": "",
+        "481": "\tpublic static CellRangeAddressList getSpecialCells(HSSFSheet sh, CellRangeAddress cellRef0, XlCellType xlCellType){",
+        "973": "\t\tCellRangeAddress crA;",
+        "44": "import org.apache.poi.ss.util.CellRangeAddress;",
+        "482": "\t\tCellRangeAddressList rangeList = new CellRangeAddressList();",
+        "974": "\t\tCellRangeAddressList listCrA = new CellRangeAddressList(); ",
+        "45": "import org.apache.poi.ss.util.CellRangeAddressList;",
+        "963": "\tpublic static CellRangeAddressList getEntireColumn(CellRangeAddressList cellsRefs){",
+        "1210": "\t",
+        "1211": "\tpublic static void hiddenRows(HSSFSheet sh, CellRangeAddressList list, boolean hide){",
+        "991": "\t"
+      },
+      "id": 60212069,
+      "filename": "ExcelUtils.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 5111,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970697/",
+      "md5hash": "f6740268ba4be4778508748ca1c3becc",
+      "lines": {
+        "1536": "\t\t\t\tCellRangeAddressList addrList = dataValidation.getRegions();",
+        "107": "import org.zkoss.poi.ss.util.CellRangeAddressList;",
+        "4679": "\t\t\tDataValidationConstraint constraint = new XSSFDataValidationConstraint(list);",
+        "4680": "\t\t\tCellRangeAddressList dstAddrList = new CellRangeAddressList(range.getRow(),range.getLastRow(), range.getColumn(), range.getLastColumn());\t\t",
+        "106": "import org.zkoss.poi.ss.util.CellRangeAddress;",
+        "1579": "\t\t\t\t\tfinal CellRangeAddressList dstAddrList = new CellRangeAddressList(dstRow, dstCol, dstRow, dstCol);",
+        "1582": "\t\t\t\t} else {",
+        "1583": "\t\t\t\t\tCellRangeAddressList dstAddrList = dstDataValidation.getRegions();",
+        "4659": "\t\tfor(DataValidation dataValidation : dataValidations) {",
+        "4660": "\t\t\tCellRangeAddressList addrList = dataValidation.getRegions();",
+        "4693": "\t\t\tDataValidationConstraint constraint = new XSSFDataValidationConstraint(ValidationType.LIST,convertToAbsoluteString(refCRA));",
+        "4694": "\t\t\tCellRangeAddressList dstAddrList = new CellRangeAddressList(range.getRow(),range.getLastRow(), range.getColumn(), range.getLastColumn());\t\t",
+        "1560": "\t\t\tfor(DataValidation dataValidation : dataValidations) {",
+        "1561": "\t\t\t\tCellRangeAddressList addrList = dataValidation.getRegions();",
+        "1578": "\t\t\t\tif (dstDataValidation == null) {",
+        "1535": "\t\t\tfor(DataValidation dataValidation : dataValidations) {"
+      },
+      "id": 3970697,
+      "filename": "BookHelper.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openicar/juniprint",
+      "language": "Java",
+      "linescount": 2096,
+      "location": "/src/main/java/org/comsoft/juniprint",
+      "name": "juniprint",
+      "url": "https://searchcode.com/codesearch/view/60212057/",
+      "md5hash": "e9487002cf69dbd9246766c01c968b73",
+      "lines": {
+        "1329": "\t\t\t\t\t\tif (res != null){",
+        "904": "\t\t\t\t\telse {",
+        "905": "\t\t\t\t\t\tworkR = new CellRangeAddressList();",
+        "1330": "\t\t\t\t\t\t\tCellRangeAddressList list = ExcelUtils.getSpecialCells(sh, res, ExcelUtils.XlCellType.xlCellTypeFormulas);",
+        "45": "import org.apache.poi.ss.util.CellRangeAddress;",
+        "46": "import org.apache.poi.ss.util.CellRangeAddressList;",
+        "1331": "\t\t\t\t\t\t\tif (list != null){",
+        "840": "//\t\t\t\t\tworkR.EntireRow.PasteSpecial Paste:=xlFormats",
+        "818": "\t\t\t\t\t\telse {",
+        "819": "\t\t\t\t\t\t\tworkR = new CellRangeAddressList();",
+        "1332": "\t\t\t\t\t\t\t\tCellRangeAddressList l = ExcelUtils.getEntireRow(list);",
+        "841": "\t\t\t\t\tCellRangeAddressList areas =  ExcelUtils.getEntireRow(workR);",
+        "1337": "\t\t\t\t\t\t\t\t\t\t\tExcelUtils.getRow(sh, row).setZeroHeight(false);",
+        "1338": "\t\t\t\t\t\t\t\t\t\tCellRangeAddressList rHeight = ExcelUtils.getSpecialCells(sh, workRange , ExcelUtils.XlCellType.xlCellTypeVisible);",
+        "796": "\t\tint yyy, zzz; ",
+        "797": "\t\tCellRangeAddressList workR, sArea, workFormul;"
+      },
+      "id": 60212057,
+      "filename": "JUniPrint.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ansgarkonermann/simpleodf",
+      "language": "Java",
+      "linescount": 226,
+      "location": "/src/test/java/org/odftoolkit/simple/chart",
+      "name": "simpleodf",
+      "url": "https://searchcode.com/codesearch/view/60371728/",
+      "md5hash": "8a146c6c9c567108bc4ebe00eacf4d5c",
+      "lines": {
+        "138": "\t\t\trect.height = 12000;",
+        "139": "\t\t\tdoc.createChart(barTitle, doc, CellRangeAddressList.valueOf(\"A.A1:A.E21\"), true, true, true, rect);",
+        "140": "\t\t\tdoc.createChart(barTitle, doc, CellRangeAddressList.valueOf(\"A.A1:A.E21\"), true, true, false, rect);",
+        "141": "\t\t\tdoc.createChart(barTitle, doc, CellRangeAddressList.valueOf(\"A.B1:A.E21\"), true, false, true, rect);",
+        "142": "\t\t\tdoc.createChart(barTitle, doc, CellRangeAddressList.valueOf(\"A.B1:A.E21\"), true, false, false, rect);",
+        "143": "\t\t\tdoc.createChart(barTitle, doc, CellRangeAddressList.valueOf(\"A.A2:A.E21\"), false, true, true, rect);",
+        "144": "\t\t\tdoc.createChart(barTitle, doc, CellRangeAddressList.valueOf(\"A.A2:A.E21\"), false, true, false, rect);",
+        "145": "\t\t\tdoc.createChart(barTitle, doc, CellRangeAddressList.valueOf(\"A.B2:A.E21\"), false, false, true, rect);",
+        "146": "\t\t\tdoc.createChart(barTitle, doc, CellRangeAddressList.valueOf(\"A.B2:A.E21\"), false, false, false, rect);",
+        "147": "\t\t\tChart chartID8 = doc.createChart(areaTitle, doc, CellRangeAddressList.valueOf(\"A.B2:A.E21\"), false, false,",
+        "148": "\t\t\t\t\tfalse, rect);",
+        "29": "import org.junit.Test;",
+        "30": "import org.odftoolkit.odfdom.type.CellRangeAddressList;"
+      },
+      "id": 60371728,
+      "filename": "ChartTest.java"
+    },
+    {
+      "repo": "https://github.com/Christian-B/FishLink.git",
+      "language": "Java",
+      "linescount": 384,
+      "location": "/src/org/freshwaterlife/fishlink/metadatacreator",
+      "name": "FishLink",
+      "url": "https://searchcode.com/codesearch/view/114492726/",
+      "md5hash": "8436fea159f7aa4220cdbbb59cb44742",
+      "lines": {
+        "16": "import org.apache.poi.ss.util.CellRangeAddressList;",
+        "325": "        int columnNumber = FishLinkUtils.alphaToIndex(column);",
+        "326": "        CellRangeAddressList addressList = new CellRangeAddressList(row - 1, row -1, columnNumber,  columnNumber);",
+        "15": "import org.apache.poi.ss.usermodel.Workbook;"
+      },
+      "id": 114492726,
+      "filename": "FishLinkSheet.java"
+    },
+    {
+      "repo": "https://github.com/semantalytics/RightField.git",
+      "language": "Java",
+      "linescount": 87,
+      "location": "/src/test/java/uk/ac/manchester/cs/owl/semspreadsheets/model/xssf/impl",
+      "name": "RightField",
+      "url": "https://searchcode.com/codesearch/view/72853788/",
+      "md5hash": "17bc9ba3e53af1b2b9a649879a6b3202",
+      "lines": {
+        "10": "import org.apache.poi.ss.util.CellRangeAddress;",
+        "11": "import org.apache.poi.ss.util.CellRangeAddressList;",
+        "52": "\t\tDataValidationConstraint constraint = dataValidationHelper.createCustomConstraint(\"SUM($A$1:$A$1) <= 3500\");",
+        "53": "\t\tCellRangeAddressList addressList = new CellRangeAddressList(0, 0, 0, 0);"
+      },
+      "id": 72853788,
+      "filename": "SheetXSSFImplTest.java"
+    },
+    {
+      "repo": "https://github.com/semantalytics/RightField.git",
+      "language": "Java",
+      "linescount": 256,
+      "location": "/src/main/java/uk/ac/manchester/cs/owl/semspreadsheets/model/hssf/impl",
+      "name": "RightField",
+      "url": "https://searchcode.com/codesearch/view/72854680/",
+      "md5hash": "8006ccadf35cd12a6eac3ddf43745fb4",
+      "lines": {
+        "230": "    protected void addConstraint(DataValidationConstraint constraint, int firstCol, int firstRow, int lastCol, int lastRow) {",
+        "21": "import org.apache.poi.ss.util.CellRangeAddress;",
+        "22": "import org.apache.poi.ss.util.CellRangeAddressList;",
+        "231": "    \tCellRangeAddressList addressList = new CellRangeAddressList(firstRow, lastRow, firstCol, lastCol);    \t"
+      },
+      "id": 72854680,
+      "filename": "SheetHSSFImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ansgarkonermann/simpleodf",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/src/test/java/org/odftoolkit/simple/chart",
+      "name": "simpleodf",
+      "url": "https://searchcode.com/codesearch/view/60371727/",
+      "md5hash": "3c6f8ebcaa05712d6405336f6ff0d3c8",
+      "lines": {
+        "48": "",
+        "49": "\t\t\tdata.setValues(CellRangeAddressList.valueOf(\"A.A1:A.C4\"), sheet, true, true, false);",
+        "51": "\t\t\tSystem.out.println(\"Max Item count:\" + data.getMaxLengthOfDataSeries());",
+        "52": "\t\t\tdata.setValues(CellRangeAddressList.valueOf(\"A.A1:A.C4\"), sheet, false, true, false);",
+        "54": "\t\t\tSystem.out.println(\"Max Item count:\" + data.getMaxLengthOfDataSeries());",
+        "55": "\t\t\tdata.setValues(CellRangeAddressList.valueOf(\"A.A1:A.C4\"), sheet, true, false, true);",
+        "44": "\t\t\tDataSet data = new DataSet();",
+        "45": "\t\t\tdata.setValues(CellRangeAddressList.valueOf(\"A.A1:A.C4\"), sheet, true, true, true);",
+        "30": "import org.junit.Test;",
+        "31": "import org.odftoolkit.odfdom.type.CellRangeAddressList;"
+      },
+      "id": 60371727,
+      "filename": "DataSetTest.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ansgarkonermann/simpleodf",
+      "language": "Java",
+      "linescount": 797,
+      "location": "/src/main/java/org/odftoolkit/simple/chart",
+      "name": "simpleodf",
+      "url": "https://searchcode.com/codesearch/view/60371825/",
+      "md5hash": "8af8c5e1c2f1fb39f0d566e184a453be",
+      "lines": {
+        "35": "import org.odftoolkit.odfdom.type.CellRangeAddress;",
+        "36": "import org.odftoolkit.odfdom.type.CellRangeAddressList;",
+        "144": "\t */",
+        "145": "\tpublic CellRangeAddressList getCellRangeAddress() {",
+        "114": "\t */",
+        "115": "\tpublic DataSet(CellRangeAddressList cellRangeAddress, SpreadsheetDocument spreadsheet, boolean bFirstRowAsLabel,",
+        "55": "\tprivate Vector<String> legendset; // legend vector",
+        "56": "\t// Vector<OdfCellRangeAddressList> seriesCellRange; //cellrange of data",
+        "569": "\t */",
+        "570": "\tpublic void setValues(CellRangeAddressList cellRangeAddress, SpreadsheetDocument spreadsheet,",
+        "59": "\t// String cellRangeAddress;",
+        "60": "\tprivate CellRangeAddressList cellRangeAddress;"
+      },
+      "id": 60371825,
+      "filename": "DataSet.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ansgarkonermann/simpleodf",
+      "language": "Java",
+      "linescount": 664,
+      "location": "/src/main/java/org/odftoolkit/simple",
+      "name": "simpleodf",
+      "url": "https://searchcode.com/codesearch/view/60371743/",
+      "md5hash": "0cd2c51e325ddbe86bbfde7cbd0a56a5",
+      "lines": {
+        "581": "\t */",
+        "582": "\tpublic Chart createChart(String title, SpreadsheetDocument document, CellRangeAddressList cellRangeAddr, boolean firstRowAsLabel,",
+        "535": "\t */",
+        "536": "\tpublic Chart createChart(String title, SpreadsheetDocument document, CellRangeAddressList cellRangeAddr, boolean firstRowAsLabel,",
+        "41": "import org.odftoolkit.odfdom.pkg.OdfPackage;",
+        "42": "import org.odftoolkit.odfdom.type.CellRangeAddressList;",
+        "654": "\t\t",
+        "655": "\t\tprivate Chart createChart(String title, SpreadsheetDocument document, CellRangeAddressList cellRangeAddr, boolean firstRowAsLabel,"
+      },
+      "id": 60371743,
+      "filename": "SpreadsheetDocument.java"
+    },
+    {
+      "repo": "https://bitbucket.org/gesellix/simpleodf",
+      "language": "Java",
+      "linescount": 145,
+      "location": "/src/main/java/org/odftoolkit/simple/chart",
+      "name": "simpleodf",
+      "url": "https://searchcode.com/codesearch/view/118946500/",
+      "md5hash": "6aa9cd32232225b776c91561f5fb0873",
+      "lines": {
+        "26": "",
+        "27": "import org.odftoolkit.odfdom.type.CellRangeAddressList;",
+        "77": "\t */",
+        "78": "\tpublic Chart createChart(String title, SpreadsheetDocument document, CellRangeAddressList cellRangeAddr,"
+      },
+      "id": 118946500,
+      "filename": "ChartContainer.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 66,
+      "location": "/zssapp/src/org/zkoss/zss/app/test",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/9943448/",
+      "md5hash": "afbc2e68a4e7ee49279e1a67a0ab85c8",
+      "lines": {
+        "24": "import org.zkoss.poi.ss.util.CellRangeAddressList;",
+        "52": "\t\tDataValidationConstraint dvc = dvh.createExplicitListConstraint(vals);",
+        "53": "\t\tCellRangeAddressList cral = new CellRangeAddressList(1, 100, 3, 3);",
+        "23": "import org.zkoss.poi.ss.usermodel.DataValidationHelper;"
+      },
+      "id": 9943448,
+      "filename": "ValidationComposer.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 4867,
+      "location": "/zss/src/org/zkoss/zss/ui",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970597/",
+      "md5hash": "e7f705e90329f003cbaa403eaed0f523",
+      "lines": {
+        "60": "import org.zkoss.poi.ss.util.CellRangeAddress;",
+        "61": "import org.zkoss.poi.ss.util.CellRangeAddressList;",
+        "1430": "\t\tfinal CellRangeAddressList addrList = dv.getRegions();",
+        "1429": "\tprivate Map convertDataValidationToJSON(DataValidation dv) {"
+      },
+      "id": 3970597,
+      "filename": "Spreadsheet.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1319,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970708/",
+      "md5hash": "e52c956c400b399e06a805984e2f85f6",
+      "lines": {
+        "1136": "\t\t\t\tfinal DVRecord dvRecord = (DVRecord) r;",
+        "1137": "\t\t\t\tfinal CellRangeAddressList regions = dvRecord.getCellRangeAddress();",
+        "60": "import org.zkoss.poi.ss.util.CellRangeAddress;",
+        "61": "import org.zkoss.poi.ss.util.CellRangeAddressList;"
+      },
+      "id": 3970708,
+      "filename": "HSSFSheetImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ansgarkonermann/simpleodf",
+      "language": "Java",
+      "linescount": 715,
+      "location": "/src/main/java/org/odftoolkit/simple",
+      "name": "simpleodf",
+      "url": "https://searchcode.com/codesearch/view/60371742/",
+      "md5hash": "0a8d0e089871e9a8e169b5612bb7301c",
+      "lines": {
+        "48": "import org.odftoolkit.odfdom.pkg.OdfPackage;",
+        "49": "import org.odftoolkit.odfdom.type.CellRangeAddressList;",
+        "573": "",
+        "574": "\tpublic Chart createChart(String title, SpreadsheetDocument document, CellRangeAddressList cellRangeAddr, boolean firstRowAsLabel,"
+      },
+      "id": 60371742,
+      "filename": "TextDocument.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ansgarkonermann/simpleodf",
+      "language": "Java",
+      "linescount": 966,
+      "location": "/src/main/java/org/odftoolkit/simple",
+      "name": "simpleodf",
+      "url": "https://searchcode.com/codesearch/view/60371744/",
+      "md5hash": "b365d7db89a3061b5899b74eafe05176",
+      "lines": {
+        "48": "import org.odftoolkit.odfdom.type.CellRangeAddressList;",
+        "867": "",
+        "868": "\tpublic Chart createChart(String title, SpreadsheetDocument document, CellRangeAddressList cellRangeAddr, boolean firstRowAsLabel,",
+        "47": "import org.odftoolkit.odfdom.pkg.OdfPackage;"
+      },
+      "id": 60371744,
+      "filename": "PresentationDocument.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ansgarkonermann/simpleodf",
+      "language": "Java",
+      "linescount": 1176,
+      "location": "/src/main/java/org/odftoolkit/simple/presentation",
+      "name": "simpleodf",
+      "url": "https://searchcode.com/codesearch/view/60371786/",
+      "md5hash": "ac40b0ac0e47d558131f2d42d785b21b",
+      "lines": {
+        "43": "import org.odftoolkit.odfdom.pkg.OdfFileDom;",
+        "44": "import org.odftoolkit.odfdom.type.CellRangeAddressList;",
+        "1110": "",
+        "1111": "\tpublic Chart createChart(String title, SpreadsheetDocument document, CellRangeAddressList cellRangeAddr, boolean firstRowAsLabel,"
+      },
+      "id": 60371786,
+      "filename": "Slide.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ansgarkonermann/simpleodf",
+      "language": "Java",
+      "linescount": 145,
+      "location": "/src/main/java/org/odftoolkit/simple/chart",
+      "name": "simpleodf",
+      "url": "https://searchcode.com/codesearch/view/60371827/",
+      "md5hash": "6aa9cd32232225b776c91561f5fb0873",
+      "lines": {
+        "26": "",
+        "27": "import org.odftoolkit.odfdom.type.CellRangeAddressList;",
+        "77": "\t */",
+        "78": "\tpublic Chart createChart(String title, SpreadsheetDocument document, CellRangeAddressList cellRangeAddr,"
+      },
+      "id": 60371827,
+      "filename": "ChartContainer.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 12,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 5,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 4,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

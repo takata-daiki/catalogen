@@ -1,0 +1,164 @@
+{
+  "matchterm": "XSLFPictureData",
+  "previouspage": null,
+  "searchterm": "XSLFPictureData",
+  "query": "XSLFPictureData",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 395,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406883/",
+      "md5hash": "affb9bb9cdc3dc16020b82db1f4ce116",
+      "lines": {
+        "192": "                _pictures.add(new XSLFPictureData(part, null));    ",
+        "71": "    private Map<String, XSLFSlideMaster> _masters;",
+        "72": "    private List<XSLFPictureData> _pictures;",
+        "336": "     * @return the index to this picture (1 based).",
+        "337": "     * @see XSLFPictureData#PICTURE_TYPE_EMF",
+        "338": "     * @see XSLFPictureData#PICTURE_TYPE_WMF",
+        "339": "     * @see XSLFPictureData#PICTURE_TYPE_PICT",
+        "340": "     * @see XSLFPictureData#PICTURE_TYPE_JPEG",
+        "341": "     * @see XSLFPictureData#PICTURE_TYPE_PNG",
+        "342": "     * @see XSLFPictureData#PICTURE_TYPE_DIB",
+        "186": "     */",
+        "187": "    public List<XSLFPictureData> getAllPictures() {",
+        "189": "            List<PackagePart> mediaParts = getPackage().getPartsByName(Pattern.compile(\"/ppt/media/.*?\"));",
+        "190": "            _pictures = new ArrayList<XSLFPictureData>(mediaParts.size());",
+        "191": "            for(PackagePart part : mediaParts){"
+      },
+      "id": 97406883,
+      "filename": "XMLSlideShow.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 162,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406705/",
+      "md5hash": "3cf6ae3d47d4aecb9c8db82efffb3346",
+      "lines": {
+        "128": "",
+        "129": "        XSLFPictureData data = getPictureData();",
+        "50": "public class XSLFPictureShape extends XSLFSimpleShape {",
+        "51": "    private XSLFPictureData _data;",
+        "101": "",
+        "102": "    public XSLFPictureData getPictureData() {",
+        "88": "    public void resize() {",
+        "89": "        XSLFPictureData pict = getPictureData();",
+        "110": "                    PackagePart imgPart = p.getRelatedPart(rel);",
+        "111": "                    _data = new XSLFPictureData(imgPart, rel);"
+      },
+      "id": 97406705,
+      "filename": "XSLFPictureShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 555,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406768/",
+      "md5hash": "06c77456c926d8545168347abe70a1d6",
+      "lines": {
+        "192": "                pic.getPartName(), TargetMode.INTERNAL, XSLFRelation.IMAGES.getRelation());",
+        "193": "        addRelation(rel.getId(), new XSLFPictureData(pic, rel));",
+        "550": "                pic.getPartName(), TargetMode.INTERNAL, blipRel.getRelationshipType());",
+        "551": "        addRelation(rel.getId(), new XSLFPictureData(pic, rel));",
+        "542": "        }",
+        "543": "        XSLFPictureData data = new XSLFPictureData(blipPart, null);"
+      },
+      "id": 97406768,
+      "filename": "XSLFSheet.java"
+    },
+    {
+      "repo": "https://github.com/nls-oskari/oskari-server.git",
+      "language": "Java",
+      "linescount": 161,
+      "location": "/servlet-printout/src/main/java/fi/nls/oskari/printout/ws/jaxrs/format",
+      "name": "oskari-server",
+      "url": "https://searchcode.com/codesearch/view/76071743/",
+      "md5hash": "e9cd50395eb04e2236447d20d7ac7ccb",
+      "lines": {
+        "96": "\t\t\t\tXSLFPictureData.PICTURE_TYPE_PNG);",
+        "19": "import org.apache.poi.xslf.usermodel.XMLSlideShow;",
+        "20": "import org.apache.poi.xslf.usermodel.XSLFPictureData;",
+        "95": "\t\tint pictureIndex = ppt.addPicture(data,"
+      },
+      "id": 76071743,
+      "filename": "StreamingPPTXImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 112,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406847/",
+      "md5hash": "347d827329d054e6a40515d2805da46a",
+      "lines": {
+        "43": " * public class MyImageRendener extends XSLFImageRendener{",
+        "44": " * public boolean drawImage(Graphics2D graphics, XSLFPictureData data, Rectangle2D anchor){",
+        "78": "\t */",
+        "79": "\tpublic boolean drawImage(Graphics2D graphics, XSLFPictureData data,"
+      },
+      "id": 97406847,
+      "filename": "XSLFImageRenderer.java"
+    },
+    {
+      "repo": "https://bitbucket.org/quadrate/promo.git",
+      "language": "Java",
+      "linescount": 81,
+      "location": "/excelgen/src/main/java/by/q64/promo/excelgen/service/marketing",
+      "name": "promo",
+      "url": "https://searchcode.com/codesearch/view/92131912/",
+      "md5hash": "e8d97edebf3bc6b01a7ffe249d99390a",
+      "lines": {
+        "74": "        byte[] bytes = IOUtils.toByteArray(this.getClass().getResourceAsStream(imageName));",
+        "75": "        int idx = ppt.addPicture(bytes, XSLFPictureData.PICTURE_TYPE_PNG);"
+      },
+      "id": 92131912,
+      "filename": "MarketingReportFirstSlideGeneratorImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/quadrate/promo.git",
+      "language": "Java",
+      "linescount": 211,
+      "location": "/excelgen/src/main/java/by/q64/promo/excelgen/service/marketing",
+      "name": "promo",
+      "url": "https://searchcode.com/codesearch/view/92131916/",
+      "md5hash": "a58465613021fd4ec4403df58f01c572",
+      "lines": {
+        "171": "                continue;",
+        "172": "            int idx = ppt.addPicture(picBytes1, XSLFPictureData.PICTURE_TYPE_PNG);"
+      },
+      "id": 92131916,
+      "filename": "MarketingReportInCityGeneratorImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 5,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 2,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

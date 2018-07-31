@@ -1,0 +1,120 @@
+{
+  "matchterm": "HWPFList",
+  "previouspage": null,
+  "searchterm": "HWPFList",
+  "query": "HWPFList",
+  "language_filters": [
+    {
+      "count": 5,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 5,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 250,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384433/",
+      "md5hash": "8bb8ee10eff23db02cff3526d2c5e375",
+      "lines": {
+        "72": "     */",
+        "82": "",
+        "83": "    public HWPFList( StyleSheet styleSheet, ListTables listTables, int ilfo )",
+        "52": " */",
+        "53": "public final class HWPFList",
+        "54": "{",
+        "39": " * conjunction with",
+        "40": " * {@link org.apache.poi.hwpf.HWPFDocument#registerList(HWPFList) registerList}",
+        "73": "    public HWPFList( boolean numbered, StyleSheet styleSheet )",
+        "55": "    private static POILogger log = POILogFactory.getLogger( HWPFList.class );"
+      },
+      "id": 97384433,
+      "filename": "HWPFList.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 660,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384407/",
+      "md5hash": "d9e337622aaacee6d2790b7572b0af11",
+      "lines": {
+        "596": "",
+        "597": "    public HWPFList getList()",
+        "602": "        }",
+        "603": "        HWPFList hwpfList = new HWPFList( getDocument().getStyleSheet(),",
+        "604": "                getDocument().getListTables(), getIlfo() );",
+        "605": "        return hwpfList;"
+      },
+      "id": 97384407,
+      "filename": "Paragraph.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1219,
+      "location": "/src/org/apache/poi/hwpf/converter",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383976/",
+      "md5hash": "a222c0be0731737a174a7721c959c7e2",
+      "lines": {
+        "1091": "                {",
+        "1092": "                    HWPFList hwpfList = paragraph.getList();",
+        "38": "import org.apache.poi.hwpf.usermodel.Field;",
+        "1094": "                    String label = AbstractWordUtils.getBulletText(",
+        "39": "import org.apache.poi.hwpf.usermodel.HWPFList;",
+        "1095": "                            numberingState, hwpfList,"
+      },
+      "id": 97383976,
+      "filename": "AbstractWordConverter.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1043,
+      "location": "/src/org/apache/poi/hwpf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383956/",
+      "md5hash": "677c332698819342ff2ece2baf93a4ed",
+      "lines": {
+        "1027": "    public int registerList( HWPFList list )",
+        "58": "import org.apache.poi.hwpf.usermodel.FieldsImpl;",
+        "59": "import org.apache.poi.hwpf.usermodel.HWPFList;",
+        "1026": ""
+      },
+      "id": 97383956,
+      "filename": "HWPFDocument.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 529,
+      "location": "/src/org/apache/poi/hwpf/converter",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383984/",
+      "md5hash": "b325d8787324a3ef4914153a604b19e4",
+      "lines": {
+        "32": "import org.apache.poi.hwpf.usermodel.BorderCode;",
+        "33": "import org.apache.poi.hwpf.usermodel.HWPFList;",
+        "242": "            HWPFList list, char level )",
+        "241": "    public static String getBulletText( NumberingState numberingState,"
+      },
+      "id": 97383984,
+      "filename": "AbstractWordUtils.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 5,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

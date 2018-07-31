@@ -1,0 +1,380 @@
+{
+  "matchterm": "ConnectorShape",
+  "previouspage": null,
+  "searchterm": "ConnectorShape",
+  "query": "ConnectorShape",
+  "language_filters": [
+    {
+      "count": 17,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 17,
+  "results": [
+    {
+      "repo": "http://graffle-modeling.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 58,
+      "location": "/src/main/java/org/epistem/diagram/model",
+      "name": "graffle-modeling",
+      "url": "https://searchcode.com/codesearch/view/11693673/",
+      "md5hash": "4758f494765c5bc9b308e4df2edcc479",
+      "lines": {
+        "36": "    ",
+        "37": "    ConnectorShape( OGGraphic ogg, GraphicContainer parent, Page page ) {",
+        "9": " */",
+        "10": "public class ConnectorShape extends Shape implements Connector {",
+        "28": "    public void accept( DiagramVisitor visitor ) {",
+        "29": "       visitor.visitConnectorShape( this );"
+      },
+      "id": 11693673,
+      "filename": "ConnectorShape.java"
+    },
+    {
+      "repo": "http://network-algorithms-simulator.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 258,
+      "location": "/NetworkGraph/src/ynn/network/ui",
+      "name": "network-algorithms-simulator",
+      "url": "https://searchcode.com/codesearch/view/13694810/",
+      "md5hash": "0548d76af6b3cf0fc0a48fc600c6e484",
+      "lines": {
+        "8": "",
+        "9": "public class ConnectorShape extends AbstractShape implements IShapeListener",
+        "18": "\tpublic ConnectorShape()",
+        "17": "\t"
+      },
+      "id": 13694810,
+      "filename": "ConnectorShape.java"
+    },
+    {
+      "repo": "https://bitbucket.org/visualrest/visual-rest",
+      "language": "Java",
+      "linescount": 368,
+      "location": "/src/de.van_porten.vrest.ui/src/de/van_porten/vrest/ui/diagram/method/method",
+      "name": "visual-rest",
+      "url": "https://searchcode.com/codesearch/view/61585956/",
+      "md5hash": "07d9b6593546b2b798d7488695847af1",
+      "lines": {
+        "272": "\t\t\tShape connectorShape = peCreateService.createShape(",
+        "273": "\t\t\t\t\tmediaTypeContainer, false);",
+        "274": "\t\t\tPolyline connector = gaService.createPolyline(connectorShape,",
+        "202": "",
+        "203": "\t\t\tShape connectorShape = peCreateService.createShape(",
+        "204": "\t\t\t\t\tmediaTypeContainer, false);",
+        "205": "\t\t\tPolyline connector = gaService.createPolyline(connectorShape,",
+        "271": ""
+      },
+      "id": 61585956,
+      "filename": "AddMethodFeature.java"
+    },
+    {
+      "repo": "http://network-algorithms-simulator.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 397,
+      "location": "/NetworkGraph/src/ynn/network/ui",
+      "name": "network-algorithms-simulator",
+      "url": "https://searchcode.com/codesearch/view/13694808/",
+      "md5hash": "6943a9086722298e1f19b45892116aab",
+      "lines": {
+        "65": "\t\t\t\t\t\tsetSelectedShape(shape);",
+        "66": "\t\t\t\t\t\tif (!(shape instanceof ConnectorShape))",
+        "99": "\t\t\t\t\t{",
+        "166": "\t\t\t{",
+        "97": "\t\t\t\t\t}",
+        "168": "\t\t\t\t{",
+        "169": "\t\t\t\t\tConnectorShape connector = (ConnectorShape)shape;",
+        "75": "\t\t\t\t\t\t\t{",
+        "76": "\t\t\t\t\t\t\t\tConnectorShape connector = new ConnectorShape();",
+        "98": "\t\t\t\t\telse if (_mode == Mode.Connect && _selectedShape != null && _selectedShape instanceof ConnectorShape)",
+        "226": "\t\t\t}\t",
+        "15": "import ynn.network.model.Node;",
+        "16": "import ynn.network.ui.ConnectorShape.Direction;",
+        "227": "\t\t\telse if (shape instanceof ConnectorShape)",
+        "148": "\t\t\t\t\t{",
+        "149": "\t\t\t\t\t\tConnectorShape connector = (ConnectorShape) _selectedShape;",
+        "167": "\t\t\t\tif (shape instanceof ConnectorShape)"
+      },
+      "id": 13694808,
+      "filename": "NetworkView.java"
+    },
+    {
+      "repo": "http://network-algorithms-simulator.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 288,
+      "location": "/NetworkGraph/src/ynn/network/adapter",
+      "name": "network-algorithms-simulator",
+      "url": "https://searchcode.com/codesearch/view/13694800/",
+      "md5hash": "c6bbafe1ad377aa8f22d04d8db747feb",
+      "lines": {
+        "193": "\t\tcase NetworkEvent.NODES_CONNECTED:",
+        "130": "\t\t\tcase ConnectorsEvent.DIRECTION_CHANGED:",
+        "131": "\t\t\t\tfor (ConnectorShape connector : e.getConnectors())",
+        "196": "\t\t\tNodeShape node1 = findNodeShapeOf(e.getNodes().get(0));",
+        "137": "\t\t\t\t\t\tNode node2 = (Node)connector.getVertex2().getData();",
+        "10": "import ynn.network.model.NodeAttributeEvent;",
+        "139": "\t\t\t\t\t\tDirection direction = connectorShapeDirectionToDirection(csDirection);",
+        "194": "\t\t\tif (findConnectorShapeOf(e.getNodes().get(0), e.getNodes().get(1)) != null) break;",
+        "11": "import ynn.network.ui.ConnectorShape;",
+        "195": "\t\t\tconnector = new ConnectorShape();",
+        "203": "\t\t\tconnector = findConnectorShapeOf(e.getNodes().get(0), e.getNodes().get(1));",
+        "202": "\t\tcase NetworkEvent.NODES_DISCONNECTED:",
+        "185": "\t{",
+        "186": "\t\tConnectorShape connector;",
+        "138": "\t\t\t\t\t\tConnectorShape.Direction csDirection = connector.getDirection();"
+      },
+      "id": 13694800,
+      "filename": "NetworkAdapter.java"
+    },
+    {
+      "repo": "http://network-algorithms-simulator.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 366,
+      "location": "/NetworkGraph/src/ynn/network/util",
+      "name": "network-algorithms-simulator",
+      "url": "https://searchcode.com/codesearch/view/13694782/",
+      "md5hash": "0d9a9f00d2c54c00fbfec624235697a6",
+      "lines": {
+        "289": "",
+        "226": "\t\t{",
+        "227": "\t\t\tdeserializeConnectorShape(eConnectors.getChildNodes().item(i));",
+        "292": "\t\tConnectorShape connector = new ConnectorShape();",
+        "291": "\t{",
+        "30": "import ynn.network.ui.ConnectorShape.Direction;",
+        "290": "\tprivate void deserializeConnectorShape(org.w3c.dom.Node eConnector)",
+        "210": "\t\t{",
+        "211": "\t\t\tdeserializeConnectorShapes(eNetworkPart);",
+        "85": "\t\t\tserializeNodeShapes(doc, eNetwork);",
+        "86": "\t\t\tserializeConnectorShapes(doc, eNetwork);",
+        "31": "import ynn.network.ui.NetworkView;",
+        "28": "import ynn.network.ui.AbstractShape;",
+        "29": "import ynn.network.ui.ConnectorShape;",
+        "222": "\t",
+        "223": "\tprivate void deserializeConnectorShapes(org.w3c.dom.Node eConnectors)"
+      },
+      "id": 13694782,
+      "filename": "NetworkSerializer.java"
+    },
+    {
+      "repo": "http://network-algorithms-simulator.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 145,
+      "location": "/NetworkGraph/src/ynn/network/ui",
+      "name": "network-algorithms-simulator",
+      "url": "https://searchcode.com/codesearch/view/13694801/",
+      "md5hash": "b325cae97d995ecb0c667082f073638d",
+      "lines": {
+        "102": "\t\t\t\t\t{",
+        "103": "\t\t\t\t\t\tif (selShape instanceof ConnectorShape)",
+        "104": "\t\t\t\t\t\t{",
+        "105": "\t\t\t\t\t\t\tConnectorShape conn = (ConnectorShape)selShape;",
+        "107": "\t\t\t\t\t\t\tdirection = Direction.values()[(direction.ordinal() + 1) % Direction.values().length];",
+        "108": "\t\t\t\t\t\t\t_networkView.setConnectorsDirection(new ConnectorShape[] { conn }, direction);",
+        "13": "import ynn.network.model.Node;",
+        "14": "import ynn.network.ui.ConnectorShape.Direction;"
+      },
+      "id": 13694801,
+      "filename": "MainWindow.java"
+    },
+    {
+      "repo": "http://network-algorithms-simulator.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 34,
+      "location": "/NetworkGraph/src/ynn/network/ui",
+      "name": "network-algorithms-simulator",
+      "url": "https://searchcode.com/codesearch/view/13694804/",
+      "md5hash": "cf4f7cce98474593f73d4b627b2b0793",
+      "lines": {
+        "18": "\t",
+        "19": "\tpublic ConnectorsEvent(int type, ConnectorShape connectors)",
+        "20": "\t{",
+        "21": "\t\tthis(type, new ConnectorShape[] { connectors });",
+        "23": "\t",
+        "24": "\tpublic ConnectorShape[] getConnectors()",
+        "10": "\tprivate int _type;",
+        "11": "\tprivate ConnectorShape[] _connectors;",
+        "12": "\t",
+        "13": "\tpublic ConnectorsEvent(int type, ConnectorShape[] connectors)"
+      },
+      "id": 13694804,
+      "filename": "ConnectorsEvent.java"
+    },
+    {
+      "repo": "https://bitbucket.org/hawky4s/oryx.git",
+      "language": "Java",
+      "linescount": 264,
+      "location": "/editor/server/src/de/hpi/bpmn2_0/factory",
+      "name": "oryx",
+      "url": "https://searchcode.com/codesearch/view/42466796/",
+      "md5hash": "565037012d10bdc43bb8c367cda42919",
+      "lines": {
+        "96": "\tprotected AssociationConnector createDiagramElement(Shape shape) {",
+        "97": "\t\tAssociationConnector connectorShape = null;",
+        "101": "\t\t\t\tAssociationType.ASSOCIATION)) {",
+        "102": "\t\t\tconnectorShape = new AssociationConnector();",
+        "103": "\t\t} else {",
+        "104": "\t\t\tconnectorShape = new DataAssociationConnector();",
+        "107": "\t\t/* Set common properties */",
+        "108": "\t\tconnectorShape.setId(shape.getResourceId() + \"_gui\");",
+        "109": "\t\tconnectorShape.setLabel(shape.getProperty(\"name\"));",
+        "110": "\t\tconnectorShape.setIsDirectional(!shape.getStencilId().equals(",
+        "111": "\t\t\t\t\"Association_Undirected\"));",
+        "112": "",
+        "113": "\t\treturn connectorShape;"
+      },
+      "id": 42466796,
+      "filename": "AssociationFactory.java"
+    },
+    {
+      "repo": "https://bitbucket.org/markjenkins/libreoffice_ubuntu-debian-fixes.git",
+      "language": "Java",
+      "linescount": 187,
+      "location": "/odk/examples/DevelopersGuide/Drawing",
+      "name": "libreoffice_ubuntu-debian-fixes",
+      "url": "https://searchcode.com/codesearch/view/45029965/",
+      "md5hash": "e7ebe43bba4bcacf1bbca35efa274a91",
+      "lines": {
+        "163": "                    new Size( 0, 0 ),",
+        "164": "                        \"com.sun.star.drawing.ConnectorShape\" );",
+        "102": "                    new Size( 0, 0 ),",
+        "103": "                        \"com.sun.star.drawing.ConnectorShape\" );"
+      },
+      "id": 45029965,
+      "filename": "GluePointDemo.java"
+    },
+    {
+      "repo": "https://bitbucket.org/markjenkins/libreoffice_ubuntu-debian-fixes.git",
+      "language": "Java",
+      "linescount": 70,
+      "location": "/qadevOOo/tests/java/ifc/drawing",
+      "name": "libreoffice_ubuntu-debian-fixes",
+      "url": "https://searchcode.com/codesearch/view/45022701/",
+      "md5hash": "154b92f4326a26513d23ea15a7430263",
+      "lines": {
+        "32": "* Properties testing is automated by <code>lib.MultiPropertyTest</code>.",
+        "33": "* @see com.sun.star.drawing.ConnectorShape",
+        "34": "*/",
+        "35": "public class _ConnectorShape extends MultiPropertyTest {",
+        "38": "    protected void before() {",
+        "39": "        conShapes = (XShape[]) tEnv.getObjRelation(\"XConnectorShape.Shapes\");",
+        "24": "/**",
+        "25": "* Testing <code>com.sun.star.drawing.ConnectorShape</code>"
+      },
+      "id": 45022701,
+      "filename": "_ConnectorShape.java"
+    },
+    {
+      "repo": "http://graffle-modeling.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1402,
+      "location": "/src/main/java/org/epistem/diagram/ontology",
+      "name": "graffle-modeling",
+      "url": "https://searchcode.com/codesearch/view/11693667/",
+      "md5hash": "ce248e93a1214ca651d711aa61687809",
+      "lines": {
+        "1277": "        @Override",
+        "1278": "        public void visitConnectorShape( ConnectorShape shape ) {"
+      },
+      "id": 11693667,
+      "filename": "OntologyEmitter.java"
+    },
+    {
+      "repo": "http://graffle-modeling.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 64,
+      "location": "/src/main/java/org/epistem/diagram/model",
+      "name": "graffle-modeling",
+      "url": "https://searchcode.com/codesearch/view/11693672/",
+      "md5hash": "63b0e04782c7093e645fdfcac7eb85a2",
+      "lines": {
+        "53": "            case ShapedGraphic:     ",
+        "54": "                if( ogg.tailId() != 0 || ogg.headId() != 0 ) return new ConnectorShape( ogg, parent, page );"
+      },
+      "id": 11693672,
+      "filename": "Graphic.java"
+    },
+    {
+      "repo": "http://graffle-modeling.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 108,
+      "location": "/src/main/java/org/epistem/diagram/model/util",
+      "name": "graffle-modeling",
+      "url": "https://searchcode.com/codesearch/view/11693680/",
+      "md5hash": "044557c46fa5da1f10ffb421860ca54d",
+      "lines": {
+        "24": "    public void visitConnectorShape( ConnectorShape shape ) {",
+        "23": "    "
+      },
+      "id": 11693680,
+      "filename": "GraphvizDumper.java"
+    },
+    {
+      "repo": "http://graffle-modeling.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 186,
+      "location": "/src/main/java/org/epistem/diagram/model/emitter",
+      "name": "graffle-modeling",
+      "url": "https://searchcode.com/codesearch/view/11693683/",
+      "md5hash": "aeb505c10f4fcf18f86454a40da14fb1",
+      "lines": {
+        "154": "        @Override",
+        "155": "        public void visitConnectorShape( ConnectorShape shape ) {"
+      },
+      "id": 11693683,
+      "filename": "ModelEmitter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/markjenkins/libreoffice_ubuntu-debian-fixes.git",
+      "language": "Java",
+      "linescount": 193,
+      "location": "/qadevOOo/tests/java/mod/_svx",
+      "name": "libreoffice_ubuntu-debian-fixes",
+      "url": "https://searchcode.com/codesearch/view/45021725/",
+      "md5hash": "249bb75f431d61d98a0d2ef9b304b894",
+      "lines": {
+        "48": " * @see com.sun.star.drawing.ConnectorShapeDescriptor",
+        "179": "        tEnv.addObjRelation(\"NoSetSize\",\"SvxShapeConnector\");",
+        "132": "            Object oInt = oDocMSF.createInstance",
+        "133": "                ( \"com.sun.star.drawing.ConnectorShape\" );",
+        "54": " * @see com.sun.star.drawing.Text",
+        "55": " * @see com.sun.star.drawing.XConnectorShape",
+        "184": "        DrawTools.getShapes(DrawTools.getDrawPage(xDrawDoc,0)).add(oShape2);",
+        "180": "        // adding relation for XConnectorShape",
+        "185": "        tEnv.addObjRelation(\"XConnectorShape.Shapes\",",
+        "47": " * @see com.sun.star.document.XLinkTargetSupplier"
+      },
+      "id": 45021725,
+      "filename": "SvxShapeConnector.java"
+    },
+    {
+      "repo": "https://bitbucket.org/markjenkins/libreoffice_ubuntu-debian-fixes.git",
+      "language": "Java",
+      "linescount": 184,
+      "location": "/odk/examples/DevelopersGuide/Drawing",
+      "name": "libreoffice_ubuntu-debian-fixes",
+      "url": "https://searchcode.com/codesearch/view/45029959/",
+      "md5hash": "b75977145dbe03a226acc1a4f07e4cc7",
+      "lines": {
+        "164": "                if (level == 1) {",
+        "165": "                    Object connector = xDocumentFactory.createInstance(\"com.sun.star.drawing.ConnectorShape\");"
+      },
+      "id": 45029959,
+      "filename": "Organigram.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 11,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 6,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

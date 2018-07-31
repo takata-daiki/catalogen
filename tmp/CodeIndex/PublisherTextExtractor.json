@@ -1,0 +1,45 @@
+{
+  "matchterm": "PublisherTextExtractor",
+  "previouspage": null,
+  "searchterm": "PublisherTextExtractor",
+  "query": "PublisherTextExtractor",
+  "language_filters": [
+    {
+      "count": 1,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 1,
+  "results": [
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 252,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785560/",
+      "md5hash": "3a2a0badbeb8b43e9095f9f8eb316b46",
+      "lines": {
+        "181": "                case PUBLISHER:",
+        "182": "                    PublisherTextExtractor publisherTextExtractor =",
+        "183": "                        new PublisherTextExtractor(filesystem);",
+        "184": "                    xhtml.element(\"p\", publisherTextExtractor.getText());",
+        "185": "                    break;",
+        "28": "import org.apache.poi.hdgf.extractor.VisioTextExtractor;",
+        "29": "import org.apache.poi.hpbf.extractor.PublisherTextExtractor;"
+      },
+      "id": 111785560,
+      "filename": "OfficeParser.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

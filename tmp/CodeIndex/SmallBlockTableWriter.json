@@ -1,0 +1,80 @@
+{
+  "matchterm": "SmallBlockTableWriter",
+  "previouspage": null,
+  "searchterm": "SmallBlockTableWriter",
+  "query": "SmallBlockTableWriter",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 175,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642264/",
+      "md5hash": "cf01af29ac515ba6e90066ff6f3822e7",
+      "lines": {
+        "73": "",
+        "58": "",
+        "59": "public class SmallBlockTableWriter",
+        "74": "    public SmallBlockTableWriter(final List documents,"
+      },
+      "id": 15642264,
+      "filename": "SmallBlockTableWriter.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 615,
+      "location": "/ppt/poi/org/apache/poi/poifs/filesystem",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97397929/",
+      "md5hash": "5083d727a84f9c004bece7393d2ae9b8",
+      "lines": {
+        "304": "        // create the small block store, and the SBAT",
+        "305": "        SmallBlockTableWriter      sbtw       =",
+        "50": "import org.apache.poi.poifs.storage.SmallBlockTableReader;",
+        "51": "import org.apache.poi.poifs.storage.SmallBlockTableWriter;",
+        "307": "",
+        "306": "            new SmallBlockTableWriter(bigBlockSize, _documents, _property_table.getRoot());"
+      },
+      "id": 97397929,
+      "filename": "POIFSFileSystem.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 522,
+      "location": "/components/forks/poi/src/loci/poi/poifs/filesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642276/",
+      "md5hash": "821ddc8beda41ba4d7ad809592451995",
+      "lines": {
+        "65": "import loci.poi.poifs.storage.SmallBlockTableReader;",
+        "66": "import loci.poi.poifs.storage.SmallBlockTableWriter;",
+        "214": "        // create the small block store, and the SBAT",
+        "215": "        SmallBlockTableWriter      sbtw       =",
+        "216": "            new SmallBlockTableWriter(_documents, _property_table.getRoot());",
+        "217": ""
+      },
+      "id": 15642276,
+      "filename": "POIFSFileSystem.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "matchterm": "ChainingMode",
+  "previouspage": null,
+  "searchterm": "ChainingMode",
+  "query": "ChainingMode",
+  "language_filters": [
+    {
+      "count": 1,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 1,
+  "results": [
+    {
+      "repo": "https://github.com/borman/phoneme-qtopia.git",
+      "language": "Java",
+      "linescount": 315,
+      "location": "/midp/src/security/crypto/reference/classes/com/sun/midp/crypto",
+      "name": "phoneme-qtopia",
+      "url": "https://searchcode.com/codesearch/view/104119364/",
+      "md5hash": "dd503c5551b9adf60bc9146a78fe5a0d",
+      "lines": {
+        "118": "\t    // (setChainingModeAndPadding() throws IllegalArgumentException",
+        "119": "\t    // in this case)",
+        "61": "    protected abstract void setChainingModeAndPadding(String mode,",
+        "114": "        try {",
+        "115": "            cipher.setChainingModeAndPadding(chainingMode, padding);",
+        "116": "        } catch (IllegalArgumentException iae) {",
+        "117": "\t    // throw NoSuchAlgorithmException if the chainingMode is invalid",
+        "86": "        String alg = (\"\" + transformation).toUpperCase().trim();",
+        "87": "        String chainingMode = \"\";",
+        "60": "     */",
+        "93": "            if (second == alg.lastIndexOf('/')) {",
+        "94": "                chainingMode = alg.substring(first + 1, second).trim();"
+      },
+      "id": 104119364,
+      "filename": "Cipher.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

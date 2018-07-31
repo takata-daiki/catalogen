@@ -1,0 +1,65 @@
+{
+  "matchterm": "OEPlaceholderAtom",
+  "previouspage": null,
+  "searchterm": "OEPlaceholderAtom",
+  "query": "OEPlaceholderAtom",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 612,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394395/",
+      "md5hash": "4ae551d90bbc16377c5513186d4e9dc1",
+      "lines": {
+        "576": "     * Return <code>OEPlaceholderAtom</code>, the atom that describes a placeholder.",
+        "577": "     *",
+        "578": "     * @return <code>OEPlaceholderAtom</code> or <code>null</code> if not found",
+        "579": "     */",
+        "580": "    public OEPlaceholderAtom getPlaceholderAtom(){",
+        "37": "import org.apache.poi.hslf.record.InteractiveInfoAtom;",
+        "38": "import org.apache.poi.hslf.record.OEPlaceholderAtom;",
+        "582": "    }",
+        "581": "        return (OEPlaceholderAtom)getClientDataRecord(RecordTypes.OEPlaceholderAtom.typeID);",
+        "575": "    /**"
+      },
+      "id": 97394395,
+      "filename": "TextShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 465,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394323/",
+      "md5hash": "004c81d0c6f4e85beee2c12f2cad27b2",
+      "lines": {
+        "409": "     *",
+        "410": "     * @param type  type of placeholder to search. See {@link org.apache.poi.hslf.record.OEPlaceholderAtom}",
+        "419": "                OEPlaceholderAtom oep = tx.getPlaceholderAtom();",
+        "418": "                int placeholderId = 0;"
+      },
+      "id": 97394323,
+      "filename": "Sheet.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

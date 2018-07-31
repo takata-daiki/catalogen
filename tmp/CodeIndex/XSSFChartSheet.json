@@ -1,0 +1,44 @@
+{
+  "matchterm": "XSSFChartSheet",
+  "previouspage": null,
+  "searchterm": "XSSFChartSheet",
+  "query": "XSSFChartSheet",
+  "language_filters": [
+    {
+      "count": 1,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 1,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 86,
+      "location": "/SpudSoft BIRT Excel Emitters Tests/src/uk/co/spudsoft/birt/emitters/excel/tests",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/122565071/",
+      "md5hash": "323a53f9652114a365a820ad00aaa837",
+      "lines": {
+        "23": "",
+        "24": "import org.apache.poi.xssf.usermodel.XSSFChartSheet;",
+        "41": "\t\t\tassertEquals( 3, workbook.getNumberOfSheets() );",
+        "42": "\t\t\tassertTrue( workbook.getSheetAt(0) instanceof XSSFChartSheet );",
+        "75": "\t\t\tassertTrue( workbook.getSheetAt(0) instanceof XSSFChartSheet );",
+        "74": "\t\t\tassertEquals( 3, workbook.getNumberOfSheets() );"
+      },
+      "id": 122565071,
+      "filename": "Issue76ExistingWorkbook.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

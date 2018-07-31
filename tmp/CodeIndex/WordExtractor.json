@@ -1,0 +1,405 @@
+{
+  "matchterm": "WordExtractor",
+  "previouspage": null,
+  "searchterm": "WordExtractor",
+  "query": "WordExtractor",
+  "language_filters": [
+    {
+      "count": 50,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 50,
+  "results": [
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 139,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785561/",
+      "md5hash": "dff73f83047fcc998beb71b2402c9412",
+      "lines": {
+        "65": "",
+        "34": "",
+        "35": "public class WordExtractor extends AbstractPOIFSExtractor {",
+        "36": "",
+        "37": "    public WordExtractor(ParseContext context) {",
+        "66": "        addTextIfAny(xhtml, \"footer\", wordExtractor.getFooterText());",
+        "44": "        HWPFDocument document = new HWPFDocument(filesystem);",
+        "45": "        org.apache.poi.hwpf.extractor.WordExtractor wordExtractor =",
+        "46": "            new org.apache.poi.hwpf.extractor.WordExtractor(document);",
+        "47": "",
+        "48": "        addTextIfAny(xhtml, \"header\", wordExtractor.getHeaderText());",
+        "49": "",
+        "50": "        for (String paragraph : wordExtractor.getParagraphText()) {",
+        "53": "",
+        "54": "        for (String paragraph : wordExtractor.getFootnoteText()) {"
+      },
+      "id": 111785561,
+      "filename": "WordExtractor.java"
+    },
+    {
+      "repo": "http://eeplat.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 161,
+      "location": "/eeplat/src/org/textmining/text/extraction",
+      "name": "eeplat",
+      "url": "https://searchcode.com/codesearch/view/1728807/",
+      "md5hash": "175171d183aeba229c7d38fbfd932875",
+      "lines": {
+        "19": "   */",
+        "20": "  public WordExtractor()",
+        "13": " */",
+        "14": "public class WordExtractor"
+      },
+      "id": 1728807,
+      "filename": "WordExtractor.java"
+    },
+    {
+      "repo": "git://github.com/alp82/abmash.git",
+      "language": "Java",
+      "linescount": 60,
+      "location": "/src/main/java/com/abmash/extraction",
+      "name": "abmash",
+      "url": "https://searchcode.com/codesearch/view/16208549/",
+      "md5hash": "5be07090d4a012c0647cf5023627ac24",
+      "lines": {
+        "17": "",
+        "18": "\tpublic WordExtractor(Browser browser, SearchContainer searchContainer) {",
+        "14": "",
+        "15": "public class WordExtractor extends FindExtractor {"
+      },
+      "id": 16208549,
+      "filename": "WordExtractor.java"
+    },
+    {
+      "repo": "https://bitbucket.org/pluppens/nsesa-diff.git",
+      "language": "Java",
+      "linescount": 166,
+      "location": "/src/main/java/org/nsesa/diff/diffUtils/word",
+      "name": "nsesa-diff",
+      "url": "https://searchcode.com/codesearch/view/47491551/",
+      "md5hash": "2db044e5e080ed0463cdd05c6215f86a",
+      "lines": {
+        "58": " */",
+        "59": "public class WordExtractor {"
+      },
+      "id": 47491551,
+      "filename": "WordExtractor.java"
+    },
+    {
+      "repo": "https://bitbucket.org/AlexeyD/hibench.git",
+      "language": "Java",
+      "linescount": 232,
+      "location": "/nutchindexing/nutch-1.2/src/plugin/parse-msword/src/java/org/apache/nutch/parse/msword",
+      "name": "hibench",
+      "url": "https://searchcode.com/codesearch/view/48925096/",
+      "md5hash": "201b11b383ec9671f21b7ecae9a90b52",
+      "lines": {
+        "48": "class WordExtractor extends MSExtractor {",
+        "47": " */"
+      },
+      "id": 48925096,
+      "filename": "WordExtractor.java"
+    },
+    {
+      "repo": "https://github.com/lritter/gnutch.git",
+      "language": "Java",
+      "linescount": 231,
+      "location": "/src/plugin/parse-msword/src/java/org/apache/nutch/parse/msword",
+      "name": "gnutch",
+      "url": "https://searchcode.com/codesearch/view/138792453/",
+      "md5hash": "40789e266310b897b848347166114477",
+      "lines": {
+        "48": "class WordExtractor extends MSExtractor {",
+        "47": " */"
+      },
+      "id": 138792453,
+      "filename": "WordExtractor.java"
+    },
+    {
+      "repo": "https://github.com/selmantayyar/LuceneImplementation.git",
+      "language": "Java",
+      "linescount": 161,
+      "location": "/LuceneImplementation/src/com/selman",
+      "name": "LuceneImplementation",
+      "url": "https://searchcode.com/codesearch/view/73344562/",
+      "md5hash": "73d1046bc856b0735907975ac4b800e0",
+      "lines": {
+        "3": "import org.apache.poi.hwpf.HWPFDocument;",
+        "4": "import org.apache.poi.hwpf.extractor.WordExtractor;",
+        "72": "",
+        "73": "\t\t\tWordExtractor we = new WordExtractor(doc);",
+        "27": "",
+        "28": "\t\t\tWordExtractor we = new WordExtractor(doc);"
+      },
+      "id": 73344562,
+      "filename": "ReadMainFiles.java"
+    },
+    {
+      "repo": "https://github.com/stepjacky/jackysoft-basic-core.git",
+      "language": "Java",
+      "linescount": 137,
+      "location": "/src/main/java/org/jackysoft/util",
+      "name": "jackysoft-basic-core",
+      "url": "https://searchcode.com/codesearch/view/72027018/",
+      "md5hash": "800191ff33157e1a3b388550c3a55248",
+      "lines": {
+        "24": "\t\t\tFileInputStream in = new FileInputStream(worf);",
+        "25": "\t\t\tWordExtractor extractor = new WordExtractor();",
+        "46": "\t\tInputStream in = new ByteArrayInputStream(content);",
+        "47": "\t\tWordExtractor extractor = new WordExtractor();"
+      },
+      "id": 72027018,
+      "filename": "TextUtils.java"
+    },
+    {
+      "repo": "https://bitbucket.org/pluppens/nsesa-diff.git",
+      "language": "Java",
+      "linescount": 703,
+      "location": "/src/main/java/org/nsesa/diff/diffUtils",
+      "name": "nsesa-diff",
+      "url": "https://searchcode.com/codesearch/view/47491544/",
+      "md5hash": "50317efc94066d2801e4690d5d9230b0",
+      "lines": {
+        "53": "",
+        "54": "    private static final WordExtractor WORD_EXTRACTOR = new WordExtractor();",
+        "23": "import org.nsesa.diff.diffUtils.word.Word;",
+        "24": "import org.nsesa.diff.diffUtils.word.WordExtractor;",
+        "25": "import org.nsesa.diff.diffUtils.word.WordExtractor.WordExtractionResult;",
+        "26": "import org.slf4j.Logger;"
+      },
+      "id": 47491544,
+      "filename": "DiffUtils.java"
+    },
+    {
+      "repo": "https://bitbucket.org/leebeckman/ucmubcae",
+      "language": "Java",
+      "linescount": 340,
+      "location": "/src/ucmsite/pagegeneration",
+      "name": "ucmubcae",
+      "url": "https://searchcode.com/codesearch/view/56511170/",
+      "md5hash": "fa0b768402fdba053d025ca95b96adce",
+      "lines": {
+        "16": "",
+        "17": "import org.apache.poi.hwpf.extractor.WordExtractor;",
+        "190": "\t\t\t\tWordExtractor extractor = new WordExtractor(inStream);",
+        "189": "\t\t",
+        "142": "\t\t",
+        "143": "\t\t\t\tWordExtractor extractor = new WordExtractor(inStream);"
+      },
+      "id": 56511170,
+      "filename": "GoogleAccessor.java"
+    },
+    {
+      "repo": "http://cleartk.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 162,
+      "location": "/cleartk-token/src/main/java/org/cleartk/token/tokenizer/chunk",
+      "name": "cleartk",
+      "url": "https://searchcode.com/codesearch/view/3362994/",
+      "md5hash": "3f31c06c0eec4eb26bff1c58644f4266",
+      "lines": {
+        "128": "        labeledAnnotationClass,",
+        "129": "        wordExtractor,",
+        "106": "        labeledAnnotationClass,",
+        "107": "        wordExtractor,",
+        "112": "        labeledAnnotationClass,",
+        "113": "        wordExtractor,",
+        "83": "",
+        "84": "    SimpleFeatureExtractor wordExtractor = new CoveredTextExtractor();",
+        "119": "        labeledAnnotationClass,",
+        "120": "        wordExtractor,",
+        "89": "    this.simpleFeatureExtractors.add(new ProliferatingExtractor(",
+        "90": "        wordExtractor,"
+      },
+      "id": 3362994,
+      "filename": "ChunkTokenizerFeatureExtractor.java"
+    },
+    {
+      "repo": "https://bitbucket.org/interactivemediamanagement/converge-1.x.git",
+      "language": "Java",
+      "linescount": 632,
+      "location": "/converge-server/modules/converge-ejb/src/main/java/dk/i2m/converge/ejb/services",
+      "name": "converge-1.x",
+      "url": "https://searchcode.com/codesearch/view/39694366/",
+      "md5hash": "b311db830b776f2d84011b89583da41d",
+      "lines": {
+        "49": "import org.apache.poi.hwpf.HWPFDocument;",
+        "50": "import org.apache.poi.hwpf.extractor.WordExtractor;",
+        "622": "                HWPFDocument doc = new HWPFDocument(originalFile.openStream());",
+        "623": "                WordExtractor extractor = new WordExtractor(doc);"
+      },
+      "id": 39694366,
+      "filename": "MetaDataService.java"
+    },
+    {
+      "repo": "https://bitbucket.org/johnnywsd/java-extractemailfromdocdocxpdftxt.git",
+      "language": "Java",
+      "linescount": 30,
+      "location": "/shoudaw/msword",
+      "name": "java-extractemailfromdocdocxpdftxt",
+      "url": "https://searchcode.com/codesearch/view/51905615/",
+      "md5hash": "7dcf9a408bc424cfbaf5f91e7743265a",
+      "lines": {
+        "14": "\t\t\tHWPFDocument document=new HWPFDocument(new FileInputStream(filePath));",
+        "5": "import org.apache.poi.hwpf.HWPFDocument;",
+        "6": "import org.apache.poi.hwpf.extractor.WordExtractor;",
+        "15": "\t\t\tWordExtractor extractor = new WordExtractor(document);"
+      },
+      "id": 51905615,
+      "filename": "MsWordDoc.java"
+    },
+    {
+      "repo": "https://github.com/SorinS/axiom-stack.git",
+      "language": "Java",
+      "linescount": 93,
+      "location": "/src/java/axiom/util",
+      "name": "axiom-stack",
+      "url": "https://searchcode.com/codesearch/view/107461104/",
+      "md5hash": "f15b52799630b1d8e39906fafdf7b9a8",
+      "lines": {
+        "62": "\t    return we.getText();",
+        "59": "",
+        "60": "\tpublic static String msWordExtractor(InputStream is) throws Exception {",
+        "61": "\t    WordExtractor we = new WordExtractor(is);",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "31": "import org.apache.poi.hwpf.extractor.WordExtractor;"
+      },
+      "id": 107461104,
+      "filename": "TextExtractor.java"
+    },
+    {
+      "repo": "https://github.com/lib-uoguelph-ca/dspace-ug.git",
+      "language": "Java",
+      "linescount": 111,
+      "location": "/dspace-api/src/main/java/org/dspace/app/mediafilter",
+      "name": "dspace-ug",
+      "url": "https://searchcode.com/codesearch/view/109454202/",
+      "md5hash": "eb3c2ef847ccc41d4fbfc41f545cbaea",
+      "lines": {
+        "42": "",
+        "43": "import org.textmining.text.extraction.WordExtractor;",
+        "93": "        // pass to filter, get string back",
+        "94": "        WordExtractor e = new WordExtractor();"
+      },
+      "id": 109454202,
+      "filename": "WordFilter.java"
+    },
+    {
+      "repo": "https://github.com/pperalta/recipe-index.git",
+      "language": "Java",
+      "linescount": 36,
+      "location": "/src/test/java/org/blackbeanbag/recipe/poi",
+      "name": "recipe-index",
+      "url": "https://searchcode.com/codesearch/view/112538974/",
+      "md5hash": "dc90b2b1ca11297965721e9231c845d0",
+      "lines": {
+        "8": "",
+        "9": "import org.apache.poi.hwpf.extractor.WordExtractor;",
+        "26": "        WordExtractor extractor = new WordExtractor(fs);",
+        "25": ""
+      },
+      "id": 112538974,
+      "filename": "WordDocPoiTest.java"
+    },
+    {
+      "repo": "https://github.com/pperalta/recipe-index.git",
+      "language": "Java",
+      "linescount": 74,
+      "location": "/src/main/java/org/blackbeanbag/recipe/scanners",
+      "name": "recipe-index",
+      "url": "https://searchcode.com/codesearch/view/112538995/",
+      "md5hash": "38fa4d7e6bcf2ed73fc8de18900aa50f",
+      "lines": {
+        "35": "            POIFSFileSystem fs = new POIFSFileSystem(new FileInputStream(file));",
+        "36": "            WordExtractor extractor = new WordExtractor(fs);",
+        "6": "import org.apache.lucene.document.TextField;",
+        "7": "import org.apache.poi.hwpf.extractor.WordExtractor;"
+      },
+      "id": 112538995,
+      "filename": "WordScanner.java"
+    },
+    {
+      "repo": "http://docdoku.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 231,
+      "location": "/DocDoku-ear/DocDoku-ejb/src/main/java/com/docdoku/server",
+      "name": "docdoku",
+      "url": "https://searchcode.com/codesearch/view/8591933/",
+      "md5hash": "f55fa907a1cca9f68137597a49c91ee7",
+      "lines": {
+        "160": "                InputStream wordStream = new BufferedInputStream(new FileInputStream(pathName));",
+        "161": "                WordExtractor wordExtractor = new WordExtractor(wordStream);",
+        "162": "                Reader contentReader = new StringReader(wordExtractor.getText());",
+        "163": "                wordStream.close();",
+        "56": "import org.apache.poi.hslf.extractor.PowerPointExtractor;",
+        "57": "import org.apache.poi.hwpf.extractor.WordExtractor;"
+      },
+      "id": 8591933,
+      "filename": "IndexerBean.java"
+    },
+    {
+      "repo": "http://filesearch.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 111,
+      "location": "/filesearch/SearchLocalFile/src/com/searchlocal/filereader",
+      "name": "filesearch",
+      "url": "https://searchcode.com/codesearch/view/14046017/",
+      "md5hash": "df1e61c6ce21120c34de9659095a05b9",
+      "lines": {
+        "88": "\t\tfor (int i = 0; i < strs.length; i++) {",
+        "82": "",
+        "11": "import org.apache.poi.hwpf.extractor.WordExtractor;",
+        "83": "\tprivate List getBeanList(WordExtractor extractor, WordFileBean file) {",
+        "89": "\t\t\tString content = WordExtractor.stripFields(strs[i]);",
+        "10": "import org.apache.poi.POIXMLDocument;",
+        "59": "\t\t\t} else {",
+        "60": "\t\t\t\tWordExtractor extractor = new WordExtractor(inputStream);"
+      },
+      "id": 14046017,
+      "filename": "WordReader.java"
+    },
+    {
+      "repo": "https://github.com/manoja328/DocumentClustering.git",
+      "language": "Java",
+      "linescount": 52,
+      "location": "/DocumentClustering/src/indexerHouse",
+      "name": "DocumentClustering",
+      "url": "https://searchcode.com/codesearch/view/76013528/",
+      "md5hash": "c9a5e1543a427274e0badeba4550d47f",
+      "lines": {
+        "28": "                  HWPFDocument doc = new HWPFDocument(fs);                   ",
+        "29": "\t\t  WordExtractor we = new WordExtractor(doc);               "
+      },
+      "id": 76013528,
+      "filename": "DocumentFileParsing.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 22,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 14,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 13,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 1,
+      "source": "Gitorious",
+      "id": 10
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "matchterm": "FormulaType",
+  "previouspage": null,
+  "searchterm": "FormulaType",
+  "query": "FormulaType",
+  "language_filters": [
+    {
+      "count": 22,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 22,
+  "results": [
+    {
+      "repo": "http://sewebar-cms.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 145,
+      "location": "/tools/izi_repository/src/main/java/izi_repository/clustering/service",
+      "name": "sewebar-cms",
+      "url": "https://searchcode.com/codesearch/view/63757032/",
+      "md5hash": "07b62f999d514b54d450446fae4bd769",
+      "lines": {
+        "64": "",
+        "65": "\t\tlogger.logInfo(this.getClass().toString(), \"CLUSTERING - Settings: BelongingLimit = \" + belongingLimit + \" | DistanceFormula = \" + formulaType);",
+        "123": "\tprivate List<Result> getResultsToReproces(List<Cluster> clusters, double belongingLimit, String formulaType) {",
+        "133": "\t\t\t\t\tResult result = clusterResults.get(i);",
+        "134": "\t\t\t\t\tdouble distance = ResultCharacteristicsComputer.compare(centroid, result, formulaType);",
+        "73": "\t\t\t\tfor (int i = 0; i < clusters.size(); i++) {",
+        "74": "\t\t\t\t\tdistances[i] = ResultCharacteristicsComputer.compare(clusters.get(i).getCentroid(), result, formulaType);",
+        "122": "\t",
+        "89": "\t\t",
+        "90": "\t\tList<Result> resultsToReprocess = getResultsToReproces(clusters, belongingLimit, formulaType);",
+        "59": "\t\t",
+        "60": "\t\tString formulaType = null;",
+        "61": "\t\tif (params != null) {",
+        "62": "\t\t\tformulaType = params.getClusterDistanceFormula();"
+      },
+      "id": 63757032,
+      "filename": "ClusteringServiceImpl.java"
+    },
+    {
+      "repo": "https://github.com/Berico-Technologies/mondrian.git",
+      "language": "Java",
+      "linescount": 2123,
+      "location": "/src/main/mondrian/olap",
+      "name": "mondrian",
+      "url": "https://searchcode.com/codesearch/view/69454857/",
+      "md5hash": "c646b3853573ab17e39b33862ee83ff6",
+      "lines": {
+        "1121": "                                .MdxCalculatedFormulaUsedOnSlicer.ex(",
+        "1090": "                // or formula",
+        "1091": "                String formulaType = formula.isMember()",
+        "1130": "                    .MdxCalculatedFormulaUsedInQuery.ex(",
+        "1131": "                        formulaType, uniqueName, Util.unparse(this));",
+        "1122": "                                    formulaType, uniqueName);",
+        "1102": "                                .MdxCalculatedFormulaUsedOnAxis.ex(",
+        "1103": "                                    formulaType,",
+        "1107": "                        } else if (parent instanceof Formula) {",
+        "1108": "                            String parentFormulaType =",
+        "1115": "                                .MdxCalculatedFormulaUsedInFormula.ex(",
+        "1116": "                                    formulaType, uniqueName, parentFormulaType,"
+      },
+      "id": 69454857,
+      "filename": "Query.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1069,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642368/",
+      "md5hash": "28d644f6963548f6234cc54a47085ba2",
+      "lines": {
+        "832": "    public Ptg[] getRPNPtg(int formulaType) {",
+        "833": "        Node node = createTree();",
+        "834": "        setRootLevelRVA(node, formulaType);",
+        "835": "        setParameterRVA(node,formulaType);",
+        "836": "        return (Ptg[]) tokens.toArray(new Ptg[0]);",
+        "838": "    ",
+        "839": "    private void setRootLevelRVA(Node n, int formulaType) {",
+        "841": "        Ptg p = (Ptg) n.getValue();",
+        "842": "            if (formulaType == FormulaParser.FORMULA_TYPE_NAMEDRANGE) {",
+        "853": "    ",
+        "854": "    private void setParameterRVA(Node n, int formulaType) {",
+        "858": "            for (int i =0;i<numOperands;i++) {",
+        "859": "                setParameterRVA(n.getChild(i),((AbstractFunctionPtg)p).getParameterClass(i),formulaType);",
+        "860": "//                if (n.getChild(i).getValue() instanceof AbstractFunctionPtg) {",
+        "831": "    "
+      },
+      "id": 15642368,
+      "filename": "FormulaParser.java"
+    },
+    {
+      "repo": "https://bitbucket.org/mad_fau/xcalc",
+      "language": "Java",
+      "linescount": 152,
+      "location": "/src/de/fau/cs/i2/mad/xcalc/common/formulaElements/base",
+      "name": "xcalc",
+      "url": "https://searchcode.com/codesearch/view/137289451/",
+      "md5hash": "9a71b1fce4e7cec365386fd66801dc05",
+      "lines": {
+        "64": "",
+        "65": "\tpublic Atom(FORMULA_ELEMENT_TYPE formulaType) {",
+        "66": "\t\tthis.formulaType = formulaType;",
+        "67": "\t}",
+        "68": "",
+        "69": "\tpublic final FORMULA_ELEMENT_TYPE getFormulaType() {",
+        "70": "\t\treturn formulaType;",
+        "71": "\t}",
+        "62": "",
+        "63": "\tprivate final FORMULA_ELEMENT_TYPE formulaType;"
+      },
+      "id": 137289451,
+      "filename": "Atom.java"
+    },
+    {
+      "repo": "https://bitbucket.org/dyp/geotools.git",
+      "language": "Java",
+      "linescount": 24158,
+      "location": "/modules/extension/xsd/xsd-gml3/src/main/java/org/geotools/gml3",
+      "name": "geotools",
+      "url": "https://searchcode.com/codesearch/view/47141155/",
+      "md5hash": "8eeb9781b9ffc98a2804f176c20853c5",
+      "lines": {
+        "1": "package org.geotools.gml3;",
+        "2": "",
+        "3": "import java.util.ArrayList;",
+        "4": "import java.util.Collections;",
+        "5": "import java.util.LinkedHashSet;",
+        "6": "import java.util.List;",
+        "7": "import java.util.Set;",
+        "8": "",
+        "9": "import org.geotools.feature.NameImpl;",
+        "10": "import org.geotools.feature.type.AttributeDescriptorImpl;",
+        "11": "import org.geotools.feature.type.AttributeTypeImpl;",
+        "12": "import org.geotools.feature.type.ComplexTypeImpl;",
+        "13": "import org.geotools.feature.type.ProfileImpl;",
+        "14": "import org.geotools.feature.type.SchemaImpl;",
+        "15": "import org.geotools.gml3.smil.SMIL20LANGSchema;"
+      },
+      "id": 47141155,
+      "filename": "GMLSchema.java"
+    },
+    {
+      "repo": "https://bitbucket.org/dyp/geotools.git",
+      "language": "Java",
+      "linescount": 3462,
+      "location": "/modules/extension/xsd/xsd-gml3/src/main/java/org/geotools/gml3",
+      "name": "geotools",
+      "url": "https://searchcode.com/codesearch/view/47141158/",
+      "md5hash": "2d862b356929425b59135def3a1888da",
+      "lines": {
+        "730": "    /** @generated */",
+        "731": "    public static final QName FormulaType = new QName(\"http://www.opengis.net/gml\", \"FormulaType\");"
+      },
+      "id": 47141158,
+      "filename": "GML.java"
+    },
+    {
+      "repo": "https://bitbucket.org/dyp/geotools.git",
+      "language": "Java",
+      "linescount": 23351,
+      "location": "/modules/extension/xsd/xsd-gml3/src/main/java/org/geotools/gml3/v3_2",
+      "name": "geotools",
+      "url": "https://searchcode.com/codesearch/view/47141166/",
+      "md5hash": "c4348a3fc1c10abe2d713e3b50023c97",
+      "lines": {
+        "9576": "    ",
+        "9574": "     */",
+        "9575": "    public static final ComplexType FORMULATYPE_TYPE = build_FORMULATYPE_TYPE();",
+        "5224": "                    new AttributeDescriptorImpl(",
+        "9577": "    private static ComplexType build_FORMULATYPE_TYPE() {",
+        "9578": "        ComplexType builtType = new AbstractLazyComplexTypeImpl(",
+        "9579": "                new NameImpl(\"http://www.opengis.net/gml/3.2\",\"FormulaType\"),",
+        "5192": "     *                  &lt;element name=\"factor\" type=\"double\"/&gt;",
+        "5193": "     *                  &lt;element name=\"formula\" type=\"gml:FormulaType\"/&gt;",
+        "9559": "     *   <code>",
+        "9560": "     *  &lt;complexType name=\"FormulaType\"&gt;",
+        "5225": "                        FORMULATYPE_TYPE,"
+      },
+      "id": 47141166,
+      "filename": "GMLSchema.java"
+    },
+    {
+      "repo": "https://bitbucket.org/dyp/geotools.git",
+      "language": "Java",
+      "linescount": 2780,
+      "location": "/modules/extension/xsd/xsd-gml3/src/main/java/org/geotools/gml3/v3_2",
+      "name": "geotools",
+      "url": "https://searchcode.com/codesearch/view/47141168/",
+      "md5hash": "d323604e4f6ef9fe8fbc9fb32f19452d",
+      "lines": {
+        "594": "    /** @generated */",
+        "595": "    public static final QName FormulaType = ",
+        "596": "        new QName(\"http://www.opengis.net/gml/3.2\",\"FormulaType\");",
+        "597": "    /** @generated */"
+      },
+      "id": 47141168,
+      "filename": "GML.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 5111,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970697/",
+      "md5hash": "f6740268ba4be4778508748ca1c3becc",
+      "lines": {
+        "65": "import org.zkoss.poi.ss.formula.FormulaRenderer;",
+        "66": "import org.zkoss.poi.ss.formula.FormulaType;",
+        "1827": "\t\t\treturn FormulaParser.parse(formula, fpb, FormulaType.CELL, wb.getSheetIndex(sheet));",
+        "1122": "        Ptg[] ptgs = FormulaParser.parse(formula, fpb, FormulaType.CELL, sheetIndex);",
+        "1121": "        XSSFEvaluationWorkbook fpb = XSSFEvaluationWorkbook.create(sheet.getWorkbook());",
+        "2441": "        XSSFEvaluationWorkbook fpb = XSSFEvaluationWorkbook.create(book);",
+        "2442": "        Ptg[] ptgs = FormulaParser.parse(formula, fpb, FormulaType.CELL, sheetIndex);",
+        "1826": "\t\t\tfinal FormulaParsingWorkbook fpb = XSSFEvaluationWorkbook.create(wb); "
+      },
+      "id": 3970697,
+      "filename": "BookHelper.java"
+    },
+    {
+      "repo": "https://bitbucket.org/manticoretrader/etltools",
+      "language": "Java",
+      "linescount": 297,
+      "location": "/src/com/manticore/report",
+      "name": "etltools",
+      "url": "https://searchcode.com/codesearch/view/121321570/",
+      "md5hash": "7585d5862f58929ffd0917b3367eea3f",
+      "lines": {
+        "90": "\t\t\t\t\t\t\t\tPtg[] ptgs",
+        "91": "\t\t\t\t\t\t\t\t\t  = FormulaParser.parse(oldFormula, parsingWorkbook, FormulaType.CELL,",
+        "250": "\t\t\tPtg[] ptgs",
+        "251": "\t\t\t\t  = FormulaParser.parse(oldFormula, parsingWorkbook, FormulaType.CELL, workbook.getSheetIndex(sheet));"
+      },
+      "id": 121321570,
+      "filename": "ExcelTools.java"
+    },
+    {
+      "repo": "http://sewebar-cms.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 123,
+      "location": "/tools/izi_repository/src/main/java/izi_repository/clustering/computing",
+      "name": "sewebar-cms",
+      "url": "https://searchcode.com/codesearch/view/63757031/",
+      "md5hash": "026a12a11224335b45a4ba2796489b2d",
+      "lines": {
+        "32": "\t\t\tClusteringDistanceFormulaType formulaTypeMapped = ClusteringDistanceFormulaType",
+        "33": "\t\t\t\t\t.convert(formulaType);",
+        "34": "",
+        "3": "import izi_repository.domain.Centroid;",
+        "4": "import izi_repository.domain.arbquery.querysettings.ClusteringDistanceFormulaType;",
+        "50": "\t\t\tswitch (formulaTypeMapped) {",
+        "49": "",
+        "29": "\t */",
+        "30": "\tpublic static double compare(Centroid centroid, Result result, String formulaType) {",
+        "31": "\t\tif (centroid != null && result != null) {"
+      },
+      "id": 63757031,
+      "filename": "ResultCharacteristicsComputer.java"
+    },
+    {
+      "repo": "https://github.com/bshults/bitnots.git",
+      "language": "Java",
+      "linescount": 1681,
+      "location": "",
+      "name": "bitnots",
+      "url": "https://searchcode.com/codesearch/view/64950097/",
+      "md5hash": "dc4d0699eaa55e2017f77bce9c32dfcf",
+      "lines": {
+        "1156": "\t\t\tmatch(LITERAL_and);",
+        "1157": "\t\t\tform=formulaType(bvs, others);",
+        "1190": "\t\t\tmatch(LITERAL_or);",
+        "1191": "\t\t\tform=formulaType(bvs, others);",
+        "267": "\t\tid=identifier();",
+        "268": "\t\tf=formulaType(bvs, others);",
+        "1165": "\t\t\t\tif ((LA(1)==OPEN_P)) {",
+        "1166": "\t\t\t\t\tform=formulaType(bvs, others);",
+        "1199": "\t\t\t\tif ((LA(1)==OPEN_P)) {",
+        "1200": "\t\t\t\t\tform=formulaType(bvs, others);",
+        "435": "\t\tid=identifier();",
+        "436": "\t\tf=formulaType(bvs, others);",
+        "787": "*/",
+        "788": "\tpublic final Formula  formulaType(",
+        "28": "* Each matched element returns an object of the type that corresponds",
+        "29": "* to it (ie. matching a formulaType will return a Formula object)."
+      },
+      "id": 64950097,
+      "filename": "BitnotsParser.java"
+    },
+    {
+      "repo": "https://bitbucket.org/mad_fau/xcalc",
+      "language": "Java",
+      "linescount": 86,
+      "location": "/src/de/fau/cs/i2/mad/xcalc/common/formulaElements/base",
+      "name": "xcalc",
+      "url": "https://searchcode.com/codesearch/view/137289450/",
+      "md5hash": "22c274762df8407f9a804e937bd454da",
+      "lines": {
+        "41": "",
+        "42": "\tpublic CharSymbol(FORMULA_ELEMENT_TYPE formulaType) {",
+        "43": "\t\tsuper(formulaType);",
+        "44": "\t}"
+      },
+      "id": 137289450,
+      "filename": "CharSymbol.java"
+    },
+    {
+      "repo": "https://bitbucket.org/manticoretrader/etltools",
+      "language": "Java",
+      "linescount": 82,
+      "location": "/src",
+      "name": "etltools",
+      "url": "https://searchcode.com/codesearch/view/121321450/",
+      "md5hash": "55c7924873922e4c366114d00a2577bf",
+      "lines": {
+        "67": "//        Ptg[] ptgs",
+        "68": "//                = FormulaParser.parse(formula, parsingWorkbook, FormulaType.CELL,",
+        "13": "import org.apache.poi.ss.formula.FormulaRenderingWorkbook;",
+        "14": "import org.apache.poi.ss.formula.FormulaType;"
+      },
+      "id": 121321450,
+      "filename": "ExcelFormulaParser.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1242,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970692/",
+      "md5hash": "7da77111e27cd710cd143cdee57bc0a6",
+      "lines": {
+        "43": "import org.zkoss.poi.ss.formula.FormulaRenderer;",
+        "44": "import org.zkoss.poi.ss.formula.FormulaType;",
+        "277": "            if (formula != null) {",
+        "278": "                Ptg[] ptgs = FormulaParser.parse(formula, fpb, FormulaType.NAMEDRANGE, sheetIndex);"
+      },
+      "id": 3970692,
+      "filename": "XSSFSheetImpl.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 431,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970717/",
+      "md5hash": "7316273b22d01b3aaca97abfed972abf",
+      "lines": {
+        "32": "import org.zkoss.poi.ss.formula.FormulaParser;",
+        "33": "import org.zkoss.poi.ss.formula.FormulaType;",
+        "312": "\t\t\tfinal Ptg[] ptgs = FormulaParser.parse(formula, XSSFEvaluationWorkbook.create(this), FormulaType.NAMEDRANGE, name.getSheetIndex());",
+        "311": "\t\t\tfinal String formula = name.getRefersToFormula();"
+      },
+      "id": 3970717,
+      "filename": "XSSFBookImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/jimdowning/jumbo-converters",
+      "language": "Java",
+      "linescount": 1777,
+      "location": "/jumbo-converters-molecule/src/main/java/org/xmlcml/cml/converters/molecule/mdl",
+      "name": "jumbo-converters",
+      "url": "https://searchcode.com/codesearch/view/53975626/",
+      "md5hash": "0a42cb7c2da3b6e627e79ac2a5a5a660",
+      "lines": {
+        "853": "            } else if (line.startsWith(MDLTag.M_STY.tag)) {",
+        "854": "                // Sgroup FormulaType, defines SGroup"
+      },
+      "id": 53975626,
+      "filename": "MDLConverter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/wwmm/jumbo-converters",
+      "language": "Java",
+      "linescount": 1841,
+      "location": "/jumbo-converters-molecule/src/main/java/org/xmlcml/cml/converters/molecule/mdl",
+      "name": "jumbo-converters",
+      "url": "https://searchcode.com/codesearch/view/54631644/",
+      "md5hash": "fe5edfd4f38dfd3e97abf3205bd67685",
+      "lines": {
+        "900": "            } else if (line.startsWith(MDLTag.M_STY.tag)) {",
+        "901": "                // Sgroup FormulaType, defines SGroup"
+      },
+      "id": 54631644,
+      "filename": "MDLConverter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/cjh1/jumbo-converters",
+      "language": "Java",
+      "linescount": 1841,
+      "location": "/jumbo-converters-molecule/jumbo-converters-molecule-mdl/src/main/java/org/xmlcml/cml/converters/molecule/mdl",
+      "name": "jumbo-converters",
+      "url": "https://searchcode.com/codesearch/view/62721999/",
+      "md5hash": "fe5edfd4f38dfd3e97abf3205bd67685",
+      "lines": {
+        "900": "            } else if (line.startsWith(MDLTag.M_STY.tag)) {",
+        "901": "                // Sgroup FormulaType, defines SGroup"
+      },
+      "id": 62721999,
+      "filename": "MDLConverter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/petermr/jumbo-converters",
+      "language": "Java",
+      "linescount": 1841,
+      "location": "/jumbo-converters-molecule/jumbo-converters-molecule-mdl/src/main/java/org/xmlcml/cml/converters/molecule/mdl",
+      "name": "jumbo-converters",
+      "url": "https://searchcode.com/codesearch/view/125427486/",
+      "md5hash": "fe5edfd4f38dfd3e97abf3205bd67685",
+      "lines": {
+        "900": "            } else if (line.startsWith(MDLTag.M_STY.tag)) {",
+        "901": "                // Sgroup FormulaType, defines SGroup"
+      },
+      "id": 125427486,
+      "filename": "MDLConverter.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 14,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 5,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

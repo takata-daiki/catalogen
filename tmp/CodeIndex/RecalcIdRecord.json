@@ -1,0 +1,78 @@
+{
+  "matchterm": "RecalcIdRecord",
+  "previouspage": null,
+  "searchterm": "RecalcIdRecord",
+  "query": "RecalcIdRecord",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 174,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642373/",
+      "md5hash": "c9f3cd06fccbd60dd07fff7cec3f91c4",
+      "lines": {
+        "62": "public class RecalcIdRecord",
+        "70": "    public RecalcIdRecord()",
+        "79": "    public RecalcIdRecord(RecordInputStream in)",
+        "61": "",
+        "78": "",
+        "69": ""
+      },
+      "id": 15642373,
+      "filename": "RecalcIdRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 2351,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642358/",
+      "md5hash": "2f47d8e4aa73ffbba0d056d2a6f68eee",
+      "lines": {
+        "832": "            if ( record.getSid() != RecalcIdRecord.sid || ( (RecalcIdRecord) record ).isNeeded() )",
+        "787": "            // Let's skip RECALCID records, as they are only use for optimization",
+        "788": "            if ( record.getSid() != RecalcIdRecord.sid || ( (RecalcIdRecord) record ).isNeeded() )",
+        "757": "////             Let's skip RECALCID records, as they are only use for optimization",
+        "758": "//\t    if(record.getSid() != RecalcIdRecord.sid || ((RecalcIdRecord)record).isNeeded()) {",
+        "831": "            // Let's skip RECALCID records, as they are only use for optimization"
+      },
+      "id": 15642358,
+      "filename": "Workbook.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "96": "                PaletteRecord.class, StringRecord.class, RecalcIdRecord.class, SharedFormulaRecord.class,",
+        "95": "                ObjRecord.class, TextObjectRecord.class,"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "126772642",
+  "filename": "SingleSheetsReportTest.java",
+  "url": "https://searchcode.com/codesearch/view/126772642/",
+  "lines": {
+    "52": "\t\t\tXSSFWorkbook workbook = new XSSFWorkbook(inputStream);\n",
+    "53": "\t\t\tassertNotNull(workbook);\n",
+    "55": "\t\t\tassertEquals( 1, workbook.getNumberOfSheets() );\n",
+    "56": "\t\t\tassertEquals( \"Number Formats Test Report\", workbook.getSheetAt(0).getSheetName());\n",
+    "58": "\t\t\tassertEquals(11, firstNullRow(workbook.getSheetAt(0)));\n",
+    "60": "\t\t\tassertEquals( false, workbook.getSheetAt(0).isDisplayGridlines());\n",
+    "61": "\t\t\tassertEquals( false, workbook.getSheetAt(0).isDisplayRowColHeadings());\n",
+    "113": "\t\t\tassertEquals( \"Multiple Sheets - Break in sub-\", workbook.getSheetAt(0).getSheetName());\n",
+    "115": "\t\t\tassertEquals(11, firstNullRow(workbook.getSheetAt(0)));\t\t\n",
+    "170": "\t\t\tassertEquals(196, firstNullRow(workbook.getSheetAt(0)));\n",
+    "188": "\t\t\tassertEquals(192, firstNullRow(workbook.getSheetAt(0)));\n"
+  }
+}

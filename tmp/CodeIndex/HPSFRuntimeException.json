@@ -1,0 +1,290 @@
+{
+  "matchterm": "HPSFRuntimeException",
+  "previouspage": null,
+  "searchterm": "HPSFRuntimeException",
+  "query": "HPSFRuntimeException",
+  "language_filters": [
+    {
+      "count": 15,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 15,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/src/org/apache/poi/hpsf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383477/",
+      "md5hash": "7e5c6c54654a1f8c24e42f2c4e84c16f",
+      "lines": {
+        "67": "     */",
+        "68": "    public HPSFRuntimeException(final Throwable reason)",
+        "38": "    /**",
+        "39": "     * <p>Creates a new {@link HPSFRuntimeException}.</p>",
+        "40": "     */",
+        "41": "    public HPSFRuntimeException()",
+        "76": "    /**",
+        "77": "     * <p>Creates a new {@link HPSFRuntimeException} with a message",
+        "48": "    /**",
+        "49": "     * <p>Creates a new {@link HPSFRuntimeException} with a message",
+        "83": "     */",
+        "84": "    public HPSFRuntimeException(final String msg, final Throwable reason)",
+        "53": "     */",
+        "54": "    public HPSFRuntimeException(final String msg)",
+        "28": " */",
+        "29": "public class HPSFRuntimeException extends RuntimeException"
+      },
+      "id": 97383477,
+      "filename": "HPSFRuntimeException.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 173,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642698/",
+      "md5hash": "c89c170ff2dc69981e8b1da57f6e8c24",
+      "lines": {
+        "64": "    /**",
+        "65": "     * <p>Creates a new {@link HPSFRuntimeException}.</p>",
+        "66": "     */",
+        "67": "    public HPSFRuntimeException()",
+        "102": "    /**",
+        "103": "     * <p>Creates a new {@link HPSFRuntimeException} with a message",
+        "74": "    /**",
+        "75": "     * <p>Creates a new {@link HPSFRuntimeException} with a message",
+        "109": "     */",
+        "110": "    public HPSFRuntimeException(final String msg, final Throwable reason)",
+        "79": "     */",
+        "80": "    public HPSFRuntimeException(final String msg)",
+        "51": " * href=\"mailto:klute@rainer-klute.de\">&lt;klute@rainer-klute.de&gt;</a>",
+        "52": " * @version $Id: HPSFRuntimeException.java 489730 2006-12-22 19:18:16Z bayard $",
+        "54": " */",
+        "55": "public class HPSFRuntimeException extends RuntimeException"
+      },
+      "id": 15642698,
+      "filename": "HPSFRuntimeException.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 145,
+      "location": "/src/org/apache/poi/hpsf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383355/",
+      "md5hash": "0098a047dda7c497c0d2a37dc611b6ea",
+      "lines": {
+        "140": "            throw new HPSFRuntimeException(ex);",
+        "139": "            /* This should never happen. */",
+        "116": "            /* This should never happen. */",
+        "117": "            throw new HPSFRuntimeException(ex);"
+      },
+      "id": 97383355,
+      "filename": "PropertySetFactory.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 123,
+      "location": "/ppt/poi/org/apache/poi/hpsf",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97398126/",
+      "md5hash": "bb0e6127f1776772f4d6b0cc0809e990",
+      "lines": {
+        "118": "            throw new HPSFRuntimeException(ex);",
+        "117": "            /* This should never happen. */",
+        "94": "            /* This should never happen. */",
+        "95": "            throw new HPSFRuntimeException(ex);"
+      },
+      "id": 97398126,
+      "filename": "PropertySetFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 740,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642671/",
+      "md5hash": "4af2341597b1380f5573c853dfcdca4d",
+      "lines": {
+        "353": "            {",
+        "354": "                throw new HPSFRuntimeException(ex);",
+        "707": "            throw new HPSFRuntimeException(",
+        "347": "            }",
+        "348": "            catch (HPSFRuntimeException ex)",
+        "706": "        else"
+      },
+      "id": 15642671,
+      "filename": "MutableSection.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 693,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642682/",
+      "md5hash": "ff8411e428f7ed19092d0d8bd80636ae",
+      "lines": {
+        "416": "        if (!(o instanceof Long || o instanceof Integer))",
+        "417": "            throw new HPSFRuntimeException",
+        "298": "                if (type != Variant.VT_I2)",
+        "299": "                    throw new HPSFRuntimeException"
+      },
+      "id": 15642682,
+      "filename": "Section.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 149,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642686/",
+      "md5hash": "2dd1096c5bed6b6135df6d36350a80c1",
+      "lines": {
+        "120": "            /* This should never happen. */",
+        "121": "            throw new HPSFRuntimeException(ex);",
+        "144": "            throw new HPSFRuntimeException(ex);",
+        "143": "            /* This should never happen. */"
+      },
+      "id": 15642686,
+      "filename": "PropertySetFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 101,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642673/",
+      "md5hash": "5fda4edf8c72ca35fca224e56362bdf8",
+      "lines": {
+        "54": " */",
+        "55": "public class MissingSectionException extends HPSFRuntimeException"
+      },
+      "id": 15642673,
+      "filename": "MissingSectionException.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 701,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642675/",
+      "md5hash": "c2188c129ae22690bf1bc62c31e01c84",
+      "lines": {
+        "682": "        else",
+        "683": "            throw new HPSFRuntimeException(\"Illegal internal format of Document SummaryInformation stream: second section is missing.\");"
+      },
+      "id": 15642675,
+      "filename": "DocumentSummaryInformation.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 722,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642677/",
+      "md5hash": "c696e553c12e15e63de30c0e97a23a85",
+      "lines": {
+        "452": "        if (sectionCount <= 0)",
+        "453": "            throw new HPSFRuntimeException(\"Section count \" + sectionCount +"
+      },
+      "id": 15642677,
+      "filename": "PropertySet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 450,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642683/",
+      "md5hash": "8fa7785e3864553983ffce8b9a33e916",
+      "lines": {
+        "224": "            throw new HPSFRuntimeException",
+        "223": "        if (offset < 0 || offset > src.length)"
+      },
+      "id": 15642683,
+      "filename": "Property.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 103,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642689/",
+      "md5hash": "4b424db2a991f0c0820cdd7e2cdc376a",
+      "lines": {
+        "56": " */",
+        "57": "public class NoSingleSectionException extends HPSFRuntimeException"
+      },
+      "id": 15642689,
+      "filename": "NoSingleSectionException.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 100,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642692/",
+      "md5hash": "4447aa42dc696b272bf85d9665770957",
+      "lines": {
+        "53": " */",
+        "54": "public class NoFormatIDException extends HPSFRuntimeException"
+      },
+      "id": 15642692,
+      "filename": "NoFormatIDException.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 331,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642695/",
+      "md5hash": "4da3210542af1db464b9a8750c859f7c",
+      "lines": {
+        "257": "            }",
+        "258": "            catch (HPSFRuntimeException ex)"
+      },
+      "id": 15642695,
+      "filename": "MutablePropertySet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 105,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642700/",
+      "md5hash": "1744598aa12c35db65e13a4e3ba73713",
+      "lines": {
+        "54": " */",
+        "55": "public class IllegalPropertySetDataException extends HPSFRuntimeException"
+      },
+      "id": 15642700,
+      "filename": "IllegalPropertySetDataException.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 15,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

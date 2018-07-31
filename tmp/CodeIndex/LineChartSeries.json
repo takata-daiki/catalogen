@@ -1,0 +1,191 @@
+{
+  "matchterm": "LineChartSeries",
+  "previouspage": null,
+  "searchterm": "LineChartSeries",
+  "query": "LineChartSeries",
+  "language_filters": [
+    {
+      "count": 8,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 8,
+  "results": [
+    {
+      "repo": "http://primefaces.googlecode.com/svn/primefaces/trunk/",
+      "language": "Java",
+      "linescount": 114,
+      "location": "/src/main/java/org/primefaces/model/chart",
+      "name": "primefaces",
+      "url": "https://searchcode.com/codesearch/view/2686616/",
+      "md5hash": "586c84bcce788d29ae3f3c9805b3d1e7",
+      "lines": {
+        "32": "    public LineChartSeries(String title) {",
+        "20": "",
+        "21": "public class LineChartSeries extends ChartSeries {",
+        "29": "",
+        "30": "    public LineChartSeries() {}",
+        "31": ""
+      },
+      "id": 2686616,
+      "filename": "LineChartSeries.java"
+    },
+    {
+      "repo": "https://github.com/KimKiesel/kimsrepo.git",
+      "language": "Java",
+      "linescount": 80,
+      "location": "/src/main/java/de/kimkiesel/fahrtenbuch/web/model",
+      "name": "kimsrepo",
+      "url": "https://searchcode.com/codesearch/view/75533388/",
+      "md5hash": "fe1b9dcf56fef6a5f2fcfeb69ae5c5fd",
+      "lines": {
+        "27": "\t\tLineChartSeries copEfficiencyLevel3 = new LineChartSeries(\"COP = 3.0\");",
+        "24": "\t\tchartModel.clear();",
+        "25": "\t\tLineChartSeries avgDailyTempSeries = new LineChartSeries(",
+        "10": "import org.primefaces.model.chart.CartesianChartModel;",
+        "11": "import org.primefaces.model.chart.LineChartSeries;",
+        "28": "\t\tLineChartSeries copEfficiencyLevel35 = new LineChartSeries(\"COP = 3.5\");",
+        "26": "\t\t\t\t\"Average Daily Temperature\");",
+        "29": "\t\tint counter = 0;"
+      },
+      "id": 75533388,
+      "filename": "ClimateReportModel.java"
+    },
+    {
+      "repo": "http://primefaces.googlecode.com/svn/primefaces/trunk/",
+      "language": "Java",
+      "linescount": 177,
+      "location": "/src/main/java/org/primefaces/component/chart/line",
+      "name": "primefaces",
+      "url": "https://searchcode.com/codesearch/view/2686427/",
+      "md5hash": "0296e54c5d91b39d3f07516cbaf23466",
+      "lines": {
+        "140": "                writer.write(\",markerOptions:{show:\" + chart.isShowMarkers()+ \", style:'\" + lineChartSeries.getMarkerStyle() + \"'}\");",
+        "139": "                writer.write(\",showLine:\" + lineChartSeries.isShowLine());",
+        "136": "",
+        "137": "            if(series instanceof LineChartSeries) {",
+        "138": "                LineChartSeries  lineChartSeries = (LineChartSeries) series;",
+        "27": "import org.primefaces.model.chart.ChartSeries;",
+        "28": "import org.primefaces.model.chart.LineChartSeries;",
+        "141": "            }"
+      },
+      "id": 2686427,
+      "filename": "LineChartRenderer.java"
+    },
+    {
+      "repo": "https://github.com/klozjeff/ySchool.git",
+      "language": "Java",
+      "linescount": 449,
+      "location": "/yschool/src/main/java/org/yarlithub/yschool/web/analytics",
+      "name": "ySchool",
+      "url": "https://searchcode.com/codesearch/view/95918345/",
+      "md5hash": "6a5ec19b035ef78d67be9944e0aa68ce",
+      "lines": {
+        "160": "",
+        "161": "            lowerBound = new LineChartSeries();",
+        "3": "import org.primefaces.model.chart.CartesianChartModel;",
+        "4": "import org.primefaces.model.chart.LineChartSeries;",
+        "147": "        if (!olSubjectPrediction.isCheck()) {",
+        "148": "            LineChartSeries upperBound = new LineChartSeries();",
+        "85": "//",
+        "86": "//        LineChartSeries termMarks = new LineChartSeries();",
+        "120": "",
+        "121": "        LineChartSeries termMarks = new LineChartSeries();",
+        "122": "        LineChartSeries lowerBound = null;",
+        "123": ""
+      },
+      "id": 95918345,
+      "filename": "AnalyticsStudentHomeBean.java"
+    },
+    {
+      "repo": "https://github.com/klozjeff/ySchool.git",
+      "language": "Java",
+      "linescount": 388,
+      "location": "/yschool/src/main/java/org/yarlithub/yschool/web/analytics",
+      "name": "ySchool",
+      "url": "https://searchcode.com/codesearch/view/95918353/",
+      "md5hash": "a66840f0b49acda4bacf2224f1a30a67",
+      "lines": {
+        "208": "        LineChartSeries termGrade = new LineChartSeries();",
+        "209": "        LineChartSeries generalGrade = new LineChartSeries();",
+        "210": "",
+        "165": "",
+        "166": "        LineChartSeries termGrade = new LineChartSeries();",
+        "167": "        LineChartSeries generalGrade = new LineChartSeries();",
+        "168": "",
+        "6": "import org.primefaces.model.chart.ChartSeries;",
+        "7": "import org.primefaces.model.chart.LineChartSeries;",
+        "207": ""
+      },
+      "id": 95918353,
+      "filename": "AnalyticsExaminationHomeBean.java"
+    },
+    {
+      "repo": "https://bitbucket.org/chatcharin/lotcontrol.git",
+      "language": "Java",
+      "linescount": 673,
+      "location": "/src/java/com/tct/dashboard/report",
+      "name": "lotcontrol",
+      "url": "https://searchcode.com/codesearch/view/66661034/",
+      "md5hash": "2d7254e960048f727d20be72474d352d",
+      "lines": {
+        "176": "//            LineChartSeries series1 = new LineChartSeries();  ",
+        "175": "            print(\"Test10\");"
+      },
+      "id": 66661034,
+      "filename": "DefectTotalReportControl.java"
+    },
+    {
+      "repo": "https://github.com/sam2555/darkdoggy.git",
+      "language": "Java",
+      "linescount": 47,
+      "location": "/DOG-war/src/java/com/dog/controllers",
+      "name": "darkdoggy",
+      "url": "https://searchcode.com/codesearch/view/98911695/",
+      "md5hash": "e4646823c11c4e1ed97c8ebced9cd9d2",
+      "lines": {
+        "25": "        model = new LineChartModel();",
+        "26": "        LineChartSeries series1 = new LineChartSeries();",
+        "13": "import org.primefaces.model.chart.LineChartModel;",
+        "14": "import org.primefaces.model.chart.LineChartSeries;"
+      },
+      "id": 98911695,
+      "filename": "ChartBean.java"
+    },
+    {
+      "repo": "https://github.com/klozjeff/ySchool.git",
+      "language": "Java",
+      "linescount": 53,
+      "location": "/yschool/src/main/java/org/yarlithub/yschool/web/analytics",
+      "name": "ySchool",
+      "url": "https://searchcode.com/codesearch/view/95918347/",
+      "md5hash": "07f5378813f4fbd3c99ed0e92e3060a7",
+      "lines": {
+        "4": "import org.primefaces.model.chart.CartesianChartModel;",
+        "5": "import org.primefaces.model.chart.LineChartSeries;"
+      },
+      "id": 95918347,
+      "filename": "AnalyticsErrorBean.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 5,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 2,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

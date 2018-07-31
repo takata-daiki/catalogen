@@ -1,0 +1,85 @@
+{
+  "matchterm": "AbstractWordUtils",
+  "previouspage": null,
+  "searchterm": "AbstractWordUtils",
+  "query": "AbstractWordUtils",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 529,
+      "location": "/src/org/apache/poi/hwpf/converter",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383984/",
+      "md5hash": "b325d8787324a3ef4914153a604b19e4",
+      "lines": {
+        "49": "@Beta",
+        "50": "public class AbstractWordUtils",
+        "54": "    private static final POILogger logger = POILogFactory",
+        "55": "            .getLogger( AbstractWordUtils.class );"
+      },
+      "id": 97383984,
+      "filename": "AbstractWordUtils.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1219,
+      "location": "/src/org/apache/poi/hwpf/converter",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383976/",
+      "md5hash": "a222c0be0731737a174a7721c959c7e2",
+      "lines": {
+        "32": "import org.apache.poi.hwpf.HWPFDocumentCore;",
+        "33": "import org.apache.poi.hwpf.converter.AbstractWordUtils.NumberingState;",
+        "930": "                    : picture.getDxaGoal() / AbstractWordUtils.TWIPS_PER_INCH;",
+        "928": "            final float imageWidth = aspectRatioX > 0 ? picture.getDxaGoal()",
+        "932": "                    * aspectRatioY / 1000 / AbstractWordUtils.TWIPS_PER_INCH",
+        "933": "                    : picture.getDyaGoal() / AbstractWordUtils.TWIPS_PER_INCH;",
+        "934": "",
+        "929": "                    * aspectRatioX / 1000 / AbstractWordUtils.TWIPS_PER_INCH",
+        "881": "                    String text = matcher.group( 2 );",
+        "882": "                    if ( AbstractWordUtils.isNotEmpty( text ) )",
+        "931": "            final float imageHeight = aspectRatioY > 0 ? picture.getDyaGoal()",
+        "1113": "                processParagraph( wordDocument, flow, currentTableLevel,",
+        "1114": "                        paragraph, AbstractWordUtils.EMPTY );",
+        "1094": "                    String label = AbstractWordUtils.getBulletText(",
+        "1093": ""
+      },
+      "id": 97383976,
+      "filename": "AbstractWordConverter.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 747,
+      "location": "/src/org/apache/poi/hwpf/converter",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383966/",
+      "md5hash": "26fefb68f3e9024bc39626c516856a5c",
+      "lines": {
+        "51": "",
+        "52": "import static org.apache.poi.hwpf.converter.AbstractWordUtils.TWIPS_PER_INCH;"
+      },
+      "id": 97383966,
+      "filename": "WordToHtmlConverter.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

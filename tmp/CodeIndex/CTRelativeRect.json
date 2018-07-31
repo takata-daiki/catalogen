@@ -1,0 +1,408 @@
+{
+  "matchterm": "CTRelativeRect",
+  "previouspage": null,
+  "searchterm": "CTRelativeRect",
+  "query": "CTRelativeRect",
+  "language_filters": [
+    {
+      "count": 17,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 17,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403065/",
+      "md5hash": "652eaf47922de38b7c8c0ddc62761693",
+      "lines": {
+        "16": "public interface CTRelativeRect extends org.apache.xmlbeans.XmlObject",
+        "19": "        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CTRelativeRect.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sE130CAA0A01A7CDE5A2B4FEB8B311707\").resolveHandle(\"ctrelativerecta4ebtype\");",
+        "18": "    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect",
+        "15": " */"
+      },
+      "id": 97403065,
+      "filename": "CTRelativeRect.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 176,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642064/",
+      "md5hash": "c0ab4b3c584374073e4e1fefc5c49921",
+      "lines": {
+        "51": "@XmlType(name = \"CT_RelativeRect\")",
+        "52": "public class CTRelativeRect {"
+      },
+      "id": 17642064,
+      "filename": "CTRelativeRect.java"
+    },
+    {
+      "repo": "https://github.com/isdom/POI-Android.git",
+      "language": "Java",
+      "linescount": 194,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/88642300/",
+      "md5hash": "cb5ede23cef11b6cb1ad5b3ac28a4c15",
+      "lines": {
+        "65": "            check_orphaned();",
+        "66": "            org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect target = null;",
+        "35": "            check_orphaned();",
+        "36": "            org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect target = null;",
+        "37": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect)get_store().find_element_user(FILLTORECT$0, 0);",
+        "38": "            if (target == null)",
+        "83": "            check_orphaned();",
+        "78": "     */",
+        "79": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect addNewFillToRect()",
+        "67": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect)get_store().find_element_user(FILLTORECT$0, 0);",
+        "84": "            org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect target = null;",
+        "85": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect)get_store().add_element_user(FILLTORECT$0);",
+        "68": "            if (target == null)",
+        "70": "                target = (org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect)get_store().add_element_user(FILLTORECT$0);",
+        "69": "            {"
+      },
+      "id": 88642300,
+      "filename": "CTPathShadePropertiesImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 194,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403428/",
+      "md5hash": "cb5ede23cef11b6cb1ad5b3ac28a4c15",
+      "lines": {
+        "65": "            check_orphaned();",
+        "66": "            org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect target = null;",
+        "35": "            check_orphaned();",
+        "36": "            org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect target = null;",
+        "37": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect)get_store().find_element_user(FILLTORECT$0, 0);",
+        "38": "            if (target == null)",
+        "83": "            check_orphaned();",
+        "78": "     */",
+        "79": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect addNewFillToRect()",
+        "67": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect)get_store().find_element_user(FILLTORECT$0, 0);",
+        "84": "            org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect target = null;",
+        "85": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect)get_store().add_element_user(FILLTORECT$0);",
+        "68": "            if (target == null)",
+        "70": "                target = (org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect)get_store().add_element_user(FILLTORECT$0);",
+        "69": "            {"
+      },
+      "id": 97403428,
+      "filename": "CTPathShadePropertiesImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 516,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403692/",
+      "md5hash": "beafb5eb004c28fead24cbdcef087dbc",
+      "lines": {
+        "290": "     */",
+        "291": "    public void setTileRect(org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect tileRect)",
+        "260": "     */",
+        "261": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect getTileRect()",
+        "295": "            check_orphaned();",
+        "296": "            org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect target = null;",
+        "265": "            check_orphaned();",
+        "266": "            org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect target = null;",
+        "267": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect)get_store().find_element_user(TILERECT$6, 0);",
+        "268": "            if (target == null)",
+        "300": "                target = (org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect)get_store().add_element_user(TILERECT$6);",
+        "308": "     */",
+        "297": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect)get_store().find_element_user(TILERECT$6, 0);",
+        "299": "            {",
+        "298": "            if (target == null)",
+        "309": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect addNewTileRect()"
+      },
+      "id": 97403692,
+      "filename": "CTGradientFillPropertiesImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 100,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403744/",
+      "md5hash": "768eee1892a7eaa97428f1d8ca67b18f",
+      "lines": {
+        "64": "            org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect target = null;",
+        "33": "            check_orphaned();",
+        "34": "            org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect target = null;",
+        "35": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect)get_store().find_element_user(FILLRECT$0, 0);",
+        "36": "            if (target == null)",
+        "65": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect)get_store().find_element_user(FILLRECT$0, 0);",
+        "83": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect)get_store().add_element_user(FILLRECT$0);",
+        "76": "     */",
+        "66": "            if (target == null)",
+        "77": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect addNewFillRect()",
+        "82": "            org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect target = null;",
+        "67": "            {",
+        "84": "            return target;",
+        "68": "                target = (org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect)get_store().add_element_user(FILLRECT$0);",
+        "63": "            check_orphaned();"
+      },
+      "id": 97403744,
+      "filename": "CTStretchInfoPropertiesImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 516,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403821/",
+      "md5hash": "b37b1c2e949bc43ec1c3d852d3163861",
+      "lines": {
+        "160": "     */",
+        "161": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect addNewSrcRect()",
+        "150": "            if (target == null)",
+        "165": "            check_orphaned();",
+        "167": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect)get_store().add_element_user(SRCRECT$2);",
+        "168": "            return target;",
+        "142": "     */",
+        "143": "    public void setSrcRect(org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect srcRect)",
+        "112": "     */",
+        "113": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect getSrcRect()",
+        "147": "            check_orphaned();",
+        "148": "            org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect target = null;",
+        "117": "            check_orphaned();",
+        "118": "            org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect target = null;",
+        "119": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect)get_store().find_element_user(SRCRECT$2, 0);",
+        "166": "            org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect target = null;",
+        "149": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect)get_store().find_element_user(SRCRECT$2, 0);"
+      },
+      "id": 97403821,
+      "filename": "CTBlipFillPropertiesImpl.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 109,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17641979/",
+      "md5hash": "3249effdbcdf9a13c62c450b291ad80c",
+      "lines": {
+        "64": "     *     possible object is",
+        "65": "     *     {@link CTRelativeRect }",
+        "67": "     */",
+        "68": "    public CTRelativeRect getFillToRect() {",
+        "55": "",
+        "56": "    protected CTRelativeRect fillToRect;",
+        "80": "    public void setFillToRect(CTRelativeRect value) {",
+        "76": "     *     allowed object is",
+        "77": "     *     {@link CTRelativeRect }",
+        "79": "     */"
+      },
+      "id": 17641979,
+      "filename": "CTPathShadeProperties.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 81,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642046/",
+      "md5hash": "d771656faba1fd2f0bb523418fb7a51a",
+      "lines": {
+        "64": "    public CTRelativeRect getFillRect() {",
+        "76": "    public void setFillRect(CTRelativeRect value) {",
+        "53": "",
+        "54": "    protected CTRelativeRect fillRect;",
+        "72": "     *     allowed object is",
+        "73": "     *     {@link CTRelativeRect }",
+        "75": "     */",
+        "60": "     *     possible object is",
+        "61": "     *     {@link CTRelativeRect }",
+        "63": "     */"
+      },
+      "id": 17642046,
+      "filename": "CTStretchInfoProperties.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 216,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642118/",
+      "md5hash": "9f4203dd64023b10a7de40bda873b43e",
+      "lines": {
+        "64": "    protected CTPathShadeProperties path;",
+        "65": "    protected CTRelativeRect tileRect;",
+        "162": "     */",
+        "147": "     *     possible object is",
+        "148": "     *     {@link CTRelativeRect }",
+        "163": "    public void setTileRect(CTRelativeRect value) {",
+        "150": "     */",
+        "151": "    public CTRelativeRect getTileRect() {",
+        "160": "     *     {@link CTRelativeRect }",
+        "159": "     *     allowed object is"
+      },
+      "id": 17642118,
+      "filename": "CTGradientFillProperties.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 218,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642236/",
+      "md5hash": "f67c55c58fe76a6ac72b34d296d949ec",
+      "lines": {
+        "64": "    protected CTRelativeRect srcRect;",
+        "113": "     *     allowed object is",
+        "114": "     *     {@link CTRelativeRect }",
+        "116": "     */",
+        "101": "     *     possible object is",
+        "102": "     *     {@link CTRelativeRect }",
+        "104": "     */",
+        "105": "    public CTRelativeRect getSrcRect() {",
+        "117": "    public void setSrcRect(CTRelativeRect value) {",
+        "63": "    protected CTBlip blip;"
+      },
+      "id": 17642236,
+      "filename": "CTBlipFillProperties.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 3480,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642161/",
+      "md5hash": "ecaf98912e449049698e790afd5f5c5a",
+      "lines": {
+        "993": "    /**",
+        "994": "     * Create an instance of {@link CTRelativeRect }",
+        "996": "     */",
+        "997": "    public CTRelativeRect createCTRelativeRect() {",
+        "998": "        return new CTRelativeRect();",
+        "999": "    }"
+      },
+      "id": 17642161,
+      "filename": "ObjectFactory.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 82,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402101/",
+      "md5hash": "6c7f93f6022002a947d733005eddc945",
+      "lines": {
+        "33": "     */",
+        "34": "    void setFillToRect(org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect fillToRect);",
+        "38": "     */",
+        "23": "     */",
+        "24": "    org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect getFillToRect();",
+        "39": "    org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect addNewFillToRect();"
+      },
+      "id": 97402101,
+      "filename": "CTPathShadeProperties.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 187,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402389/",
+      "md5hash": "da6d8cefe6ace4a5d46b92126abda0a2",
+      "lines": {
+        "48": "     */",
+        "49": "    org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect getSrcRect();",
+        "64": "    org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect addNewSrcRect();",
+        "58": "     */",
+        "59": "    void setSrcRect(org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect srcRect);",
+        "63": "     */"
+      },
+      "id": 97402389,
+      "filename": "CTBlipFillProperties.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 256,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402677/",
+      "md5hash": "7ca14e14ed2b897542984e3f1afb4126",
+      "lines": {
+        "113": "     */",
+        "98": "     */",
+        "99": "    org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect getTileRect();",
+        "114": "    org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect addNewTileRect();",
+        "108": "     */",
+        "109": "    void setTileRect(org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect tileRect);"
+      },
+      "id": 97402677,
+      "filename": "CTGradientFillProperties.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 52,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402937/",
+      "md5hash": "4d29f364357b16834e8db0fb7e32e674",
+      "lines": {
+        "33": "     */",
+        "34": "    void setFillRect(org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect fillRect);",
+        "38": "     */",
+        "23": "     */",
+        "24": "    org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect getFillRect();",
+        "39": "    org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect addNewFillRect();"
+      },
+      "id": 97402937,
+      "filename": "CTStretchInfoProperties.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 432,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403903/",
+      "md5hash": "ece33d993725101f76559cf44369e90a",
+      "lines": {
+        "16": "    ",
+        "17": "    public CTRelativeRectImpl(org.apache.xmlbeans.SchemaType sType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect",
+        "13": " */",
+        "14": "public class CTRelativeRectImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.openxmlformats.schemas.drawingml.x2006.main.CTRelativeRect"
+      },
+      "id": 97403903,
+      "filename": "CTRelativeRectImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 17,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

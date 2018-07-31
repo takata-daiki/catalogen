@@ -1,0 +1,76 @@
+{
+  "matchterm": "SheetContainer",
+  "previouspage": null,
+  "searchterm": "SheetContainer",
+  "query": "SheetContainer",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 465,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394323/",
+      "md5hash": "004c81d0c6f4e85beee2c12f2cad27b2",
+      "lines": {
+        "443": "                getSheetContainer().findFirstOfType(",
+        "102": "     */",
+        "55": "     */",
+        "56": "    private SheetContainer _container;",
+        "103": "    public SheetContainer getSheetContainer() {",
+        "442": "        RecordContainer progTags = (RecordContainer)",
+        "59": "",
+        "60": "    public Sheet(SheetContainer container, int sheetNo) {"
+      },
+      "id": 97394323,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "https://bitbucket.org/omevac_openclinica/openclinica-3.1-snaphot",
+      "language": "Java",
+      "linescount": 2595,
+      "location": "/web/src/main/java/org/akaza/openclinica/control/admin",
+      "name": "openclinica-3.1-snaphot",
+      "url": "https://searchcode.com/codesearch/view/137279953/",
+      "md5hash": "547c9772c88356f6410a7e9251059958",
+      "lines": {
+        "384": "                        sheetContainer.collectRepGrpItemNameMap(itemName, item_from_row.getGroupLabel());",
+        "385": "",
+        "1762": "                            sheetContainer.getRepeatingGroupLabels().add(groupLabel);",
+        "1761": "                        if(isRepeatingGroup) {",
+        "180": "        ItemGroupDAO itemGroupDao = new ItemGroupDAO(ds);",
+        "181": "        SheetValidationContainer sheetContainer = new SheetValidationContainer();",
+        "182": "        HashMap<String, String> allItems = (HashMap<String, String>)sheetContainer.getAllItems();",
+        "183": "        //HashMap<String, String> allItems = new HashMap<String, String>();",
+        "185": "        int maxItemFormMetadataId = new ItemFormMetadataDAO(ds).findMaxId();",
+        "186": "        OnChangeSheetValidator instantValidator = new OnChangeSheetValidator(sheetContainer, resPageMsg);",
+        "382": "",
+        "383": "                        sheetContainer.getItemSectionNameMap().put(itemName, secName);"
+      },
+      "id": 137279953,
+      "filename": "SpreadSheetTableRepeating.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

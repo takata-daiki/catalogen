@@ -1,0 +1,107 @@
+{
+  "matchterm": "AttachmentChunks",
+  "previouspage": null,
+  "searchterm": "AttachmentChunks",
+  "query": "AttachmentChunks",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "https://github.com/SilverTeamWork/Silverpeas-Core.git",
+      "language": "Java",
+      "linescount": 207,
+      "location": "/lib-core/src/main/java/org/silverpeas/util/mail",
+      "name": "Silverpeas-Core",
+      "url": "https://searchcode.com/codesearch/view/93257122/",
+      "md5hash": "27ed54983be584e0f365e128890a8816",
+      "lines": {
+        "192": "    for (AttachmentChunks attachment : attachmentChunks) {",
+        "49": "import org.apache.poi.hsmf.MAPIMessage;",
+        "50": "import org.apache.poi.hsmf.datatypes.AttachmentChunks;",
+        "193": "      byte[] data = attachment.attachData.getValue();",
+        "189": "  public List<MailAttachment> getAttachments() throws Exception {",
+        "190": "    AttachmentChunks[] attachmentChunks = message.getAttachmentFiles();",
+        "191": "    List<MailAttachment> mailAttachments = new ArrayList<MailAttachment>(attachmentChunks.length);"
+      },
+      "id": 93257122,
+      "filename": "MSGExtractor.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ignasi35/msg-reader",
+      "language": "Java",
+      "linescount": 192,
+      "location": "/src/main/java/com/marimon",
+      "name": "msg-reader",
+      "url": "https://searchcode.com/codesearch/view/118119498/",
+      "md5hash": "60eb9b0468e7f4ac0d8c051c88c1f214",
+      "lines": {
+        "123": "                    for (AttachmentChunks attachment : attachments) {",
+        "147": "     */",
+        "118": "",
+        "119": "            AttachmentChunks[] attachments = msg.getAttachmentFiles();",
+        "148": "    public void processAttachment(final AttachmentChunks attachment,",
+        "26": "import org.apache.poi.hsmf.MAPIMessage;",
+        "27": "import org.apache.poi.hsmf.datatypes.AttachmentChunks;",
+        "122": "                if (d.mkdir()) {"
+      },
+      "id": 118119498,
+      "filename": "Msg2Txt.java"
+    },
+    {
+      "repo": "https://github.com/isdom/POI-Android.git",
+      "language": "Java",
+      "linescount": 190,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hsmf/parsers",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/88636100/",
+      "md5hash": "9c88a7698cc287ccc385a9389ab3678d",
+      "lines": {
+        "64": "            // Do we know what to do with it?",
+        "65": "            if(dir.getName().startsWith(AttachmentChunks.PREFIX)) {",
+        "66": "               group = new AttachmentChunks(dir.getName());",
+        "67": "            }",
+        "22": "",
+        "23": "import org.apache.poi.hsmf.datatypes.AttachmentChunks;"
+      },
+      "id": 88636100,
+      "filename": "POIFSChunkParser.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 159,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785566/",
+      "md5hash": "1bd627ff1780999303003935848497a1",
+      "lines": {
+        "116": "           ",
+        "117": "           for (AttachmentChunks attachment : msg.getAttachmentFiles()) {",
+        "22": "import org.apache.poi.hsmf.MAPIMessage;",
+        "23": "import org.apache.poi.hsmf.datatypes.AttachmentChunks;"
+      },
+      "id": 111785566,
+      "filename": "OutlookExtractor.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

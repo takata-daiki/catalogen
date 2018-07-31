@@ -1,0 +1,73 @@
+{
+  "matchterm": "CellFormatResult",
+  "previouspage": null,
+  "searchterm": "CellFormatResult",
+  "query": "CellFormatResult",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 49,
+      "location": "/zss/src/org/zkoss/zss/model",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970679/",
+      "md5hash": "b33fd77dd9db3f30fb93808e579c26c6",
+      "lines": {
+        "32": "\t * Returns whether the formatted text a CellFormatResult.",
+        "33": "\t * @return whether a CellFormatResult.",
+        "34": "\t */",
+        "35": "\tpublic boolean isCellFormatResult();",
+        "37": "\t/**",
+        "38": "\t * Returns the CellFormatResult.",
+        "39": "\t * @return the CellFormatResult.",
+        "40": "\t */",
+        "41": "\tpublic CellFormatResult getCellFormatResult();",
+        "15": "",
+        "16": "import org.zkoss.poi.ss.format.CellFormatResult;",
+        "31": "\t/**"
+      },
+      "id": 3970679,
+      "filename": "FormatText.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 56,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970694/",
+      "md5hash": "239d697d9bbfeca469552485777aea1c",
+      "lines": {
+        "16": "import org.zkoss.poi.ss.format.CellFormatResult;",
+        "42": "\t",
+        "47": "\tpublic CellFormatResult getCellFormatResult() {",
+        "25": "public class FormatTextImpl implements FormatText {",
+        "26": "\tprivate final CellFormatResult _result;",
+        "43": "\tpublic boolean isCellFormatResult() {",
+        "28": "\t",
+        "29": "\tpublic FormatTextImpl(CellFormatResult result) {",
+        "46": "\t",
+        "15": ""
+      },
+      "id": 3970694,
+      "filename": "FormatTextImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "matchterm": "ExtSSTRecord",
+  "previouspage": null,
+  "searchterm": "ExtSSTRecord",
+  "query": "ExtSSTRecord",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 212,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642410/",
+      "md5hash": "d4a879741d165ef9e64c29c8aac5e9a9",
+      "lines": {
+        "82": "",
+        "83": "    public ExtSSTRecord(RecordInputStream in)",
+        "72": "",
+        "73": "    public ExtSSTRecord()",
+        "60": "",
+        "61": "public class ExtSSTRecord"
+      },
+      "id": 15642410,
+      "filename": "ExtSSTRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 2351,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642358/",
+      "md5hash": "2f47d8e4aa73ffbba0d056d2a6f68eee",
+      "lines": {
+        "1792": "     * @see loci.poi.hssf.record.ExtSSTRecord",
+        "1793": "     * @see loci.poi.hssf.record.Record",
+        "835": "                    sst = (SSTRecord)record;",
+        "836": "                if (record.getSid() == ExtSSTRecord.sid && sst != null)",
+        "837": "                    retval += sst.calcExtSSTRecordSize();",
+        "838": "                else",
+        "1797": "        ExtSSTRecord retval = new ExtSSTRecord();",
+        "798": "                    record = sst.createExtSSTRecord(sstPos + offset);",
+        "1796": "    protected Record createExtendedSST() {",
+        "795": "                }",
+        "796": "                if (record.getSid() == ExtSSTRecord.sid && sst != null)",
+        "797": "                {",
+        "1790": "     *",
+        "1791": "     * @return record containing an ExtSSTRecord"
+      },
+      "id": 15642358,
+      "filename": "Workbook.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 479,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642381/",
+      "md5hash": "b6468b53ac2bca46a92a3e5f8c327ab0",
+      "lines": {
+        "452": "     */",
+        "453": "    public ExtSSTRecord createExtSSTRecord(int sstOffset)",
+        "473": "     */",
+        "457": "",
+        "458": "        ExtSSTRecord extSST = new ExtSSTRecord();",
+        "475": "    {",
+        "476": "      return ExtSSTRecord.getRecordSizeForStrings(field_3_strings.size());",
+        "474": "    public int calcExtSSTRecordSize()"
+      },
+      "id": 15642381,
+      "filename": "SSTRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 140,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642472/",
+      "md5hash": "7688b5b952c30a8c519d6dcfc16c5174",
+      "lines": {
+        "96": "            if (k % ExtSSTRecord.DEFAULT_BUCKET_SIZE == 0)",
+        "97": "            {",
+        "98": "              int index = k/ExtSSTRecord.DEFAULT_BUCKET_SIZE;",
+        "99": "              if (index < ExtSSTRecord.MAX_BUCKETS) {",
+        "100": "                //Excel only indexes the first 128 buckets.",
+        "71": "",
+        "72": "        int infoRecs = ExtSSTRecord.getNumberOfInfoRecsForStrings(strings.size());",
+        "95": "        {"
+      },
+      "id": 15642472,
+      "filename": "SSTSerializer.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642343/",
+      "md5hash": "468caa59753e7c2d27a76f3903f70894",
+      "lines": {
+        "72": "import loci.poi.hssf.record.ExtSSTRecord;",
+        "168": "                CountryRecord.class, SSTRecord.class, ExtSSTRecord.class,",
+        "167": "                StyleRecord.class, UseSelFSRecord.class, BoundSheetRecord.class,",
+        "71": "import loci.poi.hssf.record.EOFRecord;"
+      },
+      "id": 15642343,
+      "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 146,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642469/",
+      "md5hash": "a36282fccfe138400adf166de4fa6b1a",
+      "lines": {
+        "56": " * @see loci.poi.hssf.record.ExtSSTRecord",
+        "55": " * @version 2.0-pre"
+      },
+      "id": 15642469,
+      "filename": "ExtSSTInfoSubRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "77": "                StyleRecord.class, UseSelFSRecord.class, BoundSheetRecord.class,",
+        "78": "                CountryRecord.class, SSTRecord.class, ExtSSTRecord.class,"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

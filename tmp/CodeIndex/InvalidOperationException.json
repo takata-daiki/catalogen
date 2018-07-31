@@ -1,0 +1,434 @@
+{
+  "matchterm": "InvalidOperationException",
+  "previouspage": null,
+  "searchterm": "InvalidOperationException",
+  "query": "InvalidOperationException",
+  "language_filters": [
+    {
+      "count": 240,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 240,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/aicas/rdt",
+      "language": "Java",
+      "linescount": 192,
+      "location": "/translator/src/main/java/org/charter_project/graph/analysis",
+      "name": "rdt",
+      "url": "https://searchcode.com/codesearch/view/133404907/",
+      "md5hash": "abe83736be865397a62ebb8beefd39df",
+      "lines": {
+        "36": "   */",
+        "37": "  public static InvalidOperationException disallowed(ExpressionType type,",
+        "40": "  {",
+        "41": "    return new InvalidOperationException(\"The argument type \" + type +",
+        "10": "/**",
+        "11": " * An <code>InvalidOperationException</code> is a {@link AnnotationException}",
+        "17": " */",
+        "18": "public class InvalidOperationException extends AnnotationException",
+        "51": "  /**",
+        "52": "   * Throws an <code>InvalidOperationException</code> for a",
+        "54": "   */",
+        "23": "  /** Explicitly inherited constructor of the supertype. */",
+        "24": "  public InvalidOperationException(String message,",
+        "55": "  public static InvalidOperationException duplicate(ExpressionType type,",
+        "30": "  /**",
+        "31": "   * Throws an <code>InvalidOperationException</code> for a"
+      },
+      "id": 133404907,
+      "filename": "InvalidOperationException.java"
+    },
+    {
+      "repo": "https://bitbucket.org/aicas/rdt",
+      "language": "Java",
+      "linescount": 192,
+      "location": "/src/org/charter_project/graph/analysis",
+      "name": "rdt",
+      "url": "https://searchcode.com/codesearch/view/61364232/",
+      "md5hash": "c6529bd529b0b4fc48976fff89f4bb4e",
+      "lines": {
+        "36": "   */",
+        "37": "  public static InvalidOperationException disallowed(ExpressionType type,",
+        "40": "  {",
+        "41": "    return new InvalidOperationException(\"The argument type \" + type +",
+        "10": "/**",
+        "11": " * An <code>InvalidOperationException</code> is a {@link AnnotationException}",
+        "17": " */",
+        "18": "public class InvalidOperationException extends AnnotationException",
+        "51": "  /**",
+        "52": "   * Throws an <code>InvalidOperationException</code> for a",
+        "54": "   */",
+        "23": "  /** Explicitly inherited constructor of the supertype. */",
+        "24": "  public InvalidOperationException(String message,",
+        "55": "  public static InvalidOperationException duplicate(ExpressionType type,",
+        "30": "  /**",
+        "31": "   * Throws an <code>InvalidOperationException</code> for a"
+      },
+      "id": 61364232,
+      "filename": "InvalidOperationException.java"
+    },
+    {
+      "repo": "https://github.com/sujeet/IITMSAT-Ground-Station.git",
+      "language": "Java",
+      "linescount": 13,
+      "location": "/src/data_Ccsds/Packets",
+      "name": "IITMSAT-Ground-Station",
+      "url": "https://searchcode.com/codesearch/view/71154337/",
+      "md5hash": "f9dffdf4ab511e54b543ced2d6062ddd",
+      "lines": {
+        "2": "",
+        "3": "public class InvalidOperationException extends Exception {",
+        "6": "",
+        "7": "    public InvalidOperationException(String message) {"
+      },
+      "id": 71154337,
+      "filename": "InvalidOperationException.java"
+    },
+    {
+      "repo": "https://bitbucket.org/lipstonej/equation-parser.git",
+      "language": "Java",
+      "linescount": 71,
+      "location": "/lipstone/joshua/parser/exceptions",
+      "name": "equation-parser",
+      "url": "https://searchcode.com/codesearch/view/42524906/",
+      "md5hash": "b8a2ad6146d70207f8f090ac68f6c694",
+      "lines": {
+        "21": "\t */",
+        "22": "\tpublic InvalidOperationException(ParserPlugin thrower, String operation, ArrayList<String> parameters) {",
+        "55": "\t */",
+        "56": "\tpublic InvalidOperationException(String message, ParserPlugin thrower, String operation, ArrayList<String> parameters) {",
+        "6": "",
+        "7": "public class InvalidOperationException extends ParserException {"
+      },
+      "id": 42524906,
+      "filename": "InvalidOperationException.java"
+    },
+    {
+      "repo": "https://bitbucket.org/pmuir/weld-test",
+      "language": "Java",
+      "linescount": 48,
+      "location": "/core/trunk/impl/src/main/java/org/jboss/weld",
+      "name": "weld-test",
+      "url": "https://searchcode.com/codesearch/view/54301848/",
+      "md5hash": "578f3a89d45a009f118c9cbeaab914a3",
+      "lines": {
+        "37": "",
+        "38": "   public InvalidOperationException()",
+        "42": "",
+        "43": "   public <E extends Enum<?>> InvalidOperationException(E key, Object... args)",
+        "29": " */",
+        "30": "public class InvalidOperationException extends UnsupportedOperationException"
+      },
+      "id": 54301848,
+      "filename": "InvalidOperationException.java"
+    },
+    {
+      "repo": "https://bitbucket.org/lipstonej/equation-parser.git",
+      "language": "Java",
+      "linescount": 72,
+      "location": "/src/lipstone/joshua/parser/exceptions",
+      "name": "equation-parser",
+      "url": "https://searchcode.com/codesearch/view/58030932/",
+      "md5hash": "d05ed6ac2595881d48540670c58c5045",
+      "lines": {
+        "56": "\t */",
+        "22": "\t */",
+        "23": "\tpublic InvalidOperationException(ParserPlugin thrower, String operation, ArrayList<ConsCell> parameters) {",
+        "8": "public class InvalidOperationException extends ParserException {",
+        "57": "\tpublic InvalidOperationException(String message, ParserPlugin thrower, String operation, ArrayList<ConsCell> parameters) {",
+        "7": ""
+      },
+      "id": 58030932,
+      "filename": "InvalidOperationException.java"
+    },
+    {
+      "repo": "https://github.com/k4th/geoportal-server.git",
+      "language": "Java",
+      "linescount": 39,
+      "location": "/geoportal/src/com/esri/gpt/server/csw/client",
+      "name": "geoportal-server",
+      "url": "https://searchcode.com/codesearch/view/98366389/",
+      "md5hash": "9c97dac807e26c3bb347e124a5bc7bb4",
+      "lines": {
+        "33": "     */",
+        "34": "    InvalidOperationException(String mssg)",
+        "19": " */",
+        "20": "public class InvalidOperationException extends Exception",
+        "24": "     */",
+        "25": "    InvalidOperationException()"
+      },
+      "id": 98366389,
+      "filename": "InvalidOperationException.java"
+    },
+    {
+      "repo": "https://bitbucket.org/pmuir/weld-test",
+      "language": "Java",
+      "linescount": 43,
+      "location": "/core/tags/1.0.0/impl/src/main/java/org/jboss/weld",
+      "name": "weld-test",
+      "url": "https://searchcode.com/codesearch/view/54302634/",
+      "md5hash": "cac09c584e89f26e2094dd282785b096",
+      "lines": {
+        "38": "   public <E extends Enum<?>> InvalidOperationException(E key, Object... args)",
+        "29": " */",
+        "30": "public class InvalidOperationException extends UnsupportedOperationException",
+        "37": ""
+      },
+      "id": 54302634,
+      "filename": "InvalidOperationException.java"
+    },
+    {
+      "repo": "git://github.com/apache/hive.git",
+      "language": "Java",
+      "linescount": 396,
+      "location": "/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api",
+      "name": "hive",
+      "url": "https://searchcode.com/codesearch/view/2485215/",
+      "md5hash": "244d4802f32283fe4cebc6d7ed683a1c",
+      "lines": {
+        "131": "   */",
+        "132": "  public InvalidOperationException(InvalidOperationException other) {",
+        "37": "@Generated(value = \"Autogenerated by Thrift Compiler (0.9.3)\")",
+        "38": "public class InvalidOperationException extends TException implements org.apache.thrift.TBase<InvalidOperationException, InvalidOperationException._Fields>, java.io.Serializable, Cloneable, Comparable<InvalidOperationException> {",
+        "39": "  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct(\"InvalidOperationException\");",
+        "40": "",
+        "137": "",
+        "138": "  public InvalidOperationException deepCopy() {",
+        "139": "    return new InvalidOperationException(this);",
+        "44": "  static {",
+        "45": "    schemes.put(StandardScheme.class, new InvalidOperationExceptionStandardSchemeFactory());",
+        "46": "    schemes.put(TupleScheme.class, new InvalidOperationExceptionTupleSchemeFactory());",
+        "140": "  }",
+        "276": "  public String toString() {",
+        "277": "    StringBuilder sb = new StringBuilder(\"InvalidOperationException(\");"
+      },
+      "id": 2485215,
+      "filename": "InvalidOperationException.java"
+    },
+    {
+      "repo": "https://github.com/AliaksandrDrebenchuk/cpf.git",
+      "language": "Java",
+      "linescount": 28,
+      "location": "/cpf-pentaho-base/src/pt/webdetails/cpf",
+      "name": "cpf",
+      "url": "https://searchcode.com/codesearch/view/95590037/",
+      "md5hash": "037b8840f0827921f1885a7309e8f047",
+      "lines": {
+        "24": "    public InvalidOperationException(Exception parent) {",
+        "19": " */",
+        "20": "public class InvalidOperationException extends Exception {",
+        "23": ""
+      },
+      "id": 95590037,
+      "filename": "InvalidOperationException.java"
+    },
+    {
+      "repo": "https://github.com/scooter/scooter.git",
+      "language": "Java",
+      "linescount": 33,
+      "location": "/source/src/com/scooterframework/common/exception",
+      "name": "scooter",
+      "url": "https://searchcode.com/codesearch/view/109376476/",
+      "md5hash": "216b2f1c7b2082896656eb8f6de9a01a",
+      "lines": {
+        "20": "",
+        "21": "\tpublic InvalidOperationException() {",
+        "24": "    ",
+        "25": "    public InvalidOperationException(String message) {",
+        "10": "/**",
+        "11": " * class InvalidOperationException",
+        "28": "    ",
+        "29": "    public InvalidOperationException(Object object, String operation, String reason) {",
+        "14": " */",
+        "15": "public class InvalidOperationException extends GenericException {"
+      },
+      "id": 109376476,
+      "filename": "InvalidOperationException.java"
+    },
+    {
+      "repo": "http://jni4net.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 58,
+      "location": "/jni4net.j/src/main/java/system",
+      "name": "jni4net",
+      "url": "https://searchcode.com/codesearch/view/2389631/",
+      "md5hash": "ba1aec31f756ccf62784ba8395832c79",
+      "lines": {
+        "34": "    @net.sf.jni4net.attributes.ClrConstructor(\"(LSystem/String;LSystem/Exception;)V\")",
+        "35": "    public InvalidOperationException(java.lang.String message, system.Exception innerException) {",
+        "36": "            super(((net.sf.jni4net.inj.INJEnv)(null)), 0);",
+        "12": "@net.sf.jni4net.attributes.ClrType",
+        "13": "public class InvalidOperationException extends system.SystemException {",
+        "17": "    ",
+        "18": "    protected InvalidOperationException(net.sf.jni4net.inj.INJEnv __env, long __handle) {",
+        "22": "    @net.sf.jni4net.attributes.ClrConstructor(\"()V\")",
+        "23": "    public InvalidOperationException() {",
+        "24": "            super(((net.sf.jni4net.inj.INJEnv)(null)), 0);",
+        "25": "        system.InvalidOperationException.__ctorInvalidOperationException0(this);",
+        "28": "    @net.sf.jni4net.attributes.ClrConstructor(\"(LSystem/String;)V\")",
+        "29": "    public InvalidOperationException(java.lang.String message) {",
+        "30": "            super(((net.sf.jni4net.inj.INJEnv)(null)), 0);",
+        "31": "        system.InvalidOperationException.__ctorInvalidOperationException1(this, message);"
+      },
+      "id": 2389631,
+      "filename": "InvalidOperationException.java"
+    },
+    {
+      "repo": "http://mobicents.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 44,
+      "location": "/protocols/smpp/src/main/java/org/mobicents/protocols/smpp",
+      "name": "mobicents",
+      "url": "https://searchcode.com/codesearch/view/57619/",
+      "md5hash": "f9cb032f386f60846afd0494ce981ff1",
+      "lines": {
+        "32": "    ",
+        "33": "    public InvalidOperationException() {",
+        "36": "    /**",
+        "37": "     * Construct a new InvalidOperationException with specified message.",
+        "38": "     */",
+        "39": "    public InvalidOperationException(String s) {",
+        "25": "/**",
+        "26": " * InvalidOperationException",
+        "27": " * ",
+        "28": " * @version $Id: InvalidOperationException.java 452 2009-01-15 16:56:36Z orank $",
+        "29": " */",
+        "30": "public class InvalidOperationException extends org.mobicents.protocols.smpp.SMPPException {"
+      },
+      "id": 57619,
+      "filename": "InvalidOperationException.java"
+    },
+    {
+      "repo": "http://jgentle.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 74,
+      "location": "/JGentleProject/src/org/jgentleframework/core",
+      "name": "jgentle",
+      "url": "https://searchcode.com/codesearch/view/12669915/",
+      "md5hash": "d7d5a8d035a48d8b888358f75ac33c2c",
+      "lines": {
+        "33": "\t */",
+        "34": "\tpublic InvalidOperationException() {",
+        "68": "\t */",
+        "69": "\tpublic InvalidOperationException(Throwable cause) {",
+        "44": "\t */",
+        "45": "\tpublic InvalidOperationException(String strEx) {",
+        "20": "/**",
+        "21": " * The Class InvalidOperationException.",
+        "57": "\t */",
+        "58": "\tpublic InvalidOperationException(String message, Throwable cause) {",
+        "27": "public class InvalidOperationException extends JGentleRuntimeException {",
+        "26": " */"
+      },
+      "id": 12669915,
+      "filename": "InvalidOperationException.java"
+    },
+    {
+      "repo": "https://bitbucket.org/atlassian/atlassian-sal.git",
+      "language": "Java",
+      "linescount": 41,
+      "location": "/sal-api/src/main/java/com/atlassian/sal/api/i18n",
+      "name": "atlassian-sal",
+      "url": "https://searchcode.com/codesearch/view/122742252/",
+      "md5hash": "fca64e895c35eea1046c04840e4c60b1",
+      "lines": {
+        "18": "@PublicApi",
+        "19": "public class InvalidOperationException extends Exception {",
+        "22": "    @Internal // Constructor is for host apps, not plugin devs",
+        "23": "    public InvalidOperationException(String message, String localizedMessage) {"
+      },
+      "id": 122742252,
+      "filename": "InvalidOperationException.java"
+    },
+    {
+      "repo": "http://jvmnotebook.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 18,
+      "location": "/misc/NeuralNetworkJava/Neural/src/org/retro/neural",
+      "name": "jvmnotebook",
+      "url": "https://searchcode.com/codesearch/view/12583738/",
+      "md5hash": "94dc45c868e0d8118a3fe04571abe85b",
+      "lines": {
+        "3": "//",
+        "4": "// $Id: InvalidOperationException.java,v 1.1.1.1 2004/04/26 13:27:31 bigbinc Exp $",
+        "10": "",
+        "11": "public class InvalidOperationException extends RuntimeException{",
+        "13": "",
+        "14": "    public InvalidOperationException(String theMessage){"
+      },
+      "id": 12583738,
+      "filename": "InvalidOperationException.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 43,
+      "location": "/src/main/java/org/docx4j/openpackaging/exceptions",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17641555/",
+      "md5hash": "8254328afaafd97da8dbd41cdbca34dc",
+      "lines": {
+        "40": "\tpublic InvalidOperationException(String message){",
+        "37": "@SuppressWarnings(\"serial\")",
+        "38": "public class InvalidOperationException extends Docx4JRuntimeException{",
+        "39": ""
+      },
+      "id": 17641555,
+      "filename": "InvalidOperationException.java"
+    },
+    {
+      "repo": "https://github.com/cloudera/hcatalog.git",
+      "language": "Java",
+      "linescount": 724,
+      "location": "/webhcat/java-client/src/main/java/org/apache/hcatalog/api",
+      "name": "hcatalog",
+      "url": "https://searchcode.com/codesearch/view/71746558/",
+      "md5hash": "b2cfd007e9af724cbdf643a30c195c26",
+      "lines": {
+        "128": "                \"InvalidOperationException while dropping db.\", e);",
+        "34": "import org.apache.hadoop.hive.metastore.api.InvalidObjectException;",
+        "35": "import org.apache.hadoop.hive.metastore.api.InvalidOperationException;",
+        "296": "                \"NoSuchObjectException while renaming table\", e);",
+        "297": "        } catch (InvalidOperationException e) {",
+        "298": "            throw new HCatException(",
+        "299": "                \"InvalidOperationException while renaming table\", e);",
+        "205": "        }",
+        "206": "        catch (InvalidOperationException e) {",
+        "207": "            throw new HCatException(\"InvalidOperationException while updating table schema.\", e);",
+        "208": "        }",
+        "125": "            }",
+        "126": "        } catch (InvalidOperationException e) {",
+        "127": "            throw new HCatException("
+      },
+      "id": 71746558,
+      "filename": "HCatClientHMSImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 104,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 65,
+      "source": "Unknown",
+      "id": 0
+    },
+    {
+      "count": 49,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 22,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

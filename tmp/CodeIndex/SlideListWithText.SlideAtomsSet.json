@@ -1,0 +1,84 @@
+{
+  "matchterm": "SlideListWithText.SlideAtomsSet",
+  "previouspage": null,
+  "searchterm": "SlideListWithText.SlideAtomsSet",
+  "query": "SlideListWithText.SlideAtomsSet",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1082,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394959/",
+      "md5hash": "5d80afff23c354813b0c27bde8e947ac",
+      "lines": {
+        "288": "\t\tSlideListWithText masterSLWT = _documentRecord.getMasterSlideListWithText();",
+        "289": "\t\tSlideListWithText slidesSLWT = _documentRecord.getSlideSlideListWithText();",
+        "38": "import org.apache.poi.hslf.record.*;",
+        "39": "import org.apache.poi.hslf.record.SlideListWithText.SlideAtomsSet;",
+        "270": "",
+        "271": "\t\t// Fetch the SlideListWithTexts in the most up-to-date Document Record",
+        "273": "\t\t// As far as we understand it:",
+        "274": "\t\t// * The first SlideListWithText will contain a SlideAtomsSet",
+        "275": "\t\t// for each of the master slides",
+        "276": "\t\t// * The second SlideListWithText will contain a SlideAtomsSet",
+        "277": "\t\t// for each of the slides, in their current order",
+        "278": "\t\t// These SlideAtomsSets will normally contain text",
+        "279": "\t\t// * The third SlideListWithText (if present), will contain a",
+        "280": "\t\t// SlideAtomsSet for each Notes",
+        "281": "\t\t// These SlideAtomsSets will not normally contain text",
+        "282": "\t\t//",
+        "287": ""
+      },
+      "id": 97394959,
+      "filename": "SlideShow.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 514,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394313/",
+      "md5hash": "346ffc55e0b7a05381ade3b094d03d17",
+      "lines": {
+        "65": "\t * @param notes the Notes sheet attached to us",
+        "66": "\t * @param atomSet the SlideAtomsSet to get the text from",
+        "67": "\t */",
+        "36": "import org.apache.poi.hslf.record.TextHeaderAtom;",
+        "37": "import org.apache.poi.hslf.record.SlideListWithText.SlideAtomsSet;",
+        "100": "            _runs[i].setIndex(-1); // runs found in PPDrawing are not linked with SlideListWithTexts",
+        "247": "\t */",
+        "77": "",
+        "78": "\t\t// For the text coming in from the SlideAtomsSet:",
+        "99": "            _runs[i].setSheet(this);",
+        "244": "\t/**",
+        "245": "\t * @return set of records inside <code>SlideListWithtext</code> container",
+        "54": "\tprivate int _slideNo;",
+        "55": "\tprivate SlideAtomsSet _atomSet;",
+        "248": "\tprotected SlideAtomsSet getSlideAtomsSet() { return _atomSet;  }",
+        "68": "\tpublic Slide(org.apache.poi.hslf.record.Slide slide, Notes notes, SlideAtomsSet atomSet, int slideIdentifier, int slideNumber) {"
+      },
+      "id": 97394313,
+      "filename": "Slide.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

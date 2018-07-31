@@ -1,0 +1,89 @@
+{
+  "matchterm": "DateFunc",
+  "previouspage": null,
+  "searchterm": "DateFunc",
+  "query": "DateFunc",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "http://datanucleus-appengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 3435,
+      "location": "/tests/com/google/appengine/datanucleus/query",
+      "name": "datanucleus-appengine",
+      "url": "https://searchcode.com/codesearch/view/56239/",
+      "md5hash": "3aab801a7e71a928c5a79dcec9a57053",
+      "lines": {
+        "3056": "",
+        "3057": "    for (String dateFunc : Arrays.asList(\"CURRENT_TIMESTAMP\", \"CURRENT_DATE\")) {",
+        "3058": "      Query q = em.createQuery(\"select from \" + KitchenSink.class.getName() + \" c where dateVal < \" + dateFunc);",
+        "3059": "      @SuppressWarnings(\"unchecked\")",
+        "3052": "",
+        "3053": "  public void testCurrentDateFuncs() {"
+      },
+      "id": 56239,
+      "filename": "JPQLQueryTest.java"
+    },
+    {
+      "repo": "https://bitbucket.org/notnull/ingres-migration-library",
+      "language": "Java",
+      "linescount": 268,
+      "location": "/IngresMigrationLibTools/src/main/java/com/ingres/model/jdbc/objects",
+      "name": "ingres-migration-library",
+      "url": "https://searchcode.com/codesearch/view/61522633/",
+      "md5hash": "f5fdf8823dd69faa6369f63b84ff7127",
+      "lines": {
+        "224": "\t\t\tfinal Function tmpFunc = new Function(this);",
+        "225": "\t\t\ttmpFunc.setName(dateFuncName);",
+        "219": "\t\tdbMetaData = jdbcConnection.getMetaData();",
+        "220": "\t\tfinal String dateFunc = dbMetaData.getTimeDateFunctions();",
+        "221": "\t\tfinal String[] dateFuncArr = dateFunc.split(\",\");",
+        "222": "\t\tfor (int i = 0; i < dateFuncArr.length; i++) {",
+        "223": "\t\t\tfinal String dateFuncName = dateFuncArr[i];"
+      },
+      "id": 61522633,
+      "filename": "Database.java"
+    },
+    {
+      "repo": "git://github.com/ebayopensource/vjet.git",
+      "language": "Java",
+      "linescount": 1709,
+      "location": "/eclipse/tests/org.ebayopensource.vjet.eclipse.test.core/src/org/ebayopensource/vjet/eclipse/core/test/contentassist",
+      "name": "vjet",
+      "url": "https://searchcode.com/codesearch/view/17323432/",
+      "md5hash": "c98b8bf64d9c3e2ac3be31f6ae1a07fd",
+      "lines": {
+        "797": "\tpublic void testDateObjectProposal() throws ModelException {",
+        "798": "\t\tString js = \"partials/DateFunc.js\";"
+      },
+      "id": 17323432,
+      "filename": "PartialCodeCompletionTests.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

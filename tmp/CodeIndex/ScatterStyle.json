@@ -1,0 +1,187 @@
+{
+  "matchterm": "ScatterStyle",
+  "previouspage": null,
+  "searchterm": "ScatterStyle",
+  "query": "ScatterStyle",
+  "language_filters": [
+    {
+      "count": 8,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 8,
+  "results": [
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 231,
+      "location": "/src/main/java/org/docx4j/dml/chart",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642281/",
+      "md5hash": "867ecc0cdf3e1877b44f9305dfcbc317",
+      "lines": {
+        "67": "    @XmlElement(required = true)",
+        "68": "    protected CTScatterStyle scatterStyle;",
+        "41": " *       &lt;sequence>",
+        "42": " *         &lt;element name=\"scatterStyle\" type=\"{http://schemas.openxmlformats.org/drawingml/2006/chart}CT_ScatterStyle\"/>",
+        "76": "    /**",
+        "77": "     * Gets the value of the scatterStyle property.",
+        "80": "     *     possible object is",
+        "81": "     *     {@link CTScatterStyle }",
+        "83": "     */",
+        "84": "    public CTScatterStyle getScatterStyle() {",
+        "85": "        return scatterStyle;",
+        "86": "    }",
+        "89": "     * Sets the value of the scatterStyle property.",
+        "88": "    /**",
+        "57": "@XmlType(name = \"CT_ScatterChart\", propOrder = {",
+        "58": "    \"scatterStyle\","
+      },
+      "id": 17642281,
+      "filename": "CTScatterChart.java"
+    },
+    {
+      "repo": "http://ofcgwt.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 165,
+      "location": "/src/com/rednels/ofcgwt/client/model/elements",
+      "name": "ofcgwt",
+      "url": "https://searchcode.com/codesearch/view/8523368/",
+      "md5hash": "ef9fa1e172eca145b1628088a886e8b6",
+      "lines": {
+        "65": "\t */",
+        "66": "\tpublic ScatterChart(ScatterStyle style) {",
+        "59": "\tpublic ScatterChart() {",
+        "36": "",
+        "37": "\tpublic static enum ScatterStyle {",
+        "56": "\t/**",
+        "57": "\t * Creates a new scatter chart with ScatterStyle.POINT style",
+        "42": "",
+        "43": "\t\tScatterStyle(String style) {",
+        "60": "\t\tthis(ScatterStyle.POINT);"
+      },
+      "id": 8523368,
+      "filename": "ScatterChart.java"
+    },
+    {
+      "repo": "http://tauruss.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 155,
+      "location": "/taurus-web/src/org/taurus/web/gwt/client/graphics",
+      "name": "tauruss",
+      "url": "https://searchcode.com/codesearch/view/4097178/",
+      "md5hash": "828c687d5e18bc363bca2dbcf7acc12b",
+      "lines": {
+        "16": "import com.rednels.ofcgwt.client.model.elements.ScatterChart.ScatterStyle;",
+        "32": "",
+        "123": "\t\tScatterChart gEjecutado = new ScatterChart(ScatterStyle.LINE);",
+        "116": "\t\tcd.setBackgroundColour(\"#ffffff\");",
+        "117": "\t\tScatterChart gPlaneado = new ScatterChart(ScatterStyle.LINE);",
+        "33": "\t\tScatterChart gEjecutado = new ScatterChart(ScatterStyle.LINE);",
+        "26": "\t\tcd.setBackgroundColour(\"#ffffff\");",
+        "27": "\t\tScatterChart gPlaneado = new ScatterChart(ScatterStyle.LINE);",
+        "122": "",
+        "15": "import com.rednels.ofcgwt.client.model.elements.LineChart.LineStyle;"
+      },
+      "id": 4097178,
+      "filename": "LineGraphic.java"
+    },
+    {
+      "repo": "http://ofcgwt.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 853,
+      "location": "/test/com/gwttest/client",
+      "name": "ofcgwt",
+      "url": "https://searchcode.com/codesearch/view/8523393/",
+      "md5hash": "1a0a9287a4d5547832622f5679d90f06",
+      "lines": {
+        "760": "\t\tScatterChart scat = new ScatterChart(ScatterStyle.LINE);",
+        "69": "import com.rednels.ofcgwt.client.model.elements.HorizontalStackedBarChart.HStack;",
+        "70": "import com.rednels.ofcgwt.client.model.elements.ScatterChart.ScatterStyle;",
+        "759": "\t\tcd.setBackgroundColour(\"#ffffff\");"
+      },
+      "id": 8523393,
+      "filename": "Demo.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 421,
+      "location": "/src/main/java/com/extentech/formats/XLS/charts",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47125025/",
+      "md5hash": "75b5cc59a191b9dcc24661dc7638c40c",
+      "lines": {
+        "268": "\t *  \t<li>barDir\t\tBar, Bar3d only",
+        "269": "\t *  \t<li>radarStyle || scatterStyle"
+      },
+      "id": 47125025,
+      "filename": "OOXMLChart.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 1442,
+      "location": "/src/main/java/com/extentech/formats/XLS/charts",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47125059/",
+      "md5hash": "0b21bee821a5233a32b79e04f8b1d228",
+      "lines": {
+        "692": "\t\t            \t ((Surface)co).setIsWireframe(v!=null && v.equals(\"1\"));",
+        "693": "\t\t             } else if (tnm.equals(\"scatterStyle\")) {"
+      },
+      "id": 47125059,
+      "filename": "ChartType.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 421,
+      "location": "/src/main/java/com/extentech/formats/XLS/charts",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976649/",
+      "md5hash": "75b5cc59a191b9dcc24661dc7638c40c",
+      "lines": {
+        "268": "\t *  \t<li>barDir\t\tBar, Bar3d only",
+        "269": "\t *  \t<li>radarStyle || scatterStyle"
+      },
+      "id": 50976649,
+      "filename": "OOXMLChart.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 1442,
+      "location": "/src/main/java/com/extentech/formats/XLS/charts",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976683/",
+      "md5hash": "0b21bee821a5233a32b79e04f8b1d228",
+      "lines": {
+        "692": "\t\t            \t ((Surface)co).setIsWireframe(v!=null && v.equals(\"1\"));",
+        "693": "\t\t             } else if (tnm.equals(\"scatterStyle\")) {"
+      },
+      "id": 50976683,
+      "filename": "ChartType.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 3,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "matchterm": "ExtendedFormatRecord",
+  "previouspage": null,
+  "searchterm": "ExtendedFormatRecord",
+  "query": "ExtendedFormatRecord",
+  "language_filters": [
+    {
+      "count": 16,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 16,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1840,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642377/",
+      "md5hash": "037277655673130cb28ca2272cd89362",
+      "lines": {
+        "64": "public class ExtendedFormatRecord",
+        "224": "",
+        "210": "    /**",
+        "211": "     * Constructor ExtendedFormatRecord",
+        "215": "",
+        "216": "    public ExtendedFormatRecord()",
+        "225": "    public ExtendedFormatRecord(RecordInputStream in)",
+        "63": ""
+      },
+      "id": 15642377,
+      "filename": "ExtendedFormatRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 2351,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642358/",
+      "md5hash": "2f47d8e4aa73ffbba0d056d2a6f68eee",
+      "lines": {
+        "1280": "     *",
+        "1281": "     * @return record containing an ExtendedFormatRecord",
+        "1282": "     * @see loci.poi.hssf.record.ExtendedFormatRecord",
+        "1283": "     * @see loci.poi.hssf.record.Record",
+        "1286": "    protected Record createExtendedFormat(int id) {   // we'll need multiple editions",
+        "1287": "        ExtendedFormatRecord retval = new ExtendedFormatRecord();",
+        "654": "    /**",
+        "655": "     * gets the ExtendedFormatRecord at the given 0-based index",
+        "657": "     * @param index of the Extended format record (0-based)",
+        "658": "     * @return ExtendedFormatRecord at the given index",
+        "660": "",
+        "661": "    public ExtendedFormatRecord getExFormatAt(int index) {",
+        "664": "        xfptr += index;",
+        "665": "        ExtendedFormatRecord retval =",
+        "666": "        ( ExtendedFormatRecord ) records.get(xfptr);"
+      },
+      "id": 15642358,
+      "filename": "Workbook.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 595,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785559/",
+      "md5hash": "6b55090236799f49ee0f5bd7d54bbbac",
+      "lines": {
+        "271": "                hssfRequest.addListener(formatListener, ExtendedFormatRecord.sid);",
+        "270": "                hssfRequest.addListener(formatListener, FormatRecord.sid);",
+        "46": "import org.apache.poi.hssf.record.EOFRecord;",
+        "47": "import org.apache.poi.hssf.record.ExtendedFormatRecord;"
+      },
+      "id": 111785559,
+      "filename": "ExcelExtractor.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 3300,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642365/",
+      "md5hash": "1e8d548d196dc1063c30d9430b35b9f5",
+      "lines": {
+        "1856": "     * index of the default ExtendedFormatRecord (0xF)",
+        "1844": "    /**",
+        "1845": "     * get the index to the ExtendedFormatRecord \"associated\" with ",
+        "1846": "     * the column at specified 0-based index. (In this case, an ",
+        "1847": "     * ExtendedFormatRecord index is actually associated with a ",
+        "1849": "     * <br/>",
+        "1850": "     * Returns the index to the default ExtendedFormatRecord (0xF)",
+        "1853": "     * @param column",
+        "1854": "     * @return index of ExtendedFormatRecord associated with",
+        "1855": "     * ColumnInfoRecord that includes the column index or the"
+      },
+      "id": 15642365,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 934,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642301/",
+      "md5hash": "24c44cb1a59082d02f2a63724ba4084a",
+      "lines": {
+        "64": "    private ExtendedFormatRecord format                     = null;",
+        "258": "",
+        "259": "    protected HSSFCellStyle(short index, ExtendedFormatRecord rec)",
+        "45": "import loci.poi.hssf.model.Workbook;",
+        "46": "import loci.poi.hssf.record.ExtendedFormatRecord;",
+        "63": "{"
+      },
+      "id": 15642301,
+      "filename": "HSSFCellStyle.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1062,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642303/",
+      "md5hash": "a320b63ccf16b2c1798c3d8c1abc8ed7",
+      "lines": {
+        "886": "      ExtendedFormatRecord xf = book.getExFormatAt(styleIndex);",
+        "885": "      short styleIndex=record.getXFIndex();",
+        "230": "        }",
+        "231": "        ExtendedFormatRecord xf = book.getExFormatAt(cval.getXFIndex());"
+      },
+      "id": 15642303,
+      "filename": "HSSFCell.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1445,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642316/",
+      "md5hash": "4f7b036daf89776dc4ee4606b7972144",
+      "lines": {
+        "900": "    {",
+        "901": "        ExtendedFormatRecord xfr = workbook.createCellXF();",
+        "926": "        ExtendedFormatRecord xfr = workbook.getExFormatAt(idx);",
+        "925": "    {"
+      },
+      "id": 15642316,
+      "filename": "HSSFWorkbook.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642448/",
+      "md5hash": "e20024a2a3d58e395cd362f6ec951727",
+      "lines": {
+        "249": "     * if the row is formatted then this is the index to the extended format record",
+        "250": "     * @see loci.poi.hssf.record.ExtendedFormatRecord",
+        "381": "     * if the row is formatted then this is the index to the extended format record",
+        "382": "     * @see loci.poi.hssf.record.ExtendedFormatRecord"
+      },
+      "id": 15642448,
+      "filename": "RowRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 407,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642458/",
+      "md5hash": "1e5d946f2d083b80a5832b1d60cf576a",
+      "lines": {
+        "168": "     * @see loci.poi.hssf.record.ExtendedFormatRecord",
+        "114": "     * set the index to the ExtendedFormat",
+        "115": "     * @see loci.poi.hssf.record.ExtendedFormatRecord",
+        "167": "     * get the index to the ExtendedFormat"
+      },
+      "id": 15642458,
+      "filename": "BoolErrRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 335,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642464/",
+      "md5hash": "1a93e7361ce626f1e004433c3a10b935",
+      "lines": {
+        "112": "     * set the index to the ExtendedFormat",
+        "113": "     * @see loci.poi.hssf.record.ExtendedFormatRecord",
+        "146": "     * @see loci.poi.hssf.record.ExtendedFormatRecord",
+        "145": "     * get the index to the ExtendedFormat"
+      },
+      "id": 15642464,
+      "filename": "NumberRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 315,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642468/",
+      "md5hash": "1ff21c19ff716e85c4d0ac81092c36fd",
+      "lines": {
+        "112": "     *",
+        "113": "     * @see loci.poi.hssf.record.ExtendedFormatRecord",
+        "147": "     *",
+        "148": "     * @see loci.poi.hssf.record.ExtendedFormatRecord"
+      },
+      "id": 15642468,
+      "filename": "LabelSSTRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 339,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642500/",
+      "md5hash": "8e21c5d1d0d27d16f6fc60aa41f7c6b7",
+      "lines": {
+        "228": "     * @return the extended format index",
+        "139": "     * @param xfi - the extended format index",
+        "140": "     * @see loci.poi.hssf.record.ExtendedFormatRecord",
+        "229": "     * @see loci.poi.hssf.record.ExtendedFormatRecord"
+      },
+      "id": 15642500,
+      "filename": "ColumnInfoRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642343/",
+      "md5hash": "468caa59753e7c2d27a76f3903f70894",
+      "lines": {
+        "72": "import loci.poi.hssf.record.ExtSSTRecord;",
+        "73": "import loci.poi.hssf.record.ExtendedFormatRecord;",
+        "165": "                PrecisionRecord.class, RefreshAllRecord.class, BookBoolRecord.class,",
+        "166": "                FontRecord.class, FormatRecord.class, ExtendedFormatRecord.class,"
+      },
+      "id": 15642343,
+      "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 367,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642319/",
+      "md5hash": "d991225d8b2649639f318ec0bc2acadc",
+      "lines": {
+        "184": "     *  ",
+        "185": "     * @param formatIndex The index of the format, eg from ExtendedFormatRecord.getFormatIndex"
+      },
+      "id": 15642319,
+      "filename": "HSSFDateUtil.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 331,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642441/",
+      "md5hash": "bbf1c9ed447f6ee0462a495afa5038ec",
+      "lines": {
+        "146": "     * @param xf - the 0-based index of the extended format",
+        "147": "     * @see loci.poi.hssf.record.ExtendedFormatRecord"
+      },
+      "id": 15642441,
+      "filename": "BlankRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "75": "                PrecisionRecord.class, RefreshAllRecord.class, BookBoolRecord.class,",
+        "76": "                FontRecord.class, FormatRecord.class, ExtendedFormatRecord.class,"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 16,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

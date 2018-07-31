@@ -1,0 +1,360 @@
+{
+  "matchterm": "ShapeContainer",
+  "previouspage": null,
+  "searchterm": "ShapeContainer",
+  "query": "ShapeContainer",
+  "language_filters": [
+    {
+      "count": 17,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 17,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/mst/ooo340",
+      "language": "Java",
+      "linescount": 238,
+      "location": "/accessibility/workben/org/openoffice/accessibility/awb/canvas",
+      "name": "ooo340",
+      "url": "https://searchcode.com/codesearch/view/122074254/",
+      "md5hash": "4a9510bb87d25be7a5d844b2197e8e69",
+      "lines": {
+        "48": "{",
+        "49": "\tpublic ShapeContainer (Canvas aCanvas)",
+        "160": "        //        System.out.println (\"ShapeContainer: \" + aMessage + \": \" + aEvent);",
+        "43": "*/",
+        "44": "public class ShapeContainer",
+        "159": "    {"
+      },
+      "id": 122074254,
+      "filename": "ShapeContainer.java"
+    },
+    {
+      "repo": "https://github.com/develar/mapsforge.git",
+      "language": "Java",
+      "linescount": 20,
+      "location": "/mapsforge-map/src/main/java/org/mapsforge/map/layer/renderer",
+      "name": "mapsforge",
+      "url": "https://searchcode.com/codesearch/view/93102169/",
+      "md5hash": "e6fe7efb1f985fbfc11bf606c2584749",
+      "lines": {
+        "16": "",
+        "17": "interface ShapeContainer {"
+      },
+      "id": 93102169,
+      "filename": "ShapeContainer.java"
+    },
+    {
+      "repo": "http://mapsforge.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 20,
+      "location": "/mapsforge-map/src/main/java/org/mapsforge/android/maps/mapgenerator/databaserenderer",
+      "name": "mapsforge",
+      "url": "https://searchcode.com/codesearch/view/9499253/",
+      "md5hash": "508760061ce8f5b3365bd50bb1c10ace",
+      "lines": {
+        "16": "",
+        "17": "interface ShapeContainer {"
+      },
+      "id": 9499253,
+      "filename": "ShapeContainer.java"
+    },
+    {
+      "repo": "https://bitbucket.org/aramk/mechanix.git",
+      "language": "Java",
+      "linescount": 618,
+      "location": "/src/com/google/gwt/widgetideas/graphics/client/impl",
+      "name": "mechanix",
+      "url": "https://searchcode.com/codesearch/view/36442252/",
+      "md5hash": "1bafcb811e4aab9b8e2b382a726bf5c3",
+      "lines": {
+        "608": "\t\tshapeContainer.getStyle().setHeight(100, Unit.PCT);",
+        "609": "\t\tparentElement.appendChild(shapeContainer);",
+        "610": "\t\tensureNamespacesAndStylesheet(doc);",
+        "614": "\tprivate native void insert(String gco, String html) /*-{",
+        "615": "\t\t\t\t\t\t\t\t\t\t\t\t\t\tthis.@com.google.gwt.widgetideas.graphics.client.impl.GWTCanvasImplIE6::shapeContainer.insertAdjacentHTML(gco, html);",
+        "105": "",
+        "106": "\tprivate Element shapeContainer = null;",
+        "119": "\t\tpathStr.clear();",
+        "120": "\t\tshapeContainer.setInnerHTML(\"\");",
+        "603": "\t\tparentElement = doc.createElement(\"canvas\").cast();",
+        "604": "\t\tshapeContainer = doc.createDivElement().cast();",
+        "605": "\t\tshapeContainer.getStyle().setPosition(Position.ABSOLUTE);",
+        "606": "\t\tshapeContainer.getStyle().setOverflow(Overflow.HIDDEN);",
+        "607": "\t\tshapeContainer.getStyle().setWidth(100, Unit.PCT);"
+      },
+      "id": 36442252,
+      "filename": "GWTCanvasImplIE6.java"
+    },
+    {
+      "repo": "https://github.com/develar/mapsforge.git",
+      "language": "Java",
+      "linescount": 34,
+      "location": "/mapsforge-map/src/main/java/org/mapsforge/map/layer/renderer",
+      "name": "mapsforge",
+      "url": "https://searchcode.com/codesearch/view/93102139/",
+      "md5hash": "315bb88154eeb3146657540aaf8bc29a",
+      "lines": {
+        "21": "\tfinal Paint paint;",
+        "22": "\tfinal ShapeContainer shapeContainer;",
+        "23": "",
+        "24": "\tShapePaintContainer(ShapeContainer shapeContainer, Paint paint) {",
+        "25": "\t\tthis(shapeContainer, paint, 0f);",
+        "26": "\t}",
+        "27": "",
+        "28": "\tShapePaintContainer(ShapeContainer shapeContainer, Paint paint, float dy) {",
+        "29": "\t\tthis.shapeContainer = shapeContainer;",
+        "30": "\t\tthis.paint = paint;"
+      },
+      "id": 93102139,
+      "filename": "ShapePaintContainer.java"
+    },
+    {
+      "repo": "https://bitbucket.org/davebryson/mapsforge",
+      "language": "Java",
+      "linescount": 723,
+      "location": "/mapsforge/src/org/mapsforge/android/maps",
+      "name": "mapsforge",
+      "url": "https://searchcode.com/codesearch/view/122452419/",
+      "md5hash": "cbc6176e8f8899aa4cfa9270fa8a671a",
+      "lines": {
+        "145": "\tpublic void addArea(Paint paint, int level) {",
+        "146": "\t\tthis.drawingLayer.get(level).add(new ShapePaintContainer(this.shapeContainer, paint));",
+        "676": "\t\t}",
+        "181": "\tpublic void addWay(Paint paint, int level) {",
+        "182": "\t\tthis.drawingLayer.get(level).add(new ShapePaintContainer(this.shapeContainer, paint));",
+        "124": "\tprivate double segmentLengthInPixel;",
+        "125": "\tprivate ShapeContainer shapeContainer;",
+        "677": "\t\tthis.shapeContainer = new WayContainer(this.coordinates);"
+      },
+      "id": 122452419,
+      "filename": "DatabaseMapGenerator.java"
+    },
+    {
+      "repo": "http://google-web-toolkit-incubator.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 605,
+      "location": "/src/com/google/gwt/widgetideas/graphics/client/impl",
+      "name": "google-web-toolkit-incubator",
+      "url": "https://searchcode.com/codesearch/view/3609488/",
+      "md5hash": "e03b8ebe357d8ebf33b46a01b7cc8dba",
+      "lines": {
+        "105": "",
+        "106": "  private Element shapeContainer = null;",
+        "590": "    parentElement = doc.createElement(\"canvas\").cast();",
+        "591": "    shapeContainer = doc.createDivElement().cast();",
+        "592": "    shapeContainer.getStyle().setPosition(Position.ABSOLUTE);",
+        "593": "    shapeContainer.getStyle().setOverflow(Overflow.HIDDEN);",
+        "594": "    shapeContainer.getStyle().setWidth(100, Unit.PCT);",
+        "595": "    shapeContainer.getStyle().setHeight(100, Unit.PCT);",
+        "596": "    parentElement.appendChild(shapeContainer);",
+        "597": "    ensureNamespacesAndStylesheet(doc);",
+        "119": "    pathStr.clear();",
+        "120": "    shapeContainer.setInnerHTML(\"\");",
+        "601": "  private native void insert(String gco, String html) /*-{",
+        "602": "    this.@com.google.gwt.widgetideas.graphics.client.impl.GWTCanvasImplIE6::shapeContainer.insertAdjacentHTML(gco, html);"
+      },
+      "id": 3609488,
+      "filename": "GWTCanvasImplIE6.java"
+    },
+    {
+      "repo": "http://mapsforge.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 405,
+      "location": "/mapsforge-map/src/main/java/org/mapsforge/android/maps/mapgenerator/databaserenderer",
+      "name": "mapsforge",
+      "url": "https://searchcode.com/codesearch/view/9499259/",
+      "md5hash": "3df1ca3d6c70dc270c90234ce8a05c36",
+      "lines": {
+        "352": "\t\tthis.shapeContainer = new WayContainer(this.coordinates);",
+        "368": "\t\t}",
+        "106": "\tprivate RenderTheme renderTheme;",
+        "107": "\tprivate ShapeContainer shapeContainer;",
+        "237": "\t\tList<ShapePaintContainer> list = this.drawingLayers.get(level);",
+        "238": "\t\tlist.add(new ShapePaintContainer(this.shapeContainer, fill));",
+        "239": "\t\tlist.add(new ShapePaintContainer(this.shapeContainer, stroke));",
+        "240": "\t}",
+        "369": "\t\tthis.shapeContainer = new WayContainer(this.coordinates);",
+        "283": "\tpublic void renderWay(Paint stroke, int level) {",
+        "284": "\t\tthis.drawingLayers.get(level).add(new ShapePaintContainer(this.shapeContainer, stroke));",
+        "351": "\t\tthis.coordinates = WATER_TILE_COORDINATES;"
+      },
+      "id": 9499259,
+      "filename": "DatabaseRenderer.java"
+    },
+    {
+      "repo": "http://mapsforge.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 28,
+      "location": "/mapsforge-map/src/main/java/org/mapsforge/android/maps/mapgenerator/databaserenderer",
+      "name": "mapsforge",
+      "url": "https://searchcode.com/codesearch/view/9499254/",
+      "md5hash": "fef7e773c78a13876bf19f5f25da72fa",
+      "lines": {
+        "20": "\tfinal Paint paint;",
+        "21": "\tfinal ShapeContainer shapeContainer;",
+        "22": "",
+        "23": "\tShapePaintContainer(ShapeContainer shapeContainer, Paint paint) {",
+        "24": "\t\tthis.shapeContainer = shapeContainer;",
+        "25": "\t\tthis.paint = paint;"
+      },
+      "id": 9499254,
+      "filename": "ShapePaintContainer.java"
+    },
+    {
+      "repo": "https://github.com/develar/mapsforge.git",
+      "language": "Java",
+      "linescount": 121,
+      "location": "/mapsforge-map/src/main/java/org/mapsforge/map/layer/renderer",
+      "name": "mapsforge",
+      "url": "https://searchcode.com/codesearch/view/93102135/",
+      "md5hash": "17367ee2139c8d8db8afdafb0d0004ca",
+      "lines": {
+        "114": "\t\t\tcase POLYLINE:",
+        "115": "\t\t\t\tPolylineContainer polylineContainer = (PolylineContainer) shapePaintContainer.shapeContainer;",
+        "107": "\tprivate void drawShapePaintContainer(ShapePaintContainer shapePaintContainer, Tile tile) {",
+        "108": "\t\tShapeType shapeType = shapePaintContainer.shapeContainer.getShapeType();",
+        "78": "\tprivate void drawCircleContainer(ShapePaintContainer shapePaintContainer) {",
+        "79": "\t\tCircleContainer circleContainer = (CircleContainer) shapePaintContainer.shapeContainer;"
+      },
+      "id": 93102135,
+      "filename": "CanvasRasterer.java"
+    },
+    {
+      "repo": "https://bitbucket.org/mst/ooo340",
+      "language": "Java",
+      "linescount": 323,
+      "location": "/accessibility/workben/org/openoffice/accessibility/awb/canvas",
+      "name": "ooo340",
+      "url": "https://searchcode.com/codesearch/view/122074253/",
+      "md5hash": "db63f5e2df674c30ad824c2879074fa5",
+      "lines": {
+        "320": "\tprivate ShapeContainer maShapeList;",
+        "67": "        super (true);",
+        "68": "        maShapeList = new ShapeContainer (this);",
+        "319": "    private Dimension maLastWidgetSize;"
+      },
+      "id": 122074253,
+      "filename": "Canvas.java"
+    },
+    {
+      "repo": "https://bitbucket.org/davebryson/mapsforge",
+      "language": "Java",
+      "linescount": 210,
+      "location": "/mapsforge/src/org/mapsforge/android/maps",
+      "name": "mapsforge",
+      "url": "https://searchcode.com/codesearch/view/122452396/",
+      "md5hash": "fa56cc7aaf84d70d42eee669725c401a",
+      "lines": {
+        "144": "\t\t\t\t\t\tcase CIRCLE:",
+        "145": "\t\t\t\t\t\t\tcircleContainer = (CircleContainer) shapePaintContainer.shapeContainer;",
+        "149": "\t\t\t\t\t\tcase WAY:",
+        "150": "\t\t\t\t\t\t\tcomplexWayContainer = (WayContainer) shapePaintContainer.shapeContainer;",
+        "142": "\t\t\t\t\tthis.path.rewind();",
+        "143": "\t\t\t\t\tswitch (shapePaintContainer.shapeContainer.getShapeType()) {"
+      },
+      "id": 122452396,
+      "filename": "CanvasRenderer.java"
+    },
+    {
+      "repo": "http://mapsforge.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 193,
+      "location": "/mapsforge-map/src/main/java/org/mapsforge/android/maps/mapgenerator/databaserenderer",
+      "name": "mapsforge",
+      "url": "https://searchcode.com/codesearch/view/9499257/",
+      "md5hash": "ad32159413056e1a9a8efd1a6fd6379d",
+      "lines": {
+        "160": "\t\t\t\t\t\tcase WAY:",
+        "161": "\t\t\t\t\t\t\tWayContainer wayContainer = (WayContainer) shapePaintContainer.shapeContainer;",
+        "151": "",
+        "152": "\t\t\t\t\tswitch (shapePaintContainer.shapeContainer.getShapeType()) {",
+        "153": "\t\t\t\t\t\tcase CIRCLE:",
+        "154": "\t\t\t\t\t\t\tCircleContainer circleContainer = (CircleContainer) shapePaintContainer.shapeContainer;"
+      },
+      "id": 9499257,
+      "filename": "CanvasRasterer.java"
+    },
+    {
+      "repo": "https://github.com/develar/mapsforge.git",
+      "language": "Java",
+      "linescount": 33,
+      "location": "/mapsforge-map/src/main/java/org/mapsforge/map/layer/renderer",
+      "name": "mapsforge",
+      "url": "https://searchcode.com/codesearch/view/93102166/",
+      "md5hash": "4975220d923c9e7f0f3e3249458a87a9",
+      "lines": {
+        "18": "",
+        "19": "class CircleContainer implements ShapeContainer {"
+      },
+      "id": 93102166,
+      "filename": "CircleContainer.java"
+    },
+    {
+      "repo": "https://github.com/develar/mapsforge.git",
+      "language": "Java",
+      "linescount": 131,
+      "location": "/mapsforge-map/src/main/java/org/mapsforge/map/layer/renderer",
+      "name": "mapsforge",
+      "url": "https://searchcode.com/codesearch/view/93102173/",
+      "md5hash": "5276bdbc94d36eac72b16da48adf918b",
+      "lines": {
+        "35": "",
+        "36": "public class PolylineContainer implements ShapeContainer {"
+      },
+      "id": 93102173,
+      "filename": "PolylineContainer.java"
+    },
+    {
+      "repo": "http://mapsforge.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 33,
+      "location": "/mapsforge-map/src/main/java/org/mapsforge/android/maps/mapgenerator/databaserenderer",
+      "name": "mapsforge",
+      "url": "https://searchcode.com/codesearch/view/9499260/",
+      "md5hash": "be8590973d2377f226481e68c02ab5e3",
+      "lines": {
+        "18": "",
+        "19": "class CircleContainer implements ShapeContainer {"
+      },
+      "id": 9499260,
+      "filename": "CircleContainer.java"
+    },
+    {
+      "repo": "http://mapsforge.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 31,
+      "location": "/mapsforge-map/src/main/java/org/mapsforge/android/maps/mapgenerator/databaserenderer",
+      "name": "mapsforge",
+      "url": "https://searchcode.com/codesearch/view/9499265/",
+      "md5hash": "768030d754490117190cb1005e38208e",
+      "lines": {
+        "18": "",
+        "19": "class WayContainer implements ShapeContainer {"
+      },
+      "id": 9499265,
+      "filename": "WayContainer.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 5,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 5,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

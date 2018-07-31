@@ -1,0 +1,174 @@
+{
+  "matchterm": "EndSubRecord",
+  "previouspage": null,
+  "searchterm": "EndSubRecord",
+  "query": "EndSubRecord",
+  "language_filters": [
+    {
+      "count": 9,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 9,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 138,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642455/",
+      "md5hash": "efafcd5275c29f2ca8f3b1e2cfa3627c",
+      "lines": {
+        "128": "        EndSubRecord rec = new EndSubRecord();",
+        "54": " */",
+        "71": "",
+        "72": "    public EndSubRecord(RecordInputStream in)",
+        "55": "public class EndSubRecord",
+        "60": "",
+        "61": "    public EndSubRecord()",
+        "127": "    public Object clone() {"
+      },
+      "id": 15642455,
+      "filename": "EndSubRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 151,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642355/",
+      "md5hash": "de60a19c840cc93a41315152fddc45e8",
+      "lines": {
+        "131": "        c.setAutoline( true );",
+        "132": "        EndSubRecord e = new EndSubRecord();",
+        "46": "import loci.poi.hssf.record.CommonObjectDataSubRecord;",
+        "47": "import loci.poi.hssf.record.EndSubRecord;"
+      },
+      "id": 15642355,
+      "filename": "SimpleFilledShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 184,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642360/",
+      "md5hash": "568f42341c2f49cf457f7336fcfb066f",
+      "lines": {
+        "48": "import loci.poi.hssf.record.EndSubRecord;",
+        "164": "        c.setAutoline( true );",
+        "165": "        EndSubRecord e = new EndSubRecord();",
+        "47": "import loci.poi.hssf.record.CommonObjectDataSubRecord;"
+      },
+      "id": 15642360,
+      "filename": "PolygonShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 155,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642357/",
+      "md5hash": "3fac04b2d420f2a566cce5b6a652e8c5",
+      "lines": {
+        "133": "//        UnknownRecord sub2 = new UnknownRecord( (short)0x8, (short)0x2, new byte[] { 0x01, 0x00 } );",
+        "134": "        EndSubRecord e = new EndSubRecord();"
+      },
+      "id": 15642357,
+      "filename": "PictureShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642361/",
+      "md5hash": "e8926e1642d96e5be85459525b4970cd",
+      "lines": {
+        "128": "        EndSubRecord e = new EndSubRecord();",
+        "127": "        c.setAutoline(true);"
+      },
+      "id": 15642361,
+      "filename": "LineShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 192,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642364/",
+      "md5hash": "caf9b32bdd1d6052248a6d5f8cf5c345",
+      "lines": {
+        "89": "        c.setAutoline( true );",
+        "90": "        EndSubRecord e = new EndSubRecord();"
+      },
+      "id": 15642364,
+      "filename": "TextboxShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 101,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642394/",
+      "md5hash": "d40b14ea92262475f6a64dcc34544617",
+      "lines": {
+        "88": "                break;",
+        "89": "            case EndSubRecord.sid:",
+        "90": "                r = new EndSubRecord( in );",
+        "91": "                break;"
+      },
+      "id": 15642394,
+      "filename": "SubRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 766,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642409/",
+      "md5hash": "9e212df4a5b523744fd315d99c376d1b",
+      "lines": {
+        "689": "        GroupMarkerSubRecord gmo = new GroupMarkerSubRecord();",
+        "690": "        EndSubRecord end = new EndSubRecord();"
+      },
+      "id": 15642409,
+      "filename": "EscherAggregate.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 223,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642527/",
+      "md5hash": "f8fb1e0157f597b2f66fbf49eaefc450",
+      "lines": {
+        "113": "        /**",
+        "114": "         * Check if the RecordInputStream skipped EndSubRecord,",
+        "118": "        if (subRecordData.length - subSize == 4){",
+        "119": "            subrecords.add(new EndSubRecord());"
+      },
+      "id": 15642527,
+      "filename": "ObjRecord.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 9,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

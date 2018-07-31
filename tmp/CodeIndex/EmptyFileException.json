@@ -1,0 +1,59 @@
+{
+  "matchterm": "EmptyFileException",
+  "previouspage": null,
+  "searchterm": "EmptyFileException",
+  "query": "EmptyFileException",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/elloyd/cnpvue",
+      "language": "Java",
+      "linescount": 1504,
+      "location": "/src/tufts/vue/action",
+      "name": "cnpvue",
+      "url": "https://searchcode.com/codesearch/view/55213073/",
+      "md5hash": "602bc1b8c8713b0ac76af2894fb3660a",
+      "lines": {
+        "1476": "    ",
+        "1477": "class EmptyFileException extends IOException {",
+        "1478": "    EmptyFileException() {",
+        "1479": "        super(\"Empty file (zero length); no VUE data here\");",
+        "824": "        if (file.length() == 0)",
+        "825": "            throw new EmptyFileException();"
+      },
+      "id": 55213073,
+      "filename": "ActionUtil.java"
+    },
+    {
+      "repo": "https://bitbucket.org/elloyd/cnpvue",
+      "language": "Java",
+      "linescount": 496,
+      "location": "/src/tufts/vue/action",
+      "name": "cnpvue",
+      "url": "https://searchcode.com/codesearch/view/55213062/",
+      "md5hash": "c401764c1071267b4cfabaa17aff036d",
+      "lines": {
+        "152": "            if (t instanceof EmptyFileException) {",
+        "151": "            final String exception;"
+      },
+      "id": 55213062,
+      "filename": "OpenAction.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

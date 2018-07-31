@@ -1,0 +1,329 @@
+{
+  "matchterm": "StreamStore",
+  "previouspage": null,
+  "searchterm": "StreamStore",
+  "query": "StreamStore",
+  "language_filters": [
+    {
+      "count": 13,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 13,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/antiguru/h2database.git",
+      "language": "Java",
+      "linescount": 483,
+      "location": "/h2/src/main/org/h2/mvstore",
+      "name": "h2database",
+      "url": "https://searchcode.com/codesearch/view/91929320/",
+      "md5hash": "7afce63c8810413a7cf7b21880948d3c",
+      "lines": {
+        "354": "",
+        "51": "    public StreamStore(Map<Long, byte[]> map) {",
+        "36": " */",
+        "37": "public class StreamStore {",
+        "363": "        Stream(StreamStore store, byte[] id) {",
+        "362": "",
+        "355": "        private final StreamStore store;",
+        "50": "     */"
+      },
+      "id": 91929320,
+      "filename": "StreamStore.java"
+    },
+    {
+      "repo": "https://github.com/carrot-garden/carrot-jnlper.git",
+      "language": "Java",
+      "linescount": 591,
+      "location": "/carrot-jdk6-jnlp-macosx/src/plugin/share/classes/sun/plugin/viewer/context",
+      "name": "carrot-jnlper",
+      "url": "https://searchcode.com/codesearch/view/114339176/",
+      "md5hash": "726d55e31387965cdd8e1dfa1a258768",
+      "lines": {
+        "515": "    \tIterator iter = null;",
+        "497": "\tByteArrayInputStream bAIS = null;",
+        "450": "    {",
+        "451": "\tHashMap streamMap = (HashMap) streamStore.get(appletPanel.getCodeBase());",
+        "516": "\tHashMap streamMap = (HashMap) streamStore.get(appletPanel.getCodeBase());",
+        "455": "\t    streamMap = new HashMap();",
+        "456": "\t    streamStore.put(appletPanel.getCodeBase(), streamMap);",
+        "587": "    private int persistStreamMaxSize = 65536;",
+        "588": "    private static HashMap streamStore = new HashMap();",
+        "498": "\tHashMap streamMap = (HashMap) streamStore.get(appletPanel.getCodeBase());"
+      },
+      "id": 114339176,
+      "filename": "DefaultPluginAppletContext.java"
+    },
+    {
+      "repo": "https://github.com/carrot-garden/carrot-jnlper.git",
+      "language": "Java",
+      "linescount": 3801,
+      "location": "/carrot-jdk6-jnlp-macosx/src/plugin/share/classes/sun/plugin2/applet",
+      "name": "carrot-jnlper",
+      "url": "https://searchcode.com/codesearch/view/114340133/",
+      "md5hash": "f9a726a0d70c8a4cb0469b4e0238f82c",
+      "lines": {
+        "2823": "            Iterator iter = null;",
+        "2808": "            ByteArrayInputStream bAIS = null;",
+        "2773": "        public void setStream(String name, InputStream is) throws IOException {",
+        "2774": "            HashMap streamMap = (HashMap) streamStore.get(getCodeBase());",
+        "2615": "    private static final int PERSIST_STREAM_MAX_SIZE = 65536;",
+        "2616": "    private static Map streamStore = new HashMap();",
+        "2777": "                streamMap = new HashMap();",
+        "2778": "                streamStore.put(getCodeBase(), streamMap);",
+        "2809": "            HashMap streamMap = (HashMap) streamStore.get(getCodeBase());",
+        "2824": "            HashMap streamMap = (HashMap) streamStore.get(getCodeBase());"
+      },
+      "id": 114340133,
+      "filename": "Plugin2Manager.java"
+    },
+    {
+      "repo": "http://h2database.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 303,
+      "location": "/h2/src/main/org/h2/store",
+      "name": "h2database",
+      "url": "https://searchcode.com/codesearch/view/63792819/",
+      "md5hash": "e49367d2e03ff163ebd511c52f3ab982",
+      "lines": {
+        "182": "        Object[] key = new Object[] { streamStoreId, lobId };",
+        "177": "        long lobId = generateLobId();",
+        "170": "    private ValueLobDb createLob(InputStream in, int type) throws IOException {",
+        "171": "        byte[] streamStoreId;",
+        "172": "        try {",
+        "173": "            streamStoreId = streamStore.put(in);",
+        "48": "     * Key: lobId (long)",
+        "49": "     * Value: { streamStoreId (byte[]), tableId (int),",
+        "178": "        long length = streamStore.length(streamStoreId);",
+        "179": "        int tableId = LobStorageFrontend.TABLE_TEMP;",
+        "180": "        Object[] value = new Object[] { streamStoreId, tableId, length, 0 };",
+        "181": "        lobMap.put(lobId, value);",
+        "24": "import org.h2.mvstore.MVStore;",
+        "55": "     * The reference map. It is used to remove data from the stream store: if no",
+        "56": "     * more entries for the given streamStoreId exist, the data is removed from",
+        "25": "import org.h2.mvstore.StreamStore;"
+      },
+      "id": 63792819,
+      "filename": "LobStorageMap.java"
+    },
+    {
+      "repo": "https://bitbucket.org/antiguru/h2database.git",
+      "language": "Java",
+      "linescount": 447,
+      "location": "/h2/src/test/org/h2/test/store",
+      "name": "h2database",
+      "url": "https://searchcode.com/codesearch/view/91927902/",
+      "md5hash": "76a79db9569fe3c89c6d1bb4182c2822",
+      "lines": {
+        "64": "        int blockSize = 256 * 1024;",
+        "65": "        assertEquals(blockSize, streamStore.getMaxBlockSize());",
+        "66": "        for (int i = 0; i < 8 * 16; i++) {",
+        "67": "            streamStore.put(new RandomStream(blockSize, i));",
+        "198": "        Map<Long, byte[]> map = New.hashMap();",
+        "199": "        StreamStore store = new StreamStore(map);",
+        "142": "        final AtomicInteger count = new AtomicInteger();",
+        "143": "        StreamStore streamStore = new StreamStore(map) {",
+        "18": "import org.h2.mvstore.MVStore;",
+        "19": "import org.h2.mvstore.StreamStore;",
+        "150": "        long size = 1 * 1024 * 1024;",
+        "151": "        streamStore.put(new RandomStream(size, 0));",
+        "28": " */",
+        "29": "public class TestStreamStore extends TestBase {",
+        "62": "        MVMap<Long, byte[]> map = s.openMap(\"data\");",
+        "63": "        StreamStore streamStore = new StreamStore(map);"
+      },
+      "id": 91927902,
+      "filename": "TestStreamStore.java"
+    },
+    {
+      "repo": "https://github.com/lukewen427/DeploymentTool.git",
+      "language": "Java",
+      "linescount": 125,
+      "location": "/code/WorkflowEngine/src/main/java/com/connexience/server/workflow/cloud/execution",
+      "name": "DeploymentTool",
+      "url": "https://searchcode.com/codesearch/view/100320449/",
+      "md5hash": "b59ebf184fa4780783934432e0fe6de4",
+      "lines": {
+        "33": "    /** Buffer to keep output if required */",
+        "34": "    private final OutputStream streamStore;",
+        "67": "        this.stream = stream;",
+        "68": "        this.streamStore = streamStore;",
+        "65": "     * number of characters to store */",
+        "66": "    public InputStreamDumper(InputStream stream, OutputStream streamStore, int maxDumpBytes) {",
+        "78": "        try {",
+        "79": "            if(streamStore==null){",
+        "48": "        this.stream = stream;",
+        "49": "        this.streamStore = null;",
+        "55": "    /** Construct with an input and an output stream */",
+        "56": "    public InputStreamDumper(InputStream stream, OutputStream streamStore){",
+        "57": "        this.stream = stream;",
+        "92": "                    }",
+        "93": "                    streamStore.flush();",
+        "94": "                }"
+      },
+      "id": 100320449,
+      "filename": "InputStreamDumper.java"
+    },
+    {
+      "repo": "https://bitbucket.org/antiguru/h2database.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/h2/src/main/org/h2/store",
+      "name": "h2database",
+      "url": "https://searchcode.com/codesearch/view/91928730/",
+      "md5hash": "539e1254a9452abbb80a8e739fdb4e5b",
+      "lines": {
+        "179": "        long lobId = generateLobId();",
+        "183": "        lobMap.put(lobId, value);",
+        "172": "    private ValueLobDb createLob(InputStream in, int type) throws IOException {",
+        "173": "        byte[] streamStoreId;",
+        "174": "        try {",
+        "175": "            streamStoreId = streamStore.put(in);",
+        "184": "        Object[] key = new Object[] { streamStoreId, lobId };",
+        "50": "     * Key: lobId (long)",
+        "51": "     * Value: { streamStoreId (byte[]), tableId (int),",
+        "180": "        long length = streamStore.length(streamStoreId);",
+        "181": "        int tableId = LobStorageFrontend.TABLE_TEMP;",
+        "182": "        Object[] value = new Object[] { streamStoreId, tableId, length, 0 };",
+        "23": "import org.h2.mvstore.MVStore;",
+        "24": "import org.h2.mvstore.StreamStore;",
+        "57": "     * The reference map. It is used to remove data from the stream store: if no",
+        "58": "     * more entries for the given streamStoreId exist, the data is removed from"
+      },
+      "id": 91928730,
+      "filename": "LobStorageMap.java"
+    },
+    {
+      "repo": "http://h2database.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1704,
+      "location": "/h2/src/main/org/h2/tools",
+      "name": "h2database",
+      "url": "https://searchcode.com/codesearch/view/1938101/",
+      "md5hash": "8b45b3d36753d9bb5f410fceb6e50759",
+      "lines": {
+        "672": "            byte[] streamStoreId = (byte[]) value[0];",
+        "673": "            InputStream in = streamStore.get(streamStoreId);",
+        "674": "            int len = 8 * 1024;",
+        "662": "        MVMap<Long, byte[]> lobData = mv.openMap(\"lobData\");",
+        "663": "        StreamStore streamStore = new StreamStore(lobData);",
+        "41": "import org.h2.mvstore.MVStoreTool;",
+        "42": "import org.h2.mvstore.StreamStore;",
+        "671": "            Object[] value = e.getValue();"
+      },
+      "id": 1938101,
+      "filename": "Recover.java"
+    },
+    {
+      "repo": "https://bitbucket.org/fudan/sakai",
+      "language": "Java",
+      "linescount": 482,
+      "location": "/metaobj/metaobj-impl/api-impl/src/java/org/sakaiproject/metaobj/shared/mgt/home",
+      "name": "sakai",
+      "url": "https://searchcode.com/codesearch/view/129853984/",
+      "md5hash": "6567650eae92b2ee8b44e1e2c3bc4690",
+      "lines": {
+        "322": "   /**",
+        "323": "    * public StreamStore getStreamStore() {",
+        "324": "    * return (StreamStore)BeanFactory.getInstance().getBean(",
+        "325": "    * StreamStore.class.getName(), StreamStore.class);",
+        "326": "    * }"
+      },
+      "id": 129853984,
+      "filename": "StructuredArtifactDefinition.java"
+    },
+    {
+      "repo": "http://h2database.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 798,
+      "location": "/h2/src/main/org/h2/store",
+      "name": "h2database",
+      "url": "https://searchcode.com/codesearch/view/63792816/",
+      "md5hash": "568ad97e08b5f6c7108e5dd26a9ac07d",
+      "lines": {
+        "41": " * detrimental to the rest of the system. Perhaps when we shift to the MVStore",
+        "42": " * engine, we can revisit this design decision (using the StreamStore, that is,"
+      },
+      "id": 63792816,
+      "filename": "LobStorageBackend.java"
+    },
+    {
+      "repo": "http://h2database.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 901,
+      "location": "/h2/src/test/org/h2/test",
+      "name": "h2database",
+      "url": "https://searchcode.com/codesearch/view/1937391/",
+      "md5hash": "14b0b51a75d0462ab4b7d948876f4449",
+      "lines": {
+        "737": "        new TestSpinLock().runTest(this);",
+        "738": "        new TestStreamStore().runTest(this);",
+        "213": "java org.pitest.mutationtest.MutationCoverageReport",
+        "214": "--reportDir data --targetClasses org.h2.dev.store.btree.StreamStore*",
+        "215": "--targetTests org.h2.test.store.TestStreamStore",
+        "216": "--sourceDirs src/test,src/tools",
+        "126": "import org.h2.test.store.TestSpinLock;",
+        "127": "import org.h2.test.store.TestStreamStore;"
+      },
+      "id": 1937391,
+      "filename": "TestAll.java"
+    },
+    {
+      "repo": "https://bitbucket.org/antiguru/h2database.git",
+      "language": "Java",
+      "linescount": 917,
+      "location": "/h2/src/test/org/h2/test",
+      "name": "h2database",
+      "url": "https://searchcode.com/codesearch/view/91927671/",
+      "md5hash": "d2af540600b4f591384ce03ac791b247",
+      "lines": {
+        "752": "        new TestSpinLock().runTest(this);",
+        "753": "        new TestStreamStore().runTest(this);",
+        "214": "java org.pitest.mutationtest.MutationCoverageReport",
+        "215": "--reportDir data --targetClasses org.h2.dev.store.btree.StreamStore*",
+        "216": "--targetTests org.h2.test.store.TestStreamStore",
+        "217": "--sourceDirs src/test,src/tools",
+        "125": "import org.h2.test.store.TestSpinLock;",
+        "126": "import org.h2.test.store.TestStreamStore;"
+      },
+      "id": 91927671,
+      "filename": "TestAll.java"
+    },
+    {
+      "repo": "https://bitbucket.org/antiguru/h2database.git",
+      "language": "Java",
+      "linescount": 797,
+      "location": "/h2/src/main/org/h2/store",
+      "name": "h2database",
+      "url": "https://searchcode.com/codesearch/view/91928721/",
+      "md5hash": "a36d7d77959e5ef27391fa3db8c28616",
+      "lines": {
+        "40": " * detrimental to the rest of the system. Perhaps when we shift to the MVStore",
+        "41": " * engine, we can revisit this design decision (using the StreamStore, that is,"
+      },
+      "id": 91928721,
+      "filename": "LobStorageBackend.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 6,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 4,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

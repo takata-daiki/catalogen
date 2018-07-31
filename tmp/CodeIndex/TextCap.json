@@ -1,0 +1,48 @@
+{
+  "matchterm": "TextCap",
+  "previouspage": null,
+  "searchterm": "TextCap",
+  "query": "TextCap",
+  "language_filters": [
+    {
+      "count": 1,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 1,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 547,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406808/",
+      "md5hash": "d2b2f692a7b658d89cb45fae37549298",
+      "lines": {
+        "65": "        String txt = _r.getT();",
+        "66": "        TextCap cap = getTextCap();",
+        "387": "        fetchCharacterProperty(fetcher);",
+        "388": "        return fetcher.getValue() == null ? TextCap.NONE : fetcher.getValue();",
+        "375": "     */",
+        "376": "    public TextCap getTextCap() {",
+        "377": "        CharacterPropertyFetcher<TextCap> fetcher = new CharacterPropertyFetcher<TextCap>(_p.getLevel()){",
+        "378": "            public boolean fetch(CTTextCharacterProperties props){",
+        "380": "                    int idx = props.getCap().intValue() - 1;",
+        "381": "                    setValue(TextCap.values()[idx]);"
+      },
+      "id": 97406808,
+      "filename": "XSLFTextRun.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

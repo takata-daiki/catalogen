@@ -1,0 +1,247 @@
+{
+  "matchterm": "LittleEndian.BufferUnderrunException",
+  "previouspage": null,
+  "searchterm": "LittleEndian.BufferUnderrunException",
+  "query": "LittleEndian.BufferUnderrunException",
+  "language_filters": [
+    {
+      "count": 9,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 9,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 978,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642619/",
+      "md5hash": "8ef88e505f2ceb850b68ffed8c4261eb",
+      "lines": {
+        "96": "    public void dumpOld( long maxLength, InputStream in, PrintStream out ) throws IOException, LittleEndian.BufferUnderrunException",
+        "384": "                out.print( LittleEndian.readInt( in ) );",
+        "386": "                out.println( LittleEndian.readInt( in ) );",
+        "395": "                out.println( \"    Cache of size: \" + HexDump.toHex( LittleEndian.readInt( in ) ) );",
+        "324": "                    int n32;",
+        "325": "                    n16 = LittleEndian.readShort( in );",
+        "326": "                    n32 = LittleEndian.readInt( in );",
+        "385": "                out.print( \"   Connect pt B: \" );",
+        "394": "                HexDump.dump( in, out, 0, 16 );",
+        "75": "     */",
+        "76": "    public void dump( byte[] data, int offset, int size, PrintStream out ) throws IOException, LittleEndian.BufferUnderrunException",
+        "45": "import loci.poi.util.HexRead;",
+        "46": "import loci.poi.util.LittleEndian;",
+        "95": "     */",
+        "383": "                out.print( \"   Connect pt A: \" );"
+      },
+      "id": 15642619,
+      "filename": "EscherDump.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 243,
+      "location": "/components/forks/poi/src/loci/poi/util",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642641/",
+      "md5hash": "56cc8fb62c9eac8a8b4c8679636ec4d4",
+      "lines": {
+        "225": "    {",
+        "226": "        LittleEndian.putInt(data, _offset, _value);",
+        "199": "     *",
+        "200": "     * @exception BufferUnderrunException if there is not enough data",
+        "43": "",
+        "44": "import loci.poi.util.LittleEndian.BufferUnderrunException;",
+        "206": "    public void readFromStream(final InputStream stream)",
+        "207": "        throws IOException, BufferUnderrunException",
+        "208": "    {",
+        "209": "        _value = LittleEndian.readInt(stream);",
+        "190": "    {",
+        "191": "        _value = LittleEndian.getInt(data, _offset);"
+      },
+      "id": 15642641,
+      "filename": "IntegerField.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 240,
+      "location": "/components/forks/poi/src/loci/poi/util",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642644/",
+      "md5hash": "53e59945e2d0f46088c2278e02df418b",
+      "lines": {
+        "43": "",
+        "196": "     *",
+        "197": "     * @exception BufferUnderrunException if there is not enough data",
+        "204": "        throws IOException, BufferUnderrunException",
+        "203": "    public void readFromStream(final InputStream stream)",
+        "44": "import loci.poi.util.LittleEndian.BufferUnderrunException;",
+        "205": "    {",
+        "206": "        _value = LittleEndian.readShort(stream);",
+        "187": "    {",
+        "188": "        _value = LittleEndian.getShort(data, _offset);",
+        "222": "    {",
+        "223": "        LittleEndian.putShort(data, _offset, _value);"
+      },
+      "id": 15642644,
+      "filename": "ShortField.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 240,
+      "location": "/components/forks/poi/src/loci/poi/util",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642653/",
+      "md5hash": "c1dd54f2149f62d9ad5499337a531947",
+      "lines": {
+        "43": "",
+        "196": "     *",
+        "197": "     * @exception BufferUnderrunException if there is not enough data",
+        "204": "        throws IOException, BufferUnderrunException",
+        "203": "    public void readFromStream(final InputStream stream)",
+        "44": "import loci.poi.util.LittleEndian.BufferUnderrunException;",
+        "205": "    {",
+        "206": "        _value = LittleEndian.readLong(stream);",
+        "187": "    {",
+        "188": "        _value = LittleEndian.getLong(data, _offset);",
+        "222": "    {",
+        "223": "        LittleEndian.putLong(data, _offset, _value);"
+      },
+      "id": 15642653,
+      "filename": "LongField.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 244,
+      "location": "/components/forks/poi/src/loci/poi/util",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642654/",
+      "md5hash": "4ab855776cb20854e7eea02a313d89e7",
+      "lines": {
+        "208": "        _value =",
+        "209": "            (LittleEndian.readFromStream(stream,",
+        "210": "                                         LittleEndianConsts.BYTE_SIZE))[ 0 ];",
+        "211": "    }",
+        "198": "     *",
+        "199": "     * @exception BufferUnderrunException if there is not enough data",
+        "43": "",
+        "44": "import loci.poi.util.LittleEndian.BufferUnderrunException;",
+        "205": "    public void readFromStream(final InputStream stream)",
+        "206": "        throws IOException, BufferUnderrunException"
+      },
+      "id": 15642654,
+      "filename": "ByteField.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 85,
+      "location": "/pptx/src/org/apache/poi/util",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406100/",
+      "md5hash": "f0bd37fff7c1c92d1b4b7c0b36837cba",
+      "lines": {
+        "52": "     *",
+        "21": "",
+        "22": "import org.apache.poi.util.LittleEndian.BufferUnderrunException;",
+        "59": "    public void readFromStream(InputStream stream)",
+        "60": "        throws IOException, BufferUnderrunException;",
+        "53": "     * @exception BufferUnderrunException if there is not enough data"
+      },
+      "id": 97406100,
+      "filename": "FixedField.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 107,
+      "location": "/components/forks/poi/src/loci/poi/util",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642659/",
+      "md5hash": "2daa3646e3989d0176cdcc485aebc076",
+      "lines": {
+        "81": "    public void readFromStream(InputStream stream)",
+        "82": "        throws IOException, BufferUnderrunException;",
+        "43": "",
+        "74": "     *",
+        "75": "     * @exception BufferUnderrunException if there is not enough data",
+        "44": "import loci.poi.util.LittleEndian.BufferUnderrunException;"
+      },
+      "id": 15642659,
+      "filename": "FixedField.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 827,
+      "location": "/src/org/apache/poi/util",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383600/",
+      "md5hash": "ccca8c6c07e92ec2aa5d2a34a5a233d7",
+      "lines": {
+        "32": " */",
+        "33": "public class LittleEndian implements LittleEndianConsts",
+        "770": "            throw new BufferUnderrunException();",
+        "803": "        {",
+        "804": "            throw new BufferUnderrunException();",
+        "769": "        {",
+        "40": "     */",
+        "41": "    public static final class BufferUnderrunException extends IOException",
+        "49": "",
+        "50": "        BufferUnderrunException()",
+        "787": "     *                will be propagated back to the caller",
+        "788": "     * @exception BufferUnderrunException",
+        "791": "    public static short readShort( InputStream stream ) throws IOException,",
+        "792": "            BufferUnderrunException",
+        "797": "    public static int readUShort( InputStream stream ) throws IOException,",
+        "798": "            BufferUnderrunException"
+      },
+      "id": 97383600,
+      "filename": "LittleEndian.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 612,
+      "location": "/components/forks/poi/src/loci/poi/util",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642667/",
+      "md5hash": "ae94bc3d6a3999373ac2ab47fceefd46",
+      "lines": {
+        "441": "    public static int readInt(final InputStream stream)",
+        "419": "     *@exception  IOException              will be propagated back to the caller",
+        "420": "     *@exception  BufferUnderrunException  if the stream cannot provide enough",
+        "54": "",
+        "424": "    public static short readShort(final InputStream stream)",
+        "425": "             throws IOException, BufferUnderrunException {",
+        "407": "        BufferUnderrunException() {",
+        "399": "",
+        "400": "    public static class BufferUnderrunException",
+        "436": "     *@exception  IOException              will be propagated back to the caller",
+        "437": "     *@exception  BufferUnderrunException  if the stream cannot provide enough",
+        "406": "",
+        "55": "public class LittleEndian",
+        "56": "         implements LittleEndianConsts {",
+        "57": "",
+        "442": "             throws IOException, BufferUnderrunException {"
+      },
+      "id": 15642667,
+      "filename": "LittleEndian.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 9,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

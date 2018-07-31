@@ -1,0 +1,134 @@
+{
+  "matchterm": "PrintSetupRecord",
+  "previouspage": null,
+  "searchterm": "PrintSetupRecord",
+  "query": "PrintSetupRecord",
+  "language_filters": [
+    {
+      "count": 5,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 5,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 415,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642520/",
+      "md5hash": "574ca7a66887d4de68c5ecf1a43a7c4a",
+      "lines": {
+        "400": "      PrintSetupRecord rec = new PrintSetupRecord();",
+        "100": "",
+        "101": "    public PrintSetupRecord(RecordInputStream in)",
+        "56": "",
+        "57": "public class PrintSetupRecord",
+        "91": "",
+        "92": "    public PrintSetupRecord()",
+        "399": "    public Object clone() {"
+      },
+      "id": 15642520,
+      "filename": "PrintSetupRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 385,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642310/",
+      "md5hash": "d03732e1e871abb01fe323c81b3077ab",
+      "lines": {
+        "43": "import loci.poi.hssf.record.PrintSetupRecord;",
+        "158": "\tprintSetupRecord.setNoColor(mono);",
+        "133": "    public void setLeftToRight(boolean ltor)    {",
+        "70": "    public static final short ENVELOPE_MONARCH_PAPERSIZE  = 37;",
+        "71": "    PrintSetupRecord printSetupRecord;",
+        "42": "",
+        "75": "     * @param printSetupRecord the low level print setup record    ",
+        "76": "     */",
+        "141": "    public void setLandscape(boolean ls)    {",
+        "142": "\tprintSetupRecord.setLandscape(!ls);",
+        "157": "    public void setNoColor(boolean mono)    {",
+        "149": "    public void setValidSettings(boolean valid)    {",
+        "150": "\tprintSetupRecord.setValidSettings(valid);",
+        "74": "     * Constructor.  Takes the low level print setup record.    ",
+        "134": "\tprintSetupRecord.setLeftToRight(ltor);"
+      },
+      "id": 15642310,
+      "filename": "HSSFPrintSetup.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 3300,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642365/",
+      "md5hash": "1e8d548d196dc1063c30d9430b35b9f5",
+      "lines": {
+        "2321": "    public PrintSetupRecord getPrintSetup ()",
+        "2317": "    /**",
+        "2318": "     * Returns the PrintSetupRecord.",
+        "2319": "     * @return PrintSetupRecord for the sheet.",
+        "2320": "     */",
+        "273": "            {",
+        "274": "                retval.printSetup = (PrintSetupRecord) rec;",
+        "2326": "    /**",
+        "2327": "     * Sets the PrintSetupRecord.",
+        "2328": "     * @param newPrintSetup The new PrintSetupRecord for the sheet.",
+        "2329": "     */",
+        "1690": "     * creates the PrintSetup Record and sets it to defaults and marks it invalid",
+        "1691": "     * @see loci.poi.hssf.record.PrintSetupRecord",
+        "1692": "     * @see loci.poi.hssf.record.Record",
+        "2330": "    public void setPrintSetup (PrintSetupRecord newPrintSetup)"
+      },
+      "id": 15642365,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642343/",
+      "md5hash": "468caa59753e7c2d27a76f3903f70894",
+      "lines": {
+        "104": "import loci.poi.hssf.record.PrintSetupRecord;",
+        "175": "                PrintSetupRecord.class, DefaultColWidthRecord.class,",
+        "174": "                FooterRecord.class, HCenterRecord.class, VCenterRecord.class,",
+        "103": "import loci.poi.hssf.record.PrintHeadersRecord;"
+      },
+      "id": 15642343,
+      "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "84": "                FooterRecord.class, HCenterRecord.class, VCenterRecord.class,",
+        "85": "                PrintSetupRecord.class, DefaultColWidthRecord.class,"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 5,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

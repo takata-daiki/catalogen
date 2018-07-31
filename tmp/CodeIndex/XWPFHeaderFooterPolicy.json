@@ -1,0 +1,95 @@
+{
+  "matchterm": "XWPFHeaderFooterPolicy",
+  "previouspage": null,
+  "searchterm": "XWPFHeaderFooterPolicy",
+  "query": "XWPFHeaderFooterPolicy",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 184,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785573/",
+      "md5hash": "182b92c20f0ceb47e5952f2b30e98cd2",
+      "lines": {
+        "98": "    private void extractFooters(",
+        "99": "            XHTMLContentHandler xhtml, XWPFHeaderFooterPolicy hfPolicy)",
+        "69": "",
+        "70": "            XWPFHeaderFooterPolicy headerFooterPolicy = null;",
+        "73": "                headerFooterPolicy =",
+        "74": "                    new XWPFHeaderFooterPolicy(document, ctSectPr);",
+        "113": "    private void extractHeaders(",
+        "114": "            XHTMLContentHandler xhtml, XWPFHeaderFooterPolicy hfPolicy)",
+        "54": "        XWPFDocument document = (XWPFDocument) extractor.getDocument();",
+        "55": "        XWPFHeaderFooterPolicy hfPolicy = document.getHeaderFooterPolicy();",
+        "26": "import org.apache.poi.xwpf.model.XWPFCommentsDecorator;",
+        "27": "import org.apache.poi.xwpf.model.XWPFHeaderFooterPolicy;"
+      },
+      "id": 111785573,
+      "filename": "XWPFWordExtractorDecorator.java"
+    },
+    {
+      "repo": "https://bitbucket.org/mg/olat",
+      "language": "Java",
+      "linescount": 156,
+      "location": "/src/main/java/org/olat/search/service/document/file",
+      "name": "olat",
+      "url": "https://searchcode.com/codesearch/view/126168429/",
+      "md5hash": "dfe530c94dc566561a0e060d649eb7c5",
+      "lines": {
+        "32": "import org.apache.poi.xwpf.model.XWPFCommentsDecorator;",
+        "33": "import org.apache.poi.xwpf.model.XWPFHeaderFooterPolicy;",
+        "132": "",
+        "133": "\tprivate void extractFooters(final StringBuilder buffy, final XWPFHeaderFooterPolicy hfPolicy) {",
+        "145": "\tprivate void extractHeaders(final StringBuilder buffy, final XWPFHeaderFooterPolicy hfPolicy) {",
+        "144": "",
+        "111": "",
+        "112": "\t\t\tXWPFHeaderFooterPolicy headerFooterPolicy = null;",
+        "113": "\t\t\tif (ctSectPr != null) {",
+        "114": "\t\t\t\theaderFooterPolicy = new XWPFHeaderFooterPolicy(document, ctSectPr);",
+        "85": "\t\t\t\tfinal XWPFDocument xDocument = (XWPFDocument) document;",
+        "86": "\t\t\t\tfinal XWPFHeaderFooterPolicy hfPolicy = xDocument.getHeaderFooterPolicy();"
+      },
+      "id": 126168429,
+      "filename": "WordOOXMLDocument.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 485,
+      "location": "/src/main/java/org/docx4j/model/structure",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17641742/",
+      "md5hash": "ebdc4d8430883234eaa02dc7aedc48b7",
+      "lines": {
+        "3": "/*",
+        "4": " * Inspired/converted from org.apache.poi.xwpf.model.XWPFHeaderFooterPolicy,"
+      },
+      "id": 17641742,
+      "filename": "HeaderFooterPolicy.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

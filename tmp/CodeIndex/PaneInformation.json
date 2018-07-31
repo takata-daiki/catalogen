@@ -1,0 +1,245 @@
+{
+  "matchterm": "PaneInformation",
+  "previouspage": null,
+  "searchterm": "PaneInformation",
+  "query": "PaneInformation",
+  "language_filters": [
+    {
+      "count": 11,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 11,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 128,
+      "location": "/components/forks/poi/src/loci/poi/hssf/util",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642347/",
+      "md5hash": "4ede37f99b82a14dd02cf19e1b51e70a",
+      "lines": {
+        "64": "\tpublic PaneInformation(short x, short y, short top, short left, byte active, boolean frozen) {",
+        "45": " */",
+        "46": "public class PaneInformation",
+        "63": "\t"
+      },
+      "id": 15642347,
+      "filename": "PaneInformation.java"
+    },
+    {
+      "repo": "https://bitbucket.org/jyavoc/ap-cs.git",
+      "language": "Java",
+      "linescount": 77,
+      "location": "/OldMacDonald/src/com/deitloff/gui",
+      "name": "ap-cs",
+      "url": "https://searchcode.com/codesearch/view/47990128/",
+      "md5hash": "142b63095a6fa2f250aa5b7500d663b3",
+      "lines": {
+        "32": "        jScrollPane1 = new javax.swing.JScrollPane();",
+        "33": "        paneInformation = new javax.swing.JTextArea();",
+        "72": "    private javax.swing.JLabel labelProjSpec;",
+        "73": "    private javax.swing.JTextArea paneInformation;",
+        "52": "",
+        "53": "        paneInformation.setBackground(javax.swing.UIManager.getDefaults().getColor(\"Panel.background\"));",
+        "54": "        paneInformation.setColumns(20);",
+        "55": "        paneInformation.setEditable(false);",
+        "56": "        paneInformation.setFont(new java.awt.Font(\"Tahoma\", 0, 12)); // NOI18N",
+        "57": "        paneInformation.setLineWrap(true);",
+        "58": "        paneInformation.setRows(5);",
+        "59": "        paneInformation.setText(\"According to the old children\u0092s song, Farmer MacDonald had variety of animals on his property; each of them distinct in their own way.   However, there is a set of features common to all.  For purposes of this project, these common attributes and behaviors can be represented by a Java superclass (let\u0092s call it Animal).  For simplicity, let\u0092s limit the common behaviors to identification (textual and graphical) and speech.\\n\\nDecide on a set of three farm animals, and create Java classes for them.  Each of the classes should inherit from the Animal class and maintain the animal name, noise/sound, and the name of the picture file for that animal as instance data.\\n\\nThe driver will maintain a parameterized ArrayList (type parameter of Animal) for storing the variety of animals on the farm (see the video demo of how the animals are selected).  Once an animal has been selected, it should be added to the ArrayList.  At any given time, the user can chose to play the Ol\u0092 MacDonald song.  The ArrayList and the Animal behaviors are accessed, however the distinctiveness of each animal is displayed via the magic of polymorphism (i.e. each Animal puts on a unique mask depending on the type of animal that it really is).\\n\\nUse the video demo as a model (i.e. feel free to customize it).  The driver, though, must use a parameterized ArrayList and separate methods for adding animals and exhibiting animal behaviors (Hint: an enhanced for loop might come in handy).\");",
+        "60": "        paneInformation.setWrapStyleWord(true);",
+        "61": "        paneInformation.setAutoscrolls(false);",
+        "62": "        jScrollPane1.setViewportView(paneInformation);"
+      },
+      "id": 47990128,
+      "filename": "DialogProjectSpec.java"
+    },
+    {
+      "repo": "https://github.com/isdom/POI-Android.git",
+      "language": "Java",
+      "linescount": 931,
+      "location": "/ppt/poi/org/apache/poi/ss/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/88638900/",
+      "md5hash": "15413f751fdd807f194277fb9055eb4d",
+      "lines": {
+        "662": "    PaneInformation getPaneInformation();",
+        "21": "",
+        "22": "import org.apache.poi.hssf.util.PaneInformation;",
+        "661": "     */"
+      },
+      "id": 88638900,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 53,
+      "location": "/SpudSoft BIRT Excel Emitters Tests/src/uk/co/spudsoft/birt/emitters/excel/tests",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/122565068/",
+      "md5hash": "b0ae265e6e9a06012ac3de9762037ff2",
+      "lines": {
+        "42": "\t\t\t",
+        "43": "\t\t\tPaneInformation paneInfo = sheet0.getPaneInformation();",
+        "20": "",
+        "21": "import org.apache.poi.hssf.util.PaneInformation;"
+      },
+      "id": 122565068,
+      "filename": "Issue56FreezePanes.java"
+    },
+    {
+      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 599,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/122565138/",
+      "md5hash": "e8ec25ba7cf4f1f996fb2cb840b6865e",
+      "lines": {
+        "17": "",
+        "18": "import org.apache.poi.hssf.util.PaneInformation;",
+        "420": "",
+        "421": "\tpublic PaneInformation getPaneInformation() {",
+        "422": "\t\treturn sheet.getPaneInformation();",
+        "423": "\t}"
+      },
+      "id": 122565138,
+      "filename": "FilteredSheet.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 5111,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970697/",
+      "md5hash": "f6740268ba4be4778508748ca1c3becc",
+      "lines": {
+        "4635": "\t\tfinal PaneInformation pi = sheet.getPaneInformation();",
+        "4630": "\tpublic static int getRowFreeze(Worksheet sheet) {",
+        "4631": "\t\tfinal PaneInformation pi = sheet.getPaneInformation();",
+        "58": "import org.zkoss.poi.hssf.util.HSSFColorExt;",
+        "59": "import org.zkoss.poi.hssf.util.PaneInformation;",
+        "4634": "\tpublic static int getColumnFreeze(Worksheet sheet) {"
+      },
+      "id": 3970697,
+      "filename": "BookHelper.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 3300,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642365/",
+      "md5hash": "1e8d548d196dc1063c30d9430b35b9f5",
+      "lines": {
+        "2512": "        ",
+        "49": "import loci.poi.hssf.record.formula.Ptg;",
+        "50": "import loci.poi.hssf.util.PaneInformation;",
+        "2513": "      return new PaneInformation(rec.getX(), rec.getY(), rec.getTopRow(),",
+        "2507": "     */",
+        "2508": "    public PaneInformation getPaneInformation() {"
+      },
+      "id": 15642365,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 591,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/64530825/",
+      "md5hash": "55584d02d79e59362ceefc7f64ab9bfd",
+      "lines": {
+        "26": "",
+        "27": "import org.apache.poi.hssf.util.PaneInformation;",
+        "412": "",
+        "413": "\tpublic PaneInformation getPaneInformation() {",
+        "414": "\t\treturn sheet.getPaneInformation();",
+        "415": "\t}"
+      },
+      "id": 64530825,
+      "filename": "FilteredSheet.java"
+    },
+    {
+      "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 62,
+      "location": "/SpudSoft BIRT Excel Emitters Tests/src/uk/co/spudsoft/birt/emitters/excel/tests",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/64531532/",
+      "md5hash": "847f817f6ef8420a46205f97245c184b",
+      "lines": {
+        "51": "\t\t\t",
+        "52": "\t\t\tPaneInformation paneInfo = sheet0.getPaneInformation();",
+        "29": "",
+        "30": "import org.apache.poi.hssf.util.PaneInformation;"
+      },
+      "id": 64531532,
+      "filename": "Issue56FreezePanes.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ravisanthu0/spudsoft-birt-excel-emitters1",
+      "language": "Java",
+      "linescount": 575,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters1",
+      "url": "https://searchcode.com/codesearch/view/126772691/",
+      "md5hash": "b4e544f9101280231fc4294688aa09de",
+      "lines": {
+        "4": "",
+        "5": "import org.apache.poi.hssf.util.PaneInformation;",
+        "396": "\t@Override",
+        "397": "\tpublic PaneInformation getPaneInformation() {",
+        "398": "\t\treturn sheet.getPaneInformation();",
+        "399": "\t}"
+      },
+      "id": 126772691,
+      "filename": "FilteredSheet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1607,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642322/",
+      "md5hash": "5084cc24e46752bd3911d5d0a983e0a6",
+      "lines": {
+        "51": "import loci.poi.hssf.util.Region;",
+        "52": "import loci.poi.hssf.util.PaneInformation;",
+        "1193": "     */",
+        "1194": "    public PaneInformation getPaneInformation() {",
+        "1195": "      return getSheet().getPaneInformation();",
+        "1196": "    }"
+      },
+      "id": 15642322,
+      "filename": "HSSFSheet.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 6,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

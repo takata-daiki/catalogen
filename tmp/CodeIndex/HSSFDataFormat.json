@@ -1,0 +1,439 @@
+{
+  "matchterm": "HSSFDataFormat",
+  "previouspage": null,
+  "searchterm": "HSSFDataFormat",
+  "query": "HSSFDataFormat",
+  "language_filters": [
+    {
+      "count": 67,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 67,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642305/",
+      "md5hash": "31ba22c44e059e578f314247452c9ee2",
+      "lines": {
+        "120": "    public HSSFDataFormat( Workbook workbook )",
+        "119": "     */",
+        "104": "public class HSSFDataFormat",
+        "41": "/*",
+        "42": " * HSSFDataFormat.java",
+        "103": ""
+      },
+      "id": 15642305,
+      "filename": "HSSFDataFormat.java"
+    },
+    {
+      "repo": "https://bitbucket.org/panemu/tiwulfx.git",
+      "language": "Java",
+      "linescount": 235,
+      "location": "/src/main/java/com/panemu/tiwulfx/common",
+      "name": "tiwulfx",
+      "url": "https://searchcode.com/codesearch/view/46011490/",
+      "md5hash": "ba097e104ce90c1cdb8069d9dc85850d",
+      "lines": {
+        "194": "\t\tcsText = wb.createCellStyle();",
+        "195": "\t\tcsText.setDataFormat(HSSFDataFormat.getBuiltinFormat(\"text\"));",
+        "213": "\t\tcsTitle = wb.createCellStyle();",
+        "214": "\t\tcsTitle.setDataFormat(HSSFDataFormat.getBuiltinFormat(\"text\"));",
+        "201": "\t\tcsHeader = wb.createCellStyle();",
+        "202": "\t\tcsHeader.setDataFormat(HSSFDataFormat.getBuiltinFormat(\"text\"));",
+        "12": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "13": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;"
+      },
+      "id": 46011490,
+      "filename": "ExportToExcel.java"
+    },
+    {
+      "repo": "https://github.com/qz267/automanx-api.git",
+      "language": "Java",
+      "linescount": 262,
+      "location": "/src/main/java/com/taobao/itest/dbunit/dataset/excel",
+      "name": "automanx-api",
+      "url": "https://searchcode.com/codesearch/view/98215989/",
+      "md5hash": "f843393f906ce40d438f12806e441583",
+      "lines": {
+        "160": "\t\t//",
+        "161": "\t\t// HSSFDataFormat dataFormat = workbook.createDataFormat();",
+        "214": "",
+        "134": "\tprotected static HSSFCellStyle createDateCellStyle(HSSFWorkbook workbook) {",
+        "135": "\t\tHSSFDataFormat format = workbook.createDataFormat();",
+        "215": "\t\tHSSFDataFormat df = workbook.createDataFormat();",
+        "184": "\t\t// else {",
+        "185": "\t\t// // HSSFDataFormatter formatter = new HSSFDataFormatter();",
+        "154": "\t\t// HSSFCellStyle cellStyleDate = workbook.createCellStyle();",
+        "151": "",
+        "152": "\t\t// System.out.println(HSSFDataFormat.getBuiltinFormats());",
+        "57": "\t/**",
+        "58": "\t * A special format pattern used to create a custom {@link HSSFDataFormat}",
+        "155": "\t\t// cellStyleDate.setDataFormat(HSSFDataFormat.getBuiltinFormat(\"m/d/yy h:mm\"));",
+        "29": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;"
+      },
+      "id": 98215989,
+      "filename": "XlsDataSetWriter.java"
+    },
+    {
+      "repo": "https://github.com/dylanvivi/util.git",
+      "language": "Java",
+      "linescount": 419,
+      "location": "/src/main/java/com/dylan/lang",
+      "name": "util",
+      "url": "https://searchcode.com/codesearch/view/73315299/",
+      "md5hash": "a75d39e57f9db6720178088f2a109b58",
+      "lines": {
+        "262": "\t\tstyle4.setDataFormat(HSSFDataFormat.getBuiltinFormat(\"0\"));",
+        "253": "\t\tstyle3.setVerticalAlignment(HSSFCellStyle.VERTICAL_CENTER);",
+        "100": "\t\tstyle3.setVerticalAlignment(HSSFCellStyle.VERTICAL_CENTER);",
+        "21": "import org.apache.poi.hssf.usermodel.HSSFComment;",
+        "22": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
+        "261": "\t\tstyle4.setVerticalAlignment(HSSFCellStyle.VERTICAL_CENTER);",
+        "108": "\t\tstyle4.setVerticalAlignment(HSSFCellStyle.VERTICAL_CENTER);",
+        "109": "\t\tstyle4.setDataFormat(HSSFDataFormat.getBuiltinFormat(\"0\"));",
+        "254": "\t\tHSSFDataFormat format = workbook.createDataFormat();",
+        "101": "\t\tHSSFDataFormat format = workbook.createDataFormat();"
+      },
+      "id": 73315299,
+      "filename": "ExcelUtil.java"
+    },
+    {
+      "repo": "https://github.com/qz267/automanx-api.git",
+      "language": "Java",
+      "linescount": 465,
+      "location": "/src/main/java/com/taobao/itest/tb/tddl",
+      "name": "automanx-api",
+      "url": "https://searchcode.com/codesearch/view/98215851/",
+      "md5hash": "a666b4bc717eabc10e37e37b1593b903",
+      "lines": {
+        "384": "\t\t\t\t\tHSSFCellStyle cellStyle = workbook.createCellStyle();",
+        "385": "\t\t\t\t\tHSSFDataFormat format = workbook.createDataFormat();",
+        "18": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "19": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
+        "391": "\t\t\t\t\tHSSFCellStyle cellStyle = workbook.createCellStyle();",
+        "392": "\t\t\t\t\tHSSFDataFormat format = workbook.createDataFormat();"
+      },
+      "id": 98215851,
+      "filename": "RuleCalUtil.java"
+    },
+    {
+      "repo": "https://bitbucket.org/emmie/adempiere-patches",
+      "language": "Java",
+      "linescount": 473,
+      "location": "/base/src/org/adempiere/impexp",
+      "name": "adempiere-patches",
+      "url": "https://searchcode.com/codesearch/view/102528302/",
+      "md5hash": "ff85ab83dce319bf411596c3e566349d",
+      "lines": {
+        "257": "\t\t\tcs_header.setBorderBottom((short)2);",
+        "258": "\t\t\tcs_header.setDataFormat(HSSFDataFormat.getBuiltinFormat(\"text\"));",
+        "118": "\tprivate HSSFWorkbook m_workbook;",
+        "119": "\tprivate HSSFDataFormat m_dataFormat;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;"
+      },
+      "id": 102528302,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openicar/core",
+      "language": "Java",
+      "linescount": 341,
+      "location": "/components/src/main/java/org/comsoft/system/excel",
+      "name": "core",
+      "url": "https://searchcode.com/codesearch/view/102774956/",
+      "md5hash": "d4792e09c1e402da2a4e8a4d9e7a83b6",
+      "lines": {
+        "80": "\t\tHSSFDataFormat formatter = wb.createDataFormat();",
+        "144": "\tprivate Object getCellValue(HSSFCell cell, HSSFDataFormat formatter) {",
+        "40": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "41": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
+        "79": "",
+        "143": ""
+      },
+      "id": 102774956,
+      "filename": "ExcelParser.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 934,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642301/",
+      "md5hash": "24c44cb1a59082d02f2a63724ba4084a",
+      "lines": {
+        "288": "     * @see loci.poi.hssf.usermodel.HSSFDataFormat",
+        "277": "     * set the data format (must be a valid format)",
+        "278": "     * @see loci.poi.hssf.usermodel.HSSFDataFormat",
+        "298": "     *  the DataFormat against the supplied workbook",
+        "299": "     * @see loci.poi.hssf.usermodel.HSSFDataFormat",
+        "301": "    public String getDataFormatString(Workbook workbook) {",
+        "302": "    \tHSSFDataFormat format = new HSSFDataFormat(workbook);",
+        "287": "     * get the index of the format"
+      },
+      "id": 15642301,
+      "filename": "HSSFCellStyle.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1445,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642316/",
+      "md5hash": "4f7b036daf89776dc4ee4606b7972144",
+      "lines": {
+        "1200": "     */",
+        "1201": "    public HSSFDataFormat createDataFormat() {",
+        "1202": "\tif (formatter == null)",
+        "1203": "\t    formatter = new HSSFDataFormat(workbook);",
+        "132": "     */",
+        "133": "    private HSSFDataFormat formatter;",
+        "1195": "    /**",
+        "1196": "     * Returns the instance of HSSFDataFormat for this workbook.",
+        "1197": "     * @return the HSSFDataFormat object",
+        "1198": "     * @see loci.poi.hssf.record.FormatRecord"
+      },
+      "id": 15642316,
+      "filename": "HSSFWorkbook.java"
+    },
+    {
+      "repo": "http://ett.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 658,
+      "location": "/web/src/main/java/com/ett/web/framework/struts2",
+      "name": "ett",
+      "url": "https://searchcode.com/codesearch/view/12867608/",
+      "md5hash": "8fa5b72bf30f5ceba82520e7b4b9ea46",
+      "lines": {
+        "288": "       style.setFillPattern(HSSFCellStyle.SOLID_FOREGROUND);",
+        "17": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "18": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
+        "317": "       style.setDataFormat(HSSFDataFormat.getBuiltinFormat(\"###,##0.00\"));",
+        "342": "       //this.setCellBorder(style);",
+        "289": "       style.setDataFormat(HSSFDataFormat.getBuiltinFormat(\"###,##0.00\"));",
+        "343": "       style.setDataFormat(HSSFDataFormat.getBuiltinFormat(\"###,##0.00\"));",
+        "316": "       this.setCellBorder(style);",
+        "305": "       style.setDataFormat(HSSFDataFormat.getBuiltinFormat(\"###,##0.00\"));",
+        "304": "       style.setFont(boldFont);"
+      },
+      "id": 12867608,
+      "filename": "EntityAction.java"
+    },
+    {
+      "repo": "https://bitbucket.org/edwin_ang/idempiere-mbd",
+      "language": "Java",
+      "linescount": 503,
+      "location": "/org.adempiere.base/src/org/adempiere/impexp",
+      "name": "idempiere-mbd",
+      "url": "https://searchcode.com/codesearch/view/59777594/",
+      "md5hash": "8e9a27ad157d0e20ab643ffb8c5b9d30",
+      "lines": {
+        "261": "\t\t\tcs_header.setBorderBottom((short)2);",
+        "262": "\t\t\tcs_header.setDataFormat(HSSFDataFormat.getBuiltinFormat(\"text\"));",
+        "121": "\tprivate HSSFWorkbook m_workbook;",
+        "122": "\tprivate HSSFDataFormat m_dataFormat;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;"
+      },
+      "id": 59777594,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/siberium/siberium-ierp",
+      "language": "Java",
+      "linescount": 503,
+      "location": "/org.adempiere.base/src/org/adempiere/impexp",
+      "name": "siberium-ierp",
+      "url": "https://searchcode.com/codesearch/view/61401276/",
+      "md5hash": "8e9a27ad157d0e20ab643ffb8c5b9d30",
+      "lines": {
+        "261": "\t\t\tcs_header.setBorderBottom((short)2);",
+        "262": "\t\t\tcs_header.setDataFormat(HSSFDataFormat.getBuiltinFormat(\"text\"));",
+        "121": "\tprivate HSSFWorkbook m_workbook;",
+        "122": "\tprivate HSSFDataFormat m_dataFormat;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;"
+      },
+      "id": 61401276,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/javier_p_villamizar/idempiere",
+      "language": "Java",
+      "linescount": 505,
+      "location": "/org.adempiere.base/src/org/adempiere/impexp",
+      "name": "idempiere",
+      "url": "https://searchcode.com/codesearch/view/62551719/",
+      "md5hash": "c7cf1ef5bae5431604ffae8de1305e3f",
+      "lines": {
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "263": "\t\t\tcs_header.setBorderBottom((short)2);",
+        "264": "\t\t\tcs_header.setDataFormat(HSSFDataFormat.getBuiltinFormat(\"text\"));",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
+        "123": "\tprivate HSSFWorkbook m_workbook;",
+        "124": "\tprivate HSSFDataFormat m_dataFormat;"
+      },
+      "id": 62551719,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tbayen/idempiere",
+      "language": "Java",
+      "linescount": 503,
+      "location": "/org.adempiere.base/src/org/adempiere/impexp",
+      "name": "idempiere",
+      "url": "https://searchcode.com/codesearch/view/62628992/",
+      "md5hash": "8e9a27ad157d0e20ab643ffb8c5b9d30",
+      "lines": {
+        "261": "\t\t\tcs_header.setBorderBottom((short)2);",
+        "262": "\t\t\tcs_header.setDataFormat(HSSFDataFormat.getBuiltinFormat(\"text\"));",
+        "121": "\tprivate HSSFWorkbook m_workbook;",
+        "122": "\tprivate HSSFDataFormat m_dataFormat;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;"
+      },
+      "id": 62628992,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/sphiphatchamikorn/adempiere361",
+      "language": "Java",
+      "linescount": 474,
+      "location": "/base/src/org/adempiere/impexp",
+      "name": "adempiere361",
+      "url": "https://searchcode.com/codesearch/view/63385794/",
+      "md5hash": "4e80b12708a60a947d9b7c23cd66ba00",
+      "lines": {
+        "257": "\t\t\tcs_header.setBorderBottom((short)2);",
+        "258": "\t\t\tcs_header.setDataFormat(HSSFDataFormat.getBuiltinFormat(\"text\"));",
+        "118": "\tprivate HSSFWorkbook m_workbook;",
+        "119": "\tprivate HSSFDataFormat m_dataFormat;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;"
+      },
+      "id": 63385794,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/sthamthum/adempiere361",
+      "language": "Java",
+      "linescount": 474,
+      "location": "/base/src/org/adempiere/impexp",
+      "name": "adempiere361",
+      "url": "https://searchcode.com/codesearch/view/63585397/",
+      "md5hash": "4e80b12708a60a947d9b7c23cd66ba00",
+      "lines": {
+        "257": "\t\t\tcs_header.setBorderBottom((short)2);",
+        "258": "\t\t\tcs_header.setDataFormat(HSSFDataFormat.getBuiltinFormat(\"text\"));",
+        "118": "\tprivate HSSFWorkbook m_workbook;",
+        "119": "\tprivate HSSFDataFormat m_dataFormat;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;"
+      },
+      "id": 63585397,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/zeed23/adempiere361",
+      "language": "Java",
+      "linescount": 474,
+      "location": "/base/src/org/adempiere/impexp",
+      "name": "adempiere361",
+      "url": "https://searchcode.com/codesearch/view/63687137/",
+      "md5hash": "4e80b12708a60a947d9b7c23cd66ba00",
+      "lines": {
+        "257": "\t\t\tcs_header.setBorderBottom((short)2);",
+        "258": "\t\t\tcs_header.setDataFormat(HSSFDataFormat.getBuiltinFormat(\"text\"));",
+        "118": "\tprivate HSSFWorkbook m_workbook;",
+        "119": "\tprivate HSSFDataFormat m_dataFormat;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;"
+      },
+      "id": 63687137,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://github.com/wangwenan/myproject01.git",
+      "language": "Java",
+      "linescount": 383,
+      "location": "/src/main/java/com/newland/beecode/service/impl",
+      "name": "myproject01",
+      "url": "https://searchcode.com/codesearch/view/114533602/",
+      "md5hash": "570e3a94263985c3f578f86e63ce1583",
+      "lines": {
+        "276": "\t\tHSSFCellStyle style = book.createCellStyle();",
+        "277": "\t\tHSSFDataFormat format = book.createDataFormat();",
+        "22": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "23": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;"
+      },
+      "id": 114533602,
+      "filename": "XPathExcelTemplateService.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ctron/org.openscada.orilla.git",
+      "language": "Java",
+      "linescount": 334,
+      "location": "/org.openscada.ae.ui.views.export.excel/src/org/openscada/ae/ui/views/export/excel/impl",
+      "name": "org.openscada.orilla",
+      "url": "https://searchcode.com/codesearch/view/122444114/",
+      "md5hash": "e281103aee607d2e4060b4cc78a4ed02",
+      "lines": {
+        "35": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
+        "182": "",
+        "183": "        final HSSFDataFormat dateFormat = workbook.createDataFormat ();"
+      },
+      "id": 122444114,
+      "filename": "ExportEventsImpl.java"
+    },
+    {
+      "repo": "http://beangle.googlecode.com/svn/",
+      "language": "Java",
+      "linescount": 48,
+      "location": "/tags/2.0.0-alpha1/beangle-library/org.beangle.model/src/test/java/org/beangle/model/transfer/excel",
+      "name": "beangle",
+      "url": "https://searchcode.com/codesearch/view/12879608/",
+      "md5hash": "a32a8ee3a372257d087fdeb3fb77e89c",
+      "lines": {
+        "32": "\t\tcellStyle.setDataFormat(HSSFDataFormat.getBuiltinFormat(\"m/d/yy\"));",
+        "36": "",
+        "37": "\t\t//HSSFDataFormat aa = wb.createDataFormat();",
+        "38": "\t\tfor (final String format : HSSFDataFormat.getBuiltinFormats()) {",
+        "39": "\t\t\tSystem.out.println(format);",
+        "8": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "9": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
+        "31": "\t\tHSSFCellStyle cellStyle = wb.createCellStyle();"
+      },
+      "id": 12879608,
+      "filename": "PoiTest.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 43,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 13,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 11,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

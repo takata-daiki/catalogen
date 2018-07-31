@@ -1,0 +1,284 @@
+{
+  "matchterm": "ZipEntrySource",
+  "previouspage": null,
+  "searchterm": "ZipEntrySource",
+  "query": "ZipEntrySource",
+  "language_filters": [
+    {
+      "count": 12,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 12,
+  "results": [
+    {
+      "repo": "https://github.com/dovewang/zt-zip.git",
+      "language": "Java",
+      "linescount": 47,
+      "location": "/src/main/java/org/zeroturnaround/zip",
+      "name": "zt-zip",
+      "url": "https://searchcode.com/codesearch/view/71604443/",
+      "md5hash": "1125fe604de7588b4e1abe8d20afc28a",
+      "lines": {
+        "27": " */",
+        "28": "public interface ZipEntrySource {"
+      },
+      "id": 71604443,
+      "filename": "ZipEntrySource.java"
+    },
+    {
+      "repo": "git://github.com/liferay/liferay-portal.git",
+      "language": "Java",
+      "linescount": 244,
+      "location": "/modules/util/deployment-helper/src/main/java/com/liferay/deployment/helper",
+      "name": "liferay-portal",
+      "url": "https://searchcode.com/codesearch/view/116042492/",
+      "md5hash": "64b3db2e669d873d62b46172fb6b2839",
+      "lines": {
+        "130": "",
+        "99": "\t\t\tif (deploymentFile.isDirectory()) {",
+        "100": "\t\t\t\taddDeploymentFiles(deploymentFile, sb, zipEntrySources);",
+        "163": "\tprotected ZipEntrySource getClassZipEntrySource(String fileName)",
+        "135": "\t\t\tFile dir, final StringBuilder sb,",
+        "136": "\t\t\tfinal List<ZipEntrySource> zipEntrySources)",
+        "170": "",
+        "171": "\tprotected ZipEntrySource getWebXmlZipEntrySource(",
+        "44": "import org.zeroturnaround.zip.FileSource;",
+        "45": "import org.zeroturnaround.zip.ZipEntrySource;",
+        "131": "\t\tzipEntrySources.add(new FileSource(webInfDeploymentFileName, file));",
+        "162": "",
+        "153": "\t\t\t\t\tif (pathMatcher.matches(path)) {",
+        "154": "\t\t\t\t\t\taddDeploymentFile(path.toFile(), sb, zipEntrySources);",
+        "91": "",
+        "92": "\t\tList<ZipEntrySource> zipEntrySources = new ArrayList<>();"
+      },
+      "id": 116042492,
+      "filename": "DeploymentHelper.java"
+    },
+    {
+      "repo": "https://github.com/xiaoyanit/zt-zip.git",
+      "language": "Java",
+      "linescount": 2633,
+      "location": "/src/main/java/org/zeroturnaround/zip",
+      "name": "zt-zip",
+      "url": "https://searchcode.com/codesearch/view/93221807/",
+      "md5hash": "63f2ac58f58ccb24ff5660c4771b294b",
+      "lines": {
+        "1839": "  }",
+        "1933": "   */",
+        "1836": "   */",
+        "1949": "              ZipEntrySource entry = (ZipEntrySource) entryByPath.remove(zipEntry.getName());",
+        "1964": "        for (Iterator it = entryByPath.values().iterator(); it.hasNext();) {",
+        "1868": "   */",
+        "1869": "  public static boolean replaceEntries(File zip, ZipEntrySource[] entries, File destZip) {",
+        "1838": "    return replaceEntries(zip, new ZipEntrySource[] { entry }, destZip);",
+        "1837": "  public static boolean replaceEntry(File zip, ZipEntrySource entry, File destZip) {",
+        "1965": "          addEntry((ZipEntrySource) it.next(), out);",
+        "1934": "  public static void addOrReplaceEntries(File zip, ZipEntrySource[] entries, File destZip) {",
+        "1849": "   */",
+        "1850": "  public static boolean replaceEntry(final File zip, final ZipEntrySource entry) {",
+        "1563": "  public static void addEntries(final File zip, final ZipEntrySource[] entries) {",
+        "1948": "            if (names.add(zipEntry.getName())) {",
+        "1562": "   */"
+      },
+      "id": 93221807,
+      "filename": "ZipUtil.java"
+    },
+    {
+      "repo": "https://github.com/dovewang/zt-zip.git",
+      "language": "Java",
+      "linescount": 2038,
+      "location": "/src/main/java/org/zeroturnaround/zip",
+      "name": "zt-zip",
+      "url": "https://searchcode.com/codesearch/view/71604521/",
+      "md5hash": "c29f153978c61203d2366e9f1a434d72",
+      "lines": {
+        "1474": "   */",
+        "1443": "            if (names.add(zipEntry.getName())) {",
+        "1444": "              ZipEntrySource entry = (ZipEntrySource) entryByPath.remove(zipEntry.getName());",
+        "1477": "    for (int i = 0; i < entries.length; i++) {",
+        "1158": "   */",
+        "1159": "  public static void addEntries(File zip, ZipEntrySource[] entries, File destZip) {",
+        "1478": "      ZipEntrySource source = entries[i];",
+        "1475": "  private static Map byPath(ZipEntrySource[] entries) {",
+        "1459": "        for (Iterator it = entryByPath.values().iterator(); it.hasNext();) {",
+        "1428": "   */",
+        "1365": "   */",
+        "1366": "  public static boolean replaceEntry(File zip, ZipEntrySource entry, File destZip) {",
+        "1367": "    return replaceEntries(zip, new ZipEntrySource[] { entry }, destZip);",
+        "1460": "          addEntry((ZipEntrySource) it.next(), out);",
+        "1084": "   */",
+        "1085": "  public static void pack(ZipEntrySource[] entries, File zip) {",
+        "1429": "  public static void addOrReplaceEntries(File zip, ZipEntrySource[] entries, File destZip) {"
+      },
+      "id": 71604521,
+      "filename": "ZipUtil.java"
+    },
+    {
+      "repo": "https://github.com/xiaoyanit/zt-zip.git",
+      "language": "Java",
+      "linescount": 747,
+      "location": "/src/main/java/org/zeroturnaround/zip",
+      "name": "zt-zip",
+      "url": "https://searchcode.com/codesearch/view/93221761/",
+      "md5hash": "eed38bcb2ee345de5bca5e0b81187bc2",
+      "lines": {
+        "145": "   */",
+        "146": "  public Zips addEntries(ZipEntrySource[] entries) {",
+        "547": "    for (Iterator it = changedEntries.iterator(); it.hasNext();) {",
+        "548": "      ZipEntrySource entrySource = (ZipEntrySource) it.next();",
+        "133": "   */",
+        "134": "  public Zips addEntry(ZipEntrySource entry) {",
+        "76": "  /**",
+        "77": "   * List<ZipEntrySource>",
+        "542": "   * Iterate through ZipEntrySources for added or changed entries with a given callback",
+        "541": "  /**"
+      },
+      "id": 93221761,
+      "filename": "Zips.java"
+    },
+    {
+      "repo": "https://github.com/xiaoyanit/zt-zip.git",
+      "language": "Java",
+      "linescount": 643,
+      "location": "/src/test/java/org/zeroturnaround/zip",
+      "name": "zt-zip",
+      "url": "https://searchcode.com/codesearch/view/93221749/",
+      "md5hash": "973d97c84c00493c9b389f23625b279a",
+      "lines": {
+        "208": "      Zips.get(src).addEntries(new ZipEntrySource[0]).destination(dest).process();",
+        "167": "    try {",
+        "168": "      Zips.get(src).addEntries(new ZipEntrySource[0]).preserveTimestamps().destination(dest).process();",
+        "187": "    try {",
+        "188": "      Zips.get(src).addEntries(new ZipEntrySource[0]).setPreserveTimestamps(true).destination(dest).process();",
+        "45": "    try {",
+        "46": "      Zips.get(src).addEntries(new ZipEntrySource[0]).destination(dest).process();",
+        "207": "    try {"
+      },
+      "id": 93221749,
+      "filename": "ZipsTest.java"
+    },
+    {
+      "repo": "https://github.com/dovewang/zt-zip.git",
+      "language": "Java",
+      "linescount": 184,
+      "location": "/src/test/java/org/zeroturnaround/zip",
+      "name": "zt-zip",
+      "url": "https://searchcode.com/codesearch/view/71604406/",
+      "md5hash": "ce2a9f310caf6195cbe48dd37e2d2a7d",
+      "lines": {
+        "148": "  public static void addEntryCustom() {",
+        "149": "    ZipEntrySource[] entries = new ZipEntrySource[] { new FileSource(\"doc/readme.txt\", new File(FOO_TXT)),",
+        "166": "  public static void replaceEntryCustom() {",
+        "167": "    ZipEntrySource[] entries = new ZipEntrySource[] { new FileSource(\"doc/readme.txt\", new File(FOO_TXT)),"
+      },
+      "id": 71604406,
+      "filename": "MainExamplesTest.java"
+    },
+    {
+      "repo": "https://github.com/xiaoyanit/zt-zip.git",
+      "language": "Java",
+      "linescount": 571,
+      "location": "/src/test/java",
+      "name": "zt-zip",
+      "url": "https://searchcode.com/codesearch/view/93221711/",
+      "md5hash": "0adb574e5959015bba5dd93c2977fe3d",
+      "lines": {
+        "161": "    try {",
+        "34": "import org.zeroturnaround.zip.ZipEntryCallback;",
+        "35": "import org.zeroturnaround.zip.ZipEntrySource;",
+        "185": "    try {",
+        "186": "      ZipUtil.addOrReplaceEntries(src, new ZipEntrySource[0], dest);",
+        "162": "      ZipUtil.addEntries(src, new ZipEntrySource[0], dest);",
+        "174": "      ZipUtil.replaceEntries(src, new ZipEntrySource[0], dest);",
+        "173": "    try {"
+      },
+      "id": 93221711,
+      "filename": "ZipUtilTest.java"
+    },
+    {
+      "repo": "https://github.com/dovewang/zt-zip.git",
+      "language": "Java",
+      "linescount": 213,
+      "location": "/src/test/java",
+      "name": "zt-zip",
+      "url": "https://searchcode.com/codesearch/view/71604318/",
+      "md5hash": "553996e207a9e83ad2b3603640b06676",
+      "lines": {
+        "64": "      ZipUtil.addEntries(src, new ZipEntrySource[0], dest);",
+        "87": "    try {",
+        "88": "      ZipUtil.addOrReplaceEntries(src, new ZipEntrySource[0], dest);",
+        "25": "import org.apache.commons.io.IOUtils;",
+        "26": "import org.zeroturnaround.zip.ZipEntrySource;",
+        "75": "    try {",
+        "76": "      ZipUtil.replaceEntries(src, new ZipEntrySource[0], dest);",
+        "63": "    try {"
+      },
+      "id": 71604318,
+      "filename": "ZipUtilTest.java"
+    },
+    {
+      "repo": "https://github.com/dovewang/zt-zip.git",
+      "language": "Java",
+      "linescount": 46,
+      "location": "/src/main/java/org/zeroturnaround/zip/transform",
+      "name": "zt-zip",
+      "url": "https://searchcode.com/codesearch/view/71604605/",
+      "md5hash": "310d2f78ee3ff51e0cbc103647b46edf",
+      "lines": {
+        "30": "   */",
+        "31": "  static void addEntry(ZipEntrySource entry, ZipOutputStream out) throws IOException {",
+        "8": "import org.apache.commons.io.IOUtils;",
+        "9": "import org.zeroturnaround.zip.ZipEntrySource;",
+        "10": "",
+        "11": "public class ZipEntrySourceZipEntryTransformer implements ZipEntryTransformer {",
+        "12": "",
+        "13": "  private final ZipEntrySource source;",
+        "14": "",
+        "15": "  public ZipEntrySourceZipEntryTransformer(ZipEntrySource source) {"
+      },
+      "id": 71604605,
+      "filename": "ZipEntrySourceZipEntryTransformer.java"
+    },
+    {
+      "repo": "https://github.com/dovewang/zt-zip.git",
+      "language": "Java",
+      "linescount": 66,
+      "location": "/src/main/java/org/zeroturnaround/zip",
+      "name": "zt-zip",
+      "url": "https://searchcode.com/codesearch/view/71604418/",
+      "md5hash": "aa15aba74d8aa49972a8562b24f733b6",
+      "lines": {
+        "22": "",
+        "23": "public class ByteSource implements ZipEntrySource {"
+      },
+      "id": 71604418,
+      "filename": "ByteSource.java"
+    },
+    {
+      "repo": "https://github.com/dovewang/zt-zip.git",
+      "language": "Java",
+      "linescount": 62,
+      "location": "/src/main/java/org/zeroturnaround/zip",
+      "name": "zt-zip",
+      "url": "https://searchcode.com/codesearch/view/71604485/",
+      "md5hash": "1cdfbf4fbe98c41b021c548230c2325c",
+      "lines": {
+        "24": "",
+        "25": "public class FileSource implements ZipEntrySource {"
+      },
+      "id": 71604485,
+      "filename": "FileSource.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 12,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

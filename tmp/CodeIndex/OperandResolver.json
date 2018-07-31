@@ -1,0 +1,324 @@
+{
+  "matchterm": "OperandResolver",
+  "previouspage": null,
+  "searchterm": "OperandResolver",
+  "query": "OperandResolver",
+  "language_filters": [
+    {
+      "count": 14,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 14,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/aroth_iapps/jiraconnect-jiraplugin-iapps",
+      "language": "Java",
+      "linescount": 65,
+      "location": "/src/main/java/com/atlassian/jconnect/jira/customfields",
+      "name": "jiraconnect-jiraplugin-iapps",
+      "url": "https://searchcode.com/codesearch/view/122727329/",
+      "md5hash": "946d8a69b5c09e1a0c9bce3203c8145f",
+      "lines": {
+        "32": "        this.operandResolver = operandResolver;",
+        "33": "        this.i18n = i18n;",
+        "49": "        final List<QueryLiteral> literals = operandResolver.getValues(searcher, terminalClause.getOperand(), terminalClause);",
+        "48": "    private void validateOperand(MessageSet errors, I18nHelper i18n, User searcher, TerminalClause terminalClause) {",
+        "8": "import com.atlassian.crowd.embedded.api.User;",
+        "9": "import com.atlassian.jira.jql.operand.JqlOperandResolver;",
+        "26": "",
+        "27": "    private final JqlOperandResolver operandResolver;",
+        "30": "",
+        "31": "    public LocationSearchClauseValidator(Set<Operator> supportedOperators, JqlOperandResolver operandResolver, I18nHelper i18n) {"
+      },
+      "id": 122727329,
+      "filename": "LocationSearchClauseValidator.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openicar/juniprint",
+      "language": "Java",
+      "linescount": 66,
+      "location": "/src/main/java/org/comsoft/juniprint/userfunction",
+      "name": "juniprint",
+      "url": "https://searchcode.com/codesearch/view/60212073/",
+      "md5hash": "5742c87b59893ee69331ec91c5176455",
+      "lines": {
+        "56": "\t\treturn OperandResolver.coerceValueToDouble(ve);",
+        "59": "\tprivate static String evaluateStringArg(ValueEval arg, int srcCellRow, int srcCellCol) throws EvaluationException {",
+        "54": "\tprivate static double evaluateDoubleArg(ValueEval arg, int srcCellRow, int srcCellCol) throws EvaluationException {",
+        "55": "\t\tValueEval ve = OperandResolver.getSingleValue(arg, srcCellRow, (short) srcCellCol);",
+        "24": "import org.apache.poi.hssf.record.formula.eval.OperandResolver;",
+        "57": "\t}",
+        "23": "import org.apache.poi.hssf.record.formula.eval.EvaluationException;",
+        "60": "\t\tValueEval ve = OperandResolver.getSingleValue(arg, srcCellRow, (short) srcCellCol);",
+        "61": "\t\treturn OperandResolver.coerceValueToString(ve);",
+        "62": "\t}"
+      },
+      "id": 60212073,
+      "filename": "Sum_Prop.java"
+    },
+    {
+      "repo": "https://bitbucket.org/mquail/termenum2011may",
+      "language": "Java",
+      "linescount": 96,
+      "location": "/src/main/java/com/atlassian/spuddy/termenum",
+      "name": "termenum2011may",
+      "url": "https://searchcode.com/codesearch/view/60800671/",
+      "md5hash": "1dcbfb3ed3494a86cf157268dc573184",
+      "lines": {
+        "11": "import com.atlassian.jira.jql.operand.QueryLiteral;",
+        "8": "import com.atlassian.jira.issue.search.SearchProviderFactory;",
+        "9": "import com.atlassian.jira.jql.operand.JqlOperandResolver;",
+        "10": "import com.atlassian.jira.jql.operand.PredicateOperandResolver;",
+        "43": "    private final JqlOperandResolver operandResolver;",
+        "45": "    private final ConstantsManager constantsManager;",
+        "46": "    final PredicateOperandResolver predicateOperandResolver;",
+        "50": "     *",
+        "51": "     * @param operandResolver   resolves {@link Operand}  and retrieves their values",
+        "53": "     * @param constantsManager   th {@link ConstantsManager}, used to retrieve field ids from field names",
+        "54": "     * @param predicateOperandResolver  resolves {@Link HistoryPredicate} values",
+        "56": "     */",
+        "57": "    public CopiedWasClauseQueryFactory(final JqlOperandResolver operandResolver, final ChangeHistoryManager changeHistoryManager, final ConstantsManager constantsManager, final PredicateOperandResolver predicateOperandResolver, final JqlDateSupport jqlDateSupport)",
+        "58": "    {",
+        "42": "{"
+      },
+      "id": 60800671,
+      "filename": "CopiedWasClauseQueryFactory.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ttse/jiraconnect-jiraplugin",
+      "language": "Java",
+      "linescount": 65,
+      "location": "/src/main/java/com/atlassian/jconnect/jira/customfields",
+      "name": "jiraconnect-jiraplugin",
+      "url": "https://searchcode.com/codesearch/view/61683119/",
+      "md5hash": "9394b3f44fc134f6c9c5b13500a77647",
+      "lines": {
+        "32": "        this.operandResolver = operandResolver;",
+        "33": "        this.supported = checkNotNull(supportedOperators);",
+        "2": "",
+        "3": "import com.atlassian.jira.jql.operand.JqlOperandResolver;",
+        "49": "        final List<QueryLiteral> literals = operandResolver.getValues(searcher, terminalClause.getOperand(), terminalClause);",
+        "48": "    private void validateOperand(MessageSet errors, I18nHelper i18n, User searcher, TerminalClause terminalClause) {",
+        "27": "",
+        "28": "    private final JqlOperandResolver operandResolver;",
+        "30": "",
+        "31": "    public LocationSearchClauseValidator(Set<Operator> supportedOperators, JqlOperandResolver operandResolver) {"
+      },
+      "id": 61683119,
+      "filename": "LocationSearchClauseValidator.java"
+    },
+    {
+      "repo": "https://bitbucket.org/robertmassaioli/jiraconnect-jiraplugin",
+      "language": "Java",
+      "linescount": 65,
+      "location": "/src/main/java/com/atlassian/jconnect/jira/customfields",
+      "name": "jiraconnect-jiraplugin",
+      "url": "https://searchcode.com/codesearch/view/125592162/",
+      "md5hash": "9394b3f44fc134f6c9c5b13500a77647",
+      "lines": {
+        "32": "        this.operandResolver = operandResolver;",
+        "33": "        this.supported = checkNotNull(supportedOperators);",
+        "2": "",
+        "3": "import com.atlassian.jira.jql.operand.JqlOperandResolver;",
+        "49": "        final List<QueryLiteral> literals = operandResolver.getValues(searcher, terminalClause.getOperand(), terminalClause);",
+        "48": "    private void validateOperand(MessageSet errors, I18nHelper i18n, User searcher, TerminalClause terminalClause) {",
+        "27": "",
+        "28": "    private final JqlOperandResolver operandResolver;",
+        "30": "",
+        "31": "    public LocationSearchClauseValidator(Set<Operator> supportedOperators, JqlOperandResolver operandResolver) {"
+      },
+      "id": 125592162,
+      "filename": "LocationSearchClauseValidator.java"
+    },
+    {
+      "repo": "https://bitbucket.org/theo_301/jiraconnect-jiraplugin",
+      "language": "Java",
+      "linescount": 65,
+      "location": "/src/main/java/com/atlassian/jconnect/jira/customfields",
+      "name": "jiraconnect-jiraplugin",
+      "url": "https://searchcode.com/codesearch/view/127058043/",
+      "md5hash": "9394b3f44fc134f6c9c5b13500a77647",
+      "lines": {
+        "32": "        this.operandResolver = operandResolver;",
+        "33": "        this.supported = checkNotNull(supportedOperators);",
+        "2": "",
+        "3": "import com.atlassian.jira.jql.operand.JqlOperandResolver;",
+        "49": "        final List<QueryLiteral> literals = operandResolver.getValues(searcher, terminalClause.getOperand(), terminalClause);",
+        "48": "    private void validateOperand(MessageSet errors, I18nHelper i18n, User searcher, TerminalClause terminalClause) {",
+        "27": "",
+        "28": "    private final JqlOperandResolver operandResolver;",
+        "30": "",
+        "31": "    public LocationSearchClauseValidator(Set<Operator> supportedOperators, JqlOperandResolver operandResolver) {"
+      },
+      "id": 127058043,
+      "filename": "LocationSearchClauseValidator.java"
+    },
+    {
+      "repo": "https://bitbucket.org/rbarham/jira-watcher-field-plugin.git",
+      "language": "Java",
+      "linescount": 30,
+      "location": "/src/main/java/com/burningcode/jira/issue/customfields/searchers",
+      "name": "jira-watcher-field-plugin",
+      "url": "https://searchcode.com/codesearch/view/48703771/",
+      "md5hash": "e227d91fcad5c40ab5736da6f0fe6251",
+      "lines": {
+        "19": "\t\t\t@ComponentImport UserResolver userResolver,",
+        "20": "\t\t\t@ComponentImport JqlOperandResolver operandResolver,",
+        "6": "import com.atlassian.jira.issue.customfields.searchers.transformer.CustomFieldInputHelper;",
+        "7": "import com.atlassian.jira.jql.operand.JqlOperandResolver;",
+        "27": "\t\t\t@ComponentImport EmailFormatter emailFormatter) {",
+        "28": "\t\tsuper(userResolver, operandResolver, context, userConverter, userSearchService, customFieldInputHelper, userManager, fieldVisibilityManager, emailFormatter);"
+      },
+      "id": 48703771,
+      "filename": "WatcherSearcher.java"
+    },
+    {
+      "repo": "https://bitbucket.org/atlassian/jira-voters-and-watchers-plugin.git",
+      "language": "Java",
+      "linescount": 23,
+      "location": "/src/main/java/com/atlassian/jira/plugin/votersAndWatchers/searchers",
+      "name": "jira-voters-and-watchers-plugin",
+      "url": "https://searchcode.com/codesearch/view/50051193/",
+      "md5hash": "250cdb2842217e77b86bae2e81020b15",
+      "lines": {
+        "17": "{",
+        "18": "    public VotersAndWatchersUserPickerSearcher(UserResolver userResolver, JqlOperandResolver operandResolver, JiraAuthenticationContext context, UserConverter userConverter, UserPickerSearchService userPickerSearchService, CustomFieldInputHelper customFieldInputHelper, UserManager userManager, FieldVisibilityManager fieldVisibilityManager)",
+        "19": "    {",
+        "20": "        super(userResolver, operandResolver, context, userConverter, userPickerSearchService, customFieldInputHelper, userManager, fieldVisibilityManager);",
+        "6": "import com.atlassian.jira.issue.customfields.searchers.transformer.CustomFieldInputHelper;",
+        "7": "import com.atlassian.jira.jql.operand.JqlOperandResolver;"
+      },
+      "id": 50051193,
+      "filename": "VotersAndWatchersUserPickerSearcher.java"
+    },
+    {
+      "repo": "https://bitbucket.org/atlassian/jira-toolkit-plugin.git",
+      "language": "Java",
+      "linescount": 31,
+      "location": "/src/main/java/com/atlassian/jira/toolkit/customfield/searchers",
+      "name": "jira-toolkit-plugin",
+      "url": "https://searchcode.com/codesearch/view/50120875/",
+      "md5hash": "f6d4bf2a9fd8e03fbcb72161fa437499",
+      "lines": {
+        "18": "    public UserPickerSearcher(final UserResolver userResolver,",
+        "19": "            final JqlOperandResolver operandResolver,",
+        "5": "import com.atlassian.jira.issue.customfields.searchers.transformer.CustomFieldInputHelper;",
+        "6": "import com.atlassian.jira.jql.operand.JqlOperandResolver;",
+        "26": "    {",
+        "27": "        super(userResolver, operandResolver, context, userConverter,"
+      },
+      "id": 50120875,
+      "filename": "UserPickerSearcher.java"
+    },
+    {
+      "repo": "https://bitbucket.org/atlassian/jira-toolkit-plugin.git",
+      "language": "Java",
+      "linescount": 27,
+      "location": "/src/main/java/com/atlassian/jira/toolkit/customfield/searchers",
+      "name": "jira-toolkit-plugin",
+      "url": "https://searchcode.com/codesearch/view/50120877/",
+      "md5hash": "49f794dc84494fab31aead1f029ec2d6",
+      "lines": {
+        "19": "",
+        "20": "    public ResolvedDateSearcher(JqlOperandResolver operandResolver, JqlLocalDateSupport jqlLocalDateSupport, CustomFieldInputHelper customFieldInputHelper,",
+        "6": "import com.atlassian.jira.issue.customfields.searchers.transformer.CustomFieldInputHelper;",
+        "23": "    {",
+        "24": "        super(operandResolver, jqlLocalDateSupport, customFieldInputHelper, dateTimeFormatterFactory, velocityRenderContext, applicationProperties, velocityManager, calendarUtils, fieldVisibilityManager);",
+        "7": "import com.atlassian.jira.jql.operand.JqlOperandResolver;"
+      },
+      "id": 50120877,
+      "filename": "ResolvedDateSearcher.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openicar/juniprint",
+      "language": "Java",
+      "linescount": 64,
+      "location": "/src/main/java/org/comsoft/juniprint/userfunction",
+      "name": "juniprint",
+      "url": "https://searchcode.com/codesearch/view/60212074/",
+      "md5hash": "ff75604b3c2b39c7e444cf43781d773c",
+      "lines": {
+        "56": "\tprivate static double evaluateDoubleArg(ValueEval arg, int srcCellRow, int srcCellCol) throws EvaluationException {",
+        "57": "\t\tValueEval ve = OperandResolver.getSingleValue(arg, srcCellRow, (short) srcCellCol);",
+        "24": "import org.apache.poi.hssf.record.formula.eval.EvaluationException;",
+        "25": "import org.apache.poi.hssf.record.formula.eval.OperandResolver;",
+        "58": "\t\treturn OperandResolver.coerceValueToDouble(ve);",
+        "59": "\t}"
+      },
+      "id": 60212074,
+      "filename": "Nmb_Prop.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openicar/juniprint",
+      "language": "Java",
+      "linescount": 79,
+      "location": "/src/main/java/org/comsoft/juniprint/userfunction",
+      "name": "juniprint",
+      "url": "https://searchcode.com/codesearch/view/60212076/",
+      "md5hash": "e44f8aeeefd407ea1a793bea5064c3c2",
+      "lines": {
+        "68": "\tprivate static String evaluateStringArg(ValueEval arg, int srcCellRow, int srcCellCol) throws EvaluationException {",
+        "69": "\t\tValueEval ve = OperandResolver.getSingleValue(arg, srcCellRow, (short) srcCellCol);",
+        "70": "\t\treturn OperandResolver.coerceValueToString(ve);",
+        "23": "import org.apache.poi.hssf.record.formula.eval.EvaluationException;",
+        "24": "import org.apache.poi.hssf.record.formula.eval.OperandResolver;",
+        "71": "\t}"
+      },
+      "id": 60212076,
+      "filename": "FML.java"
+    },
+    {
+      "repo": "https://bitbucket.org/rbarham/jira-component-watcher-plugin.git",
+      "language": "Java",
+      "linescount": 31,
+      "location": "/src/main/java/com/burningcode/jira/plugin/customfields/searchers",
+      "name": "jira-component-watcher-plugin",
+      "url": "https://searchcode.com/codesearch/view/64638924/",
+      "md5hash": "9cc8a12c1eca1e43a1422d6be5ce62be",
+      "lines": {
+        "19": "            @ComponentImport UserResolver userResolver,",
+        "20": "            @ComponentImport JqlOperandResolver operandResolver,",
+        "6": "import com.atlassian.jira.issue.customfields.searchers.transformer.CustomFieldInputHelper;",
+        "7": "import com.atlassian.jira.jql.operand.JqlOperandResolver;",
+        "27": "            @ComponentImport EmailFormatter emailFormatter) {",
+        "28": "        super(userResolver, operandResolver, context, userConverter, userSearchService, customFieldInputHelper, userManager, fieldVisibilityManager, emailFormatter);"
+      },
+      "id": 64638924,
+      "filename": "ComponentWatchersFieldSearcher.java"
+    },
+    {
+      "repo": "https://bitbucket.org/atlassian/jiraconnect-jiraplugin/",
+      "language": "Java",
+      "linescount": 65,
+      "location": "/src/main/java/com/atlassian/jconnect/jira/customfields",
+      "name": "jiraconnect-jiraplugin",
+      "url": "https://searchcode.com/codesearch/view/2093553/",
+      "md5hash": "9394b3f44fc134f6c9c5b13500a77647",
+      "lines": {
+        "32": "        this.operandResolver = operandResolver;",
+        "33": "        this.supported = checkNotNull(supportedOperators);",
+        "2": "",
+        "3": "import com.atlassian.jira.jql.operand.JqlOperandResolver;",
+        "49": "        final List<QueryLiteral> literals = operandResolver.getValues(searcher, terminalClause.getOperand(), terminalClause);",
+        "48": "    private void validateOperand(MessageSet errors, I18nHelper i18n, User searcher, TerminalClause terminalClause) {",
+        "27": "",
+        "28": "    private final JqlOperandResolver operandResolver;",
+        "30": "",
+        "31": "    public LocationSearchClauseValidator(Set<Operator> supportedOperators, JqlOperandResolver operandResolver) {"
+      },
+      "id": 2093553,
+      "filename": "LocationSearchClauseValidator.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 14,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "matchterm": "XSLFAutoShape",
+  "previouspage": null,
+  "searchterm": "XSLFAutoShape",
+  "query": "XSLFAutoShape",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 555,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406768/",
+      "md5hash": "06c77456c926d8545168347abe70a1d6",
+      "lines": {
+        "145": "",
+        "146": "    public XSLFAutoShape createAutoShape(){",
+        "147": "        List<XSLFShape> shapes = getShapeList();",
+        "148": "        XSLFAutoShape sh = getDrawing().createAutoShape();",
+        "94": "            if(ch instanceof CTShape){ // simple shape",
+        "95": "                XSLFAutoShape shape = XSLFAutoShape.create((CTShape)ch, this);"
+      },
+      "id": 97406768,
+      "filename": "XSLFSheet.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 111,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406826/",
+      "md5hash": "88f503638871e547730cf002e54b3503",
+      "lines": {
+        "52": "",
+        "53": "    public XSLFAutoShape createAutoShape(){",
+        "54": "        CTShape sp = _spTree.addNewSp();",
+        "55": "        sp.set(XSLFAutoShape.prototype(_shapeId++));",
+        "56": "        XSLFAutoShape shape = new XSLFAutoShape(sp, _sheet);",
+        "57": "        shape.setAnchor(new Rectangle());"
+      },
+      "id": 97406826,
+      "filename": "XSLFDrawing.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 351,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406700/",
+      "md5hash": "7ac71aab113fccf906b12580ebb695aa",
+      "lines": {
+        "209": "",
+        "210": "    public XSLFAutoShape createAutoShape(){",
+        "211": "        XSLFAutoShape sh = getDrawing().createAutoShape();",
+        "212": "        _shapes.add(sh);"
+      },
+      "id": 97406700,
+      "filename": "XSLFGroupShape.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

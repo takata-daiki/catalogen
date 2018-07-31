@@ -1,0 +1,216 @@
+{
+  "matchterm": "TypedPropertyValue",
+  "previouspage": null,
+  "searchterm": "TypedPropertyValue",
+  "query": "TypedPropertyValue",
+  "language_filters": [
+    {
+      "count": 9,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 9,
+  "results": [
+    {
+      "repo": "git://github.com/tinkerpop/rexster.git",
+      "language": "Java",
+      "linescount": 372,
+      "location": "/src/test/java/com/tinkerpop/rexster/util",
+      "name": "rexster",
+      "url": "https://searchcode.com/codesearch/view/159865/",
+      "md5hash": "b241e5927f80e25ba41a16288186b51b",
+      "lines": {
+        "33": "    @Test",
+        "34": "    public void getTypedPropertyValueNonTyped() {",
+        "35": "        Object typedPropertyValue = ElementHelper.getTypedPropertyValue(\"xyz\");",
+        "14": "    @Test",
+        "15": "    public void getTypedPropertyValueNullPropertyValue() {",
+        "16": "        Object nullValue = ElementHelper.getTypedPropertyValue(null);",
+        "17": "        Assert.assertNull(nullValue);",
+        "20": "    @Test",
+        "21": "    public void getTypedPropertyValueJSONObjectNullPropertyValue() {",
+        "22": "        Object nullValue = ElementHelper.getTypedPropertyValue(JSONObject.NULL);",
+        "23": "        Assert.assertNull(nullValue);",
+        "26": "    @Test",
+        "27": "    public void getTypedPropertyValueEmptyPropertyValue() {",
+        "28": "        Object emptyString = ElementHelper.getTypedPropertyValue(\"\");",
+        "29": "        Assert.assertNotNull(emptyString);"
+      },
+      "id": 159865,
+      "filename": "ElementHelperTest.java"
+    },
+    {
+      "repo": "git://github.com/tinkerpop/rexster.git",
+      "language": "Java",
+      "linescount": 315,
+      "location": "/src/main/java/com/tinkerpop/rexster/util",
+      "name": "rexster",
+      "url": "https://searchcode.com/codesearch/view/159991/",
+      "md5hash": "c01e98e2c10d56b26745db9efbc81787",
+      "lines": {
+        "64": "                    if (dataType.equals(\"string\")) {",
+        "65": "                        typedPropertyValue = theValue;",
+        "66": "                    } else if (dataType.equals(\"integer\")) {",
+        "67": "                        typedPropertyValue = tryParseInteger(theValue);",
+        "68": "                    } else if (dataType.equals(\"long\")) {",
+        "11": "public class ElementHelper {",
+        "12": "    public static Object getTypedPropertyValue(Object propertyValue) {",
+        "13": "        return getTypedPropertyValue(propertyValue, true);",
+        "14": "    }",
+        "49": "     */",
+        "50": "    public static Object getTypedPropertyValue(Object propertyValue, boolean parseTypes) {",
+        "51": "        Object typedPropertyValue = propertyValue;",
+        "52": "        if (typedPropertyValue == null) {",
+        "53": "            typedPropertyValue = null;",
+        "54": "        }"
+      },
+      "id": 159991,
+      "filename": "ElementHelper.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 540,
+      "location": "/src/org/apache/poi/hpsf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383361/",
+      "md5hash": "89a9616b84e878dcdfd285ef7159c220",
+      "lines": {
+        "160": "    {",
+        "161": "        TypedPropertyValue typedPropertyValue = new TypedPropertyValue(",
+        "195": "             */",
+        "196": "            return Integer.valueOf( ( (Short) typedPropertyValue.getValue() )",
+        "165": "        {",
+        "166": "            unpadded = typedPropertyValue.readValue( src, offset );",
+        "200": "        {",
+        "201": "            Filetime filetime = (Filetime) typedPropertyValue.getValue();",
+        "236": "            // break;",
+        "237": "            ClipboardData clipboardData = (ClipboardData) typedPropertyValue",
+        "206": "        {",
+        "207": "            CodePageString string = (CodePageString) typedPropertyValue",
+        "243": "        {",
+        "212": "        {",
+        "213": "            UnicodeString string = (UnicodeString) typedPropertyValue",
+        "244": "            VariantBool bool = (VariantBool) typedPropertyValue.getValue();"
+      },
+      "id": 97383361,
+      "filename": "VariantSupport.java"
+    },
+    {
+      "repo": "https://github.com/imyousuf/jersey.git",
+      "language": "Java",
+      "linescount": 377,
+      "location": "/contribs/maven-wadl-plugin/src/main/java/com/sun/jersey/wadl",
+      "name": "jersey",
+      "url": "https://searchcode.com/codesearch/view/111874455/",
+      "md5hash": "e643d16af07531095ffb95349fb7525b",
+      "lines": {
+        "275": "                }",
+        "276": "                method.invoke( object, typedPropertyValue );",
+        "268": "            if ( paramTypeConstructor != null ) {",
+        "269": "                final Object typedPropertyValue;",
+        "270": "                try {",
+        "271": "                    typedPropertyValue = paramTypeConstructor.newInstance( propertyValue );"
+      },
+      "id": 111874455,
+      "filename": "GenerateWadlMojo.java"
+    },
+    {
+      "repo": "git://github.com/jersey/jersey-old.git",
+      "language": "Java",
+      "linescount": 329,
+      "location": "/contribs/maven-wadl-plugin/src/main/java/com/sun/jersey/wadl",
+      "name": "jersey-old",
+      "url": "https://searchcode.com/codesearch/view/14577049/",
+      "md5hash": "ba942e892a0c00cb8369ef877cbd74a5",
+      "lines": {
+        "242": "                }",
+        "243": "                method.invoke( object, typedPropertyValue );",
+        "235": "            if ( paramTypeConstructor != null ) {",
+        "236": "                final Object typedPropertyValue;",
+        "237": "                try {",
+        "238": "                    typedPropertyValue = paramTypeConstructor.newInstance( propertyValue );"
+      },
+      "id": 14577049,
+      "filename": "GenerateWadlMojo.java"
+    },
+    {
+      "repo": "https://github.com/rajapaju/jersey.git",
+      "language": "Java",
+      "linescount": 303,
+      "location": "/core-server/src/main/java/org/glassfish/jersey/server/wadl/config",
+      "name": "jersey",
+      "url": "https://searchcode.com/codesearch/view/73040529/",
+      "md5hash": "c92c4a4bd7c09ce1a28ba7059199edfa",
+      "lines": {
+        "233": "            if (paramTypeConstructor != null) {",
+        "234": "                final Object typedPropertyValue = paramTypeConstructor.newInstance(propertyValue);",
+        "235": "                method.invoke(generator, typedPropertyValue);",
+        "236": "            } else {"
+      },
+      "id": 73040529,
+      "filename": "WadlGeneratorLoader.java"
+    },
+    {
+      "repo": "https://github.com/RolandoPer/jersey.git",
+      "language": "Java",
+      "linescount": 309,
+      "location": "/core-server/src/main/java/org/glassfish/jersey/server/wadl/config",
+      "name": "jersey",
+      "url": "https://searchcode.com/codesearch/view/75928465/",
+      "md5hash": "8f46516ab7f6acd15f8d1bd1322175cb",
+      "lines": {
+        "240": "                final Object typedPropertyValue = paramTypeConstructor.newInstance(propertyValue);",
+        "241": "                method.invoke(generator, typedPropertyValue);",
+        "242": "            } else {",
+        "239": "            if (paramTypeConstructor != null) {"
+      },
+      "id": 75928465,
+      "filename": "WadlGeneratorLoader.java"
+    },
+    {
+      "repo": "git://github.com/jersey/jersey-old.git",
+      "language": "Java",
+      "linescount": 298,
+      "location": "/jersey-server/src/main/java/com/sun/jersey/api/wadl/config",
+      "name": "jersey-old",
+      "url": "https://searchcode.com/codesearch/view/14576135/",
+      "md5hash": "99c3b510f92be1ac26888230bdd52abb",
+      "lines": {
+        "228": "            if (paramTypeConstructor != null) {",
+        "229": "                final Object typedPropertyValue = paramTypeConstructor.newInstance(propertyValue);",
+        "230": "                method.invoke(generator, typedPropertyValue);",
+        "231": "            } else {"
+      },
+      "id": 14576135,
+      "filename": "WadlGeneratorLoader.java"
+    },
+    {
+      "repo": "https://github.com/javagems/jersey-server.git",
+      "language": "Java",
+      "linescount": 292,
+      "location": "/src/com/sun/jersey/api/wadl/config",
+      "name": "jersey-server",
+      "url": "https://searchcode.com/codesearch/view/106229908/",
+      "md5hash": "df0fce84caa17b03b176ef3798aa80ee",
+      "lines": {
+        "219": "            if ( paramTypeConstructor != null ) {",
+        "220": "                final Object typedPropertyValue = paramTypeConstructor.newInstance( propertyValue );",
+        "221": "                method.invoke( generator, typedPropertyValue );",
+        "222": "            }"
+      },
+      "id": 106229908,
+      "filename": "WadlGeneratorLoader.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 9,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

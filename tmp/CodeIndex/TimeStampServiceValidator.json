@@ -1,0 +1,88 @@
+{
+  "matchterm": "TimeStampServiceValidator",
+  "previouspage": null,
+  "searchterm": "TimeStampServiceValidator",
+  "query": "TimeStampServiceValidator",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 48,
+      "location": "/eid-applet-service-signer/src/main/java/be/fedict/eid/applet/service/signer/time",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982643/",
+      "md5hash": "62d5ba708ffd87d03ff89e784d764afe",
+      "lines": {
+        "32": "public interface TimeStampServiceValidator {",
+        "31": " */"
+      },
+      "id": 7982643,
+      "filename": "TimeStampServiceValidator.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 211,
+      "location": "/eid-applet-tests/src/test/java/test/be/fedict/eid/applet",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982500/",
+      "md5hash": "fc335e7089f0b510b49a80f70b851661",
+      "lines": {
+        "33": "import be.fedict.eid.applet.service.signer.time.TSPTimeStampService;",
+        "34": "import be.fedict.eid.applet.service.signer.time.TimeStampServiceValidator;",
+        "163": "\t\tTimeStampServiceValidator validator = new TimeStampServiceTestValidator(",
+        "179": "\tprivate static class TimeStampServiceTestValidator implements",
+        "105": "\t\t// setup",
+        "106": "\t\tTimeStampServiceValidator validator = new TimeStampServiceTestValidator(",
+        "162": "\t\t// setup",
+        "125": "\t\tTimeStampServiceValidator validator = new TimeStampServiceTestValidator(",
+        "80": "\t\t// setup",
+        "81": "\t\tTimeStampServiceValidator validator = new TimeStampServiceTestValidator(",
+        "144": "\t\tTimeStampServiceValidator validator = new TimeStampServiceTestValidator(",
+        "180": "\t\t\tTimeStampServiceValidator {",
+        "143": "\t\t// setup",
+        "124": "\t\t// setup",
+        "61": "\t\t// setup",
+        "62": "\t\tTimeStampServiceValidator validator = new TimeStampServiceTestValidator("
+      },
+      "id": 7982500,
+      "filename": "TSPTimeStampServiceTest.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 390,
+      "location": "/eid-applet-service-signer/src/main/java/be/fedict/eid/applet/service/signer/time",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982642/",
+      "md5hash": "7c70f78dedd4e08ce54e3d83a1f61170",
+      "lines": {
+        "92": "",
+        "107": "\tpublic TSPTimeStampService(String tspServiceUrl,",
+        "108": "\t\t\tTimeStampServiceValidator validator) {",
+        "93": "\tprivate final TimeStampServiceValidator validator;",
+        "126": "\t\t\tTimeStampServiceValidator validator, String requestPolicy,",
+        "125": "\tpublic TSPTimeStampService(String tspServiceUrl,"
+      },
+      "id": 7982642,
+      "filename": "TSPTimeStampService.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

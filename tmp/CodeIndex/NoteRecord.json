@@ -1,0 +1,472 @@
+{
+  "matchterm": "NoteRecord",
+  "previouspage": null,
+  "searchterm": "NoteRecord",
+  "query": "NoteRecord",
+  "language_filters": [
+    {
+      "count": 23,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 23,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 168,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/biff/drawing",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260617/",
+      "md5hash": "e5da1a7349f3ff4740e1d81ad1ad3479",
+      "lines": {
+        "32": "public class NoteRecord extends WritableRecordData",
+        "64": "  public NoteRecord(Record t)",
+        "91": "  public NoteRecord(int c, int r, int id)",
+        "36": "   */",
+        "37": "  private static Logger logger = Logger.getLogger(NoteRecord.class);",
+        "90": "   */",
+        "31": " */",
+        "77": "   */",
+        "78": "  public NoteRecord(byte[] d)",
+        "63": "   */"
+      },
+      "id": 43260617,
+      "filename": "NoteRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 168,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/biff/drawing",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49201145/",
+      "md5hash": "e5da1a7349f3ff4740e1d81ad1ad3479",
+      "lines": {
+        "32": "public class NoteRecord extends WritableRecordData",
+        "64": "  public NoteRecord(Record t)",
+        "91": "  public NoteRecord(int c, int r, int id)",
+        "36": "   */",
+        "37": "  private static Logger logger = Logger.getLogger(NoteRecord.class);",
+        "90": "   */",
+        "31": " */",
+        "77": "   */",
+        "78": "  public NoteRecord(byte[] d)",
+        "63": "   */"
+      },
+      "id": 49201145,
+      "filename": "NoteRecord.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 168,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/biff/drawing",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374800/",
+      "md5hash": "e5da1a7349f3ff4740e1d81ad1ad3479",
+      "lines": {
+        "32": "public class NoteRecord extends WritableRecordData",
+        "64": "  public NoteRecord(Record t)",
+        "91": "  public NoteRecord(int c, int r, int id)",
+        "36": "   */",
+        "37": "  private static Logger logger = Logger.getLogger(NoteRecord.class);",
+        "90": "   */",
+        "31": " */",
+        "77": "   */",
+        "78": "  public NoteRecord(byte[] d)",
+        "63": "   */"
+      },
+      "id": 11374800,
+      "filename": "NoteRecord.java"
+    },
+    {
+      "repo": "http://brainstream.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 168,
+      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/biff/drawing",
+      "name": "brainstream",
+      "url": "https://searchcode.com/codesearch/view/13919988/",
+      "md5hash": "f20e34ec27c21cac4e1b629e8484271d",
+      "lines": {
+        "32": "public class NoteRecord extends WritableRecordData",
+        "64": "  public NoteRecord(Record t)",
+        "91": "  public NoteRecord(int c, int r, int id)",
+        "36": "   */",
+        "37": "  private static Logger logger = Logger.getLogger(NoteRecord.class);",
+        "90": "   */",
+        "31": " */",
+        "77": "   */",
+        "78": "  public NoteRecord(byte[] d)",
+        "63": "   */"
+      },
+      "id": 13919988,
+      "filename": "NoteRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 269,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642523/",
+      "md5hash": "46ca080d45062abd2228d70319b1534a",
+      "lines": {
+        "68": "    /**",
+        "69": "     * Construct a new <code>NoteRecord</code> and",
+        "71": "     */",
+        "72": "    public NoteRecord()",
+        "106": "        {",
+        "107": "            throw new RecordFormatException(\"Not a NoteRecord record\");",
+        "78": "    /**",
+        "79": "     * Constructs a <code>NoteRecord</code> and fills its fields",
+        "48": " */",
+        "49": "public class NoteRecord extends Record {",
+        "83": "     */",
+        "84": "    public NoteRecord(RecordInputStream in)"
+      },
+      "id": 15642523,
+      "filename": "NoteRecord.java"
+    },
+    {
+      "repo": "https://github.com/miurahr/nevernote.git",
+      "language": "Java",
+      "linescount": 321,
+      "location": "/src/cx/fbn/nevernote/threads",
+      "name": "nevernote",
+      "url": "https://searchcode.com/codesearch/view/110878283/",
+      "md5hash": "764df9452ad8764bcb89563a7db984d0",
+      "lines": {
+        "56": "\tprivate volatile Vector<NoteRecord> records;",
+        "130": "\t\t\t\t\treturn;",
+        "131": "\t\t\t\tNoteRecord record = new NoteRecord();",
+        "86": "\t\t",
+        "55": "\tpublic volatile TagSignal\t\t\ttagSignal;",
+        "40": "\t ",
+        "41": "\tprivate class NoteRecord {",
+        "87": "\t\trecords = new Vector<NoteRecord>();",
+        "45": "\t\t",
+        "46": "\t\tpublic NoteRecord()  {"
+      },
+      "id": 110878283,
+      "filename": "CounterRunner.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 911,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/biff/drawing",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260637/",
+      "md5hash": "22304608700c412d53464a1b295dd52a",
+      "lines": {
+        "808": "    // The note record",
+        "151": "   */",
+        "152": "  private NoteRecord note;",
+        "809": "    NoteRecord noteRecord = new NoteRecord(column, row, objectId);",
+        "810": "    outputFile.write(noteRecord);",
+        "811": "  }",
+        "668": "   */",
+        "669": "  public void setNote(NoteRecord t)"
+      },
+      "id": 43260637,
+      "filename": "Comment.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 911,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/biff/drawing",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49201165/",
+      "md5hash": "22304608700c412d53464a1b295dd52a",
+      "lines": {
+        "808": "    // The note record",
+        "151": "   */",
+        "152": "  private NoteRecord note;",
+        "809": "    NoteRecord noteRecord = new NoteRecord(column, row, objectId);",
+        "810": "    outputFile.write(noteRecord);",
+        "811": "  }",
+        "668": "   */",
+        "669": "  public void setNote(NoteRecord t)"
+      },
+      "id": 49201165,
+      "filename": "Comment.java"
+    },
+    {
+      "repo": "https://github.com/travis/cosmo.git",
+      "language": "Java",
+      "linescount": 142,
+      "location": "/cosmo/src/test/unit/java/org/osaf/cosmo/eim/json",
+      "name": "cosmo",
+      "url": "https://searchcode.com/codesearch/view/103394594/",
+      "md5hash": "f8784c9a04b4b0c9f4b803cee46249c5",
+      "lines": {
+        "88": "        EimRecord noteRecord = new EimRecord(notePrefix, noteNs);",
+        "91": "        ",
+        "69": "",
+        "70": "        EimRecord noteRecord = new EimRecord(notePrefix, noteNs);",
+        "71": "        noteRecord.addField(makeClobField());",
+        "72": "        recordset.addRecord(noteRecord);",
+        "73": "",
+        "87": "        ",
+        "92": "        recordset.addRecord(noteRecord);"
+      },
+      "id": 103394594,
+      "filename": "JsonStreamWriterTest.java"
+    },
+    {
+      "repo": "https://github.com/xiezhaohui/DataViewer.git",
+      "language": "Java",
+      "linescount": 304,
+      "location": "/ETL/src/com/util",
+      "name": "DataViewer",
+      "url": "https://searchcode.com/codesearch/view/68613461/",
+      "md5hash": "8bd64dddea629578a6d8e6f976c7b348",
+      "lines": {
+        "224": "\t\tcase NoteRecord.sid:",
+        "225": "\t\t\tNoteRecord nrec = (NoteRecord) record;",
+        "226": "",
+        "25": "import org.apache.poi.hssf.record.LabelSSTRecord;",
+        "26": "import org.apache.poi.hssf.record.NoteRecord;",
+        "223": "\t\t\tbreak;"
+      },
+      "id": 68613461,
+      "filename": "HxlsAbstract.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1319,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970708/",
+      "md5hash": "e52c956c400b399e06a805984e2f85f6",
+      "lines": {
+        "32": "import org.zkoss.poi.hssf.record.NoteRecord;",
+        "128": "        }",
+        "130": "        if (moveComments) {",
+        "131": "            noteRecs = _helper.getInternalSheet().getNoteRecords();",
+        "132": "        } else {",
+        "133": "            noteRecs = NoteRecord.EMPTY_ARRAY;",
+        "129": "        NoteRecord[] noteRecs;",
+        "392": "\t                    NoteRecord nr = noteRecs[i];",
+        "391": "\t                for(int i=noteRecs.length-1; i>=0; i--) {",
+        "536": "        ",
+        "537": "        NoteRecord[] noteRecs;",
+        "538": "        if (moveComments) {",
+        "539": "            noteRecs = _helper.getInternalSheet().getNoteRecords();",
+        "540": "        } else {",
+        "541": "            noteRecs = NoteRecord.EMPTY_ARRAY;",
+        "31": "import org.zkoss.poi.hssf.record.NameRecord;"
+      },
+      "id": 3970708,
+      "filename": "HSSFSheetImpl.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 157,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642359/",
+      "md5hash": "c684c958961cd9be6740a30893ceb9a4",
+      "lines": {
+        "96": "     */",
+        "97": "     private NoteRecord createNoteRecord( HSSFComment shape, int shapeId )",
+        "98": "    {",
+        "99": "        NoteRecord note = new NoteRecord();",
+        "101": "        note.setRow((short)shape.getRow());",
+        "102": "        note.setFlags(shape.isVisible() ? NoteRecord.NOTE_VISIBLE : NoteRecord.NOTE_HIDDEN);",
+        "71": "",
+        "72": "        note = createNoteRecord(hssfShape, shapeId);",
+        "146": "    /**",
+        "147": "     * Return the <code>NoteRecord</code> holding the comment attributes",
+        "148": "     *",
+        "149": "     * @return <code>NoteRecord</code> holding the comment attributes",
+        "150": "     */",
+        "151": "    public NoteRecord getNoteRecord()",
+        "59": "",
+        "60": "    private NoteRecord note;"
+      },
+      "id": 15642359,
+      "filename": "CommentShape.java"
+    },
+    {
+      "repo": "https://github.com/ellen/cosmo.git",
+      "language": "Java",
+      "linescount": 142,
+      "location": "/cosmo/src/test/unit/java/org/osaf/cosmo/eim/json",
+      "name": "cosmo",
+      "url": "https://searchcode.com/codesearch/view/138299798/",
+      "md5hash": "f8784c9a04b4b0c9f4b803cee46249c5",
+      "lines": {
+        "88": "        EimRecord noteRecord = new EimRecord(notePrefix, noteNs);",
+        "91": "        ",
+        "69": "",
+        "70": "        EimRecord noteRecord = new EimRecord(notePrefix, noteNs);",
+        "71": "        noteRecord.addField(makeClobField());",
+        "72": "        recordset.addRecord(noteRecord);",
+        "73": "",
+        "87": "        ",
+        "92": "        recordset.addRecord(noteRecord);"
+      },
+      "id": 138299798,
+      "filename": "JsonStreamWriterTest.java"
+    },
+    {
+      "repo": "https://github.com/ashanan/cosmo.git",
+      "language": "Java",
+      "linescount": 142,
+      "location": "/cosmo/src/test/unit/java/org/osaf/cosmo/eim/json",
+      "name": "cosmo",
+      "url": "https://searchcode.com/codesearch/view/138334002/",
+      "md5hash": "f8784c9a04b4b0c9f4b803cee46249c5",
+      "lines": {
+        "88": "        EimRecord noteRecord = new EimRecord(notePrefix, noteNs);",
+        "91": "        ",
+        "69": "",
+        "70": "        EimRecord noteRecord = new EimRecord(notePrefix, noteNs);",
+        "71": "        noteRecord.addField(makeClobField());",
+        "72": "        recordset.addRecord(noteRecord);",
+        "73": "",
+        "87": "        ",
+        "92": "        recordset.addRecord(noteRecord);"
+      },
+      "id": 138334002,
+      "filename": "JsonStreamWriterTest.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 911,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/biff/drawing",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374797/",
+      "md5hash": "8702a23b87c3689f4174c23d4e8a2c2a",
+      "lines": {
+        "808": "    // The note record",
+        "151": "   */",
+        "152": "  private NoteRecord note;",
+        "809": "    NoteRecord noteRecord = new NoteRecord(column, row, objectId);",
+        "810": "    outputFile.write(noteRecord);",
+        "811": "  }",
+        "668": "   */",
+        "669": "  public void setNote(NoteRecord t)"
+      },
+      "id": 11374797,
+      "filename": "Comment.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 1850,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260387/",
+      "md5hash": "7f91270abbfb3387b7abcd30255c0a02",
+      "lines": {
+        "572": "        {",
+        "60": "import jxl.biff.drawing.MsoDrawingRecord;",
+        "61": "import jxl.biff.drawing.NoteRecord;",
+        "573": "          NoteRecord nr = new NoteRecord(r);"
+      },
+      "id": 43260387,
+      "filename": "SheetReader.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 1850,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200915/",
+      "md5hash": "7f91270abbfb3387b7abcd30255c0a02",
+      "lines": {
+        "572": "        {",
+        "60": "import jxl.biff.drawing.MsoDrawingRecord;",
+        "61": "import jxl.biff.drawing.NoteRecord;",
+        "573": "          NoteRecord nr = new NoteRecord(r);"
+      },
+      "id": 49200915,
+      "filename": "SheetReader.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 185,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642324/",
+      "md5hash": "fc029136a3141517ec69866f71588552",
+      "lines": {
+        "96": "    public void setVisible(boolean visible){",
+        "97": "        if(note != null) note.setFlags(visible ? NoteRecord.NOTE_VISIBLE : NoteRecord.NOTE_HIDDEN);",
+        "83": "",
+        "84": "    protected HSSFComment( NoteRecord note, TextObjectRecord txo )",
+        "41": "import loci.poi.hssf.record.EscherAggregate;",
+        "42": "import loci.poi.hssf.record.NoteRecord;",
+        "60": "",
+        "61": "    private NoteRecord note = null;"
+      },
+      "id": 15642324,
+      "filename": "HSSFComment.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1062,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642303/",
+      "md5hash": "a320b63ccf16b2c1798c3d8c1abc8ed7",
+      "lines": {
+        "1027": "           Record rec = ( Record ) it.next();",
+        "1028": "           if (rec instanceof NoteRecord){",
+        "1029": "               NoteRecord note = (NoteRecord)rec;",
+        "1030": "               if (note.getRow() == row && note.getColumn() == column){",
+        "1035": "                   comment.setAuthor(note.getAuthor());",
+        "1036": "                   comment.setVisible(note.getFlags() == NoteRecord.NOTE_VISIBLE);"
+      },
+      "id": 15642303,
+      "filename": "HSSFCell.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1850,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/read/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374407/",
+      "md5hash": "7f91270abbfb3387b7abcd30255c0a02",
+      "lines": {
+        "572": "        {",
+        "60": "import jxl.biff.drawing.MsoDrawingRecord;",
+        "61": "import jxl.biff.drawing.NoteRecord;",
+        "573": "          NoteRecord nr = new NoteRecord(r);"
+      },
+      "id": 11374407,
+      "filename": "SheetReader.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 11,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 6,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 6,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

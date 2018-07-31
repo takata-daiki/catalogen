@@ -1,0 +1,59 @@
+{
+  "matchterm": "InternalWorkbook",
+  "previouspage": null,
+  "searchterm": "InternalWorkbook",
+  "query": "InternalWorkbook",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 39,
+      "location": "/zss/src/org/zkoss/poi/hssf/usermodel",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970567/",
+      "md5hash": "4de49f146265fca2940102813883ea12",
+      "lines": {
+        "16": "import org.zkoss.poi.ddf.EscherBSERecord;",
+        "17": "import org.zkoss.poi.hssf.model.InternalWorkbook;",
+        "32": "\tpublic InternalWorkbook getInternalWorkbook() {",
+        "31": "\t}"
+      },
+      "id": 3970567,
+      "filename": "HSSFWorkbookHelper.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1319,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970708/",
+      "md5hash": "e52c956c400b399e06a805984e2f85f6",
+      "lines": {
+        "1051": "    \tInternalWorkbook book = new HSSFWorkbookHelper(getWorkbook()).getInternalWorkbook();",
+        "26": "import org.zkoss.poi.hssf.model.InternalSheet;",
+        "27": "import org.zkoss.poi.hssf.model.InternalWorkbook;",
+        "1050": "    private void updateNamesAfterCellShift(PtgShifter shifter) {"
+      },
+      "id": 3970708,
+      "filename": "HSSFSheetImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

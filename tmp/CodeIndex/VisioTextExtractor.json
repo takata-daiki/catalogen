@@ -1,0 +1,111 @@
+{
+  "matchterm": "VisioTextExtractor",
+  "previouspage": null,
+  "searchterm": "VisioTextExtractor",
+  "query": "VisioTextExtractor",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "https://github.com/isdom/POI-Android.git",
+      "language": "Java",
+      "linescount": 127,
+      "location": "/ppt/scratchpad/testcases/org/apache/poi/hdgf/extractor",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/88636800/",
+      "md5hash": "e6b18c254bff1274b7d54ad255069559",
+      "lines": {
+        "97": "        for(String file : files){",
+        "98": "            VisioTextExtractor ex = new VisioTextExtractor(_dgTests.openResourceAsStream(file));",
+        "71": "\tpublic void testExtraction() throws Exception {",
+        "72": "\t\tVisioTextExtractor extractor =",
+        "73": "\t\t\tnew VisioTextExtractor(_dgTests.openResourceAsStream(defFilename));",
+        "42": "\tpublic void testCreation() throws Exception {",
+        "43": "\t\tVisioTextExtractor extractor;",
+        "44": "",
+        "45": "\t\textractor = new VisioTextExtractor(_dgTests.openResourceAsStream(defFilename));",
+        "110": "        VisioTextExtractor.main(new String[] {path});",
+        "109": "        String path = _dgTests.getFile(defFilename).getPath();",
+        "49": "",
+        "50": "\t\textractor = new VisioTextExtractor(",
+        "58": "",
+        "59": "\t\textractor = new VisioTextExtractor(",
+        "74": ""
+      },
+      "id": 88636800,
+      "filename": "TestVisioExtractor.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 252,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785560/",
+      "md5hash": "3a2a0badbeb8b43e9095f9f8eb316b46",
+      "lines": {
+        "198": "                case VISIO:",
+        "199": "                    VisioTextExtractor visioTextExtractor =",
+        "200": "                        new VisioTextExtractor(filesystem);",
+        "201": "                    for (String text : visioTextExtractor.getAllText()) {",
+        "202": "                        xhtml.element(\"p\", text);",
+        "27": "",
+        "28": "import org.apache.poi.hdgf.extractor.VisioTextExtractor;"
+      },
+      "id": 111785560,
+      "filename": "OfficeParser.java"
+    },
+    {
+      "repo": "https://git.gitorious.org/yacy/rc1.git",
+      "language": "Java",
+      "linescount": 138,
+      "location": "/source/net/yacy/document/parser",
+      "name": "yacy",
+      "url": "https://searchcode.com/codesearch/view/62351864/",
+      "md5hash": "3dc278b0c6a3e005041b51921212b051",
+      "lines": {
+        "40": "",
+        "41": "import org.apache.poi.hdgf.extractor.VisioTextExtractor;",
+        "77": "            try {",
+        "78": "                final VisioTextExtractor extractor = new VisioTextExtractor(source);"
+      },
+      "id": 62351864,
+      "filename": "vsdParser.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 73,
+      "location": "/components/forks/poi/src/loci/poi",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642237/",
+      "md5hash": "cf555a329d73935774f71285df4ed636",
+      "lines": {
+        "49": " * @see loci.poi.hslf.extractor.PowerPointExtractor",
+        "50": " * @see loci.poi.hdgf.extractor.VisioTextExtractor"
+      },
+      "id": 15642237,
+      "filename": "POITextExtractor.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Gitorious",
+      "id": 10
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "matchterm": "PAPFormattedDiskPage",
+  "previouspage": null,
+  "searchterm": "PAPFormattedDiskPage",
+  "query": "PAPFormattedDiskPage",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 369,
+      "location": "/src/org/apache/poi/hwpf/model",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384195/",
+      "md5hash": "4b50336a137f1a24d0274bce878f8610",
+      "lines": {
+        "66": "    /**",
+        "67": "     * Creates a PAPFormattedDiskPage from a 512 byte array",
+        "69": "     * @deprecated Use",
+        "70": "     *             {@link #PAPFormattedDiskPage(byte[], byte[], int, CharIndexTranslator)}",
+        "72": "     */",
+        "73": "    public PAPFormattedDiskPage( byte[] documentStream, byte[] dataStream,",
+        "46": "@Internal",
+        "47": "public final class PAPFormattedDiskPage extends FormattedDiskPage {",
+        "80": "     * Creates a PAPFormattedDiskPage from a 512 byte array",
+        "81": "     */",
+        "82": "    public PAPFormattedDiskPage( byte[] documentStream, byte[] dataStream,",
+        "54": "    /**",
+        "55": "     * @deprecated Use {@link #PAPFormattedDiskPage()} instead",
+        "56": "     */",
+        "79": "    /**"
+      },
+      "id": 97384195,
+      "filename": "PAPFormattedDiskPage.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 764,
+      "location": "/src/org/apache/poi/hwpf/dev",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384386/",
+      "md5hash": "a5fd3aeec9338ae1535ca742a1539e0e",
+      "lines": {
+        "48": "import org.apache.poi.hwpf.model.PAPFormattedDiskPage;",
+        "553": "",
+        "554": "                PAPFormattedDiskPage pfkp = new PAPFormattedDiskPage(",
+        "47": "import org.apache.poi.hwpf.model.ListTables;"
+      },
+      "id": 97384386,
+      "filename": "HWPFLister.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

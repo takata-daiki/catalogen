@@ -1,0 +1,179 @@
+{
+  "matchterm": "BlockAllocationTableReader",
+  "previouspage": null,
+  "searchterm": "BlockAllocationTableReader",
+  "query": "BlockAllocationTableReader",
+  "language_filters": [
+    {
+      "count": 8,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 8,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 317,
+      "location": "/ppt/poi/org/apache/poi/poifs/storage",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97398057/",
+      "md5hash": "8dac231f3c1e519795248f605babb1e0",
+      "lines": {
+        "161": "    /**",
+        "162": "     * create a BlockAllocationTableReader from an array of raw data blocks",
+        "168": "     */",
+        "169": "    BlockAllocationTableReader(POIFSBigBlockSize bigBlockSize, ListManagedBlock[] blocks, BlockList raw_block_list)",
+        "42": " */",
+        "43": "public final class BlockAllocationTableReader {",
+        "44": "    private static final POILogger _logger = POILogFactory.getLogger(BlockAllocationTableReader.class);",
+        "45": "",
+        "78": "     */",
+        "79": "    public BlockAllocationTableReader(POIFSBigBlockSize bigBlockSize, int block_count, int [] block_array,",
+        "174": "",
+        "175": "    BlockAllocationTableReader(POIFSBigBlockSize bigBlockSize) {",
+        "61": "    /**",
+        "62": "     * create a BlockAllocationTableReader for an existing filesystem. Side"
+      },
+      "id": 97398057,
+      "filename": "BlockAllocationTableReader.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642268/",
+      "md5hash": "10699ac97a28478662823933743971be",
+      "lines": {
+        "68": "",
+        "69": "public class BlockAllocationTableReader",
+        "167": "    /**",
+        "168": "     * create a BlockAllocationTableReader from an array of raw data blocks",
+        "73": "    /**",
+        "74": "     * create a BlockAllocationTableReader for an existing filesystem. Side",
+        "175": "",
+        "176": "    BlockAllocationTableReader(final ListManagedBlock [] blocks,",
+        "310": "    }",
+        "311": "}   // end class BlockAllocationTableReader",
+        "184": "    /**",
+        "185": "     * Constructor BlockAllocationTableReader",
+        "91": "",
+        "92": "    public BlockAllocationTableReader(final int block_count,",
+        "189": "",
+        "190": "    BlockAllocationTableReader()"
+      },
+      "id": 15642268,
+      "filename": "BlockAllocationTableReader.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 615,
+      "location": "/ppt/poi/org/apache/poi/poifs/filesystem",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97397929/",
+      "md5hash": "5083d727a84f9c004bece7393d2ae9b8",
+      "lines": {
+        "152": "        new BlockAllocationTableReader(header_block.getBigBlockSize(),",
+        "41": "import org.apache.poi.poifs.storage.BATBlock;",
+        "42": "import org.apache.poi.poifs.storage.BlockAllocationTableReader;",
+        "151": "        // data_blocks to be manageable"
+      },
+      "id": 97397929,
+      "filename": "POIFSFileSystem.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 176,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642269/",
+      "md5hash": "4cc58403665beff3f440d947b23f45f7",
+      "lines": {
+        "57": "    protected ListManagedBlock[]         _blocks;",
+        "58": "    private BlockAllocationTableReader _bat;",
+        "162": "    public void setBAT(final BlockAllocationTableReader bat)",
+        "161": ""
+      },
+      "id": 15642269,
+      "filename": "BlockListImpl.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 522,
+      "location": "/components/forks/poi/src/loci/poi/poifs/filesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642276/",
+      "md5hash": "821ddc8beda41ba4d7ad809592451995",
+      "lines": {
+        "56": "import loci.poi.poifs.storage.BATBlock;",
+        "57": "import loci.poi.poifs.storage.BlockAllocationTableReader;",
+        "122": "        // data_blocks to be manageable",
+        "123": "        new BlockAllocationTableReader(header_block_reader.getBATCount(),"
+      },
+      "id": 15642276,
+      "filename": "POIFSFileSystem.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 360,
+      "location": "/components/forks/poi/src/loci/poi/poifs/eventfilesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642289/",
+      "md5hash": "0574f17f0841331cab62f67868201274",
+      "lines": {
+        "56": "import loci.poi.poifs.storage.BlockAllocationTableReader;",
+        "115": "        // data_blocks to be manageable",
+        "116": "        new BlockAllocationTableReader(header_block_reader.getBATCount(),",
+        "55": "import loci.poi.poifs.property.PropertyTable;"
+      },
+      "id": 15642289,
+      "filename": "POIFSReader.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 105,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642254/",
+      "md5hash": "338a8259379f020cd872e3f518e18de6",
+      "lines": {
+        "100": "",
+        "101": "    public void setBAT(final BlockAllocationTableReader bat)"
+      },
+      "id": 15642254,
+      "filename": "BlockList.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 89,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642261/",
+      "md5hash": "70932af53b1cc0cdcf8b29fde4787bce",
+      "lines": {
+        "83": "",
+        "84": "        new BlockAllocationTableReader(blockList.fetchBlocks(sbatStart),"
+      },
+      "id": 15642261,
+      "filename": "SmallBlockTableReader.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 8,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

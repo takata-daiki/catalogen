@@ -1,0 +1,353 @@
+{
+  "matchterm": "LittleEndianConsts",
+  "previouspage": null,
+  "searchterm": "LittleEndianConsts",
+  "query": "LittleEndianConsts",
+  "language_filters": [
+    {
+      "count": 17,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 17,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 62,
+      "location": "/components/forks/poi/src/loci/poi/util",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642648/",
+      "md5hash": "8bd373c493f5e60c52db00a83bdfacc1",
+      "lines": {
+        "59": "    public static final int DOUBLE_SIZE = 8;",
+        "50": "",
+        "51": "public interface LittleEndianConsts",
+        "60": "}   // end public interface LittleEndianConsts"
+      },
+      "id": 15642648,
+      "filename": "LittleEndianConsts.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 99,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642498/",
+      "md5hash": "5665cf5fd34b7df0438df9a573ba8337",
+      "lines": {
+        "44": "import loci.poi.util.LittleEndian;",
+        "77": "        LittleEndian.putShort( data, offset, SSTRecord.sid );",
+        "78": "        offset += LittleEndianConsts.SHORT_SIZE;",
+        "45": "import loci.poi.util.LittleEndianConsts;",
+        "80": "        stats.remainingSize -= LittleEndianConsts.SHORT_SIZE;",
+        "81": "        //Delay writing the length",
+        "82": "        stats.lastLengthPos = offset;",
+        "83": "        offset += LittleEndianConsts.SHORT_SIZE;",
+        "84": "        stats.recordSize += LittleEndianConsts.SHORT_SIZE;",
+        "85": "        stats.remainingSize -= LittleEndianConsts.SHORT_SIZE;",
+        "86": "        LittleEndian.putInt( data, offset, numStrings );",
+        "87": "        offset += LittleEndianConsts.INT_SIZE;",
+        "88": "        stats.recordSize += LittleEndianConsts.INT_SIZE;",
+        "89": "        stats.remainingSize -= LittleEndianConsts.INT_SIZE;",
+        "79": "        stats.recordSize += LittleEndianConsts.SHORT_SIZE;"
+      },
+      "id": 15642498,
+      "filename": "SSTRecordHeader.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 270,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642267/",
+      "md5hash": "885932bb4dd0ae3ebce214952c71770e",
+      "lines": {
+        "192": "    {",
+        "112": "        int entriesPerBlock = size / LittleEndianConsts.INT_SIZE;",
+        "203": "        return size / LittleEndianConsts.INT_SIZE;",
+        "193": "        int entriesPerXBAT = (size / LittleEndianConsts.INT_SIZE) - 1;",
+        "79": "        _xbat_chain_offset =",
+        "176": "    {",
+        "77": "        this.blockSize = blockSize;",
+        "142": "",
+        "111": "",
+        "80": "          (_entries_per_block - 1) * LittleEndianConsts.INT_SIZE;",
+        "177": "        int entriesPerBlock = size / LittleEndianConsts.INT_SIZE;",
+        "51": "import loci.poi.util.LittleEndian;",
+        "52": "import loci.poi.util.LittleEndianConsts;",
+        "78": "        _entries_per_block = blockSize / LittleEndianConsts.INT_SIZE;",
+        "143": "        int entriesPerXBAT = (size / LittleEndianConsts.INT_SIZE) - 1;",
+        "202": "    {"
+      },
+      "id": 15642267,
+      "filename": "BATBlock.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 596,
+      "location": "/components/forks/poi/src/loci/poi/poifs/property",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642246/",
+      "md5hash": "939a613f5cf5cec32bc2e605d05fed10",
+      "lines": {
+        "320": "            new ShortField(offset, ( short ) char_array[ j ], _raw_data);",
+        "321": "            offset += LittleEndianConsts.SHORT_SIZE;",
+        "194": "                                                          _raw_data).get();",
+        "195": "                name_offset     += LittleEndianConsts.SHORT_SIZE;",
+        "326": "            offset += LittleEndianConsts.SHORT_SIZE;",
+        "69": "    static final private int    _max_name_length          =",
+        "70": "        (_name_size_offset / LittleEndianConsts.SHORT_SIZE) - 1;",
+        "331": "            .set(( short ) ((limit + 1)",
+        "332": "                            * LittleEndianConsts.SHORT_SIZE), _raw_data);",
+        "178": "        _index             = index;",
+        "179": "        int name_length = (_name_size.get() / LittleEndianConsts.SHORT_SIZE)",
+        "53": "import loci.poi.util.IntegerField;",
+        "54": "import loci.poi.util.LittleEndianConsts;",
+        "325": "            new ShortField(offset, ( short ) 0, _raw_data);"
+      },
+      "id": 15642246,
+      "filename": "Property.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 317,
+      "location": "/ppt/poi/org/apache/poi/poifs/storage",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97398057/",
+      "md5hash": "8dac231f3c1e519795248f605babb1e0",
+      "lines": {
+        "307": "                _entries.add(entry);",
+        "308": "                offset += LittleEndianConsts.INT_SIZE;",
+        "141": "                            .remove(LittleEndian.getInt(data, offset));",
+        "142": "                    offset                  += LittleEndianConsts.INT_SIZE;"
+      },
+      "id": 97398057,
+      "filename": "BlockAllocationTableReader.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 250,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642253/",
+      "md5hash": "b135db390366ec303bafe303dc68de06",
+      "lines": {
+        "222": "          LittleEndianConsts.INT_SIZE;",
+        "49": "import loci.poi.util.IntegerField;",
+        "50": "import loci.poi.util.LittleEndianConsts;",
+        "148": "            new IntegerField(offset, startBlock + j, _data);",
+        "149": "            offset += LittleEndianConsts.INT_SIZE;",
+        "151": "        int batsInHeader =",
+        "152": "          (size - _bat_array_offset) / LittleEndianConsts.INT_SIZE;",
+        "221": "        int batsInHeader = (size - _bat_array_offset) /",
+        "142": "        int limit  = Math.min(blockCount,",
+        "143": "          (size - _bat_array_offset) / LittleEndianConsts.INT_SIZE);"
+      },
+      "id": 15642253,
+      "filename": "HeaderBlockWriter.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 479,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642381/",
+      "md5hash": "b6468b53ac2bca46a92a3e5f8c327ab0",
+      "lines": {
+        "80": "            ( STD_RECORD_OVERHEAD + ( 2 * LittleEndianConsts.INT_SIZE ) );",
+        "85": "    /** overhead for each string includes the string's character count (a short) and the flag describing its characteristics (a byte) */",
+        "86": "    static final int STRING_MINIMAL_OVERHEAD = LittleEndianConsts.SHORT_SIZE + LittleEndianConsts.BYTE_SIZE;",
+        "44": "import loci.poi.util.IntMapper;",
+        "75": "    static final int STD_RECORD_OVERHEAD =",
+        "76": "            2 * LittleEndianConsts.SHORT_SIZE;",
+        "45": "import loci.poi.util.LittleEndianConsts;",
+        "79": "    static final int SST_RECORD_OVERHEAD ="
+      },
+      "id": 15642381,
+      "filename": "SSTRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 586,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642693/",
+      "md5hash": "2f1e0d92eda67ca2dfa755dbe2828a3a",
+      "lines": {
+        "544": "                length = LittleEndianConsts.LONG_SIZE;",
+        "50": "import loci.poi.util.LittleEndian;",
+        "51": "import loci.poi.util.LittleEndianConsts;",
+        "518": "                TypeWriter.writeUIntToStream(out, Variant.VT_EMPTY);",
+        "519": "                length = LittleEndianConsts.INT_SIZE;",
+        "524": "                TypeWriter.writeToStream(out, ((Integer) value).shortValue());",
+        "525": "                length = LittleEndianConsts.SHORT_SIZE;",
+        "543": "                TypeWriter.writeToStream(out, ((Long) value).longValue());"
+      },
+      "id": 15642693,
+      "filename": "VariantSupport.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 201,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642256/",
+      "md5hash": "769c17a94a606ffb414c03ee96d2261c",
+      "lines": {
+        "96": "          LittleEndianConsts.INT_SIZE;",
+        "176": "            result[ j ] = LittleEndian.getInt(_data, offset);",
+        "51": "import loci.poi.util.LittleEndian;",
+        "52": "import loci.poi.util.LittleEndianConsts;",
+        "177": "            offset      += LittleEndianConsts.INT_SIZE;",
+        "95": "        batsInHeader = (blockSize - _bat_array_offset) /"
+      },
+      "id": 15642256,
+      "filename": "HeaderBlockReader.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642268/",
+      "md5hash": "10699ac97a28478662823933743971be",
+      "lines": {
+        "50": "import loci.poi.util.LittleEndian;",
+        "51": "import loci.poi.util.LittleEndianConsts;",
+        "148": "                    offset                  += LittleEndianConsts.INT_SIZE;",
+        "147": "                            .remove(LittleEndian.getInt(data, offset));",
+        "302": "                _entries.add(entry);",
+        "303": "                offset += LittleEndianConsts.INT_SIZE;"
+      },
+      "id": 15642268,
+      "filename": "BlockAllocationTableReader.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 331,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642695/",
+      "md5hash": "4da3210542af1db464b9a8750c859f7c",
+      "lines": {
+        "136": "        LittleEndianConsts.INT_SIZE;  /* Section count */",
+        "133": "        FORMAT_ASSERTION.length +     /* Format        */",
+        "134": "        LittleEndianConsts.INT_SIZE + /* OS version    */",
+        "135": "        ClassID.LENGTH +              /* Class ID      */"
+      },
+      "id": 15642695,
+      "filename": "MutablePropertySet.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 827,
+      "location": "/src/org/apache/poi/util",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383600/",
+      "md5hash": "ccca8c6c07e92ec2aa5d2a34a5a233d7",
+      "lines": {
+        "32": " */",
+        "33": "public class LittleEndian implements LittleEndianConsts"
+      },
+      "id": 97383600,
+      "filename": "LittleEndian.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 244,
+      "location": "/components/forks/poi/src/loci/poi/util",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642654/",
+      "md5hash": "4ab855776cb20854e7eea02a313d89e7",
+      "lines": {
+        "209": "            (LittleEndian.readFromStream(stream,",
+        "210": "                                         LittleEndianConsts.BYTE_SIZE))[ 0 ];"
+      },
+      "id": 15642654,
+      "filename": "ByteField.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 612,
+      "location": "/components/forks/poi/src/loci/poi/util",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642667/",
+      "md5hash": "ae94bc3d6a3999373ac2ab47fceefd46",
+      "lines": {
+        "56": "         implements LittleEndianConsts {",
+        "55": "public class LittleEndian"
+      },
+      "id": 15642667,
+      "filename": "LittleEndian.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 226,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642252/",
+      "md5hash": "8450934a7708c91f77ff2df9934d6bd9",
+      "lines": {
+        "52": "import loci.poi.util.LittleEndian;",
+        "53": "import loci.poi.util.LittleEndianConsts;"
+      },
+      "id": 15642252,
+      "filename": "BlockAllocationTableWriter.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 71,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642260/",
+      "md5hash": "6e7ce53929cc4519afe03718fc3d0623",
+      "lines": {
+        "45": "import loci.poi.util.LittleEndian;",
+        "46": "import loci.poi.util.LittleEndianConsts;"
+      },
+      "id": 15642260,
+      "filename": "HeaderBlockConstants.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 163,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642270/",
+      "md5hash": "67f0b4e3c1f95804ce5523dd582c22a3",
+      "lines": {
+        "51": "import loci.poi.util.LittleEndian;",
+        "52": "import loci.poi.util.LittleEndianConsts;"
+      },
+      "id": 15642270,
+      "filename": "PropertyBlock.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 17,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

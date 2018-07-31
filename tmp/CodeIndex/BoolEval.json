@@ -1,0 +1,252 @@
+{
+  "matchterm": "BoolEval",
+  "previouspage": null,
+  "searchterm": "BoolEval",
+  "query": "BoolEval",
+  "language_filters": [
+    {
+      "count": 12,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 12,
+  "results": [
+    {
+      "repo": "https://github.com/rasmuserik/lightscript-old.git",
+      "language": "Java",
+      "linescount": 1202,
+      "location": "/.attic2/external/languages/kahlua/se/krka/kahlua/vm",
+      "name": "lightscript-old",
+      "url": "https://searchcode.com/codesearch/view/65513385/",
+      "md5hash": "4a3ae34abe846b0a392a2a29049aa0a3",
+      "lines": {
+        "1192": "",
+        "603": "\t\t\t\t\tif (boolEval(value) != (c == 0)) {",
+        "407": "\t\t\t\t\tObject aObj = callFrame.get(b);",
+        "408": "\t\t\t\t\tcallFrame.set(a, toBoolean(!boolEval(aObj)));",
+        "1193": "\tpublic static boolean boolEval(Object o) {",
+        "602": "\t\t\t\t\tObject value = callFrame.get(b);",
+        "571": "\t\t\t\t\t\t\tObject res = call(metafun, bo, co, null);",
+        "572": "\t\t\t\t\t\t\tresBool = boolEval(res);",
+        "589": "\t\t\t\t\tObject value = callFrame.get(a);",
+        "590": "\t\t\t\t\tif (boolEval(value) == (c == 0)) {"
+      },
+      "id": 65513385,
+      "filename": "LuaState.java"
+    },
+    {
+      "repo": "http://openwig.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1397,
+      "location": "/OpenWIGLibrary/src/se/krka/kahlua/vm",
+      "name": "openwig",
+      "url": "https://searchcode.com/codesearch/view/13675193/",
+      "md5hash": "266753b659e08dd4fa1e4c6c2ea543af",
+      "lines": {
+        "608": "\t\t\t\t\t\t\t\tObject res = call(metafun, bo, co, null);",
+        "609": "\t\t\t\t\t\t\t\tresBool = boolEval(res);",
+        "627": "\t\t\t\t\tObject value = callFrame.get(a);",
+        "628": "\t\t\t\t\tif (boolEval(value) == (c == 0)) {",
+        "439": "\t\t\t\t\tObject aObj = callFrame.get(b);",
+        "440": "\t\t\t\t\tcallFrame.set(a, toBoolean(!boolEval(aObj)));",
+        "640": "\t\t\t\t\tif (boolEval(value) != (c == 0)) {",
+        "1356": "",
+        "1357": "\tpublic static boolean boolEval(Object o) {",
+        "639": "\t\t\t\t\tObject value = callFrame.get(b);"
+      },
+      "id": 13675193,
+      "filename": "LuaState.java"
+    },
+    {
+      "repo": "http://playar.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1358,
+      "location": "/ playar/MatchsServer/src/org/imajie/server/web/imajiematch/matchsServers/kahlua/vm",
+      "name": "playar",
+      "url": "https://searchcode.com/codesearch/view/14067416/",
+      "md5hash": "831afe99bf7ea890e08b90d9c032b02a",
+      "lines": {
+        "592": "                        Object value = callFrame.get(a);",
+        "593": "                        if (boolEval(value) == (c == 0)) {",
+        "1318": "    public static boolean boolEval(Object o) {",
+        "1317": "",
+        "406": "                        Object aObj = callFrame.get(b);",
+        "407": "                        callFrame.set(a, toBoolean(!boolEval(aObj)));",
+        "604": "                        Object value = callFrame.get(b);",
+        "573": "                                    Object res = call(metafun, bo, co, null);",
+        "574": "                                    resBool = boolEval(res);",
+        "605": "                        if (boolEval(value) != (c == 0)) {"
+      },
+      "id": 14067416,
+      "filename": "LuaState.java"
+    },
+    {
+      "repo": "http://openwig.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 159,
+      "location": "/OpenWIGLibrary/src/cz/matejcik/openwig",
+      "name": "openwig",
+      "url": "https://searchcode.com/codesearch/view/13675167/",
+      "md5hash": "ca744239af4f52b2d67097c7277d3b0a",
+      "lines": {
+        "64": "\t\t} else if (\"CmdWith\".equals(key)) {",
+        "65": "\t\t\tboolean np = LuaState.boolEval(value);",
+        "91": "\t\t\tdissociateFromTargets();",
+        "80": "\t\t\tuniversal = LuaState.boolEval(value);",
+        "92": "\t\t\treciprocal = LuaState.boolEval(value);",
+        "75": "\t\t} else if (\"Enabled\".equals(key)) {",
+        "76": "\t\t\tenabled = LuaState.boolEval(value);",
+        "79": "\t\t\tdissociateFromTargets();"
+      },
+      "id": 13675167,
+      "filename": "Action.java"
+    },
+    {
+      "repo": "http://playar.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 159,
+      "location": "/ playar/MatchsServer/src/org/imajie/server/web/imajiematch/matchsServers/openwig",
+      "name": "playar",
+      "url": "https://searchcode.com/codesearch/view/14067462/",
+      "md5hash": "24b47cd5d0f7d29bbbd604fc352cef01",
+      "lines": {
+        "64": "\t\t} else if (\"CmdWith\".equals(key)) {",
+        "65": "\t\t\tboolean np = LuaState.boolEval(value);",
+        "91": "\t\t\tdissociateFromTargets();",
+        "80": "\t\t\tuniversal = LuaState.boolEval(value);",
+        "92": "\t\t\treciprocal = LuaState.boolEval(value);",
+        "75": "\t\t} else if (\"Enabled\".equals(key)) {",
+        "76": "\t\t\tenabled = LuaState.boolEval(value);",
+        "79": "\t\t\tdissociateFromTargets();"
+      },
+      "id": 14067462,
+      "filename": "Action.java"
+    },
+    {
+      "repo": "http://openwig.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 357,
+      "location": "/OpenWIGLibrary/src/cz/matejcik/openwig",
+      "name": "openwig",
+      "url": "https://searchcode.com/codesearch/view/13675168/",
+      "md5hash": "14b61878dc56f0b657b48ae941cbb7db",
+      "lines": {
+        "80": "\t\t} else if (\"Visible\".equals(key)) {",
+        "81": "\t\t\tboolean a = LuaState.boolEval(value);",
+        "68": "\t\t} else if (\"Active\".equals(key)) {",
+        "69": "\t\t\tboolean a = LuaState.boolEval(value);"
+      },
+      "id": 13675168,
+      "filename": "Zone.java"
+    },
+    {
+      "repo": "http://openwig.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 48,
+      "location": "/OpenWIGLibrary/src/cz/matejcik/openwig",
+      "name": "openwig",
+      "url": "https://searchcode.com/codesearch/view/13675172/",
+      "md5hash": "03523ebfd898e66740bdb027f29d4388",
+      "lines": {
+        "32": "\t\t\tboolean c = LuaState.boolEval(value);",
+        "25": "\t\tif (\"Active\".equals(key)) {",
+        "26": "\t\t\tboolean a = LuaState.boolEval(value);",
+        "31": "\t\t} else if (\"Complete\".equals(key)) {"
+      },
+      "id": 13675172,
+      "filename": "Task.java"
+    },
+    {
+      "repo": "http://playar.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 49,
+      "location": "/ playar/MatchsServer/src/org/imajie/server/web/imajiematch/matchsServers/openwig",
+      "name": "playar",
+      "url": "https://searchcode.com/codesearch/view/14067468/",
+      "md5hash": "d842ea6206ca732b8f263593b25449a6",
+      "lines": {
+        "32": "\t\t} else if (\"Complete\".equals(key)) {",
+        "33": "\t\t\tboolean c = LuaState.boolEval(value);",
+        "26": "\t\tif (\"Active\".equals(key)) {",
+        "27": "\t\t\tboolean a = LuaState.boolEval(value);"
+      },
+      "id": 14067468,
+      "filename": "Task.java"
+    },
+    {
+      "repo": "http://openwig.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 153,
+      "location": "/OpenWIGLibrary/src/cz/matejcik/openwig",
+      "name": "openwig",
+      "url": "https://searchcode.com/codesearch/view/13675171/",
+      "md5hash": "9fb38a3eab6a8755de448151088815d2",
+      "lines": {
+        "73": "\t\t} else if (\"Visible\".equals(key)) {",
+        "74": "\t\t\tvisible = LuaState.boolEval(value);"
+      },
+      "id": 13675171,
+      "filename": "EventTable.java"
+    },
+    {
+      "repo": "http://openwig.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1503,
+      "location": "/OpenWIGLibrary/src/se/krka/kahlua/stdlib",
+      "name": "openwig",
+      "url": "https://searchcode.com/codesearch/view/13675190/",
+      "md5hash": "398fec01e6ab315e53ea0c273d80ef16",
+      "lines": {
+        "968": "\t\tboolean plain = LuaState.boolEval(BaseLib.getOptArg(callFrame, 4, BaseLib.TYPE_BOOLEAN));",
+        "967": "\t\tDouble i = ((Double)(BaseLib.getOptArg(callFrame, 3, BaseLib.TYPE_NUMBER)));"
+      },
+      "id": 13675190,
+      "filename": "StringLib.java"
+    },
+    {
+      "repo": "http://playar.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1503,
+      "location": "/ playar/MatchsServer/src/org/imajie/server/web/imajiematch/matchsServers/kahlua/stdlib",
+      "name": "playar",
+      "url": "https://searchcode.com/codesearch/view/14067411/",
+      "md5hash": "d4a785a4ead80a4fa6d1b2d582fa5ae0",
+      "lines": {
+        "972": "\t\tDouble i = ((Double)(BaseLib.getOptArg(callFrame, 3, BaseLib.TYPE_NUMBER)));",
+        "973": "\t\tboolean plain = LuaState.boolEval(BaseLib.getOptArg(callFrame, 4, BaseLib.TYPE_BOOLEAN));"
+      },
+      "id": 14067411,
+      "filename": "StringLib.java"
+    },
+    {
+      "repo": "http://playar.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 217,
+      "location": "/ playar/MatchsServer/src/org/imajie/server/web/imajiematch/matchsServers/openwig",
+      "name": "playar",
+      "url": "https://searchcode.com/codesearch/view/14067467/",
+      "md5hash": "634938011fa9dc04fcba53fdd408e25b",
+      "lines": {
+        "80": "        } else if (\"Visible\".equals(key)) {",
+        "81": "            visible = LuaState.boolEval(value);"
+      },
+      "id": 14067467,
+      "filename": "EventTable.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 11,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "matchterm": "EscherBSERecord",
+  "previouspage": null,
+  "searchterm": "EscherBSERecord",
+  "query": "EscherBSERecord",
+  "language_filters": [
+    {
+      "count": 12,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 12,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 372,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383903/",
+      "md5hash": "55468369a48912dbce2e789206e3986d",
+      "lines": {
+        "30": " */",
+        "31": "public final class EscherBSERecord extends EscherRecord {"
+      },
+      "id": 97383903,
+      "filename": "EscherBSERecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 465,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642608/",
+      "md5hash": "8eff335d4d8014a4a1105e64c94acc96",
+      "lines": {
+        "56": "public class EscherBSERecord",
+        "55": " */"
+      },
+      "id": 15642608,
+      "filename": "EscherBSERecord.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 595,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785559/",
+      "md5hash": "6b55090236799f49ee0f5bd7d54bbbac",
+      "lines": {
+        "529": "           for(EscherRecord escherRecord : records) {",
+        "530": "              if (escherRecord instanceof EscherBSERecord) {",
+        "531": "                 EscherBlipRecord blip = ((EscherBSERecord) escherRecord).getBlipRecord();",
+        "532": "                 if (blip != null) {",
+        "29": "",
+        "30": "import org.apache.poi.ddf.EscherBSERecord;"
+      },
+      "id": 111785559,
+      "filename": "ExcelExtractor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1082,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394959/",
+      "md5hash": "5d80afff23c354813b0c27bde8e947ac",
+      "lines": {
+        "827": "\t\tbse.setOptions((short) (0x0002 | (format << 4)));",
+        "825": "\t\tEscherBSERecord bse = new EscherBSERecord();",
+        "824": "",
+        "28": "import org.apache.poi.ddf.EscherBSERecord;",
+        "826": "\t\tbse.setRecordId(EscherBSERecord.RECORD_ID);",
+        "27": "",
+        "812": "\t\t\tfor (int i = 0; iter.hasNext(); i++) {",
+        "813": "\t\t\t\tEscherBSERecord bse = (EscherBSERecord) iter.next();"
+      },
+      "id": 97394959,
+      "filename": "SlideShow.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 633,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384428/",
+      "md5hash": "abf85d22a465320cca19a26cbf1926ad",
+      "lines": {
+        "459": "",
+        "564": "        {",
+        "565": "            EscherBSERecord bseRecord = (EscherBSERecord) escherRecord;",
+        "28": "import org.apache.poi.ddf.EscherBSERecord;",
+        "27": "",
+        "460": "        if ( escherRecord instanceof EscherBSERecord )",
+        "461": "        {",
+        "462": "            return ( (EscherBSERecord) escherRecord ).getBlipRecord()"
+      },
+      "id": 97384428,
+      "filename": "Picture.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 280,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394307/",
+      "md5hash": "c0426f09ab6f17114414ade32966e4ad",
+      "lines": {
+        "256": "",
+        "257": "        EscherBSERecord bse = getEscherBSERecord();",
+        "210": "        }",
+        "195": "",
+        "196": "    protected EscherBSERecord getEscherBSERecord(){",
+        "181": "",
+        "182": "        EscherBSERecord bse = getEscherBSERecord();",
+        "211": "        return (EscherBSERecord)lst.get(idx-1);"
+      },
+      "id": 97394307,
+      "filename": "Picture.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1445,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642316/",
+      "md5hash": "4f7b036daf89776dc4ee4606b7972144",
+      "lines": {
+        "50": "import loci.poi.POIDocument;",
+        "51": "import loci.poi.ddf.EscherBSERecord;",
+        "1364": "                {",
+        "1365": "                    EscherBlipRecord blip = ((EscherBSERecord) escherRecord).getBlipRecord();",
+        "1362": "",
+        "1363": "                if (escherRecord instanceof EscherBSERecord)",
+        "1308": "",
+        "1309": "        EscherBSERecord r = new EscherBSERecord();",
+        "1310": "        r.setRecordId( EscherBSERecord.RECORD_ID );",
+        "1311": "        r.setOptions( (short) ( 0x0002 | ( format << 4 ) ) );"
+      },
+      "id": 15642316,
+      "filename": "HSSFWorkbook.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 2351,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642358/",
+      "md5hash": "2f47d8e4aa73ffbba0d056d2a6f68eee",
+      "lines": {
+        "2272": "        bstoreContainer.setOptions( (short) ( (escherBSERecords.size() << 4) | 0xF ) );",
+        "2275": "",
+        "2244": "",
+        "2245": "    public EscherBSERecord getBSERecord(int pictureIndex)",
+        "2246": "    {",
+        "2247": "        return (EscherBSERecord)escherBSERecords.get(pictureIndex-1);",
+        "2249": "",
+        "2250": "    public int addBSERecord(EscherBSERecord e)",
+        "2254": "        // maybe we don't need that as an instance variable anymore",
+        "2191": "            EscherContainerRecord bstoreContainer = null;",
+        "2192": "            if (escherBSERecords.size() > 0)",
+        "2195": "                bstoreContainer.setRecordId( EscherContainerRecord.BSTORE_CONTAINER );",
+        "2196": "                bstoreContainer.setOptions( (short) ( (escherBSERecords.size() << 4) | 0xF ) );",
+        "2197": "                for ( Iterator iterator = escherBSERecords.iterator(); iterator.hasNext(); )",
+        "2276": "        return escherBSERecords.size();",
+        "2255": "        escherBSERecords.add( e );",
+        "2271": "        }"
+      },
+      "id": 15642358,
+      "filename": "Workbook.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 202,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642330/",
+      "md5hash": "54b349b51e41e2778e6c5dd6bb3b994a",
+      "lines": {
+        "40": "",
+        "41": "import loci.poi.ddf.EscherBSERecord;",
+        "126": "",
+        "127": "        EscherBSERecord bse = (EscherBSERecord)patriarch.sheet.book.getBSERecord(pictureIndex);"
+      },
+      "id": 15642330,
+      "filename": "HSSFPicture.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 39,
+      "location": "/zss/src/org/zkoss/poi/hssf/usermodel",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970567/",
+      "md5hash": "4de49f146265fca2940102813883ea12",
+      "lines": {
+        "16": "import org.zkoss.poi.ddf.EscherBSERecord;",
+        "34": "\t}",
+        "35": "\tpublic HSSFPictureData newHSSFPictureData(EscherBSERecord bse) {",
+        "15": ""
+      },
+      "id": 3970567,
+      "filename": "HSSFWorkbookHelper.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 161,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383906/",
+      "md5hash": "3324931c58f18c045e9c34e4e1ad839e",
+      "lines": {
+        "34": "public class DefaultEscherRecordFactory implements EscherRecordFactory {",
+        "35": "    private static Class<?>[] escherRecordClasses = { EscherBSERecord.class,"
+      },
+      "id": 97383906,
+      "filename": "DefaultEscherRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 178,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642620/",
+      "md5hash": "c686784da3da38fecea2e5b988b86ece",
+      "lines": {
+        "60": "    private static Class[] escherRecordClasses = {",
+        "61": "        EscherBSERecord.class, EscherOptRecord.class, EscherClientAnchorRecord.class, EscherDgRecord.class,"
+      },
+      "id": 15642620,
+      "filename": "DefaultEscherRecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 11,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

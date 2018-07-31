@@ -1,0 +1,82 @@
+{
+  "matchterm": "NoteStructureSubRecord",
+  "previouspage": null,
+  "searchterm": "NoteStructureSubRecord",
+  "query": "NoteStructureSubRecord",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 153,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642424/",
+      "md5hash": "6b15d7b35dbb6591b32a29bf27d68512",
+      "lines": {
+        "64": "    public NoteStructureSubRecord()",
+        "65": "    {",
+        "66": "        //all we know is that the the length of <code>NoteStructureSubRecord</code> is always 22 bytes",
+        "70": "    /**",
+        "71": "     * Constructs a NoteStructureSubRecord and sets its fields appropriately.",
+        "73": "     */",
+        "74": "    public NoteStructureSubRecord(RecordInputStream in)",
+        "52": " */",
+        "53": "public class NoteStructureSubRecord",
+        "60": "    /**",
+        "61": "     * Construct a new <code>NoteStructureSubRecord</code> and",
+        "63": "     */"
+      },
+      "id": 15642424,
+      "filename": "NoteStructureSubRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 157,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642359/",
+      "md5hash": "c684c958961cd9be6740a30893ceb9a4",
+      "lines": {
+        "88": "        //we don't know it's format, for now the record data is empty",
+        "89": "        NoteStructureSubRecord u = new NoteStructureSubRecord();"
+      },
+      "id": 15642359,
+      "filename": "CommentShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 101,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642394/",
+      "md5hash": "d40b14ea92262475f6a64dcc34544617",
+      "lines": {
+        "91": "                break;",
+        "92": "            case NoteStructureSubRecord.sid:",
+        "93": "                r = new NoteStructureSubRecord( in );",
+        "94": "                break;"
+      },
+      "id": 15642394,
+      "filename": "SubRecord.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

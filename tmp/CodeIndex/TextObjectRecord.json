@@ -1,0 +1,451 @@
+{
+  "matchterm": "TextObjectRecord",
+  "previouspage": null,
+  "searchterm": "TextObjectRecord",
+  "query": "TextObjectRecord",
+  "language_filters": [
+    {
+      "count": 25,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 25,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 121,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/biff/drawing",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260605/",
+      "md5hash": "ade4caccb47817a1a62cb1cfb264fe75",
+      "lines": {
+        "32": "public class TextObjectRecord extends WritableRecordData",
+        "65": "   */",
+        "66": "  public TextObjectRecord(Record t)",
+        "36": "   */",
+        "53": "   */",
+        "54": "  TextObjectRecord(String t)",
+        "31": " */",
+        "77": "   */",
+        "78": "  public TextObjectRecord(byte[] d)",
+        "37": "  private static Logger logger = Logger.getLogger(TextObjectRecord.class);"
+      },
+      "id": 43260605,
+      "filename": "TextObjectRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 121,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/biff/drawing",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49201133/",
+      "md5hash": "ade4caccb47817a1a62cb1cfb264fe75",
+      "lines": {
+        "32": "public class TextObjectRecord extends WritableRecordData",
+        "65": "   */",
+        "66": "  public TextObjectRecord(Record t)",
+        "36": "   */",
+        "53": "   */",
+        "54": "  TextObjectRecord(String t)",
+        "31": " */",
+        "77": "   */",
+        "78": "  public TextObjectRecord(byte[] d)",
+        "37": "  private static Logger logger = Logger.getLogger(TextObjectRecord.class);"
+      },
+      "id": 49201133,
+      "filename": "TextObjectRecord.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 121,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/biff/drawing",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374762/",
+      "md5hash": "ade4caccb47817a1a62cb1cfb264fe75",
+      "lines": {
+        "32": "public class TextObjectRecord extends WritableRecordData",
+        "65": "   */",
+        "66": "  public TextObjectRecord(Record t)",
+        "36": "   */",
+        "53": "   */",
+        "54": "  TextObjectRecord(String t)",
+        "31": " */",
+        "77": "   */",
+        "78": "  public TextObjectRecord(byte[] d)",
+        "37": "  private static Logger logger = Logger.getLogger(TextObjectRecord.class);"
+      },
+      "id": 11374762,
+      "filename": "TextObjectRecord.java"
+    },
+    {
+      "repo": "http://brainstream.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 132,
+      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/biff/drawing",
+      "name": "brainstream",
+      "url": "https://searchcode.com/codesearch/view/13919949/",
+      "md5hash": "83e1ca95f3a3d7fdbf19e0543bf4adea",
+      "lines": {
+        "32": "public class TextObjectRecord extends WritableRecordData",
+        "65": "   */",
+        "66": "  public TextObjectRecord(Record t)",
+        "36": "   */",
+        "53": "   */",
+        "54": "  TextObjectRecord(String t)",
+        "31": " */",
+        "77": "   */",
+        "78": "  public TextObjectRecord(byte[] d)",
+        "37": "  private static Logger logger = Logger.getLogger(TextObjectRecord.class);"
+      },
+      "id": 13919949,
+      "filename": "TextObjectRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 277,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642370/",
+      "md5hash": "10a515b4a6cb5d23d22fa4427212bb8c",
+      "lines": {
+        "48": "public class TextObjectRecord",
+        "72": "        } else",
+        "52": "",
+        "53": "    public TextObjectRecord()",
+        "73": "            throw new RecordFormatException(\"Expected Continue record to hold string data for TextObjectRecord\");",
+        "56": "",
+        "57": "    public TextObjectRecord( RecordInputStream in )",
+        "79": "            } else throw new RecordFormatException(\"Expected Continue Record to hold font runs for TextObjectRecord\");",
+        "78": "                processFontRuns(in);",
+        "47": ""
+      },
+      "id": 15642370,
+      "filename": "TextObjectRecord.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 595,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785559/",
+      "md5hash": "6b55090236799f49ee0f5bd7d54bbbac",
+      "lines": {
+        "400": "            case TextObjectRecord.sid:",
+        "401": "                TextObjectRecord tor = (TextObjectRecord) record;",
+        "402": "                addTextCell(record, tor.getStr().getString());",
+        "56": "import org.apache.poi.hssf.record.SSTRecord;",
+        "57": "import org.apache.poi.hssf.record.TextObjectRecord;",
+        "267": "                hssfRequest.addListener(formatListener, HyperlinkRecord.sid);",
+        "268": "                hssfRequest.addListener(formatListener, TextObjectRecord.sid);",
+        "399": "                "
+      },
+      "id": 111785559,
+      "filename": "ExcelExtractor.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 1850,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260387/",
+      "md5hash": "7f91270abbfb3387b7abcd30255c0a02",
+      "lines": {
+        "1651": "      Assert.verify(r2.getType() == Type.TXO);",
+        "1652": "      TextObjectRecord txo = new TextObjectRecord(r2);",
+        "1710": "      TextObjectRecord txo = new TextObjectRecord(r2);",
+        "1709": "      Assert.verify(r2.getType() == Type.TXO);",
+        "62": "import jxl.biff.drawing.ObjRecord;",
+        "63": "import jxl.biff.drawing.TextObjectRecord;"
+      },
+      "id": 43260387,
+      "filename": "SheetReader.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 1850,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200915/",
+      "md5hash": "7f91270abbfb3387b7abcd30255c0a02",
+      "lines": {
+        "1651": "      Assert.verify(r2.getType() == Type.TXO);",
+        "1652": "      TextObjectRecord txo = new TextObjectRecord(r2);",
+        "1710": "      TextObjectRecord txo = new TextObjectRecord(r2);",
+        "1709": "      Assert.verify(r2.getType() == Type.TXO);",
+        "62": "import jxl.biff.drawing.ObjRecord;",
+        "63": "import jxl.biff.drawing.TextObjectRecord;"
+      },
+      "id": 49200915,
+      "filename": "SheetReader.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 911,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/biff/drawing",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260637/",
+      "md5hash": "22304608700c412d53464a1b295dd52a",
+      "lines": {
+        "146": "   */",
+        "147": "  private TextObjectRecord txo;",
+        "659": "  public void setTextObject(TextObjectRecord t)",
+        "658": "   */",
+        "766": "    TextObjectRecord txorec = new TextObjectRecord(getText());",
+        "765": ""
+      },
+      "id": 43260637,
+      "filename": "Comment.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 868,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/biff/drawing",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260645/",
+      "md5hash": "ac11f196cfadd15f73b136b071af2eec",
+      "lines": {
+        "146": "   */",
+        "147": "  private TextObjectRecord txo;",
+        "630": "   */",
+        "631": "  public void setTextObject(TextObjectRecord t)",
+        "729": "",
+        "730": "    TextObjectRecord tor = new TextObjectRecord(getText());"
+      },
+      "id": 43260645,
+      "filename": "Button.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 911,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/biff/drawing",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49201165/",
+      "md5hash": "22304608700c412d53464a1b295dd52a",
+      "lines": {
+        "146": "   */",
+        "147": "  private TextObjectRecord txo;",
+        "659": "  public void setTextObject(TextObjectRecord t)",
+        "658": "   */",
+        "766": "    TextObjectRecord txorec = new TextObjectRecord(getText());",
+        "765": ""
+      },
+      "id": 49201165,
+      "filename": "Comment.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 868,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/biff/drawing",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49201173/",
+      "md5hash": "ac11f196cfadd15f73b136b071af2eec",
+      "lines": {
+        "146": "   */",
+        "147": "  private TextObjectRecord txo;",
+        "630": "   */",
+        "631": "  public void setTextObject(TextObjectRecord t)",
+        "729": "",
+        "730": "    TextObjectRecord tor = new TextObjectRecord(getText());"
+      },
+      "id": 49201173,
+      "filename": "Button.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 192,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642364/",
+      "md5hash": "caf9b32bdd1d6052248a6d5f8cf5c345",
+      "lines": {
+        "160": "        obj.setVerticalTextAlignment( TextObjectRecord.VERTICAL_TEXT_ALIGNMENT_TOP );",
+        "161": "        obj.setTextLocked( true );",
+        "162": "        obj.setTextOrientation( TextObjectRecord.TEXT_ORIENTATION_NONE );",
+        "71": "        objRecord = createObjRecord( hssfShape, shapeId );",
+        "72": "        textObjectRecord = createTextObjectRecord( hssfShape, shapeId );",
+        "183": "    {",
+        "157": "",
+        "181": "",
+        "182": "    public TextObjectRecord getTextObjectRecord()",
+        "57": "    private EscherContainerRecord spContainer;",
+        "184": "        return textObjectRecord;",
+        "153": "     */",
+        "58": "    private TextObjectRecord textObjectRecord;",
+        "154": "    private TextObjectRecord createTextObjectRecord( HSSFTextbox hssfShape, int shapeId )",
+        "158": "        TextObjectRecord obj = new TextObjectRecord();",
+        "159": "        obj.setHorizontalTextAlignment( TextObjectRecord.HORIZONTAL_TEXT_ALIGNMENT_LEFT_ALIGNED );"
+      },
+      "id": 15642364,
+      "filename": "TextboxShape.java"
+    },
+    {
+      "repo": "http://brainstream.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1901,
+      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/read/biff",
+      "name": "brainstream",
+      "url": "https://searchcode.com/codesearch/view/13919585/",
+      "md5hash": "64420fd674275ba389b00cf0c5263661",
+      "lines": {
+        "64": "import jxl.biff.drawing.TextObjectRecord;",
+        "1713": "        Assert.verify(r2.getType() == Type.TXO);",
+        "1714": "        TextObjectRecord txo = new TextObjectRecord(r2);",
+        "1652": "        Assert.verify(r2.getType() == Type.TXO);",
+        "1653": "        TextObjectRecord txo = new TextObjectRecord(r2);",
+        "1761": "        TextObjectRecord txo = new TextObjectRecord(r2);",
+        "1760": "        Assert.verify(r2.getType() == Type.TXO);",
+        "63": "import jxl.biff.drawing.ObjRecord;"
+      },
+      "id": 13919585,
+      "filename": "SheetReader.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1062,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642303/",
+      "md5hash": "a320b63ccf16b2c1798c3d8c1abc8ed7",
+      "lines": {
+        "1024": "        HSSFComment comment = null;",
+        "1025": "        HashMap txshapes = new HashMap(); //map shapeId and TextObjectRecord",
+        "1045": "                   if (cmo.getObjectType() == CommonObjectDataSubRecord.OBJECT_TYPE_COMMENT){",
+        "1030": "               if (note.getRow() == row && note.getColumn() == column){",
+        "1031": "                   TextObjectRecord txo = (TextObjectRecord)txshapes.get(new Integer(note.getShapeId()));",
+        "1048": "                           rec = ( Record ) it.next();",
+        "1049": "                           if (rec instanceof TextObjectRecord) {",
+        "1046": "                       //find the nearest TextObjectRecord which holds comment's text and map it to its shapeId"
+      },
+      "id": 15642303,
+      "filename": "HSSFCell.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1850,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/read/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374407/",
+      "md5hash": "7f91270abbfb3387b7abcd30255c0a02",
+      "lines": {
+        "1651": "      Assert.verify(r2.getType() == Type.TXO);",
+        "1652": "      TextObjectRecord txo = new TextObjectRecord(r2);",
+        "1710": "      TextObjectRecord txo = new TextObjectRecord(r2);",
+        "1709": "      Assert.verify(r2.getType() == Type.TXO);",
+        "62": "import jxl.biff.drawing.ObjRecord;",
+        "63": "import jxl.biff.drawing.TextObjectRecord;"
+      },
+      "id": 11374407,
+      "filename": "SheetReader.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 868,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/biff/drawing",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374783/",
+      "md5hash": "2ebc7ca4ba71da9523f485afec3abf08",
+      "lines": {
+        "146": "   */",
+        "147": "  private TextObjectRecord txo;",
+        "630": "   */",
+        "631": "  public void setTextObject(TextObjectRecord t)",
+        "729": "",
+        "730": "    TextObjectRecord tor = new TextObjectRecord(getText());"
+      },
+      "id": 11374783,
+      "filename": "Button.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 911,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/biff/drawing",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374797/",
+      "md5hash": "8702a23b87c3689f4174c23d4e8a2c2a",
+      "lines": {
+        "146": "   */",
+        "147": "  private TextObjectRecord txo;",
+        "659": "  public void setTextObject(TextObjectRecord t)",
+        "658": "   */",
+        "766": "    TextObjectRecord txorec = new TextObjectRecord(getText());",
+        "765": ""
+      },
+      "id": 11374797,
+      "filename": "Comment.java"
+    },
+    {
+      "repo": "http://brainstream.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 868,
+      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/biff/drawing",
+      "name": "brainstream",
+      "url": "https://searchcode.com/codesearch/view/13919971/",
+      "md5hash": "547409f4c93e06311ffc5d96498c64e7",
+      "lines": {
+        "146": "   */",
+        "147": "  private TextObjectRecord txo;",
+        "630": "   */",
+        "631": "  public void setTextObject(TextObjectRecord t)",
+        "729": "",
+        "730": "    TextObjectRecord tor = new TextObjectRecord(getText());"
+      },
+      "id": 13919971,
+      "filename": "Button.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 185,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642324/",
+      "md5hash": "fc029136a3141517ec69866f71588552",
+      "lines": {
+        "83": "",
+        "84": "    protected HSSFComment( NoteRecord note, TextObjectRecord txo )",
+        "42": "import loci.poi.hssf.record.NoteRecord;",
+        "43": "import loci.poi.hssf.record.TextObjectRecord;",
+        "61": "    private NoteRecord note = null;",
+        "62": "    private TextObjectRecord txo = null;"
+      },
+      "id": 15642324,
+      "filename": "HSSFComment.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 9,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 8,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 8,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

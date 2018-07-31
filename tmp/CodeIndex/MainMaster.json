@@ -1,0 +1,44 @@
+{
+  "matchterm": "MainMaster",
+  "previouspage": null,
+  "searchterm": "MainMaster",
+  "query": "MainMaster",
+  "language_filters": [
+    {
+      "count": 1,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 1,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1082,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394959/",
+      "md5hash": "5d80afff23c354813b0c27bde8e947ac",
+      "lines": {
+        "292": "\t\t// Find master slides",
+        "293": "\t\t// These can be MainMaster records, but oddly they can also be",
+        "312": "\t\t\t\t\ttmr.add(master);",
+        "313": "\t\t\t\t} else if (r instanceof org.apache.poi.hslf.record.MainMaster) {",
+        "314": "\t\t\t\t\tSlideMaster master = new SlideMaster((org.apache.poi.hslf.record.MainMaster) r,",
+        "315": "\t\t\t\t\t\t\tsheetNo);"
+      },
+      "id": 97394959,
+      "filename": "SlideShow.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "matchterm": "WorkbookEvaluator",
+  "previouspage": null,
+  "searchterm": "WorkbookEvaluator",
+  "query": "WorkbookEvaluator",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 431,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970717/",
+      "md5hash": "7316273b22d01b3aaca97abfed972abf",
+      "lines": {
+        "113": "\t",
+        "34": "import org.zkoss.poi.ss.formula.SheetNameFormatter;",
+        "35": "import org.zkoss.poi.ss.formula.WorkbookEvaluator;",
+        "72": "\tprivate final FormulaEvaluator _evaluator;",
+        "73": "\tprivate final WorkbookEvaluator _bookEvaluator;",
+        "107": "\t\t_evaluator = XSSFFormulaEvaluator.create(this, NoCacheClassifier.instance, resolver.getUDFFinder()); ",
+        "108": "\t\t_bookEvaluator = _evaluator.getWorkbookEvaluator(); ",
+        "114": "\t/*package*/ WorkbookEvaluator getWorkbookEvaluator() {"
+      },
+      "id": 3970717,
+      "filename": "XSSFBookImpl.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 354,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970720/",
+      "md5hash": "5f7e28ce78cf6ecb0819700f4859940e",
+      "lines": {
+        "32": "import org.zkoss.poi.ss.SpreadsheetVersion;",
+        "33": "import org.zkoss.poi.ss.formula.WorkbookEvaluator;",
+        "84": "\t",
+        "78": "\t\t_bookEvaluator = _evaluator.getWorkbookEvaluator(); ",
+        "85": "\t/*package*/ WorkbookEvaluator getWorkbookEvaluator() {",
+        "77": "\t\t_evaluator = HSSFFormulaEvaluator.create(this, NoCacheClassifier.instance, resolver.getUDFFinder()); ",
+        "62": "\tprivate final FormulaEvaluator _evaluator;",
+        "63": "\tprivate final WorkbookEvaluator _bookEvaluator;"
+      },
+      "id": 3970720,
+      "filename": "HSSFBookImpl.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 163,
+      "location": "/zss/src/org/zkoss/poi/ss/formula",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970569/",
+      "md5hash": "6c4cf9a355470c2f624993f5b0758c74",
+      "lines": {
+        "136": "\t\t\t\tfinal WorkbookEvaluator evaluator = ec.getWorkbookEvaluator();",
+        "135": "\t\t\tfor(Ptg ptg : precedents) {"
+      },
+      "id": 3970569,
+      "filename": "DefaultDependencyTracker.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

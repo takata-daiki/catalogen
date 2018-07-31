@@ -1,0 +1,373 @@
+{
+  "matchterm": "Ffn",
+  "previouspage": null,
+  "searchterm": "Ffn",
+  "query": "Ffn",
+  "language_filters": [
+    {
+      "count": 19,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 19,
+  "results": [
+    {
+      "repo": "http://umple.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 599,
+      "location": "/Umplificator/UmplifiedProjects/jhotdraw7/src/main/java/org/jhotdraw/gui/fontchooser",
+      "name": "umple",
+      "url": "https://searchcode.com/codesearch/view/2884188/",
+      "md5hash": "2e9ef27ccff497194c6034f5f6a0c8d9",
+      "lines": {
+        "515": "            FontCollectionNode fcn = (FontCollectionNode) root.getChildAt(i);",
+        "516": "            for (FontFamilyNode ffn : fcn.families()) {",
+        "517": "                otherFamilySet.remove(ffn);",
+        "518": "            }",
+        "520": "        ArrayList<FontFamilyNode> otherFamilies = new ArrayList<FontFamilyNode>();",
+        "521": "        for (FontFamilyNode ffn : otherFamilySet) {",
+        "522": "            otherFamilies.add(ffn.clone());",
+        "523": "        }"
+      },
+      "id": 2884188,
+      "filename": "DefaultFontChooserModel.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 676,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384484/",
+      "md5hash": "eb3ee5102b1d02992e415773f3944ccc",
+      "lines": {
+        "613": "      // Fetch all font names",
+        "22": "import org.apache.poi.hwpf.model.FFData;",
+        "23": "import org.apache.poi.hwpf.model.Ffn;",
+        "614": "      Ffn[] fontNames = _doc.getFontTable().getFontNames();",
+        "606": "   */",
+        "607": "  public Ffn getSymbolFont()"
+      },
+      "id": 97384484,
+      "filename": "CharacterRun.java"
+    },
+    {
+      "repo": "https://github.com/konir/RadioRec.git",
+      "language": "Java",
+      "linescount": 7459,
+      "location": "/src/com/rothconsulting/android/radiorec",
+      "name": "RadioRec",
+      "url": "https://searchcode.com/codesearch/view/114535375/",
+      "md5hash": "c58ecb79f5c62634bca7b27173b434fb",
+      "lines": {
+        "3520": "\t\tm.put(EMAIL, \"radio@ffn.de\");",
+        "3521": "\t\tm.put(SPRACHE, SPRACHE_DE);",
+        "3517": "\t\tm.put(STREAM, \"http://ads.radioffn.c.nmdn.net/ps-radioffn/livestream.mp3\");",
+        "281": "\tpublic static final String RADIO_ENERGY_BREMEN = \"Energy Bremen\";",
+        "3513": "\t\tm = new HashMap<String, Object>();",
+        "282": "\tpublic static final String RADIO_FFN_NIEDERSACHSEN = \"FFN Niedersachsen\";",
+        "3515": "\t\tm.put(ICON, R.drawable.radio_ffn_niedersachsen);",
+        "3516": "\t\tm.put(ICON_SMALL, R.drawable.radio_ffn_niedersachsen_small);",
+        "3514": "\t\tm.put(NAME, RADIO_FFN_NIEDERSACHSEN);",
+        "3518": "\t\tm.put(HOMEPAGE, \"http://www.ffn.de\");",
+        "3519": "\t\tm.put(WEBCAM, \"http://www.ffn.de/fileadmin/content/webcam/studio.jpg\");"
+      },
+      "id": 114535375,
+      "filename": "Stations.java"
+    },
+    {
+      "repo": "https://bitbucket.org/gustavoasoares/saferefactor.git",
+      "language": "Java",
+      "linescount": 576,
+      "location": "/test/subjects/JHD458target/src/org/jhotdraw/gui/fontchooser",
+      "name": "saferefactor",
+      "url": "https://searchcode.com/codesearch/view/136063764/",
+      "md5hash": "16ae12344d0388f9efed35ae9d719761",
+      "lines": {
+        "497": "            FontCollectionNode fcn = (FontCollectionNode) root.getChildAt(i);",
+        "498": "            for (FontFamilyNode ffn : fcn.families()) {",
+        "499": "                otherFamilySet.remove(ffn);",
+        "500": "            }",
+        "502": "        ArrayList<FontFamilyNode> otherFamilies = new ArrayList<FontFamilyNode>();",
+        "503": "        for (FontFamilyNode ffn : otherFamilySet) {",
+        "504": "            otherFamilies.add(ffn.clone());",
+        "505": "        }"
+      },
+      "id": 136063764,
+      "filename": "DefaultFontChooserModel.java"
+    },
+    {
+      "repo": "https://bitbucket.org/gustavoasoares/saferefactor.git",
+      "language": "Java",
+      "linescount": 575,
+      "location": "/test/subjects/JHD596source/src/org/jhotdraw/gui/fontchooser",
+      "name": "saferefactor",
+      "url": "https://searchcode.com/codesearch/view/136066884/",
+      "md5hash": "c4475a0afe38774a207148bdd4b31272",
+      "lines": {
+        "496": "            FontCollectionNode fcn = (FontCollectionNode) root.getChildAt(i);",
+        "497": "            for (FontFamilyNode ffn : fcn.families()) {",
+        "498": "                otherFamilySet.remove(ffn);",
+        "499": "            }",
+        "501": "        ArrayList<FontFamilyNode> otherFamilies = new ArrayList<FontFamilyNode>();",
+        "502": "        for (FontFamilyNode ffn : otherFamilySet) {",
+        "503": "            otherFamilies.add(ffn.clone());",
+        "504": "        }"
+      },
+      "id": 136066884,
+      "filename": "DefaultFontChooserModel.java"
+    },
+    {
+      "repo": "https://bitbucket.org/gustavoasoares/saferefactor.git",
+      "language": "Java",
+      "linescount": 575,
+      "location": "/test/subjects/JHD596target/src/org/jhotdraw/gui/fontchooser",
+      "name": "saferefactor",
+      "url": "https://searchcode.com/codesearch/view/136067860/",
+      "md5hash": "c4475a0afe38774a207148bdd4b31272",
+      "lines": {
+        "496": "            FontCollectionNode fcn = (FontCollectionNode) root.getChildAt(i);",
+        "497": "            for (FontFamilyNode ffn : fcn.families()) {",
+        "498": "                otherFamilySet.remove(ffn);",
+        "499": "            }",
+        "501": "        ArrayList<FontFamilyNode> otherFamilies = new ArrayList<FontFamilyNode>();",
+        "502": "        for (FontFamilyNode ffn : otherFamilySet) {",
+        "503": "            otherFamilies.add(ffn.clone());",
+        "504": "        }"
+      },
+      "id": 136067860,
+      "filename": "DefaultFontChooserModel.java"
+    },
+    {
+      "repo": "https://bitbucket.org/gustavoasoares/saferefactor.git",
+      "language": "Java",
+      "linescount": 576,
+      "location": "/test/subjects/JHD458source/src/org/jhotdraw/gui/fontchooser",
+      "name": "saferefactor",
+      "url": "https://searchcode.com/codesearch/view/136068721/",
+      "md5hash": "16ae12344d0388f9efed35ae9d719761",
+      "lines": {
+        "497": "            FontCollectionNode fcn = (FontCollectionNode) root.getChildAt(i);",
+        "498": "            for (FontFamilyNode ffn : fcn.families()) {",
+        "499": "                otherFamilySet.remove(ffn);",
+        "500": "            }",
+        "502": "        ArrayList<FontFamilyNode> otherFamilies = new ArrayList<FontFamilyNode>();",
+        "503": "        for (FontFamilyNode ffn : otherFamilySet) {",
+        "504": "            otherFamilies.add(ffn.clone());",
+        "505": "        }"
+      },
+      "id": 136068721,
+      "filename": "DefaultFontChooserModel.java"
+    },
+    {
+      "repo": "https://bitbucket.org/darklordpotter/dlp-library.git",
+      "language": "Java",
+      "linescount": 123,
+      "location": "/library-query/src/main/java/net/darklordpotter/ml/query/resources",
+      "name": "dlp-library",
+      "url": "https://searchcode.com/codesearch/view/49596336/",
+      "md5hash": "a3a4a1b1ba054656e991711eb4e1356d",
+      "lines": {
+        "120": "        new FFNResource().getStory(2567419l, 19l);",
+        "36": " */",
+        "37": "@Path(\"/ffn/{storyId}/{chapterId}\")",
+        "38": "@Produces(MediaType.APPLICATION_JSON)",
+        "39": "public class FFNResource {",
+        "40": "    private ExecutorService cacheLoader = Executors.newCachedThreadPool();",
+        "41": "    private Logger log = LoggerFactory.getLogger(FFNResource.class);",
+        "59": "                    } catch (SocketTimeoutException e) {",
+        "60": "                        log.error(\"Failed to connect to FFN \" + e.getMessage(), e);",
+        "119": "    public static void main(String[] args) {"
+      },
+      "id": 49596336,
+      "filename": "FFNResource.java"
+    },
+    {
+      "repo": "https://github.com/sanger-pathogens/Artemis.git",
+      "language": "Java",
+      "linescount": 360,
+      "location": "/uk/ac/sanger/artemis/io",
+      "name": "Artemis",
+      "url": "https://searchcode.com/codesearch/view/105729610/",
+      "md5hash": "e42c0d3e974feabb28b2ddc6e4930e15",
+      "lines": {
+        "158": "    ReferenceSequenceFileFactory.FASTA_EXTENSIONS.add(\".fas\");",
+        "159": "    ReferenceSequenceFileFactory.FASTA_EXTENSIONS.add(\".ffn\");"
+      },
+      "id": 105729610,
+      "filename": "IndexFastaStream.java"
+    },
+    {
+      "repo": "https://bitbucket.org/darklordpotter/dlp-library.git",
+      "language": "Java",
+      "linescount": 58,
+      "location": "/library-query/src/main/java/net/darklordpotter/ml/query",
+      "name": "dlp-library",
+      "url": "https://searchcode.com/codesearch/view/49596328/",
+      "md5hash": "82653fd9fd5c50d69f1c04b1148adba4",
+      "lines": {
+        "48": "        environment.addResource(new TagsResource(collection));",
+        "49": "        environment.addResource(new FFNResource());",
+        "43": "        environment.addFilter(CORSFilter.class, \"/*\");",
+        "44": "        environment.addFilter(new RateLimitingFilter(5, 5, TimeUnit.SECONDS), \"/ffn/*\");"
+      },
+      "id": 49596328,
+      "filename": "LibraryService.java"
+    },
+    {
+      "repo": "https://github.com/gdroc/Artemis.git",
+      "language": "Java",
+      "linescount": 290,
+      "location": "/uk/ac/sanger/artemis/io",
+      "name": "Artemis",
+      "url": "https://searchcode.com/codesearch/view/66767270/",
+      "md5hash": "0fc11b273c0a9572495a218b6718eb39",
+      "lines": {
+        "139": "    ReferenceSequenceFileFactory.FASTA_EXTENSIONS.add(\".fas\");",
+        "140": "    ReferenceSequenceFileFactory.FASTA_EXTENSIONS.add(\".ffn\");"
+      },
+      "id": 66767270,
+      "filename": "IndexFastaStream.java"
+    },
+    {
+      "repo": "git://github.com/gonzus/jxs.git",
+      "language": "Java",
+      "linescount": 181,
+      "location": "/src/main/java/io/crossroads/jna",
+      "name": "jxs",
+      "url": "https://searchcode.com/codesearch/view/15564396/",
+      "md5hash": "4173c78f986bf70e6999902043a5f5d8",
+      "lines": {
+        "38": "                         NativeLong size,",
+        "39": "                         XsFree ffn,"
+      },
+      "id": 15564396,
+      "filename": "XsLibrary.java"
+    },
+    {
+      "repo": "https://github.com/gerrits/NeuralNetwork.git",
+      "language": "Java",
+      "linescount": 28,
+      "location": "/src/neuralnetwork/ffn",
+      "name": "NeuralNetwork",
+      "url": "https://searchcode.com/codesearch/view/57893251/",
+      "md5hash": "4978bb8c499f9eb206151f6125bf6e13",
+      "lines": {
+        "1": "package neuralnetwork.ffn;",
+        "2": ""
+      },
+      "id": 57893251,
+      "filename": "Test.java"
+    },
+    {
+      "repo": "https://github.com/gerrits/NeuralNetwork.git",
+      "language": "Java",
+      "linescount": 35,
+      "location": "/src/neuralnetwork/ffn",
+      "name": "NeuralNetwork",
+      "url": "https://searchcode.com/codesearch/view/57893252/",
+      "md5hash": "78d74bb927a1181cc861dd43ae9e86ad",
+      "lines": {
+        "1": "package neuralnetwork.ffn;",
+        "2": ""
+      },
+      "id": 57893252,
+      "filename": "TeachingInput.java"
+    },
+    {
+      "repo": "https://github.com/gerrits/NeuralNetwork.git",
+      "language": "Java",
+      "linescount": 108,
+      "location": "/src/neuralnetwork/ffn",
+      "name": "NeuralNetwork",
+      "url": "https://searchcode.com/codesearch/view/57893253/",
+      "md5hash": "3bb053883d906d4a1b88c732b9b42a02",
+      "lines": {
+        "1": "package neuralnetwork.ffn;",
+        "2": ""
+      },
+      "id": 57893253,
+      "filename": "NeuronalNetwork.java"
+    },
+    {
+      "repo": "https://github.com/gerrits/NeuralNetwork.git",
+      "language": "Java",
+      "linescount": 57,
+      "location": "/src/neuralnetwork/ffn",
+      "name": "NeuralNetwork",
+      "url": "https://searchcode.com/codesearch/view/57893254/",
+      "md5hash": "1dd373579d56cfacd5ef7e4515dc7594",
+      "lines": {
+        "1": "package neuralnetwork.ffn;",
+        "2": ""
+      },
+      "id": 57893254,
+      "filename": "Neuron.java"
+    },
+    {
+      "repo": "https://github.com/gerrits/NeuralNetwork.git",
+      "language": "Java",
+      "linescount": 53,
+      "location": "/src/neuralnetwork/ffn",
+      "name": "NeuralNetwork",
+      "url": "https://searchcode.com/codesearch/view/57893255/",
+      "md5hash": "c852567d35fe9cb1d05fe10d67a6599a",
+      "lines": {
+        "1": "package neuralnetwork.ffn;",
+        "2": ""
+      },
+      "id": 57893255,
+      "filename": "Layer.java"
+    },
+    {
+      "repo": "https://github.com/gerrits/NeuralNetwork.git",
+      "language": "Java",
+      "linescount": 17,
+      "location": "/src/neuralnetwork/ffn",
+      "name": "NeuralNetwork",
+      "url": "https://searchcode.com/codesearch/view/57893256/",
+      "md5hash": "15885d63df2187bd9da1fdcffe9bd169",
+      "lines": {
+        "1": "package neuralnetwork.ffn;",
+        "2": ""
+      },
+      "id": 57893256,
+      "filename": "InputNeuron.java"
+    },
+    {
+      "repo": "https://github.com/gerrits/NeuralNetwork.git",
+      "language": "Java",
+      "linescount": 34,
+      "location": "/src/neuralnetwork/ffn",
+      "name": "NeuralNetwork",
+      "url": "https://searchcode.com/codesearch/view/57893257/",
+      "md5hash": "71277782ba9e50035265232700908ee8",
+      "lines": {
+        "1": "package neuralnetwork.ffn;",
+        "2": ""
+      },
+      "id": 57893257,
+      "filename": "Edge.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 12,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 6,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

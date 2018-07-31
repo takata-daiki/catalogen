@@ -1,0 +1,129 @@
+{
+  "matchterm": "NotesImpl",
+  "previouspage": null,
+  "searchterm": "NotesImpl",
+  "query": "NotesImpl",
+  "language_filters": [
+    {
+      "count": 5,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 5,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/eug48/xmind3-releases-mirror",
+      "language": "Java",
+      "linescount": 201,
+      "location": "/org.xmind.core/src/org/xmind/core/internal/dom",
+      "name": "xmind3-releases-mirror",
+      "url": "https://searchcode.com/codesearch/view/119532914/",
+      "md5hash": "2a5d55559d497fa64006659e99c41c97",
+      "lines": {
+        "33": " */",
+        "34": "public class NotesImpl extends Notes {",
+        "51": "            return true;",
+        "52": "        if (obj == null || !(obj instanceof NotesImpl))",
+        "53": "            return false;",
+        "54": "        NotesImpl that = (NotesImpl) obj;",
+        "42": "     */",
+        "43": "    public NotesImpl(Element topicElement, TopicImpl ownedTopic) {"
+      },
+      "id": 119532914,
+      "filename": "NotesImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 86,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384500/",
+      "md5hash": "044880cb9e98217750b5146a944f0b8e",
+      "lines": {
+        "34": "",
+        "35": "    public NotesImpl( NotesTables notesTables )",
+        "28": " */",
+        "29": "public class NotesImpl implements Notes"
+      },
+      "id": 97384500,
+      "filename": "NotesImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1043,
+      "location": "/src/org/apache/poi/hwpf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383956/",
+      "md5hash": "677c332698819342ff2ece2baf93a4ed",
+      "lines": {
+        "144": "  /** Holds the footnotes */",
+        "145": "  protected Notes _endnotes = new NotesImpl( _endnotesTables );",
+        "150": "  /** Holds the footnotes */",
+        "151": "  protected Notes _footnotes = new NotesImpl( _footnotesTables );",
+        "376": "    _endnotes = new NotesImpl( _endnotesTables );",
+        "377": "    _footnotesTables = new NotesTables( NoteType.FOOTNOTE, _tableStream, _fib );",
+        "378": "    _footnotes = new NotesImpl( _footnotesTables );",
+        "375": "    _endnotesTables = new NotesTables( NoteType.ENDNOTE, _tableStream, _fib );",
+        "60": "import org.apache.poi.hwpf.usermodel.Notes;",
+        "61": "import org.apache.poi.hwpf.usermodel.NotesImpl;"
+      },
+      "id": 97383956,
+      "filename": "HWPFDocument.java"
+    },
+    {
+      "repo": "https://bitbucket.org/eug48/xmind3-releases-mirror",
+      "language": "Java",
+      "linescount": 1207,
+      "location": "/org.xmind.core/src/org/xmind/core/internal/dom",
+      "name": "xmind3-releases-mirror",
+      "url": "https://searchcode.com/codesearch/view/119532910/",
+      "md5hash": "648cbbab9c839142cb23b7e0a000a9b9",
+      "lines": {
+        "992": "        activateHyperlinks(workbook);",
+        "993": "        ((NotesImpl) getNotes()).addNotify(workbook);",
+        "1018": "        ((NotesImpl) getNotes()).removeNotify(workbook);",
+        "1017": "        }",
+        "90": "",
+        "91": "    private NotesImpl notes;",
+        "493": "        if (notes == null) {",
+        "494": "            notes = new NotesImpl(implementation, this);"
+      },
+      "id": 119532910,
+      "filename": "TopicImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/eug48/xmind3-releases-mirror",
+      "language": "Java",
+      "linescount": 160,
+      "location": "/org.xmind.core/src/org/xmind/core/internal/dom",
+      "name": "xmind3-releases-mirror",
+      "url": "https://searchcode.com/codesearch/view/119532939/",
+      "md5hash": "937bfa62bc5c5a0e0ca3ef53f914a328",
+      "lines": {
+        "154": "        INotes parent = getParent();",
+        "155": "        if (parent instanceof NotesImpl)",
+        "156": "            return ((NotesImpl) parent).getRealizedWorkbook();",
+        "157": "        return null;"
+      },
+      "id": 119532939,
+      "filename": "HtmlNotesContentImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

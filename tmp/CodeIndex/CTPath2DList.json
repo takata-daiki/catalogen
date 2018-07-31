@@ -1,0 +1,176 @@
+{
+  "matchterm": "CTPath2DList",
+  "previouspage": null,
+  "searchterm": "CTPath2DList",
+  "query": "CTPath2DList",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 73,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403166/",
+      "md5hash": "9870793cb1b922d852d3aaad0eb7a102",
+      "lines": {
+        "16": "public interface CTPath2DList extends org.apache.xmlbeans.XmlObject",
+        "19": "        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CTPath2DList.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sE130CAA0A01A7CDE5A2B4FEB8B311707\").resolveHandle(\"ctpath2dlistb010type\");",
+        "18": "    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DList",
+        "15": " */"
+      },
+      "id": 97403166,
+      "filename": "CTPath2DList.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 88,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642156/",
+      "md5hash": "51843ba0d45949bbd614f7c629e67613",
+      "lines": {
+        "53": "})",
+        "54": "public class CTPath2DList {"
+      },
+      "id": 17642156,
+      "filename": "CTPath2DList.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 456,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403358/",
+      "md5hash": "c9f9cd270b7ad1153e7a2876fee46864",
+      "lines": {
+        "449": "            check_orphaned();",
+        "450": "            org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DList target = null;",
+        "451": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DList)get_store().add_element_user(PATHLST$10);",
+        "452": "            return target;",
+        "426": "     */",
+        "427": "    public void setPathLst(org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DList pathLst)",
+        "431": "            check_orphaned();",
+        "432": "            org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DList target = null;",
+        "433": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DList)get_store().find_element_user(PATHLST$10, 0);",
+        "434": "            if (target == null)",
+        "435": "            {",
+        "436": "                target = (org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DList)get_store().add_element_user(PATHLST$10);",
+        "413": "            check_orphaned();",
+        "414": "            org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DList target = null;",
+        "415": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DList)get_store().find_element_user(PATHLST$10, 0);"
+      },
+      "id": 97403358,
+      "filename": "CTCustomGeometry2DImpl.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 218,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17641974/",
+      "md5hash": "90434c4d5fe2d6ab3df94b058a2c4935",
+      "lines": {
+        "209": "     *     allowed object is",
+        "210": "     *     {@link CTPath2DList }",
+        "212": "     */",
+        "197": "     *     possible object is",
+        "198": "     *     {@link CTPath2DList }",
+        "71": "    protected CTPath2DList pathLst;",
+        "200": "     */",
+        "201": "    public CTPath2DList getPathLst() {",
+        "70": "    @XmlElement(required = true)",
+        "213": "    public void setPathLst(CTPath2DList value) {"
+      },
+      "id": 17641974,
+      "filename": "CTCustomGeometry2D.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 3480,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642161/",
+      "md5hash": "ecaf98912e449049698e790afd5f5c5a",
+      "lines": {
+        "977": "    /**",
+        "978": "     * Create an instance of {@link CTPath2DList }",
+        "980": "     */",
+        "981": "    public CTPath2DList createCTPath2DList() {",
+        "982": "        return new CTPath2DList();",
+        "983": "    }"
+      },
+      "id": 17642161,
+      "filename": "ObjectFactory.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 236,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402953/",
+      "md5hash": "6533ac906c734977a524cdc31dc680c9",
+      "lines": {
+        "148": "     */",
+        "149": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DList getPathLst();",
+        "153": "     */",
+        "154": "    void setPathLst(org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DList pathLst);",
+        "158": "     */",
+        "159": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DList addNewPathLst();"
+      },
+      "id": 97402953,
+      "filename": "CTCustomGeometry2D.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 181,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403353/",
+      "md5hash": "88a6f1a31e45b5dd5d1a6af8e4cc2c7f",
+      "lines": {
+        "33": "            public org.openxmlformats.schemas.drawingml.x2006.main.CTPath2D get(int i)",
+        "34": "                { return CTPath2DListImpl.this.getPathArray(i); }",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DList",
+        "37": "            {",
+        "38": "                org.openxmlformats.schemas.drawingml.x2006.main.CTPath2D old = CTPath2DListImpl.this.getPathArray(i);",
+        "39": "                CTPath2DListImpl.this.setPathArray(i, o);",
+        "40": "                return old;",
+        "43": "            public void add(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTPath2D o)",
+        "44": "                { CTPath2DListImpl.this.insertNewPath(i).set(o); }",
+        "13": " */",
+        "14": "public class CTPath2DListImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DList",
+        "47": "            {",
+        "48": "                org.openxmlformats.schemas.drawingml.x2006.main.CTPath2D old = CTPath2DListImpl.this.getPathArray(i);",
+        "49": "                CTPath2DListImpl.this.removePath(i);"
+      },
+      "id": 97403353,
+      "filename": "CTPath2DListImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

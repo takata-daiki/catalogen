@@ -1,0 +1,203 @@
+{
+  "matchterm": "EscherComplexProperty",
+  "previouspage": null,
+  "searchterm": "EscherComplexProperty",
+  "query": "EscherComplexProperty",
+  "language_filters": [
+    {
+      "count": 10,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 10,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 148,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383942/",
+      "md5hash": "cf7168ea245d7a6bf78920055c8d5004",
+      "lines": {
+        "32": "public class EscherComplexProperty extends EscherProperty {",
+        "99": "        }",
+        "100": "        if (!(o instanceof EscherComplexProperty)) {",
+        "103": "",
+        "104": "        EscherComplexProperty escherComplexProperty = (EscherComplexProperty) o;",
+        "105": "",
+        "106": "        if ( !Arrays.equals( _complexData, escherComplexProperty._complexData ) ) return false;",
+        "43": "     */",
+        "44": "    public EscherComplexProperty(short id, byte[] complexData) {",
+        "56": "     */",
+        "57": "    public EscherComplexProperty(short propertyNumber, boolean isBlipId, byte[] complexData) {",
+        "31": " */"
+      },
+      "id": 97383942,
+      "filename": "EscherComplexProperty.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 193,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642631/",
+      "md5hash": "34a395234f925a2156798281bf526c1f",
+      "lines": {
+        "129": "        if ( this == o ) return true;",
+        "130": "        if ( !( o instanceof EscherComplexProperty ) ) return false;",
+        "131": "",
+        "132": "        final EscherComplexProperty escherComplexProperty = (EscherComplexProperty) o;",
+        "69": "     */",
+        "70": "    public EscherComplexProperty( short id, byte[] complexData )",
+        "83": "     */",
+        "84": "    public EscherComplexProperty( short propertyNumber, boolean isBlipId, byte[] complexData )",
+        "56": " */",
+        "57": "public class EscherComplexProperty",
+        "134": "        if ( !Arrays.equals( complexData, escherComplexProperty.complexData ) ) return false;",
+        "133": ""
+      },
+      "id": 15642631,
+      "filename": "EscherComplexProperty.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 280,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394307/",
+      "md5hash": "c0426f09ab6f17114414ade32966e4ad",
+      "lines": {
+        "244": "            EscherComplexProperty prop = new EscherComplexProperty(EscherProperties.BLIP__BLIPFILENAME, false, data);",
+        "243": "            byte[] data = (name + '\\u0000').getBytes(\"UTF-16LE\");",
+        "220": "        EscherOptRecord opt = (EscherOptRecord)getEscherChild(_escherContainer, EscherOptRecord.RECORD_ID);",
+        "221": "        EscherComplexProperty prop = (EscherComplexProperty)getEscherProperty(opt, EscherProperties.BLIP__BLIPFILENAME);"
+      },
+      "id": 97394307,
+      "filename": "Picture.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 128,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642603/",
+      "md5hash": "f08eee159fce1bf0383031b466b1ae4f",
+      "lines": {
+        "96": "                        results.add( new EscherComplexProperty( propId, new byte[propData]) );",
+        "115": "                {",
+        "116": "                    byte[] complexData = ((EscherComplexProperty)p).getComplexData();",
+        "107": "            EscherProperty p = (EscherProperty) iterator.next();",
+        "108": "            if (p instanceof EscherComplexProperty)",
+        "95": "                    else"
+      },
+      "id": 15642603,
+      "filename": "EscherPropertyFactory.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 633,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384428/",
+      "md5hash": "abf85d22a465320cca19a26cbf1926ad",
+      "lines": {
+        "518": "                if(EscherProperties.GROUPSHAPE__DESCRIPTION == property.getPropertyNumber()){",
+        "29": "import org.apache.poi.ddf.EscherBlipRecord;",
+        "30": "import org.apache.poi.ddf.EscherComplexProperty;",
+        "519": "                   byte[] complexData = ((EscherComplexProperty)property).getComplexData();"
+      },
+      "id": 97384428,
+      "filename": "Picture.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 130,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383900/",
+      "md5hash": "a3e76bebe3b60c502d30a432aaef77c4",
+      "lines": {
+        "25": " * to a 32-bit value.  Properties that can't be stored in only 32-bits are",
+        "26": " * stored as EscherComplexProperty objects."
+      },
+      "id": 97383900,
+      "filename": "EscherSimpleProperty.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 209,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383921/",
+      "md5hash": "924578dc39db9d234c6541b8bc094618",
+      "lines": {
+        "28": " */",
+        "29": "public final class EscherArrayProperty extends EscherComplexProperty {"
+      },
+      "id": 97383921,
+      "filename": "EscherArrayProperty.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 155,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642357/",
+      "md5hash": "3fac04b2d420f2a566cce5b6a652e8c5",
+      "lines": {
+        "93": "        opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.BLIP__BLIPTODISPLAY, false, true, shape.getPictureIndex() ) );",
+        "94": "//        opt.addEscherProperty( new EscherComplexProperty( EscherProperties.BLIP__BLIPFILENAME, true, new byte[] { (byte)0x74, (byte)0x00, (byte)0x65, (byte)0x00, (byte)0x73, (byte)0x00, (byte)0x74, (byte)0x00, (byte)0x00, (byte)0x00 } ) );"
+      },
+      "id": 15642357,
+      "filename": "PictureShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 145,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642606/",
+      "md5hash": "3741ad99b8a70ce3b272875d5c4cad19",
+      "lines": {
+        "48": " * to a 32-bit value.  Properties that can't be stored in only 32-bits are",
+        "49": " * stored as EscherComplexProperty objects."
+      },
+      "id": 15642606,
+      "filename": "EscherSimpleProperty.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 240,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642612/",
+      "md5hash": "f8c81618562bf93820dd59efc9c9c4d5",
+      "lines": {
+        "52": "public class EscherArrayProperty",
+        "53": "        extends EscherComplexProperty"
+      },
+      "id": 15642612,
+      "filename": "EscherArrayProperty.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 10,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "matchterm": "StaxHelper",
+  "previouspage": null,
+  "searchterm": "StaxHelper",
+  "query": "StaxHelper",
+  "language_filters": [
+    {
+      "count": 10,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 10,
+  "results": [
+    {
+      "repo": "https://github.com/caveman-dick/sonar-plugins-dotnet.git",
+      "language": "Java",
+      "linescount": 184,
+      "location": "/sonar/sonar-csharp-gallio-plugin/src/main/java/org/sonar/plugins/csharp/gallio/helper",
+      "name": "sonar-plugins-dotnet",
+      "url": "https://searchcode.com/codesearch/view/100447223/",
+      "md5hash": "a323eb49a7f9a19ee70efb8f5b765533",
+      "lines": {
+        "36": " */",
+        "37": "public final class StaxHelper {",
+        "38": "",
+        "39": "  private StaxHelper() {",
+        "41": "",
+        "42": "  private static final Logger LOG = LoggerFactory.getLogger(StaxHelper.class);"
+      },
+      "id": 100447223,
+      "filename": "StaxHelper.java"
+    },
+    {
+      "repo": "https://github.com/caveman-dick/sonar-plugins-dotnet.git",
+      "language": "Java",
+      "linescount": 424,
+      "location": "/sonar/sonar-csharp-gallio-plugin/src/main/java/org/sonar/plugins/csharp/gallio/results/execution",
+      "name": "sonar-plugins-dotnet",
+      "url": "https://searchcode.com/codesearch/view/100447207/",
+      "md5hash": "f4f2c8cab04f5dd7b8c562c8dcd3bceb",
+      "lines": {
+        "21": "",
+        "22": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.advanceCursor;",
+        "23": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.descendantElements;",
+        "24": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.descendantSpecifiedElements;",
+        "25": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.findAttributeValue;",
+        "26": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.findElementName;",
+        "27": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.isAStartElement;",
+        "28": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.nextPosition;",
+        "29": ""
+      },
+      "id": 100447207,
+      "filename": "GallioResultParser.java"
+    },
+    {
+      "repo": "https://github.com/caveman-dick/sonar-plugins-dotnet.git",
+      "language": "Java",
+      "linescount": 110,
+      "location": "/sonar/sonar-csharp-gallio-plugin/src/main/java/org/sonar/plugins/csharp/gallio/results/coverage",
+      "name": "sonar-plugins-dotnet",
+      "url": "https://searchcode.com/codesearch/view/100447152/",
+      "md5hash": "593dff09c274aeda11568d84a067092f",
+      "lines": {
+        "21": "",
+        "22": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.advanceCursor;",
+        "23": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.descendantElements;",
+        "24": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.findAttributeIntValue;",
+        "25": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.findAttributeValue;",
+        "26": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.findElementName;",
+        "27": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.nextPosition;",
+        "28": ""
+      },
+      "id": 100447152,
+      "filename": "NCover3ParsingStrategy.java"
+    },
+    {
+      "repo": "https://github.com/caveman-dick/sonar-plugins-dotnet.git",
+      "language": "Java",
+      "linescount": 86,
+      "location": "/sonar/sonar-csharp-gallio-plugin/src/main/java/org/sonar/plugins/csharp/gallio/results/coverage",
+      "name": "sonar-plugins-dotnet",
+      "url": "https://searchcode.com/codesearch/view/100447165/",
+      "md5hash": "40ddaeef4fed6c6da3fe8ffdb60466f9",
+      "lines": {
+        "21": "",
+        "22": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.findAttributeIntValue;",
+        "23": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.findAttributeValue;",
+        "24": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.findElementName;",
+        "25": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.findNextElementName;",
+        "26": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.isAStartElement;",
+        "27": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.nextPosition;",
+        "28": ""
+      },
+      "id": 100447165,
+      "filename": "PartCoverParsingStrategy.java"
+    },
+    {
+      "repo": "https://github.com/caveman-dick/sonar-plugins-dotnet.git",
+      "language": "Java",
+      "linescount": 256,
+      "location": "/sonar/sonar-csharp-gallio-plugin/src/main/java/org/sonar/plugins/csharp/gallio/results/coverage",
+      "name": "sonar-plugins-dotnet",
+      "url": "https://searchcode.com/codesearch/view/100447148/",
+      "md5hash": "62c3fd4140defc858dd5a7676f46f517",
+      "lines": {
+        "21": "",
+        "22": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.descendantElements;",
+        "23": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.findAttributeIntValue;",
+        "24": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.findAttributeValue;",
+        "25": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.isAStartElement;",
+        "26": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.nextPosition;",
+        "27": ""
+      },
+      "id": 100447148,
+      "filename": "AbstractParsingStrategy.java"
+    },
+    {
+      "repo": "https://github.com/caveman-dick/sonar-plugins-dotnet.git",
+      "language": "Java",
+      "linescount": 212,
+      "location": "/sonar/sonar-csharp-gallio-plugin/src/main/java/org/sonar/plugins/csharp/gallio/results/coverage",
+      "name": "sonar-plugins-dotnet",
+      "url": "https://searchcode.com/codesearch/view/100447169/",
+      "md5hash": "11cbf52facb29c37113bb9af63c1694b",
+      "lines": {
+        "21": "",
+        "22": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.descendantElements;",
+        "23": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.findAttributeValue;",
+        "24": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.findElementName;",
+        "25": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.findXMLEvent;",
+        "26": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.nextPosition;",
+        "27": ""
+      },
+      "id": 100447169,
+      "filename": "CoverageResultParser.java"
+    },
+    {
+      "repo": "https://github.com/caveman-dick/sonar-plugins-dotnet.git",
+      "language": "Java",
+      "linescount": 151,
+      "location": "/sonar/sonar-csharp-gallio-plugin/src/main/java/org/sonar/plugins/csharp/gallio/results/coverage",
+      "name": "sonar-plugins-dotnet",
+      "url": "https://searchcode.com/codesearch/view/100447156/",
+      "md5hash": "ddcdd6ec6ec0929ca882ea6057f919a1",
+      "lines": {
+        "21": "",
+        "22": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.advanceCursor;",
+        "23": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.findAttributeValue;",
+        "24": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.findElementName;",
+        "25": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.isAStartElement;",
+        "26": ""
+      },
+      "id": 100447156,
+      "filename": "PartCover4ParsingStrategy.java"
+    },
+    {
+      "repo": "https://github.com/caveman-dick/sonar-plugins-dotnet.git",
+      "language": "Java",
+      "linescount": 64,
+      "location": "/sonar/sonar-csharp-gallio-plugin/src/main/java/org/sonar/plugins/csharp/gallio/results/coverage",
+      "name": "sonar-plugins-dotnet",
+      "url": "https://searchcode.com/codesearch/view/100447173/",
+      "md5hash": "c32eae8324cdf21a8bac455ec684fdce",
+      "lines": {
+        "24": "",
+        "21": "",
+        "22": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.findAttributeValue;",
+        "23": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.findElementName;"
+      },
+      "id": 100447173,
+      "filename": "PartCover23ParsingStrategy.java"
+    },
+    {
+      "repo": "https://github.com/caveman-dick/sonar-plugins-dotnet.git",
+      "language": "Java",
+      "linescount": 62,
+      "location": "/sonar/sonar-csharp-gallio-plugin/src/main/java/org/sonar/plugins/csharp/gallio/results/coverage",
+      "name": "sonar-plugins-dotnet",
+      "url": "https://searchcode.com/codesearch/view/100447177/",
+      "md5hash": "9e20a761f572e6c15ffdf5df9ee1244e",
+      "lines": {
+        "21": "",
+        "22": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.findAttributeValue;"
+      },
+      "id": 100447177,
+      "filename": "PartCover22ParsingStrategy.java"
+    },
+    {
+      "repo": "https://github.com/caveman-dick/sonar-plugins-dotnet.git",
+      "language": "Java",
+      "linescount": 63,
+      "location": "/sonar/sonar-csharp-gallio-plugin/src/main/java/org/sonar/plugins/csharp/gallio/results/coverage",
+      "name": "sonar-plugins-dotnet",
+      "url": "https://searchcode.com/codesearch/view/100447181/",
+      "md5hash": "a104f1363c8d1f9be7caa36bdcd9e797",
+      "lines": {
+        "21": "",
+        "22": "import static org.sonar.plugins.csharp.gallio.helper.StaxHelper.findAttributeValue;"
+      },
+      "id": 100447181,
+      "filename": "PartCover2ParsingStrategy.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 10,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

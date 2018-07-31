@@ -1,0 +1,116 @@
+{
+  "matchterm": "XSSFDataValidation",
+  "previouspage": null,
+  "searchterm": "XSSFDataValidation",
+  "query": "XSSFDataValidation",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "https://github.com/myGrid/simple-spreadsheet-extractor.git",
+      "language": "Java",
+      "linescount": 387,
+      "location": "/src/main/java/org/sysmodb/xml",
+      "name": "simple-spreadsheet-extractor",
+      "url": "https://searchcode.com/codesearch/view/110498474/",
+      "md5hash": "0fed632f7793d1d3fbb576bed59a234a",
+      "lines": {
+        "152": "\t\t\tfor (CellRangeAddress address : validation.getRegions()",
+        "147": "",
+        "148": "\tprivate void writeXSSFDataValidations(XMLStreamWriter xmlWriter,",
+        "149": "\t\t\tXSSFSheet sheet) throws XMLStreamException {",
+        "150": "\t\tList<XSSFDataValidation> validationData = sheet.getDataValidations();",
+        "105": "\t\t} else {",
+        "24": "import org.apache.poi.ss.util.CellReference;",
+        "25": "import org.apache.poi.xssf.usermodel.XSSFDataValidation;",
+        "106": "\t\t\twriteXSSFDataValidations(xmlWriter, (XSSFSheet) sheet);",
+        "151": "\t\tfor (XSSFDataValidation validation : validationData) {"
+      },
+      "id": 110498474,
+      "filename": "XMLGeneration.java"
+    },
+    {
+      "repo": "https://github.com/semantalytics/RightField.git",
+      "language": "Java",
+      "linescount": 87,
+      "location": "/src/test/java/uk/ac/manchester/cs/owl/semspreadsheets/model/xssf/impl",
+      "name": "RightField",
+      "url": "https://searchcode.com/codesearch/view/72853788/",
+      "md5hash": "17bc9ba3e53af1b2b9a649879a6b3202",
+      "lines": {
+        "45": "\t\tList<XSSFDataValidation> dataValidations = sheet.getDataValidations();\t//<-- works",
+        "11": "import org.apache.poi.ss.util.CellRangeAddressList;",
+        "12": "import org.apache.poi.xssf.usermodel.XSSFDataValidation;",
+        "27": "\t\tSheetXSSFImpl sheet = (SheetXSSFImpl)getTestSheet();",
+        "28": "\t\tList<XSSFDataValidation> validationData = sheet.getValidationData();",
+        "29": "\t\tassertEquals(1,validationData.size());",
+        "30": "\t\tXSSFDataValidation val = validationData.get(0);",
+        "44": "\t\tXSSFSheet sheet = wb.createSheet();"
+      },
+      "id": 72853788,
+      "filename": "SheetXSSFImplTest.java"
+    },
+    {
+      "repo": "https://github.com/semantalytics/RightField.git",
+      "language": "Java",
+      "linescount": 260,
+      "location": "/src/main/java/uk/ac/manchester/cs/owl/semspreadsheets/model/xssf/impl",
+      "name": "RightField",
+      "url": "https://searchcode.com/codesearch/view/72854574/",
+      "md5hash": "89d090836d344e0f32e8aeef1b00d9eb",
+      "lines": {
+        "240": "    protected List<XSSFDataValidation> getValidationData() {    \t    \t    \t",
+        "14": "import org.apache.poi.xssf.usermodel.XSSFCell;",
+        "15": "import org.apache.poi.xssf.usermodel.XSSFDataValidation;",
+        "221": "        List<Validation> validationList = new ArrayList<Validation>();",
+        "222": "        for (XSSFDataValidation validation : getValidationData()) {",
+        "239": "    "
+      },
+      "id": 72854574,
+      "filename": "SheetXSSFImpl.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 5111,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970697/",
+      "md5hash": "f6740268ba4be4778508748ca1c3becc",
+      "lines": {
+        "4678": "\t\t\tfinal DataValidationHelper helper = range.getSheet().getDataValidationHelper();",
+        "115": "import org.zkoss.poi.xssf.usermodel.XSSFDataFormat;",
+        "116": "import org.zkoss.poi.xssf.usermodel.XSSFDataValidation;",
+        "117": "import org.zkoss.poi.xssf.usermodel.XSSFDataValidationConstraint;",
+        "118": "import org.zkoss.poi.xssf.usermodel.XSSFEvaluationWorkbook;",
+        "1607": "\t\t\treturn ((XSSFDataValidation) dataValidation).getValidationConstraint();",
+        "4692": "\t\t\tCellRangeAddress refCRA = new CellRangeAddress(ref.getRow(),ref.getLastRow(),ref.getColumn(),ref.getLastColumn());",
+        "4679": "\t\t\tDataValidationConstraint constraint = new XSSFDataValidationConstraint(list);",
+        "1606": "\t\t} else {",
+        "4693": "\t\t\tDataValidationConstraint constraint = new XSSFDataValidationConstraint(ValidationType.LIST,convertToAbsoluteString(refCRA));"
+      },
+      "id": 3970697,
+      "filename": "BookHelper.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

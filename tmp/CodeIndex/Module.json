@@ -1,0 +1,549 @@
+{
+  "matchterm": "Module",
+  "previouspage": null,
+  "searchterm": "Module",
+  "query": "Module",
+  "language_filters": [
+    {
+      "count": 103416,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 103416,
+  "results": [
+    {
+      "repo": "http://j-sim.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 219,
+      "location": "/stable/src/drcl/net",
+      "name": "j-sim",
+      "url": "https://searchcode.com/codesearch/view/13451219/",
+      "md5hash": "fba7127c16872a3026e76a7c2ccec74b",
+      "lines": {
+        "1": "// @(#)Module.java   1/2004",
+        "2": "// Copyright (c) 1998-2004, Distributed Real-time Computing Lab (DRCL) ",
+        "203": "  ",
+        "33": "/**",
+        "40": "<p>A module is also equipped with a timer port (<code>.timer@</code>) and defines",
+        "204": "  /** Removes the equipped down port (<code>down@</code>), if it is not used by this module.",
+        "39": "",
+        "76": "",
+        "34": "A module is a component which implements a protocol.  The ports of a module are ",
+        "77": "  public Module()",
+        "79": "  ",
+        "80": "  public Module(String id_)",
+        "209": "  /** Removes the equipped up port (<code>up@</code>), if it is not used by this module.",
+        "213": "",
+        "214": "  /** Removes the equipped timer port (<code>.timer@</code>), if it is not used by this module.",
+        "208": ""
+      },
+      "id": 13451219,
+      "filename": "Module.java"
+    },
+    {
+      "repo": "http://verilogide2.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 61,
+      "location": "/src/engine",
+      "name": "verilogide2",
+      "url": "https://searchcode.com/codesearch/view/12093028/",
+      "md5hash": "b800b44581e8b4111ef2a41e8f2ae0dd",
+      "lines": {
+        "1": "/*",
+        "2": " * Module.java",
+        "35": "  ",
+        "36": "  Module (DefaultNameSpaceDescription desc, NameSpace parent,",
+        "37": "          ModuleInstanceDescription id,",
+        "38": "          int index,",
+        "16": "/**",
+        "17": " * A module instance. It acts much like some lnked .obj file into an executable",
+        "19": " */",
+        "20": "class Module extends NameSpace {",
+        "21": "",
+        "22": "  ModuleInstanceDescription id;",
+        "25": "",
+        "26": "  Module (DefaultNameSpaceDescription desc, NameSpace parent,",
+        "27": "          ModuleInstanceDescription id,"
+      },
+      "id": 12093028,
+      "filename": "Module.java"
+    },
+    {
+      "repo": "https://github.com/applegrew/lansim.git",
+      "language": "Java",
+      "linescount": 77,
+      "location": "/src/module",
+      "name": "lansim",
+      "url": "https://searchcode.com/codesearch/view/68143937/",
+      "md5hash": "44f9b259e43e143065442982dcc8a4e7",
+      "lines": {
+        "1": "/*",
+        "34": "         * ",
+        "35": "         * @return The error code if any. e.g. ERROR_ALREADY_MAX_PORTS is returned if no more ports of type wireType can be handeled by this module.",
+        "39": "    /**",
+        "40": "         * If the implementing class doesn't want to extend or create an object of ModuleUI then return null.",
+        "76": "    public int getNoOfPorts();// return the no of ports in the module",
+        "43": "         */",
+        "44": "    public ModuleUI getModuleUI();",
+        "2": " * Module.java",
+        "46": "    public void setModuleUI(ModuleUI m);",
+        "45": "",
+        "48": "    /**",
+        "49": "         * Returns the name of the implementing module. This name is displayed by the UI.",
+        "18": " */",
+        "19": "package module;",
+        "75": ""
+      },
+      "id": 68143937,
+      "filename": "Module.java"
+    },
+    {
+      "repo": "https://jedit.svn.sourceforge.net/svnroot/jedit",
+      "language": "Java",
+      "linescount": 35,
+      "location": "/plugins/RubyPlugin/tags/release-0_9_1/src/org/jedit/ruby/ast",
+      "name": "jedit",
+      "url": "https://searchcode.com/codesearch/view/1389402/",
+      "md5hash": "55a23129be94951269ab351f72a0cda4",
+      "lines": {
+        "32": "        visitor.handleModule(this);",
+        "1": "/*",
+        "2": " * Module.java - ",
+        "24": " */",
+        "25": "public final class Module extends ParentMember {",
+        "26": "",
+        "27": "    public Module(String name) {",
+        "31": "    public final void accept(MemberVisitor visitor) {"
+      },
+      "id": 1389402,
+      "filename": "Module.java"
+    },
+    {
+      "repo": "http://soar.googlecode.com/svn/trunk/SoarSuite/",
+      "language": "Java",
+      "linescount": 80,
+      "location": "/Java/Debugger/src/main/java/edu/umich/soar/debugger/doc",
+      "name": "soar",
+      "url": "https://searchcode.com/codesearch/view/7725207/",
+      "md5hash": "984c3144adf47dc04da46927784d3bdc",
+      "lines": {
+        "19": " * Instances of this class represent modules (types of windows) that can be",
+        "2": " *",
+        "3": " * Module.java",
+        "36": "",
+        "37": "    public Module(String name, String description,",
+        "25": " ********************************************************************************************/",
+        "26": "public class Module",
+        "18": " * ",
+        "14": "import edu.umich.soar.debugger.general.Debug;",
+        "15": "import edu.umich.soar.debugger.modules.AbstractView;"
+      },
+      "id": 7725207,
+      "filename": "Module.java"
+    },
+    {
+      "repo": "git://github.com/JetBrains/intellij-community.git",
+      "language": "Java",
+      "linescount": 3,
+      "location": "/plugins/InspectionGadgets/test/com/siyeh/igtest/style/unnecessary_semicolon",
+      "name": "intellij-community",
+      "url": "https://searchcode.com/codesearch/view/116134131/",
+      "md5hash": "0e6e4ef1fbb7ac70cfc980fb7663377d",
+      "lines": {
+        "1": "module M {",
+        "2": "  <warning descr=\"Unnecessary semicolon ';'\">;</warning>"
+      },
+      "id": 116134131,
+      "filename": "module-info.java"
+    },
+    {
+      "repo": "https://bitbucket.org/evan13579b/soar-ziggurat.git",
+      "language": "Java",
+      "linescount": 80,
+      "location": "/Soar-Suite/Java/Debugger/src/edu/umich/soar/debugger/doc",
+      "name": "soar-ziggurat",
+      "url": "https://searchcode.com/codesearch/view/44910306/",
+      "md5hash": "984c3144adf47dc04da46927784d3bdc",
+      "lines": {
+        "19": " * Instances of this class represent modules (types of windows) that can be",
+        "2": " *",
+        "3": " * Module.java",
+        "36": "",
+        "37": "    public Module(String name, String description,",
+        "25": " ********************************************************************************************/",
+        "26": "public class Module",
+        "18": " * ",
+        "14": "import edu.umich.soar.debugger.general.Debug;",
+        "15": "import edu.umich.soar.debugger.modules.AbstractView;"
+      },
+      "id": 44910306,
+      "filename": "Module.java"
+    },
+    {
+      "repo": "https://github.com/scootermorris/cytoscape-api.git",
+      "language": "Java",
+      "linescount": 7,
+      "location": "/viewmodel-api/src/main/java/org/cytoscape/view/model",
+      "name": "cytoscape-api",
+      "url": "https://searchcode.com/codesearch/view/71900088/",
+      "md5hash": "09434a9cb2d620b1f36604dba04cc61b",
+      "lines": {
+        "1": "/**",
+        "2": " * Module for View Models and Visual Properties."
+      },
+      "id": 71900088,
+      "filename": "package-info.java"
+    },
+    {
+      "repo": "http://android-starcraft.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 388,
+      "location": "/android/src/hotheart/starcraft/map",
+      "name": "android-starcraft",
+      "url": "https://searchcode.com/codesearch/view/14097907/",
+      "md5hash": "acb71cd20b57d490a91d1bcee3657ea9",
+      "lines": {
+        "1": "/*",
+        "2": " * Module for loading and drawing map tiles"
+      },
+      "id": 14097907,
+      "filename": "TileLib.java"
+    },
+    {
+      "repo": "https://bitbucket.org/bpw/oshajava",
+      "language": "Java",
+      "linescount": 4,
+      "location": "/test/test/run/foo",
+      "name": "oshajava",
+      "url": "https://searchcode.com/codesearch/view/57666566/",
+      "md5hash": "54188551f261742e67ce62552bbab2e4",
+      "lines": {
+        "1": "@Module(\"test.run.foo.FooMod\")",
+        "2": "package test.run.foo;"
+      },
+      "id": 57666566,
+      "filename": "package-info.java"
+    },
+    {
+      "repo": "https://bitbucket.org/agillis/jbogglesolver",
+      "language": "Java",
+      "linescount": 356,
+      "location": "",
+      "name": "jbogglesolver",
+      "url": "https://searchcode.com/codesearch/view/133500562/",
+      "md5hash": "08dead3a5b063cc6d6f1b04c3534a4a4",
+      "lines": {
+        "1": "/**",
+        "2": " * Module to generate solutions for Boggle grids."
+      },
+      "id": 133500562,
+      "filename": "BoggleSolver.java"
+    },
+    {
+      "repo": "https://github.com/laurachan/Tatool-for-HitC.git",
+      "language": "Java",
+      "linescount": 125,
+      "location": "/tatool-api/src/main/java/ch/tatool/data",
+      "name": "Tatool-for-HitC",
+      "url": "https://searchcode.com/codesearch/view/73569719/",
+      "md5hash": "3202ec18102eb09d8452e38747c7df97",
+      "lines": {
+        "32": " */",
+        "33": "public interface Module extends DataContainer {",
+        "34": "    ",
+        "35": "\t/** Property key of the module name property. */",
+        "36": "    public String PROPERTY_MODULE_NAME = \"module.name\";",
+        "37": "    /** Property key of the module description property. */",
+        "38": "\tpublic String PROPERTY_MODULE_DESCRIPTION = \"module.description\";",
+        "39": "\t/** Property key of the module author property. */",
+        "40": "\tpublic String PROPERTY_MODULE_AUTHOR = \"module.author\";",
+        "23": "import ch.tatool.export.DataExporter;",
+        "24": "import ch.tatool.module.ExecutorInitializer;",
+        "25": "import ch.tatool.module.ModuleScheduler;",
+        "26": "",
+        "28": "/**",
+        "29": " * Interface for a Module."
+      },
+      "id": 73569719,
+      "filename": "Module.java"
+    },
+    {
+      "repo": "https://github.com/dianzifun/ExtrabiomesXL.git",
+      "language": "Java",
+      "linescount": 74,
+      "location": "/extrabiomes/src/extrabiomes",
+      "name": "ExtrabiomesXL",
+      "url": "https://searchcode.com/codesearch/view/71629558/",
+      "md5hash": "c79fa9530f7c8c47874089538ade7789",
+      "lines": {
+        "32": "        for (final Module module : Module.values()) {",
+        "33": "",
+        "14": "import extrabiomes.helpers.LogHelper;",
+        "15": "import extrabiomes.lib.ModuleControlSettings;",
+        "16": "import extrabiomes.module.amica.Amica;",
+        "17": "import extrabiomes.module.cautia.Cautia;",
+        "18": "import extrabiomes.module.fabrica.Fabrica;",
+        "19": "",
+        "20": "enum Module {",
+        "22": "",
+        "23": "    private static final String       MODULE_STATUS_DISABLED = \"module.status.disabled\";",
+        "24": "    private static final String       MODULE_STATUS_ENABLED  = \"module.status.enabled\";",
+        "25": "    private static Optional<EventBus> eventBus               = Optional.of(new EventBus());",
+        "30": "",
+        "31": "    static void registerModules() throws InstantiationException, IllegalAccessException {"
+      },
+      "id": 71629558,
+      "filename": "Module.java"
+    },
+    {
+      "repo": "https://github.com/cortextual/jackson-databind.git",
+      "language": "Java",
+      "linescount": 275,
+      "location": "/src/main/java/com/fasterxml/jackson/databind",
+      "name": "jackson-databind",
+      "url": "https://searchcode.com/codesearch/view/74557913/",
+      "md5hash": "08208002d59f9cc7b4b991a251d8897d",
+      "lines": {
+        "32": "     * module that provides them.",
+        "33": "     */",
+        "34": "    public abstract String getModuleName();",
+        "36": "    /**",
+        "37": "     * Method that returns version of this module. Can be used by Jackson for",
+        "51": "     * It is called to let module register functionality it provides,",
+        "49": "    /**",
+        "50": "     * Method called by {@link ObjectMapper} when module is registered.",
+        "19": " */",
+        "20": "public abstract class Module",
+        "53": "     */",
+        "54": "    public abstract void setupModule(SetupContext context);",
+        "52": "     * using callback methods passed-in context object exposes.",
+        "29": "    /**",
+        "30": "     * Method that returns identifier for module; this can be used by Jackson",
+        "31": "     * for informational purposes, as well as in associating extensions with"
+      },
+      "id": 74557913,
+      "filename": "Module.java"
+    },
+    {
+      "repo": "https://bitbucket.org/jhove2/main/",
+      "language": "Java",
+      "linescount": 236,
+      "location": "/src/main/java/org/jhove2/module",
+      "name": "main",
+      "url": "https://searchcode.com/codesearch/view/2535758/",
+      "md5hash": "b01592081ec5dd4f8b25c27234cbc847",
+      "lines": {
+        "64": "           * Module reports generic information and should only be called once.",
+        "68": "           * Module reports information specific to a source unit and should be called every time a",
+        "67": "          /**",
+        "36": "",
+        "37": "package org.jhove2.module;",
+        "47": "import org.jhove2.core.source.Source;",
+        "48": "import org.jhove2.persist.ModuleAccessor;",
+        "50": "/**",
+        "51": " * Interface for JHOVE2 modules. A module is an object that performs some process and reports",
+        "52": " * results via {@linkplain Reportable reportable properties}.  Results include elapsed processing",
+        "53": " * time. The module may perform the process directly or be a thin wrapper around a third-party",
+        "57": " */",
+        "58": "public interface Module",
+        "60": "{",
+        "61": "\t/** Module scope */",
+        "63": "          /**"
+      },
+      "id": 2535758,
+      "filename": "Module.java"
+    },
+    {
+      "repo": "git://github.com/aptana/Pydev.git",
+      "language": "Java",
+      "linescount": 629,
+      "location": "/plugins/org.python.pydev.jython/src_jython/org/python/compiler",
+      "name": "Pydev",
+      "url": "https://searchcode.com/codesearch/view/10058124/",
+      "md5hash": "21121be5f2999f8819a29b971e62d059",
+      "lines": {
+        "27": "        c.invokestatic(mref_newInteger);",
+        "147": "    public void put(Code c) throws IOException {",
+        "55": "        module.classfile.addField(name, $pyFloat, access);",
+        "151": "        c.invokestatic(mref_newString);",
+        "143": "    public void get(Code c) throws IOException {",
+        "144": "        c.getstatic(module.classfile.name, name, $pyUnicode);",
+        "152": "        c.putstatic(module.classfile.name, name, $pyUnicode);",
+        "50": "    public void get(Code c) throws IOException {",
+        "51": "        c.getstatic(module.classfile.name, name, $pyFloat);",
+        "148": "        module.classfile.addField(name, $pyUnicode, access);",
+        "54": "    public void put(Code c) throws IOException {",
+        "23": "    public void put(Code c) throws IOException {",
+        "24": "        module.classfile.addField(name, $pyInteger, access);",
+        "58": "        c.invokestatic(mref_newFloat);",
+        "59": "        c.putstatic(module.classfile.name, name, $pyFloat);",
+        "28": "        c.putstatic(module.classfile.name, name, $pyInteger);"
+      },
+      "id": 10058124,
+      "filename": "Module.java"
+    },
+    {
+      "repo": "git://github.com/levans/Open-Quark.git",
+      "language": "Java",
+      "linescount": 585,
+      "location": "/src/CAL_Platform/src/org/openquark/cal/machine",
+      "name": "Open-Quark",
+      "url": "https://searchcode.com/codesearch/view/17651068/",
+      "md5hash": "39ed5d4e6762e851646ddd59f263bd9f",
+      "lines": {
+        "64": " * <P>",
+        "33": "/*",
+        "34": " * Module.java",
+        "67": " * Modules contain the executable program elements and have a name.",
+        "68": " * Creation date: (3/6/00 9:48:37 AM)",
+        "65": " * Module collects together machine specific information about the contents of ",
+        "66": " * a module and associates it with the MoudleTypeInfo for that module.",
+        "49": "import org.openquark.cal.compiler.CompilerMessageLogger;",
+        "50": "import org.openquark.cal.compiler.ModuleName;",
+        "51": "import org.openquark.cal.compiler.ModuleTypeInfo;",
+        "52": "import org.openquark.cal.compiler.QualifiedName;",
+        "53": "import org.openquark.cal.internal.machine.MachineFunctionImpl;",
+        "54": "import org.openquark.cal.internal.machine.lecc.LECCModule;",
+        "55": "import org.openquark.cal.internal.serialization.ModuleSerializationTags;",
+        "56": "import org.openquark.cal.internal.serialization.RecordInputStream;"
+      },
+      "id": 17651068,
+      "filename": "Module.java"
+    },
+    {
+      "repo": "https://github.com/msteptoe/FURI_Code.git",
+      "language": "Java",
+      "linescount": 139,
+      "location": "/IJ_Mobile/src/imagej/module",
+      "name": "FURI_Code",
+      "url": "https://searchcode.com/codesearch/view/71581644/",
+      "md5hash": "7bae97bf2fe5f1e9c85eef502f1eb2b5",
+      "lines": {
+        "35": "",
+        "36": "package imagej.module;",
+        "40": "/**",
+        "41": " * A module is an encapsulated piece of functionality with inputs and outputs.",
+        "42": " * <p>",
+        "43": " * There are several types of modules, including plugins and scripts, as well as",
+        "44": " * workflows, which are directed acyclic graphs consisting of modules whose",
+        "45": " * inputs and outputs are connected.",
+        "47": " * <p>",
+        "48": " * The {@code Module} interface represents a specific instance of a module,",
+        "49": " * while the corresponding {@link ModuleInfo} represents metadata about that",
+        "50": " * module, particularly its input and output names and types.",
+        "51": " * </p>",
+        "55": " */",
+        "56": "public interface Module extends Runnable {"
+      },
+      "id": 71581644,
+      "filename": "Module.java"
+    },
+    {
+      "repo": "https://github.com/nagaramesh/apb.git",
+      "language": "Java",
+      "linescount": 266,
+      "location": "/modules/apb-base/src/apb/metadata",
+      "name": "apb",
+      "url": "https://searchcode.com/codesearch/view/73551519/",
+      "md5hash": "155ad9d3e4a120aea6e17247c3538c0f",
+      "lines": {
+        "33": " *         +--- project-definitions--+",
+        "34": " *                                   +-- Module1.java",
+        "35": " *                                   +-- Module2.java",
+        "36": " *                                   .",
+        "37": " *                                   .",
+        "38": " *                                   +-- ModuleN.java",
+        "39": " *",
+        "40": " *        +--- module1/",
+        "42": " *                    .",
+        "43": " *        +--- module2/",
+        "20": "",
+        "21": "import apb.ModuleHelper;",
+        "26": "/**",
+        "27": " * This class defines a Module for the building system",
+        "28": " * Every Module definition must inherit (directly or indirectly) from this class",
+        "29": " * This class have handy defaults for several attributes that assume the following layout:"
+      },
+      "id": 73551519,
+      "filename": "Module.java"
+    },
+    {
+      "repo": "https://github.com/aloubyansky/jboss-modules.git",
+      "language": "Java",
+      "linescount": 912,
+      "location": "/src/main/java/org/jboss/modules",
+      "name": "jboss-modules",
+      "url": "https://searchcode.com/codesearch/view/109878135/",
+      "md5hash": "b52c0da6d7873ba951cce73bdc9ca90d",
+      "lines": {
+        "97": "    /**",
+        "98": "     * The system-wide module logger, which may be changed via {@link #setModuleLogger(ModuleLogger)}.",
+        "99": "     */",
+        "68": "",
+        "22": "",
+        "138": "",
+        "55": "public final class Module {",
+        "45": "/**",
+        "46": "* A module is a unit of classes and other resources, along with the specification of what is imported and exported",
+        "47": "* by this module from and to other modules.  Modules are created by {@link ModuleLoader}s which build modules from",
+        "48": "* various configuration information and resource roots.",
+        "139": "    private static final AtomicReferenceFieldUpdater<Module, Paths<LocalLoader, Dependency>> pathsUpdater",
+        "54": "*/",
+        "23": "package org.jboss.modules;",
+        "69": "        final String pkgsString = AccessController.doPrivileged(new PropertyReadAction(\"jboss.modules.system.pkgs\"));"
+      },
+      "id": 109878135,
+      "filename": "Module.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 60783,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 33865,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 7616,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 466,
+      "source": "Google Android",
+      "id": 12
+    },
+    {
+      "count": 411,
+      "source": "GitLab",
+      "id": 13
+    },
+    {
+      "count": 164,
+      "source": "Sourceforge",
+      "id": 4
+    },
+    {
+      "count": 69,
+      "source": "CodePlex",
+      "id": 5
+    },
+    {
+      "count": 41,
+      "source": "Unknown",
+      "id": 0
+    },
+    {
+      "count": 1,
+      "source": "Gitorious",
+      "id": 10
+    }
+  ]
+}

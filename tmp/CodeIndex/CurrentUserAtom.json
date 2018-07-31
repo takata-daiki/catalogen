@@ -1,0 +1,48 @@
+{
+  "matchterm": "CurrentUserAtom",
+  "previouspage": null,
+  "searchterm": "CurrentUserAtom",
+  "query": "CurrentUserAtom",
+  "language_filters": [
+    {
+      "count": 1,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 1,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 688,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394255/",
+      "md5hash": "40d5716cbdc5b9b544fff845bb8e0c6f",
+      "lines": {
+        "320": "\t\ttry {",
+        "321": "\t\t\tcurrentUser = new CurrentUserAtom(directory);",
+        "323": "\t\t\tlogger.log(POILogger.ERROR, \"Error finding Current User Atom:\\n\" + ie);",
+        "324": "\t\t\tcurrentUser = new CurrentUserAtom();",
+        "37": "import org.apache.poi.hslf.exceptions.HSLFException;",
+        "38": "import org.apache.poi.hslf.record.CurrentUserAtom;",
+        "649": "\t */",
+        "650": "\tpublic CurrentUserAtom getCurrentUserAtom() { return currentUser; }",
+        "77": "\t// Holds metadata on where things are in our document",
+        "78": "\tprivate CurrentUserAtom currentUser;"
+      },
+      "id": 97394255,
+      "filename": "HSLFSlideShow.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

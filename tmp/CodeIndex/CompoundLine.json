@@ -1,0 +1,51 @@
+{
+  "matchterm": "CompoundLine",
+  "previouspage": null,
+  "searchterm": "CompoundLine",
+  "query": "CompoundLine",
+  "language_filters": [
+    {
+      "count": 1,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 1,
+  "results": [
+    {
+      "repo": "https://github.com/florinleu/Eclipse.git",
+      "language": "Java",
+      "linescount": 182,
+      "location": "/com.mobilesorcery.sdk.core/src/com/mobilesorcery/sdk/internal/dependencies",
+      "name": "Eclipse",
+      "url": "https://searchcode.com/codesearch/view/69862090/",
+      "md5hash": "84c73c8231b9462b9e4c1edf8e2b71a6",
+      "lines": {
+        "65": "\t\t\t\tinput));",
+        "66": "\t\tStringBuffer compoundLine = new StringBuffer();",
+        "71": "\t\t\tif (continuationIx != -1 && endsWithSlash) {",
+        "72": "\t\t\t\tcompoundLine.append(line.substring(0, continuationIx));",
+        "73": "\t\t\t} else {",
+        "74": "\t\t\t\tcompoundLine.append(line);",
+        "75": "\t\t\t\tparseLine(compoundLine);",
+        "76": "\t\t\t\tcompoundLine = new StringBuffer();",
+        "77": "\t\t\t}",
+        "80": "\t\t// Just in case; should never happen, though.",
+        "81": "\t\tif (compoundLine.length() > 0) {",
+        "82": "\t\t\tparseLine(compoundLine);",
+        "83": "\t\t}"
+      },
+      "id": 69862090,
+      "filename": "GCCDependencyFileParser.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

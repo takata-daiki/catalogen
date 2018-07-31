@@ -1,0 +1,44 @@
+{
+  "matchterm": "PersistRecord",
+  "previouspage": null,
+  "searchterm": "PersistRecord",
+  "query": "PersistRecord",
+  "language_filters": [
+    {
+      "count": 1,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 1,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 688,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394255/",
+      "md5hash": "40d5716cbdc5b9b544fff845bb8e0c6f",
+      "lines": {
+        "305": "            rec[i] = Record.buildRecordAtOffset(docstream, offset.intValue());",
+        "306": "            if(rec[i] instanceof PersistRecord) {",
+        "307": "                PersistRecord psr = (PersistRecord)rec[i];",
+        "308": "                Integer id = offset2id.get(offset);",
+        "40": "import org.apache.poi.hslf.record.PersistPtrHolder;",
+        "41": "import org.apache.poi.hslf.record.PersistRecord;"
+      },
+      "id": 97394255,
+      "filename": "HSLFSlideShow.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

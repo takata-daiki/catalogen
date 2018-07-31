@@ -1,0 +1,68 @@
+{
+  "matchterm": "XSSFRelation",
+  "previouspage": null,
+  "searchterm": "XSSFRelation",
+  "query": "XSSFRelation",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 431,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970717/",
+      "md5hash": "7316273b22d01b3aaca97abfed972abf",
+      "lines": {
+        "48": "import org.zkoss.poi.xssf.usermodel.XSSFName;",
+        "49": "import org.zkoss.poi.xssf.usermodel.XSSFRelation;",
+        "83": "\t\ttry {",
+        "84": "\t\t\tfd = Classes.getAnyField(XSSFRelation.class, \"_cls\");",
+        "90": "\t\t\tfd.setAccessible(true);",
+        "91": "\t\t\tfd.set(XSSFRelation.WORKSHEET, XSSFSheetImpl.class); //Use the new XSSFSheet implementation "
+      },
+      "id": 3970717,
+      "filename": "XSSFBookImpl.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 208,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785572/",
+      "md5hash": "cbe6aea6e2c67bdf72e6eb288fadfc2d",
+      "lines": {
+        "165": "          try {",
+        "166": "             for(PackageRelationship rel : part.getRelationshipsByType(XSSFRelation.DRAWINGS.getRelation())) {",
+        "39": "import org.apache.poi.xssf.usermodel.XSSFCell;",
+        "40": "import org.apache.poi.xssf.usermodel.XSSFRelation;",
+        "171": "             }",
+        "172": "             for(PackageRelationship rel : part.getRelationshipsByType(XSSFRelation.VML_DRAWINGS.getRelation())) {"
+      },
+      "id": 111785572,
+      "filename": "XSSFExcelExtractorDecorator.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

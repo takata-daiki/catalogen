@@ -1,0 +1,408 @@
+{
+  "matchterm": "PPMT",
+  "previouspage": null,
+  "searchterm": "PPMT",
+  "query": "PPMT",
+  "language_filters": [
+    {
+      "count": 25,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 25,
+  "results": [
+    {
+      "repo": "https://github.com/poidasmith/xlloop.git",
+      "language": "Java",
+      "linescount": 13,
+      "location": "/org.boris.expr/java/src/org/boris/expr/function/excel",
+      "name": "xlloop",
+      "url": "https://searchcode.com/codesearch/view/105399407/",
+      "md5hash": "695b29453e9cf4fc405af0370e04cb47",
+      "lines": {
+        "6": "",
+        "7": "public class PPMT extends AbstractFunction"
+      },
+      "id": 105399407,
+      "filename": "PPMT.java"
+    },
+    {
+      "repo": "https://github.com/Berico-Technologies/mondrian.git",
+      "language": "Java",
+      "linescount": 2500,
+      "location": "/src/main/mondrian/olap/fun/vba",
+      "name": "mondrian",
+      "url": "https://searchcode.com/codesearch/view/69456310/",
+      "md5hash": "67a51ed00e7b0438ab0a0fa75f26792c",
+      "lines": {
+        "960": "        return pPmt(rate, per, nPer, PV, 0);",
+        "961": "    }",
+        "962": "",
+        "963": "    @FunctionName(\"PPmt\")",
+        "964": "    @Signature(\"PPmt(rate, per, nper, pv[, fv[, type]])\")",
+        "965": "    @Description(",
+        "968": "        + \"interest rate.\")",
+        "969": "    public static double pPmt(",
+        "975": "    {",
+        "976": "        return pPmt(rate, per, nPer, PV, fv, false);",
+        "952": "",
+        "953": "    @FunctionName(\"PPmt\")",
+        "954": "    @Signature(\"PPmt(rate, per, nper, pv[, fv[, type]])\")",
+        "955": "    @Description(",
+        "958": "        + \"interest rate.\")",
+        "959": "    public static double pPmt(double rate, double per, double nPer, double PV) {"
+      },
+      "id": 69456310,
+      "filename": "Vba.java"
+    },
+    {
+      "repo": "https://github.com/dsths/mondrian.git",
+      "language": "Java",
+      "linescount": 1397,
+      "location": "/testsrc/main/mondrian/olap/fun/vba",
+      "name": "mondrian",
+      "url": "https://searchcode.com/codesearch/view/100409289/",
+      "md5hash": "f6546f8bce8c16a0de1f0521b83a6154",
+      "lines": {
+        "896": "            -8422.451500705567, Vba.pPmt(0.10, 15, 30, 100000, 0, false));",
+        "897": "        assertEquals(",
+        "898": "            -10547.13234273705, Vba.pPmt(0.10, 30, 30, 100000, 0, false));",
+        "899": "",
+        "900": "        // verify that pmt, ipmt, and ppmt add up",
+        "902": "        double ipmt = Vba.iPmt(0.10, 15, 30, 100000, 0, false);",
+        "903": "        double ppmt = Vba.pPmt(0.10, 15, 30, 100000, 0, false);",
+        "904": "        assertTrue(Math.abs(pmt - (ipmt + ppmt)) < 0.0000001);",
+        "905": "    }",
+        "891": "",
+        "892": "    public void testPPmt() {",
+        "893": "        assertEquals(",
+        "894": "            -607.9248252633897, Vba.pPmt(0.10, 1, 30, 100000, 0, false));",
+        "895": "        assertEquals("
+      },
+      "id": 100409289,
+      "filename": "VbaTest.java"
+    },
+    {
+      "repo": "https://github.com/Berico-Technologies/mondrian.git",
+      "language": "Java",
+      "linescount": 1397,
+      "location": "/testsrc/main/mondrian/olap/fun/vba",
+      "name": "mondrian",
+      "url": "https://searchcode.com/codesearch/view/69449093/",
+      "md5hash": "39d6493c70f41f9341c601162a933250",
+      "lines": {
+        "896": "            -8422.451500705567, Vba.pPmt(0.10, 15, 30, 100000, 0, false));",
+        "897": "        assertEquals(",
+        "898": "            -10547.13234273705, Vba.pPmt(0.10, 30, 30, 100000, 0, false));",
+        "899": "",
+        "900": "        // verify that pmt, ipmt, and ppmt add up",
+        "902": "        double ipmt = Vba.iPmt(0.10, 15, 30, 100000, 0, false);",
+        "903": "        double ppmt = Vba.pPmt(0.10, 15, 30, 100000, 0, false);",
+        "904": "        assertTrue(Math.abs(pmt - (ipmt + ppmt)) < 0.0000001);",
+        "905": "    }",
+        "891": "",
+        "892": "    public void testPPmt() {",
+        "893": "        assertEquals(",
+        "894": "            -607.9248252633897, Vba.pPmt(0.10, 1, 30, 100000, 0, false));",
+        "895": "        assertEquals("
+      },
+      "id": 69449093,
+      "filename": "VbaTest.java"
+    },
+    {
+      "repo": "https://github.com/poidasmith/xlloop.git",
+      "language": "Java",
+      "linescount": 127,
+      "location": "/org.boris.expr/java/test/org/boris/expr",
+      "name": "xlloop",
+      "url": "https://searchcode.com/codesearch/view/105398266/",
+      "md5hash": "cb4732cc95f7dc6e1eec169221790ab0",
+      "lines": {
+        "21": "import org.boris.expr.function.excel.PMT;",
+        "22": "import org.boris.expr.function.excel.PPMT;",
+        "90": "",
+        "91": "    public void testPPMT() throws Exception {",
+        "92": "        PPMT p = new PPMT();",
+        "93": "        fail(\"PPMT not implemented\");",
+        "94": "    }"
+      },
+      "id": 105398266,
+      "filename": "ExcelFinancialFunctionsTest.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1430,
+      "location": "/zssapp/src/org/zkoss/zss/app/formula",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969892/",
+      "md5hash": "a07bf1b4287ec51f4c6c5c920d857dd5",
+      "lines": {
+        "264": "\t\t\t\t\t\"Returns the payment on the principal for a given investment based on periodic, constant payments and a constant interest rate.\",",
+        "261": "\t\tfinanceAry.add(new FormulaMetaInfo(FINANCIAL,",
+        "262": "\t\t\t\t\t\"PPMT\",",
+        "263": "\t\t\t\t\t\"PPMT(rate, per, nper, pv, fv, type)\","
+      },
+      "id": 3969892,
+      "filename": "Formulas.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 717,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/biff/formula",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260581/",
+      "md5hash": "15b9307e10209bd7f14a819df4b60a44",
+      "lines": {
+        "467": "    new Function(0xa7, \"ipmt\", 0xff);",
+        "468": "  public static final Function PPMT =",
+        "469": "    new Function(0xa8, \"ppmt\", 0xff);",
+        "470": "  public static final Function COUNTA ="
+      },
+      "id": 43260581,
+      "filename": "Function.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 1451,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47124968/",
+      "md5hash": "994b1c012a7ddfa2eae1064001b4a2c3",
+      "lines": {
+        "1072": "\t\t\tcase xlfIpmt: return \"IPMT(\";",
+        "801": "\t\t\t{\"YIELDMAT\", String.valueOf(xlfYieldMat), String.valueOf(FTYPE_PTGFUNCVAR_ADDIN)},",
+        "802": "\t\t\t{\"PPMT\", String.valueOf(xlfPpmt), String.valueOf(FTYPE_PTGFUNCVAR_ADDIN)},",
+        "1073": "\t\t\tcase xlfPpmt: return \"PPMT(\";",
+        "221": "\tpublic static final int xlfIpmt     = 167;",
+        "222": "\tpublic static final int xlfPpmt     = 168;"
+      },
+      "id": 47124968,
+      "filename": "FunctionConstants.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 3453,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47124971/",
+      "md5hash": "3c788f981451f0037f54e553a922448f",
+      "lines": {
+        "2336": "\t\tif (DEBUG)",
+        "2337": "\t\t\tLogger.logInfo(\"Result from calcPPMT= \" + result);",
+        "2299": "\t\t\tdebugOperands(operands, \"calcPPMT\");",
+        "2293": "\t */",
+        "2294": "\tprotected static Ptg calcPPMT(Ptg[] operands) {",
+        "2298": "\t\tif (DEBUG)",
+        "2282": "\t/**",
+        "2283": "\t * PPMT Returns the payment on the principal for an investment for a given",
+        "2284": "\t * period PPMT(rate,per,nper,pv,fv,type) Rate is the interest rate per",
+        "2285": "\t * period. Per specifies the period and must be in the range 1 to nper. Nper"
+      },
+      "id": 47124971,
+      "filename": "FinancialCalculator.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 717,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/biff/formula",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49201109/",
+      "md5hash": "15b9307e10209bd7f14a819df4b60a44",
+      "lines": {
+        "467": "    new Function(0xa7, \"ipmt\", 0xff);",
+        "468": "  public static final Function PPMT =",
+        "469": "    new Function(0xa8, \"ppmt\", 0xff);",
+        "470": "  public static final Function COUNTA ="
+      },
+      "id": 49201109,
+      "filename": "Function.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 1451,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976592/",
+      "md5hash": "994b1c012a7ddfa2eae1064001b4a2c3",
+      "lines": {
+        "1072": "\t\t\tcase xlfIpmt: return \"IPMT(\";",
+        "801": "\t\t\t{\"YIELDMAT\", String.valueOf(xlfYieldMat), String.valueOf(FTYPE_PTGFUNCVAR_ADDIN)},",
+        "802": "\t\t\t{\"PPMT\", String.valueOf(xlfPpmt), String.valueOf(FTYPE_PTGFUNCVAR_ADDIN)},",
+        "1073": "\t\t\tcase xlfPpmt: return \"PPMT(\";",
+        "221": "\tpublic static final int xlfIpmt     = 167;",
+        "222": "\tpublic static final int xlfPpmt     = 168;"
+      },
+      "id": 50976592,
+      "filename": "FunctionConstants.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 3453,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976595/",
+      "md5hash": "3c788f981451f0037f54e553a922448f",
+      "lines": {
+        "2336": "\t\tif (DEBUG)",
+        "2337": "\t\t\tLogger.logInfo(\"Result from calcPPMT= \" + result);",
+        "2299": "\t\t\tdebugOperands(operands, \"calcPPMT\");",
+        "2293": "\t */",
+        "2294": "\tprotected static Ptg calcPPMT(Ptg[] operands) {",
+        "2298": "\t\tif (DEBUG)",
+        "2282": "\t/**",
+        "2283": "\t * PPMT Returns the payment on the principal for an investment for a given",
+        "2284": "\t * period PPMT(rate,per,nper,pv,fv,type) Rate is the interest rate per",
+        "2285": "\t * period. Per specifies the period and must be in the range 1 to nper. Nper"
+      },
+      "id": 50976595,
+      "filename": "FinancialCalculator.java"
+    },
+    {
+      "repo": "https://github.com/dsths/mondrian.git",
+      "language": "Java",
+      "linescount": 1111,
+      "location": "/src/main/mondrian/olap/fun/vba",
+      "name": "mondrian",
+      "url": "https://searchcode.com/codesearch/view/100412065/",
+      "md5hash": "97269efda67b1f67b152b3400030b364",
+      "lines": {
+        "828": "",
+        "829": "    // Todo: Ppmt Returns the payment on the principal for a given period for an"
+      },
+      "id": 100412065,
+      "filename": "Excel.java"
+    },
+    {
+      "repo": "https://bitbucket.org/kulttuuri/vaadin-irkkia",
+      "language": "Java",
+      "linescount": 1286,
+      "location": "/ext_libs/jdbc_mysql_connector/src/com/mysql/jdbc",
+      "name": "vaadin-irkkia",
+      "url": "https://searchcode.com/codesearch/view/64433451/",
+      "md5hash": "10dd529ec8bcd821b3b129f7a62618d8",
+      "lines": {
+        "678": "\t\ttempMap.put(\"PONT\", new String[] { \"Pacific/Ponape\" });",
+        "679": "\t\ttempMap.put(\"PPMT\", new String[] { \"America/Port-au-Prince\" });"
+      },
+      "id": 64433451,
+      "filename": "TimeUtil.java"
+    },
+    {
+      "repo": "https://github.com/Berico-Technologies/mondrian.git",
+      "language": "Java",
+      "linescount": 1111,
+      "location": "/src/main/mondrian/olap/fun/vba",
+      "name": "mondrian",
+      "url": "https://searchcode.com/codesearch/view/69456290/",
+      "md5hash": "d000de4330f4246f9ea598129c490c5c",
+      "lines": {
+        "828": "",
+        "829": "    // Todo: Ppmt Returns the payment on the principal for a given period for an"
+      },
+      "id": 69456290,
+      "filename": "Excel.java"
+    },
+    {
+      "repo": "http://pentahoanalysistool.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 233,
+      "location": "/pat/src/main/java/org/pentaho/pat/client/ui/widgets",
+      "name": "pentahoanalysistool",
+      "url": "https://searchcode.com/codesearch/view/2003837/",
+      "md5hash": "27343e1cfc8a4083999aad5efe67523f",
+      "lines": {
+        "65": "            +",
+        "66": "            \"(Oct)|(OpeningPeriod)|(PPmt)|(PV)|(ParallelPeriod)|(ParamRef)|(Parameter)|(Parent)|(Percentile)|(PeriodsToDate)|\" //$NON-NLS-1$"
+      },
+      "id": 2003837,
+      "filename": "MDXRichTextArea.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1273,
+      "location": "/engine_java/000_Engine_Core/lib/mysql-connector-java-5.1.7/src/com/mysql/jdbc",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11373416/",
+      "md5hash": "d0d68daefc3eda446d366b5d4dde960e",
+      "lines": {
+        "665": "\t\ttempMap.put(\"PONT\", new String[] { \"Pacific/Ponape\" });",
+        "666": "\t\ttempMap.put(\"PPMT\", new String[] { \"America/Port-au-Prince\" });"
+      },
+      "id": 11373416,
+      "filename": "TimeUtil.java"
+    },
+    {
+      "repo": "http://tesis-matlab-estanques.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1056,
+      "location": "/BIBLIOTECAS/ConectoresBD/mysql-connector-java-3.0.17-ga/com/mysql/jdbc",
+      "name": "tesis-matlab-estanques",
+      "url": "https://searchcode.com/codesearch/view/13213021/",
+      "md5hash": "092a7f381da012deb6337d1db06e402b",
+      "lines": {
+        "764": "        tempMap.put(\"PONT\", new String[] { \"Pacific/Ponape\" });",
+        "765": "        tempMap.put(\"PPMT\", new String[] { \"America/Port-au-Prince\" });"
+      },
+      "id": 13213021,
+      "filename": "TimeUtil.java"
+    },
+    {
+      "repo": "https://bitbucket.org/msharma1/softwareengineeringproject.git",
+      "language": "Java",
+      "linescount": 1300,
+      "location": "/RetailReturnSystemProject/mysql-connector-java-5.1.22/mysql-connector-java-5.1.22/src/com/mysql/jdbc",
+      "name": "softwareengineeringproject",
+      "url": "https://searchcode.com/codesearch/view/39133739/",
+      "md5hash": "688fc5bea5e88a3d00f5b9b984325218",
+      "lines": {
+        "692": "\t\ttempAbbrMap.put(\"PONT\", new String[] { \"Pacific/Ponape\" });",
+        "693": "\t\ttempAbbrMap.put(\"PPMT\", new String[] { \"America/Port-au-Prince\" });"
+      },
+      "id": 39133739,
+      "filename": "TimeUtil.java"
+    },
+    {
+      "repo": "https://bitbucket.org/billpull/parking-lot-api.git",
+      "language": "Java",
+      "linescount": 1180,
+      "location": "/lib/mysql-connector-java-5.0.8/src/com/mysql/jdbc",
+      "name": "parking-lot-api",
+      "url": "https://searchcode.com/codesearch/view/51593888/",
+      "md5hash": "67d90e7d8082ebfd118409b2db66e631",
+      "lines": {
+        "668": "\t\ttempMap.put(\"PONT\", new String[] { \"Pacific/Ponape\" });",
+        "669": "\t\ttempMap.put(\"PPMT\", new String[] { \"America/Port-au-Prince\" });"
+      },
+      "id": 51593888,
+      "filename": "TimeUtil.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 14,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 4,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

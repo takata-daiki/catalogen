@@ -1,0 +1,315 @@
+{
+  "matchterm": "DefaultMarshaller",
+  "previouspage": null,
+  "searchterm": "DefaultMarshaller",
+  "query": "DefaultMarshaller",
+  "language_filters": [
+    {
+      "count": 14,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 14,
+  "results": [
+    {
+      "repo": "https://github.com/mdproctor/drools.git",
+      "language": "Java",
+      "linescount": 168,
+      "location": "/drools-core/src/main/java/org/drools/marshalling/impl",
+      "name": "drools",
+      "url": "https://searchcode.com/codesearch/view/68104455/",
+      "md5hash": "650e7a7b07b42240f30e8e90f68c9d99",
+      "lines": {
+        "50": "",
+        "51": "public class DefaultMarshaller",
+        "60": "",
+        "61": "    public DefaultMarshaller(KnowledgeBase kbase,"
+      },
+      "id": 68104455,
+      "filename": "DefaultMarshaller.java"
+    },
+    {
+      "repo": "https://github.com/bobmcwhirter/drools.git",
+      "language": "Java",
+      "linescount": 98,
+      "location": "/drools-core/src/main/java/org/drools/marshalling",
+      "name": "drools",
+      "url": "https://searchcode.com/codesearch/view/139707596/",
+      "md5hash": "cf7b051ccd802cb1ec4e5dcf59196797",
+      "lines": {
+        "30": "",
+        "21": "",
+        "22": "    public DefaultMarshaller() {",
+        "25": "",
+        "26": "    public DefaultMarshaller(RuleBaseConfiguration config) {",
+        "31": "    public DefaultMarshaller(RuleBaseConfiguration config,",
+        "14": "",
+        "15": "public class DefaultMarshaller"
+      },
+      "id": 139707596,
+      "filename": "DefaultMarshaller.java"
+    },
+    {
+      "repo": "git://github.com/infinispan/infinispan.git",
+      "language": "Java",
+      "linescount": 216,
+      "location": "/core/src/main/java/org/infinispan/marshall",
+      "name": "infinispan",
+      "url": "https://searchcode.com/codesearch/view/4465810/",
+      "md5hash": "4c829f8e51df715dfdb62124669b5908",
+      "lines": {
+        "161": "   public ObjectInput startObjectInput(InputStream is, boolean isReentrant) throws IOException {",
+        "162": "      ObjectInput in = defaultMarshaller.startObjectInput(is, isReentrant);",
+        "177": "   public void finishObjectInput(ObjectInput oi) {",
+        "73": "",
+        "74": "      this.defaultMarshaller.inject(extTable, cfg, icc, globalCfg);",
+        "78": "   public void start() {",
+        "79": "      defaultMarshaller.start();",
+        "144": "   public void finishObjectOutput(ObjectOutput oo) {",
+        "145": "      defaultMarshaller.finishObjectOutput(oo);",
+        "178": "      defaultMarshaller.finishObjectInput(oi);",
+        "58": "",
+        "59": "   private final JBossMarshaller defaultMarshaller;",
+        "156": "       */",
+        "157": "      defaultMarshaller.objectToObjectStream(obj, out);",
+        "62": "   public VersionAwareMarshaller() {",
+        "63": "      defaultMarshaller = new JBossMarshaller();"
+      },
+      "id": 4465810,
+      "filename": "VersionAwareMarshaller.java"
+    },
+    {
+      "repo": "https://github.com/jkellerer/infinispan.git",
+      "language": "Java",
+      "linescount": 203,
+      "location": "/core/src/main/java/org/infinispan/marshall",
+      "name": "infinispan",
+      "url": "https://searchcode.com/codesearch/view/113384203/",
+      "md5hash": "d63a04ccccec34cee09965a4e72f0402",
+      "lines": {
+        "128": "   public ObjectOutput startObjectOutput(OutputStream os, boolean isReentrant) throws IOException {",
+        "65": "   public VersionAwareMarshaller() {",
+        "66": "      defaultMarshaller = new JBossMarshaller();",
+        "129": "      ObjectOutput out = defaultMarshaller.startObjectOutput(os, isReentrant);",
+        "200": "   public boolean isMarshallable(Object o) {",
+        "201": "      return defaultMarshaller.isMarshallable(o);",
+        "160": "      ObjectInput in = defaultMarshaller.startObjectInput(is, isReentrant);",
+        "175": "   public void finishObjectInput(ObjectInput oi) {",
+        "142": "   public void finishObjectOutput(ObjectOutput oo) {",
+        "143": "      defaultMarshaller.finishObjectOutput(oo);",
+        "176": "      defaultMarshaller.finishObjectInput(oi);",
+        "154": "       */",
+        "155": "      defaultMarshaller.objectToObjectStream(obj, out);",
+        "188": "      try {",
+        "189": "         return defaultMarshaller.objectFromObjectStream(in);",
+        "159": "   public ObjectInput startObjectInput(InputStream is, boolean isReentrant) throws IOException {"
+      },
+      "id": 113384203,
+      "filename": "VersionAwareMarshaller.java"
+    },
+    {
+      "repo": "git://github.com/infinispan/infinispan.git",
+      "language": "Java",
+      "linescount": 155,
+      "location": "/core/src/main/java/org/infinispan/marshall/core",
+      "name": "infinispan",
+      "url": "https://searchcode.com/codesearch/view/116111954/",
+      "md5hash": "44df16d3e85b255a6c2c5602aea23273",
+      "lines": {
+        "67": "      try {",
+        "68": "         defaultMarshaller.objectToObjectStream(obj, out);",
+        "133": "         return defaultMarshaller.objectFromObjectStream(in);",
+        "38": "",
+        "39": "   private JBossMarshaller defaultMarshaller;",
+        "87": "   public Object objectFromByteBuffer(byte[] bytes, int offset, int len) throws IOException, ClassNotFoundException {",
+        "151": "      return defaultMarshaller.isMarshallable(o);",
+        "52": "   public void start() {",
+        "53": "      defaultMarshaller = new JBossMarshaller(extTable, globalCfg);",
+        "54": "      defaultMarshaller.start();",
+        "55": "   }",
+        "88": "      return defaultMarshaller.objectFromByteBuffer(bytes, offset, len);",
+        "132": "      try {",
+        "59": "   public void stop() {",
+        "60": "      defaultMarshaller.stop();",
+        "150": "   public boolean isMarshallable(Object o) throws Exception {"
+      },
+      "id": 116111954,
+      "filename": "GlobalMarshaller.java"
+    },
+    {
+      "repo": "https://github.com/bobmcwhirter/drools.git",
+      "language": "Java",
+      "linescount": 1931,
+      "location": "/drools-compiler/src/test/java/org/drools/integrationtests",
+      "name": "drools",
+      "url": "https://searchcode.com/codesearch/view/139710939/",
+      "md5hash": "007b4fc1d1ec39d8373dc873fd2a2c6b",
+      "lines": {
+        "898": "        baos = new ByteArrayOutputStream();",
+        "803": "        ByteArrayOutputStream baos = new ByteArrayOutputStream();",
+        "804": "        Marshaller marshaller = new DefaultMarshaller();",
+        "38": "import org.drools.compiler.PackageBuilderConfiguration;",
+        "39": "import org.drools.marshalling.DefaultMarshaller;",
+        "488": "        ByteArrayOutputStream baos = new ByteArrayOutputStream();",
+        "489": "        Marshaller marshaller = new DefaultMarshaller();",
+        "682": "        marshaller = new DefaultMarshaller();",
+        "844": "        baos = new ByteArrayOutputStream();",
+        "845": "        marshaller = new DefaultMarshaller();",
+        "563": "        ByteArrayOutputStream baos = new ByteArrayOutputStream();",
+        "564": "        Marshaller marshaller = new DefaultMarshaller();        ",
+        "681": "        baos = new ByteArrayOutputStream();",
+        "728": "        baos = new ByteArrayOutputStream();",
+        "729": "        marshaller = new DefaultMarshaller();",
+        "899": "        marshaller = new DefaultMarshaller();"
+      },
+      "id": 139710939,
+      "filename": "MarshallingTest.java"
+    },
+    {
+      "repo": "https://github.com/housecricket/sipxecs.git",
+      "language": "Java",
+      "linescount": 228,
+      "location": "/sipXconfig/neoconf/src/org/sipfoundry/sipxconfig/xmlrpc",
+      "name": "sipxecs",
+      "url": "https://searchcode.com/codesearch/view/109142010/",
+      "md5hash": "4d2e0b1e8498004442071a6c7c984be6",
+      "lines": {
+        "208": "     */",
+        "209": "    static class DefaultMarshaller implements XmlRpcMarshaller {",
+        "211": "",
+        "212": "        public DefaultMarshaller(String methodNamePrefix) {",
+        "44": "",
+        "156": "    public void setMethodNamePrefix(String methodNamePrefix) {",
+        "45": "    private XmlRpcMarshaller m_marshaller = new DefaultMarshaller(null);",
+        "157": "        m_marshaller = new DefaultMarshaller(methodNamePrefix);"
+      },
+      "id": 109142010,
+      "filename": "XmlRpcClientInterceptor.java"
+    },
+    {
+      "repo": "https://github.com/bobmcwhirter/drools.git",
+      "language": "Java",
+      "linescount": 103,
+      "location": "/drools-compiler/src/test/java/org/drools/integrationtests",
+      "name": "drools",
+      "url": "https://searchcode.com/codesearch/view/139710922/",
+      "md5hash": "d557fac606fb3ce837e5910853e9f552",
+      "lines": {
+        "65": "        // write methods allways needs a new marshaller for Identity strategies",
+        "66": "        marshaller = new DefaultMarshaller();        ",
+        "51": "                                                               boolean dispose) throws Exception {",
+        "52": "        Marshaller marshaller = new DefaultMarshaller();",
+        "8": "import org.drools.StatefulSession;",
+        "9": "import org.drools.marshalling.DefaultMarshaller;"
+      },
+      "id": 139710922,
+      "filename": "SerializationHelper.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1489,
+      "location": "/pptx/src/org/apache/poi/openxml4j/opc",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406292/",
+      "md5hash": "47fc882bc196bd395e952d6ada656cd9",
+      "lines": {
+        "49": "import org.apache.poi.openxml4j.opc.internal.ZipContentTypeManager;",
+        "50": "import org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller;",
+        "158": "\t\t\t// Add default marshaller",
+        "159": "\t\t\tthis.defaultPartMarshaller = new DefaultMarshaller();"
+      },
+      "id": 97406292,
+      "filename": "OPCPackage.java"
+    },
+    {
+      "repo": "https://github.com/jdcasey/directory-server.git",
+      "language": "Java",
+      "linescount": 90,
+      "location": "/core-avl/src/test/java/org/apache/directory/server/core/avltree",
+      "name": "directory-server",
+      "url": "https://searchcode.com/codesearch/view/109203513/",
+      "md5hash": "e013e694c6e7f83e578e99fb52f210dc",
+      "lines": {
+        "42": "@Concurrent()",
+        "43": "public class DefaultMarshallerTest",
+        "44": "{",
+        "45": "    DefaultMarshaller marshaller = DefaultMarshaller.INSTANCE;"
+      },
+      "id": 109203513,
+      "filename": "DefaultMarshallerTest.java"
+    },
+    {
+      "repo": "https://github.com/bobmcwhirter/drools.git",
+      "language": "Java",
+      "linescount": 49,
+      "location": "/drools-core/src/main/java/org/drools/persistence",
+      "name": "drools",
+      "url": "https://searchcode.com/codesearch/view/139707586/",
+      "md5hash": "df40e142f907cbb07d7a0d71750472da",
+      "lines": {
+        "8": "import org.drools.common.InternalRuleBase;",
+        "9": "import org.drools.marshalling.DefaultMarshaller;",
+        "16": "    Marshaller      marshaller = new DefaultMarshaller();",
+        "15": "    StatefulSession session;"
+      },
+      "id": 139707586,
+      "filename": "StatefulSessionSnapshotter.java"
+    },
+    {
+      "repo": "https://github.com/housecricket/sipxecs.git",
+      "language": "Java",
+      "linescount": 41,
+      "location": "/sipXconfig/neoconf/test/org/sipfoundry/sipxconfig/xmlrpc",
+      "name": "sipxecs",
+      "url": "https://searchcode.com/codesearch/view/109136754/",
+      "md5hash": "53fa310f6418e741783c43d668f5bd03",
+      "lines": {
+        "29": "        m_provider.setSecure(true);",
+        "30": "        m_provider.setMarshaller(new XmlRpcClientInterceptor.DefaultMarshaller(null));"
+      },
+      "id": 109136754,
+      "filename": "XmlRpcProviderTest.java"
+    },
+    {
+      "repo": "https://github.com/jdcasey/directory-server.git",
+      "language": "Java",
+      "linescount": 259,
+      "location": "/core-avl/src/main/java/org/apache/directory/server/core/avltree",
+      "name": "directory-server",
+      "url": "https://searchcode.com/codesearch/view/109203543/",
+      "md5hash": "85c48842166313effcefee93853d5dcd",
+      "lines": {
+        "73": "        this.comparator = comparator;",
+        "74": "        this.keyMarshaller = ( Marshaller<E> ) DefaultMarshaller.INSTANCE;"
+      },
+      "id": 109203543,
+      "filename": "AvlTreeMarshaller.java"
+    },
+    {
+      "repo": "https://github.com/seko2000/jboss-as.git",
+      "language": "Java",
+      "linescount": 110,
+      "location": "/clustering/src/main/java/org/jboss/as/clustering/infinispan",
+      "name": "jboss-as",
+      "url": "https://searchcode.com/codesearch/view/114022885/",
+      "md5hash": "8ff9d167ebabe3dd0e62e71838906893",
+      "lines": {
+        "44": "        try {",
+        "45": "            Field field = VersionAwareMarshaller.class.getDeclaredField(\"defaultMarshaller\");"
+      },
+      "id": 114022885,
+      "filename": "StreamingMarshaller.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 14,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

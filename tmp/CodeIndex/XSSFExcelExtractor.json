@@ -1,0 +1,105 @@
+{
+  "matchterm": "XSSFExcelExtractor",
+  "previouspage": null,
+  "searchterm": "XSSFExcelExtractor",
+  "query": "XSSFExcelExtractor",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "https://github.com/cheft/fast-reader.git",
+      "language": "Java",
+      "linescount": 288,
+      "location": "/reader-server/src/com/topway/reader/server/lucene",
+      "name": "fast-reader",
+      "url": "https://searchcode.com/codesearch/view/94960725/",
+      "md5hash": "8e716c0d4bbe4c605731725e169386b5",
+      "lines": {
+        "177": "\t\t\tOPCPackage opcPackage = POIXMLDocument.openPackage(path);",
+        "178": "\t\t\tee = new XSSFExcelExtractor(opcPackage);",
+        "174": "\tpublic String readXlsx(String path) {",
+        "29": "import org.apache.poi.xslf.extractor.XSLFPowerPointExtractor;",
+        "30": "import org.apache.poi.xssf.extractor.XSSFExcelExtractor;",
+        "175": "\t\tXSSFExcelExtractor ee = null;"
+      },
+      "id": 94960725,
+      "filename": "IndexFiles.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 208,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785572/",
+      "md5hash": "cbe6aea6e2c67bdf72e6eb288fadfc2d",
+      "lines": {
+        "68": "    /**",
+        "37": "import org.apache.poi.ss.usermodel.Row;",
+        "38": "import org.apache.poi.xssf.extractor.XSSFExcelExtractor;",
+        "49": "",
+        "50": "public class XSSFExcelExtractorDecorator extends AbstractOOXMLExtractor {",
+        "56": "",
+        "57": "    private final XSSFExcelExtractor extractor;",
+        "59": "",
+        "60": "    public XSSFExcelExtractorDecorator(",
+        "61": "            XSSFExcelExtractor extractor, Locale locale) {",
+        "62": "        super(extractor, TYPE);",
+        "69": "     * @see org.apache.poi.xssf.extractor.XSSFExcelExtractor#getText()"
+      },
+      "id": 111785572,
+      "filename": "XSSFExcelExtractorDecorator.java"
+    },
+    {
+      "repo": "https://github.com/jaav/im.git",
+      "language": "Java",
+      "linescount": 143,
+      "location": "/src/main/java/be/mobila/im/importers",
+      "name": "im",
+      "url": "https://searchcode.com/codesearch/view/114502930/",
+      "md5hash": "5f103ad4745433de75773a75ea9a0e41",
+      "lines": {
+        "10": "import org.apache.poi.ss.usermodel.*;",
+        "11": "import org.apache.poi.xssf.extractor.XSSFExcelExtractor;",
+        "60": "    if(wb instanceof XSSFWorkbook){",
+        "61": "      XSSFExcelExtractor extractor = new XSSFExcelExtractor((XSSFWorkbook)wb);"
+      },
+      "id": 114502930,
+      "filename": "SampleExcelConverter.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 103,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785577/",
+      "md5hash": "c9c3f130483ace9122b93909deae1587",
+      "lines": {
+        "72": "            } else if (document instanceof XSSFWorkbook) {",
+        "73": "                extractor = new XSSFExcelExtractorDecorator(",
+        "74": "                        (XSSFExcelExtractor) poiExtractor, locale);",
+        "75": "            } else if (document instanceof XWPFDocument) {",
+        "30": "import org.apache.poi.xslf.extractor.XSLFPowerPointExtractor;",
+        "31": "import org.apache.poi.xssf.extractor.XSSFExcelExtractor;"
+      },
+      "id": 111785577,
+      "filename": "OOXMLExtractorFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "matchterm": "XSLFGraphicFrame",
+  "previouspage": null,
+  "searchterm": "XSLFGraphicFrame",
+  "query": "XSLFGraphicFrame",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 157,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406844/",
+      "md5hash": "d6862b026b2e957879510dcae096e8dd",
+      "lines": {
+        "96": "    static XSLFGraphicFrame create(CTGraphicalObjectFrame shape, XSLFSheet sheet){",
+        "100": "        } else {",
+        "37": "@Beta",
+        "38": "public class XSLFGraphicFrame extends XSLFShape {",
+        "41": "",
+        "42": "    /*package*/ XSLFGraphicFrame(CTGraphicalObjectFrame shape, XSLFSheet sheet){",
+        "101": "            return new XSLFGraphicFrame(shape, sheet);",
+        "95": ""
+      },
+      "id": 97406844,
+      "filename": "XSLFGraphicFrame.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 555,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406768/",
+      "md5hash": "06c77456c926d8545168347abe70a1d6",
+      "lines": {
+        "104": "            } else if (ch instanceof CTGraphicalObjectFrame){",
+        "105": "                XSLFGraphicFrame shape = XSLFGraphicFrame.create((CTGraphicalObjectFrame)ch, this);"
+      },
+      "id": 97406768,
+      "filename": "XSLFSheet.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

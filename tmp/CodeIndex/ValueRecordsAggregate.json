@@ -1,0 +1,110 @@
+{
+  "matchterm": "ValueRecordsAggregate",
+  "previouspage": null,
+  "searchterm": "ValueRecordsAggregate",
+  "query": "ValueRecordsAggregate",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 368,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/aggregates",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642593/",
+      "md5hash": "f3d6bf42f5d9482d498467f2cea55ab5",
+      "lines": {
+        "312": "      ValueRecordsAggregate rec = new ValueRecordsAggregate();",
+        "66": "",
+        "67": "    /** Creates a new instance of ValueRecordsAggregate */",
+        "68": "",
+        "69": "    public ValueRecordsAggregate()",
+        "311": "    public Object clone() {",
+        "216": "    {",
+        "217": "      throw new RuntimeException(\"This method shouldnt be called. ValueRecordsAggregate.serializeCellRow() should be called from RowRecordsAggregate.\");",
+        "58": "",
+        "59": "public class ValueRecordsAggregate"
+      },
+      "id": 15642593,
+      "filename": "ValueRecordsAggregate.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 3300,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642365/",
+      "md5hash": "1e8d548d196dc1063c30d9430b35b9f5",
+      "lines": {
+        "228": "                {",
+        "229": "                    retval.cells = new ValueRecordsAggregate();",
+        "777": "//                    && record instanceof RowRecordsAggregate == false",
+        "778": "//                    && record instanceof ValueRecordsAggregate == false",
+        "109": "    protected ColumnInfoRecordsAggregate columns           =     null;",
+        "110": "    protected ValueRecordsAggregate      cells             =     null;",
+        "47": "import loci.poi.hssf.record.aggregates.RowRecordsAggregate;",
+        "48": "import loci.poi.hssf.record.aggregates.ValueRecordsAggregate;",
+        "504": "            cells = new ValueRecordsAggregate();",
+        "756": "              pos += ((RowRecordsAggregate)record).serialize(pos, data, cells);   // rec.length;",
+        "757": "            } else if (record instanceof ValueRecordsAggregate) {",
+        "503": "        {",
+        "376": "          }",
+        "377": "        } else if (rec instanceof ValueRecordsAggregate) {",
+        "378": "          ValueRecordsAggregate vrAgg = (ValueRecordsAggregate)rec;"
+      },
+      "id": 15642365,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 305,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642473/",
+      "md5hash": "0194853a122e58e181b7c54e5cfbf881",
+      "lines": {
+        "284": "\t/**",
+        "285": "\t * Mirroring formula records so it is registered in the ValueRecordsAggregate",
+        "294": "\t  * Register it in the ValueRecordsAggregate so it can go into the FormulaRecordAggregate",
+        "293": "\t /**"
+      },
+      "id": 15642473,
+      "filename": "SharedFormulaRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 489,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/aggregates",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642594/",
+      "md5hash": "e2636fd1db0e4f81da83b828da4e76a6",
+      "lines": {
+        "220": "    public int serialize(int offset, byte [] data, ValueRecordsAggregate cells)",
+        "67": "",
+        "68": "    /** Creates a new instance of ValueRecordsAggregate */",
+        "219": ""
+      },
+      "id": 15642594,
+      "filename": "RowRecordsAggregate.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

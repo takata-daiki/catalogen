@@ -1,0 +1,67 @@
+{
+  "matchterm": "PackagePropertiesPart",
+  "previouspage": null,
+  "searchterm": "PackagePropertiesPart",
+  "query": "PackagePropertiesPart",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1489,
+      "location": "/pptx/src/org/apache/poi/openxml4j/opc",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406292/",
+      "md5hash": "47fc882bc196bd395e952d6ada656cd9",
+      "lines": {
+        "321": "\t\t\t// Init some PackageBase properties",
+        "322": "\t\t\tpkg.packageProperties = new PackagePropertiesPart(pkg,",
+        "108": "\t */",
+        "493": "\t\tif (this.packageProperties == null) {",
+        "494": "\t\t\tthis.packageProperties = new PackagePropertiesPart(this,",
+        "45": "import org.apache.poi.openxml4j.opc.internal.ContentTypeManager;",
+        "657": "\t\t\t\t\t\t// and ignore any subsequent ones",
+        "658": "\t\t\t\t\t\tif (unmarshallPart instanceof PackagePropertiesPart &&",
+        "660": "\t\t\t\t\t\t\t\tneedCorePropertiesPart) {",
+        "46": "import org.apache.poi.openxml4j.opc.internal.PackagePropertiesPart;",
+        "109": "\tprotected PackagePropertiesPart packageProperties;",
+        "661": "\t\t\t\t\t\t\tthis.packageProperties = (PackagePropertiesPart) unmarshallPart;"
+      },
+      "id": 97406292,
+      "filename": "OPCPackage.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 148,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785575/",
+      "md5hash": "2a9aaf9e0c1f1ffdb93195ff06ef1121",
+      "lines": {
+        "24": "import org.apache.poi.openxml4j.opc.internal.PackagePropertiesPart;",
+        "56": "    private void extractMetadata(CoreProperties properties, Metadata metadata) {",
+        "57": "        PackagePropertiesPart propsHolder = properties",
+        "23": "import org.apache.poi.POIXMLProperties.ExtendedProperties;"
+      },
+      "id": 111785575,
+      "filename": "MetadataExtractor.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

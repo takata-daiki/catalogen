@@ -1,0 +1,89 @@
+{
+  "matchterm": "ERFListener",
+  "previouspage": null,
+  "searchterm": "ERFListener",
+  "query": "ERFListener",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 62,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642340/",
+      "md5hash": "f6a54a707c65ffa75a728f82080c71ae",
+      "lines": {
+        "48": " * via the EventRecordFactory",
+        "52": " */",
+        "53": "public interface ERFListener",
+        "45": "/**",
+        "46": " * An ERFListener is registered with the EventRecordFactory.",
+        "47": " * An ERFListener listens for Records coming from the stream"
+      },
+      "id": 15642340,
+      "filename": "ERFListener.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642343/",
+      "md5hash": "468caa59753e7c2d27a76f3903f70894",
+      "lines": {
+        "480": "       private ERFListener listener;",
+        "481": "       private short[] sids;",
+        "483": "",
+        "484": "    ListenerWrapper(ERFListener listener, short[] sids, boolean abortable) {",
+        "202": "    /**",
+        "203": "     * List of the listners that are registred.  should all be ERFListener",
+        "271": "        while (i.hasNext()) {",
+        "272": "            result = ((ERFListener) i.next()).processRecord(record);  ",
+        "244": "     */",
+        "245": "    public void registerListener(ERFListener listener, short[] sids) {",
+        "247": "        sids = sidscache;",
+        "248": "      ERFListener wrapped = new ListenerWrapper(listener, sids, abortable);    ",
+        "253": "     * used for unit tests to test the registration of record listeners.",
+        "254": "     * @return Iterator of ERFListeners",
+        "479": "class ListenerWrapper implements ERFListener {"
+      },
+      "id": 15642343,
+      "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 145,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642341/",
+      "md5hash": "6650dc23e857d74ec265cc2fa653c40f",
+      "lines": {
+        "96": "",
+        "97": "    //ERFListener",
+        "62": " */",
+        "63": "public class ModelFactory implements ERFListener"
+      },
+      "id": 15642341,
+      "filename": "ModelFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

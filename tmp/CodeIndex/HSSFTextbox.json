@@ -1,0 +1,148 @@
+{
+  "matchterm": "HSSFTextbox",
+  "previouspage": null,
+  "searchterm": "HSSFTextbox",
+  "query": "HSSFTextbox",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642307/",
+      "md5hash": "b9e2e59f239e91e2c0b3f3e3fc54eeac",
+      "lines": {
+        "60": "     */",
+        "61": "    public HSSFTextbox( HSSFShape parent, HSSFAnchor anchor )",
+        "46": " */",
+        "47": "public class HSSFTextbox"
+      },
+      "id": 15642307,
+      "filename": "HSSFTextbox.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 192,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642364/",
+      "md5hash": "caf9b32bdd1d6052248a6d5f8cf5c345",
+      "lines": {
+        "67": "     */",
+        "68": "    TextboxShape( HSSFTextbox hssfShape, int shapeId )",
+        "103": "     */",
+        "104": "    private EscherContainerRecord createSpContainer( HSSFTextbox hssfShape, int shapeId )",
+        "105": "    {",
+        "106": "        HSSFTextbox shape = hssfShape;",
+        "77": "     */",
+        "78": "    private ObjRecord createObjRecord( HSSFTextbox hssfShape, int shapeId )",
+        "153": "     */",
+        "154": "    private TextObjectRecord createTextObjectRecord( HSSFTextbox hssfShape, int shapeId )",
+        "155": "    {",
+        "156": "        HSSFTextbox shape = hssfShape;"
+      },
+      "id": 15642364,
+      "filename": "TextboxShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 204,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642300/",
+      "md5hash": "e2d5d76c6a10bbbf99c420548d2f8688",
+      "lines": {
+        "98": "     */",
+        "99": "    public HSSFTextbox createTextbox(HSSFChildAnchor anchor)",
+        "100": "    {",
+        "101": "        HSSFTextbox shape = new HSSFTextbox(this, anchor);"
+      },
+      "id": 15642300,
+      "filename": "HSSFShapeGroup.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 232,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642333/",
+      "md5hash": "15cf21df230a2e5bafaf6da9ba3a0dc3",
+      "lines": {
+        "144": "    {",
+        "145": "        HSSFTextbox shape = new HSSFTextbox(null, anchor);",
+        "142": "     */",
+        "143": "    public HSSFTextbox createTextbox(HSSFClientAnchor anchor)"
+      },
+      "id": 15642333,
+      "filename": "HSSFPatriarch.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 174,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642354/",
+      "md5hash": "4b8479a67e34a342cfde58c7278efb63",
+      "lines": {
+        "65": "        }",
+        "66": "        else if (hssfShape instanceof HSSFTextbox)",
+        "67": "        {",
+        "68": "            shape = new TextboxShape( (HSSFTextbox)hssfShape, shapeId );"
+      },
+      "id": 15642354,
+      "filename": "AbstractShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 531,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642323/",
+      "md5hash": "90bc5f20331e7dcb9050bcbf7dd0d9c3",
+      "lines": {
+        "310": "        y -= ( font.getSize() / verticalPixelsPerPoint ) + 2 * verticalPixelsPerPoint;    // we want to draw the shape from the top-left",
+        "311": "        HSSFTextbox textbox = escherGroup.createTextbox( new HSSFChildAnchor( x, y, x + width, y + height ) );"
+      },
+      "id": 15642323,
+      "filename": "EscherGraphics.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 185,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642324/",
+      "md5hash": "fc029136a3141517ec69866f71588552",
+      "lines": {
+        "54": " */",
+        "55": "public class HSSFComment extends HSSFTextbox {"
+      },
+      "id": 15642324,
+      "filename": "HSSFComment.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

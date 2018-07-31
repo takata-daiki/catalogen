@@ -1,0 +1,46 @@
+{
+  "matchterm": "POIXMLProperties.CoreProperties",
+  "previouspage": null,
+  "searchterm": "POIXMLProperties.CoreProperties",
+  "query": "POIXMLProperties.CoreProperties",
+  "language_filters": [
+    {
+      "count": 1,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 1,
+  "results": [
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 148,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785575/",
+      "md5hash": "2a9aaf9e0c1f1ffdb93195ff06ef1121",
+      "lines": {
+        "56": "    private void extractMetadata(CoreProperties properties, Metadata metadata) {",
+        "51": "        addProperty(metadata, Metadata.CONTENT_TYPE, type);",
+        "52": "        extractMetadata(extractor.getCoreProperties(), metadata);",
+        "21": "import org.apache.poi.POIXMLTextExtractor;",
+        "22": "import org.apache.poi.POIXMLProperties.CoreProperties;",
+        "23": "import org.apache.poi.POIXMLProperties.ExtendedProperties;",
+        "24": "import org.apache.poi.openxml4j.opc.internal.PackagePropertiesPart;",
+        "55": ""
+      },
+      "id": 111785575,
+      "filename": "MetadataExtractor.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "matchterm": "XSLFSlideMaster",
+  "previouspage": null,
+  "searchterm": "XSLFSlideMaster",
+  "query": "XSLFSlideMaster",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 395,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406883/",
+      "md5hash": "affb9bb9cdc3dc16020b82db1f4ce116",
+      "lines": {
+        "256": "    public XSLFSlideMaster[] getSlideMasters() {",
+        "129": "                    shIdMap.put(p.getPackageRelationship().getId(), (XSLFSlide) p);",
+        "130": "                } else if (p instanceof XSLFSlideMaster) {",
+        "131": "                    XSLFSlideMaster master = (XSLFSlideMaster)p;",
+        "132": "                    _masters.put(p.getPackageRelationship().getId(), master);",
+        "70": "    private List<XSLFSlide> _slides;",
+        "71": "    private Map<String, XSLFSlideMaster> _masters;",
+        "257": "        return _masters.values().toArray(new XSLFSlideMaster[_masters.size()]);",
+        "258": "    }",
+        "238": "//        String masterId = _presentation.getSldMasterIdLst().getSldMasterIdArray(0).getId2();",
+        "239": "//        XSLFSlideMaster master = _masters.get(masterId);",
+        "125": "",
+        "126": "            _masters = new HashMap<String, XSLFSlideMaster>();",
+        "255": ""
+      },
+      "id": 97406883,
+      "filename": "XMLSlideShow.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 247,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406624/",
+      "md5hash": "bd91cfe08b1a6b3395f8a88caf56a673",
+      "lines": {
+        "136": "",
+        "137": "    public XSLFSlideMaster getSlideMaster(){"
+      },
+      "id": 97406624,
+      "filename": "XSLFSlide.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

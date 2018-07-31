@@ -1,0 +1,122 @@
+{
+  "matchterm": "MergeCellsRecord",
+  "previouspage": null,
+  "searchterm": "MergeCellsRecord",
+  "query": "MergeCellsRecord",
+  "language_filters": [
+    {
+      "count": 5,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 5,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 303,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642442/",
+      "md5hash": "566dd36cbee9d45551bc7589cba76b65",
+      "lines": {
+        "64": "    public MergeCellsRecord()",
+        "291": "    public Object clone() {",
+        "292": "        MergeCellsRecord rec = new MergeCellsRecord();        ",
+        "73": "    public MergeCellsRecord(RecordInputStream in)",
+        "72": "",
+        "57": " */",
+        "58": "public class MergeCellsRecord",
+        "63": ""
+      },
+      "id": 15642442,
+      "filename": "MergeCellsRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 3300,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642365/",
+      "md5hash": "1e8d548d196dc1063c30d9430b35b9f5",
+      "lines": {
+        "580": "",
+        "197": "            }",
+        "198": "            else if (rec.getSid() == MergeCellsRecord.sid)",
+        "551": "                MergeCellsRecord record = (MergeCellsRecord) mergedRecords.get(n);",
+        "200": "                retval.mergedRecords.add(rec);",
+        "201": "                retval.merged = ( MergeCellsRecord ) rec;",
+        "523": "        {",
+        "524": "            merged = ( MergeCellsRecord ) createMergedCells();",
+        "600": "                MergeCellsRecord record = (MergeCellsRecord) mergedRecords.get(n);",
+        "560": "",
+        "561": "        MergeCellsRecord rec = (MergeCellsRecord) mergedRecords.get(pos);",
+        "599": "            {",
+        "550": "            {",
+        "572": "            \tif (mergedRecords.size() > 0) {",
+        "573": "            \t\tmerged = (MergeCellsRecord) mergedRecords.get(mergedRecords.size() - 1);",
+        "581": "    public MergeCellsRecord.MergedRegion getMergedRegionAt(int index)"
+      },
+      "id": 15642365,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642343/",
+      "md5hash": "468caa59753e7c2d27a76f3903f70894",
+      "lines": {
+        "180": "                MulRKRecord.class, MulBlankRecord.class, MergeCellsRecord.class,",
+        "91": "import loci.poi.hssf.record.MMSRecord;",
+        "92": "import loci.poi.hssf.record.MergeCellsRecord;",
+        "179": "                LabelRecord.class, BlankRecord.class, ColumnInfoRecord.class,"
+      },
+      "id": 15642343,
+      "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 244,
+      "location": "/components/forks/poi/src/loci/poi/hssf/util",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642346/",
+      "md5hash": "42c79527410ab82447ff7aee971063e6",
+      "lines": {
+        "42": "",
+        "43": "import loci.poi.hssf.record.MergeCellsRecord.MergedRegion;"
+      },
+      "id": 15642346,
+      "filename": "Region.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "89": "                LabelRecord.class, BlankRecord.class, ColumnInfoRecord.class,",
+        "90": "                MulRKRecord.class, MulBlankRecord.class, MergeCellsRecord.class,"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 5,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "matchterm": "FieldsImpl",
+  "previouspage": null,
+  "searchterm": "FieldsImpl",
+  "query": "FieldsImpl",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/cyanogenmod/android_libcore.git",
+      "language": "Java",
+      "linescount": 111,
+      "location": "/archive/src/test/java/org/apache/harmony/archive/tests/java/util/jar",
+      "name": "android_libcore",
+      "url": "https://searchcode.com/codesearch/view/41533283/",
+      "md5hash": "0ed0379b7ee79f7da3f316957b9a452c",
+      "lines": {
+        "99": "            flag = false;",
+        "100": "            for (k = 0; k < fieldsImpl.length; k++) {",
+        "101": "                if (fieldsInt[i].getName().equals(fieldsImpl[k].getName())) {",
+        "102": "                    flag = true;",
+        "44": "        Field[] fieldsInt = Pack200.Packer.class.getFields();",
+        "45": "        Field[] fieldsImpl = Pack200.newPacker().getClass().getFields();",
+        "83": "        Field[] fieldsInt = Pack200.Unpacker.class.getFields();",
+        "84": "        Field[] fieldsImpl = Pack200.newUnpacker().getClass().getFields();",
+        "60": "            flag = false;",
+        "61": "            for (k = 0; k < fieldsImpl.length; k++) {",
+        "62": "                if (fieldsInt[i].getName().equals(fieldsImpl[k].getName())) {",
+        "63": "                    flag = true;"
+      },
+      "id": 41533283,
+      "filename": "Pack200Test.java"
+    },
+    {
+      "repo": "http://google-web-toolkit-incubator.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 584,
+      "location": "/src/com/google/gwt/libideas/resources/rebind/context",
+      "name": "google-web-toolkit-incubator",
+      "url": "https://searchcode.com/codesearch/view/3609593/",
+      "md5hash": "5649be6783d6de2423d0731f07f0b635",
+      "lines": {
+        "161": "        generatorContext, sourceType);",
+        "162": "    FieldsImpl fields = new FieldsImpl();",
+        "61": "   */",
+        "62": "  private static class FieldsImpl implements ResourceBundleFields {"
+      },
+      "id": 3609593,
+      "filename": "AbstractResourceBundleGenerator.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1043,
+      "location": "/src/org/apache/poi/hwpf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383956/",
+      "md5hash": "677c332698819342ff2ece2baf93a4ed",
+      "lines": {
+        "57": "import org.apache.poi.hwpf.usermodel.Fields;",
+        "58": "import org.apache.poi.hwpf.usermodel.FieldsImpl;",
+        "380": "    _fieldsTables = new FieldsTables(_tableStream, _fib);",
+        "381": "    _fields = new FieldsImpl(_fieldsTables);"
+      },
+      "id": 97383956,
+      "filename": "HWPFDocument.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "matchterm": "FormulaError",
+  "previouspage": null,
+  "searchterm": "FormulaError",
+  "query": "FormulaError",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 2438,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970693/",
+      "md5hash": "440bc7eec80263e4ee2bfd222f4c5f7c",
+      "lines": {
+        "1648": "\t\t\t\tSet<Ref>[] refs = null;",
+        "1649": "\t\t\t\tif (value instanceof FormulaError) {",
+        "1650": "\t\t\t\t\trefs = setValue(Byte.valueOf(((FormulaError)value).getCode()));",
+        "1651": "\t\t\t\t} else if (value instanceof Byte) {",
+        "1652": "\t\t\t\t\ttry {",
+        "1653": "\t\t\t\t\t\tFormulaError.forInt(((Byte)value).byteValue());",
+        "40": "import org.zkoss.poi.ss.usermodel.FilterColumn;",
+        "41": "import org.zkoss.poi.ss.usermodel.FormulaError;",
+        "1668": "\t\t\t\t} else {",
+        "1669": "\t\t\t\t\t throw new IllegalArgumentException(\"Unknown value type; must be a FormulaError, a leagal errorCode(a Byte), a Number, a String, a Boolean, a Date, or null: \" + value);"
+      },
+      "id": 3970693,
+      "filename": "RangeImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nuclos/nuclos.git",
+      "language": "Java",
+      "linescount": 207,
+      "location": "/nuclos-server/src/main/java/org/nuclos/server/common/ooxml",
+      "name": "nuclos",
+      "url": "https://searchcode.com/codesearch/view/46076963/",
+      "md5hash": "c0bffaa85f1edfa557338d7341487bcf",
+      "lines": {
+        "28": "import org.apache.poi.ss.usermodel.DateUtil;",
+        "29": "import org.apache.poi.ss.usermodel.FormulaError;",
+        "190": "\t\tcase Cell.CELL_TYPE_ERROR:",
+        "191": "\t\t\treturn FormulaError.forInt(cell.getErrorCellValue()).getString();"
+      },
+      "id": 46076963,
+      "filename": "ExcelReader.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

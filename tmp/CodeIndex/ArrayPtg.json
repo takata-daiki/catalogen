@@ -1,0 +1,134 @@
+{
+  "matchterm": "ArrayPtg",
+  "previouspage": null,
+  "searchterm": "ArrayPtg",
+  "query": "ArrayPtg",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 271,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642537/",
+      "md5hash": "ae4b2a799caaa5bd816effb2aa28e037",
+      "lines": {
+        "129": "    {",
+        "66": "",
+        "67": "public class ArrayPtg extends Ptg",
+        "249": "    public Object clone() {",
+        "87": "    public ArrayPtg(RecordInputStream in)",
+        "130": "        StringBuffer buffer = new StringBuffer(\"[ArrayPtg]\\n\");",
+        "82": "",
+        "83": "    protected ArrayPtg() {",
+        "86": "",
+        "55": "/**",
+        "56": " * ArrayPtg - handles arrays",
+        "57": " * ",
+        "250": "      ArrayPtg ptg = new ArrayPtg();",
+        "59": " * includes the Ptg sid and the reserved bytes. The next Ptg in the expression then follows.",
+        "60": " * It is only after the \"size\" of all the Ptgs is met, that the ArrayPtg data is actually",
+        "61": " * held after this. So Ptg.createParsedExpression keeps track of the number of "
+      },
+      "id": 15642537,
+      "filename": "ArrayPtg.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 485,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642564/",
+      "md5hash": "a03fe68945d6947241c13705dd4cc5e3",
+      "lines": {
+        "128": "        }",
+        "129": "        if (arrayPtgs != null) {",
+        "130": "        \tfor (int i=0;i<arrayPtgs.size();i++) {",
+        "131": "        \t\tArrayPtg p = (ArrayPtg)arrayPtgs.get(i);",
+        "132": "        \t\tp.readTokenValues(in);",
+        "257": "             \tbreak;",
+        "258": "             case ArrayPtgA.sid :               // 0x60",
+        "256": "             \tretval = new ArrayPtgV(in);",
+        "400": "",
+        "401": "    \tList arrayPtgs = null;",
+        "259": "             \tretval = new ArrayPtgA(in);",
+        "260": "             \tbreak;",
+        "123": "            \t\tarrayPtgs = new ArrayList(5);",
+        "124": "            \tarrayPtgs.add(ptg);",
+        "125": "            \tpos += 8;",
+        "255": "             case ArrayPtgV.sid :               // 0x40"
+      },
+      "id": 15642564,
+      "filename": "Ptg.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 102,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642535/",
+      "md5hash": "2436f0ae2e31634eb44caeb14e1c9980",
+      "lines": {
+        "66": "",
+        "67": "public class ArrayPtgV extends ArrayPtg",
+        "70": "",
+        "71": "    protected ArrayPtgV() {",
+        "74": "",
+        "75": "    public ArrayPtgV(RecordInputStream in)",
+        "80": "    public Object clone() {",
+        "81": "      ArrayPtgV ptg = new ArrayPtgV();",
+        "55": "/**",
+        "56": " * ArrayPtg - handles arrays",
+        "57": " * ",
+        "58": " * The ArrayPtg is a little wierd, the size of the Ptg when parsing initially only",
+        "59": " * includes the Ptg sid and the reserved bytes. The next Ptg in the expression then follows.",
+        "60": " * It is only after the \"size\" of all the Ptgs is met, that the ArrayPtg data is actually",
+        "61": " * held after this. So Ptg.createParsedExpression keeps track of the number of "
+      },
+      "id": 15642535,
+      "filename": "ArrayPtgV.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 97,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642584/",
+      "md5hash": "380810e3067824231a40cf95f0036bd8",
+      "lines": {
+        "64": "",
+        "65": "    protected ArrayPtgA() {",
+        "69": "",
+        "70": "    public ArrayPtgA(RecordInputStream in)",
+        "55": "/**",
+        "56": " * ArrayPtgA - handles arrays",
+        "76": "      ArrayPtgA ptg = new ArrayPtgA();",
+        "75": "    public Object clone() {",
+        "60": "",
+        "61": "public class ArrayPtgA extends ArrayPtg"
+      },
+      "id": 15642584,
+      "filename": "ArrayPtgA.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

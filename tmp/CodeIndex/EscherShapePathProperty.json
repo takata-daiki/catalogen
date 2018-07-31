@@ -1,0 +1,87 @@
+{
+  "matchterm": "EscherShapePathProperty",
+  "previouspage": null,
+  "searchterm": "EscherShapePathProperty",
+  "query": "EscherShapePathProperty",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 66,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642625/",
+      "md5hash": "dd16fe735c3696c8d9df261a6b69023b",
+      "lines": {
+        "48": "public class EscherShapePathProperty",
+        "57": "",
+        "58": "    public EscherShapePathProperty( short propertyNumber, int shapePath )",
+        "47": " */"
+      },
+      "id": 15642625,
+      "filename": "EscherShapePathProperty.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 184,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642360/",
+      "md5hash": "568f42341c2f49cf457f7336fcfb066f",
+      "lines": {
+        "98": "        opt.addEscherProperty(new EscherSimpleProperty(EscherProperties.GEOMETRY__BOTTOM, false, false, hssfShape.getDrawAreaHeight()));",
+        "99": "        opt.addEscherProperty(new EscherShapePathProperty(EscherProperties.GEOMETRY__SHAPEPATH, EscherShapePathProperty.COMPLEX));"
+      },
+      "id": 15642360,
+      "filename": "PolygonShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642361/",
+      "md5hash": "e8926e1642d96e5be85459525b4970cd",
+      "lines": {
+        "92": "        opt.setRecordId( EscherOptRecord.RECORD_ID );",
+        "93": "        opt.addEscherProperty( new EscherShapePathProperty( EscherProperties.GEOMETRY__SHAPEPATH, EscherShapePathProperty.COMPLEX ) );"
+      },
+      "id": 15642361,
+      "filename": "LineShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 128,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642603/",
+      "md5hash": "f08eee159fce1bf0383031b466b1ae4f",
+      "lines": {
+        "85": "            else if ( propertyType == EscherPropertyMetaData.TYPE_SHAPEPATH )",
+        "86": "                results.add( new EscherShapePathProperty( propId, propData ) );"
+      },
+      "id": 15642603,
+      "filename": "EscherPropertyFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

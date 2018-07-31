@@ -1,0 +1,229 @@
+{
+  "matchterm": "UnderlinePatterns",
+  "previouspage": null,
+  "searchterm": "UnderlinePatterns",
+  "query": "UnderlinePatterns",
+  "language_filters": [
+    {
+      "count": 10,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 10,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 1355,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter.pdf/src/main/java/org/apache/poi/xwpf/converter/pdf/internal",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673019/",
+      "md5hash": "5000f7cf0c2ae11266b40166c2a4f792",
+      "lines": {
+        "544": "        this.currentRunFontHAnsi = null;",
+        "545": "        this.currentRunUnderlinePatterns = null;",
+        "133": "",
+        "518": "            Chunk symbol =",
+        "519": "                createTextChunk( listItemText, false, listItemFont, currentRunUnderlinePatterns,",
+        "648": "    private void createAndAddChunks( IITextContainer parent, String textContent, UnderlinePatterns underlinePatterns,",
+        "647": "",
+        "678": "        Chunk chunk = createTextChunk( sbuf.toString(), pageNumber, chunkFont, underlinePatterns, backgroundColor );",
+        "677": "        Font chunkFont = getFont( font, fontAsian, fontComplex, currentGroup );",
+        "134": "    private UnderlinePatterns currentRunUnderlinePatterns;",
+        "56": "import org.apache.poi.xwpf.usermodel.ParagraphAlignment;",
+        "57": "import org.apache.poi.xwpf.usermodel.UnderlinePatterns;",
+        "667": "                Chunk chunk =",
+        "668": "                    createTextChunk( sbuf.toString(), pageNumber, chunkFont, underlinePatterns, backgroundColor );",
+        "606": "        Font fontComplex = currentRunFontHAnsi;",
+        "607": "        createAndAddChunks( pdfParagraphContainer, docxText.getStringValue(), currentRunUnderlinePatterns,"
+      },
+      "id": 96673019,
+      "filename": "PdfMapper.java"
+    },
+    {
+      "repo": "https://code.google.com/p/xdocreport/",
+      "language": "Java",
+      "linescount": 639,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal/itext",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/12208685/",
+      "md5hash": "c57703eb8d21657af4b974b6eb8d10f0",
+      "lines": {
+        "352": "        UnderlinePatterns underlinePatterns = run.getUnderline();",
+        "354": "        boolean singleUnderlined = false;",
+        "355": "        switch ( underlinePatterns )",
+        "52": "import org.apache.poi.xwpf.usermodel.IBodyElement;",
+        "53": "import org.apache.poi.xwpf.usermodel.UnderlinePatterns;",
+        "351": ""
+      },
+      "id": 12208685,
+      "filename": "PDFMapper.java"
+    },
+    {
+      "repo": "https://code.google.com/p/xdocreport/",
+      "language": "Java",
+      "linescount": 495,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal/xhtml",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/12208720/",
+      "md5hash": "dd6cf4bedbefe0b7e63404d0990f0fcc",
+      "lines": {
+        "313": "",
+        "40": "import org.apache.poi.xwpf.usermodel.ParagraphAlignment;",
+        "41": "import org.apache.poi.xwpf.usermodel.UnderlinePatterns;",
+        "314": "        UnderlinePatterns underlinePatterns = run.getUnderline();",
+        "315": "",
+        "316": "        switch ( underlinePatterns )"
+      },
+      "id": 12208720,
+      "filename": "XHTMLStyleUtil.java"
+    },
+    {
+      "repo": "https://code.google.com/p/xdocreport/",
+      "language": "Java",
+      "linescount": 501,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal/xhtml",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/12208721/",
+      "md5hash": "b4284bd8806df21353de32cbfd49672e",
+      "lines": {
+        "320": "    // switch (underlinePatterns) {",
+        "316": "    // }",
+        "317": "    // UnderlinePatterns underlinePatterns = run.getUnderline();",
+        "319": "    // boolean underlined = false;"
+      },
+      "id": 12208721,
+      "filename": "OLDXHTMLMapper.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 583,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter.xhtml/src/main/java/org/apache/poi/xwpf/converter/xhtml/internal/styles",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673786/",
+      "md5hash": "4984e8765f59cf41f5ca768e28cca565",
+      "lines": {
+        "66": "import org.apache.poi.xwpf.usermodel.ParagraphAlignment;",
+        "67": "import org.apache.poi.xwpf.usermodel.UnderlinePatterns;",
+        "295": "            // Underlines",
+        "296": "            UnderlinePatterns underlinePatterns = super.getUnderline( rPr );",
+        "297": "            if ( underlinePatterns != null )",
+        "298": "            {",
+        "299": "                switch ( underlinePatterns )"
+      },
+      "id": 96673786,
+      "filename": "CSSStylesDocument.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 500,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal/xhtml",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673278/",
+      "md5hash": "2555b809780cede5431162cbfec062e5",
+      "lines": {
+        "41": "import org.apache.poi.xwpf.usermodel.ParagraphAlignment;",
+        "42": "import org.apache.poi.xwpf.usermodel.UnderlinePatterns;",
+        "315": "        UnderlinePatterns underlinePatterns = run.getUnderline();",
+        "316": "",
+        "314": "",
+        "317": "        switch ( underlinePatterns )"
+      },
+      "id": 96673278,
+      "filename": "XHTMLStyleUtil.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 884,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal/itext",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673303/",
+      "md5hash": "58f5f4b9d6f4406c0fcea13e358fb18b",
+      "lines": {
+        "52": "import org.apache.poi.xwpf.usermodel.ParagraphAlignment;",
+        "53": "import org.apache.poi.xwpf.usermodel.UnderlinePatterns;",
+        "458": "",
+        "459": "        UnderlinePatterns underlinePatterns = run.getUnderline();",
+        "461": "        boolean singleUnderlined = false;",
+        "462": "        switch ( underlinePatterns )"
+      },
+      "id": 96673303,
+      "filename": "PDFMapper.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 44,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter.core/src/main/java/org/apache/poi/xwpf/converter/core/styles/run",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96672955/",
+      "md5hash": "5fd89d95ae5a23081279d8cfce7dd6c9",
+      "lines": {
+        "32": "    extends AbstractRunValueProvider<UnderlinePatterns>",
+        "37": "    @Override",
+        "38": "    public UnderlinePatterns getValue( CTRPr rPr, XWPFStylesDocument stylesDocument)",
+        "39": "    {",
+        "40": "        return ( rPr != null && rPr.isSetU() ) ? UnderlinePatterns.valueOf( rPr.getU().getVal().intValue() )",
+        "27": "import org.apache.poi.xwpf.converter.core.styles.XWPFStylesDocument;",
+        "28": "import org.apache.poi.xwpf.usermodel.UnderlinePatterns;",
+        "31": "public class RunUnderlineValueProvider"
+      },
+      "id": 96672955,
+      "filename": "RunUnderlineValueProvider.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 501,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal/xhtml",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673282/",
+      "md5hash": "4f5ea87a5a96b78db8b841ca9816f855",
+      "lines": {
+        "320": "    // switch (underlinePatterns) {",
+        "316": "    // }",
+        "317": "    // UnderlinePatterns underlinePatterns = run.getUnderline();",
+        "319": "    // boolean underlined = false;"
+      },
+      "id": 96673282,
+      "filename": "OLDXHTMLMapper.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 1318,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter.core/src/main/java/org/apache/poi/xwpf/converter/core/styles",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96672666/",
+      "md5hash": "18cc8374432d7dd6cf1b2a24c157d76a",
+      "lines": {
+        "516": "",
+        "517": "    public UnderlinePatterns getUnderline( CTRPr rPr )",
+        "521": "",
+        "106": "import org.apache.poi.xwpf.usermodel.ParagraphAlignment;",
+        "107": "import org.apache.poi.xwpf.usermodel.UnderlinePatterns;",
+        "522": "    public UnderlinePatterns getUnderline( XWPFRun run )"
+      },
+      "id": 96672666,
+      "filename": "XWPFStylesDocument.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 3,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

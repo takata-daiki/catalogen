@@ -1,0 +1,72 @@
+{
+  "matchterm": "AbortableHSSFListener",
+  "previouspage": null,
+  "searchterm": "AbortableHSSFListener",
+  "query": "AbortableHSSFListener",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 93,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventusermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642338/",
+      "md5hash": "d3e5ac48b71463b18a6b381228a1a65a",
+      "lines": {
+        "59": "",
+        "60": "public abstract class AbortableHSSFListener implements HSSFListener"
+      },
+      "id": 15642338,
+      "filename": "AbortableHSSFListener.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 166,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventusermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642339/",
+      "md5hash": "b121d0bf53bbf50e1642cf6873264092",
+      "lines": {
+        "152": "\t\t\t\t\tAbortableHSSFListener listener = ( AbortableHSSFListener ) listenObj;",
+        "149": "                Object listenObj = listeners.get(k);",
+        "150": "                if (listenObj instanceof AbortableHSSFListener)",
+        "151": "                {"
+      },
+      "id": 15642339,
+      "filename": "HSSFRequest.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 260,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventusermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642337/",
+      "md5hash": "880394f1b0f8ed8b4183af136268bc56",
+      "lines": {
+        "105": "     *",
+        "106": "     * If an <code>AbortableHSSFListener</code> causes a halt to processing during this call"
+      },
+      "id": 15642337,
+      "filename": "HSSFEventFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

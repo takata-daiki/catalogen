@@ -1,0 +1,65 @@
+{
+  "matchterm": "FSPADocumentPart",
+  "previouspage": null,
+  "searchterm": "FSPADocumentPart",
+  "query": "FSPADocumentPart",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1109,
+      "location": "/src/org/apache/poi/hwpf/model",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384033/",
+      "md5hash": "d1e2f02dc9ef99107ca7326905a58d39",
+      "lines": {
+        "977": "",
+        "978": "    public void setFSPAPlcfOffset( FSPADocumentPart part, int offset )",
+        "982": "",
+        "967": "",
+        "968": "    public int getFSPAPlcfOffset( FSPADocumentPart part )",
+        "983": "    public void setFSPAPlcfLength( FSPADocumentPart part, int length )",
+        "972": "",
+        "973": "    public int getFSPAPlcfLength( FSPADocumentPart part )"
+      },
+      "id": 97384033,
+      "filename": "FileInformationBlock.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1043,
+      "location": "/src/org/apache/poi/hwpf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383956/",
+      "md5hash": "677c332698819342ff2ece2baf93a4ed",
+      "lines": {
+        "33": "import org.apache.poi.hwpf.model.EscherRecordHolder;",
+        "34": "import org.apache.poi.hwpf.model.FSPADocumentPart;",
+        "325": "        _fspaHeaders = new FSPATable( _tableStream, _fib,",
+        "326": "                FSPADocumentPart.HEADER );",
+        "327": "        _fspaMain = new FSPATable( _tableStream, _fib, FSPADocumentPart.MAIN );",
+        "328": ""
+      },
+      "id": 97383956,
+      "filename": "HWPFDocument.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

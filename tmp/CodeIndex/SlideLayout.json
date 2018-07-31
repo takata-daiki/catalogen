@@ -1,0 +1,477 @@
+{
+  "matchterm": "SlideLayout",
+  "previouspage": null,
+  "searchterm": "SlideLayout",
+  "query": "SlideLayout",
+  "language_filters": [
+    {
+      "count": 20,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 20,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/vdzundza/transportation-problem",
+      "language": "Java",
+      "linescount": 387,
+      "location": "/externalJars/sources/com/alee/examples/groups",
+      "name": "transportation-problem",
+      "url": "https://searchcode.com/codesearch/view/134240134/",
+      "md5hash": "996cb1ce74d4c077571f8cdfe3c75308",
+      "lines": {
+        "256": "        slideLayout.slideOut ();",
+        "293": "",
+        "294": "        public SlideLayout ( JComponent container )",
+        "239": "",
+        "240": "        slideLayout.slideIn ();",
+        "285": "",
+        "87": "        searchPanel.setOpaque ( false );",
+        "88": "        slideLayout = new SlideLayout ( searchPanel );",
+        "89": "        searchPanel.setLayout ( slideLayout );",
+        "90": "        searchPanel.add ( topPanel );",
+        "60": "    private WebPanel searchPanel;",
+        "61": "    private SlideLayout slideLayout;",
+        "286": "    private class SlideLayout implements LayoutManager",
+        "255": ""
+      },
+      "id": 134240134,
+      "filename": "SlidingSearch.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ansgarkonermann/simpleodf",
+      "language": "Java",
+      "linescount": 1176,
+      "location": "/src/main/java/org/odftoolkit/simple/presentation",
+      "name": "simpleodf",
+      "url": "https://searchcode.com/codesearch/view/60371786/",
+      "md5hash": "ac40b0ac0e47d558131f2d42d785b21b",
+      "lines": {
+        "677": "\t\t\t\t} catch (Exception e1) {",
+        "678": "\t\t\t\t\tLogger.getLogger(SlideLayout.class.getName()).log(Level.SEVERE, null, e1);",
+        "909": "\t\t * @param aEnum",
+        "393": "\t\t\t\t} catch (Exception e1) {",
+        "394": "\t\t\t\t\tLogger.getLogger(SlideLayout.class.getName()).log(Level.SEVERE, null, e1);",
+        "301": "\t\t\t\t} catch (Exception e1) {",
+        "814": "\t\t\t\t} catch (Exception e1) {",
+        "815": "\t\t\t\t\tLogger.getLogger(SlideLayout.class.getName()).log(Level.SEVERE, null, e1);",
+        "912": "\t\t */",
+        "913": "\t\tpublic static String toString(SlideLayout aEnum) {",
+        "302": "\t\t\t\t\tLogger.getLogger(SlideLayout.class.getName()).log(Level.SEVERE, null, e1);",
+        "278": "\t */",
+        "279": "\tpublic enum SlideLayout {",
+        "921": "\t\t *            the name of the slide template type",
+        "922": "\t\t * @return a <code>SlideLayout</code>",
+        "910": "\t\t *            a <code>SlideLayout</code>"
+      },
+      "id": 60371786,
+      "filename": "Slide.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ansgarkonermann/simpleodf",
+      "language": "Java",
+      "linescount": 678,
+      "location": "/src/test/java/org/odftoolkit/simple/presentation",
+      "name": "simpleodf",
+      "url": "https://searchcode.com/codesearch/view/60371710/",
+      "md5hash": "c76ba7847283b9f2c96fb903b6e26309",
+      "lines": {
+        "288": "\t * PresentationDocument.newSlide(int index, String name,",
+        "289": "\t * OdfDrawPage.SlideLayout slideLayout) is used to new a slide at the",
+        "642": "\t\t\tcontainer = doc.newSlide(2, \"test2\", Slide.SlideLayout.TITLE_PLUS_TEXT);",
+        "641": "\t\t\tnumberList.addItems(numberItemContents);",
+        "660": "\t\t\t// add table.",
+        "307": "\t\t\tSlide slide5 = doc.getSlideByIndex(5);",
+        "308": "\t\t\tSlide newSlide1 = doc.newSlide(2, \"Slide 2 new\", Slide.SlideLayout.BLANK);",
+        "309": "\t\t\tAssert.assertTrue(2 == newSlide1.getSlideIndex());",
+        "310": "\t\t\tSlide newSlide2 = doc.newSlide(0, \"\", Slide.SlideLayout.TITLE_ONLY);",
+        "312": "\t\t\tAssert.assertTrue(7 == slide5.getSlideIndex());",
+        "313": "\t\t\tdoc.newSlide(3, Slide.SlideLayout.TITLE_PLUS_TEXT.toString(), Slide.SlideLayout.enumValueOf(\"title_text\"));",
+        "314": "\t\t\tSlide newSlide4 = doc.newSlide(4, null, Slide.SlideLayout.TITLE_PLUS_2_TEXT_BLOCK);",
+        "315": "\t\t\tAssert.assertTrue(newSlide4.getOdfElement().getDrawNameAttribute() != null);",
+        "316": "\t\t\tSlide.SlideLayout outlineType = Slide.SlideLayout.TITLE_OUTLINE;",
+        "317": "\t\t\tdoc.newSlide(14, Slide.SlideLayout.toString(outlineType), outlineType);",
+        "661": "\t\t\tTableContainer container = doc.newSlide(0, \"test_table\", Slide.SlideLayout.TITLE_PLUS_TEXT);"
+      },
+      "id": 60371710,
+      "filename": "SlideTest.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ansgarkonermann/simpleodf",
+      "language": "Java",
+      "linescount": 966,
+      "location": "/src/main/java/org/odftoolkit/simple",
+      "name": "simpleodf",
+      "url": "https://searchcode.com/codesearch/view/60371744/",
+      "md5hash": "b365d7db89a3061b5899b74eafe05176",
+      "lines": {
+        "800": "\t *         slideLayout is null, then use the default slide template which is",
+        "928": "\t// <style:presentation-page-layout>",
+        "930": "\t\tif (slideLayout == null) {",
+        "931": "\t\t\tslideLayout = Slide.SlideLayout.BLANK;",
+        "932": "\t\t}",
+        "805": "\t */",
+        "806": "\tpublic Slide newSlide(int index, String name, Slide.SlideLayout slideLayout) {",
+        "929": "\tprivate void setSlideLayout(DrawPageElement page, Slide.SlideLayout slideLayout) {",
+        "843": "\t\t}",
+        "844": "\t\tsetSlideLayout(newSlideElement, slideLayout);",
+        "783": "\t * New a slide at the specified position with the specified name, and use",
+        "784": "\t * the specified slide template. See <code>OdfDrawPage.SlideLayout</code>.",
+        "933": "\t\tslideLayout.apply(page);",
+        "795": "\t *            the new slide name",
+        "796": "\t * @param slideLayout",
+        "799": "\t *         specified name and apply the specified slide template. If"
+      },
+      "id": 60371744,
+      "filename": "PresentationDocument.java"
+    },
+    {
+      "repo": "https://github.com/booka/bookaui.git",
+      "language": "Java",
+      "linescount": 62,
+      "location": "/src/net/boklab/workspace/client/ui/app",
+      "name": "bookaui",
+      "url": "https://searchcode.com/codesearch/view/107375326/",
+      "md5hash": "de67e1c5c0c44fe746d36697e73eed84",
+      "lines": {
+        "48": "    public void setContent(final Display display) {",
+        "49": "\tslideLayout.add(display.asWidget());",
+        "34": "\tinitWidget(uiBinder.createAndBindUi(this));",
+        "35": "\tslideLayout = new SwitchLayoutPanel();",
+        "36": "\tcenter.add(slideLayout);",
+        "37": "\tcenter.setWidgetLeftRight(slideLayout, 0, PX, 0, PX);",
+        "38": "\tcenter.setWidgetTopBottom(slideLayout, 0, PX, 0, PX);",
+        "39": "\tcenter.forceLayout();",
+        "29": "",
+        "30": "    private final SwitchLayoutPanel slideLayout;"
+      },
+      "id": 107375326,
+      "filename": "BookaAppWidget.java"
+    },
+    {
+      "repo": "https://github.com/julianseeger/weblaf.git",
+      "language": "Java",
+      "linescount": 278,
+      "location": "/src/com/alee/examples/content",
+      "name": "weblaf",
+      "url": "https://searchcode.com/codesearch/view/69059831/",
+      "md5hash": "1ac29052975a9a0ed284a728690c227f",
+      "lines": {
+        "235": "",
+        "84": "        searchPanel.setOpaque ( false );",
+        "85": "        slideLayout = new SlidingLayout ( searchPanel );",
+        "86": "        searchPanel.setLayout ( slideLayout );",
+        "87": "        searchPanel.add ( topPanel );",
+        "252": "            searchField.transferFocus ();",
+        "58": "    private WebPanel searchPanel;",
+        "59": "    private SlidingLayout slideLayout;",
+        "236": "        slideLayout.slideIn ();",
+        "253": "            slideLayout.slideOut ();"
+      },
+      "id": 69059831,
+      "filename": "SlidingSearch.java"
+    },
+    {
+      "repo": "https://github.com/romantic011/transparent-over-animtabsview.git",
+      "language": "Java",
+      "linescount": 180,
+      "location": "/animtabsview/src/tree/love/animtabsview",
+      "name": "transparent-over-animtabsview",
+      "url": "https://searchcode.com/codesearch/view/93711657/",
+      "md5hash": "125854e87bc4b05f0a04b1a50345f925",
+      "lines": {
+        "65": "\t\tlocalLayoutParams.setMargins(0, 0, 0, (int) (f1 * 4.0F));",
+        "66": "\t\taddView(slideLayout);",
+        "53": "\t\tthis.mShadow = BitmapFactory.decodeResource(getResources(), R.drawable.blk_menubtn_shadow);",
+        "54": "\t\tLinearLayout slideLayout = new LinearLayout(this.mContext);",
+        "55": "\t\tslideLayout.setOrientation(LinearLayout.VERTICAL);",
+        "56": "\t\tView localView = new View(this.mContext);",
+        "57": "\t\tlocalView.setBackgroundResource(R.drawable.blk_menubtn_bg);",
+        "58": "\t\tslideLayout.addView(localView, new LinearLayout.LayoutParams(-1, 0, 1.0F));",
+        "59": "\t\tslideLayout.addView(new View(this.mContext), new LinearLayout.LayoutParams(-1, this.mSlideIcon.getHeight()));",
+        "60": "\t\tthis.mItemsLayout = new LinearLayout(this.mContext);"
+      },
+      "id": 93711657,
+      "filename": "AnimTabsView.java"
+    },
+    {
+      "repo": "https://gitlab.com/IllusionLP/packages_apps_OmniSwitch.git",
+      "language": "Java",
+      "linescount": 386,
+      "location": "/src/org/omnirom/omniswitch",
+      "name": "packages_apps_OmniSwitch",
+      "url": "https://searchcode.com/codesearch/view/115229130/",
+      "md5hash": "791cdc9cf6e8970570d769432b1c2118",
+      "lines": {
+        "361": "",
+        "362": "    public void slideLayout(float distanceX) {",
+        "363": "        mLayout.slideLayout(distanceX);",
+        "364": "    }",
+        "365": "",
+        "366": "    public void finishSlideLayout() {",
+        "367": "        mLayout.finishSlideLayout();",
+        "368": "    }",
+        "369": "",
+        "370": "    public void openSlideLayout(boolean fromFling) {",
+        "371": "        mLayout.openSlideLayout(fromFling);",
+        "372": "    }",
+        "373": "",
+        "374": "    public void canceSlideLayout() {",
+        "375": "        mLayout.canceSlideLayout();"
+      },
+      "id": 115229130,
+      "filename": "SwitchManager.java"
+    },
+    {
+      "repo": "https://gitlab.com/IllusionLP/packages_apps_OmniSwitch.git",
+      "language": "Java",
+      "linescount": 1622,
+      "location": "/src/org/omnirom/omniswitch/ui",
+      "name": "packages_apps_OmniSwitch",
+      "url": "https://searchcode.com/codesearch/view/115229234/",
+      "md5hash": "6fc873f12632b02b6cae708b64e85c95",
+      "lines": {
+        "1568": "            Log.d(TAG, \"finishSlideLayout \" + mCurrentDistance);",
+        "1600": "    public void slideLayout(float distanceX) {",
+        "1601": "        if (DEBUG) {",
+        "1578": "",
+        "1579": "    public void finishSlideLayoutHide() {",
+        "1580": "        if (DEBUG) {",
+        "1581": "            Log.d(TAG, \"finishSlideLayoutHide \" + mCurrentDistance);",
+        "1591": "",
+        "1592": "    public void openSlideLayout(boolean fromFling) {",
+        "1599": "",
+        "1595": "",
+        "1596": "    public void canceSlideLayout() {",
+        "1565": "",
+        "1566": "    public void finishSlideLayout() {",
+        "1567": "        if (DEBUG) {"
+      },
+      "id": 115229234,
+      "filename": "SwitchLayout.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ansgarkonermann/simpleodf",
+      "language": "Java",
+      "linescount": 124,
+      "location": "/src/test/java/org/odftoolkit/simple/draw",
+      "name": "simpleodf",
+      "url": "https://searchcode.com/codesearch/view/60371716/",
+      "md5hash": "97cad7e71143e1690bb8569fe164c151",
+      "lines": {
+        "33": "import org.odftoolkit.simple.presentation.Slide;",
+        "34": "import org.odftoolkit.simple.presentation.Slide.SlideLayout;",
+        "61": "\t\t\tPresentationDocument presentDoc = PresentationDocument.newPresentationDocument();",
+        "62": "\t\t\tSlide slide1 = presentDoc.newSlide(1, \"slide1\", SlideLayout.TITLE_PLUS_2_TEXT_BLOCK);"
+      },
+      "id": 60371716,
+      "filename": "TextBoxTest.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ansgarkonermann/simpleodf",
+      "language": "Java",
+      "linescount": 69,
+      "location": "/src/test/java/org/odftoolkit/simple/draw",
+      "name": "simpleodf",
+      "url": "https://searchcode.com/codesearch/view/60371717/",
+      "md5hash": "8c5a59e5d507d31d659f797b7874cd5d",
+      "lines": {
+        "40": "\t\t\tSlide slide = pDoc.newSlide(0, \"test\", SlideLayout.TITLE_OUTLINE);",
+        "13": "import org.odftoolkit.simple.presentation.Slide;",
+        "14": "import org.odftoolkit.simple.presentation.Slide.SlideLayout;",
+        "39": "\t\t\tPresentationDocument pDoc = PresentationDocument.newPresentationDocument();"
+      },
+      "id": 60371717,
+      "filename": "ImageTest.java"
+    },
+    {
+      "repo": "https://gitlab.com/IllusionLP/packages_apps_OmniSwitch.git",
+      "language": "Java",
+      "linescount": 1568,
+      "location": "/src/org/omnirom/omniswitch/ui",
+      "name": "packages_apps_OmniSwitch",
+      "url": "https://searchcode.com/codesearch/view/115229228/",
+      "md5hash": "f9335826e7c578bce918726320500197",
+      "lines": {
+        "384": "                    if (Math.abs(distanceX) > mSlop) {",
+        "385": "                        mRecentsManager.finishSlideLayout();",
+        "371": "                        }",
+        "372": "                        mRecentsManager.slideLayout(Math.abs(distanceX));",
+        "174": "                mHandler.removeCallbacks(mLongPressRunnable);",
+        "175": "                mRecentsManager.openSlideLayout(true);"
+      },
+      "id": 115229228,
+      "filename": "SwitchGestureView.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 699,
+      "location": "/eid-applet-service-signer/src/main/java/be/fedict/eid/applet/service/signer/ooxml",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982661/",
+      "md5hash": "4a959b6e5a0f77ffd0f0c3597fcdb48b",
+      "lines": {
+        "522": "\t\t\t\"application/vnd.openxmlformats-officedocument.presentationml.presentation.main+xml\",",
+        "523": "\t\t\t\"application/vnd.openxmlformats-officedocument.presentationml.slideLayout+xml\",",
+        "668": "\t\t\t\"slide\", //",
+        "669": "\t\t\t\"slideLayout\", //"
+      },
+      "id": 7982661,
+      "filename": "OOXMLSignatureFacet.java"
+    },
+    {
+      "repo": "http://officeotron.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 528,
+      "location": "/src/org/probatron/officeotron",
+      "name": "officeotron",
+      "url": "https://searchcode.com/codesearch/view/13991510/",
+      "md5hash": "0dd7a54b9cf99587a4455d41cd44df33",
+      "lines": {
+        "416": "                        \"http://schemas.openxmlformats.org/presentationml/2006/main\",",
+        "417": "                        \"http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout\",",
+        "414": "                        \"13.3.9\",",
+        "415": "                        \"application/vnd.openxmlformats-officedocument.presentationml.slideLayout+xml\","
+      },
+      "id": 13991510,
+      "filename": "OOXMLSchemaMap.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 302,
+      "location": "/src/main/java/org/docx4j/openpackaging/parts/relationships",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17641483/",
+      "md5hash": "8324eeb5148db29c6520d0aba4a1b6ce",
+      "lines": {
+        "176": "\tpublic final static String PRESENTATIONML_SLIDE_LAYOUT = \t",
+        "177": "\t\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout\";",
+        "174": "\t\t",
+        "175": "\t// Target=\"../slideLayouts/slideLayout1.xml\""
+      },
+      "id": 17641483,
+      "filename": "Namespaces.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ansgarkonermann/simpleodf",
+      "language": "Java",
+      "linescount": 79,
+      "location": "/src/test/java/org/odftoolkit/simple/presentation",
+      "name": "simpleodf",
+      "url": "https://searchcode.com/codesearch/view/60371711/",
+      "md5hash": "bbd2111e60398f7d1d654ae9c92055f4",
+      "lines": {
+        "53": "\t\t\t// add list.",
+        "54": "\t\t\tSlide slide = doc.newSlide(0, \"test0\", Slide.SlideLayout.TITLE_OUTLINE);"
+      },
+      "id": 60371711,
+      "filename": "NotesTest.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 247,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406624/",
+      "md5hash": "bd91cfe08b1a6b3395f8a88caf56a673",
+      "lines": {
+        "131": "        if(_layout == null) {",
+        "132": "            throw new IllegalArgumentException(\"SlideLayout was not found for \" + this.toString());",
+        "137": "    public XSLFSlideMaster getSlideMaster(){",
+        "138": "        return getSlideLayout().getSlideMaster();",
+        "183": "    public XSLFTheme getTheme(){",
+        "46": "   private final CTSlide _slide;",
+        "47": "   private XSLFSlideLayout _layout;",
+        "184": "    \treturn getSlideLayout().getSlideMaster().getTheme();",
+        "118": "    @Override",
+        "119": "    public XSLFSlideLayout getMasterSheet(){",
+        "120": "        return getSlideLayout();",
+        "121": "    }",
+        "122": "",
+        "123": "    public XSLFSlideLayout getSlideLayout(){",
+        "125": "             for (POIXMLDocumentPart p : getRelations()) {",
+        "126": "                if (p instanceof XSLFSlideLayout){",
+        "127": "                   _layout = (XSLFSlideLayout)p;"
+      },
+      "id": 97406624,
+      "filename": "XSLFSlide.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 972,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406763/",
+      "md5hash": "90e9bcad3d44264dac9d11db9a001e3f",
+      "lines": {
+        "581": "     * <p>",
+        "582": "     * slide <-- slideLayout <-- slideMaster"
+      },
+      "id": 97406763,
+      "filename": "XSLFSimpleShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 555,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406768/",
+      "md5hash": "06c77456c926d8545168347abe70a1d6",
+      "lines": {
+        "469": "     * @return whether shapes on the master sheet should be shown. By default master graphics is turned off.",
+        "470": "     * Sheets that support the notion of master (slide, slideLayout) should override it and"
+      },
+      "id": 97406768,
+      "filename": "XSLFSheet.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 395,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406883/",
+      "md5hash": "affb9bb9cdc3dc16020b82db1f4ce116",
+      "lines": {
+        "240": "",
+        "241": "//        XSLFSlideLayout layout = master.getLayout(SlideLayout.BLANK);",
+        "242": "    \tXSLFSlideLayout layout = null;",
+        "243": "        if(layout == null) throw new IllegalArgumentException(\"Blank layout was not found\");",
+        "203": "     */",
+        "204": "    public XSLFSlide createSlide(XSLFSlideLayout layout) {"
+      },
+      "id": 97406883,
+      "filename": "XMLSlideShow.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 8,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 7,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 3,
+      "source": "GitLab",
+      "id": 13
+    },
+    {
+      "count": 2,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

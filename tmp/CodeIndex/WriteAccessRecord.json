@@ -1,0 +1,275 @@
+{
+  "matchterm": "WriteAccessRecord",
+  "previouspage": null,
+  "searchterm": "WriteAccessRecord",
+  "query": "WriteAccessRecord",
+  "language_filters": [
+    {
+      "count": 14,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 14,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 73,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260265/",
+      "md5hash": "2a660fba8e8bd876bd523b4e61f976c1",
+      "lines": {
+        "48": "  public WriteAccessRecord()",
+        "47": "   */",
+        "30": " */",
+        "31": "class WriteAccessRecord extends WritableRecordData"
+      },
+      "id": 43260265,
+      "filename": "WriteAccessRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 73,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200793/",
+      "md5hash": "2a660fba8e8bd876bd523b4e61f976c1",
+      "lines": {
+        "48": "  public WriteAccessRecord()",
+        "47": "   */",
+        "30": " */",
+        "31": "class WriteAccessRecord extends WritableRecordData"
+      },
+      "id": 49200793,
+      "filename": "WriteAccessRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 166,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642401/",
+      "md5hash": "1f45c99927f9b01dc51288a9a14de2f8",
+      "lines": {
+        "72": "    public WriteAccessRecord(RecordInputStream in)",
+        "71": "",
+        "56": "",
+        "57": "public class WriteAccessRecord",
+        "62": "",
+        "63": "    public WriteAccessRecord()"
+      },
+      "id": 15642401,
+      "filename": "WriteAccessRecord.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 73,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/write/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374547/",
+      "md5hash": "8bd1f827626929b50104a3c5e3d48266",
+      "lines": {
+        "48": "  public WriteAccessRecord()",
+        "47": "   */",
+        "30": " */",
+        "31": "class WriteAccessRecord extends WritableRecordData"
+      },
+      "id": 11374547,
+      "filename": "WriteAccessRecord.java"
+    },
+    {
+      "repo": "http://brainstream.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 70,
+      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/read/biff",
+      "name": "brainstream",
+      "url": "https://searchcode.com/codesearch/view/13919586/",
+      "md5hash": "c5b6a0bb80a0eb17982015d60edf1ee0",
+      "lines": {
+        "42": "   */",
+        "43": "  public WriteAccessRecord(Record t, boolean isBiff8, WorkbookSettings ws)",
+        "29": " */",
+        "30": "class WriteAccessRecord extends RecordData"
+      },
+      "id": 13919586,
+      "filename": "WriteAccessRecord.java"
+    },
+    {
+      "repo": "http://brainstream.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 78,
+      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/write/biff",
+      "name": "brainstream",
+      "url": "https://searchcode.com/codesearch/view/13919730/",
+      "md5hash": "633fcb426c4074d6a8747e49ec690ed1",
+      "lines": {
+        "32": " */",
+        "33": "class WriteAccessRecord extends WritableRecordData",
+        "50": "  public WriteAccessRecord(String userName)",
+        "49": "   */"
+      },
+      "id": 13919730,
+      "filename": "WriteAccessRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 2351,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642358/",
+      "md5hash": "2f47d8e4aa73ffbba0d056d2a6f68eee",
+      "lines": {
+        "128": "    private WriteAccessRecord writeAccess;",
+        "2299": "           this.writeAccess = (WriteAccessRecord)createWriteAccess();",
+        "2315": "                i < records.size() && !(records.get(i) instanceof WriteAccessRecord); ",
+        "2314": "           for (i = 0; ",
+        "907": "     * creates the WriteAccess record containing the logged in user's name",
+        "908": "     * @see loci.poi.hssf.record.WriteAccessRecord",
+        "909": "     * @see loci.poi.hssf.record.Record",
+        "910": "     * @return record containing a WriteAccessRecord",
+        "913": "    protected Record createWriteAccess() {",
+        "914": "        WriteAccessRecord retval = new WriteAccessRecord();",
+        "2296": "",
+        "2297": "    public WriteAccessRecord getWriteAccess() {",
+        "250": "                    break;",
+        "251": "                case WriteAccessRecord.sid: ",
+        "2298": "        if (this.writeAccess == null) {",
+        "127": "    private FileSharingRecord fileShare;"
+      },
+      "id": 15642358,
+      "filename": "Workbook.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 1870,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260266/",
+      "md5hash": "7cf7f2ed2e9a9ecf9aeb7a31626a4cb3",
+      "lines": {
+        "707": "",
+        "708": "    WriteAccessRecord wr = new WriteAccessRecord();"
+      },
+      "id": 43260266,
+      "filename": "WritableWorkbookImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 1870,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200794/",
+      "md5hash": "7cf7f2ed2e9a9ecf9aeb7a31626a4cb3",
+      "lines": {
+        "707": "",
+        "708": "    WriteAccessRecord wr = new WriteAccessRecord();"
+      },
+      "id": 49200794,
+      "filename": "WritableWorkbookImpl.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1870,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/write/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374615/",
+      "md5hash": "eeb7fb5f28e170de50ae99417e46e6f4",
+      "lines": {
+        "707": "",
+        "708": "    WriteAccessRecord wr = new WriteAccessRecord();"
+      },
+      "id": 11374615,
+      "filename": "WritableWorkbookImpl.java"
+    },
+    {
+      "repo": "http://brainstream.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1298,
+      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/read/biff",
+      "name": "brainstream",
+      "url": "https://searchcode.com/codesearch/view/13919614/",
+      "md5hash": "065ebacbd9ecafe57916ba59731b4787",
+      "lines": {
+        "820": "      {",
+        "821": "        WriteAccessRecord war = new WriteAccessRecord(r, bof.isBiff8(),"
+      },
+      "id": 13919614,
+      "filename": "WorkbookParser.java"
+    },
+    {
+      "repo": "http://brainstream.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1908,
+      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/write/biff",
+      "name": "brainstream",
+      "url": "https://searchcode.com/codesearch/view/13919798/",
+      "md5hash": "1b180ce870b12583c0822f5205cc43e8",
+      "lines": {
+        "725": "",
+        "726": "    WriteAccessRecord wr = new WriteAccessRecord(settings.getWriteAccess());"
+      },
+      "id": 13919798,
+      "filename": "WritableWorkbookImpl.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642343/",
+      "md5hash": "468caa59753e7c2d27a76f3903f70894",
+      "lines": {
+        "129": "import loci.poi.hssf.record.WindowTwoRecord;",
+        "130": "import loci.poi.hssf.record.WriteAccessRecord;",
+        "158": "                BOFRecord.class, InterfaceHdrRecord.class, MMSRecord.class,",
+        "159": "                InterfaceEndRecord.class, WriteAccessRecord.class,"
+      },
+      "id": 15642343,
+      "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "68": "                BOFRecord.class, InterfaceHdrRecord.class, MMSRecord.class,",
+        "69": "                InterfaceEndRecord.class, WriteAccessRecord.class,"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 6,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 4,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

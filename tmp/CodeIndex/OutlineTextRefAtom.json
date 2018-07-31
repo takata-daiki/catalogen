@@ -1,0 +1,48 @@
+{
+  "matchterm": "OutlineTextRefAtom",
+  "previouspage": null,
+  "searchterm": "OutlineTextRefAtom",
+  "query": "OutlineTextRefAtom",
+  "language_filters": [
+    {
+      "count": 1,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 1,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 612,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394395/",
+      "md5hash": "4ae551d90bbc16377c5513186d4e9dc1",
+      "lines": {
+        "528": "            if (child[i] instanceof OutlineTextRefAtom) {",
+        "529": "                ota = (OutlineTextRefAtom)child[i];",
+        "530": "                break;",
+        "544": "                logger.log(POILogger.WARN, \"text run not found for OutlineTextRefAtom.TextIndex=\" + idx);",
+        "38": "import org.apache.poi.hslf.record.OEPlaceholderAtom;",
+        "39": "import org.apache.poi.hslf.record.OutlineTextRefAtom;",
+        "543": "            if(_txtrun == null) {",
+        "523": "",
+        "524": "        OutlineTextRefAtom ota = null;",
+        "527": "        for (int i = 0; i < child.length; i++) {"
+      },
+      "id": 97394395,
+      "filename": "TextShape.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

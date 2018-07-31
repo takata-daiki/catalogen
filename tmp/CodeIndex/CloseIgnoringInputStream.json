@@ -1,0 +1,99 @@
+{
+  "matchterm": "CloseIgnoringInputStream",
+  "previouspage": null,
+  "searchterm": "CloseIgnoringInputStream",
+  "query": "CloseIgnoringInputStream",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "https://github.com/rkarnik/hibernate-validator.git",
+      "language": "Java",
+      "linescount": 345,
+      "location": "/engine/src/main/java/org/hibernate/validator/internal/xml",
+      "name": "hibernate-validator",
+      "url": "https://searchcode.com/codesearch/view/69278569/",
+      "md5hash": "943202c664eec597f78303054820eb7d",
+      "lines": {
+        "304": "\t\t\tStreamSource stream = new StreamSource( new CloseIgnoringInputStream( in ) );",
+        "336": "\t\t\tsuper( in );",
+        "303": "",
+        "333": "\t// JAXB closes the underlying input stream",
+        "334": "\tprivate static class CloseIgnoringInputStream extends FilterInputStream {",
+        "335": "\t\tpublic CloseIgnoringInputStream(InputStream in) {"
+      },
+      "id": 69278569,
+      "filename": "XmlMappingParser.java"
+    },
+    {
+      "repo": "https://github.com/edbean/hibernate-validator.git",
+      "language": "Java",
+      "linescount": 666,
+      "location": "/engine/src/main/java/org/hibernate/validator/internal/xml",
+      "name": "hibernate-validator",
+      "url": "https://searchcode.com/codesearch/view/74193876/",
+      "md5hash": "da7e0f5e9214183ef67bdc603d67c831",
+      "lines": {
+        "624": "",
+        "625": "\t\t\tStreamSource stream = new StreamSource( new CloseIgnoringInputStream( in ) );",
+        "657": "\t\t\tsuper( in );",
+        "656": "\t\tpublic CloseIgnoringInputStream(InputStream in) {",
+        "654": "\t// JAXB closes the underlying input stream",
+        "655": "\tprivate static class CloseIgnoringInputStream extends FilterInputStream {"
+      },
+      "id": 74193876,
+      "filename": "XmlMappingParser.java"
+    },
+    {
+      "repo": "https://github.com/anupamsaini/hibernate-validator.git",
+      "language": "Java",
+      "linescount": 350,
+      "location": "/engine/src/main/java/org/hibernate/validator/internal/xml",
+      "name": "hibernate-validator",
+      "url": "https://searchcode.com/codesearch/view/93706227/",
+      "md5hash": "dca3834d73506be355c13ec028561dea",
+      "lines": {
+        "338": "\t// JAXB closes the underlying input stream",
+        "339": "\tprivate static class CloseIgnoringInputStream extends FilterInputStream {",
+        "340": "\t\tpublic CloseIgnoringInputStream(InputStream in) {",
+        "309": "\t\t\tStreamSource stream = new StreamSource( new CloseIgnoringInputStream( in ) );",
+        "308": "",
+        "341": "\t\t\tsuper( in );"
+      },
+      "id": 93706227,
+      "filename": "XmlMappingParser.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 615,
+      "location": "/ppt/poi/org/apache/poi/poifs/filesystem",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97397929/",
+      "md5hash": "5083d727a84f9c004bece7393d2ae9b8",
+      "lines": {
+        "75": "        return new CloseIgnoringInputStream(is);",
+        "74": "    public static InputStream createNonClosingInputStream(InputStream is) {",
+        "51": "import org.apache.poi.poifs.storage.SmallBlockTableWriter;",
+        "52": "import org.apache.poi.util.CloseIgnoringInputStream;"
+      },
+      "id": 97397929,
+      "filename": "POIFSFileSystem.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

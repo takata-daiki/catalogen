@@ -1,0 +1,93 @@
+{
+  "matchterm": "XSLFRelation",
+  "previouspage": null,
+  "searchterm": "XSLFRelation",
+  "query": "XSLFRelation",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 265,
+      "location": "/pptx/src/org/apache/poi/xslf",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406428/",
+      "md5hash": "8f08dde64ec3cc85fb68661974a86de1",
+      "lines": {
+        "188": "\t\t\tnotes = slidePart.getRelationshipsByType(XSLFRelation.NOTES.getRelation());",
+        "27": "import org.apache.poi.xslf.usermodel.XMLSlideShow;",
+        "187": "\t\ttry {",
+        "231": "//\t\ttry {",
+        "232": "//\t\t\tcommentRels = slidePart.getRelationshipsByType(XSLFRelation.COMMENTS.getRelation());",
+        "28": "import org.apache.poi.xslf.usermodel.XSLFRelation;",
+        "75": "\t\t",
+        "76": "\t\tif(getCorePart().getContentType().equals(XSLFRelation.THEME_MANAGER.getContentType())) {"
+      },
+      "id": 97406428,
+      "filename": "XSLFSlideShow.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 395,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406883/",
+      "md5hash": "affb9bb9cdc3dc16020b82db1f4ce116",
+      "lines": {
+        "216": "        XSLFSlide slide = (XSLFSlide)createRelationship(",
+        "217": "                XSLFRelation.SLIDE, XSLFFactory.getInstance(), cnt);",
+        "84": "        try {",
+        "85": "            if(getCorePart().getContentType().equals(XSLFRelation.THEME_MANAGER.getContentType())) {"
+      },
+      "id": 97406883,
+      "filename": "XMLSlideShow.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 351,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406700/",
+      "md5hash": "7ac71aab113fccf906b12580ebb695aa",
+      "lines": {
+        "251": "        PackageRelationship rel = _sheet.getPackagePart().addRelationship(",
+        "252": "                pic.getPartName(), TargetMode.INTERNAL, XSLFRelation.IMAGES.getRelation());"
+      },
+      "id": 97406700,
+      "filename": "XSLFGroupShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 555,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406768/",
+      "md5hash": "06c77456c926d8545168347abe70a1d6",
+      "lines": {
+        "192": "                pic.getPartName(), TargetMode.INTERNAL, XSLFRelation.IMAGES.getRelation());",
+        "191": "        PackageRelationship rel = getPackagePart().addRelationship("
+      },
+      "id": 97406768,
+      "filename": "XSLFSheet.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

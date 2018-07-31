@@ -1,0 +1,53 @@
+{
+  "matchterm": "EscherRecordHolder",
+  "previouspage": null,
+  "searchterm": "EscherRecordHolder",
+  "query": "EscherRecordHolder",
+  "language_filters": [
+    {
+      "count": 1,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 1,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1043,
+      "location": "/src/org/apache/poi/hwpf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383956/",
+      "md5hash": "677c332698819342ff2ece2baf93a4ed",
+      "lines": {
+        "32": "import org.apache.poi.hwpf.model.DocumentProperties;",
+        "33": "import org.apache.poi.hwpf.model.EscherRecordHolder;",
+        "551": "  @Internal",
+        "552": "  public EscherRecordHolder getEscherRecordHolder() {",
+        "553": "      return _escherRecordHolder;",
+        "330": "    {",
+        "331": "        _escherRecordHolder = new EscherRecordHolder(_tableStream, _fib.getFcDggInfo(), _fib.getLcbDggInfo());",
+        "333": "    {",
+        "334": "        _escherRecordHolder = new EscherRecordHolder();",
+        "337": "    // read in the pictures stream",
+        "338": "    _pictures = new PicturesTable(this, _dataStream, _mainStream, _fspaMain, _escherRecordHolder);",
+        "342": "    // And escher pictures",
+        "343": "    _officeDrawingsHeaders = new OfficeDrawingsImpl( _fspaHeaders, _escherRecordHolder, _mainStream );",
+        "344": "    _officeDrawingsMain = new OfficeDrawingsImpl( _fspaMain , _escherRecordHolder, _mainStream);",
+        "554": "  }"
+      },
+      "id": 97383956,
+      "filename": "HWPFDocument.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

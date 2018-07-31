@@ -1,0 +1,420 @@
+{
+  "matchterm": "LabelSSTRecord",
+  "previouspage": null,
+  "searchterm": "LabelSSTRecord",
+  "query": "LabelSSTRecord",
+  "language_filters": [
+    {
+      "count": 23,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 23,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 89,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260424/",
+      "md5hash": "b9d33b9c289833ad6eb9c2ce22b1c798",
+      "lines": {
+        "49": "   */",
+        "50": "  public LabelSSTRecord(Record t, SSTRecord stringTable, FormattingRecords fr,",
+        "29": " */",
+        "30": "class LabelSSTRecord extends CellValue implements LabelCell"
+      },
+      "id": 43260424,
+      "filename": "LabelSSTRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 89,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200952/",
+      "md5hash": "b9d33b9c289833ad6eb9c2ce22b1c798",
+      "lines": {
+        "49": "   */",
+        "50": "  public LabelSSTRecord(Record t, SSTRecord stringTable, FormattingRecords fr,",
+        "29": " */",
+        "30": "class LabelSSTRecord extends CellValue implements LabelCell"
+      },
+      "id": 49200952,
+      "filename": "LabelSSTRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 315,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642468/",
+      "md5hash": "1ff21c19ff716e85c4d0ac81092c36fd",
+      "lines": {
+        "66": "",
+        "67": "    public LabelSSTRecord()",
+        "55": "",
+        "56": "public class LabelSSTRecord",
+        "307": "      LabelSSTRecord rec = new LabelSSTRecord();",
+        "75": "",
+        "76": "    public LabelSSTRecord(RecordInputStream in)",
+        "306": "    public Object clone() {"
+      },
+      "id": 15642468,
+      "filename": "LabelSSTRecord.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 89,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/read/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374441/",
+      "md5hash": "b9d33b9c289833ad6eb9c2ce22b1c798",
+      "lines": {
+        "49": "   */",
+        "50": "  public LabelSSTRecord(Record t, SSTRecord stringTable, FormattingRecords fr,",
+        "29": " */",
+        "30": "class LabelSSTRecord extends CellValue implements LabelCell"
+      },
+      "id": 11374441,
+      "filename": "LabelSSTRecord.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 595,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785559/",
+      "md5hash": "6b55090236799f49ee0f5bd7d54bbbac",
+      "lines": {
+        "51": "import org.apache.poi.hssf.record.LabelRecord;",
+        "52": "import org.apache.poi.hssf.record.LabelSSTRecord;",
+        "357": "",
+        "358": "            case SSTRecord.sid: // holds all the strings for LabelSSTRecords",
+        "263": "                hssfRequest.addListener(formatListener, LabelRecord.sid);",
+        "264": "                hssfRequest.addListener(formatListener, LabelSSTRecord.sid);",
+        "372": "            case LabelSSTRecord.sid: // Ref. a string in the shared string table",
+        "374": "                UnicodeString unicode = sstRecord.getString(sst.getSSTIndex());",
+        "371": "",
+        "373": "                LabelSSTRecord sst = (LabelSSTRecord) record;"
+      },
+      "id": 111785559,
+      "filename": "ExcelExtractor.java"
+    },
+    {
+      "repo": "https://github.com/kissys/es.git",
+      "language": "Java",
+      "linescount": 117,
+      "location": "/web/src/main/java/com/sishuok/es/showcase/excel/service",
+      "name": "es",
+      "url": "https://searchcode.com/codesearch/view/92669296/",
+      "md5hash": "ae59df26890bbbe2087f556c2c4c51ca",
+      "lines": {
+        "80": "",
+        "81": "                } else if(record instanceof LabelSSTRecord) {",
+        "82": "                    //\u89e3\u6790\u4e00\u4e2aString\u7c7b\u578b\u7684\u5355\u5143\u683c\u503c\uff08\u5b58\u50a8\u5728SSTRecord\uff09",
+        "83": "                    LabelSSTRecord lrec = (LabelSSTRecord) record;",
+        "62": "            case NumberRecord.sid:",
+        "63": "            case LabelSSTRecord.sid:"
+      },
+      "id": 92669296,
+      "filename": "Excel2003ImportListener.java"
+    },
+    {
+      "repo": "https://github.com/xiezhaohui/DataViewer.git",
+      "language": "Java",
+      "linescount": 304,
+      "location": "/ETL/src/com/util",
+      "name": "DataViewer",
+      "url": "https://searchcode.com/codesearch/view/68613461/",
+      "md5hash": "8bd64dddea629578a6d8e6f976c7b348",
+      "lines": {
+        "209": "\t\t\tbreak;",
+        "210": "\t\tcase LabelSSTRecord.sid:",
+        "211": "\t\t\tLabelSSTRecord lsrec = (LabelSSTRecord) record;",
+        "212": "",
+        "24": "import org.apache.poi.hssf.record.LabelRecord;",
+        "25": "import org.apache.poi.hssf.record.LabelSSTRecord;"
+      },
+      "id": 68613461,
+      "filename": "HxlsAbstract.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1062,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642303/",
+      "md5hash": "a320b63ccf16b2c1798c3d8c1abc8ed7",
+      "lines": {
+        "614": "            index = book.addSSTString(str);            ",
+        "262": "",
+        "263": "            case LabelSSTRecord.sid :",
+        "616": "            stringValue = value;",
+        "617": "            stringValue.setWorkbookReferences(book, (( LabelSSTRecord ) record));",
+        "394": "            case CELL_TYPE_STRING :",
+        "395": "                LabelSSTRecord lrec = null;",
+        "398": "                {",
+        "399": "                    lrec = new LabelSSTRecord();",
+        "402": "                {",
+        "403": "                    lrec = ( LabelSSTRecord ) record;",
+        "615": "            (( LabelSSTRecord ) record).setSSTIndex(index);",
+        "220": "            case CELL_TYPE_STRING :",
+        "221": "                stringValue = new HSSFRichTextString(book, (LabelSSTRecord ) cval);"
+      },
+      "id": 15642303,
+      "filename": "HSSFCell.java"
+    },
+    {
+      "repo": "https://git.gitorious.org/yacy/rc1.git",
+      "language": "Java",
+      "linescount": 183,
+      "location": "/source/net/yacy/document/parser",
+      "name": "yacy",
+      "url": "https://searchcode.com/codesearch/view/62351863/",
+      "md5hash": "906975e8bac9b8ac7a3bea4d738e46c3",
+      "lines": {
+        "168": "                /*",
+        "169": "                case LabelSSTRecord.sid: {",
+        "170": "                    final LabelSSTRecord lsrec = (LabelSSTRecord)record;",
+        "171": "                    sbFoundStrings.append( sstrec.getString(lsrec.getSSTIndex()) );"
+      },
+      "id": 62351863,
+      "filename": "xlsParser.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 3300,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642365/",
+      "md5hash": "1e8d548d196dc1063c30d9430b35b9f5",
+      "lines": {
+        "865": "        });",
+        "866": "        LabelSSTRecord rec = new LabelSSTRecord();",
+        "853": "     * @param index the index of the string within the SST (use workbook addSSTString method)",
+        "854": "     * @return LabelSSTRecord newly created containing your SST Index, row,col.",
+        "969": "     * (i.e. LabelSSTRecord or NumberRecord).",
+        "968": "     * Adds a value record to the sheet's contained binary records",
+        "857": "",
+        "858": "    //public LabelSSTRecord createLabelSST(short row, short col, int index)",
+        "859": "    public LabelSSTRecord createLabelSST(int row, short col, int index)",
+        "860": "    {"
+      },
+      "id": 15642365,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "http://tongue-tied.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 272,
+      "location": "/Application/src/org/tonguetied/datatransfer/importing",
+      "name": "tongue-tied",
+      "url": "https://searchcode.com/codesearch/view/12440040/",
+      "md5hash": "36824ce7c3465bd19ea0572a1c46eb9f",
+      "lines": {
+        "242": "     */",
+        "243": "    private void evaluateRowType(final LabelSSTRecord lrec)",
+        "149": "                    break;",
+        "150": "                case LabelSSTRecord.sid:",
+        "151": "                    if (!(record instanceof LabelSSTRecord))",
+        "152": "                        throw new ImportException(\"unknown excel element\", null);",
+        "153": "                    final LabelSSTRecord lrec = (LabelSSTRecord) record;",
+        "26": "import org.apache.poi.hssf.record.BoundSheetRecord;",
+        "27": "import org.apache.poi.hssf.record.LabelSSTRecord;"
+      },
+      "id": 12440040,
+      "filename": "ExcelKeywordParser.java"
+    },
+    {
+      "repo": "http://tongue-tied.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 290,
+      "location": "/Application/src/org/tonguetied/datatransfer/importing",
+      "name": "tongue-tied",
+      "url": "https://searchcode.com/codesearch/view/12440043/",
+      "md5hash": "2e7f25beef84ca85f6e7d3970ce4c69a",
+      "lines": {
+        "149": "                    break;",
+        "150": "                case LabelSSTRecord.sid:",
+        "151": "                    if (!(record instanceof LabelSSTRecord))",
+        "152": "                        throw new ImportException(\"unknown excel element\", null);",
+        "25": "import org.apache.poi.hssf.record.BoundSheetRecord;",
+        "26": "import org.apache.poi.hssf.record.LabelSSTRecord;",
+        "236": "     */",
+        "237": "    private void processHeader(LabelSSTRecord lrec)",
+        "153": "                    final LabelSSTRecord lrec = (LabelSSTRecord) record;"
+      },
+      "id": 12440043,
+      "filename": "ExcelLanguageCentricParser.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1445,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642316/",
+      "md5hash": "4f7b036daf89776dc4ee4606b7972144",
+      "lines": {
+        "307": "      * @see loci.poi.hssf.record.LabelRecord",
+        "324": "                 records.remove(k);",
+        "325": "                 LabelSSTRecord newrec   = new LabelSSTRecord();",
+        "308": "      * @see loci.poi.hssf.record.LabelSSTRecord",
+        "236": "",
+        "237": "        // convert all LabelRecord records to LabelSSTRecord"
+      },
+      "id": 15642316,
+      "filename": "HSSFWorkbook.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 1850,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260387/",
+      "md5hash": "7f91270abbfb3387b7abcd30255c0a02",
+      "lines": {
+        "410": "      {",
+        "411": "        LabelSSTRecord label = new LabelSSTRecord(r,"
+      },
+      "id": 43260387,
+      "filename": "SheetReader.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 1850,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200915/",
+      "md5hash": "7f91270abbfb3387b7abcd30255c0a02",
+      "lines": {
+        "410": "      {",
+        "411": "        LabelSSTRecord label = new LabelSSTRecord(r,"
+      },
+      "id": 49200915,
+      "filename": "SheetReader.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 303,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642304/",
+      "md5hash": "fd86da49246c46065d6f11b412066aee",
+      "lines": {
+        "90": "    /** Called whenever the unicode string is modified. When it is modified",
+        "91": "     *  we need to create a new SST index, so that other LabelSSTRecords will not",
+        "43": "import loci.poi.hssf.record.LabelSSTRecord;",
+        "84": "     */    ",
+        "85": "    void setWorkbookReferences(Workbook book, LabelSSTRecord record) {",
+        "42": "import loci.poi.hssf.model.Workbook;",
+        "75": "",
+        "76": "    HSSFRichTextString(Workbook book, LabelSSTRecord record) {",
+        "61": "    private Workbook book;",
+        "62": "    private LabelSSTRecord record;"
+      },
+      "id": 15642304,
+      "filename": "HSSFRichTextString.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 219,
+      "location": "/components/forks/poi/src/loci/poi/hssf/dev",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642601/",
+      "md5hash": "7074b47e27144ba07a0a686221787116",
+      "lines": {
+        "160": "//",
+        "161": "//            case LabelSSTRecord.sid :",
+        "162": "//                LabelSSTRecord lrec = ( LabelSSTRecord ) record;",
+        "163": "//"
+      },
+      "id": 15642601,
+      "filename": "EFHSSF.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1850,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/read/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374407/",
+      "md5hash": "7f91270abbfb3387b7abcd30255c0a02",
+      "lines": {
+        "410": "      {",
+        "411": "        LabelSSTRecord label = new LabelSSTRecord(r,"
+      },
+      "id": 11374407,
+      "filename": "SheetReader.java"
+    },
+    {
+      "repo": "http://brainstream.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1901,
+      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/read/biff",
+      "name": "brainstream",
+      "url": "https://searchcode.com/codesearch/view/13919585/",
+      "md5hash": "64420fd674275ba389b00cf0c5263661",
+      "lines": {
+        "411": "      {",
+        "412": "        LabelSSTRecord label = new LabelSSTRecord(r,"
+      },
+      "id": 13919585,
+      "filename": "SheetReader.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642343/",
+      "md5hash": "468caa59753e7c2d27a76f3903f70894",
+      "lines": {
+        "88": "import loci.poi.hssf.record.LabelRecord;",
+        "89": "import loci.poi.hssf.record.LabelSSTRecord;",
+        "176": "                DimensionsRecord.class, RowRecord.class, LabelSSTRecord.class,",
+        "175": "                PrintSetupRecord.class, DefaultColWidthRecord.class,"
+      },
+      "id": 15642343,
+      "filename": "EventRecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 13,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 5,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 4,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 1,
+      "source": "Gitorious",
+      "id": 10
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "matchterm": "PicturesTable",
+  "previouspage": null,
+  "searchterm": "PicturesTable",
+  "query": "PicturesTable",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1043,
+      "location": "/src/org/apache/poi/hwpf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383956/",
+      "md5hash": "677c332698819342ff2ece2baf93a4ed",
+      "lines": {
+        "544": "  /**",
+        "337": "    // read in the pictures stream",
+        "338": "    _pictures = new PicturesTable(this, _dataStream, _mainStream, _fspaMain, _escherRecordHolder);",
+        "546": "   */",
+        "547": "  public PicturesTable getPicturesTable() {",
+        "545": "   * @return PicturesTable object, that is able to extract images from this document",
+        "41": "import org.apache.poi.hwpf.model.PAPBinTable;",
+        "42": "import org.apache.poi.hwpf.model.PicturesTable;",
+        "123": "  protected PicturesTable _pictures;",
+        "122": "  /** Holds pictures table */"
+      },
+      "id": 97383956,
+      "filename": "HWPFDocument.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 139,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785561/",
+      "md5hash": "dff73f83047fcc998beb71b2402c9412",
+      "lines": {
+        "24": "import org.apache.poi.hwpf.model.PicturesTable;",
+        "68": "        // Handle any embeded images",
+        "69": "        PicturesTable pictureTable = document.getPicturesTable();",
+        "23": "import org.apache.poi.hwpf.HWPFDocument;"
+      },
+      "id": 111785561,
+      "filename": "WordExtractor.java"
+    },
+    {
+      "repo": "https://github.com/richardsnider/Other-Projects.git",
+      "language": "Java",
+      "linescount": 542,
+      "location": "/AWS Instant Messenger",
+      "name": "Other-Projects",
+      "url": "https://searchcode.com/codesearch/view/100337864/",
+      "md5hash": "1a3b6cfb15bafe58455795e53941aeae",
+      "lines": {
+        "88": "\tstatic AmazonEC2 ec2; static AmazonS3 s3;  static AmazonDynamoDBClient dynamoDB; //static AmazonSimpleDB sdb;",
+        "89": "\tstatic String accountsTable = \"snider-accounts\";  static String picturesTable = \"snider-pictures\";"
+      },
+      "id": 100337864,
+      "filename": "awsmessenger.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

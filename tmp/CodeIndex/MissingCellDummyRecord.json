@@ -1,0 +1,44 @@
+{
+  "matchterm": "MissingCellDummyRecord",
+  "previouspage": null,
+  "searchterm": "MissingCellDummyRecord",
+  "query": "MissingCellDummyRecord",
+  "language_filters": [
+    {
+      "count": 1,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 1,
+  "results": [
+    {
+      "repo": "https://github.com/xiezhaohui/DataViewer.git",
+      "language": "Java",
+      "linescount": 304,
+      "location": "/ETL/src/com/util",
+      "name": "DataViewer",
+      "url": "https://searchcode.com/codesearch/view/68613461/",
+      "md5hash": "8bd64dddea629578a6d8e6f976c7b348",
+      "lines": {
+        "16": "import org.apache.poi.hssf.eventusermodel.dummyrecord.LastCellOfRowDummyRecord;",
+        "17": "import org.apache.poi.hssf.eventusermodel.dummyrecord.MissingCellDummyRecord;",
+        "260": "\t\t// \u7a7a\u503c\u7684\u64cd\u4f5c",
+        "261": "\t\tif (record instanceof MissingCellDummyRecord) {",
+        "262": "\t\t\tMissingCellDummyRecord mc = (MissingCellDummyRecord) record;",
+        "263": "\t\t\tcurRow = thisRow = mc.getRow();"
+      },
+      "id": 68613461,
+      "filename": "HxlsAbstract.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

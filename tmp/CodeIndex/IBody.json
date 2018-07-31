@@ -1,0 +1,482 @@
+{
+  "matchterm": "IBody",
+  "previouspage": null,
+  "searchterm": "IBody",
+  "query": "IBody",
+  "language_filters": [
+    {
+      "count": 93,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 93,
+  "results": [
+    {
+      "repo": "https://github.com/rack-java/jrack.git",
+      "language": "Java",
+      "linescount": 16,
+      "location": "/src/main/java/com/zzzhc/rack",
+      "name": "jrack",
+      "url": "https://searchcode.com/codesearch/view/73787754/",
+      "md5hash": "0f8901e685fe815df181c317454f3eb0",
+      "lines": {
+        "2": "",
+        "3": "public interface IBody {",
+        "6": "",
+        "7": "\tpublic static class EmptyBody implements IBody {"
+      },
+      "id": 73787754,
+      "filename": "IBody.java"
+    },
+    {
+      "repo": "http://java2word.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 19,
+      "location": "/java2word/src/main/java/word/api/interfaces",
+      "name": "java2word",
+      "url": "https://searchcode.com/codesearch/view/12761792/",
+      "md5hash": "2103f2b3b07854274e58fac5605dae1a",
+      "lines": {
+        "8": "\t * ",
+        "9": "\t * Like Serializable, IBody has no methods or fields and serves only to identify the semantics of being IBody. ",
+        "2": "",
+        "3": "public interface IBody extends IHasElement{"
+      },
+      "id": 12761792,
+      "filename": "IBody.java"
+    },
+    {
+      "repo": "https://bitbucket.org/bridgethillyer/physics-toy.git",
+      "language": "Java",
+      "linescount": 77,
+      "location": "/src/com/kristianlm/robotanks/box2dbridge",
+      "name": "physics-toy",
+      "url": "https://searchcode.com/codesearch/view/48498722/",
+      "md5hash": "17031f0d425a776335bede175c743c4b",
+      "lines": {
+        "28": "",
+        "29": "public interface IBody {"
+      },
+      "id": 48498722,
+      "filename": "IBody.java"
+    },
+    {
+      "repo": "https://github.com/LorenzoBettini/buckminster.git",
+      "language": "Java",
+      "linescount": 9,
+      "location": "/org.eclipse.buckminster.opml/src/org/eclipse/buckminster/opml",
+      "name": "buckminster",
+      "url": "https://searchcode.com/codesearch/view/72215711/",
+      "md5hash": "8aa4a088195b37dadb1e5b179dcc7b23",
+      "lines": {
+        "4": "",
+        "5": "public interface IBody"
+      },
+      "id": 72215711,
+      "filename": "IBody.java"
+    },
+    {
+      "repo": "https://github.com/lalo73/TPFinal-Cliente.git",
+      "language": "Java",
+      "linescount": 6,
+      "location": "/src/interfaces",
+      "name": "TPFinal-Cliente",
+      "url": "https://searchcode.com/codesearch/view/74460640/",
+      "md5hash": "9de1e8d1821ec6142a59bb21ecfa0541",
+      "lines": {
+        "2": "",
+        "3": "public interface IBody {"
+      },
+      "id": 74460640,
+      "filename": "IBody.java"
+    },
+    {
+      "repo": "https://github.com/Benpunt/java-darkage.git",
+      "language": "Java",
+      "linescount": 26,
+      "location": "/src/World/Scene/Visual",
+      "name": "java-darkage",
+      "url": "https://searchcode.com/codesearch/view/69576176/",
+      "md5hash": "5d77354ba1811d96e127e942de0bb417",
+      "lines": {
+        "13": " */",
+        "14": "public interface IBody extends IForceBody {"
+      },
+      "id": 69576176,
+      "filename": "IBody.java"
+    },
+    {
+      "repo": "http://zend-sdk.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 48,
+      "location": "/org.zend.core.notifications/src/org/zend/core/notifications/ui",
+      "name": "zend-sdk",
+      "url": "https://searchcode.com/codesearch/view/12691703/",
+      "md5hash": "071e88e7c689169911bdb72760fc6a8d",
+      "lines": {
+        "19": " */",
+        "20": "public interface IBody {"
+      },
+      "id": 12691703,
+      "filename": "IBody.java"
+    },
+    {
+      "repo": "https://bitbucket.org/bridgethillyer/physics-toy.git",
+      "language": "Java",
+      "linescount": 222,
+      "location": "/src/com/kristianlm/robotanks/box2dbridge/jnibox2d",
+      "name": "physics-toy",
+      "url": "https://searchcode.com/codesearch/view/48498724/",
+      "md5hash": "e6b58d1a610c514d8dd448cc3c6fd281",
+      "lines": {
+        "32": "import com.kristianlm.robotanks.box2dbridge.IBody;",
+        "160": "\t\t\tnDestroyBody(jnibody.bodyID);",
+        "75": "\t@Override",
+        "164": "\t\t\t\t\t.println(\"WARNING JNI world destroybody: no jnibody instance provided\");",
+        "161": "",
+        "76": "\tpublic IBody createBody(BodyDef def) {",
+        "107": "",
+        "108": "\tpublic IJoint createRevoluteJoint(IBody body1, IBody body2, float anchorX, float anchorY) {",
+        "163": "\t\t\tSystem.out",
+        "86": "\t@Override",
+        "87": "\tpublic IBody getGroundBody() {",
+        "159": "\t\t\tJNIBox2DBody jnibody = (JNIBox2DBody) body;",
+        "156": "\t@Override",
+        "157": "\tpublic void destroyBody(IBody body) {",
+        "158": "\t\tif (body instanceof JNIBox2DBody) {",
+        "31": ""
+      },
+      "id": 48498724,
+      "filename": "JNIBox2DWorld.java"
+    },
+    {
+      "repo": "https://bitbucket.org/bridgethillyer/physics-toy.git",
+      "language": "Java",
+      "linescount": 163,
+      "location": "/src/com/kristianlm/robotanks/box2dbridge/jbox2d",
+      "name": "physics-toy",
+      "url": "https://searchcode.com/codesearch/view/48498728/",
+      "md5hash": "ce4d560dd4ab50609298f3834cc38aaa",
+      "lines": {
+        "80": "\t@Override",
+        "81": "\tpublic IBody getGroundBody() {",
+        "34": "",
+        "35": "import com.kristianlm.robotanks.box2dbridge.IBody;",
+        "116": "\tpublic void destroyBody(IBody body) {",
+        "115": "\t@Override",
+        "74": "\t@Override",
+        "75": "\tpublic IBody createBody(final BodyDef def) {",
+        "93": "\t@Override",
+        "94": "\tpublic IJoint createRevoluteJoint(IBody body1, IBody body2, float anchorX,"
+      },
+      "id": 48498728,
+      "filename": "JBox2DWorld.java"
+    },
+    {
+      "repo": "https://bitbucket.org/bridgethillyer/physics-toy.git",
+      "language": "Java",
+      "linescount": 63,
+      "location": "/src/com/kristianlm/robotanks/box2dbridge",
+      "name": "physics-toy",
+      "url": "https://searchcode.com/codesearch/view/48498719/",
+      "md5hash": "852961a1007fc9583414d0b3dd24464b",
+      "lines": {
+        "38": "",
+        "39": "\tpublic IBody createBody(final BodyDef def);",
+        "40": "",
+        "41": "\tpublic void destroyBody(IBody body);",
+        "42": "",
+        "43": "\tpublic IBody getGroundBody();",
+        "46": "",
+        "47": "\tpublic IJoint createRevoluteJoint(IBody body1, IBody body2, float anchorX,"
+      },
+      "id": 48498719,
+      "filename": "IWorld.java"
+    },
+    {
+      "repo": "https://bitbucket.org/bridgethillyer/physics-toy.git",
+      "language": "Java",
+      "linescount": 78,
+      "location": "/src/com/lmdig/android/tutorial/oglbox2dbasics/geometry",
+      "name": "physics-toy",
+      "url": "https://searchcode.com/codesearch/view/48498713/",
+      "md5hash": "38cc1b7e93040e2693150039918a8138",
+      "lines": {
+        "32": "\t",
+        "33": "\tIBody body;",
+        "50": "\tpublic IBody attachToNewBody(IWorld world, Vec2 position, float density) {",
+        "49": "\t",
+        "48": "\tabstract public IShape attachToBody(IBody body, Vec2 position, float density);",
+        "64": "\tpublic void detachFromBody(IBody body) {",
+        "63": "\t",
+        "26": "",
+        "27": "import com.kristianlm.robotanks.box2dbridge.IBody;",
+        "47": "\t"
+      },
+      "id": 48498713,
+      "filename": "GameShape.java"
+    },
+    {
+      "repo": "https://bitbucket.org/bridgethillyer/physics-toy.git",
+      "language": "Java",
+      "linescount": 217,
+      "location": "/src/com/lmdig/android/tutorial/oglbox2dbasics/game",
+      "name": "physics-toy",
+      "url": "https://searchcode.com/codesearch/view/48498718/",
+      "md5hash": "af12804219df18f5a920efd39999e05d",
+      "lines": {
+        "112": "\t\tgs = GameShape.create(new GLCircle(0.5f));",
+        "88": "\t\tIBody b1 = gs.attachToNewBody(world, null, density);",
+        "113": "\t\tIBody b3 = gs.attachToNewBody(world, null, density);",
+        "121": "\t\tIBody ground = world.getGroundBody();",
+        "87": "\t\tgs = GameShape.create(new GLRectangle(3, 0.5f));",
+        "40": "import com.kristianlm.robotanks.box2dbridge.IBody;",
+        "120": "\tprivate void makeFence() {",
+        "39": "import com.kristianlm.robotanks.box2dbridge.Box2DFactory;",
+        "93": "\t\tgs = GameShape.create(new GLRectangle(1, 0.5f));",
+        "94": "\t\tIBody b2 = gs.attachToNewBody(world, null, density);"
+      },
+      "id": 48498718,
+      "filename": "GameEngine.java"
+    },
+    {
+      "repo": "https://bitbucket.org/rstoll/tsphp-parser.git",
+      "language": "Java",
+      "linescount": 70,
+      "location": "/src/test/java/ch/tutteli/tsphp/parser/test/ast",
+      "name": "tsphp-parser",
+      "url": "https://searchcode.com/codesearch/view/44241969/",
+      "md5hash": "40b5ab0f1439e0b7fd0c7f6e0bdb9e21",
+      "lines": {
+        "48": "        List<Object[]> collection = new ArrayList<>();",
+        "49": "        collection.add(new Object[]{\"interface a{}\",\"(interface (iMod abstract) a extends iBody)\"});",
+        "55": "                \"interface a extends \"+type+\"{}\",",
+        "56": "                \"(interface (iMod abstract) a (extends \"+type+\") iBody)\"",
+        "64": "                \"(interface (iMod abstract) a (extends \"+type+\" \"+type+\" \"+type+\") iBody)\"",
+        "59": "                \"interface a extends \"+type+\",\"+type+\"{}\",",
+        "60": "                \"(interface (iMod abstract) a (extends \"+type+\" \"+type+\") iBody)\"",
+        "63": "                \"interface a extends \"+type+\",\"+type+\", \"+type+\"{}\","
+      },
+      "id": 44241969,
+      "filename": "InterfaceTest.java"
+    },
+    {
+      "repo": "https://github.com/rack-java/jrack.git",
+      "language": "Java",
+      "linescount": 50,
+      "location": "/src/main/java/com/zzzhc/rack",
+      "name": "jrack",
+      "url": "https://searchcode.com/codesearch/view/73787799/",
+      "md5hash": "eed2749ff890cb4e4febd3d14636fd75",
+      "lines": {
+        "16": "",
+        "17": "\tpublic Response(int status, Map<String, String> headers, IBody body) {",
+        "28": "",
+        "10": "\tprivate final Map<String, String> headers = new HashMap<String, String>();",
+        "11": "\tprivate final IBody body;",
+        "12": "",
+        "13": "\tpublic Response(int status, IBody body) {",
+        "29": "\tpublic IBody getBody() {"
+      },
+      "id": 73787799,
+      "filename": "Response.java"
+    },
+    {
+      "repo": "git://github.com/levans/Open-Quark.git",
+      "language": "Java",
+      "linescount": 1274,
+      "location": "/src/CAL_Platform/src/org/openquark/cal/compiler",
+      "name": "Open-Quark",
+      "url": "https://searchcode.com/codesearch/view/17650685/",
+      "md5hash": "6a5d90f54ddb4412e15e681732053dd8",
+      "lines": {
+        "1025": "                        // since we are optimizing that function already.",
+        "1026": "                        iBody.getName() != name &&  ",
+        "1027": "                        iBody.getExpression() != null){",
+        "1028": "                    getCALTypes(iBody, nameToTypeExpr, alreadyGotTypes);",
+        "1029": "",
+        "1030": "                    AlgebraicValue coreFunction = OptimizerHelper.getAlgebraicValue(iBody);",
+        "1034": "                    ",
+        "1035": "                    if (iBody.getName().getQualifiedName().startsWith(\"$dict\")){",
+        "1005": "            QualifiedName var = (QualifiedName) varsUsed.removeFirst();",
+        "1006": "            CoreFunction iBody = null;",
+        "1009": "            if (iMF != null){",
+        "1010": "                iBody = ((MachineFunctionImpl)iMF).getCoreFunction();",
+        "1043": "                     ",
+        "1012": "            ",
+        "1013": "            if (iBody == null){",
+        "1014": "                // Look for the function in the module currently being compiled.",
+        "1044": "                    if (iBody.getName().getQualifiedName().equals(CAL_Array.Functions.subscript.getQualifiedName())){"
+      },
+      "id": 17650685,
+      "filename": "OptimizerHelper.java"
+    },
+    {
+      "repo": "https://bitbucket.org/kssreeram/clay/",
+      "language": "Java",
+      "linescount": 166,
+      "location": "/test/perf/nbody",
+      "name": "clay",
+      "url": "https://searchcode.com/codesearch/view/3143914/",
+      "md5hash": "08d35d8a7b0d5425d77a1a6e84e1425d",
+      "lines": {
+        "41": "      for(int i=0; i < bodies.length; ++i) {",
+        "42": "            Body iBody = bodies[i];",
+        "43": "         for(int j=i+1; j < bodies.length; ++j) {",
+        "44": "                double dx = iBody.x - bodies[j].x;",
+        "45": "            double dy = iBody.y - bodies[j].y;",
+        "46": "            double dz = iBody.z - bodies[j].z;",
+        "47": "",
+        "51": "",
+        "52": "            iBody.vx -= dx * bodies[j].mass * mag;",
+        "53": "            iBody.vy -= dy * bodies[j].mass * mag;",
+        "54": "            iBody.vz -= dz * bodies[j].mass * mag;",
+        "55": "",
+        "56": "            bodies[j].vx += dx * iBody.mass * mag;",
+        "57": "            bodies[j].vy += dy * iBody.mass * mag;",
+        "58": "            bodies[j].vz += dz * iBody.mass * mag;"
+      },
+      "id": 3143914,
+      "filename": "nbody.java"
+    },
+    {
+      "repo": "git://github.com/groovypp/groovypp.git",
+      "language": "Java",
+      "linescount": 194,
+      "location": "/Examples/src/shootout/nbody",
+      "name": "groovypp",
+      "url": "https://searchcode.com/codesearch/view/5014492/",
+      "md5hash": "07d4cff0b644d65872e77a1a570d3fae",
+      "lines": {
+        "68": "\t\t\tfor (int i = 0; i < bodies.length; ++i) {",
+        "69": "\t\t\t\tBody iBody = bodies[i];",
+        "70": "\t\t\t\tfor (int j = i + 1; j < bodies.length; ++j) {",
+        "71": "\t\t\t\t\tdouble dx = iBody.x - bodies[j].x;",
+        "72": "\t\t\t\t\tdouble dy = iBody.y - bodies[j].y;",
+        "73": "\t\t\t\t\tdouble dz = iBody.z - bodies[j].z;",
+        "74": "",
+        "78": "",
+        "79": "\t\t\t\t\tiBody.vx -= dx * bodies[j].mass * mag;",
+        "80": "\t\t\t\t\tiBody.vy -= dy * bodies[j].mass * mag;",
+        "81": "\t\t\t\t\tiBody.vz -= dz * bodies[j].mass * mag;",
+        "82": "",
+        "83": "\t\t\t\t\tbodies[j].vx += dx * iBody.mass * mag;",
+        "84": "\t\t\t\t\tbodies[j].vy += dy * iBody.mass * mag;",
+        "85": "\t\t\t\t\tbodies[j].vz += dz * iBody.mass * mag;"
+      },
+      "id": 5014492,
+      "filename": "nbody.java"
+    },
+    {
+      "repo": "git://github.com/jafingerhut/clojure-benchmarks.git",
+      "language": "Java",
+      "linescount": 169,
+      "location": "/nbody",
+      "name": "clojure-benchmarks",
+      "url": "https://searchcode.com/codesearch/view/15793932/",
+      "md5hash": "9679ac93ca1655d3fc1c35b8f406d73c",
+      "lines": {
+        "45": "      for(int i=0; i < bodies.length; ++i) {",
+        "46": "            Body iBody = bodies[i];",
+        "47": "         for(int j=i+1; j < bodies.length; ++j) {",
+        "48": "                double dx = iBody.x - bodies[j].x;",
+        "49": "            double dy = iBody.y - bodies[j].y;",
+        "50": "            double dz = iBody.z - bodies[j].z;",
+        "51": "",
+        "55": "",
+        "56": "            iBody.vx -= dx * bodies[j].mass * mag;",
+        "57": "            iBody.vy -= dy * bodies[j].mass * mag;",
+        "58": "            iBody.vz -= dz * bodies[j].mass * mag;",
+        "59": "",
+        "60": "            bodies[j].vx += dx * iBody.mass * mag;",
+        "61": "            bodies[j].vy += dy * iBody.mass * mag;",
+        "62": "            bodies[j].vz += dz * iBody.mass * mag;"
+      },
+      "id": 15793932,
+      "filename": "nbody.java-2.java"
+    },
+    {
+      "repo": "git://github.com/alextkachman/fib-benchmark.git",
+      "language": "Java",
+      "linescount": 191,
+      "location": "/Java/src/main/java",
+      "name": "fib-benchmark",
+      "url": "https://searchcode.com/codesearch/view/16487852/",
+      "md5hash": "efff6cad49551f2610b6cf92118446ae",
+      "lines": {
+        "65": "\t\t\tfor (int i = 0; i < bodies.length; ++i) {",
+        "66": "\t\t\t\tBody iBody = bodies[i];",
+        "67": "\t\t\t\tfor (int j = i + 1; j < bodies.length; ++j) {",
+        "68": "\t\t\t\t\tdouble dx = iBody.x - bodies[j].x;",
+        "69": "\t\t\t\t\tdouble dy = iBody.y - bodies[j].y;",
+        "70": "\t\t\t\t\tdouble dz = iBody.z - bodies[j].z;",
+        "71": "",
+        "75": "",
+        "76": "\t\t\t\t\tiBody.vx -= dx * bodies[j].mass * mag;",
+        "77": "\t\t\t\t\tiBody.vy -= dy * bodies[j].mass * mag;",
+        "78": "\t\t\t\t\tiBody.vz -= dz * bodies[j].mass * mag;",
+        "79": "",
+        "80": "\t\t\t\t\tbodies[j].vx += dx * iBody.mass * mag;",
+        "81": "\t\t\t\t\tbodies[j].vy += dy * iBody.mass * mag;",
+        "82": "\t\t\t\t\tbodies[j].vz += dz * iBody.mass * mag;"
+      },
+      "id": 16487852,
+      "filename": "Nbody.java"
+    },
+    {
+      "repo": "http://fbdtoverilog.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 2229,
+      "location": "/PLCOpen/src/plcopen/xml",
+      "name": "fbdtoverilog",
+      "url": "https://searchcode.com/codesearch/view/13936373/",
+      "md5hash": "5b4e37852a280d2c5541882ff006e59e",
+      "lines": {
+        "800": "\t\t} else if (body instanceof IFBD) {",
+        "801": "\t\t\tos.println(\"<\" + IBody.ID_FBD + \">\");",
+        "804": "\t\t\tos.decreaseTab();",
+        "805": "\t\t\tos.println(\"</\" + IBody.ID_FBD + \">\");",
+        "806": "\t\t} else if (body instanceof IST) {",
+        "780": "",
+        "781": "\tpublic static void writeXMLContents(IBody body, String titleID,",
+        "788": "\t\tif (body instanceof ISFC) {",
+        "789": "\t\t\tos.println(\"<\" + IBody.ID_SFC + \">\");",
+        "25": "import plcopen.inf.type.IArrayValueType;",
+        "792": "\t\t\tos.decreaseTab();",
+        "793": "\t\t\tos.println(\"</\" + IBody.ID_SFC + \">\");",
+        "794": "\t\t} else if (body instanceof ILD) {",
+        "795": "\t\t\tos.println(\"<\" + IBody.ID_LD + \">\");",
+        "26": "import plcopen.inf.type.IBody;",
+        "798": "\t\t\tos.decreaseTab();",
+        "799": "\t\t\tos.println(\"</\" + IBody.ID_LD + \">\");"
+      },
+      "id": 13936373,
+      "filename": "XMLWriter.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 45,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 26,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 21,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 1,
+      "source": "Sourceforge",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "matchterm": "CTScale2D",
+  "previouspage": null,
+  "searchterm": "CTScale2D",
+  "query": "CTScale2D",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 57,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402864/",
+      "md5hash": "1233dc70b6ead1270d014392f1427f17",
+      "lines": {
+        "16": "public interface CTScale2D extends org.apache.xmlbeans.XmlObject",
+        "19": "        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CTScale2D.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sE130CAA0A01A7CDE5A2B4FEB8B311707\").resolveHandle(\"ctscale2dbf4dtype\");",
+        "18": "    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTScale2D",
+        "15": " */"
+      },
+      "id": 97402864,
+      "filename": "CTScale2D.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 111,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642080/",
+      "md5hash": "7db05d043a371b4f826ff6ff1e87e280",
+      "lines": {
+        "54": "})",
+        "55": "public class CTScale2D {"
+      },
+      "id": 17642080,
+      "filename": "CTScale2D.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 230,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/presentationml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97405422/",
+      "md5hash": "949881b9d457d4201f5cc2cb3ed6ec00",
+      "lines": {
+        "32": "     */",
+        "33": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTScale2D getScale()",
+        "68": "     */",
+        "37": "            check_orphaned();",
+        "38": "            org.openxmlformats.schemas.drawingml.x2006.main.CTScale2D target = null;",
+        "39": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTScale2D)get_store().find_element_user(SCALE$0, 0);",
+        "40": "            if (target == null)",
+        "73": "            check_orphaned();",
+        "74": "            org.openxmlformats.schemas.drawingml.x2006.main.CTScale2D target = null;",
+        "75": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTScale2D)get_store().add_element_user(SCALE$0);",
+        "76": "            return target;",
+        "50": "     */",
+        "51": "    public void setScale(org.openxmlformats.schemas.drawingml.x2006.main.CTScale2D scale)",
+        "55": "            check_orphaned();",
+        "56": "            org.openxmlformats.schemas.drawingml.x2006.main.CTScale2D target = null;",
+        "57": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTScale2D)get_store().find_element_user(SCALE$0, 0);",
+        "69": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTScale2D addNewScale()"
+      },
+      "id": 97405422,
+      "filename": "CTCommonViewPropertiesImpl.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 145,
+      "location": "/src/pptx4j/java/org/pptx4j/pml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17643803/",
+      "md5hash": "319c90630eafcf82fb8f94e695b0e092",
+      "lines": {
+        "72": "     *     possible object is",
+        "73": "     *     {@link CTScale2D }",
+        "75": "     */",
+        "76": "    public CTScale2D getScale() {",
+        "61": "    @XmlElement(required = true)",
+        "88": "    public void setScale(CTScale2D value) {",
+        "84": "     *     allowed object is",
+        "85": "     *     {@link CTScale2D }",
+        "87": "     */",
+        "62": "    protected CTScale2D scale;",
+        "29": "import org.docx4j.dml.CTPoint2D;",
+        "30": "import org.docx4j.dml.CTScale2D;"
+      },
+      "id": 17643803,
+      "filename": "CTCommonViewProperties.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 3480,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642161/",
+      "md5hash": "ecaf98912e449049698e790afd5f5c5a",
+      "lines": {
+        "1705": "    /**",
+        "1706": "     * Create an instance of {@link CTScale2D }",
+        "1708": "     */",
+        "1709": "    public CTScale2D createCTScale2D() {",
+        "1710": "        return new CTScale2D();",
+        "1711": "    }"
+      },
+      "id": 17642161,
+      "filename": "ObjectFactory.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 87,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/presentationml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97404759/",
+      "md5hash": "44b57efa55ed75870d6441258a4e3494",
+      "lines": {
+        "33": "     */",
+        "34": "    org.openxmlformats.schemas.drawingml.x2006.main.CTScale2D addNewScale();",
+        "23": "     */",
+        "24": "    org.openxmlformats.schemas.drawingml.x2006.main.CTScale2D getScale();",
+        "28": "     */",
+        "29": "    void setScale(org.openxmlformats.schemas.drawingml.x2006.main.CTScale2D scale);"
+      },
+      "id": 97404759,
+      "filename": "CTCommonViewProperties.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 128,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403248/",
+      "md5hash": "fd5892b9e62893b10470f215e90b1b4f",
+      "lines": {
+        "16": "    ",
+        "17": "    public CTScale2DImpl(org.apache.xmlbeans.SchemaType sType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTScale2D",
+        "13": " */",
+        "14": "public class CTScale2DImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.openxmlformats.schemas.drawingml.x2006.main.CTScale2D"
+      },
+      "id": 97403248,
+      "filename": "CTScale2DImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

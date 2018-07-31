@@ -1,0 +1,98 @@
+{
+  "matchterm": "FFDataBase",
+  "previouspage": null,
+  "searchterm": "FFDataBase",
+  "query": "FFDataBase",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 50,
+      "location": "/src/org/apache/poi/hwpf/model",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384058/",
+      "md5hash": "34530a7048a23a88ecd95ae65f21b1f4",
+      "lines": {
+        "18": "",
+        "19": "import org.apache.poi.hwpf.model.types.FFDataBaseAbstractType;",
+        "37": "@Internal",
+        "38": "public class FFDataBase extends FFDataBaseAbstractType",
+        "39": "{",
+        "40": "    public FFDataBase()",
+        "44": "",
+        "45": "    public FFDataBase( byte[] std, int offset )"
+      },
+      "id": 97384058,
+      "filename": "FFDataBase.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 231,
+      "location": "/src/org/apache/poi/hwpf/model",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384199/",
+      "md5hash": "536e702eec8fb831c6c436925f0d5dd6",
+      "lines": {
+        "160": "    {",
+        "161": "        int size = FFDataBase.getSize();",
+        "171": "                || _base.getIType() == FFDataBase.ITYPE_DROP )",
+        "164": "",
+        "165": "        if ( _base.getIType() == FFDataBase.ITYPE_TEXT )",
+        "39": "{",
+        "40": "    private FFDataBase _base;",
+        "169": "",
+        "138": "",
+        "139": "        if ( _base.getIType() == FFDataBase.ITYPE_DROP )",
+        "172": "        {",
+        "200": "        _base.serialize( buffer, offset );",
+        "181": "",
+        "182": "        if ( _base.getIType() == FFDataBase.ITYPE_DROP )",
+        "201": "        offset += FFDataBase.getSize();",
+        "170": "        if ( _base.getIType() == FFDataBase.ITYPE_CHCK"
+      },
+      "id": 97384199,
+      "filename": "FFData.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 429,
+      "location": "/src/org/apache/poi/hwpf/model/types",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384293/",
+      "md5hash": "1dcd6a5f95e73cf81088a202b468698a",
+      "lines": {
+        "80": "    protected FFDataBaseAbstractType()",
+        "172": "        builder.append(\"[/FFDataBase]\");",
+        "171": "",
+        "153": "        builder.append(\"[FFDataBase]\\n\");",
+        "152": "",
+        "124": "        FFDataBaseAbstractType other = (FFDataBaseAbstractType) obj;",
+        "123": "            return false;",
+        "44": "@Internal",
+        "45": "public abstract class FFDataBaseAbstractType",
+        "79": ""
+      },
+      "id": 97384293,
+      "filename": "FFDataBaseAbstractType.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

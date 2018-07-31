@@ -1,0 +1,108 @@
+{
+  "matchterm": "HeaderBlockConstants",
+  "previouspage": null,
+  "searchterm": "HeaderBlockConstants",
+  "query": "HeaderBlockConstants",
+  "language_filters": [
+    {
+      "count": 5,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 5,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 71,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642260/",
+      "md5hash": "6e7ce53929cc4519afe03718fc3d0623",
+      "lines": {
+        "56": "public interface HeaderBlockConstants",
+        "68": "    public static final int  _xbat_count_offset       = 0x48;",
+        "69": "}   // end public interface HeaderBlockConstants",
+        "55": ""
+      },
+      "id": 15642260,
+      "filename": "HeaderBlockConstants.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 615,
+      "location": "/ppt/poi/org/apache/poi/poifs/filesystem",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97397929/",
+      "md5hash": "5083d727a84f9c004bece7393d2ae9b8",
+      "lines": {
+        "229": "        // Did it match the signature?",
+        "230": "        return (signature.get() == HeaderBlockConstants._signature);",
+        "218": "        IOUtils.readFully(inp, header);",
+        "219": "        LongField signature = new LongField(HeaderBlockConstants._signature_offset, header);",
+        "45": "import org.apache.poi.poifs.storage.BlockWritable;",
+        "46": "import org.apache.poi.poifs.storage.HeaderBlockConstants;"
+      },
+      "id": 97397929,
+      "filename": "POIFSFileSystem.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 129,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/detect",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785503/",
+      "md5hash": "0b4bb3c5d8fe184bce6b5364d945ee7b",
+      "lines": {
+        "24": "import org.apache.poi.poifs.storage.HeaderBlockConstants;",
+        "88": "        long ole2Signature = LittleEndian.getLong(first8, 0);",
+        "89": "        if(ole2Signature == HeaderBlockConstants._signature) {",
+        "23": "import org.apache.poi.poifs.common.POIFSConstants;"
+      },
+      "id": 111785503,
+      "filename": "ContainerAwareDetector.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 250,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642253/",
+      "md5hash": "b135db390366ec303bafe303dc68de06",
+      "lines": {
+        "61": "    extends BigBlock",
+        "62": "    implements HeaderBlockConstants"
+      },
+      "id": 15642253,
+      "filename": "HeaderBlockWriter.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 201,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642256/",
+      "md5hash": "769c17a94a606ffb414c03ee96d2261c",
+      "lines": {
+        "62": "public class HeaderBlockReader",
+        "63": "    implements HeaderBlockConstants"
+      },
+      "id": 15642256,
+      "filename": "HeaderBlockReader.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 5,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

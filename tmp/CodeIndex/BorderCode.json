@@ -1,0 +1,178 @@
+{
+  "matchterm": "BorderCode",
+  "previouspage": null,
+  "searchterm": "BorderCode",
+  "query": "BorderCode",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1910,
+      "location": "/src/org/apache/poi/hwpf/model/types",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384338/",
+      "md5hash": "2efbe2193578055560aa9b1a50dfe60f",
+      "lines": {
+        "128": "    protected BorderCode field_65_brcBar;",
+        "129": "    protected ShadingDescriptor field_66_shd;",
+        "150": "        this.field_41_lvl = 9;",
+        "1493": "    public BorderCode getBrcTop()",
+        "1492": "    @Internal",
+        "21": "import org.apache.poi.hwpf.model.TabDescriptor;",
+        "22": "import org.apache.poi.hwpf.usermodel.BorderCode;",
+        "151": "        this.field_60_brcTop = new BorderCode();",
+        "152": "        this.field_61_brcLeft = new BorderCode();",
+        "153": "        this.field_62_brcBottom = new BorderCode();",
+        "154": "        this.field_63_brcRight = new BorderCode();",
+        "155": "        this.field_64_brcBetween = new BorderCode();",
+        "156": "        this.field_65_brcBar = new BorderCode();",
+        "157": "        this.field_66_shd = new ShadingDescriptor();",
+        "127": "    protected BorderCode field_64_brcBetween;"
+      },
+      "id": 97384338,
+      "filename": "PAPAbstractType.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 660,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384407/",
+      "md5hash": "d9e337622aaacee6d2790b7572b0af11",
+      "lines": {
+        "481": "",
+        "482": "  public void setBottomBorder(BorderCode bottom)",
+        "459": "",
+        "454": "",
+        "487": "",
+        "488": "  public BorderCode getRightBorder()",
+        "492": "",
+        "455": "  public BorderCode getTopBorder()",
+        "460": "  public void setTopBorder(BorderCode top)",
+        "493": "  public void setRightBorder(BorderCode right)",
+        "465": "",
+        "466": "  public BorderCode getLeftBorder()",
+        "499": "  public BorderCode getBarBorder()",
+        "498": "",
+        "503": "",
+        "504": "  public void setBarBorder(BorderCode bar)"
+      },
+      "id": 97384407,
+      "filename": "Paragraph.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 529,
+      "location": "/src/org/apache/poi/hwpf/converter",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383984/",
+      "md5hash": "b325d8787324a3ef4914153a604b19e4",
+      "lines": {
+        "32": "import org.apache.poi.hwpf.usermodel.BorderCode;",
+        "170": "",
+        "171": "    public static String getBorderType( BorderCode borderCode )",
+        "172": "    {",
+        "173": "        if ( borderCode == null )",
+        "174": "            throw new IllegalArgumentException( \"borderCode is null\" );",
+        "175": "",
+        "176": "        switch ( borderCode.getBorderType() )",
+        "219": "",
+        "220": "    public static String getBorderWidth( BorderCode borderCode )",
+        "221": "    {",
+        "222": "        int lineWidth = borderCode.getLineWidth();",
+        "31": "import org.apache.poi.hwpf.OldWordFileFormatException;"
+      },
+      "id": 97383984,
+      "filename": "AbstractWordUtils.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 3034,
+      "location": "/src/org/apache/poi/hwpf/model/types",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384327/",
+      "md5hash": "66690de8458c959f0474d940a33c9f49",
+      "lines": {
+        "129": "    protected ShadingDescriptor field_23_shd;",
+        "130": "    protected BorderCode field_24_brc;",
+        "211": "        this.field_23_shd = new ShadingDescriptor();",
+        "212": "        this.field_24_brc = new BorderCode();",
+        "1203": "    @Internal",
+        "1204": "    public void setBrc( BorderCode field_24_brc )",
+        "24": "import org.apache.poi.hwpf.model.Hyphenation;",
+        "25": "import org.apache.poi.hwpf.usermodel.BorderCode;",
+        "1194": "    @Internal",
+        "1195": "    public BorderCode getBrc()"
+      },
+      "id": 97384327,
+      "filename": "CHPAbstractType.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 760,
+      "location": "/src/org/apache/poi/hwpf/sprm",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384370/",
+      "md5hash": "ad7ef563bd5c85239b2ca09f401501f5",
+      "lines": {
+        "24": "import org.apache.poi.hwpf.model.StyleSheet;",
+        "25": "import org.apache.poi.hwpf.usermodel.BorderCode;",
+        "648": "        newCHP.setBrc (new BorderCode(sprm.getGrpprl(), sprm.getGrpprlOffset()));",
+        "647": "      case 0x65:"
+      },
+      "id": 97384370,
+      "filename": "CharacterSprmUncompressor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 397,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384444/",
+      "md5hash": "461bf1b767bc5911efb5e24f5a039047",
+      "lines": {
+        "385": "            cp.setShd( (ShadingDescriptor) getShd().clone() );",
+        "386": "            cp.setBrc( (BorderCode) getBrc().clone() );"
+      },
+      "id": 97384444,
+      "filename": "CharacterProperties.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 676,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384484/",
+      "md5hash": "eb3ee5102b1d02992e415773f3944ccc",
+      "lines": {
+        "624": "  ",
+        "625": "  public BorderCode getBorder() {"
+      },
+      "id": 97384484,
+      "filename": "CharacterRun.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

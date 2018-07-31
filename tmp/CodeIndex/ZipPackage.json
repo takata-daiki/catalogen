@@ -1,0 +1,95 @@
+{
+  "matchterm": "ZipPackage",
+  "previouspage": null,
+  "searchterm": "ZipPackage",
+  "query": "ZipPackage",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1489,
+      "location": "/pptx/src/org/apache/poi/openxml4j/opc",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406292/",
+      "md5hash": "47fc882bc196bd395e952d6ada656cd9",
+      "lines": {
+        "162": "\t\t\t\t\tContentTypes.CORE_PROPERTIES_PART),",
+        "163": "\t\t\t\t\tnew ZipPackagePropertiesMarshaller());",
+        "228": "\t\tOPCPackage pack = new ZipPackage(in, PackageAccess.READ_WRITE);",
+        "293": "\t\tpkg = new ZipPackage();",
+        "227": "\t\t\tIOException {",
+        "137": "\tOPCPackage(PackageAccess access) {",
+        "138": "\t\tif (getClass() != ZipPackage.class) {",
+        "206": "",
+        "207": "\t\tOPCPackage pack = new ZipPackage(path, access);",
+        "50": "import org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller;",
+        "51": "import org.apache.poi.openxml4j.opc.internal.marshallers.ZipPackagePropertiesMarshaller;",
+        "292": "\t\tOPCPackage pkg = null;",
+        "283": "\t\tOPCPackage pkg = null;",
+        "284": "\t\tpkg = new ZipPackage();"
+      },
+      "id": 97406292,
+      "filename": "OPCPackage.java"
+    },
+    {
+      "repo": "https://github.com/durgaprsd04/DSpace.git",
+      "language": "Java",
+      "linescount": 1635,
+      "location": "/dspace-api/src/main/java/org/dspace/content/packager",
+      "name": "DSpace",
+      "url": "https://searchcode.com/codesearch/view/95686758/",
+      "md5hash": "fd75f927b12ebe942851b4ec3b58792c",
+      "lines": {
+        "1489": "            // Get inputStream associated with this file",
+        "1490": "            return zipPackage.getInputStream(manifestEntry);",
+        "1483": "            // open the Zip package",
+        "1484": "            ZipFile zipPackage = new ZipFile(pkgFile);",
+        "1486": "            // Retrieve the manifest file entry by name",
+        "1487": "            ZipEntry manifestEntry = zipPackage.getEntry(path);"
+      },
+      "id": 95686758,
+      "filename": "AbstractMETSIngester.java"
+    },
+    {
+      "repo": "http://dspace-semantic-search.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1599,
+      "location": "/dspace-api/src/main/java/org/dspace/content/packager",
+      "name": "dspace-semantic-search",
+      "url": "https://searchcode.com/codesearch/view/11613421/",
+      "md5hash": "118b66ec8e527cbc5bb2fbbfbf0f27b9",
+      "lines": {
+        "1447": "            // open the Zip package",
+        "1448": "            ZipFile zipPackage = new ZipFile(pkgFile);",
+        "1450": "            // Retrieve the manifest file entry by name",
+        "1451": "            ZipEntry manifestEntry = zipPackage.getEntry(path);",
+        "1453": "            // Get inputStream associated with this file",
+        "1454": "            return zipPackage.getInputStream(manifestEntry);"
+      },
+      "id": 11613421,
+      "filename": "AbstractMETSIngester.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

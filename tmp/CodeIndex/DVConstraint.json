@@ -1,0 +1,53 @@
+{
+  "matchterm": "DVConstraint",
+  "previouspage": null,
+  "searchterm": "DVConstraint",
+  "query": "DVConstraint",
+  "language_filters": [
+    {
+      "count": 1,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 1,
+  "results": [
+    {
+      "repo": "https://github.com/semantalytics/RightField.git",
+      "language": "Java",
+      "linescount": 140,
+      "location": "/src/main/java/uk/ac/manchester/cs/owl/semspreadsheets/model/hssf/impl",
+      "name": "RightField",
+      "url": "https://searchcode.com/codesearch/view/72854649/",
+      "md5hash": "9b32ac4d62bd845be04702f4e7103178",
+      "lines": {
+        "80": "\t\t\t\t\t\t\t) {",
+        "67": "\t\t\t\t\tint validationType = dvRecord.getDataType();",
+        "68": "\t\t\t\t\tif (validationType == DVConstraint.ValidationType.LIST) {",
+        "71": "\t\t\t\t\t\t\t\tf1.getTokens(), workbook);",
+        "72": "\t\t\t\t\t\tDVConstraint dvConstraint = DVConstraint",
+        "74": "\t\t\t\t\t\tHSSFDataValidation validation = new HSSFDataValidation(",
+        "75": "\t\t\t\t\t\t\t\tcellRangeAddressList, dvConstraint);",
+        "76": "\t\t\t\t\t\tdataValidation.add(validation);",
+        "77": "\t\t\t\t\t} else if (validationType == DVConstraint.ValidationType.INTEGER",
+        "78": "\t\t\t\t\t\t\t|| validationType == DVConstraint.ValidationType.DECIMAL",
+        "15": "import org.apache.poi.hssf.record.aggregates.RecordAggregate;",
+        "16": "import org.apache.poi.hssf.usermodel.DVConstraint;",
+        "87": "\t\t\t\t\t\tint comparison = dvRecord.getConditionOperator();",
+        "88": "\t\t\t\t\t\tDVConstraint dvConstraint = DVConstraint",
+        "79": "\t\t\t\t\t\t\t|| validationType == DVConstraint.ValidationType.TEXT_LENGTH"
+      },
+      "id": 72854649,
+      "filename": "PatchedPoi.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

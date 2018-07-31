@@ -1,0 +1,173 @@
+{
+  "matchterm": "CTColorMRU",
+  "previouspage": null,
+  "searchterm": "CTColorMRU",
+  "query": "CTColorMRU",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 140,
+      "location": "/src/main/java/org/docx4j/vml/officedrawing",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17641907/",
+      "md5hash": "0b16c18ea72d1b79fe34274ac145605c",
+      "lines": {
+        "53": "@XmlType(name = \"CT_ColorMru\")",
+        "54": "public class CTColorMru"
+      },
+      "id": 17641907,
+      "filename": "CTColorMru.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 480,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/presentationml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97405500/",
+      "md5hash": "b1a38e31cc44790560b44661381bc879",
+      "lines": {
+        "387": "            check_orphaned();",
+        "388": "            org.openxmlformats.schemas.drawingml.x2006.main.CTColorMRU target = null;",
+        "389": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTColorMRU)get_store().add_element_user(CLRMRU$8);",
+        "390": "            return target;",
+        "371": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTColorMRU)get_store().find_element_user(CLRMRU$8, 0);",
+        "364": "     */",
+        "365": "    public void setClrMru(org.openxmlformats.schemas.drawingml.x2006.main.CTColorMRU clrMru)",
+        "334": "     */",
+        "335": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTColorMRU getClrMru()",
+        "369": "            check_orphaned();",
+        "370": "            org.openxmlformats.schemas.drawingml.x2006.main.CTColorMRU target = null;",
+        "339": "            check_orphaned();",
+        "340": "            org.openxmlformats.schemas.drawingml.x2006.main.CTColorMRU target = null;",
+        "341": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTColorMRU)get_store().find_element_user(CLRMRU$8, 0);",
+        "372": "            if (target == null)"
+      },
+      "id": 97405500,
+      "filename": "CTPresentationPropertiesImpl.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 219,
+      "location": "/src/pptx4j/java/org/pptx4j/pml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17643711/",
+      "md5hash": "bafcffe6095998cc81f525c66ccc9413",
+      "lines": {
+        "27": "import javax.xml.bind.annotation.XmlType;",
+        "70": "    protected CTShowProperties showPr;",
+        "71": "    protected CTColorMRU clrMru;",
+        "174": "     *     possible object is",
+        "175": "     *     {@link CTColorMRU }",
+        "177": "     */",
+        "178": "    public CTColorMRU getClrMru() {",
+        "186": "     *     allowed object is",
+        "187": "     *     {@link CTColorMRU }",
+        "28": "import org.docx4j.dml.CTColorMRU;",
+        "189": "     */",
+        "190": "    public void setClrMru(CTColorMRU value) {"
+      },
+      "id": 17643711,
+      "filename": "PresentationPr.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 576,
+      "location": "/src/main/java/org/docx4j/vml/officedrawing",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17641892/",
+      "md5hash": "7630b53d6cfb0b02766229f64eff84e6",
+      "lines": {
+        "96": "    protected CTColorMru colormru;",
+        "325": "     *     allowed object is",
+        "326": "     *     {@link CTColorMru }",
+        "329": "    public void setColormru(CTColorMru value) {",
+        "328": "     */",
+        "313": "     *     possible object is",
+        "314": "     *     {@link CTColorMru }",
+        "316": "     */",
+        "317": "    public CTColorMru getColormru() {",
+        "95": "    protected CTLock lock;"
+      },
+      "id": 17641892,
+      "filename": "CTShapeDefaults.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 177,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/presentationml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97404805/",
+      "md5hash": "49e1f8bc737dfcc104b6a36fe46033ef",
+      "lines": {
+        "139": "    org.openxmlformats.schemas.drawingml.x2006.main.CTColorMRU addNewClrMru();",
+        "133": "     */",
+        "134": "    void setClrMru(org.openxmlformats.schemas.drawingml.x2006.main.CTColorMRU clrMru);",
+        "138": "     */",
+        "123": "     */",
+        "124": "    org.openxmlformats.schemas.drawingml.x2006.main.CTColorMRU getClrMru();"
+      },
+      "id": 97404805,
+      "filename": "CTPresentationProperties.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 428,
+      "location": "/src/main/java/org/docx4j/vml/officedrawing",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17641924/",
+      "md5hash": "4bf67c005db1997754cecb4f0395ed39",
+      "lines": {
+        "145": "    /**",
+        "146": "     * Create an instance of {@link CTColorMru }",
+        "148": "     */",
+        "149": "    public CTColorMru createCTColorMru() {",
+        "150": "        return new CTColorMru();",
+        "151": "    }"
+      },
+      "id": 17641924,
+      "filename": "ObjectFactory.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 3480,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642161/",
+      "md5hash": "ecaf98912e449049698e790afd5f5c5a",
+      "lines": {
+        "1401": "    /**",
+        "1402": "     * Create an instance of {@link CTColorMRU }",
+        "1404": "     */",
+        "1405": "    public CTColorMRU createCTColorMRU() {",
+        "1406": "        return new CTColorMRU();",
+        "1407": "    }"
+      },
+      "id": 17642161,
+      "filename": "ObjectFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

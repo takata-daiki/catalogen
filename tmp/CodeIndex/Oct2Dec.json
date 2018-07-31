@@ -1,0 +1,162 @@
+{
+  "matchterm": "Oct2Dec",
+  "previouspage": null,
+  "searchterm": "Oct2Dec",
+  "query": "Oct2Dec",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1430,
+      "location": "/zssapp/src/org/zkoss/zss/app/formula",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969892/",
+      "md5hash": "a07bf1b4287ec51f4c6c5c920d857dd5",
+      "lines": {
+        "1416": "\t\t\t\t\"OCT2DEC(number)\",",
+        "1417": "\t\t\t\t\"Converts an octal number to decimal\",",
+        "1414": "\t\tengAry.add(new FormulaMetaInfo(ENGINEERING,",
+        "1415": "\t\t\t\t\"OCT2DEC\","
+      },
+      "id": 3969892,
+      "filename": "Formulas.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 1451,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47124968/",
+      "md5hash": "994b1c012a7ddfa2eae1064001b4a2c3",
+      "lines": {
+        "824": "\t\t\t{\"OCT2BIN\", String.valueOf(xlfOCT2BIN), String.valueOf(FTYPE_PTGFUNCVAR_ADDIN)},",
+        "1301": "\t\t\tcase xlfOCT2BIN: \treturn \"OCT2BIN(\";",
+        "1302": "\t\t\tcase xlfOCT2DEC: \treturn \"OCT2DEC(\";",
+        "825": "\t\t\t{\"OCT2DEC\", String.valueOf(xlfOCT2DEC), String.valueOf(FTYPE_PTGFUNCVAR_ADDIN)},",
+        "456": "\tpublic static final int xlfOCT2BIN= 414; ",
+        "457": "\tpublic static final int xlfOCT2DEC= 415; "
+      },
+      "id": 47124968,
+      "filename": "FunctionConstants.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 2327,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47124972/",
+      "md5hash": "96976d1214bb59af0fb30b94c8962738",
+      "lines": {
+        "2224": "/**\t",
+        "2225": "\tOCT2DEC",
+        "2227": " */",
+        "2228": "\tprotected static Ptg calcOct2Dec(Ptg[] operands) {",
+        "2231": "\t\t}",
+        "2232": "\t\tif (DEBUG) debugOperands(operands, \"OCT2DEC\");",
+        "2249": "\t\tif (DEBUG) Logger.logInfo(\"Result from OCT2DEC= \" + pnum.getVal());",
+        "2248": "\t\tPtgNumber pnum = new PtgNumber(dec);"
+      },
+      "id": 47124972,
+      "filename": "EngineeringCalculator.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 1451,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976592/",
+      "md5hash": "994b1c012a7ddfa2eae1064001b4a2c3",
+      "lines": {
+        "824": "\t\t\t{\"OCT2BIN\", String.valueOf(xlfOCT2BIN), String.valueOf(FTYPE_PTGFUNCVAR_ADDIN)},",
+        "1301": "\t\t\tcase xlfOCT2BIN: \treturn \"OCT2BIN(\";",
+        "1302": "\t\t\tcase xlfOCT2DEC: \treturn \"OCT2DEC(\";",
+        "825": "\t\t\t{\"OCT2DEC\", String.valueOf(xlfOCT2DEC), String.valueOf(FTYPE_PTGFUNCVAR_ADDIN)},",
+        "456": "\tpublic static final int xlfOCT2BIN= 414; ",
+        "457": "\tpublic static final int xlfOCT2DEC= 415; "
+      },
+      "id": 50976592,
+      "filename": "FunctionConstants.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 2327,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976596/",
+      "md5hash": "96976d1214bb59af0fb30b94c8962738",
+      "lines": {
+        "2224": "/**\t",
+        "2225": "\tOCT2DEC",
+        "2227": " */",
+        "2228": "\tprotected static Ptg calcOct2Dec(Ptg[] operands) {",
+        "2231": "\t\t}",
+        "2232": "\t\tif (DEBUG) debugOperands(operands, \"OCT2DEC\");",
+        "2249": "\t\tif (DEBUG) Logger.logInfo(\"Result from OCT2DEC= \" + pnum.getVal());",
+        "2248": "\t\tPtgNumber pnum = new PtgNumber(dec);"
+      },
+      "id": 50976596,
+      "filename": "EngineeringCalculator.java"
+    },
+    {
+      "repo": "https://github.com/Berico-Technologies/mondrian.git",
+      "language": "Java",
+      "linescount": 1111,
+      "location": "/src/main/mondrian/olap/fun/vba",
+      "name": "mondrian",
+      "url": "https://searchcode.com/codesearch/view/69456290/",
+      "md5hash": "d000de4330f4246f9ea598129c490c5c",
+      "lines": {
+        "756": "",
+        "757": "    // Todo: Oct2Dec Converts an octal number to decimal."
+      },
+      "id": 69456290,
+      "filename": "Excel.java"
+    },
+    {
+      "repo": "https://github.com/dsths/mondrian.git",
+      "language": "Java",
+      "linescount": 1111,
+      "location": "/src/main/mondrian/olap/fun/vba",
+      "name": "mondrian",
+      "url": "https://searchcode.com/codesearch/view/100412065/",
+      "md5hash": "97269efda67b1f67b152b3400030b364",
+      "lines": {
+        "756": "",
+        "757": "    // Todo: Oct2Dec Converts an octal number to decimal."
+      },
+      "id": 100412065,
+      "filename": "Excel.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

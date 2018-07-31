@@ -1,0 +1,74 @@
+{
+  "matchterm": "SingleXmlCells",
+  "previouspage": null,
+  "searchterm": "SingleXmlCells",
+  "query": "SingleXmlCells",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/smitchell141/docx4j-1.git",
+      "language": "Java",
+      "linescount": 3450,
+      "location": "/src/xlsx4j/java/org/xlsx4j/sml",
+      "name": "docx4j-1",
+      "url": "https://searchcode.com/codesearch/view/74525026/",
+      "md5hash": "9a8b14be1628cc669de10aea926760dc",
+      "lines": {
+        "2304": "     */",
+        "2305": "    public CTSingleXmlCells createCTSingleXmlCells() {",
+        "2306": "        return new CTSingleXmlCells();",
+        "2307": "    }",
+        "3017": "    /**",
+        "3018": "     * Create an instance of {@link JAXBElement }{@code <}{@link CTSingleXmlCells }{@code >}}",
+        "3020": "     */",
+        "3021": "    @XmlElementDecl(namespace = \"http://schemas.openxmlformats.org/spreadsheetml/2006/main\", name = \"singleXmlCells\")",
+        "3022": "    public JAXBElement<CTSingleXmlCells> createSingleXmlCells(CTSingleXmlCells value) {",
+        "3023": "        return new JAXBElement<CTSingleXmlCells>(_SingleXmlCells_QNAME, CTSingleXmlCells.class, null, value);",
+        "3024": "    }",
+        "50": "    private final static QName _Comments_QNAME = new QName(\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\", \"comments\");",
+        "51": "    private final static QName _SingleXmlCells_QNAME = new QName(\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\", \"singleXmlCells\");",
+        "2301": "    /**",
+        "2302": "     * Create an instance of {@link CTSingleXmlCells }"
+      },
+      "id": 74525026,
+      "filename": "ObjectFactory.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 3450,
+      "location": "/src/xlsx4j/java/org/xlsx4j/sml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17643547/",
+      "md5hash": "9a8b14be1628cc669de10aea926760dc",
+      "lines": {
+        "2304": "     */",
+        "2305": "    public CTSingleXmlCells createCTSingleXmlCells() {",
+        "50": "    private final static QName _Comments_QNAME = new QName(\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\", \"comments\");",
+        "51": "    private final static QName _SingleXmlCells_QNAME = new QName(\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\", \"singleXmlCells\");",
+        "2307": "    }",
+        "2306": "        return new CTSingleXmlCells();",
+        "2301": "    /**",
+        "2302": "     * Create an instance of {@link CTSingleXmlCells }"
+      },
+      "id": 17643547,
+      "filename": "ObjectFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

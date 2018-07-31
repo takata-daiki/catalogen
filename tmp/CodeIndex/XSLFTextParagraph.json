@@ -1,0 +1,215 @@
+{
+  "matchterm": "XSLFTextParagraph",
+  "previouspage": null,
+  "searchterm": "XSLFTextParagraph",
+  "query": "XSLFTextParagraph",
+  "language_filters": [
+    {
+      "count": 9,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 9,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1185,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406665/",
+      "md5hash": "dc9cd103f74ef072c0c52e3cc628a7cb",
+      "lines": {
+        "1122": "",
+        "1123": "    void copy(XSLFTextParagraph p){",
+        "89": "",
+        "90": "    XSLFTextParagraph(CTTextParagraph p, XSLFTextShape shape){",
+        "77": "@Beta",
+        "78": "public class XSLFTextParagraph implements Iterable<XSLFTextRun>{"
+      },
+      "id": 97406665,
+      "filename": "XSLFTextParagraph.java"
+    },
+    {
+      "repo": "https://github.com/nls-oskari/oskari-server.git",
+      "language": "Java",
+      "linescount": 161,
+      "location": "/servlet-printout/src/main/java/fi/nls/oskari/printout/ws/jaxrs/format",
+      "name": "oskari-server",
+      "url": "https://searchcode.com/codesearch/view/76071743/",
+      "md5hash": "e9cd50395eb04e2236447d20d7ac7ccb",
+      "lines": {
+        "64": "\t\t * ",
+        "65": "\t\t * XSLFTextParagraph p2 = shape.addNewTextParagraph(); // indentation",
+        "82": "\t\t * ",
+        "83": "\t\t * XSLFTextParagraph p5 = shape.addNewTextParagraph();",
+        "72": "\t\t * // the next three paragraphs form an auto-numbered list",
+        "73": "\t\t * XSLFTextParagraph p3 = shape.addNewTextParagraph();",
+        "60": "\t\t * ",
+        "61": "\t\t * XSLFTextParagraph p1 = shape.addNewTextParagraph(); p1.setLevel(0);",
+        "78": "\t\t * XSLFTextParagraph p4 = shape.addNewTextParagraph();",
+        "77": "\t\t * "
+      },
+      "id": 76071743,
+      "filename": "StreamingPPTXImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 617,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406813/",
+      "md5hash": "bf44107253290c5472d69b4baedf81f5",
+      "lines": {
+        "66": "",
+        "67": "        _paragraphs = new ArrayList<XSLFTextParagraph>();",
+        "534": "    \t\tXSLFTextParagraph p = _paragraphs.get(i);",
+        "70": "            for (CTTextParagraph p : txBody.getPList()) {",
+        "71": "                _paragraphs.add(new XSLFTextParagraph(p, this));",
+        "75": "",
+        "76": "    public Iterator<XSLFTextParagraph> iterator(){",
+        "85": "        StringBuilder out = new StringBuilder();",
+        "86": "        for (XSLFTextParagraph p : _paragraphs) {",
+        "55": "@Beta",
+        "56": "public abstract class XSLFTextShape extends XSLFSimpleShape implements Iterable<XSLFTextParagraph>{",
+        "57": "    private final List<XSLFTextParagraph> _paragraphs;",
+        "58": "",
+        "541": "//        for(int i = 0; i < _paragraphs.size(); i++){",
+        "542": "//            XSLFTextParagraph p = _paragraphs.get(i);",
+        "533": "    \tfor(int i = 0; i < _paragraphs.size(); i++){"
+      },
+      "id": 97406813,
+      "filename": "XSLFTextShape.java"
+    },
+    {
+      "repo": "https://bitbucket.org/quadrate/promo.git",
+      "language": "Java",
+      "linescount": 211,
+      "location": "/excelgen/src/main/java/by/q64/promo/excelgen/service/marketing",
+      "name": "promo",
+      "url": "https://searchcode.com/codesearch/view/92131916/",
+      "md5hash": "a58465613021fd4ec4403df58f01c572",
+      "lines": {
+        "97": "            XSLFTableCell nCell = row.addCell();",
+        "98": "            XSLFTextParagraph nCellP = nCell.addNewTextParagraph();",
+        "147": "        txt1.setAnchor(new java.awt.Rectangle(20, 40, 650, titleHeight));",
+        "103": "            XSLFTableCell cityCell = row.addCell();",
+        "104": "            XSLFTextParagraph cityCellP = cityCell.addNewTextParagraph();",
+        "109": "            XSLFTableCell netCell = row.addCell();",
+        "78": "            XSLFTableCell th = headerRow.addCell();",
+        "79": "            XSLFTextParagraph p = th.addNewTextParagraph();",
+        "48": "        txt1.setAnchor(new java.awt.Rectangle(20, 40, 600, 50));",
+        "49": "        XSLFTextParagraph p1 = txt1.addNewTextParagraph();",
+        "115": "            XSLFTableCell addressCell = row.addCell();",
+        "116": "            XSLFTextParagraph addressCellP = addressCell.addNewTextParagraph();",
+        "110": "            XSLFTextParagraph netCellP = netCell.addNewTextParagraph();",
+        "148": "        XSLFTextParagraph p1 = txt1.addNewTextParagraph();",
+        "58": "        txt2.setAnchor(new java.awt.Rectangle(20, 80, 600, 50));",
+        "59": "        XSLFTextParagraph p2 = txt2.addNewTextParagraph();"
+      },
+      "id": 92131916,
+      "filename": "MarketingReportInCityGeneratorImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 547,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406808/",
+      "md5hash": "d2b2f692a7b658d89cb45fae37549298",
+      "lines": {
+        "48": "    private final CTRegularTextRun _r;",
+        "49": "    private final XSLFTextParagraph _p;",
+        "50": "",
+        "51": "    XSLFTextRun(CTRegularTextRun r, XSLFTextParagraph p){",
+        "55": "",
+        "56": "    XSLFTextParagraph getParentParagraph(){"
+      },
+      "id": 97406808,
+      "filename": "XSLFTextRun.java"
+    },
+    {
+      "repo": "https://bitbucket.org/quadrate/promo.git",
+      "language": "Java",
+      "linescount": 51,
+      "location": "/excelgen/src/main/java/by/q64/promo/excelgen/service/marketing",
+      "name": "promo",
+      "url": "https://searchcode.com/codesearch/view/92131911/",
+      "md5hash": "5be983c2131ccc4b9249d5247f69c1e9",
+      "lines": {
+        "24": "",
+        "25": "        XSLFTextParagraph p1 = txt1.addNewTextParagraph();",
+        "38": "",
+        "39": "        XSLFTextParagraph p2 = txt2.addNewTextParagraph();"
+      },
+      "id": 92131911,
+      "filename": "MarketingReportLastSlideGeneratorImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/quadrate/promo.git",
+      "language": "Java",
+      "linescount": 81,
+      "location": "/excelgen/src/main/java/by/q64/promo/excelgen/service/marketing",
+      "name": "promo",
+      "url": "https://searchcode.com/codesearch/view/92131912/",
+      "md5hash": "e8d97edebf3bc6b01a7ffe249d99390a",
+      "lines": {
+        "43": "        txt1.setAnchor(new java.awt.Rectangle(250, 250, 450, 200));",
+        "44": "        XSLFTextParagraph p1 = txt1.addNewTextParagraph();",
+        "54": "        txt2.setAnchor(new java.awt.Rectangle(420, 480, 200, 40));",
+        "55": "        XSLFTextParagraph p2 = txt2.addNewTextParagraph();"
+      },
+      "id": 92131912,
+      "filename": "MarketingReportFirstSlideGeneratorImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/quadrate/promo.git",
+      "language": "Java",
+      "linescount": 38,
+      "location": "/excelgen/src/main/java/by/q64/promo/excelgen/service/marketing/source/settings",
+      "name": "promo",
+      "url": "https://searchcode.com/codesearch/view/92131926/",
+      "md5hash": "52cad0c258edfb3d13f81c6e8f1bc7dc",
+      "lines": {
+        "24": "//            XSLFTextParagraph p = txt.addNewTextParagraph();",
+        "5": "import org.apache.poi.xslf.usermodel.XSLFTextBox;",
+        "6": "import org.apache.poi.xslf.usermodel.XSLFTextParagraph;",
+        "23": "//"
+      },
+      "id": 92131926,
+      "filename": "MarketingReportSettings.java"
+    },
+    {
+      "repo": "https://bitbucket.org/quadrate/promo.git",
+      "language": "Java",
+      "linescount": 36,
+      "location": "/excelgen/src/main/java/by/q64/promo/excelgen/service/marketing",
+      "name": "promo",
+      "url": "https://searchcode.com/codesearch/view/92131918/",
+      "md5hash": "82a1615319658484140891d2e0597bd0",
+      "lines": {
+        "24": "        XSLFTextParagraph p1 = txt1.addNewTextParagraph();",
+        "23": ""
+      },
+      "id": 92131918,
+      "filename": "MarketingReportCostEstimationGeneratorImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 5,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

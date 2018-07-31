@@ -1,0 +1,94 @@
+{
+  "matchterm": "EscherPropertyMetaData",
+  "previouspage": null,
+  "searchterm": "EscherPropertyMetaData",
+  "query": "EscherPropertyMetaData",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 92,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642615/",
+      "md5hash": "fdc6469923f04ccff1dafe54e31bcb3d",
+      "lines": {
+        "48": "public class EscherPropertyMetaData",
+        "64": "     */",
+        "65": "    public EscherPropertyMetaData( String description )",
+        "74": "     */",
+        "75": "    public EscherPropertyMetaData( String description, byte type )",
+        "47": " */"
+      },
+      "id": 15642615,
+      "filename": "EscherPropertyMetaData.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 648,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642602/",
+      "md5hash": "b9c616f0ed7b48b8a8c8b5da42ffc17c",
+      "lines": {
+        "416": "            addProp( GEOMETRY__SEGMENTINFO , data( \"geometry.segmentinfo\", EscherPropertyMetaData.TYPE_ARRAY ) );",
+        "417": "            addProp( GEOMETRY__ADJUSTVALUE , data( \"geometry.adjustvalue\" ) );",
+        "455": "            addProp( FILL__SHADEPRESET , data( \"fill.shadepreset\" ) );",
+        "456": "            addProp( FILL__SHADECOLORS , data( \"fill.shadecolors\", EscherPropertyMetaData.TYPE_ARRAY ) );",
+        "466": "            addProp( FILL__NOFILLHITTEST , data( \"fill.nofillhittest\", EscherPropertyMetaData.TYPE_BOOLEAN ) );",
+        "467": "            addProp( LINESTYLE__COLOR, data( \"linestyle.color\", EscherPropertyMetaData.TYPE_RGB ) );",
+        "431": "            addProp( GEOMETRY__FILLSHADESHAPEOK , data( \"geometry.fillshadeshapeok\" ) );",
+        "432": "            addProp( GEOMETRY__FILLOK , data( \"geometry.fillok\", EscherPropertyMetaData.TYPE_BOOLEAN ) );",
+        "433": "            addProp( FILL__FILLTYPE , data( \"fill.filltype\" ) );",
+        "434": "            addProp( FILL__FILLCOLOR, data( \"fill.fillcolor\", EscherPropertyMetaData.TYPE_RGB ) );",
+        "435": "            addProp( FILL__FILLOPACITY , data( \"fill.fillopacity\" ) );",
+        "436": "            addProp( FILL__FILLBACKCOLOR , data( \"fill.fillbackcolor\", EscherPropertyMetaData.TYPE_RGB ) );",
+        "465": "            addProp( FILL__USERECT , data( \"fill.userect\" ) );",
+        "413": "            addProp( GEOMETRY__BOTTOM , data( \"geometry.bottom\" ) );",
+        "414": "            addProp( GEOMETRY__SHAPEPATH , data( \"geometry.shapepath\", EscherPropertyMetaData.TYPE_SHAPEPATH ) );",
+        "415": "            addProp( GEOMETRY__VERTICES , data( \"geometry.vertices\" , EscherPropertyMetaData.TYPE_ARRAY ) );"
+      },
+      "id": 15642602,
+      "filename": "EscherProperties.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 128,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642603/",
+      "md5hash": "f08eee159fce1bf0383031b466b1ae4f",
+      "lines": {
+        "80": "            byte propertyType = EscherProperties.getPropertyType( (short) propNumber );",
+        "81": "            if ( propertyType == EscherPropertyMetaData.TYPE_BOOLEAN )",
+        "82": "                results.add( new EscherBoolProperty( propId, propData ) );",
+        "83": "            else if ( propertyType == EscherPropertyMetaData.TYPE_RGB )",
+        "84": "                results.add( new EscherRGBProperty( propId, propData ) );",
+        "85": "            else if ( propertyType == EscherPropertyMetaData.TYPE_SHAPEPATH )",
+        "92": "                {",
+        "93": "                    if ( propertyType == EscherPropertyMetaData.TYPE_ARRAY)"
+      },
+      "id": 15642603,
+      "filename": "EscherPropertyFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

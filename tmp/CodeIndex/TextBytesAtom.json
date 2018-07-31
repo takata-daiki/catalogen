@@ -1,0 +1,145 @@
+{
+  "matchterm": "TextBytesAtom",
+  "previouspage": null,
+  "searchterm": "TextBytesAtom",
+  "query": "TextBytesAtom",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 465,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394323/",
+      "md5hash": "004c81d0c6f4e85beee2c12f2cad27b2",
+      "lines": {
+        "144": "     * Scans through the supplied record array, looking for",
+        "145": "     * a TextHeaderAtom followed by one of a TextBytesAtom or",
+        "181": "                } else {",
+        "182": "                    System.err.println(\"Found a TextHeaderAtom not followed by a TextBytesAtom or TextCharsAtom: Followed by \" + records[i + 1].getRecordType());",
+        "169": "                    trun = new TextRun(tha, tca, stpa);",
+        "170": "                } else if (records[i + 1] instanceof TextBytesAtom) {",
+        "171": "\t\t\t\t\ttry {",
+        "172": "\t\t\t\t\t\tTextBytesAtom tba = (TextBytesAtom) records[i + 1];"
+      },
+      "id": 97394323,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "https://bitbucket.org/AlexeyD/hibench.git",
+      "language": "Java",
+      "linescount": 432,
+      "location": "/nutchindexing/nutch-1.2/src/plugin/parse-mspowerpoint/src/java/org/apache/nutch/parse/mspowerpoint",
+      "name": "hibench",
+      "url": "https://searchcode.com/codesearch/view/48925118/",
+      "md5hash": "75c37848bf3d7cb3ed9cca98daec6b70",
+      "lines": {
+        "235": "          /*",
+        "236": "           * Iterating the bytearray for TextCharAtoms and TextBytesAtom",
+        "350": "",
+        "351": "    // To store data found in TextCharAtoms and TextBytesAtoms"
+      },
+      "id": 48925118,
+      "filename": "ContentReaderListener.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 166,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383874/",
+      "md5hash": "1d70826ce2176ac55b0ddf3f8c697a3c",
+      "lines": {
+        "78": "     * contain the bytes that make up a TextHeaderAtom followed by a",
+        "79": "     * TextBytesAtom/TextCharsAtom"
+      },
+      "id": 97383874,
+      "filename": "EscherTextboxRecord.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 514,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394313/",
+      "md5hash": "346ffc55e0b7a05381ade3b094d03d17",
+      "lines": {
+        "80": "\t\t//  one of TextBytesAtom or TextCharsAtom",
+        "79": "\t\t// Build up TextRuns from pairs of TextHeaderAtom and"
+      },
+      "id": 97394313,
+      "filename": "Slide.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 612,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394395/",
+      "md5hash": "4ae551d90bbc16377c5513186d4e9dc1",
+      "lines": {
+        "94": "     * Escher container which holds text attributes such as",
+        "95": "     * TextHeaderAtom, TextBytesAtom ot TextCharsAtom, StyleTextPropAtom etc."
+      },
+      "id": 97394395,
+      "filename": "TextShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 193,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642610/",
+      "md5hash": "bee477788b59a9249c8134a3a92969f8",
+      "lines": {
+        "116": "     * contain the bytes that make up a TextHeaderAtom followed by a",
+        "117": "     * TextBytesAtom/TextCharsAtom"
+      },
+      "id": 15642610,
+      "filename": "EscherTextboxRecord.java"
+    },
+    {
+      "repo": "https://github.com/lritter/gnutch.git",
+      "language": "Java",
+      "linescount": 432,
+      "location": "/src/plugin/parse-mspowerpoint/src/java/org/apache/nutch/parse/mspowerpoint",
+      "name": "gnutch",
+      "url": "https://searchcode.com/codesearch/view/138791632/",
+      "md5hash": "75c37848bf3d7cb3ed9cca98daec6b70",
+      "lines": {
+        "235": "          /*",
+        "236": "           * Iterating the bytearray for TextCharAtoms and TextBytesAtom",
+        "350": "",
+        "351": "    // To store data found in TextCharAtoms and TextBytesAtoms"
+      },
+      "id": 138791632,
+      "filename": "ContentReaderListener.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 6,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "matchterm": "POIFSDocumentPath",
+  "previouspage": null,
+  "searchterm": "POIFSDocumentPath",
+  "query": "POIFSDocumentPath",
+  "language_filters": [
+    {
+      "count": 8,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 8,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 298,
+      "location": "/components/forks/poi/src/loci/poi/poifs/filesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642282/",
+      "md5hash": "ea6d5412b0105c393c6da14c7b688251",
+      "lines": {
+        "128": "",
+        "129": "    public POIFSDocumentPath(final POIFSDocumentPath path,",
+        "162": "    /**",
+        "163": "     * equality. Two POIFSDocumentPath instances are equal if they",
+        "295": "    }",
+        "256": "    public POIFSDocumentPath getParent()",
+        "264": "        POIFSDocumentPath parent = new POIFSDocumentPath(null);",
+        "263": "        }",
+        "46": "/**",
+        "47": " * Class POIFSDocumentPath",
+        "296": "}   // end public class POIFSDocumentPath",
+        "52": "",
+        "53": "public class POIFSDocumentPath",
+        "183": "            {",
+        "184": "                POIFSDocumentPath path = ( POIFSDocumentPath ) o;",
+        "255": ""
+      },
+      "id": 15642282,
+      "filename": "POIFSDocumentPath.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 360,
+      "location": "/components/forks/poi/src/loci/poi/poifs/eventfilesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642289/",
+      "md5hash": "0574f17f0841331cab62f67868201274",
+      "lines": {
+        "192": "    public void registerListener(final POIFSReaderListener listener,",
+        "193": "                                 final POIFSDocumentPath path,",
+        "131": "                    .getSBATStart()), data_blocks, properties.getRoot()",
+        "132": "                        .getChildren(), new POIFSDocumentPath());",
+        "204": "        registry.registerListener(listener,",
+        "205": "                                  (path == null) ? new POIFSDocumentPath()",
+        "335": "            DocumentInputStream istream = event.getStream();",
+        "336": "            POIFSDocumentPath   path    = event.getPath();",
+        "51": "import loci.poi.poifs.filesystem.POIFSDocument;",
+        "52": "import loci.poi.poifs.filesystem.POIFSDocumentPath;",
+        "245": "                                   final POIFSDocumentPath path)",
+        "244": "                                   final Iterator properties,",
+        "254": "            {",
+        "255": "                POIFSDocumentPath new_path = new POIFSDocumentPath(path,"
+      },
+      "id": 15642289,
+      "filename": "POIFSReader.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 684,
+      "location": "/components/forks/poi/src/loci/poi/poifs/filesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642272/",
+      "md5hash": "59a31c39c6dfe8eece6f3750636bbe31",
+      "lines": {
+        "531": "        private POIFSDocumentPath   path;",
+        "577": "",
+        "450": "        private SmallDocumentBlock[] smallBlocks;",
+        "451": "        private POIFSDocumentPath    path;",
+        "484": "",
+        "485": "        SmallBlockStore(final POIFSDocumentPath path, final String name,",
+        "578": "        BigBlockStore(final POIFSDocumentPath path, final String name,",
+        "218": "    public POIFSDocument(final String name, final int size,",
+        "219": "                         final POIFSDocumentPath path,",
+        "530": "        private DocumentBlock[]     bigBlocks;"
+      },
+      "id": 15642272,
+      "filename": "POIFSDocument.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 458,
+      "location": "/components/forks/poi/src/loci/poi/poifs/filesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642286/",
+      "md5hash": "a149450acd4d1363e1060108fcdd5c42",
+      "lines": {
+        "96": "        {",
+        "97": "            _path = new POIFSDocumentPath(parent._path, new String[]",
+        "128": "",
+        "129": "    public POIFSDocumentPath getPath()",
+        "74": "    // the path described by this document",
+        "75": "    private POIFSDocumentPath _path;",
+        "92": "        {",
+        "93": "            _path = new POIFSDocumentPath();"
+      },
+      "id": 15642286,
+      "filename": "DirectoryNode.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 104,
+      "location": "/components/forks/poi/src/loci/poi/poifs/eventfilesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642293/",
+      "md5hash": "1e53c478518579e98dad7747cf35907b",
+      "lines": {
+        "88": "",
+        "68": "    POIFSReaderEvent(final DocumentInputStream stream,",
+        "69": "                     final POIFSDocumentPath path, final String documentName)",
+        "89": "    public POIFSDocumentPath getPath()",
+        "56": "    private DocumentInputStream stream;",
+        "57": "    private POIFSDocumentPath   path;",
+        "44": "import loci.poi.poifs.filesystem.DocumentInputStream;",
+        "45": "import loci.poi.poifs.filesystem.POIFSDocumentPath;"
+      },
+      "id": 15642293,
+      "filename": "POIFSReaderEvent.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 115,
+      "location": "/components/forks/poi/src/loci/poi/poifs/filesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642275/",
+      "md5hash": "b410cd824b3bff2ca5b5c722e44009ae",
+      "lines": {
+        "68": "    POIFSWriterEvent(final DocumentOutputStream stream,",
+        "53": "    private DocumentOutputStream stream;",
+        "54": "    private POIFSDocumentPath    path;",
+        "90": "",
+        "91": "    public POIFSDocumentPath getPath()",
+        "69": "                     final POIFSDocumentPath path, final String documentName,"
+      },
+      "id": 15642275,
+      "filename": "POIFSWriterEvent.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 208,
+      "location": "/components/forks/poi/src/loci/poi/poifs/eventfilesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642291/",
+      "md5hash": "0ad9f51981f5e9da45f828cec201eaf3",
+      "lines": {
+        "96": "                          final POIFSDocumentPath path,",
+        "165": "",
+        "166": "    Iterator getListeners(final POIFSDocumentPath path, final String name)",
+        "47": "import loci.poi.poifs.filesystem.POIFSDocumentPath;",
+        "46": "import loci.poi.poifs.filesystem.DocumentDescriptor;",
+        "95": "    void registerListener(final POIFSReaderListener listener,"
+      },
+      "id": 15642291,
+      "filename": "POIFSReaderRegistry.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 140,
+      "location": "/components/forks/poi/src/loci/poi/poifs/filesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642285/",
+      "md5hash": "7435ded9cbe9f607bd81e481f9e72aec",
+      "lines": {
+        "64": "    public DocumentDescriptor(final POIFSDocumentPath path, final String name)",
+        "52": "{",
+        "53": "    private POIFSDocumentPath path;",
+        "63": ""
+      },
+      "id": 15642285,
+      "filename": "DocumentDescriptor.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 8,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

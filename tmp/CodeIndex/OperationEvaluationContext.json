@@ -1,0 +1,100 @@
+{
+  "matchterm": "OperationEvaluationContext",
+  "previouspage": null,
+  "searchterm": "OperationEvaluationContext",
+  "query": "OperationEvaluationContext",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 163,
+      "location": "/zss/src/org/zkoss/poi/ss/formula",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970569/",
+      "md5hash": "6c4cf9a355470c2f624993f5b0758c74",
+      "lines": {
+        "115": "\tpublic void addDependency(OperationEvaluationContext ec, Ptg[] ptgs) {",
+        "114": "\t@Override",
+        "51": "\t@Override",
+        "52": "\tpublic ValueEval postProcessValueEval(OperationEvaluationContext ec, ValueEval opResult, boolean eval) {",
+        "58": "\t",
+        "59": "\tprotected CellRefImpl prepareSrcRef(OperationEvaluationContext ec) {"
+      },
+      "id": 3970569,
+      "filename": "DefaultDependencyTracker.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openicar/juniprint",
+      "language": "Java",
+      "linescount": 66,
+      "location": "/src/main/java/org/comsoft/juniprint/userfunction",
+      "name": "juniprint",
+      "url": "https://searchcode.com/codesearch/view/60212073/",
+      "md5hash": "5742c87b59893ee69331ec91c5176455",
+      "lines": {
+        "33": "\t",
+        "34": "\tpublic ValueEval evaluate(ValueEval[] args, OperationEvaluationContext ec) {",
+        "27": "import org.apache.poi.hssf.record.formula.functions.FreeRefFunction;",
+        "28": "import org.apache.poi.ss.formula.OperationEvaluationContext;"
+      },
+      "id": 60212073,
+      "filename": "Sum_Prop.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openicar/juniprint",
+      "language": "Java",
+      "linescount": 64,
+      "location": "/src/main/java/org/comsoft/juniprint/userfunction",
+      "name": "juniprint",
+      "url": "https://searchcode.com/codesearch/view/60212074/",
+      "md5hash": "ff75604b3c2b39c7e444cf43781d773c",
+      "lines": {
+        "36": "\tpublic ValueEval evaluate(ValueEval[] args, OperationEvaluationContext ec) {",
+        "35": "\t",
+        "28": "import org.apache.poi.hssf.record.formula.functions.FreeRefFunction;",
+        "29": "import org.apache.poi.ss.formula.OperationEvaluationContext;"
+      },
+      "id": 60212074,
+      "filename": "Nmb_Prop.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openicar/juniprint",
+      "language": "Java",
+      "linescount": 79,
+      "location": "/src/main/java/org/comsoft/juniprint/userfunction",
+      "name": "juniprint",
+      "url": "https://searchcode.com/codesearch/view/60212076/",
+      "md5hash": "e44f8aeeefd407ea1a793bea5064c3c2",
+      "lines": {
+        "35": "\tpublic ValueEval evaluate(ValueEval[] args, OperationEvaluationContext arg1) {",
+        "34": "",
+        "27": "import org.apache.poi.hssf.record.formula.functions.FreeRefFunction;",
+        "28": "import org.apache.poi.ss.formula.OperationEvaluationContext;"
+      },
+      "id": 60212076,
+      "filename": "FML.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "matchterm": "RelationshipSource",
+  "previouspage": null,
+  "searchterm": "RelationshipSource",
+  "query": "RelationshipSource",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1489,
+      "location": "/pptx/src/org/apache/poi/openxml4j/opc",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406292/",
+      "md5hash": "47fc882bc196bd395e952d6ada656cd9",
+      "lines": {
+        "64": "public abstract class OPCPackage implements RelationshipSource, Closeable {",
+        "1127": "\t * @return The newly created and added relationship",
+        "1128": "\t * @see org.apache.poi.openxml4j.opc.RelationshipSource#addExternalRelationship(java.lang.String,",
+        "1230": "\t/**",
+        "1231": "\t * @see org.apache.poi.openxml4j.opc.RelationshipSource#getRelationship(java.lang.String)",
+        "1105": "\t * @return The newly created and added relationship",
+        "1106": "\t * @see org.apache.poi.openxml4j.opc.RelationshipSource#addExternalRelationship(java.lang.String,",
+        "1237": "\t/**",
+        "1238": "\t * @see org.apache.poi.openxml4j.opc.RelationshipSource#hasRelationships()",
+        "1244": "\t/**",
+        "1245": "\t * @see org.apache.poi.openxml4j.opc.RelationshipSource#isRelationshipExists(org.apache.poi.openxml4j.opc.PackageRelationship)",
+        "63": " */"
+      },
+      "id": 97406292,
+      "filename": "OPCPackage.java"
+    },
+    {
+      "repo": "https://github.com/fmjrey/Green-UML.git",
+      "language": "Java",
+      "linescount": 640,
+      "location": "/Green/src/edu/buffalo/cse/green/editor/model",
+      "name": "Green-UML",
+      "url": "https://searchcode.com/codesearch/view/113210229/",
+      "md5hash": "6d8b44316a6fd62ca27ac323968d5b63",
+      "lines": {
+        "302": "\t\tfirePropertyChange(RelationshipSource, null, newSource);",
+        "21": "import static edu.buffalo.cse.green.editor.controller.PropertyChange.RelationshipCardinality;",
+        "22": "import static edu.buffalo.cse.green.editor.controller.PropertyChange.RelationshipSource;",
+        "301": "\t\t"
+      },
+      "id": 113210229,
+      "filename": "RelationshipModel.java"
+    },
+    {
+      "repo": "https://github.com/fmjrey/Green-UML.git",
+      "language": "Java",
+      "linescount": 523,
+      "location": "/Green/src/edu/buffalo/cse/green/editor/controller",
+      "name": "Green-UML",
+      "url": "https://searchcode.com/codesearch/view/113210418/",
+      "md5hash": "ab03a5594ce3ede8ab663b66368aefbc",
+      "lines": {
+        "14": "import static edu.buffalo.cse.green.editor.controller.PropertyChange.RelationshipCardinality;",
+        "489": "\t",
+        "490": "\tclass RelationshipSourceHandler implements PropertyListener {",
+        "317": "\tprotected void addPropertyListeners() {",
+        "318": "\t\taddListener(RelationshipSource, new RelationshipSourceHandler());",
+        "15": "import static edu.buffalo.cse.green.editor.controller.PropertyChange.RelationshipSource;"
+      },
+      "id": 113210418,
+      "filename": "RelationshipPart.java"
+    },
+    {
+      "repo": "https://github.com/fmjrey/Green-UML.git",
+      "language": "Java",
+      "linescount": 22,
+      "location": "/Green/src/edu/buffalo/cse/green/editor/controller",
+      "name": "Green-UML",
+      "url": "https://searchcode.com/codesearch/view/113210403/",
+      "md5hash": "992c361bb75e483a729c31ccfc9f5d92",
+      "lines": {
+        "17": "\tRelationshipBendpoint(), RelationshipCardinality(),",
+        "18": "\tRelationshipSource(), RelationshipTarget(),"
+      },
+      "id": 113210403,
+      "filename": "PropertyChange.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

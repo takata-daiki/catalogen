@@ -1,0 +1,167 @@
+{
+  "matchterm": "STPathFillMode",
+  "previouspage": null,
+  "searchterm": "STPathFillMode",
+  "query": "STPathFillMode",
+  "language_filters": [
+    {
+      "count": 6,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 6,
+  "results": [
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 114,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642034/",
+      "md5hash": "175bf20d3dadb897eecb6e47074bce73",
+      "lines": {
+        "96": "    STPathFillMode(String v) {",
+        "49": "@XmlEnum",
+        "50": "public enum STPathFillMode {",
+        "103": "",
+        "104": "    public static STPathFillMode fromValue(String v) {",
+        "105": "        for (STPathFillMode c: STPathFillMode.values()) {",
+        "106": "            if (c.value.equals(v)) {",
+        "95": ""
+      },
+      "id": 17642034,
+      "filename": "STPathFillMode.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 99,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402285/",
+      "md5hash": "5fdb30d67669b1517ecdc723ebfbe6ee",
+      "lines": {
+        "16": "public interface STPathFillMode extends org.apache.xmlbeans.XmlToken",
+        "19": "        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(STPathFillMode.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sE130CAA0A01A7CDE5A2B4FEB8B311707\").resolveHandle(\"stpathfillmode3cf6type\");",
+        "18": "    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.STPathFillMode",
+        "38": "    /**",
+        "39": "     * Enumeration value class for org.openxmlformats.schemas.drawingml.x2006.main.STPathFillMode.",
+        "13": " *",
+        "14": " * This is an atomic type that is a restriction of org.openxmlformats.schemas.drawingml.x2006.main.STPathFillMode.",
+        "15": " */"
+      },
+      "id": 97402285,
+      "filename": "STPathFillMode.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 264,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642035/",
+      "md5hash": "76da62452ba47aa186582eba48e2fd6d",
+      "lines": {
+        "199": "     *     allowed object is",
+        "200": "     *     {@link STPathFillMode }",
+        "202": "     */",
+        "203": "    public void setFill(STPathFillMode value) {",
+        "82": "    @XmlAttribute",
+        "83": "    protected STPathFillMode fill;",
+        "183": "     *     possible object is",
+        "184": "     *     {@link STPathFillMode }",
+        "186": "     */",
+        "187": "    public STPathFillMode getFill() {",
+        "188": "        if (fill == null) {",
+        "189": "            return STPathFillMode.NORM;"
+      },
+      "id": 17642035,
+      "filename": "CTPath2D.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1476,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403836/",
+      "md5hash": "2582da594107bd266380545b0ddc6687",
+      "lines": {
+        "1248": "     */",
+        "1249": "    public void xsetFill(org.openxmlformats.schemas.drawingml.x2006.main.STPathFillMode fill)",
+        "1193": "            }",
+        "1194": "            return (org.openxmlformats.schemas.drawingml.x2006.main.STPathFillMode.Enum)target.getEnumValue();",
+        "1230": "     */",
+        "1231": "    public void setFill(org.openxmlformats.schemas.drawingml.x2006.main.STPathFillMode.Enum fill)",
+        "1200": "     */",
+        "1201": "    public org.openxmlformats.schemas.drawingml.x2006.main.STPathFillMode xgetFill()",
+        "1205": "            check_orphaned();",
+        "1206": "            org.openxmlformats.schemas.drawingml.x2006.main.STPathFillMode target = null;",
+        "1207": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.STPathFillMode)get_store().find_attribute_user(FILL$16);",
+        "1208": "            if (target == null)",
+        "1209": "            {",
+        "1178": "     */",
+        "1179": "    public org.openxmlformats.schemas.drawingml.x2006.main.STPathFillMode.Enum getFill()",
+        "1210": "                target = (org.openxmlformats.schemas.drawingml.x2006.main.STPathFillMode)get_default_attribute_value(FILL$16);"
+      },
+      "id": 97403836,
+      "filename": "CTPath2DImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 522,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402026/",
+      "md5hash": "78a921038f475e52b775a86778f20278",
+      "lines": {
+        "379": "     */",
+        "374": "     */",
+        "359": "     */",
+        "360": "    org.openxmlformats.schemas.drawingml.x2006.main.STPathFillMode.Enum getFill();",
+        "380": "    void xsetFill(org.openxmlformats.schemas.drawingml.x2006.main.STPathFillMode fill);",
+        "375": "    void setFill(org.openxmlformats.schemas.drawingml.x2006.main.STPathFillMode.Enum fill);",
+        "364": "     */",
+        "365": "    org.openxmlformats.schemas.drawingml.x2006.main.STPathFillMode xgetFill();"
+      },
+      "id": 97402026,
+      "filename": "CTPath2D.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 27,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97404151/",
+      "md5hash": "4dead5551b1c70617ddd1efb6fae6e8e",
+      "lines": {
+        "16": "    ",
+        "17": "    public STPathFillModeImpl(org.apache.xmlbeans.SchemaType sType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.STPathFillMode",
+        "21": "    ",
+        "22": "    protected STPathFillModeImpl(org.apache.xmlbeans.SchemaType sType, boolean b)",
+        "11": " *",
+        "12": " * This is an atomic type that is a restriction of org.openxmlformats.schemas.drawingml.x2006.main.STPathFillMode.",
+        "13": " */",
+        "14": "public class STPathFillModeImpl extends org.apache.xmlbeans.impl.values.JavaStringEnumerationHolderEx implements org.openxmlformats.schemas.drawingml.x2006.main.STPathFillMode"
+      },
+      "id": 97404151,
+      "filename": "STPathFillModeImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 6,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

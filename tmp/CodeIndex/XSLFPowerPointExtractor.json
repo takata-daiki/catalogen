@@ -1,0 +1,142 @@
+{
+  "matchterm": "XSLFPowerPointExtractor",
+  "previouspage": null,
+  "searchterm": "XSLFPowerPointExtractor",
+  "query": "XSLFPowerPointExtractor",
+  "language_filters": [
+    {
+      "count": 6,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 6,
+  "results": [
+    {
+      "repo": "https://github.com/cheft/fast-reader.git",
+      "language": "Java",
+      "linescount": 288,
+      "location": "/reader-server/src/com/topway/reader/server/lucene",
+      "name": "fast-reader",
+      "url": "https://searchcode.com/codesearch/view/94960725/",
+      "md5hash": "8e716c0d4bbe4c605731725e169386b5",
+      "lines": {
+        "241": "\t\t\tOPCPackage opcPackage = POIXMLDocument.openPackage(path);",
+        "242": "\t\t\tppe = new XSLFPowerPointExtractor(opcPackage);",
+        "28": "import org.apache.poi.openxml4j.opc.OPCPackage;",
+        "29": "import org.apache.poi.xslf.extractor.XSLFPowerPointExtractor;",
+        "238": "\tpublic String readPptx(String path) {",
+        "239": "\t\tXSLFPowerPointExtractor ppe = null;"
+      },
+      "id": 94960725,
+      "filename": "IndexFiles.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 106,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785576/",
+      "md5hash": "fec54de4521538d1d148242a35245b0e",
+      "lines": {
+        "48": "    /**",
+        "49": "     * @see org.apache.poi.xslf.extractor.XSLFPowerPointExtractor#getText()",
+        "41": "",
+        "24": "import org.apache.poi.xslf.XSLFSlideShow;",
+        "25": "import org.apache.poi.xslf.extractor.XSLFPowerPointExtractor;",
+        "42": "public class XSLFPowerPointExtractorDecorator extends AbstractOOXMLExtractor {",
+        "43": "",
+        "44": "    public XSLFPowerPointExtractorDecorator(XSLFPowerPointExtractor extractor) {"
+      },
+      "id": 111785576,
+      "filename": "XSLFPowerPointExtractorDecorator.java"
+    },
+    {
+      "repo": "http://dspace-semantic-search.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 125,
+      "location": "/dspace-api/src/main/java/org/dspace/app/mediafilter",
+      "name": "dspace-semantic-search",
+      "url": "https://searchcode.com/codesearch/view/11613227/",
+      "md5hash": "9aac673862fc080067713fcba82fe234",
+      "lines": {
+        "82": "            // If this is a PowerPoint XML file, extract accordingly",
+        "83": "            if (pptExtractor instanceof XSLFPowerPointExtractor)",
+        "87": "                // the slides and the notes is desired",
+        "88": "                extractedText = ((XSLFPowerPointExtractor) pptExtractor)",
+        "13": "import org.apache.poi.extractor.ExtractorFactory;",
+        "14": "import org.apache.poi.xslf.extractor.XSLFPowerPointExtractor;"
+      },
+      "id": 11613227,
+      "filename": "PowerPointFilter.java"
+    },
+    {
+      "repo": "http://ontopia.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 47,
+      "location": "/ontopia-classify/src/main/java/net/ontopia/topicmaps/classify",
+      "name": "ontopia",
+      "url": "https://searchcode.com/codesearch/view/12809850/",
+      "md5hash": "0c3d3fd42467cfd648ebac739b344b90",
+      "lines": {
+        "9": "",
+        "10": "import org.apache.poi.xslf.extractor.XSLFPowerPointExtractor;",
+        "35": "      OPCPackage opc = OPCPackage.open(new ByteArrayInputStream(cc.getContent()));",
+        "36": "      XSLFPowerPointExtractor extractor = new XSLFPowerPointExtractor(opc);"
+      },
+      "id": 12809850,
+      "filename": "OOXMLPowerpointFormatModule.java"
+    },
+    {
+      "repo": "http://filesearch.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 138,
+      "location": "/filesearch/SearchLocalFile/src/com/searchlocal/filereader",
+      "name": "filesearch",
+      "url": "https://searchcode.com/codesearch/view/14046023/",
+      "md5hash": "e80907b3feb10a010e2946da79d05656",
+      "lines": {
+        "52": "\t\t\t\t\t// ??xml?????????ppt??",
+        "53": "\t\t\t\t\tXSLFPowerPointExtractor ppt = new XSLFPowerPointExtractor(xmlslideshow);",
+        "14": "import org.apache.poi.xslf.XSLFSlideShow;",
+        "15": "import org.apache.poi.xslf.extractor.XSLFPowerPointExtractor;"
+      },
+      "id": 14046023,
+      "filename": "PptReader.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 103,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785577/",
+      "md5hash": "c9c3f130483ace9122b93909deae1587",
+      "lines": {
+        "69": "            if (document instanceof XSLFSlideShow) {",
+        "70": "                extractor = new XSLFPowerPointExtractorDecorator(",
+        "71": "                        (XSLFPowerPointExtractor) poiExtractor);",
+        "72": "            } else if (document instanceof XSSFWorkbook) {",
+        "29": "import org.apache.poi.xslf.XSLFSlideShow;",
+        "30": "import org.apache.poi.xslf.extractor.XSLFPowerPointExtractor;"
+      },
+      "id": 111785577,
+      "filename": "OOXMLExtractorFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 3,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

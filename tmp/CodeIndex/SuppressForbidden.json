@@ -1,0 +1,389 @@
+{
+  "matchterm": "SuppressForbidden",
+  "previouspage": null,
+  "searchterm": "SuppressForbidden",
+  "query": "SuppressForbidden",
+  "language_filters": [
+    {
+      "count": 114,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 114,
+  "results": [
+    {
+      "repo": "https://github.com/carrotsearch/hppc.git",
+      "language": "Java",
+      "linescount": 19,
+      "location": "/hppc/src/main/java/com/carrotsearch/hppc",
+      "name": "hppc",
+      "url": "https://searchcode.com/codesearch/view/113292200/",
+      "md5hash": "ac3e9be98662b3f8a76ead743500455a",
+      "lines": {
+        "16": "  ElementType.TYPE })",
+        "17": "public @interface SuppressForbidden {"
+      },
+      "id": 113292200,
+      "filename": "SuppressForbidden.java"
+    },
+    {
+      "repo": "git://github.com/elasticsearch/elasticsearch.git",
+      "language": "Java",
+      "linescount": 36,
+      "location": "/test/logger-usage/src/main/java/org/elasticsearch/test/loggerusage",
+      "name": "elasticsearch",
+      "url": "https://searchcode.com/codesearch/view/115983443/",
+      "md5hash": "6e542af61965c4164af00398724c3d3c",
+      "lines": {
+        "32": "@Target({ ElementType.CONSTRUCTOR, ElementType.FIELD, ElementType.METHOD, ElementType.TYPE })",
+        "33": "public @interface SuppressForbidden {"
+      },
+      "id": 115983443,
+      "filename": "SuppressForbidden.java"
+    },
+    {
+      "repo": "git://github.com/elasticsearch/elasticsearch.git",
+      "language": "Java",
+      "linescount": 34,
+      "location": "/core/src/main/java/org/elasticsearch/common",
+      "name": "elasticsearch",
+      "url": "https://searchcode.com/codesearch/view/115991940/",
+      "md5hash": "ccf0356765d1670eb7e7f92147468cdf",
+      "lines": {
+        "30": "@Target({ ElementType.CONSTRUCTOR, ElementType.FIELD, ElementType.METHOD, ElementType.TYPE })",
+        "31": "public @interface SuppressForbidden {"
+      },
+      "id": 115991940,
+      "filename": "SuppressForbidden.java"
+    },
+    {
+      "repo": "git://github.com/Graylog2/graylog2-server.git",
+      "language": "Java",
+      "linescount": 31,
+      "location": "/graylog2-server/src/main/java/org/graylog2/shared",
+      "name": "graylog2-server",
+      "url": "https://searchcode.com/codesearch/view/116003300/",
+      "md5hash": "5b86722a172c9c53a35ca614b77f1f16",
+      "lines": {
+        "28": "@Target({ElementType.CONSTRUCTOR, ElementType.FIELD, ElementType.METHOD, ElementType.TYPE})",
+        "29": "public @interface SuppressForbidden {"
+      },
+      "id": 116003300,
+      "filename": "SuppressForbidden.java"
+    },
+    {
+      "repo": "git://github.com/apache/lucene-solr.git",
+      "language": "Java",
+      "linescount": 35,
+      "location": "/lucene/core/src/java/org/apache/lucene/util",
+      "name": "lucene-solr",
+      "url": "https://searchcode.com/codesearch/view/116080322/",
+      "md5hash": "0467c2fdf4b62277bd555c111662bc9f",
+      "lines": {
+        "30": "@Target({ ElementType.CONSTRUCTOR, ElementType.FIELD, ElementType.METHOD, ElementType.TYPE })",
+        "31": "public @interface SuppressForbidden {"
+      },
+      "id": 116080322,
+      "filename": "SuppressForbidden.java"
+    },
+    {
+      "repo": "git://github.com/apache/lucene-solr.git",
+      "language": "Java",
+      "linescount": 34,
+      "location": "/solr/solrj/src/java/org/apache/solr/common/util",
+      "name": "lucene-solr",
+      "url": "https://searchcode.com/codesearch/view/116097161/",
+      "md5hash": "5d24817978701d93df9ce94b573069b1",
+      "lines": {
+        "29": "@Target({ ElementType.CONSTRUCTOR, ElementType.FIELD, ElementType.METHOD, ElementType.TYPE })",
+        "30": "public @interface SuppressForbidden {"
+      },
+      "id": 116097161,
+      "filename": "SuppressForbidden.java"
+    },
+    {
+      "repo": "git://github.com/elasticsearch/elasticsearch.git",
+      "language": "Java",
+      "linescount": 332,
+      "location": "/core/src/main/java/org/elasticsearch/bootstrap",
+      "name": "elasticsearch",
+      "url": "https://searchcode.com/codesearch/view/115989458/",
+      "md5hash": "e5e966c0e7c1f148018350a1b328fc98",
+      "lines": {
+        "291": "",
+        "292": "    @SuppressForbidden(reason = \"System#out\")",
+        "318": "",
+        "296": "",
+        "297": "    @SuppressForbidden(reason = \"System#err\")",
+        "319": "    @SuppressForbidden(reason = \"Allowed to exit explicitly in bootstrap phase\")",
+        "28": "import org.elasticsearch.common.PidFile;",
+        "29": "import org.elasticsearch.common.SuppressForbidden;",
+        "206": "    // TODO: why? is it just a bad default somewhere? or is it some BS around 'but the client' garbage <-- my guess",
+        "207": "    @SuppressForbidden(reason = \"sets logger prefix on initialization\")"
+      },
+      "id": 115989458,
+      "filename": "Bootstrap.java"
+    },
+    {
+      "repo": "git://github.com/elasticsearch/elasticsearch.git",
+      "language": "Java",
+      "linescount": 384,
+      "location": "/core/src/main/java/org/elasticsearch/bootstrap",
+      "name": "elasticsearch",
+      "url": "https://searchcode.com/codesearch/view/115989472/",
+      "md5hash": "2b55ef3549e408a2f79966050f250367",
+      "lines": {
+        "368": "    /** Simple checks that everything is ok */",
+        "369": "    @SuppressForbidden(reason = \"accesses jvm default tempdir as a self-test\")",
+        "219": "    /** Adds access to classpath jars/classes for jar hell scan, etc */",
+        "132": "     */",
+        "133": "    @SuppressForbidden(reason = \"proper use of URL\")",
+        "24": "import org.elasticsearch.common.Strings;",
+        "25": "import org.elasticsearch.common.SuppressForbidden;",
+        "220": "    @SuppressForbidden(reason = \"accesses fully qualified URLs to configure security\")",
+        "187": "     */",
+        "188": "    @SuppressForbidden(reason = \"accesses fully qualified URLs to configure security\")"
+      },
+      "id": 115989472,
+      "filename": "Security.java"
+    },
+    {
+      "repo": "git://github.com/elasticsearch/elasticsearch.git",
+      "language": "Java",
+      "linescount": 175,
+      "location": "/client/benchmark/src/main/java/org/elasticsearch/client/benchmark/ops/bulk",
+      "name": "elasticsearch",
+      "url": "https://searchcode.com/codesearch/view/115984600/",
+      "md5hash": "0487e498dd12fc4dc27358da9c198012",
+      "lines": {
+        "72": "    @SuppressForbidden(reason = \"system out is ok for a command line tool\")",
+        "100": "",
+        "101": "        @SuppressForbidden(reason = \"Classic I/O is fine in non-production code\")",
+        "71": "    @Override",
+        "24": "import org.elasticsearch.client.benchmark.metrics.SampleRecorder;",
+        "25": "import org.elasticsearch.common.SuppressForbidden;",
+        "58": "    @Override",
+        "59": "    @SuppressForbidden(reason = \"PathUtils#get is fine - we don't have environment here\")"
+      },
+      "id": 115984600,
+      "filename": "BulkBenchmarkTask.java"
+    },
+    {
+      "repo": "git://github.com/elasticsearch/elasticsearch.git",
+      "language": "Java",
+      "linescount": 288,
+      "location": "/core/src/main/java/org/elasticsearch/bootstrap",
+      "name": "elasticsearch",
+      "url": "https://searchcode.com/codesearch/view/115989468/",
+      "md5hash": "3d7ff016cb124d74e44b88cf7ff8badc",
+      "lines": {
+        "65": "    /** Simple driver class, can be used eg. from builds. Returns non-zero on jar-hell */",
+        "66": "    @SuppressForbidden(reason = \"command line tool\")",
+        "150": "     */",
+        "22": "import org.elasticsearch.Version;",
+        "23": "import org.elasticsearch.common.SuppressForbidden;",
+        "104": "     */",
+        "105": "    @SuppressForbidden(reason = \"resolves against CWD because that is how classpaths work\")",
+        "151": "    @SuppressForbidden(reason = \"needs JarFile for speed, just reading entries\")"
+      },
+      "id": 115989468,
+      "filename": "JarHell.java"
+    },
+    {
+      "repo": "git://github.com/elasticsearch/elasticsearch.git",
+      "language": "Java",
+      "linescount": 280,
+      "location": "/core/src/main/java/org/elasticsearch/env",
+      "name": "elasticsearch",
+      "url": "https://searchcode.com/codesearch/view/115989523/",
+      "md5hash": "b2a862dd0773d92464b82a2f96ca67f8",
+      "lines": {
+        "99": "    @SuppressForbidden(reason = \"works around the bugs\")",
+        "152": "    @SuppressForbidden(reason = \"works around https://bugs.openjdk.java.net/browse/JDK-8034057\")",
+        "50": "    ",
+        "51": "    @SuppressForbidden(reason = \"tries to determine if disk is spinning\")",
+        "23": "import org.apache.lucene.util.IOUtils;",
+        "24": "import org.elasticsearch.common.SuppressForbidden;",
+        "151": "     */",
+        "98": "     */"
+      },
+      "id": 115989523,
+      "filename": "ESFileStore.java"
+    },
+    {
+      "repo": "git://github.com/elasticsearch/elasticsearch.git",
+      "language": "Java",
+      "linescount": 261,
+      "location": "/core/src/main/java/org/elasticsearch/common/logging",
+      "name": "elasticsearch",
+      "url": "https://searchcode.com/codesearch/view/115993033/",
+      "md5hash": "459c7ebca798324d4824826b4faaadcc",
+      "lines": {
+        "219": "     */",
+        "220": "    @SuppressForbidden(reason = \"System#err\")",
+        "24": "import org.apache.log4j.helpers.LogLog;",
+        "25": "import org.elasticsearch.common.SuppressForbidden;",
+        "139": "    @Override",
+        "140": "    @SuppressForbidden(reason = \"System#out\")",
+        "174": "     */",
+        "175": "    @SuppressForbidden(reason = \"System#err\")"
+      },
+      "id": 115993033,
+      "filename": "ConsoleAppender.java"
+    },
+    {
+      "repo": "git://github.com/Graylog2/graylog2-server.git",
+      "language": "Java",
+      "linescount": 616,
+      "location": "/graylog2-server/src/main/java/org/graylog2/plugin",
+      "name": "graylog2-server",
+      "url": "https://searchcode.com/codesearch/view/116003544/",
+      "md5hash": "52029bc490114f53773de7f6af46e9f8",
+      "lines": {
+        "273": "",
+        "274": "    @SuppressForbidden(\"Deliberate invocation\")",
+        "261": "",
+        "262": "    @SuppressForbidden(\"Deliberate invocation\")",
+        "23": "import org.graylog2.shared.SuppressForbidden;",
+        "297": "",
+        "22": "import com.google.common.primitives.Doubles;",
+        "298": "    @SuppressForbidden(\"Deliberate invocation\")"
+      },
+      "id": 116003544,
+      "filename": "Tools.java"
+    },
+    {
+      "repo": "git://github.com/liferay/liferay-portal.git",
+      "language": "Java",
+      "linescount": 222,
+      "location": "/modules/third-party/org-elasticsearch/src/main/java/org/elasticsearch/bootstrap",
+      "name": "liferay-portal",
+      "url": "https://searchcode.com/codesearch/view/116091869/",
+      "md5hash": "76655e439d34db25eec43ad2789f0801",
+      "lines": {
+        "139": "     */",
+        "22": "import org.elasticsearch.Version;",
+        "54": "    /** Simple driver class, can be used eg. from builds. Returns non-zero on jar-hell */",
+        "55": "    @SuppressForbidden(reason = \"command line tool\")",
+        "23": "import org.elasticsearch.common.SuppressForbidden;",
+        "140": "    @SuppressForbidden(reason = \"needs JarFile for speed, just reading entries\")",
+        "93": "     */",
+        "94": "    @SuppressForbidden(reason = \"resolves against CWD because that is how classpaths work\")"
+      },
+      "id": 116091869,
+      "filename": "JarHell.java"
+    },
+    {
+      "repo": "git://github.com/apache/lucene-solr.git",
+      "language": "Java",
+      "linescount": 2307,
+      "location": "/solr/test-framework/src/java/org/apache/solr",
+      "name": "lucene-solr",
+      "url": "https://searchcode.com/codesearch/view/3018055/",
+      "md5hash": "bfddc0aa7544f0c14cad0397fef44f35",
+      "lines": {
+        "88": "import org.apache.solr.common.util.ObjectReleaseTracker;",
+        "89": "import org.apache.solr.common.util.SuppressForbidden;",
+        "416": "  @SuppressForbidden(reason = \"method is specific to java.util.logging and highly suspect!\")",
+        "415": ""
+      },
+      "id": 3018055,
+      "filename": "SolrTestCaseJ4.java"
+    },
+    {
+      "repo": "git://github.com/apache/lucene-solr.git",
+      "language": "Java",
+      "linescount": 189,
+      "location": "/solr/contrib/dataimporthandler/src/test/org/apache/solr/handler/dataimport",
+      "name": "lucene-solr",
+      "url": "https://searchcode.com/codesearch/view/3018178/",
+      "md5hash": "14c1b4b78cbbea7b054648e8f69bcb73",
+      "lines": {
+        "32": "import org.apache.solr.common.util.SuppressForbidden;",
+        "137": "",
+        "138": "  @SuppressForbidden(reason = \"Needs currentTimeMillis to set last modified time\")",
+        "31": ""
+      },
+      "id": 3018178,
+      "filename": "TestFileListEntityProcessor.java"
+    },
+    {
+      "repo": "git://github.com/apache/lucene-solr.git",
+      "language": "Java",
+      "linescount": 388,
+      "location": "/solr/contrib/dataimporthandler/src/test/org/apache/solr/handler/dataimport",
+      "name": "lucene-solr",
+      "url": "https://searchcode.com/codesearch/view/3018179/",
+      "md5hash": "5e9f9f93c29551ed748a8470eacc363d",
+      "lines": {
+        "168": "",
+        "169": "  @SuppressForbidden(reason = \"Needs currentTimeMillis to set modified time for a file\")",
+        "29": "import org.apache.solr.common.util.NamedList;",
+        "30": "import org.apache.solr.common.util.SuppressForbidden;"
+      },
+      "id": 3018179,
+      "filename": "AbstractDataImportHandlerTestCase.java"
+    },
+    {
+      "repo": "git://github.com/apache/lucene-solr.git",
+      "language": "Java",
+      "linescount": 112,
+      "location": "/solr/solrj/src/java/org/apache/solr/common/cloud",
+      "name": "lucene-solr",
+      "url": "https://searchcode.com/codesearch/view/3018624/",
+      "md5hash": "419c658ffc978c2a16320570c890d01f",
+      "lines": {
+        "65": "      ",
+        "66": "      @SuppressForbidden(reason = \"Hack for Zookeper needs access to private methods.\")",
+        "28": "",
+        "29": "import org.apache.solr.common.util.SuppressForbidden;"
+      },
+      "id": 3018624,
+      "filename": "SolrZooKeeper.java"
+    },
+    {
+      "repo": "git://github.com/apache/lucene-solr.git",
+      "language": "Java",
+      "linescount": 479,
+      "location": "/solr/solrj/src/java/org/apache/solr/client/solrj/beans",
+      "name": "lucene-solr",
+      "url": "https://searchcode.com/codesearch/view/3018688/",
+      "md5hash": "a3d1d9a23b5f38cefa9ce46bf98ad97d",
+      "lines": {
+        "128": "",
+        "129": "  @SuppressForbidden(reason = \"Needs access to possibly private @Field annotated fields/methods\")",
+        "21": "import org.apache.solr.common.SolrInputDocument;",
+        "22": "import org.apache.solr.common.util.SuppressForbidden;"
+      },
+      "id": 3018688,
+      "filename": "DocumentObjectBinder.java"
+    },
+    {
+      "repo": "git://github.com/apache/lucene-solr.git",
+      "language": "Java",
+      "linescount": 175,
+      "location": "/solr/core/src/test/org/apache/solr/servlet",
+      "name": "lucene-solr",
+      "url": "https://searchcode.com/codesearch/view/3018956/",
+      "md5hash": "3f06ef61b46effddab8aae65d5e60bcc",
+      "lines": {
+        "24": "import org.apache.http.impl.cookie.DateUtils;",
+        "25": "import org.apache.solr.common.util.SuppressForbidden;",
+        "62": "",
+        "63": "  @SuppressForbidden(reason = \"Needs currentTimeMillis for testing caching headers\")"
+      },
+      "id": 3018956,
+      "filename": "NoCacheHeaderTest.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 114,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

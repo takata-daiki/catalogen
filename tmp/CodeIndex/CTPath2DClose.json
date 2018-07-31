@@ -1,0 +1,170 @@
+{
+  "matchterm": "CTPath2DClose",
+  "previouspage": null,
+  "searchterm": "CTPath2DClose",
+  "query": "CTPath2DClose",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 27,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403074/",
+      "md5hash": "75da77737d85285556aa1d0fe79ae56c",
+      "lines": {
+        "16": "public interface CTPath2DClose extends org.apache.xmlbeans.XmlObject",
+        "19": "        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CTPath2DClose.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sE130CAA0A01A7CDE5A2B4FEB8B311707\").resolveHandle(\"ctpath2dclose09f2type\");",
+        "18": "    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DClose",
+        "15": " */"
+      },
+      "id": 97403074,
+      "filename": "CTPath2DClose.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 51,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642049/",
+      "md5hash": "dd950e69f5e374c89aa5ffdde48d91c5",
+      "lines": {
+        "46": "@XmlType(name = \"CT_Path2DClose\")",
+        "47": "public class CTPath2DClose {"
+      },
+      "id": 17642049,
+      "filename": "CTPath2DClose.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1476,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403836/",
+      "md5hash": "2582da594107bd266380545b0ddc6687",
+      "lines": {
+        "133": "     */",
+        "134": "    public void setCloseArray(org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DClose[] closeArray)",
+        "145": "     */",
+        "146": "    public void setCloseArray(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DClose close)",
+        "48": "     */",
+        "49": "    public java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DClose> getCloseList()",
+        "50": "    {",
+        "51": "        final class CloseList extends java.util.AbstractList<org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DClose>",
+        "52": "        {",
+        "53": "            public org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DClose get(int i)",
+        "55": "            ",
+        "56": "            public org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DClose set(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DClose o)",
+        "57": "            {",
+        "58": "                org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DClose old = CTPath2DImpl.this.getCloseArray(i);",
+        "62": "            ",
+        "63": "            public void add(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DClose o)"
+      },
+      "id": 97403836,
+      "filename": "CTPath2DImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 522,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402026/",
+      "md5hash": "78a921038f475e52b775a86778f20278",
+      "lines": {
+        "34": "     */",
+        "35": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DClose getCloseArray(int i);",
+        "55": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DClose insertNewClose(int i);",
+        "44": "     */",
+        "45": "    void setCloseArray(org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DClose[] closeArray);",
+        "49": "     */",
+        "50": "    void setCloseArray(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DClose close);",
+        "54": "     */",
+        "23": "     */",
+        "24": "    java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DClose> getCloseList();",
+        "59": "     */",
+        "60": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DClose addNewClose();",
+        "29": "     */",
+        "30": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DClose[] getCloseArray();"
+      },
+      "id": 97402026,
+      "filename": "CTPath2D.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 3480,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642161/",
+      "md5hash": "ecaf98912e449049698e790afd5f5c5a",
+      "lines": {
+        "1793": "    /**",
+        "1794": "     * Create an instance of {@link CTPath2DClose }",
+        "1796": "     */",
+        "1797": "    public CTPath2DClose createCTPath2DClose() {",
+        "1798": "        return new CTPath2DClose();",
+        "1799": "    }"
+      },
+      "id": 17642161,
+      "filename": "ObjectFactory.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 264,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642035/",
+      "md5hash": "76da62452ba47aa186582eba48e2fd6d",
+      "lines": {
+        "72": "        @XmlElement(name = \"arcTo\", type = CTPath2DArcTo.class),",
+        "73": "        @XmlElement(name = \"close\", type = CTPath2DClose.class),",
+        "109": "     * {@link CTPath2DArcTo }",
+        "110": "     * {@link CTPath2DClose }"
+      },
+      "id": 17642035,
+      "filename": "CTPath2D.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 24,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97404192/",
+      "md5hash": "f6952d5d14a5d2a02bf48e4d1c59ab90",
+      "lines": {
+        "16": "    ",
+        "17": "    public CTPath2DCloseImpl(org.apache.xmlbeans.SchemaType sType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DClose",
+        "13": " */",
+        "14": "public class CTPath2DCloseImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DClose"
+      },
+      "id": 97404192,
+      "filename": "CTPath2DCloseImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,477 @@
+{
+  "matchterm": "Rows",
+  "previouspage": null,
+  "searchterm": "Rows",
+  "query": "Rows",
+  "language_filters": [
+    {
+      "count": 45727,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 45726,
+  "results": [
+    {
+      "repo": "git://github.com/zkoss/zk.git",
+      "language": "Java",
+      "linescount": 694,
+      "location": "/zul/src/org/zkoss/zul",
+      "name": "zk",
+      "url": "https://searchcode.com/codesearch/view/17657899/",
+      "md5hash": "fc93da8be8af9246346ef8a51fb21b6c",
+      "lines": {
+        "1": "/* Rows.java",
+        "2": "",
+        "35": " * Defines the rows of a grid.",
+        "36": " * Each child of a rows element should be a {@link Row} element.",
+        "37": " * <p>Default {@link #getZclass}: z-rows.(since 3.5.0)",
+        "38": " *",
+        "40": " */",
+        "41": "public class Rows extends XulElement {",
+        "34": "/**",
+        "47": "",
+        "48": "\tpublic Rows() {",
+        "562": "\tpublic String getZclass() {",
+        "563": "\t\treturn _zclass == null ? \"z-rows\" : _zclass;",
+        "643": "\tprotected void renderProperties(org.zkoss.zk.ui.sys.ContentRenderer renderer)",
+        "644": "\tthrows java.io.IOException {"
+      },
+      "id": 17657899,
+      "filename": "Rows.java"
+    },
+    {
+      "repo": "https://github.com/msvens/hector.git",
+      "language": "Java",
+      "linescount": 52,
+      "location": "/src/main/java/me/prettyprint/cassandra/model",
+      "name": "hector",
+      "url": "https://searchcode.com/codesearch/view/77219800/",
+      "md5hash": "b57a37974e159f88929d80dde51a895d",
+      "lines": {
+        "34": "  public Row<N, V> getByKey(String key) {",
+        "35": "    return rows.get(key);",
+        "38": "  public int getCount() {",
+        "39": "    return rows.size();",
+        "43": "  public Iterator<Row<N, V>> iterator() {",
+        "44": "    return rows.values().iterator();",
+        "48": "  public String toString() {",
+        "49": "    return \"Rows(\" + rows + \")\";",
+        "19": " */",
+        "20": "public class Rows<N, V> implements Iterable<Row<N, V>> {",
+        "21": "",
+        "22": "  protected final Map<String, Row<N, V>> rows;",
+        "23": "",
+        "24": "  public Rows(Map<String, List<Column>> thriftRet, Extractor<N> nameExtractor,",
+        "26": "    Assert.noneNull(thriftRet, nameExtractor, valueExtractor);",
+        "27": "    rows = new HashMap<String, Row<N, V>>(thriftRet.size());",
+        "28": "    for (Map.Entry<String, List<Column>> entry : thriftRet.entrySet()) {"
+      },
+      "id": 77219800,
+      "filename": "Rows.java"
+    },
+    {
+      "repo": "https://github.com/jkingdon/mayfly.git",
+      "language": "Java",
+      "linescount": 70,
+      "location": "/src/net/sourceforge/mayfly/datastore",
+      "name": "mayfly",
+      "url": "https://searchcode.com/codesearch/view/104051893/",
+      "md5hash": "9c4c460696f86632b1823b12ef907d3b",
+      "lines": {
+        "6": "",
+        "7": "public class Rows {",
+        "8": "    private final ImmutableList rows;",
+        "9": "",
+        "10": "    public Rows(ImmutableList rows) {",
+        "11": "        this.rows = rows;",
+        "12": "    }",
+        "13": "",
+        "14": "    public Rows() {",
+        "17": "",
+        "18": "    public Rows(Row row) {",
+        "22": "    public Iterator iterator() {",
+        "23": "        return rows.iterator();",
+        "26": "    public Row row(int index) {",
+        "27": "        return (Row) rows.get(index);"
+      },
+      "id": 104051893,
+      "filename": "Rows.java"
+    },
+    {
+      "repo": "https://github.com/yestech/hector.git",
+      "language": "Java",
+      "linescount": 52,
+      "location": "/src/main/java/me/prettyprint/cassandra/model",
+      "name": "hector",
+      "url": "https://searchcode.com/codesearch/view/111458041/",
+      "md5hash": "b57a37974e159f88929d80dde51a895d",
+      "lines": {
+        "34": "  public Row<N, V> getByKey(String key) {",
+        "35": "    return rows.get(key);",
+        "38": "  public int getCount() {",
+        "39": "    return rows.size();",
+        "43": "  public Iterator<Row<N, V>> iterator() {",
+        "44": "    return rows.values().iterator();",
+        "48": "  public String toString() {",
+        "49": "    return \"Rows(\" + rows + \")\";",
+        "19": " */",
+        "20": "public class Rows<N, V> implements Iterable<Row<N, V>> {",
+        "21": "",
+        "22": "  protected final Map<String, Row<N, V>> rows;",
+        "23": "",
+        "24": "  public Rows(Map<String, List<Column>> thriftRet, Extractor<N> nameExtractor,",
+        "26": "    Assert.noneNull(thriftRet, nameExtractor, valueExtractor);",
+        "27": "    rows = new HashMap<String, Row<N, V>>(thriftRet.size());",
+        "28": "    for (Map.Entry<String, List<Column>> entry : thriftRet.entrySet()) {"
+      },
+      "id": 111458041,
+      "filename": "Rows.java"
+    },
+    {
+      "repo": "https://github.com/edanuff/hector.git",
+      "language": "Java",
+      "linescount": 51,
+      "location": "/src/main/java/me/prettyprint/cassandra/model",
+      "name": "hector",
+      "url": "https://searchcode.com/codesearch/view/111620166/",
+      "md5hash": "5b2aeb0f4f3c86a289bfbfe536ff9576",
+      "lines": {
+        "34": "  public Row<K, N, V> getByKey(K key) {",
+        "35": "    return rows.get(key);",
+        "38": "  public int getCount() {",
+        "39": "    return rows.size();",
+        "42": "  public Iterator<Row<K, N, V>> iterator() {",
+        "43": "    return rows.values().iterator();",
+        "47": "  public String toString() {",
+        "48": "    return \"Rows(\" + rows + \")\";",
+        "19": " */",
+        "20": "public class Rows<K, N, V> implements Iterable<Row<K, N, V>> {",
+        "21": "",
+        "22": "  protected final Map<K, Row<K, N, V>> rows;",
+        "23": "",
+        "24": "  public Rows(Map<K, List<Column>> thriftRet, Serializer<N> nameSerializer,",
+        "26": "    Assert.noneNull(thriftRet, nameSerializer, valueSerializer);",
+        "27": "    rows = new HashMap<K, Row<K, N, V>>(thriftRet.size());",
+        "28": "    for (Map.Entry<K, List<Column>> entry : thriftRet.entrySet()) {"
+      },
+      "id": 111620166,
+      "filename": "Rows.java"
+    },
+    {
+      "repo": "http://gwtlib.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 121,
+      "location": "/src/org/gwtlib/client/table",
+      "name": "gwtlib",
+      "url": "https://searchcode.com/codesearch/view/3412389/",
+      "md5hash": "b10da74e596de6c71852c689d73e02f7",
+      "lines": {
+        "32": "  protected boolean _ascending;",
+        "33": "  protected List<Row> _rows;",
+        "34": "  ",
+        "35": "  public Rows() {",
+        "36": "    _sortId = -1;",
+        "37": "    _rows = new ArrayList<Row>();",
+        "39": "  ",
+        "40": "  public Rows(Row[] rows, int begin) {",
+        "41": "    this(new ArrayList<Row>(Arrays.asList(rows)), begin, -1, false);",
+        "42": "  }",
+        "43": "",
+        "44": "  public Rows(Row[] rows, int begin, int sortId, boolean ascending) {",
+        "45": "    this(new ArrayList<Row>(Arrays.asList(rows)), begin, sortId, ascending);",
+        "23": "/**",
+        "24": " * A continuous array of Serializable rows.",
+        "28": "@SuppressWarnings(\"serial\")",
+        "29": "public class Rows implements Serializable {"
+      },
+      "id": 3412389,
+      "filename": "Rows.java"
+    },
+    {
+      "repo": "git://github.com/apache/hive.git",
+      "language": "Java",
+      "linescount": 174,
+      "location": "/beeline/src/java/org/apache/hive/beeline",
+      "name": "hive",
+      "url": "https://searchcode.com/codesearch/view/57826412/",
+      "md5hash": "31370a8e4c97ae14a22fd0f04a86b152",
+      "lines": {
+        "64": "   */",
+        "33": "/**",
+        "34": " * Abstract base class representing a set of rows to be displayed.",
+        "36": " */",
+        "37": "abstract class Rows implements Iterator {",
+        "136": "",
+        "137": "    Row(int size, ResultSet rs) throws SQLException {",
+        "43": "",
+        "44": "  Rows(BeeLine beeLine, ResultSet rs) throws SQLException {",
+        "117": "",
+        "118": "    Row(int size) throws SQLException {",
+        "61": "  /**",
+        "62": "   * Update all of the rows to have the same size, set to the",
+        "63": "   * maximum length of each column in the Rows."
+      },
+      "id": 57826412,
+      "filename": "Rows.java"
+    },
+    {
+      "repo": "https://github.com/bhavanikommuru/astyanax.git",
+      "language": "Java",
+      "linescount": 66,
+      "location": "/astyanax-cassandra/src/main/java/com/netflix/astyanax/model",
+      "name": "astyanax",
+      "url": "https://searchcode.com/codesearch/view/69360046/",
+      "md5hash": "57b33179605cc38bb6d00e23984f210f",
+      "lines": {
+        "52": "    /**",
+        "21": " * Interface to a collection or Rows with key type K and column type C. The rows",
+        "54": "     * ",
+        "55": "     * @return integer representing the number of rows in the list",
+        "20": "/**",
+        "28": " */",
+        "29": "public interface Rows<K, C> extends Iterable<Row<K, C>> {",
+        "53": "     * Get the number of rows in the list"
+      },
+      "id": 69360046,
+      "filename": "Rows.java"
+    },
+    {
+      "repo": "git://github.com/Netflix/astyanax.git",
+      "language": "Java",
+      "linescount": 59,
+      "location": "/src/main/java/com/netflix/astyanax/model",
+      "name": "astyanax",
+      "url": "https://searchcode.com/codesearch/view/15768201/",
+      "md5hash": "1091f7f6153661ba6c873649fb915071",
+      "lines": {
+        "48": "     * @return integer representing the number of rows in the list",
+        "18": "/**",
+        "19": " * Interface to a collection or Rows with key type K and column type C. The rows",
+        "26": " */",
+        "27": "public interface Rows<K, C> extends Iterable<Row<K, C>> {",
+        "45": "    /**",
+        "46": "     * Get the number of rows in the list",
+        "47": "     * "
+      },
+      "id": 15768201,
+      "filename": "Rows.java"
+    },
+    {
+      "repo": "https://bitbucket.org/javier_p_villamizar/idempiere",
+      "language": "Java",
+      "linescount": 39,
+      "location": "/org.adempiere.ui.zk/WEB-INF/src/org/adempiere/webui/component",
+      "name": "idempiere",
+      "url": "https://searchcode.com/codesearch/view/62547110/",
+      "md5hash": "c29bdc56c9d55e7b259b6fd3dbb0c045",
+      "lines": {
+        "25": " */",
+        "26": "public class Rows extends org.zkoss.zul.Rows"
+      },
+      "id": 62547110,
+      "filename": "Rows.java"
+    },
+    {
+      "repo": "https://bitbucket.org/sphiphatchamikorn/adempiere361",
+      "language": "Java",
+      "linescount": 66,
+      "location": "/zkwebui/WEB-INF/src/org/adempiere/webui/component",
+      "name": "adempiere361",
+      "url": "https://searchcode.com/codesearch/view/63376693/",
+      "md5hash": "671eb28ab4ce35d543761a810313f810",
+      "lines": {
+        "29": " */",
+        "30": "public class Rows extends org.zkoss.zul.Rows"
+      },
+      "id": 63376693,
+      "filename": "Rows.java"
+    },
+    {
+      "repo": "https://bitbucket.org/sthamthum/adempiere361",
+      "language": "Java",
+      "linescount": 66,
+      "location": "/zkwebui/WEB-INF/src/org/adempiere/webui/component",
+      "name": "adempiere361",
+      "url": "https://searchcode.com/codesearch/view/63576296/",
+      "md5hash": "671eb28ab4ce35d543761a810313f810",
+      "lines": {
+        "29": " */",
+        "30": "public class Rows extends org.zkoss.zul.Rows"
+      },
+      "id": 63576296,
+      "filename": "Rows.java"
+    },
+    {
+      "repo": "https://bitbucket.org/zeed23/adempiere361",
+      "language": "Java",
+      "linescount": 66,
+      "location": "/zkwebui/WEB-INF/src/org/adempiere/webui/component",
+      "name": "adempiere361",
+      "url": "https://searchcode.com/codesearch/view/63678036/",
+      "md5hash": "671eb28ab4ce35d543761a810313f810",
+      "lines": {
+        "29": " */",
+        "30": "public class Rows extends org.zkoss.zul.Rows"
+      },
+      "id": 63678036,
+      "filename": "Rows.java"
+    },
+    {
+      "repo": "http://google-gin.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 17,
+      "location": "/samples/HigherLower/src/com/google/gwt/gin/higherlower/client/gin",
+      "name": "google-gin",
+      "url": "https://searchcode.com/codesearch/view/2010003/",
+      "md5hash": "1b7db7c95eb1c1f497792b0bfb469e20",
+      "lines": {
+        "16": "public @interface Rows {",
+        "10": "/**",
+        "11": " * The number of visible playing card rows on the screen.",
+        "15": "@BindingAnnotation"
+      },
+      "id": 2010003,
+      "filename": "Rows.java"
+    },
+    {
+      "repo": "https://bitbucket.org/idempiere/idempiere/",
+      "language": "Java",
+      "linescount": 39,
+      "location": "/org.adempiere.ui.zk/WEB-INF/src/org/adempiere/webui/component",
+      "name": "idempiere",
+      "url": "https://searchcode.com/codesearch/view/3299703/",
+      "md5hash": "c29bdc56c9d55e7b259b6fd3dbb0c045",
+      "lines": {
+        "25": " */",
+        "26": "public class Rows extends org.zkoss.zul.Rows"
+      },
+      "id": 3299703,
+      "filename": "Rows.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tspc/adempiere361/",
+      "language": "Java",
+      "linescount": 66,
+      "location": "/zkwebui/WEB-INF/src/org/adempiere/webui/component",
+      "name": "adempiere361",
+      "url": "https://searchcode.com/codesearch/view/8373324/",
+      "md5hash": "671eb28ab4ce35d543761a810313f810",
+      "lines": {
+        "29": " */",
+        "30": "public class Rows extends org.zkoss.zul.Rows"
+      },
+      "id": 8373324,
+      "filename": "Rows.java"
+    },
+    {
+      "repo": "https://bitbucket.org/hengsin/idempiere-hengsin",
+      "language": "Java",
+      "linescount": 39,
+      "location": "/org.adempiere.ui.zk/WEB-INF/src/org/adempiere/webui/component",
+      "name": "idempiere-hengsin",
+      "url": "https://searchcode.com/codesearch/view/125667416/",
+      "md5hash": "c29bdc56c9d55e7b259b6fd3dbb0c045",
+      "lines": {
+        "25": " */",
+        "26": "public class Rows extends org.zkoss.zul.Rows"
+      },
+      "id": 125667416,
+      "filename": "Rows.java"
+    },
+    {
+      "repo": "https://bitbucket.org/mdlibunao/idempiere",
+      "language": "Java",
+      "linescount": 66,
+      "location": "/org.adempiere.ui.zk/WEB-INF/src/org/adempiere/webui/component",
+      "name": "idempiere",
+      "url": "https://searchcode.com/codesearch/view/126230846/",
+      "md5hash": "671eb28ab4ce35d543761a810313f810",
+      "lines": {
+        "29": " */",
+        "30": "public class Rows extends org.zkoss.zul.Rows"
+      },
+      "id": 126230846,
+      "filename": "Rows.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tbayen/adempiere361-tb",
+      "language": "Java",
+      "linescount": 66,
+      "location": "/zkwebui/WEB-INF/src/org/adempiere/webui/component",
+      "name": "adempiere361-tb",
+      "url": "https://searchcode.com/codesearch/view/127466385/",
+      "md5hash": "671eb28ab4ce35d543761a810313f810",
+      "lines": {
+        "29": " */",
+        "30": "public class Rows extends org.zkoss.zul.Rows"
+      },
+      "id": 127466385,
+      "filename": "Rows.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nmicoud/adempiere361-nm",
+      "language": "Java",
+      "linescount": 66,
+      "location": "/zkwebui/WEB-INF/src/org/adempiere/webui/component",
+      "name": "adempiere361-nm",
+      "url": "https://searchcode.com/codesearch/view/127632184/",
+      "md5hash": "671eb28ab4ce35d543761a810313f810",
+      "lines": {
+        "29": " */",
+        "30": "public class Rows extends org.zkoss.zul.Rows"
+      },
+      "id": 127632184,
+      "filename": "Rows.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 23467,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 16066,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 5090,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 336,
+      "source": "GitLab",
+      "id": 13
+    },
+    {
+      "count": 326,
+      "source": "Sourceforge",
+      "id": 4
+    },
+    {
+      "count": 267,
+      "source": "Unknown",
+      "id": 0
+    },
+    {
+      "count": 107,
+      "source": "CodePlex",
+      "id": 5
+    },
+    {
+      "count": 42,
+      "source": "Gitorious",
+      "id": 10
+    },
+    {
+      "count": 26,
+      "source": "Google Android",
+      "id": 12
+    }
+  ]
+}

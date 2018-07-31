@@ -1,0 +1,75 @@
+{
+  "matchterm": "ColumnInfoRecordsAggregate",
+  "previouspage": null,
+  "searchterm": "ColumnInfoRecordsAggregate",
+  "query": "ColumnInfoRecordsAggregate",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 554,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/aggregates",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642595/",
+      "md5hash": "83318df6e5a62008db05b056a28ec095",
+      "lines": {
+        "99": "        ColumnInfoRecordsAggregate rec = new ColumnInfoRecordsAggregate();",
+        "98": "    {",
+        "51": " * @author Glen Stampoultzis",
+        "52": " * @version $Id: ColumnInfoRecordsAggregate.java 496526 2007-01-15 22:46:35Z markt $",
+        "53": " */",
+        "54": "public class ColumnInfoRecordsAggregate",
+        "59": "",
+        "60": "    public ColumnInfoRecordsAggregate()"
+      },
+      "id": 15642595,
+      "filename": "ColumnInfoRecordsAggregate.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 3300,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642365/",
+      "md5hash": "1e8d548d196dc1063c30d9430b35b9f5",
+      "lines": {
+        "1736": "    {",
+        "108": "    protected SelectionRecord            selection         =     null;",
+        "1933": "        if (columns == null)",
+        "44": "import loci.poi.hssf.record.*;",
+        "45": "import loci.poi.hssf.record.aggregates.ColumnInfoRecordsAggregate;",
+        "1934": "            columns = new ColumnInfoRecordsAggregate();",
+        "190": "                {",
+        "109": "    protected ColumnInfoRecordsAggregate columns           =     null;",
+        "212": "                {",
+        "213": "                    rec = retval.columns = new ColumnInfoRecordsAggregate();",
+        "1942": "            columns = new ColumnInfoRecordsAggregate();",
+        "1737": "        return ColumnInfoRecordsAggregate.createColInfo();",
+        "1941": "        if (columns == null)",
+        "477": "        records.add( retval.defaultcolwidth);",
+        "478": "        ColumnInfoRecordsAggregate columns = new ColumnInfoRecordsAggregate();",
+        "191": "                    retval.columns = new ColumnInfoRecordsAggregate();"
+      },
+      "id": 15642365,
+      "filename": "Sheet.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

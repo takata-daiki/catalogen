@@ -1,0 +1,116 @@
+{
+  "matchterm": "DateWindow1904Record",
+  "previouspage": null,
+  "searchterm": "DateWindow1904Record",
+  "query": "DateWindow1904Record",
+  "language_filters": [
+    {
+      "count": 5,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 5,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 138,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642519/",
+      "md5hash": "764cd2c3571461af4089a691aa7a5722",
+      "lines": {
+        "70": "    public DateWindow1904Record(RecordInputStream in)",
+        "69": "",
+        "54": "",
+        "55": "public class DateWindow1904Record",
+        "60": "",
+        "61": "    public DateWindow1904Record()"
+      },
+      "id": 15642519,
+      "filename": "DateWindow1904Record.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 2351,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642358/",
+      "md5hash": "2f47d8e4aa73ffbba0d056d2a6f68eee",
+      "lines": {
+        "1123": "     * creates the DateWindow1904 record with windowing set to 0. (don't window)",
+        "1124": "     * @see loci.poi.hssf.record.DateWindow1904Record",
+        "1125": "     * @see loci.poi.hssf.record.Record",
+        "1126": "     * @return record containing a DateWindow1904Record",
+        "1129": "    protected Record createDateWindow1904() {",
+        "1130": "        DateWindow1904Record retval = new DateWindow1904Record();",
+        "235": "                    break;",
+        "236": "                case DateWindow1904Record.sid :",
+        "238": "                        log.log(DEBUG, \"found datewindow1904 record at \" + k);",
+        "239": "                    retval.uses1904datewindowing = ((DateWindow1904Record)rec).getWindowing() == 1;"
+      },
+      "id": 15642358,
+      "filename": "Workbook.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 595,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785559/",
+      "md5hash": "6b55090236799f49ee0f5bd7d54bbbac",
+      "lines": {
+        "257": "                hssfRequest.addListener(formatListener, EOFRecord.sid);",
+        "258": "                hssfRequest.addListener(formatListener, DateWindow1904Record.sid);",
+        "43": "import org.apache.poi.hssf.record.CountryRecord;",
+        "44": "import org.apache.poi.hssf.record.DateWindow1904Record;"
+      },
+      "id": 111785559,
+      "filename": "ExcelExtractor.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642343/",
+      "md5hash": "468caa59753e7c2d27a76f3903f70894",
+      "lines": {
+        "65": "import loci.poi.hssf.record.DSFRecord;",
+        "66": "import loci.poi.hssf.record.DateWindow1904Record;",
+        "163": "                PasswordRev4Record.class, WindowOneRecord.class, BackupRecord.class,",
+        "164": "                HideObjRecord.class, DateWindow1904Record.class,"
+      },
+      "id": 15642343,
+      "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "73": "                PasswordRev4Record.class, WindowOneRecord.class, BackupRecord.class,",
+        "74": "                HideObjRecord.class, DateWindow1904Record.class,"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 5,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

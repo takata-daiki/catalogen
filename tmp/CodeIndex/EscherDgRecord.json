@@ -1,0 +1,186 @@
+{
+  "matchterm": "EscherDgRecord",
+  "previouspage": null,
+  "searchterm": "EscherDgRecord",
+  "query": "EscherDgRecord",
+  "language_filters": [
+    {
+      "count": 9,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 9,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 155,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383871/",
+      "md5hash": "e2f7f7625fe972788013f960ef1cafe3",
+      "lines": {
+        "29": " */",
+        "30": "public class EscherDgRecord"
+      },
+      "id": 97383871,
+      "filename": "EscherDgRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 204,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642635/",
+      "md5hash": "e2c14d6a814d695942c67c22c3b7413d",
+      "lines": {
+        "51": " */",
+        "52": "public class EscherDgRecord"
+      },
+      "id": 15642635,
+      "filename": "EscherDgRecord.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 514,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394313/",
+      "md5hash": "346ffc55e0b7a05381ade3b094d03d17",
+      "lines": {
+        "25": "import org.apache.poi.ddf.EscherContainerRecord;",
+        "26": "import org.apache.poi.ddf.EscherDgRecord;",
+        "154": "        EscherDgRecord dg = (EscherDgRecord) Shape.getEscherChild(dgContainer, EscherDgRecord.RECORD_ID);",
+        "153": "        EscherContainerRecord dgContainer = (EscherContainerRecord)getSheetContainer().getPPDrawing().getEscherRecords()[0];"
+      },
+      "id": 97394313,
+      "filename": "Slide.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 155,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642353/",
+      "md5hash": "59154360b890e81907d275266ee0785f",
+      "lines": {
+        "96": "                c.incrementShapeId();",
+        "65": "",
+        "66": "    public EscherDgRecord createDgRecord()",
+        "67": "    {",
+        "68": "        EscherDgRecord dg = new EscherDgRecord();",
+        "69": "        dg.setRecordId( EscherDgRecord.RECORD_ID );",
+        "70": "        short dgId = findNewDrawingGroupId();",
+        "97": "                EscherDgRecord dg = getDrawingGroup(drawingGroupId);",
+        "129": "        return (EscherDgRecord) drawingGroups.get(drawingGroupId-1);",
+        "42": "",
+        "43": "import loci.poi.ddf.EscherDgRecord;",
+        "108": "        dgg.getFileIdClusters()[dgg.getFileIdClusters().length-1].incrementShapeId();",
+        "109": "        EscherDgRecord dg = getDrawingGroup(drawingGroupId);",
+        "128": "    {",
+        "126": "",
+        "127": "    EscherDgRecord getDrawingGroup(int drawingGroupId)"
+      },
+      "id": 15642353,
+      "filename": "DrawingManager2.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 177,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642363/",
+      "md5hash": "af6e616851edfd46b96138b7817d24d2",
+      "lines": {
+        "64": "    public EscherDgRecord createDgRecord()",
+        "65": "    {",
+        "66": "        EscherDgRecord dg = new EscherDgRecord();",
+        "67": "        dg.setRecordId( EscherDgRecord.RECORD_ID );",
+        "68": "        short dgId = findNewDrawingGroupId();",
+        "43": "import loci.poi.ddf.EscherDggRecord;",
+        "44": "import loci.poi.ddf.EscherDgRecord;",
+        "85": "        // Get the last shape id for this drawing group.",
+        "86": "        EscherDgRecord dg = (EscherDgRecord) dgMap.get(new Short(drawingGroupId));",
+        "56": "    EscherDggRecord dgg;",
+        "57": "    Map dgMap = new HashMap(); // key = Short(drawingId), value=EscherDgRecord",
+        "63": ""
+      },
+      "id": 15642363,
+      "filename": "DrawingManager.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 161,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383906/",
+      "md5hash": "3324931c58f18c045e9c34e4e1ad839e",
+      "lines": {
+        "36": "            EscherOptRecord.class, EscherTertiaryOptRecord.class,",
+        "37": "            EscherClientAnchorRecord.class, EscherDgRecord.class,"
+      },
+      "id": 97383906,
+      "filename": "DefaultEscherRecordFactory.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 465,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394323/",
+      "md5hash": "004c81d0c6f4e85beee2c12f2cad27b2",
+      "lines": {
+        "268": "        EscherDggRecord dgg = _slideShow.getDocumentRecord().getPPDrawingGroup().getEscherDggRecord();",
+        "269": "        EscherDgRecord dg = _container.getPPDrawing().getEscherDgRecord();"
+      },
+      "id": 97394323,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 766,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642409/",
+      "md5hash": "9e212df4a5b523744fd315d99c376d1b",
+      "lines": {
+        "715": "        EscherContainerRecord dgContainer = new EscherContainerRecord();",
+        "716": "        EscherDgRecord dg;"
+      },
+      "id": 15642409,
+      "filename": "EscherAggregate.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 178,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642620/",
+      "md5hash": "c686784da3da38fecea2e5b988b86ece",
+      "lines": {
+        "60": "    private static Class[] escherRecordClasses = {",
+        "61": "        EscherBSERecord.class, EscherOptRecord.class, EscherClientAnchorRecord.class, EscherDgRecord.class,"
+      },
+      "id": 15642620,
+      "filename": "DefaultEscherRecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 9,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

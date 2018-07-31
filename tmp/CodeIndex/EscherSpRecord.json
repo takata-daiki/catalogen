@@ -1,0 +1,367 @@
+{
+  "matchterm": "EscherSpRecord",
+  "previouspage": null,
+  "searchterm": "EscherSpRecord",
+  "query": "EscherSpRecord",
+  "language_filters": [
+    {
+      "count": 17,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 17,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 236,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383949/",
+      "md5hash": "4b67801d2afc893664d4989e929e2374",
+      "lines": {
+        "28": " */",
+        "29": "public class EscherSpRecord"
+      },
+      "id": 97383949,
+      "filename": "EscherSpRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 245,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642629/",
+      "md5hash": "daab619e0763359fdbc407e23662ab74",
+      "lines": {
+        "51": " */",
+        "52": "public class EscherSpRecord"
+      },
+      "id": 15642629,
+      "filename": "EscherSpRecord.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 500,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394276/",
+      "md5hash": "00f483b8f00b9a5717d160ff19beda8e",
+      "lines": {
+        "224": "    public void setAnchor(Rectangle2D anchor){",
+        "176": "        EscherSpRecord spRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);",
+        "226": "        int flags = spRecord.getFlags();",
+        "227": "        if ((flags & EscherSpRecord.FLAG_CHILD) != 0){",
+        "452": "        EscherSpRecord spRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);",
+        "225": "        EscherSpRecord spRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);",
+        "461": "    public void setShapeId(int id){",
+        "451": "    public int getShapeId(){",
+        "143": "    public int getShapeType(){",
+        "144": "        EscherSpRecord spRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);",
+        "178": "        Rectangle2D anchor=null;",
+        "179": "        if ((flags & EscherSpRecord.FLAG_CHILD) != 0){",
+        "462": "        EscherSpRecord spRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);",
+        "182": "            if(rec == null){",
+        "183": "                logger.log(POILogger.WARN, \"EscherSpRecord.FLAG_CHILD is set but EscherChildAnchorRecord was not found\");",
+        "175": "    public Rectangle2D getAnchor2D(){"
+      },
+      "id": 97394276,
+      "filename": "Shape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 431,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394265/",
+      "md5hash": "209d3abdc4c9f2d12e19f15421567bba",
+      "lines": {
+        "224": "     public boolean getFlipHorizontal(){",
+        "225": "        EscherSpRecord spRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);",
+        "34": "import org.apache.poi.ddf.EscherSimpleProperty;",
+        "35": "import org.apache.poi.ddf.EscherSpRecord;",
+        "227": "    }",
+        "234": "    public boolean getFlipVertical(){",
+        "235": "        EscherSpRecord spRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);",
+        "236": "        return (spRecord.getFlags()& EscherSpRecord.FLAG_FLIPVERT) != 0;",
+        "226": "        return (spRecord.getFlags()& EscherSpRecord.FLAG_FLIPHORIZ) != 0;",
+        "237": "    }",
+        "82": "",
+        "83": "        EscherSpRecord sp = new EscherSpRecord();",
+        "84": "        int flags = EscherSpRecord.FLAG_HAVEANCHOR | EscherSpRecord.FLAG_HASSHAPETYPE;",
+        "85": "        if (isChild) flags |= EscherSpRecord.FLAG_CHILD;",
+        "86": "        sp.setFlags(flags);"
+      },
+      "id": 97394265,
+      "filename": "SimpleShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 612,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394395/",
+      "md5hash": "4ae551d90bbc16377c5513186d4e9dc1",
+      "lines": {
+        "32": "import org.apache.poi.ddf.EscherSpRecord;",
+        "546": "        } else {",
+        "547": "            EscherSpRecord escherSpRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);",
+        "548": "            int shapeId = escherSpRecord.getShapeId();",
+        "549": "            if(runs != null) for (int i = 0; i < runs.length; i++) {",
+        "31": "import org.apache.poi.ddf.EscherSimpleProperty;"
+      },
+      "id": 97394395,
+      "filename": "TextShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 766,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642409/",
+      "md5hash": "9e212df4a5b523744fd315d99c376d1b",
+      "lines": {
+        "720": "        EscherSpRecord sp1 = new EscherSpRecord();",
+        "738": "        spgr.setRectY2( patriarch.getY2() );",
+        "739": "        sp1.setRecordId( EscherSpRecord.RECORD_ID );",
+        "741": "        sp1.setShapeId( drawingManager.allocateShapeId(dg.getDrawingGroupId()) );",
+        "742": "        sp1.setFlags( EscherSpRecord.FLAG_GROUP | EscherSpRecord.FLAG_PATRIARCH );",
+        "648": "        spgr.setRectY2( shape.getY2() );",
+        "649": "        sp.setRecordId( EscherSpRecord.RECORD_ID );",
+        "653": "        if (shape.getAnchor() instanceof HSSFClientAnchor)",
+        "654": "            sp.setFlags( EscherSpRecord.FLAG_GROUP | EscherSpRecord.FLAG_HAVEANCHOR );",
+        "719": "        EscherSpgrRecord spgr = new EscherSpgrRecord();",
+        "656": "            sp.setFlags( EscherSpRecord.FLAG_GROUP | EscherSpRecord.FLAG_HAVEANCHOR | EscherSpRecord.FLAG_CHILD );",
+        "633": "        EscherSpgrRecord spgr = new EscherSpgrRecord();",
+        "634": "        EscherSpRecord sp = new EscherSpRecord();",
+        "655": "        else"
+      },
+      "id": 15642409,
+      "filename": "EscherAggregate.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 514,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394313/",
+      "md5hash": "346ffc55e0b7a05381ade3b094d03d17",
+      "lines": {
+        "160": "        for (EscherContainerRecord c : dgContainer.getChildContainers()) {",
+        "161": "            EscherSpRecord spr = null;",
+        "164": "                    EscherContainerRecord dc = (EscherContainerRecord)c.getChild(0);",
+        "165": "                    spr = dc.getChildById(EscherSpRecord.RECORD_ID);",
+        "167": "                case EscherContainerRecord.SP_CONTAINER:",
+        "168": "                    spr = c.getChildById(EscherSpRecord.RECORD_ID);",
+        "27": "import org.apache.poi.ddf.EscherDggRecord;",
+        "28": "import org.apache.poi.ddf.EscherSpRecord;"
+      },
+      "id": 97394313,
+      "filename": "Slide.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 184,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642360/",
+      "md5hash": "568f42341c2f49cf457f7336fcfb066f",
+      "lines": {
+        "81": "        EscherContainerRecord spContainer = new EscherContainerRecord();",
+        "82": "        EscherSpRecord sp = new EscherSpRecord();",
+        "87": "        spContainer.setOptions( (short) 0x000F );",
+        "88": "        sp.setRecordId( EscherSpRecord.RECORD_ID );",
+        "91": "        if (hssfShape.getParent() == null)",
+        "92": "            sp.setFlags( EscherSpRecord.FLAG_HAVEANCHOR | EscherSpRecord.FLAG_HASSHAPETYPE );",
+        "93": "        else",
+        "94": "            sp.setFlags( EscherSpRecord.FLAG_CHILD | EscherSpRecord.FLAG_HAVEANCHOR | EscherSpRecord.FLAG_HASSHAPETYPE );"
+      },
+      "id": 15642360,
+      "filename": "PolygonShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 155,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642357/",
+      "md5hash": "3fac04b2d420f2a566cce5b6a652e8c5",
+      "lines": {
+        "98": "        if (userAnchor.isHorizontallyFlipped())",
+        "99": "            sp.setFlags(sp.getFlags() | EscherSpRecord.FLAG_FLIPHORIZ);",
+        "100": "        if (userAnchor.isVerticallyFlipped())",
+        "85": "        spContainer.setOptions( (short) 0x000F );",
+        "86": "        sp.setRecordId( EscherSpRecord.RECORD_ID );",
+        "89": "        sp.setShapeId( shapeId );",
+        "90": "        sp.setFlags( EscherSpRecord.FLAG_HAVEANCHOR | EscherSpRecord.FLAG_HASSHAPETYPE );",
+        "101": "            sp.setFlags(sp.getFlags() | EscherSpRecord.FLAG_FLIPVERT);",
+        "78": "        EscherContainerRecord spContainer = new EscherContainerRecord();",
+        "79": "        EscherSpRecord sp = new EscherSpRecord();"
+      },
+      "id": 15642357,
+      "filename": "PictureShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642361/",
+      "md5hash": "e8926e1642d96e5be85459525b4970cd",
+      "lines": {
+        "80": "        EscherSpRecord sp = new EscherSpRecord();",
+        "97": "        if (userAnchor.isHorizontallyFlipped())",
+        "98": "            sp.setFlags(sp.getFlags() | EscherSpRecord.FLAG_FLIPHORIZ);",
+        "99": "        if (userAnchor.isVerticallyFlipped())",
+        "100": "            sp.setFlags(sp.getFlags() | EscherSpRecord.FLAG_FLIPVERT);",
+        "86": "        spContainer.setOptions( (short) 0x000F );",
+        "87": "        sp.setRecordId( EscherSpRecord.RECORD_ID );",
+        "90": "        sp.setShapeId( shapeId );",
+        "91": "        sp.setFlags( EscherSpRecord.FLAG_HAVEANCHOR | EscherSpRecord.FLAG_HASSHAPETYPE );",
+        "79": "        EscherContainerRecord spContainer = new EscherContainerRecord();"
+      },
+      "id": 15642361,
+      "filename": "LineShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 192,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642364/",
+      "md5hash": "caf9b32bdd1d6052248a6d5f8cf5c345",
+      "lines": {
+        "132": "        //            sp.setFlags(sp.getFlags() | EscherSpRecord.FLAG_FLIPHORIZ);",
+        "131": "        //        if (userAnchor.isHorizontallyFlipped())",
+        "116": "        spContainer.setOptions( (short) 0x000F );",
+        "117": "        sp.setRecordId( EscherSpRecord.RECORD_ID );",
+        "134": "        //            sp.setFlags(sp.getFlags() | EscherSpRecord.FLAG_FLIPVERT);",
+        "120": "        sp.setShapeId( shapeId );",
+        "121": "        sp.setFlags( EscherSpRecord.FLAG_HAVEANCHOR | EscherSpRecord.FLAG_HASSHAPETYPE );",
+        "108": "        EscherContainerRecord spContainer = new EscherContainerRecord();",
+        "109": "        EscherSpRecord sp = new EscherSpRecord();",
+        "133": "        //        if (userAnchor.isVerticallyFlipped())"
+      },
+      "id": 15642364,
+      "filename": "TextboxShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 151,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642355/",
+      "md5hash": "de60a19c840cc93a41315152fddc45e8",
+      "lines": {
+        "80": "        EscherSpRecord sp = new EscherSpRecord();",
+        "85": "        spContainer.setOptions( (short) 0x000F );",
+        "86": "        sp.setRecordId( EscherSpRecord.RECORD_ID );",
+        "89": "        sp.setShapeId( shapeId );",
+        "90": "        sp.setFlags( EscherSpRecord.FLAG_HAVEANCHOR | EscherSpRecord.FLAG_HASSHAPETYPE );",
+        "79": "        EscherContainerRecord spContainer = new EscherContainerRecord();"
+      },
+      "id": 15642355,
+      "filename": "SimpleFilledShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 280,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394307/",
+      "md5hash": "c0426f09ab6f17114414ade32966e4ad",
+      "lines": {
+        "130": "",
+        "131": "        EscherSpRecord spRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);"
+      },
+      "id": 97394307,
+      "filename": "Picture.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 174,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642354/",
+      "md5hash": "4b8479a67e34a342cfde58c7278efb63",
+      "lines": {
+        "96": "        }",
+        "97": "        EscherSpRecord sp = shape.getSpContainer().getChildById(EscherSpRecord.RECORD_ID);",
+        "98": "        if (hssfShape.getParent() != null)",
+        "99": "            sp.setFlags(sp.getFlags() | EscherSpRecord.FLAG_CHILD);"
+      },
+      "id": 15642354,
+      "filename": "AbstractShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 209,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642605/",
+      "md5hash": "efbd2e3cafe215593deabada6b39b177",
+      "lines": {
+        "202": "            if (escherRecord.getRecordId() == recordId)",
+        "203": "                return (EscherSpRecord) escherRecord;",
+        "196": "",
+        "197": "    public EscherSpRecord getChildById( short recordId )"
+      },
+      "id": 15642605,
+      "filename": "EscherContainerRecord.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 161,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383906/",
+      "md5hash": "3324931c58f18c045e9c34e4e1ad839e",
+      "lines": {
+        "37": "            EscherClientAnchorRecord.class, EscherDgRecord.class,",
+        "38": "            EscherSpgrRecord.class, EscherSpRecord.class,"
+      },
+      "id": 97383906,
+      "filename": "DefaultEscherRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 178,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642620/",
+      "md5hash": "c686784da3da38fecea2e5b988b86ece",
+      "lines": {
+        "61": "        EscherBSERecord.class, EscherOptRecord.class, EscherClientAnchorRecord.class, EscherDgRecord.class,",
+        "62": "        EscherSpgrRecord.class, EscherSpRecord.class, EscherClientDataRecord.class, EscherDggRecord.class,"
+      },
+      "id": 15642620,
+      "filename": "DefaultEscherRecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 17,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

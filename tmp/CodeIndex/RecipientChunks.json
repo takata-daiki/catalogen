@@ -1,0 +1,63 @@
+{
+  "matchterm": "RecipientChunks",
+  "previouspage": null,
+  "searchterm": "RecipientChunks",
+  "query": "RecipientChunks",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/SilverTeamWork/Silverpeas-Core.git",
+      "language": "Java",
+      "linescount": 207,
+      "location": "/lib-core/src/main/java/org/silverpeas/util/mail",
+      "name": "Silverpeas-Core",
+      "url": "https://searchcode.com/codesearch/view/93257122/",
+      "md5hash": "27ed54983be584e0f365e128890a8816",
+      "lines": {
+        "144": "    for (RecipientChunks recipient : recipientChunks) {",
+        "145": "      if (name.equals(recipient.getRecipientName())) {",
+        "51": "import org.apache.poi.hsmf.datatypes.Chunks;",
+        "52": "import org.apache.poi.hsmf.datatypes.RecipientChunks;",
+        "142": "  private InternetAddress getInChunks(String name) throws UnsupportedEncodingException {",
+        "143": "    RecipientChunks[] recipientChunks = message.getRecipientDetailsChunks();"
+      },
+      "id": 93257122,
+      "filename": "MSGExtractor.java"
+    },
+    {
+      "repo": "https://github.com/isdom/POI-Android.git",
+      "language": "Java",
+      "linescount": 190,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hsmf/parsers",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/88636100/",
+      "md5hash": "9c88a7698cc287ccc385a9389ab3678d",
+      "lines": {
+        "32": "import org.apache.poi.hsmf.datatypes.RecipientChunks;",
+        "70": "            }",
+        "71": "            if(dir.getName().startsWith(RecipientChunks.PREFIX)) {",
+        "72": "               group = new RecipientChunks(dir.getName());",
+        "73": "            }",
+        "31": "import org.apache.poi.hsmf.datatypes.NameIdChunks;"
+      },
+      "id": 88636100,
+      "filename": "POIFSChunkParser.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

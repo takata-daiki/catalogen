@@ -1,0 +1,108 @@
+{
+  "matchterm": "EscherRGBProperty",
+  "previouspage": null,
+  "searchterm": "EscherRGBProperty",
+  "query": "EscherRGBProperty",
+  "language_filters": [
+    {
+      "count": 5,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 5,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 64,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383944/",
+      "md5hash": "34ed7d644d67b8b87a5000ab275ee3c3",
+      "lines": {
+        "26": " */",
+        "27": "public class EscherRGBProperty",
+        "30": "",
+        "31": "    public EscherRGBProperty( short propertyNumber, int rgbColor )"
+      },
+      "id": 97383944,
+      "filename": "EscherRGBProperty.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 78,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642624/",
+      "md5hash": "aa449feb1b96b53f084361b68316e6b3",
+      "lines": {
+        "48": "public class EscherRGBProperty",
+        "51": "",
+        "52": "    public EscherRGBProperty( short propertyNumber, int rgbColor )",
+        "47": " */"
+      },
+      "id": 15642624,
+      "filename": "EscherRGBProperty.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 174,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642354/",
+      "md5hash": "4b8479a67e34a342cfde58c7278efb63",
+      "lines": {
+        "152": "        opt.addEscherProperty( new EscherRGBProperty( EscherProperties.LINESTYLE__COLOR, shape.getLineStyleColor() ) );",
+        "149": "        }",
+        "150": "        opt.addEscherProperty( new EscherRGBProperty( EscherProperties.FILL__FILLCOLOR, shape.getFillColor() ) );",
+        "151": "        opt.addEscherProperty( new EscherBoolProperty( EscherProperties.GROUPSHAPE__PRINT, 0x080000 ) );"
+      },
+      "id": 15642354,
+      "filename": "AbstractShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 2351,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642358/",
+      "md5hash": "2f47d8e4aa73ffbba0d056d2a6f68eee",
+      "lines": {
+        "2208": "            splitMenuColors.setRecordId((short) 0xF11E);",
+        "2205": "            opt.addEscherProperty( new EscherBoolProperty(EscherProperties.TEXT__SIZE_TEXT_TO_FIT_SHAPE, 524296) );",
+        "2206": "            opt.addEscherProperty( new EscherRGBProperty(EscherProperties.FILL__FILLCOLOR, 0x08000041) );",
+        "2207": "            opt.addEscherProperty( new EscherRGBProperty(EscherProperties.LINESTYLE__COLOR, 134217792) );"
+      },
+      "id": 15642358,
+      "filename": "Workbook.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 128,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642603/",
+      "md5hash": "f08eee159fce1bf0383031b466b1ae4f",
+      "lines": {
+        "83": "            else if ( propertyType == EscherPropertyMetaData.TYPE_RGB )",
+        "84": "                results.add( new EscherRGBProperty( propId, propData ) );"
+      },
+      "id": 15642603,
+      "filename": "EscherPropertyFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 5,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

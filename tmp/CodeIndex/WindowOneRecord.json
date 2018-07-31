@@ -1,0 +1,104 @@
+{
+  "matchterm": "WindowOneRecord",
+  "previouspage": null,
+  "searchterm": "WindowOneRecord",
+  "query": "WindowOneRecord",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 476,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642376/",
+      "md5hash": "ec5a8593e6595a934237c283f9faf100",
+      "lines": {
+        "96": "    public WindowOneRecord(RecordInputStream in)",
+        "86": "",
+        "87": "    public WindowOneRecord()",
+        "57": "",
+        "58": "public class WindowOneRecord",
+        "95": ""
+      },
+      "id": 15642376,
+      "filename": "WindowOneRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 2351,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642358/",
+      "md5hash": "2f47d8e4aa73ffbba0d056d2a6f68eee",
+      "lines": {
+        "2240": "    ",
+        "2241": "    public WindowOneRecord getWindowOne() {",
+        "278": "            retval.windowOne = (WindowOneRecord) retval.createWindowOne();",
+        "1079": "        WindowOneRecord retval = new WindowOneRecord();",
+        "1072": "     * tab width ratio - 0x258 <P>",
+        "1073": "     * @see loci.poi.hssf.record.WindowOneRecord",
+        "1074": "     * @see loci.poi.hssf.record.Record",
+        "1075": "     * @return record containing a WindowOneRecord",
+        "277": "        if (retval.windowOne == null) {",
+        "246": "                case WindowOneRecord.sid:",
+        "247": "                    if (log.check( POILogger.DEBUG ))",
+        "312": "        records.add( retval.createPasswordRev4() );",
+        "313": "        retval.windowOne = (WindowOneRecord) retval.createWindowOne();",
+        "1078": "    protected Record createWindowOne() {",
+        "245": "                    break;"
+      },
+      "id": 15642358,
+      "filename": "Workbook.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642343/",
+      "md5hash": "468caa59753e7c2d27a76f3903f70894",
+      "lines": {
+        "162": "                ProtectRecord.class, PasswordRecord.class, ProtectionRev4Record.class,",
+        "163": "                PasswordRev4Record.class, WindowOneRecord.class, BackupRecord.class,",
+        "126": "import loci.poi.hssf.record.WSBoolRecord;",
+        "127": "import loci.poi.hssf.record.WindowOneRecord;"
+      },
+      "id": 15642343,
+      "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "72": "                ProtectRecord.class, PasswordRecord.class, ProtectionRev4Record.class,",
+        "73": "                PasswordRev4Record.class, WindowOneRecord.class, BackupRecord.class,"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

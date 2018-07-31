@@ -1,0 +1,446 @@
+{
+  "matchterm": "DataFormatter",
+  "previouspage": null,
+  "searchterm": "DataFormatter",
+  "query": "DataFormatter",
+  "language_filters": [
+    {
+      "count": 54,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 54,
+  "results": [
+    {
+      "repo": "http://ecs289g-project.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 103,
+      "location": "/MovieMiner/src/main/java/edu/ucdavis/cs/movieminer/taste",
+      "name": "ecs289g-project",
+      "url": "https://searchcode.com/codesearch/view/14038276/",
+      "md5hash": "f8f6b296ab9c12661dd3eb1ccc110a9d",
+      "lines": {
+        "96": "\t\tString dataFile = args[0];",
+        "97": "\t\tDataFormatter formatter = new DataFormatter(new File(dataFile));",
+        "40": "\t */",
+        "41": "\tDataFormatter(File dataFile){",
+        "29": " */",
+        "30": "public class DataFormatter {"
+      },
+      "id": 14038276,
+      "filename": "DataFormatter.java"
+    },
+    {
+      "repo": "https://github.com/starlight60/CSMCache.git",
+      "language": "Java",
+      "linescount": 11,
+      "location": "/src/main/java/com/kt/bit/csm/blds/cache/util",
+      "name": "CSMCache",
+      "url": "https://searchcode.com/codesearch/view/98178359/",
+      "md5hash": "c892d7ea9002ab53c084c0d5d65648ff",
+      "lines": {
+        "4": "",
+        "5": "public interface DataFormatter {"
+      },
+      "id": 98178359,
+      "filename": "DataFormatter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/okorol/moduleinducer",
+      "language": "Java",
+      "linescount": 292,
+      "location": "/src/ca/uottawa/okorol/bioinf/ModuleInducer/tools",
+      "name": "moduleinducer",
+      "url": "https://searchcode.com/codesearch/view/121194339/",
+      "md5hash": "62e2066cd180b6ec6209825a52d81c0f",
+      "lines": {
+        "26": " */",
+        "27": "public class DataFormatter {"
+      },
+      "id": 121194339,
+      "filename": "DataFormatter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/asirnayeef22/bookkeeper.git",
+      "language": "Java",
+      "linescount": 124,
+      "location": "/hedwig-server/src/main/java/org/apache/hedwig/data",
+      "name": "bookkeeper",
+      "url": "https://searchcode.com/codesearch/view/45117761/",
+      "md5hash": "32e45f165d5a2217dcdd87a9b2fb37ea",
+      "lines": {
+        "48": "        super.setConf(conf);",
+        "49": "        dataFormatter = EntryFormatter.newEntryFormatter(conf, MESSAGE_PAYLOAD_FORMATTER_CLASS);",
+        "116": "            System.out.println(\"Body:\");",
+        "117": "            dataFormatter.formatEntry(message.getBody().toByteArray());",
+        "43": "",
+        "44": "    EntryFormatter dataFormatter = EntryFormatter.STRING_FORMATTER;"
+      },
+      "id": 45117761,
+      "filename": "MessageFormatter.java"
+    },
+    {
+      "repo": "https://github.com/SorinS/axiom-stack.git",
+      "language": "Java",
+      "linescount": 2676,
+      "location": "/src/java/axiom/objectmodel/dom",
+      "name": "axiom-stack",
+      "url": "https://searchcode.com/codesearch/view/107460965/",
+      "md5hash": "89233317c7c9f9244ab8037da6650a2e",
+      "lines": {
+        "1568": "\t\treturn dataFormatter.formatInt(l);",
+        "1571": "    public String serializeSmallFloat(double fl) {",
+        "1572": "        return dataFormatter.formatSmallFloat(fl);",
+        "1553": "        return dataFormatter.formatTime(date);",
+        "1576": "        return dataFormatter.formatSmallInt(l);",
+        "1545": "        }",
+        "1546": "\t\treturn dataFormatter.formatDate(date);",
+        "1575": "    public String serializeSmallInt(long l) {",
+        "1552": "        }",
+        "177": "        this.writerManager = new IndexWriterManager(app, buildAnalyzer(), checkVersion, initDelInfos);",
+        "178": "        this.dataFormatter = new LuceneDataFormatter(app.getAppDir());",
+        "1559": "        }",
+        "1560": "        return dataFormatter.formatTimestamp(date);",
+        "1563": "\tpublic String serializeFloat(double fl) {        ",
+        "1564": "\t\treturn dataFormatter.formatFloat(fl);",
+        "1567": "\tpublic String serializeInt(long l) { "
+      },
+      "id": 107460965,
+      "filename": "LuceneManager.java"
+    },
+    {
+      "repo": "https://bitbucket.org/okorol/moduleinducer",
+      "language": "Java",
+      "linescount": 678,
+      "location": "/src/ca/uottawa/okorol/bioinf/ModuleInducer/services",
+      "name": "moduleinducer",
+      "url": "https://searchcode.com/codesearch/view/121194346/",
+      "md5hash": "33775aa36636f052295cbb021abb4588",
+      "lines": {
+        "192": "\t\tString benchmarkResult = explorer.induceRules();",
+        "193": "\t\tArrayList<String[]> benchmarkTheory = DataFormatter.extractTheoryByRules(benchmarkResult);",
+        "322": "\t\tArrayList<String[]> theory = DataFormatter.extractTheoryByRules(alephOutput);",
+        "321": "\t\t",
+        "390": "\t\t",
+        "135": "\t\tString benchmarkResult = explorer.induceRules();",
+        "136": "\t\tArrayList<String[]> benchmarkTheory = DataFormatter.extractTheoryByRules(benchmarkResult);",
+        "391": "\t\tArrayList<String[]> theory = DataFormatter.extractTheoryByRules(alephOutput);",
+        "44": "\t\t\t// [TP, FP, FN, TN]",
+        "45": "\t\t\tint[] confMatr = DataFormatter.extractTestConfusionMatrix(alephOutput);",
+        "14": "import ca.uottawa.okorol.bioinf.ModuleInducer.properties.SystemVariables;",
+        "15": "import ca.uottawa.okorol.bioinf.ModuleInducer.tools.DataFormatter;",
+        "417": "\t\t}",
+        "418": "\t\tArrayList<String[]> actualRules = DataFormatter.extractTheoryByRules(actualAlephOutput);",
+        "158": "\t\t\tString intermediateResult = explorer.induceRules();",
+        "159": "\t\t\tArrayList<String[]> intermediateTheory = DataFormatter.extractTheoryByRules(intermediateResult);"
+      },
+      "id": 121194346,
+      "filename": "Experimenter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 99,
+      "location": "/SpudSoft BIRT Excel Emitters Tests/src/uk/co/spudsoft/birt/emitters/excel/tests",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/64531524/",
+      "md5hash": "f36f6c687daa5a9d57af54224c2e4494",
+      "lines": {
+        "32": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "33": "import org.apache.poi.ss.usermodel.DataFormatter;",
+        "85": "\t\t\t",
+        "86": "\t\t\tDataFormatter formatter = new DataFormatter();",
+        "56": "\t\t\t",
+        "57": "\t\t\tDataFormatter formatter = new DataFormatter();"
+      },
+      "id": 64531524,
+      "filename": "GridsTests.java"
+    },
+    {
+      "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 96,
+      "location": "/SpudSoft BIRT Excel Emitters Tests/src/uk/co/spudsoft/birt/emitters/excel/tests",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/64531655/",
+      "md5hash": "d51a3fd735f2796e5b0c7306cf4d491b",
+      "lines": {
+        "32": "import org.apache.poi.ss.usermodel.DataFormatter;",
+        "83": "\t\t\t",
+        "84": "\t\t\tDataFormatter formatter = new DataFormatter();",
+        "55": "\t\t\t",
+        "56": "\t\t\tDataFormatter formatter = new DataFormatter();",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;"
+      },
+      "id": 64531655,
+      "filename": "CurrencyFormatsTest.java"
+    },
+    {
+      "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 133,
+      "location": "/SpudSoft BIRT Excel Emitters Tests/src/uk/co/spudsoft/birt/emitters/excel/tests",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/64531708/",
+      "md5hash": "840c05775a8d427138df853ac1c235e7",
+      "lines": {
+        "32": "import org.apache.poi.hssf.util.HSSFColor;",
+        "33": "import org.apache.poi.ss.usermodel.DataFormatter;",
+        "57": "\t\t\t",
+        "58": "\t\t\tDataFormatter formatter = new DataFormatter();",
+        "112": "\t\t\tDataFormatter formatter = new DataFormatter();",
+        "111": "\t\t\t"
+      },
+      "id": 64531708,
+      "filename": "BackgroundFormatsTests.java"
+    },
+    {
+      "repo": "https://bitbucket.org/stevecassidy/junit-grading",
+      "language": "Java",
+      "linescount": 111,
+      "location": "/Automark/src/au/edu/mq/comp/junitGrading",
+      "name": "junit-grading",
+      "url": "https://searchcode.com/codesearch/view/76409667/",
+      "md5hash": "9558a218fff6149f58812618aaf38ea4",
+      "lines": {
+        "97": "    \t\t//write result.csv",
+        "98": "    \t\t//SimpleFileIO.writeStringToTextFile(dataFormatter.toString(), \"Result.csv\");",
+        "88": "",
+        "89": "    \t\t//CSVFormatter dataFormatter = new CSVFormatter();",
+        "93": "    \t\t\tTestResult result = workGroup.popWorkResult();",
+        "94": "    \t\t\t//dataFormatter.addRow(result);"
+      },
+      "id": 76409667,
+      "filename": "APIUsedExample.java"
+    },
+    {
+      "repo": "https://bitbucket.org/stevecassidy/junit-grading",
+      "language": "Java",
+      "linescount": 461,
+      "location": "/Automark/src/au/edu/mq/comp/junitGrading/commandLineUI",
+      "name": "junit-grading",
+      "url": "https://searchcode.com/codesearch/view/76409697/",
+      "md5hash": "ccebcde5819310b77e387a026a1df1ac",
+      "lines": {
+        "448": "    \t\tSystem.out.println(\"============D O N E==============\");",
+        "449": "    \t\treturn dataFormatter.toString();",
+        "425": "            ",
+        "426": "            CSVFormatter dataFormatter = new CSVFormatter(outputHeader);",
+        "445": "    \t\t\tTestResult result = workGroup.popWorkResult();",
+        "446": "    \t\t\tdataFormatter.addRow(result);"
+      },
+      "id": 76409697,
+      "filename": "JavaGraderDriver.java"
+    },
+    {
+      "repo": "https://bitbucket.org/stevecassidy/junit-grading",
+      "language": "Java",
+      "linescount": 116,
+      "location": "/Automark/src/au/edu/mq/comp/junitGrading/grader",
+      "name": "junit-grading",
+      "url": "https://searchcode.com/codesearch/view/76409705/",
+      "md5hash": "21471bf696e89e10b5ff9e57372dbf28",
+      "lines": {
+        "98": "    \t\t\tTestResult result = workGroup.popWorkResult();",
+        "99": "    \t\t\tdataFormatter.addRow(result);",
+        "102": "    \t\t//write result.csv",
+        "103": "    \t\tSimpleFileIO.writeStringToTextFile(dataFormatter.toString(), \"Result.csv\");",
+        "93": "",
+        "94": "    \t\tCSVFormatter dataFormatter = new CSVFormatter();"
+      },
+      "id": 76409705,
+      "filename": "APIUsedExample.java"
+    },
+    {
+      "repo": "https://bitbucket.org/stevecassidy/junit-grading",
+      "language": "Java",
+      "linescount": 410,
+      "location": "/Automark/src/au/edu/mq/comp/junitGrading/grader",
+      "name": "junit-grading",
+      "url": "https://searchcode.com/codesearch/view/76409707/",
+      "md5hash": "e68ada56ead9bf93a5eb1ca0a9505940",
+      "lines": {
+        "17": "import au.edu.mq.comp.junitGrading.MQiLearnIdentificationTokenizer;",
+        "18": "import au.edu.mq.comp.junitGrading.TableDataFormatter;",
+        "324": "    ",
+        "325": "    public String run(java.io.File automarkFile, TableDataFormatter dataFormatter) throws Exception",
+        "353": "    \t\t",
+        "354": "    \t\treturn dataFormatter.toString();",
+        "350": "    \t\t\tTestResult result = workGroup.popWorkResult();",
+        "351": "    \t\t\tdataFormatter.addRow(result);"
+      },
+      "id": 76409707,
+      "filename": "Automark.java"
+    },
+    {
+      "repo": "http://grooveclipse.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 518,
+      "location": "/plugins/grooveclipse/org.grooveclipse.xls.core/src/org/grooveclipse/xls/core",
+      "name": "grooveclipse",
+      "url": "https://searchcode.com/codesearch/view/12351344/",
+      "md5hash": "f01592609fdfbed3ab1c37c1e069d9b7",
+      "lines": {
+        "448": "\t\tdataFormatter = new DataFormatter(true);",
+        "480": "\t\t\t\t\t",
+        "19": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "20": "import org.apache.poi.ss.usermodel.DataFormatter;",
+        "469": "\t\t\t\t",
+        "470": "\t\t\t\tString contents = xlsUtil.toString(evaluator, dataFormatter, typeCell);",
+        "56": "\tprivate FormulaEvaluator evaluator;",
+        "57": "\tprivate DataFormatter dataFormatter;",
+        "479": "\t\t\t\t\tString linkName = xlsUtil.toString(evaluator, dataFormatter, row.getCell(2));",
+        "477": "\t\t\t\t\t",
+        "478": "\t\t\t\t\tString varName = xlsUtil.toString(evaluator, dataFormatter, row.getCell(1));",
+        "447": "\t\tevaluator = tmpWb.getCreationHelper().createFormulaEvaluator();"
+      },
+      "id": 12351344,
+      "filename": "XlsReport.java"
+    },
+    {
+      "repo": "https://bitbucket.org/rplogue/androidlearning.git",
+      "language": "Java",
+      "linescount": 73,
+      "location": "/src/logue/robert/dayinformation/sqlite",
+      "name": "androidlearning",
+      "url": "https://searchcode.com/codesearch/view/48957320/",
+      "md5hash": "fe4e27bd3e194413bc2ff9e9b311f7bc",
+      "lines": {
+        "48": "        String formattedDate = dataFormatter.format(cal.getTime());",
+        "49": "",
+        "46": "        ",
+        "47": "        SimpleDateFormat dataFormatter = new SimpleDateFormat(format,Locale.UK);"
+      },
+      "id": 48957320,
+      "filename": "DateFormatAdapter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/contactjoehale/interaction-ratings",
+      "language": "Java",
+      "linescount": 59,
+      "location": "/src/edu/westga/cs3211/Controllers",
+      "name": "interaction-ratings",
+      "url": "https://searchcode.com/codesearch/view/136928808/",
+      "md5hash": "6bb6e0131b9d79d0ccca00fc65753a76",
+      "lines": {
+        "32": "\tpublic String[] getInteractionDataAsArray(){",
+        "33": "\t\treturn this.dataFormatter.getDataArray(); ",
+        "35": "\tpublic Map<String, Integer> getInteractionDataAsHashMap(){",
+        "36": "\t\treturn this.dataFormatter.getInteractionMap(); ",
+        "38": "\tpublic ArrayList<String> getInteractionRating1(){",
+        "39": "\t\treturn this.dataFormatter.getInteractionRating1();",
+        "10": "",
+        "11": "import edu.westga.cs3211.Model.InteractionDataFormatter;",
+        "20": "",
+        "21": "\tprivate InteractionDataFormatter dataFormatter;",
+        "27": "\tpublic InteractionData(String textFileString){",
+        "28": "\t\tthis.dataFormatter = new InteractionDataFormatter(textFileString);",
+        "29": "\t\tthis.dataFormatter.createInteractionMap();",
+        "30": "\t\tthis.dataFormatter.groupElementsByValue();",
+        "31": "\t}"
+      },
+      "id": 136928808,
+      "filename": "InteractionData.java"
+    },
+    {
+      "repo": "https://github.com/abhinav681/drools.git",
+      "language": "Java",
+      "linescount": 276,
+      "location": "/drools-decisiontables/src/main/java/org/drools/decisiontable/parser/xls",
+      "name": "drools",
+      "url": "https://searchcode.com/codesearch/view/93105691/",
+      "md5hash": "dfb6123bb8748bdec7b3f0caf1a28d29",
+      "lines": {
+        "195": "    private String tryToReadCachedValue( Cell cell ) {",
+        "196": "        DataFormatter formatter = new DataFormatter( Locale.ENGLISH );",
+        "122": "        CellRangeAddress[] mergedRanges = getMergedCells( sheet );",
+        "123": "        DataFormatter formatter = new DataFormatter( Locale.ENGLISH );",
+        "29": "import org.apache.poi.ss.usermodel.CellValue;",
+        "30": "import org.apache.poi.ss.usermodel.DataFormatter;"
+      },
+      "id": 93105691,
+      "filename": "ExcelParser.java"
+    },
+    {
+      "repo": "https://bitbucket.org/okorol/moduleinducer",
+      "language": "Java",
+      "linescount": 191,
+      "location": "/src-unitTest/ca/uottawa/okorol/bioinf/ModuleInducer/services",
+      "name": "moduleinducer",
+      "url": "https://searchcode.com/codesearch/view/121194316/",
+      "md5hash": "3e70087d174cb51559620ce1e99f5dd9",
+      "lines": {
+        "16": "import ca.uottawa.okorol.bioinf.ModuleInducer.properties.SystemVariables;",
+        "17": "import ca.uottawa.okorol.bioinf.ModuleInducer.tools.DataFormatter;",
+        "117": "\t\t\tString ma0036 = \"A\\t|\\t13\\t0\\t52\\t0\\t25\\nC\\t|\\t13\\t5\\t0\\t0\\t7\\nG\\t|\\t18\\t48\\t1\\t0\\t15\\nT\\t|\\t9\\t0\\t0\\t53\\t6\";",
+        "118": "\t\t\tactual = DataFormatter.formatPssm(pssmsHash.get(\"MA0036.1\"));",
+        "103": "\t\t\tString ma0003 = \"A\\t|\\t0\\t0\\t0\\t22\\t19\\t55\\t53\\t19\\t9\\nC\\t|\\t0\\t185\\t185\\t71\\t57\\t44\\t30\\t16\\t78\\nG\\t|\\t185\\t0\\t0\\t46\\t61\\t67\\t91\\t137\\t79\\nT\\t|\\t0\\t0\\t0\\t46\\t48\\t19\\t11\\t13\\t19\";\t\t\t",
+        "104": "\t\t\tactual = DataFormatter.formatPssm(pssmsHash.get(\"MA0003.1\"));",
+        "122": "\t\t\t",
+        "123": "\t\t\tactual = DataFormatter.formatPssm(pssmsHash.get(\"MA0036.1diffFormat\")); // different format, but the same content as ma0036",
+        "110": "\t\t\tString ma0004 = \"A\\t|\\t4\\t19\\t0\\t0\\t0\\t0\\nC\\t|\\t16\\t0\\t20\\t0\\t0\\t0\\nG\\t|\\t0\\t1\\t0\\t20\\t0\\t20\\nT\\t|\\t0\\t0\\t0\\t0\\t20\\t0\";",
+        "111": "\t\t\tactual = DataFormatter.formatPssm(pssmsHash.get(\"MA0004.1\"));"
+      },
+      "id": 121194316,
+      "filename": "PatserRegElementServiceTest.java"
+    },
+    {
+      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 87,
+      "location": "/SpudSoft BIRT Excel Emitters Tests/src/uk/co/spudsoft/birt/emitters/excel/tests",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/122565018/",
+      "md5hash": "72fcbaa936c7a80ef4eed72efeebc351",
+      "lines": {
+        "22": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "23": "import org.apache.poi.ss.usermodel.DataFormatter;",
+        "74": "\t\t\t",
+        "75": "\t\t\tDataFormatter formatter = new DataFormatter();",
+        "46": "\t\t\t",
+        "47": "\t\t\tDataFormatter formatter = new DataFormatter();"
+      },
+      "id": 122565018,
+      "filename": "CurrencyFormatsTest.java"
+    },
+    {
+      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 90,
+      "location": "/SpudSoft BIRT Excel Emitters Tests/src/uk/co/spudsoft/birt/emitters/excel/tests",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/122565038/",
+      "md5hash": "c32feb0f744686115859362f23d53565",
+      "lines": {
+        "48": "\t\t\tDataFormatter formatter = new DataFormatter();",
+        "23": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "24": "import org.apache.poi.ss.usermodel.DataFormatter;",
+        "76": "\t\t\t",
+        "77": "\t\t\tDataFormatter formatter = new DataFormatter();",
+        "47": "\t\t\t"
+      },
+      "id": 122565038,
+      "filename": "GridsTests.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 34,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 13,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 7,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "matchterm": "HSLFSlideShow",
+  "previouspage": null,
+  "searchterm": "HSLFSlideShow",
+  "query": "HSLFSlideShow",
+  "language_filters": [
+    {
+      "count": 6,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 6,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 688,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394255/",
+      "md5hash": "40d5716cbdc5b9b544fff845bb8e0c6f",
+      "lines": {
+        "160": "    *",
+        "161": "    * @deprecated Use {@link #HSLFSlideShow(DirectoryNode)} instead",
+        "69": " */",
+        "70": "public final class HSLFSlideShow extends POIDocument {",
+        "71": "\t",
+        "72": "    private static final String TAG = HSLFSlideShow.class.getSimpleName();",
+        "138": "\t */",
+        "139": "\tpublic HSLFSlideShow(POIFSFileSystem filesystem) throws IOException",
+        "207": "\t */",
+        "208": "\tpublic static final HSLFSlideShow create() {",
+        "209": "\t\tInputStream is = HSLFSlideShow.class.getResourceAsStream(\"data/empty.ppt\");",
+        "179": "\t */",
+        "180": "\tpublic HSLFSlideShow(DirectoryNode dir) throws IOException",
+        "150": "    */",
+        "151": "   public HSLFSlideShow(NPOIFSFileSystem filesystem) throws IOException",
+        "167": "   public HSLFSlideShow(DirectoryNode dir, POIFSFileSystem filesystem) throws IOException",
+        "166": "\t@Deprecated"
+      },
+      "id": 97394255,
+      "filename": "HSLFSlideShow.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1082,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394959/",
+      "md5hash": "5d80afff23c354813b0c27bde8e947ac",
+      "lines": {
+        "32": "import org.apache.poi.hslf.HSLFSlideShow;",
+        "128": "\t\tthis(new HSLFSlideShow(inputStream));",
+        "131": "\tpublic SlideShow(File file) throws IOException {",
+        "132": "\t\tthis(new HSLFSlideShow(new NPOIFSFileSystem(file)));",
+        "95": "\t *",
+        "127": "\tpublic SlideShow(InputStream inputStream) throws IOException {",
+        "61": "",
+        "49": "/**",
+        "50": " * This class is a friendly wrapper on top of the more scary HSLFSlideShow.",
+        "435": "\tpublic void write(OutputStream out) throws IOException {",
+        "436": "\t\t_hslfSlideShow.write(out);",
+        "62": "\t// Low level contents, as taken from HSLFSlideShow",
+        "59": "\t// What we're based on",
+        "60": "\tprivate HSLFSlideShow _hslfSlideShow;",
+        "93": "\t * Constructs a Powerpoint document from the underlying",
+        "94": "\t * HSLFSlideShow object. Finds the model stuff from this",
+        "31": "import org.apache.poi.ddf.EscherRecord;"
+      },
+      "id": 97394959,
+      "filename": "SlideShow.java"
+    },
+    {
+      "repo": "http://sigma-h.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 43,
+      "location": "/sigmah/src/test/java/org/sigmah/server/report/renderer/ppt",
+      "name": "sigma-h",
+      "url": "https://searchcode.com/codesearch/view/558409/",
+      "md5hash": "b50cd5d333ad06f0d4045ee1d1f67cf3",
+      "lines": {
+        "8": "import org.apache.poi.ddf.EscherProperties;",
+        "9": "import org.apache.poi.hslf.HSLFSlideShow;",
+        "28": "        InputStream in = PptAlphaCheck.class.getResourceAsStream(\"/alpha.ppt\");",
+        "29": "        SlideShow ppt = new SlideShow( new HSLFSlideShow(in) );"
+      },
+      "id": 558409,
+      "filename": "PptAlphaCheck.java"
+    },
+    {
+      "repo": "http://filesearch.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 138,
+      "location": "/filesearch/SearchLocalFile/src/com/searchlocal/filereader",
+      "name": "filesearch",
+      "url": "https://searchcode.com/codesearch/view/14046023/",
+      "md5hash": "e80907b3feb10a010e2946da79d05656",
+      "lines": {
+        "8": "",
+        "9": "import org.apache.poi.hslf.HSLFSlideShow;",
+        "62": "\t\t\t} else {",
+        "63": "\t\t\t\tss = new SlideShow(new HSLFSlideShow(is));"
+      },
+      "id": 14046023,
+      "filename": "PptReader.java"
+    },
+    {
+      "repo": "git://github.com/calpath/aurora.git",
+      "language": "Java",
+      "linescount": 98,
+      "location": "/src/aurora/hwc/report",
+      "name": "aurora",
+      "url": "https://searchcode.com/codesearch/view/17535734/",
+      "md5hash": "7f2be1f46c9919bf1674ef36e02252a8",
+      "lines": {
+        "8": "import org.apache.poi.hslf.HSLFSlideShow;",
+        "89": "\t\t\tout = new FileOutputStream(file.getAbsolutePath());",
+        "90": "\t\t\tppt = new SlideShow(new HSLFSlideShow(System.getenv(\"AURORA_CLASS_PREFIX\") + \"/ppttemplate.pot\"));",
+        "7": "import java.io.*;"
+      },
+      "id": 17535734,
+      "filename": "Export_PPT.java"
+    },
+    {
+      "repo": "https://github.com/cheft/fast-reader.git",
+      "language": "Java",
+      "linescount": 288,
+      "location": "/reader-server/src/com/topway/reader/server/lucene",
+      "name": "fast-reader",
+      "url": "https://searchcode.com/codesearch/view/94960725/",
+      "md5hash": "8e716c0d4bbe4c605731725e169386b5",
+      "lines": {
+        "19": "import org.apache.poi.POIXMLDocument;",
+        "20": "import org.apache.poi.hslf.HSLFSlideShow;",
+        "222": "\t\t\tfis = new FileInputStream(ppt);",
+        "223": "\t\t\tSlideShow ss = new SlideShow(new HSLFSlideShow(fis));"
+      },
+      "id": 94960725,
+      "filename": "IndexFiles.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 2,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

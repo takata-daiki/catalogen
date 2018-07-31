@@ -1,0 +1,129 @@
+{
+  "matchterm": "HSSFPolygon",
+  "previouspage": null,
+  "searchterm": "HSSFPolygon",
+  "query": "HSSFPolygon",
+  "language_filters": [
+    {
+      "count": 6,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 6,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 106,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642328/",
+      "md5hash": "55ca1e15d1fecace7292ce779ce4d32e",
+      "lines": {
+        "52": "",
+        "44": " */",
+        "45": "public class HSSFPolygon",
+        "53": "    HSSFPolygon( HSSFShape parent, HSSFAnchor anchor )"
+      },
+      "id": 15642328,
+      "filename": "HSSFPolygon.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 204,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642300/",
+      "md5hash": "e2d5d76c6a10bbbf99c420548d2f8688",
+      "lines": {
+        "113": "     */",
+        "114": "    public HSSFPolygon createPolygon(HSSFChildAnchor anchor)",
+        "115": "    {",
+        "116": "        HSSFPolygon shape = new HSSFPolygon(this, anchor);"
+      },
+      "id": 15642300,
+      "filename": "HSSFShapeGroup.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 232,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642333/",
+      "md5hash": "15cf21df230a2e5bafaf6da9ba3a0dc3",
+      "lines": {
+        "128": "    public HSSFPolygon createPolygon(HSSFClientAnchor anchor)",
+        "129": "    {",
+        "130": "        HSSFPolygon shape = new HSSFPolygon(null, anchor);",
+        "127": "     */"
+      },
+      "id": 15642333,
+      "filename": "HSSFPatriarch.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 184,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642360/",
+      "md5hash": "568f42341c2f49cf457f7336fcfb066f",
+      "lines": {
+        "49": "import loci.poi.hssf.usermodel.HSSFShape;",
+        "50": "import loci.poi.hssf.usermodel.HSSFPolygon;",
+        "67": "    PolygonShape( HSSFPolygon hssfShape, int shapeId )",
+        "76": "     */",
+        "66": "     */",
+        "77": "    private EscherContainerRecord createSpContainer( HSSFPolygon hssfShape, int shapeId )"
+      },
+      "id": 15642360,
+      "filename": "PolygonShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 531,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642323/",
+      "md5hash": "90bc5f20331e7dcb9050bcbf7dd0d9c3",
+      "lines": {
+        "256": "        int top    = findSmallest(yPoints);",
+        "257": "        HSSFPolygon shape = escherGroup.createPolygon(new HSSFChildAnchor(left,top,right,bottom) );",
+        "402": "        HSSFPolygon shape = escherGroup.createPolygon(new HSSFChildAnchor(left,top,right,bottom) );",
+        "401": "        int top    = findSmallest(yPoints);"
+      },
+      "id": 15642323,
+      "filename": "EscherGraphics.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 174,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642354/",
+      "md5hash": "4b8479a67e34a342cfde58c7278efb63",
+      "lines": {
+        "72": "            shape = new PolygonShape( (HSSFPolygon) hssfShape, shapeId );",
+        "69": "        }",
+        "70": "        else if (hssfShape instanceof HSSFPolygon)",
+        "71": "        {"
+      },
+      "id": 15642354,
+      "filename": "AbstractShape.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 6,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "matchterm": "XSLFFreeformShape",
+  "previouspage": null,
+  "searchterm": "XSLFFreeformShape",
+  "query": "XSLFFreeformShape",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 111,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406826/",
+      "md5hash": "88f503638871e547730cf002e54b3503",
+      "lines": {
+        "64": "        XSLFFreeformShape shape = new XSLFFreeformShape(sp, _sheet);",
+        "65": "        shape.setAnchor(new Rectangle());",
+        "60": "",
+        "61": "    public XSLFFreeformShape createFreeform(){",
+        "62": "        CTShape sp = _spTree.addNewSp();",
+        "63": "        sp.set(XSLFFreeformShape.prototype(_shapeId++));"
+      },
+      "id": 97406826,
+      "filename": "XSLFDrawing.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 351,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406700/",
+      "md5hash": "7ac71aab113fccf906b12580ebb695aa",
+      "lines": {
+        "216": "    public XSLFFreeformShape createFreeform(){",
+        "217": "        XSLFFreeformShape sh = getDrawing().createFreeform();",
+        "218": "        _shapes.add(sh);",
+        "215": ""
+      },
+      "id": 97406700,
+      "filename": "XSLFGroupShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 555,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406768/",
+      "md5hash": "06c77456c926d8545168347abe70a1d6",
+      "lines": {
+        "152": "",
+        "153": "    public XSLFFreeformShape createFreeform(){",
+        "154": "        List<XSLFShape> shapes = getShapeList();",
+        "155": "        XSLFFreeformShape sh = getDrawing().createFreeform();"
+      },
+      "id": 97406768,
+      "filename": "XSLFSheet.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

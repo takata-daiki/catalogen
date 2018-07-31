@@ -1,0 +1,133 @@
+{
+  "matchterm": "RawDataBlockList",
+  "previouspage": null,
+  "searchterm": "RawDataBlockList",
+  "query": "RawDataBlockList",
+  "language_filters": [
+    {
+      "count": 6,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 6,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 100,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642262/",
+      "md5hash": "f04d81fb6076689a6e02ea86f898d133",
+      "lines": {
+        "97": "",
+        "98": "}   // end public class RawDataBlockList",
+        "69": "",
+        "70": "    public RawDataBlockList(final RandomAccessInputStream stream, int size)",
+        "55": "",
+        "56": "public class RawDataBlockList",
+        "61": "    /**",
+        "62": "     * Constructor RawDataBlockList"
+      },
+      "id": 15642262,
+      "filename": "RawDataBlockList.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 615,
+      "location": "/ppt/poi/org/apache/poi/poifs/filesystem",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97397929/",
+      "md5hash": "5083d727a84f9c004bece7393d2ae9b8",
+      "lines": {
+        "48": "import org.apache.poi.poifs.storage.HeaderBlockWriter;",
+        "49": "import org.apache.poi.poifs.storage.RawDataBlockList;",
+        "135": "        HeaderBlock header_block;",
+        "136": "        RawDataBlockList data_blocks;",
+        "142": "            // read the rest of the stream into blocks",
+        "143": "            data_blocks = new RawDataBlockList(stream, bigBlockSize);"
+      },
+      "id": 97397929,
+      "filename": "POIFSFileSystem.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 522,
+      "location": "/components/forks/poi/src/loci/poi/poifs/filesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642276/",
+      "md5hash": "821ddc8beda41ba4d7ad809592451995",
+      "lines": {
+        "64": "import loci.poi.poifs.storage.RawDataBlockList;",
+        "117": "        // read the rest of the stream into blocks",
+        "118": "        RawDataBlockList  data_blocks         = new RawDataBlockList(stream,",
+        "63": "import loci.poi.poifs.storage.RawDataBlock;"
+      },
+      "id": 15642276,
+      "filename": "POIFSFileSystem.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 360,
+      "location": "/components/forks/poi/src/loci/poi/poifs/eventfilesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642289/",
+      "md5hash": "0574f17f0841331cab62f67868201274",
+      "lines": {
+        "112": "          new RawDataBlockList(stream, size);",
+        "113": "",
+        "58": "import loci.poi.poifs.storage.HeaderBlockReader;",
+        "59": "import loci.poi.poifs.storage.RawDataBlockList;",
+        "110": "        // read the rest of the stream into blocks",
+        "111": "        RawDataBlockList  data_blocks         ="
+      },
+      "id": 15642289,
+      "filename": "POIFSReader.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 268,
+      "location": "/components/forks/poi/src/loci/poi/poifs/property",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642249/",
+      "md5hash": "ec58a14799afd1ed760c28ac77bdf126",
+      "lines": {
+        "96": "                         final RawDataBlockList blockList)",
+        "53": "import loci.poi.poifs.storage.RawDataBlock;",
+        "54": "import loci.poi.poifs.storage.RawDataBlockList;",
+        "95": "    public PropertyTable(final int startBlock,"
+      },
+      "id": 15642249,
+      "filename": "PropertyTable.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 89,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642261/",
+      "md5hash": "70932af53b1cc0cdcf8b29fde4787bce",
+      "lines": {
+        "74": "    public static BlockList getSmallDocumentBlocks(",
+        "75": "            final RawDataBlockList blockList, final RootProperty root,"
+      },
+      "id": 15642261,
+      "filename": "SmallBlockTableReader.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 6,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

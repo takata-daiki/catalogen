@@ -1,0 +1,503 @@
+{
+  "matchterm": "SSTRecord",
+  "previouspage": null,
+  "searchterm": "SSTRecord",
+  "query": "SSTRecord",
+  "language_filters": [
+    {
+      "count": 46,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 46,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 479,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642381/",
+      "md5hash": "b6468b53ac2bca46a92a3e5f8c327ab0",
+      "lines": {
+        "64": "",
+        "65": "public class SSTRecord",
+        "452": "     */",
+        "453": "    public ExtSSTRecord createExtSSTRecord(int sstOffset)",
+        "457": "",
+        "458": "        ExtSSTRecord extSST = new ExtSSTRecord();",
+        "429": "    {",
+        "430": "        SSTRecordSizeCalculator calculator = new SSTRecordSizeCalculator(field_3_strings);",
+        "272": "        }",
+        "273": "        SSTRecord other = (SSTRecord) o;",
+        "51": " * <P>",
+        "52": " * Description:  This holds all the strings for LabelSSTRecords.",
+        "473": "     */",
+        "474": "    public int calcExtSSTRecordSize()",
+        "475": "    {",
+        "60": " *",
+        "61": " * @see loci.poi.hssf.record.LabelSSTRecord"
+      },
+      "id": 15642381,
+      "filename": "SSTRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 167,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260293/",
+      "md5hash": "142ed2b437ba94510deaccde0c2fcd3c",
+      "lines": {
+        "32": " */",
+        "33": "class SSTRecord extends WritableRecordData",
+        "72": "   */",
+        "73": "  public SSTRecord(int numRefs, int s)"
+      },
+      "id": 43260293,
+      "filename": "SSTRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 432,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260397/",
+      "md5hash": "d65c5f993d2e114a93d621848aa517a8",
+      "lines": {
+        "32": "class SSTRecord extends RecordData",
+        "80": "  public SSTRecord(Record t, Record[] continuations, WorkbookSettings ws)",
+        "79": "   */",
+        "31": " */"
+      },
+      "id": 43260397,
+      "filename": "SSTRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 167,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200821/",
+      "md5hash": "142ed2b437ba94510deaccde0c2fcd3c",
+      "lines": {
+        "32": " */",
+        "33": "class SSTRecord extends WritableRecordData",
+        "72": "   */",
+        "73": "  public SSTRecord(int numRefs, int s)"
+      },
+      "id": 49200821,
+      "filename": "SSTRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 432,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200925/",
+      "md5hash": "d65c5f993d2e114a93d621848aa517a8",
+      "lines": {
+        "32": "class SSTRecord extends RecordData",
+        "80": "  public SSTRecord(Record t, Record[] continuations, WorkbookSettings ws)",
+        "79": "   */",
+        "31": " */"
+      },
+      "id": 49200925,
+      "filename": "SSTRecord.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 432,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/read/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374397/",
+      "md5hash": "d65c5f993d2e114a93d621848aa517a8",
+      "lines": {
+        "32": "class SSTRecord extends RecordData",
+        "80": "  public SSTRecord(Record t, Record[] continuations, WorkbookSettings ws)",
+        "79": "   */",
+        "31": " */"
+      },
+      "id": 11374397,
+      "filename": "SSTRecord.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 167,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/write/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374528/",
+      "md5hash": "ee2307a39a070f4ec639e28b31e27702",
+      "lines": {
+        "32": " */",
+        "33": "class SSTRecord extends WritableRecordData",
+        "72": "   */",
+        "73": "  public SSTRecord(int numRefs, int s)"
+      },
+      "id": 11374528,
+      "filename": "SSTRecord.java"
+    },
+    {
+      "repo": "http://brainstream.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 432,
+      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/read/biff",
+      "name": "brainstream",
+      "url": "https://searchcode.com/codesearch/view/13919574/",
+      "md5hash": "f38768739f85de33bcac1e1b7b9dd3f6",
+      "lines": {
+        "32": "class SSTRecord extends RecordData",
+        "80": "  public SSTRecord(Record t, Record[] continuations, WorkbookSettings ws)",
+        "79": "   */",
+        "31": " */"
+      },
+      "id": 13919574,
+      "filename": "SSTRecord.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 595,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785559/",
+      "md5hash": "6b55090236799f49ee0f5bd7d54bbbac",
+      "lines": {
+        "360": "                break;",
+        "260": "                hssfRequest.addListener(formatListener, BoundSheetRecord.sid);",
+        "261": "                hssfRequest.addListener(formatListener, SSTRecord.sid);",
+        "358": "            case SSTRecord.sid: // holds all the strings for LabelSSTRecords",
+        "263": "                hssfRequest.addListener(formatListener, LabelRecord.sid);",
+        "264": "                hssfRequest.addListener(formatListener, LabelSSTRecord.sid);",
+        "359": "                sstRecord = (SSTRecord) record;",
+        "177": "",
+        "178": "        private SSTRecord sstRecord;",
+        "371": "",
+        "372": "            case LabelSSTRecord.sid: // Ref. a string in the shared string table",
+        "373": "                LabelSSTRecord sst = (LabelSSTRecord) record;",
+        "374": "                UnicodeString unicode = sstRecord.getString(sst.getSSTIndex());",
+        "375": "                addTextCell(record, unicode.getString());",
+        "357": ""
+      },
+      "id": 111785559,
+      "filename": "ExcelExtractor.java"
+    },
+    {
+      "repo": "https://github.com/xiezhaohui/DataViewer.git",
+      "language": "Java",
+      "linescount": 304,
+      "location": "/ETL/src/com/util",
+      "name": "DataViewer",
+      "url": "https://searchcode.com/codesearch/view/68613461/",
+      "md5hash": "8bd64dddea629578a6d8e6f976c7b348",
+      "lines": {
+        "214": "\t\t\tthisColumn = lsrec.getColumn();",
+        "211": "\t\t\tLabelSSTRecord lsrec = (LabelSSTRecord) record;",
+        "209": "\t\t\tbreak;",
+        "215": "\t\t\tif (sstRecord == null) {",
+        "210": "\t\tcase LabelSSTRecord.sid:",
+        "24": "import org.apache.poi.hssf.record.LabelRecord;",
+        "50": "\t// Records we pick up as we process",
+        "51": "\tprivate SSTRecord sstRecord;",
+        "212": "",
+        "149": "",
+        "150": "\t\tcase SSTRecord.sid:",
+        "151": "\t\t\tsstRecord = (SSTRecord) record;",
+        "152": "\t\t\tbreak;",
+        "25": "import org.apache.poi.hssf.record.LabelSSTRecord;",
+        "217": "\t\t\t} else {",
+        "218": "\t\t\t\tvalue =  sstRecord"
+      },
+      "id": 68613461,
+      "filename": "HxlsAbstract.java"
+    },
+    {
+      "repo": "https://github.com/kissys/es.git",
+      "language": "Java",
+      "linescount": 117,
+      "location": "/web/src/main/java/com/sishuok/es/showcase/excel/service",
+      "name": "es",
+      "url": "https://searchcode.com/codesearch/view/92669296/",
+      "md5hash": "ae59df26890bbbe2087f556c2c4c51ca",
+      "lines": {
+        "80": "",
+        "81": "                } else if(record instanceof LabelSSTRecord) {",
+        "82": "                    //\u89e3\u6790\u4e00\u4e2aString\u7c7b\u578b\u7684\u5355\u5143\u683c\u503c\uff08\u5b58\u50a8\u5728SSTRecord\uff09",
+        "83": "                    LabelSSTRecord lrec = (LabelSSTRecord) record;",
+        "84": "",
+        "23": "    int totalSize = 0; //\u603b\u5927\u5c0f",
+        "24": "    private SSTRecord sstrec;",
+        "57": "                break;",
+        "58": "            case SSTRecord.sid:",
+        "59": "                // SSTRecords\u5b58\u50a8\u4e86\u5728Excel\u4e2d\u4f7f\u7528\u7684\u6240\u6709\u552f\u4e00String\u7684\u6570\u7ec4",
+        "60": "                sstrec = (SSTRecord) record;",
+        "61": "                break;",
+        "62": "            case NumberRecord.sid:",
+        "63": "            case LabelSSTRecord.sid:"
+      },
+      "id": 92669296,
+      "filename": "Excel2003ImportListener.java"
+    },
+    {
+      "repo": "https://git.gitorious.org/yacy/rc1.git",
+      "language": "Java",
+      "linescount": 183,
+      "location": "/source/net/yacy/document/parser",
+      "name": "yacy",
+      "url": "https://searchcode.com/codesearch/view/62351863/",
+      "md5hash": "906975e8bac9b8ac7a3bea4d738e46c3",
+      "lines": {
+        "160": "                    for (int k = 0; k < sstrec.getNumUniqueStrings(); k++){",
+        "168": "                /*",
+        "169": "                case LabelSSTRecord.sid: {",
+        "170": "                    final LabelSSTRecord lsrec = (LabelSSTRecord)record;",
+        "171": "                    sbFoundStrings.append( sstrec.getString(lsrec.getSSTIndex()) );",
+        "44": "import org.apache.poi.hssf.record.Record;",
+        "45": "import org.apache.poi.hssf.record.SSTRecord;",
+        "149": "        public void processRecord(final Record record) {",
+        "150": "            SSTRecord sstrec = null;",
+        "157": "                //unique string records",
+        "158": "                case SSTRecord.sid: {",
+        "159": "                    sstrec = (SSTRecord) record;"
+      },
+      "id": 62351863,
+      "filename": "xlsParser.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 2351,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642358/",
+      "md5hash": "2f47d8e4aa73ffbba0d056d2a6f68eee",
+      "lines": {
+        "779": "",
+        "780": "        SSTRecord sst = null;",
+        "176": "",
+        "177": "                case SSTRecord.sid :",
+        "691": "     *",
+        "692": "     * @param string the string to be added to the SSTRecord",
+        "693": "     *",
+        "790": "                int len = 0; ",
+        "791": "                if (record instanceof SSTRecord)",
+        "792": "                {",
+        "793": "                    sst = (SSTRecord)record;",
+        "795": "                }",
+        "796": "                if (record.getSid() == ExtSSTRecord.sid && sst != null)",
+        "797": "                {",
+        "798": "                    record = sst.createExtSSTRecord(sstPos + offset);"
+      },
+      "id": 15642358,
+      "filename": "Workbook.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 956,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642397/",
+      "md5hash": "8126528f53897a35370bb2189a0d623e",
+      "lines": {
+        "843": "              stats.remainingSize = SSTRecord.MAX_RECORD_SIZE-4;",
+        "814": "            //Reset the available space.",
+        "714": "      public int recordSize;",
+        "715": "      public int remainingSize = SSTRecord.MAX_RECORD_SIZE;",
+        "749": "            //Reset the available space.",
+        "750": "            stats.remainingSize = SSTRecord.MAX_RECORD_SIZE-4;",
+        "525": "        stats.recordSize += 4;",
+        "722": "         stats.recordSize += 4;",
+        "723": "         stats.remainingSize = SSTRecord.MAX_RECORD_SIZE-4;",
+        "526": "        stats.remainingSize = SSTRecord.MAX_RECORD_SIZE-4;",
+        "791": "            //Reset the available space.",
+        "792": "            stats.remainingSize = SSTRecord.MAX_RECORD_SIZE-4;",
+        "815": "            stats.remainingSize = SSTRecord.MAX_RECORD_SIZE-4;",
+        "842": "              //Reset the available space.",
+        "734": "            //Reset the available space.",
+        "735": "            stats.remainingSize = SSTRecord.MAX_RECORD_SIZE-4;"
+      },
+      "id": 15642397,
+      "filename": "UnicodeString.java"
+    },
+    {
+      "repo": "http://tongue-tied.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 272,
+      "location": "/Application/src/org/tonguetied/datatransfer/importing",
+      "name": "tongue-tied",
+      "url": "https://searchcode.com/codesearch/view/12440040/",
+      "md5hash": "36824ce7c3465bd19ea0572a1c46eb9f",
+      "lines": {
+        "149": "                    break;",
+        "150": "                case LabelSSTRecord.sid:",
+        "139": "                    break;",
+        "140": "                case SSTRecord.sid:",
+        "141": "                    if (!(record instanceof SSTRecord))",
+        "142": "                        throw new ImportException(\"unknown excel element\", null);",
+        "143": "                    // SSTRecords store a array of unique strings used in Excel.",
+        "144": "                    sstrec = (SSTRecord) record;",
+        "145": "                    if (logger.isDebugEnabled()) {",
+        "242": "     */",
+        "243": "    private void evaluateRowType(final LabelSSTRecord lrec)",
+        "53": "{",
+        "54": "    private SSTRecord sstrec;",
+        "151": "                    if (!(record instanceof LabelSSTRecord))",
+        "30": "import org.apache.poi.hssf.record.RowRecord;",
+        "31": "import org.apache.poi.hssf.record.SSTRecord;"
+      },
+      "id": 12440040,
+      "filename": "ExcelKeywordParser.java"
+    },
+    {
+      "repo": "http://tongue-tied.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 290,
+      "location": "/Application/src/org/tonguetied/datatransfer/importing",
+      "name": "tongue-tied",
+      "url": "https://searchcode.com/codesearch/view/12440043/",
+      "md5hash": "2e7f25beef84ca85f6e7d3970ce4c69a",
+      "lines": {
+        "236": "     */",
+        "139": "                    break;",
+        "140": "                case SSTRecord.sid:",
+        "141": "                    if (!(record instanceof SSTRecord))",
+        "142": "                        throw new ImportException(\"unknown excel element\", null);",
+        "143": "                    // SSTRecords store a array of unique strings used in Excel.",
+        "144": "                    sstrec = (SSTRecord) record;",
+        "145": "                    if (logger.isDebugEnabled()) {",
+        "237": "    private void processHeader(LabelSSTRecord lrec)",
+        "149": "                    break;",
+        "150": "                case LabelSSTRecord.sid:",
+        "151": "                    if (!(record instanceof LabelSSTRecord))",
+        "152": "                        throw new ImportException(\"unknown excel element\", null);",
+        "153": "                    final LabelSSTRecord lrec = (LabelSSTRecord) record;",
+        "29": "import org.apache.poi.hssf.record.RowRecord;",
+        "30": "import org.apache.poi.hssf.record.SSTRecord;"
+      },
+      "id": 12440043,
+      "filename": "ExcelLanguageCentricParser.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1445,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642316/",
+      "md5hash": "4f7b036daf89776dc4ee4606b7972144",
+      "lines": {
+        "324": "                 records.remove(k);",
+        "325": "                 LabelSSTRecord newrec   = new LabelSSTRecord();",
+        "1224": "    {",
+        "1225": "        int loc = workbook.findFirstRecordLocBySid(SSTRecord.sid);",
+        "236": "",
+        "237": "        // convert all LabelRecord records to LabelSSTRecord",
+        "302": "      * to the Workbook object.  All labels will be converted to LabelSST records and their",
+        "303": "      * contained strings will be written to the Shared String tabel (SSTRecord) within",
+        "305": "      *",
+        "306": "      * @param wb sheet's matching low level Workbook structure containing the SSTRecord.",
+        "307": "      * @see loci.poi.hssf.record.LabelRecord",
+        "308": "      * @see loci.poi.hssf.record.LabelSSTRecord",
+        "309": "      * @see loci.poi.hssf.record.SSTRecord",
+        "310": "      */"
+      },
+      "id": 15642316,
+      "filename": "HSSFWorkbook.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 315,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642468/",
+      "md5hash": "1ff21c19ff716e85c4d0ac81092c36fd",
+      "lines": {
+        "160": "     * @return index of string in the SST Table",
+        "161": "     * @see loci.poi.hssf.record.SSTRecord",
+        "66": "",
+        "67": "    public LabelSSTRecord()",
+        "75": "",
+        "76": "    public LabelSSTRecord(RecordInputStream in)",
+        "157": "    /**",
+        "306": "    public Object clone() {",
+        "307": "      LabelSSTRecord rec = new LabelSSTRecord();",
+        "158": "     * get the index to the string in the SSTRecord",
+        "55": "",
+        "56": "public class LabelSSTRecord",
+        "122": "    /**",
+        "123": "     * set the index to the string in the SSTRecord",
+        "125": "     * @param index - of string in the SST Table",
+        "126": "     * @see loci.poi.hssf.record.SSTRecord"
+      },
+      "id": 15642468,
+      "filename": "LabelSSTRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 188,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260288/",
+      "md5hash": "b5f45503d3593af3f6061a777ec24c30",
+      "lines": {
+        "104": "    String curString = null;",
+        "105": "    SSTRecord sst = new SSTRecord(totalOccurrences, stringList.size());",
+        "106": "    ExtendedSSTRecord extsst = new ExtendedSSTRecord(stringList.size());",
+        "107": "    int bucketSize = extsst.getNumberOfStringsPerBucket();"
+      },
+      "id": 43260288,
+      "filename": "SharedStrings.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 1236,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260380/",
+      "md5hash": "f211fcbcd99d5395a88da8a66147af91",
+      "lines": {
+        "80": "  private SSTRecord sharedStrings;",
+        "577": "",
+        "578": "        sharedStrings = new SSTRecord(r, records, settings);",
+        "79": "   */"
+      },
+      "id": 43260380,
+      "filename": "WorkbookParser.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 19,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 14,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 12,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 1,
+      "source": "Gitorious",
+      "id": 10
+    }
+  ]
+}

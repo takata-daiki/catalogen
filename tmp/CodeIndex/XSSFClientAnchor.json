@@ -1,0 +1,183 @@
+{
+  "matchterm": "XSSFClientAnchor",
+  "previouspage": null,
+  "searchterm": "XSSFClientAnchor",
+  "query": "XSSFClientAnchor",
+  "language_filters": [
+    {
+      "count": 9,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 9,
+  "results": [
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 130,
+      "location": "/zss/src/org/zkoss/zss/ui/au/in",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/9943405/",
+      "md5hash": "060d17eaadfdb484cedbbe91480cf609",
+      "lines": {
+        "116": "\t\t\tRanges.range(sheet).movePicture(pic, ",
+        "117": "\t\t\t\t\tnew XSSFClientAnchor(pxToEmu(dx1), pxToEmu(dy1), pxToEmu(dx2), pxToEmu(dy2), col1, row1, col2, row2));",
+        "25": "import org.zkoss.poi.ss.usermodel.ZssChartX;",
+        "26": "import org.zkoss.poi.xssf.usermodel.XSSFClientAnchor;",
+        "91": "\t\t\tRanges.range(sheet).moveChart(chart, ",
+        "92": "\t\t\t\t\tnew XSSFClientAnchor(pxToEmu(dx1), pxToEmu(dy1), pxToEmu(dx2), pxToEmu(dy2), col1, row1, col2, row2));"
+      },
+      "id": 9943405,
+      "filename": "MoveWidgetCommand.java"
+    },
+    {
+      "repo": "https://github.com/nic9805/jeecg.git",
+      "language": "Java",
+      "linescount": 278,
+      "location": "/jeecg-framework/src/main/java/org/jeecgframework/poi/excel",
+      "name": "jeecg",
+      "url": "https://searchcode.com/codesearch/view/93182055/",
+      "md5hash": "87019a72d8e02af505e4e1e5b6ac2ed2",
+      "lines": {
+        "267": "                    XSSFClientAnchor anchor = pic.getPreferredSize();  ",
+        "18": "import org.apache.poi.ss.usermodel.PictureData;",
+        "19": "import org.apache.poi.xssf.usermodel.XSSFClientAnchor;",
+        "266": "                    XSSFPicture pic = (XSSFPicture) shape;  "
+      },
+      "id": 93182055,
+      "filename": "ExcelPublicUtil.java"
+    },
+    {
+      "repo": "https://github.com/nic9805/jeecg.git",
+      "language": "Java",
+      "linescount": 683,
+      "location": "/jeecg-framework/src/main/java/org/jeecgframework/poi/excel",
+      "name": "jeecg",
+      "url": "https://searchcode.com/codesearch/view/93182060/",
+      "md5hash": "b78eb08bb9239a55be46aa2e9bb49fc7",
+      "lines": {
+        "454": "\t\t\t\t\tnew XSSFClientAnchor(0, 0, 0, 0, (short) i,",
+        "37": "import org.apache.poi.ss.util.CellRangeAddress;",
+        "38": "import org.apache.poi.xssf.usermodel.XSSFClientAnchor;",
+        "453": "\t\t\t\trow.getRowNum(), (short) (i + 1), row.getRowNum() + 1):"
+      },
+      "id": 93182060,
+      "filename": "ExcelExportOfTemplateUtil.java"
+    },
+    {
+      "repo": "https://github.com/NYWONG/jeesite.git",
+      "language": "Java",
+      "linescount": 480,
+      "location": "/src/main/java/com/thinkgem/jeesite/common/utils/excel",
+      "name": "jeesite",
+      "url": "https://searchcode.com/codesearch/view/94198681/",
+      "md5hash": "a8b063efb7da29b002144dd525c07611",
+      "lines": {
+        "217": "\t\t\t\tComment comment = this.sheet.createDrawingPatriarch().createCellComment(",
+        "34": "import org.apache.poi.xssf.streaming.SXSSFWorkbook;",
+        "35": "import org.apache.poi.xssf.usermodel.XSSFClientAnchor;",
+        "218": "\t\t\t\t\t\tnew XSSFClientAnchor(0, 0, 0, 0, (short) 3, 3, (short) 5, 6));"
+      },
+      "id": 94198681,
+      "filename": "ExportExcel.java"
+    },
+    {
+      "repo": "http://zkbooks.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 53,
+      "location": "/zssessentials/examples/src/org/zkoss/zssessentials/config",
+      "name": "zkbooks",
+      "url": "https://searchcode.com/codesearch/view/3016368/",
+      "md5hash": "e0bfc154a7bec58daa56a79bc1a77741",
+      "lines": {
+        "42": "\t\t",
+        "43": "\t\tClientAnchor anchor = new XSSFClientAnchor(0, 0, 0, 0, 2, 1, 7, 11); //C2:H12",
+        "21": "import org.zkoss.poi.ss.util.CellRangeAddress;",
+        "22": "import org.zkoss.poi.xssf.usermodel.XSSFClientAnchor;"
+      },
+      "id": 3016368,
+      "filename": "AddChartComposer.java"
+    },
+    {
+      "repo": "http://zkbooks.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 44,
+      "location": "/zssessentials/examples/src/org/zkoss/zssessentials/config",
+      "name": "zkbooks",
+      "url": "https://searchcode.com/codesearch/view/3016370/",
+      "md5hash": "c5b19f840399255157bb8a149da172c6",
+      "lines": {
+        "39": "\t\tClientAnchor anchor = new XSSFClientAnchor(0, 0, 0, 0, 2, 1, 7, 11); //C2:H12",
+        "38": "\t\tRange rng = Ranges.range(sheet);",
+        "14": "import org.zkoss.poi.ss.usermodel.ClientAnchor;",
+        "15": "import org.zkoss.poi.xssf.usermodel.XSSFClientAnchor;"
+      },
+      "id": 3016370,
+      "filename": "AddPictureComposer.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 901,
+      "location": "/zssapp/src/org/zkoss/zss/app/zul/ctrl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969919/",
+      "md5hash": "bdbdf1bb1552c1054249a5c09e2e03e1",
+      "lines": {
+        "40": "import org.zkoss.poi.xssf.usermodel.XSSFClientAnchor;",
+        "888": "\t\t}",
+        "889": "\t\tClientAnchor anchor = new XSSFClientAnchor(0, 0, pxToEmu(offsetWidth), pxToEmu(offsetHeight), lCol, tRow, rCol, bRow);",
+        "39": "import org.zkoss.poi.ss.util.CellRangeAddress;"
+      },
+      "id": 3969919,
+      "filename": "SSWorkbookCtrl.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 2379,
+      "location": "/zss/src/org/zkoss/zss/ui/sys",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/9943391/",
+      "md5hash": "03237e3b9ac4667bc4fcef2a9d8cebb2",
+      "lines": {
+        "2328": "\t\t} else {",
+        "2329": "\t\t\treturn new XSSFClientAnchor(0, 0, pxToEmu(offsetWidth), pxToEmu(offsetHeight), lCol, tRow, rCol, bRow);",
+        "46": "import org.zkoss.poi.ss.util.CellRangeAddress;",
+        "47": "import org.zkoss.poi.xssf.usermodel.XSSFClientAnchor;"
+      },
+      "id": 9943391,
+      "filename": "ActionHandler.java"
+    },
+    {
+      "repo": "http://zkbooks.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 46,
+      "location": "/zssessentials/examples/src/org/zkoss/zssessentials/config",
+      "name": "zkbooks",
+      "url": "https://searchcode.com/codesearch/view/3016364/",
+      "md5hash": "11c7a28cc68d52ad8caf2082c15f893e",
+      "lines": {
+        "16": "import org.zkoss.poi.xssf.usermodel.XSSFClientAnchor;",
+        "15": "import org.zkoss.poi.ss.usermodel.Picture;"
+      },
+      "id": 3016364,
+      "filename": "MovePictureComposer.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 6,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

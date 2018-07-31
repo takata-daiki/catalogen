@@ -1,0 +1,99 @@
+{
+  "matchterm": "WordToHtmlConverter",
+  "previouspage": null,
+  "searchterm": "WordToHtmlConverter",
+  "query": "WordToHtmlConverter",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 747,
+      "location": "/src/org/apache/poi/hwpf/converter",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383966/",
+      "md5hash": "26fefb68f3e9024bc39626c516856a5c",
+      "lines": {
+        "64": "public class WordToHtmlConverter extends AbstractWordConverter",
+        "161": "                        .newDocument() );",
+        "162": "        wordToHtmlConverter.processDocument( wordDocument );",
+        "163": "        return wordToHtmlConverter.getDocument();",
+        "164": "    }",
+        "134": "        {",
+        "135": "            Document doc = WordToHtmlConverter.process( new File( args[0] ) );",
+        "172": "    /**",
+        "173": "     * Creates new instance of {@link WordToHtmlConverter}. Can be used for",
+        "178": "     */",
+        "179": "    public WordToHtmlConverter( Document document )",
+        "183": "",
+        "184": "    public WordToHtmlConverter( HtmlDocumentFacade htmlDocumentFacade )",
+        "63": "@Beta",
+        "158": "        final HWPFDocumentCore wordDocument = WordToHtmlUtils.loadDoc( docFile );",
+        "159": "        WordToHtmlConverter wordToHtmlConverter = new WordToHtmlConverter("
+      },
+      "id": 97383966,
+      "filename": "WordToHtmlConverter.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 153,
+      "location": "/src/com/vizhen/poihelper",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383050/",
+      "md5hash": "2146decd030993d210db0e145cf1a024",
+      "lines": {
+        "66": "            Document newDocument = DocumentBuilderFactory.newInstance().newDocumentBuilder().newDocument();",
+        "67": "            WordToHtmlConverter wordToHtmlConverter = new WordToHtmlConverter(newDocument);",
+        "69": "            ",
+        "70": "            Log.d(TAG, \"wordToHemlConverter:\" + wordToHtmlConverter);",
+        "71": "           ",
+        "72": "            wordToHtmlConverter.setPicturesManager(new PictureSaving());",
+        "73": "            wordToHtmlConverter.processDocument(hwpfDocument);",
+        "74": "            ",
+        "80": "            transformer.setOutputProperty(OutputKeys.METHOD, \"html\");",
+        "81": "            transformer.transform(new DOMSource(wordToHtmlConverter.getDocument()), new StreamResult(stringWriter));",
+        "23": "import org.apache.poi.hwpf.converter.PicturesManager;",
+        "24": "import org.apache.poi.hwpf.converter.WordToHtmlConverter;"
+      },
+      "id": 97383050,
+      "filename": "SimpleWord2Html.java"
+    },
+    {
+      "repo": "https://github.com/nic9805/jeecg.git",
+      "language": "Java",
+      "linescount": 489,
+      "location": "/jeecg-framework/src/main/java/org/jeecgframework/web/cgform/common",
+      "name": "jeecg",
+      "url": "https://searchcode.com/codesearch/view/93181874/",
+      "md5hash": "df0e5f290ffd002ce829af370ec001f9",
+      "lines": {
+        "97": "\t\tHWPFDocument wordDocument = new HWPFDocument(input);",
+        "98": "\t\tWordToHtmlConverter wordToHtmlConverter = new WordToHtmlConverter(DocumentBuilderFactory.newInstance().newDocumentBuilder().newDocument());",
+        "99": "\t\twordToHtmlConverter.processDocument(wordDocument);",
+        "20": "import org.apache.poi.hwpf.HWPFDocument;",
+        "21": "import org.apache.poi.hwpf.converter.WordToHtmlConverter;",
+        "100": "\t\tDocument htmlDocument = wordToHtmlConverter.getDocument();",
+        "101": "\t\tByteArrayOutputStream outStream = new ByteArrayOutputStream();"
+      },
+      "id": 93181874,
+      "filename": "OfficeHtmlUtil.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

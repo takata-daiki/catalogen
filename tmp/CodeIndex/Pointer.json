@@ -1,0 +1,523 @@
+{
+  "matchterm": "Pointer",
+  "previouspage": null,
+  "searchterm": "Pointer",
+  "query": "Pointer",
+  "language_filters": [
+    {
+      "count": 28011,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 28011,
+  "results": [
+    {
+      "repo": "https://github.com/zbyufei/Sirius.git",
+      "language": "Java",
+      "linescount": 84,
+      "location": "/sirius.java.client.win32/src/main/java/org/sirius/client/win32/core/types",
+      "name": "Sirius",
+      "url": "https://searchcode.com/codesearch/view/95964078/",
+      "md5hash": "02bf0625eeb0ba68fdfbec3dc6a18c7f",
+      "lines": {
+        "1": "/**",
+        "2": " * Pointer.java",
+        "48": "                                                                         Pointer.class,",
+        "9": "",
+        "10": "public class Pointer implements java.io.Serializable {",
+        "11": "    public Pointer() {",
+        "12": "    }",
+        "47": "    private static org.apache.axis.description.TypeDesc typeDesc = new org.apache.axis.description.TypeDesc(",
+        "16": "    public synchronized boolean equals(java.lang.Object obj) {",
+        "17": "        if (!(obj instanceof Pointer))",
+        "18": "            return false;",
+        "19": "        Pointer other = (Pointer) obj;",
+        "52": "        typeDesc.setXmlType(new javax.xml.namespace.QName(",
+        "53": "                \"http://classes.win32.server.sirius.org/\", \"pointer\"));"
+      },
+      "id": 95964078,
+      "filename": "Pointer.java"
+    },
+    {
+      "repo": "https://bitbucket.org/odekopoon/gmp-java",
+      "language": "Java",
+      "linescount": 48,
+      "location": "",
+      "name": "gmp-java",
+      "url": "https://searchcode.com/codesearch/view/103342918/",
+      "md5hash": "b565fa341cc25e6c1432ab4952b42c9d",
+      "lines": {
+        "1": "/* Pointer.java -- Pointer to VM specific data",
+        "2": "   Copyright (C) 1999, 2000, 2004  Free Software Foundation",
+        "44": "",
+        "45": "public abstract class Pointer"
+      },
+      "id": 103342918,
+      "filename": "Pointer.java"
+    },
+    {
+      "repo": "https://code.google.com/p/oscats/",
+      "language": "Java",
+      "linescount": 85,
+      "location": "/bindings/java/oscats/bindings",
+      "name": "oscats",
+      "url": "https://searchcode.com/codesearch/view/11644690/",
+      "md5hash": "811539a20d4a758d76413f65cabf8e55",
+      "lines": {
+        "32": " */",
+        "1": "/*",
+        "2": " * Pointer.java",
+        "33": "public abstract class Pointer",
+        "42": "     */",
+        "43": "    final long pointer;",
+        "45": "    /**",
+        "46": "     * Create a new proxy object with the specified address as its pointer.",
+        "15": " * A proxy object representing a native resource. Specifically, this is a",
+        "16": " * wrapper around a pointer.",
+        "26": "/*",
+        "27": " * And so the magic happens. This is where the pointer that this class proxies",
+        "28": " * is held. The JNI layer reaches up to this class and reads the pointer field",
+        "29": " * to get the address of the proxied GValue, etc. This is in its own library",
+        "30": " * as a means to keep the pointer handling isolated and cleanly installable."
+      },
+      "id": 11644690,
+      "filename": "Pointer.java"
+    },
+    {
+      "repo": "https://bitbucket.org/dfdeshom/gmp-java",
+      "language": "Java",
+      "linescount": 50,
+      "location": "/org/dfdeshom/math",
+      "name": "gmp-java",
+      "url": "https://searchcode.com/codesearch/view/64296582/",
+      "md5hash": "fee71423d6a0ddcf30bb0bb76be6b5e8",
+      "lines": {
+        "1": "/* Pointer.java -- Pointer to VM specific data",
+        "2": "   Copyright (C) 1999, 2000, 2004  Free Software Foundation",
+        "46": "",
+        "47": "public abstract class Pointer"
+      },
+      "id": 64296582,
+      "filename": "Pointer.java"
+    },
+    {
+      "repo": "https://bitbucket.org/lpimports/gcc.git",
+      "language": "Java",
+      "linescount": 48,
+      "location": "/libjava/classpath/gnu/classpath",
+      "name": "gcc",
+      "url": "https://searchcode.com/codesearch/view/127594802/",
+      "md5hash": "dda703da42fdf2e9dd2908f42b7146ee",
+      "lines": {
+        "1": "/* Pointer.java -- Pointer to VM specific data",
+        "2": "   Copyright (C) 1999, 2000, 2004  Free Software Foundation",
+        "44": "",
+        "45": "public abstract class Pointer"
+      },
+      "id": 127594802,
+      "filename": "Pointer.java"
+    },
+    {
+      "repo": "https://bitbucket.org/vaporoid/gcc.git",
+      "language": "Java",
+      "linescount": 48,
+      "location": "/libjava/classpath/gnu/classpath",
+      "name": "gcc",
+      "url": "https://searchcode.com/codesearch/view/130221663/",
+      "md5hash": "dda703da42fdf2e9dd2908f42b7146ee",
+      "lines": {
+        "1": "/* Pointer.java -- Pointer to VM specific data",
+        "2": "   Copyright (C) 1999, 2000, 2004  Free Software Foundation",
+        "44": "",
+        "45": "public abstract class Pointer"
+      },
+      "id": 130221663,
+      "filename": "Pointer.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tari/prizm-gcc.git",
+      "language": "Java",
+      "linescount": 48,
+      "location": "/libjava/classpath/gnu/classpath",
+      "name": "prizm-gcc",
+      "url": "https://searchcode.com/codesearch/view/37950467/",
+      "md5hash": "dda703da42fdf2e9dd2908f42b7146ee",
+      "lines": {
+        "1": "/* Pointer.java -- Pointer to VM specific data",
+        "2": "   Copyright (C) 1999, 2000, 2004  Free Software Foundation",
+        "44": "",
+        "45": "public abstract class Pointer"
+      },
+      "id": 37950467,
+      "filename": "Pointer.java"
+    },
+    {
+      "repo": "https://bitbucket.org/bluezoo/gcc.git",
+      "language": "Java",
+      "linescount": 48,
+      "location": "/libjava/classpath/gnu/classpath",
+      "name": "gcc",
+      "url": "https://searchcode.com/codesearch/view/46816104/",
+      "md5hash": "dda703da42fdf2e9dd2908f42b7146ee",
+      "lines": {
+        "1": "/* Pointer.java -- Pointer to VM specific data",
+        "2": "   Copyright (C) 1999, 2000, 2004  Free Software Foundation",
+        "44": "",
+        "45": "public abstract class Pointer"
+      },
+      "id": 46816104,
+      "filename": "Pointer.java"
+    },
+    {
+      "repo": "https://gpcp.svn.codeplex.com/svn",
+      "language": "Java",
+      "linescount": 57,
+      "location": "/J2CPS",
+      "name": "gpcp",
+      "url": "https://searchcode.com/codesearch/view/10183093/",
+      "md5hash": "19908c138fa77b0ad21cd1606fe51209",
+      "lines": {
+        "1": "/**********************************************************************/",
+        "2": "/*                Pointer Descriptor class for J2CPS                  */",
+        "19": "        name = \"POINTER TO \" + boundType.name; ",
+        "42": "  public void setName() {",
+        "43": "    name = \"POINTER TO \" + boundType.name;",
+        "18": "    if (boundType != null) { "
+      },
+      "id": 10183093,
+      "filename": "PtrDesc.java"
+    },
+    {
+      "repo": "https://bitbucket.org/Tien_Nguyen/lenskit",
+      "language": "Java",
+      "linescount": 59,
+      "location": "/lenskit-data-structures/src/main/java/org/grouplens/lenskit/collections",
+      "name": "lenskit",
+      "url": "https://searchcode.com/codesearch/view/76417566/",
+      "md5hash": "85d02a99e4bb2629681531752b578a20",
+      "lines": {
+        "34": " */",
+        "35": "public interface Pointer<E> {",
+        "36": "    /**",
+        "37": "     * Advance the pointer.",
+        "39": "     * @return {@code true} if the advancing yielded another element;",
+        "40": "     *         {@code false} if the pointer is at the end after advancing.",
+        "44": "    /**",
+        "45": "     * Get the current value of the pointer.",
+        "46": "     *",
+        "47": "     * @return The value at the pointer.",
+        "48": "     * @throws NoSuchElementException if the pointer is out-of-bounds.",
+        "49": "     */",
+        "52": "    /**",
+        "53": "     * Query whether the pointer has reached its endpoint.",
+        "54": "     *"
+      },
+      "id": 76417566,
+      "filename": "Pointer.java"
+    },
+    {
+      "repo": "https://github.com/sincera1286/TUIC.git",
+      "language": "Java",
+      "linescount": 145,
+      "location": "/TUIC-frequency-Android/FrequencyClickTime/src/com/cta",
+      "name": "TUIC",
+      "url": "https://searchcode.com/codesearch/view/71929692/",
+      "md5hash": "80ec0f35b1464d70aaf139f91a164fcb",
+      "lines": {
+        "96": "\t\t// FrequencyClickTime.cp.add(new Pointer(this));",
+        "33": "",
+        "34": "\tPointer(Pointer p) {",
+        "6": "",
+        "7": "public class Pointer {",
+        "140": "\t\t}",
+        "141": "\t\tFrequencyClickTime.cp.add(new Pointer(this));",
+        "24": "",
+        "55": "",
+        "56": "\tvoid setPoint(Pointer p) {",
+        "25": "\tPointer() {",
+        "95": "\t\t// clicked = false;"
+      },
+      "id": 71929692,
+      "filename": "Pointer.java"
+    },
+    {
+      "repo": "https://github.com/sincera1286/TUIC.git",
+      "language": "Java",
+      "linescount": 160,
+      "location": "/TUIC-frequency-Android/TUICFrequency/src/lab/tuci",
+      "name": "TUIC",
+      "url": "https://searchcode.com/codesearch/view/71929973/",
+      "md5hash": "0074da5dfcfed194081f240c3b3b17db",
+      "lines": {
+        "33": "",
+        "34": "\tPointer(Pointer p) {",
+        "6": "",
+        "7": "public class Pointer {",
+        "24": "",
+        "153": "\t\t}",
+        "55": "",
+        "56": "\tvoid setPoint(Pointer p) {",
+        "25": "\tPointer() {",
+        "154": "\t\tTUICFrequencyActivity.cp.add(new Pointer(this));",
+        "94": "\t\t\t// clicked = false;",
+        "95": "\t\t\t// TUICFrequencyActivity.cp.add(new Pointer(this));"
+      },
+      "id": 71929973,
+      "filename": "Pointer.java"
+    },
+    {
+      "repo": "https://github.com/sincera1286/TUIC.git",
+      "language": "Java",
+      "linescount": 71,
+      "location": "/TUIC-frequency-Android/FrequencyClickCount/src/com/mr",
+      "name": "TUIC",
+      "url": "https://searchcode.com/codesearch/view/71929839/",
+      "md5hash": "fd28ddf08cf4ac9453d933d9d39e91d3",
+      "lines": {
+        "68": "\t\tMyRowData.cp.add(new Pointer(this));",
+        "17": "",
+        "18": "\tPointer() {",
+        "3": "",
+        "4": "public class Pointer {",
+        "51": "\t\t\tclicked = false;",
+        "25": "",
+        "26": "\tPointer(Pointer p) {",
+        "67": "",
+        "52": "\t\t\tMyRowData.cp.add(new Pointer(this));"
+      },
+      "id": 71929839,
+      "filename": "Pointer.java"
+    },
+    {
+      "repo": "https://github.com/harrer/First.git",
+      "language": "Java",
+      "linescount": 20,
+      "location": "/suffixArray2",
+      "name": "First",
+      "url": "https://searchcode.com/codesearch/view/74486191/",
+      "md5hash": "e8d420cd37c2743d269a94277ceee6dd",
+      "lines": {
+        "2": "",
+        "3": "public class Pointer {",
+        "5": "\tprivate String sub;",
+        "6": "\tprivate int pointer;",
+        "7": "\t",
+        "8": "\tpublic Pointer(String s, int p){",
+        "9": "\t\tsub = s; pointer = p;",
+        "10": "\t}",
+        "15": "\t",
+        "16": "\tpublic int getPointer(){",
+        "17": "\t\treturn pointer;",
+        "18": "\t}"
+      },
+      "id": 74486191,
+      "filename": "Pointer.java"
+    },
+    {
+      "repo": "https://github.com/chrisa/jruby.git",
+      "language": "Java",
+      "linescount": 148,
+      "location": "/src/org/jruby/ext/ffi",
+      "name": "jruby",
+      "url": "https://searchcode.com/codesearch/view/106083624/",
+      "md5hash": "12618c51133b76ce07e7b1c31fd1cf1b",
+      "lines": {
+        "15": "/**",
+        "16": " * C memory pointer operations.",
+        "17": " * <p>",
+        "18": " * This is an abstract class that defines Pointer operations",
+        "20": " */",
+        "21": "@JRubyClass(name=\"FFI::Pointer\", parent=AbstractMemory.ABSTRACT_MEMORY_RUBY_CLASS)",
+        "22": "public class Pointer extends AbstractMemory {",
+        "23": "    public static RubyClass createPointerClass(Ruby runtime, RubyModule module) {",
+        "24": "        RubyClass result = module.defineClassUnder(\"Pointer\",",
+        "25": "                module.getClass(AbstractMemory.ABSTRACT_MEMORY_RUBY_CLASS),",
+        "26": "                PointerAllocator.INSTANCE);",
+        "27": "",
+        "28": "        result.defineAnnotatedMethods(Pointer.class);",
+        "29": "        result.defineAnnotatedConstants(Pointer.class);",
+        "30": ""
+      },
+      "id": 106083624,
+      "filename": "Pointer.java"
+    },
+    {
+      "repo": "git://github.com/jruby/jruby.git",
+      "language": "Java",
+      "linescount": 222,
+      "location": "/core/src/main/java/org/jruby/ext/ffi",
+      "name": "jruby",
+      "url": "https://searchcode.com/codesearch/view/116443699/",
+      "md5hash": "a883b87cfa90050aac4ba5ef5d6fae22",
+      "lines": {
+        "15": "/**",
+        "16": " * C memory pointer operations.",
+        "17": " * <p>",
+        "18": " * This is an abstract class that defines Pointer operations",
+        "20": " */",
+        "21": "@JRubyClass(name=\"FFI::Pointer\", parent=AbstractMemory.ABSTRACT_MEMORY_RUBY_CLASS)",
+        "22": "public class Pointer extends AbstractMemory {",
+        "23": "    public static RubyClass createPointerClass(Ruby runtime, RubyModule module) {",
+        "24": "        RubyClass pointerClass = module.defineClassUnder(\"Pointer\",",
+        "25": "                module.getClass(AbstractMemory.ABSTRACT_MEMORY_RUBY_CLASS),",
+        "26": "                RubyInstanceConfig.REIFY_RUBY_CLASSES ? new ReifyingAllocator(Pointer.class) : PointerAllocator.INSTANCE);",
+        "27": "",
+        "28": "        pointerClass.defineAnnotatedMethods(Pointer.class);",
+        "29": "        pointerClass.defineAnnotatedConstants(Pointer.class);",
+        "30": "        pointerClass.setReifiedClass(Pointer.class);"
+      },
+      "id": 116443699,
+      "filename": "Pointer.java"
+    },
+    {
+      "repo": "https://bitbucket.org/kolb0128/lenskit-jack",
+      "language": "Java",
+      "linescount": 54,
+      "location": "/lenskit-data-structures/src/main/java/org/grouplens/lenskit/collections",
+      "name": "lenskit-jack",
+      "url": "https://searchcode.com/codesearch/view/118155573/",
+      "md5hash": "adec65e9cbc50e5deebe20ac5b65026d",
+      "lines": {
+        "32": "     * Advance the pointer.",
+        "34": "     * @return <tt>true</tt> if the advancing yielded another element;",
+        "35": "     *         <tt>false</tt> if the pointer is at the end after advancing.",
+        "39": "    /**",
+        "40": "     * Get the current value of the pointer.",
+        "41": "     * ",
+        "42": "     * @return The value at the pointer.",
+        "43": "     * @throw NoSuchElementException if the pointer is out-of-bounds.",
+        "44": "     */",
+        "47": "    /**",
+        "48": "     * Query whether the pointer has reached its endpoint.",
+        "49": "     * ",
+        "50": "     * @return <tt>true</tt> if the pointer is at the end.",
+        "21": "/**",
+        "22": " * A pointer is at an element and can be advanced and range-tested. It is useful",
+        "31": "    /**"
+      },
+      "id": 118155573,
+      "filename": "Pointer.java"
+    },
+    {
+      "repo": "https://bitbucket.org/Britefury/the-larch-environment",
+      "language": "Java",
+      "linescount": 522,
+      "location": "/java/BritefuryJ/LSpace/Input",
+      "name": "the-larch-environment",
+      "url": "https://searchcode.com/codesearch/view/119524218/",
+      "md5hash": "e7d40ef9bb21c2bc160cfd9b11a9f9f2",
+      "lines": {
+        "59": "",
+        "16": "import BritefuryJ.LSpace.LSRootElement;",
+        "17": "import BritefuryJ.LSpace.Event.PointerButtonClickedEvent;",
+        "18": "import BritefuryJ.LSpace.Event.PointerButtonEvent;",
+        "19": "import BritefuryJ.LSpace.Event.PointerEvent;",
+        "20": "import BritefuryJ.LSpace.Event.PointerMotionEvent;",
+        "21": "import BritefuryJ.LSpace.Event.PointerScrollEvent;",
+        "22": "import BritefuryJ.Math.Point2;",
+        "56": "\tprotected PresentationComponent component;",
+        "57": "\tprotected PriorityList<PointerInteractor> interactors = new PriorityList<PointerInteractor>();",
+        "26": "",
+        "27": "public class Pointer extends PointerInterface",
+        "60": "\t// This array of button positions records the position of the pointer at which a button was pressed.",
+        "30": "\t{",
+        "31": "\t\tpublic void notifyPointerElementUnrealised(Pointer pointer, LSElement element);"
+      },
+      "id": 119524218,
+      "filename": "Pointer.java"
+    },
+    {
+      "repo": "https://github.com/booka/bookaui.git",
+      "language": "Java",
+      "linescount": 45,
+      "location": "/src/net/boklab/module/explore/client/pointer",
+      "name": "bookaui",
+      "url": "https://searchcode.com/codesearch/view/107374714/",
+      "md5hash": "0a754d59d1b64473c93fa4016c49749b",
+      "lines": {
+        "19": "    @Override",
+        "1": "package net.boklab.module.explore.client.pointer;",
+        "2": "",
+        "3": "public class Pointer implements Comparable<Pointer> {",
+        "20": "    public int compareTo(final Pointer o) {",
+        "8": "",
+        "9": "    public Pointer() {",
+        "12": "",
+        "13": "    public Pointer(final String position, final String title, final String documentId) {"
+      },
+      "id": 107374714,
+      "filename": "Pointer.java"
+    },
+    {
+      "repo": "https://github.com/Staatsgeheim/NDceRpc.git",
+      "language": "Java",
+      "linescount": 41,
+      "location": "/research/JavaDceRpc/jarapac-0.3.8/src/ndr.old",
+      "name": "NDceRpc",
+      "url": "https://searchcode.com/codesearch/view/96242985/",
+      "md5hash": "cbd444ce5c939055a7c9862ebd1408c9",
+      "lines": {
+        "19": "    protected Pointer(long identifier, Element referent) {",
+        "2": "",
+        "3": "public abstract class Pointer implements Element {",
+        "10": "",
+        "11": "    protected Pointer() {",
+        "18": "",
+        "14": "",
+        "15": "    protected Pointer(Element referent) {"
+      },
+      "id": 96242985,
+      "filename": "Pointer.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 15194,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 8834,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 3457,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 291,
+      "source": "Sourceforge",
+      "id": 4
+    },
+    {
+      "count": 110,
+      "source": "GitLab",
+      "id": 13
+    },
+    {
+      "count": 59,
+      "source": "CodePlex",
+      "id": 5
+    },
+    {
+      "count": 46,
+      "source": "Unknown",
+      "id": 0
+    },
+    {
+      "count": 13,
+      "source": "Google Android",
+      "id": 12
+    },
+    {
+      "count": 7,
+      "source": "Gitorious",
+      "id": 10
+    }
+  ]
+}

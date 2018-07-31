@@ -1,0 +1,452 @@
+{
+  "matchterm": "XSSFFont",
+  "previouspage": null,
+  "searchterm": "XSSFFont",
+  "query": "XSSFFont",
+  "language_filters": [
+    {
+      "count": 34,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 34,
+  "results": [
+    {
+      "repo": "https://github.com/semantalytics/RightField.git",
+      "language": "Java",
+      "linescount": 349,
+      "location": "/src/main/java/uk/ac/manchester/cs/owl/semspreadsheets/model/xssf/impl",
+      "name": "RightField",
+      "url": "https://searchcode.com/codesearch/view/72854552/",
+      "md5hash": "999bd42f43674782a2cdf4ddecdfd4a9",
+      "lines": {
+        "162": "        }",
+        "163": "        XSSFFont xssfFont = cellStyle.getFont();",
+        "164": "        return getFont(xssfFont);",
+        "165": "    }",
+        "166": "",
+        "167": "    private Font getFont(XSSFFont xssfFont) {",
+        "14": "import org.apache.poi.xssf.usermodel.XSSFComment;",
+        "15": "import org.apache.poi.xssf.usermodel.XSSFFont;",
+        "144": "        XSSFFont font = cellStyle.getFont();",
+        "149": "        if (b) {",
+        "150": "            font.setBoldweight(XSSFFont.BOLDWEIGHT_BOLD);",
+        "152": "        else {",
+        "153": "            font.setBoldweight(XSSFFont.BOLDWEIGHT_NORMAL);",
+        "143": "        }",
+        "30": "",
+        "31": "    private static Map<XSSFWorkbook,Map<XSSFFont, Font>> fontCache = new HashMap<XSSFWorkbook,Map<XSSFFont, Font>>();"
+      },
+      "id": 72854552,
+      "filename": "CellXSSFImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/rapidpm/tablemodell.git",
+      "language": "Java",
+      "linescount": 710,
+      "location": "/src/org/rapidpm/data/table/importer/xlsx",
+      "name": "tablemodell",
+      "url": "https://searchcode.com/codesearch/view/37860156/",
+      "md5hash": "e03479193feb818d2f288147b1e378d5",
+      "lines": {
+        "640": "                final short typeOffset = oldFont.getTypeOffset();",
+        "571": "                final XSSFFont newFont = getFont(boldweight, color, fontHeight, name, italic, strikeout, typeOffset, underline);",
+        "547": "                final byte underline = oldFont.getUnderline();",
+        "516": "                final short fontIndex = cellStyle.getFontIndex();",
+        "517": "                final XSSFFont oldFont = workbook.getFontAt(fontIndex);",
+        "641": "                final XSSFFont newFont = getFont(boldweight, color, fontHeight, name, italic, strikeout, typeOffset, underline.value);",
+        "524": "                final byte underline = oldFont.getUnderline();",
+        "525": "                final XSSFFont newFont = getFont(boldweight, color.index, fontHeight, name, italic, strikeout, typeOffset, underline);",
+        "687": "",
+        "688": "    private XSSFFont getFont(final short boldweight, final short color, final short fontHeight, final String name,",
+        "562": "                final short fontIndex = cellStyle.getFontIndex();",
+        "563": "                final XSSFFont oldFont = workbook.getFontAt(fontIndex);",
+        "548": "                final XSSFFont newFont = getFont(boldweight, color, fontHeight, name, italic, strikeout, typeOffset, underline);",
+        "570": "                final byte underline = oldFont.getUnderline();",
+        "539": "                final short fontIndex = cellStyle.getFontIndex();",
+        "540": "                final XSSFFont oldFont = workbook.getFontAt(fontIndex);"
+      },
+      "id": 37860156,
+      "filename": "XSSFAssistant.java"
+    },
+    {
+      "repo": "https://github.com/myGrid/simple-spreadsheet-extractor.git",
+      "language": "Java",
+      "linescount": 114,
+      "location": "/src/main/java/org/sysmodb/xml",
+      "name": "simple-spreadsheet-extractor",
+      "url": "https://searchcode.com/codesearch/view/110498472/",
+      "md5hash": "2fb1c0046d1e2bd89fd105f2fb84c829",
+      "lines": {
+        "65": "\t\t}",
+        "66": "\t\tif (font.getUnderline() != XSSFFont.U_NONE) {",
+        "35": "\t\t\treturn false;",
+        "36": "\t\tif (font.getUnderline() != XSSFFont.U_NONE)",
+        "37": "\t\t\treturn false;",
+        "38": "\t\tif (font.getFontHeight() != XSSFFont.DEFAULT_FONT_SIZE)",
+        "39": "\t\t\treturn false;",
+        "40": "\t\tif (!font.getFontName().equals(XSSFFont.DEFAULT_FONT_NAME))",
+        "41": "\t\t\treturn false;",
+        "42": "\t\tif (font.getColor() != XSSFFont.DEFAULT_FONT_COLOR) {",
+        "14": "import org.apache.poi.xssf.usermodel.XSSFColor;",
+        "15": "import org.apache.poi.xssf.usermodel.XSSFFont;",
+        "54": "\t\tXSSFCellStyle newStyle = (XSSFCellStyle) style;",
+        "55": "\t\tXSSFFont font = newStyle.getFont();",
+        "30": "\t\tXSSFCellStyle newStyle = (XSSFCellStyle) style;",
+        "31": "\t\tXSSFFont font = newStyle.getFont();"
+      },
+      "id": 110498472,
+      "filename": "XSSFXMLStyleHelper.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 5111,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970697/",
+      "md5hash": "f6740268ba4be4778508748ca1c3becc",
+      "lines": {
+        "4598": "\t\t\treturn ((XSSFFont) font).getXSSFColor();",
+        "4620": "\t\t} else {",
+        "4621": "\t\t\t((XSSFFont)font).setColor((XSSFColor)color);",
+        "750": "\tpublic static String getFontHTMLColor(Book book, Font font) {",
+        "751": "\t\tif (font instanceof XSSFFont) {",
+        "752": "\t\t\tfinal XSSFFont f = (XSSFFont) font;",
+        "753": "\t\t\tfinal XSSFColor color = f.getXSSFColor();",
+        "4597": "\t\tif (book instanceof XSSFWorkbook) {",
+        "118": "import org.zkoss.poi.xssf.usermodel.XSSFEvaluationWorkbook;",
+        "119": "import org.zkoss.poi.xssf.usermodel.XSSFFont;",
+        "760": "\tpublic static String getFontHTMLColor(Cell cell, Font font) {",
+        "761": "\t\tif (font instanceof XSSFFont) {",
+        "762": "\t\t\tfinal XSSFFont f = (XSSFFont) font;",
+        "763": "\t\t\tfinal XSSFColor color = f.getXSSFColor();"
+      },
+      "id": 3970697,
+      "filename": "BookHelper.java"
+    },
+    {
+      "repo": "https://github.com/fbacall/simple-spreadsheet-extractor.git",
+      "language": "Java",
+      "linescount": 72,
+      "location": "/src/main/java/org/sysmodb",
+      "name": "simple-spreadsheet-extractor",
+      "url": "https://searchcode.com/codesearch/view/112283803/",
+      "md5hash": "9e0968a5fb3673664dd344f78f1aeea8",
+      "lines": {
+        "32": "      element.addElement(\"text-decoration\").addText(\"underline\");",
+        "33": "    if(font.getFontHeight() != XSSFFont.DEFAULT_FONT_SIZE)",
+        "34": "      element.addElement(\"font-size\").addText(String.valueOf(font.getFontHeightInPoints()) + \"pt\");",
+        "35": "    if(!font.getFontName().equals(XSSFFont.DEFAULT_FONT_NAME))",
+        "36": "      element.addElement(\"font-family\").addText(font.getFontName());",
+        "5": "import org.apache.poi.xssf.usermodel.XSSFColor;",
+        "6": "import org.apache.poi.xssf.usermodel.XSSFFont;",
+        "25": "    XSSFCellStyle newStyle = (XSSFCellStyle) style;",
+        "26": "    XSSFFont font = newStyle.getFont();",
+        "37": "    if(font.getColor() != XSSFFont.DEFAULT_FONT_COLOR)",
+        "30": "      element.addElement(\"font-style\").addText(\"italics\");",
+        "31": "    if(font.getUnderline() != XSSFFont.U_NONE)"
+      },
+      "id": 112283803,
+      "filename": "XSSFStyleHelper.java"
+    },
+    {
+      "repo": "https://bitbucket.org/manticoretrader/etltools",
+      "language": "Java",
+      "linescount": 317,
+      "location": "/src/com/manticore/report",
+      "name": "etltools",
+      "url": "https://searchcode.com/codesearch/view/121321564/",
+      "md5hash": "b476b10c4827335f24ae6b4baf18acfc",
+      "lines": {
+        "208": "      if (f instanceof XSSFFont) {",
+        "209": "        XSSFFont xssfFont = (XSSFFont) f;",
+        "210": "        label.setForeground(awtColor(xssfFont.getXSSFColor(), java.awt.Color.BLACK));",
+        "211": "      } else {",
+        "20": "import org.apache.poi.xssf.usermodel.XSSFColor;",
+        "21": "import org.apache.poi.xssf.usermodel.XSSFFont;",
+        "207": ""
+      },
+      "id": 121321564,
+      "filename": "CellRenderer.java"
+    },
+    {
+      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 242,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/122565145/",
+      "md5hash": "37e957a3ed6fb87cd516e5e2edbf25dd",
+      "lines": {
+        "178": "\t\t}",
+        "179": "\t\tif(font instanceof XSSFFont) {",
+        "180": "\t\t\tXSSFFont xFont = (XSSFFont)font;",
+        "181": "\t\t\tXSSFColor xColour = getXColour(colour);",
+        "211": "",
+        "23": "import org.apache.poi.xssf.usermodel.XSSFColor;",
+        "24": "import org.apache.poi.xssf.usermodel.XSSFFont;",
+        "212": "\t\tXSSFColor colour = ((XSSFFont)font).getXSSFColor();"
+      },
+      "id": 122565145,
+      "filename": "StyleManagerXUtils.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 431,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970717/",
+      "md5hash": "7316273b22d01b3aaca97abfed972abf",
+      "lines": {
+        "329": "\t */",
+        "330": "\tpublic XSSFFont findFont(short boldWeight, Color color, short fontHeight, String name, boolean italic, boolean strikeout, short typeOffset, byte underline) {",
+        "331": "\t\tfor (XSSFFont font : getStylesSource().getFonts()) {",
+        "332": "\t\t\tfinal XSSFColor fontColor = font.getXSSFColor();",
+        "45": "import org.zkoss.poi.xssf.usermodel.XSSFEvaluationWorkbook;",
+        "46": "import org.zkoss.poi.xssf.usermodel.XSSFFont;"
+      },
+      "id": 3970717,
+      "filename": "XSSFBookImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 281,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/64530833/",
+      "md5hash": "9bae33ba2ae2b3659c034710c785370e",
+      "lines": {
+        "192": "\t\tif(font instanceof XSSFFont) {",
+        "193": "\t\t\tXSSFFont xFont = (XSSFFont)font;",
+        "34": "import org.apache.poi.xssf.usermodel.XSSFColor;",
+        "35": "import org.apache.poi.xssf.usermodel.XSSFFont;",
+        "225": "\t\tXSSFColor colour = ((XSSFFont)font).getXSSFColor();",
+        "224": "",
+        "194": "\t\t\tXSSFColor xColour = getXColour(colour);",
+        "191": "\t\t}"
+      },
+      "id": 64530833,
+      "filename": "StyleManagerXUtils.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ravisanthu0/spudsoft-birt-excel-emitters1",
+      "language": "Java",
+      "linescount": 279,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters1",
+      "url": "https://searchcode.com/codesearch/view/126772698/",
+      "md5hash": "afd1e481fb2efa8d3030d90a89833b16",
+      "lines": {
+        "32": "import org.apache.poi.xssf.usermodel.XSSFFont;",
+        "192": "\t\t\tXSSFColor xColour = getXColour(colour);",
+        "222": "",
+        "223": "\t\tXSSFColor colour = ((XSSFFont)font).getXSSFColor();",
+        "31": "import org.apache.poi.xssf.usermodel.XSSFColor;",
+        "189": "\t\t}",
+        "190": "\t\tif(font instanceof XSSFFont) {",
+        "191": "\t\t\tXSSFFont xFont = (XSSFFont)font;"
+      },
+      "id": 126772698,
+      "filename": "StyleManagerXUtils.java"
+    },
+    {
+      "repo": "https://github.com/zypacsinc/src.git",
+      "language": "Java",
+      "linescount": 384,
+      "location": "/com/cf/tkconnect/data",
+      "name": "src",
+      "url": "https://searchcode.com/codesearch/view/93053244/",
+      "md5hash": "0256d5b9985793107258b24ca50edb91",
+      "lines": {
+        "320": "\t    font.setBoldweight(XSSFFont.BOLDWEIGHT_BOLD);",
+        "321": "\t    cs.setFont(font);",
+        "19": "import org.apache.poi.xssf.usermodel.XSSFColor;",
+        "20": "import org.apache.poi.xssf.usermodel.XSSFFont;",
+        "350": "\t    cs.setFont(font);",
+        "347": "\t    ",
+        "348": "\t    XSSFFont font = wb.createFont();",
+        "349": "\t    font.setBoldweight(XSSFFont.BOLDWEIGHT_BOLD);",
+        "318": "\t    cs.setFillPattern(XSSFCellStyle.SOLID_FOREGROUND);\t ",
+        "319": "\t    XSSFFont font = this.wb.createFont();"
+      },
+      "id": 93053244,
+      "filename": "WriteExcelBook.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 4867,
+      "location": "/zss/src/org/zkoss/zss/ui",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970597/",
+      "md5hash": "e7f705e90329f003cbaa403eaed0f523",
+      "lines": {
+        "3103": "\t\t\t\t\tif (fontHeight != XSSFFont.DEFAULT_FONT_SIZE) {",
+        "3102": "\t\t\t\t\tshort fontHeight = font.getFontHeightInPoints();",
+        "62": "import org.zkoss.poi.ss.util.CellReference;",
+        "63": "import org.zkoss.poi.xssf.usermodel.XSSFFont;"
+      },
+      "id": 3970597,
+      "filename": "Spreadsheet.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tomas12/laguna.git",
+      "language": "Java",
+      "linescount": 194,
+      "location": "/src/main/java/Excel",
+      "name": "Laguna",
+      "url": "https://searchcode.com/codesearch/view/91974007/",
+      "md5hash": "518bf702134744af28150a92647dbedf",
+      "lines": {
+        "16": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "17": "import org.apache.poi.xssf.usermodel.XSSFFont;",
+        "42": "\t\t\tXSSFFont font = xssfWorkbook.createFont();",
+        "41": "\t\t\t// Font setting for sheet."
+      },
+      "id": 91974007,
+      "filename": "ExcelBetreuerinBetreuungAU.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tomas12/laguna.git",
+      "language": "Java",
+      "linescount": 186,
+      "location": "/src/main/java/Excel",
+      "name": "Laguna",
+      "url": "https://searchcode.com/codesearch/view/91974009/",
+      "md5hash": "bf6e18648c9e01d4a758a66eda4f24fa",
+      "lines": {
+        "16": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "17": "import org.apache.poi.xssf.usermodel.XSSFFont;",
+        "42": "\t\t\t// Font setting for sheet.",
+        "43": "\t\t\tXSSFFont font = xssfWorkbook.createFont();"
+      },
+      "id": 91974009,
+      "filename": "ExcelFamilieZahlungenM.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tomas12/laguna.git",
+      "language": "Java",
+      "linescount": 247,
+      "location": "/src/main/java/Excel",
+      "name": "Laguna",
+      "url": "https://searchcode.com/codesearch/view/91974011/",
+      "md5hash": "804be23326fed0b1aedc784c78f111a0",
+      "lines": {
+        "17": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "18": "import org.apache.poi.xssf.usermodel.XSSFFont;",
+        "46": "\t\t\t// Font setting for sheet.",
+        "47": "\t\t\tXSSFFont font = xssfWorkbook.createFont();"
+      },
+      "id": 91974011,
+      "filename": "ExcelFamilieBetreuung.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tomas12/laguna.git",
+      "language": "Java",
+      "linescount": 241,
+      "location": "/src/main/java/Excel",
+      "name": "Laguna",
+      "url": "https://searchcode.com/codesearch/view/91974014/",
+      "md5hash": "a23302d05b5900b78bf8dd953ddf0745",
+      "lines": {
+        "16": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "17": "import org.apache.poi.xssf.usermodel.XSSFFont;",
+        "44": "\t\t\t// Font setting for sheet.",
+        "45": "\t\t\tXSSFFont font = xssfWorkbook.createFont();"
+      },
+      "id": 91974014,
+      "filename": "ExcelBetreuerinnenAN.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tomas12/laguna.git",
+      "language": "Java",
+      "linescount": 196,
+      "location": "/src/main/java/Excel",
+      "name": "Laguna",
+      "url": "https://searchcode.com/codesearch/view/91974021/",
+      "md5hash": "601cce505d4136ec82edbe284c2207af",
+      "lines": {
+        "16": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "17": "import org.apache.poi.xssf.usermodel.XSSFFont;",
+        "43": "\t\t\t// Font setting for sheet.",
+        "44": "\t\t\tXSSFFont font = xssfWorkbook.createFont();"
+      },
+      "id": 91974021,
+      "filename": "ExcelFamilieBetreuungAU.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tomas12/laguna.git",
+      "language": "Java",
+      "linescount": 194,
+      "location": "/src/main/java/Excel",
+      "name": "Laguna",
+      "url": "https://searchcode.com/codesearch/view/91974023/",
+      "md5hash": "296f9b089b71fbce948ba81492b5b58f",
+      "lines": {
+        "16": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "17": "import org.apache.poi.xssf.usermodel.XSSFFont;",
+        "42": "\t\t\tXSSFFont font = xssfWorkbook.createFont();",
+        "41": "\t\t\t// Font setting for sheet."
+      },
+      "id": 91974023,
+      "filename": "ExcelBetreuerinBetreuungAN.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tomas12/laguna.git",
+      "language": "Java",
+      "linescount": 228,
+      "location": "/src/main/java/Excel",
+      "name": "Laguna",
+      "url": "https://searchcode.com/codesearch/view/91974026/",
+      "md5hash": "81040c62fd2169578bc1684c07840a97",
+      "lines": {
+        "17": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "18": "import org.apache.poi.xssf.usermodel.XSSFFont;",
+        "43": "\t\t\tXSSFFont font = xssfWorkbook.createFont();",
+        "42": "\t\t\t// Font setting for sheet."
+      },
+      "id": 91974026,
+      "filename": "ExcelBetreuerinnen.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tomas12/laguna.git",
+      "language": "Java",
+      "linescount": 186,
+      "location": "/src/main/java/Excel",
+      "name": "Laguna",
+      "url": "https://searchcode.com/codesearch/view/91974028/",
+      "md5hash": "ba3d1c9977de6226fa7e28e3cc814cc3",
+      "lines": {
+        "16": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "17": "import org.apache.poi.xssf.usermodel.XSSFFont;",
+        "42": "\t\t\t// Font setting for sheet.",
+        "43": "\t\t\tXSSFFont font = xssfWorkbook.createFont();"
+      },
+      "id": 91974028,
+      "filename": "ExcelFamilieZahlungenB.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 24,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 3,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

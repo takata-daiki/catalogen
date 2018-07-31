@@ -1,0 +1,527 @@
+{
+  "matchterm": "Comment",
+  "previouspage": null,
+  "searchterm": "Comment",
+  "query": "Comment",
+  "language_filters": [
+    {
+      "count": 68168,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 68168,
+  "results": [
+    {
+      "repo": "https://github.com/carrot-garden/carrot-jnlper.git",
+      "language": "Java",
+      "linescount": 33,
+      "location": "/carrot-jdk6-jnlp-macosx/src/plugin/share/classes/sun/plugin/dom/core",
+      "name": "carrot-jnlper",
+      "url": "https://searchcode.com/codesearch/view/114338936/",
+      "md5hash": "c06d9e3fbaefc89cc4eeb849c753ffb5",
+      "lines": {
+        "1": "/*",
+        "2": " * @(#)Comment.java\t1.9 10/03/24",
+        "15": " *  This interface inherits from <code>CharacterData</code> and represents the ",
+        "16": " * content of a comment, i.e., all the characters between the starting '",
+        "17": " * <code>&lt;!--</code> ' and ending '<code>--&gt;</code> '. Note that this ",
+        "18": " * is the definition of a comment in XML, and, in practice, HTML, although ",
+        "19": " * some HTML tools may implement the full SGML comment structure.",
+        "20": " * <p>See also the <a href='http://www.w3.org/TR/2000/CR-DOM-Level-2-20000510'>Document Object Model (DOM) Level 2 Specification</a>.",
+        "21": " */",
+        "22": "public final class Comment extends sun.plugin.dom.core.CharacterData ",
+        "23": "\t\t     implements org.w3c.dom.Comment",
+        "24": "{",
+        "25": "    /**",
+        "26": "     * Construct a Comment object.",
+        "27": "     */"
+      },
+      "id": 114338936,
+      "filename": "Comment.java"
+    },
+    {
+      "repo": "git://github.com/zkoss/zk.git",
+      "language": "Java",
+      "linescount": 57,
+      "location": "/zcommon/src/org/zkoss/idom",
+      "name": "zk",
+      "url": "https://searchcode.com/codesearch/view/17658514/",
+      "md5hash": "f4047607895721900796c57b9d5014d1",
+      "lines": {
+        "32": "\t */",
+        "1": "/* Comment.java",
+        "2": "",
+        "33": "\tpublic Comment() {",
+        "43": "\tprotected void checkText(String text) {",
+        "44": "\t\tVerifier.checkCommentData(text, getLocator());",
+        "48": "\tpublic final String getName() {",
+        "49": "\t\treturn \"#comment\";",
+        "20": "/**",
+        "21": " * The iDOM Comment.",
+        "54": "\t\treturn COMMENT_NODE;",
+        "24": " */",
+        "25": "public class Comment extends AbstractTextual implements org.w3c.dom.Comment {",
+        "27": "\t */",
+        "28": "\tpublic Comment(String text) {",
+        "53": "\tpublic final short getNodeType() {"
+      },
+      "id": 17658514,
+      "filename": "Comment.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tari/prizm-gcc.git",
+      "language": "Java",
+      "linescount": 53,
+      "location": "/libjava/classpath/javax/xml/stream/events",
+      "name": "prizm-gcc",
+      "url": "https://searchcode.com/codesearch/view/37945974/",
+      "md5hash": "08819a9e834d03d68df3650365f325ff",
+      "lines": {
+        "48": "   * Returns the comment text.",
+        "1": "/* Comment.java --",
+        "2": "   Copyright (C) 2005  Free Software Foundation, Inc.",
+        "40": "/**",
+        "41": " * A comment event.",
+        "42": " */",
+        "43": "public interface Comment",
+        "47": "  /**"
+      },
+      "id": 37945974,
+      "filename": "Comment.java"
+    },
+    {
+      "repo": "https://bitbucket.org/bluezoo/gcc.git",
+      "language": "Java",
+      "linescount": 53,
+      "location": "/libjava/classpath/javax/xml/stream/events",
+      "name": "gcc",
+      "url": "https://searchcode.com/codesearch/view/46811609/",
+      "md5hash": "08819a9e834d03d68df3650365f325ff",
+      "lines": {
+        "48": "   * Returns the comment text.",
+        "1": "/* Comment.java --",
+        "2": "   Copyright (C) 2005  Free Software Foundation, Inc.",
+        "40": "/**",
+        "41": " * A comment event.",
+        "42": " */",
+        "43": "public interface Comment",
+        "47": "  /**"
+      },
+      "id": 46811609,
+      "filename": "Comment.java"
+    },
+    {
+      "repo": "https://bitbucket.org/gargdeendayal/procyon",
+      "language": "Java",
+      "linescount": 86,
+      "location": "/Procyon.CompilerTools/src/main/java/com/strobel/decompiler/languages/java/ast",
+      "name": "Procyon",
+      "url": "https://searchcode.com/codesearch/view/67349304/",
+      "md5hash": "72fbafd1a0bd2ba38e3c0997d42243ae",
+      "lines": {
+        "32": "    public Comment(final String content, final CommentType commentType) {",
+        "1": "/*",
+        "2": " * Comment.java",
+        "38": "    public <T, R> R acceptVisitor(final IAstVisitor<? super T, ? extends R> visitor, final T data) {",
+        "33": "        _commentType = commentType;",
+        "39": "        return visitor.visitComment(this, data);",
+        "34": "        _content = content;",
+        "22": "",
+        "23": "public class Comment extends AstNode {",
+        "24": "    private CommentType _commentType;",
+        "25": "    private boolean _startsLine;",
+        "27": "",
+        "28": "    public Comment(final String content) {",
+        "29": "        this(content, CommentType.SingleLine);",
+        "30": "    }",
+        "31": ""
+      },
+      "id": 67349304,
+      "filename": "Comment.java"
+    },
+    {
+      "repo": "https://bitbucket.org/lpimports/gcc.git",
+      "language": "Java",
+      "linescount": 53,
+      "location": "/libjava/classpath/javax/xml/stream/events",
+      "name": "gcc",
+      "url": "https://searchcode.com/codesearch/view/127598355/",
+      "md5hash": "08819a9e834d03d68df3650365f325ff",
+      "lines": {
+        "48": "   * Returns the comment text.",
+        "1": "/* Comment.java --",
+        "2": "   Copyright (C) 2005  Free Software Foundation, Inc.",
+        "40": "/**",
+        "41": " * A comment event.",
+        "42": " */",
+        "43": "public interface Comment",
+        "47": "  /**"
+      },
+      "id": 127598355,
+      "filename": "Comment.java"
+    },
+    {
+      "repo": "https://bitbucket.org/vaporoid/gcc.git",
+      "language": "Java",
+      "linescount": 53,
+      "location": "/libjava/classpath/javax/xml/stream/events",
+      "name": "gcc",
+      "url": "https://searchcode.com/codesearch/view/130227479/",
+      "md5hash": "08819a9e834d03d68df3650365f325ff",
+      "lines": {
+        "48": "   * Returns the comment text.",
+        "1": "/* Comment.java --",
+        "2": "   Copyright (C) 2005  Free Software Foundation, Inc.",
+        "40": "/**",
+        "41": " * A comment event.",
+        "42": " */",
+        "43": "public interface Comment",
+        "47": "  /**"
+      },
+      "id": 130227479,
+      "filename": "Comment.java"
+    },
+    {
+      "repo": "https://github.com/mtwstudios/comtor.git",
+      "language": "Java",
+      "linescount": 419,
+      "location": "/code/src/comtor/analyzers",
+      "name": "comtor",
+      "url": "https://searchcode.com/codesearch/view/108818837/",
+      "md5hash": "5af9647a153cd11c659ecc0075e4607c",
+      "lines": {
+        "128": "\t    \t\t\t\t\tString preTextComment = \"\";",
+        "1": "/***************************************************************************",
+        "2": "*  Comment Mentor: A Comment Quality Assessment Tool",
+        "131": "\t    \t\t",
+        "132": "\t    \t\t\t\t\tif(contains(preTextComment, 1)) //precondition comment text contains a key word",
+        "133": "\t    \t\t\t\t\t{",
+        "134": "\t      \t\t\t\t\t\tif(preTextComment.length() > 5) //acceptable length",
+        "129": "\t    \t\t\t\t\tfor (int k = 0; k < preTextTags.length; k++)",
+        "136": "\t        \t\t\t\t\t\tprop.setProperty(classID + \".\" + methodID + \".a\", \"There is a @pre_text tag used for \" + methods[j].name() + \". This comment is CORRECT.\");          ",
+        "135": "\t      \t\t\t\t\t\t{",
+        "130": "\t\t      \t\t\t\t\tpreTextComment += preTextTags[k].text();",
+        "144": "\t    \t\t\t\t\t}",
+        "145": "\t    \t\t\t\t\telse //precondition comment does not contain a key word",
+        "146": "\t    \t\t\t\t\t{",
+        "127": "\t    \t\t\t\t\t//get the comment following the @pre_text tag"
+      },
+      "id": 108818837,
+      "filename": "PreAndPostCheck.java"
+    },
+    {
+      "repo": "https://github.com/mtwstudios/comtor.git",
+      "language": "Java",
+      "linescount": 227,
+      "location": "/code/src/comtor/analyzers",
+      "name": "comtor",
+      "url": "https://searchcode.com/codesearch/view/108818824/",
+      "md5hash": "c81811b22b6e231587b966337eb8d623",
+      "lines": {
+        "96": " \t * @param class Class to process",
+        "1": "/***************************************************************************",
+        "2": "  *  Comment Mentor: A Comment Quality Assessment Tool",
+        "100": "\t{",
+        "101": "\t\tString allComments = \"\";",
+        "102": "",
+        "97": " \t * @return String String to which all comments will be written/saved",
+        "47": "\t\tString allFiles = \"\";",
+        "48": "\t\tString allComments = \"\";",
+        "52": "    \t\tfor(int i = 0; i < classes.length; i++)",
+        "53": "      \t\t\tallComments += processClass(classes[i]);",
+        "57": "\t\t// 3) Count syllables",
+        "58": "\t\tint numSentences = countSentences(allComments);",
+        "59": "\t\tint numWords = countWords(allComments);",
+        "60": "\t\tint numSyllables = countSyllables(allComments);",
+        "61": "\t\t//Flesch-Kincaid Grade Level = "
+      },
+      "id": 108818824,
+      "filename": "ReadingLevel.java"
+    },
+    {
+      "repo": "https://github.com/mtwstudios/comtor.git",
+      "language": "Java",
+      "linescount": 804,
+      "location": "/code/src/comtor/analyzers",
+      "name": "comtor",
+      "url": "https://searchcode.com/codesearch/view/108818819/",
+      "md5hash": "10a517294a80f4b8431e0a0d6065ef18",
+      "lines": {
+        "416": "\t\t\t\t\t\t{\t// A blank comment string was found",
+        "1": "/**",
+        "2": " *  Comment Mentor: A Comment Quality Assessment Tool",
+        "419": "\t\t\t\t\t\t\t\t\"is no comment following the tag to describe \" +",
+        "391": "\t\t\t\t\t{",
+        "392": "\t\t\t\t\t\t// No @return tag(s) present in comments, correct",
+        "425": "\t\t\t\t\t\t{",
+        "426": "\t\t\t\t\t\t\t// A non-blank comment string was found",
+        "428": "\t\t\t\t\t\t\t\t\"A @return tag is present and there is a \" +",
+        "418": "\t\t\t\t\t\t\t\t\"Although a @return tag is present, there \" +",
+        "429": "\t\t\t\t\t\t\t\t\"comment describing the return type. \" +",
+        "410": "\t\t\t\t{",
+        "411": "\t\t\t\t\t// If exactly one @return tag is present in the comments",
+        "412": "\t\t\t\t\tif (returnTags.length == 1)",
+        "413": "\t\t\t\t\t\t// Check that a non-blank comment string is present",
+        "415": "\t\t\t\t\t\tif (returnTags[0].text().trim().equals(\"\"))"
+      },
+      "id": 108818819,
+      "filename": "CheckForTags.java"
+    },
+    {
+      "repo": "https://github.com/mtwstudios/comtor.git",
+      "language": "Java",
+      "linescount": 443,
+      "location": "/code/src/comtor/analyzers",
+      "name": "comtor",
+      "url": "https://searchcode.com/codesearch/view/108818832/",
+      "md5hash": "e5431ffa8139b57a5819bef3238f9ca7",
+      "lines": {
+        "1": "/***************************************************************************",
+        "2": "  *  Comment Mentor: A Comment Quality Assessment Tool",
+        "195": "",
+        "196": "\t\t\t// Add field comment",
+        "197": "\t\t\tparseComment(fields[h].commentText());",
+        "198": "\t\t}",
+        "33": "/**",
+        "72": "\t/**",
+        "73": "\t* Examine each class and its methods. Calculate the length of each method's comments.",
+        "34": " * The SpellCheck class is a tool to check spelling in comments.",
+        "209": "",
+        "210": "\t\t// Get comments for tags",
+        "186": "",
+        "187": "\t\t// Add class comment",
+        "188": "\t\tparseComment(classDoc.commentText());",
+        "189": ""
+      },
+      "id": 108818832,
+      "filename": "SpellCheck.java"
+    },
+    {
+      "repo": "https://github.com/mtwstudios/comtor.git",
+      "language": "Java",
+      "linescount": 106,
+      "location": "/code/src/comtor/incomplete",
+      "name": "comtor",
+      "url": "https://searchcode.com/codesearch/view/108818938/",
+      "md5hash": "0e059efc6a8b2e02c1bf8614adfc3c06",
+      "lines": {
+        "1": "/***************************************************************************",
+        "2": " *  Comment Mentor: A Comment Quality Assessment Tool",
+        "35": "public class CommentQualityRecord",
+        "41": "   protected StringBuffer m_message;",
+        "42": "   protected int m_category = CommentQualityRecord.CONTENT_TYPE;",
+        "34": " */",
+        "48": "      {",
+        "49": "      case CommentQualityRecord.CONTENT_TYPE:",
+        "51": "         break;",
+        "20": " *",
+        "21": " * $Id: CommentQualityRecord.java,v 1.1 2006/09/08 02:00:26 locasto Exp $",
+        "57": "         throw new IllegalArgumentException(\"Unrecognized comment record type.\");",
+        "56": "         //unrecgonized type, default to CONTENT_TYPE",
+        "25": "/**",
+        "26": " * The <code>CommentQualityRecord</code> is the parent class",
+        "52": "      case CommentQualityRecord.STYLE_TYPE:"
+      },
+      "id": 108818938,
+      "filename": "CommentQualityRecord.java"
+    },
+    {
+      "repo": "https://github.com/mtwstudios/comtor.git",
+      "language": "Java",
+      "linescount": 192,
+      "location": "/code/src/comtor/analyzers",
+      "name": "comtor",
+      "url": "https://searchcode.com/codesearch/view/108818814/",
+      "md5hash": "6114ace8ad4accc2abee41ffdebb0c85",
+      "lines": {
+        "32": " *",
+        "1": "/***************************************************************************",
+        "2": "  *  Comment Mentor: A Comment Quality Assessment Tool",
+        "35": "public final class CommentAvgRatio implements ComtorDoclet",
+        "37": "\tProperties prop = new Properties();",
+        "38": "\tlong commentLength = 0;",
+        "40": "\tint n_methods = 0, n_words = 0;",
+        "41": "\t//Default minimum average words per comment.",
+        "34": " */",
+        "46": "\t */",
+        "47": "\tpublic CommentAvgRatio()",
+        "52": "\t/**",
+        "53": "\t * Examine each class and its methods. Calculate the length of each method's comments.",
+        "29": "/**",
+        "30": " * The <code>CommentAvgRatio</code> class is a tool to measure the",
+        "31": " * average length of comments for methods in a class."
+      },
+      "id": 108818814,
+      "filename": "CommentAvgRatio.java"
+    },
+    {
+      "repo": "https://github.com/mtwstudios/comtor.git",
+      "language": "Java",
+      "linescount": 183,
+      "location": "/code/src/comtor/analyzers",
+      "name": "comtor",
+      "url": "https://searchcode.com/codesearch/view/108818842/",
+      "md5hash": "c9108b76f0186261e3f5a418b13fd832",
+      "lines": {
+        "1": "/***************************************************************************",
+        "2": "  *  Comment Mentor: A Comment Quality Assessment Tool",
+        "68": "\t\t",
+        "69": "\t\t//Number of methods commented.",
+        "70": "\t\tint methodsCommented = 0;",
+        "71": "\t\t//Percentage of methods commented.",
+        "72": "\t\tdouble percentCommented = 0.0;",
+        "73": "\t\tClassDoc[] classes = rootDoc.classes();",
+        "82": "\t\t\t{",
+        "83": "\t\t\t\t//If comment is present, increment number of methods commented.",
+        "84": "\t\t\t\tif(methods[j].getRawCommentText().length() > 0)",
+        "55": "\t/**",
+        "56": "\t * Examine each class, obtain each method. See if rawComment text has",
+        "57": "\t * a length more than zero. If so, count it in the total frequency of",
+        "58": "\t * commented methods for that class. Obtain percentage of commented"
+      },
+      "id": 108818842,
+      "filename": "PercentageMethods.java"
+    },
+    {
+      "repo": "https://github.com/mtwstudios/comtor.git",
+      "language": "Java",
+      "linescount": 139,
+      "location": "/code/src/comtor/examples",
+      "name": "comtor",
+      "url": "https://searchcode.com/codesearch/view/108818902/",
+      "md5hash": "64529b41ca791e49d5b5415dc0e3ff38",
+      "lines": {
+        "72": "  /**",
+        "1": "/***************************************************************************",
+        "2": "  *  Comment Mentor: A Comment Quality Assessment Tool",
+        "73": "   * ERROR: The tag has no comment"
+      },
+      "id": 108818902,
+      "filename": "CheckForTagsExample.java"
+    },
+    {
+      "repo": "https://github.com/mtwstudios/comtor.git",
+      "language": "Java",
+      "linescount": 88,
+      "location": "/code/src/comtor/incomplete",
+      "name": "comtor",
+      "url": "https://searchcode.com/codesearch/view/108818925/",
+      "md5hash": "b22dd72c7062ca36722604b946fd367e",
+      "lines": {
+        "32": " * invocation of all the tools on the Javadoc comment",
+        "1": "/***************************************************************************",
+        "2": " *  Comment Mentor: A Comment Quality Assessment Tool",
+        "39": "",
+        "40": "   private ArrayList<CommentQualityRecord> m_commentQualityRecords;",
+        "76": "         {",
+        "77": "            m_commentQualityRecords.add(tool.process(classes[i]));",
+        "31": " * of the Comtor software: it defines the ordering and"
+      },
+      "id": 108818925,
+      "filename": "FeaturePipeline.java"
+    },
+    {
+      "repo": "https://github.com/mtwstudios/comtor.git",
+      "language": "Java",
+      "linescount": 42,
+      "location": "/code/src/comtor/incomplete",
+      "name": "comtor",
+      "url": "https://searchcode.com/codesearch/view/108818932/",
+      "md5hash": "0b98d60d0325791241e8ffc5a189129b",
+      "lines": {
+        "1": "/***************************************************************************",
+        "2": " *  Comment Mentor: A Comment Quality Assessment Tool",
+        "37": "   /**",
+        "38": "    * Generate a comment quality report for a class.",
+        "39": "    */",
+        "40": "   public CommentQualityRecord process(ClassDoc cdoc);",
+        "30": " * tool. A tool takes in a {@link ClassDoc} object and",
+        "31": " * returns a {@link CommentQualityReport}."
+      },
+      "id": 108818932,
+      "filename": "FeatureTool.java"
+    },
+    {
+      "repo": "https://github.com/mtwstudios/comtor.git",
+      "language": "Java",
+      "linescount": 241,
+      "location": "/code/src/comtor",
+      "name": "comtor",
+      "url": "https://searchcode.com/codesearch/view/108818782/",
+      "md5hash": "975c295ff5f02ab7b9994b126f12bd6e",
+      "lines": {
+        "1": "/***************************************************************************",
+        "2": "  *  Comment Mentor: A Comment Quality Assessment Tool"
+      },
+      "id": 108818782,
+      "filename": "GenerateReport.java"
+    },
+    {
+      "repo": "https://github.com/mtwstudios/comtor.git",
+      "language": "Java",
+      "linescount": 327,
+      "location": "/code/src/comtor",
+      "name": "comtor",
+      "url": "https://searchcode.com/codesearch/view/108818785/",
+      "md5hash": "bee977561aae5fa4f73dd6b886b5a012",
+      "lines": {
+        "1": "/**",
+        "2": " *  Comment Mentor: A Comment Quality Assessment Tool",
+        "187": "\t\t//debug.txt for details, which can be found in the",
+        "188": "\t\t//designdoc/tutorials directory. To enable debugging, UNCOMMENT"
+      },
+      "id": 108818785,
+      "filename": "ComtorDriver.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 39170,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 21387,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 6006,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 749,
+      "source": "Sourceforge",
+      "id": 4
+    },
+    {
+      "count": 326,
+      "source": "GitLab",
+      "id": 13
+    },
+    {
+      "count": 298,
+      "source": "CodePlex",
+      "id": 5
+    },
+    {
+      "count": 116,
+      "source": "Unknown",
+      "id": 0
+    },
+    {
+      "count": 76,
+      "source": "Google Android",
+      "id": 12
+    },
+    {
+      "count": 40,
+      "source": "Gitorious",
+      "id": 10
+    }
+  ]
+}

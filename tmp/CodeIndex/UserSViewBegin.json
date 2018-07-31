@@ -1,0 +1,229 @@
+{
+  "matchterm": "UserSViewBegin",
+  "previouspage": null,
+  "searchterm": "UserSViewBegin",
+  "query": "UserSViewBegin",
+  "language_filters": [
+    {
+      "count": 10,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 10,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 162,
+      "location": "/src/main/java/com/extentech/formats/XLS",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47124750/",
+      "md5hash": "df2427933367ab4fceee97548b68a534",
+      "lines": {
+        "68": "\t//byte[] RECBYTES =  {0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0};",
+        "69": "    /** Constructor for a Usersviewbegin to be made on the fly.",
+        "71": "     */",
+        "72": "\tUsersviewbegin(){",
+        "73": "\t    // TODO: init Usersviewbegin",
+        "74": "    \tthis(new byte[] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0});",
+        "76": "    ",
+        "77": "\tUsersviewbegin(byte[] b){",
+        "78": "\t\tsetData(b);",
+        "79": "\t\tsetOpcode(USERSVIEWBEGIN);",
+        "48": "*/",
+        "49": "public final class Usersviewbegin extends com.extentech.formats.XLS.XLSRecord ",
+        "105": "        if(DEBUGLEVEL > 3)Logger.logInfo(\"Usersviewbegin Tab Index: \" + tabid);",
+        "104": "\t\tthis.decodeGrbit();",
+        "28": "",
+        "29": "/** <b>USERSVIEWBEGIN: Custom View Settings (1AAh)</b><br>",
+        "30": ""
+      },
+      "id": 47124750,
+      "filename": "Usersviewbegin.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 162,
+      "location": "/src/main/java/com/extentech/formats/XLS",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976374/",
+      "md5hash": "df2427933367ab4fceee97548b68a534",
+      "lines": {
+        "68": "\t//byte[] RECBYTES =  {0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0};",
+        "69": "    /** Constructor for a Usersviewbegin to be made on the fly.",
+        "71": "     */",
+        "72": "\tUsersviewbegin(){",
+        "73": "\t    // TODO: init Usersviewbegin",
+        "74": "    \tthis(new byte[] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0});",
+        "76": "    ",
+        "77": "\tUsersviewbegin(byte[] b){",
+        "78": "\t\tsetData(b);",
+        "79": "\t\tsetOpcode(USERSVIEWBEGIN);",
+        "48": "*/",
+        "49": "public final class Usersviewbegin extends com.extentech.formats.XLS.XLSRecord ",
+        "105": "        if(DEBUGLEVEL > 3)Logger.logInfo(\"Usersviewbegin Tab Index: \" + tabid);",
+        "104": "\t\tthis.decodeGrbit();",
+        "28": "",
+        "29": "/** <b>USERSVIEWBEGIN: Custom View Settings (1AAh)</b><br>",
+        "30": ""
+      },
+      "id": 50976374,
+      "filename": "Usersviewbegin.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 3396,
+      "location": "/src/main/java/com/extentech/formats/XLS",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47124743/",
+      "md5hash": "3ea87e99b6e0d79580a09a07d5b10761",
+      "lines": {
+        "1497": "                    ",
+        "1563": "        if (usersview == null){",
+        "1564": "            usersview = new Usersviewbegin();",
+        "139": "    private ContinueHandler contHandler = new ContinueHandler(this);",
+        "140": "    private Usersviewbegin usersview;",
+        "1559": "    ",
+        "1560": "    /** get a handle to the Usersviewbegin for the workbook",
+        "1561": "     */",
+        "1498": "            case USERSVIEWBEGIN:",
+        "1499": "                    this.usersview = (Usersviewbegin)rec;",
+        "1500": "                    break;",
+        "1562": "    public Usersviewbegin getUsersviewbegin(){"
+      },
+      "id": 47124743,
+      "filename": "WorkBook.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 3396,
+      "location": "/src/main/java/com/extentech/formats/XLS",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976367/",
+      "md5hash": "3ea87e99b6e0d79580a09a07d5b10761",
+      "lines": {
+        "1497": "                    ",
+        "1563": "        if (usersview == null){",
+        "1564": "            usersview = new Usersviewbegin();",
+        "139": "    private ContinueHandler contHandler = new ContinueHandler(this);",
+        "140": "    private Usersviewbegin usersview;",
+        "1559": "    ",
+        "1560": "    /** get a handle to the Usersviewbegin for the workbook",
+        "1561": "     */",
+        "1498": "            case USERSVIEWBEGIN:",
+        "1499": "                    this.usersview = (Usersviewbegin)rec;",
+        "1500": "                    break;",
+        "1562": "    public Usersviewbegin getUsersviewbegin(){"
+      },
+      "id": 50976367,
+      "filename": "WorkBook.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 598,
+      "location": "/src/main/java/com/extentech/formats/XLS",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47124733/",
+      "md5hash": "faa559ca7e6431916d6af7d7c1be86b7",
+      "lines": {
+        "442": "\t\t\t\tcase COLINFO: record= new Colinfo();  break;",
+        "443": "\t\t\t\tcase USERSVIEWBEGIN: record= new Usersviewbegin();  break;",
+        "205": "\t\tcase COLINFO), new Colinfo() );",
+        "206": "\t\tcase USERSVIEWBEGIN), new Usersviewbegin() );"
+      },
+      "id": 47124733,
+      "filename": "XLSRecordFactory.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 598,
+      "location": "/src/main/java/com/extentech/formats/XLS",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976357/",
+      "md5hash": "faa559ca7e6431916d6af7d7c1be86b7",
+      "lines": {
+        "442": "\t\t\t\tcase COLINFO: record= new Colinfo();  break;",
+        "443": "\t\t\t\tcase USERSVIEWBEGIN: record= new Usersviewbegin();  break;",
+        "205": "\t\tcase COLINFO), new Colinfo() );",
+        "206": "\t\tcase USERSVIEWBEGIN), new Usersviewbegin() );"
+      },
+      "id": 50976357,
+      "filename": "XLSRecordFactory.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 325,
+      "location": "/src/main/java/com/extentech/formats/XLS",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47124735/",
+      "md5hash": "edfa07e24d16988e6b042b93ed085edf",
+      "lines": {
+        "171": "    static final short SUPBOOK                =      \t0x1AE;",
+        "172": "    static final short USERSVIEWBEGIN         =      \t0x1AA;"
+      },
+      "id": 47124735,
+      "filename": "XLSConstants.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 1160,
+      "location": "/src/main/java/com/extentech/formats/XLS",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47124740/",
+      "md5hash": "d657986311c28ed3b32263280b3d6127",
+      "lines": {
+        "626": "\tmap.put(SELECTION, new R(false));",
+        "627": "\tmap.put((short) 426, new R(false));\t// UserSViewBegin "
+      },
+      "id": 47124740,
+      "filename": "WorkBookFactory.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 325,
+      "location": "/src/main/java/com/extentech/formats/XLS",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976359/",
+      "md5hash": "edfa07e24d16988e6b042b93ed085edf",
+      "lines": {
+        "171": "    static final short SUPBOOK                =      \t0x1AE;",
+        "172": "    static final short USERSVIEWBEGIN         =      \t0x1AA;"
+      },
+      "id": 50976359,
+      "filename": "XLSConstants.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 1160,
+      "location": "/src/main/java/com/extentech/formats/XLS",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976364/",
+      "md5hash": "d657986311c28ed3b32263280b3d6127",
+      "lines": {
+        "626": "\tmap.put(SELECTION, new R(false));",
+        "627": "\tmap.put((short) 426, new R(false));\t// UserSViewBegin "
+      },
+      "id": 50976364,
+      "filename": "WorkBookFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 10,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "91974023",
+  "filename": "ExcelBetreuerinBetreuungAN.java",
+  "url": "https://searchcode.com/codesearch/view/91974023/",
+  "lines": {
+    "38": "\t\t\tXSSFWorkbook xssfWorkbook = new XSSFWorkbook();\n",
+    "39": "\t\t\tXSSFSheet sheet = xssfWorkbook.createSheet(\"Betreuerinnen\");\n",
+    "42": "\t\t\tXSSFFont font = xssfWorkbook.createFont();\n",
+    "46": "\t\t\tXSSFCellStyle headerStyle = xssfWorkbook.createCellStyle();\n",
+    "51": "\t\t\tXSSFCellStyle dataStyle = xssfWorkbook.createCellStyle();\n",
+    "175": "\t\t\txssfWorkbook.write(fileOutputStream);\n"
+  }
+}

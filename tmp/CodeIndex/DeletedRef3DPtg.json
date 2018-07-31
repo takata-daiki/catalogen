@@ -1,0 +1,82 @@
+{
+  "matchterm": "DeletedRef3DPtg",
+  "previouspage": null,
+  "searchterm": "DeletedRef3DPtg",
+  "query": "DeletedRef3DPtg",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 67,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642572/",
+      "md5hash": "9a29f8e0024f3236fabd228752235116",
+      "lines": {
+        "54": "",
+        "55": "public class DeletedRef3DPtg extends Ref3DPtg {",
+        "57": "",
+        "58": "    /** Creates new DeletedRef3DPtg */",
+        "59": "    public DeletedRef3DPtg(RecordInputStream in) {",
+        "60": "        super(in);",
+        "62": "",
+        "63": "    public DeletedRef3DPtg(String cellref, short externIdx ) {"
+      },
+      "id": 15642572,
+      "filename": "DeletedRef3DPtg.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 485,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642564/",
+      "md5hash": "a03fe68945d6947241c13705dd4cc5e3",
+      "lines": {
+        "368": "        \t                  break;",
+        "363": " ",
+        "364": "             case DeletedRef3DPtg.sid:          // 0x3c",
+        "365": "             case DeletedRef3DPtg.sid + 0x20:   // 0x5c",
+        "366": "             case DeletedRef3DPtg.sid + 0x40:   // 0x7c",
+        "367": "                 retval = new DeletedRef3DPtg(in);"
+      },
+      "id": 15642564,
+      "filename": "Ptg.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 895,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642474/",
+      "md5hash": "b624b98cf927c8cacabdf0db00401036",
+      "lines": {
+        "48": "import loci.poi.hssf.record.formula.DeletedArea3DPtg;",
+        "49": "import loci.poi.hssf.record.formula.DeletedRef3DPtg;",
+        "677": "            result = ptg.toFormulaString(book);",
+        "678": "        } else if (ptg.getClass() == DeletedArea3DPtg.class || ptg.getClass() == DeletedRef3DPtg.class) {"
+      },
+      "id": 15642474,
+      "filename": "NameRecord.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

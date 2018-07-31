@@ -1,0 +1,69 @@
+{
+  "matchterm": "PICFAndOfficeArtData",
+  "previouspage": null,
+  "searchterm": "PICFAndOfficeArtData",
+  "query": "PICFAndOfficeArtData",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 633,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384428/",
+      "md5hash": "abf85d22a465320cca19a26cbf1926ad",
+      "lines": {
+        "513": "    {",
+        "514": "       for(EscherRecord escherRecord : _picfAndOfficeArtData.getShape().getChildRecords()){",
+        "35": "import org.apache.poi.hwpf.model.PICF;",
+        "36": "import org.apache.poi.hwpf.model.PICFAndOfficeArtData;",
+        "134": "    {",
+        "135": "        _picfAndOfficeArtData = new PICFAndOfficeArtData( _dataStream,",
+        "136": "                dataBlockStartOfsset );",
+        "137": "        _picf = _picfAndOfficeArtData.getPicf();",
+        "140": "",
+        "109": "    private PICFAndOfficeArtData _picfAndOfficeArtData;",
+        "142": "           _blipRecords = _picfAndOfficeArtData.getBlipRecords();",
+        "141": "        if ( _picfAndOfficeArtData != null && _picfAndOfficeArtData.getBlipRecords() != null) {",
+        "108": "    private PICF _picf;",
+        "340": "        // TODO: use new properties",
+        "341": "        // if (_picfAndOfficeArtData == null || _picfAndOfficeArtData.getShape()",
+        "143": "        }"
+      },
+      "id": 97384428,
+      "filename": "Picture.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 676,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384484/",
+      "md5hash": "eb3ee5102b1d02992e415773f3944ccc",
+      "lines": {
+        "485": "   *  a NilPICFAndBinData structure, otherwise to a",
+        "486": "   *  PICFAndOfficeArtData"
+      },
+      "id": 97384484,
+      "filename": "CharacterRun.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

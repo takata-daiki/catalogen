@@ -1,0 +1,371 @@
+{
+  "matchterm": "RecordFactory",
+  "previouspage": null,
+  "searchterm": "RecordFactory",
+  "query": "RecordFactory",
+  "language_filters": [
+    {
+      "count": 555,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 555,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/AlexeyD/hibench.git",
+      "language": "Java",
+      "linescount": 48,
+      "location": "/common/mahout-distribution-0.7/distribution/target/mahout-distribution-0.7-src/mahout-distribution-0.7/core/src/main/java/org/apache/mahout/classifier/sgd",
+      "name": "hibench",
+      "url": "https://searchcode.com/codesearch/view/48927682/",
+      "md5hash": "2f2ed970e8ab29295a1aa15e7ff340cf",
+      "lines": {
+        "32": "  RecordFactory maxTargetValue(int max);",
+        "41": "",
+        "42": "  RecordFactory includeBiasTerm(boolean useBias);",
+        "28": " */",
+        "29": "public interface RecordFactory {",
+        "31": ""
+      },
+      "id": 48927682,
+      "filename": "RecordFactory.java"
+    },
+    {
+      "repo": "https://bitbucket.org/AlexeyD/hibench.git",
+      "language": "Java",
+      "linescount": 48,
+      "location": "/common/mahout-distribution-0.7/core/src/main/java/org/apache/mahout/classifier/sgd",
+      "name": "hibench",
+      "url": "https://searchcode.com/codesearch/view/48928679/",
+      "md5hash": "2f2ed970e8ab29295a1aa15e7ff340cf",
+      "lines": {
+        "32": "  RecordFactory maxTargetValue(int max);",
+        "41": "",
+        "42": "  RecordFactory includeBiasTerm(boolean useBias);",
+        "28": " */",
+        "29": "public interface RecordFactory {",
+        "31": ""
+      },
+      "id": 48928679,
+      "filename": "RecordFactory.java"
+    },
+    {
+      "repo": "http://androjena.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 170,
+      "location": "/tdboid/src/com/hp/hpl/jena/tdb/base/record",
+      "name": "androjena",
+      "url": "https://searchcode.com/codesearch/view/818458/",
+      "md5hash": "00f0565feca73955809bdabdead481ab",
+      "lines": {
+        "32": "    /** Return a RecordFactory that makes key-only records of the same key size */ ",
+        "33": "    public RecordFactory keyFactory()",
+        "34": "    {",
+        "35": "        return new RecordFactory(keyLength, 0) ;",
+        "133": "            if ( v != null ) ",
+        "134": "                throw new RecordException(\"Value array error: This RecordFactory manages records that are all key\") ;",
+        "139": "            if ( v != null && v.length != valueLength )",
+        "140": "                throw new RecordException(format(\"This RecordFactory manages record of value length %d, not (%d,-)\", valueLength, v.length)) ;",
+        "13": "final",
+        "14": "public class RecordFactory",
+        "111": "    {",
+        "112": "        return format(\"<RecordFactory k=%d v=%d>\", keyLength, valueLength) ; ",
+        "19": "",
+        "20": "    public RecordFactory(int keyLength, int valueLength)",
+        "31": "    "
+      },
+      "id": 818458,
+      "filename": "RecordFactory.java"
+    },
+    {
+      "repo": "https://bitbucket.org/toften/jlips2.git",
+      "language": "Java",
+      "linescount": 25,
+      "location": "/src/main/java/net/toften/jlips2/record",
+      "name": "jlips2",
+      "url": "https://searchcode.com/codesearch/view/48777670/",
+      "md5hash": "0248ed7ce03732fddadf856ddc87d03b",
+      "lines": {
+        "8": " */",
+        "9": "public interface RecordFactory extends BaseFactory {",
+        "10": "\tpublic static final String PROP_RECORDFACTORY = \"net.toften.jlips2.record.RecordFactory\";",
+        "11": ""
+      },
+      "id": 48777670,
+      "filename": "RecordFactory.java"
+    },
+    {
+      "repo": "https://github.com/alparslanavci/hazelcast.git",
+      "language": "Java",
+      "linescount": 39,
+      "location": "/hazelcast/src/main/java/com/hazelcast/map/record",
+      "name": "hazelcast",
+      "url": "https://searchcode.com/codesearch/view/95415442/",
+      "md5hash": "d405a99c42cef0d4796128a3d964324b",
+      "lines": {
+        "24": " * TODO need a better name than RecordFactory!",
+        "28": " */",
+        "29": "public interface RecordFactory<T> {",
+        "23": "/**"
+      },
+      "id": 95415442,
+      "filename": "RecordFactory.java"
+    },
+    {
+      "repo": "https://github.com/belong/teiid.git",
+      "language": "Java",
+      "linescount": 1035,
+      "location": "/metadata/src/main/java/org/teiid/metadata/index",
+      "name": "teiid",
+      "url": "https://searchcode.com/codesearch/view/73435018/",
+      "md5hash": "7c6341c641851689e2e9e75f9080c3de",
+      "lines": {
+        "43": " */",
+        "44": "public class RecordFactory {"
+      },
+      "id": 73435018,
+      "filename": "RecordFactory.java"
+    },
+    {
+      "repo": "https://github.com/rpwaltz/hazelcast.git",
+      "language": "Java",
+      "linescount": 30,
+      "location": "/hazelcast/src/main/java/com/hazelcast/impl/concurrentmap",
+      "name": "hazelcast",
+      "url": "https://searchcode.com/codesearch/view/73868813/",
+      "md5hash": "23b04a450ba47245dfaf596c8ccb0100",
+      "lines": {
+        "24": "public interface RecordFactory {",
+        "23": ""
+      },
+      "id": 73868813,
+      "filename": "RecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/apache/mahout.git",
+      "language": "Java",
+      "linescount": 48,
+      "location": "/core/src/main/java/org/apache/mahout/classifier/sgd",
+      "name": "mahout",
+      "url": "https://searchcode.com/codesearch/view/2223217/",
+      "md5hash": "2f2ed970e8ab29295a1aa15e7ff340cf",
+      "lines": {
+        "32": "  RecordFactory maxTargetValue(int max);",
+        "41": "",
+        "42": "  RecordFactory includeBiasTerm(boolean useBias);",
+        "28": " */",
+        "29": "public interface RecordFactory {",
+        "31": ""
+      },
+      "id": 2223217,
+      "filename": "RecordFactory.java"
+    },
+    {
+      "repo": "https://bitbucket.org/soko/mozilla-central",
+      "language": "Java",
+      "linescount": 47,
+      "location": "/mobile/android/base/sync/repositories",
+      "name": "mozilla-central",
+      "url": "https://searchcode.com/codesearch/view/61824197/",
+      "md5hash": "1b59a4705e27206634fbf8671235bf06",
+      "lines": {
+        "43": "// some concrete record type for application to some local repository.",
+        "44": "public abstract class RecordFactory {"
+      },
+      "id": 61824197,
+      "filename": "RecordFactory.java"
+    },
+    {
+      "repo": "https://bitbucket.org/gabral6_gmailcom/hazelcast.git",
+      "language": "Java",
+      "linescount": 30,
+      "location": "/hazelcast/src/main/java/com/hazelcast/impl/concurrentmap",
+      "name": "hazelcast",
+      "url": "https://searchcode.com/codesearch/view/51557387/",
+      "md5hash": "6e57201b2bc6f56c6cc48a6267f68790",
+      "lines": {
+        "24": "public interface RecordFactory {",
+        "23": ""
+      },
+      "id": 51557387,
+      "filename": "RecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/dcm4che/dcm4che.git",
+      "language": "Java",
+      "linescount": 273,
+      "location": "/dcm4che-core/src/main/java/org/dcm4che/media",
+      "name": "dcm4che",
+      "url": "https://searchcode.com/codesearch/view/16536814/",
+      "md5hash": "5a9b084dd35246146a6dda2ae878c51a",
+      "lines": {
+        "80": "            loadConfiguration(Thread.currentThread().getContextClassLoader()",
+        "81": "                    .getResource(\"org/dcm4che/media/RecordFactory.xml\")",
+        "60": " */",
+        "61": "public class RecordFactory {"
+      },
+      "id": 16536814,
+      "filename": "RecordFactory.java"
+    },
+    {
+      "repo": "https://github.com/j0hnds/FixedFormat.git",
+      "language": "Java",
+      "linescount": 55,
+      "location": "/src/main/java/org/hephaestus/fixedformat",
+      "name": "FixedFormat",
+      "url": "https://searchcode.com/codesearch/view/106707134/",
+      "md5hash": "22f380653304b116857fd8dfba1ef8c8",
+      "lines": {
+        "26": " */",
+        "27": "public interface RecordFactory {"
+      },
+      "id": 106707134,
+      "filename": "RecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/apache/hadoop-common.git",
+      "language": "Java",
+      "linescount": 29,
+      "location": "/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-api/src/main/java/org/apache/hadoop/yarn/factories",
+      "name": "hadoop-common",
+      "url": "https://searchcode.com/codesearch/view/116086665/",
+      "md5hash": "1d9f9ce70d6192545000a379a0969560",
+      "lines": {
+        "25": "@Unstable",
+        "26": "public interface RecordFactory {"
+      },
+      "id": 116086665,
+      "filename": "RecordFactory.java"
+    },
+    {
+      "repo": "https://bitbucket.org/careytilden/mozilla-central",
+      "language": "Java",
+      "linescount": 47,
+      "location": "/mobile/android/base/sync/repositories",
+      "name": "mozilla-central",
+      "url": "https://searchcode.com/codesearch/view/125579997/",
+      "md5hash": "1b59a4705e27206634fbf8671235bf06",
+      "lines": {
+        "43": "// some concrete record type for application to some local repository.",
+        "44": "public abstract class RecordFactory {"
+      },
+      "id": 125579997,
+      "filename": "RecordFactory.java"
+    },
+    {
+      "repo": "https://bitbucket.org/romaxa/mozilla-central-b2g-n9",
+      "language": "Java",
+      "linescount": 47,
+      "location": "/mobile/android/base/sync/repositories",
+      "name": "mozilla-central-b2g-n9",
+      "url": "https://searchcode.com/codesearch/view/126764273/",
+      "md5hash": "1b59a4705e27206634fbf8671235bf06",
+      "lines": {
+        "43": "// some concrete record type for application to some local repository.",
+        "44": "public abstract class RecordFactory {"
+      },
+      "id": 126764273,
+      "filename": "RecordFactory.java"
+    },
+    {
+      "repo": "https://bitbucket.org/bgirard/mozilla-central",
+      "language": "Java",
+      "linescount": 47,
+      "location": "/mobile/android/base/sync/repositories",
+      "name": "mozilla-central",
+      "url": "https://searchcode.com/codesearch/view/128056258/",
+      "md5hash": "1b59a4705e27206634fbf8671235bf06",
+      "lines": {
+        "43": "// some concrete record type for application to some local repository.",
+        "44": "public abstract class RecordFactory {"
+      },
+      "id": 128056258,
+      "filename": "RecordFactory.java"
+    },
+    {
+      "repo": "https://bitbucket.org/bgirard/tiling",
+      "language": "Java",
+      "linescount": 47,
+      "location": "/mobile/android/base/sync/repositories",
+      "name": "tiling",
+      "url": "https://searchcode.com/codesearch/view/128094476/",
+      "md5hash": "1b59a4705e27206634fbf8671235bf06",
+      "lines": {
+        "43": "// some concrete record type for application to some local repository.",
+        "44": "public abstract class RecordFactory {"
+      },
+      "id": 128094476,
+      "filename": "RecordFactory.java"
+    },
+    {
+      "repo": "https://bitbucket.org/thinker/mozilla-central",
+      "language": "Java",
+      "linescount": 14,
+      "location": "/mobile/android/base/sync/repositories",
+      "name": "mozilla-central",
+      "url": "https://searchcode.com/codesearch/view/128705221/",
+      "md5hash": "5812d984408b1070c841fa85d05b3511",
+      "lines": {
+        "10": "// some concrete record type for application to some local repository.",
+        "11": "public abstract class RecordFactory {"
+      },
+      "id": 128705221,
+      "filename": "RecordFactory.java"
+    },
+    {
+      "repo": "https://bitbucket.org/lahabana/mozilla-central",
+      "language": "Java",
+      "linescount": 14,
+      "location": "/mobile/android/base/sync/repositories",
+      "name": "mozilla-central",
+      "url": "https://searchcode.com/codesearch/view/129044795/",
+      "md5hash": "5812d984408b1070c841fa85d05b3511",
+      "lines": {
+        "10": "// some concrete record type for application to some local repository.",
+        "11": "public abstract class RecordFactory {"
+      },
+      "id": 129044795,
+      "filename": "RecordFactory.java"
+    },
+    {
+      "repo": "https://bitbucket.org/Jiten/mozilla-central",
+      "language": "Java",
+      "linescount": 14,
+      "location": "/mobile/android/base/sync/repositories",
+      "name": "mozilla-central",
+      "url": "https://searchcode.com/codesearch/view/129287983/",
+      "md5hash": "5812d984408b1070c841fa85d05b3511",
+      "lines": {
+        "10": "// some concrete record type for application to some local repository.",
+        "11": "public abstract class RecordFactory {"
+      },
+      "id": 129287983,
+      "filename": "RecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 322,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 202,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 30,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 1,
+      "source": "GitLab",
+      "id": 13
+    }
+  ]
+}

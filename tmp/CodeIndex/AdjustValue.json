@@ -1,0 +1,492 @@
+{
+  "matchterm": "AdjustValue",
+  "previouspage": null,
+  "searchterm": "AdjustValue",
+  "query": "AdjustValue",
+  "language_filters": [
+    {
+      "count": 765,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 765,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/artbugorski/brainfuj",
+      "language": "Java",
+      "linescount": 86,
+      "location": "/src/main/java/org/bitbucket/artbugorski/brainfuj/compiler",
+      "name": "brainfuj",
+      "url": "https://searchcode.com/codesearch/view/124155081/",
+      "md5hash": "dd5aa8a733bc9575e2f8a308c1a68e48",
+      "lines": {
+        "65": "",
+        "66": "\t\tfinal AdjustValue that = ( AdjustValue ) o;",
+        "40": "\tpublic static Instruction by( final int aRelativeChange ){",
+        "41": "\t\treturn new AdjustValue( aRelativeChange );",
+        "26": "",
+        "27": "    private AdjustValue( final int aRelativeValueChange ){",
+        "12": " */",
+        "13": "public class AdjustValue implements Instruction{"
+      },
+      "id": 124155081,
+      "filename": "AdjustValue.java"
+    },
+    {
+      "repo": "https://bitbucket.org/DaveRobertson/beechhall.git",
+      "language": "Java",
+      "linescount": 2368,
+      "location": "/processing/libraries/controlP5/src/controlP5",
+      "name": "beechhall",
+      "url": "https://searchcode.com/codesearch/view/37984247/",
+      "md5hash": "0d4e7e88ef3bbc4599769c3c9ffc99ae",
+      "lines": {
+        "1840": "\t}",
+        "1839": "\t\treturn adjustValue(theValue, _myDecimalPoints);",
+        "1838": "\tprotected String adjustValue(final float theValue) {",
+        "1846": "\t */",
+        "1847": "\tprotected String adjustValue(final float theValue, final int theFloatPrecision) {",
+        "1818": "\t\tint[] t = _myValueLabel.getAlign();",
+        "1819": "\t\t_myValueLabel = new Label(cp5, \"\" + (((adjustValue(_myMax)).length() > (adjustValue(_myMin)).length()) ? adjustValue(_myMax) : adjustValue(_myMin)));",
+        "1821": "\t\t_myValueLabel.setColor(color.getValueLabel());",
+        "1822": "\t\t_myValueLabel.set(\"\" + adjustValue(getValue()));",
+        "1837": "\t */"
+      },
+      "id": 37984247,
+      "filename": "Controller.java"
+    },
+    {
+      "repo": "https://github.com/aabaker99/mallet.git",
+      "language": "Java",
+      "linescount": 416,
+      "location": "/src/cc/mallet/topics",
+      "name": "mallet",
+      "url": "https://searchcode.com/codesearch/view/69410461/",
+      "md5hash": "aba2f3431b6d57947672c5cc25295309",
+      "lines": {
+        "256": "\t\t\t\ttokensPerTopic.adjustValue(oldTopic, -1);",
+        "257": "\t\t\t}",
+        "262": "\t\t\telse {",
+        "263": "\t\t\t\tcurrentTypeTopicCounts.adjustValue(oldTopic, -1);",
+        "305": "\t\t\t\tcurrentTypeTopicCounts.adjustOrPutValue(newTopic, 1, 1);",
+        "306": "\t\t\t\ttokensPerTopic.adjustValue(newTopic, 1);",
+        "147": "\t\t\t\telse {",
+        "148": "\t\t\t\t\ttopicCounts.adjustValue(topic, 1);",
+        "309": "\t\t\t\t\tlocalTopicCounts.adjustValue(newTopic, 1);",
+        "246": "\t\t\t\t\t// This is the last in the doc, but the topic still exists",
+        "247": "\t\t\t\t\tdocsPerTopic.adjustValue(oldTopic, -1);",
+        "248": "\t\t\t\t\ttotalDocTopics--;",
+        "308": "\t\t\t\tif (localTopicCounts.containsKey(newTopic)) {",
+        "314": "\t\t\t\t\tdocsPerTopic.adjustValue(newTopic, 1);",
+        "313": "\t\t\t\t\tlocalTopicCounts.put(newTopic, 1);",
+        "255": "\t\t\t\tlocalTopicCounts.adjustValue(oldTopic, -1);"
+      },
+      "id": 69410461,
+      "filename": "NPTopicModel.java"
+    },
+    {
+      "repo": "https://bitbucket.org/DaveRobertson/beechhall.git",
+      "language": "Java",
+      "linescount": 553,
+      "location": "/processing/libraries/controlP5/src/controlP5",
+      "name": "beechhall",
+      "url": "https://searchcode.com/codesearch/view/37984215/",
+      "md5hash": "ff114d3b1d6a537ad91c8acc1126a0d3",
+      "lines": {
+        "128": "\t\t_myCaptionLabel = new Label(cp5, theName).setColor(color.getCaptionLabel()).align(RIGHT_OUTSIDE, CENTER);",
+        "129": "\t\t_myValueLabel = new Label(cp5, \"\" + adjustValue(_myMin)).setColor(color.getValueLabel()).set(\"\" + adjustValue(theDefaultMinValue)).align(LEFT, CENTER);",
+        "130": "\t\t_myHighValueLabel = new Label(cp5, adjustValue(_myMax)).setColor(color.getValueLabel()).set(\"\" + adjustValue(theDefaultMaxValue)).align(RIGHT, CENTER);",
+        "131": "",
+        "260": "\t\treturn setValue(_myValue);",
+        "257": "\t\tmr = maxHandle - minHandle;",
+        "259": "\t\t_myValueLabel.set(adjustValue(_myArrayValue[0]));",
+        "258": "\t\t_myHighValueLabel.set(adjustValue(_myArrayValue[1]));"
+      },
+      "id": 37984215,
+      "filename": "Range.java"
+    },
+    {
+      "repo": "https://bitbucket.org/robeden/trove.git",
+      "language": "Java",
+      "linescount": 2076,
+      "location": "/test/gnu/trove/map/hash",
+      "name": "trove",
+      "url": "https://searchcode.com/codesearch/view/49927942/",
+      "md5hash": "461d434d304650df0e8f88e8459652a6",
+      "lines": {
+        "2071": "//        public boolean adjustValue( int key, long amount ) { return false; }",
+        "1770": "",
+        "1771": "    public void testAdjustValue() {",
+        "1775": "",
+        "1776": "        boolean changed = map.adjustValue( KEY_ONE, 1 );",
+        "1779": "",
+        "1780": "        changed = map.adjustValue( KEY_ONE, 5 );",
+        "2070": "//        public boolean increment( int key ) { return false; }",
+        "1783": "",
+        "1784": "        changed = map.adjustValue( KEY_ONE, -3 );",
+        "1787": "",
+        "1788": "        changed = map.adjustValue( KEY_TWO, 1 );"
+      },
+      "id": 49927942,
+      "filename": "TPrimitivePrimitiveHashMapTest.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openjfxmirrors/openjfx-sandbox-8-controls-rt",
+      "language": "Java",
+      "linescount": 426,
+      "location": "/javafx-ui-controls/test/javafx/scene/control",
+      "name": "openjfx-sandbox-8-controls-rt",
+      "url": "https://searchcode.com/codesearch/view/60434586/",
+      "md5hash": "3d80370a571831449fd4b4977c6e50cf",
+      "lines": {
+        "384": "        scrollBar.adjustValue(0.5);//This should not further change because position*(max-min) is now eqauls to the value so no more increments",
+        "387": "",
+        "388": "    @Test public void checkAdjustValueWhenActualValueIsCloseToMax() {",
+        "391": "        scrollBar.setValue(70.0);",
+        "392": "        scrollBar.adjustValue(0.5);//This should block decrement the value",
+        "393": "        assertEquals(scrollBar.getValue(), 60.0, 0.0);",
+        "394": "        scrollBar.adjustValue(0.5);//This should block decrement the value",
+        "395": "        assertEquals(scrollBar.getValue(), 50.0, 0.0);",
+        "396": "        scrollBar.adjustValue(0.5);//This should not further change because position*(max-min) is now eqauls to the value so no more decrements",
+        "375": "    ",
+        "376": "    @Test public void checkAdjustValueWhenActualValueIsCloseToMin() {",
+        "379": "        scrollBar.setValue(30.0);",
+        "380": "        scrollBar.adjustValue(0.5);//This should block increment the value",
+        "381": "        assertEquals(scrollBar.getValue(), 40.0, 0.0);",
+        "383": "        assertEquals(scrollBar.getValue(), 50.0, 0.0);"
+      },
+      "id": 60434586,
+      "filename": "ScrollBarTest.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openjfxmirrors/openjfx-sandbox-8-controls-rt",
+      "language": "Java",
+      "linescount": 254,
+      "location": "/javafx-ui-controls/src/com/sun/javafx/scene/control/behavior",
+      "name": "openjfx-sandbox-8-controls-rt",
+      "url": "https://searchcode.com/codesearch/view/60434893/",
+      "md5hash": "abd688cdb57ac08fd2d127adf4c44489",
+      "lines": {
+        "128": "            slider.adjustValue(position * (slider.getMax() - slider.getMin()) + slider.getMin());",
+        "129": "        } else {",
+        "130": "            slider.adjustValue((1-position) * (slider.getMax() - slider.getMin()) + slider.getMin());",
+        "199": "        if (slider.isSnapToTicks()) {",
+        "200": "            slider.adjustValue(slider.getValue() - computeIncrement());",
+        "192": "        slider.adjustValue(slider.getMin());",
+        "208": "        final Slider slider = getControl();",
+        "209": "        slider.adjustValue(slider.getMax());",
+        "216": "        if (slider.isSnapToTicks()) {",
+        "217": "            slider.adjustValue(slider.getValue()+ computeIncrement());",
+        "191": "        final Slider slider = getControl();",
+        "127": "        if (slider.getOrientation().equals(Orientation.HORIZONTAL)) {"
+      },
+      "id": 60434893,
+      "filename": "SliderBehavior.java"
+    },
+    {
+      "repo": "https://bitbucket.org/thejeshgn/processing101",
+      "language": "Java",
+      "linescount": 1585,
+      "location": "/project/libraries/controlP5/src/controlP5",
+      "name": "processing101",
+      "url": "https://searchcode.com/codesearch/view/118799577/",
+      "md5hash": "d869c13b0eeafb47547a08c5e9172b05",
+      "lines": {
+        "1408": "\tprotected String adjustValue(final float theValue) {",
+        "1409": "\t\treturn adjustValue(theValue, _myDecimalPoints);",
+        "1410": "\t}",
+        "1418": "\t */",
+        "1419": "\tprotected String adjustValue(final float theValue, final int theFloatPrecision) {",
+        "1398": "\t\t_myValueLabel = new Label(\"\"",
+        "1399": "\t\t\t\t+ (((adjustValue(_myMax)).length() > (adjustValue(_myMin)).length()) ? adjustValue(_myMax)",
+        "1400": "\t\t\t\t\t\t: adjustValue(_myMin)), color.colorValueLabel);",
+        "1401": "\t\t_myValueLabel.set(\"\" + adjustValue(_myValue));",
+        "1402": "\t}",
+        "1407": "\t */"
+      },
+      "id": 118799577,
+      "filename": "Controller.java"
+    },
+    {
+      "repo": "https://bitbucket.org/soleo/inyear2525",
+      "language": "Java",
+      "linescount": 1585,
+      "location": "/controlP5",
+      "name": "inyear2525",
+      "url": "https://searchcode.com/codesearch/view/121935794/",
+      "md5hash": "7bbe25c95485d72913bc940d812f9b32",
+      "lines": {
+        "1408": "\tpublic String adjustValue(final float theValue) {",
+        "1409": "\t\treturn adjustValue(theValue, _myDecimalPoints);",
+        "1410": "\t}",
+        "1418": "\t */",
+        "1419": "\tpublic String adjustValue(final float theValue, final int theFloatPrecision) {",
+        "1398": "\t\t_myValueLabel = new Label(\"\"",
+        "1399": "\t\t\t\t+ (((adjustValue(_myMax)).length() > (adjustValue(_myMin)).length()) ? adjustValue(_myMax)",
+        "1400": "\t\t\t\t\t\t: adjustValue(_myMin)), color.colorValueLabel);",
+        "1401": "\t\t_myValueLabel.set(\"\" + adjustValue(_myValue));",
+        "1402": "\t}",
+        "1407": "\t */"
+      },
+      "id": 121935794,
+      "filename": "Controller.java"
+    },
+    {
+      "repo": "https://bitbucket.org/andreynovikov/androzic.git",
+      "language": "Java",
+      "linescount": 318,
+      "location": "/src/com/androzic/overlay",
+      "name": "androzic",
+      "url": "https://searchcode.com/codesearch/view/47986963/",
+      "md5hash": "31f5d810c395b675eb534ddba94a8c29",
+      "lines": {
+        "144": "\t\treturn 0.2126 * adjustValue(R) + 0.7152 * adjustValue(G) + 0.0722 * adjustValue(B);",
+        "143": "\t\tint B = (rgb & 0x000000FF);",
+        "126": "",
+        "127": "\tprivate double adjustValue(int cc)"
+      },
+      "id": 47986963,
+      "filename": "RouteOverlay.java"
+    },
+    {
+      "repo": "https://bitbucket.org/robeden/trove.git",
+      "language": "Java",
+      "linescount": 1585,
+      "location": "/test/gnu/trove/map/hash",
+      "name": "trove",
+      "url": "https://searchcode.com/codesearch/view/49927944/",
+      "md5hash": "d89a1138477f0bc1342e2fa96f20c785",
+      "lines": {
+        "1040": "",
+        "1041": "        boolean changed = map.adjustValue( \"one\", 1 );",
+        "1044": "",
+        "1045": "        changed = map.adjustValue( \"one\", 5 );",
+        "1048": "",
+        "1049": "        changed = map.adjustValue( \"one\", -3 );",
+        "1035": "",
+        "1036": "    public void testAdjustValue() {",
+        "1053": "        changed = map.adjustValue( \"two\", 1 );",
+        "1052": ""
+      },
+      "id": 49927944,
+      "filename": "TObjectPrimitiveHashMapTest.java"
+    },
+    {
+      "repo": "https://bitbucket.org/thejeshgn/processing101",
+      "language": "Java",
+      "linescount": 410,
+      "location": "/project/libraries/controlP5/src/controlP5",
+      "name": "processing101",
+      "url": "https://searchcode.com/codesearch/view/118799595/",
+      "md5hash": "b6c4144fc771adea7ee58ec49ece345f",
+      "lines": {
+        "135": "",
+        "136": "\t\t_myValueLabel = new Label(\"\" + adjustValue(_myMin), color.colorValueLabel);",
+        "137": "\t\t_myValueLabel.set(\"\" + adjustValue(theDefaultMinValue));",
+        "138": "",
+        "139": "\t\t_myHighValueLabel = new Label(adjustValue(_myMax), color.colorValueLabel);",
+        "140": "\t\t_myHighValueLabel.set(\"\" + adjustValue(theDefaultMaxValue));",
+        "141": "",
+        "281": "\t\tmaxHandle = ((width - handleSize * 2) * ((_myArrayValue[1] - _myMin) / _myValueRange)) + handleSize;",
+        "282": "\t\t_myHighValueLabel.set(adjustValue(_myArrayValue[1]));",
+        "283": "\t\t_myValueLabel.set(adjustValue(_myArrayValue[0]));",
+        "284": "\t\tsetValue(_myValue);"
+      },
+      "id": 118799595,
+      "filename": "Range.java"
+    },
+    {
+      "repo": "https://bitbucket.org/thejeshgn/processing101",
+      "language": "Java",
+      "linescount": 440,
+      "location": "/project/libraries/controlP5/src/controlP5",
+      "name": "processing101",
+      "url": "https://searchcode.com/codesearch/view/118799599/",
+      "md5hash": "28f7b26eb8a7d6546fdc2def5cf3f4d9",
+      "lines": {
+        "116": "\t\t_myValueLabel = new Label(\"\"",
+        "117": "\t\t\t\t+ (((adjustValue(_myMax)).length() > (adjustValue(_myMin)).length()) ? adjustValue(_myMax)",
+        "118": "\t\t\t\t\t\t: adjustValue(_myMin)), color.colorValueLabel);",
+        "119": "\t\t// after initializing valueLabel, set the value to",
+        "120": "\t\t// the default value.",
+        "121": "\t\t_myValueLabel.set(\"\" + adjustValue(_myValue));",
+        "187": "\t\t_myValuePosition = ((_myValue - _myMin) / _myUnit);",
+        "188": "\t\t_myValueLabel.set(adjustValue(_myValue));"
+      },
+      "id": 118799599,
+      "filename": "Slider.java"
+    },
+    {
+      "repo": "https://bitbucket.org/soleo/inyear2525",
+      "language": "Java",
+      "linescount": 440,
+      "location": "/controlP5",
+      "name": "inyear2525",
+      "url": "https://searchcode.com/codesearch/view/121935784/",
+      "md5hash": "cc8d024d79da355d5569c9b9c8249225",
+      "lines": {
+        "116": "\t\t_myValueLabel = new Label(\"\"",
+        "117": "\t\t\t\t+ (((adjustValue(_myMax)).length() > (adjustValue(_myMin)).length()) ? adjustValue(_myMax)",
+        "118": "\t\t\t\t\t\t: adjustValue(_myMin)), color.colorValueLabel);",
+        "119": "\t\t// after initializing valueLabel, set the value to",
+        "120": "\t\t// the default value.",
+        "121": "\t\t_myValueLabel.set(\"\" + adjustValue(_myValue));",
+        "187": "\t\t_myValuePosition = ((_myValue - _myMin) / _myUnit);",
+        "188": "\t\t_myValueLabel.set(adjustValue(_myValue));"
+      },
+      "id": 121935784,
+      "filename": "Slider.java"
+    },
+    {
+      "repo": "https://bitbucket.org/soleo/inyear2525",
+      "language": "Java",
+      "linescount": 410,
+      "location": "/controlP5",
+      "name": "inyear2525",
+      "url": "https://searchcode.com/codesearch/view/121935789/",
+      "md5hash": "30256a0d2dee93f95200c7d747456713",
+      "lines": {
+        "135": "",
+        "136": "\t\t_myValueLabel = new Label(\"\" + adjustValue(_myMin), color.colorValueLabel);",
+        "137": "\t\t_myValueLabel.set(\"\" + adjustValue(theDefaultMinValue));",
+        "138": "",
+        "139": "\t\t_myHighValueLabel = new Label(adjustValue(_myMax), color.colorValueLabel);",
+        "140": "\t\t_myHighValueLabel.set(\"\" + adjustValue(theDefaultMaxValue));",
+        "141": "",
+        "281": "\t\tmaxHandle = ((width - handleSize * 2) * ((_myArrayValue[1] - _myMin) / _myValueRange)) + handleSize;",
+        "282": "\t\t_myHighValueLabel.set(adjustValue(_myArrayValue[1]));",
+        "283": "\t\t_myValueLabel.set(adjustValue(_myArrayValue[0]));",
+        "284": "\t\tsetValue(_myValue);"
+      },
+      "id": 121935789,
+      "filename": "Range.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openjfxmirrors/openjfx-sandbox-8-controls-rt",
+      "language": "Java",
+      "linescount": 802,
+      "location": "/javafx-ui-controls/src/javafx/scene/control",
+      "name": "openjfx-sandbox-8-controls-rt",
+      "url": "https://searchcode.com/codesearch/view/60434700/",
+      "md5hash": "e6d9a52a142431fc6a079f005f10c1b8",
+      "lines": {
+        "132": "                    }",
+        "133": "                    adjustValues();",
+        "550": "     * also takes into account {@link #snapToTicksProperty() snapToTicks}, which",
+        "551": "     * is the main difference between adjustValue and setValue. It also ensures ",
+        "168": "                    }",
+        "169": "                    adjustValues();",
+        "204": "                @Override protected void invalidated() {",
+        "205": "                    adjustValues();",
+        "558": "    public void adjustValue(double newValue) {",
+        "557": "     */",
+        "104": "        setValue(value);",
+        "590": "    private void adjustValues() {",
+        "105": "        adjustValues();",
+        "582": "        adjustValue(getValue() - getBlockIncrement());",
+        "589": "     */",
+        "581": "    public void decrement() {"
+      },
+      "id": 60434700,
+      "filename": "Slider.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openjfxmirrors/openjfx-sandbox-8-controls-rt",
+      "language": "Java",
+      "linescount": 354,
+      "location": "/javafx-ui-controls/src/com/sun/javafx/scene/control/behavior",
+      "name": "openjfx-sandbox-8-controls-rt",
+      "url": "https://searchcode.com/codesearch/view/60434895/",
+      "md5hash": "d852bbc2a0d0a30e5f1e3e8e849042b2",
+      "lines": {
+        "96": "    void incrementValue() {",
+        "97": "        getControl().adjustValue(1);",
+        "196": "                        // started decrementing and still are",
+        "197": "                        bar.adjustValue(pos);",
+        "88": "    void decrementValue() {",
+        "89": "        getControl().adjustValue(0);",
+        "333": "        // snap to the correct position on the scrollbar",
+        "334": "        (getControl()).adjustValue(position);"
+      },
+      "id": 60434895,
+      "filename": "ScrollBarBehavior.java"
+    },
+    {
+      "repo": "https://bitbucket.org/DaveRobertson/beechhall.git",
+      "language": "Java",
+      "linescount": 686,
+      "location": "/processing/libraries/controlP5/src/controlP5",
+      "name": "beechhall",
+      "url": "https://searchcode.com/codesearch/view/37984214/",
+      "md5hash": "b5466ca5c54a2ac5c444a1ae28a44d03",
+      "lines": {
+        "246": "\t\t_myValuePosition = ((_myValue - _myMin) / _myUnit);",
+        "247": "\t\t_myValueLabel.set(adjustValue(getValue()));",
+        "536": "\t\t\t_myCaptionLabel.setColor(color.getValueLabel()).align(LEFT, BOTTOM_OUTSIDE).setPadding(0, Label.paddingY);",
+        "537": "\t\t\t_myValueLabel.set(\"\" + adjustValue(getValue())).align(RIGHT_OUTSIDE, TOP);",
+        "604": "\t\t\t_myCaptionLabel.setColor(color.getValueLabel()).align(RIGHT_OUTSIDE, CENTER);",
+        "605": "\t\t\t_myValueLabel.set(\"\" + adjustValue(getValue())).align(LEFT, CENTER);"
+      },
+      "id": 37984214,
+      "filename": "Slider.java"
+    },
+    {
+      "repo": "https://bitbucket.org/marlovitsh/elexis-base-marlovitsh-new",
+      "language": "Java",
+      "linescount": 288,
+      "location": "/ch.elexis.noatext/src/ag/ion/bion/officelayer/internal/text",
+      "name": "elexis-base-marlovitsh-new",
+      "url": "https://searchcode.com/codesearch/view/61098370/",
+      "md5hash": "8ee560a3596875840468d1b7500ee4ae",
+      "lines": {
+        "224": "   */",
+        "225": "  public void setParaAdjust(short adjustValue) throws TextException {",
+        "226": "  \ttry {",
+        "227": "      getXPropertySet().setPropertyValue(\"ParaAdjust\",new Short(adjustValue));",
+        "218": "   * ",
+        "219": "   * @param adjustValue the para adjust to be set"
+      },
+      "id": 61098370,
+      "filename": "ParagraphProperties.java"
+    },
+    {
+      "repo": "https://github.com/aabaker99/mallet.git",
+      "language": "Java",
+      "linescount": 720,
+      "location": "/src/cc/mallet/topics",
+      "name": "mallet",
+      "url": "https://searchcode.com/codesearch/view/69410453/",
+      "md5hash": "e45e3e04cff38432fc64889d87563282",
+      "lines": {
+        "176": "\t\t\telse {",
+        "177": "\t\t\t\tcurrentTypeTopicCounts.adjustValue(oldTopic, -1);",
+        "332": "\t\t\telse {",
+        "333": "\t\t\t\tcurrentTypeTopicCounts.adjustValue(oldTopic, -1);",
+        "526": "\t\t\t\tcurrentTypeTopicCounts.adjustValue(oldTopic, -1);",
+        "525": "\t\t\telse {"
+      },
+      "id": 69410453,
+      "filename": "LDAStream.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 430,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 322,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 13,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

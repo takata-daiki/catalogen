@@ -1,0 +1,48 @@
+{
+  "matchterm": "XSSFAutoFilter",
+  "previouspage": null,
+  "searchterm": "XSSFAutoFilter",
+  "query": "XSSFAutoFilter",
+  "language_filters": [
+    {
+      "count": 1,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 1,
+  "results": [
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 5111,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970697/",
+      "md5hash": "f6740268ba4be4778508748ca1c3becc",
+      "lines": {
+        "4768": "\t\t\t((XSSFAutoFilter.XSSFFilterColumn)fc).setProperties(criteria1, filterOp, criteria2, visibleDropDown);",
+        "4769": "\t\t} else {",
+        "4766": "\tpublic static void setProperties(FilterColumn fc, Object criteria1, int filterOp, Object criteria2, Boolean visibleDropDown) {",
+        "4758": "\tpublic static FilterColumn getOrCreateFilterColumn(AutoFilter af, int colId) {",
+        "4759": "\t\tif (af instanceof XSSFAutoFilter) {",
+        "4760": "\t\t\treturn ((XSSFAutoFilter)af).getOrCreateFilterColumn(colId);",
+        "4761": "\t\t} else {",
+        "4767": "\t\tif (fc instanceof XSSFAutoFilter.XSSFFilterColumn) {",
+        "110": "import org.zkoss.poi.xssf.model.ThemesTable;",
+        "111": "import org.zkoss.poi.xssf.usermodel.XSSFAutoFilter;"
+      },
+      "id": 3970697,
+      "filename": "BookHelper.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

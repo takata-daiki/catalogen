@@ -1,0 +1,456 @@
+{
+  "matchterm": "WorkbookFactory",
+  "previouspage": null,
+  "searchterm": "WorkbookFactory",
+  "query": "WorkbookFactory",
+  "language_filters": [
+    {
+      "count": 153,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 153,
+  "results": [
+    {
+      "repo": "https://github.com/kuguobing/dddlib.git",
+      "language": "Java",
+      "linescount": 43,
+      "location": "/excel/src/main/java/com/dayatang/excel",
+      "name": "dddlib",
+      "url": "https://searchcode.com/codesearch/view/76067644/",
+      "md5hash": "664909d01e713c2007f0be6994668b6c",
+      "lines": {
+        "12": "",
+        "13": "public class WorkbookFactory {",
+        "14": "\t",
+        "15": "\tprivate WorkbookFactory() {"
+      },
+      "id": 76067644,
+      "filename": "WorkbookFactory.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 1160,
+      "location": "/src/main/java/com/extentech/formats/XLS",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47124740/",
+      "md5hash": "d657986311c28ed3b32263280b3d6127",
+      "lines": {
+        "211": "\t\tif (reclen < 0)",
+        "212": "\t\t    throw new InvalidRecordException(\"WorkBookFactory.getWorkBook() Negative Reclen encountered pos:\" + i + \" opcode:0x\" + Integer.toHexString(opcode));",
+        "213": "\t\telse if ((reclen + 1) > blen)",
+        "214": "\t\t    throw new InvalidRecordException(\"WorkBookFactory.getWorkBook() Reclen longer than data pos:\" + i + \" opcode:0x\" + Integer.toHexString(opcode));",
+        "40": " */",
+        "41": "public class WorkBookFactory implements com.extentech.toolkit.ProgressNotifier, XLSConstants, Serializable {"
+      },
+      "id": 47124740,
+      "filename": "WorkBookFactory.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 1160,
+      "location": "/src/main/java/com/extentech/formats/XLS",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976364/",
+      "md5hash": "d657986311c28ed3b32263280b3d6127",
+      "lines": {
+        "211": "\t\tif (reclen < 0)",
+        "212": "\t\t    throw new InvalidRecordException(\"WorkBookFactory.getWorkBook() Negative Reclen encountered pos:\" + i + \" opcode:0x\" + Integer.toHexString(opcode));",
+        "213": "\t\telse if ((reclen + 1) > blen)",
+        "214": "\t\t    throw new InvalidRecordException(\"WorkBookFactory.getWorkBook() Reclen longer than data pos:\" + i + \" opcode:0x\" + Integer.toHexString(opcode));",
+        "40": " */",
+        "41": "public class WorkBookFactory implements com.extentech.toolkit.ProgressNotifier, XLSConstants, Serializable {"
+      },
+      "id": 50976364,
+      "filename": "WorkBookFactory.java"
+    },
+    {
+      "repo": "https://github.com/teruok78/pentaho-kettle.git",
+      "language": "Java",
+      "linescount": 68,
+      "location": "/engine/src/org/pentaho/di/trans/steps/excelinput",
+      "name": "pentaho-kettle",
+      "url": "https://searchcode.com/codesearch/view/95325967/",
+      "md5hash": "1ad0813114ce66a561b234cccc3dee46",
+      "lines": {
+        "33": "",
+        "34": "public class WorkbookFactory {"
+      },
+      "id": 95325967,
+      "filename": "WorkbookFactory.java"
+    },
+    {
+      "repo": "https://bitbucket.org/eug48/xmind3-releases-mirror",
+      "language": "Java",
+      "linescount": 61,
+      "location": "/org.xmind.ui.mindmap/src/org/xmind/ui/internal",
+      "name": "xmind3-releases-mirror",
+      "url": "https://searchcode.com/codesearch/view/119534750/",
+      "md5hash": "1add2ba5ff1a6783657ae165f3750821",
+      "lines": {
+        "28": "",
+        "29": "public class WorkbookFactory {"
+      },
+      "id": 119534750,
+      "filename": "WorkbookFactory.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghooning/pentaho-kettle-4.3.0-stable.git",
+      "language": "Java",
+      "linescount": 49,
+      "location": "/src/org/pentaho/di/trans/steps/excelinput",
+      "name": "pentaho-kettle-4.3.0-stable",
+      "url": "https://searchcode.com/codesearch/view/42462276/",
+      "md5hash": "fdaa2181e3b4b1b6abcea4c491ecd031",
+      "lines": {
+        "30": "",
+        "31": "public class WorkbookFactory"
+      },
+      "id": 42462276,
+      "filename": "WorkbookFactory.java"
+    },
+    {
+      "repo": "https://github.com/teruok78/pentaho-kettle.git",
+      "language": "Java",
+      "linescount": 153,
+      "location": "/engine/src/org/pentaho/di/trans/steps/excelinput/poi",
+      "name": "pentaho-kettle",
+      "url": "https://searchcode.com/codesearch/view/95326019/",
+      "md5hash": "8cff0225fc98497fe73eaf2b30fbfebb",
+      "lines": {
+        "84": "    try {",
+        "66": "            opcpkg = OPCPackage.open( excelFile );",
+        "67": "            workbook = org.apache.poi.ss.usermodel.WorkbookFactory.create( opcpkg );",
+        "68": "          } catch ( Exception ex ) {",
+        "69": "            workbook = org.apache.poi.ss.usermodel.WorkbookFactory.create( excelFile );",
+        "85": "      workbook = org.apache.poi.ss.usermodel.WorkbookFactory.create( inputStream );",
+        "73": "        internalIS = KettleVFS.getInputStream( filename );",
+        "74": "        workbook = org.apache.poi.ss.usermodel.WorkbookFactory.create( internalIS );",
+        "62": "          npoifs = new NPOIFSFileSystem( excelFile );",
+        "63": "          workbook = org.apache.poi.ss.usermodel.WorkbookFactory.create( npoifs );"
+      },
+      "id": 95326019,
+      "filename": "PoiWorkbook.java"
+    },
+    {
+      "repo": "https://github.com/semantalytics/RightField.git",
+      "language": "Java",
+      "linescount": 49,
+      "location": "/src/test/java/uk/ac/manchester/cs/owl/semspreadsheets/model",
+      "name": "RightField",
+      "url": "https://searchcode.com/codesearch/view/72853646/",
+      "md5hash": "2dfe6ba3fe828a46a54d5223abaeaff0",
+      "lines": {
+        "33": "\tpublic void testLoadXLSWorkbook() throws Exception {",
+        "34": "\t\tWorkbook book = WorkbookFactory.createWorkbook(DocumentsCatalogue.populatedJermWorkbookURI());",
+        "41": "\tpublic void testLoadXLSXWorkbook() throws Exception {",
+        "42": "\t\tWorkbook book = WorkbookFactory.createWorkbook(DocumentsCatalogue.populatedJermWorkbookXLSXURI());",
+        "11": "",
+        "12": "public class WorkbookFactoryTest {",
+        "15": "\tpublic void testCreateWorkbook() {",
+        "16": "\t\tWorkbook book = WorkbookFactory.createWorkbook();",
+        "22": "\tpublic void testCreateWorkbookbyFormat() {",
+        "23": "\t\tWorkbook book = WorkbookFactory.createWorkbook(WorkbookFormat.EXCEL97);",
+        "26": "\t\t",
+        "27": "\t\tbook = WorkbookFactory.createWorkbook(WorkbookFormat.EXCEL2007);"
+      },
+      "id": 72853646,
+      "filename": "WorkbookFactoryTest.java"
+    },
+    {
+      "repo": "https://github.com/semantalytics/RightField.git",
+      "language": "Java",
+      "linescount": 212,
+      "location": "/src/test/java/uk/ac/manchester/cs/owl/semspreadsheets/model/impl",
+      "name": "RightField",
+      "url": "https://searchcode.com/codesearch/view/72853835/",
+      "md5hash": "8fc47d5c2c35edf17a5053955791ba22",
+      "lines": {
+        "18": "import uk.ac.manchester.cs.owl.semspreadsheets.model.Workbook;",
+        "19": "import uk.ac.manchester.cs.owl.semspreadsheets.model.WorkbookFactory;",
+        "180": "\t\t",
+        "181": "\t\tWorkbook wb2 = WorkbookFactory.createWorkbook(f.toURI());",
+        "171": "\tpublic void testColumnWidthAfterSave() throws Exception {",
+        "172": "\t\tWorkbook wb = getTestWorkbook(); //opens a workbook using WorkbookFactory",
+        "158": "\t\tassertTrue(f.exists());",
+        "159": "\t\twb = WorkbookFactory.createWorkbook(f.toURI());"
+      },
+      "id": 72853835,
+      "filename": "GeneralWorkbookTests.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 4583,
+      "location": "/src/main/java/com/extentech/formats/XLS",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47124896/",
+      "md5hash": "4301cacd2b525780778bbfd8418fdb0a",
+      "lines": {
+        "2505": "\t\t\t\tnamebytes = newname.getBytes(WorkBookFactory.DEFAULTENCODING);",
+        "2502": "\t\t\tif (grbitChr == 0x1) {",
+        "2470": "\t\t\tif (grbitChr == 0x1) {",
+        "2471": "\t            sheetname = new String(namebytes, WorkBookFactory.UNICODEENCODING);",
+        "2472": "\t\t\t} else {",
+        "2473": "\t            sheetname = new String(namebytes, WorkBookFactory.DEFAULTENCODING);",
+        "2122": "\t\tif (c.getOpcode() == WorkBookFactory.RK) {",
+        "2503": "\t\t\t\tnamebytes = newname.getBytes(WorkBookFactory.UNICODEENCODING);",
+        "2504": "\t\t\t} else {",
+        "2100": "\t\tBiffRec c = (BiffRec) getCell(startaddr);",
+        "2101": "\t\tif (c.getOpcode() == WorkBookFactory.RK) {",
+        "2121": "\tpublic void updateCellReferences(BiffRec c, String endaddr) {"
+      },
+      "id": 47124896,
+      "filename": "Boundsheet.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 4583,
+      "location": "/src/main/java/com/extentech/formats/XLS",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976520/",
+      "md5hash": "4301cacd2b525780778bbfd8418fdb0a",
+      "lines": {
+        "2505": "\t\t\t\tnamebytes = newname.getBytes(WorkBookFactory.DEFAULTENCODING);",
+        "2502": "\t\t\tif (grbitChr == 0x1) {",
+        "2470": "\t\t\tif (grbitChr == 0x1) {",
+        "2471": "\t            sheetname = new String(namebytes, WorkBookFactory.UNICODEENCODING);",
+        "2472": "\t\t\t} else {",
+        "2473": "\t            sheetname = new String(namebytes, WorkBookFactory.DEFAULTENCODING);",
+        "2122": "\t\tif (c.getOpcode() == WorkBookFactory.RK) {",
+        "2503": "\t\t\t\tnamebytes = newname.getBytes(WorkBookFactory.UNICODEENCODING);",
+        "2504": "\t\t\t} else {",
+        "2100": "\t\tBiffRec c = (BiffRec) getCell(startaddr);",
+        "2101": "\t\tif (c.getOpcode() == WorkBookFactory.RK) {",
+        "2121": "\tpublic void updateCellReferences(BiffRec c, String endaddr) {"
+      },
+      "id": 50976520,
+      "filename": "Boundsheet.java"
+    },
+    {
+      "repo": "https://github.com/semantalytics/RightField.git",
+      "language": "Java",
+      "linescount": 399,
+      "location": "/src/main/java/uk/ac/manchester/cs/owl/semspreadsheets/model",
+      "name": "RightField",
+      "url": "https://searchcode.com/codesearch/view/72854283/",
+      "md5hash": "d599ea56ea870a992a9bf8147f9981fb",
+      "lines": {
+        "168": "    \ttry {",
+        "169": "    \t\tworkbook = WorkbookFactory.createWorkbook(format);  ",
+        "60": "        entitySelectionModel = new EntitySelectionModel(ontologyManager.getOWLOntologyManager().getOWLDataFactory().getOWLThing());        ",
+        "61": "        workbook = WorkbookFactory.createWorkbook();",
+        "190": "            workbook = WorkbookFactory.createWorkbook(uri);",
+        "189": "        \tOntologyTermValidationWorkbookParser.clearOriginalColours();"
+      },
+      "id": 72854283,
+      "filename": "WorkbookManager.java"
+    },
+    {
+      "repo": "https://github.com/kuguobing/dddlib.git",
+      "language": "Java",
+      "linescount": 353,
+      "location": "/excel/src/main/java/com/dayatang/excel",
+      "name": "dddlib",
+      "url": "https://searchcode.com/codesearch/view/76067623/",
+      "md5hash": "9717764d1e55f6087e5bc8ab5a0a8c72",
+      "lines": {
+        "49": "\tpublic ExcelHandler(File excelFile, Version version) {",
+        "50": "\t\tworkbook = WorkbookFactory.createWorkbook(excelFile, version);",
+        "54": "\tpublic ExcelHandler(InputStream excelStream, Version version) {",
+        "55": "\t\tworkbook = WorkbookFactory.createWorkbook(excelStream, version);",
+        "44": "\tpublic ExcelHandler(File excelFile) {",
+        "45": "\t\tworkbook = WorkbookFactory.createWorkbook(excelFile);"
+      },
+      "id": 76067623,
+      "filename": "ExcelHandler.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 2090,
+      "location": "/src/main/java/com/extentech/ExtenXLS",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47125164/",
+      "md5hash": "cb1c040a50980224542e9581709ba28b",
+      "lines": {
+        "1126": "\t}",
+        "1123": "",
+        "1124": "\tprotected void initWorkBookFactory() {",
+        "1125": "\t\tmyfactory = new WorkBookFactory();",
+        "70": "import com.extentech.formats.XLS.Sxview;",
+        "71": "import com.extentech.formats.XLS.WorkBookFactory;",
+        "1132": "\t    // set state vars for this workbookhandle",
+        "109": "\t/** A Writer to which a record dump should be written on input.",
+        "110": "     * This is used by the dumping code in WorkBookFactory.",
+        "1133": "\t\tthis.initWorkBookFactory();",
+        "1264": "\tprotected synchronized void initBytes(BlockByteReader blockByteReader) {",
+        "1265": "\t\tthis.initWorkBookFactory();",
+        "115": "    protected LEOFile myLEOFile;",
+        "116": "    protected WorkBookFactory myfactory = null;",
+        "188": "     */",
+        "189": "    public WorkBookFactory getFactory() {"
+      },
+      "id": 47125164,
+      "filename": "WorkBookHandle.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 2090,
+      "location": "/src/main/java/com/extentech/ExtenXLS",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976788/",
+      "md5hash": "cb1c040a50980224542e9581709ba28b",
+      "lines": {
+        "1126": "\t}",
+        "1123": "",
+        "1124": "\tprotected void initWorkBookFactory() {",
+        "1125": "\t\tmyfactory = new WorkBookFactory();",
+        "70": "import com.extentech.formats.XLS.Sxview;",
+        "71": "import com.extentech.formats.XLS.WorkBookFactory;",
+        "1132": "\t    // set state vars for this workbookhandle",
+        "109": "\t/** A Writer to which a record dump should be written on input.",
+        "110": "     * This is used by the dumping code in WorkBookFactory.",
+        "1133": "\t\tthis.initWorkBookFactory();",
+        "1264": "\tprotected synchronized void initBytes(BlockByteReader blockByteReader) {",
+        "1265": "\t\tthis.initWorkBookFactory();",
+        "115": "    protected LEOFile myLEOFile;",
+        "116": "    protected WorkBookFactory myfactory = null;",
+        "188": "     */",
+        "189": "    public WorkBookFactory getFactory() {"
+      },
+      "id": 50976788,
+      "filename": "WorkBookHandle.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 100,
+      "location": "/src/main/java/com/extentech/formats/XLS",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47124884/",
+      "md5hash": "f7e80f09928d0a7c88c6a5176816a17f",
+      "lines": {
+        "88": "\t\t   }else{",
+        "54": "\t\t\tif (grbitChr == 0x1){",
+        "86": "\t\t   if (grbitChr == 0x1){",
+        "55": "\t\t\t\tstCodeName = new String(namebytes, WorkBookFactory.UNICODEENCODING);",
+        "56": "\t\t\t}else{",
+        "57": "\t\t\t\tstCodeName = new String(namebytes, WorkBookFactory.DEFAULTENCODING);",
+        "87": "\t\t\t   namebytes = newname.getBytes(WorkBookFactory.UNICODEENCODING);",
+        "89": "\t\t\t   namebytes =  newname.getBytes(WorkBookFactory.DEFAULTENCODING);"
+      },
+      "id": 47124884,
+      "filename": "Codename.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 100,
+      "location": "/src/main/java/com/extentech/formats/XLS",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976508/",
+      "md5hash": "f7e80f09928d0a7c88c6a5176816a17f",
+      "lines": {
+        "88": "\t\t   }else{",
+        "54": "\t\t\tif (grbitChr == 0x1){",
+        "86": "\t\t   if (grbitChr == 0x1){",
+        "55": "\t\t\t\tstCodeName = new String(namebytes, WorkBookFactory.UNICODEENCODING);",
+        "56": "\t\t\t}else{",
+        "57": "\t\t\t\tstCodeName = new String(namebytes, WorkBookFactory.DEFAULTENCODING);",
+        "87": "\t\t\t   namebytes = newname.getBytes(WorkBookFactory.UNICODEENCODING);",
+        "89": "\t\t\t   namebytes =  newname.getBytes(WorkBookFactory.DEFAULTENCODING);"
+      },
+      "id": 50976508,
+      "filename": "Codename.java"
+    },
+    {
+      "repo": "https://github.com/teruok78/pentaho-kettle.git",
+      "language": "Java",
+      "linescount": 2416,
+      "location": "/ui/src/org/pentaho/di/ui/trans/steps/excelinput",
+      "name": "pentaho-kettle",
+      "url": "https://searchcode.com/codesearch/view/95319777/",
+      "md5hash": "1c15aa260d350949a6b8fbcee81107cd",
+      "lines": {
+        "83": "import org.pentaho.di.trans.steps.excelinput.SpreadSheetType;",
+        "84": "import org.pentaho.di.trans.steps.excelinput.WorkbookFactory;",
+        "1948": "        KWorkbook workbook =",
+        "1949": "          WorkbookFactory.getWorkbook( info.getSpreadSheetType(), KettleVFS.getFilename( file ), info",
+        "1886": "        KWorkbook workbook =",
+        "1887": "          WorkbookFactory.getWorkbook( info.getSpreadSheetType(), KettleVFS.getFilename( fileObject ), info"
+      },
+      "id": 95319777,
+      "filename": "ExcelInputDialog.java"
+    },
+    {
+      "repo": "https://github.com/rohanbaraskar/mavenParallel.git",
+      "language": "Java",
+      "linescount": 37,
+      "location": "/maven1/src/test/java/simple",
+      "name": "mavenParallel",
+      "url": "https://searchcode.com/codesearch/view/98932016/",
+      "md5hash": "a59a966041c9d5871158a48264bf6aef",
+      "lines": {
+        "8": "import org.apache.poi.ss.usermodel.Workbook;",
+        "9": "import org.apache.poi.ss.usermodel.WorkbookFactory;",
+        "12": "        FileInputStream fis = new FileInputStream(pathOfFile);",
+        "13": "        Workbook wb = WorkbookFactory.create(fis);",
+        "30": "        Workbook wb = WorkbookFactory.create(fis);",
+        "29": "        FileInputStream fis = new FileInputStream(pathOfFile);"
+      },
+      "id": 98932016,
+      "filename": "GenericExcelRead.java"
+    },
+    {
+      "repo": "https://bitbucket.org/eug48/xmind3-releases-mirror",
+      "language": "Java",
+      "linescount": 624,
+      "location": "/org.xmind.ui.mindmap/src/org/xmind/ui/internal/wizards",
+      "name": "xmind3-releases-mirror",
+      "url": "https://searchcode.com/codesearch/view/119535432/",
+      "md5hash": "a22fea3b408ad2fba7442f88d70877c6",
+      "lines": {
+        "336": "                file.create(WorkbookFactory.createEmptyWorkbookStream(), false,",
+        "531": "            FileUtils.ensureFileParent(file);",
+        "323": "                return MME.createFileEditorInput(file);",
+        "324": "//                IWorkbook workbook = WorkbookFactory.createEmptyWorkbook(file",
+        "69": "import org.xmind.ui.internal.MindMapUIPlugin;",
+        "70": "import org.xmind.ui.internal.WorkbookFactory;",
+        "532": "            IWorkbook workbook = WorkbookFactory.createEmptyWorkbook();",
+        "335": "            try {"
+      },
+      "id": 119535432,
+      "filename": "NewWorkbookWizard.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 94,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 43,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 13,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 3,
+      "source": "GitLab",
+      "id": 13
+    }
+  ]
+}

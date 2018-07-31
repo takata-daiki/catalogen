@@ -1,0 +1,139 @@
+{
+  "matchterm": "XSLFTextShape",
+  "previouspage": null,
+  "searchterm": "XSLFTextShape",
+  "query": "XSLFTextShape",
+  "language_filters": [
+    {
+      "count": 6,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 6,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 617,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406813/",
+      "md5hash": "bf44107253290c5472d69b4baedf81f5",
+      "lines": {
+        "64": "    /*package*/ XSLFTextShape(XmlObject shape, XSLFSheet sheet) {",
+        "578": "",
+        "579": "        XSLFTextShape tsh = (XSLFTextShape)sh;",
+        "55": "@Beta",
+        "56": "public abstract class XSLFTextShape extends XSLFSimpleShape implements Iterable<XSLFTextParagraph>{",
+        "63": ""
+      },
+      "id": 97406813,
+      "filename": "XSLFTextShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 555,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406768/",
+      "md5hash": "06c77456c926d8545168347abe70a1d6",
+      "lines": {
+        "64": "    private List<XSLFTextShape>_placeholders;",
+        "384": "               XSLFTextShape txt = (XSLFTextShape)shape;",
+        "443": "    public XSLFTextShape getPlaceholder(int idx) {",
+        "452": "    public XSLFTextShape[] getPlaceholders() {",
+        "453": "        initPlaceholders();",
+        "454": "        return _placeholders.toArray(new XSLFTextShape[_placeholders.size()]);",
+        "385": "                if(txt.getTextType() == type) {",
+        "451": "     */",
+        "404": "        if(_placeholders == null) {",
+        "405": "            _placeholders = new ArrayList<XSLFTextShape>();",
+        "442": "     */",
+        "63": "",
+        "380": "",
+        "381": "    protected XSLFTextShape getTextShapeByType(Placeholder type){",
+        "382": "        for(XSLFShape shape : this.getShapes()){",
+        "383": "            if(shape instanceof XSLFTextShape) {"
+      },
+      "id": 97406768,
+      "filename": "XSLFSheet.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1185,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406665/",
+      "md5hash": "dc9cd103f74ef072c0c52e3cc628a7cb",
+      "lines": {
+        "80": "    private final List<XSLFTextRun> _runs;",
+        "81": "    private final XSLFTextShape _shape;",
+        "135": "",
+        "136": "    XSLFTextShape getParentShape() {",
+        "89": "",
+        "90": "    XSLFTextParagraph(CTTextParagraph p, XSLFTextShape shape){",
+        "1100": "        if(!ok) {",
+        "1101": "            XSLFTextShape shape = getParentShape();"
+      },
+      "id": 97406665,
+      "filename": "XSLFTextParagraph.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 247,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406624/",
+      "md5hash": "bd91cfe08b1a6b3395f8a88caf56a673",
+      "lines": {
+        "177": "    public String getTitle(){",
+        "178": "        XSLFTextShape txt = getTextShapeByType(Placeholder.TITLE);"
+      },
+      "id": 97406624,
+      "filename": "XSLFSlide.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 332,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406744/",
+      "md5hash": "d9786c69133305cfa801002edcf9fc63",
+      "lines": {
+        "46": " */",
+        "47": "public class XSLFTableCell extends XSLFTextShape {"
+      },
+      "id": 97406744,
+      "filename": "XSLFTableCell.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 547,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406808/",
+      "md5hash": "d2b2f692a7b658d89cb45fae37549298",
+      "lines": {
+        "491": "        if(!ok) {",
+        "492": "            XSLFTextShape shape = _p.getParentShape();"
+      },
+      "id": 97406808,
+      "filename": "XSLFTextRun.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 6,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

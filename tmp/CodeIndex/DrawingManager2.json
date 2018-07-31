@@ -1,0 +1,97 @@
+{
+  "matchterm": "DrawingManager2",
+  "previouspage": null,
+  "searchterm": "DrawingManager2",
+  "query": "DrawingManager2",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 155,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642353/",
+      "md5hash": "59154360b890e81907d275266ee0785f",
+      "lines": {
+        "60": "",
+        "61": "    public DrawingManager2( EscherDggRecord dgg )",
+        "54": " */",
+        "55": "public class DrawingManager2"
+      },
+      "id": 15642353,
+      "filename": "DrawingManager2.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 766,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642409/",
+      "md5hash": "9e212df4a5b523744fd315d99c376d1b",
+      "lines": {
+        "337": "     */",
+        "338": "    public static EscherAggregate createAggregate( List records, int locFirstDrawingRecord, DrawingManager2 drawingManager )",
+        "291": "",
+        "292": "    public EscherAggregate( DrawingManager2 drawingManager )",
+        "283": "    private Map shapeToObj = new HashMap();",
+        "284": "    private DrawingManager2 drawingManager;",
+        "46": "import loci.poi.hssf.model.TextboxShape;",
+        "47": "import loci.poi.hssf.model.DrawingManager2;"
+      },
+      "id": 15642409,
+      "filename": "EscherAggregate.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 2351,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642358/",
+      "md5hash": "2f47d8e4aa73ffbba0d056d2a6f68eee",
+      "lines": {
+        "2278": "",
+        "2279": "    public DrawingManager2 getDrawingManager()",
+        "123": "    private boolean            uses1904datewindowing  = false;  // whether 1904 date windowing is being used",
+        "124": "    private DrawingManager2    drawingManager;",
+        "2189": "            dgg.setFileIdClusters(new EscherDggRecord.FileIdCluster[] {} );",
+        "2190": "            drawingManager = new DrawingManager2(dgg);"
+      },
+      "id": 15642358,
+      "filename": "Workbook.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 3300,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642365/",
+      "md5hash": "1e8d548d196dc1063c30d9430b35b9f5",
+      "lines": {
+        "2680": "    public int aggregateDrawingRecords(DrawingManager2 drawingManager)",
+        "2679": ""
+      },
+      "id": 15642365,
+      "filename": "Sheet.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "matchterm": "POIFSReaderEvent",
+  "previouspage": null,
+  "searchterm": "POIFSReaderEvent",
+  "query": "POIFSReaderEvent",
+  "language_filters": [
+    {
+      "count": 10,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 10,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 104,
+      "location": "/components/forks/poi/src/loci/poi/poifs/eventfilesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642293/",
+      "md5hash": "1e53c478518579e98dad7747cf35907b",
+      "lines": {
+        "48": " * Class POIFSReaderEvent",
+        "67": "",
+        "68": "    POIFSReaderEvent(final DocumentInputStream stream,",
+        "53": "",
+        "54": "public class POIFSReaderEvent",
+        "101": "    }",
+        "102": "}   // end public class POIFSReaderEvent",
+        "47": "/**"
+      },
+      "id": 15642293,
+      "filename": "POIFSReaderEvent.java"
+    },
+    {
+      "repo": "https://bitbucket.org/AlexeyD/hibench.git",
+      "language": "Java",
+      "linescount": 432,
+      "location": "/nutchindexing/nutch-1.2/src/plugin/parse-mspowerpoint/src/java/org/apache/nutch/parse/mspowerpoint",
+      "name": "hibench",
+      "url": "https://searchcode.com/codesearch/view/48925118/",
+      "md5hash": "75c37848bf3d7cb3ed9cca98daec6b70",
+      "lines": {
+        "64": "   */",
+        "65": "  public void processPOIFSReaderEvent(final POIFSReaderEvent event) {",
+        "171": "      // because of not killing complete crawling all Throwables are catched.",
+        "172": "      if (LOG.isErrorEnabled()) { LOG.error(\"processPOIFSReaderEvent\", ex); }",
+        "27": "import org.apache.poi.hdf.extractor.Utils;",
+        "28": "import org.apache.poi.poifs.eventfilesystem.POIFSReaderEvent;",
+        "62": "   * ",
+        "63": "   * @see org.apache.poi.poifs.eventfilesystem.POIFSReaderListener#processPOIFSReaderEvent(org.apache.poi.poifs.eventfilesystem.POIFSReaderEvent)"
+      },
+      "id": 48925118,
+      "filename": "ContentReaderListener.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 64,
+      "location": "/components/forks/poi/src/loci/poi/poifs/eventfilesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642292/",
+      "md5hash": "53cf42f5be2b090e2ec6c65ade988210",
+      "lines": {
+        "54": "    /**",
+        "55": "     * Process a POIFSReaderEvent that this listener had registered",
+        "57": "     *",
+        "58": "     * @param event the POIFSReaderEvent",
+        "60": "",
+        "61": "    public void processPOIFSReaderEvent(POIFSReaderEvent event);"
+      },
+      "id": 15642292,
+      "filename": "POIFSReaderListener.java"
+    },
+    {
+      "repo": "https://bitbucket.org/AlexeyD/hibench.git",
+      "language": "Java",
+      "linescount": 200,
+      "location": "/nutchindexing/nutch-1.2/src/plugin/lib-parsems/src/java/org/apache/nutch/parse/ms",
+      "name": "hibench",
+      "url": "https://searchcode.com/codesearch/view/48925180/",
+      "md5hash": "6da808cb8bd38959fdb78963ffbdbba3",
+      "lines": {
+        "40": "import org.apache.poi.poifs.eventfilesystem.POIFSReaderEvent;",
+        "141": "    ",
+        "142": "    public void processPOIFSReaderEvent(POIFSReaderEvent event) {",
+        "39": "import org.apache.poi.poifs.eventfilesystem.POIFSReader;"
+      },
+      "id": 48925180,
+      "filename": "MSExtractor.java"
+    },
+    {
+      "repo": "https://github.com/lritter/gnutch.git",
+      "language": "Java",
+      "linescount": 432,
+      "location": "/src/plugin/parse-mspowerpoint/src/java/org/apache/nutch/parse/mspowerpoint",
+      "name": "gnutch",
+      "url": "https://searchcode.com/codesearch/view/138791632/",
+      "md5hash": "75c37848bf3d7cb3ed9cca98daec6b70",
+      "lines": {
+        "64": "   */",
+        "65": "  public void processPOIFSReaderEvent(final POIFSReaderEvent event) {",
+        "171": "      // because of not killing complete crawling all Throwables are catched.",
+        "172": "      if (LOG.isErrorEnabled()) { LOG.error(\"processPOIFSReaderEvent\", ex); }",
+        "27": "import org.apache.poi.hdf.extractor.Utils;",
+        "28": "import org.apache.poi.poifs.eventfilesystem.POIFSReaderEvent;",
+        "62": "   * ",
+        "63": "   * @see org.apache.poi.poifs.eventfilesystem.POIFSReaderListener#processPOIFSReaderEvent(org.apache.poi.poifs.eventfilesystem.POIFSReaderEvent)"
+      },
+      "id": 138791632,
+      "filename": "ContentReaderListener.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 360,
+      "location": "/components/forks/poi/src/loci/poi/poifs/eventfilesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642289/",
+      "md5hash": "0574f17f0841331cab62f67868201274",
+      "lines": {
+        "291": "",
+        "292": "                        listener.processPOIFSReaderEvent(",
+        "293": "                            new POIFSReaderEvent(",
+        "294": "                                new DocumentInputStream(document, stream), path,",
+        "327": "        /**",
+        "328": "         * Method processPOIFSReaderEvent",
+        "332": "",
+        "333": "        public void processPOIFSReaderEvent(final POIFSReaderEvent event)"
+      },
+      "id": 15642289,
+      "filename": "POIFSReader.java"
+    },
+    {
+      "repo": "http://ikube.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 68,
+      "location": "/code/core/src/main/java/ikube/index/parse/pp",
+      "name": "ikube",
+      "url": "https://searchcode.com/codesearch/view/7760072/",
+      "md5hash": "326a5af73bed9a7eca3f749772197137",
+      "lines": {
+        "10": "import org.apache.poi.poifs.eventfilesystem.POIFSReader;",
+        "11": "import org.apache.poi.poifs.eventfilesystem.POIFSReaderEvent;",
+        "45": "\t@Override",
+        "46": "\tpublic final void processPOIFSReaderEvent(final POIFSReaderEvent event) {"
+      },
+      "id": 7760072,
+      "filename": "PowerPointParser.java"
+    },
+    {
+      "repo": "https://bitbucket.org/mg/olat",
+      "language": "Java",
+      "linescount": 89,
+      "location": "/src/main/java/org/olat/search/service/document/file",
+      "name": "olat",
+      "url": "https://searchcode.com/codesearch/view/126168426/",
+      "md5hash": "2d2c96a01ac84d4a82d4b810991dce3f",
+      "lines": {
+        "57": "\t\t@Override",
+        "58": "\t\tpublic void processPOIFSReaderEvent(final POIFSReaderEvent event) {",
+        "28": "import org.apache.poi.poifs.eventfilesystem.POIFSReader;",
+        "29": "import org.apache.poi.poifs.eventfilesystem.POIFSReaderEvent;"
+      },
+      "id": 126168426,
+      "filename": "PPT2Text.java"
+    },
+    {
+      "repo": "https://bitbucket.org/fudan/sakai",
+      "language": "Java",
+      "linescount": 143,
+      "location": "/search/search-impl/impl/src/java/org/sakaiproject/search/component/adapter/contenthosting",
+      "name": "sakai",
+      "url": "https://searchcode.com/codesearch/view/129866876/",
+      "md5hash": "e4a9c41f5685e6f78d483fcb8101df6b",
+      "lines": {
+        "32": "import org.apache.poi.poifs.eventfilesystem.POIFSReaderEvent;",
+        "72": "\t\t\t{",
+        "73": "\t\t\t\tpublic void processPOIFSReaderEvent(POIFSReaderEvent event)",
+        "31": "import org.apache.poi.poifs.eventfilesystem.POIFSReader;"
+      },
+      "id": 129866876,
+      "filename": "PPTContentDigester.java"
+    },
+    {
+      "repo": "https://github.com/lritter/gnutch.git",
+      "language": "Java",
+      "linescount": 200,
+      "location": "/src/plugin/lib-parsems/src/java/org/apache/nutch/parse/ms",
+      "name": "gnutch",
+      "url": "https://searchcode.com/codesearch/view/138790528/",
+      "md5hash": "6da808cb8bd38959fdb78963ffbdbba3",
+      "lines": {
+        "40": "import org.apache.poi.poifs.eventfilesystem.POIFSReaderEvent;",
+        "141": "    ",
+        "142": "    public void processPOIFSReaderEvent(POIFSReaderEvent event) {",
+        "39": "import org.apache.poi.poifs.eventfilesystem.POIFSReader;"
+      },
+      "id": 138790528,
+      "filename": "MSExtractor.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 5,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 4,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

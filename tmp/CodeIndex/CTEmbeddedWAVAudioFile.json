@@ -1,0 +1,337 @@
+{
+  "matchterm": "CTEmbeddedWAVAudioFile",
+  "previouspage": null,
+  "searchterm": "CTEmbeddedWAVAudioFile",
+  "query": "CTEmbeddedWAVAudioFile",
+  "language_filters": [
+    {
+      "count": 14,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 14,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 107,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402973/",
+      "md5hash": "12b271d59764b280a009978121e6a405",
+      "lines": {
+        "16": "public interface CTEmbeddedWAVAudioFile extends org.apache.xmlbeans.XmlObject",
+        "19": "        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CTEmbeddedWAVAudioFile.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sE130CAA0A01A7CDE5A2B4FEB8B311707\").resolveHandle(\"ctembeddedwavaudiofile19abtype\");",
+        "18": "    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile",
+        "15": " */"
+      },
+      "id": 97402973,
+      "filename": "CTEmbeddedWAVAudioFile.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 141,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642232/",
+      "md5hash": "edc19e076a9e70ead89ea483f57caed0",
+      "lines": {
+        "50": "@XmlType(name = \"CT_EmbeddedWAVAudioFile\")",
+        "51": "public class CTEmbeddedWAVAudioFile {"
+      },
+      "id": 17642232,
+      "filename": "CTEmbeddedWAVAudioFile.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 984,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403294/",
+      "md5hash": "dd846fefe2aa5382afd1439932553d62",
+      "lines": {
+        "83": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile)get_store().find_element_user(SND$0, 0);",
+        "99": "            check_orphaned();",
+        "100": "            org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile target = null;",
+        "101": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile)get_store().add_element_user(SND$0);",
+        "102": "            return target;",
+        "76": "     */",
+        "77": "    public void setSnd(org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile snd)",
+        "46": "     */",
+        "47": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile getSnd()",
+        "81": "            check_orphaned();",
+        "82": "            org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile target = null;",
+        "51": "            check_orphaned();",
+        "52": "            org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile target = null;",
+        "53": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile)get_store().find_element_user(SND$0, 0);",
+        "84": "            if (target == null)"
+      },
+      "id": 97403294,
+      "filename": "CTHyperlinkImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 836,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/presentationml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97405136/",
+      "md5hash": "fc8bd852484d2a277660ec9272610f3a",
+      "lines": {
+        "224": "     */",
+        "225": "    public void setWavAudioFile(org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile wavAudioFile)",
+        "194": "     */",
+        "195": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile getWavAudioFile()",
+        "229": "            check_orphaned();",
+        "230": "            org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile target = null;",
+        "199": "            check_orphaned();",
+        "200": "            org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile target = null;",
+        "201": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile)get_store().find_element_user(WAVAUDIOFILE$4, 0);",
+        "202": "            if (target == null)",
+        "231": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile)get_store().find_element_user(WAVAUDIOFILE$4, 0);",
+        "232": "            if (target == null)",
+        "242": "     */",
+        "243": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile addNewWavAudioFile()",
+        "233": "            {",
+        "234": "                target = (org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile)get_store().add_element_user(WAVAUDIOFILE$4);"
+      },
+      "id": 97405136,
+      "filename": "CTApplicationNonVisualDrawingPropsImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 178,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/presentationml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97405248/",
+      "md5hash": "47573bb6a27fe1660dfaa79b1c857734",
+      "lines": {
+        "66": "     */",
+        "35": "            check_orphaned();",
+        "36": "            org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile target = null;",
+        "37": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile)get_store().find_element_user(SND$0, 0);",
+        "38": "            if (target == null)",
+        "71": "            check_orphaned();",
+        "72": "            org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile target = null;",
+        "73": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile)get_store().add_element_user(SND$0);",
+        "74": "            return target;",
+        "48": "     */",
+        "49": "    public void setSnd(org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile snd)",
+        "67": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile addNewSnd()",
+        "53": "            check_orphaned();",
+        "54": "            org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile target = null;",
+        "55": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile)get_store().find_element_user(SND$0, 0);"
+      },
+      "id": 97405248,
+      "filename": "CTTransitionStartSoundActionImpl.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 116,
+      "location": "/src/pptx4j/java/org/pptx4j/pml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17643734/",
+      "md5hash": "dc0d80332efc963d21d1cc99e51731de",
+      "lines": {
+        "67": "     *     possible object is",
+        "68": "     *     {@link CTEmbeddedWAVAudioFile }",
+        "70": "     */",
+        "71": "    public CTEmbeddedWAVAudioFile getSnd() {",
+        "79": "     *     allowed object is",
+        "80": "     *     {@link CTEmbeddedWAVAudioFile }",
+        "82": "     */",
+        "83": "    public void setSnd(CTEmbeddedWAVAudioFile value) {",
+        "58": "    @XmlElement(required = true)",
+        "59": "    protected CTEmbeddedWAVAudioFile snd;",
+        "28": "import javax.xml.bind.annotation.XmlType;",
+        "29": "import org.docx4j.dml.CTEmbeddedWAVAudioFile;"
+      },
+      "id": 17643734,
+      "filename": "CTTransitionStartSoundAction.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 340,
+      "location": "/src/pptx4j/java/org/pptx4j/pml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17643845/",
+      "md5hash": "85d24022cba4c2e7d19bc0272b8dbded",
+      "lines": {
+        "76": "    @XmlElement(namespace = \"http://schemas.openxmlformats.org/drawingml/2006/main\")",
+        "77": "    protected CTEmbeddedWAVAudioFile wavAudioFile;",
+        "143": "     *     possible object is",
+        "144": "     *     {@link CTEmbeddedWAVAudioFile }",
+        "146": "     */",
+        "147": "    public CTEmbeddedWAVAudioFile getWavAudioFile() {",
+        "158": "     */",
+        "155": "     *     allowed object is",
+        "156": "     *     {@link CTEmbeddedWAVAudioFile }",
+        "159": "    public void setWavAudioFile(CTEmbeddedWAVAudioFile value) {",
+        "30": "import org.docx4j.dml.CTAudioFile;",
+        "31": "import org.docx4j.dml.CTEmbeddedWAVAudioFile;"
+      },
+      "id": 17643845,
+      "filename": "NvPr.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 163,
+      "location": "/src/pptx4j/java/org/pptx4j/pml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17643886/",
+      "md5hash": "d1647db61f34395eee41067002c25550",
+      "lines": {
+        "97": "     */",
+        "98": "    public CTEmbeddedWAVAudioFile getSndTgt() {",
+        "106": "     *     allowed object is",
+        "107": "     *     {@link CTEmbeddedWAVAudioFile }",
+        "109": "     */",
+        "110": "    public void setSndTgt(CTEmbeddedWAVAudioFile value) {",
+        "94": "     *     possible object is",
+        "26": "import javax.xml.bind.annotation.XmlType;",
+        "27": "import org.docx4j.dml.CTEmbeddedWAVAudioFile;",
+        "61": "    protected CTEmpty sldTgt;",
+        "62": "    protected CTEmbeddedWAVAudioFile sndTgt;",
+        "95": "     *     {@link CTEmbeddedWAVAudioFile }"
+      },
+      "id": 17643886,
+      "filename": "CTTLTimeTargetElement.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 353,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642134/",
+      "md5hash": "55280698f643379451e7c43e9832b858",
+      "lines": {
+        "64": "",
+        "65": "    protected CTEmbeddedWAVAudioFile snd;",
+        "100": "     *     allowed object is",
+        "101": "     *     {@link CTEmbeddedWAVAudioFile }",
+        "103": "     */",
+        "88": "     *     possible object is",
+        "89": "     *     {@link CTEmbeddedWAVAudioFile }",
+        "91": "     */",
+        "92": "    public CTEmbeddedWAVAudioFile getSnd() {",
+        "104": "    public void setSnd(CTEmbeddedWAVAudioFile value) {"
+      },
+      "id": 17642134,
+      "filename": "CTHyperlink.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 3480,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642161/",
+      "md5hash": "ecaf98912e449049698e790afd5f5c5a",
+      "lines": {
+        "1289": "    /**",
+        "1290": "     * Create an instance of {@link CTEmbeddedWAVAudioFile }",
+        "1292": "     */",
+        "1293": "    public CTEmbeddedWAVAudioFile createCTEmbeddedWAVAudioFile() {",
+        "1294": "        return new CTEmbeddedWAVAudioFile();",
+        "1295": "    }"
+      },
+      "id": 17642161,
+      "filename": "ObjectFactory.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 317,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402892/",
+      "md5hash": "0735d31f3d7b66b3be372f67384434d6",
+      "lines": {
+        "33": "     */",
+        "34": "    void setSnd(org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile snd);",
+        "38": "     */",
+        "23": "     */",
+        "24": "    org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile getSnd();",
+        "39": "    org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile addNewSnd();"
+      },
+      "id": 97402892,
+      "filename": "CTHyperlink.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 72,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/presentationml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97404736/",
+      "md5hash": "d5b301071f9720738905ecf03a892af8",
+      "lines": {
+        "33": "     */",
+        "34": "    org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile addNewSnd();",
+        "23": "     */",
+        "24": "    org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile getSnd();",
+        "28": "     */",
+        "29": "    void setSnd(org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile snd);"
+      },
+      "id": 97404736,
+      "filename": "CTTransitionStartSoundAction.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 287,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/presentationml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97404920/",
+      "md5hash": "c51d6ae73f934efd9d5f5288a2483517",
+      "lines": {
+        "83": "     */",
+        "84": "    void setWavAudioFile(org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile wavAudioFile);",
+        "89": "    org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile addNewWavAudioFile();",
+        "88": "     */",
+        "73": "     */",
+        "74": "    org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile getWavAudioFile();"
+      },
+      "id": 97404920,
+      "filename": "CTApplicationNonVisualDrawingProps.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 298,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403400/",
+      "md5hash": "8751656368bb245758af83cb249b672a",
+      "lines": {
+        "16": "    ",
+        "17": "    public CTEmbeddedWAVAudioFileImpl(org.apache.xmlbeans.SchemaType sType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile",
+        "13": " */",
+        "14": "public class CTEmbeddedWAVAudioFileImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.openxmlformats.schemas.drawingml.x2006.main.CTEmbeddedWAVAudioFile"
+      },
+      "id": 97403400,
+      "filename": "CTEmbeddedWAVAudioFileImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 14,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "matchterm": "WordToHtmlUtils",
+  "previouspage": null,
+  "searchterm": "WordToHtmlUtils",
+  "query": "WordToHtmlUtils",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 747,
+      "location": "/src/org/apache/poi/hwpf/converter",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383966/",
+      "md5hash": "26fefb68f3e9024bc39626c516856a5c",
+      "lines": {
+        "513": "        StringBuilder style = new StringBuilder();",
+        "514": "        WordToHtmlUtils.addParagraphProperties( paragraph, style );",
+        "262": "    {",
+        "263": "        if ( WordToHtmlUtils.isNotEmpty( summaryInformation.getTitle() ) )",
+        "265": "",
+        "266": "        if ( WordToHtmlUtils.isNotEmpty( summaryInformation.getAuthor() ) )",
+        "268": "",
+        "269": "        if ( WordToHtmlUtils.isNotEmpty( summaryInformation.getKeywords() ) )",
+        "271": "",
+        "272": "        if ( WordToHtmlUtils.isNotEmpty( summaryInformation.getComments() ) )",
+        "531": "                pFontName = triplet.fontName;",
+        "532": "                WordToHtmlUtils.addFontFamily( pFontName, style );",
+        "533": "                WordToHtmlUtils.addFontSize( pFontSize, style );",
+        "534": "            }",
+        "537": "                pFontSize = -1;",
+        "538": "                pFontName = WordToHtmlUtils.EMPTY;"
+      },
+      "id": 97383966,
+      "filename": "WordToHtmlConverter.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 300,
+      "location": "/src/org/apache/poi/hwpf/converter",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383958/",
+      "md5hash": "37a7e5c2f6c46b9c7f8e27595ce28b79",
+      "lines": {
+        "90": "        String addition = getOrCreateCssClass( classNamePrefix, style );",
+        "91": "        String newClassValue = WordToHtmlUtils.isEmpty( exising ) ? addition",
+        "276": "    {",
+        "277": "        if ( WordToHtmlUtils.isEmpty( titleText ) && this.title != null )"
+      },
+      "id": 97383958,
+      "filename": "HtmlDocumentFacade.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 153,
+      "location": "/src/com/vizhen/poihelper",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383050/",
+      "md5hash": "2146decd030993d210db0e145cf1a024",
+      "lines": {
+        "24": "import org.apache.poi.hwpf.converter.WordToHtmlConverter;",
+        "25": "import org.apache.poi.hwpf.converter.WordToHtmlUtils;",
+        "61": "            ",
+        "62": "            HWPFDocumentCore hwpfDocument = WordToHtmlUtils.loadDoc(fileInputStream);"
+      },
+      "id": 97383050,
+      "filename": "SimpleWord2Html.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

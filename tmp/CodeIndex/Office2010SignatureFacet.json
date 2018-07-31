@@ -1,0 +1,72 @@
+{
+  "matchterm": "Office2010SignatureFacet",
+  "previouspage": null,
+  "searchterm": "Office2010SignatureFacet",
+  "query": "Office2010SignatureFacet",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 91,
+      "location": "/eid-applet-service-signer/src/main/java/be/fedict/eid/applet/service/signer/ooxml",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982665/",
+      "md5hash": "d8abb484b0bba3254651bfa6e0fd2b2b",
+      "lines": {
+        "48": " */",
+        "49": "public class Office2010SignatureFacet implements SignatureFacet {"
+      },
+      "id": 7982665,
+      "filename": "Office2010SignatureFacet.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 603,
+      "location": "/eid-applet-service-signer/src/test/java/test/unit/be/fedict/eid/applet/service/signer",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982568/",
+      "md5hash": "d31d09c83ac6cfbe4a1cdf3abb15a285",
+      "lines": {
+        "89": "import be.fedict.eid.applet.service.signer.facets.XAdESXLSignatureFacet;",
+        "90": "import be.fedict.eid.applet.service.signer.ooxml.Office2010SignatureFacet;",
+        "331": "\t\t\t\tenvelopedSignatureFacet, keyInfoSignatureFacet,",
+        "332": "\t\t\t\txadesSignatureFacet, new Office2010SignatureFacet(),"
+      },
+      "id": 7982568,
+      "filename": "XAdESSignatureFacetTest.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 380,
+      "location": "/eid-applet-service-signer/src/main/java/be/fedict/eid/applet/service/signer/ooxml",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982664/",
+      "md5hash": "0af7a2ff6cf18cc152a4f79b76354618",
+      "lines": {
+        "104": "\t\taddSignatureFacet(this.xadesSignatureFacet);",
+        "105": "\t\taddSignatureFacet(new Office2010SignatureFacet());"
+      },
+      "id": 7982664,
+      "filename": "AbstractOOXMLSignatureService.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

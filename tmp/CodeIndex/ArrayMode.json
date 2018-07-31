@@ -1,0 +1,179 @@
+{
+  "matchterm": "ArrayMode",
+  "previouspage": null,
+  "searchterm": "ArrayMode",
+  "query": "ArrayMode",
+  "language_filters": [
+    {
+      "count": 6,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 6,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/cattus/hqextdirect",
+      "language": "Java",
+      "linescount": 1440,
+      "location": "/src/hqextdirect/json",
+      "name": "hqextdirect",
+      "url": "https://searchcode.com/codesearch/view/53338170/",
+      "md5hash": "7e0de508b6be1616245629681ec358c0",
+      "lines": {
+        "71": "   /** Array conversion mode */",
+        "72": "   private int arrayMode = MODE_LIST;",
+        "939": "      handleJettisonSingleElementArray = false;",
+        "940": "      arrayMode = MODE_LIST;",
+        "432": "    */",
+        "433": "   public int getArrayMode() {",
+        "434": "      return arrayMode;",
+        "435": "   }",
+        "981": "    * ",
+        "982": "    * @param arrayMode array mode for conversion",
+        "983": "    */",
+        "984": "   public void setArrayMode( int arrayMode ) {",
+        "985": "      if( arrayMode == MODE_OBJECT_ARRAY ) {",
+        "986": "         this.arrayMode = arrayMode;",
+        "987": "      } else if( arrayMode == MODE_SET ) {"
+      },
+      "id": 53338170,
+      "filename": "JsonConfig.java"
+    },
+    {
+      "repo": "http://symja.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1327,
+      "location": "/symja-gui/src/main/java/org/scilab/forge/jlatexmath",
+      "name": "symja",
+      "url": "https://searchcode.com/codesearch/view/11752231/",
+      "md5hash": "c4075c828537f40af066e574c1f784e2",
+      "lines": {
+        "662": "                    if (!arrayMode)",
+        "305": "     */",
+        "306": "    public boolean isArrayMode() {",
+        "238": "        atIsLetter = 0;",
+        "239": "        arrayMode = false;",
+        "49": "    private int atIsLetter;",
+        "50": "    private boolean arrayMode;",
+        "307": "        return arrayMode;",
+        "308": "    }",
+        "661": "                case '&' :",
+        "182": "        this(isPartial, parseString, (TeXFormula) aoa, firstpass);",
+        "183": "        arrayMode = true;",
+        "689": "",
+        "690": "        if (formula.root == null && !arrayMode) {",
+        "636": "                    formula.add(at);",
+        "637": "                    if (arrayMode && at instanceof HlineAtom) {"
+      },
+      "id": 11752231,
+      "filename": "TeXParser.java"
+    },
+    {
+      "repo": "https://github.com/GerryGrano/mmasgis.git",
+      "language": "Java",
+      "linescount": 410,
+      "location": "/src/it/metmi/mmasgis/util",
+      "name": "mmasgis",
+      "url": "https://searchcode.com/codesearch/view/98126673/",
+      "md5hash": "6ec2757026e0a05c2d462f0627efd046",
+      "lines": {
+        "229": "",
+        "230": "\tpublic ArrayList<HashMap<String, Object>> eseguiQueryObject(String query, boolean arrayMode) {",
+        "183": "\t *            Query da eseguire",
+        "184": "\t * @param arrayMode",
+        "297": "",
+        "298": "\tpublic ArrayList<HashMap<String, String>> eseguiQueryExcel(String query, boolean arrayMode) {",
+        "188": "\t */",
+        "189": "\tpublic ArrayList<HashMap<String, String>> eseguiQuery(String query, boolean arrayMode) {",
+        "270": "\t",
+        "271": "\tpublic String eseguiQueryK1(String query, boolean arrayMode) {"
+      },
+      "id": 98126673,
+      "filename": "DBManager.java"
+    },
+    {
+      "repo": "https://github.com/nicdk/swift.git",
+      "language": "Java",
+      "linescount": 1787,
+      "location": "/src/org/griphyn/vdl/engine",
+      "name": "swift",
+      "url": "https://searchcode.com/codesearch/view/96709890/",
+      "md5hash": "fa8b33f56deae74648c53d4425d70b6b",
+      "lines": {
+        "1506": "\t\t\tStringTemplate newst;",
+        "1507": "\t\t\tif(arrayMode) {",
+        "1477": "",
+        "1478": "\t\t\tboolean arrayMode = false;",
+        "1479": "\t\t\tif (baseType != null) {",
+        "1480": "\t\t\t\tarrayMode = true;"
+      },
+      "id": 96709890,
+      "filename": "Karajan.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openicar/metamodel",
+      "language": "Java",
+      "linescount": 3759,
+      "location": "/src/main/java/org/comsoft/meta",
+      "name": "metamodel",
+      "url": "https://searchcode.com/codesearch/view/135463118/",
+      "md5hash": "254f39a91b9710ba0ba634a8143da04d",
+      "lines": {
+        "482": "",
+        "483": "\tprotected class SetArrayModeFieldAction extends ProcessElementAction {",
+        "484": "",
+        "485": "\t\tprotected boolean arrayMode;",
+        "486": "",
+        "679": "\t\t\t\t\t\t\tif (isArray != -1) {",
+        "680": "\t\t\t\t\t\t\t\t((ElementField) element).setArrayMode(isArray == 1);",
+        "3118": "",
+        "1166": "\t\t\t\t\t\tif (isArray != -1) {",
+        "1167": "\t\t\t\t\t\t\t((ElementField) element).setArrayMode(isArray == 1);",
+        "2773": "",
+        "2774": "\t\tpublic void setArrayMode(boolean isArray) {",
+        "3119": "\t\tpublic void setArrayMode(boolean isArray) {",
+        "2782": "",
+        "2783": "\t\t\t\tSetArrayModeFieldAction action = new SetArrayModeFieldAction(this, isArray);"
+      },
+      "id": 135463118,
+      "filename": "MetaSpaceImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/cattus/hqextdirect",
+      "language": "Java",
+      "linescount": 148,
+      "location": "/src/hqextdirect/json",
+      "name": "hqextdirect",
+      "url": "https://searchcode.com/codesearch/view/53338172/",
+      "md5hash": "c114bb3511d3e9757e5266ffb26a35af",
+      "lines": {
+        "52": "    * @return depends on the nature of the source object (JSONObject, JSONArray,",
+        "53": "    *         JSONNull) and the configured rootClass, classMap and arrayMode",
+        "62": "      if( json instanceof JSONArray ){",
+        "63": "         if( jsonConfig.getArrayMode() == JsonConfig.MODE_OBJECT_ARRAY ){"
+      },
+      "id": 53338172,
+      "filename": "JSONSerializer.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "matchterm": "ManualLayout",
+  "previouspage": null,
+  "searchterm": "ManualLayout",
+  "query": "ManualLayout",
+  "language_filters": [
+    {
+      "count": 11,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 11,
+  "results": [
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 108,
+      "location": "/src/main/java/org/docx4j/dml/chart",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642284/",
+      "md5hash": "21404d1b4569f47db10df0f7c337d7ec",
+      "lines": {
+        "64": "     *     {@link CTManualLayout }",
+        "66": "     */",
+        "67": "    public CTManualLayout getManualLayout() {",
+        "68": "        return manualLayout;",
+        "69": "    }",
+        "38": " *       &lt;sequence>",
+        "39": " *         &lt;element name=\"manualLayout\" type=\"{http://schemas.openxmlformats.org/drawingml/2006/chart}CT_ManualLayout\" minOccurs=\"0\"/>",
+        "72": "     * Sets the value of the manualLayout property.",
+        "71": "    /**",
+        "50": "@XmlType(name = \"CT_Layout\", propOrder = {",
+        "51": "    \"manualLayout\",",
+        "55": "",
+        "56": "    protected CTManualLayout manualLayout;",
+        "59": "    /**",
+        "60": "     * Gets the value of the manualLayout property.",
+        "63": "     *     possible object is"
+      },
+      "id": 17642284,
+      "filename": "CTLayout.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 256,
+      "location": "/src/main/java/com/extentech/formats/OOXML",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47125119/",
+      "md5hash": "e025a4369ef6ef32e7b34653a77da278",
+      "lines": {
+        "171": "\tpublic ManualLayout(String target, String[] modes, String[] offs) {",
+        "36": " * parent:  plotarea, title ...",
+        "37": " * children:  manualLayout",
+        "42": "\tprivate static final long serialVersionUID = -6547994902298821138L;",
+        "43": "\t\tprivate ManualLayout ml;",
+        "45": "\t\t",
+        "142": "        \tlooxml.append(\"<c:manualLayout>\");    \t\t\t",
+        "141": "    \t\tlooxml.append(\"<c:layout>\");",
+        "176": "\tpublic ManualLayout(ManualLayout ml) {",
+        "149": "        \tlooxml.append(\"<c:h val=\\\"\" + offs[3] + \"\\\"/>\");",
+        "150": "        \tlooxml.append(\"</c:manualLayout>\");",
+        "170": "\t",
+        "46": "\t\tprivate Layout(ManualLayout ml) {",
+        "175": "\t}",
+        "156": "/**",
+        "157": " *  manualLayout "
+      },
+      "id": 47125119,
+      "filename": "Layout.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 256,
+      "location": "/src/main/java/com/extentech/formats/OOXML",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976743/",
+      "md5hash": "e025a4369ef6ef32e7b34653a77da278",
+      "lines": {
+        "171": "\tpublic ManualLayout(String target, String[] modes, String[] offs) {",
+        "36": " * parent:  plotarea, title ...",
+        "37": " * children:  manualLayout",
+        "42": "\tprivate static final long serialVersionUID = -6547994902298821138L;",
+        "43": "\t\tprivate ManualLayout ml;",
+        "45": "\t\t",
+        "142": "        \tlooxml.append(\"<c:manualLayout>\");    \t\t\t",
+        "141": "    \t\tlooxml.append(\"<c:layout>\");",
+        "176": "\tpublic ManualLayout(ManualLayout ml) {",
+        "149": "        \tlooxml.append(\"<c:h val=\\\"\" + offs[3] + \"\\\"/>\");",
+        "150": "        \tlooxml.append(\"</c:manualLayout>\");",
+        "170": "\t",
+        "46": "\t\tprivate Layout(ManualLayout ml) {",
+        "175": "\t}",
+        "156": "/**",
+        "157": " *  manualLayout "
+      },
+      "id": 50976743,
+      "filename": "Layout.java"
+    },
+    {
+      "repo": "https://bitbucket.org/dbis2010/tricia-core",
+      "language": "Java",
+      "linescount": 573,
+      "location": "/toro/src/classes/de/infoasset/platform/services/asset/imf/graphview",
+      "name": "tricia-core",
+      "url": "https://searchcode.com/codesearch/view/62177275/",
+      "md5hash": "f8fc4ce882b7f45882a7f62a9c0081b1",
+      "lines": {
+        "459": "    \t",
+        "456": "    \tmodel.visualize();",
+        "457": "    \tmanualLayout = false;",
+        "74": "",
+        "75": "\tprivate static boolean manualLayout;",
+        "373": " \t\t});",
+        "374": " \t\tmanualLayout = true;",
+        "471": "    private static void setClazzLocation(Clazz clazz){",
+        "472": "    \tif(manualLayout){\t                                    \t",
+        "379": "    \tmodel = new de.infoasset.platform.services.asset.imf.graphview.model.Model((AssetsViewPart)swtViewer.getWorkbenchPart());",
+        "380": "    \tmodel.setManualLayout(manualLayout);",
+        "458": "    \tmodel.setManualLayout(manualLayout);"
+      },
+      "id": 62177275,
+      "filename": "UMLView.java"
+    },
+    {
+      "repo": "https://bitbucket.org/Victor_ALBERT/tricia-twitter-v",
+      "language": "Java",
+      "linescount": 576,
+      "location": "/core/src/classes/de/infoasset/platform/services/asset/imf/graphview",
+      "name": "tricia-twitter-v",
+      "url": "https://searchcode.com/codesearch/view/64172444/",
+      "md5hash": "446ef4c1cffe706d6d823ace453442f2",
+      "lines": {
+        "459": "    \tmodel.visualize();",
+        "460": "    \tmanualLayout = false;",
+        "461": "    \tmodel.setManualLayout(manualLayout);",
+        "78": "\tprivate static boolean manualLayout;",
+        "77": "",
+        "462": "    \t",
+        "376": " \t\t});",
+        "377": " \t\tmanualLayout = true;",
+        "474": "    private static void setClazzLocation(Clazz clazz){",
+        "475": "    \tif(manualLayout){\t                                    \t",
+        "382": "    \tmodel = new de.infoasset.platform.services.asset.imf.graphview.model.Model((AssetsViewPart)swtViewer.getWorkbenchPart());",
+        "383": "    \tmodel.setManualLayout(manualLayout);"
+      },
+      "id": 64172444,
+      "filename": "UMLView.java"
+    },
+    {
+      "repo": "https://bitbucket.org/dbis2010/tricia-core",
+      "language": "Java",
+      "linescount": 174,
+      "location": "/toro/src/classes/de/infoasset/platform/services/asset/imf/graphview/model",
+      "name": "tricia-core",
+      "url": "https://searchcode.com/codesearch/view/62177291/",
+      "md5hash": "ddd940c499d4a4e8529dc35cc898bdff",
+      "lines": {
+        "32": "\tprivate boolean manualLayout = false;",
+        "98": "\t\t\t\t",
+        "99": "\t\tif(!manualLayout) scene.layoutScene();",
+        "165": "",
+        "166": "\tpublic void setManualLayout(boolean manualLayout) {",
+        "167": "\t\tthis.manualLayout = manualLayout;",
+        "168": "\t}",
+        "31": "\tprivate boolean rolesEnabled = true;\t"
+      },
+      "id": 62177291,
+      "filename": "Model.java"
+    },
+    {
+      "repo": "https://bitbucket.org/Victor_ALBERT/tricia-twitter-v",
+      "language": "Java",
+      "linescount": 177,
+      "location": "/core/src/classes/de/infoasset/platform/services/asset/imf/graphview/model",
+      "name": "tricia-twitter-v",
+      "url": "https://searchcode.com/codesearch/view/64172448/",
+      "md5hash": "6333275bd787807d7c9750733537a2ed",
+      "lines": {
+        "34": "\tprivate boolean rolesEnabled = true;\t",
+        "35": "\tprivate boolean manualLayout = false;",
+        "101": "\t\t\t\t",
+        "102": "\t\tif(!manualLayout) scene.layoutScene();",
+        "168": "",
+        "169": "\tpublic void setManualLayout(boolean manualLayout) {",
+        "170": "\t\tthis.manualLayout = manualLayout;",
+        "171": "\t}"
+      },
+      "id": 64172448,
+      "filename": "Model.java"
+    },
+    {
+      "repo": "https://bitbucket.org/yoel/recommender",
+      "language": "Java",
+      "linescount": 576,
+      "location": "/core/src/classes/de/infoasset/platform/services/asset/imf/graphview",
+      "name": "recommender",
+      "url": "https://searchcode.com/codesearch/view/125599379/",
+      "md5hash": "446ef4c1cffe706d6d823ace453442f2",
+      "lines": {
+        "459": "    \tmodel.visualize();",
+        "460": "    \tmanualLayout = false;",
+        "461": "    \tmodel.setManualLayout(manualLayout);",
+        "78": "\tprivate static boolean manualLayout;",
+        "77": "",
+        "462": "    \t",
+        "376": " \t\t});",
+        "377": " \t\tmanualLayout = true;",
+        "474": "    private static void setClazzLocation(Clazz clazz){",
+        "475": "    \tif(manualLayout){\t                                    \t",
+        "382": "    \tmodel = new de.infoasset.platform.services.asset.imf.graphview.model.Model((AssetsViewPart)swtViewer.getWorkbenchPart());",
+        "383": "    \tmodel.setManualLayout(manualLayout);"
+      },
+      "id": 125599379,
+      "filename": "UMLView.java"
+    },
+    {
+      "repo": "https://bitbucket.org/yoel/recommender",
+      "language": "Java",
+      "linescount": 177,
+      "location": "/core/src/classes/de/infoasset/platform/services/asset/imf/graphview/model",
+      "name": "recommender",
+      "url": "https://searchcode.com/codesearch/view/125599394/",
+      "md5hash": "6333275bd787807d7c9750733537a2ed",
+      "lines": {
+        "34": "\tprivate boolean rolesEnabled = true;\t",
+        "35": "\tprivate boolean manualLayout = false;",
+        "101": "\t\t\t\t",
+        "102": "\t\tif(!manualLayout) scene.layoutScene();",
+        "168": "",
+        "169": "\tpublic void setManualLayout(boolean manualLayout) {",
+        "170": "\t\tthis.manualLayout = manualLayout;",
+        "171": "\t}"
+      },
+      "id": 125599394,
+      "filename": "Model.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 359,
+      "location": "/src/main/java/com/extentech/formats/OOXML",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47125095/",
+      "md5hash": "a57b50db39b8fbfc6a27fa6016d29477",
+      "lines": {
+        "112": "\t\t\t\t\t} else if (tnm.equals(\"manualLayout\")) {",
+        "111": "\t\t\t\t\t\tct = (ChartText) ChartText.parseOOXML(xpp, lastTag, bk);"
+      },
+      "id": 47125095,
+      "filename": "Title.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 359,
+      "location": "/src/main/java/com/extentech/formats/OOXML",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976719/",
+      "md5hash": "a57b50db39b8fbfc6a27fa6016d29477",
+      "lines": {
+        "112": "\t\t\t\t\t} else if (tnm.equals(\"manualLayout\")) {",
+        "111": "\t\t\t\t\t\tct = (ChartText) ChartText.parseOOXML(xpp, lastTag, bk);"
+      },
+      "id": 50976719,
+      "filename": "Title.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 10,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "matchterm": "POIFSReader",
+  "previouspage": null,
+  "searchterm": "POIFSReader",
+  "query": "POIFSReader",
+  "language_filters": [
+    {
+      "count": 8,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 8,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 360,
+      "location": "/components/forks/poi/src/loci/poi/poifs/eventfilesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642289/",
+      "md5hash": "0574f17f0841331cab62f67868201274",
+      "lines": {
+        "192": "    public void registerListener(final POIFSReaderListener listener,",
+        "65": " * first create an instance of it, then use the registerListener",
+        "66": " * methods to register POIFSReaderListener instances for specific",
+        "135": "    /**",
+        "136": "     * Register a POIFSReaderListener for all documents",
+        "177": "    /**",
+        "170": "",
+        "171": "    public void registerListener(final POIFSReaderListener listener,",
+        "289": "                        POIFSReaderListener listener =",
+        "288": "                    {",
+        "144": "",
+        "145": "    public void registerListener(final POIFSReaderListener listener)",
+        "178": "     * Register a POIFSReaderListener for a document in the specified",
+        "191": "",
+        "158": "    /**",
+        "159": "     * Register a POIFSReaderListener for a document in the root"
+      },
+      "id": 15642289,
+      "filename": "POIFSReader.java"
+    },
+    {
+      "repo": "https://bitbucket.org/AlexeyD/hibench.git",
+      "language": "Java",
+      "linescount": 58,
+      "location": "/nutchindexing/nutch-1.2/src/plugin/parse-mspowerpoint/src/java/org/apache/nutch/parse/mspowerpoint",
+      "name": "hibench",
+      "url": "https://searchcode.com/codesearch/view/48925114/",
+      "md5hash": "35b43b5d4e067983958fac2dd083483d",
+      "lines": {
+        "43": "    this.reader = new POIFSReader();",
+        "38": "  private StringBuffer text = null;",
+        "39": "  private POIFSReader reader = null;",
+        "26": "// Jakarta POI imports",
+        "27": "import org.apache.poi.poifs.eventfilesystem.POIFSReader;",
+        "42": "  protected String extractText(InputStream input) throws Exception {"
+      },
+      "id": 48925114,
+      "filename": "PPTExtractor.java"
+    },
+    {
+      "repo": "https://bitbucket.org/AlexeyD/hibench.git",
+      "language": "Java",
+      "linescount": 200,
+      "location": "/nutchindexing/nutch-1.2/src/plugin/lib-parsems/src/java/org/apache/nutch/parse/ms",
+      "name": "hibench",
+      "url": "https://searchcode.com/codesearch/view/48925180/",
+      "md5hash": "6da808cb8bd38959fdb78963ffbdbba3",
+      "lines": {
+        "66": "    // First, extract properties",
+        "67": "    this.reader = new POIFSReader();",
+        "132": "  ",
+        "133": "  private class PropertiesReaderListener implements POIFSReaderListener {",
+        "38": "import org.apache.poi.hpsf.SummaryInformation;",
+        "39": "import org.apache.poi.poifs.eventfilesystem.POIFSReader;",
+        "40": "import org.apache.poi.poifs.eventfilesystem.POIFSReaderEvent;",
+        "41": "import org.apache.poi.poifs.eventfilesystem.POIFSReaderListener;",
+        "42": "",
+        "141": "    ",
+        "142": "    public void processPOIFSReaderEvent(POIFSReaderEvent event) {",
+        "53": "  private String text = null;",
+        "54": "  private POIFSReader reader = null;"
+      },
+      "id": 48925180,
+      "filename": "MSExtractor.java"
+    },
+    {
+      "repo": "http://ikube.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 68,
+      "location": "/code/core/src/main/java/ikube/index/parse/pp",
+      "name": "ikube",
+      "url": "https://searchcode.com/codesearch/view/7760072/",
+      "md5hash": "326a5af73bed9a7eca3f749772197137",
+      "lines": {
+        "34": "\tpublic final OutputStream parse(final InputStream inputStream, final OutputStream outputStream) throws Exception {",
+        "35": "\t\tPOIFSReader reader = new POIFSReader();",
+        "9": "import org.apache.log4j.Logger;",
+        "10": "import org.apache.poi.poifs.eventfilesystem.POIFSReader;",
+        "11": "import org.apache.poi.poifs.eventfilesystem.POIFSReaderEvent;",
+        "12": "import org.apache.poi.poifs.eventfilesystem.POIFSReaderListener;",
+        "13": "import org.apache.poi.poifs.filesystem.DocumentInputStream;",
+        "46": "\tpublic final void processPOIFSReaderEvent(final POIFSReaderEvent event) {",
+        "45": "\t@Override",
+        "22": " */",
+        "23": "public class PowerPointParser implements IParser, POIFSReaderListener {"
+      },
+      "id": 7760072,
+      "filename": "PowerPointParser.java"
+    },
+    {
+      "repo": "https://bitbucket.org/mg/olat",
+      "language": "Java",
+      "linescount": 89,
+      "location": "/src/main/java/org/olat/search/service/document/file",
+      "name": "olat",
+      "url": "https://searchcode.com/codesearch/view/126168426/",
+      "md5hash": "2d2c96a01ac84d4a82d4b810991dce3f",
+      "lines": {
+        "41": "\tpublic static void extractText(final InputStream inStream, final OutputStream stream) throws IOException {",
+        "42": "\t\tfinal POIFSReader r = new POIFSReader();",
+        "43": "\t\t/* Register a listener for *all* documents. */",
+        "44": "\t\tr.registerListener(new MyPOIFSReaderListener(stream));",
+        "47": "",
+        "48": "\tstatic class MyPOIFSReaderListener implements POIFSReaderListener {",
+        "52": "",
+        "53": "\t\tpublic MyPOIFSReaderListener(final OutputStream oStream) {",
+        "57": "\t\t@Override",
+        "58": "\t\tpublic void processPOIFSReaderEvent(final POIFSReaderEvent event) {",
+        "27": "",
+        "28": "import org.apache.poi.poifs.eventfilesystem.POIFSReader;",
+        "29": "import org.apache.poi.poifs.eventfilesystem.POIFSReaderEvent;",
+        "30": "import org.apache.poi.poifs.eventfilesystem.POIFSReaderListener;",
+        "31": "import org.apache.poi.poifs.filesystem.DocumentInputStream;"
+      },
+      "id": 126168426,
+      "filename": "PPT2Text.java"
+    },
+    {
+      "repo": "https://bitbucket.org/fudan/sakai",
+      "language": "Java",
+      "linescount": 143,
+      "location": "/search/search-impl/impl/src/java/org/sakaiproject/search/component/adapter/contenthosting",
+      "name": "sakai",
+      "url": "https://searchcode.com/codesearch/view/129866876/",
+      "md5hash": "e4a9c41f5685e6f78d483fcb8101df6b",
+      "lines": {
+        "32": "import org.apache.poi.poifs.eventfilesystem.POIFSReaderEvent;",
+        "33": "import org.apache.poi.poifs.eventfilesystem.POIFSReaderListener;",
+        "34": "import org.apache.poi.poifs.filesystem.DocumentInputStream;",
+        "101": "",
+        "70": "",
+        "71": "\t\t\tPOIFSReaderListener listener = new POIFSReaderListener()",
+        "72": "\t\t\t{",
+        "73": "\t\t\t\tpublic void processPOIFSReaderEvent(POIFSReaderEvent event)",
+        "102": "\t\t\tPOIFSReader reader = new POIFSReader();",
+        "30": "import org.apache.commons.logging.LogFactory;",
+        "31": "import org.apache.poi.poifs.eventfilesystem.POIFSReader;"
+      },
+      "id": 129866876,
+      "filename": "PPTContentDigester.java"
+    },
+    {
+      "repo": "https://github.com/lritter/gnutch.git",
+      "language": "Java",
+      "linescount": 200,
+      "location": "/src/plugin/lib-parsems/src/java/org/apache/nutch/parse/ms",
+      "name": "gnutch",
+      "url": "https://searchcode.com/codesearch/view/138790528/",
+      "md5hash": "6da808cb8bd38959fdb78963ffbdbba3",
+      "lines": {
+        "66": "    // First, extract properties",
+        "67": "    this.reader = new POIFSReader();",
+        "132": "  ",
+        "133": "  private class PropertiesReaderListener implements POIFSReaderListener {",
+        "38": "import org.apache.poi.hpsf.SummaryInformation;",
+        "39": "import org.apache.poi.poifs.eventfilesystem.POIFSReader;",
+        "40": "import org.apache.poi.poifs.eventfilesystem.POIFSReaderEvent;",
+        "41": "import org.apache.poi.poifs.eventfilesystem.POIFSReaderListener;",
+        "42": "",
+        "141": "    ",
+        "142": "    public void processPOIFSReaderEvent(POIFSReaderEvent event) {",
+        "53": "  private String text = null;",
+        "54": "  private POIFSReader reader = null;"
+      },
+      "id": 138790528,
+      "filename": "MSExtractor.java"
+    },
+    {
+      "repo": "https://github.com/lritter/gnutch.git",
+      "language": "Java",
+      "linescount": 58,
+      "location": "/src/plugin/parse-mspowerpoint/src/java/org/apache/nutch/parse/mspowerpoint",
+      "name": "gnutch",
+      "url": "https://searchcode.com/codesearch/view/138791633/",
+      "md5hash": "35b43b5d4e067983958fac2dd083483d",
+      "lines": {
+        "43": "    this.reader = new POIFSReader();",
+        "38": "  private StringBuffer text = null;",
+        "39": "  private POIFSReader reader = null;",
+        "26": "// Jakarta POI imports",
+        "27": "import org.apache.poi.poifs.eventfilesystem.POIFSReader;",
+        "42": "  protected String extractText(InputStream input) throws Exception {"
+      },
+      "id": 138791633,
+      "filename": "PPTExtractor.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

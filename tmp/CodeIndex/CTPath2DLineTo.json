@@ -1,0 +1,171 @@
+{
+  "matchterm": "CTPath2DLineTo",
+  "previouspage": null,
+  "searchterm": "CTPath2DLineTo",
+  "query": "CTPath2DLineTo",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 42,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402129/",
+      "md5hash": "86ad233b0d78584de3c59920acb46453",
+      "lines": {
+        "16": "public interface CTPath2DLineTo extends org.apache.xmlbeans.XmlObject",
+        "19": "        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CTPath2DLineTo.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sE130CAA0A01A7CDE5A2B4FEB8B311707\").resolveHandle(\"ctpath2dlineto4f41type\");",
+        "18": "    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DLineTo",
+        "15": " */"
+      },
+      "id": 97402129,
+      "filename": "CTPath2DLineTo.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 83,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642050/",
+      "md5hash": "6e664e0d39a10438fea59dd67bc9b37b",
+      "lines": {
+        "52": "})",
+        "53": "public class CTPath2DLineTo {"
+      },
+      "id": 17642050,
+      "filename": "CTPath2DLineTo.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1476,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403836/",
+      "md5hash": "2582da594107bd266380545b0ddc6687",
+      "lines": {
+        "418": "            check_orphaned();",
+        "419": "            org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DLineTo target = null;",
+        "420": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DLineTo)get_store().find_element_user(LNTO$4, i);",
+        "421": "            if (target == null)",
+        "358": "     */",
+        "359": "    public java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DLineTo> getLnToList()",
+        "360": "    {",
+        "455": "     */",
+        "397": "     */",
+        "398": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DLineTo[] getLnToArray()",
+        "456": "    public void setLnToArray(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DLineTo lnTo)",
+        "404": "            get_store().find_all_element_users(LNTO$4, targetList);",
+        "405": "            org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DLineTo[] result = new org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DLineTo[targetList.size()];",
+        "443": "     */",
+        "444": "    public void setLnToArray(org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DLineTo[] lnToArray)",
+        "413": "     */",
+        "414": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DLineTo getLnToArray(int i)"
+      },
+      "id": 97403836,
+      "filename": "CTPath2DImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 522,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402026/",
+      "md5hash": "78a921038f475e52b775a86778f20278",
+      "lines": {
+        "147": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DLineTo insertNewLnTo(int i);",
+        "136": "     */",
+        "137": "    void setLnToArray(org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DLineTo[] lnToArray);",
+        "141": "     */",
+        "142": "    void setLnToArray(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DLineTo lnTo);",
+        "146": "     */",
+        "115": "     */",
+        "116": "    java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DLineTo> getLnToList();",
+        "151": "     */",
+        "152": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DLineTo addNewLnTo();",
+        "121": "     */",
+        "122": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DLineTo[] getLnToArray();",
+        "126": "     */",
+        "127": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DLineTo getLnToArray(int i);"
+      },
+      "id": 97402026,
+      "filename": "CTPath2D.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 3480,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642161/",
+      "md5hash": "ecaf98912e449049698e790afd5f5c5a",
+      "lines": {
+        "409": "    /**",
+        "410": "     * Create an instance of {@link CTPath2DLineTo }",
+        "412": "     */",
+        "413": "    public CTPath2DLineTo createCTPath2DLineTo() {",
+        "414": "        return new CTPath2DLineTo();",
+        "415": "    }"
+      },
+      "id": 17642161,
+      "filename": "ObjectFactory.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 264,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642035/",
+      "md5hash": "76da62452ba47aa186582eba48e2fd6d",
+      "lines": {
+        "106": "     * Objects of the following type(s) are allowed in the list",
+        "107": "     * {@link CTPath2DLineTo }",
+        "69": "    @XmlElements({",
+        "70": "        @XmlElement(name = \"lnTo\", type = CTPath2DLineTo.class),"
+      },
+      "id": 17642035,
+      "filename": "CTPath2D.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 76,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403840/",
+      "md5hash": "3be5f6ddcc7f7f03562d996a51ae913f",
+      "lines": {
+        "16": "    ",
+        "17": "    public CTPath2DLineToImpl(org.apache.xmlbeans.SchemaType sType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DLineTo",
+        "13": " */",
+        "14": "public class CTPath2DLineToImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DLineTo"
+      },
+      "id": 97403840,
+      "filename": "CTPath2DLineToImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "matchterm": "Sumif",
+  "previouspage": null,
+  "searchterm": "Sumif",
+  "query": "Sumif",
+  "language_filters": [
+    {
+      "count": 14,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 14,
+  "results": [
+    {
+      "repo": "https://github.com/poidasmith/xlloop.git",
+      "language": "Java",
+      "linescount": 51,
+      "location": "/org.boris.expr/java/src/org/boris/expr/function/excel",
+      "name": "xlloop",
+      "url": "https://searchcode.com/codesearch/view/105398649/",
+      "md5hash": "c436cb171db55c375942eab52efd8258",
+      "lines": {
+        "19": "            throw new ExprException(",
+        "20": "                    \"First argument to SUMIF must be a reference\");",
+        "25": "            throw new ExprException(",
+        "10": "",
+        "11": "public class SUMIF extends AbstractFunction",
+        "26": "                    \"Third argument to SUMIF must be a reference\");"
+      },
+      "id": 105398649,
+      "filename": "SUMIF.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 1406,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47124960/",
+      "md5hash": "54702b163a85a7d94fdd374c48bb07aa",
+      "lines": {
+        "1056": "\t",
+        "1057": "\tYou use the SUMIF function to sum the values in a range that meet criteria that you specify. ",
+        "1059": "\t",
+        "1060": "\t=SUMIF(B2:B25,\">5\")",
+        "1222": "\t\t\t\t} catch (Exception e) {",
+        "1062": "\tyou can apply the criteria to one range and sum the corresponding values in a different range. ",
+        "1063": "\tFor example, the formula =SUMIF(B2:B5, \"John\", C2:C5) sums only the values in the range C2:C5, where the corresponding cells in the range B2:B5 equal \"John.\"",
+        "1223": "\t\t\t\t\tLogger.logErr(\"MathFunctionCalculator.calcSumif:  error obtaining cell value: \" + e.toString());\t// debugging only; take out when fully tested",
+        "1167": "\t */",
+        "1168": "\tprotected static Ptg calcSumIfS(Ptg[] operands) {",
+        "1155": "\t/**",
+        "1156": "\t * SUMIFS",
+        "1083": "\t*/",
+        "1084": "\tprotected static Ptg calcSumif(Ptg[] operands){",
+        "1053": "\t/**",
+        "1054": "\tSUMIF"
+      },
+      "id": 47124960,
+      "filename": "MathFunctionCalculator.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 1406,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976584/",
+      "md5hash": "54702b163a85a7d94fdd374c48bb07aa",
+      "lines": {
+        "1056": "\t",
+        "1057": "\tYou use the SUMIF function to sum the values in a range that meet criteria that you specify. ",
+        "1059": "\t",
+        "1060": "\t=SUMIF(B2:B25,\">5\")",
+        "1222": "\t\t\t\t} catch (Exception e) {",
+        "1062": "\tyou can apply the criteria to one range and sum the corresponding values in a different range. ",
+        "1063": "\tFor example, the formula =SUMIF(B2:B5, \"John\", C2:C5) sums only the values in the range C2:C5, where the corresponding cells in the range B2:B5 equal \"John.\"",
+        "1223": "\t\t\t\t\tLogger.logErr(\"MathFunctionCalculator.calcSumif:  error obtaining cell value: \" + e.toString());\t// debugging only; take out when fully tested",
+        "1167": "\t */",
+        "1168": "\tprotected static Ptg calcSumIfS(Ptg[] operands) {",
+        "1155": "\t/**",
+        "1156": "\t * SUMIFS",
+        "1083": "\t*/",
+        "1084": "\tprotected static Ptg calcSumif(Ptg[] operands){",
+        "1053": "\t/**",
+        "1054": "\tSUMIF"
+      },
+      "id": 50976584,
+      "filename": "MathFunctionCalculator.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1430,
+      "location": "/zssapp/src/org/zkoss/zss/app/formula",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969892/",
+      "md5hash": "a07bf1b4287ec51f4c6c5c920d857dd5",
+      "lines": {
+        "828": "\t\tmathAry.add(new FormulaMetaInfo(MATH_TRIG,",
+        "829": "\t\t\t\t\t\"SUMIF\",",
+        "830": "\t\t\t\t\t\"SUMIF(range, criteria, sum_range)\",",
+        "831": "\t\t\t\t\t\"Adds the cells specified by a given criteria\","
+      },
+      "id": 3969892,
+      "filename": "Formulas.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 717,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/biff/formula",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260581/",
+      "md5hash": "15b9307e10209bd7f14a819df4b60a44",
+      "lines": {
+        "688": "  public static final Function COUNTIF  =",
+        "685": "    new Function(0x158, \"subtotal\", 0xff);",
+        "686": "  public static final Function SUMIF  =",
+        "687": "    new Function(0x159, \"sumif\", 0xff);"
+      },
+      "id": 43260581,
+      "filename": "Function.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 1451,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47124968/",
+      "md5hash": "994b1c012a7ddfa2eae1064001b4a2c3",
+      "lines": {
+        "721": "\t\t\t{\"SUM\", String.valueOf(XLF_SUM), String.valueOf(FTYPE_PTGFUNCVAR)},",
+        "722": "\t\t\t{\"SUMIF\",String.valueOf(XLF_SUM_IF), String.valueOf(FTYPE_PTGFUNCVAR)},",
+        "859": "\t\t\t{\"SUMIFS\", \tString.valueOf(xlfSUMIFS), String.valueOf(FTYPE_PTGFUNCVAR_ADDIN)},",
+        "1351": "\t\t\t// Math",
+        "1352": "\t\t\tcase xlfSUMIFS:\t\treturn \"SUMIFS(\";",
+        "1228": "\t\t\tcase xlfSubtotal: return \"SUBTOTAL(\";",
+        "858": "\t\t\t{\"SQRTPI\", \tString.valueOf(xlfSQRTPI), String.valueOf(FTYPE_PTGFUNCVAR_ADDIN)},",
+        "491": "\tpublic static final int xlfSQRTPI=\t\t446;",
+        "492": "\tpublic static final int xlfSUMIFS=\t\t456;",
+        "1229": "\t\t\tcase XLF_SUM_IF: return \"SUMIF(\";"
+      },
+      "id": 47124968,
+      "filename": "FunctionConstants.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 717,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/biff/formula",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49201109/",
+      "md5hash": "15b9307e10209bd7f14a819df4b60a44",
+      "lines": {
+        "688": "  public static final Function COUNTIF  =",
+        "685": "    new Function(0x158, \"subtotal\", 0xff);",
+        "686": "  public static final Function SUMIF  =",
+        "687": "    new Function(0x159, \"sumif\", 0xff);"
+      },
+      "id": 49201109,
+      "filename": "Function.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 1451,
+      "location": "/src/main/java/com/extentech/formats/XLS/formulas",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976592/",
+      "md5hash": "994b1c012a7ddfa2eae1064001b4a2c3",
+      "lines": {
+        "721": "\t\t\t{\"SUM\", String.valueOf(XLF_SUM), String.valueOf(FTYPE_PTGFUNCVAR)},",
+        "722": "\t\t\t{\"SUMIF\",String.valueOf(XLF_SUM_IF), String.valueOf(FTYPE_PTGFUNCVAR)},",
+        "859": "\t\t\t{\"SUMIFS\", \tString.valueOf(xlfSUMIFS), String.valueOf(FTYPE_PTGFUNCVAR_ADDIN)},",
+        "1351": "\t\t\t// Math",
+        "1352": "\t\t\tcase xlfSUMIFS:\t\treturn \"SUMIFS(\";",
+        "1228": "\t\t\tcase xlfSubtotal: return \"SUBTOTAL(\";",
+        "858": "\t\t\t{\"SQRTPI\", \tString.valueOf(xlfSQRTPI), String.valueOf(FTYPE_PTGFUNCVAR_ADDIN)},",
+        "491": "\tpublic static final int xlfSQRTPI=\t\t446;",
+        "492": "\tpublic static final int xlfSUMIFS=\t\t456;",
+        "1229": "\t\t\tcase XLF_SUM_IF: return \"SUMIF(\";"
+      },
+      "id": 50976592,
+      "filename": "FunctionConstants.java"
+    },
+    {
+      "repo": "https://github.com/poidasmith/xlloop.git",
+      "language": "Java",
+      "linescount": 439,
+      "location": "/org.boris.expr/java/test/org/boris/expr",
+      "name": "xlloop",
+      "url": "https://searchcode.com/codesearch/view/105398321/",
+      "md5hash": "a3ba70c974e0e44d6e8aeb27d6535ba8",
+      "lines": {
+        "48": "import org.boris.expr.function.excel.SUBTOTAL;",
+        "49": "import org.boris.expr.function.excel.SUMIF;",
+        "372": "",
+        "373": "    public void testSUMIF() throws Exception {",
+        "374": "        AbstractFunction s = new SUMIF();",
+        "375": "        assertEquals(eval(s, toArray(1, 2, 3), \">2\"), 3.);"
+      },
+      "id": 105398321,
+      "filename": "ExcelMathAndTrigFunctionsTest.java"
+    },
+    {
+      "repo": "https://github.com/dsths/mondrian.git",
+      "language": "Java",
+      "linescount": 1111,
+      "location": "/src/main/mondrian/olap/fun/vba",
+      "name": "mondrian",
+      "url": "https://searchcode.com/codesearch/view/100412065/",
+      "md5hash": "97269efda67b1f67b152b3400030b364",
+      "lines": {
+        "980": "",
+        "981": "    // Todo: SumIf Adds the cells specified by a given criteria.",
+        "982": "",
+        "983": "    // Todo: SumIfs Adds the cells in a range that meet multiple criteria."
+      },
+      "id": 100412065,
+      "filename": "Excel.java"
+    },
+    {
+      "repo": "https://github.com/poidasmith/xlloop.git",
+      "language": "Java",
+      "linescount": 30,
+      "location": "/org.boris.expr/java/test/org/boris/expr",
+      "name": "xlloop",
+      "url": "https://searchcode.com/codesearch/view/105398313/",
+      "md5hash": "b14f9bde1e8505841d902e5efa125983",
+      "lines": {
+        "25": "",
+        "26": "    public void testSumIf() throws Exception {",
+        "27": "        assertResult(\"SUMIF(A1:A5,\\\">4000\\\",B1:B5)\", 0.);",
+        "28": "    }"
+      },
+      "id": 105398313,
+      "filename": "ExcelCompatTest.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openicar/juniprint",
+      "language": "Java",
+      "linescount": 209,
+      "location": "/src/test/java/org/comsoft/juniprint",
+      "name": "juniprint",
+      "url": "https://searchcode.com/codesearch/view/60212055/",
+      "md5hash": "73848b8a809e5fbb6daabef0c1ce2599",
+      "lines": {
+        "178": "\t\t\t\tString group22FooterCellFormula = getCell(group22FooterRow, outputColCheck - 1).getCellFormula();",
+        "179": "\t\t\t\tString expectedFormula = \"SUMIF(A\" + (firstDetailRowNumber) + \":A\" + (lastDetailRowNumber) + \",\\\"=0\\\",E\" + (firstDetailRowNumber) + \":E\" + (lastDetailRowNumber) + \")\";"
+      },
+      "id": 60212055,
+      "filename": "JUniPrintTest.java"
+    },
+    {
+      "repo": "https://github.com/Berico-Technologies/mondrian.git",
+      "language": "Java",
+      "linescount": 1111,
+      "location": "/src/main/mondrian/olap/fun/vba",
+      "name": "mondrian",
+      "url": "https://searchcode.com/codesearch/view/69456290/",
+      "md5hash": "d000de4330f4246f9ea598129c490c5c",
+      "lines": {
+        "980": "",
+        "981": "    // Todo: SumIf Adds the cells specified by a given criteria.",
+        "982": "",
+        "983": "    // Todo: SumIfs Adds the cells in a range that meet multiple criteria."
+      },
+      "id": 69456290,
+      "filename": "Excel.java"
+    },
+    {
+      "repo": "https://bitbucket.org/markjenkins/libreoffice_ubuntu-debian-fixes.git",
+      "language": "Java",
+      "linescount": 196,
+      "location": "/xmerge/source/pexcel/java/org/openoffice/xmerge/converter/xml/sxc/pexcel/records/formula",
+      "name": "libreoffice_ubuntu-debian-fixes",
+      "url": "https://searchcode.com/codesearch/view/45005348/",
+      "md5hash": "426d1a278751f3f203298c4a43685255",
+      "lines": {
+        "50": "                addEntry(\"LOG\", TokenConstants.TLOG, -1);",
+        "51": "                addEntry(\"SUMIF\", TokenConstants.TSUMIF, -1);"
+      },
+      "id": 45005348,
+      "filename": "FunctionLookup.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 8,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 5,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

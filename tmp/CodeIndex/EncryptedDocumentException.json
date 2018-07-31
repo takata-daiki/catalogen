@@ -1,0 +1,127 @@
+{
+  "matchterm": "EncryptedDocumentException",
+  "previouspage": null,
+  "searchterm": "EncryptedDocumentException",
+  "query": "EncryptedDocumentException",
+  "language_filters": [
+    {
+      "count": 6,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 6,
+  "results": [
+    {
+      "repo": "https://github.com/coley33/OpenDocument.droid.git",
+      "language": "Java",
+      "linescount": 183,
+      "location": "/src/at/tomtasche/reader/background",
+      "name": "OpenDocument.droid",
+      "url": "https://searchcode.com/codesearch/view/71698717/",
+      "md5hash": "bf2ae9f916f89a341dc2ba1dce5b7b9b",
+      "lines": {
+        "179": "\t@SuppressWarnings(\"serial\")",
+        "180": "\tpublic static class EncryptedDocumentException extends Exception {",
+        "117": "\t\t\tif (documentFile.isEncrypted() && password == null) {",
+        "118": "\t\t\t\tthrow new EncryptedDocumentException();"
+      },
+      "id": 71698717,
+      "filename": "DocumentLoader.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1109,
+      "location": "/src/org/apache/poi/hwpf/model",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384033/",
+      "md5hash": "d1e2f02dc9ef99107ca7326905a58d39",
+      "lines": {
+        "24": "",
+        "25": "import org.apache.poi.EncryptedDocumentException;",
+        "76": "        {",
+        "77": "            throw new EncryptedDocumentException("
+      },
+      "id": 97384033,
+      "filename": "FileInformationBlock.java"
+    },
+    {
+      "repo": "https://github.com/maxcom/tikaserver-ex.git",
+      "language": "Java",
+      "linescount": 133,
+      "location": "/src/main/java/su/msk/jet/tikaserver",
+      "name": "tikaserver-ex",
+      "url": "https://searchcode.com/codesearch/view/113014881/",
+      "md5hash": "161ca6fef06460bc298ea19ee5392088",
+      "lines": {
+        "116": "",
+        "4": "import org.apache.commons.logging.LogFactory;",
+        "5": "import org.apache.poi.EncryptedDocumentException;",
+        "117": "          if (e.getCause()!=null && e.getCause() instanceof EncryptedDocumentException) {"
+      },
+      "id": 113014881,
+      "filename": "TikaResource.java"
+    },
+    {
+      "repo": "https://github.com/coley33/OpenDocument.droid.git",
+      "language": "Java",
+      "linescount": 679,
+      "location": "/src/at/tomtasche/reader/ui/activity",
+      "name": "OpenDocument.droid",
+      "url": "https://searchcode.com/codesearch/view/71698646/",
+      "md5hash": "0d9836a4903af8f918a7500fa6aaee20",
+      "lines": {
+        "48": "import at.tomtasche.reader.background.DocumentLoader.EncryptedDocumentException;",
+        "530": "\t\t\treturn;",
+        "531": "\t\t} else if (error instanceof EncryptedDocumentException) {",
+        "47": "import at.tomtasche.reader.background.DocumentLoader;"
+      },
+      "id": 71698646,
+      "filename": "MainActivity.java"
+    },
+    {
+      "repo": "git://github.com/liferay/liferay-portal.git",
+      "language": "Java",
+      "linescount": 136,
+      "location": "/portal-impl/src/com/liferay/portal/metadata",
+      "name": "liferay-portal",
+      "url": "https://searchcode.com/codesearch/view/4121637/",
+      "md5hash": "0580451da5efdf67736fce7c386785ca",
+      "lines": {
+        "70": "\t\t\tif ((throwable instanceof CryptographyException) ||",
+        "29": "import org.apache.pdfbox.exceptions.CryptographyException;",
+        "30": "import org.apache.poi.EncryptedDocumentException;",
+        "71": "\t\t\t\t(throwable instanceof EncryptedDocumentException)) {"
+      },
+      "id": 4121637,
+      "filename": "TikaRawMetadataProcessor.java"
+    },
+    {
+      "repo": "git://github.com/liferay/liferay-portal.git",
+      "language": "Java",
+      "linescount": 1159,
+      "location": "/portal-impl/src/com/liferay/portal/util",
+      "name": "liferay-portal",
+      "url": "https://searchcode.com/codesearch/view/4122804/",
+      "md5hash": "2f5a1d561be5fb9f918b950a4785678d",
+      "lines": {
+        "435": "\t\t\tif ((throwable instanceof CryptographyException) ||",
+        "436": "\t\t\t\t(throwable instanceof EncryptedDocumentException) ||",
+        "69": "import org.apache.pdfbox.exceptions.CryptographyException;",
+        "70": "import org.apache.poi.EncryptedDocumentException;"
+      },
+      "id": 4122804,
+      "filename": "FileImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 6,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

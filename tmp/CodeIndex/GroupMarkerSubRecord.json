@@ -1,0 +1,78 @@
+{
+  "matchterm": "GroupMarkerSubRecord",
+  "previouspage": null,
+  "searchterm": "GroupMarkerSubRecord",
+  "query": "GroupMarkerSubRecord",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 143,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642524/",
+      "md5hash": "d5ab8af238dae1673f25974ef2ea6e20",
+      "lines": {
+        "130": "    public Object clone() {",
+        "131": "        GroupMarkerSubRecord rec = new GroupMarkerSubRecord();",
+        "53": " */",
+        "54": "public class GroupMarkerSubRecord",
+        "71": "",
+        "72": "    public GroupMarkerSubRecord(RecordInputStream in)",
+        "60": "",
+        "61": "    public GroupMarkerSubRecord()"
+      },
+      "id": 15642524,
+      "filename": "GroupMarkerSubRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 101,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642394/",
+      "md5hash": "d40b14ea92262475f6a64dcc34544617",
+      "lines": {
+        "88": "                break;",
+        "85": "                break;",
+        "86": "            case GroupMarkerSubRecord.sid:",
+        "87": "                r = new GroupMarkerSubRecord( in );"
+      },
+      "id": 15642394,
+      "filename": "SubRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 766,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642409/",
+      "md5hash": "9e212df4a5b523744fd315d99c376d1b",
+      "lines": {
+        "688": "        cmo.setAutoline( true );",
+        "689": "        GroupMarkerSubRecord gmo = new GroupMarkerSubRecord();"
+      },
+      "id": 15642409,
+      "filename": "EscherAggregate.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,511 @@
+{
+  "matchterm": "PropertySet",
+  "previouspage": null,
+  "searchterm": "PropertySet",
+  "query": "PropertySet",
+  "language_filters": [
+    {
+      "count": 1347,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 1347,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/bompani/cmdbuild-unibo",
+      "language": "Java",
+      "linescount": 126,
+      "location": "/archimate-cmdbuild-plugin/src/org/cmdbuild/archimate/model/cmdb",
+      "name": "cmdbuild-unibo",
+      "url": "https://searchcode.com/codesearch/view/63404338/",
+      "md5hash": "5000dd32de86eb4bea957dbdc85d45e7",
+      "lines": {
+        "64": "\t * @see #setLocalName(String)",
+        "65": "\t * @see org.cmdbuild.archimate.model.cmdb.CmdbPackage#getPropertySet_LocalName()",
+        "38": "\t * @see #setNamespace(String)",
+        "39": "\t * @see org.cmdbuild.archimate.model.cmdb.CmdbPackage#getPropertySet_Namespace()",
+        "45": "\t/**",
+        "46": "\t * Sets the value of the '{@link org.cmdbuild.archimate.model.cmdb.PropertySet#getNamespace <em>Namespace</em>}' attribute.",
+        "16": " * <ul>",
+        "17": " *   <li>{@link org.cmdbuild.archimate.model.cmdb.PropertySet#getNamespace <em>Namespace</em>}</li>",
+        "18": " *   <li>{@link org.cmdbuild.archimate.model.cmdb.PropertySet#getLocalName <em>Local Name</em>}</li>",
+        "19": " *   <li>{@link org.cmdbuild.archimate.model.cmdb.PropertySet#getAny <em>Any</em>}</li>",
+        "20": " *   <li>{@link org.cmdbuild.archimate.model.cmdb.PropertySet#getParent <em>Parent</em>}</li>",
+        "21": " * </ul>",
+        "23": " *",
+        "24": " * @see org.cmdbuild.archimate.model.cmdb.CmdbPackage#getPropertySet()",
+        "27": " */",
+        "28": "public interface PropertySet extends EObject {"
+      },
+      "id": 63404338,
+      "filename": "PropertySet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 722,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642677/",
+      "md5hash": "c696e553c12e15e63de30c0e97a23a85",
+      "lines": {
+        "64": " * {@link PropertySet#PropertySet(byte[])}. If the constructor's",
+        "65": " * argument is not in the Horrible Property Set Format, i.e. not a",
+        "68": " *",
+        "69": " * <p>A {@link PropertySet} has a list of {@link Section}s, and each",
+        "73": " * {@link Property} arrays.</p> Since the vast majority of {@link",
+        "74": " * PropertySet}s contains only a single {@link Section}, the",
+        "75": " * convenience method {@link #getProperties} returns the properties of",
+        "140": "     * <p>Specifies the version of the operating system that created",
+        "141": "     * this {@link PropertySet}. See the HPFS documentation for",
+        "178": "    /**",
+        "179": "     * <p>Specifies this {@link PropertySet}'s \"classID\" field. See",
+        "58": " * an instance of this class or one of its subclasses by calling the",
+        "59": " * factory method {@link PropertySetFactory#create} and then retrieve",
+        "61": " *",
+        "62": " * <p>{@link PropertySetFactory#create} does its work by calling one",
+        "63": " * of the constructors {@link PropertySet#PropertySet(InputStream)} or"
+      },
+      "id": 15642677,
+      "filename": "PropertySet.java"
+    },
+    {
+      "repo": "git://github.com/GregBowyer/ManagedRuntimeInitiative.git",
+      "language": "Java",
+      "linescount": 423,
+      "location": "/MRI-J/jaxws/src/share/classes/com/sun/xml/internal/ws/api",
+      "name": "ManagedRuntimeInitiative",
+      "url": "https://searchcode.com/codesearch/view/17099358/",
+      "md5hash": "22916241c2a91ffdbb49e24e7b3a894d",
+      "lines": {
+        "128": "    // * {@link #get(Object)} and {@link #put(String, Object)} to work faster.",
+        "65": "    /**",
+        "66": "     * Marks a field on {@link PropertySet} as a",
+        "132": "    // * <p>",
+        "133": "    // * Currently, this is used only by {@link DistributedPropertySet}.",
+        "129": "    // * This is especially so with {@link DistributedPropertySet}, so implementations",
+        "265": "",
+        "193": "    }",
+        "192": "        void set(PropertySet props, Object value);",
+        "57": "@SuppressWarnings(\"SuspiciousMethodCalls\")",
+        "58": "public abstract class PropertySet {",
+        "191": "        Object get(PropertySet props);",
+        "266": "        public boolean hasValue(PropertySet props) {",
+        "62": "     */",
+        "63": "    protected PropertySet() {}"
+      },
+      "id": 17099358,
+      "filename": "PropertySet.java"
+    },
+    {
+      "repo": "https://code.google.com/p/classroom-presenter/",
+      "language": "Java",
+      "linescount": 555,
+      "location": "/testing/apache-ant-1.8.2/src/main/org/apache/tools/ant/types",
+      "name": "classroom-presenter",
+      "url": "https://searchcode.com/codesearch/view/7239601/",
+      "md5hash": "bf21e3b787d7dca19f21be97e8e230b6",
+      "lines": {
+        "288": "     * @return the properties for this propertyset.",
+        "388": "",
+        "389": "                if (r.builtin.equals(BuiltinPropertySetName.ALL)) {",
+        "390": "                    names.addAll(properties.keySet());",
+        "391": "                } else if (r.builtin.equals(BuiltinPropertySetName.SYSTEM)) {",
+        "392": "                    names.addAll(System.getProperties().keySet());",
+        "393": "                } else if (r.builtin.equals(BuiltinPropertySetName",
+        "43": " */",
+        "44": "public class PropertySet extends DataType implements ResourceCollection {",
+        "301": "        for (Enumeration e = setRefs.elements(); e.hasMoreElements();) {",
+        "302": "            PropertySet set = (PropertySet) e.nextElement();",
+        "407": "     * Performs the check for circular references and returns the",
+        "408": "     * referenced PropertySet.",
+        "157": "     */",
+        "158": "    public void appendBuiltin(BuiltinPropertySetName b) {",
+        "287": "     * This is the operation to get the existing or recalculated properties."
+      },
+      "id": 7239601,
+      "filename": "PropertySet.java"
+    },
+    {
+      "repo": "https://bitbucket.org/markjenkins/libreoffice_ubuntu-debian-fixes.git",
+      "language": "Java",
+      "linescount": 1094,
+      "location": "/javaunohelper/com/sun/star/lib/uno/helper",
+      "name": "libreoffice_ubuntu-debian-fixes",
+      "url": "https://searchcode.com/codesearch/view/45031456/",
+      "md5hash": "5114acb451eea90cdc21ce234bb916ab",
+      "lines": {
+        "64": " *  public class Foo extends PropertySet",
+        "35": "import com.sun.star.beans.XPropertiesChangeListener;",
+        "36": "import com.sun.star.beans.XPropertySetInfo;",
+        "37": "import com.sun.star.beans.XFastPropertySet;",
+        "38": "import com.sun.star.beans.PropertyVetoException;",
+        "39": "import com.sun.star.beans.XMultiPropertySet;",
+        "46": "",
+        "47": "/** This class is an implementation of the interfaces com.sun.star.beans.XPropertySet,",
+        "48": " *  com.sun.star.beans.XFastPropertySet and com.sun.star.beans.XMultiPropertySet. This",
+        "49": " *  class has to be inherited to be used. The values of properties are stored in member",
+        "310": "",
+        "311": "    //XPropertySet ----------------------------------------------------",
+        "63": " *  <pre>",
+        "30": "import com.sun.star.beans.PropertyChangeEvent;",
+        "31": "import com.sun.star.beans.XPropertySet;"
+      },
+      "id": 45031456,
+      "filename": "PropertySet.java"
+    },
+    {
+      "repo": "https://bitbucket.org/cleto/zeroc-ice-package.git",
+      "language": "Java",
+      "linescount": 231,
+      "location": "/java/src/IceGridGUI/Application",
+      "name": "zeroc-ice-package",
+      "url": "https://searchcode.com/codesearch/view/45904733/",
+      "md5hash": "100a55471deb40f2d2f7e2a3d435c343",
+      "lines": {
+        "177": "    PropertySet(boolean brandNew, TreeNode parent, String id, String unsubstitutedId, PropertySetDescriptor descriptor)",
+        "151": "    {",
+        "172": "        {",
+        "173": "            return ((PropertySetParent)_parent).getEditable();",
+        "176": "",
+        "24": "        PropertySetDescriptor psd = (PropertySetDescriptor)d.clone();",
+        "18": "",
+        "19": "class PropertySet extends TreeNode",
+        "20": "{",
+        "21": "    static public PropertySetDescriptor",
+        "22": "    copyDescriptor(PropertySetDescriptor d)",
+        "23": "    {",
+        "152": "        PropertySetDescriptor clone = (PropertySetDescriptor)savedDescriptor;",
+        "186": "",
+        "187": "    PropertySet(TreeNode parent, String id, String unsubstitutedId, PropertySetDescriptor descriptor)"
+      },
+      "id": 45904733,
+      "filename": "PropertySet.java"
+    },
+    {
+      "repo": "https://bitbucket.org/adoptopenjdk/jdk8-jaxws",
+      "language": "Java",
+      "linescount": 135,
+      "location": "/src/share/jaxws_classes/com/oracle/webservices/internal/api/message",
+      "name": "jdk8-jaxws",
+      "url": "https://searchcode.com/codesearch/view/137358133/",
+      "md5hash": "f636ff1f812dcf2453064b90ec74e40a",
+      "lines": {
+        "128": "     * If necessary, it also can hold other values (not present on {@link PropertySet}) -",
+        "129": "     * {@see PropertySet#mapAllowsAdditionalProperties}",
+        "130": "     *",
+        "101": "    /**",
+        "102": "     * Creates a {@link Map} view of this {@link PropertySet}.",
+        "105": "     * This map is partially live, in the sense that values you set to it",
+        "106": "     * will be reflected to {@link PropertySet}.",
+        "43": "public interface PropertySet {",
+        "45": "    /**",
+        "46": "     * Marks a field on {@link PropertySet} as a",
+        "109": "     * However, this map may not pick up changes made",
+        "110": "     * to {@link PropertySet} after the view is created.",
+        "127": "     * <p/>",
+        "111": "     *",
+        "42": " */",
+        "94": "    /**",
+        "95": "     * Checks if this {@link PropertySet} supports a property of the given name."
+      },
+      "id": 137358133,
+      "filename": "PropertySet.java"
+    },
+    {
+      "repo": "https://github.com/akiellor/dynjs.git",
+      "language": "Java",
+      "linescount": 29,
+      "location": "/src/main/java/org/dynjs/parser/ast",
+      "name": "dynjs",
+      "url": "https://searchcode.com/codesearch/view/75814867/",
+      "md5hash": "f3f155ac13210dba4cfa6ad8a335d0cc",
+      "lines": {
+        "10": "",
+        "11": "    public PropertySet(String name, String identifier, Statement block) {",
+        "6": "",
+        "7": "public class PropertySet extends PropertyAccessor {"
+      },
+      "id": 75814867,
+      "filename": "PropertySet.java"
+    },
+    {
+      "repo": "https://bitbucket.org/cbockermann/auditviewer.git",
+      "language": "Java",
+      "linescount": 104,
+      "location": "/src/main/java/org/jwall/app",
+      "name": "auditviewer",
+      "url": "https://searchcode.com/codesearch/view/129444660/",
+      "md5hash": "55863d4c493da36e7e6c613bfdfdf118",
+      "lines": {
+        "97": "\tpublic void save( OutputStream out ){",
+        "98": "\t\tPropertySet.getXStream().toXML( this , out );",
+        "100": "\t",
+        "101": "\tpublic PropertySet load( InputStream in ){",
+        "38": "\t */",
+        "39": "\tpublic PropertySet( String cat ){",
+        "103": "\t}",
+        "102": "\t\treturn (PropertySet) PropertySet.getXStream().fromXML( in );",
+        "20": "@XStreamAlias(\"Properties\")",
+        "21": "public class PropertySet {",
+        "92": "\t\txstream.processAnnotations( Property.class );",
+        "93": "\t\txstream.processAnnotations( PropertySet.class );"
+      },
+      "id": 129444660,
+      "filename": "PropertySet.java"
+    },
+    {
+      "repo": "https://bitbucket.org/keithb/tdd",
+      "language": "Java",
+      "linescount": 507,
+      "location": "/targets/ant/1.7.0/org/apache/tools/ant/types",
+      "name": "tdd",
+      "url": "https://searchcode.com/codesearch/view/120310553/",
+      "md5hash": "b48383ab7081ce70985605b264b2acb4",
+      "lines": {
+        "288": "        for (Enumeration e = setRefs.elements(); e.hasMoreElements();) {",
+        "289": "            PropertySet set = (PropertySet) e.nextElement();",
+        "391": "     * referenced PropertySet.",
+        "390": "     * Performs the check for circular references and returns the",
+        "295": "            addPropertyNames(names, props);",
+        "296": "            // Add this PropertySet's nested PropertySets' property names.",
+        "297": "            for (Enumeration e = setRefs.elements(); e.hasMoreElements();) {",
+        "42": " */",
+        "43": "public class PropertySet extends DataType implements ResourceCollection {",
+        "275": "     * This is the operation to get the existing or recalculated properties.",
+        "276": "     * @return the properties for this propertyset.",
+        "156": "     */",
+        "157": "    public void appendBuiltin(BuiltinPropertySetName b) {",
+        "190": "     */",
+        "191": "    public void addPropertyset(PropertySet ref) {"
+      },
+      "id": 120310553,
+      "filename": "PropertySet.java"
+    },
+    {
+      "repo": "https://bitbucket.org/adoptopenjdk/jdk8-jaxws",
+      "language": "Java",
+      "linescount": 136,
+      "location": "/src/share/jaxws_classes/com/sun/xml/internal/ws/api",
+      "name": "jdk8-jaxws",
+      "url": "https://searchcode.com/codesearch/view/137356132/",
+      "md5hash": "efe9b466bdaf35203c6c296791eeafb7",
+      "lines": {
+        "128": "                    return old;",
+        "34": " *",
+        "35": " * @deprecated Use com.oracle.webservices.internal.api.message.PropertySet instead.",
+        "37": " */",
+        "38": "public abstract class PropertySet extends com.oracle.webservices.internal.api.message.BasePropertySet {",
+        "46": "     */",
+        "47": "    protected static class PropertyMap extends com.oracle.webservices.internal.api.message.BasePropertySet.PropertyMap {}",
+        "52": "    protected static PropertyMap parse(final Class clazz) {",
+        "53": "        com.oracle.webservices.internal.api.message.BasePropertySet.PropertyMap pm = com.oracle.webservices.internal.api.message.BasePropertySet.parse(clazz);",
+        "120": "                public Object getValue() {",
+        "121": "                    return e.getValue().get(PropertySet.this);",
+        "125": "                    Accessor acc = e.getValue();",
+        "126": "                    Object old = acc.get(PropertySet.this);",
+        "127": "                    acc.set(PropertySet.this,value);"
+      },
+      "id": 137356132,
+      "filename": "PropertySet.java"
+    },
+    {
+      "repo": "https://bitbucket.org/toften/prop4j.git",
+      "language": "Java",
+      "linescount": 12,
+      "location": "/src/main/java/net/toften/prop4j",
+      "name": "prop4j",
+      "url": "https://searchcode.com/codesearch/view/48777478/",
+      "md5hash": "4294a01e906260f38f806bc0b0e437a3",
+      "lines": {
+        "8": "",
+        "9": "    String propertySet() default \"\";",
+        "6": "@Retention(RetentionPolicy.RUNTIME)",
+        "7": "public @interface PropertySet {"
+      },
+      "id": 48777478,
+      "filename": "PropertySet.java"
+    },
+    {
+      "repo": "https://github.com/magnayn/cargo-extensions.git",
+      "language": "Java",
+      "linescount": 75,
+      "location": "/ant/src/main/java/org/codehaus/cargo/ant",
+      "name": "cargo-extensions",
+      "url": "https://searchcode.com/codesearch/view/106197693/",
+      "md5hash": "4a3b7109d423df825d264ee48c31b263",
+      "lines": {
+        "32": " * ",
+        "33": " * Note: When we switch to Ant 1.6 we will be able to replace this by Ant 1.6 PropertySet",
+        "36": " */",
+        "37": "public class PropertySet"
+      },
+      "id": 106197693,
+      "filename": "PropertySet.java"
+    },
+    {
+      "repo": "https://bitbucket.org/thejeshgn/processing101",
+      "language": "Java",
+      "linescount": 94,
+      "location": "/project/libraries/nexttext/src/net/nexttext",
+      "name": "processing101",
+      "url": "https://searchcode.com/codesearch/view/118799780/",
+      "md5hash": "abc43d8d1850aa00c7ccc06dbbb7404b",
+      "lines": {
+        "32": " * <p>The PropertySet is a map from property names to Property objects.  It is",
+        "33": " * similar to java.util.Map, except that once a Property object has been added",
+        "34": " * to the PropertySet that object cannot be removed or replaced, the name will",
+        "40": " */",
+        "41": "/* $Id: PropertySet.java 49 2009-01-12 20:03:58Z prisonerjohn $ */",
+        "42": "public class PropertySet {",
+        "43": "    ",
+        "29": "/**",
+        "30": " * The PropertySet encapsulates the named properties of an object.  ",
+        "31": " * "
+      },
+      "id": 118799780,
+      "filename": "PropertySet.java"
+    },
+    {
+      "repo": "https://github.com/toddkbarlow/hibernate-tools.git",
+      "language": "Java",
+      "linescount": 56,
+      "location": "/src/test/org/hibernate/tool/hbm2x/hbm2hbmxml",
+      "name": "hibernate-tools",
+      "url": "https://searchcode.com/codesearch/view/114430494/",
+      "md5hash": "a2a10b691ccdf6d52098e8ac6948eab4",
+      "lines": {
+        "16": "",
+        "17": "\tpublic PropertySet() {",
+        "19": "",
+        "20": "\tpublic PropertySet(String name) {",
+        "6": "/**",
+        "7": " * todo: describe PropertySet",
+        "10": " */",
+        "11": "public class PropertySet {"
+      },
+      "id": 114430494,
+      "filename": "PropertySet.java"
+    },
+    {
+      "repo": "https://octave.svn.sourceforge.net/svnroot/octave",
+      "language": "Java",
+      "linescount": 129,
+      "location": "/tags/R2008-04-29/extra/jhandles/src/org/octave/graphics",
+      "name": "octave",
+      "url": "https://searchcode.com/codesearch/view/9513137/",
+      "md5hash": "98eb74e7dfc3b7dc015bf0585be10439",
+      "lines": {
+        "24": "",
+        "25": "public class PropertySet extends TreeMap",
+        "26": "{",
+        "27": "\tpublic PropertySet()"
+      },
+      "id": 9513137,
+      "filename": "PropertySet.java"
+    },
+    {
+      "repo": "https://octave.svn.sourceforge.net/svnroot/octave",
+      "language": "Java",
+      "linescount": 127,
+      "location": "/tags/R2007-07-26/octave-forge/extra/jhandles/src/org/octave/graphics",
+      "name": "octave",
+      "url": "https://searchcode.com/codesearch/view/9527561/",
+      "md5hash": "9d018cdc3b224047e1e16d424960ae7f",
+      "lines": {
+        "25": "",
+        "26": "public class PropertySet extends TreeMap",
+        "27": "{",
+        "28": "\tpublic PropertySet()"
+      },
+      "id": 9527561,
+      "filename": "PropertySet.java"
+    },
+    {
+      "repo": "https://octave.svn.sourceforge.net/svnroot/octave",
+      "language": "Java",
+      "linescount": 130,
+      "location": "/tags/R2007-10-14/octave-forge/extra/jhandles/src/org/octave/graphics",
+      "name": "octave",
+      "url": "https://searchcode.com/codesearch/view/9538751/",
+      "md5hash": "991904fec81569e5f013815b99940ba4",
+      "lines": {
+        "25": "",
+        "26": "public class PropertySet extends TreeMap",
+        "27": "{",
+        "28": "\tpublic PropertySet()"
+      },
+      "id": 9538751,
+      "filename": "PropertySet.java"
+    },
+    {
+      "repo": "git://github.com/bcdev/ceres.git",
+      "language": "Java",
+      "linescount": 122,
+      "location": "/ceres-binding/src/main/java/com/bc/ceres/binding",
+      "name": "ceres",
+      "url": "https://searchcode.com/codesearch/view/17532437/",
+      "md5hash": "51f813803c346c27532804ea264c35bf",
+      "lines": {
+        "28": " */",
+        "29": "public interface PropertySet extends PropertyChangeEmitter {",
+        "22": " * <p/>",
+        "23": " * The {@link PropertySet} interface is based on the well-known <i>Property List</i> design pattern."
+      },
+      "id": 17532437,
+      "filename": "PropertySet.java"
+    },
+    {
+      "repo": "https://github.com/gaubert/DWD-metadata-transformers.git",
+      "language": "Java",
+      "linescount": 51,
+      "location": "/src/main/java/org/eumetsat/eoportal/dcpc/commons/conf",
+      "name": "DWD-metadata-transformers",
+      "url": "https://searchcode.com/codesearch/view/109772117/",
+      "md5hash": "498444e2ce3b9e62e77582aa4d1b24dd",
+      "lines": {
+        "14": "",
+        "5": "@SuppressWarnings(\"unchecked\")",
+        "6": "public class PropertySet extends HashSet",
+        "15": "    public PropertySet()"
+      },
+      "id": 109772117,
+      "filename": "PropertySet.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 793,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 405,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 70,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 68,
+      "source": "Sourceforge",
+      "id": 4
+    },
+    {
+      "count": 10,
+      "source": "GitLab",
+      "id": 13
+    },
+    {
+      "count": 1,
+      "source": "Unknown",
+      "id": 0
+    }
+  ]
+}

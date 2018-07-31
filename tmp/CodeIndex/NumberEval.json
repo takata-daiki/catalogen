@@ -1,0 +1,66 @@
+{
+  "matchterm": "NumberEval",
+  "previouspage": null,
+  "searchterm": "NumberEval",
+  "query": "NumberEval",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://repast.svn.sourceforge.net/svnroot/repast",
+      "language": "Java",
+      "linescount": 131,
+      "location": "/repast.simphony/tags/RS-2.0b/repast.simphony.data/src/repast/simphony/data/logging/formula",
+      "name": "repast",
+      "url": "https://searchcode.com/codesearch/view/14341730/",
+      "md5hash": "338dd5471b8ff27f83225f2ebd22def3",
+      "lines": {
+        "37": "",
+        "38": "  private static class NumberEval implements Evaluator {",
+        "42": "",
+        "43": "    public NumberEval(FastMethod method) {",
+        "102": "      evaluator = new NumberEval(FastClass.create(method.getDeclaringClass()).getMethod(method));",
+        "101": "    if (pNumberSet.contains(retVal) || Number.class.isAssignableFrom(retVal)) {"
+      },
+      "id": 14341730,
+      "filename": "ASTVar.java"
+    },
+    {
+      "repo": "http://goobstools.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1017,
+      "location": "/src/org/goobs/scheme",
+      "name": "goobstools",
+      "url": "https://searchcode.com/codesearch/view/13951374/",
+      "md5hash": "82c77da9aa6a48631239501f671326bc",
+      "lines": {
+        "96": "\t\t\treturn numberEval(args);",
+        "759": "\tprivate ScmObject numberEval(ScmObject args){",
+        "758": "\t",
+        "95": "\t\t}else if(id.equals(InternalPrimitive.NUMBER)){"
+      },
+      "id": 13951374,
+      "filename": "InternalPrimitive.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Sourceforge",
+      "id": 4
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

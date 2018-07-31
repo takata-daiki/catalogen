@@ -1,0 +1,15 @@
+{
+  "id": "37860178",
+  "filename": "Table2XLSX.java",
+  "url": "https://searchcode.com/codesearch/view/37860178/",
+  "lines": {
+    "39": "        final XSSFWorkbook workbook = new XSSFWorkbook();\n",
+    "41": "        final XSSFSheet xssfSheet = workbook.createSheet(table.getTableName());\n",
+    "68": "                        final XSSFCreationHelper helper = workbook.getCreationHelper();\n",
+    "75": "                        final CellStyle hlink_style = createHyperLinkStyle(workbook);\n",
+    "91": "            workbook.write(outputStream);\n",
+    "98": "    private CellStyle createHyperLinkStyle(final XSSFWorkbook workbook) {\n",
+    "99": "        final CellStyle hlink_style = workbook.createCellStyle();\n",
+    "100": "        final Font hlink_font = workbook.createFont();\n"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "matchterm": "IllegalPropertySetDataException",
+  "previouspage": null,
+  "searchterm": "IllegalPropertySetDataException",
+  "query": "IllegalPropertySetDataException",
+  "language_filters": [
+    {
+      "count": 5,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 5,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 105,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642700/",
+      "md5hash": "1744598aa12c35db65e13a4e3ba73713",
+      "lines": {
+        "97": "     */",
+        "98": "    public IllegalPropertySetDataException(final String msg,",
+        "72": "     */",
+        "73": "    public IllegalPropertySetDataException(final String msg)",
+        "51": " * @author Drew Varner(Drew.Varner atDomain sc.edu)",
+        "84": "     */",
+        "85": "    public IllegalPropertySetDataException(final Throwable reason)",
+        "54": " */",
+        "55": "public class IllegalPropertySetDataException extends HPSFRuntimeException",
+        "52": " * @version $Id: IllegalPropertySetDataException.java 489730 2006-12-22 19:18:16Z bayard $",
+        "60": "     */",
+        "61": "    public IllegalPropertySetDataException()"
+      },
+      "id": 15642700,
+      "filename": "IllegalPropertySetDataException.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 740,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642671/",
+      "md5hash": "4af2341597b1380f5573c853dfcdca4d",
+      "lines": {
+        "640": "     * ",
+        "641": "     * @exception IllegalPropertySetDataException if the dictionary's key and",
+        "646": "    public void setDictionary(final Map dictionary)",
+        "647": "        throws IllegalPropertySetDataException",
+        "488": "                if (codepage == -1)",
+        "489": "                    throw new IllegalPropertySetDataException",
+        "653": "                if (!(i.next() instanceof Long))",
+        "654": "                    throw new IllegalPropertySetDataException",
+        "658": "                if (!(i.next() instanceof String))",
+        "659": "                    throw new IllegalPropertySetDataException",
+        "437": "                if (!(p1 instanceof Integer))",
+        "438": "                    throw new IllegalPropertySetDataException"
+      },
+      "id": 15642671,
+      "filename": "MutableSection.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 239,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642684/",
+      "md5hash": "638f11ecafb414834c45ab757ac19a8d",
+      "lines": {
+        "152": "        if (high != 0 && high != 0xFFFFFFFF00000000L)",
+        "153": "            throw new IllegalPropertySetDataException",
+        "132": "        if (high != 0)",
+        "133": "            throw new IllegalPropertySetDataException"
+      },
+      "id": 15642684,
+      "filename": "TypeWriter.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 693,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642682/",
+      "md5hash": "ff8411e428f7ed19092d0d8bd80636ae",
+      "lines": {
+        "277": "                b.append(\" bytes.\");",
+        "278": "                throw new IllegalPropertySetDataException(b.toString());"
+      },
+      "id": 15642682,
+      "filename": "Section.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 331,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642695/",
+      "md5hash": "4da3210542af1db464b9a8750c859f7c",
+      "lines": {
+        "261": "                if (cause instanceof UnsupportedEncodingException)",
+        "262": "                    throw new IllegalPropertySetDataException(cause);"
+      },
+      "id": 15642695,
+      "filename": "MutablePropertySet.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 5,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "matchterm": "HSSFComment",
+  "previouspage": null,
+  "searchterm": "HSSFComment",
+  "query": "HSSFComment",
+  "language_filters": [
+    {
+      "count": 14,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 14,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 185,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642324/",
+      "md5hash": "fc029136a3141517ec69866f71588552",
+      "lines": {
+        "83": "",
+        "84": "    protected HSSFComment( NoteRecord note, TextObjectRecord txo )",
+        "69": "     */",
+        "70": "    public HSSFComment( HSSFShape parent, HSSFAnchor anchor )",
+        "55": "public class HSSFComment extends HSSFTextbox {",
+        "54": " */"
+      },
+      "id": 15642324,
+      "filename": "HSSFComment.java"
+    },
+    {
+      "repo": "https://github.com/semantalytics/RightField.git",
+      "language": "Java",
+      "linescount": 345,
+      "location": "/src/main/java/uk/ac/manchester/cs/owl/semspreadsheets/model/hssf/impl",
+      "name": "RightField",
+      "url": "https://searchcode.com/codesearch/view/72854667/",
+      "md5hash": "69c13b066ab7080e5b5737d464e674f4",
+      "lines": {
+        "18": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "19": "import org.apache.poi.hssf.usermodel.HSSFComment;",
+        "70": "    public String getComment() {",
+        "71": "        HSSFComment hssfComment = theCell.getCellComment();",
+        "72": "        if (hssfComment == null) {",
+        "73": "            return null;",
+        "75": "        else {",
+        "76": "            return hssfComment.toString();"
+      },
+      "id": 72854667,
+      "filename": "CellHSSFImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openicar/juniprint",
+      "language": "Java",
+      "linescount": 2096,
+      "location": "/src/main/java/org/comsoft/juniprint",
+      "name": "juniprint",
+      "url": "https://searchcode.com/codesearch/view/60212057/",
+      "md5hash": "e9487002cf69dbd9246766c01c968b73",
+      "lines": {
+        "33": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "34": "import org.apache.poi.hssf.usermodel.HSSFComment;",
+        "1795": "\t\t\t\t\tHSSFComment comment = ExcelUtils.getCell(activeSheet,  i, j).getCellComment();",
+        "1873": "\t\t\t\tfor (int j = 1; j<= modelColE; j++){",
+        "1768": "\t\t\t\tfor (int j = 1; j<= modelColE; j++){",
+        "1769": "\t\t\t\t\tHSSFComment comment = ExcelUtils.getCell(activeSheet,  i, j).getCellComment();",
+        "1899": "\t\t\t\tfor (int j = 1; j<= modelColE; j++){",
+        "1900": "\t\t\t\t\tHSSFComment comment = ExcelUtils.getCell(activeSheet,  i, j).getCellComment();",
+        "1794": "\t\t\t\tfor (int j = 1; j<= modelColE; j++){",
+        "1840": "\t\t\t\tfor (int j = 1; j<= modelColE; j++){",
+        "1841": "\t\t\t\t\tHSSFComment comment = ExcelUtils.getCell(activeSheet,  i, j).getCellComment();",
+        "1874": "\t\t\t\t\tHSSFComment comment = ExcelUtils.getCell(activeSheet,  i, j).getCellComment();",
+        "1748": "\t\t\t\tfor (int j = 1; j<= modelColE; j++){",
+        "1749": "\t\t\t\t\tHSSFComment comment = ExcelUtils.getCell(activeSheet,  i, j).getCellComment();",
+        "1718": "\t\t\t\tfor (int j=1; j <= modelColE; j++){",
+        "1719": "\t\t\t\t\tHSSFComment comment = ExcelUtils.getCell(activeSheet,  i, j).getCellComment();"
+      },
+      "id": 60212057,
+      "filename": "JUniPrint.java"
+    },
+    {
+      "repo": "https://github.com/dylanvivi/util.git",
+      "language": "Java",
+      "linescount": 419,
+      "location": "/src/main/java/com/dylan/lang",
+      "name": "util",
+      "url": "https://searchcode.com/codesearch/view/73315299/",
+      "md5hash": "a75d39e57f9db6720178088f2a109b58",
+      "lines": {
+        "113": "\t\t// \u5b9a\u4e49\u6ce8\u91ca\u7684\u5927\u5c0f\u548c\u4f4d\u7f6e,\u8be6\u89c1\u6587\u6863",
+        "114": "\t\tHSSFComment comment = patriarch.createComment(new HSSFClientAnchor(0, 0, 0, 0, (short) 4, 2, (short) 6, 5));",
+        "20": "import org.apache.poi.hssf.usermodel.HSSFClientAnchor;",
+        "21": "import org.apache.poi.hssf.usermodel.HSSFComment;",
+        "266": "\t\t// \u5b9a\u4e49\u6ce8\u91ca\u7684\u5927\u5c0f\u548c\u4f4d\u7f6e,\u8be6\u89c1\u6587\u6863",
+        "267": "\t\tHSSFComment comment = patriarch.createComment(new HSSFClientAnchor(0, 0, 0, 0, (short) 4, 2, (short) 6, 5));"
+      },
+      "id": 73315299,
+      "filename": "ExcelUtil.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1062,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642303/",
+      "md5hash": "a320b63ccf16b2c1798c3d8c1abc8ed7",
+      "lines": {
+        "1024": "        HSSFComment comment = null;",
+        "1025": "        HashMap txshapes = new HashMap(); //map shapeId and TextObjectRecord",
+        "998": "     */",
+        "999": "    public void setCellComment(HSSFComment comment){",
+        "1032": "                   comment = new HSSFComment(note, txo);",
+        "137": "    private CellValueRecordInterface record;",
+        "138": "    private HSSFComment              comment;",
+        "1031": "                   TextObjectRecord txo = (TextObjectRecord)txshapes.get(new Integer(note.getShapeId()));",
+        "1009": "     */",
+        "1010": "     public HSSFComment getCellComment(){",
+        "1022": "     */",
+        "1023": "    protected static HSSFComment findCellComment(Sheet sheet, int row, int column){"
+      },
+      "id": 15642303,
+      "filename": "HSSFCell.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openicar/juniprint",
+      "language": "Java",
+      "linescount": 172,
+      "location": "/src/main/java/org/comsoft/juniprint/utils",
+      "name": "juniprint",
+      "url": "https://searchcode.com/codesearch/view/60212070/",
+      "md5hash": "9503d2e3477ada81a384d2331dfb9335",
+      "lines": {
+        "37": "\tprivate HSSFCellStyle cellStyle;",
+        "38": "\tprivate HSSFComment cellComment;",
+        "151": "\t",
+        "152": "\tpublic HSSFComment getCellComment() {",
+        "29": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFComment;"
+      },
+      "id": 60212070,
+      "filename": "ExcelCell.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1319,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970708/",
+      "md5hash": "e52c956c400b399e06a805984e2f85f6",
+      "lines": {
+        "1015": "                    HSSFComment comment = getCellComment(rowNum, nr.getColumn());",
+        "808": "                    }",
+        "809": "                    HSSFComment comment = getCellComment(rowNum, nr.getColumn());",
+        "395": "\t                    }",
+        "396": "\t                    HSSFComment comment = getCellComment(nr.getRow(), colNum);",
+        "40": "import org.zkoss.poi.hssf.usermodel.HSSFCellStyle;",
+        "211": "                    }",
+        "212": "                    HSSFComment comment = getCellComment(rowNum, nr.getColumn());",
+        "1014": "                    }",
+        "41": "import org.zkoss.poi.hssf.usermodel.HSSFComment;",
+        "573": "\t                    }",
+        "574": "\t                    HSSFComment comment = getCellComment(nr.getRow(), colNum);"
+      },
+      "id": 3970708,
+      "filename": "HSSFSheetImpl.java"
+    },
+    {
+      "repo": "https://github.com/dsteiner/wub.git",
+      "language": "Java",
+      "linescount": 227,
+      "location": "/src/main/java/de/dsteiner/wub/web/orderlist/report/excel",
+      "name": "wub",
+      "url": "https://searchcode.com/codesearch/view/112311786/",
+      "md5hash": "b84f8228ffaeba6763bfd2367150c06c",
+      "lines": {
+        "216": "\t\tfinal HSSFComment comment = patr.createComment(anchor);",
+        "215": "",
+        "6": "import org.apache.poi.hssf.usermodel.HSSFClientAnchor;",
+        "7": "import org.apache.poi.hssf.usermodel.HSSFComment;"
+      },
+      "id": 112311786,
+      "filename": "SheetBuilderBase.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 157,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642359/",
+      "md5hash": "c684c958961cd9be6740a30893ceb9a4",
+      "lines": {
+        "96": "     */",
+        "97": "     private NoteRecord createNoteRecord( HSSFComment shape, int shapeId )",
+        "67": "     */",
+        "52": " * Represents a cell comment.",
+        "53": " * This class converts highlevel model data from <code>HSSFComment</code>",
+        "137": "",
+        "68": "     public CommentShape( HSSFComment hssfShape, int shapeId )",
+        "42": "import loci.poi.hssf.record.*;",
+        "43": "import loci.poi.hssf.usermodel.HSSFComment;",
+        "138": "        HSSFComment comment = (HSSFComment)shape;"
+      },
+      "id": 15642359,
+      "filename": "CommentShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 232,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642333/",
+      "md5hash": "15cf21df230a2e5bafaf6da9ba3a0dc3",
+      "lines": {
+        "160": "        HSSFComment shape = new HSSFComment(null, anchor);",
+        "157": "     */",
+        "158": "   public HSSFComment createComment(HSSFAnchor anchor)",
+        "159": "    {"
+      },
+      "id": 15642333,
+      "filename": "HSSFPatriarch.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openicar/juniprint",
+      "language": "Java",
+      "linescount": 1375,
+      "location": "/src/main/java/org/comsoft/juniprint/utils",
+      "name": "juniprint",
+      "url": "https://searchcode.com/codesearch/view/60212069/",
+      "md5hash": "c11a8c0e57714af4cf1eeffb5ef652f0",
+      "lines": {
+        "860": "\t\t\t\t\t\t}else if(lookIn == xlComments && strSearchValue != null){",
+        "35": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFComment;",
+        "861": "\t\t\t\t\t\t\tHSSFComment comment = cell.getCellComment();"
+      },
+      "id": 60212069,
+      "filename": "ExcelUtils.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 174,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642354/",
+      "md5hash": "4b8479a67e34a342cfde58c7278efb63",
+      "lines": {
+        "64": "            shape = new CommentShape( (HSSFComment)hssfShape, shapeId );",
+        "61": "        AbstractShape shape;",
+        "62": "        if (hssfShape instanceof HSSFComment)",
+        "63": "        {"
+      },
+      "id": 15642354,
+      "filename": "AbstractShape.java"
+    },
+    {
+      "repo": "http://sqlreport.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 321,
+      "location": "/java/sourcecode/Excel/src/com/jeasonzhao/commons/excel",
+      "name": "sqlreport",
+      "url": "https://searchcode.com/codesearch/view/3760572/",
+      "md5hash": "ceb3bff690ff223b6dbcf03afdeb2f02",
+      "lines": {
+        "8": "import org.apache.poi.hssf.usermodel.HSSFComment;",
+        "301": "    {",
+        "302": "        HSSFComment comment = this.m_cell.getCellComment();",
+        "7": "import org.apache.poi.hssf.usermodel.HSSFClientAnchor;"
+      },
+      "id": 3760572,
+      "filename": "Cell.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1607,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642322/",
+      "md5hash": "5084cc24e46752bd3911d5d0a983e0a6",
+      "lines": {
+        "1601": "     */",
+        "1602": "     public HSSFComment getCellComment(int row, int column){"
+      },
+      "id": 15642322,
+      "filename": "HSSFSheet.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 9,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 3,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 2,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

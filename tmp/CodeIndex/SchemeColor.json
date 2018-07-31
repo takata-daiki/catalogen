@@ -1,0 +1,95 @@
+{
+  "matchterm": "SchemeColor",
+  "previouspage": null,
+  "searchterm": "SchemeColor",
+  "query": "SchemeColor",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 500,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394276/",
+      "md5hash": "00f483b8f00b9a5717d160ff19beda8e",
+      "lines": {
+        "438": "            ColorSchemeAtom ca = getSheet().getColorScheme();",
+        "439": "            int schemeColor = ca.getColor(a);",
+        "401": "            ColorSchemeAtom ca = sheet.getColorScheme();",
+        "402": "            int schemeColor = ca.getColor(r);",
+        "403": "",
+        "404": "            r = (schemeColor >> 0) & 0xFF;",
+        "405": "            g = (schemeColor >> 8) & 0xFF;",
+        "406": "            b = (schemeColor >> 16) & 0xFF;",
+        "407": "        } else if (fPaletteIndex){",
+        "440": "",
+        "441": "            r = (schemeColor >> 0) & 0xFF;",
+        "442": "            g = (schemeColor >> 8) & 0xFF;",
+        "443": "            b = (schemeColor >> 16) & 0xFF;",
+        "444": "        }"
+      },
+      "id": 97394276,
+      "filename": "Shape.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 837,
+      "location": "/src/main/java/com/extentech/formats/OOXML",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47125135/",
+      "md5hash": "dd8eb2e88b28817e9f44546eb31eb1bd",
+      "lines": {
+        "772": "\t * note that these color transforms must be part of either <br>",
+        "773": "\t * schemeColor, systemColor, hslColor, presetColor, sRgbColor, scRgbColor",
+        "633": "/**",
+        "634": " * common Color Transformes used by parent elements: schemeColor, systemColor,",
+        "670": "\t * parse color transform elements, common children of color-type elements: <br>",
+        "671": "\t * schemeColor, systemColor, hslColor, presetColor, sRgbColor, scRgbColor"
+      },
+      "id": 47125135,
+      "filename": "ColorChoice.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 837,
+      "location": "/src/main/java/com/extentech/formats/OOXML",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976759/",
+      "md5hash": "dd8eb2e88b28817e9f44546eb31eb1bd",
+      "lines": {
+        "772": "\t * note that these color transforms must be part of either <br>",
+        "773": "\t * schemeColor, systemColor, hslColor, presetColor, sRgbColor, scRgbColor",
+        "633": "/**",
+        "634": " * common Color Transformes used by parent elements: schemeColor, systemColor,",
+        "670": "\t * parse color transform elements, common children of color-type elements: <br>",
+        "671": "\t * schemeColor, systemColor, hslColor, presetColor, sRgbColor, scRgbColor"
+      },
+      "id": 50976759,
+      "filename": "ColorChoice.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

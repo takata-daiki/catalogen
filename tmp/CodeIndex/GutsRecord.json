@@ -1,0 +1,101 @@
+{
+  "matchterm": "GutsRecord",
+  "previouspage": null,
+  "searchterm": "GutsRecord",
+  "query": "GutsRecord",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 229,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642380/",
+      "md5hash": "03d5ffaac8745d62ce62bc726770fc05",
+      "lines": {
+        "64": "    public GutsRecord()",
+        "54": "",
+        "55": "public class GutsRecord",
+        "72": "",
+        "73": "    public GutsRecord(RecordInputStream in)",
+        "220": "    public Object clone() {",
+        "221": "      GutsRecord rec = new GutsRecord();",
+        "63": ""
+      },
+      "id": 15642380,
+      "filename": "GutsRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 3300,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642365/",
+      "md5hash": "1e8d548d196dc1063c30d9430b35b9f5",
+      "lines": {
+        "1585": "    {",
+        "1586": "        GutsRecord retval = new GutsRecord();",
+        "1969": "",
+        "3160": "",
+        "3161": "        GutsRecord guts = (GutsRecord) findFirstRecordBySid( GutsRecord.sid );",
+        "1578": "     * creates the Guts record and sets leftrow/topcol guttter and rowlevelmax/collevelmax to 0",
+        "1579": "     * @see loci.poi.hssf.record.GutsRecord",
+        "1580": "     * @see loci.poi.hssf.record.Record",
+        "1581": "     * @return record containing a GutsRecordRecord",
+        "1970": "        GutsRecord guts = (GutsRecord) findFirstRecordBySid( GutsRecord.sid );"
+      },
+      "id": 15642365,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642343/",
+      "md5hash": "468caa59753e7c2d27a76f3903f70894",
+      "lines": {
+        "80": "import loci.poi.hssf.record.GutsRecord;",
+        "171": "                DeltaRecord.class, SaveRecalcRecord.class, PrintHeadersRecord.class,",
+        "172": "                PrintGridlinesRecord.class, GridsetRecord.class, GutsRecord.class,",
+        "79": "import loci.poi.hssf.record.GridsetRecord;"
+      },
+      "id": 15642343,
+      "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "81": "                DeltaRecord.class, SaveRecalcRecord.class, PrintHeadersRecord.class,",
+        "82": "                PrintGridlinesRecord.class, GridsetRecord.class, GutsRecord.class,"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

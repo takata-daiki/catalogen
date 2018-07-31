@@ -1,0 +1,113 @@
+{
+  "matchterm": "SignaturePolicyService",
+  "previouspage": null,
+  "searchterm": "SignaturePolicyService",
+  "query": "SignaturePolicyService",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 60,
+      "location": "/eid-applet-service-signer/src/main/java/be/fedict/eid/applet/service/signer/facets",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982650/",
+      "md5hash": "c28faf6ccdda76a27fc1a4c3bdb56939",
+      "lines": {
+        "26": " */",
+        "27": "public interface SignaturePolicyService {"
+      },
+      "id": 7982650,
+      "filename": "SignaturePolicyService.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 574,
+      "location": "/eid-applet-service-signer/src/main/java/be/fedict/eid/applet/service/signer/facets",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982657/",
+      "md5hash": "8343516f5ae666d8a5b43667ac6f6e56",
+      "lines": {
+        "161": "\t *            operations. Possible values: \"SHA-1\", \"SHA-256\", or \"SHA-512\".",
+        "162": "\t * @param signaturePolicyService",
+        "323": "\t\t\t\t\t.getSignaturePolicyIdentifier());",
+        "321": "\t\t\tobjectIdentifier.setIdentifier(identifier);",
+        "165": "\tpublic XAdESSignatureFacet(DigestAlgo digestAlgorithm,",
+        "166": "\t\t\tSignaturePolicyService signaturePolicyService) {",
+        "167": "\t\tthis(new LocalClock(), digestAlgorithm, signaturePolicyService);",
+        "168": "\t}",
+        "322": "\t\t\tidentifier.setValue(this.signaturePolicyService",
+        "173": "\t * ",
+        "174": "\t * @param signaturePolicyService",
+        "177": "\tpublic XAdESSignatureFacet(SignaturePolicyService signaturePolicyService) {",
+        "178": "\t\tthis(new LocalClock(), DigestAlgo.SHA1, signaturePolicyService);",
+        "179": "\t}",
+        "324": "\t\t\tobjectIdentifier.setDescription(this.signaturePolicyService"
+      },
+      "id": 7982657,
+      "filename": "XAdESSignatureFacet.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 603,
+      "location": "/eid-applet-service-signer/src/test/java/test/unit/be/fedict/eid/applet/service/signer",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982568/",
+      "md5hash": "d31d09c83ac6cfbe4a1cdf3abb15a285",
+      "lines": {
+        "322": "\t\tXAdESSignatureFacet xadesSignatureFacet = new XAdESSignatureFacet(",
+        "323": "\t\t\t\tsignaturePolicyService);",
+        "147": "\t\t\t\ttrue, false, false);",
+        "150": "\t\t// ExplicitSignaturePolicyService(",
+        "151": "\t\t// \"urn:test\", \"hello world\".getBytes(), \"description\",",
+        "82": "import be.fedict.eid.applet.service.signer.facets.EnvelopedSignatureFacet;",
+        "83": "import be.fedict.eid.applet.service.signer.facets.ExplicitSignaturePolicyService;",
+        "148": "\t\tSignaturePolicyService signaturePolicyService = null;",
+        "149": "\t\t// SignaturePolicyService signaturePolicyService = new",
+        "86": "import be.fedict.eid.applet.service.signer.facets.RevocationDataService;",
+        "87": "import be.fedict.eid.applet.service.signer.facets.SignaturePolicyService;",
+        "153": "\t\tXAdESSignatureFacet xadesSignatureFacet = new XAdESSignatureFacet(",
+        "154": "\t\t\t\tsignaturePolicyService);",
+        "318": "\t\t\t\ttrue, false, false);",
+        "319": "\t\tSignaturePolicyService signaturePolicyService = new ExplicitSignaturePolicyService("
+      },
+      "id": 7982568,
+      "filename": "XAdESSignatureFacetTest.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 74,
+      "location": "/eid-applet-service-signer/src/main/java/be/fedict/eid/applet/service/signer/facets",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982656/",
+      "md5hash": "72135b79e7b3ff1eb2e1498c905c2cb4",
+      "lines": {
+        "48": "\tpublic ExplicitSignaturePolicyService(String signaturePolicyIdentifier,",
+        "26": " */",
+        "27": "public class ExplicitSignaturePolicyService implements SignaturePolicyService {",
+        "47": "\t */"
+      },
+      "id": 7982656,
+      "filename": "ExplicitSignaturePolicyService.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

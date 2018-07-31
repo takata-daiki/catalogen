@@ -1,0 +1,201 @@
+{
+  "matchterm": "PowerPointExtractor",
+  "previouspage": null,
+  "searchterm": "PowerPointExtractor",
+  "query": "PowerPointExtractor",
+  "language_filters": [
+    {
+      "count": 9,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 9,
+  "results": [
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 252,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785560/",
+      "md5hash": "3a2a0badbeb8b43e9095f9f8eb316b46",
+      "lines": {
+        "192": "                    xhtml.element(\"p\", powerPointExtractor.getText(true, true));",
+        "189": "                case POWERPOINT:",
+        "30": "import org.apache.poi.hslf.extractor.PowerPointExtractor;",
+        "193": "                    break;",
+        "29": "import org.apache.poi.hpbf.extractor.PublisherTextExtractor;",
+        "190": "                    PowerPointExtractor powerPointExtractor =",
+        "191": "                        new PowerPointExtractor(filesystem);"
+      },
+      "id": 111785560,
+      "filename": "OfficeParser.java"
+    },
+    {
+      "repo": "https://github.com/manoja328/DocumentClustering.git",
+      "language": "Java",
+      "linescount": 52,
+      "location": "/DocumentClustering/src/indexerHouse",
+      "name": "DocumentClustering",
+      "url": "https://searchcode.com/codesearch/view/76013528/",
+      "md5hash": "c9a5e1543a427274e0badeba4550d47f",
+      "lines": {
+        "10": "import java.io.*;",
+        "11": "import org.apache.poi.hslf.extractor.PowerPointExtractor;",
+        "37": "                  {",
+        "38": "                      PowerPointExtractor extractor  = new PowerPointExtractor(fs);  "
+      },
+      "id": 76013528,
+      "filename": "DocumentFileParsing.java"
+    },
+    {
+      "repo": "https://github.com/SilverTeamWork/Silverpeas-Core.git",
+      "language": "Java",
+      "linescount": 62,
+      "location": "/lib-core/src/main/java/org/silverpeas/search/indexEngine/parser/pptParser",
+      "name": "Silverpeas-Core",
+      "url": "https://searchcode.com/codesearch/view/93256535/",
+      "md5hash": "89f7232a8d1b782e8602f844cc15c060",
+      "lines": {
+        "50": "      file = new FileInputStream(path);",
+        "51": "      PowerPointExtractor extractor = new PowerPointExtractor(file);",
+        "28": "import org.apache.commons.io.IOUtils;",
+        "29": "import org.apache.poi.hslf.extractor.PowerPointExtractor;"
+      },
+      "id": 93256535,
+      "filename": "PptParserPOI.java"
+    },
+    {
+      "repo": "https://github.com/GayanM/carbon-registry.git",
+      "language": "Java",
+      "linescount": 36,
+      "location": "/components/registry/org.wso2.carbon.registry.indexing/src/main/java/org/wso2/carbon/registry/indexing/indexer",
+      "name": "carbon-registry",
+      "url": "https://searchcode.com/codesearch/view/95551281/",
+      "md5hash": "c677a1755ab2065291c064ac6ee9c092",
+      "lines": {
+        "8": "import org.apache.poi.hslf.extractor.PowerPointExtractor;",
+        "23": "\t\t\tPowerPointExtractor extractor = new PowerPointExtractor(fs);",
+        "22": "\t\t\tPOIFSFileSystem fs = new POIFSFileSystem(new ByteArrayInputStream(fileData.data));",
+        "7": "import org.apache.commons.logging.LogFactory;"
+      },
+      "id": 95551281,
+      "filename": "MSPowerpointIndexer.java"
+    },
+    {
+      "repo": "http://dspace-semantic-search.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 125,
+      "location": "/dspace-api/src/main/java/org/dspace/app/mediafilter",
+      "name": "dspace-semantic-search",
+      "url": "https://searchcode.com/codesearch/view/11613227/",
+      "md5hash": "9aac673862fc080067713fcba82fe234",
+      "lines": {
+        "96": "                extractedText = ((PowerPointExtractor) pptExtractor).getText()",
+        "97": "                        + \" \" + ((PowerPointExtractor) pptExtractor).getNotes();",
+        "98": "",
+        "13": "import org.apache.poi.extractor.ExtractorFactory;",
+        "14": "import org.apache.poi.xslf.extractor.XSLFPowerPointExtractor;",
+        "15": "import org.apache.poi.hslf.extractor.PowerPointExtractor;",
+        "16": "import org.apache.poi.POITextExtractor;",
+        "82": "            // If this is a PowerPoint XML file, extract accordingly",
+        "83": "            if (pptExtractor instanceof XSLFPowerPointExtractor)",
+        "87": "                // the slides and the notes is desired",
+        "88": "                extractedText = ((XSLFPowerPointExtractor) pptExtractor)",
+        "92": "            // Legacy PowerPoint files",
+        "93": "            else if (pptExtractor instanceof PowerPointExtractor)",
+        "95": ""
+      },
+      "id": 11613227,
+      "filename": "PowerPointFilter.java"
+    },
+    {
+      "repo": "http://docdoku.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 231,
+      "location": "/DocDoku-ear/DocDoku-ejb/src/main/java/com/docdoku/server",
+      "name": "docdoku",
+      "url": "https://searchcode.com/codesearch/view/8591933/",
+      "md5hash": "f55fa907a1cca9f68137597a49c91ee7",
+      "lines": {
+        "56": "import org.apache.poi.hslf.extractor.PowerPointExtractor;",
+        "168": "                InputStream pptStream = new BufferedInputStream(new FileInputStream(pathName));",
+        "169": "                PowerPointExtractor pptExtractor = new PowerPointExtractor(pptStream);",
+        "55": "import org.apache.lucene.util.Version;"
+      },
+      "id": 8591933,
+      "filename": "IndexerBean.java"
+    },
+    {
+      "repo": "http://ontopia.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 45,
+      "location": "/ontopia-classify/src/main/java/net/ontopia/topicmaps/classify",
+      "name": "ontopia",
+      "url": "https://searchcode.com/codesearch/view/12809878/",
+      "md5hash": "1ed4f4764c95d669428b3b7875a8eb5d",
+      "lines": {
+        "32": "    try {",
+        "9": "",
+        "10": "import org.apache.poi.hslf.extractor.PowerPointExtractor;",
+        "33": "      PowerPointExtractor extractor = new PowerPointExtractor(new BufferedInputStream(new ByteArrayInputStream(cc.getContent())));"
+      },
+      "id": 12809878,
+      "filename": "PowerPointFormatModule.java"
+    },
+    {
+      "repo": "https://git.gitorious.org/yacy/rc1.git",
+      "language": "Java",
+      "linescount": 126,
+      "location": "/source/net/yacy/document/parser",
+      "name": "yacy",
+      "url": "https://searchcode.com/codesearch/view/62351876/",
+      "md5hash": "84863cf21d15627530323c41b4965100",
+      "lines": {
+        "67": "            /*",
+        "68": "             * create new PowerPointExtractor and extract text and notes",
+        "70": "             */",
+        "39": "",
+        "40": "import org.apache.poi.hslf.extractor.PowerPointExtractor;",
+        "71": "            final PowerPointExtractor pptExtractor = new PowerPointExtractor(new BufferedInputStream(source));"
+      },
+      "id": 62351876,
+      "filename": "pptParser.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 73,
+      "location": "/components/forks/poi/src/loci/poi",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642237/",
+      "md5hash": "cf555a329d73935774f71285df4ed636",
+      "lines": {
+        "48": " * @see loci.poi.hssf.extractor.ExcelExtractor",
+        "49": " * @see loci.poi.hslf.extractor.PowerPointExtractor"
+      },
+      "id": 15642237,
+      "filename": "POITextExtractor.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 5,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 3,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 1,
+      "source": "Gitorious",
+      "id": 10
+    }
+  ]
+}

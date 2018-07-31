@@ -1,0 +1,50 @@
+{
+  "matchterm": "FSPATable",
+  "previouspage": null,
+  "searchterm": "FSPATable",
+  "query": "FSPATable",
+  "language_filters": [
+    {
+      "count": 1,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 1,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1043,
+      "location": "/src/org/apache/poi/hwpf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383956/",
+      "md5hash": "677c332698819342ff2ece2baf93a4ed",
+      "lines": {
+        "34": "import org.apache.poi.hwpf.model.FSPADocumentPart;",
+        "35": "import org.apache.poi.hwpf.model.FSPATable;",
+        "324": "        // _fib.getLcbPlcspaMom(), getTextTable().getTextPieces());",
+        "325": "        _fspaHeaders = new FSPATable( _tableStream, _fib,",
+        "326": "                FSPADocumentPart.HEADER );",
+        "327": "        _fspaMain = new FSPATable( _tableStream, _fib, FSPADocumentPart.MAIN );",
+        "322": "        // Read FSPA and Escher information",
+        "113": "  /** Holds FSBA (shape) information */",
+        "114": "  private FSPATable _fspaHeaders;",
+        "323": "        // _fspa = new FSPATable(_tableStream, _fib.getFcPlcspaMom(),",
+        "116": "  /** Holds FSBA (shape) information */",
+        "117": "  private FSPATable _fspaMain;"
+      },
+      "id": 97383956,
+      "filename": "HWPFDocument.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

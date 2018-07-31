@@ -1,0 +1,203 @@
+{
+  "matchterm": "PicturesManager",
+  "previouspage": null,
+  "searchterm": "PicturesManager",
+  "query": "PicturesManager",
+  "language_filters": [
+    {
+      "count": 9,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 9,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/wielik17/teamproject-karta-pojazdu",
+      "language": "Java",
+      "linescount": 34,
+      "location": "/KartaPojazduEjb/src/main/java/com/karta/pojazdu/ejb/manager",
+      "name": "teamproject-karta-pojazdu",
+      "url": "https://searchcode.com/codesearch/view/102630072/",
+      "md5hash": "c517edbf544820564b5e8dcb1c2a0d50",
+      "lines": {
+        "24": "",
+        "21": "@Stateless",
+        "22": "public class PicturesManager {",
+        "23": "    private static final Logger logger = Logger.getLogger(PicturesManager.class);"
+      },
+      "id": 102630072,
+      "filename": "PicturesManager.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nakties/gpsmap.git",
+      "language": "Java",
+      "linescount": 89,
+      "location": "/src/ca/imgd/jlee/gpsmap/data",
+      "name": "GPSMAP",
+      "url": "https://searchcode.com/codesearch/view/92054867/",
+      "md5hash": "a957cebe7be31e203b2ce0d5187efa85",
+      "lines": {
+        "1": "//*****************************************************************************",
+        "2": "//File:         MyPicturesManager.java",
+        "35": "public class PicturesManager",
+        "34": ""
+      },
+      "id": 92054867,
+      "filename": "PicturesManager.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1219,
+      "location": "/src/org/apache/poi/hwpf/converter",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383976/",
+      "md5hash": "a222c0be0731737a174a7721c959c7e2",
+      "lines": {
+        "1145": "        this.picturesManager = fileManager;",
+        "769": "        final PictureType type = PictureType.findMatchingType( pictureData );",
+        "770": "        String path = getPicturesManager()",
+        "179": "    private PicturesManager picturesManager;",
+        "745": "    {",
+        "746": "        if ( getPicturesManager() == null )",
+        "274": "",
+        "178": "",
+        "275": "    public PicturesManager getPicturesManager()",
+        "276": "    {",
+        "277": "        return picturesManager;",
+        "1142": "",
+        "1143": "    public void setPicturesManager( PicturesManager fileManager )",
+        "1144": "    {",
+        "953": "    @Internal",
+        "954": "    protected abstract void processImageWithoutPicturesManager("
+      },
+      "id": 97383976,
+      "filename": "AbstractWordConverter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/wielik17/teamproject-karta-pojazdu",
+      "language": "Java",
+      "linescount": 57,
+      "location": "/KartaPojazduInterface/src/main/java/com/karta/pojazdu/controller",
+      "name": "teamproject-karta-pojazdu",
+      "url": "https://searchcode.com/codesearch/view/102629970/",
+      "md5hash": "3bdefdd0191a4fb0eb050e567ff09d4d",
+      "lines": {
+        "32": "    private PicturesManager picturesManager;",
+        "51": "        return picturesManager.getAllPictures();",
+        "50": "    public List<PicturesBean> getAllPicturesList(){",
+        "3": "import com.karta.pojazdu.cmp.PicturesBean;",
+        "4": "import com.karta.pojazdu.ejb.manager.PicturesManager;",
+        "31": "    @EJB"
+      },
+      "id": 102629970,
+      "filename": "FileUploadController.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nakties/gpsmap.git",
+      "language": "Java",
+      "linescount": 170,
+      "location": "/src/ca/imgd/jlee/gpsmap/adapters",
+      "name": "GPSMAP",
+      "url": "https://searchcode.com/codesearch/view/92054863/",
+      "md5hash": "5c3e4a2a8e978d76cfa4584cc00d3582",
+      "lines": {
+        "160": "        gpsLocation.delete();",
+        "161": "        new PicturesManager().deletePicture(gpsLocation.picName);",
+        "19": "import ca.imgd.jlee.gpsmap.activity.UpdateGpsLocationActivity;",
+        "20": "import ca.imgd.jlee.gpsmap.data.PicturesManager;",
+        "123": "    {",
+        "124": "      String thumbSource = PicturesManager.fullPath(gpsLocation.picName);"
+      },
+      "id": 92054863,
+      "filename": "GpsLocationAdapter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nakties/gpsmap.git",
+      "language": "Java",
+      "linescount": 176,
+      "location": "/src/ca/imgd/jlee/gpsmap/activity",
+      "name": "GPSMAP",
+      "url": "https://searchcode.com/codesearch/view/92054874/",
+      "md5hash": "60f43e0e3db608b69221cb966f7b532a",
+      "lines": {
+        "21": "import ca.imgd.jlee.gpsmap.R;",
+        "22": "import ca.imgd.jlee.gpsmap.data.PicturesManager;",
+        "151": "    {",
+        "152": "      return new PicturesManager().saveBmpAsFile(bmpToSave, filename);",
+        "137": "  {",
+        "138": "    aQuery.id(R.id.ivPicture).image(PicturesManager.fullPath(fileName));"
+      },
+      "id": 92054874,
+      "filename": "BaseGpsLocationFormActivity.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nakties/gpsmap.git",
+      "language": "Java",
+      "linescount": 79,
+      "location": "/src/ca/imgd/jlee/gpsmap/activity",
+      "name": "GPSMAP",
+      "url": "https://searchcode.com/codesearch/view/92054880/",
+      "md5hash": "c802636e419ab98534eabcf0ae329581",
+      "lines": {
+        "67": "      // delete old pic",
+        "10": "import ca.imgd.jlee.gpsmap.R;",
+        "11": "import ca.imgd.jlee.gpsmap.data.PicturesManager;",
+        "68": "      new PicturesManager().deletePicture(gpsLocation.picName);"
+      },
+      "id": 92054880,
+      "filename": "UpdateGpsLocationActivity.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nakties/gpsmap.git",
+      "language": "Java",
+      "linescount": 166,
+      "location": "/src/ca/imgd/jlee/gpsmap/activity",
+      "name": "GPSMAP",
+      "url": "https://searchcode.com/codesearch/view/92054884/",
+      "md5hash": "82d67899d9fe4770d29d2a75b205f6ed",
+      "lines": {
+        "66": "      new Delete().from(GpsLocation.class).execute();",
+        "67": "      new PicturesManager().deleteAllPictures();",
+        "13": "import ca.imgd.jlee.gpsmap.R;",
+        "14": "import ca.imgd.jlee.gpsmap.data.PicturesManager;"
+      },
+      "id": 92054884,
+      "filename": "MainActivity.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 153,
+      "location": "/src/com/vizhen/poihelper",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383050/",
+      "md5hash": "2146decd030993d210db0e145cf1a024",
+      "lines": {
+        "22": "import org.apache.poi.hwpf.HWPFDocumentCore;",
+        "71": "           ",
+        "72": "            wordToHtmlConverter.setPicturesManager(new PictureSaving());",
+        "23": "import org.apache.poi.hwpf.converter.PicturesManager;",
+        "124": "    ",
+        "125": "    class PictureSaving implements PicturesManager"
+      },
+      "id": 97383050,
+      "filename": "SimpleWord2Html.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

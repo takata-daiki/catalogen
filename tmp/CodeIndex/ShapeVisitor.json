@@ -1,0 +1,380 @@
+{
+  "matchterm": "ShapeVisitor",
+  "previouspage": null,
+  "searchterm": "ShapeVisitor",
+  "query": "ShapeVisitor",
+  "language_filters": [
+    {
+      "count": 40,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 40,
+  "results": [
+    {
+      "repo": "https://github.com/anathema/anathema.git",
+      "language": "Java",
+      "linescount": 8,
+      "location": "/Platform_TreeFramework/src/main/java/net/sf/anathema/platform/tree/display/shape",
+      "name": "anathema",
+      "url": "https://searchcode.com/codesearch/view/66916172/",
+      "md5hash": "1a833e9ebd050ab82f8673933d81e3a1",
+      "lines": {
+        "2": "",
+        "3": "public interface ShapeVisitor {"
+      },
+      "id": 66916172,
+      "filename": "ShapeVisitor.java"
+    },
+    {
+      "repo": "http://gwt-g2d.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 33,
+      "location": "/gwt-g2d/src/gwt/g2d/client/graphics/visitor",
+      "name": "gwt-g2d",
+      "url": "https://searchcode.com/codesearch/view/8071575/",
+      "md5hash": "2754e9d7f9287ff21908a88793eab2b3",
+      "lines": {
+        "24": " */",
+        "25": "public interface ShapeVisitor {"
+      },
+      "id": 8071575,
+      "filename": "ShapeVisitor.java"
+    },
+    {
+      "repo": "https://github.com/wabu/hank.git",
+      "language": "Java",
+      "linescount": 13,
+      "location": "/src/main/java/de/javauni/jarcade/geom",
+      "name": "hank",
+      "url": "https://searchcode.com/codesearch/view/65083441/",
+      "md5hash": "9d48c7ed54eb5b287f6c21accd1a2d2a",
+      "lines": {
+        "4": "",
+        "5": "public interface ShapeVisitor<E> {"
+      },
+      "id": 65083441,
+      "filename": "ShapeVisitor.java"
+    },
+    {
+      "repo": "https://github.com/visar/algorithms-and-data-structures.git",
+      "language": "Java",
+      "linescount": 8,
+      "location": "/visitor_pattern_java",
+      "name": "algorithms-and-data-structures",
+      "url": "https://searchcode.com/codesearch/view/100132526/",
+      "md5hash": "6bfd05f3fb0b67833e7bf25602b8bef3",
+      "lines": {
+        "2": "",
+        "3": "public abstract class ShapeVisitor {"
+      },
+      "id": 100132526,
+      "filename": "ShapeVisitor.java"
+    },
+    {
+      "repo": "http://gwt-g2d.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 90,
+      "location": "/gwt-g2d/src/gwt/g2d/client/graphics/visitor",
+      "name": "gwt-g2d",
+      "url": "https://searchcode.com/codesearch/view/8071572/",
+      "md5hash": "2b0aa7ed10a9974a343d504763d49072",
+      "lines": {
+        "32": "\t\tshapes = new ArrayList<ShapeVisitor>();",
+        "33": "\t}",
+        "41": "\t */",
+        "42": "\tprotected CompositeShapeVisitor(int numShapes) {",
+        "43": "\t\tshapes = new ArrayList<ShapeVisitor>(numShapes);",
+        "44": "\t}",
+        "78": "\t */",
+        "79": "\tprotected ShapeVisitor get(int index) {",
+        "50": "\t */",
+        "51": "\tprotected void add(ShapeVisitor shape) {",
+        "27": " */",
+        "28": "public abstract class CompositeShapeVisitor implements ShapeVisitor {",
+        "29": "\tprivate final List<ShapeVisitor> shapes;",
+        "30": "\t",
+        "31": "\tprotected CompositeShapeVisitor() {"
+      },
+      "id": 8071572,
+      "filename": "CompositeShapeVisitor.java"
+    },
+    {
+      "repo": "http://gwt-g2d.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 528,
+      "location": "/gwt-g2d/src/gwt/g2d/client/graphics/shapes",
+      "name": "gwt-g2d",
+      "url": "https://searchcode.com/codesearch/view/8071591/",
+      "md5hash": "6c951ae5b03b324e476f0ab264f2b7a6",
+      "lines": {
+        "64": "\t */",
+        "65": "\tpublic final ShapeBuilder append(ShapeVisitor shapeVisitor) {",
+        "34": "import gwt.g2d.client.graphics.visitor.SetTransformVisitor;",
+        "35": "import gwt.g2d.client.graphics.visitor.ShapeVisitor;",
+        "520": "\t\t\tcontext.beginPath();",
+        "521": "\t\t\tfor (ShapeVisitor shape : shapes) {",
+        "66": "\t\tshapes.add(shapeVisitor);",
+        "67": "\t\treturn this;",
+        "56": "public class ShapeBuilder {",
+        "57": "\tprivate final List<ShapeVisitor> shapes = new ArrayList<ShapeVisitor>();",
+        "61": "\t * ",
+        "62": "\t * @param shapeVisitor the shape visitor to be added."
+      },
+      "id": 8071591,
+      "filename": "ShapeBuilder.java"
+    },
+    {
+      "repo": "https://github.com/wabu/hank.git",
+      "language": "Java",
+      "linescount": 348,
+      "location": "/src/main/java/de/javauni/jarcade/model/phys",
+      "name": "hank",
+      "url": "https://searchcode.com/codesearch/view/65083710/",
+      "md5hash": "0b3b7c3d045c7f8502f5ea25dd1451fe",
+      "lines": {
+        "259": "        }",
+        "228": "        @Override",
+        "37": "import de.javauni.jarcade.geom.Shape;",
+        "38": "import de.javauni.jarcade.geom.ShapeVisitor;",
+        "39": "import de.javauni.jarcade.geom.ShapeVisitorAdapter;",
+        "40": "import de.javauni.jarcade.geom.Vec;",
+        "297": "        return shape.accept(new ShapeVisitorAdapter<org.jbox2d.collision.shapes.Shape[]>(){",
+        "296": "            addTo(final Body bd, final Shape shape) throws IllegalArgumentException {",
+        "119": "        @Override",
+        "120": "        public <E> E accept(ShapeVisitor<E> visitor) {",
+        "260": "        return shape.accept(new ShapeVisitorAdapter<ShapeDef>(){",
+        "154": "        @Override",
+        "155": "        public <E> E accept(ShapeVisitor<E> visitor) {",
+        "188": "        @Override",
+        "189": "        public <E> E accept(ShapeVisitor<E> visitor) {",
+        "229": "        public <E> E accept(ShapeVisitor<E> visitor) {"
+      },
+      "id": 65083710,
+      "filename": "Phys.java"
+    },
+    {
+      "repo": "https://bitbucket.org/vantu/projects",
+      "language": "Java",
+      "linescount": 72,
+      "location": "/ShapesRefactoring/src/shapes",
+      "name": "projects",
+      "url": "https://searchcode.com/codesearch/view/118632645/",
+      "md5hash": "b8823b89cfdc348a3ac1f896ecd1f92a",
+      "lines": {
+        "4": " * @author Erik Restificar & Van Tu",
+        "5": " * ShapeVisitor Interface"
+      },
+      "id": 118632645,
+      "filename": "ShapesVisitor.java"
+    },
+    {
+      "repo": "https://github.com/anathema/anathema.git",
+      "language": "Java",
+      "linescount": 38,
+      "location": "/Platform_TreeFx/src/main/java/net/sf/anathema/platform/tree/fx",
+      "name": "anathema",
+      "url": "https://searchcode.com/codesearch/view/66924415/",
+      "md5hash": "60b541189b3292bd5d923eec7a86d393",
+      "lines": {
+        "8": "import net.sf.anathema.platform.tree.display.shape.Polygon;",
+        "9": "import net.sf.anathema.platform.tree.display.shape.ShapeVisitor;",
+        "18": "    final Shape[] result = new Shape[1];",
+        "19": "    shape.accept(new ShapeVisitor() {"
+      },
+      "id": 66924415,
+      "filename": "FxTransformer.java"
+    },
+    {
+      "repo": "https://github.com/wabu/hank.git",
+      "language": "Java",
+      "linescount": 55,
+      "location": "/src/main/java/de/javauni/jarcade/geom/immutable",
+      "name": "hank",
+      "url": "https://searchcode.com/codesearch/view/65083494/",
+      "md5hash": "231a53b52331d932fd1eb01554e12d4b",
+      "lines": {
+        "24": "\t@Override",
+        "25": "\tpublic <E> E accept(ShapeVisitor<E> visitor) {",
+        "3": "import de.javauni.jarcade.geom.Rect;",
+        "4": "import de.javauni.jarcade.geom.ShapeVisitor;"
+      },
+      "id": 65083494,
+      "filename": "RectI.java"
+    },
+    {
+      "repo": "https://github.com/wabu/hank.git",
+      "language": "Java",
+      "linescount": 58,
+      "location": "/src/main/java/de/javauni/jarcade/geom/immutable",
+      "name": "hank",
+      "url": "https://searchcode.com/codesearch/view/65083503/",
+      "md5hash": "afc12d54b00b8a7cafa35992e55aedc2",
+      "lines": {
+        "33": "    @Override",
+        "34": "    public <E> E accept(ShapeVisitor<E> visitor) {",
+        "3": "import de.javauni.jarcade.geom.Bound;",
+        "4": "import de.javauni.jarcade.geom.ShapeVisitor;"
+      },
+      "id": 65083503,
+      "filename": "BoundI.java"
+    },
+    {
+      "repo": "https://github.com/anathema/anathema.git",
+      "language": "Java",
+      "linescount": 30,
+      "location": "/Platform_TreeFramework/src/main/java/net/sf/anathema/platform/tree/display/shape",
+      "name": "anathema",
+      "url": "https://searchcode.com/codesearch/view/66916159/",
+      "md5hash": "16c25dcfa4431390a9888c711b71e048",
+      "lines": {
+        "16": "  @Override",
+        "17": "  public void accept(ShapeVisitor visitor) {"
+      },
+      "id": 66916159,
+      "filename": "Circle.java"
+    },
+    {
+      "repo": "https://github.com/anathema/anathema.git",
+      "language": "Java",
+      "linescount": 62,
+      "location": "/Platform_TreeFramework/src/main/java/net/sf/anathema/platform/tree/display/shape",
+      "name": "anathema",
+      "url": "https://searchcode.com/codesearch/view/66916168/",
+      "md5hash": "8b0e103ec46714fc0c6b177397ea7617",
+      "lines": {
+        "14": "  @Override",
+        "15": "  public void accept(ShapeVisitor visitor) {"
+      },
+      "id": 66916168,
+      "filename": "Polygon.java"
+    },
+    {
+      "repo": "https://github.com/anathema/anathema.git",
+      "language": "Java",
+      "linescount": 6,
+      "location": "/Platform_TreeFramework/src/main/java/net/sf/anathema/platform/tree/display/shape",
+      "name": "anathema",
+      "url": "https://searchcode.com/codesearch/view/66916175/",
+      "md5hash": "101362fa2b3080f11bbae54a77afff96",
+      "lines": {
+        "3": "public interface AgnosticShape {",
+        "4": "  void accept(ShapeVisitor visitor);"
+      },
+      "id": 66916175,
+      "filename": "AgnosticShape.java"
+    },
+    {
+      "repo": "https://github.com/visar/algorithms-and-data-structures.git",
+      "language": "Java",
+      "linescount": 8,
+      "location": "/visitor_pattern_java",
+      "name": "algorithms-and-data-structures",
+      "url": "https://searchcode.com/codesearch/view/100132521/",
+      "md5hash": "9cf9c056b477a805e8c8009ce88bb485",
+      "lines": {
+        "2": "",
+        "3": "import VisitorPattern.ShapeVisitor;",
+        "5": "public abstract class Shape {",
+        "6": "\tprotected abstract double accept(final ShapeVisitor visitor);"
+      },
+      "id": 100132521,
+      "filename": "Shape.java"
+    },
+    {
+      "repo": "http://gwt-g2d.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 57,
+      "location": "/gwt-g2d/src/gwt/g2d/client/graphics/visitor",
+      "name": "gwt-g2d",
+      "url": "https://searchcode.com/codesearch/view/8071565/",
+      "md5hash": "a492dc95159dd5043c65d87fef02e63c",
+      "lines": {
+        "29": " */",
+        "30": "public class LineSegmentVisitor implements ShapeVisitor {"
+      },
+      "id": 8071565,
+      "filename": "LineSegmentVisitor.java"
+    },
+    {
+      "repo": "http://gwt-g2d.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 50,
+      "location": "/gwt-g2d/src/gwt/g2d/client/graphics/visitor",
+      "name": "gwt-g2d",
+      "url": "https://searchcode.com/codesearch/view/8071566/",
+      "md5hash": "95f4ec385d0a8f45691848e97dd7336f",
+      "lines": {
+        "26": " */",
+        "27": "public class MoveToVisitor implements ShapeVisitor {"
+      },
+      "id": 8071566,
+      "filename": "MoveToVisitor.java"
+    },
+    {
+      "repo": "http://gwt-g2d.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 64,
+      "location": "/gwt-g2d/src/gwt/g2d/client/graphics/visitor",
+      "name": "gwt-g2d",
+      "url": "https://searchcode.com/codesearch/view/8071567/",
+      "md5hash": "eeb1ab31babacab3c57845a3e046199a",
+      "lines": {
+        "25": " */",
+        "26": "public class SetTransformVisitor implements ShapeVisitor {"
+      },
+      "id": 8071567,
+      "filename": "SetTransformVisitor.java"
+    },
+    {
+      "repo": "http://gwt-g2d.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 74,
+      "location": "/gwt-g2d/src/gwt/g2d/client/graphics/visitor",
+      "name": "gwt-g2d",
+      "url": "https://searchcode.com/codesearch/view/8071568/",
+      "md5hash": "84552512102de9dc2db86b90f43f4644",
+      "lines": {
+        "30": " */",
+        "31": "public class BezierCurveVisitor implements ShapeVisitor {"
+      },
+      "id": 8071568,
+      "filename": "BezierCurveVisitor.java"
+    },
+    {
+      "repo": "http://gwt-g2d.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 53,
+      "location": "/gwt-g2d/src/gwt/g2d/client/graphics/visitor",
+      "name": "gwt-g2d",
+      "url": "https://searchcode.com/codesearch/view/8071569/",
+      "md5hash": "3c78897d5a64bc65846331197f7780ce",
+      "lines": {
+        "25": " */",
+        "26": "public class ScaleVisitor implements ShapeVisitor {"
+      },
+      "id": 8071569,
+      "filename": "ScaleVisitor.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 22,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 17,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

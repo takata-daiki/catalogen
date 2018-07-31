@@ -1,0 +1,139 @@
+{
+  "matchterm": "WorkbookUtil",
+  "previouspage": null,
+  "searchterm": "WorkbookUtil",
+  "query": "WorkbookUtil",
+  "language_filters": [
+    {
+      "count": 6,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 6,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/adufour/icy-workbooks.git",
+      "language": "Java",
+      "linescount": 276,
+      "location": "/src/plugins/adufour/workbooks",
+      "name": "icy-workbooks",
+      "url": "https://searchcode.com/codesearch/view/48686475/",
+      "md5hash": "3d95990ab779f9da84aebbe4ced4a520",
+      "lines": {
+        "176": "        sheetName = WorkbookUtil.createSafeSheetName(sheetName);",
+        "195": "    {",
+        "196": "        sheetName = WorkbookUtil.createSafeSheetName(sheetName);",
+        "11": "import org.apache.poi.ss.usermodel.Workbook;",
+        "12": "import org.apache.poi.ss.util.WorkbookUtil;",
+        "175": "        "
+      },
+      "id": 48686475,
+      "filename": "Workbooks.java"
+    },
+    {
+      "repo": "http://google-refine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 149,
+      "location": "/main/src/com/google/refine/exporters",
+      "name": "google-refine",
+      "url": "https://searchcode.com/codesearch/view/2366277/",
+      "md5hash": "0976f81b0c7ec7adeab44afebe572b72",
+      "lines": {
+        "49": "import org.apache.poi.ss.usermodel.Workbook;",
+        "50": "import org.apache.poi.ss.util.WorkbookUtil;",
+        "83": "                s = wb.createSheet();",
+        "84": "                String sheetName = WorkbookUtil.createSafeSheetName("
+      },
+      "id": 2366277,
+      "filename": "XlsExporter.java"
+    },
+    {
+      "repo": "https://github.com/tobyweston/simple-excel.git",
+      "language": "Java",
+      "linescount": 174,
+      "location": "/src/main/java/bad/robot/excel/workbook",
+      "name": "simple-excel",
+      "url": "https://searchcode.com/codesearch/view/67862077/",
+      "md5hash": "1d73c17ff877b8d18206ad1d345d79af",
+      "lines": {
+        "27": "import org.apache.poi.ss.usermodel.Workbook;",
+        "28": "import org.apache.poi.ss.util.WorkbookUtil;",
+        "110": "    public Editable insertSheet(String name) {",
+        "111": "        workbook.createSheet(WorkbookUtil.createSafeSheetName(name));"
+      },
+      "id": 67862077,
+      "filename": "PoiWorkbook.java"
+    },
+    {
+      "repo": "https://bitbucket.org/interactivemediamanagement/converge-1.x.git",
+      "language": "Java",
+      "linescount": 1077,
+      "location": "/converge-server/modules/converge-ejb/src/main/java/dk/i2m/converge/ejb/facades",
+      "name": "converge-1.x",
+      "url": "https://searchcode.com/codesearch/view/39694394/",
+      "md5hash": "d9af8e2661b4e99851cb162b3e56d220",
+      "lines": {
+        "56": "import org.apache.poi.ss.usermodel.*;",
+        "57": "import org.apache.poi.ss.util.WorkbookUtil;",
+        "484": "",
+        "485": "        String sheetName = WorkbookUtil.createSafeSheetName(lblSheetName);"
+      },
+      "id": 39694394,
+      "filename": "SearchEngineBean.java"
+    },
+    {
+      "repo": "https://bitbucket.org/interactivemediamanagement/converge-1.x.git",
+      "language": "Java",
+      "linescount": 346,
+      "location": "/converge-server/modules/converge-ejb/src/main/java/dk/i2m/converge/ejb/facades",
+      "name": "converge-1.x",
+      "url": "https://searchcode.com/codesearch/view/39694396/",
+      "md5hash": "636c34296d7765446efc9ce06366bf3f",
+      "lines": {
+        "33": "import org.apache.poi.ss.usermodel.*;",
+        "34": "import org.apache.poi.ss.util.WorkbookUtil;",
+        "117": "",
+        "118": "        String sheetName = WorkbookUtil.createSafeSheetName(\"Overview\");"
+      },
+      "id": 39694396,
+      "filename": "ReportingFacadeBean.java"
+    },
+    {
+      "repo": "https://bitbucket.org/interactivemediamanagement/converge-1.x.git",
+      "language": "Java",
+      "linescount": 579,
+      "location": "/converge-server/modules/converge-ejb/src/main/java/dk/i2m/converge/ejb/facades",
+      "name": "converge-1.x",
+      "url": "https://searchcode.com/codesearch/view/39694405/",
+      "md5hash": "9eafb587d0bcf654e9f47cb18a4174fa",
+      "lines": {
+        "57": "import org.apache.poi.ss.usermodel.*;",
+        "58": "import org.apache.poi.ss.util.WorkbookUtil;",
+        "459": "        String sheetName = WorkbookUtil.createSafeSheetName(lblSheetName);",
+        "458": ""
+      },
+      "id": 39694405,
+      "filename": "MetaDataFacadeBean.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

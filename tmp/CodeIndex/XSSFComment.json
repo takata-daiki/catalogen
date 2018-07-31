@@ -1,0 +1,46 @@
+{
+  "matchterm": "XSSFComment",
+  "previouspage": null,
+  "searchterm": "XSSFComment",
+  "query": "XSSFComment",
+  "language_filters": [
+    {
+      "count": 1,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 1,
+  "results": [
+    {
+      "repo": "https://github.com/semantalytics/RightField.git",
+      "language": "Java",
+      "linescount": 349,
+      "location": "/src/main/java/uk/ac/manchester/cs/owl/semspreadsheets/model/xssf/impl",
+      "name": "RightField",
+      "url": "https://searchcode.com/codesearch/view/72854552/",
+      "md5hash": "999bd42f43674782a2cdf4ddecdfd4a9",
+      "lines": {
+        "66": "    public String getComment() {",
+        "67": "        XSSFComment xssfComment = theCell.getCellComment();",
+        "68": "        if (xssfComment == null) {",
+        "69": "            return null;",
+        "71": "        else {",
+        "72": "            return xssfComment.toString();",
+        "13": "import org.apache.poi.xssf.usermodel.XSSFColor;",
+        "14": "import org.apache.poi.xssf.usermodel.XSSFComment;"
+      },
+      "id": 72854552,
+      "filename": "CellXSSFImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

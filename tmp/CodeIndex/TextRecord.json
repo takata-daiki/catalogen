@@ -1,0 +1,426 @@
+{
+  "matchterm": "TextRecord",
+  "previouspage": null,
+  "searchterm": "TextRecord",
+  "query": "TextRecord",
+  "language_filters": [
+    {
+      "count": 79,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 79,
+  "results": [
+    {
+      "repo": "https://github.com/evelyne24/hacked.io.git",
+      "language": "Java",
+      "linescount": 198,
+      "location": "/HueGame/src/main/java/org/ndeftools/wellknown",
+      "name": "hacked.io",
+      "url": "https://searchcode.com/codesearch/view/75920525/",
+      "md5hash": "5ad1c6ccb934b3131206cecf8fd6f62a",
+      "lines": {
+        "37": "",
+        "38": "public class TextRecord extends Record {",
+        "45": "",
+        "46": "\tpublic static TextRecord parseNdefRecord(NdefRecord ndefRecord) {",
+        "143": "\t\t\treturn false;",
+        "144": "\t\tTextRecord other = (TextRecord)obj;",
+        "49": "\t\tint status = payload[0] & 0xff;",
+        "50": "\t\tint languageCodeLength = (status & TextRecord.LANGUAGE_CODE_MASK);",
+        "52": "",
+        "53": "\t\tCharset textEncoding = ((status & TEXT_ENCODING_MASK) != 0) ? TextRecord.UTF16 : TextRecord.UTF8;",
+        "54": "",
+        "183": "\t\tif (languageData.length > TextRecord.LANGUAGE_CODE_MASK) {",
+        "61": "",
+        "62": "\tpublic TextRecord(String key, String text) {",
+        "182": ""
+      },
+      "id": 75920525,
+      "filename": "TextRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/cyanogenmod/android_packages_apps_tag.git",
+      "language": "Java",
+      "linescount": 215,
+      "location": "/src/com/android/apps/tag/record",
+      "name": "android_packages_apps_tag",
+      "url": "https://searchcode.com/codesearch/view/41544123/",
+      "md5hash": "1d593532d8510d4e5226e5518fedc137",
+      "lines": {
+        "179": "",
+        "136": "                    textEncoding);",
+        "137": "            return new TextRecord(languageCode, text);",
+        "49": " */",
+        "50": "public class TextRecord extends ParsedNdefRecord {",
+        "51": "",
+        "52": "    public static final String RECORD_TYPE = \"TextRecord\";",
+        "181": "        public TextRecordEditInfo(String text) {",
+        "180": "    public static class TextRecordEditInfo extends AbstractTextRecordEditInfo {",
+        "154": "    @VisibleForTesting",
+        "155": "    public static NdefRecord newTextRecord(String text, Locale locale) {",
+        "156": "        return newTextRecord(text, locale, true);",
+        "157": "    }",
+        "158": "",
+        "159": "    public static NdefRecord newTextRecord(String text, Locale locale, boolean encodeInUtf8) {"
+      },
+      "id": 41544123,
+      "filename": "TextRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/generalplus/android_packages_apps_tag.git",
+      "language": "Java",
+      "linescount": 163,
+      "location": "/src/com/android/apps/tag/record",
+      "name": "android_packages_apps_tag",
+      "url": "https://searchcode.com/codesearch/view/35470738/",
+      "md5hash": "4f0c88c0692cb3c73caae26be07c58d9",
+      "lines": {
+        "139": "        return newTextRecord(text, locale, true);",
+        "137": "    @VisibleForTesting",
+        "138": "    public static NdefRecord newTextRecord(String text, Locale locale) {",
+        "119": "                    textEncoding);",
+        "140": "    }",
+        "141": "",
+        "142": "    public static NdefRecord newTextRecord(String text, Locale locale, boolean encodeInUtf8) {",
+        "48": " */",
+        "49": "public class TextRecord extends ParsedNdefRecord {",
+        "50": "",
+        "51": "    public static final String RECORD_TYPE = \"TextRecord\";",
+        "57": "    private TextRecord(String languageCode, String text) {",
+        "56": "",
+        "120": "            return new TextRecord(languageCode, text);",
+        "89": "    public static TextRecord parse(NdefRecord record) {",
+        "88": "    // TODO: deal with text fields which span multiple NdefRecords"
+      },
+      "id": 35470738,
+      "filename": "TextRecord.java"
+    },
+    {
+      "repo": "https://github.com/victorm95/nfc-reader.git",
+      "language": "Java",
+      "linescount": 104,
+      "location": "/src/se/anyro/nfc_reader/record",
+      "name": "nfc-reader",
+      "url": "https://searchcode.com/codesearch/view/92185313/",
+      "md5hash": "aa9c209608cd3d4115c9a6b911f50f1c",
+      "lines": {
+        "64": "    public static TextRecord parse(NdefRecord record) {",
+        "33": " */",
+        "34": "public class TextRecord implements ParsedNdefRecord {",
+        "87": "                    payload.length - languageCodeLength - 1, textEncoding);",
+        "40": "",
+        "41": "    private TextRecord(String languageCode, String text) {",
+        "88": "            return new TextRecord(languageCode, text);",
+        "63": "    // TODO: deal with text fields which span multiple NdefRecords"
+      },
+      "id": 92185313,
+      "filename": "TextRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/chuajiesheng/whollynfc",
+      "language": "Java",
+      "linescount": 116,
+      "location": "/src/com/example/android/nfc/record",
+      "name": "whollynfc",
+      "url": "https://searchcode.com/codesearch/view/119641797/",
+      "md5hash": "f66e176237cf5d466d6225015d290bc8",
+      "lines": {
+        "99": "                    payload.length - languageCodeLength - 1, textEncoding);",
+        "100": "            return new TextRecord(languageCode, text);",
+        "38": " */",
+        "39": "public class TextRecord implements ParsedNdefRecord {",
+        "75": "    // TODO: deal with text fields which span multiple NdefRecords",
+        "76": "    public static TextRecord parse(NdefRecord record) {",
+        "45": "",
+        "46": "    private TextRecord(String languageCode, String text) {"
+      },
+      "id": 119641797,
+      "filename": "TextRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tfzxyinhao/kindle-fire",
+      "language": "Java",
+      "linescount": 105,
+      "location": "/source/mydroid/development/samples/NFCDemo/src/com/example/android/nfc/record",
+      "name": "kindle-fire",
+      "url": "https://searchcode.com/codesearch/view/134116301/",
+      "md5hash": "e08a129198033beef92a8f984a2baaf1",
+      "lines": {
+        "64": "    // TODO: deal with text fields which span multiple NdefRecords",
+        "65": "    public static TextRecord parse(NdefRecord record) {",
+        "34": " */",
+        "35": "public class TextRecord implements ParsedNdefRecord {",
+        "89": "            return new TextRecord(languageCode, text);",
+        "88": "                    payload.length - languageCodeLength - 1, textEncoding);",
+        "41": "",
+        "42": "    private TextRecord(String languageCode, String text) {"
+      },
+      "id": 134116301,
+      "filename": "TextRecord.java"
+    },
+    {
+      "repo": "git://github.com/grundid/nfctools.git",
+      "language": "Java",
+      "linescount": 151,
+      "location": "/nfctools-ndef/src/main/java/org/nfctools/ndef/wkt/records",
+      "name": "nfctools",
+      "url": "https://searchcode.com/codesearch/view/15685464/",
+      "md5hash": "ad3c9af133e16de2187f7fb7eed0662c",
+      "lines": {
+        "32": "\tpublic TextRecord(String key, String text) {",
+        "128": "\t\t\treturn false;",
+        "36": "",
+        "37": "\tpublic TextRecord(String text) {",
+        "129": "\t\tTextRecord other = (TextRecord)obj;",
+        "40": "",
+        "41": "\tpublic TextRecord(String text, Locale locale) {",
+        "44": "",
+        "45": "\tpublic TextRecord(String text, Charset encoding, Locale locale) {",
+        "20": "",
+        "21": "public class TextRecord extends WellKnownRecord {",
+        "52": "",
+        "53": "\tpublic TextRecord() {",
+        "31": ""
+      },
+      "id": 15685464,
+      "filename": "TextRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/markjenkins/libreoffice_ubuntu-debian-fixes.git",
+      "language": "Java",
+      "linescount": 103,
+      "location": "/xmerge/source/wordsmith/java/org/openoffice/xmerge/converter/xml/sxw/wordsmith",
+      "name": "libreoffice_ubuntu-debian-fixes",
+      "url": "https://searchcode.com/codesearch/view/45005268/",
+      "md5hash": "d4acf45f9928d64cddc42df42c5a3e04",
+      "lines": {
+        "32": "",
+        "33": "class textRecord {",
+        "41": "    textRecord() {",
+        "40": "     */"
+      },
+      "id": 45005268,
+      "filename": "textRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 772,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642428/",
+      "md5hash": "1e7f395ffda68b878bbae57caa69ee7e",
+      "lines": {
+        "112": "    public TextRecord()",
+        "267": "        TextRecord rec = new TextRecord();",
+        "54": " */",
+        "55": "public class TextRecord",
+        "122": "",
+        "123": "    public TextRecord(RecordInputStream in)",
+        "266": "    public Object clone() {",
+        "111": ""
+      },
+      "id": 15642428,
+      "filename": "TextRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/hamishm/haiku-jdk-jdk",
+      "language": "Java",
+      "linescount": 51,
+      "location": "/src/share/classes/sun/font",
+      "name": "haiku-jdk-jdk",
+      "url": "https://searchcode.com/codesearch/view/127231877/",
+      "md5hash": "44cf9fd4b0fdc7a4366a20653a021479",
+      "lines": {
+        "35": " */",
+        "36": "public final class TextRecord {"
+      },
+      "id": 127231877,
+      "filename": "TextRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/chegar/jigsaw_jigsaw_jdk",
+      "language": "Java",
+      "linescount": 51,
+      "location": "/src/share/classes/sun/font",
+      "name": "jigsaw_jigsaw_jdk",
+      "url": "https://searchcode.com/codesearch/view/129548835/",
+      "md5hash": "44cf9fd4b0fdc7a4366a20653a021479",
+      "lines": {
+        "35": " */",
+        "36": "public final class TextRecord {"
+      },
+      "id": 129548835,
+      "filename": "TextRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/chegar/jigsaw_modulefileparser",
+      "language": "Java",
+      "linescount": 51,
+      "location": "/src/share/classes/sun/font",
+      "name": "jigsaw_modulefileparser",
+      "url": "https://searchcode.com/codesearch/view/129568572/",
+      "md5hash": "44cf9fd4b0fdc7a4366a20653a021479",
+      "lines": {
+        "35": " */",
+        "36": "public final class TextRecord {"
+      },
+      "id": 129568572,
+      "filename": "TextRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/sreilly/openjdk7u-jdk",
+      "language": "Java",
+      "linescount": 51,
+      "location": "/src/share/classes/sun/font",
+      "name": "openjdk7u-jdk",
+      "url": "https://searchcode.com/codesearch/view/130317078/",
+      "md5hash": "44cf9fd4b0fdc7a4366a20653a021479",
+      "lines": {
+        "35": " */",
+        "36": "public final class TextRecord {"
+      },
+      "id": 130317078,
+      "filename": "TextRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/infinitekind/openjdk7u-jdk",
+      "language": "Java",
+      "linescount": 51,
+      "location": "/src/share/classes/sun/font",
+      "name": "openjdk7u-jdk",
+      "url": "https://searchcode.com/codesearch/view/132217393/",
+      "md5hash": "44cf9fd4b0fdc7a4366a20653a021479",
+      "lines": {
+        "35": " */",
+        "36": "public final class TextRecord {"
+      },
+      "id": 132217393,
+      "filename": "TextRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/psandoz/lambda-jdk-pipeline-patches",
+      "language": "Java",
+      "linescount": 51,
+      "location": "/src/share/classes/sun/font",
+      "name": "lambda-jdk-pipeline-patches",
+      "url": "https://searchcode.com/codesearch/view/132823401/",
+      "md5hash": "44cf9fd4b0fdc7a4366a20653a021479",
+      "lines": {
+        "35": " */",
+        "36": "public final class TextRecord {"
+      },
+      "id": 132823401,
+      "filename": "TextRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/psandoz/lambda-jdk",
+      "language": "Java",
+      "linescount": 51,
+      "location": "/src/share/classes/sun/font",
+      "name": "lambda-jdk",
+      "url": "https://searchcode.com/codesearch/view/132844013/",
+      "md5hash": "44cf9fd4b0fdc7a4366a20653a021479",
+      "lines": {
+        "35": " */",
+        "36": "public final class TextRecord {"
+      },
+      "id": 132844013,
+      "filename": "TextRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/screenconnect/openjdk8-jdk",
+      "language": "Java",
+      "linescount": 51,
+      "location": "/src/share/classes/sun/font",
+      "name": "openjdk8-jdk",
+      "url": "https://searchcode.com/codesearch/view/136815492/",
+      "md5hash": "44cf9fd4b0fdc7a4366a20653a021479",
+      "lines": {
+        "35": " */",
+        "36": "public final class TextRecord {"
+      },
+      "id": 136815492,
+      "filename": "TextRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/adoptopenjdk/jdk8-jdk",
+      "language": "Java",
+      "linescount": 51,
+      "location": "/src/share/classes/sun/font",
+      "name": "jdk8-jdk",
+      "url": "https://searchcode.com/codesearch/view/137372651/",
+      "md5hash": "44cf9fd4b0fdc7a4366a20653a021479",
+      "lines": {
+        "35": " */",
+        "36": "public final class TextRecord {"
+      },
+      "id": 137372651,
+      "filename": "TextRecord.java"
+    },
+    {
+      "repo": "git://github.com/GregBowyer/ManagedRuntimeInitiative.git",
+      "language": "Java",
+      "linescount": 51,
+      "location": "/MRI-J/jdk/src/share/classes/sun/font",
+      "name": "ManagedRuntimeInitiative",
+      "url": "https://searchcode.com/codesearch/view/17104747/",
+      "md5hash": "5f3a2c67103e5c76f5078464d33b8478",
+      "lines": {
+        "35": " */",
+        "36": "public final class TextRecord {"
+      },
+      "id": 17104747,
+      "filename": "TextRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/hidecheck/hidecheck_monooki",
+      "language": "Java",
+      "linescount": 72,
+      "location": "/gingerbread/apps/Tag/tests/src/com/android/apps/tag/record",
+      "name": "hidecheck_monooki",
+      "url": "https://searchcode.com/codesearch/view/120463304/",
+      "md5hash": "21a2e3a5e0d273696cb175ecb4751ac0",
+      "lines": {
+        "38": "        NdefMessage msg = new NdefMessage(MockNdefMessages.ENGLISH_PLAIN_TEXT);",
+        "39": "        TextRecord record = TextRecord.parse(msg.getRecords()[0]);",
+        "44": "    public void testNewNdefMsg() throws Exception {",
+        "45": "        NdefRecord record = TextRecord.newTextRecord(\"hello\", Locale.US);",
+        "46": "        TextRecord textRecord = TextRecord.parse(record);",
+        "47": "        assertEquals(\"hello\", textRecord.getText());",
+        "48": "        assertEquals(\"en\", textRecord.getLanguageCode());",
+        "49": "    }",
+        "51": "    public void testToText2() throws Exception {",
+        "52": "        NdefRecord record = TextRecord.newTextRecord(\"Hello\", Locale.US, false);",
+        "53": "        TextRecord textRecord = TextRecord.parse(record);",
+        "27": "/**",
+        "28": " * Tests for {@link TextRecord}",
+        "29": " */",
+        "30": "public class TextRecordTest extends AndroidTestCase {"
+      },
+      "id": 120463304,
+      "filename": "TextRecordTest.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 47,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 31,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "GitLab",
+      "id": 13
+    }
+  ]
+}

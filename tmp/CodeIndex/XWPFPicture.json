@@ -1,0 +1,231 @@
+{
+  "matchterm": "XWPFPicture",
+  "previouspage": null,
+  "searchterm": "XWPFPicture",
+  "query": "XWPFPicture",
+  "language_filters": [
+    {
+      "count": 9,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 9,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 501,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal/xhtml",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673282/",
+      "md5hash": "4f5ea87a5a96b78db8b841ca9816f855",
+      "lines": {
+        "355": "    // //",
+        "36": "import org.apache.poi.xwpf.usermodel.XWPFParagraph;",
+        "37": "import org.apache.poi.xwpf.usermodel.XWPFPictureData;",
+        "358": "    // // CTPositiveSize2D ext = xwpfPicture.getCTPicture().getSpPr().getXfrm()",
+        "339": "    // List<XWPFPicture> embeddedPictures = run.getEmbeddedPictures();",
+        "363": "    // // CTPicture ctPic = xwpfPicture.getCTPicture();",
+        "338": "    // }",
+        "366": "    // // XWPFPictureData pictureData = getPictureData(blipId);",
+        "79": "     * @param blipId",
+        "80": "     * @return XXX in some case XWPFPicture.getPictureData throw a NullPointerException because the getDocument() of",
+        "82": "     */",
+        "83": "    private XWPFPictureData getPictureData( String blipId )",
+        "340": "    // for (XWPFPicture xwpfPicture : embeddedPictures) {",
+        "365": "    // //",
+        "356": "    // // private Image visit(XWPFPicture xwpfPicture)",
+        "362": "    // //",
+        "357": "    // // throws BadElementException, MalformedURLException, IOException {"
+      },
+      "id": 96673282,
+      "filename": "OLDXHTMLMapper.java"
+    },
+    {
+      "repo": "https://code.google.com/p/xdocreport/",
+      "language": "Java",
+      "linescount": 501,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal/xhtml",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/12208721/",
+      "md5hash": "b4284bd8806df21353de32cbfd49672e",
+      "lines": {
+        "355": "    // //",
+        "36": "import org.apache.poi.xwpf.usermodel.XWPFParagraph;",
+        "37": "import org.apache.poi.xwpf.usermodel.XWPFPictureData;",
+        "358": "    // // CTPositiveSize2D ext = xwpfPicture.getCTPicture().getSpPr().getXfrm()",
+        "339": "    // List<XWPFPicture> embeddedPictures = run.getEmbeddedPictures();",
+        "363": "    // // CTPicture ctPic = xwpfPicture.getCTPicture();",
+        "338": "    // }",
+        "366": "    // // XWPFPictureData pictureData = getPictureData(blipId);",
+        "79": "     * @param blipId",
+        "80": "     * @return XXX in some case XWPFPicture.getPictureData throw a NullPointerException because the getDocument() of",
+        "82": "     */",
+        "83": "    private XWPFPictureData getPictureData( String blipId )",
+        "340": "    // for (XWPFPicture xwpfPicture : embeddedPictures) {",
+        "365": "    // //",
+        "356": "    // // private Image visit(XWPFPicture xwpfPicture)",
+        "362": "    // //",
+        "357": "    // // throws BadElementException, MalformedURLException, IOException {"
+      },
+      "id": 12208721,
+      "filename": "OLDXHTMLMapper.java"
+    },
+    {
+      "repo": "https://code.google.com/p/xdocreport/",
+      "language": "Java",
+      "linescount": 305,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/12208676/",
+      "md5hash": "ac25279aef887d58ea179db27b375521",
+      "lines": {
+        "288": "        for ( XWPFPicture picture : embeddedPictures )",
+        "289": "        {",
+        "294": "    protected abstract void visitPicture( XWPFPicture picture, T parentContainer )",
+        "293": "",
+        "38": "import org.apache.poi.xwpf.usermodel.XWPFParagraph;",
+        "39": "import org.apache.poi.xwpf.usermodel.XWPFPicture;",
+        "286": "    {",
+        "287": "        List<XWPFPicture> embeddedPictures = run.getEmbeddedPictures();"
+      },
+      "id": 12208676,
+      "filename": "XWPFElementVisitor.java"
+    },
+    {
+      "repo": "https://code.google.com/p/xdocreport/",
+      "language": "Java",
+      "linescount": 639,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal/itext",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/12208685/",
+      "md5hash": "c57703eb8d21657af4b974b6eb8d10f0",
+      "lines": {
+        "564": "    @Override",
+        "565": "    protected void visitPicture( XWPFPicture picture, IITextContainer parentContainer )",
+        "57": "import org.apache.poi.xwpf.usermodel.XWPFParagraph;",
+        "58": "import org.apache.poi.xwpf.usermodel.XWPFPicture;",
+        "59": "import org.apache.poi.xwpf.usermodel.XWPFPictureData;",
+        "60": "import org.apache.poi.xwpf.usermodel.XWPFRun;",
+        "574": "",
+        "575": "        XWPFPictureData pictureData = XWPFPictureUtil.getPictureData( document, blipId );"
+      },
+      "id": 12208685,
+      "filename": "PDFMapper.java"
+    },
+    {
+      "repo": "https://code.google.com/p/xdocreport/",
+      "language": "Java",
+      "linescount": 532,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal/itext",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/12208690/",
+      "md5hash": "56f7abc4da4735e9cf3151cc45312bec",
+      "lines": {
+        "482": "    @Override",
+        "483": "    protected void visitPicture( XWPFPicture picture, IITextContainer parentContainer )",
+        "44": "import org.apache.poi.xwpf.usermodel.XWPFParagraph;",
+        "45": "import org.apache.poi.xwpf.usermodel.XWPFPicture;"
+      },
+      "id": 12208690,
+      "filename": "StyleEngineForIText.java"
+    },
+    {
+      "repo": "https://code.google.com/p/xdocreport/",
+      "language": "Java",
+      "linescount": 560,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal/xhtml",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/12208719/",
+      "md5hash": "c9a0ff6120b415f0d7cf8470b2b731e8",
+      "lines": {
+        "479": "    protected void visitPicture( XWPFPicture picture, IITextContainer parentContainer )",
+        "478": "    @Override",
+        "38": "import org.apache.poi.xwpf.usermodel.XWPFParagraph;",
+        "39": "import org.apache.poi.xwpf.usermodel.XWPFPicture;"
+      },
+      "id": 12208719,
+      "filename": "StyleEngineForXHTML.java"
+    },
+    {
+      "repo": "https://code.google.com/p/xdocreport/",
+      "language": "Java",
+      "linescount": 495,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal/xhtml",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/12208720/",
+      "md5hash": "dd6cf4bedbefe0b7e63404d0990f0fcc",
+      "lines": {
+        "476": "",
+        "43": "import org.apache.poi.xwpf.usermodel.XWPFParagraph;",
+        "44": "import org.apache.poi.xwpf.usermodel.XWPFPicture;",
+        "477": "    public static StringBuilder getStyle( XWPFPicture picture )"
+      },
+      "id": 12208720,
+      "filename": "XHTMLStyleUtil.java"
+    },
+    {
+      "repo": "https://code.google.com/p/xdocreport/",
+      "language": "Java",
+      "linescount": 311,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal/xhtml",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/12208722/",
+      "md5hash": "63df21aba902c6147d079c8d6a55bebd",
+      "lines": {
+        "36": "import org.apache.poi.xwpf.converter.internal.itext.StyleEngineForIText;",
+        "37": "import org.apache.poi.xwpf.converter.internal.itext.XWPFPictureUtil;",
+        "262": "    @Override",
+        "39": "import org.apache.poi.xwpf.usermodel.XWPFParagraph;",
+        "40": "import org.apache.poi.xwpf.usermodel.XWPFPicture;",
+        "41": "import org.apache.poi.xwpf.usermodel.XWPFPictureData;",
+        "42": "import org.apache.poi.xwpf.usermodel.XWPFRun;",
+        "263": "    protected void visitPicture( XWPFPicture picture, XHTMLPageContentBuffer parentContainer )",
+        "270": "        // Src attribute",
+        "271": "        XWPFPictureData pictureData = XWPFPictureUtil.getPictureData( document, blipId );"
+      },
+      "id": 12208722,
+      "filename": "XHTMLMapper.java"
+    },
+    {
+      "repo": "https://code.google.com/p/xdocreport/",
+      "language": "Java",
+      "linescount": 52,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal/itext",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/12208687/",
+      "md5hash": "0fa2b440e12bfb579e023bf60df2c976",
+      "lines": {
+        "35": "     * @param blipId",
+        "36": "     * @return XXX in some case XWPFPicture.getPictureData throw a NullPointerException because the getDocument() of",
+        "38": "     */",
+        "39": "    public static XWPFPictureData getPictureData( XWPFDocument document, String blipId )",
+        "44": "            {",
+        "45": "                if ( part instanceof XWPFPictureData )",
+        "46": "                    return (XWPFPictureData) part;",
+        "47": "            }",
+        "28": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "29": "import org.apache.poi.xwpf.usermodel.XWPFPictureData;",
+        "30": "",
+        "31": "public class XWPFPictureUtil"
+      },
+      "id": 12208687,
+      "filename": "XWPFPictureUtil.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 8,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

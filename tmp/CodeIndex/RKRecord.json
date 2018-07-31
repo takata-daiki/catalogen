@@ -1,0 +1,311 @@
+{
+  "matchterm": "RKRecord",
+  "previouspage": null,
+  "searchterm": "RKRecord",
+  "query": "RKRecord",
+  "language_filters": [
+    {
+      "count": 14,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 14,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 123,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260403/",
+      "md5hash": "17c48e8ad7fdad7bfa87029fe9bcf580",
+      "lines": {
+        "64": "  public RKRecord(Record t, FormattingRecords fr, SheetImpl si)",
+        "34": " */",
+        "35": "class RKRecord extends CellValue implements NumberCell",
+        "39": "   */",
+        "40": "  private static Logger logger = Logger.getLogger(RKRecord.class);",
+        "63": "   */"
+      },
+      "id": 43260403,
+      "filename": "RKRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 123,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200931/",
+      "md5hash": "17c48e8ad7fdad7bfa87029fe9bcf580",
+      "lines": {
+        "64": "  public RKRecord(Record t, FormattingRecords fr, SheetImpl si)",
+        "34": " */",
+        "35": "class RKRecord extends CellValue implements NumberCell",
+        "39": "   */",
+        "40": "  private static Logger logger = Logger.getLogger(RKRecord.class);",
+        "63": "   */"
+      },
+      "id": 49200931,
+      "filename": "RKRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 321,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642451/",
+      "md5hash": "48209ea57cc94560d63635e7f68af007",
+      "lines": {
+        "64": "public class RKRecord",
+        "312": "    public Object clone() {",
+        "87": "",
+        "88": "    public RKRecord(RecordInputStream in)",
+        "313": "      RKRecord rec = new RKRecord();",
+        "63": "",
+        "78": "",
+        "79": "    public RKRecord()"
+      },
+      "id": 15642451,
+      "filename": "RKRecord.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 123,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/read/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374432/",
+      "md5hash": "17c48e8ad7fdad7bfa87029fe9bcf580",
+      "lines": {
+        "64": "  public RKRecord(Record t, FormattingRecords fr, SheetImpl si)",
+        "34": " */",
+        "35": "class RKRecord extends CellValue implements NumberCell",
+        "39": "   */",
+        "40": "  private static Logger logger = Logger.getLogger(RKRecord.class);",
+        "63": "   */"
+      },
+      "id": 11374432,
+      "filename": "RKRecord.java"
+    },
+    {
+      "repo": "http://brainstream.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 123,
+      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/read/biff",
+      "name": "brainstream",
+      "url": "https://searchcode.com/codesearch/view/13919613/",
+      "md5hash": "dffc1bb4bb643a61e2ebe3e2ddc41412",
+      "lines": {
+        "64": "  public RKRecord(Record t, FormattingRecords fr, SheetImpl si)",
+        "34": " */",
+        "35": "class RKRecord extends CellValue implements NumberCell",
+        "39": "   */",
+        "40": "  private static Logger logger = Logger.getLogger(RKRecord.class);",
+        "63": "   */"
+      },
+      "id": 13919613,
+      "filename": "RKRecord.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 595,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785559/",
+      "md5hash": "6b55090236799f49ee0f5bd7d54bbbac",
+      "lines": {
+        "384": "                RKRecord rk = (RKRecord) record;",
+        "385": "                addCell(record, new NumberCell(rk.getRKNumber(), format));",
+        "53": "import org.apache.poi.hssf.record.NumberRecord;",
+        "54": "import org.apache.poi.hssf.record.RKRecord;",
+        "265": "                hssfRequest.addListener(formatListener, NumberRecord.sid);",
+        "266": "                hssfRequest.addListener(formatListener, RKRecord.sid);",
+        "382": "",
+        "383": "            case RKRecord.sid: // Excel internal number record"
+      },
+      "id": 111785559,
+      "filename": "ExcelExtractor.java"
+    },
+    {
+      "repo": "https://github.com/xiezhaohui/DataViewer.git",
+      "language": "Java",
+      "linescount": 304,
+      "location": "/ETL/src/com/util",
+      "name": "DataViewer",
+      "url": "https://searchcode.com/codesearch/view/68613461/",
+      "md5hash": "8bd64dddea629578a6d8e6f976c7b348",
+      "lines": {
+        "243": "\t\t\tbreak;",
+        "244": "\t\tcase RKRecord.sid:",
+        "245": "\t\t\tRKRecord rkrec = (RKRecord) record;",
+        "246": "",
+        "27": "import org.apache.poi.hssf.record.NumberRecord;",
+        "28": "import org.apache.poi.hssf.record.RKRecord;"
+      },
+      "id": 68613461,
+      "filename": "HxlsAbstract.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642343/",
+      "md5hash": "468caa59753e7c2d27a76f3903f70894",
+      "lines": {
+        "384": "            MulRKRecord mrk = ( MulRKRecord ) retval;",
+        "368": "        {",
+        "369": "            RKRecord     rk  = ( RKRecord ) retval;",
+        "106": "import loci.poi.hssf.record.ProtectionRev4Record;",
+        "107": "import loci.poi.hssf.record.RKRecord;",
+        "366": "        }",
+        "367": "        if (retval instanceof RKRecord)",
+        "176": "                DimensionsRecord.class, RowRecord.class, LabelSSTRecord.class,",
+        "177": "                RKRecord.class, NumberRecord.class, DBCellRecord.class,",
+        "179": "                LabelRecord.class, BlankRecord.class, ColumnInfoRecord.class,",
+        "180": "                MulRKRecord.class, MulBlankRecord.class, MergeCellsRecord.class,",
+        "382": "        else if (retval instanceof MulRKRecord)",
+        "381": "        }",
+        "93": "import loci.poi.hssf.record.MulBlankRecord;",
+        "94": "import loci.poi.hssf.record.MulRKRecord;",
+        "383": "        {"
+      },
+      "id": 15642343,
+      "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "214": "        }",
+        "230": "        else if (retval instanceof MulRKRecord)",
+        "231": "        {",
+        "232": "            MulRKRecord mrk = ( MulRKRecord ) retval;",
+        "215": "        if (retval instanceof RKRecord)",
+        "89": "                LabelRecord.class, BlankRecord.class, ColumnInfoRecord.class,",
+        "86": "                DimensionsRecord.class, RowRecord.class, LabelSSTRecord.class,",
+        "87": "                RKRecord.class, NumberRecord.class, DBCellRecord.class,",
+        "216": "        {",
+        "217": "            RKRecord     rk  = ( RKRecord ) retval;",
+        "90": "                MulRKRecord.class, MulBlankRecord.class, MergeCellsRecord.class,",
+        "229": "        }"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 1850,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260387/",
+      "md5hash": "7f91270abbfb3387b7abcd30255c0a02",
+      "lines": {
+        "418": "      {",
+        "419": "        RKRecord rkr = new RKRecord(r, formattingRecords, sheet);",
+        "458": "      {",
+        "459": "        MulRKRecord mulrk = new MulRKRecord(r);"
+      },
+      "id": 43260387,
+      "filename": "SheetReader.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 1850,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200915/",
+      "md5hash": "7f91270abbfb3387b7abcd30255c0a02",
+      "lines": {
+        "418": "      {",
+        "419": "        RKRecord rkr = new RKRecord(r, formattingRecords, sheet);",
+        "458": "      {",
+        "459": "        MulRKRecord mulrk = new MulRKRecord(r);"
+      },
+      "id": 49200915,
+      "filename": "SheetReader.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1850,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/read/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374407/",
+      "md5hash": "7f91270abbfb3387b7abcd30255c0a02",
+      "lines": {
+        "418": "      {",
+        "419": "        RKRecord rkr = new RKRecord(r, formattingRecords, sheet);",
+        "458": "      {",
+        "459": "        MulRKRecord mulrk = new MulRKRecord(r);"
+      },
+      "id": 11374407,
+      "filename": "SheetReader.java"
+    },
+    {
+      "repo": "http://brainstream.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1901,
+      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/read/biff",
+      "name": "brainstream",
+      "url": "https://searchcode.com/codesearch/view/13919585/",
+      "md5hash": "64420fd674275ba389b00cf0c5263661",
+      "lines": {
+        "460": "        MulRKRecord mulrk = new MulRKRecord(r);",
+        "419": "      {",
+        "420": "        RKRecord rkr = new RKRecord(r, formattingRecords, sheet);",
+        "459": "      {"
+      },
+      "id": 13919585,
+      "filename": "SheetReader.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 99,
+      "location": "/components/forks/poi/src/loci/poi/hssf/util",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642350/",
+      "md5hash": "77ceb9789c1a3d1a9788b325a774a755",
+      "lines": {
+        "48": " *",
+        "49": " * @see loci.poi.hssf.record.MulRKRecord",
+        "50": " * @see loci.poi.hssf.record.RKRecord",
+        "51": " */"
+      },
+      "id": 15642350,
+      "filename": "RKUtil.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 6,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 4,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 4,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

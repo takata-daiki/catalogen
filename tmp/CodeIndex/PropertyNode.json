@@ -1,0 +1,513 @@
+{
+  "matchterm": "PropertyNode",
+  "previouspage": null,
+  "searchterm": "PropertyNode",
+  "query": "PropertyNode",
+  "language_filters": [
+    {
+      "count": 503,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 502,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/ramonza/nashorn-backport",
+      "language": "Java",
+      "linescount": 194,
+      "location": "/src/jdk/nashorn/internal/ir",
+      "name": "nashorn-backport",
+      "url": "https://searchcode.com/codesearch/view/135112874/",
+      "md5hash": "e9eb2080596872b73aaa073bc7dcebaf",
+      "lines": {
+        "171": "        return new PropertyNode(this, key, value, getter, setter);",
+        "34": "@Immutable",
+        "35": "public final class PropertyNode extends Node {",
+        "132": "    public PropertyNode setGetter(final FunctionNode getter) {",
+        "166": "     */",
+        "135": "        }",
+        "136": "        return new PropertyNode(this, key, value, getter, setter);",
+        "170": "        }",
+        "167": "    public PropertyNode setSetter(final FunctionNode setter) {",
+        "146": "",
+        "131": "     */",
+        "147": "    private PropertyNode setKey(final PropertyKey key) {",
+        "150": "        }",
+        "151": "        return new PropertyNode(this, key, value, getter, setter);",
+        "186": "     */",
+        "187": "    public PropertyNode setValue(final Expression value) {"
+      },
+      "id": 135112874,
+      "filename": "PropertyNode.java"
+    },
+    {
+      "repo": "https://bitbucket.org/generalplus/android_frameworks_opt_vcard.git",
+      "language": "Java",
+      "linescount": 206,
+      "location": "/tests/src/com/android/vcard/tests/testutils",
+      "name": "android_frameworks_opt_vcard",
+      "url": "https://searchcode.com/codesearch/view/35452020/",
+      "md5hash": "649f1c73c2211bf346bdbb88fd6a7ac6",
+      "lines": {
+        "128": "        PropertyNode node = (PropertyNode)obj;",
+        "66": "    ",
+        "67": "    public PropertyNode() {",
+        "118": "        throw new UnsupportedOperationException(",
+        "41": " */",
+        "42": "public class PropertyNode {",
+        "75": "    ",
+        "76": "    public PropertyNode(",
+        "53": "     * param store: key=paramType, value=paramValue",
+        "54": "     * Note that currently PropertyNode class does not support multiple param-values",
+        "119": "                \"PropertyNode does not provide hashCode() implementation intentionally.\");",
+        "123": "    public boolean equals(Object obj) {",
+        "124": "        if (!(obj instanceof PropertyNode)) {",
+        "127": "        "
+      },
+      "id": 35452020,
+      "filename": "PropertyNode.java"
+    },
+    {
+      "repo": "https://bitbucket.org/cyanogenmod/android_frameworks_opt_vcard.git",
+      "language": "Java",
+      "linescount": 206,
+      "location": "/tests/src/com/android/vcard/tests/testutils",
+      "name": "android_frameworks_opt_vcard",
+      "url": "https://searchcode.com/codesearch/view/40547882/",
+      "md5hash": "649f1c73c2211bf346bdbb88fd6a7ac6",
+      "lines": {
+        "128": "        PropertyNode node = (PropertyNode)obj;",
+        "66": "    ",
+        "67": "    public PropertyNode() {",
+        "118": "        throw new UnsupportedOperationException(",
+        "41": " */",
+        "42": "public class PropertyNode {",
+        "75": "    ",
+        "76": "    public PropertyNode(",
+        "53": "     * param store: key=paramType, value=paramValue",
+        "54": "     * Note that currently PropertyNode class does not support multiple param-values",
+        "119": "                \"PropertyNode does not provide hashCode() implementation intentionally.\");",
+        "123": "    public boolean equals(Object obj) {",
+        "124": "        if (!(obj instanceof PropertyNode)) {",
+        "127": "        "
+      },
+      "id": 40547882,
+      "filename": "PropertyNode.java"
+    },
+    {
+      "repo": "https://code.google.com/p/android-vcard/",
+      "language": "Java",
+      "linescount": 324,
+      "location": "/src/a_vcard/android/syncml/pim",
+      "name": "android-vcard",
+      "url": "https://searchcode.com/codesearch/view/8573112/",
+      "md5hash": "15ae7715fcb5ca7ea0e92c1c3c8813e1",
+      "lines": {
+        "256": "",
+        "257": "    public static PropertyNode decode(String encodedString) {",
+        "258": "        PropertyNode propertyNode = new PropertyNode();",
+        "259": "        String trimed = encodedString.trim();",
+        "260": "        if (trimed.length() == 0) {",
+        "261": "            return propertyNode;",
+        "270": "            if (name.equals(\"propName\")) {",
+        "271": "                propertyNode.propName = values[0];",
+        "273": "                for (String value : values) {",
+        "274": "                    propertyNode.propGroupSet.add(value);",
+        "276": "            } else if (name.equals(\"paramMap\")) {",
+        "277": "                ContentValues paramMap = propertyNode.paramMap;",
+        "278": "                Set<String> paramMap_TYPE = propertyNode.paramMap_TYPE;",
+        "279": "                for (String value : values) {",
+        "30": "",
+        "31": "public class PropertyNode {"
+      },
+      "id": 8573112,
+      "filename": "PropertyNode.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/netbeans-soa.git",
+      "language": "Java",
+      "linescount": 118,
+      "location": "/edm.editor/src/org/netbeans/modules/edm/editor/widgets/property",
+      "name": "netbeans-soa",
+      "url": "https://searchcode.com/codesearch/view/43334150/",
+      "md5hash": "764b6c252a7d8eacad65d355be065898",
+      "lines": {
+        "65": "",
+        "66": "    public PropertyNode() {",
+        "99": "            nameProp.setName(NbBundle.getMessage(PropertyNode.class, \"LBL_Collaboration_Name\"));",
+        "100": "            nameProp.setShortDescription(NbBundle.getMessage(PropertyNode.class, \"TOOLTIP_Name_of_the_Collaboration\"));",
+        "101": "            set.put(nameProp);",
+        "103": "          PropertySupport.Reflection responseTypeProp = new PropertySupport.Reflection(this.mObj.getModel().getEDMDefinition().getSQLDefinition(), String.class, \"getResponseType\", \"setResponseType\");",
+        "104": "            responseTypeProp.setName(NbBundle.getMessage(PropertyNode.class, \"LBL_Response_Type\"));",
+        "105": "            responseTypeProp.setShortDescription(NbBundle.getMessage(PropertyNode.class, \"TOOLTIP_Response_Type\"));",
+        "106": "            responseTypeProp.setPropertyEditorClass(PropertyEditorManager.getPropertyEditor(\"RESPONSE_TYPE\"));",
+        "98": "            //TBD : i18n required for this code-section.",
+        "55": "",
+        "56": "public class PropertyNode extends AbstractNode {",
+        "60": "",
+        "61": "    public PropertyNode(MashupDataObject dObj) {"
+      },
+      "id": 43334150,
+      "filename": "PropertyNode.java"
+    },
+    {
+      "repo": "https://bitbucket.org/netbeans/main_contrib",
+      "language": "Java",
+      "linescount": 339,
+      "location": "/sysprops/src/org/netbeans/modules/sysprops",
+      "name": "main_contrib",
+      "url": "https://searchcode.com/codesearch/view/122830663/",
+      "md5hash": "64aad873c3b25fdfc956ca87eb103ef3",
+      "lines": {
+        "227": "                    /* [PENDING] could be localized */ property,",
+        "228": "                    NbBundle.getMessage(PropertyNode.class, \"HINT_value\"));",
+        "72": " */",
+        "73": "public class PropertyNode extends AbstractNode {",
+        "203": "    public Node cloneNode() {",
+        "204": "        return new PropertyNode(property, kids);",
+        "86": "    /**",
+        "87": "     * Creates a new PropertyNode.",
+        "120": "        if (value != null) {",
+        "121": "            setShortDescription(NbBundle.getMessage(PropertyNode.class, \"HINT_property_name_and_value\", getDisplayName(), value));",
+        "90": "     */",
+        "91": "    public PropertyNode(String prop, List kids) {"
+      },
+      "id": 122830663,
+      "filename": "PropertyNode.java"
+    },
+    {
+      "repo": "https://github.com/pipifuyj/wekax.git",
+      "language": "Java",
+      "linescount": 128,
+      "location": "/wekaUT/weka/experiment",
+      "name": "wekax",
+      "url": "https://searchcode.com/codesearch/view/112652714/",
+      "md5hash": "64d67cd75e8640bba9d4fdf2121e3e23",
+      "lines": {
+        "17": "/*",
+        "18": " *    PropertyNode.java",
+        "67": "   */",
+        "56": "  public PropertyNode(Object pValue) {",
+        "55": "   */",
+        "40": "public class PropertyNode implements Serializable {",
+        "68": "  public PropertyNode(Object pValue, PropertyDescriptor prop, Class pClass) {",
+        "39": " */",
+        "126": "  }",
+        "127": "} // PropertyNode"
+      },
+      "id": 112652714,
+      "filename": "PropertyNode.java"
+    },
+    {
+      "repo": "https://bitbucket.org/jakobk/machine-learning-exercise3.git",
+      "language": "Java",
+      "linescount": 141,
+      "location": "/weka/src/main/java/weka/experiment",
+      "name": "machine-learning-exercise3",
+      "url": "https://searchcode.com/codesearch/view/48501615/",
+      "md5hash": "a308a5a3123bb70b6a941ffca122bee2",
+      "lines": {
+        "16": "/*",
+        "17": " *    PropertyNode.java",
+        "140": "} // PropertyNode",
+        "139": "  }",
+        "39": " */",
+        "40": "public class PropertyNode",
+        "72": "  public PropertyNode(Object pValue, PropertyDescriptor prop, Class pClass) {",
+        "71": "   */",
+        "59": "   */",
+        "60": "  public PropertyNode(Object pValue) {"
+      },
+      "id": 48501615,
+      "filename": "PropertyNode.java"
+    },
+    {
+      "repo": "https://github.com/andreyvit/groovy.git",
+      "language": "Java",
+      "linescount": 137,
+      "location": "/groovy/groovy-core/src/main/org/codehaus/groovy/ast",
+      "name": "groovy",
+      "url": "https://searchcode.com/codesearch/view/103801854/",
+      "md5hash": "0f4eb836278dff936eb0aa5ddaf8a348",
+      "lines": {
+        "65": "",
+        "66": "    public PropertyNode(",
+        "73": "",
+        "57": " */",
+        "58": "public class PropertyNode extends AnnotatedNode implements Opcodes,Variable {",
+        "74": "    public PropertyNode(FieldNode field, int modifiers, Statement getterBlock, Statement setterBlock) {"
+      },
+      "id": 103801854,
+      "filename": "PropertyNode.java"
+    },
+    {
+      "repo": "http://rimudb.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 266,
+      "location": "/rimudb/src/org/rimudb",
+      "name": "rimudb",
+      "url": "https://searchcode.com/codesearch/view/5206549/",
+      "md5hash": "8a649182ac85854dcf27996fa26cd6a0",
+      "lines": {
+        "32": " */",
+        "33": "public class PropertyNode implements Comparable {",
+        "34": "\tprivate static Log log = LogFactory.getLog(PropertyNode.class);",
+        "35": "\tprivate String name = null;",
+        "167": "\tpublic int compareTo(java.lang.Object o) {",
+        "168": "\t\tPropertyNode other = (PropertyNode) o;",
+        "172": "\tpublic boolean equals(Object o) {",
+        "173": "\t\tif (!(o instanceof PropertyNode))",
+        "51": "",
+        "52": "\tpublic PropertyNode(DataObjectNode parent, Element element, int keySeqeunce) {",
+        "123": "\t\t} catch (Exception e) {",
+        "124": "\t\t\tlog.error(\"in PropertyNode.PropertyNode\", e);"
+      },
+      "id": 5206549,
+      "filename": "PropertyNode.java"
+    },
+    {
+      "repo": "https://github.com/dbaeumges/android_platform_frameworks_base.git",
+      "language": "Java",
+      "linescount": 199,
+      "location": "/core/tests/coretests/src/android/pim/vcard",
+      "name": "android_platform_frameworks_base",
+      "url": "https://searchcode.com/codesearch/view/66726239/",
+      "md5hash": "5e0616fbe85b418cf6d19ee3baedab48",
+      "lines": {
+        "35": " */",
+        "36": "public class PropertyNode {",
+        "69": "    public PropertyNode(",
+        "47": "     * Note that currently PropertyNode class does not support multiple param-values",
+        "46": "    /** param store: key=paramType, value=paramValue",
+        "111": "        throw new UnsupportedOperationException(",
+        "112": "                \"PropertyNode does not provide hashCode() implementation intentionally.\");",
+        "116": "    public boolean equals(Object obj) {",
+        "117": "        if (!(obj instanceof PropertyNode)) {",
+        "121": "        PropertyNode node = (PropertyNode)obj;",
+        "120": "        ",
+        "68": "    ",
+        "59": "    ",
+        "60": "    public PropertyNode() {"
+      },
+      "id": 66726239,
+      "filename": "PropertyNode.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/netbeans-soa.git",
+      "language": "Java",
+      "linescount": 130,
+      "location": "/etl.editor/src/org/netbeans/modules/sql/framework/ui/editor/property/impl",
+      "name": "netbeans-soa",
+      "url": "https://searchcode.com/codesearch/view/43333139/",
+      "md5hash": "0c10dd27ed0cfa82a7bbfee2e733d50a",
+      "lines": {
+        "65": " */",
+        "66": "public class PropertyNode extends AbstractNode {",
+        "70": "",
+        "71": "    /** Creates a new instance of PropertyNode */",
+        "72": "    public PropertyNode() {",
+        "73": "        super(Children.LEAF);",
+        "75": "",
+        "76": "    public PropertyNode(ITemplate template) {"
+      },
+      "id": 43333139,
+      "filename": "PropertyNode.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/netbeans-soa.git",
+      "language": "Java",
+      "linescount": 130,
+      "location": "/edm.editor/src/org/netbeans/modules/edm/editor/property/impl",
+      "name": "netbeans-soa",
+      "url": "https://searchcode.com/codesearch/view/43334359/",
+      "md5hash": "08aac1c44c16189a7a03f37994c4a740",
+      "lines": {
+        "65": " */",
+        "66": "public class PropertyNode extends AbstractNode {",
+        "70": "",
+        "71": "    /** Creates a new instance of PropertyNode */",
+        "72": "    public PropertyNode() {",
+        "73": "        super(Children.LEAF);",
+        "75": "",
+        "76": "    public PropertyNode(ITemplate template) {"
+      },
+      "id": 43334359,
+      "filename": "PropertyNode.java"
+    },
+    {
+      "repo": "http://eclipse-jmx.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 80,
+      "location": "/net.jmesnil.jmx.core/src/net/jmesnil/jmx/core/tree",
+      "name": "eclipse-jmx",
+      "url": "https://searchcode.com/codesearch/view/3873610/",
+      "md5hash": "cdb0e1d167a5bfa51331220c166de4fc",
+      "lines": {
+        "59": "\t\t\treturn false;",
+        "34": "\tpublic int compareTo(Object o) {",
+        "35": "\t\tPropertyNode other = (PropertyNode) o;",
+        "14": "",
+        "9": "",
+        "10": "public class PropertyNode extends Node {",
+        "31": "\t\treturn \"PropertyNode[\" + key + \"=\" + value + \"]\"; //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$",
+        "60": "\t\tfinal PropertyNode other = (PropertyNode) obj;",
+        "30": "\tpublic String toString() {",
+        "15": "\tPropertyNode(Node parent, String key, String value) {"
+      },
+      "id": 3873610,
+      "filename": "PropertyNode.java"
+    },
+    {
+      "repo": "https://github.com/adietish/jbosstools-server.git",
+      "language": "Java",
+      "linescount": 80,
+      "location": "/jmx/plugins/org.jboss.tools.jmx.core/src/org/jboss/tools/jmx/core/tree",
+      "name": "jbosstools-server",
+      "url": "https://searchcode.com/codesearch/view/69580318/",
+      "md5hash": "0f78ac2016c40e8e1b1a9eb261de5afe",
+      "lines": {
+        "59": "\t\t\treturn false;",
+        "34": "\tpublic int compareTo(Object o) {",
+        "35": "\t\tPropertyNode other = (PropertyNode) o;",
+        "14": "",
+        "9": "",
+        "10": "public class PropertyNode extends Node {",
+        "31": "\t\treturn \"PropertyNode[\" + key + \"=\" + value + \"]\"; //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$",
+        "60": "\t\tfinal PropertyNode other = (PropertyNode) obj;",
+        "30": "\tpublic String toString() {",
+        "15": "\tPropertyNode(Node parent, String key, String value) {"
+      },
+      "id": 69580318,
+      "filename": "PropertyNode.java"
+    },
+    {
+      "repo": "https://bitbucket.org/sulab/thecure",
+      "language": "Java",
+      "linescount": 142,
+      "location": "/src/weka/experiment",
+      "name": "thecure",
+      "url": "https://searchcode.com/codesearch/view/60405683/",
+      "md5hash": "dd7e394987cbd5649af47a55276f4668",
+      "lines": {
+        "17": "/*",
+        "18": " *    PropertyNode.java",
+        "73": "  public PropertyNode(Object pValue, PropertyDescriptor prop, Class pClass) {",
+        "40": " */",
+        "41": "public class PropertyNode",
+        "140": "  }",
+        "60": "   */",
+        "61": "  public PropertyNode(Object pValue) {",
+        "72": "   */",
+        "141": "} // PropertyNode"
+      },
+      "id": 60405683,
+      "filename": "PropertyNode.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/netbeans-soa.git",
+      "language": "Java",
+      "linescount": 127,
+      "location": "/dm.virtual.db/src/org/netbeans/modules/dm/virtual/db/ui/property/impl",
+      "name": "netbeans-soa",
+      "url": "https://searchcode.com/codesearch/view/43334684/",
+      "md5hash": "7f4b91e98199693d0ea25f1aea2cc7f9",
+      "lines": {
+        "64": "public class PropertyNode extends AbstractNode {",
+        "68": "",
+        "69": "    public PropertyNode() {",
+        "72": "",
+        "73": "    public PropertyNode(Template template) {",
+        "63": " */"
+      },
+      "id": 43334684,
+      "filename": "PropertyNode.java"
+    },
+    {
+      "repo": "https://bitbucket.org/sulab/thecure",
+      "language": "Java",
+      "linescount": 446,
+      "location": "/src/weka/gui/ensembleLibraryEditor/tree",
+      "name": "thecure",
+      "url": "https://searchcode.com/codesearch/view/60405421/",
+      "md5hash": "9d6f43a2d42e87d2c6904d8d268254f1",
+      "lines": {
+        "17": "/*",
+        "18": " *    PropertyNode.java",
+        "51": "public class PropertyNode ",
+        "223": "    //OK, there are four type of nodes that can branch off of a propertyNode",
+        "92": "   */",
+        "50": " */",
+        "222": "    ",
+        "93": "  public PropertyNode(JTree tree, AddModelsPanel panel, String name,"
+      },
+      "id": 60405421,
+      "filename": "PropertyNode.java"
+    },
+    {
+      "repo": "https://github.com/const/etl-java.git",
+      "language": "Java",
+      "linescount": 96,
+      "location": "/src/net.sf.etl.parsers/src/net/sf/etl/parsers/internal/term_parser/compiler/nodes",
+      "name": "etl-java",
+      "url": "https://searchcode.com/codesearch/view/139542992/",
+      "md5hash": "1f006ce63e60f0240fe797082073a615",
+      "lines": {
+        "54": "\tpublic PropertyNode(PropertyName name, boolean isList, boolean atMark) {",
+        "37": " */",
+        "38": "public class PropertyNode extends TermScopeNode {",
+        "53": "\t */"
+      },
+      "id": 139542992,
+      "filename": "PropertyNode.java"
+    },
+    {
+      "repo": "git://github.com/russel/groovy.git",
+      "language": "Java",
+      "linescount": 136,
+      "location": "/src/main/org/codehaus/groovy/ast",
+      "name": "groovy",
+      "url": "https://searchcode.com/codesearch/view/8092690/",
+      "md5hash": "f023a82814a2d25dc2f625f940532fcc",
+      "lines": {
+        "37": "",
+        "38": "    public PropertyNode(",
+        "44": "",
+        "29": " */",
+        "30": "public class PropertyNode extends AnnotatedNode implements Opcodes, Variable {",
+        "45": "    public PropertyNode(FieldNode field, int modifiers, Statement getterBlock, Statement setterBlock) {"
+      },
+      "id": 8092690,
+      "filename": "PropertyNode.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 277,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 157,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 67,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 1,
+      "source": "GitLab",
+      "id": 13
+    },
+    {
+      "count": 1,
+      "source": "Unknown",
+      "id": 0
+    }
+  ]
+}

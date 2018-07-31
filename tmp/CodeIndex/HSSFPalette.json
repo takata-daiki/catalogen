@@ -1,0 +1,363 @@
+{
+  "matchterm": "HSSFPalette",
+  "previouspage": null,
+  "searchterm": "HSSFPalette",
+  "query": "HSSFPalette",
+  "language_filters": [
+    {
+      "count": 18,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 18,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 238,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642312/",
+      "md5hash": "8b713ef6194009c2b34b9be50096af38",
+      "lines": {
+        "56": "    ",
+        "57": "    protected HSSFPalette(PaletteRecord palette)",
+        "52": " */",
+        "53": "public class HSSFPalette"
+      },
+      "id": 15642312,
+      "filename": "HSSFPalette.java"
+    },
+    {
+      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 259,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/122565152/",
+      "md5hash": "8510175981f7653c68170cbdfb797646",
+      "lines": {
+        "112": "\t/**",
+        "17": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "18": "import org.apache.poi.hssf.usermodel.HSSFPalette;",
+        "113": "\t * Get an HSSFPalette index for a workbook that closely approximates the passed in colour.",
+        "128": "\t\tHSSFPalette palette = workbook.getCustomPalette();",
+        "221": "\tpublic Font correctFontColorIfBackground(FontManager fm, Workbook wb, BirtStyle birtStyle, Font font) {",
+        "222": "\t\tHSSFPalette palette = ((HSSFWorkbook)wb).getCustomPalette();\t\t",
+        "127": "\t\tbyte[] rgbByte = new byte[] { (byte)rgbInt[0], (byte)rgbInt[1], (byte)rgbInt[2] };"
+      },
+      "id": 122565152,
+      "filename": "StyleManagerHUtils.java"
+    },
+    {
+      "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 298,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/64530867/",
+      "md5hash": "4a93e7cc18198ee2f00f76297625128b",
+      "lines": {
+        "235": "\t\tHSSFPalette palette = ((HSSFWorkbook)wb).getCustomPalette();\t\t",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFPalette;",
+        "234": "\tpublic Font correctFontColorIfBackground(FontManager fm, Workbook wb, BirtStyle birtStyle, Font font) {",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "140": "\t\tbyte[] rgbByte = new byte[] { (byte)rgbInt[0], (byte)rgbInt[1], (byte)rgbInt[2] };",
+        "125": "\t/**",
+        "126": "\t * Get an HSSFPalette index for a workbook that closely approximates the passed in colour.",
+        "141": "\t\tHSSFPalette palette = workbook.getCustomPalette();"
+      },
+      "id": 64530867,
+      "filename": "StyleManagerHUtils.java"
+    },
+    {
+      "repo": "https://github.com/semantalytics/RightField.git",
+      "language": "Java",
+      "linescount": 345,
+      "location": "/src/main/java/uk/ac/manchester/cs/owl/semspreadsheets/model/hssf/impl",
+      "name": "RightField",
+      "url": "https://searchcode.com/codesearch/view/72854667/",
+      "md5hash": "69c13b066ab7080e5b5737d464e674f4",
+      "lines": {
+        "256": "    \tHSSFPalette palette = getWorkbook().getCustomPalette();",
+        "20": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "21": "import org.apache.poi.hssf.usermodel.HSSFPalette;",
+        "267": "\tprivate Color translateColour(short colorIndex) {",
+        "268": "\t\tHSSFPalette palette = getWorkbook().getCustomPalette();",
+        "255": "    private HSSFColor translateColour(Color colour) {"
+      },
+      "id": 72854667,
+      "filename": "CellHSSFImpl.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 5111,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970697/",
+      "md5hash": "f6740268ba4be4778508748ca1c3becc",
+      "lines": {
+        "4544": "\t\tshort blue = (short) (b & 0xff);",
+        "913": "\tprivate static String indexToHSSFRGB(HSSFWorkbook book, int index) {",
+        "914": "\t\tHSSFPalette palette = book.getCustomPalette();",
+        "52": "import org.zkoss.poi.hssf.usermodel.HSSFFont;",
+        "53": "import org.zkoss.poi.hssf.usermodel.HSSFPalette;",
+        "934": "\tpublic static short rgbToIndex(Book book, String color) {",
+        "935": "\t\tHSSFPalette palette = ((HSSFWorkbook)book).getCustomPalette();",
+        "4605": "\t\tfinal short index = font.getColor() == Font.COLOR_NORMAL ? HSSFColor.AUTOMATIC.index : font.getColor();",
+        "4606": "\t\tHSSFPalette palette = book.getCustomPalette();",
+        "4545": "\t\tHSSFPalette palette = book.getCustomPalette();"
+      },
+      "id": 3970697,
+      "filename": "BookHelper.java"
+    },
+    {
+      "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 190,
+      "location": "/SpudSoft BIRT Excel Emitters Tests/src/uk/co/spudsoft/birt/emitters/excel/tests",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/64531463/",
+      "md5hash": "6a484cbd8e198670f7720c19655d12f6",
+      "lines": {
+        "35": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFPalette;",
+        "86": "\t\t",
+        "87": "\t    HSSFPalette palette = workbook.getCustomPalette();",
+        "58": "",
+        "59": "\t    HSSFPalette palette = workbook.getCustomPalette();"
+      },
+      "id": 64531463,
+      "filename": "Issue36XlsColours.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ravisanthu0/spudsoft-birt-excel-emitters1",
+      "language": "Java",
+      "linescount": 288,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters1",
+      "url": "https://searchcode.com/codesearch/view/126772704/",
+      "md5hash": "f52bc965a2ba649aac4b70c046bcb23d",
+      "lines": {
+        "224": "\tpublic Font correctFontColorIfBackground(FontManager fm, Workbook wb, BirtStyle birtStyle, Font font) {",
+        "136": "\t\tbyte[] rgbByte = new byte[] { (byte)rgbInt[0], (byte)rgbInt[1], (byte)rgbInt[2] };",
+        "121": "\t/**",
+        "24": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "25": "import org.apache.poi.hssf.usermodel.HSSFPalette;",
+        "122": "\t * Get an HSSFPalette index for a workbook that closely approximates the passed in colour.",
+        "225": "\t\tHSSFPalette palette = ((HSSFWorkbook)wb).getCustomPalette();\t\t",
+        "137": "\t\tHSSFPalette palette = workbook.getCustomPalette();"
+      },
+      "id": 126772704,
+      "filename": "StyleManagerHUtils.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 361,
+      "location": "/ppt/poi/org/apache/poi/hssf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97401500/",
+      "md5hash": "35899c7f55dd9c9576f58aaede24eb00",
+      "lines": {
+        "200": "    {",
+        "201": "       HSSFPalette pallette = wb.getCustomPalette();",
+        "188": "     * @see #COLOR_RED",
+        "189": "     * @see org.apache.poi.hssf.usermodel.HSSFPalette#getColor(short)"
+      },
+      "id": 97401500,
+      "filename": "HSSFFont.java"
+    },
+    {
+      "repo": "https://github.com/apauzies/nebula.widgets.nattable.git",
+      "language": "Java",
+      "linescount": 73,
+      "location": "/org.eclipse.nebula.widgets.nattable.extension.poi/src/org/eclipse/nebula/widgets/nattable/extension/poi",
+      "name": "nebula.widgets.nattable",
+      "url": "https://searchcode.com/codesearch/view/76100200/",
+      "md5hash": "5dc0bfccf555b3239b3954a8211284c2",
+      "lines": {
+        "16": "",
+        "17": "import org.apache.poi.hssf.usermodel.HSSFPalette;",
+        "59": "\t\t\t",
+        "60": "\t\t\tHSSFPalette palette = ((HSSFWorkbook) xlWorkbook).getCustomPalette();"
+      },
+      "id": 76100200,
+      "filename": "HSSFExcelExporter.java"
+    },
+    {
+      "repo": "https://github.com/myGrid/simple-spreadsheet-extractor.git",
+      "language": "Java",
+      "linescount": 132,
+      "location": "/src/main/java/org/sysmodb/xml",
+      "name": "simple-spreadsheet-extractor",
+      "url": "https://searchcode.com/codesearch/view/110498463/",
+      "md5hash": "021709b4e6ed4b04a9c6812d01266085",
+      "lines": {
+        "26": "\tprivate static HSSFWorkbook workbook;",
+        "27": "\tprivate static HSSFPalette palette;",
+        "13": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "14": "import org.apache.poi.hssf.usermodel.HSSFPalette;"
+      },
+      "id": 110498463,
+      "filename": "HSSFXMLStyleHelper.java"
+    },
+    {
+      "repo": "https://github.com/fbacall/simple-spreadsheet-extractor.git",
+      "language": "Java",
+      "linescount": 82,
+      "location": "/src/main/java/org/sysmodb",
+      "name": "simple-spreadsheet-extractor",
+      "url": "https://searchcode.com/codesearch/view/112283811/",
+      "md5hash": "cd0ae220218a70d51bdfd27ee616f9a1",
+      "lines": {
+        "18": "  private static HSSFWorkbook workbook;",
+        "19": "  private static HSSFPalette palette;",
+        "4": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "5": "import org.apache.poi.hssf.usermodel.HSSFPalette;"
+      },
+      "id": 112283811,
+      "filename": "HSSFStyleHelper.java"
+    },
+    {
+      "repo": "https://bitbucket.org/manticoretrader/etltools",
+      "language": "Java",
+      "linescount": 317,
+      "location": "/src/com/manticore/report",
+      "name": "etltools",
+      "url": "https://searchcode.com/codesearch/view/121321564/",
+      "md5hash": "b476b10c4827335f24ae6b4baf18acfc",
+      "lines": {
+        "122": "    if (designer.workbook instanceof HSSFWorkbook) {",
+        "123": "      HSSFPalette customPalette = ((HSSFWorkbook) designer.workbook).getCustomPalette();",
+        "13": "import javax.swing.table.DefaultTableCellRenderer;",
+        "14": "import org.apache.poi.hssf.usermodel.HSSFPalette;"
+      },
+      "id": 121321564,
+      "filename": "CellRenderer.java"
+    },
+    {
+      "repo": "https://github.com/belerweb/saiku.git",
+      "language": "Java",
+      "linescount": 499,
+      "location": "/saiku-core/saiku-service/src/main/java/org/saiku/service/util/export/excel",
+      "name": "saiku",
+      "url": "https://searchcode.com/codesearch/view/70648747/",
+      "md5hash": "62e8acf4429cfff3470c06c3a6501284",
+      "lines": {
+        "64": "    HSSFPalette customColorsPalette;",
+        "63": "",
+        "14": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "15": "import org.apache.poi.hssf.usermodel.HSSFPalette;"
+      },
+      "id": 70648747,
+      "filename": "ExcelWorksheetBuilder.java"
+    },
+    {
+      "repo": "https://bitbucket.org/quadrate/promo.git",
+      "language": "Java",
+      "linescount": 179,
+      "location": "/excelgen/src/main/java/by/q64/promo/excelgen/service/schedule/sheet",
+      "name": "promo",
+      "url": "https://searchcode.com/codesearch/view/92131933/",
+      "md5hash": "29dbf18c1ecb240674f9861b7e9f59e6",
+      "lines": {
+        "10": "import by.q64.promo.excelgen.service.schedule.source.ShopScheduleRowContainer;",
+        "11": "import org.apache.poi.hssf.usermodel.HSSFPalette;",
+        "150": "class WorkbookColorManager {",
+        "151": "    private HSSFPalette palette;"
+      },
+      "id": 92131933,
+      "filename": "CityWeekScheduleSheetGeneratorImpl.java"
+    },
+    {
+      "repo": "https://github.com/YuanZhencai/tms.git",
+      "language": "Java",
+      "linescount": 623,
+      "location": "/src/main/java/com/wcs/tms/view/report/cashpool",
+      "name": "tms",
+      "url": "https://searchcode.com/codesearch/view/99946782/",
+      "md5hash": "4a106cf9c4637574ca9d0f68ddf6e0df",
+      "lines": {
+        "459": "\t\tHSSFCellStyle titleCellStyle = wb.createCellStyle();",
+        "460": "\t\tHSSFPalette palette = wb.getCustomPalette();",
+        "22": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "23": "import org.apache.poi.hssf.usermodel.HSSFPalette;"
+      },
+      "id": 99946782,
+      "filename": "CashPoolSummaryReportBean.java"
+    },
+    {
+      "repo": "https://github.com/YuanZhencai/tms.git",
+      "language": "Java",
+      "linescount": 30,
+      "location": "/src/main/java/com/wcs/tms/view/report/cashpool/util",
+      "name": "tms",
+      "url": "https://searchcode.com/codesearch/view/99946830/",
+      "md5hash": "bc0fcbb594794dfc80ba472e28c7f321",
+      "lines": {
+        "4": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "5": "import org.apache.poi.hssf.usermodel.HSSFPalette;",
+        "14": "\tpublic static HSSFCellStyle setHeadStyle(HSSFWorkbook workbook, HSSFCellStyle style) {",
+        "15": "\t\tHSSFPalette palette = workbook.getCustomPalette();"
+      },
+      "id": 99946830,
+      "filename": "CashPoolExcelStyle.java"
+    },
+    {
+      "repo": "https://bitbucket.org/adufour/icy-workbooks.git",
+      "language": "Java",
+      "linescount": 698,
+      "location": "/src/plugins/adufour/workbooks",
+      "name": "icy-workbooks",
+      "url": "https://searchcode.com/codesearch/view/103223911/",
+      "md5hash": "215eef82694740f002e989e48c51ae19",
+      "lines": {
+        "8": "import org.apache.poi.hssf.usermodel.HSSFPalette;",
+        "375": "            HSSFPalette palette = ((HSSFWorkbook) book).getCustomPalette();",
+        "374": "        {",
+        "7": ""
+      },
+      "id": 103223911,
+      "filename": "IcySpreadSheet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1445,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642316/",
+      "md5hash": "4f7b036daf89776dc4ee4606b7972144",
+      "lines": {
+        "1216": "",
+        "1217": "    public HSSFPalette getCustomPalette()",
+        "1218": "    {",
+        "1219": "        return new HSSFPalette(workbook.getCustomPalette());"
+      },
+      "id": 15642316,
+      "filename": "HSSFWorkbook.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 10,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 7,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

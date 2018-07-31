@@ -1,0 +1,124 @@
+{
+  "matchterm": "XAdESXLSignatureFacet",
+  "previouspage": null,
+  "searchterm": "XAdESXLSignatureFacet",
+  "query": "XAdESXLSignatureFacet",
+  "language_filters": [
+    {
+      "count": 5,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 5,
+  "results": [
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 696,
+      "location": "/eid-applet-service-signer/src/main/java/be/fedict/eid/applet/service/signer/facets",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982647/",
+      "md5hash": "01538988cc9af2a6a100f9a249e334f7",
+      "lines": {
+        "160": "\tpublic XAdESXLSignatureFacet(TimeStampService timeStampService,",
+        "177": "\t */",
+        "114": " */",
+        "115": "public class XAdESXLSignatureFacet implements SignatureFacet {",
+        "117": "\tprivate static final Log LOG = LogFactory",
+        "118": "\t\t\t.getLog(XAdESXLSignatureFacet.class);",
+        "178": "\tpublic XAdESXLSignatureFacet(TimeStampService timeStampService,",
+        "159": "\t */"
+      },
+      "id": 7982647,
+      "filename": "XAdESXLSignatureFacet.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 603,
+      "location": "/eid-applet-service-signer/src/test/java/test/unit/be/fedict/eid/applet/service/signer",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982568/",
+      "md5hash": "d31d09c83ac6cfbe4a1cdf3abb15a285",
+      "lines": {
+        "328": "\t\tXAdESXLSignatureFacet xadesXLSignatureFacet = new XAdESXLSignatureFacet(",
+        "162": "\t\t\t\tenvelopedSignatureFacet, keyInfoSignatureFacet,",
+        "163": "\t\t\t\txadesSignatureFacet, xadesXLSignatureFacet);",
+        "327": "\t\t\t\t.createMock(RevocationDataService.class);",
+        "88": "import be.fedict.eid.applet.service.signer.facets.XAdESSignatureFacet;",
+        "89": "import be.fedict.eid.applet.service.signer.facets.XAdESXLSignatureFacet;",
+        "332": "\t\t\t\txadesSignatureFacet, new Office2010SignatureFacet(),",
+        "333": "\t\t\t\txadesXLSignatureFacet);",
+        "158": "\t\t\t\t.createMock(RevocationDataService.class);",
+        "159": "\t\tXAdESXLSignatureFacet xadesXLSignatureFacet = new XAdESXLSignatureFacet("
+      },
+      "id": 7982568,
+      "filename": "XAdESSignatureFacetTest.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 91,
+      "location": "/eid-applet-service-signer/src/main/java/be/fedict/eid/applet/service/signer/ooxml",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982665/",
+      "md5hash": "d8abb484b0bba3254651bfa6e0fd2b2b",
+      "lines": {
+        "64": "\t\tnsElement.setAttributeNS(Constants.NamespaceSpecNS, \"xmlns:xades\",",
+        "65": "\t\t\t\tXAdESXLSignatureFacet.XADES_NAMESPACE);",
+        "35": "import be.fedict.eid.applet.service.signer.SignatureFacet;",
+        "36": "import be.fedict.eid.applet.service.signer.facets.XAdESXLSignatureFacet;",
+        "85": "\t\t\t\tXAdESXLSignatureFacet.XADES_NAMESPACE, namespacePrefix",
+        "81": "\t\t\t\tXAdESXLSignatureFacet.XADES_NAMESPACE, namespacePrefix",
+        "80": "\t\tElement unsignedPropertiesElement = document.createElementNS(",
+        "84": "\t\tElement unsignedSignaturePropertiesElement = document.createElementNS("
+      },
+      "id": 7982665,
+      "filename": "Office2010SignatureFacet.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 62,
+      "location": "/eid-applet-service-signer/src/main/java/be/fedict/eid/applet/service/signer/facets",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982653/",
+      "md5hash": "c2903b8bffabf6f60c3d64f2f445ba65",
+      "lines": {
+        "56": "\t\tif (XAdESXLSignatureFacet.XADES141_NAMESPACE.equals(namespaceUri)) {",
+        "52": "\t\t}",
+        "53": "\t\tif (XAdESXLSignatureFacet.XADES_NAMESPACE.equals(namespaceUri)) {",
+        "55": "\t\t}"
+      },
+      "id": 7982653,
+      "filename": "XAdESNamespacePrefixMapper.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 163,
+      "location": "/eid-applet-service-signer/src/main/java/be/fedict/eid/applet/service/signer/asic",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982632/",
+      "md5hash": "2ff35cebff4e66ffb973474035d8a441",
+      "lines": {
+        "48": "import be.fedict.eid.applet.service.signer.facets.XAdESSignatureFacet;",
+        "49": "import be.fedict.eid.applet.service.signer.facets.XAdESXLSignatureFacet;",
+        "93": "\t\taddSignatureFacet(xadesSignatureFacet);",
+        "94": "\t\taddSignatureFacet(new XAdESXLSignatureFacet(timeStampService,"
+      },
+      "id": 7982632,
+      "filename": "AbstractASiCSignatureService.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 5,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

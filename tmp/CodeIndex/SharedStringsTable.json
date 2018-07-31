@@ -1,0 +1,168 @@
+{
+  "matchterm": "SharedStringsTable",
+  "previouspage": null,
+  "searchterm": "SharedStringsTable",
+  "query": "SharedStringsTable",
+  "language_filters": [
+    {
+      "count": 6,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 6,
+  "results": [
+    {
+      "repo": "https://github.com/qmetric/qmg-utilities.git",
+      "language": "Java",
+      "linescount": 33,
+      "location": "/poi/src/main/java/com/qmetric/utilities/poi/xssf",
+      "name": "qmg-utilities",
+      "url": "https://searchcode.com/codesearch/view/110658575/",
+      "md5hash": "e2c1dc8ef272383b087b26f302475836",
+      "lines": {
+        "3": "import org.apache.commons.lang3.builder.EqualsBuilder;",
+        "4": "import org.apache.poi.xssf.model.SharedStringsTable;",
+        "8": "",
+        "9": "public class RichTextSharedStringTableLookup implements SharedStringsTableLookup",
+        "10": "{",
+        "11": "    private final SharedStringsTable sharedStringsTable;",
+        "12": "",
+        "13": "    public RichTextSharedStringTableLookup(final SharedStringsTable sharedStringsTable)",
+        "14": "    {",
+        "15": "        this.sharedStringsTable = sharedStringsTable;",
+        "19": "    {",
+        "20": "        return new XSSFRichTextString(sharedStringsTable.getEntryAt(parseInt(entry))).toString();",
+        "29": "    {",
+        "30": "        return sharedStringsTable.hashCode();"
+      },
+      "id": 110658575,
+      "filename": "RichTextSharedStringTableLookup.java"
+    },
+    {
+      "repo": "https://github.com/qmetric/qmg-utilities.git",
+      "language": "Java",
+      "linescount": 66,
+      "location": "/poi/src/main/java/com/qmetric/utilities/poi/xssf",
+      "name": "qmg-utilities",
+      "url": "https://searchcode.com/codesearch/view/110658569/",
+      "md5hash": "2a765e0855ac52a63fa667a22d438072",
+      "lines": {
+        "6": "import org.apache.poi.xssf.model.SharedStringsTable;",
+        "5": "import org.apache.poi.xssf.eventusermodel.XSSFReader;",
+        "38": "            processSheets(sheetsData, sheetProcessor, xssfReader.getSharedStringsTable());",
+        "49": "",
+        "50": "    private void processSheets(final XSSFReader.SheetIterator sheetsData, final SheetProcessor sheetProcessor, final SharedStringsTable sharedStringsTable)",
+        "53": "        {",
+        "54": "            processNext(sheetsData.next(), sheetsData.getSheetName(), sheetProcessor, sharedStringsTable);",
+        "57": "",
+        "58": "    private void processNext(final InputStream next, final String sheetName, final SheetProcessor sheetProcessor, final SharedStringsTable sharedStringsTable)",
+        "60": "        final WorksheetParser worksheetParser =",
+        "61": "                xssfWorksheetParserFactory.createParserFor(new RichTextSharedStringTableLookup(sharedStringsTable), sheetProcessor.getNewRowProcessor(sheetName));",
+        "37": "            XSSFReader.SheetIterator sheetsData = (XSSFReader.SheetIterator) xssfReader.getSheetsData();"
+      },
+      "id": 110658569,
+      "filename": "XSSFWorkBookProcessor.java"
+    },
+    {
+      "repo": "https://github.com/qmetric/qmg-utilities.git",
+      "language": "Java",
+      "linescount": 48,
+      "location": "/poi/src/test/java/com/qmetric/utilities/poi/xssf",
+      "name": "qmg-utilities",
+      "url": "https://searchcode.com/codesearch/view/110658542/",
+      "md5hash": "72f251dcfbae0be07433ea618f25b738",
+      "lines": {
+        "35": "    @Test",
+        "2": "",
+        "3": "import org.apache.poi.xssf.model.SharedStringsTable;",
+        "36": "    public void shouldGetValueFromSharedStringsTable()",
+        "43": "",
+        "44": "        verify(sharedStringsTable).getEntryAt(1);",
+        "15": "",
+        "16": "public class RichTextSharedStringsTableLookupTest",
+        "17": "{",
+        "18": "    private SharedStringsTable sharedStringsTable;",
+        "19": "",
+        "20": "    private SharedStringsTableLookup tableLookup;",
+        "26": "    {",
+        "27": "        sharedStringsTable = mock(SharedStringsTable.class);",
+        "28": ""
+      },
+      "id": 110658542,
+      "filename": "RichTextSharedStringsTableLookupTest.java"
+    },
+    {
+      "repo": "https://github.com/qmetric/qmg-utilities.git",
+      "language": "Java",
+      "linescount": 85,
+      "location": "/poi/src/test/java/com/qmetric/utilities/poi/xssf",
+      "name": "qmg-utilities",
+      "url": "https://searchcode.com/codesearch/view/110658551/",
+      "md5hash": "f8038c52cbb1ace5de7b05a9aa05e7bd",
+      "lines": {
+        "72": "        final WorksheetParser worksheetParser = mock(WorksheetParser.class);",
+        "5": "import org.apache.poi.xssf.eventusermodel.XSSFReader;",
+        "6": "import org.apache.poi.xssf.model.SharedStringsTable;",
+        "55": "",
+        "56": "        final SharedStringsTable sharedStringsTable = mock(SharedStringsTable.class);",
+        "73": "        when(xssfWorksheetParserFactory.createParserFor(any(SharedStringsTableLookup.class), eq(rowProcessor))).thenReturn(worksheetParser);",
+        "59": "        when(xssfReader.getSheetsData()).thenReturn(sheetIterator);",
+        "60": "        when(xssfReader.getSharedStringsTable()).thenReturn(sharedStringsTable);"
+      },
+      "id": 110658551,
+      "filename": "XSSFWorkBookProcessorTest.java"
+    },
+    {
+      "repo": "https://github.com/xiezhaohui/DataViewer.git",
+      "language": "Java",
+      "linescount": 146,
+      "location": "/ETL/src/com/util",
+      "name": "DataViewer",
+      "url": "https://searchcode.com/codesearch/view/68613397/",
+      "md5hash": "8bcf7185681037ed76939e88fb0242bf",
+      "lines": {
+        "78": "\tpublic XMLReader fetchSheetParser(SharedStringsTable sst)",
+        "23": "public abstract class XxlsAbstract extends DefaultHandler {",
+        "24": "\tprivate SharedStringsTable sst;",
+        "9": "import org.apache.poi.xssf.eventusermodel.XSSFReader;",
+        "10": "import org.apache.poi.xssf.model.SharedStringsTable;",
+        "43": "\t\tXSSFReader r = new XSSFReader(pkg);",
+        "44": "\t\tSharedStringsTable sst = r.getSharedStringsTable();",
+        "77": "",
+        "62": "\t\tXSSFReader r = new XSSFReader(pkg);",
+        "63": "\t\tSharedStringsTable sst = r.getSharedStringsTable();"
+      },
+      "id": 68613397,
+      "filename": "XxlsAbstract.java"
+    },
+    {
+      "repo": "https://github.com/teruok78/pentaho-kettle.git",
+      "language": "Java",
+      "linescount": 176,
+      "location": "/engine/src/org/pentaho/di/trans/steps/excelinput/staxpoi",
+      "name": "pentaho-kettle",
+      "url": "https://searchcode.com/codesearch/view/95326031/",
+      "md5hash": "cbfe0ad18a37e13a4234d2b5bc06851f",
+      "lines": {
+        "17": "import org.apache.poi.xssf.eventusermodel.XSSFReader;",
+        "18": "import org.apache.poi.xssf.model.SharedStringsTable;",
+        "35": "  // variable to hold the shared strings table",
+        "36": "  private SharedStringsTable sst;",
+        "40": "    try {",
+        "41": "      sst = reader.getSharedStringsTable();"
+      },
+      "id": 95326031,
+      "filename": "StaxPoiSheet.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 6,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

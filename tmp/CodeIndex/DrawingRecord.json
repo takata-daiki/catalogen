@@ -1,0 +1,160 @@
+{
+  "matchterm": "DrawingRecord",
+  "previouspage": null,
+  "searchterm": "DrawingRecord",
+  "query": "DrawingRecord",
+  "language_filters": [
+    {
+      "count": 6,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 6,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 127,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642450/",
+      "md5hash": "bdd64cfc165bce1881c95544240a1ea6",
+      "lines": {
+        "49": "",
+        "50": "    public DrawingRecord()",
+        "53": "",
+        "54": "    public DrawingRecord( RecordInputStream in )",
+        "43": "",
+        "44": "public class DrawingRecord extends Record"
+      },
+      "id": 15642450,
+      "filename": "DrawingRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 766,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642409/",
+      "md5hash": "9e212df4a5b523744fd315d99c376d1b",
+      "lines": {
+        "515": "        int rawEscherSize = getEscherRecordSize( records );",
+        "516": "        int drawingRecordSize = rawEscherSize + ( shapeToObj.size() ) * 4;",
+        "357": "        EscherAggregate agg = new EscherAggregate(drawingManager);",
+        "358": "        int loc = locFirstDrawingRecord;",
+        "529": "        return drawingRecordSize + objRecordSize + tailRecordSize;",
+        "360": "        while ( loc + 1 < records.size()",
+        "393": "        // Associate the object records with the shapes",
+        "394": "        loc = locFirstDrawingRecord;",
+        "397": "        while ( loc + 1 < records.size()",
+        "398": "                && sid( records, loc ) == DrawingRecord.sid",
+        "528": "        }",
+        "337": "     */",
+        "338": "    public static EscherAggregate createAggregate( List records, int locFirstDrawingRecord, DrawingManager2 drawingManager )",
+        "467": "            // Create and write a new MSODRAWING record",
+        "468": "            DrawingRecord drawing = new DrawingRecord();",
+        "361": "                && sid( records, loc ) == DrawingRecord.sid"
+      },
+      "id": 15642409,
+      "filename": "EscherAggregate.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 334,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383916/",
+      "md5hash": "1226a395288f284d971d69ddbcff3283",
+      "lines": {
+        "60": "     * ...",
+        "52": "     * ...",
+        "53": "     * DrawingRecord",
+        "61": "     * DrawingRecord"
+      },
+      "id": 97383916,
+      "filename": "EscherContainerRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 260,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventusermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642337/",
+      "md5hash": "880394f1b0f8ed8b4183af136268bc56",
+      "lines": {
+        "224": "\t\t\t\t\t\trec = lastDrawingRecord;",
+        "161": "\t\t\tRecord lastRec   = null;",
+        "162": "\t\t\tDrawingRecord lastDrawingRecord = new DrawingRecord();",
+        "241": "\t\t\t\tlastRec = rec;",
+        "242": "\t\t\t\tif(rec instanceof DrawingRecord) {",
+        "243": "\t\t\t\t\tlastDrawingRecord = (DrawingRecord)rec;",
+        "244": "\t\t\t\t}",
+        "219": "\t\t\t\t\tif((lastRec instanceof ObjRecord) || (lastRec instanceof TextObjectRecord)) {",
+        "220": "\t\t\t\t\t\t// You can have Obj records between a DrawingRecord",
+        "221": "\t\t\t\t\t\t//  and its continue!",
+        "222": "\t\t\t\t\t\tlastDrawingRecord.processContinueRecord( crec.getData() );",
+        "223": "\t\t\t\t\t\t// Trigger them on the drawing record, now it's complete"
+      },
+      "id": 15642337,
+      "filename": "HSSFEventFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "176": "                            lastRecord = record;",
+        "177": "                                if (record instanceof DrawingRecord)",
+        "130": "        RecordInputStream recStream = new RecordInputStream(in);",
+        "131": "            DrawingRecord lastDrawingRecord = new DrawingRecord( );",
+        "178": "                                    lastDrawingRecord = (DrawingRecord) record;",
+        "163": "                          lastDrawingRecord.processContinueRecord( ((ContinueRecord)record).getData() );",
+        "162": "                          //There can actually be OBJ records mixed between the continues.",
+        "179": "                                records.add(record);",
+        "93": "                TopMarginRecord.class, BottomMarginRecord.class,",
+        "94": "                DrawingRecord.class, DrawingGroupRecord.class, DrawingSelectionRecord.class,"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 3300,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642365/",
+      "md5hash": "1e8d548d196dc1063c30d9430b35b9f5",
+      "lines": {
+        "2704": "            while ( loc + 1 < records.size()",
+        "2705": "                    && records.get( loc ) instanceof DrawingRecord",
+        "2679": "",
+        "2680": "    public int aggregateDrawingRecords(DrawingManager2 drawingManager)",
+        "2681": "    {",
+        "2682": "        int loc = findFirstRecordLocBySid(DrawingRecord.sid);",
+        "2683": "        boolean noDrawingRecordsFound = loc == -1;",
+        "2684": "        if (noDrawingRecordsFound)",
+        "2685": "        {"
+      },
+      "id": 15642365,
+      "filename": "Sheet.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 6,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

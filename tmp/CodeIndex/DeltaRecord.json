@@ -1,0 +1,423 @@
+{
+  "matchterm": "DeltaRecord",
+  "previouspage": null,
+  "searchterm": "DeltaRecord",
+  "query": "DeltaRecord",
+  "language_filters": [
+    {
+      "count": 19,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 19,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642434/",
+      "md5hash": "e5db5baa233dac0bea1225af537cf11c",
+      "lines": {
+        "64": "",
+        "65": "    public DeltaRecord()",
+        "54": "",
+        "55": "public class DeltaRecord",
+        "73": "",
+        "74": "    public DeltaRecord(RecordInputStream in)",
+        "141": "    public Object clone() {",
+        "142": "      DeltaRecord rec = new DeltaRecord();"
+      },
+      "id": 15642434,
+      "filename": "DeltaRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 80,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260354/",
+      "md5hash": "f7532cf3d359144fdaeb81bfa41f9186",
+      "lines": {
+        "46": "  public DeltaRecord(double itval)",
+        "29": " */",
+        "30": "class DeltaRecord extends WritableRecordData",
+        "45": "   */"
+      },
+      "id": 43260354,
+      "filename": "DeltaRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 80,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200882/",
+      "md5hash": "f7532cf3d359144fdaeb81bfa41f9186",
+      "lines": {
+        "46": "  public DeltaRecord(double itval)",
+        "29": " */",
+        "30": "class DeltaRecord extends WritableRecordData",
+        "45": "   */"
+      },
+      "id": 49200882,
+      "filename": "DeltaRecord.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 80,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/write/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374573/",
+      "md5hash": "c0c4683034e7aaf52c3eba8cc35aa866",
+      "lines": {
+        "46": "  public DeltaRecord(double itval)",
+        "29": " */",
+        "30": "class DeltaRecord extends WritableRecordData",
+        "45": "   */"
+      },
+      "id": 11374573,
+      "filename": "DeltaRecord.java"
+    },
+    {
+      "repo": "https://github.com/jfgalhao/wave.git",
+      "language": "Java",
+      "linescount": 511,
+      "location": "/box/src/main/java/org/waveprotocol/box/server/waveserver",
+      "name": "wave",
+      "url": "https://searchcode.com/codesearch/view/69846439/",
+      "md5hash": "bbefd1fa611e090ae28b0c9d00b09ed4",
+      "lines": {
+        "132": "   */",
+        "133": "  private static ImmutableList<WaveletDeltaRecord> readAll(WaveletDeltaRecordReader reader,",
+        "134": "      ConcurrentNavigableMap<HashedVersion, WaveletDeltaRecord> cachedDeltas)",
+        "135": "      throws IOException {",
+        "137": "    HashedVersion endVersion = reader.getEndVersion();",
+        "138": "    ListReceiver<WaveletDeltaRecord> receiver = new ListReceiver<WaveletDeltaRecord>();",
+        "167": "      ConcurrentNavigableMap<HashedVersion, WaveletDeltaRecord> cachedDeltas,",
+        "142": "",
+        "143": "  private static void readDeltasInRange(WaveletDeltaRecordReader reader,",
+        "144": "      ConcurrentNavigableMap<HashedVersion, WaveletDeltaRecord> cachedDeltas,",
+        "145": "      HashedVersion startVersion, HashedVersion endVersion, Receiver<WaveletDeltaRecord> receiver)",
+        "146": "      throws IOException {",
+        "147": "    WaveletDeltaRecord delta = getDelta(reader, cachedDeltas, startVersion);",
+        "166": "  private static WaveletDeltaRecord getDelta(WaveletDeltaRecordReader reader,",
+        "165": ""
+      },
+      "id": 69846439,
+      "filename": "DeltaStoreBasedWaveletState.java"
+    },
+    {
+      "repo": "https://bitbucket.org/codeandart/plaintext-wave.git",
+      "language": "Java",
+      "linescount": 525,
+      "location": "/src/org/waveprotocol/box/server/waveserver",
+      "name": "plaintext-wave",
+      "url": "https://searchcode.com/codesearch/view/43194365/",
+      "md5hash": "ea1c3cd08dbaa65f043957984d696da9",
+      "lines": {
+        "192": "        ImmutableList.Builder<WaveletDeltaRecord> deltas = ImmutableList.builder();",
+        "288": "    } else {",
+        "194": "        do {",
+        "195": "          WaveletDeltaRecord d =",
+        "196": "              new WaveletDeltaRecord(v, appliedDeltas.get(v), transformedDeltas.get(v));",
+        "134": "   */",
+        "135": "  private static ImmutableList<WaveletDeltaRecord> readAll(WaveletDeltaRecordReader reader)",
+        "289": "      WaveletDeltaRecord delta;",
+        "141": "",
+        "142": "  private static ImmutableList<WaveletDeltaRecord> readDeltasInRange(",
+        "143": "      final WaveletDeltaRecordReader reader, final long startVersion, final long endVersion) throws IOException {",
+        "144": "    Preconditions.checkArgument(!reader.isEmpty());",
+        "145": "    ImmutableList.Builder<WaveletDeltaRecord> result = ImmutableList.builder();",
+        "147": "    while (i < endVersion) {",
+        "148": "      WaveletDeltaRecord delta;",
+        "191": "      } else {"
+      },
+      "id": 43194365,
+      "filename": "DeltaStoreBasedWaveletState.java"
+    },
+    {
+      "repo": "https://bitbucket.org/codeandart/plaintext-wave.git",
+      "language": "Java",
+      "linescount": 176,
+      "location": "/src/org/waveprotocol/box/server/waveserver",
+      "name": "plaintext-wave",
+      "url": "https://searchcode.com/codesearch/view/43194322/",
+      "md5hash": "78de97532ac4c620834de88d1beae57c",
+      "lines": {
+        "64": "      transformedDeltas.add(deltaRecord.getTransformedDelta());",
+        "65": "    }",
+        "70": "  private static ImmutableList<ByteString> serializedAppliedDeltasOf(",
+        "71": "      Iterable<WaveletDeltaRecord> deltaRecords) {",
+        "72": "    ImmutableList.Builder<ByteString> serializedAppliedDeltas = ImmutableList.builder();",
+        "73": "    for (WaveletDeltaRecord deltaRecord : deltaRecords) {",
+        "74": "      serializedAppliedDeltas.add(deltaRecord.getAppliedDelta().getByteString());",
+        "75": "    }",
+        "119": "  @Override",
+        "120": "  public void waveletUpdate(ReadableWaveletData wavelet, ImmutableList<WaveletDeltaRecord> deltas,",
+        "60": "  private static ImmutableList<TransformedWaveletDelta> transformedDeltasOf(",
+        "61": "      Iterable<WaveletDeltaRecord> deltaRecords) {",
+        "62": "    ImmutableList.Builder<TransformedWaveletDelta> transformedDeltas = ImmutableList.builder();",
+        "63": "    for (WaveletDeltaRecord deltaRecord : deltaRecords) {"
+      },
+      "id": 43194322,
+      "filename": "WaveletNotificationDispatcher.java"
+    },
+    {
+      "repo": "https://bitbucket.org/involvements/google-wave",
+      "language": "Java",
+      "linescount": 181,
+      "location": "/src/org/waveprotocol/box/server/waveserver",
+      "name": "google-wave",
+      "url": "https://searchcode.com/codesearch/view/61568784/",
+      "md5hash": "4f3e89c2d001c1490e0287c29a5e1ecc",
+      "lines": {
+        "64": "      transformedDeltas.add(deltaRecord.getTransformedDelta());",
+        "65": "    }",
+        "70": "  private static ImmutableList<ByteString> serializedAppliedDeltasOf(",
+        "71": "      Iterable<WaveletDeltaRecord> deltaRecords) {",
+        "72": "    ImmutableList.Builder<ByteString> serializedAppliedDeltas = ImmutableList.builder();",
+        "73": "    for (WaveletDeltaRecord deltaRecord : deltaRecords) {",
+        "74": "      serializedAppliedDeltas.add(deltaRecord.getAppliedDelta().getByteString());",
+        "75": "    }",
+        "119": "  @Override",
+        "120": "  public void waveletUpdate(ReadableWaveletData wavelet, ImmutableList<WaveletDeltaRecord> deltas,",
+        "60": "  private static ImmutableList<TransformedWaveletDelta> transformedDeltasOf(",
+        "61": "      Iterable<WaveletDeltaRecord> deltaRecords) {",
+        "62": "    ImmutableList.Builder<TransformedWaveletDelta> transformedDeltas = ImmutableList.builder();",
+        "63": "    for (WaveletDeltaRecord deltaRecord : deltaRecords) {"
+      },
+      "id": 61568784,
+      "filename": "WaveletNotificationDispatcher.java"
+    },
+    {
+      "repo": "https://github.com/jfgalhao/wave.git",
+      "language": "Java",
+      "linescount": 178,
+      "location": "/box/src/main/java/org/waveprotocol/box/server/waveserver",
+      "name": "wave",
+      "url": "https://searchcode.com/codesearch/view/69846052/",
+      "md5hash": "8969688350b38add9d46e9e108a80545",
+      "lines": {
+        "64": "    ImmutableList.Builder<TransformedWaveletDelta> transformedDeltas = ImmutableList.builder();",
+        "65": "    for (WaveletDeltaRecord deltaRecord : deltaRecords) {",
+        "66": "      transformedDeltas.add(deltaRecord.getTransformedDelta());",
+        "67": "    }",
+        "72": "  private static ImmutableList<ByteString> serializedAppliedDeltasOf(",
+        "73": "      Iterable<WaveletDeltaRecord> deltaRecords) {",
+        "74": "    ImmutableList.Builder<ByteString> serializedAppliedDeltas = ImmutableList.builder();",
+        "75": "    for (WaveletDeltaRecord deltaRecord : deltaRecords) {",
+        "76": "      serializedAppliedDeltas.add(deltaRecord.getAppliedDelta().getByteString());",
+        "77": "    }",
+        "121": "  @Override",
+        "122": "  public void waveletUpdate(ReadableWaveletData wavelet, ImmutableList<WaveletDeltaRecord> deltas,",
+        "62": "  private static ImmutableList<TransformedWaveletDelta> transformedDeltasOf(",
+        "63": "      Iterable<WaveletDeltaRecord> deltaRecords) {"
+      },
+      "id": 69846052,
+      "filename": "WaveletNotificationDispatcher.java"
+    },
+    {
+      "repo": "https://code.google.com/p/wave-protocol/",
+      "language": "Java",
+      "linescount": 181,
+      "location": "/src/org/waveprotocol/box/server/waveserver",
+      "name": "wave-protocol",
+      "url": "https://searchcode.com/codesearch/view/7114218/",
+      "md5hash": "4f3e89c2d001c1490e0287c29a5e1ecc",
+      "lines": {
+        "64": "      transformedDeltas.add(deltaRecord.getTransformedDelta());",
+        "65": "    }",
+        "70": "  private static ImmutableList<ByteString> serializedAppliedDeltasOf(",
+        "71": "      Iterable<WaveletDeltaRecord> deltaRecords) {",
+        "72": "    ImmutableList.Builder<ByteString> serializedAppliedDeltas = ImmutableList.builder();",
+        "73": "    for (WaveletDeltaRecord deltaRecord : deltaRecords) {",
+        "74": "      serializedAppliedDeltas.add(deltaRecord.getAppliedDelta().getByteString());",
+        "75": "    }",
+        "119": "  @Override",
+        "120": "  public void waveletUpdate(ReadableWaveletData wavelet, ImmutableList<WaveletDeltaRecord> deltas,",
+        "60": "  private static ImmutableList<TransformedWaveletDelta> transformedDeltasOf(",
+        "61": "      Iterable<WaveletDeltaRecord> deltaRecords) {",
+        "62": "    ImmutableList.Builder<TransformedWaveletDelta> transformedDeltas = ImmutableList.builder();",
+        "63": "    for (WaveletDeltaRecord deltaRecord : deltaRecords) {"
+      },
+      "id": 7114218,
+      "filename": "WaveletNotificationDispatcher.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 3300,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642365/",
+      "md5hash": "1e8d548d196dc1063c30d9430b35b9f5",
+      "lines": {
+        "1504": "     * @return record containing a DeltaRecord",
+        "1508": "    {",
+        "1509": "        DeltaRecord retval = new DeltaRecord();",
+        "1501": "     * creates the Delta record and sets it to 0.0010 (default accuracy)",
+        "1502": "     * @see loci.poi.hssf.record.DeltaRecord",
+        "1503": "     * @see loci.poi.hssf.record.Record"
+      },
+      "id": 15642365,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "https://github.com/jfgalhao/wave.git",
+      "language": "Java",
+      "linescount": 559,
+      "location": "/box/src/main/java/org/waveprotocol/box/server/waveserver",
+      "name": "wave",
+      "url": "https://searchcode.com/codesearch/view/69846719/",
+      "md5hash": "cb01914b2ccaf826a8b2b572881793a7",
+      "lines": {
+        "432": "   * Builds a {@link WaveletDeltaRecord} and applies it to the wavelet container.",
+        "175": "",
+        "176": "  protected void notifyOfDeltas(ImmutableList<WaveletDeltaRecord> deltas,",
+        "434": "   */",
+        "435": "  protected WaveletDeltaRecord applyDelta(",
+        "431": "  /**",
+        "440": "",
+        "441": "    WaveletDeltaRecord deltaRecord = new WaveletDeltaRecord(transformed.getTargetVersion(),",
+        "442": "        appliedDelta, transformedDelta);",
+        "443": "    waveletState.appendDelta(deltaRecord);",
+        "444": "",
+        "445": "    return deltaRecord;"
+      },
+      "id": 69846719,
+      "filename": "WaveletContainerImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 1148,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260286/",
+      "md5hash": "ffa1236c86df17622a6a9299c36353c8",
+      "lines": {
+        "256": "",
+        "257": "    DeltaRecord dtr = new DeltaRecord(0.001);"
+      },
+      "id": 43260286,
+      "filename": "SheetWriter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 1148,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200814/",
+      "md5hash": "ffa1236c86df17622a6a9299c36353c8",
+      "lines": {
+        "256": "",
+        "257": "    DeltaRecord dtr = new DeltaRecord(0.001);"
+      },
+      "id": 49200814,
+      "filename": "SheetWriter.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1148,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/write/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374608/",
+      "md5hash": "d2bb3c01a6178871cd169bd35ec691ea",
+      "lines": {
+        "256": "",
+        "257": "    DeltaRecord dtr = new DeltaRecord(0.001);"
+      },
+      "id": 11374608,
+      "filename": "SheetWriter.java"
+    },
+    {
+      "repo": "http://brainstream.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1148,
+      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/write/biff",
+      "name": "brainstream",
+      "url": "https://searchcode.com/codesearch/view/13919791/",
+      "md5hash": "5094787ddf1c15c3bd7058fdd6237342",
+      "lines": {
+        "256": "",
+        "257": "    DeltaRecord dtr = new DeltaRecord(0.001);"
+      },
+      "id": 13919791,
+      "filename": "SheetWriter.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642343/",
+      "md5hash": "468caa59753e7c2d27a76f3903f70894",
+      "lines": {
+        "170": "                CalcCountRecord.class, RefModeRecord.class, IterationRecord.class,",
+        "171": "                DeltaRecord.class, SaveRecalcRecord.class, PrintHeadersRecord.class,",
+        "68": "import loci.poi.hssf.record.DefaultRowHeightRecord;",
+        "69": "import loci.poi.hssf.record.DeltaRecord;"
+      },
+      "id": 15642343,
+      "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "https://github.com/jfgalhao/wave.git",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/box/src/main/java/org/waveprotocol/box/server/waveserver",
+      "name": "wave",
+      "url": "https://searchcode.com/codesearch/view/69846104/",
+      "md5hash": "32466fb098456abdbefbdfe747c66bba",
+      "lines": {
+        "120": "  void appendDelta(WaveletDeltaRecord deltaRecord)",
+        "119": "   */"
+      },
+      "id": 69846104,
+      "filename": "WaveletState.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "80": "                CalcCountRecord.class, RefModeRecord.class, IterationRecord.class,",
+        "81": "                DeltaRecord.class, SaveRecalcRecord.class, PrintHeadersRecord.class,"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 8,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 7,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 4,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

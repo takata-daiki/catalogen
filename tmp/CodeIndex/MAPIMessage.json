@@ -1,0 +1,91 @@
+{
+  "matchterm": "MAPIMessage",
+  "previouspage": null,
+  "searchterm": "MAPIMessage",
+  "query": "MAPIMessage",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://github.com/SilverTeamWork/Silverpeas-Core.git",
+      "language": "Java",
+      "linescount": 207,
+      "location": "/lib-core/src/main/java/org/silverpeas/util/mail",
+      "name": "Silverpeas-Core",
+      "url": "https://searchcode.com/codesearch/view/93257122/",
+      "md5hash": "27ed54983be584e0f365e128890a8816",
+      "lines": {
+        "48": "import org.apache.commons.lang3.StringUtils;",
+        "49": "import org.apache.poi.hsmf.MAPIMessage;",
+        "64": "      message = new MAPIMessage(file.getPath());",
+        "76": "    try {",
+        "59": "",
+        "60": "  private MAPIMessage message;",
+        "77": "      message = new MAPIMessage(file);",
+        "63": "    try {"
+      },
+      "id": 93257122,
+      "filename": "MSGExtractor.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 159,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785566/",
+      "md5hash": "1bd627ff1780999303003935848497a1",
+      "lines": {
+        "146": "        } catch(ChunkNotFoundException e) {",
+        "147": "           throw new TikaException(\"POI MAPIMessage broken - didn't return null on missing chunk\", e);",
+        "21": "",
+        "22": "import org.apache.poi.hsmf.MAPIMessage;",
+        "39": "public class OutlookExtractor {",
+        "40": "    private final MAPIMessage msg;",
+        "44": "        try {",
+        "45": "            this.msg = new MAPIMessage(filesystem);"
+      },
+      "id": 111785566,
+      "filename": "OutlookExtractor.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ignasi35/msg-reader",
+      "language": "Java",
+      "linescount": 192,
+      "location": "/src/main/java/com/marimon",
+      "name": "msg-reader",
+      "url": "https://searchcode.com/codesearch/view/118119498/",
+      "md5hash": "60eb9b0468e7f4ac0d8c051c88c1f214",
+      "lines": {
+        "53": "        }",
+        "54": "        msg = new MAPIMessage(fileName);",
+        "25": "",
+        "26": "import org.apache.poi.hsmf.MAPIMessage;",
+        "46": "     */",
+        "47": "    private final MAPIMessage msg;"
+      },
+      "id": 118119498,
+      "filename": "Msg2Txt.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

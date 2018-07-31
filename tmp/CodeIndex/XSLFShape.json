@@ -1,0 +1,168 @@
+{
+  "matchterm": "XSLFShape",
+  "previouspage": null,
+  "searchterm": "XSLFShape",
+  "query": "XSLFShape",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 185,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406645/",
+      "md5hash": "1c5345cc7aca7999226d9e92b262c325",
+      "lines": {
+        "176": "    @Internal",
+        "177": "    void copy(XSLFShape sh) {",
+        "36": "@Beta",
+        "37": "public abstract class XSLFShape {"
+      },
+      "id": 97406645,
+      "filename": "XSLFShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 555,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406768/",
+      "md5hash": "06c77456c926d8545168347abe70a1d6",
+      "lines": {
+        "160": "    public XSLFTextBox createTextBox(){",
+        "161": "        List<XSLFShape> shapes = getShapeList();",
+        "167": "    public XSLFConnectorShape createConnector(){",
+        "136": "",
+        "137": "    private List<XSLFShape> getShapeList(){",
+        "174": "    public XSLFGroupShape createGroup(){",
+        "61": "    private List<XSLFShape> _shapes;",
+        "168": "        List<XSLFShape> shapes = getShapeList();",
+        "146": "    public XSLFAutoShape createAutoShape(){",
+        "147": "        List<XSLFShape> shapes = getShapeList();",
+        "153": "    public XSLFFreeformShape createFreeform(){",
+        "57": "@Beta",
+        "154": "        List<XSLFShape> shapes = getShapeList();",
+        "175": "        List<XSLFShape> shapes = getShapeList();",
+        "60": "    private XSLFDrawing _drawing;",
+        "58": "public abstract class XSLFSheet extends POIXMLDocumentPart implements XSLFShapeContainer {"
+      },
+      "id": 97406768,
+      "filename": "XSLFSheet.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 351,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406700/",
+      "md5hash": "7ac71aab113fccf906b12580ebb695aa",
+      "lines": {
+        "161": "     */",
+        "162": "    public boolean removeShape(XSLFShape xShape) {",
+        "310": "        for (XSLFShape shape : getShapes()) {",
+        "327": "    @Override",
+        "328": "    void copy(XSLFShape src){",
+        "145": "     */",
+        "146": "    public XSLFShape[] getShapes(){",
+        "147": "        return _shapes.toArray(new XSLFShape[_shapes.size()]);",
+        "148": "    }",
+        "53": "@Beta",
+        "54": "public class XSLFGroupShape extends XSLFShape implements XSLFShapeContainer {",
+        "56": "    private final XSLFSheet _sheet;",
+        "57": "    private final List<XSLFShape> _shapes;",
+        "154": "     */",
+        "155": "    public Iterator<XSLFShape> iterator(){",
+        "309": ""
+      },
+      "id": 97406700,
+      "filename": "XSLFGroupShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 972,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406763/",
+      "md5hash": "90e9bcad3d44264dac9d11db9a001e3f",
+      "lines": {
+        "112": "    public XSLFShapeType getShapeType(){",
+        "114": "        STShapeType.Enum geom = shape.getSpPr().getPrstGeom().getPrst();",
+        "115": "        return XSLFShapeType.forInt(geom.intValue());",
+        "105": "     */",
+        "73": "@Beta",
+        "74": "public abstract class XSLFSimpleShape extends XSLFShape {",
+        "667": "    @Override",
+        "668": "    void copy(XSLFShape sh){",
+        "106": "    public void setShapeType(XSLFShapeType type){",
+        "111": ""
+      },
+      "id": 97406763,
+      "filename": "XSLFSimpleShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 162,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406705/",
+      "md5hash": "3cf6ae3d47d4aecb9c8db82efffb3346",
+      "lines": {
+        "142": "    @Override",
+        "143": "    void copy(XSLFShape sh){"
+      },
+      "id": 97406705,
+      "filename": "XSLFPictureShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 617,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406813/",
+      "md5hash": "bf44107253290c5472d69b4baedf81f5",
+      "lines": {
+        "576": "    void copy(XSLFShape sh){",
+        "575": "    @Override"
+      },
+      "id": 97406813,
+      "filename": "XSLFTextShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 157,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406844/",
+      "md5hash": "d6862b026b2e957879510dcae096e8dd",
+      "lines": {
+        "37": "@Beta",
+        "38": "public class XSLFGraphicFrame extends XSLFShape {"
+      },
+      "id": 97406844,
+      "filename": "XSLFGraphicFrame.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

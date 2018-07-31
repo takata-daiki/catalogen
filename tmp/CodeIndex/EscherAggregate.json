@@ -1,0 +1,221 @@
+{
+  "matchterm": "EscherAggregate",
+  "previouspage": null,
+  "searchterm": "EscherAggregate",
+  "query": "EscherAggregate",
+  "language_filters": [
+    {
+      "count": 11,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 11,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 766,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642409/",
+      "md5hash": "9e212df4a5b523744fd315d99c376d1b",
+      "lines": {
+        "337": "     */",
+        "338": "    public static EscherAggregate createAggregate( List records, int locFirstDrawingRecord, DrawingManager2 drawingManager )",
+        "291": "",
+        "292": "    public EscherAggregate( DrawingManager2 drawingManager )",
+        "69": " */",
+        "70": "public class EscherAggregate extends AbstractEscherHolderRecord",
+        "356": "        // Calculate the size of the buffer",
+        "559": "        return \"ESCHERAGGREGATE\";",
+        "558": "    {",
+        "357": "        EscherAggregate agg = new EscherAggregate(drawingManager);"
+      },
+      "id": 15642409,
+      "filename": "EscherAggregate.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 3300,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642365/",
+      "md5hash": "1e8d548d196dc1063c30d9430b35b9f5",
+      "lines": {
+        "2688": "            if (loc == -1)",
+        "2701": "            List records = getRecords();",
+        "2702": "            EscherAggregate r = EscherAggregate.createAggregate( records, loc, drawingManager );",
+        "2728": "            Record r = (Record) iterator.next();",
+        "2729": "            if (r instanceof EscherAggregate)",
+        "778": "//                    && record instanceof ValueRecordsAggregate == false",
+        "779": "//                    && record instanceof EscherAggregate == false)",
+        "2685": "        {",
+        "2686": "            EscherAggregate aggregate = new EscherAggregate( drawingManager );",
+        "2687": "            loc = findFirstRecordLocBySid(EscherAggregate.sid);"
+      },
+      "id": 15642365,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1607,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642322/",
+      "md5hash": "5084cc24e46752bd3911d5d0a983e0a6",
+      "lines": {
+        "1364": "",
+        "1365": "        EscherAggregate r = (EscherAggregate) getSheet().findFirstRecordBySid(EscherAggregate.sid);",
+        "1390": "        sheet.aggregateDrawingRecords(book.getDrawingManager());",
+        "1391": "        EscherAggregate agg = (EscherAggregate) sheet.findFirstRecordBySid(EscherAggregate.sid);"
+      },
+      "id": 15642322,
+      "filename": "HSSFSheet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 151,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642355/",
+      "md5hash": "de60a19c840cc93a41315152fddc45e8",
+      "lines": {
+        "44": "import loci.poi.hssf.record.ObjRecord;",
+        "111": "            shapeType = EscherAggregate.ST_RECTANGLE;",
+        "108": "        if (objType == HSSFSimpleShape.OBJECT_TYPE_OVAL)",
+        "45": "import loci.poi.hssf.record.EscherAggregate;",
+        "110": "        else if (objType == HSSFSimpleShape.OBJECT_TYPE_RECTANGLE)",
+        "109": "            shapeType = EscherAggregate.ST_ELLIPSE;"
+      },
+      "id": 15642355,
+      "filename": "SimpleFilledShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 334,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383916/",
+      "md5hash": "1226a395288f284d971d69ddbcff3283",
+      "lines": {
+        "65": "     * EOF",
+        "66": "     * So, when we call EscherAggregate.createAggregate() we have not all needed data."
+      },
+      "id": 97383916,
+      "filename": "EscherContainerRecord.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 113,
+      "location": "/zsstest/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969805/",
+      "md5hash": "7ca6debfa6e2e91c7ecc0822f45cefaa",
+      "lines": {
+        "59": "\t\tassertEquals(0, _book.getSheetIndex(\"Sheet1\"));",
+        "60": "\t\tLibrary.setProperty(\"org.zkoss.zss.model.EscherAggregate.class\", \"org.zkoss.zssex.model.impl.ZKEscherAggregate\");",
+        "61": "\t\tLibrary.setProperty(\"org.zkoss.zss.model.EscherAggregate.UTEST.class\", \"org.zkoss.zssex.model.impl.ZKEscherAggregate\");",
+        "62": "\t}"
+      },
+      "id": 3969805,
+      "filename": "ColumnchartXlsChartTest.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 184,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642360/",
+      "md5hash": "568f42341c2f49cf457f7336fcfb066f",
+      "lines": {
+        "88": "        sp.setRecordId( EscherSpRecord.RECORD_ID );",
+        "89": "        sp.setOptions( (short) ( ( EscherAggregate.ST_DONUT << 4 ) | 0x2 ) );",
+        "45": "import loci.poi.hssf.record.ObjRecord;",
+        "46": "import loci.poi.hssf.record.EscherAggregate;"
+      },
+      "id": 15642360,
+      "filename": "PolygonShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 155,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642357/",
+      "md5hash": "3fac04b2d420f2a566cce5b6a652e8c5",
+      "lines": {
+        "86": "        sp.setRecordId( EscherSpRecord.RECORD_ID );",
+        "87": "        sp.setOptions( (short) ( (EscherAggregate.ST_PICTUREFRAME << 4) | 0x2 ) );"
+      },
+      "id": 15642357,
+      "filename": "PictureShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642361/",
+      "md5hash": "e8926e1642d96e5be85459525b4970cd",
+      "lines": {
+        "88": "        sp.setOptions( (short) ( (EscherAggregate.ST_LINE << 4) | 0x2 ) );",
+        "87": "        sp.setRecordId( EscherSpRecord.RECORD_ID );"
+      },
+      "id": 15642361,
+      "filename": "LineShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 192,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642364/",
+      "md5hash": "caf9b32bdd1d6052248a6d5f8cf5c345",
+      "lines": {
+        "117": "        sp.setRecordId( EscherSpRecord.RECORD_ID );",
+        "118": "        sp.setOptions( (short) ( ( EscherAggregate.ST_TEXTBOX << 4 ) | 0x2 ) );"
+      },
+      "id": 15642364,
+      "filename": "TextboxShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 185,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642324/",
+      "md5hash": "fc029136a3141517ec69866f71588552",
+      "lines": {
+        "40": "",
+        "41": "import loci.poi.hssf.record.EscherAggregate;"
+      },
+      "id": 15642324,
+      "filename": "HSSFComment.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 10,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

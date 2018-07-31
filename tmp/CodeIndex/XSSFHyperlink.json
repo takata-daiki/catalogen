@@ -1,0 +1,70 @@
+{
+  "matchterm": "XSSFHyperlink",
+  "previouspage": null,
+  "searchterm": "XSSFHyperlink",
+  "query": "XSSFHyperlink",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://gitlab.com/jforge/Modules.git",
+      "language": "Java",
+      "linescount": 126,
+      "location": "/_deactivated/cdi-tablemodel/src/main/java/org/rapidpm/data/table/export",
+      "name": "Modules",
+      "url": "https://searchcode.com/codesearch/view/115088748/",
+      "md5hash": "afac3844787763a363133f64554db882",
+      "lines": {
+        "87": "                        final XSSFCreationHelper helper = workbook.getCreationHelper();",
+        "88": "                        final XSSFHyperlink xssfHyperlink = helper.createHyperlink(Hyperlink.LINK_URL);",
+        "89": "                        xssfHyperlink.setAddress(cell.getFormattedValue());",
+        "90": "                        xssfHyperlink.setLabel(cell.getLabel());",
+        "91": "                        xssfCell.setCellValue(cell.getLabel());",
+        "92": "                        xssfCell.setHyperlink(xssfHyperlink);",
+        "30": "import org.apache.poi.xssf.usermodel.XSSFCreationHelper;",
+        "31": "import org.apache.poi.xssf.usermodel.XSSFHyperlink;"
+      },
+      "id": 115088748,
+      "filename": "Table2XLSX.java"
+    },
+    {
+      "repo": "https://bitbucket.org/rapidpm/tablemodell.git",
+      "language": "Java",
+      "linescount": 107,
+      "location": "/src/org/rapidpm/data/table/export",
+      "name": "tablemodell",
+      "url": "https://searchcode.com/codesearch/view/37860178/",
+      "md5hash": "44b86ac9fbf3c35cb8d792fa6a92ad96",
+      "lines": {
+        "68": "                        final XSSFCreationHelper helper = workbook.getCreationHelper();",
+        "69": "                        final XSSFHyperlink xssfHyperlink = helper.createHyperlink(Hyperlink.LINK_URL);",
+        "70": "                        xssfHyperlink.setAddress(cell.getFormattedValue());",
+        "71": "                        xssfHyperlink.setLabel(cell.getLabel());",
+        "72": "                        xssfCell.setCellValue(cell.getLabel());",
+        "73": "                        xssfCell.setHyperlink(xssfHyperlink);"
+      },
+      "id": 37860178,
+      "filename": "Table2XLSX.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "GitLab",
+      "id": 13
+    },
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

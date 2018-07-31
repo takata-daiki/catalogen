@@ -1,0 +1,112 @@
+{
+  "matchterm": "DVRecord",
+  "previouspage": null,
+  "searchterm": "DVRecord",
+  "query": "DVRecord",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://github.com/semantalytics/RightField.git",
+      "language": "Java",
+      "linescount": 140,
+      "location": "/src/main/java/uk/ac/manchester/cs/owl/semspreadsheets/model/hssf/impl",
+      "name": "RightField",
+      "url": "https://searchcode.com/codesearch/view/72854649/",
+      "md5hash": "9b32ac4d62bd845be04702f4e7103178",
+      "lines": {
+        "64": "\t\t\t\t\tDVRecord dvRecord = (DVRecord) r;",
+        "33": " * {@link DataValidityTable#clear()}",
+        "34": " * {@link DVRecord#getFormula1()}",
+        "35": " * {@link DVRecord#getFormula2()}",
+        "36": " * ",
+        "69": "\t\t\t\t\t\tFormula f1 = dvRecord.getFormula1();",
+        "65": "\t\t\t\t\tCellRangeAddressList cellRangeAddressList = dvRecord",
+        "11": "",
+        "12": "import org.apache.poi.hssf.record.DVRecord;",
+        "66": "\t\t\t\t\t\t\t.getCellRangeAddress();",
+        "80": "\t\t\t\t\t\t\t) {",
+        "81": "\t\t\t\t\t\tFormula f1 = dvRecord.getFormula1();",
+        "82": "\t\t\t\t\t\tFormula f2 = dvRecord.getFormula2();",
+        "67": "\t\t\t\t\tint validationType = dvRecord.getDataType();",
+        "68": "\t\t\t\t\tif (validationType == DVConstraint.ValidationType.LIST) {",
+        "62": "\t\t\tpublic void visitRecord(Record r) {",
+        "63": "\t\t\t\tif (r instanceof DVRecord) {"
+      },
+      "id": 72854649,
+      "filename": "PatchedPoi.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1319,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970708/",
+      "md5hash": "e52c956c400b399e06a805984e2f85f6",
+      "lines": {
+        "1125": "    ",
+        "1126": "    private class DVRecordVisitor implements RecordVisitor {",
+        "1128": "    \t",
+        "1129": "    \tprivate DVRecordVisitor() {",
+        "1134": "\t\tpublic void visitRecord(Record r) {",
+        "1135": "\t\t\tif (r instanceof DVRecord) {",
+        "1136": "\t\t\t\tfinal DVRecord dvRecord = (DVRecord) r;",
+        "1137": "\t\t\t\tfinal CellRangeAddressList regions = dvRecord.getCellRangeAddress();",
+        "1138": "\t\t\t\tfinal DataValidationConstraint constraint = createContraint(dvRecord);",
+        "1139": "\t\t\t\tif (constraint != null) {",
+        "1140": "\t\t\t\t\tHSSFDataValidation dataValidation = new HSSFDataValidation(regions, constraint);",
+        "1141": "\t\t\t\t\tfinal boolean allowed = dvRecord.getEmptyCellAllowed();",
+        "1142": "\t\t\t\t\tfinal int errStyle = dvRecord.getErrorStyle();",
+        "1114": "\t    \t_dataValidations = new ArrayList<DataValidation>(); ",
+        "1115": "\t    \tfinal RecordVisitor rv = new DVRecordVisitor(); ",
+        "28": "import org.zkoss.poi.hssf.record.CellValueRecordInterface;",
+        "29": "import org.zkoss.poi.hssf.record.DVRecord;"
+      },
+      "id": 3970708,
+      "filename": "HSSFSheetImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openicar/juniprint",
+      "language": "Java",
+      "linescount": 1375,
+      "location": "/src/main/java/org/comsoft/juniprint/utils",
+      "name": "juniprint",
+      "url": "https://searchcode.com/codesearch/view/60212069/",
+      "md5hash": "c11a8c0e57714af4cf1eeffb5ef652f0",
+      "lines": {
+        "488": "\t\t\t\tDVRecord dv = (DVRecord)obj;",
+        "489": "\t\t\t\tfor(CellRangeAddress cellRef:dv.getCellRangeAddress().getCellRangeAddresses()){",
+        "486": "/*\t\t\t",
+        "487": "\t\t\tfor(Object obj: sh.getDVRecords()){"
+      },
+      "id": 60212069,
+      "filename": "ExcelUtils.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

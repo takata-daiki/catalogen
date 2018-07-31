@@ -1,0 +1,428 @@
+{
+  "matchterm": "SAXHelper",
+  "previouspage": null,
+  "searchterm": "SAXHelper",
+  "query": "SAXHelper",
+  "language_filters": [
+    {
+      "count": 28,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 28,
+  "results": [
+    {
+      "repo": "https://github.com/RolandoPer/jersey.git",
+      "language": "Java",
+      "linescount": 85,
+      "location": "/core-common/src/main/java/org/glassfish/jersey/internal/util",
+      "name": "jersey",
+      "url": "https://searchcode.com/codesearch/view/75930205/",
+      "md5hash": "4b9580696e0474d4cd161e8bf5e529d2",
+      "lines": {
+        "51": " */",
+        "52": "public final class SaxHelper {",
+        "53": "",
+        "54": "    private SaxHelper() {"
+      },
+      "id": 75930205,
+      "filename": "SaxHelper.java"
+    },
+    {
+      "repo": "http://thesandbox.googlecode.com/svn/",
+      "language": "Java",
+      "linescount": 196,
+      "location": "/libs/dom4j/1.6.1/src/java/org/dom4j/io",
+      "name": "thesandbox",
+      "url": "https://searchcode.com/codesearch/view/11535675/",
+      "md5hash": "4d4bb7101c7e6209e1c458d597b28e7b",
+      "lines": {
+        "17": " * <p>",
+        "18": " * <code>SAXHelper</code> contains some helper methods for working with SAX",
+        "24": " */",
+        "25": "class SAXHelper {",
+        "27": "",
+        "28": "    protected SAXHelper() {"
+      },
+      "id": 11535675,
+      "filename": "SAXHelper.java"
+    },
+    {
+      "repo": "git://github.com/jersey/jersey.git",
+      "language": "Java",
+      "linescount": 84,
+      "location": "/core-common/src/main/java/org/glassfish/jersey/internal/util",
+      "name": "jersey",
+      "url": "https://searchcode.com/codesearch/view/16464723/",
+      "md5hash": "76ed8c02d2aa6f3d3fa9ab501f65fbaf",
+      "lines": {
+        "49": " */",
+        "50": "public final class SaxHelper {",
+        "51": "",
+        "52": "    private SaxHelper() {}"
+      },
+      "id": 16464723,
+      "filename": "SaxHelper.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 81,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter.xhtml/src/main/java/org/apache/poi/xwpf/converter/xhtml/internal/utils",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673770/",
+      "md5hash": "c01772f878202e0ccc5a2bbf33a1dcc0",
+      "lines": {
+        "33": "",
+        "34": "public class SAXHelper"
+      },
+      "id": 96673770,
+      "filename": "SAXHelper.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 603,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter.xhtml/src/main/java/org/apache/poi/xwpf/converter/xhtml/internal",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673744/",
+      "md5hash": "c14d668d23631990bd259d145ca65a83",
+      "lines": {
+        "386": "        {",
+        "387": "            attributes = SAXHelper.addAttrValue( attributes, COLSPAN_ATTR, gridSpan.intValue() );",
+        "452": "            float width = emu2points( ext.getCx() );",
+        "453": "            attributes = SAXHelper.addAttrValue( attributes, WIDTH, getStylesDocument().getValueAsPoint( width ) );",
+        "391": "        {",
+        "392": "            attributes = SAXHelper.addAttrValue( attributes, ROWSPAN_ATTR, vMergeCells.size() );",
+        "585": "            return SAXHelper.addAttrValue( null, CLASS_ATTR, classNames );",
+        "300": "        AttributesImpl attributes = new AttributesImpl();",
+        "301": "        SAXHelper.addAttrValue( attributes, ID_ATTR, bookmark.getName() );",
+        "558": "    {",
+        "527": "        {",
+        "528": "            SAXHelper.addAttrValue( attributes, STYLE_ATTR, s );",
+        "584": "        {",
+        "564": "    {",
+        "565": "        SAXHelper.endElement( contentHandler, name );",
+        "559": "        SAXHelper.startElement( contentHandler, name, attributes );"
+      },
+      "id": 96673744,
+      "filename": "XHTMLMapper.java"
+    },
+    {
+      "repo": "https://github.com/rajapaju/jersey.git",
+      "language": "Java",
+      "linescount": 1262,
+      "location": "/tests/e2e/src/test/java/org/glassfish/jersey/tests/e2e/server/wadl",
+      "name": "jersey",
+      "url": "https://searchcode.com/codesearch/view/73035910/",
+      "md5hash": "efadfaf24e84c51b76c5fc6bc3b8553c",
+      "lines": {
+        "576": "//        bf.setValidating(false);",
+        "577": "//        if (!SaxHelper.isXdkDocumentBuilderFactory(bf)) {",
+        "139": "        if (!SaxHelper.isXdkDocumentBuilderFactory(bf)) {",
+        "388": "            bf.setValidating(false);",
+        "389": "            if (!SaxHelper.isXdkDocumentBuilderFactory(bf)) {",
+        "776": "//        bf.setValidating(false);",
+        "777": "//        if (!SaxHelper.isXdkDocumentBuilderFactory(bf)) {",
+        "138": "        bf.setValidating(false);",
+        "555": "//        bf.setValidating(false);",
+        "556": "//        if (!SaxHelper.isXdkDocumentBuilderFactory(bf)) {",
+        "936": "            bf.setValidating(false);",
+        "659": "//        bf.setValidating(false);",
+        "660": "//        if (!SaxHelper.isXdkDocumentBuilderFactory(bf)) {",
+        "309": "            bf.setValidating(false);",
+        "310": "            if (!SaxHelper.isXdkDocumentBuilderFactory(bf)) {",
+        "937": "            if (!SaxHelper.isXdkDocumentBuilderFactory(bf)) {"
+      },
+      "id": 73035910,
+      "filename": "WadlResourceTest.java"
+    },
+    {
+      "repo": "https://github.com/RolandoPer/jersey.git",
+      "language": "Java",
+      "linescount": 1387,
+      "location": "/tests/e2e/src/test/java/org/glassfish/jersey/tests/e2e/server/wadl",
+      "name": "jersey",
+      "url": "https://searchcode.com/codesearch/view/75926247/",
+      "md5hash": "2dc9d510f56f398907a8f585bcdf5997",
+      "lines": {
+        "786": "//        if (!SaxHelper.isXdkDocumentBuilderFactory(bf)) {",
+        "945": "            bf.setValidating(false);",
+        "585": "//        bf.setValidating(false);",
+        "586": "//        if (!SaxHelper.isXdkDocumentBuilderFactory(bf)) {",
+        "395": "            bf.setValidating(false);",
+        "396": "            if (!SaxHelper.isXdkDocumentBuilderFactory(bf)) {",
+        "141": "        if (!SaxHelper.isXdkDocumentBuilderFactory(bf)) {",
+        "785": "//        bf.setValidating(false);",
+        "140": "        bf.setValidating(false);",
+        "564": "//        bf.setValidating(false);",
+        "565": "//        if (!SaxHelper.isXdkDocumentBuilderFactory(bf)) {",
+        "313": "            bf.setValidating(false);",
+        "314": "            if (!SaxHelper.isXdkDocumentBuilderFactory(bf)) {",
+        "668": "//        bf.setValidating(false);",
+        "669": "//        if (!SaxHelper.isXdkDocumentBuilderFactory(bf)) {",
+        "946": "            if (!SaxHelper.isXdkDocumentBuilderFactory(bf)) {"
+      },
+      "id": 75926247,
+      "filename": "WadlResourceTest.java"
+    },
+    {
+      "repo": "http://thesandbox.googlecode.com/svn/",
+      "language": "Java",
+      "linescount": 1043,
+      "location": "/libs/dom4j/1.6.1/src/java/org/dom4j/io",
+      "name": "thesandbox",
+      "url": "https://searchcode.com/codesearch/view/11535674/",
+      "md5hash": "af6a8f83d38bd3de83a8fec11ad109fc",
+      "lines": {
+        "931": "        /*",
+        "932": "         * SAXHelper.setParserFeature( reader,",
+        "933": "         * \"http://xml.org/sax/properties/external-general-entities\",",
+        "934": "         * includeExternalGeneralEntities ); SAXHelper.setParserFeature( reader,",
+        "938": "        // use Locator2 if possible",
+        "939": "        SAXHelper.setParserFeature(reader,",
+        "910": "        // configure lexical handling",
+        "911": "        SAXHelper.setParserProperty(reader, SAX_LEXICALHANDLER, handler);",
+        "913": "        // try alternate property just in case",
+        "914": "        SAXHelper.setParserProperty(reader, SAX_LEXICAL_HANDLER, handler);",
+        "917": "        if (includeInternalDTDDeclarations || includeExternalDTDDeclarations) {",
+        "918": "            SAXHelper.setParserProperty(reader, SAX_DECL_HANDLER, handler);",
+        "921": "        // configure namespace support",
+        "922": "        SAXHelper.setParserFeature(reader, SAX_NAMESPACES, true);",
+        "923": "",
+        "893": "    protected XMLReader createXMLReader() throws SAXException {",
+        "894": "        return SAXHelper.createXMLReader(isValidating());"
+      },
+      "id": 11535674,
+      "filename": "SAXReader.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 583,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter.xhtml/src/main/java/org/apache/poi/xwpf/converter/xhtml/internal/styles",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673786/",
+      "md5hash": "4984e8765f59cf41f5ca768e28cca565",
+      "lines": {
+        "64": "import org.apache.poi.xwpf.converter.xhtml.internal.XHTMLConstants;",
+        "65": "import org.apache.poi.xwpf.converter.xhtml.internal.utils.SAXHelper;",
+        "501": "",
+        "502": "        SAXHelper.startElement( contentHandler, XHTMLConstants.STYLE_ELEMENT, null );",
+        "506": "            {",
+        "507": "                SAXHelper.characters( contentHandler, CR );",
+        "510": "        }",
+        "511": "        SAXHelper.endElement( contentHandler, XHTMLConstants.STYLE_ELEMENT );"
+      },
+      "id": 96673786,
+      "filename": "CSSStylesDocument.java"
+    },
+    {
+      "repo": "https://bitbucket.org/bureauvirtuel/bureauvirtuel",
+      "language": "Java",
+      "linescount": 911,
+      "location": "/millebv_builder/UpdateMille/uPortal/source/org/jasig/portal/channels/portlet",
+      "name": "bureauvirtuel",
+      "url": "https://searchcode.com/codesearch/view/56251555/",
+      "md5hash": "ad9e6ea2cf3e0596e61b38646c2a0f9e",
+      "lines": {
+        "82": "import org.jasig.portal.utils.NullOutputStream;",
+        "83": "import org.jasig.portal.utils.SAXHelper;",
+        "564": "            // character channel, these <div> tags will be necessary.",
+        "565": "            SAXHelper.outputContent(out, \"<div>\" + markupString + \"</div>\");"
+      },
+      "id": 56251555,
+      "filename": "CPortletAdapter.java"
+    },
+    {
+      "repo": "https://github.com/sirdyf/jersey.git",
+      "language": "Java",
+      "linescount": 179,
+      "location": "/examples/multipart-webapp/src/test/java/org/glassfish/jersey/examples/multipart/webapp",
+      "name": "jersey",
+      "url": "https://searchcode.com/codesearch/view/70136408/",
+      "md5hash": "140f1b0d31483db4372dc1600c32532a",
+      "lines": {
+        "107": "",
+        "58": "import org.glassfish.jersey.client.ClientConfig;",
+        "59": "import org.glassfish.jersey.internal.util.SaxHelper;",
+        "108": "        if (!SaxHelper.isXdkDocumentBuilderFactory(bf)) {"
+      },
+      "id": 70136408,
+      "filename": "MultiPartWebAppTest.java"
+    },
+    {
+      "repo": "https://github.com/ShiningLight/IANL-App.git",
+      "language": "Java",
+      "linescount": 40,
+      "location": "/src/com/ianl/podcasts",
+      "name": "IANL-App",
+      "url": "https://searchcode.com/codesearch/view/72884417/",
+      "md5hash": "b03aa66dba7e88f10439195c38ea9092",
+      "lines": {
+        "17": "",
+        "18": "\tpublic SAXHelper(String url) throws MalformedURLException {",
+        "14": "",
+        "15": "class SAXHelper {"
+      },
+      "id": 72884417,
+      "filename": "SAXHandler.java"
+    },
+    {
+      "repo": "https://github.com/ShiningLight/IANL-App.git",
+      "language": "Java",
+      "linescount": 50,
+      "location": "/src/com/ianl/podcasts",
+      "name": "IANL-App",
+      "url": "https://searchcode.com/codesearch/view/72884460/",
+      "md5hash": "2a45e80ab4208faa3e44b0c59d650ae6",
+      "lines": {
+        "32": "\tprotected ArrayList<Podcast> doInBackground(String... urls) {",
+        "33": "\t\tSAXHelper sh = null;",
+        "34": "\t\ttry {",
+        "35": "\t\t\tsh = new SAXHelper(urls[0]);"
+      },
+      "id": 72884460,
+      "filename": "PodcastLoadingTask.java"
+    },
+    {
+      "repo": "https://github.com/ShiningLight/IANL-App.git",
+      "language": "Java",
+      "linescount": 37,
+      "location": "/src/com/ianl/prayertimes",
+      "name": "IANL-App",
+      "url": "https://searchcode.com/codesearch/view/72884557/",
+      "md5hash": "dab6ad57846d8d63076d51951464d3fe",
+      "lines": {
+        "11": "",
+        "12": "class SAXHelper {",
+        "14": "",
+        "15": "\tpublic SAXHelper(String url) throws MalformedURLException {"
+      },
+      "id": 72884557,
+      "filename": "PrayerTimeSAXHandler.java"
+    },
+    {
+      "repo": "https://github.com/ShiningLight/IANL-App.git",
+      "language": "Java",
+      "linescount": 32,
+      "location": "/src/com/ianl/prayertimes",
+      "name": "IANL-App",
+      "url": "https://searchcode.com/codesearch/view/72884595/",
+      "md5hash": "46d73ea93dc7af115c610e7d078e3130",
+      "lines": {
+        "24": "\t\ttry {",
+        "25": "\t\t\tsh = new SAXHelper(urls[0]);",
+        "22": "\tprotected PrayerTimings doInBackground(String... urls) {",
+        "23": "\t\tSAXHelper sh = null;"
+      },
+      "id": 72884595,
+      "filename": "PrayerTimeLoadingTask.java"
+    },
+    {
+      "repo": "https://github.com/JoshiManjila/jersey.git",
+      "language": "Java",
+      "linescount": 177,
+      "location": "/examples/multipart-webapp/src/test/java/org/glassfish/jersey/examples/multipart/webapp",
+      "name": "jersey",
+      "url": "https://searchcode.com/codesearch/view/94623149/",
+      "md5hash": "ce82920321a286d0eca4dbffff25dfe0",
+      "lines": {
+        "105": "",
+        "58": "import org.glassfish.jersey.client.ClientConfig;",
+        "59": "import org.glassfish.jersey.internal.util.SaxHelper;",
+        "106": "        if (!SaxHelper.isXdkDocumentBuilderFactory(bf)) {"
+      },
+      "id": 94623149,
+      "filename": "MultiPartWebAppTest.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 117,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter.xhtml/src/main/java/org/apache/poi/xwpf/converter/xhtml/internal/styles",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673779/",
+      "md5hash": "44d078cc72cf4718bc79ec85f34475b3",
+      "lines": {
+        "65": "",
+        "66": "        SAXHelper.characters( contentHandler, style.toString() );",
+        "30": "",
+        "31": "import org.apache.poi.xwpf.converter.xhtml.internal.utils.SAXHelper;"
+      },
+      "id": 96673779,
+      "filename": "CSSStyle.java"
+    },
+    {
+      "repo": "https://github.com/rajapaju/jersey.git",
+      "language": "Java",
+      "linescount": 211,
+      "location": "/examples/multipart-webapp/src/test/java/org/glassfish/jersey/examples/multipart/webapp",
+      "name": "jersey",
+      "url": "https://searchcode.com/codesearch/view/73027952/",
+      "md5hash": "328b31b7aae53d7b539478b0e25ef2bf",
+      "lines": {
+        "104": "",
+        "105": "        if (!SaxHelper.isXdkDocumentBuilderFactory(bf)) {",
+        "60": "import org.glassfish.jersey.client.ClientConfig;",
+        "61": "import org.glassfish.jersey.internal.util.SaxHelper;"
+      },
+      "id": 73027952,
+      "filename": "MultiPartWebAppTest.java"
+    },
+    {
+      "repo": "https://github.com/rajapaju/jersey.git",
+      "language": "Java",
+      "linescount": 281,
+      "location": "/core-common/src/main/java/org/glassfish/jersey/message/internal",
+      "name": "jersey",
+      "url": "https://searchcode.com/codesearch/view/73042511/",
+      "md5hash": "48d565813d19d858858025e18c80a154",
+      "lines": {
+        "96": "        if (SaxHelper.isXdkParserFactory(spf)) {",
+        "60": "import org.glassfish.jersey.internal.LocalizationMessages;",
+        "61": "import org.glassfish.jersey.internal.util.SaxHelper;",
+        "95": ""
+      },
+      "id": 73042511,
+      "filename": "SecureSaxParserFactory.java"
+    },
+    {
+      "repo": "git://github.com/jersey/jersey.git",
+      "language": "Java",
+      "linescount": 196,
+      "location": "/examples/multipart-webapp/src/test/java/org/glassfish/jersey/examples/multipart/webapp",
+      "name": "jersey",
+      "url": "https://searchcode.com/codesearch/view/16464336/",
+      "md5hash": "fd08fc52eeb3c9290bdf581abcae3809",
+      "lines": {
+        "104": "",
+        "105": "        if (!SaxHelper.isXdkDocumentBuilderFactory(bf)) {",
+        "59": "import org.glassfish.jersey.client.JerseyClientFactory;",
+        "60": "import org.glassfish.jersey.internal.util.SaxHelper;"
+      },
+      "id": 16464336,
+      "filename": "MultiPartWebAppTest.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 22,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 5,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

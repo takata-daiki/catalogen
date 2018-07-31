@@ -1,0 +1,151 @@
+{
+  "matchterm": "XSLFPictureShape",
+  "previouspage": null,
+  "searchterm": "XSLFPictureShape",
+  "query": "XSLFPictureShape",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 162,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406705/",
+      "md5hash": "3cf6ae3d47d4aecb9c8db82efffb3346",
+      "lines": {
+        "49": "@Beta",
+        "50": "public class XSLFPictureShape extends XSLFSimpleShape {",
+        "52": "",
+        "53": "    /*package*/ XSLFPictureShape(CTPicture shape, XSLFSheet sheet) {",
+        "145": "",
+        "146": "        XSLFPictureShape p = (XSLFPictureShape)sh;"
+      },
+      "id": 97406705,
+      "filename": "XSLFPictureShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 111,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406826/",
+      "md5hash": "88f503638871e547730cf002e54b3503",
+      "lines": {
+        "96": "        CTPicture obj = _spTree.addNewPic();",
+        "97": "        obj.set(XSLFPictureShape.prototype(_shapeId++, rel));",
+        "98": "        XSLFPictureShape shape = new XSLFPictureShape(obj, _sheet);",
+        "99": "        shape.setAnchor(new Rectangle());",
+        "94": "",
+        "95": "    public XSLFPictureShape createPicture(String rel){"
+      },
+      "id": 97406826,
+      "filename": "XSLFDrawing.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 555,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406768/",
+      "md5hash": "06c77456c926d8545168347abe70a1d6",
+      "lines": {
+        "194": "",
+        "195": "        XSLFPictureShape sh = getDrawing().createPicture(rel.getId());",
+        "180": "",
+        "181": "    public XSLFPictureShape createPicture(int pictureIndex){",
+        "102": "            } else if (ch instanceof CTPicture){",
+        "103": "                shapes.add(new XSLFPictureShape((CTPicture)ch, this));"
+      },
+      "id": 97406768,
+      "filename": "XSLFSheet.java"
+    },
+    {
+      "repo": "https://github.com/nls-oskari/oskari-server.git",
+      "language": "Java",
+      "linescount": 161,
+      "location": "/servlet-printout/src/main/java/fi/nls/oskari/printout/ws/jaxrs/format",
+      "name": "oskari-server",
+      "url": "https://searchcode.com/codesearch/view/76071743/",
+      "md5hash": "e9cd50395eb04e2236447d20d7ac7ccb",
+      "lines": {
+        "97": "",
+        "98": "\t\tXSLFPictureShape shape = slide.createPicture(pictureIndex);",
+        "20": "import org.apache.poi.xslf.usermodel.XSLFPictureData;",
+        "21": "import org.apache.poi.xslf.usermodel.XSLFPictureShape;"
+      },
+      "id": 76071743,
+      "filename": "StreamingPPTXImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 351,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406700/",
+      "md5hash": "7ac71aab113fccf906b12580ebb695aa",
+      "lines": {
+        "240": "    public XSLFPictureShape createPicture(int pictureIndex){",
+        "253": "",
+        "254": "        XSLFPictureShape sh = getDrawing().createPicture(rel.getId());",
+        "239": ""
+      },
+      "id": 97406700,
+      "filename": "XSLFGroupShape.java"
+    },
+    {
+      "repo": "https://bitbucket.org/quadrate/promo.git",
+      "language": "Java",
+      "linescount": 81,
+      "location": "/excelgen/src/main/java/by/q64/promo/excelgen/service/marketing",
+      "name": "promo",
+      "url": "https://searchcode.com/codesearch/view/92131912/",
+      "md5hash": "e8d97edebf3bc6b01a7ffe249d99390a",
+      "lines": {
+        "75": "        int idx = ppt.addPicture(bytes, XSLFPictureData.PICTURE_TYPE_PNG);",
+        "76": "        XSLFPictureShape pic = slide.createPicture(idx);"
+      },
+      "id": 92131912,
+      "filename": "MarketingReportFirstSlideGeneratorImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/quadrate/promo.git",
+      "language": "Java",
+      "linescount": 211,
+      "location": "/excelgen/src/main/java/by/q64/promo/excelgen/service/marketing",
+      "name": "promo",
+      "url": "https://searchcode.com/codesearch/view/92131916/",
+      "md5hash": "a58465613021fd4ec4403df58f01c572",
+      "lines": {
+        "172": "            int idx = ppt.addPicture(picBytes1, XSLFPictureData.PICTURE_TYPE_PNG);",
+        "173": "            XSLFPictureShape pic = pptSlide.createPicture(idx);"
+      },
+      "id": 92131916,
+      "filename": "MarketingReportInCityGeneratorImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 5,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 2,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

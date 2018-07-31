@@ -1,0 +1,459 @@
+{
+  "matchterm": "PackageHelper",
+  "previouspage": null,
+  "searchterm": "PackageHelper",
+  "query": "PackageHelper",
+  "language_filters": [
+    {
+      "count": 130,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 130,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/chameleonos/miui_frameworks.git",
+      "language": "Java",
+      "linescount": 420,
+      "location": "/framework/java/jd-gui/com/android/internal/content",
+      "name": "miui_frameworks",
+      "url": "https://searchcode.com/codesearch/view/44002687/",
+      "md5hash": "6c115e560bb427fa19330dbb7f79e75c",
+      "lines": {
+        "66": "            IMountService localIMountService = getMountService();",
+        "67": "            Log.i(\"PackageHelper\", \"Size of container \" + paramInt1 + \" MB\");",
+        "164": "        //     113: aload_3",
+        "69": "            {",
+        "70": "                Log.e(\"PackageHelper\", \"Failed to create secure container \" + paramString1);",
+        "264": "            while (true)",
+        "265": "                Log.e(\"PackageHelper\", \"Failed to fixperms container \" + paramString1 + \" with exception \" + localRemoteException);",
+        "75": "                str = localIMountService.getSecureContainerPath(paramString1);",
+        "76": "                Log.i(\"PackageHelper\", \"Created secure container \" + paramString1 + \" at \" + str);",
+        "15": "",
+        "16": "public class PackageHelper",
+        "274": "            return IMountService.Stub.asInterface(localIBinder);",
+        "275": "        Log.e(\"PackageHelper\", \"Can't get mount service\");",
+        "28": "    public static final int RECOMMEND_MEDIA_UNAVAILABLE = -5;",
+        "29": "    private static final String TAG = \"PackageHelper\";",
+        "165": "        //     114: invokestatic 204\tcom/android/internal/content/PackageHelper:copyZipEntry\t(Ljava/util/zip/ZipEntry;Ljava/util/zip/ZipFile;Ljava/util/zip/ZipOutputStream;)V"
+      },
+      "id": 44002687,
+      "filename": "PackageHelper.java"
+    },
+    {
+      "repo": "https://bitbucket.org/chameleonos/miui_frameworks.git",
+      "language": "Java",
+      "linescount": 306,
+      "location": "/framework/java/jad/com/android/internal/content",
+      "name": "miui_frameworks",
+      "url": "https://searchcode.com/codesearch/view/44004791/",
+      "md5hash": "f1dcb59669cfd810b58e669c5d5841c8",
+      "lines": {
+        "163": "_L1:",
+        "147": "        Log.i(\"PackageHelper\", (new StringBuilder()).append(\"Failed to finalize container \").append(s).toString());",
+        "171": "        remoteexception;",
+        "172": "        Log.e(\"PackageHelper\", (new StringBuilder()).append(\"Failed to fixperms container \").append(s).append(\" with exception \").append(remoteexception).toString());",
+        "14": "",
+        "15": "public class PackageHelper {",
+        "16": "",
+        "17": "    public PackageHelper() {",
+        "146": "_L1:",
+        "51": "            IMountService imountservice = getMountService();",
+        "52": "            Log.i(\"PackageHelper\", (new StringBuilder()).append(\"Size of container \").append(i).append(\" MB\").toString());",
+        "53": "            if(imountservice.createSecureContainer(s, i, \"ext4\", s1, j, flag) != 0) {",
+        "164": "        Log.i(\"PackageHelper\", (new StringBuilder()).append(\"Failed to fixperms container \").append(s).toString());",
+        "154": "        remoteexception;",
+        "155": "        Log.e(\"PackageHelper\", (new StringBuilder()).append(\"Failed to finalize container \").append(s).append(\" with exception \").append(remoteexception).toString());"
+      },
+      "id": 44004791,
+      "filename": "PackageHelper.java"
+    },
+    {
+      "repo": "git://github.com/android/platform_frameworks_base.git",
+      "language": "Java",
+      "linescount": 540,
+      "location": "/core/java/com/android/internal/content",
+      "name": "platform_frameworks_base",
+      "url": "https://searchcode.com/codesearch/view/2439079/",
+      "md5hash": "147607d5e42f88011fb654654657a3a5",
+      "lines": {
+        "481": "            if (fitsOnInternal) {",
+        "482": "                return PackageHelper.RECOMMEND_INSTALL_INTERNAL;",
+        "67": "    private static final boolean localLOGV = false;",
+        "68": "    private static final String TAG = \"PackageHelper\";",
+        "485": "            if (fitsOnExternal) {",
+        "486": "                return PackageHelper.RECOMMEND_INSTALL_EXTERNAL;",
+        "521": "            if (isForwardLocked) {",
+        "522": "                sizeBytes += PackageHelper.extractPublicFiles(codeFile, null);",
+        "491": "            if (fitsOnInternal) {",
+        "492": "                return PackageHelper.RECOMMEND_INSTALL_INTERNAL;",
+        "493": "            } else if (fitsOnExternal) {",
+        "494": "                return PackageHelper.RECOMMEND_INSTALL_EXTERNAL;",
+        "497": "",
+        "498": "        return PackageHelper.RECOMMEND_FAILED_INSUFFICIENT_STORAGE;",
+        "55": " */",
+        "56": "public class PackageHelper {"
+      },
+      "id": 2439079,
+      "filename": "PackageHelper.java"
+    },
+    {
+      "repo": "https://github.com/joe-io/vert.x.git",
+      "language": "Java",
+      "linescount": 101,
+      "location": "/vertx-platform/src/main/java/org/vertx/java/platform/impl/java",
+      "name": "vert.x",
+      "url": "https://searchcode.com/codesearch/view/71496117/",
+      "md5hash": "b1ea0c74de256511ce1d750e91c3733f",
+      "lines": {
+        "40": "  public PackageHelper(ClassLoader classLoader) {",
+        "34": "",
+        "35": "public class PackageHelper {",
+        "39": ""
+      },
+      "id": 71496117,
+      "filename": "PackageHelper.java"
+    },
+    {
+      "repo": "https://github.com/phoenix2life/vert.x.git",
+      "language": "Java",
+      "linescount": 93,
+      "location": "/vertx-lang/vertx-lang-java/src/main/java/org/vertx/java/deploy/impl/java",
+      "name": "vert.x",
+      "url": "https://searchcode.com/codesearch/view/75335410/",
+      "md5hash": "d3d0fec847fb94cba4a1674d23e6485f",
+      "lines": {
+        "32": "",
+        "33": "public class PackageHelper {",
+        "37": "",
+        "38": "  public PackageHelper(ClassLoader classLoader) {"
+      },
+      "id": 75335410,
+      "filename": "PackageHelper.java"
+    },
+    {
+      "repo": "https://github.com/android/platform_frameworks_base.git",
+      "language": "Java",
+      "linescount": 692,
+      "location": "/core/java/com/android/internal/content",
+      "name": "platform_frameworks_base",
+      "url": "https://searchcode.com/codesearch/view/140977228/",
+      "md5hash": "f7b3e39fb48373163e0dbf2b6dba0bf5",
+      "lines": {
+        "64": "public class PackageHelper {",
+        "77": "    private static final String TAG = \"PackageHelper\";",
+        "76": "    private static final boolean localLOGV = false;",
+        "621": "                return (ephemeral)",
+        "622": "                        ? PackageHelper.RECOMMEND_INSTALL_EPHEMERAL",
+        "623": "                        : PackageHelper.RECOMMEND_INSTALL_INTERNAL;",
+        "624": "            }",
+        "626": "            if (fitsOnExternal) {",
+        "627": "                return PackageHelper.RECOMMEND_INSTALL_EXTERNAL;",
+        "662": "            if (isForwardLocked) {",
+        "663": "                sizeBytes += PackageHelper.extractPublicFiles(codeFile, null);",
+        "632": "            if (fitsOnInternal) {",
+        "633": "                return PackageHelper.RECOMMEND_INSTALL_INTERNAL;",
+        "634": "            } else if (fitsOnExternal) {",
+        "639": "        return PackageHelper.RECOMMEND_FAILED_INSUFFICIENT_STORAGE;",
+        "638": "",
+        "63": " */"
+      },
+      "id": 140977228,
+      "filename": "PackageHelper.java"
+    },
+    {
+      "repo": "https://bitbucket.org/seandroid/frameworks-base.git",
+      "language": "Java",
+      "linescount": 540,
+      "location": "/core/java/com/android/internal/content",
+      "name": "frameworks-base",
+      "url": "https://searchcode.com/codesearch/view/37047043/",
+      "md5hash": "147607d5e42f88011fb654654657a3a5",
+      "lines": {
+        "481": "            if (fitsOnInternal) {",
+        "482": "                return PackageHelper.RECOMMEND_INSTALL_INTERNAL;",
+        "67": "    private static final boolean localLOGV = false;",
+        "68": "    private static final String TAG = \"PackageHelper\";",
+        "485": "            if (fitsOnExternal) {",
+        "486": "                return PackageHelper.RECOMMEND_INSTALL_EXTERNAL;",
+        "521": "            if (isForwardLocked) {",
+        "522": "                sizeBytes += PackageHelper.extractPublicFiles(codeFile, null);",
+        "491": "            if (fitsOnInternal) {",
+        "492": "                return PackageHelper.RECOMMEND_INSTALL_INTERNAL;",
+        "493": "            } else if (fitsOnExternal) {",
+        "494": "                return PackageHelper.RECOMMEND_INSTALL_EXTERNAL;",
+        "497": "",
+        "498": "        return PackageHelper.RECOMMEND_FAILED_INSUFFICIENT_STORAGE;",
+        "55": " */",
+        "56": "public class PackageHelper {"
+      },
+      "id": 37047043,
+      "filename": "PackageHelper.java"
+    },
+    {
+      "repo": "https://github.com/jatin-28/camel.git",
+      "language": "Java",
+      "linescount": 81,
+      "location": "/camel-core/src/main/java/org/apache/camel/util",
+      "name": "camel",
+      "url": "https://searchcode.com/codesearch/view/69247784/",
+      "md5hash": "937299d800c9155a1b952a9bf5a4031b",
+      "lines": {
+        "26": " */",
+        "27": "public final class PackageHelper {",
+        "28": "    private static final transient Logger LOG = LoggerFactory.getLogger(PackageHelper.class);",
+        "29": "",
+        "30": "    private PackageHelper() {"
+      },
+      "id": 69247784,
+      "filename": "PackageHelper.java"
+    },
+    {
+      "repo": "https://bitbucket.org/xXRogueCoderXx/expiration-1.3.2-v1r2.git",
+      "language": "Java",
+      "linescount": 196,
+      "location": "/ldapbeans/util/scanner",
+      "name": "expiration-1.3.2-v1r2",
+      "url": "https://searchcode.com/codesearch/view/39632388/",
+      "md5hash": "d7b9a8153dc9c2502b47d89cffc47312",
+      "lines": {
+        "48": "    public static PackageHelper getInstance() {",
+        "54": "     */",
+        "38": "",
+        "39": "public final class PackageHelper {",
+        "40": "    /** unique instance of this class */",
+        "41": "    private final static PackageHelper INSTANCE = new PackageHelper();",
+        "55": "    private PackageHelper() {",
+        "47": "     */"
+      },
+      "id": 39632388,
+      "filename": "PackageHelper.java"
+    },
+    {
+      "repo": "https://bitbucket.org/kejar31/android_frameworks_base",
+      "language": "Java",
+      "linescount": 200,
+      "location": "/core/java/com/android/internal/content",
+      "name": "android_frameworks_base",
+      "url": "https://searchcode.com/codesearch/view/61782369/",
+      "md5hash": "dce8cd584b7079f97faa9d6d73f5cc3d",
+      "lines": {
+        "33": " */",
+        "34": "public class PackageHelper {",
+        "44": "    private static final boolean localLOGV = true;",
+        "45": "    private static final String TAG = \"PackageHelper\";"
+      },
+      "id": 61782369,
+      "filename": "PackageHelper.java"
+    },
+    {
+      "repo": "https://github.com/dbaeumges/android_platform_frameworks_base.git",
+      "language": "Java",
+      "linescount": 193,
+      "location": "/core/java/com/android/internal/content",
+      "name": "android_platform_frameworks_base",
+      "url": "https://searchcode.com/codesearch/view/66727346/",
+      "md5hash": "ef90cd6fb5249e3588a358b61ceef768",
+      "lines": {
+        "33": " */",
+        "34": "public class PackageHelper {",
+        "43": "    private static final String TAG = \"PackageHelper\";",
+        "42": "    private static final boolean localLOGV = true;"
+      },
+      "id": 66727346,
+      "filename": "PackageHelper.java"
+    },
+    {
+      "repo": "https://github.com/Dgikar/android_frameworks_base_cyanmobile.git",
+      "language": "Java",
+      "linescount": 201,
+      "location": "/core/java/com/android/internal/content",
+      "name": "android_frameworks_base_cyanmobile",
+      "url": "https://searchcode.com/codesearch/view/70255598/",
+      "md5hash": "b7d9681a3e9ca4dfc3b74b5ce48f08bd",
+      "lines": {
+        "33": " */",
+        "34": "public class PackageHelper {",
+        "45": "    private static final boolean localLOGV = true;",
+        "46": "    private static final String TAG = \"PackageHelper\";"
+      },
+      "id": 70255598,
+      "filename": "PackageHelper.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tillias/jwebtester",
+      "language": "Java",
+      "linescount": 82,
+      "location": "/web/src/test/java/jwebtester/utils",
+      "name": "jwebtester",
+      "url": "https://searchcode.com/codesearch/view/76490539/",
+      "md5hash": "6d3b29e894334cccdd91137f25f71005",
+      "lines": {
+        "13": "@SuppressWarnings(\"rawtypes\")",
+        "14": "public class PackageHelper {"
+      },
+      "id": 76490539,
+      "filename": "PackageHelper.java"
+    },
+    {
+      "repo": "https://bitbucket.org/damiancarrillo/vert.x.git",
+      "language": "Java",
+      "linescount": 93,
+      "location": "/vertx-lang/vertx-lang-java/src/main/java/org/vertx/java/deploy/impl/java",
+      "name": "vert.x",
+      "url": "https://searchcode.com/codesearch/view/46960903/",
+      "md5hash": "e295dcd4ec27d17d6651c22fdf91c8f4",
+      "lines": {
+        "32": "",
+        "33": "public class PackageHelper {",
+        "37": "",
+        "38": "  public PackageHelper(ClassLoader classLoader) {"
+      },
+      "id": 46960903,
+      "filename": "PackageHelper.java"
+    },
+    {
+      "repo": "https://bitbucket.org/htchoi1995/frameworks_base.git",
+      "language": "Java",
+      "linescount": 299,
+      "location": "/core/java/com/android/internal/content",
+      "name": "frameworks_base",
+      "url": "https://searchcode.com/codesearch/view/51928708/",
+      "md5hash": "39778782d92b23a7e181263f1d993fc5",
+      "lines": {
+        "42": " */",
+        "43": "public class PackageHelper {",
+        "54": "    private static final boolean localLOGV = false;",
+        "55": "    private static final String TAG = \"PackageHelper\";"
+      },
+      "id": 51928708,
+      "filename": "PackageHelper.java"
+    },
+    {
+      "repo": "https://bitbucket.org/bigxie/android_frameworks_base",
+      "language": "Java",
+      "linescount": 200,
+      "location": "/core/java/com/android/internal/content",
+      "name": "android_frameworks_base",
+      "url": "https://searchcode.com/codesearch/view/124763378/",
+      "md5hash": "dce8cd584b7079f97faa9d6d73f5cc3d",
+      "lines": {
+        "33": " */",
+        "34": "public class PackageHelper {",
+        "44": "    private static final boolean localLOGV = true;",
+        "45": "    private static final String TAG = \"PackageHelper\";"
+      },
+      "id": 124763378,
+      "filename": "PackageHelper.java"
+    },
+    {
+      "repo": "https://bitbucket.org/droidandy/derrick-spencer",
+      "language": "Java",
+      "linescount": 200,
+      "location": "/core/java/com/android/internal/content",
+      "name": "derrick-spencer",
+      "url": "https://searchcode.com/codesearch/view/125605441/",
+      "md5hash": "dce8cd584b7079f97faa9d6d73f5cc3d",
+      "lines": {
+        "33": " */",
+        "34": "public class PackageHelper {",
+        "44": "    private static final boolean localLOGV = true;",
+        "45": "    private static final String TAG = \"PackageHelper\";"
+      },
+      "id": 125605441,
+      "filename": "PackageHelper.java"
+    },
+    {
+      "repo": "http://imogene.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 30,
+      "location": "/gen-droid/trunk/org.imogene.android.template/src/org/imogene/android/update",
+      "name": "imogene",
+      "url": "https://searchcode.com/codesearch/view/2626144/",
+      "md5hash": "e743066dfde84ba1a31844b40e28712d",
+      "lines": {
+        "8": "public class PackageHelper {",
+        "7": ""
+      },
+      "id": 2626144,
+      "filename": "PackageHelper.java"
+    },
+    {
+      "repo": "https://bitbucket.org/kejar31/android_frameworks_base",
+      "language": "Java",
+      "linescount": 3142,
+      "location": "/core/tests/coretests/src/android/content/pm",
+      "name": "android_frameworks_base",
+      "url": "https://searchcode.com/codesearch/view/61780826/",
+      "md5hash": "5294a0a98ee7fbb02e40cdb5302d3982",
+      "lines": {
+        "2240": "           if (userSetting == PackageHelper.APP_INSTALL_AUTO) {",
+        "2241": "               iloc = PackageInfo.INSTALL_LOCATION_AUTO;",
+        "2305": "        int userSetting = PackageHelper.APP_INSTALL_INTERNAL;",
+        "2316": "",
+        "2317": "        int userSetting = PackageHelper.APP_INSTALL_EXTERNAL;",
+        "2304": "",
+        "19": "import com.android.frameworks.coretests.R;",
+        "20": "import com.android.internal.content.PackageHelper;",
+        "2328": "",
+        "2329": "        int userSetting = PackageHelper.APP_INSTALL_AUTO;",
+        "58": "    private static final String SECURE_CONTAINERS_PREFIX = \"/mnt/asec\";",
+        "59": "    private static final int APP_INSTALL_AUTO = PackageHelper.APP_INSTALL_AUTO;",
+        "60": "    private static final int APP_INSTALL_DEVICE = PackageHelper.APP_INSTALL_INTERNAL;",
+        "61": "    private static final int APP_INSTALL_SDCARD = PackageHelper.APP_INSTALL_EXTERNAL;",
+        "62": "    private boolean mOrigState;",
+        "2239": "       if (enable) {"
+      },
+      "id": 61780826,
+      "filename": "PackageManagerTests.java"
+    },
+    {
+      "repo": "https://github.com/dbaeumges/android_platform_frameworks_base.git",
+      "language": "Java",
+      "linescount": 2782,
+      "location": "/core/tests/coretests/src/android/content/pm",
+      "name": "android_platform_frameworks_base",
+      "url": "https://searchcode.com/codesearch/view/66726477/",
+      "md5hash": "0b81a1b2f5902471697d97189bf37992",
+      "lines": {
+        "66": "    private static final String SECURE_CONTAINERS_PREFIX = \"/mnt/asec\";",
+        "67": "    private static final int APP_INSTALL_AUTO = PackageHelper.APP_INSTALL_AUTO;",
+        "68": "    private static final int APP_INSTALL_DEVICE = PackageHelper.APP_INSTALL_INTERNAL;",
+        "69": "    private static final int APP_INSTALL_SDCARD = PackageHelper.APP_INSTALL_EXTERNAL;",
+        "70": "    private boolean mOrigState;",
+        "1963": "       if (enable) {",
+        "1964": "           if (userSetting == PackageHelper.APP_INSTALL_AUTO) {",
+        "1965": "               iloc = PackageInfo.INSTALL_LOCATION_AUTO;",
+        "1966": "           } else if (userSetting == PackageHelper.APP_INSTALL_EXTERNAL) {",
+        "1967": "               iloc = PackageInfo.INSTALL_LOCATION_PREFER_EXTERNAL;",
+        "1968": "           } else if (userSetting == PackageHelper.APP_INSTALL_INTERNAL) {",
+        "1457": "            PackageManager pm = getPm();",
+        "1458": "            setInstallLoc(PackageHelper.APP_INSTALL_AUTO);",
+        "19": "import com.android.frameworks.coretests.R;",
+        "20": "import com.android.internal.content.PackageHelper;"
+      },
+      "id": 66726477,
+      "filename": "PackageManagerTests.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 75,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 49,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 6,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

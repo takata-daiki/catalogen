@@ -1,0 +1,100 @@
+{
+  "matchterm": "XSSFShape",
+  "previouspage": null,
+  "searchterm": "XSSFShape",
+  "query": "XSSFShape",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "https://github.com/nic9805/jeecg.git",
+      "language": "Java",
+      "linescount": 278,
+      "location": "/jeecg-framework/src/main/java/org/jeecgframework/poi/excel",
+      "name": "jeecg",
+      "url": "https://searchcode.com/codesearch/view/93182055/",
+      "md5hash": "87019a72d8e02af505e4e1e5b6ac2ed2",
+      "lines": {
+        "21": "import org.apache.poi.xssf.usermodel.XSSFPicture;",
+        "22": "import org.apache.poi.xssf.usermodel.XSSFShape;",
+        "263": "                XSSFDrawing drawing = (XSSFDrawing) dr;  ",
+        "264": "                List<XSSFShape> shapes = drawing.getShapes();  ",
+        "265": "                for (XSSFShape shape : shapes) {  ",
+        "266": "                    XSSFPicture pic = (XSSFPicture) shape;  "
+      },
+      "id": 93182055,
+      "filename": "ExcelPublicUtil.java"
+    },
+    {
+      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 242,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/122565145/",
+      "md5hash": "37e957a3ed6fb87cd516e5e2edbf25dd",
+      "lines": {
+        "25": "import org.apache.poi.xssf.usermodel.XSSFRichTextString;",
+        "26": "import org.apache.poi.xssf.usermodel.XSSFShape;",
+        "237": "\tpublic int anchorDyFromPoints( float height, float rowHeight ) {",
+        "238": "\t\treturn (int)( height * XSSFShape.EMU_PER_POINT );"
+      },
+      "id": 122565145,
+      "filename": "StyleManagerXUtils.java"
+    },
+    {
+      "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 281,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/64530833/",
+      "md5hash": "9bae33ba2ae2b3659c034710c785370e",
+      "lines": {
+        "250": "\tpublic int anchorDyFromPoints( float height, float rowHeight ) {",
+        "251": "\t\treturn (int)( height * XSSFShape.EMU_PER_POINT );",
+        "36": "import org.apache.poi.xssf.usermodel.XSSFRichTextString;",
+        "37": "import org.apache.poi.xssf.usermodel.XSSFShape;"
+      },
+      "id": 64530833,
+      "filename": "StyleManagerXUtils.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ravisanthu0/spudsoft-birt-excel-emitters1",
+      "language": "Java",
+      "linescount": 279,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters1",
+      "url": "https://searchcode.com/codesearch/view/126772698/",
+      "md5hash": "afd1e481fb2efa8d3030d90a89833b16",
+      "lines": {
+        "248": "\tpublic int anchorDyFromPoints( float height, float rowHeight ) {",
+        "33": "import org.apache.poi.xssf.usermodel.XSSFRichTextString;",
+        "34": "import org.apache.poi.xssf.usermodel.XSSFShape;",
+        "249": "\t\treturn (int)( height * XSSFShape.EMU_PER_POINT );"
+      },
+      "id": 126772698,
+      "filename": "StyleManagerXUtils.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

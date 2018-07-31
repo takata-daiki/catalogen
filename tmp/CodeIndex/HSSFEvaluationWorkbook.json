@@ -1,0 +1,371 @@
+{
+  "matchterm": "HSSFEvaluationWorkbook",
+  "previouspage": null,
+  "searchterm": "HSSFEvaluationWorkbook",
+  "query": "HSSFEvaluationWorkbook",
+  "language_filters": [
+    {
+      "count": 32,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 32,
+  "results": [
+    {
+      "repo": "https://github.com/semantalytics/RightField.git",
+      "language": "Java",
+      "linescount": 140,
+      "location": "/src/main/java/uk/ac/manchester/cs/owl/semspreadsheets/model/hssf/impl",
+      "name": "RightField",
+      "url": "https://searchcode.com/codesearch/view/72854649/",
+      "md5hash": "9b32ac4d62bd845be04702f4e7103178",
+      "lines": {
+        "17": "import org.apache.poi.hssf.usermodel.HSSFDataValidation;",
+        "18": "import org.apache.poi.hssf.usermodel.HSSFEvaluationWorkbook;",
+        "124": "\t\t\t\tNamePtg namePtg = (NamePtg) token;",
+        "125": "\t\t\t\tHSSFEvaluationWorkbook wb = HSSFEvaluationWorkbook"
+      },
+      "id": 72854649,
+      "filename": "PatchedPoi.java"
+    },
+    {
+      "repo": "https://bitbucket.org/manticoretrader/etltools",
+      "language": "Java",
+      "linescount": 82,
+      "location": "/src",
+      "name": "etltools",
+      "url": "https://searchcode.com/codesearch/view/121321450/",
+      "md5hash": "55c7924873922e4c366114d00a2577bf",
+      "lines": {
+        "51": "    if (wb instanceof HSSFWorkbook) {",
+        "52": "      parsingWorkbook = HSSFEvaluationWorkbook.create((HSSFWorkbook) wb);",
+        "53": "      renderingWorkbook = HSSFEvaluationWorkbook.create((HSSFWorkbook) wb);",
+        "54": "    } else if (wb instanceof XSSFWorkbook) {",
+        "7": "import java.util.logging.Logger;",
+        "8": "import org.apache.poi.hssf.usermodel.HSSFEvaluationWorkbook;"
+      },
+      "id": 121321450,
+      "filename": "ExcelFormulaParser.java"
+    },
+    {
+      "repo": "https://bitbucket.org/manticoretrader/etltools",
+      "language": "Java",
+      "linescount": 91,
+      "location": "/src/com/manticore/report",
+      "name": "etltools",
+      "url": "https://searchcode.com/codesearch/view/121321561/",
+      "md5hash": "7b68c9964bb208d63c4c92c259779657",
+      "lines": {
+        "49": "        final FormulaParsingWorkbook parsingWorkbook = (workbook instanceof HSSFWorkbook)",
+        "50": "                                                       ? HSSFEvaluationWorkbook.create((HSSFWorkbook) workbook)",
+        "52": "        final FormulaRenderingWorkbook renderingWorkbook = (workbook instanceof HSSFWorkbook)",
+        "21": "import java.io.InputStream;",
+        "22": "import org.apache.poi.hssf.usermodel.HSSFEvaluationWorkbook;",
+        "53": "                                                           ? HSSFEvaluationWorkbook.create((HSSFWorkbook) workbook)"
+      },
+      "id": 121321561,
+      "filename": "FormulaTest.java"
+    },
+    {
+      "repo": "https://bitbucket.org/manticoretrader/etltools",
+      "language": "Java",
+      "linescount": 494,
+      "location": "/src/com/manticore/report",
+      "name": "etltools",
+      "url": "https://searchcode.com/codesearch/view/121321567/",
+      "md5hash": "a9d117f3059083eddf99b000216ad9a0",
+      "lines": {
+        "304": "          ? HSSFEvaluationWorkbook.create((HSSFWorkbook) workbook)",
+        "306": "      final FormulaRenderingWorkbook renderingWorkbook = (workbook instanceof HSSFWorkbook)",
+        "307": "          ? HSSFEvaluationWorkbook.create((HSSFWorkbook) workbook)",
+        "24": "import java.util.logging.Logger;",
+        "25": "import org.apache.poi.hssf.usermodel.HSSFEvaluationWorkbook;",
+        "303": "      final FormulaParsingWorkbook parsingWorkbook = (workbook instanceof HSSFWorkbook)"
+      },
+      "id": 121321567,
+      "filename": "FixFormatReport.java"
+    },
+    {
+      "repo": "https://bitbucket.org/manticoretrader/etltools",
+      "language": "Java",
+      "linescount": 297,
+      "location": "/src/com/manticore/report",
+      "name": "etltools",
+      "url": "https://searchcode.com/codesearch/view/121321570/",
+      "md5hash": "7585d5862f58929ffd0917b3367eea3f",
+      "lines": {
+        "241": "\t\t\tif (workbook instanceof HSSFWorkbook) {",
+        "242": "                parsingWorkbook = HSSFEvaluationWorkbook.create((HSSFWorkbook) workbook);",
+        "243": "                renderingWorkbook = HSSFEvaluationWorkbook.create((HSSFWorkbook) workbook);",
+        "244": "            } else if (workbook instanceof XSSFWorkbook) {",
+        "7": "",
+        "8": "import org.apache.poi.hssf.usermodel.HSSFEvaluationWorkbook;"
+      },
+      "id": 121321570,
+      "filename": "ExcelTools.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 170,
+      "location": "/zsstest/src/org/zkoss/poi/ss/usermodel",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969766/",
+      "md5hash": "1285d6b49ee4d1f991bde3c722740ced",
+      "lines": {
+        "26": "import org.zkoss.poi.hssf.usermodel.HSSFCell;",
+        "27": "import org.zkoss.poi.hssf.usermodel.HSSFEvaluationWorkbook;",
+        "164": "\t\tHSSFEvaluationWorkbook evalbook = HSSFEvaluationWorkbook.create((HSSFWorkbook)_workbook);",
+        "163": "\tprivate void testToFormulaString(Cell cell, String expect) {"
+      },
+      "id": 3969766,
+      "filename": "Book1XlsFormulaEvaluatorTest.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 183,
+      "location": "/zsstest/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969772/",
+      "md5hash": "a2ea1de9cea578566e9d9581695a736d",
+      "lines": {
+        "176": "\tprivate void testToFormulaString(Cell cell, String expect) {",
+        "17": "import org.zkoss.poi.ss.formula.ptg.Ptg;",
+        "18": "import org.zkoss.poi.hssf.usermodel.HSSFEvaluationWorkbook;",
+        "177": "\t\tHSSFEvaluationWorkbook evalbook = HSSFEvaluationWorkbook.create((HSSFWorkbook)_workbook);"
+      },
+      "id": 3969772,
+      "filename": "Book11XlsMergeTest.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 291,
+      "location": "/zsstest/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969777/",
+      "md5hash": "2fb1cfab7fd2f98d783a64c26f26c231",
+      "lines": {
+        "17": "import org.zkoss.poi.ss.formula.ptg.Ptg;",
+        "18": "import org.zkoss.poi.hssf.usermodel.HSSFEvaluationWorkbook;",
+        "284": "\tprivate void testToFormulaString(Cell cell, String expect) {",
+        "285": "\t\tHSSFEvaluationWorkbook evalbook = HSSFEvaluationWorkbook.create((HSSFWorkbook)_workbook);"
+      },
+      "id": 3969777,
+      "filename": "Book09XlsSortTest.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 343,
+      "location": "/zsstest/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969784/",
+      "md5hash": "1d06a734720ad7859d28fa88c8944704",
+      "lines": {
+        "336": "\tprivate void testToFormulaString(Cell cell, String expect) {",
+        "17": "import org.zkoss.poi.ss.formula.ptg.Ptg;",
+        "18": "import org.zkoss.poi.hssf.usermodel.HSSFEvaluationWorkbook;",
+        "337": "\t\tHSSFEvaluationWorkbook evalbook = HSSFEvaluationWorkbook.create((HSSFWorkbook)_workbook);"
+      },
+      "id": 3969784,
+      "filename": "Book06XlsInsertColumnsTest.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 211,
+      "location": "/zsstest/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969785/",
+      "md5hash": "a050d65d5c47cd455483f0ff71e780ef",
+      "lines": {
+        "16": "import org.zkoss.poi.ss.formula.ptg.Ptg;",
+        "17": "import org.zkoss.poi.hssf.usermodel.HSSFEvaluationWorkbook;",
+        "204": "\tprivate void testToFormulaString(Cell cell, String expect) {",
+        "205": "\t\tHSSFEvaluationWorkbook evalbook = HSSFEvaluationWorkbook.create((HSSFWorkbook)_workbook);"
+      },
+      "id": 3969785,
+      "filename": "Book08XlsCopyTest.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 237,
+      "location": "/zsstest/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969789/",
+      "md5hash": "856a27a28198821a41c935ca8965bb20",
+      "lines": {
+        "28": "import org.zkoss.poi.hssf.usermodel.HSSFCell;",
+        "29": "import org.zkoss.poi.hssf.usermodel.HSSFEvaluationWorkbook;",
+        "230": "/*\t\tEvaluationCell srcCell = HSSFEvaluationTestHelper.wrapCell((HSSFCell)cell);",
+        "231": "\t\tHSSFEvaluationWorkbook evalbook = HSSFEvaluationWorkbook.create((HSSFWorkbook)_book);"
+      },
+      "id": 3969789,
+      "filename": "Book01XlsFormulaHitTest.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 272,
+      "location": "/zsstest/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969799/",
+      "md5hash": "b14a5c7c35a5136fa4d309c2d4bec08c",
+      "lines": {
+        "16": "import org.zkoss.poi.ss.formula.ptg.Ptg;",
+        "17": "import org.zkoss.poi.hssf.usermodel.HSSFEvaluationWorkbook;",
+        "266": "\t\tHSSFEvaluationWorkbook evalbook = HSSFEvaluationWorkbook.create((HSSFWorkbook)_workbook);",
+        "265": "\tprivate void testToFormulaString(Cell cell, String expect) {"
+      },
+      "id": 3969799,
+      "filename": "Book04XlsInsertRowsTest.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 124,
+      "location": "/zsstest/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969801/",
+      "md5hash": "3e12b7996a21102fdb73bc84c9040acc",
+      "lines": {
+        "17": "import org.zkoss.poi.ss.formula.ptg.Ptg;",
+        "18": "import org.zkoss.poi.hssf.usermodel.HSSFEvaluationWorkbook;",
+        "117": "\tprivate void testToFormulaString(Cell cell, String expect) {",
+        "118": "\t\tHSSFEvaluationWorkbook evalbook = HSSFEvaluationWorkbook.create((HSSFWorkbook)_workbook);"
+      },
+      "id": 3969801,
+      "filename": "Book10XlsHyperlinkTest.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 251,
+      "location": "/zsstest/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969804/",
+      "md5hash": "e1822ffd2a29dee98dde006088e796ed",
+      "lines": {
+        "16": "import org.zkoss.poi.ss.formula.ptg.Ptg;",
+        "17": "import org.zkoss.poi.hssf.usermodel.HSSFEvaluationWorkbook;",
+        "244": "\tprivate void testToFormulaString(Cell cell, String expect) {",
+        "245": "\t\tHSSFEvaluationWorkbook evalbook = HSSFEvaluationWorkbook.create((HSSFWorkbook)_workbook);"
+      },
+      "id": 3969804,
+      "filename": "Book07XlsDeleteColumnsTest.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 104,
+      "location": "/zsstest/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969787/",
+      "md5hash": "39effe8a8cc85b445af4b345b8e296f1",
+      "lines": {
+        "97": "/*\t\tEvaluationCell srcCell = HSSFEvaluationTestHelper.wrapCell((HSSFCell)cell);",
+        "98": "\t\tHSSFEvaluationWorkbook evalbook = HSSFEvaluationWorkbook.create((HSSFWorkbook)_book);"
+      },
+      "id": 3969787,
+      "filename": "ColumnchartXlsxChartTest.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 83,
+      "location": "/zsstest/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969794/",
+      "md5hash": "8aedc7edc57bd1699d2c77c9d0421688",
+      "lines": {
+        "76": "/*\t\tEvaluationCell srcCell = HSSFEvaluationTestHelper.wrapCell((HSSFCell)cell);",
+        "77": "\t\tHSSFEvaluationWorkbook evalbook = HSSFEvaluationWorkbook.create((HSSFWorkbook)_book);"
+      },
+      "id": 3969794,
+      "filename": "ImageXlsxPictureTest.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 113,
+      "location": "/zsstest/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969805/",
+      "md5hash": "7ca6debfa6e2e91c7ecc0822f45cefaa",
+      "lines": {
+        "106": "/*\t\tEvaluationCell srcCell = HSSFEvaluationTestHelper.wrapCell((HSSFCell)cell);",
+        "107": "\t\tHSSFEvaluationWorkbook evalbook = HSSFEvaluationWorkbook.create((HSSFWorkbook)_book);"
+      },
+      "id": 3969805,
+      "filename": "ColumnchartXlsChartTest.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/zsstest/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969770/",
+      "md5hash": "3c9e2c04fbe50eb85aaa5a98d0e9c4c1",
+      "lines": {
+        "17": "import org.zkoss.poi.ss.formula.ptg.Ptg;",
+        "18": "import org.zkoss.poi.hssf.usermodel.HSSFEvaluationWorkbook;"
+      },
+      "id": 3969770,
+      "filename": "Book10XlsxHyperlinkTest.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 340,
+      "location": "/zsstest/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969773/",
+      "md5hash": "0648872e5d5235e3f7c51691990db533",
+      "lines": {
+        "16": "import org.zkoss.poi.ss.formula.ptg.Ptg;",
+        "17": "import org.zkoss.poi.hssf.usermodel.HSSFEvaluationWorkbook;"
+      },
+      "id": 3969773,
+      "filename": "Book05XlsxDeleteRowsTest.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 354,
+      "location": "/zsstest/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3969774/",
+      "md5hash": "19974ebb655be722c9fab99266c72bc5",
+      "lines": {
+        "16": "import org.zkoss.poi.hssf.usermodel.HSSFEvaluationWorkbook;",
+        "15": "import org.zkoss.poi.ss.formula.ptg.Ptg;"
+      },
+      "id": 3969774,
+      "filename": "Book06XlsxInsertColumnsTest.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 27,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 4,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

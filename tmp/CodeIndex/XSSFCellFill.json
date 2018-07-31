@@ -1,0 +1,59 @@
+{
+  "matchterm": "XSSFCellFill",
+  "previouspage": null,
+  "searchterm": "XSSFCellFill",
+  "query": "XSSFCellFill",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/manticoretrader/etltools",
+      "language": "Java",
+      "linescount": 66,
+      "location": "/src",
+      "name": "etltools",
+      "url": "https://searchcode.com/codesearch/view/121321469/",
+      "md5hash": "aa5cdb3360caf13f65390496ade0595c",
+      "lines": {
+        "16": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellFill;",
+        "56": "      XSSFCellFill fill = stylesSource.getFillAt(cellStyle.getIndex()+1);",
+        "55": "    //for (short i=0; i<stylesSource.getNumCellStyles(); i++) {",
+        "15": "import org.apache.poi.xssf.usermodel.XSSFWorkbook;"
+      },
+      "id": 121321469,
+      "filename": "XLColorTest.java"
+    },
+    {
+      "repo": "https://bitbucket.org/manticoretrader/etltools",
+      "language": "Java",
+      "linescount": 317,
+      "location": "/src/com/manticore/report",
+      "name": "etltools",
+      "url": "https://searchcode.com/codesearch/view/121321564/",
+      "md5hash": "b476b10c4827335f24ae6b4baf18acfc",
+      "lines": {
+        "172": "          short fillId = (short) xssfCellStyle.getCoreXf().getFillId();",
+        "173": "          XSSFCellFill fill = ((XSSFWorkbook) designer.workbook).getStylesSource().getFillAt(fillId);",
+        "22": "import org.apache.poi.xssf.usermodel.XSSFWorkbook;",
+        "23": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellFill;"
+      },
+      "id": 121321564,
+      "filename": "CellRenderer.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

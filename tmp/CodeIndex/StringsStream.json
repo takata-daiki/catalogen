@@ -1,0 +1,398 @@
+{
+  "matchterm": "StringsStream",
+  "previouspage": null,
+  "searchterm": "StringsStream",
+  "query": "StringsStream",
+  "language_filters": [
+    {
+      "count": 51,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 51,
+  "results": [
+    {
+      "repo": "http://facile-api.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 153,
+      "location": "/Facile/at/pollaknet/api/facile/header/cli/stream",
+      "name": "facile-api",
+      "url": "https://searchcode.com/codesearch/view/12576915/",
+      "md5hash": "923cb3589f5a3f62eb6f8ca1689fd56d",
+      "lines": {
+        "17": "\t",
+        "10": "",
+        "11": "public class StringsStream implements IDataHeader {",
+        "18": "\tpublic StringsStream(int size) {"
+      },
+      "id": 12576915,
+      "filename": "StringsStream.java"
+    },
+    {
+      "repo": "https://github.com/commoncrawl/commoncrawl-crawler.git",
+      "language": "Java",
+      "linescount": 2361,
+      "location": "/src/org/commoncrawl/service/listcrawler",
+      "name": "commoncrawl-crawler",
+      "url": "https://searchcode.com/codesearch/view/101729023/",
+      "md5hash": "11616bdf6cb92699871c8e94beb3de30",
+      "lines": {
+        "480": "            // write out fixed data structure and strings ",
+        "481": "            writeInitialOnDiskItem(urlFP,item,valueStream,stringsStream);",
+        "486": "          //valueStream.close();",
+        "471": "        //DataOutputStream valueStream = new DataOutputStream(new FileOutputStream(_fixedDataFile));",
+        "472": "        RandomAccessFile stringsStream = new RandomAccessFile(_variableDataFile, \"rw\");",
+        "487": "          stringsStream.close();"
+      },
+      "id": 101729023,
+      "filename": "CrawlList.java"
+    },
+    {
+      "repo": "http://facile-api.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 997,
+      "location": "/Facile/at/pollaknet/api/facile",
+      "name": "facile-api",
+      "url": "https://searchcode.com/codesearch/view/12576522/",
+      "md5hash": "422a387005d1628c091ab6d62c19888c",
+      "lines": {
+        "128": "\tprivate int indexOfMetadataStream = -1;",
+        "129": "\tprivate int indexOfStringsStream = -1;",
+        "828": "\t * @return The Strings stream as",
+        "829": "\t * {@link at.pollaknet.api.facile.header.cli.stream.StringsStream}",
+        "832": "\tpublic StringsStream getStringsStream() {",
+        "673": "\t\t\t\t\tmetadataStream, stringsStream, userStringStream, guidStream, blobStream);",
+        "672": "\t\t\tmetaModel = new MetadataModel(assemblyHasIlSection, alternativeModuleName,",
+        "28": "import at.pollaknet.api.facile.header.cli.stream.StringsStream;",
+        "525": "\t\t\t} else if(name.equals(STREAM_SIGNATURE_STRINGS)) {",
+        "526": "\t\t\t\tindexOfStringsStream = index;",
+        "111": "\tprivate StringsStream stringsStream;",
+        "110": "\tprivate MetadataStream metadataStream;",
+        "27": "import at.pollaknet.api.facile.header.cli.stream.MetadataStream;",
+        "540": "\t\t//Note: The user string stream and blob stream are not required!",
+        "541": "\t\tif(indexOfMetadataStream==-1 && indexOfStringsStream==-1 &&",
+        "831": "\t */"
+      },
+      "id": 12576522,
+      "filename": "FacileReflector.java"
+    },
+    {
+      "repo": "http://facile-api.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 597,
+      "location": "/Facile/at/pollaknet/api/facile",
+      "name": "facile-api",
+      "url": "https://searchcode.com/codesearch/view/12576520/",
+      "md5hash": "7075a3696b50302999c301281ba485f1",
+      "lines": {
+        "106": "\t\t\t} else if(args[i].equals(\"--#~\")) {",
+        "107": "\t\t\t\toutputStringsStream = true;",
+        "108": "\t\t\t} else if(args[i].equals(\"--#Strings\")) {",
+        "109": "\t\t\t\toutputStringsStream = true;",
+        "174": "\t\tif(outputMetadataStream) \t\tSystem.out.println(facileReflector.getMetadataStream());",
+        "175": "\t\tif(outputStringsStream) \t\tSystem.out.println(facileReflector.getStringsStream());",
+        "464": "\t/**",
+        "465": "\t * Reflects the MetadataStream, StringsStream, UserStringStream, GuidStream",
+        "82": "\t\tboolean outputMetadataStream = false;",
+        "83": "\t\tboolean outputStringsStream = false;",
+        "558": "\t * Treats the specified buffer as binary representation of a .NET assembly and",
+        "150": "\t\tif(outputMetadataStream)\t\tSystem.out.println(\"--#~            : Output #~ (Metadata) Stream\");",
+        "151": "\t\tif(outputStringsStream) \t\tSystem.out.println(\"--#Strings      : Output #Strings Stream\");",
+        "559": "\t * Reflects the MetadataStream, StringsStream, UserStringStream, GuidStream and",
+        "507": "\t/**",
+        "508": "\t * Reflects the MetadataStream, StringsStream, UserStringStream, GuidStream"
+      },
+      "id": 12576520,
+      "filename": "Facile.java"
+    },
+    {
+      "repo": "http://facile-api.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 135,
+      "location": "/Facile/at/pollaknet/api/facile/header/cli/stream/metatable",
+      "name": "facile-api",
+      "url": "https://searchcode.com/codesearch/view/12576933/",
+      "md5hash": "ae845fd7747baed8b0ce654adcee1aa9",
+      "lines": {
+        "132": "\t",
+        "101": "\t",
+        "102": "\tpublic void fill(MetadataModel model, MetadataStream m, StringsStream s, UserStringStream u, GuidStream g, BlobStream b, RenderableCilElement entry[]) {",
+        "9": "import at.pollaknet.api.facile.header.cli.stream.MetadataStream;",
+        "10": "import at.pollaknet.api.facile.header.cli.stream.StringsStream;",
+        "133": "\tprotected abstract void fillRow(MetadataModel model, MetadataStream m, StringsStream s, UserStringStream u, GuidStream g, BlobStream b, RenderableCilElement entry[], int index);\t"
+      },
+      "id": 12576933,
+      "filename": "AbstractTable.java"
+    },
+    {
+      "repo": "http://facile-api.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 420,
+      "location": "/Facile/at/pollaknet/api/facile/metamodel",
+      "name": "facile-api",
+      "url": "https://searchcode.com/codesearch/view/12576526/",
+      "md5hash": "735fd3edc86af4702ff0a462f0bb076f",
+      "lines": {
+        "185": "\tpublic MetadataModel(boolean assemblyHasIlSection, String alternativeModuleName,",
+        "186": "\t\t\tMetadataStream m,  StringsStream s, UserStringStream u, GuidStream g, BlobStream b) {",
+        "5": "import at.pollaknet.api.facile.header.cli.stream.MetadataStream;",
+        "6": "import at.pollaknet.api.facile.header.cli.stream.StringsStream;"
+      },
+      "id": 12576526,
+      "filename": "MetadataModel.java"
+    },
+    {
+      "repo": "http://facile-api.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 110,
+      "location": "/Facile/at/pollaknet/api/facile/header/cli/stream/metatable",
+      "name": "facile-api",
+      "url": "https://searchcode.com/codesearch/view/12576921/",
+      "md5hash": "84ef61d9182aa03621e3114989580177",
+      "lines": {
+        "94": "\tprotected void fillRow(MetadataModel model, MetadataStream m, StringsStream s,",
+        "5": "import at.pollaknet.api.facile.header.cli.stream.MetadataStream;",
+        "6": "import at.pollaknet.api.facile.header.cli.stream.StringsStream;",
+        "93": "\t@Override"
+      },
+      "id": 12576921,
+      "filename": "GenericParamTable.java"
+    },
+    {
+      "repo": "http://facile-api.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 93,
+      "location": "/Facile/at/pollaknet/api/facile/header/cli/stream/metatable",
+      "name": "facile-api",
+      "url": "https://searchcode.com/codesearch/view/12576922/",
+      "md5hash": "b09e48e2e6e524a99cf3c2c222bd16bb",
+      "lines": {
+        "81": "\t@Override",
+        "82": "\tprotected void fillRow(MetadataModel model, MetadataStream m, StringsStream s,",
+        "5": "import at.pollaknet.api.facile.header.cli.stream.MetadataStream;",
+        "6": "import at.pollaknet.api.facile.header.cli.stream.StringsStream;"
+      },
+      "id": 12576922,
+      "filename": "MethodImplTable.java"
+    },
+    {
+      "repo": "http://facile-api.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 120,
+      "location": "/Facile/at/pollaknet/api/facile/header/cli/stream/metatable",
+      "name": "facile-api",
+      "url": "https://searchcode.com/codesearch/view/12576923/",
+      "md5hash": "a41ae3762c3a15a4ffaec35bcecbe446",
+      "lines": {
+        "9": "import at.pollaknet.api.facile.header.cli.stream.MetadataStream;",
+        "10": "import at.pollaknet.api.facile.header.cli.stream.StringsStream;",
+        "101": "\t@Override",
+        "102": "\tprotected void fillRow(MetadataModel model, MetadataStream m, StringsStream s, UserStringStream u, GuidStream g, BlobStream b, RenderableCilElement entry[], int index) {"
+      },
+      "id": 12576923,
+      "filename": "ModuleTable.java"
+    },
+    {
+      "repo": "http://facile-api.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 90,
+      "location": "/Facile/at/pollaknet/api/facile/header/cli/stream/metatable",
+      "name": "facile-api",
+      "url": "https://searchcode.com/codesearch/view/12576924/",
+      "md5hash": "5f0e87fd53cdf65e47efcd7b06c2eb02",
+      "lines": {
+        "78": "\t@Override",
+        "5": "import at.pollaknet.api.facile.header.cli.stream.MetadataStream;",
+        "6": "import at.pollaknet.api.facile.header.cli.stream.StringsStream;",
+        "79": "\tprotected void fillRow(MetadataModel model, MetadataStream m, StringsStream s,"
+      },
+      "id": 12576924,
+      "filename": "TypeRefTable.java"
+    },
+    {
+      "repo": "http://facile-api.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 71,
+      "location": "/Facile/at/pollaknet/api/facile/header/cli/stream/metatable",
+      "name": "facile-api",
+      "url": "https://searchcode.com/codesearch/view/12576925/",
+      "md5hash": "b2818d013af7b0bd5f3ae86eab368018",
+      "lines": {
+        "64": "\t@Override",
+        "65": "\tprotected void fillRow(MetadataModel model, MetadataStream m, StringsStream s,",
+        "5": "import at.pollaknet.api.facile.header.cli.stream.MetadataStream;",
+        "6": "import at.pollaknet.api.facile.header.cli.stream.StringsStream;"
+      },
+      "id": 12576925,
+      "filename": "EncLogTable.java"
+    },
+    {
+      "repo": "http://facile-api.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 94,
+      "location": "/Facile/at/pollaknet/api/facile/header/cli/stream/metatable",
+      "name": "facile-api",
+      "url": "https://searchcode.com/codesearch/view/12576926/",
+      "md5hash": "e6a4ad147e0be9424bdf0b07b98be78c",
+      "lines": {
+        "82": "\t@Override",
+        "83": "\tprotected void fillRow(MetadataModel model, MetadataStream m, StringsStream s,",
+        "5": "import at.pollaknet.api.facile.header.cli.stream.MetadataStream;",
+        "6": "import at.pollaknet.api.facile.header.cli.stream.StringsStream;"
+      },
+      "id": 12576926,
+      "filename": "ConstantTable.java"
+    },
+    {
+      "repo": "http://facile-api.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 64,
+      "location": "/Facile/at/pollaknet/api/facile/header/cli/stream/metatable",
+      "name": "facile-api",
+      "url": "https://searchcode.com/codesearch/view/12576927/",
+      "md5hash": "37e57394d09852771bea01481acdcffc",
+      "lines": {
+        "56": "\tprotected void fillRow(MetadataModel model, MetadataStream m, StringsStream s, ",
+        "5": "import at.pollaknet.api.facile.header.cli.stream.MetadataStream;",
+        "6": "import at.pollaknet.api.facile.header.cli.stream.StringsStream;",
+        "55": "\t@Override"
+      },
+      "id": 12576927,
+      "filename": "AssemblyProcessorTable.java"
+    },
+    {
+      "repo": "http://facile-api.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 71,
+      "location": "/Facile/at/pollaknet/api/facile/header/cli/stream/metatable",
+      "name": "facile-api",
+      "url": "https://searchcode.com/codesearch/view/12576928/",
+      "md5hash": "7c51b2e51749bc9ef588d5b313abbfa7",
+      "lines": {
+        "64": "\t@Override",
+        "65": "\tprotected void fillRow(MetadataModel model, MetadataStream m, StringsStream s,",
+        "5": "import at.pollaknet.api.facile.header.cli.stream.MetadataStream;",
+        "6": "import at.pollaknet.api.facile.header.cli.stream.StringsStream;"
+      },
+      "id": 12576928,
+      "filename": "FieldPtrTable.java"
+    },
+    {
+      "repo": "http://facile-api.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 89,
+      "location": "/Facile/at/pollaknet/api/facile/header/cli/stream/metatable",
+      "name": "facile-api",
+      "url": "https://searchcode.com/codesearch/view/12576929/",
+      "md5hash": "be3d97747d887bcb8291ea03df82acbb",
+      "lines": {
+        "80": "\tprotected void fillRow(MetadataModel model, MetadataStream m, StringsStream s,",
+        "10": "import at.pollaknet.api.facile.header.cli.stream.MetadataStream;",
+        "11": "import at.pollaknet.api.facile.header.cli.stream.StringsStream;",
+        "79": "\t@Override"
+      },
+      "id": 12576929,
+      "filename": "ParamTable.java"
+    },
+    {
+      "repo": "http://facile-api.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 172,
+      "location": "/Facile/at/pollaknet/api/facile/header/cli/stream/metatable",
+      "name": "facile-api",
+      "url": "https://searchcode.com/codesearch/view/12576930/",
+      "md5hash": "c5e350aa37d7869550ec30ab04b1f1eb",
+      "lines": {
+        "112": "\tprotected void fillRow(MetadataModel model, MetadataStream m, StringsStream s,",
+        "5": "import at.pollaknet.api.facile.header.cli.stream.MetadataStream;",
+        "6": "import at.pollaknet.api.facile.header.cli.stream.StringsStream;",
+        "111": "\t@Override"
+      },
+      "id": 12576930,
+      "filename": "TypeDefTable.java"
+    },
+    {
+      "repo": "http://facile-api.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 71,
+      "location": "/Facile/at/pollaknet/api/facile/header/cli/stream/metatable",
+      "name": "facile-api",
+      "url": "https://searchcode.com/codesearch/view/12576931/",
+      "md5hash": "fc03ce3bc4ff3d1720332c94270d7b15",
+      "lines": {
+        "64": "\t@Override",
+        "65": "\tprotected void fillRow(MetadataModel model, MetadataStream m, StringsStream s,",
+        "5": "import at.pollaknet.api.facile.header.cli.stream.MetadataStream;",
+        "6": "import at.pollaknet.api.facile.header.cli.stream.StringsStream;"
+      },
+      "id": 12576931,
+      "filename": "PropertyPtrTable.java"
+    },
+    {
+      "repo": "http://facile-api.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 94,
+      "location": "/Facile/at/pollaknet/api/facile/header/cli/stream/metatable",
+      "name": "facile-api",
+      "url": "https://searchcode.com/codesearch/view/12576932/",
+      "md5hash": "913d34d040f44676d9cb4e0a7358e95b",
+      "lines": {
+        "82": "\t@Override",
+        "83": "\tprotected void fillRow(MetadataModel model, MetadataStream m, StringsStream s,",
+        "5": "import at.pollaknet.api.facile.header.cli.stream.MetadataStream;",
+        "6": "import at.pollaknet.api.facile.header.cli.stream.StringsStream;"
+      },
+      "id": 12576932,
+      "filename": "MethodSemanticsTable.java"
+    },
+    {
+      "repo": "http://facile-api.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 92,
+      "location": "/Facile/at/pollaknet/api/facile/header/cli/stream/metatable",
+      "name": "facile-api",
+      "url": "https://searchcode.com/codesearch/view/12576934/",
+      "md5hash": "aef9d9fd80d0c9eed3388250eccb6a54",
+      "lines": {
+        "80": "\t@Override",
+        "81": "\tprotected void fillRow(MetadataModel model, MetadataStream m, StringsStream s,",
+        "5": "import at.pollaknet.api.facile.header.cli.stream.MetadataStream;",
+        "6": "import at.pollaknet.api.facile.header.cli.stream.StringsStream;"
+      },
+      "id": 12576934,
+      "filename": "DeclSecurityTable.java"
+    },
+    {
+      "repo": "http://facile-api.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 81,
+      "location": "/Facile/at/pollaknet/api/facile/header/cli/stream/metatable",
+      "name": "facile-api",
+      "url": "https://searchcode.com/codesearch/view/12576935/",
+      "md5hash": "ab9391bae769a5a904116869b8d1f7c8",
+      "lines": {
+        "72": "\tprotected void fillRow(MetadataModel model, MetadataStream m, StringsStream s,",
+        "5": "import at.pollaknet.api.facile.header.cli.stream.MetadataStream;",
+        "6": "import at.pollaknet.api.facile.header.cli.stream.StringsStream;",
+        "71": "\t@Override"
+      },
+      "id": 12576935,
+      "filename": "FieldMarshalTable.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 50,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

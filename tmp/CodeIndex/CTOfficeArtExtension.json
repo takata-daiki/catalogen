@@ -1,0 +1,184 @@
+{
+  "matchterm": "CTOfficeArtExtension",
+  "previouspage": null,
+  "searchterm": "CTOfficeArtExtension",
+  "query": "CTOfficeArtExtension",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 57,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402840/",
+      "md5hash": "d4056cb64d408f78195ad20cad361ae7",
+      "lines": {
+        "16": "public interface CTOfficeArtExtension extends org.apache.xmlbeans.XmlObject",
+        "19": "        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CTOfficeArtExtension.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sE130CAA0A01A7CDE5A2B4FEB8B311707\").resolveHandle(\"ctofficeartextension8e53type\");",
+        "18": "    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTOfficeArtExtension",
+        "15": " */"
+      },
+      "id": 97402840,
+      "filename": "CTOfficeArtExtension.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 119,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17641994/",
+      "md5hash": "a18982fe8ec8d6f327d4d27acd04a03e",
+      "lines": {
+        "58": "})",
+        "59": "public class CTOfficeArtExtension {"
+      },
+      "id": 17641994,
+      "filename": "CTOfficeArtExtension.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 181,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403218/",
+      "md5hash": "afd060f450f377a4778675e3af850d84",
+      "lines": {
+        "32": "        {",
+        "33": "            public org.openxmlformats.schemas.drawingml.x2006.main.CTOfficeArtExtension get(int i)",
+        "34": "                { return CTOfficeArtExtensionListImpl.this.getExtArray(i); }",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTOfficeArtExtensionList",
+        "37": "            {",
+        "13": " */",
+        "14": "public class CTOfficeArtExtensionListImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.openxmlformats.schemas.drawingml.x2006.main.CTOfficeArtExtensionList",
+        "16": "    ",
+        "17": "    public CTOfficeArtExtensionListImpl(org.apache.xmlbeans.SchemaType sType)",
+        "35": "            ",
+        "36": "            public org.openxmlformats.schemas.drawingml.x2006.main.CTOfficeArtExtension set(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTOfficeArtExtension o)",
+        "28": "     */",
+        "29": "    public java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTOfficeArtExtension> getExtList()",
+        "30": "    {",
+        "31": "        final class ExtList extends java.util.AbstractList<org.openxmlformats.schemas.drawingml.x2006.main.CTOfficeArtExtension>"
+      },
+      "id": 97403218,
+      "filename": "CTOfficeArtExtensionListImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 73,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403051/",
+      "md5hash": "635e7fae427f91a163c8b4266ddd2ea2",
+      "lines": {
+        "35": "    org.openxmlformats.schemas.drawingml.x2006.main.CTOfficeArtExtension getExtArray(int i);",
+        "34": "     */",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTOfficeArtExtensionList",
+        "54": "     */",
+        "55": "    org.openxmlformats.schemas.drawingml.x2006.main.CTOfficeArtExtension insertNewExt(int i);",
+        "44": "     */",
+        "45": "    void setExtArray(org.openxmlformats.schemas.drawingml.x2006.main.CTOfficeArtExtension[] extArray);",
+        "15": " */",
+        "16": "public interface CTOfficeArtExtensionList extends org.apache.xmlbeans.XmlObject",
+        "49": "     */",
+        "18": "    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)",
+        "19": "        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CTOfficeArtExtensionList.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sE130CAA0A01A7CDE5A2B4FEB8B311707\").resolveHandle(\"ctofficeartextensionlista211type\");",
+        "50": "    void setExtArray(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTOfficeArtExtension ext);",
+        "23": "     */",
+        "24": "    java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTOfficeArtExtension> getExtList();"
+      },
+      "id": 97403051,
+      "filename": "CTOfficeArtExtensionList.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 3480,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642161/",
+      "md5hash": "ecaf98912e449049698e790afd5f5c5a",
+      "lines": {
+        "1185": "    /**",
+        "1186": "     * Create an instance of {@link CTOfficeArtExtension }",
+        "1188": "     */",
+        "1189": "    public CTOfficeArtExtension createCTOfficeArtExtension() {",
+        "1190": "        return new CTOfficeArtExtension();",
+        "1191": "    }",
+        "505": "    /**",
+        "506": "     * Create an instance of {@link CTOfficeArtExtensionList }",
+        "508": "     */",
+        "509": "    public CTOfficeArtExtensionList createCTOfficeArtExtensionList() {",
+        "510": "        return new CTOfficeArtExtensionList();",
+        "511": "    }"
+      },
+      "id": 17642161,
+      "filename": "ObjectFactory.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 88,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642102/",
+      "md5hash": "1689fae639f700c69baa280693085dbc",
+      "lines": {
+        "80": "    public List<CTOfficeArtExtension> getExt() {",
+        "81": "        if (ext == null) {",
+        "82": "            ext = new ArrayList<CTOfficeArtExtension>();",
+        "53": "})",
+        "54": "public class CTOfficeArtExtensionList {",
+        "55": "",
+        "56": "    protected List<CTOfficeArtExtension> ext;",
+        "75": "     * Objects of the following type(s) are allowed in the list",
+        "76": "     * {@link CTOfficeArtExtension }",
+        "79": "     */"
+      },
+      "id": 17642102,
+      "filename": "CTOfficeArtExtensionList.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 118,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97404529/",
+      "md5hash": "871711fa3aefd7894cb2fa2bb58d522d",
+      "lines": {
+        "16": "    ",
+        "17": "    public CTOfficeArtExtensionImpl(org.apache.xmlbeans.SchemaType sType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTOfficeArtExtension",
+        "13": " */",
+        "14": "public class CTOfficeArtExtensionImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.openxmlformats.schemas.drawingml.x2006.main.CTOfficeArtExtension"
+      },
+      "id": 97404529,
+      "filename": "CTOfficeArtExtensionImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

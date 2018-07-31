@@ -1,0 +1,405 @@
+{
+  "matchterm": "HSSFClientAnchor",
+  "previouspage": null,
+  "searchterm": "HSSFClientAnchor",
+  "query": "HSSFClientAnchor",
+  "language_filters": [
+    {
+      "count": 23,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 23,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 267,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642315/",
+      "md5hash": "c3e0fe2f6e0d9fd009e5e9e4ec6febf0",
+      "lines": {
+        "80": "    public HSSFClientAnchor( int dx1, int dy1, int dx2, int dy2, short col1, int row1, short col2, int row2 )",
+        "50": " */",
+        "51": "public class HSSFClientAnchor",
+        "63": "    public HSSFClientAnchor()",
+        "62": "     */",
+        "79": "     */"
+      },
+      "id": 15642315,
+      "filename": "HSSFClientAnchor.java"
+    },
+    {
+      "repo": "https://github.com/dsteiner/wub.git",
+      "language": "Java",
+      "linescount": 227,
+      "location": "/src/main/java/de/dsteiner/wub/web/orderlist/report/excel",
+      "name": "wub",
+      "url": "https://searchcode.com/codesearch/view/112311786/",
+      "md5hash": "b84f8228ffaeba6763bfd2367150c06c",
+      "lines": {
+        "212": "\t\t// anchor defines size and position of the comment in worksheet",
+        "5": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "6": "import org.apache.poi.hssf.usermodel.HSSFClientAnchor;",
+        "213": "\t\tfinal HSSFClientAnchor anchor = new HSSFClientAnchor(0, 0, 0, 0,"
+      },
+      "id": 112311786,
+      "filename": "SheetBuilderBase.java"
+    },
+    {
+      "repo": "https://github.com/dylanvivi/util.git",
+      "language": "Java",
+      "linescount": 419,
+      "location": "/src/main/java/com/dylan/lang",
+      "name": "util",
+      "url": "https://searchcode.com/codesearch/view/73315299/",
+      "md5hash": "a75d39e57f9db6720178088f2a109b58",
+      "lines": {
+        "113": "\t\t// \u5b9a\u4e49\u6ce8\u91ca\u7684\u5927\u5c0f\u548c\u4f4d\u7f6e,\u8be6\u89c1\u6587\u6863",
+        "114": "\t\tHSSFComment comment = patriarch.createComment(new HSSFClientAnchor(0, 0, 0, 0, (short) 4, 2, (short) 6, 5));",
+        "19": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "20": "import org.apache.poi.hssf.usermodel.HSSFClientAnchor;",
+        "325": "\t\t\t\t\t\tHSSFClientAnchor anchor = new HSSFClientAnchor(0, 0, 1023, 255, (short) 6, index, (short) 6,",
+        "324": "\t\t\t\t\t\tbyte[] bsValue = (byte[]) value;",
+        "266": "\t\t// \u5b9a\u4e49\u6ce8\u91ca\u7684\u5927\u5c0f\u548c\u4f4d\u7f6e,\u8be6\u89c1\u6587\u6863",
+        "267": "\t\tHSSFComment comment = patriarch.createComment(new HSSFClientAnchor(0, 0, 0, 0, (short) 4, 2, (short) 6, 5));"
+      },
+      "id": 73315299,
+      "filename": "ExcelUtil.java"
+    },
+    {
+      "repo": "https://bitbucket.org/javier_p_villamizar/smartfreport",
+      "language": "Java",
+      "linescount": 556,
+      "location": "/srcZk/com/smj/webui/component",
+      "name": "smartfreport",
+      "url": "https://searchcode.com/codesearch/view/61719045/",
+      "md5hash": "d7355e6b4eb5fc3ca49f1cc7b1f65dbd",
+      "lines": {
+        "14": "import org.apache.poi.hssf.usermodel.HSSFClientAnchor;",
+        "79": "\t\t\t\tanchor.setAnchorType( 2 );",
+        "76": "\t\t\t\tHSSFPatriarch patriarch = sheet.createDrawingPatriarch();",
+        "13": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "78": "\t\t\t\tanchor = new HSSFClientAnchor(100,50,200,255,(short)0,0,(short)1,1);",
+        "77": "\t\t\t\tHSSFClientAnchor anchor;"
+      },
+      "id": 61719045,
+      "filename": "SmjXlsReport.java"
+    },
+    {
+      "repo": "https://bitbucket.org/anozimada/idempiere-smartreport",
+      "language": "Java",
+      "linescount": 561,
+      "location": "/src/com/smj/webui/component",
+      "name": "iDempiere-SmartReport",
+      "url": "https://searchcode.com/codesearch/view/66638946/",
+      "md5hash": "cca272634349e81e3def153722614272",
+      "lines": {
+        "14": "import org.apache.poi.hssf.usermodel.HSSFClientAnchor;",
+        "79": "\t\t\t\tanchor.setAnchorType( 2 );",
+        "76": "\t\t\t\tHSSFPatriarch patriarch = sheet.createDrawingPatriarch();",
+        "13": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "78": "\t\t\t\tanchor = new HSSFClientAnchor(100,50,200,255,(short)0,0,(short)1,1);",
+        "77": "\t\t\t\tHSSFClientAnchor anchor;"
+      },
+      "id": 66638946,
+      "filename": "SmjXlsReport.java"
+    },
+    {
+      "repo": "https://github.com/nic9805/jeecg.git",
+      "language": "Java",
+      "linescount": 278,
+      "location": "/jeecg-framework/src/main/java/org/jeecgframework/poi/excel",
+      "name": "jeecg",
+      "url": "https://searchcode.com/codesearch/view/93182055/",
+      "md5hash": "87019a72d8e02af505e4e1e5b6ac2ed2",
+      "lines": {
+        "234": "            for (HSSFShape shape : sheet.getDrawingPatriarch().getChildren()) {  ",
+        "11": "import org.apache.poi.POIXMLDocumentPart;",
+        "12": "import org.apache.poi.hssf.usermodel.HSSFClientAnchor;",
+        "235": "                HSSFClientAnchor anchor = (HSSFClientAnchor) shape.getAnchor();  "
+      },
+      "id": 93182055,
+      "filename": "ExcelPublicUtil.java"
+    },
+    {
+      "repo": "https://github.com/nic9805/jeecg.git",
+      "language": "Java",
+      "linescount": 738,
+      "location": "/jeecg-framework/src/main/java/org/jeecgframework/poi/excel",
+      "name": "jeecg",
+      "url": "https://searchcode.com/codesearch/view/93182065/",
+      "md5hash": "05e47765b07d50b8d9c921e4207a2108",
+      "lines": {
+        "387": "\t\trow.createCell(i);",
+        "388": "\t\tHSSFClientAnchor anchor = new HSSFClientAnchor(",
+        "22": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "23": "import org.apache.poi.hssf.usermodel.HSSFClientAnchor;"
+      },
+      "id": 93182065,
+      "filename": "ExcelExportUtil.java"
+    },
+    {
+      "repo": "https://github.com/bluecitymoon/littleshop.git",
+      "language": "Java",
+      "linescount": 91,
+      "location": "/src/main/java/com/ls/upload",
+      "name": "littleshop",
+      "url": "https://searchcode.com/codesearch/view/94171992/",
+      "md5hash": "b56833db7b8492e781ee6d2b2e9e0472",
+      "lines": {
+        "48": "\t\t\tHSSFClientAnchor anchor = new HSSFClientAnchor(0, 0, 1023, 255, col1, row1, col2, row2);",
+        "11": "",
+        "12": "import org.apache.poi.hssf.usermodel.HSSFClientAnchor;",
+        "47": "\t\t\t// HSSFPatriarch patriarch = sheet.createDrawingPatriarch();"
+      },
+      "id": 94171992,
+      "filename": "ImageToExcel.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 202,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642330/",
+      "md5hash": "54b349b51e41e2778e6c5dd6bb3b994a",
+      "lines": {
+        "120": "     *",
+        "100": "    public void resize(){",
+        "101": "        HSSFClientAnchor anchor = (HSSFClientAnchor)getAnchor();",
+        "103": "",
+        "104": "        HSSFClientAnchor pref = getPreferredSize();",
+        "121": "     * @return HSSFClientAnchor with the preferred size for this image",
+        "123": "     */",
+        "124": "    public HSSFClientAnchor getPreferredSize(){",
+        "125": "        HSSFClientAnchor anchor = new HSSFClientAnchor();",
+        "126": ""
+      },
+      "id": 15642330,
+      "filename": "HSSFPicture.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 232,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642333/",
+      "md5hash": "15cf21df230a2e5bafaf6da9ba3a0dc3",
+      "lines": {
+        "128": "    public HSSFPolygon createPolygon(HSSFClientAnchor anchor)",
+        "110": "    public HSSFPicture createPicture(HSSFClientAnchor anchor, int pictureIndex)",
+        "78": "     */",
+        "142": "     */",
+        "127": "     */",
+        "79": "    public HSSFShapeGroup createGroup(HSSFClientAnchor anchor)",
+        "143": "    public HSSFTextbox createTextbox(HSSFClientAnchor anchor)",
+        "109": "     */",
+        "94": "     */",
+        "95": "    public HSSFSimpleShape createSimpleShape(HSSFClientAnchor anchor)"
+      },
+      "id": 15642333,
+      "filename": "HSSFPatriarch.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 766,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642409/",
+      "md5hash": "9e212df4a5b523744fd315d99c376d1b",
+      "lines": {
+        "668": "//        clientAnchor.setRow2( (short) ( (HSSFClientAnchor) shape.getAnchor() ).getRow2() );",
+        "662": "        anchor = ConvertAnchor.createAnchor( shape.getAnchor() );",
+        "663": "//        clientAnchor.setCol1( ( (HSSFClientAnchor) shape.getAnchor() ).getCol1() );",
+        "664": "//        clientAnchor.setRow1( (short) ( (HSSFClientAnchor) shape.getAnchor() ).getRow1() );",
+        "665": "//        clientAnchor.setDx1( (short) shape.getAnchor().getDx1() );",
+        "666": "//        clientAnchor.setDy1( (short) shape.getAnchor().getDy1() );",
+        "667": "//        clientAnchor.setCol2( ( (HSSFClientAnchor) shape.getAnchor() ).getCol2() );",
+        "652": "        sp.setShapeId( shapeId );",
+        "653": "        if (shape.getAnchor() instanceof HSSFClientAnchor)",
+        "669": "//        clientAnchor.setDx2( (short) shape.getAnchor().getDx2() );"
+      },
+      "id": 15642409,
+      "filename": "EscherAggregate.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 91,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642362/",
+      "md5hash": "4a104008df6507ccad1c60c8d405747e",
+      "lines": {
+        "56": "    {",
+        "57": "        if (userAnchor instanceof HSSFClientAnchor)",
+        "58": "        {",
+        "59": "            HSSFClientAnchor a = (HSSFClientAnchor) userAnchor;",
+        "46": "import loci.poi.hssf.usermodel.HSSFAnchor;",
+        "47": "import loci.poi.hssf.usermodel.HSSFClientAnchor;"
+      },
+      "id": 15642362,
+      "filename": "ConvertAnchor.java"
+    },
+    {
+      "repo": "https://github.com/nic9805/jeecg.git",
+      "language": "Java",
+      "linescount": 683,
+      "location": "/jeecg-framework/src/main/java/org/jeecgframework/poi/excel",
+      "name": "jeecg",
+      "url": "https://searchcode.com/codesearch/view/93182060/",
+      "md5hash": "b78eb08bb9239a55be46aa2e9bb49fc7",
+      "lines": {
+        "25": "import org.apache.commons.lang.StringUtils;",
+        "26": "import org.apache.poi.hssf.usermodel.HSSFClientAnchor;",
+        "451": "\t\tClientAnchor anchor = workbook instanceof HSSFWorkbook?",
+        "452": "\t\t\t\tnew HSSFClientAnchor(0, 0, 0, 0, (short) i,"
+      },
+      "id": 93182060,
+      "filename": "ExcelExportOfTemplateUtil.java"
+    },
+    {
+      "repo": "https://bitbucket.org/axelrob/axelrob-espinoza",
+      "language": "Java",
+      "linescount": 556,
+      "location": "/srcZk/com/smj/webui/component",
+      "name": "axelrob-espinoza",
+      "url": "https://searchcode.com/codesearch/view/133035254/",
+      "md5hash": "d7355e6b4eb5fc3ca49f1cc7b1f65dbd",
+      "lines": {
+        "14": "import org.apache.poi.hssf.usermodel.HSSFClientAnchor;",
+        "79": "\t\t\t\tanchor.setAnchorType( 2 );",
+        "76": "\t\t\t\tHSSFPatriarch patriarch = sheet.createDrawingPatriarch();",
+        "13": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "78": "\t\t\t\tanchor = new HSSFClientAnchor(100,50,200,255,(short)0,0,(short)1,1);",
+        "77": "\t\t\t\tHSSFClientAnchor anchor;"
+      },
+      "id": 133035254,
+      "filename": "SmjXlsReport.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 235,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642311/",
+      "md5hash": "d5e0db479e75ee7b4827e562ed535b24",
+      "lines": {
+        "99": "     * Sets a particular anchor.  A top-level shape must have an anchor of",
+        "100": "     * HSSFClientAnchor.  A child anchor must have an anchor of HSSFChildAnchor",
+        "117": "        {",
+        "118": "            if ( anchor instanceof HSSFClientAnchor )",
+        "106": "     * @see HSSFChildAnchor",
+        "107": "     * @see HSSFClientAnchor"
+      },
+      "id": 15642311,
+      "filename": "HSSFShape.java"
+    },
+    {
+      "repo": "http://sigma-h.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 380,
+      "location": "/sigmah/src/main/java/org/sigmah/server/endpoint/export",
+      "name": "sigma-h",
+      "url": "https://searchcode.com/codesearch/view/558689/",
+      "md5hash": "9887d9243cb2e3a3f5526b9b99870189",
+      "lines": {
+        "8": "import org.apache.poi.hssf.usermodel.HSSFClientAnchor;",
+        "265": "            if (site.getComments() != null) {",
+        "266": "                Comment comment = patr.createComment(new HSSFClientAnchor(0, 0, 0, 0, (short) 4, 2, (short) 8, 10));",
+        "7": ""
+      },
+      "id": 558689,
+      "filename": "Export.java"
+    },
+    {
+      "repo": "http://sqlreport.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 321,
+      "location": "/java/sourcecode/Excel/src/com/jeasonzhao/commons/excel",
+      "name": "sqlreport",
+      "url": "https://searchcode.com/codesearch/view/3760572/",
+      "md5hash": "ceb3bff690ff223b6dbcf03afdeb2f02",
+      "lines": {
+        "305": "            HSSFPatriarch hssfp = m_sheet.getHSSFPatriarch();",
+        "306": "            comment = hssfp.createComment(new HSSFClientAnchor(0,0,0,0,",
+        "6": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "7": "import org.apache.poi.hssf.usermodel.HSSFClientAnchor;"
+      },
+      "id": 3760572,
+      "filename": "Cell.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 2379,
+      "location": "/zss/src/org/zkoss/zss/ui/sys",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/9943391/",
+      "md5hash": "03237e3b9ac4667bc4fcef2a9d8cebb2",
+      "lines": {
+        "26": "import org.zkoss.lang.Strings;",
+        "27": "import org.zkoss.poi.hssf.usermodel.HSSFClientAnchor;",
+        "2326": "\t\tif (_spreadsheet.getBook() instanceof HSSFWorkbook) {",
+        "2327": "\t\t\treturn new HSSFClientAnchor(0, 0, offsetWidth, offsetHeight, (short)lCol, tRow, (short)rCol, bRow);"
+      },
+      "id": 9943391,
+      "filename": "ActionHandler.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642307/",
+      "md5hash": "b9e2e59f239e91e2c0b3f3e3fc54eeac",
+      "lines": {
+        "58": "     * @param parent",
+        "59": "     * @param anchor  One of HSSFClientAnchor or HSSFChildAnchor"
+      },
+      "id": 15642307,
+      "filename": "HSSFTextbox.java"
+    },
+    {
+      "repo": "https://github.com/leonate/poitest.git",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/src/test/java/org/poitest",
+      "name": "poitest",
+      "url": "https://searchcode.com/codesearch/view/65741366/",
+      "md5hash": "1a6270b039e38db0d7f32d3ab5f0cd70",
+      "lines": {
+        "6": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "7": "import org.apache.poi.hssf.usermodel.HSSFClientAnchor;"
+      },
+      "id": 65741366,
+      "filename": "XlsCellInfo.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 17,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 3,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 3,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

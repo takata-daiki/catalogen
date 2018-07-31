@@ -1,0 +1,95 @@
+{
+  "matchterm": "FormulaRenderingWorkbook",
+  "previouspage": null,
+  "searchterm": "FormulaRenderingWorkbook",
+  "query": "FormulaRenderingWorkbook",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/manticoretrader/etltools",
+      "language": "Java",
+      "linescount": 297,
+      "location": "/src/com/manticore/report",
+      "name": "etltools",
+      "url": "https://searchcode.com/codesearch/view/121321570/",
+      "md5hash": "7585d5862f58929ffd0917b3367eea3f",
+      "lines": {
+        "240": "\t\t\tFormulaRenderingWorkbook renderingWorkbook = null;",
+        "66": "\tpublic static void shiftRows(Workbook workbook, Sheet worksheet, FormulaParsingWorkbook parsingWorkbook,",
+        "67": "\t\t\t\t\t\t\t\t FormulaRenderingWorkbook renderingWorkbook, int rowNum) {",
+        "27": "\t\t\t\t\t\t\t\t\t\t FormulaParsingWorkbook parsingWorkbook,",
+        "28": "\t\t\t\t\t\t\t\t\t\t FormulaRenderingWorkbook renderingWorkbook, int rowOffset, int colOffset) {",
+        "239": "\t\t\tFormulaParsingWorkbook parsingWorkbook = null;"
+      },
+      "id": 121321570,
+      "filename": "ExcelTools.java"
+    },
+    {
+      "repo": "https://bitbucket.org/manticoretrader/etltools",
+      "language": "Java",
+      "linescount": 82,
+      "location": "/src",
+      "name": "etltools",
+      "url": "https://searchcode.com/codesearch/view/121321450/",
+      "md5hash": "55c7924873922e4c366114d00a2577bf",
+      "lines": {
+        "49": "    FormulaParsingWorkbook parsingWorkbook = null;",
+        "50": "    FormulaRenderingWorkbook renderingWorkbook = null;",
+        "12": "import org.apache.poi.ss.formula.FormulaParsingWorkbook;",
+        "13": "import org.apache.poi.ss.formula.FormulaRenderingWorkbook;"
+      },
+      "id": 121321450,
+      "filename": "ExcelFormulaParser.java"
+    },
+    {
+      "repo": "https://bitbucket.org/manticoretrader/etltools",
+      "language": "Java",
+      "linescount": 91,
+      "location": "/src/com/manticore/report",
+      "name": "etltools",
+      "url": "https://searchcode.com/codesearch/view/121321561/",
+      "md5hash": "7b68c9964bb208d63c4c92c259779657",
+      "lines": {
+        "24": "import org.apache.poi.ss.formula.FormulaParsingWorkbook;",
+        "25": "import org.apache.poi.ss.formula.FormulaRenderingWorkbook;",
+        "51": "                                                       : XSSFEvaluationWorkbook.create((XSSFWorkbook) workbook);",
+        "52": "        final FormulaRenderingWorkbook renderingWorkbook = (workbook instanceof HSSFWorkbook)"
+      },
+      "id": 121321561,
+      "filename": "FormulaTest.java"
+    },
+    {
+      "repo": "https://bitbucket.org/manticoretrader/etltools",
+      "language": "Java",
+      "linescount": 494,
+      "location": "/src/com/manticore/report",
+      "name": "etltools",
+      "url": "https://searchcode.com/codesearch/view/121321567/",
+      "md5hash": "a9d117f3059083eddf99b000216ad9a0",
+      "lines": {
+        "305": "          : XSSFEvaluationWorkbook.create((XSSFWorkbook) workbook);",
+        "306": "      final FormulaRenderingWorkbook renderingWorkbook = (workbook instanceof HSSFWorkbook)",
+        "27": "import org.apache.poi.ss.formula.FormulaParsingWorkbook;",
+        "28": "import org.apache.poi.ss.formula.FormulaRenderingWorkbook;"
+      },
+      "id": 121321567,
+      "filename": "FixFormatReport.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

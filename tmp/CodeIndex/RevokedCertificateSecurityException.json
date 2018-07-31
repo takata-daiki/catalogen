@@ -1,0 +1,167 @@
+{
+  "matchterm": "RevokedCertificateSecurityException",
+  "previouspage": null,
+  "searchterm": "RevokedCertificateSecurityException",
+  "query": "RevokedCertificateSecurityException",
+  "language_filters": [
+    {
+      "count": 8,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 8,
+  "results": [
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 778,
+      "location": "/eid-applet-service/src/main/java/be/fedict/eid/applet/service/impl/handler",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982729/",
+      "md5hash": "77ae6a0dffd823b6c1ab6fea76bce2e9",
+      "lines": {
+        "494": "\t\t\t\t\tif (exception instanceof RevokedCertificateSecurityException) {",
+        "468": "\t\t\t\treturn new FinishedMessage(ErrorCode.CERTIFICATE_EXPIRED);",
+        "469": "\t\t\t} catch (RevokedCertificateSecurityException e) {",
+        "377": "\t\t\t\t}",
+        "73": "import be.fedict.eid.applet.service.spi.PreSignResult;",
+        "74": "import be.fedict.eid.applet.service.spi.RevokedCertificateSecurityException;",
+        "493": "\t\t\t\t\t}",
+        "378": "\t\t\t\tif (exception instanceof RevokedCertificateSecurityException) {",
+        "350": "\t\t\treturn new FinishedMessage(ErrorCode.CERTIFICATE_EXPIRED);",
+        "351": "\t\t} catch (RevokedCertificateSecurityException e) {"
+      },
+      "id": 7982729,
+      "filename": "AuthenticationDataMessageHandler.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 502,
+      "location": "/eid-applet-service/src/main/java/be/fedict/eid/applet/service/impl/handler",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982731/",
+      "md5hash": "197cc25e189cbe7ac6d28e064155352a",
+      "lines": {
+        "244": "\t\t\t\treturn new FinishedMessage(ErrorCode.CERTIFICATE_EXPIRED);",
+        "245": "\t\t\t} catch (RevokedCertificateSecurityException e) {",
+        "59": "import be.fedict.eid.applet.service.spi.IdentityIntegrityService;",
+        "60": "import be.fedict.eid.applet.service.spi.RevokedCertificateSecurityException;",
+        "269": "\t\t\t\t\t}",
+        "270": "\t\t\t\t\tif (exception instanceof RevokedCertificateSecurityException) {"
+      },
+      "id": 7982731,
+      "filename": "IdentityDataMessageHandler.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 274,
+      "location": "/eid-applet-service/src/main/java/be/fedict/eid/applet/service/impl/handler",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982733/",
+      "md5hash": "9558d67e66d4bd54f95b412ececb108f",
+      "lines": {
+        "208": "\t\t\treturn new FinishedMessage(ErrorCode.CERTIFICATE_EXPIRED);",
+        "209": "\t\t} catch (RevokedCertificateSecurityException e) {",
+        "236": "\t\t\t\tif (exception instanceof RevokedCertificateSecurityException) {",
+        "235": "\t\t\t\t}",
+        "44": "import be.fedict.eid.applet.service.spi.ExpiredCertificateSecurityException;",
+        "45": "import be.fedict.eid.applet.service.spi.RevokedCertificateSecurityException;"
+      },
+      "id": 7982733,
+      "filename": "SignatureDataMessageHandler.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 47,
+      "location": "/eid-applet-test/eid-applet-test-model/src/main/java/test/be/fedict/eid/applet/model",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982852/",
+      "md5hash": "b7fe8de5f848d48ca6745e32bf8b5a4f",
+      "lines": {
+        "43": "\t\tLOG.debug(\"validate certificate chain: \" + certificateChain);",
+        "44": "\t\tthrow new RevokedCertificateSecurityException();",
+        "30": "",
+        "31": "import be.fedict.eid.applet.service.spi.RevokedCertificateSecurityException;"
+      },
+      "id": 7982852,
+      "filename": "AuthenticationRevokeServiceBean.java"
+    },
+    {
+      "repo": "http://eid-idp.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 139,
+      "location": "/eid-idp-model/src/main/java/be/fedict/eid/idp/model/applet",
+      "name": "eid-idp",
+      "url": "https://searchcode.com/codesearch/view/12938365/",
+      "md5hash": "e4692bae30ad10169aba2556faecb85a",
+      "lines": {
+        "123": "\t\t\t\t\t\t.equals(XKMSConstants.KEY_BINDING_REASON_REVOCATION_STATUS_URI)) {",
+        "34": "import be.fedict.eid.applet.service.spi.ExpiredCertificateSecurityException;",
+        "35": "import be.fedict.eid.applet.service.spi.RevokedCertificateSecurityException;",
+        "124": "\t\t\t\t\tthrow new RevokedCertificateSecurityException();"
+      },
+      "id": 12938365,
+      "filename": "AuthenticationServiceBean.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 48,
+      "location": "/eid-applet-test/eid-applet-test-model/src/main/java/test/be/fedict/eid/applet/model",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/14288929/",
+      "md5hash": "ff137922ac3fd36cb3018947a07b61ee",
+      "lines": {
+        "44": "",
+        "45": "\t\tthrow new RevokedCertificateSecurityException();",
+        "30": "",
+        "31": "import be.fedict.eid.applet.service.spi.RevokedCertificateSecurityException;"
+      },
+      "id": 14288929,
+      "filename": "IdentityIntegrityServiceErrorBean.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 59,
+      "location": "/eid-applet-service-spi/src/main/java/be/fedict/eid/applet/service/spi",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982818/",
+      "md5hash": "d2e5b3f3b228e93b29335a1e238cef5c",
+      "lines": {
+        "54": "\t\t\tthrows ExpiredCertificateSecurityException,",
+        "55": "\t\t\tRevokedCertificateSecurityException,"
+      },
+      "id": 7982818,
+      "filename": "AuthenticationService.java"
+    },
+    {
+      "repo": "http://eid-applet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 86,
+      "location": "/eid-applet-service-spi/src/main/java/be/fedict/eid/applet/service/spi",
+      "name": "eid-applet",
+      "url": "https://searchcode.com/codesearch/view/7982827/",
+      "md5hash": "a2aa6671731b20843abe1d40e91b13db",
+      "lines": {
+        "81": "\t\t\tthrows ExpiredCertificateSecurityException,",
+        "82": "\t\t\tRevokedCertificateSecurityException,"
+      },
+      "id": 7982827,
+      "filename": "SignatureService.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 8,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

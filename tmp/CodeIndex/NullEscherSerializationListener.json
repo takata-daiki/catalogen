@@ -1,0 +1,303 @@
+{
+  "matchterm": "NullEscherSerializationListener",
+  "previouspage": null,
+  "searchterm": "NullEscherSerializationListener",
+  "query": "NullEscherSerializationListener",
+  "language_filters": [
+    {
+      "count": 18,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 18,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 61,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642616/",
+      "md5hash": "e1a9492dcb7604c32624cd2d3ac402d3",
+      "lines": {
+        "48": "public class NullEscherSerializationListener implements EscherSerializationListener",
+        "47": " */"
+      },
+      "id": 15642616,
+      "filename": "NullEscherSerializationListener.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 327,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642502/",
+      "md5hash": "93371d2d221b0ae6800fc5720ed4f71b",
+      "lines": {
+        "196": "//                EscherRecord r = (EscherRecord) iterator.next();",
+        "197": "//                pos += r.serialize(pos, data, new NullEscherSerializationListener() );",
+        "172": "                EscherRecord r = (EscherRecord) iterator.next();",
+        "173": "                pos += r.serialize( pos, data, new NullEscherSerializationListener() );",
+        "46": "import loci.poi.ddf.EscherRecordFactory;",
+        "47": "import loci.poi.ddf.NullEscherSerializationListener;"
+      },
+      "id": 15642502,
+      "filename": "AbstractEscherHolderRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 465,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642608/",
+      "md5hash": "8eff335d4d8014a4a1105e64c94acc96",
+      "lines": {
+        "144": "     * @see NullEscherSerializationListener",
+        "175": "            bytesWritten = field_12_blipRecord.serialize( offset + 44, data, new NullEscherSerializationListener() );",
+        "174": "        {",
+        "143": "     * @return The number of bytes written."
+      },
+      "id": 15642608,
+      "filename": "EscherBSERecord.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 372,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383903/",
+      "md5hash": "55468369a48912dbce2e789206e3986d",
+      "lines": {
+        "117": "        {",
+        "118": "            bytesWritten = field_12_blipRecord.serialize( offset + 44, data, new NullEscherSerializationListener() );"
+      },
+      "id": 97383903,
+      "filename": "EscherBSERecord.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 322,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383909/",
+      "md5hash": "d0b88848862162325ab9179b12c048d1",
+      "lines": {
+        "163": "    {",
+        "164": "        return serialize( offset, data, new NullEscherSerializationListener() );"
+      },
+      "id": 97383909,
+      "filename": "EscherRecord.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 236,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383949/",
+      "md5hash": "4b67801d2afc893664d4989e929e2374",
+      "lines": {
+        "70": "     *",
+        "71": "     * @see NullEscherSerializationListener"
+      },
+      "id": 97383949,
+      "filename": "EscherSpRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 166,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642447/",
+      "md5hash": "0f1467d5ee2b3eea3ef4caa4c9290b32",
+      "lines": {
+        "92": "                pos += r.serialize(pos, buffer, new NullEscherSerializationListener() );",
+        "91": "                EscherRecord r = (EscherRecord) iterator.next();",
+        "43": "import loci.poi.ddf.EscherRecord;",
+        "44": "import loci.poi.ddf.NullEscherSerializationListener;"
+      },
+      "id": 15642447,
+      "filename": "DrawingGroupRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 215,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642604/",
+      "md5hash": "3308acafb0e4445385ac4670a7f43d75",
+      "lines": {
+        "89": "     * @return The number of bytes written.",
+        "90": "     * @see NullEscherSerializationListener"
+      },
+      "id": 15642604,
+      "filename": "EscherOptRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 373,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642609/",
+      "md5hash": "b31460ee9e68bd35115a605f8500fa9a",
+      "lines": {
+        "116": "     * @return The number of bytes written.",
+        "117": "     * @see NullEscherSerializationListener"
+      },
+      "id": 15642609,
+      "filename": "EscherClientAnchorRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 314,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642611/",
+      "md5hash": "d9aa6aea3188d10ae08bfcc02763d291",
+      "lines": {
+        "160": "        return serialize( offset, data, new NullEscherSerializationListener() );",
+        "159": "    {"
+      },
+      "id": 15642611,
+      "filename": "EscherRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 459,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642614/",
+      "md5hash": "ae9cbdd1d37d54331114edfef8cee9d5",
+      "lines": {
+        "129": "     *",
+        "130": "     * @see NullEscherSerializationListener"
+      },
+      "id": 15642614,
+      "filename": "EscherBlipWMFRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 233,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642618/",
+      "md5hash": "9f22e6e748bbd376982b794b2004e61a",
+      "lines": {
+        "96": "     * @see NullEscherSerializationListener",
+        "95": "     *"
+      },
+      "id": 15642618,
+      "filename": "EscherSpgrRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 212,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642623/",
+      "md5hash": "3c903542f39c3f972f6f7ca33cf23758",
+      "lines": {
+        "94": "     *",
+        "95": "     * @see NullEscherSerializationListener"
+      },
+      "id": 15642623,
+      "filename": "EscherSplitMenuColorsRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 217,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642628/",
+      "md5hash": "fd440ffa8711d04c705bcf6d4fc18f7c",
+      "lines": {
+        "90": "     * @return The number of bytes written.",
+        "91": "     * @see NullEscherSerializationListener"
+      },
+      "id": 15642628,
+      "filename": "EscherChildAnchorRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 245,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642629/",
+      "md5hash": "daab619e0763359fdbc407e23662ab74",
+      "lines": {
+        "102": "     *",
+        "103": "     * @see NullEscherSerializationListener"
+      },
+      "id": 15642629,
+      "filename": "EscherSpRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 285,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642630/",
+      "md5hash": "b3d4381212f5e03f34ff5119465d045a",
+      "lines": {
+        "128": "     * @see NullEscherSerializationListener",
+        "127": "     *"
+      },
+      "id": 15642630,
+      "filename": "EscherDggRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 171,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642633/",
+      "md5hash": "44ea36b2160a5de88efcc8e00dc4d01e",
+      "lines": {
+        "85": "     * @return The number of bytes written.",
+        "86": "     * @see NullEscherSerializationListener"
+      },
+      "id": 15642633,
+      "filename": "EscherClientDataRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 204,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642635/",
+      "md5hash": "e2c14d6a814d695942c67c22c3b7413d",
+      "lines": {
+        "88": "     * @return The number of bytes written.",
+        "89": "     * @see NullEscherSerializationListener"
+      },
+      "id": 15642635,
+      "filename": "EscherDgRecord.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 18,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

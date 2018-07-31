@@ -1,0 +1,281 @@
+{
+  "matchterm": "HSSFAnchor",
+  "previouspage": null,
+  "searchterm": "HSSFAnchor",
+  "query": "HSSFAnchor",
+  "language_filters": [
+    {
+      "count": 16,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 16,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 80,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642309/",
+      "md5hash": "e699c973802edcb2108aded6b557b1d8",
+      "lines": {
+        "48": " */",
+        "49": "public abstract class HSSFAnchor",
+        "55": "",
+        "56": "    public HSSFAnchor()",
+        "59": "",
+        "60": "    public HSSFAnchor( int dx1, int dy1, int dx2, int dy2 )"
+      },
+      "id": 15642309,
+      "filename": "HSSFAnchor.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 235,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642311/",
+      "md5hash": "d5e0db479e75ee7b4827e562ed535b24",
+      "lines": {
+        "65": "    HSSFShape parent;",
+        "66": "    HSSFAnchor anchor;",
+        "108": "     */",
+        "76": "    HSSFShape( HSSFShape parent, HSSFAnchor anchor )",
+        "75": "     */",
+        "92": "     */",
+        "93": "    public HSSFAnchor getAnchor()",
+        "109": "    public void setAnchor( HSSFAnchor anchor )"
+      },
+      "id": 15642311,
+      "filename": "HSSFShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 185,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642324/",
+      "md5hash": "fc029136a3141517ec69866f71588552",
+      "lines": {
+        "86": "        this( (HSSFShape)null, (HSSFAnchor)null );",
+        "69": "     */",
+        "70": "    public HSSFComment( HSSFShape parent, HSSFAnchor anchor )",
+        "85": "    {"
+      },
+      "id": 15642324,
+      "filename": "HSSFComment.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 174,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642354/",
+      "md5hash": "4b8479a67e34a342cfde58c7278efb63",
+      "lines": {
+        "123": "     */",
+        "124": "    protected EscherRecord createAnchor( HSSFAnchor userAnchor )",
+        "118": "    /**",
+        "119": "     * Creates an escher anchor record from a HSSFAnchor."
+      },
+      "id": 15642354,
+      "filename": "AbstractShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 91,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642362/",
+      "md5hash": "4a104008df6507ccad1c60c8d405747e",
+      "lines": {
+        "54": "{",
+        "45": "import loci.poi.ddf.EscherChildAnchorRecord;",
+        "46": "import loci.poi.hssf.usermodel.HSSFAnchor;",
+        "55": "    public static EscherRecord createAnchor( HSSFAnchor userAnchor )"
+      },
+      "id": 15642362,
+      "filename": "ConvertAnchor.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 204,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642300/",
+      "md5hash": "e2d5d76c6a10bbbf99c420548d2f8688",
+      "lines": {
+        "62": "",
+        "63": "    public HSSFShapeGroup( HSSFShape parent, HSSFAnchor anchor )"
+      },
+      "id": 15642300,
+      "filename": "HSSFShapeGroup.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642307/",
+      "md5hash": "b9e2e59f239e91e2c0b3f3e3fc54eeac",
+      "lines": {
+        "60": "     */",
+        "61": "    public HSSFTextbox( HSSFShape parent, HSSFAnchor anchor )"
+      },
+      "id": 15642307,
+      "filename": "HSSFTextbox.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 108,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642314/",
+      "md5hash": "a57a990edbc21a5ab80edf9fae7e9954",
+      "lines": {
+        "76": "",
+        "77": "    HSSFSimpleShape( HSSFShape parent, HSSFAnchor anchor )"
+      },
+      "id": 15642314,
+      "filename": "HSSFSimpleShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 267,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642315/",
+      "md5hash": "c3e0fe2f6e0d9fd009e5e9e4ec6febf0",
+      "lines": {
+        "51": "public class HSSFClientAnchor",
+        "52": "        extends HSSFAnchor"
+      },
+      "id": 15642315,
+      "filename": "HSSFClientAnchor.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 77,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642321/",
+      "md5hash": "5d9b7ec6225045ddb6c50adcb1c13bee",
+      "lines": {
+        "46": "public class HSSFChildAnchor",
+        "47": "        extends HSSFAnchor"
+      },
+      "id": 15642321,
+      "filename": "HSSFChildAnchor.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 106,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642328/",
+      "md5hash": "55ca1e15d1fecace7292ce779ce4d32e",
+      "lines": {
+        "52": "",
+        "53": "    HSSFPolygon( HSSFShape parent, HSSFAnchor anchor )"
+      },
+      "id": 15642328,
+      "filename": "HSSFPolygon.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 202,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642330/",
+      "md5hash": "54b349b51e41e2778e6c5dd6bb3b994a",
+      "lines": {
+        "78": "     */",
+        "79": "    HSSFPicture( HSSFShape parent, HSSFAnchor anchor )"
+      },
+      "id": 15642330,
+      "filename": "HSSFPicture.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 232,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642333/",
+      "md5hash": "15cf21df230a2e5bafaf6da9ba3a0dc3",
+      "lines": {
+        "157": "     */",
+        "158": "   public HSSFComment createComment(HSSFAnchor anchor)"
+      },
+      "id": 15642333,
+      "filename": "HSSFPatriarch.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 155,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642357/",
+      "md5hash": "3fac04b2d420f2a566cce5b6a652e8c5",
+      "lines": {
+        "96": "        addStandardOptions(shape, opt);",
+        "97": "        HSSFAnchor userAnchor = shape.getAnchor();"
+      },
+      "id": 15642357,
+      "filename": "PictureShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642361/",
+      "md5hash": "e8926e1642d96e5be85459525b4970cd",
+      "lines": {
+        "96": "        HSSFAnchor userAnchor = shape.getAnchor();",
+        "95": "        addStandardOptions(shape, opt);"
+      },
+      "id": 15642361,
+      "filename": "LineShape.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 192,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642364/",
+      "md5hash": "caf9b32bdd1d6052248a6d5f8cf5c345",
+      "lines": {
+        "129": "        addStandardOptions( shape, opt );",
+        "130": "        HSSFAnchor userAnchor = shape.getAnchor();"
+      },
+      "id": 15642364,
+      "filename": "TextboxShape.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 16,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

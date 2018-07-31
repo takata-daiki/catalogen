@@ -1,0 +1,143 @@
+{
+  "matchterm": "WindowTwoRecord",
+  "previouspage": null,
+  "searchterm": "WindowTwoRecord",
+  "query": "WindowTwoRecord",
+  "language_filters": [
+    {
+      "count": 6,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 6,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 601,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642528/",
+      "md5hash": "2f0b316a26e7d5bbbbe5284b2b9eb7ec",
+      "lines": {
+        "99": "",
+        "100": "    public WindowTwoRecord(RecordInputStream in)",
+        "56": "",
+        "57": "public class WindowTwoRecord",
+        "90": "",
+        "91": "    public WindowTwoRecord()",
+        "589": "    public Object clone() {",
+        "590": "      WindowTwoRecord rec = new WindowTwoRecord();"
+      },
+      "id": 15642528,
+      "filename": "WindowTwoRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 3300,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642365/",
+      "md5hash": "1e8d548d196dc1063c30d9430b35b9f5",
+      "lines": {
+        "1216": "         *   if (rec.getSid() == WindowTwoRecord.sid)",
+        "2689": "            {",
+        "2690": "                loc = findFirstRecordLocBySid( WindowTwoRecord.sid );",
+        "2437": "    \t",
+        "2438": "        int loc = findFirstRecordLocBySid(WindowTwoRecord.sid);",
+        "295": "            }",
+        "2248": "            int windowRecordLoc = findFirstRecordLocBySid(WindowTwoRecord.sid);",
+        "297": "            {",
+        "298": "                retval.windowTwo = (WindowTwoRecord) rec;",
+        "2247": "            // Insert it after the window record",
+        "1164": "         *   }",
+        "1165": "         *   if (rec.getSid() == WindowTwoRecord.sid)",
+        "296": "            else if ( rec.getSid() == WindowTwoRecord.sid )",
+        "2486": "    \t",
+        "2487": "        int loc = findFirstRecordLocBySid(WindowTwoRecord.sid);",
+        "1215": "         *   }"
+      },
+      "id": 15642365,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1445,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642316/",
+      "md5hash": "4f7b036daf89776dc4ee4606b7972144",
+      "lines": {
+        "775": "",
+        "577": "        workbook.setSheetName(sheets.size() - 1, sheetname);",
+        "578": "        WindowTwoRecord windowTwo = (WindowTwoRecord) sheet.getSheet().findFirstRecordBySid(WindowTwoRecord.sid);",
+        "518": "                \"Sheet\" + (sheets.size() - 1));",
+        "535": "        HSSFSheet clonedSheet = srcSheet.cloneSheet(this);",
+        "536": "        WindowTwoRecord windowTwo = (WindowTwoRecord) clonedSheet.getSheet().findFirstRecordBySid(WindowTwoRecord.sid);",
+        "519": "        WindowTwoRecord windowTwo = (WindowTwoRecord) sheet.getSheet().findFirstRecordBySid(WindowTwoRecord.sid);",
+        "776": "        WindowTwoRecord w2 = (WindowTwoRecord) sheet.getSheet().findFirstRecordBySid(WindowTwoRecord.sid);"
+      },
+      "id": 15642316,
+      "filename": "HSSFWorkbook.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642343/",
+      "md5hash": "468caa59753e7c2d27a76f3903f70894",
+      "lines": {
+        "128": "import loci.poi.hssf.record.WindowProtectRecord;",
+        "129": "import loci.poi.hssf.record.WindowTwoRecord;",
+        "178": "                WindowTwoRecord.class, SelectionRecord.class, ContinueRecord.class,",
+        "177": "                RKRecord.class, NumberRecord.class, DBCellRecord.class,"
+      },
+      "id": 15642343,
+      "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1607,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642322/",
+      "md5hash": "5084cc24e46752bd3911d5d0a983e0a6",
+      "lines": {
+        "1141": "    {",
+        "1142": "        int window2Loc = sheet.findFirstRecordLocBySid( WindowTwoRecord.sid );"
+      },
+      "id": 15642322,
+      "filename": "HSSFSheet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "88": "                WindowTwoRecord.class, SelectionRecord.class, ContinueRecord.class,",
+        "87": "                RKRecord.class, NumberRecord.class, DBCellRecord.class,"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 6,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

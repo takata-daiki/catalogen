@@ -1,0 +1,112 @@
+{
+  "matchterm": "SprmIterator",
+  "previouspage": null,
+  "searchterm": "SprmIterator",
+  "query": "SprmIterator",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 764,
+      "location": "/src/org/apache/poi/hwpf/dev",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384386/",
+      "md5hash": "a5fd3aeec9338ae1535ca742a1539e0e",
+      "lines": {
+        "736": "                            new SprmIterator( listLevel.getGrpprlPapx(), 0 ),",
+        "705": "            if ( styleDescription.getPAPX() != null )",
+        "706": "                dumpSprms( new SprmIterator( styleDescription.getPAPX(), 2 ),",
+        "580": "                {",
+        "54": "import org.apache.poi.hwpf.sprm.SprmIterator;",
+        "646": "",
+        "647": "    protected void dumpSprms( SprmIterator sprmIt, String linePrefix )",
+        "565": "                    {",
+        "581": "                    SprmIterator sprmIt = new SprmIterator( papx.getGrpprl(), 2 );",
+        "710": "                dumpSprms( new SprmIterator( styleDescription.getCHPX(), 0 ),",
+        "709": "            if ( styleDescription.getCHPX() != null )",
+        "53": "import org.apache.poi.hwpf.model.TextPiece;",
+        "566": "                        SprmIterator sprmIt = new SprmIterator(",
+        "735": "                    dumpSprms(",
+        "606": "            {",
+        "607": "                SprmIterator sprmIt = new SprmIterator( papx.getGrpprl(), 2 );"
+      },
+      "id": 97384386,
+      "filename": "HWPFLister.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 760,
+      "location": "/src/org/apache/poi/hwpf/sprm",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384370/",
+      "md5hash": "ad7ef563bd5c85239b2ca09f401501f5",
+      "lines": {
+        "129": "        {",
+        "130": "            SprmIterator sprmIt = new SprmIterator( grpprl, offset );",
+        "115": "                    logger.log( POILogger.WARN,",
+        "116": "                            \"Non-CHP SPRM returned by SprmIterator: \" + sprm );",
+        "104": "    {",
+        "105": "        SprmIterator sprmIt = new SprmIterator( grpprl, offset );"
+      },
+      "id": 97384370,
+      "filename": "CharacterSprmUncompressor.java"
+    },
+    {
+      "repo": "https://bitbucket.org/AlexeyD/hibench.git",
+      "language": "Java",
+      "linescount": 232,
+      "location": "/nutchindexing/nutch-1.2/src/plugin/parse-msword/src/java/org/apache/nutch/parse/msword",
+      "name": "hibench",
+      "url": "https://searchcode.com/codesearch/view/48925096/",
+      "md5hash": "201b11b383ec9671f21b7ecae9a90b52",
+      "lines": {
+        "216": "  {",
+        "217": "    SprmIterator iterator = new SprmIterator(grpprl,0);",
+        "28": "import org.apache.poi.hwpf.model.TextPieceTable;",
+        "29": "import org.apache.poi.hwpf.sprm.SprmIterator;"
+      },
+      "id": 48925096,
+      "filename": "WordExtractor.java"
+    },
+    {
+      "repo": "https://github.com/lritter/gnutch.git",
+      "language": "Java",
+      "linescount": 231,
+      "location": "/src/plugin/parse-msword/src/java/org/apache/nutch/parse/msword",
+      "name": "gnutch",
+      "url": "https://searchcode.com/codesearch/view/138792453/",
+      "md5hash": "40789e266310b897b848347166114477",
+      "lines": {
+        "216": "    SprmIterator iterator = new SprmIterator(grpprl,0);",
+        "28": "import org.apache.poi.hwpf.model.TextPieceTable;",
+        "29": "import org.apache.poi.hwpf.sprm.SprmIterator;",
+        "215": "  {"
+      },
+      "id": 138792453,
+      "filename": "WordExtractor.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

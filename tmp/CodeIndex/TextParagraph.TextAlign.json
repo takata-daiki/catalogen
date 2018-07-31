@@ -1,0 +1,54 @@
+{
+  "matchterm": "TextParagraph.TextAlign",
+  "previouspage": null,
+  "searchterm": "TextParagraph.TextAlign",
+  "query": "TextParagraph.TextAlign",
+  "language_filters": [
+    {
+      "count": 1,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 1,
+  "results": [
+    {
+      "repo": "https://github.com/gjherbiet/gs-core.git",
+      "language": "Java",
+      "linescount": 1587,
+      "location": "/src/org/graphstream/ui/graphicGraph/stylesheet/parser",
+      "name": "gs-core",
+      "url": "https://searchcode.com/codesearch/view/65170472/",
+      "md5hash": "d542dfcf66d30eacba99ee963c5e330d",
+      "lines": {
+        "1024": "\t\t\tjj_consume_token(RIGHT);",
+        "1025": "\t\t\tt = Style.TextAlignment.RIGHT;",
+        "1028": "\t\t\tjj_consume_token(ATLEFT);",
+        "1029": "\t\t\tt = Style.TextAlignment.AT_LEFT;",
+        "1040": "\t\t\tjj_consume_token(ABOVE);",
+        "1041": "\t\t\tt = Style.TextAlignment.ABOVE;",
+        "1032": "\t\t\tjj_consume_token(ATRIGHT);",
+        "1033": "\t\t\tt = Style.TextAlignment.AT_RIGHT;",
+        "1036": "\t\t\tjj_consume_token(UNDER);",
+        "1037": "\t\t\tt = Style.TextAlignment.UNDER;",
+        "430": "\t\t\tbreak;",
+        "431": "\t\tcase TEXTALIGNMENT:",
+        "432": "\t\t\tjj_consume_token(TEXTALIGNMENT);",
+        "433": "\t\t\tjj_consume_token(COLON);",
+        "434": "\t\t\ttextAlignment = textAlign();",
+        "435": "\t\t\tjj_consume_token(SEMICOLON);"
+      },
+      "id": 65170472,
+      "filename": "StyleSheetParser.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

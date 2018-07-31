@@ -1,0 +1,95 @@
+{
+  "matchterm": "InterfaceHdrRecord",
+  "previouspage": null,
+  "searchterm": "InterfaceHdrRecord",
+  "query": "InterfaceHdrRecord",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 147,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642522/",
+      "md5hash": "3272dbdd79b41884fc91381a84999ca8",
+      "lines": {
+        "65": "",
+        "66": "    public InterfaceHdrRecord()",
+        "53": "",
+        "54": "public class InterfaceHdrRecord",
+        "74": "",
+        "75": "    public InterfaceHdrRecord(RecordInputStream in)"
+      },
+      "id": 15642522,
+      "filename": "InterfaceHdrRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 2351,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642358/",
+      "md5hash": "2f47d8e4aa73ffbba0d056d2a6f68eee",
+      "lines": {
+        "867": "     * creates the InterfaceHdr record",
+        "868": "     * @see loci.poi.hssf.record.InterfaceHdrRecord",
+        "869": "     * @see loci.poi.hssf.record.Record",
+        "870": "     * @return record containing a InterfaceHdrRecord",
+        "873": "    protected Record createInterfaceHdr() {",
+        "874": "        InterfaceHdrRecord retval = new InterfaceHdrRecord();"
+      },
+      "id": 15642358,
+      "filename": "Workbook.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642343/",
+      "md5hash": "468caa59753e7c2d27a76f3903f70894",
+      "lines": {
+        "158": "                BOFRecord.class, InterfaceHdrRecord.class, MMSRecord.class,",
+        "85": "import loci.poi.hssf.record.InterfaceEndRecord;",
+        "86": "import loci.poi.hssf.record.InterfaceHdrRecord;",
+        "157": "            {"
+      },
+      "id": 15642343,
+      "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "67": "            {",
+        "68": "                BOFRecord.class, InterfaceHdrRecord.class, MMSRecord.class,"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

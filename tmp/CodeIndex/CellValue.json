@@ -1,0 +1,495 @@
+{
+  "matchterm": "CellValue",
+  "previouspage": null,
+  "searchterm": "CellValue",
+  "query": "CellValue",
+  "language_filters": [
+    {
+      "count": 552,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 552,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 657,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260368/",
+      "md5hash": "aa7fee7065701f954466df23bddca832",
+      "lines": {
+        "162": "   */",
+        "163": "  protected CellValue(Type t, int c, int r, CellValue cv)",
+        "145": "  protected CellValue(Type t, int c, int r, CellFormat st)",
+        "108": "   */",
+        "109": "  protected CellValue(Type t, int c, int r)",
+        "144": "   */",
+        "49": " */",
+        "50": "public abstract class CellValue extends WritableRecordData ",
+        "55": "   */",
+        "56": "  private static Logger logger = Logger.getLogger(CellValue.class);",
+        "121": "   */",
+        "122": "  protected CellValue(Type t, Cell c)"
+      },
+      "id": 43260368,
+      "filename": "CellValue.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 657,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200896/",
+      "md5hash": "aa7fee7065701f954466df23bddca832",
+      "lines": {
+        "162": "   */",
+        "163": "  protected CellValue(Type t, int c, int r, CellValue cv)",
+        "145": "  protected CellValue(Type t, int c, int r, CellFormat st)",
+        "108": "   */",
+        "109": "  protected CellValue(Type t, int c, int r)",
+        "144": "   */",
+        "49": " */",
+        "50": "public abstract class CellValue extends WritableRecordData ",
+        "55": "   */",
+        "56": "  private static Logger logger = Logger.getLogger(CellValue.class);",
+        "121": "   */",
+        "122": "  protected CellValue(Type t, Cell c)"
+      },
+      "id": 49200896,
+      "filename": "CellValue.java"
+    },
+    {
+      "repo": "https://github.com/meyerschalk/guvnor.git",
+      "language": "Java",
+      "linescount": 346,
+      "location": "/guvnor-webapp/src/main/java/org/drools/guvnor/client/widgets/decoratedgrid",
+      "name": "guvnor",
+      "url": "https://searchcode.com/codesearch/view/66893031/",
+      "md5hash": "4da2fd0c58531ffdf1fe361856bd6485",
+      "lines": {
+        "64": "     * GroupedCellValue's value the new GroupedCellValue contains a list of the",
+        "144": "            T value1 = super.getValue();",
+        "147": "                    GroupedCellValue gcv = (GroupedCellValue) cell;",
+        "134": "        public void setValue(Object value) {",
+        "135": "            for ( CellValue<T> cell : this.groupedCells ) {",
+        "145": "            for ( CellValue<T> cell : this.groupedCells ) {",
+        "146": "                if ( cell instanceof CellValue.GroupedCellValue ) {",
+        "48": " */",
+        "49": "public class CellValue<T extends Comparable<T>>",
+        "50": "    implements",
+        "51": "        Comparable<CellValue<T>> {",
+        "148": "                    hasMultipleValues = hasMultipleValues || gcv.checkForMultipleValues();",
+        "61": "     * A grouped cell, containing a list of grouped cells. If a cell spanning",
+        "62": "     * three rows is grouped, the normal CellValue is replaced with a",
+        "63": "     * GroupedCellValue (within a GroupedDynamicDataRow). In addition to the"
+      },
+      "id": 66893031,
+      "filename": "CellValue.java"
+    },
+    {
+      "repo": "https://bitbucket.org/servicerocket/confluence-flotchart-plugin.git",
+      "language": "Java",
+      "linescount": 59,
+      "location": "/src/main/java/net/customware/confluence/flotchart/util",
+      "name": "confluence-flotchart-plugin",
+      "url": "https://searchcode.com/codesearch/view/50158759/",
+      "md5hash": "6068d17d29d9d22719d135d9852ef206",
+      "lines": {
+        "16": "    public CellValue(String text, String link)",
+        "43": "        CellValue that = (CellValue) o;",
+        "21": "",
+        "6": "public class CellValue",
+        "22": "    public CellValue(String text)",
+        "15": "",
+        "42": "",
+        "5": " */"
+      },
+      "id": 50158759,
+      "filename": "CellValue.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 211,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260448/",
+      "md5hash": "bc30dadc5839ff6c3518b6fec0624c7c",
+      "lines": {
+        "34": " */",
+        "35": "public abstract class CellValue extends RecordData",
+        "40": "   */",
+        "41": "  private static Logger logger = Logger.getLogger(CellValue.class);",
+        "90": "   */",
+        "91": "  protected CellValue(Record t, FormattingRecords fr, SheetImpl si)"
+      },
+      "id": 43260448,
+      "filename": "CellValue.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 211,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200976/",
+      "md5hash": "bc30dadc5839ff6c3518b6fec0624c7c",
+      "lines": {
+        "34": " */",
+        "35": "public abstract class CellValue extends RecordData",
+        "40": "   */",
+        "41": "  private static Logger logger = Logger.getLogger(CellValue.class);",
+        "90": "   */",
+        "91": "  protected CellValue(Record t, FormattingRecords fr, SheetImpl si)"
+      },
+      "id": 49200976,
+      "filename": "CellValue.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 641,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/write/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374631/",
+      "md5hash": "499940daa91fcb24ed13151e5a063390",
+      "lines": {
+        "162": "   */",
+        "163": "  protected CellValue(Type t, int c, int r, CellValue cv)",
+        "145": "  protected CellValue(Type t, int c, int r, CellFormat st)",
+        "108": "   */",
+        "109": "  protected CellValue(Type t, int c, int r)",
+        "144": "   */",
+        "49": " */",
+        "50": "public abstract class CellValue extends WritableRecordData ",
+        "55": "   */",
+        "56": "  private static Logger logger = Logger.getLogger(CellValue.class);",
+        "121": "   */",
+        "122": "  protected CellValue(Type t, Cell c)"
+      },
+      "id": 11374631,
+      "filename": "CellValue.java"
+    },
+    {
+      "repo": "http://brainstream.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 641,
+      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/write/biff",
+      "name": "brainstream",
+      "url": "https://searchcode.com/codesearch/view/13919815/",
+      "md5hash": "73cb04fc9461ee333424989032fb1585",
+      "lines": {
+        "162": "   */",
+        "163": "  protected CellValue(Type t, int c, int r, CellValue cv)",
+        "145": "  protected CellValue(Type t, int c, int r, CellFormat st)",
+        "108": "   */",
+        "109": "  protected CellValue(Type t, int c, int r)",
+        "144": "   */",
+        "49": " */",
+        "50": "public abstract class CellValue extends WritableRecordData ",
+        "55": "   */",
+        "56": "  private static Logger logger = Logger.getLogger(CellValue.class);",
+        "121": "   */",
+        "122": "  protected CellValue(Type t, Cell c)"
+      },
+      "id": 13919815,
+      "filename": "CellValue.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 211,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/read/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374466/",
+      "md5hash": "bc30dadc5839ff6c3518b6fec0624c7c",
+      "lines": {
+        "34": " */",
+        "35": "public abstract class CellValue extends RecordData",
+        "40": "   */",
+        "41": "  private static Logger logger = Logger.getLogger(CellValue.class);",
+        "90": "   */",
+        "91": "  protected CellValue(Record t, FormattingRecords fr, SheetImpl si)"
+      },
+      "id": 11374466,
+      "filename": "CellValue.java"
+    },
+    {
+      "repo": "http://brainstream.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 211,
+      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/read/biff",
+      "name": "brainstream",
+      "url": "https://searchcode.com/codesearch/view/13919648/",
+      "md5hash": "f4e3ec50d298a9fb6234674058301058",
+      "lines": {
+        "34": " */",
+        "35": "public abstract class CellValue extends RecordData",
+        "40": "   */",
+        "41": "  private static Logger logger = Logger.getLogger(CellValue.class);",
+        "90": "   */",
+        "91": "  protected CellValue(Record t, FormattingRecords fr, SheetImpl si)"
+      },
+      "id": 13919648,
+      "filename": "CellValue.java"
+    },
+    {
+      "repo": "https://bitbucket.org/markjenkins/libreoffice_ubuntu-debian-fixes.git",
+      "language": "Java",
+      "linescount": 126,
+      "location": "/xmerge/source/pexcel/java/org/openoffice/xmerge/converter/xml/sxc/pexcel/records",
+      "name": "libreoffice_ubuntu-debian-fixes",
+      "url": "https://searchcode.com/codesearch/view/45005330/",
+      "md5hash": "e0f9519e675be9d76542a59c5ebdd97a",
+      "lines": {
+        "27": "",
+        "28": "public abstract class CellValue implements BIFFRecord {"
+      },
+      "id": 45005330,
+      "filename": "CellValue.java"
+    },
+    {
+      "repo": "https://bitbucket.org/mst/ooo340",
+      "language": "Java",
+      "linescount": 139,
+      "location": "/xmerge/java/org/openoffice/xmerge/converter/xml/sxc/pexcel/records",
+      "name": "ooo340",
+      "url": "https://searchcode.com/codesearch/view/122077697/",
+      "md5hash": "f3eb513501bb904d58ae1346702cd23b",
+      "lines": {
+        "38": "",
+        "39": "public abstract class CellValue implements BIFFRecord {"
+      },
+      "id": 122077697,
+      "filename": "CellValue.java"
+    },
+    {
+      "repo": "https://bitbucket.org/mst/ooo340",
+      "language": "Java",
+      "linescount": 137,
+      "location": "/xmerge/source/pexcel/java/org/openoffice/xmerge/converter/xml/sxc/pexcel/records",
+      "name": "ooo340",
+      "url": "https://searchcode.com/codesearch/view/122078422/",
+      "md5hash": "b635fc3795fb5e42eb55a60553b28148",
+      "lines": {
+        "36": "",
+        "37": "public abstract class CellValue implements BIFFRecord {"
+      },
+      "id": 122078422,
+      "filename": "CellValue.java"
+    },
+    {
+      "repo": "https://github.com/thehulkstersays/sudoku.git",
+      "language": "Java",
+      "linescount": 10,
+      "location": "/java/src/main/java/com/github/benwhitehead/tutorials/sudoku",
+      "name": "sudoku",
+      "url": "https://searchcode.com/codesearch/view/94516404/",
+      "md5hash": "c09a8f48db8983bfc80c2401341449cf",
+      "lines": {
+        "5": " */",
+        "6": "interface CellValue {"
+      },
+      "id": 94516404,
+      "filename": "CellValue.java"
+    },
+    {
+      "repo": "https://github.com/apauzies/nebula.widgets.nattable.git",
+      "language": "Java",
+      "linescount": 96,
+      "location": "/org.eclipse.nebula.widgets.nattable.core/src/org/eclipse/nebula/widgets/nattable/layer/cell",
+      "name": "nebula.widgets.nattable",
+      "url": "https://searchcode.com/codesearch/view/76104376/",
+      "md5hash": "f4a4d43480286c3cd6272701db84e794",
+      "lines": {
+        "64": " */",
+        "65": "class CellValueOverrideKey implements Serializable {",
+        "66": "\tprivate static final long serialVersionUID = 1L;",
+        "27": " * Note: First Map's key is displayMode, inner Map's key is fieldName, the inner Map's value is cellValue",
+        "69": "",
+        "70": "\tCellValueOverrideKey(Object cellValue, int col) {",
+        "71": "\t\tthis.cellValue = cellValue;",
+        "46": "\tprotected List<String> getConfigLabels(Object value, int col) {",
+        "47": "\t\tCellValueOverrideKey key = new CellValueOverrideKey(value, col);",
+        "67": "\tObject cellValue;",
+        "52": "\t * Register a config label on the cell",
+        "53": "\t * @param cellValue data value of the cell. This is the backing data value, not the display value.",
+        "56": "\t */",
+        "57": "\tpublic void registerOverride(Object cellValue, int col, String configLabel) {",
+        "26": " * ",
+        "59": "\t}",
+        "58": "\t\tregisterOverrides(new CellValueOverrideKey(cellValue, col), configLabel);"
+      },
+      "id": 76104376,
+      "filename": "CellOverrideLabelAccumulator.java"
+    },
+    {
+      "repo": "https://bitbucket.org/servicerocket/confluence-flotchart-plugin.git",
+      "language": "Java",
+      "linescount": 103,
+      "location": "/src/test/java/net/customware/confluence/flotchart/util",
+      "name": "confluence-flotchart-plugin",
+      "url": "https://searchcode.com/codesearch/view/50158736/",
+      "md5hash": "05aba8abf068d9fdde3b4dc19a0e5fcb",
+      "lines": {
+        "65": "        expectedGrids.add(",
+        "66": "                new CellValue[][] {",
+        "67": "                        new CellValue[] { new CellValue(\"5\"), new CellValue(\"6\"), new CellValue(\"7\") },",
+        "68": "                        new CellValue[] { new CellValue(\"8\"), new CellValue(\"9\"), new CellValue(\"10\") }",
+        "69": "                }",
+        "80": "        String html = getClassPathResourceAsSring(\"net/customware/confluence/flotchart/util/HtmlScraperTestData1.html\", \"UTF-8\");",
+        "81": "        List<CellValue[][]> grids = htmlScraper.parseHtmlToGrids(html, \"//table//table\", \"//table[2]\");",
+        "82": "",
+        "55": "        String html = getClassPathResourceAsSring(\"net/customware/confluence/flotchart/util/HtmlScraperTestData1.html\", \"UTF-8\");",
+        "56": "        List<CellValue[][]> grids = htmlScraper.parseHtmlToGrids(html, 2, 3);",
+        "57": "",
+        "58": "        List<CellValue[][]> expectedGrids = new ArrayList<CellValue[][]>();",
+        "60": "        expectedGrids.add(",
+        "61": "                new CellValue[][] {",
+        "62": "                        new CellValue[] { new CellValue(\"1.1\"), new CellValue(\"1.2\"), new CellValue(\"1.3\") }",
+        "63": "                }"
+      },
+      "id": 50158736,
+      "filename": "HtmlScraperTestCase.java"
+    },
+    {
+      "repo": "https://bitbucket.org/DaveRobertson/beechhall.git",
+      "language": "Java",
+      "linescount": 550,
+      "location": "/processing/tools/G4PTool/src/g4p/tool/gui/propertygrid",
+      "name": "beechhall",
+      "url": "https://searchcode.com/codesearch/view/37983912/",
+      "md5hash": "ceb9650e13957645176a2b7d5f251301",
+      "lines": {
+        "257": "\t\t\t\tv = Long.parseLong(value.toString());",
+        "258": "\t\t\t\tcellValue = v;",
+        "171": "\t\tpublic Object getCellValue() {",
+        "261": "\t\t\tcatch(Exception excp){",
+        "262": "\t\t\t\tcellValue = value;",
+        "172": "\t\t\treturn (String)cellValue;",
+        "170": "\t\t@Override",
+        "267": "",
+        "268": "\t\tpublic Object getCellValue() {",
+        "173": "\t\t}",
+        "270": "\t\t}",
+        "269": "\t\t\treturn (Long)cellValue;",
+        "304": "\t\t\t\tcellValue = v;",
+        "307": "\t\t\tcatch(Exception excp){",
+        "308": "\t\t\t\tcellValue = value;",
+        "303": "\t\t\t\tv = Integer.parseInt(value.toString());"
+      },
+      "id": 37983912,
+      "filename": "Validator.java"
+    },
+    {
+      "repo": "https://bitbucket.org/servicerocket/confluence-flotchart-plugin.git",
+      "language": "Java",
+      "linescount": 210,
+      "location": "/src/main/java/net/customware/confluence/flotchart/util",
+      "name": "confluence-flotchart-plugin",
+      "url": "https://searchcode.com/codesearch/view/50158756/",
+      "md5hash": "b854443957cc456187a5c81232811630",
+      "lines": {
+        "128": "",
+        "129": "        for (List<CellValue> row : data)",
+        "34": "",
+        "35": "        return new CellValue(anElement.getStringValue(), StringUtils.isBlank(link) ? null : link);",
+        "37": "",
+        "38": "    private List<CellValue> parseTableRow(Element trElement)",
+        "167": "",
+        "168": "    public List<CellValue[][]> parseHtmlToGrids(String html, int ... selectedTables) throws UnsupportedEncodingException",
+        "137": "",
+        "138": "    private CellValue[][] convertListDataToArray(List<List<CellValue>> data)",
+        "140": "        int largestColumnSize = getLargestColumnSize(data);",
+        "141": "        CellValue[][] dataArray = new CellValue[data.size()][largestColumnSize];",
+        "144": "        {",
+        "145": "            List<CellValue> row = data.get(rowIndex);",
+        "25": "",
+        "26": "    private CellValue parseTableCellValue(Element anElement)"
+      },
+      "id": 50158756,
+      "filename": "HtmlScraper.java"
+    },
+    {
+      "repo": "https://github.com/belong/teiid.git",
+      "language": "Java",
+      "linescount": 1743,
+      "location": "/test-integration/db/src/main/java/org/teiid/test/client/ctc",
+      "name": "teiid",
+      "url": "https://searchcode.com/codesearch/view/73437679/",
+      "md5hash": "c3d7fb19d6168058c74e393fedd82fc5",
+      "lines": {
+        "1104": "                    Element cellElement = new Element(TagNames.Elements.TABLE_CELL);",
+        "1105": "                    Object cellValue = object.getObject(i);",
+        "1106": "                    if ( cellValue != null ) {",
+        "1107": "                        cellElement = produceMsg(cellValue, cellElement);",
+        "1108": "                    } else {",
+        "1173": "                    if ( cellValue != null ) {",
+        "1171": "                    Element cellElement = new Element(TagNames.Elements.TABLE_CELL);",
+        "1175": "                    } else {",
+        "1172": "                    Object cellValue = object.getObject(i);",
+        "1174": "                        cellElement = produceMsg(cellValue, cellElement);"
+      },
+      "id": 73437679,
+      "filename": "XMLQueryVisitationStrategy.java"
+    },
+    {
+      "repo": "https://github.com/wolverine2k/OneSwarm.git",
+      "language": "Java",
+      "linescount": 337,
+      "location": "/oneswarm_gwt_ui/gwt_incubator_minimal/com/google/gwt/gen2/table/client",
+      "name": "OneSwarm",
+      "url": "https://searchcode.com/codesearch/view/82756300/",
+      "md5hash": "fa7582873c16a2aaa94850d985132457",
+      "lines": {
+        "335": "  protected abstract void setValue(ColType cellValue);",
+        "205": "    ColType cellValue = getValue();",
+        "172": "    // Set the current value",
+        "332": "   * ",
+        "333": "   * @param cellValue the value in the cell",
+        "334": "   */",
+        "173": "    setValue(cellValue);",
+        "210": "    // Send the new cell value to the callback",
+        "211": "    curCallback.onComplete(curCellEditInfo, cellValue);",
+        "204": "    // Get the value before hiding the editor",
+        "154": "",
+        "155": "  public void editCell(CellEditInfo cellEditInfo, ColType cellValue,"
+      },
+      "id": 82756300,
+      "filename": "InlineCellEditor.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 223,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 172,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 155,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 1,
+      "source": "GitLab",
+      "id": 13
+    },
+    {
+      "count": 1,
+      "source": "Gitorious",
+      "id": 10
+    }
+  ]
+}

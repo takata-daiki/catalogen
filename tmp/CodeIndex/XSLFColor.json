@@ -1,0 +1,89 @@
+{
+  "matchterm": "XSLFColor",
+  "previouspage": null,
+  "searchterm": "XSLFColor",
+  "query": "XSLFColor",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 634,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406799/",
+      "md5hash": "6e68dd3c8ec32b1c5501783941fcea98",
+      "lines": {
+        "113": "            CTSolidColorFillProperties solidFill = (CTSolidColorFillProperties) obj;",
+        "114": "            XSLFColor c = new XSLFColor(solidFill, theme, phClr);",
+        "209": "            CTGradientStop stop = gs[i];",
+        "297": "            CTGradientStop stop = gs[i];",
+        "298": "            colors[i] = new XSLFColor(stop, theme, phClr).getColor();",
+        "210": "            colors[i] = new XSLFColor(stop, theme, phClr).getColor();"
+      },
+      "id": 97406799,
+      "filename": "RenderableShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1185,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406665/",
+      "md5hash": "dc9cd103f74ef072c0c52e3cc628a7cb",
+      "lines": {
+        "277": "                if(props.isSetBuClr()){",
+        "278": "                    XSLFColor c = new XSLFColor(props.getBuClr(), theme, null);"
+      },
+      "id": 97406665,
+      "filename": "XSLFTextParagraph.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 139,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406680/",
+      "md5hash": "35e574a12d2825ac88afdc4bb8e7e334",
+      "lines": {
+        "136": "            return new XSLFColor(ct, theme, phClr).getColor();",
+        "135": "            CTSchemeColor phClr = ct.getSchemeClr();"
+      },
+      "id": 97406680,
+      "filename": "XSLFShadow.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 547,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406808/",
+      "md5hash": "d2b2f692a7b658d89cb45fae37549298",
+      "lines": {
+        "149": "                            || isFetchingFromMaster;",
+        "150": "                    Color c = new XSLFColor(solidFill, theme, useCtxColor ? phClr : null).getColor();"
+      },
+      "id": 97406808,
+      "filename": "XSLFTextRun.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

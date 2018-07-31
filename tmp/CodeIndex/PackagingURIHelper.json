@@ -1,0 +1,132 @@
+{
+  "matchterm": "PackagingURIHelper",
+  "previouspage": null,
+  "searchterm": "PackagingURIHelper",
+  "query": "PackagingURIHelper",
+  "language_filters": [
+    {
+      "count": 5,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 5,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1489,
+      "location": "/pptx/src/org/apache/poi/openxml4j/opc",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406292/",
+      "md5hash": "47fc882bc196bd395e952d6ada656cd9",
+      "lines": {
+        "897": "\t\t\tif (sourcePartName.getURI().equals(",
+        "898": "\t\t\t\t\tPackagingURIHelper.PACKAGE_ROOT_URI)) {",
+        "315": "\t\t\t\t\t\t\tContentTypes.RELATIONSHIPS_PART);",
+        "933": "\t\t\t\tPackagePartName partNameToRemove = PackagingURIHelper",
+        "934": "\t\t\t\t\t\t.createPartName(PackagingURIHelper.resolvePartUri(rel",
+        "935": "\t\t\t\t\t\t\t\t.getSourceURI(), rel.getTargetURI()));",
+        "425": "\t\t\ttry {",
+        "426": "\t\t\t\tthumbnailPartName = PackagingURIHelper",
+        "962": "\t\t// Remove the relationships part",
+        "963": "\t\tthis.removePart(PackagingURIHelper.getRelationshipPartName(partName));",
+        "312": "\t\t\t\t\t.addContentType(",
+        "313": "\t\t\t\t\t\t\tPackagingURIHelper",
+        "314": "\t\t\t\t\t\t\t\t\t.createPartName(PackagingURIHelper.PACKAGE_RELATIONSHIPS_ROOT_URI),",
+        "923": "\t\t// Retrieves relationship part, if one exists",
+        "924": "\t\tPackagePart relPart = this.partList.get(PackagingURIHelper"
+      },
+      "id": 97406292,
+      "filename": "OPCPackage.java"
+    },
+    {
+      "repo": "http://okapi.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 83,
+      "location": "/okapi/steps/xliffkit/src/main/java/net/sf/okapi/steps/xliffkit/opc",
+      "name": "okapi",
+      "url": "https://searchcode.com/codesearch/view/401674/",
+      "md5hash": "59505bde48817117712a3f30e0e301d9",
+      "lines": {
+        "66": "\t\t\tOPCPackage pack = part.getPackage();",
+        "67": "\t\t\treturn pack.getPart(PackagingURIHelper.createPartName(rels.getRelationship(0).getTargetURI()));",
+        "52": "\t\t\ttry {",
+        "53": "\t\t\t\tres.add(pack.getPart(PackagingURIHelper.createPartName(rel.getTargetURI())));",
+        "39": "\t\t\ttry {",
+        "40": "\t\t\t\tres.add(pack.getPart(PackagingURIHelper.createPartName(rel.getTargetURI())));",
+        "30": "import org.apache.poi.openxml4j.opc.PackageRelationshipCollection;",
+        "31": "import org.apache.poi.openxml4j.opc.PackagingURIHelper;"
+      },
+      "id": 401674,
+      "filename": "OPCPackageUtil.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 208,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785572/",
+      "md5hash": "cbe6aea6e2c67bdf72e6eb288fadfc2d",
+      "lines": {
+        "174": "                   PackagePartName relName = PackagingURIHelper.createPartName(rel.getTargetURI());",
+        "167": "                if(rel.getTargetMode() == TargetMode.INTERNAL) {",
+        "168": "                   PackagePartName relName = PackagingURIHelper.createPartName(rel.getTargetURI());",
+        "173": "                if(rel.getTargetMode() == TargetMode.INTERNAL) {",
+        "30": "import org.apache.poi.openxml4j.opc.PackagingURIHelper;",
+        "29": "import org.apache.poi.openxml4j.opc.PackageRelationship;"
+      },
+      "id": 111785572,
+      "filename": "XSSFExcelExtractorDecorator.java"
+    },
+    {
+      "repo": "http://okapi.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 386,
+      "location": "/okapi/steps/xliffkit/src/main/java/net/sf/okapi/steps/xliffkit/writer",
+      "name": "okapi",
+      "url": "https://searchcode.com/codesearch/view/401675/",
+      "md5hash": "ea741284f79220e798f61c9c2565b4ed",
+      "lines": {
+        "280": "\t\t\tPackagePartName partName = PackagingURIHelper.createPartName(\"/\" + name);",
+        "67": "import org.apache.poi.openxml4j.opc.PackagePartName;",
+        "68": "import org.apache.poi.openxml4j.opc.PackagingURIHelper;",
+        "279": "\t\ttry {\t\t\t"
+      },
+      "id": 401675,
+      "filename": "XLIFFKitWriterStep.java"
+    },
+    {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 165,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785571/",
+      "md5hash": "e792b324ce485597dfa73d012dd27d56",
+      "lines": {
+        "28": "import org.apache.poi.openxml4j.opc.PackageRelationshipCollection;",
+        "29": "import org.apache.poi.openxml4j.opc.PackagingURIHelper;",
+        "110": "                       relName = PackagingURIHelper.createPartName(rel.getTargetURI());",
+        "109": "                    try {"
+      },
+      "id": 111785571,
+      "filename": "AbstractOOXMLExtractor.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 2,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

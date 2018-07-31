@@ -1,0 +1,124 @@
+{
+  "matchterm": "EventRecordFactory",
+  "previouspage": null,
+  "searchterm": "EventRecordFactory",
+  "query": "EventRecordFactory",
+  "language_filters": [
+    {
+      "count": 5,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 5,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642343/",
+      "md5hash": "468caa59753e7c2d27a76f3903f70894",
+      "lines": {
+        "226": "     */",
+        "227": "    public EventRecordFactory(boolean abortable) {",
+        "146": " */",
+        "147": "public class EventRecordFactory",
+        "212": "    /**",
+        "213": "     * Construct an abortable EventRecordFactory.  ",
+        "214": "     * The same as calling new EventRecordFactory(true)",
+        "215": "     * @see #EventRecordFactory(boolean)",
+        "216": "     */",
+        "217": "    public EventRecordFactory() {",
+        "221": "    /**",
+        "222": "     * Create an EventRecordFactory"
+      },
+      "id": 15642343,
+      "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 62,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642340/",
+      "md5hash": "f6a54a707c65ffa75a728f82080c71ae",
+      "lines": {
+        "48": " * via the EventRecordFactory",
+        "49": " * ",
+        "50": " * @see EventRecordFactory",
+        "56": "     * Process a Record.  This method is called by the ",
+        "57": "     * EventRecordFactory when a record is returned.",
+        "45": "/**",
+        "46": " * An ERFListener is registered with the EventRecordFactory.",
+        "47": " * An ERFListener listens for Records coming from the stream"
+      },
+      "id": 15642340,
+      "filename": "ERFListener.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 145,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642341/",
+      "md5hash": "6650dc23e857d74ec265cc2fa653c40f",
+      "lines": {
+        "91": "        EventRecordFactory factory = new EventRecordFactory(true);",
+        "57": " * ModelFactory creates workbook and sheet models based upon ",
+        "58": " * events thrown by them there events from the EventRecordFactory.",
+        "59": " * ",
+        "60": " * @see loci.poi.hssf.eventmodel.EventRecordFactory",
+        "90": "    public void run(InputStream stream) {"
+      },
+      "id": 15642341,
+      "filename": "ModelFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1445,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642316/",
+      "md5hash": "4f7b036daf89776dc4ee4606b7972144",
+      "lines": {
+        "227": "",
+        "228": "        EventRecordFactory factory = new EventRecordFactory();",
+        "54": "import loci.poi.ddf.EscherBlipRecord;",
+        "55": "import loci.poi.hssf.eventmodel.EventRecordFactory;"
+      },
+      "id": 15642316,
+      "filename": "HSSFWorkbook.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "51": " *",
+        "52": " * @deprecated use {@link loci.poi.hssf.eventmodel.EventRecordFactory} instead",
+        "53": " * @see loci.poi.hssf.eventmodel.EventRecordFactory",
+        "54": " * @author Andrew C. Oliver (acoliver at apache dot org)"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 5,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

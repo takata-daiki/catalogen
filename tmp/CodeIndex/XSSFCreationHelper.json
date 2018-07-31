@@ -1,0 +1,62 @@
+{
+  "matchterm": "XSSFCreationHelper",
+  "previouspage": null,
+  "searchterm": "XSSFCreationHelper",
+  "query": "XSSFCreationHelper",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://gitlab.com/jforge/Modules.git",
+      "language": "Java",
+      "linescount": 126,
+      "location": "/_deactivated/cdi-tablemodel/src/main/java/org/rapidpm/data/table/export",
+      "name": "Modules",
+      "url": "https://searchcode.com/codesearch/view/115088748/",
+      "md5hash": "afac3844787763a363133f64554db882",
+      "lines": {
+        "86": "                    } else if (cellType.equals(CellTypeEnum.RawLink)) {",
+        "29": "import org.apache.poi.xssf.usermodel.XSSFCell;",
+        "30": "import org.apache.poi.xssf.usermodel.XSSFCreationHelper;",
+        "87": "                        final XSSFCreationHelper helper = workbook.getCreationHelper();"
+      },
+      "id": 115088748,
+      "filename": "Table2XLSX.java"
+    },
+    {
+      "repo": "https://bitbucket.org/rapidpm/tablemodell.git",
+      "language": "Java",
+      "linescount": 107,
+      "location": "/src/org/rapidpm/data/table/export",
+      "name": "tablemodell",
+      "url": "https://searchcode.com/codesearch/view/37860178/",
+      "md5hash": "44b86ac9fbf3c35cb8d792fa6a92ad96",
+      "lines": {
+        "67": "                    } else if (cellType.equals(CellTypeEnum.RawLink)) {",
+        "68": "                        final XSSFCreationHelper helper = workbook.getCreationHelper();"
+      },
+      "id": 37860178,
+      "filename": "Table2XLSX.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 1,
+      "source": "GitLab",
+      "id": 13
+    },
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

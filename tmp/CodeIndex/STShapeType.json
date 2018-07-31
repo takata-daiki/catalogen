@@ -1,0 +1,218 @@
+{
+  "matchterm": "STShapeType",
+  "previouspage": null,
+  "searchterm": "STShapeType",
+  "query": "STShapeType",
+  "language_filters": [
+    {
+      "count": 9,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 9,
+  "results": [
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 1562,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642177/",
+      "md5hash": "a3732707a3473988cc2b83a0a686508f",
+      "lines": {
+        "1552": "    public static STShapeType fromValue(String v) {",
+        "1553": "        for (STShapeType c: STShapeType.values()) {",
+        "1554": "            if (c.value.equals(v)) {",
+        "230": "@XmlEnum",
+        "1543": "",
+        "1544": "    STShapeType(String v) {",
+        "231": "public enum STShapeType {",
+        "1551": ""
+      },
+      "id": 17642177,
+      "filename": "STShapeType.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 823,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402338/",
+      "md5hash": "501545c0c2b8464456843d50547744ce",
+      "lines": {
+        "16": "public interface STShapeType extends org.apache.xmlbeans.XmlToken",
+        "19": "        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(STShapeType.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sE130CAA0A01A7CDE5A2B4FEB8B311707\").resolveHandle(\"stshapetype069ctype\");",
+        "18": "    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.STShapeType",
+        "401": "     * Enumeration value class for org.openxmlformats.schemas.drawingml.x2006.main.STShapeType.",
+        "400": "    /**",
+        "13": " *",
+        "14": " * This is an atomic type that is a restriction of org.openxmlformats.schemas.drawingml.x2006.main.STShapeType.",
+        "15": " */"
+      },
+      "id": 97402338,
+      "filename": "STShapeType.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 170,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403804/",
+      "md5hash": "f64d8ea98e6dd44349474ef48edc608c",
+      "lines": {
+        "128": "            org.openxmlformats.schemas.drawingml.x2006.main.STShapeType target = null;",
+        "129": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.STShapeType)get_store().find_attribute_user(PRST$2);",
+        "130": "            return target;",
+        "163": "            {",
+        "164": "                target = (org.openxmlformats.schemas.drawingml.x2006.main.STShapeType)get_store().add_attribute_user(PRST$2);",
+        "161": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.STShapeType)get_store().find_attribute_user(PRST$2);",
+        "104": "     */",
+        "105": "    public org.openxmlformats.schemas.drawingml.x2006.main.STShapeType.Enum getPrst()",
+        "160": "            org.openxmlformats.schemas.drawingml.x2006.main.STShapeType target = null;",
+        "159": "            check_orphaned();",
+        "162": "            if (target == null)",
+        "115": "            }",
+        "116": "            return (org.openxmlformats.schemas.drawingml.x2006.main.STShapeType.Enum)target.getEnumValue();",
+        "154": "     */",
+        "155": "    public void xsetPrst(org.openxmlformats.schemas.drawingml.x2006.main.STShapeType prst)",
+        "127": "            check_orphaned();"
+      },
+      "id": 97403804,
+      "filename": "CTPresetGeometry2DImpl.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 109,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642216/",
+      "md5hash": "277c128e9094942292a27ebcb66cae1c",
+      "lines": {
+        "104": "    public void setPrst(STShapeType value) {",
+        "100": "     *     allowed object is",
+        "101": "     *     {@link STShapeType }",
+        "89": "     *     {@link STShapeType }",
+        "88": "     *     possible object is",
+        "57": "    @XmlAttribute(required = true)",
+        "58": "    protected STShapeType prst;",
+        "91": "     */",
+        "92": "    public STShapeType getPrst() {",
+        "103": "     */"
+      },
+      "id": 17642216,
+      "filename": "CTPresetGeometry2D.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 72,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403139/",
+      "md5hash": "7228722797d77e94552fb3c77845bf12",
+      "lines": {
+        "48": "     */",
+        "49": "    org.openxmlformats.schemas.drawingml.x2006.main.STShapeType.Enum getPrst();",
+        "53": "     */",
+        "54": "    org.openxmlformats.schemas.drawingml.x2006.main.STShapeType xgetPrst();",
+        "64": "    void xsetPrst(org.openxmlformats.schemas.drawingml.x2006.main.STShapeType prst);",
+        "58": "     */",
+        "59": "    void setPrst(org.openxmlformats.schemas.drawingml.x2006.main.STShapeType.Enum prst);",
+        "63": "     */"
+      },
+      "id": 97403139,
+      "filename": "CTPresetGeometry2D.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 972,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406763/",
+      "md5hash": "90e9bcad3d44264dac9d11db9a001e3f",
+      "lines": {
+        "113": "        CTShape shape = (CTShape) getXmlObject();",
+        "114": "        STShapeType.Enum geom = shape.getSpPr().getPrstGeom().getPrst();",
+        "54": "import org.openxmlformats.schemas.drawingml.x2006.main.STPresetLineDashVal;",
+        "55": "import org.openxmlformats.schemas.drawingml.x2006.main.STShapeType;",
+        "107": "        CTShape shape = (CTShape) getXmlObject();",
+        "108": "        STShapeType.Enum geom = STShapeType.Enum.forInt(type.getIndex());"
+      },
+      "id": 97406763,
+      "filename": "XSLFSimpleShape.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 230,
+      "location": "/src/pptx4j/java/org/pptx4j/samples",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17643702/",
+      "md5hash": "0166ae6b1865f22e07e5df1dfb128914",
+      "lines": {
+        "76": "\t\tfor (STShapeType st : STShapeType.values() ) {",
+        "75": "\t\tint i = 1;  ",
+        "28": "import org.pptx4j.jaxb.Context;",
+        "29": "import org.docx4j.dml.STShapeType;"
+      },
+      "id": 17643702,
+      "filename": "AutoShapes.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 27,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403668/",
+      "md5hash": "41aeedd2207051bfb7828fbdd399b087",
+      "lines": {
+        "16": "    ",
+        "17": "    public STShapeTypeImpl(org.apache.xmlbeans.SchemaType sType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.STShapeType",
+        "21": "    ",
+        "22": "    protected STShapeTypeImpl(org.apache.xmlbeans.SchemaType sType, boolean b)",
+        "11": " *",
+        "12": " * This is an atomic type that is a restriction of org.openxmlformats.schemas.drawingml.x2006.main.STShapeType.",
+        "13": " */",
+        "14": "public class STShapeTypeImpl extends org.apache.xmlbeans.impl.values.JavaStringEnumerationHolderEx implements org.openxmlformats.schemas.drawingml.x2006.main.STShapeType"
+      },
+      "id": 97403668,
+      "filename": "STShapeTypeImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 162,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406705/",
+      "md5hash": "3cf6ae3d47d4aecb9c8db82efffb3346",
+      "lines": {
+        "34": "import org.openxmlformats.schemas.drawingml.x2006.main.CTShapeProperties;",
+        "35": "import org.openxmlformats.schemas.drawingml.x2006.main.STShapeType;",
+        "77": "        CTPresetGeometry2D prst = spPr.addNewPrstGeom();",
+        "78": "        prst.setPrst(STShapeType.RECT);"
+      },
+      "id": 97406705,
+      "filename": "XSLFPictureShape.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 9,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "matchterm": "NPOIFSFileSystem",
+  "previouspage": null,
+  "searchterm": "NPOIFSFileSystem",
+  "query": "NPOIFSFileSystem",
+  "language_filters": [
+    {
+      "count": 8,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 8,
+  "results": [
+    {
+      "repo": "git://github.com/liferay/liferay-portal.git",
+      "language": "Java",
+      "linescount": 165,
+      "location": "/modules/apps/sync/sync-engine/src/main/java/com/liferay/sync/engine/util",
+      "name": "liferay-portal",
+      "url": "https://searchcode.com/codesearch/view/116052780/",
+      "md5hash": "b866d3f81504e612bf5d234569b664b6",
+      "lines": {
+        "37": "\tpublic static Date getLastSavedDate(Path filePath) {",
+        "38": "\t\tNPOIFSFileSystem npoifsFileSystem = null;",
+        "40": "\t\ttry {",
+        "41": "\t\t\tnpoifsFileSystem = new NPOIFSFileSystem(filePath.toFile());",
+        "43": "\t\t\tHPSFPropertiesOnlyDocument hpsfPropertiesOnlyDocument =",
+        "44": "\t\t\t\tnew HPSFPropertiesOnlyDocument(npoifsFileSystem);",
+        "54": "\t\tfinally {",
+        "55": "\t\t\tif (npoifsFileSystem != null) {",
+        "56": "\t\t\t\ttry {",
+        "57": "\t\t\t\t\tnpoifsFileSystem.close();",
+        "29": "import org.apache.poi.hpsf.SummaryInformation;",
+        "30": "import org.apache.poi.poifs.filesystem.NPOIFSFileSystem;"
+      },
+      "id": 116052780,
+      "filename": "MSOfficeFileUtil.java"
+    },
+    {
+      "repo": "https://bitbucket.org/smitdevel/delta.git",
+      "language": "Java",
+      "linescount": 1169,
+      "location": "/source/java/ee/webmedia/alfresco/imap/service",
+      "name": "delta",
+      "url": "https://searchcode.com/codesearch/view/50611261/",
+      "md5hash": "44e67ff597e827966c9464b83db4169e",
+      "lines": {
+        "65": "import org.apache.poi.poifs.filesystem.Entry;",
+        "66": "import org.apache.poi.poifs.filesystem.NPOIFSFileSystem;",
+        "557": "",
+        "558": "        NPOIFSFileSystem fs = new NPOIFSFileSystem(tnefFile);"
+      },
+      "id": 50611261,
+      "filename": "ImapServiceExtImpl.java"
+    },
+    {
+      "repo": "https://github.com/teruok78/pentaho-kettle.git",
+      "language": "Java",
+      "linescount": 153,
+      "location": "/engine/src/org/pentaho/di/trans/steps/excelinput/poi",
+      "name": "pentaho-kettle",
+      "url": "https://searchcode.com/codesearch/view/95326019/",
+      "md5hash": "8cff0225fc98497fe73eaf2b30fbfebb",
+      "lines": {
+        "32": "import org.apache.poi.poifs.filesystem.NPOIFSFileSystem;",
+        "62": "          npoifs = new NPOIFSFileSystem( excelFile );",
+        "31": "import org.apache.poi.openxml4j.opc.OPCPackage;",
+        "61": "        try {",
+        "46": "  private InputStream internalIS;",
+        "47": "  private NPOIFSFileSystem npoifs;"
+      },
+      "id": 95326019,
+      "filename": "PoiWorkbook.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 275,
+      "location": "/src/org/apache/poi",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383067/",
+      "md5hash": "afa24f033acdbeef13a37ab141698759",
+      "lines": {
+        "76": "    }",
+        "35": "import org.apache.poi.poifs.filesystem.EntryUtils;",
+        "36": "import org.apache.poi.poifs.filesystem.NPOIFSFileSystem;",
+        "77": "    protected POIDocument(NPOIFSFileSystem fs) {"
+      },
+      "id": 97383067,
+      "filename": "POIDocument.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 688,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394255/",
+      "md5hash": "40d5716cbdc5b9b544fff845bb8e0c6f",
+      "lines": {
+        "49": "import org.apache.poi.poifs.filesystem.DocumentInputStream;",
+        "50": "import org.apache.poi.poifs.filesystem.NPOIFSFileSystem;",
+        "150": "    */",
+        "151": "   public HSLFSlideShow(NPOIFSFileSystem filesystem) throws IOException"
+      },
+      "id": 97394255,
+      "filename": "HSLFSlideShow.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1082,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394959/",
+      "md5hash": "5d80afff23c354813b0c27bde8e947ac",
+      "lines": {
+        "40": "import org.apache.poi.poifs.filesystem.NPOIFSFileSystem;",
+        "131": "\tpublic SlideShow(File file) throws IOException {",
+        "132": "\t\tthis(new HSLFSlideShow(new NPOIFSFileSystem(file)));",
+        "39": "import org.apache.poi.hslf.record.SlideListWithText.SlideAtomsSet;"
+      },
+      "id": 97394959,
+      "filename": "SlideShow.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 331,
+      "location": "/ppt/poi/org/apache/poi/poifs/filesystem",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97397922/",
+      "md5hash": "4dde31e8066a7b0ff9251c6177b7ac0c",
+      "lines": {
+        "28": " * This class provides methods to read a DocumentEntry managed by a",
+        "29": " * {@link NPOIFSFileSystem} instance."
+      },
+      "id": 97397922,
+      "filename": "NDocumentInputStream.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 174,
+      "location": "/ppt/poi/org/apache/poi/poifs/filesystem",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97397924/",
+      "md5hash": "a62824300869ffa075859750e715454a",
+      "lines": {
+        "26": " * This class provides methods to read a DocumentEntry managed by a",
+        "27": " *  {@link POIFSFileSystem} or {@link NPOIFSFileSystem} instance."
+      },
+      "id": 97397924,
+      "filename": "DocumentInputStream.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

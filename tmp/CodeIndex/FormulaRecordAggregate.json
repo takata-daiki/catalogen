@@ -1,0 +1,158 @@
+{
+  "matchterm": "FormulaRecordAggregate",
+  "previouspage": null,
+  "searchterm": "FormulaRecordAggregate",
+  "query": "FormulaRecordAggregate",
+  "language_filters": [
+    {
+      "count": 6,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 6,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 220,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/aggregates",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642592/",
+      "md5hash": "fa845485a51e4538ffbac8c3b6be9a3c",
+      "lines": {
+        "51": " */",
+        "52": "public class FormulaRecordAggregate",
+        "201": "    \t\t",
+        "202": "        return new FormulaRecordAggregate((FormulaRecord) this.formulaRecord.clone(), clonedString);",
+        "60": "    ",
+        "61": "    public FormulaRecordAggregate( FormulaRecord formulaRecord, StringRecord stringRecord )"
+      },
+      "id": 15642592,
+      "filename": "FormulaRecordAggregate.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1062,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642303/",
+      "md5hash": "a320b63ccf16b2c1798c3d8c1abc8ed7",
+      "lines": {
+        "352": "            case CELL_TYPE_FORMULA :",
+        "353": "                FormulaRecordAggregate frec = null;",
+        "227": "            case CELL_TYPE_FORMULA :",
+        "228": "                stringValue=new HSSFRichTextString(((FormulaRecordAggregate) cval).getStringValue());",
+        "357": "                    frec = new FormulaRecordAggregate(new FormulaRecord(),null);",
+        "360": "                {",
+        "361": "                    frec = ( FormulaRecordAggregate ) record;",
+        "266": "",
+        "267": "            case FormulaRecordAggregate.sid :",
+        "660": "        String retval = FormulaParser.toFormulaString(book, ((FormulaRecordAggregate)record).getFormulaRecord().getParsedExpression());",
+        "659": "        //Workbook.currentBook=book;",
+        "52": "import loci.poi.hssf.record.*;",
+        "53": "import loci.poi.hssf.record.aggregates.FormulaRecordAggregate;",
+        "630": "            setCellType(CELL_TYPE_FORMULA,false,row,col,styleIndex);",
+        "631": "            FormulaRecordAggregate rec = (FormulaRecordAggregate) record;",
+        "356": "                {"
+      },
+      "id": 15642303,
+      "filename": "HSSFCell.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 5111,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970697/",
+      "md5hash": "f6740268ba4be4778508748ca1c3becc",
+      "lines": {
+        "1837": "\t\tFormulaRecordAggregate fra = (FormulaRecordAggregate) vr;",
+        "1799": "        cell.setCellType(Cell.CELL_TYPE_FORMULA); ",
+        "1800": "    \tFormulaRecordAggregate agg = (FormulaRecordAggregate) new HSSFCellHelper((HSSFCell)cell).getCellValueRecord();",
+        "1833": "\t\tCellValueRecordInterface vr = new HSSFCellHelper(cell).getCellValueRecord();",
+        "2410": "\t\tif (!(vr instanceof FormulaRecordAggregate)) {",
+        "1836": "\t\t}",
+        "45": "import org.zkoss.poi.hssf.record.aggregates.FormulaRecordAggregate;",
+        "44": "import org.zkoss.poi.hssf.record.FullColorExt;",
+        "2413": "\t\tFormulaRecordAggregate fra = (FormulaRecordAggregate) vr;",
+        "2409": "\t\tCellValueRecordInterface vr = new HSSFCellHelper((HSSFCell)cell).getCellValueRecord();",
+        "2412": "\t\t}",
+        "1834": "\t\tif (!(vr instanceof FormulaRecordAggregate)) {"
+      },
+      "id": 3970697,
+      "filename": "BookHelper.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 3300,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642365/",
+      "md5hash": "1e8d548d196dc1063c30d9430b35b9f5",
+      "lines": {
+        "384": "                Record fmAggRec = fmAgg.getFormulaRecord();",
+        "46": "import loci.poi.hssf.record.aggregates.FormulaRecordAggregate;",
+        "381": "            ",
+        "393": "          }",
+        "394": "        } else if (rec instanceof FormulaRecordAggregate) {  //Is this required now??",
+        "395": "          FormulaRecordAggregate fmAgg = (FormulaRecordAggregate)rec;",
+        "396": "          Record fmAggRec = fmAgg.getFormulaRecord();",
+        "45": "import loci.poi.hssf.record.aggregates.ColumnInfoRecordsAggregate;",
+        "382": "            if (valRec instanceof FormulaRecordAggregate) {",
+        "383": "                FormulaRecordAggregate fmAgg = (FormulaRecordAggregate)valRec;"
+      },
+      "id": 15642365,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 368,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/aggregates",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642593/",
+      "md5hash": "f3d6bf42f5d9482d498467f2cea55ab5",
+      "lines": {
+        "190": "              lastFormulaAggregate = new FormulaRecordAggregate((FormulaRecord)rec, null);",
+        "149": "",
+        "150": "        FormulaRecordAggregate lastFormulaAggregate = null;",
+        "189": "            \t"
+      },
+      "id": 15642593,
+      "filename": "ValueRecordsAggregate.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 305,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642473/",
+      "md5hash": "0194853a122e58e181b7c54e5cfbf881",
+      "lines": {
+        "293": "\t /**",
+        "294": "\t  * Register it in the ValueRecordsAggregate so it can go into the FormulaRecordAggregate"
+      },
+      "id": 15642473,
+      "filename": "SharedFormulaRecord.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 5,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

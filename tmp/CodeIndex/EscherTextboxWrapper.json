@@ -1,0 +1,69 @@
+{
+  "matchterm": "EscherTextboxWrapper",
+  "previouspage": null,
+  "searchterm": "EscherTextboxWrapper",
+  "query": "EscherTextboxWrapper",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 612,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394395/",
+      "md5hash": "4ae551d90bbc16377c5513186d4e9dc1",
+      "lines": {
+        "96": "     */",
+        "97": "    protected EscherTextboxWrapper _txtbox;",
+        "34": "import org.apache.poi.hslf.exceptions.HSLFException;",
+        "35": "import org.apache.poi.hslf.record.EscherTextboxWrapper;",
+        "228": "            if(textRecord != null) _txtbox = new EscherTextboxWrapper(textRecord);",
+        "518": "    protected void initTextRun(){",
+        "135": "    public TextRun createTextRun(){",
+        "136": "        _txtbox = getEscherTextboxWrapper();",
+        "137": "        if(_txtbox == null) _txtbox = new EscherTextboxWrapper();",
+        "138": "",
+        "225": "    protected EscherTextboxWrapper getEscherTextboxWrapper(){",
+        "224": "",
+        "206": "",
+        "207": "        EscherTextboxWrapper _txtbox = getEscherTextboxWrapper();",
+        "227": "            EscherTextboxRecord textRecord = (EscherTextboxRecord)Shape.getEscherChild(_escherContainer, EscherTextboxRecord.RECORD_ID);",
+        "519": "        EscherTextboxWrapper txtbox = getEscherTextboxWrapper();"
+      },
+      "id": 97394395,
+      "filename": "TextShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 465,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394323/",
+      "md5hash": "004c81d0c6f4e85beee2c12f2cad27b2",
+      "lines": {
+        "126": "        final List<TextRun> runsV = new ArrayList<TextRun>();",
+        "127": "        EscherTextboxWrapper[] wrappers = ppdrawing.getTextboxWrappers();"
+      },
+      "id": 97394323,
+      "filename": "Sheet.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

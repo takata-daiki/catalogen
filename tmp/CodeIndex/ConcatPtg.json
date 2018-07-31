@@ -1,0 +1,97 @@
+{
+  "matchterm": "ConcatPtg",
+  "previouspage": null,
+  "searchterm": "ConcatPtg",
+  "query": "ConcatPtg",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 53,
+      "location": "/ppt/poi/org/apache/poi/ss/formula/ptg",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97399200/",
+      "md5hash": "c57831c4adfc9c5731a85cb0e01af558",
+      "lines": {
+        "32": "    private ConcatPtg() {",
+        "24": " */",
+        "25": "public final class ConcatPtg extends ValueOperatorPtg {",
+        "29": "    ",
+        "30": "    public static final ValueOperatorPtg instance = new ConcatPtg();",
+        "31": ""
+      },
+      "id": 97399200,
+      "filename": "ConcatPtg.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 111,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642557/",
+      "md5hash": "24981cef0e4b5623c03fb16ff834ead6",
+      "lines": {
+        "66": "    ",
+        "67": "    public ConcatPtg() {",
+        "52": "",
+        "53": "public class ConcatPtg",
+        "106": "    public Object clone() {",
+        "107": "      return new ConcatPtg();",
+        "60": "",
+        "61": "    public ConcatPtg(RecordInputStream in)"
+      },
+      "id": 15642557,
+      "filename": "ConcatPtg.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 485,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642564/",
+      "md5hash": "a03fe68945d6947241c13705dd4cc5e3",
+      "lines": {
+        "168": "       \t  ",
+        "169": "             case ConcatPtg.sid :               // 0x08",
+        "170": "                 retval = new ConcatPtg(in);",
+        "171": "        \t                  break;"
+      },
+      "id": 15642564,
+      "filename": "Ptg.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1069,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642368/",
+      "md5hash": "28d644f6963548f6234cc54a47085ba2",
+      "lines": {
+        "684": "        Term();",
+        "685": "        tokens.add(new ConcatPtg());"
+      },
+      "id": 15642368,
+      "filename": "FormulaParser.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

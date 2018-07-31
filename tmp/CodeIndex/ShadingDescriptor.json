@@ -1,0 +1,141 @@
+{
+  "matchterm": "ShadingDescriptor",
+  "previouspage": null,
+  "searchterm": "ShadingDescriptor",
+  "query": "ShadingDescriptor",
+  "language_filters": [
+    {
+      "count": 6,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 6,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 3034,
+      "location": "/src/org/apache/poi/hwpf/model/types",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384327/",
+      "md5hash": "66690de8458c959f0474d940a33c9f49",
+      "lines": {
+        "128": "    protected short field_22_hpsPos;",
+        "129": "    protected ShadingDescriptor field_23_shd;",
+        "210": "        this.field_20_hresi = new Hyphenation();",
+        "211": "        this.field_23_shd = new ShadingDescriptor();",
+        "1185": "    @Internal",
+        "1176": "    @Internal",
+        "1177": "    public ShadingDescriptor getShd()",
+        "26": "import org.apache.poi.hwpf.usermodel.DateAndTime;",
+        "27": "import org.apache.poi.hwpf.usermodel.ShadingDescriptor;",
+        "1186": "    public void setShd( ShadingDescriptor field_23_shd )"
+      },
+      "id": 97384327,
+      "filename": "CHPAbstractType.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1910,
+      "location": "/src/org/apache/poi/hwpf/model/types",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384338/",
+      "md5hash": "2efbe2193578055560aa9b1a50dfe60f",
+      "lines": {
+        "128": "    protected BorderCode field_65_brcBar;",
+        "129": "    protected ShadingDescriptor field_66_shd;",
+        "1610": "    public void setShd( ShadingDescriptor field_66_shd )",
+        "1609": "    @Internal",
+        "1601": "    public ShadingDescriptor getShd()",
+        "1600": "    @Internal",
+        "25": "import org.apache.poi.hwpf.usermodel.LineSpacingDescriptor;",
+        "26": "import org.apache.poi.hwpf.usermodel.ShadingDescriptor;",
+        "156": "        this.field_65_brcBar = new BorderCode();",
+        "157": "        this.field_66_shd = new ShadingDescriptor();"
+      },
+      "id": 97384338,
+      "filename": "PAPAbstractType.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 660,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384407/",
+      "md5hash": "d9e337622aaacee6d2790b7572b0af11",
+      "lines": {
+        "514": "",
+        "515": "  public void setShading(ShadingDescriptor shd)",
+        "509": "",
+        "510": "  public ShadingDescriptor getShading()"
+      },
+      "id": 97384407,
+      "filename": "Paragraph.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 760,
+      "location": "/src/org/apache/poi/hwpf/sprm",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384370/",
+      "md5hash": "ad7ef563bd5c85239b2ca09f401501f5",
+      "lines": {
+        "657": "             */",
+        "658": "            ShadingDescriptor80 oldDescriptor = new ShadingDescriptor80(",
+        "19": "",
+        "20": "import org.apache.poi.hwpf.usermodel.ShadingDescriptor80;",
+        "659": "                    sprm.getGrpprl(), sprm.getGrpprlOffset() );",
+        "662": "            newCHP.setShd( newDescriptor );",
+        "660": "            ShadingDescriptor newDescriptor = oldDescriptor",
+        "27": "import org.apache.poi.hwpf.usermodel.DateAndTime;",
+        "28": "import org.apache.poi.hwpf.usermodel.ShadingDescriptor;",
+        "661": "                    .toShadingDescriptor();"
+      },
+      "id": 97384370,
+      "filename": "CharacterSprmUncompressor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 397,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384444/",
+      "md5hash": "461bf1b767bc5911efb5e24f5a039047",
+      "lines": {
+        "384": "            cp.setXstDispFldRMark( getXstDispFldRMark().clone() );",
+        "385": "            cp.setShd( (ShadingDescriptor) getShd().clone() );"
+      },
+      "id": 97384444,
+      "filename": "CharacterProperties.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 676,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384484/",
+      "md5hash": "eb3ee5102b1d02992e415773f3944ccc",
+      "lines": {
+        "569": "    cp._props.setXstDispFldRMark(_props.getXstDispFldRMark().clone());",
+        "570": "    cp._props.setShd((ShadingDescriptor)_props.getShd().clone());"
+      },
+      "id": 97384484,
+      "filename": "CharacterRun.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 6,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

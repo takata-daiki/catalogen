@@ -1,0 +1,216 @@
+{
+  "matchterm": "POIXMLException",
+  "previouspage": null,
+  "searchterm": "POIXMLException",
+  "query": "POIXMLException",
+  "language_filters": [
+    {
+      "count": 10,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 10,
+  "results": [
+    {
+      "repo": "git://github.com/encuestame/encuestame.git",
+      "language": "Java",
+      "linescount": 390,
+      "location": "/encuestame-business/src/main/java/org/encuestame/business/search",
+      "name": "encuestame",
+      "url": "https://searchcode.com/codesearch/view/16002626/",
+      "md5hash": "3fcb7726512e9bad06a6d67189e20f90",
+      "lines": {
+        "177": "",
+        "178": "            } catch (POIXMLException e) {",
+        "179": "                log.error(\"Fail createAttachmentDocument POIXMLException --> \" + e);",
+        "180": "            } catch (Exception e) {",
+        "217": "     * @return",
+        "218": "     * @throws POIXMLException",
+        "220": "     */",
+        "29": "import org.apache.pdfbox.util.PDFTextStripper;",
+        "30": "import org.apache.poi.POIXMLException;",
+        "221": "    public static XWPFWordExtractor parseWordDocument(final File file) throws POIXMLException, Exception {"
+      },
+      "id": 16002626,
+      "filename": "IndexerFile.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 395,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406883/",
+      "md5hash": "affb9bb9cdc3dc16020b82db1f4ce116",
+      "lines": {
+        "91": "        } catch (Exception e){",
+        "155": "            throw new POIXMLException(e);",
+        "357": "            } catch (IOException e) {",
+        "358": "                throw new POIXMLException(e);",
+        "108": "            throw new POIXMLException(e);",
+        "154": "        } catch (XmlException e) {",
+        "107": "        } catch (Exception e){",
+        "92": "            throw new POIXMLException(e);",
+        "30": "import org.apache.poi.POIXMLDocumentPart;",
+        "31": "import org.apache.poi.POIXMLException;"
+      },
+      "id": 97406883,
+      "filename": "XMLSlideShow.java"
+    },
+    {
+      "repo": "git://github.com/encuestame/encuestame.git",
+      "language": "Java",
+      "linescount": 190,
+      "location": "/encuestame-business/src/main/java/org/encuestame/business/search",
+      "name": "encuestame",
+      "url": "https://searchcode.com/codesearch/view/16002624/",
+      "md5hash": "757efa5662c05058eda67ea0d00498ea",
+      "lines": {
+        "22": "import org.apache.poi.POIXMLException;",
+        "21": "import org.apache.lucene.document.Document;",
+        "118": "    * @return {@link Document}",
+        "119": "    * @throws POIXMLException",
+        "122": "    public Document getDocument(final File file, final String ext)",
+        "123": "            throws POIXMLException, Exception {"
+      },
+      "id": 16002624,
+      "filename": "IndexerManager.java"
+    },
+    {
+      "repo": "git://github.com/encuestame/encuestame.git",
+      "language": "Java",
+      "linescount": 285,
+      "location": "/encuestame-business/src/main/java/org/encuestame/business/search",
+      "name": "encuestame",
+      "url": "https://searchcode.com/codesearch/view/16002628/",
+      "md5hash": "6a0b4f4e7d61f770522584e775f6cb8b",
+      "lines": {
+        "160": "    */",
+        "161": "    public static Document createWordDocument(final File file) throws POIXMLException,",
+        "37": "import org.apache.pdfbox.util.PDFTextStripper;",
+        "38": "import org.apache.poi.POIXMLException;",
+        "157": "    * @return {@link Document}",
+        "158": "    * @throws POIXMLException"
+      },
+      "id": 16002628,
+      "filename": "SearchUtils.java"
+    },
+    {
+      "repo": "https://bitbucket.org/nx/squashtest-tm",
+      "language": "Java",
+      "linescount": 241,
+      "location": "/tm/tm.service/src/main/java/org/squashtest/tm/service/internal/batchimport/testcase/excel",
+      "name": "squashtest-tm",
+      "url": "https://searchcode.com/codesearch/view/122050599/",
+      "md5hash": "0f3cb6239a8151d6b09c3d54eec1210f",
+      "lines": {
+        "232": "",
+        "233": "\t\t} catch (InvalidFormatException | IOException | IllegalArgumentException | POIXMLException e) {",
+        "36": "import org.apache.commons.io.IOUtils;",
+        "37": "import org.apache.poi.POIXMLException;"
+      },
+      "id": 122050599,
+      "filename": "ExcelWorkbookParserBuilder.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 183,
+      "location": "/pptx/src/org/apache/poi",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406028/",
+      "md5hash": "26607ac5995dc62d56a6e905896e6ed2",
+      "lines": {
+        "158": "            throw new POIXMLException(e);",
+        "141": "//            } catch (Exception e){",
+        "142": "//                throw new POIXMLException(e);",
+        "157": "        } catch (OpenXML4JException e){"
+      },
+      "id": 97406028,
+      "filename": "POIXMLDocument.java"
+    },
+    {
+      "repo": "https://bitbucket.org/encuestame/encuestame.git",
+      "language": "Java",
+      "linescount": 270,
+      "location": "/enme-business/src/main/java/org/encuestame/business/search",
+      "name": "encuestame",
+      "url": "https://searchcode.com/codesearch/view/135204757/",
+      "md5hash": "f5d3ea62f9b4a88da4d215d8e4cccd25",
+      "lines": {
+        "145": "    */",
+        "146": "//    public static Document createWordDocument(final File file) throws POIXMLException,",
+        "142": "    * @return {@link Document}",
+        "143": "    * @throws POIXMLException"
+      },
+      "id": 135204757,
+      "filename": "SearchUtils.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 162,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406705/",
+      "md5hash": "3cf6ae3d47d4aecb9c8db82efffb3346",
+      "lines": {
+        "25": "",
+        "26": "import org.apache.poi.POIXMLException;",
+        "114": "                    throw new POIXMLException(e);",
+        "113": "                catch (Exception e) {"
+      },
+      "id": 97406705,
+      "filename": "XSLFPictureShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 555,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406768/",
+      "md5hash": "06c77456c926d8545168347abe70a1d6",
+      "lines": {
+        "33": "import org.apache.poi.POIXMLDocumentPart;",
+        "34": "import org.apache.poi.POIXMLException;",
+        "540": "        } catch (InvalidFormatException e){",
+        "541": "            throw new POIXMLException(e);"
+      },
+      "id": 97406768,
+      "filename": "XSLFSheet.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 617,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406813/",
+      "md5hash": "bf44107253290c5472d69b4baedf81f5",
+      "lines": {
+        "468": "        Rectangle2D anchor = getAnchor();",
+        "27": "",
+        "28": "import org.apache.poi.POIXMLException;",
+        "469": "        if(anchor.getWidth() == 0.)  throw new POIXMLException("
+      },
+      "id": 97406813,
+      "filename": "XSLFTextShape.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 8,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 2,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

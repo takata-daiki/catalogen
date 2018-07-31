@@ -1,0 +1,384 @@
+{
+  "matchterm": "ReSave",
+  "previouspage": null,
+  "searchterm": "ReSave",
+  "query": "ReSave",
+  "language_filters": [
+    {
+      "count": 147,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 147,
+  "results": [
+    {
+      "repo": "https://openrpg.svn.sourceforge.net/svnroot/openrpg",
+      "language": "Java",
+      "linescount": 449,
+      "location": "/trunk/src/openrpg2/common/core/network",
+      "name": "openrpg",
+      "url": "https://searchcode.com/codesearch/view/9424200/",
+      "md5hash": "8a95ff299ea94aa5138c0025edfbb5a2",
+      "lines": {
+        "112": "        boolean resave = false;",
+        "128": "        if (resave){",
+        "116": "            netProps.setProperty(SETTING_DEFAULT_IP,dfip);",
+        "117": "            resave = true;",
+        "127": "        }",
+        "123": "            netProps.setProperty(SETTING_DEFAULT_PORT,dfport);",
+        "124": "            resave = true;",
+        "111": "        String dfport = netProps.getProperty(SETTING_DEFAULT_PORT);"
+      },
+      "id": 9424200,
+      "filename": "NetworkServer.java"
+    },
+    {
+      "repo": "https://bitbucket.org/limingwei/li.git",
+      "language": "Java",
+      "linescount": 52,
+      "location": "/demo/li/people/record",
+      "name": "li",
+      "url": "https://searchcode.com/codesearch/view/47875870/",
+      "md5hash": "87ecc4feed90a544222b21282445c1af",
+      "lines": {
+        "40": "        return saveIgnoreNull(role) | roleResourceDao.reSave(role.get(Integer.class, \"id\"), resourceIds);",
+        "44": "    public Boolean update(Role role, Integer[] resourceIds) {",
+        "45": "        return updateIgnoreNull(role) | roleResourceDao.reSave(role.get(Integer.class, \"id\"), resourceIds);",
+        "39": "    public Boolean save(Role role, Integer[] resourceIds) {"
+      },
+      "id": 47875870,
+      "filename": "Role.java"
+    },
+    {
+      "repo": "https://bitbucket.org/okivik/slick",
+      "language": "Java",
+      "linescount": 197,
+      "location": "/trunk/Slick/tools/org/newdawn/slick/tools/hiero",
+      "name": "slick",
+      "url": "https://searchcode.com/codesearch/view/102413202/",
+      "md5hash": "b862f766fd83ed850fcefd8e69e2595b",
+      "lines": {
+        "79": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");",
+        "78": "\t\t\t\t\tx.printStackTrace();",
+        "62": "\t\t\t\t\tx.printStackTrace();",
+        "63": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");"
+      },
+      "id": 102413202,
+      "filename": "CharSetDialog.java"
+    },
+    {
+      "repo": "https://bitbucket.org/okivik/slick",
+      "language": "Java",
+      "linescount": 197,
+      "location": "/tags/Slick0.3/tools/org/newdawn/slick/tools/hiero",
+      "name": "slick",
+      "url": "https://searchcode.com/codesearch/view/102414021/",
+      "md5hash": "b862f766fd83ed850fcefd8e69e2595b",
+      "lines": {
+        "79": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");",
+        "78": "\t\t\t\t\tx.printStackTrace();",
+        "62": "\t\t\t\t\tx.printStackTrace();",
+        "63": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");"
+      },
+      "id": 102414021,
+      "filename": "CharSetDialog.java"
+    },
+    {
+      "repo": "https://bitbucket.org/okivik/slick",
+      "language": "Java",
+      "linescount": 197,
+      "location": "/tags/Slick0.1/tools/org/newdawn/slick/tools/hiero",
+      "name": "slick",
+      "url": "https://searchcode.com/codesearch/view/102414237/",
+      "md5hash": "b862f766fd83ed850fcefd8e69e2595b",
+      "lines": {
+        "79": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");",
+        "78": "\t\t\t\t\tx.printStackTrace();",
+        "62": "\t\t\t\t\tx.printStackTrace();",
+        "63": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");"
+      },
+      "id": 102414237,
+      "filename": "CharSetDialog.java"
+    },
+    {
+      "repo": "https://bitbucket.org/okivik/slick",
+      "language": "Java",
+      "linescount": 197,
+      "location": "/tags/Slick0.19/tools/org/newdawn/slick/tools/hiero",
+      "name": "slick",
+      "url": "https://searchcode.com/codesearch/view/102414751/",
+      "md5hash": "b862f766fd83ed850fcefd8e69e2595b",
+      "lines": {
+        "79": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");",
+        "78": "\t\t\t\t\tx.printStackTrace();",
+        "62": "\t\t\t\t\tx.printStackTrace();",
+        "63": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");"
+      },
+      "id": 102414751,
+      "filename": "CharSetDialog.java"
+    },
+    {
+      "repo": "https://bitbucket.org/caiges/slick",
+      "language": "Java",
+      "linescount": 197,
+      "location": "/trunk/Slick/tools/org/newdawn/slick/tools/hiero",
+      "name": "slick",
+      "url": "https://searchcode.com/codesearch/view/102419639/",
+      "md5hash": "b862f766fd83ed850fcefd8e69e2595b",
+      "lines": {
+        "79": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");",
+        "78": "\t\t\t\t\tx.printStackTrace();",
+        "62": "\t\t\t\t\tx.printStackTrace();",
+        "63": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");"
+      },
+      "id": 102419639,
+      "filename": "CharSetDialog.java"
+    },
+    {
+      "repo": "https://bitbucket.org/caiges/slick",
+      "language": "Java",
+      "linescount": 197,
+      "location": "/tags/Slick0.3/tools/org/newdawn/slick/tools/hiero",
+      "name": "slick",
+      "url": "https://searchcode.com/codesearch/view/102421541/",
+      "md5hash": "b862f766fd83ed850fcefd8e69e2595b",
+      "lines": {
+        "79": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");",
+        "78": "\t\t\t\t\tx.printStackTrace();",
+        "62": "\t\t\t\t\tx.printStackTrace();",
+        "63": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");"
+      },
+      "id": 102421541,
+      "filename": "CharSetDialog.java"
+    },
+    {
+      "repo": "https://bitbucket.org/caiges/slick",
+      "language": "Java",
+      "linescount": 197,
+      "location": "/tags/Slick0.1/tools/org/newdawn/slick/tools/hiero",
+      "name": "slick",
+      "url": "https://searchcode.com/codesearch/view/102422173/",
+      "md5hash": "b862f766fd83ed850fcefd8e69e2595b",
+      "lines": {
+        "79": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");",
+        "78": "\t\t\t\t\tx.printStackTrace();",
+        "62": "\t\t\t\t\tx.printStackTrace();",
+        "63": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");"
+      },
+      "id": 102422173,
+      "filename": "CharSetDialog.java"
+    },
+    {
+      "repo": "https://bitbucket.org/caiges/slick",
+      "language": "Java",
+      "linescount": 197,
+      "location": "/tags/Slick0.19/tools/org/newdawn/slick/tools/hiero",
+      "name": "slick",
+      "url": "https://searchcode.com/codesearch/view/102423265/",
+      "md5hash": "b862f766fd83ed850fcefd8e69e2595b",
+      "lines": {
+        "79": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");",
+        "78": "\t\t\t\t\tx.printStackTrace();",
+        "62": "\t\t\t\t\tx.printStackTrace();",
+        "63": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");"
+      },
+      "id": 102423265,
+      "filename": "CharSetDialog.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ttencate/slick",
+      "language": "Java",
+      "linescount": 197,
+      "location": "/trunk/Slick/tools/org/newdawn/slick/tools/hiero",
+      "name": "slick",
+      "url": "https://searchcode.com/codesearch/view/102605383/",
+      "md5hash": "b862f766fd83ed850fcefd8e69e2595b",
+      "lines": {
+        "79": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");",
+        "78": "\t\t\t\t\tx.printStackTrace();",
+        "62": "\t\t\t\t\tx.printStackTrace();",
+        "63": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");"
+      },
+      "id": 102605383,
+      "filename": "CharSetDialog.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ttencate/slick",
+      "language": "Java",
+      "linescount": 197,
+      "location": "/tags/Slick0.3/tools/org/newdawn/slick/tools/hiero",
+      "name": "slick",
+      "url": "https://searchcode.com/codesearch/view/102607148/",
+      "md5hash": "b862f766fd83ed850fcefd8e69e2595b",
+      "lines": {
+        "79": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");",
+        "78": "\t\t\t\t\tx.printStackTrace();",
+        "62": "\t\t\t\t\tx.printStackTrace();",
+        "63": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");"
+      },
+      "id": 102607148,
+      "filename": "CharSetDialog.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ttencate/slick",
+      "language": "Java",
+      "linescount": 197,
+      "location": "/tags/Slick0.1/tools/org/newdawn/slick/tools/hiero",
+      "name": "slick",
+      "url": "https://searchcode.com/codesearch/view/102607572/",
+      "md5hash": "b862f766fd83ed850fcefd8e69e2595b",
+      "lines": {
+        "79": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");",
+        "78": "\t\t\t\t\tx.printStackTrace();",
+        "62": "\t\t\t\t\tx.printStackTrace();",
+        "63": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");"
+      },
+      "id": 102607572,
+      "filename": "CharSetDialog.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ttencate/slick",
+      "language": "Java",
+      "linescount": 197,
+      "location": "/tags/Slick0.19/tools/org/newdawn/slick/tools/hiero",
+      "name": "slick",
+      "url": "https://searchcode.com/codesearch/view/102608254/",
+      "md5hash": "b862f766fd83ed850fcefd8e69e2595b",
+      "lines": {
+        "79": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");",
+        "78": "\t\t\t\t\tx.printStackTrace();",
+        "62": "\t\t\t\t\tx.printStackTrace();",
+        "63": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");"
+      },
+      "id": 102608254,
+      "filename": "CharSetDialog.java"
+    },
+    {
+      "repo": "https://bitbucket.org/jpveilleux/slick_jp",
+      "language": "Java",
+      "linescount": 197,
+      "location": "/trunk/Slick/tools/org/newdawn/slick/tools/hiero",
+      "name": "slick_jp",
+      "url": "https://searchcode.com/codesearch/view/102622240/",
+      "md5hash": "b862f766fd83ed850fcefd8e69e2595b",
+      "lines": {
+        "79": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");",
+        "78": "\t\t\t\t\tx.printStackTrace();",
+        "62": "\t\t\t\t\tx.printStackTrace();",
+        "63": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");"
+      },
+      "id": 102622240,
+      "filename": "CharSetDialog.java"
+    },
+    {
+      "repo": "https://bitbucket.org/jpveilleux/slick_jp",
+      "language": "Java",
+      "linescount": 197,
+      "location": "/tags/Slick0.3/tools/org/newdawn/slick/tools/hiero",
+      "name": "slick_jp",
+      "url": "https://searchcode.com/codesearch/view/102623651/",
+      "md5hash": "b862f766fd83ed850fcefd8e69e2595b",
+      "lines": {
+        "79": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");",
+        "78": "\t\t\t\t\tx.printStackTrace();",
+        "62": "\t\t\t\t\tx.printStackTrace();",
+        "63": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");"
+      },
+      "id": 102623651,
+      "filename": "CharSetDialog.java"
+    },
+    {
+      "repo": "https://bitbucket.org/jpveilleux/slick_jp",
+      "language": "Java",
+      "linescount": 197,
+      "location": "/tags/Slick0.1/tools/org/newdawn/slick/tools/hiero",
+      "name": "slick_jp",
+      "url": "https://searchcode.com/codesearch/view/102624085/",
+      "md5hash": "b862f766fd83ed850fcefd8e69e2595b",
+      "lines": {
+        "79": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");",
+        "78": "\t\t\t\t\tx.printStackTrace();",
+        "62": "\t\t\t\t\tx.printStackTrace();",
+        "63": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");"
+      },
+      "id": 102624085,
+      "filename": "CharSetDialog.java"
+    },
+    {
+      "repo": "https://bitbucket.org/jpveilleux/slick_jp",
+      "language": "Java",
+      "linescount": 197,
+      "location": "/tags/Slick0.19/tools/org/newdawn/slick/tools/hiero",
+      "name": "slick_jp",
+      "url": "https://searchcode.com/codesearch/view/102624652/",
+      "md5hash": "b862f766fd83ed850fcefd8e69e2595b",
+      "lines": {
+        "79": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");",
+        "78": "\t\t\t\t\tx.printStackTrace();",
+        "62": "\t\t\t\t\tx.printStackTrace();",
+        "63": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");"
+      },
+      "id": 102624652,
+      "filename": "CharSetDialog.java"
+    },
+    {
+      "repo": "https://bitbucket.org/shinpeiNKT/slick",
+      "language": "Java",
+      "linescount": 197,
+      "location": "/trunk/Slick/tools/org/newdawn/slick/tools/hiero",
+      "name": "slick",
+      "url": "https://searchcode.com/codesearch/view/102937448/",
+      "md5hash": "b862f766fd83ed850fcefd8e69e2595b",
+      "lines": {
+        "79": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");",
+        "78": "\t\t\t\t\tx.printStackTrace();",
+        "62": "\t\t\t\t\tx.printStackTrace();",
+        "63": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");"
+      },
+      "id": 102937448,
+      "filename": "CharSetDialog.java"
+    },
+    {
+      "repo": "https://bitbucket.org/shinpeiNKT/slick",
+      "language": "Java",
+      "linescount": 197,
+      "location": "/tags/Slick0.3/tools/org/newdawn/slick/tools/hiero",
+      "name": "slick",
+      "url": "https://searchcode.com/codesearch/view/102938118/",
+      "md5hash": "b862f766fd83ed850fcefd8e69e2595b",
+      "lines": {
+        "79": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");",
+        "78": "\t\t\t\t\tx.printStackTrace();",
+        "62": "\t\t\t\t\tx.printStackTrace();",
+        "63": "\t\t\t\t\tJOptionPane.showMessageDialog(CharSetDialog.this, \"Failed to resave character set\");"
+      },
+      "id": 102938118,
+      "filename": "CharSetDialog.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 118,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 13,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 12,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 4,
+      "source": "Sourceforge",
+      "id": 4
+    }
+  ]
+}

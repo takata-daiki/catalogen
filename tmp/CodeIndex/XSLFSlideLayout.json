@@ -1,0 +1,67 @@
+{
+  "matchterm": "XSLFSlideLayout",
+  "previouspage": null,
+  "searchterm": "XSLFSlideLayout",
+  "query": "XSLFSlideLayout",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 247,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406624/",
+      "md5hash": "bd91cfe08b1a6b3395f8a88caf56a673",
+      "lines": {
+        "128": "                }",
+        "126": "                if (p instanceof XSLFSlideLayout){",
+        "118": "    @Override",
+        "119": "    public XSLFSlideLayout getMasterSheet(){",
+        "127": "                   _layout = (XSLFSlideLayout)p;",
+        "122": "",
+        "123": "    public XSLFSlideLayout getSlideLayout(){",
+        "125": "             for (POIXMLDocumentPart p : getRelations()) {",
+        "46": "   private final CTSlide _slide;",
+        "47": "   private XSLFSlideLayout _layout;"
+      },
+      "id": 97406624,
+      "filename": "XSLFSlide.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 395,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406883/",
+      "md5hash": "affb9bb9cdc3dc16020b82db1f4ce116",
+      "lines": {
+        "240": "",
+        "241": "//        XSLFSlideLayout layout = master.getLayout(SlideLayout.BLANK);",
+        "242": "    \tXSLFSlideLayout layout = null;",
+        "243": "        if(layout == null) throw new IllegalArgumentException(\"Blank layout was not found\");",
+        "203": "     */",
+        "204": "    public XSLFSlide createSlide(XSLFSlideLayout layout) {"
+      },
+      "id": 97406883,
+      "filename": "XMLSlideShow.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

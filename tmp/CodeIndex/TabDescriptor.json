@@ -1,0 +1,358 @@
+{
+  "matchterm": "TabDescriptor",
+  "previouspage": null,
+  "searchterm": "TabDescriptor",
+  "query": "TabDescriptor",
+  "language_filters": [
+    {
+      "count": 15,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 15,
+  "results": [
+    {
+      "repo": "https://github.com/bmuskalla/org.eclipse.rap.ui.views.properties.tabbed.git",
+      "language": "Java",
+      "linescount": 290,
+      "location": "/org.eclipse.ui.views.properties.tabbed/src/org/eclipse/ui/internal/views/properties/tabbed/view",
+      "name": "org.eclipse.rap.ui.views.properties.tabbed",
+      "url": "https://searchcode.com/codesearch/view/109058229/",
+      "md5hash": "4f93da29c983ccc6a65fd0f088b47823",
+      "lines": {
+        "32": " */",
+        "33": "public class TabDescriptor extends AbstractTabDescriptor {",
+        "68": "\t */",
+        "21": "import org.eclipse.ui.plugin.AbstractUIPlugin;",
+        "22": "import org.eclipse.ui.views.properties.tabbed.AbstractTabDescriptor;",
+        "69": "\tpublic TabDescriptor(IConfigurationElement configurationElement) {",
+        "64": "\t * Constructor for TabDescriptor.",
+        "63": "\t/**",
+        "46": "",
+        "47": "\tprivate final static String TAB_ERROR = TabbedPropertyMessages.TabDescriptor_Tab_error;"
+      },
+      "id": 109058229,
+      "filename": "TabDescriptor.java"
+    },
+    {
+      "repo": "git://github.com/Lyndir/Opal.git",
+      "language": "Java",
+      "linescount": 59,
+      "location": "/opal-wicket/src/main/java/com/lyndir/lhunath/opal/wayward/navigation",
+      "name": "Opal",
+      "url": "https://searchcode.com/codesearch/view/15319333/",
+      "md5hash": "40d341d080eddd8b6d13fed0e92f9a56",
+      "lines": {
+        "16": "public interface TabDescriptor<P extends Panel, S extends TabState<? extends P>> extends IClusterable {",
+        "9": "/**",
+        "10": " * <h2>{@link TabDescriptor}<br> <sub>[in short] (TODO).</sub></h2>",
+        "15": " */"
+      },
+      "id": 15319333,
+      "filename": "TabDescriptor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1910,
+      "location": "/src/org/apache/poi/hwpf/model/types",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384338/",
+      "md5hash": "2efbe2193578055560aa9b1a50dfe60f",
+      "lines": {
+        "1744": "    @Internal",
+        "161": "        this.field_73_rgdxaTab = new int[0];",
+        "162": "        this.field_74_rgtbd = new TabDescriptor[0];",
+        "20": "",
+        "21": "import org.apache.poi.hwpf.model.TabDescriptor;",
+        "1745": "    public TabDescriptor[] getRgtbd()",
+        "136": "    protected int[] field_73_rgdxaTab;",
+        "137": "    protected TabDescriptor[] field_74_rgtbd;",
+        "1753": "    @Internal",
+        "1754": "    public void setRgtbd( TabDescriptor[] field_74_rgtbd )"
+      },
+      "id": 97384338,
+      "filename": "PAPAbstractType.java"
+    },
+    {
+      "repo": "https://github.com/bmuskalla/org.eclipse.rap.ui.views.properties.tabbed.git",
+      "language": "Java",
+      "linescount": 541,
+      "location": "/org.eclipse.ui.views.properties.tabbed/src/org/eclipse/ui/internal/views/properties/tabbed/view",
+      "name": "org.eclipse.rap.ui.views.properties.tabbed",
+      "url": "https://searchcode.com/codesearch/view/109058245/",
+      "md5hash": "99fd96cb7c5d53a0e211476445ce9d8a",
+      "lines": {
+        "32": "import org.eclipse.ui.views.properties.tabbed.AbstractTabDescriptor;",
+        "288": "",
+        "35": "import org.eclipse.ui.views.properties.tabbed.ISectionDescriptorProvider;",
+        "36": "import org.eclipse.ui.views.properties.tabbed.ITabDescriptor;",
+        "37": "import org.eclipse.ui.views.properties.tabbed.ITabDescriptorProvider;",
+        "289": "\t\tITabDescriptor[] result = filterTabDescriptors(allDescriptors, part,",
+        "143": "\t\t\t\t\t\t.getAttribute(ATT_TAB_DESCRIPTOR_PROVIDER) != null) {",
+        "144": "\t\t\t\t\ttabDescriptorProvider = (ITabDescriptorProvider) configurationElement",
+        "274": "\t */",
+        "275": "\tpublic ITabDescriptor[] getTabDescriptors(IWorkbenchPart part,",
+        "280": "",
+        "281": "\t\tITabDescriptor[] allDescriptors = null;",
+        "282": "\t\tif (tabDescriptorProvider == null) {",
+        "283": "\t\t\tallDescriptors = getAllTabDescriptors();",
+        "284": "\t\t} else {",
+        "285": "\t\t\tallDescriptors = tabDescriptorProvider.getTabDescriptors(part,",
+        "31": "import org.eclipse.ui.internal.views.properties.tabbed.l10n.TabbedPropertyMessages;"
+      },
+      "id": 109058245,
+      "filename": "TabbedPropertyRegistry.java"
+    },
+    {
+      "repo": "https://github.com/bmuskalla/org.eclipse.rap.ui.views.properties.tabbed.git",
+      "language": "Java",
+      "linescount": 286,
+      "location": "/org.eclipse.ui.views.properties.tabbed/src/org/eclipse/ui/internal/views/properties/tabbed/view",
+      "name": "org.eclipse.rap.ui.views.properties.tabbed",
+      "url": "https://searchcode.com/codesearch/view/109058232/",
+      "md5hash": "9c44b61bb7e5b28a5e01dbaab63158fe",
+      "lines": {
+        "162": "\tprivate void setSelectedTab() {",
+        "67": "\t\t\t */",
+        "68": "\t\t\treturn registry.getTabDescriptors(currentPart,",
+        "166": "\t\tif (!selectionFromList.equals(StructuredSelection.EMPTY)) {",
+        "167": "\t\t\tcurrentSelectedTabInList = (TabDescriptor) selectionFromList",
+        "200": "\t\t\t\t\t\tdynamicTabItems[selectedTabIndex].getText())) {",
+        "201": "\t\t\tTabDescriptor newSelectedTab = (TabDescriptor) tabbedPropertyViewer",
+        "151": "\t */",
+        "175": "\t\t\t\t */",
+        "176": "\t\t\t\tTabDescriptor newSelectedTab = (TabDescriptor) tabbedPropertyViewer",
+        "24": "import org.eclipse.ui.views.properties.tabbed.ITabDescriptor;",
+        "163": "\t\tTabDescriptor currentSelectedTabInList = null;",
+        "149": "\t * ",
+        "150": "\t * @see org.eclipse.ui.views.properties.tabbed.ITabSelectionListener#tabSelected(org.eclipse.ui.views.properties.tabbed.ITabDescriptor)",
+        "23": "import org.eclipse.ui.views.properties.tabbed.ISection;",
+        "152": "\tpublic void tabSelected(ITabDescriptor tabDescriptor) {"
+      },
+      "id": 109058232,
+      "filename": "OverridableTabListContentProvider.java"
+    },
+    {
+      "repo": "git://github.com/Lyndir/Opal.git",
+      "language": "Java",
+      "linescount": 212,
+      "location": "/opal-wicket/src/main/java/com/lyndir/lhunath/opal/wayward/navigation",
+      "name": "Opal",
+      "url": "https://searchcode.com/codesearch/view/15319336/",
+      "md5hash": "b0baffd74b19959494820cb2ead823f1",
+      "lines": {
+        "65": "     */",
+        "66": "    public <T extends TabDescriptor<P, S>, S extends TabState<P>, P extends Panel> void activateTabWithState(@NotNull final T tab,",
+        "41": "     */",
+        "42": "    <T extends TabDescriptor<P, S>, S extends TabState<P>, P extends Panel> void activateTabWithState(@NotNull final T tab,",
+        "203": "    protected abstract <T extends TabDescriptor<P, ?>, P extends Panel> void onTabActivated(@NotNull T tab, @NotNull P tabPanel);",
+        "93": "    public <T extends TabDescriptor<P, ?>, P extends Panel, PP extends P> void activateTab(@NotNull final T tab, @Nullable final PP panel) {",
+        "80": "     */",
+        "81": "    public void activateNewTab(@NotNull final TabDescriptor<?, ?> tab) {",
+        "188": "    @NotNull",
+        "180": "    @NotNull",
+        "181": "    protected abstract Iterable<? extends TabDescriptor<?, ?>> getTabs();",
+        "189": "    protected abstract <T extends TabDescriptor<P, ?>, P extends Panel> P getContent(@NotNull T tab);",
+        "202": "     */",
+        "92": "     */",
+        "29": "    private String              pageFragment;",
+        "30": "    private TabDescriptor<?, ?> activeTab;"
+      },
+      "id": 15319336,
+      "filename": "NavigationController.java"
+    },
+    {
+      "repo": "git://github.com/Lyndir/Opal.git",
+      "language": "Java",
+      "linescount": 68,
+      "location": "/opal-wicket/src/main/java/com/lyndir/lhunath/opal/wayward/navigation",
+      "name": "Opal",
+      "url": "https://searchcode.com/codesearch/view/15319334/",
+      "md5hash": "845708ce83931a65d6daedf3dbc78fef",
+      "lines": {
+        "59": "        for (final TabDescriptor tab : controller.getTabs())",
+        "58": "        // No fragment, fragment not recognised or fragment could not be applied, find and set a default tab.",
+        "43": "            //noinspection RawUseOfParameterizedType",
+        "44": "            for (final TabDescriptor tab : controller.getTabs()) {"
+      },
+      "id": 15319334,
+      "filename": "NavigationPageListener.java"
+    },
+    {
+      "repo": "https://github.com/bmuskalla/org.eclipse.rap.ui.views.properties.tabbed.git",
+      "language": "Java",
+      "linescount": 30,
+      "location": "/org.eclipse.ui.views.properties.tabbed/src/org/eclipse/ui/views/properties/tabbed",
+      "name": "org.eclipse.rap.ui.views.properties.tabbed",
+      "url": "https://searchcode.com/codesearch/view/109058156/",
+      "md5hash": "b4d7d5d7fbdadff61f0143c51c50e99c",
+      "lines": {
+        "24": "\t * @param tabDescriptor",
+        "27": "\t */",
+        "28": "\tpublic void tabSelected(ITabDescriptor tabDescriptor);",
+        "23": "\t * "
+      },
+      "id": 109058156,
+      "filename": "ITabSelectionListener.java"
+    },
+    {
+      "repo": "git://github.com/Lyndir/Opal.git",
+      "language": "Java",
+      "linescount": 78,
+      "location": "/opal-wicket/src/main/java/com/lyndir/lhunath/opal/wayward/navigation",
+      "name": "Opal",
+      "url": "https://searchcode.com/codesearch/view/15319330/",
+      "md5hash": "0c3ab8dc643c11380d86a79a47abbc40",
+      "lines": {
+        "40": "        updateTabComponents( (TabDescriptor) controller.getActiveTab() );",
+        "53": "",
+        "54": "    private <T extends TabDescriptor<P, S>, S extends TabState<P>, P extends Panel> void updateTabComponents(@Nullable final T activeTab) {",
+        "39": ""
+      },
+      "id": 15319330,
+      "filename": "NavigationAjaxRequestListener.java"
+    },
+    {
+      "repo": "https://github.com/Lyndir/Snaplog.git",
+      "language": "Java",
+      "linescount": 72,
+      "location": "/src/main/java/com/lyndir/lhunath/snaplog/webapp/page",
+      "name": "Snaplog",
+      "url": "https://searchcode.com/codesearch/view/109176216/",
+      "md5hash": "f5bc15a11257c4080b35b4efa678c0db",
+      "lines": {
+        "49": "    @Override",
+        "50": "    protected <T extends TabDescriptor<P, ?>, P extends Panel> void onTabActivated(@NotNull final T tab, @NotNull final P tabPanel) {",
+        "69": "",
+        "70": "    protected abstract <T extends TabDescriptor<P, ?>, P extends Panel> String getContentId(@NotNull T tab);",
+        "26": "    @SuppressWarnings({ \"unchecked\" })",
+        "27": "    protected <T extends TabDescriptor<P, ?>, P extends Panel> P getContent(@NotNull final T tab) {"
+      },
+      "id": 109176216,
+      "filename": "ContainerNavigationController.java"
+    },
+    {
+      "repo": "http://findbugs.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 13,
+      "location": "/eclipsePlugin/src/org/eclipse/ui/views/properties/tabbed",
+      "name": "findbugs",
+      "url": "https://searchcode.com/codesearch/view/3426165/",
+      "md5hash": "5f47382e73a7dfebe751a4b4200bf7c3",
+      "lines": {
+        "2": " * This is a faked interface to avoid compile problems with Eclipse 3.3.",
+        "3": " * Unfortunately in 3.3 internal class TabDescriptor was used in ITabSelectionListener,",
+        "4": " * which was fixed by adding new interface ITabDescriptor in 3.4.",
+        "5": " */",
+        "7": "",
+        "8": "public interface ITabDescriptor {"
+      },
+      "id": 3426165,
+      "filename": "ITabDescriptor.java"
+    },
+    {
+      "repo": "https://github.com/Lyndir/Snaplog.git",
+      "language": "Java",
+      "linescount": 467,
+      "location": "/src/main/java/com/lyndir/lhunath/snaplog/webapp/page",
+      "name": "Snaplog",
+      "url": "https://searchcode.com/codesearch/view/109176205/",
+      "md5hash": "dbcb4d57db2842a7ecdabe60cac47b3e",
+      "lines": {
+        "448": "        protected <T extends TabDescriptor<P, ?>, P extends Panel> String getContentId(@NotNull final T tab) {",
+        "454": "        @Override",
+        "455": "        protected Iterable<? extends TabDescriptor<?, ?>> getTabs() {",
+        "456": "",
+        "457": "            ImmutableList.Builder<SnaplogTabDescriptor<?, ?>> tabsBuilder = ImmutableList.builder();",
+        "458": "            for (final Tab tab : Tab.values()) {",
+        "459": "                SnaplogTabDescriptor<?, ?> snaplogTab = tab.get();",
+        "17": "import com.lyndir.lhunath.snaplog.webapp.page.model.LayoutPageModels.TabItem;",
+        "18": "import com.lyndir.lhunath.snaplog.webapp.tab.SnaplogTabDescriptor;",
+        "188": "                @SuppressWarnings({ \"unchecked\" })",
+        "189": "                SnaplogTabDescriptor<Panel, ? extends TabState> activeTab = (SnaplogTabDescriptor<Panel, ? extends TabState>) getController()",
+        "447": "        @Override"
+      },
+      "id": 109176205,
+      "filename": "LayoutPage.java"
+    },
+    {
+      "repo": "https://github.com/Lyndir/Snaplog.git",
+      "language": "Java",
+      "linescount": 41,
+      "location": "/src/main/java/com/lyndir/lhunath/snaplog/webapp/tab",
+      "name": "Snaplog",
+      "url": "https://searchcode.com/codesearch/view/109176364/",
+      "md5hash": "9882ef6bf8d1015ccd85eabccf3dec2b",
+      "lines": {
+        "32": "public interface SnaplogTabDescriptor<P extends Panel, S extends TabState<P>> extends TabDescriptor<P, S> {",
+        "17": "",
+        "18": "import com.lyndir.lhunath.opal.wayward.navigation.TabDescriptor;",
+        "25": "/**",
+        "26": " * <h2>{@link SnaplogTabDescriptor}<br> <sub>[in short] (TODO).</sub></h2>",
+        "31": " */"
+      },
+      "id": 109176364,
+      "filename": "SnaplogTabDescriptor.java"
+    },
+    {
+      "repo": "git://github.com/Lyndir/Opal.git",
+      "language": "Java",
+      "linescount": 65,
+      "location": "/opal-wicket/src/main/java/com/lyndir/lhunath/opal/wayward/state",
+      "name": "Opal",
+      "url": "https://searchcode.com/codesearch/view/15319289/",
+      "md5hash": "1327058aebcf5d29281554442ca7d820",
+      "lines": {
+        "29": " */",
+        "30": "public abstract class TabActivator<P extends Panel, S extends TabState<P>, T extends TabDescriptor<P, S>> implements ComponentActivator {"
+      },
+      "id": 15319289,
+      "filename": "TabActivator.java"
+    },
+    {
+      "repo": "https://github.com/Lyndir/Snaplog.git",
+      "language": "Java",
+      "linescount": 160,
+      "location": "/src/main/java/com/lyndir/lhunath/snaplog/webapp/tab",
+      "name": "Snaplog",
+      "url": "https://searchcode.com/codesearch/view/109176377/",
+      "md5hash": "b6febe7ba214c73684097e200fafb1e1",
+      "lines": {
+        "35": "     */",
+        "36": "    HOME( HomeTabPanel.HomeTabDescriptor.instance ),",
+        "134": "            @SuppressWarnings({ \"unchecked\" })",
+        "135": "            SnaplogTabDescriptor<P, S> snaplogTab = (SnaplogTabDescriptor<P, S>) get();",
+        "40": "     */",
+        "41": "    ABOUT( AboutTabPanel.AboutTabDescriptor.instance ),",
+        "45": "     */",
+        "46": "    GALLERY( GalleryTabPanel.GalleryTabDescriptor.instance ),",
+        "56": "    SHARED( SharedTabPanel.SharedTabDescriptor.instance ),",
+        "50": "     */",
+        "51": "    TAG( TagTabPanel.TagTabDescriptor.instance ),",
+        "55": "     */",
+        "24": "/**",
+        "25": " * <h2>{@link SnaplogTabDescriptor}<br> <sub>[in short] (TODO).</sub></h2>",
+        "60": "     */",
+        "61": "    ADMINISTRATION( AdministrationTabPanel.AdministrationTabDescriptor.instance ),"
+      },
+      "id": 109176377,
+      "filename": "Tab.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 14,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

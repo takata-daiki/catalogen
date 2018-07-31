@@ -1,0 +1,88 @@
+{
+  "matchterm": "VariantTypeException",
+  "previouspage": null,
+  "searchterm": "VariantTypeException",
+  "query": "VariantTypeException",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 101,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642690/",
+      "md5hash": "d035aa3b18b2cda571b9dbc8abc34b03",
+      "lines": {
+        "49": " * @since 2004-06-21",
+        "50": " * @version $Id: VariantTypeException.java 489730 2006-12-22 19:18:16Z bayard $",
+        "67": "     */",
+        "52": "public abstract class VariantTypeException extends HPSFException",
+        "51": " */",
+        "68": "    public VariantTypeException(final long variantType, final Object value,"
+      },
+      "id": 15642690,
+      "filename": "VariantTypeException.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 82,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642674/",
+      "md5hash": "9770c0a1bf70acac422ec5d87e2df0fe",
+      "lines": {
+        "48": " * retrieved using the {@link VariantTypeException#getValue} method.</p>",
+        "66": "     */",
+        "67": "    public UnsupportedVariantTypeException(final long variantType,",
+        "54": " * @since 2003-08-05",
+        "55": " * @version $Id: UnsupportedVariantTypeException.java 489730 2006-12-22 19:18:16Z bayard $",
+        "56": " */",
+        "57": "public abstract class UnsupportedVariantTypeException",
+        "58": "extends VariantTypeException",
+        "59": "{",
+        "47": " * supported yet. Although a variant type is unsupported the value can still be"
+      },
+      "id": 15642674,
+      "filename": "UnsupportedVariantTypeException.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 85,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642688/",
+      "md5hash": "5741fccb64c49c39b934605ddec65991",
+      "lines": {
+        "64": "    public IllegalVariantTypeException(final long variantType,",
+        "51": " * @since 2004-06-21",
+        "52": " * @version $Id: IllegalVariantTypeException.java 489730 2006-12-22 19:18:16Z bayard $",
+        "53": " */",
+        "54": "public class IllegalVariantTypeException extends VariantTypeException",
+        "75": "     */",
+        "76": "    public IllegalVariantTypeException(final long variantType,",
+        "63": "     */"
+      },
+      "id": 15642688,
+      "filename": "IllegalVariantTypeException.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

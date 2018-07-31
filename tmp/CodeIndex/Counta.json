@@ -1,0 +1,498 @@
+{
+  "matchterm": "Counta",
+  "previouspage": null,
+  "searchterm": "Counta",
+  "query": "Counta",
+  "language_filters": [
+    {
+      "count": 67,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 67,
+  "results": [
+    {
+      "repo": "https://github.com/poidasmith/xlloop.git",
+      "language": "Java",
+      "linescount": 19,
+      "location": "/org.boris.expr/java/src/org/boris/expr/function/excel",
+      "name": "xlloop",
+      "url": "https://searchcode.com/codesearch/view/105398777/",
+      "md5hash": "0badfbe376102c081b76bcab87ea33c3",
+      "lines": {
+        "8": "public class COUNTA extends AbstractFunction",
+        "7": ""
+      },
+      "id": 105398777,
+      "filename": "COUNTA.java"
+    },
+    {
+      "repo": "https://bitbucket.org/filtercake/bodyextensions",
+      "language": "Java",
+      "linescount": 872,
+      "location": "/src/surgeroom",
+      "name": "bodyextensions",
+      "url": "https://searchcode.com/codesearch/view/122644294/",
+      "md5hash": "5e0de60a7ca26ad18bb43afe773e3b6f",
+      "lines": {
+        "736": "\t\t\tif (countA > 0) {",
+        "737": "\t\t\t\tSystem.out.println(\"countA \" + countA);",
+        "738": "\t\t\t\t// countA -= 1;",
+        "67": "",
+        "68": "\tprivate int countA = 0;",
+        "741": "\t\t\t\t\tcountA -= 1;",
+        "743": "\t\t\t\t} else {",
+        "744": "\t\t\t\t\tcountA = 0;",
+        "715": "\t\t\tplaySound(waveStartSoundA);",
+        "716": "\t\t\tcountA = countMax;",
+        "739": "\t\t\t\t// return 0;",
+        "740": "\t\t\t\tif (surgeHeight > minSurgeHeightOfCollision / 2) {",
+        "735": ""
+      },
+      "id": 122644294,
+      "filename": "ProjectScene.java"
+    },
+    {
+      "repo": "https://github.com/LorenzoBettini/buckminster.git",
+      "language": "Java",
+      "linescount": 1016,
+      "location": "/org.eclipse.buckminster.core/src/java/org/eclipse/buckminster/core/helpers",
+      "name": "buckminster",
+      "url": "https://searchcode.com/codesearch/view/72209259/",
+      "md5hash": "da8b409c2f61fdcda93a709b75d63a8c",
+      "lines": {
+        "208": "\t\twhile ((countA = a.read(bufA)) > 0) {",
+        "209": "\t\t\tif (b.read(bufB) != countA)",
+        "210": "\t\t\t\treturn false;",
+        "211": "\t\t\tif (!ArrayUtils.equals(bufA, bufB, 0, countA))",
+        "213": "\t\t}",
+        "214": "\t\treturn b.read(bufB) == countA;",
+        "206": "\t\tbyte[] bufB = new byte[0x400];",
+        "207": "\t\tint countA;"
+      },
+      "id": 72209259,
+      "filename": "FileUtils.java"
+    },
+    {
+      "repo": "https://github.com/wagok/smashing_android_ui_example_app.git",
+      "language": "Java",
+      "linescount": 246,
+      "location": "/SmashingAndroidUICompanion/src/com/androiduipatterns/smashingandroidui/examples/backstack",
+      "name": "smashing_android_ui_example_app",
+      "url": "https://searchcode.com/codesearch/view/73783353/",
+      "md5hash": "c80321806eedb1e11f76c701aae0d69a",
+      "lines": {
+        "96": "            idText.setText(\"Activity A \" + countA);",
+        "97": "            stackTracker.add(this);",
+        "98": "            activityToLabelMap.put(this, \"Activity A \" + countA);",
+        "181": "",
+        "182": "            countA = 0;",
+        "39": "",
+        "40": "    private static int countA = 0;",
+        "94": "        if (this instanceof BackstackExampleActivityA) {",
+        "95": "            ++countA;"
+      },
+      "id": 73783353,
+      "filename": "BackstackExampleActivity.java"
+    },
+    {
+      "repo": "https://gitlab.com/george.a.liaw/sample_code.git",
+      "language": "Java",
+      "linescount": 59,
+      "location": "/java",
+      "name": "sample_code",
+      "url": "https://searchcode.com/codesearch/view/115284852/",
+      "md5hash": "ef593d6ab52c831021e39fa0f96b4f64",
+      "lines": {
+        "40": "        ",
+        "41": "        while(countA != countB) {",
+        "42": "            if(countA < countB) {",
+        "43": "                ptrB = ptrB.next;",
+        "45": "            }",
+        "14": "public class Solution {",
+        "15": "    int countA, countB;",
+        "48": "                countA--;",
+        "46": "            else if(countB < countA) {",
+        "22": "        ",
+        "23": "        countA = 0;",
+        "47": "                ptrA = ptrA.next;",
+        "29": "            ptrA = ptrA.next;",
+        "30": "            countA++;"
+      },
+      "id": 115284852,
+      "filename": "LinkedListIntersect.java"
+    },
+    {
+      "repo": "https://github.com/GerryGrano/mmasgis.git",
+      "language": "Java",
+      "linescount": 735,
+      "location": "/src/it/metmi/mmasgis/servlet",
+      "name": "mmasgis",
+      "url": "https://searchcode.com/codesearch/view/98126632/",
+      "md5hash": "52fff5aba1bcf79823d6429afd7e3698",
+      "lines": {
+        "384": "\t\t\tint countA = 0;",
+        "311": "\t\t\t\t\tif(countA != 0 && countO == 0){",
+        "390": "\t\t\t\t\t\tfilters = filters +\"(p.pv_id IN(SELECT pv_id FROM rel_pv_pot WHERE tc_clpot_id=\"+p[0]+\" AND tc_pot_id=\"+p[1]+\")) AND \";",
+        "391": "\t\t\t\t\t\tcountA++;",
+        "299": "\t\t\t\t\t\t}else{",
+        "300": "\t\t\t\t\t\t\tif(countA==0){",
+        "302": "\t\t\t\t\t\t\t\tfilters = filters +\"(p.pv_id IN(SELECT pv_id FROM rel_pv_par WHERE tc_clpar_id=\"+p[0]+\" AND tc_par_id=\"+p[1]+\"))) AND \";",
+        "303": "\t\t\t\t\t\t\t\tcountA++;",
+        "403": "\t\t\t\t\t\t}else{",
+        "404": "\t\t\t\t\t\t\tif(countA==0){",
+        "310": "\t\t\t\t}else{",
+        "279": "\t\t\tint countO = 0;",
+        "280": "\t\t\tint countA = 0;",
+        "383": "\t\t\tint countO = 0;",
+        "286": "\t\t\t\t\t\tfilters = filters +\"(p.pv_id IN(SELECT pv_id FROM rel_pv_par WHERE tc_clpar_id=\"+p[0]+\" AND tc_par_id=\"+p[1]+\")) AND \";",
+        "287": "\t\t\t\t\t\tcountA++;"
+      },
+      "id": 98126632,
+      "filename": "ListTask.java"
+    },
+    {
+      "repo": "git://github.com/tulskiy/musique.git",
+      "language": "Java",
+      "linescount": 829,
+      "location": "/dependencies/javaFlacEncoder/src/main/java/javaFlacEncoder",
+      "name": "musique",
+      "url": "https://searchcode.com/codesearch/view/17497729/",
+      "md5hash": "d0cb07da9541fd3957bf9f1c1aba525f",
+      "lines": {
+        "400": "        if(countA > 0) {",
+        "322": "     * is interleaved with non-desirable data).",
+        "323": "     * @param countA Number of total indices to store from.",
+        "401": "            inputOffset += writeCount;",
+        "328": "    public EncodedElement packInt(int[] inputArray, int bitSize,",
+        "329": "            int start, int skip, int countA) {",
+        "332": "            EncodedElement end = EncodedElement.getEnd_S(next);",
+        "333": "            return end.packInt(inputArray, bitSize, start, skip, countA);",
+        "398": "        //if more remain, create child object and add there",
+        "399": "        countA -= writeCount;",
+        "336": "        int writeCount = (data.length*8 - usableBits) / bitSize;",
+        "337": "        if(writeCount > countA) writeCount = countA;",
+        "338": "        //pack them and update usable bits.",
+        "339": "        EncodedElement.packInt(inputArray, bitSize, usableBits, start, skip, countA, data);",
+        "341": "        //if more remain, create child object and add there",
+        "342": "        countA -= writeCount;",
+        "343": "        if(countA > 0) {"
+      },
+      "id": 17497729,
+      "filename": "EncodedElement.java"
+    },
+    {
+      "repo": "https://github.com/bmorrise/pentaho-reporting.git",
+      "language": "Java",
+      "linescount": 51,
+      "location": "/libraries/libformula/test/org/pentaho/reporting/libraries/formula/function/information",
+      "name": "pentaho-reporting",
+      "url": "https://searchcode.com/codesearch/view/100689751/",
+      "md5hash": "04ee543e6f9d8c6e16dff48ab79063cd",
+      "lines": {
+        "37": "        {",
+        "38": "            {\"COUNTA(\\\"1\\\";2;TRUE())\", new BigDecimal(3)},",
+        "39": "            {\"COUNTA([.B3:.B5])\", new BigDecimal(3)},",
+        "40": "            {\"COUNTA([.B3:.B5];[.B3:.B5])\", new BigDecimal(6)},",
+        "41": "            {\"COUNTA([.B3:.B9])\", new BigDecimal(6)},",
+        "42": "            {\"COUNTA(\\\"1\\\";2;1/0)\", new BigDecimal(3)},",
+        "43": "            {\"COUNTA(\\\"1\\\";2;SUM([.B3:.B9]))\", new BigDecimal(3)},",
+        "44": "            {\"COUNTA(\\\"1\\\";2;[.B3:.B9])\", new BigDecimal(8)},",
+        "45": "            {\"COUNTA({\\\"1\\\";2;[.B3:.B9]})\", new BigDecimal(8)},",
+        "46": "            {\"COUNTA({[.B3:.B9]})\", new BigDecimal(6)},",
+        "47": "        };",
+        "26": " */",
+        "27": "public class CountAFunctionTest extends FormulaTestBase"
+      },
+      "id": 100689751,
+      "filename": "CountAFunctionTest.java"
+    },
+    {
+      "repo": "https://bitbucket.org/merritt/mrt-core",
+      "language": "Java",
+      "linescount": 784,
+      "location": "/core/src/main/java/org/cdlib/mrt/cloud",
+      "name": "mrt-core",
+      "url": "https://searchcode.com/codesearch/view/121941000/",
+      "md5hash": "72b8833ae6261cd564d1c9c545020131",
+      "lines": {
+        "280": "                }",
+        "274": "                info.size = sizeA.getLongValue();",
+        "275": "                info.count = countA.getIntValue();",
+        "260": "                ManInfo info = new ManInfo();",
+        "261": "                Attribute countA = elem.getAttribute(\"count\");",
+        "281": "                info.count = countA.getIntValue();",
+        "264": "                info.elem = elem;",
+        "265": "                if (countA == null) {"
+      },
+      "id": 121941000,
+      "filename": "ManifestXML.java"
+    },
+    {
+      "repo": "git://github.com/tulskiy/musique.git",
+      "language": "Java",
+      "linescount": 409,
+      "location": "/dependencies/javaFlacEncoder/src/main/java/javaFlacEncoder",
+      "name": "musique",
+      "url": "https://searchcode.com/codesearch/view/17497730/",
+      "md5hash": "3312ffb81d4f61717e3b3c811738872f",
+      "lines": {
+        "160": "            int countA, int startPosIn, int[] dest) {",
+        "224": "            return end.packIntByBits(inputA, inputBits, inputOffset, countA);",
+        "262": "            //add int to child",
+        "164": "        int startPos = startPosIn;//the position to write to in output array",
+        "165": "        int inputStop = countA+inputOffset;",
+        "230": "        //System.err.println(\"writeBitsRemaining: \" + writeBitsRemaining);",
+        "231": "        for(int i = 0; i < countA; i++) {",
+        "263": "            return next.packIntByBits(inputA, inputBits, inputOffset, countA);",
+        "223": "            EncodedElement end = EncodedElement_32.getEnd_S(next);",
+        "212": "     * @param inputOffset Index of first usable index.",
+        "213": "     * @param countA Number of indices to pack.",
+        "151": "     * @param inputOffset Index of first usable index.",
+        "152": "     * @param countA Number of indices to pack.",
+        "219": "    public EncodedElement packIntByBits(int[] inputA, int[] inputBits, int inputOffset,",
+        "220": "            int countA) {",
+        "159": "    public static void packIntByBits(int[] inputA, int[] inputBits, int inputOffset,"
+      },
+      "id": 17497730,
+      "filename": "EncodedElement_32.java"
+    },
+    {
+      "repo": "https://github.com/vkhoroshko/voltdb.git",
+      "language": "Java",
+      "linescount": 362,
+      "location": "/tests/frontend/org/voltdb/regressionsuites",
+      "name": "voltdb",
+      "url": "https://searchcode.com/codesearch/view/95179523/",
+      "md5hash": "e1d65d9027bd18d49720fb25bd23fcf8",
+      "lines": {
+        "98": "                       admin_start);",
+        "99": "            VoltTable[] results = adminclient.callProcedure(\"CountA\").getResults();",
+        "107": "            adminclient.drain();",
+        "108": "            results = adminclient.callProcedure(\"CountA\").getResults();",
+        "177": "                       admin_reentered);",
+        "178": "            results = adminclient.callProcedure(\"CountA\").getResults();",
+        "52": "        builder.addStmtProcedure(\"InsertA\", \"INSERT INTO T VALUES(?,?);\", \"T.A1: 0\");",
+        "53": "        builder.addStmtProcedure(\"CountA\", \"SELECT COUNT(*) FROM T\");",
+        "118": "            assertEquals(100, results[0].asScalarLong());",
+        "119": "            results = adminclient.callProcedure(\"CountA\").getResults();",
+        "116": "            adminclient.callProcedure(\"@Resume\");",
+        "117": "            results = client.callProcedure(\"CountA\").getResults();"
+      },
+      "id": 95179523,
+      "filename": "TestAdminMode.java"
+    },
+    {
+      "repo": "https://github.com/taochen/ssascaling.git",
+      "language": "Java",
+      "linescount": 499,
+      "location": "/src/main/java/org/ssascaling/objective/optimization",
+      "name": "ssascaling",
+      "url": "https://searchcode.com/codesearch/view/99756457/",
+      "md5hash": "82880b78d55f4ade22c2165aa9c95d42",
+      "lines": {
+        "293": "\t\tSet<Objective> set = antColony.getObjectives();",
+        "294": "\t\tint countA = 0;",
+        "305": "\t\t",
+        "299": "\t\t\t} else if (!obj.isBetter(another.getFront()[index], front[index])){",
+        "300": "\t\t\t\tcountA ++;",
+        "306": "\t\treturn new int[]{countA, countB};",
+        "273": "\t\tSet<Objective> set = antColony.getObjectives();",
+        "274": "\t\tint countA = 0;",
+        "279": "\t\t\t} else if (!obj.isBetter(another.getFront()[index], front[index])){",
+        "280": "\t\t\t\tcountA ++;",
+        "285": "\t\t",
+        "286": "\t\treturn countA > countB;"
+      },
+      "id": 99756457,
+      "filename": "Ant.java"
+    },
+    {
+      "repo": "https://github.com/bioclipse/org.openscience.cdk.git",
+      "language": "Java",
+      "linescount": 1109,
+      "location": "/plugins/org.openscience.cdk.formula/src/org/openscience/cdk/tools/manipulator",
+      "name": "org.openscience.cdk",
+      "url": "https://searchcode.com/codesearch/view/111482886/",
+      "md5hash": "1038989e2fa6a6bd6fcfb3a5483a4f72",
+      "lines": {
+        "992": "\t\t\t\t\t\t\tcountP = 1;",
+        "993": "\t\t\t\t\t\tint countA = eleCount.get(posit);",
+        "994": "\t\t\t\t\t\tif(countA == 0)",
+        "995": "\t\t\t\t\t\t\tcountA = 1;",
+        "996": "\t\t\t\t\t\tint value = countP+countA;",
+        "997": "\t\t\t\t\t\teleCount.remove(posit);"
+      },
+      "id": 111482886,
+      "filename": "MolecularFormulaManipulator.java"
+    },
+    {
+      "repo": "https://github.com/kanishin/tomcat.git",
+      "language": "Java",
+      "linescount": 694,
+      "location": "/java/org/apache/tomcat/util/buf",
+      "name": "tomcat",
+      "url": "https://searchcode.com/codesearch/view/69804917/",
+      "md5hash": "1e20ff4d25b8c81dc2589ca117b28788",
+      "lines": {
+        "240": "                            Integer count = Integer.valueOf(countA[0]);",
+        "241": "                            // Add to the list for that count",
+        "355": "                            CharEntry entry = item.getKey();",
+        "356": "                            int[] countA = item.getValue();",
+        "357": "                            Integer count = Integer.valueOf(countA[0]);",
+        "358": "                            // Add to the list for that count",
+        "238": "                            ByteEntry entry = item.getKey();",
+        "239": "                            int[] countA = item.getValue();"
+      },
+      "id": 69804917,
+      "filename": "StringCache.java"
+    },
+    {
+      "repo": "https://github.com/sweetybanana/algorithms-course-coursera.git",
+      "language": "Java",
+      "linescount": 193,
+      "location": "/coursera_libs/src/algo",
+      "name": "algorithms-course-coursera",
+      "url": "https://searchcode.com/codesearch/view/94436871/",
+      "md5hash": "a1390940a61476954659d25c8465ccdf",
+      "lines": {
+        "131": "        public boolean isValid() {",
+        "116": "            this.b    = b;",
+        "117": "            if (a != null) countA = a.count();",
+        "118": "            else           countA = -1;",
+        "119": "            if (b != null) countB = b.count();",
+        "132": "            if (a != null && a.count() != countA) return false;",
+        "108": "        private final Particle a, b;       // particles involved in event, possibly null",
+        "109": "        private final int countA, countB;  // collision counts at event creation"
+      },
+      "id": 94436871,
+      "filename": "CollisionSystem.java"
+    },
+    {
+      "repo": "https://github.com/davidhuizhou/Corejava.git",
+      "language": "Java",
+      "linescount": 194,
+      "location": "/src/main/java/com/dzhou/corejava/algs4",
+      "name": "Corejava",
+      "url": "https://searchcode.com/codesearch/view/96205890/",
+      "md5hash": "0e984cd215a9e67d65483e36366ab5d7",
+      "lines": {
+        "132": "        public boolean isValid() {",
+        "117": "            this.b    = b;",
+        "118": "            if (a != null) countA = a.count();",
+        "119": "            else           countA = -1;",
+        "120": "            if (b != null) countB = b.count();",
+        "109": "        private final Particle a, b;       // particles involved in event, possibly null",
+        "110": "        private final int countA, countB;  // collision counts at event creation",
+        "133": "            if (a != null && a.count() != countA) return false;"
+      },
+      "id": 96205890,
+      "filename": "CollisionSystem.java"
+    },
+    {
+      "repo": "https://github.com/javagems/grizzly-http-webserver.git",
+      "language": "Java",
+      "linescount": 715,
+      "location": "/src/com/sun/grizzly/util/buf",
+      "name": "grizzly-http-webserver",
+      "url": "https://searchcode.com/codesearch/view/106228113/",
+      "md5hash": "baacdac5048b562e714453aa23b21f0d",
+      "lines": {
+        "393": "                            Integer count = Integer.valueOf(countA[0]);",
+        "392": "                            int[] countA = ccStats.get(entry);",
+        "278": "                            ByteEntry entry = entries.next();",
+        "391": "                            CharEntry entry = entries.next();",
+        "280": "                            Integer count = Integer.valueOf(countA[0]);",
+        "281": "                            // Add to the list for that count",
+        "394": "                            // Add to the list for that count",
+        "279": "                            int[] countA = bcStats.get(entry);"
+      },
+      "id": 106228113,
+      "filename": "StringCache.java"
+    },
+    {
+      "repo": "https://bitbucket.org/minelabtw/2011ce1002.git",
+      "language": "Java",
+      "linescount": 86,
+      "location": "/Assignments/Assignment #7/s100502016",
+      "name": "2011ce1002",
+      "url": "https://searchcode.com/codesearch/view/42730165/",
+      "md5hash": "7fd1eaf26d88fd483fc9a9ae88b4a54b",
+      "lines": {
+        "64": "\t\t} else if (countA == 3 || count2 == 3 || countJ == 3 || countQ == 3",
+        "35": "\tpublic void setCardType() {",
+        "36": "\t\tcountJoker = countA = count2 = countJ = countQ = countK = 0;",
+        "41": "\t\t\t} else if (getCardInHand(i) >= 0 && getCardInHand(i) <= 3)",
+        "42": "\t\t\t\tcountA++;",
+        "12": "\tprivate int countJoker;",
+        "13": "\tprivate int countA;",
+        "67": "\t\t\tcardTypeLevel = 2;",
+        "55": "\t\t\tcardTypeLevel = 5;",
+        "56": "\t\t} else if (countA == 4 || count2 == 4 || countJ == 4 || countQ == 4",
+        "68": "\t\t} else if (countA == 2 || count2 == 2 || countJ == 2 || countQ == 2",
+        "59": "\t\t\tcardTypeLevel = 4;",
+        "60": "\t\t} else if ((countA == 3 || count2 == 3 || countJ == 3 || countQ == 3 || countK == 3)",
+        "61": "\t\t\t\t&& (countA == 2 || count2 == 2 || countJ == 2 || countQ == 2 || countK == 2)) {",
+        "63": "\t\t\tcardTypeLevel = 3;"
+      },
+      "id": 42730165,
+      "filename": "User.java"
+    },
+    {
+      "repo": "git://github.com/jfarcand/Grizzly.git",
+      "language": "Java",
+      "linescount": 717,
+      "location": "/modules/utils/src/main/java/com/sun/grizzly/util/buf",
+      "name": "Grizzly",
+      "url": "https://searchcode.com/codesearch/view/17452524/",
+      "md5hash": "be4ad43d26e6509ff782f6d824de39ae",
+      "lines": {
+        "395": "                            Integer count = Integer.valueOf(countA[0]);",
+        "393": "                            CharEntry entry = entries.next();",
+        "280": "                            ByteEntry entry = entries.next();",
+        "281": "                            int[] countA = bcStats.get(entry);",
+        "282": "                            Integer count = Integer.valueOf(countA[0]);",
+        "283": "                            // Add to the list for that count",
+        "396": "                            // Add to the list for that count",
+        "394": "                            int[] countA = ccStats.get(entry);"
+      },
+      "id": 17452524,
+      "filename": "StringCache.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 33,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 28,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 3,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 1,
+      "source": "GitLab",
+      "id": 13
+    },
+    {
+      "count": 1,
+      "source": "Sourceforge",
+      "id": 4
+    },
+    {
+      "count": 1,
+      "source": "Unknown",
+      "id": 0
+    }
+  ]
+}

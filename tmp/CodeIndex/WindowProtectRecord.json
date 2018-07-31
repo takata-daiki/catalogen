@@ -1,0 +1,239 @@
+{
+  "matchterm": "WindowProtectRecord",
+  "previouspage": null,
+  "searchterm": "WindowProtectRecord",
+  "query": "WindowProtectRecord",
+  "language_filters": [
+    {
+      "count": 12,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 12,
+  "results": [
+    {
+      "repo": "https://github.com/isdom/POI-Android.git",
+      "language": "Java",
+      "linescount": 94,
+      "location": "/ppt/poi/org/apache/poi/hssf/record",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/88639900/",
+      "md5hash": "6b67e336e8786b058b45e91241129c03",
+      "lines": {
+        "91": "        return new WindowProtectRecord(_options);",
+        "90": "    public Object clone() {",
+        "37": "",
+        "38": "    public WindowProtectRecord(int options) {",
+        "41": "",
+        "42": "    public WindowProtectRecord(RecordInputStream in) {",
+        "46": "    public WindowProtectRecord(boolean protect) {",
+        "45": "",
+        "30": " */",
+        "31": "public final class WindowProtectRecord extends StandardRecord {"
+      },
+      "id": 88639900,
+      "filename": "WindowProtectRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 145,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642384/",
+      "md5hash": "bedfd97d4c8a22c2860d4de9fa6e8060",
+      "lines": {
+        "68": "",
+        "53": "",
+        "54": "public class WindowProtectRecord",
+        "59": "",
+        "60": "    public WindowProtectRecord()",
+        "69": "    public WindowProtectRecord(RecordInputStream in)"
+      },
+      "id": 15642384,
+      "filename": "WindowProtectRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 69,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260272/",
+      "md5hash": "d268f5378c0e92d44aa25eaa67455d4a",
+      "lines": {
+        "44": "   */",
+        "28": " */",
+        "29": "class WindowProtectRecord extends WritableRecordData",
+        "45": "  public WindowProtectRecord(boolean prot)"
+      },
+      "id": 43260272,
+      "filename": "WindowProtectRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 69,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200800/",
+      "md5hash": "d268f5378c0e92d44aa25eaa67455d4a",
+      "lines": {
+        "44": "   */",
+        "28": " */",
+        "29": "class WindowProtectRecord extends WritableRecordData",
+        "45": "  public WindowProtectRecord(boolean prot)"
+      },
+      "id": 49200800,
+      "filename": "WindowProtectRecord.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 69,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/write/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374531/",
+      "md5hash": "8a6e092ce6e11b9c7b1d54631d6a2f73",
+      "lines": {
+        "44": "   */",
+        "28": " */",
+        "29": "class WindowProtectRecord extends WritableRecordData",
+        "45": "  public WindowProtectRecord(boolean prot)"
+      },
+      "id": 11374531,
+      "filename": "WindowProtectRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 2351,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642358/",
+      "md5hash": "2f47d8e4aa73ffbba0d056d2a6f68eee",
+      "lines": {
+        "992": "     * @see loci.poi.hssf.record.WindowProtectRecord",
+        "993": "     * @see loci.poi.hssf.record.Record",
+        "994": "     * @return record containing a WindowProtectRecord",
+        "997": "    protected Record createWindowProtect() {",
+        "998": "        WindowProtectRecord retval = new WindowProtectRecord();",
+        "991": "     * creates the WindowProtect record with protect set to false."
+      },
+      "id": 15642358,
+      "filename": "Workbook.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openesb/openesb-components.git",
+      "language": "Java",
+      "linescount": 1870,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/43260266/",
+      "md5hash": "7cf7f2ed2e9a9ecf9aeb7a31626a4cb3",
+      "lines": {
+        "734": "    // do not support password protected workbooks",
+        "735": "    WindowProtectRecord wpr = new WindowProtectRecord(false);"
+      },
+      "id": 43260266,
+      "filename": "WritableWorkbookImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
+      "language": "Java",
+      "linescount": 1870,
+      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
+      "name": "openesb-components",
+      "url": "https://searchcode.com/codesearch/view/49200794/",
+      "md5hash": "7cf7f2ed2e9a9ecf9aeb7a31626a4cb3",
+      "lines": {
+        "734": "    // do not support password protected workbooks",
+        "735": "    WindowProtectRecord wpr = new WindowProtectRecord(false);"
+      },
+      "id": 49200794,
+      "filename": "WritableWorkbookImpl.java"
+    },
+    {
+      "repo": "http://cellengine.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1870,
+      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/write/biff",
+      "name": "cellengine",
+      "url": "https://searchcode.com/codesearch/view/11374615/",
+      "md5hash": "eeb7fb5f28e170de50ae99417e46e6f4",
+      "lines": {
+        "734": "    // do not support password protected workbooks",
+        "735": "    WindowProtectRecord wpr = new WindowProtectRecord(false);"
+      },
+      "id": 11374615,
+      "filename": "WritableWorkbookImpl.java"
+    },
+    {
+      "repo": "http://brainstream.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1908,
+      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/write/biff",
+      "name": "brainstream",
+      "url": "https://searchcode.com/codesearch/view/13919798/",
+      "md5hash": "1b180ce870b12583c0822f5205cc43e8",
+      "lines": {
+        "760": "    // do not support password protected workbooks",
+        "761": "    WindowProtectRecord wpr = new WindowProtectRecord"
+      },
+      "id": 13919798,
+      "filename": "WritableWorkbookImpl.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642343/",
+      "md5hash": "468caa59753e7c2d27a76f3903f70894",
+      "lines": {
+        "128": "import loci.poi.hssf.record.WindowProtectRecord;",
+        "160": "                CodepageRecord.class, DSFRecord.class, TabIdRecord.class,",
+        "161": "                FnGroupCountRecord.class, WindowProtectRecord.class,",
+        "127": "import loci.poi.hssf.record.WindowOneRecord;"
+      },
+      "id": 15642343,
+      "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "70": "                CodepageRecord.class, DSFRecord.class, TabIdRecord.class,",
+        "71": "                FnGroupCountRecord.class, WindowProtectRecord.class,"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 5,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 4,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 3,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

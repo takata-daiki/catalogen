@@ -1,0 +1,65 @@
+{
+  "matchterm": "XWPFAbstractNum",
+  "previouspage": null,
+  "searchterm": "XWPFAbstractNum",
+  "query": "XWPFAbstractNum",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 1398,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter.core/src/main/java/org/apache/poi/xwpf/converter/core",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96672565/",
+      "md5hash": "2ee0d9cfda1138ee93328b854d5e99ce",
+      "lines": {
+        "306": "                 */",
+        "307": "                XWPFAbstractNum abstractNum = getXWPFAbstractNum( num );",
+        "470": "",
+        "471": "    protected XWPFAbstractNum getXWPFAbstractNum( XWPFNum num )",
+        "344": "                 */",
+        "345": "                XWPFAbstractNum abstractNum = getXWPFAbstractNum( num );",
+        "474": "        XWPFAbstractNum abstractNum = document.getNumbering().getAbstractNum( abstractNumID.getVal() );",
+        "473": "        CTDecimalNumber abstractNumID = num.getCTNum().getAbstractNumId();",
+        "46": "import org.apache.poi.xwpf.usermodel.IBodyElement;",
+        "47": "import org.apache.poi.xwpf.usermodel.XWPFAbstractNum;"
+      },
+      "id": 96672565,
+      "filename": "XWPFDocumentVisitor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/xdocreport.git",
+      "language": "Java",
+      "linescount": 884,
+      "location": "/thirdparties-extension/org.apache.poi.xwpf.converter/src/main/java/org/apache/poi/xwpf/converter/internal/itext",
+      "name": "xdocreport",
+      "url": "https://searchcode.com/codesearch/view/96673303/",
+      "md5hash": "58f5f4b9d6f4406c0fcea13e358fb18b",
+      "lines": {
+        "328": "                    XWPFAbstractNum abstractNum = document.getNumbering().getAbstractNum( abstractNumID.getVal() );",
+        "53": "import org.apache.poi.xwpf.usermodel.UnderlinePatterns;",
+        "54": "import org.apache.poi.xwpf.usermodel.XWPFAbstractNum;",
+        "327": "                    CTDecimalNumber abstractNumID = num.getCTNum().getAbstractNumId();"
+      },
+      "id": 96673303,
+      "filename": "PDFMapper.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

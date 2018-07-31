@@ -1,0 +1,469 @@
+{
+  "matchterm": "XSSFCellStyle",
+  "previouspage": null,
+  "searchterm": "XSSFCellStyle",
+  "query": "XSSFCellStyle",
+  "language_filters": [
+    {
+      "count": 45,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 45,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/rapidpm/tablemodell.git",
+      "language": "Java",
+      "linescount": 710,
+      "location": "/src/org/rapidpm/data/table/importer/xlsx",
+      "name": "tablemodell",
+      "url": "https://searchcode.com/codesearch/view/37860156/",
+      "md5hash": "e03479193feb818d2f288147b1e378d5",
+      "lines": {
+        "35": "    public enum Alignment {",
+        "36": "        HORIZONTAL_LEFT(XSSFCellStyle.ALIGN_LEFT),",
+        "37": "        HORIZONTAL_CENTER(XSSFCellStyle.ALIGN_CENTER),",
+        "38": "        HORIZONTAL_RIGHT(XSSFCellStyle.ALIGN_RIGHT),",
+        "39": "        VERTICAL_TOP(XSSFCellStyle.VERTICAL_TOP),",
+        "40": "        VERTICAL_CENTER(XSSFCellStyle.VERTICAL_CENTER),",
+        "41": "        VERTICAL_BOTTOM(XSSFCellStyle.VERTICAL_BOTTOM);",
+        "42": "",
+        "50": "    public enum Border {",
+        "51": "        DASH_DOT(XSSFCellStyle.BORDER_DASH_DOT),",
+        "52": "        DASH_DOT_DOT(XSSFCellStyle.BORDER_DASH_DOT_DOT),",
+        "53": "        DASHED(XSSFCellStyle.BORDER_DASHED),",
+        "54": "        DOTTED(XSSFCellStyle.BORDER_DOTTED),",
+        "55": "        DOUBLE(XSSFCellStyle.BORDER_DOUBLE),",
+        "56": "        HAIR(XSSFCellStyle.BORDER_HAIR),"
+      },
+      "id": 37860156,
+      "filename": "XSSFAssistant.java"
+    },
+    {
+      "repo": "https://github.com/semantalytics/RightField.git",
+      "language": "Java",
+      "linescount": 349,
+      "location": "/src/main/java/uk/ac/manchester/cs/owl/semspreadsheets/model/xssf/impl",
+      "name": "RightField",
+      "url": "https://searchcode.com/codesearch/view/72854552/",
+      "md5hash": "999bd42f43674782a2cdf4ddecdfd4a9",
+      "lines": {
+        "256": "\tprivate XSSFCellStyle getFillStyleForColour(Color colour) {",
+        "257": "\t\tMap<Color,XSSFCellStyle> styles = colourStylesForWorkbook.get(getWorkbook());",
+        "258": "    \tif (styles == null) {",
+        "259": "    \t\tstyles = new HashMap<Color,XSSFCellStyle>();",
+        "261": "    \t}",
+        "262": "    \tXSSFCellStyle style = styles.get(colour);",
+        "265": "    \t\tXSSFColor col = new XSSFColor(colour);",
+        "138": "    public void setBold(boolean b) {",
+        "139": "        XSSFCellStyle cellStyle = theCell.getCellStyle();        ",
+        "12": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "11": "import org.apache.poi.xssf.usermodel.XSSFCell;",
+        "287": "        XSSFCellStyle cellStyle = theCell.getCellStyle();",
+        "266": "    \t\tstyle.setFillPattern(XSSFCellStyle.SOLID_FOREGROUND );",
+        "286": "    public int getAlignment() {",
+        "255": ""
+      },
+      "id": 72854552,
+      "filename": "CellXSSFImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/manticoretrader/etltools",
+      "language": "Java",
+      "linescount": 317,
+      "location": "/src/com/manticore/report",
+      "name": "etltools",
+      "url": "https://searchcode.com/codesearch/view/121321564/",
+      "md5hash": "b476b10c4827335f24ae6b4baf18acfc",
+      "lines": {
+        "165": "      org.apache.poi.ss.usermodel.Font f;",
+        "166": "      if (cellStyle1 instanceof XSSFCellStyle) {",
+        "167": "        XSSFCell xssfCell = (XSSFCell) cell;",
+        "168": "        XSSFCellStyle xssfCellStyle = xssfCell.getCellStyle();",
+        "169": "",
+        "170": "        XSSFColor fillForegroundColorColor = xssfCellStyle.getFillForegroundColorColor();",
+        "171": "        if (fillForegroundColorColor == null) {",
+        "172": "          short fillId = (short) xssfCellStyle.getCoreXf().getFillId();",
+        "178": "        f = designer.workbook.getFontAt(xssfCellStyle.getFontIndex());",
+        "177": "        label.setBackground(awtColor(fillForegroundColorColor, java.awt.Color.WHITE));",
+        "18": "import org.apache.poi.xssf.usermodel.XSSFCell;",
+        "19": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "219": "",
+        "220": "      if (cellStyle1 instanceof XSSFCellStyle) {",
+        "221": "        XSSFCellStyle xssfCellStyle = (XSSFCellStyle) cellStyle1;"
+      },
+      "id": 121321564,
+      "filename": "CellRenderer.java"
+    },
+    {
+      "repo": "https://github.com/myGrid/simple-spreadsheet-extractor.git",
+      "language": "Java",
+      "linescount": 114,
+      "location": "/src/main/java/org/sysmodb/xml",
+      "name": "simple-spreadsheet-extractor",
+      "url": "https://searchcode.com/codesearch/view/110498472/",
+      "md5hash": "2fb1c0046d1e2bd89fd105f2fb84c829",
+      "lines": {
+        "53": "\t\t\tthrows XMLStreamException {",
+        "54": "\t\tXSSFCellStyle newStyle = (XSSFCellStyle) style;",
+        "23": "\tpublic String getBGColour(CellStyle style) {",
+        "24": "\t\tXSSFCellStyle newStyle = (XSSFCellStyle) style;",
+        "12": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "29": "\tpublic boolean areFontsEmpty(CellStyle style) {",
+        "30": "\t\tXSSFCellStyle newStyle = (XSSFCellStyle) style;",
+        "13": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;"
+      },
+      "id": 110498472,
+      "filename": "XSSFXMLStyleHelper.java"
+    },
+    {
+      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 242,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/122565145/",
+      "md5hash": "37e957a3ed6fb87cd516e5e2edbf25dd",
+      "lines": {
+        "128": "\t\t\t\tXSSFCellStyle xStyle = (XSSFCellStyle)style;",
+        "129": "\t\t\t\t",
+        "197": "\t\tif(style instanceof XSSFCellStyle) {",
+        "196": "\t\t}",
+        "21": "import org.apache.poi.ss.usermodel.Workbook;",
+        "22": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "199": "\t\t\tXSSFColor xColour = getXColour(colour);",
+        "198": "\t\t\tXSSFCellStyle cellStyle = (XSSFCellStyle)style;",
+        "126": "\t\t\t",
+        "127": "\t\t\tif( style instanceof XSSFCellStyle ) {"
+      },
+      "id": 122565145,
+      "filename": "StyleManagerXUtils.java"
+    },
+    {
+      "repo": "http://rexcel.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 314,
+      "location": "/other/src/main/java/org/cran/rexcel",
+      "name": "rexcel",
+      "url": "https://searchcode.com/codesearch/view/13928911/",
+      "md5hash": "b77afa9b12cf22935a01cba519e92f96",
+      "lines": {
+        "256": "                    XSSFCellStyle xssfStyle = (XSSFCellStyle)style;",
+        "257": "                    xssfStyle.setFillForegroundColor( foreground );",
+        "291": "            public void modify( CellStyle style ) {",
+        "292": "                if ( style instanceof XSSFCellStyle ) {",
+        "293": "                    XSSFCellStyle xssfStyle = (XSSFCellStyle)style;",
+        "294": "                    if ( borderTop != CellStyle.BORDER_NONE ) {",
+        "11": "import org.apache.poi.ss.usermodel.Workbook;",
+        "12": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "254": "                style.setFillPattern( pattern );",
+        "255": "                if ( style instanceof XSSFCellStyle ) {"
+      },
+      "id": 13928911,
+      "filename": "RCellBlock.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 5111,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970697/",
+      "md5hash": "f6740268ba4be4778508748ca1c3becc",
+      "lines": {
+        "4592": "\t\t} else {",
+        "4578": "\t\t} else {",
+        "4579": "\t\t\t((XSSFCellStyle)style).setRightBorderColor((XSSFColor)color);",
+        "4593": "\t\t\t((XSSFCellStyle)style).setBottomBorderColor((XSSFColor)color);",
+        "4585": "\t\t} else {",
+        "4586": "\t\t\t((XSSFCellStyle)style).setTopBorderColor((XSSFColor)color);",
+        "112": "import org.zkoss.poi.xssf.usermodel.XSSFCell;",
+        "113": "import org.zkoss.poi.xssf.usermodel.XSSFCellStyle;",
+        "4504": "\t\t} else {",
+        "4505": "\t\t\t((XSSFCellStyle)newCellStyle).setFillForegroundColor((XSSFColor)xlsColor);",
+        "4571": "\t\t} else {",
+        "4572": "\t\t\t((XSSFCellStyle)style).setLeftBorderColor((XSSFColor)color);"
+      },
+      "id": 3970697,
+      "filename": "BookHelper.java"
+    },
+    {
+      "repo": "https://github.com/fbacall/simple-spreadsheet-extractor.git",
+      "language": "Java",
+      "linescount": 72,
+      "location": "/src/main/java/org/sysmodb",
+      "name": "simple-spreadsheet-extractor",
+      "url": "https://searchcode.com/codesearch/view/112283803/",
+      "md5hash": "9e0968a5fb3673664dd344f78f1aeea8",
+      "lines": {
+        "17": "  {",
+        "18": "    XSSFCellStyle newStyle = (XSSFCellStyle) style;",
+        "3": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "4": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "24": "  {",
+        "25": "    XSSFCellStyle newStyle = (XSSFCellStyle) style;"
+      },
+      "id": 112283803,
+      "filename": "XSSFStyleHelper.java"
+    },
+    {
+      "repo": "https://github.com/zypacsinc/src.git",
+      "language": "Java",
+      "linescount": 384,
+      "location": "/com/cf/tkconnect/data",
+      "name": "src",
+      "url": "https://searchcode.com/codesearch/view/93053244/",
+      "md5hash": "0256d5b9985793107258b24ca50edb91",
+      "lines": {
+        "49": "\tXSSFCellStyle cellDataStyle; ",
+        "298": "\t}",
+        "299": "\tprivate void createIntructionRow(XSSFSheet sheet, CreationHelper createHelper, XSSFCellStyle cs, short rowindex, String value){",
+        "50": "\tboolean setResponse = false;",
+        "47": "\tCreationHelper createHelper;",
+        "48": "\tXSSFCellStyle cellHeaderStyle; ",
+        "17": "import org.apache.poi.xssf.usermodel.XSSFCell;",
+        "18": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "307": "\t}",
+        "308": "\tprivate XSSFCellStyle getCellHeaderStyle(){",
+        "309": "\t\tXSSFCellStyle cs = this.wb.createCellStyle();",
+        "281": "",
+        "282": "\tprivate void setBatchStatus(XSSFSheet sheet, CreationHelper createHelper, XSSFCellStyle cs){",
+        "286": "\t}",
+        "287": "\tprivate void createBatchStatusRow(XSSFSheet sheet, CreationHelper createHelper, XSSFCellStyle cs, short rowindex, String value){"
+      },
+      "id": 93053244,
+      "filename": "WriteExcelBook.java"
+    },
+    {
+      "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 281,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/64530833/",
+      "md5hash": "9bae33ba2ae2b3659c034710c785370e",
+      "lines": {
+        "32": "import org.apache.poi.ss.usermodel.Workbook;",
+        "33": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "210": "\t\tif(style instanceof XSSFCellStyle) {",
+        "211": "\t\t\tXSSFCellStyle cellStyle = (XSSFCellStyle)style;",
+        "212": "\t\t\tXSSFColor xColour = getXColour(colour);",
+        "209": "\t\t}",
+        "139": "\t\t\t",
+        "140": "\t\t\tif( style instanceof XSSFCellStyle ) {",
+        "141": "\t\t\t\tXSSFCellStyle xStyle = (XSSFCellStyle)style;",
+        "142": "\t\t\t\t"
+      },
+      "id": 64530833,
+      "filename": "StyleManagerXUtils.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ravisanthu0/spudsoft-birt-excel-emitters1",
+      "language": "Java",
+      "linescount": 279,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters1",
+      "url": "https://searchcode.com/codesearch/view/126772698/",
+      "md5hash": "afd1e481fb2efa8d3030d90a89833b16",
+      "lines": {
+        "208": "\t\tif(style instanceof XSSFCellStyle) {",
+        "209": "\t\t\tXSSFCellStyle cellStyle = (XSSFCellStyle)style;",
+        "210": "\t\t\tXSSFColor xColour = getXColour(colour);",
+        "137": "\t\t\t",
+        "138": "\t\t\tif( style instanceof XSSFCellStyle ) {",
+        "139": "\t\t\t\tXSSFCellStyle xStyle = (XSSFCellStyle)style;",
+        "140": "\t\t\t\t",
+        "29": "import org.apache.poi.ss.usermodel.Workbook;",
+        "30": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "207": "\t\t}"
+      },
+      "id": 126772698,
+      "filename": "StyleManagerXUtils.java"
+    },
+    {
+      "repo": "https://bitbucket.org/adufour/icy-workbooks.git",
+      "language": "Java",
+      "linescount": 698,
+      "location": "/src/plugins/adufour/workbooks",
+      "name": "icy-workbooks",
+      "url": "https://searchcode.com/codesearch/view/103223911/",
+      "md5hash": "215eef82694740f002e989e48c51ae19",
+      "lines": {
+        "17": "import org.apache.poi.ss.usermodel.Workbook;",
+        "18": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "421": "                {",
+        "422": "                    XSSFCellStyle cellStyle = (XSSFCellStyle) book.getCellStyleAt(i);",
+        "438": "            {",
+        "439": "                XSSFCellStyle newStyle = (XSSFCellStyle) book.createCellStyle();"
+      },
+      "id": 103223911,
+      "filename": "IcySpreadSheet.java"
+    },
+    {
+      "repo": "https://github.com/dunkelrot/xpview.git",
+      "language": "Java",
+      "linescount": 120,
+      "location": "/org.dexpi.xpview.model/src/org/dexpi/xpview/model/report",
+      "name": "xpview",
+      "url": "https://searchcode.com/codesearch/view/71257075/",
+      "md5hash": "37dd7e3ab6bb7822c0f6372c753d465c",
+      "lines": {
+        "66": "\t\t// Fonts are set into a style so create a new one to use.",
+        "67": "\t\tXSSFCellStyle style = dataSheet.getWorkbook().createCellStyle();",
+        "14": "import org.apache.poi.ss.usermodel.Row;",
+        "15": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;"
+      },
+      "id": 71257075,
+      "filename": "ExcelReport.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1242,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970692/",
+      "md5hash": "7da77111e27cd710cd143cdee57bc0a6",
+      "lines": {
+        "338": "    \tfinal short srcHeight = srcRow != null ? srcRow.getHeight() : -1;",
+        "339": "//    \tfinal XSSFCellStyle srcStyle = srcRow != null ? srcRow.getRowStyle() : null;",
+        "148": "    \tfinal short srcHeight = srcRow != null ? srcRow.getHeight() : -1;",
+        "149": "//    \tfinal XSSFCellStyle srcStyle = srcRow != null ? srcRow.getRowStyle() : null;"
+      },
+      "id": 3970692,
+      "filename": "XSSFSheetImpl.java"
+    },
+    {
+      "repo": "https://bitbucket.org/alfredobucket/metricas_wolf",
+      "language": "Java",
+      "linescount": 61,
+      "location": "/src/com/dbug/excel",
+      "name": "metricas_wolf",
+      "url": "https://searchcode.com/codesearch/view/56510963/",
+      "md5hash": "dbe6331523cd94caae00de9f41228316",
+      "lines": {
+        "32": "",
+        "29": "",
+        "12": "import org.apache.poi.ss.usermodel.Workbook;",
+        "13": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "30": "\t\tcreateCell(wb, row, (short) 1, XSSFCellStyle.ALIGN_CENTER_SELECTION,",
+        "31": "\t\t\t\tXSSFCellStyle.VERTICAL_BOTTOM);*/"
+      },
+      "id": 56510963,
+      "filename": "ExcelTest.java"
+    },
+    {
+      "repo": "https://bitbucket.org/manticoretrader/etltools",
+      "language": "Java",
+      "linescount": 66,
+      "location": "/src",
+      "name": "etltools",
+      "url": "https://searchcode.com/codesearch/view/121321469/",
+      "md5hash": "aa5cdb3360caf13f65390496ade0595c",
+      "lines": {
+        "44": "    XSSFSheet sheet=wb.getSheetAt(0);",
+        "11": "import org.apache.poi.xssf.model.StylesTable;",
+        "12": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "45": "    XSSFCellStyle cellStyle = sheet.getRow(0).getCell(0).getCellStyle();"
+      },
+      "id": 121321469,
+      "filename": "XLColorTest.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tomas12/laguna.git",
+      "language": "Java",
+      "linescount": 194,
+      "location": "/src/main/java/Excel",
+      "name": "Laguna",
+      "url": "https://searchcode.com/codesearch/view/91974007/",
+      "md5hash": "518bf702134744af28150a92647dbedf",
+      "lines": {
+        "16": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "50": "",
+        "51": "\t\t\tXSSFCellStyle dataStyle = xssfWorkbook.createCellStyle();",
+        "45": "\t\t\t// Create Styles for sheet.",
+        "46": "\t\t\tXSSFCellStyle headerStyle = xssfWorkbook.createCellStyle();",
+        "15": "import org.apache.poi.xssf.usermodel.XSSFCell;"
+      },
+      "id": 91974007,
+      "filename": "ExcelBetreuerinBetreuungAU.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tomas12/laguna.git",
+      "language": "Java",
+      "linescount": 186,
+      "location": "/src/main/java/Excel",
+      "name": "Laguna",
+      "url": "https://searchcode.com/codesearch/view/91974009/",
+      "md5hash": "bf6e18648c9e01d4a758a66eda4f24fa",
+      "lines": {
+        "16": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "51": "",
+        "52": "\t\t\tXSSFCellStyle dataStyle = xssfWorkbook.createCellStyle();",
+        "15": "import org.apache.poi.xssf.usermodel.XSSFCell;",
+        "46": "\t\t\t// Create Styles for sheet.",
+        "47": "\t\t\tXSSFCellStyle headerStyle = xssfWorkbook.createCellStyle();"
+      },
+      "id": 91974009,
+      "filename": "ExcelFamilieZahlungenM.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tomas12/laguna.git",
+      "language": "Java",
+      "linescount": 247,
+      "location": "/src/main/java/Excel",
+      "name": "Laguna",
+      "url": "https://searchcode.com/codesearch/view/91974011/",
+      "md5hash": "804be23326fed0b1aedc784c78f111a0",
+      "lines": {
+        "16": "import org.apache.poi.xssf.usermodel.XSSFCell;",
+        "17": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "50": "\t\t\t// Create Styles for sheet.",
+        "51": "\t\t\tXSSFCellStyle headerStyle = xssfWorkbook.createCellStyle();",
+        "55": "",
+        "56": "\t\t\tXSSFCellStyle dataStyle = xssfWorkbook.createCellStyle();"
+      },
+      "id": 91974011,
+      "filename": "ExcelFamilieBetreuung.java"
+    },
+    {
+      "repo": "https://bitbucket.org/tomas12/laguna.git",
+      "language": "Java",
+      "linescount": 241,
+      "location": "/src/main/java/Excel",
+      "name": "Laguna",
+      "url": "https://searchcode.com/codesearch/view/91974014/",
+      "md5hash": "a23302d05b5900b78bf8dd953ddf0745",
+      "lines": {
+        "16": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "48": "\t\t\t// Create Styles for sheet.",
+        "53": "",
+        "54": "\t\t\tXSSFCellStyle dataStyle = xssfWorkbook.createCellStyle();",
+        "49": "\t\t\tXSSFCellStyle headerStyle = xssfWorkbook.createCellStyle();",
+        "15": "import org.apache.poi.xssf.usermodel.XSSFCell;"
+      },
+      "id": 91974014,
+      "filename": "ExcelBetreuerinnenAN.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 33,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 9,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 3,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "matchterm": "OldWordFileFormatException",
+  "previouspage": null,
+  "searchterm": "OldWordFileFormatException",
+  "query": "OldWordFileFormatException",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "https://github.com/maxcom/tikaserver-ex.git",
+      "language": "Java",
+      "linescount": 133,
+      "location": "/src/main/java/su/msk/jet/tikaserver",
+      "name": "tikaserver-ex",
+      "url": "https://searchcode.com/codesearch/view/113014881/",
+      "md5hash": "161ca6fef06460bc298ea19ee5392088",
+      "lines": {
+        "120": "",
+        "121": "          if (e.getCause()!=null && e.getCause() instanceof OldWordFileFormatException) {",
+        "6": "import org.apache.poi.extractor.ExtractorFactory;",
+        "7": "import org.apache.poi.hwpf.OldWordFileFormatException;"
+      },
+      "id": 113014881,
+      "filename": "TikaResource.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 529,
+      "location": "/src/org/apache/poi/hwpf/converter",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383984/",
+      "md5hash": "b325d8787324a3ef4914153a604b19e4",
+      "lines": {
+        "482": "        }",
+        "483": "        catch ( OldWordFileFormatException exc )",
+        "30": "import org.apache.poi.hwpf.HWPFOldDocument;",
+        "31": "import org.apache.poi.hwpf.OldWordFileFormatException;"
+      },
+      "id": 97383984,
+      "filename": "AbstractWordUtils.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 764,
+      "location": "/src/org/apache/poi/hwpf/dev",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384386/",
+      "md5hash": "a5fd3aeec9338ae1535ca742a1539e0e",
+      "lines": {
+        "104": "        }",
+        "105": "        catch ( OldWordFileFormatException exc )",
+        "38": "import org.apache.poi.hwpf.HWPFOldDocument;",
+        "39": "import org.apache.poi.hwpf.OldWordFileFormatException;"
+      },
+      "id": 97384386,
+      "filename": "HWPFLister.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1043,
+      "location": "/src/org/apache/poi/hwpf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383956/",
+      "md5hash": "677c332698819342ff2ece2baf93a4ed",
+      "lines": {
+        "222": "    if(_fib.getFibBase().getNFib() < 106) {",
+        "223": "        throw new OldWordFileFormatException(\"The document is too old - Word 95 or older. Try HWPFOldDocument instead?\");"
+      },
+      "id": 97383956,
+      "filename": "HWPFDocument.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

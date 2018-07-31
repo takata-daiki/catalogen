@@ -1,0 +1,70 @@
+{
+  "matchterm": "FieldsTables",
+  "previouspage": null,
+  "searchterm": "FieldsTables",
+  "query": "FieldsTables",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/isdom/POI-Android.git",
+      "language": "Java",
+      "linescount": 168,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hwpf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/88635600/",
+      "md5hash": "4fdb8879b881e2e5c24c5fc59b1fec83",
+      "lines": {
+        "97": "",
+        "98": "    public FieldsTables( byte[] tableStream, FileInformationBlock fib )",
+        "36": "@Internal",
+        "37": "public class FieldsTables"
+      },
+      "id": 88635600,
+      "filename": "FieldsTables.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1043,
+      "location": "/src/org/apache/poi/hwpf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383956/",
+      "md5hash": "677c332698819342ff2ece2baf93a4ed",
+      "lines": {
+        "608": "  public FieldsTables getFieldsTables() {",
+        "609": "      return _fieldsTables;",
+        "610": "  }",
+        "35": "import org.apache.poi.hwpf.model.FSPATable;",
+        "36": "import org.apache.poi.hwpf.model.FieldsTables;",
+        "773": "    {",
+        "774": "        _fieldsTables.write( _fib, tableStream );",
+        "771": "",
+        "772": "    if ( _fieldsTables != null )",
+        "602": "  /**",
+        "603": "   * @return FieldsTables object, that is able to extract fields descriptors from this document",
+        "380": "    _fieldsTables = new FieldsTables(_tableStream, _fib);",
+        "381": "    _fields = new FieldsImpl(_fieldsTables);",
+        "382": "  }",
+        "607": "    @Internal"
+      },
+      "id": 97383956,
+      "filename": "HWPFDocument.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

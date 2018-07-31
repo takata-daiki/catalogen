@@ -1,0 +1,383 @@
+{
+  "matchterm": "UnknownRecord",
+  "previouspage": null,
+  "searchterm": "UnknownRecord",
+  "query": "UnknownRecord",
+  "language_filters": [
+    {
+      "count": 22,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 22,
+  "results": [
+    {
+      "repo": "https://github.com/evelyne24/hacked.io.git",
+      "language": "Java",
+      "linescount": 85,
+      "location": "/HueGame/src/main/java/org/ndeftools",
+      "name": "hacked.io",
+      "url": "https://searchcode.com/codesearch/view/75920478/",
+      "md5hash": "10b0afd7f5873bcbef96dea01c634285",
+      "lines": {
+        "64": "\t",
+        "65": "\tpublic UnknownRecord() {",
+        "35": "",
+        "36": "public class UnknownRecord extends Record {",
+        "55": "\t\t",
+        "56": "\t\treturn new UnknownRecord(ndefRecord.getPayload());",
+        "60": "",
+        "61": "\tpublic UnknownRecord(byte[] payload) {"
+      },
+      "id": 75920478,
+      "filename": "UnknownRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 178,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642491/",
+      "md5hash": "119a208434da2d9a909b57a9b11d84db",
+      "lines": {
+        "70": "     */",
+        "71": "    public UnknownRecord(short id, byte[] data)",
+        "171": "    public Object clone() {",
+        "172": "      UnknownRecord rec = new UnknownRecord();",
+        "56": "",
+        "83": "",
+        "84": "    public UnknownRecord(RecordInputStream in)",
+        "89": "        //System.out.println(\"UnknownRecord: 0x\"+Integer.toHexString(sid));",
+        "88": "        ",
+        "57": "public class UnknownRecord",
+        "62": "",
+        "63": "    public UnknownRecord()"
+      },
+      "id": 15642491,
+      "filename": "UnknownRecord.java"
+    },
+    {
+      "repo": "git://github.com/grundid/nfctools.git",
+      "language": "Java",
+      "linescount": 52,
+      "location": "/nfctools-ndef/src/main/java/org/nfctools/ndef/unknown",
+      "name": "nfctools",
+      "url": "https://searchcode.com/codesearch/view/15685515/",
+      "md5hash": "b5213b7522e7081c4b0b7a23a4050f79",
+      "lines": {
+        "32": "\tpublic UnknownRecord(byte[] payload) {",
+        "35": "\t",
+        "36": "\tpublic UnknownRecord() {",
+        "27": "",
+        "28": "public class UnknownRecord extends Record {",
+        "31": ""
+      },
+      "id": 15685515,
+      "filename": "UnknownRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/generalplus/android_packages_apps_tag.git",
+      "language": "Java",
+      "linescount": 36,
+      "location": "/src/com/android/apps/tag/record",
+      "name": "android_packages_apps_tag",
+      "url": "https://searchcode.com/codesearch/view/35470740/",
+      "md5hash": "274d852a3780fd445f27c970d4d62d1f",
+      "lines": {
+        "26": "",
+        "27": "public class UnknownRecord extends ParsedNdefRecord {"
+      },
+      "id": 35470740,
+      "filename": "UnknownRecord.java"
+    },
+    {
+      "repo": "https://bitbucket.org/cyanogenmod/android_packages_apps_tag.git",
+      "language": "Java",
+      "linescount": 36,
+      "location": "/src/com/android/apps/tag/record",
+      "name": "android_packages_apps_tag",
+      "url": "https://searchcode.com/codesearch/view/41544122/",
+      "md5hash": "274d852a3780fd445f27c970d4d62d1f",
+      "lines": {
+        "26": "",
+        "27": "public class UnknownRecord extends ParsedNdefRecord {"
+      },
+      "id": 41544122,
+      "filename": "UnknownRecord.java"
+    },
+    {
+      "repo": "git://github.com/grundid/nfctools.git",
+      "language": "Java",
+      "linescount": 24,
+      "location": "/nfctools-ndef/src/test/java/org/nfctools/ndef/records",
+      "name": "nfctools",
+      "url": "https://searchcode.com/codesearch/view/15685532/",
+      "md5hash": "b90672b332bfd71000d9484c98119b38",
+      "lines": {
+        "20": "",
+        "21": "public class UnknownRecord extends Record {"
+      },
+      "id": 15685532,
+      "filename": "UnknownRecord.java"
+    },
+    {
+      "repo": "git://github.com/grundid/nfctools.git",
+      "language": "Java",
+      "linescount": 48,
+      "location": "/nfctools-ndef/src/main/java/org/nfctools/ndef/unknown",
+      "name": "nfctools",
+      "url": "https://searchcode.com/codesearch/view/15685516/",
+      "md5hash": "7980db0929d510cbcea61cfe03dadeb5",
+      "lines": {
+        "34": "\tpublic boolean canEncode(Record record) {",
+        "35": "\t\treturn record instanceof UnknownRecord;",
+        "39": "\tpublic NdefRecord encodeRecord(Record record, NdefMessageEncoder messageEncoder) {",
+        "40": "\t\tUnknownRecord unknownRecord = (UnknownRecord)record;",
+        "42": "\t\treturn new NdefRecord(NdefConstants.TNF_UNKNOWN, NdefConstants.EMPTY_BYTE_ARRAY, record.getId(),",
+        "43": "\t\t\t\tunknownRecord.getPayload());",
+        "30": "",
+        "31": "public class UnknownRecordEncoder implements RecordEncoder {"
+      },
+      "id": 15685516,
+      "filename": "UnknownRecordEncoder.java"
+    },
+    {
+      "repo": "git://github.com/grundid/nfctools.git",
+      "language": "Java",
+      "linescount": 164,
+      "location": "/nfctools-ndef/src/test/java/org/nfctools/ndef",
+      "name": "nfctools",
+      "url": "https://searchcode.com/codesearch/view/15685526/",
+      "md5hash": "639af394b5d2393737ffee310a440815",
+      "lines": {
+        "32": "import org.nfctools.ndef.mime.TextMimeRecord;",
+        "33": "import org.nfctools.ndef.unknown.UnknownRecord;",
+        "96": "\t\t\temptyRecord, textMimeRecord, binaryMimeRecord, smartPosterRecord, textRecord, unknownRecord, uriRecord,",
+        "74": "\tprivate static TextRecord textRecord = new TextRecord(\"Text message\", Charset.forName(\"UTF-8\"), new Locale(\"no\"));",
+        "75": "\tprivate static UnknownRecord unknownRecord = new UnknownRecord(new byte[]{0x00, 0x01, 0x02, 0x03});",
+        "95": "\tpublic static Record[] records = new Record[] { absoluteUriRecord, actionRecord, androidApplicationRecord,"
+      },
+      "id": 15685526,
+      "filename": "NdefEncodeDecodeRoundtripTest.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 155,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642357/",
+      "md5hash": "3fac04b2d420f2a566cce5b6a652e8c5",
+      "lines": {
+        "131": "        c.setReserved2( 0x0 );",
+        "132": "//        UnknownRecord sub1 = new UnknownRecord( (short)0x7, (short)0x2, new byte[] { 0x09, 0x00 } );",
+        "133": "//        UnknownRecord sub2 = new UnknownRecord( (short)0x8, (short)0x2, new byte[] { 0x01, 0x00 } );",
+        "134": "        EndSubRecord e = new EndSubRecord();"
+      },
+      "id": 15642357,
+      "filename": "PictureShape.java"
+    },
+    {
+      "repo": "https://bitbucket.org/generalplus/android_packages_apps_tag.git",
+      "language": "Java",
+      "linescount": 73,
+      "location": "/src/com/android/apps/tag/message",
+      "name": "android_packages_apps_tag",
+      "url": "https://searchcode.com/codesearch/view/35470732/",
+      "md5hash": "209be7f59e9898137fd3b61c100301e8",
+      "lines": {
+        "24": "import com.android.apps.tag.record.UnknownRecord;",
+        "66": "            } else {",
+        "67": "                elements.add(new UnknownRecord());",
+        "23": "import com.android.apps.tag.record.TextRecord;"
+      },
+      "id": 35470732,
+      "filename": "NdefMessageParser.java"
+    },
+    {
+      "repo": "https://bitbucket.org/cyanogenmod/android_packages_apps_tag.git",
+      "language": "Java",
+      "linescount": 73,
+      "location": "/src/com/android/apps/tag/message",
+      "name": "android_packages_apps_tag",
+      "url": "https://searchcode.com/codesearch/view/41544137/",
+      "md5hash": "209be7f59e9898137fd3b61c100301e8",
+      "lines": {
+        "24": "import com.android.apps.tag.record.UnknownRecord;",
+        "66": "            } else {",
+        "67": "                elements.add(new UnknownRecord());",
+        "23": "import com.android.apps.tag.record.TextRecord;"
+      },
+      "id": 41544137,
+      "filename": "NdefMessageParser.java"
+    },
+    {
+      "repo": "git://github.com/grundid/nfctools.git",
+      "language": "Java",
+      "linescount": 59,
+      "location": "/nfctools-ndef/src/main/java/org/nfctools/ndef/unknown",
+      "name": "nfctools",
+      "url": "https://searchcode.com/codesearch/view/15685517/",
+      "md5hash": "666b19ed85367b46ad5d4fd4bbfee2d1",
+      "lines": {
+        "32": "\tpublic UnknownRecordDecoder() {",
+        "36": "\t@Override",
+        "37": "\tprotected UnknownRecord createRecord(NdefRecord ndefRecord, NdefMessageDecoder messageDecoder) {",
+        "55": "\t\t",
+        "56": "\t\treturn new UnknownRecord(ndefRecord.getPayload());",
+        "29": "",
+        "30": "public class UnknownRecordDecoder extends AbstractRecordDecoder<UnknownRecord> {",
+        "31": ""
+      },
+      "id": 15685517,
+      "filename": "UnknownRecordDecoder.java"
+    },
+    {
+      "repo": "https://github.com/evelyne24/hacked.io.git",
+      "language": "Java",
+      "linescount": 440,
+      "location": "/HueGame/src/main/java/org/ndeftools",
+      "name": "hacked.io",
+      "url": "https://searchcode.com/codesearch/view/75920485/",
+      "md5hash": "b713e19333876aa5eb73889fc624d737",
+      "lines": {
+        "177": "        case NdefRecord.TNF_UNKNOWN: {",
+        "178": "        \trecord = UnknownRecord.parse(ndefRecord);"
+      },
+      "id": 75920485,
+      "filename": "Record.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1445,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642316/",
+      "md5hash": "4f7b036daf89776dc4ee4606b7972144",
+      "lines": {
+        "1245": "        };",
+        "1246": "        UnknownRecord r = new UnknownRecord((short)0x00EB, data);"
+      },
+      "id": 15642316,
+      "filename": "HSSFWorkbook.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "168": "                          if (lastRecord instanceof UnknownRecord) {",
+        "208": "                retval = new UnknownRecord(in);",
+        "207": "            {",
+        "167": "                        } else if (record.getSid() == ContinueRecord.sid) {"
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    },
+    {
+      "repo": "https://bitbucket.org/gcubar/openintents.git",
+      "language": "Java",
+      "linescount": 734,
+      "location": "/samples/EnumClient/dnsjava-2.0.6/org/xbill/DNS",
+      "name": "openintents",
+      "url": "https://searchcode.com/codesearch/view/38891517/",
+      "md5hash": "0b6df6a8efb7d6d45f2cc446a4520c7b",
+      "lines": {
+        "22": "",
+        "23": "private static final Record unknownRecord = new UNKRecord();"
+      },
+      "id": 38891517,
+      "filename": "Record.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642343/",
+      "md5hash": "468caa59753e7c2d27a76f3903f70894",
+      "lines": {
+        "360": "                retval = new UnknownRecord(in);",
+        "122": "import loci.poi.hssf.record.TopMarginRecord;",
+        "123": "import loci.poi.hssf.record.UnknownRecord;",
+        "359": "            {"
+      },
+      "id": 15642343,
+      "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/grundid/nfctools.git",
+      "language": "Java",
+      "linescount": 76,
+      "location": "/nfctools-ndef/src/test/java/org/nfctools/ndef",
+      "name": "nfctools",
+      "url": "https://searchcode.com/codesearch/view/15685528/",
+      "md5hash": "b60963c1ff37ffce2ecc38f60e9d5d5c",
+      "lines": {
+        "25": "import org.nfctools.ndef.ext.UnsupportedExternalTypeRecord;",
+        "26": "import org.nfctools.ndef.records.UnknownRecord;",
+        "38": "\t\tList<Record> records = new ArrayList<Record>();",
+        "39": "\t\trecords.add(new UnknownRecord());"
+      },
+      "id": 15685528,
+      "filename": "NdefMessageEncoderTest.java"
+    },
+    {
+      "repo": "http://openintents.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 734,
+      "location": "/samples/EnumClient/dnsjava-2.0.6/org/xbill/DNS",
+      "name": "openintents",
+      "url": "https://searchcode.com/codesearch/view/1942934/",
+      "md5hash": "0b6df6a8efb7d6d45f2cc446a4520c7b",
+      "lines": {
+        "22": "",
+        "23": "private static final Record unknownRecord = new UNKRecord();"
+      },
+      "id": 1942934,
+      "filename": "Record.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 260,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventusermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642337/",
+      "md5hash": "880394f1b0f8ed8b4183af136268bc56",
+      "lines": {
+        "232": "                        if (rec instanceof UnknownRecord) {",
+        "231": "\t\t\t\t\telse {"
+      },
+      "id": 15642337,
+      "filename": "HSSFEventFactory.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 16,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 5,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

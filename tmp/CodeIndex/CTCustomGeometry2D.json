@@ -1,0 +1,178 @@
+{
+  "matchterm": "CTCustomGeometry2D",
+  "previouspage": null,
+  "searchterm": "CTCustomGeometry2D",
+  "query": "CTCustomGeometry2D",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 236,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402953/",
+      "md5hash": "6533ac906c734977a524cdc31dc680c9",
+      "lines": {
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTCustomGeometry2D",
+        "166": "    {",
+        "167": "        public static org.openxmlformats.schemas.drawingml.x2006.main.CTCustomGeometry2D newInstance() {",
+        "168": "          return (org.openxmlformats.schemas.drawingml.x2006.main.CTCustomGeometry2D) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().newInstance( type, null ); }",
+        "169": "        ",
+        "170": "        public static org.openxmlformats.schemas.drawingml.x2006.main.CTCustomGeometry2D newInstance(org.apache.xmlbeans.XmlOptions options) {",
+        "171": "          return (org.openxmlformats.schemas.drawingml.x2006.main.CTCustomGeometry2D) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().newInstance( type, options ); }",
+        "172": "        ",
+        "173": "        /** @param xmlAsString the string value to parse */",
+        "174": "        public static org.openxmlformats.schemas.drawingml.x2006.main.CTCustomGeometry2D parse(java.lang.String xmlAsString) throws org.apache.xmlbeans.XmlException {",
+        "15": " */",
+        "16": "public interface CTCustomGeometry2D extends org.apache.xmlbeans.XmlObject",
+        "18": "    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)",
+        "19": "        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CTCustomGeometry2D.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sE130CAA0A01A7CDE5A2B4FEB8B311707\").resolveHandle(\"ctcustomgeometry2dca70type\");",
+        "175": "          return (org.openxmlformats.schemas.drawingml.x2006.main.CTCustomGeometry2D) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( xmlAsString, type, null ); }"
+      },
+      "id": 97402953,
+      "filename": "CTCustomGeometry2D.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 218,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17641974/",
+      "md5hash": "90434c4d5fe2d6ab3df94b058a2c4935",
+      "lines": {
+        "62": "})",
+        "63": "public class CTCustomGeometry2D {"
+      },
+      "id": 17641974,
+      "filename": "CTCustomGeometry2D.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1258,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97404509/",
+      "md5hash": "2f0c18ed65debfbd003c32921c5435f5",
+      "lines": {
+        "162": "     */",
+        "163": "    public void setCustGeom(org.openxmlformats.schemas.drawingml.x2006.main.CTCustomGeometry2D custGeom)",
+        "132": "     */",
+        "133": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTCustomGeometry2D getCustGeom()",
+        "167": "            check_orphaned();",
+        "168": "            org.openxmlformats.schemas.drawingml.x2006.main.CTCustomGeometry2D target = null;",
+        "137": "            check_orphaned();",
+        "138": "            org.openxmlformats.schemas.drawingml.x2006.main.CTCustomGeometry2D target = null;",
+        "139": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTCustomGeometry2D)get_store().find_element_user(CUSTGEOM$2, 0);",
+        "140": "            if (target == null)",
+        "172": "                target = (org.openxmlformats.schemas.drawingml.x2006.main.CTCustomGeometry2D)get_store().add_element_user(CUSTGEOM$2);",
+        "180": "     */",
+        "171": "            {",
+        "169": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTCustomGeometry2D)get_store().find_element_user(CUSTGEOM$2, 0);",
+        "170": "            if (target == null)",
+        "181": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTCustomGeometry2D addNewCustGeom()"
+      },
+      "id": 97404509,
+      "filename": "CTShapePropertiesImpl.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 483,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642105/",
+      "md5hash": "eb6dc17a881ff5a0f6d7c16dcac8753e",
+      "lines": {
+        "129": "     */",
+        "130": "    public CTCustomGeometry2D getCustGeom() {",
+        "139": "     *     {@link CTCustomGeometry2D }",
+        "78": "    protected CTTransform2D xfrm;",
+        "142": "    public void setCustGeom(CTCustomGeometry2D value) {",
+        "138": "     *     allowed object is",
+        "79": "    protected CTCustomGeometry2D custGeom;",
+        "141": "     */",
+        "126": "     *     possible object is",
+        "127": "     *     {@link CTCustomGeometry2D }"
+      },
+      "id": 17642105,
+      "filename": "CTShapeProperties.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 3480,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642161/",
+      "md5hash": "ecaf98912e449049698e790afd5f5c5a",
+      "lines": {
+        "97": "    /**",
+        "98": "     * Create an instance of {@link CTCustomGeometry2D }",
+        "100": "     */",
+        "101": "    public CTCustomGeometry2D createCTCustomGeometry2D() {",
+        "102": "        return new CTCustomGeometry2D();",
+        "103": "    }"
+      },
+      "id": 17642161,
+      "filename": "ObjectFactory.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 432,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402443/",
+      "md5hash": "6ad6cde06c5da24a67cbf57a88cf6d27",
+      "lines": {
+        "48": "     */",
+        "49": "    org.openxmlformats.schemas.drawingml.x2006.main.CTCustomGeometry2D getCustGeom();",
+        "64": "    org.openxmlformats.schemas.drawingml.x2006.main.CTCustomGeometry2D addNewCustGeom();",
+        "58": "     */",
+        "59": "    void setCustGeom(org.openxmlformats.schemas.drawingml.x2006.main.CTCustomGeometry2D custGeom);",
+        "63": "     */"
+      },
+      "id": 97402443,
+      "filename": "CTShapeProperties.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 456,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403358/",
+      "md5hash": "c9f9cd270b7ad1153e7a2876fee46864",
+      "lines": {
+        "16": "    ",
+        "17": "    public CTCustomGeometry2DImpl(org.apache.xmlbeans.SchemaType sType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTCustomGeometry2D",
+        "13": " */",
+        "14": "public class CTCustomGeometry2DImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.openxmlformats.schemas.drawingml.x2006.main.CTCustomGeometry2D"
+      },
+      "id": 97403358,
+      "filename": "CTCustomGeometry2DImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

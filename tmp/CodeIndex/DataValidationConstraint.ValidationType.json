@@ -1,0 +1,134 @@
+{
+  "matchterm": "DataValidationConstraint.ValidationType",
+  "previouspage": null,
+  "searchterm": "DataValidationConstraint.ValidationType",
+  "query": "DataValidationConstraint.ValidationType",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 5111,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970697/",
+      "md5hash": "f6740268ba4be4778508748ca1c3becc",
+      "lines": {
+        "4896": "\t\t\treturn null;",
+        "5056": "\t\tfinal DataValidationConstraint constraint = dv.getValidationConstraint();",
+        "5057": "\t\t//allow any value => no need to do validation",
+        "91": "import org.zkoss.poi.ss.usermodel.DataValidationConstraint.ValidationType;",
+        "5055": "\t\t}",
+        "1575": "\t\t\t\t//so we shall copy this data validation to dst cell",
+        "1576": "\t\t\t\tfinal DataValidationConstraint constraint = BookHelper.getConstraint(dataValidation);",
+        "92": "import org.zkoss.poi.ss.usermodel.DataValidationHelper;",
+        "4692": "\t\t\tCellRangeAddress refCRA = new CellRangeAddress(ref.getRow(),ref.getLastRow(),ref.getColumn(),ref.getLastColumn());",
+        "4693": "\t\t\tDataValidationConstraint constraint = new XSSFDataValidationConstraint(ValidationType.LIST,convertToAbsoluteString(refCRA));",
+        "90": "import org.zkoss.poi.ss.usermodel.DataValidationConstraint.OperatorType;",
+        "1595": "\t}",
+        "1596": "\tprivate static DataValidation getDataValidationByConstraint(DataValidationConstraint constraint, List<? extends DataValidation> dataValidations) {",
+        "4893": "\tpublic static String[] getValidationList(Worksheet sheet, DataValidation validation) {",
+        "4894": "\t\tDataValidationConstraint constraint = validation.getValidationConstraint();",
+        "4895": "\t\tif (constraint.getValidationType() != ValidationType.LIST) {"
+      },
+      "id": 3970697,
+      "filename": "BookHelper.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1319,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970708/",
+      "md5hash": "e52c956c400b399e06a805984e2f85f6",
+      "lines": {
+        "1184": "\t\t\t\tcase ValidationType.INTEGER:",
+        "1186": "\t\t\t\t\t",
+        "59": "import org.zkoss.poi.ss.usermodel.DataValidationConstraint.ValidationType;",
+        "1181": "\t\t\t\tcase ValidationType.DECIMAL:",
+        "1167": "\t\t",
+        "1168": "\t\tprivate DataValidationConstraint createContraint(DVRecord dvRecord) {",
+        "1169": "\t\t\tfinal int operatorType = dvRecord.getConditionOperator();",
+        "1170": "\t\t\tfinal int validationType = dvRecord.getDataType();",
+        "1187": "\t\t\t\tcase ValidationType.TEXT_LENGTH:",
+        "1176": "\t\t\tString formula2 = formulaPtgs2 != null && formulaPtgs2.length > 0 ? HSSFFormulaParser.toFormulaString(_workbook, formulaPtgs2) : null; ",
+        "1177": "\t\t\tswitch(validationType) {",
+        "58": "import org.zkoss.poi.ss.usermodel.Row;",
+        "1179": "\t\t\t\t\treturn _helper.createNumericConstraint(validationType, operatorType, formula1, formula2);",
+        "1180": "\t\t\t\t\t",
+        "1178": "\t\t\t\tcase ValidationType.ANY:",
+        "1183": "\t\t\t\t\t"
+      },
+      "id": 3970708,
+      "filename": "HSSFSheetImpl.java"
+    },
+    {
+      "repo": "https://github.com/Christian-B/FishLink.git",
+      "language": "Java",
+      "linescount": 384,
+      "location": "/src/org/freshwaterlife/fishlink/metadatacreator",
+      "name": "FishLink",
+      "url": "https://searchcode.com/codesearch/view/114492726/",
+      "md5hash": "8436fea159f7aa4220cdbbb59cb44742",
+      "lines": {
+        "336": "        } else if (rule.startsWith(\"{\")){",
+        "328": "        DataValidationConstraint constraint;",
+        "342": "            constraint = dataValidationHelper.createTextLengthConstraint(",
+        "327": "        DataValidationHelper dataValidationHelper = poiSheet.getDataValidationHelper();",
+        "8": "import org.apache.poi.ss.usermodel.DataValidation;",
+        "9": "import org.apache.poi.ss.usermodel.DataValidationConstraint;",
+        "343": "                    DataValidationConstraint.OperatorType.LESS_THAN, \"1\", \"1\");",
+        "333": "            //Create an any rule. Numberic method is only one that support Validation Type.",
+        "334": "            constraint = dataValidationHelper.createNumericConstraint(DataValidationConstraint.ValidationType.ANY, ",
+        "335": "                    DataValidationConstraint.OperatorType.IGNORED, null, null); "
+      },
+      "id": 114492726,
+      "filename": "FishLinkSheet.java"
+    },
+    {
+      "repo": "http://zkbooks.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 81,
+      "location": "/zssessentials/examples/src/org/zkoss/zssessentials/config",
+      "name": "zkbooks",
+      "url": "https://searchcode.com/codesearch/view/9943061/",
+      "md5hash": "4b42e352ce0ecfddaad579ebd027b67d",
+      "lines": {
+        "64": "\t\t\tListModelList model = new ListModelList(constraint.getExplicitListValues());",
+        "19": "import org.zkoss.poi.ss.usermodel.DataValidation;",
+        "20": "import org.zkoss.poi.ss.usermodel.DataValidationConstraint;",
+        "21": "import org.zkoss.poi.ss.usermodel.DataValidationConstraint.ValidationType;",
+        "22": "import org.zkoss.zk.ui.Component;",
+        "59": "\t\tDataValidation dataValidation = getDataValidation();",
+        "60": "\t\tDataValidationConstraint constraint = dataValidation.getValidationConstraint();",
+        "61": "\t\t",
+        "62": "\t\tswitch (constraint.getValidationType()) {",
+        "63": "\t\tcase ValidationType.LIST:"
+      },
+      "id": 9943061,
+      "filename": "ValidationComposer.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Google Code",
+      "id": 1
+    },
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

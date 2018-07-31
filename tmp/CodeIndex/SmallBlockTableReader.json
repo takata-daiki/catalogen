@@ -1,0 +1,91 @@
+{
+  "matchterm": "SmallBlockTableReader",
+  "previouspage": null,
+  "searchterm": "SmallBlockTableReader",
+  "query": "SmallBlockTableReader",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 89,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642261/",
+      "md5hash": "70932af53b1cc0cdcf8b29fde4787bce",
+      "lines": {
+        "56": "",
+        "57": "public class SmallBlockTableReader"
+      },
+      "id": 15642261,
+      "filename": "SmallBlockTableReader.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 615,
+      "location": "/ppt/poi/org/apache/poi/poifs/filesystem",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97397929/",
+      "md5hash": "5083d727a84f9c004bece7393d2ae9b8",
+      "lines": {
+        "49": "import org.apache.poi.poifs.storage.RawDataBlockList;",
+        "50": "import org.apache.poi.poifs.storage.SmallBlockTableReader;",
+        "164": "        processProperties(",
+        "165": "        \t\tSmallBlockTableReader.getSmallDocumentBlocks("
+      },
+      "id": 97397929,
+      "filename": "POIFSFileSystem.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 522,
+      "location": "/components/forks/poi/src/loci/poi/poifs/filesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642276/",
+      "md5hash": "821ddc8beda41ba4d7ad809592451995",
+      "lines": {
+        "64": "import loci.poi.poifs.storage.RawDataBlockList;",
+        "65": "import loci.poi.poifs.storage.SmallBlockTableReader;",
+        "134": "        // init documents",
+        "135": "        BlockList small = SmallBlockTableReader.getSmallDocumentBlocks("
+      },
+      "id": 15642276,
+      "filename": "POIFSFileSystem.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 360,
+      "location": "/components/forks/poi/src/loci/poi/poifs/eventfilesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642289/",
+      "md5hash": "0574f17f0841331cab62f67868201274",
+      "lines": {
+        "128": "        processProperties(SmallBlockTableReader",
+        "59": "import loci.poi.poifs.storage.RawDataBlockList;",
+        "60": "import loci.poi.poifs.storage.SmallBlockTableReader;",
+        "127": "        // process documents"
+      },
+      "id": 15642289,
+      "filename": "POIFSReader.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 4,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

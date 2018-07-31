@@ -1,0 +1,80 @@
+{
+  "matchterm": "XSLFConnectorShape",
+  "previouspage": null,
+  "searchterm": "XSLFConnectorShape",
+  "query": "XSLFConnectorShape",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 111,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406826/",
+      "md5hash": "88f503638871e547730cf002e54b3503",
+      "lines": {
+        "80": "        XSLFConnectorShape shape = new XSLFConnectorShape(sp, _sheet);",
+        "81": "        shape.setAnchor(new Rectangle());",
+        "76": "",
+        "77": "    public XSLFConnectorShape createConnector(){",
+        "78": "        CTConnector sp = _spTree.addNewCxnSp();",
+        "79": "        sp.set(XSLFConnectorShape.prototype(_shapeId++));"
+      },
+      "id": 97406826,
+      "filename": "XSLFDrawing.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 555,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406768/",
+      "md5hash": "06c77456c926d8545168347abe70a1d6",
+      "lines": {
+        "100": "            } else if (ch instanceof CTConnector){",
+        "101": "                shapes.add(new XSLFConnectorShape((CTConnector)ch, this));",
+        "166": "",
+        "167": "    public XSLFConnectorShape createConnector(){",
+        "168": "        List<XSLFShape> shapes = getShapeList();",
+        "169": "        XSLFConnectorShape sh = getDrawing().createConnector();"
+      },
+      "id": 97406768,
+      "filename": "XSLFSheet.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 351,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406700/",
+      "md5hash": "7ac71aab113fccf906b12580ebb695aa",
+      "lines": {
+        "227": "",
+        "228": "    public XSLFConnectorShape createConnector(){",
+        "229": "        XSLFConnectorShape sh = getDrawing().createConnector();",
+        "230": "        _shapes.add(sh);"
+      },
+      "id": 97406700,
+      "filename": "XSLFGroupShape.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

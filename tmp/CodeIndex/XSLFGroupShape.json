@@ -1,0 +1,86 @@
+{
+  "matchterm": "XSLFGroupShape",
+  "previouspage": null,
+  "searchterm": "XSLFGroupShape",
+  "query": "XSLFGroupShape",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 351,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406700/",
+      "md5hash": "7ac71aab113fccf906b12580ebb695aa",
+      "lines": {
+        "236": "        _shapes.add(sh);",
+        "53": "@Beta",
+        "54": "public class XSLFGroupShape extends XSLFShape implements XSLFShapeContainer {",
+        "329": "        XSLFGroupShape gr = (XSLFGroupShape)src;",
+        "328": "    void copy(XSLFShape src){",
+        "233": "",
+        "234": "    public XSLFGroupShape createGroup(){",
+        "235": "        XSLFGroupShape sh = getDrawing().createGroup();",
+        "60": "",
+        "61": "    /*package*/ XSLFGroupShape(CTGroupShape shape, XSLFSheet sheet){"
+      },
+      "id": 97406700,
+      "filename": "XSLFGroupShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 111,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406826/",
+      "md5hash": "88f503638871e547730cf002e54b3503",
+      "lines": {
+        "86": "",
+        "87": "    public XSLFGroupShape createGroup(){",
+        "88": "        CTGroupShape obj = _spTree.addNewGrpSp();",
+        "89": "        obj.set(XSLFGroupShape.prototype(_shapeId++));",
+        "90": "        XSLFGroupShape shape = new XSLFGroupShape(obj, _sheet);",
+        "91": "        shape.setAnchor(new Rectangle());"
+      },
+      "id": 97406826,
+      "filename": "XSLFDrawing.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 555,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406768/",
+      "md5hash": "06c77456c926d8545168347abe70a1d6",
+      "lines": {
+        "176": "        XSLFGroupShape sh = getDrawing().createGroup();",
+        "98": "            } else if (ch instanceof CTGroupShape){",
+        "99": "                shapes.add(new XSLFGroupShape((CTGroupShape)ch, this));",
+        "173": "",
+        "174": "    public XSLFGroupShape createGroup(){",
+        "175": "        List<XSLFShape> shapes = getShapeList();"
+      },
+      "id": 97406768,
+      "filename": "XSLFSheet.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "matchterm": "FormulaParseException",
+  "previouspage": null,
+  "searchterm": "FormulaParseException",
+  "query": "FormulaParseException",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "https://bitbucket.org/adufour/icy-workbooks.git",
+      "language": "Java",
+      "linescount": 698,
+      "location": "/src/plugins/adufour/workbooks",
+      "name": "icy-workbooks",
+      "url": "https://searchcode.com/codesearch/view/103223911/",
+      "md5hash": "215eef82694740f002e989e48c51ae19",
+      "lines": {
+        "459": "    public void setFormula(int row, int column, String formula) throws FormulaParseException",
+        "455": "     *            the formula",
+        "456": "     * @throws FormulaParseException",
+        "10": "import org.apache.poi.hssf.util.HSSFColor;",
+        "11": "import org.apache.poi.ss.formula.FormulaParseException;",
+        "458": "     */"
+      },
+      "id": 103223911,
+      "filename": "IcySpreadSheet.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 4867,
+      "location": "/zss/src/org/zkoss/zss/ui",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970597/",
+      "md5hash": "e7f705e90329f003cbaa403eaed0f523",
+      "lines": {
+        "48": "import org.zkoss.poi.ss.formula.FormulaParseException;",
+        "4304": "\t",
+        "4305": "\tprivate void showFormulaError(FormulaParseException ex) {",
+        "4344": "\t\t\tprocessCancelEditing0(token, sheet, rowIdx, colIdx, false, editingType);",
+        "4345": "\t\t\tif (x instanceof FormulaParseException) {",
+        "4346": "\t\t\t\tshowFormulaError((FormulaParseException)x);",
+        "4347": "\t\t\t} else {",
+        "47": "import org.zkoss.poi.ss.SpreadsheetVersion;"
+      },
+      "id": 3970597,
+      "filename": "Spreadsheet.java"
+    },
+    {
+      "repo": "https://github.com/myGrid/simple-spreadsheet-extractor.git",
+      "language": "Java",
+      "linescount": 78,
+      "location": "/src/main/java/org/sysmodb",
+      "name": "simple-spreadsheet-extractor",
+      "url": "https://searchcode.com/codesearch/view/110498459/",
+      "md5hash": "4d5e61b54d8b72bd2d38fa8a6a40fd5d",
+      "lines": {
+        "68": "\t\t\t\tformula = cell.getCellFormula();",
+        "11": "",
+        "12": "import org.apache.poi.ss.formula.FormulaParseException;",
+        "69": "\t\t\t} catch (FormulaParseException e) {"
+      },
+      "id": 110498459,
+      "filename": "CellInfo.java"
+    },
+    {
+      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 339,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel/handlers",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/122565168/",
+      "md5hash": "8563c9e7b1d66e545a9f29428dec4dd6",
+      "lines": {
+        "16": "import org.apache.poi.ss.SpreadsheetVersion;",
+        "17": "import org.apache.poi.ss.formula.FormulaParseException;",
+        "163": "\t\t\t\tname.setRefersToFormula(existingFormula + \",\" + formula);",
+        "164": "\t\t\t} catch( FormulaParseException ex ) {"
+      },
+      "id": 122565168,
+      "filename": "AbstractHandler.java"
+    },
+    {
+      "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 344,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel/handlers",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/64530955/",
+      "md5hash": "8100753484ab7d06af0302bceb61252a",
+      "lines": {
+        "168": "\t\t\t\tname.setRefersToFormula(existingFormula + \",\" + formula);",
+        "25": "import org.apache.poi.ss.SpreadsheetVersion;",
+        "26": "import org.apache.poi.ss.formula.FormulaParseException;",
+        "169": "\t\t\t} catch( FormulaParseException ex ) {"
+      },
+      "id": 64530955,
+      "filename": "AbstractHandler.java"
+    },
+    {
+      "repo": "https://bitbucket.org/adufour/icy-workbooks.git",
+      "language": "Java",
+      "linescount": 1259,
+      "location": "/src/plugins/adufour/vars/gui/swing",
+      "name": "icy-workbooks",
+      "url": "https://searchcode.com/codesearch/view/48686477/",
+      "md5hash": "0a83fb98df3ca0fd1314f55521cc6bca",
+      "lines": {
+        "51": "",
+        "52": "import org.apache.poi.ss.formula.FormulaParseException;",
+        "1206": "                }",
+        "1207": "                catch (FormulaParseException e1)"
+      },
+      "id": 48686477,
+      "filename": "WorkbookEditor.java"
+    },
+    {
+      "repo": "https://bitbucket.org/gkraser/jandcode-core",
+      "language": "Java",
+      "linescount": 311,
+      "location": "/jandcode-excelreport/src/jandcode/excelreport/impl",
+      "name": "jandcode-core",
+      "url": "https://searchcode.com/codesearch/view/128473368/",
+      "md5hash": "bffa29002523454ad6f3fb8b69f7e98a",
+      "lines": {
+        "258": "                            newCell.setCellFormula(s1);",
+        "259": "                        } catch (FormulaParseException e) {"
+      },
+      "id": 128473368,
+      "filename": "ReportSheetImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 5,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 1,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

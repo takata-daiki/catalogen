@@ -1,0 +1,82 @@
+{
+  "matchterm": "IntersectionPtg",
+  "previouspage": null,
+  "searchterm": "IntersectionPtg",
+  "query": "IntersectionPtg",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "https://github.com/isdom/POI-Android.git",
+      "language": "Java",
+      "linescount": 63,
+      "location": "/ppt/poi/org/apache/poi/ss/formula/ptg",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/88638400/",
+      "md5hash": "bdf47a1adc9a524059321265e39dcb21",
+      "lines": {
+        "24": " */",
+        "25": "public final class IntersectionPtg extends OperationPtg {",
+        "27": "",
+        "28": "\tpublic static final OperationPtg instance = new IntersectionPtg();",
+        "29": "",
+        "30": "\tprivate IntersectionPtg() {"
+      },
+      "id": 88638400,
+      "filename": "IntersectionPtg.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 108,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642575/",
+      "md5hash": "1ba2caf6fd1a7ddfdb3cd9614be6b1e2",
+      "lines": {
+        "48": " */",
+        "49": "public class IntersectionPtg extends OperationPtg",
+        "53": "",
+        "54": "    public IntersectionPtg()",
+        "57": "",
+        "58": "    public IntersectionPtg(RecordInputStream in)",
+        "75": "    {",
+        "76": "        return new IntersectionPtg();"
+      },
+      "id": 15642575,
+      "filename": "IntersectionPtg.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 485,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642564/",
+      "md5hash": "a03fe68945d6947241c13705dd4cc5e3",
+      "lines": {
+        "196": " ",
+        "197": "             case IntersectionPtg.sid :         // 0x0f",
+        "198": "                 retval = new IntersectionPtg(in);",
+        "199": "        \t                  break;"
+      },
+      "id": 15642564,
+      "filename": "Ptg.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

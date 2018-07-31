@@ -1,0 +1,111 @@
+{
+  "matchterm": "PresetColor",
+  "previouspage": null,
+  "searchterm": "PresetColor",
+  "query": "PresetColor",
+  "language_filters": [
+    {
+      "count": 4,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 4,
+  "results": [
+    {
+      "repo": "https://github.com/msteptoe/FURI_Code.git",
+      "language": "Java",
+      "linescount": 288,
+      "location": "/IJ_Mobile/src/imagej/util",
+      "name": "FURI_Code",
+      "url": "https://searchcode.com/codesearch/view/71582321/",
+      "md5hash": "dead4c89ed6fb2ac1467b97cbc6dc2ae",
+      "lines": {
+        "259": "\t */",
+        "260": "\tpublic static ColorRGB getClosestPresetColor(final ColorRGB color) {",
+        "268": "\t\tboolean firstPass = true;",
+        "269": "\t\tfor (final ColorRGB presetColor : COLORS.values()) {",
+        "270": "\t\t\tif (firstPass) {",
+        "271": "\t\t\t\tbestSoFar = presetColor;",
+        "274": "\t\t\telse { // not first pass",
+        "275": "\t\t\t\tfinal double dr = presetColor.getRed() - r;",
+        "276": "\t\t\t\tfinal double dg = presetColor.getGreen() - g;",
+        "277": "\t\t\t\tfinal double db = presetColor.getBlue() - b;",
+        "278": "\t\t\t\tfinal double thisDist = dr * dr + dg * dg + db * db;",
+        "279": "\t\t\t\tif (thisDist < distance) {",
+        "280": "\t\t\t\t\tbestSoFar = presetColor;"
+      },
+      "id": 71582321,
+      "filename": "Colors.java"
+    },
+    {
+      "repo": "https://bitbucket.org/openxls/openxls.git",
+      "language": "Java",
+      "linescount": 837,
+      "location": "/src/main/java/com/extentech/formats/OOXML",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/47125135/",
+      "md5hash": "dd8eb2e88b28817e9f44546eb31eb1bd",
+      "lines": {
+        "772": "\t * note that these color transforms must be part of either <br>",
+        "773": "\t * schemeColor, systemColor, hslColor, presetColor, sRgbColor, scRgbColor",
+        "634": " * common Color Transformes used by parent elements: schemeColor, systemColor,",
+        "635": " * hslColor, presetColor, sRgbColor, scRgbColor color adjustments are in",
+        "670": "\t * parse color transform elements, common children of color-type elements: <br>",
+        "671": "\t * schemeColor, systemColor, hslColor, presetColor, sRgbColor, scRgbColor"
+      },
+      "id": 47125135,
+      "filename": "ColorChoice.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ghu/openxls.git",
+      "language": "Java",
+      "linescount": 837,
+      "location": "/src/main/java/com/extentech/formats/OOXML",
+      "name": "openxls",
+      "url": "https://searchcode.com/codesearch/view/50976759/",
+      "md5hash": "dd8eb2e88b28817e9f44546eb31eb1bd",
+      "lines": {
+        "772": "\t * note that these color transforms must be part of either <br>",
+        "773": "\t * schemeColor, systemColor, hslColor, presetColor, sRgbColor, scRgbColor",
+        "634": " * common Color Transformes used by parent elements: schemeColor, systemColor,",
+        "635": " * hslColor, presetColor, sRgbColor, scRgbColor color adjustments are in",
+        "670": "\t * parse color transform elements, common children of color-type elements: <br>",
+        "671": "\t * schemeColor, systemColor, hslColor, presetColor, sRgbColor, scRgbColor"
+      },
+      "id": 50976759,
+      "filename": "ColorChoice.java"
+    },
+    {
+      "repo": "https://github.com/westphahl/ShiftGame.git",
+      "language": "Java",
+      "linescount": 39,
+      "location": "/src/net/westphahl/shiftgame/listeners",
+      "name": "ShiftGame",
+      "url": "https://searchcode.com/codesearch/view/77741400/",
+      "md5hash": "36551068f299941a1fc7d7123b5f3778",
+      "lines": {
+        "16": "\tprivate Color presetColor = new JButton().getBackground();",
+        "33": "\t\t} else {",
+        "34": "\t\t\tgameWin.setColor(this.presetColor);",
+        "15": "\t"
+      },
+      "id": 77741400,
+      "filename": "ColorChangeListener.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Bitbucket",
+      "id": 3
+    },
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

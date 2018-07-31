@@ -1,0 +1,167 @@
+{
+  "matchterm": "FileInformationBlock",
+  "previouspage": null,
+  "searchterm": "FileInformationBlock",
+  "query": "FileInformationBlock",
+  "language_filters": [
+    {
+      "count": 7,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 7,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1109,
+      "location": "/src/org/apache/poi/hwpf/model",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384033/",
+      "md5hash": "d1e2f02dc9ef99107ca7326905a58d39",
+      "lines": {
+        "49": "@Internal",
+        "50": "public final class FileInformationBlock implements Cloneable",
+        "67": "    public FileInformationBlock( byte[] mainDocument )",
+        "52": "    public static final POILogger logger = POILogFactory",
+        "53": "            .getLogger( FileInformationBlock.class );",
+        "310": "            for ( Method method : FileInformationBlock.class.getMethods() )",
+        "65": "",
+        "68": "    {",
+        "66": "    /** Creates a new instance of FileInformationBlock */",
+        "309": "            stringBuilder.append( \"\\tJava reflection info:\\n\" );"
+      },
+      "id": 97384033,
+      "filename": "FileInformationBlock.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1043,
+      "location": "/src/org/apache/poi/hwpf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383956/",
+      "md5hash": "677c332698819342ff2ece2baf93a4ed",
+      "lines": {
+        "416": "        // if ( getFileInformationBlock().isFComplex() )",
+        "640": "    // clear the offsets and sizes in our FileInformationBlock.",
+        "642": "",
+        "643": "    // determine the FileInformationBLock size",
+        "453": "        {",
+        "454": "            int length = getFileInformationBlock()",
+        "641": "    _fib.clearOffsetsSizes();",
+        "648": "    // preserve space for the FileInformationBlock because we will be writing",
+        "647": "",
+        "902": "",
+        "903": "    // write out the FileInformationBlock.",
+        "885": "",
+        "886": "    // set some variables in the FileInformationBlock.",
+        "639": "    // FileInformationBlock fib = (FileInformationBlock)_fib.clone();",
+        "415": "        //"
+      },
+      "id": 97383956,
+      "filename": "HWPFDocument.java"
+    },
+    {
+      "repo": "https://github.com/isdom/POI-Android.git",
+      "language": "Java",
+      "linescount": 168,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hwpf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/88635600/",
+      "md5hash": "4fdb8879b881e2e5c24c5fc59b1fec83",
+      "lines": {
+        "97": "",
+        "98": "    public FieldsTables( byte[] tableStream, FileInformationBlock fib )",
+        "132": "",
+        "133": "    private int savePlex( FileInformationBlock fib, FieldsDocumentPart part,",
+        "120": "",
+        "121": "    private PlexOfCps readPLCF( byte[] tableStream, FileInformationBlock fib,",
+        "156": "",
+        "157": "    public void write( FileInformationBlock fib, HWPFOutputStream tableStream )"
+      },
+      "id": 88635600,
+      "filename": "FieldsTables.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 405,
+      "location": "/src/org/apache/poi/hwpf/model",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384100/",
+      "md5hash": "77aa9fdbea42509b8b2733de8923350a",
+      "lines": {
+        "73": "   * @param tableStream A byte array containing a document's raw stylesheet",
+        "74": "   *        info. Found by using FileInformationBlock.getFcStshf() and",
+        "75": "   *        FileInformationBLock.getLcbStshf()",
+        "76": "   */"
+      },
+      "id": 97384100,
+      "filename": "StyleSheet.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 216,
+      "location": "/src/org/apache/poi/hwpf/model",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384153/",
+      "md5hash": "f04e9799c9a8555d3618ad5c62633ad4",
+      "lines": {
+        "82": "",
+        "83": "    public void writeListDataTo( FileInformationBlock fib,",
+        "116": "",
+        "117": "    public void writeListOverridesTo( FileInformationBlock fib,"
+      },
+      "id": 97384153,
+      "filename": "ListTables.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 764,
+      "location": "/src/org/apache/poi/hwpf/dev",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384386/",
+      "md5hash": "a5fd3aeec9338ae1535ca742a1539e0e",
+      "lines": {
+        "433": "    {",
+        "434": "        FileInformationBlock fib = _doc.getFileInformationBlock();",
+        "41": "import org.apache.poi.hwpf.model.FieldsDocumentPart;",
+        "42": "import org.apache.poi.hwpf.model.FileInformationBlock;",
+        "539": "            PlexOfCps binTable = new PlexOfCps( doc.getTableStream(), doc",
+        "540": "                    .getFileInformationBlock().getFcPlcfbtePapx(), doc",
+        "541": "                    .getFileInformationBlock().getLcbPlcfbtePapx(), 4 );",
+        "542": ""
+      },
+      "id": 97384386,
+      "filename": "HWPFLister.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 222,
+      "location": "/src/org/apache/poi/hwpf/model",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384147/",
+      "md5hash": "b5d9339ca4853e5e226395f421624c70",
+      "lines": {
+        "200": "    void writeTo( FileInformationBlock fib, HWPFOutputStream outputStream )",
+        "199": ""
+      },
+      "id": 97384147,
+      "filename": "PlfLfo.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

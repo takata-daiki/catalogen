@@ -1,0 +1,190 @@
+{
+  "matchterm": "SectionIDMap",
+  "previouspage": null,
+  "searchterm": "SectionIDMap",
+  "query": "SectionIDMap",
+  "language_filters": [
+    {
+      "count": 8,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 8,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 226,
+      "location": "/components/forks/poi/src/loci/poi/hpsf/wellknown",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642703/",
+      "md5hash": "aa39a1433d12eb3a208f90d921ad9d92",
+      "lines": {
+        "64": "public class SectionIDMap extends HashMap",
+        "106": "     */",
+        "107": "    private static SectionIDMap defaultMap;",
+        "112": "     * <p>Returns the singleton instance of the default {@link",
+        "113": "     * SectionIDMap}.</p>",
+        "116": "     */",
+        "117": "    public static SectionIDMap getInstance()",
+        "120": "        {",
+        "121": "            final SectionIDMap m = new SectionIDMap();",
+        "60": " * @author Rainer Klute (klute@rainer-klute.de)",
+        "61": " * @version $Id: SectionIDMap.java 489730 2006-12-22 19:18:16Z bayard $",
+        "63": " */"
+      },
+      "id": 15642703,
+      "filename": "SectionIDMap.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 145,
+      "location": "/src/org/apache/poi/hpsf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383355/",
+      "md5hash": "0098a047dda7c497c0d2a37dc611b6ea",
+      "lines": {
+        "131": "        final MutableSection s = (MutableSection) ps.getFirstSection();",
+        "132": "        s.setFormatID(SectionIDMap.DOCUMENT_SUMMARY_INFORMATION_ID[0]);",
+        "24": "",
+        "25": "import org.apache.poi.hpsf.wellknown.SectionIDMap;",
+        "108": "        final MutableSection s = (MutableSection) ps.getFirstSection();",
+        "109": "        s.setFormatID(SectionIDMap.SUMMARY_INFORMATION_ID);"
+      },
+      "id": 97383355,
+      "filename": "PropertySetFactory.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 123,
+      "location": "/ppt/poi/org/apache/poi/hpsf",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97398126/",
+      "md5hash": "bb0e6127f1776772f4d6b0cc0809e990",
+      "lines": {
+        "86": "        final MutableSection s = (MutableSection) ps.getFirstSection();",
+        "87": "        s.setFormatID(SectionIDMap.SUMMARY_INFORMATION_ID);",
+        "24": "import org.apache.poi.hpsf.wellknown.SectionIDMap;",
+        "23": "",
+        "109": "        final MutableSection s = (MutableSection) ps.getFirstSection();",
+        "110": "        s.setFormatID(SectionIDMap.DOCUMENT_SUMMARY_INFORMATION_ID[0]);"
+      },
+      "id": 97398126,
+      "filename": "PropertySetFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 693,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642682/",
+      "md5hash": "ff8411e428f7ed19092d0d8bd80636ae",
+      "lines": {
+        "480": "     * SectionIDMap#getPIDString}.</p>",
+        "81": "     * Section} contains the bytes specified by",
+        "50": "import loci.poi.hpsf.wellknown.PropertyIDMap;",
+        "51": "import loci.poi.hpsf.wellknown.SectionIDMap;",
+        "493": "        if (s == null)",
+        "491": "        if (s == null)",
+        "492": "            s = SectionIDMap.getPIDString(getFormatID().getBytes(), pid);",
+        "82": "     * <code>loci.poi.hpsf.wellknown.SectionIDMap.SUMMARY_INFORMATION_ID</code>",
+        "494": "            s = SectionIDMap.UNDEFINED;",
+        "479": "     * dictionary. If it is not found there, the method calls {@link"
+      },
+      "id": 15642682,
+      "filename": "Section.java"
+    },
+    {
+      "repo": "https://bitbucket.org/omevac_openclinica/openclinica-3.1-snaphot",
+      "language": "Java",
+      "linescount": 465,
+      "location": "/web/src/main/java/org/akaza/openclinica/control/urlRewrite",
+      "name": "openclinica-3.1-snaphot",
+      "url": "https://searchcode.com/codesearch/view/137279886/",
+      "md5hash": "244c44ff8d97c1b7dfc5c613ee070836",
+      "lines": {
+        "136": "\t\t                    if(mapQueryParams.containsKey(\"tabId\")){",
+        "137": "\t\t\t                    HashMap sectionIdMap = sdao.getSectionIdForTabId(ocResource.getFormVersionID(), Integer.parseInt(mapQueryParams.get(\"tabId\")));",
+        "138": "\t\t\t                    Integer sectionId = null;",
+        "139": "\t\t\t                    if((sectionIdMap != null) && (sectionIdMap.size() != 0)){",
+        "140": "\t\t\t                    \tsectionId = (Integer) sectionIdMap.get(\"section_id\");",
+        "141": "\t\t\t                    }"
+      },
+      "id": 137279886,
+      "filename": "UrlRewriteServlet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 722,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642677/",
+      "md5hash": "c696e553c12e15e63de30c0e97a23a85",
+      "lines": {
+        "48": "",
+        "49": "import loci.poi.hpsf.wellknown.SectionIDMap;",
+        "510": "                          SectionIDMap.DOCUMENT_SUMMARY_INFORMATION_ID[0]);",
+        "509": "        return Util.equal(((Section) sections.get(0)).getFormatID().getBytes(),",
+        "494": "        return Util.equal(((Section) sections.get(0)).getFormatID().getBytes(),",
+        "495": "                          SectionIDMap.SUMMARY_INFORMATION_ID);"
+      },
+      "id": 15642677,
+      "filename": "PropertySet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 149,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642686/",
+      "md5hash": "2dd1096c5bed6b6135df6d36350a80c1",
+      "lines": {
+        "48": "import loci.poi.hpsf.wellknown.SectionIDMap;",
+        "112": "        final MutableSection s = (MutableSection) ps.getFirstSection();",
+        "113": "        s.setFormatID(SectionIDMap.SUMMARY_INFORMATION_ID);",
+        "135": "        final MutableSection s = (MutableSection) ps.getFirstSection();",
+        "136": "        s.setFormatID(SectionIDMap.DOCUMENT_SUMMARY_INFORMATION_ID[0]);",
+        "47": ""
+      },
+      "id": 15642686,
+      "filename": "PropertySetFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 701,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642675/",
+      "md5hash": "c2188c129ae22690bf1bc62c31e01c84",
+      "lines": {
+        "665": "            MutableSection s2 = new MutableSection();",
+        "666": "            s2.setFormatID(SectionIDMap.DOCUMENT_SUMMARY_INFORMATION_ID[1]);",
+        "46": "import loci.poi.hpsf.wellknown.PropertyIDMap;",
+        "47": "import loci.poi.hpsf.wellknown.SectionIDMap;"
+      },
+      "id": 15642675,
+      "filename": "DocumentSummaryInformation.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 7,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "matchterm": "RecordBase",
+  "previouspage": null,
+  "searchterm": "RecordBase",
+  "query": "RecordBase",
+  "language_filters": [
+    {
+      "count": 15,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 15,
+  "results": [
+    {
+      "repo": "https://github.com/cortextual/jackson-databind.git",
+      "language": "Java",
+      "linescount": 20,
+      "location": "/src/test/java/perf",
+      "name": "jackson-databind",
+      "url": "https://searchcode.com/codesearch/view/74557730/",
+      "md5hash": "58fc92c2ddc866e71ea44135ece4dfc8",
+      "lines": {
+        "2": "",
+        "3": "public class RecordBase",
+        "9": "",
+        "10": "    protected RecordBase() { }",
+        "11": "    protected RecordBase(int a, String fn, String ln, char g, boolean ins)",
+        "12": "    {"
+      },
+      "id": 74557730,
+      "filename": "RecordBase.java"
+    },
+    {
+      "repo": "https://github.com/j0hnds/FixedFormat.git",
+      "language": "Java",
+      "linescount": 126,
+      "location": "/src/main/java/org/hephaestus/fixedformat/impl",
+      "name": "FixedFormat",
+      "url": "https://searchcode.com/codesearch/view/106707174/",
+      "md5hash": "806837a8825a298e313d11455b507895",
+      "lines": {
+        "32": " */",
+        "33": "public class RecordBase implements Record {"
+      },
+      "id": 106707174,
+      "filename": "RecordBase.java"
+    },
+    {
+      "repo": "https://github.com/burto/mkgmap.git",
+      "language": "Java",
+      "linescount": 29,
+      "location": "/src/uk/me/parabola/imgfmt/app/mdr",
+      "name": "mkgmap",
+      "url": "https://searchcode.com/codesearch/view/104189991/",
+      "md5hash": "a2c90839fe3e12703430359d882a1a5a",
+      "lines": {
+        "17": " */",
+        "18": "public abstract class RecordBase extends ConfigBase {"
+      },
+      "id": 104189991,
+      "filename": "RecordBase.java"
+    },
+    {
+      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "language": "Java",
+      "linescount": 1319,
+      "location": "/zss/src/org/zkoss/zss/model/impl",
+      "name": "zkspreadsheet",
+      "url": "https://searchcode.com/codesearch/view/3970708/",
+      "md5hash": "e52c956c400b399e06a805984e2f85f6",
+      "lines": {
+        "33": "import org.zkoss.poi.hssf.record.Record;",
+        "34": "import org.zkoss.poi.hssf.record.RecordBase;",
+        "1091": "        for (Iterator<RecordBase> it = _helper.getInternalSheet().getRecords().iterator(); it.hasNext(); ) {",
+        "1090": "    private void removeHyperlinks(int tRow, int bRow, int lCol, int rCol) {",
+        "1093": "            if (rec instanceof HyperlinkRecord){",
+        "1092": "            RecordBase rec = it.next();",
+        "1067": "    \tfinal int maxrow = SpreadsheetVersion.EXCEL97.getLastRowIndex();",
+        "1068": "        for (Iterator<RecordBase> it = _helper.getInternalSheet().getRecords().iterator(); it.hasNext(); ) {",
+        "1069": "            RecordBase rec = it.next();",
+        "1070": "            if (rec instanceof HyperlinkRecord){"
+      },
+      "id": 3970708,
+      "filename": "HSSFSheetImpl.java"
+    },
+    {
+      "repo": "https://github.com/j0hnds/FixedFormat.git",
+      "language": "Java",
+      "linescount": 195,
+      "location": "/src/test/java/org/hephaestus/fixedformat/impl",
+      "name": "FixedFormat",
+      "url": "https://searchcode.com/codesearch/view/106707051/",
+      "md5hash": "b9d06bd48f0d5fa6b6de40f2858c508c",
+      "lines": {
+        "51": "        record = new RecordBase();",
+        "50": "",
+        "35": "import org.hephaestus.fixedformat.impl.MapPopulator;",
+        "36": "import org.hephaestus.fixedformat.impl.RecordBase;",
+        "41": "",
+        "42": "public class TestRecordBase extends TestCase {"
+      },
+      "id": 106707051,
+      "filename": "TestRecordBase.java"
+    },
+    {
+      "repo": "https://github.com/cortextual/jackson-databind.git",
+      "language": "Java",
+      "linescount": 15,
+      "location": "/src/test/java/perf",
+      "name": "jackson-databind",
+      "url": "https://searchcode.com/codesearch/view/74557684/",
+      "md5hash": "30df6dfb51bbd857fd3e75c862d44151",
+      "lines": {
+        "5": "@JsonFormat(shape=JsonFormat.Shape.ARRAY)",
+        "6": "final class RecordAsArray extends RecordBase"
+      },
+      "id": 74557684,
+      "filename": "RecordAsArray.java"
+    },
+    {
+      "repo": "https://github.com/cortextual/jackson-databind.git",
+      "language": "Java",
+      "linescount": 14,
+      "location": "/src/test/java/perf",
+      "name": "jackson-databind",
+      "url": "https://searchcode.com/codesearch/view/74557794/",
+      "md5hash": "62cf3ecbcd0f729a8920a091d25add36",
+      "lines": {
+        "5": " */",
+        "6": "final class Record extends RecordBase"
+      },
+      "id": 74557794,
+      "filename": "Record.java"
+    },
+    {
+      "repo": "https://github.com/burto/mkgmap.git",
+      "language": "Java",
+      "linescount": 62,
+      "location": "/src/uk/me/parabola/imgfmt/app/mdr",
+      "name": "mkgmap",
+      "url": "https://searchcode.com/codesearch/view/104189983/",
+      "md5hash": "23d370de26c8d545aebdbe1343fb0760",
+      "lines": {
+        "18": " */",
+        "19": "public class Mdr13Record extends RecordBase implements Comparable<Mdr13Record> {"
+      },
+      "id": 104189983,
+      "filename": "Mdr13Record.java"
+    },
+    {
+      "repo": "https://github.com/burto/mkgmap.git",
+      "language": "Java",
+      "linescount": 55,
+      "location": "/src/uk/me/parabola/imgfmt/app/mdr",
+      "name": "mkgmap",
+      "url": "https://searchcode.com/codesearch/view/104190009/",
+      "md5hash": "7a4b451f4598042637a2dfcd99756786",
+      "lines": {
+        "18": " */",
+        "19": "public class Mdr14Record extends RecordBase implements Comparable<Mdr14Record> {"
+      },
+      "id": 104190009,
+      "filename": "Mdr14Record.java"
+    },
+    {
+      "repo": "https://github.com/burto/mkgmap.git",
+      "language": "Java",
+      "linescount": 53,
+      "location": "/src/uk/me/parabola/imgfmt/app/mdr",
+      "name": "mkgmap",
+      "url": "https://searchcode.com/codesearch/view/104190013/",
+      "md5hash": "4c90cbb99ead5dbf66aaa9cda616510f",
+      "lines": {
+        "19": " */",
+        "20": "public class Mdr1Record extends RecordBase {"
+      },
+      "id": 104190013,
+      "filename": "Mdr1Record.java"
+    },
+    {
+      "repo": "https://github.com/burto/mkgmap.git",
+      "language": "Java",
+      "linescount": 92,
+      "location": "/src/uk/me/parabola/imgfmt/app/mdr",
+      "name": "mkgmap",
+      "url": "https://searchcode.com/codesearch/view/104190032/",
+      "md5hash": "089b3c1e6f1576720fd628f7c89e2143",
+      "lines": {
+        "24": "public class Mdr5Record extends RecordBase implements Comparable<Mdr5Record> {",
+        "23": " */"
+      },
+      "id": 104190032,
+      "filename": "Mdr5Record.java"
+    },
+    {
+      "repo": "https://github.com/burto/mkgmap.git",
+      "language": "Java",
+      "linescount": 64,
+      "location": "/src/uk/me/parabola/imgfmt/app/mdr",
+      "name": "mkgmap",
+      "url": "https://searchcode.com/codesearch/view/104190038/",
+      "md5hash": "7490cee292a71879f31bb4f545e08ac5",
+      "lines": {
+        "26": " */",
+        "27": "public class Mdr10Record extends RecordBase implements Comparable<Mdr10Record> {"
+      },
+      "id": 104190038,
+      "filename": "Mdr10Record.java"
+    },
+    {
+      "repo": "https://github.com/burto/mkgmap.git",
+      "language": "Java",
+      "linescount": 107,
+      "location": "/src/uk/me/parabola/imgfmt/app/mdr",
+      "name": "mkgmap",
+      "url": "https://searchcode.com/codesearch/view/104190053/",
+      "md5hash": "7c448202ce2f56393dab9fe528c71ef8",
+      "lines": {
+        "19": " */",
+        "20": "public class Mdr11Record extends RecordBase implements Comparable<Mdr11Record> {"
+      },
+      "id": 104190053,
+      "filename": "Mdr11Record.java"
+    },
+    {
+      "repo": "https://github.com/burto/mkgmap.git",
+      "language": "Java",
+      "linescount": 47,
+      "location": "/src/uk/me/parabola/imgfmt/app/mdr",
+      "name": "mkgmap",
+      "url": "https://searchcode.com/codesearch/view/104190074/",
+      "md5hash": "22057164c0d1d88befe4d0db8bd07e0d",
+      "lines": {
+        "17": " */",
+        "18": "public class Mdr7Record extends RecordBase implements Comparable<Mdr7Record> {"
+      },
+      "id": 104190074,
+      "filename": "Mdr7Record.java"
+    },
+    {
+      "repo": "https://github.com/burto/mkgmap.git",
+      "language": "Java",
+      "linescount": 77,
+      "location": "/src/uk/me/parabola/imgfmt/app/mdr",
+      "name": "mkgmap",
+      "url": "https://searchcode.com/codesearch/view/104190105/",
+      "md5hash": "ff145bb56c278ee416d5fac8a3e56ca4",
+      "lines": {
+        "18": " */",
+        "19": "public class Mdr4Record extends RecordBase implements Comparable<Mdr4Record> {"
+      },
+      "id": 104190105,
+      "filename": "Mdr4Record.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 14,
+      "source": "Github",
+      "id": 2
+    },
+    {
+      "count": 1,
+      "source": "Google Code",
+      "id": 1
+    }
+  ]
+}

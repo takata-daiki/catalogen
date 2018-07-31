@@ -1,0 +1,154 @@
+{
+  "matchterm": "CTPath2DMoveTo",
+  "previouspage": null,
+  "searchterm": "CTPath2DMoveTo",
+  "query": "CTPath2DMoveTo",
+  "language_filters": [
+    {
+      "count": 6,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 6,
+  "results": [
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 42,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402897/",
+      "md5hash": "1775ed2c811515a2520277e339890071",
+      "lines": {
+        "16": "public interface CTPath2DMoveTo extends org.apache.xmlbeans.XmlObject",
+        "19": "        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CTPath2DMoveTo.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sE130CAA0A01A7CDE5A2B4FEB8B311707\").resolveHandle(\"ctpath2dmovetoa01etype\");",
+        "18": "    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DMoveTo",
+        "15": " */"
+      },
+      "id": 97402897,
+      "filename": "CTPath2DMoveTo.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1476,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403836/",
+      "md5hash": "2582da594107bd266380545b0ddc6687",
+      "lines": {
+        "288": "     */",
+        "289": "    public void setMoveToArray(org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DMoveTo[] moveToArray)",
+        "258": "     */",
+        "259": "    public org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DMoveTo getMoveToArray(int i)",
+        "263": "            check_orphaned();",
+        "264": "            org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DMoveTo target = null;",
+        "265": "            target = (org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DMoveTo)get_store().find_element_user(MOVETO$2, i);",
+        "266": "            if (target == null)",
+        "203": "     */",
+        "204": "    public java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DMoveTo> getMoveToList()",
+        "205": "    {",
+        "206": "        final class MoveToList extends java.util.AbstractList<org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DMoveTo>",
+        "207": "        {",
+        "301": "    public void setMoveToArray(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DMoveTo moveTo)",
+        "300": "     */"
+      },
+      "id": 97403836,
+      "filename": "CTPath2DImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 522,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97402026/",
+      "md5hash": "78a921038f475e52b775a86778f20278",
+      "lines": {
+        "96": "    void setMoveToArray(int i, org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DMoveTo moveTo);",
+        "100": "     */",
+        "69": "     */",
+        "70": "    java.util.List<org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DMoveTo> getMoveToList();",
+        "105": "     */",
+        "106": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DMoveTo addNewMoveTo();",
+        "75": "     */",
+        "76": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DMoveTo[] getMoveToArray();",
+        "80": "     */",
+        "81": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DMoveTo getMoveToArray(int i);",
+        "90": "     */",
+        "91": "    void setMoveToArray(org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DMoveTo[] moveToArray);",
+        "101": "    org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DMoveTo insertNewMoveTo(int i);",
+        "95": "     */"
+      },
+      "id": 97402026,
+      "filename": "CTPath2D.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 3480,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642161/",
+      "md5hash": "ecaf98912e449049698e790afd5f5c5a",
+      "lines": {
+        "617": "    /**",
+        "618": "     * Create an instance of {@link CTPath2DMoveTo }",
+        "620": "     */",
+        "621": "    public CTPath2DMoveTo createCTPath2DMoveTo() {",
+        "622": "        return new CTPath2DMoveTo();",
+        "623": "    }"
+      },
+      "id": 17642161,
+      "filename": "ObjectFactory.java"
+    },
+    {
+      "repo": "git://github.com/plutext/docx4j.git",
+      "language": "Java",
+      "linescount": 264,
+      "location": "/src/main/java/org/docx4j/dml",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17642035/",
+      "md5hash": "76da62452ba47aa186582eba48e2fd6d",
+      "lines": {
+        "73": "        @XmlElement(name = \"close\", type = CTPath2DClose.class),",
+        "74": "        @XmlElement(name = \"moveTo\", type = CTPath2DMoveTo.class),",
+        "110": "     * {@link CTPath2DClose }",
+        "111": "     * {@link CTPath2DMoveTo }"
+      },
+      "id": 17642035,
+      "filename": "CTPath2D.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 76,
+      "location": "/pptx/ooxml-xsds-src/org/openxmlformats/schemas/drawingml/x2006/main/impl",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97403928/",
+      "md5hash": "473e6d0776905ad345be50131e6e1573",
+      "lines": {
+        "16": "    ",
+        "17": "    public CTPath2DMoveToImpl(org.apache.xmlbeans.SchemaType sType)",
+        "3": " * Namespace: http://schemas.openxmlformats.org/drawingml/2006/main",
+        "4": " * Java type: org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DMoveTo",
+        "13": " */",
+        "14": "public class CTPath2DMoveToImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.openxmlformats.schemas.drawingml.x2006.main.CTPath2DMoveTo"
+      },
+      "id": 97403928,
+      "filename": "CTPath2DMoveToImpl.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 6,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}
