@@ -90,7 +90,3 @@ if __name__ == '__main__':
     res = extract(data)
     ans = output(res, 'code_results.java')
 
-    # with open('code_results.json') as f:
-    #     for data in f:
-    #         print(data.split('\n')[0])
-
