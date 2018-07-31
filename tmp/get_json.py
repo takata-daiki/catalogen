@@ -6,6 +6,7 @@ import multiprocessing
 java = '23'
 url  = 'https://searchcode.com/api/codesearch_I/'
 
+
 def request(query):
     r = requests.get(url, params=query)
     data = r.json()
@@ -39,14 +40,6 @@ def setter(arg):
         return
     with open('CodeIndex/{}.json'.format(arg['query']), 'w') as f:
         json.dump(arg, f, indent=2)
-
-    # with open('code_index.json', 'w') as f:
-    #     f.write('[')
-    #     for i, line in enumerate(arr):
-    #         if i > 0:
-    #             f.write(',\n')
-    #         json.dump(line, f, indent=2)
-    #     f.write(']')
 
 
 if __name__ == '__main__':

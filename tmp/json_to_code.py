@@ -17,12 +17,6 @@ def request(path):
     return data
 
 
-# def wrapper(arg):
-#     res = request(arg['id'])
-#     res['id'] = arg['id']
-#     return res
-
-
 def getter(classname):
     dic = {}
     with open('CodeIndex/{}.json'.format(classname), 'r') as f:
@@ -33,13 +27,6 @@ def getter(classname):
                 dic[q['id']] = data['code']
             except KeyError:
                 pass
-
-        # with multiprocessing.Pool(10) as p:
-        #     data = p.map(wrapper, jsn['results'])
-        #     print(data)
-        #     for obj in data:
-        #         dic[obj['id']] = obj['code']
-
     return dic
 
 
