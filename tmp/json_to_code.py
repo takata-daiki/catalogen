@@ -14,6 +14,7 @@ def request(path):
         data = r.json()
     except json.decoder.JSONDecodeError:
         data = {}
+
     return data
 
 

@@ -40,16 +40,16 @@ def getter():
 
 
 def setter(arg):
-    if arg['total'] == 0:
-        return
-    with open('CodeIndex/{}.json'.format(arg['query']), 'w') as f:
-        json.dump(arg, f, indent=2)
+    try:
+        if arg['total'] == 0:
+            return
+        with open('CodeIndex/{}.json'.format(arg['query']), 'w') as f:
+            json.dump(arg, f, indent=2)
+    except KeyError:
+        pass
 
 
 if __name__ == '__main__':
-    try:
-        res = getter()
-        with multiprocessing.Pool(30) as p:
-            p.map(setter, res)
-    except KeyError:
-        pass
+    res = getter()
+    with multiprocessing.Pool(30) as p:
+        p.map(setter, res)

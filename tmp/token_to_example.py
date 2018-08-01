@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 import re
+import os
 import json
 import subprocess
 import multiprocessing
 
 
 def getter(classname, idname):
-    dic = []
-    with open('CodeToken/{}/{}'.format(classname, idname), 'r') as f:
+    dic = {}
+    with open('CodeToken/{}/{}.token'.format(classname, idname), 'r') as f:
         dep = 0
         for data in f:
             arr = data.split(',')
@@ -21,7 +22,6 @@ def getter(classname, idname):
                     dep -= 1
 
                 dic[pos] = [ID, token, line, dep]
-                inv[line] = dep
 
                 if ID == '{':
                     dep += 1
@@ -37,7 +37,6 @@ def extract(classname, dic):
         if keyS < 1 or dic[keyS - 1][0] != classname or dic[keyS][1] != 'Identifier':
             continue
 
-        tokens = set(keyS)
         # Now, the instance should be determined whether it is function arguments or not
         isArgs = False
         for keyT, valueT in dic.items():
@@ -51,28 +50,28 @@ def extract(classname, dic):
 
         # The following <Identifier> is specified with 'classname <Identifier>'
         # Find all instance methods
+        tokens = set([keyS])
         instancename = valueS[0]
         for keyT, valueT in dic.items():
             if keyS >= keyT:
                 continue
-            if dic[keyT][1] == 'Identifier' and dic[keyT + 1][0] == instancename:
+            if dic[keyT][0] == classname and dic[keyT + 1][0] == instancename:
                 break
             if valueS[3] + int(isArgs) > valueT[3]:
                 break
 
-            if dic[keyT][0] == classname and dic[keyT + 1][0] == '.':
+            if dic[keyT][0] == instancename and dic[keyT + 1][0] == '.':
                 tokens.add(keyT)
 
-
         # Search lines including the instane methods
-        lines = set(dic[keyT][2])
+        lines = set([dic[keyT][2]])
         for n in tokens:
             for i in range(n)[::-1]: # front
                 if dic[i][0] == '(':
                     lines.add(dic[i][2])
                     break
                 if dic[i][0] == ';' or dic[i][0] == '{':
-                    lines.add(dic[i - 1][2])
+                    lines.add(dic[i + 1][2])
                     break
 
             for i in range(len(dic))[n + 1:]:
@@ -87,7 +86,7 @@ def extract(classname, dic):
 
 def setter(catalog, classname, idname):
     li = []
-    with open('CodeResult/{}/{}'.format(classname, idname), 'r') as f:
+    with open('CodeResult/{}/{}.java'.format(classname, idname), 'r') as f:
         for example in catalog:
             for i, line in enumerate(f):
                 if str(i + 1) in example:
@@ -101,8 +100,10 @@ def setter(catalog, classname, idname):
         print(x[0], x[1].split('\n')[0])
         jsn['lines'][x[0]] = x[1]
 
-    with open('CodeExample/{}/{}'.format(classname, idname), 'w') as f:
+    os.makedirs('CodeExample/' + classname, exist_ok=True)
+    with open('CodeExample/{}/{}.json'.format(classname, idname), 'w') as f:
         json.dump(jsn, f, indent=2)
+    print('\n')
 
 
 def f(arg):
