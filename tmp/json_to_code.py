@@ -14,13 +14,8 @@ def request(path):
         data = r.json()
     except json.decoder.JSONDecodeError:
         data = {}
+
     return data
-
-
-# def wrapper(arg):
-#     res = request(arg['id'])
-#     res['id'] = arg['id']
-#     return res
 
 
 def getter(classname):
@@ -33,13 +28,6 @@ def getter(classname):
                 dic[q['id']] = data['code']
             except KeyError:
                 pass
-
-        # with multiprocessing.Pool(10) as p:
-        #     data = p.map(wrapper, jsn['results'])
-        #     print(data)
-        #     for obj in data:
-        #         dic[obj['id']] = obj['code']
-
     return dic
 
 

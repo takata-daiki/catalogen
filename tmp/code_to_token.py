@@ -1,24 +1,7 @@
 #!/usr/bin/env python3
 import os
-import json
-import requests
 import subprocess
 import multiprocessing
-
-
-def request(path):
-    r = requests.get(url.format(path))
-    try:
-        data = r.json()
-    except json.decoder.JSONDecodeError:
-        data = {}
-    return data
-
-
-def wrapper(arg):
-    res = request(arg['id'])
-    res['id'] = arg['id']
-    return res
 
 
 def getter(classname):
@@ -36,7 +19,8 @@ def setter(classname, arg):
         # print('{0}.java -> {0}.token'.format(idname))
 
 
-def f(classname):
+def f(arg):
+    classname = arg
     print('Download:', classname)
     res = getter(classname)
     setter(classname, res)
@@ -45,7 +29,5 @@ def f(classname):
 if __name__ == '__main__':
     res = subprocess.check_output(['ls', '-1', 'CodeResult/']).decode('utf-8')
     li = res.split('\n')[:-1]
-    for x in li:
-        f(x)
-    # with multiprocessing.Pool(3) as p:
-    #     p.map(f, li)
+    with multiprocessing.Pool(1) as p:
+        p.map(f, li)

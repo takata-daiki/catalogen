@@ -6,11 +6,16 @@ import multiprocessing
 java = '23'
 url  = 'https://searchcode.com/api/codesearch_I/'
 
+
 def request(query):
     r = requests.get(url, params=query)
-    data = r.json()
-    if data['total'] > 0:
-        print('Download:', query['q'], '({})'.format(data['total']))
+    try:
+        data = r.json()
+        if data['total'] > 0:
+            print('Download:', query['q'], '({})'.format(data['total']))
+    except json.decoder.JSONDecodeError:
+        data = {}
+
     return data
 
 
@@ -35,18 +40,13 @@ def getter():
 
 
 def setter(arg):
-    if arg['total'] == 0:
-        return
-    with open('CodeIndex/{}.json'.format(arg['query']), 'w') as f:
-        json.dump(arg, f, indent=2)
-
-    # with open('code_index.json', 'w') as f:
-    #     f.write('[')
-    #     for i, line in enumerate(arr):
-    #         if i > 0:
-    #             f.write(',\n')
-    #         json.dump(line, f, indent=2)
-    #     f.write(']')
+    try:
+        if arg['total'] == 0:
+            return
+        with open('CodeIndex/{}.json'.format(arg['query']), 'w') as f:
+            json.dump(arg, f, indent=2)
+    except KeyError:
+        pass
 
 
 if __name__ == '__main__':

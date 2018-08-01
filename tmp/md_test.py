@@ -12,21 +12,21 @@ def input():
         for dic in data['XSSFWorkbook']:
             arr.append(dic['id'])
 
-    text = '## XSSFWorkbook\n'
+    text = '# XSSFWorkbook\n\n'
     for n in arr:
         with open('CodeExample/' + n + '.json') as f:
             data = json.load(f)
             if not data['lines']: continue
             text += '### [{0}]({1})\n'.format(data['filename'], data['url'])
-            text += '\n'
-            text += '    :::java'
-            for line in data['lines'].values():
-                text += '{0}\n'.format(line.split('\n')[0])
-            text += '\n'
-            text += '---'
-    body = md.convert(text)
-    html = '<html lang="en">\n<head>\n<meta charset="utf-8">\n<link rel="stylesheet" type="text/css" href="../styles.css">\n</head>\n<body>\n'+body+'\n</body>\n</html>'
-    print(html)
+            text += '{% highlight java %}\n'
+            for i, line in data['lines'].items():
+                text += '{0}. {1}\n'.format(i, line.split('\n')[0])
+            text += '{% endhighlight %}\n\n'
+            text += '***\n\n'
+    # body = md.convert(text)
+    # html = '<html lang="en">\n<head>\n<meta charset="utf-8">\n<link rel="stylesheet" type="text/css" href="../styles.css">\n</head>\n<body>\n'+body+'\n</body>\n</html>'
+    # print(html)
+    print(text)
 
 
 if __name__ == '__main__':
