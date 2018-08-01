@@ -1,6 +1,8 @@
 {
   "id": "101231435",
   "lines": {
-    "63": "\t\tXSSFWorkbook book = new XSSFWorkbook();\n"
+    "63": "\t\tXSSFWorkbook book = new XSSFWorkbook();\n",
+    "64": "\t\tExportContext ctx = new ExportContext(true, book.createSheet(\"Sheet1\"));\n",
+    "79": "\t\tbook.write(outputStream);\n"
   }
 }

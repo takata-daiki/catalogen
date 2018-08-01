@@ -1,6 +1,9 @@
 {
   "id": "126772611",
   "lines": {
-    "45": "\t\t\tXSSFWorkbook workbook = new XSSFWorkbook(inputStream);\n"
+    "45": "\t\t\tXSSFWorkbook workbook = new XSSFWorkbook(inputStream);\n",
+    "48": "\t\t\tassertEquals( 1, workbook.getNumberOfSheets() );\n",
+    "49": "\t\t\tassertEquals( \"Simple Test Report\", workbook.getSheetAt(0).getSheetName());\n",
+    "51": "\t\t\tSheet sheet = workbook.getSheetAt(0);\n"
   }
 }

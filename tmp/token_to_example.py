@@ -4,7 +4,7 @@ import os
 import json
 import subprocess
 import multiprocessing
-
+from pprint import pprint
 
 def getter(classname, idname):
     dic = {}
@@ -29,6 +29,7 @@ def getter(classname, idname):
             except AttributeError as e:
                 dic[pos] = [',', "','", line, dep]
 
+    # pprint(dic)
     return dic
 
 def extract(classname, dic):
@@ -55,13 +56,15 @@ def extract(classname, dic):
         for keyT, valueT in dic.items():
             if keyS >= keyT:
                 continue
-            if dic[keyT][0] == classname and dic[keyT + 1][0] == instancename:
+            if dic[keyT][1] == 'Identifier' and dic[keyT + 1][0] == instancename:
                 break
-            if valueS[3] + int(isArgs) > valueT[3]:
+            if valueT[1] == '}' and valueS[3] + int(isArgs) > valueT[3]:
                 break
 
             if dic[keyT][0] == instancename and dic[keyT + 1][0] == '.':
                 tokens.add(keyT)
+
+        print(tokens)
 
         # Search lines including the instane methods
         lines = set([dic[keyT][2]])
@@ -70,7 +73,7 @@ def extract(classname, dic):
                 if dic[i][0] == '(':
                     lines.add(dic[i][2])
                     break
-                if dic[i][0] == ';' or dic[i][0] == '{':
+                if dic[i][0] == ';' or dic[i][0] == '{' or dic[i][0] == '}':
                     lines.add(dic[i + 1][2])
                     break
 
