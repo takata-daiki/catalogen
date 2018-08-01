@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-import json
 import re
+import json
+import subprocess
+import multiprocessing
 
-classID = 'XSSFWorkbook'
-inv = {}
 
-def input(name):
-    dic = {}
-    with open(name) as f:
+def getter(classname, idname):
+    dic = []
+    with open('CodeToken/{}/{}'.format(classname, idname), 'r') as f:
         dep = 0
         for data in f:
             arr = data.split(',')
@@ -31,62 +31,95 @@ def input(name):
 
     return dic
 
-
-def extract(dic):
-    ans = []
+def extract(classname, dic):
+    catalog = []
     for keyS, valueS in dic.items():
-        if valueS[0] != classID: continue
-        mx = -1
-        keyP = keyS + 1
-        valueP = dic[keyP]
-        if valueP[1] != 'Identifier': continue
+        if keyS < 1 or dic[keyS - 1][0] != classname or dic[keyS][1] != 'Identifier':
+            continue
 
-        # The following <Identifier> is specified with 'classID <Identifier>'
-        # Find all instance methods
-        for keyN, valueN in dic.items():
-            if valueN[1] != 'Identifier' or keyP >= keyN: continue
-            if dic[keyN][0] != classID and dic[keyN + 1][0] == valueP[0]: break
-            if valueP[0] == valueN[0] and dic[keyN + 1][0] == '.':
-                mx = max([mx, keyN])
-        if mx == -1: continue
-
-        # Search a last token in the end line
-        for keyN, valueN in dic.items():
-            if mx >= keyN: continue
-            if valueN[0] == ';':
-                involved = []
-                last = '0'
-                for i in range(len(dic)):
-                    if i < keyS or keyN < i: continue
-
-                    if dic[i][0] == valueP[0]:
-                        # if involved: print(inv[involved[-1]], dic[i][3], last)
-                        involved.append(dic[i][2])
-
-                ans.append(involved)
+        tokens = set(keyS)
+        # Now, the instance should be determined whether it is function arguments or not
+        isArgs = False
+        for keyT, valueT in dic.items():
+            if keyS >= keyT:
+                continue
+            if valueT[0] == ';':
+                break
+            if valueT[0] == ')':
+                isArgs = True
                 break
 
-    # print(ans)
-    return ans
+        # The following <Identifier> is specified with 'classname <Identifier>'
+        # Find all instance methods
+        instancename = valueS[0]
+        for keyT, valueT in dic.items():
+            if keyS >= keyT:
+                continue
+            if dic[keyT][1] == 'Identifier' and dic[keyT + 1][0] == instancename:
+                break
+            if valueS[3] + int(isArgs) > valueT[3]:
+                break
+
+            if dic[keyT][0] == classname and dic[keyT + 1][0] == '.':
+                tokens.add(keyT)
 
 
-def output(ans, name):
-    arr = []
-    with open(name) as f:
-        for i, data in enumerate(f):
-            if str(i + 1) in ans[0]:
-                arr.append([str(i + 1), data])
+        # Search lines including the instane methods
+        lines = set(dic[keyT][2])
+        for n in tokens:
+            for i in range(n)[::-1]: # front
+                if dic[i][0] == '(':
+                    lines.add(dic[i][2])
+                    break
+                if dic[i][0] == ';' or dic[i][0] == '{':
+                    lines.add(dic[i - 1][2])
+                    break
+
+            for i in range(len(dic))[n + 1:]:
+                if dic[i][0] == ';':
+                    lines.add(dic[i][2])
+                    break
+
+        catalog.append(sorted(list(lines)))
+
+    return catalog
+
+
+def setter(catalog, classname, idname):
+    li = []
+    with open('CodeResult/{}/{}'.format(classname, idname), 'r') as f:
+        for example in catalog:
+            for i, line in enumerate(f):
+                if str(i + 1) in example:
+                    li.append([str(i + 1), line])
 
     seen = []
-    arr2 = [x for x in arr if x[1] not in seen and not seen.append(x[1])]
+    li = [x for x in li if x[1] not in seen and not seen.append(x[1])]
 
-    for x in arr2:
-        print(x[0] + x[1].split('\n')[0])
+    jsn = {'id': idname, 'lines': {}}
+    for x in li:
+        print(x[0], x[1].split('\n')[0])
+        jsn['lines'][x[0]] = x[1]
 
-    return arr2
+    with open('CodeExample/{}/{}'.format(classname, idname), 'w') as f:
+        json.dump(jsn, f, indent=2)
+
+
+def f(arg):
+    classname = arg
+    print('Download:', classname)
+    res = subprocess.check_output(['ls', '-1', 'CodeToken/{}/'.format(classname)]).decode('utf-8')
+    li = res.split('\n')[:-1]
+    for x in li:
+        idname = x[:-6]
+        res = getter(classname, idname)
+        data = extract(classname, res)
+        setter(data, classname, idname)
+
 
 if __name__ == '__main__':
-    data = input('code_results_to_tokens')
-    res = extract(data)
-    ans = output(res, 'code_results.java')
-
+    res = subprocess.check_output(['ls', '-1', 'CodeToken/']).decode('utf-8')
+    li = res.split('\n')[:-1]
+    f('XSSFWorkbook')
+    # with multiprocessing.Pool(10) as p:
+    #     p.map(f, li)

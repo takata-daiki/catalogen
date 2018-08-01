@@ -9,9 +9,13 @@ url  = 'https://searchcode.com/api/codesearch_I/'
 
 def request(query):
     r = requests.get(url, params=query)
-    data = r.json()
-    if data['total'] > 0:
-        print('Download:', query['q'], '({})'.format(data['total']))
+    try:
+        data = r.json()
+        if data['total'] > 0:
+            print('Download:', query['q'], '({})'.format(data['total']))
+    except json.decoder.JSONDecodeError:
+        data = {}
+
     return data
 
 
@@ -43,6 +47,9 @@ def setter(arg):
 
 
 if __name__ == '__main__':
-    res = getter()
-    with multiprocessing.Pool(30) as p:
-        p.map(setter, res)
+    try:
+        res = getter()
+        with multiprocessing.Pool(30) as p:
+            p.map(setter, res)
+    except KeyError:
+        pass
