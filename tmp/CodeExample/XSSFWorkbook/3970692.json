@@ -1,6 +1,8 @@
 {
   "id": "3970692",
   "lines": {
-    "260": "        \tfinal XSSFWorkbook wb = getWorkbook();\n"
+    "260": "        \tfinal XSSFWorkbook wb = getWorkbook();\n",
+    "261": "        \tint sheetIndex = wb.getSheetIndex(this);\n",
+    "269": "    private void updateNamedRanges(XSSFWorkbook wb, PtgShifter shifter) {\n"
   }
 }
