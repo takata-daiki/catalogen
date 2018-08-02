@@ -1,8 +1,8 @@
 {
-  "matchterm": "DefaultFontReplacer",
+  "matchterm": "org.apache.poi.hwpf.converter.DefaultFontReplacer",
   "previouspage": null,
-  "searchterm": "DefaultFontReplacer",
-  "query": "DefaultFontReplacer",
+  "searchterm": "org.apache.poi.hwpf.converter.DefaultFontReplacer",
+  "query": "org.apache.poi.hwpf.converter.DefaultFontReplacer",
   "language_filters": [
     {
       "count": 1,
@@ -21,8 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97383976/",
       "md5hash": "a222c0be0731737a174a7721c959c7e2",
       "lines": {
-        "172": "",
-        "173": "    private FontReplacer fontReplacer = new DefaultFontReplacer();"
+        "32": "import org.apache.poi.hwpf.HWPFDocumentCore;",
+        "33": "import org.apache.poi.hwpf.converter.AbstractWordUtils.NumberingState;",
+        "34": "import org.apache.poi.hwpf.converter.FontReplacer.Triplet;",
+        "35": "import org.apache.poi.hwpf.model.FieldsDocumentPart;",
+        "36": "import org.apache.poi.hwpf.usermodel.Bookmark;",
+        "37": "import org.apache.poi.hwpf.usermodel.CharacterRun;",
+        "38": "import org.apache.poi.hwpf.usermodel.Field;",
+        "39": "import org.apache.poi.hwpf.usermodel.HWPFList;",
+        "40": "import org.apache.poi.hwpf.usermodel.Notes;",
+        "41": "import org.apache.poi.hwpf.usermodel.OfficeDrawing;",
+        "16": "==================================================================== */",
+        "17": "package org.apache.poi.hwpf.converter;",
+        "29": "",
+        "30": "import org.apache.poi.hpsf.SummaryInformation;",
+        "31": "import org.apache.poi.hwpf.HWPFDocument;"
       },
       "id": 97383976,
       "filename": "AbstractWordConverter.java"

@@ -1,8 +1,8 @@
 {
-  "matchterm": "ParagraphSprmUncompressor",
+  "matchterm": "org.apache.poi.hwpf.sprm.ParagraphSprmUncompressor",
   "previouspage": null,
-  "searchterm": "ParagraphSprmUncompressor",
-  "query": "ParagraphSprmUncompressor",
+  "searchterm": "org.apache.poi.hwpf.sprm.ParagraphSprmUncompressor",
+  "query": "org.apache.poi.hwpf.sprm.ParagraphSprmUncompressor",
   "language_filters": [
     {
       "count": 2,
@@ -21,16 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97384407/",
       "md5hash": "d9e337622aaacee6d2790b7572b0af11",
       "lines": {
-        "156": "        byte[] grpprl = styleSheet.getPAPX( style );",
-        "131": "                {",
-        "132": "                    properties = ParagraphSprmUncompressor.uncompressPAP(",
-        "136": "                            papx, properties );",
-        "137": "                    properties = ParagraphSprmUncompressor.uncompressPAP(",
+        "32": "import org.apache.poi.util.POILogFactory;",
+        "33": "import org.apache.poi.util.POILogger;",
+        "17": "",
+        "18": "package org.apache.poi.hwpf.usermodel;",
+        "21": "",
+        "22": "import org.apache.poi.hwpf.HWPFDocumentCore;",
+        "23": "import org.apache.poi.hwpf.model.LFO;",
+        "24": "import org.apache.poi.hwpf.model.ListLevel;",
+        "25": "import org.apache.poi.hwpf.model.ListTables;",
+        "26": "import org.apache.poi.hwpf.model.PAPX;",
         "27": "import org.apache.poi.hwpf.model.StyleSheet;",
         "28": "import org.apache.poi.hwpf.sprm.ParagraphSprmUncompressor;",
-        "109": "                properties );",
-        "110": "        properties = ParagraphSprmUncompressor.uncompressPAP( properties,",
-        "157": "        return ParagraphSprmUncompressor.uncompressPAP( properties, grpprl, 2 );"
+        "29": "import org.apache.poi.hwpf.sprm.SprmBuffer;",
+        "30": "import org.apache.poi.hwpf.sprm.TableSprmCompressor;",
+        "31": "import org.apache.poi.util.Internal;"
       },
       "id": 97384407,
       "filename": "Paragraph.java"
@@ -44,10 +49,21 @@
       "url": "https://searchcode.com/codesearch/view/97384100/",
       "md5hash": "77aa9fdbea42509b8b2733de8923350a",
       "lines": {
-        "24": "import org.apache.poi.hwpf.sprm.ParagraphSprmUncompressor;",
         "241": "",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
         "242": "          pap = ParagraphSprmUncompressor.uncompressPAP(parentPAP, papx, 2);",
-        "23": "import org.apache.poi.hwpf.sprm.CharacterSprmUncompressor;"
+        "17": "",
+        "18": "package org.apache.poi.hwpf.model;",
+        "21": "",
+        "22": "import org.apache.poi.hwpf.model.io.HWPFOutputStream;",
+        "23": "import org.apache.poi.hwpf.sprm.CharacterSprmUncompressor;",
+        "24": "import org.apache.poi.hwpf.sprm.ParagraphSprmUncompressor;",
+        "25": "import org.apache.poi.hwpf.usermodel.CharacterProperties;",
+        "26": "import org.apache.poi.hwpf.usermodel.ParagraphProperties;",
+        "27": "import org.apache.poi.util.Internal;",
+        "28": "import org.apache.poi.util.LittleEndian;",
+        "29": ""
       },
       "id": 97384100,
       "filename": "StyleSheet.java"

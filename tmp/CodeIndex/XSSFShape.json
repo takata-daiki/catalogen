@@ -1,8 +1,8 @@
 {
-  "matchterm": "XSSFShape",
+  "matchterm": "org.apache.poi.xssf.usermodel.XSSFShape",
   "previouspage": null,
-  "searchterm": "XSSFShape",
-  "query": "XSSFShape",
+  "searchterm": "org.apache.poi.xssf.usermodel.XSSFShape",
+  "query": "org.apache.poi.xssf.usermodel.XSSFShape",
   "language_filters": [
     {
       "count": 4,
@@ -21,12 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/93182055/",
       "md5hash": "87019a72d8e02af505e4e1e5b6ac2ed2",
       "lines": {
+        "11": "import org.apache.poi.POIXMLDocumentPart;",
+        "12": "import org.apache.poi.hssf.usermodel.HSSFClientAnchor;",
+        "13": "import org.apache.poi.hssf.usermodel.HSSFPicture;",
+        "14": "import org.apache.poi.hssf.usermodel.HSSFPictureData;",
+        "15": "import org.apache.poi.hssf.usermodel.HSSFShape;",
+        "16": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "17": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "18": "import org.apache.poi.ss.usermodel.PictureData;",
+        "19": "import org.apache.poi.xssf.usermodel.XSSFClientAnchor;",
+        "20": "import org.apache.poi.xssf.usermodel.XSSFDrawing;",
         "21": "import org.apache.poi.xssf.usermodel.XSSFPicture;",
         "22": "import org.apache.poi.xssf.usermodel.XSSFShape;",
-        "263": "                XSSFDrawing drawing = (XSSFDrawing) dr;  ",
-        "264": "                List<XSSFShape> shapes = drawing.getShapes();  ",
-        "265": "                for (XSSFShape shape : shapes) {  ",
-        "266": "                    XSSFPicture pic = (XSSFPicture) shape;  "
+        "23": "import org.apache.poi.xssf.usermodel.XSSFSheet;",
+        "24": "import org.apache.poi.xssf.usermodel.XSSFWorkbook;",
+        "25": "import org.hibernate.mapping.Collection;"
       },
       "id": 93182055,
       "filename": "ExcelPublicUtil.java"
@@ -40,10 +49,22 @@
       "url": "https://searchcode.com/codesearch/view/122565145/",
       "md5hash": "37e957a3ed6fb87cd516e5e2edbf25dd",
       "lines": {
+        "7": " * which accompanies this distribution, and is available at",
+        "8": " * http://www.eclipse.org/legal/epl-v10.html",
+        "15": "",
+        "16": "import org.apache.poi.ss.usermodel.BorderStyle;",
+        "17": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "18": "import org.apache.poi.ss.usermodel.FillPatternType;",
+        "19": "import org.apache.poi.ss.usermodel.Font;",
+        "20": "import org.apache.poi.ss.usermodel.RichTextString;",
+        "21": "import org.apache.poi.ss.usermodel.Workbook;",
+        "22": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "23": "import org.apache.poi.xssf.usermodel.XSSFColor;",
+        "24": "import org.apache.poi.xssf.usermodel.XSSFFont;",
         "25": "import org.apache.poi.xssf.usermodel.XSSFRichTextString;",
         "26": "import org.apache.poi.xssf.usermodel.XSSFShape;",
-        "237": "\tpublic int anchorDyFromPoints( float height, float rowHeight ) {",
-        "238": "\t\treturn (int)( height * XSSFShape.EMU_PER_POINT );"
+        "27": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;",
+        "28": "import org.eclipse.birt.report.engine.content.IStyle;"
       },
       "id": 122565145,
       "filename": "StyleManagerXUtils.java"
@@ -57,10 +78,21 @@
       "url": "https://searchcode.com/codesearch/view/64530833/",
       "md5hash": "9bae33ba2ae2b3659c034710c785370e",
       "lines": {
-        "250": "\tpublic int anchorDyFromPoints( float height, float rowHeight ) {",
-        "251": "\t\treturn (int)( height * XSSFShape.EMU_PER_POINT );",
+        "32": "import org.apache.poi.ss.usermodel.Workbook;",
+        "33": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "34": "import org.apache.poi.xssf.usermodel.XSSFColor;",
+        "35": "import org.apache.poi.xssf.usermodel.XSSFFont;",
         "36": "import org.apache.poi.xssf.usermodel.XSSFRichTextString;",
-        "37": "import org.apache.poi.xssf.usermodel.XSSFShape;"
+        "37": "import org.apache.poi.xssf.usermodel.XSSFShape;",
+        "38": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;",
+        "39": "import org.eclipse.birt.report.engine.content.IPageContent;",
+        "25": "",
+        "26": "import org.apache.poi.ss.usermodel.BorderStyle;",
+        "27": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "28": "import org.apache.poi.ss.usermodel.FillPatternType;",
+        "29": "import org.apache.poi.ss.usermodel.Font;",
+        "30": "import org.apache.poi.ss.usermodel.RichTextString;",
+        "31": "import org.apache.poi.ss.usermodel.Sheet;"
       },
       "id": 64530833,
       "filename": "StyleManagerXUtils.java"
@@ -74,10 +106,21 @@
       "url": "https://searchcode.com/codesearch/view/126772698/",
       "md5hash": "afd1e481fb2efa8d3030d90a89833b16",
       "lines": {
-        "248": "\tpublic int anchorDyFromPoints( float height, float rowHeight ) {",
+        "32": "import org.apache.poi.xssf.usermodel.XSSFFont;",
         "33": "import org.apache.poi.xssf.usermodel.XSSFRichTextString;",
         "34": "import org.apache.poi.xssf.usermodel.XSSFShape;",
-        "249": "\t\treturn (int)( height * XSSFShape.EMU_PER_POINT );"
+        "35": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;",
+        "36": "import org.eclipse.birt.report.engine.content.IPageContent;",
+        "22": "",
+        "23": "import org.apache.poi.ss.usermodel.BorderStyle;",
+        "24": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "25": "import org.apache.poi.ss.usermodel.FillPatternType;",
+        "26": "import org.apache.poi.ss.usermodel.Font;",
+        "27": "import org.apache.poi.ss.usermodel.RichTextString;",
+        "28": "import org.apache.poi.ss.usermodel.Sheet;",
+        "29": "import org.apache.poi.ss.usermodel.Workbook;",
+        "30": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "31": "import org.apache.poi.xssf.usermodel.XSSFColor;"
       },
       "id": 126772698,
       "filename": "StyleManagerXUtils.java"

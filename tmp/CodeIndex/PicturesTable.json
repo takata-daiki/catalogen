@@ -1,16 +1,16 @@
 {
-  "matchterm": "PicturesTable",
+  "matchterm": "org.apache.poi.hwpf.model.PicturesTable",
   "previouspage": null,
-  "searchterm": "PicturesTable",
-  "query": "PicturesTable",
+  "searchterm": "org.apache.poi.hwpf.model.PicturesTable",
+  "query": "org.apache.poi.hwpf.model.PicturesTable",
   "language_filters": [
     {
-      "count": 3,
+      "count": 2,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 3,
+  "total": 2,
   "results": [
     {
       "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
@@ -21,16 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97383956/",
       "md5hash": "677c332698819342ff2ece2baf93a4ed",
       "lines": {
-        "544": "  /**",
-        "337": "    // read in the pictures stream",
-        "338": "    _pictures = new PicturesTable(this, _dataStream, _mainStream, _fspaMain, _escherRecordHolder);",
-        "546": "   */",
-        "547": "  public PicturesTable getPicturesTable() {",
-        "545": "   * @return PicturesTable object, that is able to extract images from this document",
-        "41": "import org.apache.poi.hwpf.model.PAPBinTable;",
-        "42": "import org.apache.poi.hwpf.model.PicturesTable;",
-        "123": "  protected PicturesTable _pictures;",
-        "122": "  /** Holds pictures table */"
+        "32": "import org.apache.poi.hwpf.model.DocumentProperties;",
+        "33": "import org.apache.poi.hwpf.model.EscherRecordHolder;",
+        "34": "import org.apache.poi.hwpf.model.FSPADocumentPart;",
+        "35": "import org.apache.poi.hwpf.model.FSPATable;",
+        "36": "import org.apache.poi.hwpf.model.FieldsTables;",
+        "37": "import org.apache.poi.hwpf.model.FontTable;",
+        "38": "import org.apache.poi.hwpf.model.ListTables;",
+        "17": "",
+        "18": "package org.apache.poi.hwpf;",
+        "26": "",
+        "27": "import org.apache.poi.hpsf.DocumentSummaryInformation;",
+        "28": "import org.apache.poi.hpsf.SummaryInformation;",
+        "29": "import org.apache.poi.hwpf.model.BookmarksTables;",
+        "30": "import org.apache.poi.hwpf.model.CHPBinTable;",
+        "31": "import org.apache.poi.hwpf.model.ComplexFileTable;"
       },
       "id": 97383956,
       "filename": "HWPFDocument.java"
@@ -44,35 +49,31 @@
       "url": "https://searchcode.com/codesearch/view/111785561/",
       "md5hash": "dff73f83047fcc998beb71b2402c9412",
       "lines": {
+        "32": "import org.apache.tika.sax.XHTMLContentHandler;",
+        "33": "import org.xml.sax.SAXException;",
+        "8": " *",
+        "9": " *     http://www.apache.org/licenses/LICENSE-2.0",
+        "16": " */",
+        "17": "package org.apache.tika.parser.microsoft;",
+        "22": "",
+        "23": "import org.apache.poi.hwpf.HWPFDocument;",
         "24": "import org.apache.poi.hwpf.model.PicturesTable;",
-        "68": "        // Handle any embeded images",
-        "69": "        PicturesTable pictureTable = document.getPicturesTable();",
-        "23": "import org.apache.poi.hwpf.HWPFDocument;"
+        "25": "import org.apache.poi.hwpf.usermodel.Picture;",
+        "26": "import org.apache.poi.poifs.filesystem.DirectoryEntry;",
+        "27": "import org.apache.poi.poifs.filesystem.Entry;",
+        "28": "import org.apache.poi.poifs.filesystem.POIFSFileSystem;",
+        "29": "import org.apache.tika.exception.TikaException;",
+        "31": "import org.apache.tika.parser.ParseContext;"
       },
       "id": 111785561,
       "filename": "WordExtractor.java"
-    },
-    {
-      "repo": "https://github.com/richardsnider/Other-Projects.git",
-      "language": "Java",
-      "linescount": 542,
-      "location": "/AWS Instant Messenger",
-      "name": "Other-Projects",
-      "url": "https://searchcode.com/codesearch/view/100337864/",
-      "md5hash": "1a3b6cfb15bafe58455795e53941aeae",
-      "lines": {
-        "88": "\tstatic AmazonEC2 ec2; static AmazonS3 s3;  static AmazonDynamoDBClient dynamoDB; //static AmazonSimpleDB sdb;",
-        "89": "\tstatic String accountsTable = \"snider-accounts\";  static String picturesTable = \"snider-pictures\";"
-      },
-      "id": 100337864,
-      "filename": "awsmessenger.java"
     }
   ],
   "page": 0,
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 3,
+      "count": 2,
       "source": "Github",
       "id": 2
     }

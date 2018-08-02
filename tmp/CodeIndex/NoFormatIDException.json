@@ -1,8 +1,8 @@
 {
-  "matchterm": "NoFormatIDException",
+  "matchterm": "org.apache.poi.hpsf.NoFormatIDException",
   "previouspage": null,
-  "searchterm": "NoFormatIDException",
-  "query": "NoFormatIDException",
+  "searchterm": "org.apache.poi.hpsf.NoFormatIDException",
+  "query": "org.apache.poi.hpsf.NoFormatIDException",
   "language_filters": [
     {
       "count": 2,
@@ -21,18 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/15642692/",
       "md5hash": "4447aa42dc696b272bf85d9665770957",
       "lines": {
-        "70": "     */",
-        "71": "    public NoFormatIDException(final String msg)",
-        "82": "    public NoFormatIDException(final Throwable reason)",
-        "81": "     */",
-        "50": " * href=\"mailto:klute@rainer-klute.de\">&lt;klute@rainer-klute.de&gt;</a>",
-        "51": " * @version $Id: NoFormatIDException.java 489730 2006-12-22 19:18:16Z bayard $",
-        "53": " */",
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "        ",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "47": " * {@link loci.poi.hpsf.MutableSection#setFormatID(byte[])}. ",
+        "46": " * MutableSection#setFormatID(ClassID)} or",
         "54": "public class NoFormatIDException extends HPSFRuntimeException",
-        "59": "     */",
-        "60": "    public NoFormatIDException()",
-        "93": "     */",
-        "94": "    public NoFormatIDException(final String msg, final Throwable reason)"
+        "41": "package loci.poi.hpsf;",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "53": " */",
+        "31": ""
       },
       "id": 15642692,
       "filename": "NoFormatIDException.java"
@@ -46,8 +50,22 @@
       "url": "https://searchcode.com/codesearch/view/15642695/",
       "md5hash": "4da3210542af1db464b9a8750c859f7c",
       "lines": {
-        "250": "            if (formatID == null)",
-        "251": "                throw new NoFormatIDException();"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "257": "            }",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "        ",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "280": "     * <p>Returns the contents of this property set stream as an input stream.",
+        "258": "            catch (HPSFRuntimeException ex)",
+        "41": "package loci.poi.hpsf;",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "281": "     * The latter can be used for example to write the property set into a POIFS",
+        "31": ""
       },
       "id": 15642695,
       "filename": "MutablePropertySet.java"

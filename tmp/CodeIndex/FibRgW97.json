@@ -1,8 +1,8 @@
 {
-  "matchterm": "FibRgW97",
+  "matchterm": "org.apache.poi.hwpf.model.FibRgW97",
   "previouspage": null,
-  "searchterm": "FibRgW97",
-  "query": "FibRgW97",
+  "searchterm": "org.apache.poi.hwpf.model.FibRgW97",
+  "query": "org.apache.poi.hwpf.model.FibRgW97",
   "language_filters": [
     {
       "count": 1,
@@ -21,20 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97384033/",
       "md5hash": "d1e2f02dc9ef99107ca7326905a58d39",
       "lines": {
-        "39": " *  first 32 bytes.",
-        "40": " * The next part, the fibRgW / FibRgW97, is handled",
-        "41": " *  by {@link FibRgW97}.",
-        "42": " * The next part, the fibRgLw / The FibRgLw97, is",
-        "1099": "        return FibBase.getSize() + LittleEndian.SHORT_SIZE + FibRgW97.getSize()",
-        "1069": "        _fibRgW.serialize( mainStream, offset );",
-        "1070": "        offset += FibRgW97.getSize();",
-        "84": "",
-        "85": "        _fibRgW = new FibRgW97( mainDocument, offset );",
-        "86": "        offset += FibRgW97.getSize();",
-        "87": "        assert offset == 62;",
-        "56": "    private int _csw;",
-        "57": "    private FibRgW97 _fibRgW;",
-        "1098": "    {"
+        "32": "",
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hwpf.model;",
+        "24": "",
+        "25": "import org.apache.poi.EncryptedDocumentException;",
+        "26": "",
+        "27": "import org.apache.poi.hwpf.model.io.HWPFOutputStream;",
+        "28": "import org.apache.poi.util.Internal;",
+        "29": "import org.apache.poi.util.LittleEndian;",
+        "30": "import org.apache.poi.util.POILogFactory;",
+        "31": "import org.apache.poi.util.POILogger;"
       },
       "id": 97384033,
       "filename": "FileInformationBlock.java"

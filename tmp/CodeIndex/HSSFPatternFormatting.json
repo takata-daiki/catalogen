@@ -1,8 +1,8 @@
 {
-  "matchterm": "HSSFPatternFormatting",
+  "matchterm": "org.apache.poi.hssf.usermodel.HSSFPatternFormatting",
   "previouspage": null,
-  "searchterm": "HSSFPatternFormatting",
-  "query": "HSSFPatternFormatting",
+  "searchterm": "org.apache.poi.hssf.usermodel.HSSFPatternFormatting",
+  "query": "org.apache.poi.hssf.usermodel.HSSFPatternFormatting",
   "language_filters": [
     {
       "count": 2,
@@ -21,10 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/122444114/",
       "md5hash": "e281103aee607d2e4060b4cc78a4ed02",
       "lines": {
-        "314": "        style.setFillForegroundColor ( HSSFColor.BLACK.index );",
-        "315": "        style.setFillPattern ( HSSFPatternFormatting.SOLID_FOREGROUND );",
+        "32": "import org.apache.poi.hpsf.CustomProperties;",
+        "33": "import org.apache.poi.hpsf.DocumentSummaryInformation;",
+        "34": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "35": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
+        "37": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
         "38": "import org.apache.poi.hssf.usermodel.HSSFHeader;",
-        "39": "import org.apache.poi.hssf.usermodel.HSSFPatternFormatting;"
+        "39": "import org.apache.poi.hssf.usermodel.HSSFPatternFormatting;",
+        "40": "import org.apache.poi.hssf.usermodel.HSSFPrintSetup;",
+        "41": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "42": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "43": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "44": "import org.apache.poi.hssf.usermodel.HeaderFooter;",
+        "45": "import org.apache.poi.hssf.util.HSSFColor;",
+        "31": ""
       },
       "id": 122444114,
       "filename": "ExportEventsImpl.java"
@@ -38,8 +49,21 @@
       "url": "https://searchcode.com/codesearch/view/558689/",
       "md5hash": "9887d9243cb2e3a3f5526b9b99870189",
       "lines": {
-        "138": "//        attribTrueRule = cf.createConditionalFormattingRule(CFRuleRecord.ComparisonOperator.EQUAL, \"TRUE\", null);",
-        "139": "//        HSSFPatternFormatting grayFill = attribTrueRule.createPatternFormatting();"
+        "5": "",
+        "6": "package org.sigmah.server.endpoint.export;",
+        "7": "",
+        "8": "import org.apache.poi.hssf.usermodel.HSSFClientAnchor;",
+        "9": "import org.apache.poi.hssf.usermodel.HSSFPatriarch;",
+        "10": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "11": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "12": "import org.apache.poi.ss.usermodel.*;",
+        "13": "import org.apache.poi.ss.util.CellRangeAddress;",
+        "14": "import org.sigmah.server.domain.SiteData;",
+        "15": "import org.sigmah.server.report.generator.SiteDataBinder;",
+        "16": "import org.sigmah.shared.dao.Filter;",
+        "17": "import org.sigmah.shared.dao.SiteTableColumn;",
+        "18": "import org.sigmah.shared.dao.SiteTableDAO;",
+        "19": "import org.sigmah.shared.domain.AdminEntity;"
       },
       "id": 558689,
       "filename": "Export.java"

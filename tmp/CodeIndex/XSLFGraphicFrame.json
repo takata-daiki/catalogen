@@ -1,8 +1,8 @@
 {
-  "matchterm": "XSLFGraphicFrame",
+  "matchterm": "org.apache.poi.xslf.usermodel.XSLFGraphicFrame",
   "previouspage": null,
-  "searchterm": "XSLFGraphicFrame",
-  "query": "XSLFGraphicFrame",
+  "searchterm": "org.apache.poi.xslf.usermodel.XSLFGraphicFrame",
+  "query": "org.apache.poi.xslf.usermodel.XSLFGraphicFrame",
   "language_filters": [
     {
       "count": 2,
@@ -21,14 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/97406844/",
       "md5hash": "d6862b026b2e957879510dcae096e8dd",
       "lines": {
-        "96": "    static XSLFGraphicFrame create(CTGraphicalObjectFrame shape, XSLFSheet sheet){",
-        "100": "        } else {",
+        "2": " *  ====================================================================",
+        "3": " *    Licensed to the Apache Software Foundation (ASF) under one or more",
         "37": "@Beta",
         "38": "public class XSLFGraphicFrame extends XSLFShape {",
+        "39": "    private final CTGraphicalObjectFrame _shape;",
+        "9": " *",
+        "10": " *        http://www.apache.org/licenses/LICENSE-2.0",
+        "19": "",
+        "20": "package org.apache.poi.xslf.usermodel;",
         "41": "",
-        "42": "    /*package*/ XSLFGraphicFrame(CTGraphicalObjectFrame shape, XSLFSheet sheet){",
-        "101": "            return new XSLFGraphicFrame(shape, sheet);",
-        "95": ""
+        "23": "",
+        "24": "import org.apache.poi.util.Beta;",
+        "25": "import org.apache.poi.util.Units;",
+        "26": "import org.openxmlformats.schemas.drawingml.x2006.main.CTPoint2D;",
+        "27": "import org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveSize2D;",
+        "42": "    /*package*/ XSLFGraphicFrame(CTGraphicalObjectFrame shape, XSLFSheet sheet){"
       },
       "id": 97406844,
       "filename": "XSLFGraphicFrame.java"
@@ -42,8 +50,22 @@
       "url": "https://searchcode.com/codesearch/view/97406768/",
       "md5hash": "06c77456c926d8545168347abe70a1d6",
       "lines": {
-        "104": "            } else if (ch instanceof CTGraphicalObjectFrame){",
-        "105": "                XSLFGraphicFrame shape = XSLFGraphicFrame.create((CTGraphicalObjectFrame)ch, this);"
+        "32": "",
+        "33": "import org.apache.poi.POIXMLDocumentPart;",
+        "34": "import org.apache.poi.POIXMLException;",
+        "35": "import org.apache.poi.openxml4j.exceptions.InvalidFormatException;",
+        "36": "import org.apache.poi.openxml4j.opc.PackagePart;",
+        "37": "import org.apache.poi.openxml4j.opc.PackageRelationship;",
+        "38": "import org.apache.poi.openxml4j.opc.TargetMode;",
+        "39": "import org.apache.poi.util.Beta;",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "42": "import org.apache.xmlbeans.XmlOptions;",
+        "43": "import org.openxmlformats.schemas.officeDocument.x2006.relationships.STRelationshipId;",
+        "16": "==================================================================== */",
+        "17": "package org.apache.poi.xslf.usermodel;",
+        "41": "import org.apache.xmlbeans.XmlObject;",
+        "40": "import org.apache.poi.util.Internal;"
       },
       "id": 97406768,
       "filename": "XSLFSheet.java"

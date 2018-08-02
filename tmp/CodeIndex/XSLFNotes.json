@@ -1,8 +1,8 @@
 {
-  "matchterm": "XSLFNotes",
+  "matchterm": "org.apache.poi.xslf.usermodel.XSLFNotes",
   "previouspage": null,
-  "searchterm": "XSLFNotes",
-  "query": "XSLFNotes",
+  "searchterm": "org.apache.poi.xslf.usermodel.XSLFNotes",
+  "query": "org.apache.poi.xslf.usermodel.XSLFNotes",
   "language_filters": [
     {
       "count": 1,
@@ -21,14 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97406624/",
       "md5hash": "bd91cfe08b1a6b3395f8a88caf56a673",
       "lines": {
-        "48": "   private XSLFComments _comments;",
-        "49": "   private XSLFNotes _notes;",
-        "162": "             }",
-        "161": "                _notes = (XSLFNotes)p;",
-        "160": "             if (p instanceof XSLFNotes){",
-        "156": "",
-        "157": "    public XSLFNotes getNotes() {",
-        "159": "          for (POIXMLDocumentPart p : getRelations()) {"
+        "32": "//import org.openxmlformats.schemas.drawingml.x2006.main.CTNonVisualDrawingProps;",
+        "33": "import org.openxmlformats.schemas.drawingml.x2006.main.CTPoint2D;",
+        "34": "import org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveSize2D;",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "16": "==================================================================== */",
+        "17": "package org.apache.poi.xslf.usermodel;",
+        "23": "",
+        "24": "import org.apache.poi.POIXMLDocumentPart;",
+        "25": "import org.apache.poi.openxml4j.opc.PackagePart;",
+        "26": "import org.apache.poi.openxml4j.opc.PackageRelationship;",
+        "27": "import org.apache.poi.util.Beta;",
+        "28": "import org.apache.xmlbeans.XmlException;",
+        "29": "import org.openxmlformats.schemas.drawingml.x2006.main.CTBlip;",
+        "31": "import org.openxmlformats.schemas.drawingml.x2006.main.CTGroupTransform2D;"
       },
       "id": 97406624,
       "filename": "XSLFSlide.java"

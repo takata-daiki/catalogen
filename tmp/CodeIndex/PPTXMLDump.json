@@ -1,8 +1,8 @@
 {
-  "matchterm": "PPTXMLDump",
+  "matchterm": "org.apache.poi.hslf.dev.PPTXMLDump",
   "previouspage": null,
-  "searchterm": "PPTXMLDump",
-  "query": "PPTXMLDump",
+  "searchterm": "org.apache.poi.hslf.dev.PPTXMLDump",
+  "query": "org.apache.poi.hslf.dev.PPTXMLDump",
   "language_filters": [
     {
       "count": 1,
@@ -21,12 +21,19 @@
       "url": "https://searchcode.com/codesearch/view/88634800/",
       "md5hash": "3844f1d90c6ccd2d52a6152d13a6c673",
       "lines": {
-        "189": "                File ppt = new File(args[i]);",
-        "174": "                \"Usage: PPTXMLDump (options) pptfile\\n\" +",
-        "42": "",
-        "43": "    public PPTXMLDump(File ppt) throws IOException {",
-        "190": "                PPTXMLDump dump = new PPTXMLDump(ppt);",
-        "173": "            System.out.println(",
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hslf.dev;",
+        "19": "",
+        "20": "import org.apache.poi.util.LittleEndian;",
+        "21": "import org.apache.poi.hslf.record.RecordTypes;",
+        "22": "import org.apache.poi.poifs.filesystem.*;",
+        "23": "import java.io.*;",
         "30": "",
         "31": "public final class PPTXMLDump {"
       },

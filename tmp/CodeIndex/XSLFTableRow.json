@@ -1,8 +1,8 @@
 {
-  "matchterm": "XSLFTableRow",
+  "matchterm": "org.apache.poi.xslf.usermodel.XSLFTableRow",
   "previouspage": null,
-  "searchterm": "XSLFTableRow",
-  "query": "XSLFTableRow",
+  "searchterm": "org.apache.poi.xslf.usermodel.XSLFTableRow",
+  "query": "org.apache.poi.xslf.usermodel.XSLFTableRow",
   "language_filters": [
     {
       "count": 1,
@@ -21,10 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/92131916/",
       "md5hash": "a58465613021fd4ec4403df58f01c572",
       "lines": {
+        "4": "import by.q64.promo.excelgen.service.marketing.source.settings.MarketingReportSettings;",
+        "5": "import by.q64.promo.excelgen.service.utils.PowerpointCommonUtils;",
+        "6": "import org.apache.poi.xslf.usermodel.*;",
+        "7": "import org.springframework.beans.factory.annotation.Autowired;",
+        "8": "import org.springframework.stereotype.Service;",
+        "9": "",
+        "71": "",
+        "44": "",
+        "45": "        XSLFSlide slide = ppt.createSlide();",
+        "46": "",
+        "47": "        XSLFTextBox txt1 = slide.createTextBox();",
+        "48": "        txt1.setAnchor(new java.awt.Rectangle(20, 40, 600, 50));",
         "72": "        XSLFTableRow headerRow = table.addRow();",
-        "95": "            XSLFTableRow row = table.addRow();",
-        "94": "        for (PreviewReportingDocument dataRow : previewData) {",
-        "71": ""
+        "23": "    @Autowired",
+        "24": "    private PowerpointCommonUtils powerpointCommonUtils;"
       },
       "id": 92131916,
       "filename": "MarketingReportInCityGeneratorImpl.java"

@@ -1,8 +1,8 @@
 {
-  "matchterm": "UnknownEscherRecord",
+  "matchterm": "org.apache.poi.ddf.UnknownEscherRecord",
   "previouspage": null,
-  "searchterm": "UnknownEscherRecord",
-  "query": "UnknownEscherRecord",
+  "searchterm": "org.apache.poi.ddf.UnknownEscherRecord",
+  "query": "org.apache.poi.ddf.UnknownEscherRecord",
   "language_filters": [
     {
       "count": 4,
@@ -21,29 +21,24 @@
       "url": "https://searchcode.com/codesearch/view/97383865/",
       "md5hash": "3418f115df12024b00d4c75fd783fd2d",
       "lines": {
-        "40": "",
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
         "33": " */",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
         "34": "public final class UnknownEscherRecord extends EscherRecord {",
-        "41": "    public UnknownEscherRecord() {"
+        "17": "",
+        "18": "package org.apache.poi.ddf;",
+        "23": "",
+        "24": "import org.apache.poi.util.HexDump;",
+        "25": "import org.apache.poi.util.LittleEndian;",
+        "26": "",
+        "30": " *",
+        "31": " * @author Glen Stampoultzis (glens at apache.org)"
       },
       "id": 97383865,
-      "filename": "UnknownEscherRecord.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 222,
-      "location": "/components/forks/poi/src/loci/poi/ddf",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642621/",
-      "md5hash": "3b40b3728532b52cdd6d635fb126a2c6",
-      "lines": {
-        "56": "public class UnknownEscherRecord extends EscherRecord",
-        "64": "    public UnknownEscherRecord()",
-        "63": "",
-        "55": " */"
-      },
-      "id": 15642621,
       "filename": "UnknownEscherRecord.java"
     },
     {
@@ -55,13 +50,52 @@
       "url": "https://searchcode.com/codesearch/view/97383906/",
       "md5hash": "3324931c58f18c045e9c34e4e1ad839e",
       "lines": {
-        "104": "        } catch (Exception e) {",
-        "105": "            return new UnknownEscherRecord();",
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
         "99": "        if (recordConstructor == null) {",
-        "100": "            return new UnknownEscherRecord();"
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.ddf;",
+        "105": "            return new UnknownEscherRecord();",
+        "23": "",
+        "24": "import org.apache.poi.util.LittleEndian;",
+        "100": "            return new UnknownEscherRecord();",
+        "104": "        } catch (Exception e) {"
       },
       "id": 97383906,
       "filename": "DefaultEscherRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 222,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642621/",
+      "md5hash": "3b40b3728532b52cdd6d635fb126a2c6",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "        ",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "55": " */",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "53": " *",
+        "54": " * @author Glen Stampoultzis (glens at apache.org)",
+        "41": "package loci.poi.ddf;",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "42": "",
+        "31": ""
+      },
+      "id": 15642621,
+      "filename": "UnknownEscherRecord.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -72,8 +106,22 @@
       "url": "https://searchcode.com/codesearch/view/15642620/",
       "md5hash": "c686784da3da38fecea2e5b988b86ece",
       "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "        ",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "import loci.poi.hssf.record.RecordFormatException;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
         "136": "            }",
-        "137": "            return escherRecord == null ? new UnknownEscherRecord() : escherRecord;"
+        "41": "package loci.poi.ddf;",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "42": "",
+        "137": "            return escherRecord == null ? new UnknownEscherRecord() : escherRecord;",
+        "31": ""
       },
       "id": 15642620,
       "filename": "DefaultEscherRecordFactory.java"

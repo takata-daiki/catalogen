@@ -1,8 +1,8 @@
 {
-  "matchterm": "DOPAbstractType",
+  "matchterm": "org.apache.poi.hwpf.model.types.DOPAbstractType",
   "previouspage": null,
-  "searchterm": "DOPAbstractType",
-  "query": "DOPAbstractType",
+  "searchterm": "org.apache.poi.hwpf.model.types.DOPAbstractType",
+  "query": "org.apache.poi.hwpf.model.types.DOPAbstractType",
   "language_filters": [
     {
       "count": 1,
@@ -21,10 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/88635700/",
       "md5hash": "ca2600bdb7ee4b557efc7c5a14fa17cd",
       "lines": {
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
         "33": "@Internal",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
         "34": "public abstract class DOPAbstractType implements HDFType {",
-        "181": "",
-        "182": "    protected DOPAbstractType()"
+        "17": "",
+        "18": "package org.apache.poi.hwpf.model.types;",
+        "20": "",
+        "21": "import org.apache.poi.hdf.model.hdftypes.HDFType;",
+        "22": "import org.apache.poi.util.BitField;",
+        "23": "import org.apache.poi.util.Internal;",
+        "24": "import org.apache.poi.util.LittleEndian;",
+        "25": ""
       },
       "id": 88635700,
       "filename": "DOPAbstractType.java"

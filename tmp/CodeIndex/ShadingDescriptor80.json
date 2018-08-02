@@ -1,8 +1,8 @@
 {
-  "matchterm": "ShadingDescriptor80",
+  "matchterm": "org.apache.poi.hwpf.usermodel.ShadingDescriptor80",
   "previouspage": null,
-  "searchterm": "ShadingDescriptor80",
-  "query": "ShadingDescriptor80",
+  "searchterm": "org.apache.poi.hwpf.usermodel.ShadingDescriptor80",
+  "query": "org.apache.poi.hwpf.usermodel.ShadingDescriptor80",
   "language_filters": [
     {
       "count": 1,
@@ -21,10 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97384370/",
       "md5hash": "ad7ef563bd5c85239b2ca09f401501f5",
       "lines": {
-        "657": "             */",
-        "658": "            ShadingDescriptor80 oldDescriptor = new ShadingDescriptor80(",
+        "17": "",
+        "18": "package org.apache.poi.hwpf.sprm;",
         "19": "",
-        "20": "import org.apache.poi.hwpf.usermodel.ShadingDescriptor80;"
+        "20": "import org.apache.poi.hwpf.usermodel.ShadingDescriptor80;",
+        "21": "",
+        "22": "import org.apache.poi.hwpf.model.Colorref;",
+        "23": "import org.apache.poi.hwpf.model.Hyphenation;",
+        "24": "import org.apache.poi.hwpf.model.StyleSheet;",
+        "25": "import org.apache.poi.hwpf.usermodel.BorderCode;",
+        "26": "import org.apache.poi.hwpf.usermodel.CharacterProperties;",
+        "27": "import org.apache.poi.hwpf.usermodel.DateAndTime;",
+        "28": "import org.apache.poi.hwpf.usermodel.ShadingDescriptor;",
+        "29": "import org.apache.poi.util.Internal;",
+        "30": "import org.apache.poi.util.LittleEndian;",
+        "31": "import org.apache.poi.util.POILogFactory;"
       },
       "id": 97384370,
       "filename": "CharacterSprmUncompressor.java"

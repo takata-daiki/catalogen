@@ -1,8 +1,8 @@
 {
-  "matchterm": "VerticalPageBreakRecord",
+  "matchterm": "org.apache.poi.hssf.record.VerticalPageBreakRecord",
   "previouspage": null,
-  "searchterm": "VerticalPageBreakRecord",
-  "query": "VerticalPageBreakRecord",
+  "searchterm": "org.apache.poi.hssf.record.VerticalPageBreakRecord",
+  "query": "org.apache.poi.hssf.record.VerticalPageBreakRecord",
   "language_filters": [
     {
       "count": 3,
@@ -21,32 +21,24 @@
       "url": "https://searchcode.com/codesearch/view/15642485/",
       "md5hash": "51c1c3f4fd0a0ff8568e88aacca9651d",
       "lines": {
-        "64": "\tpublic VerticalPageBreakRecord(short sid) {",
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "        ",
+        "41": "package loci.poi.hssf.record;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "47": " * @see PageBreakRecord",
+        "48": " * @author Danny Mui (dmui at apache dot org) ",
         "49": " */",
         "50": "public class VerticalPageBreakRecord extends PageBreakRecord {",
-        "70": "\t */",
-        "71": "\tpublic VerticalPageBreakRecord(RecordInputStream in) {",
+        "51": "\t",
         "56": "\t */",
         "57": "\tpublic VerticalPageBreakRecord() {",
-        "63": "\t */"
+        "31": ""
       },
       "id": 15642485,
       "filename": "VerticalPageBreakRecord.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 287,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642463/",
-      "md5hash": "c6bd9b925ee9e5f5cdedfa8deaeb3950",
-      "lines": {
-        "59": " * @see HorizontalPageBreakRecord",
-        "60": " * @see VerticalPageBreakRecord"
-      },
-      "id": 15642463,
-      "filename": "PageBreakRecord.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -57,11 +49,53 @@
       "url": "https://searchcode.com/codesearch/view/15642481/",
       "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
       "lines": {
-        "96": "                PaletteRecord.class, StringRecord.class, RecalcIdRecord.class, SharedFormulaRecord.class,",
-        "97": "                HorizontalPageBreakRecord.class, VerticalPageBreakRecord.class, "
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.record;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "51": " *",
+        "52": " * @deprecated use {@link loci.poi.hssf.eventmodel.EventRecordFactory} instead",
+        "53": " * @see loci.poi.hssf.eventmodel.EventRecordFactory",
+        "54": " * @author Andrew C. Oliver (acoliver at apache dot org)",
+        "55": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "56": " * @author Glen Stampoultzis (glens at apache.org)",
+        "57": " * @author Csaba Nagy (ncsaba at yahoo dot com)",
+        "31": ""
       },
       "id": 15642481,
       "filename": "RecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 287,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642463/",
+      "md5hash": "c6bd9b925ee9e5f5cdedfa8deaeb3950",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "71": "    /**",
+        "40": "        ",
+        "41": "package loci.poi.hssf.record;",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "72": "     * Since both records store 2byte integers (short), no point in ",
+        "9": " * %%",
+        "59": " * @see HorizontalPageBreakRecord",
+        "60": " * @see VerticalPageBreakRecord",
+        "61": " * @author Danny Mui (dmui at apache dot org)",
+        "62": " */",
+        "31": ""
+      },
+      "id": 15642463,
+      "filename": "PageBreakRecord.java"
     }
   ],
   "page": 0,

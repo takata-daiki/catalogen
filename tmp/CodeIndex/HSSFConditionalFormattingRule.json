@@ -1,8 +1,8 @@
 {
-  "matchterm": "HSSFConditionalFormattingRule",
+  "matchterm": "org.apache.poi.hssf.usermodel.HSSFConditionalFormattingRule",
   "previouspage": null,
-  "searchterm": "HSSFConditionalFormattingRule",
-  "query": "HSSFConditionalFormattingRule",
+  "searchterm": "org.apache.poi.hssf.usermodel.HSSFConditionalFormattingRule",
+  "query": "org.apache.poi.hssf.usermodel.HSSFConditionalFormattingRule",
   "language_filters": [
     {
       "count": 1,
@@ -21,12 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/558689/",
       "md5hash": "9887d9243cb2e3a3f5526b9b99870189",
       "lines": {
-        "57": "",
-        "58": "//    private HSSFConditionalFormattingRule attribFalseRule;",
-        "59": "//    private HSSFConditionalFormattingRule attribTrueRule;",
-        "60": "",
-        "221": "//                new CellRangeAddress[] { new CellRangeAddress(2, 65535, firstAttributeColumn, column-1) },",
-        "222": "//                new HSSFConditionalFormattingRule[] { attribTrueRule, attribFalseRule });"
+        "5": "",
+        "6": "package org.sigmah.server.endpoint.export;",
+        "7": "",
+        "8": "import org.apache.poi.hssf.usermodel.HSSFClientAnchor;",
+        "9": "import org.apache.poi.hssf.usermodel.HSSFPatriarch;",
+        "10": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "11": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "12": "import org.apache.poi.ss.usermodel.*;",
+        "13": "import org.apache.poi.ss.util.CellRangeAddress;",
+        "14": "import org.sigmah.server.domain.SiteData;",
+        "15": "import org.sigmah.server.report.generator.SiteDataBinder;",
+        "16": "import org.sigmah.shared.dao.Filter;",
+        "17": "import org.sigmah.shared.dao.SiteTableColumn;",
+        "18": "import org.sigmah.shared.dao.SiteTableDAO;",
+        "19": "import org.sigmah.shared.domain.AdminEntity;"
       },
       "id": 558689,
       "filename": "Export.java"

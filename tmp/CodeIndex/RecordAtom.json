@@ -1,8 +1,8 @@
 {
-  "matchterm": "RecordAtom",
+  "matchterm": "org.apache.poi.hslf.record.RecordAtom",
   "previouspage": null,
-  "searchterm": "RecordAtom",
-  "query": "RecordAtom",
+  "searchterm": "org.apache.poi.hslf.record.RecordAtom",
+  "query": "org.apache.poi.hslf.record.RecordAtom",
   "language_filters": [
     {
       "count": 1,
@@ -22,7 +22,20 @@
       "md5hash": "fd44c3a2e3d9a3bff88be98904a46e07",
       "lines": {
         "32": "",
-        "33": "public final class TextCharsAtom extends RecordAtom"
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "33": "public final class TextCharsAtom extends RecordAtom",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hslf.record;",
+        "19": "",
+        "20": "import org.apache.poi.util.HexDump;",
+        "21": "import org.apache.poi.util.LittleEndian;",
+        "22": "import org.apache.poi.util.StringUtil;",
+        "23": "import java.io.IOException;"
       },
       "id": 97394800,
       "filename": "TextCharsAtom.java"

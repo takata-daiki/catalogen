@@ -1,8 +1,8 @@
 {
-  "matchterm": "ChartRecord",
+  "matchterm": "org.apache.poi.hssf.record.chart.ChartRecord",
   "previouspage": null,
-  "searchterm": "ChartRecord",
-  "query": "ChartRecord",
+  "searchterm": "org.apache.poi.hssf.record.chart.ChartRecord",
+  "query": "org.apache.poi.hssf.record.chart.ChartRecord",
   "language_filters": [
     {
       "count": 1,
@@ -21,14 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/15642417/",
       "md5hash": "39d4d226beb8a7d0ca3e3036ccaefefa",
       "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
         "64": "",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
         "65": "    public ChartRecord()",
+        "41": "",
+        "42": "package loci.poi.hssf.record;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "48": "/**",
+        "49": " * The chart record is used to define the location and size of a chart.",
+        "50": " * NOTE: This source is automatically generated please do not modify this file.  Either subclass or",
         "54": " */",
         "55": "public class ChartRecord",
-        "75": "",
-        "76": "    public ChartRecord(RecordInputStream in)",
-        "157": "    public Object clone() {",
-        "158": "        ChartRecord rec = new ChartRecord();"
+        "56": "    extends Record",
+        "31": ""
       },
       "id": 15642417,
       "filename": "ChartRecord.java"

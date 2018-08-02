@@ -1,8 +1,8 @@
 {
-  "matchterm": "XSSFCellFill",
+  "matchterm": "org.apache.poi.xssf.usermodel.extensions.XSSFCellFill",
   "previouspage": null,
-  "searchterm": "XSSFCellFill",
-  "query": "XSSFCellFill",
+  "searchterm": "org.apache.poi.xssf.usermodel.extensions.XSSFCellFill",
+  "query": "org.apache.poi.xssf.usermodel.extensions.XSSFCellFill",
   "language_filters": [
     {
       "count": 2,
@@ -21,10 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/121321469/",
       "md5hash": "aa5cdb3360caf13f65390496ade0595c",
       "lines": {
+        "3": "import java.io.IOException;",
+        "4": "import org.apache.poi.openxml4j.exceptions.InvalidFormatException;",
+        "5": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "6": "import org.apache.poi.ss.usermodel.Color;",
+        "7": "import org.apache.poi.ss.usermodel.IndexedColors;",
+        "8": "import org.apache.poi.ss.usermodel.Sheet;",
+        "9": "import org.apache.poi.ss.usermodel.Workbook;",
+        "10": "import org.apache.poi.ss.usermodel.WorkbookFactory;",
+        "11": "import org.apache.poi.xssf.model.StylesTable;",
+        "12": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "13": "import org.apache.poi.xssf.usermodel.XSSFColor;",
+        "14": "import org.apache.poi.xssf.usermodel.XSSFSheet;",
+        "15": "import org.apache.poi.xssf.usermodel.XSSFWorkbook;",
         "16": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellFill;",
-        "56": "      XSSFCellFill fill = stylesSource.getFillAt(cellStyle.getIndex()+1);",
-        "55": "    //for (short i=0; i<stylesSource.getNumCellStyles(); i++) {",
-        "15": "import org.apache.poi.xssf.usermodel.XSSFWorkbook;"
+        "17": ""
       },
       "id": 121321469,
       "filename": "XLColorTest.java"
@@ -38,10 +49,22 @@
       "url": "https://searchcode.com/codesearch/view/121321564/",
       "md5hash": "b476b10c4827335f24ae6b4baf18acfc",
       "lines": {
-        "172": "          short fillId = (short) xssfCellStyle.getCoreXf().getFillId();",
-        "173": "          XSSFCellFill fill = ((XSSFWorkbook) designer.workbook).getStylesSource().getFillAt(fillId);",
+        "71": "   */",
+        "72": "  public final static java.awt.Color awtColor(org.apache.poi.ss.usermodel.Color color) {",
+        "13": "import javax.swing.table.DefaultTableCellRenderer;",
+        "14": "import org.apache.poi.hssf.usermodel.HSSFPalette;",
+        "15": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "16": "import org.apache.poi.hssf.util.HSSFColor;",
+        "17": "import org.apache.poi.ss.usermodel.*;",
+        "18": "import org.apache.poi.xssf.usermodel.XSSFCell;",
+        "19": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "20": "import org.apache.poi.xssf.usermodel.XSSFColor;",
+        "21": "import org.apache.poi.xssf.usermodel.XSSFFont;",
         "22": "import org.apache.poi.xssf.usermodel.XSSFWorkbook;",
-        "23": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellFill;"
+        "23": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellFill;",
+        "24": "",
+        "94": "",
+        "95": "  public final static java.awt.Color awtColor(org.apache.poi.ss.usermodel.Color color, java.awt.Color defaultColor) {"
       },
       "id": 121321564,
       "filename": "CellRenderer.java"

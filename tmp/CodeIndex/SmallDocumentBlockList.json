@@ -1,8 +1,8 @@
 {
-  "matchterm": "SmallDocumentBlockList",
+  "matchterm": "org.apache.poi.poifs.storage.SmallDocumentBlockList",
   "previouspage": null,
-  "searchterm": "SmallDocumentBlockList",
-  "query": "SmallDocumentBlockList",
+  "searchterm": "org.apache.poi.poifs.storage.SmallDocumentBlockList",
+  "query": "org.apache.poi.poifs.storage.SmallDocumentBlockList",
   "language_filters": [
     {
       "count": 3,
@@ -15,20 +15,56 @@
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
       "language": "Java",
+      "linescount": 522,
+      "location": "/components/forks/poi/src/loci/poi/poifs/filesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642276/",
+      "md5hash": "821ddc8beda41ba4d7ad809592451995",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.poifs.filesystem;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "49": "",
+        "50": "import loci.poi.poifs.common.POIFSConstants;",
+        "51": "import loci.poi.poifs.dev.POIFSViewable;",
+        "55": "import loci.poi.poifs.property.PropertyTable;",
+        "56": "import loci.poi.poifs.storage.BATBlock;",
+        "57": "import loci.poi.poifs.storage.BlockAllocationTableReader;",
+        "58": "import loci.poi.poifs.storage.BlockAllocationTableWriter;",
+        "31": ""
+      },
+      "id": 15642276,
+      "filename": "POIFSFileSystem.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
       "linescount": 72,
       "location": "/components/forks/poi/src/loci/poi/poifs/storage",
       "name": "bioformats",
       "url": "https://searchcode.com/codesearch/view/15642259/",
       "md5hash": "52f6003dba72dac065e695ed29bf8f29",
       "lines": {
-        "51": "",
-        "52": "public class SmallDocumentBlockList",
-        "69": "",
-        "70": "}   // end public class SmallDocumentBlockList",
-        "56": "    /**",
-        "57": "     * Constructor SmallDocumentBlockList",
-        "61": "",
-        "62": "    public SmallDocumentBlockList(final List blocks)"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "48": " *",
+        "49": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "41": "",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "27": "   this work for additional information regarding copyright ownership.",
+        "28": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "42": "package loci.poi.poifs.storage;",
+        "31": ""
       },
       "id": 15642259,
       "filename": "SmallDocumentBlockList.java"
@@ -42,26 +78,25 @@
       "url": "https://searchcode.com/codesearch/view/15642261/",
       "md5hash": "70932af53b1cc0cdcf8b29fde4787bce",
       "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.poifs.storage;",
+        "43": "",
+        "44": "import loci.poi.poifs.property.RootProperty;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "79": "        BlockList list =",
         "80": "            new SmallDocumentBlockList(SmallDocumentBlock",
-        "79": "        BlockList list ="
+        "53": " *",
+        "54": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "31": ""
       },
       "id": 15642261,
       "filename": "SmallBlockTableReader.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 522,
-      "location": "/components/forks/poi/src/loci/poi/poifs/filesystem",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642276/",
-      "md5hash": "821ddc8beda41ba4d7ad809592451995",
-      "lines": {
-        "68": "import loci.poi.poifs.storage.ListManagedBlock;",
-        "69": "import loci.poi.poifs.storage.SmallDocumentBlockList;"
-      },
-      "id": 15642276,
-      "filename": "POIFSFileSystem.java"
     }
   ],
   "page": 0,

@@ -1,8 +1,8 @@
 {
-  "matchterm": "POIFSBigBlockSize",
+  "matchterm": "org.apache.poi.poifs.common.POIFSBigBlockSize",
   "previouspage": null,
-  "searchterm": "POIFSBigBlockSize",
-  "query": "POIFSBigBlockSize",
+  "searchterm": "org.apache.poi.poifs.common.POIFSBigBlockSize",
+  "query": "org.apache.poi.poifs.common.POIFSBigBlockSize",
   "language_filters": [
     {
       "count": 2,
@@ -15,44 +15,58 @@
     {
       "repo": "https://github.com/minstrelsy/POI-Android.git",
       "language": "Java",
-      "linescount": 317,
-      "location": "/ppt/poi/org/apache/poi/poifs/storage",
-      "name": "POI-Android",
-      "url": "https://searchcode.com/codesearch/view/97398057/",
-      "md5hash": "8dac231f3c1e519795248f605babb1e0",
-      "lines": {
-        "168": "     */",
-        "174": "",
-        "23": "",
-        "24": "import org.apache.poi.poifs.common.POIFSBigBlockSize;",
-        "169": "    BlockAllocationTableReader(POIFSBigBlockSize bigBlockSize, ListManagedBlock[] blocks, BlockList raw_block_list)",
-        "58": "    private final IntList _entries;",
-        "59": "    private POIFSBigBlockSize bigBlockSize;",
-        "175": "    BlockAllocationTableReader(POIFSBigBlockSize bigBlockSize) {",
-        "78": "     */",
-        "79": "    public BlockAllocationTableReader(POIFSBigBlockSize bigBlockSize, int block_count, int [] block_array,"
-      },
-      "id": 97398057,
-      "filename": "BlockAllocationTableReader.java"
-    },
-    {
-      "repo": "https://github.com/minstrelsy/POI-Android.git",
-      "language": "Java",
       "linescount": 615,
       "location": "/ppt/poi/org/apache/poi/poifs/filesystem",
       "name": "POI-Android",
       "url": "https://searchcode.com/codesearch/view/97397929/",
       "md5hash": "5083d727a84f9c004bece7393d2ae9b8",
       "lines": {
-        "608": "    public POIFSBigBlockSize getBigBlockSizeDetails() {",
         "34": "",
         "35": "import org.apache.poi.poifs.common.POIFSBigBlockSize;",
-        "85": "     */",
-        "86": "    private POIFSBigBlockSize bigBlockSize = ",
-        "607": "     */"
+        "36": "import org.apache.poi.poifs.common.POIFSConstants;",
+        "37": "import org.apache.poi.poifs.dev.POIFSViewable;",
+        "38": "import org.apache.poi.poifs.property.DirectoryProperty;",
+        "39": "import org.apache.poi.poifs.property.Property;",
+        "40": "import org.apache.poi.poifs.property.PropertyTable;",
+        "41": "import org.apache.poi.poifs.storage.BATBlock;",
+        "42": "import org.apache.poi.poifs.storage.BlockAllocationTableReader;",
+        "43": "import org.apache.poi.poifs.storage.BlockAllocationTableWriter;",
+        "44": "import org.apache.poi.poifs.storage.BlockList;",
+        "45": "import org.apache.poi.poifs.storage.BlockWritable;",
+        "46": "import org.apache.poi.poifs.storage.HeaderBlockConstants;",
+        "19": "",
+        "20": "package org.apache.poi.poifs.filesystem;"
       },
       "id": 97397929,
       "filename": "POIFSFileSystem.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 317,
+      "location": "/ppt/poi/org/apache/poi/poifs/storage",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97398057/",
+      "md5hash": "8dac231f3c1e519795248f605babb1e0",
+      "lines": {
+        "59": "    private POIFSBigBlockSize bigBlockSize;",
+        "40": " *",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "78": "     */",
+        "79": "    public BlockAllocationTableReader(POIFSBigBlockSize bigBlockSize, int block_count, int [] block_array,",
+        "17": "",
+        "18": "package org.apache.poi.poifs.storage;",
+        "41": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "8": "",
+        "23": "",
+        "24": "import org.apache.poi.poifs.common.POIFSBigBlockSize;",
+        "25": "import org.apache.poi.poifs.common.POIFSConstants;",
+        "26": "import org.apache.poi.util.*;",
+        "27": "",
+        "58": "    private final IntList _entries;"
+      },
+      "id": 97398057,
+      "filename": "BlockAllocationTableReader.java"
     }
   ],
   "page": 0,

@@ -1,222 +1,72 @@
 {
-  "matchterm": "CommonsLogger",
+  "matchterm": "org.apache.poi.util.CommonsLogger",
   "previouspage": null,
-  "searchterm": "CommonsLogger",
-  "query": "CommonsLogger",
+  "searchterm": "org.apache.poi.util.CommonsLogger",
+  "query": "org.apache.poi.util.CommonsLogger",
   "language_filters": [
     {
-      "count": 41,
+      "count": 3,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 41,
+  "total": 3,
   "results": [
     {
-      "repo": "https://bitbucket.org/oldratlee/cooma.git",
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
       "language": "Java",
-      "linescount": 95,
-      "location": "/src/main/java/com/oldratlee/cooma/internal/logging/cl",
-      "name": "cooma",
-      "url": "https://searchcode.com/codesearch/view/37057018/",
-      "md5hash": "aec1e0da671d10a685681133620bc3b0",
+      "linescount": 132,
+      "location": "/ppt/poi/org/apache/poi/util",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97399957/",
+      "md5hash": "fec4de1d768a33c0d041b1301f59c457",
       "lines": {
-        "32": "class CommonsLogger extends AbstractInternalLogger {",
-        "36": "",
-        "37": "    CommonsLogger(Log logger, String loggerName) {",
+        "2": "/* ====================================================================",
+        "3": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "5": "   this work for additional information regarding copyright ownership.",
+        "6": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "9": "",
+        "10": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "19": "",
+        "20": "package org.apache.poi.util;",
+        "21": "",
+        "22": "import java.util.*;",
+        "27": " *",
+        "28": " * @author Andrew C. Oliver (acoliver at apache dot org)",
+        "29": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "30": " * @author Nicola Ken Barozzi (nicolaken at apache.org)",
         "31": " */"
       },
-      "id": 37057018,
-      "filename": "CommonsLogger.java"
+      "id": 97399957,
+      "filename": "POILogFactory.java"
     },
     {
-      "repo": "https://bitbucket.org/dyp/geotools.git",
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
       "language": "Java",
-      "linescount": 138,
-      "location": "/modules/library/metadata/src/main/java/org/geotools/util/logging",
-      "name": "geotools",
-      "url": "https://searchcode.com/codesearch/view/47138480/",
-      "md5hash": "8d9912a871390cbf1f590647a74e735a",
+      "linescount": 129,
+      "location": "/pptx/src/org/apache/poi/util",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406181/",
+      "md5hash": "ba492855987766cac27915d80c0c6660",
       "lines": {
-        "32": " *",
-        "33": " * @see CommonsLoggerFactory",
-        "35": " */",
-        "36": "final class CommonsLogger extends LoggerAdapter {",
-        "48": "    public CommonsLogger(final String name, final Log logger) {",
-        "47": "     */"
+        "2": "/* ====================================================================",
+        "3": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "5": "   this work for additional information regarding copyright ownership.",
+        "6": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "9": "",
+        "10": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "19": "",
+        "20": "package org.apache.poi.util;",
+        "21": "",
+        "22": "import java.util.*;",
+        "27": " *",
+        "28": " * @author Andrew C. Oliver (acoliver at apache dot org)",
+        "29": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "30": " * @author Nicola Ken Barozzi (nicolaken at apache.org)",
+        "31": " */"
       },
-      "id": 47138480,
-      "filename": "CommonsLogger.java"
-    },
-    {
-      "repo": "https://bitbucket.org/billpull/parking-lot-api.git",
-      "language": "Java",
-      "linescount": 109,
-      "location": "/lib/mysql-connector-java-5.0.8/src/com/mysql/jdbc/log",
-      "name": "parking-lot-api",
-      "url": "https://searchcode.com/codesearch/view/51593970/",
-      "md5hash": "35e548dcc5c3e72a066095b18f5294e7",
-      "lines": {
-        "32": "\tpublic CommonsLogger(String instanceName) {",
-        "28": "",
-        "29": "public class CommonsLogger implements com.mysql.jdbc.log.Log {",
-        "31": "\t"
-      },
-      "id": 51593970,
-      "filename": "CommonsLogger.java"
-    },
-    {
-      "repo": "https://github.com/soulsheng/struts2.git",
-      "language": "Java",
-      "linescount": 109,
-      "location": "/xwork-core/src/main/java/com/opensymphony/xwork2/util/logging/commons",
-      "name": "struts2",
-      "url": "https://searchcode.com/codesearch/view/73133015/",
-      "md5hash": "d087d7b533922db9aa04f96b52675cde",
-      "lines": {
-        "24": " */",
-        "25": "public class CommonsLogger implements Logger {",
-        "28": "    ",
-        "29": "    public CommonsLogger(Log log) {"
-      },
-      "id": 73133015,
-      "filename": "CommonsLogger.java"
-    },
-    {
-      "repo": "https://github.com/jeffra/netty.git",
-      "language": "Java",
-      "linescount": 93,
-      "location": "/src/main/java/org/jboss/netty/logging",
-      "name": "netty",
-      "url": "https://searchcode.com/codesearch/view/75128781/",
-      "md5hash": "2434acdc7836668dcaaebc067ff36a0a",
-      "lines": {
-        "34": "",
-        "35": "    CommonsLogger(Log logger, String loggerName) {",
-        "29": " */",
-        "30": "class CommonsLogger extends AbstractInternalLogger {"
-      },
-      "id": 75128781,
-      "filename": "CommonsLogger.java"
-    },
-    {
-      "repo": "git://github.com/netty/netty.git",
-      "language": "Java",
-      "linescount": 569,
-      "location": "/common/src/main/java/io/netty/util/internal/logging",
-      "name": "netty",
-      "url": "https://searchcode.com/codesearch/view/59032517/",
-      "md5hash": "27cc56e4af30140b656dace21576f71f",
-      "lines": {
-        "57": "",
-        "58": "    CommonsLogger(Log logger, String name) {",
-        "51": "@Deprecated",
-        "52": "class CommonsLogger extends AbstractInternalLogger {"
-      },
-      "id": 59032517,
-      "filename": "CommonsLogger.java"
-    },
-    {
-      "repo": "https://github.com/codewhy/netty.git",
-      "language": "Java",
-      "linescount": 99,
-      "location": "/common/src/main/java/io/netty/logging",
-      "name": "netty",
-      "url": "https://searchcode.com/codesearch/view/68276283/",
-      "md5hash": "8d502d9cae55a0d70a1c8fc590b9c312",
-      "lines": {
-        "24": "class CommonsLogger extends AbstractInternalLogger {",
-        "28": "",
-        "29": "    CommonsLogger(Log logger, String loggerName) {",
-        "23": " */"
-      },
-      "id": 68276283,
-      "filename": "CommonsLogger.java"
-    },
-    {
-      "repo": "git://github.com/netty/netty.git",
-      "language": "Java",
-      "linescount": 114,
-      "location": "/common/src/main/java/io/netty/logging",
-      "name": "netty",
-      "url": "https://searchcode.com/codesearch/view/10524981/",
-      "md5hash": "269c420b75e830318268bcb19688df03",
-      "lines": {
-        "24": "class CommonsLogger extends AbstractInternalLogger {",
-        "28": "",
-        "29": "    CommonsLogger(Log logger, String loggerName) {",
-        "23": " */"
-      },
-      "id": 10524981,
-      "filename": "CommonsLogger.java"
-    },
-    {
-      "repo": "http://cellengine.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 109,
-      "location": "/engine_java/000_Engine_Core/lib/mysql-connector-java-5.1.7/src/com/mysql/jdbc/log",
-      "name": "cellengine",
-      "url": "https://searchcode.com/codesearch/view/11373436/",
-      "md5hash": "1923d08e99ef84f1e3cddd7c7fe72203",
-      "lines": {
-        "32": "\tpublic CommonsLogger(String instanceName) {",
-        "28": "",
-        "29": "public class CommonsLogger implements com.mysql.jdbc.log.Log {",
-        "31": "\t"
-      },
-      "id": 11373436,
-      "filename": "CommonsLogger.java"
-    },
-    {
-      "repo": "http://pagavcs.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 123,
-      "location": "/mugcommander/java/source/com/mucommander/commons",
-      "name": "pagavcs",
-      "url": "https://searchcode.com/codesearch/view/11717823/",
-      "md5hash": "a9c77bc589b0ace71d367b0e77b439b6",
-      "lines": {
-        "32": " */",
-        "33": "public class CommonsLogger {",
-        "35": "    /** Logger singleton */",
-        "36": "    private final static Logger logger = Logger.getLogger(CommonsLogger.class.getName());"
-      },
-      "id": 11717823,
-      "filename": "CommonsLogger.java"
-    },
-    {
-      "repo": "http://szjc.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 98,
-      "location": "/xwork2.1.6/core/src/main/java/com/opensymphony/xwork2/util/logging/commons",
-      "name": "szjc",
-      "url": "https://searchcode.com/codesearch/view/12615251/",
-      "md5hash": "4edbae2911230aa0d798849ae157c504",
-      "lines": {
-        "17": "    ",
-        "18": "    public CommonsLogger(Log log) {",
-        "13": " */",
-        "14": "public class CommonsLogger implements Logger {"
-      },
-      "id": 12615251,
-      "filename": "CommonsLogger.java"
-    },
-    {
-      "repo": "http://cubbers-eqemu-utils.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 112,
-      "location": "/EQEmuJSM/mysql-connector-java-5.1.13/src/com/mysql/jdbc/log",
-      "name": "cubbers-eqemu-utils",
-      "url": "https://searchcode.com/codesearch/view/13474413/",
-      "md5hash": "532473593ad828c9e6875701dc73e225",
-      "lines": {
-        "32": "public class CommonsLogger implements com.mysql.jdbc.log.Log {",
-        "34": "\t",
-        "35": "\tpublic CommonsLogger(String instanceName) {",
-        "31": ""
-      },
-      "id": 13474413,
-      "filename": "CommonsLogger.java"
+      "id": 97406181,
+      "filename": "POILogFactory.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -227,213 +77,33 @@
       "url": "https://searchcode.com/codesearch/view/15642657/",
       "md5hash": "f2061c16025fb677db1f1a08888db36d",
       "lines": {
-        "59": "",
-        "60": "public class CommonsLogger extends POILogger"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.util;",
+        "43": "",
+        "44": "import org.apache.commons.logging.Log;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import org.apache.commons.logging.LogFactory;",
+        "46": "",
+        "54": " *",
+        "55": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "56": " * @author Glen Stampoultzis (glens at apache.org)",
+        "31": ""
       },
       "id": 15642657,
       "filename": "CommonsLogger.java"
-    },
-    {
-      "repo": "https://github.com/wylyeak/netty-learning.git",
-      "language": "Java",
-      "linescount": 183,
-      "location": "/netty-3.7/src/test/java/org/jboss/netty/logging",
-      "name": "netty-learning",
-      "url": "https://searchcode.com/codesearch/view/93126683/",
-      "md5hash": "1576ddb072ebf9d03f1bdaccd9a9fb5d",
-      "lines": {
-        "34": "",
-        "35": "        InternalLogger logger = new CommonsLogger(mock, \"foo\");",
-        "164": "",
-        "165": "        InternalLogger logger = new CommonsLogger(mock, \"foo\");",
-        "177": "",
-        "138": "",
-        "139": "        InternalLogger logger = new CommonsLogger(mock, \"foo\");",
-        "151": "",
-        "47": "",
-        "48": "        InternalLogger logger = new CommonsLogger(mock, \"foo\");",
-        "152": "        InternalLogger logger = new CommonsLogger(mock, \"foo\");",
-        "178": "        InternalLogger logger = new CommonsLogger(mock, \"foo\");",
-        "23": "",
-        "24": "public class CommonsLoggerTest {",
-        "60": "",
-        "61": "        InternalLogger logger = new CommonsLogger(mock, \"foo\");"
-      },
-      "id": 93126683,
-      "filename": "CommonsLoggerTest.java"
-    },
-    {
-      "repo": "https://github.com/gothion/smack.git",
-      "language": "Java",
-      "linescount": 193,
-      "location": "/jingle/extension/source/org/jivesoftware/smackx/jingle",
-      "name": "smack",
-      "url": "https://searchcode.com/codesearch/view/74120088/",
-      "md5hash": "78d1cbd966f12e41a1dc7418c43b6482",
-      "lines": {
-        "160": "\t\t} else {",
-        "130": "\tpublic void debug(String inDebugMsg) {",
-        "131": "\t\tif (commonsLogger != null) {",
-        "132": "\t\t\tcommonsLogger.debug(inDebugMsg);",
-        "133": "\t\t} else {",
-        "38": "",
-        "39": "\tprivate Log\tcommonsLogger;",
-        "170": "\tpublic void info(String inDebugMsg, Exception inException) {",
-        "171": "\t\tif (commonsLogger != null) {",
-        "143": "\tpublic void warn(String inDebugMsg, Exception inException) {",
-        "144": "\t\tif (commonsLogger != null) {",
-        "145": "\t\t\tcommonsLogger.warn(inDebugMsg, inException);",
-        "146": "\t\t} else {",
-        "157": "\tpublic void warn(String inDebugMsg) {",
-        "158": "\t\tif (commonsLogger != null) {",
-        "159": "\t\t\tcommonsLogger.warn(inDebugMsg);"
-      },
-      "id": 74120088,
-      "filename": "SmackLogger.java"
-    },
-    {
-      "repo": "git://github.com/netty/netty.git",
-      "language": "Java",
-      "linescount": 222,
-      "location": "/common/src/test/java/io/netty/util/internal/logging",
-      "name": "netty",
-      "url": "https://searchcode.com/codesearch/view/59032480/",
-      "md5hash": "c0ac5bf0e4c638f1a8e6ba9c00239b95",
-      "lines": {
-        "34": "",
-        "35": "        InternalLogger logger = new CommonsLogger(mock, \"foo\");",
-        "164": "",
-        "165": "        InternalLogger logger = new CommonsLogger(mock, \"foo\");",
-        "177": "",
-        "138": "",
-        "139": "        InternalLogger logger = new CommonsLogger(mock, \"foo\");",
-        "151": "",
-        "47": "",
-        "48": "        InternalLogger logger = new CommonsLogger(mock, \"foo\");",
-        "152": "        InternalLogger logger = new CommonsLogger(mock, \"foo\");",
-        "178": "        InternalLogger logger = new CommonsLogger(mock, \"foo\");",
-        "23": "",
-        "24": "public class CommonsLoggerTest {",
-        "60": "",
-        "61": "        InternalLogger logger = new CommonsLogger(mock, \"foo\");"
-      },
-      "id": 59032480,
-      "filename": "CommonsLoggerTest.java"
-    },
-    {
-      "repo": "git://github.com/netty/netty.git",
-      "language": "Java",
-      "linescount": 222,
-      "location": "/common/src/test/java/io/netty/logging",
-      "name": "netty",
-      "url": "https://searchcode.com/codesearch/view/10525035/",
-      "md5hash": "8af5c50e99136bd98d30c6f627c6eae9",
-      "lines": {
-        "34": "",
-        "35": "        InternalLogger logger = new CommonsLogger(mock, \"foo\");",
-        "164": "",
-        "165": "        InternalLogger logger = new CommonsLogger(mock, \"foo\");",
-        "177": "",
-        "138": "",
-        "139": "        InternalLogger logger = new CommonsLogger(mock, \"foo\");",
-        "151": "",
-        "47": "",
-        "48": "        InternalLogger logger = new CommonsLogger(mock, \"foo\");",
-        "152": "        InternalLogger logger = new CommonsLogger(mock, \"foo\");",
-        "178": "        InternalLogger logger = new CommonsLogger(mock, \"foo\");",
-        "23": "",
-        "24": "public class CommonsLoggerTest {",
-        "60": "",
-        "61": "        InternalLogger logger = new CommonsLogger(mock, \"foo\");"
-      },
-      "id": 10525035,
-      "filename": "CommonsLoggerTest.java"
-    },
-    {
-      "repo": "https://bitbucket.org/dyp/geotools.git",
-      "language": "Java",
-      "linescount": 93,
-      "location": "/modules/library/metadata/src/main/java/org/geotools/util/logging",
-      "name": "geotools",
-      "url": "https://searchcode.com/codesearch/view/47138479/",
-      "md5hash": "0668bffd82e49a766d7a684bc5611bff",
-      "lines": {
-        "35": " */",
-        "36": "public class CommonsLoggerFactory extends LoggerFactory<Log> {",
-        "39": "     */",
-        "40": "    private static CommonsLoggerFactory factory;",
-        "87": "        if (logger instanceof CommonsLogger) {",
-        "89": "        }",
-        "46": "     */",
-        "47": "    protected CommonsLoggerFactory() throws NoClassDefFoundError {",
-        "88": "            return ((CommonsLogger) logger).logger;",
-        "78": "    protected Logger wrap(String name, Log implementation) {",
-        "86": "    protected Log unwrap(final Logger logger) {",
-        "55": "     */",
-        "56": "    public static synchronized CommonsLoggerFactory getInstance() throws NoClassDefFoundError {",
-        "57": "        if (factory == null) {",
-        "58": "            factory = new CommonsLoggerFactory();",
-        "79": "        return new CommonsLogger(name, implementation);"
-      },
-      "id": 47138479,
-      "filename": "CommonsLoggerFactory.java"
-    },
-    {
-      "repo": "http://pagavcs.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 660,
-      "location": "/mugcommander/java/source/com/mucommander/io",
-      "name": "pagavcs",
-      "url": "https://searchcode.com/codesearch/view/11717828/",
-      "md5hash": "51bc5f608f377a8bc94d182166b0b8a8",
-      "lines": {
-        "321": "        if(bufferContainers.contains(bufferContainer)) {",
-        "322": "            CommonsLogger.fine(\"Warning: specified buffer is already in the pool: \"+buffer);",
-        "20": "",
-        "21": "import com.mucommander.commons.CommonsLogger;",
-        "230": "        CommonsLogger.finer(\"Creating new buffer with \"+factory+\" size=\"+size);",
-        "328": "        if(maxPoolSize!=-1 && poolSize+bufferSize>maxPoolSize) {",
-        "329": "            CommonsLogger.fine(\"Warning: maximum pool size reached, buffer not added to the pool: \"+buffer);",
-        "229": ""
-      },
-      "id": 11717828,
-      "filename": "BufferPool.java"
-    },
-    {
-      "repo": "https://github.com/minstrelsy/POI-Android.git",
-      "language": "Java",
-      "linescount": 132,
-      "location": "/ppt/poi/org/apache/poi/util",
-      "name": "POI-Android",
-      "url": "https://searchcode.com/codesearch/view/97399957/",
-      "md5hash": "fec4de1d768a33c0d041b1301f59c457",
-      "lines": {
-        "83": "        ",
-        "84": "//        logger = new CommonsLogger();",
-        "94": "//        \t\t_loggerClassName = System.getProperty(\"org.apache.poi.util.POILogger\");",
-        "95": "        \t\t_loggerClassName = CommonsLogger.class.getName();"
-      },
-      "id": 97399957,
-      "filename": "POILogFactory.java"
     }
   ],
   "page": 0,
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 21,
+      "count": 3,
       "source": "Github",
       "id": 2
-    },
-    {
-      "count": 13,
-      "source": "Google Code",
-      "id": 1
-    },
-    {
-      "count": 7,
-      "source": "Bitbucket",
-      "id": 3
     }
   ]
 }

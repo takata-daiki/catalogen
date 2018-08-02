@@ -1,8 +1,8 @@
 {
-  "matchterm": "HSSFFooter",
+  "matchterm": "org.apache.poi.hssf.usermodel.HSSFFooter",
   "previouspage": null,
-  "searchterm": "HSSFFooter",
-  "query": "HSSFFooter",
+  "searchterm": "org.apache.poi.hssf.usermodel.HSSFFooter",
+  "query": "org.apache.poi.hssf.usermodel.HSSFFooter",
   "language_filters": [
     {
       "count": 36,
@@ -13,23 +13,32 @@
   "total": 36,
   "results": [
     {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "repo": "https://bitbucket.org/ctron/org.openscada.orilla.git",
       "language": "Java",
-      "linescount": 280,
-      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642318/",
-      "md5hash": "5ff4707f30030f3aa145734784a4dcea",
+      "linescount": 334,
+      "location": "/org.openscada.ae.ui.views.export.excel/src/org/openscada/ae/ui/views/export/excel/impl",
+      "name": "org.openscada.orilla",
+      "url": "https://searchcode.com/codesearch/view/122444114/",
+      "md5hash": "e281103aee607d2e4060b4cc78a4ed02",
       "lines": {
-        "48": " * The footer works by having a left, center, and right side.  The total cannot",
-        "49": " * be more that 255 bytes long.  One uses this class by getting the HSSFFooter",
-        "67": "     */",
-        "68": "    protected HSSFFooter(FooterRecord footerRecord) {",
-        "56": " */",
-        "57": "public class HSSFFooter extends Object {"
+        "32": "import org.apache.poi.hpsf.CustomProperties;",
+        "33": "import org.apache.poi.hpsf.DocumentSummaryInformation;",
+        "34": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "35": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
+        "37": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "38": "import org.apache.poi.hssf.usermodel.HSSFHeader;",
+        "39": "import org.apache.poi.hssf.usermodel.HSSFPatternFormatting;",
+        "40": "import org.apache.poi.hssf.usermodel.HSSFPrintSetup;",
+        "41": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "42": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "43": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "44": "import org.apache.poi.hssf.usermodel.HeaderFooter;",
+        "45": "import org.apache.poi.hssf.util.HSSFColor;",
+        "31": ""
       },
-      "id": 15642318,
-      "filename": "HSSFFooter.java"
+      "id": 122444114,
+      "filename": "ExportEventsImpl.java"
     },
     {
       "repo": "https://bitbucket.org/emmie/adempiere-patches",
@@ -40,30 +49,24 @@
       "url": "https://searchcode.com/codesearch/view/102528302/",
       "md5hash": "ff85ab83dce319bf411596c3e566349d",
       "lines": {
-        "334": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "32": "import org.apache.poi.hssf.usermodel.HSSFPrintSetup;",
+        "33": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "34": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "35": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "37": "import org.compiere.Adempiere;",
+        "38": "import org.compiere.util.CLogMgt;",
+        "39": "import org.compiere.util.CLogger;",
+        "25": "",
+        "26": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
         "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
         "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
-        "333": "\t\t// Sheet Footer"
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
       },
       "id": 102528302,
       "filename": "AbstractExcelExporter.java"
-    },
-    {
-      "repo": "https://bitbucket.org/ctron/org.openscada.orilla.git",
-      "language": "Java",
-      "linescount": 334,
-      "location": "/org.openscada.ae.ui.views.export.excel/src/org/openscada/ae/ui/views/export/excel/impl",
-      "name": "org.openscada.orilla",
-      "url": "https://searchcode.com/codesearch/view/122444114/",
-      "md5hash": "e281103aee607d2e4060b4cc78a4ed02",
-      "lines": {
-        "276": "",
-        "36": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
-        "37": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
-        "277": "        final HSSFFooter footer = sheet.getFooter ();"
-      },
-      "id": 122444114,
-      "filename": "ExportEventsImpl.java"
     },
     {
       "repo": "http://krank.googlecode.com/svn/trunk/",
@@ -74,32 +77,24 @@
       "url": "https://searchcode.com/codesearch/view/4293932/",
       "md5hash": "02c045ab5f627f369858e993f26ef14b",
       "lines": {
-        "16": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
-        "240": "        HSSFFooter footer = sheet.getFooter();",
-        "242": "        // Fit Sheet to 1 page wide but very long",
-        "241": "        footer.setCenter(\"Page \" + HSSFFooter.page() + \" of \" + HSSFFooter.numPages());",
+        "1": "package org.crank.controller;",
+        "2": "",
+        "12": "",
+        "13": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "14": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
         "15": "import org.apache.poi.hssf.usermodel.HSSFFont;",
-        "239": "        wb.setPrintArea(0, 0, colCount, 0, rowCount);"
+        "16": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "17": "import org.apache.poi.hssf.usermodel.HSSFHeader;",
+        "18": "import org.apache.poi.hssf.usermodel.HSSFPrintSetup;",
+        "19": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "20": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "21": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "22": "import org.htmlparser.Parser;",
+        "23": "import org.htmlparser.filters.TagNameFilter;",
+        "24": "import org.htmlparser.util.NodeList;"
       },
       "id": 4293932,
       "filename": "ExcelExportControllerBean.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 1607,
-      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642322/",
-      "md5hash": "5084cc24e46752bd3911d5d0a983e0a6",
-      "lines": {
-        "864": "    {",
-        "865": "        return new HSSFFooter( getSheet().getFooter() );",
-        "862": "     */",
-        "863": "    public HSSFFooter getFooter()"
-      },
-      "id": 15642322,
-      "filename": "HSSFSheet.java"
     },
     {
       "repo": "https://bitbucket.org/edwin_ang/idempiere-mbd",
@@ -110,10 +105,21 @@
       "url": "https://searchcode.com/codesearch/view/59777594/",
       "md5hash": "8e9a27ad157d0e20ab643ffb8c5b9d30",
       "lines": {
-        "337": "\t\t// Sheet Footer",
-        "338": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "32": "import org.apache.poi.hssf.usermodel.HSSFPrintSetup;",
+        "33": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "34": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "35": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "37": "import org.compiere.util.CLogger;",
+        "38": "import org.compiere.util.DisplayType;",
+        "39": "import org.compiere.util.Env;",
+        "25": "",
+        "26": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
         "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
-        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;"
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
       },
       "id": 59777594,
       "filename": "AbstractExcelExporter.java"
@@ -127,10 +133,21 @@
       "url": "https://searchcode.com/codesearch/view/61401276/",
       "md5hash": "8e9a27ad157d0e20ab643ffb8c5b9d30",
       "lines": {
-        "337": "\t\t// Sheet Footer",
-        "338": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "32": "import org.apache.poi.hssf.usermodel.HSSFPrintSetup;",
+        "33": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "34": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "35": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "37": "import org.compiere.util.CLogger;",
+        "38": "import org.compiere.util.DisplayType;",
+        "39": "import org.compiere.util.Env;",
+        "25": "",
+        "26": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
         "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
-        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;"
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
       },
       "id": 61401276,
       "filename": "AbstractExcelExporter.java"
@@ -144,10 +161,21 @@
       "url": "https://searchcode.com/codesearch/view/62551719/",
       "md5hash": "c7cf1ef5bae5431604ffae8de1305e3f",
       "lines": {
-        "339": "\t\t// Sheet Footer",
-        "340": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "32": "import org.apache.poi.hssf.usermodel.HSSFPrintSetup;",
+        "33": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "34": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "35": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "37": "import org.compiere.Adempiere;",
+        "38": "import org.compiere.util.CLogMgt;",
+        "39": "import org.compiere.util.CLogger;",
+        "25": "",
+        "26": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
         "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
-        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;"
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
       },
       "id": 62551719,
       "filename": "AbstractExcelExporter.java"
@@ -161,10 +189,21 @@
       "url": "https://searchcode.com/codesearch/view/62628992/",
       "md5hash": "8e9a27ad157d0e20ab643ffb8c5b9d30",
       "lines": {
-        "337": "\t\t// Sheet Footer",
-        "338": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "32": "import org.apache.poi.hssf.usermodel.HSSFPrintSetup;",
+        "33": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "34": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "35": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "37": "import org.compiere.util.CLogger;",
+        "38": "import org.compiere.util.DisplayType;",
+        "39": "import org.compiere.util.Env;",
+        "25": "",
+        "26": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
         "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
-        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;"
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
       },
       "id": 62628992,
       "filename": "AbstractExcelExporter.java"
@@ -178,10 +217,21 @@
       "url": "https://searchcode.com/codesearch/view/63385794/",
       "md5hash": "4e80b12708a60a947d9b7c23cd66ba00",
       "lines": {
-        "334": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "32": "import org.apache.poi.hssf.usermodel.HSSFPrintSetup;",
+        "33": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "34": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "35": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "37": "import org.compiere.Adempiere;",
+        "38": "import org.compiere.util.CLogMgt;",
+        "39": "import org.compiere.util.CLogger;",
+        "25": "",
+        "26": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
         "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
         "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
-        "333": "\t\t// Sheet Footer"
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
       },
       "id": 63385794,
       "filename": "AbstractExcelExporter.java"
@@ -195,10 +245,21 @@
       "url": "https://searchcode.com/codesearch/view/63585397/",
       "md5hash": "4e80b12708a60a947d9b7c23cd66ba00",
       "lines": {
-        "334": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "32": "import org.apache.poi.hssf.usermodel.HSSFPrintSetup;",
+        "33": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "34": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "35": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "37": "import org.compiere.Adempiere;",
+        "38": "import org.compiere.util.CLogMgt;",
+        "39": "import org.compiere.util.CLogger;",
+        "25": "",
+        "26": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
         "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
         "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
-        "333": "\t\t// Sheet Footer"
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
       },
       "id": 63585397,
       "filename": "AbstractExcelExporter.java"
@@ -212,10 +273,21 @@
       "url": "https://searchcode.com/codesearch/view/63687137/",
       "md5hash": "4e80b12708a60a947d9b7c23cd66ba00",
       "lines": {
-        "334": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "32": "import org.apache.poi.hssf.usermodel.HSSFPrintSetup;",
+        "33": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "34": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "35": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "37": "import org.compiere.Adempiere;",
+        "38": "import org.compiere.util.CLogMgt;",
+        "39": "import org.compiere.util.CLogger;",
+        "25": "",
+        "26": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
         "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
         "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
-        "333": "\t\t// Sheet Footer"
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
       },
       "id": 63687137,
       "filename": "AbstractExcelExporter.java"
@@ -229,10 +301,21 @@
       "url": "https://searchcode.com/codesearch/view/3305415/",
       "md5hash": "d6924b664322bba95c11159dbf946846",
       "lines": {
-        "339": "\t\t// Sheet Footer",
-        "340": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "32": "import org.apache.poi.hssf.usermodel.HSSFPrintSetup;",
+        "33": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "34": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "35": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "37": "import org.compiere.util.CLogger;",
+        "38": "import org.compiere.util.DisplayType;",
+        "39": "import org.compiere.util.Env;",
+        "25": "",
+        "26": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
         "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
-        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;"
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
       },
       "id": 3305415,
       "filename": "AbstractExcelExporter.java"
@@ -246,10 +329,21 @@
       "url": "https://searchcode.com/codesearch/view/8373941/",
       "md5hash": "4e80b12708a60a947d9b7c23cd66ba00",
       "lines": {
-        "334": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "32": "import org.apache.poi.hssf.usermodel.HSSFPrintSetup;",
+        "33": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "34": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "35": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "37": "import org.compiere.Adempiere;",
+        "38": "import org.compiere.util.CLogMgt;",
+        "39": "import org.compiere.util.CLogger;",
+        "25": "",
+        "26": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
         "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
         "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
-        "333": "\t\t// Sheet Footer"
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
       },
       "id": 8373941,
       "filename": "AbstractExcelExporter.java"
@@ -263,10 +357,21 @@
       "url": "https://searchcode.com/codesearch/view/125664761/",
       "md5hash": "c7cf1ef5bae5431604ffae8de1305e3f",
       "lines": {
-        "339": "\t\t// Sheet Footer",
-        "340": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "32": "import org.apache.poi.hssf.usermodel.HSSFPrintSetup;",
+        "33": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "34": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "35": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "37": "import org.compiere.Adempiere;",
+        "38": "import org.compiere.util.CLogMgt;",
+        "39": "import org.compiere.util.CLogger;",
+        "25": "",
+        "26": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
         "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
-        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;"
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
       },
       "id": 125664761,
       "filename": "AbstractExcelExporter.java"
@@ -280,10 +385,21 @@
       "url": "https://searchcode.com/codesearch/view/126228263/",
       "md5hash": "c7cf1ef5bae5431604ffae8de1305e3f",
       "lines": {
-        "339": "\t\t// Sheet Footer",
-        "340": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "32": "import org.apache.poi.hssf.usermodel.HSSFPrintSetup;",
+        "33": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "34": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "35": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "37": "import org.compiere.Adempiere;",
+        "38": "import org.compiere.util.CLogMgt;",
+        "39": "import org.compiere.util.CLogger;",
+        "25": "",
+        "26": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
         "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
-        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;"
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
       },
       "id": 126228263,
       "filename": "AbstractExcelExporter.java"
@@ -297,10 +413,21 @@
       "url": "https://searchcode.com/codesearch/view/127474998/",
       "md5hash": "4e80b12708a60a947d9b7c23cd66ba00",
       "lines": {
-        "334": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "32": "import org.apache.poi.hssf.usermodel.HSSFPrintSetup;",
+        "33": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "34": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "35": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "37": "import org.compiere.Adempiere;",
+        "38": "import org.compiere.util.CLogMgt;",
+        "39": "import org.compiere.util.CLogger;",
+        "25": "",
+        "26": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
         "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
         "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
-        "333": "\t\t// Sheet Footer"
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
       },
       "id": 127474998,
       "filename": "AbstractExcelExporter.java"
@@ -314,10 +441,21 @@
       "url": "https://searchcode.com/codesearch/view/127623755/",
       "md5hash": "4e80b12708a60a947d9b7c23cd66ba00",
       "lines": {
-        "334": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "32": "import org.apache.poi.hssf.usermodel.HSSFPrintSetup;",
+        "33": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "34": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "35": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "37": "import org.compiere.Adempiere;",
+        "38": "import org.compiere.util.CLogMgt;",
+        "39": "import org.compiere.util.CLogger;",
+        "25": "",
+        "26": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
         "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
         "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
-        "333": "\t\t// Sheet Footer"
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
       },
       "id": 127623755,
       "filename": "AbstractExcelExporter.java"
@@ -331,10 +469,21 @@
       "url": "https://searchcode.com/codesearch/view/128658872/",
       "md5hash": "c7cf1ef5bae5431604ffae8de1305e3f",
       "lines": {
-        "339": "\t\t// Sheet Footer",
-        "340": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "32": "import org.apache.poi.hssf.usermodel.HSSFPrintSetup;",
+        "33": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "34": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "35": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "37": "import org.compiere.Adempiere;",
+        "38": "import org.compiere.util.CLogMgt;",
+        "39": "import org.compiere.util.CLogger;",
+        "25": "",
+        "26": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
         "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
-        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;"
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
       },
       "id": 128658872,
       "filename": "AbstractExcelExporter.java"
@@ -348,12 +497,79 @@
       "url": "https://searchcode.com/codesearch/view/129711141/",
       "md5hash": "4e80b12708a60a947d9b7c23cd66ba00",
       "lines": {
-        "334": "\t\tHSSFFooter footer = sheet.getFooter();",
+        "32": "import org.apache.poi.hssf.usermodel.HSSFPrintSetup;",
+        "33": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "34": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "35": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "37": "import org.compiere.Adempiere;",
+        "38": "import org.compiere.util.CLogMgt;",
+        "39": "import org.compiere.util.CLogger;",
+        "25": "",
+        "26": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
         "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
         "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
-        "333": "\t\t// Sheet Footer"
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
       },
       "id": 129711141,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/knthg/adempiere",
+      "language": "Java",
+      "linescount": 473,
+      "location": "/base/src/org/adempiere/impexp",
+      "name": "adempiere",
+      "url": "https://searchcode.com/codesearch/view/130483760/",
+      "md5hash": "ff85ab83dce319bf411596c3e566349d",
+      "lines": {
+        "32": "import org.apache.poi.hssf.usermodel.HSSFPrintSetup;",
+        "33": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "34": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "35": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "37": "import org.compiere.Adempiere;",
+        "38": "import org.compiere.util.CLogMgt;",
+        "39": "import org.compiere.util.CLogger;",
+        "25": "",
+        "26": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
+        "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
+      },
+      "id": 130483760,
+      "filename": "AbstractExcelExporter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/hahmed/idempiere",
+      "language": "Java",
+      "linescount": 520,
+      "location": "/org.adempiere.base/src/org/adempiere/impexp",
+      "name": "idempiere",
+      "url": "https://searchcode.com/codesearch/view/130576137/",
+      "md5hash": "d6924b664322bba95c11159dbf946846",
+      "lines": {
+        "32": "import org.apache.poi.hssf.usermodel.HSSFPrintSetup;",
+        "33": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "34": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "35": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "37": "import org.compiere.util.CLogger;",
+        "38": "import org.compiere.util.DisplayType;",
+        "39": "import org.compiere.util.Env;",
+        "25": "",
+        "26": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
+        "29": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFFooter;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFHeader;"
+      },
+      "id": 130576137,
       "filename": "AbstractExcelExporter.java"
     }
   ],

@@ -1,46 +1,17 @@
 {
-  "matchterm": "TextHeaderAtom",
+  "matchterm": "org.apache.poi.hslf.record.TextHeaderAtom",
   "previouspage": null,
-  "searchterm": "TextHeaderAtom",
-  "query": "TextHeaderAtom",
+  "searchterm": "org.apache.poi.hslf.record.TextHeaderAtom",
+  "query": "org.apache.poi.hslf.record.TextHeaderAtom",
   "language_filters": [
     {
-      "count": 5,
+      "count": 3,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 5,
+  "total": 3,
   "results": [
-    {
-      "repo": "https://github.com/minstrelsy/POI-Android.git",
-      "language": "Java",
-      "linescount": 465,
-      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
-      "name": "POI-Android",
-      "url": "https://searchcode.com/codesearch/view/97394323/",
-      "md5hash": "004c81d0c6f4e85beee2c12f2cad27b2",
-      "lines": {
-        "187": "                    for (int j = i; j < records.length; j++) {",
-        "165": "",
-        "166": "                // See what follows the TextHeaderAtom",
-        "188": "                        if(j > i && records[j] instanceof TextHeaderAtom) break;",
-        "390": "     * @param type  type of text, See {@link org.apache.poi.hslf.record.TextHeaderAtom}",
-        "144": "     * Scans through the supplied record array, looking for",
-        "145": "     * a TextHeaderAtom followed by one of a TextBytesAtom or",
-        "181": "                } else {",
-        "182": "                    System.err.println(\"Found a TextHeaderAtom not followed by a TextBytesAtom or TextCharsAtom: Followed by \" + records[i + 1].getRecordType());",
-        "151": "    protected static void findTextRuns(Record[] records, List<TextRun> found) {",
-        "152": "        // Look for a TextHeaderAtom",
-        "153": "        for (int i = 0, slwtIndex=0; i < (records.length - 1); i++) {",
-        "154": "            if (records[i] instanceof TextHeaderAtom) {",
-        "155": "                TextRun trun = null;",
-        "156": "                TextHeaderAtom tha = (TextHeaderAtom) records[i];",
-        "389": "     *"
-      },
-      "id": 97394323,
-      "filename": "Sheet.java"
-    },
     {
       "repo": "https://github.com/minstrelsy/POI-Android.git",
       "language": "Java",
@@ -50,22 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97394313/",
       "md5hash": "346ffc55e0b7a05381ade3b094d03d17",
       "lines": {
+        "32": "import org.apache.poi.hslf.record.Record;",
+        "33": "import org.apache.poi.hslf.record.RecordContainer;",
+        "34": "import org.apache.poi.hslf.record.RecordTypes;",
         "35": "import org.apache.poi.hslf.record.SlideAtom;",
         "36": "import org.apache.poi.hslf.record.TextHeaderAtom;",
-        "198": "\t * <p>",
-        "199": "\t * The title is a run of text of type <code>TextHeaderAtom.CENTER_TITLE_TYPE</code> or",
-        "200": "\t * <code>TextHeaderAtom.TITLE_TYPE</code>",
-        "201": "\t * </p>",
-        "202": "\t *",
-        "203": "\t * @see TextHeaderAtom",
-        "78": "\t\t// For the text coming in from the SlideAtomsSet:",
-        "79": "\t\t// Build up TextRuns from pairs of TextHeaderAtom and",
-        "210": "\t\t\tint type = txt[i].getRunType();",
-        "211": "\t\t\tif (type == TextHeaderAtom.CENTER_TITLE_TYPE ||",
-        "212": "\t\t\ttype == TextHeaderAtom.TITLE_TYPE ){",
-        "213": "\t\t\t\tString title = txt[i].getText();",
-        "185": "\t\tpl.setShapeType(ShapeTypes.Rectangle);",
-        "186": "\t\tpl.getTextRun().setRunType(TextHeaderAtom.TITLE_TYPE);"
+        "17": "",
+        "18": "package org.apache.poi.hslf.model;",
+        "24": "",
+        "25": "import org.apache.poi.ddf.EscherContainerRecord;",
+        "26": "import org.apache.poi.ddf.EscherDgRecord;",
+        "27": "import org.apache.poi.ddf.EscherDggRecord;",
+        "28": "import org.apache.poi.ddf.EscherSpRecord;",
+        "29": "import org.apache.poi.hslf.record.ColorSchemeAtom;",
+        "30": "import org.apache.poi.hslf.record.Comment2000;",
+        "31": "import org.apache.poi.hslf.record.HeadersFootersContainer;"
       },
       "id": 97394313,
       "filename": "Slide.java"
@@ -79,56 +49,60 @@
       "url": "https://searchcode.com/codesearch/view/97394395/",
       "md5hash": "4ae551d90bbc16377c5513186d4e9dc1",
       "lines": {
-        "141": "            TextHeaderAtom tha = new TextHeaderAtom();",
-        "304": "                switch (type){",
-        "306": "                     case TextHeaderAtom.CENTER_TITLE_TYPE:",
-        "307": "                         valign = TextShape.AnchorMiddle;",
-        "305": "                     case TextHeaderAtom.TITLE_TYPE:",
-        "44": "import org.apache.poi.hslf.record.TextCharsAtom;",
-        "140": "        if(_txtrun == null){",
-        "45": "import org.apache.poi.hslf.record.TextHeaderAtom;",
-        "94": "     * Escher container which holds text attributes such as",
-        "95": "     * TextHeaderAtom, TextBytesAtom ot TextCharsAtom, StyleTextPropAtom etc."
+        "32": "import org.apache.poi.ddf.EscherSpRecord;",
+        "33": "import org.apache.poi.ddf.EscherTextboxRecord;",
+        "34": "import org.apache.poi.hslf.exceptions.HSLFException;",
+        "35": "import org.apache.poi.hslf.record.EscherTextboxWrapper;",
+        "36": "import org.apache.poi.hslf.record.InteractiveInfo;",
+        "37": "import org.apache.poi.hslf.record.InteractiveInfoAtom;",
+        "38": "import org.apache.poi.hslf.record.OEPlaceholderAtom;",
+        "39": "import org.apache.poi.hslf.record.OutlineTextRefAtom;",
+        "17": "",
+        "18": "package org.apache.poi.hslf.model;",
+        "27": "",
+        "28": "import org.apache.poi.ddf.EscherContainerRecord;",
+        "29": "import org.apache.poi.ddf.EscherOptRecord;",
+        "30": "import org.apache.poi.ddf.EscherProperties;",
+        "31": "import org.apache.poi.ddf.EscherSimpleProperty;"
       },
       "id": 97394395,
       "filename": "TextShape.java"
     },
     {
-      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
       "language": "Java",
-      "linescount": 166,
-      "location": "/src/org/apache/poi/ddf",
-      "name": "SimpleAndroidDocView",
-      "url": "https://searchcode.com/codesearch/view/97383874/",
-      "md5hash": "1d70826ce2176ac55b0ddf3f8c697a3c",
+      "linescount": 465,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394323/",
+      "md5hash": "004c81d0c6f4e85beee2c12f2cad27b2",
       "lines": {
-        "77": "     * does not seem to put anything here, but with PowerPoint this will",
-        "78": "     * contain the bytes that make up a TextHeaderAtom followed by a"
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "54": "     * for slide masters it is org.apache.poi.hslf.record.SlideMaster, etc.",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "55": "     */",
+        "17": "",
+        "18": "package org.apache.poi.hslf.model;",
+        "51": "     * Record container that holds sheet data.",
+        "52": "     * For slides it is org.apache.poi.hslf.record.Slide,",
+        "21": "",
+        "22": "import org.apache.poi.ddf.*;",
+        "23": "import org.apache.poi.hslf.record.*;",
+        "24": "import org.apache.poi.hslf.usermodel.SlideShow;",
+        "25": "",
+        "53": "     * for notes it is org.apache.poi.hslf.record.Notes,"
       },
-      "id": 97383874,
-      "filename": "EscherTextboxRecord.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 193,
-      "location": "/components/forks/poi/src/loci/poi/ddf",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642610/",
-      "md5hash": "bee477788b59a9249c8134a3a92969f8",
-      "lines": {
-        "115": "     * does not seem to put anything here, but with PowerPoint this will",
-        "116": "     * contain the bytes that make up a TextHeaderAtom followed by a"
-      },
-      "id": 15642610,
-      "filename": "EscherTextboxRecord.java"
+      "id": 97394323,
+      "filename": "Sheet.java"
     }
   ],
   "page": 0,
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 5,
+      "count": 3,
       "source": "Github",
       "id": 2
     }

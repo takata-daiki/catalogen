@@ -1,8 +1,8 @@
 {
-  "matchterm": "Grfhic",
+  "matchterm": "org.apache.poi.hwpf.model.Grfhic",
   "previouspage": null,
-  "searchterm": "Grfhic",
-  "query": "Grfhic",
+  "searchterm": "org.apache.poi.hwpf.model.Grfhic",
+  "query": "org.apache.poi.hwpf.model.Grfhic",
   "language_filters": [
     {
       "count": 1,
@@ -21,21 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97384245/",
       "md5hash": "a3fadc46038e7b7c16d48887b8abe6af",
       "lines": {
-        "257": "    @Internal",
-        "258": "    public Grfhic getGrfhic()",
-        "259": "    {",
-        "260": "        return field_6_grfhic;",
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
         "134": "        result = prime * result",
         "135": "                + ((field_6_grfhic == null) ? 0 : field_6_grfhic.hashCode());",
-        "266": "    @Internal",
-        "267": "    public void setGrfhic( Grfhic field_6_grfhic )",
-        "268": "    {",
-        "269": "        this.field_6_grfhic = field_6_grfhic;",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "16": "==================================================================== */",
+        "17": "package org.apache.poi.hwpf.model.types;",
         "18": "",
         "19": "import org.apache.poi.hwpf.model.Grfhic;",
-        "154": "        builder.append(\" ( \").append( field_5_ibstFltAutoNum ).append( \" )\\n\" );",
-        "155": "        builder.append( \"    .grfhic               = \" );",
-        "156": "        builder.append(\" ( \").append( field_6_grfhic == null ? \"null\" : field_6_grfhic.toString().replaceAll( \"\\n\", \"\\n    \" ) ).append( \" )\\n\" );"
+        "20": "import org.apache.poi.util.Internal;",
+        "21": "import org.apache.poi.util.LittleEndian;",
+        "22": ""
       },
       "id": 97384245,
       "filename": "LFOAbstractType.java"

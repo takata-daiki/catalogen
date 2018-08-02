@@ -1,40 +1,17 @@
 {
-  "matchterm": "UserEditAtom",
+  "matchterm": "org.apache.poi.hslf.record.UserEditAtom",
   "previouspage": null,
-  "searchterm": "UserEditAtom",
-  "query": "UserEditAtom",
+  "searchterm": "org.apache.poi.hslf.record.UserEditAtom",
+  "query": "org.apache.poi.hslf.record.UserEditAtom",
   "language_filters": [
     {
-      "count": 4,
+      "count": 2,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 4,
+  "total": 2,
   "results": [
-    {
-      "repo": "https://github.com/minstrelsy/POI-Android.git",
-      "language": "Java",
-      "linescount": 1082,
-      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/usermodel",
-      "name": "POI-Android",
-      "url": "https://searchcode.com/codesearch/view/97394959/",
-      "md5hash": "5d80afff23c354813b0c27bde8e947ac",
-      "lines": {
-        "758": "\t\t\t}",
-        "755": "\t\t\t}",
-        "756": "\t\t\tif (_records[i].getRecordType() == RecordTypes.UserEditAtom.typeID) {",
-        "741": "\t\tPersistPtrHolder ptr = null;",
-        "742": "\t\tUserEditAtom usr = null;",
-        "771": "\t\t// Last view is now of the slide",
-        "772": "\t\tusr.setLastViewType((short) UserEditAtom.LAST_VIEW_SLIDE_VIEW);",
-        "765": "",
-        "766": "\t\t// persist ID is UserEditAtom.maxPersistWritten + 1",
-        "757": "\t\t\t\tusr = (UserEditAtom) _records[i];"
-      },
-      "id": 97394959,
-      "filename": "SlideShow.java"
-    },
     {
       "repo": "https://github.com/minstrelsy/POI-Android.git",
       "language": "Java",
@@ -44,74 +21,61 @@
       "url": "https://searchcode.com/codesearch/view/97394255/",
       "md5hash": "40d5716cbdc5b9b544fff845bb8e0c6f",
       "lines": {
-        "544": "        // Update and write out the Current User atom",
-        "545": "        int oldLastUserEditAtomPos = (int)currentUser.getCurrentEditOffset();",
-        "546": "        Integer newLastUserEditAtomPos = (Integer)oldToNewPositions.get(Integer.valueOf(oldLastUserEditAtomPos));",
-        "547": "        if(newLastUserEditAtomPos == null) {",
-        "548": "            throw new HSLFException(\"Couldn't find the new location of the UserEditAtom that used to be at \" + oldLastUserEditAtomPos);",
-        "549": "        }",
-        "550": "        currentUser.setCurrentEditOffset(newLastUserEditAtomPos.intValue());",
-        "295": "",
-        "296": "            usrOffset = usr.getLastUserEditAtomOffset();",
+        "32": "",
+        "33": "import org.apache.poi.POIDocument;",
+        "34": "import org.apache.poi.hpsf.Util;",
+        "35": "import org.apache.poi.hslf.exceptions.CorruptPowerPointFileException;",
+        "36": "import org.apache.poi.hslf.exceptions.EncryptedPowerPointFileException;",
+        "37": "import org.apache.poi.hslf.exceptions.HSLFException;",
+        "38": "import org.apache.poi.hslf.record.CurrentUserAtom;",
+        "39": "import org.apache.poi.hslf.record.ExOleObjStg;",
+        "40": "import org.apache.poi.hslf.record.PersistPtrHolder;",
+        "41": "import org.apache.poi.hslf.record.PersistRecord;",
+        "42": "import org.apache.poi.hslf.record.PositionDependentRecord;",
         "43": "import org.apache.poi.hslf.record.Record;",
         "44": "import org.apache.poi.hslf.record.UserEditAtom;",
-        "282": "        while (usrOffset != 0){",
-        "283": "            UserEditAtom usr = (UserEditAtom) Record.buildRecordAtOffset(docstream, usrOffset);"
+        "17": "",
+        "18": "package org.apache.poi.hslf;"
       },
       "id": 97394255,
       "filename": "HSLFSlideShow.java"
     },
     {
-      "repo": "https://bitbucket.org/AlexeyD/hibench.git",
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
       "language": "Java",
-      "linescount": 432,
-      "location": "/nutchindexing/nutch-1.2/src/plugin/parse-mspowerpoint/src/java/org/apache/nutch/parse/mspowerpoint",
-      "name": "hibench",
-      "url": "https://searchcode.com/codesearch/view/48925118/",
-      "md5hash": "75c37848bf3d7cb3ed9cca98daec6b70",
+      "linescount": 1082,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394959/",
+      "md5hash": "5d80afff23c354813b0c27bde8e947ac",
       "lines": {
-        "83": "      /*",
-        "100": "          /*",
-        "101": "           * Checking the Record Header (UserEditAtom)",
-        "84": "       * Traverse Bytearray to get CurrentUserEditAtom Call to extract the Text",
-        "108": "          /*",
-        "109": "           * Call to extract ClientTextBox text in each UserEditAtom"
+        "32": "import org.apache.poi.hslf.HSLFSlideShow;",
+        "33": "import org.apache.poi.hslf.exceptions.CorruptPowerPointFileException;",
+        "34": "import org.apache.poi.hslf.exceptions.HSLFException;",
+        "35": "import org.apache.poi.hslf.model.*;",
+        "36": "import org.apache.poi.hslf.model.Notes;",
+        "37": "import org.apache.poi.hslf.model.Slide;",
+        "38": "import org.apache.poi.hslf.record.*;",
+        "39": "import org.apache.poi.hslf.record.SlideListWithText.SlideAtomsSet;",
+        "17": "",
+        "18": "package org.apache.poi.hslf.usermodel;",
+        "27": "",
+        "28": "import org.apache.poi.ddf.EscherBSERecord;",
+        "29": "import org.apache.poi.ddf.EscherContainerRecord;",
+        "30": "import org.apache.poi.ddf.EscherOptRecord;",
+        "31": "import org.apache.poi.ddf.EscherRecord;"
       },
-      "id": 48925118,
-      "filename": "ContentReaderListener.java"
-    },
-    {
-      "repo": "https://github.com/lritter/gnutch.git",
-      "language": "Java",
-      "linescount": 432,
-      "location": "/src/plugin/parse-mspowerpoint/src/java/org/apache/nutch/parse/mspowerpoint",
-      "name": "gnutch",
-      "url": "https://searchcode.com/codesearch/view/138791632/",
-      "md5hash": "75c37848bf3d7cb3ed9cca98daec6b70",
-      "lines": {
-        "83": "      /*",
-        "100": "          /*",
-        "101": "           * Checking the Record Header (UserEditAtom)",
-        "84": "       * Traverse Bytearray to get CurrentUserEditAtom Call to extract the Text",
-        "108": "          /*",
-        "109": "           * Call to extract ClientTextBox text in each UserEditAtom"
-      },
-      "id": 138791632,
-      "filename": "ContentReaderListener.java"
+      "id": 97394959,
+      "filename": "SlideShow.java"
     }
   ],
   "page": 0,
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 3,
+      "count": 2,
       "source": "Github",
       "id": 2
-    },
-    {
-      "count": 1,
-      "source": "Bitbucket",
-      "id": 3
     }
   ]
 }

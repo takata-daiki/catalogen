@@ -1,8 +1,8 @@
 {
-  "matchterm": "FibRgLw97",
+  "matchterm": "org.apache.poi.hwpf.model.FibRgLw97",
   "previouspage": null,
-  "searchterm": "FibRgLw97",
-  "query": "FibRgLw97",
+  "searchterm": "org.apache.poi.hwpf.model.FibRgLw97",
+  "query": "org.apache.poi.hwpf.model.FibRgLw97",
   "language_filters": [
     {
       "count": 1,
@@ -21,20 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97384033/",
       "md5hash": "d1e2f02dc9ef99107ca7326905a58d39",
       "lines": {
-        "96": "            offset += FibRgLw97.getSize();",
-        "1075": "        ( (FibRgLw97) _fibRgLw ).serialize( mainStream, offset );",
-        "41": " *  by {@link FibRgW97}.",
-        "42": " * The next part, the fibRgLw / The FibRgLw97, is",
-        "1099": "        return FibBase.getSize() + LittleEndian.SHORT_SIZE + FibRgW97.getSize()",
-        "1100": "                + LittleEndian.SHORT_SIZE + FibRgLw97.getSize()",
-        "1074": "",
-        "113": "",
-        "114": "        _fibRgLw = new FibRgLw97( mainDocument, offset );",
-        "115": "        offset += FibRgLw97.getSize();",
-        "116": "        assert offset == 152;",
-        "1077": "",
-        "1076": "        offset += FibRgLw97.getSize();",
-        "95": "            _fibRgLw = new FibRgLw95( mainDocument, offset );"
+        "32": "",
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hwpf.model;",
+        "24": "",
+        "25": "import org.apache.poi.EncryptedDocumentException;",
+        "26": "",
+        "27": "import org.apache.poi.hwpf.model.io.HWPFOutputStream;",
+        "28": "import org.apache.poi.util.Internal;",
+        "29": "import org.apache.poi.util.LittleEndian;",
+        "30": "import org.apache.poi.util.POILogFactory;",
+        "31": "import org.apache.poi.util.POILogger;"
       },
       "id": 97384033,
       "filename": "FileInformationBlock.java"

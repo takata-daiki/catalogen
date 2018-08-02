@@ -1,8 +1,8 @@
 {
-  "matchterm": "GroupMarkerSubRecord",
+  "matchterm": "org.apache.poi.hssf.record.GroupMarkerSubRecord",
   "previouspage": null,
-  "searchterm": "GroupMarkerSubRecord",
-  "query": "GroupMarkerSubRecord",
+  "searchterm": "org.apache.poi.hssf.record.GroupMarkerSubRecord",
+  "query": "org.apache.poi.hssf.record.GroupMarkerSubRecord",
   "language_filters": [
     {
       "count": 3,
@@ -21,34 +21,24 @@
       "url": "https://searchcode.com/codesearch/view/15642524/",
       "md5hash": "d5ab8af238dae1673f25974ef2ea6e20",
       "lines": {
-        "130": "    public Object clone() {",
-        "131": "        GroupMarkerSubRecord rec = new GroupMarkerSubRecord();",
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "42": "",
+        "43": "package loci.poi.hssf.record;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "51": "",
+        "52": " * @author Glen Stampoultzis (glens at apache.org)",
         "53": " */",
         "54": "public class GroupMarkerSubRecord",
-        "71": "",
-        "72": "    public GroupMarkerSubRecord(RecordInputStream in)",
+        "55": "    extends SubRecord",
         "60": "",
-        "61": "    public GroupMarkerSubRecord()"
+        "61": "    public GroupMarkerSubRecord()",
+        "31": ""
       },
       "id": 15642524,
       "filename": "GroupMarkerSubRecord.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 101,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642394/",
-      "md5hash": "d40b14ea92262475f6a64dcc34544617",
-      "lines": {
-        "88": "                break;",
-        "85": "                break;",
-        "86": "            case GroupMarkerSubRecord.sid:",
-        "87": "                r = new GroupMarkerSubRecord( in );"
-      },
-      "id": 15642394,
-      "filename": "SubRecord.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -59,11 +49,54 @@
       "url": "https://searchcode.com/codesearch/view/15642409/",
       "md5hash": "9e212df4a5b523744fd315d99c376d1b",
       "lines": {
-        "688": "        cmo.setAutoline( true );",
-        "689": "        GroupMarkerSubRecord gmo = new GroupMarkerSubRecord();"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "",
+        "41": "package loci.poi.hssf.record;",
+        "42": "",
+        "43": "import loci.poi.ddf.*;",
+        "44": "import loci.poi.hssf.usermodel.*;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import loci.poi.hssf.model.AbstractShape;",
+        "48": "import loci.poi.hssf.model.ConvertAnchor;",
+        "46": "import loci.poi.hssf.model.TextboxShape;",
+        "47": "import loci.poi.hssf.model.DrawingManager2;",
+        "31": ""
       },
       "id": 15642409,
       "filename": "EscherAggregate.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 101,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642394/",
+      "md5hash": "d40b14ea92262475f6a64dcc34544617",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "44": "/**",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": " * Subrecords are part of the OBJ class.",
+        "46": " */",
+        "41": "",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "27": "   this work for additional information regarding copyright ownership.",
+        "28": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "42": "package loci.poi.hssf.record;",
+        "31": ""
+      },
+      "id": 15642394,
+      "filename": "SubRecord.java"
     }
   ],
   "page": 0,

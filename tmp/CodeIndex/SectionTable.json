@@ -1,59 +1,17 @@
 {
-  "matchterm": "SectionTable",
+  "matchterm": "org.apache.poi.hwpf.model.SectionTable",
   "previouspage": null,
-  "searchterm": "SectionTable",
-  "query": "SectionTable",
+  "searchterm": "org.apache.poi.hwpf.model.SectionTable",
+  "query": "org.apache.poi.hwpf.model.SectionTable",
   "language_filters": [
     {
-      "count": 8,
+      "count": 1,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 8,
+  "total": 1,
   "results": [
-    {
-      "repo": "http://cpsolver.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 661,
-      "location": "/src/org/cpsolver/studentsct",
-      "name": "cpsolver",
-      "url": "https://searchcode.com/codesearch/view/63811288/",
-      "md5hash": "ef5d332fd661ede09118862279d7e289",
-      "lines": {
-        "447": "                        r.addSection(sectionTable.get(Long.parseLong(sectionEl.attributeValue(\"id\"))));",
-        "446": "                        Element sectionEl = (Element)k.next();",
-        "376": "                                    parentSection);",
-        "377": "                            sectionTable.put(new Long(section.getId()), section);",
-        "298": "            HashMap<Long, Subpart> subpartTable = new HashMap<Long, Subpart>();",
-        "299": "            HashMap<Long, Section> sectionTable = new HashMap<Long, Section>();",
-        "334": "                            if (sectionEl.attributeValue(\"parent\") != null)",
-        "335": "                                parentSection = sectionTable.get(Long.valueOf(sectionEl.attributeValue(\"parent\")));"
-      },
-      "id": 63811288,
-      "filename": "StudentSectioningXMLLoader.java"
-    },
-    {
-      "repo": "http://cpsolver.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 634,
-      "location": "/src/net/sf/cpsolver/studentsct",
-      "name": "cpsolver",
-      "url": "https://searchcode.com/codesearch/view/4875609/",
-      "md5hash": "0996fe711d82311c62f0bf66ed97ff67",
-      "lines": {
-        "288": "            HashMap<Long, Subpart> subpartTable = new HashMap<Long, Subpart>();",
-        "289": "            HashMap<Long, Section> sectionTable = new HashMap<Long, Section>();",
-        "432": "                        r.addSection(sectionTable.get(Long.parseLong(sectionEl.attributeValue(\"id\"))));",
-        "324": "                            if (sectionEl.attributeValue(\"parent\") != null)",
-        "325": "                                parentSection = sectionTable.get(Long.valueOf(sectionEl.attributeValue(\"parent\")));",
-        "431": "                        Element sectionEl = (Element)k.next();",
-        "366": "                                    parentSection);",
-        "367": "                            sectionTable.put(new Long(section.getId()), section);"
-      },
-      "id": 4875609,
-      "filename": "StudentSectioningXMLLoader.java"
-    },
     {
       "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
       "language": "Java",
@@ -63,121 +21,33 @@
       "url": "https://searchcode.com/codesearch/view/97383956/",
       "md5hash": "677c332698819342ff2ece2baf93a4ed",
       "lines": {
-        "800": "    // write out the SectionTable.",
-        "345": "",
-        "346": "    _st = new SectionTable(_mainStream, _tableStream, _fib.getFcPlcfsed(), _fib.getLcbPlcfsed(), fcMin, _tpt, _fib.getSubdocumentTextStreamLength( SubdocumentType.MAIN));",
-        "44": "import org.apache.poi.hwpf.model.SavedByTable;",
-        "45": "import org.apache.poi.hwpf.model.SectionTable;",
-        "799": ""
+        "32": "import org.apache.poi.hwpf.model.DocumentProperties;",
+        "33": "import org.apache.poi.hwpf.model.EscherRecordHolder;",
+        "34": "import org.apache.poi.hwpf.model.FSPADocumentPart;",
+        "35": "import org.apache.poi.hwpf.model.FSPATable;",
+        "36": "import org.apache.poi.hwpf.model.FieldsTables;",
+        "37": "import org.apache.poi.hwpf.model.FontTable;",
+        "38": "import org.apache.poi.hwpf.model.ListTables;",
+        "17": "",
+        "18": "package org.apache.poi.hwpf;",
+        "26": "",
+        "27": "import org.apache.poi.hpsf.DocumentSummaryInformation;",
+        "28": "import org.apache.poi.hpsf.SummaryInformation;",
+        "29": "import org.apache.poi.hwpf.model.BookmarksTables;",
+        "30": "import org.apache.poi.hwpf.model.CHPBinTable;",
+        "31": "import org.apache.poi.hwpf.model.ComplexFileTable;"
       },
       "id": 97383956,
       "filename": "HWPFDocument.java"
-    },
-    {
-      "repo": "https://bitbucket.org/joshareed/corelyzer",
-      "language": "Java",
-      "linescount": 100,
-      "location": "/app/src/main/java/corelyzer/data",
-      "name": "corelyzer",
-      "url": "https://searchcode.com/codesearch/view/56544664/",
-      "md5hash": "7685df002cd6d33ee4f27301f8c1f367",
-      "lines": {
-        "96": "\tpublic int getTableIndex() {",
-        "97": "\t\treturn this.sectionTable;",
-        "70": "\t\tthis.wellDataSet = dataset;",
-        "71": "\t\tthis.sectionTable = table;",
-        "41": "\t */",
-        "42": "\tint sectionTable;"
-      },
-      "id": 56544664,
-      "filename": "Graph.java"
-    },
-    {
-      "repo": "https://bitbucket.org/joshareed/corelyzer",
-      "language": "Java",
-      "linescount": 117,
-      "location": "/app/src/main/java/corelyzer/data",
-      "name": "corelyzer",
-      "url": "https://searchcode.com/codesearch/view/56544669/",
-      "md5hash": "841828ceafd7cd2a02f341f4c917bf99",
-      "lines": {
-        "41": "\t */",
-        "42": "\tint sectionTable;",
-        "75": "\t\tthis.sectionTable = table;",
-        "74": "\t\tthis.wellDataSet = dataset;",
-        "110": "\t\treturn this.sectionTable;",
-        "109": "\tpublic int getTableIndex() {"
-      },
-      "id": 56544669,
-      "filename": "CoreSectionGraph.java"
-    },
-    {
-      "repo": "git://github.com/Unidata/thredds.git",
-      "language": "Java",
-      "linescount": 1068,
-      "location": "/ui/src/main/java/ucar/nc2/ui",
-      "name": "thredds",
-      "url": "https://searchcode.com/codesearch/view/17432742/",
-      "md5hash": "532f696c2cbed6d08320820f1880f4aa",
-      "lines": {
-        "80": "  private BeanTableSorted fcTable, profileTable, stnTable, stnProfileTable, trajTable, sectionTable;",
-        "235": "    // section table",
-        "236": "    sectionTable = new BeanTableSorted(SectionFeatureBean.class, (PreferencesExt) prefs.node(\"TrajFeatureBean\"), false);",
-        "237": "    sectionTable.addListSelectionListener(new ListSelectionListener() {",
-        "238": "      public void valueChanged(ListSelectionEvent e) {",
-        "79": ""
-      },
-      "id": 17432742,
-      "filename": "PointFeatureDatasetViewer.java"
-    },
-    {
-      "repo": "https://bitbucket.org/fudan/sakai",
-      "language": "Java",
-      "linescount": 136,
-      "location": "/sections/sections-app-util/src/java/org/sakaiproject/tool/section/jsf",
-      "name": "sakai",
-      "url": "https://searchcode.com/codesearch/view/129853509/",
-      "md5hash": "a90b49dd1c581a02c4266ff2d11d4fff",
-      "lines": {
-        "104": "\t\t\t// Update the SectionTable's current RowGroup",
-        "103": "\t\tif( ! rowGroupable.getRowGroupId().equals(rowGroupDataTable.category)) {"
-      },
-      "id": 129853509,
-      "filename": "RowGroupDataTableRenderer.java"
-    },
-    {
-      "repo": "git://github.com/Unidata/thredds.git",
-      "language": "Java",
-      "linescount": 736,
-      "location": "/cdm/src/main/java/ucar/nc2/ft/point/standard",
-      "name": "thredds",
-      "url": "https://searchcode.com/codesearch/view/17431432/",
-      "md5hash": "b04d39c4b820409bec6f151cc18c4537",
-      "lines": {
-        "70": " * <li> stationProfile : stnTable -> profileTable -> obsTable",
-        "71": " * <li> section : sectionTable -> trajTable -> obsTable"
-      },
-      "id": 17431432,
-      "filename": "NestedTable.java"
     }
   ],
   "page": 0,
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 3,
-      "source": "Bitbucket",
-      "id": 3
-    },
-    {
-      "count": 3,
+      "count": 1,
       "source": "Github",
       "id": 2
-    },
-    {
-      "count": 2,
-      "source": "Google Code",
-      "id": 1
     }
   ]
 }

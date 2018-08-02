@@ -1,8 +1,8 @@
 {
-  "matchterm": "DrawingSelectionRecord",
+  "matchterm": "org.apache.poi.hssf.record.DrawingSelectionRecord",
   "previouspage": null,
-  "searchterm": "DrawingSelectionRecord",
-  "query": "DrawingSelectionRecord",
+  "searchterm": "org.apache.poi.hssf.record.DrawingSelectionRecord",
+  "query": "org.apache.poi.hssf.record.DrawingSelectionRecord",
   "language_filters": [
     {
       "count": 2,
@@ -21,12 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/15642420/",
       "md5hash": "ddca9e0d8ce0ad476ef14d74ce5625dc",
       "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "",
+        "41": "package loci.poi.hssf.record;",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "public class DrawingSelectionRecord extends AbstractEscherHolderRecord",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "47": "    public DrawingSelectionRecord()",
         "50": "",
         "51": "    public DrawingSelectionRecord( RecordInputStream in )",
-        "42": "",
-        "43": "public class DrawingSelectionRecord extends AbstractEscherHolderRecord",
         "46": "",
-        "47": "    public DrawingSelectionRecord()"
+        "9": " * %%",
+        "42": "",
+        "31": ""
       },
       "id": 15642420,
       "filename": "DrawingSelectionRecord.java"
@@ -40,8 +50,21 @@
       "url": "https://searchcode.com/codesearch/view/15642481/",
       "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
       "lines": {
-        "93": "                TopMarginRecord.class, BottomMarginRecord.class,",
-        "94": "                DrawingRecord.class, DrawingGroupRecord.class, DrawingSelectionRecord.class,"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.record;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "51": " *",
+        "52": " * @deprecated use {@link loci.poi.hssf.eventmodel.EventRecordFactory} instead",
+        "53": " * @see loci.poi.hssf.eventmodel.EventRecordFactory",
+        "54": " * @author Andrew C. Oliver (acoliver at apache dot org)",
+        "55": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "56": " * @author Glen Stampoultzis (glens at apache.org)",
+        "57": " * @author Csaba Nagy (ncsaba at yahoo dot com)",
+        "31": ""
       },
       "id": 15642481,
       "filename": "RecordFactory.java"

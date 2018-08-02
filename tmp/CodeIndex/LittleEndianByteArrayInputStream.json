@@ -1,8 +1,8 @@
 {
-  "matchterm": "LittleEndianByteArrayInputStream",
+  "matchterm": "org.apache.poi.util.LittleEndianByteArrayInputStream",
   "previouspage": null,
-  "searchterm": "LittleEndianByteArrayInputStream",
-  "query": "LittleEndianByteArrayInputStream",
+  "searchterm": "org.apache.poi.util.LittleEndianByteArrayInputStream",
+  "query": "org.apache.poi.util.LittleEndianByteArrayInputStream",
   "language_filters": [
     {
       "count": 1,
@@ -21,14 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/97399800/",
       "md5hash": "c344aab922daa100de544d84c75b9204",
       "lines": {
-        "34": "\t}",
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
         "35": "\tpublic LittleEndianByteArrayInputStream(byte[] buf, int startOffset) {",
-        "37": "\t}",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
         "38": "\tpublic LittleEndianByteArrayInputStream(byte[] buf) {",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "34": "\t}",
+        "17": "",
+        "18": "package org.apache.poi.util;",
         "24": " */",
         "25": "public final class LittleEndianByteArrayInputStream implements LittleEndianInput {",
         "29": "",
-        "30": "\tpublic LittleEndianByteArrayInputStream(byte[] buf, int startOffset, int maxReadLen) {"
+        "30": "\tpublic LittleEndianByteArrayInputStream(byte[] buf, int startOffset, int maxReadLen) {",
+        "37": "\t}"
       },
       "id": 97399800,
       "filename": "LittleEndianByteArrayInputStream.java"

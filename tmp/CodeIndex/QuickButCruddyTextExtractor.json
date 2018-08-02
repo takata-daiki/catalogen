@@ -1,8 +1,8 @@
 {
-  "matchterm": "QuickButCruddyTextExtractor",
+  "matchterm": "org.apache.poi.hslf.extractor.QuickButCruddyTextExtractor",
   "previouspage": null,
-  "searchterm": "QuickButCruddyTextExtractor",
-  "query": "QuickButCruddyTextExtractor",
+  "searchterm": "org.apache.poi.hslf.extractor.QuickButCruddyTextExtractor",
+  "query": "org.apache.poi.hslf.extractor.QuickButCruddyTextExtractor",
   "language_filters": [
     {
       "count": 1,
@@ -21,10 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/107461104/",
       "md5hash": "f15b52799630b1d8e39906fafdf7b9a8",
       "lines": {
+        "32": "import org.apache.poi.poifs.filesystem.POIFSFileSystem;",
+        "33": "import org.pdfbox.pdmodel.PDDocument;",
+        "34": "import org.pdfbox.util.PDFTextStripper;",
+        "35": "",
+        "36": "public class TextExtractor {",
+        "37": "    ",
+        "15": " * You should have received a copy of the GNU Affero General Public License",
+        "16": " * along with this program.  If not, see <http://www.gnu.org/licenses/>.",
         "25": "",
         "26": "import org.apache.poi.hslf.extractor.QuickButCruddyTextExtractor;",
-        "66": "\t    QuickButCruddyTextExtractor qbcte = new QuickButCruddyTextExtractor(is);",
-        "65": "\tpublic static String msPowerPointExtractor(InputStream is) throws Exception{"
+        "27": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "29": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "31": "import org.apache.poi.hwpf.extractor.WordExtractor;"
       },
       "id": 107461104,
       "filename": "TextExtractor.java"

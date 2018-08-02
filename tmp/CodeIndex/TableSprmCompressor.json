@@ -1,8 +1,8 @@
 {
-  "matchterm": "TableSprmCompressor",
+  "matchterm": "org.apache.poi.hwpf.sprm.TableSprmCompressor",
   "previouspage": null,
-  "searchterm": "TableSprmCompressor",
-  "query": "TableSprmCompressor",
+  "searchterm": "org.apache.poi.hwpf.sprm.TableSprmCompressor",
+  "query": "org.apache.poi.hwpf.sprm.TableSprmCompressor",
   "language_filters": [
     {
       "count": 1,
@@ -21,10 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97384407/",
       "md5hash": "d9e337622aaacee6d2790b7572b0af11",
       "lines": {
-        "564": "    setTableRowEnd(true);",
+        "32": "import org.apache.poi.util.POILogFactory;",
+        "33": "import org.apache.poi.util.POILogger;",
+        "17": "",
+        "18": "package org.apache.poi.hwpf.usermodel;",
+        "21": "",
+        "22": "import org.apache.poi.hwpf.HWPFDocumentCore;",
+        "23": "import org.apache.poi.hwpf.model.LFO;",
+        "24": "import org.apache.poi.hwpf.model.ListLevel;",
+        "25": "import org.apache.poi.hwpf.model.ListTables;",
+        "26": "import org.apache.poi.hwpf.model.PAPX;",
+        "27": "import org.apache.poi.hwpf.model.StyleSheet;",
+        "28": "import org.apache.poi.hwpf.sprm.ParagraphSprmUncompressor;",
         "29": "import org.apache.poi.hwpf.sprm.SprmBuffer;",
         "30": "import org.apache.poi.hwpf.sprm.TableSprmCompressor;",
-        "565": "    byte[] grpprl = TableSprmCompressor.compressTableProperty(props);"
+        "31": "import org.apache.poi.util.Internal;"
       },
       "id": 97384407,
       "filename": "Paragraph.java"

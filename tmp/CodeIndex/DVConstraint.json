@@ -1,8 +1,8 @@
 {
-  "matchterm": "DVConstraint",
+  "matchterm": "org.apache.poi.hssf.usermodel.DVConstraint",
   "previouspage": null,
-  "searchterm": "DVConstraint",
-  "query": "DVConstraint",
+  "searchterm": "org.apache.poi.hssf.usermodel.DVConstraint",
+  "query": "org.apache.poi.hssf.usermodel.DVConstraint",
   "language_filters": [
     {
       "count": 1,
@@ -21,21 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/72854649/",
       "md5hash": "9b32ac4d62bd845be04702f4e7103178",
       "lines": {
-        "80": "\t\t\t\t\t\t\t) {",
-        "67": "\t\t\t\t\tint validationType = dvRecord.getDataType();",
-        "68": "\t\t\t\t\tif (validationType == DVConstraint.ValidationType.LIST) {",
-        "71": "\t\t\t\t\t\t\t\tf1.getTokens(), workbook);",
-        "72": "\t\t\t\t\t\tDVConstraint dvConstraint = DVConstraint",
-        "74": "\t\t\t\t\t\tHSSFDataValidation validation = new HSSFDataValidation(",
-        "75": "\t\t\t\t\t\t\t\tcellRangeAddressList, dvConstraint);",
-        "76": "\t\t\t\t\t\tdataValidation.add(validation);",
-        "77": "\t\t\t\t\t} else if (validationType == DVConstraint.ValidationType.INTEGER",
-        "78": "\t\t\t\t\t\t\t|| validationType == DVConstraint.ValidationType.DECIMAL",
+        "11": "",
+        "12": "import org.apache.poi.hssf.record.DVRecord;",
+        "13": "import org.apache.poi.hssf.record.Record;",
+        "14": "import org.apache.poi.hssf.record.aggregates.DataValidityTable;",
         "15": "import org.apache.poi.hssf.record.aggregates.RecordAggregate;",
         "16": "import org.apache.poi.hssf.usermodel.DVConstraint;",
-        "87": "\t\t\t\t\t\tint comparison = dvRecord.getConditionOperator();",
-        "88": "\t\t\t\t\t\tDVConstraint dvConstraint = DVConstraint",
-        "79": "\t\t\t\t\t\t\t|| validationType == DVConstraint.ValidationType.TEXT_LENGTH"
+        "17": "import org.apache.poi.hssf.usermodel.HSSFDataValidation;",
+        "18": "import org.apache.poi.hssf.usermodel.HSSFEvaluationWorkbook;",
+        "19": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "20": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "21": "import org.apache.poi.ss.formula.Formula;",
+        "22": "import org.apache.poi.ss.formula.ptg.IntPtg;",
+        "23": "import org.apache.poi.ss.formula.ptg.NamePtg;",
+        "24": "import org.apache.poi.ss.formula.ptg.Ptg;",
+        "25": "import org.apache.poi.ss.formula.ptg.StringPtg;"
       },
       "id": 72854649,
       "filename": "PatchedPoi.java"

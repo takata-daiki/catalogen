@@ -1,17 +1,46 @@
 {
-  "matchterm": "RightMarginRecord",
+  "matchterm": "org.apache.poi.hssf.record.RightMarginRecord",
   "previouspage": null,
-  "searchterm": "RightMarginRecord",
-  "query": "RightMarginRecord",
+  "searchterm": "org.apache.poi.hssf.record.RightMarginRecord",
+  "query": "org.apache.poi.hssf.record.RightMarginRecord",
   "language_filters": [
     {
-      "count": 18,
+      "count": 4,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 18,
+  "total": 4,
   "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 506,
+      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642343/",
+      "md5hash": "468caa59753e7c2d27a76f3903f70894",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "50": "",
+        "51": "import loci.poi.hssf.record.BOFRecord;",
+        "52": "import loci.poi.hssf.record.BackupRecord;",
+        "53": "import loci.poi.hssf.record.BlankRecord;",
+        "54": "import loci.poi.hssf.record.BookBoolRecord;",
+        "55": "import loci.poi.hssf.record.BoolErrRecord;",
+        "56": "import loci.poi.hssf.record.BottomMarginRecord;",
+        "57": "import loci.poi.hssf.record.BoundSheetRecord;",
+        "58": "import loci.poi.hssf.record.CalcCountRecord;",
+        "59": "import loci.poi.hssf.record.CalcModeRecord;",
+        "31": ""
+      },
+      "id": 15642343,
+      "filename": "EventRecordFactory.java"
+    },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
       "language": "Java",
@@ -21,118 +50,23 @@
       "url": "https://searchcode.com/codesearch/view/15642518/",
       "md5hash": "d5db1f6387b8853953e33c32fc51252a",
       "lines": {
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "",
+        "41": "package loci.poi.hssf.record;",
+        "42": "",
+        "45": "/**",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "13": " * ",
         "48": "public class RightMarginRecord extends Record implements Margin",
-        "113": "    {",
-        "114": "        RightMarginRecord rec = new RightMarginRecord();",
         "52": "",
+        "46": " * Record for the right margin. * NOTE: This source was automatically generated. * @author Shawn Laubach (slaubach at apache dot org)",
+        "47": " */",
         "53": "    public RightMarginRecord()    {    }",
-        "57": "     */",
-        "58": "    public RightMarginRecord( RecordInputStream in )",
-        "47": " */"
+        "30": "",
+        "31": "       http://www.apache.org/licenses/LICENSE-2.0"
       },
       "id": 15642518,
-      "filename": "RightMarginRecord.java"
-    },
-    {
-      "repo": "https://bitbucket.org/openesb/openesb-components.git",
-      "language": "Java",
-      "linescount": 34,
-      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
-      "name": "openesb-components",
-      "url": "https://searchcode.com/codesearch/view/43260298/",
-      "md5hash": "8de25a156cbf55c2da7726cf77624d57",
-      "lines": {
-        "26": " */",
-        "27": "class RightMarginRecord extends MarginRecord",
-        "28": "{",
-        "29": "  RightMarginRecord(double v)"
-      },
-      "id": 43260298,
-      "filename": "RightMarginRecord.java"
-    },
-    {
-      "repo": "https://bitbucket.org/openesb/openesb-components.git",
-      "language": "Java",
-      "linescount": 38,
-      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
-      "name": "openesb-components",
-      "url": "https://searchcode.com/codesearch/view/43260400/",
-      "md5hash": "7ce615013f55c39871e3fbf504dde67b",
-      "lines": {
-        "32": "   */",
-        "33": "  RightMarginRecord(Record r)",
-        "26": " */",
-        "27": "class RightMarginRecord extends MarginRecord"
-      },
-      "id": 43260400,
-      "filename": "RightMarginRecord.java"
-    },
-    {
-      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
-      "language": "Java",
-      "linescount": 34,
-      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
-      "name": "openesb-components",
-      "url": "https://searchcode.com/codesearch/view/49200826/",
-      "md5hash": "8de25a156cbf55c2da7726cf77624d57",
-      "lines": {
-        "26": " */",
-        "27": "class RightMarginRecord extends MarginRecord",
-        "28": "{",
-        "29": "  RightMarginRecord(double v)"
-      },
-      "id": 49200826,
-      "filename": "RightMarginRecord.java"
-    },
-    {
-      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
-      "language": "Java",
-      "linescount": 38,
-      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
-      "name": "openesb-components",
-      "url": "https://searchcode.com/codesearch/view/49200928/",
-      "md5hash": "7ce615013f55c39871e3fbf504dde67b",
-      "lines": {
-        "32": "   */",
-        "33": "  RightMarginRecord(Record r)",
-        "26": " */",
-        "27": "class RightMarginRecord extends MarginRecord"
-      },
-      "id": 49200928,
-      "filename": "RightMarginRecord.java"
-    },
-    {
-      "repo": "http://cellengine.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 38,
-      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/read/biff",
-      "name": "cellengine",
-      "url": "https://searchcode.com/codesearch/view/11374465/",
-      "md5hash": "7ce615013f55c39871e3fbf504dde67b",
-      "lines": {
-        "32": "   */",
-        "33": "  RightMarginRecord(Record r)",
-        "26": " */",
-        "27": "class RightMarginRecord extends MarginRecord"
-      },
-      "id": 11374465,
-      "filename": "RightMarginRecord.java"
-    },
-    {
-      "repo": "http://cellengine.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 34,
-      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/write/biff",
-      "name": "cellengine",
-      "url": "https://searchcode.com/codesearch/view/11374627/",
-      "md5hash": "d0b28b2f0608cb95a7b99cd32640eb49",
-      "lines": {
-        "26": " */",
-        "27": "class RightMarginRecord extends MarginRecord",
-        "28": "{",
-        "29": "  RightMarginRecord(double v)"
-      },
-      "id": 11374627,
       "filename": "RightMarginRecord.java"
     },
     {
@@ -144,152 +78,25 @@
       "url": "https://searchcode.com/codesearch/view/15642365/",
       "md5hash": "1e8d548d196dc1063c30d9430b35b9f5",
       "lines": {
-        "2400": "\t\tcase RightMargin:",
-        "2401": "\t\t    m = new RightMarginRecord();",
-        "279": "            }",
-        "280": "            else if ( rec.getSid() == RightMarginRecord.sid)",
-        "281": "            {",
-        "282": "                retval.getMargins()[RightMargin] = (RightMarginRecord) rec;"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.model;",
+        "43": "",
+        "44": "import loci.poi.hssf.record.*;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import loci.poi.hssf.record.aggregates.ColumnInfoRecordsAggregate;",
+        "48": "import loci.poi.hssf.record.aggregates.ValueRecordsAggregate;",
+        "49": "import loci.poi.hssf.record.formula.Ptg;",
+        "50": "import loci.poi.hssf.util.PaneInformation;",
+        "46": "import loci.poi.hssf.record.aggregates.FormulaRecordAggregate;",
+        "47": "import loci.poi.hssf.record.aggregates.RowRecordsAggregate;",
+        "31": ""
       },
       "id": 15642365,
       "filename": "Sheet.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 506,
-      "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642343/",
-      "md5hash": "468caa59753e7c2d27a76f3903f70894",
-      "lines": {
-        "112": "import loci.poi.hssf.record.RefreshAllRecord;",
-        "113": "import loci.poi.hssf.record.RightMarginRecord;",
-        "181": "                BoolErrRecord.class, ExternSheetRecord.class, NameRecord.class,",
-        "182": "                LeftMarginRecord.class, RightMarginRecord.class,"
-      },
-      "id": 15642343,
-      "filename": "EventRecordFactory.java"
-    },
-    {
-      "repo": "https://bitbucket.org/openesb/openesb-components.git",
-      "language": "Java",
-      "linescount": 1148,
-      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
-      "name": "openesb-components",
-      "url": "https://searchcode.com/codesearch/view/43260286/",
-      "md5hash": "ffa1236c86df17622a6a9299c36353c8",
-      "lines": {
-        "348": "    {",
-        "349": "      MarginRecord mr = new RightMarginRecord(settings.getRightMargin());"
-      },
-      "id": 43260286,
-      "filename": "SheetWriter.java"
-    },
-    {
-      "repo": "https://bitbucket.org/openesb/openesb-components.git",
-      "language": "Java",
-      "linescount": 1850,
-      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
-      "name": "openesb-components",
-      "url": "https://searchcode.com/codesearch/view/43260387/",
-      "md5hash": "7f91270abbfb3387b7abcd30255c0a02",
-      "lines": {
-        "916": "      {",
-        "917": "        MarginRecord m = new RightMarginRecord(r);"
-      },
-      "id": 43260387,
-      "filename": "SheetReader.java"
-    },
-    {
-      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
-      "language": "Java",
-      "linescount": 1148,
-      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
-      "name": "openesb-components",
-      "url": "https://searchcode.com/codesearch/view/49200814/",
-      "md5hash": "ffa1236c86df17622a6a9299c36353c8",
-      "lines": {
-        "348": "    {",
-        "349": "      MarginRecord mr = new RightMarginRecord(settings.getRightMargin());"
-      },
-      "id": 49200814,
-      "filename": "SheetWriter.java"
-    },
-    {
-      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
-      "language": "Java",
-      "linescount": 1850,
-      "location": "/ojc-core/component-common/axiondb/external/src/jxl/read/biff",
-      "name": "openesb-components",
-      "url": "https://searchcode.com/codesearch/view/49200915/",
-      "md5hash": "7f91270abbfb3387b7abcd30255c0a02",
-      "lines": {
-        "916": "      {",
-        "917": "        MarginRecord m = new RightMarginRecord(r);"
-      },
-      "id": 49200915,
-      "filename": "SheetReader.java"
-    },
-    {
-      "repo": "http://cellengine.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 1850,
-      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/read/biff",
-      "name": "cellengine",
-      "url": "https://searchcode.com/codesearch/view/11374407/",
-      "md5hash": "7f91270abbfb3387b7abcd30255c0a02",
-      "lines": {
-        "916": "      {",
-        "917": "        MarginRecord m = new RightMarginRecord(r);"
-      },
-      "id": 11374407,
-      "filename": "SheetReader.java"
-    },
-    {
-      "repo": "http://cellengine.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 1148,
-      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/write/biff",
-      "name": "cellengine",
-      "url": "https://searchcode.com/codesearch/view/11374608/",
-      "md5hash": "d2bb3c01a6178871cd169bd35ec691ea",
-      "lines": {
-        "348": "    {",
-        "349": "      MarginRecord mr = new RightMarginRecord(settings.getRightMargin());"
-      },
-      "id": 11374608,
-      "filename": "SheetWriter.java"
-    },
-    {
-      "repo": "http://brainstream.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 1901,
-      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/read/biff",
-      "name": "brainstream",
-      "url": "https://searchcode.com/codesearch/view/13919585/",
-      "md5hash": "64420fd674275ba389b00cf0c5263661",
-      "lines": {
-        "917": "      {",
-        "918": "        MarginRecord m = new RightMarginRecord(r);"
-      },
-      "id": 13919585,
-      "filename": "SheetReader.java"
-    },
-    {
-      "repo": "http://brainstream.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 1148,
-      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/write/biff",
-      "name": "brainstream",
-      "url": "https://searchcode.com/codesearch/view/13919791/",
-      "md5hash": "5094787ddf1c15c3bd7058fdd6237342",
-      "lines": {
-        "348": "    {",
-        "349": "      MarginRecord mr = new RightMarginRecord(settings.getRightMargin());"
-      },
-      "id": 13919791,
-      "filename": "SheetWriter.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -300,8 +107,21 @@
       "url": "https://searchcode.com/codesearch/view/15642481/",
       "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
       "lines": {
-        "91": "                FormulaRecord.class, BoolErrRecord.class, ExternSheetRecord.class,",
-        "92": "                NameRecord.class, LeftMarginRecord.class, RightMarginRecord.class,"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.record;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "51": " *",
+        "52": " * @deprecated use {@link loci.poi.hssf.eventmodel.EventRecordFactory} instead",
+        "53": " * @see loci.poi.hssf.eventmodel.EventRecordFactory",
+        "54": " * @author Andrew C. Oliver (acoliver at apache dot org)",
+        "55": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "56": " * @author Glen Stampoultzis (glens at apache.org)",
+        "57": " * @author Csaba Nagy (ncsaba at yahoo dot com)",
+        "31": ""
       },
       "id": 15642481,
       "filename": "RecordFactory.java"
@@ -310,16 +130,6 @@
   "page": 0,
   "nextpage": 1,
   "source_filters": [
-    {
-      "count": 8,
-      "source": "Bitbucket",
-      "id": 3
-    },
-    {
-      "count": 6,
-      "source": "Google Code",
-      "id": 1
-    },
     {
       "count": 4,
       "source": "Github",

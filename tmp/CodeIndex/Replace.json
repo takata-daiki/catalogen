@@ -1,398 +1,115 @@
 {
-  "matchterm": "Replace",
+  "matchterm": "org.apache.poi.ss.formula.functions.Replace",
   "previouspage": null,
-  "searchterm": "Replace",
-  "query": "Replace",
+  "searchterm": "org.apache.poi.ss.formula.functions.Replace",
+  "query": "org.apache.poi.ss.formula.functions.Replace",
   "language_filters": [
     {
-      "count": 131222,
+      "count": 3,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 131222,
+  "total": 3,
   "results": [
     {
-      "repo": "https://bitbucket.org/xiangshen/tec",
+      "repo": "https://github.com/nic9805/jeecg.git",
       "language": "Java",
-      "linescount": 42,
-      "location": "/TecAndroidCommon/src/org/simpleframework/xml/core",
-      "name": "tec",
-      "url": "https://searchcode.com/codesearch/view/125752843/",
-      "md5hash": "e8639f00d38b26faeab764aa5592e4fc",
+      "linescount": 619,
+      "location": "/jeecg-framework/src/main/java/org/jeecgframework/poi/excel",
+      "name": "jeecg",
+      "url": "https://searchcode.com/codesearch/view/93182047/",
+      "md5hash": "26277c75bb849c4fac8bde1956135edc",
       "lines": {
-        "32": " * Java Object Serialization in that it is used to plug a replacement",
-        "1": "/*",
-        "2": " * Replace.java June 2007",
-        "33": " * in to the resulting stream during the serialization process. Care",
-        "40": "public @interface Replace {  ",
-        "39": "@Retention(RetentionPolicy.RUNTIME)",
-        "34": " * should be taken to provide a suitable type from the replacement so",
-        "24": "/**",
-        "25": " * The <code>Replace</code> method is used to replace an object that",
-        "28": " * as serializing an object to an external file or location can be",
-        "29": " * accommodated using a write replacement method.",
-        "30": " * <p>",
-        "31": " * This is similar to the <code>writeReplace</code> method used within"
+        "32": "import org.apache.poi.ss.usermodel.PictureData;",
+        "33": "import org.apache.poi.ss.usermodel.Row;",
+        "34": "import org.apache.poi.ss.usermodel.Sheet;",
+        "35": "import org.apache.poi.ss.usermodel.Workbook;",
+        "36": "import org.apache.poi.xssf.usermodel.XSSFSheet;",
+        "37": "import org.apache.poi.xssf.usermodel.XSSFWorkbook;",
+        "38": "import org.jeecgframework.core.util.ApplicationContextUtil;",
+        "24": "import org.apache.commons.lang.StringUtils;",
+        "25": "import org.apache.poi.POIXMLDocument;",
+        "26": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "28": "import org.apache.poi.openxml4j.opc.OPCPackage;",
+        "29": "import org.apache.poi.poifs.filesystem.POIFSFileSystem;",
+        "30": "import org.apache.poi.ss.formula.functions.T;",
+        "31": "import org.apache.poi.ss.usermodel.Cell;"
       },
-      "id": 125752843,
-      "filename": "Replace.java"
+      "id": 93182047,
+      "filename": "ExcelImportUtil.java"
     },
     {
-      "repo": "https://bitbucket.org/xiangshen/tecandorid",
+      "repo": "git://github.com/beangle/library.git",
       "language": "Java",
-      "linescount": 42,
-      "location": "/TecAndroidCommon/src/org/simpleframework/xml/core",
-      "name": "tecandorid",
-      "url": "https://searchcode.com/codesearch/view/129085269/",
-      "md5hash": "e8639f00d38b26faeab764aa5592e4fc",
+      "linescount": 854,
+      "location": "/library/org.beangle.core/src/main/java/org/beangle/orm/hibernate",
+      "name": "library",
+      "url": "https://searchcode.com/codesearch/view/15825686/",
+      "md5hash": "380ff3a7a0b82cdaee9c97de8563ff29",
       "lines": {
-        "32": " * Java Object Serialization in that it is used to plug a replacement",
-        "1": "/*",
-        "2": " * Replace.java June 2007",
-        "33": " * in to the resulting stream during the serialization process. Care",
-        "40": "public @interface Replace {  ",
-        "39": "@Retention(RetentionPolicy.RUNTIME)",
-        "34": " * should be taken to provide a suitable type from the replacement so",
-        "24": "/**",
-        "25": " * The <code>Replace</code> method is used to replace an object that",
-        "28": " * as serializing an object to an external file or location can be",
-        "29": " * accommodated using a write replacement method.",
-        "30": " * <p>",
-        "31": " * This is similar to the <code>writeReplace</code> method used within"
+        "1": "/* Copyright c 2005-2012.",
+        "2": " * Licensed under GNU  LESSER General Public License, Version 3.",
+        "3": " * http://www.gnu.org/licenses",
+        "4": " */",
+        "5": "package org.beangle.orm.hibernate;",
+        "19": "",
+        "20": "import org.apache.commons.lang.ArrayUtils;",
+        "21": "import org.apache.commons.lang.StringUtils;",
+        "22": "import org.apache.commons.lang.Validate;",
+        "23": "import org.apache.poi.ss.formula.functions.T;",
+        "24": "import org.beangle.collection.CollectUtils;",
+        "25": "import org.beangle.collection.page.Page;",
+        "26": "import org.beangle.collection.page.PageLimit;",
+        "27": "import org.beangle.collection.page.SinglePage;",
+        "28": "import org.beangle.dao.Entity;"
       },
-      "id": 129085269,
-      "filename": "Replace.java"
+      "id": 15825686,
+      "filename": "HibernateEntityDao.java"
     },
     {
-      "repo": "https://bitbucket.org/xiangshen/tec_jgroups",
+      "repo": "https://bitbucket.org/openicar/juniprint",
       "language": "Java",
-      "linescount": 42,
-      "location": "/TecAndroidCommon/src/org/simpleframework/xml/core",
-      "name": "tec_jgroups",
-      "url": "https://searchcode.com/codesearch/view/136470357/",
-      "md5hash": "e8639f00d38b26faeab764aa5592e4fc",
+      "linescount": 2096,
+      "location": "/src/main/java/org/comsoft/juniprint",
+      "name": "juniprint",
+      "url": "https://searchcode.com/codesearch/view/60212057/",
+      "md5hash": "e9487002cf69dbd9246766c01c968b73",
       "lines": {
-        "32": " * Java Object Serialization in that it is used to plug a replacement",
-        "1": "/*",
-        "2": " * Replace.java June 2007",
-        "33": " * in to the resulting stream during the serialization process. Care",
-        "40": "public @interface Replace {  ",
-        "39": "@Retention(RetentionPolicy.RUNTIME)",
-        "34": " * should be taken to provide a suitable type from the replacement so",
-        "24": "/**",
-        "25": " * The <code>Replace</code> method is used to replace an object that",
-        "28": " * as serializing an object to an external file or location can be",
-        "29": " * accommodated using a write replacement method.",
-        "30": " * <p>",
-        "31": " * This is similar to the <code>writeReplace</code> method used within"
+        "32": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "33": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "34": "import org.apache.poi.hssf.usermodel.HSSFComment;",
+        "35": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator;",
+        "37": "import org.apache.poi.hssf.usermodel.HSSFName;",
+        "6": " * %%",
+        "7": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "10": " * ",
+        "11": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "12": " * ",
+        "39": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "38": "import org.apache.poi.hssf.usermodel.HSSFPrintSetup;",
+        "29": "",
+        "30": "import org.apache.poi.hssf.record.formula.functions.FreeRefFunction;",
+        "31": "import org.apache.poi.hssf.record.formula.udf.DefaultUDFFinder;"
       },
-      "id": 136470357,
-      "filename": "Replace.java"
-    },
-    {
-      "repo": "https://bitbucket.org/nbargnesi/idea.git",
-      "language": "Java",
-      "linescount": 10,
-      "location": "/plugins/InspectionGadgets/test/com/siyeh/igtest/inheritance/staticInheritance",
-      "name": "idea",
-      "url": "https://searchcode.com/codesearch/view/39390466/",
-      "md5hash": "68db57cc9349243d7da754e11b2998ee",
-      "lines": {
-        "1": "// \"Replace inheritance with qualified references in this class\" \"true\"",
-        "2": "public class ConstImpl implements <caret>Const{"
-      },
-      "id": 39390466,
-      "filename": "beforeSimple.java"
-    },
-    {
-      "repo": "https://bitbucket.org/nbargnesi/idea.git",
-      "language": "Java",
-      "linescount": 10,
-      "location": "/plugins/InspectionGadgets/test/com/siyeh/igtest/inheritance/staticInheritance",
-      "name": "idea",
-      "url": "https://searchcode.com/codesearch/view/39390467/",
-      "md5hash": "9bf52c7e170d369b5944ae8f8256bc94",
-      "lines": {
-        "1": "// \"Replace inheritance with qualified references in this class\" \"true\"",
-        "2": "public class ConstImpl <caret>{"
-      },
-      "id": 39390467,
-      "filename": "afterSimple.java"
-    },
-    {
-      "repo": "https://bitbucket.org/nbargnesi/idea.git",
-      "language": "Java",
-      "linescount": 4,
-      "location": "/java/java-tests/testData/psi/parser-full/declarationParsing/class",
-      "name": "idea",
-      "url": "https://searchcode.com/codesearch/view/39408906/",
-      "md5hash": "ad12148acbab214ecf6ede352d562286",
-      "lines": {
-        "1": "// \"Replace Implements with Static Import\" \"true\"",
-        "2": "interface I<caret>n {"
-      },
-      "id": 39408906,
-      "filename": "Errors1.java"
-    },
-    {
-      "repo": "https://bitbucket.org/nbargnesi/idea.git",
-      "language": "Java",
-      "linescount": 18,
-      "location": "/java/java-tests/testData/codeInsight/daemonCodeAnalyzer/replaceImplementsWithStaticImport",
-      "name": "idea",
-      "url": "https://searchcode.com/codesearch/view/39411583/",
-      "md5hash": "f7a28c2aeb818cb95d1706d81f943eff",
-      "lines": {
-        "1": "// \"Replace Implements with Static Import\" \"true\"",
-        "2": "interface I<caret>n {"
-      },
-      "id": 39411583,
-      "filename": "before9.java"
-    },
-    {
-      "repo": "https://bitbucket.org/nbargnesi/idea.git",
-      "language": "Java",
-      "linescount": 16,
-      "location": "/java/java-tests/testData/codeInsight/daemonCodeAnalyzer/replaceImplementsWithStaticImport",
-      "name": "idea",
-      "url": "https://searchcode.com/codesearch/view/39411584/",
-      "md5hash": "256e78e644a22329d03acaaddc323b5c",
-      "lines": {
-        "1": "// \"Replace Implements with Static Import\" \"true\"",
-        "2": "public class X implements II {"
-      },
-      "id": 39411584,
-      "filename": "before8.java"
-    },
-    {
-      "repo": "https://bitbucket.org/nbargnesi/idea.git",
-      "language": "Java",
-      "linescount": 16,
-      "location": "/java/java-tests/testData/codeInsight/daemonCodeAnalyzer/replaceImplementsWithStaticImport",
-      "name": "idea",
-      "url": "https://searchcode.com/codesearch/view/39411585/",
-      "md5hash": "0b2e6d69e9e22952c67bd31082bd316d",
-      "lines": {
-        "1": "// \"Replace Implements with Static Import\" \"true\"",
-        "2": "public class X implements I {"
-      },
-      "id": 39411585,
-      "filename": "before7.java"
-    },
-    {
-      "repo": "https://bitbucket.org/nbargnesi/idea.git",
-      "language": "Java",
-      "linescount": 15,
-      "location": "/java/java-tests/testData/codeInsight/daemonCodeAnalyzer/replaceImplementsWithStaticImport",
-      "name": "idea",
-      "url": "https://searchcode.com/codesearch/view/39411586/",
-      "md5hash": "35926831708aaf4056a8aff3f00cd798",
-      "lines": {
-        "1": "// \"Replace Implements with Static Import\" \"true\"",
-        "2": "public class X implements <caret>I {"
-      },
-      "id": 39411586,
-      "filename": "before6.java"
-    },
-    {
-      "repo": "https://bitbucket.org/nbargnesi/idea.git",
-      "language": "Java",
-      "linescount": 14,
-      "location": "/java/java-tests/testData/codeInsight/daemonCodeAnalyzer/replaceImplementsWithStaticImport",
-      "name": "idea",
-      "url": "https://searchcode.com/codesearch/view/39411587/",
-      "md5hash": "2f96fe1743e988ff618f56cc1e288f23",
-      "lines": {
-        "1": "// \"Replace Implements with Static Import\" \"false\"",
-        "2": "public class X implements <caret>I {"
-      },
-      "id": 39411587,
-      "filename": "before5.java"
-    },
-    {
-      "repo": "https://bitbucket.org/nbargnesi/idea.git",
-      "language": "Java",
-      "linescount": 7,
-      "location": "/java/java-tests/testData/codeInsight/daemonCodeAnalyzer/replaceImplementsWithStaticImport",
-      "name": "idea",
-      "url": "https://searchcode.com/codesearch/view/39411588/",
-      "md5hash": "09358fc8610c2c8b9fb2dbd48accfaa4",
-      "lines": {
-        "1": "// \"Replace Implements with Static Import\" \"false\"",
-        "2": "public class X implements <caret>I {"
-      },
-      "id": 39411588,
-      "filename": "before4.java"
-    },
-    {
-      "repo": "https://bitbucket.org/nbargnesi/idea.git",
-      "language": "Java",
-      "linescount": 22,
-      "location": "/java/java-tests/testData/codeInsight/daemonCodeAnalyzer/replaceImplementsWithStaticImport",
-      "name": "idea",
-      "url": "https://searchcode.com/codesearch/view/39411589/",
-      "md5hash": "1aed54aa736dee43bfaf5d152944ac3c",
-      "lines": {
-        "1": "// \"Replace Implements with Static Import\" \"false\"",
-        "2": "public class X implements <caret>I {"
-      },
-      "id": 39411589,
-      "filename": "before3.java"
-    },
-    {
-      "repo": "https://bitbucket.org/nbargnesi/idea.git",
-      "language": "Java",
-      "linescount": 20,
-      "location": "/java/java-tests/testData/codeInsight/daemonCodeAnalyzer/replaceImplementsWithStaticImport",
-      "name": "idea",
-      "url": "https://searchcode.com/codesearch/view/39411590/",
-      "md5hash": "6872a2dae0553206e644ed6bc255772f",
-      "lines": {
-        "1": "// \"Replace Implements with Static Import\" \"true\"",
-        "2": "public class X implements <caret>I {"
-      },
-      "id": 39411590,
-      "filename": "before2.java"
-    },
-    {
-      "repo": "https://bitbucket.org/nbargnesi/idea.git",
-      "language": "Java",
-      "linescount": 27,
-      "location": "/java/java-tests/testData/codeInsight/daemonCodeAnalyzer/replaceImplementsWithStaticImport",
-      "name": "idea",
-      "url": "https://searchcode.com/codesearch/view/39411591/",
-      "md5hash": "4f0e718501eeded79ff0caeaeee55b23",
-      "lines": {
-        "1": "// \"Replace Implements with Static Import\" \"true\"",
-        "2": "interface I<caret>n {"
-      },
-      "id": 39411591,
-      "filename": "before12.java"
-    },
-    {
-      "repo": "https://bitbucket.org/nbargnesi/idea.git",
-      "language": "Java",
-      "linescount": 27,
-      "location": "/java/java-tests/testData/codeInsight/daemonCodeAnalyzer/replaceImplementsWithStaticImport",
-      "name": "idea",
-      "url": "https://searchcode.com/codesearch/view/39411592/",
-      "md5hash": "d5edef53964c64a8d3fcb8900c1b8208",
-      "lines": {
-        "1": "// \"Replace Implements with Static Import\" \"true\"",
-        "2": "interface I<caret>n {"
-      },
-      "id": 39411592,
-      "filename": "before11.java"
-    },
-    {
-      "repo": "https://bitbucket.org/nbargnesi/idea.git",
-      "language": "Java",
-      "linescount": 24,
-      "location": "/java/java-tests/testData/codeInsight/daemonCodeAnalyzer/replaceImplementsWithStaticImport",
-      "name": "idea",
-      "url": "https://searchcode.com/codesearch/view/39411593/",
-      "md5hash": "8fcf4ecbba0e8d20413c297abcdd68bf",
-      "lines": {
-        "1": "// \"Replace Implements with Static Import\" \"true\"",
-        "2": "interface I<caret>n {"
-      },
-      "id": 39411593,
-      "filename": "before10.java"
-    },
-    {
-      "repo": "https://bitbucket.org/nbargnesi/idea.git",
-      "language": "Java",
-      "linescount": 10,
-      "location": "/java/java-tests/testData/codeInsight/daemonCodeAnalyzer/replaceImplementsWithStaticImport",
-      "name": "idea",
-      "url": "https://searchcode.com/codesearch/view/39411594/",
-      "md5hash": "61d0cf85d3fe740621a30640d34014d2",
-      "lines": {
-        "1": "// \"Replace Implements with Static Import\" \"true\"",
-        "2": "public class X implements <caret>I {"
-      },
-      "id": 39411594,
-      "filename": "before1.java"
-    },
-    {
-      "repo": "https://bitbucket.org/nbargnesi/idea.git",
-      "language": "Java",
-      "linescount": 8,
-      "location": "/java/java-tests/testData/codeInsight/daemonCodeAnalyzer/quickFix/replaceWithTernaryOperator",
-      "name": "idea",
-      "url": "https://searchcode.com/codesearch/view/39411813/",
-      "md5hash": "ba129c956919a7d8436475f22a9720be",
-      "lines": {
-        "1": "// \"Replace with 'list != null ?:'\" \"true\"",
-        "2": ""
-      },
-      "id": 39411813,
-      "filename": "beforeSimple.java"
-    },
-    {
-      "repo": "https://bitbucket.org/nbargnesi/idea.git",
-      "language": "Java",
-      "linescount": 10,
-      "location": "/java/java-tests/testData/codeInsight/daemonCodeAnalyzer/quickFix/replaceWithTernaryOperator",
-      "name": "idea",
-      "url": "https://searchcode.com/codesearch/view/39411814/",
-      "md5hash": "13f19ef64da1c60f1d48cb5eca66053f",
-      "lines": {
-        "1": "// \"Replace with 'integer != null ?:'\" \"true\"",
-        "2": ""
-      },
-      "id": 39411814,
-      "filename": "beforePrimitive.java"
+      "id": 60212057,
+      "filename": "JUniPrint.java"
     }
   ],
   "page": 0,
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 59397,
-      "source": "Bitbucket",
-      "id": 3
-    },
-    {
-      "count": 56228,
+      "count": 2,
       "source": "Github",
       "id": 2
     },
     {
-      "count": 11782,
-      "source": "Google Code",
-      "id": 1
-    },
-    {
-      "count": 2022,
-      "source": "Sourceforge",
-      "id": 4
-    },
-    {
-      "count": 673,
-      "source": "GitLab",
-      "id": 13
-    },
-    {
-      "count": 490,
-      "source": "CodePlex",
-      "id": 5
-    },
-    {
-      "count": 280,
-      "source": "Google Android",
-      "id": 12
-    },
-    {
-      "count": 253,
-      "source": "Unknown",
-      "id": 0
-    },
-    {
-      "count": 97,
-      "source": "Gitorious",
-      "id": 10
+      "count": 1,
+      "source": "Bitbucket",
+      "id": 3
     }
   ]
 }

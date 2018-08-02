@@ -1,151 +1,17 @@
 {
-  "matchterm": "StyleRecord",
+  "matchterm": "org.apache.poi.hssf.record.StyleRecord",
   "previouspage": null,
-  "searchterm": "StyleRecord",
-  "query": "StyleRecord",
+  "searchterm": "org.apache.poi.hssf.record.StyleRecord",
+  "query": "org.apache.poi.hssf.record.StyleRecord",
   "language_filters": [
     {
-      "count": 11,
+      "count": 4,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 11,
+  "total": 4,
   "results": [
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 388,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642529/",
-      "md5hash": "ff4b6edfad28326422db6f6089534bf2",
-      "lines": {
-        "86": "",
-        "87": "    public StyleRecord(RecordInputStream in)",
-        "57": "",
-        "58": "public class StyleRecord",
-        "77": "",
-        "78": "    public StyleRecord()"
-      },
-      "id": 15642529,
-      "filename": "StyleRecord.java"
-    },
-    {
-      "repo": "https://bitbucket.org/elloyd/cnpvue",
-      "language": "Java",
-      "linescount": 2480,
-      "location": "/src/tufts/vue/ds",
-      "name": "cnpvue",
-      "url": "https://searchcode.com/codesearch/view/55213043/",
-      "md5hash": "6e7e1b1e30a2b00512510c0313ddcf8a",
-      "lines": {
-        "726": "        selection.setWithStyle(hits, desc, styleRecord);",
-        "646": "        Field field = treeNode.getField();",
-        "647": "        LWComponent styleRecord = null;",
-        "652": "                if (treeNode == mAllRowsNode)",
-        "716": "                Log.debug(\"hits=\" + hits.size());",
-        "653": "                    styleRecord = mSchema.getRowNodeStyle();",
-        "718": "            //if (styleRecord != null) desc += \"<p>style: \" + styleRecord;",
-        "717": "            Log.debug(\"styleRecord: \" + styleRecord);",
-        "725": "        // now set the selection, along with a description",
-        "662": "            // makes no sense -- can't hang a style off a search, only single Fields",
-        "663": "            styleRecord = null;",
-        "664": "        } else {",
-        "665": "            if (treeNode.isField() && styleRecord == null)",
-        "666": "                styleRecord = field.getStyleNode();",
-        "719": "        }"
-      },
-      "id": 55213043,
-      "filename": "DataTree.java"
-    },
-    {
-      "repo": "http://mp4parser.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 398,
-      "location": "/isoparser/src/main/java/com/coremedia/iso/boxes/sampleentry",
-      "name": "mp4parser",
-      "url": "https://searchcode.com/codesearch/view/5345237/",
-      "md5hash": "fb00d56fba7a3d37f3d6061e5dfebc58",
-      "lines": {
-        "128": "",
-        "129": "    public void setStyleRecord(StyleRecord styleRecord) {",
-        "130": "        this.styleRecord = styleRecord;",
-        "131": "    }",
-        "299": "    /*",
-        "300": "   aligned(8) class StyleRecord {",
-        "46": "    BoxRecord         default-text-box;",
-        "47": "    StyleRecord       default-style;",
-        "320": "        public StyleRecord(int startChar, int endChar, int fontId, int faceStyleFlags, int fontSize, int[] textColor) {",
-        "308": "    */",
-        "309": "    public static class StyleRecord {",
-        "56": "    private BoxRecord boxRecord = new BoxRecord();",
-        "57": "    private StyleRecord styleRecord = new StyleRecord();",
-        "316": "",
-        "317": "        public StyleRecord() {",
-        "319": ""
-      },
-      "id": 5345237,
-      "filename": "TextSampleEntry.java"
-    },
-    {
-      "repo": "https://bitbucket.org/elloyd/cnpvue",
-      "language": "Java",
-      "linescount": 908,
-      "location": "/src/tufts/vue",
-      "name": "cnpvue",
-      "url": "https://searchcode.com/codesearch/view/55212852/",
-      "md5hash": "b7d4dc9390042715dbb76b425f908ed3",
-      "lines": {
-        "96": "",
-        "97": "    public LWComponent getStyleRecord() {",
-        "98": "        return mStyleRecord;",
-        "67": "    /** optional style in which to record style property changes that have been applied to the selection */",
-        "68": "    private LWComponent mStyleRecord;",
-        "101": "    public void setStyleRecord(LWComponent c) {",
-        "102": "        if (mStyleRecord != c) {",
-        "328": "        //if (DEBUG.SELECTION||DEBUG.PERF) Log.debug(\"setTo: \" + Util.tags(bag));",
-        "329": "        setImpl(bag, null, description, styleRecord);",
-        "335": "            ",
-        "336": "    private synchronized void setImpl(Iterable bag, Iterator i, String description, LWComponent styleRecord)",
-        "326": "    public void setWithStyle(Iterable bag, String description, LWComponent styleRecord)",
-        "343": "                                        + \"\\n\\titerator: \" + Util.tags(i)",
-        "344": "                                        + \"\\n\\t   style: \" + Util.tags(styleRecord));",
-        "100": "    ",
-        "325": "    "
-      },
-      "id": 55212852,
-      "filename": "LWSelection.java"
-    },
-    {
-      "repo": "https://bitbucket.org/LucaREz/alchemistwithosm",
-      "language": "Java",
-      "linescount": 1353,
-      "location": "/nextreactionmodel/src/main/java/org/openstreetmap/josm/data/osm/visitor/paint",
-      "name": "alchemistwithosm",
-      "url": "https://searchcode.com/codesearch/view/136272142/",
-      "md5hash": "d0207cefc93a3d7a7b6791831d65887c",
-      "lines": {
-        "192": "                } else if (drawRestriction && s instanceof NodeElemStyle) {",
-        "193": "                    styleElems.add(new StyleRecord(s, osm, flags));",
-        "226": "",
-        "171": "        private final List<StyleRecord> styleElems;",
-        "209": "            Collections.sort(styleElems);",
-        "233": "        @Override",
-        "170": "",
-        "203": "                }",
-        "204": "                styleElems.add(new StyleRecord(s, osm, flags));",
-        "176": "            this.drawRestriction = drawRestriction;",
-        "177": "            styleElems = new ArrayList<StyleRecord>();",
-        "210": "            for (StyleRecord r : styleElems) {",
-        "227": "        public StyleRecord(ElemStyle style, OsmPrimitive osm, int flags) {",
-        "234": "        public int compareTo(StyleRecord other) {",
-        "221": "    ",
-        "222": "    private static class StyleRecord implements Comparable<StyleRecord> {"
-      },
-      "id": 136272142,
-      "filename": "StyledMapRenderer.java"
-    },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
       "language": "Java",
@@ -155,32 +21,25 @@
       "url": "https://searchcode.com/codesearch/view/15642358/",
       "md5hash": "2f47d8e4aa73ffbba0d056d2a6f68eee",
       "lines": {
-        "1633": "    /**",
-        "1634": "     * Creates a StyleRecord object",
-        "1636": "     *                  a file as MS Excel would create it.",
-        "1637": "     * @return record containing a StyleRecord",
-        "1638": "     * @see loci.poi.hssf.record.StyleRecord",
-        "1639": "     * @see loci.poi.hssf.record.Record",
-        "1642": "    protected Record createStyle(int id) {   // we'll need multiple editions",
-        "1643": "        StyleRecord retval = new StyleRecord();"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.model;",
+        "43": "",
+        "44": "import loci.poi.ddf.*;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import loci.poi.hssf.record.*;",
+        "48": "import loci.poi.util.POILogFactory;",
+        "46": "import loci.poi.hssf.util.HSSFColor;",
+        "9": " * %%",
+        "47": "import loci.poi.hssf.util.SheetReferences;",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "31": ""
       },
       "id": 15642358,
       "filename": "Workbook.java"
-    },
-    {
-      "repo": "http://mp4parser.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 44,
-      "location": "/isoparser/src/test/java/com/coremedia/iso/boxes/sampleentry",
-      "name": "mp4parser",
-      "url": "https://searchcode.com/codesearch/view/5345076/",
-      "md5hash": "775670ad8a2d55169def04c18a9b681a",
-      "lines": {
-        "38": "        addPropsHere.put(\"scrollOut\", true);",
-        "39": "        addPropsHere.put(\"styleRecord\", new TextSampleEntry.StyleRecord(7, 8, 9, 10, 11, new int[]{0xfe, 0xfd, 0xfc, 0xfb}));"
-      },
-      "id": 5345076,
-      "filename": "TextSampleEntryTest.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -191,43 +50,54 @@
       "url": "https://searchcode.com/codesearch/view/15642343/",
       "md5hash": "468caa59753e7c2d27a76f3903f70894",
       "lines": {
-        "120": "import loci.poi.hssf.record.StyleRecord;",
-        "167": "                StyleRecord.class, UseSelFSRecord.class, BoundSheetRecord.class,",
-        "166": "                FontRecord.class, FormatRecord.class, ExtendedFormatRecord.class,",
-        "119": "import loci.poi.hssf.record.StringRecord;"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "50": "",
+        "51": "import loci.poi.hssf.record.BOFRecord;",
+        "52": "import loci.poi.hssf.record.BackupRecord;",
+        "53": "import loci.poi.hssf.record.BlankRecord;",
+        "54": "import loci.poi.hssf.record.BookBoolRecord;",
+        "55": "import loci.poi.hssf.record.BoolErrRecord;",
+        "56": "import loci.poi.hssf.record.BottomMarginRecord;",
+        "57": "import loci.poi.hssf.record.BoundSheetRecord;",
+        "58": "import loci.poi.hssf.record.CalcCountRecord;",
+        "59": "import loci.poi.hssf.record.CalcModeRecord;",
+        "31": ""
       },
       "id": 15642343,
       "filename": "EventRecordFactory.java"
     },
     {
-      "repo": "https://github.com/yuifan/pexus4_external_mp4parser.git",
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
       "language": "Java",
-      "linescount": 166,
-      "location": "/isoparser/src/main/java/com/googlecode/mp4parser/authoring/tracks",
-      "name": "pexus4_external_mp4parser",
-      "url": "https://searchcode.com/codesearch/view/70085394/",
-      "md5hash": "5a643c876754eb5c7bcf75b4b71114a1",
+      "linescount": 388,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642529/",
+      "md5hash": "ff4b6edfad28326422db6f6089534bf2",
       "lines": {
-        "48": "        tx3g.setDataReferenceIndex(1);",
-        "49": "        tx3g.setStyleRecord(new TextSampleEntry.StyleRecord());"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.record;",
+        "43": "",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "52": " * REFERENCE:  PG 390 Microsoft Excel 97 Developer's Kit (ISBN: 1-57231-498-2)<P>",
+        "53": " * @author Andrew C. Oliver (acoliver at apache dot org)",
+        "9": " * %%",
+        "57": "",
+        "58": "public class StyleRecord",
+        "59": "    extends Record",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "31": ""
       },
-      "id": 70085394,
-      "filename": "TextTrackImpl.java"
-    },
-    {
-      "repo": "http://mp4parser.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 172,
-      "location": "/isoparser/src/main/java/com/googlecode/mp4parser/authoring/tracks",
-      "name": "mp4parser",
-      "url": "https://searchcode.com/codesearch/view/5345366/",
-      "md5hash": "57e3c64c99d27d9afd0d3cf9b42b3b90",
-      "lines": {
-        "48": "        tx3g.setStyleRecord(new TextSampleEntry.StyleRecord());",
-        "47": "        tx3g.setDataReferenceIndex(1);"
-      },
-      "id": 5345366,
-      "filename": "TextTrackImpl.java"
+      "id": 15642529,
+      "filename": "StyleRecord.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -238,8 +108,21 @@
       "url": "https://searchcode.com/codesearch/view/15642481/",
       "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
       "lines": {
-        "76": "                FontRecord.class, FormatRecord.class, ExtendedFormatRecord.class,",
-        "77": "                StyleRecord.class, UseSelFSRecord.class, BoundSheetRecord.class,"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.record;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "51": " *",
+        "52": " * @deprecated use {@link loci.poi.hssf.eventmodel.EventRecordFactory} instead",
+        "53": " * @see loci.poi.hssf.eventmodel.EventRecordFactory",
+        "54": " * @author Andrew C. Oliver (acoliver at apache dot org)",
+        "55": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "56": " * @author Glen Stampoultzis (glens at apache.org)",
+        "57": " * @author Csaba Nagy (ncsaba at yahoo dot com)",
+        "31": ""
       },
       "id": 15642481,
       "filename": "RecordFactory.java"
@@ -249,19 +132,9 @@
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 5,
+      "count": 4,
       "source": "Github",
       "id": 2
-    },
-    {
-      "count": 3,
-      "source": "Bitbucket",
-      "id": 3
-    },
-    {
-      "count": 3,
-      "source": "Google Code",
-      "id": 1
     }
   ]
 }

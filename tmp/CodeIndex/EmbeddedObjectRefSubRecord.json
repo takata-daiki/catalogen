@@ -1,8 +1,8 @@
 {
-  "matchterm": "EmbeddedObjectRefSubRecord",
+  "matchterm": "org.apache.poi.hssf.record.EmbeddedObjectRefSubRecord",
   "previouspage": null,
-  "searchterm": "EmbeddedObjectRefSubRecord",
-  "query": "EmbeddedObjectRefSubRecord",
+  "searchterm": "org.apache.poi.hssf.record.EmbeddedObjectRefSubRecord",
+  "query": "org.apache.poi.hssf.record.EmbeddedObjectRefSubRecord",
   "language_filters": [
     {
       "count": 4,
@@ -15,37 +15,29 @@
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
       "language": "Java",
-      "linescount": 207,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642459/",
-      "md5hash": "8cb229e4f250f2d32331d813231e29b1",
-      "lines": {
-        "67": "",
-        "68": "    public EmbeddedObjectRefSubRecord()",
-        "53": " */",
-        "54": "public class EmbeddedObjectRefSubRecord",
-        "76": "     */",
-        "77": "    public EmbeddedObjectRefSubRecord(RecordInputStream in)"
-      },
-      "id": 15642459,
-      "filename": "EmbeddedObjectRefSubRecord.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
       "linescount": 113,
       "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
       "name": "bioformats",
       "url": "https://searchcode.com/codesearch/view/15642306/",
       "md5hash": "3613bd6cf2b6f9fa2a5342df16094323",
       "lines": {
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "39": "",
+        "40": "package loci.poi.hssf.usermodel;",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
         "44": "",
-        "95": "                int streamId = ((EmbeddedObjectRefSubRecord) subRecord).getStreamId();",
-        "92": "            Object subRecord = subRecordIter.next();",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
         "45": "import loci.poi.hssf.record.EmbeddedObjectRefSubRecord;",
-        "94": "            {",
-        "93": "            if (subRecord instanceof EmbeddedObjectRefSubRecord)"
+        "46": "import loci.poi.hssf.record.ObjRecord;",
+        "23": "/* ====================================================================",
+        "24": "   Copyright 2002-2004   Apache Software Foundation",
+        "25": "",
+        "47": "import loci.poi.poifs.filesystem.DirectoryEntry;",
+        "29": "",
+        "30": "       http://www.apache.org/licenses/LICENSE-2.0"
       },
       "id": 15642306,
       "filename": "HSSFObjectData.java"
@@ -53,19 +45,30 @@
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
       "language": "Java",
-      "linescount": 101,
+      "linescount": 207,
       "location": "/components/forks/poi/src/loci/poi/hssf/record",
       "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642394/",
-      "md5hash": "d40b14ea92262475f6a64dcc34544617",
+      "url": "https://searchcode.com/codesearch/view/15642459/",
+      "md5hash": "8cb229e4f250f2d32331d813231e29b1",
       "lines": {
-        "82": "                break;",
-        "83": "            case EmbeddedObjectRefSubRecord.sid:",
-        "84": "                r = new EmbeddedObjectRefSubRecord( in );",
-        "85": "                break;"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "68": "    public EmbeddedObjectRefSubRecord()",
+        "41": "",
+        "42": "package loci.poi.hssf.record;",
+        "55": "    extends SubRecord",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "67": "",
+        "53": " */",
+        "54": "public class EmbeddedObjectRefSubRecord",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "31": ""
       },
-      "id": 15642394,
-      "filename": "SubRecord.java"
+      "id": 15642459,
+      "filename": "EmbeddedObjectRefSubRecord.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -76,11 +79,54 @@
       "url": "https://searchcode.com/codesearch/view/15642316/",
       "md5hash": "4f7b036daf89776dc4ee4606b7972144",
       "lines": {
-        "1429": "                    Object sub = subRecordIter.next();",
-        "1430": "                    if (sub instanceof EmbeddedObjectRefSubRecord)"
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "45": " */",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "13": " * ",
+        "50": "import loci.poi.POIDocument;",
+        "51": "import loci.poi.ddf.EscherBSERecord;",
+        "52": "import loci.poi.ddf.EscherBitmapBlip;",
+        "46": "package loci.poi.hssf.usermodel;",
+        "54": "import loci.poi.ddf.EscherBlipRecord;",
+        "55": "import loci.poi.hssf.eventmodel.EventRecordFactory;",
+        "56": "import loci.poi.hssf.model.Sheet;",
+        "53": "import loci.poi.ddf.EscherRecord;",
+        "30": "",
+        "31": "       http://www.apache.org/licenses/LICENSE-2.0"
       },
       "id": 15642316,
       "filename": "HSSFWorkbook.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 101,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642394/",
+      "md5hash": "d40b14ea92262475f6a64dcc34544617",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "44": "/**",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": " * Subrecords are part of the OBJ class.",
+        "46": " */",
+        "41": "",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "27": "   this work for additional information regarding copyright ownership.",
+        "28": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "42": "package loci.poi.hssf.record;",
+        "31": ""
+      },
+      "id": 15642394,
+      "filename": "SubRecord.java"
     }
   ],
   "page": 0,

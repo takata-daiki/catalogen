@@ -1,8 +1,8 @@
 {
-  "matchterm": "BytePropertyNode",
+  "matchterm": "org.apache.poi.hwpf.model.BytePropertyNode",
   "previouspage": null,
-  "searchterm": "BytePropertyNode",
-  "query": "BytePropertyNode",
+  "searchterm": "org.apache.poi.hwpf.model.BytePropertyNode",
+  "query": "org.apache.poi.hwpf.model.BytePropertyNode",
   "language_filters": [
     {
       "count": 1,
@@ -21,7 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97384232/",
       "md5hash": "1aadd3e43cb66ebb7fbcad67946b426b",
       "lines": {
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
         "35": "@SuppressWarnings( \"deprecation\" )",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hwpf.model;",
+        "19": "",
+        "20": "import org.apache.poi.hwpf.sprm.CharacterSprmUncompressor;",
+        "21": "import org.apache.poi.hwpf.sprm.SprmBuffer;",
+        "22": "import org.apache.poi.hwpf.usermodel.CharacterProperties;",
+        "23": "import org.apache.poi.util.Internal;",
+        "24": "",
         "36": "public final class CHPX extends BytePropertyNode<CHPX>"
       },
       "id": 97384232,

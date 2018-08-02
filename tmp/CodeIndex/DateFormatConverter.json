@@ -1,156 +1,44 @@
 {
-  "matchterm": "DateFormatConverter",
+  "matchterm": "org.apache.poi.ss.util.DateFormatConverter",
   "previouspage": null,
-  "searchterm": "DateFormatConverter",
-  "query": "DateFormatConverter",
+  "searchterm": "org.apache.poi.ss.util.DateFormatConverter",
+  "query": "org.apache.poi.ss.util.DateFormatConverter",
   "language_filters": [
     {
-      "count": 19,
+      "count": 3,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 19,
+  "total": 3,
   "results": [
-    {
-      "repo": "https://code.google.com/p/totallylazy/",
-      "language": "Java",
-      "linescount": 64,
-      "location": "/src/com/googlecode/totallylazy/time",
-      "name": "totallylazy",
-      "url": "https://searchcode.com/codesearch/view/2636187/",
-      "md5hash": "00d96059d7682ea8c3a13960f16d22ea",
-      "lines": {
-        "32": "    public DateFormatConverter(DateFormat... formats) {",
-        "35": "",
-        "36": "    public DateFormatConverter(Iterable<DateFormat> formats) {",
-        "44": "        return new DateFormatConverter(Dates.RFC3339().formats().join(sequence(Dates.RFC822(), Dates.javaUtilDateToString(), Dates.LEXICAL(), Dates.APACHE())));",
-        "42": "",
-        "43": "    public static DateFormatConverter defaultConverter() {",
-        "12": "public class DateFormatConverter implements DateConverter {",
-        "45": "    }",
-        "14": "",
-        "15": "    public DateFormatConverter(String... formats) {",
-        "11": "",
-        "31": ""
-      },
-      "id": 2636187,
-      "filename": "DateFormatConverter.java"
-    },
-    {
-      "repo": "git://github.com/bcdev/ceres.git",
-      "language": "Java",
-      "linescount": 63,
-      "location": "/ceres-binding/src/main/java/com/bc/ceres/binding/converters",
-      "name": "ceres",
-      "url": "https://searchcode.com/codesearch/view/17532476/",
-      "md5hash": "6a42ca2bf6f9f352b86830ef038fa98b",
-      "lines": {
-        "33": "",
-        "34": "    public DateFormatConverter(DateFormat format) {",
-        "26": "",
-        "27": "public class DateFormatConverter implements Converter<Date>{",
-        "29": "",
-        "30": "    public DateFormatConverter() {"
-      },
-      "id": 17532476,
-      "filename": "DateFormatConverter.java"
-    },
-    {
-      "repo": "http://mozart.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 82,
-      "location": "/src/ru/adv/db/adapter",
-      "name": "mozart",
-      "url": "https://searchcode.com/codesearch/view/419653/",
-      "md5hash": "f20865a3c46609942de97a4efcc0a6fe",
-      "lines": {
-        "40": "public interface DateFormatConverter {",
-        "26": "//",
-        "27": "// $Id: DateFormatConverter.java 1106 2009-06-03 07:32:17Z vic $",
-        "39": " */"
-      },
-      "id": 419653,
-      "filename": "DateFormatConverter.java"
-    },
-    {
-      "repo": "http://zkbind.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 62,
-      "location": "/springdemo/src/main/java/org/zkoss/bind/examples/spring/order/converter",
-      "name": "zkbind",
-      "url": "https://searchcode.com/codesearch/view/13431302/",
-      "md5hash": "30f8e358898c35b804299cae94ee68b5",
-      "lines": {
-        "26": " */",
-        "27": "@org.springframework.stereotype.Component(\"dateFormatConverter\")",
-        "28": "public class DateFormatConverter implements Converter {",
-        "29": "\t/**"
-      },
-      "id": 13431302,
-      "filename": "DateFormatConverter.java"
-    },
-    {
-      "repo": "git://github.com/zkoss/zk.git",
-      "language": "Java",
-      "linescount": 76,
-      "location": "/zkplus/src/org/zkoss/zkplus/databind",
-      "name": "zk",
-      "url": "https://searchcode.com/codesearch/view/17662130/",
-      "md5hash": "766f4ebf38959b87bbebbb0822bfa0db",
-      "lines": {
-        "40": " */",
-        "33": " * <pre>",
-        "34": " * &lt;label value=\"@{mydate, converter='org.zkoss.zkplus.databind.DateFormatConverter'}\" self=\"@{format(yyyy/MM/dd)}\"/>",
-        "41": "public class DateFormatConverter implements TypeConverter {"
-      },
-      "id": 17662130,
-      "filename": "DateFormatConverter.java"
-    },
-    {
-      "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
-      "language": "Java",
-      "linescount": 408,
-      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
-      "name": "spudsoft-birt-excel-emitters",
-      "url": "https://searchcode.com/codesearch/view/64530839/",
-      "md5hash": "4c2ab8e4f5813c4b478c64130b0f0395",
-      "lines": {
-        "33": "",
-        "34": "public class DateFormatConverter  {"
-      },
-      "id": 64530839,
-      "filename": "DateFormatConverter.java"
-    },
-    {
-      "repo": "http://gbif-providertoolkit.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 56,
-      "location": "/gbif-ipt/src/main/java/org/gbif/ipt/struts2/converter",
-      "name": "gbif-providertoolkit",
-      "url": "https://searchcode.com/codesearch/view/2672516/",
-      "md5hash": "6d9c172fb6151e131561d6fedd9e3e32",
-      "lines": {
-        "11": "",
-        "12": "public class DateFormatConverter extends StrutsTypeConverter {"
-      },
-      "id": 2672516,
-      "filename": "DateFormatConverter.java"
-    },
     {
       "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
       "language": "Java",
-      "linescount": 399,
+      "linescount": 1187,
       "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
       "name": "spudsoft-birt-excel-emitters",
-      "url": "https://searchcode.com/codesearch/view/122565154/",
-      "md5hash": "0af5fc6bdf9bf21331252190b10497af",
+      "url": "https://searchcode.com/codesearch/view/122565151/",
+      "md5hash": "fc8b005355e635293739c83d0119c6c9",
       "lines": {
-        "24": "",
-        "25": "public class DateFormatConverter  {"
+        "32": "import org.apache.poi.ss.usermodel.Cell;",
+        "33": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "34": "import org.apache.poi.ss.usermodel.DataFormat;",
+        "35": "import org.apache.poi.ss.usermodel.Font;",
+        "36": "import org.apache.poi.ss.usermodel.PrintSetup;",
+        "37": "import org.apache.poi.ss.usermodel.RichTextString;",
+        "38": "import org.apache.poi.ss.usermodel.Row;",
+        "7": " * which accompanies this distribution, and is available at",
+        "8": " * http://www.eclipse.org/legal/epl-v10.html",
+        "41": "import org.apache.poi.ss.util.CellRangeAddress;",
+        "42": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;",
+        "39": "import org.apache.poi.ss.usermodel.Sheet;",
+        "40": "import org.apache.poi.ss.usermodel.Workbook;",
+        "43": "import org.eclipse.birt.report.engine.content.IPageContent;",
+        "31": ""
       },
-      "id": 122565154,
-      "filename": "DateFormatConverter.java"
+      "id": 122565151,
+      "filename": "StyleManagerUtils.java"
     },
     {
       "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
@@ -161,134 +49,24 @@
       "url": "https://searchcode.com/codesearch/view/64530859/",
       "md5hash": "df825ddde093d8c3fe3a9f52eb4945d0",
       "lines": {
-        "544": "        \tbirtFormat = \"kk:mm\"; // DateFormatConverter.getJavaTimePattern(DateFormat.SHORT, locale);",
-        "545": "        }",
-        "546": "\t\treturn DateFormatConverter.convert( locale, birtFormat );",
-        "525": "        if ( \"General Date\".equalsIgnoreCase( birtFormat ) ) {",
-        "526": "        \tbirtFormat = DateFormatConverter.getJavaDateTimePattern(DateFormat.LONG, locale);",
-        "528": "        if ( \"Long Date\".equalsIgnoreCase( birtFormat ) ) {",
-        "529": "        \tbirtFormat = DateFormatConverter.getJavaDatePattern(DateFormat.LONG, locale);",
-        "531": "        if ( \"Medium Date\".equalsIgnoreCase( birtFormat ) ) {",
-        "532": "        \tbirtFormat = DateFormatConverter.getJavaDatePattern(DateFormat.MEDIUM, locale);",
-        "534": "        if ( \"Short Date\".equalsIgnoreCase( birtFormat ) ) {",
-        "535": "        \tbirtFormat = DateFormatConverter.getJavaDatePattern(DateFormat.SHORT, locale);",
-        "537": "        if ( \"Long Time\".equalsIgnoreCase( birtFormat ) ) {",
-        "538": "        \tbirtFormat = DateFormatConverter.getJavaTimePattern(DateFormat.LONG, locale);",
-        "540": "        if ( \"Medium Time\".equalsIgnoreCase( birtFormat ) ) {",
-        "541": "        \tbirtFormat = DateFormatConverter.getJavaTimePattern(DateFormat.MEDIUM, locale);",
-        "543": "        if ( \"Short Time\".equalsIgnoreCase( birtFormat ) ) {"
+        "48": "import org.apache.poi.ss.usermodel.Sheet;",
+        "7": " *  redistribute them and/or modify them under the terms of the ",
+        "40": "",
+        "41": "import org.apache.poi.ss.usermodel.Cell;",
+        "42": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "43": "import org.apache.poi.ss.usermodel.DataFormat;",
+        "44": "import org.apache.poi.ss.usermodel.Font;",
+        "45": "import org.apache.poi.ss.usermodel.PrintSetup;",
+        "14": " *  without even the implied warranty of MERCHANTABILITY or ",
+        "15": " *  FITNESS FOR A PARTICULAR PURPOSE.  See the",
+        "16": " *  GNU Lesser General Public License for more details.",
+        "17": " *",
+        "46": "import org.apache.poi.ss.usermodel.RichTextString;",
+        "8": " *  GNU Lesser General Public License as published by",
+        "47": "import org.apache.poi.ss.usermodel.Row;"
       },
       "id": 64530859,
       "filename": "StyleManagerUtils.java"
-    },
-    {
-      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
-      "language": "Java",
-      "linescount": 1187,
-      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
-      "name": "spudsoft-birt-excel-emitters",
-      "url": "https://searchcode.com/codesearch/view/122565151/",
-      "md5hash": "fc8b005355e635293739c83d0119c6c9",
-      "lines": {
-        "576": "\t\treturn DateFormatConverter.convert( locale, birtFormat );",
-        "555": "        if ( \"General Date\".equalsIgnoreCase( birtFormat ) ) {",
-        "556": "        \tbirtFormat = DateFormatConverter.getJavaDateTimePattern(DateFormat.LONG, locale);",
-        "558": "        if ( \"Long Date\".equalsIgnoreCase( birtFormat ) ) {",
-        "559": "        \tbirtFormat = DateFormatConverter.getJavaDatePattern(DateFormat.LONG, locale);",
-        "561": "        if ( \"Medium Date\".equalsIgnoreCase( birtFormat ) ) {",
-        "562": "        \tbirtFormat = DateFormatConverter.getJavaDatePattern(DateFormat.MEDIUM, locale);",
-        "564": "        if ( \"Short Date\".equalsIgnoreCase( birtFormat ) ) {",
-        "565": "        \tbirtFormat = DateFormatConverter.getJavaDatePattern(DateFormat.SHORT, locale);",
-        "567": "        if ( \"Long Time\".equalsIgnoreCase( birtFormat ) ) {",
-        "568": "        \tbirtFormat = DateFormatConverter.getJavaTimePattern(DateFormat.LONG, locale);",
-        "570": "        if ( \"Medium Time\".equalsIgnoreCase( birtFormat ) ) {",
-        "571": "        \tbirtFormat = DateFormatConverter.getJavaTimePattern(DateFormat.MEDIUM, locale);",
-        "573": "        if ( \"Short Time\".equalsIgnoreCase( birtFormat ) ) {",
-        "574": "        \tbirtFormat = \"kk:mm\"; // DateFormatConverter.getJavaTimePattern(DateFormat.SHORT, locale);",
-        "575": "        }"
-      },
-      "id": 122565151,
-      "filename": "StyleManagerUtils.java"
-    },
-    {
-      "repo": "https://code.google.com/p/totallylazy/",
-      "language": "Java",
-      "linescount": 41,
-      "location": "/test/com/googlecode/totallylazy/time",
-      "name": "totallylazy",
-      "url": "https://searchcode.com/codesearch/view/2636380/",
-      "md5hash": "9a8b5ef1820348b9102fe410f2f42b78",
-      "lines": {
-        "16": "        DateFormatConverter converter = new DateFormatConverter(Dates.RFC3339().formats().join(sequence(Dates.RFC822(), Dates.javaUtilDateToString())));",
-        "36": "    public void usesFirst() throws Exception {",
-        "37": "        DateFormatConverter converter = new DateFormatConverter(Dates.RFC3339().formats().join(sequence(Dates.RFC822())));",
-        "22": "    public void triesMultipleFormatsBeforeGivingUp() throws Exception {",
-        "23": "        DateFormatConverter converter = new DateFormatConverter(Dates.RFC3339().formats().join(sequence(Dates.RFC822(), Dates.javaUtilDateToString())));",
-        "11": "",
-        "12": "public class DateFormatConverterTest {",
-        "15": "    public void canParseSpecificDate() throws Exception{"
-      },
-      "id": 2636380,
-      "filename": "DateFormatConverterTest.java"
-    },
-    {
-      "repo": "https://code.google.com/p/totallylazy/",
-      "language": "Java",
-      "linescount": 227,
-      "location": "/src/com/googlecode/totallylazy/time",
-      "name": "totallylazy",
-      "url": "https://searchcode.com/codesearch/view/2636185/",
-      "md5hash": "ffdbca0bd61ff9a22b49ba9f6554b6c8",
-      "lines": {
-        "145": "    public static Date date(String value) {",
-        "146": "        return DateFormatConverter.defaultConverter().parse(value);",
-        "41": "",
-        "42": "    public static DateFormatConverter RFC3339() {",
-        "43": "        return new DateFormatConverter(RFC3339_WITH_MILLISECONDS, RFC3339);",
-        "44": "    }"
-      },
-      "id": 2636185,
-      "filename": "Dates.java"
-    },
-    {
-      "repo": "git://github.com/bcdev/ceres.git",
-      "language": "Java",
-      "linescount": 72,
-      "location": "/ceres-binding/src/test/java/com/bc/ceres/binding/converters",
-      "name": "ceres",
-      "url": "https://searchcode.com/codesearch/view/17532510/",
-      "md5hash": "e0d7d147fdf48d8442cfbc2bef60533d",
-      "lines": {
-        "34": "        if (converter == null) {",
-        "35": "            converter = new DateFormatConverter();",
-        "26": "",
-        "27": "public class DateFormatConverterTest extends AbstractConverterTest {",
-        "28": "",
-        "29": "    private DateFormatConverter converter;"
-      },
-      "id": 17532510,
-      "filename": "DateFormatConverterTest.java"
-    },
-    {
-      "repo": "https://bitbucket.org/tantchonta/scm-manager",
-      "language": "Java",
-      "linescount": 149,
-      "location": "/scm-webapp/src/main/java/sonia/scm/upgrade",
-      "name": "scm-manager",
-      "url": "https://searchcode.com/codesearch/view/130210158/",
-      "md5hash": "c6ad7410c1d2a18912ff8ee6e3a78afe",
-      "lines": {
-        "49": " */",
-        "50": "public final class ClientDateFormatConverter",
-        "67": "   */",
-        "68": "  private ClientDateFormatConverter() {}",
-        "56": "  /**",
-        "57": "   * the logger for DateFormatConverter",
-        "59": "  private static final Logger logger =",
-        "60": "    LoggerFactory.getLogger(ClientDateFormatConverter.class);"
-      },
-      "id": 130210158,
-      "filename": "ClientDateFormatConverter.java"
     },
     {
       "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
@@ -299,98 +77,33 @@
       "url": "https://searchcode.com/codesearch/view/64531292/",
       "md5hash": "8ebf6045026c6d18167807faa27e9a3d",
       "lines": {
-        "48": "import uk.co.spudsoft.birt.emitters.excel.DateFormatConverter;",
-        "137": "\t\t\tString javaDateFormatPattern = ((SimpleDateFormat)dateFormat).toPattern();",
-        "138": "\t\t\tString excelFormatPattern = DateFormatConverter.convert(locale, javaDateFormatPattern);",
-        "47": ""
+        "43": "import org.apache.poi.ss.usermodel.Sheet;",
+        "38": "",
+        "7": " *  redistribute them and/or modify them under the terms of the ",
+        "8": " *  GNU Lesser General Public License as published by",
+        "41": "import org.apache.poi.ss.usermodel.DataFormat;",
+        "42": "import org.apache.poi.ss.usermodel.Row;",
+        "39": "import org.apache.poi.ss.usermodel.Cell;",
+        "14": " *  without even the implied warranty of MERCHANTABILITY or ",
+        "15": " *  FITNESS FOR A PARTICULAR PURPOSE.  See the",
+        "16": " *  GNU Lesser General Public License for more details.",
+        "40": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "24": "",
+        "25": "import static org.junit.Assert.assertEquals;",
+        "26": "import static org.junit.Assert.assertNotNull;",
+        "27": ""
       },
       "id": 64531292,
       "filename": "Issue38DateFormat.java"
-    },
-    {
-      "repo": "git://github.com/bcdev/ceres.git",
-      "language": "Java",
-      "linescount": 148,
-      "location": "/ceres-binding/src/main/java/com/bc/ceres/binding",
-      "name": "ceres",
-      "url": "https://searchcode.com/codesearch/view/17532448/",
-      "md5hash": "21449c347262a4fe6edbfda79b5f8970",
-      "lines": {
-        "24": "import com.bc.ceres.binding.converters.ColorConverter;",
-        "25": "import com.bc.ceres.binding.converters.DateFormatConverter;",
-        "84": "        setConverter(Color.class, new ColorConverter());",
-        "85": "        setConverter(Date.class, new DateFormatConverter());"
-      },
-      "id": 17532448,
-      "filename": "ConverterRegistry.java"
-    },
-    {
-      "repo": "https://bitbucket.org/mackristof/scm-manager",
-      "language": "Java",
-      "linescount": 139,
-      "location": "/scm-webapp/src/main/java/sonia/scm/upgrade",
-      "name": "scm-manager",
-      "url": "https://searchcode.com/codesearch/view/58643344/",
-      "md5hash": "7aa89557374f8c14ab47d9bc9b0958f7",
-      "lines": {
-        "48": "public class ClientDateFormatConverter",
-        "54": "  /**",
-        "55": "   * the logger for DateFormatConverter",
-        "57": "  private static final Logger logger =",
-        "58": "    LoggerFactory.getLogger(ClientDateFormatConverter.class);",
-        "47": " */"
-      },
-      "id": 58643344,
-      "filename": "ClientDateFormatConverter.java"
-    },
-    {
-      "repo": "http://mozart.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 104,
-      "location": "/src/ru/adv/db/adapter",
-      "name": "mozart",
-      "url": "https://searchcode.com/codesearch/view/419645/",
-      "md5hash": "4627c2c97fb840161e6d810eafab3037",
-      "lines": {
-        "40": "public class DFCOracle implements DateFormatConverter {",
-        "39": " */"
-      },
-      "id": 419645,
-      "filename": "DFCOracle.java"
-    },
-    {
-      "repo": "http://mozart.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 104,
-      "location": "/src/ru/adv/db/adapter",
-      "name": "mozart",
-      "url": "https://searchcode.com/codesearch/view/419647/",
-      "md5hash": "edfef8c144fb89804138f5aa9e2e9ba5",
-      "lines": {
-        "37": " */",
-        "38": "public class DFCPostgres implements DateFormatConverter {"
-      },
-      "id": 419647,
-      "filename": "DFCPostgres.java"
     }
   ],
   "page": 0,
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 8,
-      "source": "Google Code",
-      "id": 1
-    },
-    {
-      "count": 7,
+      "count": 3,
       "source": "Bitbucket",
       "id": 3
-    },
-    {
-      "count": 4,
-      "source": "Github",
-      "id": 2
     }
   ]
 }

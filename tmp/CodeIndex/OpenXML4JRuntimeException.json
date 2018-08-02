@@ -1,8 +1,8 @@
 {
-  "matchterm": "OpenXML4JRuntimeException",
+  "matchterm": "org.apache.poi.openxml4j.exceptions.OpenXML4JRuntimeException",
   "previouspage": null,
-  "searchterm": "OpenXML4JRuntimeException",
-  "query": "OpenXML4JRuntimeException",
+  "searchterm": "org.apache.poi.openxml4j.exceptions.OpenXML4JRuntimeException",
+  "query": "org.apache.poi.openxml4j.exceptions.OpenXML4JRuntimeException",
   "language_filters": [
     {
       "count": 1,
@@ -21,10 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97406292/",
       "md5hash": "47fc882bc196bd395e952d6ada656cd9",
       "lines": {
+        "50": "import org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller;",
+        "49": "import org.apache.poi.openxml4j.opc.internal.ZipContentTypeManager;",
+        "38": "",
+        "39": "import org.apache.poi.openxml4j.exceptions.InvalidFormatException;",
+        "40": "import org.apache.poi.openxml4j.exceptions.InvalidOperationException;",
         "41": "import org.apache.poi.openxml4j.exceptions.OpenXML4JException;",
         "42": "import org.apache.poi.openxml4j.exceptions.OpenXML4JRuntimeException;",
-        "165": "\t\t\t// Should never happen",
-        "166": "\t\t\tthrow new OpenXML4JRuntimeException("
+        "43": "import org.apache.poi.openxml4j.exceptions.PartAlreadyExistsException;",
+        "44": "import org.apache.poi.openxml4j.opc.internal.ContentType;",
+        "45": "import org.apache.poi.openxml4j.opc.internal.ContentTypeManager;",
+        "46": "import org.apache.poi.openxml4j.opc.internal.PackagePropertiesPart;",
+        "47": "import org.apache.poi.openxml4j.opc.internal.PartMarshaller;",
+        "48": "import org.apache.poi.openxml4j.opc.internal.PartUnmarshaller;",
+        "17": "",
+        "18": "package org.apache.poi.openxml4j.opc;"
       },
       "id": 97406292,
       "filename": "OPCPackage.java"

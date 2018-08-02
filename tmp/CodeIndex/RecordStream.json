@@ -1,227 +1,17 @@
 {
-  "matchterm": "RecordStream",
+  "matchterm": "org.apache.poi.hssf.model.RecordStream",
   "previouspage": null,
-  "searchterm": "RecordStream",
-  "query": "RecordStream",
+  "searchterm": "org.apache.poi.hssf.model.RecordStream",
+  "query": "org.apache.poi.hssf.model.RecordStream",
   "language_filters": [
     {
-      "count": 10,
+      "count": 1,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 10,
+  "total": 1,
   "results": [
-    {
-      "repo": "https://bitbucket.org/majeedk/anothermonitor",
-      "language": "Java",
-      "linescount": 305,
-      "location": "/src/com/anothermonitor",
-      "name": "anothermonitor",
-      "url": "https://searchcode.com/codesearch/view/102585420/",
-      "md5hash": "1c5cf1a1acde85071b8f48e7db606bdd",
-      "lines": {
-        "225": "\t    if (FIRSTTIMERECORD_FLAG) {",
-        "226": "\t\trecordStream.write(getString(R.string.app_name)+\" Record,Date:,\"+getDate()+\",Read interval (ms):,\"+AnotherMonitor.READ_INTERVAL",
-        "277": "\t    recordStream = new OutputStreamWriter(openFileOutput(fileName.toString(), MODE_WORLD_READABLE));",
-        "231": "\t    }",
-        "232": "\t    recordStream.write(memTotal+\",\"+memFree.firstElement()+\",\"+buffers.firstElement()",
-        "276": "\ttry {",
-        "222": "    private void record() {",
-        "281": "\treturn recordStream;",
-        "280": "\t}",
-        "57": "    private BufferedReader readStream;",
-        "58": "    private OutputStreamWriter recordStream;",
-        "255": "\t} catch (Exception e) {",
-        "253": "\t    recordStream.close();",
-        "254": "\t    recordStream = null;",
-        "223": "\tif (recordStream==null) recordStream = getOutputStreamWriter();"
-      },
-      "id": 102585420,
-      "filename": "AnReaderService.java"
-    },
-    {
-      "repo": "https://bitbucket.org/openesb/openesb-components.git",
-      "language": "Java",
-      "linescount": 999,
-      "location": "/ojc-core/execbc/execbcimpl/src/com/sun/jbi/execbc",
-      "name": "openesb-components",
-      "url": "https://searchcode.com/codesearch/view/43248976/",
-      "md5hash": "a652373610b61e074789ef9a7fbb88fc",
-      "lines": {
-        "416": "                    ByteArrayOutputStream recordStream =",
-        "417": "                        new ByteArrayOutputStream();",
-        "418": "                    recordStream.write(hosts[i].getBytes());",
-        "419": "                    recordStream.write(\"\\n\".getBytes());",
-        "420": "                    recordStream.write(command.getBytes());",
-        "421": "                    recordStream.write(\"\\n\".getBytes());",
-        "390": "                    if (injectCtxInfo) {",
-        "391": "                        ByteArrayOutputStream recordStream =",
-        "392": "                            new ByteArrayOutputStream();",
-        "393": "                        recordStream.write(hosts[i].getBytes());",
-        "394": "                        recordStream.write(\"\\n\".getBytes());",
-        "395": "                        recordStream.write(command.getBytes());",
-        "422": "                    recordStream.write(rawData);",
-        "423": "                    rawData = recordStream.toByteArray();",
-        "415": "                if (injectCtxInfo) {"
-      },
-      "id": 43248976,
-      "filename": "InboundMessageProcessor.java"
-    },
-    {
-      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
-      "language": "Java",
-      "linescount": 999,
-      "location": "/ojc-core/execbc/execbcimpl/src/com/sun/jbi/execbc",
-      "name": "openesb-components",
-      "url": "https://searchcode.com/codesearch/view/49189504/",
-      "md5hash": "a652373610b61e074789ef9a7fbb88fc",
-      "lines": {
-        "416": "                    ByteArrayOutputStream recordStream =",
-        "417": "                        new ByteArrayOutputStream();",
-        "418": "                    recordStream.write(hosts[i].getBytes());",
-        "419": "                    recordStream.write(\"\\n\".getBytes());",
-        "420": "                    recordStream.write(command.getBytes());",
-        "421": "                    recordStream.write(\"\\n\".getBytes());",
-        "390": "                    if (injectCtxInfo) {",
-        "391": "                        ByteArrayOutputStream recordStream =",
-        "392": "                            new ByteArrayOutputStream();",
-        "393": "                        recordStream.write(hosts[i].getBytes());",
-        "394": "                        recordStream.write(\"\\n\".getBytes());",
-        "395": "                        recordStream.write(command.getBytes());",
-        "422": "                    recordStream.write(rawData);",
-        "423": "                    rawData = recordStream.toByteArray();",
-        "415": "                if (injectCtxInfo) {"
-      },
-      "id": 49189504,
-      "filename": "InboundMessageProcessor.java"
-    },
-    {
-      "repo": "https://bitbucket.org/dakl/picard-tools",
-      "language": "Java",
-      "linescount": 376,
-      "location": "/src/java/org/broadinstitute/variant/bcf2",
-      "name": "picard-tools",
-      "url": "https://searchcode.com/codesearch/view/58424327/",
-      "md5hash": "c7184396865efcbf29f30b2628cd7d2d",
-      "lines": {
-        "192": "            recordStream.read(bytes);",
-        "235": "    public final int decodeInt(final BCF2Type type) throws IOException {",
-        "373": "        return BCF2Utils.readByte(recordStream);",
-        "40": "    byte[] recordBytes = null;",
-        "41": "    ByteArrayInputStream recordStream = null;",
-        "236": "        return type.read(recordStream);",
-        "107": "    public boolean blockIsFullyDecoded() {",
-        "108": "        return recordStream.available() == 0;",
-        "116": "    @Requires(\"recordBytes != null\")",
-        "117": "    @Ensures({\"this.recordBytes == recordBytes\", \"recordStream != null\"})",
-        "86": "        this.recordBytes = null;",
-        "87": "        this.recordStream = null;",
-        "120": "        this.recordStream = new ByteArrayInputStream(recordBytes);",
-        "372": "    public final byte readTypeDescriptor() throws IOException {",
-        "119": "        this.recordBytes = recordBytes;",
-        "191": "        try {"
-      },
-      "id": 58424327,
-      "filename": "BCF2Decoder.java"
-    },
-    {
-      "repo": "https://github.com/borman/phoneme-qtopia.git",
-      "language": "Java",
-      "linescount": 164,
-      "location": "/midp/src/rms/rms_base/classes/com/sun/midp/rms",
-      "name": "phoneme-qtopia",
-      "url": "https://searchcode.com/codesearch/view/104119036/",
-      "md5hash": "a45105d3af95f01c82f71dc457e54893",
-      "lines": {
-        "71": "    /**",
-        "72": "     * Sets the position within <code>recordStream</code> to",
-        "140": "    /**",
-        "94": "     * Write <code>buf</code> to <code>recordStream</code>, starting",
-        "109": "     * @exception IOException if an error occurs while flushing",
-        "110": "     *            <code>recordStream</code>.",
-        "141": "     * Disconnect from <code>recordStream</code> if it is",
-        "144": "     * @exception IOException if an error occurs closing",
-        "145": "     *            <code>recordStream</code>.",
-        "84": "    /**",
-        "85": "     * Write all of <code>buf</code> to <code>recordStream</code>.",
-        "154": "     * <code>size</code> must be <= the current length of",
-        "155": "     * <code>recordStream</code>",
-        "93": "    /**",
-        "126": "     * Read up to <code>buf.length</code> into <code>buf</code>",
-        "127": "     * starting at offset <code>offset</code> in <code>recordStream"
-      },
-      "id": 104119036,
-      "filename": "AbstractRecordStoreFile.java"
-    },
-    {
-      "repo": "https://github.com/123it/bigbluebutton.git",
-      "language": "Java",
-      "linescount": 220,
-      "location": "/bbb-voice/src/main/java/org/bigbluebutton/voiceconf/red5",
-      "name": "bigbluebutton",
-      "url": "https://searchcode.com/codesearch/view/113886757/",
-      "md5hash": "582748b0f2d38c398df1609badd41671",
-      "lines": {
-        "129": "\t    \tsipPeerManager.startTalkStream(peerId, clientId, stream, conn.getScope());",
-        "130": "//\t    \trecordStream(stream);",
-        "138": "    private void recordStream(IBroadcastStream stream) {",
-        "137": "     */"
-      },
-      "id": 113886757,
-      "filename": "Application.java"
-    },
-    {
-      "repo": "https://github.com/omarshammas/bigbluebutton.git",
-      "language": "Java",
-      "linescount": 93,
-      "location": "/bbb-video/src/main/java/org/bigbluebutton/app/video",
-      "name": "bigbluebutton",
-      "url": "https://searchcode.com/codesearch/view/114411384/",
-      "md5hash": "f8141dbfe7aeda0781bddf46ad887180",
-      "lines": {
-        "76": "    private void recordStream(IBroadcastStream stream) {",
-        "75": "     */",
-        "67": "        if (recordVideoStream) {",
-        "68": "\t    \trecordStream(stream);"
-      },
-      "id": 114411384,
-      "filename": "VideoApplication.java"
-    },
-    {
-      "repo": "git://github.com/bigbluebutton/bigbluebutton.git",
-      "language": "Java",
-      "linescount": 224,
-      "location": "/bbb-voice/src/main/java/org/bigbluebutton/voiceconf/red5",
-      "name": "bigbluebutton",
-      "url": "https://searchcode.com/codesearch/view/2891642/",
-      "md5hash": "25d8082b6e696b1c72a50258c54960c9",
-      "lines": {
-        "143": "    private void recordStream(IBroadcastStream stream) {",
-        "142": "     */",
-        "134": "\t    \tsipPeerManager.startTalkStream(peerId, clientId, stream, conn.getScope());",
-        "135": "//\t    \trecordStream(stream);"
-      },
-      "id": 2891642,
-      "filename": "Application.java"
-    },
-    {
-      "repo": "git://github.com/bigbluebutton/bigbluebutton.git",
-      "language": "Java",
-      "linescount": 141,
-      "location": "/bbb-video/src/main/java/org/bigbluebutton/app/video",
-      "name": "bigbluebutton",
-      "url": "https://searchcode.com/codesearch/view/2893260/",
-      "md5hash": "ee45f940b7864ca6791b37aefe87e446",
-      "lines": {
-        "80": "\t    \trecordStream(stream);",
-        "116": "     */",
-        "117": "    private void recordStream(IBroadcastStream stream) {",
-        "79": "        if (recordVideoStream) {"
-      },
-      "id": 2893260,
-      "filename": "VideoApplication.java"
-    },
     {
       "repo": "https://github.com/hzl7652/codelab.git",
       "language": "Java",
@@ -231,8 +21,20 @@
       "url": "https://searchcode.com/codesearch/view/74242241/",
       "md5hash": "c4a3829ae600a564cd4afe3939209570",
       "lines": {
+        "41": "\t\tpp.put(\"url\",\"jdbc:h2:D:/var/procdb\" );",
+        "42": "\t\tpp.put(\"driverClassName\", \"org.h2.Driver\");",
+        "13": "",
         "14": "import org.apache.commons.dbcp.BasicDataSourceFactory;",
-        "15": "import org.apache.poi.hssf.model.RecordStream;"
+        "15": "import org.apache.poi.hssf.model.RecordStream;",
+        "16": "import org.nutz.dao.Chain;",
+        "17": "import org.nutz.dao.Cnd;",
+        "18": "import org.nutz.dao.Sqls;",
+        "19": "import org.nutz.dao.entity.Record;",
+        "20": "import org.nutz.dao.impl.NutDao;",
+        "21": "import org.nutz.dao.sql.Sql;",
+        "22": "import org.nutz.dao.sql.SqlCallback;",
+        "23": "import org.nutz.lang.Strings;",
+        "24": ""
       },
       "id": 74242241,
       "filename": "Wordpress2Cms.java"
@@ -242,14 +44,9 @@
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 6,
+      "count": 1,
       "source": "Github",
       "id": 2
-    },
-    {
-      "count": 4,
-      "source": "Bitbucket",
-      "id": 3
     }
   ]
 }

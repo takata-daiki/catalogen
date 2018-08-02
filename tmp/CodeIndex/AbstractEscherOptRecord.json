@@ -1,8 +1,8 @@
 {
-  "matchterm": "AbstractEscherOptRecord",
+  "matchterm": "org.apache.poi.ddf.AbstractEscherOptRecord",
   "previouspage": null,
-  "searchterm": "AbstractEscherOptRecord",
-  "query": "AbstractEscherOptRecord",
+  "searchterm": "org.apache.poi.ddf.AbstractEscherOptRecord",
+  "query": "org.apache.poi.ddf.AbstractEscherOptRecord",
   "language_filters": [
     {
       "count": 2,
@@ -21,6 +21,18 @@
       "url": "https://searchcode.com/codesearch/view/97383926/",
       "md5hash": "e17530061345426847ee6614d7732a6f",
       "lines": {
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "16": "==================================================================== */",
+        "17": "package org.apache.poi.ddf;",
+        "20": "",
+        "21": "import org.apache.poi.util.HexDump;",
+        "22": "import org.apache.poi.util.LittleEndian;",
+        "23": "",
         "30": " */",
         "31": "public abstract class AbstractEscherOptRecord extends EscherRecord"
       },
@@ -36,6 +48,18 @@
       "url": "https://searchcode.com/codesearch/view/97383919/",
       "md5hash": "fec7bf942bdffd62ed5ed3992dad8d66",
       "lines": {
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "16": "==================================================================== */",
+        "17": "package org.apache.poi.ddf;",
+        "18": "",
+        "19": "import org.apache.poi.util.HexDump;",
+        "20": "import org.apache.poi.util.Internal;",
+        "21": "",
         "29": " */",
         "30": "public class EscherOptRecord extends AbstractEscherOptRecord"
       },

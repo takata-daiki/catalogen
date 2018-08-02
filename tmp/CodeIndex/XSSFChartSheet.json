@@ -1,8 +1,8 @@
 {
-  "matchterm": "XSSFChartSheet",
+  "matchterm": "org.apache.poi.xssf.usermodel.XSSFChartSheet",
   "previouspage": null,
-  "searchterm": "XSSFChartSheet",
-  "query": "XSSFChartSheet",
+  "searchterm": "org.apache.poi.xssf.usermodel.XSSFChartSheet",
+  "query": "org.apache.poi.xssf.usermodel.XSSFChartSheet",
   "language_filters": [
     {
       "count": 1,
@@ -21,11 +21,20 @@
       "url": "https://searchcode.com/codesearch/view/122565071/",
       "md5hash": "323a53f9652114a365a820ad00aaa837",
       "lines": {
-        "23": "",
-        "24": "import org.apache.poi.xssf.usermodel.XSSFChartSheet;",
+        "7": " * which accompanies this distribution, and is available at",
+        "8": " * http://www.eclipse.org/legal/epl-v10.html",
         "41": "\t\t\tassertEquals( 3, workbook.getNumberOfSheets() );",
         "42": "\t\t\tassertTrue( workbook.getSheetAt(0) instanceof XSSFChartSheet );",
         "75": "\t\t\tassertTrue( workbook.getSheetAt(0) instanceof XSSFChartSheet );",
+        "15": "",
+        "16": "import static org.junit.Assert.assertEquals;",
+        "17": "import static org.junit.Assert.assertNotNull;",
+        "18": "import static org.junit.Assert.assertTrue;",
+        "19": "",
+        "23": "",
+        "24": "import org.apache.poi.xssf.usermodel.XSSFChartSheet;",
+        "25": "import org.apache.poi.xssf.usermodel.XSSFWorkbook;",
+        "26": "import org.eclipse.birt.core.exception.BirtException;",
         "74": "\t\t\tassertEquals( 3, workbook.getNumberOfSheets() );"
       },
       "id": 122565071,

@@ -1,8 +1,8 @@
 {
-  "matchterm": "UnsupportedVariantTypeException",
+  "matchterm": "org.apache.poi.hpsf.UnsupportedVariantTypeException",
   "previouspage": null,
-  "searchterm": "UnsupportedVariantTypeException",
-  "query": "UnsupportedVariantTypeException",
+  "searchterm": "org.apache.poi.hpsf.UnsupportedVariantTypeException",
+  "query": "org.apache.poi.hpsf.UnsupportedVariantTypeException",
   "language_filters": [
     {
       "count": 7,
@@ -13,6 +13,35 @@
   "total": 7,
   "results": [
     {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 540,
+      "location": "/src/org/apache/poi/hpsf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383361/",
+      "md5hash": "89a9616b84e878dcdfd285ef7159c220",
+      "lines": {
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "50": "{",
+        "17": "",
+        "18": "package org.apache.poi.hpsf;",
+        "51": "\tprivate static POILogger logger = POILogFactory.getLogger(VariantSupport.class);",
+        "408": "     * @exception WritingNotSupportedException if a property is to be written",
+        "409": "     * who's variant type HPSF does not yet support",
+        "26": "",
+        "27": "import org.apache.poi.util.POILogFactory;",
+        "28": "import org.apache.poi.util.POILogger;",
+        "29": ""
+      },
+      "id": 97383361,
+      "filename": "VariantSupport.java"
+    },
+    {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
       "language": "Java",
       "linescount": 82,
@@ -21,32 +50,24 @@
       "url": "https://searchcode.com/codesearch/view/15642674/",
       "md5hash": "9770c0a1bf70acac422ec5d87e2df0fe",
       "lines": {
-        "66": "     */",
-        "67": "    public UnsupportedVariantTypeException(final long variantType,",
-        "54": " * @since 2003-08-05",
-        "55": " * @version $Id: UnsupportedVariantTypeException.java 489730 2006-12-22 19:18:16Z bayard $",
-        "56": " */",
-        "57": "public abstract class UnsupportedVariantTypeException"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "        ",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "75": "              \"submit a request for enhancement (RFE) to \" +",
+        "76": "              \"<http://issues.apache.org/bugzilla/>! Thank you!\");",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "41": "package loci.poi.hpsf;",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "42": "",
+        "31": ""
       },
       "id": 15642674,
       "filename": "UnsupportedVariantTypeException.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 72,
-      "location": "/components/forks/poi/src/loci/poi/hpsf",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642680/",
-      "md5hash": "818db6189afb0ae2f35d24ff17d49a7a",
-      "lines": {
-        "48": " * @see UnsupportedVariantTypeException",
-        "56": "    extends UnsupportedVariantTypeException",
-        "55": "public class ReadingNotSupportedException",
-        "47": " * @see WritingNotSupportedException"
-      },
-      "id": 15642680,
-      "filename": "ReadingNotSupportedException.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -57,60 +78,25 @@
       "url": "https://searchcode.com/codesearch/view/15642684/",
       "md5hash": "638f11ecafb414834c45ab757ac19a8d",
       "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
         "192": "                                     final int codepage)",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
         "193": "        throws IOException, UnsupportedVariantTypeException",
+        "40": "        ",
+        "41": "package loci.poi.hpsf;",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "",
+        "46": "import loci.poi.util.LittleEndian;",
+        "9": " * %%",
         "186": "     * @exception IOException if an I/O error occurs",
-        "187": "     * @throws UnsupportedVariantTypeException if HPSF does not support some"
+        "187": "     * @throws UnsupportedVariantTypeException if HPSF does not support some",
+        "31": ""
       },
       "id": 15642684,
       "filename": "TypeWriter.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 72,
-      "location": "/components/forks/poi/src/loci/poi/hpsf",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642687/",
-      "md5hash": "333a3c58a46505533f546727b70578aa",
-      "lines": {
-        "48": " * @see UnsupportedVariantTypeException",
-        "56": "    extends UnsupportedVariantTypeException",
-        "55": "public class WritingNotSupportedException",
-        "47": " * @see ReadingNotSupportedException"
-      },
-      "id": 15642687,
-      "filename": "WritingNotSupportedException.java"
-    },
-    {
-      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
-      "language": "Java",
-      "linescount": 540,
-      "location": "/src/org/apache/poi/hpsf",
-      "name": "SimpleAndroidDocView",
-      "url": "https://searchcode.com/codesearch/view/97383361/",
-      "md5hash": "89a9616b84e878dcdfd285ef7159c220",
-      "lines": {
-        "93": "    protected static void writeUnsupportedTypeMessage",
-        "94": "        (final UnsupportedVariantTypeException ex)"
-      },
-      "id": 97383361,
-      "filename": "VariantSupport.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 450,
-      "location": "/components/forks/poi/src/loci/poi/hpsf",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642683/",
-      "md5hash": "8fa7785e3864553983ffce8b9a33e916",
-      "lines": {
-        "187": "        }",
-        "188": "        catch (UnsupportedVariantTypeException ex)"
-      },
-      "id": 15642683,
-      "filename": "Property.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -121,11 +107,113 @@
       "url": "https://searchcode.com/codesearch/view/15642693/",
       "md5hash": "2f1e0d92eda67ca2dfa755dbe2828a3a",
       "lines": {
-        "118": "    protected static void writeUnsupportedTypeMessage",
-        "119": "        (final UnsupportedVariantTypeException ex)"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "149": "     * @exception ReadingNotSupportedException if a property is to be written",
+        "150": "     * who's variant type HPSF does not yet support",
+        "41": "package loci.poi.hpsf;",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "27": "   this work for additional information regarding copyright ownership.",
+        "28": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "31": ""
       },
       "id": 15642693,
       "filename": "VariantSupport.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 72,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642680/",
+      "md5hash": "818db6189afb0ae2f35d24ff17d49a7a",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "        ",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "/**",
+        "44": " * <p>This exception is thrown when HPSF tries to read a (yet) unsupported",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "47": " * @see WritingNotSupportedException",
+        "48": " * @see UnsupportedVariantTypeException",
+        "41": "package loci.poi.hpsf;",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "31": ""
+      },
+      "id": 15642680,
+      "filename": "ReadingNotSupportedException.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 450,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642683/",
+      "md5hash": "8fa7785e3864553983ffce8b9a33e916",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "        ",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "47": "import loci.poi.util.HexDump;",
+        "48": "import loci.poi.util.LittleEndian;",
+        "46": "",
+        "41": "package loci.poi.hpsf;",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "27": "   this work for additional information regarding copyright ownership.",
+        "28": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "31": ""
+      },
+      "id": 15642683,
+      "filename": "Property.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 72,
+      "location": "/components/forks/poi/src/loci/poi/hpsf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642687/",
+      "md5hash": "333a3c58a46505533f546727b70578aa",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "        ",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "55": "public class WritingNotSupportedException",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "47": " * @see ReadingNotSupportedException",
+        "48": " * @see UnsupportedVariantTypeException",
+        "56": "    extends UnsupportedVariantTypeException",
+        "41": "package loci.poi.hpsf;",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "31": ""
+      },
+      "id": 15642687,
+      "filename": "WritingNotSupportedException.java"
     }
   ],
   "page": 0,

@@ -1,8 +1,8 @@
 {
-  "matchterm": "HeaderBlockWriter",
+  "matchterm": "org.apache.poi.poifs.storage.HeaderBlockWriter",
   "previouspage": null,
-  "searchterm": "HeaderBlockWriter",
-  "query": "HeaderBlockWriter",
+  "searchterm": "org.apache.poi.poifs.storage.HeaderBlockWriter",
+  "query": "org.apache.poi.poifs.storage.HeaderBlockWriter",
   "language_filters": [
     {
       "count": 4,
@@ -13,25 +13,6 @@
   "total": 4,
   "results": [
     {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 250,
-      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642253/",
-      "md5hash": "b135db390366ec303bafe303dc68de06",
-      "lines": {
-        "247": "    /* **********  END  extension of BigBlock ********** */",
-        "248": "}   // end public class HeaderBlockWriter",
-        "89": "",
-        "90": "    public HeaderBlockWriter(int blockSize)",
-        "59": "",
-        "60": "public class HeaderBlockWriter"
-      },
-      "id": 15642253,
-      "filename": "HeaderBlockWriter.java"
-    },
-    {
       "repo": "https://github.com/minstrelsy/POI-Android.git",
       "language": "Java",
       "linescount": 615,
@@ -40,10 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97397929/",
       "md5hash": "5083d727a84f9c004bece7393d2ae9b8",
       "lines": {
-        "48": "import org.apache.poi.poifs.storage.HeaderBlockWriter;",
-        "347": "        // get the extended block allocation table blocks",
-        "348": "        HeaderBlockWriter header_block_writer = new HeaderBlockWriter(bigBlockSize);",
-        "47": "import org.apache.poi.poifs.storage.HeaderBlock;"
+        "34": "",
+        "35": "import org.apache.poi.poifs.common.POIFSBigBlockSize;",
+        "36": "import org.apache.poi.poifs.common.POIFSConstants;",
+        "37": "import org.apache.poi.poifs.dev.POIFSViewable;",
+        "38": "import org.apache.poi.poifs.property.DirectoryProperty;",
+        "39": "import org.apache.poi.poifs.property.Property;",
+        "40": "import org.apache.poi.poifs.property.PropertyTable;",
+        "41": "import org.apache.poi.poifs.storage.BATBlock;",
+        "42": "import org.apache.poi.poifs.storage.BlockAllocationTableReader;",
+        "43": "import org.apache.poi.poifs.storage.BlockAllocationTableWriter;",
+        "44": "import org.apache.poi.poifs.storage.BlockList;",
+        "45": "import org.apache.poi.poifs.storage.BlockWritable;",
+        "46": "import org.apache.poi.poifs.storage.HeaderBlockConstants;",
+        "19": "",
+        "20": "package org.apache.poi.poifs.filesystem;"
       },
       "id": 97397929,
       "filename": "POIFSFileSystem.java"
@@ -57,13 +49,52 @@
       "url": "https://searchcode.com/codesearch/view/15642276/",
       "md5hash": "821ddc8beda41ba4d7ad809592451995",
       "lines": {
-        "257": "        // get the extended block allocation table blocks",
-        "258": "        HeaderBlockWriter header_block_writer = new HeaderBlockWriter(512);",
-        "61": "import loci.poi.poifs.storage.HeaderBlockReader;",
-        "62": "import loci.poi.poifs.storage.HeaderBlockWriter;"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.poifs.filesystem;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "49": "",
+        "50": "import loci.poi.poifs.common.POIFSConstants;",
+        "51": "import loci.poi.poifs.dev.POIFSViewable;",
+        "55": "import loci.poi.poifs.property.PropertyTable;",
+        "56": "import loci.poi.poifs.storage.BATBlock;",
+        "57": "import loci.poi.poifs.storage.BlockAllocationTableReader;",
+        "58": "import loci.poi.poifs.storage.BlockAllocationTableWriter;",
+        "31": ""
       },
       "id": 15642276,
       "filename": "POIFSFileSystem.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 250,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642253/",
+      "md5hash": "b135db390366ec303bafe303dc68de06",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.poifs.storage;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "47": "",
+        "48": "import loci.poi.poifs.common.POIFSConstants;",
+        "49": "import loci.poi.util.IntegerField;",
+        "9": " * %%",
+        "56": " *",
+        "57": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "31": ""
+      },
+      "id": 15642253,
+      "filename": "HeaderBlockWriter.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -74,8 +105,22 @@
       "url": "https://searchcode.com/codesearch/view/15642252/",
       "md5hash": "8450934a7708c91f77ff2df9934d6bd9",
       "lines": {
-        "106": "            int calculated_xbat_blocks =",
-        "107": "                HeaderBlockWriter"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "68": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "41": "",
+        "42": "package loci.poi.poifs.storage;",
+        "67": " *",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "48": "",
+        "49": "import loci.poi.poifs.common.POIFSConstants;",
+        "50": "import loci.poi.poifs.filesystem.BATManaged;",
+        "51": "import loci.poi.util.IntList;",
+        "84": "        _start_block = POIFSConstants.END_OF_CHAIN;",
+        "83": "    {",
+        "31": ""
       },
       "id": 15642252,
       "filename": "BlockAllocationTableWriter.java"

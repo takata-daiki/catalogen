@@ -1,442 +1,118 @@
 {
-  "matchterm": "Nullable",
+  "matchterm": "org.apache.poi.openxml4j.util.Nullable",
   "previouspage": null,
-  "searchterm": "Nullable",
-  "query": "Nullable",
+  "searchterm": "org.apache.poi.openxml4j.util.Nullable",
+  "query": "org.apache.poi.openxml4j.util.Nullable",
   "language_filters": [
     {
-      "count": 49151,
+      "count": 3,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 49151,
+  "total": 3,
   "results": [
     {
-      "repo": "https://bitbucket.org/gargdeendayal/procyon",
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
       "language": "Java",
-      "linescount": 32,
-      "location": "/Procyon.Core/src/main/java/com/strobel/annotations",
-      "name": "Procyon",
-      "url": "https://searchcode.com/codesearch/view/67350396/",
-      "md5hash": "1c27e329f5071296e967f67094e36db9",
+      "linescount": 1489,
+      "location": "/pptx/src/org/apache/poi/openxml4j/opc",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406292/",
+      "md5hash": "47fc882bc196bd395e952d6ada656cd9",
       "lines": {
-        "1": "/*",
-        "2": " * Nullable.java",
-        "29": "        })",
-        "30": "public @interface Nullable {"
+        "32": "import java.util.Date;",
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "38": "",
+        "39": "import org.apache.poi.openxml4j.exceptions.InvalidFormatException;",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "42": "import org.apache.poi.openxml4j.exceptions.OpenXML4JRuntimeException;",
+        "43": "import org.apache.poi.openxml4j.exceptions.PartAlreadyExistsException;",
+        "17": "",
+        "18": "package org.apache.poi.openxml4j.opc;",
+        "41": "import org.apache.poi.openxml4j.exceptions.OpenXML4JException;",
+        "40": "import org.apache.poi.openxml4j.exceptions.InvalidOperationException;",
+        "30": "import java.net.URISyntaxException;",
+        "31": "import java.util.ArrayList;"
       },
-      "id": 67350396,
-      "filename": "Nullable.java"
+      "id": 97406292,
+      "filename": "OPCPackage.java"
     },
     {
-      "repo": "https://bitbucket.org/awroblicky/164finalproject",
+      "repo": "https://github.com/solsson/tika.git",
       "language": "Java",
-      "linescount": 163,
-      "location": "/Joust/src/fri/patterns/interpreter/parsergenerator/parsertables",
-      "name": "164finalproject",
-      "url": "https://searchcode.com/codesearch/view/126461452/",
-      "md5hash": "2326489137376cc9d645dc70a6bac9d3",
+      "linescount": 148,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785575/",
+      "md5hash": "2a9aaf9e0c1f1ffdb93195ff06ef1121",
       "lines": {
-        "48": "\tpublic boolean isNullable(String nonterminal)\t{",
-        "34": "\t*/",
-        "35": "\tpublic Nullable(Syntax syntax, List nonterminals)",
-        "49": "\t\tBoolean nullable = (Boolean) get(nonterminal);",
-        "50": "\t\treturn nullable.booleanValue();",
-        "46": "",
-        "15": "\tSearch every rule that contain the nonterminal on left side.",
-        "16": "\tScan the left side of every rule until a terminal or a non-nullable",
-        "17": "\tnonterminal appears. If found, rule is not nullable, else it is nullable.",
-        "18": "\tIf one of the rules that derive nonterminal is nullable, this nonterminal",
-        "19": "\tis nullable.",
+        "8": " *",
+        "9": " *     http://www.apache.org/licenses/LICENSE-2.0",
+        "16": " */",
+        "17": "package org.apache.tika.parser.microsoft.ooxml;",
+        "18": "",
         "20": "",
-        "23": "",
-        "24": "class Nullable extends Hashtable",
-        "47": "\t/** Returns true if passed nonterminal is nullable, else false. */"
+        "21": "import org.apache.poi.POIXMLTextExtractor;",
+        "22": "import org.apache.poi.POIXMLProperties.CoreProperties;",
+        "23": "import org.apache.poi.POIXMLProperties.ExtendedProperties;",
+        "24": "import org.apache.poi.openxml4j.opc.internal.PackagePropertiesPart;",
+        "25": "import org.apache.poi.openxml4j.util.Nullable;",
+        "26": "import org.apache.tika.exception.TikaException;",
+        "27": "import org.apache.tika.metadata.Metadata;",
+        "28": "import org.apache.tika.metadata.PagedText;",
+        "29": "import org.apache.tika.metadata.Property;"
       },
-      "id": 126461452,
-      "filename": "Nullable.java"
+      "id": 111785575,
+      "filename": "MetadataExtractor.java"
     },
     {
-      "repo": "https://android.googlesource.com/platform/tools/idea",
+      "repo": "https://bitbucket.org/krabuzin/mp_jobs",
       "language": "Java",
-      "linescount": 45,
-      "location": "/platform/annotations/src/org/jetbrains/annotations",
-      "name": "idea",
-      "url": "https://searchcode.com/codesearch/view/68820411/",
-      "md5hash": "cd872031c14985058932e4b164ced3a6",
+      "linescount": 2080,
+      "location": "/workspace/.JETEmitters/src/org/talend/designer/codegen/translators/file/input",
+      "name": "mp_jobs",
+      "url": "https://searchcode.com/codesearch/view/128910886/",
+      "md5hash": "75ba1544ce93e33d510ca361547ce6b5",
       "lines": {
-        "33": " * <br>",
-        "34": " * On the other hand, the {@link java.lang.ref.Reference#get()} should be annotated {@link Nullable} because",
-        "21": "/**",
-        "22": " * An element annotated with {@link Nullable} claims {@code null} value is perfectly <em>valid</em>",
-        "41": "@Target({ElementType.METHOD, ElementType.FIELD, ElementType.PARAMETER, ElementType.LOCAL_VARIABLE})",
-        "42": "public @interface Nullable {",
-        "28": " * because the developer could do nothing to prevent null from happening.",
-        "29": " * Otherwise, too eager {@link Nullable} usage could lead to too many false positives from static analysis tools.",
-        "30": " * <br>",
-        "31": " * For example, {@link java.util.Map#get(Object key)} should <em>not</em> be annotated {@link Nullable} because"
+        "1": "package org.talend.designer.codegen.translators.file.input;",
+        "2": "",
+        "3": "import org.talend.core.model.process.INode;",
+        "4": "import org.talend.core.model.process.ElementParameterParser;",
+        "5": "import org.talend.core.model.metadata.IMetadataTable;",
+        "6": "import org.talend.core.model.metadata.IMetadataColumn;",
+        "7": "import org.talend.core.model.process.IConnection;",
+        "8": "import org.talend.core.model.process.IConnectionCategory;",
+        "9": "import org.talend.designer.codegen.config.CodeGeneratorArgument;",
+        "10": "import java.util.List;",
+        "11": "import java.util.Map;",
+        "12": "import org.talend.core.model.metadata.types.JavaTypesManager;",
+        "13": "import org.talend.core.model.metadata.types.JavaType;",
+        "14": "",
+        "27": "  protected final String TEXT_1 = \"\\t\";",
+        "28": "  protected final String TEXT_2 = NL + NL + \"\\t\\t\\tclass RegexUtil_\";",
+        "29": "  protected final String TEXT_3 = \" {\" + NL + \"\\t\\t\\t\\t\" + NL + \"\\t\\t    \\tpublic java.util.List<jxl.Sheet> getSheets(jxl.Workbook workbook, String oneSheetName, boolean useRegex) {\" + NL + \"\\t\\t\\t        \" + NL + \"\\t\\t\\t        java.util.List<jxl.Sheet> list = new java.util.ArrayList<jxl.Sheet>();\" + NL + \"\\t\\t\\t        \" + NL + \"\\t\\t\\t        if(useRegex){//this part process the regex issue\" + NL + \"\\t\\t\\t        \\t\" + NL + \"\\t\\t\\t\\t        jxl.Sheet[] sheets = workbook.getSheets();\" + NL + \"\\t\\t\\t\\t        java.util.regex.Pattern pattern = java.util.regex.Pattern.compile(oneSheetName);\" + NL + \"\\t\\t\\t\\t        for (int i = 0; i < sheets.length; i++) {\" + NL + \"\\t\\t\\t\\t            String sheetName = sheets[i].getName();\" + NL + \"\\t\\t\\t\\t            java.util.regex.Matcher matcher = pattern.matcher(sheetName);\" + NL + \"\\t\\t\\t\\t            if (matcher.matches()) {\" + NL + \"\\t\\t\\t\\t            \\tjxl.Sheet sheet = workbook.getSheet(sheetName);\" + NL + \"\\t\\t\\t\\t            \\tif(sheet != null){\" + NL + \"\\t\\t\\t\\t                \\tlist.add(sheet);\" + NL + \"\\t\\t\\t\\t                }\\t\" + NL + \"\\t\\t\\t\\t            }\" + NL + \"\\t\\t\\t\\t        }\" + NL + \"\\t\\t\\t\\t        \" + NL + \"\\t\\t\\t        }else{\\t\" + NL + \"\\t\\t\\t        \\tjxl.Sheet sheet = workbook.getSheet(oneSheetName);\" + NL + \"\\t\\t            \\tif(sheet != null){\" + NL + \"\\t\\t                \\tlist.add(sheet);\" + NL + \"\\t\\t                }\" + NL + \"\\t\\t\\t        \\t\" + NL + \"\\t\\t\\t        }\" + NL + \"\\t\\t\\t        \" + NL + \"\\t\\t\\t        return list;\" + NL + \"\\t\\t\\t    }\" + NL + \"\\t\\t    \\t\" + NL + \"\\t\\t\\t    public java.util.List<jxl.Sheet> getSheets(jxl.Workbook workbook, int index, boolean useRegex) {\" + NL + \"\\t\\t\\t    \\tjava.util.List<jxl.Sheet> list =  new java.util.ArrayList<jxl.Sheet>();\" + NL + \"\\t\\t\\t    \\tjxl.Sheet sheet = workbook.getSheet(index);\" + NL + \"\\t            \\tif(sheet != null){\" + NL + \"\\t                \\tlist.add(sheet);\" + NL + \"\\t                }\" + NL + \"\\t\\t\\t    \\treturn list;\" + NL + \"\\t\\t\\t    }\" + NL + \"\\t\\t\\t    \" + NL + \"\\t\\t\\t}\" + NL + \"\\t\\t\\t\" + NL + \"\\t\\t\\t\" + NL + \"\\t\\tRegexUtil_\";"
       },
-      "id": 68820411,
-      "filename": "Nullable.java"
-    },
-    {
-      "repo": "https://bitbucket.org/siddhuwarrier/roboguice-honeycomb",
-      "language": "Java",
-      "linescount": 24,
-      "location": "/roboguice/src/main/java/roboguice/inject",
-      "name": "roboguice-honeycomb",
-      "url": "https://searchcode.com/codesearch/view/130976493/",
-      "md5hash": "638c7e06ad607e0cb57a01ec56f8f692",
-      "lines": {
-        "7": "",
-        "8": "public class Nullable {",
-        "9": "    private Nullable() {",
-        "10": "    }",
-        "11": "    ",
-        "12": "    public static boolean notNullable( Field field ) {",
-        "13": "        return !isNullable( field );",
-        "14": "    }",
-        "15": "",
-        "16": "    public static boolean isNullable(Field field) {",
-        "17": "        for( Annotation a : field.getAnnotations() )",
-        "18": "            if( Strings.equals(\"Nullable\",a.annotationType().getSimpleName()))"
-      },
-      "id": 130976493,
-      "filename": "Nullable.java"
-    },
-    {
-      "repo": "https://github.com/xwiki-contrib/retired.git",
-      "language": "Java",
-      "linescount": 28,
-      "location": "/xunit/src/xunit/database",
-      "name": "retired",
-      "url": "https://searchcode.com/codesearch/view/67069072/",
-      "md5hash": "7410013e4217f5cacd806929890e9121",
-      "lines": {
-        "7": "/**",
-        "8": " * This Interface is used in Column Class. Each Column can be either NULLABLE, NONNULLABLE or UNKNOWN",
-        "11": " */",
-        "12": "public interface Nullable {",
-        "13": "    /**",
-        "14": "     * Column can contain NULL Values <code>NULLABLE</code>",
-        "15": "     */",
-        "16": "    public static final int NULLABLE \t\t=\t1;",
-        "18": "    /**",
-        "19": "     * Column can't contain NULL Values <code>NONNULLABLE</code>",
-        "20": "     */",
-        "21": "    public static final int NONNULLABLE \t=\t0;    "
-      },
-      "id": 67069072,
-      "filename": "Nullable.java"
-    },
-    {
-      "repo": "https://github.com/cjbooms/felix.git",
-      "language": "Java",
-      "linescount": 34,
-      "location": "/ipojo/runtime/core/src/main/java/org/apache/felix/ipojo",
-      "name": "felix",
-      "url": "https://searchcode.com/codesearch/view/96333367/",
-      "md5hash": "9d3b39d6b0cbc13955ad9999f48af355",
-      "lines": {
-        "21": "/**",
-        "22": " * A Nullable object must implement this interface.",
-        "23": " * This allows to the code checking if the injected object is",
-        "24": " * a Nullable object or not such as in:<br/>",
-        "25": " * <code>if(foo instanceof Nullable){...}</code>",
-        "26": " * <br/>",
-        "27": " * This interface does not define any methods. Nullable objects owns",
-        "30": " */",
-        "31": "public interface Nullable {"
-      },
-      "id": 96333367,
-      "filename": "Nullable.java"
-    },
-    {
-      "repo": "https://bitbucket.org/spaced30/connector-eclipse",
-      "language": "Java",
-      "linescount": 33,
-      "location": "/org.jetbrains.annotations/source-bundle/org/jetbrains/annotations",
-      "name": "connector-eclipse",
-      "url": "https://searchcode.com/codesearch/view/125837747/",
-      "md5hash": "79dd67bb40f4dbe8480c29b02133fb59",
-      "lines": {
-        "20": "/**",
-        "21": " * An element annotated with Nullable claims <code>null</code> value is perfectly <em>valid</em>",
-        "30": "public @interface Nullable {",
-        "29": "@Target({ElementType.METHOD, ElementType.FIELD, ElementType.PARAMETER, ElementType.LOCAL_VARIABLE})"
-      },
-      "id": 125837747,
-      "filename": "Nullable.java"
-    },
-    {
-      "repo": "https://bitbucket.org/andreaandreaandrea/fantasytcg",
-      "language": "Java",
-      "linescount": 17,
-      "location": "/src/it/halfone/fantasytcg/client/util/at",
-      "name": "fantasytcg",
-      "url": "https://searchcode.com/codesearch/view/131137228/",
-      "md5hash": "bc55a10deba4c373c3a97d32908d3e9b",
-      "lines": {
-        "3": "/**",
-        "4": " * Nullable - 20/set/2012",
-        "13": " */",
-        "14": "public @interface Nullable {"
-      },
-      "id": 131137228,
-      "filename": "Nullable.java"
-    },
-    {
-      "repo": "https://bitbucket.org/byplayer/connector-eclipse",
-      "language": "Java",
-      "linescount": 33,
-      "location": "/org.jetbrains.annotations/source-bundle/org/jetbrains/annotations",
-      "name": "connector-eclipse",
-      "url": "https://searchcode.com/codesearch/view/132330777/",
-      "md5hash": "79dd67bb40f4dbe8480c29b02133fb59",
-      "lines": {
-        "20": "/**",
-        "21": " * An element annotated with Nullable claims <code>null</code> value is perfectly <em>valid</em>",
-        "30": "public @interface Nullable {",
-        "29": "@Target({ElementType.METHOD, ElementType.FIELD, ElementType.PARAMETER, ElementType.LOCAL_VARIABLE})"
-      },
-      "id": 132330777,
-      "filename": "Nullable.java"
-    },
-    {
-      "repo": "https://bitbucket.org/grze/euconnector-eclipse",
-      "language": "Java",
-      "linescount": 33,
-      "location": "/org.jetbrains.annotations/source-bundle/org/jetbrains/annotations",
-      "name": "euconnector-eclipse",
-      "url": "https://searchcode.com/codesearch/view/134408828/",
-      "md5hash": "79dd67bb40f4dbe8480c29b02133fb59",
-      "lines": {
-        "20": "/**",
-        "21": " * An element annotated with Nullable claims <code>null</code> value is perfectly <em>valid</em>",
-        "30": "public @interface Nullable {",
-        "29": "@Target({ElementType.METHOD, ElementType.FIELD, ElementType.PARAMETER, ElementType.LOCAL_VARIABLE})"
-      },
-      "id": 134408828,
-      "filename": "Nullable.java"
-    },
-    {
-      "repo": "https://bitbucket.org/Ldabul/connector-eclipse",
-      "language": "Java",
-      "linescount": 33,
-      "location": "/org.jetbrains.annotations/source-bundle/org/jetbrains/annotations",
-      "name": "connector-eclipse",
-      "url": "https://searchcode.com/codesearch/view/134609667/",
-      "md5hash": "79dd67bb40f4dbe8480c29b02133fb59",
-      "lines": {
-        "20": "/**",
-        "21": " * An element annotated with Nullable claims <code>null</code> value is perfectly <em>valid</em>",
-        "30": "public @interface Nullable {",
-        "29": "@Target({ElementType.METHOD, ElementType.FIELD, ElementType.PARAMETER, ElementType.LOCAL_VARIABLE})"
-      },
-      "id": 134609667,
-      "filename": "Nullable.java"
-    },
-    {
-      "repo": "https://bitbucket.org/pawcik/connector-eclipse",
-      "language": "Java",
-      "linescount": 33,
-      "location": "/org.jetbrains.annotations/source-bundle/org/jetbrains/annotations",
-      "name": "connector-eclipse",
-      "url": "https://searchcode.com/codesearch/view/134764965/",
-      "md5hash": "79dd67bb40f4dbe8480c29b02133fb59",
-      "lines": {
-        "20": "/**",
-        "21": " * An element annotated with Nullable claims <code>null</code> value is perfectly <em>valid</em>",
-        "30": "public @interface Nullable {",
-        "29": "@Target({ElementType.METHOD, ElementType.FIELD, ElementType.PARAMETER, ElementType.LOCAL_VARIABLE})"
-      },
-      "id": 134764965,
-      "filename": "Nullable.java"
-    },
-    {
-      "repo": "https://bitbucket.org/alins/connector-eclipse",
-      "language": "Java",
-      "linescount": 33,
-      "location": "/org.jetbrains.annotations/source-bundle/org/jetbrains/annotations",
-      "name": "connector-eclipse",
-      "url": "https://searchcode.com/codesearch/view/136711228/",
-      "md5hash": "79dd67bb40f4dbe8480c29b02133fb59",
-      "lines": {
-        "20": "/**",
-        "21": " * An element annotated with Nullable claims <code>null</code> value is perfectly <em>valid</em>",
-        "30": "public @interface Nullable {",
-        "29": "@Target({ElementType.METHOD, ElementType.FIELD, ElementType.PARAMETER, ElementType.LOCAL_VARIABLE})"
-      },
-      "id": 136711228,
-      "filename": "Nullable.java"
-    },
-    {
-      "repo": "https://github.com/nagaramesh/apb.git",
-      "language": "Java",
-      "linescount": 51,
-      "location": "/modules/apb-base/src/org/jetbrains/annotations",
-      "name": "apb",
-      "url": "https://searchcode.com/codesearch/view/73552417/",
-      "md5hash": "08632714c9f3d29b6b2315c608b79e61",
-      "lines": {
-        "47": "public @interface Nullable",
-        "46": "@Target({ ElementType.METHOD, ElementType.FIELD, ElementType.PARAMETER, ElementType.LOCAL_VARIABLE })",
-        "38": "/**",
-        "39": " * An element annotated with Nullable claims <code>null</code> value is perfectly <em>valid</em>"
-      },
-      "id": 73552417,
-      "filename": "Nullable.java"
-    },
-    {
-      "repo": "https://bitbucket.org/kayabendroth/connector-eclipse",
-      "language": "Java",
-      "linescount": 33,
-      "location": "/org.jetbrains.annotations/source-bundle/org/jetbrains/annotations",
-      "name": "connector-eclipse",
-      "url": "https://searchcode.com/codesearch/view/61687241/",
-      "md5hash": "79dd67bb40f4dbe8480c29b02133fb59",
-      "lines": {
-        "20": "/**",
-        "21": " * An element annotated with Nullable claims <code>null</code> value is perfectly <em>valid</em>",
-        "30": "public @interface Nullable {",
-        "29": "@Target({ElementType.METHOD, ElementType.FIELD, ElementType.PARAMETER, ElementType.LOCAL_VARIABLE})"
-      },
-      "id": 61687241,
-      "filename": "Nullable.java"
-    },
-    {
-      "repo": "git://github.com/octo-technology/java-sql-dsl.git",
-      "language": "Java",
-      "linescount": 56,
-      "location": "/src/main/java/com/octo/java/sql/exp",
-      "name": "java-sql-dsl",
-      "url": "https://searchcode.com/codesearch/view/15810757/",
-      "md5hash": "7d3dd55e73c2a8db3b2f392b91e6bab5",
-      "lines": {
-        "22": "",
-        "41": "      return false;",
-        "25": "",
-        "26": "  public Nullable(final Object value) {",
-        "23": "public class Nullable implements Visitable {",
-        "44": "",
-        "42": "    if (!(obj instanceof Nullable))",
-        "45": "    final Nullable otherObj = (Nullable) obj;"
-      },
-      "id": 15810757,
-      "filename": "Nullable.java"
-    },
-    {
-      "repo": "https://bitbucket.org/nbargnesi/idea.git",
-      "language": "Java",
-      "linescount": 34,
-      "location": "/platform/annotations/src/org/jetbrains/annotations",
-      "name": "idea",
-      "url": "https://searchcode.com/codesearch/view/39402202/",
-      "md5hash": "cf3667e329c0d09a12e4ae3ac7a2ea60",
-      "lines": {
-        "30": "@Target({ElementType.METHOD, ElementType.FIELD, ElementType.PARAMETER, ElementType.LOCAL_VARIABLE})",
-        "21": "/**",
-        "22": " * An element annotated with Nullable claims <code>null</code> value is perfectly <em>valid</em>",
-        "31": "public @interface Nullable {"
-      },
-      "id": 39402202,
-      "filename": "Nullable.java"
-    },
-    {
-      "repo": "https://bitbucket.org/jervisfm/android-research.git",
-      "language": "Java",
-      "linescount": 21,
-      "location": "/com.google.android.apps.translate-141/com.google.android.apps.translate-java/javax/annotation",
-      "name": "android-research",
-      "url": "https://searchcode.com/codesearch/view/52604057/",
-      "md5hash": "c2fdd5db615490b6365571dc9975735c",
-      "lines": {
-        "18": "/* Location:           D:\\Jervis\\Documents\\Programming\\Research\\Android\\apks\\com.google.android.apps.translate-141\\classes_dex2jar.jar",
-        "19": " * Qualified Name:     javax.annotation.Nullable",
-        "13": "@TypeQualifierNickname",
-        "14": "public @interface Nullable"
-      },
-      "id": 52604057,
-      "filename": "Nullable.java"
-    },
-    {
-      "repo": "https://github.com/dedoz/kotlin.git",
-      "language": "Java",
-      "linescount": 33,
-      "location": "/core/runtime.jvm/src/org/jetbrains/annotations",
-      "name": "kotlin",
-      "url": "https://searchcode.com/codesearch/view/100038920/",
-      "md5hash": "abbb9dd991ceba50dfd7b3bfee856a51",
-      "lines": {
-        "30": "public @interface Nullable {",
-        "21": "/**",
-        "22": " * An element annotated with Nullable claims <code>null</code> value is perfectly <em>valid</em>",
-        "29": "@Target({ElementType.METHOD, ElementType.FIELD, ElementType.PARAMETER, ElementType.LOCAL_VARIABLE})"
-      },
-      "id": 100038920,
-      "filename": "Nullable.java"
-    },
-    {
-      "repo": "https://bitbucket.org/jon_black/connector-eclipse",
-      "language": "Java",
-      "linescount": 33,
-      "location": "/org.jetbrains.annotations/source-bundle/org/jetbrains/annotations",
-      "name": "connector-eclipse",
-      "url": "https://searchcode.com/codesearch/view/102778179/",
-      "md5hash": "79dd67bb40f4dbe8480c29b02133fb59",
-      "lines": {
-        "20": "/**",
-        "21": " * An element annotated with Nullable claims <code>null</code> value is perfectly <em>valid</em>",
-        "30": "public @interface Nullable {",
-        "29": "@Target({ElementType.METHOD, ElementType.FIELD, ElementType.PARAMETER, ElementType.LOCAL_VARIABLE})"
-      },
-      "id": 102778179,
-      "filename": "Nullable.java"
+      "id": 128910886,
+      "filename": "TFileInputExcelBeginJava.java"
     }
   ],
   "page": 0,
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 28663,
+      "count": 2,
       "source": "Github",
       "id": 2
     },
     {
-      "count": 16160,
+      "count": 1,
       "source": "Bitbucket",
       "id": 3
-    },
-    {
-      "count": 2867,
-      "source": "Google Code",
-      "id": 1
-    },
-    {
-      "count": 1224,
-      "source": "Google Android",
-      "id": 12
-    },
-    {
-      "count": 200,
-      "source": "GitLab",
-      "id": 13
-    },
-    {
-      "count": 17,
-      "source": "CodePlex",
-      "id": 5
-    },
-    {
-      "count": 16,
-      "source": "Sourceforge",
-      "id": 4
-    },
-    {
-      "count": 4,
-      "source": "Unknown",
-      "id": 0
     }
   ]
 }

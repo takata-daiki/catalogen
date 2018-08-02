@@ -1,8 +1,8 @@
 {
-  "matchterm": "POIFSViewEngine",
+  "matchterm": "org.apache.poi.poifs.dev.POIFSViewEngine",
   "previouspage": null,
-  "searchterm": "POIFSViewEngine",
-  "query": "POIFSViewEngine",
+  "searchterm": "org.apache.poi.poifs.dev.POIFSViewEngine",
+  "query": "org.apache.poi.poifs.dev.POIFSViewEngine",
   "language_filters": [
     {
       "count": 3,
@@ -12,23 +12,6 @@
   ],
   "total": 3,
   "results": [
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 152,
-      "location": "/components/forks/poi/src/loci/poi/poifs/dev",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642297/",
-      "md5hash": "182a1c3f6bd0628937371f536d158bd4",
-      "lines": {
-        "150": "}   // end public class POIFSViewEngine",
-        "53": "",
-        "54": "public class POIFSViewEngine",
-        "149": "    }"
-      },
-      "id": 15642297,
-      "filename": "POIFSViewEngine.java"
-    },
     {
       "repo": "git://github.com/plutext/docx4j.git",
       "language": "Java",
@@ -40,11 +23,51 @@
       "lines": {
         "32": "import org.apache.log4j.Logger;",
         "33": "import org.apache.poi.poifs.dev.POIFSViewEngine;",
-        "110": "    \tif (verbose) {",
-        "111": "\t        List strings = POIFSViewEngine.inspectViewable(fs, true, 0, \"  \");"
+        "34": "import org.apache.poi.poifs.filesystem.DocumentInputStream;",
+        "35": "import org.apache.poi.poifs.filesystem.POIFSFileSystem;",
+        "36": "import org.docx4j.openpackaging.exceptions.InvalidFormatException;",
+        "5": "",
+        "6": "    docx4j is licensed under the Apache License, Version 2.0 (the \"License\"); ",
+        "71": "\t",
+        "72": "\tpublic void initPOIFSFileSystem() throws IOException {",
+        "10": "",
+        "11": "        http://www.apache.org/licenses/LICENSE-2.0 ",
+        "66": "",
+        "67": "\tPOIFSFileSystem fs;",
+        "68": "\tpublic POIFSFileSystem getFs() {",
+        "69": "\t\treturn fs;",
+        "31": ""
       },
       "id": 17641490,
       "filename": "OleObjectBinaryPart.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 152,
+      "location": "/components/forks/poi/src/loci/poi/poifs/dev",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642297/",
+      "md5hash": "182a1c3f6bd0628937371f536d158bd4",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "149": "    }",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "150": "}   // end public class POIFSViewEngine",
+        "41": "",
+        "42": "package loci.poi.poifs.dev;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "48": "/**",
+        "49": " * This class contains methods used to inspect POIFSViewable objects",
+        "50": " *",
+        "53": "",
+        "54": "public class POIFSViewEngine",
+        "31": ""
+      },
+      "id": 15642297,
+      "filename": "POIFSViewEngine.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -55,8 +78,21 @@
       "url": "https://searchcode.com/codesearch/view/15642295/",
       "md5hash": "d847790d42d7194d486809d38bca5cce",
       "lines": {
-        "104": "            List          strings = POIFSViewEngine.inspectViewable(fs, true,",
-        "103": "                new POIFSFileSystem(new RandomAccessInputStream(filename), 512);"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.poifs.dev;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "49": "",
+        "50": "import loci.poi.poifs.filesystem.POIFSFileSystem;",
+        "51": "import loci.poi.util.*;",
+        "53": "/**",
+        "54": " * A simple viewer for POIFS files",
+        "55": " *",
+        "56": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "31": ""
       },
       "id": 15642295,
       "filename": "POIFSViewer.java"

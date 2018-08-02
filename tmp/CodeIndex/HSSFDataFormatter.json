@@ -1,8 +1,8 @@
 {
-  "matchterm": "HSSFDataFormatter",
+  "matchterm": "org.apache.poi.hssf.usermodel.HSSFDataFormatter",
   "previouspage": null,
-  "searchterm": "HSSFDataFormatter",
-  "query": "HSSFDataFormatter",
+  "searchterm": "org.apache.poi.hssf.usermodel.HSSFDataFormatter",
+  "query": "org.apache.poi.hssf.usermodel.HSSFDataFormatter",
   "language_filters": [
     {
       "count": 4,
@@ -13,19 +13,33 @@
   "total": 4,
   "results": [
     {
-      "repo": "https://github.com/qz267/automanx-api.git",
+      "repo": "http://javashellscript.googlecode.com/svn/trunk/",
       "language": "Java",
-      "linescount": 262,
-      "location": "/src/main/java/com/taobao/itest/dbunit/dataset/excel",
-      "name": "automanx-api",
-      "url": "https://searchcode.com/codesearch/view/98215989/",
-      "md5hash": "f843393f906ce40d438f12806e441583",
+      "linescount": 190,
+      "location": "/JavaShellScript/jsslib/src/jsslib/excel",
+      "name": "javashellscript",
+      "url": "https://searchcode.com/codesearch/view/13216283/",
+      "md5hash": "339a5478640635ca58c7d984f07ad047",
       "lines": {
-        "184": "\t\t// else {",
-        "185": "\t\t// // HSSFDataFormatter formatter = new HSSFDataFormatter();"
+        "8": "import java.util.Locale;",
+        "9": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "10": "import org.apache.poi.hssf.usermodel.HSSFDataFormatter;",
+        "11": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator;",
+        "12": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator.CellValue;",
+        "13": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "14": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "15": "",
+        "120": "        HSSFDataFormatter formater = new HSSFDataFormatter();",
+        "147": "                        switch (wert.getCellType()) {",
+        "148": "                            case HSSFCell.CELL_TYPE_BLANK:",
+        "150": "                                break;",
+        "119": "        //Wird gebraucht um festzustellen, pb es sich um ein Datum handeln k\u00f6nnte",
+        "24": "     */",
+        "25": "    private HSSFFormulaEvaluator evaluator;",
+        "151": "                            case HSSFCell.CELL_TYPE_BOOLEAN:"
       },
-      "id": 98215989,
-      "filename": "XlsDataSetWriter.java"
+      "id": 13216283,
+      "filename": "ExcelReader.java"
     },
     {
       "repo": "https://bitbucket.org/abrin/excelunit",
@@ -36,30 +50,25 @@
       "url": "https://searchcode.com/codesearch/view/64419074/",
       "md5hash": "afb2273468a9143c8e7491d51efe8bf1",
       "lines": {
+        "1": "package org.tdar.utils;",
+        "2": "",
+        "6": "",
+        "7": "import org.apache.commons.lang.StringUtils;",
         "8": "import org.apache.poi.hssf.usermodel.HSSFDataFormatter;",
-        "23": "    private DataFormatter formatter = new HSSFDataFormatter();",
+        "9": "import org.apache.poi.ss.usermodel.Cell;",
+        "10": "import org.apache.poi.ss.usermodel.DataFormatter;",
+        "11": "import org.apache.poi.ss.usermodel.Font;",
+        "12": "import org.apache.poi.ss.usermodel.FormulaEvaluator;",
+        "13": "import org.apache.poi.ss.usermodel.Row;",
+        "14": "import org.apache.poi.ss.usermodel.Sheet;",
+        "15": "import org.apache.poi.ss.usermodel.Workbook;",
+        "16": "import org.apache.poi.ss.usermodel.WorkbookFactory;",
+        "17": "import org.junit.Assert;",
         "22": "    private Sheet sheet;",
-        "7": "import org.apache.commons.lang.StringUtils;"
+        "23": "    private DataFormatter formatter = new HSSFDataFormatter();"
       },
       "id": 64419074,
       "filename": "ExcelUnit.java"
-    },
-    {
-      "repo": "http://javashellscript.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 190,
-      "location": "/JavaShellScript/jsslib/src/jsslib/excel",
-      "name": "javashellscript",
-      "url": "https://searchcode.com/codesearch/view/13216283/",
-      "md5hash": "339a5478640635ca58c7d984f07ad047",
-      "lines": {
-        "120": "        HSSFDataFormatter formater = new HSSFDataFormatter();",
-        "9": "import org.apache.poi.hssf.usermodel.HSSFCell;",
-        "10": "import org.apache.poi.hssf.usermodel.HSSFDataFormatter;",
-        "119": "        //Wird gebraucht um festzustellen, pb es sich um ein Datum handeln k\u00f6nnte"
-      },
-      "id": 13216283,
-      "filename": "ExcelReader.java"
     },
     {
       "repo": "https://bitbucket.org/krabuzin/mp_jobs",
@@ -70,13 +79,52 @@
       "url": "https://searchcode.com/codesearch/view/128910886/",
       "md5hash": "75ba1544ce93e33d510ca361547ce6b5",
       "lines": {
-        "368": "  protected final String TEXT_342 = \"=java.text.NumberFormat.getInstance();\" + NL + \"        \" + NL + \"        for(int i_\";",
-        "365": "  protected final String TEXT_339 = \" = df_\";",
-        "366": "  protected final String TEXT_340 = \".getDecimalFormatSymbols().getDecimalSeparator();\" + NL + \"        org.apache.poi.hssf.usermodel.HSSFDataFormatter dataFormat_\";",
-        "367": "  protected final String TEXT_341 = \"=new org.apache.poi.hssf.usermodel.HSSFDataFormatter();\" + NL + \"\\t\\tjava.text.NumberFormat numberFormat_\";"
+        "1": "package org.talend.designer.codegen.translators.file.input;",
+        "2": "",
+        "3": "import org.talend.core.model.process.INode;",
+        "4": "import org.talend.core.model.process.ElementParameterParser;",
+        "5": "import org.talend.core.model.metadata.IMetadataTable;",
+        "6": "import org.talend.core.model.metadata.IMetadataColumn;",
+        "7": "import org.talend.core.model.process.IConnection;",
+        "296": "  protected final String TEXT_270 = \"\\t\";",
+        "297": "  protected final String TEXT_271 = NL + \"\\t\\t\\torg.apache.log4j.Logger logger_\";",
+        "298": "  protected final String TEXT_272 = \" = org.apache.log4j.Logger.getLogger(\\\"org.openxml4j.opc\\\");\" + NL + \"\\t        logger_\";",
+        "299": "  protected final String TEXT_273 = \".setLevel(org.apache.log4j.Level.WARN);\" + NL + \"\\t\\t\\tclass RegexUtil_\";",
+        "300": "  protected final String TEXT_274 = \" {\" + NL + \"\\t\\t\\t\\t\" + NL + \"\\t\\t    \\tpublic java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> getSheets(org.apache.poi.xssf.usermodel.XSSFWorkbook workbook, String oneSheetName, boolean useRegex) {\" + NL + \"\\t\\t\\t        \" + NL + \"\\t\\t\\t        java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> list = new java.util.ArrayList<org.apache.poi.xssf.usermodel.XSSFSheet>();\" + NL + \"\\t\\t\\t        \" + NL + \"\\t\\t\\t        if(useRegex){//this part process the regex issue\" + NL + \"\\t\\t\\t        \\t\" + NL + \"\\t\\t\\t\\t        java.util.regex.Pattern pattern = java.util.regex.Pattern.compile(oneSheetName);\" + NL + \"\\t\\t\\t\\t        for (org.apache.poi.xssf.usermodel.XSSFSheet sheet : workbook) {\" + NL + \"\\t\\t\\t\\t            String sheetName = sheet.getSheetName();\" + NL + \"\\t\\t\\t\\t            java.util.regex.Matcher matcher = pattern.matcher(sheetName);\" + NL + \"\\t\\t\\t\\t            if (matcher.matches()) {\" + NL + \"\\t\\t\\t\\t            \\tif(sheet != null){\" + NL + \"\\t\\t\\t\\t                \\tlist.add(sheet);\" + NL + \"\\t\\t\\t\\t                }\\t\" + NL + \"\\t\\t\\t\\t            }\" + NL + \"\\t\\t\\t\\t        }\" + NL + \"\\t\\t\\t\\t        \" + NL + \"\\t\\t\\t        }else{\\t\" + NL + \"\\t\\t\\t        \\torg.apache.poi.xssf.usermodel.XSSFSheet sheet = workbook.getSheet(oneSheetName);\" + NL + \"\\t\\t            \\tif(sheet != null){\" + NL + \"\\t\\t                \\tlist.add(sheet);\" + NL + \"\\t\\t                }\" + NL + \"\\t\\t\\t        \\t\" + NL + \"\\t\\t\\t        }\" + NL + \"\\t\\t\\t        \" + NL + \"\\t\\t\\t        return list;\" + NL + \"\\t\\t\\t    }\" + NL + \"\\t\\t    \\t\" + NL + \"\\t\\t\\t    public java.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> getSheets(org.apache.poi.xssf.usermodel.XSSFWorkbook workbook, int index, boolean useRegex) {\" + NL + \"\\t\\t\\t    \\tjava.util.List<org.apache.poi.xssf.usermodel.XSSFSheet> list =  new java.util.ArrayList<org.apache.poi.xssf.usermodel.XSSFSheet>();\" + NL + \"\\t\\t\\t    \\torg.apache.poi.xssf.usermodel.XSSFSheet sheet = workbook.getSheetAt(index);\" + NL + \"\\t            \\tif(sheet != null){\" + NL + \"\\t                \\tlist.add(sheet);\" + NL + \"\\t                }\" + NL + \"\\t\\t\\t    \\treturn list;\" + NL + \"\\t\\t\\t    }\" + NL + \"\\t\\t\\t    \" + NL + \"\\t\\t\\t}\" + NL + \"\\t\\tRegexUtil_\";",
+        "301": "  protected final String TEXT_275 = \" regexUtil_\";",
+        "304": "  protected final String TEXT_278 = \" = \";",
+        "305": "  protected final String TEXT_279 = \";\" + NL + \"\\t\\torg.apache.poi.xssf.usermodel.XSSFWorkbook workbook_\";"
       },
       "id": 128910886,
       "filename": "TFileInputExcelBeginJava.java"
+    },
+    {
+      "repo": "https://github.com/qz267/automanx-api.git",
+      "language": "Java",
+      "linescount": 262,
+      "location": "/src/main/java/com/taobao/itest/dbunit/dataset/excel",
+      "name": "automanx-api",
+      "url": "https://searchcode.com/codesearch/view/98215989/",
+      "md5hash": "f843393f906ce40d438f12806e441583",
+      "lines": {
+        "32": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "33": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "34": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "3": " * The DbUnit Database Testing Framework",
+        "4": " * Copyright (C)2002-2008, DbUnit.org",
+        "37": "import org.dbunit.dataset.IDataSet;",
+        "38": "import org.dbunit.dataset.ITable;",
+        "39": "import org.dbunit.dataset.ITableIterator;",
+        "35": "import org.dbunit.dataset.Column;",
+        "36": "import org.dbunit.dataset.DataSetException;",
+        "27": "",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "29": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;"
+      },
+      "id": 98215989,
+      "filename": "XlsDataSetWriter.java"
     }
   ],
   "page": 0,

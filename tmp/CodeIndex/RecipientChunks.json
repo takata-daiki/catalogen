@@ -1,8 +1,8 @@
 {
-  "matchterm": "RecipientChunks",
+  "matchterm": "org.apache.poi.hsmf.datatypes.RecipientChunks",
   "previouspage": null,
-  "searchterm": "RecipientChunks",
-  "query": "RecipientChunks",
+  "searchterm": "org.apache.poi.hsmf.datatypes.RecipientChunks",
+  "query": "org.apache.poi.hsmf.datatypes.RecipientChunks",
   "language_filters": [
     {
       "count": 2,
@@ -13,25 +13,6 @@
   "total": 2,
   "results": [
     {
-      "repo": "https://github.com/SilverTeamWork/Silverpeas-Core.git",
-      "language": "Java",
-      "linescount": 207,
-      "location": "/lib-core/src/main/java/org/silverpeas/util/mail",
-      "name": "Silverpeas-Core",
-      "url": "https://searchcode.com/codesearch/view/93257122/",
-      "md5hash": "27ed54983be584e0f365e128890a8816",
-      "lines": {
-        "144": "    for (RecipientChunks recipient : recipientChunks) {",
-        "145": "      if (name.equals(recipient.getRecipientName())) {",
-        "51": "import org.apache.poi.hsmf.datatypes.Chunks;",
-        "52": "import org.apache.poi.hsmf.datatypes.RecipientChunks;",
-        "142": "  private InternetAddress getInChunks(String name) throws UnsupportedEncodingException {",
-        "143": "    RecipientChunks[] recipientChunks = message.getRecipientDetailsChunks();"
-      },
-      "id": 93257122,
-      "filename": "MSGExtractor.java"
-    },
-    {
       "repo": "https://github.com/isdom/POI-Android.git",
       "language": "Java",
       "linescount": 190,
@@ -41,14 +22,51 @@
       "md5hash": "9c88a7698cc287ccc385a9389ab3678d",
       "lines": {
         "32": "import org.apache.poi.hsmf.datatypes.RecipientChunks;",
-        "70": "            }",
-        "71": "            if(dir.getName().startsWith(RecipientChunks.PREFIX)) {",
-        "72": "               group = new RecipientChunks(dir.getName());",
-        "73": "            }",
+        "33": "import org.apache.poi.hsmf.datatypes.StringChunk;",
+        "34": "import org.apache.poi.hsmf.datatypes.Types;",
+        "17": "",
+        "18": "package org.apache.poi.hsmf.parsers;",
+        "22": "",
+        "23": "import org.apache.poi.hsmf.datatypes.AttachmentChunks;",
+        "24": "import org.apache.poi.hsmf.datatypes.ByteChunk;",
+        "25": "import org.apache.poi.hsmf.datatypes.Chunk;",
+        "26": "import org.apache.poi.hsmf.datatypes.ChunkGroup;",
+        "27": "import org.apache.poi.hsmf.datatypes.Chunks;",
+        "28": "import org.apache.poi.hsmf.datatypes.DirectoryChunk;",
+        "29": "import org.apache.poi.hsmf.datatypes.MAPIProperty;",
+        "30": "import org.apache.poi.hsmf.datatypes.MessageSubmissionChunk;",
         "31": "import org.apache.poi.hsmf.datatypes.NameIdChunks;"
       },
       "id": 88636100,
       "filename": "POIFSChunkParser.java"
+    },
+    {
+      "repo": "https://github.com/SilverTeamWork/Silverpeas-Core.git",
+      "language": "Java",
+      "linescount": 207,
+      "location": "/lib-core/src/main/java/org/silverpeas/util/mail",
+      "name": "Silverpeas-Core",
+      "url": "https://searchcode.com/codesearch/view/93257122/",
+      "md5hash": "27ed54983be584e0f365e128890a8816",
+      "lines": {
+        "45": "import javax.mail.internet.InternetAddress;",
+        "54": "import org.silverpeas.util.Charsets;",
+        "14": " * \"http://www.silverpeas.org/docs/core/legal/floss_exception.html\"",
+        "13": " * the FLOSS exception, and it is also available here:",
+        "46": "import org.apache.commons.io.FileUtils;",
+        "47": "import org.apache.commons.lang3.CharEncoding;",
+        "48": "import org.apache.commons.lang3.StringUtils;",
+        "49": "import org.apache.poi.hsmf.MAPIMessage;",
+        "50": "import org.apache.poi.hsmf.datatypes.AttachmentChunks;",
+        "51": "import org.apache.poi.hsmf.datatypes.Chunks;",
+        "52": "import org.apache.poi.hsmf.datatypes.RecipientChunks;",
+        "21": " * You should have received a copy of the GNU Affero General Public License",
+        "22": " * along with this program.  If not, see <http://www.gnu.org/licenses/>.",
+        "23": " */",
+        "53": "import org.apache.poi.hsmf.exceptions.ChunkNotFoundException;"
+      },
+      "id": 93257122,
+      "filename": "MSGExtractor.java"
     }
   ],
   "page": 0,

@@ -1,8 +1,8 @@
 {
-  "matchterm": "EscherRGBProperty",
+  "matchterm": "org.apache.poi.ddf.EscherRGBProperty",
   "previouspage": null,
-  "searchterm": "EscherRGBProperty",
-  "query": "EscherRGBProperty",
+  "searchterm": "org.apache.poi.ddf.EscherRGBProperty",
+  "query": "org.apache.poi.ddf.EscherRGBProperty",
   "language_filters": [
     {
       "count": 5,
@@ -21,6 +21,18 @@
       "url": "https://searchcode.com/codesearch/view/97383944/",
       "md5hash": "34ed7d644d67b8b87a5000ab275ee3c3",
       "lines": {
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.ddf;",
+        "19": "",
+        "20": "import org.apache.poi.util.HexDump;",
+        "24": " *",
+        "25": " * @author Glen Stampoultzis (glens at apache.org)",
         "26": " */",
         "27": "public class EscherRGBProperty",
         "30": "",
@@ -38,30 +50,25 @@
       "url": "https://searchcode.com/codesearch/view/15642624/",
       "md5hash": "aa449feb1b96b53f084361b68316e6b3",
       "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "        ",
+        "41": "package loci.poi.ddf;",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": " *",
         "48": "public class EscherRGBProperty",
         "51": "",
         "52": "    public EscherRGBProperty( short propertyNumber, int rgbColor )",
-        "47": " */"
+        "46": " * @author Glen Stampoultzis (glens at apache.org)",
+        "9": " * %%",
+        "47": " */",
+        "31": ""
       },
       "id": 15642624,
       "filename": "EscherRGBProperty.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 174,
-      "location": "/components/forks/poi/src/loci/poi/hssf/model",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642354/",
-      "md5hash": "4b8479a67e34a342cfde58c7278efb63",
-      "lines": {
-        "152": "        opt.addEscherProperty( new EscherRGBProperty( EscherProperties.LINESTYLE__COLOR, shape.getLineStyleColor() ) );",
-        "149": "        }",
-        "150": "        opt.addEscherProperty( new EscherRGBProperty( EscherProperties.FILL__FILLCOLOR, shape.getFillColor() ) );",
-        "151": "        opt.addEscherProperty( new EscherBoolProperty( EscherProperties.GROUPSHAPE__PRINT, 0x080000 ) );"
-      },
-      "id": 15642354,
-      "filename": "AbstractShape.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -72,13 +79,53 @@
       "url": "https://searchcode.com/codesearch/view/15642358/",
       "md5hash": "2f47d8e4aa73ffbba0d056d2a6f68eee",
       "lines": {
-        "2208": "            splitMenuColors.setRecordId((short) 0xF11E);",
-        "2205": "            opt.addEscherProperty( new EscherBoolProperty(EscherProperties.TEXT__SIZE_TEXT_TO_FIT_SHAPE, 524296) );",
-        "2206": "            opt.addEscherProperty( new EscherRGBProperty(EscherProperties.FILL__FILLCOLOR, 0x08000041) );",
-        "2207": "            opt.addEscherProperty( new EscherRGBProperty(EscherProperties.LINESTYLE__COLOR, 134217792) );"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "71": " * @author  Sergei Kozello (sergeikozello at mail.ru)",
+        "72": " * @author  Shawn Laubach (slaubach at apache dot org) (Data Formats)",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "",
+        "44": "import loci.poi.ddf.*;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import loci.poi.hssf.record.*;",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "31": ""
       },
       "id": 15642358,
       "filename": "Workbook.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 174,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642354/",
+      "md5hash": "4b8479a67e34a342cfde58c7278efb63",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "9": " * %%",
+        "42": "",
+        "43": "import loci.poi.ddf.*;",
+        "44": "import loci.poi.hssf.record.ObjRecord;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "49": " *",
+        "50": " * @author Glen Stampoultzis (glens at apache.org)",
+        "149": "        }",
+        "150": "        opt.addEscherProperty( new EscherRGBProperty( EscherProperties.FILL__FILLCOLOR, shape.getFillColor() ) );",
+        "151": "        opt.addEscherProperty( new EscherBoolProperty( EscherProperties.GROUPSHAPE__PRINT, 0x080000 ) );",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "31": ""
+      },
+      "id": 15642354,
+      "filename": "AbstractShape.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -89,8 +136,22 @@
       "url": "https://searchcode.com/codesearch/view/15642603/",
       "md5hash": "f08eee159fce1bf0383031b466b1ae4f",
       "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "        ",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "import loci.poi.util.LittleEndian;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
         "83": "            else if ( propertyType == EscherPropertyMetaData.TYPE_RGB )",
-        "84": "                results.add( new EscherRGBProperty( propId, propData ) );"
+        "84": "                results.add( new EscherRGBProperty( propId, propData ) );",
+        "41": "package loci.poi.ddf;",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "42": "",
+        "31": ""
       },
       "id": 15642603,
       "filename": "EscherPropertyFactory.java"

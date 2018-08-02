@@ -1,8 +1,8 @@
 {
-  "matchterm": "ValueOperatorPtg",
+  "matchterm": "org.apache.poi.ss.formula.ptg.ValueOperatorPtg",
   "previouspage": null,
-  "searchterm": "ValueOperatorPtg",
-  "query": "ValueOperatorPtg",
+  "searchterm": "org.apache.poi.ss.formula.ptg.ValueOperatorPtg",
+  "query": "org.apache.poi.ss.formula.ptg.ValueOperatorPtg",
   "language_filters": [
     {
       "count": 1,
@@ -21,10 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/97399200/",
       "md5hash": "c57831c4adfc9c5731a85cb0e01af558",
       "lines": {
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "10": "",
+        "11": "   Unless required by applicable law or agreed to in writing, software",
+        "12": "   distributed under the License is distributed on an \"AS IS\" BASIS,",
+        "17": "",
+        "18": "package org.apache.poi.ss.formula.ptg;",
         "24": " */",
         "25": "public final class ConcatPtg extends ValueOperatorPtg {",
         "29": "    ",
-        "30": "    public static final ValueOperatorPtg instance = new ConcatPtg();"
+        "30": "    public static final ValueOperatorPtg instance = new ConcatPtg();",
+        "31": ""
       },
       "id": 97399200,
       "filename": "ConcatPtg.java"

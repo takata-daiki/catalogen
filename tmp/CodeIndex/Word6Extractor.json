@@ -1,51 +1,17 @@
 {
-  "matchterm": "Word6Extractor",
+  "matchterm": "org.apache.poi.hwpf.extractor.Word6Extractor",
   "previouspage": null,
-  "searchterm": "Word6Extractor",
-  "query": "Word6Extractor",
+  "searchterm": "org.apache.poi.hwpf.extractor.Word6Extractor",
+  "query": "org.apache.poi.hwpf.extractor.Word6Extractor",
   "language_filters": [
     {
-      "count": 4,
+      "count": 2,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 4,
+  "total": 2,
   "results": [
-    {
-      "repo": "https://bitbucket.org/AlexeyD/hibench.git",
-      "language": "Java",
-      "linescount": 231,
-      "location": "/nutchindexing/nutch-1.2/src/plugin/parse-msword/src/java/org/apache/nutch/parse/msword",
-      "name": "hibench",
-      "url": "https://searchcode.com/codesearch/view/48925097/",
-      "md5hash": "379206f791d44eddf874be256962eee3",
-      "lines": {
-        "32": "class Word6Extractor",
-        "34": "",
-        "35": "  public Word6Extractor()",
-        "31": " */"
-      },
-      "id": 48925097,
-      "filename": "Word6Extractor.java"
-    },
-    {
-      "repo": "https://github.com/lritter/gnutch.git",
-      "language": "Java",
-      "linescount": 230,
-      "location": "/src/plugin/parse-msword/src/java/org/apache/nutch/parse/msword",
-      "name": "gnutch",
-      "url": "https://searchcode.com/codesearch/view/138792450/",
-      "md5hash": "89c0e58ea2ef4f5257dee3754fce8523",
-      "lines": {
-        "32": "class Word6Extractor",
-        "34": "",
-        "35": "  public Word6Extractor()",
-        "31": " */"
-      },
-      "id": 138792450,
-      "filename": "Word6Extractor.java"
-    },
     {
       "repo": "https://bitbucket.org/AlexeyD/hibench.git",
       "language": "Java",
@@ -55,8 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/48925096/",
       "md5hash": "201b11b383ec9671f21b7ecae9a90b52",
       "lines": {
-        "89": "        // this is a Word 6.0 doc send it to the extractor for that version.",
-        "90": "        Word6Extractor oldExtractor = new Word6Extractor();"
+        "32": "import org.apache.poi.poifs.filesystem.DocumentInputStream;",
+        "33": "import org.apache.poi.poifs.filesystem.POIFSFileSystem;",
+        "34": "import org.apache.poi.util.LittleEndian;",
+        "35": "",
+        "6": " *",
+        "7": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "23": "// Jakarta POI imports",
+        "24": "import org.apache.poi.hwpf.model.CHPBinTable;",
+        "25": "import org.apache.poi.hwpf.model.CHPX;",
+        "26": "import org.apache.poi.hwpf.model.ComplexFileTable;",
+        "27": "import org.apache.poi.hwpf.model.TextPiece;",
+        "28": "import org.apache.poi.hwpf.model.TextPieceTable;",
+        "29": "import org.apache.poi.hwpf.sprm.SprmIterator;",
+        "30": "import org.apache.poi.hwpf.sprm.SprmOperation;",
+        "31": "import org.apache.poi.poifs.filesystem.DocumentEntry;"
       },
       "id": 48925096,
       "filename": "WordExtractor.java"
@@ -70,8 +49,21 @@
       "url": "https://searchcode.com/codesearch/view/138792453/",
       "md5hash": "40789e266310b897b848347166114477",
       "lines": {
-        "89": "        // this is a Word 6.0 doc send it to the extractor for that version.",
-        "90": "        Word6Extractor oldExtractor = new Word6Extractor();"
+        "32": "import org.apache.poi.poifs.filesystem.DocumentInputStream;",
+        "33": "import org.apache.poi.poifs.filesystem.POIFSFileSystem;",
+        "34": "import org.apache.poi.util.LittleEndian;",
+        "35": "",
+        "6": " *",
+        "7": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "23": "// Jakarta POI imports",
+        "24": "import org.apache.poi.hwpf.model.CHPBinTable;",
+        "25": "import org.apache.poi.hwpf.model.CHPX;",
+        "26": "import org.apache.poi.hwpf.model.ComplexFileTable;",
+        "27": "import org.apache.poi.hwpf.model.TextPiece;",
+        "28": "import org.apache.poi.hwpf.model.TextPieceTable;",
+        "29": "import org.apache.poi.hwpf.sprm.SprmIterator;",
+        "30": "import org.apache.poi.hwpf.sprm.SprmOperation;",
+        "31": "import org.apache.poi.poifs.filesystem.DocumentEntry;"
       },
       "id": 138792453,
       "filename": "WordExtractor.java"
@@ -81,12 +73,12 @@
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 2,
+      "count": 1,
       "source": "Bitbucket",
       "id": 3
     },
     {
-      "count": 2,
+      "count": 1,
       "source": "Github",
       "id": 2
     }

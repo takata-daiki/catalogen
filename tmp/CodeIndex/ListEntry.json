@@ -1,173 +1,17 @@
 {
-  "matchterm": "ListEntry",
+  "matchterm": "org.apache.poi.hwpf.usermodel.ListEntry",
   "previouspage": null,
-  "searchterm": "ListEntry",
-  "query": "ListEntry",
+  "searchterm": "org.apache.poi.hwpf.usermodel.ListEntry",
+  "query": "org.apache.poi.hwpf.usermodel.ListEntry",
   "language_filters": [
     {
-      "count": 240,
+      "count": 2,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 240,
+  "total": 2,
   "results": [
-    {
-      "repo": "https://github.com/Rudd-O/cbtest.git",
-      "language": "Java",
-      "linescount": 886,
-      "location": "/src/com/amazon/s3",
-      "name": "cbtest",
-      "url": "https://searchcode.com/codesearch/view/110622316/",
-      "md5hash": "cc09c3f576df2c6eb21a60c022e03f20",
-      "lines": {
-        "704": "        */",
-        "705": "        public static ListEntry parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{",
-        "706": "            ListEntry object =",
-        "259": "                 public void serialize(org.apache.axis2.databinding.utils.writer.MTOMAwareXMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {",
-        "260": "                       ListEntry.this.serialize(parentQName,factory,xmlWriter);",
-        "12": "            /**",
-        "13": "            *  ListEntry bean class",
-        "15": "        ",
-        "16": "        public  class ListEntry",
-        "18": "        /* This type was generated from the piece of schema that had",
-        "19": "                name = ListEntry",
-        "313": "                       writeAttribute(\"xsi\",\"http://www.w3.org/2001/XMLSchema-instance\",\"type\",",
-        "314": "                           namespacePrefix+\":ListEntry\",",
-        "317": "                       writeAttribute(\"xsi\",\"http://www.w3.org/2001/XMLSchema-instance\",\"type\",",
-        "318": "                           \"ListEntry\","
-      },
-      "id": 110622316,
-      "filename": "ListEntry.java"
-    },
-    {
-      "repo": "https://github.com/matthewoliver/SpyD.git",
-      "language": "Java",
-      "linescount": 171,
-      "location": "/ext/src/inetlib-1.1.1/source/gnu/inet/imap",
-      "name": "SpyD",
-      "url": "https://searchcode.com/codesearch/view/114608078/",
-      "md5hash": "2bbac4b454a48681cf8443fee1fc8cd3",
-      "lines": {
-        "48": "public class ListEntry",
-        "1": "/*",
-        "2": " * ListEntry.java",
-        "65": "  ListEntry(String mailbox, char delimiter, boolean noinferiors,",
-        "64": "   */",
-        "47": " */"
-      },
-      "id": 114608078,
-      "filename": "ListEntry.java"
-    },
-    {
-      "repo": "https://github.com/soulsheng/struts2.git",
-      "language": "Java",
-      "linescount": 54,
-      "location": "/core/src/main/java/org/apache/struts2/util",
-      "name": "struts2",
-      "url": "https://searchcode.com/codesearch/view/73117011/",
-      "md5hash": "396278244d4723395cd90f9dad196fb0",
-      "lines": {
-        "35": "    public ListEntry(Object key, Object value, boolean isSelected) {",
-        "34": "",
-        "27": " */",
-        "28": "public class ListEntry {"
-      },
-      "id": 73117011,
-      "filename": "ListEntry.java"
-    },
-    {
-      "repo": "http://gdata-java-client.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 171,
-      "location": "/java/src/com/google/gdata/data/spreadsheet",
-      "name": "gdata-java-client",
-      "url": "https://searchcode.com/codesearch/view/228413/",
-      "md5hash": "40de3e5a429991c7a365ab788d9c1488",
-      "lines": {
-        "32": "@Kind.Term(ListEntry.KIND)",
-        "33": "public class ListEntry",
-        "34": "    extends BaseEntry<ListEntry> {",
-        "35": "",
-        "166": "  public void declareExtensions(ExtensionProfile extProfile) {",
-        "167": "    extProfile.declare(ListEntry.class,",
-        "66": "   */",
-        "78": "   */",
-        "79": "  public ListEntry(BaseEntry sourceEntry) {",
-        "67": "  public ListEntry(String id, String versionId) {",
-        "55": "   */",
-        "56": "  public ListEntry() {",
-        "31": " */"
-      },
-      "id": 228413,
-      "filename": "ListEntry.java"
-    },
-    {
-      "repo": "https://bitbucket.org/javirosa/greenwifiucb",
-      "language": "Java",
-      "linescount": 171,
-      "location": "/CCBridge/gdata/java/src/com/google/gdata/data/spreadsheet",
-      "name": "greenwifiucb",
-      "url": "https://searchcode.com/codesearch/view/125257265/",
-      "md5hash": "40de3e5a429991c7a365ab788d9c1488",
-      "lines": {
-        "32": "@Kind.Term(ListEntry.KIND)",
-        "33": "public class ListEntry",
-        "34": "    extends BaseEntry<ListEntry> {",
-        "35": "",
-        "166": "  public void declareExtensions(ExtensionProfile extProfile) {",
-        "167": "    extProfile.declare(ListEntry.class,",
-        "66": "   */",
-        "78": "   */",
-        "79": "  public ListEntry(BaseEntry sourceEntry) {",
-        "67": "  public ListEntry(String id, String versionId) {",
-        "55": "   */",
-        "56": "  public ListEntry() {",
-        "31": " */"
-      },
-      "id": 125257265,
-      "filename": "ListEntry.java"
-    },
-    {
-      "repo": "http://androjena.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 121,
-      "location": "/androjena/src/com/hp/hpl/jena/reasoner/rulesys/builtins",
-      "name": "androjena",
-      "url": "https://searchcode.com/codesearch/view/819272/",
-      "md5hash": "a01bd22cd48a64bbeee29a1bea163c05",
-      "lines": {
-        "32": "        return \"listEntry\";",
-        "1": "/******************************************************************",
-        "2": " * File:        ListEntry.java",
-        "24": " */",
-        "17": "/**",
-        "8": " * $Id: ListEntry.java,v 1.1 2009/06/29 08:55:36 castagna Exp $",
-        "25": "public class ListEntry extends BaseBuiltin {",
-        "7": " * [See end of file]",
-        "18": " * listEntry(?list, ?index, ?val) will bind ?val to the ?index'th entry",
-        "31": "    public String getName() {"
-      },
-      "id": 819272,
-      "filename": "ListEntry.java"
-    },
-    {
-      "repo": "https://github.com/pkou428/client.git",
-      "language": "Java",
-      "linescount": 18,
-      "location": "/src/tweendeck",
-      "name": "client",
-      "url": "https://searchcode.com/codesearch/view/108830073/",
-      "md5hash": "cbc8a72001c9581105aa99146f12ec3d",
-      "lines": {
-        "2": "",
-        "3": "public class ListEntry {",
-        "6": "\t",
-        "7": "\tpublic ListEntry(UserData userData, long tweetId){"
-      },
-      "id": 108830073,
-      "filename": "ListEntry.java"
-    },
     {
       "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
       "language": "Java",
@@ -178,325 +22,60 @@
       "md5hash": "b0c9576d51b6c1c633a18747ebfff828",
       "lines": {
         "32": "    @Deprecated",
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
         "33": "    ListEntry( PAPX papx, Range parent, ListTables tables )",
-        "40": "    {",
-        "23": "",
-        "24": "public final class ListEntry extends Paragraph",
-        "41": "        return TYPE_LISTENTRY;",
-        "26": "    @Internal",
-        "27": "    ListEntry( PAPX papx, ParagraphProperties properties, Range parent )"
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hwpf.usermodel;",
+        "19": "",
+        "20": "import org.apache.poi.hwpf.model.ListTables;",
+        "21": "import org.apache.poi.hwpf.model.PAPX;",
+        "22": "import org.apache.poi.util.Internal;",
+        "23": ""
       },
       "id": 97384503,
       "filename": "ListEntry.java"
     },
     {
-      "repo": "http://alageospatialportal.googlecode.com/svn/trunk/",
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
       "language": "Java",
-      "linescount": 47,
-      "location": "/webportal/src/main/java/org/ala/spatial/util",
-      "name": "alageospatialportal",
-      "url": "https://searchcode.com/codesearch/view/257050/",
-      "md5hash": "32c7539c1fdb1a346fe820248155cdc3",
+      "linescount": 660,
+      "location": "/src/org/apache/poi/hwpf/usermodel",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384407/",
+      "md5hash": "d9e337622aaacee6d2790b7572b0af11",
       "lines": {
-        "34": "",
-        "35": "    public ListEntry(String string, String displayName, String string0, String string1, String string2, Object object) {",
-        "23": "",
-        "24": "    public ListEntry(String name_, String displayname_, String catagory1_, String catagory2_, String type_, String domain, JSONObject layerObject) {",
-        "13": " */",
-        "14": "public class ListEntry {"
+        "32": "import org.apache.poi.util.POILogFactory;",
+        "33": "import org.apache.poi.util.POILogger;",
+        "17": "",
+        "18": "package org.apache.poi.hwpf.usermodel;",
+        "21": "",
+        "22": "import org.apache.poi.hwpf.HWPFDocumentCore;",
+        "23": "import org.apache.poi.hwpf.model.LFO;",
+        "24": "import org.apache.poi.hwpf.model.ListLevel;",
+        "25": "import org.apache.poi.hwpf.model.ListTables;",
+        "26": "import org.apache.poi.hwpf.model.PAPX;",
+        "27": "import org.apache.poi.hwpf.model.StyleSheet;",
+        "28": "import org.apache.poi.hwpf.sprm.ParagraphSprmUncompressor;",
+        "29": "import org.apache.poi.hwpf.sprm.SprmBuffer;",
+        "30": "import org.apache.poi.hwpf.sprm.TableSprmCompressor;",
+        "31": "import org.apache.poi.util.Internal;"
       },
-      "id": 257050,
-      "filename": "ListEntry.java"
-    },
-    {
-      "repo": "https://bitbucket.org/kioli/mobgen.git",
-      "language": "Java",
-      "linescount": 55,
-      "location": "/src/com/mobgen/test",
-      "name": "mobgen",
-      "url": "https://searchcode.com/codesearch/view/46982700/",
-      "md5hash": "3f76cf10dc5bc8b5371206bf9ffec8f3",
-      "lines": {
-        "16": "",
-        "17": "\tpublic ListEntry(int ID, String NAME, String FACTION, int ROLE) {",
-        "2": "",
-        "3": "public class ListEntry {",
-        "9": "",
-        "10": "\tpublic ListEntry() {"
-      },
-      "id": 46982700,
-      "filename": "ListEntry.java"
-    },
-    {
-      "repo": "http://openbotlist.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 52,
-      "location": "/botlistprojects/botprojects_lib/java/src/com/amazon/s3",
-      "name": "openbotlist",
-      "url": "https://searchcode.com/codesearch/view/12942520/",
-      "md5hash": "794a7ad79171df1630e6cfbac82bf33e",
-      "lines": {
-        "16": " */",
-        "17": "public class ListEntry {"
-      },
-      "id": 12942520,
-      "filename": "ListEntry.java"
-    },
-    {
-      "repo": "https://github.com/android/platform_external_gdata.git",
-      "language": "Java",
-      "linescount": 78,
-      "location": "/src/com/google/wireless/gdata/spreadsheets/data",
-      "name": "platform_external_gdata",
-      "url": "https://searchcode.com/codesearch/view/140912867/",
-      "md5hash": "60355c01f25f45c0a3ee75e17a2c666b",
-      "lines": {
-        "13": " */",
-        "14": "public class ListEntry extends Entry {"
-      },
-      "id": 140912867,
-      "filename": "ListEntry.java"
-    },
-    {
-      "repo": "https://github.com/ngocthanh2207/wheelly.git",
-      "language": "Java",
-      "linescount": 369,
-      "location": "/src/com/wheelly/io/docs",
-      "name": "wheelly",
-      "url": "https://searchcode.com/codesearch/view/76179206/",
-      "md5hash": "51a3399ff0c393504e32dd077751d5b8",
-      "lines": {
-        "167": "\t\t\tthrows IOException, ServiceException {",
-        "168": "\t\tListEntry remote = obtainRemoteEntry(idAndVersion, track);",
-        "169": "\t\tListEntry local = new ListEntry();",
-        "42": "\tprivate final List<ListEntry> cache = new ArrayList<ListEntry>(20);",
-        "141": "\t",
-        "142": "\tprivate static Pair<String, String> getIdAndVersion(ListEntry entry) {",
-        "285": "\t\tfor(ListEntry le : cache) {",
-        "276": "\t\tListFeed feed = spreadsheetService.query(query, ListFeed.class);",
-        "277": "\t\tfinal List<ListEntry> result = feed.getEntries();",
-        "41": "\t",
-        "25": "import com.google.gdata.data.spreadsheet.CustomElementCollection;",
-        "26": "import com.google.gdata.data.spreadsheet.ListEntry;",
-        "283": "\t",
-        "284": "\tprivate ListEntry resolveFromCache(Map<String, String> values) {",
-        "170": "\t\tDocsHelper.assignEntityFromCursor(track, local);",
-        "286": "\t\t\tfinal CustomElementCollection cec = le.getCustomElements();"
-      },
-      "id": 76179206,
-      "filename": "SpreadsheetPoster.java"
-    },
-    {
-      "repo": "https://github.com/soulsheng/struts2.git",
-      "language": "Java",
-      "linescount": 245,
-      "location": "/core/src/test/java/org/apache/struts2/util",
-      "name": "struts2",
-      "url": "https://searchcode.com/codesearch/view/73112200/",
-      "md5hash": "47b29af4eb0a4a92d415d5e7a89e87cf",
-      "lines": {
-        "160": "        assertEquals(((ListEntry)listMade.get(1)).getValue(), \"Car\");",
-        "161": "        assertEquals(((ListEntry)listMade.get(1)).getIsSelected(), true);",
-        "162": "        assertEquals(((ListEntry)listMade.get(2)).getKey(), \"Helicopter\");",
-        "163": "        assertEquals(((ListEntry)listMade.get(2)).getValue(), \"Helicopter\");",
-        "164": "        assertEquals(((ListEntry)listMade.get(2)).getIsSelected(), false);",
-        "165": "    }",
-        "155": "        assertEquals(listMade.size(), 3);",
-        "156": "        assertEquals(((ListEntry)listMade.get(0)).getKey(), \"Lorry\");",
-        "157": "        assertEquals(((ListEntry)listMade.get(0)).getValue(), \"Lorry\");",
-        "158": "        assertEquals(((ListEntry)listMade.get(0)).getIsSelected(), false);",
-        "159": "        assertEquals(((ListEntry)listMade.get(1)).getKey(), \"Car\");"
-      },
-      "id": 73112200,
-      "filename": "StrutsUtilTest.java"
-    },
-    {
-      "repo": "https://github.com/pkou428/client.git",
-      "language": "Java",
-      "linescount": 676,
-      "location": "/src/tweendeck",
-      "name": "client",
-      "url": "https://searchcode.com/codesearch/view/108830067/",
-      "md5hash": "2843669982e125a385c5747d3ffe1d2e",
-      "lines": {
-        "416": "\t\t\t\t\ttmp.addTweet(tmpId, timeLineList.get(i).getText());",
-        "417": "\t\t\t\t\tlistEntry.add(new ListEntry(tmp, tmpId));",
-        "422": "\t\t\t\tstatusJList.setSelectedIndex(counter + index);",
-        "423": "\t\t\tSwingUtilities.invokeLater(new AddStatusThread(listEntry));",
-        "425": "\t\tclass AddStatusThread implements Runnable{",
-        "426": "\t\t\tArrayList<ListEntry> listEntry;",
-        "427": "\t\t\tpublic AddStatusThread(ArrayList<ListEntry> listEntry){",
-        "428": "\t\t\t\tthis.listEntry = listEntry;",
-        "269": "\t\t\t\t\t\ttmp.addTweet(tmpId, statusList.get(i).getText());",
-        "270": "\t\t\t\t\t\tlistModel.add(0,new ListEntry(tmp, tmpId));",
-        "429": "\t\t\t}",
-        "432": "\t\t\t\tfor(int i = 0;i < listEntry.size(); i++){",
-        "433": "\t\t\t\t\tlistModel.add(0,listEntry.get(i));",
-        "402": "\t\t\tint counter = 0;",
-        "403": "\t\t\tArrayList<ListEntry> listEntry = new ArrayList<ListEntry>();",
-        "431": "\t\t\t\tSystem.out.println(\"thread start\");"
-      },
-      "id": 108830067,
-      "filename": "StatusTimeLine.java"
-    },
-    {
-      "repo": "https://github.com/pujita/Grader.git",
-      "language": "Java",
-      "linescount": 394,
-      "location": "/RepTeam4.07/GraderTeam407/src/edu/gatech/arktos",
-      "name": "Grader",
-      "url": "https://searchcode.com/codesearch/view/74076575/",
-      "md5hash": "5d0661675250d5d03bb3518bd0c9ff97",
-      "lines": {
-        "324": "\tprivate int getAverageAssignmentGrade(int index, ListFeed gradeslistFeed) {",
-        "325": "\t\tListEntry row = gradeslistFeed.getEntries().get(index);",
-        "294": "\tpublic ArrayList<Assignment> getAssignments(int index, ListFeed gradeslistFeed) {",
-        "295": "\t\tListEntry row = gradeslistFeed.getEntries().get(index);",
-        "13": "import com.google.gdata.data.spreadsheet.CustomElementCollection;",
-        "14": "import com.google.gdata.data.spreadsheet.ListEntry;",
-        "114": "\t    ",
-        "115": "\t    for (ListEntry row : detailsFeed.getEntries()) {\t    \t    \t    \t",
-        "280": "\tprivate int getAttendance (int index, ListFeed attendancelistFeed)  throws IOException, ServiceException {\t",
-        "281": "\t    ListEntry row = attendancelistFeed.getEntries().get(index+1);",
-        "219": "\t\t    int numTeams = 0;",
-        "220": "\t\t    for (ListEntry row : teamsFeed.getEntries()) {\t"
-      },
-      "id": 74076575,
-      "filename": "GradesDB.java"
-    },
-    {
-      "repo": "https://github.com/Rudd-O/cbtest.git",
-      "language": "Java",
-      "linescount": 1552,
-      "location": "/src/com/amazon/s3",
-      "name": "cbtest",
-      "url": "https://searchcode.com/codesearch/view/110622119/",
-      "md5hash": "378437077297bff7a1a072421f64de9e",
-      "lines": {
-        "384": "                               */",
-        "385": "                              protected void validateContents(com.amazon.s3.ListEntry[] param){",
-        "418": "                                   localContents = new com.amazon.s3.ListEntry[]{};",
-        "1444": "                                    // Process the array and step past its final element's end.",
-        "1445": "                                    list9.add(com.amazon.s3.ListEntry.Factory.parse(reader));",
-        "417": "                                   if (localContents == null){",
-        "393": "                              */",
-        "394": "                              public void setContents(com.amazon.s3.ListEntry[] param){",
-        "429": "                               this.localContents =",
-        "430": "                             (com.amazon.s3.ListEntry[])list.toArray(",
-        "431": "                            new com.amazon.s3.ListEntry[list.size()]);",
-        "416": "                             public void addContents(com.amazon.s3.ListEntry param){",
-        "413": "                             * Auto generated add method for the array for convenience",
-        "414": "                             * @param param com.amazon.s3.ListEntry",
-        "415": "                             */"
-      },
-      "id": 110622119,
-      "filename": "ListBucketResult.java"
-    },
-    {
-      "repo": "https://gitlab.com/jforge/hawtio.git",
-      "language": "Java",
-      "linescount": 169,
-      "location": "/hawtio-system/src/main/java/io/hawt/web",
-      "name": "hawtio",
-      "url": "https://searchcode.com/codesearch/view/115104150/",
-      "md5hash": "42caa40b6fe94087dc71847e7bc6746d",
-      "lines": {
-        "68": "        List rowsData = new ArrayList();",
-        "69": "        for (Object o : listEntry) {",
-        "81": "        for (Object o : listEntry) {",
-        "78": "",
-        "79": "    private static Set getColumns(List listEntry) {",
-        "80": "        Set set = new HashSet();",
-        "49": "",
-        "50": "    public static Map populateTableMapForXl(List listEntry) {",
-        "51": "        listEntry = flatten(listEntry);",
-        "52": "        Map<String, Object> xlData = new HashMap<String, Object>();",
-        "53": "        Set columns = getColumns(listEntry);",
-        "54": "        List rowsData = getRowsData(listEntry, columns);",
-        "55": "",
-        "89": "",
-        "90": "    private static List getRowsData(List listEntry, Set columns) {",
-        "91": "        List<Map<String, Object>> list = new ArrayList<Map<String, Object>>();"
-      },
-      "id": 115104150,
-      "filename": "ServletHelpers.java"
-    },
-    {
-      "repo": "https://github.com/soulsheng/struts2.git",
-      "language": "Java",
-      "linescount": 84,
-      "location": "/core/src/test/java/org/apache/struts2/views/freemarker",
-      "name": "struts2",
-      "url": "https://searchcode.com/codesearch/view/73112119/",
-      "md5hash": "b4d9d6d41d9cf9d0675ce580b6e5f7fe",
-      "lines": {
-        "51": "        selectList = wwUtil.makeSelectList(\"ignored\", \"stringList\", null, null);",
-        "52": "        assertEquals(\"one\", ((ListEntry) selectList.get(0)).getKey());",
-        "53": "        assertEquals(\"one\", ((ListEntry) selectList.get(0)).getValue());",
-        "54": "",
-        "55": "        selectList = wwUtil.makeSelectList(\"ignored\", \"beanList\", \"name\", \"value\");",
-        "56": "        assertEquals(\"one\", ((ListEntry) selectList.get(0)).getKey());",
-        "57": "        assertEquals(\"1\", ((ListEntry) selectList.get(0)).getValue());",
-        "58": "    }",
-        "28": "import org.apache.struts2.StrutsTestCase;",
-        "29": "import org.apache.struts2.util.ListEntry;"
-      },
-      "id": 73112119,
-      "filename": "FreemarkerTest.java"
-    },
-    {
-      "repo": "https://github.com/lcrees/simplyhtml.git",
-      "language": "Java",
-      "linescount": 259,
-      "location": "/src/com/lightdev/app/shtm",
-      "name": "simplyhtml",
-      "url": "https://searchcode.com/codesearch/view/71482314/",
-      "md5hash": "9e7065e4fa42740bc73a19048de95ffd",
-      "lines": {
-        "114": "                    final int modelSize = model.getSize();",
-        "115": "                    String listEntry = (String) model.getElementAt(i);",
-        "116": "                    while (++i < modelSize && !listEntry.toLowerCase().startsWith(key)) {",
-        "117": "                        listEntry = (String) model.getElementAt(i);",
-        "118": "                    }",
-        "119": "                    if (i < modelSize) {",
-        "120": "                        optionsList.setSelectedValue(listEntry, true);"
-      },
-      "id": 71482314,
-      "filename": "TitledPickList.java"
+      "id": 97384407,
+      "filename": "Paragraph.java"
     }
   ],
   "page": 0,
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 101,
+      "count": 2,
       "source": "Github",
       "id": 2
-    },
-    {
-      "count": 83,
-      "source": "Bitbucket",
-      "id": 3
-    },
-    {
-      "count": 44,
-      "source": "Google Code",
-      "id": 1
-    },
-    {
-      "count": 6,
-      "source": "Sourceforge",
-      "id": 4
-    },
-    {
-      "count": 5,
-      "source": "GitLab",
-      "id": 13
-    },
-    {
-      "count": 1,
-      "source": "Unknown",
-      "id": 0
     }
   ]
 }

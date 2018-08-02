@@ -1,8 +1,8 @@
 {
-  "matchterm": "WorkbookRecordList",
+  "matchterm": "org.apache.poi.hssf.model.WorkbookRecordList",
   "previouspage": null,
-  "searchterm": "WorkbookRecordList",
-  "query": "WorkbookRecordList",
+  "searchterm": "org.apache.poi.hssf.model.WorkbookRecordList",
+  "query": "org.apache.poi.hssf.model.WorkbookRecordList",
   "language_filters": [
     {
       "count": 2,
@@ -21,8 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/15642366/",
       "md5hash": "c1f6dc9d98b1e4d4a205b3971bd815e1",
       "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "47": "import loci.poi.hssf.record.Record;",
         "48": "",
-        "49": "public class WorkbookRecordList"
+        "49": "public class WorkbookRecordList",
+        "46": "",
+        "41": "package loci.poi.hssf.model;",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "31": ""
       },
       "id": 15642366,
       "filename": "WorkbookRecordList.java"
@@ -36,8 +50,22 @@
       "url": "https://searchcode.com/codesearch/view/15642358/",
       "md5hash": "2f47d8e4aa73ffbba0d056d2a6f68eee",
       "lines": {
-        "96": "     */",
-        "97": "    protected WorkbookRecordList        records     = new WorkbookRecordList();"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.model;",
+        "43": "",
+        "44": "import loci.poi.ddf.*;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import loci.poi.hssf.record.*;",
+        "48": "import loci.poi.util.POILogFactory;",
+        "46": "import loci.poi.hssf.util.HSSFColor;",
+        "9": " * %%",
+        "47": "import loci.poi.hssf.util.SheetReferences;",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "31": ""
       },
       "id": 15642358,
       "filename": "Workbook.java"

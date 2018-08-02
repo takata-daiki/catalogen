@@ -1,8 +1,8 @@
 {
-  "matchterm": "ParagraphHeight",
+  "matchterm": "org.apache.poi.hwpf.model.ParagraphHeight",
   "previouspage": null,
-  "searchterm": "ParagraphHeight",
-  "query": "ParagraphHeight",
+  "searchterm": "org.apache.poi.hwpf.model.ParagraphHeight",
+  "query": "org.apache.poi.hwpf.model.ParagraphHeight",
   "language_filters": [
     {
       "count": 1,
@@ -21,20 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97384195/",
       "md5hash": "4b50336a137f1a24d0274bce878f8610",
       "lines": {
-        "355": "    /**",
-        "356": "     * Used to get the ParagraphHeight of a PAPX at a particular index.",
-        "101": "                PAPX papx = new PAPX( range[0], range[1], getGrpprl( x ),",
-        "358": "     * @return The ParagraphHeight",
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
         "263": "            papx = _papxList.get( x );",
-        "264": "            byte[] phe = papx.getParagraphHeight().toByteArray();",
-        "363": "",
-        "359": "     */",
-        "364": "      ParagraphHeight phe = new ParagraphHeight(_fkp, pheOffset);",
-        "360": "    private ParagraphHeight getParagraphHeight(int index)",
-        "95": "            // getParagraphHeight( x ), dataStream );",
-        "102": "                        getParagraphHeight( x ), dataStream );",
-        "94": "            // PAPX papx = new PAPX( charStartAt, charEndAt, getGrpprl( x ),",
-        "357": "     * @param index"
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hwpf.model;",
+        "25": "",
+        "26": "import org.apache.poi.hwpf.model.io.HWPFOutputStream;",
+        "27": "import org.apache.poi.util.Internal;",
+        "28": "import org.apache.poi.util.LittleEndian;",
+        "29": "",
+        "264": "            byte[] phe = papx.getParagraphHeight().toByteArray();"
       },
       "id": 97384195,
       "filename": "PAPFormattedDiskPage.java"

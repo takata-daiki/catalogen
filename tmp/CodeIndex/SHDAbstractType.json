@@ -1,8 +1,8 @@
 {
-  "matchterm": "SHDAbstractType",
+  "matchterm": "org.apache.poi.hwpf.model.types.SHDAbstractType",
   "previouspage": null,
-  "searchterm": "SHDAbstractType",
-  "query": "SHDAbstractType",
+  "searchterm": "org.apache.poi.hwpf.model.types.SHDAbstractType",
+  "query": "org.apache.poi.hwpf.model.types.SHDAbstractType",
   "language_filters": [
     {
       "count": 1,
@@ -21,12 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97384258/",
       "md5hash": "cff38231427191a9dd1411f318316301",
       "lines": {
-        "48": "    protected SHDAbstractType()",
-        "40": "@Internal",
-        "41": "public abstract class SHDAbstractType",
-        "91": "            return false;",
-        "92": "        SHDAbstractType other = (SHDAbstractType) obj;",
-        "47": ""
+        "32": " *       remove the record in src/types/definitions.",
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hwpf.model.types;",
+        "20": "",
+        "21": "import org.apache.poi.hwpf.model.Colorref;",
+        "22": "import org.apache.poi.util.Internal;",
+        "23": "import org.apache.poi.util.LittleEndian;",
+        "24": "",
+        "31": " * NOTE: This source is automatically generated please do not modify this file.  Either subclass or"
       },
       "id": 97384258,
       "filename": "SHDAbstractType.java"

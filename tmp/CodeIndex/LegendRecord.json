@@ -1,8 +1,8 @@
 {
-  "matchterm": "LegendRecord",
+  "matchterm": "org.apache.poi.hssf.record.chart.LegendRecord",
   "previouspage": null,
-  "searchterm": "LegendRecord",
-  "query": "LegendRecord",
+  "searchterm": "org.apache.poi.hssf.record.chart.LegendRecord",
+  "query": "org.apache.poi.hssf.record.chart.LegendRecord",
   "language_filters": [
     {
       "count": 1,
@@ -21,14 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/15642446/",
       "md5hash": "f830119a54fbded3cacdc1c72a3a308d",
       "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.record;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
         "82": "",
         "83": "    public LegendRecord()",
+        "52": "",
+        "53": " * @author Andrew C. Oliver (acoliver at apache.org)",
         "54": " */",
         "55": "public class LegendRecord",
-        "200": "        LegendRecord rec = new LegendRecord();",
-        "199": "    public Object clone() {",
-        "93": "",
-        "94": "    public LegendRecord(RecordInputStream in)"
+        "56": "    extends Record",
+        "31": ""
       },
       "id": 15642446,
       "filename": "LegendRecord.java"

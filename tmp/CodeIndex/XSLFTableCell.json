@@ -1,8 +1,8 @@
 {
-  "matchterm": "XSLFTableCell",
+  "matchterm": "org.apache.poi.xslf.usermodel.XSLFTableCell",
   "previouspage": null,
-  "searchterm": "XSLFTableCell",
-  "query": "XSLFTableCell",
+  "searchterm": "org.apache.poi.xslf.usermodel.XSLFTableCell",
+  "query": "org.apache.poi.xslf.usermodel.XSLFTableCell",
   "language_filters": [
     {
       "count": 2,
@@ -21,10 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97406744/",
       "md5hash": "d9786c69133305cfa801002edcf9fc63",
       "lines": {
-        "49": "",
-        "50": "    /*package*/ XSLFTableCell(CTTableCell cell, XSLFSheet sheet){",
-        "46": " */",
-        "47": "public class XSLFTableCell extends XSLFTextShape {"
+        "32": "import org.openxmlformats.schemas.drawingml.x2006.main.STLineCap;",
+        "33": "import org.openxmlformats.schemas.drawingml.x2006.main.STLineEndLength;",
+        "2": " *  ====================================================================",
+        "3": " *    Licensed to the Apache Software Foundation (ASF) under one or more",
+        "5": " *    this work for additional information regarding copyright ownership.",
+        "6": " *    The ASF licenses this file to You under the Apache License, Version 2.0",
+        "9": " *",
+        "10": " *        http://www.apache.org/licenses/LICENSE-2.0",
+        "34": "import org.openxmlformats.schemas.drawingml.x2006.main.STLineEndType;",
+        "19": "",
+        "20": "package org.apache.poi.xslf.usermodel;",
+        "22": "",
+        "23": "import org.apache.poi.util.Units;",
+        "24": "import org.openxmlformats.schemas.drawingml.x2006.main.CTLineEndProperties;",
+        "31": "import org.openxmlformats.schemas.drawingml.x2006.main.STCompoundLine;"
       },
       "id": 97406744,
       "filename": "XSLFTableCell.java"
@@ -38,16 +49,21 @@
       "url": "https://searchcode.com/codesearch/view/92131916/",
       "md5hash": "a58465613021fd4ec4403df58f01c572",
       "lines": {
-        "96": "",
-        "97": "            XSLFTableCell nCell = row.addCell();",
-        "114": "",
-        "115": "            XSLFTableCell addressCell = row.addCell();",
-        "102": "",
-        "103": "            XSLFTableCell cityCell = row.addCell();",
-        "108": "",
+        "4": "import by.q64.promo.excelgen.service.marketing.source.settings.MarketingReportSettings;",
+        "5": "import by.q64.promo.excelgen.service.utils.PowerpointCommonUtils;",
+        "6": "import org.apache.poi.xslf.usermodel.*;",
+        "7": "import org.springframework.beans.factory.annotation.Autowired;",
+        "8": "import org.springframework.stereotype.Service;",
+        "9": "",
+        "44": "",
+        "45": "        XSLFSlide slide = ppt.createSlide();",
+        "46": "",
+        "47": "        XSLFTextBox txt1 = slide.createTextBox();",
+        "48": "        txt1.setAnchor(new java.awt.Rectangle(20, 40, 600, 50));",
         "77": "        for (int i = 0; i < previewTableHeader.length; i++) {",
-        "78": "            XSLFTableCell th = headerRow.addCell();",
-        "109": "            XSLFTableCell netCell = row.addCell();"
+        "23": "    @Autowired",
+        "24": "    private PowerpointCommonUtils powerpointCommonUtils;",
+        "78": "            XSLFTableCell th = headerRow.addCell();"
       },
       "id": 92131916,
       "filename": "MarketingReportInCityGeneratorImpl.java"

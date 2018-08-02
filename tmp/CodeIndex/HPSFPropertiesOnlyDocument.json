@@ -1,8 +1,8 @@
 {
-  "matchterm": "HPSFPropertiesOnlyDocument",
+  "matchterm": "org.apache.poi.hpsf.HPSFPropertiesOnlyDocument",
   "previouspage": null,
-  "searchterm": "HPSFPropertiesOnlyDocument",
-  "query": "HPSFPropertiesOnlyDocument",
+  "searchterm": "org.apache.poi.hpsf.HPSFPropertiesOnlyDocument",
+  "query": "org.apache.poi.hpsf.HPSFPropertiesOnlyDocument",
   "language_filters": [
     {
       "count": 1,
@@ -21,14 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/116052780/",
       "md5hash": "b866d3f81504e612bf5d234569b664b6",
       "lines": {
-        "27": "import org.apache.commons.io.FilenameUtils;",
-        "44": "\t\t\t\tnew HPSFPropertiesOnlyDocument(npoifsFileSystem);",
+        "37": "\tpublic static Date getLastSavedDate(Path filePath) {",
+        "38": "\t\tNPOIFSFileSystem npoifsFileSystem = null;",
         "42": "",
         "43": "\t\t\tHPSFPropertiesOnlyDocument hpsfPropertiesOnlyDocument =",
-        "28": "import org.apache.poi.hpsf.HPSFPropertiesOnlyDocument;",
+        "44": "\t\t\t\tnew HPSFPropertiesOnlyDocument(npoifsFileSystem);",
         "45": "",
         "46": "\t\t\tSummaryInformation summaryInformation =",
-        "47": "\t\t\t\thpsfPropertiesOnlyDocument.getSummaryInformation();"
+        "47": "\t\t\t\thpsfPropertiesOnlyDocument.getSummaryInformation();",
+        "154": "\tprivate static final Set<String> _powerpointExtensions = new HashSet<>(",
+        "153": "\t\t\t\"xltx\"));",
+        "26": "",
+        "27": "import org.apache.commons.io.FilenameUtils;",
+        "28": "import org.apache.poi.hpsf.HPSFPropertiesOnlyDocument;",
+        "29": "import org.apache.poi.hpsf.SummaryInformation;",
+        "30": "import org.apache.poi.poifs.filesystem.NPOIFSFileSystem;",
+        "31": ""
       },
       "id": 116052780,
       "filename": "MSOfficeFileUtil.java"

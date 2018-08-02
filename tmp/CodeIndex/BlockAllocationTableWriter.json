@@ -1,8 +1,8 @@
 {
-  "matchterm": "BlockAllocationTableWriter",
+  "matchterm": "org.apache.poi.poifs.storage.BlockAllocationTableWriter",
   "previouspage": null,
-  "searchterm": "BlockAllocationTableWriter",
-  "query": "BlockAllocationTableWriter",
+  "searchterm": "org.apache.poi.poifs.storage.BlockAllocationTableWriter",
+  "query": "org.apache.poi.poifs.storage.BlockAllocationTableWriter",
   "language_filters": [
     {
       "count": 4,
@@ -13,27 +13,6 @@
   "total": 4,
   "results": [
     {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 226,
-      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642252/",
-      "md5hash": "8450934a7708c91f77ff2df9934d6bd9",
-      "lines": {
-        "224": "}   // end class BlockAllocationTableWriter",
-        "81": "",
-        "82": "    public BlockAllocationTableWriter()",
-        "70": "",
-        "71": "public class BlockAllocationTableWriter",
-        "223": "    /* **********  END  implementation of BATManaged ********** */",
-        "78": "    /**",
-        "79": "     * create a BlockAllocationTableWriter"
-      },
-      "id": 15642252,
-      "filename": "BlockAllocationTableWriter.java"
-    },
-    {
       "repo": "https://github.com/minstrelsy/POI-Android.git",
       "language": "Java",
       "linescount": 615,
@@ -42,34 +21,24 @@
       "url": "https://searchcode.com/codesearch/view/97397929/",
       "md5hash": "5083d727a84f9c004bece7393d2ae9b8",
       "lines": {
-        "308": "        // create the block allocation table",
-        "309": "        BlockAllocationTableWriter bat        =",
-        "310": "            new BlockAllocationTableWriter(bigBlockSize);",
-        "311": "",
+        "34": "",
+        "35": "import org.apache.poi.poifs.common.POIFSBigBlockSize;",
+        "36": "import org.apache.poi.poifs.common.POIFSConstants;",
+        "37": "import org.apache.poi.poifs.dev.POIFSViewable;",
+        "38": "import org.apache.poi.poifs.property.DirectoryProperty;",
+        "39": "import org.apache.poi.poifs.property.Property;",
+        "40": "import org.apache.poi.poifs.property.PropertyTable;",
+        "41": "import org.apache.poi.poifs.storage.BATBlock;",
         "42": "import org.apache.poi.poifs.storage.BlockAllocationTableReader;",
-        "43": "import org.apache.poi.poifs.storage.BlockAllocationTableWriter;"
+        "43": "import org.apache.poi.poifs.storage.BlockAllocationTableWriter;",
+        "44": "import org.apache.poi.poifs.storage.BlockList;",
+        "45": "import org.apache.poi.poifs.storage.BlockWritable;",
+        "46": "import org.apache.poi.poifs.storage.HeaderBlockConstants;",
+        "19": "",
+        "20": "package org.apache.poi.poifs.filesystem;"
       },
       "id": 97397929,
       "filename": "POIFSFileSystem.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 175,
-      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642264/",
-      "md5hash": "cf01af29ac515ba6e90066ff6f3822e7",
-      "lines": {
-        "119": "",
-        "120": "    public BlockAllocationTableWriter getSBAT()",
-        "76": "    {",
-        "61": "{",
-        "62": "    private BlockAllocationTableWriter _sbat;",
-        "77": "        _sbat         = new BlockAllocationTableWriter();"
-      },
-      "id": 15642264,
-      "filename": "SmallBlockTableWriter.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -80,15 +49,81 @@
       "url": "https://searchcode.com/codesearch/view/15642276/",
       "md5hash": "821ddc8beda41ba4d7ad809592451995",
       "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.poifs.filesystem;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "49": "",
+        "50": "import loci.poi.poifs.common.POIFSConstants;",
+        "51": "import loci.poi.poifs.dev.POIFSViewable;",
+        "55": "import loci.poi.poifs.property.PropertyTable;",
+        "56": "import loci.poi.poifs.storage.BATBlock;",
         "57": "import loci.poi.poifs.storage.BlockAllocationTableReader;",
         "58": "import loci.poi.poifs.storage.BlockAllocationTableWriter;",
-        "219": "        BlockAllocationTableWriter bat        =",
-        "220": "            new BlockAllocationTableWriter();",
-        "218": "        // create the block allocation table",
-        "221": ""
+        "31": ""
       },
       "id": 15642276,
       "filename": "POIFSFileSystem.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 226,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642252/",
+      "md5hash": "8450934a7708c91f77ff2df9934d6bd9",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "68": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "41": "",
+        "42": "package loci.poi.poifs.storage;",
+        "67": " *",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "48": "",
+        "49": "import loci.poi.poifs.common.POIFSConstants;",
+        "50": "import loci.poi.poifs.filesystem.BATManaged;",
+        "51": "import loci.poi.util.IntList;",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "31": ""
+      },
+      "id": 15642252,
+      "filename": "BlockAllocationTableWriter.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 175,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642264/",
+      "md5hash": "cf01af29ac515ba6e90066ff6f3822e7",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.poifs.storage;",
+        "43": "",
+        "44": "import loci.poi.poifs.filesystem.BATManaged;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import loci.poi.poifs.filesystem.POIFSDocument;",
+        "46": "import loci.poi.poifs.property.RootProperty;",
+        "55": " *",
+        "56": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "47": "",
+        "31": ""
+      },
+      "id": 15642264,
+      "filename": "SmallBlockTableWriter.java"
     }
   ],
   "page": 0,

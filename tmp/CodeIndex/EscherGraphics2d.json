@@ -1,8 +1,8 @@
 {
-  "matchterm": "EscherGraphics2d",
+  "matchterm": "org.apache.poi.hssf.usermodel.EscherGraphics2d",
   "previouspage": null,
-  "searchterm": "EscherGraphics2d",
-  "query": "EscherGraphics2d",
+  "searchterm": "org.apache.poi.hssf.usermodel.EscherGraphics2d",
+  "query": "org.apache.poi.hssf.usermodel.EscherGraphics2d",
   "language_filters": [
     {
       "count": 2,
@@ -21,14 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97401504/",
       "md5hash": "62e15ade5342d1b79ba29319ce48d052",
       "lines": {
-        "132": "        EscherGraphics2d g2d = new EscherGraphics2d(_escherGraphics);",
-        "131": "    {",
-        "84": "     *",
-        "85": "     * @param escherGraphics    the original EscherGraphics2d object to copy",
-        "86": "     */",
-        "87": "    public EscherGraphics2d(EscherGraphics escherGraphics)",
-        "72": " */",
-        "73": "public final class EscherGraphics2d extends Graphics2D {"
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "67": " * height of the group can be calculated by using a convenience called",
+        "68": " * <code>HSSFClientAnchor.getAnchorHeightInPoints()</code>.",
+        "70": " *",
+        "71": " * @author Glen Stampoultzis (glens at apache.org)",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hssf.usermodel;",
+        "19": "",
+        "20": "import org.apache.poi.util.POILogFactory;",
+        "21": "import org.apache.poi.util.POILogger;",
+        "22": "",
+        "72": " */"
       },
       "id": 97401504,
       "filename": "EscherGraphics2d.java"
@@ -42,14 +49,22 @@
       "url": "https://searchcode.com/codesearch/view/15642327/",
       "md5hash": "3992ca0664b8dfcbb274eac5ed29285e",
       "lines": {
-        "155": "        EscherGraphics2d g2d = new EscherGraphics2d(escherGraphics);",
-        "110": "    public EscherGraphics2d(EscherGraphics escherGraphics)",
-        "154": "    {",
-        "107": "     *",
-        "108": "     * @param escherGraphics    the original EscherGraphics2d object to copy",
-        "109": "     */",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "39": "",
+        "40": "package loci.poi.hssf.usermodel;",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
         "94": " */",
-        "95": "public class EscherGraphics2d extends Graphics2D"
+        "41": "",
+        "89": " * height of the group can be calculated by using a convenience called",
+        "90": " * <code>HSSFClientAnchor.getAnchorHeightInPoints()</code>.",
+        "92": " *",
+        "93": " * @author Glen Stampoultzis (glens at apache.org)",
+        "30": "",
+        "31": "       http://www.apache.org/licenses/LICENSE-2.0"
       },
       "id": 15642327,
       "filename": "EscherGraphics2d.java"

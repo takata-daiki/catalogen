@@ -1,16 +1,16 @@
 {
-  "matchterm": "FormulaViewer",
+  "matchterm": "org.apache.poi.hssf.dev.FormulaViewer",
   "previouspage": null,
-  "searchterm": "FormulaViewer",
-  "query": "FormulaViewer",
+  "searchterm": "org.apache.poi.hssf.dev.FormulaViewer",
+  "query": "org.apache.poi.hssf.dev.FormulaViewer",
   "language_filters": [
     {
-      "count": 11,
+      "count": 1,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 11,
+  "total": 1,
   "results": [
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -21,223 +21,33 @@
       "url": "https://searchcode.com/codesearch/view/15642597/",
       "md5hash": "8c0f3f19688417e8138fee787add6462",
       "lines": {
-        "43": " * FormulaViewer.java - finds formulas in a BIFF8 file and attempts to parse them and",
-        "68": "",
-        "69": "public class FormulaViewer",
-        "73": "",
-        "42": "/*",
-        "75": "",
-        "76": "    public FormulaViewer()",
-        "269": "                FormulaViewer viewer = new FormulaViewer();",
-        "255": "                FormulaViewer viewer = new FormulaViewer();",
-        "254": "            try {",
-        "268": "            {",
-        "250": "            System.out.println(",
-        "251": "                \"FormulaViewer .8 proof that the devil lies in the details (or just in BIFF8 files in general)\");",
-        "74": "    /** Creates new FormulaViewer */",
-        "62": "/**",
-        "63": " * FormulaViewer - finds formulas in a BIFF8 file and attempts to read them/display"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "47": " */",
+        "48": "package loci.poi.hssf.dev;",
+        "57": "import loci.poi.poifs.filesystem.POIFSFileSystem;",
+        "58": "import loci.poi.hssf.record.*;",
+        "59": "import loci.poi.hssf.record.formula.*;",
+        "60": "import loci.poi.hssf.model.*;",
+        "61": "",
+        "31": ""
       },
       "id": 15642597,
       "filename": "FormulaViewer.java"
-    },
-    {
-      "repo": "git://github.com/mkovatsc/SmartAppContiki.git",
-      "language": "Java",
-      "linescount": 649,
-      "location": "/tools/cooja/apps/mrm/java/se/sics/mrm",
-      "name": "SmartAppContiki",
-      "url": "https://searchcode.com/codesearch/view/14669406/",
-      "md5hash": "7fb52e69e347ddb73a51346e71dc66fa",
-      "lines": {
-        "80": "   */",
-        "81": "  public FormulaViewer(Simulation simulationToVisualize, GUI gui) {",
-        "53": "@PluginType(PluginType.SIM_PLUGIN)",
-        "54": "public class FormulaViewer extends se.sics.cooja.VisPlugin {",
-        "55": "  private static final long serialVersionUID = 1L;",
-        "56": "  private static Logger logger = Logger.getLogger(FormulaViewer.class);",
-        "28": " *",
-        "29": " * $Id: FormulaViewer.java,v 1.3 2008/02/18 08:21:59 fros4943 Exp $"
-      },
-      "id": 14669406,
-      "filename": "FormulaViewer.java"
-    },
-    {
-      "repo": "https://github.com/gonium/octobus.git",
-      "language": "Java",
-      "linescount": 616,
-      "location": "/contiki-2.4/tools/cooja/apps/mrm/java/se/sics/mrm",
-      "name": "octobus",
-      "url": "https://searchcode.com/codesearch/view/111367668/",
-      "md5hash": "42574c73ebc0844a0a999cdc3624ef1e",
-      "lines": {
-        "80": "  public FormulaViewer(Simulation simulationToVisualize, GUI gui) {",
-        "52": "@PluginType(PluginType.SIM_PLUGIN)",
-        "53": "public class FormulaViewer extends se.sics.cooja.VisPlugin {",
-        "54": "  private static final long serialVersionUID = 1L;",
-        "55": "  private static Logger logger = Logger.getLogger(FormulaViewer.class);",
-        "28": " *",
-        "29": " * $Id: FormulaViewer.java,v 1.3 2008/02/18 08:21:59 fros4943 Exp $",
-        "79": "   */"
-      },
-      "id": 111367668,
-      "filename": "FormulaViewer.java"
-    },
-    {
-      "repo": "https://bitbucket.org/manumanu/contiki_rpl_metrics.git",
-      "language": "Java",
-      "linescount": 671,
-      "location": "/tools/cooja/apps/mrm/java/se/sics/mrm",
-      "name": "contiki_rpl_metrics",
-      "url": "https://searchcode.com/codesearch/view/36008428/",
-      "md5hash": "fe950ef70a0ae1ce29aea336e1dcfc71",
-      "lines": {
-        "102": "   */",
-        "103": "  public FormulaViewer(Simulation simulationToVisualize, GUI gui) {",
-        "28": " *",
-        "75": "@SupportedArguments(radioMediums = {MRM.class})",
-        "76": "public class FormulaViewer extends se.sics.cooja.VisPlugin {",
-        "29": " * $Id: FormulaViewer.java,v 1.3 2008/02/18 08:21:59 fros4943 Exp $",
-        "78": "  private static Logger logger = Logger.getLogger(FormulaViewer.class);",
-        "77": "  private static final long serialVersionUID = 1L;"
-      },
-      "id": 36008428,
-      "filename": "FormulaViewer.java"
-    },
-    {
-      "repo": "https://bitbucket.org/ravwojdyla/rav_wismote.git",
-      "language": "Java",
-      "linescount": 671,
-      "location": "/contiki-2.6/tools/cooja/apps/mrm/java/se/sics/mrm",
-      "name": "rav_wismote",
-      "url": "https://searchcode.com/codesearch/view/38635801/",
-      "md5hash": "fe950ef70a0ae1ce29aea336e1dcfc71",
-      "lines": {
-        "102": "   */",
-        "103": "  public FormulaViewer(Simulation simulationToVisualize, GUI gui) {",
-        "28": " *",
-        "75": "@SupportedArguments(radioMediums = {MRM.class})",
-        "76": "public class FormulaViewer extends se.sics.cooja.VisPlugin {",
-        "29": " * $Id: FormulaViewer.java,v 1.3 2008/02/18 08:21:59 fros4943 Exp $",
-        "78": "  private static Logger logger = Logger.getLogger(FormulaViewer.class);",
-        "77": "  private static final long serialVersionUID = 1L;"
-      },
-      "id": 38635801,
-      "filename": "FormulaViewer.java"
-    },
-    {
-      "repo": "https://bitbucket.org/paoolo/stomp-contiki.git",
-      "language": "Java",
-      "linescount": 670,
-      "location": "/tools/cooja/apps/mrm/java/se/sics/mrm",
-      "name": "stomp-contiki",
-      "url": "https://searchcode.com/codesearch/view/49331613/",
-      "md5hash": "10da028562eeed21bfd07aa67e4cf8d4",
-      "lines": {
-        "101": "   */",
-        "102": "  public FormulaViewer(Simulation simulationToVisualize, GUI gui) {",
-        "74": "@SupportedArguments(radioMediums = {MRM.class})",
-        "75": "public class FormulaViewer extends se.sics.cooja.VisPlugin {",
-        "76": "  private static final long serialVersionUID = 1L;",
-        "77": "  private static Logger logger = Logger.getLogger(FormulaViewer.class);"
-      },
-      "id": 49331613,
-      "filename": "FormulaViewer.java"
-    },
-    {
-      "repo": "git://github.com/mkovatsc/SmartAppContiki.git",
-      "language": "Java",
-      "linescount": 492,
-      "location": "/tools/cooja/apps/mrm/java/se/sics/mrm",
-      "name": "SmartAppContiki",
-      "url": "https://searchcode.com/codesearch/view/14669407/",
-      "md5hash": "3997de8ed0f2b0652aa468038f7e4019",
-      "lines": {
-        "132": "    sim.getGUI().unregisterPlugin(FormulaViewer.class);",
-        "122": "    sim.getGUI().registerPlugin(AreaViewer.class);",
-        "123": "    sim.getGUI().registerPlugin(FormulaViewer.class);",
-        "131": "    sim.getGUI().unregisterPlugin(AreaViewer.class);"
-      },
-      "id": 14669407,
-      "filename": "MRM.java"
-    },
-    {
-      "repo": "https://bitbucket.org/manumanu/contiki_rpl_metrics.git",
-      "language": "Java",
-      "linescount": 492,
-      "location": "/tools/cooja/apps/mrm/java/se/sics/mrm",
-      "name": "contiki_rpl_metrics",
-      "url": "https://searchcode.com/codesearch/view/36008429/",
-      "md5hash": "d2465daea801f1a57838028e1d65ef2a",
-      "lines": {
-        "132": "    sim.getGUI().unregisterPlugin(FormulaViewer.class);",
-        "122": "    sim.getGUI().registerPlugin(AreaViewer.class);",
-        "123": "    sim.getGUI().registerPlugin(FormulaViewer.class);",
-        "131": "    sim.getGUI().unregisterPlugin(AreaViewer.class);"
-      },
-      "id": 36008429,
-      "filename": "MRM.java"
-    },
-    {
-      "repo": "https://bitbucket.org/ravwojdyla/rav_wismote.git",
-      "language": "Java",
-      "linescount": 492,
-      "location": "/contiki-2.6/tools/cooja/apps/mrm/java/se/sics/mrm",
-      "name": "rav_wismote",
-      "url": "https://searchcode.com/codesearch/view/38635799/",
-      "md5hash": "d2465daea801f1a57838028e1d65ef2a",
-      "lines": {
-        "132": "    sim.getGUI().unregisterPlugin(FormulaViewer.class);",
-        "122": "    sim.getGUI().registerPlugin(AreaViewer.class);",
-        "123": "    sim.getGUI().registerPlugin(FormulaViewer.class);",
-        "131": "    sim.getGUI().unregisterPlugin(AreaViewer.class);"
-      },
-      "id": 38635799,
-      "filename": "MRM.java"
-    },
-    {
-      "repo": "https://github.com/gonium/octobus.git",
-      "language": "Java",
-      "linescount": 342,
-      "location": "/contiki-2.4/tools/cooja/apps/mrm/java/se/sics/mrm",
-      "name": "octobus",
-      "url": "https://searchcode.com/codesearch/view/111367672/",
-      "md5hash": "3870e4b374547e77ddd4f10463a2d125",
-      "lines": {
-        "91": "    simulation.getGUI().registerTemporaryPlugin(AreaViewer.class);",
-        "92": "    simulation.getGUI().registerTemporaryPlugin(FormulaViewer.class);"
-      },
-      "id": 111367672,
-      "filename": "MRM.java"
-    },
-    {
-      "repo": "https://github.com/contiki/contiki-arduino-2.2.git",
-      "language": "Java",
-      "linescount": 336,
-      "location": "/tools/cooja/apps/mrm/java/se/sics/mrm",
-      "name": "contiki-arduino-2.2",
-      "url": "https://searchcode.com/codesearch/view/111807458/",
-      "md5hash": "e353af76ca570f1f7706d9b91964a13d",
-      "lines": {
-        "84": "    simulation.getGUI().registerTemporaryPlugin(AreaViewer.class);",
-        "85": "    simulation.getGUI().registerTemporaryPlugin(FormulaViewer.class);"
-      },
-      "id": 111807458,
-      "filename": "MRM.java"
     }
   ],
   "page": 0,
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 6,
+      "count": 1,
       "source": "Github",
       "id": 2
-    },
-    {
-      "count": 5,
-      "source": "Bitbucket",
-      "id": 3
     }
   ]
 }

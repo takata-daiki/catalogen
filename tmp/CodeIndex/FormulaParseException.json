@@ -1,16 +1,16 @@
 {
-  "matchterm": "FormulaParseException",
+  "matchterm": "org.apache.poi.ss.formula.FormulaParseException",
   "previouspage": null,
-  "searchterm": "FormulaParseException",
-  "query": "FormulaParseException",
+  "searchterm": "org.apache.poi.ss.formula.FormulaParseException",
+  "query": "org.apache.poi.ss.formula.FormulaParseException",
   "language_filters": [
     {
-      "count": 7,
+      "count": 6,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 7,
+  "total": 6,
   "results": [
     {
       "repo": "https://bitbucket.org/adufour/icy-workbooks.git",
@@ -21,87 +21,24 @@
       "url": "https://searchcode.com/codesearch/view/103223911/",
       "md5hash": "215eef82694740f002e989e48c51ae19",
       "lines": {
-        "459": "    public void setFormula(int row, int column, String formula) throws FormulaParseException",
-        "455": "     *            the formula",
-        "456": "     * @throws FormulaParseException",
+        "7": "",
+        "8": "import org.apache.poi.hssf.usermodel.HSSFPalette;",
+        "9": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
         "10": "import org.apache.poi.hssf.util.HSSFColor;",
         "11": "import org.apache.poi.ss.formula.FormulaParseException;",
-        "458": "     */"
+        "12": "import org.apache.poi.ss.usermodel.Cell;",
+        "13": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "14": "import org.apache.poi.ss.usermodel.FormulaEvaluator;",
+        "15": "import org.apache.poi.ss.usermodel.Row;",
+        "16": "import org.apache.poi.ss.usermodel.Sheet;",
+        "17": "import org.apache.poi.ss.usermodel.Workbook;",
+        "18": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "19": "import org.apache.poi.xssf.usermodel.XSSFColor;",
+        "20": "import org.apache.poi.xssf.usermodel.XSSFWorkbook;",
+        "21": ""
       },
       "id": 103223911,
       "filename": "IcySpreadSheet.java"
-    },
-    {
-      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 4867,
-      "location": "/zss/src/org/zkoss/zss/ui",
-      "name": "zkspreadsheet",
-      "url": "https://searchcode.com/codesearch/view/3970597/",
-      "md5hash": "e7f705e90329f003cbaa403eaed0f523",
-      "lines": {
-        "48": "import org.zkoss.poi.ss.formula.FormulaParseException;",
-        "4304": "\t",
-        "4305": "\tprivate void showFormulaError(FormulaParseException ex) {",
-        "4344": "\t\t\tprocessCancelEditing0(token, sheet, rowIdx, colIdx, false, editingType);",
-        "4345": "\t\t\tif (x instanceof FormulaParseException) {",
-        "4346": "\t\t\t\tshowFormulaError((FormulaParseException)x);",
-        "4347": "\t\t\t} else {",
-        "47": "import org.zkoss.poi.ss.SpreadsheetVersion;"
-      },
-      "id": 3970597,
-      "filename": "Spreadsheet.java"
-    },
-    {
-      "repo": "https://github.com/myGrid/simple-spreadsheet-extractor.git",
-      "language": "Java",
-      "linescount": 78,
-      "location": "/src/main/java/org/sysmodb",
-      "name": "simple-spreadsheet-extractor",
-      "url": "https://searchcode.com/codesearch/view/110498459/",
-      "md5hash": "4d5e61b54d8b72bd2d38fa8a6a40fd5d",
-      "lines": {
-        "68": "\t\t\t\tformula = cell.getCellFormula();",
-        "11": "",
-        "12": "import org.apache.poi.ss.formula.FormulaParseException;",
-        "69": "\t\t\t} catch (FormulaParseException e) {"
-      },
-      "id": 110498459,
-      "filename": "CellInfo.java"
-    },
-    {
-      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
-      "language": "Java",
-      "linescount": 339,
-      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel/handlers",
-      "name": "spudsoft-birt-excel-emitters",
-      "url": "https://searchcode.com/codesearch/view/122565168/",
-      "md5hash": "8563c9e7b1d66e545a9f29428dec4dd6",
-      "lines": {
-        "16": "import org.apache.poi.ss.SpreadsheetVersion;",
-        "17": "import org.apache.poi.ss.formula.FormulaParseException;",
-        "163": "\t\t\t\tname.setRefersToFormula(existingFormula + \",\" + formula);",
-        "164": "\t\t\t} catch( FormulaParseException ex ) {"
-      },
-      "id": 122565168,
-      "filename": "AbstractHandler.java"
-    },
-    {
-      "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
-      "language": "Java",
-      "linescount": 344,
-      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel/handlers",
-      "name": "spudsoft-birt-excel-emitters",
-      "url": "https://searchcode.com/codesearch/view/64530955/",
-      "md5hash": "8100753484ab7d06af0302bceb61252a",
-      "lines": {
-        "168": "\t\t\t\tname.setRefersToFormula(existingFormula + \",\" + formula);",
-        "25": "import org.apache.poi.ss.SpreadsheetVersion;",
-        "26": "import org.apache.poi.ss.formula.FormulaParseException;",
-        "169": "\t\t\t} catch( FormulaParseException ex ) {"
-      },
-      "id": 64530955,
-      "filename": "AbstractHandler.java"
     },
     {
       "repo": "https://bitbucket.org/adufour/icy-workbooks.git",
@@ -112,13 +49,111 @@
       "url": "https://searchcode.com/codesearch/view/48686477/",
       "md5hash": "0a83fb98df3ca0fd1314f55521cc6bca",
       "lines": {
+        "295": "                    {",
+        "296": "                        MessageDialog.showDialog(e1.getMessage(), MessageDialog.ERROR_MESSAGE);",
+        "141": "                    SheetModel model = (SheetModel) table.getModel();",
+        "142": "                    updateFormulaField(model, table.getSelectedRow(), table.getSelectedColumn());",
         "51": "",
         "52": "import org.apache.poi.ss.formula.FormulaParseException;",
-        "1206": "                }",
-        "1207": "                catch (FormulaParseException e1)"
+        "53": "import org.apache.poi.ss.usermodel.Sheet;",
+        "54": "import org.apache.poi.ss.usermodel.Workbook;",
+        "55": "import org.apache.poi.ss.usermodel.WorkbookFactory;",
+        "56": "import org.jdesktop.swingx.JXPanel;",
+        "57": "import org.jdesktop.swingx.JXTable;",
+        "58": "import org.math.plot.Plot2DPanel;",
+        "59": "import org.math.plot.Plot3DPanel;",
+        "60": "import org.math.plot.utils.Array;",
+        "61": ""
       },
       "id": 48686477,
       "filename": "WorkbookEditor.java"
+    },
+    {
+      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 339,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel/handlers",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/122565168/",
+      "md5hash": "8563c9e7b1d66e545a9f29428dec4dd6",
+      "lines": {
+        "7": " * which accompanies this distribution, and is available at",
+        "8": " * http://www.eclipse.org/legal/epl-v10.html",
+        "15": "",
+        "16": "import org.apache.poi.ss.SpreadsheetVersion;",
+        "17": "import org.apache.poi.ss.formula.FormulaParseException;",
+        "18": "import org.apache.poi.ss.usermodel.Name;",
+        "19": "import org.apache.poi.ss.util.CellReference;",
+        "20": "import org.apache.poi.ss.util.CellReference.NameType;",
+        "21": "import org.eclipse.birt.core.exception.BirtException;",
+        "22": "import org.eclipse.birt.report.engine.content.IAutoTextContent;",
+        "23": "import org.eclipse.birt.report.engine.content.ICellContent;",
+        "24": "import org.eclipse.birt.report.engine.content.IContainerContent;",
+        "25": "import org.eclipse.birt.report.engine.content.IContent;",
+        "26": "import org.eclipse.birt.report.engine.content.IDataContent;",
+        "27": "import org.eclipse.birt.report.engine.content.IForeignContent;"
+      },
+      "id": 122565168,
+      "filename": "AbstractHandler.java"
+    },
+    {
+      "repo": "https://github.com/myGrid/simple-spreadsheet-extractor.git",
+      "language": "Java",
+      "linescount": 78,
+      "location": "/src/main/java/org/sysmodb",
+      "name": "simple-spreadsheet-extractor",
+      "url": "https://searchcode.com/codesearch/view/110498459/",
+      "md5hash": "4d5e61b54d8b72bd2d38fa8a6a40fd5d",
+      "lines": {
+        "65": "\t\t\tbreak;",
+        "66": "\t\tcase Cell.CELL_TYPE_FORMULA:",
+        "67": "\t\t\ttry {",
+        "68": "\t\t\t\tformula = cell.getCellFormula();",
+        "69": "\t\t\t} catch (FormulaParseException e) {",
+        "6": " ******************************************************************************/",
+        "7": "package org.sysmodb;",
+        "72": "\t\t\tint resultCellType = cell.getCachedFormulaResultType();",
+        "11": "",
+        "12": "import org.apache.poi.ss.formula.FormulaParseException;",
+        "13": "import org.apache.poi.ss.usermodel.Cell;",
+        "14": "import org.apache.poi.ss.usermodel.DateUtil;",
+        "15": "import org.apache.poi.ss.usermodel.Workbook;",
+        "16": "",
+        "71": "\t\t\t}",
+        "70": ""
+      },
+      "id": 110498459,
+      "filename": "CellInfo.java"
+    },
+    {
+      "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 344,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel/handlers",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/64530955/",
+      "md5hash": "8100753484ab7d06af0302bceb61252a",
+      "lines": {
+        "32": "import org.eclipse.birt.report.engine.content.ICellContent;",
+        "33": "import org.eclipse.birt.report.engine.content.IContainerContent;",
+        "34": "import org.eclipse.birt.report.engine.content.IContent;",
+        "35": "import org.eclipse.birt.report.engine.content.IDataContent;",
+        "7": " *  redistribute them and/or modify them under the terms of the ",
+        "8": " *  GNU Lesser General Public License as published by",
+        "14": " *  without even the implied warranty of MERCHANTABILITY or ",
+        "15": " *  FITNESS FOR A PARTICULAR PURPOSE.  See the",
+        "16": " *  GNU Lesser General Public License for more details.",
+        "24": "",
+        "25": "import org.apache.poi.ss.SpreadsheetVersion;",
+        "26": "import org.apache.poi.ss.formula.FormulaParseException;",
+        "27": "import org.apache.poi.ss.usermodel.Name;",
+        "28": "import org.apache.poi.ss.util.CellReference;",
+        "29": "import org.apache.poi.ss.util.CellReference.NameType;",
+        "30": "import org.eclipse.birt.core.exception.BirtException;",
+        "31": "import org.eclipse.birt.report.engine.content.IAutoTextContent;"
+      },
+      "id": 64530955,
+      "filename": "AbstractHandler.java"
     },
     {
       "repo": "https://bitbucket.org/gkraser/jandcode-core",
@@ -129,8 +164,21 @@
       "url": "https://searchcode.com/codesearch/view/128473368/",
       "md5hash": "bffa29002523454ad6f3fb8b69f7e98a",
       "lines": {
-        "258": "                            newCell.setCellFormula(s1);",
-        "259": "                        } catch (FormulaParseException e) {"
+        "6": "import jandcode.excelreport.impl.databinder.*;",
+        "7": "import org.apache.poi.hssf.usermodel.*;",
+        "8": "import org.apache.poi.ss.formula.*;",
+        "9": "import org.apache.poi.ss.usermodel.*;",
+        "10": "import org.apache.poi.ss.util.*;",
+        "11": "import org.joda.time.*;",
+        "12": "",
+        "14": "",
+        "15": "public class ReportSheetImpl extends ReportSheet {",
+        "16": "",
+        "17": "    protected HSSFSheet shTemplate;",
+        "18": "    protected HSSFSheet shResult;",
+        "19": "    protected int shResultIdx;",
+        "20": "    protected HSSFWorkbook wbResult;",
+        "21": "    protected HSSFWorkbook wbTemplate;"
       },
       "id": 128473368,
       "filename": "ReportSheetImpl.java"
@@ -148,11 +196,6 @@
       "count": 1,
       "source": "Github",
       "id": 2
-    },
-    {
-      "count": 1,
-      "source": "Google Code",
-      "id": 1
     }
   ]
 }

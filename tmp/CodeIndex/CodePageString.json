@@ -1,8 +1,8 @@
 {
-  "matchterm": "CodePageString",
+  "matchterm": "org.apache.poi.hpsf.CodePageString",
   "previouspage": null,
-  "searchterm": "CodePageString",
-  "query": "CodePageString",
+  "searchterm": "org.apache.poi.hpsf.CodePageString",
+  "query": "org.apache.poi.hpsf.CodePageString",
   "language_filters": [
     {
       "count": 1,
@@ -21,12 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/97383361/",
       "md5hash": "89a9616b84e878dcdfd285ef7159c220",
       "lines": {
-        "434": "            {",
-        "435": "                CodePageString codePageString = new CodePageString( (String) value,",
-        "436": "                        codepage );",
-        "437": "                length += codePageString.write( out );",
-        "206": "        {",
-        "207": "            CodePageString string = (CodePageString) typedPropertyValue"
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "50": "{",
+        "17": "",
+        "18": "package org.apache.poi.hpsf;",
+        "51": "\tprivate static POILogger logger = POILogFactory.getLogger(VariantSupport.class);",
+        "408": "     * @exception WritingNotSupportedException if a property is to be written",
+        "409": "     * who's variant type HPSF does not yet support",
+        "26": "",
+        "27": "import org.apache.poi.util.POILogFactory;",
+        "28": "import org.apache.poi.util.POILogger;",
+        "29": ""
       },
       "id": 97383361,
       "filename": "VariantSupport.java"

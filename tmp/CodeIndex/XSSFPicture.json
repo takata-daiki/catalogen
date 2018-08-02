@@ -1,8 +1,8 @@
 {
-  "matchterm": "XSSFPicture",
+  "matchterm": "org.apache.poi.xssf.usermodel.XSSFPicture",
   "previouspage": null,
-  "searchterm": "XSSFPicture",
-  "query": "XSSFPicture",
+  "searchterm": "org.apache.poi.xssf.usermodel.XSSFPicture",
+  "query": "org.apache.poi.xssf.usermodel.XSSFPicture",
   "language_filters": [
     {
       "count": 1,
@@ -21,10 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/93182055/",
       "md5hash": "87019a72d8e02af505e4e1e5b6ac2ed2",
       "lines": {
-        "265": "                for (XSSFShape shape : shapes) {  ",
-        "266": "                    XSSFPicture pic = (XSSFPicture) shape;  ",
+        "11": "import org.apache.poi.POIXMLDocumentPart;",
+        "12": "import org.apache.poi.hssf.usermodel.HSSFClientAnchor;",
+        "13": "import org.apache.poi.hssf.usermodel.HSSFPicture;",
+        "14": "import org.apache.poi.hssf.usermodel.HSSFPictureData;",
+        "15": "import org.apache.poi.hssf.usermodel.HSSFShape;",
+        "16": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "17": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "18": "import org.apache.poi.ss.usermodel.PictureData;",
+        "19": "import org.apache.poi.xssf.usermodel.XSSFClientAnchor;",
         "20": "import org.apache.poi.xssf.usermodel.XSSFDrawing;",
-        "21": "import org.apache.poi.xssf.usermodel.XSSFPicture;"
+        "21": "import org.apache.poi.xssf.usermodel.XSSFPicture;",
+        "22": "import org.apache.poi.xssf.usermodel.XSSFShape;",
+        "23": "import org.apache.poi.xssf.usermodel.XSSFSheet;",
+        "24": "import org.apache.poi.xssf.usermodel.XSSFWorkbook;",
+        "25": "import org.hibernate.mapping.Collection;"
       },
       "id": 93182055,
       "filename": "ExcelPublicUtil.java"

@@ -1,16 +1,16 @@
 {
-  "matchterm": "WindowProtectRecord",
+  "matchterm": "org.apache.poi.hssf.record.WindowProtectRecord",
   "previouspage": null,
-  "searchterm": "WindowProtectRecord",
-  "query": "WindowProtectRecord",
+  "searchterm": "org.apache.poi.hssf.record.WindowProtectRecord",
+  "query": "org.apache.poi.hssf.record.WindowProtectRecord",
   "language_filters": [
     {
-      "count": 12,
+      "count": 5,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 12,
+  "total": 5,
   "results": [
     {
       "repo": "https://github.com/isdom/POI-Android.git",
@@ -21,88 +21,24 @@
       "url": "https://searchcode.com/codesearch/view/88639900/",
       "md5hash": "6b67e336e8786b058b45e91241129c03",
       "lines": {
-        "91": "        return new WindowProtectRecord(_options);",
-        "90": "    public Object clone() {",
         "37": "",
         "38": "    public WindowProtectRecord(int options) {",
-        "41": "",
-        "42": "    public WindowProtectRecord(RecordInputStream in) {",
-        "46": "    public WindowProtectRecord(boolean protect) {",
-        "45": "",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hssf.record;",
+        "19": "",
+        "20": "import org.apache.poi.util.BitField;",
+        "21": "import org.apache.poi.util.BitFieldFactory;",
+        "22": "import org.apache.poi.util.HexDump;",
+        "23": "import org.apache.poi.util.LittleEndianOutput;",
+        "24": "",
+        "28": " * REFERENCE:  PG 424 Microsoft Excel 97 Developer's Kit (ISBN: 1-57231-498-2)<p/>",
+        "29": " * @author Andrew C. Oliver (acoliver at apache dot org)",
         "30": " */",
         "31": "public final class WindowProtectRecord extends StandardRecord {"
       },
       "id": 88639900,
-      "filename": "WindowProtectRecord.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 145,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642384/",
-      "md5hash": "bedfd97d4c8a22c2860d4de9fa6e8060",
-      "lines": {
-        "68": "",
-        "53": "",
-        "54": "public class WindowProtectRecord",
-        "59": "",
-        "60": "    public WindowProtectRecord()",
-        "69": "    public WindowProtectRecord(RecordInputStream in)"
-      },
-      "id": 15642384,
-      "filename": "WindowProtectRecord.java"
-    },
-    {
-      "repo": "https://bitbucket.org/openesb/openesb-components.git",
-      "language": "Java",
-      "linescount": 69,
-      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
-      "name": "openesb-components",
-      "url": "https://searchcode.com/codesearch/view/43260272/",
-      "md5hash": "d268f5378c0e92d44aa25eaa67455d4a",
-      "lines": {
-        "44": "   */",
-        "28": " */",
-        "29": "class WindowProtectRecord extends WritableRecordData",
-        "45": "  public WindowProtectRecord(boolean prot)"
-      },
-      "id": 43260272,
-      "filename": "WindowProtectRecord.java"
-    },
-    {
-      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
-      "language": "Java",
-      "linescount": 69,
-      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
-      "name": "openesb-components",
-      "url": "https://searchcode.com/codesearch/view/49200800/",
-      "md5hash": "d268f5378c0e92d44aa25eaa67455d4a",
-      "lines": {
-        "44": "   */",
-        "28": " */",
-        "29": "class WindowProtectRecord extends WritableRecordData",
-        "45": "  public WindowProtectRecord(boolean prot)"
-      },
-      "id": 49200800,
-      "filename": "WindowProtectRecord.java"
-    },
-    {
-      "repo": "http://cellengine.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 69,
-      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/write/biff",
-      "name": "cellengine",
-      "url": "https://searchcode.com/codesearch/view/11374531/",
-      "md5hash": "8a6e092ce6e11b9c7b1d54631d6a2f73",
-      "lines": {
-        "44": "   */",
-        "28": " */",
-        "29": "class WindowProtectRecord extends WritableRecordData",
-        "45": "  public WindowProtectRecord(boolean prot)"
-      },
-      "id": 11374531,
       "filename": "WindowProtectRecord.java"
     },
     {
@@ -114,75 +50,25 @@
       "url": "https://searchcode.com/codesearch/view/15642358/",
       "md5hash": "2f47d8e4aa73ffbba0d056d2a6f68eee",
       "lines": {
-        "992": "     * @see loci.poi.hssf.record.WindowProtectRecord",
-        "993": "     * @see loci.poi.hssf.record.Record",
-        "994": "     * @return record containing a WindowProtectRecord",
-        "997": "    protected Record createWindowProtect() {",
-        "998": "        WindowProtectRecord retval = new WindowProtectRecord();",
-        "991": "     * creates the WindowProtect record with protect set to false."
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.model;",
+        "43": "",
+        "44": "import loci.poi.ddf.*;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import loci.poi.hssf.record.*;",
+        "48": "import loci.poi.util.POILogFactory;",
+        "46": "import loci.poi.hssf.util.HSSFColor;",
+        "9": " * %%",
+        "47": "import loci.poi.hssf.util.SheetReferences;",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "31": ""
       },
       "id": 15642358,
       "filename": "Workbook.java"
-    },
-    {
-      "repo": "https://bitbucket.org/openesb/openesb-components.git",
-      "language": "Java",
-      "linescount": 1870,
-      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
-      "name": "openesb-components",
-      "url": "https://searchcode.com/codesearch/view/43260266/",
-      "md5hash": "7cf7f2ed2e9a9ecf9aeb7a31626a4cb3",
-      "lines": {
-        "734": "    // do not support password protected workbooks",
-        "735": "    WindowProtectRecord wpr = new WindowProtectRecord(false);"
-      },
-      "id": 43260266,
-      "filename": "WritableWorkbookImpl.java"
-    },
-    {
-      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
-      "language": "Java",
-      "linescount": 1870,
-      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
-      "name": "openesb-components",
-      "url": "https://searchcode.com/codesearch/view/49200794/",
-      "md5hash": "7cf7f2ed2e9a9ecf9aeb7a31626a4cb3",
-      "lines": {
-        "734": "    // do not support password protected workbooks",
-        "735": "    WindowProtectRecord wpr = new WindowProtectRecord(false);"
-      },
-      "id": 49200794,
-      "filename": "WritableWorkbookImpl.java"
-    },
-    {
-      "repo": "http://cellengine.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 1870,
-      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/write/biff",
-      "name": "cellengine",
-      "url": "https://searchcode.com/codesearch/view/11374615/",
-      "md5hash": "eeb7fb5f28e170de50ae99417e46e6f4",
-      "lines": {
-        "734": "    // do not support password protected workbooks",
-        "735": "    WindowProtectRecord wpr = new WindowProtectRecord(false);"
-      },
-      "id": 11374615,
-      "filename": "WritableWorkbookImpl.java"
-    },
-    {
-      "repo": "http://brainstream.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 1908,
-      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/write/biff",
-      "name": "brainstream",
-      "url": "https://searchcode.com/codesearch/view/13919798/",
-      "md5hash": "1b180ce870b12583c0822f5205cc43e8",
-      "lines": {
-        "760": "    // do not support password protected workbooks",
-        "761": "    WindowProtectRecord wpr = new WindowProtectRecord"
-      },
-      "id": 13919798,
-      "filename": "WritableWorkbookImpl.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -193,13 +79,54 @@
       "url": "https://searchcode.com/codesearch/view/15642343/",
       "md5hash": "468caa59753e7c2d27a76f3903f70894",
       "lines": {
-        "128": "import loci.poi.hssf.record.WindowProtectRecord;",
-        "160": "                CodepageRecord.class, DSFRecord.class, TabIdRecord.class,",
-        "161": "                FnGroupCountRecord.class, WindowProtectRecord.class,",
-        "127": "import loci.poi.hssf.record.WindowOneRecord;"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "50": "",
+        "51": "import loci.poi.hssf.record.BOFRecord;",
+        "52": "import loci.poi.hssf.record.BackupRecord;",
+        "53": "import loci.poi.hssf.record.BlankRecord;",
+        "54": "import loci.poi.hssf.record.BookBoolRecord;",
+        "55": "import loci.poi.hssf.record.BoolErrRecord;",
+        "56": "import loci.poi.hssf.record.BottomMarginRecord;",
+        "57": "import loci.poi.hssf.record.BoundSheetRecord;",
+        "58": "import loci.poi.hssf.record.CalcCountRecord;",
+        "59": "import loci.poi.hssf.record.CalcModeRecord;",
+        "31": ""
       },
       "id": 15642343,
       "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 145,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642384/",
+      "md5hash": "bedfd97d4c8a22c2860d4de9fa6e8060",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.record;",
+        "43": "",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "49": " * REFERENCE:  PG 424 Microsoft Excel 97 Developer's Kit (ISBN: 1-57231-498-2)<P>",
+        "50": " * @author Andrew C. Oliver (acoliver at apache dot org)",
+        "53": "",
+        "54": "public class WindowProtectRecord",
+        "55": "    extends Record",
+        "59": "",
+        "60": "    public WindowProtectRecord()",
+        "31": ""
+      },
+      "id": 15642384,
+      "filename": "WindowProtectRecord.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -210,8 +137,21 @@
       "url": "https://searchcode.com/codesearch/view/15642481/",
       "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
       "lines": {
-        "70": "                CodepageRecord.class, DSFRecord.class, TabIdRecord.class,",
-        "71": "                FnGroupCountRecord.class, WindowProtectRecord.class,"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.record;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "51": " *",
+        "52": " * @deprecated use {@link loci.poi.hssf.eventmodel.EventRecordFactory} instead",
+        "53": " * @see loci.poi.hssf.eventmodel.EventRecordFactory",
+        "54": " * @author Andrew C. Oliver (acoliver at apache dot org)",
+        "55": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "56": " * @author Glen Stampoultzis (glens at apache.org)",
+        "57": " * @author Csaba Nagy (ncsaba at yahoo dot com)",
+        "31": ""
       },
       "id": 15642481,
       "filename": "RecordFactory.java"
@@ -224,16 +164,6 @@
       "count": 5,
       "source": "Github",
       "id": 2
-    },
-    {
-      "count": 4,
-      "source": "Bitbucket",
-      "id": 3
-    },
-    {
-      "count": 3,
-      "source": "Google Code",
-      "id": 1
     }
   ]
 }

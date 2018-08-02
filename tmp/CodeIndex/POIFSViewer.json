@@ -1,8 +1,8 @@
 {
-  "matchterm": "POIFSViewer",
+  "matchterm": "org.apache.poi.poifs.dev.POIFSViewer",
   "previouspage": null,
-  "searchterm": "POIFSViewer",
-  "query": "POIFSViewer",
+  "searchterm": "org.apache.poi.poifs.dev.POIFSViewer",
+  "query": "org.apache.poi.poifs.dev.POIFSViewer",
   "language_filters": [
     {
       "count": 1,
@@ -21,10 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/15642295/",
       "md5hash": "d847790d42d7194d486809d38bca5cce",
       "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.poifs.dev;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "49": "",
+        "50": "import loci.poi.poifs.filesystem.POIFSFileSystem;",
+        "51": "import loci.poi.util.*;",
+        "53": "/**",
+        "54": " * A simple viewer for POIFS files",
+        "55": " *",
         "58": "",
         "59": "public class POIFSViewer",
-        "117": "    }",
-        "118": "}   // end public class POIFSViewer"
+        "31": ""
       },
       "id": 15642295,
       "filename": "POIFSViewer.java"

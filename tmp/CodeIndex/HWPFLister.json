@@ -1,8 +1,8 @@
 {
-  "matchterm": "HWPFLister",
+  "matchterm": "org.apache.poi.hwpf.dev.HWPFLister",
   "previouspage": null,
-  "searchterm": "HWPFLister",
-  "query": "HWPFLister",
+  "searchterm": "org.apache.poi.hwpf.dev.HWPFLister",
+  "query": "org.apache.poi.hwpf.dev.HWPFLister",
   "language_filters": [
     {
       "count": 1,
@@ -21,16 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97384386/",
       "md5hash": "a5fd3aeec9338ae1535ca742a1539e0e",
       "lines": {
-        "80": "@Beta",
-        "81": "public final class HWPFLister",
-        "115": "            System.err.println( \"Use:\" );",
-        "116": "            System.err.println( \"\\tHWPFLister <filename>\\n\" + \"\\t\\t[--dop]\\n\"",
-        "214": "",
-        "215": "        HWPFLister listerOriginal = new HWPFLister( original );",
-        "216": "        HWPFLister listerRebuilded = new HWPFLister( doc );",
-        "217": "",
-        "321": "    public HWPFLister( HWPFDocumentCore doc )",
-        "320": ""
+        "34": "",
+        "35": "import org.apache.poi.POIDocument;",
+        "36": "import org.apache.poi.hwpf.HWPFDocument;",
+        "37": "import org.apache.poi.hwpf.HWPFDocumentCore;",
+        "38": "import org.apache.poi.hwpf.HWPFOldDocument;",
+        "39": "import org.apache.poi.hwpf.OldWordFileFormatException;",
+        "40": "import org.apache.poi.hwpf.model.CHPX;",
+        "41": "import org.apache.poi.hwpf.model.FieldsDocumentPart;",
+        "42": "import org.apache.poi.hwpf.model.FileInformationBlock;",
+        "43": "import org.apache.poi.hwpf.model.GenericPropertyNode;",
+        "44": "import org.apache.poi.hwpf.model.LFO;",
+        "45": "import org.apache.poi.hwpf.model.LFOData;",
+        "46": "import org.apache.poi.hwpf.model.ListLevel;",
+        "17": "",
+        "18": "package org.apache.poi.hwpf.dev;"
       },
       "id": 97384386,
       "filename": "HWPFLister.java"

@@ -1,16 +1,16 @@
 {
-  "matchterm": "VariantBool",
+  "matchterm": "org.apache.poi.hpsf.VariantBool",
   "previouspage": null,
-  "searchterm": "VariantBool",
-  "query": "VariantBool",
+  "searchterm": "org.apache.poi.hpsf.VariantBool",
+  "query": "org.apache.poi.hpsf.VariantBool",
   "language_filters": [
     {
-      "count": 6,
+      "count": 1,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 6,
+  "total": 1,
   "results": [
     {
       "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
@@ -21,112 +21,34 @@
       "url": "https://searchcode.com/codesearch/view/97383361/",
       "md5hash": "89a9616b84e878dcdfd285ef7159c220",
       "lines": {
-        "243": "        {",
-        "244": "            VariantBool bool = (VariantBool) typedPropertyValue.getValue();"
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "50": "{",
+        "17": "",
+        "18": "package org.apache.poi.hpsf;",
+        "51": "\tprivate static POILogger logger = POILogFactory.getLogger(VariantSupport.class);",
+        "408": "     * @exception WritingNotSupportedException if a property is to be written",
+        "409": "     * who's variant type HPSF does not yet support",
+        "26": "",
+        "27": "import org.apache.poi.util.POILogFactory;",
+        "28": "import org.apache.poi.util.POILogger;",
+        "29": ""
       },
       "id": 97383361,
       "filename": "VariantSupport.java"
-    },
-    {
-      "repo": "https://bitbucket.org/jdstroy/jlink",
-      "language": "Java",
-      "linescount": 309,
-      "location": "/nlink/runtime/src/nlink",
-      "name": "jlink",
-      "url": "https://searchcode.com/codesearch/view/57179893/",
-      "md5hash": "0e2b037030c3aa7b3329e5f0d7c0002b",
-      "lines": {
-        "126": "\t */",
-        "127": "\tVariantBool(104, 2), VariantBool_ByRef(104 | BYREF, 2),"
-      },
-      "id": 57179893,
-      "filename": "NativeType.java"
-    },
-    {
-      "repo": "https://bitbucket.org/jdstroy/jlink",
-      "language": "Java",
-      "linescount": 121,
-      "location": "/nlink/runtime/src/nlink/impl",
-      "name": "jlink",
-      "url": "https://searchcode.com/codesearch/view/57179910/",
-      "md5hash": "fb4384d38edac90c9f3bc33b9567ed44",
-      "lines": {
-        "112": "\t\t\t\tif (Boolean.class == v)",
-        "113": "\t\t\t\t\treturn NativeType.VariantBool_ByRef;",
-        "78": "\t\tdefaultConversions.put(byte.class, NativeType.Int8);",
-        "79": "\t\tdefaultConversions.put(boolean.class, NativeType.VariantBool);"
-      },
-      "id": 57179910,
-      "filename": "MethodIntrospector.java"
-    },
-    {
-      "repo": "https://github.com/enebo/com4j.git",
-      "language": "Java",
-      "linescount": 660,
-      "location": "/runtime/src/com4j",
-      "name": "com4j",
-      "url": "https://searchcode.com/codesearch/view/109889557/",
-      "md5hash": "0c9fd841198e763cc0f90ce5d2b15334",
-      "lines": {
-        "192": "     */",
-        "193": "    VariantBool(104,2),",
-        "194": "    VariantBool_ByRef(104|BYREF,4),",
-        "195": ""
-      },
-      "id": 109889557,
-      "filename": "NativeType.java"
-    },
-    {
-      "repo": "https://github.com/enebo/com4j.git",
-      "language": "Java",
-      "linescount": 359,
-      "location": "/runtime/src/com4j",
-      "name": "com4j",
-      "url": "https://searchcode.com/codesearch/view/109889617/",
-      "md5hash": "4d9aebdba7c57d96be4b535aecb09e9d",
-      "lines": {
-        "196": "        defaultConversions.put( byte.class, NativeType.Int8 );",
-        "197": "        defaultConversions.put( boolean.class, NativeType.VariantBool );",
-        "266": "          case Bool:",
-        "267": "          case VariantBool:",
-        "268": "          case VariantBool_ByRef:",
-        "269": "            defaultParameters[i] = Boolean.parseBoolean(literal[i]);",
-        "238": "                  if(Boolean.class==c)",
-        "239": "                    return NativeType.VariantBool_ByRef;"
-      },
-      "id": 109889617,
-      "filename": "ComMethod.java"
-    },
-    {
-      "repo": "https://github.com/enebo/com4j.git",
-      "language": "Java",
-      "linescount": 291,
-      "location": "/tlbimp/src/com4j/tlbimp",
-      "name": "com4j",
-      "url": "https://searchcode.com/codesearch/view/109889827/",
-      "md5hash": "300f90b77b87e2944c1dc1e283594a90",
-      "lines": {
-        "123": "                if( compPrim.getVarType()==VarType.VT_BOOL ) {",
-        "124": "                    return new TypeBinding(\"Holder<Boolean>\", NativeType.VariantBool_ByRef, true );",
-        "270": "        pbind( VarType.VT_UINT, Integer.TYPE, NativeType.Int32, true );",
-        "271": "        pbind( VarType.VT_BOOL, Boolean.TYPE, NativeType.VariantBool, true );"
-      },
-      "id": 109889827,
-      "filename": "TypeBinding.java"
     }
   ],
   "page": 0,
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 4,
+      "count": 1,
       "source": "Github",
       "id": 2
-    },
-    {
-      "count": 2,
-      "source": "Bitbucket",
-      "id": 3
     }
   ]
 }

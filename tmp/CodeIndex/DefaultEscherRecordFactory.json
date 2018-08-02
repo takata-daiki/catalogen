@@ -1,8 +1,8 @@
 {
-  "matchterm": "DefaultEscherRecordFactory",
+  "matchterm": "org.apache.poi.ddf.DefaultEscherRecordFactory",
   "previouspage": null,
-  "searchterm": "DefaultEscherRecordFactory",
-  "query": "DefaultEscherRecordFactory",
+  "searchterm": "org.apache.poi.ddf.DefaultEscherRecordFactory",
+  "query": "org.apache.poi.ddf.DefaultEscherRecordFactory",
   "language_filters": [
     {
       "count": 6,
@@ -13,40 +13,6 @@
   "total": 6,
   "results": [
     {
-      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
-      "language": "Java",
-      "linescount": 161,
-      "location": "/src/org/apache/poi/ddf",
-      "name": "SimpleAndroidDocView",
-      "url": "https://searchcode.com/codesearch/view/97383906/",
-      "md5hash": "3324931c58f18c045e9c34e4e1ad839e",
-      "lines": {
-        "33": " */",
-        "34": "public class DefaultEscherRecordFactory implements EscherRecordFactory {",
-        "46": "     */",
-        "47": "    public DefaultEscherRecordFactory() {"
-      },
-      "id": 97383906,
-      "filename": "DefaultEscherRecordFactory.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 178,
-      "location": "/components/forks/poi/src/loci/poi/ddf",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642620/",
-      "md5hash": "c686784da3da38fecea2e5b988b86ece",
-      "lines": {
-        "56": " */",
-        "57": "public class DefaultEscherRecordFactory",
-        "69": "     */",
-        "70": "    public DefaultEscherRecordFactory()"
-      },
-      "id": 15642620,
-      "filename": "DefaultEscherRecordFactory.java"
-    },
-    {
       "repo": "https://github.com/minstrelsy/POI-Android.git",
       "language": "Java",
       "linescount": 431,
@@ -55,13 +21,51 @@
       "url": "https://searchcode.com/codesearch/view/97394265/",
       "md5hash": "209d3abdc4c9f2d12e19f15421567bba",
       "lines": {
-        "352": "                r = new EscherClientDataRecord();",
+        "32": "import org.apache.poi.ddf.EscherProperties;",
+        "33": "import org.apache.poi.ddf.EscherRecord;",
+        "34": "import org.apache.poi.ddf.EscherSimpleProperty;",
+        "35": "import org.apache.poi.ddf.EscherSpRecord;",
+        "36": "import org.apache.poi.hslf.exceptions.HSLFException;",
+        "37": "import org.apache.poi.hslf.record.InteractiveInfo;",
+        "17": "",
+        "18": "package org.apache.poi.hslf.model;",
         "25": "",
         "26": "import org.apache.poi.ddf.DefaultEscherRecordFactory;",
-        "353": "                r.fillFields(data, 0, new DefaultEscherRecordFactory());"
+        "27": "import org.apache.poi.ddf.EscherChildAnchorRecord;",
+        "28": "import org.apache.poi.ddf.EscherClientAnchorRecord;",
+        "29": "import org.apache.poi.ddf.EscherClientDataRecord;",
+        "30": "import org.apache.poi.ddf.EscherContainerRecord;",
+        "31": "import org.apache.poi.ddf.EscherOptRecord;"
       },
       "id": 97394265,
       "filename": "SimpleShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 161,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383906/",
+      "md5hash": "3324931c58f18c045e9c34e4e1ad839e",
+      "lines": {
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "33": " */",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "34": "public class DefaultEscherRecordFactory implements EscherRecordFactory {",
+        "46": "     */",
+        "47": "    public DefaultEscherRecordFactory() {",
+        "17": "",
+        "18": "package org.apache.poi.ddf;",
+        "23": "",
+        "24": "import org.apache.poi.util.LittleEndian;"
+      },
+      "id": 97383906,
+      "filename": "DefaultEscherRecordFactory.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -72,13 +76,54 @@
       "url": "https://searchcode.com/codesearch/view/15642502/",
       "md5hash": "93371d2d221b0ae6800fc5720ed4f71b",
       "lines": {
-        "121": "    {",
-        "122": "        EscherRecordFactory recordFactory = new DefaultEscherRecordFactory();",
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
         "43": "",
-        "44": "import loci.poi.ddf.DefaultEscherRecordFactory;"
+        "44": "import loci.poi.ddf.DefaultEscherRecordFactory;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import loci.poi.ddf.EscherRecord;",
+        "48": "import loci.poi.util.LittleEndian;",
+        "46": "import loci.poi.ddf.EscherRecordFactory;",
+        "57": " *",
+        "58": " * @author Glen Stampoultzis (glens at apache.org)",
+        "47": "import loci.poi.ddf.NullEscherSerializationListener;",
+        "31": ""
       },
       "id": 15642502,
       "filename": "AbstractEscherHolderRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 178,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642620/",
+      "md5hash": "c686784da3da38fecea2e5b988b86ece",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "69": "     */",
+        "70": "    public DefaultEscherRecordFactory()",
+        "40": "        ",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "import loci.poi.hssf.record.RecordFormatException;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "41": "package loci.poi.ddf;",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "42": "",
+        "31": ""
+      },
+      "id": 15642620,
+      "filename": "DefaultEscherRecordFactory.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -89,8 +134,21 @@
       "url": "https://searchcode.com/codesearch/view/15642409/",
       "md5hash": "9e212df4a5b523744fd315d99c376d1b",
       "lines": {
-        "342": "        final List shapeRecords = new ArrayList();",
-        "343": "        EscherRecordFactory recordFactory = new DefaultEscherRecordFactory()"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "68": " * @author Glen Stampoultzis (glens at apache.org)",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "import loci.poi.ddf.*;",
+        "44": "import loci.poi.hssf.usermodel.*;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "67": " *",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "42": "",
+        "31": ""
       },
       "id": 15642409,
       "filename": "EscherAggregate.java"
@@ -104,8 +162,21 @@
       "url": "https://searchcode.com/codesearch/view/15642619/",
       "md5hash": "8ef88e505f2ceb850b68ffed8c4261eb",
       "lines": {
-        "77": "    {",
-        "78": "        EscherRecordFactory recordFactory = new DefaultEscherRecordFactory();"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "56": " *",
+        "57": " * @author Glen Stampoultzis (glens at apache.org)",
+        "41": "",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "42": "package loci.poi.ddf;",
+        "31": ""
       },
       "id": 15642619,
       "filename": "EscherDump.java"

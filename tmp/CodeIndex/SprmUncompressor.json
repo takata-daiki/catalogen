@@ -1,8 +1,8 @@
 {
-  "matchterm": "SprmUncompressor",
+  "matchterm": "org.apache.poi.hwpf.sprm.SprmUncompressor",
   "previouspage": null,
-  "searchterm": "SprmUncompressor",
-  "query": "SprmUncompressor",
+  "searchterm": "org.apache.poi.hwpf.sprm.SprmUncompressor",
+  "query": "org.apache.poi.hwpf.sprm.SprmUncompressor",
   "language_filters": [
     {
       "count": 1,
@@ -21,12 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97384370/",
       "md5hash": "ad7ef563bd5c85239b2ca09f401501f5",
       "lines": {
-        "34": "@Internal",
-        "35": "public final class CharacterSprmUncompressor extends SprmUncompressor",
-        "37": "    private static final POILogger logger = POILogFactory",
-        "38": "            .getLogger( CharacterSprmUncompressor.class );",
-        "39": "",
-        "40": "  public CharacterSprmUncompressor()"
+        "17": "",
+        "18": "package org.apache.poi.hwpf.sprm;",
+        "19": "",
+        "20": "import org.apache.poi.hwpf.usermodel.ShadingDescriptor80;",
+        "21": "",
+        "22": "import org.apache.poi.hwpf.model.Colorref;",
+        "23": "import org.apache.poi.hwpf.model.Hyphenation;",
+        "24": "import org.apache.poi.hwpf.model.StyleSheet;",
+        "25": "import org.apache.poi.hwpf.usermodel.BorderCode;",
+        "26": "import org.apache.poi.hwpf.usermodel.CharacterProperties;",
+        "27": "import org.apache.poi.hwpf.usermodel.DateAndTime;",
+        "28": "import org.apache.poi.hwpf.usermodel.ShadingDescriptor;",
+        "29": "import org.apache.poi.util.Internal;",
+        "30": "import org.apache.poi.util.LittleEndian;",
+        "31": "import org.apache.poi.util.POILogFactory;"
       },
       "id": 97384370,
       "filename": "CharacterSprmUncompressor.java"

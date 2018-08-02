@@ -1,409 +1,84 @@
 {
-  "matchterm": "StreamHelper",
+  "matchterm": "org.apache.poi.openxml4j.opc.StreamHelper",
   "previouspage": null,
-  "searchterm": "StreamHelper",
-  "query": "StreamHelper",
+  "searchterm": "org.apache.poi.openxml4j.opc.StreamHelper",
+  "query": "org.apache.poi.openxml4j.opc.StreamHelper",
   "language_filters": [
     {
-      "count": 39,
+      "count": 2,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 39,
+  "total": 2,
   "results": [
     {
-      "repo": "https://github.com/SAP/cloud-espm-teched.git",
+      "repo": "http://okapi.googlecode.com/svn/trunk/",
       "language": "Java",
-      "linescount": 52,
-      "location": "/teched-ui-reviews-web/src/test/java/com/sap/espm/model/extension/web/util",
-      "name": "cloud-espm-teched",
-      "url": "https://searchcode.com/codesearch/view/69180865/",
-      "md5hash": "ac57f359cd9b1808da7098adc7304ae7",
+      "linescount": 386,
+      "location": "/okapi/steps/xliffkit/src/main/java/net/sf/okapi/steps/xliffkit/writer",
+      "name": "okapi",
+      "url": "https://searchcode.com/codesearch/view/401675/",
+      "md5hash": "ea741284f79220e798f61c9c2565b4ed",
       "lines": {
-        "11": " */",
-        "44": "\t\t\tString result = StreamHelper.readStreamContent(in);",
-        "43": "\t\ttry {",
-        "12": "public class StreamHelper {",
-        "13": "",
-        "14": "\tprivate StreamHelper() {"
+        "64": "import org.apache.poi.openxml4j.exceptions.InvalidFormatException;",
+        "65": "import org.apache.poi.openxml4j.opc.OPCPackage;",
+        "66": "import org.apache.poi.openxml4j.opc.PackagePart;",
+        "67": "import org.apache.poi.openxml4j.opc.PackagePartName;",
+        "68": "import org.apache.poi.openxml4j.opc.PackagingURIHelper;",
+        "69": "import org.apache.poi.openxml4j.opc.StreamHelper;",
+        "70": "import org.apache.poi.openxml4j.opc.TargetMode;",
+        "71": "",
+        "103": "\tprivate OPCPackage pack;",
+        "17": "",
+        "18": "  See also the full LGPL text here: http://www.gnu.org/copyleft/lesser.html",
+        "276": "\t",
+        "277": "\tprivate PackagePart createPart(OPCPackage pack, PackagePart corePart, String name, File file, String contentType, String relationshipType) {\t\t",
+        "102": "",
+        "63": "import net.sf.okapi.steps.xliffkit.opc.TKitRelationshipTypes;"
       },
-      "id": 69180865,
-      "filename": "StreamHelper.java"
+      "id": 401675,
+      "filename": "XLIFFKitWriterStep.java"
     },
     {
-      "repo": "https://github.com/vinicius/mag.git",
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
       "language": "Java",
-      "linescount": 52,
-      "location": "/tools/asct/src/dataTypes",
-      "name": "mag",
-      "url": "https://searchcode.com/codesearch/view/140893256/",
-      "md5hash": "a337a8ba806eba373db49e4160c04f60",
+      "linescount": 1489,
+      "location": "/pptx/src/org/apache/poi/openxml4j/opc",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406292/",
+      "md5hash": "47fc882bc196bd395e952d6ada656cd9",
       "lines": {
-        "8": "public final class StreamHelper",
-        "26": "\t\t{",
-        "27": "\t\t\t_type = org.omg.CORBA.ORB.init().create_alias_tc(dataTypes.StreamHelper.id(), \"Stream\",org.omg.CORBA.ORB.init().create_sequence_tc(0, org.omg.CORBA.ORB.init().get_primitive_tc(org.omg.CORBA.TCKind.from_int(10))));",
-        "7": ""
+        "50": "import org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller;",
+        "49": "import org.apache.poi.openxml4j.opc.internal.ZipContentTypeManager;",
+        "38": "",
+        "39": "import org.apache.poi.openxml4j.exceptions.InvalidFormatException;",
+        "40": "import org.apache.poi.openxml4j.exceptions.InvalidOperationException;",
+        "41": "import org.apache.poi.openxml4j.exceptions.OpenXML4JException;",
+        "42": "import org.apache.poi.openxml4j.exceptions.OpenXML4JRuntimeException;",
+        "43": "import org.apache.poi.openxml4j.exceptions.PartAlreadyExistsException;",
+        "44": "import org.apache.poi.openxml4j.opc.internal.ContentType;",
+        "45": "import org.apache.poi.openxml4j.opc.internal.ContentTypeManager;",
+        "46": "import org.apache.poi.openxml4j.opc.internal.PackagePropertiesPart;",
+        "47": "import org.apache.poi.openxml4j.opc.internal.PartMarshaller;",
+        "48": "import org.apache.poi.openxml4j.opc.internal.PartUnmarshaller;",
+        "17": "",
+        "18": "package org.apache.poi.openxml4j.opc;"
       },
-      "id": 140893256,
-      "filename": "StreamHelper.java"
-    },
-    {
-      "repo": "https://github.com/vinicius/mag.git",
-      "language": "Java",
-      "linescount": 52,
-      "location": "/clusterManagement/applicationRepository/src/dataTypes",
-      "name": "mag",
-      "url": "https://searchcode.com/codesearch/view/140894238/",
-      "md5hash": "a337a8ba806eba373db49e4160c04f60",
-      "lines": {
-        "8": "public final class StreamHelper",
-        "26": "\t\t{",
-        "27": "\t\t\t_type = org.omg.CORBA.ORB.init().create_alias_tc(dataTypes.StreamHelper.id(), \"Stream\",org.omg.CORBA.ORB.init().create_sequence_tc(0, org.omg.CORBA.ORB.init().get_primitive_tc(org.omg.CORBA.TCKind.from_int(10))));",
-        "7": ""
-      },
-      "id": 140894238,
-      "filename": "StreamHelper.java"
-    },
-    {
-      "repo": "https://github.com/ISISComputingGroup/cs-studio.git",
-      "language": "Java",
-      "linescount": 32,
-      "location": "/products/SNS/plugins/org.csstudio.logbook.sns/src/org/csstudio/logbook/sns",
-      "name": "cs-studio",
-      "url": "https://searchcode.com/codesearch/view/96890122/",
-      "md5hash": "4501eee11522d9fab1acfed1daacfd6f",
-      "lines": {
-        "16": " */",
-        "17": "public class StreamHelper"
-      },
-      "id": 96890122,
-      "filename": "StreamHelper.java"
-    },
-    {
-      "repo": "https://github.com/craig-fox/Java8Demo.git",
-      "language": "Java",
-      "linescount": 12,
-      "location": "/src/main/java/helpers",
-      "name": "Java8Demo",
-      "url": "https://searchcode.com/codesearch/view/98327586/",
-      "md5hash": "b36d54f56cb37b45c9d7b47faeb6c6bd",
-      "lines": {
-        "9": " */",
-        "10": "public class StreamHelper {"
-      },
-      "id": 98327586,
-      "filename": "StreamHelper.java"
-    },
-    {
-      "repo": "https://github.com/666c796e6e/ImageCreator.git",
-      "language": "Java",
-      "linescount": 41,
-      "location": "/src/main/java/de/schwenk/imagecreator/controller",
-      "name": "ImageCreator",
-      "url": "https://searchcode.com/codesearch/view/98454638/",
-      "md5hash": "50f0e938fc923a95dfd6835c09c6de38",
-      "lines": {
-        "16": " */",
-        "17": "public class StreamHelper {"
-      },
-      "id": 98454638,
-      "filename": "StreamHelper.java"
-    },
-    {
-      "repo": "https://bitbucket.org/artofcoding/beetlejuice.git",
-      "language": "Java",
-      "linescount": 47,
-      "location": "/eu.artofcoding.beetlejuice.api/src/main/java/eu/artofcoding/beetlejuice/helper",
-      "name": "beetlejuice",
-      "url": "https://searchcode.com/codesearch/view/102501353/",
-      "md5hash": "f7fa3d6a0851d62f4c318c657b4876d4",
-      "lines": {
-        "16": "public class StreamHelper {",
-        "15": ""
-      },
-      "id": 102501353,
-      "filename": "StreamHelper.java"
-    },
-    {
-      "repo": "http://zot2wpv.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 89,
-      "location": "/zot2wpv/code/com/qarks/util/stream",
-      "name": "zot2wpv",
-      "url": "https://searchcode.com/codesearch/view/13589812/",
-      "md5hash": "07a812f30e19ad328f88deba904f5e39",
-      "lines": {
-        "28": "",
-        "20": "",
-        "21": "public class StreamHelper {",
-        "29": "\tpublic StreamHelper() {"
-      },
-      "id": 13589812,
-      "filename": "StreamHelper.java"
-    },
-    {
-      "repo": "https://github.com/peruginni/Baccord.git",
-      "language": "Java",
-      "linescount": 46,
-      "location": "/sources/src/baccord/tools",
-      "name": "Baccord",
-      "url": "https://searchcode.com/codesearch/view/65503219/",
-      "md5hash": "336d083aa8aaf6e1522a84d3027aa178",
-      "lines": {
-        "16": "public class StreamHelper",
-        "15": " */"
-      },
-      "id": 65503219,
-      "filename": "StreamHelper.java"
-    },
-    {
-      "repo": "https://bitbucket.org/artofcoding/beetlejuice.git",
-      "language": "Java",
-      "linescount": 47,
-      "location": "/beetlejuice-api/src/main/java/eu/artofcoding/beetlejuice/helper",
-      "name": "beetlejuice",
-      "url": "https://searchcode.com/codesearch/view/38664376/",
-      "md5hash": "f7fa3d6a0851d62f4c318c657b4876d4",
-      "lines": {
-        "16": "public class StreamHelper {",
-        "15": ""
-      },
-      "id": 38664376,
-      "filename": "StreamHelper.java"
-    },
-    {
-      "repo": "https://github.com/nuxeo/nuxeo-android.git",
-      "language": "Java",
-      "linescount": 81,
-      "location": "/nuxeo-android-connector/src/main/java/org/nuxeo/ecm/automation/client/cache",
-      "name": "nuxeo-android",
-      "url": "https://searchcode.com/codesearch/view/113250944/",
-      "md5hash": "6b6cdb63c582c94a65446c9d6f08c1a2",
-      "lines": {
-        "24": "public class StreamHelper {",
-        "23": ""
-      },
-      "id": 113250944,
-      "filename": "StreamHelper.java"
-    },
-    {
-      "repo": "https://github.com/nuxeo/nuxeo-android.git",
-      "language": "Java",
-      "linescount": 70,
-      "location": "/nuxeo-automation-thin-client/src/main/java/org/nuxeo/ecm/automation/client/cache",
-      "name": "nuxeo-android",
-      "url": "https://searchcode.com/codesearch/view/113251525/",
-      "md5hash": "010f6cc03c76245a8b77b8c3d8f929d2",
-      "lines": {
-        "21": "",
-        "22": "public class StreamHelper {"
-      },
-      "id": 113251525,
-      "filename": "StreamHelper.java"
-    },
-    {
-      "repo": "https://bitbucket.org/atermenji/zavpivcom",
-      "language": "Java",
-      "linescount": 52,
-      "location": "/src/com/mlsdev/zavpivcom/util",
-      "name": "zavpivcom",
-      "url": "https://searchcode.com/codesearch/view/127515172/",
-      "md5hash": "4495e3fd26715c22c3a1609a2f5ea1a4",
-      "lines": {
-        "11": "",
-        "12": "public class StreamHelper {"
-      },
-      "id": 127515172,
-      "filename": "StreamHelper.java"
-    },
-    {
-      "repo": "git://github.com/Enough-Software/glaze.git",
-      "language": "Java",
-      "linescount": 89,
-      "location": "/src/core/de/enough/glaze/content/helper",
-      "name": "glaze",
-      "url": "https://searchcode.com/codesearch/view/15363587/",
-      "md5hash": "3c32651404f87184ba4d0a924b35a103",
-      "lines": {
-        "19": "",
-        "20": "public class StreamHelper {"
-      },
-      "id": 15363587,
-      "filename": "StreamHelper.java"
-    },
-    {
-      "repo": "https://github.com/vinicius/mag.git",
-      "language": "Java",
-      "linescount": 126,
-      "location": "/tools/asct/src/clusterManagement",
-      "name": "mag",
-      "url": "https://searchcode.com/codesearch/view/140893153/",
-      "md5hash": "a84e2d6a553c18ed55054c8f749446f9",
-      "lines": {
-        "91": "\t\t\t\tbyte[] _arg0=dataTypes.StreamHelper.read(_input);",
-        "92": "\t\t\t\t_out = handler.createReply();",
-        "106": "\t\t\t\tbyte[] _arg0=dataTypes.StreamHelper.read(_input);",
-        "75": "\t\t\t{",
-        "76": "\t\t\t\tbyte[] _arg0=dataTypes.StreamHelper.read(_input);",
-        "77": "\t\t\t\t_out = handler.createReply();",
-        "78": "\t\t\t\tdataTypes.StreamHelper.write(_out,selfTest(_arg0));",
-        "45": "\t\t\t{",
-        "48": "\t\t\t\tdataTypes.StreamHelper.write(_out,initiateContext(_arg0));",
-        "108": "\t\t\t\tdataTypes.StreamHelper.write(_out,checkSignature(_arg0));",
-        "107": "\t\t\t\t_out = handler.createReply();",
-        "46": "\t\t\t\tbyte[] _arg0=dataTypes.StreamHelper.read(_input);",
-        "105": "\t\t\t{",
-        "90": "\t\t\t{",
-        "47": "\t\t\t\t_out = handler.createReply();",
-        "60": "\t\t\t{",
-        "61": "\t\t\t\tbyte[] _arg0=dataTypes.StreamHelper.read(_input);"
-      },
-      "id": 140893153,
-      "filename": "ArsmPOA.java"
-    },
-    {
-      "repo": "https://github.com/vinicius/mag.git",
-      "language": "Java",
-      "linescount": 280,
-      "location": "/tools/asct/src/clusterManagement",
-      "name": "mag",
-      "url": "https://searchcode.com/codesearch/view/140893191/",
-      "md5hash": "166e1c33b4d7355c4e9af67849f9e508",
-      "lines": {
-        "32": "\t\t\t\tbyte[] _result = dataTypes.StreamHelper.read(_is);",
-        "132": "\t\t\t\torg.omg.CORBA.portable.OutputStream _os = _request( \"selfTest\", true);",
-        "133": "\t\t\t\tdataTypes.StreamHelper.write(_os,signedMessage);",
-        "134": "\t\t\t\t_is = _invoke(_os);",
-        "135": "\t\t\t\tbyte[] _result = dataTypes.StreamHelper.read(_is);",
-        "236": "\t\t\t\torg.omg.CORBA.portable.OutputStream _os = _request( \"checkSignature\", true);",
-        "237": "\t\t\t\tdataTypes.StreamHelper.write(_os,messageStream);",
-        "238": "\t\t\t\t_is = _invoke(_os);",
-        "239": "\t\t\t\tbyte[] _result = dataTypes.StreamHelper.read(_is);",
-        "81": "\t\t\t\torg.omg.CORBA.portable.OutputStream _os = _request( \"finalizeContext\", true);",
-        "82": "\t\t\t\tdataTypes.StreamHelper.write(_os,contextStream);",
-        "184": "\t\t\t\torg.omg.CORBA.portable.OutputStream _os = _request( \"requestSignature\", true);",
-        "185": "\t\t\t\tdataTypes.StreamHelper.write(_os,messageStream);",
-        "186": "\t\t\t\t_is = _invoke(_os);",
-        "31": "\t\t\t\t_is = _invoke(_os);"
-      },
-      "id": 140893191,
-      "filename": "_ArsmStub.java"
-    },
-    {
-      "repo": "https://github.com/vinicius/mag.git",
-      "language": "Java",
-      "linescount": 126,
-      "location": "/clusterManagement/applicationRepository/src/clusterManagement",
-      "name": "mag",
-      "url": "https://searchcode.com/codesearch/view/140894127/",
-      "md5hash": "a84e2d6a553c18ed55054c8f749446f9",
-      "lines": {
-        "91": "\t\t\t\tbyte[] _arg0=dataTypes.StreamHelper.read(_input);",
-        "92": "\t\t\t\t_out = handler.createReply();",
-        "106": "\t\t\t\tbyte[] _arg0=dataTypes.StreamHelper.read(_input);",
-        "75": "\t\t\t{",
-        "76": "\t\t\t\tbyte[] _arg0=dataTypes.StreamHelper.read(_input);",
-        "77": "\t\t\t\t_out = handler.createReply();",
-        "78": "\t\t\t\tdataTypes.StreamHelper.write(_out,selfTest(_arg0));",
-        "45": "\t\t\t{",
-        "48": "\t\t\t\tdataTypes.StreamHelper.write(_out,initiateContext(_arg0));",
-        "108": "\t\t\t\tdataTypes.StreamHelper.write(_out,checkSignature(_arg0));",
-        "107": "\t\t\t\t_out = handler.createReply();",
-        "46": "\t\t\t\tbyte[] _arg0=dataTypes.StreamHelper.read(_input);",
-        "105": "\t\t\t{",
-        "90": "\t\t\t{",
-        "47": "\t\t\t\t_out = handler.createReply();",
-        "60": "\t\t\t{",
-        "61": "\t\t\t\tbyte[] _arg0=dataTypes.StreamHelper.read(_input);"
-      },
-      "id": 140894127,
-      "filename": "ArsmPOA.java"
-    },
-    {
-      "repo": "https://github.com/vinicius/mag.git",
-      "language": "Java",
-      "linescount": 280,
-      "location": "/clusterManagement/applicationRepository/src/clusterManagement",
-      "name": "mag",
-      "url": "https://searchcode.com/codesearch/view/140894165/",
-      "md5hash": "166e1c33b4d7355c4e9af67849f9e508",
-      "lines": {
-        "32": "\t\t\t\tbyte[] _result = dataTypes.StreamHelper.read(_is);",
-        "132": "\t\t\t\torg.omg.CORBA.portable.OutputStream _os = _request( \"selfTest\", true);",
-        "133": "\t\t\t\tdataTypes.StreamHelper.write(_os,signedMessage);",
-        "134": "\t\t\t\t_is = _invoke(_os);",
-        "135": "\t\t\t\tbyte[] _result = dataTypes.StreamHelper.read(_is);",
-        "236": "\t\t\t\torg.omg.CORBA.portable.OutputStream _os = _request( \"checkSignature\", true);",
-        "237": "\t\t\t\tdataTypes.StreamHelper.write(_os,messageStream);",
-        "238": "\t\t\t\t_is = _invoke(_os);",
-        "239": "\t\t\t\tbyte[] _result = dataTypes.StreamHelper.read(_is);",
-        "81": "\t\t\t\torg.omg.CORBA.portable.OutputStream _os = _request( \"finalizeContext\", true);",
-        "82": "\t\t\t\tdataTypes.StreamHelper.write(_os,contextStream);",
-        "184": "\t\t\t\torg.omg.CORBA.portable.OutputStream _os = _request( \"requestSignature\", true);",
-        "185": "\t\t\t\tdataTypes.StreamHelper.write(_os,messageStream);",
-        "186": "\t\t\t\t_is = _invoke(_os);",
-        "31": "\t\t\t\t_is = _invoke(_os);"
-      },
-      "id": 140894165,
-      "filename": "_ArsmStub.java"
-    },
-    {
-      "repo": "https://github.com/666c796e6e/ImageCreator.git",
-      "language": "Java",
-      "linescount": 63,
-      "location": "/src/main/java/de/schwenk/imagecreator/boundary",
-      "name": "ImageCreator",
-      "url": "https://searchcode.com/codesearch/view/98454632/",
-      "md5hash": "17e9fb4dce1beb0136ec2e5bae1fee5d",
-      "lines": {
-        "38": "                baos = new ByteArrayOutputStream();",
-        "39": "                StreamHelper.streamCopy(System.in, baos);",
-        "8": "import de.schwenk.imagecreator.controller.StreamHelper;",
-        "7": "",
-        "44": "            } finally {",
-        "45": "                StreamHelper.closeQuietly(baos);"
-      },
-      "id": 98454632,
-      "filename": "ImageCreatorMain.java"
-    },
-    {
-      "repo": "https://bitbucket.org/atermenji/zavpivcom",
-      "language": "Java",
-      "linescount": 103,
-      "location": "/src/com/mlsdev/zavpivcom/io",
-      "name": "zavpivcom",
-      "url": "https://searchcode.com/codesearch/view/127515189/",
-      "md5hash": "2445074f5e30a13b58aaf9d16c86cbef",
-      "lines": {
-        "82": "\t    InputStream is = HttpHelper.getResponse(new URL(URL_API_GENERAL + URL_API_ORDERS));",
-        "19": "import com.mlsdev.zavpivcom.util.JsonParser;",
-        "20": "import com.mlsdev.zavpivcom.util.StreamHelper;",
-        "39": "\t    InputStream is = HttpHelper.getResponse(new URL(URL_API_GENERAL + URL_API_PERSONS));",
-        "40": "\t    String response = StreamHelper.makeString(is);",
-        "83": "\t    String response = StreamHelper.makeString(is);",
-        "60": "\t    InputStream is = HttpHelper.getResponse(new URL(URL_API_GENERAL + URL_API_GOODS));",
-        "61": "\t    String response = StreamHelper.makeString(is);"
-      },
-      "id": 127515189,
-      "filename": "RestDataManager.java"
+      "id": 97406292,
+      "filename": "OPCPackage.java"
     }
   ],
   "page": 0,
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 30,
+      "count": 1,
       "source": "Github",
       "id": 2
     },
     {
-      "count": 7,
-      "source": "Bitbucket",
-      "id": 3
-    },
-    {
-      "count": 2,
+      "count": 1,
       "source": "Google Code",
       "id": 1
     }

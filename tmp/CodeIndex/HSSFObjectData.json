@@ -1,8 +1,8 @@
 {
-  "matchterm": "HSSFObjectData",
+  "matchterm": "org.apache.poi.hssf.usermodel.HSSFObjectData",
   "previouspage": null,
-  "searchterm": "HSSFObjectData",
-  "query": "HSSFObjectData",
+  "searchterm": "org.apache.poi.hssf.usermodel.HSSFObjectData",
+  "query": "org.apache.poi.hssf.usermodel.HSSFObjectData",
   "language_filters": [
     {
       "count": 2,
@@ -21,10 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/15642306/",
       "md5hash": "3613bd6cf2b6f9fa2a5342df16094323",
       "lines": {
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "39": "",
+        "40": "package loci.poi.hssf.usermodel;",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "44": "",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import loci.poi.hssf.record.EmbeddedObjectRefSubRecord;",
+        "46": "import loci.poi.hssf.record.ObjRecord;",
         "56": " */",
         "57": "public class HSSFObjectData",
-        "74": "     */",
-        "75": "    public HSSFObjectData(ObjRecord record, POIFSFileSystem poifs)"
+        "47": "import loci.poi.poifs.filesystem.DirectoryEntry;",
+        "29": "",
+        "30": "       http://www.apache.org/licenses/LICENSE-2.0"
       },
       "id": 15642306,
       "filename": "HSSFObjectData.java"
@@ -38,10 +50,22 @@
       "url": "https://searchcode.com/codesearch/view/15642316/",
       "md5hash": "4f7b036daf89776dc4ee4606b7972144",
       "lines": {
-        "1432": "                        objects.add(new HSSFObjectData((ObjRecord) obj, filesystem));",
-        "1397": "     *",
-        "1398": "     * @return the list of embedded objects (a list of {@link HSSFObjectData} objects.)",
-        "1431": "                    {"
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "55": "import loci.poi.hssf.eventmodel.EventRecordFactory;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": " */",
+        "56": "import loci.poi.hssf.model.Sheet;",
+        "46": "package loci.poi.hssf.usermodel;",
+        "54": "import loci.poi.ddf.EscherBlipRecord;",
+        "23": "/* ====================================================================",
+        "24": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "57": "import loci.poi.hssf.model.Workbook;",
+        "30": "",
+        "31": "       http://www.apache.org/licenses/LICENSE-2.0"
       },
       "id": 15642316,
       "filename": "HSSFWorkbook.java"

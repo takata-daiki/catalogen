@@ -1,8 +1,8 @@
 {
-  "matchterm": "NPOIFSFileSystem",
+  "matchterm": "org.apache.poi.poifs.filesystem.NPOIFSFileSystem",
   "previouspage": null,
-  "searchterm": "NPOIFSFileSystem",
-  "query": "NPOIFSFileSystem",
+  "searchterm": "org.apache.poi.poifs.filesystem.NPOIFSFileSystem",
+  "query": "org.apache.poi.poifs.filesystem.NPOIFSFileSystem",
   "language_filters": [
     {
       "count": 8,
@@ -12,6 +12,90 @@
   ],
   "total": 8,
   "results": [
+    {
+      "repo": "https://bitbucket.org/smitdevel/delta.git",
+      "language": "Java",
+      "linescount": 1169,
+      "location": "/source/java/ee/webmedia/alfresco/imap/service",
+      "name": "delta",
+      "url": "https://searchcode.com/codesearch/view/50611261/",
+      "md5hash": "44e67ff597e827966c9464b83db4169e",
+      "lines": {
+        "35": "",
+        "36": "import org.alfresco.i18n.I18NUtil;",
+        "37": "import org.alfresco.model.ContentModel;",
+        "38": "import org.alfresco.repo.content.MimetypeMap;",
+        "39": "import org.alfresco.repo.imap.AlfrescoImapConst;",
+        "40": "import org.alfresco.repo.imap.AlfrescoImapFolder;",
+        "41": "import org.alfresco.repo.imap.AlfrescoImapUser;",
+        "42": "import org.alfresco.repo.imap.ImapService;",
+        "43": "import org.alfresco.repo.security.authentication.AuthenticationUtil;",
+        "44": "import org.alfresco.service.cmr.model.FileFolderService;",
+        "45": "import org.alfresco.service.cmr.model.FileInfo;",
+        "46": "import org.alfresco.service.cmr.repository.ChildAssociationRef;",
+        "47": "import org.alfresco.service.cmr.repository.ContentData;",
+        "48": "import org.alfresco.service.cmr.repository.ContentService;",
+        "49": "import org.alfresco.service.cmr.repository.ContentWriter;"
+      },
+      "id": 50611261,
+      "filename": "ImapServiceExtImpl.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 688,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394255/",
+      "md5hash": "40d5716cbdc5b9b544fff845bb8e0c6f",
+      "lines": {
+        "32": "",
+        "33": "import org.apache.poi.POIDocument;",
+        "34": "import org.apache.poi.hpsf.Util;",
+        "35": "import org.apache.poi.hslf.exceptions.CorruptPowerPointFileException;",
+        "36": "import org.apache.poi.hslf.exceptions.EncryptedPowerPointFileException;",
+        "37": "import org.apache.poi.hslf.exceptions.HSLFException;",
+        "38": "import org.apache.poi.hslf.record.CurrentUserAtom;",
+        "39": "import org.apache.poi.hslf.record.ExOleObjStg;",
+        "40": "import org.apache.poi.hslf.record.PersistPtrHolder;",
+        "41": "import org.apache.poi.hslf.record.PersistRecord;",
+        "42": "import org.apache.poi.hslf.record.PositionDependentRecord;",
+        "43": "import org.apache.poi.hslf.record.Record;",
+        "44": "import org.apache.poi.hslf.record.UserEditAtom;",
+        "17": "",
+        "18": "package org.apache.poi.hslf;"
+      },
+      "id": 97394255,
+      "filename": "HSLFSlideShow.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 275,
+      "location": "/src/org/apache/poi",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383067/",
+      "md5hash": "afa24f033acdbeef13a37ab141698759",
+      "lines": {
+        "32": "import org.apache.poi.poifs.filesystem.DirectoryNode;",
+        "33": "import org.apache.poi.poifs.filesystem.DocumentInputStream;",
+        "34": "import org.apache.poi.poifs.filesystem.Entry;",
+        "35": "import org.apache.poi.poifs.filesystem.EntryUtils;",
+        "36": "import org.apache.poi.poifs.filesystem.NPOIFSFileSystem;",
+        "37": "import org.apache.poi.poifs.filesystem.POIFSFileSystem;",
+        "17": "",
+        "18": "package org.apache.poi;",
+        "25": "",
+        "26": "import org.apache.poi.hpsf.DocumentSummaryInformation;",
+        "27": "import org.apache.poi.hpsf.MutablePropertySet;",
+        "28": "import org.apache.poi.hpsf.PropertySet;",
+        "29": "import org.apache.poi.hpsf.PropertySetFactory;",
+        "30": "import org.apache.poi.hpsf.SummaryInformation;",
+        "31": "import org.apache.poi.poifs.filesystem.DirectoryEntry;"
+      },
+      "id": 97383067,
+      "filename": "POIDocument.java"
+    },
     {
       "repo": "git://github.com/liferay/liferay-portal.git",
       "language": "Java",
@@ -31,28 +115,14 @@
         "55": "\t\t\tif (npoifsFileSystem != null) {",
         "56": "\t\t\t\ttry {",
         "57": "\t\t\t\t\tnpoifsFileSystem.close();",
+        "27": "import org.apache.commons.io.FilenameUtils;",
+        "28": "import org.apache.poi.hpsf.HPSFPropertiesOnlyDocument;",
         "29": "import org.apache.poi.hpsf.SummaryInformation;",
-        "30": "import org.apache.poi.poifs.filesystem.NPOIFSFileSystem;"
+        "30": "import org.apache.poi.poifs.filesystem.NPOIFSFileSystem;",
+        "31": ""
       },
       "id": 116052780,
       "filename": "MSOfficeFileUtil.java"
-    },
-    {
-      "repo": "https://bitbucket.org/smitdevel/delta.git",
-      "language": "Java",
-      "linescount": 1169,
-      "location": "/source/java/ee/webmedia/alfresco/imap/service",
-      "name": "delta",
-      "url": "https://searchcode.com/codesearch/view/50611261/",
-      "md5hash": "44e67ff597e827966c9464b83db4169e",
-      "lines": {
-        "65": "import org.apache.poi.poifs.filesystem.Entry;",
-        "66": "import org.apache.poi.poifs.filesystem.NPOIFSFileSystem;",
-        "557": "",
-        "558": "        NPOIFSFileSystem fs = new NPOIFSFileSystem(tnefFile);"
-      },
-      "id": 50611261,
-      "filename": "ImapServiceExtImpl.java"
     },
     {
       "repo": "https://github.com/teruok78/pentaho-kettle.git",
@@ -64,48 +134,23 @@
       "md5hash": "8cff0225fc98497fe73eaf2b30fbfebb",
       "lines": {
         "32": "import org.apache.poi.poifs.filesystem.NPOIFSFileSystem;",
-        "62": "          npoifs = new NPOIFSFileSystem( excelFile );",
-        "31": "import org.apache.poi.openxml4j.opc.OPCPackage;",
-        "61": "        try {",
+        "33": "import org.apache.poi.ss.usermodel.Sheet;",
+        "34": "import org.apache.poi.ss.usermodel.Workbook;",
+        "35": "import org.pentaho.di.core.exception.KettleException;",
+        "36": "import org.pentaho.di.core.spreadsheet.KSheet;",
+        "12": " *",
+        "13": " *    http://www.apache.org/licenses/LICENSE-2.0",
         "46": "  private InputStream internalIS;",
-        "47": "  private NPOIFSFileSystem npoifs;"
+        "47": "  private NPOIFSFileSystem npoifs;",
+        "22": "",
+        "23": "package org.pentaho.di.trans.steps.excelinput.poi;",
+        "28": "",
+        "29": "import org.apache.commons.vfs.FileObject;",
+        "30": "import org.apache.commons.vfs.provider.local.LocalFile;",
+        "31": "import org.apache.poi.openxml4j.opc.OPCPackage;"
       },
       "id": 95326019,
       "filename": "PoiWorkbook.java"
-    },
-    {
-      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
-      "language": "Java",
-      "linescount": 275,
-      "location": "/src/org/apache/poi",
-      "name": "SimpleAndroidDocView",
-      "url": "https://searchcode.com/codesearch/view/97383067/",
-      "md5hash": "afa24f033acdbeef13a37ab141698759",
-      "lines": {
-        "76": "    }",
-        "35": "import org.apache.poi.poifs.filesystem.EntryUtils;",
-        "36": "import org.apache.poi.poifs.filesystem.NPOIFSFileSystem;",
-        "77": "    protected POIDocument(NPOIFSFileSystem fs) {"
-      },
-      "id": 97383067,
-      "filename": "POIDocument.java"
-    },
-    {
-      "repo": "https://github.com/minstrelsy/POI-Android.git",
-      "language": "Java",
-      "linescount": 688,
-      "location": "/ppt/scratchpad/src/org/apache/poi/hslf",
-      "name": "POI-Android",
-      "url": "https://searchcode.com/codesearch/view/97394255/",
-      "md5hash": "40d5716cbdc5b9b544fff845bb8e0c6f",
-      "lines": {
-        "49": "import org.apache.poi.poifs.filesystem.DocumentInputStream;",
-        "50": "import org.apache.poi.poifs.filesystem.NPOIFSFileSystem;",
-        "150": "    */",
-        "151": "   public HSLFSlideShow(NPOIFSFileSystem filesystem) throws IOException"
-      },
-      "id": 97394255,
-      "filename": "HSLFSlideShow.java"
     },
     {
       "repo": "https://github.com/minstrelsy/POI-Android.git",
@@ -116,10 +161,21 @@
       "url": "https://searchcode.com/codesearch/view/97394959/",
       "md5hash": "5d80afff23c354813b0c27bde8e947ac",
       "lines": {
-        "40": "import org.apache.poi.poifs.filesystem.NPOIFSFileSystem;",
-        "131": "\tpublic SlideShow(File file) throws IOException {",
-        "132": "\t\tthis(new HSLFSlideShow(new NPOIFSFileSystem(file)));",
-        "39": "import org.apache.poi.hslf.record.SlideListWithText.SlideAtomsSet;"
+        "32": "import org.apache.poi.hslf.HSLFSlideShow;",
+        "33": "import org.apache.poi.hslf.exceptions.CorruptPowerPointFileException;",
+        "34": "import org.apache.poi.hslf.exceptions.HSLFException;",
+        "35": "import org.apache.poi.hslf.model.*;",
+        "36": "import org.apache.poi.hslf.model.Notes;",
+        "37": "import org.apache.poi.hslf.model.Slide;",
+        "38": "import org.apache.poi.hslf.record.*;",
+        "39": "import org.apache.poi.hslf.record.SlideListWithText.SlideAtomsSet;",
+        "17": "",
+        "18": "package org.apache.poi.hslf.usermodel;",
+        "27": "",
+        "28": "import org.apache.poi.ddf.EscherBSERecord;",
+        "29": "import org.apache.poi.ddf.EscherContainerRecord;",
+        "30": "import org.apache.poi.ddf.EscherOptRecord;",
+        "31": "import org.apache.poi.ddf.EscherRecord;"
       },
       "id": 97394959,
       "filename": "SlideShow.java"
@@ -133,6 +189,19 @@
       "url": "https://searchcode.com/codesearch/view/97397922/",
       "md5hash": "4dde31e8066a7b0ff9251c6177b7ac0c",
       "lines": {
+        "49": "\tprivate NPOIFSDocument _document;",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "74": "\t\tDocumentProperty property = (DocumentProperty)doc.getProperty();",
+        "75": "\t\t_document = new NPOIFSDocument(",
+        "76": "\t\t      property, ",
+        "48": "\t/** the actual Document */",
+        "17": "",
+        "18": "package org.apache.poi.poifs.filesystem;",
+        "23": "",
+        "24": "import org.apache.poi.poifs.property.DocumentProperty;",
+        "25": "import org.apache.poi.util.LittleEndian;",
+        "26": "",
         "28": " * This class provides methods to read a DocumentEntry managed by a",
         "29": " * {@link NPOIFSFileSystem} instance."
       },
@@ -148,6 +217,20 @@
       "url": "https://searchcode.com/codesearch/view/97397924/",
       "md5hash": "a62824300869ffa075859750e715454a",
       "lines": {
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "74": "\t */",
+        "75": "\tpublic DocumentInputStream(POIFSDocument document) {",
+        "17": "",
+        "18": "package org.apache.poi.poifs.filesystem;",
+        "83": "    */",
+        "84": "   public DocumentInputStream(NPOIFSDocument document) {",
+        "22": "",
+        "23": "import org.apache.poi.util.LittleEndianInput;",
         "26": " * This class provides methods to read a DocumentEntry managed by a",
         "27": " *  {@link POIFSFileSystem} or {@link NPOIFSFileSystem} instance."
       },

@@ -1,8 +1,8 @@
 {
-  "matchterm": "OldWordFileFormatException",
+  "matchterm": "org.apache.poi.hwpf.OldWordFileFormatException",
   "previouspage": null,
-  "searchterm": "OldWordFileFormatException",
-  "query": "OldWordFileFormatException",
+  "searchterm": "org.apache.poi.hwpf.OldWordFileFormatException",
+  "query": "org.apache.poi.hwpf.OldWordFileFormatException",
   "language_filters": [
     {
       "count": 4,
@@ -13,21 +13,32 @@
   "total": 4,
   "results": [
     {
-      "repo": "https://github.com/maxcom/tikaserver-ex.git",
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
       "language": "Java",
-      "linescount": 133,
-      "location": "/src/main/java/su/msk/jet/tikaserver",
-      "name": "tikaserver-ex",
-      "url": "https://searchcode.com/codesearch/view/113014881/",
-      "md5hash": "161ca6fef06460bc298ea19ee5392088",
+      "linescount": 764,
+      "location": "/src/org/apache/poi/hwpf/dev",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384386/",
+      "md5hash": "a5fd3aeec9338ae1535ca742a1539e0e",
       "lines": {
-        "120": "",
-        "121": "          if (e.getCause()!=null && e.getCause() instanceof OldWordFileFormatException) {",
-        "6": "import org.apache.poi.extractor.ExtractorFactory;",
-        "7": "import org.apache.poi.hwpf.OldWordFileFormatException;"
+        "34": "",
+        "35": "import org.apache.poi.POIDocument;",
+        "36": "import org.apache.poi.hwpf.HWPFDocument;",
+        "37": "import org.apache.poi.hwpf.HWPFDocumentCore;",
+        "38": "import org.apache.poi.hwpf.HWPFOldDocument;",
+        "39": "import org.apache.poi.hwpf.OldWordFileFormatException;",
+        "40": "import org.apache.poi.hwpf.model.CHPX;",
+        "41": "import org.apache.poi.hwpf.model.FieldsDocumentPart;",
+        "42": "import org.apache.poi.hwpf.model.FileInformationBlock;",
+        "43": "import org.apache.poi.hwpf.model.GenericPropertyNode;",
+        "44": "import org.apache.poi.hwpf.model.LFO;",
+        "45": "import org.apache.poi.hwpf.model.LFOData;",
+        "46": "import org.apache.poi.hwpf.model.ListLevel;",
+        "17": "",
+        "18": "package org.apache.poi.hwpf.dev;"
       },
-      "id": 113014881,
-      "filename": "TikaResource.java"
+      "id": 97384386,
+      "filename": "HWPFLister.java"
     },
     {
       "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
@@ -38,8 +49,19 @@
       "url": "https://searchcode.com/codesearch/view/97383984/",
       "md5hash": "b325d8787324a3ef4914153a604b19e4",
       "lines": {
-        "482": "        }",
-        "483": "        catch ( OldWordFileFormatException exc )",
+        "32": "import org.apache.poi.hwpf.usermodel.BorderCode;",
+        "33": "import org.apache.poi.hwpf.usermodel.HWPFList;",
+        "34": "import org.apache.poi.hwpf.usermodel.Table;",
+        "35": "import org.apache.poi.hwpf.usermodel.TableCell;",
+        "36": "import org.apache.poi.hwpf.usermodel.TableRow;",
+        "37": "import org.apache.poi.poifs.filesystem.DirectoryNode;",
+        "38": "import org.apache.poi.poifs.filesystem.POIFSFileSystem;",
+        "39": "import org.apache.poi.util.Beta;",
+        "16": "==================================================================== */",
+        "17": "package org.apache.poi.hwpf.converter;",
+        "27": "",
+        "28": "import org.apache.poi.hwpf.HWPFDocument;",
+        "29": "import org.apache.poi.hwpf.HWPFDocumentCore;",
         "30": "import org.apache.poi.hwpf.HWPFOldDocument;",
         "31": "import org.apache.poi.hwpf.OldWordFileFormatException;"
       },
@@ -47,21 +69,32 @@
       "filename": "AbstractWordUtils.java"
     },
     {
-      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "repo": "https://github.com/maxcom/tikaserver-ex.git",
       "language": "Java",
-      "linescount": 764,
-      "location": "/src/org/apache/poi/hwpf/dev",
-      "name": "SimpleAndroidDocView",
-      "url": "https://searchcode.com/codesearch/view/97384386/",
-      "md5hash": "a5fd3aeec9338ae1535ca742a1539e0e",
+      "linescount": 133,
+      "location": "/src/main/java/su/msk/jet/tikaserver",
+      "name": "tikaserver-ex",
+      "url": "https://searchcode.com/codesearch/view/113014881/",
+      "md5hash": "161ca6fef06460bc298ea19ee5392088",
       "lines": {
-        "104": "        }",
-        "105": "        catch ( OldWordFileFormatException exc )",
-        "38": "import org.apache.poi.hwpf.HWPFOldDocument;",
-        "39": "import org.apache.poi.hwpf.OldWordFileFormatException;"
+        "2": "",
+        "3": "import org.apache.commons.logging.Log;",
+        "4": "import org.apache.commons.logging.LogFactory;",
+        "5": "import org.apache.poi.EncryptedDocumentException;",
+        "6": "import org.apache.poi.extractor.ExtractorFactory;",
+        "7": "import org.apache.poi.hwpf.OldWordFileFormatException;",
+        "8": "import org.apache.tika.detect.Detector;",
+        "9": "import org.apache.tika.exception.TikaException;",
+        "10": "import org.apache.tika.metadata.Metadata;",
+        "11": "import org.apache.tika.mime.MediaType;",
+        "12": "import org.apache.tika.parser.AutoDetectParser;",
+        "13": "import org.apache.tika.parser.ParseContext;",
+        "14": "import org.apache.tika.parser.Parser;",
+        "15": "import org.apache.tika.sax.BodyContentHandler;",
+        "16": "import org.xml.sax.ContentHandler;"
       },
-      "id": 97384386,
-      "filename": "HWPFLister.java"
+      "id": 113014881,
+      "filename": "TikaResource.java"
     },
     {
       "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
@@ -72,8 +105,21 @@
       "url": "https://searchcode.com/codesearch/view/97383956/",
       "md5hash": "677c332698819342ff2ece2baf93a4ed",
       "lines": {
-        "222": "    if(_fib.getFibBase().getNFib() < 106) {",
-        "223": "        throw new OldWordFileFormatException(\"The document is too old - Word 95 or older. Try HWPFOldDocument instead?\");"
+        "32": "import org.apache.poi.hwpf.model.DocumentProperties;",
+        "33": "import org.apache.poi.hwpf.model.EscherRecordHolder;",
+        "34": "import org.apache.poi.hwpf.model.FSPADocumentPart;",
+        "35": "import org.apache.poi.hwpf.model.FSPATable;",
+        "36": "import org.apache.poi.hwpf.model.FieldsTables;",
+        "37": "import org.apache.poi.hwpf.model.FontTable;",
+        "38": "import org.apache.poi.hwpf.model.ListTables;",
+        "17": "",
+        "18": "package org.apache.poi.hwpf;",
+        "26": "",
+        "27": "import org.apache.poi.hpsf.DocumentSummaryInformation;",
+        "28": "import org.apache.poi.hpsf.SummaryInformation;",
+        "29": "import org.apache.poi.hwpf.model.BookmarksTables;",
+        "30": "import org.apache.poi.hwpf.model.CHPBinTable;",
+        "31": "import org.apache.poi.hwpf.model.ComplexFileTable;"
       },
       "id": 97383956,
       "filename": "HWPFDocument.java"

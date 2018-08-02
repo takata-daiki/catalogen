@@ -4,6 +4,11 @@ import requests
 import multiprocessing
 
 java = '23'
+googlecode = '1'
+github = '2'
+bitbucket = '3'
+sourceforge = '4'
+gitlab = '13'
 url  = 'https://searchcode.com/api/codesearch_I/'
 
 
@@ -20,13 +25,13 @@ def request(query):
 
 
 def wrapper(arg):
-    dic = {'q': arg, 'lan': java}
+    dic = {'q': arg, 'lan': java, 'src' : [googlecode, github, bitbucket, sourceforge, gitlab] }
     return request(dic)
 
 
 def getter():
     li = []
-    with open('class_name_list.txt', 'r') as f:
+    with open('fully_qualified_class_name_list.txt', 'r') as f:
         for line in f:
             classname = line.split('\n')[0]
             li.append(classname)
@@ -43,7 +48,7 @@ def setter(arg):
     try:
         if arg['total'] == 0:
             return
-        with open('CodeIndex/{}.json'.format(arg['query']), 'w') as f:
+        with open('CodeIndex/{}.json'.format(arg['query'].split('.')[-1]), 'w') as f:
             json.dump(arg, f, indent=2)
     except KeyError:
         pass

@@ -1,8 +1,8 @@
 {
-  "matchterm": "POITextExtractor",
+  "matchterm": "org.apache.poi.extractor.POITextExtractor",
   "previouspage": null,
-  "searchterm": "POITextExtractor",
-  "query": "POITextExtractor",
+  "searchterm": "org.apache.poi.extractor.POITextExtractor",
+  "query": "org.apache.poi.extractor.POITextExtractor",
   "language_filters": [
     {
       "count": 4,
@@ -13,23 +13,6 @@
   "total": 4,
   "results": [
     {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 73,
-      "location": "/components/forks/poi/src/loci/poi",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642237/",
-      "md5hash": "cf555a329d73935774f71285df4ed636",
-      "lines": {
-        "60": "\tpublic POITextExtractor(POIDocument document) {",
-        "59": "\t */",
-        "52": " */",
-        "53": "public abstract class POITextExtractor {"
-      },
-      "id": 15642237,
-      "filename": "POITextExtractor.java"
-    },
-    {
       "repo": "http://dspace-semantic-search.googlecode.com/svn/trunk/",
       "language": "Java",
       "linescount": 125,
@@ -38,30 +21,25 @@
       "url": "https://searchcode.com/codesearch/view/11613227/",
       "md5hash": "9aac673862fc080067713fcba82fe234",
       "lines": {
-        "16": "import org.apache.poi.POITextExtractor;",
-        "75": "            new ExtractorFactory();",
+        "77": "                    .createExtractor(source);",
+        "5": " *",
+        "6": " * http://www.dspace.org/license/",
+        "7": " */",
         "76": "            POITextExtractor pptExtractor = ExtractorFactory",
-        "15": "import org.apache.poi.hslf.extractor.PowerPointExtractor;"
+        "75": "            new ExtractorFactory();",
+        "12": "",
+        "13": "import org.apache.poi.extractor.ExtractorFactory;",
+        "14": "import org.apache.poi.xslf.extractor.XSLFPowerPointExtractor;",
+        "15": "import org.apache.poi.hslf.extractor.PowerPointExtractor;",
+        "16": "import org.apache.poi.POITextExtractor;",
+        "17": "",
+        "18": "import org.apache.log4j.Logger;",
+        "83": "            if (pptExtractor instanceof XSLFPowerPointExtractor)",
+        "84": "            {",
+        "82": "            // If this is a PowerPoint XML file, extract accordingly"
       },
       "id": 11613227,
       "filename": "PowerPointFilter.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 168,
-      "location": "/components/forks/poi/src/loci/poi/hssf/extractor",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642369/",
-      "md5hash": "35a48f20e579de8763301e19b2d91dd6",
-      "lines": {
-        "60": " */",
-        "43": "",
-        "44": "import loci.poi.POITextExtractor;",
-        "61": "public class ExcelExtractor extends POITextExtractor{"
-      },
-      "id": 15642369,
-      "filename": "ExcelExtractor.java"
     },
     {
       "repo": "https://bitbucket.org/fudan/sakai",
@@ -72,13 +50,81 @@
       "url": "https://searchcode.com/codesearch/view/129866881/",
       "md5hash": "7520c09a61381e4c705efedc76a6043c",
       "lines": {
-        "70": "\t\t\tcontentStream = contentResource.streamContent();\t\t\t",
+        "32": "import org.sakaiproject.content.api.ContentResource;",
+        "1": "/**********************************************************************************",
+        "2": " * $URL: https://source.sakaiproject.org/svn/search/tags/search-1.4.3/search-impl/impl/src/java/org/sakaiproject/search/component/adapter/contenthosting/PoiContentDigester.java $",
+        "3": " * $Id: PoiContentDigester.java 73517 2010-02-15 13:35:25Z david.horwitz@uct.ac.za $",
+        "4": " ***********************************************************************************",
+        "44": "\t\t\t\t\"org.apache.poi.util.NullLogger\");",
+        "42": "\t{",
+        "11": " *",
+        "12": " *       http://www.osedu.org/licenses/ECL-2.0",
+        "45": "\t}",
+        "43": "\t\tSystem.setProperty(\"org.apache.poi.util.POILogger\",",
+        "27": "",
+        "28": "import org.apache.commons.logging.Log;",
         "29": "import org.apache.commons.logging.LogFactory;",
         "30": "import org.apache.poi.POITextExtractor;",
-        "71": "\t\t\tPOITextExtractor DocExt = ExtractorFactory.createExtractor(contentStream);"
+        "31": "import org.apache.poi.extractor.ExtractorFactory;"
       },
       "id": 129866881,
       "filename": "PoiContentDigester.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 73,
+      "location": "/components/forks/poi/src/loci/poi",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642237/",
+      "md5hash": "cf555a329d73935774f71285df4ed636",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "13": " * ",
+        "46": " *  a given format's text extractor under",
+        "47": " *  loci.poi.[format].extractor .",
+        "48": " * @see loci.poi.hssf.extractor.ExcelExtractor",
+        "49": " * @see loci.poi.hslf.extractor.PowerPointExtractor",
+        "50": " * @see loci.poi.hdgf.extractor.VisioTextExtractor",
+        "51": " * @see loci.poi.hwpf.extractor.WordExtractor",
+        "52": " */",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "31": ""
+      },
+      "id": 15642237,
+      "filename": "POITextExtractor.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 168,
+      "location": "/components/forks/poi/src/loci/poi/hssf/extractor",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642369/",
+      "md5hash": "35a48f20e579de8763301e19b2d91dd6",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "39": "==================================================================== */",
+        "40": "package loci.poi.hssf.extractor;",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "",
+        "44": "import loci.poi.POITextExtractor;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import loci.poi.hssf.usermodel.HSSFCell;",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "31": ""
+      },
+      "id": 15642369,
+      "filename": "ExcelExtractor.java"
     }
   ],
   "page": 0,

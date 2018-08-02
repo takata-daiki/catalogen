@@ -1,34 +1,17 @@
 {
-  "matchterm": "EncryptedDocumentException",
+  "matchterm": "org.apache.poi.EncryptedDocumentException",
   "previouspage": null,
-  "searchterm": "EncryptedDocumentException",
-  "query": "EncryptedDocumentException",
+  "searchterm": "org.apache.poi.EncryptedDocumentException",
+  "query": "org.apache.poi.EncryptedDocumentException",
   "language_filters": [
     {
-      "count": 6,
+      "count": 4,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 6,
+  "total": 4,
   "results": [
-    {
-      "repo": "https://github.com/coley33/OpenDocument.droid.git",
-      "language": "Java",
-      "linescount": 183,
-      "location": "/src/at/tomtasche/reader/background",
-      "name": "OpenDocument.droid",
-      "url": "https://searchcode.com/codesearch/view/71698717/",
-      "md5hash": "bf2ae9f916f89a341dc2ba1dce5b7b9b",
-      "lines": {
-        "179": "\t@SuppressWarnings(\"serial\")",
-        "180": "\tpublic static class EncryptedDocumentException extends Exception {",
-        "117": "\t\t\tif (documentFile.isEncrypted() && password == null) {",
-        "118": "\t\t\t\tthrow new EncryptedDocumentException();"
-      },
-      "id": 71698717,
-      "filename": "DocumentLoader.java"
-    },
     {
       "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
       "language": "Java",
@@ -38,10 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97384033/",
       "md5hash": "d1e2f02dc9ef99107ca7326905a58d39",
       "lines": {
+        "32": "",
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hwpf.model;",
         "24": "",
         "25": "import org.apache.poi.EncryptedDocumentException;",
-        "76": "        {",
-        "77": "            throw new EncryptedDocumentException("
+        "26": "",
+        "27": "import org.apache.poi.hwpf.model.io.HWPFOutputStream;",
+        "28": "import org.apache.poi.util.Internal;",
+        "29": "import org.apache.poi.util.LittleEndian;",
+        "30": "import org.apache.poi.util.POILogFactory;",
+        "31": "import org.apache.poi.util.POILogger;"
       },
       "id": 97384033,
       "filename": "FileInformationBlock.java"
@@ -55,30 +49,24 @@
       "url": "https://searchcode.com/codesearch/view/113014881/",
       "md5hash": "161ca6fef06460bc298ea19ee5392088",
       "lines": {
-        "116": "",
+        "2": "",
+        "3": "import org.apache.commons.logging.Log;",
         "4": "import org.apache.commons.logging.LogFactory;",
         "5": "import org.apache.poi.EncryptedDocumentException;",
-        "117": "          if (e.getCause()!=null && e.getCause() instanceof EncryptedDocumentException) {"
+        "6": "import org.apache.poi.extractor.ExtractorFactory;",
+        "7": "import org.apache.poi.hwpf.OldWordFileFormatException;",
+        "8": "import org.apache.tika.detect.Detector;",
+        "9": "import org.apache.tika.exception.TikaException;",
+        "10": "import org.apache.tika.metadata.Metadata;",
+        "11": "import org.apache.tika.mime.MediaType;",
+        "12": "import org.apache.tika.parser.AutoDetectParser;",
+        "13": "import org.apache.tika.parser.ParseContext;",
+        "14": "import org.apache.tika.parser.Parser;",
+        "15": "import org.apache.tika.sax.BodyContentHandler;",
+        "16": "import org.xml.sax.ContentHandler;"
       },
       "id": 113014881,
       "filename": "TikaResource.java"
-    },
-    {
-      "repo": "https://github.com/coley33/OpenDocument.droid.git",
-      "language": "Java",
-      "linescount": 679,
-      "location": "/src/at/tomtasche/reader/ui/activity",
-      "name": "OpenDocument.droid",
-      "url": "https://searchcode.com/codesearch/view/71698646/",
-      "md5hash": "0d9836a4903af8f918a7500fa6aaee20",
-      "lines": {
-        "48": "import at.tomtasche.reader.background.DocumentLoader.EncryptedDocumentException;",
-        "530": "\t\t\treturn;",
-        "531": "\t\t} else if (error instanceof EncryptedDocumentException) {",
-        "47": "import at.tomtasche.reader.background.DocumentLoader;"
-      },
-      "id": 71698646,
-      "filename": "MainActivity.java"
     },
     {
       "repo": "git://github.com/liferay/liferay-portal.git",
@@ -89,10 +77,18 @@
       "url": "https://searchcode.com/codesearch/view/4121637/",
       "md5hash": "0580451da5efdf67736fce7c386785ca",
       "lines": {
+        "32": "import org.apache.tika.parser.ParseContext;",
+        "33": "import org.apache.tika.parser.Parser;",
+        "34": "import org.apache.tika.sax.WriteOutContentHandler;",
+        "35": "",
+        "36": "import org.xml.sax.ContentHandler;",
         "70": "\t\t\tif ((throwable instanceof CryptographyException) ||",
+        "71": "\t\t\t\t(throwable instanceof EncryptedDocumentException)) {",
+        "27": "",
+        "28": "import org.apache.commons.lang.exception.ExceptionUtils;",
         "29": "import org.apache.pdfbox.exceptions.CryptographyException;",
         "30": "import org.apache.poi.EncryptedDocumentException;",
-        "71": "\t\t\t\t(throwable instanceof EncryptedDocumentException)) {"
+        "31": "import org.apache.tika.metadata.Metadata;"
       },
       "id": 4121637,
       "filename": "TikaRawMetadataProcessor.java"
@@ -106,10 +102,21 @@
       "url": "https://searchcode.com/codesearch/view/4122804/",
       "md5hash": "2f5a1d561be5fb9f918b950a4785678d",
       "lines": {
-        "435": "\t\t\tif ((throwable instanceof CryptographyException) ||",
-        "436": "\t\t\t\t(throwable instanceof EncryptedDocumentException) ||",
+        "65": "",
+        "66": "import org.apache.commons.compress.archivers.zip.UnsupportedZipFeatureException;",
+        "67": "import org.apache.commons.io.FileUtils;",
+        "68": "import org.apache.commons.lang.exception.ExceptionUtils;",
         "69": "import org.apache.pdfbox.exceptions.CryptographyException;",
-        "70": "import org.apache.poi.EncryptedDocumentException;"
+        "70": "import org.apache.poi.EncryptedDocumentException;",
+        "71": "import org.apache.tika.Tika;",
+        "72": "import org.apache.tika.exception.TikaException;",
+        "73": "import org.apache.tools.ant.DirectoryScanner;",
+        "74": "",
+        "75": "import org.mozilla.intl.chardet.nsDetector;",
+        "76": "import org.mozilla.intl.chardet.nsPSMDetector;",
+        "77": "",
+        "435": "\t\t\tif ((throwable instanceof CryptographyException) ||",
+        "436": "\t\t\t\t(throwable instanceof EncryptedDocumentException) ||"
       },
       "id": 4122804,
       "filename": "FileImpl.java"
@@ -119,7 +126,7 @@
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 6,
+      "count": 4,
       "source": "Github",
       "id": 2
     }

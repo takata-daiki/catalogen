@@ -1,36 +1,17 @@
 {
-  "matchterm": "XSSFRelation",
+  "matchterm": "org.apache.poi.xssf.usermodel.XSSFRelation",
   "previouspage": null,
-  "searchterm": "XSSFRelation",
-  "query": "XSSFRelation",
+  "searchterm": "org.apache.poi.xssf.usermodel.XSSFRelation",
+  "query": "org.apache.poi.xssf.usermodel.XSSFRelation",
   "language_filters": [
     {
-      "count": 2,
+      "count": 1,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 2,
+  "total": 1,
   "results": [
-    {
-      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 431,
-      "location": "/zss/src/org/zkoss/zss/model/impl",
-      "name": "zkspreadsheet",
-      "url": "https://searchcode.com/codesearch/view/3970717/",
-      "md5hash": "7316273b22d01b3aaca97abfed972abf",
-      "lines": {
-        "48": "import org.zkoss.poi.xssf.usermodel.XSSFName;",
-        "49": "import org.zkoss.poi.xssf.usermodel.XSSFRelation;",
-        "83": "\t\ttry {",
-        "84": "\t\t\tfd = Classes.getAnyField(XSSFRelation.class, \"_cls\");",
-        "90": "\t\t\tfd.setAccessible(true);",
-        "91": "\t\t\tfd.set(XSSFRelation.WORKSHEET, XSSFSheetImpl.class); //Use the new XSSFSheet implementation "
-      },
-      "id": 3970717,
-      "filename": "XSSFBookImpl.java"
-    },
     {
       "repo": "https://github.com/solsson/tika.git",
       "language": "Java",
@@ -40,12 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/111785572/",
       "md5hash": "cbe6aea6e2c67bdf72e6eb288fadfc2d",
       "lines": {
-        "165": "          try {",
-        "166": "             for(PackageRelationship rel : part.getRelationshipsByType(XSSFRelation.DRAWINGS.getRelation())) {",
-        "39": "import org.apache.poi.xssf.usermodel.XSSFCell;",
-        "40": "import org.apache.poi.xssf.usermodel.XSSFRelation;",
-        "171": "             }",
-        "172": "             for(PackageRelationship rel : part.getRelationshipsByType(XSSFRelation.VML_DRAWINGS.getRelation())) {"
+        "32": "import org.apache.poi.ss.usermodel.Cell;",
+        "33": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "34": "import org.apache.poi.ss.usermodel.Comment;",
+        "35": "import org.apache.poi.ss.usermodel.DataFormatter;",
+        "36": "import org.apache.poi.ss.usermodel.HeaderFooter;",
+        "8": " *",
+        "9": " *     http://www.apache.org/licenses/LICENSE-2.0",
+        "24": "",
+        "25": "import org.apache.poi.hssf.extractor.ExcelExtractor;",
+        "26": "import org.apache.poi.openxml4j.exceptions.InvalidFormatException;",
+        "27": "import org.apache.poi.openxml4j.opc.PackagePart;",
+        "28": "import org.apache.poi.openxml4j.opc.PackagePartName;",
+        "29": "import org.apache.poi.openxml4j.opc.PackageRelationship;",
+        "30": "import org.apache.poi.openxml4j.opc.PackagingURIHelper;",
+        "31": "import org.apache.poi.openxml4j.opc.TargetMode;"
       },
       "id": 111785572,
       "filename": "XSSFExcelExtractorDecorator.java"
@@ -58,11 +48,6 @@
       "count": 1,
       "source": "Github",
       "id": 2
-    },
-    {
-      "count": 1,
-      "source": "Google Code",
-      "id": 1
     }
   ]
 }

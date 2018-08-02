@@ -1,8 +1,8 @@
 {
-  "matchterm": "DropCapSpecifier",
+  "matchterm": "org.apache.poi.hwpf.usermodel.DropCapSpecifier",
   "previouspage": null,
-  "searchterm": "DropCapSpecifier",
-  "query": "DropCapSpecifier",
+  "searchterm": "org.apache.poi.hwpf.usermodel.DropCapSpecifier",
+  "query": "org.apache.poi.hwpf.usermodel.DropCapSpecifier",
   "language_filters": [
     {
       "count": 2,
@@ -21,16 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/97384338/",
       "md5hash": "2efbe2193578055560aa9b1a50dfe60f",
       "lines": {
-        "82": "    /**/protected final static boolean FMINHEIGHT_AT_LEAST = true;",
-        "83": "    protected DropCapSpecifier field_28_dcs;",
-        "147": "        this.field_11_lspd = new LineSpacingDescriptor();",
-        "901": "    @Internal",
-        "902": "    public DropCapSpecifier getDcs()",
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hwpf.model.types;",
+        "20": "",
+        "21": "import org.apache.poi.hwpf.model.TabDescriptor;",
+        "22": "import org.apache.poi.hwpf.usermodel.BorderCode;",
         "23": "import org.apache.poi.hwpf.usermodel.DateAndTime;",
         "24": "import org.apache.poi.hwpf.usermodel.DropCapSpecifier;",
-        "148": "        this.field_28_dcs = new DropCapSpecifier();",
-        "910": "    @Internal",
-        "911": "    public void setDcs( DropCapSpecifier field_28_dcs )"
+        "25": "import org.apache.poi.hwpf.usermodel.LineSpacingDescriptor;",
+        "26": "import org.apache.poi.hwpf.usermodel.ShadingDescriptor;",
+        "27": "import org.apache.poi.util.BitField;",
+        "28": "import org.apache.poi.util.Internal;",
+        "29": ""
       },
       "id": 97384338,
       "filename": "PAPAbstractType.java"
@@ -44,10 +50,21 @@
       "url": "https://searchcode.com/codesearch/view/97384407/",
       "md5hash": "d9e337622aaacee6d2790b7572b0af11",
       "lines": {
-        "521": "",
-        "522": "  public DropCapSpecifier getDropCap()",
-        "526": "",
-        "527": "  public void setDropCap(DropCapSpecifier dcs)"
+        "32": "import org.apache.poi.util.POILogFactory;",
+        "33": "import org.apache.poi.util.POILogger;",
+        "17": "",
+        "18": "package org.apache.poi.hwpf.usermodel;",
+        "21": "",
+        "22": "import org.apache.poi.hwpf.HWPFDocumentCore;",
+        "23": "import org.apache.poi.hwpf.model.LFO;",
+        "24": "import org.apache.poi.hwpf.model.ListLevel;",
+        "25": "import org.apache.poi.hwpf.model.ListTables;",
+        "26": "import org.apache.poi.hwpf.model.PAPX;",
+        "27": "import org.apache.poi.hwpf.model.StyleSheet;",
+        "28": "import org.apache.poi.hwpf.sprm.ParagraphSprmUncompressor;",
+        "29": "import org.apache.poi.hwpf.sprm.SprmBuffer;",
+        "30": "import org.apache.poi.hwpf.sprm.TableSprmCompressor;",
+        "31": "import org.apache.poi.util.Internal;"
       },
       "id": 97384407,
       "filename": "Paragraph.java"

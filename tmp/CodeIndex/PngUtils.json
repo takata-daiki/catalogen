@@ -1,49 +1,17 @@
 {
-  "matchterm": "PngUtils",
+  "matchterm": "org.apache.poi.util.PngUtils",
   "previouspage": null,
-  "searchterm": "PngUtils",
-  "query": "PngUtils",
+  "searchterm": "org.apache.poi.util.PngUtils",
+  "query": "org.apache.poi.util.PngUtils",
   "language_filters": [
     {
-      "count": 3,
+      "count": 2,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 3,
+  "total": 2,
   "results": [
-    {
-      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
-      "language": "Java",
-      "linescount": 54,
-      "location": "/src/org/apache/poi/util",
-      "name": "SimpleAndroidDocView",
-      "url": "https://searchcode.com/codesearch/view/97383551/",
-      "md5hash": "6d0aebbe8bedbf76bc823c1296da861d",
-      "lines": {
-        "28": "",
-        "20": "",
-        "21": "public final class PngUtils {",
-        "29": "    private PngUtils() {"
-      },
-      "id": 97383551,
-      "filename": "PngUtils.java"
-    },
-    {
-      "repo": "git://github.com/geb/geb.git",
-      "language": "Java",
-      "linescount": 34,
-      "location": "/module/geb-core/src/main/java/geb/report",
-      "name": "geb",
-      "url": "https://searchcode.com/codesearch/view/135653/",
-      "md5hash": "839341494093053dfff87207124d4ef1",
-      "lines": {
-        "21": "",
-        "22": "class PngUtils {"
-      },
-      "id": 135653,
-      "filename": "PngUtils.java"
-    },
     {
       "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
       "language": "Java",
@@ -53,20 +21,57 @@
       "url": "https://searchcode.com/codesearch/view/97384428/",
       "md5hash": "abf85d22a465320cca19a26cbf1926ad",
       "lines": {
+        "32": "import org.apache.poi.ddf.EscherProperties;",
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "35": "import org.apache.poi.hwpf.model.PICF;",
         "36": "import org.apache.poi.hwpf.model.PICFAndOfficeArtData;",
-        "37": "import org.apache.poi.util.PngUtils;",
-        "198": "            if (PngUtils.matchesPngHeader(content, 16))",
-        "197": "            //Just cut it off!."
+        "33": "import org.apache.poi.ddf.EscherProperty;",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "34": "import org.apache.poi.ddf.EscherRecord;",
+        "17": "",
+        "18": "package org.apache.poi.hwpf.usermodel;",
+        "27": "",
+        "28": "import org.apache.poi.ddf.EscherBSERecord;",
+        "29": "import org.apache.poi.ddf.EscherBlipRecord;",
+        "30": "import org.apache.poi.ddf.EscherComplexProperty;",
+        "31": "import org.apache.poi.ddf.EscherOptRecord;"
       },
       "id": 97384428,
       "filename": "Picture.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 54,
+      "location": "/src/org/apache/poi/util",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383551/",
+      "md5hash": "6d0aebbe8bedbf76bc823c1296da861d",
+      "lines": {
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.util;",
+        "20": "",
+        "21": "public final class PngUtils {",
+        "28": "",
+        "29": "    private PngUtils() {"
+      },
+      "id": 97383551,
+      "filename": "PngUtils.java"
     }
   ],
   "page": 0,
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 3,
+      "count": 2,
       "source": "Github",
       "id": 2
     }

@@ -1,0 +1,112 @@
+{
+  "matchterm": "org.apache.poi.hssf.record.PageBreakRecord.Break",
+  "previouspage": null,
+  "searchterm": "org.apache.poi.hssf.record.PageBreakRecord.Break",
+  "query": "org.apache.poi.hssf.record.PageBreakRecord.Break",
+  "language_filters": [
+    {
+      "count": 3,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 3,
+  "results": [
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 287,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642463/",
+      "md5hash": "c6bd9b925ee9e5f5cdedfa8deaeb3950",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "63": "public class PageBreakRecord extends Record {",
+        "40": "        ",
+        "41": "package loci.poi.hssf.record;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "52": "/**",
+        "53": " * <p>Record that contains the functionality page breaks (horizontal and vertical)</p>",
+        "54": " * ",
+        "58": " * ",
+        "59": " * @see HorizontalPageBreakRecord",
+        "60": " * @see VerticalPageBreakRecord",
+        "61": " * @author Danny Mui (dmui at apache dot org)",
+        "62": " */",
+        "31": ""
+      },
+      "id": 15642463,
+      "filename": "PageBreakRecord.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 3300,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642365/",
+      "md5hash": "1e8d548d196dc1063c30d9430b35b9f5",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.model;",
+        "43": "",
+        "44": "import loci.poi.hssf.record.*;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import loci.poi.hssf.record.aggregates.ColumnInfoRecordsAggregate;",
+        "48": "import loci.poi.hssf.record.aggregates.ValueRecordsAggregate;",
+        "49": "import loci.poi.hssf.record.formula.Ptg;",
+        "50": "import loci.poi.hssf.util.PaneInformation;",
+        "46": "import loci.poi.hssf.record.aggregates.FormulaRecordAggregate;",
+        "47": "import loci.poi.hssf.record.aggregates.RowRecordsAggregate;",
+        "31": ""
+      },
+      "id": 15642365,
+      "filename": "Sheet.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 1607,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642322/",
+      "md5hash": "5084cc24e46752bd3911d5d0a983e0a6",
+      "lines": {
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "44": " */",
+        "45": "package loci.poi.hssf.usermodel;",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "47": "import loci.poi.ddf.EscherRecord;",
+        "48": "import loci.poi.hssf.model.Sheet;",
+        "49": "import loci.poi.hssf.model.Workbook;",
+        "50": "import loci.poi.hssf.record.*;",
+        "51": "import loci.poi.hssf.util.Region;",
+        "52": "import loci.poi.hssf.util.PaneInformation;",
+        "46": "",
+        "13": " * ",
+        "30": "",
+        "31": "       http://www.apache.org/licenses/LICENSE-2.0"
+      },
+      "id": 15642322,
+      "filename": "HSSFSheet.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 3,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

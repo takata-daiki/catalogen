@@ -1,8 +1,8 @@
 {
-  "matchterm": "XSSFCellBorder",
+  "matchterm": "org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder",
   "previouspage": null,
-  "searchterm": "XSSFCellBorder",
-  "query": "XSSFCellBorder",
+  "searchterm": "org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder",
+  "query": "org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder",
   "language_filters": [
     {
       "count": 12,
@@ -21,13 +21,53 @@
       "url": "https://searchcode.com/codesearch/view/122565151/",
       "md5hash": "fc8b005355e635293739c83d0119c6c9",
       "lines": {
+        "32": "import org.apache.poi.ss.usermodel.Cell;",
+        "33": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "34": "import org.apache.poi.ss.usermodel.DataFormat;",
+        "35": "import org.apache.poi.ss.usermodel.Font;",
+        "36": "import org.apache.poi.ss.usermodel.PrintSetup;",
+        "37": "import org.apache.poi.ss.usermodel.RichTextString;",
+        "38": "import org.apache.poi.ss.usermodel.Row;",
+        "7": " * which accompanies this distribution, and is available at",
+        "8": " * http://www.eclipse.org/legal/epl-v10.html",
         "41": "import org.apache.poi.ss.util.CellRangeAddress;",
         "42": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;",
-        "333": "\t * The side of the border that is to be applied.<br>",
-        "334": "\t * Note that although this value is from XSSFCellBorder it is equally valid for HSSFCellStyles."
+        "39": "import org.apache.poi.ss.usermodel.Sheet;",
+        "40": "import org.apache.poi.ss.usermodel.Workbook;",
+        "43": "import org.eclipse.birt.report.engine.content.IPageContent;",
+        "31": ""
       },
       "id": 122565151,
       "filename": "StyleManagerUtils.java"
+    },
+    {
+      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 242,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/122565145/",
+      "md5hash": "37e957a3ed6fb87cd516e5e2edbf25dd",
+      "lines": {
+        "7": " * which accompanies this distribution, and is available at",
+        "8": " * http://www.eclipse.org/legal/epl-v10.html",
+        "15": "",
+        "16": "import org.apache.poi.ss.usermodel.BorderStyle;",
+        "17": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "18": "import org.apache.poi.ss.usermodel.FillPatternType;",
+        "19": "import org.apache.poi.ss.usermodel.Font;",
+        "20": "import org.apache.poi.ss.usermodel.RichTextString;",
+        "21": "import org.apache.poi.ss.usermodel.Workbook;",
+        "22": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "23": "import org.apache.poi.xssf.usermodel.XSSFColor;",
+        "24": "import org.apache.poi.xssf.usermodel.XSSFFont;",
+        "25": "import org.apache.poi.xssf.usermodel.XSSFRichTextString;",
+        "26": "import org.apache.poi.xssf.usermodel.XSSFShape;",
+        "27": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;",
+        "28": "import org.eclipse.birt.report.engine.content.IStyle;"
+      },
+      "id": 122565145,
+      "filename": "StyleManagerXUtils.java"
     },
     {
       "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
@@ -38,10 +78,21 @@
       "url": "https://searchcode.com/codesearch/view/64530859/",
       "md5hash": "df825ddde093d8c3fe3a9f52eb4945d0",
       "lines": {
-        "320": "\t * Note that although this value is from XSSFCellBorder it is equally valid for HSSFCellStyles.",
+        "40": "",
+        "41": "import org.apache.poi.ss.usermodel.Cell;",
+        "42": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "43": "import org.apache.poi.ss.usermodel.DataFormat;",
+        "44": "import org.apache.poi.ss.usermodel.Font;",
+        "45": "import org.apache.poi.ss.usermodel.PrintSetup;",
+        "46": "import org.apache.poi.ss.usermodel.RichTextString;",
+        "47": "import org.apache.poi.ss.usermodel.Row;",
+        "48": "import org.apache.poi.ss.usermodel.Sheet;",
+        "49": "import org.apache.poi.ss.usermodel.Workbook;",
         "50": "import org.apache.poi.ss.util.CellRangeAddress;",
         "51": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;",
-        "319": "\t * The side of the border that is to be applied.<br>"
+        "52": "import org.eclipse.birt.report.engine.content.IPageContent;",
+        "53": "import org.eclipse.birt.report.engine.css.engine.StyleConstants;",
+        "54": "import org.eclipse.birt.report.engine.css.engine.value.DataFormatValue;"
       },
       "id": 64530859,
       "filename": "StyleManagerUtils.java"
@@ -55,43 +106,24 @@
       "url": "https://searchcode.com/codesearch/view/126772703/",
       "md5hash": "86bd8def07741e255a71cb6004350b09",
       "lines": {
-        "314": "\t * The side of the border that is to be applied.<br>",
-        "315": "\t * Note that although this value is from XSSFCellBorder it is equally valid for HSSFCellStyles.",
+        "35": "",
+        "36": "import org.apache.poi.ss.usermodel.Cell;",
+        "37": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "38": "import org.apache.poi.ss.usermodel.DataFormat;",
+        "39": "import org.apache.poi.ss.usermodel.Font;",
+        "40": "import org.apache.poi.ss.usermodel.PrintSetup;",
+        "41": "import org.apache.poi.ss.usermodel.RichTextString;",
+        "42": "import org.apache.poi.ss.usermodel.Row;",
+        "43": "import org.apache.poi.ss.usermodel.Sheet;",
         "44": "import org.apache.poi.ss.usermodel.Workbook;",
-        "45": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;"
+        "45": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;",
+        "14": "*   You should have received a copy of the GNU General Public License",
+        "15": "*   along with this program.  If not, see <http://www.gnu.org/licenses/>.",
+        "46": "import org.eclipse.birt.report.engine.content.IPageContent;",
+        "47": "import org.eclipse.birt.report.engine.css.engine.StyleConstants;"
       },
       "id": 126772703,
       "filename": "StyleManagerUtils.java"
-    },
-    {
-      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
-      "language": "Java",
-      "linescount": 317,
-      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
-      "name": "spudsoft-birt-excel-emitters",
-      "url": "https://searchcode.com/codesearch/view/122565139/",
-      "md5hash": "0fb809e0a8f032708c3b2d0f5498a8fd",
-      "lines": {
-        "24": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;",
-        "23": "import org.apache.poi.ss.usermodel.Workbook;"
-      },
-      "id": 122565139,
-      "filename": "StyleManager.java"
-    },
-    {
-      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
-      "language": "Java",
-      "linescount": 242,
-      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
-      "name": "spudsoft-birt-excel-emitters",
-      "url": "https://searchcode.com/codesearch/view/122565145/",
-      "md5hash": "37e957a3ed6fb87cd516e5e2edbf25dd",
-      "lines": {
-        "26": "import org.apache.poi.xssf.usermodel.XSSFShape;",
-        "27": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;"
-      },
-      "id": 122565145,
-      "filename": "StyleManagerXUtils.java"
     },
     {
       "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
@@ -102,8 +134,21 @@
       "url": "https://searchcode.com/codesearch/view/122565152/",
       "md5hash": "8510175981f7653c68170cbdfb797646",
       "lines": {
+        "7": " * which accompanies this distribution, and is available at",
+        "8": " * http://www.eclipse.org/legal/epl-v10.html",
+        "15": "",
+        "16": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "17": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "18": "import org.apache.poi.hssf.usermodel.HSSFPalette;",
+        "19": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "20": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "21": "import org.apache.poi.hssf.util.HSSFColor;",
+        "22": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "23": "import org.apache.poi.ss.usermodel.Font;",
+        "24": "import org.apache.poi.ss.usermodel.RichTextString;",
         "25": "import org.apache.poi.ss.usermodel.Workbook;",
-        "26": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;"
+        "26": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;",
+        "27": "import org.eclipse.birt.report.engine.content.IStyle;"
       },
       "id": 122565152,
       "filename": "StyleManagerHUtils.java"
@@ -117,55 +162,51 @@
       "url": "https://searchcode.com/codesearch/view/64530833/",
       "md5hash": "9bae33ba2ae2b3659c034710c785370e",
       "lines": {
+        "32": "import org.apache.poi.ss.usermodel.Workbook;",
+        "33": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "34": "import org.apache.poi.xssf.usermodel.XSSFColor;",
+        "35": "import org.apache.poi.xssf.usermodel.XSSFFont;",
+        "36": "import org.apache.poi.xssf.usermodel.XSSFRichTextString;",
         "37": "import org.apache.poi.xssf.usermodel.XSSFShape;",
-        "38": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;"
+        "38": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;",
+        "39": "import org.eclipse.birt.report.engine.content.IPageContent;",
+        "25": "",
+        "26": "import org.apache.poi.ss.usermodel.BorderStyle;",
+        "27": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "28": "import org.apache.poi.ss.usermodel.FillPatternType;",
+        "29": "import org.apache.poi.ss.usermodel.Font;",
+        "30": "import org.apache.poi.ss.usermodel.RichTextString;",
+        "31": "import org.apache.poi.ss.usermodel.Sheet;"
       },
       "id": 64530833,
       "filename": "StyleManagerXUtils.java"
     },
     {
-      "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
+      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
       "language": "Java",
-      "linescount": 329,
+      "linescount": 317,
       "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
       "name": "spudsoft-birt-excel-emitters",
-      "url": "https://searchcode.com/codesearch/view/64530851/",
-      "md5hash": "7d4ae515c6284d28b10ab32376363f73",
+      "url": "https://searchcode.com/codesearch/view/122565139/",
+      "md5hash": "0fb809e0a8f032708c3b2d0f5498a8fd",
       "lines": {
-        "32": "import org.apache.poi.ss.usermodel.Workbook;",
-        "33": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;"
+        "33": "/**",
+        "34": " * StyleManager is a cache of POI CellStyles to enable POI CellStyles to be reused based upon their BIRT styles.",
+        "7": " * which accompanies this distribution, and is available at",
+        "8": " * http://www.eclipse.org/legal/epl-v10.html",
+        "20": "",
+        "21": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "22": "import org.apache.poi.ss.usermodel.Font;",
+        "23": "import org.apache.poi.ss.usermodel.Workbook;",
+        "24": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;",
+        "25": "import org.eclipse.birt.report.engine.content.IStyle;",
+        "26": "import org.eclipse.birt.report.engine.css.engine.CSSEngine;",
+        "27": "import org.eclipse.birt.report.engine.css.engine.value.FloatValue;",
+        "28": "import org.eclipse.birt.report.engine.css.engine.value.css.CSSConstants;",
+        "29": "import org.w3c.dom.css.CSSValue;",
+        "30": ""
       },
-      "id": 64530851,
-      "filename": "StyleManager.java"
-    },
-    {
-      "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
-      "language": "Java",
-      "linescount": 298,
-      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
-      "name": "spudsoft-birt-excel-emitters",
-      "url": "https://searchcode.com/codesearch/view/64530867/",
-      "md5hash": "4a93e7cc18198ee2f00f76297625128b",
-      "lines": {
-        "36": "import org.apache.poi.ss.usermodel.Workbook;",
-        "37": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;"
-      },
-      "id": 64530867,
-      "filename": "StyleManagerHUtils.java"
-    },
-    {
-      "repo": "https://bitbucket.org/ravisanthu0/spudsoft-birt-excel-emitters1",
-      "language": "Java",
-      "linescount": 323,
-      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
-      "name": "spudsoft-birt-excel-emitters1",
-      "url": "https://searchcode.com/codesearch/view/126772692/",
-      "md5hash": "6529d868cd9f957d91f051e78adb8067",
-      "lines": {
-        "28": "import org.apache.poi.ss.usermodel.Workbook;",
-        "29": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;"
-      },
-      "id": 126772692,
+      "id": 122565139,
       "filename": "StyleManager.java"
     },
     {
@@ -177,11 +218,80 @@
       "url": "https://searchcode.com/codesearch/view/126772698/",
       "md5hash": "afd1e481fb2efa8d3030d90a89833b16",
       "lines": {
+        "32": "import org.apache.poi.xssf.usermodel.XSSFFont;",
+        "33": "import org.apache.poi.xssf.usermodel.XSSFRichTextString;",
         "34": "import org.apache.poi.xssf.usermodel.XSSFShape;",
-        "35": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;"
+        "35": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;",
+        "36": "import org.eclipse.birt.report.engine.content.IPageContent;",
+        "22": "",
+        "23": "import org.apache.poi.ss.usermodel.BorderStyle;",
+        "24": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "25": "import org.apache.poi.ss.usermodel.FillPatternType;",
+        "26": "import org.apache.poi.ss.usermodel.Font;",
+        "27": "import org.apache.poi.ss.usermodel.RichTextString;",
+        "28": "import org.apache.poi.ss.usermodel.Sheet;",
+        "29": "import org.apache.poi.ss.usermodel.Workbook;",
+        "30": "import org.apache.poi.xssf.usermodel.XSSFCellStyle;",
+        "31": "import org.apache.poi.xssf.usermodel.XSSFColor;"
       },
       "id": 126772698,
       "filename": "StyleManagerXUtils.java"
+    },
+    {
+      "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 298,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/64530867/",
+      "md5hash": "4a93e7cc18198ee2f00f76297625128b",
+      "lines": {
+        "32": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "33": "import org.apache.poi.ss.usermodel.Font;",
+        "34": "import org.apache.poi.ss.usermodel.RichTextString;",
+        "35": "import org.apache.poi.ss.usermodel.Sheet;",
+        "36": "import org.apache.poi.ss.usermodel.Workbook;",
+        "37": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;",
+        "38": "import org.eclipse.birt.report.engine.content.IPageContent;",
+        "39": "import org.eclipse.birt.report.engine.content.IStyle;",
+        "25": "",
+        "26": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFPalette;",
+        "29": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "30": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "31": "import org.apache.poi.hssf.util.HSSFColor;"
+      },
+      "id": 64530867,
+      "filename": "StyleManagerHUtils.java"
+    },
+    {
+      "repo": "https://bitbucket.org/xunchangguo/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 329,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/64530851/",
+      "md5hash": "7d4ae515c6284d28b10ab32376363f73",
+      "lines": {
+        "32": "import org.apache.poi.ss.usermodel.Workbook;",
+        "33": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;",
+        "34": "import org.eclipse.birt.report.engine.content.IStyle;",
+        "35": "import org.eclipse.birt.report.engine.css.engine.CSSEngine;",
+        "36": "import org.eclipse.birt.report.engine.css.engine.StyleConstants;",
+        "37": "import org.eclipse.birt.report.engine.css.engine.value.DataFormatValue;",
+        "38": "import org.eclipse.birt.report.engine.css.engine.value.FloatValue;",
+        "39": "import org.eclipse.birt.report.engine.css.engine.value.css.CSSConstants;",
+        "40": "import org.w3c.dom.css.CSSValue;",
+        "41": "",
+        "44": "/**",
+        "45": " * StyleManager is a cache of POI CellStyles to enable POI CellStyles to be reused based upon their BIRT styles.",
+        "29": "",
+        "30": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "31": "import org.apache.poi.ss.usermodel.Font;"
+      },
+      "id": 64530851,
+      "filename": "StyleManager.java"
     },
     {
       "repo": "https://bitbucket.org/ravisanthu0/spudsoft-birt-excel-emitters1",
@@ -192,11 +302,52 @@
       "url": "https://searchcode.com/codesearch/view/126772704/",
       "md5hash": "f52bc965a2ba649aac4b70c046bcb23d",
       "lines": {
+        "32": "import org.apache.poi.ss.usermodel.Sheet;",
         "33": "import org.apache.poi.ss.usermodel.Workbook;",
-        "34": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;"
+        "34": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;",
+        "35": "import org.eclipse.birt.report.engine.content.IPageContent;",
+        "36": "import org.eclipse.birt.report.engine.content.IStyle;",
+        "22": "",
+        "23": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "24": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "25": "import org.apache.poi.hssf.usermodel.HSSFPalette;",
+        "26": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "27": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "28": "import org.apache.poi.hssf.util.HSSFColor;",
+        "29": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "30": "import org.apache.poi.ss.usermodel.Font;",
+        "31": "import org.apache.poi.ss.usermodel.RichTextString;"
       },
       "id": 126772704,
       "filename": "StyleManagerHUtils.java"
+    },
+    {
+      "repo": "https://bitbucket.org/ravisanthu0/spudsoft-birt-excel-emitters1",
+      "language": "Java",
+      "linescount": 323,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters1",
+      "url": "https://searchcode.com/codesearch/view/126772692/",
+      "md5hash": "6529d868cd9f957d91f051e78adb8067",
+      "lines": {
+        "32": "import org.eclipse.birt.report.engine.css.engine.StyleConstants;",
+        "33": "import org.eclipse.birt.report.engine.css.engine.value.DataFormatValue;",
+        "34": "import org.eclipse.birt.report.engine.css.engine.value.FloatValue;",
+        "35": "import org.eclipse.birt.report.engine.css.engine.value.css.CSSConstants;",
+        "36": "import org.w3c.dom.css.CSSValue;",
+        "37": "",
+        "40": "/**",
+        "41": " * StyleManager is a cache of POI CellStyles to enable POI CellStyles to be reused based upon their BIRT styles.",
+        "25": "",
+        "26": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "27": "import org.apache.poi.ss.usermodel.Font;",
+        "28": "import org.apache.poi.ss.usermodel.Workbook;",
+        "29": "import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder.BorderSide;",
+        "30": "import org.eclipse.birt.report.engine.content.IStyle;",
+        "31": "import org.eclipse.birt.report.engine.css.engine.CSSEngine;"
+      },
+      "id": 126772692,
+      "filename": "StyleManager.java"
     }
   ],
   "page": 0,

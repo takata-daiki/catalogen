@@ -1,45 +1,17 @@
 {
-  "matchterm": "BuiltinFormats",
+  "matchterm": "org.apache.poi.ss.usermodel.BuiltinFormats",
   "previouspage": null,
-  "searchterm": "BuiltinFormats",
-  "query": "BuiltinFormats",
+  "searchterm": "org.apache.poi.ss.usermodel.BuiltinFormats",
+  "query": "org.apache.poi.ss.usermodel.BuiltinFormats",
   "language_filters": [
     {
-      "count": 5,
+      "count": 3,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 5,
+  "total": 3,
   "results": [
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 313,
-      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642305/",
-      "md5hash": "31ba22c44e059e578f314247452c9ee2",
-      "lines": {
-        "135": "",
-        "136": "    private static synchronized List createBuiltinFormats()",
-        "137": "    {",
-        "138": "        List builtinFormats = new Vector();",
-        "139": "        builtinFormats.add( 0, \"General\" );",
-        "140": "        builtinFormats.add( 1, \"0\" );",
-        "141": "        builtinFormats.add( 2, \"0.00\" );",
-        "142": "        builtinFormats.add( 3, \"#,##0\" );",
-        "143": "        builtinFormats.add( 4, \"#,##0.00\" );",
-        "144": "        builtinFormats.add( 5, \"($#,##0_);($#,##0)\" );",
-        "145": "        builtinFormats.add( 6, \"($#,##0_);[Red]($#,##0)\" );",
-        "146": "        builtinFormats.add( 7, \"($#,##0.00);($#,##0.00)\" );",
-        "147": "        builtinFormats.add( 8, \"($#,##0.00_);[Red]($#,##0.00)\" );",
-        "148": "        builtinFormats.add( 9, \"0%\" );",
-        "149": "        builtinFormats.add( 0xa, \"0.00%\" );"
-      },
-      "id": 15642305,
-      "filename": "HSSFDataFormat.java"
-    },
     {
       "repo": "https://bitbucket.org/ghooning/pentaho-kettle-4.3.0-stable.git",
       "language": "Java",
@@ -51,13 +23,50 @@
       "lines": {
         "32": "",
         "33": "import org.apache.poi.ss.usermodel.BuiltinFormats;",
-        "1321": "\t\t// Prepare a list of possible formats, filtering reserved internal formats away",
-        "1322": "\t\tString[] formats = BuiltinFormats.getAll();",
-        "1323": "",
-        "1324": "\t\tList<String> allFormats = Arrays.asList(BuiltinFormats.getAll());"
+        "34": "import org.eclipse.swt.SWT;",
+        "8": " *",
+        "9": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "12": " *",
+        "13": " *    http://www.apache.org/licenses/LICENSE-2.0",
+        "14": " *",
+        "15": " * Unless required by applicable law or agreed to in writing, software",
+        "16": " * distributed under the License is distributed on an \"AS IS\" BASIS,",
+        "17": " * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+        "18": " * See the License for the specific language governing permissions and",
+        "19": " * limitations under the License.",
+        "22": "",
+        "23": "package org.pentaho.di.ui.trans.steps.excelwriter;"
       },
       "id": 42463847,
       "filename": "ExcelWriterStepDialog.java"
+    },
+    {
+      "repo": "https://github.com/belerweb/saiku.git",
+      "language": "Java",
+      "linescount": 499,
+      "location": "/saiku-core/saiku-service/src/main/java/org/saiku/service/util/export/excel",
+      "name": "saiku",
+      "url": "https://searchcode.com/codesearch/view/70648747/",
+      "md5hash": "62e8acf4429cfff3470c06c3a6501284",
+      "lines": {
+        "1": "package org.saiku.service.util.export.excel;",
+        "2": "",
+        "13": "",
+        "14": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "15": "import org.apache.poi.hssf.usermodel.HSSFPalette;",
+        "16": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "17": "import org.apache.poi.hssf.util.HSSFColor;",
+        "18": "import org.apache.poi.ss.usermodel.Cell;",
+        "19": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "20": "import org.apache.poi.ss.usermodel.DataFormat;",
+        "21": "import org.apache.poi.ss.usermodel.Font;",
+        "22": "import org.apache.poi.ss.usermodel.Row;",
+        "23": "import org.apache.poi.ss.usermodel.Sheet;",
+        "24": "import org.apache.poi.ss.util.CellRangeAddress;",
+        "25": "import org.saiku.olap.dto.SaikuDimensionSelection;"
+      },
+      "id": 70648747,
+      "filename": "ExcelWorksheetBuilder.java"
     },
     {
       "repo": "https://github.com/teruok78/pentaho-kettle.git",
@@ -70,52 +79,29 @@
       "lines": {
         "32": "",
         "33": "import org.apache.poi.ss.usermodel.BuiltinFormats;",
-        "1260": "    // Prepare a list of possible formats, filtering reserved internal formats away",
-        "1261": "    String[] formats = BuiltinFormats.getAll();",
-        "1262": "",
-        "1263": "    List<String> allFormats = Arrays.asList( BuiltinFormats.getAll() );"
+        "34": "import org.eclipse.swt.SWT;",
+        "8": " *",
+        "9": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "12": " *",
+        "13": " *    http://www.apache.org/licenses/LICENSE-2.0",
+        "14": " *",
+        "15": " * Unless required by applicable law or agreed to in writing, software",
+        "16": " * distributed under the License is distributed on an \"AS IS\" BASIS,",
+        "17": " * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+        "18": " * See the License for the specific language governing permissions and",
+        "19": " * limitations under the License.",
+        "22": "",
+        "23": "package org.pentaho.di.ui.trans.steps.excelwriter;"
       },
       "id": 95320438,
       "filename": "ExcelWriterStepDialog.java"
-    },
-    {
-      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 5111,
-      "location": "/zss/src/org/zkoss/zss/model/impl",
-      "name": "zkspreadsheet",
-      "url": "https://searchcode.com/codesearch/view/3970697/",
-      "md5hash": "f6740268ba4be4778508748ca1c3becc",
-      "lines": {
-        "1112": "\t\treturn BuiltinFormats.getBuiltinFormat(formatType, locale);",
-        "77": "import org.zkoss.poi.ss.usermodel.BorderStyle;",
-        "78": "import org.zkoss.poi.ss.usermodel.BuiltinFormats;",
-        "1111": "\tprivate static String getDateFormatString(int formatType, Locale locale) {"
-      },
-      "id": 3970697,
-      "filename": "BookHelper.java"
-    },
-    {
-      "repo": "https://github.com/belerweb/saiku.git",
-      "language": "Java",
-      "linescount": 499,
-      "location": "/saiku-core/saiku-service/src/main/java/org/saiku/service/util/export/excel",
-      "name": "saiku",
-      "url": "https://searchcode.com/codesearch/view/70648747/",
-      "md5hash": "62e8acf4429cfff3470c06c3a6501284",
-      "lines": {
-        "108": "            Let's set default format, used if measure has no format at all.",
-        "109": "            More info: http://poi.apache.org/apidocs/org/apache/poi/ss/usermodel/BuiltinFormats.html#getBuiltinFormat(int)"
-      },
-      "id": 70648747,
-      "filename": "ExcelWorksheetBuilder.java"
     }
   ],
   "page": 0,
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 3,
+      "count": 2,
       "source": "Github",
       "id": 2
     },
@@ -123,11 +109,6 @@
       "count": 1,
       "source": "Bitbucket",
       "id": 3
-    },
-    {
-      "count": 1,
-      "source": "Google Code",
-      "id": 1
     }
   ]
 }

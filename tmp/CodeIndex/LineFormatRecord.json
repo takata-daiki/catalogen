@@ -1,8 +1,8 @@
 {
-  "matchterm": "LineFormatRecord",
+  "matchterm": "org.apache.poi.hssf.record.chart.LineFormatRecord",
   "previouspage": null,
-  "searchterm": "LineFormatRecord",
-  "query": "LineFormatRecord",
+  "searchterm": "org.apache.poi.hssf.record.chart.LineFormatRecord",
+  "query": "org.apache.poi.hssf.record.chart.LineFormatRecord",
   "language_filters": [
     {
       "count": 1,
@@ -21,14 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/15642512/",
       "md5hash": "5d4b991da958e2352bfafe58b5609bab",
       "lines": {
-        "81": "",
-        "82": "    public LineFormatRecord()",
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.record;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "48": "/**",
+        "49": " * Describes a line format record.  The line format record controls how a line on a chart appears.",
+        "50": " * NOTE: This source is automatically generated please do not modify this file.  Either subclass or",
+        "52": "",
+        "53": " * @author Glen Stampoultzis (glens at apache.org)",
         "54": " */",
         "55": "public class LineFormatRecord",
-        "184": "    public Object clone() {",
-        "185": "        LineFormatRecord rec = new LineFormatRecord();",
-        "92": "",
-        "93": "    public LineFormatRecord(RecordInputStream in)"
+        "56": "    extends Record",
+        "31": ""
       },
       "id": 15642512,
       "filename": "LineFormatRecord.java"

@@ -1,35 +1,44 @@
 {
-  "matchterm": "POIXMLTextExtractor",
+  "matchterm": "org.apache.poi.ooxml.extractor.POIXMLTextExtractor",
   "previouspage": null,
-  "searchterm": "POIXMLTextExtractor",
-  "query": "POIXMLTextExtractor",
+  "searchterm": "org.apache.poi.ooxml.extractor.POIXMLTextExtractor",
+  "query": "org.apache.poi.ooxml.extractor.POIXMLTextExtractor",
   "language_filters": [
     {
-      "count": 8,
+      "count": 4,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 8,
+  "total": 4,
   "results": [
     {
       "repo": "https://github.com/solsson/tika.git",
       "language": "Java",
-      "linescount": 56,
+      "linescount": 103,
       "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml",
       "name": "tika",
-      "url": "https://searchcode.com/codesearch/view/111785569/",
-      "md5hash": "1b07871a6b935801dae59b618be5ff74",
+      "url": "https://searchcode.com/codesearch/view/111785577/",
+      "md5hash": "c9c3f130483ace9122b93909deae1587",
       "lines": {
-        "32": " * @see org.apache.poi.POIXMLTextExtractor",
-        "38": "     * ",
-        "39": "     * @see POIXMLTextExtractor#getDocument()",
-        "43": "    /**",
-        "44": "     * {@link POIXMLTextExtractor#getMetadataTextExtractor()} not yet supported",
-        "31": " * "
+        "32": "import org.apache.poi.xssf.usermodel.XSSFWorkbook;",
+        "33": "import org.apache.poi.xwpf.extractor.XWPFWordExtractor;",
+        "34": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "16": " */",
+        "17": "package org.apache.tika.parser.microsoft.ooxml;",
+        "22": "",
+        "23": "import org.apache.poi.POIXMLDocument;",
+        "24": "import org.apache.poi.POIXMLTextExtractor;",
+        "25": "import org.apache.poi.extractor.ExtractorFactory;",
+        "26": "import org.apache.poi.openxml4j.exceptions.InvalidFormatException;",
+        "27": "import org.apache.poi.openxml4j.exceptions.OpenXML4JException;",
+        "28": "import org.apache.poi.openxml4j.opc.OPCPackage;",
+        "29": "import org.apache.poi.xslf.XSLFSlideShow;",
+        "30": "import org.apache.poi.xslf.extractor.XSLFPowerPointExtractor;",
+        "31": "import org.apache.poi.xssf.extractor.XSSFExcelExtractor;"
       },
-      "id": 111785569,
-      "filename": "OOXMLExtractor.java"
+      "id": 111785577,
+      "filename": "OOXMLExtractorFactory.java"
     },
     {
       "repo": "https://github.com/solsson/tika.git",
@@ -40,12 +49,21 @@
       "url": "https://searchcode.com/codesearch/view/111785571/",
       "md5hash": "e792b324ce485597dfa73d012dd27d56",
       "lines": {
+        "32": "import org.apache.tika.io.TikaInputStream;",
+        "33": "import org.apache.tika.metadata.Metadata;",
+        "16": " */",
+        "17": "package org.apache.tika.parser.microsoft.ooxml;",
+        "21": "",
         "22": "import org.apache.poi.POIXMLDocument;",
         "23": "import org.apache.poi.POIXMLTextExtractor;",
-        "56": "   ",
-        "57": "    protected POIXMLTextExtractor extractor;",
-        "60": "",
-        "61": "    public AbstractOOXMLExtractor(POIXMLTextExtractor extractor, String type) {"
+        "24": "import org.apache.poi.openxml4j.exceptions.InvalidFormatException;",
+        "25": "import org.apache.poi.openxml4j.opc.PackagePart;",
+        "26": "import org.apache.poi.openxml4j.opc.PackagePartName;",
+        "27": "import org.apache.poi.openxml4j.opc.PackageRelationship;",
+        "28": "import org.apache.poi.openxml4j.opc.PackageRelationshipCollection;",
+        "29": "import org.apache.poi.openxml4j.opc.PackagingURIHelper;",
+        "30": "import org.apache.poi.openxml4j.opc.TargetMode;",
+        "31": "import org.apache.tika.exception.TikaException;"
       },
       "id": 111785571,
       "filename": "AbstractOOXMLExtractor.java"
@@ -59,36 +77,24 @@
       "url": "https://searchcode.com/codesearch/view/111785575/",
       "md5hash": "2a9aaf9e0c1f1ffdb93195ff06ef1121",
       "lines": {
+        "8": " *",
+        "9": " *     http://www.apache.org/licenses/LICENSE-2.0",
+        "16": " */",
+        "17": "package org.apache.tika.parser.microsoft.ooxml;",
         "20": "",
         "21": "import org.apache.poi.POIXMLTextExtractor;",
-        "40": "",
-        "41": "    private final POIXMLTextExtractor extractor;",
-        "44": "",
-        "45": "    public MetadataExtractor(POIXMLTextExtractor extractor, String type) {"
+        "22": "import org.apache.poi.POIXMLProperties.CoreProperties;",
+        "23": "import org.apache.poi.POIXMLProperties.ExtendedProperties;",
+        "24": "import org.apache.poi.openxml4j.opc.internal.PackagePropertiesPart;",
+        "25": "import org.apache.poi.openxml4j.util.Nullable;",
+        "26": "import org.apache.tika.exception.TikaException;",
+        "27": "import org.apache.tika.metadata.Metadata;",
+        "28": "import org.apache.tika.metadata.PagedText;",
+        "29": "import org.apache.tika.metadata.Property;",
+        "30": "import org.openxmlformats.schemas.officeDocument.x2006.extendedProperties.CTProperties;"
       },
       "id": 111785575,
       "filename": "MetadataExtractor.java"
-    },
-    {
-      "repo": "https://github.com/solsson/tika.git",
-      "language": "Java",
-      "linescount": 103,
-      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml",
-      "name": "tika",
-      "url": "https://searchcode.com/codesearch/view/111785577/",
-      "md5hash": "c9c3f130483ace9122b93909deae1587",
-      "lines": {
-        "64": "            } else {",
-        "65": "               poiExtractor = (POIXMLTextExtractor) ExtractorFactory.createExtractor(stream);",
-        "23": "import org.apache.poi.POIXMLDocument;",
-        "24": "import org.apache.poi.POIXMLTextExtractor;",
-        "57": "",
-        "58": "            POIXMLTextExtractor poiExtractor;",
-        "78": "            } else {",
-        "79": "                extractor = new POIXMLTextExtractorDecorator(poiExtractor);"
-      },
-      "id": 111785577,
-      "filename": "OOXMLExtractorFactory.java"
     },
     {
       "repo": "https://github.com/solsson/tika.git",
@@ -99,80 +105,34 @@
       "url": "https://searchcode.com/codesearch/view/111785574/",
       "md5hash": "5188d8e9e5921a5c6390bfac8809a210",
       "lines": {
+        "1": "/*",
+        "2": " * Licensed to the Apache Software Foundation (ASF) under one or more",
+        "8": " *",
+        "9": " *     http://www.apache.org/licenses/LICENSE-2.0",
+        "16": " */",
+        "17": "package org.apache.tika.parser.microsoft.ooxml;",
         "21": "",
         "22": "import org.apache.poi.POIXMLTextExtractor;",
+        "23": "import org.apache.poi.openxml4j.opc.PackagePart;",
+        "24": "import org.apache.tika.sax.XHTMLContentHandler;",
+        "25": "import org.xml.sax.SAXException;",
         "26": "",
         "27": "public class POIXMLTextExtractorDecorator extends AbstractOOXMLExtractor {",
         "28": "",
-        "29": "    public POIXMLTextExtractorDecorator(POIXMLTextExtractor extractor) {"
+        "29": "    public POIXMLTextExtractorDecorator(POIXMLTextExtractor extractor) {",
+        "30": "        super(extractor, null);"
       },
       "id": 111785574,
       "filename": "POIXMLTextExtractorDecorator.java"
-    },
-    {
-      "repo": "https://bitbucket.org/mg/olat",
-      "language": "Java",
-      "linescount": 147,
-      "location": "/src/main/java/org/olat/search/service/document/file",
-      "name": "olat",
-      "url": "https://searchcode.com/codesearch/view/126168424/",
-      "md5hash": "26b25461c47f18552a57123da05c1f4a",
-      "lines": {
-        "80": "\t\t\tfinal POIXMLTextExtractor extractor = (POIXMLTextExtractor) ExtractorFactory.createExtractor(bis);",
-        "29": "import org.apache.poi.POIXMLDocument;",
-        "30": "import org.apache.poi.POIXMLTextExtractor;",
-        "79": "\t\t\tbis = new BufferedInputStream(leaf.getInputStream());"
-      },
-      "id": 126168424,
-      "filename": "ExcelOOXMLDocument.java"
-    },
-    {
-      "repo": "https://bitbucket.org/mg/olat",
-      "language": "Java",
-      "linescount": 156,
-      "location": "/src/main/java/org/olat/search/service/document/file",
-      "name": "olat",
-      "url": "https://searchcode.com/codesearch/view/126168429/",
-      "md5hash": "dfe530c94dc566561a0e060d649eb7c5",
-      "lines": {
-        "80": "\t\t\tbis = new BufferedInputStream(leaf.getInputStream());",
-        "81": "\t\t\tfinal POIXMLTextExtractor extractor = (POIXMLTextExtractor) ExtractorFactory.createExtractor(bis);",
-        "29": "import org.apache.poi.POIXMLDocument;",
-        "30": "import org.apache.poi.POIXMLTextExtractor;"
-      },
-      "id": 126168429,
-      "filename": "WordOOXMLDocument.java"
-    },
-    {
-      "repo": "https://bitbucket.org/mg/olat",
-      "language": "Java",
-      "linescount": 142,
-      "location": "/src/main/java/org/olat/search/service/document/file",
-      "name": "olat",
-      "url": "https://searchcode.com/codesearch/view/126168430/",
-      "md5hash": "2571ccf2f7e2fae1fccea79a449e6010",
-      "lines": {
-        "84": "\t\t\tbis = new BufferedInputStream(leaf.getInputStream());",
-        "28": "import org.apache.poi.POIXMLDocument;",
-        "29": "import org.apache.poi.POIXMLTextExtractor;",
-        "85": "\t\t\tfinal POIXMLTextExtractor extractor = (POIXMLTextExtractor) ExtractorFactory.createExtractor(bis);"
-      },
-      "id": 126168430,
-      "filename": "PowerPointOOXMLDocument.java"
     }
   ],
   "page": 0,
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 5,
+      "count": 4,
       "source": "Github",
       "id": 2
-    },
-    {
-      "count": 3,
-      "source": "Bitbucket",
-      "id": 3
     }
   ]
 }

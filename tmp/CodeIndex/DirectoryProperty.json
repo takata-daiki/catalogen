@@ -1,74 +1,17 @@
 {
-  "matchterm": "DirectoryProperty",
+  "matchterm": "org.apache.poi.poifs.property.DirectoryProperty",
   "previouspage": null,
-  "searchterm": "DirectoryProperty",
-  "query": "DirectoryProperty",
+  "searchterm": "org.apache.poi.poifs.property.DirectoryProperty",
+  "query": "org.apache.poi.poifs.property.DirectoryProperty",
   "language_filters": [
     {
-      "count": 16,
+      "count": 8,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 16,
+  "total": 8,
   "results": [
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 324,
-      "location": "/components/forks/poi/src/loci/poi/poifs/property",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642247/",
-      "md5hash": "ec46443bba528fd95a0e3ea3a87f2ebc",
-      "lines": {
-        "72": "",
-        "322": "}   // end public class DirectoryProperty",
-        "55": "",
-        "56": "public class DirectoryProperty",
-        "73": "    public DirectoryProperty(String name)",
-        "92": "",
-        "93": "    protected DirectoryProperty(final int index, final byte [] array,",
-        "321": "    /* **********  END  implementation of Parent ********** */"
-      },
-      "id": 15642247,
-      "filename": "DirectoryProperty.java"
-    },
-    {
-      "repo": "https://github.com/fuerve/VillageElder.git",
-      "language": "Java",
-      "linescount": 47,
-      "location": "/src/main/java/com/fuerve/villageelder/configuration/types",
-      "name": "VillageElder",
-      "url": "https://searchcode.com/codesearch/view/70459093/",
-      "md5hash": "5788fc7b60edab4d871b91dcead028fb",
-      "lines": {
-        "35": " */",
-        "36": "public class DirectoryProperty extends TypedProperty<Directory> {"
-      },
-      "id": 70459093,
-      "filename": "DirectoryProperty.java"
-    },
-    {
-      "repo": "https://bitbucket.org/arykov/grinder.git",
-      "language": "Java",
-      "linescount": 1176,
-      "location": "/grinder-core/src/main/java/net/grinder/console/model",
-      "name": "grinder",
-      "url": "https://searchcode.com/codesearch/view/47299344/",
-      "md5hash": "8e93c7bd4ded54ff46498fc4621d7a47",
-      "lines": {
-        "176": "",
-        "177": "  private final DirectoryProperty m_distributionDirectory =",
-        "178": "    new DirectoryProperty(DISTRIBUTION_DIRECTORY_PROPERTY);",
-        "179": "",
-        "1092": "",
-        "1093": "  private final class DirectoryProperty extends Property<Directory> {",
-        "1094": "    public DirectoryProperty(final String propertyName) {",
-        "1095": "      super(propertyName, new Directory());"
-      },
-      "id": 47299344,
-      "filename": "ConsoleProperties.java"
-    },
     {
       "repo": "https://github.com/minstrelsy/POI-Android.git",
       "language": "Java",
@@ -78,84 +21,24 @@
       "url": "https://searchcode.com/codesearch/view/97397929/",
       "md5hash": "5083d727a84f9c004bece7393d2ae9b8",
       "lines": {
-        "464": "     * @param directory the DirectoryProperty being added",
-        "466": "",
-        "467": "    void addDirectory(final DirectoryProperty directory)",
+        "34": "",
+        "35": "import org.apache.poi.poifs.common.POIFSBigBlockSize;",
+        "36": "import org.apache.poi.poifs.common.POIFSConstants;",
         "37": "import org.apache.poi.poifs.dev.POIFSViewable;",
         "38": "import org.apache.poi.poifs.property.DirectoryProperty;",
-        "510": "                    small_blocks, big_blocks,",
-        "511": "                    (( DirectoryProperty ) property).getChildren(),",
-        "461": "    /**",
-        "462": "     * add a new DirectoryProperty",
-        "463": "     *"
+        "39": "import org.apache.poi.poifs.property.Property;",
+        "40": "import org.apache.poi.poifs.property.PropertyTable;",
+        "41": "import org.apache.poi.poifs.storage.BATBlock;",
+        "42": "import org.apache.poi.poifs.storage.BlockAllocationTableReader;",
+        "43": "import org.apache.poi.poifs.storage.BlockAllocationTableWriter;",
+        "44": "import org.apache.poi.poifs.storage.BlockList;",
+        "45": "import org.apache.poi.poifs.storage.BlockWritable;",
+        "46": "import org.apache.poi.poifs.storage.HeaderBlockConstants;",
+        "19": "",
+        "20": "package org.apache.poi.poifs.filesystem;"
       },
       "id": 97397929,
       "filename": "POIFSFileSystem.java"
-    },
-    {
-      "repo": "https://github.com/apache/karaf.git",
-      "language": "Java",
-      "linescount": 312,
-      "location": "/main/src/main/java/org/apache/karaf/main/util",
-      "name": "karaf",
-      "url": "https://searchcode.com/codesearch/view/111770512/",
-      "md5hash": "aa9f959f5cf2abb092a7e7e8ed6284be",
-      "lines": {
-        "100": "    ",
-        "101": "    public static File getKarafDirectory(String directoryProperty, String directoryEnvironmentVariable, File defaultValue, boolean create, boolean validate) {",
-        "103": "        ",
-        "104": "        String path = System.getProperty(directoryProperty);",
-        "105": "        if (path != null) {",
-        "106": "            rc = validateDirectoryExists(path, \"Invalid \" + directoryProperty + \" system property\", create, validate);"
-      },
-      "id": 111770512,
-      "filename": "Utils.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 458,
-      "location": "/components/forks/poi/src/loci/poi/poifs/filesystem",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642286/",
-      "md5hash": "a149450acd4d1363e1060108fcdd5c42",
-      "lines": {
-        "112": "            {",
-        "194": "            (( DirectoryProperty ) getProperty())",
-        "113": "                childNode = new DirectoryNode(( DirectoryProperty ) child,",
-        "329": "    {",
-        "193": "        boolean rval =",
-        "171": "        {",
-        "172": "            rval = (( DirectoryProperty ) getProperty())",
-        "333": "",
-        "334": "        (( DirectoryProperty ) getProperty()).addChild(property);",
-        "80": "     *",
-        "81": "     * @param property the DirectoryProperty for this DirectoryEntry",
-        "51": "import loci.poi.poifs.dev.POIFSViewable;",
-        "52": "import loci.poi.poifs.property.DirectoryProperty;",
-        "149": "",
-        "150": "        (( DirectoryProperty ) getProperty()).addChild(property);",
-        "330": "        DirectoryProperty property = new DirectoryProperty(name);"
-      },
-      "id": 15642286,
-      "filename": "DirectoryNode.java"
-    },
-    {
-      "repo": "https://github.com/JoshiManjila/wildfly.git",
-      "language": "Java",
-      "linescount": 864,
-      "location": "/logging/src/main/java/org/jboss/as/logging/logging",
-      "name": "wildfly",
-      "url": "https://searchcode.com/codesearch/view/93643921/",
-      "md5hash": "5b5c88550354118715f925766acf43b6",
-      "lines": {
-        "851": "    @Message(id = 80, value = \"File '%s' was not found and cannot be found in the %s directory property.\")",
-        "852": "    OperationFailedException logFileNotFound(String name, String directoryProperty);",
-        "846": "     * @param name              the name of the file that was not found",
-        "847": "     * @param directoryProperty the name of the property used to resolved the log directory"
-      },
-      "id": 93643921,
-      "filename": "LoggingLogger.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -166,16 +49,22 @@
       "url": "https://searchcode.com/codesearch/view/15642276/",
       "md5hash": "821ddc8beda41ba4d7ad809592451995",
       "lines": {
-        "384": "    void addDirectory(final DirectoryProperty directory)",
-        "426": "                    small_blocks, big_blocks,",
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.poifs.filesystem;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "49": "",
+        "50": "import loci.poi.poifs.common.POIFSConstants;",
         "51": "import loci.poi.poifs.dev.POIFSViewable;",
         "52": "import loci.poi.poifs.property.DirectoryProperty;",
-        "427": "                    (( DirectoryProperty ) property).getChildren(), new_dir);",
-        "378": "    /**",
-        "379": "     * add a new DirectoryProperty",
-        "380": "     *",
-        "381": "     * @param directory the DirectoryProperty being added",
-        "383": ""
+        "53": "import loci.poi.poifs.property.DocumentProperty;",
+        "54": "import loci.poi.poifs.property.Property;",
+        "55": "import loci.poi.poifs.property.PropertyTable;",
+        "56": "import loci.poi.poifs.storage.BATBlock;",
+        "31": ""
       },
       "id": 15642276,
       "filename": "POIFSFileSystem.java"
@@ -183,74 +72,31 @@
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
       "language": "Java",
-      "linescount": 268,
-      "location": "/components/forks/poi/src/loci/poi/poifs/property",
+      "linescount": 458,
+      "location": "/components/forks/poi/src/loci/poi/poifs/filesystem",
       "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642249/",
-      "md5hash": "ec58a14799afd1ed760c28ac77bdf126",
+      "url": "https://searchcode.com/codesearch/view/15642286/",
+      "md5hash": "a149450acd4d1363e1060108fcdd5c42",
       "lines": {
-        "177": "",
-        "178": "    private void populatePropertyTree(DirectoryProperty root)",
-        "198": "            {",
-        "103": "                .convertToProperties(blockList.fetchBlocks(startBlock));",
-        "104": "        populatePropertyTree(( DirectoryProperty ) _properties.get(0));",
-        "199": "                populatePropertyTree(( DirectoryProperty ) property);"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.poifs.filesystem;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "50": "import loci.poi.hpsf.ClassID;",
+        "51": "import loci.poi.poifs.dev.POIFSViewable;",
+        "52": "import loci.poi.poifs.property.DirectoryProperty;",
+        "53": "import loci.poi.poifs.property.DocumentProperty;",
+        "54": "import loci.poi.poifs.property.Property;",
+        "55": "import loci.poi.util.*;",
+        "59": " *",
+        "60": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "31": ""
       },
-      "id": 15642249,
-      "filename": "PropertyTable.java"
-    },
-    {
-      "repo": "https://github.com/fuerve/VillageElder.git",
-      "language": "Java",
-      "linescount": 108,
-      "location": "/src/main/java/com/fuerve/villageelder/configuration",
-      "name": "VillageElder",
-      "url": "https://searchcode.com/codesearch/view/70459031/",
-      "md5hash": "b7fa7ec367ac4448c6594bca09691577",
-      "lines": {
-        "35": "import com.fuerve.villageelder.configuration.types.DirectoryProperty;",
-        "34": "",
-        "83": "   private void requestProperties() {",
-        "84": "      requestProperty(INDEX_DIRECTORY_PROPERTY, new DirectoryProperty());",
-        "85": "      requestProperty(TAXONOMY_DIRECTORY_PROPERTY, new DirectoryProperty());",
-        "86": "   }"
-      },
-      "id": 70459031,
-      "filename": "CommonProperties.java"
-    },
-    {
-      "repo": "https://github.com/kylape/jboss-as.git",
-      "language": "Java",
-      "linescount": 727,
-      "location": "/logging/src/main/java/org/jboss/as/logging",
-      "name": "jboss-as",
-      "url": "https://searchcode.com/codesearch/view/66097103/",
-      "md5hash": "f55c1c6d48573377999a735fab8f26d5",
-      "lines": {
-        "714": "    @Message(id = 11594, value = \"File '%s' was not found and cannot be found in the %s directory property.\")",
-        "715": "    OperationFailedException logFileNotFound(String name, String directoryProperty);",
-        "709": "     * @param name              the name of the file that was not found",
-        "710": "     * @param directoryProperty the name of the property used to resolved the log directory"
-      },
-      "id": 66097103,
-      "filename": "LoggingMessages.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 126,
-      "location": "/components/forks/poi/src/loci/poi/poifs/property",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642242/",
-      "md5hash": "4eff013c957bb876ea3bee107a0e0a82",
-      "lines": {
-        "56": " * should correspond to a Property, but which does not map to a proper",
-        "57": " * Property (i.e., a DirectoryProperty, DocumentProperty, or",
-        "100": "                        properties",
-        "101": "                            .add(new DirectoryProperty(properties.size(),"
-      },
-      "id": 15642242,
-      "filename": "PropertyFactory.java"
+      "id": 15642286,
+      "filename": "DirectoryNode.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -261,43 +107,109 @@
       "url": "https://searchcode.com/codesearch/view/15642289/",
       "md5hash": "0574f17f0841331cab62f67868201274",
       "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.poifs.eventfilesystem;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "49": "",
+        "50": "import loci.poi.poifs.filesystem.DocumentInputStream;",
+        "51": "import loci.poi.poifs.filesystem.POIFSDocument;",
         "52": "import loci.poi.poifs.filesystem.POIFSDocumentPath;",
         "53": "import loci.poi.poifs.property.DirectoryProperty;",
-        "262": "                    small_blocks, big_blocks,",
-        "263": "                    (( DirectoryProperty ) property).getChildren(), new_path);"
+        "54": "import loci.poi.poifs.property.Property;",
+        "55": "import loci.poi.poifs.property.PropertyTable;",
+        "56": "import loci.poi.poifs.storage.BlockAllocationTableReader;",
+        "31": ""
       },
       "id": 15642289,
       "filename": "POIFSReader.java"
     },
     {
-      "repo": "https://bitbucket.org/sdorra/svnkit",
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
       "language": "Java",
-      "linescount": 1131,
-      "location": "/svnkit/src/test/java/org/tmatesoft/svn/test",
-      "name": "svnkit",
-      "url": "https://searchcode.com/codesearch/view/128611108/",
-      "md5hash": "a5852cf86d8a29471caaaab8dfe76700",
+      "linescount": 324,
+      "location": "/components/forks/poi/src/loci/poi/poifs/property",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642247/",
+      "md5hash": "ec46443bba528fd95a0e3ea3a87f2ebc",
       "lines": {
-        "313": "            workingCopy.setProperty(file, \"fileProperty\", SVNPropertyValue.create(\"filePropertyValue\"));",
-        "314": "            workingCopy.setProperty(directory, \"directoryProperty\", SVNPropertyValue.create(\"directoryPropertyValue\"));"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.poifs.property;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "47": "",
+        "48": "import loci.poi.poifs.storage.SmallDocumentBlock;",
+        "52": " *",
+        "53": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "55": "",
+        "56": "public class DirectoryProperty",
+        "57": "    extends Property",
+        "31": ""
       },
-      "id": 128611108,
-      "filename": "DiffTest.java"
+      "id": 15642247,
+      "filename": "DirectoryProperty.java"
     },
     {
-      "repo": "https://bitbucket.org/sdorra/svnkit-mq",
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
       "language": "Java",
-      "linescount": 1131,
-      "location": "/svnkit/src/test/java/org/tmatesoft/svn/test",
-      "name": "svnkit-mq",
-      "url": "https://searchcode.com/codesearch/view/128612607/",
-      "md5hash": "a5852cf86d8a29471caaaab8dfe76700",
+      "linescount": 268,
+      "location": "/components/forks/poi/src/loci/poi/poifs/property",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642249/",
+      "md5hash": "ec58a14799afd1ed760c28ac77bdf126",
       "lines": {
-        "313": "            workingCopy.setProperty(file, \"fileProperty\", SVNPropertyValue.create(\"filePropertyValue\"));",
-        "314": "            workingCopy.setProperty(directory, \"directoryProperty\", SVNPropertyValue.create(\"directoryPropertyValue\"));"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.poifs.property;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "48": "",
+        "49": "import loci.poi.poifs.common.POIFSConstants;",
+        "50": "import loci.poi.poifs.filesystem.BATManaged;",
+        "51": "import loci.poi.poifs.storage.BlockWritable;",
+        "52": "import loci.poi.poifs.storage.PropertyBlock;",
+        "53": "import loci.poi.poifs.storage.RawDataBlock;",
+        "54": "import loci.poi.poifs.storage.RawDataBlockList;",
+        "31": ""
       },
-      "id": 128612607,
-      "filename": "DiffTest.java"
+      "id": 15642249,
+      "filename": "PropertyTable.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 126,
+      "location": "/components/forks/poi/src/loci/poi/poifs/property",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642242/",
+      "md5hash": "4eff013c957bb876ea3bee107a0e0a82",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.poifs.property;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "47": "",
+        "48": "import loci.poi.poifs.common.POIFSConstants;",
+        "49": "import loci.poi.poifs.storage.ListManagedBlock;",
+        "50": "",
+        "56": " * should correspond to a Property, but which does not map to a proper",
+        "57": " * Property (i.e., a DirectoryProperty, DocumentProperty, or",
+        "58": " * RootProperty) will get mapped to a null Property in the array.",
+        "31": ""
+      },
+      "id": 15642242,
+      "filename": "PropertyFactory.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -308,8 +220,23 @@
       "url": "https://searchcode.com/codesearch/view/15642243/",
       "md5hash": "28cc66b1140b455a3efd35643218ce42",
       "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.poifs.property;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "47": "",
+        "48": "import loci.poi.poifs.common.POIFSConstants;",
+        "49": "import loci.poi.poifs.storage.SmallDocumentBlock;",
+        "50": "",
+        "53": " *",
+        "54": " * @author Marc Johnson (mjohnson at apache dot org)",
         "57": "public class RootProperty",
-        "58": "    extends DirectoryProperty"
+        "58": "    extends DirectoryProperty",
+        "59": "{",
+        "31": ""
       },
       "id": 15642243,
       "filename": "RootProperty.java"
@@ -319,14 +246,9 @@
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 13,
+      "count": 8,
       "source": "Github",
       "id": 2
-    },
-    {
-      "count": 3,
-      "source": "Bitbucket",
-      "id": 3
     }
   ]
 }

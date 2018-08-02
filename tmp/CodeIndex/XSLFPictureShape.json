@@ -1,8 +1,8 @@
 {
-  "matchterm": "XSLFPictureShape",
+  "matchterm": "org.apache.poi.xslf.usermodel.XSLFPictureShape",
   "previouspage": null,
-  "searchterm": "XSLFPictureShape",
-  "query": "XSLFPictureShape",
+  "searchterm": "org.apache.poi.xslf.usermodel.XSLFPictureShape",
+  "query": "org.apache.poi.xslf.usermodel.XSLFPictureShape",
   "language_filters": [
     {
       "count": 7,
@@ -13,6 +13,34 @@
   "total": 7,
   "results": [
     {
+      "repo": "https://github.com/nls-oskari/oskari-server.git",
+      "language": "Java",
+      "linescount": 161,
+      "location": "/servlet-printout/src/main/java/fi/nls/oskari/printout/ws/jaxrs/format",
+      "name": "oskari-server",
+      "url": "https://searchcode.com/codesearch/view/76071743/",
+      "md5hash": "e9cd50395eb04e2236447d20d7ac7ccb",
+      "lines": {
+        "57": "\t\t/*",
+        "55": "",
+        "56": "\t\tXSLFSlide slide = ppt.createSlide();",
+        "18": "",
+        "19": "import org.apache.poi.xslf.usermodel.XMLSlideShow;",
+        "20": "import org.apache.poi.xslf.usermodel.XSLFPictureData;",
+        "21": "import org.apache.poi.xslf.usermodel.XSLFPictureShape;",
+        "22": "import org.apache.poi.xslf.usermodel.XSLFSlide;",
+        "23": "import org.geowebcache.GeoWebCacheException;",
+        "24": "import org.geowebcache.filter.request.RequestFilterException;",
+        "25": "import org.opengis.referencing.operation.TransformException;",
+        "26": "",
+        "27": "import com.vividsolutions.jts.geom.Envelope;",
+        "28": "import com.vividsolutions.jts.geom.Point;",
+        "58": "\t\t * XSLFTextBox shape = slide.createTextBox(); shape.setAnchor(new"
+      },
+      "id": 76071743,
+      "filename": "StreamingPPTXImpl.java"
+    },
+    {
       "repo": "https://github.com/minstrelsy/POI-Android.git",
       "language": "Java",
       "linescount": 162,
@@ -21,34 +49,25 @@
       "url": "https://searchcode.com/codesearch/view/97406705/",
       "md5hash": "3cf6ae3d47d4aecb9c8db82efffb3346",
       "lines": {
-        "49": "@Beta",
-        "50": "public class XSLFPictureShape extends XSLFSimpleShape {",
-        "52": "",
-        "53": "    /*package*/ XSLFPictureShape(CTPicture shape, XSLFSheet sheet) {",
-        "145": "",
-        "146": "        XSLFPictureShape p = (XSLFPictureShape)sh;"
+        "32": "import org.openxmlformats.schemas.drawingml.x2006.main.CTNonVisualDrawingProps;",
+        "33": "import org.openxmlformats.schemas.drawingml.x2006.main.CTPresetGeometry2D;",
+        "2": " *  ====================================================================",
+        "3": " *    Licensed to the Apache Software Foundation (ASF) under one or more",
+        "35": "import org.openxmlformats.schemas.drawingml.x2006.main.STShapeType;",
+        "9": " *",
+        "10": " *        http://www.apache.org/licenses/LICENSE-2.0",
+        "34": "import org.openxmlformats.schemas.drawingml.x2006.main.CTShapeProperties;",
+        "19": "",
+        "20": "package org.apache.poi.xslf.usermodel;",
+        "25": "",
+        "26": "import org.apache.poi.POIXMLException;",
+        "27": "import org.apache.poi.openxml4j.opc.PackagePart;",
+        "28": "import org.apache.poi.openxml4j.opc.PackageRelationship;",
+        "29": "import org.apache.poi.util.Beta;",
+        "30": "import org.openxmlformats.schemas.drawingml.x2006.main.CTBlip;"
       },
       "id": 97406705,
       "filename": "XSLFPictureShape.java"
-    },
-    {
-      "repo": "https://github.com/minstrelsy/POI-Android.git",
-      "language": "Java",
-      "linescount": 111,
-      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
-      "name": "POI-Android",
-      "url": "https://searchcode.com/codesearch/view/97406826/",
-      "md5hash": "88f503638871e547730cf002e54b3503",
-      "lines": {
-        "96": "        CTPicture obj = _spTree.addNewPic();",
-        "97": "        obj.set(XSLFPictureShape.prototype(_shapeId++, rel));",
-        "98": "        XSLFPictureShape shape = new XSLFPictureShape(obj, _sheet);",
-        "99": "        shape.setAnchor(new Rectangle());",
-        "94": "",
-        "95": "    public XSLFPictureShape createPicture(String rel){"
-      },
-      "id": 97406826,
-      "filename": "XSLFDrawing.java"
     },
     {
       "repo": "https://github.com/minstrelsy/POI-Android.git",
@@ -59,32 +78,53 @@
       "url": "https://searchcode.com/codesearch/view/97406768/",
       "md5hash": "06c77456c926d8545168347abe70a1d6",
       "lines": {
-        "194": "",
-        "195": "        XSLFPictureShape sh = getDrawing().createPicture(rel.getId());",
-        "180": "",
-        "181": "    public XSLFPictureShape createPicture(int pictureIndex){",
-        "102": "            } else if (ch instanceof CTPicture){",
-        "103": "                shapes.add(new XSLFPictureShape((CTPicture)ch, this));"
+        "32": "",
+        "33": "import org.apache.poi.POIXMLDocumentPart;",
+        "34": "import org.apache.poi.POIXMLException;",
+        "35": "import org.apache.poi.openxml4j.exceptions.InvalidFormatException;",
+        "36": "import org.apache.poi.openxml4j.opc.PackagePart;",
+        "37": "import org.apache.poi.openxml4j.opc.PackageRelationship;",
+        "38": "import org.apache.poi.openxml4j.opc.TargetMode;",
+        "39": "import org.apache.poi.util.Beta;",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "42": "import org.apache.xmlbeans.XmlOptions;",
+        "43": "import org.openxmlformats.schemas.officeDocument.x2006.relationships.STRelationshipId;",
+        "16": "==================================================================== */",
+        "17": "package org.apache.poi.xslf.usermodel;",
+        "41": "import org.apache.xmlbeans.XmlObject;",
+        "40": "import org.apache.poi.util.Internal;"
       },
       "id": 97406768,
       "filename": "XSLFSheet.java"
     },
     {
-      "repo": "https://github.com/nls-oskari/oskari-server.git",
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
       "language": "Java",
-      "linescount": 161,
-      "location": "/servlet-printout/src/main/java/fi/nls/oskari/printout/ws/jaxrs/format",
-      "name": "oskari-server",
-      "url": "https://searchcode.com/codesearch/view/76071743/",
-      "md5hash": "e9cd50395eb04e2236447d20d7ac7ccb",
+      "linescount": 111,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406826/",
+      "md5hash": "88f503638871e547730cf002e54b3503",
       "lines": {
-        "97": "",
-        "98": "\t\tXSLFPictureShape shape = slide.createPicture(pictureIndex);",
-        "20": "import org.apache.poi.xslf.usermodel.XSLFPictureData;",
-        "21": "import org.apache.poi.xslf.usermodel.XSLFPictureShape;"
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "16": "==================================================================== */",
+        "17": "package org.apache.poi.xslf.usermodel;",
+        "18": "",
+        "19": "import org.apache.poi.util.Beta;",
+        "20": "import org.apache.xmlbeans.XmlObject;",
+        "21": "import org.openxmlformats.schemas.drawingml.x2006.main.CTNonVisualDrawingProps;",
+        "22": "//import org.openxmlformats.schemas.drawingml.x2006.main.CTNonVisualDrawingProps;",
+        "23": "import org.openxmlformats.schemas.presentationml.x2006.main.CTConnector;",
+        "24": "import org.openxmlformats.schemas.presentationml.x2006.main.CTGraphicalObjectFrame;"
       },
-      "id": 76071743,
-      "filename": "StreamingPPTXImpl.java"
+      "id": 97406826,
+      "filename": "XSLFDrawing.java"
     },
     {
       "repo": "https://github.com/minstrelsy/POI-Android.git",
@@ -95,10 +135,21 @@
       "url": "https://searchcode.com/codesearch/view/97406700/",
       "md5hash": "7ac71aab113fccf906b12580ebb695aa",
       "lines": {
-        "240": "    public XSLFPictureShape createPicture(int pictureIndex){",
-        "253": "",
-        "254": "        XSLFPictureShape sh = getDrawing().createPicture(rel.getId());",
-        "239": ""
+        "32": "import org.apache.poi.util.Units;",
+        "33": "import org.apache.xmlbeans.XmlObject;",
+        "34": "import org.openxmlformats.schemas.drawingml.x2006.main.CTGroupShapeProperties;",
+        "37": "//import org.openxmlformats.schemas.drawingml.x2006.main.CTNonVisualDrawingProps;",
+        "38": "import org.openxmlformats.schemas.drawingml.x2006.main.CTPoint2D;",
+        "39": "import org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveSize2D;",
+        "9": " *",
+        "10": " *        http://www.apache.org/licenses/LICENSE-2.0",
+        "19": "",
+        "20": "package org.apache.poi.xslf.usermodel;",
+        "27": "",
+        "28": "import org.apache.poi.openxml4j.opc.PackagePart;",
+        "29": "import org.apache.poi.openxml4j.opc.PackageRelationship;",
+        "30": "import org.apache.poi.openxml4j.opc.TargetMode;",
+        "31": "import org.apache.poi.util.Beta;"
       },
       "id": 97406700,
       "filename": "XSLFGroupShape.java"
@@ -112,8 +163,21 @@
       "url": "https://searchcode.com/codesearch/view/92131912/",
       "md5hash": "e8d97edebf3bc6b01a7ffe249d99390a",
       "lines": {
+        "43": "        txt1.setAnchor(new java.awt.Rectangle(250, 250, 450, 200));",
+        "38": "        // fill the placeholders",
+        "7": "import by.q64.promo.excelgen.service.utils.OtherUtils;",
+        "8": "import org.apache.log4j.Logger;",
+        "41": "",
+        "10": "import org.apache.poi.xslf.usermodel.*;",
+        "11": "import org.springframework.beans.factory.annotation.Autowired;",
+        "12": "import org.springframework.stereotype.Service;",
+        "13": "",
+        "77": "",
+        "76": "        XSLFPictureShape pic = slide.createPicture(idx);",
         "75": "        int idx = ppt.addPicture(bytes, XSLFPictureData.PICTURE_TYPE_PNG);",
-        "76": "        XSLFPictureShape pic = slide.createPicture(idx);"
+        "9": "import org.apache.poi.util.IOUtils;",
+        "39": "        XSLFSlide slide1 = ppt.createSlide();",
+        "42": "        XSLFTextBox txt1 = slide1.createTextBox();"
       },
       "id": 92131912,
       "filename": "MarketingReportFirstSlideGeneratorImpl.java"
@@ -127,8 +191,21 @@
       "url": "https://searchcode.com/codesearch/view/92131916/",
       "md5hash": "a58465613021fd4ec4403df58f01c572",
       "lines": {
-        "172": "            int idx = ppt.addPicture(picBytes1, XSLFPictureData.PICTURE_TYPE_PNG);",
-        "173": "            XSLFPictureShape pic = pptSlide.createPicture(idx);"
+        "4": "import by.q64.promo.excelgen.service.marketing.source.settings.MarketingReportSettings;",
+        "5": "import by.q64.promo.excelgen.service.utils.PowerpointCommonUtils;",
+        "6": "import org.apache.poi.xslf.usermodel.*;",
+        "7": "import org.springframework.beans.factory.annotation.Autowired;",
+        "8": "import org.springframework.stereotype.Service;",
+        "9": "",
+        "44": "",
+        "45": "        XSLFSlide slide = ppt.createSlide();",
+        "46": "",
+        "47": "        XSLFTextBox txt1 = slide.createTextBox();",
+        "48": "        txt1.setAnchor(new java.awt.Rectangle(20, 40, 600, 50));",
+        "49": "        XSLFTextParagraph p1 = txt1.addNewTextParagraph();",
+        "50": "        XSLFTextRun r1 = p1.addNewTextRun();",
+        "23": "    @Autowired",
+        "24": "    private PowerpointCommonUtils powerpointCommonUtils;"
       },
       "id": 92131916,
       "filename": "MarketingReportInCityGeneratorImpl.java"

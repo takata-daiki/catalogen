@@ -1,8 +1,8 @@
 {
-  "matchterm": "TextPieceTable",
+  "matchterm": "org.apache.poi.hwpf.model.TextPieceTable",
   "previouspage": null,
-  "searchterm": "TextPieceTable",
-  "query": "TextPieceTable",
+  "searchterm": "org.apache.poi.hwpf.model.TextPieceTable",
+  "query": "org.apache.poi.hwpf.model.TextPieceTable",
   "language_filters": [
     {
       "count": 6,
@@ -13,33 +13,6 @@
   "total": 6,
   "results": [
     {
-      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
-      "language": "Java",
-      "linescount": 1043,
-      "location": "/src/org/apache/poi/hwpf",
-      "name": "SimpleAndroidDocView",
-      "url": "https://searchcode.com/codesearch/view/97383956/",
-      "md5hash": "677c332698819342ff2ece2baf93a4ed",
-      "lines": {
-        "384": "  @Internal",
-        "385": "  public TextPieceTable getTextTable()",
-        "386": "  {",
-        "387": "    return _cft.getTextPieceTable();",
-        "731": "    _cbt.writeTo(wordDocumentStream, tableStream, fcMin, _cft.getTextPieceTable());",
-        "744": "    _fib.setFcPlcfbtePapx(tableOffset);",
-        "745": "    _pbt.writeTo(wordDocumentStream, tableStream, _cft.getTextPieceTable());",
-        "268": "    _cft = new ComplexFileTable(_mainStream, _tableStream, _fib.getFcClx(), fcMin);",
-        "269": "    TextPieceTable _tpt = _cft.getTextPieceTable();",
-        "50": "import org.apache.poi.hwpf.model.TextPiece;",
-        "51": "import org.apache.poi.hwpf.model.TextPieceTable;",
-        "730": "    _fib.setFcPlcfbteChpx(tableOffset);",
-        "315": "            _cft = new ComplexFileTable();",
-        "316": "            _tpt = _cft.getTextPieceTable();"
-      },
-      "id": 97383956,
-      "filename": "HWPFDocument.java"
-    },
-    {
       "repo": "https://bitbucket.org/AlexeyD/hibench.git",
       "language": "Java",
       "linescount": 232,
@@ -48,28 +21,80 @@
       "url": "https://searchcode.com/codesearch/view/48925096/",
       "md5hash": "201b11b383ec9671f21b7ecae9a90b52",
       "lines": {
-        "124": "    ComplexFileTable cft = new ComplexFileTable(header, tableStream, complexOffset, fcMin);",
+        "32": "import org.apache.poi.poifs.filesystem.DocumentInputStream;",
+        "33": "import org.apache.poi.poifs.filesystem.POIFSFileSystem;",
+        "34": "import org.apache.poi.util.LittleEndian;",
+        "35": "",
+        "6": " *",
+        "7": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "23": "// Jakarta POI imports",
+        "24": "import org.apache.poi.hwpf.model.CHPBinTable;",
+        "25": "import org.apache.poi.hwpf.model.CHPX;",
+        "26": "import org.apache.poi.hwpf.model.ComplexFileTable;",
         "27": "import org.apache.poi.hwpf.model.TextPiece;",
         "28": "import org.apache.poi.hwpf.model.TextPieceTable;",
-        "125": "    TextPieceTable tpt = cft.getTextPieceTable();"
+        "29": "import org.apache.poi.hwpf.sprm.SprmIterator;",
+        "30": "import org.apache.poi.hwpf.sprm.SprmOperation;",
+        "31": "import org.apache.poi.poifs.filesystem.DocumentEntry;"
       },
       "id": 48925096,
       "filename": "WordExtractor.java"
     },
     {
-      "repo": "https://bitbucket.org/AlexeyD/hibench.git",
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 1043,
+      "location": "/src/org/apache/poi/hwpf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383956/",
+      "md5hash": "677c332698819342ff2ece2baf93a4ed",
+      "lines": {
+        "32": "import org.apache.poi.hwpf.model.DocumentProperties;",
+        "33": "import org.apache.poi.hwpf.model.EscherRecordHolder;",
+        "34": "import org.apache.poi.hwpf.model.FSPADocumentPart;",
+        "35": "import org.apache.poi.hwpf.model.FSPATable;",
+        "36": "import org.apache.poi.hwpf.model.FieldsTables;",
+        "37": "import org.apache.poi.hwpf.model.FontTable;",
+        "38": "import org.apache.poi.hwpf.model.ListTables;",
+        "17": "",
+        "18": "package org.apache.poi.hwpf;",
+        "26": "",
+        "27": "import org.apache.poi.hpsf.DocumentSummaryInformation;",
+        "28": "import org.apache.poi.hpsf.SummaryInformation;",
+        "29": "import org.apache.poi.hwpf.model.BookmarksTables;",
+        "30": "import org.apache.poi.hwpf.model.CHPBinTable;",
+        "31": "import org.apache.poi.hwpf.model.ComplexFileTable;"
+      },
+      "id": 97383956,
+      "filename": "HWPFDocument.java"
+    },
+    {
+      "repo": "https://github.com/lritter/gnutch.git",
       "language": "Java",
       "linescount": 231,
-      "location": "/nutchindexing/nutch-1.2/src/plugin/parse-msword/src/java/org/apache/nutch/parse/msword",
-      "name": "hibench",
-      "url": "https://searchcode.com/codesearch/view/48925097/",
-      "md5hash": "379206f791d44eddf874be256962eee3",
+      "location": "/src/plugin/parse-msword/src/java/org/apache/nutch/parse/msword",
+      "name": "gnutch",
+      "url": "https://searchcode.com/codesearch/view/138792453/",
+      "md5hash": "40789e266310b897b848347166114477",
       "lines": {
-        "57": "    Word6CHPBinTable chpTable = new Word6CHPBinTable(mainStream, chpTableOffset,",
-        "58": "      chpTableSize, fcMin, new TextPieceTable());"
+        "32": "import org.apache.poi.poifs.filesystem.DocumentInputStream;",
+        "33": "import org.apache.poi.poifs.filesystem.POIFSFileSystem;",
+        "34": "import org.apache.poi.util.LittleEndian;",
+        "35": "",
+        "6": " *",
+        "7": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "23": "// Jakarta POI imports",
+        "24": "import org.apache.poi.hwpf.model.CHPBinTable;",
+        "25": "import org.apache.poi.hwpf.model.CHPX;",
+        "26": "import org.apache.poi.hwpf.model.ComplexFileTable;",
+        "27": "import org.apache.poi.hwpf.model.TextPiece;",
+        "28": "import org.apache.poi.hwpf.model.TextPieceTable;",
+        "29": "import org.apache.poi.hwpf.sprm.SprmIterator;",
+        "30": "import org.apache.poi.hwpf.sprm.SprmOperation;",
+        "31": "import org.apache.poi.poifs.filesystem.DocumentEntry;"
       },
-      "id": 48925097,
-      "filename": "Word6Extractor.java"
+      "id": 138792453,
+      "filename": "WordExtractor.java"
     },
     {
       "repo": "https://bitbucket.org/AlexeyD/hibench.git",
@@ -81,10 +106,53 @@
       "md5hash": "335f3012a4cdb326e87a971e5f16db15",
       "lines": {
         "48": "                     int size, int fcMin, TextPieceTable tpt)",
-        "47": "  public Word6CHPBinTable(byte[] documentStream, int offset,"
+        "2": " *",
+        "3": " *  Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "6": " *",
+        "7": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "41": "   *",
+        "42": "   * @param documentStream The POIFS \"WordDocument\" stream from a Word document",
+        "47": "  public Word6CHPBinTable(byte[] documentStream, int offset,",
+        "15": "",
+        "16": "package org.apache.nutch.parse.msword.chp;",
+        "22": "",
+        "23": "import org.apache.poi.poifs.common.POIFSConstants;",
+        "24": "import org.apache.poi.util.LittleEndian;",
+        "25": "import org.apache.poi.hwpf.model.io.*;",
+        "26": "import org.apache.poi.hwpf.model.*;",
+        "27": ""
       },
       "id": 48925102,
       "filename": "Word6CHPBinTable.java"
+    },
+    {
+      "repo": "https://bitbucket.org/AlexeyD/hibench.git",
+      "language": "Java",
+      "linescount": 231,
+      "location": "/nutchindexing/nutch-1.2/src/plugin/parse-msword/src/java/org/apache/nutch/parse/msword",
+      "name": "hibench",
+      "url": "https://searchcode.com/codesearch/view/48925097/",
+      "md5hash": "379206f791d44eddf874be256962eee3",
+      "lines": {
+        "2": " *",
+        "3": " *  Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "6": " *",
+        "7": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "41": "   *",
+        "42": "   * @param mainStream The POIFS document stream entitled \"WordDocument\".",
+        "15": "",
+        "16": "package org.apache.nutch.parse.msword;",
+        "17": "",
+        "18": "import org.apache.nutch.parse.msword.chp.*;",
+        "19": "",
+        "20": "import org.apache.poi.util.LittleEndian;",
+        "21": "import org.apache.poi.hwpf.model.*;",
+        "22": "",
+        "26": " * This class is used to extract text from Word 6 documents only. It should",
+        "27": " * only be called from the org.textmining.text.extraction.WordExtractor because"
+      },
+      "id": 48925097,
+      "filename": "Word6Extractor.java"
     },
     {
       "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
@@ -95,28 +163,24 @@
       "url": "https://searchcode.com/codesearch/view/97384195/",
       "md5hash": "4b50336a137f1a24d0274bce878f8610",
       "lines": {
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "74": "            int offset, int fcMin, TextPieceTable tpt )",
+        "17": "",
+        "18": "package org.apache.poi.hwpf.model;",
         "73": "    public PAPFormattedDiskPage( byte[] documentStream, byte[] dataStream,",
-        "74": "            int offset, int fcMin, TextPieceTable tpt )"
+        "25": "",
+        "26": "import org.apache.poi.hwpf.model.io.HWPFOutputStream;",
+        "27": "import org.apache.poi.util.Internal;",
+        "28": "import org.apache.poi.util.LittleEndian;",
+        "29": ""
       },
       "id": 97384195,
       "filename": "PAPFormattedDiskPage.java"
-    },
-    {
-      "repo": "https://github.com/lritter/gnutch.git",
-      "language": "Java",
-      "linescount": 231,
-      "location": "/src/plugin/parse-msword/src/java/org/apache/nutch/parse/msword",
-      "name": "gnutch",
-      "url": "https://searchcode.com/codesearch/view/138792453/",
-      "md5hash": "40789e266310b897b848347166114477",
-      "lines": {
-        "27": "import org.apache.poi.hwpf.model.TextPiece;",
-        "28": "import org.apache.poi.hwpf.model.TextPieceTable;",
-        "125": "    ComplexFileTable cft = new ComplexFileTable(header, tableStream, complexOffset, fcMin);",
-        "126": "    TextPieceTable tpt = cft.getTextPieceTable();"
-      },
-      "id": 138792453,
-      "filename": "WordExtractor.java"
     }
   ],
   "page": 0,

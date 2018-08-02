@@ -1,8 +1,8 @@
 {
-  "matchterm": "SeriesToChartGroupRecord",
+  "matchterm": "org.apache.poi.hssf.record.chart.SeriesToChartGroupRecord",
   "previouspage": null,
-  "searchterm": "SeriesToChartGroupRecord",
-  "query": "SeriesToChartGroupRecord",
+  "searchterm": "org.apache.poi.hssf.record.chart.SeriesToChartGroupRecord",
+  "query": "org.apache.poi.hssf.record.chart.SeriesToChartGroupRecord",
   "language_filters": [
     {
       "count": 1,
@@ -21,14 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/15642440/",
       "md5hash": "61857d2698e853c4c2d03468a4263142",
       "lines": {
-        "136": "    public Object clone() {",
-        "137": "        SeriesToChartGroupRecord rec = new SeriesToChartGroupRecord();",
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.record;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "48": "/**",
+        "49": " * Indicates the chart-group index for a series.  The order probably defines the mapping.  So the 0th record probably means the 0th series.  The only field in this of course defines which chart group the 0th series (for instance) would map to.  Confusing?  Well thats because it is.  (p 522 BCG)",
+        "50": " * NOTE: This source is automatically generated please do not modify this file.  Either subclass or",
         "54": " */",
         "55": "public class SeriesToChartGroupRecord",
-        "72": "",
-        "73": "    public SeriesToChartGroupRecord(RecordInputStream in)",
+        "56": "    extends Record",
         "61": "",
-        "62": "    public SeriesToChartGroupRecord()"
+        "62": "    public SeriesToChartGroupRecord()",
+        "31": ""
       },
       "id": 15642440,
       "filename": "SeriesToChartGroupRecord.java"

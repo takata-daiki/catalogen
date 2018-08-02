@@ -1,8 +1,8 @@
 {
-  "matchterm": "FilePassRecord",
+  "matchterm": "org.apache.poi.hssf.record.FilePassRecord",
   "previouspage": null,
-  "searchterm": "FilePassRecord",
-  "query": "FilePassRecord",
+  "searchterm": "org.apache.poi.hssf.record.FilePassRecord",
+  "query": "org.apache.poi.hssf.record.FilePassRecord",
   "language_filters": [
     {
       "count": 3,
@@ -15,40 +15,59 @@
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
       "language": "Java",
-      "linescount": 127,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642486/",
-      "md5hash": "e1b191203acbd2a2ec621d07bc57e0cb",
-      "lines": {
-        "70": "    public FilePassRecord(RecordInputStream in)",
-        "69": "",
-        "54": "",
-        "55": "public class FilePassRecord",
-        "121": "    public Object clone() {",
-        "122": "      FilePassRecord rec = new FilePassRecord();",
-        "60": "",
-        "61": "    public FilePassRecord()"
-      },
-      "id": 15642486,
-      "filename": "FilePassRecord.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
       "linescount": 506,
       "location": "/components/forks/poi/src/loci/poi/hssf/eventmodel",
       "name": "bioformats",
       "url": "https://searchcode.com/codesearch/view/15642343/",
       "md5hash": "468caa59753e7c2d27a76f3903f70894",
       "lines": {
-        "184": "                PaletteRecord.class, StringRecord.class, SharedFormulaRecord.class, ",
-        "185": "                WriteProtectRecord.class, FilePassRecord.class, PaneRecord.class,",
-        "131": "import loci.poi.hssf.record.WriteProtectRecord;",
-        "132": "import loci.poi.hssf.record.FilePassRecord;"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "50": "",
+        "51": "import loci.poi.hssf.record.BOFRecord;",
+        "52": "import loci.poi.hssf.record.BackupRecord;",
+        "53": "import loci.poi.hssf.record.BlankRecord;",
+        "54": "import loci.poi.hssf.record.BookBoolRecord;",
+        "55": "import loci.poi.hssf.record.BoolErrRecord;",
+        "56": "import loci.poi.hssf.record.BottomMarginRecord;",
+        "57": "import loci.poi.hssf.record.BoundSheetRecord;",
+        "58": "import loci.poi.hssf.record.CalcCountRecord;",
+        "59": "import loci.poi.hssf.record.CalcModeRecord;",
+        "31": ""
       },
       "id": 15642343,
       "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 127,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642486/",
+      "md5hash": "e1b191203acbd2a2ec621d07bc57e0cb",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.record;",
+        "43": "",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "47": " * Title:        File Pass Record<P>",
+        "48": " * Description:  Indicates that the record after this record are encrypted. HSSF does not support encrypted excel workbooks",
+        "49": " * and the presence of this record will cause processing to be aborted.<p>",
+        "54": "",
+        "55": "public class FilePassRecord",
+        "56": "    extends Record",
+        "31": ""
+      },
+      "id": 15642486,
+      "filename": "FilePassRecord.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -59,8 +78,21 @@
       "url": "https://searchcode.com/codesearch/view/15642481/",
       "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
       "lines": {
-        "97": "                HorizontalPageBreakRecord.class, VerticalPageBreakRecord.class, ",
-        "98": "                WriteProtectRecord.class, FilePassRecord.class, PaneRecord.class,"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.record;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "51": " *",
+        "52": " * @deprecated use {@link loci.poi.hssf.eventmodel.EventRecordFactory} instead",
+        "53": " * @see loci.poi.hssf.eventmodel.EventRecordFactory",
+        "54": " * @author Andrew C. Oliver (acoliver at apache dot org)",
+        "55": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "56": " * @author Glen Stampoultzis (glens at apache.org)",
+        "57": " * @author Csaba Nagy (ncsaba at yahoo dot com)",
+        "31": ""
       },
       "id": 15642481,
       "filename": "RecordFactory.java"

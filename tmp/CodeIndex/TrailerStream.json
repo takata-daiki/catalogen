@@ -1,8 +1,8 @@
 {
-  "matchterm": "TrailerStream",
+  "matchterm": "org.apache.poi.hdgf.streams.TrailerStream",
   "previouspage": null,
-  "searchterm": "TrailerStream",
-  "query": "TrailerStream",
+  "searchterm": "org.apache.poi.hdgf.streams.TrailerStream",
+  "query": "org.apache.poi.hdgf.streams.TrailerStream",
   "language_filters": [
     {
       "count": 1,
@@ -21,8 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97397248/",
       "md5hash": "3eb320077de8a4bc1854a83f8ac115d8",
       "lines": {
-        "65": "\t\tPointer trailerPointer = ptrFactory.createPointer(contents, 0x24);",
-        "66": "\t\tTrailerStream trailer = (TrailerStream)"
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hdgf.streams;",
+        "21": "",
+        "22": "import org.apache.poi.hdgf.HDGFDiagram;",
+        "23": "import org.apache.poi.hdgf.chunks.ChunkFactory;",
+        "24": "import org.apache.poi.hdgf.pointers.Pointer;",
+        "25": "import org.apache.poi.hdgf.pointers.PointerFactory;",
+        "26": "import org.apache.poi.poifs.filesystem.DocumentEntry;",
+        "27": "import org.apache.poi.poifs.filesystem.POIFSFileSystem;",
+        "28": "import org.apache.poi.POIDataSamples;",
+        "29": ""
       },
       "id": 97397248,
       "filename": "TestStreamBugs.java"
