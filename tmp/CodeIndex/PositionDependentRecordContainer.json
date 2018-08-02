@@ -1,8 +1,8 @@
 {
-  "matchterm": "PositionDependentRecordContainer",
+  "matchterm": "org.apache.poi.hslf.record.PositionDependentRecordContainer",
   "previouspage": null,
-  "searchterm": "PositionDependentRecordContainer",
-  "query": "PositionDependentRecordContainer",
+  "searchterm": "org.apache.poi.hslf.record.PositionDependentRecordContainer",
+  "query": "org.apache.poi.hslf.record.PositionDependentRecordContainer",
   "language_filters": [
     {
       "count": 1,
@@ -21,10 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97394959/",
       "md5hash": "5d80afff23c354813b0c27bde8e947ac",
       "lines": {
-        "201": "\t\t\t\t\t\t// Tell it its Sheet ID, if it cares",
-        "202": "\t\t\t\t\t\tif (pdr instanceof PositionDependentRecordContainer) {",
-        "203": "\t\t\t\t\t\t\tPositionDependentRecordContainer pdrc = (PositionDependentRecordContainer) _records[i];",
-        "204": "\t\t\t\t\t\t\tpdrc.setSheetId(thisID.intValue());"
+        "32": "import org.apache.poi.hslf.HSLFSlideShow;",
+        "33": "import org.apache.poi.hslf.exceptions.CorruptPowerPointFileException;",
+        "34": "import org.apache.poi.hslf.exceptions.HSLFException;",
+        "35": "import org.apache.poi.hslf.model.*;",
+        "36": "import org.apache.poi.hslf.model.Notes;",
+        "37": "import org.apache.poi.hslf.model.Slide;",
+        "38": "import org.apache.poi.hslf.record.*;",
+        "39": "import org.apache.poi.hslf.record.SlideListWithText.SlideAtomsSet;",
+        "17": "",
+        "18": "package org.apache.poi.hslf.usermodel;",
+        "27": "",
+        "28": "import org.apache.poi.ddf.EscherBSERecord;",
+        "29": "import org.apache.poi.ddf.EscherContainerRecord;",
+        "30": "import org.apache.poi.ddf.EscherOptRecord;",
+        "31": "import org.apache.poi.ddf.EscherRecord;"
       },
       "id": 97394959,
       "filename": "SlideShow.java"

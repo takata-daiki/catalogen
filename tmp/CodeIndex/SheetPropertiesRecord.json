@@ -1,8 +1,8 @@
 {
-  "matchterm": "SheetPropertiesRecord",
+  "matchterm": "org.apache.poi.hssf.record.chart.SheetPropertiesRecord",
   "previouspage": null,
-  "searchterm": "SheetPropertiesRecord",
-  "query": "SheetPropertiesRecord",
+  "searchterm": "org.apache.poi.hssf.record.chart.SheetPropertiesRecord",
+  "query": "org.apache.poi.hssf.record.chart.SheetPropertiesRecord",
   "language_filters": [
     {
       "count": 1,
@@ -21,14 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/15642403/",
       "md5hash": "376c23b9f00c9cdc7b50f1fba8858e1e",
       "lines": {
-        "81": "",
-        "82": "    public SheetPropertiesRecord(RecordInputStream in)",
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.record;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "48": "/**",
+        "49": " * Describes a chart sheet properties record.",
+        "50": " * NOTE: This source is automatically generated please do not modify this file.  Either subclass or",
+        "52": "",
+        "53": " * @author Glen Stampoultzis (glens at apache.org)",
         "54": " */",
-        "70": "",
-        "71": "    public SheetPropertiesRecord()",
         "55": "public class SheetPropertiesRecord",
-        "156": "    public Object clone() {",
-        "157": "        SheetPropertiesRecord rec = new SheetPropertiesRecord();"
+        "56": "    extends Record",
+        "31": ""
       },
       "id": 15642403,
       "filename": "SheetPropertiesRecord.java"

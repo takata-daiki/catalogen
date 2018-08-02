@@ -1,8 +1,8 @@
 {
-  "matchterm": "XSLFHyperlink",
+  "matchterm": "org.apache.poi.xslf.usermodel.XSLFHyperlink",
   "previouspage": null,
-  "searchterm": "XSLFHyperlink",
-  "query": "XSLFHyperlink",
+  "searchterm": "org.apache.poi.xslf.usermodel.XSLFHyperlink",
+  "query": "org.apache.poi.xslf.usermodel.XSLFHyperlink",
   "language_filters": [
     {
       "count": 1,
@@ -21,14 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97406808/",
       "md5hash": "d2b2f692a7b658d89cb45fae37549298",
       "lines": {
-        "482": "//",
-        "483": "//        return new XSLFHyperlink(_r.getRPr().getHlinkClick(), this);",
-        "473": "",
-        "474": "//    public XSLFHyperlink createHyperlink(){",
-        "475": "//        XSLFHyperlink link = new XSLFHyperlink(_r.getRPr().addNewHlinkClick(), this);",
-        "476": "//        return link;",
-        "478": "//",
-        "479": "//    public XSLFHyperlink getHyperlink(){"
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "16": "==================================================================== */",
+        "17": "package org.apache.poi.xslf.usermodel;",
+        "18": "",
+        "19": "import org.apache.poi.util.Beta;",
+        "20": "import org.apache.poi.xslf.model.CharacterPropertyFetcher;",
+        "21": "import org.openxmlformats.schemas.drawingml.x2006.main.CTRegularTextRun;",
+        "22": "import org.openxmlformats.schemas.drawingml.x2006.main.CTSRgbColor;",
+        "23": "import org.openxmlformats.schemas.drawingml.x2006.main.CTSchemeColor;",
+        "24": "import org.openxmlformats.schemas.drawingml.x2006.main.CTShapeStyle;"
       },
       "id": 97406808,
       "filename": "XSLFTextRun.java"

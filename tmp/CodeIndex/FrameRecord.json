@@ -1,8 +1,8 @@
 {
-  "matchterm": "FrameRecord",
+  "matchterm": "org.apache.poi.hssf.record.chart.FrameRecord",
   "previouspage": null,
-  "searchterm": "FrameRecord",
-  "query": "FrameRecord",
+  "searchterm": "org.apache.poi.hssf.record.chart.FrameRecord",
+  "query": "org.apache.poi.hssf.record.chart.FrameRecord",
   "language_filters": [
     {
       "count": 1,
@@ -21,14 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/15642460/",
       "md5hash": "fa72b4c1e7419409ee25f4628dcd12c4",
       "lines": {
-        "66": "",
-        "67": "    public FrameRecord()",
-        "150": "        FrameRecord rec = new FrameRecord();",
-        "149": "    public Object clone() {",
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.record;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "48": "/**",
+        "49": " * The frame record indicates whether there is a border around the displayed text of a chart.",
+        "50": " * NOTE: This source is automatically generated please do not modify this file.  Either subclass or",
+        "52": "",
+        "53": " * @author Glen Stampoultzis (glens at apache.org)",
         "54": " */",
         "55": "public class FrameRecord",
-        "77": "",
-        "78": "    public FrameRecord(RecordInputStream in)"
+        "56": "    extends Record",
+        "31": ""
       },
       "id": 15642460,
       "filename": "FrameRecord.java"

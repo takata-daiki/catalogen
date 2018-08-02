@@ -1,8 +1,8 @@
 {
-  "matchterm": "EscherPictBlip",
+  "matchterm": "org.apache.poi.ddf.EscherPictBlip",
   "previouspage": null,
-  "searchterm": "EscherPictBlip",
-  "query": "EscherPictBlip",
+  "searchterm": "org.apache.poi.ddf.EscherPictBlip",
+  "query": "org.apache.poi.ddf.EscherPictBlip",
   "language_filters": [
     {
       "count": 2,
@@ -21,10 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97383920/",
       "md5hash": "114750c0c434cbe202e5e614e15a253d",
       "lines": {
-        "34": " */",
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
         "35": "public final class EscherPictBlip extends EscherBlipRecord {",
         "36": "    private static final POILogger log = POILogFactory.getLogger(EscherPictBlip.class);",
-        "37": ""
+        "37": "",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.ddf;",
+        "19": "",
+        "20": "import org.apache.poi.util.HexDump;",
+        "21": "import org.apache.poi.util.LittleEndian;",
+        "22": "import org.apache.poi.util.POILogFactory;",
+        "23": "import org.apache.poi.util.POILogger;",
+        "24": ""
       },
       "id": 97383920,
       "filename": "EscherPictBlip.java"
@@ -38,10 +49,21 @@
       "url": "https://searchcode.com/codesearch/view/15642607/",
       "md5hash": "14a5b51d8d5c53957d7ca0638695772d",
       "lines": {
-        "57": " */",
-        "58": "public class EscherPictBlip",
+        "32": "*     http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "39": "*/",
+        "40": "package loci.poi.ddf;",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "268": "",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "269": "    // filtering is always 254 according to available docs, so no point giving it a setter method.",
+        "41": "",
         "60": "{",
-        "61": "    private static final POILogger log = POILogFactory.getLogger(EscherPictBlip.class);"
+        "61": "    private static final POILogger log = POILogFactory.getLogger(EscherPictBlip.class);",
+        "31": "*"
       },
       "id": 15642607,
       "filename": "EscherPictBlip.java"

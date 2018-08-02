@@ -1,8 +1,8 @@
 {
-  "matchterm": "OEPlaceholderAtom",
+  "matchterm": "org.apache.poi.hslf.record.OEPlaceholderAtom",
   "previouspage": null,
-  "searchterm": "OEPlaceholderAtom",
-  "query": "OEPlaceholderAtom",
+  "searchterm": "org.apache.poi.hslf.record.OEPlaceholderAtom",
+  "query": "org.apache.poi.hslf.record.OEPlaceholderAtom",
   "language_filters": [
     {
       "count": 2,
@@ -21,16 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97394395/",
       "md5hash": "4ae551d90bbc16377c5513186d4e9dc1",
       "lines": {
-        "576": "     * Return <code>OEPlaceholderAtom</code>, the atom that describes a placeholder.",
-        "577": "     *",
-        "578": "     * @return <code>OEPlaceholderAtom</code> or <code>null</code> if not found",
-        "579": "     */",
-        "580": "    public OEPlaceholderAtom getPlaceholderAtom(){",
+        "32": "import org.apache.poi.ddf.EscherSpRecord;",
+        "33": "import org.apache.poi.ddf.EscherTextboxRecord;",
+        "34": "import org.apache.poi.hslf.exceptions.HSLFException;",
+        "35": "import org.apache.poi.hslf.record.EscherTextboxWrapper;",
+        "36": "import org.apache.poi.hslf.record.InteractiveInfo;",
         "37": "import org.apache.poi.hslf.record.InteractiveInfoAtom;",
         "38": "import org.apache.poi.hslf.record.OEPlaceholderAtom;",
-        "582": "    }",
-        "581": "        return (OEPlaceholderAtom)getClientDataRecord(RecordTypes.OEPlaceholderAtom.typeID);",
-        "575": "    /**"
+        "39": "import org.apache.poi.hslf.record.OutlineTextRefAtom;",
+        "17": "",
+        "18": "package org.apache.poi.hslf.model;",
+        "27": "",
+        "28": "import org.apache.poi.ddf.EscherContainerRecord;",
+        "29": "import org.apache.poi.ddf.EscherOptRecord;",
+        "30": "import org.apache.poi.ddf.EscherProperties;",
+        "31": "import org.apache.poi.ddf.EscherSimpleProperty;"
       },
       "id": 97394395,
       "filename": "TextShape.java"
@@ -44,10 +49,22 @@
       "url": "https://searchcode.com/codesearch/view/97394323/",
       "md5hash": "004c81d0c6f4e85beee2c12f2cad27b2",
       "lines": {
-        "409": "     *",
-        "410": "     * @param type  type of placeholder to search. See {@link org.apache.poi.hslf.record.OEPlaceholderAtom}",
-        "419": "                OEPlaceholderAtom oep = tx.getPlaceholderAtom();",
-        "418": "                int placeholderId = 0;"
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "54": "     * for slide masters it is org.apache.poi.hslf.record.SlideMaster, etc.",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "55": "     */",
+        "17": "",
+        "18": "package org.apache.poi.hslf.model;",
+        "51": "     * Record container that holds sheet data.",
+        "52": "     * For slides it is org.apache.poi.hslf.record.Slide,",
+        "21": "",
+        "22": "import org.apache.poi.ddf.*;",
+        "23": "import org.apache.poi.hslf.record.*;",
+        "24": "import org.apache.poi.hslf.usermodel.SlideShow;",
+        "25": "",
+        "53": "     * for notes it is org.apache.poi.hslf.record.Notes,"
       },
       "id": 97394323,
       "filename": "Sheet.java"

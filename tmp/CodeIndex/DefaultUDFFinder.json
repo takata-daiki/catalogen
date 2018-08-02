@@ -1,8 +1,8 @@
 {
-  "matchterm": "DefaultUDFFinder",
+  "matchterm": "org.apache.poi.ss.formula.udf.DefaultUDFFinder",
   "previouspage": null,
-  "searchterm": "DefaultUDFFinder",
-  "query": "DefaultUDFFinder",
+  "searchterm": "org.apache.poi.ss.formula.udf.DefaultUDFFinder",
+  "query": "org.apache.poi.ss.formula.udf.DefaultUDFFinder",
   "language_filters": [
     {
       "count": 1,
@@ -21,8 +21,20 @@
       "url": "https://searchcode.com/codesearch/view/60212057/",
       "md5hash": "e9487002cf69dbd9246766c01c968b73",
       "lines": {
-        "259": "\t\t",
-        "260": "\t\tDefaultUDFFinder userUDFFinder = new DefaultUDFFinder(functionNames, functionImpls);",
+        "32": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "33": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "34": "import org.apache.poi.hssf.usermodel.HSSFComment;",
+        "35": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator;",
+        "37": "import org.apache.poi.hssf.usermodel.HSSFName;",
+        "6": " * %%",
+        "7": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "10": " * ",
+        "11": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "12": " * ",
+        "39": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "38": "import org.apache.poi.hssf.usermodel.HSSFPrintSetup;",
+        "29": "",
         "30": "import org.apache.poi.hssf.record.formula.functions.FreeRefFunction;",
         "31": "import org.apache.poi.hssf.record.formula.udf.DefaultUDFFinder;"
       },

@@ -1,8 +1,8 @@
 {
-  "matchterm": "TextSpecInfoAtom",
+  "matchterm": "org.apache.poi.hslf.record.TextSpecInfoAtom",
   "previouspage": null,
-  "searchterm": "TextSpecInfoAtom",
-  "query": "TextSpecInfoAtom",
+  "searchterm": "org.apache.poi.hslf.record.TextSpecInfoAtom",
+  "query": "org.apache.poi.hslf.record.TextSpecInfoAtom",
   "language_filters": [
     {
       "count": 1,
@@ -21,8 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/97394323/",
       "md5hash": "004c81d0c6f4e85beee2c12f2cad27b2",
       "lines": {
-        "179": "                } else if (records[i + 1].getRecordType() == 4010l) {",
-        "180": "                    // TextSpecInfoAtom - Safe to ignore"
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "54": "     * for slide masters it is org.apache.poi.hslf.record.SlideMaster, etc.",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "55": "     */",
+        "17": "",
+        "18": "package org.apache.poi.hslf.model;",
+        "51": "     * Record container that holds sheet data.",
+        "52": "     * For slides it is org.apache.poi.hslf.record.Slide,",
+        "21": "",
+        "22": "import org.apache.poi.ddf.*;",
+        "23": "import org.apache.poi.hslf.record.*;",
+        "24": "import org.apache.poi.hslf.usermodel.SlideShow;",
+        "25": "",
+        "53": "     * for notes it is org.apache.poi.hslf.record.Notes,"
       },
       "id": 97394323,
       "filename": "Sheet.java"

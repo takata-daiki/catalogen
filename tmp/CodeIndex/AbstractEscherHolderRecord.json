@@ -1,8 +1,8 @@
 {
-  "matchterm": "AbstractEscherHolderRecord",
+  "matchterm": "org.apache.poi.hssf.record.AbstractEscherHolderRecord",
   "previouspage": null,
-  "searchterm": "AbstractEscherHolderRecord",
-  "query": "AbstractEscherHolderRecord",
+  "searchterm": "org.apache.poi.hssf.record.AbstractEscherHolderRecord",
+  "query": "org.apache.poi.hssf.record.AbstractEscherHolderRecord",
   "language_filters": [
     {
       "count": 8,
@@ -13,6 +13,36 @@
   "total": 8,
   "results": [
     {
+      "repo": "https://github.com/solsson/tika.git",
+      "language": "Java",
+      "linescount": 595,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785559/",
+      "md5hash": "6b55090236799f49ee0f5bd7d54bbbac",
+      "lines": {
+        "32": "import org.apache.poi.ddf.EscherBlipRecord;",
+        "33": "import org.apache.poi.ddf.EscherMetafileBlip;",
+        "34": "import org.apache.poi.ddf.EscherRecord;",
+        "35": "import org.apache.poi.hssf.eventusermodel.FormatTrackingHSSFListener;",
+        "36": "import org.apache.poi.hssf.eventusermodel.HSSFEventFactory;",
+        "37": "import org.apache.poi.hssf.eventusermodel.HSSFListener;",
+        "38": "import org.apache.poi.hssf.eventusermodel.HSSFRequest;",
+        "39": "import org.apache.poi.hssf.record.AbstractEscherHolderRecord;",
+        "8": " *",
+        "9": " *     http://www.apache.org/licenses/LICENSE-2.0",
+        "16": " */",
+        "17": "package org.apache.tika.parser.microsoft;",
+        "18": "",
+        "40": "import org.apache.poi.hssf.record.BOFRecord;",
+        "29": "",
+        "30": "import org.apache.poi.ddf.EscherBSERecord;",
+        "31": "import org.apache.poi.ddf.EscherBitmapBlip;"
+      },
+      "id": 111785559,
+      "filename": "ExcelExtractor.java"
+    },
+    {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
       "language": "Java",
       "linescount": 327,
@@ -21,14 +51,21 @@
       "url": "https://searchcode.com/codesearch/view/15642502/",
       "md5hash": "93371d2d221b0ae6800fc5720ed4f71b",
       "lines": {
-        "285": "     */",
-        "86": "     */",
-        "87": "    public AbstractEscherHolderRecord(RecordInputStream in)",
-        "60": " */",
-        "76": "",
-        "61": "public abstract class AbstractEscherHolderRecord",
-        "286": "    public void join( AbstractEscherHolderRecord record )",
-        "77": "    public AbstractEscherHolderRecord()"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.record;",
+        "43": "",
+        "44": "import loci.poi.ddf.DefaultEscherRecordFactory;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import loci.poi.ddf.EscherRecord;",
+        "46": "import loci.poi.ddf.EscherRecordFactory;",
+        "57": " *",
+        "58": " * @author Glen Stampoultzis (glens at apache.org)",
+        "47": "import loci.poi.ddf.NullEscherSerializationListener;",
+        "31": ""
       },
       "id": 15642502,
       "filename": "AbstractEscherHolderRecord.java"
@@ -42,12 +79,21 @@
       "url": "https://searchcode.com/codesearch/view/15642316/",
       "md5hash": "4f7b036daf89776dc4ee4606b7972144",
       "lines": {
-        "1336": "            Object obj = recordIter.next();",
-        "1337": "            if (obj instanceof AbstractEscherHolderRecord)",
-        "1338": "            {",
-        "1339": "                ((AbstractEscherHolderRecord) obj).decode();",
-        "1340": "                List escherRecords = ((AbstractEscherHolderRecord) obj).getEscherRecords();",
-        "1341": "                searchForPictures(escherRecords, pictures);"
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "45": " */",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "13": " * ",
+        "50": "import loci.poi.POIDocument;",
+        "51": "import loci.poi.ddf.EscherBSERecord;",
+        "52": "import loci.poi.ddf.EscherBitmapBlip;",
+        "46": "package loci.poi.hssf.usermodel;",
+        "54": "import loci.poi.ddf.EscherBlipRecord;",
+        "55": "import loci.poi.hssf.eventmodel.EventRecordFactory;",
+        "56": "import loci.poi.hssf.model.Sheet;",
+        "53": "import loci.poi.ddf.EscherRecord;",
+        "30": "",
+        "31": "       http://www.apache.org/licenses/LICENSE-2.0"
       },
       "id": 15642316,
       "filename": "HSSFWorkbook.java"
@@ -61,11 +107,80 @@
       "url": "https://searchcode.com/codesearch/view/15642409/",
       "md5hash": "9e212df4a5b523744fd315d99c376d1b",
       "lines": {
-        "69": " */",
-        "70": "public class EscherAggregate extends AbstractEscherHolderRecord"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "",
+        "41": "package loci.poi.hssf.record;",
+        "42": "",
+        "43": "import loci.poi.ddf.*;",
+        "44": "import loci.poi.hssf.usermodel.*;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import loci.poi.hssf.model.AbstractShape;",
+        "48": "import loci.poi.hssf.model.ConvertAnchor;",
+        "46": "import loci.poi.hssf.model.TextboxShape;",
+        "47": "import loci.poi.hssf.model.DrawingManager2;",
+        "31": ""
       },
       "id": 15642409,
       "filename": "EscherAggregate.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 313,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642481/",
+      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.record;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "51": " *",
+        "52": " * @deprecated use {@link loci.poi.hssf.eventmodel.EventRecordFactory} instead",
+        "53": " * @see loci.poi.hssf.eventmodel.EventRecordFactory",
+        "54": " * @author Andrew C. Oliver (acoliver at apache dot org)",
+        "55": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "56": " * @author Glen Stampoultzis (glens at apache.org)",
+        "57": " * @author Csaba Nagy (ncsaba at yahoo dot com)",
+        "31": ""
+      },
+      "id": 15642481,
+      "filename": "RecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 166,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642447/",
+      "md5hash": "0f1467d5ee2b3eea3ef4caa4c9290b32",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "",
+        "41": "package loci.poi.hssf.record;",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "import loci.poi.ddf.EscherRecord;",
+        "44": "import loci.poi.ddf.NullEscherSerializationListener;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "51": "",
+        "52": "public class DrawingGroupRecord extends AbstractEscherHolderRecord",
+        "9": " * %%",
+        "42": "",
+        "31": ""
+      },
+      "id": 15642447,
+      "filename": "DrawingGroupRecord.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -76,8 +191,22 @@
       "url": "https://searchcode.com/codesearch/view/15642420/",
       "md5hash": "ddca9e0d8ce0ad476ef14d74ce5625dc",
       "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "public class DrawingSelectionRecord extends AbstractEscherHolderRecord",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "41": "package loci.poi.hssf.record;",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "27": "   this work for additional information regarding copyright ownership.",
+        "28": "   The ASF licenses this file to You under the Apache License, Version 2.0",
         "42": "",
-        "43": "public class DrawingSelectionRecord extends AbstractEscherHolderRecord"
+        "31": ""
       },
       "id": 15642420,
       "filename": "DrawingSelectionRecord.java"
@@ -91,56 +220,24 @@
       "url": "https://searchcode.com/codesearch/view/15642435/",
       "md5hash": "c3321cd61e7b9bd75ebcedfb4f3464fa",
       "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "47": "public class DrawingRecordForBiffViewer",
         "48": "        extends AbstractEscherHolderRecord",
-        "47": "public class DrawingRecordForBiffViewer"
+        "49": "{",
+        "41": "package loci.poi.hssf.record;",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "31": ""
       },
       "id": 15642435,
       "filename": "DrawingRecordForBiffViewer.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 166,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642447/",
-      "md5hash": "0f1467d5ee2b3eea3ef4caa4c9290b32",
-      "lines": {
-        "51": "",
-        "52": "public class DrawingGroupRecord extends AbstractEscherHolderRecord"
-      },
-      "id": 15642447,
-      "filename": "DrawingGroupRecord.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 313,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642481/",
-      "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
-      "lines": {
-        "156": "                            DrawingGroupRecord lastDGRecord = (DrawingGroupRecord) lastRecord;",
-        "157": "                                lastDGRecord.join((AbstractEscherHolderRecord) record);"
-      },
-      "id": 15642481,
-      "filename": "RecordFactory.java"
-    },
-    {
-      "repo": "https://github.com/solsson/tika.git",
-      "language": "Java",
-      "linescount": 595,
-      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
-      "name": "tika",
-      "url": "https://searchcode.com/codesearch/view/111785559/",
-      "md5hash": "6b55090236799f49ee0f5bd7d54bbbac",
-      "lines": {
-        "38": "import org.apache.poi.hssf.eventusermodel.HSSFRequest;",
-        "39": "import org.apache.poi.hssf.record.AbstractEscherHolderRecord;"
-      },
-      "id": 111785559,
-      "filename": "ExcelExtractor.java"
     }
   ],
   "page": 0,

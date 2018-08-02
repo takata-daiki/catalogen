@@ -1,8 +1,8 @@
 {
-  "matchterm": "PointerContainingStream",
+  "matchterm": "org.apache.poi.hdgf.streams.PointerContainingStream",
   "previouspage": null,
-  "searchterm": "PointerContainingStream",
-  "query": "PointerContainingStream",
+  "searchterm": "org.apache.poi.hdgf.streams.PointerContainingStream",
+  "query": "org.apache.poi.hdgf.streams.PointerContainingStream",
   "language_filters": [
     {
       "count": 2,
@@ -21,12 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/97396300/",
       "md5hash": "f08b2eea782e030096ccaf8367f64ad3",
       "lines": {
-        "27": "import org.apache.poi.hdgf.streams.PointerContainingStream;",
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hdgf.dev;",
+        "21": "",
+        "22": "import org.apache.poi.hdgf.HDGFDiagram;",
+        "23": "import org.apache.poi.hdgf.chunks.Chunk;",
+        "24": "import org.apache.poi.hdgf.chunks.Chunk.Command;",
+        "25": "import org.apache.poi.hdgf.pointers.Pointer;",
         "26": "import org.apache.poi.hdgf.streams.ChunkStream;",
-        "91": "",
-        "92": "\t\tif(stream instanceof PointerContainingStream) {",
-        "93": "\t\t\tPointerContainingStream pcs = (PointerContainingStream)stream;",
-        "94": "\t\t\tSystem.out.println(ind + \"  Has \" +"
+        "27": "import org.apache.poi.hdgf.streams.PointerContainingStream;",
+        "28": "import org.apache.poi.hdgf.streams.Stream;",
+        "29": "import org.apache.poi.poifs.filesystem.POIFSFileSystem;",
+        "30": ""
       },
       "id": 97396300,
       "filename": "VSDDumper.java"
@@ -40,11 +50,21 @@
       "url": "https://searchcode.com/codesearch/view/97397248/",
       "md5hash": "3eb320077de8a4bc1854a83f8ac115d8",
       "lines": {
-        "88": "\t\t\t\tStream.createStream(ptrs[i], contents, chunkFactory, ptrFactory);",
-        "89": "\t\t\tif(stream instanceof PointerContainingStream) {",
-        "90": "\t\t\t\tPointerContainingStream pStream =",
-        "91": "\t\t\t\t\t(PointerContainingStream)stream;",
-        "92": "\t\t\t\tpStream.findChildren(contents);"
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hdgf.streams;",
+        "21": "",
+        "22": "import org.apache.poi.hdgf.HDGFDiagram;",
+        "23": "import org.apache.poi.hdgf.chunks.ChunkFactory;",
+        "24": "import org.apache.poi.hdgf.pointers.Pointer;",
+        "25": "import org.apache.poi.hdgf.pointers.PointerFactory;",
+        "26": "import org.apache.poi.poifs.filesystem.DocumentEntry;",
+        "27": "import org.apache.poi.poifs.filesystem.POIFSFileSystem;",
+        "28": "import org.apache.poi.POIDataSamples;",
+        "29": ""
       },
       "id": 97397248,
       "filename": "TestStreamBugs.java"

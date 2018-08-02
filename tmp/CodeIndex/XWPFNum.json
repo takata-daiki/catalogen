@@ -1,8 +1,8 @@
 {
-  "matchterm": "XWPFNum",
+  "matchterm": "org.apache.poi.xwpf.usermodel.XWPFNum",
   "previouspage": null,
-  "searchterm": "XWPFNum",
-  "query": "XWPFNum",
+  "searchterm": "org.apache.poi.xwpf.usermodel.XWPFNum",
+  "query": "org.apache.poi.xwpf.usermodel.XWPFNum",
   "language_filters": [
     {
       "count": 2,
@@ -21,18 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/96672565/",
       "md5hash": "2ee0d9cfda1138ee93328b854d5e99ce",
       "lines": {
-        "470": "",
-        "295": "             */",
-        "296": "            XWPFNum num = getXWPFNum( numPr );",
-        "457": "",
-        "458": "    protected XWPFNum getXWPFNum( CTNumPr numPr )",
-        "333": "        {",
-        "334": "            XWPFNum num = getXWPFNum( numPr );",
-        "466": "        }",
-        "467": "        XWPFNum num = document.getNumbering().getNum( numID.getVal() );",
-        "53": "import org.apache.poi.xwpf.usermodel.XWPFHyperlinkRun;",
-        "54": "import org.apache.poi.xwpf.usermodel.XWPFNum;",
-        "471": "    protected XWPFAbstractNum getXWPFAbstractNum( XWPFNum num )"
+        "37": "import org.apache.poi.openxml4j.opc.PackagePart;",
+        "38": "import org.apache.poi.xwpf.converter.core.styles.XWPFStylesDocument;",
+        "39": "import org.apache.poi.xwpf.converter.core.utils.DxaUtil;",
+        "40": "import org.apache.poi.xwpf.converter.core.utils.StringUtils;",
+        "41": "import org.apache.poi.xwpf.converter.core.utils.XWPFRunHelper;",
+        "42": "import org.apache.poi.xwpf.converter.core.utils.XWPFTableUtil;",
+        "43": "import org.apache.poi.xwpf.usermodel.BodyElementType;",
+        "44": "import org.apache.poi.xwpf.usermodel.BodyType;",
+        "45": "import org.apache.poi.xwpf.usermodel.IBody;",
+        "46": "import org.apache.poi.xwpf.usermodel.IBodyElement;",
+        "47": "import org.apache.poi.xwpf.usermodel.XWPFAbstractNum;",
+        "48": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "49": "import org.apache.poi.xwpf.usermodel.XWPFFooter;",
+        "50": "import org.apache.poi.xwpf.usermodel.XWPFHeader;",
+        "51": "import org.apache.poi.xwpf.usermodel.XWPFHeaderFooter;"
       },
       "id": 96672565,
       "filename": "XWPFDocumentVisitor.java"
@@ -46,10 +49,21 @@
       "url": "https://searchcode.com/codesearch/view/96673303/",
       "md5hash": "58f5f4b9d6f4406c0fcea13e358fb18b",
       "lines": {
-        "57": "import org.apache.poi.xwpf.usermodel.XWPFHeader;",
-        "58": "import org.apache.poi.xwpf.usermodel.XWPFNum;",
-        "323": "                CTDecimalNumber numID = numPr.getNumId();",
-        "324": "                XWPFNum num = document.getNumbering().getNum( numID.getVal() );"
+        "34": "",
+        "35": "import org.apache.poi.xwpf.converter.internal.XWPFDocumentVisitor;",
+        "36": "import org.apache.poi.xwpf.converter.internal.XWPFUtils;",
+        "37": "import org.apache.poi.xwpf.converter.internal.itext.stylable.IStylableContainer;",
+        "38": "import org.apache.poi.xwpf.converter.internal.itext.stylable.IStylableElement;",
+        "39": "import org.apache.poi.xwpf.converter.internal.itext.stylable.StylableDocument;",
+        "40": "import org.apache.poi.xwpf.converter.internal.itext.stylable.StylableHeaderFooter;",
+        "41": "import org.apache.poi.xwpf.converter.internal.itext.stylable.StylableMasterPage;",
+        "42": "import org.apache.poi.xwpf.converter.internal.itext.stylable.StylableParagraph;",
+        "43": "import org.apache.poi.xwpf.converter.internal.itext.stylable.StylableTable;",
+        "44": "import org.apache.poi.xwpf.converter.internal.itext.stylable.StylableTableCell;",
+        "45": "import org.apache.poi.xwpf.converter.internal.itext.styles.Style;",
+        "46": "import org.apache.poi.xwpf.converter.itext.PDFViaITextOptions;",
+        "47": "import org.apache.poi.xwpf.converter.styles.pargraph.ParagraphIndentationLeftValueProvider;",
+        "48": "import org.apache.poi.xwpf.usermodel.BodyElementType;"
       },
       "id": 96673303,
       "filename": "PDFMapper.java"

@@ -1,8 +1,8 @@
 {
-  "matchterm": "POIXMLFactory",
+  "matchterm": "org.apache.poi.ooxml.POIXMLFactory",
   "previouspage": null,
-  "searchterm": "POIXMLFactory",
-  "query": "POIXMLFactory",
+  "searchterm": "org.apache.poi.ooxml.POIXMLFactory",
+  "query": "org.apache.poi.ooxml.POIXMLFactory",
   "language_filters": [
     {
       "count": 1,
@@ -21,8 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97406028/",
       "md5hash": "26607ac5995dc62d56a6e905896e6ed2",
       "lines": {
-        "152": "",
-        "153": "    protected final void load(POIXMLFactory factory) throws IOException {"
+        "32": "import org.apache.poi.openxml4j.opc.PackagePart;",
+        "33": "import org.apache.poi.openxml4j.opc.PackageRelationship;",
+        "34": "import org.apache.poi.openxml4j.opc.PackageRelationshipCollection;",
+        "35": "import org.apache.poi.poifs.common.POIFSConstants;",
+        "36": "//import org.apache.poi.poifs.common.POIFSConstants;",
+        "37": "import org.apache.poi.util.IOUtils;",
+        "38": "",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "16": "==================================================================== */",
+        "17": "package org.apache.poi;",
+        "28": "",
+        "29": "import org.apache.poi.openxml4j.exceptions.InvalidFormatException;",
+        "30": "import org.apache.poi.openxml4j.exceptions.OpenXML4JException;",
+        "31": "import org.apache.poi.openxml4j.opc.OPCPackage;"
       },
       "id": 97406028,
       "filename": "POIXMLDocument.java"

@@ -1,8 +1,8 @@
 {
-  "matchterm": "Comment2000",
+  "matchterm": "org.apache.poi.hslf.record.Comment2000",
   "previouspage": null,
-  "searchterm": "Comment2000",
-  "query": "Comment2000",
+  "searchterm": "org.apache.poi.hslf.record.Comment2000",
+  "query": "org.apache.poi.hslf.record.Comment2000",
   "language_filters": [
     {
       "count": 1,
@@ -21,14 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97394313/",
       "md5hash": "346ffc55e0b7a05381ade3b094d03d17",
       "lines": {
-        "400": "    \t\t\t\tfor(int i=0; i<binaryTags.getChildRecords().length; i++) {",
-        "401": "    \t\t\t\t\tif(binaryTags.getChildRecords()[i] instanceof Comment2000) {",
-        "409": "    \t\t\t\tfor(int i=0; i<binaryTags.getChildRecords().length; i++) {",
-        "410": "    \t\t\t\t\tif(binaryTags.getChildRecords()[i] instanceof Comment2000) {",
-        "411": "    \t\t\t\t\t\tcomments[i] = new Comment(",
-        "412": "    \t\t\t\t\t\t\t\t(Comment2000)binaryTags.getChildRecords()[i]",
+        "32": "import org.apache.poi.hslf.record.Record;",
+        "33": "import org.apache.poi.hslf.record.RecordContainer;",
+        "34": "import org.apache.poi.hslf.record.RecordTypes;",
+        "35": "import org.apache.poi.hslf.record.SlideAtom;",
+        "36": "import org.apache.poi.hslf.record.TextHeaderAtom;",
+        "17": "",
+        "18": "package org.apache.poi.hslf.model;",
+        "24": "",
+        "25": "import org.apache.poi.ddf.EscherContainerRecord;",
+        "26": "import org.apache.poi.ddf.EscherDgRecord;",
+        "27": "import org.apache.poi.ddf.EscherDggRecord;",
+        "28": "import org.apache.poi.ddf.EscherSpRecord;",
         "29": "import org.apache.poi.hslf.record.ColorSchemeAtom;",
-        "30": "import org.apache.poi.hslf.record.Comment2000;"
+        "30": "import org.apache.poi.hslf.record.Comment2000;",
+        "31": "import org.apache.poi.hslf.record.HeadersFootersContainer;"
       },
       "id": 97394313,
       "filename": "Slide.java"

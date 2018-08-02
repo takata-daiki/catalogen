@@ -1,8 +1,8 @@
 {
-  "matchterm": "NDocumentInputStream",
+  "matchterm": "org.apache.poi.poifs.filesystem.NDocumentInputStream",
   "previouspage": null,
-  "searchterm": "NDocumentInputStream",
-  "query": "NDocumentInputStream",
+  "searchterm": "org.apache.poi.poifs.filesystem.NDocumentInputStream",
+  "query": "org.apache.poi.poifs.filesystem.NDocumentInputStream",
   "language_filters": [
     {
       "count": 2,
@@ -21,12 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97397922/",
       "md5hash": "4dde31e8066a7b0ff9251c6177b7ac0c",
       "lines": {
-        "30": " */",
-        "86": "\t */",
+        "49": "\tprivate NPOIFSDocument _document;",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
         "87": "\tpublic NDocumentInputStream(NPOIFSDocument document) {",
-        "61": "\t */",
-        "62": "\tpublic NDocumentInputStream(DocumentEntry document) throws IOException {",
-        "31": "public final class NDocumentInputStream extends DocumentInputStream {"
+        "48": "\t/** the actual Document */",
+        "17": "",
+        "18": "package org.apache.poi.poifs.filesystem;",
+        "86": "\t */",
+        "23": "",
+        "24": "import org.apache.poi.poifs.property.DocumentProperty;",
+        "25": "import org.apache.poi.util.LittleEndian;",
+        "26": "",
+        "28": " * This class provides methods to read a DocumentEntry managed by a",
+        "29": " * {@link NPOIFSFileSystem} instance.",
+        "30": " */"
       },
       "id": 97397922,
       "filename": "NDocumentInputStream.java"
@@ -40,10 +49,21 @@
       "url": "https://searchcode.com/codesearch/view/97397924/",
       "md5hash": "a62824300869ffa075859750e715454a",
       "lines": {
-        "64": "\t      delegate = new NDocumentInputStream(document);",
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "74": "\t */",
+        "75": "\tpublic DocumentInputStream(POIFSDocument document) {",
+        "17": "",
+        "18": "package org.apache.poi.poifs.filesystem;",
+        "83": "    */",
         "84": "   public DocumentInputStream(NPOIFSDocument document) {",
         "85": "      delegate = new NDocumentInputStream(document);",
-        "63": "\t   } else if(parentNode.getNFileSystem() != null) {"
+        "22": "",
+        "23": "import org.apache.poi.util.LittleEndianInput;",
+        "26": " * This class provides methods to read a DocumentEntry managed by a",
+        "27": " *  {@link POIFSFileSystem} or {@link NPOIFSFileSystem} instance."
       },
       "id": 97397924,
       "filename": "DocumentInputStream.java"

@@ -1,32 +1,17 @@
 {
-  "matchterm": "OperationPtg",
+  "matchterm": "org.apache.poi.ss.formula.ptg.OperationPtg",
   "previouspage": null,
-  "searchterm": "OperationPtg",
-  "query": "OperationPtg",
+  "searchterm": "org.apache.poi.ss.formula.ptg.OperationPtg",
+  "query": "org.apache.poi.ss.formula.ptg.OperationPtg",
   "language_filters": [
     {
-      "count": 23,
+      "count": 1,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 23,
+  "total": 1,
   "results": [
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 73,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642556/",
-      "md5hash": "96e3936ca64299f8986acddb36f9fcd0",
-      "lines": {
-        "48": "",
-        "49": "public abstract class OperationPtg extends Ptg"
-      },
-      "id": 15642556,
-      "filename": "OperationPtg.java"
-    },
     {
       "repo": "https://github.com/isdom/POI-Android.git",
       "language": "Java",
@@ -36,298 +21,24 @@
       "url": "https://searchcode.com/codesearch/view/88638400/",
       "md5hash": "bdf47a1adc9a524059321265e39dcb21",
       "lines": {
+        "42": "\tpublic void write(LittleEndianOutput out) {",
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "10": "",
+        "43": "\t\tout.writeByte(sid + getPtgClass());",
+        "17": "",
+        "18": "package org.apache.poi.ss.formula.ptg;",
+        "19": "",
+        "20": "import org.apache.poi.util.LittleEndianOutput;",
         "24": " */",
         "25": "public final class IntersectionPtg extends OperationPtg {",
         "27": "",
-        "28": "\tpublic static final OperationPtg instance = new IntersectionPtg();"
+        "28": "\tpublic static final OperationPtg instance = new IntersectionPtg();",
+        "29": ""
       },
       "id": 88638400,
-      "filename": "IntersectionPtg.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 1069,
-      "location": "/components/forks/poi/src/loci/poi/hssf/model",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642368/",
-      "md5hash": "28d644f6963548f6234cc54a47085ba2",
-      "lines": {
-        "1024": "        for (int i=0;i<numPtgs;i++) {",
-        "1025": "            if (tokens.get(i) instanceof OperationPtg) {",
-        "1026": "                ",
-        "1027": "                o = (OperationPtg) tokens.get(i);",
-        "965": "                      ",
-        "966": "            final OperationPtg o = (OperationPtg) ptgs[i];",
-        "904": "        Ptg p = (Ptg) n.getValue();",
-        "905": "        if (p instanceof AbstractFunctionPtg || !(p instanceof OperationPtg)) {",
-        "1020": "        int numPtgs = tokens.size();",
-        "955": "        for (int i = 1; i < ptgs.length; i++) {",
-        "956": "            if (! (ptgs[i] instanceof OperationPtg)) {",
-        "1021": "        OperationPtg o;"
-      },
-      "id": 15642368,
-      "filename": "FormulaParser.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 485,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642564/",
-      "md5hash": "a03fe68945d6947241c13705dd4cc5e3",
-      "lines": {
-        "84": "                    } else {",
-        "85": "                        o = (OperationPtg) operands.pop();",
-        "74": "        Object p;",
-        "75": "        OperationPtg o ;",
-        "92": "                    ",
-        "93": "                    while  (!operands.isEmpty() && ((OperationPtg) operands.peek()).getPrecedence() >= ((OperationPtg) p).getPrecedence() ) { //TODO handle ^ since it is right associative",
-        "78": "            p=i.next();",
-        "79": "            if (p instanceof OperationPtg) {"
-      },
-      "id": 15642564,
-      "filename": "Ptg.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 120,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642533/",
-      "md5hash": "252225f36fcf56e53b6aa6601ead603e",
-      "lines": {
-        "57": "public class PercentPtg",
-        "58": "    extends OperationPtg"
-      },
-      "id": 15642533,
-      "filename": "PercentPtg.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 169,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642539/",
-      "md5hash": "36a9ab497c53ba8479a82f867c7f8368",
-      "lines": {
-        "61": "public class LessThanPtg",
-        "62": "    extends OperationPtg"
-      },
-      "id": 15642539,
-      "filename": "LessThanPtg.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 110,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642540/",
-      "md5hash": "50e4bcde64b8a4304190ed7bed50b277",
-      "lines": {
-        "51": "public class EqualPtg",
-        "52": "    extends OperationPtg"
-      },
-      "id": 15642540,
-      "filename": "EqualPtg.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 122,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642541/",
-      "md5hash": "4a78e1cccad999b900475c04fddf7f11",
-      "lines": {
-        "58": "public class AddPtg",
-        "59": "    extends OperationPtg"
-      },
-      "id": 15642541,
-      "filename": "AddPtg.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 112,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642546/",
-      "md5hash": "8477b9b6a40356ed175cb11261ea2b7b",
-      "lines": {
-        "54": "public class LessEqualPtg",
-        "55": "        extends OperationPtg"
-      },
-      "id": 15642546,
-      "filename": "LessEqualPtg.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 121,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642551/",
-      "md5hash": "7e699affffc32c1a4cd390d343cbd028",
-      "lines": {
-        "50": "public class MultiplyPtg",
-        "51": "    extends OperationPtg"
-      },
-      "id": 15642551,
-      "filename": "MultiplyPtg.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 111,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642557/",
-      "md5hash": "24981cef0e4b5623c03fb16ff834ead6",
-      "lines": {
-        "53": "public class ConcatPtg",
-        "54": "    extends OperationPtg"
-      },
-      "id": 15642557,
-      "filename": "ConcatPtg.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 245,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642559/",
-      "md5hash": "9f22856961a7ee0feb1fd1714edd1699",
-      "lines": {
-        "59": "public class AttrPtg",
-        "60": "    extends OperationPtg"
-      },
-      "id": 15642559,
-      "filename": "AttrPtg.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 110,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642561/",
-      "md5hash": "42ff48d28324b0522f36897352d88f37",
-      "lines": {
-        "53": "public class DividePtg",
-        "54": "    extends OperationPtg"
-      },
-      "id": 15642561,
-      "filename": "DividePtg.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 107,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642567/",
-      "md5hash": "1dd80207df6f1fc76252331786eeee33",
-      "lines": {
-        "48": "public class UnionPtg extends OperationPtg",
-        "47": " */"
-      },
-      "id": 15642567,
-      "filename": "UnionPtg.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 113,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642568/",
-      "md5hash": "127db8a0e3de405f7438f3412f5fbff5",
-      "lines": {
-        "57": "public class ParenthesisPtg",
-        "58": "    extends OperationPtg"
-      },
-      "id": 15642568,
-      "filename": "ParenthesisPtg.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 113,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642570/",
-      "md5hash": "9c38c6b1c64b9b05683fb337f42253b6",
-      "lines": {
-        "54": "public class GreaterEqualPtg",
-        "55": "    extends OperationPtg"
-      },
-      "id": 15642570,
-      "filename": "GreaterEqualPtg.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 107,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642571/",
-      "md5hash": "ef1ec871e2090b0303c686ee4fedde9f",
-      "lines": {
-        "48": "public class RangePtg extends OperationPtg",
-        "47": " */"
-      },
-      "id": 15642571,
-      "filename": "RangePtg.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 107,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642573/",
-      "md5hash": "b8a658d820945e3ab4cf02dba024439d",
-      "lines": {
-        "52": "public class SubtractPtg",
-        "53": "    extends OperationPtg    "
-      },
-      "id": 15642573,
-      "filename": "SubtractPtg.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 161,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642574/",
-      "md5hash": "5339a256356f78a81f7251d848fc6eb3",
-      "lines": {
-        "58": "public class GreaterThanPtg",
-        "59": "    extends OperationPtg"
-      },
-      "id": 15642574,
-      "filename": "GreaterThanPtg.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 108,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record/formula",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642575/",
-      "md5hash": "1ba2caf6fd1a7ddfdb3cd9614be6b1e2",
-      "lines": {
-        "48": " */",
-        "49": "public class IntersectionPtg extends OperationPtg"
-      },
-      "id": 15642575,
       "filename": "IntersectionPtg.java"
     }
   ],
@@ -335,7 +46,7 @@
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 23,
+      "count": 1,
       "source": "Github",
       "id": 2
     }

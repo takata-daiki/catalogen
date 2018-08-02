@@ -1,8 +1,8 @@
 {
-  "matchterm": "XWPFSettings",
+  "matchterm": "org.apache.poi.xwpf.usermodel.XWPFSettings",
   "previouspage": null,
-  "searchterm": "XWPFSettings",
-  "query": "XWPFSettings",
+  "searchterm": "org.apache.poi.xwpf.usermodel.XWPFSettings",
+  "query": "org.apache.poi.xwpf.usermodel.XWPFSettings",
   "language_filters": [
     {
       "count": 1,
@@ -21,16 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/96672666/",
       "md5hash": "18cc8374432d7dd6cf1b2a24c157d76a",
       "lines": {
-        "112": "import org.apache.poi.xwpf.usermodel.XWPFSettings;",
-        "1185": "",
-        "1186": "    public XWPFSettings getSettings()",
-        "165": "",
-        "166": "    private XWPFSettings settings;",
-        "1209": "        }",
-        "1210": "        XWPFSettings settings = getSettings();",
-        "1196": "            {",
-        "1197": "                settings = (XWPFSettings) p;",
-        "111": "import org.apache.poi.xwpf.usermodel.XWPFRun;"
+        "36": "import org.apache.poi.POIXMLDocumentPart;",
+        "37": "import org.apache.poi.xwpf.converter.core.BorderSide;",
+        "38": "import org.apache.poi.xwpf.converter.core.ParagraphLineSpacing;",
+        "39": "import org.apache.poi.xwpf.converter.core.TableCellBorder;",
+        "40": "import org.apache.poi.xwpf.converter.core.TableHeight;",
+        "41": "import org.apache.poi.xwpf.converter.core.TableWidth;",
+        "42": "import org.apache.poi.xwpf.converter.core.styles.paragraph.ParagraphAlignmentValueProvider;",
+        "43": "import org.apache.poi.xwpf.converter.core.styles.paragraph.ParagraphBackgroundColorValueProvider;",
+        "44": "import org.apache.poi.xwpf.converter.core.styles.paragraph.ParagraphBorderBottomValueProvider;",
+        "45": "import org.apache.poi.xwpf.converter.core.styles.paragraph.ParagraphBorderLeftValueProvider;",
+        "46": "import org.apache.poi.xwpf.converter.core.styles.paragraph.ParagraphBorderRightValueProvider;",
+        "47": "import org.apache.poi.xwpf.converter.core.styles.paragraph.ParagraphBorderTopValueProvider;",
+        "48": "import org.apache.poi.xwpf.converter.core.styles.paragraph.ParagraphIndentationFirstLineValueProvider;",
+        "49": "import org.apache.poi.xwpf.converter.core.styles.paragraph.ParagraphIndentationHangingValueProvider;",
+        "50": "import org.apache.poi.xwpf.converter.core.styles.paragraph.ParagraphIndentationLeftValueProvider;"
       },
       "id": 96672666,
       "filename": "XWPFStylesDocument.java"

@@ -1,8 +1,8 @@
 {
-  "matchterm": "SeriesListRecord",
+  "matchterm": "org.apache.poi.hssf.record.chart.SeriesListRecord",
   "previouspage": null,
-  "searchterm": "SeriesListRecord",
-  "query": "SeriesListRecord",
+  "searchterm": "org.apache.poi.hssf.record.chart.SeriesListRecord",
+  "query": "org.apache.poi.hssf.record.chart.SeriesListRecord",
   "language_filters": [
     {
       "count": 1,
@@ -21,14 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/15642465/",
       "md5hash": "352ba126918bb3f257a06f698d31f712",
       "lines": {
-        "136": "        SeriesListRecord rec = new SeriesListRecord();",
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.record;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "48": "/**",
+        "49": " * The series list record defines the series displayed as an overlay to the main chart record.",
+        "50": " * NOTE: This source is automatically generated please do not modify this file.  Either subclass or",
+        "52": "",
+        "53": " * @author Glen Stampoultzis (glens at apache.org)",
         "54": " */",
         "55": "public class SeriesListRecord",
-        "72": "",
-        "73": "    public SeriesListRecord(RecordInputStream in)",
-        "135": "    public Object clone() {",
-        "61": "",
-        "62": "    public SeriesListRecord()"
+        "56": "    extends Record",
+        "31": ""
       },
       "id": 15642465,
       "filename": "SeriesListRecord.java"

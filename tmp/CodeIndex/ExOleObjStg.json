@@ -1,8 +1,8 @@
 {
-  "matchterm": "ExOleObjStg",
+  "matchterm": "org.apache.poi.hslf.record.ExOleObjStg",
   "previouspage": null,
-  "searchterm": "ExOleObjStg",
-  "query": "ExOleObjStg",
+  "searchterm": "org.apache.poi.hslf.record.ExOleObjStg",
+  "query": "org.apache.poi.hslf.record.ExOleObjStg",
   "language_filters": [
     {
       "count": 1,
@@ -21,12 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97394255/",
       "md5hash": "40d5716cbdc5b9b544fff845bb8e0c6f",
       "lines": {
+        "32": "",
+        "33": "import org.apache.poi.POIDocument;",
+        "34": "import org.apache.poi.hpsf.Util;",
+        "35": "import org.apache.poi.hslf.exceptions.CorruptPowerPointFileException;",
+        "36": "import org.apache.poi.hslf.exceptions.EncryptedPowerPointFileException;",
+        "37": "import org.apache.poi.hslf.exceptions.HSLFException;",
         "38": "import org.apache.poi.hslf.record.CurrentUserAtom;",
-        "678": "            for (int i = 0; i < _records.length; i++) {",
-        "679": "                if (_records[i] instanceof ExOleObjStg) {",
-        "680": "                    objects.add(new ObjectData((ExOleObjStg) _records[i]));",
-        "681": "                }",
-        "39": "import org.apache.poi.hslf.record.ExOleObjStg;"
+        "39": "import org.apache.poi.hslf.record.ExOleObjStg;",
+        "40": "import org.apache.poi.hslf.record.PersistPtrHolder;",
+        "41": "import org.apache.poi.hslf.record.PersistRecord;",
+        "42": "import org.apache.poi.hslf.record.PositionDependentRecord;",
+        "43": "import org.apache.poi.hslf.record.Record;",
+        "44": "import org.apache.poi.hslf.record.UserEditAtom;",
+        "17": "",
+        "18": "package org.apache.poi.hslf;"
       },
       "id": 97394255,
       "filename": "HSLFSlideShow.java"

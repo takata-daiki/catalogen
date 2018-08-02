@@ -1,8 +1,8 @@
 {
-  "matchterm": "LFOAbstractType",
+  "matchterm": "org.apache.poi.hwpf.model.types.LFOAbstractType",
   "previouspage": null,
-  "searchterm": "LFOAbstractType",
-  "query": "LFOAbstractType",
+  "searchterm": "org.apache.poi.hwpf.model.types.LFOAbstractType",
+  "query": "org.apache.poi.hwpf.model.types.LFOAbstractType",
   "language_filters": [
     {
       "count": 2,
@@ -15,25 +15,6 @@
     {
       "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
       "language": "Java",
-      "linescount": 291,
-      "location": "/src/org/apache/poi/hwpf/model/types",
-      "name": "SimpleAndroidDocView",
-      "url": "https://searchcode.com/codesearch/view/97384245/",
-      "md5hash": "a3fadc46038e7b7c16d48887b8abe6af",
-      "lines": {
-        "49": "",
-        "50": "    protected LFOAbstractType()",
-        "100": "            return false;",
-        "101": "        LFOAbstractType other = (LFOAbstractType) obj;",
-        "38": "@Internal",
-        "39": "public abstract class LFOAbstractType"
-      },
-      "id": 97384245,
-      "filename": "LFOAbstractType.java"
-    },
-    {
-      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
-      "language": "Java",
       "linescount": 43,
       "location": "/src/org/apache/poi/hwpf/model",
       "name": "SimpleAndroidDocView",
@@ -41,12 +22,50 @@
       "md5hash": "489ff9ef21347586a93773ed3bc5bf48",
       "lines": {
         "32": "public class LFO extends LFOAbstractType",
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "16": "==================================================================== */",
+        "17": "package org.apache.poi.hwpf.model;",
+        "18": "",
+        "19": "import org.apache.poi.util.Internal;",
         "20": "",
         "21": "import org.apache.poi.hwpf.model.types.LFOAbstractType;",
         "31": "@Internal"
       },
       "id": 97384000,
       "filename": "LFO.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 291,
+      "location": "/src/org/apache/poi/hwpf/model/types",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384245/",
+      "md5hash": "a3fadc46038e7b7c16d48887b8abe6af",
+      "lines": {
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "38": "@Internal",
+        "39": "public abstract class LFOAbstractType",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "16": "==================================================================== */",
+        "17": "package org.apache.poi.hwpf.model.types;",
+        "18": "",
+        "19": "import org.apache.poi.hwpf.model.Grfhic;",
+        "20": "import org.apache.poi.util.Internal;",
+        "21": "import org.apache.poi.util.LittleEndian;",
+        "22": ""
+      },
+      "id": 97384245,
+      "filename": "LFOAbstractType.java"
     }
   ],
   "page": 0,

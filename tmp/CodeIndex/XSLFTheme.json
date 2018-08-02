@@ -1,8 +1,8 @@
 {
-  "matchterm": "XSLFTheme",
+  "matchterm": "org.apache.poi.xslf.usermodel.XSLFTheme",
   "previouspage": null,
-  "searchterm": "XSLFTheme",
-  "query": "XSLFTheme",
+  "searchterm": "org.apache.poi.xslf.usermodel.XSLFTheme",
+  "query": "org.apache.poi.xslf.usermodel.XSLFTheme",
   "language_filters": [
     {
       "count": 7,
@@ -21,55 +21,24 @@
       "url": "https://searchcode.com/codesearch/view/97406799/",
       "md5hash": "6e68dd3c8ec32b1c5501783941fcea98",
       "lines": {
-        "384": "                XSLFSheet sheet = _shape.getSheet();",
-        "385": "                XSLFTheme theme = sheet.getTheme();",
-        "432": "                if(idx > 0){",
-        "104": "    public Paint selectPaint(Graphics2D graphics, XmlObject obj, CTSchemeColor phClr, PackagePart parentPart) {",
-        "105": "        XSLFTheme theme = _shape.getSheet().getTheme();",
-        "175": "            CTGradientFillProperties gradFill, Rectangle2D anchor,",
-        "176": "            XSLFTheme theme, CTSchemeColor phClr) {",
-        "433": "                    XSLFTheme theme = _shape.getSheet().getTheme();",
-        "274": "            CTGradientFillProperties gradFill, Rectangle2D anchor,",
-        "275": "            XSLFTheme theme, CTSchemeColor phClr) {",
-        "253": "            CTGradientFillProperties gradFill, Rectangle2D anchor,",
-        "254": "            XSLFTheme theme, CTSchemeColor phClr) {"
+        "32": "import org.apache.poi.util.Internal;",
+        "33": "import org.apache.poi.util.Units;",
+        "34": "import org.apache.poi.xslf.model.PropertyFetcher;",
+        "35": "import org.apache.poi.xslf.model.geom.Context;",
+        "36": "import org.apache.poi.xslf.model.geom.CustomGeometry;",
+        "37": "import org.apache.poi.xslf.model.geom.Guide;",
+        "38": "import org.apache.poi.xslf.model.geom.IAdjustableShape;",
+        "39": "import org.apache.poi.xslf.model.geom.Outline;",
+        "40": "import org.apache.poi.xslf.model.geom.Path;",
+        "41": "import org.apache.xmlbeans.XmlObject;",
+        "19": "",
+        "20": "package org.apache.poi.xslf.usermodel;",
+        "29": "",
+        "30": "import org.apache.poi.openxml4j.opc.PackagePart;",
+        "31": "import org.apache.poi.openxml4j.opc.PackageRelationship;"
       },
       "id": 97406799,
       "filename": "RenderableShape.java"
-    },
-    {
-      "repo": "https://github.com/minstrelsy/POI-Android.git",
-      "language": "Java",
-      "linescount": 547,
-      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
-      "name": "POI-Android",
-      "url": "https://searchcode.com/codesearch/view/97406808/",
-      "md5hash": "d2b2f692a7b658d89cb45fae37549298",
-      "lines": {
-        "272": "        final XSLFTheme theme = _p.getParentShape().getSheet().getTheme();",
-        "295": "    public byte getPitchAndFamily(){",
-        "296": "        final XSLFTheme theme = _p.getParentShape().getSheet().getTheme();",
-        "138": "    public Color getFontColor(){",
-        "139": "        final XSLFTheme theme = _p.getParentShape().getSheet().getTheme();",
-        "271": "    public String getFontFamily(){"
-      },
-      "id": 97406808,
-      "filename": "XSLFTextRun.java"
-    },
-    {
-      "repo": "https://github.com/minstrelsy/POI-Android.git",
-      "language": "Java",
-      "linescount": 247,
-      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
-      "name": "POI-Android",
-      "url": "https://searchcode.com/codesearch/view/97406624/",
-      "md5hash": "bd91cfe08b1a6b3395f8a88caf56a673",
-      "lines": {
-        "182": "    @Override",
-        "183": "    public XSLFTheme getTheme(){"
-      },
-      "id": 97406624,
-      "filename": "XSLFSlide.java"
     },
     {
       "repo": "https://github.com/minstrelsy/POI-Android.git",
@@ -80,8 +49,23 @@
       "url": "https://searchcode.com/codesearch/view/97406665/",
       "md5hash": "dc9cd103f74ef072c0c52e3cc628a7cb",
       "lines": {
-        "273": "    public Color getBulletFontColor(){",
-        "274": "        final XSLFTheme theme = getParentShape().getSheet().getTheme();"
+        "32": "import org.openxmlformats.schemas.drawingml.x2006.main.CTSRgbColor;",
+        "33": "import org.openxmlformats.schemas.drawingml.x2006.main.CTTextBulletSizePercent;",
+        "34": "import org.openxmlformats.schemas.drawingml.x2006.main.CTTextAutonumberBullet;",
+        "35": "import org.openxmlformats.schemas.drawingml.x2006.main.CTTextBulletSizePoint;",
+        "36": "//import org.openxmlformats.schemas.drawingml.x2006.main.CTTextBulletSizePoint;",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "16": "==================================================================== */",
+        "17": "package org.apache.poi.xslf.usermodel;",
+        "24": "",
+        "25": "import org.apache.poi.util.Beta;",
+        "26": "import org.apache.poi.util.Internal;",
+        "27": "import org.apache.poi.util.Units;",
+        "28": "import org.apache.poi.xslf.model.ParagraphPropertyFetcher;",
+        "29": "import org.apache.xmlbeans.XmlObject;",
+        "30": "import org.openxmlformats.schemas.drawingml.x2006.main.CTColor;",
+        "31": "import org.openxmlformats.schemas.drawingml.x2006.main.CTRegularTextRun;"
       },
       "id": 97406665,
       "filename": "XSLFTextParagraph.java"
@@ -89,17 +73,30 @@
     {
       "repo": "https://github.com/minstrelsy/POI-Android.git",
       "language": "Java",
-      "linescount": 139,
+      "linescount": 547,
       "location": "/pptx/src/org/apache/poi/xslf/usermodel",
       "name": "POI-Android",
-      "url": "https://searchcode.com/codesearch/view/97406680/",
-      "md5hash": "35e574a12d2825ac88afdc4bb8e7e334",
+      "url": "https://searchcode.com/codesearch/view/97406808/",
+      "md5hash": "d2b2f692a7b658d89cb45fae37549298",
       "lines": {
-        "129": "    public Color getFillColor() {",
-        "130": "        XSLFTheme theme = getSheet().getTheme();"
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "16": "==================================================================== */",
+        "17": "package org.apache.poi.xslf.usermodel;",
+        "18": "",
+        "19": "import org.apache.poi.util.Beta;",
+        "20": "import org.apache.poi.xslf.model.CharacterPropertyFetcher;",
+        "21": "import org.openxmlformats.schemas.drawingml.x2006.main.CTRegularTextRun;",
+        "22": "import org.openxmlformats.schemas.drawingml.x2006.main.CTSRgbColor;",
+        "23": "import org.openxmlformats.schemas.drawingml.x2006.main.CTSchemeColor;",
+        "24": "import org.openxmlformats.schemas.drawingml.x2006.main.CTShapeStyle;"
       },
-      "id": 97406680,
-      "filename": "XSLFShadow.java"
+      "id": 97406808,
+      "filename": "XSLFTextRun.java"
     },
     {
       "repo": "https://github.com/minstrelsy/POI-Android.git",
@@ -110,11 +107,81 @@
       "url": "https://searchcode.com/codesearch/view/97406768/",
       "md5hash": "06c77456c926d8545168347abe70a1d6",
       "lines": {
-        "370": "     */",
-        "371": "    XSLFTheme getTheme(){"
+        "32": "",
+        "33": "import org.apache.poi.POIXMLDocumentPart;",
+        "34": "import org.apache.poi.POIXMLException;",
+        "35": "import org.apache.poi.openxml4j.exceptions.InvalidFormatException;",
+        "36": "import org.apache.poi.openxml4j.opc.PackagePart;",
+        "37": "import org.apache.poi.openxml4j.opc.PackageRelationship;",
+        "38": "import org.apache.poi.openxml4j.opc.TargetMode;",
+        "39": "import org.apache.poi.util.Beta;",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "42": "import org.apache.xmlbeans.XmlOptions;",
+        "43": "import org.openxmlformats.schemas.officeDocument.x2006.relationships.STRelationshipId;",
+        "16": "==================================================================== */",
+        "17": "package org.apache.poi.xslf.usermodel;",
+        "41": "import org.apache.xmlbeans.XmlObject;",
+        "40": "import org.apache.poi.util.Internal;"
       },
       "id": 97406768,
       "filename": "XSLFSheet.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 247,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406624/",
+      "md5hash": "bd91cfe08b1a6b3395f8a88caf56a673",
+      "lines": {
+        "32": "//import org.openxmlformats.schemas.drawingml.x2006.main.CTNonVisualDrawingProps;",
+        "33": "import org.openxmlformats.schemas.drawingml.x2006.main.CTPoint2D;",
+        "34": "import org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveSize2D;",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "16": "==================================================================== */",
+        "17": "package org.apache.poi.xslf.usermodel;",
+        "23": "",
+        "24": "import org.apache.poi.POIXMLDocumentPart;",
+        "25": "import org.apache.poi.openxml4j.opc.PackagePart;",
+        "26": "import org.apache.poi.openxml4j.opc.PackageRelationship;",
+        "27": "import org.apache.poi.util.Beta;",
+        "28": "import org.apache.xmlbeans.XmlException;",
+        "29": "import org.openxmlformats.schemas.drawingml.x2006.main.CTBlip;",
+        "31": "import org.openxmlformats.schemas.drawingml.x2006.main.CTGroupTransform2D;"
+      },
+      "id": 97406624,
+      "filename": "XSLFSlide.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 139,
+      "location": "/pptx/src/org/apache/poi/xslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97406680/",
+      "md5hash": "35e574a12d2825ac88afdc4bb8e7e334",
+      "lines": {
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "129": "    public Color getFillColor() {",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "130": "        XSLFTheme theme = getSheet().getTheme();",
+        "17": "",
+        "18": "package org.apache.poi.xslf.usermodel;",
+        "21": "",
+        "22": "import org.apache.poi.util.Units;",
+        "23": "import org.openxmlformats.schemas.drawingml.x2006.main.CTOuterShadowEffect;",
+        "24": "import org.openxmlformats.schemas.drawingml.x2006.main.CTSchemeColor;",
+        "25": ""
+      },
+      "id": 97406680,
+      "filename": "XSLFShadow.java"
     },
     {
       "repo": "https://github.com/minstrelsy/POI-Android.git",
@@ -125,8 +192,21 @@
       "url": "https://searchcode.com/codesearch/view/97406821/",
       "md5hash": "f259ec227f81c8d728d9e1a1d81f293e",
       "lines": {
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
         "77": "            int idx = (int)bgRef.getIdx() - 1001;",
-        "78": "            XSLFTheme theme = getSheet().getTheme();"
+        "78": "            XSLFTheme theme = getSheet().getTheme();",
+        "17": "",
+        "18": "package org.apache.poi.xslf.usermodel;",
+        "21": "",
+        "22": "import org.apache.xmlbeans.XmlObject;",
+        "23": "import org.openxmlformats.schemas.drawingml.x2006.main.CTBackgroundFillStyleList;",
+        "24": "//import org.openxmlformats.schemas.drawingml.x2006.main.CTBackgroundFillStyleList;",
+        "25": "import org.openxmlformats.schemas.drawingml.x2006.main.CTSchemeColor;"
       },
       "id": 97406821,
       "filename": "XSLFBackground.java"

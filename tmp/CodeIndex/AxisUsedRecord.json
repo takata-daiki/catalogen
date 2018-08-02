@@ -1,8 +1,8 @@
 {
-  "matchterm": "AxisUsedRecord",
+  "matchterm": "org.apache.poi.hssf.record.chart.AxisUsedRecord",
   "previouspage": null,
-  "searchterm": "AxisUsedRecord",
-  "query": "AxisUsedRecord",
+  "searchterm": "org.apache.poi.hssf.record.chart.AxisUsedRecord",
+  "query": "org.apache.poi.hssf.record.chart.AxisUsedRecord",
   "language_filters": [
     {
       "count": 1,
@@ -21,14 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/15642471/",
       "md5hash": "26a4a8d449ea632677672eeba7632dd1",
       "lines": {
-        "136": "    public Object clone() {",
-        "137": "        AxisUsedRecord rec = new AxisUsedRecord();",
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.record;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "52": "",
+        "53": " * @author Glen Stampoultzis (glens at apache.org)",
         "54": " */",
         "55": "public class AxisUsedRecord",
-        "72": "",
-        "73": "    public AxisUsedRecord(RecordInputStream in)",
+        "56": "    extends Record",
         "61": "",
-        "62": "    public AxisUsedRecord()"
+        "62": "    public AxisUsedRecord()",
+        "31": ""
       },
       "id": 15642471,
       "filename": "AxisUsedRecord.java"

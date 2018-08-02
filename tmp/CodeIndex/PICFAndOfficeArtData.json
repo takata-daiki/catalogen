@@ -1,8 +1,8 @@
 {
-  "matchterm": "PICFAndOfficeArtData",
+  "matchterm": "org.apache.poi.hwpf.model.PICFAndOfficeArtData",
   "previouspage": null,
-  "searchterm": "PICFAndOfficeArtData",
-  "query": "PICFAndOfficeArtData",
+  "searchterm": "org.apache.poi.hwpf.model.PICFAndOfficeArtData",
+  "query": "org.apache.poi.hwpf.model.PICFAndOfficeArtData",
   "language_filters": [
     {
       "count": 2,
@@ -21,22 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97384428/",
       "md5hash": "abf85d22a465320cca19a26cbf1926ad",
       "lines": {
-        "513": "    {",
-        "514": "       for(EscherRecord escherRecord : _picfAndOfficeArtData.getShape().getChildRecords()){",
+        "32": "import org.apache.poi.ddf.EscherProperties;",
+        "33": "import org.apache.poi.ddf.EscherProperty;",
+        "34": "import org.apache.poi.ddf.EscherRecord;",
         "35": "import org.apache.poi.hwpf.model.PICF;",
         "36": "import org.apache.poi.hwpf.model.PICFAndOfficeArtData;",
-        "134": "    {",
-        "135": "        _picfAndOfficeArtData = new PICFAndOfficeArtData( _dataStream,",
-        "136": "                dataBlockStartOfsset );",
-        "137": "        _picf = _picfAndOfficeArtData.getPicf();",
-        "140": "",
-        "109": "    private PICFAndOfficeArtData _picfAndOfficeArtData;",
-        "142": "           _blipRecords = _picfAndOfficeArtData.getBlipRecords();",
-        "141": "        if ( _picfAndOfficeArtData != null && _picfAndOfficeArtData.getBlipRecords() != null) {",
-        "108": "    private PICF _picf;",
-        "340": "        // TODO: use new properties",
-        "341": "        // if (_picfAndOfficeArtData == null || _picfAndOfficeArtData.getShape()",
-        "143": "        }"
+        "37": "import org.apache.poi.util.PngUtils;",
+        "38": "import org.apache.poi.util.POILogFactory;",
+        "39": "import org.apache.poi.util.POILogger;",
+        "17": "",
+        "18": "package org.apache.poi.hwpf.usermodel;",
+        "27": "",
+        "28": "import org.apache.poi.ddf.EscherBSERecord;",
+        "29": "import org.apache.poi.ddf.EscherBlipRecord;",
+        "30": "import org.apache.poi.ddf.EscherComplexProperty;",
+        "31": "import org.apache.poi.ddf.EscherOptRecord;"
       },
       "id": 97384428,
       "filename": "Picture.java"
@@ -50,8 +49,21 @@
       "url": "https://searchcode.com/codesearch/view/97384484/",
       "md5hash": "eb3ee5102b1d02992e415773f3944ccc",
       "lines": {
-        "485": "   *  a NilPICFAndBinData structure, otherwise to a",
-        "486": "   *  PICFAndOfficeArtData"
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hwpf.usermodel;",
+        "19": "",
+        "20": "import org.apache.poi.hwpf.HWPFDocument;",
+        "21": "import org.apache.poi.hwpf.model.CHPX;",
+        "22": "import org.apache.poi.hwpf.model.FFData;",
+        "23": "import org.apache.poi.hwpf.model.Ffn;",
+        "24": "import org.apache.poi.hwpf.model.NilPICFAndBinData;",
+        "25": "import org.apache.poi.hwpf.model.StyleSheet;",
+        "26": "import org.apache.poi.hwpf.sprm.SprmBuffer;",
+        "27": ""
       },
       "id": 97384484,
       "filename": "CharacterRun.java"

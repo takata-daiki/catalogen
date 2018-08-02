@@ -1,36 +1,17 @@
 {
-  "matchterm": "OperationEvaluationContext",
+  "matchterm": "org.apache.poi.ss.formula.OperationEvaluationContext",
   "previouspage": null,
-  "searchterm": "OperationEvaluationContext",
-  "query": "OperationEvaluationContext",
+  "searchterm": "org.apache.poi.ss.formula.OperationEvaluationContext",
+  "query": "org.apache.poi.ss.formula.OperationEvaluationContext",
   "language_filters": [
     {
-      "count": 4,
+      "count": 3,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 4,
+  "total": 3,
   "results": [
-    {
-      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 163,
-      "location": "/zss/src/org/zkoss/poi/ss/formula",
-      "name": "zkspreadsheet",
-      "url": "https://searchcode.com/codesearch/view/3970569/",
-      "md5hash": "6c4cf9a355470c2f624993f5b0758c74",
-      "lines": {
-        "115": "\tpublic void addDependency(OperationEvaluationContext ec, Ptg[] ptgs) {",
-        "114": "\t@Override",
-        "51": "\t@Override",
-        "52": "\tpublic ValueEval postProcessValueEval(OperationEvaluationContext ec, ValueEval opResult, boolean eval) {",
-        "58": "\t",
-        "59": "\tprotected CellRefImpl prepareSrcRef(OperationEvaluationContext ec) {"
-      },
-      "id": 3970569,
-      "filename": "DefaultDependencyTracker.java"
-    },
     {
       "repo": "https://bitbucket.org/openicar/juniprint",
       "language": "Java",
@@ -40,10 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/60212073/",
       "md5hash": "5742c87b59893ee69331ec91c5176455",
       "lines": {
-        "33": "\t",
-        "34": "\tpublic ValueEval evaluate(ValueEval[] args, OperationEvaluationContext ec) {",
+        "6": " * %%",
+        "7": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "10": " * ",
+        "11": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "12": " * ",
+        "13": " * Unless required by applicable law or agreed to in writing, software",
+        "14": " * distributed under the License is distributed on an \"AS IS\" BASIS,",
+        "21": "",
+        "22": "import org.apache.poi.hssf.record.formula.eval.ErrorEval;",
+        "23": "import org.apache.poi.hssf.record.formula.eval.EvaluationException;",
+        "24": "import org.apache.poi.hssf.record.formula.eval.OperandResolver;",
+        "25": "import org.apache.poi.hssf.record.formula.eval.StringEval;",
+        "26": "import org.apache.poi.hssf.record.formula.eval.ValueEval;",
         "27": "import org.apache.poi.hssf.record.formula.functions.FreeRefFunction;",
-        "28": "import org.apache.poi.ss.formula.OperationEvaluationContext;"
+        "28": "import org.apache.poi.ss.formula.OperationEvaluationContext;",
+        "29": "import org.comsoft.juniprint.utils.WritableSummRuRUB;"
       },
       "id": 60212073,
       "filename": "Sum_Prop.java"
@@ -57,10 +50,22 @@
       "url": "https://searchcode.com/codesearch/view/60212074/",
       "md5hash": "ff75604b3c2b39c7e444cf43781d773c",
       "lines": {
-        "36": "\tpublic ValueEval evaluate(ValueEval[] args, OperationEvaluationContext ec) {",
-        "35": "\t",
+        "6": " * %%",
+        "7": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "10": " * ",
+        "11": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "12": " * ",
+        "13": " * Unless required by applicable law or agreed to in writing, software",
+        "14": " * distributed under the License is distributed on an \"AS IS\" BASIS,",
+        "22": "",
+        "23": "import org.apache.poi.hssf.record.formula.eval.ErrorEval;",
+        "24": "import org.apache.poi.hssf.record.formula.eval.EvaluationException;",
+        "25": "import org.apache.poi.hssf.record.formula.eval.OperandResolver;",
+        "26": "import org.apache.poi.hssf.record.formula.eval.StringEval;",
+        "27": "import org.apache.poi.hssf.record.formula.eval.ValueEval;",
         "28": "import org.apache.poi.hssf.record.formula.functions.FreeRefFunction;",
-        "29": "import org.apache.poi.ss.formula.OperationEvaluationContext;"
+        "29": "import org.apache.poi.ss.formula.OperationEvaluationContext;",
+        "30": "import org.comsoft.juniprint.utils.WritableIntNumberPropRu;"
       },
       "id": 60212074,
       "filename": "Nmb_Prop.java"
@@ -74,10 +79,22 @@
       "url": "https://searchcode.com/codesearch/view/60212076/",
       "md5hash": "e44f8aeeefd407ea1a793bea5064c3c2",
       "lines": {
-        "35": "\tpublic ValueEval evaluate(ValueEval[] args, OperationEvaluationContext arg1) {",
-        "34": "",
+        "6": " * %%",
+        "7": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "10": " * ",
+        "11": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "12": " * ",
+        "13": " * Unless required by applicable law or agreed to in writing, software",
+        "14": " * distributed under the License is distributed on an \"AS IS\" BASIS,",
+        "21": "",
+        "22": "import org.apache.poi.hssf.record.formula.eval.ErrorEval;",
+        "23": "import org.apache.poi.hssf.record.formula.eval.EvaluationException;",
+        "24": "import org.apache.poi.hssf.record.formula.eval.OperandResolver;",
+        "25": "import org.apache.poi.hssf.record.formula.eval.StringEval;",
+        "26": "import org.apache.poi.hssf.record.formula.eval.ValueEval;",
         "27": "import org.apache.poi.hssf.record.formula.functions.FreeRefFunction;",
-        "28": "import org.apache.poi.ss.formula.OperationEvaluationContext;"
+        "28": "import org.apache.poi.ss.formula.OperationEvaluationContext;",
+        "29": "import org.comsoft.juniprint.utils.WritableIntNumberPropRu;"
       },
       "id": 60212076,
       "filename": "FML.java"
@@ -90,11 +107,6 @@
       "count": 3,
       "source": "Bitbucket",
       "id": 3
-    },
-    {
-      "count": 1,
-      "source": "Google Code",
-      "id": 1
     }
   ]
 }

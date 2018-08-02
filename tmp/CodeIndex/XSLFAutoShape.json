@@ -1,8 +1,8 @@
 {
-  "matchterm": "XSLFAutoShape",
+  "matchterm": "org.apache.poi.xslf.usermodel.XSLFAutoShape",
   "previouspage": null,
-  "searchterm": "XSLFAutoShape",
-  "query": "XSLFAutoShape",
+  "searchterm": "org.apache.poi.xslf.usermodel.XSLFAutoShape",
+  "query": "org.apache.poi.xslf.usermodel.XSLFAutoShape",
   "language_filters": [
     {
       "count": 3,
@@ -21,12 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/97406768/",
       "md5hash": "06c77456c926d8545168347abe70a1d6",
       "lines": {
-        "145": "",
-        "146": "    public XSLFAutoShape createAutoShape(){",
-        "147": "        List<XSLFShape> shapes = getShapeList();",
-        "148": "        XSLFAutoShape sh = getDrawing().createAutoShape();",
-        "94": "            if(ch instanceof CTShape){ // simple shape",
-        "95": "                XSLFAutoShape shape = XSLFAutoShape.create((CTShape)ch, this);"
+        "32": "",
+        "33": "import org.apache.poi.POIXMLDocumentPart;",
+        "34": "import org.apache.poi.POIXMLException;",
+        "35": "import org.apache.poi.openxml4j.exceptions.InvalidFormatException;",
+        "36": "import org.apache.poi.openxml4j.opc.PackagePart;",
+        "37": "import org.apache.poi.openxml4j.opc.PackageRelationship;",
+        "38": "import org.apache.poi.openxml4j.opc.TargetMode;",
+        "39": "import org.apache.poi.util.Beta;",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "42": "import org.apache.xmlbeans.XmlOptions;",
+        "43": "import org.openxmlformats.schemas.officeDocument.x2006.relationships.STRelationshipId;",
+        "16": "==================================================================== */",
+        "17": "package org.apache.poi.xslf.usermodel;",
+        "41": "import org.apache.xmlbeans.XmlObject;",
+        "40": "import org.apache.poi.util.Internal;"
       },
       "id": 97406768,
       "filename": "XSLFSheet.java"
@@ -40,12 +50,21 @@
       "url": "https://searchcode.com/codesearch/view/97406826/",
       "md5hash": "88f503638871e547730cf002e54b3503",
       "lines": {
-        "52": "",
-        "53": "    public XSLFAutoShape createAutoShape(){",
-        "54": "        CTShape sp = _spTree.addNewSp();",
-        "55": "        sp.set(XSLFAutoShape.prototype(_shapeId++));",
-        "56": "        XSLFAutoShape shape = new XSLFAutoShape(sp, _sheet);",
-        "57": "        shape.setAnchor(new Rectangle());"
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "16": "==================================================================== */",
+        "17": "package org.apache.poi.xslf.usermodel;",
+        "18": "",
+        "19": "import org.apache.poi.util.Beta;",
+        "20": "import org.apache.xmlbeans.XmlObject;",
+        "21": "import org.openxmlformats.schemas.drawingml.x2006.main.CTNonVisualDrawingProps;",
+        "22": "//import org.openxmlformats.schemas.drawingml.x2006.main.CTNonVisualDrawingProps;",
+        "23": "import org.openxmlformats.schemas.presentationml.x2006.main.CTConnector;",
+        "24": "import org.openxmlformats.schemas.presentationml.x2006.main.CTGraphicalObjectFrame;"
       },
       "id": 97406826,
       "filename": "XSLFDrawing.java"
@@ -59,10 +78,21 @@
       "url": "https://searchcode.com/codesearch/view/97406700/",
       "md5hash": "7ac71aab113fccf906b12580ebb695aa",
       "lines": {
-        "209": "",
-        "210": "    public XSLFAutoShape createAutoShape(){",
-        "211": "        XSLFAutoShape sh = getDrawing().createAutoShape();",
-        "212": "        _shapes.add(sh);"
+        "32": "import org.apache.poi.util.Units;",
+        "33": "import org.apache.xmlbeans.XmlObject;",
+        "34": "import org.openxmlformats.schemas.drawingml.x2006.main.CTGroupShapeProperties;",
+        "37": "//import org.openxmlformats.schemas.drawingml.x2006.main.CTNonVisualDrawingProps;",
+        "38": "import org.openxmlformats.schemas.drawingml.x2006.main.CTPoint2D;",
+        "39": "import org.openxmlformats.schemas.drawingml.x2006.main.CTPositiveSize2D;",
+        "9": " *",
+        "10": " *        http://www.apache.org/licenses/LICENSE-2.0",
+        "19": "",
+        "20": "package org.apache.poi.xslf.usermodel;",
+        "27": "",
+        "28": "import org.apache.poi.openxml4j.opc.PackagePart;",
+        "29": "import org.apache.poi.openxml4j.opc.PackageRelationship;",
+        "30": "import org.apache.poi.openxml4j.opc.TargetMode;",
+        "31": "import org.apache.poi.util.Beta;"
       },
       "id": 97406700,
       "filename": "XSLFGroupShape.java"

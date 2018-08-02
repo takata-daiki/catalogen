@@ -1,8 +1,8 @@
 {
-  "matchterm": "HSSFFontFormatting",
+  "matchterm": "org.apache.poi.hssf.usermodel.HSSFFontFormatting",
   "previouspage": null,
-  "searchterm": "HSSFFontFormatting",
-  "query": "HSSFFontFormatting",
+  "searchterm": "org.apache.poi.hssf.usermodel.HSSFFontFormatting",
+  "query": "org.apache.poi.hssf.usermodel.HSSFFontFormatting",
   "language_filters": [
     {
       "count": 1,
@@ -21,10 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/558689/",
       "md5hash": "9887d9243cb2e3a3f5526b9b99870189",
       "lines": {
-        "140": "//        grayFill.setFillBackgroundColor(HSSFColor.GREY_25_PERCENT.index);",
-        "141": "//        HSSFFontFormatting boldFont = attribTrueRule.createFontFormatting();",
-        "134": "//        attribFalseRule = cf.createConditionalFormattingRule(CFRuleRecord.ComparisonOperator.EQUAL, \"FALSE\", null);",
-        "135": "//        HSSFFontFormatting grayFont = attribFalseRule.createFontFormatting();"
+        "5": "",
+        "6": "package org.sigmah.server.endpoint.export;",
+        "7": "",
+        "8": "import org.apache.poi.hssf.usermodel.HSSFClientAnchor;",
+        "9": "import org.apache.poi.hssf.usermodel.HSSFPatriarch;",
+        "10": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "11": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "12": "import org.apache.poi.ss.usermodel.*;",
+        "13": "import org.apache.poi.ss.util.CellRangeAddress;",
+        "14": "import org.sigmah.server.domain.SiteData;",
+        "15": "import org.sigmah.server.report.generator.SiteDataBinder;",
+        "16": "import org.sigmah.shared.dao.Filter;",
+        "17": "import org.sigmah.shared.dao.SiteTableColumn;",
+        "18": "import org.sigmah.shared.dao.SiteTableDAO;",
+        "19": "import org.sigmah.shared.domain.AdminEntity;"
       },
       "id": 558689,
       "filename": "Export.java"

@@ -1,495 +1,54 @@
 {
-  "matchterm": "Code",
+  "matchterm": "org.apache.poi.ss.formula.functions.Code",
   "previouspage": null,
-  "searchterm": "Code",
-  "query": "Code",
+  "searchterm": "org.apache.poi.ss.formula.functions.Code",
+  "query": "org.apache.poi.ss.formula.functions.Code",
   "language_filters": [
     {
-      "count": 968318,
+      "count": 1,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 968318,
+  "total": 1,
   "results": [
     {
-      "repo": "https://github.com/petermikitsh/mastermind.git",
+      "repo": "https://bitbucket.org/openicar/juniprint",
       "language": "Java",
-      "linescount": 116,
-      "location": "/src/model",
-      "name": "mastermind",
-      "url": "https://searchcode.com/codesearch/view/73705320/",
-      "md5hash": "45c01826a185fb2b0f63de668774fb0b",
+      "linescount": 2096,
+      "location": "/src/main/java/org/comsoft/juniprint",
+      "name": "juniprint",
+      "url": "https://searchcode.com/codesearch/view/60212057/",
+      "md5hash": "e9487002cf69dbd9246766c01c968b73",
       "lines": {
-        "1": "/**",
-        "2": " * Code.java",
-        "3": " *",
-        "4": " * This class represents a code. This includes the answer code",
-        "5": " * that the codemaker makes and the guesses that the codebreaker",
-        "6": " * makes.",
-        "14": "",
-        "15": "public class Code {",
-        "16": "\t",
-        "17": "\tprivate CodePegs[] code;",
-        "20": "\t/**",
-        "21": "\t * Constructor for a code in the game of Mastermind",
-        "22": "\t * ",
-        "23": "\t * @param code - The list of code pegs that make up the code",
-        "24": "\t */"
-      },
-      "id": 73705320,
-      "filename": "Code.java"
-    },
-    {
-      "repo": "https://github.com/SundeepK/mongo-java-driver.git",
-      "language": "Java",
-      "linescount": 62,
-      "location": "/src/main/org/bson/types",
-      "name": "mongo-java-driver",
-      "url": "https://searchcode.com/codesearch/view/72254584/",
-      "md5hash": "724041af325a3dbbce45c11fc8f4dd33",
-      "lines": {
-        "32": "",
-        "1": "// Code.java",
-        "2": "",
-        "35": "    }",
-        "36": "",
-        "37": "    public String getCode(){",
-        "38": "        return _code;",
-        "33": "    public Code( String code ){",
-        "41": "    public boolean equals( Object o ){",
-        "42": "        if ( ! ( o instanceof Code ) )",
-        "39": "    }",
-        "34": "        _code = code;",
-        "26": "/** ",
-        "27": " * for using the Code type",
-        "28": " */",
-        "29": "public class Code implements Serializable {"
-      },
-      "id": 72254584,
-      "filename": "Code.java"
-    },
-    {
-      "repo": "https://github.com/hds1989824/lizar.git",
-      "language": "Java",
-      "linescount": 59,
-      "location": "/phone/mongo/org/bson/types",
-      "name": "lizar",
-      "url": "https://searchcode.com/codesearch/view/73781668/",
-      "md5hash": "0e185e56d63eb1fb2a83a48d2666504d",
-      "lines": {
-        "32": "    }",
-        "1": "// Code.java",
-        "2": "",
-        "35": "        return _code;",
-        "36": "    }",
-        "38": "    public boolean equals( Object o ){",
-        "33": "",
-        "39": "        if ( ! ( o instanceof Code ) )",
-        "34": "    public String getCode(){",
-        "25": "/** ",
-        "26": " * for using the Code type",
-        "27": " */",
-        "28": "public class Code {",
+        "32": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "33": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "34": "import org.apache.poi.hssf.usermodel.HSSFComment;",
+        "35": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "36": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator;",
+        "37": "import org.apache.poi.hssf.usermodel.HSSFName;",
+        "6": " * %%",
+        "7": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "10": " * ",
+        "11": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "12": " * ",
+        "39": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "38": "import org.apache.poi.hssf.usermodel.HSSFPrintSetup;",
         "29": "",
-        "30": "    public Code( String code ){",
-        "31": "        _code = code;"
+        "30": "import org.apache.poi.hssf.record.formula.functions.FreeRefFunction;",
+        "31": "import org.apache.poi.hssf.record.formula.udf.DefaultUDFFinder;"
       },
-      "id": 73781668,
-      "filename": "Code.java"
-    },
-    {
-      "repo": "https://github.com/lemnitram/mongo-java-driver.git",
-      "language": "Java",
-      "linescount": 50,
-      "location": "/src/main/org/bson/types",
-      "name": "mongo-java-driver",
-      "url": "https://searchcode.com/codesearch/view/110775843/",
-      "md5hash": "a99cd1fb35439ce24ee3d2e587b6a7e3",
-      "lines": {
-        "32": "    }",
-        "1": "// Code.java",
-        "2": "",
-        "35": "        return _code;",
-        "36": "    }",
-        "38": "    public boolean equals( Object o ){",
-        "33": "",
-        "39": "        if ( ! ( o instanceof Code ) )",
-        "34": "    public String getCode(){",
-        "25": "/** ",
-        "26": " * for using the Code type",
-        "27": " */",
-        "28": "public class Code {",
-        "29": "",
-        "30": "    public Code( String code ){",
-        "31": "        _code = code;"
-      },
-      "id": 110775843,
-      "filename": "Code.java"
-    },
-    {
-      "repo": "https://github.com/AEtherSurfer/MCore.git",
-      "language": "Java",
-      "linescount": 59,
-      "location": "/src/com/massivecraft/mcore/xlib/bson/types",
-      "name": "MCore",
-      "url": "https://searchcode.com/codesearch/view/69694673/",
-      "md5hash": "fd0ff030e6990f99f79a895d67183fbb",
-      "lines": {
-        "32": "    }",
-        "1": "// Code.java",
-        "2": "",
-        "35": "        return _code;",
-        "36": "    }",
-        "38": "    public boolean equals( Object o ){",
-        "33": "",
-        "39": "        if ( ! ( o instanceof Code ) )",
-        "34": "    public String getCode(){",
-        "23": "/** ",
-        "24": " * for using the Code type",
-        "25": " */",
-        "26": "public class Code implements Serializable {",
-        "29": "",
-        "30": "    public Code( String code ){",
-        "31": "        _code = code;"
-      },
-      "id": 69694673,
-      "filename": "Code.java"
-    },
-    {
-      "repo": "git://github.com/zkoss/zk.git",
-      "language": "Java",
-      "linescount": 31,
-      "location": "/zhtml/src/org/zkoss/zhtml",
-      "name": "zk",
-      "url": "https://searchcode.com/codesearch/view/17662016/",
-      "md5hash": "c1ccd8e9eddae4918d8940afab75aed6",
-      "lines": {
-        "1": "/* Code.java",
-        "2": "",
-        "21": "/**",
-        "22": " * The CODE tag.",
-        "25": " */",
-        "26": "public class Code extends AbstractTag {",
-        "27": "\tpublic Code() {",
-        "28": "\t\tsuper(\"code\");",
-        "29": "\t}"
-      },
-      "id": 17662016,
-      "filename": "Code.java"
-    },
-    {
-      "repo": "https://bitbucket.org/sentimental/classeditor_fork.git",
-      "language": "Java",
-      "linescount": 88,
-      "location": "/src/main/java/classfile/attributes",
-      "name": "classeditor_fork",
-      "url": "https://searchcode.com/codesearch/view/45509804/",
-      "md5hash": "c19feffcd20127e5ea4d555d70705909",
-      "lines": {
-        "1": "/*",
-        "2": " * Code.java",
-        "36": "",
-        "37": "public class Code {",
-        "38": "    public int             iCodeLength;",
-        "39": "    public int             iCurrIndex;",
-        "40": "    public int             iCodeIndex;",
-        "41": "    public Vector          vectCode;",
-        "42": "    ",
-        "43": "    void read(DataInputStream dis, ConstantPool constPool) throws IOException {",
-        "44": "        iCodeLength = dis.readInt();",
-        "45": "        ",
-        "28": "/**",
-        "29": " * Class to go through the code array and return sCodeIndex + a string representation of",
-        "30": " * the code one instruction per call of method getNextInstruction.",
-        "31": " * <p>"
-      },
-      "id": 45509804,
-      "filename": "Code.java"
-    },
-    {
-      "repo": "https://github.com/edbean/hibernate-validator.git",
-      "language": "Java",
-      "linescount": 607,
-      "location": "/engine/src/main/java/org/hibernate/validator/internal/util",
-      "name": "hibernate-validator",
-      "url": "https://searchcode.com/codesearch/view/74193500/",
-      "md5hash": "abd3c699b4aaa592d10eaf422298bfd1",
-      "lines": {
-        "1": "// code originates from TypeUtils.java in jtype (http://code.google.com/p/jtype/) and has been modified to suite",
-        "2": "// the HV requirements and code style",
-        "3": "/*",
-        "501": "\t *",
-        "502": "\t * @return {@code true} if the specified type is a reference type",
-        "489": "\t * <p>",
-        "490": "\t * More specifically, this method returns {@code true} if the specified type is one of the following:"
-      },
-      "id": 74193500,
-      "filename": "TypeHelper.java"
-    },
-    {
-      "repo": "git://github.com/apache/hadoop-common.git",
-      "language": "Java",
-      "linescount": 480,
-      "location": "/hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/util",
-      "name": "hadoop-common",
-      "url": "https://searchcode.com/codesearch/view/116080554/",
-      "md5hash": "2c2646c8670bd0caa8b609314cf31af4",
-      "lines": {
-        "64": " *     <li><code>sp</code></li>",
-        "1": "// Code source of this file: ",
-        "2": "//   http://grepcode.com/file/repo1.maven.org/maven2/",
-        "3": "//     org.apache.maven/maven-artifact/3.1.1/",
-        "65": " *     </ul>",
-        "50": " * <ul>",
-        "51": " * <li>mixing of '<code>-</code>' (dash) and '<code>.</code>' (dot) separators,</li>",
-        "52": " * <li>transition between characters and digits also constitutes a separator:",
-        "57": " *     Well-known qualifiers (case insensitive) are:<ul>",
-        "58": " *     <li><code>alpha</code> or <code>a</code></li>",
-        "59": " *     <li><code>beta</code> or <code>b</code></li>",
-        "60": " *     <li><code>milestone</code> or <code>m</code></li>",
-        "61": " *     <li><code>rc</code> or <code>cr</code></li>",
-        "62": " *     <li><code>snapshot</code></li>",
-        "63": " *     <li><code>(the empty string)</code> or <code>ga</code> or <code>final</code></li>"
-      },
-      "id": 116080554,
-      "filename": "ComparableVersion.java"
-    },
-    {
-      "repo": "https://github.com/anupamsaini/hibernate-validator.git",
-      "language": "Java",
-      "linescount": 983,
-      "location": "/engine/src/test/java/org/hibernate/validator/test/internal/util",
-      "name": "hibernate-validator",
-      "url": "https://searchcode.com/codesearch/view/93704098/",
-      "md5hash": "6d0aacc87d53a4c12c6684c1dfd87760",
-      "lines": {
-        "1": "// code originates from TypeUtilsTest.java in jtype (http://code.google.com/p/jtype/) and has been modified to suite",
-        "2": "// the HV requirements and code style",
-        "3": "/*",
-        "916": "",
-        "917": "\t\t// HV-871 Implementing TypeVariable via a dynamic proxy to ensure this code can be compiled with Java 7 and 8;",
-        "49": "/**",
-        "50": " * Tests {@code TypeUtils}."
-      },
-      "id": 93704098,
-      "filename": "TypeHelperTest.java"
-    },
-    {
-      "repo": "https://github.com/anupamsaini/hibernate-validator.git",
-      "language": "Java",
-      "linescount": 621,
-      "location": "/engine/src/main/java/org/hibernate/validator/internal/util",
-      "name": "hibernate-validator",
-      "url": "https://searchcode.com/codesearch/view/93705896/",
-      "md5hash": "3fc4d4acfc6edf569fe0e8d7ecebc0b0",
-      "lines": {
-        "515": "\t *",
-        "1": "// code originates from TypeUtils.java in jtype (http://code.google.com/p/jtype/) and has been modified to suite",
-        "2": "// the HV requirements and code style",
-        "3": "/*",
-        "516": "\t * @return {@code true} if the specified type is a reference type",
-        "503": "\t * <p>",
-        "504": "\t * More specifically, this method returns {@code true} if the specified type is one of the following:"
-      },
-      "id": 93705896,
-      "filename": "TypeHelper.java"
-    },
-    {
-      "repo": "https://github.com/luca91/EMS.git",
-      "language": "Java",
-      "linescount": 349,
-      "location": "/src/com/ems/dao",
-      "name": "EMS",
-      "url": "https://searchcode.com/codesearch/view/70946506/",
-      "md5hash": "ae3fade18ca3d16f7fb6bbb7f4d5b436",
-      "lines": {
-        "24": "* EventDao is the class that performs actions on the Event of the database",
-        "1": "//Code inspired by http://danielniko.wordpress.com/2012/04/17/simple-crud-using-jsp-servlet-and-mysql/",
-        "2": "",
-        "25": "* Code inspired by http://danielniko.wordpress.com/2012/04/17/simple-crud-using-jsp-servlet-and-mysql/"
-      },
-      "id": 70946506,
-      "filename": "EventDao.java"
-    },
-    {
-      "repo": "https://github.com/luca91/EMS.git",
-      "language": "Java",
-      "linescount": 398,
-      "location": "/src/com/ems/dao",
-      "name": "EMS",
-      "url": "https://searchcode.com/codesearch/view/70946523/",
-      "md5hash": "4e064706a880bde700f01c836cbcc37f",
-      "lines": {
-        "24": "* UserDao is the class that performs actions on the table User of the database",
-        "1": "//Code inspired by http://danielniko.wordpress.com/2012/04/17/simple-crud-using-jsp-servlet-and-mysql/",
-        "2": "",
-        "25": "* Code inspired by http://danielniko.wordpress.com/2012/04/17/simple-crud-using-jsp-servlet-and-mysql/"
-      },
-      "id": 70946523,
-      "filename": "UserDao.java"
-    },
-    {
-      "repo": "https://github.com/luca91/EMS.git",
-      "language": "Java",
-      "linescount": 455,
-      "location": "/src/com/ems/dao",
-      "name": "EMS",
-      "url": "https://searchcode.com/codesearch/view/70946535/",
-      "md5hash": "f1f30e76142c003bd6fc9ddc1df49b96",
-      "lines": {
-        "1": "//Code inspired by http://danielniko.wordpress.com/2012/04/17/simple-crud-using-jsp-servlet-and-mysql/",
-        "2": "",
-        "27": "* Code inspired by http://danielniko.wordpress.com/2012/04/17/simple-crud-using-jsp-servlet-and-mysql/",
-        "26": "* ParticipantDao is the class that performs actions on the table Participant of the database"
-      },
-      "id": 70946535,
-      "filename": "ParticipantDao.java"
-    },
-    {
-      "repo": "git://github.com/JetBrains/intellij-community.git",
-      "language": "Java",
-      "linescount": 8,
-      "location": "/java/java-tests/testData/psi/parser-full/javadocParsing",
-      "name": "intellij-community",
-      "url": "https://searchcode.com/codesearch/view/116153848/",
-      "md5hash": "68be39926c69a0807c9b67f6e0f30189",
-      "lines": {
-        "1": "/**",
-        "2": " * {@code",
-        "3": " * this is some code",
-        "4": " * that contains line breaks"
-      },
-      "id": 116153848,
-      "filename": "MultilineCodeTag.java"
-    },
-    {
-      "repo": "https://bitbucket.org/meverett/mywire",
-      "language": "Java",
-      "linescount": 68,
-      "location": "/components/collection/src/main/java/org/limewire/collection",
-      "name": "mywire",
-      "url": "https://searchcode.com/codesearch/view/119550906/",
-      "md5hash": "8992c5731af917a6241b0e80d3a76343",
-      "lines": {
-        "1": "/**",
-        "2": " * Code taken freely from",
-        "18": " * Additionally, <code>AutoCompleteDictionary</code> provides a search and way ",
-        "17": " * interface includes adding, removing and clearing entries from the dictionary."
-      },
-      "id": 119550906,
-      "filename": "AutoCompleteDictionary.java"
-    },
-    {
-      "repo": "https://github.com/luca91/EMS.git",
-      "language": "Java",
-      "linescount": 164,
-      "location": "/src/com/ems/model",
-      "name": "EMS",
-      "url": "https://searchcode.com/codesearch/view/70946228/",
-      "md5hash": "b6231817acd4c7da958b9a902f769f9f",
-      "lines": {
-        "1": "//Code inspired by http://danielniko.wordpress.com/2012/04/17/simple-crud-using-jsp-servlet-and-mysql/",
-        "2": ""
-      },
-      "id": 70946228,
-      "filename": "User.java"
-    },
-    {
-      "repo": "https://github.com/luca91/EMS.git",
-      "language": "Java",
-      "linescount": 141,
-      "location": "/src/com/ems/tools",
-      "name": "EMS",
-      "url": "https://searchcode.com/codesearch/view/70946482/",
-      "md5hash": "6eec6248cf27589ce5f5bc548a397fe2",
-      "lines": {
-        "1": "//Code inspired from: http://zetcode.com/tutorials/jeetutorials/sendingemail/",
-        "2": "",
-        "115": "    * @author http://zetcode.com/tutorials/jeetutorials/sendingemail/",
-        "114": "    * "
-      },
-      "id": 70946482,
-      "filename": "Email.java"
-    },
-    {
-      "repo": "https://github.com/luca91/EMS.git",
-      "language": "Java",
-      "linescount": 105,
-      "location": "/TRASH/com.ems.contoller",
-      "name": "EMS",
-      "url": "https://searchcode.com/codesearch/view/70946650/",
-      "md5hash": "1befa78ab1d01b32bcc007cedce6144b",
-      "lines": {
-        "1": "//Code inspired by http://danielniko.wordpress.com/2012/04/17/simple-crud-using-jsp-servlet-and-mysql/",
-        "2": ""
-      },
-      "id": 70946650,
-      "filename": "UserController.java"
-    },
-    {
-      "repo": "https://github.com/luca91/EMS.git",
-      "language": "Java",
-      "linescount": 155,
-      "location": "/TRASH/com.ems.prototype",
-      "name": "EMS",
-      "url": "https://searchcode.com/codesearch/view/70946675/",
-      "md5hash": "0c072a0e9ceb730d5dff1279eaf6afa7",
-      "lines": {
-        "1": "//Code inspired by http://danielniko.wordpress.com/2012/04/17/simple-crud-using-jsp-servlet-and-mysql/",
-        "2": ""
-      },
-      "id": 70946675,
-      "filename": "EntityDao.java"
+      "id": 60212057,
+      "filename": "JUniPrint.java"
     }
   ],
   "page": 0,
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 567759,
+      "count": 1,
       "source": "Bitbucket",
       "id": 3
-    },
-    {
-      "count": 281936,
-      "source": "Github",
-      "id": 2
-    },
-    {
-      "count": 102331,
-      "source": "Google Code",
-      "id": 1
-    },
-    {
-      "count": 8781,
-      "source": "Sourceforge",
-      "id": 4
-    },
-    {
-      "count": 3306,
-      "source": "GitLab",
-      "id": 13
-    },
-    {
-      "count": 2175,
-      "source": "CodePlex",
-      "id": 5
-    },
-    {
-      "count": 1166,
-      "source": "Unknown",
-      "id": 0
-    },
-    {
-      "count": 735,
-      "source": "Google Android",
-      "id": 12
-    },
-    {
-      "count": 129,
-      "source": "Gitorious",
-      "id": 10
     }
   ]
 }

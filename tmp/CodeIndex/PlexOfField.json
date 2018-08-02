@@ -1,8 +1,8 @@
 {
-  "matchterm": "PlexOfField",
+  "matchterm": "org.apache.poi.hwpf.model.PlexOfField",
   "previouspage": null,
-  "searchterm": "PlexOfField",
-  "query": "PlexOfField",
+  "searchterm": "org.apache.poi.hwpf.model.PlexOfField",
+  "query": "org.apache.poi.hwpf.model.PlexOfField",
   "language_filters": [
     {
       "count": 1,
@@ -21,18 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/88635600/",
       "md5hash": "4fdb8879b881e2e5c24c5fc59b1fec83",
       "lines": {
-        "116": "    public ArrayList<PlexOfField> getFieldsPLCF( int partIndex )",
-        "115": "    @Deprecated",
-        "109": "",
-        "110": "    public ArrayList<PlexOfField> getFieldsPLCF( FieldsDocumentPart part )",
-        "79": "    private static ArrayList<PlexOfField> toArrayList( PlexOfCps plexOfCps )",
-        "81": "        if ( plexOfCps == null )",
-        "82": "            return new ArrayList<PlexOfField>();",
-        "83": "",
-        "84": "        ArrayList<PlexOfField> fields = new ArrayList<PlexOfField>(",
-        "78": "",
-        "88": "            GenericPropertyNode propNode = plexOfCps.getProperty( i );",
-        "89": "            PlexOfField plex = new PlexOfField( propNode );"
+        "2": " *  ====================================================================",
+        "3": " * Licensed to the Apache Software Foundation (ASF) under one or more",
+        "5": " * this work for additional information regarding copyright ownership.",
+        "6": " * The ASF licenses this file to You under the Apache License, Version 2.0",
+        "9": " *",
+        "10": " * http://www.apache.org/licenses/LICENSE-2.0",
+        "157": "    public void write( FileInformationBlock fib, HWPFOutputStream tableStream )",
+        "156": "",
+        "19": "",
+        "20": "package org.apache.poi.hwpf.model;",
+        "26": "",
+        "27": "import org.apache.poi.hwpf.model.io.HWPFOutputStream;",
+        "28": "import org.apache.poi.util.Internal;",
+        "29": "",
+        "134": "            PlexOfCps plexOfCps, HWPFOutputStream outputStream )",
+        "133": "    private int savePlex( FileInformationBlock fib, FieldsDocumentPart part,"
       },
       "id": 88635600,
       "filename": "FieldsTables.java"

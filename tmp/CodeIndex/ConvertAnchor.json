@@ -1,104 +1,17 @@
 {
-  "matchterm": "ConvertAnchor",
+  "matchterm": "org.apache.poi.hssf.model.ConvertAnchor",
   "previouspage": null,
-  "searchterm": "ConvertAnchor",
-  "query": "ConvertAnchor",
+  "searchterm": "org.apache.poi.hssf.model.ConvertAnchor",
+  "query": "org.apache.poi.hssf.model.ConvertAnchor",
   "language_filters": [
     {
-      "count": 7,
+      "count": 3,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 7,
+  "total": 3,
   "results": [
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 91,
-      "location": "/components/forks/poi/src/loci/poi/hssf/model",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642362/",
-      "md5hash": "4a104008df6507ccad1c60c8d405747e",
-      "lines": {
-        "50": "/**",
-        "51": " * $Id: ConvertAnchor.java 562536 2007-08-03 18:09:41Z yegor $",
-        "52": " */",
-        "53": "public class ConvertAnchor"
-      },
-      "id": 15642362,
-      "filename": "ConvertAnchor.java"
-    },
-    {
-      "repo": "https://github.com/pombredanne/nexus-peedy.git",
-      "language": "Java",
-      "linescount": 93,
-      "location": "/nexus/nexus-test-harness/nexus-test-harness-launcher/src/main/java/org/sonatype/nexus/integrationtests/report",
-      "name": "nexus-peedy",
-      "url": "https://searchcode.com/codesearch/view/96285145/",
-      "md5hash": "f8d8184466e05c4497777b9d78d5d0e5",
-      "lines": {
-        "46": "            comment = (comment == null) ? \"MISSING DESCRIPTION\" : convertAnchor( comment );",
-        "88": "",
-        "89": "        System.out.println( convertAnchor( data ) );",
-        "45": "            String comment = bean.getJavaClass().getComment();",
-        "62": "     */",
-        "63": "    private static String convertAnchor( String stringWithAnchor )"
-      },
-      "id": 96285145,
-      "filename": "ConsoleWikiReport.java"
-    },
-    {
-      "repo": "https://bitbucket.org/nbargnesi/idea.git",
-      "language": "Java",
-      "linescount": 602,
-      "location": "/plugins/ui-designer/src/com/intellij/uiDesigner/radComponents",
-      "name": "idea",
-      "url": "https://searchcode.com/codesearch/view/39376416/",
-      "md5hash": "06b2fd8ddd52b42fe276d9ae1ef111a4",
-      "lines": {
-        "444": "",
-        "445": "  private static int convertAnchor(final GridBagConstraints gbc) {",
-        "438": "",
-        "439": "    component.getConstraints().setAnchor(convertAnchor(constraints));"
-      },
-      "id": 39376416,
-      "filename": "RadGridBagLayoutManager.java"
-    },
-    {
-      "repo": "http://google-blog-converters-appengine.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 95,
-      "location": "/lib/googleappengine/java/src/main/com/google/appengine/api/images",
-      "name": "google-blog-converters-appengine",
-      "url": "https://searchcode.com/codesearch/view/3593085/",
-      "md5hash": "995c1d5fc67456f88882c66112cf6f0f",
-      "lines": {
-        "66": "    options.setOpacity(opacity);",
-        "67": "    options.setAnchor(convertAnchor(anchor));",
-        "70": "",
-        "71": "  static CompositeImageOptions.ANCHOR convertAnchor(Anchor anchor) {"
-      },
-      "id": 3593085,
-      "filename": "CompositeImpl.java"
-    },
-    {
-      "repo": "git://github.com/JetBrains/intellij-community.git",
-      "language": "Java",
-      "linescount": 602,
-      "location": "/plugins/ui-designer/src/com/intellij/uiDesigner/radComponents",
-      "name": "intellij-community",
-      "url": "https://searchcode.com/codesearch/view/7363883/",
-      "md5hash": "d764f8a45f6279070a27fa5db5203f8b",
-      "lines": {
-        "444": "",
-        "445": "  private static int convertAnchor(final GridBagConstraints gbc) {",
-        "438": "",
-        "439": "    component.getConstraints().setAnchor(convertAnchor(constraints));"
-      },
-      "id": 7363883,
-      "filename": "RadGridBagLayoutManager.java"
-    },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
       "language": "Java",
@@ -108,13 +21,55 @@
       "url": "https://searchcode.com/codesearch/view/15642409/",
       "md5hash": "9e212df4a5b523744fd315d99c376d1b",
       "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "",
+        "41": "package loci.poi.hssf.record;",
+        "42": "",
+        "43": "import loci.poi.ddf.*;",
+        "44": "import loci.poi.hssf.usermodel.*;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import loci.poi.hssf.model.AbstractShape;",
         "48": "import loci.poi.hssf.model.ConvertAnchor;",
-        "661": "",
-        "662": "        anchor = ConvertAnchor.createAnchor( shape.getAnchor() );",
-        "47": "import loci.poi.hssf.model.DrawingManager2;"
+        "49": "import loci.poi.hssf.model.CommentShape;",
+        "50": "",
+        "46": "import loci.poi.hssf.model.TextboxShape;",
+        "47": "import loci.poi.hssf.model.DrawingManager2;",
+        "31": ""
       },
       "id": 15642409,
       "filename": "EscherAggregate.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 91,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642362/",
+      "md5hash": "4a104008df6507ccad1c60c8d405747e",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "",
+        "41": "package loci.poi.hssf.model;",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import loci.poi.ddf.EscherChildAnchorRecord;",
+        "48": "import loci.poi.hssf.usermodel.HSSFChildAnchor;",
+        "49": "",
+        "46": "import loci.poi.hssf.usermodel.HSSFAnchor;",
+        "9": " * %%",
+        "47": "import loci.poi.hssf.usermodel.HSSFClientAnchor;",
+        "42": "",
+        "31": ""
+      },
+      "id": 15642362,
+      "filename": "ConvertAnchor.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -125,8 +80,21 @@
       "url": "https://searchcode.com/codesearch/view/15642354/",
       "md5hash": "4b8479a67e34a342cfde58c7278efb63",
       "lines": {
-        "125": "    {",
-        "126": "        return ConvertAnchor.createAnchor(userAnchor);"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "",
+        "41": "package loci.poi.hssf.model;",
+        "42": "",
+        "43": "import loci.poi.ddf.*;",
+        "44": "import loci.poi.hssf.record.ObjRecord;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import loci.poi.hssf.usermodel.*;",
+        "49": " *",
+        "50": " * @author Glen Stampoultzis (glens at apache.org)",
+        "46": "",
+        "31": ""
       },
       "id": 15642354,
       "filename": "AbstractShape.java"
@@ -136,19 +104,9 @@
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 5,
+      "count": 3,
       "source": "Github",
       "id": 2
-    },
-    {
-      "count": 1,
-      "source": "Bitbucket",
-      "id": 3
-    },
-    {
-      "count": 1,
-      "source": "Google Code",
-      "id": 1
     }
   ]
 }

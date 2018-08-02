@@ -1,77 +1,17 @@
 {
-  "matchterm": "PICF",
+  "matchterm": "org.apache.poi.hwpf.model.PICF",
   "previouspage": null,
-  "searchterm": "PICF",
-  "query": "PICF",
+  "searchterm": "org.apache.poi.hwpf.model.PICF",
+  "query": "org.apache.poi.hwpf.model.PICF",
   "language_filters": [
     {
-      "count": 10,
+      "count": 1,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 10,
+  "total": 1,
   "results": [
-    {
-      "repo": "https://bitbucket.org/openxls/openxls.git",
-      "language": "Java",
-      "linescount": 40,
-      "location": "/src/main/java/com/extentech/formats/XLS/charts",
-      "name": "openxls",
-      "url": "https://searchcode.com/codesearch/view/47125022/",
-      "md5hash": "7e473c52c243a3a91d1fc460b60c8db5",
-      "lines": {
-        "26": "/**",
-        "27": " * <b>Picf: Picture Format(0x103c)</b>",
-        "29": " */",
-        "30": "public class Picf extends GenericChartObject implements ChartObject {"
-      },
-      "id": 47125022,
-      "filename": "Picf.java"
-    },
-    {
-      "repo": "https://bitbucket.org/ghu/openxls.git",
-      "language": "Java",
-      "linescount": 40,
-      "location": "/src/main/java/com/extentech/formats/XLS/charts",
-      "name": "openxls",
-      "url": "https://searchcode.com/codesearch/view/50976646/",
-      "md5hash": "7e473c52c243a3a91d1fc460b60c8db5",
-      "lines": {
-        "26": "/**",
-        "27": " * <b>Picf: Picture Format(0x103c)</b>",
-        "29": " */",
-        "30": "public class Picf extends GenericChartObject implements ChartObject {"
-      },
-      "id": 50976646,
-      "filename": "Picf.java"
-    },
-    {
-      "repo": "https://bitbucket.org/OverCloud/irecorder",
-      "language": "Java",
-      "linescount": 204,
-      "location": "/java/org/overcloud/tools",
-      "name": "irecorder",
-      "url": "https://searchcode.com/codesearch/view/131824665/",
-      "md5hash": "502ea4574fa4033efdde8c6dbbc862b0",
-      "lines": {
-        "35": "\tprivate JTextField name;",
-        "36": "\tprivate JComboBox<String> picF;",
-        "104": "\t\t{",
-        "105": "\t\t\tpicF = new JComboBox<String>();",
-        "106": "\t\t\tpicF.setBackground(o.getButColor());",
-        "107": "\t\t\tpicF.setForeground(o.getFontColor());",
-        "108": "\t\t\tpicF.setFont(o.getFont());",
-        "109": "\t\t\tpicF.setModel(new DefaultComboBoxModel<String>(new String[] {\"png\", \"bmp\", \"jpg\"}));",
-        "110": "\t\t\tpicF.setBounds(125, 127, 86, 20);",
-        "111": "\t\t\tcontentPanel.add(picF);",
-        "112": "\t\t}",
-        "173": "\t\t\t\t\t\t\t\tInteger.parseInt(fps.getText()),name.getText(),format, (String)picF.getSelectedItem());",
-        "172": "\t\t\t\t\t\tnew PicturesRecorder().record(new File(path), Integer.parseInt(width.getText()), Integer.parseInt(height.getText()),"
-      },
-      "id": 131824665,
-      "filename": "JPictureRecorderDialog.java"
-    },
     {
       "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
       "language": "Java",
@@ -81,133 +21,29 @@
       "url": "https://searchcode.com/codesearch/view/97384428/",
       "md5hash": "abf85d22a465320cca19a26cbf1926ad",
       "lines": {
-        "321": "    {",
+        "32": "import org.apache.poi.ddf.EscherProperties;",
+        "33": "import org.apache.poi.ddf.EscherProperty;",
         "34": "import org.apache.poi.ddf.EscherRecord;",
         "35": "import org.apache.poi.hwpf.model.PICF;",
         "36": "import org.apache.poi.hwpf.model.PICFAndOfficeArtData;",
         "37": "import org.apache.poi.util.PngUtils;",
-        "134": "    {",
-        "135": "        _picfAndOfficeArtData = new PICFAndOfficeArtData( _dataStream,",
-        "136": "                dataBlockStartOfsset );",
-        "137": "        _picf = _picfAndOfficeArtData.getPicf();",
-        "140": "",
-        "141": "        if ( _picfAndOfficeArtData != null && _picfAndOfficeArtData.getBlipRecords() != null) {",
-        "142": "           _blipRecords = _picfAndOfficeArtData.getBlipRecords();",
-        "143": "        }",
-        "311": "    {",
-        "312": "        return _picf.getMx() / 10;",
-        "322": "        return _picf.getMy() / 10;"
+        "38": "import org.apache.poi.util.POILogFactory;",
+        "39": "import org.apache.poi.util.POILogger;",
+        "17": "",
+        "18": "package org.apache.poi.hwpf.usermodel;",
+        "27": "",
+        "28": "import org.apache.poi.ddf.EscherBSERecord;",
+        "29": "import org.apache.poi.ddf.EscherBlipRecord;",
+        "30": "import org.apache.poi.ddf.EscherComplexProperty;",
+        "31": "import org.apache.poi.ddf.EscherOptRecord;"
       },
       "id": 97384428,
       "filename": "Picture.java"
-    },
-    {
-      "repo": "https://bitbucket.org/openxls/openxls.git",
-      "language": "Java",
-      "linescount": 598,
-      "location": "/src/main/java/com/extentech/formats/XLS",
-      "name": "openxls",
-      "url": "https://searchcode.com/codesearch/view/47124733/",
-      "md5hash": "faa559ca7e6431916d6af7d7c1be86b7",
-      "lines": {
-        "506": "\t\t\t\tcase THREED: record= new ThreeD();  break;",
-        "275": "\t\tcase THREED), new ThreeD() );",
-        "276": "\t\tcase PICF), new Picf() );",
-        "507": "\t\t\t\tcase PICF: record= new Picf();  break;"
-      },
-      "id": 47124733,
-      "filename": "XLSRecordFactory.java"
-    },
-    {
-      "repo": "https://bitbucket.org/ghu/openxls.git",
-      "language": "Java",
-      "linescount": 598,
-      "location": "/src/main/java/com/extentech/formats/XLS",
-      "name": "openxls",
-      "url": "https://searchcode.com/codesearch/view/50976357/",
-      "md5hash": "faa559ca7e6431916d6af7d7c1be86b7",
-      "lines": {
-        "506": "\t\t\t\tcase THREED: record= new ThreeD();  break;",
-        "275": "\t\tcase THREED), new ThreeD() );",
-        "276": "\t\tcase PICF), new Picf() );",
-        "507": "\t\t\t\tcase PICF: record= new Picf();  break;"
-      },
-      "id": 50976357,
-      "filename": "XLSRecordFactory.java"
-    },
-    {
-      "repo": "https://bitbucket.org/openxls/openxls.git",
-      "language": "Java",
-      "linescount": 131,
-      "location": "/src/main/java/com/extentech/formats/XLS/charts",
-      "name": "openxls",
-      "url": "https://searchcode.com/codesearch/view/47124991/",
-      "md5hash": "d3a619a8e13c1d56ed09941fe3068306",
-      "lines": {
-        "88": "\t11\t\t\t1\t\t\t\t0\t\t\t\t\t0\t\t\t\t\tBLOCK\tPICF\t\tData point picture fill",
-        "89": "\t12\t\t\t0\t\t\t\tindex\t\t\t\t0\t\t\t\t\tBLOCK\tSERIES\t\tSeries, iobjInstance1 is the index in the file",
-        "86": "\t10\t\t\t0\t\t\t\tiss\t\t\t\t\t0\t\t\t\t\tBLOCK\tLEGENDXN\tLegend entry",
-        "87": "\t11\t\t\t0\t\t\t\t0\t\t\t\t\t0\t\t\t\t\tBLOCK\tPICF\t\tPicture fill"
-      },
-      "id": 47124991,
-      "filename": "StartBlock.java"
-    },
-    {
-      "repo": "https://bitbucket.org/ghu/openxls.git",
-      "language": "Java",
-      "linescount": 131,
-      "location": "/src/main/java/com/extentech/formats/XLS/charts",
-      "name": "openxls",
-      "url": "https://searchcode.com/codesearch/view/50976615/",
-      "md5hash": "d3a619a8e13c1d56ed09941fe3068306",
-      "lines": {
-        "88": "\t11\t\t\t1\t\t\t\t0\t\t\t\t\t0\t\t\t\t\tBLOCK\tPICF\t\tData point picture fill",
-        "89": "\t12\t\t\t0\t\t\t\tindex\t\t\t\t0\t\t\t\t\tBLOCK\tSERIES\t\tSeries, iobjInstance1 is the index in the file",
-        "86": "\t10\t\t\t0\t\t\t\tiss\t\t\t\t\t0\t\t\t\t\tBLOCK\tLEGENDXN\tLegend entry",
-        "87": "\t11\t\t\t0\t\t\t\t0\t\t\t\t\t0\t\t\t\t\tBLOCK\tPICF\t\tPicture fill"
-      },
-      "id": 50976615,
-      "filename": "StartBlock.java"
-    },
-    {
-      "repo": "https://bitbucket.org/openxls/openxls.git",
-      "language": "Java",
-      "linescount": 325,
-      "location": "/src/main/java/com/extentech/formats/XLS",
-      "name": "openxls",
-      "url": "https://searchcode.com/codesearch/view/47124735/",
-      "md5hash": "edfa07e24d16988e6b042b93ed085edf",
-      "lines": {
-        "270": "\tstatic final short THREED           \t\t =      \t0x103A;",
-        "271": "\tstatic final short PICF           =      \t\t\t0x103C;"
-      },
-      "id": 47124735,
-      "filename": "XLSConstants.java"
-    },
-    {
-      "repo": "https://bitbucket.org/ghu/openxls.git",
-      "language": "Java",
-      "linescount": 325,
-      "location": "/src/main/java/com/extentech/formats/XLS",
-      "name": "openxls",
-      "url": "https://searchcode.com/codesearch/view/50976359/",
-      "md5hash": "edfa07e24d16988e6b042b93ed085edf",
-      "lines": {
-        "270": "\tstatic final short THREED           \t\t =      \t0x103A;",
-        "271": "\tstatic final short PICF           =      \t\t\t0x103C;"
-      },
-      "id": 50976359,
-      "filename": "XLSConstants.java"
     }
   ],
   "page": 0,
   "nextpage": 1,
   "source_filters": [
-    {
-      "count": 9,
-      "source": "Bitbucket",
-      "id": 3
-    },
     {
       "count": 1,
       "source": "Github",

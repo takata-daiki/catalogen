@@ -1,61 +1,17 @@
 {
-  "matchterm": "DocumentBlock",
+  "matchterm": "org.apache.poi.poifs.storage.DocumentBlock",
   "previouspage": null,
-  "searchterm": "DocumentBlock",
-  "query": "DocumentBlock",
+  "searchterm": "org.apache.poi.poifs.storage.DocumentBlock",
+  "query": "org.apache.poi.poifs.storage.DocumentBlock",
   "language_filters": [
     {
-      "count": 24,
+      "count": 2,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 24,
+  "total": 2,
   "results": [
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 237,
-      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642263/",
-      "md5hash": "2b39faf4b4404c53ac9c699b68ac6553",
-      "lines": {
-        "160": "",
-        "176": "     * read data from an array of DocumentBlocks",
-        "163": "        {",
-        "164": "            rval[ k ] = new DocumentBlock(blockSize);",
-        "182": "",
-        "183": "    public static void read(final DocumentBlock [] blocks,",
-        "175": "    /**",
-        "144": "    /**",
-        "145": "     * convert a single long array into an array of DocumentBlock",
-        "150": "     *",
-        "151": "     * @return an array of DocumentBlock instances, filled from the",
-        "154": "",
-        "155": "    public static DocumentBlock[] convert(long offset,",
-        "157": "    {",
-        "158": "        DocumentBlock[] rval   =",
-        "159": "            new DocumentBlock[ (size + blockSize - 1) / blockSize ];"
-      },
-      "id": 15642263,
-      "filename": "DocumentBlock.java"
-    },
-    {
-      "repo": "https://bitbucket.org/FlameDuck/taddletail",
-      "language": "Java",
-      "linescount": 23,
-      "location": "/src/main/java/org/binarytherapy",
-      "name": "taddletail",
-      "url": "https://searchcode.com/codesearch/view/123027379/",
-      "md5hash": "e4a99445fa6c8f1ae27a2ab15cb56d29",
-      "lines": {
-        "11": " */",
-        "12": "public class DocumentBlock"
-      },
-      "id": 123027379,
-      "filename": "DocumentBlock.java"
-    },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
       "language": "Java",
@@ -65,313 +21,61 @@
       "url": "https://searchcode.com/codesearch/view/15642272/",
       "md5hash": "59a31c39c6dfe8eece6f3750636bbe31",
       "lines": {
-        "449": "    {",
-        "450": "        private SmallDocumentBlock[] smallBlocks;",
-        "283": "            if (bigBlockSize == 0) bigBlockSize = _big_store.getBigBlockSize();",
-        "278": "            }",
-        "284": "            DocumentBlock.read(_big_store.getBlocks(), buffer, offset,",
-        "279": "            SmallDocumentBlock.read(_small_store.getBlocks(), buffer, offset);",
-        "173": "        {",
-        "174": "            DocumentBlock block     = new DocumentBlock(stream, size);",
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.poifs.filesystem;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "52": "import loci.poi.poifs.property.Property;",
+        "53": "import loci.poi.poifs.storage.BlockWritable;",
         "54": "import loci.poi.poifs.storage.ListManagedBlock;",
         "55": "import loci.poi.poifs.storage.DocumentBlock;",
         "56": "import loci.poi.poifs.storage.RawDataBlock;",
         "57": "import loci.poi.poifs.storage.SmallDocumentBlock;",
-        "186": "        }",
-        "187": "        DocumentBlock[] bigBlocks =",
-        "188": "            ( DocumentBlock [] ) blocks.toArray(new DocumentBlock[ 0 ]);",
-        "189": ""
+        "58": "import loci.poi.util.*;",
+        "31": ""
       },
       "id": 15642272,
       "filename": "POIFSDocument.java"
     },
     {
-      "repo": "http://grooveclipse.googlecode.com/svn/trunk/",
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
       "language": "Java",
-      "linescount": 305,
-      "location": "/plugins/grooveclipse/org.grooveclipse.documentation.importer/src/org/grooveclipse/documentation/importer/wikitext",
-      "name": "grooveclipse",
-      "url": "https://searchcode.com/codesearch/view/12349817/",
-      "md5hash": "dea96e4657fb792f018dd28cdc4a0591",
+      "linescount": 237,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642263/",
+      "md5hash": "2b39faf4b4404c53ac9c699b68ac6553",
       "lines": {
-        "68": "\t\t\t}",
-        "69": "\t\t\tdocumentBlock = listItem;",
-        "72": "\t\t\tDocTable docTable = docFactory.createDocTable();",
-        "73": "\t\t\tdocumentBlock = docTable;",
-        "46": "",
-        "47": "\t\tDocumentationElement documentBlock = null;",
-        "80": "\t\t\t}",
-        "81": "\t\t\tdocumentBlock = row;",
-        "50": "\t\tcase PARAGRAPH :",
-        "51": "\t\t\tdocumentBlock = docFactory.createParagraph();",
-        "55": "\t\t\tvalueList.setType(ListType.NUMERIC);",
-        "56": "\t\t\tdocumentBlock = valueList;",
-        "89": "\t\t\t}",
-        "90": "\t\t\tdocumentBlock = cell;",
-        "60": "\t\t\tvalueList.setType(ListType.BULLET);",
-        "61": "\t\t\tdocumentBlock = valueList;"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.poifs.storage;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "51": "",
+        "52": "import loci.poi.poifs.common.POIFSConstants;",
+        "53": "import loci.poi.util.*;",
+        "9": " * %%",
+        "57": " *",
+        "58": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "31": ""
       },
-      "id": 12349817,
-      "filename": "WikitextDocumentBuilder.java"
-    },
-    {
-      "repo": "https://bitbucket.org/simpler/squeeze.git",
-      "language": "Java",
-      "linescount": 982,
-      "location": "/vendor/closure-compiler/src/com/google/javascript/rhino",
-      "name": "squeeze",
-      "url": "https://searchcode.com/codesearch/view/45560586/",
-      "md5hash": "8c142d673f2ce05cddb54f7abbd4ce1e",
-      "lines": {
-        "240": "    populated = true;",
-        "241": "    return currentInfo.documentBlock(description);"
-      },
-      "id": 45560586,
-      "filename": "JSDocInfoBuilder.java"
-    },
-    {
-      "repo": "https://bitbucket.org/simpler/squeeze.git",
-      "language": "Java",
-      "linescount": 1496,
-      "location": "/vendor/closure-compiler/src/com/google/javascript/rhino",
-      "name": "squeeze",
-      "url": "https://searchcode.com/codesearch/view/45560587/",
-      "md5hash": "6887efb330530edc52817d19ac6eb80e",
-      "lines": {
-        "816": "   */",
-        "817": "  boolean documentBlock(String description) {"
-      },
-      "id": 45560587,
-      "filename": "JSDocInfo.java"
-    },
-    {
-      "repo": "https://github.com/JonathanWalsh/Granule-Closure-Compiler.git",
-      "language": "Java",
-      "linescount": 910,
-      "location": "/src/com/google/javascript/rhino",
-      "name": "Granule-Closure-Compiler",
-      "url": "https://searchcode.com/codesearch/view/113042519/",
-      "md5hash": "eeb8b043678d1b6d1275064d57da9175",
-      "lines": {
-        "204": "    populated = true;",
-        "205": "    return currentInfo.documentBlock(description);"
-      },
-      "id": 113042519,
-      "filename": "JSDocInfoBuilder.java"
-    },
-    {
-      "repo": "https://github.com/JonathanWalsh/Granule-Closure-Compiler.git",
-      "language": "Java",
-      "linescount": 1362,
-      "location": "/src/com/google/javascript/rhino",
-      "name": "Granule-Closure-Compiler",
-      "url": "https://searchcode.com/codesearch/view/113042569/",
-      "md5hash": "75d44a5c93a327f47fe631a7b032fa28",
-      "lines": {
-        "694": "   */",
-        "695": "  boolean documentBlock(String description) {"
-      },
-      "id": 113042569,
-      "filename": "JSDocInfo.java"
-    },
-    {
-      "repo": "https://github.com/greew/closure-compiler.git",
-      "language": "Java",
-      "linescount": 1261,
-      "location": "/src/com/google/javascript/rhino",
-      "name": "closure-compiler",
-      "url": "https://searchcode.com/codesearch/view/94033499/",
-      "md5hash": "580b61aed5e546cd74500128246a17c5",
-      "lines": {
-        "260": "    populated = true;",
-        "261": "    return currentInfo.documentBlock(description);"
-      },
-      "id": 94033499,
-      "filename": "JSDocInfoBuilder.java"
-    },
-    {
-      "repo": "https://github.com/greew/closure-compiler.git",
-      "language": "Java",
-      "linescount": 1817,
-      "location": "/src/com/google/javascript/rhino",
-      "name": "closure-compiler",
-      "url": "https://searchcode.com/codesearch/view/94033517/",
-      "md5hash": "297d0f61ceb2e21b50fe1ae7cb00297d",
-      "lines": {
-        "1019": "   */",
-        "1020": "  boolean documentBlock(String description) {"
-      },
-      "id": 94033517,
-      "filename": "JSDocInfo.java"
-    },
-    {
-      "repo": "https://github.com/Prinhotels/plovr.git",
-      "language": "Java",
-      "linescount": 1138,
-      "location": "/closure/closure-compiler/src/com/google/javascript/rhino",
-      "name": "plovr",
-      "url": "https://searchcode.com/codesearch/view/95276652/",
-      "md5hash": "29993d9751a123ca533e2593b182aef2",
-      "lines": {
-        "249": "    populated = true;",
-        "250": "    return currentInfo.documentBlock(description);"
-      },
-      "id": 95276652,
-      "filename": "JSDocInfoBuilder.java"
-    },
-    {
-      "repo": "https://github.com/Prinhotels/plovr.git",
-      "language": "Java",
-      "linescount": 1626,
-      "location": "/closure/closure-compiler/src/com/google/javascript/rhino",
-      "name": "plovr",
-      "url": "https://searchcode.com/codesearch/view/95276677/",
-      "md5hash": "bcc95e581a3343533d3d3f86c7142be4",
-      "lines": {
-        "885": "   */",
-        "886": "  boolean documentBlock(String description) {"
-      },
-      "id": 95276677,
-      "filename": "JSDocInfo.java"
-    },
-    {
-      "repo": "https://code.google.com/p/plovr/",
-      "language": "Java",
-      "linescount": 1046,
-      "location": "/closure/closure-compiler/src/com/google/javascript/rhino",
-      "name": "plovr",
-      "url": "https://searchcode.com/codesearch/view/976602/",
-      "md5hash": "d102b3474a0bba9227ed79a034ac7db0",
-      "lines": {
-        "240": "    populated = true;",
-        "241": "    return currentInfo.documentBlock(description);"
-      },
-      "id": 976602,
-      "filename": "JSDocInfoBuilder.java"
-    },
-    {
-      "repo": "https://code.google.com/p/plovr/",
-      "language": "Java",
-      "linescount": 1545,
-      "location": "/closure/closure-compiler/src/com/google/javascript/rhino",
-      "name": "plovr",
-      "url": "https://searchcode.com/codesearch/view/976608/",
-      "md5hash": "5b95efe8b84b2c3bbd99c47e409880ce",
-      "lines": {
-        "865": "   */",
-        "866": "  boolean documentBlock(String description) {"
-      },
-      "id": 976608,
-      "filename": "JSDocInfo.java"
-    },
-    {
-      "repo": "http://closure-compiler.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 1067,
-      "location": "/src/com/google/javascript/rhino",
-      "name": "closure-compiler",
-      "url": "https://searchcode.com/codesearch/view/8396948/",
-      "md5hash": "77c71b56c4038ef4e1f38e7acab982ca",
-      "lines": {
-        "240": "    populated = true;",
-        "241": "    return currentInfo.documentBlock(description);"
-      },
-      "id": 8396948,
-      "filename": "JSDocInfoBuilder.java"
-    },
-    {
-      "repo": "http://closure-compiler.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 1558,
-      "location": "/src/com/google/javascript/rhino",
-      "name": "closure-compiler",
-      "url": "https://searchcode.com/codesearch/view/8396949/",
-      "md5hash": "8a3c1886794767c253150bd4a2370e95",
-      "lines": {
-        "866": "   */",
-        "867": "  boolean documentBlock(String description) {"
-      },
-      "id": 8396949,
-      "filename": "JSDocInfo.java"
-    },
-    {
-      "repo": "git://github.com/replit/jsrepl.git",
-      "language": "Java",
-      "linescount": 953,
-      "location": "/tools/closure-compiler/trunk/src/com/google/javascript/rhino",
-      "name": "jsrepl",
-      "url": "https://searchcode.com/codesearch/view/14994503/",
-      "md5hash": "8e63ac8f42f1fa2ff2db47a55971bd95",
-      "lines": {
-        "211": "    populated = true;",
-        "212": "    return currentInfo.documentBlock(description);"
-      },
-      "id": 14994503,
-      "filename": "JSDocInfoBuilder.java"
-    },
-    {
-      "repo": "git://github.com/replit/jsrepl.git",
-      "language": "Java",
-      "linescount": 1463,
-      "location": "/tools/closure-compiler/trunk/src/com/google/javascript/rhino",
-      "name": "jsrepl",
-      "url": "https://searchcode.com/codesearch/view/14994526/",
-      "md5hash": "9098e410f47bdea532a97c0db2fe5d22",
-      "lines": {
-        "790": "   */",
-        "791": "  boolean documentBlock(String description) {"
-      },
-      "id": 14994526,
-      "filename": "JSDocInfo.java"
-    },
-    {
-      "repo": "https://bitbucket.org/ipreachable/plovr",
-      "language": "Java",
-      "linescount": 1496,
-      "location": "/closure/closure-compiler/src/com/google/javascript/rhino",
-      "name": "plovr",
-      "url": "https://searchcode.com/codesearch/view/126032671/",
-      "md5hash": "6887efb330530edc52817d19ac6eb80e",
-      "lines": {
-        "816": "   */",
-        "817": "  boolean documentBlock(String description) {"
-      },
-      "id": 126032671,
-      "filename": "JSDocInfo.java"
-    },
-    {
-      "repo": "https://bitbucket.org/ipreachable/plovr",
-      "language": "Java",
-      "linescount": 982,
-      "location": "/closure/closure-compiler/src/com/google/javascript/rhino",
-      "name": "plovr",
-      "url": "https://searchcode.com/codesearch/view/126032677/",
-      "md5hash": "8c142d673f2ce05cddb54f7abbd4ce1e",
-      "lines": {
-        "240": "    populated = true;",
-        "241": "    return currentInfo.documentBlock(description);"
-      },
-      "id": 126032677,
-      "filename": "JSDocInfoBuilder.java"
+      "id": 15642263,
+      "filename": "DocumentBlock.java"
     }
   ],
   "page": 0,
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 10,
+      "count": 2,
       "source": "Github",
       "id": 2
-    },
-    {
-      "count": 9,
-      "source": "Bitbucket",
-      "id": 3
-    },
-    {
-      "count": 5,
-      "source": "Google Code",
-      "id": 1
     }
   ]
 }

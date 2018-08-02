@@ -1,8 +1,8 @@
 {
-  "matchterm": "SXSSFWorkbook",
+  "matchterm": "org.apache.poi.xssf.streaming.SXSSFWorkbook",
   "previouspage": null,
-  "searchterm": "SXSSFWorkbook",
-  "query": "SXSSFWorkbook",
+  "searchterm": "org.apache.poi.xssf.streaming.SXSSFWorkbook",
+  "query": "org.apache.poi.xssf.streaming.SXSSFWorkbook",
   "language_filters": [
     {
       "count": 5,
@@ -13,46 +13,6 @@
   "total": 5,
   "results": [
     {
-      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
-      "language": "Java",
-      "linescount": 493,
-      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
-      "name": "spudsoft-birt-excel-emitters",
-      "url": "https://searchcode.com/codesearch/view/122565153/",
-      "md5hash": "cadd359a9ebbd738174ea47b0331d3c2",
-      "lines": {
-        "312": "\t\t\t\t// dispose SXSSFWorkbook to let it removing temporary files",
-        "310": "\t\t\t",
-        "311": "\t\t\tif (handlerState.getWb() instanceof SXSSFWorkbook) {",
-        "24": "import org.apache.poi.ss.usermodel.Workbook;",
-        "25": "import org.apache.poi.xssf.streaming.SXSSFWorkbook;",
-        "314": "\t\t\t\tif (!wb.dispose()) {",
-        "315": "\t\t\t\t\tlog.error(0, \"Failed to dispose SXSSFWorkbook.\", new Exception(\"SXSSFWorkbook.dispose() has returned false.\"));",
-        "313": "\t\t\t\tSXSSFWorkbook wb = (SXSSFWorkbook) handlerState.getWb();"
-      },
-      "id": 122565153,
-      "filename": "ExcelEmitter.java"
-    },
-    {
-      "repo": "https://github.com/kissys/es.git",
-      "language": "Java",
-      "linescount": 800,
-      "location": "/web/src/main/java/com/sishuok/es/showcase/excel/service",
-      "name": "es",
-      "url": "https://searchcode.com/codesearch/view/92669291/",
-      "md5hash": "e4b8f0d86eab02f334334ecc295774b2",
-      "lines": {
-        "35": "import org.apache.poi.xssf.streaming.SXSSFWorkbook;",
-        "34": "import org.apache.poi.xssf.eventusermodel.XSSFReader;",
-        "675": "        SXSSFWorkbook wb = null;",
-        "678": "",
-        "679": "            wb = new SXSSFWorkbook(rowAccessWindowSize);",
-        "674": "        BufferedOutputStream out = null;"
-      },
-      "id": 92669291,
-      "filename": "ExcelDataService.java"
-    },
-    {
       "repo": "https://github.com/NYWONG/jeesite.git",
       "language": "Java",
       "linescount": 480,
@@ -61,32 +21,24 @@
       "url": "https://searchcode.com/codesearch/view/94198681/",
       "md5hash": "a8b063efb7da29b002144dd525c07611",
       "lines": {
-        "192": "\t\tthis.wb = new SXSSFWorkbook(500);",
+        "32": "import org.apache.poi.ss.usermodel.Workbook;",
         "33": "import org.apache.poi.ss.util.CellRangeAddress;",
         "34": "import org.apache.poi.xssf.streaming.SXSSFWorkbook;",
-        "57": "\t */",
-        "58": "\tprivate SXSSFWorkbook wb;",
-        "191": "\tprivate void initialize(String title, List<String> headerList) {"
+        "35": "import org.apache.poi.xssf.usermodel.XSSFClientAnchor;",
+        "36": "import org.apache.poi.xssf.usermodel.XSSFRichTextString;",
+        "37": "import org.slf4j.Logger;",
+        "23": "import org.apache.commons.lang3.StringUtils;",
+        "24": "import org.apache.poi.ss.usermodel.Cell;",
+        "25": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "26": "import org.apache.poi.ss.usermodel.Comment;",
+        "27": "import org.apache.poi.ss.usermodel.DataFormat;",
+        "28": "import org.apache.poi.ss.usermodel.Font;",
+        "29": "import org.apache.poi.ss.usermodel.IndexedColors;",
+        "30": "import org.apache.poi.ss.usermodel.Row;",
+        "31": "import org.apache.poi.ss.usermodel.Sheet;"
       },
       "id": 94198681,
       "filename": "ExportExcel.java"
-    },
-    {
-      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
-      "language": "Java",
-      "linescount": 61,
-      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
-      "name": "spudsoft-birt-excel-emitters",
-      "url": "https://searchcode.com/codesearch/view/122565140/",
-      "md5hash": "0e72f51a37f9a2b954d169ebfecb7887",
-      "lines": {
-        "44": "\t\tif( extractMode ) {",
-        "21": "import org.apache.poi.ss.usermodel.Workbook;",
-        "22": "import org.apache.poi.xssf.streaming.SXSSFWorkbook;",
-        "45": "\t\t\treturn new SXSSFWorkbook();"
-      },
-      "id": 122565140,
-      "filename": "XlsxEmitter.java"
     },
     {
       "repo": "https://bitbucket.org/smitdevel/delta.git",
@@ -97,11 +49,108 @@
       "url": "https://searchcode.com/codesearch/view/50611083/",
       "md5hash": "a1e3c7d2fd1d8b77b28335aeca8533db",
       "lines": {
-        "310": "            XSSFWorkbook xssfWorkbook = new XSSFWorkbook(templateInputStream);",
-        "311": "            Workbook wb = new org.apache.poi.xssf.streaming.SXSSFWorkbook(xssfWorkbook, 100);"
+        "32": "import org.alfresco.service.cmr.repository.MimetypeService;",
+        "33": "import org.alfresco.service.cmr.repository.NodeRef;",
+        "34": "import org.alfresco.service.cmr.repository.NodeService;",
+        "35": "import org.alfresco.service.cmr.repository.StoreRef;",
+        "36": "import org.alfresco.service.namespace.QName;",
+        "37": "import org.alfresco.service.transaction.TransactionService;",
+        "38": "import org.alfresco.util.Pair;",
+        "22": "",
+        "23": "import org.alfresco.model.ContentModel;",
+        "24": "import org.alfresco.repo.security.authentication.AuthenticationUtil;",
+        "25": "import org.alfresco.repo.transaction.RetryingTransactionHelper.RetryingTransactionCallback;",
+        "26": "import org.alfresco.service.cmr.model.FileFolderService;",
+        "27": "import org.alfresco.service.cmr.model.FileInfo;",
+        "28": "import org.alfresco.service.cmr.model.FileNotFoundException;",
+        "31": "import org.alfresco.service.cmr.repository.ContentWriter;"
       },
       "id": 50611083,
       "filename": "ReportServiceImpl.java"
+    },
+    {
+      "repo": "https://github.com/kissys/es.git",
+      "language": "Java",
+      "linescount": 800,
+      "location": "/web/src/main/java/com/sishuok/es/showcase/excel/service",
+      "name": "es",
+      "url": "https://searchcode.com/codesearch/view/92669291/",
+      "md5hash": "e4b8f0d86eab02f334334ecc295774b2",
+      "lines": {
+        "32": "import org.apache.poi.ss.usermodel.Row;",
+        "33": "import org.apache.poi.ss.usermodel.Sheet;",
+        "34": "import org.apache.poi.xssf.eventusermodel.XSSFReader;",
+        "19": "import com.sishuok.es.sys.user.entity.User;",
+        "20": "import org.apache.commons.io.FileUtils;",
+        "21": "import org.apache.commons.io.FilenameUtils;",
+        "22": "import org.apache.commons.io.IOUtils;",
+        "23": "import org.apache.commons.io.LineIterator;",
+        "25": "import org.apache.commons.lang3.time.DateFormatUtils;",
+        "26": "import org.apache.poi.hssf.eventusermodel.HSSFEventFactory;",
+        "27": "import org.apache.poi.hssf.eventusermodel.HSSFRequest;",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "29": "import org.apache.poi.openxml4j.opc.OPCPackage;",
+        "30": "import org.apache.poi.poifs.filesystem.POIFSFileSystem;",
+        "31": "import org.apache.poi.ss.usermodel.Cell;"
+      },
+      "id": 92669291,
+      "filename": "ExcelDataService.java"
+    },
+    {
+      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 493,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/122565153/",
+      "md5hash": "cadd359a9ebbd738174ea47b0331d3c2",
+      "lines": {
+        "32": "import org.eclipse.birt.report.engine.content.IDataContent;",
+        "33": "import org.eclipse.birt.report.engine.content.IForeignContent;",
+        "34": "import org.eclipse.birt.report.engine.content.IGroupContent;",
+        "35": "import org.eclipse.birt.report.engine.content.IImageContent;",
+        "36": "import org.eclipse.birt.report.engine.content.ILabelContent;",
+        "37": "import org.eclipse.birt.report.engine.content.IListBandContent;",
+        "38": "import org.eclipse.birt.report.engine.content.IListContent;",
+        "7": " * which accompanies this distribution, and is available at",
+        "8": " * http://www.eclipse.org/legal/epl-v10.html",
+        "23": "",
+        "24": "import org.apache.poi.ss.usermodel.Workbook;",
+        "25": "import org.apache.poi.xssf.streaming.SXSSFWorkbook;",
+        "26": "import org.eclipse.birt.core.exception.BirtException;",
+        "27": "import org.eclipse.birt.report.engine.api.IRenderOption;",
+        "31": "import org.eclipse.birt.report.engine.content.IContent;"
+      },
+      "id": 122565153,
+      "filename": "ExcelEmitter.java"
+    },
+    {
+      "repo": "https://bitbucket.org/yaytay/spudsoft-birt-excel-emitters",
+      "language": "Java",
+      "linescount": 61,
+      "location": "/SpudSoft BIRT Excel Emitters/src/uk/co/spudsoft/birt/emitters/excel",
+      "name": "spudsoft-birt-excel-emitters",
+      "url": "https://searchcode.com/codesearch/view/122565140/",
+      "md5hash": "0e72f51a37f9a2b954d169ebfecb7887",
+      "lines": {
+        "54": "\t\t\treturn new XSSFWorkbook( stream );",
+        "7": " * which accompanies this distribution, and is available at",
+        "8": " * http://www.eclipse.org/legal/epl-v10.html",
+        "44": "\t\tif( extractMode ) {",
+        "45": "\t\t\treturn new SXSSFWorkbook();",
+        "46": "\t\t} else {",
+        "47": "\t\t\treturn new XSSFWorkbook();",
+        "20": "",
+        "21": "import org.apache.poi.ss.usermodel.Workbook;",
+        "22": "import org.apache.poi.xssf.streaming.SXSSFWorkbook;",
+        "23": "import org.apache.poi.xssf.usermodel.XSSFWorkbook;",
+        "24": "",
+        "25": "/**",
+        "26": " * XlsxEmitter is the leaf class for implementing the ExcelEmitter with XSSFWorkbook.",
+        "53": "\t\ttry {"
+      },
+      "id": 122565140,
+      "filename": "XlsxEmitter.java"
     }
   ],
   "page": 0,

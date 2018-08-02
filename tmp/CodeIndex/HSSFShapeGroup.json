@@ -1,8 +1,8 @@
 {
-  "matchterm": "HSSFShapeGroup",
+  "matchterm": "org.apache.poi.hssf.usermodel.HSSFShapeGroup",
   "previouspage": null,
-  "searchterm": "HSSFShapeGroup",
-  "query": "HSSFShapeGroup",
+  "searchterm": "org.apache.poi.hssf.usermodel.HSSFShapeGroup",
+  "query": "org.apache.poi.hssf.usermodel.HSSFShapeGroup",
   "language_filters": [
     {
       "count": 4,
@@ -21,17 +21,52 @@
       "url": "https://searchcode.com/codesearch/view/15642300/",
       "md5hash": "e2d5d76c6a10bbbf99c420548d2f8688",
       "lines": {
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "39": "",
+        "40": "package loci.poi.hssf.usermodel;",
+        "62": "",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "49": " *",
+        "50": " * @author Glen Stampoultzis (glens at apache.org)",
         "51": " */",
         "52": "public class HSSFShapeGroup",
-        "72": "     */",
-        "73": "    public HSSFShapeGroup createGroup(HSSFChildAnchor anchor)",
-        "74": "    {",
-        "75": "        HSSFShapeGroup group = new HSSFShapeGroup(this, anchor);",
-        "62": "",
-        "63": "    public HSSFShapeGroup( HSSFShape parent, HSSFAnchor anchor )"
+        "53": "        extends HSSFShape",
+        "63": "    public HSSFShapeGroup( HSSFShape parent, HSSFAnchor anchor )",
+        "30": "",
+        "31": "       http://www.apache.org/licenses/LICENSE-2.0"
       },
       "id": 15642300,
       "filename": "HSSFShapeGroup.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 766,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642409/",
+      "md5hash": "9e212df4a5b523744fd315d99c376d1b",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "",
+        "41": "package loci.poi.hssf.record;",
+        "42": "",
+        "43": "import loci.poi.ddf.*;",
+        "44": "import loci.poi.hssf.usermodel.*;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import loci.poi.hssf.model.AbstractShape;",
+        "48": "import loci.poi.hssf.model.ConvertAnchor;",
+        "46": "import loci.poi.hssf.model.TextboxShape;",
+        "47": "import loci.poi.hssf.model.DrawingManager2;",
+        "31": ""
+      },
+      "id": 15642409,
+      "filename": "EscherAggregate.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -42,16 +77,21 @@
       "url": "https://searchcode.com/codesearch/view/15642323/",
       "md5hash": "90bc5f20331e7dcb9050bcbf7dd0d9c3",
       "lines": {
-        "86": "{",
-        "103": "     */",
-        "104": "    public EscherGraphics(HSSFShapeGroup escherGroup, HSSFWorkbook workbook, Color forecolor, float verticalPointsPerPixel )",
-        "524": "",
-        "87": "    private HSSFShapeGroup escherGroup;",
-        "123": "     */",
-        "124": "    EscherGraphics( HSSFShapeGroup escherGroup, HSSFWorkbook workbook, Color foreground, Font font, float verticalPointsPerPixel )",
-        "141": "//     */",
-        "142": "//    public EscherGraphics( HSSFShapeGroup escherGroup, HSSFWorkbook workbook, Color forecolor)",
-        "525": "    HSSFShapeGroup getEscherGraphics()"
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "39": "",
+        "40": "package loci.poi.hssf.usermodel;",
+        "41": "",
+        "42": "import loci.poi.hssf.util.HSSFColor;",
+        "43": "import loci.poi.util.POILogFactory;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "79": " * <code>HSSFClientAnchor.getAnchorHeightInPoints()</code>.",
+        "81": " *",
+        "82": " * @author Glen Stampoultzis (glens at apache.org)",
+        "78": " * height of the group can be calculated by using a convenience called",
+        "30": "",
+        "31": "       http://www.apache.org/licenses/LICENSE-2.0"
       },
       "id": 15642323,
       "filename": "EscherGraphics.java"
@@ -65,32 +105,24 @@
       "url": "https://searchcode.com/codesearch/view/15642333/",
       "md5hash": "15cf21df230a2e5bafaf6da9ba3a0dc3",
       "lines": {
-        "80": "    {",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
         "81": "        HSSFShapeGroup group = new HSSFShapeGroup(null, anchor);",
+        "39": "",
+        "40": "package loci.poi.hssf.usermodel;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "79": "    public HSSFShapeGroup createGroup(HSSFClientAnchor anchor)",
+        "80": "    {",
+        "49": " *",
+        "50": " * @author Glen Stampoultzis (glens at apache.org)",
+        "51": " */",
         "78": "     */",
-        "79": "    public HSSFShapeGroup createGroup(HSSFClientAnchor anchor)"
+        "30": "",
+        "31": "       http://www.apache.org/licenses/LICENSE-2.0"
       },
       "id": 15642333,
       "filename": "HSSFPatriarch.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 766,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642409/",
-      "md5hash": "9e212df4a5b523744fd315d99c376d1b",
-      "lines": {
-        "628": "",
-        "629": "    private void convertGroup( HSSFShapeGroup shape, EscherContainerRecord escherParent, Map shapeToObj )",
-        "598": "            HSSFShape shape = (HSSFShape) iterator.next();",
-        "599": "            if ( shape instanceof HSSFShapeGroup )",
-        "600": "            {",
-        "601": "                convertGroup( (HSSFShapeGroup) shape, escherParent, shapeToObj );"
-      },
-      "id": 15642409,
-      "filename": "EscherAggregate.java"
     }
   ],
   "page": 0,

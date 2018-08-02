@@ -1,8 +1,8 @@
 {
-  "matchterm": "DrawingRecordForBiffViewer",
+  "matchterm": "org.apache.poi.hssf.record.DrawingRecordForBiffViewer",
   "previouspage": null,
-  "searchterm": "DrawingRecordForBiffViewer",
-  "query": "DrawingRecordForBiffViewer",
+  "searchterm": "org.apache.poi.hssf.record.DrawingRecordForBiffViewer",
+  "query": "org.apache.poi.hssf.record.DrawingRecordForBiffViewer",
   "language_filters": [
     {
       "count": 1,
@@ -21,12 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/15642435/",
       "md5hash": "c3321cd61e7b9bd75ebcedfb4f3464fa",
       "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "",
+        "41": "package loci.poi.hssf.record;",
+        "13": " * ",
+        "46": " */",
+        "47": "public class DrawingRecordForBiffViewer",
+        "48": "        extends AbstractEscherHolderRecord",
         "51": "",
         "52": "    public DrawingRecordForBiffViewer()",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
         "55": "",
         "56": "    public DrawingRecordForBiffViewer( RecordInputStream in)",
-        "46": " */",
-        "47": "public class DrawingRecordForBiffViewer"
+        "31": ""
       },
       "id": 15642435,
       "filename": "DrawingRecordForBiffViewer.java"

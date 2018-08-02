@@ -1,8 +1,8 @@
 {
-  "matchterm": "EscherRecordHolder",
+  "matchterm": "org.apache.poi.hwpf.model.EscherRecordHolder",
   "previouspage": null,
-  "searchterm": "EscherRecordHolder",
-  "query": "EscherRecordHolder",
+  "searchterm": "org.apache.poi.hwpf.model.EscherRecordHolder",
+  "query": "org.apache.poi.hwpf.model.EscherRecordHolder",
   "language_filters": [
     {
       "count": 1,
@@ -23,19 +23,19 @@
       "lines": {
         "32": "import org.apache.poi.hwpf.model.DocumentProperties;",
         "33": "import org.apache.poi.hwpf.model.EscherRecordHolder;",
-        "551": "  @Internal",
-        "552": "  public EscherRecordHolder getEscherRecordHolder() {",
-        "553": "      return _escherRecordHolder;",
-        "330": "    {",
-        "331": "        _escherRecordHolder = new EscherRecordHolder(_tableStream, _fib.getFcDggInfo(), _fib.getLcbDggInfo());",
-        "333": "    {",
-        "334": "        _escherRecordHolder = new EscherRecordHolder();",
-        "337": "    // read in the pictures stream",
-        "338": "    _pictures = new PicturesTable(this, _dataStream, _mainStream, _fspaMain, _escherRecordHolder);",
-        "342": "    // And escher pictures",
-        "343": "    _officeDrawingsHeaders = new OfficeDrawingsImpl( _fspaHeaders, _escherRecordHolder, _mainStream );",
-        "344": "    _officeDrawingsMain = new OfficeDrawingsImpl( _fspaMain , _escherRecordHolder, _mainStream);",
-        "554": "  }"
+        "34": "import org.apache.poi.hwpf.model.FSPADocumentPart;",
+        "35": "import org.apache.poi.hwpf.model.FSPATable;",
+        "36": "import org.apache.poi.hwpf.model.FieldsTables;",
+        "37": "import org.apache.poi.hwpf.model.FontTable;",
+        "38": "import org.apache.poi.hwpf.model.ListTables;",
+        "17": "",
+        "18": "package org.apache.poi.hwpf;",
+        "26": "",
+        "27": "import org.apache.poi.hpsf.DocumentSummaryInformation;",
+        "28": "import org.apache.poi.hpsf.SummaryInformation;",
+        "29": "import org.apache.poi.hwpf.model.BookmarksTables;",
+        "30": "import org.apache.poi.hwpf.model.CHPBinTable;",
+        "31": "import org.apache.poi.hwpf.model.ComplexFileTable;"
       },
       "id": 97383956,
       "filename": "HWPFDocument.java"

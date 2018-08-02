@@ -1,8 +1,8 @@
 {
-  "matchterm": "PointerFactory",
+  "matchterm": "org.apache.poi.hdgf.pointers.PointerFactory",
   "previouspage": null,
-  "searchterm": "PointerFactory",
-  "query": "PointerFactory",
+  "searchterm": "org.apache.poi.hdgf.pointers.PointerFactory",
+  "query": "org.apache.poi.hdgf.pointers.PointerFactory",
   "language_filters": [
     {
       "count": 1,
@@ -21,12 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/97397248/",
       "md5hash": "3eb320077de8a4bc1854a83f8ac115d8",
       "lines": {
-        "40": "\t\tptrFactory = new PointerFactory(11);",
         "35": "\tprivate ChunkFactory chunkFactory;",
         "36": "\tprivate PointerFactory ptrFactory;",
-        "39": "\tprotected void setUp() throws Exception {",
+        "37": "\tprivate POIFSFileSystem filesystem;",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hdgf.streams;",
+        "21": "",
+        "22": "import org.apache.poi.hdgf.HDGFDiagram;",
+        "23": "import org.apache.poi.hdgf.chunks.ChunkFactory;",
         "24": "import org.apache.poi.hdgf.pointers.Pointer;",
-        "25": "import org.apache.poi.hdgf.pointers.PointerFactory;"
+        "25": "import org.apache.poi.hdgf.pointers.PointerFactory;",
+        "26": "import org.apache.poi.poifs.filesystem.DocumentEntry;",
+        "27": "import org.apache.poi.poifs.filesystem.POIFSFileSystem;",
+        "28": "import org.apache.poi.POIDataSamples;",
+        "29": ""
       },
       "id": 97397248,
       "filename": "TestStreamBugs.java"

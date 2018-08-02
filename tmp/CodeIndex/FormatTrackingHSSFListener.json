@@ -1,8 +1,8 @@
 {
-  "matchterm": "FormatTrackingHSSFListener",
+  "matchterm": "org.apache.poi.hssf.eventusermodel.FormatTrackingHSSFListener",
   "previouspage": null,
-  "searchterm": "FormatTrackingHSSFListener",
-  "query": "FormatTrackingHSSFListener",
+  "searchterm": "org.apache.poi.hssf.eventusermodel.FormatTrackingHSSFListener",
+  "query": "org.apache.poi.hssf.eventusermodel.FormatTrackingHSSFListener",
   "language_filters": [
     {
       "count": 2,
@@ -21,14 +21,23 @@
       "url": "https://searchcode.com/codesearch/view/111785559/",
       "md5hash": "6b55090236799f49ee0f5bd7d54bbbac",
       "lines": {
+        "32": "import org.apache.poi.ddf.EscherBlipRecord;",
+        "33": "import org.apache.poi.ddf.EscherMetafileBlip;",
         "34": "import org.apache.poi.ddf.EscherRecord;",
         "35": "import org.apache.poi.hssf.eventusermodel.FormatTrackingHSSFListener;",
-        "182": "        /**",
-        "183": "         * Internal <code>FormatTrackingHSSFListener</code> to handle cell",
-        "185": "         */",
-        "186": "        private FormatTrackingHSSFListener formatListener;",
-        "235": "            this.format = NumberFormat.getInstance(locale);",
-        "236": "            this.formatListener = new FormatTrackingHSSFListener(this, locale);"
+        "36": "import org.apache.poi.hssf.eventusermodel.HSSFEventFactory;",
+        "37": "import org.apache.poi.hssf.eventusermodel.HSSFListener;",
+        "38": "import org.apache.poi.hssf.eventusermodel.HSSFRequest;",
+        "39": "import org.apache.poi.hssf.record.AbstractEscherHolderRecord;",
+        "8": " *",
+        "9": " *     http://www.apache.org/licenses/LICENSE-2.0",
+        "16": " */",
+        "17": "package org.apache.tika.parser.microsoft;",
+        "18": "",
+        "40": "import org.apache.poi.hssf.record.BOFRecord;",
+        "29": "",
+        "30": "import org.apache.poi.ddf.EscherBSERecord;",
+        "31": "import org.apache.poi.ddf.EscherBitmapBlip;"
       },
       "id": 111785559,
       "filename": "ExcelExtractor.java"
@@ -42,12 +51,21 @@
       "url": "https://searchcode.com/codesearch/view/68613461/",
       "md5hash": "8bd64dddea629578a6d8e6f976c7b348",
       "lines": {
-        "99": "\t\tformatListener = new FormatTrackingHSSFListener(listener);",
-        "98": "\t\t\t\tthis);",
-        "51": "\tprivate SSTRecord sstRecord;",
-        "52": "\tprivate FormatTrackingHSSFListener formatListener;",
         "9": "",
-        "10": "import org.apache.poi.hssf.eventusermodel.FormatTrackingHSSFListener;"
+        "10": "import org.apache.poi.hssf.eventusermodel.FormatTrackingHSSFListener;",
+        "11": "import org.apache.poi.hssf.eventusermodel.HSSFEventFactory;",
+        "12": "import org.apache.poi.hssf.eventusermodel.HSSFListener;",
+        "13": "import org.apache.poi.hssf.eventusermodel.HSSFRequest;",
+        "14": "import org.apache.poi.hssf.eventusermodel.MissingRecordAwareHSSFListener;",
+        "15": "import org.apache.poi.hssf.eventusermodel.EventWorkbookBuilder.SheetRecordCollectingListener;",
+        "16": "import org.apache.poi.hssf.eventusermodel.dummyrecord.LastCellOfRowDummyRecord;",
+        "17": "import org.apache.poi.hssf.eventusermodel.dummyrecord.MissingCellDummyRecord;",
+        "18": "import org.apache.poi.hssf.model.HSSFFormulaParser;",
+        "19": "import org.apache.poi.hssf.record.BOFRecord;",
+        "20": "import org.apache.poi.hssf.record.BlankRecord;",
+        "21": "import org.apache.poi.hssf.record.BoolErrRecord;",
+        "22": "import org.apache.poi.hssf.record.BoundSheetRecord;",
+        "23": "import org.apache.poi.hssf.record.FormulaRecord;"
       },
       "id": 68613461,
       "filename": "HxlsAbstract.java"

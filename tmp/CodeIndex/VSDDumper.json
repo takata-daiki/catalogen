@@ -1,8 +1,8 @@
 {
-  "matchterm": "VSDDumper",
+  "matchterm": "org.apache.poi.hdgf.dev.VSDDumper",
   "previouspage": null,
-  "searchterm": "VSDDumper",
-  "query": "VSDDumper",
+  "searchterm": "org.apache.poi.hdgf.dev.VSDDumper",
+  "query": "org.apache.poi.hdgf.dev.VSDDumper",
   "language_filters": [
     {
       "count": 1,
@@ -21,10 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/97396300/",
       "md5hash": "f08b2eea782e030096ccaf8367f64ad3",
       "lines": {
-        "34": " */",
-        "35": "public final class VSDDumper {",
-        "38": "\t\t\tSystem.err.println(\"Use:\");",
-        "39": "\t\t\tSystem.err.println(\"  VSDDumper <filename>\");"
+        "32": " * Developer helper class to dump out the pointer+stream structure",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hdgf.dev;",
+        "21": "",
+        "22": "import org.apache.poi.hdgf.HDGFDiagram;",
+        "23": "import org.apache.poi.hdgf.chunks.Chunk;",
+        "24": "import org.apache.poi.hdgf.chunks.Chunk.Command;",
+        "25": "import org.apache.poi.hdgf.pointers.Pointer;",
+        "26": "import org.apache.poi.hdgf.streams.ChunkStream;",
+        "27": "import org.apache.poi.hdgf.streams.PointerContainingStream;",
+        "28": "import org.apache.poi.hdgf.streams.Stream;",
+        "29": "import org.apache.poi.poifs.filesystem.POIFSFileSystem;",
+        "30": "",
+        "31": "/**"
       },
       "id": 97396300,
       "filename": "VSDDumper.java"

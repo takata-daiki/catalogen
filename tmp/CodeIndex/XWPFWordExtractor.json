@@ -1,78 +1,17 @@
 {
-  "matchterm": "XWPFWordExtractor",
+  "matchterm": "org.apache.poi.xwpf.extractor.XWPFWordExtractor",
   "previouspage": null,
-  "searchterm": "XWPFWordExtractor",
-  "query": "XWPFWordExtractor",
+  "searchterm": "org.apache.poi.xwpf.extractor.XWPFWordExtractor",
+  "query": "org.apache.poi.xwpf.extractor.XWPFWordExtractor",
   "language_filters": [
     {
-      "count": 11,
+      "count": 10,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 11,
+  "total": 10,
   "results": [
-    {
-      "repo": "git://github.com/encuestame/encuestame.git",
-      "language": "Java",
-      "linescount": 390,
-      "location": "/encuestame-business/src/main/java/org/encuestame/business/search",
-      "name": "encuestame",
-      "url": "https://searchcode.com/codesearch/view/16002626/",
-      "md5hash": "3fcb7726512e9bad06a6d67189e20f90",
-      "lines": {
-        "225": "            XWPFDocument wd = new XWPFDocument(is);",
-        "226": "            wde = new XWPFWordExtractor(wd);",
-        "38": "import org.apache.poi.ss.usermodel.Row;",
-        "39": "import org.apache.poi.xwpf.extractor.XWPFWordExtractor;",
-        "169": "        if (\"docx\".equals(fileExtension)) {",
-        "170": "            XWPFWordExtractor parserDoc;",
-        "238": "     */",
-        "239": "    public static String extractContentWordDocument(final XWPFWordExtractor wde){",
-        "220": "     */",
-        "221": "    public static XWPFWordExtractor parseWordDocument(final File file) throws POIXMLException, Exception {",
-        "222": "        InputStream is = new FileInputStream(file);",
-        "223": "        XWPFWordExtractor wde = null;"
-      },
-      "id": 16002626,
-      "filename": "IndexerFile.java"
-    },
-    {
-      "repo": "https://github.com/cheft/fast-reader.git",
-      "language": "Java",
-      "linescount": 288,
-      "location": "/reader-server/src/com/topway/reader/server/lucene",
-      "name": "fast-reader",
-      "url": "https://searchcode.com/codesearch/view/94960725/",
-      "md5hash": "8e716c0d4bbe4c605731725e169386b5",
-      "lines": {
-        "30": "import org.apache.poi.xssf.extractor.XSSFExcelExtractor;",
-        "207": "\t\t\twe = new XWPFWordExtractor(opcPackage);",
-        "203": "\tpublic String readDocx(String path) {",
-        "204": "\t\tXWPFWordExtractor we = null;",
-        "206": "\t\t\tOPCPackage opcPackage = POIXMLDocument.openPackage(path);",
-        "31": "import org.apache.poi.xwpf.extractor.XWPFWordExtractor;"
-      },
-      "id": 94960725,
-      "filename": "IndexFiles.java"
-    },
-    {
-      "repo": "https://bitbucket.org/johnnywsd/java-extractemailfromdocdocxpdftxt.git",
-      "language": "Java",
-      "linescount": 31,
-      "location": "/shoudaw/msword",
-      "name": "java-extractemailfromdocdocxpdftxt",
-      "url": "https://searchcode.com/codesearch/view/51905614/",
-      "md5hash": "a233d4e072d0ea56d8a3ff54c2da64d5",
-      "lines": {
-        "16": "\t\t\tXWPFDocument doc = new XWPFDocument(new FileInputStream(filePath));",
-        "17": "\t\t\tXWPFWordExtractor wordxExtractor = new XWPFWordExtractor(doc);",
-        "3": "import java.io.FileInputStream;",
-        "4": "import org.apache.poi.xwpf.extractor.XWPFWordExtractor;"
-      },
-      "id": 51905614,
-      "filename": "MsWordDocx.java"
-    },
     {
       "repo": "https://github.com/solsson/tika.git",
       "language": "Java",
@@ -82,68 +21,25 @@
       "url": "https://searchcode.com/codesearch/view/111785573/",
       "md5hash": "182b92c20f0ceb47e5952f2b30e98cd2",
       "lines": {
-        "48": "    /**",
-        "49": "     * @see org.apache.poi.xwpf.extractor.XWPFWordExtractor#getText()",
-        "41": "",
+        "32": "import org.apache.tika.sax.XHTMLContentHandler;",
+        "33": "import org.apache.xmlbeans.XmlException;",
+        "34": "import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTBookmark;",
+        "8": " *",
+        "9": " *     http://www.apache.org/licenses/LICENSE-2.0",
+        "16": " */",
+        "17": "package org.apache.tika.parser.microsoft.ooxml;",
+        "23": "",
         "24": "import org.apache.poi.openxml4j.opc.PackagePart;",
         "25": "import org.apache.poi.xwpf.extractor.XWPFWordExtractor;",
-        "42": "public class XWPFWordExtractorDecorator extends AbstractOOXMLExtractor {",
-        "43": "",
-        "44": "    public XWPFWordExtractorDecorator(XWPFWordExtractor extractor) {"
+        "26": "import org.apache.poi.xwpf.model.XWPFCommentsDecorator;",
+        "27": "import org.apache.poi.xwpf.model.XWPFHeaderFooterPolicy;",
+        "28": "import org.apache.poi.xwpf.model.XWPFHyperlinkDecorator;",
+        "29": "import org.apache.poi.xwpf.model.XWPFParagraphDecorator;",
+        "30": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "31": "import org.apache.poi.xwpf.usermodel.XWPFParagraph;"
       },
       "id": 111785573,
       "filename": "XWPFWordExtractorDecorator.java"
-    },
-    {
-      "repo": "http://ontopia.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 47,
-      "location": "/ontopia-classify/src/main/java/net/ontopia/topicmaps/classify",
-      "name": "ontopia",
-      "url": "https://searchcode.com/codesearch/view/12809869/",
-      "md5hash": "50b856b5bf383b5de9fee620dfd4ba04",
-      "lines": {
-        "9": "",
-        "10": "import org.apache.poi.xwpf.extractor.XWPFWordExtractor;",
-        "35": "      OPCPackage opc = OPCPackage.open(new ByteArrayInputStream(cc.getContent()));",
-        "36": "      XWPFWordExtractor extractor = new XWPFWordExtractor(opc);"
-      },
-      "id": 12809869,
-      "filename": "OOXMLWordFormatModule.java"
-    },
-    {
-      "repo": "git://github.com/encuestame/encuestame.git",
-      "language": "Java",
-      "linescount": 285,
-      "location": "/encuestame-business/src/main/java/org/encuestame/business/search",
-      "name": "encuestame",
-      "url": "https://searchcode.com/codesearch/view/16002628/",
-      "md5hash": "6a0b4f4e7d61f770522584e775f6cb8b",
-      "lines": {
-        "167": "           XWPFWordExtractor wde = new XWPFWordExtractor(wd);",
-        "166": "           XWPFDocument wd = new XWPFDocument(is);",
-        "46": "import org.apache.poi.ss.usermodel.Row;",
-        "47": "import org.apache.poi.xwpf.extractor.XWPFWordExtractor;"
-      },
-      "id": 16002628,
-      "filename": "SearchUtils.java"
-    },
-    {
-      "repo": "git://github.com/evllabs/JGAAP.git",
-      "language": "Java",
-      "linescount": 204,
-      "location": "/src/com/jgaap/generics",
-      "name": "JGAAP",
-      "url": "https://searchcode.com/codesearch/view/16973147/",
-      "md5hash": "8bd2f482161cbb20b2fe2b3f678da332",
-      "lines": {
-        "33": "import org.apache.poi.poifs.filesystem.POIFSFileSystem;",
-        "34": "import org.apache.poi.xwpf.extractor.XWPFWordExtractor;",
-        "155": "\t\tXWPFWordExtractor extractor = new XWPFWordExtractor(docx);",
-        "154": "\t\tXWPFDocument docx = new XWPFDocument(inputStream);"
-      },
-      "id": 16973147,
-      "filename": "DocumentHelper.java"
     },
     {
       "repo": "https://bitbucket.org/nuclos/nuclos.git",
@@ -156,8 +52,19 @@
       "lines": {
         "32": "",
         "33": "import org.apache.poi.xwpf.extractor.XWPFWordExtractor;",
-        "91": "\t\t// Note: in POI 3.6, text extraction does not always work correctly",
-        "92": "\t\treturn new XWPFWordExtractor(document).getText();"
+        "34": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "35": "import org.apache.poi.xwpf.usermodel.XWPFParagraph;",
+        "36": "import org.apache.poi.xwpf.usermodel.XWPFTable;",
+        "37": "import org.apache.xmlbeans.XmlCursor;",
+        "38": "import org.apache.xmlbeans.XmlObject;",
+        "39": "import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTP;",
+        "40": "import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTPTab;",
+        "41": "import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTR;",
+        "42": "import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTRow;",
+        "43": "import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTSdtBlock;",
+        "44": "import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTSdtContentBlock;",
+        "45": "import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTSdtContentRun;",
+        "46": "import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTSdtPr;"
       },
       "id": 46076962,
       "filename": "WordXMLReader.java"
@@ -173,13 +80,156 @@
       "lines": {
         "32": "import org.apache.poi.xssf.usermodel.XSSFWorkbook;",
         "33": "import org.apache.poi.xwpf.extractor.XWPFWordExtractor;",
-        "75": "            } else if (document instanceof XWPFDocument) {",
-        "76": "                extractor = new XWPFWordExtractorDecorator(",
-        "77": "                        (XWPFWordExtractor) poiExtractor);",
-        "78": "            } else {"
+        "34": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "8": " *",
+        "9": " *     http://www.apache.org/licenses/LICENSE-2.0",
+        "22": "",
+        "23": "import org.apache.poi.POIXMLDocument;",
+        "24": "import org.apache.poi.POIXMLTextExtractor;",
+        "25": "import org.apache.poi.extractor.ExtractorFactory;",
+        "26": "import org.apache.poi.openxml4j.exceptions.InvalidFormatException;",
+        "27": "import org.apache.poi.openxml4j.exceptions.OpenXML4JException;",
+        "28": "import org.apache.poi.openxml4j.opc.OPCPackage;",
+        "29": "import org.apache.poi.xslf.XSLFSlideShow;",
+        "30": "import org.apache.poi.xslf.extractor.XSLFPowerPointExtractor;",
+        "31": "import org.apache.poi.xssf.extractor.XSSFExcelExtractor;"
       },
       "id": 111785577,
       "filename": "OOXMLExtractorFactory.java"
+    },
+    {
+      "repo": "https://bitbucket.org/johnnywsd/java-extractemailfromdocdocxpdftxt.git",
+      "language": "Java",
+      "linescount": 31,
+      "location": "/shoudaw/msword",
+      "name": "java-extractemailfromdocdocxpdftxt",
+      "url": "https://searchcode.com/codesearch/view/51905614/",
+      "md5hash": "a233d4e072d0ea56d8a3ff54c2da64d5",
+      "lines": {
+        "16": "\t\t\tXWPFDocument doc = new XWPFDocument(new FileInputStream(filePath));",
+        "17": "\t\t\tXWPFWordExtractor wordxExtractor = new XWPFWordExtractor(doc);",
+        "18": "\t\t\tString text = wordxExtractor.getText();",
+        "3": "import java.io.FileInputStream;",
+        "4": "import org.apache.poi.xwpf.extractor.XWPFWordExtractor;",
+        "5": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "6": "",
+        "19": "//\t\t\tSystem.out.println(text);",
+        "15": "\t\ttry {"
+      },
+      "id": 51905614,
+      "filename": "MsWordDocx.java"
+    },
+    {
+      "repo": "https://github.com/cheft/fast-reader.git",
+      "language": "Java",
+      "linescount": 288,
+      "location": "/reader-server/src/com/topway/reader/server/lucene",
+      "name": "fast-reader",
+      "url": "https://searchcode.com/codesearch/view/94960725/",
+      "md5hash": "8e716c0d4bbe4c605731725e169386b5",
+      "lines": {
+        "11": "",
+        "12": "import org.apache.lucene.analysis.Analyzer;",
+        "13": "import org.apache.lucene.document.Document;",
+        "14": "import org.apache.lucene.document.Field;",
+        "15": "import org.apache.lucene.index.IndexWriter;",
+        "18": "import org.apache.pdfbox.util.PDFTextStripper;",
+        "19": "import org.apache.poi.POIXMLDocument;",
+        "20": "import org.apache.poi.hslf.HSLFSlideShow;",
+        "21": "import org.apache.poi.hslf.model.Slide;",
+        "22": "import org.apache.poi.hslf.model.TextRun;",
+        "23": "import org.apache.poi.hslf.usermodel.SlideShow;",
+        "24": "import org.apache.poi.hssf.extractor.ExcelExtractor;",
+        "25": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "26": "import org.apache.poi.hwpf.extractor.WordExtractor;",
+        "27": "import org.apache.poi.openxml4j.exceptions.OpenXML4JException;"
+      },
+      "id": 94960725,
+      "filename": "IndexFiles.java"
+    },
+    {
+      "repo": "git://github.com/encuestame/encuestame.git",
+      "language": "Java",
+      "linescount": 390,
+      "location": "/encuestame-business/src/main/java/org/encuestame/business/search",
+      "name": "encuestame",
+      "url": "https://searchcode.com/codesearch/view/16002626/",
+      "md5hash": "3fcb7726512e9bad06a6d67189e20f90",
+      "lines": {
+        "32": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "33": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "5": " * Licensed under the Apache Software License version 2.0",
+        "6": " * You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0",
+        "7": " * Unless required by applicable law or agreed to  in writing,  software  distributed",
+        "20": "import java.util.Iterator;",
+        "21": "import org.apache.commons.lang.StringUtils;",
+        "22": "import org.apache.commons.logging.Log;",
+        "23": "import org.apache.commons.logging.LogFactory;",
+        "24": "import org.apache.lucene.document.Document;",
+        "25": "import org.apache.lucene.document.Field;",
+        "26": "import org.apache.lucene.index.Term;",
+        "29": "import org.apache.pdfbox.util.PDFTextStripper;",
+        "30": "import org.apache.poi.POIXMLException;",
+        "31": "import org.apache.poi.hssf.usermodel.HSSFCell;"
+      },
+      "id": 16002626,
+      "filename": "IndexerFile.java"
+    },
+    {
+      "repo": "git://github.com/evllabs/JGAAP.git",
+      "language": "Java",
+      "linescount": 204,
+      "location": "/src/com/jgaap/generics",
+      "name": "JGAAP",
+      "url": "https://searchcode.com/codesearch/view/16973147/",
+      "md5hash": "8bd2f482161cbb20b2fe2b3f678da332",
+      "lines": {
+        "32": "import org.apache.poi.hwpf.extractor.WordExtractor;",
+        "33": "import org.apache.poi.poifs.filesystem.POIFSFileSystem;",
+        "34": "import org.apache.poi.xwpf.extractor.XWPFWordExtractor;",
+        "35": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "36": "",
+        "133": "\t *            An input stream pointing to the Word document to be read.",
+        "137": "\t\t\tthrows IOException {",
+        "138": "\t\tPOIFSFileSystem fs = new POIFSFileSystem(inputStream);",
+        "139": "\t\tHWPFDocument doc = new HWPFDocument(fs);",
+        "132": "\t * @param inputStream",
+        "27": "",
+        "28": "import org.apache.log4j.Logger;",
+        "29": "import org.apache.pdfbox.pdmodel.PDDocument;",
+        "30": "import org.apache.pdfbox.util.PDFTextStripper;",
+        "31": "import org.apache.poi.hwpf.HWPFDocument;"
+      },
+      "id": 16973147,
+      "filename": "DocumentHelper.java"
+    },
+    {
+      "repo": "git://github.com/encuestame/encuestame.git",
+      "language": "Java",
+      "linescount": 285,
+      "location": "/encuestame-business/src/main/java/org/encuestame/business/search",
+      "name": "encuestame",
+      "url": "https://searchcode.com/codesearch/view/16002628/",
+      "md5hash": "6a0b4f4e7d61f770522584e775f6cb8b",
+      "lines": {
+        "32": "import org.apache.lucene.store.LockObtainFailedException;",
+        "33": "import org.apache.lucene.util.Version;",
+        "34": "import org.apache.pdfbox.cos.COSDocument;",
+        "35": "import org.apache.pdfbox.pdfparser.PDFParser;",
+        "5": " * Licensed under the Apache Software License version 2.0",
+        "6": " * You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0",
+        "7": " * Unless required by applicable law or agreed to  in writing,  software  distributed",
+        "22": "",
+        "23": "import org.apache.commons.lang.StringUtils;",
+        "24": "import org.apache.commons.logging.Log;",
+        "25": "import org.apache.commons.logging.LogFactory;",
+        "26": "import org.apache.lucene.analysis.standard.StandardAnalyzer;",
+        "27": "import org.apache.lucene.document.Document;",
+        "28": "import org.apache.lucene.document.Field;",
+        "31": "import org.apache.lucene.store.Directory;"
+      },
+      "id": 16002628,
+      "filename": "SearchUtils.java"
     },
     {
       "repo": "https://bitbucket.org/ebianchi/yds",
@@ -190,30 +240,46 @@
       "url": "https://searchcode.com/codesearch/view/134169113/",
       "md5hash": "d77ea05b81581823bde1e99835d52a5c",
       "lines": {
+        "48": "",
+        "15": "import org.apache.poi.xwpf.usermodel.XWPFDocument;",
+        "47": "        XWPFWordExtractor extract2007;",
+        "12": "import java.io.IOException;",
+        "45": "        String result;",
+        "46": "        WordExtractor extract;",
+        "13": "import org.apache.poi.hwpf.extractor.WordExtractor;",
+        "16": "import org.odftoolkit.odfdom.doc.OdfDocument;",
+        "17": "",
+        "51": "            if (this.getMime().equals(\"application/msword\")) {",
+        "52": "                extract = new WordExtractor(docFile);",
         "14": "import org.apache.poi.xwpf.extractor.XWPFWordExtractor;",
         "54": "            } else {",
         "55": "                extract2007 = new XWPFWordExtractor(new XWPFDocument(docFile));",
-        "13": "import org.apache.poi.hwpf.extractor.WordExtractor;",
-        "46": "        WordExtractor extract;",
-        "47": "        XWPFWordExtractor extract2007;"
+        "26": "",
+        "27": "    // TODO: implement OpenOffice Writer extractor"
       },
       "id": 134169113,
       "filename": "OfficeTextStream.java"
     },
     {
-      "repo": "https://bitbucket.org/encuestame/encuestame.git",
+      "repo": "http://ontopia.googlecode.com/svn/trunk/",
       "language": "Java",
-      "linescount": 270,
-      "location": "/enme-business/src/main/java/org/encuestame/business/search",
-      "name": "encuestame",
-      "url": "https://searchcode.com/codesearch/view/135204757/",
-      "md5hash": "f5d3ea62f9b4a88da4d215d8e4cccd25",
+      "linescount": 47,
+      "location": "/ontopia-classify/src/main/java/net/ontopia/topicmaps/classify",
+      "name": "ontopia",
+      "url": "https://searchcode.com/codesearch/view/12809869/",
+      "md5hash": "50b856b5bf383b5de9fee620dfd4ba04",
       "lines": {
-        "152": "//           XWPFWordExtractor wde = new XWPFWordExtractor(wd);",
-        "151": "//           XWPFDocument wd = new XWPFDocument(is);"
+        "35": "      OPCPackage opc = OPCPackage.open(new ByteArrayInputStream(cc.getContent()));",
+        "36": "      XWPFWordExtractor extractor = new XWPFWordExtractor(opc);",
+        "37": "      String s = extractor.getText();",
+        "38": "      char[] c = s.toCharArray();",
+        "9": "",
+        "10": "import org.apache.poi.xwpf.extractor.XWPFWordExtractor;",
+        "11": "import org.apache.poi.openxml4j.opc.OPCPackage;",
+        "12": ""
       },
-      "id": 135204757,
-      "filename": "SearchUtils.java"
+      "id": 12809869,
+      "filename": "OOXMLWordFormatModule.java"
     }
   ],
   "page": 0,
@@ -225,7 +291,7 @@
       "id": 2
     },
     {
-      "count": 4,
+      "count": 3,
       "source": "Bitbucket",
       "id": 3
     },

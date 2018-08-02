@@ -1,8 +1,8 @@
 {
-  "matchterm": "EscherTextboxWrapper",
+  "matchterm": "org.apache.poi.hslf.record.EscherTextboxWrapper",
   "previouspage": null,
-  "searchterm": "EscherTextboxWrapper",
-  "query": "EscherTextboxWrapper",
+  "searchterm": "org.apache.poi.hslf.record.EscherTextboxWrapper",
+  "query": "org.apache.poi.hslf.record.EscherTextboxWrapper",
   "language_filters": [
     {
       "count": 2,
@@ -21,22 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97394395/",
       "md5hash": "4ae551d90bbc16377c5513186d4e9dc1",
       "lines": {
-        "96": "     */",
-        "97": "    protected EscherTextboxWrapper _txtbox;",
+        "32": "import org.apache.poi.ddf.EscherSpRecord;",
+        "33": "import org.apache.poi.ddf.EscherTextboxRecord;",
         "34": "import org.apache.poi.hslf.exceptions.HSLFException;",
         "35": "import org.apache.poi.hslf.record.EscherTextboxWrapper;",
-        "228": "            if(textRecord != null) _txtbox = new EscherTextboxWrapper(textRecord);",
-        "518": "    protected void initTextRun(){",
-        "135": "    public TextRun createTextRun(){",
-        "136": "        _txtbox = getEscherTextboxWrapper();",
-        "137": "        if(_txtbox == null) _txtbox = new EscherTextboxWrapper();",
-        "138": "",
-        "225": "    protected EscherTextboxWrapper getEscherTextboxWrapper(){",
-        "224": "",
-        "206": "",
-        "207": "        EscherTextboxWrapper _txtbox = getEscherTextboxWrapper();",
-        "227": "            EscherTextboxRecord textRecord = (EscherTextboxRecord)Shape.getEscherChild(_escherContainer, EscherTextboxRecord.RECORD_ID);",
-        "519": "        EscherTextboxWrapper txtbox = getEscherTextboxWrapper();"
+        "36": "import org.apache.poi.hslf.record.InteractiveInfo;",
+        "37": "import org.apache.poi.hslf.record.InteractiveInfoAtom;",
+        "38": "import org.apache.poi.hslf.record.OEPlaceholderAtom;",
+        "39": "import org.apache.poi.hslf.record.OutlineTextRefAtom;",
+        "17": "",
+        "18": "package org.apache.poi.hslf.model;",
+        "27": "",
+        "28": "import org.apache.poi.ddf.EscherContainerRecord;",
+        "29": "import org.apache.poi.ddf.EscherOptRecord;",
+        "30": "import org.apache.poi.ddf.EscherProperties;",
+        "31": "import org.apache.poi.ddf.EscherSimpleProperty;"
       },
       "id": 97394395,
       "filename": "TextShape.java"
@@ -50,8 +49,22 @@
       "url": "https://searchcode.com/codesearch/view/97394323/",
       "md5hash": "004c81d0c6f4e85beee2c12f2cad27b2",
       "lines": {
-        "126": "        final List<TextRun> runsV = new ArrayList<TextRun>();",
-        "127": "        EscherTextboxWrapper[] wrappers = ppdrawing.getTextboxWrappers();"
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "54": "     * for slide masters it is org.apache.poi.hslf.record.SlideMaster, etc.",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "55": "     */",
+        "17": "",
+        "18": "package org.apache.poi.hslf.model;",
+        "51": "     * Record container that holds sheet data.",
+        "52": "     * For slides it is org.apache.poi.hslf.record.Slide,",
+        "21": "",
+        "22": "import org.apache.poi.ddf.*;",
+        "23": "import org.apache.poi.hslf.record.*;",
+        "24": "import org.apache.poi.hslf.usermodel.SlideShow;",
+        "25": "",
+        "53": "     * for notes it is org.apache.poi.hslf.record.Notes,"
       },
       "id": 97394323,
       "filename": "Sheet.java"

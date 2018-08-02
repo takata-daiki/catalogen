@@ -1,8 +1,8 @@
 {
-  "matchterm": "PackagePropertiesPart",
+  "matchterm": "org.apache.poi.openxml4j.opc.internal.PackagePropertiesPart",
   "previouspage": null,
-  "searchterm": "PackagePropertiesPart",
-  "query": "PackagePropertiesPart",
+  "searchterm": "org.apache.poi.openxml4j.opc.internal.PackagePropertiesPart",
+  "query": "org.apache.poi.openxml4j.opc.internal.PackagePropertiesPart",
   "language_filters": [
     {
       "count": 2,
@@ -21,18 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97406292/",
       "md5hash": "47fc882bc196bd395e952d6ada656cd9",
       "lines": {
-        "321": "\t\t\t// Init some PackageBase properties",
-        "322": "\t\t\tpkg.packageProperties = new PackagePropertiesPart(pkg,",
-        "108": "\t */",
-        "493": "\t\tif (this.packageProperties == null) {",
-        "494": "\t\t\tthis.packageProperties = new PackagePropertiesPart(this,",
+        "50": "import org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller;",
+        "49": "import org.apache.poi.openxml4j.opc.internal.ZipContentTypeManager;",
+        "38": "",
+        "39": "import org.apache.poi.openxml4j.exceptions.InvalidFormatException;",
+        "40": "import org.apache.poi.openxml4j.exceptions.InvalidOperationException;",
+        "41": "import org.apache.poi.openxml4j.exceptions.OpenXML4JException;",
+        "42": "import org.apache.poi.openxml4j.exceptions.OpenXML4JRuntimeException;",
+        "43": "import org.apache.poi.openxml4j.exceptions.PartAlreadyExistsException;",
+        "44": "import org.apache.poi.openxml4j.opc.internal.ContentType;",
         "45": "import org.apache.poi.openxml4j.opc.internal.ContentTypeManager;",
-        "657": "\t\t\t\t\t\t// and ignore any subsequent ones",
-        "658": "\t\t\t\t\t\tif (unmarshallPart instanceof PackagePropertiesPart &&",
-        "660": "\t\t\t\t\t\t\t\tneedCorePropertiesPart) {",
         "46": "import org.apache.poi.openxml4j.opc.internal.PackagePropertiesPart;",
-        "109": "\tprotected PackagePropertiesPart packageProperties;",
-        "661": "\t\t\t\t\t\t\tthis.packageProperties = (PackagePropertiesPart) unmarshallPart;"
+        "47": "import org.apache.poi.openxml4j.opc.internal.PartMarshaller;",
+        "48": "import org.apache.poi.openxml4j.opc.internal.PartUnmarshaller;",
+        "17": "",
+        "18": "package org.apache.poi.openxml4j.opc;"
       },
       "id": 97406292,
       "filename": "OPCPackage.java"
@@ -46,10 +49,21 @@
       "url": "https://searchcode.com/codesearch/view/111785575/",
       "md5hash": "2a9aaf9e0c1f1ffdb93195ff06ef1121",
       "lines": {
+        "8": " *",
+        "9": " *     http://www.apache.org/licenses/LICENSE-2.0",
+        "16": " */",
+        "17": "package org.apache.tika.parser.microsoft.ooxml;",
+        "20": "",
+        "21": "import org.apache.poi.POIXMLTextExtractor;",
+        "22": "import org.apache.poi.POIXMLProperties.CoreProperties;",
+        "23": "import org.apache.poi.POIXMLProperties.ExtendedProperties;",
         "24": "import org.apache.poi.openxml4j.opc.internal.PackagePropertiesPart;",
-        "56": "    private void extractMetadata(CoreProperties properties, Metadata metadata) {",
-        "57": "        PackagePropertiesPart propsHolder = properties",
-        "23": "import org.apache.poi.POIXMLProperties.ExtendedProperties;"
+        "25": "import org.apache.poi.openxml4j.util.Nullable;",
+        "26": "import org.apache.tika.exception.TikaException;",
+        "27": "import org.apache.tika.metadata.Metadata;",
+        "28": "import org.apache.tika.metadata.PagedText;",
+        "29": "import org.apache.tika.metadata.Property;",
+        "30": "import org.openxmlformats.schemas.officeDocument.x2006.extendedProperties.CTProperties;"
       },
       "id": 111785575,
       "filename": "MetadataExtractor.java"

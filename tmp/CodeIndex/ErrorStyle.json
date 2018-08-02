@@ -1,0 +1,82 @@
+{
+  "matchterm": "org.apache.poi.ss.usermodel.DataValidation.ErrorStyle",
+  "previouspage": null,
+  "searchterm": "org.apache.poi.ss.usermodel.DataValidation.ErrorStyle",
+  "query": "org.apache.poi.ss.usermodel.DataValidation.ErrorStyle",
+  "language_filters": [
+    {
+      "count": 2,
+      "id": 23,
+      "language": "Java"
+    }
+  ],
+  "total": 2,
+  "results": [
+    {
+      "repo": "https://github.com/Christian-B/FishLink.git",
+      "language": "Java",
+      "linescount": 384,
+      "location": "/src/org/freshwaterlife/fishlink/metadatacreator",
+      "name": "FishLink",
+      "url": "https://searchcode.com/codesearch/view/114492726/",
+      "md5hash": "8436fea159f7aa4220cdbbb59cb44742",
+      "lines": {
+        "1": "package org.freshwaterlife.fishlink.metadatacreator;",
+        "2": "",
+        "4": "import java.util.Date;",
+        "5": "import org.apache.poi.ss.usermodel.Cell;",
+        "6": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "7": "import org.apache.poi.ss.usermodel.CreationHelper;",
+        "8": "import org.apache.poi.ss.usermodel.DataValidation;",
+        "9": "import org.apache.poi.ss.usermodel.DataValidationConstraint;",
+        "10": "import org.apache.poi.ss.usermodel.DataValidationHelper;",
+        "11": "import org.apache.poi.ss.usermodel.Font;",
+        "12": "import org.apache.poi.ss.usermodel.IndexedColors;",
+        "13": "import org.apache.poi.ss.usermodel.Row;",
+        "14": "import org.apache.poi.ss.usermodel.Sheet;",
+        "15": "import org.apache.poi.ss.usermodel.Workbook;",
+        "16": "import org.apache.poi.ss.util.CellRangeAddressList;",
+        "17": "import org.freshwaterlife.fishlink.FishLinkUtils;"
+      },
+      "id": 114492726,
+      "filename": "FishLinkSheet.java"
+    },
+    {
+      "repo": "https://github.com/Christian-B/FishLink.git",
+      "language": "Java",
+      "linescount": 519,
+      "location": "/src/org/freshwaterlife/fishlink/metadatacreator",
+      "name": "FishLink",
+      "url": "https://searchcode.com/codesearch/view/114492728/",
+      "md5hash": "e35296a65f80e0c898e8f49b2e455b90",
+      "lines": {
+        "1": "package org.freshwaterlife.fishlink.metadatacreator;",
+        "2": "",
+        "68": "     * Works by reading one Column in the List sheet of the MetaMaster.",
+        "69": "     * The top row (\"1\" by Excel counting 0 by Poi's) is assumed to contain the range name.",
+        "70": "     * All the following cells directly below this (same Column) are assumed to be values in the range.",
+        "11": "import java.util.Date;",
+        "12": "import org.apache.poi.ss.usermodel.DataValidation;",
+        "13": "import org.apache.poi.ss.usermodel.Name;",
+        "14": "import org.freshwaterlife.fishlink.FishLinkPaths;",
+        "15": "import org.freshwaterlife.fishlink.FishLinkUtils;",
+        "16": "import org.freshwaterlife.fishlink.FishLinkConstants;",
+        "17": "import org.freshwaterlife.fishlink.FishLinkException;",
+        "18": "import org.freshwaterlife.fishlink.xlwrap.expr.func.FishLinkToXlWrapRegister;",
+        "27": "    /**",
+        "28": "     * Apache poi class for a=making sure there is ever only on Object for each Workbook and each sheet."
+      },
+      "id": 114492728,
+      "filename": "MetaDataCreator.java"
+    }
+  ],
+  "page": 0,
+  "nextpage": 1,
+  "source_filters": [
+    {
+      "count": 2,
+      "source": "Github",
+      "id": 2
+    }
+  ]
+}

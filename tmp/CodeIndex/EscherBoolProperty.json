@@ -1,8 +1,8 @@
 {
-  "matchterm": "EscherBoolProperty",
+  "matchterm": "org.apache.poi.ddf.EscherBoolProperty",
   "previouspage": null,
-  "searchterm": "EscherBoolProperty",
-  "query": "EscherBoolProperty",
+  "searchterm": "org.apache.poi.ddf.EscherBoolProperty",
+  "query": "org.apache.poi.ddf.EscherBoolProperty",
   "language_filters": [
     {
       "count": 9,
@@ -22,7 +22,17 @@
       "md5hash": "13b4e3c3672fce14b6665e181ed6c5ea",
       "lines": {
         "32": "public class EscherBoolProperty",
+        "2": "/* ====================================================================",
+        "3": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "5": "   this work for additional information regarding copyright ownership.",
+        "6": "   The ASF licenses this file to You under the Apache License, Version 2.0",
         "40": "     */",
+        "9": "",
+        "10": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "18": "",
+        "19": "package org.apache.poi.ddf;",
+        "20": "",
+        "21": "import org.apache.poi.util.HexDump;",
         "41": "    public EscherBoolProperty( short propertyNumber, int value )",
         "31": " */"
       },
@@ -38,10 +48,22 @@
       "url": "https://searchcode.com/codesearch/view/15642634/",
       "md5hash": "f93d3ee646143ba85f369f06a3570e13",
       "lines": {
-        "60": "     */",
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "        ",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
         "51": " */",
         "52": "public class EscherBoolProperty",
-        "61": "    public EscherBoolProperty( short propertyNumber, int value )"
+        "41": "package loci.poi.ddf;",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "27": "   this work for additional information regarding copyright ownership.",
+        "28": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "31": ""
       },
       "id": 15642634,
       "filename": "EscherBoolProperty.java"
@@ -55,20 +77,22 @@
       "url": "https://searchcode.com/codesearch/view/15642354/",
       "md5hash": "4b8479a67e34a342cfde58c7278efb63",
       "lines": {
-        "163": "            if (shape.getLineStyle() == HSSFShape.LINESTYLE_NONE)",
-        "164": "                opt.addEscherProperty( new EscherBoolProperty( EscherProperties.LINESTYLE__NOLINEDRAWDASH, 0x00080000));",
-        "165": "            else",
-        "166": "                opt.addEscherProperty( new EscherBoolProperty( EscherProperties.LINESTYLE__NOLINEDRAWDASH, 0x00080008));",
-        "138": "    {",
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "9": " * %%",
+        "42": "",
+        "43": "import loci.poi.ddf.*;",
+        "44": "import loci.poi.hssf.record.ObjRecord;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "49": " *",
+        "50": " * @author Glen Stampoultzis (glens at apache.org)",
         "139": "        opt.addEscherProperty( new EscherBoolProperty( EscherProperties.TEXT__SIZE_TEXT_TO_FIT_SHAPE, 0x080000 ) );",
+        "138": "    {",
         "140": "//        opt.addEscherProperty( new EscherBoolProperty( EscherProperties.TEXT__SIZE_TEXT_TO_FIT_SHAPE, 0x080008 ) );",
-        "141": "        if ( shape.isNoFill() )",
-        "143": "            // Wonderful... none of the spec's give any clue as to what these constants mean.",
-        "144": "            opt.addEscherProperty( new EscherBoolProperty( EscherProperties.FILL__NOFILLHITTEST, 0x00110000 ) );",
-        "147": "        {",
-        "148": "            opt.addEscherProperty( new EscherBoolProperty( EscherProperties.FILL__NOFILLHITTEST, 0x00010000 ) );",
-        "150": "        opt.addEscherProperty( new EscherRGBProperty( EscherProperties.FILL__FILLCOLOR, shape.getFillColor() ) );",
-        "151": "        opt.addEscherProperty( new EscherBoolProperty( EscherProperties.GROUPSHAPE__PRINT, 0x080000 ) );"
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "31": ""
       },
       "id": 15642354,
       "filename": "AbstractShape.java"
@@ -82,28 +106,24 @@
       "url": "https://searchcode.com/codesearch/view/15642409/",
       "md5hash": "9e212df4a5b523744fd315d99c376d1b",
       "lines": {
-        "658": "        opt.setOptions( (short) 0x0023 );",
-        "659": "        opt.addEscherProperty( new EscherBoolProperty( EscherProperties.PROTECTION__LOCKAGAINSTGROUPING, 0x00040004 ) );",
-        "660": "        opt.addEscherProperty( new EscherBoolProperty( EscherProperties.GROUPSHAPE__PRINT, 0x00080000 ) );",
-        "661": ""
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "68": " * @author Glen Stampoultzis (glens at apache.org)",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "import loci.poi.ddf.*;",
+        "44": "import loci.poi.hssf.usermodel.*;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "67": " *",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "42": "",
+        "31": ""
       },
       "id": 15642409,
       "filename": "EscherAggregate.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 155,
-      "location": "/components/forks/poi/src/loci/poi/hssf/model",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642357/",
-      "md5hash": "3fac04b2d420f2a566cce5b6a652e8c5",
-      "lines": {
-        "91": "        opt.setRecordId( EscherOptRecord.RECORD_ID );",
-        "92": "//        opt.addEscherProperty( new EscherBoolProperty( EscherProperties.PROTECTION__LOCKAGAINSTGROUPING, 0x00800080 ) );"
-      },
-      "id": 15642357,
-      "filename": "PictureShape.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -114,11 +134,52 @@
       "url": "https://searchcode.com/codesearch/view/15642358/",
       "md5hash": "2f47d8e4aa73ffbba0d056d2a6f68eee",
       "lines": {
-        "2204": "            opt.setOptions((short) 0x0033);",
-        "2205": "            opt.addEscherProperty( new EscherBoolProperty(EscherProperties.TEXT__SIZE_TEXT_TO_FIT_SHAPE, 524296) );"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "71": " * @author  Sergei Kozello (sergeikozello at mail.ru)",
+        "72": " * @author  Shawn Laubach (slaubach at apache dot org) (Data Formats)",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "",
+        "44": "import loci.poi.ddf.*;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import loci.poi.hssf.record.*;",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "31": ""
       },
       "id": 15642358,
       "filename": "Workbook.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 155,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642357/",
+      "md5hash": "3fac04b2d420f2a566cce5b6a652e8c5",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "import loci.poi.ddf.*;",
+        "44": "import loci.poi.hssf.record.*;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "49": " *",
+        "50": " * @author Glen Stampoultzis (glens at apache.org)",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "42": "",
+        "31": ""
+      },
+      "id": 15642357,
+      "filename": "PictureShape.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -129,8 +190,21 @@
       "url": "https://searchcode.com/codesearch/view/15642361/",
       "md5hash": "e8926e1642d96e5be85459525b4970cd",
       "lines": {
-        "93": "        opt.addEscherProperty( new EscherShapePathProperty( EscherProperties.GEOMETRY__SHAPEPATH, EscherShapePathProperty.COMPLEX ) );",
-        "94": "        opt.addEscherProperty( new EscherBoolProperty( EscherProperties.LINESTYLE__NOLINEDRAWDASH, 1048592 ) );"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "",
+        "44": "import loci.poi.ddf.*;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import loci.poi.hssf.record.*;",
+        "50": " *",
+        "51": " * @author Glen Stampoultzis (glens at apache.org)",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "31": ""
       },
       "id": 15642361,
       "filename": "LineShape.java"
@@ -144,8 +218,21 @@
       "url": "https://searchcode.com/codesearch/view/15642364/",
       "md5hash": "caf9b32bdd1d6052248a6d5f8cf5c345",
       "lines": {
-        "122": "        opt.setRecordId( EscherOptRecord.RECORD_ID );",
-        "123": "        //        opt.addEscherProperty( new EscherBoolProperty( EscherProperties.PROTECTION__LOCKAGAINSTGROUPING, 262144 ) );"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "",
+        "44": "import loci.poi.ddf.*;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import loci.poi.hssf.record.*;",
+        "51": " *",
+        "52": " * @author Glen Stampoultzis (glens at apache.org)",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "31": ""
       },
       "id": 15642364,
       "filename": "TextboxShape.java"
@@ -159,8 +246,22 @@
       "url": "https://searchcode.com/codesearch/view/15642603/",
       "md5hash": "f08eee159fce1bf0383031b466b1ae4f",
       "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "        ",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "import loci.poi.util.LittleEndian;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
         "81": "            if ( propertyType == EscherPropertyMetaData.TYPE_BOOLEAN )",
-        "82": "                results.add( new EscherBoolProperty( propId, propData ) );"
+        "82": "                results.add( new EscherBoolProperty( propId, propData ) );",
+        "41": "package loci.poi.ddf;",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "42": "",
+        "31": ""
       },
       "id": 15642603,
       "filename": "EscherPropertyFactory.java"

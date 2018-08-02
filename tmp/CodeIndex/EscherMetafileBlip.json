@@ -1,8 +1,8 @@
 {
-  "matchterm": "EscherMetafileBlip",
+  "matchterm": "org.apache.poi.ddf.EscherMetafileBlip",
   "previouspage": null,
-  "searchterm": "EscherMetafileBlip",
-  "query": "EscherMetafileBlip",
+  "searchterm": "org.apache.poi.ddf.EscherMetafileBlip",
+  "query": "org.apache.poi.ddf.EscherMetafileBlip",
   "language_filters": [
     {
       "count": 4,
@@ -12,23 +12,6 @@
   ],
   "total": 4,
   "results": [
-    {
-      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
-      "language": "Java",
-      "linescount": 299,
-      "location": "/src/org/apache/poi/ddf",
-      "name": "SimpleAndroidDocView",
-      "url": "https://searchcode.com/codesearch/view/97383934/",
-      "md5hash": "40ae8a8dc728bbce21c8fc56dec8bb5e",
-      "lines": {
-        "34": " */",
-        "35": "public final class EscherMetafileBlip extends EscherBlipRecord {",
-        "36": "    private static final POILogger log = POILogFactory.getLogger(EscherMetafileBlip.class);",
-        "37": ""
-      },
-      "id": 97383934,
-      "filename": "EscherMetafileBlip.java"
-    },
     {
       "repo": "https://github.com/solsson/tika.git",
       "language": "Java",
@@ -40,15 +23,52 @@
       "lines": {
         "32": "import org.apache.poi.ddf.EscherBlipRecord;",
         "33": "import org.apache.poi.ddf.EscherMetafileBlip;",
-        "546": "                       break;",
-        "547": "                    case EscherMetafileBlip.RECORD_ID_PICT:",
-        "544": "                    case EscherMetafileBlip.RECORD_ID_EMF:",
-        "540": "                    switch (blip.getRecordId()) {",
-        "541": "                    case EscherMetafileBlip.RECORD_ID_WMF:",
-        "543": "                       break;"
+        "34": "import org.apache.poi.ddf.EscherRecord;",
+        "35": "import org.apache.poi.hssf.eventusermodel.FormatTrackingHSSFListener;",
+        "36": "import org.apache.poi.hssf.eventusermodel.HSSFEventFactory;",
+        "37": "import org.apache.poi.hssf.eventusermodel.HSSFListener;",
+        "38": "import org.apache.poi.hssf.eventusermodel.HSSFRequest;",
+        "39": "import org.apache.poi.hssf.record.AbstractEscherHolderRecord;",
+        "8": " *",
+        "9": " *     http://www.apache.org/licenses/LICENSE-2.0",
+        "16": " */",
+        "17": "package org.apache.tika.parser.microsoft;",
+        "18": "",
+        "40": "import org.apache.poi.hssf.record.BOFRecord;",
+        "29": "",
+        "30": "import org.apache.poi.ddf.EscherBSERecord;",
+        "31": "import org.apache.poi.ddf.EscherBitmapBlip;"
       },
       "id": 111785559,
       "filename": "ExcelExtractor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 299,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383934/",
+      "md5hash": "40ae8a8dc728bbce21c8fc56dec8bb5e",
+      "lines": {
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "35": "public final class EscherMetafileBlip extends EscherBlipRecord {",
+        "36": "    private static final POILogger log = POILogFactory.getLogger(EscherMetafileBlip.class);",
+        "37": "",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.ddf;",
+        "19": "",
+        "20": "import org.apache.poi.util.HexDump;",
+        "21": "import org.apache.poi.util.LittleEndian;",
+        "22": "import org.apache.poi.util.POILogFactory;",
+        "23": "import org.apache.poi.util.POILogger;",
+        "24": ""
+      },
+      "id": 97383934,
+      "filename": "EscherMetafileBlip.java"
     },
     {
       "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
@@ -59,12 +79,21 @@
       "url": "https://searchcode.com/codesearch/view/97383906/",
       "md5hash": "3324931c58f18c045e9c34e4e1ad839e",
       "lines": {
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "87": "            {",
+        "17": "",
+        "18": "package org.apache.poi.ddf;",
         "83": "            }",
         "84": "            else if (recordId == EscherMetafileBlip.RECORD_ID_EMF ||",
         "85": "                    recordId == EscherMetafileBlip.RECORD_ID_WMF ||",
         "86": "                    recordId == EscherMetafileBlip.RECORD_ID_PICT)",
-        "87": "            {",
-        "88": "                r = new EscherMetafileBlip();"
+        "23": "",
+        "24": "import org.apache.poi.util.LittleEndian;"
       },
       "id": 97383906,
       "filename": "DefaultEscherRecordFactory.java"
@@ -78,12 +107,21 @@
       "url": "https://searchcode.com/codesearch/view/15642620/",
       "md5hash": "c686784da3da38fecea2e5b988b86ece",
       "lines": {
-        "105": "            }",
-        "106": "            else if (header.getRecordId() == EscherMetafileBlip.RECORD_ID_EMF ||",
-        "107": "                    header.getRecordId() == EscherMetafileBlip.RECORD_ID_WMF ||",
-        "108": "                    header.getRecordId() == EscherMetafileBlip.RECORD_ID_PICT)",
-        "109": "            {",
-        "110": "                r = new EscherMetafileBlip();"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "        ",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "41": "package loci.poi.ddf;",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "27": "   this work for additional information regarding copyright ownership.",
+        "28": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "42": "",
+        "31": ""
       },
       "id": 15642620,
       "filename": "DefaultEscherRecordFactory.java"

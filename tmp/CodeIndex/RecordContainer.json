@@ -1,46 +1,17 @@
 {
-  "matchterm": "RecordContainer",
+  "matchterm": "org.apache.poi.hslf.record.RecordContainer",
   "previouspage": null,
-  "searchterm": "RecordContainer",
-  "query": "RecordContainer",
+  "searchterm": "org.apache.poi.hslf.record.RecordContainer",
+  "query": "org.apache.poi.hslf.record.RecordContainer",
   "language_filters": [
     {
-      "count": 6,
+      "count": 3,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 6,
+  "total": 3,
   "results": [
-    {
-      "repo": "https://github.com/unsound/hfsexplorer.git",
-      "language": "Java",
-      "linescount": 1680,
-      "location": "/src/java/org/catacombae/hfsexplorer",
-      "name": "hfsexplorer",
-      "url": "https://searchcode.com/codesearch/view/100193178/",
-      "md5hash": "5e3e41132698c24c14f9589ead279957",
-      "lines": {
-        "896": "                FolderTreeNode newNode =",
-        "897": "                        new FolderTreeNode(new RecordContainer(remainingQueue.remove()));",
-        "776": "                Object userObj = noLeafMutableTreeNode.getUserObject();",
-        "777": "                if(userObj instanceof RecordContainer) {",
-        "778": "                    Record<A> rec = ((RecordContainer) userObj).getRecord(genericPlaceholder);",
-        "779": "",
-        "913": "            FolderTreeNode newNode =",
-        "914": "                    new FolderTreeNode(new RecordContainer(remainingQueue.remove()));",
-        "531": "                        //System.err.println(\"  Value class: \" + colValue.getClass());",
-        "532": "                        if(colValue instanceof RecordContainer) {",
-        "533": "                            Record<A> rec = ((RecordContainer) colValue).getRecord(genericPlaceholder);",
-        "534": "                            if(rec.getType() == RecordType.FILE || rec.getType() == RecordType.FILE_LINK) {",
-        "666": "                if(curChild instanceof FolderTreeNode &&",
-        "667": "                        ((FolderTreeNode) curChild).getRecordContainer()",
-        "1084": "            Object o2 = ((DefaultMutableTreeNode) o).getUserObject();",
-        "1085": "            if(o2 instanceof RecordContainer) {"
-      },
-      "id": 100193178,
-      "filename": "FileSystemBrowser.java"
-    },
     {
       "repo": "https://github.com/minstrelsy/POI-Android.git",
       "language": "Java",
@@ -52,34 +23,22 @@
       "lines": {
         "32": "import org.apache.poi.hslf.record.Record;",
         "33": "import org.apache.poi.hslf.record.RecordContainer;",
-        "387": "    \tif(progTags != null) {",
-        "388": "    \t\tRecordContainer progBinaryTag = (RecordContainer)",
-        "392": "    \t\tif(progBinaryTag != null) {",
-        "393": "    \t\t\tRecordContainer binaryTags = (RecordContainer)",
-        "382": "    \t//  ProgTags -> ProgBinaryTag -> BinaryTagData",
-        "383": "    \tRecordContainer progTags = (RecordContainer)"
+        "34": "import org.apache.poi.hslf.record.RecordTypes;",
+        "35": "import org.apache.poi.hslf.record.SlideAtom;",
+        "36": "import org.apache.poi.hslf.record.TextHeaderAtom;",
+        "17": "",
+        "18": "package org.apache.poi.hslf.model;",
+        "24": "",
+        "25": "import org.apache.poi.ddf.EscherContainerRecord;",
+        "26": "import org.apache.poi.ddf.EscherDgRecord;",
+        "27": "import org.apache.poi.ddf.EscherDggRecord;",
+        "28": "import org.apache.poi.ddf.EscherSpRecord;",
+        "29": "import org.apache.poi.hslf.record.ColorSchemeAtom;",
+        "30": "import org.apache.poi.hslf.record.Comment2000;",
+        "31": "import org.apache.poi.hslf.record.HeadersFootersContainer;"
       },
       "id": 97394313,
       "filename": "Slide.java"
-    },
-    {
-      "repo": "https://github.com/minstrelsy/POI-Android.git",
-      "language": "Java",
-      "linescount": 465,
-      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
-      "name": "POI-Android",
-      "url": "https://searchcode.com/codesearch/view/97394323/",
-      "md5hash": "004c81d0c6f4e85beee2c12f2cad27b2",
-      "lines": {
-        "131": "            // propagate parents to parent-aware records",
-        "132": "            RecordContainer.handleParentAwareRecords(wrappers[i]);",
-        "441": "        String tag = null;",
-        "442": "        RecordContainer progTags = (RecordContainer)",
-        "446": "        if(progTags != null) {",
-        "447": "            RecordContainer progBinaryTag = (RecordContainer)"
-      },
-      "id": 97394323,
-      "filename": "Sheet.java"
     },
     {
       "repo": "https://github.com/minstrelsy/POI-Android.git",
@@ -90,68 +49,62 @@
       "url": "https://searchcode.com/codesearch/view/97394959/",
       "md5hash": "5d80afff23c354813b0c27bde8e947ac",
       "lines": {
-        "203": "\t\t\t\t\t\t\tPositionDependentRecordContainer pdrc = (PositionDependentRecordContainer) _records[i];",
-        "201": "\t\t\t\t\t\t// Tell it its Sheet ID, if it cares",
-        "104": "\t\tfor (Record record : _records) {",
-        "105": "\t\t\tif(record instanceof RecordContainer){",
-        "106": "                RecordContainer.handleParentAwareRecords((RecordContainer)record);",
-        "107": "            }",
-        "204": "\t\t\t\t\t\t\tpdrc.setSheetId(thisID.intValue());",
-        "202": "\t\t\t\t\t\tif (pdr instanceof PositionDependentRecordContainer) {"
+        "32": "import org.apache.poi.hslf.HSLFSlideShow;",
+        "33": "import org.apache.poi.hslf.exceptions.CorruptPowerPointFileException;",
+        "34": "import org.apache.poi.hslf.exceptions.HSLFException;",
+        "35": "import org.apache.poi.hslf.model.*;",
+        "36": "import org.apache.poi.hslf.model.Notes;",
+        "37": "import org.apache.poi.hslf.model.Slide;",
+        "38": "import org.apache.poi.hslf.record.*;",
+        "39": "import org.apache.poi.hslf.record.SlideListWithText.SlideAtomsSet;",
+        "17": "",
+        "18": "package org.apache.poi.hslf.usermodel;",
+        "27": "",
+        "28": "import org.apache.poi.ddf.EscherBSERecord;",
+        "29": "import org.apache.poi.ddf.EscherContainerRecord;",
+        "30": "import org.apache.poi.ddf.EscherOptRecord;",
+        "31": "import org.apache.poi.ddf.EscherRecord;"
       },
       "id": 97394959,
       "filename": "SlideShow.java"
     },
     {
-      "repo": "https://bitbucket.org/anthonysosso/gissystem.git",
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
       "language": "Java",
-      "linescount": 167,
-      "location": "/source/src/Indices/coordinate/client",
-      "name": "gissystem",
-      "url": "https://searchcode.com/codesearch/view/43080887/",
-      "md5hash": "c3b9e365b6c28bb2c68aa4e677da5204",
+      "linescount": 465,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394323/",
+      "md5hash": "004c81d0c6f4e85beee2c12f2cad27b2",
       "lines": {
-        "64": "\t\tCoordAndOffset recordContainer = new CoordAndOffset(record.getLongitudeInSeconds(),",
-        "65": "\t\t\t\trecord.getLatitudeInSeconds(), offset);",
-        "66": "\t\treturn this.quadTree.insert(recordContainer);",
-        "63": "\t\t// TODO Auto-generated method stub"
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "54": "     * for slide masters it is org.apache.poi.hslf.record.SlideMaster, etc.",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "55": "     */",
+        "17": "",
+        "18": "package org.apache.poi.hslf.model;",
+        "51": "     * Record container that holds sheet data.",
+        "52": "     * For slides it is org.apache.poi.hslf.record.Slide,",
+        "21": "",
+        "22": "import org.apache.poi.ddf.*;",
+        "23": "import org.apache.poi.hslf.record.*;",
+        "24": "import org.apache.poi.hslf.usermodel.SlideShow;",
+        "25": "",
+        "53": "     * for notes it is org.apache.poi.hslf.record.Notes,"
       },
-      "id": 43080887,
-      "filename": "CoordinateIndex.java"
-    },
-    {
-      "repo": "https://bitbucket.org/dakl/picard-tools",
-      "language": "Java",
-      "linescount": 1087,
-      "location": "/src/java/net/sf/picard/illumina",
-      "name": "picard-tools",
-      "url": "https://searchcode.com/codesearch/view/58424631/",
-      "md5hash": "828f5a5d27f2f9e7b0a2beab7f5d78ae",
-      "lines": {
-        "273": "                final String barcode = cluster.getMatchedBarcode();",
-        "274": "                converter.createSamRecords(cluster, null, recordContainer);",
-        "275": "                readProgressLogger.record(recordContainer);",
-        "276": "                this.processingRecord.addRecord(barcode, recordContainer);",
-        "277": "            }",
-        "266": "            final IlluminaDataProvider dataProvider = factory.makeDataProvider(Arrays.asList(this.tile.getNumber()));",
-        "267": "            final SAMRecord[] recordContainer = new SAMRecord[converter.getNumRecordsPerCluster()];"
-      },
-      "id": 58424631,
-      "filename": "IlluminaBasecallsToSam.java"
+      "id": 97394323,
+      "filename": "Sheet.java"
     }
   ],
   "page": 0,
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 4,
+      "count": 3,
       "source": "Github",
       "id": 2
-    },
-    {
-      "count": 2,
-      "source": "Bitbucket",
-      "id": 3
     }
   ]
 }

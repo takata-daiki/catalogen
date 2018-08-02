@@ -1,8 +1,8 @@
 {
-  "matchterm": "SmallBlockTableWriter",
+  "matchterm": "org.apache.poi.poifs.storage.SmallBlockTableWriter",
   "previouspage": null,
-  "searchterm": "SmallBlockTableWriter",
-  "query": "SmallBlockTableWriter",
+  "searchterm": "org.apache.poi.poifs.storage.SmallBlockTableWriter",
+  "query": "org.apache.poi.poifs.storage.SmallBlockTableWriter",
   "language_filters": [
     {
       "count": 3,
@@ -13,23 +13,6 @@
   "total": 3,
   "results": [
     {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 175,
-      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642264/",
-      "md5hash": "cf01af29ac515ba6e90066ff6f3822e7",
-      "lines": {
-        "73": "",
-        "58": "",
-        "59": "public class SmallBlockTableWriter",
-        "74": "    public SmallBlockTableWriter(final List documents,"
-      },
-      "id": 15642264,
-      "filename": "SmallBlockTableWriter.java"
-    },
-    {
       "repo": "https://github.com/minstrelsy/POI-Android.git",
       "language": "Java",
       "linescount": 615,
@@ -38,12 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97397929/",
       "md5hash": "5083d727a84f9c004bece7393d2ae9b8",
       "lines": {
-        "304": "        // create the small block store, and the SBAT",
-        "305": "        SmallBlockTableWriter      sbtw       =",
-        "50": "import org.apache.poi.poifs.storage.SmallBlockTableReader;",
-        "51": "import org.apache.poi.poifs.storage.SmallBlockTableWriter;",
-        "307": "",
-        "306": "            new SmallBlockTableWriter(bigBlockSize, _documents, _property_table.getRoot());"
+        "34": "",
+        "35": "import org.apache.poi.poifs.common.POIFSBigBlockSize;",
+        "36": "import org.apache.poi.poifs.common.POIFSConstants;",
+        "37": "import org.apache.poi.poifs.dev.POIFSViewable;",
+        "38": "import org.apache.poi.poifs.property.DirectoryProperty;",
+        "39": "import org.apache.poi.poifs.property.Property;",
+        "40": "import org.apache.poi.poifs.property.PropertyTable;",
+        "41": "import org.apache.poi.poifs.storage.BATBlock;",
+        "42": "import org.apache.poi.poifs.storage.BlockAllocationTableReader;",
+        "43": "import org.apache.poi.poifs.storage.BlockAllocationTableWriter;",
+        "44": "import org.apache.poi.poifs.storage.BlockList;",
+        "45": "import org.apache.poi.poifs.storage.BlockWritable;",
+        "46": "import org.apache.poi.poifs.storage.HeaderBlockConstants;",
+        "19": "",
+        "20": "package org.apache.poi.poifs.filesystem;"
       },
       "id": 97397929,
       "filename": "POIFSFileSystem.java"
@@ -57,15 +49,52 @@
       "url": "https://searchcode.com/codesearch/view/15642276/",
       "md5hash": "821ddc8beda41ba4d7ad809592451995",
       "lines": {
-        "65": "import loci.poi.poifs.storage.SmallBlockTableReader;",
-        "66": "import loci.poi.poifs.storage.SmallBlockTableWriter;",
-        "214": "        // create the small block store, and the SBAT",
-        "215": "        SmallBlockTableWriter      sbtw       =",
-        "216": "            new SmallBlockTableWriter(_documents, _property_table.getRoot());",
-        "217": ""
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.poifs.filesystem;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "49": "",
+        "50": "import loci.poi.poifs.common.POIFSConstants;",
+        "51": "import loci.poi.poifs.dev.POIFSViewable;",
+        "55": "import loci.poi.poifs.property.PropertyTable;",
+        "56": "import loci.poi.poifs.storage.BATBlock;",
+        "57": "import loci.poi.poifs.storage.BlockAllocationTableReader;",
+        "58": "import loci.poi.poifs.storage.BlockAllocationTableWriter;",
+        "31": ""
       },
       "id": 15642276,
       "filename": "POIFSFileSystem.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 175,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642264/",
+      "md5hash": "cf01af29ac515ba6e90066ff6f3822e7",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.poifs.storage;",
+        "43": "",
+        "44": "import loci.poi.poifs.filesystem.BATManaged;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import loci.poi.poifs.filesystem.POIFSDocument;",
+        "46": "import loci.poi.poifs.property.RootProperty;",
+        "55": " *",
+        "56": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "47": "",
+        "31": ""
+      },
+      "id": 15642264,
+      "filename": "SmallBlockTableWriter.java"
     }
   ],
   "page": 0,

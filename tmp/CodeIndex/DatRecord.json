@@ -1,8 +1,8 @@
 {
-  "matchterm": "DatRecord",
+  "matchterm": "org.apache.poi.hssf.record.chart.DatRecord",
   "previouspage": null,
-  "searchterm": "DatRecord",
-  "query": "DatRecord",
+  "searchterm": "org.apache.poi.hssf.record.chart.DatRecord",
+  "query": "org.apache.poi.hssf.record.chart.DatRecord",
   "language_filters": [
     {
       "count": 1,
@@ -21,14 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/15642414/",
       "md5hash": "4b601835353301cde8aa8c47cccf88de",
       "lines": {
-        "144": "    public Object clone() {",
-        "65": "",
-        "66": "    public DatRecord()",
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.record;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "48": "/**",
+        "49": " * The dat record is used to store options for the chart.",
+        "50": " * NOTE: This source is automatically generated please do not modify this file.  Either subclass or",
+        "52": "",
+        "53": " * @author Glen Stampoultzis (glens at apache.org)",
         "54": " */",
         "55": "public class DatRecord",
-        "145": "        DatRecord rec = new DatRecord();",
-        "76": "",
-        "77": "    public DatRecord(RecordInputStream in)"
+        "56": "    extends Record",
+        "31": ""
       },
       "id": 15642414,
       "filename": "DatRecord.java"

@@ -1,8 +1,8 @@
 {
-  "matchterm": "UnhandledDataStructure",
+  "matchterm": "org.apache.poi.hwpf.model.UnhandledDataStructure",
   "previouspage": null,
-  "searchterm": "UnhandledDataStructure",
-  "query": "UnhandledDataStructure",
+  "searchterm": "org.apache.poi.hwpf.model.UnhandledDataStructure",
+  "query": "org.apache.poi.hwpf.model.UnhandledDataStructure",
   "language_filters": [
     {
       "count": 2,
@@ -21,14 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97384003/",
       "md5hash": "2f26962a9383030e63d5ec81359d7573",
       "lines": {
-        "178": "          {",
-        "179": "            UnhandledDataStructure unhandled = new UnhandledDataStructure(",
-        "228": "    {",
-        "229": "      UnhandledDataStructure ds = _unknownMap.get(Integer.valueOf(x));",
-        "150": "",
-        "151": "  private Map<Integer, UnhandledDataStructure> _unknownMap = new HashMap<Integer, UnhandledDataStructure>();",
-        "296": "            UnhandledDataStructure structure = _unknownMap.get( Integer",
-        "295": ""
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hwpf.model;",
+        "25": "",
+        "26": "import org.apache.poi.hwpf.model.io.HWPFOutputStream;",
+        "27": "import org.apache.poi.util.Internal;",
+        "28": "import org.apache.poi.util.LittleEndian;",
+        "29": "import org.apache.poi.util.POILogFactory;",
+        "30": "import org.apache.poi.util.POILogger;",
+        "31": ""
       },
       "id": 97384003,
       "filename": "FIBFieldHandler.java"
@@ -42,10 +49,21 @@
       "url": "https://searchcode.com/codesearch/view/97384033/",
       "md5hash": "d1e2f02dc9ef99107ca7326905a58d39",
       "lines": {
-        "220": "        /*",
-        "221": "         * Listed fields won't be treat as UnhandledDataStructure. For all other",
-        "222": "         * fields FIBFieldHandler will load it content into",
-        "223": "         * UnhandledDataStructure and save them on save."
+        "32": "",
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hwpf.model;",
+        "24": "",
+        "25": "import org.apache.poi.EncryptedDocumentException;",
+        "26": "",
+        "27": "import org.apache.poi.hwpf.model.io.HWPFOutputStream;",
+        "28": "import org.apache.poi.util.Internal;",
+        "29": "import org.apache.poi.util.LittleEndian;",
+        "30": "import org.apache.poi.util.POILogFactory;",
+        "31": "import org.apache.poi.util.POILogger;"
       },
       "id": 97384033,
       "filename": "FileInformationBlock.java"

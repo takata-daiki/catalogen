@@ -1,87 +1,17 @@
 {
-  "matchterm": "UseSelFSRecord",
+  "matchterm": "org.apache.poi.hssf.record.UseSelFSRecord",
   "previouspage": null,
-  "searchterm": "UseSelFSRecord",
-  "query": "UseSelFSRecord",
+  "searchterm": "org.apache.poi.hssf.record.UseSelFSRecord",
+  "query": "org.apache.poi.hssf.record.UseSelFSRecord",
   "language_filters": [
     {
-      "count": 11,
+      "count": 4,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 11,
+  "total": 4,
   "results": [
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 146,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642454/",
-      "md5hash": "8fe53586b54590a46e10a26b431ea8b7",
-      "lines": {
-        "54": "",
-        "71": "",
-        "72": "    public UseSelFSRecord(RecordInputStream in)",
-        "55": "public class UseSelFSRecord",
-        "62": "",
-        "63": "    public UseSelFSRecord()"
-      },
-      "id": 15642454,
-      "filename": "UseSelFSRecord.java"
-    },
-    {
-      "repo": "https://bitbucket.org/openesb/openesb-components.git",
-      "language": "Java",
-      "linescount": 67,
-      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
-      "name": "openesb-components",
-      "url": "https://searchcode.com/codesearch/view/43260278/",
-      "md5hash": "53d02e48235a601e9832571427931095",
-      "lines": {
-        "42": "   */",
-        "43": "  public UsesElfsRecord()",
-        "28": " */",
-        "29": "class UsesElfsRecord extends WritableRecordData"
-      },
-      "id": 43260278,
-      "filename": "UsesElfsRecord.java"
-    },
-    {
-      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
-      "language": "Java",
-      "linescount": 67,
-      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
-      "name": "openesb-components",
-      "url": "https://searchcode.com/codesearch/view/49200806/",
-      "md5hash": "53d02e48235a601e9832571427931095",
-      "lines": {
-        "42": "   */",
-        "43": "  public UsesElfsRecord()",
-        "28": " */",
-        "29": "class UsesElfsRecord extends WritableRecordData"
-      },
-      "id": 49200806,
-      "filename": "UsesElfsRecord.java"
-    },
-    {
-      "repo": "http://cellengine.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 67,
-      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/write/biff",
-      "name": "cellengine",
-      "url": "https://searchcode.com/codesearch/view/11374560/",
-      "md5hash": "3a1ad53f2009423efc30262f1bb30bc0",
-      "lines": {
-        "42": "   */",
-        "43": "  public UsesElfsRecord()",
-        "28": " */",
-        "29": "class UsesElfsRecord extends WritableRecordData"
-      },
-      "id": 11374560,
-      "filename": "UsesElfsRecord.java"
-    },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
       "language": "Java",
@@ -91,75 +21,25 @@
       "url": "https://searchcode.com/codesearch/view/15642358/",
       "md5hash": "2f47d8e4aa73ffbba0d056d2a6f68eee",
       "lines": {
-        "1697": "     * Creates the UseSelFS object with the use natural language flag set to 0 (false)",
-        "1698": "     * @return record containing a UseSelFSRecord",
-        "1699": "     * @see loci.poi.hssf.record.UseSelFSRecord",
-        "1700": "     * @see loci.poi.hssf.record.Record",
-        "1703": "    protected Record createUseSelFS() {",
-        "1704": "        UseSelFSRecord retval = new UseSelFSRecord();"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.model;",
+        "43": "",
+        "44": "import loci.poi.ddf.*;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import loci.poi.hssf.record.*;",
+        "48": "import loci.poi.util.POILogFactory;",
+        "46": "import loci.poi.hssf.util.HSSFColor;",
+        "9": " * %%",
+        "47": "import loci.poi.hssf.util.SheetReferences;",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "31": ""
       },
       "id": 15642358,
       "filename": "Workbook.java"
-    },
-    {
-      "repo": "https://bitbucket.org/openesb/openesb-components.git",
-      "language": "Java",
-      "linescount": 1870,
-      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
-      "name": "openesb-components",
-      "url": "https://searchcode.com/codesearch/view/43260266/",
-      "md5hash": "7cf7f2ed2e9a9ecf9aeb7a31626a4cb3",
-      "lines": {
-        "805": "    // Write out the uses elfs record",
-        "806": "    UsesElfsRecord uer = new UsesElfsRecord();"
-      },
-      "id": 43260266,
-      "filename": "WritableWorkbookImpl.java"
-    },
-    {
-      "repo": "https://bitbucket.org/brasseld/openesb-components.git",
-      "language": "Java",
-      "linescount": 1870,
-      "location": "/ojc-core/component-common/axiondb/external/src/jxl/write/biff",
-      "name": "openesb-components",
-      "url": "https://searchcode.com/codesearch/view/49200794/",
-      "md5hash": "7cf7f2ed2e9a9ecf9aeb7a31626a4cb3",
-      "lines": {
-        "805": "    // Write out the uses elfs record",
-        "806": "    UsesElfsRecord uer = new UsesElfsRecord();"
-      },
-      "id": 49200794,
-      "filename": "WritableWorkbookImpl.java"
-    },
-    {
-      "repo": "http://cellengine.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 1870,
-      "location": "/engine_java/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src/jxl/write/biff",
-      "name": "cellengine",
-      "url": "https://searchcode.com/codesearch/view/11374615/",
-      "md5hash": "eeb7fb5f28e170de50ae99417e46e6f4",
-      "lines": {
-        "805": "    // Write out the uses elfs record",
-        "806": "    UsesElfsRecord uer = new UsesElfsRecord();"
-      },
-      "id": 11374615,
-      "filename": "WritableWorkbookImpl.java"
-    },
-    {
-      "repo": "http://brainstream.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 1908,
-      "location": "/trunk/core/ReadExperimentDefinition/java/jexcelapi/src/jxl/write/biff",
-      "name": "brainstream",
-      "url": "https://searchcode.com/codesearch/view/13919798/",
-      "md5hash": "1b180ce870b12583c0822f5205cc43e8",
-      "lines": {
-        "832": "    // Write out the uses elfs record",
-        "833": "    UsesElfsRecord uer = new UsesElfsRecord();"
-      },
-      "id": 13919798,
-      "filename": "WritableWorkbookImpl.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -170,13 +50,54 @@
       "url": "https://searchcode.com/codesearch/view/15642343/",
       "md5hash": "468caa59753e7c2d27a76f3903f70894",
       "lines": {
-        "123": "import loci.poi.hssf.record.UnknownRecord;",
-        "124": "import loci.poi.hssf.record.UseSelFSRecord;",
-        "166": "                FontRecord.class, FormatRecord.class, ExtendedFormatRecord.class,",
-        "167": "                StyleRecord.class, UseSelFSRecord.class, BoundSheetRecord.class,"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "50": "",
+        "51": "import loci.poi.hssf.record.BOFRecord;",
+        "52": "import loci.poi.hssf.record.BackupRecord;",
+        "53": "import loci.poi.hssf.record.BlankRecord;",
+        "54": "import loci.poi.hssf.record.BookBoolRecord;",
+        "55": "import loci.poi.hssf.record.BoolErrRecord;",
+        "56": "import loci.poi.hssf.record.BottomMarginRecord;",
+        "57": "import loci.poi.hssf.record.BoundSheetRecord;",
+        "58": "import loci.poi.hssf.record.CalcCountRecord;",
+        "59": "import loci.poi.hssf.record.CalcModeRecord;",
+        "31": ""
       },
       "id": 15642343,
       "filename": "EventRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 146,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642454/",
+      "md5hash": "8fe53586b54590a46e10a26b431ea8b7",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.record;",
+        "43": "",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "50": " * REFERENCE:  PG 420 Microsoft Excel 97 Developer's Kit (ISBN: 1-57231-498-2)<P>",
+        "51": " * @author Andrew C. Oliver (acoliver at apache dot org)",
+        "54": "",
+        "55": "public class UseSelFSRecord",
+        "56": "    extends Record",
+        "63": "    public UseSelFSRecord()",
+        "62": "",
+        "31": ""
+      },
+      "id": 15642454,
+      "filename": "UseSelFSRecord.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -187,8 +108,21 @@
       "url": "https://searchcode.com/codesearch/view/15642481/",
       "md5hash": "3a96eda8fddbdf5ee7f2d333771bc3be",
       "lines": {
-        "76": "                FontRecord.class, FormatRecord.class, ExtendedFormatRecord.class,",
-        "77": "                StyleRecord.class, UseSelFSRecord.class, BoundSheetRecord.class,"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.record;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "51": " *",
+        "52": " * @deprecated use {@link loci.poi.hssf.eventmodel.EventRecordFactory} instead",
+        "53": " * @see loci.poi.hssf.eventmodel.EventRecordFactory",
+        "54": " * @author Andrew C. Oliver (acoliver at apache dot org)",
+        "55": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "56": " * @author Glen Stampoultzis (glens at apache.org)",
+        "57": " * @author Csaba Nagy (ncsaba at yahoo dot com)",
+        "31": ""
       },
       "id": 15642481,
       "filename": "RecordFactory.java"
@@ -199,18 +133,8 @@
   "source_filters": [
     {
       "count": 4,
-      "source": "Bitbucket",
-      "id": 3
-    },
-    {
-      "count": 4,
       "source": "Github",
       "id": 2
-    },
-    {
-      "count": 3,
-      "source": "Google Code",
-      "id": 1
     }
   ]
 }

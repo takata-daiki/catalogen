@@ -1,8 +1,8 @@
 {
-  "matchterm": "CharacterSprmUncompressor",
+  "matchterm": "org.apache.poi.hwpf.sprm.CharacterSprmUncompressor",
   "previouspage": null,
-  "searchterm": "CharacterSprmUncompressor",
-  "query": "CharacterSprmUncompressor",
+  "searchterm": "org.apache.poi.hwpf.sprm.CharacterSprmUncompressor",
+  "query": "org.apache.poi.hwpf.sprm.CharacterSprmUncompressor",
   "language_filters": [
     {
       "count": 3,
@@ -15,25 +15,6 @@
     {
       "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
       "language": "Java",
-      "linescount": 760,
-      "location": "/src/org/apache/poi/hwpf/sprm",
-      "name": "SimpleAndroidDocView",
-      "url": "https://searchcode.com/codesearch/view/97384370/",
-      "md5hash": "ad7ef563bd5c85239b2ca09f401501f5",
-      "lines": {
-        "34": "@Internal",
-        "35": "public final class CharacterSprmUncompressor extends SprmUncompressor",
-        "37": "    private static final POILogger logger = POILogFactory",
-        "38": "            .getLogger( CharacterSprmUncompressor.class );",
-        "39": "",
-        "40": "  public CharacterSprmUncompressor()"
-      },
-      "id": 97384370,
-      "filename": "CharacterSprmUncompressor.java"
-    },
-    {
-      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
-      "language": "Java",
       "linescount": 405,
       "location": "/src/org/apache/poi/hwpf/model",
       "name": "SimpleAndroidDocView",
@@ -41,9 +22,20 @@
       "md5hash": "77aa9fdbea42509b8b2733de8923350a",
       "lines": {
         "288": "          chp = CharacterSprmUncompressor.uncompressCHP(parentCHP, chpx, 0);",
-        "287": "",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hwpf.model;",
+        "21": "",
         "22": "import org.apache.poi.hwpf.model.io.HWPFOutputStream;",
-        "23": "import org.apache.poi.hwpf.sprm.CharacterSprmUncompressor;"
+        "23": "import org.apache.poi.hwpf.sprm.CharacterSprmUncompressor;",
+        "24": "import org.apache.poi.hwpf.sprm.ParagraphSprmUncompressor;",
+        "25": "import org.apache.poi.hwpf.usermodel.CharacterProperties;",
+        "26": "import org.apache.poi.hwpf.usermodel.ParagraphProperties;",
+        "27": "import org.apache.poi.util.Internal;",
+        "28": "import org.apache.poi.util.LittleEndian;",
+        "29": "",
+        "287": ""
       },
       "id": 97384100,
       "filename": "StyleSheet.java"
@@ -57,13 +49,53 @@
       "url": "https://searchcode.com/codesearch/view/97384232/",
       "md5hash": "1aadd3e43cb66ebb7fbcad67946b426b",
       "lines": {
-        "75": "        CharacterProperties props = CharacterSprmUncompressor.uncompressCHP(",
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
         "74": "        CharacterProperties baseStyle = ss.getCharacterStyle( istd );",
+        "75": "        CharacterProperties props = CharacterSprmUncompressor.uncompressCHP(",
+        "17": "",
+        "18": "package org.apache.poi.hwpf.model;",
         "19": "",
-        "20": "import org.apache.poi.hwpf.sprm.CharacterSprmUncompressor;"
+        "20": "import org.apache.poi.hwpf.sprm.CharacterSprmUncompressor;",
+        "21": "import org.apache.poi.hwpf.sprm.SprmBuffer;",
+        "22": "import org.apache.poi.hwpf.usermodel.CharacterProperties;",
+        "23": "import org.apache.poi.util.Internal;",
+        "24": ""
       },
       "id": 97384232,
       "filename": "CHPX.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 760,
+      "location": "/src/org/apache/poi/hwpf/sprm",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384370/",
+      "md5hash": "ad7ef563bd5c85239b2ca09f401501f5",
+      "lines": {
+        "17": "",
+        "18": "package org.apache.poi.hwpf.sprm;",
+        "19": "",
+        "20": "import org.apache.poi.hwpf.usermodel.ShadingDescriptor80;",
+        "21": "",
+        "22": "import org.apache.poi.hwpf.model.Colorref;",
+        "23": "import org.apache.poi.hwpf.model.Hyphenation;",
+        "24": "import org.apache.poi.hwpf.model.StyleSheet;",
+        "25": "import org.apache.poi.hwpf.usermodel.BorderCode;",
+        "26": "import org.apache.poi.hwpf.usermodel.CharacterProperties;",
+        "27": "import org.apache.poi.hwpf.usermodel.DateAndTime;",
+        "28": "import org.apache.poi.hwpf.usermodel.ShadingDescriptor;",
+        "29": "import org.apache.poi.util.Internal;",
+        "30": "import org.apache.poi.util.LittleEndian;",
+        "31": "import org.apache.poi.util.POILogFactory;"
+      },
+      "id": 97384370,
+      "filename": "CharacterSprmUncompressor.java"
     }
   ],
   "page": 0,

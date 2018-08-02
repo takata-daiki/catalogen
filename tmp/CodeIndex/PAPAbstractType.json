@@ -1,8 +1,8 @@
 {
-  "matchterm": "PAPAbstractType",
+  "matchterm": "org.apache.poi.hwpf.model.types.PAPAbstractType",
   "previouspage": null,
-  "searchterm": "PAPAbstractType",
-  "query": "PAPAbstractType",
+  "searchterm": "org.apache.poi.hwpf.model.types.PAPAbstractType",
+  "query": "org.apache.poi.hwpf.model.types.PAPAbstractType",
   "language_filters": [
     {
       "count": 1,
@@ -21,10 +21,22 @@
       "url": "https://searchcode.com/codesearch/view/97384338/",
       "md5hash": "2efbe2193578055560aa9b1a50dfe60f",
       "lines": {
-        "144": "    protected PAPAbstractType()",
-        "41": "@Internal",
-        "42": "public abstract class PAPAbstractType",
-        "143": ""
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hwpf.model.types;",
+        "20": "",
+        "21": "import org.apache.poi.hwpf.model.TabDescriptor;",
+        "22": "import org.apache.poi.hwpf.usermodel.BorderCode;",
+        "23": "import org.apache.poi.hwpf.usermodel.DateAndTime;",
+        "24": "import org.apache.poi.hwpf.usermodel.DropCapSpecifier;",
+        "25": "import org.apache.poi.hwpf.usermodel.LineSpacingDescriptor;",
+        "26": "import org.apache.poi.hwpf.usermodel.ShadingDescriptor;",
+        "27": "import org.apache.poi.util.BitField;",
+        "28": "import org.apache.poi.util.Internal;",
+        "29": ""
       },
       "id": 97384338,
       "filename": "PAPAbstractType.java"

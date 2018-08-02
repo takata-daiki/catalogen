@@ -1,439 +1,81 @@
 {
-  "matchterm": "Decryptor",
+  "matchterm": "org.apache.poi.poifs.crypt.Decryptor",
   "previouspage": null,
-  "searchterm": "Decryptor",
-  "query": "Decryptor",
+  "searchterm": "org.apache.poi.poifs.crypt.Decryptor",
+  "query": "org.apache.poi.poifs.crypt.Decryptor",
   "language_filters": [
     {
-      "count": 165,
+      "count": 2,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 165,
+  "total": 2,
   "results": [
     {
-      "repo": "git://github.com/apache/hadoop-common.git",
+      "repo": "https://github.com/solsson/tika.git",
       "language": "Java",
-      "linescount": 73,
-      "location": "/hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/crypto",
-      "name": "hadoop-common",
-      "url": "https://searchcode.com/codesearch/view/116080434/",
-      "md5hash": "94f7d2be6cd8443bf85581c23fc3e502",
+      "linescount": 252,
+      "location": "/tika-parsers/src/main/java/org/apache/tika/parser/microsoft",
+      "name": "tika",
+      "url": "https://searchcode.com/codesearch/view/111785560/",
+      "md5hash": "3a2a0badbeb8b43e9095f9f8eb316b46",
       "lines": {
-        "43": "   * position in the stream. Generally, the decryptor maintains any necessary",
-        "42": "   * Certain modes, like CTR, require a different IV depending on the ",
-        "27": "@InterfaceStability.Evolving",
-        "28": "public interface Decryptor {",
-        "30": "  /**",
-        "31": "   * Initialize the decryptor and the internal decryption context. "
+        "32": "import org.apache.poi.poifs.crypt.EncryptionInfo;",
+        "33": "import org.apache.poi.poifs.filesystem.DirectoryEntry;",
+        "34": "import org.apache.poi.poifs.filesystem.Entry;",
+        "35": "import org.apache.poi.poifs.filesystem.POIFSFileSystem;",
+        "36": "import org.apache.tika.exception.TikaException;",
+        "37": "import org.apache.tika.io.TikaInputStream;",
+        "38": "import org.apache.tika.metadata.Metadata;",
+        "39": "import org.apache.tika.mime.MediaType;",
+        "8": " *",
+        "9": " *     http://www.apache.org/licenses/LICENSE-2.0",
+        "27": "",
+        "28": "import org.apache.poi.hdgf.extractor.VisioTextExtractor;",
+        "29": "import org.apache.poi.hpbf.extractor.PublisherTextExtractor;",
+        "30": "import org.apache.poi.hslf.extractor.PowerPointExtractor;",
+        "31": "import org.apache.poi.poifs.crypt.Decryptor;"
       },
-      "id": 116080434,
-      "filename": "Decryptor.java"
+      "id": 111785560,
+      "filename": "OfficeParser.java"
     },
     {
-      "repo": "https://github.com/santoshpavate/Cipher-Texts.git",
+      "repo": "git://github.com/plutext/docx4j.git",
       "language": "Java",
-      "linescount": 97,
-      "location": "/CipherText/src/com/ciphertext/decrypt",
-      "name": "Cipher-Texts",
-      "url": "https://searchcode.com/codesearch/view/99858742/",
-      "md5hash": "3d9d60db1127377fc3f6cc51e02e31d9",
+      "linescount": 516,
+      "location": "/src/main/java/org/docx4j/openpackaging/packages",
+      "name": "docx4j",
+      "url": "https://searchcode.com/codesearch/view/17641558/",
+      "md5hash": "3f8868d5ac92f6dc75251dae171fbe98",
       "lines": {
-        "44": "",
+        "11": "        http://www.apache.org/licenses/LICENSE-2.0 ",
         "5": "",
-        "6": "public class Decryptor implements CipherInterface {",
-        "45": "\tpublic Decryptor(StringIO input) {"
-      },
-      "id": 99858742,
-      "filename": "Decryptor.java"
-    },
-    {
-      "repo": "https://bitbucket.org/vladimir_dyuzhev/recover-weblogic-password",
-      "language": "Java",
-      "linescount": 123,
-      "location": "/src/com/recoverweblogicpassword/server",
-      "name": "recover-weblogic-password",
-      "url": "https://searchcode.com/codesearch/view/103196204/",
-      "md5hash": "7e4f61555355e405a7dcd455212de1be",
-      "lines": {
+        "6": "    docx4j is licensed under the Apache License, Version 2.0 (the \"License\"); ",
+        "40": "",
+        "41": "import org.apache.log4j.Logger;",
         "10": "",
-        "11": "public class Decryptor {",
-        "12": "\tprivate static final Logger log = Logger.getLogger(Decryptor.class.getName());",
-        "13": "\t"
+        "43": "import org.apache.poi.poifs.crypt.EncryptionInfo;",
+        "44": "import org.apache.poi.poifs.filesystem.POIFSFileSystem;",
+        "45": "import org.docx4j.convert.out.flatOpcXml.FlatOpcXmlCreator;",
+        "46": "import org.docx4j.jaxb.Context;",
+        "47": "import org.docx4j.jaxb.NamespacePrefixMapperUtils;",
+        "48": "import org.docx4j.openpackaging.Base;",
+        "49": "import org.docx4j.openpackaging.contenttype.ContentTypeManager;",
+        "50": "import org.docx4j.openpackaging.exceptions.Docx4JException;",
+        "42": "import org.apache.poi.poifs.crypt.Decryptor;"
       },
-      "id": 103196204,
-      "filename": "Decryptor.java"
-    },
-    {
-      "repo": "https://github.com/taimon/NearInfinity.git",
-      "language": "Java",
-      "linescount": 32,
-      "location": "/infinity/util",
-      "name": "NearInfinity",
-      "url": "https://searchcode.com/codesearch/view/105472390/",
-      "md5hash": "c0d52447490dc769e5599bcd15faaab4",
-      "lines": {
-        "28": "",
-        "29": "  private Decryptor(){}",
-        "6": "",
-        "7": "public final class Decryptor"
-      },
-      "id": 105472390,
-      "filename": "Decryptor.java"
-    },
-    {
-      "repo": "http://evemanage.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 96,
-      "location": "/shared/src/main/java/lv/odylab/evemanage/shared/eve",
-      "name": "evemanage",
-      "url": "https://searchcode.com/codesearch/view/10587298/",
-      "md5hash": "6773c7ce636976f4afec7ee59247da6b",
-      "lines": {
-        "40": "    private Decryptor(Long typeID, Long categoryID, String name, String probabilityMultiplier, Integer maxRunModifier, Integer meModifier, Integer peModifier) {",
-        "9": " */",
-        "10": "public enum Decryptor {",
-        "39": ""
-      },
-      "id": 10587298,
-      "filename": "Decryptor.java"
-    },
-    {
-      "repo": "https://bitbucket.org/bdsatish/cryptoppm.git",
-      "language": "Java",
-      "linescount": 48,
-      "location": "/cryptoppm",
-      "name": "cryptoppm",
-      "url": "https://searchcode.com/codesearch/view/35740937/",
-      "md5hash": "169a668c224997794dcc1e640da0e9fa",
-      "lines": {
-        "16": "  ",
-        "9": "",
-        "10": "public class Decryptor {",
-        "17": "  public Decryptor(SecretKey secretKey, byte[] iv) {"
-      },
-      "id": 35740937,
-      "filename": "Decryptor.java"
-    },
-    {
-      "repo": "https://bitbucket.org/jinna/cs-288-homeworks",
-      "language": "Java",
-      "linescount": 167,
-      "location": "/src/edu/berkeley/nlp/assignments",
-      "name": "cs-288-homeworks",
-      "url": "https://searchcode.com/codesearch/view/55535612/",
-      "md5hash": "81ccaee9f80641b549fae0585fc489b4",
-      "lines": {
-        "17": "",
-        "18": "public class Decryptor {"
-      },
-      "id": 55535612,
-      "filename": "Decryptor.java"
-    },
-    {
-      "repo": "git://github.com/apache/hbase.git",
-      "language": "Java",
-      "linescount": 68,
-      "location": "/hbase-common/src/main/java/org/apache/hadoop/hbase/io/crypto",
-      "name": "hbase",
-      "url": "https://searchcode.com/codesearch/view/116069523/",
-      "md5hash": "94fa68e6104bddcdf2091d427fa506f8",
-      "lines": {
-        "26": "/**",
-        "27": " * Decryptors apply a cipher to an InputStream to recover plaintext.",
-        "30": "@InterfaceStability.Evolving",
-        "31": "public interface Decryptor {"
-      },
-      "id": 116069523,
-      "filename": "Decryptor.java"
-    },
-    {
-      "repo": "https://github.com/haoyuan/hbase.git",
-      "language": "Java",
-      "linescount": 62,
-      "location": "/hbase-common/src/main/java/org/apache/hadoop/hbase/io/crypto",
-      "name": "hbase",
-      "url": "https://searchcode.com/codesearch/view/94573269/",
-      "md5hash": "39373291d8ad721643decb00c46afd10",
-      "lines": {
-        "26": "/**",
-        "27": " * Decryptors apply a cipher to an InputStream to recover plaintext.",
-        "30": "@InterfaceStability.Evolving",
-        "31": "public interface Decryptor {"
-      },
-      "id": 94573269,
-      "filename": "Decryptor.java"
-    },
-    {
-      "repo": "https://bitbucket.org/miquelhardyo/openheroes.git",
-      "language": "Java",
-      "linescount": 80,
-      "location": "/Encryption",
-      "name": "openheroes",
-      "url": "https://searchcode.com/codesearch/view/38945816/",
-      "md5hash": "58f0090083f695f8a9e0cdf7e6689171",
-      "lines": {
-        "9": "",
-        "10": "public class Decryptor {"
-      },
-      "id": 38945816,
-      "filename": "Decryptor.java"
-    },
-    {
-      "repo": "https://bitbucket.org/Gypsies/openheroes.git",
-      "language": "Java",
-      "linescount": 80,
-      "location": "/Encryption",
-      "name": "openheroes",
-      "url": "https://searchcode.com/codesearch/view/43346410/",
-      "md5hash": "58f0090083f695f8a9e0cdf7e6689171",
-      "lines": {
-        "9": "",
-        "10": "public class Decryptor {"
-      },
-      "id": 43346410,
-      "filename": "Decryptor.java"
-    },
-    {
-      "repo": "https://bitbucket.org/tteadrous30minutenmaileu/wtf.git",
-      "language": "Java",
-      "linescount": 80,
-      "location": "/Encryption",
-      "name": "wtf",
-      "url": "https://searchcode.com/codesearch/view/47190325/",
-      "md5hash": "58f0090083f695f8a9e0cdf7e6689171",
-      "lines": {
-        "9": "",
-        "10": "public class Decryptor {"
-      },
-      "id": 47190325,
-      "filename": "Decryptor.java"
-    },
-    {
-      "repo": "https://github.com/dstendardi/flume.git",
-      "language": "Java",
-      "linescount": 345,
-      "location": "/flume-ng-channels/flume-file-channel/src/main/java/org/apache/flume/channel/file",
-      "name": "flume",
-      "url": "https://searchcode.com/codesearch/view/73814811/",
-      "md5hash": "fd3a62bfb7d1805e4eb6307a2457874d",
-      "lines": {
-        "290": "  static class SequentialReader extends LogFile.SequentialReader {",
-        "291": "    private CipherProvider.Decryptor decryptor;",
-        "335": "      byte[] buffer = readDelimitedBuffer(getFileHandle());",
-        "270": "      byte[] buffer = readDelimitedBuffer(fileHandle);",
-        "271": "      CipherProvider.Decryptor decryptor = null;",
-        "336": "      if(decryptor != null) {",
-        "274": "        if(encryptionEnabled) {",
-        "275": "          decryptor = getDecryptor();",
-        "276": "          buffer = decryptor.decrypt(buffer);",
-        "277": "        }",
-        "312": "          Key key = getKeyProvider().getKey(encryption.getKeyAlias());",
-        "313": "          decryptor = CipherProviderFactory.",
-        "282": "      } finally {",
-        "283": "        if(success && encryptionEnabled && decryptor != null) {",
-        "284": "          decryptors.offer(decryptor);",
-        "285": "        }"
-      },
-      "id": 73814811,
-      "filename": "LogFileV3.java"
-    },
-    {
-      "repo": "https://github.com/dstendardi/flume.git",
-      "language": "Java",
-      "linescount": 70,
-      "location": "/flume-ng-channels/flume-file-channel/src/test/java/org/apache/flume/channel/file/encryption",
-      "name": "flume",
-      "url": "https://searchcode.com/codesearch/view/73814684/",
-      "md5hash": "64047d7bcf3f8ab9e35654bc3c801541",
-      "lines": {
-        "32": "    this.encryptor = encryptor;",
-        "33": "    this.decryptor = decryptor;",
-        "63": "      decryptor.decrypt(null);",
-        "43": "    byte[] cipherText = encryptor.encrypt(expected.getBytes(Charsets.UTF_8));",
-        "44": "    byte[] clearText = decryptor.decrypt(cipherText);",
-        "49": "    byte[] cipherText = encryptor.encrypt(new byte[]{});",
-        "50": "    byte[] clearText = decryptor.decrypt(cipherText);",
-        "62": "    try {",
-        "27": "  private final CipherProvider.Encryptor encryptor;",
-        "28": "  private final CipherProvider.Decryptor decryptor;",
-        "30": "  public CipherProviderTestSuite(CipherProvider.Encryptor encryptor,",
-        "31": "      CipherProvider.Decryptor decryptor) {"
-      },
-      "id": 73814684,
-      "filename": "CipherProviderTestSuite.java"
-    },
-    {
-      "repo": "https://github.com/haibocheng/spring-android.git",
-      "language": "Java",
-      "linescount": 87,
-      "location": "/spring-android-auth/src/main/java/org/springframework/security/crypto/encrypt",
-      "name": "spring-android",
-      "url": "https://searchcode.com/codesearch/view/75179449/",
-      "md5hash": "12926f54d9941cbcd8734716529771c7",
-      "lines": {
-        "68": "\tpublic byte[] decrypt(byte[] encryptedBytes) {",
-        "69": "\t\tsynchronized (decryptor) {",
-        "54": "\t\tencryptor = newCipher(AES_ALGORITHM);",
-        "55": "\t\tdecryptor = newCipher(AES_ALGORITHM);",
-        "72": "\t\t\treturn doFinal(decryptor, cipherPart(encryptedBytes, iv));",
-        "73": "\t\t}",
-        "71": "\t\t\tinitCipher(decryptor, Cipher.DECRYPT_MODE, secretKey, new IvParameterSpec(iv));",
-        "70": "\t\t\tbyte[] iv = ivPart(encryptedBytes);",
-        "45": "",
-        "46": "\tprivate final Cipher decryptor;"
-      },
-      "id": 75179449,
-      "filename": "AndroidAesBytesEncryptor.java"
-    },
-    {
-      "repo": "https://github.com/magrodner/Greenhouse.git",
-      "language": "Java",
-      "linescount": 86,
-      "location": "/src/main/java/org/springframework/security/encrypt",
-      "name": "Greenhouse",
-      "url": "https://searchcode.com/codesearch/view/77888986/",
-      "md5hash": "85f381d9372e966e42562e498921a5ba",
-      "lines": {
-        "70": "\t\tbyte[] decrypted;",
-        "54": "\t\tdecryptor = newCipher(algorithm);",
-        "71": "\t\tsynchronized (decryptor) {",
-        "72": "\t\t\tinitCipher(decryptor, Cipher.DECRYPT_MODE, secretKey, salt, 1000);",
-        "73": "\t\t\tdecrypted = doFinal(decryptor, cipherPart(encrypted, salt));",
-        "74": "\t\t}",
-        "47": "\tprivate final Cipher decryptor;",
-        "46": "",
-        "53": "\t\tencryptor = newCipher(algorithm);"
-      },
-      "id": 77888986,
-      "filename": "StandardStringEncryptor.java"
-    },
-    {
-      "repo": "git://github.com/apache/hadoop-common.git",
-      "language": "Java",
-      "linescount": 681,
-      "location": "/hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/crypto",
-      "name": "hadoop-common",
-      "url": "https://searchcode.com/codesearch/view/116080420/",
-      "md5hash": "ac2fd12138199fbee4b4f635395d5802",
-      "lines": {
-        "192": "      streamOffset += n; // Read n bytes",
-        "193": "      decrypt(decryptor, inBuffer, outBuffer, padding);",
-        "98": "      new ConcurrentLinkedQueue<ByteBuffer>();",
-        "99": "  /** Decryptor pool */",
-        "100": "  private final Queue<Decryptor> decryptorPool = ",
-        "225": "  private void decrypt(Decryptor decryptor, ByteBuffer inBuffer, ",
-        "259": "       */",
-        "275": "  /** Calculate the counter and iv, update the decryptor. */",
-        "224": "   */",
-        "194": "      padding = afterDecryption(decryptor, inBuffer, streamOffset, iv);",
-        "274": "  ",
-        "195": "      n = Math.min(len, outBuffer.remaining());",
-        "119": "    outBuffer = ByteBuffer.allocateDirect(this.bufferSize);",
-        "120": "    decryptor = getDecryptor();",
-        "260": "      updateDecryptor(decryptor, position, iv);",
-        "62": "  private final CryptoCodec codec;",
-        "63": "  private final Decryptor decryptor;"
-      },
-      "id": 116080420,
-      "filename": "CryptoInputStream.java"
-    },
-    {
-      "repo": "https://github.com/vezel/utility-base.git",
-      "language": "Java",
-      "linescount": 171,
-      "location": "/Util/src/be/vezel/crypto",
-      "name": "utility-base",
-      "url": "https://searchcode.com/codesearch/view/71060451/",
-      "md5hash": "3cb9bc5c008a086b9b8f031c9bcd7d9d",
-      "lines": {
-        "144": "\t\tCipher decryptor = createSymmetricCipher(Cipher.DECRYPT_MODE, symmKey, encryptor.getIV());",
-        "145": "\t    byte[] decrypted = decryptor.doFinal(cipherText);",
-        "146": "\t    System.out.println(new String(decrypted));",
-        "164": "\t\t",
-        "165": "\t\tdecryptor = createSymmetricCipher(Cipher.DECRYPT_MODE, symmKey, encryptor.getIV());",
-        "166": "\t    decrypted = decryptor.doFinal(cipherText);",
-        "167": "\t    System.out.println(new String(decrypted));",
-        "143": "\t\t"
-      },
-      "id": 71060451,
-      "filename": "Crypto.java"
-    },
-    {
-      "repo": "git://github.com/apache/hbase.git",
-      "language": "Java",
-      "linescount": 250,
-      "location": "/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal",
-      "name": "hbase",
-      "url": "https://searchcode.com/codesearch/view/116065256/",
-      "md5hash": "ab5c342de057137f48f2ab60a60634b8",
-      "lines": {
-        "64": "",
-        "33": "import org.apache.hadoop.hbase.codec.KeyValueCodecWithTags;",
-        "34": "import org.apache.hadoop.hbase.io.crypto.Decryptor;",
-        "75": "      if (decryptor != null) {",
-        "65": "    private Decryptor decryptor;",
-        "72": "    public EncryptedKvDecoder(InputStream in, Decryptor decryptor) {",
-        "73": "      super(in);",
-        "74": "      this.decryptor = decryptor;",
-        "71": "",
-        "46": "  private Encryptor encryptor;",
-        "47": "  private Decryptor decryptor;",
-        "57": "",
-        "58": "  public SecureWALCellCodec(Configuration conf, Decryptor decryptor) {",
-        "59": "    super(conf, null);",
-        "60": "    this.decryptor = decryptor;"
-      },
-      "id": 116065256,
-      "filename": "SecureWALCellCodec.java"
-    },
-    {
-      "repo": "https://github.com/haoyuan/hbase.git",
-      "language": "Java",
-      "linescount": 222,
-      "location": "/hbase-server/src/main/java/org/apache/hadoop/hbase/regionserver/wal",
-      "name": "hbase",
-      "url": "https://searchcode.com/codesearch/view/94576088/",
-      "md5hash": "3054af02122e6469c03b676cd2a4a378",
-      "lines": {
-        "32": "import org.apache.hadoop.hbase.codec.KeyValueCodec;",
-        "33": "import org.apache.hadoop.hbase.io.crypto.Decryptor;",
-        "66": "",
-        "67": "    public EncryptedKvDecoder(InputStream in, Decryptor decryptor) {",
-        "68": "      super(in);",
-        "69": "      this.decryptor = decryptor;",
-        "70": "      this.iv = new byte[decryptor.getIvLength()];",
-        "45": "  private Encryptor encryptor;",
-        "46": "  private Decryptor decryptor;",
-        "52": "",
-        "53": "  public SecureWALCellCodec(Configuration conf, Decryptor decryptor) {",
-        "54": "    super(conf, null);",
-        "55": "    this.decryptor = decryptor;",
-        "59": "",
-        "60": "    private Decryptor decryptor;"
-      },
-      "id": 94576088,
-      "filename": "SecureWALCellCodec.java"
+      "id": 17641558,
+      "filename": "OpcPackage.java"
     }
   ],
   "page": 0,
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 82,
+      "count": 2,
       "source": "Github",
       "id": 2
-    },
-    {
-      "count": 73,
-      "source": "Bitbucket",
-      "id": 3
-    },
-    {
-      "count": 10,
-      "source": "Google Code",
-      "id": 1
     }
   ]
 }

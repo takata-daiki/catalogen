@@ -1,8 +1,8 @@
 {
-  "matchterm": "AbortableHSSFListener",
+  "matchterm": "org.apache.poi.hssf.eventusermodel.AbortableHSSFListener",
   "previouspage": null,
-  "searchterm": "AbortableHSSFListener",
-  "query": "AbortableHSSFListener",
+  "searchterm": "org.apache.poi.hssf.eventusermodel.AbortableHSSFListener",
+  "query": "org.apache.poi.hssf.eventusermodel.AbortableHSSFListener",
   "language_filters": [
     {
       "count": 3,
@@ -21,8 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/15642338/",
       "md5hash": "d3e5ac48b71463b18a6b381228a1a65a",
       "lines": {
-        "59": "",
-        "60": "public abstract class AbortableHSSFListener implements HSSFListener"
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.eventusermodel;",
+        "43": "",
+        "44": "import loci.poi.hssf.record.Record;",
+        "13": " * ",
+        "46": "",
+        "45": "import loci.poi.hssf.eventusermodel.HSSFUserException;",
+        "51": " *",
+        "52": " * @see loci.poi.hssf.eventusermodel.HSSFEventFactory",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "54": " * @see loci.poi.hssf.eventusermodel.HSSFUserException",
+        "55": " *",
+        "53": " * @see loci.poi.hssf.eventusermodel.HSSFRequest"
       },
       "id": 15642338,
       "filename": "AbortableHSSFListener.java"
@@ -36,10 +49,23 @@
       "url": "https://searchcode.com/codesearch/view/15642339/",
       "md5hash": "b121d0bf53bbf50e1642cf6873264092",
       "lines": {
-        "152": "\t\t\t\t\tAbortableHSSFListener listener = ( AbortableHSSFListener ) listenObj;",
-        "149": "                Object listenObj = listeners.get(k);",
-        "150": "                if (listenObj instanceof AbortableHSSFListener)",
-        "151": "                {"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.hssf.eventusermodel;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "47": "",
+        "48": "import loci.poi.hssf.record.Record;",
+        "49": "import loci.poi.hssf.record.RecordFactory;",
+        "54": " *",
+        "55": " * @see loci.poi.hssf.eventusermodel.HSSFEventFactory",
+        "56": " * @see loci.poi.hssf.eventusermodel.HSSFListener",
+        "57": " * @see loci.poi.hssf.dev.EFHSSF",
+        "58": " * @see loci.poi.hssf.eventusermodel.HSSFUserException",
+        "59": " * @author  Andrew C. Oliver (acoliver at apache dot org)",
+        "31": ""
       },
       "id": 15642339,
       "filename": "HSSFRequest.java"
@@ -53,8 +79,22 @@
       "url": "https://searchcode.com/codesearch/view/15642337/",
       "md5hash": "880394f1b0f8ed8b4183af136268bc56",
       "lines": {
-        "105": "     *",
-        "106": "     * If an <code>AbortableHSSFListener</code> causes a halt to processing during this call"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "",
+        "41": "package loci.poi.hssf.eventusermodel;",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "",
+        "48": "import loci.poi.poifs.filesystem.POIFSFileSystem;",
+        "59": " * @see loci.poi.hssf.dev.EFHSSF",
+        "46": "import loci.poi.hssf.eventusermodel.HSSFUserException;",
+        "9": " * %%",
+        "58": " *",
+        "47": "import loci.poi.hssf.record.*;",
+        "31": ""
       },
       "id": 15642337,
       "filename": "HSSFEventFactory.java"

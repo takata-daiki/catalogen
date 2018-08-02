@@ -1,17 +1,73 @@
 {
-  "matchterm": "HSSFFormulaEvaluator",
+  "matchterm": "org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator",
   "previouspage": null,
-  "searchterm": "HSSFFormulaEvaluator",
-  "query": "HSSFFormulaEvaluator",
+  "searchterm": "org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator",
+  "query": "org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator",
   "language_filters": [
     {
-      "count": 10,
+      "count": 9,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 10,
+  "total": 9,
   "results": [
+    {
+      "repo": "https://github.com/denodoro/org.openscada.deploy.git",
+      "language": "Java",
+      "linescount": 368,
+      "location": "/org.openscada.deploy.iolist.utils/src/org/openscada/deploy/iolist/utils",
+      "name": "org.openscada.deploy",
+      "url": "https://searchcode.com/codesearch/view/73882044/",
+      "md5hash": "4a7ca4a683a9f5ccf8a2f445a41aaab9",
+      "lines": {
+        "13": "",
+        "14": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "15": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator;",
+        "16": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "17": "import org.apache.poi.hssf.usermodel.HeaderFooter;",
+        "18": "import org.apache.poi.hssf.util.HSSFColor;",
+        "19": "import org.apache.poi.ss.usermodel.Cell;",
+        "20": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "21": "import org.apache.poi.ss.usermodel.Font;",
+        "22": "import org.apache.poi.ss.usermodel.Footer;",
+        "23": "import org.apache.poi.ss.usermodel.IndexedColors;",
+        "24": "import org.apache.poi.ss.usermodel.PrintSetup;",
+        "25": "import org.apache.poi.ss.usermodel.Row;",
+        "26": "import org.apache.poi.ss.usermodel.Sheet;",
+        "27": "import org.apache.poi.ss.usermodel.Workbook;"
+      },
+      "id": 73882044,
+      "filename": "SpreadSheetPoiHelper.java"
+    },
+    {
+      "repo": "https://github.com/denodoro/org.openscada.deploy.git",
+      "language": "Java",
+      "linescount": 172,
+      "location": "/org.openscada.atlantis.configurator/src/org/openscada/atlantis/configurator/common",
+      "name": "org.openscada.deploy",
+      "url": "https://searchcode.com/codesearch/view/73880973/",
+      "md5hash": "333633e9b6a660c399c9d5824941e082",
+      "lines": {
+        "1": "package org.openscada.atlantis.configurator.common;",
+        "2": "",
+        "7": "",
+        "8": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "9": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator;",
+        "10": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "11": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "12": "import org.apache.poi.ss.usermodel.Cell;",
+        "13": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "14": "import org.apache.poi.ss.usermodel.Row;",
+        "15": "",
+        "18": "",
+        "19": "    private final HSSFWorkbook workbook;",
+        "142": "",
+        "143": "        final HSSFFormulaEvaluator eval = new HSSFFormulaEvaluator ( workbook );"
+      },
+      "id": 73880973,
+      "filename": "DataLoaderXls.java"
+    },
     {
       "repo": "https://bitbucket.org/openicar/juniprint",
       "language": "Java",
@@ -21,14 +77,22 @@
       "url": "https://searchcode.com/codesearch/view/60212057/",
       "md5hash": "e9487002cf69dbd9246766c01c968b73",
       "lines": {
+        "32": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "33": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
+        "34": "import org.apache.poi.hssf.usermodel.HSSFComment;",
         "35": "import org.apache.poi.hssf.usermodel.HSSFFont;",
-        "260": "\t\tDefaultUDFFinder userUDFFinder = new DefaultUDFFinder(functionNames, functionImpls);",
-        "261": "\t\tevaluator = HSSFFormulaEvaluator.create(wb, null, userUDFFinder);",
-        "87": "\t",
-        "88": "\tprivate HSSFFormulaEvaluator evaluator;",
         "36": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator;",
-        "1643": "\t\t",
-        "1644": "\t\t//HSSFFormulaEvaluator formulaEvaluator = new HSSFFormulaEvaluator(wb);"
+        "37": "import org.apache.poi.hssf.usermodel.HSSFName;",
+        "38": "import org.apache.poi.hssf.usermodel.HSSFPrintSetup;",
+        "39": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "40": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "41": "import org.apache.poi.hssf.usermodel.HSSFShape;",
+        "10": " * ",
+        "11": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "42": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "29": "",
+        "30": "import org.apache.poi.hssf.record.formula.functions.FreeRefFunction;",
+        "31": "import org.apache.poi.hssf.record.formula.udf.DefaultUDFFinder;"
       },
       "id": 60212057,
       "filename": "JUniPrint.java"
@@ -42,47 +106,52 @@
       "url": "https://searchcode.com/codesearch/view/102774956/",
       "md5hash": "d4792e09c1e402da2a4e8a4d9e7a83b6",
       "lines": {
-        "88": "\t\t// \u0411\u0443\u0434\u0435\u043c \u0432\u044b\u0447\u0438\u0441\u043b\u044f\u0442\u044c \u0444\u043e\u0440\u043c\u0443\u043b\u044b",
+        "11": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "37": "",
+        "38": "import org.apache.commons.beanutils.PropertyUtils;",
+        "39": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "40": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
         "41": "import org.apache.poi.hssf.usermodel.HSSFDataFormat;",
-        "42": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator;",
-        "89": "\t\tHSSFFormulaEvaluator evaluator = new HSSFFormulaEvaluator(wb);"
+        "10": " * ",
+        "43": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "44": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "45": "import org.apache.poi.hssf.usermodel.HSSFSheet;",
+        "46": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "47": "import org.apache.poi.poifs.filesystem.POIFSFileSystem;",
+        "48": "import org.jboss.seam.Component;",
+        "49": "import org.jboss.seam.annotations.Logger;",
+        "42": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator;"
       },
       "id": 102774956,
       "filename": "ExcelParser.java"
     },
     {
-      "repo": "https://github.com/denodoro/org.openscada.deploy.git",
+      "repo": "http://sqlreport.googlecode.com/svn/trunk/",
       "language": "Java",
-      "linescount": 172,
-      "location": "/org.openscada.atlantis.configurator/src/org/openscada/atlantis/configurator/common",
-      "name": "org.openscada.deploy",
-      "url": "https://searchcode.com/codesearch/view/73880973/",
-      "md5hash": "333633e9b6a660c399c9d5824941e082",
+      "linescount": 321,
+      "location": "/java/sourcecode/Excel/src/com/jeasonzhao/commons/excel",
+      "name": "sqlreport",
+      "url": "https://searchcode.com/codesearch/view/3760572/",
+      "md5hash": "ceb3bff690ff223b6dbcf03afdeb2f02",
       "lines": {
-        "8": "import org.apache.poi.hssf.usermodel.HSSFFont;",
+        "5": "",
+        "6": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "7": "import org.apache.poi.hssf.usermodel.HSSFClientAnchor;",
+        "8": "import org.apache.poi.hssf.usermodel.HSSFComment;",
         "9": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator;",
-        "142": "",
-        "143": "        final HSSFFormulaEvaluator eval = new HSSFFormulaEvaluator ( workbook );"
+        "10": "import org.apache.poi.hssf.usermodel.HSSFHyperlink;",
+        "11": "import org.apache.poi.hssf.usermodel.HSSFPatriarch;",
+        "12": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "13": "import org.apache.poi.hssf.util.CellReference;",
+        "14": "import org.apache.poi.ss.usermodel.CellValue;",
+        "15": "import com.jeasonzhao.commons.utils.Algorithms;",
+        "182": "        {",
+        "183": "            case org.apache.poi.hssf.usermodel.HSSFCell.CELL_TYPE_BLANK:",
+        "184": "                return \"\";",
+        "185": "            case org.apache.poi.hssf.usermodel.HSSFCell.CELL_TYPE_BOOLEAN:"
       },
-      "id": 73880973,
-      "filename": "DataLoaderXls.java"
-    },
-    {
-      "repo": "https://github.com/denodoro/org.openscada.deploy.git",
-      "language": "Java",
-      "linescount": 368,
-      "location": "/org.openscada.deploy.iolist.utils/src/org/openscada/deploy/iolist/utils",
-      "name": "org.openscada.deploy",
-      "url": "https://searchcode.com/codesearch/view/73882044/",
-      "md5hash": "4a7ca4a683a9f5ccf8a2f445a41aaab9",
-      "lines": {
-        "292": "",
-        "293": "        final HSSFFormulaEvaluator eval = new HSSFFormulaEvaluator ( workbook );",
-        "14": "import org.apache.poi.hssf.usermodel.HSSFFont;",
-        "15": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator;"
-      },
-      "id": 73882044,
-      "filename": "SpreadSheetPoiHelper.java"
+      "id": 3760572,
+      "filename": "Cell.java"
     },
     {
       "repo": "http://javashellscript.googlecode.com/svn/trunk/",
@@ -95,12 +164,20 @@
       "lines": {
         "67": "        //Falls Formeln ausgewertet werden m\u00fcssen",
         "68": "        evaluator = new HSSFFormulaEvaluator(wb);",
-        "24": "     */",
-        "25": "    private HSSFFormulaEvaluator evaluator;",
+        "8": "import java.util.Locale;",
+        "9": "import org.apache.poi.hssf.usermodel.HSSFCell;",
         "10": "import org.apache.poi.hssf.usermodel.HSSFDataFormatter;",
         "11": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator;",
         "12": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator.CellValue;",
-        "13": "import org.apache.poi.hssf.usermodel.HSSFRow;"
+        "13": "import org.apache.poi.hssf.usermodel.HSSFRow;",
+        "14": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "15": "",
+        "147": "                        switch (wert.getCellType()) {",
+        "148": "                            case HSSFCell.CELL_TYPE_BLANK:",
+        "150": "                                break;",
+        "151": "                            case HSSFCell.CELL_TYPE_BOOLEAN:",
+        "24": "     */",
+        "25": "    private HSSFFormulaEvaluator evaluator;"
       },
       "id": 13216283,
       "filename": "ExcelReader.java"
@@ -114,10 +191,22 @@
       "url": "https://searchcode.com/codesearch/view/64378108/",
       "md5hash": "8d9899f56b5c3102026f2d2d32fc0655",
       "lines": {
-        "56": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator;",
-        "473": "",
+        "64": "import org.apache.poi.ss.usermodel.Sheet;",
+        "65": "import org.apache.poi.ss.usermodel.Workbook;",
+        "66": "",
+        "355": "      Workbook wb = new HSSFWorkbook();",
         "474": "      HSSFFormulaEvaluator.evaluateAllFormulaCells(wb);",
-        "55": "import javax.swing.table.DefaultTableModel;"
+        "473": "",
+        "354": "    try {",
+        "55": "import javax.swing.table.DefaultTableModel;",
+        "56": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator;",
+        "57": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "58": "import org.apache.poi.ss.usermodel.Cell;",
+        "59": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "60": "import org.apache.poi.ss.usermodel.DataFormat;",
+        "61": "import org.apache.poi.ss.usermodel.Font;",
+        "62": "import org.apache.poi.ss.usermodel.IndexedColors;",
+        "63": "import org.apache.poi.ss.usermodel.Row;"
       },
       "id": 64378108,
       "filename": "MTable.java"
@@ -131,47 +220,24 @@
       "url": "https://searchcode.com/codesearch/view/67862077/",
       "md5hash": "1d73c17ff877b8d18206ad1d345d79af",
       "lines": {
+        "34": "",
+        "35": "import static org.apache.poi.ss.usermodel.Row.CREATE_NULL_AS_BLANK;",
+        "7": " *",
+        "8": " *     http://www.apache.org/licenses/LICENSE-2.0",
+        "41": "",
+        "39": "",
+        "40": "    private final org.apache.poi.ss.usermodel.Workbook workbook;",
+        "54": "",
+        "55": "    public PoiWorkbook(org.apache.poi.ss.usermodel.Workbook workbook) {",
         "24": "import bad.robot.excel.sheet.SheetIndex;",
         "25": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator;",
-        "146": "    public PoiWorkbook refreshFormulas() {",
-        "147": "        HSSFFormulaEvaluator.evaluateAllFormulaCells(workbook);"
+        "26": "import org.apache.poi.ss.usermodel.Sheet;",
+        "27": "import org.apache.poi.ss.usermodel.Workbook;",
+        "28": "import org.apache.poi.ss.util.WorkbookUtil;",
+        "29": ""
       },
       "id": 67862077,
       "filename": "PoiWorkbook.java"
-    },
-    {
-      "repo": "http://sqlreport.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 321,
-      "location": "/java/sourcecode/Excel/src/com/jeasonzhao/commons/excel",
-      "name": "sqlreport",
-      "url": "https://searchcode.com/codesearch/view/3760572/",
-      "md5hash": "ceb3bff690ff223b6dbcf03afdeb2f02",
-      "lines": {
-        "8": "import org.apache.poi.hssf.usermodel.HSSFComment;",
-        "9": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator;",
-        "205": "        }",
-        "206": "        HSSFFormulaEvaluator evaluator = new HSSFFormulaEvaluator(this.m_workBook.getHSSFWorkbook());"
-      },
-      "id": 3760572,
-      "filename": "Cell.java"
-    },
-    {
-      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 354,
-      "location": "/zss/src/org/zkoss/zss/model/impl",
-      "name": "zkspreadsheet",
-      "url": "https://searchcode.com/codesearch/view/3970720/",
-      "md5hash": "5f7e28ce78cf6ecb0819700f4859940e",
-      "lines": {
-        "25": "import org.zkoss.poi.hssf.record.NameRecord;",
-        "26": "import org.zkoss.poi.hssf.usermodel.HSSFFormulaEvaluator;",
-        "76": "\t\tif (resolver == null) resolver = new DefaultFunctionResolver();",
-        "77": "\t\t_evaluator = HSSFFormulaEvaluator.create(this, NoCacheClassifier.instance, resolver.getUDFFinder()); "
-      },
-      "id": 3970720,
-      "filename": "HSSFBookImpl.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -182,8 +248,21 @@
       "url": "https://searchcode.com/codesearch/view/15642368/",
       "md5hash": "28d644f6963548f6234cc54a47085ba2",
       "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "64": " *",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "66": " *  @author Andrew C. oliver (acoliver at apache dot org)",
+        "65": " *  @author Avik Sengupta <avik at apache dot org>",
+        "42": "",
+        "43": "package loci.poi.hssf.model;",
         "108": "     *  model.Workbook, then use the convenience method on",
-        "109": "     *  usermodel.HSSFFormulaEvaluator "
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "109": "     *  usermodel.HSSFFormulaEvaluator ",
+        "50": "//import PTG's .. since we need everything, import *",
+        "51": "import loci.poi.hssf.record.formula.*;",
+        "31": ""
       },
       "id": 15642368,
       "filename": "FormulaParser.java"
@@ -203,7 +282,7 @@
       "id": 3
     },
     {
-      "count": 3,
+      "count": 2,
       "source": "Google Code",
       "id": 1
     }

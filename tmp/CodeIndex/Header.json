@@ -1,496 +1,81 @@
 {
-  "matchterm": "Header",
+  "matchterm": "org.apache.poi.hslf.blip.Metafile.Header",
   "previouspage": null,
-  "searchterm": "Header",
-  "query": "Header",
+  "searchterm": "org.apache.poi.hslf.blip.Metafile.Header",
+  "query": "org.apache.poi.hslf.blip.Metafile.Header",
   "language_filters": [
     {
-      "count": 370494,
+      "count": 2,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 370494,
+  "total": 2,
   "results": [
     {
-      "repo": "http://zkspreadsheet.googlecode.com/svn/trunk/",
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
       "language": "Java",
-      "linescount": 73,
-      "location": "/zssapp.test/src/test/java/org/zkoss/test/zss",
-      "name": "zkspreadsheet",
-      "url": "https://searchcode.com/codesearch/view/9943434/",
-      "md5hash": "608ae3d86b9306ce135c051bb04f01f3",
+      "linescount": 196,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/blip",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394516/",
+      "md5hash": "d0a7dfe6144b031234382ee06549b69e",
       "lines": {
-        "1": "/* Header.java",
-        "2": "",
-        "59": "\t/**",
-        "36": "\t */",
-        "37": "\t/*package*/ Header(String widgetScript, JQueryFactory jqFactory, ConditionalTimeBlocker timeBlocker, WebDriver webDriver) {",
-        "47": "\t * Returns the header height (border + padding)",
-        "46": "\t/**",
-        "60": "\t * Returns the header width (border + padding)",
-        "30": " */",
-        "31": "public class Header extends Widget {"
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hslf.blip;",
+        "19": "",
+        "20": "import org.apache.poi.util.LittleEndian;",
+        "21": "import org.apache.poi.util.POILogger;",
+        "22": "import org.apache.poi.hslf.model.Picture;",
+        "23": "import org.apache.poi.hslf.model.Shape;",
+        "24": "import org.apache.poi.hslf.exceptions.HSLFException;",
+        "25": ""
       },
-      "id": 9943434,
-      "filename": "Header.java"
+      "id": 97394516,
+      "filename": "WMF.java"
     },
     {
-      "repo": "https://github.com/jortizcs/sfs_applications.git",
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
       "language": "Java",
-      "linescount": 217,
-      "location": "/energylens/sfs_transactions/lib/simple/org/simpleframework/http/core",
-      "name": "sfs_applications",
-      "url": "https://searchcode.com/codesearch/view/67866359/",
-      "md5hash": "2f8096d0c2cd479d7ccec0c298cd5b44",
+      "linescount": 121,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/blip",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394495/",
+      "md5hash": "a1b2acea230b9990ecbf63589e7fb170",
       "lines": {
-        "32": " * values such as the request line and header values from the request",
-        "1": "/*",
-        "2": " * Header.java February 2001",
-        "35": " * As well as providing the header values and request line values ",
-        "36": " * this will also provide convenience methods which enable the user",
-        "37": " * to determine the length of the body this message header prefixes.",
-        "130": "    *",
-        "33": " * message. Access to header values is done case insensitively.",
-        "129": "    * @param name the HTTP message header to get the value from",
-        "128": "    *",
-        "34": " * <p>",
-        "131": "    * @return this returns the date as a long from the header value ",
-        "29": "/**",
-        "30": " * This is a <code>Header</code> object that is used to represent a",
-        "31": " * basic form for the HTTP request message. This is used to extract"
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "33": " */",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "34": "public final class PICT extends Metafile {",
+        "17": "",
+        "18": "package org.apache.poi.hslf.blip;",
+        "24": "",
+        "25": "import org.apache.poi.hslf.exceptions.HSLFException;",
+        "26": "import org.apache.poi.hslf.model.Picture;",
+        "27": "import org.apache.poi.hslf.model.Shape;",
+        "28": ""
       },
-      "id": 67866359,
-      "filename": "Header.java"
-    },
-    {
-      "repo": "http://lighttexteditor.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 1277,
-      "location": "/light_edit/src/java/thirdparty/xhtmlrenderer/src/java/org/xhtmlrenderer/layout",
-      "name": "lighttexteditor",
-      "url": "https://searchcode.com/codesearch/view/13731382/",
-      "md5hash": "a74b833e94535e58f2fa22ca136367c9",
-      "lines": {
-        "640": "            return IdentValue.TABLE_ROW_GROUP;",
-        "1": "/*",
-        "2": " * {{{ header & license",
-        "641": "        } else if (display == IdentValue.TABLE_HEADER_GROUP",
-        "650": "    private static boolean isProperTableNesting(IdentValue parent, IdentValue child) {",
-        "651": "        return (parent == IdentValue.TABLE && (child == IdentValue.TABLE_HEADER_GROUP ||",
-        "525": "        List topCaptions = new LinkedList();",
-        "526": "        Box header = null;",
-        "655": "                || ((parent == IdentValue.TABLE_HEADER_GROUP ||",
-        "659": "                || (parent == IdentValue.TABLE_ROW && child == IdentValue.TABLE_CELL)",
-        "660": "                || (parent == IdentValue.INLINE_TABLE && (child == IdentValue.TABLE_HEADER_GROUP ||",
-        "654": "                child == IdentValue.TABLE_CAPTION))",
-        "540": "                }",
-        "541": "            } else if (display == IdentValue.TABLE_HEADER_GROUP && header == null) {",
-        "542": "                header = b;"
-      },
-      "id": 13731382,
-      "filename": "BoxBuilder.java"
-    },
-    {
-      "repo": "git://github.com/flyingsaucerproject/flyingsaucer.git",
-      "language": "Java",
-      "linescount": 1292,
-      "location": "/flying-saucer-core/src/main/java/org/xhtmlrenderer/layout",
-      "name": "flyingsaucer",
-      "url": "https://searchcode.com/codesearch/view/17063416/",
-      "md5hash": "ef563789b56a0f661bcb42aa45fb3890",
-      "lines": {
-        "1": "/*",
-        "2": " * {{{ header & license",
-        "519": "    /**",
-        "520": "     * Reorganizes a table so that the header is the first row group and the",
-        "651": "    private static boolean isProperTableNesting(IdentValue parent, IdentValue child) {",
-        "652": "        return (parent == IdentValue.TABLE && (child == IdentValue.TABLE_HEADER_GROUP ||",
-        "642": "        } else if (display == IdentValue.TABLE_HEADER_GROUP",
-        "526": "        List topCaptions = new LinkedList();",
-        "527": "        Box header = null;",
-        "656": "                || ((parent == IdentValue.TABLE_HEADER_GROUP ||",
-        "660": "                || (parent == IdentValue.TABLE_ROW && child == IdentValue.TABLE_CELL)",
-        "661": "                || (parent == IdentValue.INLINE_TABLE && (child == IdentValue.TABLE_HEADER_GROUP ||",
-        "641": "            return IdentValue.TABLE_ROW_GROUP;",
-        "655": "                child == IdentValue.TABLE_CAPTION))",
-        "541": "                }",
-        "542": "            } else if (display == IdentValue.TABLE_HEADER_GROUP && header == null) {",
-        "543": "                header = b;"
-      },
-      "id": 17063416,
-      "filename": "BoxBuilder.java"
-    },
-    {
-      "repo": "https://github.com/MarkBrouwers/flyingsaucer.git",
-      "language": "Java",
-      "linescount": 316,
-      "location": "/src/java/org/xhtmlrenderer/newtable",
-      "name": "flyingsaucer",
-      "url": "https://searchcode.com/codesearch/view/112691536/",
-      "md5hash": "03adc327def955454c69b51e15f7bfd6",
-      "lines": {
-        "1": "/*",
-        "2": " * {{{ header & license",
-        "291": "",
-        "36": "    private boolean _footer;",
-        "37": "    private boolean _header;",
-        "294": "    }",
-        "295": "",
-        "296": "    public void setHeader(boolean header) {",
-        "297": "        _header = header;",
-        "298": "    }",
-        "270": "    public void layout(LayoutContext c, int contentStart) {",
-        "271": "        boolean running = c.isPrint() && (isHeader() || isFooter()) && getTable().getStyle().isPaginateTable();",
-        "292": "    public boolean isHeader() {",
-        "293": "        return _header;"
-      },
-      "id": 112691536,
-      "filename": "TableSectionBox.java"
-    },
-    {
-      "repo": "https://jedit.svn.sourceforge.net/svnroot/jedit",
-      "language": "Java",
-      "linescount": 662,
-      "location": "/plugins/BufferList/tags/bufferlist_0_9/bufferlist",
-      "name": "jedit",
-      "url": "https://searchcode.com/codesearch/view/1354802/",
-      "md5hash": "14366a56705f112814a9b32d51accfe9",
-      "lines": {
-        "80": "\t\t// overall layout:",
-        "1": "/*{{{ header",
-        "2": " * BufferList.java",
-        "83": "\t\tpanel.add(BorderLayout.NORTH, header);",
-        "81": "\t\tJLabel header = new JLabel(jEdit.getProperty(\"bufferlist.openfiles.label\"));",
-        "82": "\t\tJPanel panel = new JPanel(new BorderLayout());"
-      },
-      "id": 1354802,
-      "filename": "BufferList.java"
-    },
-    {
-      "repo": "http://lighttexteditor.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 313,
-      "location": "/light_edit/src/java/thirdparty/xhtmlrenderer/src/java/org/xhtmlrenderer/newtable",
-      "name": "lighttexteditor",
-      "url": "https://searchcode.com/codesearch/view/13731457/",
-      "md5hash": "c090a68d1147f434a2d9facb89e95bff",
-      "lines": {
-        "288": "",
-        "1": "/*",
-        "2": " * {{{ header & license",
-        "291": "    }",
-        "36": "    private boolean _footer;",
-        "37": "    private boolean _header;",
-        "294": "        _header = header;",
-        "289": "    public boolean isHeader() {",
-        "267": "    public void layout(LayoutContext c, int contentStart) {",
-        "268": "        boolean running = c.isPrint() && (isHeader() || isFooter()) && getTable().getStyle().isPaginateTable();",
-        "290": "        return _header;",
-        "292": "",
-        "295": "    }",
-        "293": "    public void setHeader(boolean header) {"
-      },
-      "id": 13731457,
-      "filename": "TableSectionBox.java"
-    },
-    {
-      "repo": "git://github.com/flyingsaucerproject/flyingsaucer.git",
-      "language": "Java",
-      "linescount": 314,
-      "location": "/flying-saucer-core/src/main/java/org/xhtmlrenderer/newtable",
-      "name": "flyingsaucer",
-      "url": "https://searchcode.com/codesearch/view/17063501/",
-      "md5hash": "328dcee0d48995181b717d3e5e4fbf6a",
-      "lines": {
-        "1": "/*",
-        "2": " * {{{ header & license",
-        "291": "        return _header;",
-        "36": "    private boolean _footer;",
-        "37": "    private boolean _header;",
-        "294": "    public void setHeader(boolean header) {",
-        "289": "",
-        "296": "    }",
-        "295": "        _header = header;",
-        "268": "    public void layout(LayoutContext c, int contentStart) {",
-        "290": "    public boolean isHeader() {",
-        "269": "        boolean running = c.isPrint() && (isHeader() || isFooter()) && getTable().getStyle().isPaginateTable();",
-        "292": "    }",
-        "293": ""
-      },
-      "id": 17063501,
-      "filename": "TableSectionBox.java"
-    },
-    {
-      "repo": "https://github.com/jdeolive/geotools-old.git",
-      "language": "Java",
-      "linescount": 65,
-      "location": "/modules/unsupported/csv/src/main/java/org/geotools/data/csv",
-      "name": "geotools-old",
-      "url": "https://searchcode.com/codesearch/view/109972512/",
-      "md5hash": "e800403ff20736f5ca8ef6884dc59499",
-      "lines": {
-        "1": "// header start",
-        "2": "package org.geotools.data.csv;",
-        "21": "public class CSVDataStore extends ContentDataStore {",
-        "22": "// header end"
-      },
-      "id": 109972512,
-      "filename": "CSVDataStore.java"
-    },
-    {
-      "repo": "https://github.com/ecerulm/flyingsaucer.git",
-      "language": "Java",
-      "linescount": 1643,
-      "location": "/src/java/org/xhtmlrenderer/render",
-      "name": "flyingsaucer",
-      "url": "https://searchcode.com/codesearch/view/110303677/",
-      "md5hash": "88ff2d598e41c8b08c0190def0070613",
-      "lines": {
-        "1152": " * for running headers and footers on tables",
-        "1": "/*",
-        "2": " * {{{ header & license",
-        "1156": " * Revision 1.140.2.7 2007/08/13 22:57:03 peterbrant Make sure trailing pages",
-        "1157": " * with only a header and footer are exported when exporting to text",
-        "1175": " * Revision 1.140.2.1 2007/07/09 22:18:03 peterbrant Begin work on running",
-        "1176": " * headers and footers and named pages",
-        "1151": " * Revision 1.140.2.9 2007/08/15 21:29:31 peterbrant Initial draft of support"
-      },
-      "id": 110303677,
-      "filename": "Box.java"
-    },
-    {
-      "repo": "https://github.com/ecerulm/flyingsaucer.git",
-      "language": "Java",
-      "linescount": 2482,
-      "location": "/src/java/org/xhtmlrenderer/render",
-      "name": "flyingsaucer",
-      "url": "https://searchcode.com/codesearch/view/110303687/",
-      "md5hash": "3076808f76e1a8bb745ddc99dd8c14ac",
-      "lines": {
-        "2176": " * Revision 1.84.2.10  2007/08/17 19:11:30  peterbrant",
-        "1": "/*",
-        "2": " * {{{ header & license",
-        "2177": " * When paginating a table, move table past page break if header would overlap the page break",
-        "2200": " * Revision 1.84.2.2  2007/07/11 22:48:30  peterbrant",
-        "2201": " * Further progress on running headers and footers",
-        "2203": " * Revision 1.84.2.1  2007/07/09 22:18:03  peterbrant",
-        "2204": " * Begin work on running headers and footers and named pages"
-      },
-      "id": 110303687,
-      "filename": "BlockBox.java"
-    },
-    {
-      "repo": "https://github.com/ecerulm/flyingsaucer.git",
-      "language": "Java",
-      "linescount": 1016,
-      "location": "/src/java/org/xhtmlrenderer/layout",
-      "name": "flyingsaucer",
-      "url": "https://searchcode.com/codesearch/view/110303821/",
-      "md5hash": "a97eba5fbaf695802334fb4a9c2474a7",
-      "lines": {
-        "1": "/*",
-        "2": " * {{{ header & license",
-        "662": " * Revision 1.28  2006/02/28 01:31:36  peterbrant",
-        "663": " * Add ability to define PDF bookmarks in header"
-      },
-      "id": 110303821,
-      "filename": "SharedContext.java"
-    },
-    {
-      "repo": "https://github.com/ecerulm/flyingsaucer.git",
-      "language": "Java",
-      "linescount": 460,
-      "location": "/src/java/org/xhtmlrenderer/css/constants",
-      "name": "flyingsaucer",
-      "url": "https://searchcode.com/codesearch/view/110304050/",
-      "md5hash": "cb413f05c85b1279c9a57696f7b22dc6",
-      "lines": {
-        "1": "/*",
-        "2": " * {{{ header & license",
-        "358": " * Revision 1.31.2.3  2007/08/15 21:29:31  peterbrant",
-        "359": " * Initial draft of support for running headers and footers on tables",
-        "173": "    public final static IdentValue TABLE_FOOTER_GROUP = addValue(\"table-footer-group\");",
-        "174": "    public final static IdentValue TABLE_HEADER_GROUP = addValue(\"table-header-group\");"
-      },
-      "id": 110304050,
-      "filename": "IdentValue.java"
-    },
-    {
-      "repo": "https://github.com/MarkBrouwers/flyingsaucer.git",
-      "language": "Java",
-      "linescount": 673,
-      "location": "/demos/browser/src/java/org/xhtmlrenderer/demo/browser",
-      "name": "flyingsaucer",
-      "url": "https://searchcode.com/codesearch/view/112691042/",
-      "md5hash": "9e7baa032fcfde8520e74eca5b5b4c3d",
-      "lines": {
-        "520": " * Revision 1.41  2009/08/03 19:36:29  pdoubleya",
-        "1": "/*",
-        "2": " * {{{ header & license",
-        "521": " * Add new listener for PDF generation which automatically parses HTML header information and adds it as PDF properties (e.g. title, subject). Patch submitted by Tim Telcik in email. Thanks!"
-      },
-      "id": 112691042,
-      "filename": "BrowserPanel.java"
-    },
-    {
-      "repo": "https://github.com/MarkBrouwers/flyingsaucer.git",
-      "language": "Java",
-      "linescount": 1643,
-      "location": "/src/java/org/xhtmlrenderer/render",
-      "name": "flyingsaucer",
-      "url": "https://searchcode.com/codesearch/view/112692311/",
-      "md5hash": "4c9d226285d501c117b815bde6fe2bc6",
-      "lines": {
-        "1152": " * for running headers and footers on tables",
-        "1": "/*",
-        "2": " * {{{ header & license",
-        "1156": " * Revision 1.140.2.7 2007/08/13 22:57:03 peterbrant Make sure trailing pages",
-        "1157": " * with only a header and footer are exported when exporting to text",
-        "1175": " * Revision 1.140.2.1 2007/07/09 22:18:03 peterbrant Begin work on running",
-        "1176": " * headers and footers and named pages",
-        "1151": " * Revision 1.140.2.9 2007/08/15 21:29:31 peterbrant Initial draft of support"
-      },
-      "id": 112692311,
-      "filename": "Box.java"
-    },
-    {
-      "repo": "https://github.com/MarkBrouwers/flyingsaucer.git",
-      "language": "Java",
-      "linescount": 1091,
-      "location": "/src/java/org/xhtmlrenderer/layout",
-      "name": "flyingsaucer",
-      "url": "https://searchcode.com/codesearch/view/112692454/",
-      "md5hash": "f8efb4c805bfa2b8adb178fb519203ad",
-      "lines": {
-        "1": "/*",
-        "2": " * {{{ header & license",
-        "498": " * When paginating a table, move table past page break if header would overlap the page break",
-        "497": " * Revision 1.63.2.3  2007/08/17 19:11:30  peterbrant"
-      },
-      "id": 112692454,
-      "filename": "BlockBoxing.java"
-    },
-    {
-      "repo": "http://lighttexteditor.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 49,
-      "location": "/light_edit/src/java/thirdparty/xhtmlrenderer/src/java/org/xhtmlrenderer/pdf",
-      "name": "lighttexteditor",
-      "url": "https://searchcode.com/codesearch/view/13731202/",
-      "md5hash": "929537c2354b2cc8b25c5a72c6584acc",
-      "lines": {
-        "32": "     * {@link com.lowagie.text.Document#open()} is called. At this point you may still modify certain",
-        "1": "/*",
-        "2": " * {{{ header & license",
-        "33": "     * properties of the PDF document header via the {@link com.lowagie.text.pdf.PdfWriter}; once"
-      },
-      "id": 13731202,
-      "filename": "PDFCreationListener.java"
-    },
-    {
-      "repo": "http://lighttexteditor.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 459,
-      "location": "/light_edit/src/java/thirdparty/xhtmlrenderer/src/java/org/xhtmlrenderer/css/constants",
-      "name": "lighttexteditor",
-      "url": "https://searchcode.com/codesearch/view/13731213/",
-      "md5hash": "4e3275bd8a826a6eb5e23b2ed122b039",
-      "lines": {
-        "1": "/*",
-        "2": " * {{{ header & license",
-        "357": " * Revision 1.31.2.3  2007/08/15 21:29:31  peterbrant",
-        "358": " * Initial draft of support for running headers and footers on tables",
-        "172": "    public final static IdentValue TABLE_FOOTER_GROUP = addValue(\"table-footer-group\");",
-        "173": "    public final static IdentValue TABLE_HEADER_GROUP = addValue(\"table-header-group\");"
-      },
-      "id": 13731213,
-      "filename": "IdentValue.java"
-    },
-    {
-      "repo": "http://lighttexteditor.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 1423,
-      "location": "/light_edit/src/java/thirdparty/xhtmlrenderer/src/java/org/xhtmlrenderer/css/parser/property",
-      "name": "lighttexteditor",
-      "url": "https://searchcode.com/codesearch/view/13731277/",
-      "md5hash": "3c95b49e92f2f534706e724f921a4057",
-      "lines": {
-        "720": "        // | table-row-group | table-header-group ",
-        "1": "/*",
-        "2": " * {{{ header & license",
-        "728": "                        IdentValue.INLINE_TABLE, IdentValue.TABLE_ROW_GROUP,",
-        "729": "                        IdentValue.TABLE_HEADER_GROUP, IdentValue.TABLE_FOOTER_GROUP,",
-        "719": "        // inline | block | list-item | run-in | inline-block | table | inline-table "
-      },
-      "id": 13731277,
-      "filename": "PrimitivePropertyBuilders.java"
-    },
-    {
-      "repo": "http://lighttexteditor.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 154,
-      "location": "/light_edit/src/java/thirdparty/xhtmlrenderer/src/java/org/xhtmlrenderer/util",
-      "name": "lighttexteditor",
-      "url": "https://searchcode.com/codesearch/view/13731302/",
-      "md5hash": "24f4ca04eeb2adabd826489471b355cd",
-      "lines": {
-        "1": "/*",
-        "2": " * {{{ header & license",
-        "101": "    /**",
-        "102": "     * Return the header string for a set of formatted records."
-      },
-      "id": 13731302,
-      "filename": "XRSimpleLogFormatter.java"
+      "id": 97394495,
+      "filename": "PICT.java"
     }
   ],
   "page": 0,
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 279505,
-      "source": "Bitbucket",
-      "id": 3
-    },
-    {
-      "count": 77536,
+      "count": 2,
       "source": "Github",
       "id": 2
-    },
-    {
-      "count": 11363,
-      "source": "Google Code",
-      "id": 1
-    },
-    {
-      "count": 809,
-      "source": "GitLab",
-      "id": 13
-    },
-    {
-      "count": 549,
-      "source": "Sourceforge",
-      "id": 4
-    },
-    {
-      "count": 258,
-      "source": "Gitorious",
-      "id": 10
-    },
-    {
-      "count": 257,
-      "source": "CodePlex",
-      "id": 5
-    },
-    {
-      "count": 159,
-      "source": "Unknown",
-      "id": 0
-    },
-    {
-      "count": 58,
-      "source": "Google Android",
-      "id": 12
     }
   ]
 }

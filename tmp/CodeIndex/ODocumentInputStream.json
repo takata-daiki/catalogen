@@ -1,8 +1,8 @@
 {
-  "matchterm": "ODocumentInputStream",
+  "matchterm": "org.apache.poi.poifs.filesystem.ODocumentInputStream",
   "previouspage": null,
-  "searchterm": "ODocumentInputStream",
-  "query": "ODocumentInputStream",
+  "searchterm": "org.apache.poi.poifs.filesystem.ODocumentInputStream",
+  "query": "org.apache.poi.poifs.filesystem.ODocumentInputStream",
   "language_filters": [
     {
       "count": 1,
@@ -21,12 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97397924/",
       "md5hash": "a62824300869ffa075859750e715454a",
       "lines": {
-        "59": "\t   if(documentNode.getDocument() != null) {",
-        "76": "\t   delegate = new ODocumentInputStream(document);",
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "74": "\t */",
         "75": "\tpublic DocumentInputStream(POIFSDocument document) {",
-        "60": "\t      delegate = new ODocumentInputStream(document);",
-        "61": "\t   } else if(parentNode.getFileSystem() != null) {",
-        "62": "\t      delegate = new ODocumentInputStream(document);"
+        "76": "\t   delegate = new ODocumentInputStream(document);",
+        "17": "",
+        "18": "package org.apache.poi.poifs.filesystem;",
+        "83": "    */",
+        "84": "   public DocumentInputStream(NPOIFSDocument document) {",
+        "22": "",
+        "23": "import org.apache.poi.util.LittleEndianInput;",
+        "26": " * This class provides methods to read a DocumentEntry managed by a",
+        "27": " *  {@link POIFSFileSystem} or {@link NPOIFSFileSystem} instance."
       },
       "id": 97397924,
       "filename": "DocumentInputStream.java"

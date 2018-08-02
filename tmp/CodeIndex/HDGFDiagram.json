@@ -1,8 +1,8 @@
 {
-  "matchterm": "HDGFDiagram",
+  "matchterm": "org.apache.poi.hdgf.HDGFDiagram",
   "previouspage": null,
-  "searchterm": "HDGFDiagram",
-  "query": "HDGFDiagram",
+  "searchterm": "org.apache.poi.hdgf.HDGFDiagram",
+  "query": "org.apache.poi.hdgf.HDGFDiagram",
   "language_filters": [
     {
       "count": 3,
@@ -21,10 +21,23 @@
       "url": "https://searchcode.com/codesearch/view/97396300/",
       "md5hash": "f08b2eea782e030096ccaf8367f64ad3",
       "lines": {
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
         "42": "",
         "43": "\t\tHDGFDiagram hdgf = new HDGFDiagram(",
+        "44": "\t\t\t\tnew POIFSFileSystem(new FileInputStream(args[0]))",
+        "17": "",
+        "18": "package org.apache.poi.hdgf.dev;",
         "21": "",
-        "22": "import org.apache.poi.hdgf.HDGFDiagram;"
+        "22": "import org.apache.poi.hdgf.HDGFDiagram;",
+        "23": "import org.apache.poi.hdgf.chunks.Chunk;",
+        "24": "import org.apache.poi.hdgf.chunks.Chunk.Command;",
+        "25": "import org.apache.poi.hdgf.pointers.Pointer;",
+        "26": "import org.apache.poi.hdgf.streams.ChunkStream;",
+        "27": "import org.apache.poi.hdgf.streams.PointerContainingStream;",
+        "28": "import org.apache.poi.hdgf.streams.Stream;",
+        "29": "import org.apache.poi.poifs.filesystem.POIFSFileSystem;",
+        "30": ""
       },
       "id": 97396300,
       "filename": "VSDDumper.java"
@@ -38,10 +51,21 @@
       "url": "https://searchcode.com/codesearch/view/97397248/",
       "md5hash": "3eb320077de8a4bc1854a83f8ac115d8",
       "lines": {
-        "99": "\tpublic void testOpen() throws Exception {",
-        "100": "\t\tHDGFDiagram dg = new HDGFDiagram(filesystem);",
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hdgf.streams;",
         "21": "",
-        "22": "import org.apache.poi.hdgf.HDGFDiagram;"
+        "22": "import org.apache.poi.hdgf.HDGFDiagram;",
+        "23": "import org.apache.poi.hdgf.chunks.ChunkFactory;",
+        "24": "import org.apache.poi.hdgf.pointers.Pointer;",
+        "25": "import org.apache.poi.hdgf.pointers.PointerFactory;",
+        "26": "import org.apache.poi.poifs.filesystem.DocumentEntry;",
+        "27": "import org.apache.poi.poifs.filesystem.POIFSFileSystem;",
+        "28": "import org.apache.poi.POIDataSamples;",
+        "29": ""
       },
       "id": 97397248,
       "filename": "TestStreamBugs.java"
@@ -55,10 +79,22 @@
       "url": "https://searchcode.com/codesearch/view/88636800/",
       "md5hash": "e6b18c254bff1274b7d54ad255069559",
       "lines": {
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "59": "\t\textractor = new VisioTextExtractor(",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "60": "\t\t\tnew HDGFDiagram(",
+        "17": "",
+        "18": "package org.apache.poi.hdgf.extractor;",
+        "118": "        // YK: stdout can contain lots of other stuff if logging is sent to console",
+        "119": "        // ( -Dorg.apache.poi.util.POILogger=org.apache.poi.util.SystemOutLogger)",
         "24": "",
         "25": "import org.apache.poi.hdgf.HDGFDiagram;",
-        "59": "\t\textractor = new VisioTextExtractor(",
-        "60": "\t\t\tnew HDGFDiagram("
+        "26": "import org.apache.poi.poifs.filesystem.POIFSFileSystem;",
+        "27": "import org.apache.poi.POIDataSamples;",
+        "28": "",
+        "61": "\t\t\t\tnew POIFSFileSystem("
       },
       "id": 88636800,
       "filename": "TestVisioExtractor.java"

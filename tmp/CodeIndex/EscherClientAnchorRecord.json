@@ -1,8 +1,8 @@
 {
-  "matchterm": "EscherClientAnchorRecord",
+  "matchterm": "org.apache.poi.ddf.EscherClientAnchorRecord",
   "previouspage": null,
-  "searchterm": "EscherClientAnchorRecord",
-  "query": "EscherClientAnchorRecord",
+  "searchterm": "org.apache.poi.ddf.EscherClientAnchorRecord",
+  "query": "org.apache.poi.ddf.EscherClientAnchorRecord",
   "language_filters": [
     {
       "count": 10,
@@ -13,40 +13,6 @@
   "total": 10,
   "results": [
     {
-      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
-      "language": "Java",
-      "linescount": 367,
-      "location": "/src/org/apache/poi/ddf",
-      "name": "SimpleAndroidDocView",
-      "url": "https://searchcode.com/codesearch/view/97383887/",
-      "md5hash": "d8bf171bd67e94248948f95b65be2c73",
-      "lines": {
-        "33": " */",
-        "34": "public class EscherClientAnchorRecord",
-        "27": " * the offsets within those cells.  Each cell is 1024 units wide by 256 units long regardless",
-        "28": " * of the actual size of the cell.  The EscherClientAnchorRecord only applies to the top-most"
-      },
-      "id": 97383887,
-      "filename": "EscherClientAnchorRecord.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 373,
-      "location": "/components/forks/poi/src/loci/poi/ddf",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642609/",
-      "md5hash": "b31460ee9e68bd35115a605f8500fa9a",
-      "lines": {
-        "56": " */",
-        "57": "public class EscherClientAnchorRecord",
-        "50": " * the offsets within those cells.  Each cell is 1024 units wide by 256 units long regardless",
-        "51": " * of the actual size of the cell.  The EscherClientAnchorRecord only applies to the top-most"
-      },
-      "id": 15642609,
-      "filename": "EscherClientAnchorRecord.java"
-    },
-    {
       "repo": "https://github.com/minstrelsy/POI-Android.git",
       "language": "Java",
       "linescount": 500,
@@ -55,14 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97394276/",
       "md5hash": "00f483b8f00b9a5717d160ff19beda8e",
       "lines": {
-        "184": "                EscherClientAnchorRecord clrec = (EscherClientAnchorRecord)getEscherChild(_escherContainer, EscherClientAnchorRecord.RECORD_ID);",
-        "235": "            EscherClientAnchorRecord rec = (EscherClientAnchorRecord)getEscherChild(_escherContainer, EscherClientAnchorRecord.RECORD_ID);",
-        "201": "        else {",
+        "32": "import org.apache.poi.hslf.record.ColorSchemeAtom;",
+        "33": "import org.apache.poi.util.POILogFactory;",
+        "34": "import org.apache.poi.util.POILogger;",
+        "35": "",
+        "17": "",
+        "18": "package org.apache.poi.hslf.model;",
+        "23": "",
         "24": "import org.apache.poi.ddf.EscherChildAnchorRecord;",
         "25": "import org.apache.poi.ddf.EscherClientAnchorRecord;",
-        "202": "            EscherClientAnchorRecord rec = (EscherClientAnchorRecord)getEscherChild(_escherContainer, EscherClientAnchorRecord.RECORD_ID);",
-        "183": "                logger.log(POILogger.WARN, \"EscherSpRecord.FLAG_CHILD is set but EscherChildAnchorRecord was not found\");",
-        "234": "        else {"
+        "26": "import org.apache.poi.ddf.EscherContainerRecord;",
+        "27": "import org.apache.poi.ddf.EscherOptRecord;",
+        "28": "import org.apache.poi.ddf.EscherProperty;",
+        "29": "import org.apache.poi.ddf.EscherRecord;",
+        "30": "import org.apache.poi.ddf.EscherSimpleProperty;",
+        "31": "import org.apache.poi.ddf.EscherSpRecord;"
       },
       "id": 97394276,
       "filename": "Shape.java"
@@ -76,34 +49,53 @@
       "url": "https://searchcode.com/codesearch/view/97394265/",
       "md5hash": "209d3abdc4c9f2d12e19f15421567bba",
       "lines": {
-        "96": "            anchor = new EscherClientAnchorRecord();",
-        "97": "",
-        "98": "            //hack. internal variable EscherClientAnchorRecord.shortRecord can be",
+        "32": "import org.apache.poi.ddf.EscherProperties;",
+        "33": "import org.apache.poi.ddf.EscherRecord;",
+        "34": "import org.apache.poi.ddf.EscherSimpleProperty;",
+        "35": "import org.apache.poi.ddf.EscherSpRecord;",
+        "36": "import org.apache.poi.hslf.exceptions.HSLFException;",
+        "37": "import org.apache.poi.hslf.record.InteractiveInfo;",
+        "17": "",
+        "18": "package org.apache.poi.hslf.model;",
+        "25": "",
+        "26": "import org.apache.poi.ddf.DefaultEscherRecordFactory;",
         "27": "import org.apache.poi.ddf.EscherChildAnchorRecord;",
         "28": "import org.apache.poi.ddf.EscherClientAnchorRecord;",
-        "95": "        else {"
+        "29": "import org.apache.poi.ddf.EscherClientDataRecord;",
+        "30": "import org.apache.poi.ddf.EscherContainerRecord;",
+        "31": "import org.apache.poi.ddf.EscherOptRecord;"
       },
       "id": 97394265,
       "filename": "SimpleShape.java"
     },
     {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
       "language": "Java",
-      "linescount": 91,
-      "location": "/components/forks/poi/src/loci/poi/hssf/model",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642362/",
-      "md5hash": "4a104008df6507ccad1c60c8d405747e",
+      "linescount": 367,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383887/",
+      "md5hash": "d8bf171bd67e94248948f95b65be2c73",
       "lines": {
-        "44": "import loci.poi.ddf.EscherClientAnchorRecord;",
-        "43": "import loci.poi.ddf.EscherRecord;",
-        "60": "",
-        "61": "            EscherClientAnchorRecord anchor = new EscherClientAnchorRecord();",
-        "62": "            anchor.setRecordId( EscherClientAnchorRecord.RECORD_ID );",
-        "63": "            anchor.setOptions( (short) 0x0000 );"
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "33": " */",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "34": "public class EscherClientAnchorRecord",
+        "17": "",
+        "18": "package org.apache.poi.ddf;",
+        "19": "",
+        "20": "import org.apache.poi.util.HexDump;",
+        "21": "import org.apache.poi.util.LittleEndian;",
+        "22": "",
+        "27": " * the offsets within those cells.  Each cell is 1024 units wide by 256 units long regardless",
+        "28": " * of the actual size of the cell.  The EscherClientAnchorRecord only applies to the top-most"
       },
-      "id": 15642362,
-      "filename": "ConvertAnchor.java"
+      "id": 97383887,
+      "filename": "EscherClientAnchorRecord.java"
     },
     {
       "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
@@ -114,11 +106,105 @@
       "url": "https://searchcode.com/codesearch/view/97383906/",
       "md5hash": "3324931c58f18c045e9c34e4e1ad839e",
       "lines": {
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.ddf;",
+        "23": "",
+        "24": "import org.apache.poi.util.LittleEndian;",
         "36": "            EscherOptRecord.class, EscherTertiaryOptRecord.class,",
         "37": "            EscherClientAnchorRecord.class, EscherDgRecord.class,"
       },
       "id": 97383906,
       "filename": "DefaultEscherRecordFactory.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 91,
+      "location": "/components/forks/poi/src/loci/poi/hssf/model",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642362/",
+      "md5hash": "4a104008df6507ccad1c60c8d405747e",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "import loci.poi.ddf.EscherRecord;",
+        "44": "import loci.poi.ddf.EscherClientAnchorRecord;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import loci.poi.ddf.EscherChildAnchorRecord;",
+        "46": "import loci.poi.hssf.usermodel.HSSFAnchor;",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "42": "",
+        "31": ""
+      },
+      "id": 15642362,
+      "filename": "ConvertAnchor.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 77,
+      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642321/",
+      "md5hash": "5d9b7ec6225045ddb6c50adcb1c13bee",
+      "lines": {
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "39": "",
+        "40": "package loci.poi.hssf.usermodel;",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "import loci.poi.ddf.EscherClientAnchorRecord;",
+        "44": "import loci.poi.ddf.EscherChildAnchorRecord;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "",
+        "41": "",
+        "42": "import loci.poi.ddf.EscherRecord;",
+        "30": "",
+        "31": "       http://www.apache.org/licenses/LICENSE-2.0"
+      },
+      "id": 15642321,
+      "filename": "HSSFChildAnchor.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 373,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642609/",
+      "md5hash": "b31460ee9e68bd35115a605f8500fa9a",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "        ",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "41": "package loci.poi.ddf;",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "27": "   this work for additional information regarding copyright ownership.",
+        "28": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "42": "",
+        "31": ""
+      },
+      "id": 15642609,
+      "filename": "EscherClientAnchorRecord.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -129,8 +215,21 @@
       "url": "https://searchcode.com/codesearch/view/15642361/",
       "md5hash": "e8926e1642d96e5be85459525b4970cd",
       "lines": {
-        "81": "        EscherOptRecord opt = new EscherOptRecord();",
-        "82": "        EscherRecord anchor = new EscherClientAnchorRecord();"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "",
+        "44": "import loci.poi.ddf.*;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import loci.poi.hssf.record.*;",
+        "50": " *",
+        "51": " * @author Glen Stampoultzis (glens at apache.org)",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "31": ""
       },
       "id": 15642361,
       "filename": "LineShape.java"
@@ -144,8 +243,21 @@
       "url": "https://searchcode.com/codesearch/view/15642364/",
       "md5hash": "caf9b32bdd1d6052248a6d5f8cf5c345",
       "lines": {
-        "110": "        EscherOptRecord opt = new EscherOptRecord();",
-        "111": "        EscherRecord anchor = new EscherClientAnchorRecord();"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "",
+        "44": "import loci.poi.ddf.*;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import loci.poi.hssf.record.*;",
+        "51": " *",
+        "52": " * @author Glen Stampoultzis (glens at apache.org)",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "31": ""
       },
       "id": 15642364,
       "filename": "TextboxShape.java"
@@ -159,26 +271,25 @@
       "url": "https://searchcode.com/codesearch/view/15642620/",
       "md5hash": "c686784da3da38fecea2e5b988b86ece",
       "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "        ",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "import loci.poi.hssf.record.RecordFormatException;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
         "60": "    private static Class[] escherRecordClasses = {",
-        "61": "        EscherBSERecord.class, EscherOptRecord.class, EscherClientAnchorRecord.class, EscherDgRecord.class,"
+        "41": "package loci.poi.ddf;",
+        "61": "        EscherBSERecord.class, EscherOptRecord.class, EscherClientAnchorRecord.class, EscherDgRecord.class,",
+        "27": "   this work for additional information regarding copyright ownership.",
+        "28": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "42": "",
+        "31": ""
       },
       "id": 15642620,
       "filename": "DefaultEscherRecordFactory.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 77,
-      "location": "/components/forks/poi/src/loci/poi/hssf/usermodel",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642321/",
-      "md5hash": "5d9b7ec6225045ddb6c50adcb1c13bee",
-      "lines": {
-        "42": "import loci.poi.ddf.EscherRecord;",
-        "43": "import loci.poi.ddf.EscherClientAnchorRecord;"
-      },
-      "id": 15642321,
-      "filename": "HSSFChildAnchor.java"
     }
   ],
   "page": 0,

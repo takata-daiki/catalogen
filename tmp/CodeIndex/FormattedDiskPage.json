@@ -1,8 +1,8 @@
 {
-  "matchterm": "FormattedDiskPage",
+  "matchterm": "org.apache.poi.hwpf.model.FormattedDiskPage",
   "previouspage": null,
-  "searchterm": "FormattedDiskPage",
-  "query": "FormattedDiskPage",
+  "searchterm": "org.apache.poi.hwpf.model.FormattedDiskPage",
+  "query": "org.apache.poi.hwpf.model.FormattedDiskPage",
   "language_filters": [
     {
       "count": 1,
@@ -21,21 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97384195/",
       "md5hash": "4b50336a137f1a24d0274bce878f8610",
       "lines": {
-        "66": "    /**",
-        "67": "     * Creates a PAPFormattedDiskPage from a 512 byte array",
-        "69": "     * @deprecated Use",
-        "70": "     *             {@link #PAPFormattedDiskPage(byte[], byte[], int, CharIndexTranslator)}",
-        "72": "     */",
-        "73": "    public PAPFormattedDiskPage( byte[] documentStream, byte[] dataStream,",
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
         "46": "@Internal",
         "47": "public final class PAPFormattedDiskPage extends FormattedDiskPage {",
-        "80": "     * Creates a PAPFormattedDiskPage from a 512 byte array",
-        "81": "     */",
-        "82": "    public PAPFormattedDiskPage( byte[] documentStream, byte[] dataStream,",
-        "54": "    /**",
-        "55": "     * @deprecated Use {@link #PAPFormattedDiskPage()} instead",
-        "56": "     */",
-        "79": "    /**"
+        "17": "",
+        "18": "package org.apache.poi.hwpf.model;",
+        "25": "",
+        "26": "import org.apache.poi.hwpf.model.io.HWPFOutputStream;",
+        "27": "import org.apache.poi.util.Internal;",
+        "28": "import org.apache.poi.util.LittleEndian;",
+        "29": ""
       },
       "id": 97384195,
       "filename": "PAPFormattedDiskPage.java"

@@ -1,16 +1,16 @@
 {
-  "matchterm": "SheetBuilder",
+  "matchterm": "org.apache.poi.ss.util.SheetBuilder",
   "previouspage": null,
-  "searchterm": "SheetBuilder",
-  "query": "SheetBuilder",
+  "searchterm": "org.apache.poi.ss.util.SheetBuilder",
+  "query": "org.apache.poi.ss.util.SheetBuilder",
   "language_filters": [
     {
-      "count": 3,
+      "count": 1,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 3,
+  "total": 1,
   "results": [
     {
       "repo": "https://github.com/crazyfarmer/cutstock.git",
@@ -21,82 +21,32 @@
       "url": "https://searchcode.com/codesearch/view/72193354/",
       "md5hash": "e0a13f8d03ad5692ac6b1d748480bf0a",
       "lines": {
-        "68": "",
-        "69": "\tpublic SheetBuilder setDefualSetting() {",
-        "75": "",
-        "76": "\tpublic SheetBuilder createMainTitle(ICellInfo title) {",
-        "46": " */",
-        "47": "public class SheetBuilder {",
-        "81": "",
-        "82": "\tpublic SheetBuilder createSubTitle(ICellInfo subTitle) {",
-        "51": "",
-        "52": "\tpublic SheetBuilder(Sheet sheet) {",
-        "86": "",
-        "87": "\tpublic SheetBuilder createColumns(ICellInfo columns) {",
-        "56": "",
-        "57": "\tpublic SheetBuilder builder() {",
-        "60": "",
-        "61": "\tpublic SheetBuilder setPrint() {"
+        "32": "import org.apache.poi.ss.usermodel.IndexedColors;",
+        "1": "/*",
+        "2": " * Licensed to the Apache Software Foundation (ASF) under one",
+        "5": " * regarding copyright ownership.  The ASF licenses this file",
+        "6": " * to you under the Apache License, Version 2.0 (the",
+        "9": " *",
+        "10": " *   http://www.apache.org/licenses/LICENSE-2.0",
+        "11": " *",
+        "24": "",
+        "25": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "26": "import org.apache.poi.ss.usermodel.Cell;",
+        "27": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "28": "import org.apache.poi.ss.usermodel.ClientAnchor;",
+        "29": "import org.apache.poi.ss.usermodel.CreationHelper;",
+        "30": "import org.apache.poi.ss.usermodel.Drawing;",
+        "31": "import org.apache.poi.ss.usermodel.Font;"
       },
       "id": 72193354,
       "filename": "SheetBuilder.java"
-    },
-    {
-      "repo": "https://github.com/crazyfarmer/cutstock.git",
-      "language": "Java",
-      "linescount": 110,
-      "location": "/com.github.cutstock/src/com/github/cutstock/excel",
-      "name": "cutstock",
-      "url": "https://searchcode.com/codesearch/view/72193240/",
-      "md5hash": "b1a982be085c21e98de81d2bb38aff5c",
-      "lines": {
-        "64": "\t\tExcelTitle mainTitle = ExcelModelFactory.createMainTitle(titleRect);",
-        "65": "\t\tsheetBuilder.createMainTitle(mainTitle);",
-        "68": "\t\tExcelTitle subTitle = ExcelModelFactory.createSubTitle(subTitleRect);",
-        "69": "\t\tsheetBuilder.createSubTitle(subTitle);",
-        "72": "\t\tExcelTitle mainTitle1 = ExcelModelFactory.createMainTitle(titleRect1);",
-        "73": "\t\tsheetBuilder.createMainTitle(mainTitle1);",
-        "42": "\tprotected SheetBuilder sheetBuilder;",
-        "76": "\t\tExcelTitle subTitle1 = ExcelModelFactory.createSubTitle(subTitleRect1);",
-        "77": "\t\tsheetBuilder.createSubTitle(subTitle1);",
-        "84": "\t\tProfileCells cellInfo = (ProfileCells) ExcelModelFactory.createCells(columnsArr,cellRect);",
-        "85": "\t\tsheetBuilder.createColumns(cellInfo);",
-        "41": "\tprotected Workbook wb;",
-        "88": "\t\tcellInfo = (ProfileCells) ExcelModelFactory.createCells(columnsArr,cellRightRect);",
-        "89": "\t\tsheetBuilder.createColumns(cellInfo);",
-        "58": "\t\tSheet sheet = wb.createSheet();",
-        "59": "\t\tsheetBuilder = new SheetBuilder(sheet);"
-      },
-      "id": 72193240,
-      "filename": "ExcelWriterSupport.java"
-    },
-    {
-      "repo": "https://github.com/crazyfarmer/cutstock.git",
-      "language": "Java",
-      "linescount": 163,
-      "location": "/com.github.cutstock/src/com/github/cutstock/excel",
-      "name": "cutstock",
-      "url": "https://searchcode.com/codesearch/view/72193229/",
-      "md5hash": "4147788449a94dcf82127e20983cbffb",
-      "lines": {
-        "97": "\t\t\t\tcellRect);",
-        "98": "\t\tsheetBuilder.createTitle(cellInfo);",
-        "83": "\t\t\t\tcellRect);",
-        "84": "\t\tsheetBuilder.createTitle(cellInfo);",
-        "131": "\t\t\tsheetBuilder.createColumns(cellInfo);",
-        "90": "\t\t\t\tcellRect);",
-        "91": "\t\tsheetBuilder.createTitle(cellInfo);",
-        "130": "\t\t\t\t\t.createCells(orderInfo.getColumns(), cellRect);"
-      },
-      "id": 72193229,
-      "filename": "ProfileExcelWriter.java"
     }
   ],
   "page": 0,
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 3,
+      "count": 1,
       "source": "Github",
       "id": 2
     }

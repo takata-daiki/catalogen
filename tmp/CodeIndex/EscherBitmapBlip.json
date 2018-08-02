@@ -1,8 +1,8 @@
 {
-  "matchterm": "EscherBitmapBlip",
+  "matchterm": "org.apache.poi.ddf.EscherBitmapBlip",
   "previouspage": null,
-  "searchterm": "EscherBitmapBlip",
-  "query": "EscherBitmapBlip",
+  "searchterm": "org.apache.poi.ddf.EscherBitmapBlip",
+  "query": "org.apache.poi.ddf.EscherBitmapBlip",
   "language_filters": [
     {
       "count": 7,
@@ -13,38 +13,6 @@
   "total": 7,
   "results": [
     {
-      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
-      "language": "Java",
-      "linescount": 140,
-      "location": "/src/org/apache/poi/ddf",
-      "name": "SimpleAndroidDocView",
-      "url": "https://searchcode.com/codesearch/view/97383913/",
-      "md5hash": "343ae46afd1b444d81fe9533f49df4c4",
-      "lines": {
-        "27": " */",
-        "28": "public class EscherBitmapBlip extends EscherBlipRecord {"
-      },
-      "id": 97383913,
-      "filename": "EscherBitmapBlip.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 169,
-      "location": "/components/forks/poi/src/loci/poi/ddf",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642617/",
-      "md5hash": "fb62ed16aaeadc31eaf5e821bd5d40fe",
-      "lines": {
-        "48": " * @author Glen Stampoultzis",
-        "49": " * @version $Id: EscherBitmapBlip.java 569827 2007-08-26 15:26:29Z yegor $",
-        "50": " */",
-        "51": "public class EscherBitmapBlip"
-      },
-      "id": 15642617,
-      "filename": "EscherBitmapBlip.java"
-    },
-    {
       "repo": "https://github.com/solsson/tika.git",
       "language": "Java",
       "linescount": 595,
@@ -53,17 +21,53 @@
       "url": "https://searchcode.com/codesearch/view/111785559/",
       "md5hash": "6b55090236799f49ee0f5bd7d54bbbac",
       "lines": {
-        "549": "                       break;",
-        "550": "                    case EscherBitmapBlip.RECORD_ID_PNG:",
-        "552": "                       break;",
-        "553": "                    case EscherBitmapBlip.RECORD_ID_JPEG:",
-        "555": "                       break;",
-        "556": "                    case EscherBitmapBlip.RECORD_ID_DIB:",
+        "32": "import org.apache.poi.ddf.EscherBlipRecord;",
+        "33": "import org.apache.poi.ddf.EscherMetafileBlip;",
+        "34": "import org.apache.poi.ddf.EscherRecord;",
+        "35": "import org.apache.poi.hssf.eventusermodel.FormatTrackingHSSFListener;",
+        "36": "import org.apache.poi.hssf.eventusermodel.HSSFEventFactory;",
+        "37": "import org.apache.poi.hssf.eventusermodel.HSSFListener;",
+        "38": "import org.apache.poi.hssf.eventusermodel.HSSFRequest;",
+        "39": "import org.apache.poi.hssf.record.AbstractEscherHolderRecord;",
+        "8": " *",
+        "9": " *     http://www.apache.org/licenses/LICENSE-2.0",
+        "16": " */",
+        "17": "package org.apache.tika.parser.microsoft;",
+        "18": "",
+        "40": "import org.apache.poi.hssf.record.BOFRecord;",
+        "29": "",
         "30": "import org.apache.poi.ddf.EscherBSERecord;",
         "31": "import org.apache.poi.ddf.EscherBitmapBlip;"
       },
       "id": 111785559,
       "filename": "ExcelExtractor.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 140,
+      "location": "/src/org/apache/poi/ddf",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97383913/",
+      "md5hash": "343ae46afd1b444d81fe9533f49df4c4",
+      "lines": {
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.ddf;",
+        "19": "",
+        "20": "import org.apache.poi.util.HexDump;",
+        "21": "import org.apache.poi.util.LittleEndian;",
+        "22": "",
+        "27": " */",
+        "28": "public class EscherBitmapBlip extends EscherBlipRecord {"
+      },
+      "id": 97383913,
+      "filename": "EscherBitmapBlip.java"
     },
     {
       "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
@@ -74,33 +78,23 @@
       "url": "https://searchcode.com/codesearch/view/97383906/",
       "md5hash": "3324931c58f18c045e9c34e4e1ad839e",
       "lines": {
-        "80": "                    recordId == EscherBitmapBlip.RECORD_ID_PNG)",
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
         "81": "            {",
-        "82": "                r = new EscherBitmapBlip();",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
         "77": "            EscherBlipRecord r;",
         "78": "            if (recordId == EscherBitmapBlip.RECORD_ID_DIB ||",
-        "79": "                    recordId == EscherBitmapBlip.RECORD_ID_JPEG ||"
+        "79": "                    recordId == EscherBitmapBlip.RECORD_ID_JPEG ||",
+        "80": "                    recordId == EscherBitmapBlip.RECORD_ID_PNG)",
+        "17": "",
+        "18": "package org.apache.poi.ddf;",
+        "23": "",
+        "24": "import org.apache.poi.util.LittleEndian;"
       },
       "id": 97383906,
-      "filename": "DefaultEscherRecordFactory.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 178,
-      "location": "/components/forks/poi/src/loci/poi/ddf",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642620/",
-      "md5hash": "c686784da3da38fecea2e5b988b86ece",
-      "lines": {
-        "99": "            EscherBlipRecord r;",
-        "100": "            if (header.getRecordId() == EscherBitmapBlip.RECORD_ID_DIB ||",
-        "101": "                    header.getRecordId() == EscherBitmapBlip.RECORD_ID_JPEG ||",
-        "102": "                    header.getRecordId() == EscherBitmapBlip.RECORD_ID_PNG)",
-        "103": "            {",
-        "104": "                r = new EscherBitmapBlip();"
-      },
-      "id": 15642620,
       "filename": "DefaultEscherRecordFactory.java"
     },
     {
@@ -112,12 +106,22 @@
       "url": "https://searchcode.com/codesearch/view/15642316/",
       "md5hash": "4f7b036daf89776dc4ee4606b7972144",
       "lines": {
-        "1280": "        byte[] uid = newUID();",
-        "1281": "        EscherBitmapBlip blipRecord = new EscherBitmapBlip();",
-        "1282": "        blipRecord.setRecordId( (short) ( EscherBitmapBlip.RECORD_ID_START + format ) );",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "55": "import loci.poi.hssf.eventmodel.EventRecordFactory;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "50": "import loci.poi.POIDocument;",
         "51": "import loci.poi.ddf.EscherBSERecord;",
         "52": "import loci.poi.ddf.EscherBitmapBlip;",
-        "1283": "        switch (format)"
+        "53": "import loci.poi.ddf.EscherRecord;",
+        "54": "import loci.poi.ddf.EscherBlipRecord;",
+        "23": "/* ====================================================================",
+        "24": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "30": "",
+        "31": "       http://www.apache.org/licenses/LICENSE-2.0"
       },
       "id": 15642316,
       "filename": "HSSFWorkbook.java"
@@ -131,11 +135,82 @@
       "url": "https://searchcode.com/codesearch/view/15642299/",
       "md5hash": "05dfe158a30664719ca8667156e883c4",
       "lines": {
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "39": "",
+        "40": "package loci.poi.hssf.usermodel;",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "import loci.poi.ddf.EscherBlipRecord;",
+        "44": "",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "42": "import loci.poi.ddf.EscherBitmapBlip;",
         "41": "",
-        "42": "import loci.poi.ddf.EscherBitmapBlip;"
+        "23": "/* ====================================================================",
+        "24": "   Copyright 2002-2004   Apache Software Foundation",
+        "25": "",
+        "29": "",
+        "30": "       http://www.apache.org/licenses/LICENSE-2.0"
       },
       "id": 15642299,
       "filename": "HSSFPictureData.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 169,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642617/",
+      "md5hash": "fb62ed16aaeadc31eaf5e821bd5d40fe",
+      "lines": {
+        "32": "*     http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "39": "*/",
+        "40": "package loci.poi.ddf;",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "41": "",
+        "24": "/*",
+        "25": "* Licensed to the Apache Software Foundation (ASF) under one or more",
+        "27": "* this work for additional information regarding copyright ownership.",
+        "28": "* The ASF licenses this file to You under the Apache License, Version 2.0",
+        "31": "*"
+      },
+      "id": 15642617,
+      "filename": "EscherBitmapBlip.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 178,
+      "location": "/components/forks/poi/src/loci/poi/ddf",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642620/",
+      "md5hash": "c686784da3da38fecea2e5b988b86ece",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "40": "        ",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "41": "package loci.poi.ddf;",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "27": "   this work for additional information regarding copyright ownership.",
+        "28": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "42": "",
+        "31": ""
+      },
+      "id": 15642620,
+      "filename": "DefaultEscherRecordFactory.java"
     }
   ],
   "page": 0,

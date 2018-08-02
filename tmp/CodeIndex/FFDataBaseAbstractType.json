@@ -1,8 +1,8 @@
 {
-  "matchterm": "FFDataBaseAbstractType",
+  "matchterm": "org.apache.poi.hwpf.model.types.FFDataBaseAbstractType",
   "previouspage": null,
-  "searchterm": "FFDataBaseAbstractType",
-  "query": "FFDataBaseAbstractType",
+  "searchterm": "org.apache.poi.hwpf.model.types.FFDataBaseAbstractType",
+  "query": "org.apache.poi.hwpf.model.types.FFDataBaseAbstractType",
   "language_filters": [
     {
       "count": 2,
@@ -15,38 +15,57 @@
     {
       "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
       "language": "Java",
-      "linescount": 429,
-      "location": "/src/org/apache/poi/hwpf/model/types",
-      "name": "SimpleAndroidDocView",
-      "url": "https://searchcode.com/codesearch/view/97384293/",
-      "md5hash": "1dcd6a5f95e73cf81088a202b468698a",
-      "lines": {
-        "80": "    protected FFDataBaseAbstractType()",
-        "124": "        FFDataBaseAbstractType other = (FFDataBaseAbstractType) obj;",
-        "123": "            return false;",
-        "44": "@Internal",
-        "45": "public abstract class FFDataBaseAbstractType",
-        "79": ""
-      },
-      "id": 97384293,
-      "filename": "FFDataBaseAbstractType.java"
-    },
-    {
-      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
-      "language": "Java",
       "linescount": 50,
       "location": "/src/org/apache/poi/hwpf/model",
       "name": "SimpleAndroidDocView",
       "url": "https://searchcode.com/codesearch/view/97384058/",
       "md5hash": "34530a7048a23a88ecd95ae65f21b1f4",
       "lines": {
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "38": "public class FFDataBase extends FFDataBaseAbstractType",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "16": "==================================================================== */",
+        "17": "package org.apache.poi.hwpf.model;",
         "18": "",
         "19": "import org.apache.poi.hwpf.model.types.FFDataBaseAbstractType;",
-        "37": "@Internal",
-        "38": "public class FFDataBase extends FFDataBaseAbstractType"
+        "20": "import org.apache.poi.util.Internal;",
+        "21": "",
+        "37": "@Internal"
       },
       "id": 97384058,
       "filename": "FFDataBase.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/SimpleAndroidDocView.git",
+      "language": "Java",
+      "linescount": 429,
+      "location": "/src/org/apache/poi/hwpf/model/types",
+      "name": "SimpleAndroidDocView",
+      "url": "https://searchcode.com/codesearch/view/97384293/",
+      "md5hash": "1dcd6a5f95e73cf81088a202b468698a",
+      "lines": {
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "33": " * NOTE: This source is automatically generated please do not modify this file.  Either subclass or",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "34": " *       remove the record in src/types/definitions.",
+        "17": "",
+        "18": "package org.apache.poi.hwpf.model.types;",
+        "20": "",
+        "21": "import org.apache.poi.util.BitField;",
+        "22": "import org.apache.poi.util.Internal;",
+        "23": "import org.apache.poi.util.LittleEndian;",
+        "24": ""
+      },
+      "id": 97384293,
+      "filename": "FFDataBaseAbstractType.java"
     }
   ],
   "page": 0,

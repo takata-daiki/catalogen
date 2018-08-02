@@ -1,8 +1,8 @@
 {
-  "matchterm": "MAPIProperty",
+  "matchterm": "org.apache.poi.hsmf.datatypes.MAPIProperty",
   "previouspage": null,
-  "searchterm": "MAPIProperty",
-  "query": "MAPIProperty",
+  "searchterm": "org.apache.poi.hsmf.datatypes.MAPIProperty",
+  "query": "org.apache.poi.hsmf.datatypes.MAPIProperty",
   "language_filters": [
     {
       "count": 1,
@@ -21,10 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/88636100/",
       "md5hash": "9c88a7698cc287ccc385a9389ab3678d",
       "lines": {
-        "148": "         // Special cases based on the ID",
+        "32": "import org.apache.poi.hsmf.datatypes.RecipientChunks;",
+        "33": "import org.apache.poi.hsmf.datatypes.StringChunk;",
+        "34": "import org.apache.poi.hsmf.datatypes.Types;",
+        "17": "",
+        "18": "package org.apache.poi.hsmf.parsers;",
+        "22": "",
+        "23": "import org.apache.poi.hsmf.datatypes.AttachmentChunks;",
+        "24": "import org.apache.poi.hsmf.datatypes.ByteChunk;",
+        "25": "import org.apache.poi.hsmf.datatypes.Chunk;",
+        "26": "import org.apache.poi.hsmf.datatypes.ChunkGroup;",
+        "27": "import org.apache.poi.hsmf.datatypes.Chunks;",
         "28": "import org.apache.poi.hsmf.datatypes.DirectoryChunk;",
         "29": "import org.apache.poi.hsmf.datatypes.MAPIProperty;",
-        "149": "         if(chunkId == MAPIProperty.MESSAGE_SUBMISSION_ID.id) {"
+        "30": "import org.apache.poi.hsmf.datatypes.MessageSubmissionChunk;",
+        "31": "import org.apache.poi.hsmf.datatypes.NameIdChunks;"
       },
       "id": 88636100,
       "filename": "POIFSChunkParser.java"

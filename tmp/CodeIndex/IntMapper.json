@@ -1,150 +1,17 @@
 {
-  "matchterm": "IntMapper",
+  "matchterm": "org.apache.poi.util.IntMapper",
   "previouspage": null,
-  "searchterm": "IntMapper",
-  "query": "IntMapper",
+  "searchterm": "org.apache.poi.util.IntMapper",
+  "query": "org.apache.poi.util.IntMapper",
   "language_filters": [
     {
-      "count": 25,
+      "count": 5,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 25,
+  "total": 5,
   "results": [
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 118,
-      "location": "/components/forks/poi/src/loci/poi/util",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642663/",
-      "md5hash": "9b93aa1133e4d4970f43ae700e92d7a9",
-      "lines": {
-        "115": "    }",
-        "66": "    /**",
-        "67": "     * create an IntMapper of default size",
-        "116": "}   // end public class IntMapper",
-        "69": "",
-        "70": "    public IntMapper()",
-        "75": "    public IntMapper(final int initialCapacity)",
-        "58": "",
-        "59": "public class IntMapper",
-        "74": ""
-      },
-      "id": 15642663,
-      "filename": "IntMapper.java"
-    },
-    {
-      "repo": "https://bitbucket.org/psandoz/lambda-jdk-pipeline-patches",
-      "language": "Java",
-      "linescount": 67,
-      "location": "/src/share/classes/java/util/functions",
-      "name": "lambda-jdk-pipeline-patches",
-      "url": "https://searchcode.com/codesearch/view/132812373/",
-      "md5hash": "731fa21dc9ed4aea64367ed9df3a4873",
-      "lines": {
-        "56": " */",
-        "57": "public interface IntMapper<T> {",
-        "30": " *",
-        "31": " * <p/>Like Mapper, IntMapper implementations are expected to:"
-      },
-      "id": 132812373,
-      "filename": "IntMapper.java"
-    },
-    {
-      "repo": "https://bitbucket.org/psandoz/lambda-jdk",
-      "language": "Java",
-      "linescount": 67,
-      "location": "/src/share/classes/java/util/functions",
-      "name": "lambda-jdk",
-      "url": "https://searchcode.com/codesearch/view/132831692/",
-      "md5hash": "731fa21dc9ed4aea64367ed9df3a4873",
-      "lines": {
-        "56": " */",
-        "57": "public interface IntMapper<T> {",
-        "30": " *",
-        "31": " * <p/>Like Mapper, IntMapper implementations are expected to:"
-      },
-      "id": 132831692,
-      "filename": "IntMapper.java"
-    },
-    {
-      "repo": "git://github.com/JetBrains/intellij-community.git",
-      "language": "Java",
-      "linescount": 21,
-      "location": "/java/java-tests/testData/codeInsight/daemonCodeAnalyzer/lambda/newMethodRef",
-      "name": "intellij-community",
-      "url": "https://searchcode.com/codesearch/view/116166094/",
-      "md5hash": "f2c67aa96d42bfd19beb45c9f0047c70",
-      "lines": {
-        "2": "",
-        "3": "  interface IntMapper {",
-        "10": "",
-        "11": "  void m(IntMapper im1, IntMapper... im) { }",
-        "14": "  {",
-        "15": "      m<error descr=\"Ambiguous method call: both 'Test.m(IntMapper, IntMapper...)' and 'Test.m(LongMapper...)' match\">(this ::ii)</error>;"
-      },
-      "id": 116166094,
-      "filename": "AmbiguityVarargs.java"
-    },
-    {
-      "repo": "https://github.com/peidachang/ormlite-core.git",
-      "language": "Java",
-      "linescount": 43,
-      "location": "/src/test/java/com/j256/ormlite/dao",
-      "name": "ormlite-core",
-      "url": "https://searchcode.com/codesearch/view/70590694/",
-      "md5hash": "3de2d8ecca7b3e41a1a869c1174087ed",
-      "lines": {
-        "33": "",
-        "26": "\t\tqb.selectColumns(Foo.VAL_COLUMN_NAME);",
-        "27": "\t\tGenericRawResults<Integer> rawResults = dao.queryRaw(qb.prepareStatementString(), new IntMapper());",
-        "34": "\tprivate static class IntMapper implements RawRowMapper<Integer> {"
-      },
-      "id": 70590694,
-      "filename": "RawRowMapperTest.java"
-    },
-    {
-      "repo": "https://bitbucket.org/adoptopenjdk/jdk8-langtools",
-      "language": "Java",
-      "linescount": 64,
-      "location": "/test/tools/javac/lambda",
-      "name": "jdk8-langtools",
-      "url": "https://searchcode.com/codesearch/view/137381902/",
-      "md5hash": "481f227574419425d2f6c369f9eb4b02",
-      "lines": {
-        "18": "",
-        "19": "    void m(IntMapper... im) { }",
-        "21": "",
-        "22": "    void m2(IntMapper im1, IntMapper... im) { }",
-        "10": "",
-        "11": "    interface IntMapper {"
-      },
-      "id": 137381902,
-      "filename": "MostSpecific03.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 81,
-      "location": "/components/forks/poi/src/loci/poi/hssf/record",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642371/",
-      "md5hash": "8a73c8cfc7092ff0cb79ed055363162d",
-      "lines": {
-        "76": "    static public void addToStringTable( IntMapper strings, UnicodeString string )",
-        "75": "",
-        "54": "",
-        "55": "    private IntMapper strings;",
-        "56": "",
-        "57": "    public SSTDeserializer( IntMapper strings )",
-        "43": "",
-        "44": "import loci.poi.util.IntMapper;"
-      },
-      "id": 15642371,
-      "filename": "SSTDeserializer.java"
-    },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
       "language": "Java",
@@ -154,14 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/15642381/",
       "md5hash": "b6468b53ac2bca46a92a3e5f8c327ab0",
       "lines": {
-        "384": "        field_3_strings = new IntMapper();",
-        "383": "        field_2_num_unique_strings = in.readInt();",
-        "94": "    private int field_2_num_unique_strings;",
-        "111": "        field_3_strings = new IntMapper();",
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
         "43": "",
         "44": "import loci.poi.util.IntMapper;",
-        "110": "        field_2_num_unique_strings = 0;",
-        "95": "    private IntMapper field_3_strings;"
+        "45": "import loci.poi.util.LittleEndianConsts;",
+        "46": "",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "56": " * <P>",
+        "57": " * @author Andrew C. Oliver (acoliver at apache dot org)",
+        "58": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "59": " * @author Glen Stampoultzis (glens at apache.org)",
+        "60": " *",
+        "31": ""
       },
       "id": 15642381,
       "filename": "SSTRecord.java"
@@ -175,36 +49,54 @@
       "url": "https://searchcode.com/codesearch/view/15642472/",
       "md5hash": "7688b5b952c30a8c519d6dcfc16c5174",
       "lines": {
-        "124": "",
-        "66": "",
-        "67": "    public SSTSerializer( IntMapper strings, int numStrings, int numUniqueStrings )",
-        "56": "    // todo: make private again",
-        "57": "    private IntMapper strings;",
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
         "43": "",
         "44": "import loci.poi.util.IntMapper;",
-        "125": "    private static UnicodeString getUnicodeString( IntMapper strings, int index )"
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "45": "import loci.poi.util.LittleEndian;",
+        "50": " *",
+        "51": " * @author Glen Stampoultzis (glens at apache.org)",
+        "46": "",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "31": ""
       },
       "id": 15642472,
       "filename": "SSTSerializer.java"
     },
     {
-      "repo": "https://bitbucket.org/adoptopenjdk/jdk8-langtools",
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
       "language": "Java",
-      "linescount": 26,
-      "location": "/test/tools/javac/lambda",
-      "name": "jdk8-langtools",
-      "url": "https://searchcode.com/codesearch/view/137382164/",
-      "md5hash": "67094161e42b54a40dc919cd95b42b55",
+      "linescount": 81,
+      "location": "/components/forks/poi/src/loci/poi/hssf/record",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642371/",
+      "md5hash": "8a73c8cfc7092ff0cb79ed055363162d",
       "lines": {
-        "18": "",
-        "19": "    void m(IntMapper im, LongMapper s) { }",
-        "20": "    void m(LongMapper lm, IntMapper s) { }",
-        "21": "",
-        "10": "",
-        "11": "    interface IntMapper {"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "",
+        "44": "import loci.poi.util.IntMapper;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "48": " *",
+        "49": " * @author Glen Stampoultzis (glens at apache.org)",
+        "50": " * @author Jason Height (jheight at apache.org)",
+        "51": " */",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "31": ""
       },
-      "id": 137382164,
-      "filename": "MostSpecific02.java"
+      "id": 15642371,
+      "filename": "SSTDeserializer.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -215,188 +107,60 @@
       "url": "https://searchcode.com/codesearch/view/15642484/",
       "md5hash": "42fae31014d060e08225918c439c2905",
       "lines": {
-        "54": "{",
-        "55": "    private IntMapper strings;",
-        "56": "",
-        "57": "    public SSTRecordSizeCalculator(IntMapper strings)",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "import loci.poi.util.IntMapper;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "49": " *",
+        "50": " * @author Glen Stampoultzis (glens at apache.org)",
+        "51": " * @author Jason Height (jheight at apache.org)",
+        "52": " */",
+        "23": "/* ====================================================================",
+        "24": "   Licensed to the Apache Software Foundation (ASF) under one or more",
         "42": "",
-        "43": "import loci.poi.util.IntMapper;"
+        "30": "",
+        "31": "       http://www.apache.org/licenses/LICENSE-2.0"
       },
       "id": 15642484,
       "filename": "SSTRecordSizeCalculator.java"
     },
     {
-      "repo": "https://bitbucket.org/psandoz/lambda-jdk-pipeline-patches",
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
       "language": "Java",
-      "linescount": 219,
-      "location": "/src/share/classes/java/util",
-      "name": "lambda-jdk-pipeline-patches",
-      "url": "https://searchcode.com/codesearch/view/132811794/",
-      "md5hash": "97389a0f87665f642411a4502c2d4a2f",
+      "linescount": 118,
+      "location": "/components/forks/poi/src/loci/poi/util",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642663/",
+      "md5hash": "9b93aa1133e4d4970f43ae700e92d7a9",
       "lines": {
-        "28": "import java.util.functions.DoubleMapper;",
-        "202": "",
-        "203": "    public static <T> Comparator<T> comparing(IntMapper<? super T> mapper) {",
-        "204": "        return new IntMapperComparator<>(mapper);",
-        "205": "    }",
-        "61": "",
-        "55": "",
-        "56": "    private static class IntMapperComparator<T>",
-        "59": "",
-        "60": "        private final IntMapper<? super T> mapper;",
-        "29": "import java.util.functions.IntMapper;",
-        "62": "        private IntMapperComparator(IntMapper<? super T> mapper) {"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "41": "",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "27": "   this work for additional information regarding copyright ownership.",
+        "28": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "42": "package loci.poi.util;",
+        "31": ""
       },
-      "id": 132811794,
-      "filename": "Comparators.java"
-    },
-    {
-      "repo": "https://bitbucket.org/psandoz/lambda-jdk",
-      "language": "Java",
-      "linescount": 219,
-      "location": "/src/share/classes/java/util",
-      "name": "lambda-jdk",
-      "url": "https://searchcode.com/codesearch/view/132831381/",
-      "md5hash": "97389a0f87665f642411a4502c2d4a2f",
-      "lines": {
-        "28": "import java.util.functions.DoubleMapper;",
-        "202": "",
-        "203": "    public static <T> Comparator<T> comparing(IntMapper<? super T> mapper) {",
-        "204": "        return new IntMapperComparator<>(mapper);",
-        "205": "    }",
-        "61": "",
-        "55": "",
-        "56": "    private static class IntMapperComparator<T>",
-        "59": "",
-        "60": "        private final IntMapper<? super T> mapper;",
-        "29": "import java.util.functions.IntMapper;",
-        "62": "        private IntMapperComparator(IntMapper<? super T> mapper) {"
-      },
-      "id": 132831381,
-      "filename": "Comparators.java"
-    },
-    {
-      "repo": "https://bitbucket.org/adoptopenjdk/jdk8-langtools",
-      "language": "Java",
-      "linescount": 26,
-      "location": "/test/tools/javac/lambda",
-      "name": "jdk8-langtools",
-      "url": "https://searchcode.com/codesearch/view/137381859/",
-      "md5hash": "481034adef25844577ab3a22be15373c",
-      "lines": {
-        "19": "    void m(IntMapper im, String s) { }",
-        "10": "",
-        "11": "    interface IntMapper {",
-        "18": ""
-      },
-      "id": 137381859,
-      "filename": "MostSpecific01.java"
-    },
-    {
-      "repo": "git://github.com/JetBrains/intellij-community.git",
-      "language": "Java",
-      "linescount": 50,
-      "location": "/plugins/InspectionGadgets/test/com/siyeh/igtest/naming/lambda_unfriendly_method_overload",
-      "name": "intellij-community",
-      "url": "https://searchcode.com/codesearch/view/116134806/",
-      "md5hash": "c63fe657904db6865c5f751e48d7e394",
-      "lines": {
-        "25": "  <V> V <warning descr=\"Lambda unfriendly overload of method 'map()'\">map</warning>(Function<T, V> mappar);",
-        "26": "  <V> V <warning descr=\"Lambda unfriendly overload of method 'map()'\">map</warning>(IntFunction<V> intMapper);"
-      },
-      "id": 116134806,
-      "filename": "LambdaUnfriendlyMethodOverload.java"
-    },
-    {
-      "repo": "https://bitbucket.org/psandoz/lambda-jdk-pipeline-patches",
-      "language": "Java",
-      "linescount": 149,
-      "location": "/test-ng/tests/org/openjdk/tests/java/util",
-      "name": "lambda-jdk-pipeline-patches",
-      "url": "https://searchcode.com/codesearch/view/132808674/",
-      "md5hash": "bf37bbecd6f9c475ca2bb4088916f449",
-      "lines": {
-        "32": "import java.util.functions.IntMapper;",
-        "90": "            things[i] = new Thing(intValues[i], 0L, 0.0, null);",
-        "91": "        Comparator<Thing> comp = Comparators.comparing(new IntMapper<Thing>() {",
-        "31": "import java.util.functions.DoubleMapper;"
-      },
-      "id": 132808674,
-      "filename": "ComparatorsTest.java"
-    },
-    {
-      "repo": "https://bitbucket.org/psandoz/lambda-jdk",
-      "language": "Java",
-      "linescount": 149,
-      "location": "/test-ng/tests/org/openjdk/tests/java/util",
-      "name": "lambda-jdk",
-      "url": "https://searchcode.com/codesearch/view/132848771/",
-      "md5hash": "bf37bbecd6f9c475ca2bb4088916f449",
-      "lines": {
-        "32": "import java.util.functions.IntMapper;",
-        "90": "            things[i] = new Thing(intValues[i], 0L, 0.0, null);",
-        "91": "        Comparator<Thing> comp = Comparators.comparing(new IntMapper<Thing>() {",
-        "31": "import java.util.functions.DoubleMapper;"
-      },
-      "id": 132848771,
-      "filename": "ComparatorsTest.java"
-    },
-    {
-      "repo": "https://bitbucket.org/psandoz/lambda-jdk-pipeline-patches",
-      "language": "Java",
-      "linescount": 279,
-      "location": "/test-ng/tests/org/openjdk/tests/java/util",
-      "name": "lambda-jdk-pipeline-patches",
-      "url": "https://searchcode.com/codesearch/view/132808675/",
-      "md5hash": "9a78a3a844185e95abfcf9b9a906da19",
-      "lines": {
-        "54": "    public static final FlatMapper<Integer, Integer> mfLt = (s, e) -> { for (int i=0; i<e; i++) s.apply(i); };",
-        "55": "    public static final IntMapper<Integer> imDoubler = x -> x * 2;"
-      },
-      "id": 132808675,
-      "filename": "LambdaTestHelpers.java"
-    },
-    {
-      "repo": "https://bitbucket.org/psandoz/lambda-jdk-pipeline-patches",
-      "language": "Java",
-      "linescount": 119,
-      "location": "/test-ng/tests/org/openjdk/tests/java/util",
-      "name": "lambda-jdk-pipeline-patches",
-      "url": "https://searchcode.com/codesearch/view/132808676/",
-      "md5hash": "eccb91b259c0d683c8fb26fa16570694",
-      "lines": {
-        "82": "                        Iterators.mapReduce((Iterator<Integer>) args[0],",
-        "83": "                                            (IntMapper<Integer>) args[1],"
-      },
-      "id": 132808676,
-      "filename": "IteratorsNullTest.java"
-    },
-    {
-      "repo": "https://bitbucket.org/psandoz/lambda-jdk-pipeline-patches",
-      "language": "Java",
-      "linescount": 180,
-      "location": "/src/share/classes/java/util",
-      "name": "lambda-jdk-pipeline-patches",
-      "url": "https://searchcode.com/codesearch/view/132811854/",
-      "md5hash": "27af163e835594bf5e5db7add98a230f",
-      "lines": {
-        "86": "",
-        "87": "    public static <T> int mapReduce(Iterator<? extends T> iterator, IntMapper<? super T> mapper, int base, IntBinaryOperator operator) {"
-      },
-      "id": 132811854,
-      "filename": "Iterators.java"
+      "id": 15642663,
+      "filename": "IntMapper.java"
     }
   ],
   "page": 0,
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 17,
-      "source": "Bitbucket",
-      "id": 3
-    },
-    {
-      "count": 8,
+      "count": 5,
       "source": "Github",
       "id": 2
     }

@@ -1,37 +1,44 @@
 {
-  "matchterm": "DocumentProperty",
+  "matchterm": "org.apache.poi.poifs.property.DocumentProperty",
   "previouspage": null,
-  "searchterm": "DocumentProperty",
-  "query": "DocumentProperty",
+  "searchterm": "org.apache.poi.poifs.property.DocumentProperty",
+  "query": "org.apache.poi.poifs.property.DocumentProperty",
   "language_filters": [
     {
-      "count": 28,
+      "count": 8,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 28,
+  "total": 8,
   "results": [
     {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
       "language": "Java",
-      "linescount": 149,
-      "location": "/components/forks/poi/src/loci/poi/poifs/property",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642248/",
-      "md5hash": "999d0b3ab70a5faa19f42b77c3160245",
+      "linescount": 331,
+      "location": "/ppt/poi/org/apache/poi/poifs/filesystem",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97397922/",
+      "md5hash": "4dde31e8066a7b0ff9251c6177b7ac0c",
       "lines": {
-        "65": "",
-        "66": "    public DocumentProperty(final String name, final int size)",
-        "83": "",
-        "52": "public class DocumentProperty",
-        "147": "}   // end public class DocumentProperty",
-        "51": "",
-        "84": "    protected DocumentProperty(final int index, final byte [] array,",
-        "146": "    /* **********  END  extension of Property ********** */"
+        "49": "\tprivate NPOIFSDocument _document;",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "74": "\t\tDocumentProperty property = (DocumentProperty)doc.getProperty();",
+        "75": "\t\t_document = new NPOIFSDocument(",
+        "48": "\t/** the actual Document */",
+        "17": "",
+        "18": "package org.apache.poi.poifs.filesystem;",
+        "73": "      DocumentNode doc = (DocumentNode)document;",
+        "23": "",
+        "24": "import org.apache.poi.poifs.property.DocumentProperty;",
+        "25": "import org.apache.poi.util.LittleEndian;",
+        "26": "",
+        "28": " * This class provides methods to read a DocumentEntry managed by a",
+        "29": " * {@link NPOIFSFileSystem} instance."
       },
-      "id": 15642248,
-      "filename": "DocumentProperty.java"
+      "id": 97397922,
+      "filename": "NDocumentInputStream.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -42,179 +49,24 @@
       "url": "https://searchcode.com/codesearch/view/15642272/",
       "md5hash": "59a31c39c6dfe8eece6f3750636bbe31",
       "lines": {
-        "224": "        _size     = size;",
-        "225": "        _property = new DocumentProperty(name, _size);",
-        "290": "     * Get the DocumentProperty",
-        "291": "     *",
-        "68": "{",
-        "69": "    private DocumentProperty _property;",
-        "294": "",
-        "289": "    /**",
-        "295": "    DocumentProperty getDocumentProperty()",
-        "142": "        _size     = length;",
-        "143": "        _property = new DocumentProperty(name, _size);",
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.poifs.filesystem;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "49": "",
         "50": "import loci.poi.poifs.dev.POIFSViewable;",
         "51": "import loci.poi.poifs.property.DocumentProperty;",
-        "292": "     * @return the instance's DocumentProperty",
-        "121": "        }",
-        "122": "        _property    = new DocumentProperty(name, _size);"
+        "52": "import loci.poi.poifs.property.Property;",
+        "53": "import loci.poi.poifs.storage.BlockWritable;",
+        "54": "import loci.poi.poifs.storage.ListManagedBlock;",
+        "55": "import loci.poi.poifs.storage.DocumentBlock;",
+        "31": ""
       },
       "id": 15642272,
       "filename": "POIFSDocument.java"
-    },
-    {
-      "repo": "https://bitbucket.org/rbair/rbair-controls-8",
-      "language": "Java",
-      "linescount": 1412,
-      "location": "/webview/src/javafx/scene/web",
-      "name": "rbair-controls-8",
-      "url": "https://searchcode.com/codesearch/view/135704336/",
-      "md5hash": "02b92d8206a51b45fa2ad803abc8de2c",
-      "lines": {
-        "352": "    public final ReadOnlyObjectProperty<Document> documentProperty() { ",
-        "1200": "",
-        "339": "     */",
-        "340": "    private final DocumentProperty document = new DocumentProperty();",
-        "1201": "    private final class DocumentProperty",
-        "351": "     */   "
-      },
-      "id": 135704336,
-      "filename": "WebEngine.java"
-    },
-    {
-      "repo": "https://bitbucket.org/shemnon/openjfx-8-master-rt",
-      "language": "Java",
-      "linescount": 1339,
-      "location": "/webview/src/javafx/scene/web",
-      "name": "openjfx-8-master-rt",
-      "url": "https://searchcode.com/codesearch/view/135771949/",
-      "md5hash": "e614eb1de7563b38d54229e01cf3d5bd",
-      "lines": {
-        "340": "     */   ",
-        "341": "    public final ReadOnlyObjectProperty<Document> documentProperty() { ",
-        "1190": "    private final class DocumentProperty",
-        "328": "     */",
-        "329": "    private final DocumentProperty document = new DocumentProperty();",
-        "1189": ""
-      },
-      "id": 135771949,
-      "filename": "WebEngine.java"
-    },
-    {
-      "repo": "https://github.com/bioclipse/bioclipse.joelib.git",
-      "language": "Java",
-      "linescount": 969,
-      "location": "/externals/net.sourceforge.joelib/src/joelib2/io/types/cml",
-      "name": "bioclipse.joelib",
-      "url": "https://searchcode.com/codesearch/view/111498113/",
-      "md5hash": "2c545a8ae34dde3786e71f8fc4ff8860",
-      "lines": {
-        "427": "     *",
-        "428": "     * @param type   The new documentProperty value",
-        "429": "     * @param value  The new documentProperty value",
-        "430": "     */",
-        "431": "    public void setDocumentProperty(String type, Object value)"
-      },
-      "id": 111498113,
-      "filename": "MoleculeFileCDO.java"
-    },
-    {
-      "repo": "http://grooveclipse.googlecode.com/svn/trunk/",
-      "language": "Java",
-      "linescount": 2422,
-      "location": "/plugins/grooveclipse/org.grooveclipse.word.comon/src/org/grooveclipse/word/comon/ole",
-      "name": "grooveclipse",
-      "url": "https://searchcode.com/codesearch/view/12350239/",
-      "md5hash": "6fa4af4c9bd0bab893ba674e27fbb4db",
-      "lines": {
-        "674": "",
-        "131": "\t/**",
-        "132": "\t * The Enum CustomDocumentProperty.",
-        "133": "\t */",
-        "134": "\tpublic enum CustomDocumentProperty {",
-        "675": "\t\t\twordSR.setDocumentProperty(WdBuiltInProperty.WD_PROPERTY_TITLE, \"Title\");",
-        "1044": "\t */",
-        "277": "//\t\t */",
-        "278": "//\t\tprivate DocumentProperty(int key) {",
-        "676": "\t\t\twordSR.setDocumentProperty(WdBuiltInProperty.WD_PROPERTY_AUTHOR,",
-        "155": "\t\t */",
-        "156": "\t\tprivate CustomDocumentProperty(int key) {",
-        "1791": "\tpublic String getCustomDocumentProperty(CustomDocumentProperty property)",
-        "1790": "\t */",
-        "1045": "\tpublic String getDocumentProperty(WdBuiltInProperty property)"
-      },
-      "id": 12350239,
-      "filename": "WordRemoteHandler.java"
-    },
-    {
-      "repo": "https://github.com/minstrelsy/POI-Android.git",
-      "language": "Java",
-      "linescount": 331,
-      "location": "/ppt/poi/org/apache/poi/poifs/filesystem",
-      "name": "POI-Android",
-      "url": "https://searchcode.com/codesearch/view/97397922/",
-      "md5hash": "4dde31e8066a7b0ff9251c6177b7ac0c",
-      "lines": {
-        "24": "import org.apache.poi.poifs.property.DocumentProperty;",
-        "73": "      DocumentNode doc = (DocumentNode)document;",
-        "74": "\t\tDocumentProperty property = (DocumentProperty)doc.getProperty();",
-        "23": ""
-      },
-      "id": 97397922,
-      "filename": "NDocumentInputStream.java"
-    },
-    {
-      "repo": "https://bitbucket.org/rbair/rbair-controls-8",
-      "language": "Java",
-      "linescount": 280,
-      "location": "/webview/test/javafx/scene/web",
-      "name": "rbair-controls-8",
-      "url": "https://searchcode.com/codesearch/view/135698132/",
-      "md5hash": "83de8f8a224d7d3d7150aee1282c1300",
-      "lines": {
-        "49": "",
-        "50": "                web.documentProperty().addListener((ChangeListener)TestBase.this);",
-        "51": "                web.documentProperty().addListener((InvalidationListener)TestBase.this);",
-        "52": "                web.titleProperty().addListener((ChangeListener)TestBase.this);"
-      },
-      "id": 135698132,
-      "filename": "TestBase.java"
-    },
-    {
-      "repo": "https://bitbucket.org/shemnon/openjfx-8-master-rt",
-      "language": "Java",
-      "linescount": 280,
-      "location": "/webview/test/javafx/scene/web",
-      "name": "openjfx-8-master-rt",
-      "url": "https://searchcode.com/codesearch/view/135762748/",
-      "md5hash": "83de8f8a224d7d3d7150aee1282c1300",
-      "lines": {
-        "49": "",
-        "50": "                web.documentProperty().addListener((ChangeListener)TestBase.this);",
-        "51": "                web.documentProperty().addListener((InvalidationListener)TestBase.this);",
-        "52": "                web.titleProperty().addListener((ChangeListener)TestBase.this);"
-      },
-      "id": 135762748,
-      "filename": "TestBase.java"
-    },
-    {
-      "repo": "git://github.com/openmicroscopy/bioformats.git",
-      "language": "Java",
-      "linescount": 191,
-      "location": "/components/forks/poi/src/loci/poi/poifs/filesystem",
-      "name": "bioformats",
-      "url": "https://searchcode.com/codesearch/view/15642284/",
-      "md5hash": "c7b7eca7cfac945ca5b4d26b897fb7d2",
-      "lines": {
-        "66": "     *",
-        "67": "     * @param property the DocumentProperty for this DocumentEntry",
-        "70": "",
-        "71": "    DocumentNode(final DocumentProperty property, final DirectoryNode parent)",
-        "46": "import loci.poi.poifs.dev.POIFSViewable;",
-        "47": "import loci.poi.poifs.property.DocumentProperty;"
-      },
-      "id": 15642284,
-      "filename": "DocumentNode.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -225,66 +77,111 @@
       "url": "https://searchcode.com/codesearch/view/15642286/",
       "md5hash": "a149450acd4d1363e1060108fcdd5c42",
       "lines": {
-        "146": "    {",
-        "147": "        DocumentProperty property = document.getDocumentProperty();",
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.poifs.filesystem;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "50": "import loci.poi.hpsf.ClassID;",
+        "51": "import loci.poi.poifs.dev.POIFSViewable;",
         "52": "import loci.poi.poifs.property.DirectoryProperty;",
         "53": "import loci.poi.poifs.property.DocumentProperty;",
-        "118": "                childNode = new DocumentNode(( DocumentProperty ) child,",
-        "117": "            {"
+        "54": "import loci.poi.poifs.property.Property;",
+        "55": "import loci.poi.util.*;",
+        "59": " *",
+        "60": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "31": ""
       },
       "id": 15642286,
       "filename": "DirectoryNode.java"
     },
     {
-      "repo": "git://github.com/liferay/liferay-portal.git",
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
       "language": "Java",
-      "linescount": 69,
-      "location": "/portal-impl/src/com/liferay/portal/sharepoint/methods",
-      "name": "liferay-portal",
-      "url": "https://searchcode.com/codesearch/view/4121695/",
-      "md5hash": "1742df83b9253e2de0507850861494ee",
+      "linescount": 191,
+      "location": "/components/forks/poi/src/loci/poi/poifs/filesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642284/",
+      "md5hash": "c7b7eca7cfac945ca5b4d26b897fb7d2",
       "lines": {
-        "59": "",
-        "60": "\t\tProperty documentProperty = new Property(\"document\", documentTree);",
-        "61": "",
-        "62": "\t\telements.add(documentProperty);"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.poifs.filesystem;",
+        "45": "",
+        "46": "import loci.poi.poifs.dev.POIFSViewable;",
+        "13": " * ",
+        "48": "",
+        "51": " *",
+        "52": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "56": "    extends EntryNode",
+        "57": "    implements DocumentEntry, POIFSViewable",
+        "47": "import loci.poi.poifs.property.DocumentProperty;",
+        "31": ""
       },
-      "id": 4121695,
-      "filename": "PutDocumentMethodImpl.java"
+      "id": 15642284,
+      "filename": "DocumentNode.java"
     },
     {
-      "repo": "git://github.com/liferay/liferay-portal.git",
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
       "language": "Java",
-      "linescount": 84,
-      "location": "/portal-impl/src/com/liferay/portal/sharepoint/methods",
-      "name": "liferay-portal",
-      "url": "https://searchcode.com/codesearch/view/4121699/",
-      "md5hash": "8b0a3a9dbddb0c4b20997656f5504c2e",
+      "linescount": 522,
+      "location": "/components/forks/poi/src/loci/poi/poifs/filesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642276/",
+      "md5hash": "821ddc8beda41ba4d7ad809592451995",
       "lines": {
-        "74": "",
-        "75": "\t\tProperty documentProperty = new Property(\"document\", documentTree);",
-        "76": "",
-        "77": "\t\telements.add(documentProperty);"
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.poifs.filesystem;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "49": "",
+        "50": "import loci.poi.poifs.common.POIFSConstants;",
+        "51": "import loci.poi.poifs.dev.POIFSViewable;",
+        "52": "import loci.poi.poifs.property.DirectoryProperty;",
+        "53": "import loci.poi.poifs.property.DocumentProperty;",
+        "54": "import loci.poi.poifs.property.Property;",
+        "55": "import loci.poi.poifs.property.PropertyTable;",
+        "56": "import loci.poi.poifs.storage.BATBlock;",
+        "31": ""
       },
-      "id": 4121699,
-      "filename": "GetDocumentMethodImpl.java"
+      "id": 15642276,
+      "filename": "POIFSFileSystem.java"
     },
     {
-      "repo": "git://github.com/liferay/liferay-portal.git",
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
       "language": "Java",
-      "linescount": 81,
-      "location": "/portal-impl/src/com/liferay/portal/sharepoint/methods",
-      "name": "liferay-portal",
-      "url": "https://searchcode.com/codesearch/view/4121707/",
-      "md5hash": "c4a6e5b0814566cfe718a9852523d61d",
+      "linescount": 149,
+      "location": "/components/forks/poi/src/loci/poi/poifs/property",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642248/",
+      "md5hash": "999d0b3ab70a5faa19f42b77c3160245",
       "lines": {
-        "72": "\t\telements.add(documentProperty);",
-        "68": "",
-        "69": "\t\tProperty documentProperty = new Property(",
-        "71": ""
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.poifs.property;",
+        "43": "",
+        "13": " * ",
+        "46": "/**",
+        "47": " * Trivial extension of Property for POIFSDocuments",
+        "48": " *",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "55": "",
+        "56": "    // the POIFSDocument this property is associated with",
+        "57": "    private POIFSDocument _document;",
+        "31": ""
       },
-      "id": 4121707,
-      "filename": "GetDocsMetaInfoMethodImpl.java"
+      "id": 15642248,
+      "filename": "DocumentProperty.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -295,113 +192,61 @@
       "url": "https://searchcode.com/codesearch/view/15642242/",
       "md5hash": "4eff013c957bb876ea3bee107a0e0a82",
       "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.poifs.property;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "47": "",
+        "48": "import loci.poi.poifs.common.POIFSConstants;",
+        "49": "import loci.poi.poifs.storage.ListManagedBlock;",
+        "50": "",
         "56": " * should correspond to a Property, but which does not map to a proper",
         "57": " * Property (i.e., a DirectoryProperty, DocumentProperty, or",
-        "106": "                        properties.add(new DocumentProperty(properties.size(),",
-        "105": "                    case PropertyConstants.DOCUMENT_TYPE :"
+        "58": " * RootProperty) will get mapped to a null Property in the array.",
+        "31": ""
       },
       "id": 15642242,
       "filename": "PropertyFactory.java"
     },
     {
-      "repo": "git://github.com/wspringer/preon.git",
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
       "language": "Java",
-      "linescount": 194,
-      "location": "/preon-el/src/test/java/org/codehaus/preon/el/ctx",
-      "name": "preon",
-      "url": "https://searchcode.com/codesearch/view/17647075/",
-      "md5hash": "9bc23f41bd633507b0557540973db262",
+      "linescount": 214,
+      "location": "/components/forks/poi/src/loci/poi/poifs/filesystem",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642274/",
+      "md5hash": "d74a9faeb8afbeacf8184ac046144902",
       "lines": {
-        "136": "",
-        "123": "    private void documentPropertyOfArrayElement(VariableContext context,",
-        "137": "    private void documentProperty(Reference<VariableResolver> reference) {",
-        "104": "",
-        "105": "        documentProperty(reference);",
-        "106": "        documentArrayElement(context, reference);",
-        "107": "        documentPropertyOfArrayElement(context, reference);",
-        "122": ""
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "41": "",
+        "42": "package loci.poi.poifs.filesystem;",
+        "43": "",
+        "44": "import loci.poi.poifs.property.Property;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "53": " *",
+        "54": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "60": "",
+        "61": "    // the DocumentProperty backing this object",
+        "62": "    private Property      _property;",
+        "31": ""
       },
-      "id": 17647075,
-      "filename": "VariableContextTest.java"
-    },
-    {
-      "repo": "https://github.com/gulbrand/grails.git",
-      "language": "Java",
-      "linescount": 82,
-      "location": "/grails/src/java/org/codehaus/groovy/grails/documentation",
-      "name": "grails",
-      "url": "https://searchcode.com/codesearch/view/106823937/",
-      "md5hash": "f43acc27eea5cb8f6af5e0cc47219560",
-      "lines": {
-        "45": "        if(context!=null&&context.isActive() && getExpandoProperties().contains(mp)) {",
-        "46": "            context.documentProperty(context.getArtefactType(),getJavaClass(), mp.getName());"
-      },
-      "id": 106823937,
-      "filename": "MetadataGeneratingExpandoMetaClass.java"
-    },
-    {
-      "repo": "https://github.com/pa-nico/grails-core.git",
-      "language": "Java",
-      "linescount": 77,
-      "location": "/src/java/org/codehaus/groovy/grails/documentation",
-      "name": "grails-core",
-      "url": "https://searchcode.com/codesearch/view/109539868/",
-      "md5hash": "b3260aa7e4657824ab5694e0f562b9c2",
-      "lines": {
-        "44": "            if (context != null && context.isActive() && getExpandoProperties().contains(mp)) {",
-        "45": "                context.documentProperty(context.getArtefactType(),getJavaClass(), mp.getName());"
-      },
-      "id": 109539868,
-      "filename": "MetadataGeneratingExpandoMetaClass.java"
-    },
-    {
-      "repo": "https://bitbucket.org/shemnon/javafx-gradle.git",
-      "language": "Java",
-      "linescount": 273,
-      "location": "/samples/Ensemble2/src/main/java/ensemble/pages",
-      "name": "javafx-gradle",
-      "url": "https://searchcode.com/codesearch/view/40161215/",
-      "md5hash": "691b521c05776ced595dfe4a3e144df2",
-      "lines": {
-        "102": "            // listen to documents and let them know we are ensemble.ensemble",
-        "103": "            engine.documentProperty().addListener(new InvalidationListener() {"
-      },
-      "id": 40161215,
-      "filename": "DocPage.java"
-    },
-    {
-      "repo": "https://bitbucket.org/openesb/netbeans-soa.git",
-      "language": "Java",
-      "linescount": 93,
-      "location": "/soa.mappercore/src/org/netbeans/modules/soa/mappercore/expressionbuilder",
-      "name": "netbeans-soa",
-      "url": "https://searchcode.com/codesearch/view/43331737/",
-      "md5hash": "af827678bdc424423424627569875749",
-      "lines": {
-        "85": "",
-        "86": "    String DOCUMENT_PROPERTY = \"DocumentProperty\";"
-      },
-      "id": 43331737,
-      "filename": "ExpressionBuilderModel.java"
+      "id": 15642274,
+      "filename": "EntryNode.java"
     }
   ],
   "page": 0,
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 18,
+      "count": 8,
       "source": "Github",
       "id": 2
-    },
-    {
-      "count": 9,
-      "source": "Bitbucket",
-      "id": 3
-    },
-    {
-      "count": 1,
-      "source": "Google Code",
-      "id": 1
     }
   ]
 }

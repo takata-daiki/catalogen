@@ -1,8 +1,8 @@
 {
-  "matchterm": "ZipPackagePropertiesMarshaller",
+  "matchterm": "org.apache.poi.openxml4j.opc.internal.marshallers.ZipPackagePropertiesMarshaller",
   "previouspage": null,
-  "searchterm": "ZipPackagePropertiesMarshaller",
-  "query": "ZipPackagePropertiesMarshaller",
+  "searchterm": "org.apache.poi.openxml4j.opc.internal.marshallers.ZipPackagePropertiesMarshaller",
+  "query": "org.apache.poi.openxml4j.opc.internal.marshallers.ZipPackagePropertiesMarshaller",
   "language_filters": [
     {
       "count": 1,
@@ -21,10 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97406292/",
       "md5hash": "47fc882bc196bd395e952d6ada656cd9",
       "lines": {
-        "163": "\t\t\t\t\tnew ZipPackagePropertiesMarshaller());",
         "50": "import org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller;",
-        "51": "import org.apache.poi.openxml4j.opc.internal.marshallers.ZipPackagePropertiesMarshaller;",
-        "162": "\t\t\t\t\tContentTypes.CORE_PROPERTIES_PART),"
+        "49": "import org.apache.poi.openxml4j.opc.internal.ZipContentTypeManager;",
+        "38": "",
+        "39": "import org.apache.poi.openxml4j.exceptions.InvalidFormatException;",
+        "40": "import org.apache.poi.openxml4j.exceptions.InvalidOperationException;",
+        "41": "import org.apache.poi.openxml4j.exceptions.OpenXML4JException;",
+        "42": "import org.apache.poi.openxml4j.exceptions.OpenXML4JRuntimeException;",
+        "43": "import org.apache.poi.openxml4j.exceptions.PartAlreadyExistsException;",
+        "44": "import org.apache.poi.openxml4j.opc.internal.ContentType;",
+        "45": "import org.apache.poi.openxml4j.opc.internal.ContentTypeManager;",
+        "46": "import org.apache.poi.openxml4j.opc.internal.PackagePropertiesPart;",
+        "47": "import org.apache.poi.openxml4j.opc.internal.PartMarshaller;",
+        "48": "import org.apache.poi.openxml4j.opc.internal.PartUnmarshaller;",
+        "17": "",
+        "18": "package org.apache.poi.openxml4j.opc;"
       },
       "id": 97406292,
       "filename": "OPCPackage.java"

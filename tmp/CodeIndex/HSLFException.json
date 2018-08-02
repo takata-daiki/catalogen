@@ -1,8 +1,8 @@
 {
-  "matchterm": "HSLFException",
+  "matchterm": "org.apache.poi.hslf.exceptions.HSLFException",
   "previouspage": null,
-  "searchterm": "HSLFException",
-  "query": "HSLFException",
+  "searchterm": "org.apache.poi.hslf.exceptions.HSLFException",
+  "query": "org.apache.poi.hslf.exceptions.HSLFException",
   "language_filters": [
     {
       "count": 10,
@@ -15,23 +15,86 @@
     {
       "repo": "https://github.com/minstrelsy/POI-Android.git",
       "language": "Java",
+      "linescount": 1082,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/usermodel",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394959/",
+      "md5hash": "5d80afff23c354813b0c27bde8e947ac",
+      "lines": {
+        "32": "import org.apache.poi.hslf.HSLFSlideShow;",
+        "33": "import org.apache.poi.hslf.exceptions.CorruptPowerPointFileException;",
+        "34": "import org.apache.poi.hslf.exceptions.HSLFException;",
+        "35": "import org.apache.poi.hslf.model.*;",
+        "36": "import org.apache.poi.hslf.model.Notes;",
+        "37": "import org.apache.poi.hslf.model.Slide;",
+        "38": "import org.apache.poi.hslf.record.*;",
+        "39": "import org.apache.poi.hslf.record.SlideListWithText.SlideAtomsSet;",
+        "17": "",
+        "18": "package org.apache.poi.hslf.usermodel;",
+        "27": "",
+        "28": "import org.apache.poi.ddf.EscherBSERecord;",
+        "29": "import org.apache.poi.ddf.EscherContainerRecord;",
+        "30": "import org.apache.poi.ddf.EscherOptRecord;",
+        "31": "import org.apache.poi.ddf.EscherRecord;"
+      },
+      "id": 97394959,
+      "filename": "SlideShow.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
       "linescount": 431,
       "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
       "name": "POI-Android",
       "url": "https://searchcode.com/codesearch/view/97394265/",
       "md5hash": "209d3abdc4c9f2d12e19f15421567bba",
       "lines": {
+        "32": "import org.apache.poi.ddf.EscherProperties;",
+        "33": "import org.apache.poi.ddf.EscherRecord;",
+        "34": "import org.apache.poi.ddf.EscherSimpleProperty;",
         "35": "import org.apache.poi.ddf.EscherSpRecord;",
-        "371": "            } catch(Exception e){",
-        "372": "                throw new HSLFException(e);",
-        "423": "        } catch(Exception e){",
-        "424": "            throw new HSLFException(e);",
         "36": "import org.apache.poi.hslf.exceptions.HSLFException;",
-        "379": "        if(link.getId() == -1){",
-        "380": "            throw new HSLFException(\"You must call SlideShow.addHyperlink(Hyperlink link) first\");"
+        "37": "import org.apache.poi.hslf.record.InteractiveInfo;",
+        "17": "",
+        "18": "package org.apache.poi.hslf.model;",
+        "25": "",
+        "26": "import org.apache.poi.ddf.DefaultEscherRecordFactory;",
+        "27": "import org.apache.poi.ddf.EscherChildAnchorRecord;",
+        "28": "import org.apache.poi.ddf.EscherClientAnchorRecord;",
+        "29": "import org.apache.poi.ddf.EscherClientDataRecord;",
+        "30": "import org.apache.poi.ddf.EscherContainerRecord;",
+        "31": "import org.apache.poi.ddf.EscherOptRecord;"
       },
       "id": 97394265,
       "filename": "SimpleShape.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 688,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394255/",
+      "md5hash": "40d5716cbdc5b9b544fff845bb8e0c6f",
+      "lines": {
+        "32": "",
+        "33": "import org.apache.poi.POIDocument;",
+        "34": "import org.apache.poi.hpsf.Util;",
+        "35": "import org.apache.poi.hslf.exceptions.CorruptPowerPointFileException;",
+        "36": "import org.apache.poi.hslf.exceptions.EncryptedPowerPointFileException;",
+        "37": "import org.apache.poi.hslf.exceptions.HSLFException;",
+        "38": "import org.apache.poi.hslf.record.CurrentUserAtom;",
+        "39": "import org.apache.poi.hslf.record.ExOleObjStg;",
+        "40": "import org.apache.poi.hslf.record.PersistPtrHolder;",
+        "41": "import org.apache.poi.hslf.record.PersistRecord;",
+        "42": "import org.apache.poi.hslf.record.PositionDependentRecord;",
+        "43": "import org.apache.poi.hslf.record.Record;",
+        "44": "import org.apache.poi.hslf.record.UserEditAtom;",
+        "17": "",
+        "18": "package org.apache.poi.hslf;"
+      },
+      "id": 97394255,
+      "filename": "HSLFSlideShow.java"
     },
     {
       "repo": "https://github.com/minstrelsy/POI-Android.git",
@@ -42,15 +105,52 @@
       "url": "https://searchcode.com/codesearch/view/97394307/",
       "md5hash": "c0426f09ab6f17114414ade32966e4ad",
       "lines": {
-        "228": "            } catch (UnsupportedEncodingException e){",
-        "229": "                throw new HSLFException(e);",
-        "246": "        } catch (UnsupportedEncodingException e){",
-        "247": "            throw new HSLFException(e);",
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hslf.model;",
+        "21": "",
+        "22": "import org.apache.poi.ddf.*;",
+        "23": "import org.apache.poi.hslf.usermodel.PictureData;",
+        "24": "import org.apache.poi.hslf.usermodel.SlideShow;",
+        "25": "import org.apache.poi.hslf.record.Document;",
         "26": "import org.apache.poi.hslf.blip.Bitmap;",
-        "27": "import org.apache.poi.hslf.exceptions.HSLFException;"
+        "27": "import org.apache.poi.hslf.exceptions.HSLFException;",
+        "28": "import org.apache.poi.util.POILogger;",
+        "29": ""
       },
       "id": 97394307,
       "filename": "Picture.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 612,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394395/",
+      "md5hash": "4ae551d90bbc16377c5513186d4e9dc1",
+      "lines": {
+        "32": "import org.apache.poi.ddf.EscherSpRecord;",
+        "33": "import org.apache.poi.ddf.EscherTextboxRecord;",
+        "34": "import org.apache.poi.hslf.exceptions.HSLFException;",
+        "35": "import org.apache.poi.hslf.record.EscherTextboxWrapper;",
+        "36": "import org.apache.poi.hslf.record.InteractiveInfo;",
+        "37": "import org.apache.poi.hslf.record.InteractiveInfoAtom;",
+        "38": "import org.apache.poi.hslf.record.OEPlaceholderAtom;",
+        "39": "import org.apache.poi.hslf.record.OutlineTextRefAtom;",
+        "17": "",
+        "18": "package org.apache.poi.hslf.model;",
+        "27": "",
+        "28": "import org.apache.poi.ddf.EscherContainerRecord;",
+        "29": "import org.apache.poi.ddf.EscherOptRecord;",
+        "30": "import org.apache.poi.ddf.EscherProperties;",
+        "31": "import org.apache.poi.ddf.EscherSimpleProperty;"
+      },
+      "id": 97394395,
+      "filename": "TextShape.java"
     },
     {
       "repo": "https://github.com/minstrelsy/POI-Android.git",
@@ -63,83 +163,22 @@
       "lines": {
         "68": "        } catch (IOException e){",
         "69": "            throw new HSLFException(e);",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "138": "            int key = LittleEndian.getInt(data, pos); pos += LittleEndian.INT_SIZE; //header key",
+        "139": "            if (key != APMHEADER_KEY) throw new HSLFException(\"Not a valid WMF file\");",
+        "17": "",
+        "18": "package org.apache.poi.hslf.blip;",
+        "19": "",
+        "20": "import org.apache.poi.util.LittleEndian;",
+        "21": "import org.apache.poi.util.POILogger;",
+        "22": "import org.apache.poi.hslf.model.Picture;",
         "23": "import org.apache.poi.hslf.model.Shape;",
         "24": "import org.apache.poi.hslf.exceptions.HSLFException;",
-        "138": "            int key = LittleEndian.getInt(data, pos); pos += LittleEndian.INT_SIZE; //header key",
-        "139": "            if (key != APMHEADER_KEY) throw new HSLFException(\"Not a valid WMF file\");"
+        "25": ""
       },
       "id": 97394516,
       "filename": "WMF.java"
-    },
-    {
-      "repo": "https://github.com/minstrelsy/POI-Android.git",
-      "language": "Java",
-      "linescount": 1082,
-      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/usermodel",
-      "name": "POI-Android",
-      "url": "https://searchcode.com/codesearch/view/97394959/",
-      "md5hash": "5d80afff23c354813b0c27bde8e947ac",
-      "lines": {
-        "33": "import org.apache.poi.hslf.exceptions.CorruptPowerPointFileException;",
-        "34": "import org.apache.poi.hslf.exceptions.HSLFException;",
-        "869": "\t\t} catch (IOException e) {",
-        "870": "\t\t\tthrow new HSLFException(e);",
-        "748": "\t\t\t} catch (IOException e) {",
-        "749": "\t\t\t\tthrow new HSLFException(e);"
-      },
-      "id": 97394959,
-      "filename": "SlideShow.java"
-    },
-    {
-      "repo": "https://github.com/minstrelsy/POI-Android.git",
-      "language": "Java",
-      "linescount": 688,
-      "location": "/ppt/scratchpad/src/org/apache/poi/hslf",
-      "name": "POI-Android",
-      "url": "https://searchcode.com/codesearch/view/97394255/",
-      "md5hash": "40d5716cbdc5b9b544fff845bb8e0c6f",
-      "lines": {
-        "548": "            throw new HSLFException(\"Couldn't find the new location of the UserEditAtom that used to be at \" + oldLastUserEditAtomPos);",
-        "547": "        if(newLastUserEditAtomPos == null) {",
-        "36": "import org.apache.poi.hslf.exceptions.EncryptedPowerPointFileException;",
-        "37": "import org.apache.poi.hslf.exceptions.HSLFException;"
-      },
-      "id": 97394255,
-      "filename": "HSLFSlideShow.java"
-    },
-    {
-      "repo": "https://github.com/minstrelsy/POI-Android.git",
-      "language": "Java",
-      "linescount": 612,
-      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
-      "name": "POI-Android",
-      "url": "https://searchcode.com/codesearch/view/97394395/",
-      "md5hash": "4ae551d90bbc16377c5513186d4e9dc1",
-      "lines": {
-        "33": "import org.apache.poi.ddf.EscherTextboxRecord;",
-        "34": "import org.apache.poi.hslf.exceptions.HSLFException;",
-        "214": "            } catch (IOException e){",
-        "215": "                throw new HSLFException(e);"
-      },
-      "id": 97394395,
-      "filename": "TextShape.java"
-    },
-    {
-      "repo": "https://github.com/minstrelsy/POI-Android.git",
-      "language": "Java",
-      "linescount": 1774,
-      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
-      "name": "POI-Android",
-      "url": "https://searchcode.com/codesearch/view/97394403/",
-      "md5hash": "c1eed61b5e85ccbd507d7e9acd97a919",
-      "lines": {
-        "1648": "        } catch (CloneNotSupportedException e){",
-        "1649": "            throw new HSLFException(e);",
-        "34": "import org.apache.poi.hslf.usermodel.RichTextRun;",
-        "35": "import org.apache.poi.hslf.exceptions.HSLFException;"
-      },
-      "id": 97394403,
-      "filename": "PPGraphics2D.java"
     },
     {
       "repo": "https://github.com/minstrelsy/POI-Android.git",
@@ -150,10 +189,21 @@
       "url": "https://searchcode.com/codesearch/view/97394495/",
       "md5hash": "a1b2acea230b9990ecbf63589e7fb170",
       "lines": {
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "60": "        } catch (IOException e){",
+        "17": "",
+        "18": "package org.apache.poi.hslf.blip;",
+        "105": "     * @see org.apache.poi.hslf.model.Picture#PICT",
         "24": "",
         "25": "import org.apache.poi.hslf.exceptions.HSLFException;",
-        "60": "        } catch (IOException e){",
-        "61": "            throw new HSLFException(e);"
+        "26": "import org.apache.poi.hslf.model.Picture;",
+        "27": "import org.apache.poi.hslf.model.Shape;",
+        "28": "",
+        "61": "            throw new HSLFException(e);",
+        "104": "    /**"
       },
       "id": 97394495,
       "filename": "PICT.java"
@@ -167,13 +217,53 @@
       "url": "https://searchcode.com/codesearch/view/97394952/",
       "md5hash": "d46d9fc3abfee8ffc6df3e3fa372d533",
       "lines": {
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "143": "        } catch (NoSuchAlgorithmException e){",
         "144": "            throw new HSLFException(e.getMessage());",
+        "17": "",
+        "18": "package org.apache.poi.hslf.usermodel;",
+        "21": "",
+        "22": "import org.apache.poi.poifs.filesystem.DocumentInputStream;",
+        "23": "import org.apache.poi.util.LittleEndian;",
+        "24": "import org.apache.poi.util.POILogger;",
+        "25": "import org.apache.poi.util.POILogFactory;",
+        "26": "import org.apache.poi.hslf.model.Picture;",
         "27": "import org.apache.poi.hslf.blip.*;",
         "28": "import org.apache.poi.hslf.exceptions.HSLFException;",
-        "143": "        } catch (NoSuchAlgorithmException e){"
+        "29": ""
       },
       "id": 97394952,
       "filename": "PictureData.java"
+    },
+    {
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
+      "language": "Java",
+      "linescount": 1774,
+      "location": "/ppt/scratchpad/src/org/apache/poi/hslf/model",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97394403/",
+      "md5hash": "c1eed61b5e85ccbd507d7e9acd97a919",
+      "lines": {
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "35": "import org.apache.poi.hslf.exceptions.HSLFException;",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "38": "",
+        "33": "",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "34": "import org.apache.poi.hslf.usermodel.RichTextRun;",
+        "17": "",
+        "18": "package org.apache.poi.hslf.model;",
+        "279": "        /**",
+        "280": "         * Even if top and bottom margins are set to 0 PowerPoint",
+        "36": "import org.apache.poi.util.POILogger;",
+        "37": "import org.apache.poi.util.POILogFactory;"
+      },
+      "id": 97394403,
+      "filename": "PPGraphics2D.java"
     },
     {
       "repo": "https://github.com/minstrelsy/POI-Android.git",
@@ -184,8 +274,20 @@
       "url": "https://searchcode.com/codesearch/view/97394532/",
       "md5hash": "615f0a394a43a2e3c400ed852e3ba128",
       "lines": {
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hslf.blip;",
+        "19": "",
         "20": "import org.apache.poi.hslf.model.Picture;",
-        "21": "import org.apache.poi.hslf.exceptions.HSLFException;"
+        "21": "import org.apache.poi.hslf.exceptions.HSLFException;",
+        "22": "",
+        "62": "     * @return type of  this picture",
+        "63": "     * @see  org.apache.poi.hslf.model.Picture#PNG"
       },
       "id": 97394532,
       "filename": "PNG.java"

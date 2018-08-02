@@ -1,8 +1,8 @@
 {
-  "matchterm": "HSSFHyperlink",
+  "matchterm": "org.apache.poi.hssf.usermodel.HSSFHyperlink",
   "previouspage": null,
-  "searchterm": "HSSFHyperlink",
-  "query": "HSSFHyperlink",
+  "searchterm": "org.apache.poi.hssf.usermodel.HSSFHyperlink",
+  "query": "org.apache.poi.hssf.usermodel.HSSFHyperlink",
   "language_filters": [
     {
       "count": 6,
@@ -21,12 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/3760572/",
       "md5hash": "ceb3bff690ff223b6dbcf03afdeb2f02",
       "lines": {
-        "288": "            HSSFHyperlink link = new HSSFHyperlink(HSSFHyperlink.LINK_DOCUMENT);",
-        "242": "        {",
-        "243": "            HSSFHyperlink link = new HSSFHyperlink(HSSFHyperlink.LINK_URL);",
+        "5": "",
+        "6": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "7": "import org.apache.poi.hssf.usermodel.HSSFClientAnchor;",
+        "8": "import org.apache.poi.hssf.usermodel.HSSFComment;",
         "9": "import org.apache.poi.hssf.usermodel.HSSFFormulaEvaluator;",
         "10": "import org.apache.poi.hssf.usermodel.HSSFHyperlink;",
-        "287": "        {"
+        "11": "import org.apache.poi.hssf.usermodel.HSSFPatriarch;",
+        "12": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "13": "import org.apache.poi.hssf.util.CellReference;",
+        "14": "import org.apache.poi.ss.usermodel.CellValue;",
+        "15": "import com.jeasonzhao.commons.utils.Algorithms;",
+        "182": "        {",
+        "183": "            case org.apache.poi.hssf.usermodel.HSSFCell.CELL_TYPE_BLANK:",
+        "184": "                return \"\";",
+        "185": "            case org.apache.poi.hssf.usermodel.HSSFCell.CELL_TYPE_BOOLEAN:"
       },
       "id": 3760572,
       "filename": "Cell.java"
@@ -40,10 +49,19 @@
       "url": "https://searchcode.com/codesearch/view/60212070/",
       "md5hash": "9503d2e3477ada81a384d2331dfb9335",
       "lines": {
-        "166": "\t}",
-        "167": "\tpublic HSSFHyperlink getHyperlink() {",
+        "32": "import org.apache.poi.hssf.usermodel.HSSFRichTextString;",
+        "33": "",
+        "6": " * %%",
+        "7": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
         "40": "\tprivate int cellType;",
         "41": "\tprivate HSSFHyperlink hyperlink;",
+        "10": " * ",
+        "11": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "19": " */",
+        "20": "package org.comsoft.juniprint.utils;",
+        "27": "",
+        "28": "import org.apache.poi.hssf.usermodel.HSSFCell;",
+        "29": "import org.apache.poi.hssf.usermodel.HSSFCellStyle;",
         "30": "import org.apache.poi.hssf.usermodel.HSSFComment;",
         "31": "import org.apache.poi.hssf.usermodel.HSSFHyperlink;"
       },
@@ -60,9 +78,20 @@
       "md5hash": "0976f81b0c7ec7adeab44afebe572b72",
       "lines": {
         "129": "                            if (cellData.link != null) {",
+        "130": "                                HSSFHyperlink hl = new HSSFHyperlink(HSSFHyperlink.LINK_URL);",
+        "73": "",
         "42": "",
         "43": "import org.apache.poi.hssf.usermodel.HSSFHyperlink;",
-        "130": "                                HSSFHyperlink hl = new HSSFHyperlink(HSSFHyperlink.LINK_URL);"
+        "44": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "45": "import org.apache.poi.ss.usermodel.Cell;",
+        "46": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "47": "import org.apache.poi.ss.usermodel.Row;",
+        "48": "import org.apache.poi.ss.usermodel.Sheet;",
+        "49": "import org.apache.poi.ss.usermodel.Workbook;",
+        "50": "import org.apache.poi.ss.util.WorkbookUtil;",
+        "51": "import org.apache.poi.xssf.usermodel.XSSFWorkbook;",
+        "52": "import org.json.JSONObject;",
+        "74": "        final Workbook wb = xml ? new XSSFWorkbook() : new HSSFWorkbook();"
       },
       "id": 2366277,
       "filename": "XlsExporter.java"
@@ -76,8 +105,19 @@
       "url": "https://searchcode.com/codesearch/view/130338930/",
       "md5hash": "a935b37a1bf4b3f0980810bc35bf2bec",
       "lines": {
+        "72": "",
+        "73": "        final Workbook wb = xml ? new XSSFWorkbook() : new HSSFWorkbook();",
         "42": "",
         "43": "import org.apache.poi.hssf.usermodel.HSSFHyperlink;",
+        "44": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "45": "import org.apache.poi.ss.usermodel.Cell;",
+        "46": "import org.apache.poi.ss.usermodel.CellStyle;",
+        "47": "import org.apache.poi.ss.usermodel.Row;",
+        "48": "import org.apache.poi.ss.usermodel.Sheet;",
+        "49": "import org.apache.poi.ss.usermodel.Workbook;",
+        "50": "import org.apache.poi.xssf.usermodel.XSSFWorkbook;",
+        "51": "import org.json.JSONObject;",
+        "52": "",
         "126": "                            if (cellData.link != null) {",
         "127": "                                HSSFHyperlink hl = new HSSFHyperlink(HSSFHyperlink.LINK_URL);"
       },
@@ -93,8 +133,21 @@
       "url": "https://searchcode.com/codesearch/view/2366356/",
       "md5hash": "a4f33b4894c673980d4930a0503b0cb2",
       "lines": {
-        "176": "",
-        "177": "                //            HSSFHyperlink hl = new HSSFHyperlink(HSSFHyperlink.LINK_URL);"
+        "36": "",
+        "37": "import static org.mockito.Mockito.times;",
+        "38": "import static org.mockito.Mockito.verify;",
+        "39": "",
+        "49": "",
+        "50": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "51": "import org.apache.poi.ss.usermodel.Cell;",
+        "52": "import org.apache.poi.ss.usermodel.Row;",
+        "53": "import org.apache.poi.ss.usermodel.Sheet;",
+        "54": "import org.apache.poi.ss.usermodel.Workbook;",
+        "55": "import org.apache.poi.xssf.usermodel.XSSFWorkbook;",
+        "56": "import org.json.JSONArray;",
+        "57": "import org.json.JSONException;",
+        "58": "import org.slf4j.LoggerFactory;",
+        "59": "import org.testng.Assert;"
       },
       "id": 2366356,
       "filename": "ExcelImporterTests.java"
@@ -108,8 +161,21 @@
       "url": "https://searchcode.com/codesearch/view/130338725/",
       "md5hash": "a4f33b4894c673980d4930a0503b0cb2",
       "lines": {
-        "176": "",
-        "177": "                //            HSSFHyperlink hl = new HSSFHyperlink(HSSFHyperlink.LINK_URL);"
+        "36": "",
+        "37": "import static org.mockito.Mockito.times;",
+        "38": "import static org.mockito.Mockito.verify;",
+        "39": "",
+        "49": "",
+        "50": "import org.apache.poi.hssf.usermodel.HSSFWorkbook;",
+        "51": "import org.apache.poi.ss.usermodel.Cell;",
+        "52": "import org.apache.poi.ss.usermodel.Row;",
+        "53": "import org.apache.poi.ss.usermodel.Sheet;",
+        "54": "import org.apache.poi.ss.usermodel.Workbook;",
+        "55": "import org.apache.poi.xssf.usermodel.XSSFWorkbook;",
+        "56": "import org.json.JSONArray;",
+        "57": "import org.json.JSONException;",
+        "58": "import org.slf4j.LoggerFactory;",
+        "59": "import org.testng.Assert;"
       },
       "id": 130338725,
       "filename": "ExcelImporterTests.java"

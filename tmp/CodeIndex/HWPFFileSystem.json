@@ -1,8 +1,8 @@
 {
-  "matchterm": "HWPFFileSystem",
+  "matchterm": "org.apache.poi.hwpf.model.io.HWPFFileSystem",
   "previouspage": null,
-  "searchterm": "HWPFFileSystem",
-  "query": "HWPFFileSystem",
+  "searchterm": "org.apache.poi.hwpf.model.io.HWPFFileSystem",
+  "query": "org.apache.poi.hwpf.model.io.HWPFFileSystem",
   "language_filters": [
     {
       "count": 1,
@@ -21,10 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97383956/",
       "md5hash": "677c332698819342ff2ece2baf93a4ed",
       "lines": {
-        "632": "    // initialize our streams for writing.",
-        "633": "    HWPFFileSystem docSys = new HWPFFileSystem();",
-        "51": "import org.apache.poi.hwpf.model.TextPieceTable;",
-        "52": "import org.apache.poi.hwpf.model.io.HWPFFileSystem;"
+        "1": "/* ====================================================================",
+        "2": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "3": "   contributor license agreements.  See the NOTICE file distributed with",
+        "4": "   this work for additional information regarding copyright ownership.",
+        "5": "   The ASF licenses this file to You under the Apache License, Version 2.0",
+        "6": "   (the \"License\"); you may not use this file except in compliance with",
+        "8": "",
+        "9": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "17": "",
+        "18": "package org.apache.poi.hwpf;",
+        "19": "",
+        "26": "",
+        "27": "import org.apache.poi.hpsf.DocumentSummaryInformation;",
+        "28": "import org.apache.poi.hpsf.SummaryInformation;",
+        "29": "import org.apache.poi.hwpf.model.BookmarksTables;"
       },
       "id": 97383956,
       "filename": "HWPFDocument.java"

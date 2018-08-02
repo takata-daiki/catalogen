@@ -1,65 +1,130 @@
 {
-  "matchterm": "LongField",
+  "matchterm": "org.apache.poi.util.LongField",
   "previouspage": null,
-  "searchterm": "LongField",
-  "query": "LongField",
+  "searchterm": "org.apache.poi.util.LongField",
+  "query": "org.apache.poi.util.LongField",
   "language_filters": [
     {
-      "count": 564,
+      "count": 5,
       "id": 23,
       "language": "Java"
     }
   ],
-  "total": 564,
+  "total": 5,
   "results": [
     {
-      "repo": "http://larozanam.googlecode.com/svn/trunk/",
+      "repo": "https://github.com/minstrelsy/POI-Android.git",
       "language": "Java",
-      "linescount": 39,
-      "location": "/swingdk/src/com/celiosilva/swingDK/dataFields",
-      "name": "larozanam",
-      "url": "https://searchcode.com/codesearch/view/2031945/",
-      "md5hash": "4cc659f732a9d763256529c3f0852a8c",
+      "linescount": 615,
+      "location": "/ppt/poi/org/apache/poi/poifs/filesystem",
+      "name": "POI-Android",
+      "url": "https://searchcode.com/codesearch/view/97397929/",
+      "md5hash": "5083d727a84f9c004bece7393d2ae9b8",
       "lines": {
-        "1": "/*",
-        "2": " * LongField.java",
-        "19": "        ",
-        "20": "    public LongField (){",
-        "17": " */",
-        "18": "public class LongField extends AbstractNumericField<Long> {   "
+        "19": "",
+        "2": "/* ====================================================================",
+        "3": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "36": "import org.apache.poi.poifs.common.POIFSConstants;",
+        "37": "import org.apache.poi.poifs.dev.POIFSViewable;",
+        "38": "import org.apache.poi.poifs.property.DirectoryProperty;",
+        "39": "import org.apache.poi.poifs.property.Property;",
+        "40": "import org.apache.poi.poifs.property.PropertyTable;",
+        "9": "",
+        "10": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "34": "",
+        "35": "import org.apache.poi.poifs.common.POIFSBigBlockSize;",
+        "20": "package org.apache.poi.poifs.filesystem;",
+        "41": "import org.apache.poi.poifs.storage.BATBlock;",
+        "42": "import org.apache.poi.poifs.storage.BlockAllocationTableReader;"
       },
-      "id": 2031945,
-      "filename": "LongField.java"
+      "id": 97397929,
+      "filename": "POIFSFileSystem.java"
     },
     {
-      "repo": "https://github.com/mdodsworth/lucene-solr.git",
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
       "language": "Java",
-      "linescount": 186,
-      "location": "/lucene/core/src/java/org/apache/lucene/document",
-      "name": "lucene-solr",
-      "url": "https://searchcode.com/codesearch/view/110747454/",
-      "md5hash": "fdc4e776d60200e5d9fc11cf95929bcc",
+      "linescount": 201,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642256/",
+      "md5hash": "769c17a94a606ffb414c03ee96d2261c",
       "lines": {
-        "32": " * <pre class=\"prettyprint\">",
-        "33": " * document.add(new LongField(name, 6L, Field.Store.NO));",
-        "66": " * <code>LongField</code>, use {@link NumericRangeQuery} or {@link",
-        "67": " * NumericRangeFilter}.  To sort according to a",
-        "164": "  public LongField(String name, long value, Store stored) {",
-        "65": " * <p>To perform range querying or filtering against a",
-        "40": " *  LongField field = new LongField(name, 0L, Field.Store.NO);",
-        "128": "   * Type for a LongField that is not stored:",
-        "39": " * <pre class=\"prettyprint\">",
-        "141": "  /** ",
-        "142": "   * Type for a stored LongField:",
-        "177": "   */",
-        "178": "  public LongField(String name, long value, FieldType type) {",
-        "163": "   */",
-        "155": "",
-        "156": "  /** Creates a stored or un-stored LongField with the provided value",
-        "127": "  /** "
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "48": "import loci.poi.poifs.filesystem.OfficeXmlFileException;",
+        "49": "import loci.poi.util.IOUtils;",
+        "50": "import loci.poi.util.IntegerField;",
+        "51": "import loci.poi.util.LittleEndian;",
+        "52": "import loci.poi.util.LittleEndianConsts;",
+        "53": "import loci.poi.util.LongField;",
+        "54": "import loci.poi.util.ShortField;",
+        "55": "",
+        "31": ""
       },
-      "id": 110747454,
-      "filename": "LongField.java"
+      "id": 15642256,
+      "filename": "HeaderBlockReader.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 250,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642253/",
+      "md5hash": "b135db390366ec303bafe303dc68de06",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "48": "import loci.poi.poifs.common.POIFSConstants;",
+        "49": "import loci.poi.util.IntegerField;",
+        "50": "import loci.poi.util.LittleEndianConsts;",
+        "51": "import loci.poi.util.LongField;",
+        "52": "import loci.poi.util.ShortField;",
+        "53": "",
+        "56": " *",
+        "57": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "31": ""
+      },
+      "id": 15642253,
+      "filename": "HeaderBlockWriter.java"
+    },
+    {
+      "repo": "git://github.com/openmicroscopy/bioformats.git",
+      "language": "Java",
+      "linescount": 71,
+      "location": "/components/forks/poi/src/loci/poi/poifs/storage",
+      "name": "bioformats",
+      "url": "https://searchcode.com/codesearch/view/15642260/",
+      "md5hash": "6e7ce53929cc4519afe03718fc3d0623",
+      "lines": {
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "43": "",
+        "44": "import loci.poi.util.IntegerField;",
+        "45": "import loci.poi.util.LittleEndian;",
+        "46": "import loci.poi.util.LittleEndianConsts;",
+        "13": " * ",
+        "48": "import loci.poi.util.ShortField;",
+        "49": "",
+        "52": " *",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "47": "import loci.poi.util.LongField;",
+        "53": " * @author Marc Johnson (mjohnson at apache dot org)",
+        "31": ""
+      },
+      "id": 15642260,
+      "filename": "HeaderBlockConstants.java"
     },
     {
       "repo": "git://github.com/openmicroscopy/bioformats.git",
@@ -70,345 +135,24 @@
       "url": "https://searchcode.com/codesearch/view/15642653/",
       "md5hash": "c1dd54f2149f62d9ad5499337a531947",
       "lines": {
-        "128": "    public LongField(final int offset, final long value, final byte [] data)",
-        "69": "",
-        "70": "    public LongField(final int offset)",
-        "135": "    /**",
-        "136": "     * get the LongField's current value",
-        "108": "",
-        "109": "    public LongField(final int offset, final byte [] data)",
-        "157": "    /**",
-        "146": "    /**",
-        "147": "     * set the LongField's current value",
-        "158": "     * set the LongField's current value and write it to a byte array",
-        "54": "",
-        "55": "public class LongField",
-        "61": "    /**",
-        "62": "     * construct the LongField with its offset into its containing",
-        "127": ""
+        "32": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "2": " * #%L",
+        "3": " * Fork of Apache Jakarta POI.",
+        "9": " * %%",
+        "10": " * Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "43": "",
+        "44": "import loci.poi.util.LittleEndian.BufferUnderrunException;",
+        "13": " * ",
+        "14": " *      http://www.apache.org/licenses/LICENSE-2.0",
+        "51": " *",
+        "52": " * @author Marc Johnson (mjohnson at apache dot org",
+        "41": "",
+        "24": "/* ====================================================================",
+        "25": "   Licensed to the Apache Software Foundation (ASF) under one or more",
+        "42": "package loci.poi.util;",
+        "31": ""
       },
       "id": 15642653,
-      "filename": "LongField.java"
-    },
-    {
-      "repo": "https://bitbucket.org/xiaoqiangnk/hotspot-mips",
-      "language": "Java",
-      "linescount": 48,
-      "location": "/agent/src/share/classes/sun/jvm/hotspot/oops",
-      "name": "hotspot-mips",
-      "url": "https://searchcode.com/codesearch/view/118290422/",
-      "md5hash": "a13ab9b85a31e2a3a01a4cc4db97d46c",
-      "lines": {
-        "32": "    super(id, offset, isVMField);",
-        "34": "",
-        "35": "  public LongField(sun.jvm.hotspot.types.JLongField vmField, long startOffset) {",
-        "38": "",
-        "39": "  public LongField(InstanceKlass holder, int fieldArrayIndex) {",
-        "29": "// The class for a long field simply provides access to the value.",
-        "30": "public class LongField extends Field {",
-        "31": "  public LongField(FieldIdentifier id, long offset, boolean isVMField) {"
-      },
-      "id": 118290422,
-      "filename": "LongField.java"
-    },
-    {
-      "repo": "https://bitbucket.org/luchsh/openjdk8-hotspot",
-      "language": "Java",
-      "linescount": 48,
-      "location": "/agent/src/share/classes/sun/jvm/hotspot/oops",
-      "name": "openjdk8-hotspot",
-      "url": "https://searchcode.com/codesearch/view/125202970/",
-      "md5hash": "dfb5f920782a12036f0222f5fa0b26eb",
-      "lines": {
-        "32": "    super(id, offset, isVMField);",
-        "34": "",
-        "35": "  public LongField(sun.jvm.hotspot.types.JLongField vmField, long startOffset) {",
-        "38": "",
-        "39": "  public LongField(InstanceKlass holder, int fieldArrayIndex) {",
-        "29": "// The class for a long field simply provides access to the value.",
-        "30": "public class LongField extends Field {",
-        "31": "  public LongField(FieldIdentifier id, long offset, boolean isVMField) {"
-      },
-      "id": 125202970,
-      "filename": "LongField.java"
-    },
-    {
-      "repo": "https://bitbucket.org/hamishm/haiku-jdk-hotspot",
-      "language": "Java",
-      "linescount": 48,
-      "location": "/agent/src/share/classes/sun/jvm/hotspot/oops",
-      "name": "haiku-jdk-hotspot",
-      "url": "https://searchcode.com/codesearch/view/127217459/",
-      "md5hash": "dfb5f920782a12036f0222f5fa0b26eb",
-      "lines": {
-        "32": "    super(id, offset, isVMField);",
-        "34": "",
-        "35": "  public LongField(sun.jvm.hotspot.types.JLongField vmField, long startOffset) {",
-        "38": "",
-        "39": "  public LongField(InstanceKlass holder, int fieldArrayIndex) {",
-        "29": "// The class for a long field simply provides access to the value.",
-        "30": "public class LongField extends Field {",
-        "31": "  public LongField(FieldIdentifier id, long offset, boolean isVMField) {"
-      },
-      "id": 127217459,
-      "filename": "LongField.java"
-    },
-    {
-      "repo": "https://bitbucket.org/jaroslav/hotspot",
-      "language": "Java",
-      "linescount": 50,
-      "location": "/agent/src/share/classes/sun/jvm/hotspot/oops",
-      "name": "hotspot",
-      "url": "https://searchcode.com/codesearch/view/133432862/",
-      "md5hash": "85fae00ac2ef1635640d2efecf2eb62f",
-      "lines": {
-        "32": "  public LongField(FieldIdentifier id, long offset, boolean isVMField) {",
-        "33": "    super(id, offset, isVMField);",
-        "35": "",
-        "36": "  public LongField(sun.jvm.hotspot.types.JLongField vmField, long startOffset) {",
-        "39": "",
-        "40": "  public LongField(InstanceKlass holder, int fieldArrayIndex) {",
-        "30": "// The class for a long field simply provides access to the value.",
-        "31": "public class LongField extends Field {"
-      },
-      "id": 133432862,
-      "filename": "LongField.java"
-    },
-    {
-      "repo": "https://github.com/k4th/geoportal-server.git",
-      "language": "Java",
-      "linescount": 187,
-      "location": "/geoportal/src/com/esri/gpt/catalog/lucene",
-      "name": "geoportal-server",
-      "url": "https://searchcode.com/codesearch/view/98367239/",
-      "md5hash": "07c4473c32f60f3b93cecf356e18ba6f",
-      "lines": {
-        "32": "public class LongField extends DatastoreField {",
-        "40": "  protected LongField(String name) { ",
-        "39": "   */",
-        "31": " */"
-      },
-      "id": 98367239,
-      "filename": "LongField.java"
-    },
-    {
-      "repo": "http://rapla.googlecode.com/svn/",
-      "language": "Java",
-      "linescount": 65,
-      "location": "/tags/Version_1_1/Rapla/src/org/rapla/gui/internal/edit",
-      "name": "rapla",
-      "url": "https://searchcode.com/codesearch/view/13152276/",
-      "md5hash": "be9abce954fe43cef5238356d1c0126f",
-      "lines": {
-        "32": "    public LongField( RaplaContext sm, String fieldName, Long minimum ) throws RaplaException {",
-        "25": "",
-        "26": "public class LongField extends AbstractEditField implements ChangeListener {",
-        "28": "    RaplaNumber field;",
-        "29": "    public LongField( RaplaContext sm,String fieldName ) throws RaplaException {",
-        "31": "    }"
-      },
-      "id": 13152276,
-      "filename": "LongField.java"
-    },
-    {
-      "repo": "http://rapla.googlecode.com/svn/",
-      "language": "Java",
-      "linescount": 82,
-      "location": "/tags/release_1_4_2_dhbw/src/org/rapla/gui/internal/edit",
-      "name": "rapla",
-      "url": "https://searchcode.com/codesearch/view/13153098/",
-      "md5hash": "242d3269974dc8efda72720cfaa42de9",
-      "lines": {
-        "32": "    public LongField( RaplaContext sm,String fieldName ) throws RaplaException {",
-        "34": "    }",
-        "35": "    public LongField( RaplaContext sm, String fieldName, Long minimum ) throws RaplaException {",
-        "28": "",
-        "29": "public class LongField extends AbstractEditField implements ChangeListener, FocusListener {",
-        "31": "    RaplaNumber field;"
-      },
-      "id": 13153098,
-      "filename": "LongField.java"
-    },
-    {
-      "repo": "http://rapla.googlecode.com/svn/",
-      "language": "Java",
-      "linescount": 110,
-      "location": "/branches/report_rights/src/org/rapla/gui/internal/edit",
-      "name": "rapla",
-      "url": "https://searchcode.com/codesearch/view/13161166/",
-      "md5hash": "faf5c0fd1e195a656ea269334c7115a3",
-      "lines": {
-        "36": "",
-        "37": "\tpublic LongField(RaplaContext sm, String fieldName) throws RaplaException {",
-        "40": "",
-        "41": "\tpublic LongField(RaplaContext sm, String fieldName, Long minimum)",
-        "29": "",
-        "30": "public class LongField extends AbstractEditField implements ChangeListener,"
-      },
-      "id": 13161166,
-      "filename": "LongField.java"
-    },
-    {
-      "repo": "git://github.com/henricpersson/Burrito.git",
-      "language": "Java",
-      "linescount": 58,
-      "location": "/src/main/java/burrito/client/crud/generic/fields",
-      "name": "Burrito",
-      "url": "https://searchcode.com/codesearch/view/16455184/",
-      "md5hash": "5c53a3b6a6b01910ba75ac4576ef0e86",
-      "lines": {
-        "35": "\t",
-        "36": "\tpublic LongField(Long value) {",
-        "26": "@SuppressWarnings(\"serial\")",
-        "27": "public class LongField extends CrudField {",
-        "30": "\t",
-        "31": "\tpublic LongField() {"
-      },
-      "id": 16455184,
-      "filename": "LongField.java"
-    },
-    {
-      "repo": "https://github.com/laco0416/AndroidBinding.git",
-      "language": "Java",
-      "linescount": 24,
-      "location": "/Core/AndroidBinding/src/gueei/binding/cursor",
-      "name": "AndroidBinding",
-      "url": "https://searchcode.com/codesearch/view/69898454/",
-      "md5hash": "1b2cc2429bff8d8fd1b7000b6e8b3fc3",
-      "lines": {
-        "4": "",
-        "5": "public class LongField extends CursorField<Long> {",
-        "6": "",
-        "7": "\tpublic LongField(int columnIndex) {",
-        "9": "\t}",
-        "10": "\tpublic LongField(String columnName) {"
-      },
-      "id": 69898454,
-      "filename": "LongField.java"
-    },
-    {
-      "repo": "https://bitbucket.org/lpimports/gcc.git",
-      "language": "Java",
-      "linescount": 23,
-      "location": "/libjava/testsuite/libjava.cni",
-      "name": "gcc",
-      "url": "https://searchcode.com/codesearch/view/127601942/",
-      "md5hash": "dd20ef994a62ba3187114ddbb0e72a79",
-      "lines": {
-        "1": "public class longfield",
-        "2": "{",
-        "18": "    longfield f = new longfield();",
-        "17": "  {"
-      },
-      "id": 127601942,
-      "filename": "longfield.java"
-    },
-    {
-      "repo": "https://bitbucket.org/bertzzie/rapla-itb",
-      "language": "Java",
-      "linescount": 82,
-      "location": "/src/org/rapla/gui/internal/edit",
-      "name": "rapla-itb",
-      "url": "https://searchcode.com/codesearch/view/128580560/",
-      "md5hash": "242d3269974dc8efda72720cfaa42de9",
-      "lines": {
-        "32": "    public LongField( RaplaContext sm,String fieldName ) throws RaplaException {",
-        "34": "    }",
-        "35": "    public LongField( RaplaContext sm, String fieldName, Long minimum ) throws RaplaException {",
-        "28": "",
-        "29": "public class LongField extends AbstractEditField implements ChangeListener, FocusListener {",
-        "31": "    RaplaNumber field;"
-      },
-      "id": 128580560,
-      "filename": "LongField.java"
-    },
-    {
-      "repo": "https://bitbucket.org/vaporoid/gcc.git",
-      "language": "Java",
-      "linescount": 23,
-      "location": "/libjava/testsuite/libjava.cni",
-      "name": "gcc",
-      "url": "https://searchcode.com/codesearch/view/130235863/",
-      "md5hash": "dd20ef994a62ba3187114ddbb0e72a79",
-      "lines": {
-        "1": "public class longfield",
-        "2": "{",
-        "18": "    longfield f = new longfield();",
-        "17": "  {"
-      },
-      "id": 130235863,
-      "filename": "longfield.java"
-    },
-    {
-      "repo": "https://bitbucket.org/tari/prizm-gcc.git",
-      "language": "Java",
-      "linescount": 23,
-      "location": "/libjava/testsuite/libjava.cni",
-      "name": "prizm-gcc",
-      "url": "https://searchcode.com/codesearch/view/37936261/",
-      "md5hash": "dd20ef994a62ba3187114ddbb0e72a79",
-      "lines": {
-        "1": "public class longfield",
-        "2": "{",
-        "18": "    longfield f = new longfield();",
-        "17": "  {"
-      },
-      "id": 37936261,
-      "filename": "longfield.java"
-    },
-    {
-      "repo": "https://bitbucket.org/bluezoo/gcc.git",
-      "language": "Java",
-      "linescount": 23,
-      "location": "/libjava/testsuite/libjava.cni",
-      "name": "gcc",
-      "url": "https://searchcode.com/codesearch/view/46801890/",
-      "md5hash": "dd20ef994a62ba3187114ddbb0e72a79",
-      "lines": {
-        "1": "public class longfield",
-        "2": "{",
-        "18": "    longfield f = new longfield();",
-        "17": "  {"
-      },
-      "id": 46801890,
-      "filename": "longfield.java"
-    },
-    {
-      "repo": "https://github.com/schans/jackrabbit.git",
-      "language": "Java",
-      "linescount": 77,
-      "location": "/jackrabbit-core/src/main/java/org/apache/jackrabbit/core/query/lucene",
-      "name": "jackrabbit",
-      "url": "https://searchcode.com/codesearch/view/114219582/",
-      "md5hash": "7dec056bd663372404ab447abec96c2d",
-      "lines": {
-        "25": "",
-        "26": "    private LongField() {",
-        "20": " */",
-        "21": "public class LongField {"
-      },
-      "id": 114219582,
-      "filename": "LongField.java"
-    },
-    {
-      "repo": "https://bitbucket.org/azinman/konbit",
-      "language": "Java",
-      "linescount": 85,
-      "location": "/solr/src/java/org/apache/solr/schema",
-      "name": "konbit",
-      "url": "https://searchcode.com/codesearch/view/54928225/",
-      "md5hash": "bf3bcc4a27efc525cb6ec24abab16a72",
-      "lines": {
-        "32": " */",
-        "33": "public class LongField extends FieldType {",
-        "46": "",
-        "25": "import org.apache.solr.search.function.ValueSource;",
-        "26": "import org.apache.solr.search.function.LongFieldSource;",
-        "47": "    return new LongFieldSource(field.name);",
-        "30": "/**",
-        "31": " * @version $Id: LongField.java 800966 2009-08-04 20:51:12Z yonik $"
-      },
-      "id": 54928225,
       "filename": "LongField.java"
     }
   ],
@@ -416,24 +160,9 @@
   "nextpage": 1,
   "source_filters": [
     {
-      "count": 292,
-      "source": "Bitbucket",
-      "id": 3
-    },
-    {
-      "count": 231,
+      "count": 5,
       "source": "Github",
       "id": 2
-    },
-    {
-      "count": 40,
-      "source": "Google Code",
-      "id": 1
-    },
-    {
-      "count": 1,
-      "source": "GitLab",
-      "id": 13
     }
   ]
 }

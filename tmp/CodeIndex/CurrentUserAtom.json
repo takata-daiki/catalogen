@@ -1,8 +1,8 @@
 {
-  "matchterm": "CurrentUserAtom",
+  "matchterm": "org.apache.poi.hslf.record.CurrentUserAtom",
   "previouspage": null,
-  "searchterm": "CurrentUserAtom",
-  "query": "CurrentUserAtom",
+  "searchterm": "org.apache.poi.hslf.record.CurrentUserAtom",
+  "query": "org.apache.poi.hslf.record.CurrentUserAtom",
   "language_filters": [
     {
       "count": 1,
@@ -21,16 +21,21 @@
       "url": "https://searchcode.com/codesearch/view/97394255/",
       "md5hash": "40d5716cbdc5b9b544fff845bb8e0c6f",
       "lines": {
-        "320": "\t\ttry {",
-        "321": "\t\t\tcurrentUser = new CurrentUserAtom(directory);",
-        "323": "\t\t\tlogger.log(POILogger.ERROR, \"Error finding Current User Atom:\\n\" + ie);",
-        "324": "\t\t\tcurrentUser = new CurrentUserAtom();",
+        "32": "",
+        "33": "import org.apache.poi.POIDocument;",
+        "34": "import org.apache.poi.hpsf.Util;",
+        "35": "import org.apache.poi.hslf.exceptions.CorruptPowerPointFileException;",
+        "36": "import org.apache.poi.hslf.exceptions.EncryptedPowerPointFileException;",
         "37": "import org.apache.poi.hslf.exceptions.HSLFException;",
         "38": "import org.apache.poi.hslf.record.CurrentUserAtom;",
-        "649": "\t */",
-        "650": "\tpublic CurrentUserAtom getCurrentUserAtom() { return currentUser; }",
-        "77": "\t// Holds metadata on where things are in our document",
-        "78": "\tprivate CurrentUserAtom currentUser;"
+        "39": "import org.apache.poi.hslf.record.ExOleObjStg;",
+        "40": "import org.apache.poi.hslf.record.PersistPtrHolder;",
+        "41": "import org.apache.poi.hslf.record.PersistRecord;",
+        "42": "import org.apache.poi.hslf.record.PositionDependentRecord;",
+        "43": "import org.apache.poi.hslf.record.Record;",
+        "44": "import org.apache.poi.hslf.record.UserEditAtom;",
+        "17": "",
+        "18": "package org.apache.poi.hslf;"
       },
       "id": 97394255,
       "filename": "HSLFSlideShow.java"
