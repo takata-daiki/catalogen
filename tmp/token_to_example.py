@@ -7,7 +7,7 @@ import multiprocessing
 from pprint import pprint
 
 def getter(classname, idname):
-    dic = {}
+    li = {}
     with open('CodeToken/{}/{}.token'.format(classname, idname), 'r') as f:
         dep = 0
         for data in f:
@@ -49,22 +49,25 @@ def extract(classname, dic):
                 isArgs = True
                 break
 
-        # The following <Identifier> is specified with 'classname <Identifier>'
-        # Find all instance methods
+        # If the instance is not initialized, search a statement of initialization
         tokens = set([keyS])
         instancename = valueS[0]
+        for keyC, valueC in dic.items():
+            if keyS >= keyC:
+                
+
+        # The following <Identifier> is specified with 'classname <Identifier>'
+        # Find all instance methods
         for keyT, valueT in dic.items():
             if keyS >= keyT:
                 continue
             if dic[keyT][1] == 'Identifier' and dic[keyT + 1][0] == instancename:
                 break
-            if valueT[1] == '}' and valueS[3] + int(isArgs) > valueT[3]:
+            if valueT[0] == '}' and valueS[3] + int(isArgs) > valueT[3]:
                 break
 
             if dic[keyT][0] == instancename and dic[keyT + 1][0] == '.':
                 tokens.add(keyT)
-
-        print(tokens)
 
         # Search lines including the instane methods
         lines = set([dic[keyT][2]])
@@ -74,7 +77,7 @@ def extract(classname, dic):
                     lines.add(dic[i][2])
                     break
                 if dic[i][0] == ';' or dic[i][0] == '{' or dic[i][0] == '}':
-                    lines.add(dic[i + 1][2])
+                    lines.add(str(int(dic[i][2]) + 1))
                     break
 
             for i in range(len(dic))[n + 1:]:
@@ -84,6 +87,7 @@ def extract(classname, dic):
 
         catalog.append(sorted(list(lines)))
 
+    print(catalog)
     return catalog
 
 
@@ -116,6 +120,7 @@ def f(arg):
     li = res.split('\n')[:-1]
     for x in li:
         idname = x[:-6]
+        print(idname)
         res = getter(classname, idname)
         data = extract(classname, res)
         setter(data, classname, idname)
