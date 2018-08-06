@@ -1,9 +1,12 @@
 {
   "id": "46078634",
-  "lines": {
-    "82": "\t\n",
-    "83": "\tprivate XSSFWorkbook workbook;\n",
-    "390": "\t\tfinal XSSFSheet sheet = workbook.getSheet(XLSX_FILE_SHEET_VERSION);\n",
-    "456": "}\n"
-  }
+  "lines": [
+    {
+      "83": "\tprivate XSSFWorkbook workbook;\n",
+      "390": "\t\tfinal XSSFSheet sheet = workbook.getSheet(XLSX_FILE_SHEET_VERSION);\n"
+    },
+    {
+      "432": "\tpublic XSSFWorkbook getWorkbook() {\n"
+    }
+  ]
 }

@@ -1,12 +1,12 @@
 {
   "id": "91974009",
-  "lines": {
-    "37": "\n",
-    "39": "\t\t\tXSSFWorkbook xssfWorkbook = new XSSFWorkbook();\n",
-    "40": "\t\t\tXSSFSheet sheet = xssfWorkbook.createSheet(\"Familie\");\n",
-    "43": "\t\t\tXSSFFont font = xssfWorkbook.createFont();\n",
-    "47": "\t\t\tXSSFCellStyle headerStyle = xssfWorkbook.createCellStyle();\n",
-    "52": "\t\t\tXSSFCellStyle dataStyle = xssfWorkbook.createCellStyle();\n",
-    "84": "\t\t\t}\n"
-  }
+  "lines": [
+    {
+      "39": "\t\t\tXSSFWorkbook xssfWorkbook = new XSSFWorkbook();\n",
+      "40": "\t\t\tXSSFSheet sheet = xssfWorkbook.createSheet(\"Familie\");\n",
+      "43": "\t\t\tXSSFFont font = xssfWorkbook.createFont();\n",
+      "47": "\t\t\tXSSFCellStyle headerStyle = xssfWorkbook.createCellStyle();\n",
+      "52": "\t\t\tXSSFCellStyle dataStyle = xssfWorkbook.createCellStyle();\n"
+    }
+  ]
 }

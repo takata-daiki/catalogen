@@ -7,7 +7,7 @@ import multiprocessing
 from pprint import pprint
 
 def getter(classname, idname):
-    li = {}
+    dic = {}
     with open('CodeToken/{}/{}.token'.format(classname, idname), 'r') as f:
         dep = 0
         for data in f:
@@ -34,58 +34,60 @@ def getter(classname, idname):
 
 def extract(classname, dic):
     catalog = []
-    for keyS, valueS in dic.items():
-        if keyS < 1 or dic[keyS - 1][0] != classname or dic[keyS][1] != 'Identifier':
+    for s in range(len(dic)):
+        if s < 1 or dic[s - 1][0] != classname or dic[s][1] != 'Identifier':
             continue
 
         # Now, the instance should be determined whether it is function arguments or not
         isArgs = False
-        for keyT, valueT in dic.items():
-            if keyS >= keyT:
+        for t in range(len(dic)):
+            if s >= t:
                 continue
-            if valueT[0] == ';':
+            if dic[t][0] == ';':
                 break
-            if valueT[0] == ')':
+            if dic[t][0] == ')':
                 isArgs = True
                 break
 
-        # If the instance is not initialized, search a statement of initialization
-        tokens = set([keyS])
-        instancename = valueS[0]
-        for keyC, valueC in dic.items():
-            if keyS >= keyC:
-                
+        # # If the instance is not initialized, search a statement of initialization
+        # tokens = set([keyS])
+        # instancename = valueS[0]
+        # for keyC, valueC in dic.items():
+        #     if keyS >= keyC:
 
         # The following <Identifier> is specified with 'classname <Identifier>'
         # Find all instance methods
-        for keyT, valueT in dic.items():
-            if keyS >= keyT:
+        tokenNum = set([s])
+        instancename = dic[s][0]
+        for t in range(len(dic)):
+            if s >= t:
                 continue
-            if dic[keyT][1] == 'Identifier' and dic[keyT + 1][0] == instancename:
+            if dic[t][1] == 'Identifier' and dic[t + 1][0] == instancename:
                 break
-            if valueT[0] == '}' and valueS[3] + int(isArgs) > valueT[3]:
+            if dic[t][0] == '}' and dic[s][3] + int(isArgs) > dic[t][3]:
                 break
 
-            if dic[keyT][0] == instancename and dic[keyT + 1][0] == '.':
-                tokens.add(keyT)
+            if dic[t][0] == instancename and dic[t + 1][0] == '.':
+                tokenNum.add(t)
 
         # Search lines including the instane methods
-        lines = set([dic[keyT][2]])
-        for n in tokens:
-            for i in range(n)[::-1]: # front
-                if dic[i][0] == '(':
-                    lines.add(dic[i][2])
-                    break
-                if dic[i][0] == ';' or dic[i][0] == '{' or dic[i][0] == '}':
-                    lines.add(str(int(dic[i][2]) + 1))
-                    break
+        lineNum = set([dic[s][2]])
+        for n in tokenNum:
+            lineNum.add(dic[n][2])
+        #     for i in range(n)[::-1]: # front
+        #         if dic[i][0] == '(':
+        #             lineNum.add(dic[i][2])
+        #             break
+        #         if dic[i][0] == ';' or dic[i][0] == '{' or dic[i][0] == '}':
+        #             lineNum.add(str(int(dic[i][2]) + 1))
+        #             break
+        #
+        #     for i in range(len(dic))[n + 1:]:
+        #         if dic[i][0] == ';':
+        #             lineNum.add(dic[i][2])
+        #             break
 
-            for i in range(len(dic))[n + 1:]:
-                if dic[i][0] == ';':
-                    lines.add(dic[i][2])
-                    break
-
-        catalog.append(sorted(list(lines)))
+        catalog.append(sorted(list(lineNum)))
 
     print(catalog)
     return catalog
@@ -93,19 +95,25 @@ def extract(classname, dic):
 
 def setter(catalog, classname, idname):
     li = []
-    with open('CodeResult/{}/{}.java'.format(classname, idname), 'r') as f:
-        for example in catalog:
+    for example in catalog:
+        tmp = []
+        with open('CodeResult/{}/{}.java'.format(classname, idname), 'r') as f:
             for i, line in enumerate(f):
                 if str(i + 1) in example:
-                    li.append([str(i + 1), line])
+                    tmp.append([str(i + 1), line])
+        seen = []
+        tmp = [x for x in tmp if x[1] not in seen and not seen.append(x[1])]
+        li.append(tmp)
+    print([[v[0] for v in x] for x in li])
 
-    seen = []
-    li = [x for x in li if x[1] not in seen and not seen.append(x[1])]
 
-    jsn = {'id': idname, 'lines': {}}
+    jsn = {'id': idname, 'lines': []}
     for x in li:
-        print(x[0], x[1].split('\n')[0])
-        jsn['lines'][x[0]] = x[1]
+        lines = {}
+        for v in x:
+            print(v[0], v[1].split('\n')[0])
+            lines[v[0]] = v[1]
+        jsn['lines'].append(lines)
 
     os.makedirs('CodeExample/' + classname, exist_ok=True)
     with open('CodeExample/{}/{}.json'.format(classname, idname), 'w') as f:
