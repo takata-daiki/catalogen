@@ -1,0 +1,53 @@
+{
+  "id": "93053244",
+  "lines": [
+    {
+      "48": "  XSSFCellStyle cellHeaderStyle; \n"
+    },
+    {
+      "49": "  XSSFCellStyle cellDataStyle; \n"
+    },
+    {
+      "242": "  private void setInstructions(XSSFSheet sheet, CreationHelper createHelper, XSSFCellStyle cs){\n"
+    },
+    {
+      "282": "  private void setBatchStatus(XSSFSheet sheet, CreationHelper createHelper, XSSFCellStyle cs){\n"
+    },
+    {
+      "287": "  private void createBatchStatusRow(XSSFSheet sheet, CreationHelper createHelper, XSSFCellStyle cs, short rowindex, String value){\n"
+    },
+    {
+      "299": "  private void createIntructionRow(XSSFSheet sheet, CreationHelper createHelper, XSSFCellStyle cs, short rowindex, String value){\n"
+    },
+    {
+      "309": "    XSSFCellStyle cs = this.wb.createCellStyle();\n",
+      "310": "      cs.setWrapText(true);\n",
+      "313": "      cs.setBorderBottom(XSSFCellStyle.BORDER_THIN);\n",
+      "314": "      cs.setBottomBorderColor(IndexedColors.BLACK.getIndex());\n",
+      "315": "      cs.setBorderLeft(XSSFCellStyle.BORDER_THIN);\n",
+      "316": "      cs.setLeftBorderColor(IndexedColors.BLACK.getIndex());\n",
+      "317": "      cs.setFillForegroundColor(color);\n",
+      "318": "      cs.setFillPattern(XSSFCellStyle.SOLID_FOREGROUND);   \n",
+      "321": "      cs.setFont(font);\n"
+    },
+    {
+      "326": "    XSSFCellStyle cs = this.wb.createCellStyle();\n",
+      "327": "      cs.setWrapText(true);\n",
+      "328": "      cs.setBorderBottom(XSSFCellStyle.BORDER_THIN);\n",
+      "329": "      cs.setBottomBorderColor(IndexedColors.BLACK.getIndex());\n",
+      "330": "      cs.setBorderLeft(XSSFCellStyle.BORDER_THIN);\n",
+      "331": "      cs.setLeftBorderColor(IndexedColors.BLACK.getIndex());\n"
+    },
+    {
+      "337": "    XSSFCellStyle cs = wb.createCellStyle();\n",
+      "338": "      cs.setWrapText(true);\n",
+      "341": "      cs.setBorderBottom(XSSFCellStyle.BORDER_THIN);\n",
+      "342": "      cs.setBottomBorderColor(IndexedColors.BLACK.getIndex());\n",
+      "343": "      cs.setBorderLeft(XSSFCellStyle.BORDER_THIN);\n",
+      "344": "      cs.setLeftBorderColor(IndexedColors.BLACK.getIndex());\n",
+      "345": "      cs.setFillForegroundColor(color);\n",
+      "346": "      cs.setFillPattern(XSSFCellStyle.SOLID_FOREGROUND);   \n",
+      "350": "      cs.setFont(font);\n"
+    }
+  ]
+}

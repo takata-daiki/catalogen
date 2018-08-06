@@ -1,0 +1,11 @@
+{
+  "id": "110658551",
+  "lines": [
+    {
+      "51": "        final XSSFReader.SheetIterator sheetIterator = mock(XSSFReader.SheetIterator.class);\n",
+      "52": "        stub(sheetIterator.hasNext()).toReturn(true).toReturn(false);\n",
+      "53": "        when(sheetIterator.next()).thenReturn(inputStream);\n",
+      "54": "        when(sheetIterator.getSheetName()).thenReturn(sheetName);\n"
+    }
+  ]
+}

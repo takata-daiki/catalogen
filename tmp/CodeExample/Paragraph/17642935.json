@@ -1,0 +1,20 @@
+{
+  "id": "17642935",
+  "lines": [
+    {
+      "112": "        Paragraph p = s.getParagraph(y);\n",
+      "114": "                if (p.isInTable()) {\n"
+    },
+    {
+      "139": "  private static org.docx4j.wml.P handleP(Paragraph p,\n",
+      "146": "    if (p.getStyleIndex() > 0) {\n",
+      "147": "      log.debug(\"Styled paragraph, with index: \" + p.getStyleIndex());\n",
+      "149": "          .getStyleDescription(p.getStyleIndex()).getName();\n",
+      "158": "    for (int z = 0; z < p.numCharacterRuns(); z++) {\n",
+      "160": "      CharacterRun run = p.getCharacterRun(z);\n"
+    },
+    {
+      "319": "          Paragraph p = tc.getParagraph(y);\n"
+    }
+  ]
+}

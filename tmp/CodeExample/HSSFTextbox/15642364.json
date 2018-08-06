@@ -1,0 +1,31 @@
+{
+  "id": "15642364",
+  "lines": [
+    {
+      "68": "    TextboxShape( HSSFTextbox hssfShape, int shapeId )\n"
+    },
+    {
+      "78": "    private ObjRecord createObjRecord( HSSFTextbox hssfShape, int shapeId )\n"
+    },
+    {
+      "104": "    private EscherContainerRecord createSpContainer( HSSFTextbox hssfShape, int shapeId )\n"
+    },
+    {
+      "106": "        HSSFTextbox shape = hssfShape;\n",
+      "125": "        opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.TEXT__TEXTLEFT, shape.getMarginLeft() ) );\n",
+      "126": "        opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.TEXT__TEXTRIGHT, shape.getMarginRight() ) );\n",
+      "127": "        opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.TEXT__TEXTBOTTOM, shape.getMarginBottom() ) );\n",
+      "128": "        opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.TEXT__TEXTTOP, shape.getMarginTop() ) );\n",
+      "130": "        HSSFAnchor userAnchor = shape.getAnchor();\n"
+    },
+    {
+      "154": "    private TextObjectRecord createTextObjectRecord( HSSFTextbox hssfShape, int shapeId )\n"
+    },
+    {
+      "156": "        HSSFTextbox shape = hssfShape;\n",
+      "163": "        int frLength = ( shape.getString().numFormattingRuns() + 1 ) * 8;\n",
+      "165": "        obj.setTextLength( (short) shape.getString().length() );\n",
+      "166": "        obj.setStr( shape.getString() );\n"
+    }
+  ]
+}

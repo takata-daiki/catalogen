@@ -1,0 +1,17 @@
+{
+  "id": "97394959",
+  "lines": [
+    {
+      "80": "  private FontCollection _fonts;\n"
+    },
+    {
+      "883": "    FontCollection fonts = getDocumentRecord().getEnvironment().getFontCollection();\n",
+      "884": "    int idx = fonts.getFontIndex(font.getFontName());\n",
+      "886": "      idx = fonts.addFont(font.getFontName(), font.getCharSet(), font.getFontFlags(), font\n"
+    },
+    {
+      "902": "    FontCollection fonts = getDocumentRecord().getEnvironment().getFontCollection();\n",
+      "903": "    Record[] ch = fonts.getChildRecords();\n"
+    }
+  ]
+}

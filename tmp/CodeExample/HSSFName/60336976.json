@@ -1,0 +1,18 @@
+{
+  "id": "60336976",
+  "lines": [
+    {
+      "93": "          HSSFName paramCellName = ExcelUtils.getNamedRange(wb, param.getKey());\n",
+      "95": "            HSSFSheet paramCellSheet = wb.getSheet(paramCellName.getSheetName());\n",
+      "96": "            AreaReference paramCellAreaRef = new AreaReference(paramCellName.getRefersToFormula());\n"
+    },
+    {
+      "105": "        HSSFName nameDataBeg = ExcelUtils.getNamedRange(wb, dataBegFieldName);\n",
+      "107": "        String nameShData = nameDataBeg.getSheetName();\n",
+      "110": "        AreaReference areaDataBeg = new AreaReference(nameDataBeg.getRefersToFormula());\n"
+    },
+    {
+      "141": "        HSSFName aSelf_FormatName = ExcelUtils.getNamedRange(wb, \"Self_Format\");\n"
+    }
+  ]
+}

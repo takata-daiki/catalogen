@@ -1,0 +1,32 @@
+{
+  "id": "15642358",
+  "lines": [
+    {
+      "2177": "            EscherContainerRecord dggContainer = new EscherContainerRecord();\n",
+      "2182": "            dggContainer.setRecordId((short) 0xF000);\n",
+      "2183": "            dggContainer.setOptions((short) 0x000F);\n",
+      "2215": "            dggContainer.addChildRecord(dgg);\n",
+      "2217": "                dggContainer.addChildRecord( bstoreContainer );\n",
+      "2218": "            dggContainer.addChildRecord(opt);\n",
+      "2219": "            dggContainer.addChildRecord(splitMenuColors);\n"
+    },
+    {
+      "2191": "            EscherContainerRecord bstoreContainer = null;\n",
+      "2195": "                bstoreContainer.setRecordId( EscherContainerRecord.BSTORE_CONTAINER );\n",
+      "2196": "                bstoreContainer.setOptions( (short) ( (escherBSERecords.size() << 4) | 0xF ) );\n",
+      "2200": "                    bstoreContainer.addChildRecord( escherRecord );\n"
+    },
+    {
+      "2260": "        EscherContainerRecord dggContainer = (EscherContainerRecord) drawingGroup.getEscherRecord( 0 );\n",
+      "2262": "        if (dggContainer.getChild( 1 ).getRecordId() == EscherContainerRecord.BSTORE_CONTAINER )\n",
+      "2264": "            bstoreContainer = (EscherContainerRecord) dggContainer.getChild( 1 );\n",
+      "2270": "            dggContainer.getChildRecords().add( 1, bstoreContainer );\n"
+    },
+    {
+      "2261": "        EscherContainerRecord bstoreContainer;\n",
+      "2269": "            bstoreContainer.setRecordId( EscherContainerRecord.BSTORE_CONTAINER );\n",
+      "2272": "        bstoreContainer.setOptions( (short) ( (escherBSERecords.size() << 4) | 0xF ) );\n",
+      "2274": "        bstoreContainer.addChildRecord( e );\n"
+    }
+  ]
+}

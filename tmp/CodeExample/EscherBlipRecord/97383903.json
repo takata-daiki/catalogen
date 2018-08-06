@@ -1,0 +1,16 @@
+{
+  "id": "97383903",
+  "lines": [
+    {
+      "55": "    private EscherBlipRecord field_12_blipRecord;\n",
+      "79": "            bytesRead = field_12_blipRecord.fillFields( data, pos + 36, recordFactory );\n",
+      "86": "        return bytesRemaining + 8 + 36 + (field_12_blipRecord == null ? 0 : field_12_blipRecord.getRecordSize()) ;\n",
+      "99": "        int blipSize = field_12_blipRecord == null ? 0 : field_12_blipRecord.getRecordSize();\n",
+      "118": "            bytesWritten = field_12_blipRecord.serialize( offset + 44, data, new NullEscherSerializationListener() );\n",
+      "132": "            field_12_size = field_12_blipRecord.getRecordSize();\n"
+    },
+    {
+      "294": "    public void setBlipRecord(EscherBlipRecord blipRecord) {\n"
+    }
+  ]
+}

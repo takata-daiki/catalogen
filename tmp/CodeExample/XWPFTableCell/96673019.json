@@ -1,0 +1,18 @@
+{
+  "id": "96673019",
+  "lines": [
+    {
+      "1055": "    protected IITextContainer startVisitTableCell( final XWPFTableCell cell, IITextContainer pdfTableContainer,\n",
+      "1060": "        XWPFTableRow row = cell.getTableRow();\n"
+    },
+    {
+      "1073": "        XWPFTableCell lastVMergedCell = null;\n"
+    },
+    {
+      "1097": "        XWPFTableCell theCell = lastVMergedCell != null ? lastVMergedCell : cell;\n"
+    },
+    {
+      "1233": "    protected void endVisitTableCell( XWPFTableCell cell, IITextContainer tableContainer,\n"
+    }
+  ]
+}

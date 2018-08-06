@@ -1,0 +1,24 @@
+{
+  "id": "15642316",
+  "lines": [
+    {
+      "519": "        WindowTwoRecord windowTwo = (WindowTwoRecord) sheet.getSheet().findFirstRecordBySid(WindowTwoRecord.sid);\n",
+      "520": "        windowTwo.setSelected(sheets.size() == 1);\n",
+      "521": "        windowTwo.setPaged(sheets.size() == 1);\n"
+    },
+    {
+      "536": "        WindowTwoRecord windowTwo = (WindowTwoRecord) clonedSheet.getSheet().findFirstRecordBySid(WindowTwoRecord.sid);\n",
+      "537": "        windowTwo.setSelected(sheets.size() == 1);\n",
+      "538": "        windowTwo.setPaged(sheets.size() == 1);\n"
+    },
+    {
+      "578": "        WindowTwoRecord windowTwo = (WindowTwoRecord) sheet.getSheet().findFirstRecordBySid(WindowTwoRecord.sid);\n",
+      "579": "        windowTwo.setSelected(sheets.size() == 1);\n",
+      "580": "        windowTwo.setPaged(sheets.size() == 1);\n"
+    },
+    {
+      "776": "        WindowTwoRecord w2 = (WindowTwoRecord) sheet.getSheet().findFirstRecordBySid(WindowTwoRecord.sid);\n",
+      "777": "        w2.setPaged(true);\n"
+    }
+  ]
+}

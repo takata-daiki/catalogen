@@ -1,0 +1,175 @@
+{
+  "id": "15642377",
+  "lines": [
+    {
+      "131": "    static final private BitField _locked       = BitFieldFactory.getInstance(0x0001);\n",
+      "303": "        field_3_cell_options = _locked.setShortBoolean(field_3_cell_options,\n",
+      "1048": "        return _locked.isSet(field_3_cell_options);\n"
+    },
+    {
+      "132": "    static final private BitField _hidden       = BitFieldFactory.getInstance(0x0002);\n",
+      "317": "        field_3_cell_options = _hidden.setShortBoolean(field_3_cell_options,\n",
+      "1061": "        return _hidden.isSet(field_3_cell_options);\n"
+    },
+    {
+      "133": "    static final private BitField _xf_type      = BitFieldFactory.getInstance(0x0004);\n",
+      "333": "        field_3_cell_options = _xf_type.setShortValue(field_3_cell_options,\n",
+      "1076": "        return _xf_type.getShortValue(field_3_cell_options);\n"
+    },
+    {
+      "134": "    static final private BitField _123_prefix   = BitFieldFactory.getInstance(0x0008);\n",
+      "348": "            _123_prefix.setShortBoolean(field_3_cell_options, prefix);\n",
+      "1089": "        return _123_prefix.isSet(field_3_cell_options);\n"
+    },
+    {
+      "135": "    static final private BitField _parent_index = BitFieldFactory.getInstance(0xFFF0);\n",
+      "365": "            _parent_index.setShortValue(field_3_cell_options, parent);\n",
+      "1103": "        return _parent_index.getShortValue(field_3_cell_options);\n"
+    },
+    {
+      "139": "    static final private BitField _alignment          = BitFieldFactory.getInstance(0x0007);\n",
+      "401": "            _alignment.setShortValue(field_4_alignment_options, align);\n",
+      "1140": "        return _alignment.getShortValue(field_4_alignment_options);\n"
+    },
+    {
+      "140": "    static final private BitField _wrap_text          = BitFieldFactory.getInstance(0x0008);\n",
+      "415": "            _wrap_text.setShortBoolean(field_4_alignment_options, wrapped);\n",
+      "1153": "        return _wrap_text.isSet(field_4_alignment_options);\n"
+    },
+    {
+      "141": "    static final private BitField _vertical_alignment = BitFieldFactory.getInstance(0x0070);\n",
+      "434": "            _vertical_alignment.setShortValue(field_4_alignment_options,\n",
+      "1171": "        return _vertical_alignment.getShortValue(field_4_alignment_options);\n"
+    },
+    {
+      "142": "    static final private BitField _justify_last       = BitFieldFactory.getInstance(0x0080);\n",
+      "450": "            _justify_last.setShortValue(field_4_alignment_options, justify);\n",
+      "1185": "        return _justify_last.getShortValue(field_4_alignment_options);\n"
+    },
+    {
+      "143": "    static final private BitField _rotation           = BitFieldFactory.getInstance(0xFF00);\n",
+      "464": "            _rotation.setShortValue(field_4_alignment_options, rotation);\n",
+      "1198": "        return _rotation.getShortValue(field_4_alignment_options);\n"
+    },
+    {
+      "147": "    static final private BitField _indent                         =\n",
+      "493": "            _indent.setShortValue(field_5_indention_options, indent);\n",
+      "1228": "        return _indent.getShortValue(field_5_indention_options);\n"
+    },
+    {
+      "149": "    static final private BitField _shrink_to_fit                  =\n",
+      "507": "            _shrink_to_fit.setShortBoolean(field_5_indention_options, shrink);\n",
+      "1241": "        return _shrink_to_fit.isSet(field_5_indention_options);\n"
+    },
+    {
+      "151": "    static final private BitField _merge_cells                    =\n",
+      "521": "            _merge_cells.setShortBoolean(field_5_indention_options, merge);\n",
+      "1254": "        return _merge_cells.isSet(field_5_indention_options);\n"
+    },
+    {
+      "153": "    static final private BitField _reading_order                  =\n",
+      "535": "            _reading_order.setShortValue(field_5_indention_options, order);\n",
+      "1267": "        return _reading_order.getShortValue(field_5_indention_options);\n"
+    },
+    {
+      "157": "    static final private BitField _indent_not_parent_format       =\n",
+      "550": "            _indent_not_parent_format\n",
+      "1281": "        return _indent_not_parent_format.isSet(field_5_indention_options);\n"
+    },
+    {
+      "159": "    static final private BitField _indent_not_parent_font         =\n",
+      "566": "            _indent_not_parent_font.setShortBoolean(field_5_indention_options,\n",
+      "1295": "        return _indent_not_parent_font.isSet(field_5_indention_options);\n"
+    },
+    {
+      "161": "    static final private BitField _indent_not_parent_alignment    =\n",
+      "582": "            _indent_not_parent_alignment\n",
+      "1309": "        return _indent_not_parent_alignment.isSet(field_5_indention_options);\n"
+    },
+    {
+      "163": "    static final private BitField _indent_not_parent_border       =\n",
+      "598": "            _indent_not_parent_border\n",
+      "1323": "        return _indent_not_parent_border.isSet(field_5_indention_options);\n"
+    },
+    {
+      "165": "    static final private BitField _indent_not_parent_pattern      =\n",
+      "614": "            _indent_not_parent_pattern\n",
+      "1337": "        return _indent_not_parent_pattern.isSet(field_5_indention_options);\n"
+    },
+    {
+      "167": "    static final private BitField _indent_not_parent_cell_options =\n",
+      "630": "            _indent_not_parent_cell_options\n",
+      "1351": "        return _indent_not_parent_cell_options\n"
+    },
+    {
+      "172": "    static final private BitField _border_left   = BitFieldFactory.getInstance(0x000F);\n",
+      "676": "            _border_left.setShortValue(field_6_border_options, border);\n",
+      "1397": "        return _border_left.getShortValue(field_6_border_options);\n"
+    },
+    {
+      "173": "    static final private BitField _border_right  = BitFieldFactory.getInstance(0x00F0);\n",
+      "704": "            _border_right.setShortValue(field_6_border_options, border);\n",
+      "1424": "        return _border_right.getShortValue(field_6_border_options);\n"
+    },
+    {
+      "174": "    static final private BitField _border_top    = BitFieldFactory.getInstance(0x0F00);\n",
+      "732": "            _border_top.setShortValue(field_6_border_options, border);\n",
+      "1451": "        return _border_top.getShortValue(field_6_border_options);\n"
+    },
+    {
+      "175": "    static final private BitField _border_bottom = BitFieldFactory.getInstance(0xF000);\n",
+      "760": "            _border_bottom.setShortValue(field_6_border_options, border);\n",
+      "1478": "        return _border_bottom.getShortValue(field_6_border_options);\n"
+    },
+    {
+      "180": "    static final private BitField _left_border_palette_idx  =\n",
+      "792": "            _left_border_palette_idx.setShortValue(field_7_palette_options,\n",
+      "1509": "        return _left_border_palette_idx\n"
+    },
+    {
+      "182": "    static final private BitField _right_border_palette_idx =\n",
+      "807": "            _right_border_palette_idx.setShortValue(field_7_palette_options,\n",
+      "1523": "        return _right_border_palette_idx\n"
+    },
+    {
+      "184": "    static final private BitField _diag                     =\n",
+      "824": "        field_7_palette_options = _diag.setShortValue(field_7_palette_options,\n",
+      "1540": "        return _diag.getShortValue(field_7_palette_options);\n"
+    },
+    {
+      "189": "    static final private BitField _top_border_palette_idx    =\n",
+      "857": "            _top_border_palette_idx.setValue(field_8_adtl_palette_options,\n",
+      "1572": "        return ( short ) _top_border_palette_idx\n"
+    },
+    {
+      "191": "    static final private BitField _bottom_border_palette_idx =\n",
+      "872": "            _bottom_border_palette_idx.setValue(field_8_adtl_palette_options,\n",
+      "1586": "        return ( short ) _bottom_border_palette_idx\n"
+    },
+    {
+      "193": "    static final private BitField _adtl_diag                 =\n",
+      "888": "            _adtl_diag.setValue(field_8_adtl_palette_options, diag);\n",
+      "1601": "        return ( short ) _adtl_diag.getValue(field_8_adtl_palette_options);\n"
+    },
+    {
+      "195": "    static final private BitField _adtl_diag_line_style      =\n",
+      "916": "            _adtl_diag_line_style.setValue(field_8_adtl_palette_options,\n",
+      "1628": "        return ( short ) _adtl_diag_line_style\n"
+    },
+    {
+      "199": "    static final private BitField _adtl_fill_pattern         =\n",
+      "948": "            _adtl_fill_pattern.setValue(field_8_adtl_palette_options, fill);\n",
+      "1659": "        return ( short ) _adtl_fill_pattern\n"
+    },
+    {
+      "204": "    static final private BitField _fill_foreground = BitFieldFactory.getInstance(0x007F);\n",
+      "977": "            _fill_foreground.setShortValue(field_9_fill_palette_options,\n",
+      "1691": "        return _fill_foreground.getShortValue(field_9_fill_palette_options);\n"
+    },
+    {
+      "205": "    static final private BitField _fill_background = BitFieldFactory.getInstance(0x3f80);\n",
+      "992": "            _fill_background.setShortValue(field_9_fill_palette_options,\n",
+      "1703": "        return _fill_background.getShortValue(field_9_fill_palette_options);\n"
+    }
+  ]
+}

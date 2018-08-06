@@ -1,0 +1,19 @@
+{
+  "id": "96672565",
+  "lines": [
+    {
+      "133": "    private XWPFHeader currentHeader;\n",
+      "1344": "            return currentHeader.getPictureDataByID( blipId );\n"
+    },
+    {
+      "1101": "    protected abstract void visitHeader( XWPFHeader header, CTHdrFtrRef headerRef, CTSectPr sectPr, E masterPage )\n"
+    },
+    {
+      "1185": "        for ( XWPFHeader header : headers )\n",
+      "1187": "            if ( header.getPackagePart().equals( hdrPart ) )\n"
+    },
+    {
+      "1196": "        XWPFHeader hdr = new XWPFHeader( document, hdrFtr );\n"
+    }
+  ]
+}

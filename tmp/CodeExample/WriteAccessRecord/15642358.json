@@ -1,0 +1,17 @@
+{
+  "id": "15642358",
+  "lines": [
+    {
+      "128": "    private WriteAccessRecord writeAccess;\n"
+    },
+    {
+      "914": "        WriteAccessRecord retval = new WriteAccessRecord();\n",
+      "918": "            retval.setUsername(System.getProperty(\"user.name\"));\n",
+      "924": "                retval.setUsername(\"POI\");\n"
+    },
+    {
+      "2331": "        WriteAccessRecord waccess = getWriteAccess();\n",
+      "2336": "        waccess.setUsername(username);\n"
+    }
+  ]
+}

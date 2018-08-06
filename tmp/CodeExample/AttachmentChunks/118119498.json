@@ -1,0 +1,15 @@
+{
+  "id": "118119498",
+  "lines": [
+    {
+      "123": "                    for (AttachmentChunks attachment : attachments) {\n"
+    },
+    {
+      "148": "    public void processAttachment(final AttachmentChunks attachment,\n",
+      "150": "        String fileName = attachment.attachFileName.toString();\n",
+      "151": "        if (attachment.attachLongFileName != null) {\n",
+      "152": "            fileName = attachment.attachLongFileName.toString();\n",
+      "159": "            fileOut.write(attachment.attachData.getValue());\n"
+    }
+  ]
+}

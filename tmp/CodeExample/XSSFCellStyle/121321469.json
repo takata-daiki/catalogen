@@ -1,0 +1,13 @@
+{
+  "id": "121321469",
+  "lines": [
+    {
+      "45": "    XSSFCellStyle cellStyle = sheet.getRow(0).getCell(0).getCellStyle();\n",
+      "49": "        System.out.println(\"Found cellstule with index \" + i + \" vs. \" + cellStyle.getIndex());\n",
+      "51": "    System.out.println(\"Fill ID: \" + cellStyle.getCoreXf().getFillId());\n",
+      "56": "      XSSFCellFill fill = stylesSource.getFillAt(cellStyle.getIndex()+1);\n",
+      "59": "        System.out.println(\"Index: \" + cellStyle.getIndex() + \" \"+ fill.getFillBackgroundColor().getARGBHex());\n",
+      "62": "      System.out.println(\"Index: \" +cellStyle.getIndex() + \" \"+ fill.getFillForegroundColor().getARGBHex());\n"
+    }
+  ]
+}

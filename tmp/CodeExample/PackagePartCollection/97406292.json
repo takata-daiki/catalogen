@@ -1,0 +1,26 @@
+{
+  "id": "97406292",
+  "lines": [
+    {
+      "84": "  protected PackagePartCollection partList;\n",
+      "533": "    for (PackagePart part : partList.values()) {\n",
+      "565": "      for (PackagePart part : partList.values()) {\n",
+      "626": "        if (partList.containsKey(part._partName))\n",
+      "654": "            partList.put(unmarshallPart._partName, unmarshallPart);\n",
+      "673": "            partList.put(part._partName, part);\n",
+      "680": "    return new ArrayList<PackagePart>(partList.values());\n",
+      "733": "    if (partList.containsKey(partName)\n",
+      "734": "        && !partList.get(partName).isDeleted()) {\n",
+      "761": "    this.partList.put(partName, part);\n",
+      "826": "    if (partList.containsKey(part._partName)) {\n",
+      "827": "      if (!partList.get(part._partName).isDeleted()) {\n",
+      "837": "      this.partList.remove(part._partName);\n",
+      "839": "    this.partList.put(part._partName, part);\n",
+      "871": "    if (this.partList.containsKey(partName)) {\n",
+      "872": "      this.partList.get(partName).setDeleted(true);\n",
+      "874": "      this.partList.remove(partName);\n",
+      "924": "    PackagePart relPart = this.partList.get(PackagingURIHelper\n",
+      "927": "    PackagePart partToRemove = this.partList.get(partName);\n"
+    }
+  ]
+}

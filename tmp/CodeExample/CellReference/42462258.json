@@ -1,0 +1,16 @@
+{
+  "id": "42462258",
+  "lines": [
+    {
+      "343": "    CellReference cellRef = new CellReference(reference);\n",
+      "345": "    String sheetName = cellRef.getSheetName();\n",
+      "357": "    Row xlsRow = sheet.getRow(cellRef.getRow());\n",
+      "361": "    Cell styleCell = xlsRow.getCell(cellRef.getCol());\n"
+    },
+    {
+      "769": "        CellReference cellRef = new CellReference(data.realStartingCell);\n",
+      "770": "        data.startingRow = cellRef.getRow();\n",
+      "771": "        data.startingCol = cellRef.getCol();\n"
+    }
+  ]
+}

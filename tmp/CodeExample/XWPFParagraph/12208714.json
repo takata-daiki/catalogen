@@ -1,0 +1,23 @@
+{
+  "id": "12208714",
+  "lines": [
+    {
+      "75": "    public void applyStyles( XWPFParagraph p, Style style )\n",
+      "119": "        ParagraphAlignment paragraphAlignment = p.getAlignment();\n",
+      "147": "        int indentationLeft = p.getIndentationLeft();\n",
+      "154": "        int indentationFirstLine = p.getIndentationFirstLine();\n",
+      "160": "        int indentationRight = p.getIndentationRight();\n",
+      "169": "        int left = p.getIndentationLeft();\n",
+      "170": "        int right = p.getIndentationRight();\n",
+      "182": "        int firstLineIndent = p.getIndentationFirstLine();\n",
+      "188": "        int spacingBefore = p.getSpacingBefore();\n",
+      "193": "        if ( p.getSpacingAfter() >= 0 )\n",
+      "195": "            setSpacingAfter( dxa2points( p.getSpacingAfter() ) );\n",
+      "204": "        if ( p.getCTP().getPPr() != null )\n",
+      "206": "            if ( p.getCTP().getPPr().getSpacing() != null )\n",
+      "209": "                if ( p.getCTP().getPPr().getSpacing().getLine() != null )\n",
+      "213": "                    float leading = ( p.getCTP().getPPr().getSpacing().getLine().floatValue() / 240 );\n",
+      "220": "        ParagraphAlignment alignment = p.getAlignment();\n"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "97406292",
+  "lines": [
+    {
+      "554": "    for (PackageRelationship rel : getRelationshipsByType(relationshipType)) {\n"
+    },
+    {
+      "582": "  public PackagePart getPart(PackageRelationship partRel) {\n",
+      "586": "      if (rel.getRelationshipType().equals(partRel.getRelationshipType())) {\n"
+    },
+    {
+      "585": "    for (PackageRelationship rel : relationships) {\n",
+      "586": "      if (rel.getRelationshipType().equals(partRel.getRelationshipType())) {\n",
+      "588": "          retPart = getPart(PackagingURIHelper.createPartName(rel\n"
+    },
+    {
+      "932": "      for (PackageRelationship rel : partRels) {\n",
+      "934": "            .createPartName(PackagingURIHelper.resolvePartUri(rel\n",
+      "935": "                .getSourceURI(), rel.getTargetURI()));\n"
+    },
+    {
+      "985": "      for (PackageRelationship relationship : partToDelete\n",
+      "989": "                partName.getURI(), relationship.getTargetURI()));\n"
+    },
+    {
+      "1071": "    PackageRelationship retRel = relationships.addRelationship(\n"
+    },
+    {
+      "1148": "    PackageRelationship retRel = relationships.addRelationship(targetURI,\n"
+    },
+    {
+      "1247": "  public boolean isRelationshipExists(PackageRelationship rel) {\n"
+    },
+    {
+      "1248": "        for (PackageRelationship r : this.getRelationships()) {\n"
+    }
+  ]
+}

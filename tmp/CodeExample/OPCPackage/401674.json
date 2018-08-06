@@ -1,0 +1,19 @@
+{
+  "id": "401674",
+  "lines": [
+    {
+      "35": "  public static List<PackagePart> getCoreParts(OPCPackage pack) {\n",
+      "38": "    for (PackageRelationship rel : pack.getRelationshipsByType(TKitRelationshipTypes.CORE_DOCUMENT))\n",
+      "40": "        res.add(pack.getPart(PackagingURIHelper.createPartName(rel.getTargetURI())));\n"
+    },
+    {
+      "48": "  public static PackagePart getCorePart(OPCPackage pack) {\n",
+      "51": "    for (PackageRelationship rel : pack.getRelationshipsByType(TKitRelationshipTypes.CORE_DOCUMENT))\n",
+      "53": "        res.add(pack.getPart(PackagingURIHelper.createPartName(rel.getTargetURI())));\n"
+    },
+    {
+      "66": "      OPCPackage pack = part.getPackage();\n",
+      "67": "      return pack.getPart(PackagingURIHelper.createPartName(rels.getRelationship(0).getTargetURI()));\n"
+    }
+  ]
+}

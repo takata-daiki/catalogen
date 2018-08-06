@@ -1,0 +1,14 @@
+{
+  "id": "54316596",
+  "lines": [
+    {
+      "123": "        CellValue cellValue = evaluator.evaluate(cell);\n",
+      "126": "        if (cellValue.getCellType() == Cell.CELL_TYPE_BOOLEAN) {\n",
+      "127": "            result = cellValue.getBooleanValue();\n",
+      "128": "        } else if (cellValue.getCellType() == Cell.CELL_TYPE_NUMERIC) {\n",
+      "129": "            result = cellValue.getNumberValue();\n",
+      "130": "        } else if (cellValue.getCellType() == Cell.CELL_TYPE_STRING) {\n",
+      "131": "            result = cellValue.getStringValue();   \n"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "15642324",
+  "lines": [
+    {
+      "61": "    private NoteRecord note = null;\n",
+      "97": "        if(note != null) note.setFlags(visible ? NoteRecord.NOTE_VISIBLE : NoteRecord.NOTE_HIDDEN);\n",
+      "125": "        if(note != null) note.setRow((short)row);\n",
+      "144": "        if(note != null) note.setColumn(col);\n",
+      "163": "        if(note != null) note.setAuthor(author);\n"
+    },
+    {
+      "84": "    protected HSSFComment( NoteRecord note, TextObjectRecord txo )\n"
+    }
+  ]
+}

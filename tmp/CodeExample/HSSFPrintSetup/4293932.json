@@ -1,0 +1,16 @@
+{
+  "id": "4293932",
+  "lines": [
+    {
+      "244": "        HSSFPrintSetup ps = sheet.getPrintSetup();\n",
+      "245": "        ps.setFitWidth((short)1);\n",
+      "246": "        ps.setFitHeight((short)9999);\n",
+      "249": "        ps.setPaperSize(HSSFPrintSetup.LETTER_PAPERSIZE);\n",
+      "250": "        if(colCount > 5){ps.setLandscape(true);}\n",
+      "251": "        if(colCount > 10){ps.setPaperSize(HSSFPrintSetup.LEGAL_PAPERSIZE);}\n",
+      "252": "        if(colCount > 14){ps.setPaperSize(HSSFPrintSetup.EXECUTIVE_PAPERSIZE);}\n",
+      "254": "        ps.setHeaderMargin((double) .35);\n",
+      "255": "        ps.setFooterMargin((double) .35);\n"
+    }
+  ]
+}

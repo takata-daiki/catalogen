@@ -1,0 +1,19 @@
+{
+  "id": "12208688",
+  "lines": [
+    {
+      "64": "    public static float[] computeColWidths( XWPFTable table )\n",
+      "73": "        CTTblGrid grid = table.getCTTbl().getTblGrid();\n",
+      "82": "            List<XWPFTableRow> rows = table.getRows();\n"
+    },
+    {
+      "131": "    public static int getNumberOfColumnFromFirstRow( XWPFTable table )\n",
+      "136": "        int numberOfRows = table.getNumberOfRows();\n",
+      "139": "            XWPFTableRow firstRow = table.getRow( 0 );\n"
+    },
+    {
+      "203": "    public static TableWidth getTableWidth( XWPFTable table )\n",
+      "207": "        CTTblPr tblPr = table.getCTTbl().getTblPr();\n"
+    }
+  ]
+}

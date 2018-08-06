@@ -1,0 +1,243 @@
+{
+  "id": "91974058",
+  "lines": [
+    {
+      "82": "      XSSFCell headerCell0 = zeile.createCell(0);\n",
+      "83": "      headerCell0.setCellStyle(headerStyle);\n",
+      "84": "      headerCell0.setCellValue(\"Familien ZENTRALTABELLE\");\n"
+    },
+    {
+      "91": "          XSSFCell spaltenCells = zweiteZeile.createCell(count);\n",
+      "92": "          spaltenCells.setCellStyle(headerStyle);\n",
+      "93": "          spaltenCells.setCellValue(spaltenname.substring(2));\n"
+    },
+    {
+      "98": "      XSSFCell headerCell00 = zweiteZeile.createCell(0);\n",
+      "99": "      headerCell00.setCellStyle(headerStyle);\n",
+      "100": "      headerCell00.setCellValue(\"Aufgeh\u0e23\u0e16rt\");\n"
+    },
+    {
+      "102": "      XSSFCell spaltenCells = zweiteZeile.createCell(1);\n",
+      "103": "      spaltenCells.setCellStyle(headerStyle);\n",
+      "104": "      spaltenCells.setCellValue(\"Familien\");\n"
+    },
+    {
+      "117": "        XSSFCell cell1f = dataRow.createCell(0);\n",
+      "118": "        cell1f.setCellStyle(dataStyle);\n",
+      "119": "        cell1f.setCellValue(new XSSFRichTextString(f.getAufgehort()));\n"
+    },
+    {
+      "121": "        XSSFCell cell0 = dataRow.createCell(1);\n",
+      "122": "        cell0.setCellStyle(dataStyle);\n",
+      "123": "        cell0.setCellValue(new XSSFRichTextString(f.getNummer()+\" \"+f.getNachname_patient()));\n"
+    },
+    {
+      "130": "          XSSFCell cell1 = dataRow.createCell(j + 2);\n",
+      "131": "          cell1.setCellStyle(dataStyle);\n",
+      "134": "            cell1.setCellValue(new XSSFRichTextString(\"\"\n",
+      "146": "            cell1.setCellValue(new XSSFRichTextString(f\n",
+      "153": "              cell1.setCellValue(new XSSFRichTextString(neu\n",
+      "338": "            cell1.setCellValue(new XSSFRichTextString(f.getArea()));\n"
+    },
+    {
+      "405": "            XSSFCell headerCell1 = row.createCell(0);\n",
+      "406": "            headerCell1.setCellStyle(headerStyle);\n",
+      "407": "            headerCell1.setCellValue(\"Kontaktperson 1\");\n"
+    },
+    {
+      "419": "            XSSFCell headerCell6 = row.createCell(kontaktperson1);\n",
+      "420": "            headerCell6.setCellStyle(headerStyle);\n",
+      "421": "            headerCell6.setCellValue(\"Kontaktperson 2\");\n"
+    },
+    {
+      "433": "            XSSFCell headerCell1 = row.createCell(0);\n",
+      "434": "            headerCell1.setCellStyle(headerStyle);\n",
+      "435": "            headerCell1.setCellValue(\"Patient 2\");\n"
+    },
+    {
+      "447": "            XSSFCell headerCell6 = row.createCell(patient2);\n",
+      "448": "            headerCell6.setCellStyle(headerStyle);\n",
+      "449": "            headerCell6.setCellValue(\"Kontaktperson 2\");\n"
+    },
+    {
+      "456": "            XSSFCell headerCell1 = row.createCell(0);\n",
+      "457": "            headerCell1.setCellStyle(headerStyle);\n",
+      "458": "            headerCell1.setCellValue(\"Patient 2\");\n"
+    },
+    {
+      "470": "            XSSFCell headerCell6 = row.createCell(patient2);\n",
+      "471": "            headerCell6.setCellStyle(headerStyle);\n",
+      "472": "            headerCell6.setCellValue(\"Kontaktperson 1\");\n"
+    },
+    {
+      "478": "          XSSFCell headerCell1 = row.createCell(0);\n",
+      "479": "          headerCell1.setCellStyle(headerStyle);\n",
+      "480": "          headerCell1.setCellValue(\"Patient 2\");\n"
+    },
+    {
+      "485": "          XSSFCell headerCell2 = row.createCell(patient2);\n",
+      "486": "          headerCell2.setCellStyle(headerStyle);\n",
+      "487": "          headerCell2.setCellValue(\"Kontaktperson 1\");\n"
+    },
+    {
+      "493": "          XSSFCell headerCell3 = row.createCell(patient2\n",
+      "495": "          headerCell3.setCellStyle(headerStyle);\n",
+      "496": "          headerCell3.setCellValue(\"Kontaktperson 2\");\n"
+    },
+    {
+      "510": "            XSSFCell headerCell1 = row.createCell(0);\n",
+      "511": "            headerCell1.setCellStyle(headerStyle);\n",
+      "512": "            headerCell1.setCellValue(\"Kontaktperson 1\");\n"
+    },
+    {
+      "524": "            XSSFCell headerCell6 = row.createCell(kontaktperson1);\n",
+      "525": "            headerCell6.setCellStyle(headerStyle);\n",
+      "526": "            headerCell6.setCellValue(\"Kontaktperson 2\");\n"
+    },
+    {
+      "538": "            XSSFCell headerCell1 = row.createCell(0);\n",
+      "539": "            headerCell1.setCellStyle(headerStyle);\n",
+      "540": "            headerCell1.setCellValue(\"Patient 1\");\n"
+    },
+    {
+      "552": "            XSSFCell headerCell6 = row.createCell(patient1);\n",
+      "553": "            headerCell6.setCellStyle(headerStyle);\n",
+      "554": "            headerCell6.setCellValue(\"Kontaktperson 2\");\n"
+    },
+    {
+      "561": "            XSSFCell headerCell1 = row.createCell(0);\n",
+      "562": "            headerCell1.setCellStyle(headerStyle);\n",
+      "563": "            headerCell1.setCellValue(\"Patient 1\");\n"
+    },
+    {
+      "575": "            XSSFCell headerCell6 = row.createCell(patient1);\n",
+      "576": "            headerCell6.setCellStyle(headerStyle);\n",
+      "577": "            headerCell6.setCellValue(\"Kontaktperson 1\");\n"
+    },
+    {
+      "583": "          XSSFCell headerCell1 = row.createCell(0);\n",
+      "584": "          headerCell1.setCellStyle(headerStyle);\n",
+      "585": "          headerCell1.setCellValue(\"Patient 1\");\n"
+    },
+    {
+      "590": "          XSSFCell headerCell2 = row.createCell(patient1);\n",
+      "591": "          headerCell2.setCellStyle(headerStyle);\n",
+      "592": "          headerCell2.setCellValue(\"Kontaktperson 1\");\n"
+    },
+    {
+      "598": "          XSSFCell headerCell3 = row.createCell(patient1\n",
+      "600": "          headerCell3.setCellStyle(headerStyle);\n",
+      "601": "          headerCell3.setCellValue(\"Kontaktperson 2\");\n"
+    },
+    {
+      "615": "            XSSFCell headerCell1 = row.createCell(0);\n",
+      "616": "            headerCell1.setCellStyle(headerStyle);\n",
+      "617": "            headerCell1.setCellValue(\"Patient 2\");\n"
+    },
+    {
+      "629": "            XSSFCell headerCell6 = row.createCell(patient2);\n",
+      "630": "            headerCell6.setCellStyle(headerStyle);\n",
+      "631": "            headerCell6.setCellValue(\"Kontaktperson 2\");\n"
+    },
+    {
+      "643": "            XSSFCell headerCell1 = row.createCell(0);\n",
+      "644": "            headerCell1.setCellStyle(headerStyle);\n",
+      "645": "            headerCell1.setCellValue(\"Patient 1\");\n"
+    },
+    {
+      "657": "            XSSFCell headerCell6 = row.createCell(patient1);\n",
+      "658": "            headerCell6.setCellStyle(headerStyle);\n",
+      "659": "            headerCell6.setCellValue(\"Kontaktperson 2\");\n"
+    },
+    {
+      "666": "            XSSFCell headerCell1 = row.createCell(0);\n",
+      "667": "            headerCell1.setCellStyle(headerStyle);\n",
+      "668": "            headerCell1.setCellValue(\"Patient 1\");\n"
+    },
+    {
+      "680": "            XSSFCell headerCell6 = row.createCell(patient1);\n",
+      "681": "            headerCell6.setCellStyle(headerStyle);\n",
+      "682": "            headerCell6.setCellValue(\"Patient 2\");\n"
+    },
+    {
+      "688": "          XSSFCell headerCell1 = row.createCell(0);\n",
+      "689": "          headerCell1.setCellStyle(headerStyle);\n",
+      "690": "          headerCell1.setCellValue(\"Patient 1\");\n"
+    },
+    {
+      "695": "          XSSFCell headerCell2 = row.createCell(patient1);\n",
+      "696": "          headerCell2.setCellStyle(headerStyle);\n",
+      "697": "          headerCell2.setCellValue(\"Patient 2\");\n"
+    },
+    {
+      "703": "          XSSFCell headerCell3 = row.createCell(patient1 + patient2);\n",
+      "704": "          headerCell3.setCellStyle(headerStyle);\n",
+      "705": "          headerCell3.setCellValue(\"Kontaktperson 2\");\n"
+    },
+    {
+      "719": "            XSSFCell headerCell1 = row.createCell(0);\n",
+      "720": "            headerCell1.setCellStyle(headerStyle);\n",
+      "721": "            headerCell1.setCellValue(\"Patient 2\");\n"
+    },
+    {
+      "733": "            XSSFCell headerCell6 = row.createCell(patient2);\n",
+      "734": "            headerCell6.setCellStyle(headerStyle);\n",
+      "735": "            headerCell6.setCellValue(\"Kontaktperson 1\");\n"
+    },
+    {
+      "747": "            XSSFCell headerCell1 = row.createCell(0);\n",
+      "748": "            headerCell1.setCellStyle(headerStyle);\n",
+      "749": "            headerCell1.setCellValue(\"Patient 1\");\n"
+    },
+    {
+      "761": "            XSSFCell headerCell6 = row.createCell(patient1);\n",
+      "762": "            headerCell6.setCellStyle(headerStyle);\n",
+      "763": "            headerCell6.setCellValue(\"Kontaktperson 1\");\n"
+    },
+    {
+      "770": "            XSSFCell headerCell1 = row.createCell(0);\n",
+      "771": "            headerCell1.setCellStyle(headerStyle);\n",
+      "772": "            headerCell1.setCellValue(\"Patient 1\");\n"
+    },
+    {
+      "784": "            XSSFCell headerCell6 = row.createCell(patient1);\n",
+      "785": "            headerCell6.setCellStyle(headerStyle);\n",
+      "786": "            headerCell6.setCellValue(\"Patient 2\");\n"
+    },
+    {
+      "792": "          XSSFCell headerCell1 = row.createCell(0);\n",
+      "793": "          headerCell1.setCellStyle(headerStyle);\n",
+      "794": "          headerCell1.setCellValue(\"Patient 1\");\n"
+    },
+    {
+      "799": "          XSSFCell headerCell2 = row.createCell(patient1);\n",
+      "800": "          headerCell2.setCellStyle(headerStyle);\n",
+      "801": "          headerCell2.setCellValue(\"Patient 2\");\n"
+    },
+    {
+      "807": "          XSSFCell headerCell3 = row.createCell(patient1 + patient2);\n",
+      "808": "          headerCell3.setCellStyle(headerStyle);\n",
+      "809": "          headerCell3.setCellValue(\"Kontaktperson 1\");\n"
+    },
+    {
+      "815": "        XSSFCell headerCell1 = row.createCell(0);\n",
+      "816": "        headerCell1.setCellStyle(headerStyle);\n",
+      "817": "        headerCell1.setCellValue(\"Patient 1\");\n"
+    },
+    {
+      "822": "        XSSFCell headerCell2 = row.createCell(patient1);\n",
+      "823": "        headerCell2.setCellStyle(headerStyle);\n",
+      "824": "        headerCell2.setCellValue(\"Patient 2\");\n"
+    },
+    {
+      "829": "        XSSFCell headerCell3 = row.createCell(patient1 + patient2);\n",
+      "830": "        headerCell3.setCellStyle(headerStyle);\n",
+      "831": "        headerCell3.setCellValue(\"Kontaktperson 1\");\n"
+    },
+    {
+      "837": "        XSSFCell headerCell4 = row.createCell(patient1 + patient2\n",
+      "839": "        headerCell4.setCellStyle(headerStyle);\n",
+      "840": "        headerCell4.setCellValue(\"Kontaktperson 2\");\n"
+    }
+  ]
+}

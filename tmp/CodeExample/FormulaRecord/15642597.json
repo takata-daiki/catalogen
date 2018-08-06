@@ -1,0 +1,28 @@
+{
+  "id": "15642597",
+  "lines": [
+    {
+      "112": "    private void listFormula(FormulaRecord record) {\n",
+      "114": "        List tokens= record.getParsedExpression();\n",
+      "115": "        int numptgs = record.getNumberOfExpressionTokens();\n"
+    },
+    {
+      "174": "    public void parseFormulaRecord(FormulaRecord record)\n",
+      "177": "        System.out.print(\"row = \" + record.getRow());\n",
+      "178": "        System.out.println(\", col = \" + record.getColumn());\n",
+      "179": "        System.out.println(\"value = \" + record.getValue());\n",
+      "180": "        System.out.print(\"xf = \" + record.getXFIndex());\n",
+      "182": "                           + record.getNumberOfExpressionTokens());\n",
+      "183": "        System.out.println(\", options = \" + record.getOptions());\n"
+    },
+    {
+      "188": "    private String formulaString(FormulaRecord record) {\n",
+      "190": "        int          numptgs = record.getNumberOfExpressionTokens();\n",
+      "191": "        List         tokens    = record.getParsedExpression();\n"
+    },
+    {
+      "214": "    private String composeFormula(FormulaRecord record)\n",
+      "216": "       return  loci.poi.hssf.model.FormulaParser.toFormulaString((Workbook)null,record.getParsedExpression());\n"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "46011490",
+  "lines": [
+    {
+      "39": "  private int[] createHeader(HSSFSheet sheet, List<TableColumn<T, ?>> header, int rowIdx, int clmIdx, int[] offset) {\n",
+      "40": "    HSSFRow row = sheet.createRow(rowIdx);\n",
+      "61": "      sheet.addMergedRegion(new CellRangeAddress(rowIdx, rowIdx + headerOffset[0], i + nextCellOffset, i + headerOffset[1] + nextCellOffset));\n"
+    },
+    {
+      "94": "    HSSFSheet sheet = wb.createSheet();\n",
+      "96": "    HSSFRow row = sheet.createRow(rowIdx);\n",
+      "100": "      sheet.setColumnWidth(i, (int) (258 / 8 * columnWidths.get(i)));\n",
+      "113": "      row = sheet.getRow(rowIdx + headerDepth - 1);\n",
+      "117": "          sheet.setColumnWidth(i, (int) (258 / 8 * column.getPrefWidth()));\n",
+      "131": "      row = sheet.createRow(rowIdx);\n"
+    },
+    {
+      "190": "  protected void writeFooter(HSSFSheet sheet, int rowIdx, int dataCount) {\n"
+    }
+  ]
+}

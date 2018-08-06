@@ -1,0 +1,23 @@
+{
+  "id": "97394959",
+  "lines": [
+    {
+      "73": "  private Document _documentRecord;\n",
+      "221": "          _fonts = _documentRecord.getEnvironment().getFontCollection();\n",
+      "288": "    SlideListWithText masterSLWT = _documentRecord.getMasterSlideListWithText();\n",
+      "289": "    SlideListWithText slidesSLWT = _documentRecord.getSlideSlideListWithText();\n",
+      "290": "    SlideListWithText notesSLWT = _documentRecord.getNotesSlideListWithText();\n",
+      "506": "    DocumentAtom docatom = _documentRecord.getDocumentAtom();\n",
+      "565": "    SlideListWithText slwt = _documentRecord.getSlideSlideListWithText();\n",
+      "628": "      _documentRecord.removeSlideListWithText(slwt);\n",
+      "640": "        SlideListWithText nslwt = _documentRecord.getNotesSlideListWithText();\n",
+      "652": "          _documentRecord.removeSlideListWithText(nslwt);\n",
+      "682": "    slist = _documentRecord.getSlideSlideListWithText();\n",
+      "687": "      _documentRecord.addSlideListWithText(slist);\n",
+      "802": "    EscherContainerRecord dggContainer = _documentRecord.getPPDrawingGroup().getDggContainer();\n",
+      "936": "    Record[] ch = _documentRecord.getChildRecords();\n",
+      "990": "    ExObjList lst = (ExObjList) _documentRecord.findFirstOfType(RecordTypes.ExObjList.typeID);\n",
+      "993": "      _documentRecord.addChildAfter(lst, _documentRecord.getDocumentAtom());\n"
+    }
+  ]
+}

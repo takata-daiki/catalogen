@@ -1,0 +1,13 @@
+{
+  "id": "72854649",
+  "lines": [
+    {
+      "51": "  public List<HSSFDataValidation> getValidationData(final HSSFSheet sheet,\n",
+      "54": "    DataValidityTable dvt = sheet.getDataValidityTable();\n"
+    },
+    {
+      "114": "  public void clearValidationData(HSSFSheet sheet) {\n",
+      "115": "    sheet.getDataValidityTable().clear();\n"
+    }
+  ]
+}

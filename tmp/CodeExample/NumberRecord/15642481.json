@@ -1,0 +1,19 @@
+{
+  "id": "15642481",
+  "lines": [
+    {
+      "218": "            NumberRecord num = new NumberRecord();\n",
+      "220": "            num.setColumn(rk.getColumn());\n",
+      "221": "            num.setRow(rk.getRow());\n",
+      "222": "            num.setXFIndex(rk.getXFIndex());\n",
+      "223": "            num.setValue(rk.getRKNumber());\n"
+    },
+    {
+      "237": "                NumberRecord nr = new NumberRecord();\n",
+      "239": "                nr.setColumn(( short ) (k + mrk.getFirstColumn()));\n",
+      "240": "                nr.setRow(mrk.getRow());\n",
+      "241": "                nr.setXFIndex(mrk.getXFAt(k));\n",
+      "242": "                nr.setValue(mrk.getRKNumberAt(k));\n"
+    }
+  ]
+}

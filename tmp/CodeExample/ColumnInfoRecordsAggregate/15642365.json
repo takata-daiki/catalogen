@@ -1,0 +1,23 @@
+{
+  "id": "15642365",
+  "lines": [
+    {
+      "109": "    protected ColumnInfoRecordsAggregate columns           =     null;\n",
+      "215": "                retval.columns.insertColumn(col);\n",
+      "1821": "            int count=columns.getNumColumns();\n",
+      "1824": "                ci = columns.getColInfo(k);\n",
+      "1862": "          int count=columns.getNumColumns();\n",
+      "1903": "            for ( Iterator iterator = columns.getIterator(); iterator.hasNext(); )\n",
+      "1936": "        columns.setColumn( column, null, width, level, hidden, collapsed );\n",
+      "1944": "        columns.setColumn( column, xfStyle, width, level, hidden, collapsed );\n",
+      "1959": "        columns.groupColumnRange( fromColumn, toColumn, indent);\n",
+      "1963": "        int count=columns.getNumColumns();\n",
+      "1966": "            ColumnInfoRecord columnInfoRecord = columns.getColInfo(k);\n",
+      "2886": "            columns.collapseColumn( columnNumber );\n",
+      "2890": "            columns.expandColumn( columnNumber );\n"
+    },
+    {
+      "478": "        ColumnInfoRecordsAggregate columns = new ColumnInfoRecordsAggregate();\n"
+    }
+  ]
+}

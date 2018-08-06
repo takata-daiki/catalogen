@@ -1,0 +1,13 @@
+{
+  "id": "92669296",
+  "lines": [
+    {
+      "66": "                    NumberRecord numrec = (NumberRecord) record;\n",
+      "69": "                    if(numrec.getRow() == 0) {\n",
+      "72": "                    } else if(numrec.getColumn() == 0) { //\u7b2c\u4e00\u5217\n",
+      "74": "                        current.setId(Double.valueOf(numrec.getValue()).longValue());\n",
+      "75": "                    } else if(numrec.getColumn() == 1) {//\u7b2c\u4e8c\u5217\n",
+      "76": "                        current.setContent(String.valueOf(Double.valueOf(numrec.getValue()).longValue()));\n"
+    }
+  ]
+}

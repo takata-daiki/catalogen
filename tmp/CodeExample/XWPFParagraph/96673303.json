@@ -1,0 +1,27 @@
+{
+  "id": "96673303",
+  "lines": [
+    {
+      "203": "    protected IITextContainer startVisitPargraph( XWPFParagraph docxParagraph, IITextContainer parentContainer )\n",
+      "206": "        if ( docxParagraph.getText().startsWith( \"Cette commande client est co\" ) )\n",
+      "223": "        Borders borderTop = docxParagraph.getBorderTop();\n",
+      "228": "        Borders borderBottom = docxParagraph.getBorderBottom();\n",
+      "233": "        Borders borderLeft = docxParagraph.getBorderLeft();\n",
+      "238": "        Borders borderRight = docxParagraph.getBorderRight();\n",
+      "280": "        CTPPr ppr = docxParagraph.getCTP().getPPr();\n",
+      "294": "                    LineSpacingRule lineSpacingRule = docxParagraph.getSpacingLineRule();\n"
+    },
+    {
+      "380": "    protected void endVisitPargraph( XWPFParagraph paragraph, IITextContainer parentContainer,\n",
+      "388": "        CTPPr ppr = paragraph.getCTP().getPPr();\n"
+    },
+    {
+      "838": "    private void applyStyles( XWPFParagraph ele, IStylableElement<XWPFParagraph> element )\n",
+      "841": "        Style style = styleEngine.getStyle( ele.getStyleID() );\n"
+    },
+    {
+      "864": "    protected XWPFStyle getXWPFStyle( XWPFParagraph paragraph )\n",
+      "870": "        return getXWPFStyle( paragraph.getStyleID() );\n"
+    }
+  ]
+}

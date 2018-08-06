@@ -1,0 +1,27 @@
+{
+  "id": "97394276",
+  "lines": [
+    {
+      "277": "     public static EscherProperty getEscherProperty(EscherOptRecord opt, int propId){\n",
+      "278": "        if(opt != null) for ( Iterator iterator = opt.getEscherProperties().iterator(); iterator.hasNext(); )\n"
+    },
+    {
+      "294": "     public static void setEscherProperty(EscherOptRecord opt, short propId, int value){\n",
+      "295": "        java.util.List props = opt.getEscherProperties();\n",
+      "303": "            opt.addEscherProperty(new EscherSimpleProperty(propId, value));\n",
+      "304": "            opt.sortProperties();\n"
+    },
+    {
+      "315": "        EscherOptRecord opt = (EscherOptRecord)getEscherChild(_escherContainer, EscherOptRecord.RECORD_ID);\n"
+    },
+    {
+      "325": "        EscherOptRecord opt = (EscherOptRecord)getEscherChild(_escherContainer, EscherOptRecord.RECORD_ID);\n"
+    },
+    {
+      "336": "        EscherOptRecord opt = (EscherOptRecord)getEscherChild(_escherContainer, EscherOptRecord.RECORD_ID);\n"
+    },
+    {
+      "380": "        EscherOptRecord opt = (EscherOptRecord)getEscherChild(_escherContainer, EscherOptRecord.RECORD_ID);\n"
+    }
+  ]
+}

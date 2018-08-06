@@ -1,0 +1,22 @@
+{
+  "id": "93257122",
+  "lines": [
+    {
+      "60": "  private MAPIMessage message;\n",
+      "68": "    message.setReturnNullOnMissingChunk(true);\n",
+      "88": "      if (message.getMessageDate() != null) {\n",
+      "89": "        mail.setDate(message.getMessageDate().getTime());\n",
+      "97": "      mail.setSubject(message.getSubject());\n",
+      "102": "    Chunks mainChunks = message.getMainChunks();\n",
+      "107": "    String[] toNames = StringUtils.split(message.getDisplayTo(), ';');\n",
+      "110": "    String[] ccNames = StringUtils.split(message.getDisplayCC(), ';');\n",
+      "117": "      String body = message.getHtmlBody();\n",
+      "119": "        body = getRtfText(message.getRtfBody());\n",
+      "121": "          body = EncodeHelper.javaStringToHtmlParagraphe(message.getTextBody());\n",
+      "143": "    RecipientChunks[] recipientChunks = message.getRecipientDetailsChunks();\n",
+      "155": "    if (message.getMainChunks().messageHeaders != null) {\n",
+      "156": "      String chunkContent = message.getMainChunks().messageHeaders.getValue();\n",
+      "190": "    AttachmentChunks[] attachmentChunks = message.getAttachmentFiles();\n"
+    }
+  ]
+}

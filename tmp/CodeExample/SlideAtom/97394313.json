@@ -1,0 +1,42 @@
+{
+  "id": "97394313",
+  "lines": [
+    {
+      "123": "    SlideAtom sa = getSlideRecord().getSlideAtom();\n",
+      "127": "      sa.setNotesID(0);\n",
+      "130": "      sa.setNotesID(notes._getSheetNumber());\n"
+    },
+    {
+      "258": "        SlideAtom sa = getSlideRecord().getSlideAtom();\n",
+      "259": "        int masterId = sa.getMasterID();\n"
+    },
+    {
+      "283": "        SlideAtom sa = getSlideRecord().getSlideAtom();\n",
+      "285": "        sa.setMasterID(sheetNo);\n"
+    },
+    {
+      "295": "        SlideAtom sa = getSlideRecord().getSlideAtom();\n",
+      "296": "        sa.setFollowMasterBackground(flag);\n"
+    },
+    {
+      "306": "        SlideAtom sa = getSlideRecord().getSlideAtom();\n",
+      "307": "        return sa.getFollowMasterBackground();\n"
+    },
+    {
+      "317": "        SlideAtom sa = getSlideRecord().getSlideAtom();\n",
+      "318": "        sa.setFollowMasterObjects(flag);\n"
+    },
+    {
+      "328": "        SlideAtom sa = getSlideRecord().getSlideAtom();\n",
+      "329": "        return sa.getFollowMasterScheme();\n"
+    },
+    {
+      "339": "        SlideAtom sa = getSlideRecord().getSlideAtom();\n",
+      "340": "        sa.setFollowMasterScheme(flag);\n"
+    },
+    {
+      "350": "        SlideAtom sa = getSlideRecord().getSlideAtom();\n",
+      "351": "        return sa.getFollowMasterObjects();\n"
+    }
+  ]
+}

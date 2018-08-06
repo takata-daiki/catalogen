@@ -1,0 +1,12 @@
+{
+  "id": "48925096",
+  "lines": [
+    {
+      "59": "    POIFSFileSystem fsys = new POIFSFileSystem(in);\n",
+      "63": "        (DocumentEntry)fsys.getRoot().getEntry(\"WordDocument\");\n",
+      "64": "    DocumentInputStream din = fsys.createDocumentInputStream(\"WordDocument\");\n",
+      "111": "    DocumentEntry table = (DocumentEntry)fsys.getRoot().getEntry(tableName);\n",
+      "114": "    din = fsys.createDocumentInputStream(tableName);\n"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "15642303",
+  "lines": [
+    {
+      "1029": "               NoteRecord note = (NoteRecord)rec;\n",
+      "1030": "               if (note.getRow() == row && note.getColumn() == column){\n",
+      "1031": "                   TextObjectRecord txo = (TextObjectRecord)txshapes.get(new Integer(note.getShapeId()));\n",
+      "1033": "                   comment.setRow(note.getRow());\n",
+      "1034": "                   comment.setColumn(note.getColumn());\n",
+      "1035": "                   comment.setAuthor(note.getAuthor());\n",
+      "1036": "                   comment.setVisible(note.getFlags() == NoteRecord.NOTE_VISIBLE);\n"
+    }
+  ]
+}

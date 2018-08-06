@@ -1,0 +1,13 @@
+{
+  "id": "122565043",
+  "lines": [
+    {
+      "79": "      XSSFColor bgColour = ((XSSFCell)sheet.getRow(0).getCell(0)).getCellStyle().getFillForegroundColorColor();\n",
+      "80": "      assertEquals( \"FF800000\", bgColour.getARGBHex() );\n"
+    },
+    {
+      "81": "      XSSFColor baseColour = ((XSSFCell)sheet.getRow(0).getCell(0)).getCellStyle().getFont().getXSSFColor();\n",
+      "82": "      assertEquals( \"FF000000\", baseColour.getARGBHex() );\n"
+    }
+  ]
+}

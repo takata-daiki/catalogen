@@ -1,0 +1,14 @@
+{
+  "id": "97394265",
+  "lines": [
+    {
+      "93": "        EscherRecord anchor;\n",
+      "104": "            anchor.fillFields(header, 0, null);\n"
+    },
+    {
+      "347": "            EscherRecord r = Shape.getEscherChild(getSpContainer(), EscherClientDataRecord.RECORD_ID);\n",
+      "351": "                byte[] data = r.serialize();\n",
+      "353": "                r.fillFields(data, 0, new DefaultEscherRecordFactory());\n"
+    }
+  ]
+}

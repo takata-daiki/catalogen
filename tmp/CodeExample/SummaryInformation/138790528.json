@@ -1,0 +1,25 @@
+{
+  "id": "138790528",
+  "lines": [
+    {
+      "148": "        SummaryInformation si = (SummaryInformation)\n",
+      "150": "        setProperty(DublinCore.TITLE, si.getTitle());\n",
+      "151": "        setProperty(Office.APPLICATION_NAME, si.getApplicationName());\n",
+      "152": "        setProperty(Office.AUTHOR, si.getAuthor());\n",
+      "153": "        setProperty(Office.CHARACTER_COUNT, si.getCharCount());\n",
+      "154": "        setProperty(Office.COMMENTS, si.getComments());\n",
+      "155": "        setProperty(DublinCore.DATE, si.getCreateDateTime());\n",
+      "157": "        setProperty(HttpHeaders.LAST_MODIFIED, si.getLastSaveDateTime());\n",
+      "158": "        setProperty(Office.KEYWORDS, si.getKeywords());\n",
+      "159": "        setProperty(Office.LAST_AUTHOR, si.getLastAuthor());\n",
+      "160": "        setProperty(Office.LAST_PRINTED, si.getLastPrinted());\n",
+      "161": "        setProperty(Office.LAST_SAVED, si.getLastSaveDateTime());\n",
+      "162": "        setProperty(Office.PAGE_COUNT, si.getPageCount());\n",
+      "163": "        setProperty(Office.REVISION_NUMBER, si.getRevNumber());\n",
+      "164": "        setProperty(DublinCore.RIGHTS, si.getSecurity());\n",
+      "165": "        setProperty(DublinCore.SUBJECT, si.getSubject());\n",
+      "166": "        setProperty(Office.TEMPLATE, si.getTemplate());\n",
+      "167": "        setProperty(Office.WORD_COUNT, si.getWordCount());\n"
+    }
+  ]
+}

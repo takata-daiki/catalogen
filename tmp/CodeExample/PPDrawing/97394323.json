@@ -1,0 +1,25 @@
+{
+  "id": "97394323",
+  "lines": [
+    {
+      "125": "    public static TextRun[] findTextRuns(PPDrawing ppdrawing) {\n",
+      "127": "        EscherTextboxWrapper[] wrappers = ppdrawing.getTextboxWrappers();\n"
+    },
+    {
+      "212": "        PPDrawing ppdrawing = getPPDrawing();\n",
+      "214": "        EscherContainerRecord dg = (EscherContainerRecord) ppdrawing.getEscherRecords()[0];\n"
+    },
+    {
+      "250": "        PPDrawing ppdrawing = getPPDrawing();\n",
+      "252": "        EscherContainerRecord dgContainer = (EscherContainerRecord) ppdrawing.getEscherRecords()[0];\n"
+    },
+    {
+      "307": "        PPDrawing ppdrawing = getPPDrawing();\n",
+      "309": "        EscherContainerRecord dg = (EscherContainerRecord) ppdrawing.getEscherRecords()[0];\n"
+    },
+    {
+      "355": "            PPDrawing ppdrawing = getPPDrawing();\n",
+      "357": "            EscherContainerRecord dg = (EscherContainerRecord) ppdrawing.getEscherRecords()[0];\n"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "115088748",
+  "lines": [
+    {
+      "62": "        final XSSFRow xssfHeaderRow = xssfSheet.createRow(0);\n",
+      "65": "                final XSSFCell xssfCell = xssfHeaderRow.createCell(information.getSpaltenNr());\n"
+    },
+    {
+      "77": "            final XSSFRow xssfRow = xssfSheet.createRow(row.getRowNr() + 1);\n",
+      "81": "                    final XSSFCell xssfCell = xssfRow.createCell(cell.getColInfo().getSpaltenNr());\n"
+    }
+  ]
+}

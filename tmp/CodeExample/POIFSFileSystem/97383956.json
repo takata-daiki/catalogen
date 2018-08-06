@@ -1,0 +1,26 @@
+{
+  "id": "97383956",
+  "lines": [
+    {
+      "185": "  public HWPFDocument(POIFSFileSystem pfilesystem) throws IOException\n",
+      "187": "    this(pfilesystem.getRoot());\n"
+    },
+    {
+      "201": "  public HWPFDocument(DirectoryNode directory, POIFSFileSystem pfilesystem) throws IOException\n"
+    },
+    {
+      "928": "        POIFSFileSystem pfs = new POIFSFileSystem();\n",
+      "941": "                    pfs.createDocument( new ByteArrayInputStream( mainBuf ),\n",
+      "950": "                    _objectPool.writeTo( pfs.getRoot() );\n",
+      "959": "                    pfs.createDocument( new ByteArrayInputStream( tableBuf ),\n",
+      "979": "                    pfs.createDocument( new ByteArrayInputStream( dataBuf ),\n",
+      "986": "                EntryUtils.copyNodeRecursively( entry, pfs.getRoot() );\n",
+      "991": "            pfs.createDocument( new ByteArrayInputStream( mainBuf ),\n",
+      "994": "            pfs.createDocument( new ByteArrayInputStream( tableBuf ),\n",
+      "999": "            pfs.createDocument( new ByteArrayInputStream( dataBuf ),\n",
+      "1002": "            _objectPool.writeTo( pfs.getRoot() );\n",
+      "1004": "        pfs.writeFilesystem( out );\n",
+      "1005": "        this.directory = pfs.getRoot();\n"
+    }
+  ]
+}

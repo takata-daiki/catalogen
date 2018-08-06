@@ -1,0 +1,18 @@
+{
+  "id": "15642303",
+  "lines": [
+    {
+      "353": "                FormulaRecordAggregate frec = null;\n",
+      "363": "                frec.setColumn(col);\n",
+      "366": "                    frec.getFormulaRecord().setValue(getNumericCellValue());\n",
+      "368": "                frec.setXFIndex(styleIndex);\n",
+      "369": "                frec.setRow(row);\n"
+    },
+    {
+      "631": "            FormulaRecordAggregate rec = (FormulaRecordAggregate) record;\n",
+      "632": "            FormulaRecord frec = rec.getFormulaRecord();\n",
+      "637": "            if (rec.getXFIndex() == (short)0) rec.setXFIndex(( short ) 0x0f);\n",
+      "653": "            rec.getFormulaRecord().setExpressionLength(( short ) size);\n"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "15642316",
+  "lines": [
+    {
+      "714": "        NameRecord nameRecord;\n",
+      "730": "        nameRecord.setDefinitionTextLength(definitionTextLength);\n",
+      "765": "        nameRecord.setNameDefinition(ptgs);\n"
+    },
+    {
+      "792": "        NameRecord r = null;\n",
+      "795": "            int indexToSheet = r.getEqualsToIndexToSheet() -1;\n"
+    },
+    {
+      "809": "    private boolean isRowColHeaderRecord( NameRecord r )\n",
+      "811": "        return r.getOptionFlag() == 0x20 && (\"\" + ((char)7)).equals(r.getNameText());\n"
+    },
+    {
+      "1090": "    NameRecord name = workbook.getSpecificBuiltinRecord(NameRecord.BUILTIN_PRINT_AREA, sheetIndex+1);\n",
+      "1098": "    name.setExternSheetNumber(externSheetIndex);\n",
+      "1099": "    name.setAreaReference(reference);\n"
+    },
+    {
+      "1134": "    NameRecord name = workbook.getSpecificBuiltinRecord(NameRecord.BUILTIN_PRINT_AREA, sheetIndex+1);\n",
+      "1138": "    return name.getAreaReference(workbook);\n"
+    },
+    {
+      "1153": "        NameRecord nameRecord = workbook.createName();\n"
+    }
+  ]
+}

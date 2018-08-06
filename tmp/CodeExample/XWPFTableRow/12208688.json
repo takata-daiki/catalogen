@@ -1,0 +1,16 @@
+{
+  "id": "12208688",
+  "lines": [
+    {
+      "83": "            for ( XWPFTableRow row : rows )\n"
+    },
+    {
+      "139": "            XWPFTableRow firstRow = table.getRow( 0 );\n",
+      "140": "            List<XWPFTableCell> tableCellsOffFirstRow = firstRow.getTableCells();\n"
+    },
+    {
+      "170": "    private static Collection<Float> computeColWidths( XWPFTableRow row )\n",
+      "173": "        List<XWPFTableCell> cells = row.getTableCells();\n"
+    }
+  ]
+}

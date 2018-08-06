@@ -1,0 +1,32 @@
+{
+  "id": "15642317",
+  "lines": [
+    {
+      "158": "    private FontRecord         font;\n",
+      "177": "        font.setFontName(name);\n",
+      "178": "        font.setFontNameLength(( byte ) name.length());\n",
+      "189": "        return font.getFontName();\n",
+      "212": "        font.setFontHeight(height);\n",
+      "223": "        font.setFontHeight(( short ) (height * 20));\n",
+      "235": "        return font.getFontHeight();\n",
+      "246": "        return ( short ) (font.getFontHeight() / 20);\n",
+      "256": "        font.setItalic(italic);\n",
+      "266": "        return font.isItalic();\n",
+      "276": "        font.setStrikeout(strikeout);\n",
+      "286": "        return font.isStruckout();\n",
+      "298": "        font.setColorPaletteIndex(color);\n",
+      "310": "        return font.getColorPaletteIndex();\n",
+      "322": "        font.setBoldWeight(boldweight);\n",
+      "334": "        return font.getBoldWeight();\n",
+      "347": "        font.setSuperSubScript(offset);\n",
+      "360": "        return font.getSuperSubScript();\n",
+      "375": "        font.setUnderline(underline);\n",
+      "390": "        return font.getUnderline();\n",
+      "403": "        return font.getCharset();\n",
+      "414": "        font.setCharset(charset);\n"
+    },
+    {
+      "163": "    protected HSSFFont(short index, FontRecord rec)\n"
+    }
+  ]
+}

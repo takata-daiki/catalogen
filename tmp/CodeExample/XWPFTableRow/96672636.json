@@ -1,0 +1,23 @@
+{
+  "id": "96672636",
+  "lines": [
+    {
+      "91": "        XWPFTableRow firstRow = getFirstRow( table );\n"
+    },
+    {
+      "108": "            for ( XWPFTableRow row : rows )\n"
+    },
+    {
+      "154": "    private static int getNbColumnsToIgnore( XWPFTableRow row, boolean before )\n",
+      "156": "        CTTrPr trPr = row.getCtRow().getTrPr();\n"
+    },
+    {
+      "188": "    public static int getNumberOfColumns( XWPFTableRow row )\n",
+      "197": "        List<XWPFTableCell> tableCellsOffFirstRow = row.getTableCells();\n"
+    },
+    {
+      "236": "    private static Collection<Float> computeColWidths( XWPFTableRow row )\n",
+      "239": "        List<XWPFTableCell> cells = row.getTableCells();\n"
+    }
+  ]
+}

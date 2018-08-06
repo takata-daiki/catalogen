@@ -1,0 +1,19 @@
+{
+  "id": "43507470",
+  "lines": [
+    {
+      "69": "          HSSFCellStyle cellStyleHeader = workBook.createCellStyle();\n",
+      "70": "          cellStyleHeader.setWrapText(true);\n",
+      "71": "          cellStyleHeader.setVerticalAlignment(HSSFCellStyle.ALIGN_JUSTIFY);\n",
+      "72": "          cellStyleHeader.setFillForegroundColor(HSSFColor.GREEN.index);\n",
+      "73": "          cellStyleHeader.setFillPattern(HSSFCellStyle.SOLID_FOREGROUND);      \n",
+      "78": "          cellStyleHeader.setFont(headerCellFont);                \n"
+    },
+    {
+      "80": "          HSSFCellStyle cellStyleData = workBook.createCellStyle();\n",
+      "81": "          cellStyleData.setWrapText(true);\n",
+      "82": "          cellStyleData.setVerticalAlignment(HSSFCellStyle.ALIGN_JUSTIFY);\n",
+      "86": "          cellStyleData.setFont(dataCellFont);      \n"
+    }
+  ]
+}

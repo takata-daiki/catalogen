@@ -1,0 +1,10 @@
+{
+  "id": "93181874",
+  "lines": [
+    {
+      "98": "    WordToHtmlConverter wordToHtmlConverter = new WordToHtmlConverter(DocumentBuilderFactory.newInstance().newDocumentBuilder().newDocument());\n",
+      "99": "    wordToHtmlConverter.processDocument(wordDocument);\n",
+      "100": "    Document htmlDocument = wordToHtmlConverter.getDocument();\n"
+    }
+  ]
+}

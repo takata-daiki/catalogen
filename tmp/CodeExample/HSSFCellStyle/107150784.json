@@ -1,0 +1,28 @@
+{
+  "id": "107150784",
+  "lines": [
+    {
+      "48": "    HSSFCellStyle locked;\n",
+      "61": "      locked.setLocked(true);\n",
+      "62": "      locked.setWrapText(true);\n",
+      "63": "      locked.setVerticalAlignment(HSSFCellStyle.VERTICAL_TOP);\n"
+    },
+    {
+      "50": "    HSSFCellStyle editable;\n",
+      "66": "      editable.setLocked(false);\n",
+      "67": "      editable.setWrapText(true);\n",
+      "68": "      editable.setVerticalAlignment(HSSFCellStyle.VERTICAL_TOP);\n"
+    },
+    {
+      "52": "    HSSFCellStyle hidden;\n",
+      "71": "      hidden.setLocked(true);\n"
+    },
+    {
+      "79": "      HSSFCellStyle style = wb.createCellStyle();\n",
+      "83": "        style.setFont(font);\n"
+    },
+    {
+      "120": "    private void addCell(HSSFRow row, int i, String text, HSSFCellStyle style) {\n"
+    }
+  ]
+}

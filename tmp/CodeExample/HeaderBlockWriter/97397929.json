@@ -1,0 +1,12 @@
+{
+  "id": "97397929",
+  "lines": [
+    {
+      "348": "        HeaderBlockWriter header_block_writer = new HeaderBlockWriter(bigBlockSize);\n",
+      "350": "            header_block_writer.setBATBlocks(bat.countBlocks(),\n",
+      "354": "        header_block_writer.setPropertyStart(_property_table.getStartBlock());\n",
+      "357": "        header_block_writer.setSBATStart(sbtw.getSBAT().getStartBlock());\n",
+      "360": "        header_block_writer.setSBATBlockCount(sbtw.getSBATBlockCount());\n"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "92131912",
+  "lines": [
+    {
+      "31": "    public XMLSlideShow generate(XMLSlideShow ppt, MarketingReportSettings reportSettings,\n",
+      "39": "        XSLFSlide slide1 = ppt.createSlide();\n"
+    },
+    {
+      "73": "    private void drawImage(XMLSlideShow ppt, XSLFSlide slide) throws IOException {\n",
+      "75": "        int idx = ppt.addPicture(bytes, XSLFPictureData.PICTURE_TYPE_PNG);\n"
+    }
+  ]
+}

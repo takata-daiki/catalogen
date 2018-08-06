@@ -1,0 +1,13 @@
+{
+  "id": "15642695",
+  "lines": [
+    {
+      "112": "    public MutablePropertySet(final PropertySet ps)\n",
+      "114": "        byteOrder = ps.getByteOrder();\n",
+      "115": "        format = ps.getFormat();\n",
+      "116": "        osVersion = ps.getOSVersion();\n",
+      "117": "        setClassID(ps.getClassID());\n",
+      "119": "        for (final Iterator i = ps.getSections().iterator(); i.hasNext();)\n"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "96672636",
+  "lines": [
+    {
+      "198": "        for ( XWPFTableCell tableCellOffFirstRow : tableCellsOffFirstRow )\n"
+    },
+    {
+      "223": "    public static CTDecimalNumber getGridSpan( XWPFTableCell cell )\n",
+      "225": "        if ( cell.getCTTc().getTcPr() != null )\n",
+      "226": "            return cell.getCTTc().getTcPr().getGridSpan();\n"
+    },
+    {
+      "231": "    public static CTTblWidth getWidth( XWPFTableCell cell )\n",
+      "233": "        return cell.getCTTc().getTcPr().getTcW();\n"
+    },
+    {
+      "240": "        for ( XWPFTableCell cell : cells )\n"
+    },
+    {
+      "282": "    public static TableWidth getTableWidth( XWPFTableCell cell )\n",
+      "286": "        CTTcPr tblPr = cell.getCTTc().getTcPr();\n"
+    }
+  ]
+}

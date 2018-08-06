@@ -1,0 +1,13 @@
+{
+  "id": "96672565",
+  "lines": [
+    {
+      "1183": "        PackagePart hdrPart = document.getPartById( headerRef.getId() );\n",
+      "1194": "        HdrDocument hdrDoc = HdrDocument.Factory.parse( hdrPart.getInputStream() );\n"
+    },
+    {
+      "1211": "        PackagePart hdrPart = document.getPartById( footerRef.getId() );\n",
+      "1222": "        FtrDocument hdrDoc = FtrDocument.Factory.parse( hdrPart.getInputStream() );\n"
+    }
+  ]
+}

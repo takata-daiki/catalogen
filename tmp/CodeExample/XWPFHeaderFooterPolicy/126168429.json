@@ -1,0 +1,29 @@
+{
+  "id": "126168429",
+  "lines": [
+    {
+      "86": "        final XWPFHeaderFooterPolicy hfPolicy = xDocument.getHeaderFooterPolicy();\n"
+    },
+    {
+      "112": "      XWPFHeaderFooterPolicy headerFooterPolicy = null;\n"
+    },
+    {
+      "133": "  private void extractFooters(final StringBuilder buffy, final XWPFHeaderFooterPolicy hfPolicy) {\n",
+      "134": "    if (hfPolicy.getFirstPageFooter() != null) {\n",
+      "135": "      buffy.append(hfPolicy.getFirstPageFooter().getText()).append(' ');\n",
+      "137": "    if (hfPolicy.getEvenPageFooter() != null) {\n",
+      "138": "      buffy.append(hfPolicy.getEvenPageFooter().getText()).append(' ');\n",
+      "140": "    if (hfPolicy.getDefaultFooter() != null) {\n",
+      "141": "      buffy.append(hfPolicy.getDefaultFooter().getText()).append(' ');\n"
+    },
+    {
+      "145": "  private void extractHeaders(final StringBuilder buffy, final XWPFHeaderFooterPolicy hfPolicy) {\n",
+      "146": "    if (hfPolicy.getFirstPageHeader() != null) {\n",
+      "147": "      buffy.append(hfPolicy.getFirstPageHeader().getText()).append(' ');\n",
+      "149": "    if (hfPolicy.getEvenPageHeader() != null) {\n",
+      "150": "      buffy.append(hfPolicy.getEvenPageHeader().getText()).append(' ');\n",
+      "152": "    if (hfPolicy.getDefaultHeader() != null) {\n",
+      "153": "      buffy.append(hfPolicy.getDefaultHeader().getText()).append(' ');\n"
+    }
+  ]
+}

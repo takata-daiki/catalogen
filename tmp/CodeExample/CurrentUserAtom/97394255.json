@@ -1,0 +1,12 @@
+{
+  "id": "97394255",
+  "lines": [
+    {
+      "78": "  private CurrentUserAtom currentUser;\n",
+      "276": "        _records = read(_docstream, (int)currentUser.getCurrentEditOffset());\n",
+      "545": "        int oldLastUserEditAtomPos = (int)currentUser.getCurrentEditOffset();\n",
+      "550": "        currentUser.setCurrentEditOffset(newLastUserEditAtomPos.intValue());\n",
+      "551": "        currentUser.writeToFS(outFS);\n"
+    }
+  ]
+}

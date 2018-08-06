@@ -1,0 +1,20 @@
+{
+  "id": "72854667",
+  "lines": [
+    {
+      "207": "    HSSFColor col = translateColour(colour);\n",
+      "214": "        logger.debug(\"Cell colour changed to \"+col.getHexString()+\"with index: \"+col.getIndex());\n"
+    },
+    {
+      "227": "        HSSFColor col = translateColour(colour);\n",
+      "230": "        style.setFillForegroundColor(col.getIndex());\n"
+    },
+    {
+      "258": "      HSSFColor col = palette.findSimilarColor((byte)colour.getRed(), (byte)colour.getGreen(), (byte)colour.getBlue());\n"
+    },
+    {
+      "269": "    HSSFColor color = palette.getColor(colorIndex);\n",
+      "272": "        short[] triplet = color.getTriplet();\n"
+    }
+  ]
+}

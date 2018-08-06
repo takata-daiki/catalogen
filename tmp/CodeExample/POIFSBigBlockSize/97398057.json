@@ -1,0 +1,22 @@
+{
+  "id": "97398057",
+  "lines": [
+    {
+      "59": "    private POIFSBigBlockSize bigBlockSize;\n",
+      "124": "            int max_entries_per_block = bigBlockSize.getXBATEntriesPerBlock(); \n",
+      "125": "            int chain_index_offset    = bigBlockSize.getNextXBATChainOffset(); \n",
+      "292": "        int limit = bigBlockSize.getBATEntriesPerBlock(); \n"
+    },
+    {
+      "79": "    public BlockAllocationTableReader(POIFSBigBlockSize bigBlockSize, int block_count, int [] block_array,\n",
+      "124": "            int max_entries_per_block = bigBlockSize.getXBATEntriesPerBlock(); \n",
+      "125": "            int chain_index_offset    = bigBlockSize.getNextXBATChainOffset(); \n"
+    },
+    {
+      "169": "    BlockAllocationTableReader(POIFSBigBlockSize bigBlockSize, ListManagedBlock[] blocks, BlockList raw_block_list)\n"
+    },
+    {
+      "175": "    BlockAllocationTableReader(POIFSBigBlockSize bigBlockSize) {\n"
+    }
+  ]
+}

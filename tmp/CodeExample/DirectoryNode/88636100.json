@@ -1,0 +1,19 @@
+{
+  "id": "88636100",
+  "lines": [
+    {
+      "50": "   public static ChunkGroup[] parse(DirectoryNode node) throws IOException {\n"
+    },
+    {
+      "61": "            DirectoryNode dir = (DirectoryNode)entry;\n",
+      "65": "            if(dir.getName().startsWith(AttachmentChunks.PREFIX)) {\n",
+      "66": "               group = new AttachmentChunks(dir.getName());\n",
+      "68": "            if(dir.getName().startsWith(NameIdChunks.PREFIX)) {\n",
+      "71": "            if(dir.getName().startsWith(RecipientChunks.PREFIX)) {\n",
+      "72": "               group = new RecipientChunks(dir.getName());\n"
+    },
+    {
+      "95": "   protected static void processChunks(DirectoryNode node, ChunkGroup grouping) {\n"
+    }
+  ]
+}

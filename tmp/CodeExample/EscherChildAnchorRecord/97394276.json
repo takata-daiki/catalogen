@@ -1,0 +1,19 @@
+{
+  "id": "97394276",
+  "lines": [
+    {
+      "180": "            EscherChildAnchorRecord rec = (EscherChildAnchorRecord)getEscherChild(_escherContainer, EscherChildAnchorRecord.RECORD_ID);\n",
+      "194": "                    (float)rec.getDx1()*POINT_DPI/MASTER_DPI,\n",
+      "195": "                    (float)rec.getDy1()*POINT_DPI/MASTER_DPI,\n",
+      "196": "                    (float)(rec.getDx2()-rec.getDx1())*POINT_DPI/MASTER_DPI,\n",
+      "197": "                    (float)(rec.getDy2()-rec.getDy1())*POINT_DPI/MASTER_DPI\n"
+    },
+    {
+      "228": "            EscherChildAnchorRecord rec = (EscherChildAnchorRecord)getEscherChild(_escherContainer, EscherChildAnchorRecord.RECORD_ID);\n",
+      "229": "            rec.setDx1((int)(anchor.getX()*MASTER_DPI/POINT_DPI));\n",
+      "230": "            rec.setDy1((int)(anchor.getY()*MASTER_DPI/POINT_DPI));\n",
+      "231": "            rec.setDx2((int)((anchor.getWidth() + anchor.getX())*MASTER_DPI/POINT_DPI));\n",
+      "232": "            rec.setDy2((int)((anchor.getHeight() + anchor.getY())*MASTER_DPI/POINT_DPI));\n"
+    }
+  ]
+}

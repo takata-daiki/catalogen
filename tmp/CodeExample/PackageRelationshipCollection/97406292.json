@@ -1,0 +1,18 @@
+{
+  "id": "97406292",
+  "lines": [
+    {
+      "89": "  protected PackageRelationshipCollection relationships;\n",
+      "1071": "    PackageRelationship retRel = relationships.addRelationship(\n",
+      "1148": "    PackageRelationship retRel = relationships.addRelationship(targetURI,\n",
+      "1162": "      relationships.removeRelationship(id);\n",
+      "1204": "    return this.relationships.getRelationships(id);\n",
+      "1212": "      relationships.clear();\n",
+      "1234": "    return this.relationships.getRelationshipByID(id);\n",
+      "1241": "    return (relationships.size() > 0);\n"
+    },
+    {
+      "930": "      PackageRelationshipCollection partRels = new PackageRelationshipCollection(\n"
+    }
+  ]
+}

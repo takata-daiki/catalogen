@@ -1,0 +1,51 @@
+{
+  "id": "96672565",
+  "lines": [
+    {
+      "494": "            XWPFTableCell cell = (XWPFTableCell) body;\n",
+      "504": "            XWPFTableRow row = cell.getTableRow();\n"
+    },
+    {
+      "506": "            for ( XWPFTableCell c : cells )\n",
+      "508": "                if ( c.getBodyElements().size() != 1 )\n",
+      "512": "                IBodyElement element = c.getBodyElements().get( 0 );\n"
+    },
+    {
+      "899": "                    XWPFTableCell cell = row.getTableCell( tc );\n"
+    },
+    {
+      "918": "                        XWPFTableCell cell = new XWPFTableCell( ctTc, row, row.getTable().getBody() );\n"
+    },
+    {
+      "940": "                XWPFTableCell cell = cells.get( i );\n"
+    },
+    {
+      "963": "    private int getCellIndex( int cellIndex, XWPFTableCell cell )\n",
+      "965": "        BigInteger gridSpan = stylesDocument.getTableCellGridSpan( cell.getCTTc().getTcPr() );\n"
+    },
+    {
+      "990": "    protected void visitCell( XWPFTableCell cell, T tableContainer, boolean firstRow, boolean lastRow,\n"
+    },
+    {
+      "1001": "    private List<XWPFTableCell> getVMergedCells( XWPFTableCell cell, int rowIndex, int cellIndex )\n",
+      "1017": "                XWPFTable table = cell.getTableRow().getTable();\n"
+    },
+    {
+      "1016": "                XWPFTableCell c;\n"
+    },
+    {
+      "1047": "    protected void visitTableCellBody( XWPFTableCell cell, List<XWPFTableCell> vMergeCells, T tableCellContainer )\n",
+      "1061": "            List<IBodyElement> bodyElements = cell.getBodyElements();\n"
+    },
+    {
+      "1053": "            for ( XWPFTableCell mergedCell : vMergeCells )\n",
+      "1055": "                List<IBodyElement> bodyElements = mergedCell.getBodyElements();\n"
+    },
+    {
+      "1066": "    protected abstract T startVisitTableCell( XWPFTableCell cell, T tableContainer, boolean firstRow, boolean lastRow,\n"
+    },
+    {
+      "1070": "    protected abstract void endVisitTableCell( XWPFTableCell cell, T tableContainer, T tableCellContainer )\n"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "72854552",
+  "lines": [
+    {
+      "35": "    private XSSFCell theCell;\n",
+      "59": "        return theCell.getRowIndex();\n",
+      "63": "        return theCell.getColumnIndex();\n",
+      "67": "        XSSFComment xssfComment = theCell.getCellComment();\n",
+      "78": "        XSSFFont xssfFont = theCell.getCellStyle().getFont();\n",
+      "83": "      XSSFFont xssfFont = theCell.getCellStyle().getFont();\n",
+      "93": "        if (theCell.getCellType() == XSSFCell.CELL_TYPE_BLANK) {\n",
+      "96": "        else if (theCell.getCellType() == XSSFCell.CELL_TYPE_BOOLEAN) {\n",
+      "97": "            return Boolean.toString(theCell.getBooleanCellValue());\n",
+      "99": "        else if (theCell.getCellType() == XSSFCell.CELL_TYPE_ERROR) {\n",
+      "102": "        else if (theCell.getCellType() == XSSFCell.CELL_TYPE_FORMULA) {\n",
+      "103": "            return theCell.getCellFormula();\n",
+      "105": "        else if (theCell.getCellType() == XSSFCell.CELL_TYPE_NUMERIC) {\n",
+      "106": "            return Double.toString(theCell.getNumericCellValue());\n",
+      "108": "        else if (theCell.getCellType() == XSSFCell.CELL_TYPE_STRING) {\n",
+      "109": "            return theCell.getRichStringCellValue().getString();\n",
+      "116": "            theCell.setCellValue(new XSSFRichTextString(value));\n",
+      "119": "            theCell.setCellValue(Boolean.parseBoolean(value));\n",
+      "124": "            theCell.setCellFormula(value);\n",
+      "127": "            theCell.setCellValue(Double.parseDouble(value));\n",
+      "139": "        XSSFCellStyle cellStyle = theCell.getCellStyle();        \n",
+      "142": "            theCell.setCellStyle(cellStyle);\n",
+      "159": "        XSSFCellStyle cellStyle = theCell.getCellStyle();\n",
+      "211": "      XSSFCellStyle cellStyle = theCell.getCellStyle();\n",
+      "249": "      theCell.setCellStyle(style);\n",
+      "275": "          XSSFColor colour = theCell.getCellStyle().getFont().getXSSFColor();\n",
+      "316": "    return theCell.hashCode();\n",
+      "323": "      return cell.theCell.equals(this.theCell);      \n",
+      "341": "    XSSFSheet sheet = theCell.getSheet();\n"
+    },
+    {
+      "41": "    public CellXSSFImpl(XSSFWorkbook workbook, XSSFCell theCell) {\n"
+    }
+  ]
+}

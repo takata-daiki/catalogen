@@ -1,0 +1,24 @@
+{
+  "id": "15642562",
+  "lines": [
+    {
+      "69": "    private BitField         rowRelative = BitFieldFactory.getInstance(0x8000);\n",
+      "199": "        return rowRelative.isSet(field_3_first_column);\n",
+      "207": "        field_3_first_column=rowRelative.setShortBoolean(field_3_first_column,rel);\n",
+      "262": "        return rowRelative.isSet(field_4_last_column);\n",
+      "271": "        field_4_last_column=rowRelative.setShortBoolean(field_4_last_column,rel);\n"
+    },
+    {
+      "70": "    private BitField         colRelative = BitFieldFactory.getInstance(0x4000);\n",
+      "215": "        return colRelative.isSet(field_3_first_column);\n",
+      "222": "        field_3_first_column=colRelative.setShortBoolean(field_3_first_column,rel);\n",
+      "279": "        return colRelative.isSet(field_4_last_column);\n",
+      "286": "        field_4_last_column=colRelative.setShortBoolean(field_4_last_column,rel);\n"
+    },
+    {
+      "71": "    private BitField         column      = BitFieldFactory.getInstance(0x3FFF);\n",
+      "183": "        return column.getShortValue(field_3_first_column);\n",
+      "246": "        return column.getShortValue(field_4_last_column);\n"
+    }
+  ]
+}

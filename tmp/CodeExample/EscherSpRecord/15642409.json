@@ -1,0 +1,20 @@
+{
+  "id": "15642409",
+  "lines": [
+    {
+      "634": "        EscherSpRecord sp = new EscherSpRecord();\n",
+      "649": "        sp.setRecordId( EscherSpRecord.RECORD_ID );\n",
+      "650": "        sp.setOptions( (short) 0x0002 );\n",
+      "652": "        sp.setShapeId( shapeId );\n",
+      "654": "            sp.setFlags( EscherSpRecord.FLAG_GROUP | EscherSpRecord.FLAG_HAVEANCHOR );\n",
+      "656": "            sp.setFlags( EscherSpRecord.FLAG_GROUP | EscherSpRecord.FLAG_HAVEANCHOR | EscherSpRecord.FLAG_CHILD );\n"
+    },
+    {
+      "720": "        EscherSpRecord sp1 = new EscherSpRecord();\n",
+      "739": "        sp1.setRecordId( EscherSpRecord.RECORD_ID );\n",
+      "740": "        sp1.setOptions( (short) 0x0002 );\n",
+      "741": "        sp1.setShapeId( drawingManager.allocateShapeId(dg.getDrawingGroupId()) );\n",
+      "742": "        sp1.setFlags( EscherSpRecord.FLAG_GROUP | EscherSpRecord.FLAG_PATRIARCH );\n"
+    }
+  ]
+}

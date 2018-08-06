@@ -1,0 +1,11 @@
+{
+  "id": "97394313",
+  "lines": [
+    {
+      "152": "        EscherDggRecord dgg = getSlideShow().getDocumentRecord().getPPDrawingGroup().getEscherDggRecord();\n",
+      "155": "        int dgId = dgg.getMaxDrawingGroupId() + 1;\n",
+      "157": "        dgg.setDrawingsSaved(dgg.getDrawingsSaved() + 1);\n",
+      "158": "        dgg.setMaxDrawingGroupId(dgId);\n"
+    }
+  ]
+}

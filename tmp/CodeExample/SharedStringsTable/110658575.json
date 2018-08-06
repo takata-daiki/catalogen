@@ -1,0 +1,13 @@
+{
+  "id": "110658575",
+  "lines": [
+    {
+      "11": "    private final SharedStringsTable sharedStringsTable;\n",
+      "20": "        return new XSSFRichTextString(sharedStringsTable.getEntryAt(parseInt(entry))).toString();\n",
+      "30": "        return sharedStringsTable.hashCode();\n"
+    },
+    {
+      "13": "    public RichTextSharedStringTableLookup(final SharedStringsTable sharedStringsTable)\n"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "97394959",
+  "lines": [
+    {
+      "235": "    SlidePersistAtom spa = sas.getSlidePersistAtom();\n",
+      "236": "    int refID = spa.getRefID();\n"
+    },
+    {
+      "353": "          SlidePersistAtom spa = notesSets[i].getSlidePersistAtom();\n",
+      "354": "          Integer slideId = Integer.valueOf(spa.getSlideIdentifier());\n"
+    },
+    {
+      "693": "    SlidePersistAtom prev = null;\n",
+      "705": "        if (prev.getSlideIdentifier() < spa.getSlideIdentifier()) {\n",
+      "715": "    sp.setSlideIdentifier(prev == null ? 256 : (prev.getSlideIdentifier() + 1));\n"
+    },
+    {
+      "696": "      SlidePersistAtom spa = sas[j].getSlidePersistAtom();\n",
+      "697": "      if (spa.getSlideIdentifier() < 0) {\n",
+      "705": "        if (prev.getSlideIdentifier() < spa.getSlideIdentifier()) {\n"
+    },
+    {
+      "712": "    SlidePersistAtom sp = new SlidePersistAtom();\n",
+      "715": "    sp.setSlideIdentifier(prev == null ? 256 : (prev.getSlideIdentifier() + 1));\n",
+      "721": "    Slide slide = new Slide(sp.getSlideIdentifier(), sp.getRefID(), _slides.length + 1);\n",
+      "730": "    logger.log(POILogger.INFO, \"Added slide \" + _slides.length + \" with ref \" + sp.getRefID()\n",
+      "731": "        + \" and identifier \" + sp.getSlideIdentifier());\n",
+      "768": "    sp.setRefID(psrId);\n",
+      "779": "    ptr.addSlideLookup(sp.getRefID(), slideOffset);\n"
+    }
+  ]
+}

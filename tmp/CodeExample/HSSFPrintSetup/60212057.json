@@ -1,0 +1,12 @@
+{
+  "id": "60212057",
+  "lines": [
+    {
+      "1524": "    HSSFPrintSetup ps = sh.getPrintSetup();\n",
+      "1525": "    float[]sizePage = ExcelUtils.PrintPagesFormat.get(ps.getPaperSize());\n",
+      "1528": "    if (ps.getLandscape()) baseSizePage = sizePage[0];\n",
+      "1530": "    float scale = ps.getScale() / 100;\n",
+      "1531": "    double len = baseSizePage -(((ps.getFooterMargin()+ps.getHeaderMargin())*ExcelUtils.Factotr_MM_Inches)+50);\n"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "15642528",
+  "lines": [
+    {
+      "64": "    private BitField          displayFormulas         = BitFieldFactory.getInstance(0x01);\n",
+      "150": "        field_1_options = displayFormulas.setShortBoolean(field_1_options, formulas);\n",
+      "343": "        return displayFormulas.isSet(field_1_options);\n"
+    },
+    {
+      "65": "    private BitField          displayGridlines        = BitFieldFactory.getInstance(0x02);\n",
+      "160": "        field_1_options = displayGridlines.setShortBoolean(field_1_options, gridlines);\n",
+      "353": "        return displayGridlines.isSet(field_1_options);\n"
+    },
+    {
+      "66": "    private BitField          displayRowColHeadings   = BitFieldFactory.getInstance(0x04);\n",
+      "170": "        field_1_options = displayRowColHeadings.setShortBoolean(field_1_options, headings);\n",
+      "363": "        return displayRowColHeadings.isSet(field_1_options);\n"
+    },
+    {
+      "67": "    private BitField          freezePanes             = BitFieldFactory.getInstance(0x08);\n",
+      "180": "        field_1_options = freezePanes.setShortBoolean(field_1_options, freezepanes);\n",
+      "373": "        return freezePanes.isSet(field_1_options);\n"
+    },
+    {
+      "68": "    private BitField          displayZeros            = BitFieldFactory.getInstance(0x10);\n",
+      "190": "        field_1_options = displayZeros.setShortBoolean(field_1_options, zeros);\n",
+      "383": "        return displayZeros.isSet(field_1_options);\n"
+    },
+    {
+      "69": "    private BitField          defaultHeader           =\n",
+      "200": "        field_1_options = defaultHeader.setShortBoolean(field_1_options, header);\n",
+      "393": "        return defaultHeader.isSet(field_1_options);\n"
+    },
+    {
+      "74": "    private BitField          arabic                  =\n",
+      "210": "        field_1_options = arabic.setShortBoolean(field_1_options, isarabic);\n",
+      "403": "        return arabic.isSet(field_1_options);\n"
+    },
+    {
+      "76": "    private BitField          displayGuts             = BitFieldFactory.getInstance(0x80);\n",
+      "220": "        field_1_options = displayGuts.setShortBoolean(field_1_options, guts);\n",
+      "413": "        return displayGuts.isSet(field_1_options);\n"
+    },
+    {
+      "77": "    private BitField          freezePanesNoSplit      = BitFieldFactory.getInstance(0x100);\n",
+      "230": "        field_1_options = freezePanesNoSplit.setShortBoolean(field_1_options, freeze);\n",
+      "423": "        return freezePanesNoSplit.isSet(field_1_options);\n"
+    },
+    {
+      "78": "    private BitField          selected                = BitFieldFactory.getInstance(0x200);\n",
+      "240": "        field_1_options = selected.setShortBoolean(field_1_options, sel);\n",
+      "433": "        return selected.isSet(field_1_options);\n"
+    },
+    {
+      "79": "    private BitField          paged                   = BitFieldFactory.getInstance(0x400);\n",
+      "250": "        field_1_options = paged.setShortBoolean(field_1_options, p);\n",
+      "443": "        return paged.isSet(field_1_options);\n"
+    },
+    {
+      "80": "    private BitField          savedInPageBreakPreview = BitFieldFactory.getInstance(0x800);\n",
+      "260": "        field_1_options = savedInPageBreakPreview.setShortBoolean(field_1_options, p);\n",
+      "453": "        return savedInPageBreakPreview.isSet(field_1_options);\n"
+    }
+  ]
+}

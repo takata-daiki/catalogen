@@ -1,0 +1,20 @@
+{
+  "id": "39694396",
+  "lines": [
+    {
+      "140": "        HSSFSheet overviewSheet = wb.createSheet(sheetName);\n",
+      "141": "        Header sheetHeader = overviewSheet.getHeader();\n",
+      "146": "        overviewSheet.createFreezePane(0, 1, 0, 1);\n",
+      "148": "        Row row = overviewSheet.createRow(0);\n",
+      "169": "            row = overviewSheet.createRow(overviewSheetRow);\n",
+      "192": "                row = overviewSheet.createRow(overviewSheetRow);\n",
+      "225": "            overviewSheet.groupRow(startRow, endRow);\n",
+      "226": "            overviewSheet.setRowGroupCollapsed(startRow, true);\n",
+      "231": "            overviewSheet.autoSizeColumn(i);\n",
+      "237": "        overviewSheet.setAutobreaks(true);\n",
+      "238": "        overviewSheet.getPrintSetup().setFitWidth((short) 1);\n",
+      "239": "        overviewSheet.getPrintSetup().setFitHeight((short) 500);\n",
+      "241": "        Footer footer = overviewSheet.getFooter();\n"
+    }
+  ]
+}

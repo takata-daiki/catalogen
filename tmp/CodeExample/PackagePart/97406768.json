@@ -1,0 +1,28 @@
+{
+  "id": "97406768",
+  "lines": [
+    {
+      "72": "    public XSLFSheet(PackagePart part, PackageRelationship rel){\n"
+    },
+    {
+      "189": "        PackagePart pic = pics.get(0);\n",
+      "192": "                pic.getPartName(), TargetMode.INTERNAL, XSLFRelation.IMAGES.getRelation());\n"
+    },
+    {
+      "289": "        PackagePart part = getPackagePart();\n",
+      "290": "        OutputStream out = part.getOutputStream();\n"
+    },
+    {
+      "535": "    String importBlip(String blipId, PackagePart packagePart) {\n",
+      "536": "        PackageRelationship blipRel = packagePart.getRelationship(blipId);\n",
+      "539": "            blipPart = packagePart.getRelatedPart(blipRel);\n"
+    },
+    {
+      "537": "        PackagePart blipPart;\n"
+    },
+    {
+      "547": "        PackagePart pic = ppt.getAllPictures().get(pictureIdx).getPackagePart();\n",
+      "550": "                pic.getPartName(), TargetMode.INTERNAL, blipRel.getRelationshipType());\n"
+    }
+  ]
+}

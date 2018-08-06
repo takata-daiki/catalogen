@@ -1,0 +1,22 @@
+{
+  "id": "97383067",
+  "lines": [
+    {
+      "55": "  protected DirectoryNode directory;\n",
+      "151": "     if(directory == null || !directory.hasEntry(setName)) return null;\n",
+      "156": "        dis = directory.createDocumentInputStream( directory.getEntry(setName) );\n"
+    },
+    {
+      "64": "    protected POIDocument(DirectoryNode dir) {\n"
+    },
+    {
+      "71": "    protected POIDocument(DirectoryNode dir, POIFSFileSystem fs) {\n"
+    },
+    {
+      "258": "    protected void copyNodes( DirectoryNode sourceRoot,\n"
+    },
+    {
+      "259": "            DirectoryNode targetRoot, List<String> excepts ) throws IOException\n"
+    }
+  ]
+}

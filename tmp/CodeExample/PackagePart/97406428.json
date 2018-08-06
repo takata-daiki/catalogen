@@ -1,0 +1,44 @@
+{
+  "id": "97406428",
+  "lines": [
+    {
+      "85": "             PackagePart corePart = getCorePart();\n",
+      "86": "            PackagePart slidePart = corePart.getRelatedPart(\n",
+      "87": "                  corePart.getRelationship(ctSlide.getId2()));\n"
+    },
+    {
+      "86": "            PackagePart slidePart = corePart.getRelatedPart(\n",
+      "89": "            for(PackageRelationship rel : slidePart.getRelationshipsByType(OLE_OBJECT_REL_TYPE))\n",
+      "90": "                embedds.add(slidePart.getRelatedPart(rel)); // TODO: Add this reference to each slide as well\n",
+      "92": "            for(PackageRelationship rel : slidePart.getRelationshipsByType(PACK_OBJECT_REL_TYPE))\n",
+      "93": "                  embedds.add(slidePart.getRelatedPart(rel));\n"
+    },
+    {
+      "137": "       PackagePart corePart = getCorePart(); \n",
+      "138": "      return corePart.getRelatedPart(\n",
+      "139": "        corePart.getRelationship(master.getId2())\n"
+    },
+    {
+      "151": "    PackagePart masterPart = getSlideMasterPart(master);\n",
+      "153": "      SldMasterDocument.Factory.parse(masterPart.getInputStream());\n"
+    },
+    {
+      "159": "        PackagePart corePart = getCorePart(); \n",
+      "160": "        return corePart.getRelatedPart(\n",
+      "161": "           corePart.getRelationship(slide.getId2())\n"
+    },
+    {
+      "173": "    PackagePart slidePart = getSlidePart(slide);\n",
+      "175": "      SldDocument.Factory.parse(slidePart.getInputStream());\n"
+    },
+    {
+      "185": "    PackagePart slidePart = getSlidePart(parentSlide);\n",
+      "188": "      notes = slidePart.getRelationshipsByType(XSLFRelation.NOTES.getRelation());\n",
+      "202": "       return slidePart.getRelatedPart(notes.getRelationship(0));\n"
+    },
+    {
+      "213": "    PackagePart notesPart = getNodesPart(slide);\n",
+      "218": "      NotesDocument.Factory.parse(notesPart.getInputStream());\n"
+    }
+  ]
+}

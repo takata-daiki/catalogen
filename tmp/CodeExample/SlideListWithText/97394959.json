@@ -1,0 +1,40 @@
+{
+  "id": "97394959",
+  "lines": [
+    {
+      "288": "    SlideListWithText masterSLWT = _documentRecord.getMasterSlideListWithText();\n",
+      "299": "      masterSets = masterSLWT.getSlideAtomsSets();\n"
+    },
+    {
+      "289": "    SlideListWithText slidesSLWT = _documentRecord.getSlideSlideListWithText();\n",
+      "375": "      slidesSets = slidesSLWT.getSlideAtomsSets();\n"
+    },
+    {
+      "290": "    SlideListWithText notesSLWT = _documentRecord.getNotesSlideListWithText();\n",
+      "340": "      notesSets = notesSLWT.getSlideAtomsSets();\n"
+    },
+    {
+      "565": "    SlideListWithText slwt = _documentRecord.getSlideSlideListWithText();\n",
+      "566": "    SlideAtomsSet[] sas = slwt.getSlideAtomsSets();\n",
+      "582": "    slwt.setChildRecord(r);\n"
+    },
+    {
+      "603": "    SlideListWithText slwt = _documentRecord.getSlideSlideListWithText();\n",
+      "604": "    SlideAtomsSet[] sas = slwt.getSlideAtomsSets();\n",
+      "630": "      slwt.setSlideAtomsSets(sa.toArray(new SlideAtomsSet[sa.size()]));\n",
+      "631": "      slwt.setChildRecord(records.toArray(new Record[records.size()]));\n"
+    },
+    {
+      "640": "        SlideListWithText nslwt = _documentRecord.getNotesSlideListWithText();\n",
+      "643": "        for (SlideAtomsSet ns : nslwt.getSlideAtomsSets()) {\n",
+      "654": "          nslwt.setSlideAtomsSets(na.toArray(new SlideAtomsSet[na.size()]));\n",
+      "655": "          nslwt.setChildRecord(records.toArray(new Record[records.size()]));\n"
+    },
+    {
+      "677": "    SlideListWithText slist = null;\n",
+      "686": "      slist.setInstance(SlideListWithText.SLIDES);\n",
+      "694": "    SlideAtomsSet[] sas = slist.getSlideAtomsSets();\n",
+      "718": "    slist.addSlidePersistAtom(sp);\n"
+    }
+  ]
+}

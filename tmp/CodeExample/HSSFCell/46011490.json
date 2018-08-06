@@ -1,0 +1,22 @@
+{
+  "id": "46011490",
+  "lines": [
+    {
+      "54": "      HSSFCell cell = row.createCell(i + nextCellOffset);\n",
+      "55": "      cell.setCellValue(column.getText());\n",
+      "62": "      cell.setCellStyle(csHeader);\n"
+    },
+    {
+      "103": "    HSSFCell cell = row.createCell(0);\n",
+      "104": "    cell.setCellStyle(csTitle);\n",
+      "105": "    cell.setCellValue(title);\n",
+      "122": "          cell.setCellStyle(csHeader);\n",
+      "150": "            cell.setCellStyle(csIntNum);\n",
+      "151": "            cell.setCellValue(Double.parseDouble(value.toString()));\n",
+      "153": "            cell.setCellStyle(csDoubleNum);\n",
+      "158": "            cell.setCellValue(bd.doubleValue());\n",
+      "160": "            cell.setCellStyle(csText);\n",
+      "161": "            cell.setCellValue(baseColumn.convertToString(value));\n"
+    }
+  ]
+}

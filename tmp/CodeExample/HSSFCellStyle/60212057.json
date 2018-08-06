@@ -1,0 +1,90 @@
+{
+  "id": "60212057",
+  "lines": [
+    {
+      "322": "        HSSFCellStyle style= wb.createCellStyle();\n",
+      "323": "        style.cloneStyleFrom(cell.getCellStyle());\n",
+      "324": "        style.setFont(font);\n"
+    },
+    {
+      "400": "                  HSSFCellStyle style= wb.createCellStyle();\n",
+      "401": "                  style.cloneStyleFrom(cell.getCellStyle());\n",
+      "402": "                  style.setIndention((short)1);\n",
+      "403": "                  style.setFont(font4);\n"
+    },
+    {
+      "409": "                  HSSFCellStyle style= wb.createCellStyle();\n",
+      "410": "                  style.cloneStyleFrom(cell.getCellStyle());\n",
+      "411": "                  style.setAlignment(style.ALIGN_CENTER);\n",
+      "412": "                  style.setFont(font3);\n"
+    },
+    {
+      "424": "                  HSSFCellStyle style= wb.createCellStyle();\n",
+      "425": "                  style.cloneStyleFrom(cell.getCellStyle());\n",
+      "426": "                  style.setIndention((short)1);\n"
+    },
+    {
+      "432": "                  HSSFCellStyle style= wb.createCellStyle();\n",
+      "433": "                  style.cloneStyleFrom(cell.getCellStyle());\n",
+      "434": "                  style.setIndention((short)2);\n"
+    },
+    {
+      "440": "                  HSSFCellStyle style= wb.createCellStyle();\n",
+      "441": "                  style.cloneStyleFrom(cell.getCellStyle());\n",
+      "442": "                  style.setIndention((short)3);\n"
+    },
+    {
+      "450": "                  HSSFCellStyle style= wb.createCellStyle();\n",
+      "451": "                  style.cloneStyleFrom(cell.getCellStyle());\n",
+      "452": "                  style.setIndention((short)4);\n"
+    },
+    {
+      "458": "                  HSSFCellStyle style= wb.createCellStyle();\n",
+      "459": "                  style.cloneStyleFrom(cell.getCellStyle());\n",
+      "460": "                  style.setIndention((short)5);\n"
+    },
+    {
+      "466": "                  HSSFCellStyle style= wb.createCellStyle();\n",
+      "467": "                  style.cloneStyleFrom(cell.getCellStyle());\n",
+      "468": "                  style.setIndention((short)6);\n"
+    },
+    {
+      "474": "                  HSSFCellStyle style= wb.createCellStyle();\n",
+      "475": "                  style.cloneStyleFrom(cell.getCellStyle());\n",
+      "476": "                  style.setIndention((short)7);\n"
+    },
+    {
+      "482": "                  HSSFCellStyle style= wb.createCellStyle();\n",
+      "483": "                  style.cloneStyleFrom(cell.getCellStyle());\n",
+      "484": "                  style.setIndention((short)8);\n"
+    },
+    {
+      "493": "                    HSSFCellStyle style= wb.createCellStyle();\n",
+      "494": "                    style.cloneStyleFrom(cell.getCellStyle());\n",
+      "495": "                    style.setIndention((short)(4+val-1));\n",
+      "496": "                    style.setFont(font4);\n"
+    },
+    {
+      "508": "                  HSSFCellStyle style= wb.createCellStyle();\n",
+      "509": "                  style.cloneStyleFrom(cell.getCellStyle());\n",
+      "510": "                  style.setIndention((short)(4+val-1));\n",
+      "511": "                  style.setFont(font4);\n"
+    },
+    {
+      "1700": "            HSSFCellStyle cellStyle = wb.createCellStyle();\n",
+      "1701": "            cellStyle.cloneStyleFrom(cell.getCellStyle());\n",
+      "1702": "            cellStyle.setFont(fontWhiteColor);\n",
+      "1703": "            cellStyle.setBorderTop(HSSFCellStyle.BORDER_NONE);\n",
+      "1704": "            cellStyle.setBorderBottom(HSSFCellStyle.BORDER_NONE);\n",
+      "1705": "            cellStyle.setWrapText(false);\n"
+    },
+    {
+      "1984": "    HSSFCellStyle defaultCellStyle = wb.createCellStyle();\n"
+    },
+    {
+      "2027": "            HSSFCellStyle defaultCellStyle2 = wb.createCellStyle();\n",
+      "2028": "            defaultCellStyle2.cloneStyleFrom(distCell.getCellStyle());\n",
+      "2029": "            defaultCellStyle2.setWrapText(false);\n"
+    }
+  ]
+}

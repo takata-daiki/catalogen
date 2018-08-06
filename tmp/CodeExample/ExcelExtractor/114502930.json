@@ -1,0 +1,11 @@
+{
+  "id": "114502930",
+  "lines": [
+    {
+      "68": "      ExcelExtractor extractor = new ExcelExtractor((HSSFWorkbook)wb);\n",
+      "69": "      extractor.setFormulasNotResults(true);\n",
+      "70": "      extractor.setIncludeSheetNames(false);\n",
+      "71": "      text = extractor.getText();\n"
+    }
+  ]
+}

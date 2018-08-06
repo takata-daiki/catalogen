@@ -1,0 +1,19 @@
+{
+  "id": "72854626",
+  "lines": [
+    {
+      "172": "      HSSFSheet hssfSheet = workbook.createSheet(name);\n"
+    },
+    {
+      "208": "        HSSFSheet hssfSheet = workbook.getSheet(name);\n"
+    },
+    {
+      "218": "        HSSFSheet hssfSheet = workbook.getSheetAt(index);\n"
+    },
+    {
+      "235": "        HSSFSheet hssfSheet = workbook.getSheet(setCellValue.getSheet().getName());\n",
+      "236": "        HSSFRow hssfRow = hssfSheet.getRow(setCellValue.getRow());\n",
+      "238": "            hssfRow = hssfSheet.createRow(setCellValue.getRow());\n"
+    }
+  ]
+}

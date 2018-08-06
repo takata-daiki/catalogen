@@ -1,0 +1,30 @@
+{
+  "id": "97384386",
+  "lines": [
+    {
+      "354": "        HWPFDocument document = (HWPFDocument) _doc;\n",
+      "355": "        Bookmarks bookmarks = document.getBookmarks();\n"
+    },
+    {
+      "447": "        HWPFDocument document = (HWPFDocument) _doc;\n",
+      "452": "            for ( Field field : document.getFields().getFields( part ) )\n"
+    },
+    {
+      "502": "        HWPFDocument document = (HWPFDocument) _doc;\n",
+      "504": "        if ( document.getOfficeDrawingsHeaders() != null )\n",
+      "507": "            for ( OfficeDrawing officeDrawing : document\n"
+    },
+    {
+      "532": "            HWPFDocument doc = (HWPFDocument) _doc;\n",
+      "539": "            PlexOfCps binTable = new PlexOfCps( doc.getTableStream(), doc\n",
+      "540": "                    .getFileInformationBlock().getFcPlcfbtePapx(), doc\n",
+      "555": "                        mainStream, doc.getDataStream(), pageOffset,\n",
+      "556": "                        doc.getTextTable() );\n"
+    },
+    {
+      "692": "        HWPFDocument hwpfDocument = (HWPFDocument) _doc;\n",
+      "694": "        for ( int s = 0; s < hwpfDocument.getStyleSheet().numStyles(); s++ )\n",
+      "696": "            StyleDescription styleDescription = hwpfDocument.getStyleSheet()\n"
+    }
+  ]
+}

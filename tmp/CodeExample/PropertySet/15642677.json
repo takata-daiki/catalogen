@@ -1,0 +1,14 @@
+{
+  "id": "15642677",
+  "lines": [
+    {
+      "660": "        final PropertySet ps = (PropertySet) o;\n",
+      "661": "        int byteOrder1 = ps.getByteOrder();\n",
+      "663": "        ClassID classID1 = ps.getClassID();\n",
+      "665": "        int format1 = ps.getFormat();\n",
+      "667": "        int osVersion1 = ps.getOSVersion();\n",
+      "669": "        int sectionCount1 = ps.getSectionCount();\n",
+      "679": "        return Util.equals(getSections(), ps.getSections());\n"
+    }
+  ]
+}

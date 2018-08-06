@@ -1,0 +1,19 @@
+{
+  "id": "71586384",
+  "lines": [
+    {
+      "96": "                  HSSFCell aCell = aRow.getCell(selectCol[index]);\n",
+      "98": "                  if (aCell.getCellType() == HSSFCell.CELL_TYPE_NUMERIC) {\n",
+      "100": "                      double d = aCell.getNumericCellValue();\n",
+      "105": "                      fields[index]=\"\" + (long)aCell.getNumericCellValue();\n",
+      "109": "                    fields[index]=aCell.getStringCellValue();\n"
+    },
+    {
+      "165": "                  HSSFCell aCell = aRow.getCell(index);\n",
+      "166": "                  if(aCell.getCellType() == HSSFCell.CELL_TYPE_STRING) {\n",
+      "167": "                    currstr = aCell.getStringCellValue();\n",
+      "168": "                  } else if (aCell.getCellType() == HSSFCell.CELL_TYPE_NUMERIC) {\n",
+      "169": "                    val[index-1] = aCell.getNumericCellValue();\n"
+    }
+  ]
+}

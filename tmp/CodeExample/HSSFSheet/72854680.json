@@ -1,0 +1,24 @@
+{
+  "id": "72854680",
+  "lines": [
+    {
+      "42": "    private HSSFSheet sheet;\n",
+      "61": "      int firstRow = sheet.getFirstRowNum();\n",
+      "62": "      int lastRow = sheet.getLastRowNum();\n",
+      "64": "        HSSFRow row = sheet.getRow(rowIndex);\n",
+      "89": "        String oldName = sheet.getSheetName();\n",
+      "129": "        int width = (sheet.getColumnWidth(col) / 256) * 6;\n",
+      "146": "        for(Iterator<Row> it = sheet.rowIterator(); it.hasNext(); ) {\n",
+      "148": "            sheet.removeRow(row);\n",
+      "153": "        HSSFRow hssfRow = sheet.getRow(row);\n",
+      "169": "            hssfRow = sheet.createRow(row);\n",
+      "179": "        HSSFRow theRow = sheet.getRow(row);\n",
+      "211": "      DataValidationConstraint constraint=sheet.getDataValidationHelper().createFormulaListConstraint(namedRange);      \n",
+      "226": "      DataValidationConstraint constraint = sheet.getDataValidationHelper().createCustomConstraint(formula);\n",
+      "233": "      sheet.addValidationData(dataValidation);\n"
+    },
+    {
+      "49": "    public SheetHSSFImpl(WorkbookHSSFImpl workbook, HSSFSheet hssfSheet) {\n"
+    }
+  ]
+}

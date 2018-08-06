@@ -1,0 +1,17 @@
+{
+  "id": "112283811",
+  "lines": [
+    {
+      "38": "    HSSFFont font = newStyle.getFont(workbook);\n",
+      "39": "    if(font.getBoldweight() == HSSFFont.BOLDWEIGHT_BOLD)\n",
+      "41": "    if(font.getItalic())\n",
+      "43": "    if(font.getUnderline() != HSSFFont.U_NONE)\n",
+      "46": "    if(font.getFontHeightInPoints() != 10 && font.getFontHeightInPoints() != 11)\n",
+      "47": "      element.addElement(\"font-size\").addText(String.valueOf(font.getFontHeightInPoints() + \"pt\"));\n",
+      "49": "    if(!font.getFontName().equals(\"Arial\") && !font.getFontName().equals(\"Calibri\"))\n",
+      "50": "      element.addElement(\"font-family\").addText(font.getFontName());\n",
+      "51": "    if((font.getColor() != HSSFFont.COLOR_NORMAL) && !getRGBString(font.getColor()).equals(\"#000\"))\n",
+      "52": "      element.addElement(\"color\").addText(getRGBString(font.getColor()));\n"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "12208690",
+  "lines": [
+    {
+      "323": "            XWPFStyle style = document.getStyles().getStyle( styleID );\n",
+      "326": "            CTPPr xwpfParagraphProperties = style.getCTStyle().getPPr();\n",
+      "331": "                if ( style.getCTStyle().getRPr() != null )\n",
+      "333": "                    FontInfos fontInfos = processRPR( style.getCTStyle().getRPr() );\n",
+      "350": "            CTTblPrBase xwpfTableProperties = style.getCTStyle().getTblPr();\n"
+    }
+  ]
+}

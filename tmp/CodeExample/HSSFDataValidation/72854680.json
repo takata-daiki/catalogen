@@ -1,0 +1,13 @@
+{
+  "id": "72854680",
+  "lines": [
+    {
+      "232": "      HSSFDataValidation dataValidation = new HSSFDataValidation(addressList, constraint);\n"
+    },
+    {
+      "238": "        for (HSSFDataValidation validation : getValidationData()) {\n",
+      "239": "            for (CellRangeAddress address : validation.getRegions().getCellRangeAddresses()) {\n",
+      "240": "                validationList.add(new ValidationImpl(validation.getConstraint().getFormula1(), this, address.getFirstColumn(), address.getLastColumn(), address.getFirstRow(), address.getLastRow()));\n"
+    }
+  ]
+}

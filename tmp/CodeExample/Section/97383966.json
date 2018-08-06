@@ -1,0 +1,22 @@
+{
+  "id": "97383966",
+  "lines": [
+    {
+      "86": "    private static String getSectionStyle( Section section )\n",
+      "88": "        float leftMargin = section.getMarginLeft() / TWIPS_PER_INCH;\n",
+      "89": "        float rightMargin = section.getMarginRight() / TWIPS_PER_INCH;\n",
+      "90": "        float topMargin = section.getMarginTop() / TWIPS_PER_INCH;\n",
+      "91": "        float bottomMargin = section.getMarginBottom() / TWIPS_PER_INCH;\n",
+      "96": "        if ( section.getNumColumns() > 1 )\n",
+      "98": "            style += \"column-count: \" + ( section.getNumColumns() ) + \";\";\n",
+      "99": "            if ( section.isColumnsEvenlySpaced() )\n",
+      "101": "                float distance = section.getDistanceBetweenColumns()\n"
+    },
+    {
+      "601": "            Section section, int sectionCounter )\n"
+    },
+    {
+      "612": "            Section section )\n"
+    }
+  ]
+}

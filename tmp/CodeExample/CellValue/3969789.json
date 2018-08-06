@@ -1,0 +1,35 @@
+{
+  "id": "3969789",
+  "lines": [
+    {
+      "95": "    CellValue value = _evaluator.evaluate(cell);\n",
+      "96": "    assertEquals(5, value.getNumberValue(), 0.0000000000000001);\n",
+      "97": "    assertEquals(Cell.CELL_TYPE_NUMERIC, value.getCellType());\n",
+      "110": "    assertEquals(7, value.getNumberValue(), 0.0000000000000001);\n"
+    },
+    {
+      "122": "    CellValue value = _evaluator.evaluate(cell);\n",
+      "123": "    assertEquals(6, value.getNumberValue(), 0.0000000000000001);\n",
+      "124": "    assertEquals(Cell.CELL_TYPE_NUMERIC, value.getCellType());\n",
+      "138": "    assertEquals(7, value.getNumberValue(), 0.0000000000000001);\n"
+    },
+    {
+      "151": "    CellValue value = _evaluator.evaluate(cell);\n",
+      "152": "    assertEquals(6, value.getNumberValue(), 0.0000000000000001);\n",
+      "153": "    assertEquals(Cell.CELL_TYPE_NUMERIC, value.getCellType());\n",
+      "167": "    assertEquals(8, value.getNumberValue(), 0.0000000000000001);\n"
+    },
+    {
+      "179": "    CellValue value = _evaluator.evaluate(cell);\n",
+      "180": "    assertEquals(1, value.getNumberValue(), 0.0000000000000001);\n",
+      "181": "    assertEquals(Cell.CELL_TYPE_NUMERIC, value.getCellType());\n",
+      "195": "    assertEquals(2, value.getNumberValue(), 0.0000000000000001);\n"
+    },
+    {
+      "208": "    CellValue value = _evaluator.evaluate(cell);\n",
+      "209": "    assertEquals(6, value.getNumberValue(), 0.0000000000000001);\n",
+      "210": "    assertEquals(Cell.CELL_TYPE_NUMERIC, value.getCellType());\n",
+      "225": "    assertEquals(7, value.getNumberValue(), 0.0000000000000001);\n"
+    }
+  ]
+}

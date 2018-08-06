@@ -2,8 +2,9 @@
   "id": "71257075",
   "lines": [
     {
-      "41": "\t\tXSSFWorkbook wb = new XSSFWorkbook();\n",
-      "44": "\t\tXSSFSheet dataSheet = wb.createSheet(\"Data\");\n"
+      "41": "    XSSFWorkbook wb = new XSSFWorkbook();\n",
+      "44": "    XSSFSheet dataSheet = wb.createSheet(\"Data\");\n",
+      "52": "    wb.write(fileOut);\n"
     }
   ]
 }

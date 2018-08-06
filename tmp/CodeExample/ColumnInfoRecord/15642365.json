@@ -1,0 +1,30 @@
+{
+  "id": "15642365",
+  "lines": [
+    {
+      "206": "                ColumnInfoRecord col = (ColumnInfoRecord)rec;\n"
+    },
+    {
+      "1817": "        ColumnInfoRecord ci     = null;\n",
+      "1825": "                if ((ci.getFirstColumn() <= column)\n",
+      "1826": "                        && (column <= ci.getLastColumn()))\n",
+      "1835": "            retval = ci.getColumnWidth();\n"
+    },
+    {
+      "1860": "        ColumnInfoRecord ci = null;\n",
+      "1866": "                if ((ci.getFirstColumn() <= column)\n",
+      "1867": "                        && (column <= ci.getLastColumn())) {\n",
+      "1873": "        retval = (ci != null) ? ci.getXFIndex() : 0xF;\n"
+    },
+    {
+      "1899": "        ColumnInfoRecord ci     = null;\n",
+      "1906": "                if ((ci.getFirstColumn() <= column)\n",
+      "1907": "                        && (column <= ci.getLastColumn()))\n",
+      "1916": "            retval = ci.getHidden();\n"
+    },
+    {
+      "1966": "            ColumnInfoRecord columnInfoRecord = columns.getColInfo(k);\n",
+      "1967": "            maxLevel = Math.max(columnInfoRecord.getOutlineLevel(), maxLevel);\n"
+    }
+  ]
+}

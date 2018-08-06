@@ -1,0 +1,20 @@
+{
+  "id": "97384319",
+  "lines": [
+    {
+      "45": "    /**/private static final BitField icoFore = new BitField(0x001F);\n",
+      "141": "        field_1_value = (short)icoFore.setValue(field_1_value, value);\n",
+      "151": "        return ( byte )icoFore.getValue(field_1_value);\n"
+    },
+    {
+      "46": "    /**/private static final BitField icoBack = new BitField(0x03E0);\n",
+      "161": "        field_1_value = (short)icoBack.setValue(field_1_value, value);\n",
+      "171": "        return ( byte )icoBack.getValue(field_1_value);\n"
+    },
+    {
+      "47": "    /**/private static final BitField ipat = new BitField(0xFC00);\n",
+      "181": "        field_1_value = (short)ipat.setValue(field_1_value, value);\n",
+      "191": "        return ( byte )ipat.getValue(field_1_value);\n"
+    }
+  ]
+}

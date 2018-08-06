@@ -1,0 +1,23 @@
+{
+  "id": "15642282",
+  "lines": [
+    {
+      "129": "    public POIFSDocumentPath(final POIFSDocumentPath path,\n",
+      "135": "            this.components = new String[ path.components.length ];\n",
+      "140": "                new String[ path.components.length + components.length ];\n",
+      "142": "        for (int j = 0; j < path.components.length; j++)\n",
+      "144": "            this.components[ j ] = path.components[ j ];\n",
+      "156": "                this.components[ j + path.components.length ] =\n"
+    },
+    {
+      "184": "                POIFSDocumentPath path = ( POIFSDocumentPath ) o;\n",
+      "186": "                if (path.components.length == this.components.length)\n",
+      "191": "                        if (!path.components[ j ]\n"
+    },
+    {
+      "264": "        POIFSDocumentPath parent = new POIFSDocumentPath(null);\n",
+      "266": "        parent.components = new String[ length ];\n",
+      "267": "        System.arraycopy(components, 0, parent.components, 0, length);\n"
+    }
+  ]
+}

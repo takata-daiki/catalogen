@@ -1,0 +1,16 @@
+{
+  "id": "72854552",
+  "lines": [
+    {
+      "216": "          XSSFColor xssfColour = cellStyle.getFillForegroundXSSFColor();\n",
+      "221": "          colour = translateRGB(xssfColour.getRgb());\n"
+    },
+    {
+      "265": "        XSSFColor col = new XSSFColor(colour);\n"
+    },
+    {
+      "275": "          XSSFColor colour = theCell.getCellStyle().getFont().getXSSFColor();\n",
+      "277": "            foreground = translateRGB(colour.getRgb());\n"
+    }
+  ]
+}

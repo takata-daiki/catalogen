@@ -1,0 +1,20 @@
+{
+  "id": "64531325",
+  "lines": [
+    {
+      "73": "      XSSFName name = workbook.getName( XSSFName.BUILTIN_FILTER_DB );\n",
+      "74": "      assertEquals( 0, name.getSheetIndex() );\n",
+      "75": "      assertEquals( \"Sheet0!$A$1:$M$2\", name.getRefersToFormula() );\n"
+    },
+    {
+      "107": "      XSSFName name = workbook.getName( XSSFName.BUILTIN_FILTER_DB );\n",
+      "108": "      assertEquals( 0, name.getSheetIndex() );\n",
+      "109": "      assertEquals( \"'Number Formats 1'!$A$1:$H$3\", name.getRefersToFormula() );\n"
+    },
+    {
+      "147": "      XSSFName name = workbook.getName( XSSFName.BUILTIN_FILTER_DB );\n",
+      "148": "      assertEquals( 0, name.getSheetIndex() );\n",
+      "149": "      assertEquals( \"'Number Formats Test Report'!$A$1:$H$3\", name.getRefersToFormula() );\n"
+    }
+  ]
+}

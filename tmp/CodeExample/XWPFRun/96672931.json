@@ -1,0 +1,23 @@
+{
+  "id": "96672931",
+  "lines": [
+    {
+      "48": "    public CTRPr getRPr( XWPFRun run )\n",
+      "50": "        return run.getCTR().getRPr();\n"
+    },
+    {
+      "74": "    public Value getValueFromElement( XWPFRun run, XWPFStylesDocument stylesDocument )\n"
+    },
+    {
+      "100": "    protected String[] getStyleID( XWPFRun run )\n",
+      "102": "        XWPFParagraph paragraph = run.getParagraph();\n"
+    },
+    {
+      "125": "    protected CTStyle getDefaultStyle( XWPFRun element, XWPFStylesDocument styleManager )\n"
+    },
+    {
+      "131": "    protected XWPFTableCell getParentTableCell( XWPFRun run )\n",
+      "133": "        return StylesHelper.getEmbeddedTableCell( run.getParagraph() );\n"
+    }
+  ]
+}

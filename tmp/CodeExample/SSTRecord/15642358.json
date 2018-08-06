@@ -1,0 +1,20 @@
+{
+  "id": "15642358",
+  "lines": [
+    {
+      "103": "    protected SSTRecord        sst         = null;\n",
+      "703": "      return sst.addString(string);\n",
+      "715": "        UnicodeString retval = sst.getString(str);\n",
+      "798": "                    record = sst.createExtSSTRecord(sstPos + offset);\n",
+      "837": "                    retval += sst.calcExtSSTRecordSize();\n"
+    },
+    {
+      "780": "        SSTRecord sst = null;\n",
+      "798": "                    record = sst.createExtSSTRecord(sstPos + offset);\n"
+    },
+    {
+      "827": "        SSTRecord sst = null;\n",
+      "837": "                    retval += sst.calcExtSSTRecordSize();\n"
+    }
+  ]
+}

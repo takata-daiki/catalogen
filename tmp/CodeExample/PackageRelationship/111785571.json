@@ -1,0 +1,19 @@
+{
+  "id": "111785571",
+  "lines": [
+    {
+      "101": "           for(PackageRelationship rel : rels) {\n",
+      "103": "              if( rel.getRelationshipType().equals(RELATION_AUDIO) ||\n",
+      "104": "                  rel.getRelationshipType().equals(RELATION_IMAGE) ||\n",
+      "105": "                  rel.getRelationshipType().equals(RELATION_OLE_OBJECT) ||\n",
+      "106": "                  rel.getRelationshipType().equals(RELATION_PACKAGE) ) {\n",
+      "107": "                 if(rel.getTargetMode() == TargetMode.INTERNAL) {\n",
+      "110": "                       relName = PackagingURIHelper.createPartName(rel.getTargetURI());\n",
+      "114": "                    PackagePart relPart = rel.getPackage().getPart(relName);\n"
+    },
+    {
+      "125": "    protected void handleEmbedded(PackageRelationship rel, PackagePart part, \n",
+      "129": "       String name = rel.getTargetURI().toString();\n"
+    }
+  ]
+}

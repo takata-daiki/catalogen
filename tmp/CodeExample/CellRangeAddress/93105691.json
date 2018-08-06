@@ -1,0 +1,13 @@
+{
+  "id": "93105691",
+  "lines": [
+    {
+      "138": "                CellRangeAddress merged = getRangeIfMerged( cell,\n",
+      "142": "                    Cell topLeft = sheet.getRow( merged.getFirstRow() ).getCell( merged.getFirstColumn() );\n"
+    },
+    {
+      "240": "            CellRangeAddress r = mergedRanges[ i ];\n",
+      "241": "            if ( r.isInRange( cell.getRowIndex(), cell.getColumnIndex() ) ) {\n"
+    }
+  ]
+}

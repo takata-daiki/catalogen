@@ -1,0 +1,38 @@
+{
+  "id": "72854667",
+  "lines": [
+    {
+      "43": "    private HSSFCell theCell;\n",
+      "63": "        return theCell.getRowIndex();\n",
+      "67": "        return theCell.getColumnIndex();\n",
+      "71": "        HSSFComment hssfComment = theCell.getCellComment();\n",
+      "82": "        HSSFFont hssfFont = theCell.getCellStyle().getFont(getWorkbook());\n",
+      "97": "        if (theCell.getCellType() == HSSFCell.CELL_TYPE_BLANK) {\n",
+      "100": "        else if (theCell.getCellType() == HSSFCell.CELL_TYPE_BOOLEAN) {\n",
+      "101": "            return Boolean.toString(theCell.getBooleanCellValue());\n",
+      "103": "        else if (theCell.getCellType() == HSSFCell.CELL_TYPE_ERROR) {\n",
+      "106": "        else if (theCell.getCellType() == HSSFCell.CELL_TYPE_FORMULA) {\n",
+      "107": "            return theCell.getCellFormula();\n",
+      "109": "        else if (theCell.getCellType() == HSSFCell.CELL_TYPE_NUMERIC) {\n",
+      "110": "            return Double.toString(theCell.getNumericCellValue());\n",
+      "112": "        else if (theCell.getCellType() == HSSFCell.CELL_TYPE_STRING) {\n",
+      "113": "            return theCell.getRichStringCellValue().getString();\n",
+      "120": "            theCell.setCellValue(new HSSFRichTextString(value));\n",
+      "123": "            theCell.setCellValue(Boolean.parseBoolean(value));\n",
+      "128": "            theCell.setCellFormula(value);\n",
+      "131": "            theCell.setCellValue(Double.parseDouble(value));\n",
+      "143": "        HSSFCellStyle cellStyle = theCell.getCellStyle();        \n",
+      "146": "            theCell.setCellStyle(cellStyle);\n",
+      "163": "        HSSFCellStyle cellStyle = theCell.getCellStyle();\n",
+      "195": "      HSSFCellStyle cellStyle = theCell.getCellStyle();\n",
+      "212": "      theCell.setCellStyle(getFillStyleForColour(colour));\n",
+      "238": "            HSSFCellStyle cellStyle = theCell.getCellStyle();\n",
+      "308": "    return theCell.hashCode();\n",
+      "315": "      return cell.theCell.equals(this.theCell);      \n",
+      "341": "    HSSFSheet sheet = theCell.getSheet();\n"
+    },
+    {
+      "49": "    public CellHSSFImpl(HSSFWorkbook workbook, HSSFCell theCell) {\n"
+    }
+  ]
+}

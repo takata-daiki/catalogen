@@ -1,0 +1,33 @@
+{
+  "id": "15642365",
+  "lines": [
+    {
+      "95": "    protected DimensionsRecord           dims;\n",
+      "664": "        dims.setFirstCol(firstcol);\n",
+      "665": "        dims.setFirstRow(firstrow);\n",
+      "666": "        dims.setLastCol(lastcol);\n",
+      "667": "        dims.setLastRow(lastrow);\n"
+    },
+    {
+      "991": "        DimensionsRecord d = ( DimensionsRecord ) records.get(getDimsLoc());\n",
+      "993": "        if (col.getColumn() > d.getLastCol())\n",
+      "995": "            d.setLastCol(( short ) (col.getColumn() + 1));\n",
+      "997": "        if (col.getColumn() < d.getFirstCol())\n",
+      "999": "            d.setFirstCol(col.getColumn());\n"
+    },
+    {
+      "1127": "        DimensionsRecord d = ( DimensionsRecord ) records.get(getDimsLoc());\n",
+      "1129": "        if (row.getRowNumber() >= d.getLastRow())\n",
+      "1131": "            d.setLastRow(row.getRowNumber() + 1);\n",
+      "1133": "        if (row.getRowNumber() < d.getFirstRow())\n",
+      "1135": "            d.setFirstRow(row.getRowNumber());\n"
+    },
+    {
+      "1988": "        DimensionsRecord retval = new DimensionsRecord();\n",
+      "1990": "        retval.setFirstCol(( short ) 0);\n",
+      "1991": "        retval.setLastRow(1);             // one more than it is\n",
+      "1992": "        retval.setFirstRow(0);\n",
+      "1993": "        retval.setLastCol(( short ) 1);   // one more than it is\n"
+    }
+  ]
+}

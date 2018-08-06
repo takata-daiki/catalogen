@@ -1,0 +1,26 @@
+{
+  "id": "111785566",
+  "lines": [
+    {
+      "40": "    private final MAPIMessage msg;\n",
+      "55": "           msg.setReturnNullOnMissingChunk(true);\n",
+      "57": "           String subject = msg.getSubject();\n",
+      "58": "           String from = msg.getDisplayFrom();\n",
+      "62": "           metadata.set(Metadata.MESSAGE_TO, msg.getDisplayTo());\n",
+      "63": "           metadata.set(Metadata.MESSAGE_CC, msg.getDisplayCC());\n",
+      "64": "           metadata.set(Metadata.MESSAGE_BCC, msg.getDisplayBCC());\n",
+      "67": "           metadata.set(Metadata.SUBJECT, msg.getConversationTopic());\n",
+      "70": "           for(String recipientAddress : msg.getRecipientEmailAddressList()) {\n",
+      "78": "           if(msg.getMessageDate() != null) {\n",
+      "79": "              metadata.set(Metadata.EDIT_TIME, msg.getMessageDate().getTime().toString());\n",
+      "80": "              metadata.set(Metadata.LAST_SAVED, msg.getMessageDate().getTime().toString());\n",
+      "84": "                 String[] headers = msg.getHeaders();\n",
+      "107": "           header(xhtml, \"To\", msg.getDisplayTo());\n",
+      "108": "           header(xhtml, \"Cc\", msg.getDisplayCC());\n",
+      "109": "           header(xhtml, \"Bcc\", msg.getDisplayBCC());\n",
+      "111": "               header(xhtml, \"Recipients\", msg.getRecipientEmailAddress());\n",
+      "115": "           xhtml.element(\"p\", msg.getTextBody());\n",
+      "117": "           for (AttachmentChunks attachment : msg.getAttachmentFiles()) {\n"
+    }
+  ]
+}

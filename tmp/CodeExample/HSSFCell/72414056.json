@@ -1,0 +1,37 @@
+{
+  "id": "72414056",
+  "lines": [
+    {
+      "79": "        HSSFCell cell = getCell(sheet, 2, 4);\n",
+      "80": "        cell.setCellValue(\"Test Value\");\n"
+    },
+    {
+      "97": "    HSSFCell cell = row.getCell((short) 4);\n",
+      "98": "    assertEquals(\"Test Value\", cell.getStringCellValue());\n"
+    },
+    {
+      "113": "        HSSFCell cell = getCell(sheet, 2, 4);\n",
+      "114": "        cell.setCellValue(\"Test Value\");\n"
+    },
+    {
+      "132": "    HSSFCell cell = row.getCell((short) 0);\n",
+      "133": "    assertEquals(\"Test Template\", cell.getStringCellValue());\n"
+    },
+    {
+      "148": "        HSSFCell cell = getCell(sheet, 2, 4);\n",
+      "149": "        cell.setCellValue(\"Test Value\");\n"
+    },
+    {
+      "167": "    HSSFCell cell = row.getCell((short) 0);\n",
+      "168": "    assertEquals(\"Test Template American English\", cell.getStringCellValue());\n"
+    },
+    {
+      "183": "        HSSFCell cell = getCell(sheet, 2, 4);\n",
+      "184": "        cell.setCellValue(\"Test Value\");\n"
+    },
+    {
+      "202": "    HSSFCell cell = row.getCell((short) 0);\n",
+      "203": "    assertEquals(\"Test Template auf Deutsch\", cell.getStringCellValue());\n"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "96672565",
+  "lines": [
+    {
+      "504": "            XWPFTableRow row = cell.getTableRow();\n",
+      "505": "            List<XWPFTableCell> cells = row.getTableCells();\n"
+    },
+    {
+      "846": "            XWPFTableRow row = rows.get( i );\n"
+    },
+    {
+      "862": "    protected void visitTableRow( XWPFTableRow row, float[] colWidths, T tableContainer, boolean firstRow,\n",
+      "876": "        List<XWPFTableCell> cells = row.getTableCells();\n",
+      "890": "            CTRow ctRow = row.getCtRow();\n",
+      "899": "                    XWPFTableCell cell = row.getTableCell( tc );\n",
+      "918": "                        XWPFTableCell cell = new XWPFTableCell( ctTc, row, row.getTable().getBody() );\n"
+    },
+    {
+      "977": "    protected void startVisitTableRow( XWPFTableRow row, T tableContainer, int rowIndex, boolean headerRow )\n"
+    },
+    {
+      "983": "    protected void endVisitTableRow( XWPFTableRow row, T tableContainer, boolean firstRow, boolean lastRow,\n"
+    },
+    {
+      "1015": "                XWPFTableRow row = null;\n",
+      "1021": "                    c = row.getCell( cellIndex );\n"
+    }
+  ]
+}

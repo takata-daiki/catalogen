@@ -1,0 +1,20 @@
+{
+  "id": "92131916",
+  "lines": [
+    {
+      "27": "    public XMLSlideShow generate(XMLSlideShow ppt, MarketingReportSettings reportSettings,\n"
+    },
+    {
+      "42": "    private XMLSlideShow generatePreview(XMLSlideShow ppt, List<PreviewReportingDocument> previewData, String cityName,\n",
+      "45": "        XSLFSlide slide = ppt.createSlide();\n"
+    },
+    {
+      "132": "    private XMLSlideShow generateDetailShops(XMLSlideShow ppt, List<? extends MarketingSlideInfo> slides, Function<String, byte[]> pictureGetter, MarketingReportData mData) {\n"
+    },
+    {
+      "139": "    private XMLSlideShow generateDetailShop(XMLSlideShow ppt, MarketingSlideInfo slide, Function<String, byte[]> pictureGetter, MarketingReportData mData) {\n",
+      "144": "        XSLFSlide pptSlide = ppt.createSlide();\n",
+      "172": "            int idx = ppt.addPicture(picBytes1, XSLFPictureData.PICTURE_TYPE_PNG);\n"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "97394959",
+  "lines": [
+    {
+      "990": "    ExObjList lst = (ExObjList) _documentRecord.findFirstOfType(RecordTypes.ExObjList.typeID);\n",
+      "996": "    ExObjListAtom objAtom = lst.getExObjListAtom();\n",
+      "1012": "    lst.appendChildRecord(mci);\n"
+    },
+    {
+      "1031": "    ExObjList lst = (ExObjList) _documentRecord.findFirstOfType(RecordTypes.ExObjList.typeID);\n",
+      "1036": "    ExObjListAtom objAtom = lst.getExObjListAtom();\n",
+      "1050": "    lst.addChildAfter(ctrl, objAtom);\n"
+    },
+    {
+      "1061": "    ExObjList lst = (ExObjList) _documentRecord.findFirstOfType(RecordTypes.ExObjList.typeID);\n",
+      "1066": "    ExObjListAtom objAtom = lst.getExObjListAtom();\n",
+      "1076": "    lst.addChildAfter(ctrl, objAtom);\n"
+    }
+  ]
+}

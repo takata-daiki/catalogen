@@ -1,0 +1,24 @@
+{
+  "id": "96673303",
+  "lines": [
+    {
+      "649": "                    XWPFTableCell cell = row.getTableCell( tc );\n"
+    },
+    {
+      "660": "                        XWPFTableCell cell = new XWPFTableCell( ctTc, row, row.getTable().getBody() );\n"
+    },
+    {
+      "675": "                XWPFTableCell cell = cells.get( i );\n"
+    },
+    {
+      "682": "    protected IITextContainer startVisitTableCell( XWPFTableCell cell, IITextContainer tableContainer,\n",
+      "687": "        XWPFTableRow row = cell.getTableRow();\n",
+      "693": "        CTTcPr tcPr = cell.getCTTc().getTcPr();\n",
+      "722": "            XWPFStyle tableStyle = super.getXWPFStyle( cell.getTableRow().getTable().getStyleID() );\n",
+      "728": "            CTTblBorders tableBorders = XWPFTableUtil.getTblBorders( cell.getTableRow().getTable() );\n"
+    },
+    {
+      "794": "    protected void endVisitTableCell( XWPFTableCell cell, IITextContainer tableContainer,\n"
+    }
+  ]
+}

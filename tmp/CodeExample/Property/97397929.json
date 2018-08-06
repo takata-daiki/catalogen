@@ -1,0 +1,14 @@
+{
+  "id": "97397929",
+  "lines": [
+    {
+      "496": "            Property      property = ( Property ) properties.next();\n",
+      "497": "            String        name     = property.getName();\n",
+      "502": "            if (property.isDirectory())\n",
+      "507": "                new_dir.setStorageClsid( property.getStorageClsid() );\n",
+      "516": "                int           startBlock = property.getStartBlock();\n",
+      "517": "                int           size       = property.getSize();\n",
+      "520": "                if (property.shouldUseSmallBlocks())\n"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "15642397",
+  "lines": [
+    {
+      "162": "        UnicodeString other = ( UnicodeString ) o;\n",
+      "165": "        boolean eq = ((field_1_charCount == other.field_1_charCount)\n",
+      "166": "                && (field_2_optionflags == other.field_2_optionflags)\n",
+      "167": "                && field_3_string.equals(other.field_3_string));\n",
+      "171": "        if ((field_4_format_runs == null) && (other.field_4_format_runs == null))\n",
+      "174": "        if (((field_4_format_runs == null) && (other.field_4_format_runs != null)) ||\n",
+      "175": "             (field_4_format_runs != null) && (other.field_4_format_runs == null))\n",
+      "181": "        if (size != other.field_4_format_runs.size())\n",
+      "186": "          FormatRun run2 = (FormatRun)other.field_4_format_runs.get(i);\n",
+      "194": "        if ((field_5_ext_rst == null) && (other.field_5_ext_rst == null))\n",
+      "196": "        if (((field_5_ext_rst == null) && (other.field_5_ext_rst != null)) ||\n",
+      "197": "            ((field_5_ext_rst != null) && (other.field_5_ext_rst == null)))\n",
+      "205": "          if (field_5_ext_rst[i] != other.field_5_ext_rst[i])\n"
+    },
+    {
+      "865": "        UnicodeString str = ( UnicodeString ) obj;\n",
+      "867": "        int result = getString().compareTo(str.getString());\n",
+      "874": "        if ((field_4_format_runs == null) && (str.field_4_format_runs == null))\n",
+      "878": "        if ((field_4_format_runs == null) && (str.field_4_format_runs != null))\n",
+      "881": "        if ((field_4_format_runs != null) && (str.field_4_format_runs == null))\n",
+      "887": "        if (size != str.field_4_format_runs.size())\n",
+      "888": "          return size - str.field_4_format_runs.size();\n",
+      "892": "          FormatRun run2 = (FormatRun)str.field_4_format_runs.get(i);\n",
+      "901": "        if ((field_5_ext_rst == null) && (str.field_5_ext_rst == null))\n",
+      "903": "        if ((field_5_ext_rst == null) && (str.field_5_ext_rst != null))\n",
+      "905": "        if ((field_5_ext_rst != null) && (str.field_5_ext_rst == null))\n",
+      "914": "          if (field_5_ext_rst[i] != str.field_5_ext_rst[i])\n",
+      "915": "            return field_5_ext_rst[i] - str.field_5_ext_rst[i];\n"
+    },
+    {
+      "933": "        UnicodeString str = new UnicodeString();\n",
+      "934": "        str.field_1_charCount = field_1_charCount;\n",
+      "935": "        str.field_2_optionflags = field_2_optionflags;\n",
+      "936": "        str.field_3_string = field_3_string;\n",
+      "938": "          str.field_4_format_runs = new ArrayList();\n",
+      "942": "            str.field_4_format_runs.add(new FormatRun(r.character, r.fontIndex));\n",
+      "946": "          str.field_5_ext_rst = new byte[field_5_ext_rst.length];\n",
+      "947": "          System.arraycopy(field_5_ext_rst, 0, str.field_5_ext_rst, 0,\n"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "401674",
+  "lines": [
+    {
+      "61": "  private static PackagePart getPartByRelationshipType(PackagePart part, String relationshipType) {\n",
+      "63": "      PackageRelationshipCollection rels = part.getRelationshipsByType(relationshipType);\n",
+      "66": "      OPCPackage pack = part.getPackage();\n"
+    },
+    {
+      "75": "  public static PackagePart getSourcePart(PackagePart part) {    \n"
+    },
+    {
+      "79": "  public static PackagePart getResourcesPart(PackagePart part) {    \n"
+    }
+  ]
+}

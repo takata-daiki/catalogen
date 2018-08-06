@@ -1,0 +1,19 @@
+{
+  "id": "15642360",
+  "lines": [
+    {
+      "83": "        EscherOptRecord opt = new EscherOptRecord();\n",
+      "95": "        opt.setRecordId( EscherOptRecord.RECORD_ID );\n",
+      "96": "        opt.addEscherProperty(new EscherSimpleProperty(EscherProperties.TRANSFORM__ROTATION, false, false, 0));\n",
+      "97": "        opt.addEscherProperty(new EscherSimpleProperty(EscherProperties.GEOMETRY__RIGHT, false, false, hssfShape.getDrawAreaWidth()));\n",
+      "98": "        opt.addEscherProperty(new EscherSimpleProperty(EscherProperties.GEOMETRY__BOTTOM, false, false, hssfShape.getDrawAreaHeight()));\n",
+      "99": "        opt.addEscherProperty(new EscherShapePathProperty(EscherProperties.GEOMETRY__SHAPEPATH, EscherShapePathProperty.COMPLEX));\n",
+      "116": "        opt.addEscherProperty(verticesProp);\n",
+      "130": "        opt.addEscherProperty(segmentsProp);\n",
+      "131": "        opt.addEscherProperty(new EscherSimpleProperty(EscherProperties.GEOMETRY__FILLOK, false, false, 0x00010001));\n",
+      "132": "        opt.addEscherProperty(new EscherSimpleProperty(EscherProperties.LINESTYLE__LINESTARTARROWHEAD, false, false, 0x0));\n",
+      "133": "        opt.addEscherProperty(new EscherSimpleProperty(EscherProperties.LINESTYLE__LINEENDARROWHEAD, false, false, 0x0));\n",
+      "134": "        opt.addEscherProperty(new EscherSimpleProperty(EscherProperties.LINESTYLE__LINEENDCAPSTYLE, false, false, 0x0));\n"
+    }
+  ]
+}

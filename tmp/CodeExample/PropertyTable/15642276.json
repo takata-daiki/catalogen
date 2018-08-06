@@ -1,0 +1,20 @@
+{
+  "id": "15642276",
+  "lines": [
+    {
+      "82": "    private PropertyTable _property_table;\n",
+      "212": "        _property_table.preWrite();\n",
+      "216": "            new SmallBlockTableWriter(_documents, _property_table.getRoot());\n",
+      "264": "        header_block_writer.setPropertyStart(_property_table.getStartBlock());\n",
+      "336": "            _root = new DirectoryNode(_property_table.getRoot(), this, null);\n",
+      "375": "        _property_table.addProperty(document.getDocumentProperty());\n",
+      "386": "        _property_table.addProperty(directory);\n",
+      "397": "        _property_table.removeProperty(entry.getProperty());\n"
+    },
+    {
+      "130": "        PropertyTable properties =\n",
+      "136": "          data_blocks, properties.getRoot(),\n",
+      "140": "          properties.getRoot().getChildren(), null);\n"
+    }
+  ]
+}

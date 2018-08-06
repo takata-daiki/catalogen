@@ -1,0 +1,20 @@
+{
+  "id": "60212069",
+  "lines": [
+    {
+      "372": "        HSSFRichTextString rich = cell.getRichStringCellValue();\n",
+      "373": "        return (rich==null)? null: rich.getString();\n"
+    },
+    {
+      "863": "                HSSFRichTextString richTextString  = comment.getString();\n",
+      "865": "                  String textComment = richTextString.getString();\n"
+    },
+    {
+      "898": "              HSSFRichTextString rich = cell.getRichStringCellValue();\n",
+      "900": "                if((rich != null) && markValue.equals(rich.getString())){\n"
+    },
+    {
+      "935": "              HSSFRichTextString rich = cell.getRichStringCellValue();\n"
+    }
+  ]
+}

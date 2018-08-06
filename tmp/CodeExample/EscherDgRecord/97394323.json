@@ -1,0 +1,14 @@
+{
+  "id": "97394323",
+  "lines": [
+    {
+      "269": "        EscherDgRecord dg = _container.getPPDrawing().getEscherDgRecord();\n",
+      "277": "            if (c.getDrawingGroupId() == dg.getDrawingGroupId() && c.getNumShapeIdsUsed() != 1024)\n",
+      "281": "                dg.setNumShapes( dg.getNumShapes() + 1 );\n",
+      "282": "                dg.setLastMSOSPID( result );\n",
+      "290": "        dgg.addCluster( dg.getDrawingGroupId(), 0, false );\n",
+      "292": "        dg.setNumShapes( dg.getNumShapes() + 1 );\n",
+      "294": "        dg.setLastMSOSPID( result );\n"
+    }
+  ]
+}

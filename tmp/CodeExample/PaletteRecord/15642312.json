@@ -1,0 +1,16 @@
+{
+  "id": "15642312",
+  "lines": [
+    {
+      "55": "    private PaletteRecord palette;\n",
+      "74": "          byte[] b = palette.getColor(index);\n",
+      "93": "        byte[] b = palette.getColor(PaletteRecord.FIRST_COLOR_INDEX);\n",
+      "95": "            b = palette.getColor(++i))\n",
+      "143": "        palette.setColor(index, red, green, blue);\n",
+      "160": "        for (i = (short) PaletteRecord.FIRST_COLOR_INDEX; i < PaletteRecord.STANDARD_PALETTE_SIZE + PaletteRecord.FIRST_COLOR_INDEX; b = palette.getColor(++i))\n"
+    },
+    {
+      "57": "    protected HSSFPalette(PaletteRecord palette)\n"
+    }
+  ]
+}

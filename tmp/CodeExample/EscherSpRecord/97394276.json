@@ -1,0 +1,30 @@
+{
+  "id": "97394276",
+  "lines": [
+    {
+      "144": "        EscherSpRecord spRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);\n",
+      "145": "        return spRecord.getShapeType();\n"
+    },
+    {
+      "153": "        EscherSpRecord spRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);\n",
+      "154": "        spRecord.setShapeType( (short) type );\n",
+      "155": "        spRecord.setVersion( (short) 0x2 );\n"
+    },
+    {
+      "176": "        EscherSpRecord spRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);\n",
+      "177": "        int flags = spRecord.getFlags();\n"
+    },
+    {
+      "225": "        EscherSpRecord spRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);\n",
+      "226": "        int flags = spRecord.getFlags();\n"
+    },
+    {
+      "452": "        EscherSpRecord spRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);\n",
+      "453": "        return spRecord == null ? 0 : spRecord.getShapeId();\n"
+    },
+    {
+      "462": "        EscherSpRecord spRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);\n",
+      "463": "        if(spRecord != null) spRecord.setShapeId(id);\n"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "97384199",
+  "lines": [
+    {
+      "61": "    private Xstz _xstzEntryMcr;\n",
+      "134": "        offset += this._xstzEntryMcr.getSize();\n",
+      "179": "        size += _xstzEntryMcr.getSize();\n",
+      "220": "        offset += _xstzEntryMcr.serialize( buffer, offset );\n"
+    },
+    {
+      "63": "    private Xstz _xstzExitMcr;\n",
+      "137": "        offset += this._xstzExitMcr.getSize();\n",
+      "180": "        size += _xstzExitMcr.getSize();\n",
+      "221": "        offset += _xstzExitMcr.serialize( buffer, offset );\n"
+    },
+    {
+      "65": "    private Xstz _xstzHelpText;\n",
+      "128": "        offset += this._xstzHelpText.getSize();\n",
+      "177": "        size += _xstzHelpText.getSize();\n",
+      "218": "        offset += _xstzHelpText.serialize( buffer, offset );\n"
+    },
+    {
+      "71": "    private Xstz _xstzName;\n",
+      "100": "        offset += this._xstzName.getSize();\n",
+      "163": "        size += _xstzName.getSize();\n",
+      "203": "        offset += _xstzName.serialize( buffer, offset );\n"
+    },
+    {
+      "73": "    private Xstz _xstzStatText;\n",
+      "131": "        offset += this._xstzStatText.getSize();\n",
+      "178": "        size += _xstzStatText.getSize();\n",
+      "219": "        offset += _xstzStatText.serialize( buffer, offset );\n"
+    },
+    {
+      "83": "    private Xstz _xstzTextDef;\n",
+      "105": "            offset += this._xstzTextDef.getSize();\n",
+      "167": "            size += _xstzTextDef.getSize();\n",
+      "192": "        return _xstzTextDef.getAsJavaString();\n",
+      "207": "            offset += _xstzTextDef.serialize( buffer, offset );\n"
+    },
+    {
+      "85": "    private Xstz _xstzTextFormat;\n",
+      "125": "        offset += this._xstzTextFormat.getSize();\n",
+      "176": "        size += _xstzTextFormat.getSize();\n",
+      "217": "        offset += _xstzTextFormat.serialize( buffer, offset );\n"
+    }
+  ]
+}

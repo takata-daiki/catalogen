@@ -1,0 +1,23 @@
+{
+  "id": "97394395",
+  "lines": [
+    {
+      "97": "    protected EscherTextboxWrapper _txtbox;\n",
+      "143": "            _txtbox.appendChildRecord(tha);\n",
+      "146": "            _txtbox.appendChildRecord(tca);\n",
+      "149": "            _txtbox.appendChildRecord(sta);\n",
+      "155": "            _escherContainer.addChildRecord(_txtbox.getEscherRecord());\n",
+      "213": "                _txtbox.writeOut(null);\n",
+      "602": "        _txtbox.appendChildRecord(info);\n",
+      "607": "        _txtbox.appendChildRecord(txiatom);\n"
+    },
+    {
+      "207": "        EscherTextboxWrapper _txtbox = getEscherTextboxWrapper();\n",
+      "213": "                _txtbox.writeOut(null);\n"
+    },
+    {
+      "519": "        EscherTextboxWrapper txtbox = getEscherTextboxWrapper();\n",
+      "526": "        Record[] child = txtbox.getChildRecords();\n"
+    }
+  ]
+}

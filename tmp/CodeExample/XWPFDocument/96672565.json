@@ -1,0 +1,24 @@
+{
+  "id": "96672565",
+  "lines": [
+    {
+      "129": "    protected final XWPFDocument document;\n",
+      "192": "        List<IBodyElement> bodyElements = document.getBodyElements();\n",
+      "467": "        XWPFNum num = document.getNumbering().getNum( numID.getVal() );\n",
+      "474": "        XWPFAbstractNum abstractNum = document.getNumbering().getAbstractNum( abstractNumID.getVal() );\n",
+      "660": "                XWPFHyperlink hyperlink = document.getHyperlinkByID( hyperlinkId );\n",
+      "1078": "            return document.getStyles().getStyle( styleID );\n",
+      "1183": "        PackagePart hdrPart = document.getPartById( headerRef.getId() );\n",
+      "1184": "        List<XWPFHeader> headers = document.getHeaderList();\n",
+      "1211": "        PackagePart hdrPart = document.getPartById( footerRef.getId() );\n",
+      "1212": "        List<XWPFFooter> footers = document.getFooterList();\n",
+      "1350": "        return document.getPictureDataByID( blipId );\n"
+    },
+    {
+      "148": "    public XWPFDocumentVisitor( XWPFDocument document, O options )\n"
+    },
+    {
+      "157": "    protected XWPFStylesDocument createStylesDocument( XWPFDocument document )\n"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "46076963",
+  "lines": [
+    {
+      "110": "      AreaReference ar = new AreaReference(cellName);\n"
+    },
+    {
+      "160": "  private Object[][] getAreaValueArray(AreaReference ar) {\n",
+      "161": "    int cols = Math.abs(ar.getFirstCell().getCol() - ar.getLastCell().getCol()) + 1;\n",
+      "162": "    int rows = Math.abs(ar.getFirstCell().getRow() - ar.getLastCell().getRow()) + 1;\n",
+      "163": "    CellReference[] crs = ar.getAllReferencedCells();\n"
+    }
+  ]
+}

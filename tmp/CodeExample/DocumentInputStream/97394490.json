@@ -1,0 +1,13 @@
+{
+  "id": "97394490",
+  "lines": [
+    {
+      "43": "      DocumentInputStream is = getStream();\n",
+      "46": "        if (rawdataPos > is.position()) {\n",
+      "48": "          is.skip(rawdataPos - is.position() + 17);\n",
+      "50": "        is.reset();\n",
+      "51": "        is.skip(rawdataPos + 17);\n",
+      "54": "        is.read(imgdata, 0, imgdata.length);\n"
+    }
+  ]
+}

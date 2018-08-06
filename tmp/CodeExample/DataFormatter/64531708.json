@@ -1,0 +1,21 @@
+{
+  "id": "64531708",
+  "lines": [
+    {
+      "58": "      DataFormatter formatter = new DataFormatter();\n",
+      "60": "      assertEquals( \"1\",                     formatter.formatCellValue(sheet.getRow(1).getCell(1)));\n",
+      "61": "      assertEquals( \"2019-10-11 13:18:46\",   formatter.formatCellValue(sheet.getRow(1).getCell(2)));\n",
+      "62": "      assertEquals( \"3.1415926536\",          formatter.formatCellValue(sheet.getRow(1).getCell(3)));\n",
+      "63": "      assertEquals( \"3.1415926536\",          formatter.formatCellValue(sheet.getRow(1).getCell(4)));\n",
+      "64": "      assertEquals( \"false\",                 formatter.formatCellValue(sheet.getRow(1).getCell(5)));\n"
+    },
+    {
+      "112": "      DataFormatter formatter = new DataFormatter();\n",
+      "114": "      assertEquals( \"1\",                     formatter.formatCellValue(sheet.getRow(1).getCell(1)));\n",
+      "115": "      assertEquals( \"2019-10-11 13:18:46\",   formatter.formatCellValue(sheet.getRow(1).getCell(2)));\n",
+      "116": "      assertEquals( \"3.1415926536\",          formatter.formatCellValue(sheet.getRow(1).getCell(3)));\n",
+      "117": "      assertEquals( \"3.1415926536\",          formatter.formatCellValue(sheet.getRow(1).getCell(4)));\n",
+      "118": "      assertEquals( \"false\",                 formatter.formatCellValue(sheet.getRow(1).getCell(5)));\n"
+    }
+  ]
+}

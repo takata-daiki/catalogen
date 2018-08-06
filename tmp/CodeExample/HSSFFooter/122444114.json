@@ -1,0 +1,10 @@
+{
+  "id": "122444114",
+  "lines": [
+    {
+      "277": "        final HSSFFooter footer = sheet.getFooter ();\n",
+      "278": "        footer.setLeft ( String.format ( Messages.ExportImpl_ExcelSheet_Footer_1, events.size () ) );\n",
+      "280": "        footer.setRight ( Messages.ExportImpl_ExcelSheet_Footer_2 + HeaderFooter.page () + Messages.ExportImpl_ExcelSheet_Footer_3 + HeaderFooter.numPages () );\n"
+    }
+  ]
+}

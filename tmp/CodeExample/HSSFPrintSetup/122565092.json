@@ -1,0 +1,19 @@
+{
+  "id": "122565092",
+  "lines": [
+    {
+      "79": "      HSSFPrintSetup printSetup = sheet0.getPrintSetup();\n",
+      "80": "      assertEquals( HSSFPrintSetup.A4_PAPERSIZE,  printSetup.getPaperSize() );\n",
+      "81": "      assertEquals( true, printSetup.getLandscape() );\n",
+      "82": "      assertEquals( 0.7 / 2.54, printSetup.getHeaderMargin(), 0.01 );\n",
+      "83": "      assertEquals( 0.7 / 2.54, printSetup.getFooterMargin(), 0.01 );\n"
+    },
+    {
+      "137": "      HSSFPrintSetup printSetup = sheet0.getPrintSetup();\n",
+      "138": "      assertEquals( HSSFPrintSetup.A4_PAPERSIZE,  printSetup.getPaperSize() );\n",
+      "139": "      assertEquals( true, printSetup.getLandscape() );\n",
+      "140": "      assertEquals( 0.5, printSetup.getHeaderMargin(), 0.01 );\n",
+      "141": "      assertEquals( 0.5, printSetup.getFooterMargin(), 0.01 );\n"
+    }
+  ]
+}

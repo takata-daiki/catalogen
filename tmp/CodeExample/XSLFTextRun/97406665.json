@@ -1,0 +1,44 @@
+{
+  "id": "97406665",
+  "lines": [
+    {
+      "117": "        for (XSLFTextRun r : _runs) {\n",
+      "118": "            out.append(r.getText());\n"
+    },
+    {
+      "125": "        for (XSLFTextRun r : _runs) {\n",
+      "126": "            out.append(r.getRenderableText());\n"
+    },
+    {
+      "158": "        XSLFTextRun run = new XSLFTextRun(r, this);\n"
+    },
+    {
+      "179": "        XSLFTextRun run = new XSLFLineBreak(r, this, brProps);\n"
+    },
+    {
+      "861": "        for (XSLFTextRun run : _runs){\n",
+      "862": "            int length = run.getRenderableText().length();\n",
+      "872": "            if (run.isBold() && run.isItalic()) {\n",
+      "874": "            } else if (run.isItalic()) {\n",
+      "876": "            } else if (run.isBold()) {\n",
+      "880": "            ColorStateList color = ColorStateList.valueOf(run.getFontColor().getRGB());\n",
+      "882": "            at.setSpan(new TextAppearanceSpan(run.getFontFamily(), style, (int) run.getFontSize(),\n",
+      "902": "            if(run.isUnderline()) {\n",
+      "905": "            if(run.isStrikethrough()) {\n",
+      "916": "            if (run.isSuperscript()) {\n",
+      "919": "            if (run.isSubscript()) {\n"
+    },
+    {
+      "941": "        XSLFTextRun r = addNewTextRun();\n",
+      "942": "        r.setText(\" \");\n",
+      "945": "            if(endPr.isSetSz()) r.setFontSize(endPr.getSz() / 100);\n"
+    },
+    {
+      "1178": "            XSLFTextRun r1 = srcR.get(i);\n"
+    },
+    {
+      "1179": "            XSLFTextRun r2 = tgtR.get(i);\n",
+      "1180": "            r2.copy(r1);\n"
+    }
+  ]
+}

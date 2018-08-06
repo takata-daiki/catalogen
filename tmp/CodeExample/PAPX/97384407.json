@@ -1,0 +1,43 @@
+{
+  "id": "97384407",
+  "lines": [
+    {
+      "99": "    static Paragraph newParagraph( Range parent, PAPX papx )\n",
+      "106": "        properties.setIstd( papx.getIstd() );\n",
+      "111": "                papx.getGrpprl(), 2 );\n",
+      "138": "                            properties, papx.getGrpprl(), 2 );\n"
+    },
+    {
+      "150": "            StyleSheet styleSheet, PAPX papx, ParagraphProperties properties )\n",
+      "155": "        int style = papx.getIstd();\n"
+    },
+    {
+      "171": "        PAPX papx = _paragraphs.get( _parEnd - 1 );\n",
+      "172": "        _props = papx.getParagraphProperties( _doc.getStyleSheet() );\n",
+      "173": "        _papx = papx.getSprmBuf();\n",
+      "174": "        _istd = papx.getIstd();\n"
+    },
+    {
+      "178": "    protected Paragraph( PAPX papx, Range parent )\n",
+      "180": "        super( Math.max( parent._start, papx.getStart() ), Math.min(\n",
+      "181": "                parent._end, papx.getEnd() ), parent );\n",
+      "182": "        _props = papx.getParagraphProperties( _doc.getStyleSheet() );\n",
+      "183": "        _papx = papx.getSprmBuf();\n",
+      "184": "        _istd = papx.getIstd();\n"
+    },
+    {
+      "188": "    protected Paragraph( PAPX papx, Range parent, int start )\n",
+      "191": "                papx.getEnd() ), parent );\n",
+      "192": "        _props = papx.getParagraphProperties( _doc.getStyleSheet() );\n",
+      "193": "        _papx = papx.getSprmBuf();\n",
+      "194": "        _istd = papx.getIstd();\n"
+    },
+    {
+      "198": "    Paragraph( PAPX papx, ParagraphProperties properties, Range parent )\n",
+      "200": "        super( Math.max( parent._start, papx.getStart() ), Math.min(\n",
+      "201": "                parent._end, papx.getEnd() ), parent );\n",
+      "203": "        _papx = papx.getSprmBuf();\n",
+      "204": "        _istd = papx.getIstd();\n"
+    }
+  ]
+}

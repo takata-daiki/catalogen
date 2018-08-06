@@ -1,0 +1,39 @@
+{
+  "id": "97394323",
+  "lines": [
+    {
+      "214": "        EscherContainerRecord dg = (EscherContainerRecord) ppdrawing.getEscherRecords()[0];\n",
+      "217": "        for (Iterator<EscherRecord> it = dg.getChildIterator(); it.hasNext();) {\n"
+    },
+    {
+      "215": "        EscherContainerRecord spgr = null;\n",
+      "229": "        Iterator<EscherRecord> it = spgr.getChildIterator();\n"
+    },
+    {
+      "235": "            EscherContainerRecord sp = (EscherContainerRecord) it.next();\n"
+    },
+    {
+      "252": "        EscherContainerRecord dgContainer = (EscherContainerRecord) ppdrawing.getEscherRecords()[0];\n"
+    },
+    {
+      "253": "        EscherContainerRecord spgr = (EscherContainerRecord) Shape.getEscherChild(dgContainer, EscherContainerRecord.SPGR_CONTAINER);\n",
+      "254": "        spgr.addChildRecord(shape.getSpContainer());\n"
+    },
+    {
+      "309": "        EscherContainerRecord dg = (EscherContainerRecord) ppdrawing.getEscherRecords()[0];\n",
+      "312": "        for (Iterator<EscherRecord> it = dg.getChildIterator(); it.hasNext();) {\n"
+    },
+    {
+      "310": "        EscherContainerRecord spgr = null;\n",
+      "323": "        List<EscherRecord> lst = spgr.getChildRecords();\n",
+      "325": "        spgr.setChildRecords(lst);\n"
+    },
+    {
+      "357": "            EscherContainerRecord dg = (EscherContainerRecord) ppdrawing.getEscherRecords()[0];\n",
+      "360": "            for (Iterator<EscherRecord> it = dg.getChildIterator(); it.hasNext();) {\n"
+    },
+    {
+      "358": "            EscherContainerRecord spContainer = null;\n"
+    }
+  ]
+}

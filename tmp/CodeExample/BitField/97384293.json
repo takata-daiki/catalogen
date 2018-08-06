@@ -1,0 +1,50 @@
+{
+  "id": "97384293",
+  "lines": [
+    {
+      "50": "    /**/private static final BitField iType = new BitField(0x0003);\n",
+      "255": "        field_2_bits = (short)iType.setValue(field_2_bits, value);\n",
+      "265": "        return ( byte )iType.getValue(field_2_bits);\n"
+    },
+    {
+      "57": "    /**/private static final BitField iRes = new BitField(0x007C);\n",
+      "275": "        field_2_bits = (short)iRes.setValue(field_2_bits, value);\n",
+      "285": "        return ( byte )iRes.getValue(field_2_bits);\n"
+    },
+    {
+      "58": "    /**/private static final BitField fOwnHelp = new BitField(0x0080);\n",
+      "295": "        field_2_bits = (short)fOwnHelp.setBoolean(field_2_bits, value);\n",
+      "305": "        return fOwnHelp.isSet(field_2_bits);\n"
+    },
+    {
+      "59": "    /**/private static final BitField fOwnStat = new BitField(0x0100);\n",
+      "315": "        field_2_bits = (short)fOwnStat.setBoolean(field_2_bits, value);\n",
+      "325": "        return fOwnStat.isSet(field_2_bits);\n"
+    },
+    {
+      "60": "    /**/private static final BitField fProt = new BitField(0x0200);\n",
+      "335": "        field_2_bits = (short)fProt.setBoolean(field_2_bits, value);\n",
+      "345": "        return fProt.isSet(field_2_bits);\n"
+    },
+    {
+      "61": "    /**/private static final BitField iSize = new BitField(0x0400);\n",
+      "355": "        field_2_bits = (short)iSize.setBoolean(field_2_bits, value);\n",
+      "365": "        return iSize.isSet(field_2_bits);\n"
+    },
+    {
+      "62": "    /**/private static final BitField iTypeTxt = new BitField(0x3800);\n",
+      "375": "        field_2_bits = (short)iTypeTxt.setValue(field_2_bits, value);\n",
+      "385": "        return ( byte )iTypeTxt.getValue(field_2_bits);\n"
+    },
+    {
+      "75": "    /**/private static final BitField fRecalc = new BitField(0x4000);\n",
+      "395": "        field_2_bits = (short)fRecalc.setBoolean(field_2_bits, value);\n",
+      "405": "        return fRecalc.isSet(field_2_bits);\n"
+    },
+    {
+      "76": "    /**/private static final BitField fHasListBox = new BitField(0x8000);\n",
+      "415": "        field_2_bits = (short)fHasListBox.setBoolean(field_2_bits, value);\n",
+      "425": "        return fHasListBox.isSet(field_2_bits);\n"
+    }
+  ]
+}

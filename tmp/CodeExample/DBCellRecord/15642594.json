@@ -1,0 +1,11 @@
+{
+  "id": "15642594",
+  "lines": [
+    {
+      "236": "          DBCellRecord cellRecord = new DBCellRecord();\n",
+      "244": "              cellRecord.addCellOffset((short)cellRefOffset);\n",
+      "249": "          cellRecord.setRowOffset(pos - rowStartPos);\n",
+      "250": "          pos += cellRecord.serialize(pos, data);\n"
+    }
+  ]
+}

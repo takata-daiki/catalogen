@@ -1,0 +1,58 @@
+{
+  "id": "97383976",
+  "lines": [
+    {
+      "309": "            final HWPFDocument doc = (HWPFDocument) wordDocument;\n",
+      "311": "            Map<Integer, List<Bookmark>> rangeBookmarks = doc.getBookmarks()\n"
+    },
+    {
+      "488": "                HWPFDocument newFormat = (HWPFDocument) wordDocument;\n",
+      "489": "                Picture picture = newFormat.getPicturesTable().extractPicture(\n"
+    },
+    {
+      "506": "                    HWPFDocument doc = (HWPFDocument) wordDocument;\n"
+    },
+    {
+      "513": "                    HWPFDocument doc = (HWPFDocument) wordDocument;\n"
+    },
+    {
+      "520": "                    HWPFDocument doc = (HWPFDocument) wordDocument;\n"
+    },
+    {
+      "527": "                    HWPFDocument doc = (HWPFDocument) wordDocument;\n"
+    },
+    {
+      "743": "    protected void processDrawnObject( HWPFDocument doc,\n",
+      "750": "        OfficeDrawing officeDrawing = doc.getOfficeDrawingsMain()\n"
+    },
+    {
+      "778": "    protected abstract void processDrawnObject( HWPFDocument doc,\n"
+    },
+    {
+      "789": "            HWPFDocument wordDocument, int noteIndex, Element block,\n"
+    },
+    {
+      "792": "    protected void processField( HWPFDocument wordDocument, Range parentRange,\n"
+    },
+    {
+      "912": "            HWPFDocument wordDocument, int noteIndex, Element block,\n"
+    },
+    {
+      "960": "    protected void processNoteAnchor( HWPFDocument doc,\n",
+      "964": "            Notes footnotes = doc.getFootnotes();\n",
+      "970": "                Range footnoteRange = doc.getFootnoteRange();\n",
+      "987": "            Notes endnotes = doc.getEndnotes();\n",
+      "992": "                Range endnoteRange = doc.getEndnoteRange();\n"
+    },
+    {
+      "1010": "    private boolean processOle2( HWPFDocument doc, CharacterRun characterRun,\n",
+      "1013": "        Entry entry = doc.getObjectsPool().getObjectById(\n"
+    },
+    {
+      "1038": "    protected boolean processOle2( HWPFDocument wordDocument, Element block,\n"
+    },
+    {
+      "1129": "    protected void processSymbol( HWPFDocument doc, CharacterRun characterRun,\n"
+    }
+  ]
+}

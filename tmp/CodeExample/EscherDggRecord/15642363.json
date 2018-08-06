@@ -1,0 +1,22 @@
+{
+  "id": "15642363",
+  "lines": [
+    {
+      "56": "    EscherDggRecord dgg;\n",
+      "72": "        dgg.addCluster( dgId, 0 );\n",
+      "73": "        dgg.setDrawingsSaved( dgg.getDrawingsSaved() + 1 );\n",
+      "98": "            dgg.addCluster(drawingGroupId, 1);\n",
+      "104": "            for (int i = 0; i < dgg.getFileIdClusters().length; i++)\n",
+      "106": "                EscherDggRecord.FileIdCluster c = dgg.getFileIdClusters()[i];\n",
+      "128": "        dgg.setNumShapesSaved(dgg.getNumShapesSaved() + 1);\n",
+      "130": "        if (newShapeId >= dgg.getShapeIdMax())\n",
+      "134": "            dgg.setShapeIdMax(newShapeId + 1);\n",
+      "156": "        for ( int i = 0; i < dgg.getFileIdClusters().length; i++ )\n",
+      "158": "            if ( dgg.getFileIdClusters()[i].getDrawingGroupId() == dgId )\n",
+      "166": "        int max = dgg.getShapeIdMax();\n"
+    },
+    {
+      "59": "    public DrawingManager( EscherDggRecord dgg )\n"
+    }
+  ]
+}

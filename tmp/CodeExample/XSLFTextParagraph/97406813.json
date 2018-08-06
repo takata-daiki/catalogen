@@ -1,0 +1,26 @@
+{
+  "id": "97406813",
+  "lines": [
+    {
+      "86": "        for (XSLFTextParagraph p : _paragraphs) {\n",
+      "88": "            out.append(p.getText());\n"
+    },
+    {
+      "124": "        XSLFTextParagraph paragraph = new XSLFTextParagraph(p, this);\n"
+    },
+    {
+      "485": "            for(XSLFTextParagraph p : _paragraphs) p.breakText(graphics);\n"
+    },
+    {
+      "534": "        XSLFTextParagraph p = _paragraphs.get(i);\n",
+      "536": "        y += p.draw(graphics, x, y);\n"
+    },
+    {
+      "611": "            XSLFTextParagraph p1 = srcP.get(i);\n"
+    },
+    {
+      "612": "            XSLFTextParagraph p2 = tgtP.get(i);\n",
+      "613": "            p2.copy(p1);\n"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "15642409",
+  "lines": [
+    {
+      "579": "                EscherContainerRecord dgContainer = (EscherContainerRecord) getEscherRecord( 0 );\n",
+      "581": "                for ( int i = 0; i < dgContainer.getChildRecords().size(); i++ )\n",
+      "582": "                    if ( dgContainer.getChild( i ).getRecordId() == EscherContainerRecord.SPGR_CONTAINER )\n",
+      "583": "                        spgrContainer = (EscherContainerRecord) dgContainer.getChild( i );\n"
+    },
+    {
+      "580": "                EscherContainerRecord spgrContainer = null;\n"
+    },
+    {
+      "591": "    private void convertShapes( HSSFShapeContainer parent, EscherContainerRecord escherParent, Map shapeToObj )\n",
+      "621": "                escherParent.addChildRecord( shapeModel.getSpContainer() );\n"
+    },
+    {
+      "629": "    private void convertGroup( HSSFShapeGroup shape, EscherContainerRecord escherParent, Map shapeToObj )\n",
+      "696": "        escherParent.addChildRecord( spgrContainer );\n"
+    },
+    {
+      "631": "        EscherContainerRecord spgrContainer = new EscherContainerRecord();\n",
+      "639": "        spgrContainer.setRecordId( EscherContainerRecord.SPGR_CONTAINER );\n",
+      "640": "        spgrContainer.setOptions( (short) 0x000F );\n",
+      "674": "        spgrContainer.addChildRecord( spContainer );\n"
+    },
+    {
+      "632": "        EscherContainerRecord spContainer = new EscherContainerRecord();\n",
+      "641": "        spContainer.setRecordId( EscherContainerRecord.SP_CONTAINER );\n",
+      "642": "        spContainer.setOptions( (short) 0x000F );\n",
+      "675": "        spContainer.addChildRecord( spgr );\n",
+      "676": "        spContainer.addChildRecord( sp );\n",
+      "677": "        spContainer.addChildRecord( opt );\n",
+      "678": "        spContainer.addChildRecord( anchor );\n",
+      "679": "        spContainer.addChildRecord( clientData );\n"
+    },
+    {
+      "702": "    private EscherRecord findClientData( EscherContainerRecord spContainer )\n",
+      "704": "        for ( Iterator iterator = spContainer.getChildRecords().iterator(); iterator.hasNext(); )\n"
+    },
+    {
+      "715": "        EscherContainerRecord dgContainer = new EscherContainerRecord();\n",
+      "722": "        dgContainer.setRecordId( EscherContainerRecord.DG_CONTAINER );\n",
+      "723": "        dgContainer.setOptions( (short) 0x000F );\n",
+      "744": "        dgContainer.addChildRecord( dg );\n",
+      "745": "        dgContainer.addChildRecord( spgrContainer );\n"
+    },
+    {
+      "717": "        EscherContainerRecord spgrContainer = new EscherContainerRecord();\n",
+      "729": "        spgrContainer.setRecordId( EscherContainerRecord.SPGR_CONTAINER );\n",
+      "730": "        spgrContainer.setOptions( (short) 0x000F );\n",
+      "746": "        spgrContainer.addChildRecord( spContainer1 );\n"
+    },
+    {
+      "718": "        EscherContainerRecord spContainer1 = new EscherContainerRecord();\n",
+      "731": "        spContainer1.setRecordId( EscherContainerRecord.SP_CONTAINER );\n",
+      "732": "        spContainer1.setOptions( (short) 0x000F );\n",
+      "747": "        spContainer1.addChildRecord( spgr );\n",
+      "748": "        spContainer1.addChildRecord( sp1 );\n"
+    }
+  ]
+}

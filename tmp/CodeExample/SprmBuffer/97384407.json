@@ -1,0 +1,35 @@
+{
+  "id": "97384407",
+  "lines": [
+    {
+      "162": "  protected SprmBuffer _papx;\n",
+      "254": "    _papx.updateSprm(SPRM_JC, jc);\n",
+      "265": "    _papx.updateSprm(SPRM_FKEEP, fKeep);\n",
+      "276": "    _papx.updateSprm(SPRM_FKEEPFOLLOW, fKeepFollow);\n",
+      "287": "    _papx.updateSprm(SPRM_FPAGEBREAKBEFORE, fPageBreak);\n",
+      "298": "    _papx.updateSprm(SPRM_FNOLINENUMB, fNoLnn);\n",
+      "309": "    _papx.updateSprm(SPRM_FSIDEBYSIDE, fSideBySide);\n",
+      "320": "    _papx.updateSprm(SPRM_FNOAUTOHYPH, !autoHyph);\n",
+      "331": "    _papx.updateSprm(SPRM_FWIDOWCONTROL, widowControl);\n",
+      "342": "    _papx.updateSprm(SPRM_DXARIGHT, (short)dxaRight);\n",
+      "353": "    _papx.updateSprm(SPRM_DXALEFT, (short)dxaLeft);\n",
+      "364": "    _papx.updateSprm(SPRM_DXALEFT1, (short)first);\n",
+      "375": "    _papx.updateSprm(SPRM_DYALINE, lspd.toInt());\n",
+      "386": "    _papx.updateSprm(SPRM_DYABEFORE, (short)before);\n",
+      "397": "    _papx.updateSprm(SPRM_DYAAFTER, (short)after);\n",
+      "408": "    _papx.updateSprm(SPRM_FKINSOKU, kinsoku);\n",
+      "419": "    _papx.updateSprm(SPRM_FWORDWRAP, wrap);\n",
+      "430": "    _papx.updateSprm(SPRM_WALIGNFONT, (short)align);\n",
+      "441": "    _papx.updateSprm(SPRM_FRAMETEXTFLOW, getFrameTextFlow());\n",
+      "463": "    _papx.updateSprm(SPRM_BRCTOP, top.toInt());\n",
+      "474": "    _papx.updateSprm(SPRM_BRCLEFT, left.toInt());\n",
+      "485": "    _papx.updateSprm(SPRM_BRCBOTTOM, bottom.toInt());\n",
+      "496": "    _papx.updateSprm(SPRM_BRCRIGHT, right.toInt());\n",
+      "507": "    _papx.updateSprm(SPRM_BRCBAR, bar.toInt());\n",
+      "519": "    _papx.addSprm( SPRM_SHD, shd.serialize() );\n",
+      "530": "    _papx.updateSprm(SPRM_DCS, dcs.toShort());\n",
+      "566": "    _papx.append(grpprl);\n",
+      "572": "    _papx.updateSprm(SPRM_FTTP, val);\n"
+    }
+  ]
+}

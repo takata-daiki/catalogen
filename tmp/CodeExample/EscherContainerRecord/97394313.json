@@ -1,0 +1,19 @@
+{
+  "id": "97394313",
+  "lines": [
+    {
+      "153": "        EscherContainerRecord dgContainer = (EscherContainerRecord)getSheetContainer().getPPDrawing().getEscherRecords()[0];\n",
+      "160": "        for (EscherContainerRecord c : dgContainer.getChildContainers()) {\n"
+    },
+    {
+      "160": "        for (EscherContainerRecord c : dgContainer.getChildContainers()) {\n",
+      "162": "            switch(c.getRecordId()){\n",
+      "164": "                    EscherContainerRecord dc = (EscherContainerRecord)c.getChild(0);\n",
+      "168": "                    spr = c.getChildById(EscherSpRecord.RECORD_ID);\n"
+    },
+    {
+      "164": "                    EscherContainerRecord dc = (EscherContainerRecord)c.getChild(0);\n",
+      "165": "                    spr = dc.getChildById(EscherSpRecord.RECORD_ID);\n"
+    }
+  ]
+}

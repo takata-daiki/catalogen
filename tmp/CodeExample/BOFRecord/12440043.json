@@ -1,0 +1,12 @@
+{
+  "id": "12440043",
+  "lines": [
+    {
+      "99": "                    final BOFRecord bof = (BOFRecord) record;\n",
+      "100": "                    if (bof.getType() == BOFRecord.TYPE_WORKBOOK) {\n",
+      "105": "                    else if (bof.getType() == BOFRecord.TYPE_WORKSHEET) {\n",
+      "107": "                            logger.info(\"recordsize = \" + bof.getRecordSize() + \n",
+      "109": "                                    bof.getRequiredVersion());\n"
+    }
+  ]
+}

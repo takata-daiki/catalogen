@@ -1,0 +1,15 @@
+{
+  "id": "97406883",
+  "lines": [
+    {
+      "204": "    public XSLFSlide createSlide(XSLFSlideLayout layout) {\n",
+      "223": "        layout.copyLayout(slide);\n",
+      "224": "        slide.addRelation(layout.getPackageRelationship().getId(), layout);\n",
+      "226": "        PackagePartName ppName = layout.getPackagePart().getPartName();\n",
+      "228": "                layout.getPackageRelationship().getRelationshipType());\n"
+    },
+    {
+      "242": "      XSLFSlideLayout layout = null;\n"
+    }
+  ]
+}

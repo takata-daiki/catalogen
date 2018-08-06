@@ -1,0 +1,192 @@
+{
+  "id": "60212069",
+  "lines": [
+    {
+      "250": "  public static Boolean hasFormula (HSSFSheet sh, CellRangeAddress cRA){\n",
+      "253": "    for(int row=cRA.getFirstRow(); row <= cRA.getLastRow(); row++){\n",
+      "256": "        for(int col=cRA.getFirstColumn(); col <= cRA.getLastColumn(); col++){\n"
+    },
+    {
+      "414": "  public static CellRangeAddress intersectRectangular(CellRangeAddress crA, CellRangeAddress crB){\n",
+      "415": "    boolean isIntersect =  !( crB.getFirstColumn() > crA.getLastColumn()\n",
+      "416": "                || crB.getLastColumn() < crA.getFirstColumn()\n",
+      "417": "                || crB.getFirstRow() > crA.getLastRow()\n",
+      "418": "                || crB.getLastRow() < crA.getFirstRow()\n",
+      "422": "        new CellRangeAddress(Math.max(crA.getFirstRow(), crB.getFirstRow()), \n",
+      "423": "                   Math.min(crA.getLastRow(), crB.getLastRow()),\n",
+      "424": "                   Math.max(crA.getFirstColumn(), crB.getFirstColumn()), \n",
+      "425": "                   Math.min(crA.getLastColumn(), crB.getLastColumn()));\n"
+    },
+    {
+      "414": "  public static CellRangeAddress intersectRectangular(CellRangeAddress crA, CellRangeAddress crB){\n",
+      "415": "    boolean isIntersect =  !( crB.getFirstColumn() > crA.getLastColumn()\n",
+      "416": "                || crB.getLastColumn() < crA.getFirstColumn()\n",
+      "417": "                || crB.getFirstRow() > crA.getLastRow()\n",
+      "418": "                || crB.getLastRow() < crA.getFirstRow()\n",
+      "422": "        new CellRangeAddress(Math.max(crA.getFirstRow(), crB.getFirstRow()), \n",
+      "423": "                   Math.min(crA.getLastRow(), crB.getLastRow()),\n",
+      "424": "                   Math.max(crA.getFirstColumn(), crB.getFirstColumn()), \n",
+      "425": "                   Math.min(crA.getLastColumn(), crB.getLastColumn()));\n"
+    },
+    {
+      "431": "  public static CellRangeAddress unionRectangular(CellRangeAddress crA, CellRangeAddress crB){\n",
+      "432": "    boolean isUnion = (crB.getFirstColumn() == crA.getFirstColumn() && \n",
+      "433": "        crB.getLastColumn() == crA.getLastColumn() &&\n",
+      "434": "       (Math.abs(crB.getLastRow()- crA.getFirstRow()) == 1 || \n",
+      "435": "           Math.abs(crB.getFirstRow()- crA.getLastRow())==1)) ||\n",
+      "436": "       (crB.getFirstRow() == crA.getFirstRow() && crB.getLastRow() == crA.getLastRow() &&\n",
+      "437": "       (Math.abs(crB.getLastColumn() - crA.getFirstColumn()) == 1 || \n",
+      "438": "           Math.abs(crB.getFirstColumn()-crA.getLastColumn())==1));\n",
+      "441": "        new CellRangeAddress(Math.min(crA.getFirstRow(), crB.getFirstRow()), \n",
+      "442": "                   Math.max(crA.getLastRow(), crB.getLastRow()),\n",
+      "443": "                   Math.min(crA.getFirstColumn(), crB.getFirstColumn()), \n",
+      "444": "                   Math.max(crA.getLastColumn(), crB.getLastColumn()));\n"
+    },
+    {
+      "431": "  public static CellRangeAddress unionRectangular(CellRangeAddress crA, CellRangeAddress crB){\n",
+      "432": "    boolean isUnion = (crB.getFirstColumn() == crA.getFirstColumn() && \n",
+      "433": "        crB.getLastColumn() == crA.getLastColumn() &&\n",
+      "434": "       (Math.abs(crB.getLastRow()- crA.getFirstRow()) == 1 || \n",
+      "435": "           Math.abs(crB.getFirstRow()- crA.getLastRow())==1)) ||\n",
+      "436": "       (crB.getFirstRow() == crA.getFirstRow() && crB.getLastRow() == crA.getLastRow() &&\n",
+      "437": "       (Math.abs(crB.getLastColumn() - crA.getFirstColumn()) == 1 || \n",
+      "438": "           Math.abs(crB.getFirstColumn()-crA.getLastColumn())==1));\n",
+      "441": "        new CellRangeAddress(Math.min(crA.getFirstRow(), crB.getFirstRow()), \n",
+      "442": "                   Math.max(crA.getLastRow(), crB.getLastRow()),\n",
+      "443": "                   Math.min(crA.getFirstColumn(), crB.getFirstColumn()), \n",
+      "444": "                   Math.max(crA.getLastColumn(), crB.getLastColumn()));\n"
+    },
+    {
+      "456": "        CellRangeAddress cRA = null;\n"
+    },
+    {
+      "459": "          CellRangeAddress res = null;\n"
+    },
+    {
+      "471": "      for(CellRangeAddress crA:rangeListForColumns.get(0)) rangeList.addCellRangeAddress(crA);\n"
+    },
+    {
+      "474": "      for(CellRangeAddress crA:rangeListForColumns.get(0)) rangeList.addCellRangeAddress(crA);\n"
+    },
+    {
+      "481": "  public static CellRangeAddressList getSpecialCells(HSSFSheet sh, CellRangeAddress cellRef0, XlCellType xlCellType){\n",
+      "501": "        for(int col = cellRef0.getFirstColumn(); col <= cellRef0.getLastColumn(); col++)\n",
+      "504": "            for(int row = cellRef0.getFirstRow(); row <= cellRef0.getLastRow(); row++)\n",
+      "526": "        for(int col = cellRef0.getFirstColumn(); col <= cellRef0.getLastColumn(); col++){\n",
+      "528": "          for(int row = cellRef0.getFirstRow(); row <= cellRef0.getLastRow(); row++){\n"
+    },
+    {
+      "506": "                CellRangeAddress cRA = new CellRangeAddress(row, row, col, col);\n"
+    },
+    {
+      "509": "                  CellRangeAddress cRB = rangeListForColumn.get(countRanges-1);\n"
+    },
+    {
+      "510": "                  CellRangeAddress res = unionRectangular(cRB, cRA);\n"
+    },
+    {
+      "531": "              CellRangeAddress cRA = new CellRangeAddress(row, row, col, col);\n"
+    },
+    {
+      "534": "                CellRangeAddress cRB = rangeListForColumn.get(countRanges-1);\n"
+    },
+    {
+      "535": "                CellRangeAddress res = unionRectangular(cRB, cRA);\n"
+    },
+    {
+      "587": "  public static void fill(HSSFSheet sh, CellRangeAddress cellsRef, Object valueFill, byte lookIn){\n",
+      "588": "    fill(sh, new  AreaReference(new CellReference(cellsRef.getFirstRow(), cellsRef.getFirstColumn()),\n",
+      "589": "        new CellReference(cellsRef.getLastRow(), cellsRef.getLastColumn())), valueFill, lookIn);\n"
+    },
+    {
+      "607": "  public static boolean equalsRectangularAreas(CellRangeAddress cRA1, CellRangeAddress cRA2){\n",
+      "608": "    return (cRA1.getLastRow()-cRA1.getFirstRow() == cRA2.getLastRow()-cRA2.getFirstRow() &&\n",
+      "609": "        cRA1.getLastColumn()-cRA1.getFirstColumn() == cRA2.getLastColumn()-cRA2.getFirstColumn());\n"
+    },
+    {
+      "607": "  public static boolean equalsRectangularAreas(CellRangeAddress cRA1, CellRangeAddress cRA2){\n",
+      "608": "    return (cRA1.getLastRow()-cRA1.getFirstRow() == cRA2.getLastRow()-cRA2.getFirstRow() &&\n",
+      "609": "        cRA1.getLastColumn()-cRA1.getFirstColumn() == cRA2.getLastColumn()-cRA2.getFirstColumn());\n"
+    },
+    {
+      "613": "  public static void fill(HSSFSheet sh, CellRangeAddress srcCRA, CellRangeAddress distCRA, byte lookIn){\n",
+      "618": "        HSSFRow srcRow = getRow(sh, srcCRA.getFirstRow()+(countRow++));\n",
+      "622": "          HSSFCell srcCell = getCell(srcRow, srcCRA.getFirstColumn()+(countCol++));\n"
+    },
+    {
+      "613": "  public static void fill(HSSFSheet sh, CellRangeAddress srcCRA, CellRangeAddress distCRA, byte lookIn){\n",
+      "616": "      for(int row = distCRA.getFirstRow(); row <=distCRA.getLastRow(); row++){\n",
+      "620": "        for(int col = distCRA.getFirstColumn(); col <=distCRA.getLastColumn(); col++){\n"
+    },
+    {
+      "653": "  public static void autoFilter(HSSFSheet sh, CellRangeAddress cellsRef, Object filterValue){\n",
+      "654": "    autoFilter(sh, new  AreaReference(new CellReference(cellsRef.getFirstRow(), cellsRef.getFirstColumn()),\n",
+      "655": "        new CellReference(cellsRef.getLastRow(), cellsRef.getLastColumn())), filterValue);\n"
+    },
+    {
+      "691": "  public static void replace(HSSFSheet sh, CellRangeAddress cellsRef, Object valueSearch, Object valueReplace, byte lookIn, XlLookAt lookAt, XlSearchDirection searchDirection){\n",
+      "692": "    replace(sh, new  AreaReference(new CellReference(cellsRef.getFirstRow(), cellsRef.getFirstColumn()),\n",
+      "693": "        new CellReference(cellsRef.getLastRow(), cellsRef.getLastColumn())), valueSearch, valueReplace, lookIn, lookAt, searchDirection);\n"
+    },
+    {
+      "710": "  public static List<HSSFCell> findAll(HSSFSheet sh, CellRangeAddress cellsRef, Object valueSearch, byte lookIn, XlLookAt lookAt, XlSearchDirection searchDirection){\n",
+      "711": "    return findAll(sh, new  AreaReference(new CellReference(cellsRef.getFirstRow(), cellsRef.getFirstColumn()),\n",
+      "712": "        new CellReference(cellsRef.getLastRow(), cellsRef.getLastColumn())), valueSearch, lookIn, lookAt, searchDirection);\n"
+    },
+    {
+      "751": "  public static HSSFCell find(HSSFSheet sh, CellRangeAddress cellsRef, Object valueSearch, byte lookIn, XlLookAt lookAt, XlSearchDirection searchDirection){\n",
+      "752": "    return find(sh, new  AreaReference(new CellReference(cellsRef.getFirstRow(), cellsRef.getFirstColumn()),\n",
+      "753": "        new CellReference(cellsRef.getLastRow(), cellsRef.getLastColumn())),\n"
+    },
+    {
+      "966": "      CellRangeAddress crA  = cellsRefs.getCellRangeAddress(i);\n",
+      "967": "      for(int row =crA.getFirstRow(); row<=crA.getLastRow(); row++)\n"
+    },
+    {
+      "973": "    CellRangeAddress crA;\n"
+    },
+    {
+      "995": "      CellRangeAddress crA  = cellsRefs.getCellRangeAddress(i);\n",
+      "996": "      for(int row =crA.getFirstRow(); row<=crA.getLastRow(); row++){\n"
+    },
+    {
+      "1004": "    CellRangeAddress crA;\n"
+    },
+    {
+      "1025": "      CellRangeAddress rangeRef = sh.getMergedRegion(i);\n",
+      "1026": "      if (cellRef.getCol() >= rangeRef.getFirstColumn()  && cellRef.getCol() <= rangeRef.getLastColumn() &&\n",
+      "1027": "        cellRef.getRow() >= rangeRef.getFirstRow()  && cellRef.getRow() <= rangeRef.getLastRow()){\n"
+    },
+    {
+      "1039": "  public static ExcelBuffer copy (HSSFSheet sh, CellRangeAddress cellsRef){\n",
+      "1040": "    return  copy (sh, new AreaReference(new CellReference(cellsRef.getFirstRow(),  cellsRef.getFirstColumn()), \n",
+      "1041": "                        new CellReference(cellsRef.getLastRow(),  cellsRef.getLastColumn())));\n"
+    },
+    {
+      "1084": "  public static void paste(HSSFSheet sh, CellRangeAddress cellsRef, ExcelBuffer buffer ){\n",
+      "1085": "    paste (sh, new AreaReference(new CellReference(cellsRef.getFirstRow(),  cellsRef.getFirstColumn()), \n",
+      "1086": "        new CellReference(cellsRef.getLastRow(),  cellsRef.getLastColumn())),  buffer, xlAll);\n"
+    },
+    {
+      "1117": "  public static void paste(HSSFSheet sh, CellRangeAddress cellsRef, ExcelBuffer buffer, byte typePaste){\n",
+      "1118": "    paste (sh, new AreaReference(new CellReference(cellsRef.getFirstRow(),  cellsRef.getFirstColumn()), \n",
+      "1119": "        new CellReference(cellsRef.getLastRow(),  cellsRef.getLastColumn())),  buffer, typePaste);\n"
+    },
+    {
+      "1184": "        CellRangeAddress cra = buffer.getSrcSheet().getMergedRegion(indexMergeRegion);\n",
+      "1185": "        if (cra.getFirstRow() >= copyRow1 && cra.getLastRow() <= copyRow2 \n",
+      "1186": "            && cra.getFirstColumn() >= copyCol1 && cra.getLastColumn() <= copyCol2){\n",
+      "1187": "          int offsetRow = cra.getFirstRow()-copyRow1;\n",
+      "1188": "          int offsetCol = cra.getFirstColumn()-copyCol1;\n",
+      "1189": "          int countRowMergeRegion = cra.getLastRow()-cra.getFirstRow();\n",
+      "1190": "          int countColMergeRegion = cra.getLastColumn()-cra.getFirstColumn();\n"
+    },
+    {
+      "1197": "              CellRangeAddress pasteCRA = \n"
+    },
+    {
+      "1214": "        CellRangeAddress cra = list.getCellRangeAddress(jj);\n",
+      "1215": "        for(int row = cra.getFirstRow(); row <= cra.getLastRow(); row++)\n"
+    }
+  ]
+}

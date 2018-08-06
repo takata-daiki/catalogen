@@ -1,0 +1,22 @@
+{
+  "id": "97406808",
+  "lines": [
+    {
+      "49": "    private final XSLFTextParagraph _p;\n",
+      "139": "        final XSLFTheme theme = _p.getParentShape().getSheet().getTheme();\n",
+      "140": "        CTShapeStyle style = _p.getParentShape().getSpStyle();\n",
+      "143": "        CharacterPropertyFetcher<Color> fetcher = new CharacterPropertyFetcher<Color>(_p.getLevel()){\n",
+      "187": "        CharacterPropertyFetcher<Double> fetcher = new CharacterPropertyFetcher<Double>(_p.getLevel()){\n",
+      "274": "        CharacterPropertyFetcher<String> visitor = new CharacterPropertyFetcher<String>(_p.getLevel()){\n",
+      "298": "        CharacterPropertyFetcher<Byte> visitor = new CharacterPropertyFetcher<Byte>(_p.getLevel()){\n",
+      "326": "        CharacterPropertyFetcher<Boolean> fetcher = new CharacterPropertyFetcher<Boolean>(_p.getLevel()){\n",
+      "377": "        CharacterPropertyFetcher<TextCap> fetcher = new CharacterPropertyFetcher<TextCap>(_p.getLevel()){\n",
+      "492": "            XSLFTextShape shape = _p.getParentShape();\n",
+      "499": "                    CTTextParagraphProperties themeProps = ppt.getDefaultParagraphStyle(_p.getLevel());\n",
+      "506": "                    CTTextParagraphProperties defaultProps =  _p.getDefaultMasterStyle();\n"
+    },
+    {
+      "51": "    XSLFTextRun(CTRegularTextRun r, XSLFTextParagraph p){\n"
+    }
+  ]
+}

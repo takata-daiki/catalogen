@@ -1,0 +1,27 @@
+{
+  "id": "111785558",
+  "lines": [
+    {
+      "86": "    private void parse(SummaryInformation summary) {\n",
+      "87": "        set(Metadata.TITLE, summary.getTitle());\n",
+      "88": "        set(Metadata.AUTHOR, summary.getAuthor());\n",
+      "89": "        set(Metadata.KEYWORDS, summary.getKeywords());\n",
+      "90": "        set(Metadata.SUBJECT, summary.getSubject());\n",
+      "91": "        set(Metadata.LAST_AUTHOR, summary.getLastAuthor());\n",
+      "92": "        set(Metadata.COMMENTS, summary.getComments());\n",
+      "93": "        set(Metadata.TEMPLATE, summary.getTemplate());\n",
+      "94": "        set(Metadata.APPLICATION_NAME, summary.getApplicationName());\n",
+      "95": "        set(Metadata.REVISION_NUMBER, summary.getRevNumber());\n",
+      "96": "        set(Metadata.CREATION_DATE, summary.getCreateDateTime());\n",
+      "97": "        set(Metadata.CHARACTER_COUNT, summary.getCharCount());\n",
+      "98": "        set(Metadata.EDIT_TIME, summary.getEditTime());\n",
+      "99": "        set(Metadata.LAST_SAVED, summary.getLastSaveDateTime());\n",
+      "100": "        set(Metadata.PAGE_COUNT, summary.getPageCount());\n",
+      "101": "        if (summary.getPageCount() > 0) {\n",
+      "102": "            metadata.set(PagedText.N_PAGES, summary.getPageCount());\n",
+      "104": "        set(Metadata.SECURITY, summary.getSecurity());\n",
+      "105": "        set(Metadata.WORD_COUNT, summary.getWordCount());\n",
+      "106": "        set(Metadata.LAST_PRINTED, summary.getLastPrinted());\n"
+    }
+  ]
+}

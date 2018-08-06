@@ -1,0 +1,11 @@
+{
+  "id": "61401276",
+  "lines": [
+    {
+      "338": "    HSSFFooter footer = sheet.getFooter();\n",
+      "339": "    footer.setLeft(Env.getStandardReportFooterTrademarkText());\n",
+      "340": "    footer.setCenter(Env.getHeader(getCtx(), 0));\n",
+      "342": "    footer.setRight(DisplayType.getDateFormat(DisplayType.DateTime, getLanguage()).format(now));\n"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "72854552",
+  "lines": [
+    {
+      "139": "        XSSFCellStyle cellStyle = theCell.getCellStyle();        \n",
+      "144": "        XSSFFont font = cellStyle.getFont();\n",
+      "147": "            cellStyle.setFont(font);\n"
+    },
+    {
+      "159": "        XSSFCellStyle cellStyle = theCell.getCellStyle();\n",
+      "163": "        XSSFFont xssfFont = cellStyle.getFont();\n"
+    },
+    {
+      "211": "      XSSFCellStyle cellStyle = theCell.getCellStyle();\n",
+      "216": "          XSSFColor xssfColour = cellStyle.getFillForegroundXSSFColor();\n"
+    },
+    {
+      "246": "    XSSFCellStyle style = getFillStyleForColour(colour);\n"
+    },
+    {
+      "262": "      XSSFCellStyle style = styles.get(colour);\n",
+      "266": "        style.setFillPattern(XSSFCellStyle.SOLID_FOREGROUND );\n",
+      "267": "        style.setFillForegroundColor(col);\n"
+    },
+    {
+      "287": "        XSSFCellStyle cellStyle = theCell.getCellStyle();\n",
+      "291": "        short xssfAlignment = cellStyle.getAlignment();\n"
+    }
+  ]
+}

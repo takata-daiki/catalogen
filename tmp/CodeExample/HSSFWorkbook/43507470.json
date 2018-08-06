@@ -1,0 +1,17 @@
+{
+  "id": "43507470",
+  "lines": [
+    {
+      "47": "    HSSFWorkbook    workBook = null;\n",
+      "67": "        HSSFSheet sheet = workBook.createSheet();\n",
+      "69": "          HSSFCellStyle cellStyleHeader = workBook.createCellStyle();\n",
+      "74": "          HSSFFont headerCellFont = workBook.createFont();\n",
+      "80": "          HSSFCellStyle cellStyleData = workBook.createCellStyle();\n",
+      "83": "          HSSFFont dataCellFont = workBook.createFont();\n"
+    },
+    {
+      "349": "  private void outputToFileSystem(String fileName, HSSFWorkbook workbook) throws IOException\n",
+      "353": "    workbook.write(fileOutputStream);\n"
+    }
+  ]
+}

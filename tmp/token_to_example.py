@@ -18,12 +18,12 @@ def getter(classname, idname):
                 token = re.search(r'<(.+)>', arr[2]).group(1)
                 line = re.search(r'(.+):', arr[3]).group(1)
 
-                if ID == '}':
+                if ID == '}' or ID == ')':
                     dep -= 1
 
                 dic[pos] = [ID, token, line, dep]
 
-                if ID == '{':
+                if ID == '{' or ID == '(':
                     dep += 1
 
             except AttributeError as e:
@@ -35,7 +35,7 @@ def getter(classname, idname):
 def extract(classname, dic):
     catalog = []
     for s in range(len(dic)):
-        if s < 1 or dic[s - 1][0] != classname or dic[s][1] != 'Identifier':
+        if s < 1 or dic[s - 1][0] != classname or dic[s][1] != 'Identifier' or dic[s + 1][0] == '(':
             continue
 
         # Now, the instance should be determined whether it is function arguments or not
@@ -62,9 +62,9 @@ def extract(classname, dic):
         for t in range(len(dic)):
             if s >= t:
                 continue
-            if dic[t][1] == 'Identifier' and dic[t + 1][0] == instancename:
+            if dic[t][1] == 'Identifier' and dic[t + 1][0] == instancename and dic[s][3] == dic[t][3]:
                 break
-            if dic[t][0] == '}' and dic[s][3] + int(isArgs) > dic[t][3]:
+            if dic[t][0] == '}' and dic[s][3] > dic[t][3]:
                 break
 
             if dic[t][0] == instancename and dic[t + 1][0] == '.':
@@ -87,9 +87,9 @@ def extract(classname, dic):
         #             lineNum.add(dic[i][2])
         #             break
 
-        catalog.append(sorted(list(lineNum)))
+        catalog.append(list(lineNum))
 
-    print(catalog)
+    # print(catalog)
     return catalog
 
 
@@ -100,25 +100,25 @@ def setter(catalog, classname, idname):
         with open('CodeResult/{}/{}.java'.format(classname, idname), 'r') as f:
             for i, line in enumerate(f):
                 if str(i + 1) in example:
-                    tmp.append([str(i + 1), line])
+                    tmp.append([str(i + 1), line.replace('\t', '  ')])
         seen = []
         tmp = [x for x in tmp if x[1] not in seen and not seen.append(x[1])]
         li.append(tmp)
-    print([[v[0] for v in x] for x in li])
+    # print([[v[0] for v in x] for x in li])
 
 
     jsn = {'id': idname, 'lines': []}
     for x in li:
         lines = {}
         for v in x:
-            print(v[0], v[1].split('\n')[0])
+            # print(v[0], v[1].split('\n')[0])
             lines[v[0]] = v[1]
         jsn['lines'].append(lines)
 
     os.makedirs('CodeExample/' + classname, exist_ok=True)
     with open('CodeExample/{}/{}.json'.format(classname, idname), 'w') as f:
         json.dump(jsn, f, indent=2)
-    print('\n')
+    # print('\n')
 
 
 def f(arg):
@@ -128,7 +128,7 @@ def f(arg):
     li = res.split('\n')[:-1]
     for x in li:
         idname = x[:-6]
-        print(idname)
+        # print(idname)
         res = getter(classname, idname)
         data = extract(classname, res)
         setter(data, classname, idname)
@@ -137,6 +137,6 @@ def f(arg):
 if __name__ == '__main__':
     res = subprocess.check_output(['ls', '-1', 'CodeToken/']).decode('utf-8')
     li = res.split('\n')[:-1]
-    f('XSSFWorkbook')
-    # with multiprocessing.Pool(10) as p:
-    #     p.map(f, li)
+    # f('XSSFWorkbook')
+    with multiprocessing.Pool(10) as p:
+        p.map(f, li)

@@ -1,0 +1,13 @@
+{
+  "id": "128473368",
+  "lines": [
+    {
+      "104": "            AreaReference aref = new AreaReference(nm.getRefersToFormula());\n",
+      "108": "            band.c1 = aref.getFirstCell().getCol();\n",
+      "109": "            band.c2 = aref.getLastCell().getCol();\n",
+      "110": "            band.r1 = aref.getFirstCell().getRow();\n",
+      "111": "            band.r2 = aref.getLastCell().getRow();\n",
+      "112": "            band.wholeCols = aref.isWholeColumnReference();\n"
+    }
+  ]
+}

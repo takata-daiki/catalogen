@@ -1,0 +1,20 @@
+{
+  "id": "73662641",
+  "lines": [
+    {
+      "102": "                    HSSFCell cell = xlsRow.createCell(colNum++);\n",
+      "103": "                    cell.setCellValue(new HSSFRichTextString(columnHeader));\n",
+      "104": "                    cell.setCellStyle(headerStyle);\n"
+    },
+    {
+      "126": "                    HSSFCell cell = xlsRow.createCell(colNum++);\n"
+    },
+    {
+      "149": "    protected void writeCell(Object value, HSSFCell cell) {\n",
+      "152": "            cell.setCellValue(num.doubleValue());\n",
+      "154": "            cell.setCellValue((Date) value);\n",
+      "156": "            cell.setCellValue((Calendar) value);\n",
+      "158": "            cell.setCellValue(new HSSFRichTextString(escapeColumnValue(value)));\n"
+    }
+  ]
+}

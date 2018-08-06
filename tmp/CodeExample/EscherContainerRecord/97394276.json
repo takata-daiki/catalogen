@@ -1,0 +1,16 @@
+{
+  "id": "97394276",
+  "lines": [
+    {
+      "91": "    protected EscherContainerRecord _escherContainer;\n",
+      "144": "        EscherSpRecord spRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);\n"
+    },
+    {
+      "115": "      protected Shape(EscherContainerRecord escherRecord, Shape parent){\n"
+    },
+    {
+      "261": "    public static EscherRecord getEscherChild(EscherContainerRecord owner, int recordId){\n",
+      "262": "        for ( Iterator<EscherRecord> iterator = owner.getChildIterator(); iterator.hasNext(); )\n"
+    }
+  ]
+}

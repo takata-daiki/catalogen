@@ -1,0 +1,14 @@
+{
+  "id": "97383361",
+  "lines": [
+    {
+      "201": "            Filetime filetime = (Filetime) typedPropertyValue.getValue();\n",
+      "202": "            return Util.filetimeToDate( (int) filetime.getHigh(),\n",
+      "203": "                    (int) filetime.getLow() );\n"
+    },
+    {
+      "508": "                Filetime filetimeValue = new Filetime( low, high);\n",
+      "509": "                length += filetimeValue.write( out );\n"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "111785559",
+  "lines": [
+    {
+      "296": "        public void processRecord(Record record) {\n"
+    },
+    {
+      "322": "        private void internalProcessRecord(Record record) throws SAXException, TikaException, IOException {\n",
+      "323": "            switch (record.getSid()) {\n",
+      "418": "            previousSid = record.getSid();\n"
+    },
+    {
+      "441": "        private void addCell(Record record, Cell cell) throws SAXException {\n"
+    },
+    {
+      "465": "        private void addTextCell(Record record, String text) throws SAXException {\n"
+    }
+  ]
+}

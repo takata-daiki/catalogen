@@ -1,0 +1,15 @@
+{
+  "id": "64530867",
+  "lines": [
+    {
+      "141": "    HSSFPalette palette = workbook.getCustomPalette();\n",
+      "143": "    HSSFColor result = palette.findColor(rgbByte[0], rgbByte[1], rgbByte[2]);\n",
+      "147": "        palette.setColorAtIndex(paletteIndex, rgbByte[0], rgbByte[1], rgbByte[2]);\n",
+      "150": "        result = palette.findSimilarColor(rgbByte[0], rgbByte[1], rgbByte[2]);\n"
+    },
+    {
+      "235": "    HSSFPalette palette = ((HSSFWorkbook)wb).getCustomPalette();    \n",
+      "242": "      fgRgb = palette.getColor(font.getColor()).getTriplet();\n"
+    }
+  ]
+}

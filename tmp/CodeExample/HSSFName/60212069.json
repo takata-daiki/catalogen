@@ -1,0 +1,36 @@
+{
+  "id": "60212069",
+  "lines": [
+    {
+      "98": "    HSSFName nameRange =  wb.createName();\n",
+      "99": "    nameRange.setNameName(name);\n",
+      "100": "    nameRange.setRefersToFormula(refersToR1C1);\n"
+    },
+    {
+      "104": "  public static AreaReference getReferanceNameRange(HSSFName nameRange){\n",
+      "106": "    return new AreaReference(nameRange.getRefersToFormula());\n"
+    },
+    {
+      "115": "        HSSFName nameFound = mapShNames.get(name);\n"
+    },
+    {
+      "178": "      HSSFName iName = wb.getNameAt(i);\n",
+      "180": "        String iNameName = iName.getNameName();\n",
+      "182": "          String iShName = iName.getSheetName();\n"
+    },
+    {
+      "188": "          HSSFName name = mapShNames.get(iNameName);\n"
+    },
+    {
+      "1251": "        HSSFName iName = wb.getNameAt(i);\n",
+      "1252": "        if((iName != null) && (iName.getNameName() == null)) return iName;\n"
+    },
+    {
+      "1256": "        HSSFName iName = wb.getNameAt(i);\n",
+      "1257": "        if((iName != null) && (iName.getNameName() != null) && iName.getNameName().equals(name)) return iName;\n"
+    },
+    {
+      "1310": "    HSSFName name = sheetNames == null ? getNamedRange(wb, nameRange):getNamedRangeInSheets(mapWbNames, nameRange, sheetNames);\n"
+    }
+  ]
+}

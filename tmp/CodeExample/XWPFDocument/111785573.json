@@ -1,0 +1,21 @@
+{
+  "id": "111785573",
+  "lines": [
+    {
+      "54": "        XWPFDocument document = (XWPFDocument) extractor.getDocument();\n",
+      "55": "        XWPFHeaderFooterPolicy hfPolicy = document.getHeaderFooterPolicy();\n",
+      "61": "        Iterator<XWPFParagraph> i = document.getParagraphsIterator();\n"
+    },
+    {
+      "130": "    private void extractTableContent(XWPFDocument doc, XHTMLContentHandler xhtml)\n",
+      "132": "        for (CTTbl table : doc.getDocument().getBody().getTblArray()) {\n"
+    },
+    {
+      "166": "       XWPFDocument document = (XWPFDocument) extractor.getDocument();\n",
+      "169": "       parts.add( document.getPackagePart() );\n"
+    },
+    {
+      "179": "        private MyXWPFParagraph(CTP ctp, XWPFDocument xwpfDocument) {\n"
+    }
+  ]
+}

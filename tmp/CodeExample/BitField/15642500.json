@@ -1,0 +1,20 @@
+{
+  "id": "15642500",
+  "lines": [
+    {
+      "70": "    static final private BitField hidden    = BitFieldFactory.getInstance(0x01);\n",
+      "168": "        field_5_options = hidden.setShortBoolean(field_5_options, ishidden);\n",
+      "257": "        return hidden.isSet(field_5_options);\n"
+    },
+    {
+      "71": "    static final private BitField outlevel  = BitFieldFactory.getInstance(0x0700);\n",
+      "179": "        field_5_options = outlevel.setShortValue(field_5_options, olevel);\n",
+      "268": "        return outlevel.getShortValue(field_5_options);\n"
+    },
+    {
+      "72": "    static final private BitField collapsed = BitFieldFactory.getInstance(0x1000);\n",
+      "190": "        field_5_options = collapsed.setShortBoolean(field_5_options,\n",
+      "279": "        return collapsed.isSet(field_5_options);\n"
+    }
+  ]
+}

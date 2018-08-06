@@ -1,0 +1,58 @@
+{
+  "id": "15642704",
+  "lines": [
+    {
+      "270": "    private static PropertyIDMap summaryInformationProperties;\n"
+    },
+    {
+      "277": "    private static PropertyIDMap documentSummaryInformationProperties;\n"
+    },
+    {
+      "346": "            PropertyIDMap m = new PropertyIDMap(18, (float) 1.0);\n",
+      "347": "            m.put(PID_TITLE, \"PID_TITLE\");\n",
+      "348": "            m.put(PID_SUBJECT, \"PID_SUBJECT\");\n",
+      "349": "            m.put(PID_AUTHOR, \"PID_AUTHOR\");\n",
+      "350": "            m.put(PID_KEYWORDS, \"PID_KEYWORDS\");\n",
+      "351": "            m.put(PID_COMMENTS, \"PID_COMMENTS\");\n",
+      "352": "            m.put(PID_TEMPLATE, \"PID_TEMPLATE\");\n",
+      "353": "            m.put(PID_LASTAUTHOR, \"PID_LASTAUTHOR\");\n",
+      "354": "            m.put(PID_REVNUMBER, \"PID_REVNUMBER\");\n",
+      "355": "            m.put(PID_EDITTIME, \"PID_EDITTIME\");\n",
+      "356": "            m.put(PID_LASTPRINTED, \"PID_LASTPRINTED\");\n",
+      "357": "            m.put(PID_CREATE_DTM, \"PID_CREATE_DTM\");\n",
+      "358": "            m.put(PID_LASTSAVE_DTM, \"PID_LASTSAVE_DTM\");\n",
+      "359": "            m.put(PID_PAGECOUNT, \"PID_PAGECOUNT\");\n",
+      "360": "            m.put(PID_WORDCOUNT, \"PID_WORDCOUNT\");\n",
+      "361": "            m.put(PID_CHARCOUNT, \"PID_CHARCOUNT\");\n",
+      "362": "            m.put(PID_THUMBNAIL, \"PID_THUMBNAIL\");\n",
+      "363": "            m.put(PID_APPNAME, \"PID_APPNAME\");\n",
+      "364": "            m.put(PID_SECURITY, \"PID_SECURITY\");\n"
+    },
+    {
+      "383": "            PropertyIDMap m = new PropertyIDMap(17, (float) 1.0);\n",
+      "384": "            m.put(PID_DICTIONARY, \"PID_DICTIONARY\");\n",
+      "385": "            m.put(PID_CODEPAGE, \"PID_CODEPAGE\");\n",
+      "386": "            m.put(PID_CATEGORY, \"PID_CATEGORY\");\n",
+      "387": "            m.put(PID_PRESFORMAT, \"PID_PRESFORMAT\");\n",
+      "388": "            m.put(PID_BYTECOUNT, \"PID_BYTECOUNT\");\n",
+      "389": "            m.put(PID_LINECOUNT, \"PID_LINECOUNT\");\n",
+      "390": "            m.put(PID_PARCOUNT, \"PID_PARCOUNT\");\n",
+      "391": "            m.put(PID_SLIDECOUNT, \"PID_SLIDECOUNT\");\n",
+      "392": "            m.put(PID_NOTECOUNT, \"PID_NOTECOUNT\");\n",
+      "393": "            m.put(PID_HIDDENCOUNT, \"PID_HIDDENCOUNT\");\n",
+      "394": "            m.put(PID_MMCLIPCOUNT, \"PID_MMCLIPCOUNT\");\n",
+      "395": "            m.put(PID_SCALE, \"PID_SCALE\");\n",
+      "396": "            m.put(PID_HEADINGPAIR, \"PID_HEADINGPAIR\");\n",
+      "397": "            m.put(PID_DOCPARTS, \"PID_DOCPARTS\");\n",
+      "398": "            m.put(PID_MANAGER, \"PID_MANAGER\");\n",
+      "399": "            m.put(PID_COMPANY, \"PID_COMPANY\");\n",
+      "400": "            m.put(PID_LINKSDIRTY, \"PID_LINKSDIRTY\");\n"
+    },
+    {
+      "416": "        PropertyIDMap s1 = getSummaryInformationProperties();\n"
+    },
+    {
+      "417": "        PropertyIDMap s2 = getDocumentSummaryInformationProperties();\n"
+    }
+  ]
+}

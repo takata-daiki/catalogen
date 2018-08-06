@@ -1,0 +1,37 @@
+{
+  "id": "97406763",
+  "lines": [
+    {
+      "177": "            public boolean fetch(XSLFSimpleShape shape) {\n",
+      "178": "                CTShapeProperties pr = shape.getSpPr();\n"
+    },
+    {
+      "342": "            public boolean fetch(XSLFSimpleShape shape) {\n",
+      "343": "                CTShapeProperties spPr = shape.getSpPr();\n"
+    },
+    {
+      "399": "            public boolean fetch(XSLFSimpleShape shape) {\n",
+      "400": "                CTShapeProperties spPr = shape.getSpPr();\n"
+    },
+    {
+      "449": "            public boolean fetch(XSLFSimpleShape shape) {\n",
+      "450": "                CTShapeProperties spPr = shape.getSpPr();\n"
+    },
+    {
+      "527": "            public boolean fetch(XSLFSimpleShape shape) {\n",
+      "528": "                CTShapeProperties spPr = shape.getSpPr();\n"
+    },
+    {
+      "591": "        XSLFSimpleShape masterShape;\n"
+    },
+    {
+      "671": "        XSLFSimpleShape s = (XSLFSimpleShape)sh;\n",
+      "673": "        Color srsSolidFill = s.getFillColor();\n",
+      "683": "            String relId = getSheet().importBlip(blipId, s.getSheet().getPackagePart());\n",
+      "687": "        Color srcLineColor = s.getLineColor();\n",
+      "693": "        double srcLineWidth = s.getLineWidth();\n",
+      "699": "        LineDash srcLineDash = s.getLineDash();\n",
+      "705": "        LineCap srcLineCap = s.getLineCap();\n"
+    }
+  ]
+}

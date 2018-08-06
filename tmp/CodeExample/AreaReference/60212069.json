@@ -1,0 +1,76 @@
+{
+  "id": "60212069",
+  "lines": [
+    {
+      "244": "  public static Boolean hasFormula (HSSFSheet sh, AreaReference areaRef){\n",
+      "245": "    return hasFormula(sh, new CellRangeAddress(areaRef.getFirstCell().getRow(), areaRef.getLastCell().getRow(),\n",
+      "246": "        areaRef.getFirstCell().getCol(), areaRef.getLastCell().getCol()));\n"
+    },
+    {
+      "321": "  public static void clear(HSSFSheet sh, AreaReference aRef){\n",
+      "322": "    for(int row = aRef.getFirstCell().getRow(); row <= aRef.getLastCell().getRow(); row++){\n",
+      "325": "        for(int col = aRef.getFirstCell().getCol(); col <= aRef.getLastCell().getCol(); col++){\n"
+    },
+    {
+      "595": "  public static void fill(HSSFSheet sh, AreaReference areaRef, Object valueFill, byte lookIn){\n",
+      "597": "    for(CellReference cellRef:areaRef.getAllReferencedCells()){\n"
+    },
+    {
+      "658": "  public static void autoFilter(HSSFSheet sh, AreaReference areaRef, Object filterValue){\n",
+      "659": "    if (areaRef.getFirstCell().getCol() != areaRef.getLastCell().getCol()) return;\n",
+      "660": "    for(CellReference cellRef:areaRef.getAllReferencedCells()){\n"
+    },
+    {
+      "700": "  public static void replace(HSSFSheet sh, AreaReference areaRef, Object valueSearch, Object valueReplace, byte lookIn, XlLookAt lookAt, XlSearchDirection searchDirection){\n"
+    },
+    {
+      "732": "  public static List<HSSFCell> findAll(HSSFSheet sh, AreaReference areaRef, Object valueSearch, byte lookIn, XlLookAt lookAt, XlSearchDirection searchDirection){\n"
+    },
+    {
+      "761": "  public static HSSFCell find(HSSFSheet sh, AreaReference areaRef, Object valueSearch, byte lookIn, XlLookAt lookAt, XlSearchDirection searchDirection){\n"
+    },
+    {
+      "768": "      AreaReference areaRef, Object valueSearch, Object valueReplace, byte lookIn, XlLookAt lookAt, XlSearchDirection searchDirection, boolean isFirst, boolean isReplace){\n",
+      "793": "    int realFirstRow  = areaRef.getFirstCell().getRow() > sh.getFirstRowNum() ?areaRef.getFirstCell().getRow():sh.getFirstRowNum();\n",
+      "794": "    int realLastRow  = areaRef.getLastCell().getRow() < sh.getLastRowNum() ?areaRef.getLastCell().getRow():sh.getLastRowNum();\n",
+      "795": "    int realFirstCol  = areaRef.getFirstCell().getCol() > sh.getLeftCol() ?areaRef.getFirstCell().getCol():sh.getLeftCol();\n",
+      "802": "        for(int iCol = realFirstCol; iCol <= areaRef.getLastCell().getCol(); iCol++){\n",
+      "803": "          realCol = searchDirection == XlSearchDirection.xlNext ? iCol: areaRef.getLastCell().getCol()+(realFirstCol-iCol);\n"
+    },
+    {
+      "1062": "  public static ExcelBuffer copy (HSSFSheet sh, AreaReference areaRef){\n",
+      "1064": "    int offsetRow = areaRef.getFirstCell().getRow();\n",
+      "1065": "    int offsetCol = areaRef.getFirstCell().getCol();\n",
+      "1066": "    CellReference[] celRefs = areaRef.getAllReferencedCells();\n"
+    },
+    {
+      "1097": "  public static void paste (HSSFSheet sh, AreaReference areaRef,  ExcelBuffer buffer){\n"
+    },
+    {
+      "1130": "  public static void paste (HSSFSheet sh, AreaReference areaRef,  ExcelBuffer buffer, byte typePaste){\n",
+      "1137": "    int pasteRow1 = areaRef.getFirstCell().getRow();\n",
+      "1138": "    int pasteCol1 = areaRef.getFirstCell().getCol();\n",
+      "1139": "    int pasteRow2 = areaRef.getLastCell().getRow();\n",
+      "1140": "    int pasteCol2 = areaRef.getLastCell().getCol();\n"
+    },
+    {
+      "1221": "  public static void hiddenRows(HSSFSheet sh, AreaReference area, boolean hide){\n",
+      "1223": "        for(int row = area.getFirstCell().getRow(); row <= area.getLastCell().getRow(); row++)\n"
+    },
+    {
+      "1228": "  public static void setRowHeight(HSSFSheet sh, AreaReference area, short height){\n",
+      "1229": "    for(int row = area.getFirstCell().getRow(); row <= area.getLastCell().getRow(); row++)\n"
+    },
+    {
+      "1233": "  public static Short getRowHeight(HSSFSheet sh, AreaReference area){\n",
+      "1235": "    for(int row = area.getFirstCell().getRow(); row <= area.getLastCell().getRow(); row++){\n",
+      "1237": "      if (row == area.getFirstCell().getRow()) height = hSSFRow.getHeight();  \n"
+    },
+    {
+      "1315": "    AreaReference ref = range(wb, nameRange, mapWbNames, sheetNames);\n",
+      "1316": "    if (ref.isSingleCell()){\n",
+      "1317": "      String shName = ref.getFirstCell().getSheetName();\n",
+      "1318": "      return  getCell(wb.getSheet(shName), ref.getFirstCell().getRow(), ref.getFirstCell().getCol());\n"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "60212057",
+  "lines": [
+    {
+      "67": "  private HSSFName nameDataBeg;\n",
+      "1633": "      AreaReference areaDataBeg = new AreaReference(nameDataBeg.getRefersToFormula());\n"
+    },
+    {
+      "68": "  private HSSFName nameDataRangeE;\n"
+    },
+    {
+      "69": "  private HSSFName nameDataRangeB;\n"
+    },
+    {
+      "70": "  private HSSFName nameDataPageE;\n"
+    },
+    {
+      "341": "    HSSFName nameCUsing = useGeneral? ExcelUtils.getNamedRange(wb, RANGE_CUSING): ExcelUtils.getNamedRangeInSheets(namesMap, RANGE_CUSING, sheets);\n"
+    },
+    {
+      "342": "    HSSFName nameContentBegCol = useGeneral? ExcelUtils.getNamedRange(wb, RANGE_ContentBegCol): ExcelUtils.getNamedRangeInSheets(namesMap, RANGE_ContentBegCol, sheets);\n"
+    },
+    {
+      "343": "    HSSFName nameContentBegColRowHead = useGeneral? ExcelUtils.getNamedRange(wb, RANGE_ContentBegColRowHead): ExcelUtils.getNamedRangeInSheets(namesMap, RANGE_ContentBegColRowHead, sheets);\n"
+    },
+    {
+      "344": "    HSSFName nameDataBeg = useGeneral? ExcelUtils.getNamedRange(wb, dataBegName): ExcelUtils.getNamedRangeInSheets(namesMap, dataBegName, new String[]{name_WorkSheet});\n"
+    }
+  ]
+}

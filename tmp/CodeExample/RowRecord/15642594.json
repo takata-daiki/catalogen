@@ -1,0 +1,65 @@
+{
+  "id": "15642594",
+  "lines": [
+    {
+      "75": "    public void insertRow(RowRecord row)\n",
+      "77": "        size += row.getRecordSize();\n",
+      "81": "        if ((row.getRowNumber() < firstrow) || (firstrow == -1))\n",
+      "83": "            firstrow = row.getRowNumber();\n",
+      "85": "        if ((row.getRowNumber() > lastrow) || (lastrow == -1))\n",
+      "87": "            lastrow = row.getRowNumber();\n"
+    },
+    {
+      "91": "    public void removeRow(RowRecord row)\n",
+      "93": "        size -= row.getRecordSize();\n"
+    },
+    {
+      "106": "        RowRecord row = new RowRecord();\n",
+      "107": "        row.setRowNumber(rownum);\n"
+    },
+    {
+      "159": "      RowRecord row = null;\n",
+      "165": "      return row.getRowNumber();\n"
+    },
+    {
+      "175": "      RowRecord row = null;\n",
+      "179": "      return row.getRowNumber();\n"
+    },
+    {
+      "199": "        RowRecord row = (RowRecord)rowIterator.next();\n",
+      "200": "        pos += row.serialize(pos, data);\n"
+    },
+    {
+      "302": "            RowRecord row = (RowRecord) ( (RowRecord) rowIter.next() ).clone();\n"
+    },
+    {
+      "312": "        RowRecord rowRecord = this.getRow( row );\n",
+      "313": "        int level = rowRecord.getOutlineLevel();\n",
+      "318": "            if (rowRecord.getOutlineLevel() < level)\n"
+    },
+    {
+      "341": "    public int writeHidden( RowRecord rowRecord, int row, boolean hidden )\n",
+      "343": "        int level = rowRecord.getOutlineLevel();\n",
+      "346": "            rowRecord.setZeroHeight( hidden );\n"
+    },
+    {
+      "358": "        RowRecord rowRecord = (RowRecord) getRow( startRow );\n"
+    },
+    {
+      "370": "            RowRecord row = createRow( lastRow + 1);\n",
+      "371": "            row.setColapsed( true );\n"
+    },
+    {
+      "385": "        RowRecord rowrec = new RowRecord();\n",
+      "388": "        rowrec.setRowNumber(row);\n",
+      "389": "        rowrec.setHeight(( short ) 0xff);\n",
+      "390": "        rowrec.setOptimize(( short ) 0x0);\n",
+      "391": "        rowrec.setOptionFlags(( short ) 0x100);  // seems necessary for outlining\n",
+      "392": "        rowrec.setXFIndex(( short ) 0xf);\n"
+    },
+    {
+      "418": "        RowRecord row = getRow( startIdx );\n",
+      "434": "                if ( row.getOutlineLevel() == getRow( i ).getOutlineLevel() )\n"
+    }
+  ]
+}

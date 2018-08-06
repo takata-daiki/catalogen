@@ -1,0 +1,51 @@
+{
+  "id": "91974011",
+  "lines": [
+    {
+      "89": "      XSSFCell headerCell0 = row.createCell(0);\n",
+      "90": "      headerCell0.setCellStyle(headerStyle);\n",
+      "91": "      headerCell0.setCellValue(\"Familien ZENTRALLISTE\");\n"
+    },
+    {
+      "103": "      XSSFCell familienCell = row1.createCell(0);\n",
+      "104": "      familienCell.setCellStyle(headerStyle);\n",
+      "105": "      familienCell.setCellValue(\"Familien\");\n"
+    },
+    {
+      "116": "        XSSFCell celltemp = row1.createCell(2 + (spalten.size() * i));\n",
+      "117": "        celltemp.setCellStyle(headerStyle);\n",
+      "118": "        celltemp.setCellValue(\"Betreuung \" + (i + 1));\n"
+    },
+    {
+      "124": "      XSSFCell nrCell = headerRow.createCell(0);\n",
+      "125": "      nrCell.setCellStyle(headerStyle);\n",
+      "126": "      nrCell.setCellValue(\"Nr\");\n"
+    },
+    {
+      "128": "      XSSFCell nachnameCell = headerRow.createCell(1);\n",
+      "129": "      nachnameCell.setCellStyle(headerStyle);\n",
+      "130": "      nachnameCell.setCellValue(\"Nachname\");\n"
+    },
+    {
+      "135": "          XSSFCell headerCell1 = headerRow.createCell(count);\n",
+      "136": "          headerCell1.setCellStyle(headerStyle);\n",
+      "137": "          headerCell1.setCellValue(spaltenname);\n"
+    },
+    {
+      "149": "        XSSFCell familien_cell = dataRow.createCell(0);\n",
+      "150": "        familien_cell.setCellStyle(dataStyle);\n",
+      "151": "        familien_cell.setCellValue(new XSSFRichTextString(\"\"\n"
+    },
+    {
+      "154": "        XSSFCell familien_cell1 = dataRow.createCell(1);\n",
+      "155": "        familien_cell1.setCellStyle(dataStyle);\n",
+      "156": "        familien_cell1.setCellValue(new XSSFRichTextString(\"\"\n"
+    },
+    {
+      "170": "                XSSFCell cell1 = dataRow.createCell(j\n",
+      "172": "                cell1.setCellStyle(dataStyle);\n",
+      "175": "                  cell1.setCellValue(new XSSFRichTextString(\"\"+\n",
+      "179": "                  cell1.setCellValue(new XSSFRichTextString(\n"
+    }
+  ]
+}

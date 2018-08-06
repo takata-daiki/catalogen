@@ -1,0 +1,21 @@
+{
+  "id": "15642592",
+  "lines": [
+    {
+      "59": "    private StringRecord stringRecord;\n",
+      "92": "            pos += stringRecord.serialize(pos, data);\n",
+      "103": "        int size = formulaRecord.getRecordSize() + (stringRecord == null ? 0 : stringRecord.getRecordSize());\n",
+      "200": "      StringRecord clonedString = (stringRecord == null) ? null : (StringRecord)stringRecord.clone();\n",
+      "217": "        return stringRecord.getString();\n"
+    },
+    {
+      "61": "    public FormulaRecordAggregate( FormulaRecord formulaRecord, StringRecord stringRecord )\n"
+    },
+    {
+      "116": "    public void setStringRecord( StringRecord stringRecord )\n"
+    },
+    {
+      "200": "      StringRecord clonedString = (stringRecord == null) ? null : (StringRecord)stringRecord.clone();\n"
+    }
+  ]
+}

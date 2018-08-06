@@ -1,0 +1,17 @@
+{
+  "id": "46011490",
+  "lines": [
+    {
+      "40": "    HSSFRow row = sheet.createRow(rowIdx);\n",
+      "54": "      HSSFCell cell = row.createCell(i + nextCellOffset);\n"
+    },
+    {
+      "96": "    HSSFRow row = sheet.createRow(rowIdx);\n",
+      "103": "    HSSFCell cell = row.createCell(0);\n",
+      "106": "    row.setHeight((short) (row.getHeight() * 3));\n",
+      "118": "          cell = row.getCell(i);\n",
+      "120": "            cell = row.createCell(i);\n",
+      "137": "          cell = row.createCell(j);\n"
+    }
+  ]
+}

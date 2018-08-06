@@ -1,0 +1,17 @@
+{
+  "id": "111785572",
+  "lines": [
+    {
+      "166": "             for(PackageRelationship rel : part.getRelationshipsByType(XSSFRelation.DRAWINGS.getRelation())) {\n",
+      "167": "                if(rel.getTargetMode() == TargetMode.INTERNAL) {\n",
+      "168": "                   PackagePartName relName = PackagingURIHelper.createPartName(rel.getTargetURI());\n",
+      "169": "                   parts.add( rel.getPackage().getPart(relName) );\n"
+    },
+    {
+      "172": "             for(PackageRelationship rel : part.getRelationshipsByType(XSSFRelation.VML_DRAWINGS.getRelation())) {\n",
+      "173": "                if(rel.getTargetMode() == TargetMode.INTERNAL) {\n",
+      "174": "                   PackagePartName relName = PackagingURIHelper.createPartName(rel.getTargetURI());\n",
+      "175": "                   parts.add( rel.getPackage().getPart(relName) );\n"
+    }
+  ]
+}

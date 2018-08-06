@@ -1,0 +1,29 @@
+{
+  "id": "111785573",
+  "lines": [
+    {
+      "55": "        XWPFHeaderFooterPolicy hfPolicy = document.getHeaderFooterPolicy();\n"
+    },
+    {
+      "70": "            XWPFHeaderFooterPolicy headerFooterPolicy = null;\n"
+    },
+    {
+      "99": "            XHTMLContentHandler xhtml, XWPFHeaderFooterPolicy hfPolicy)\n",
+      "102": "        if (hfPolicy.getFirstPageFooter() != null) {\n",
+      "103": "            xhtml.element(\"p\", hfPolicy.getFirstPageFooter().getText());\n",
+      "105": "        if (hfPolicy.getEvenPageFooter() != null) {\n",
+      "106": "            xhtml.element(\"p\", hfPolicy.getEvenPageFooter().getText());\n",
+      "108": "        if (hfPolicy.getDefaultFooter() != null) {\n",
+      "109": "            xhtml.element(\"p\", hfPolicy.getDefaultFooter().getText());\n"
+    },
+    {
+      "114": "            XHTMLContentHandler xhtml, XWPFHeaderFooterPolicy hfPolicy)\n",
+      "116": "        if (hfPolicy.getFirstPageHeader() != null) {\n",
+      "117": "            xhtml.element(\"p\", hfPolicy.getFirstPageHeader().getText());\n",
+      "119": "        if (hfPolicy.getEvenPageHeader() != null) {\n",
+      "120": "            xhtml.element(\"p\", hfPolicy.getEvenPageHeader().getText());\n",
+      "122": "        if (hfPolicy.getDefaultHeader() != null) {\n",
+      "123": "            xhtml.element(\"p\", hfPolicy.getDefaultHeader().getText());\n"
+    }
+  ]
+}

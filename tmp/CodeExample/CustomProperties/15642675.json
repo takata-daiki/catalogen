@@ -1,0 +1,18 @@
+{
+  "id": "15642675",
+  "lines": [
+    {
+      "598": "        CustomProperties cps = null;\n",
+      "615": "                    cps.put(cp.getName(), cp);\n",
+      "618": "            if (cps.size() != propertyCount)\n",
+      "619": "                cps.setPure(false);\n"
+    },
+    {
+      "630": "    public void setCustomProperties(final CustomProperties customProperties)\n",
+      "634": "        final Map dictionary = customProperties.getDictionary();\n",
+      "640": "        int cpCodepage = customProperties.getCodepage();\n",
+      "645": "        customProperties.setCodepage(cpCodepage);\n",
+      "648": "        for (final Iterator i = customProperties.values().iterator(); i.hasNext();)\n"
+    }
+  ]
+}

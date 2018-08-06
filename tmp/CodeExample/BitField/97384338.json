@@ -1,0 +1,20 @@
+{
+  "id": "97384338",
+  "lines": [
+    {
+      "101": "    /**/private static BitField fVertical = new BitField(0x0001);\n",
+      "1856": "        field_40_fontAlign = (short)fVertical.setBoolean(field_40_fontAlign, value);\n",
+      "1866": "        return fVertical.isSet(field_40_fontAlign);\n"
+    },
+    {
+      "102": "    /**/private static BitField fBackward = new BitField(0x0002);\n",
+      "1876": "        field_40_fontAlign = (short)fBackward.setBoolean(field_40_fontAlign, value);\n",
+      "1886": "        return fBackward.isSet(field_40_fontAlign);\n"
+    },
+    {
+      "103": "    /**/private static BitField fRotateFont = new BitField(0x0004);\n",
+      "1896": "        field_40_fontAlign = (short)fRotateFont.setBoolean(field_40_fontAlign, value);\n",
+      "1906": "        return fRotateFont.isSet(field_40_fontAlign);\n"
+    }
+  ]
+}

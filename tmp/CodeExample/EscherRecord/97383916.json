@@ -1,0 +1,60 @@
+{
+  "id": "97383916",
+  "lines": [
+    {
+      "80": "            EscherRecord child = recordFactory.createRecord(data, offset);\n",
+      "81": "            int childBytesWritten = child.fillFields(data, offset, recordFactory);\n"
+    },
+    {
+      "103": "            EscherRecord r = iterator.next();\n",
+      "104": "            remainingBytes += r.getRecordSize();\n"
+    },
+    {
+      "111": "            EscherRecord r = iterator.next();\n",
+      "112": "            pos += r.serialize(pos, data, listener );\n"
+    },
+    {
+      "123": "            EscherRecord r = iterator.next();\n",
+      "124": "            childRecordsSize += r.getRecordSize();\n"
+    },
+    {
+      "136": "            EscherRecord r = iterator.next();\n",
+      "137": "            if(r.getRecordId() == recordId) {\n"
+    },
+    {
+      "190": "    public boolean removeChildRecord(EscherRecord toBeRemoved) {\n"
+    },
+    {
+      "205": "            EscherRecord r = iterator.next();\n"
+    },
+    {
+      "236": "            EscherRecord escherRecord = iterator.next();\n",
+      "237": "            escherRecord.display(w, indent + 1);\n"
+    },
+    {
+      "241": "    public void addChildRecord(EscherRecord record) {\n"
+    },
+    {
+      "245": "    public void addChildBefore(EscherRecord record, int insertBeforeRecordId) {\n"
+    },
+    {
+      "247": "            EscherRecord rec = _childRecords.get(i);\n",
+      "248": "            if(rec.getRecordId() == insertBeforeRecordId){\n"
+    },
+    {
+      "268": "                EscherRecord record = iterator.next();\n"
+    },
+    {
+      "295": "            EscherRecord record = iterator.next();\n",
+      "296": "            builder.append(record.toXml(tab+\"\\t\"));\n"
+    },
+    {
+      "304": "        for ( EscherRecord childRecord : _childRecords )\n",
+      "306": "            if ( childRecord.getRecordId() == recordId )\n"
+    },
+    {
+      "324": "            EscherRecord r = iterator.next();\n",
+      "328": "            } else if (r.getRecordId() == recordId){\n"
+    }
+  ]
+}

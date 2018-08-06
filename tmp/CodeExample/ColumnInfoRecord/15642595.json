@@ -1,0 +1,136 @@
+{
+  "id": "15642595",
+  "lines": [
+    {
+      "102": "            ColumnInfoRecord ci = ( ColumnInfoRecord ) records.get(k);\n",
+      "103": "            ci=(ColumnInfoRecord) ci.clone();\n"
+    },
+    {
+      "112": "    public void insertColumn( ColumnInfoRecord col )\n"
+    },
+    {
+      "121": "    public void insertColumn( int idx, ColumnInfoRecord col )\n"
+    },
+    {
+      "155": "        ColumnInfoRecord columnInfo = (ColumnInfoRecord) records.get( idx );\n",
+      "156": "        int level = columnInfo.getOutlineLevel();\n",
+      "160": "            if (columnInfo.getFirstColumn() - 1 == prevColumnInfo.getLastColumn())\n"
+    },
+    {
+      "159": "            ColumnInfoRecord prevColumnInfo = (ColumnInfoRecord) records.get( idx - 1 );\n",
+      "160": "            if (columnInfo.getFirstColumn() - 1 == prevColumnInfo.getLastColumn())\n",
+      "162": "                if (prevColumnInfo.getOutlineLevel() < level)\n"
+    },
+    {
+      "181": "        ColumnInfoRecord columnInfo = (ColumnInfoRecord) records.get( idx );\n",
+      "182": "        int level = columnInfo.getOutlineLevel();\n",
+      "186": "            if (columnInfo.getLastColumn() + 1 == nextColumnInfo.getFirstColumn())\n"
+    },
+    {
+      "185": "            ColumnInfoRecord nextColumnInfo = (ColumnInfoRecord) records.get( idx + 1 );\n",
+      "186": "            if (columnInfo.getLastColumn() + 1 == nextColumnInfo.getFirstColumn())\n",
+      "188": "                if (nextColumnInfo.getOutlineLevel() < level)\n"
+    },
+    {
+      "209": "    public ColumnInfoRecord writeHidden( ColumnInfoRecord columnInfo, int idx, boolean hidden )\n",
+      "211": "        int level = columnInfo.getOutlineLevel();\n",
+      "214": "            columnInfo.setHidden( hidden );\n",
+      "218": "                if (columnInfo.getLastColumn() + 1 == nextColumnInfo.getFirstColumn())\n"
+    },
+    {
+      "217": "                ColumnInfoRecord nextColumnInfo = (ColumnInfoRecord) records.get( idx + 1 );\n",
+      "218": "                if (columnInfo.getLastColumn() + 1 == nextColumnInfo.getFirstColumn())\n",
+      "220": "                    if (nextColumnInfo.getOutlineLevel() < level)\n"
+    },
+    {
+      "305": "        ColumnInfoRecord columnInfo = (ColumnInfoRecord) records.get( findStartOfColumnOutlineGroup( idx ) );\n",
+      "311": "        setColumn( (short) ( columnInfo.getLastColumn() + 1 ), null, null, null, null, Boolean.TRUE);\n"
+    },
+    {
+      "326": "        ColumnInfoRecord columnInfo = getColInfo( startIdx );\n",
+      "343": "                if (columnInfo.getOutlineLevel() == getColInfo(i).getOutlineLevel())\n",
+      "349": "        setColumn( (short) ( columnInfo.getLastColumn() + 1 ), null, null, null, null, Boolean.FALSE);\n"
+    },
+    {
+      "330": "        ColumnInfoRecord endColumnInfo = getColInfo( endIdx );\n"
+    },
+    {
+      "359": "        ColumnInfoRecord retval = new ColumnInfoRecord();\n",
+      "361": "        retval.setColumnWidth(( short ) 2275);\n",
+      "363": "        retval.setOptions(( short ) 2);\n",
+      "364": "        retval.setXFIndex(( short ) 0x0f);\n"
+    },
+    {
+      "371": "        ColumnInfoRecord ci = null;\n",
+      "377": "            if ((ci.getFirstColumn() <= column)\n",
+      "378": "                    && (column <= ci.getLastColumn()))\n",
+      "387": "      boolean styleChanged = xfIndex != null && ci.getXFIndex() != xfIndex.shortValue();\n",
+      "388": "            boolean widthChanged = width != null && ci.getColumnWidth() != width.shortValue();\n",
+      "389": "            boolean levelChanged = level != null && ci.getOutlineLevel() != level.intValue();\n",
+      "390": "            boolean hiddenChanged = hidden != null && ci.getHidden() != hidden.booleanValue();\n",
+      "391": "            boolean collapsedChanged = collapsed != null && ci.getCollapsed() != collapsed.booleanValue();\n",
+      "397": "            else if ((ci.getFirstColumn() == column)\n",
+      "398": "                     && (ci.getLastColumn() == column))\n",
+      "403": "                     || (ci.getLastColumn() == column))\n",
+      "407": "                if (ci.getFirstColumn() == column)\n",
+      "409": "                    ci.setFirstColumn(( short ) (column + 1));\n",
+      "413": "                    ci.setLastColumn(( short ) (column - 1));\n",
+      "419": "                nci.setOptions(ci.getOptions());\n",
+      "420": "                nci.setXFIndex(ci.getXFIndex());\n",
+      "428": "                short lastcolumn = ci.getLastColumn();\n",
+      "429": "                ci.setLastColumn(( short ) (column - 1));\n",
+      "444": "                nci.setColumnWidth(ci.getColumnWidth());\n"
+    },
+    {
+      "415": "                ColumnInfoRecord nci = ( ColumnInfoRecord ) createColInfo();\n",
+      "417": "                nci.setFirstColumn(column);\n",
+      "418": "                nci.setLastColumn(column);\n",
+      "419": "                nci.setOptions(ci.getOptions());\n",
+      "420": "                nci.setXFIndex(ci.getXFIndex());\n"
+    },
+    {
+      "431": "                ColumnInfoRecord nci = ( ColumnInfoRecord ) createColInfo();\n",
+      "432": "                nci.setFirstColumn(column);\n",
+      "433": "                nci.setLastColumn(column);\n",
+      "434": "                nci.setOptions(ci.getOptions());\n",
+      "435": "                nci.setXFIndex(ci.getXFIndex());\n",
+      "440": "                nci.setFirstColumn((short)(column+1));\n",
+      "441": "                nci.setLastColumn(lastcolumn);\n",
+      "444": "                nci.setColumnWidth(ci.getColumnWidth());\n"
+    },
+    {
+      "452": "            ColumnInfoRecord nci = ( ColumnInfoRecord ) createColInfo();\n",
+      "454": "            nci.setFirstColumn(column);\n",
+      "455": "            nci.setLastColumn(column);\n"
+    },
+    {
+      "464": "    private void setColumnInfoFields( ColumnInfoRecord ci, Short xfStyle, Short width, Integer level, Boolean hidden, Boolean collapsed )\n",
+      "467": "      ci.setXFIndex(xfStyle.shortValue());\n",
+      "469": "            ci.setColumnWidth(width.shortValue());\n",
+      "471": "            ci.setOutlineLevel( level.shortValue() );\n",
+      "473": "            ci.setHidden( hidden.booleanValue() );\n",
+      "475": "            ci.setCollapsed( collapsed.booleanValue() );\n"
+    },
+    {
+      "485": "        ColumnInfoRecord ci;\n",
+      "489": "            if ((ci.getFirstColumn() <= column)\n",
+      "490": "                    && (column <= ci.getLastColumn()))\n"
+    },
+    {
+      "503": "        ColumnInfoRecord previousCol = (ColumnInfoRecord) records.get( columnIdx - 1);\n",
+      "505": "        boolean adjacentColumns = previousCol.getLastColumn() == currentCol.getFirstColumn() - 1;\n",
+      "510": "                previousCol.getXFIndex() == currentCol.getXFIndex() &&\n",
+      "511": "                previousCol.getOptions() == currentCol.getOptions() &&\n",
+      "512": "                previousCol.getColumnWidth() == currentCol.getColumnWidth();\n",
+      "516": "            previousCol.setLastColumn( currentCol.getLastColumn() );\n"
+    },
+    {
+      "504": "        ColumnInfoRecord currentCol = (ColumnInfoRecord) records.get( columnIdx );\n",
+      "505": "        boolean adjacentColumns = previousCol.getLastColumn() == currentCol.getFirstColumn() - 1;\n",
+      "510": "                previousCol.getXFIndex() == currentCol.getXFIndex() &&\n",
+      "511": "                previousCol.getOptions() == currentCol.getOptions() &&\n",
+      "512": "                previousCol.getColumnWidth() == currentCol.getColumnWidth();\n",
+      "516": "            previousCol.setLastColumn( currentCol.getLastColumn() );\n"
+    }
+  ]
+}

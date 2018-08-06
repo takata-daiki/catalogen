@@ -1,0 +1,19 @@
+{
+  "id": "96673228",
+  "lines": [
+    {
+      "48": "    private XWPFFooter currentFooter;\n",
+      "239": "            return currentFooter.getPictureDataByID( blipId );\n"
+    },
+    {
+      "125": "    protected abstract void visitFooter( XWPFFooter footer, CTHdrFtrRef footerRef, CTSectPr sectPr, E masterPage )\n"
+    },
+    {
+      "151": "        for ( XWPFFooter footer : footers )\n",
+      "153": "            if ( footer.getPackagePart().equals( hdrPart ) )\n"
+    },
+    {
+      "161": "        XWPFFooter ftr = new XWPFFooter( document, hdrFtr );\n"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "71798596",
+  "lines": [
+    {
+      "321": "                 HSSFCell cell = row.getCell(j); // To read value from each col in each row\n"
+    },
+    {
+      "344": "                 HSSFCell cell = row.getCell(j); // To read value from each col in each row\n"
+    },
+    {
+      "366": "                 HSSFCell cell = row.getCell(j); // To read value from each col in each row\n"
+    },
+    {
+      "375": "  public static String cellToString(HSSFCell cell) {\n",
+      "377": "        int type = cell.getCellType();\n",
+      "381": "                result = cell.getNumericCellValue();\n",
+      "384": "                result = cell.getStringCellValue();\n",
+      "392": "                result = cell.getBooleanCellValue();\n"
+    },
+    {
+      "409": "            HSSFCell cell = row.createCell(mycol);\n",
+      "410": "            cell.setCellType(HSSFCell.CELL_TYPE_STRING);\n",
+      "411": "            cell.setCellValue(xldata[myrow][mycol]);\n"
+    },
+    {
+      "427": "            HSSFCell cell = row.createCell(mycol);\n",
+      "428": "            cell.setCellType(HSSFCell.CELL_TYPE_STRING);\n",
+      "429": "            cell.setCellValue(xldata[myrow][mycol]);\n"
+    }
+  ]
+}

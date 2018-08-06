@@ -1,0 +1,30 @@
+{
+  "id": "15642448",
+  "lines": [
+    {
+      "78": "    private static final BitField          outlineLevel  = BitFieldFactory.getInstance(0x07);\n",
+      "195": "            outlineLevel.setShortValue(field_7_option_flags, ol);\n",
+      "331": "        return outlineLevel.getShortValue(field_7_option_flags);\n"
+    },
+    {
+      "81": "    private static final BitField          colapsed      = BitFieldFactory.getInstance(0x10);\n",
+      "206": "        field_7_option_flags = colapsed.setShortBoolean(field_7_option_flags,\n",
+      "342": "        return (colapsed.isSet(field_7_option_flags));\n"
+    },
+    {
+      "82": "    private static final BitField          zeroHeight    = BitFieldFactory.getInstance(0x20);\n",
+      "219": "            zeroHeight.setShortBoolean(field_7_option_flags, z);\n",
+      "353": "        return zeroHeight.isSet(field_7_option_flags);\n"
+    },
+    {
+      "83": "    private static final BitField          badFontHeight = BitFieldFactory.getInstance(0x40);\n",
+      "231": "            badFontHeight.setShortBoolean(field_7_option_flags, f);\n",
+      "364": "        return badFontHeight.isSet(field_7_option_flags);\n"
+    },
+    {
+      "84": "    private static final BitField          formatted     = BitFieldFactory.getInstance(0x80);\n",
+      "242": "        field_7_option_flags = formatted.setShortBoolean(field_7_option_flags,\n",
+      "375": "        return formatted.isSet(field_7_option_flags);\n"
+    }
+  ]
+}

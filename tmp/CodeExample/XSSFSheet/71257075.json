@@ -1,0 +1,19 @@
+{
+  "id": "71257075",
+  "lines": [
+    {
+      "44": "    XSSFSheet dataSheet = wb.createSheet(\"Data\");\n",
+      "49": "      dataSheet.autoSizeColumn(ii);\n"
+    },
+    {
+      "56": "  protected int createHeaderRow(XSSFSheet dataSheet) {\n",
+      "57": "    Row row = dataSheet.createRow((short) 0);\n",
+      "61": "    Font font = dataSheet.getWorkbook().createFont();\n",
+      "67": "    XSSFCellStyle style = dataSheet.getWorkbook().createCellStyle();\n"
+    },
+    {
+      "85": "  protected void createDataRows(XSSFSheet dataSheet) {\n",
+      "92": "        Row row = dataSheet.createRow((short) rowIndex);\n"
+    }
+  ]
+}

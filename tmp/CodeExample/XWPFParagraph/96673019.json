@@ -1,0 +1,16 @@
+{
+  "id": "96673019",
+  "lines": [
+    {
+      "230": "    protected IITextContainer startVisitParagraph( XWPFParagraph docxParagraph, ListItemContext itemContext,\n",
+      "348": "                if ( ParagraphIndentationLeftValueProvider.INSTANCE.getValue( docxParagraph.getCTP().getPPr() ) == null )\n",
+      "359": "                if ( ParagraphIndentationHangingValueProvider.INSTANCE.getValue( docxParagraph.getCTP().getPPr() ) == null )\n"
+    },
+    {
+      "412": "    protected void endVisitParagraph( XWPFParagraph docxParagraph, IITextContainer pdfParentContainer,\n"
+    },
+    {
+      "956": "    protected void visitBookmark( CTBookmark bookmark, XWPFParagraph paragraph, IITextContainer paragraphContainer )\n"
+    }
+  ]
+}

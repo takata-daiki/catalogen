@@ -1,0 +1,10 @@
+{
+  "id": "110658551",
+  "lines": [
+    {
+      "58": "        final XSSFReader xssfReader = mock(XSSFReader.class);\n",
+      "59": "        when(xssfReader.getSheetsData()).thenReturn(sheetIterator);\n",
+      "60": "        when(xssfReader.getSharedStringsTable()).thenReturn(sharedStringsTable);\n"
+    }
+  ]
+}

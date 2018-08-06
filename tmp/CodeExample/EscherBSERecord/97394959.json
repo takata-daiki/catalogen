@@ -1,0 +1,23 @@
+{
+  "id": "97394959",
+  "lines": [
+    {
+      "813": "        EscherBSERecord bse = (EscherBSERecord) iter.next();\n",
+      "814": "        if (Arrays.equals(bse.getUid(), uid)) {\n"
+    },
+    {
+      "825": "    EscherBSERecord bse = new EscherBSERecord();\n",
+      "826": "    bse.setRecordId(EscherBSERecord.RECORD_ID);\n",
+      "827": "    bse.setOptions((short) (0x0002 | (format << 4)));\n",
+      "828": "    bse.setSize(pict.getRawData().length + 8);\n",
+      "829": "    bse.setUid(uid);\n",
+      "831": "    bse.setBlipTypeMacOS((byte) format);\n",
+      "832": "    bse.setBlipTypeWin32((byte) format);\n",
+      "835": "      bse.setBlipTypeMacOS((byte) Picture.PICT);\n",
+      "839": "      bse.setBlipTypeWin32((byte) Picture.WMF);\n",
+      "841": "    bse.setRef(0);\n",
+      "842": "    bse.setOffset(offset);\n",
+      "843": "    bse.setRemainingData(new byte[0]);\n"
+    }
+  ]
+}

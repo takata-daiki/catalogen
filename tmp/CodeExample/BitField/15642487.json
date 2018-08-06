@@ -1,0 +1,48 @@
+{
+  "id": "15642487",
+  "lines": [
+    {
+      "67": "    static final private BitField autobreaks          =\n",
+      "147": "        field_1_wsbool = autobreaks.setByteBoolean(field_1_wsbool, ab);\n",
+      "256": "        return autobreaks.isSet(field_1_wsbool);\n"
+    },
+    {
+      "71": "    static final private BitField dialog              =\n",
+      "157": "        field_1_wsbool = dialog.setByteBoolean(field_1_wsbool, isDialog);\n",
+      "266": "        return dialog.isSet(field_1_wsbool);\n"
+    },
+    {
+      "73": "    static final private BitField applystyles         =\n"
+    },
+    {
+      "75": "    static final private BitField rowsumsbelow        = BitFieldFactory.getInstance(\n",
+      "167": "        field_1_wsbool = rowsumsbelow.setByteBoolean(field_1_wsbool, below);\n",
+      "276": "        return rowsumsbelow.isSet(field_1_wsbool);\n"
+    },
+    {
+      "77": "    static final private BitField rowsumsright        = BitFieldFactory.getInstance(\n",
+      "177": "        field_1_wsbool = rowsumsright.setByteBoolean(field_1_wsbool, right);\n",
+      "286": "        return rowsumsright.isSet(field_1_wsbool);\n"
+    },
+    {
+      "79": "    static final private BitField fittopage           =\n",
+      "200": "        field_2_wsbool = fittopage.setByteBoolean(field_2_wsbool, fit2page);\n",
+      "309": "        return fittopage.isSet(field_2_wsbool);\n"
+    },
+    {
+      "83": "    static final private BitField displayguts         = BitFieldFactory.getInstance(\n",
+      "211": "        field_2_wsbool = displayguts.setByteBoolean(field_2_wsbool, guts);\n",
+      "320": "        return displayguts.isSet(field_2_wsbool);\n"
+    },
+    {
+      "87": "    static final private BitField alternateexpression =   // whether to use alternate expression eval\n",
+      "221": "        field_2_wsbool = alternateexpression.setByteBoolean(field_2_wsbool,\n",
+      "330": "        return alternateexpression.isSet(field_2_wsbool);\n"
+    },
+    {
+      "89": "    static final private BitField alternateformula    =   // whether to use alternate formula entry\n",
+      "232": "        field_2_wsbool = alternateformula.setByteBoolean(field_2_wsbool,\n",
+      "340": "        return alternateformula.isSet(field_2_wsbool);\n"
+    }
+  ]
+}

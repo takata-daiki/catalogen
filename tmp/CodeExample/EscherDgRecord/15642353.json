@@ -1,0 +1,22 @@
+{
+  "id": "15642353",
+  "lines": [
+    {
+      "68": "        EscherDgRecord dg = new EscherDgRecord();\n",
+      "69": "        dg.setRecordId( EscherDgRecord.RECORD_ID );\n",
+      "71": "        dg.setOptions( (short) ( dgId << 4 ) );\n",
+      "72": "        dg.setNumShapes( 0 );\n",
+      "73": "        dg.setLastMSOSPID( -1 );\n"
+    },
+    {
+      "97": "                EscherDgRecord dg = getDrawingGroup(drawingGroupId);\n",
+      "98": "                dg.setNumShapes( dg.getNumShapes() + 1 );\n",
+      "99": "                dg.setLastMSOSPID( result );\n"
+    },
+    {
+      "109": "        EscherDgRecord dg = getDrawingGroup(drawingGroupId);\n",
+      "110": "        dg.setNumShapes( dg.getNumShapes() + 1 );\n",
+      "112": "        dg.setLastMSOSPID( result );\n"
+    }
+  ]
+}

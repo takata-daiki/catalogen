@@ -1,0 +1,24 @@
+{
+  "id": "72854574",
+  "lines": [
+    {
+      "61": "        XSSFRow row = sheet.getRow(rowIndex);\n",
+      "63": "          int firstCell = row.getFirstCellNum();\n",
+      "64": "            int lastCell = row.getLastCellNum();\n",
+      "66": "              XSSFCell cell = row.getCell(cellIndex);\n"
+    },
+    {
+      "141": "        XSSFRow hssfRow = sheet.getRow(row);\n",
+      "145": "        XSSFCell hssfCell = hssfRow.getCell(col);\n"
+    },
+    {
+      "155": "        XSSFRow hssfRow = sheet.getRow(row);\n",
+      "159": "        XSSFCell cell = hssfRow.getCell(col);\n",
+      "161": "            cell = hssfRow.createCell(col);\n"
+    },
+    {
+      "167": "        XSSFRow theRow = sheet.getRow(row);\n",
+      "169": "            XSSFCell theCell = theRow.getCell(col);\n"
+    }
+  ]
+}

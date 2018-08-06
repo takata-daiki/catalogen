@@ -1,0 +1,26 @@
+{
+  "id": "15642397",
+  "lines": [
+    {
+      "75": "    private  static final BitField   highByte  = BitFieldFactory.getInstance(0x1);\n",
+      "382": "          field_2_optionflags = highByte.setByte(field_2_optionflags);\n",
+      "383": "        else field_2_optionflags = highByte.clearByte(field_2_optionflags);\n",
+      "697": "      field_2_optionflags = highByte.setByte(field_2_optionflags);\n",
+      "701": "      field_2_optionflags = highByte.clearByte(field_2_optionflags);\n",
+      "706": "        return highByte.isSet(getOptionFlags());\n"
+    },
+    {
+      "76": "    private  static final BitField   extBit    = BitFieldFactory.getInstance(0x4);\n",
+      "459": "        field_2_optionflags = extBit.setByte(field_2_optionflags);\n",
+      "460": "      else field_2_optionflags = extBit.clearByte(field_2_optionflags);\n",
+      "929": "        return extBit.isSet(getOptionFlags());\n"
+    },
+    {
+      "77": "    private  static final BitField   richText  = BitFieldFactory.getInstance(0x8);\n",
+      "431": "      field_2_optionflags = richText.setByte(field_2_optionflags);\n",
+      "444": "        field_2_optionflags = richText.clearByte(field_2_optionflags);\n",
+      "450": "      field_2_optionflags = richText.clearByte(field_2_optionflags);\n",
+      "924": "      return richText.isSet(getOptionFlags());\n"
+    }
+  ]
+}

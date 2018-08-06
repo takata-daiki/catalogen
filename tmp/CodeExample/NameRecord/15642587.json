@@ -1,0 +1,15 @@
+{
+  "id": "15642587",
+  "lines": [
+    {
+      "72": "        NameRecord rec;\n",
+      "75": "            if (name.equals(rec.getNameText())) {\n",
+      "81": "        rec.setNameText(name);\n",
+      "82": "        rec.setNameTextLength((byte) name.length());\n"
+    },
+    {
+      "111": "        NameRecord rec = book.getNameRecord(field_1_label_index - 1);\n",
+      "112": "        return rec.getNameText();\n"
+    }
+  ]
+}

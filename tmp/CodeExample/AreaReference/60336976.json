@@ -1,0 +1,14 @@
+{
+  "id": "60336976",
+  "lines": [
+    {
+      "96": "            AreaReference paramCellAreaRef = new AreaReference(paramCellName.getRefersToFormula());\n",
+      "97": "            CellReference paramCellAreaRefFirstCell = paramCellAreaRef.getFirstCell();\n"
+    },
+    {
+      "110": "        AreaReference areaDataBeg = new AreaReference(nameDataBeg.getRefersToFormula());\n",
+      "111": "        int dataBegRow = areaDataBeg.getFirstCell().getRow();\n",
+      "112": "        int dataBegCol = areaDataBeg.getFirstCell().getCol();\n"
+    }
+  ]
+}

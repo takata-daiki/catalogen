@@ -1,0 +1,21 @@
+{
+  "id": "96673254",
+  "lines": [
+    {
+      "233": "            XWPFTableCell cell = cells.get( i );\n"
+    },
+    {
+      "238": "    protected void visitCell( XWPFTableCell cell, T tableContainer, boolean firstRow, boolean lastRow,\n"
+    },
+    {
+      "247": "    protected void visitTableCellBody( XWPFTableCell cell, T tableCellContainer )\n",
+      "250": "        List<IBodyElement> bodyElements = cell.getBodyElements();\n"
+    },
+    {
+      "254": "    protected abstract T startVisitTableCell( XWPFTableCell cell, T tableContainer, boolean firstRow, boolean lastRow,\n"
+    },
+    {
+      "257": "    protected abstract void endVisitTableCell( XWPFTableCell cell, T tableContainer, T tableCellContainer );\n"
+    }
+  ]
+}

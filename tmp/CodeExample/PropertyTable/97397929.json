@@ -1,0 +1,21 @@
+{
+  "id": "97397929",
+  "lines": [
+    {
+      "78": "    private PropertyTable _property_table;\n",
+      "302": "        _property_table.preWrite();\n",
+      "306": "            new SmallBlockTableWriter(bigBlockSize, _documents, _property_table.getRoot());\n",
+      "354": "        header_block_writer.setPropertyStart(_property_table.getStartBlock());\n",
+      "426": "            _root = new DirectoryNode(_property_table.getRoot(), this, null);\n",
+      "458": "        _property_table.addProperty(document.getDocumentProperty());\n",
+      "469": "        _property_table.addProperty(directory);\n",
+      "480": "        _property_table.removeProperty(entry.getProperty());\n"
+    },
+    {
+      "160": "        PropertyTable properties =\n",
+      "166": "                  bigBlockSize, data_blocks, properties.getRoot(),\n",
+      "170": "            properties.getRoot().getChildren(),\n",
+      "176": "        getRoot().setStorageClsid(properties.getRoot().getStorageClsid());\n"
+    }
+  ]
+}

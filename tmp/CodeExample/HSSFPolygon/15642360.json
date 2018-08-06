@@ -1,0 +1,24 @@
+{
+  "id": "15642360",
+  "lines": [
+    {
+      "67": "    PolygonShape( HSSFPolygon hssfShape, int shapeId )\n"
+    },
+    {
+      "77": "    private EscherContainerRecord createSpContainer( HSSFPolygon hssfShape, int shapeId )\n",
+      "91": "        if (hssfShape.getParent() == null)\n",
+      "97": "        opt.addEscherProperty(new EscherSimpleProperty(EscherProperties.GEOMETRY__RIGHT, false, false, hssfShape.getDrawAreaWidth()));\n",
+      "98": "        opt.addEscherProperty(new EscherSimpleProperty(EscherProperties.GEOMETRY__BOTTOM, false, false, hssfShape.getDrawAreaHeight()));\n",
+      "101": "        verticesProp.setNumberOfElementsInArray(hssfShape.getXPoints().length+1);\n",
+      "102": "        verticesProp.setNumberOfElementsInMemory(hssfShape.getXPoints().length+1);\n",
+      "104": "        for (int i = 0; i < hssfShape.getXPoints().length; i++)\n",
+      "107": "            LittleEndian.putShort(data, 0, (short)hssfShape.getXPoints()[i]);\n",
+      "108": "            LittleEndian.putShort(data, 2, (short)hssfShape.getYPoints()[i]);\n",
+      "111": "        int point = hssfShape.getXPoints().length;\n",
+      "113": "        LittleEndian.putShort(data, 0, (short)hssfShape.getXPoints()[0]);\n",
+      "114": "        LittleEndian.putShort(data, 2, (short)hssfShape.getYPoints()[0]);\n",
+      "119": "        segmentsProp.setNumberOfElementsInArray(hssfShape.getXPoints().length * 2 + 4);\n",
+      "120": "        segmentsProp.setNumberOfElementsInMemory(hssfShape.getXPoints().length * 2 + 4);\n"
+    }
+  ]
+}

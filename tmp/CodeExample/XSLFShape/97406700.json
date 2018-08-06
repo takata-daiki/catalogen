@@ -1,0 +1,27 @@
+{
+  "id": "97406700",
+  "lines": [
+    {
+      "162": "    public boolean removeShape(XSLFShape xShape) {\n",
+      "163": "        XmlObject obj = xShape.getXmlObject();\n"
+    },
+    {
+      "310": "        for (XSLFShape shape : getShapes()) {\n",
+      "315": "            shape.applyTransform(graphics);\n",
+      "316": "          shape.draw(graphics);\n"
+    },
+    {
+      "328": "    void copy(XSLFShape src){\n"
+    },
+    {
+      "334": "            XSLFShape s1 = srcShapes[i];\n"
+    },
+    {
+      "335": "            XSLFShape s2 = tgtShapes[i];\n",
+      "337": "            s2.copy(s1);\n"
+    },
+    {
+      "346": "        for(XSLFShape shape : getShapes()){\n"
+    }
+  ]
+}

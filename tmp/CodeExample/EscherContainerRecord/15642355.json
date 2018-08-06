@@ -1,0 +1,23 @@
+{
+  "id": "15642355",
+  "lines": [
+    {
+      "54": "    private EscherContainerRecord spContainer;\n",
+      "84": "        spContainer.setRecordId( EscherContainerRecord.SP_CONTAINER );\n",
+      "85": "        spContainer.setOptions( (short) 0x000F );\n",
+      "97": "        spContainer.addChildRecord( sp );\n",
+      "98": "        spContainer.addChildRecord( opt );\n",
+      "99": "        spContainer.addChildRecord( anchor );\n",
+      "100": "        spContainer.addChildRecord( clientData );\n"
+    },
+    {
+      "79": "        EscherContainerRecord spContainer = new EscherContainerRecord();\n",
+      "84": "        spContainer.setRecordId( EscherContainerRecord.SP_CONTAINER );\n",
+      "85": "        spContainer.setOptions( (short) 0x000F );\n",
+      "97": "        spContainer.addChildRecord( sp );\n",
+      "98": "        spContainer.addChildRecord( opt );\n",
+      "99": "        spContainer.addChildRecord( anchor );\n",
+      "100": "        spContainer.addChildRecord( clientData );\n"
+    }
+  ]
+}

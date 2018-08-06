@@ -1,0 +1,12 @@
+{
+  "id": "92669296",
+  "lines": [
+    {
+      "83": "                    LabelSSTRecord lrec = (LabelSSTRecord) record;\n",
+      "85": "                    if(lrec.getRow() == 0) {\n",
+      "88": "                    } else if(lrec.getColumn() == 0) { //\u7b2c\u4e00\u5217\n",
+      "90": "                        String value = sstrec.getString(lrec.getSSTIndex()).getString();\n",
+      "92": "                    } else if(lrec.getColumn() == 1) {//\u7b2c\u4e8c\u5217\n"
+    }
+  ]
+}

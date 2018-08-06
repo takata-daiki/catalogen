@@ -1,0 +1,27 @@
+{
+  "id": "97384153",
+  "lines": [
+    {
+      "67": "            ListData lst = new ListData( tableStream, offset );\n",
+      "68": "            _listMap.put( Integer.valueOf( lst.getLsid() ), lst );\n",
+      "71": "            int num = lst.numLevels();\n",
+      "76": "                lst.setLevel( y, lvl );\n"
+    },
+    {
+      "99": "      ListData lst = _listMap.get(x);\n",
+      "100": "      tableStream.write(lst.toByteArray());\n",
+      "101": "      ListLevel[] lvls = lst.getLevels();\n"
+    },
+    {
+      "141": "    ListData lst = _listMap.get(Integer.valueOf(lsid));\n",
+      "142": "    if(level < lst.numLevels()) {\n",
+      "143": "      ListLevel lvl = lst.getLevels()[level];\n",
+      "146": "  log.log(POILogger.WARN, \"Requested level \" + level + \" which was greater than the maximum defined (\" + lst.numLevels() + \")\");\n"
+    },
+    {
+      "194": "    public int addList( ListData lst, LFO lfo, LFOData lfoData )\n",
+      "196": "        int lsid = lst.getLsid();\n",
+      "199": "            lsid = lst.resetListID();\n"
+    }
+  ]
+}

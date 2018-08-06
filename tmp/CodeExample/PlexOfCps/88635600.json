@@ -1,0 +1,22 @@
+{
+  "id": "88635600",
+  "lines": [
+    {
+      "79": "    private static ArrayList<PlexOfField> toArrayList( PlexOfCps plexOfCps )\n",
+      "85": "                plexOfCps.length() );\n",
+      "86": "        for ( int i = 0; i < plexOfCps.length(); i++ )\n",
+      "88": "            GenericPropertyNode propNode = plexOfCps.getProperty( i );\n"
+    },
+    {
+      "105": "            final PlexOfCps plexOfCps = readPLCF( tableStream, fib, part );\n"
+    },
+    {
+      "134": "            PlexOfCps plexOfCps, HWPFOutputStream outputStream )\n",
+      "137": "        if ( plexOfCps == null || plexOfCps.length() == 0 )\n",
+      "144": "        byte[] data = plexOfCps.toByteArray();\n"
+    },
+    {
+      "162": "            PlexOfCps plexOfCps = _tables.get( part );\n"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "15642330",
+  "lines": [
+    {
+      "101": "        HSSFClientAnchor anchor = (HSSFClientAnchor)getAnchor();\n",
+      "102": "        anchor.setAnchorType(2);\n",
+      "106": "        int row2 = anchor.getRow1() + (pref.getRow2() - pref.getRow1());\n",
+      "107": "        int col2 = anchor.getCol1() + (pref.getCol2() - pref.getCol1());\n",
+      "109": "        anchor.setCol2((short)col2);\n",
+      "110": "        anchor.setDx1(0);\n",
+      "111": "        anchor.setDx2(pref.getDx2());\n",
+      "113": "        anchor.setRow2(row2);\n",
+      "114": "        anchor.setDy1(0);\n",
+      "115": "        anchor.setDy2(pref.getDy2());\n"
+    },
+    {
+      "104": "        HSSFClientAnchor pref = getPreferredSize();\n",
+      "106": "        int row2 = anchor.getRow1() + (pref.getRow2() - pref.getRow1());\n",
+      "107": "        int col2 = anchor.getCol1() + (pref.getCol2() - pref.getCol1());\n",
+      "111": "        anchor.setDx2(pref.getDx2());\n",
+      "115": "        anchor.setDy2(pref.getDy2());\n"
+    },
+    {
+      "125": "        HSSFClientAnchor anchor = new HSSFClientAnchor();\n",
+      "161": "                    anchor.setCol2((short)col2);\n",
+      "162": "                    anchor.setDx2(dx2);\n",
+      "164": "                    anchor.setRow2(row2);\n",
+      "165": "                    anchor.setDy2(dy2);\n"
+    }
+  ]
+}

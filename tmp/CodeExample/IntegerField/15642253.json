@@ -1,0 +1,30 @@
+{
+  "id": "15642253",
+  "lines": [
+    {
+      "67": "    private IntegerField      _bat_count;\n",
+      "141": "        _bat_count.set(blockCount, _data);\n"
+    },
+    {
+      "71": "    private IntegerField      _property_start;\n",
+      "184": "        _property_start.set(startBlock, _data);\n"
+    },
+    {
+      "75": "    private IntegerField      _sbat_start;\n",
+      "196": "        _sbat_start.set(startBlock, _data);\n"
+    },
+    {
+      "78": "    private IntegerField      _sbat_block_count;\n",
+      "207": "  _sbat_block_count.set(count, _data);\n"
+    },
+    {
+      "81": "    private IntegerField      _xbat_start;\n",
+      "164": "            _xbat_start.set(startBlock + blockCount, _data);\n",
+      "169": "            _xbat_start.set(POIFSConstants.END_OF_CHAIN, _data);\n"
+    },
+    {
+      "82": "    private IntegerField      _xbat_count;\n",
+      "171": "        _xbat_count.set(rvalue.length, _data);\n"
+    }
+  ]
+}

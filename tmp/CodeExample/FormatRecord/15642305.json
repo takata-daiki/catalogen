@@ -1,0 +1,11 @@
+{
+  "id": "15642305",
+  "lines": [
+    {
+      "126": "            FormatRecord r = (FormatRecord) i.next();\n",
+      "127": "            if ( formats.size() < r.getIndexCode() + 1 )\n",
+      "129": "                formats.setSize( r.getIndexCode() + 1 );\n",
+      "131": "            formats.set( r.getIndexCode(), r.getFormatString() );\n"
+    }
+  ]
+}

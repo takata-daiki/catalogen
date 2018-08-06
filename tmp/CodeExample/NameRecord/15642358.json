@@ -1,0 +1,24 @@
+{
+  "id": "15642358",
+  "lines": [
+    {
+      "385": "          NameRecord record = ( NameRecord ) iterator.next();\n",
+      "388": "          if (record.getBuiltInName() == name && record.getIndexToSheet() == sheetIndex) {\n"
+    },
+    {
+      "405": "    NameRecord record = getSpecificBuiltinRecord(name, sheetIndex);\n"
+    },
+    {
+      "1921": "        NameRecord result = (NameRecord) names.get(index);\n"
+    },
+    {
+      "1932": "        NameRecord name = new NameRecord();\n"
+    },
+    {
+      "1949": "    public NameRecord addName(NameRecord name)\n"
+    },
+    {
+      "1969": "    NameRecord name = new NameRecord(builtInName, (short)(index));\n"
+    }
+  ]
+}

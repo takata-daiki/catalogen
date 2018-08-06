@@ -1,0 +1,13 @@
+{
+  "id": "15642360",
+  "lines": [
+    {
+      "82": "        EscherSpRecord sp = new EscherSpRecord();\n",
+      "88": "        sp.setRecordId( EscherSpRecord.RECORD_ID );\n",
+      "89": "        sp.setOptions( (short) ( ( EscherAggregate.ST_DONUT << 4 ) | 0x2 ) );\n",
+      "90": "        sp.setShapeId( shapeId );\n",
+      "92": "            sp.setFlags( EscherSpRecord.FLAG_HAVEANCHOR | EscherSpRecord.FLAG_HASSHAPETYPE );\n",
+      "94": "            sp.setFlags( EscherSpRecord.FLAG_CHILD | EscherSpRecord.FLAG_HAVEANCHOR | EscherSpRecord.FLAG_HASSHAPETYPE );\n"
+    }
+  ]
+}

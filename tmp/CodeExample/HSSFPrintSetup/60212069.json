@@ -1,0 +1,12 @@
+{
+  "id": "60212069",
+  "lines": [
+    {
+      "1279": "    HSSFPrintSetup ps = sh.getPrintSetup();\n",
+      "1280": "    float[]sizePage = PrintPagesFormat.get(ps.getPaperSize());\n",
+      "1283": "    if (ps.getLandscape()) baseSizePage = sizePage[0];\n",
+      "1285": "    float scale = ps.getScale() / 100;\n",
+      "1286": "    double l = baseSizePage -(((ps.getFooterMargin()+ps.getHeaderMargin())*Factotr_MM_Inches)+50);\n"
+    }
+  ]
+}

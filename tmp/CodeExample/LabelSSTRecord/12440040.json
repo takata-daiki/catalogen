@@ -1,0 +1,21 @@
+{
+  "id": "12440040",
+  "lines": [
+    {
+      "153": "                    final LabelSSTRecord lrec = (LabelSSTRecord) record;\n",
+      "154": "                    if (lrec.getRow() != 0)\n",
+      "156": "                        if (lrec.getColumn() == 0)\n",
+      "162": "                            final String cellValue = sstrec.getString(lrec.getSSTIndex()).getString();\n",
+      "163": "                            if (lrec.getColumn() == 1)\n",
+      "181": "                            else if (lrec.getColumn() == 2)\n",
+      "196": "                            else if (lrec.getColumn() == 4)\n",
+      "209": "                            else if (lrec.getColumn() == 6)\n",
+      "216": "                            else if (lrec.getColumn() == 7)\n",
+      "222": "                            else if (lrec.getColumn() == 8)\n"
+    },
+    {
+      "243": "    private void evaluateRowType(final LabelSSTRecord lrec)\n",
+      "246": "            sstrec.getString(lrec.getSSTIndex()).getString();\n"
+    }
+  ]
+}

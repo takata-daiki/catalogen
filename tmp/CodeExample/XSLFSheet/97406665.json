@@ -1,0 +1,11 @@
+{
+  "id": "97406665",
+  "lines": [
+    {
+      "1078": "        XSLFSheet masterSheet = _shape.getSheet();\n",
+      "1079": "        while (masterSheet.getMasterSheet() != null){\n",
+      "1080": "            masterSheet = masterSheet.getMasterSheet();\n",
+      "1083": "        XmlObject[] o = masterSheet.getXmlObject().selectPath(\n"
+    }
+  ]
+}
