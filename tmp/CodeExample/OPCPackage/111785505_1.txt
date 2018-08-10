@@ -1,0 +1,3 @@
+                OPCPackage pkg = OPCPackage.open(input.getFile().toString());
+                   pkg.getRelationshipsByType(ExtractorFactory.CORE_DOCUMENT_REL);
+                PackagePart corePart = pkg.getPart(core.getRelationship(0));

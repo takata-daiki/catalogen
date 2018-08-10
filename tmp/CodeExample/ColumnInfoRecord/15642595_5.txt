@@ -1,0 +1,3 @@
+            ColumnInfoRecord nextColumnInfo = (ColumnInfoRecord) records.get( idx + 1 );
+            if (columnInfo.getLastColumn() + 1 == nextColumnInfo.getFirstColumn())
+                if (nextColumnInfo.getOutlineLevel() < level)

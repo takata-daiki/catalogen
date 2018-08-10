@@ -1,0 +1,3 @@
+            Filetime filetime = (Filetime) typedPropertyValue.getValue();
+            return Util.filetimeToDate( (int) filetime.getHigh(),
+                    (int) filetime.getLow() );

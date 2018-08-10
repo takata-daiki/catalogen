@@ -1,0 +1,3 @@
+  protected NotesTables _footnotesTables = new NotesTables( NoteType.FOOTNOTE );
+        _footnotesTables.writeRef( _fib, tableStream );
+        _footnotesTables.writeTxt( _fib, tableStream );

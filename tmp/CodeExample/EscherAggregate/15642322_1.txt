@@ -1,0 +1,2 @@
+        EscherAggregate r = (EscherAggregate) getSheet().findFirstRecordBySid(EscherAggregate.sid);
+        List escherRecords = r.getEscherRecords();

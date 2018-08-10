@@ -1,0 +1,12 @@
+    EscherBSERecord bse = new EscherBSERecord();
+    bse.setRecordId(EscherBSERecord.RECORD_ID);
+    bse.setOptions((short) (0x0002 | (format << 4)));
+    bse.setSize(pict.getRawData().length + 8);
+    bse.setUid(uid);
+    bse.setBlipTypeMacOS((byte) format);
+    bse.setBlipTypeWin32((byte) format);
+      bse.setBlipTypeMacOS((byte) Picture.PICT);
+      bse.setBlipTypeWin32((byte) Picture.WMF);
+    bse.setRef(0);
+    bse.setOffset(offset);
+    bse.setRemainingData(new byte[0]);

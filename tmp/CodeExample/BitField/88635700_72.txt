@@ -1,0 +1,3 @@
+    /**/private static BitField fSuppressTopSPacingMac5 = new BitField(0x00010000);
+        field_33_docinfo4 = (int)fSuppressTopSPacingMac5.setBoolean(field_33_docinfo4, value);
+        return fSuppressTopSPacingMac5.isSet(field_33_docinfo4);

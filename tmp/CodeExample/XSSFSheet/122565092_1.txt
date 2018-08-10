@@ -1,0 +1,6 @@
+      XSSFSheet sheet0 = workbook.getSheetAt(0);
+      XSSFPrintSetup printSetup = sheet0.getPrintSetup();
+      assertEquals( 0.7 / 2.54, sheet0.getMargin( Sheet.LeftMargin ), 0.01 );
+      assertEquals( 0.7 / 2.54, sheet0.getMargin( Sheet.RightMargin ), 0.01 );
+      assertEquals( 1.7 / 2.54, sheet0.getMargin( Sheet.TopMargin ), 0.01 );
+      assertEquals( 1.7 / 2.54, sheet0.getMargin( Sheet.BottomMargin ), 0.01 );

@@ -1,0 +1,2 @@
+        XWPFFooter hdr = getXWPFFooter( footerRef );
+        visitBodyElements( hdr.getBodyElements(), (ExtendedPdfPCell) pdfFooter.getTableCell() );

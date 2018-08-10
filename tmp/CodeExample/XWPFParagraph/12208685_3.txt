@@ -1,0 +1,2 @@
+    protected XWPFStyle getXWPFStyle( XWPFParagraph paragraph )
+        return getXWPFStyle( paragraph.getStyleID() );

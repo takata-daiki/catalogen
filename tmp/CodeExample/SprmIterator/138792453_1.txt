@@ -1,0 +1,3 @@
+    SprmIterator iterator = new SprmIterator(grpprl,0);
+    while (iterator.hasNext())
+      SprmOperation op = iterator.next();

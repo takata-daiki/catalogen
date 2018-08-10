@@ -1,0 +1,3 @@
+           for(Picture picture : pictures) {
+              String extension = picture.suggestFileExtension();
+              TikaInputStream stream = TikaInputStream.get(picture.getContent());

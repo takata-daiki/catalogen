@@ -1,0 +1,6 @@
+            HSSFCellStyle cellStyle = wb.createCellStyle();
+            cellStyle.cloneStyleFrom(cell.getCellStyle());
+            cellStyle.setFont(fontWhiteColor);
+            cellStyle.setBorderTop(HSSFCellStyle.BORDER_NONE);
+            cellStyle.setBorderBottom(HSSFCellStyle.BORDER_NONE);
+            cellStyle.setWrapText(false);

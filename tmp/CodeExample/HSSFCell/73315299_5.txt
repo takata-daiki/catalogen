@@ -1,0 +1,5 @@
+        HSSFCell cell = row.createCell(i);
+        cell.setCellStyle(style2);
+          cell.setCellValue(richString);
+          cell.setCellValue(new HSSFRichTextString(""));
+          cell.setCellFormula(formula);

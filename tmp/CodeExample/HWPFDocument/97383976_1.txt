@@ -1,0 +1,2 @@
+            final HWPFDocument doc = (HWPFDocument) wordDocument;
+            Map<Integer, List<Bookmark>> rangeBookmarks = doc.getBookmarks()

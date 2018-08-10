@@ -1,0 +1,5 @@
+      HSSFPrintSetup printSetup = sheet0.getPrintSetup();
+      assertEquals( HSSFPrintSetup.A4_PAPERSIZE,  printSetup.getPaperSize() );
+      assertEquals( true, printSetup.getLandscape() );
+      assertEquals( 0.7 / 2.54, printSetup.getHeaderMargin(), 0.01 );
+      assertEquals( 0.7 / 2.54, printSetup.getFooterMargin(), 0.01 );

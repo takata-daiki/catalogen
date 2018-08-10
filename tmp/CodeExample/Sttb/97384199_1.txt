@@ -1,0 +1,5 @@
+    private Sttb _hsttbDropList;
+            offset += _hsttbDropList.getSize();
+        return _hsttbDropList.getData();
+            size += _hsttbDropList.getSize();
+            offset += _hsttbDropList.serialize( buffer, offset );

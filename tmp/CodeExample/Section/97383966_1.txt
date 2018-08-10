@@ -1,0 +1,9 @@
+    private static String getSectionStyle( Section section )
+        float leftMargin = section.getMarginLeft() / TWIPS_PER_INCH;
+        float rightMargin = section.getMarginRight() / TWIPS_PER_INCH;
+        float topMargin = section.getMarginTop() / TWIPS_PER_INCH;
+        float bottomMargin = section.getMarginBottom() / TWIPS_PER_INCH;
+        if ( section.getNumColumns() > 1 )
+            style += "column-count: " + ( section.getNumColumns() ) + ";";
+            if ( section.isColumnsEvenlySpaced() )
+                float distance = section.getDistanceBetweenColumns()

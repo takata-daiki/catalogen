@@ -1,0 +1,4 @@
+    private Xstz _xstzExitMcr;
+        offset += this._xstzExitMcr.getSize();
+        size += _xstzExitMcr.getSize();
+        offset += _xstzExitMcr.serialize( buffer, offset );

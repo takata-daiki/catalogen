@@ -1,0 +1,6 @@
+    final HSSFCellStyle bodyCellStyle = workbook.createCellStyle();
+    bodyCellStyle.setFont(bodyCellFont);
+    bodyCellStyle.setBorderLeft(HSSFCellStyle.BORDER_THIN);
+    bodyCellStyle.setLeftBorderColor(HSSFColor.BLACK.index);
+    bodyCellStyle.setBorderRight(HSSFCellStyle.BORDER_THIN);
+    bodyCellStyle.setRightBorderColor(HSSFColor.BLACK.index);

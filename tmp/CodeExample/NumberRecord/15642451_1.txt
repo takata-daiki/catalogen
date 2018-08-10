@@ -1,0 +1,6 @@
+        NumberRecord rec = new NumberRecord();
+        rec.setColumn(getColumn());
+        rec.setRow(getRow());
+        rec.setValue(getRKNumber());
+        rec.setXFIndex(getXFIndex());
+        return rec.serialize(offset, data);

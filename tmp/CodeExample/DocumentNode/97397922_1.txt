@@ -1,0 +1,3 @@
+      DocumentNode doc = (DocumentNode)document;
+    DocumentProperty property = (DocumentProperty)doc.getProperty();
+          ((DirectoryNode)doc.getParent()).getNFileSystem()

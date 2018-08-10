@@ -1,0 +1,2 @@
+    public static StringBuilder getStyle( XWPFTableCell tableCell, CTDocDefaults defaults )
+        CTTcPr tcPr = tableCell.getCTTc().getTcPr();

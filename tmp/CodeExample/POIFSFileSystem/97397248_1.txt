@@ -1,0 +1,3 @@
+  private POIFSFileSystem filesystem;
+      (DocumentEntry)filesystem.getRoot().getEntry("VisioDocument");
+    filesystem.createDocumentInputStream("VisioDocument").read(contents);

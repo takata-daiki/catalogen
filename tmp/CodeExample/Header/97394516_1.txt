@@ -1,0 +1,7 @@
+            Header header = new Header();
+            header.read(rawdata, CHECKSUM_SIZE);
+            is.skip(header.getSize() + CHECKSUM_SIZE);
+            aldus.left = header.bounds.x;
+            aldus.top = header.bounds.y;
+            aldus.right = header.bounds.x + header.bounds.width;
+            aldus.bottom = header.bounds.y + header.bounds.height;

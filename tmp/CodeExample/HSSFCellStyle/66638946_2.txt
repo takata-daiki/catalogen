@@ -1,0 +1,5 @@
+    HSSFCellStyle cellStyle = book.createCellStyle();
+    cellStyle.setWrapText(true);
+    cellStyle.setAlignment(HSSFCellStyle.ALIGN_JUSTIFY);
+    cellStyle.setVerticalAlignment(HSSFCellStyle.VERTICAL_TOP);
+    cellStyle.setFont(font);

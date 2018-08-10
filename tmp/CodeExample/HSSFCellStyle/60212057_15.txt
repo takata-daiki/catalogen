@@ -1,0 +1,3 @@
+            HSSFCellStyle defaultCellStyle2 = wb.createCellStyle();
+            defaultCellStyle2.cloneStyleFrom(distCell.getCellStyle());
+            defaultCellStyle2.setWrapText(false);

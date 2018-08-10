@@ -1,0 +1,4 @@
+      PointerContainingStream pcs = (PointerContainingStream)stream;
+          pcs.getPointedToStreams().length + " children:");
+      for(int i=0; i<pcs.getPointedToStreams().length; i++) {
+        dumpStream(pcs.getPointedToStreams()[i], (indent+1));

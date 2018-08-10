@@ -1,0 +1,3 @@
+        EscherDgRecord dg = (EscherDgRecord) Shape.getEscherChild(dgContainer, EscherDgRecord.RECORD_ID);
+        dg.setOptions((short)(dgId << 4));
+        dg.setNumShapes(1);

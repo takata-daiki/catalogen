@@ -1,0 +1,2 @@
+    HSSFFormulaEvaluator evaluator = new HSSFFormulaEvaluator(wb);
+            obj = getCellValue(evaluator.evaluateInCell(cell), formatter);

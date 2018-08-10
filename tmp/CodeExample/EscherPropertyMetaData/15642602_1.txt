@@ -1,0 +1,2 @@
+        EscherPropertyMetaData o = (EscherPropertyMetaData) properties.get( new Short( propertyId ) );
+        return o == null ? "unknown" : o.getDescription();

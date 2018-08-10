@@ -1,0 +1,3 @@
+    /**/private static final BitField fRMark = new BitField(0x00000100);
+        field_1_grpfChp = fRMark.setBoolean(field_1_grpfChp, value);
+        return fRMark.isSet(field_1_grpfChp);

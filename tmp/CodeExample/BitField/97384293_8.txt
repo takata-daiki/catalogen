@@ -1,0 +1,3 @@
+    /**/private static final BitField fRecalc = new BitField(0x4000);
+        field_2_bits = (short)fRecalc.setBoolean(field_2_bits, value);
+        return fRecalc.isSet(field_2_bits);

@@ -1,0 +1,3 @@
+      HWPFDocument doc = new HWPFDocument(fs);
+      Range range = doc.getRange();
+      doc.write(new FileOutputStream(distFile));

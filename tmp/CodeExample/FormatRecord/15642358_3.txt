@@ -1,0 +1,4 @@
+        FormatRecord rec = new FormatRecord();
+        rec.setIndexCode( maxformatid );
+        rec.setFormatStringLength( (byte) format.length() );
+        rec.setFormatString( format );

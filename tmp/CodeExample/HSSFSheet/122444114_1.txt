@@ -1,0 +1,3 @@
+                final HSSFSheet sheet = createSheet ( events, workbook, columns );
+                    final HSSFRow row = sheet.createRow ( i + 1 );
+                    sheet.autoSizeColumn ( i );

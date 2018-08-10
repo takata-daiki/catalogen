@@ -1,0 +1,4 @@
+    private final XSLFSheet _sheet;
+        _shapes = _sheet.buildShapes(_shape);
+        List<PackagePart>  pics = _sheet.getPackagePart().getPackage()
+        PackageRelationship rel = _sheet.getPackagePart().addRelationship(

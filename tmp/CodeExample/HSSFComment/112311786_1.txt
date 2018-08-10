@@ -1,0 +1,3 @@
+    final HSSFComment comment = patr.createComment(anchor);
+    comment.setString(new HSSFRichTextString(commentString));
+      comment.setAuthor(author);

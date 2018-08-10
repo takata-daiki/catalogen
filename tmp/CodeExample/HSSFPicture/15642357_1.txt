@@ -1,0 +1,3 @@
+        HSSFPicture shape = (HSSFPicture) hssfShape;
+        opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.BLIP__BLIPTODISPLAY, false, true, shape.getPictureIndex() ) );
+        HSSFAnchor userAnchor = shape.getAnchor();

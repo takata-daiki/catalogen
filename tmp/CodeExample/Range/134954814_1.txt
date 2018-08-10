@@ -1,0 +1,2 @@
+                    final Range range = new Range(b.getStart(), b.getEnd(), doc);
+                    range.replaceText(range.text(), CollectableFieldFormat.getInstance(def.getJavaClass()).format(def.getOutputformat(), value));

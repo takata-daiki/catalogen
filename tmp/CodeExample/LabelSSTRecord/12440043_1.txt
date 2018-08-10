@@ -1,0 +1,12 @@
+                    final LabelSSTRecord lrec = (LabelSSTRecord) record;
+                    if (lrec.getRow() == 0)
+                        if (lrec.getColumn() == 0) {
+                                sstrec.getString(lrec.getSSTIndex()).getString();
+                        else if (lrec.getColumn() == 1) {
+                                    sstrec.getString(lrec.getSSTIndex()).getString());
+                        else if (lrec.getColumn() == 2) {
+                            String name = sstrec.getString(lrec.getSSTIndex()).getString();
+                        else if (lrec.getColumn() == 3) {
+                                languages.get(lrec.getColumn()-4);
+                            String value = sstrec.getString(lrec.getSSTIndex()).getString();
+                        if (isLastColumn(lrec.getColumn())) {

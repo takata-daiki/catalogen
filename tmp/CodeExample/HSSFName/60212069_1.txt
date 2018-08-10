@@ -1,0 +1,3 @@
+    HSSFName nameRange =  wb.createName();
+    nameRange.setNameName(name);
+    nameRange.setRefersToFormula(refersToR1C1);

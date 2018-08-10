@@ -1,0 +1,2 @@
+    XWPFWordExtractor extractor = new XWPFWordExtractor(docx);
+    return extractor.getText().toCharArray();

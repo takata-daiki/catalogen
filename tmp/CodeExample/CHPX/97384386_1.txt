@@ -1,0 +1,4 @@
+        for ( CHPX chpx : _doc.getCharacterTable().getTextRuns() )
+                System.out.println( chpx.getCharacterProperties(
+                SprmIterator sprmIt = new SprmIterator( chpx.getGrpprl(), 0 );
+                String text = new Range( chpx.getStart(), chpx.getEnd(),

@@ -1,0 +1,3 @@
+                 EscherBlipRecord blip = ((EscherBSERecord) escherRecord).getBlipRecord();
+                    switch (blip.getRecordId()) {
+                    TikaInputStream stream = TikaInputStream.get(blip.getPicturedata());

@@ -1,0 +1,2 @@
+        XWPFPictureData pictureData = XWPFPictureUtil.getPictureData( document, blipId );
+                Image img = Image.getInstance( pictureData.getData() );

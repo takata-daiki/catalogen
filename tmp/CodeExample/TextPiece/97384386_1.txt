@@ -1,0 +1,2 @@
+        for ( TextPiece textPiece : _doc.getTextTable().getTextPieces() )
+                System.out.println( "\t" + textPiece.getStringBuilder() );

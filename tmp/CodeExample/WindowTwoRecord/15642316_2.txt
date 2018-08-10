@@ -1,0 +1,3 @@
+        WindowTwoRecord windowTwo = (WindowTwoRecord) clonedSheet.getSheet().findFirstRecordBySid(WindowTwoRecord.sid);
+        windowTwo.setSelected(sheets.size() == 1);
+        windowTwo.setPaged(sheets.size() == 1);

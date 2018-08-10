@@ -1,0 +1,2 @@
+        FontDetails d = StaticFontMetrics.getFontDetails( excelFont );
+        int width = (int) ( (d.getStringWidth( str ) * 8)  + 12 );

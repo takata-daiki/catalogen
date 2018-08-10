@@ -39,21 +39,15 @@ def extract(classname, dic):
             continue
 
         # Now, the instance should be determined whether it is function arguments or not
-        isArgs = False
-        for t in range(len(dic)):
-            if s >= t:
-                continue
-            if dic[t][0] == ';':
-                break
-            if dic[t][0] == ')':
-                isArgs = True
-                break
-
-        # # If the instance is not initialized, search a statement of initialization
-        # tokens = set([keyS])
-        # instancename = valueS[0]
-        # for keyC, valueC in dic.items():
-        #     if keyS >= keyC:
+        # isArgs = False
+        # for t in range(len(dic)):
+        #     if s >= t:
+        #         continue
+        #     if dic[t][0] == ';':
+        #         break
+        #     if dic[t][0] == ')':
+        #         isArgs = True
+        #         break
 
         # The following <Identifier> is specified with 'classname <Identifier>'
         # Find all instance methods
@@ -70,7 +64,7 @@ def extract(classname, dic):
             if dic[t][0] == instancename and dic[t + 1][0] == '.':
                 tokenNum.add(t)
 
-        # Search lines including the instane methods
+        # Search lines including the instance methods
         lineNum = set([dic[s][2]])
         for n in tokenNum:
             lineNum.add(dic[n][2])
@@ -87,7 +81,8 @@ def extract(classname, dic):
         #             lineNum.add(dic[i][2])
         #             break
 
-        catalog.append(list(lineNum))
+        if len(lineNum) >= 2:
+            catalog.append(list(lineNum))
 
     # print(catalog)
     return catalog
@@ -115,9 +110,14 @@ def setter(catalog, classname, idname):
             lines[v[0]] = v[1]
         jsn['lines'].append(lines)
 
-    os.makedirs('CodeExample/' + classname, exist_ok=True)
-    with open('CodeExample/{}/{}.json'.format(classname, idname), 'w') as f:
-        json.dump(jsn, f, indent=2)
+    if jsn['lines']:
+        os.makedirs('CodeExample/' + classname, exist_ok=True)
+    # with open('CodeExample/{}/{}.json'.format(classname, idname), 'w') as f:
+    #     json.dump(jsn, f, indent=2)
+    for idx, val in enumerate(jsn['lines']):
+        with open('CodeExample/{}/{}_{}.txt'.format(classname, idname, idx + 1), 'w') as f:
+            for v in val.values():
+                f.write(v)
     # print('\n')
 
 

@@ -1,0 +1,2 @@
+    HSSFRichTextString(Workbook book, LabelSSTRecord record) {
+      this.string = book.getSSTString(record.getSSTIndex());

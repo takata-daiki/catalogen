@@ -1,0 +1,5 @@
+  public static String cellToString(HSSFCell cell) {
+      int type = cell.getCellType();
+              result = cell.getNumericCellValue();
+              result = cell.getStringCellValue();
+              result = cell.getBooleanCellValue();

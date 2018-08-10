@@ -1,0 +1,3 @@
+        HWPFDocument document = (HWPFDocument) _doc;
+        if ( document.getOfficeDrawingsHeaders() != null )
+            for ( OfficeDrawing officeDrawing : document

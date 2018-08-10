@@ -1,0 +1,3 @@
+      XSSFName name = workbook.getName( XSSFName.BUILTIN_FILTER_DB );
+      assertEquals( 0, name.getSheetIndex() );
+      assertEquals( "Sheet0!$A$2:$M$124", name.getRefersToFormula() );

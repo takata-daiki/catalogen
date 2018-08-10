@@ -1,0 +1,2 @@
+            EscherRecord r = iterator.next();
+            pos += r.serialize(pos, data, listener );

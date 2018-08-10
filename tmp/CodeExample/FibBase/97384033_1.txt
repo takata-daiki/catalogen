@@ -1,0 +1,5 @@
+    private FibBase _fibBase;
+        if ( _fibBase.isFEncrypted() )
+        if ( _fibBase.getNFib() < 105 )
+            return _fibBase.getNFib();
+        _fibBase.serialize( mainStream, 0 );

@@ -1,0 +1,6 @@
+    XSSFSheet sheet = wb.createSheet();
+    List<XSSFDataValidation> dataValidations = sheet.getDataValidations();  //<-- works
+    sheet.createRow(0).createCell(0);    
+    DataValidationHelper dataValidationHelper = sheet.getDataValidationHelper();
+    sheet.addValidationData(validation);          
+    dataValidations = sheet.getDataValidations();  //<-- raised XmlValueOutOfRangeException  

@@ -1,0 +1,5 @@
+    protected SelectionRecord            selection         =     null;
+        return selection.getActiveCellRow();
+            selection.setActiveCellRow(row);
+        return selection.getActiveCellCol();
+            selection.setActiveCellCol(col);

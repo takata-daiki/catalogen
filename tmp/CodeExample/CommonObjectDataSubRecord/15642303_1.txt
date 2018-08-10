@@ -1,0 +1,3 @@
+                   CommonObjectDataSubRecord cmo = (CommonObjectDataSubRecord)sub;
+                   if (cmo.getObjectType() == CommonObjectDataSubRecord.OBJECT_TYPE_COMMENT){
+                               txshapes.put(new Integer(cmo.getObjectId()), rec);

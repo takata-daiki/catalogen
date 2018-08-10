@@ -1,0 +1,5 @@
+    private int savePlex( FileInformationBlock fib, FieldsDocumentPart part,
+            fib.setFieldsPlcfOffset( part, outputStream.getOffset() );
+            fib.setFieldsPlcfLength( part, 0 );
+        fib.setFieldsPlcfOffset( part, start );
+        fib.setFieldsPlcfLength( part, length );

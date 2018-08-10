@@ -1,0 +1,3 @@
+    public BlockAllocationTableReader(POIFSBigBlockSize bigBlockSize, int block_count, int [] block_array,
+            int max_entries_per_block = bigBlockSize.getXBATEntriesPerBlock(); 
+            int chain_index_offset    = bigBlockSize.getNextXBATChainOffset(); 

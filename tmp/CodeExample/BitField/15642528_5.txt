@@ -1,0 +1,3 @@
+    private BitField          displayZeros            = BitFieldFactory.getInstance(0x10);
+        field_1_options = displayZeros.setShortBoolean(field_1_options, zeros);
+        return displayZeros.isSet(field_1_options);

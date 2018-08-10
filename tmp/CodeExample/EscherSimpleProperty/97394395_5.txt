@@ -1,0 +1,2 @@
+        EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.TEXT__TEXTTOP);
+        int val = prop == null ? EMU_PER_INCH/20 : prop.getPropertyValue();

@@ -1,0 +1,3 @@
+            PackagePart p = getSheet().getPackagePart();
+            PackageRelationship rel = p.getRelationship(blipId);
+                    PackagePart imgPart = p.getRelatedPart(rel);

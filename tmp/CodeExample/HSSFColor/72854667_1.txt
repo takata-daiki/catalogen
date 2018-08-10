@@ -1,0 +1,2 @@
+    HSSFColor col = translateColour(colour);
+        logger.debug("Cell colour changed to "+col.getHexString()+"with index: "+col.getIndex());

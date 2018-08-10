@@ -1,0 +1,2 @@
+        HSSFRichTextString rich = cell.getRichStringCellValue();
+        return (rich==null)? null: rich.getString();

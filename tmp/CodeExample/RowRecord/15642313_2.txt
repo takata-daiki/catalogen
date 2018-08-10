@@ -1,0 +1,2 @@
+    protected HSSFRow(Workbook book, Sheet sheet, RowRecord record)
+        setRowNum(record.getRowNumber());

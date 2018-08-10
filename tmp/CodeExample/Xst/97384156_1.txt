@@ -1,0 +1,6 @@
+    private Xst _xst;
+        offset += _xst.getSize();
+        return _xst.getAsJavaString();
+        return _xst.getSize() + LittleEndian.SHORT_SIZE;
+        _xst.serialize( data, offset );
+        return "[Xstz]" + _xst.getAsJavaString() + "[/Xstz]";

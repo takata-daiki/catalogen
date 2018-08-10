@@ -1,0 +1,4 @@
+                PackageRelationshipCollection core = 
+                if(core.size() != 1) {
+                   throw new IOException("Invalid OOXML Package received - expected 1 core document, found " + core.size());
+                PackagePart corePart = pkg.getPart(core.getRelationship(0));

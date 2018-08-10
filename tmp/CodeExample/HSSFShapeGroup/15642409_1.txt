@@ -1,0 +1,7 @@
+    private void convertGroup( HSSFShapeGroup shape, EscherContainerRecord escherParent, Map shapeToObj )
+        spgr.setRectX1( shape.getX1() );
+        spgr.setRectY1( shape.getY1() );
+        spgr.setRectX2( shape.getX2() );
+        spgr.setRectY2( shape.getY2() );
+        if (shape.getAnchor() instanceof HSSFClientAnchor)
+        anchor = ConvertAnchor.createAnchor( shape.getAnchor() );

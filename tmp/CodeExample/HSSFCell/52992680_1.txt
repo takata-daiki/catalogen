@@ -1,0 +1,5 @@
+    protected Object getCellString(HSSFCell cell) {
+            int cellType = cell.getCellType();
+                result = cell.getRichStringCellValue().getString();
+                result = cell.getNumericCellValue();
+                result = cell.getBooleanCellValue();

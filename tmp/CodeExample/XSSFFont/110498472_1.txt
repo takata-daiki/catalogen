@@ -1,0 +1,8 @@
+    XSSFFont font = newStyle.getFont();
+    if (font.getBold())
+    if (font.getItalic())
+    if (font.getUnderline() != XSSFFont.U_NONE)
+    if (font.getFontHeight() != XSSFFont.DEFAULT_FONT_SIZE)
+    if (!font.getFontName().equals(XSSFFont.DEFAULT_FONT_NAME))
+    if (font.getColor() != XSSFFont.DEFAULT_FONT_COLOR) {
+      String colorString = getRGBString(font.getXSSFColor());

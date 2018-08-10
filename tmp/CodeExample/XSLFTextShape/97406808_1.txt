@@ -1,0 +1,4 @@
+            XSLFTextShape shape = _p.getParentShape();
+            ok = shape.fetchShapeProperty(fetcher);
+                CTPlaceholder ph = shape.getCTPlaceholder();
+                    XMLSlideShow ppt = shape.getSheet().getSlideShow();

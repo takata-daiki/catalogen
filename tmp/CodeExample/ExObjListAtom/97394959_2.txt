@@ -1,0 +1,3 @@
+    ExObjListAtom objAtom = lst.getExObjListAtom();
+    int objectId = (int) objAtom.getObjectIDSeed() + 1;
+    objAtom.setObjectIDSeed(objectId);

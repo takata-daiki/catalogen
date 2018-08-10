@@ -1,0 +1,2 @@
+  public static void setRowHeight(HSSFSheet sh, AreaReference area, short height){
+    for(int row = area.getFirstCell().getRow(); row <= area.getLastCell().getRow(); row++)

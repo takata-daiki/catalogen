@@ -1,0 +1,3 @@
+            TableRow tableRow = table.getRow( r );
+            for ( int c = 0; c < tableRow.numCells(); c++ )
+                TableCell tableCell = tableRow.getCell( c );

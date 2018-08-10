@@ -1,0 +1,2 @@
+    protected POILogger logger = POILogFactory.getLogger(this.getClass());
+            logger.log(POILogger.WARN, "ImageIO failed to create image. image.type: " + pict.getType());

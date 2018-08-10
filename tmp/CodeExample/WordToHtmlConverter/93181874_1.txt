@@ -1,0 +1,3 @@
+    WordToHtmlConverter wordToHtmlConverter = new WordToHtmlConverter(DocumentBuilderFactory.newInstance().newDocumentBuilder().newDocument());
+    wordToHtmlConverter.processDocument(wordDocument);
+    Document htmlDocument = wordToHtmlConverter.getDocument();

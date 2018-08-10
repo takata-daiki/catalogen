@@ -1,0 +1,9 @@
+            CharacterRun characterRun = range.getCharacterRun( c );
+                processImage( block, characterRun.text().charAt( 0 ) == 0x01,
+            String text = characterRun.text();
+            if ( characterRun.isSpecialCharacter() )
+                if ( characterRun.isOle2()
+                if ( characterRun.isSymbol()
+                                    characterRun.getStartOffset() );
+            if ( characterRun.isSpecialCharacter() || characterRun.isObj()
+                    || characterRun.isOle2() )

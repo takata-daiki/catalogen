@@ -1,0 +1,3 @@
+    public int serialize(int offset, byte [] data, ValueRecordsAggregate cells)
+            if (null != cells && cells.rowHasCells(row)) {
+              final int rowCellSize = cells.serializeCellRow(row, pos, data);

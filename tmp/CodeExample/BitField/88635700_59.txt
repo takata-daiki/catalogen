@@ -1,0 +1,3 @@
+    /**/private static BitField iGutterPos = new BitField(0x8000);
+        field_32_view = (short)iGutterPos.setBoolean(field_32_view, value);
+        return iGutterPos.isSet(field_32_view);

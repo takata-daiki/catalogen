@@ -1,0 +1,5 @@
+        EscherDgRecord dg = new EscherDgRecord();
+        dg.setRecordId( EscherDgRecord.RECORD_ID );
+        dg.setOptions( (short) ( dgId << 4 ) );
+        dg.setNumShapes( 0 );
+        dg.setLastMSOSPID( -1 );

@@ -1,0 +1,3 @@
+            EscherRecord r = Shape.getEscherChild(getSpContainer(), EscherClientDataRecord.RECORD_ID);
+                byte[] data = r.serialize();
+                r.fillFields(data, 0, new DefaultEscherRecordFactory());

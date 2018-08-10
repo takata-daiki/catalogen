@@ -1,0 +1,2 @@
+    CHPBinTable cbt = new CHPBinTable(header, tableStream, chpOffset, chpSize, fcMin);
+    List textRuns = cbt.getTextRuns();

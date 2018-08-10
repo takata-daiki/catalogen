@@ -1,0 +1,4 @@
+    HSSFPalette palette = workbook.getCustomPalette();
+    HSSFColor result = palette.findColor(rgbByte[0], rgbByte[1], rgbByte[2]);
+        palette.setColorAtIndex(paletteIndex, rgbByte[0], rgbByte[1], rgbByte[2]);
+        result = palette.findSimilarColor(rgbByte[0], rgbByte[1], rgbByte[2]);

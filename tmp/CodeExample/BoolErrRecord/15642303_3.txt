@@ -1,0 +1,5 @@
+                BoolErrRecord errRec = null;
+                errRec.setColumn(col);
+                    errRec.setValue(getErrorCellValue());
+                errRec.setXFIndex(styleIndex);
+                errRec.setRow(row);

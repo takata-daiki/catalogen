@@ -1,0 +1,2 @@
+                EscherProperty p2 = (EscherProperty) o2;
+                return new Short( p1.getPropertyNumber() ).compareTo( new Short( p2.getPropertyNumber() ) );

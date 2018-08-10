@@ -1,0 +1,3 @@
+        EscherBSERecord bse = getEscherBSERecord();
+                if (pict[i].getOffset() ==  bse.getOffset()){
+            logger.log(POILogger.ERROR, "no picture found for our BSE offset " + bse.getOffset());

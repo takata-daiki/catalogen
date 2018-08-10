@@ -1,0 +1,4 @@
+    HSSFFooter footer = sheet.getFooter();
+    footer.setLeft(Env.getStandardReportFooterTrademarkText());
+    footer.setCenter(Env.getHeader(getCtx(), 0));
+    footer.setRight(DisplayType.getDateFormat(DisplayType.DateTime, getLanguage()).format(now));

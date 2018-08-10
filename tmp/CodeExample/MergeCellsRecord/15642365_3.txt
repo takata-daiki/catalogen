@@ -1,0 +1,3 @@
+        MergeCellsRecord rec = (MergeCellsRecord) mergedRecords.get(pos);
+        rec.removeAreaAt(index - startNumRegions);
+        if (rec.getNumAreas() == 0)

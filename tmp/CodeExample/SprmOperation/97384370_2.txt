@@ -1,0 +1,3 @@
+                SprmOperation sprm = sprmIt.next();
+                if ( sprm.getType() == 2 && sprm.getOperation() == 0x30 )
+                    style = Integer.valueOf( sprm.getOperand() );

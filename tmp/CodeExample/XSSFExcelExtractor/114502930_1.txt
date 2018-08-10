@@ -1,0 +1,4 @@
+      XSSFExcelExtractor extractor = new XSSFExcelExtractor((XSSFWorkbook)wb);
+      extractor.setFormulasNotResults(true);
+      extractor.setIncludeSheetNames(false);
+      text = extractor.getText();

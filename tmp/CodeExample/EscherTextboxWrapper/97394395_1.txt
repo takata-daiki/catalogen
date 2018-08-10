@@ -1,0 +1,8 @@
+    protected EscherTextboxWrapper _txtbox;
+            _txtbox.appendChildRecord(tha);
+            _txtbox.appendChildRecord(tca);
+            _txtbox.appendChildRecord(sta);
+            _escherContainer.addChildRecord(_txtbox.getEscherRecord());
+                _txtbox.writeOut(null);
+        _txtbox.appendChildRecord(info);
+        _txtbox.appendChildRecord(txiatom);

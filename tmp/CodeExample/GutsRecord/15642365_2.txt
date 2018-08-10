@@ -1,0 +1,4 @@
+        GutsRecord guts = (GutsRecord) findFirstRecordBySid( GutsRecord.sid );
+        guts.setColLevelMax( (short) ( maxLevel+1 ) );
+            guts.setTopColGutter( (short)0 );
+            guts.setTopColGutter( (short) ( 29 + (12 * (maxLevel-1)) ) );

@@ -1,0 +1,6 @@
+    public POIFSDocumentPath(final POIFSDocumentPath path,
+            this.components = new String[ path.components.length ];
+                new String[ path.components.length + components.length ];
+        for (int j = 0; j < path.components.length; j++)
+            this.components[ j ] = path.components[ j ];
+                this.components[ j + path.components.length ] =

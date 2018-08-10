@@ -1,0 +1,6 @@
+    private EscherGraphics escherGraphics;
+        escherGraphics.drawRect(x,y,width,height);
+        escherGraphics.fillOval(x,y,width,height);
+        escherGraphics.fillPolygon(xPoints, yPoints, nPoints);
+        return escherGraphics.getColor();
+        escherGraphics.setColor(c);

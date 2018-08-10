@@ -1,0 +1,3 @@
+            Decryptor d = Decryptor.getInstance(info); 
+            d.verifyPassword(password); 
+        InputStream is2 = d.getDataStream(fs);

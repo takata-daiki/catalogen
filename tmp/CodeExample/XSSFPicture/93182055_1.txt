@@ -1,0 +1,3 @@
+                    XSSFPicture pic = (XSSFPicture) shape;  
+                    XSSFClientAnchor anchor = pic.getPreferredSize();  
+                    sheetIndexPicMap.put(picIndex, pic.getPictureData());  

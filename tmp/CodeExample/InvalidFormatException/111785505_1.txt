@@ -1,0 +1,2 @@
+             } catch(InvalidFormatException e) {
+                throw new IOException("Office Open XML File detected, but corrupted - " + e.getMessage());

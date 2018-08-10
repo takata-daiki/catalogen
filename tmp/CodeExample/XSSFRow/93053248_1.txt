@@ -1,0 +1,2 @@
+  private void readHeaderRow(XSSFRow row, String type) throws Exception{
+    Iterator<Cell> cellit = row.cellIterator();

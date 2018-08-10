@@ -1,0 +1,3 @@
+    public void writeListDataTo( FileInformationBlock fib,
+        fib.setFcPlfLst( startOffset );
+        fib.setLcbPlfLst( tableStream.getOffset() - startOffset );

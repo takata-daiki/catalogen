@@ -1,0 +1,2 @@
+            for (HSSFShape shape : sheet.getDrawingPatriarch().getChildren()) {  
+                HSSFClientAnchor anchor = (HSSFClientAnchor) shape.getAnchor();  

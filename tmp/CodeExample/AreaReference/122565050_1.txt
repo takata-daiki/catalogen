@@ -1,0 +1,8 @@
+        AreaReference ref = new AreaReference( namedRange.getRefersToFormula() );
+          assertTrue( ref.isSingleCell() );
+          assertEquals( row1, ref.getFirstCell().getRow() );
+          assertEquals( col1, ref.getFirstCell().getCol() );
+          assertEquals( row1, Math.min( ref.getFirstCell().getRow(), ref.getLastCell().getRow() ) );
+          assertEquals( col1, Math.min( ref.getFirstCell().getCol(), ref.getLastCell().getCol() ) );
+          assertEquals( row2, Math.max( ref.getFirstCell().getRow(), ref.getLastCell().getRow() ) );
+          assertEquals( col2, Math.max( ref.getFirstCell().getCol(), ref.getLastCell().getCol() ) );

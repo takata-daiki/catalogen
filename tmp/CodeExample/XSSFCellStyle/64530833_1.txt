@@ -1,0 +1,9 @@
+        XSSFCellStyle xStyle = (XSSFCellStyle)style;
+            xStyle.setBorderTop(xBorderStyle);
+            xStyle.setTopBorderColor(xBorderColour);
+            xStyle.setBorderLeft(xBorderStyle);
+            xStyle.setLeftBorderColor(xBorderColour);
+            xStyle.setBorderRight(xBorderStyle);
+            xStyle.setRightBorderColor(xBorderColour);
+            xStyle.setBorderBottom(xBorderStyle);
+            xStyle.setBottomBorderColor(xBorderColour);

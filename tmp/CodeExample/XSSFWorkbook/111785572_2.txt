@@ -1,0 +1,3 @@
+                XSSFWorkbook document = (XSSFWorkbook) extractor.getDocument();
+                for (int i = 0; i < document.getNumberOfSheets(); i++) {
+                    XSSFSheet sheet = document.getSheetAt(i);

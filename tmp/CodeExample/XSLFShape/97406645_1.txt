@@ -1,0 +1,3 @@
+    void copy(XSLFShape sh) {
+                    "Can't copy " + sh.getClass().getSimpleName() + " into " + getClass().getSimpleName());
+        setAnchor(sh.getAnchor());

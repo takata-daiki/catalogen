@@ -1,0 +1,4 @@
+          HSSFCellStyle cellStyleData = workBook.createCellStyle();
+          cellStyleData.setWrapText(true);
+          cellStyleData.setVerticalAlignment(HSSFCellStyle.ALIGN_JUSTIFY);
+          cellStyleData.setFont(dataCellFont);      

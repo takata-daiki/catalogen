@@ -1,0 +1,7 @@
+  protected ComplexFileTable _cft;
+    TextPieceTable _tpt = _cft.getTextPieceTable();
+            _tpt = _cft.getTextPieceTable();
+    return _cft.getTextPieceTable();
+    _cft.writeTo(wordDocumentStream, tableStream);
+    _cbt.writeTo(wordDocumentStream, tableStream, fcMin, _cft.getTextPieceTable());
+    _pbt.writeTo(wordDocumentStream, tableStream, _cft.getTextPieceTable());

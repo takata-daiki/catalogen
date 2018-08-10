@@ -1,0 +1,6 @@
+      XSSFWorkbook xssfWorkbook = new XSSFWorkbook();
+      XSSFSheet sheet = xssfWorkbook.createSheet("Betreuerinnen");
+      XSSFFont font = xssfWorkbook.createFont();
+      XSSFCellStyle headerStyle = xssfWorkbook.createCellStyle();
+      XSSFCellStyle dataStyle = xssfWorkbook.createCellStyle();
+      xssfWorkbook.write(fileOutputStream);

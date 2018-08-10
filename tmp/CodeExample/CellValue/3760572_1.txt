@@ -1,0 +1,5 @@
+        CellValue obj = evaluator.evaluate(m_cell);
+        switch(obj.getCellType())
+                return Boolean.valueOf(obj.getBooleanValue());
+                return new Double(obj.getNumberValue());
+                return obj.getStringValue();

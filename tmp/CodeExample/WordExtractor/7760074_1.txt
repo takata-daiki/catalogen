@@ -1,0 +1,2 @@
+    WordExtractor extractor = new WordExtractor(fileSystem);
+    outputStream.write(extractor.getText().trim().getBytes());

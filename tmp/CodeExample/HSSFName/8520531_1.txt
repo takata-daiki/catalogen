@@ -1,0 +1,3 @@
+      HSSFName aNamedRage = wb.getNameAt(namedRangeIdx);
+      AreaReference aref = new AreaReference(aNamedRage.getReference());
+      Range redRange = new Range(aNamedRage.getNameName());

@@ -1,0 +1,3 @@
+    /**/private static final BitField fWarichuNoOpenBracket = new BitField(0x08);
+        field_30_copt = (byte)fWarichuNoOpenBracket.setBoolean(field_30_copt, value);
+        return fWarichuNoOpenBracket.isSet(field_30_copt);

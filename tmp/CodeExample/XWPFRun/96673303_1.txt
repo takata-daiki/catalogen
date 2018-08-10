@@ -1,0 +1,3 @@
+    protected void visitRun( XWPFRun run, IITextContainer pdfContainer )
+        CTR ctr = run.getCTR();
+        UnderlinePatterns underlinePatterns = run.getUnderline();

@@ -1,0 +1,3 @@
+        LongField signature = new LongField(_signature_offset, _data);
+        if (signature.get() != _signature)
+                                  + signature.get() + ", expected "

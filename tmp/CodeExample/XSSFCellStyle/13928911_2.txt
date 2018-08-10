@@ -1,0 +1,9 @@
+                    XSSFCellStyle xssfStyle = (XSSFCellStyle)style;
+                        xssfStyle.setBorderTop( borderTop );
+                        xssfStyle.setTopBorderColor( topBorderColor );
+                        xssfStyle.setBorderBottom( borderBottom );
+                        xssfStyle.setBottomBorderColor( bottomBorderColor );
+                        xssfStyle.setBorderLeft( borderLeft );
+                        xssfStyle.setLeftBorderColor( leftBorderColor );
+                        xssfStyle.setBorderRight( borderRight );
+                        xssfStyle.setRightBorderColor( rightBorderColor );

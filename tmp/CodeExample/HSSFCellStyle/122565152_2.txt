@@ -1,0 +1,3 @@
+      HSSFCellStyle cellStyle = (HSSFCellStyle)style;
+        cellStyle.setFillForegroundColor(colourIndex);
+        cellStyle.setFillPattern(CellStyle.SOLID_FOREGROUND);

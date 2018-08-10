@@ -1,0 +1,9 @@
+        TextObjectRecord obj = new TextObjectRecord();
+        obj.setHorizontalTextAlignment( TextObjectRecord.HORIZONTAL_TEXT_ALIGNMENT_LEFT_ALIGNED );
+        obj.setVerticalTextAlignment( TextObjectRecord.VERTICAL_TEXT_ALIGNMENT_TOP );
+        obj.setTextLocked( true );
+        obj.setTextOrientation( TextObjectRecord.TEXT_ORIENTATION_NONE );
+        obj.setFormattingRunLength( (short) frLength );
+        obj.setTextLength( (short) shape.getString().length() );
+        obj.setStr( shape.getString() );
+        obj.setReserved7( 0 );

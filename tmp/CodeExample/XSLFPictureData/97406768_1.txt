@@ -1,0 +1,2 @@
+        XSLFPictureData data = new XSLFPictureData(blipPart, null);
+        int pictureIdx = ppt.addPicture(data.getData(), data.getPictureType());

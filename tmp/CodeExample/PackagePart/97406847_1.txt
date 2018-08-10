@@ -1,0 +1,2 @@
+    public BufferedImage readImage(PackagePart packagePart) throws IOException {
+        return ImageIO.read(packagePart.getInputStream());

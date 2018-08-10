@@ -1,0 +1,3 @@
+    /**/private static BitField fLockRev = new BitField(0x40);
+        field_7_docinfo2 = (byte)fLockRev.setBoolean(field_7_docinfo2, value);
+        return fLockRev.isSet(field_7_docinfo2);

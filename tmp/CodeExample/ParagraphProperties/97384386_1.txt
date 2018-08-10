@@ -1,0 +1,5 @@
+            ParagraphProperties paragraph )
+        if ( paragraph.getIlfo() != 0 )
+            final LFO lfo = listTables.getLfo( paragraph.getIlfo() );
+            final LFOData lfoData = listTables.getLfoData( paragraph.getIlfo() );
+                        paragraph.getIlvl() );

@@ -1,0 +1,11 @@
+    Pointer ptr = stream.getPointer();
+    System.out.println(ind + "Stream at\t" + ptr.getOffset() +
+        " - " + Integer.toHexString(ptr.getOffset()));
+    System.out.println(ind + "  Type is\t" + ptr.getType() +
+        " - " + Integer.toHexString(ptr.getType()));
+    System.out.println(ind + "  Format is\t" + ptr.getFormat() +
+        " - " + Integer.toHexString(ptr.getFormat()));
+    System.out.println(ind + "  Length is\t" + ptr.getLength() +
+        " - " + Integer.toHexString(ptr.getLength()));
+    if(ptr.destinationCompressed()) {
+    System.out.println(ind + "  Compressed is\t" + ptr.destinationCompressed());

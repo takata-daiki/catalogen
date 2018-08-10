@@ -1,0 +1,5 @@
+  private CurrentUserAtom currentUser;
+        _records = read(_docstream, (int)currentUser.getCurrentEditOffset());
+        int oldLastUserEditAtomPos = (int)currentUser.getCurrentEditOffset();
+        currentUser.setCurrentEditOffset(newLastUserEditAtomPos.intValue());
+        currentUser.writeToFS(outFS);

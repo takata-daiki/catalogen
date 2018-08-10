@@ -1,0 +1,2 @@
+        CellReference lastCellReference = areaReference.getLastCell();
+        return new Range(workbook.getSheet(sheetName), firstCellReference.getCol(), firstCellReference.getRow(), lastCellReference.getCol(), lastCellReference.getRow());

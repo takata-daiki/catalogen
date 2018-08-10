@@ -1,0 +1,12 @@
+    protected ValueRecordsAggregate      cells             =     null;
+                    retval.cells.construct( k, recs );
+                records.size(), cells.getPhysicalNumberOfCells(),
+                records.size() + cells.getPhysicalNumberOfCells()
+        return records.size() + cells.getPhysicalNumberOfCells()
+        cellBlockOffset += null == cells ? 0 : cells.getRowCellBlockSize(rows.getStartRowNumberForBlock(block),
+        cells.insertCell(col);
+        cells.removeCell(col);
+        cells.removeCell(newval);
+        cells.insertCell(newval);
+            valueRecIterator = cells.getIterator();
+                if (cells != null && cells.rowHasCells(row.getRowNumber()))

@@ -1,0 +1,3 @@
+  public static void replace(HSSFSheet sh, CellRangeAddress cellsRef, Object valueSearch, Object valueReplace, byte lookIn, XlLookAt lookAt, XlSearchDirection searchDirection){
+    replace(sh, new  AreaReference(new CellReference(cellsRef.getFirstRow(), cellsRef.getFirstColumn()),
+        new CellReference(cellsRef.getLastRow(), cellsRef.getLastColumn())), valueSearch, valueReplace, lookIn, lookAt, searchDirection);

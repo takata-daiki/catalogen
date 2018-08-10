@@ -1,0 +1,4 @@
+    private static int numCol(Table t) {
+    for (int i = 0; i < t.numRows(); i++) {
+      if (t.getRow(i).numCells() > col)
+        col = t.getRow(i).numCells();

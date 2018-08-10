@@ -1,0 +1,5 @@
+    private boolean fetchCharacterProperty(CharacterPropertyFetcher fetcher){
+        if(_r.isSetRPr()) ok = fetcher.fetch(getRPr());
+                        fetcher.isFetchingFromMaster = true;
+                        ok = fetcher.fetch(themeProps);
+                        ok = fetcher.fetch(defaultProps);

@@ -1,0 +1,3 @@
+      CellRangeAddress rangeRef = sh.getMergedRegion(i);
+      if (cellRef.getCol() >= rangeRef.getFirstColumn()  && cellRef.getCol() <= rangeRef.getLastColumn() &&
+        cellRef.getRow() >= rangeRef.getFirstRow()  && cellRef.getRow() <= rangeRef.getLastRow()){

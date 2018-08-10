@@ -1,0 +1,3 @@
+        DrawingGroupRecord r = (DrawingGroupRecord) workbook.findFirstRecordBySid( DrawingGroupRecord.sid );
+        r.decode();
+        List escherRecords = r.getEscherRecords();

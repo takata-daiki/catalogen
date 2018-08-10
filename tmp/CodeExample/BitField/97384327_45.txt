@@ -1,0 +1,3 @@
+    /**/private static final BitField fCellFitText = new BitField(0x40);
+        field_30_copt = (byte)fCellFitText.setBoolean(field_30_copt, value);
+        return fCellFitText.isSet(field_30_copt);

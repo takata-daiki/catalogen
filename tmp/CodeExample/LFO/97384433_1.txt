@@ -1,0 +1,4 @@
+    private LFO _lfo;
+        _lfo.setLsid( _listData.getLsid() );
+        _listData = listTables.getListData( _lfo.getLsid() );
+        return _lfo.getLsid();

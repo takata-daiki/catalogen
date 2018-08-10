@@ -1,0 +1,4 @@
+                BOFRecord bof = (BOFRecord) record;
+                if (bof.getType() == BOFRecord.TYPE_WORKBOOK) {
+                } else if (bof.getType() == BOFRecord.TYPE_CHART) {
+                } else if (bof.getType() == BOFRecord.TYPE_WORKSHEET) {

@@ -1,0 +1,3 @@
+        XMLSlideShow ppt = new XMLSlideShow(getClass().getResourceAsStream("/marketing_template.pptx"));
+        Arrays.stream(ppt.getSlides()).forEach(reportSettings::fillBackgroundAndIncrementIndex);
+        ppt.write(outputStream);

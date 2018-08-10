@@ -1,0 +1,2 @@
+    public static StringBuilder getStyle( XWPFDocument document, CTDocDefaults defaults )
+        CTSectPr sectPr = document.getDocument().getBody().getSectPr();

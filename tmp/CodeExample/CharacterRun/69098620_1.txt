@@ -1,0 +1,3 @@
+        CharacterRun run = range.getCharacterRun(i);
+        String text = run.text();
+          run.replaceText(map.get(text), true);

@@ -1,0 +1,15 @@
+            Picture picture, String imageSourcePath )
+        final int aspectRatioX = picture.getHorizontalScalingFactor();
+        final int aspectRatioY = picture.getVerticalScalingFactor();
+            imageWidth = picture.getDxaGoal() * aspectRatioX / 1000
+            cropRight = picture.getDxaCropRight() * aspectRatioX / 1000
+            cropLeft = picture.getDxaCropLeft() * aspectRatioX / 1000
+            imageWidth = picture.getDxaGoal() / TWIPS_PER_INCH;
+            cropRight = picture.getDxaCropRight() / TWIPS_PER_INCH;
+            cropLeft = picture.getDxaCropLeft() / TWIPS_PER_INCH;
+            imageHeight = picture.getDyaGoal() * aspectRatioY / 1000
+            cropTop = picture.getDyaCropTop() * aspectRatioY / 1000
+            cropBottom = picture.getDyaCropBottom() * aspectRatioY / 1000
+            imageHeight = picture.getDyaGoal() / TWIPS_PER_INCH;
+            cropTop = picture.getDyaCropTop() / TWIPS_PER_INCH;
+            cropBottom = picture.getDyaCropBottom() / TWIPS_PER_INCH;

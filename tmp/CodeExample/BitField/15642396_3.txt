@@ -1,0 +1,4 @@
+    private BitField          sharedFormula = BitFieldFactory.getInstance(0x0008);    
+        return sharedFormula.isSet(field_5_options);
+      sharedFormula.setBoolean(field_5_options, flag);
+            buffer.append("      .sharedFormula         = ").append(sharedFormula.isSet(getOptions()))

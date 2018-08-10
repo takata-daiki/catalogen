@@ -1,0 +1,3 @@
+    /**/private static BitField rncFtn = new BitField(0x0003);
+        field_3_footnoteInfo = (short)rncFtn.setValue(field_3_footnoteInfo, value);
+        return ( byte )rncFtn.getValue(field_3_footnoteInfo);

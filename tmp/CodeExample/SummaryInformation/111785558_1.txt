@@ -1,0 +1,20 @@
+    private void parse(SummaryInformation summary) {
+        set(Metadata.TITLE, summary.getTitle());
+        set(Metadata.AUTHOR, summary.getAuthor());
+        set(Metadata.KEYWORDS, summary.getKeywords());
+        set(Metadata.SUBJECT, summary.getSubject());
+        set(Metadata.LAST_AUTHOR, summary.getLastAuthor());
+        set(Metadata.COMMENTS, summary.getComments());
+        set(Metadata.TEMPLATE, summary.getTemplate());
+        set(Metadata.APPLICATION_NAME, summary.getApplicationName());
+        set(Metadata.REVISION_NUMBER, summary.getRevNumber());
+        set(Metadata.CREATION_DATE, summary.getCreateDateTime());
+        set(Metadata.CHARACTER_COUNT, summary.getCharCount());
+        set(Metadata.EDIT_TIME, summary.getEditTime());
+        set(Metadata.LAST_SAVED, summary.getLastSaveDateTime());
+        set(Metadata.PAGE_COUNT, summary.getPageCount());
+        if (summary.getPageCount() > 0) {
+            metadata.set(PagedText.N_PAGES, summary.getPageCount());
+        set(Metadata.SECURITY, summary.getSecurity());
+        set(Metadata.WORD_COUNT, summary.getWordCount());
+        set(Metadata.LAST_PRINTED, summary.getLastPrinted());

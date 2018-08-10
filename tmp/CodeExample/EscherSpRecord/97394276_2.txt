@@ -1,0 +1,3 @@
+        EscherSpRecord spRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);
+        spRecord.setShapeType( (short) type );
+        spRecord.setVersion( (short) 0x2 );

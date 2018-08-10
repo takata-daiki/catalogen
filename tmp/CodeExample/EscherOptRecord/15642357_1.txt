@@ -1,0 +1,3 @@
+        EscherOptRecord opt = new EscherOptRecord();
+        opt.setRecordId( EscherOptRecord.RECORD_ID );
+        opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.BLIP__BLIPTODISPLAY, false, true, shape.getPictureIndex() ) );

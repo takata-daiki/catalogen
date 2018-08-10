@@ -1,0 +1,3 @@
+    protected void visitParagraphBody( XWPFParagraph paragraph, int index, T paragraphContainer )
+        List<XWPFRun> runs = paragraph.getRuns();
+        CTPPr ppr = paragraph.getCTP().getPPr();

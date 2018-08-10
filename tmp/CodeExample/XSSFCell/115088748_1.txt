@@ -1,0 +1,3 @@
+                final XSSFCell xssfCell = xssfHeaderRow.createCell(information.getSpaltenNr());
+                xssfCell.setCellValue(information.getSpaltenName());
+                xssfCell.setCellType(XSSFCell.CELL_TYPE_STRING);

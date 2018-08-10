@@ -1,0 +1,7 @@
+  private void extractFooters(final StringBuilder buffy, final XWPFHeaderFooterPolicy hfPolicy) {
+    if (hfPolicy.getFirstPageFooter() != null) {
+      buffy.append(hfPolicy.getFirstPageFooter().getText()).append(' ');
+    if (hfPolicy.getEvenPageFooter() != null) {
+      buffy.append(hfPolicy.getEvenPageFooter().getText()).append(' ');
+    if (hfPolicy.getDefaultFooter() != null) {
+      buffy.append(hfPolicy.getDefaultFooter().getText()).append(' ');

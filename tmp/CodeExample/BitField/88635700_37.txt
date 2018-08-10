@@ -1,0 +1,3 @@
+    /**/private static BitField oldfMapPrintTextColor = new BitField(0x0010);
+        field_8_docinfo3 = (short)oldfMapPrintTextColor.setBoolean(field_8_docinfo3, value);
+        return oldfMapPrintTextColor.isSet(field_8_docinfo3);

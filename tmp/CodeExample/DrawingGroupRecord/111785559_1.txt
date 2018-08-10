@@ -1,0 +1,3 @@
+            for(DrawingGroupRecord dgr : drawingGroups) {
+               dgr.decode();
+               findPictures(dgr.getEscherRecords());

@@ -1,0 +1,6 @@
+        final HSSFPrintSetup printSetup = sheet.getPrintSetup ();
+        printSetup.setLandscape ( true );
+        printSetup.setFitWidth ( (short)1 );
+        printSetup.setFitHeight ( (short)0 );
+        printSetup.setPaperSize ( PrintSetup.A4_PAPERSIZE );
+        printSetup.setFooterMargin ( 0.25 );

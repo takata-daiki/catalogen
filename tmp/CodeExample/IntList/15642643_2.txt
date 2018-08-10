@@ -1,0 +1,6 @@
+    public boolean addAll(final IntList c)
+        if (c._limit != 0)
+            if ((_limit + c._limit) > _array.length)
+                growArray(_limit + c._limit);
+            System.arraycopy(c._array, 0, _array, _limit, c._limit);
+            _limit += c._limit;

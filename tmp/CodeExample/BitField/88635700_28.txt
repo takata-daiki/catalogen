@@ -1,0 +1,3 @@
+    /**/private static BitField fRMView = new BitField(0x08);
+        field_7_docinfo2 = (byte)fRMView.setBoolean(field_7_docinfo2, value);
+        return fRMView.isSet(field_7_docinfo2);

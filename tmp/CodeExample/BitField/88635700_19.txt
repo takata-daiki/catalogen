@@ -1,0 +1,3 @@
+    /**/private static BitField fPagHidden = new BitField(0x04);
+        field_6_docinfo1 = (byte)fPagHidden.setBoolean(field_6_docinfo1, value);
+        return fPagHidden.isSet(field_6_docinfo1);

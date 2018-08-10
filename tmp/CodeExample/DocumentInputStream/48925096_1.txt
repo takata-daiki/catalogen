@@ -1,0 +1,4 @@
+    DocumentInputStream din = fsys.createDocumentInputStream("WordDocument");
+    din.read(header);
+    din.close();
+    din.read(tableStream);

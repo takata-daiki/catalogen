@@ -1,0 +1,4 @@
+    protected void dumpParagraphLevels( ListTables listTables,
+            final LFO lfo = listTables.getLfo( paragraph.getIlfo() );
+            final LFOData lfoData = listTables.getLfoData( paragraph.getIlfo() );
+                final ListLevel listLevel = listTables.getLevel( lfo.getLsid(),

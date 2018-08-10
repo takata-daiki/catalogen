@@ -1,0 +1,5 @@
+                ColumnInfoRecord nci = ( ColumnInfoRecord ) createColInfo();
+                nci.setFirstColumn(column);
+                nci.setLastColumn(column);
+                nci.setOptions(ci.getOptions());
+                nci.setXFIndex(ci.getXFIndex());

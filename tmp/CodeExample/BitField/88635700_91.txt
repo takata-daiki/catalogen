@@ -1,0 +1,3 @@
+    /**/private static BitField fVirusLoadSafe = new BitField(0x0002);
+        field_43_virusinfo = (int)fVirusLoadSafe.setBoolean(field_43_virusinfo, value);
+        return fVirusLoadSafe.isSet(field_43_virusinfo);

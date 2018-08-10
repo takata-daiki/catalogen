@@ -1,0 +1,2 @@
+    /*package*/ XSLFDrawing(XSLFSheet sheet, CTGroupShape spTree){
+        XmlObject[] cNvPr = sheet.getSpTree().selectPath(

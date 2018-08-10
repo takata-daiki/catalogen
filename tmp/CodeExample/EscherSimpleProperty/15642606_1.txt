@@ -1,0 +1,3 @@
+        final EscherSimpleProperty escherSimpleProperty = (EscherSimpleProperty) o;
+        if ( propertyValue != escherSimpleProperty.propertyValue ) return false;
+        if ( getId() != escherSimpleProperty.getId() ) return false;

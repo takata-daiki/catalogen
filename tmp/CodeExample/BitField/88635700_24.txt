@@ -1,0 +1,3 @@
+    /**/private static BitField fDfltTrueType = new BitField(0x80);
+        field_6_docinfo1 = (byte)fDfltTrueType.setBoolean(field_6_docinfo1, value);
+        return fDfltTrueType.isSet(field_6_docinfo1);

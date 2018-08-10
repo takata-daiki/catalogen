@@ -1,0 +1,6 @@
+            AreaReference aref = new AreaReference(nm.getRefersToFormula());
+            band.c1 = aref.getFirstCell().getCol();
+            band.c2 = aref.getLastCell().getCol();
+            band.r1 = aref.getFirstCell().getRow();
+            band.r2 = aref.getLastCell().getRow();
+            band.wholeCols = aref.isWholeColumnReference();

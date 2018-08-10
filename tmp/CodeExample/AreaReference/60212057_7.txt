@@ -1,0 +1,3 @@
+      AreaReference areaDataBeg = new AreaReference(nameDataBeg.getRefersToFormula());
+      name_WorkSheet  =  areaDataBeg.getFirstCell().getSheetName();
+      rowWork = areaDataBeg.getFirstCell().getRow();

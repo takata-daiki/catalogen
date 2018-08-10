@@ -1,0 +1,3 @@
+    /**/private static BitField epc = new BitField(0x0003);
+        field_24_Edn1 = (short)epc.setValue(field_24_Edn1, value);
+        return ( byte )epc.getValue(field_24_Edn1);

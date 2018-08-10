@@ -1,0 +1,3 @@
+        private void internalProcessRecord(Record record) throws SAXException, TikaException, IOException {
+            switch (record.getSid()) {
+            previousSid = record.getSid();

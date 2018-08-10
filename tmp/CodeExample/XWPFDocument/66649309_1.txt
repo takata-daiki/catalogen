@@ -1,0 +1,4 @@
+        XWPFDocument doc = new XWPFDocument(fs);
+        for (int i = 0; i < doc.getParagraphs().size(); i++) {
+            XWPFParagraph paragraph = doc.getParagraphs().get(i);
+            doc.write(new FileOutputStream("/home/nickl/virtualshared/230700.62-01(0)-1 Информатика и программирование2.docx"));

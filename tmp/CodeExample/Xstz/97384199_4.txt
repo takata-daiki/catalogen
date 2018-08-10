@@ -1,0 +1,4 @@
+    private Xstz _xstzName;
+        offset += this._xstzName.getSize();
+        size += _xstzName.getSize();
+        offset += _xstzName.serialize( buffer, offset );

@@ -1,0 +1,7 @@
+        XSLFSimpleShape s = (XSLFSimpleShape)sh;
+        Color srsSolidFill = s.getFillColor();
+            String relId = getSheet().importBlip(blipId, s.getSheet().getPackagePart());
+        Color srcLineColor = s.getLineColor();
+        double srcLineWidth = s.getLineWidth();
+        LineDash srcLineDash = s.getLineDash();
+        LineCap srcLineCap = s.getLineCap();

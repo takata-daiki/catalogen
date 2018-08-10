@@ -1,0 +1,8 @@
+    HSSFCellStyle style = workbook.createCellStyle();
+    style.setFillForegroundColor(fillForegroundColor);
+    style.setFillPattern(fillPattern);
+    style.setBorderBottom(borderBottom);
+    style.setBorderLeft(borderleft);
+    style.setBorderRight(borderright);
+    style.setBorderTop(bordertop);
+    style.setAlignment(alignment);

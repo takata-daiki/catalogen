@@ -1,0 +1,5 @@
+        HeaderBlockWriter header_block_writer = new HeaderBlockWriter(bigBlockSize);
+            header_block_writer.setBATBlocks(bat.countBlocks(),
+        header_block_writer.setPropertyStart(_property_table.getStartBlock());
+        header_block_writer.setSBATStart(sbtw.getSBAT().getStartBlock());
+        header_block_writer.setSBATBlockCount(sbtw.getSBATBlockCount());

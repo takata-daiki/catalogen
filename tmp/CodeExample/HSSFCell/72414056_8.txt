@@ -1,0 +1,2 @@
+    HSSFCell cell = row.getCell((short) 0);
+    assertEquals("Test Template auf Deutsch", cell.getStringCellValue());

@@ -1,0 +1,2 @@
+  public SheetBuilderBase(final HSSFWorkbook workbook, final String sheetName) {
+    sheet = workbook.createSheet(sheetName);

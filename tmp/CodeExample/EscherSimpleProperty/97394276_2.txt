@@ -1,0 +1,2 @@
+        EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, propId);
+        return prop == null ? defaultValue : prop.getPropertyValue();

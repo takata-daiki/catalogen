@@ -1,0 +1,3 @@
+        (final UnsupportedVariantTypeException ex)
+            Long vt = new Long(ex.getVariantType());
+                System.err.println(ex.getMessage());

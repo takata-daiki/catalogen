@@ -1,0 +1,12 @@
+        final HSSFSheet sheet = workbook.createSheet ( Messages.ExportImpl_ExcelSheet_Name );
+        final HSSFHeader header = sheet.getHeader ();
+        final HSSFFooter footer = sheet.getFooter ();
+        final HSSFPrintSetup printSetup = sheet.getPrintSetup ();
+        sheet.setAutoFilter ( new CellRangeAddress ( 0, 0, 0, columns.size () - 1 ) );
+        sheet.createFreezePane ( 0, 1 );
+        sheet.setFitToPage ( true );
+        sheet.setAutobreaks ( true );
+        sheet.setMargin ( Sheet.LeftMargin, 0.25 );
+        sheet.setMargin ( Sheet.RightMargin, 0.25 );
+        sheet.setMargin ( Sheet.TopMargin, 0.25 );
+        sheet.setMargin ( Sheet.BottomMargin, 0.5 );

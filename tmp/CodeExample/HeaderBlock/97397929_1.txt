@@ -1,0 +1,9 @@
+        HeaderBlock header_block;
+            bigBlockSize = header_block.getBigBlockSize();
+        new BlockAllocationTableReader(header_block.getBigBlockSize(),
+                                       header_block.getBATCount(),
+                                       header_block.getBATArray(),
+                                       header_block.getXBATCount(),
+                                       header_block.getXBATIndex(),
+                header_block.getSBATStart()
+            header_block.getPropertyStart()

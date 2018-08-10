@@ -1,0 +1,2 @@
+        RowRecord row = (RowRecord)rowIterator.next();
+        pos += row.serialize(pos, data);
