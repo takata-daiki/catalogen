@@ -1,0 +1,11 @@
+{
+  "id": "60212057",
+  "lines": {
+    "1700": "HSSFCellStyle cellStyle = wb.createCellStyle();\n",
+    "1701": "cellStyle.cloneStyleFrom(cell.getCellStyle());\n",
+    "1702": "cellStyle.setFont(fontWhiteColor);\n",
+    "1703": "cellStyle.setBorderTop(HSSFCellStyle.BORDER_NONE);\n",
+    "1704": "cellStyle.setBorderBottom(HSSFCellStyle.BORDER_NONE);\n",
+    "1705": "cellStyle.setWrapText(false);\n"
+  }
+}

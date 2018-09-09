@@ -1,0 +1,10 @@
+{
+  "id": "60212069",
+  "lines": {
+    "481": "public static CellRangeAddressList getSpecialCells(HSSFSheet sh, CellRangeAddress cellRef0, XlCellType xlCellType){\n",
+    "501": "      for(int col = cellRef0.getFirstColumn(); col <= cellRef0.getLastColumn(); col++)\n",
+    "504": "          for(int row = cellRef0.getFirstRow(); row <= cellRef0.getLastRow(); row++)\n",
+    "526": "      for(int col = cellRef0.getFirstColumn(); col <= cellRef0.getLastColumn(); col++){\n",
+    "528": "        for(int row = cellRef0.getFirstRow(); row <= cellRef0.getLastRow(); row++){\n"
+  }
+}

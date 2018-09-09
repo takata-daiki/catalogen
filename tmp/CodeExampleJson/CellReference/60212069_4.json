@@ -1,0 +1,8 @@
+{
+  "id": "60212069",
+  "lines": {
+    "1067": "for(CellReference celRef:celRefs){\n",
+    "1068": "  String key =  (celRef.getRow()-offsetRow)+\"_\"+(celRef.getCol()-offsetCol);\n",
+    "1069": "  mapCell.put(key, new ExcelCell(getCell(sh, celRef.getRow(), celRef.getCol())));\n"
+  }
+}

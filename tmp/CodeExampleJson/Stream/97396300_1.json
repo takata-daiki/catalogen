@@ -1,0 +1,10 @@
+{
+  "id": "97396300",
+  "lines": {
+    "56": "public static void dumpStream(Stream stream, int indent) {\n",
+    "65": "  Pointer ptr = stream.getPointer();\n",
+    "75": "    int decompLen = stream._getContentsLength();\n",
+    "80": "  System.out.println(ind + \"  Stream is\\t\" + stream.getClass().getName());\n",
+    "82": "  byte[] db = stream._getStore()._getContents();\n"
+  }
+}

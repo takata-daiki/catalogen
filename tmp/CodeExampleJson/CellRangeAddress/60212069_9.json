@@ -1,0 +1,8 @@
+{
+  "id": "60212069",
+  "lines": {
+    "607": "public static boolean equalsRectangularAreas(CellRangeAddress cRA1, CellRangeAddress cRA2){\n",
+    "608": "  return (cRA1.getLastRow()-cRA1.getFirstRow() == cRA2.getLastRow()-cRA2.getFirstRow() &&\n",
+    "609": "      cRA1.getLastColumn()-cRA1.getFirstColumn() == cRA2.getLastColumn()-cRA2.getFirstColumn());\n"
+  }
+}

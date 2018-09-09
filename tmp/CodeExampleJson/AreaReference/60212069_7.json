@@ -1,0 +1,10 @@
+{
+  "id": "60212069",
+  "lines": {
+    "1130": "public static void paste (HSSFSheet sh, AreaReference areaRef,  ExcelBuffer buffer, byte typePaste){\n",
+    "1137": "  int pasteRow1 = areaRef.getFirstCell().getRow();\n",
+    "1138": "  int pasteCol1 = areaRef.getFirstCell().getCol();\n",
+    "1139": "  int pasteRow2 = areaRef.getLastCell().getRow();\n",
+    "1140": "  int pasteCol2 = areaRef.getLastCell().getCol();\n"
+  }
+}

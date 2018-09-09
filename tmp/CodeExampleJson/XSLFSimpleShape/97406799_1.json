@@ -1,0 +1,21 @@
+{
+  "id": "97406799",
+  "lines": {
+    "78": "private XSLFSimpleShape _shape;\n",
+    "105": "    XSLFTheme theme = _shape.getSheet().getTheme();\n",
+    "216": "        double rotation = _shape.getRotation();\n",
+    "340": "        paint = selectPaint(graphics, obj, phClr, _shape.getSheet().getPackagePart());\n",
+    "368": "    _shape.fetchShapeProperty(fetcher);\n",
+    "373": "        CTShapeStyle style = _shape.getSpStyle();\n",
+    "384": "            XSLFSheet sheet = _shape.getSheet();\n",
+    "433": "                XSLFTheme theme = _shape.getSheet().getTheme();\n",
+    "483": "    float lineWidth = (float) _shape.getLineWidth();\n",
+    "486": "    LineDash lineDash = _shape.getLineDash();\n",
+    "494": "    LineCap lineCap = _shape.getLineCap();\n",
+    "521": "    XSLFShadow shadow = _shape.getShadow();\n",
+    "544": "    _shape.drawContent(graphics);\n",
+    "558": "    CustomGeometry geom = _shape.getGeometry();\n",
+    "581": "                CTPresetGeometry2D prst = _shape.getSpPr().getPrstGeom();\n",
+    "622": "    Rectangle2D anchor = _shape.getAnchor();\n"
+  }
+}

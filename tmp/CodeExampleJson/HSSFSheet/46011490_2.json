@@ -1,0 +1,11 @@
+{
+  "id": "46011490",
+  "lines": {
+    "94": "HSSFSheet sheet = wb.createSheet();\n",
+    "96": "HSSFRow row = sheet.createRow(rowIdx);\n",
+    "100": "  sheet.setColumnWidth(i, (int) (258 / 8 * columnWidths.get(i)));\n",
+    "113": "  row = sheet.getRow(rowIdx + headerDepth - 1);\n",
+    "117": "      sheet.setColumnWidth(i, (int) (258 / 8 * column.getPrefWidth()));\n",
+    "131": "  row = sheet.createRow(rowIdx);\n"
+  }
+}

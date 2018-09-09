@@ -1,0 +1,12 @@
+{
+  "id": "121321570",
+  "lines": {
+    "255": "RefPtgBase refPtgBase = (RefPtgBase) ptg;\n",
+    "257": "if (refPtgBase.isRowRelative()) {\n",
+    "258": "  refPtgBase.setRow(\n",
+    "259": "    (short) (newCell.getRowIndex() - (oldCell.getRowIndex() - refPtgBase.getRow())));\n",
+    "262": "if (refPtgBase.isColRelative()) {\n",
+    "263": "  refPtgBase.setColumn(\n",
+    "264": "    (short) (newCell.getColumnIndex() - (oldCell.getColumnIndex() - refPtgBase.getColumn())));\n"
+  }
+}

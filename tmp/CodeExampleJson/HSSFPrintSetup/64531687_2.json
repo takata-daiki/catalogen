@@ -1,0 +1,10 @@
+{
+  "id": "64531687",
+  "lines": {
+    "146": "HSSFPrintSetup printSetup = sheet0.getPrintSetup();\n",
+    "147": "assertEquals( HSSFPrintSetup.A4_PAPERSIZE,  printSetup.getPaperSize() );\n",
+    "148": "assertEquals( true, printSetup.getLandscape() );\n",
+    "149": "assertEquals( 0.5, printSetup.getHeaderMargin(), 0.01 );\n",
+    "150": "assertEquals( 0.5, printSetup.getFooterMargin(), 0.01 );\n"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "97394495",
+  "lines": {
+    "85": "Header header = new Header();\n",
+    "86": "header.wmfsize = data.length - 512;\n",
+    "88": "header.bounds = new and.awt.Rectangle(0, 0, 200, 200);\n",
+    "89": "header.size = new and.awt.Dimension(header.bounds.width*Shape.EMU_PER_POINT,\n",
+    "90": "        header.bounds.height*Shape.EMU_PER_POINT);\n",
+    "91": "header.zipsize = compressed.length;\n",
+    "98": "header.write(out);\n"
+  }
+}

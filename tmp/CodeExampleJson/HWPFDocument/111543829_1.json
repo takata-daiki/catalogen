@@ -1,0 +1,9 @@
+{
+  "id": "111543829",
+  "lines": {
+    "19": "HWPFDocument doc = new HWPFDocument(fs);\n",
+    "22": "Range range = doc.getRange();\n",
+    "48": "DocumentSummaryInformation dsi = doc.getDocumentSummaryInformation();\n",
+    "55": "doc.write(new FileOutputStream(\"new-hwpf-file.doc\"));\n"
+  }
+}

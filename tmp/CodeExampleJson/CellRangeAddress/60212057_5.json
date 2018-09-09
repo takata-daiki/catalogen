@@ -1,0 +1,9 @@
+{
+  "id": "60212057",
+  "lines": {
+    "1361": "CellRangeAddress crb = list.getCellRangeAddress(jj);  \n",
+    "1362": "wRHidden = ExcelUtils.getRow(sh, crb.getFirstRow()).getZeroHeight();\n",
+    "1363": "HSSFCell cell = ExcelUtils.getCell(sh, crb.getFirstRow(), crb.getFirstColumn());\n",
+    "1378": "  AreaReference area3 = new AreaReference(crb.formatAsString());\n"
+  }
+}

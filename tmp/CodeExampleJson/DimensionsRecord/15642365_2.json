@@ -1,0 +1,10 @@
+{
+  "id": "15642365",
+  "lines": {
+    "991": "DimensionsRecord d = ( DimensionsRecord ) records.get(getDimsLoc());\n",
+    "993": "if (col.getColumn() > d.getLastCol())\n",
+    "995": "    d.setLastCol(( short ) (col.getColumn() + 1));\n",
+    "997": "if (col.getColumn() < d.getFirstCol())\n",
+    "999": "    d.setFirstCol(col.getColumn());\n"
+  }
+}

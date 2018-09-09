@@ -1,0 +1,13 @@
+{
+  "id": "97384153",
+  "lines": {
+    "43": "private PlfLfo _plfLfo;\n",
+    "120": "    _plfLfo.writeTo( fib, tableStream );\n",
+    "125": "    return _plfLfo.getLfo( ilfo );\n",
+    "130": "    return _plfLfo.getLfoData( ilfo );\n",
+    "136": "    return _plfLfo.getIlfoByLsid( lsid );\n",
+    "163": "            + ( ( _plfLfo == null ) ? 0 : _plfLfo.hashCode() );\n",
+    "189": "    else if ( !_plfLfo.equals( other._plfLfo ) )\n",
+    "211": "        _plfLfo.add( lfo, lfoData );\n"
+  }
+}

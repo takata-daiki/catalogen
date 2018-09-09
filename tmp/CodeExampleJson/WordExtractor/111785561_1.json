@@ -1,0 +1,12 @@
+{
+  "id": "111785561",
+  "lines": {
+    "45": "org.apache.poi.hwpf.extractor.WordExtractor wordExtractor =\n",
+    "48": "addTextIfAny(xhtml, \"header\", wordExtractor.getHeaderText());\n",
+    "50": "for (String paragraph : wordExtractor.getParagraphText()) {\n",
+    "54": "for (String paragraph : wordExtractor.getFootnoteText()) {\n",
+    "58": "for (String paragraph : wordExtractor.getCommentsText()) {\n",
+    "62": "for (String paragraph : wordExtractor.getEndnoteText()) {\n",
+    "66": "addTextIfAny(xhtml, \"footer\", wordExtractor.getFooterText());\n"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "97394276",
+  "lines": {
+    "184": "EscherClientAnchorRecord clrec = (EscherClientAnchorRecord)getEscherChild(_escherContainer, EscherClientAnchorRecord.RECORD_ID);\n",
+    "187": "    (float)clrec.getCol1()*POINT_DPI/MASTER_DPI,\n",
+    "188": "    (float)clrec.getFlag()*POINT_DPI/MASTER_DPI,\n",
+    "189": "    (float)(clrec.getDx1()-clrec.getCol1())*POINT_DPI/MASTER_DPI,\n",
+    "190": "    (float)(clrec.getRow1()-clrec.getFlag())*POINT_DPI/MASTER_DPI\n"
+  }
+}

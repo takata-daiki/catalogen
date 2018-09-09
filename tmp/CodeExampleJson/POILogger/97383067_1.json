@@ -1,0 +1,13 @@
+{
+  "id": "97383067",
+  "lines": {
+    "58": "private final static POILogger logger = POILogFactory.getLogger(POIDocument.class);\n",
+    "130": "    logger.log(POILogger.WARN, \"DocumentSummaryInformation property set came back with wrong class - \", ps.getClass());\n",
+    "138": "    logger.log(POILogger.WARN, \"SummaryInformation property set came back with wrong class - \", ps.getClass());\n",
+    "159": "      logger.log(POILogger.WARN, \"Error getting property set with name \" + setName + \"\\n\" + ie);\n",
+    "169": "      logger.log(POILogger.WARN, \"Error creating property set with name \" + setName + \"\\n\" + ie);\n",
+    "172": "      logger.log(POILogger.WARN, \"Error creating property set with name \" + setName + \"\\n\" + he);\n",
+    "227": "    logger.log(POILogger.INFO, \"Wrote property set \" + name + \" of size \" + data.length);\n",
+    "229": "    logger.log( POILogger.ERROR, \"Couldn't write property set with name \" + name + \" as not supported by HPSF yet\");\n"
+  }
+}

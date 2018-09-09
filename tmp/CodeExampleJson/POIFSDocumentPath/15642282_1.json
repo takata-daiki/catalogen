@@ -1,0 +1,11 @@
+{
+  "id": "15642282",
+  "lines": {
+    "129": "public POIFSDocumentPath(final POIFSDocumentPath path,\n",
+    "135": "        this.components = new String[ path.components.length ];\n",
+    "140": "            new String[ path.components.length + components.length ];\n",
+    "142": "    for (int j = 0; j < path.components.length; j++)\n",
+    "144": "        this.components[ j ] = path.components[ j ];\n",
+    "156": "            this.components[ j + path.components.length ] =\n"
+  }
+}

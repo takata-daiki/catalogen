@@ -1,0 +1,7 @@
+{
+  "id": "15642316",
+  "lines": {
+    "809": "private boolean isRowColHeaderRecord( NameRecord r )\n",
+    "811": "    return r.getOptionFlag() == 0x20 && (\"\" + ((char)7)).equals(r.getNameText());\n"
+  }
+}

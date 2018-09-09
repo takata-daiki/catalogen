@@ -1,0 +1,14 @@
+{
+  "id": "97397929",
+  "lines": {
+    "135": "HeaderBlock header_block;\n",
+    "140": "    bigBlockSize = header_block.getBigBlockSize();\n",
+    "152": "new BlockAllocationTableReader(header_block.getBigBlockSize(),\n",
+    "153": "                               header_block.getBATCount(),\n",
+    "154": "                               header_block.getBATArray(),\n",
+    "155": "                               header_block.getXBATCount(),\n",
+    "156": "                               header_block.getXBATIndex(),\n",
+    "167": "        header_block.getSBATStart()\n",
+    "172": "    header_block.getPropertyStart()\n"
+  }
+}

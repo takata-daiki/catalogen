@@ -1,0 +1,18 @@
+{
+  "id": "121321570",
+  "lines": {
+    "268": "AreaPtgBase areaPtgBase = (AreaPtgBase) ptg;\n",
+    "270": "if (areaPtgBase.isFirstRowRelative()) {\n",
+    "271": "  areaPtgBase.setFirstRow(\n",
+    "272": "    (short) (newCell.getRowIndex() - (oldCell.getRowIndex() - areaPtgBase.getFirstRow())));\n",
+    "275": "if (areaPtgBase.isLastRowRelative()) {\n",
+    "276": "  areaPtgBase.setLastRow(\n",
+    "277": "    (short) (newCell.getRowIndex() - (oldCell.getRowIndex() - areaPtgBase.getLastRow())));\n",
+    "280": "if (areaPtgBase.isFirstColRelative()) {\n",
+    "281": "  areaPtgBase.setFirstColumn(\n",
+    "282": "    (short) (newCell.getColumnIndex() - (oldCell.getColumnIndex() - areaPtgBase.getFirstColumn())));\n",
+    "285": "if (areaPtgBase.isLastColRelative()) {\n",
+    "286": "  areaPtgBase.setLastColumn(\n",
+    "287": "    (short) (newCell.getColumnIndex() - (oldCell.getColumnIndex() - areaPtgBase.getLastColumn())));\n"
+  }
+}

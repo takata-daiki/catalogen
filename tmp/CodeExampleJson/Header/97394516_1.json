@@ -1,0 +1,12 @@
+{
+  "id": "97394516",
+  "lines": {
+    "49": "Header header = new Header();\n",
+    "50": "header.read(rawdata, CHECKSUM_SIZE);\n",
+    "51": "is.skip(header.getSize() + CHECKSUM_SIZE);\n",
+    "54": "aldus.left = header.bounds.x;\n",
+    "55": "aldus.top = header.bounds.y;\n",
+    "56": "aldus.right = header.bounds.x + header.bounds.width;\n",
+    "57": "aldus.bottom = header.bounds.y + header.bounds.height;\n"
+  }
+}

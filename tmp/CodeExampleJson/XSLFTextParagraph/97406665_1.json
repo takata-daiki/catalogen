@@ -1,0 +1,18 @@
+{
+  "id": "97406665",
+  "lines": {
+    "1123": "void copy(XSLFTextParagraph p){\n",
+    "1124": "    TextAlign srcAlign = p.getTextAlign();\n",
+    "1129": "    boolean isBullet = p.isBullet();\n",
+    "1133": "            String buFont = p.getBulletFont();\n",
+    "1137": "            String buChar = p.getBulletCharacter();\n",
+    "1141": "            Color buColor = p.getBulletFontColor();\n",
+    "1145": "            double buSize = p.getBulletFontSize();\n",
+    "1152": "    double leftMargin = p.getLeftMargin();\n",
+    "1157": "    double indent = p.getIndent();\n",
+    "1162": "    double spaceAfter = p.getSpaceAfter();\n",
+    "1166": "    double spaceBefore = p.getSpaceBefore();\n",
+    "1170": "    double lineSpacing = p.getLineSpacing();\n",
+    "1175": "    List<XSLFTextRun> srcR = p.getTextRuns();\n"
+  }
+}

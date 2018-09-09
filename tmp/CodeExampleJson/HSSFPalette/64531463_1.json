@@ -1,0 +1,8 @@
+{
+  "id": "64531463",
+  "lines": {
+    "59": "HSSFPalette palette = workbook.getCustomPalette();\n",
+    "60": "System.out.println( \"Palette: \" + palette.toString() );\n",
+    "76": "  cell.setCellValue( palette.getColor(i) == null ? \"null\" : palette.getColor(i).getHexString() );\n"
+  }
+}

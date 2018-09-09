@@ -1,0 +1,14 @@
+{
+  "id": "97384444",
+  "lines": {
+    "377": "CharacterProperties cp = (CharacterProperties) super.clone();\n",
+    "379": "cp.setCv( getCv().clone() );\n",
+    "380": "cp.setDttmRMark( (DateAndTime) getDttmRMark().clone() );\n",
+    "381": "cp.setDttmRMarkDel( (DateAndTime) getDttmRMarkDel().clone() );\n",
+    "382": "cp.setDttmPropRMark( (DateAndTime) getDttmPropRMark().clone() );\n",
+    "383": "cp.setDttmDispFldRMark( (DateAndTime) getDttmDispFldRMark().clone() );\n",
+    "384": "cp.setXstDispFldRMark( getXstDispFldRMark().clone() );\n",
+    "385": "cp.setShd( (ShadingDescriptor) getShd().clone() );\n",
+    "386": "cp.setBrc( (BorderCode) getBrc().clone() );\n"
+  }
+}

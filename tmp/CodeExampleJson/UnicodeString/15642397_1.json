@@ -1,0 +1,18 @@
+{
+  "id": "15642397",
+  "lines": {
+    "162": "UnicodeString other = ( UnicodeString ) o;\n",
+    "165": "boolean eq = ((field_1_charCount == other.field_1_charCount)\n",
+    "166": "        && (field_2_optionflags == other.field_2_optionflags)\n",
+    "167": "        && field_3_string.equals(other.field_3_string));\n",
+    "171": "if ((field_4_format_runs == null) && (other.field_4_format_runs == null))\n",
+    "174": "if (((field_4_format_runs == null) && (other.field_4_format_runs != null)) ||\n",
+    "175": "     (field_4_format_runs != null) && (other.field_4_format_runs == null))\n",
+    "181": "if (size != other.field_4_format_runs.size())\n",
+    "186": "  FormatRun run2 = (FormatRun)other.field_4_format_runs.get(i);\n",
+    "194": "if ((field_5_ext_rst == null) && (other.field_5_ext_rst == null))\n",
+    "196": "if (((field_5_ext_rst == null) && (other.field_5_ext_rst != null)) ||\n",
+    "197": "    ((field_5_ext_rst != null) && (other.field_5_ext_rst == null)))\n",
+    "205": "  if (field_5_ext_rst[i] != other.field_5_ext_rst[i])\n"
+  }
+}

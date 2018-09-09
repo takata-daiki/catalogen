@@ -1,0 +1,13 @@
+{
+  "id": "15642308",
+  "lines": {
+    "55": "private NameRecord       name;\n",
+    "76": "    short indexToExternSheet = name.getExternSheetNumber();\n",
+    "89": "    String result = name.getNameText();\n",
+    "100": "    name.setNameText(nameName);\n",
+    "101": "    name.setNameTextLength((byte)nameName.length());\n",
+    "121": "    result = name.getAreaReference(book);\n",
+    "137": "    name.setExternSheetNumber(externSheetNumber);\n",
+    "159": "    name.setAreaReference(ref);\n"
+  }
+}

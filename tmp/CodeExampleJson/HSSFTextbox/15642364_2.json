@@ -1,0 +1,9 @@
+{
+  "id": "15642364",
+  "lines": {
+    "156": "HSSFTextbox shape = hssfShape;\n",
+    "163": "int frLength = ( shape.getString().numFormattingRuns() + 1 ) * 8;\n",
+    "165": "obj.setTextLength( (short) shape.getString().length() );\n",
+    "166": "obj.setStr( shape.getString() );\n"
+  }
+}

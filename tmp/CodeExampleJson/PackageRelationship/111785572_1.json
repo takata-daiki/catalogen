@@ -1,0 +1,9 @@
+{
+  "id": "111785572",
+  "lines": {
+    "166": "for(PackageRelationship rel : part.getRelationshipsByType(XSSFRelation.DRAWINGS.getRelation())) {\n",
+    "167": "   if(rel.getTargetMode() == TargetMode.INTERNAL) {\n",
+    "168": "      PackagePartName relName = PackagingURIHelper.createPartName(rel.getTargetURI());\n",
+    "169": "      parts.add( rel.getPackage().getPart(relName) );\n"
+  }
+}

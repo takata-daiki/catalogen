@@ -1,0 +1,8 @@
+{
+  "id": "60212069",
+  "lines": {
+    "710": "public static List<HSSFCell> findAll(HSSFSheet sh, CellRangeAddress cellsRef, Object valueSearch, byte lookIn, XlLookAt lookAt, XlSearchDirection searchDirection){\n",
+    "711": "  return findAll(sh, new  AreaReference(new CellReference(cellsRef.getFirstRow(), cellsRef.getFirstColumn()),\n",
+    "712": "      new CellReference(cellsRef.getLastRow(), cellsRef.getLastColumn())), valueSearch, lookIn, lookAt, searchDirection);\n"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "97394313",
+  "lines": {
+    "160": "for (EscherContainerRecord c : dgContainer.getChildContainers()) {\n",
+    "162": "    switch(c.getRecordId()){\n",
+    "164": "            EscherContainerRecord dc = (EscherContainerRecord)c.getChild(0);\n",
+    "168": "            spr = c.getChildById(EscherSpRecord.RECORD_ID);\n"
+  }
+}

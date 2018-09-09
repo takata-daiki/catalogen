@@ -1,0 +1,10 @@
+{
+  "id": "15642364",
+  "lines": {
+    "109": "EscherSpRecord sp = new EscherSpRecord();\n",
+    "117": "sp.setRecordId( EscherSpRecord.RECORD_ID );\n",
+    "118": "sp.setOptions( (short) ( ( EscherAggregate.ST_TEXTBOX << 4 ) | 0x2 ) );\n",
+    "120": "sp.setShapeId( shapeId );\n",
+    "121": "sp.setFlags( EscherSpRecord.FLAG_HAVEANCHOR | EscherSpRecord.FLAG_HASSHAPETYPE );\n"
+  }
+}

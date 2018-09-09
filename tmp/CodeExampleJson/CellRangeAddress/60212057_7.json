@@ -1,0 +1,10 @@
+{
+  "id": "60212057",
+  "lines": {
+    "1991": "CellRangeAddress workMergeRef = ExcelUtils.mergeArea(activeSheet, cellAHRef.getFirstCell());\n",
+    "1993": "for(int col=workMergeRef.getFirstColumn(); col <=workMergeRef.getLastColumn(); col++){\n",
+    "2019": "if (workMergeRef.getLastRow()-workMergeRef.getFirstRow() > 0 || \n",
+    "2020": "    workMergeRef.getLastColumn()-workMergeRef.getFirstColumn() > 0){\n",
+    "2026": "if (workMergeRef.getLastRow()-workMergeRef.getFirstRow() > 0 ){\n"
+  }
+}

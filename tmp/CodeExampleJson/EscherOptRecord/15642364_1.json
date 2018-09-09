@@ -1,0 +1,12 @@
+{
+  "id": "15642364",
+  "lines": {
+    "110": "EscherOptRecord opt = new EscherOptRecord();\n",
+    "122": "opt.setRecordId( EscherOptRecord.RECORD_ID );\n",
+    "124": "opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.TEXT__TEXTID, 0 ) );\n",
+    "125": "opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.TEXT__TEXTLEFT, shape.getMarginLeft() ) );\n",
+    "126": "opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.TEXT__TEXTRIGHT, shape.getMarginRight() ) );\n",
+    "127": "opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.TEXT__TEXTBOTTOM, shape.getMarginBottom() ) );\n",
+    "128": "opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.TEXT__TEXTTOP, shape.getMarginTop() ) );\n"
+  }
+}

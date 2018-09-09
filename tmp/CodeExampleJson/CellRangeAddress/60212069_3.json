@@ -1,0 +1,14 @@
+{
+  "id": "60212069",
+  "lines": {
+    "414": "public static CellRangeAddress intersectRectangular(CellRangeAddress crA, CellRangeAddress crB){\n",
+    "415": "  boolean isIntersect =  !( crB.getFirstColumn() > crA.getLastColumn()\n",
+    "416": "              || crB.getLastColumn() < crA.getFirstColumn()\n",
+    "417": "              || crB.getFirstRow() > crA.getLastRow()\n",
+    "418": "              || crB.getLastRow() < crA.getFirstRow()\n",
+    "422": "      new CellRangeAddress(Math.max(crA.getFirstRow(), crB.getFirstRow()), \n",
+    "423": "                 Math.min(crA.getLastRow(), crB.getLastRow()),\n",
+    "424": "                 Math.max(crA.getFirstColumn(), crB.getFirstColumn()), \n",
+    "425": "                 Math.min(crA.getLastColumn(), crB.getLastColumn()));\n"
+  }
+}

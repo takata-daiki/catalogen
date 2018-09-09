@@ -1,0 +1,24 @@
+{
+  "id": "111785559",
+  "lines": {
+    "252": "HSSFRequest hssfRequest = new HSSFRequest();\n",
+    "254": "    hssfRequest.addListenerForAllRecords(formatListener);\n",
+    "256": "    hssfRequest.addListener(formatListener, BOFRecord.sid);\n",
+    "257": "    hssfRequest.addListener(formatListener, EOFRecord.sid);\n",
+    "258": "    hssfRequest.addListener(formatListener, DateWindow1904Record.sid);\n",
+    "259": "    hssfRequest.addListener(formatListener, CountryRecord.sid);\n",
+    "260": "    hssfRequest.addListener(formatListener, BoundSheetRecord.sid);\n",
+    "261": "    hssfRequest.addListener(formatListener, SSTRecord.sid);\n",
+    "262": "    hssfRequest.addListener(formatListener, FormulaRecord.sid);\n",
+    "263": "    hssfRequest.addListener(formatListener, LabelRecord.sid);\n",
+    "264": "    hssfRequest.addListener(formatListener, LabelSSTRecord.sid);\n",
+    "265": "    hssfRequest.addListener(formatListener, NumberRecord.sid);\n",
+    "266": "    hssfRequest.addListener(formatListener, RKRecord.sid);\n",
+    "267": "    hssfRequest.addListener(formatListener, HyperlinkRecord.sid);\n",
+    "268": "    hssfRequest.addListener(formatListener, TextObjectRecord.sid);\n",
+    "269": "    hssfRequest.addListener(formatListener, SeriesTextRecord.sid);\n",
+    "270": "    hssfRequest.addListener(formatListener, FormatRecord.sid);\n",
+    "271": "    hssfRequest.addListener(formatListener, ExtendedFormatRecord.sid);\n",
+    "272": "    hssfRequest.addListener(formatListener, DrawingGroupRecord.sid);\n"
+  }
+}

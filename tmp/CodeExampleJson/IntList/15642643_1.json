@@ -1,0 +1,9 @@
+{
+  "id": "15642643",
+  "lines": {
+    "101": "public IntList(final IntList list)\n",
+    "103": "    this(list._array.length);\n",
+    "104": "    System.arraycopy(list._array, 0, _array, 0, _array.length);\n",
+    "105": "    _limit = list._limit;\n"
+  }
+}

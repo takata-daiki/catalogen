@@ -1,0 +1,10 @@
+{
+  "id": "15642409",
+  "lines": {
+    "720": "EscherSpRecord sp1 = new EscherSpRecord();\n",
+    "739": "sp1.setRecordId( EscherSpRecord.RECORD_ID );\n",
+    "740": "sp1.setOptions( (short) 0x0002 );\n",
+    "741": "sp1.setShapeId( drawingManager.allocateShapeId(dg.getDrawingGroupId()) );\n",
+    "742": "sp1.setFlags( EscherSpRecord.FLAG_GROUP | EscherSpRecord.FLAG_PATRIARCH );\n"
+  }
+}

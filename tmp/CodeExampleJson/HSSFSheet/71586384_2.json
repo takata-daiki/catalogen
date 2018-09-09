@@ -1,0 +1,9 @@
+{
+  "id": "71586384",
+  "lines": {
+    "87": "HSSFSheet aSheet = workbook.getSheetAt(numSheets);\n",
+    "89": "for (int rowNumOfSheet = 1; rowNumOfSheet <= aSheet.getLastRowNum(); rowNumOfSheet++) {\n",
+    "90": "  if (null != aSheet.getRow(rowNumOfSheet)) {\n",
+    "91": "    HSSFRow aRow = aSheet.getRow(rowNumOfSheet);\n"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "15642358",
+  "lines": {
+    "108": "protected ExternSheetRecord externSheet= null;\n",
+    "1818": "        for (int k = 0; k < externSheet.getNumOfREFStructures(); k++) {\n",
+    "1835": "    short indexToSheet = externSheet.getREFRecordAt(num).getIndexToFirstSupBook();\n",
+    "1850": "    if (externSheetNumber >= externSheet.getNumOfREFStructures())\n",
+    "1853": "        return externSheet.getREFRecordAt(externSheetNumber).getIndexToFirstSupBook();\n",
+    "1872": "    while (i < externSheet.getNumOfREFStructures() && !flag){\n",
+    "1873": "        ExternSheetSubRecord record = externSheet.getREFRecordAt(i);\n",
+    "1898": "    externSheet.addREFRecord(record);\n",
+    "1899": "    externSheet.setNumOfREFStructures((short)(externSheet.getNumOfREFStructures() + 1));\n",
+    "1900": "    result = (short)(externSheet.getNumOfREFStructures() - 1);\n"
+  }
+}

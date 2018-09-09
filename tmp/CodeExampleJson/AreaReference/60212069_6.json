@@ -1,0 +1,9 @@
+{
+  "id": "60212069",
+  "lines": {
+    "1062": "public static ExcelBuffer copy (HSSFSheet sh, AreaReference areaRef){\n",
+    "1064": "  int offsetRow = areaRef.getFirstCell().getRow();\n",
+    "1065": "  int offsetCol = areaRef.getFirstCell().getCol();\n",
+    "1066": "  CellReference[] celRefs = areaRef.getAllReferencedCells();\n"
+  }
+}

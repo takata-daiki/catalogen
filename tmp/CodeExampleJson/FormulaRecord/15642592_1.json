@@ -1,0 +1,21 @@
+{
+  "id": "15642592",
+  "lines": {
+    "58": "private FormulaRecord formulaRecord;\n",
+    "88": "    pos += formulaRecord.serialize(pos, data);\n",
+    "103": "    int size = formulaRecord.getRecordSize() + (stringRecord == null ? 0 : stringRecord.getRecordSize());\n",
+    "138": "    return formulaRecord.isEqual( i );\n",
+    "143": "    return formulaRecord.isAfter( i );\n",
+    "148": "    return formulaRecord.isBefore( i );\n",
+    "153": "    return formulaRecord.getXFIndex();\n",
+    "158": "    formulaRecord.setXFIndex( xf );\n",
+    "163": "    formulaRecord.setColumn( col );\n",
+    "168": "    formulaRecord.setRow( row );\n",
+    "173": "    return formulaRecord.getColumn();\n",
+    "178": "    return formulaRecord.getRow();\n",
+    "183": "    return formulaRecord.compareTo( o );\n",
+    "188": "    return formulaRecord.equals( obj );\n",
+    "193": "    return formulaRecord.toString();\n",
+    "202": "    return new FormulaRecordAggregate((FormulaRecord) this.formulaRecord.clone(), clonedString);\n"
+  }
+}

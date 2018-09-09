@@ -1,0 +1,9 @@
+{
+  "id": "121321469",
+  "lines": {
+    "46": "StylesTable stylesSource = wb.getStylesSource();\n",
+    "47": "for (int i=0; i<stylesSource.getNumCellStyles(); i++)\n",
+    "48": "  if (stylesSource.getStyleAt(i).equals(cellStyle))\n",
+    "56": "  XSSFCellFill fill = stylesSource.getFillAt(cellStyle.getIndex()+1);\n"
+  }
+}

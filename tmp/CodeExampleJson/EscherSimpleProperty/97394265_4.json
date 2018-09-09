@@ -1,0 +1,7 @@
+{
+  "id": "97394265",
+  "lines": {
+    "199": "EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.LINESTYLE__LINESTYLE);\n",
+    "200": "return prop == null ? Line.LINE_SIMPLE : prop.getPropertyValue();\n"
+  }
+}

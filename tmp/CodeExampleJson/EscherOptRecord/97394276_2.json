@@ -1,0 +1,9 @@
+{
+  "id": "97394276",
+  "lines": {
+    "294": "public static void setEscherProperty(EscherOptRecord opt, short propId, int value){\n",
+    "295": "   java.util.List props = opt.getEscherProperties();\n",
+    "303": "       opt.addEscherProperty(new EscherSimpleProperty(propId, value));\n",
+    "304": "       opt.sortProperties();\n"
+  }
+}

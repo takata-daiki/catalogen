@@ -1,0 +1,7 @@
+{
+  "id": "97394395",
+  "lines": {
+    "459": "EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.TEXT__WRAPTEXT);\n",
+    "460": "return prop == null ? WrapSquare : prop.getPropertyValue();\n"
+  }
+}

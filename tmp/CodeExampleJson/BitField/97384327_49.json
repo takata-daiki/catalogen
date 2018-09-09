@@ -1,0 +1,8 @@
+{
+  "id": "97384327",
+  "lines": {
+    "178": "/**/private static final BitField fChsDiff = new BitField(0x0001);\n",
+    "3000": "    field_49_CharsetFlags = (short)fChsDiff.setBoolean(field_49_CharsetFlags, value);\n",
+    "3010": "    return fChsDiff.isSet(field_49_CharsetFlags);\n"
+  }
+}

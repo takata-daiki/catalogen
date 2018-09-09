@@ -1,0 +1,12 @@
+{
+  "id": "114533602",
+  "lines": {
+    "323": "public void setCellValue(HSSFCell cell, Object value) {\n",
+    "326": "    cell.setCellType(HSSFCell.CELL_TYPE_STRING);\n",
+    "329": "    cell.setCellValue((String) value);\n",
+    "332": "    cell.setCellValue((Date) value);\n",
+    "334": "    cell.setCellValue(((Boolean) value).booleanValue());\n",
+    "336": "    cell.setCellValue(((Number) value).doubleValue());\n",
+    "341": "    cell.setCellValue(value.toString());\n"
+  }
+}

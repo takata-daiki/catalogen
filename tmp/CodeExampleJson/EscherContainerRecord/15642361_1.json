@@ -1,0 +1,12 @@
+{
+  "id": "15642361",
+  "lines": {
+    "56": "private EscherContainerRecord spContainer;\n",
+    "85": "    spContainer.setRecordId( EscherContainerRecord.SP_CONTAINER );\n",
+    "86": "    spContainer.setOptions( (short) 0x000F );\n",
+    "105": "    spContainer.addChildRecord(sp);\n",
+    "106": "    spContainer.addChildRecord(opt);\n",
+    "107": "    spContainer.addChildRecord(anchor);\n",
+    "108": "    spContainer.addChildRecord(clientData);\n"
+  }
+}

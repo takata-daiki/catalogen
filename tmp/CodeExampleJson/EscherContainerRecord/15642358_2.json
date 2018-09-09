@@ -1,0 +1,9 @@
+{
+  "id": "15642358",
+  "lines": {
+    "2191": "EscherContainerRecord bstoreContainer = null;\n",
+    "2195": "    bstoreContainer.setRecordId( EscherContainerRecord.BSTORE_CONTAINER );\n",
+    "2196": "    bstoreContainer.setOptions( (short) ( (escherBSERecords.size() << 4) | 0xF ) );\n",
+    "2200": "        bstoreContainer.addChildRecord( escherRecord );\n"
+  }
+}
