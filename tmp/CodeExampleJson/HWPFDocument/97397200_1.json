@@ -1,0 +1,11 @@
+{
+  "id": "97397200",
+  "lines": {
+    "38": "HWPFDocument doc = HWPFTestDataSamples.openSampleFile(\"WithArtShapes.doc\");\n",
+    "40": "List shapes = doc.getShapesTable().getAllShapes();\n",
+    "41": "List vshapes = doc.getShapesTable().getVisibleShapes();\n",
+    "60": "doc.write(baos);\n",
+    "64": "shapes = doc.getShapesTable().getAllShapes();\n",
+    "65": "vshapes = doc.getShapesTable().getVisibleShapes();\n"
+  }
+}

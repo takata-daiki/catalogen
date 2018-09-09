@@ -1,0 +1,10 @@
+{
+  "id": "97406428",
+  "lines": {
+    "86": "PackagePart slidePart = corePart.getRelatedPart(\n",
+    "89": "for(PackageRelationship rel : slidePart.getRelationshipsByType(OLE_OBJECT_REL_TYPE))\n",
+    "90": "    embedds.add(slidePart.getRelatedPart(rel)); // TODO: Add this reference to each slide as well\n",
+    "92": "for(PackageRelationship rel : slidePart.getRelationshipsByType(PACK_OBJECT_REL_TYPE))\n",
+    "93": "      embedds.add(slidePart.getRelatedPart(rel));\n"
+  }
+}

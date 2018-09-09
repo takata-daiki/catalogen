@@ -1,0 +1,9 @@
+{
+  "id": "15642358",
+  "lines": {
+    "2260": "EscherContainerRecord dggContainer = (EscherContainerRecord) drawingGroup.getEscherRecord( 0 );\n",
+    "2262": "if (dggContainer.getChild( 1 ).getRecordId() == EscherContainerRecord.BSTORE_CONTAINER )\n",
+    "2264": "    bstoreContainer = (EscherContainerRecord) dggContainer.getChild( 1 );\n",
+    "2270": "    dggContainer.getChildRecords().add( 1, bstoreContainer );\n"
+  }
+}

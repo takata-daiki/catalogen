@@ -1,0 +1,17 @@
+{
+  "id": "122444114",
+  "lines": {
+    "271": "final HSSFSheet sheet = workbook.createSheet ( Messages.ExportImpl_ExcelSheet_Name );\n",
+    "273": "final HSSFHeader header = sheet.getHeader ();\n",
+    "277": "final HSSFFooter footer = sheet.getFooter ();\n",
+    "284": "final HSSFPrintSetup printSetup = sheet.getPrintSetup ();\n",
+    "290": "sheet.setAutoFilter ( new CellRangeAddress ( 0, 0, 0, columns.size () - 1 ) );\n",
+    "291": "sheet.createFreezePane ( 0, 1 );\n",
+    "292": "sheet.setFitToPage ( true );\n",
+    "293": "sheet.setAutobreaks ( true );\n",
+    "297": "sheet.setMargin ( Sheet.LeftMargin, 0.25 );\n",
+    "298": "sheet.setMargin ( Sheet.RightMargin, 0.25 );\n",
+    "299": "sheet.setMargin ( Sheet.TopMargin, 0.25 );\n",
+    "300": "sheet.setMargin ( Sheet.BottomMargin, 0.5 );\n"
+  }
+}

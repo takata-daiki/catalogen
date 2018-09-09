@@ -1,0 +1,13 @@
+{
+  "id": "137412593",
+  "lines": {
+    "107": "TableRecord record = new TableRecord();\n",
+    "108": "record.itemName = item.getName();\n",
+    "109": "record.UOMId = item.getUOMId();\n",
+    "112": "    record.oper = \"\u0421\u043f\u0438\u0441\u0430\u043d\u043e\";\n",
+    "114": "    record.oper = \"\u041f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u043e\";\n",
+    "116": "  record.oper = \"\u0421\u043f\u0438\u0441\u0430\u043d\u043e\";\n",
+    "118": "String key = record.itemName + \" \" + record.oper;\n",
+    "121": "  if (record.oper.equals(\"\u041f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u043e\"))\n"
+  }
+}

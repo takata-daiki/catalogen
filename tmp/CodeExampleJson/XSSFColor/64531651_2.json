@@ -1,0 +1,7 @@
+{
+  "id": "64531651",
+  "lines": {
+    "91": "XSSFColor baseColour = ((XSSFCell)sheet.getRow(0).getCell(0)).getCellStyle().getFont().getXSSFColor();\n",
+    "92": "assertEquals( \"FF000000\", baseColour.getARGBHex() );\n"
+  }
+}

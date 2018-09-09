@@ -1,0 +1,14 @@
+{
+  "id": "60212057",
+  "lines": {
+    "348": "AreaReference ref = ExcelUtils.getReferanceNameRange(nameCUsing);\n",
+    "349": "String shName = ref.getFirstCell().getSheetName();\n",
+    "350": "int c = ref.getFirstCell().getCol();\n",
+    "351": "int r = ref.getFirstCell().getRow();\n",
+    "355": "shName = ref.getFirstCell().getSheetName();\n",
+    "356": "c = ref.getFirstCell().getCol();\n",
+    "357": "r = ref.getFirstCell().getRow();\n",
+    "368": "HSSFSheet ash = wb.getSheet(ref.getFirstCell().getSheetName());\n",
+    "369": "int begRow = ref.getFirstCell().getRow();\n"
+  }
+}

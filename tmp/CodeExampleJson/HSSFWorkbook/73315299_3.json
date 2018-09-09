@@ -1,0 +1,12 @@
+{
+  "id": "73315299",
+  "lines": {
+    "223": "HSSFWorkbook workbook = new HSSFWorkbook();\n",
+    "225": "HSSFSheet sheet = workbook.createSheet(title);\n",
+    "244": "HSSFFont font2 = workbook.createFont();\n",
+    "254": "HSSFDataFormat format = workbook.createDataFormat();\n",
+    "328": "        patriarch.createPicture(anchor, workbook.addPicture(bsValue, HSSFWorkbook.PICTURE_TYPE_JPEG));\n",
+    "369": "    HSSFFont font4 = workbook.createFont();\n",
+    "390": "  workbook.write(out);\n"
+  }
+}

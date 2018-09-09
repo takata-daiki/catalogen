@@ -1,0 +1,12 @@
+{
+  "id": "126168433",
+  "lines": {
+    "92": "final WordExtractor extractor = new WordExtractor(filesystem);\n",
+    "93": "addTextIfAny(sb, extractor.getHeaderText());\n",
+    "94": "for (final String paragraph : extractor.getParagraphText()) {\n",
+    "98": "for (final String paragraph : extractor.getFootnoteText()) {\n",
+    "102": "for (final String paragraph : extractor.getCommentsText()) {\n",
+    "106": "for (final String paragraph : extractor.getEndnoteText()) {\n",
+    "109": "addTextIfAny(sb, extractor.getFooterText());\n"
+  }
+}

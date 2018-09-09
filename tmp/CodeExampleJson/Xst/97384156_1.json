@@ -1,0 +1,11 @@
+{
+  "id": "97384156",
+  "lines": {
+    "30": "private Xst _xst;\n",
+    "47": "    offset += _xst.getSize();\n",
+    "59": "    return _xst.getAsJavaString();\n",
+    "64": "    return _xst.getSize() + LittleEndian.SHORT_SIZE;\n",
+    "71": "    _xst.serialize( data, offset );\n",
+    "83": "    return \"[Xstz]\" + _xst.getAsJavaString() + \"[/Xstz]\";\n"
+  }
+}

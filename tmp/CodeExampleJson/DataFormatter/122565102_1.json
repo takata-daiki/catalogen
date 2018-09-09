@@ -1,0 +1,22 @@
+{
+  "id": "122565102",
+  "lines": {
+    "58": "DataFormatter formatter = new DataFormatter();\n",
+    "61": "assertEquals( \"1\",                     formatter.formatCellValue(sheet.getRow(1).getCell(1)));\n",
+    "62": "assertEquals( \"2019-10-11 13:18:46\",   formatter.formatCellValue(sheet.getRow(1).getCell(2)));\n",
+    "63": "assertEquals( \"3.1415926536\",          formatter.formatCellValue(sheet.getRow(1).getCell(3)));\n",
+    "64": "assertEquals( \"3.1415926536\",          formatter.formatCellValue(sheet.getRow(1).getCell(4)));\n",
+    "65": "assertEquals( \"false\",                 formatter.formatCellValue(sheet.getRow(1).getCell(5)));\n",
+    "67": "  assertEquals( \"Oct 11, 2019\",          formatter.formatCellValue(sheet.getRow(1).getCell(6)));\n",
+    "68": "  assertEquals( \"1:18:46 PM\",            formatter.formatCellValue(sheet.getRow(1).getCell(7)));\n",
+    "70": "  assertEquals( \"11-Oct-2019\",           formatter.formatCellValue(sheet.getRow(1).getCell(6)));\n",
+    "71": "  assertEquals( \"13:18:46\",              formatter.formatCellValue(sheet.getRow(1).getCell(7)));\n",
+    "74": "assertEquals( \"2\",                     formatter.formatCellValue(sheet.getRow(2).getCell(1)));\n",
+    "75": "assertEquals( \"2019-10-11 13:18:46\",   formatter.formatCellValue(sheet.getRow(2).getCell(2)));\n",
+    "76": "assertEquals( \"6.2831853072\",          formatter.formatCellValue(sheet.getRow(2).getCell(3)));\n",
+    "77": "assertEquals( \"6.2831853072\",          formatter.formatCellValue(sheet.getRow(2).getCell(4)));\n",
+    "78": "assertEquals( \"true\",                  formatter.formatCellValue(sheet.getRow(2).getCell(5)));\n",
+    "87": "assertEquals( \"B2+B3\",                formatter.formatCellValue(sheet.getRow(3).getCell(1))); \n",
+    "88": "assertEquals( \"D2+D3\",                formatter.formatCellValue(sheet.getRow(3).getCell(3))); \n"
+  }
+}

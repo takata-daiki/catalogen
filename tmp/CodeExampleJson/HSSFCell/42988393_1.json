@@ -1,0 +1,9 @@
+{
+  "id": "42988393",
+  "lines": {
+    "301": "private String getStringValue(HSSFCell cell){\n",
+    "303": "    int type = cell.getCellType();\n",
+    "305": "      return cell.getStringCellValue();\n",
+    "307": "      BigDecimal big = new BigDecimal(cell.getNumericCellValue());\n"
+  }
+}

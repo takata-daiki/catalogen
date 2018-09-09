@@ -1,0 +1,10 @@
+{
+  "id": "15642323",
+  "lines": {
+    "433": "HSSFSimpleShape shape = escherGroup.createShape(new HSSFChildAnchor( x, y, x + width, y + height ) );\n",
+    "434": "shape.setShapeType(HSSFSimpleShape.OBJECT_TYPE_RECTANGLE);\n",
+    "435": "shape.setLineStyle(HSSFShape.LINESTYLE_NONE);\n",
+    "436": "shape.setFillColor(foreground.getRed(), foreground.getGreen(), foreground.getBlue());\n",
+    "437": "shape.setLineStyleColor(foreground.getRed(), foreground.getGreen(), foreground.getBlue());\n"
+  }
+}

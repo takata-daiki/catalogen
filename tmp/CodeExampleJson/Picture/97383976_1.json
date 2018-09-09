@@ -1,0 +1,15 @@
+{
+  "id": "97383976",
+  "lines": {
+    "920": "Picture picture )\n",
+    "925": "final int aspectRatioX = picture.getHorizontalScalingFactor();\n",
+    "926": "final int aspectRatioY = picture.getVerticalScalingFactor();\n",
+    "928": "final float imageWidth = aspectRatioX > 0 ? picture.getDxaGoal()\n",
+    "930": "        : picture.getDxaGoal() / AbstractWordUtils.TWIPS_PER_INCH;\n",
+    "931": "final float imageHeight = aspectRatioY > 0 ? picture.getDyaGoal()\n",
+    "933": "        : picture.getDyaGoal() / AbstractWordUtils.TWIPS_PER_INCH;\n",
+    "935": "String url = fileManager.savePicture( picture.getContent(),\n",
+    "936": "        picture.suggestPictureType(),\n",
+    "937": "        picture.suggestFullFileName(), imageWidth, imageHeight );\n"
+  }
+}

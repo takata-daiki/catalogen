@@ -1,0 +1,14 @@
+{
+  "id": "46011490",
+  "lines": {
+    "24": "protected HSSFCellStyle csHeader;\n",
+    "202": "  csHeader.setDataFormat(HSSFDataFormat.getBuiltinFormat(\"text\"));\n",
+    "203": "  csHeader.setBorderBottom(HSSFCellStyle.BORDER_MEDIUM);\n",
+    "204": "  csHeader.setBorderLeft(HSSFCellStyle.BORDER_MEDIUM);\n",
+    "205": "  csHeader.setBorderRight(HSSFCellStyle.BORDER_MEDIUM);\n",
+    "206": "  csHeader.setBorderTop(HSSFCellStyle.BORDER_MEDIUM);\n",
+    "207": "  csHeader.setAlignment(HSSFCellStyle.ALIGN_CENTER);\n",
+    "208": "  csHeader.setVerticalAlignment(HSSFCellStyle.VERTICAL_CENTER);\n",
+    "211": "  csHeader.setFont(f);\n"
+  }
+}

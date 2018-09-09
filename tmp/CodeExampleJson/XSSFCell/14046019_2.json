@@ -1,0 +1,10 @@
+{
+  "id": "14046019",
+  "lines": {
+    "168": "private static String get2007CellValue(XSSFCell cell, int cellType) {\n",
+    "173": "      Date date = cell.getDateCellValue();\n",
+    "177": "    returnvalue = String.valueOf(cell.getNumericCellValue());\n",
+    "180": "    returnvalue = cell.toString();\n",
+    "183": "    returnvalue = cell.getBooleanCellValue() ? \"true\" : \"false\";\n"
+  }
+}

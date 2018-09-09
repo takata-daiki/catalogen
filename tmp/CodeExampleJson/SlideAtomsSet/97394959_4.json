@@ -1,0 +1,10 @@
+{
+  "id": "97394959",
+  "lines": {
+    "643": "for (SlideAtomsSet ns : nslwt.getSlideAtomsSets()) {\n",
+    "644": "  if (ns.getSlidePersistAtom().getSlideIdentifier() != notesId) {\n",
+    "646": "    records.add(ns.getSlidePersistAtom());\n",
+    "647": "    if (ns.getSlideRecords() != null)\n",
+    "648": "      records.addAll(Arrays.asList(ns.getSlideRecords()));\n"
+  }
+}

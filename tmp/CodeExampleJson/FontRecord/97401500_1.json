@@ -1,0 +1,28 @@
+{
+  "id": "97401500",
+  "lines": {
+    "42": "private FontRecord         font;\n",
+    "61": "    font.setFontName(name);\n",
+    "72": "    return font.getFontName();\n",
+    "95": "    font.setFontHeight(height);\n",
+    "106": "    font.setFontHeight(( short ) (height * 20));\n",
+    "118": "    return font.getFontHeight();\n",
+    "129": "    return ( short ) (font.getFontHeight() / 20);\n",
+    "139": "    font.setItalic(italic);\n",
+    "149": "    return font.isItalic();\n",
+    "159": "    font.setStrikeout(strikeout);\n",
+    "169": "    return font.isStruckout();\n",
+    "181": "    font.setColorPaletteIndex(color);\n",
+    "193": "    return font.getColorPaletteIndex();\n",
+    "214": "    font.setBoldWeight(boldweight);\n",
+    "226": "    return font.getBoldWeight();\n",
+    "239": "    font.setSuperSubScript(offset);\n",
+    "252": "    return font.getSuperSubScript();\n",
+    "267": "    font.setUnderline(underline);\n",
+    "282": "    return font.getUnderline();\n",
+    "295": "    byte charset = font.getCharset();\n",
+    "326": "    font.setCharset(charset);\n",
+    "339": "result = prime * result + ((font == null) ? 0 : font.hashCode());\n",
+    "352": "  } else if (!font.equals(other.font))\n"
+  }
+}

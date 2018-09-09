@@ -1,0 +1,17 @@
+{
+  "id": "48925096",
+  "lines": {
+    "140": "TextPiece currentPiece = (TextPiece)textIt.next();\n",
+    "141": "int currentTextStart = currentPiece.getStart();\n",
+    "142": "int currentTextEnd = currentPiece.getEnd();\n",
+    "163": "    currentTextStart = currentPiece.getStart ();\n",
+    "164": "    currentTextEnd = currentPiece.getEnd ();\n",
+    "169": "    String str = currentPiece.substring(runStart - currentTextStart, runEnd - currentTextStart);\n",
+    "176": "      String str = currentPiece.substring(runStart - currentTextStart,\n",
+    "182": "        currentTextStart = currentPiece.getStart ();\n",
+    "184": "        currentTextEnd = currentPiece.getEnd ();\n",
+    "191": "    String str = currentPiece.substring(0, runEnd - currentTextStart);\n",
+    "200": "      currentTextStart = currentPiece.getStart();\n",
+    "201": "      currentTextEnd = currentPiece.getEnd();\n"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "71798596",
+  "lines": {
+    "375": "public static String cellToString(HSSFCell cell) {\n",
+    "377": "      int type = cell.getCellType();\n",
+    "381": "              result = cell.getNumericCellValue();\n",
+    "384": "              result = cell.getStringCellValue();\n",
+    "392": "              result = cell.getBooleanCellValue();\n"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "93053244",
+  "lines": {
+    "337": "XSSFCellStyle cs = wb.createCellStyle();\n",
+    "338": "  cs.setWrapText(true);\n",
+    "341": "  cs.setBorderBottom(XSSFCellStyle.BORDER_THIN);\n",
+    "342": "  cs.setBottomBorderColor(IndexedColors.BLACK.getIndex());\n",
+    "343": "  cs.setBorderLeft(XSSFCellStyle.BORDER_THIN);\n",
+    "344": "  cs.setLeftBorderColor(IndexedColors.BLACK.getIndex());\n",
+    "345": "  cs.setFillForegroundColor(color);\n",
+    "346": "  cs.setFillPattern(XSSFCellStyle.SOLID_FOREGROUND);   \n",
+    "350": "  cs.setFont(font);\n"
+  }
+}

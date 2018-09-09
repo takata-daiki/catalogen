@@ -1,0 +1,11 @@
+{
+  "id": "15642594",
+  "lines": {
+    "75": "public void insertRow(RowRecord row)\n",
+    "77": "    size += row.getRecordSize();\n",
+    "81": "    if ((row.getRowNumber() < firstrow) || (firstrow == -1))\n",
+    "83": "        firstrow = row.getRowNumber();\n",
+    "85": "    if ((row.getRowNumber() > lastrow) || (lastrow == -1))\n",
+    "87": "        lastrow = row.getRowNumber();\n"
+  }
+}

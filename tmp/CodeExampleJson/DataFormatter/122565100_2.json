@@ -1,0 +1,11 @@
+{
+  "id": "122565100",
+  "lines": {
+    "103": "DataFormatter formatter = new DataFormatter();\n",
+    "105": "assertEquals( \"1\",                     formatter.formatCellValue(sheet.getRow(1).getCell(1)));\n",
+    "106": "assertEquals( \"2019-10-11 13:18:46\",   formatter.formatCellValue(sheet.getRow(1).getCell(2)));\n",
+    "107": "assertEquals( \"3.1415926536\",          formatter.formatCellValue(sheet.getRow(1).getCell(3)));\n",
+    "108": "assertEquals( \"3.1415926536\",          formatter.formatCellValue(sheet.getRow(1).getCell(4)));\n",
+    "109": "assertEquals( \"false\",                 formatter.formatCellValue(sheet.getRow(1).getCell(5)));\n"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": "92131916",
+  "lines": {
+    "139": "private XMLSlideShow generateDetailShop(XMLSlideShow ppt, MarketingSlideInfo slide, Function<String, byte[]> pictureGetter, MarketingReportData mData) {\n",
+    "144": "    XSLFSlide pptSlide = ppt.createSlide();\n",
+    "172": "        int idx = ppt.addPicture(picBytes1, XSLFPictureData.PICTURE_TYPE_PNG);\n"
+  }
+}

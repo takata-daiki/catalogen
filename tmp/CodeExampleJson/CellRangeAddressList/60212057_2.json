@@ -1,0 +1,13 @@
+{
+  "id": "60212057",
+  "lines": {
+    "841": "CellRangeAddressList areas =  ExcelUtils.getEntireRow(workR);\n",
+    "842": "for(int iArea=0; iArea < areas.countRanges(); iArea++)\n",
+    "843": "  ExcelUtils.paste(sh, areas.getCellRangeAddress(iArea), buff, ExcelUtils.xlFormats);\n",
+    "855": "            areas.getCellRangeAddress(0));\n",
+    "863": "  for(int iArea=0; iArea < areas.countRanges(); iArea++){\n",
+    "865": "        areas.getCellRangeAddress(iArea));\n",
+    "872": "    for(int iArea=0; iArea < areas.countRanges(); iArea++){\n",
+    "878": "              areas.getCellRangeAddress(iArea));\n"
+  }
+}

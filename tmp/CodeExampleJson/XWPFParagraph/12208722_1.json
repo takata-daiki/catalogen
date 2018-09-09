@@ -1,0 +1,10 @@
+{
+  "id": "12208722",
+  "lines": {
+    "121": "protected XHTMLPageContentBuffer startVisitPargraph( XWPFParagraph paragraph, XHTMLPageContentBuffer parentContainer )\n",
+    "126": "    if ( paragraph.getStyleID() != null )\n",
+    "130": "            LOGGER.fine( \"StyleID \" + paragraph.getStyleID() );\n",
+    "133": "        parentContainer.setAttribute( CLASS_ATTR, paragraph.getStyleID() );\n",
+    "138": "        XHTMLStyleUtil.getStyle( paragraph, super.getXWPFStyle( paragraph.getStyleID() ), defaults );\n"
+  }
+}

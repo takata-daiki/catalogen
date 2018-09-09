@@ -1,0 +1,10 @@
+{
+  "id": "15642323",
+  "lines": {
+    "402": "HSSFPolygon shape = escherGroup.createPolygon(new HSSFChildAnchor(left,top,right,bottom) );\n",
+    "403": "shape.setPolygonDrawArea(right - left, bottom - top);\n",
+    "404": "shape.setPoints(addToAll(xPoints, -left), addToAll(yPoints, -top));\n",
+    "405": "shape.setLineStyleColor(foreground.getRed(), foreground.getGreen(), foreground.getBlue());\n",
+    "406": "shape.setFillColor(foreground.getRed(), foreground.getGreen(), foreground.getBlue());\n"
+  }
+}

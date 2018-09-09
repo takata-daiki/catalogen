@@ -1,0 +1,11 @@
+{
+  "id": "60212069",
+  "lines": {
+    "768": "  AreaReference areaRef, Object valueSearch, Object valueReplace, byte lookIn, XlLookAt lookAt, XlSearchDirection searchDirection, boolean isFirst, boolean isReplace){\n",
+    "793": "int realFirstRow  = areaRef.getFirstCell().getRow() > sh.getFirstRowNum() ?areaRef.getFirstCell().getRow():sh.getFirstRowNum();\n",
+    "794": "int realLastRow  = areaRef.getLastCell().getRow() < sh.getLastRowNum() ?areaRef.getLastCell().getRow():sh.getLastRowNum();\n",
+    "795": "int realFirstCol  = areaRef.getFirstCell().getCol() > sh.getLeftCol() ?areaRef.getFirstCell().getCol():sh.getLeftCol();\n",
+    "802": "    for(int iCol = realFirstCol; iCol <= areaRef.getLastCell().getCol(); iCol++){\n",
+    "803": "      realCol = searchDirection == XlSearchDirection.xlNext ? iCol: areaRef.getLastCell().getCol()+(realFirstCol-iCol);\n"
+  }
+}

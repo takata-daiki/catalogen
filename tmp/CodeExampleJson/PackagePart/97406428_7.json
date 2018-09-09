@@ -1,0 +1,8 @@
+{
+  "id": "97406428",
+  "lines": {
+    "185": "PackagePart slidePart = getSlidePart(parentSlide);\n",
+    "188": "  notes = slidePart.getRelationshipsByType(XSLFRelation.NOTES.getRelation());\n",
+    "202": "   return slidePart.getRelatedPart(notes.getRelationship(0));\n"
+  }
+}

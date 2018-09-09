@@ -1,0 +1,12 @@
+{
+  "id": "15642643",
+  "lines": {
+    "235": "public boolean addAll(final int index, final IntList c)\n",
+    "241": "    if (c._limit != 0)\n",
+    "243": "        if ((_limit + c._limit) > _array.length)\n",
+    "245": "            growArray(_limit + c._limit);\n",
+    "249": "        System.arraycopy(_array, index, _array, index + c._limit,\n",
+    "253": "        System.arraycopy(c._array, 0, _array, index, c._limit);\n",
+    "254": "        _limit += c._limit;\n"
+  }
+}

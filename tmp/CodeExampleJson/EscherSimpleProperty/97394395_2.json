@@ -1,0 +1,7 @@
+{
+  "id": "97394395",
+  "lines": {
+    "361": "EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.TEXT__TEXTBOTTOM);\n",
+    "362": "int val = prop == null ? EMU_PER_INCH/20 : prop.getPropertyValue();\n"
+  }
+}

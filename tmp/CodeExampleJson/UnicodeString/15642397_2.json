@@ -1,0 +1,18 @@
+{
+  "id": "15642397",
+  "lines": {
+    "865": "UnicodeString str = ( UnicodeString ) obj;\n",
+    "867": "int result = getString().compareTo(str.getString());\n",
+    "874": "if ((field_4_format_runs == null) && (str.field_4_format_runs == null))\n",
+    "878": "if ((field_4_format_runs == null) && (str.field_4_format_runs != null))\n",
+    "881": "if ((field_4_format_runs != null) && (str.field_4_format_runs == null))\n",
+    "887": "if (size != str.field_4_format_runs.size())\n",
+    "888": "  return size - str.field_4_format_runs.size();\n",
+    "892": "  FormatRun run2 = (FormatRun)str.field_4_format_runs.get(i);\n",
+    "901": "if ((field_5_ext_rst == null) && (str.field_5_ext_rst == null))\n",
+    "903": "if ((field_5_ext_rst == null) && (str.field_5_ext_rst != null))\n",
+    "905": "if ((field_5_ext_rst != null) && (str.field_5_ext_rst == null))\n",
+    "914": "  if (field_5_ext_rst[i] != str.field_5_ext_rst[i])\n",
+    "915": "    return field_5_ext_rst[i] - str.field_5_ext_rst[i];\n"
+  }
+}

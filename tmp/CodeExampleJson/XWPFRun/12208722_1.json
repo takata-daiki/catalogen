@@ -1,0 +1,9 @@
+{
+  "id": "12208722",
+  "lines": {
+    "162": "protected void visitRun( XWPFRun run, XHTMLPageContentBuffer paragraphContainer )\n",
+    "172": "        XHTMLStyleUtil.getStyle( run, runStyle, super.getXWPFStyle( run.getParagraph().getStyle() ), defaults );\n",
+    "173": "    List<CTBr> brs = run.getCTR().getBrList();\n",
+    "180": "    List<CTText> texts = run.getCTR().getTList();\n"
+  }
+}

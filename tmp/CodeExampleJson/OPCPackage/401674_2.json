@@ -1,0 +1,8 @@
+{
+  "id": "401674",
+  "lines": {
+    "48": "public static PackagePart getCorePart(OPCPackage pack) {\n",
+    "51": "  for (PackageRelationship rel : pack.getRelationshipsByType(TKitRelationshipTypes.CORE_DOCUMENT))\n",
+    "53": "      res.add(pack.getPart(PackagingURIHelper.createPartName(rel.getTargetURI())));\n"
+  }
+}

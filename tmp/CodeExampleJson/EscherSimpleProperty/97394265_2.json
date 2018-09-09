@@ -1,0 +1,7 @@
+{
+  "id": "97394265",
+  "lines": {
+    "152": "EscherSimpleProperty p = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.LINESTYLE__NOLINEDRAWDASH);\n",
+    "153": "if(p != null && (p.getPropertyValue() & 0x8) == 0) return null;\n"
+  }
+}

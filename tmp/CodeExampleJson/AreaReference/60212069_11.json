@@ -1,0 +1,9 @@
+{
+  "id": "60212069",
+  "lines": {
+    "1315": "AreaReference ref = range(wb, nameRange, mapWbNames, sheetNames);\n",
+    "1316": "if (ref.isSingleCell()){\n",
+    "1317": "  String shName = ref.getFirstCell().getSheetName();\n",
+    "1318": "  return  getCell(wb.getSheet(shName), ref.getFirstCell().getRow(), ref.getFirstCell().getCol());\n"
+  }
+}

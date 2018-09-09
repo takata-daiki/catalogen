@@ -1,0 +1,8 @@
+{
+  "id": "96673299",
+  "lines": {
+    "160": "public static CTDecimalNumber getGridSpan( XWPFTableCell cell )\n",
+    "162": "    if ( cell.getCTTc().getTcPr() != null )\n",
+    "163": "        return cell.getCTTc().getTcPr().getGridSpan();\n"
+  }
+}

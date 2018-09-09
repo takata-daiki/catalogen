@@ -1,0 +1,12 @@
+{
+  "id": "60212069",
+  "lines": {
+    "1184": "CellRangeAddress cra = buffer.getSrcSheet().getMergedRegion(indexMergeRegion);\n",
+    "1185": "if (cra.getFirstRow() >= copyRow1 && cra.getLastRow() <= copyRow2 \n",
+    "1186": "    && cra.getFirstColumn() >= copyCol1 && cra.getLastColumn() <= copyCol2){\n",
+    "1187": "  int offsetRow = cra.getFirstRow()-copyRow1;\n",
+    "1188": "  int offsetCol = cra.getFirstColumn()-copyCol1;\n",
+    "1189": "  int countRowMergeRegion = cra.getLastRow()-cra.getFirstRow();\n",
+    "1190": "  int countColMergeRegion = cra.getLastColumn()-cra.getFirstColumn();\n"
+  }
+}

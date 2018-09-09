@@ -1,0 +1,16 @@
+{
+  "id": "97384386",
+  "lines": {
+    "317": "private final HWPFDocumentCore _doc;\n",
+    "333": "    String text = _doc.getDocumentText();\n",
+    "366": "    for ( CHPX chpx : _doc.getCharacterTable().getTextRuns() )\n",
+    "373": "                    _doc.getStyleSheet(), (short) StyleSheet.NIL_STYLE ) );\n",
+    "389": "                    _doc.getOverallRange() )\n",
+    "434": "    FileInformationBlock fib = _doc.getFileInformationBlock();\n",
+    "594": "    for ( PAPX papx : _doc.getParagraphTable().getParagraphs() )\n",
+    "601": "                    _doc.getOverallRange(), papx );\n",
+    "624": "            for ( PAPX papx : _doc.getParagraphTable().getParagraphs() )\n",
+    "658": "    Range range = _doc.getOverallRange();\n",
+    "753": "    for ( TextPiece textPiece : _doc.getTextTable().getTextPieces() )\n"
+  }
+}

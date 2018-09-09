@@ -1,0 +1,8 @@
+{
+  "id": "60212069",
+  "lines": {
+    "1039": "public static ExcelBuffer copy (HSSFSheet sh, CellRangeAddress cellsRef){\n",
+    "1040": "  return  copy (sh, new AreaReference(new CellReference(cellsRef.getFirstRow(),  cellsRef.getFirstColumn()), \n",
+    "1041": "                      new CellReference(cellsRef.getLastRow(),  cellsRef.getLastColumn())));\n"
+  }
+}

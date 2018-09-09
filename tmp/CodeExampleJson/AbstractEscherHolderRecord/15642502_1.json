@@ -1,0 +1,8 @@
+{
+  "id": "15642502",
+  "lines": {
+    "286": "public void join( AbstractEscherHolderRecord record )\n",
+    "288": "    int length = this.rawData.length + record.getRawData().length;\n",
+    "291": "    System.arraycopy( record.getRawData(), 0, data, rawData.length, record.getRawData().length );\n"
+  }
+}

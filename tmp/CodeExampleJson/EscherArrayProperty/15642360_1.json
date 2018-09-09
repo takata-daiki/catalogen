@@ -1,0 +1,11 @@
+{
+  "id": "15642360",
+  "lines": {
+    "100": "EscherArrayProperty verticesProp = new EscherArrayProperty(EscherProperties.GEOMETRY__VERTICES, false, new byte[0] );\n",
+    "101": "verticesProp.setNumberOfElementsInArray(hssfShape.getXPoints().length+1);\n",
+    "102": "verticesProp.setNumberOfElementsInMemory(hssfShape.getXPoints().length+1);\n",
+    "103": "verticesProp.setSizeOfElements(0xFFF0);\n",
+    "109": "    verticesProp.setElement(i, data);\n",
+    "115": "verticesProp.setElement(point, data);\n"
+  }
+}

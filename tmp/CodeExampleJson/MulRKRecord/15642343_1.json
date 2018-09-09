@@ -1,0 +1,12 @@
+{
+  "id": "15642343",
+  "lines": {
+    "384": "MulRKRecord mrk = ( MulRKRecord ) retval;\n",
+    "386": "realretval = new Record[ mrk.getNumColumns() ];\n",
+    "387": "for (int k = 0; k < mrk.getNumColumns(); k++)\n",
+    "391": "    nr.setColumn(( short ) (k + mrk.getFirstColumn()));\n",
+    "392": "    nr.setRow(mrk.getRow());\n",
+    "393": "    nr.setXFIndex(mrk.getXFAt(k));\n",
+    "394": "    nr.setValue(mrk.getRKNumberAt(k));\n"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "15642364",
+  "lines": {
+    "83": "CommonObjectDataSubRecord c = new CommonObjectDataSubRecord();\n",
+    "84": "c.setObjectType( (short) ( (HSSFSimpleShape) shape ).getShapeType() );\n",
+    "85": "c.setObjectId( (short) ( shapeId ) );\n",
+    "86": "c.setLocked( true );\n",
+    "87": "c.setPrintable( true );\n",
+    "88": "c.setAutofill( true );\n",
+    "89": "c.setAutoline( true );\n"
+  }
+}

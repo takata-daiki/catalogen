@@ -1,0 +1,21 @@
+{
+  "id": "97397924",
+  "lines": {
+    "39": "private DocumentInputStream delegate;\n",
+    "89": "   return delegate.available();\n",
+    "93": "   delegate.close();\n",
+    "97": "  delegate.mark(ignoredReadlimit);\n",
+    "110": "   return delegate.read();\n",
+    "118": "   return delegate.read(b, off, len);\n",
+    "127": "   delegate.reset();\n",
+    "131": "   return delegate.skip(n);\n",
+    "135": "   return delegate.readByte();\n",
+    "139": "   return delegate.readDouble();\n",
+    "151": "   delegate.readFully(buf, off, len);\n",
+    "155": "   return delegate.readLong();\n",
+    "159": "   return delegate.readInt();\n",
+    "163": "   return delegate.readUShort();\n",
+    "167": "   return delegate.readUByte();\n",
+    "171": "  return delegate.position();\n"
+  }
+}

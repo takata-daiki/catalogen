@@ -1,0 +1,10 @@
+{
+  "id": "73662641",
+  "lines": {
+    "149": "protected void writeCell(Object value, HSSFCell cell) {\n",
+    "152": "        cell.setCellValue(num.doubleValue());\n",
+    "154": "        cell.setCellValue((Date) value);\n",
+    "156": "        cell.setCellValue((Calendar) value);\n",
+    "158": "        cell.setCellValue(new HSSFRichTextString(escapeColumnValue(value)));\n"
+  }
+}

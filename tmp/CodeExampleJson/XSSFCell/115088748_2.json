@@ -1,0 +1,11 @@
+{
+  "id": "115088748",
+  "lines": {
+    "81": "final XSSFCell xssfCell = xssfRow.createCell(cell.getColInfo().getSpaltenNr());\n",
+    "84": "    xssfCell.setCellValue(cell.getFormattedValue());\n",
+    "85": "    xssfCell.setCellType(XSSFCell.CELL_TYPE_STRING); //JIRA MOD-32 CellType in Abh\ucc44ngigkeit der ValueClass z.B. Number\n",
+    "91": "    xssfCell.setCellValue(cell.getLabel());\n",
+    "92": "    xssfCell.setHyperlink(xssfHyperlink);\n",
+    "95": "    xssfCell.setCellStyle(hlink_style);\n"
+  }
+}

@@ -6,6 +6,7 @@ import subprocess
 import multiprocessing
 from pprint import pprint
 
+
 def getter(classname, idname):
     dic = {}
     with open('CodeToken/{}/{}.token'.format(classname, idname), 'r') as f:
@@ -31,6 +32,7 @@ def getter(classname, idname):
 
     # pprint(dic)
     return dic
+
 
 def extract(classname, dic):
     catalog = []
@@ -101,7 +103,6 @@ def setter(catalog, classname, idname):
         li.append(tmp)
     # print([[v[0] for v in x] for x in li])
 
-
     jsn = {'id': idname, 'lines': []}
     for x in li:
         lines = {}
@@ -111,14 +112,19 @@ def setter(catalog, classname, idname):
         jsn['lines'].append(lines)
 
     if jsn['lines']:
-        os.makedirs('CodeExample/' + classname, exist_ok=True)
-    # with open('CodeExample/{}/{}.json'.format(classname, idname), 'w') as f:
-    #     json.dump(jsn, f, indent=2)
+        # os.makedirs('CodeExample/' + classname, exist_ok=True)
+        os.makedirs('CodeExampleJson/' + classname, exist_ok=True)
     for idx, val in enumerate(jsn['lines']):
-        with open('CodeExample/{}/{}_{}.txt'.format(classname, idname, idx + 1), 'w') as f:
-            for v in val.values():
-                f.write(v)
-    # print('\n')
+        tmp = {'id': idname, 'lines': {}}
+        with open('CodeExampleJson/{}/{}_{}.json'.format(classname, idname, idx + 1), 'w') as f:
+            mn = min([re.match('(\t| )*', v).end() for v in val.values()])
+            for i, v in val.items():
+                tmp['lines'][i] = v[mn:]
+            json.dump(tmp, f, indent=2)
+    # for idx, val in enumerate(jsn['lines']):
+    #     with open('CodeExample/{}/{}_{}.txt'.format(classname, idname, idx + 1), 'w') as f:
+    #         for v in val.values():
+    #             f.write(v)
 
 
 def f(arg):

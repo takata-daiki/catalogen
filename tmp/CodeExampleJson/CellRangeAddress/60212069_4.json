@@ -1,0 +1,17 @@
+{
+  "id": "60212069",
+  "lines": {
+    "431": "public static CellRangeAddress unionRectangular(CellRangeAddress crA, CellRangeAddress crB){\n",
+    "432": "  boolean isUnion = (crB.getFirstColumn() == crA.getFirstColumn() && \n",
+    "433": "      crB.getLastColumn() == crA.getLastColumn() &&\n",
+    "434": "     (Math.abs(crB.getLastRow()- crA.getFirstRow()) == 1 || \n",
+    "435": "         Math.abs(crB.getFirstRow()- crA.getLastRow())==1)) ||\n",
+    "436": "     (crB.getFirstRow() == crA.getFirstRow() && crB.getLastRow() == crA.getLastRow() &&\n",
+    "437": "     (Math.abs(crB.getLastColumn() - crA.getFirstColumn()) == 1 || \n",
+    "438": "         Math.abs(crB.getFirstColumn()-crA.getLastColumn())==1));\n",
+    "441": "      new CellRangeAddress(Math.min(crA.getFirstRow(), crB.getFirstRow()), \n",
+    "442": "                 Math.max(crA.getLastRow(), crB.getLastRow()),\n",
+    "443": "                 Math.min(crA.getFirstColumn(), crB.getFirstColumn()), \n",
+    "444": "                 Math.max(crA.getLastColumn(), crB.getLastColumn()));\n"
+  }
+}

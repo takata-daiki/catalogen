@@ -1,0 +1,8 @@
+{
+  "id": "92131913",
+  "lines": {
+    "40": "XMLSlideShow ppt = new XMLSlideShow(getClass().getResourceAsStream(\"/marketing_template.pptx\"));\n",
+    "63": "Arrays.stream(ppt.getSlides()).forEach(reportSettings::fillBackgroundAndIncrementIndex);\n",
+    "65": "ppt.write(outputStream);\n"
+  }
+}

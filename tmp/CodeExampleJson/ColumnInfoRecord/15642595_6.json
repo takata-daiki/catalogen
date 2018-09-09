@@ -1,0 +1,9 @@
+{
+  "id": "15642595",
+  "lines": {
+    "209": "public ColumnInfoRecord writeHidden( ColumnInfoRecord columnInfo, int idx, boolean hidden )\n",
+    "211": "    int level = columnInfo.getOutlineLevel();\n",
+    "214": "        columnInfo.setHidden( hidden );\n",
+    "218": "            if (columnInfo.getLastColumn() + 1 == nextColumnInfo.getFirstColumn())\n"
+  }
+}

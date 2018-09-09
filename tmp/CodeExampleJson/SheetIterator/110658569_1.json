@@ -1,0 +1,8 @@
+{
+  "id": "110658569",
+  "lines": {
+    "50": "private void processSheets(final XSSFReader.SheetIterator sheetsData, final SheetProcessor sheetProcessor, final SharedStringsTable sharedStringsTable)\n",
+    "52": "    while(sheetsData.hasNext())\n",
+    "54": "        processNext(sheetsData.next(), sheetsData.getSheetName(), sheetProcessor, sharedStringsTable);\n"
+  }
+}

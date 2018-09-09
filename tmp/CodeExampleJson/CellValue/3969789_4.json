@@ -1,0 +1,9 @@
+{
+  "id": "3969789",
+  "lines": {
+    "179": "CellValue value = _evaluator.evaluate(cell);\n",
+    "180": "assertEquals(1, value.getNumberValue(), 0.0000000000000001);\n",
+    "181": "assertEquals(Cell.CELL_TYPE_NUMERIC, value.getCellType());\n",
+    "195": "assertEquals(2, value.getNumberValue(), 0.0000000000000001);\n"
+  }
+}

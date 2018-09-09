@@ -1,0 +1,9 @@
+{
+  "id": "401675",
+  "lines": {
+    "277": "private PackagePart createPart(OPCPackage pack, PackagePart corePart, String name, File file, String contentType, String relationshipType) {    \n",
+    "281": "    if (pack.containPart(partName))  return null;\n",
+    "283": "    part = pack.createPart(partName, contentType);\n",
+    "287": "      pack.addRelationship(partName, TargetMode.INTERNAL, relationshipType);        \n"
+  }
+}

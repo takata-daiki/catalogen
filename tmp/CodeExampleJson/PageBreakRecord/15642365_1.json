@@ -1,0 +1,11 @@
+{
+  "id": "15642365",
+  "lines": {
+    "116": "protected PageBreakRecord            rowBreaks         =     null;\n",
+    "2775": "  rowBreaks.addBreak((short)row, fromCol, toCol);\n",
+    "2785": "  rowBreaks.removeBreak((short)row);\n",
+    "2794": "  return (rowBreaks == null) ? false : rowBreaks.getBreak((short)row) != null;\n",
+    "2855": "  return rowBreaks.getBreaksIterator();\n",
+    "2863": "  return (rowBreaks == null) ? 0 : (int)rowBreaks.getNumBreaks();\n"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "97384407",
+  "lines": {
+    "178": "protected Paragraph( PAPX papx, Range parent )\n",
+    "180": "    super( Math.max( parent._start, papx.getStart() ), Math.min(\n",
+    "181": "            parent._end, papx.getEnd() ), parent );\n",
+    "182": "    _props = papx.getParagraphProperties( _doc.getStyleSheet() );\n",
+    "183": "    _papx = papx.getSprmBuf();\n",
+    "184": "    _istd = papx.getIstd();\n"
+  }
+}

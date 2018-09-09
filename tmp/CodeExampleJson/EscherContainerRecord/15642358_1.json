@@ -1,0 +1,12 @@
+{
+  "id": "15642358",
+  "lines": {
+    "2177": "EscherContainerRecord dggContainer = new EscherContainerRecord();\n",
+    "2182": "dggContainer.setRecordId((short) 0xF000);\n",
+    "2183": "dggContainer.setOptions((short) 0x000F);\n",
+    "2215": "dggContainer.addChildRecord(dgg);\n",
+    "2217": "    dggContainer.addChildRecord( bstoreContainer );\n",
+    "2218": "dggContainer.addChildRecord(opt);\n",
+    "2219": "dggContainer.addChildRecord(splitMenuColors);\n"
+  }
+}

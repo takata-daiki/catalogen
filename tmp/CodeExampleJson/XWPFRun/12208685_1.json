@@ -1,0 +1,11 @@
+{
+  "id": "12208685",
+  "lines": {
+    "309": "protected void visitRun( XWPFRun run, IITextContainer pdfContainer )\n",
+    "312": "    CTR ctr = run.getCTR();\n",
+    "317": "    CTRPr rprStyle = getRPr( super.getXWPFStyle( run.getParagraph().getStyleID() ) );\n",
+    "324": "    float fontSize = run.getFontSize();\n",
+    "352": "    UnderlinePatterns underlinePatterns = run.getUnderline();\n",
+    "372": "    List<CTText> texts = run.getCTR().getTList();\n"
+  }
+}

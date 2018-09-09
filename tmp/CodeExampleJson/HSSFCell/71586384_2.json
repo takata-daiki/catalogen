@@ -1,0 +1,10 @@
+{
+  "id": "71586384",
+  "lines": {
+    "165": "HSSFCell aCell = aRow.getCell(index);\n",
+    "166": "if(aCell.getCellType() == HSSFCell.CELL_TYPE_STRING) {\n",
+    "167": "  currstr = aCell.getStringCellValue();\n",
+    "168": "} else if (aCell.getCellType() == HSSFCell.CELL_TYPE_NUMERIC) {\n",
+    "169": "  val[index-1] = aCell.getNumericCellValue();\n"
+  }
+}

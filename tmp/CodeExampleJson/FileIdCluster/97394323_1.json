@@ -1,0 +1,9 @@
+{
+  "id": "97394323",
+  "lines": {
+    "276": "EscherDggRecord.FileIdCluster c = dgg.getFileIdClusters()[i];\n",
+    "277": "if (c.getDrawingGroupId() == dg.getDrawingGroupId() && c.getNumShapeIdsUsed() != 1024)\n",
+    "279": "    int result = c.getNumShapeIdsUsed() + (1024 * (i+1));\n",
+    "280": "    c.incrementShapeId();\n"
+  }
+}

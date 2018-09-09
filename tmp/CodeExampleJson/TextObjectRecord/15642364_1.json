@@ -1,0 +1,14 @@
+{
+  "id": "15642364",
+  "lines": {
+    "158": "TextObjectRecord obj = new TextObjectRecord();\n",
+    "159": "obj.setHorizontalTextAlignment( TextObjectRecord.HORIZONTAL_TEXT_ALIGNMENT_LEFT_ALIGNED );\n",
+    "160": "obj.setVerticalTextAlignment( TextObjectRecord.VERTICAL_TEXT_ALIGNMENT_TOP );\n",
+    "161": "obj.setTextLocked( true );\n",
+    "162": "obj.setTextOrientation( TextObjectRecord.TEXT_ORIENTATION_NONE );\n",
+    "164": "obj.setFormattingRunLength( (short) frLength );\n",
+    "165": "obj.setTextLength( (short) shape.getString().length() );\n",
+    "166": "obj.setStr( shape.getString() );\n",
+    "167": "obj.setReserved7( 0 );\n"
+  }
+}

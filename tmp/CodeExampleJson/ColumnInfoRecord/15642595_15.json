@@ -1,0 +1,11 @@
+{
+  "id": "15642595",
+  "lines": {
+    "464": "private void setColumnInfoFields( ColumnInfoRecord ci, Short xfStyle, Short width, Integer level, Boolean hidden, Boolean collapsed )\n",
+    "467": "  ci.setXFIndex(xfStyle.shortValue());\n",
+    "469": "        ci.setColumnWidth(width.shortValue());\n",
+    "471": "        ci.setOutlineLevel( level.shortValue() );\n",
+    "473": "        ci.setHidden( hidden.booleanValue() );\n",
+    "475": "        ci.setCollapsed( collapsed.booleanValue() );\n"
+  }
+}

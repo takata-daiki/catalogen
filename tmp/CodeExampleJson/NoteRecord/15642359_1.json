@@ -1,0 +1,11 @@
+{
+  "id": "15642359",
+  "lines": {
+    "60": "private NoteRecord note;\n",
+    "100": "    note.setColumn(shape.getColumn());\n",
+    "101": "    note.setRow((short)shape.getRow());\n",
+    "102": "    note.setFlags(shape.isVisible() ? NoteRecord.NOTE_VISIBLE : NoteRecord.NOTE_HIDDEN);\n",
+    "103": "    note.setShapeId((short)shapeId);\n",
+    "104": "    note.setAuthor(shape.getAuthor() == null ? \"\" : shape.getAuthor());\n"
+  }
+}

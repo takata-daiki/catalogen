@@ -1,0 +1,16 @@
+{
+  "id": "15642316",
+  "lines": {
+    "1309": "EscherBSERecord r = new EscherBSERecord();\n",
+    "1310": "r.setRecordId( EscherBSERecord.RECORD_ID );\n",
+    "1311": "r.setOptions( (short) ( 0x0002 | ( format << 4 ) ) );\n",
+    "1312": "r.setBlipTypeMacOS( (byte) format );\n",
+    "1313": "r.setBlipTypeWin32( (byte) format );\n",
+    "1314": "r.setUid( uid );\n",
+    "1315": "r.setTag( (short) 0xFF );\n",
+    "1316": "r.setSize( pictureData.length + 25 );\n",
+    "1317": "r.setRef( 1 );\n",
+    "1318": "r.setOffset( 0 );\n",
+    "1319": "r.setBlipRecord( blipRecord );\n"
+  }
+}

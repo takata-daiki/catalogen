@@ -1,0 +1,11 @@
+{
+  "id": "72853788",
+  "lines": {
+    "44": "XSSFSheet sheet = wb.createSheet();\n",
+    "45": "List<XSSFDataValidation> dataValidations = sheet.getDataValidations();  //<-- works\n",
+    "49": "sheet.createRow(0).createCell(0);    \n",
+    "51": "DataValidationHelper dataValidationHelper = sheet.getDataValidationHelper();\n",
+    "55": "sheet.addValidationData(validation);          \n",
+    "57": "dataValidations = sheet.getDataValidations();  //<-- raised XmlValueOutOfRangeException  \n"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "122565050",
+  "lines": {
+    "46": "AreaReference ref = new AreaReference( namedRange.getRefersToFormula() );\n",
+    "49": "  assertTrue( ref.isSingleCell() );\n",
+    "50": "  assertEquals( row1, ref.getFirstCell().getRow() );\n",
+    "51": "  assertEquals( col1, ref.getFirstCell().getCol() );\n",
+    "54": "  assertEquals( row1, Math.min( ref.getFirstCell().getRow(), ref.getLastCell().getRow() ) );\n",
+    "55": "  assertEquals( col1, Math.min( ref.getFirstCell().getCol(), ref.getLastCell().getCol() ) );\n",
+    "56": "  assertEquals( row2, Math.max( ref.getFirstCell().getRow(), ref.getLastCell().getRow() ) );\n",
+    "57": "  assertEquals( col2, Math.max( ref.getFirstCell().getCol(), ref.getLastCell().getCol() ) );\n"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": "60336976",
+  "lines": {
+    "105": "HSSFName nameDataBeg = ExcelUtils.getNamedRange(wb, dataBegFieldName);\n",
+    "107": "String nameShData = nameDataBeg.getSheetName();\n",
+    "110": "AreaReference areaDataBeg = new AreaReference(nameDataBeg.getRefersToFormula());\n"
+  }
+}

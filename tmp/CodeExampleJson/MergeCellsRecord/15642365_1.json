@@ -1,0 +1,12 @@
+{
+  "id": "15642365",
+  "lines": {
+    "104": "protected MergeCellsRecord           merged            =     null;\n",
+    "202": "            retval.numMergedRegions += retval.merged.getNumAreas();\n",
+    "522": "    if (merged == null || merged.getNumAreas() == 1027)\n",
+    "528": "    merged.addArea(rowFrom, colFrom, rowTo, colTo);\n",
+    "542": "    if (numMergedRegions - index < merged.getNumAreas())\n",
+    "545": "        startNumRegions = numMergedRegions - merged.getNumAreas(); \n",
+    "594": "        startNumRegions = numMergedRegions - merged.getNumAreas();\n"
+  }
+}

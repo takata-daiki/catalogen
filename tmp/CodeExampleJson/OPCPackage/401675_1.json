@@ -1,0 +1,10 @@
+{
+  "id": "401675",
+  "lines": {
+    "103": "private OPCPackage pack;\n",
+    "228": "    pack.close();\n",
+    "281": "    if (pack.containPart(partName))  return null;\n",
+    "283": "    part = pack.createPart(partName, contentType);\n",
+    "287": "      pack.addRelationship(partName, TargetMode.INTERNAL, relationshipType);        \n"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "97396300",
+  "lines": {
+    "65": "Pointer ptr = stream.getPointer();\n",
+    "66": "System.out.println(ind + \"Stream at\\t\" + ptr.getOffset() +\n",
+    "67": "    \" - \" + Integer.toHexString(ptr.getOffset()));\n",
+    "68": "System.out.println(ind + \"  Type is\\t\" + ptr.getType() +\n",
+    "69": "    \" - \" + Integer.toHexString(ptr.getType()));\n",
+    "70": "System.out.println(ind + \"  Format is\\t\" + ptr.getFormat() +\n",
+    "71": "    \" - \" + Integer.toHexString(ptr.getFormat()));\n",
+    "72": "System.out.println(ind + \"  Length is\\t\" + ptr.getLength() +\n",
+    "73": "    \" - \" + Integer.toHexString(ptr.getLength()));\n",
+    "74": "if(ptr.destinationCompressed()) {\n",
+    "79": "System.out.println(ind + \"  Compressed is\\t\" + ptr.destinationCompressed());\n"
+  }
+}

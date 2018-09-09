@@ -1,0 +1,10 @@
+{
+  "id": "48925118",
+  "lines": {
+    "65": "public void processPOIFSReaderEvent(final POIFSReaderEvent event) {\n",
+    "67": "  if (event == null || event.getName() == null\n",
+    "68": "      || !event.getName().startsWith(PPTConstants.POWERPOINT_DOCUMENT)) {\n",
+    "71": "               + event.getName());\n",
+    "77": "    final DocumentInputStream dis = event.getStream();\n"
+  }
+}

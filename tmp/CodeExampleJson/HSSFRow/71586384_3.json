@@ -1,0 +1,9 @@
+{
+  "id": "71586384",
+  "lines": {
+    "161": "HSSFRow aRow = aSheet.getRow(rowNumOfSheet);\n",
+    "163": "for (int index = 0; index <= aRow.getLastCellNum(); index++) {\n",
+    "164": "  if (null != aRow.getCell(index)) {\n",
+    "165": "    HSSFCell aCell = aRow.getCell(index);\n"
+  }
+}

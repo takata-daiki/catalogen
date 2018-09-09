@@ -1,0 +1,9 @@
+{
+  "id": "15642365",
+  "lines": {
+    "2741": "public void shiftBreaks(PageBreakRecord breaks, short start, short stop, int count) {\n",
+    "2745": "  Iterator iterator = breaks.getBreaksIterator();\n",
+    "2760": "    breaks.removeBreak(breakItem.main);\n",
+    "2761": "    breaks.addBreak((short)(breakItem.main+count), breakItem.subFrom, breakItem.subTo);\n"
+  }
+}

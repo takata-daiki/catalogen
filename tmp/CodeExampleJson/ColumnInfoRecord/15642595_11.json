@@ -1,0 +1,24 @@
+{
+  "id": "15642595",
+  "lines": {
+    "371": "  ColumnInfoRecord ci = null;\n",
+    "377": "      if ((ci.getFirstColumn() <= column)\n",
+    "378": "              && (column <= ci.getLastColumn()))\n",
+    "387": "boolean styleChanged = xfIndex != null && ci.getXFIndex() != xfIndex.shortValue();\n",
+    "388": "      boolean widthChanged = width != null && ci.getColumnWidth() != width.shortValue();\n",
+    "389": "      boolean levelChanged = level != null && ci.getOutlineLevel() != level.intValue();\n",
+    "390": "      boolean hiddenChanged = hidden != null && ci.getHidden() != hidden.booleanValue();\n",
+    "391": "      boolean collapsedChanged = collapsed != null && ci.getCollapsed() != collapsed.booleanValue();\n",
+    "397": "      else if ((ci.getFirstColumn() == column)\n",
+    "398": "               && (ci.getLastColumn() == column))\n",
+    "403": "               || (ci.getLastColumn() == column))\n",
+    "407": "          if (ci.getFirstColumn() == column)\n",
+    "409": "              ci.setFirstColumn(( short ) (column + 1));\n",
+    "413": "              ci.setLastColumn(( short ) (column - 1));\n",
+    "419": "          nci.setOptions(ci.getOptions());\n",
+    "420": "          nci.setXFIndex(ci.getXFIndex());\n",
+    "428": "          short lastcolumn = ci.getLastColumn();\n",
+    "429": "          ci.setLastColumn(( short ) (column - 1));\n",
+    "444": "          nci.setColumnWidth(ci.getColumnWidth());\n"
+  }
+}

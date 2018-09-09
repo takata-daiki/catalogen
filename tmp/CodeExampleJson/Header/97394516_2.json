@@ -1,0 +1,11 @@
+{
+  "id": "97394516",
+  "lines": {
+    "81": "Header header = new Header();\n",
+    "82": "header.wmfsize = data.length - aldus.getSize();\n",
+    "83": "header.bounds = new and.awt.Rectangle((short)aldus.left, (short)aldus.top, (short)aldus.right-(short)aldus.left, (short)aldus.bottom-(short)aldus.top);\n",
+    "86": "header.size = new and.awt.Dimension(header.bounds.width*coeff, header.bounds.height*coeff);\n",
+    "87": "header.zipsize = compressed.length;\n",
+    "92": "header.write(out);\n"
+  }
+}

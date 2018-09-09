@@ -1,0 +1,14 @@
+{
+  "id": "15642354",
+  "lines": {
+    "137": "protected int addStandardOptions( HSSFShape shape, EscherOptRecord opt )\n",
+    "141": "    if ( shape.isNoFill() )\n",
+    "150": "    opt.addEscherProperty( new EscherRGBProperty( EscherProperties.FILL__FILLCOLOR, shape.getFillColor() ) );\n",
+    "152": "    opt.addEscherProperty( new EscherRGBProperty( EscherProperties.LINESTYLE__COLOR, shape.getLineStyleColor() ) );\n",
+    "154": "    if (shape.getLineWidth() != HSSFShape.LINEWIDTH_DEFAULT)\n",
+    "156": "        opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.LINESTYLE__LINEWIDTH, shape.getLineWidth()));\n",
+    "159": "    if (shape.getLineStyle() != HSSFShape.LINESTYLE_SOLID)\n",
+    "161": "        opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.LINESTYLE__LINEDASHING, shape.getLineStyle()));\n",
+    "163": "        if (shape.getLineStyle() == HSSFShape.LINESTYLE_NONE)\n"
+  }
+}
