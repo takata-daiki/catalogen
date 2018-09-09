@@ -1,0 +1,11 @@
+{
+  "id": "15642365",
+  "lines": {
+    "1122": "public void addRow(RowRecord row)\n",
+    "1129": "    if (row.getRowNumber() >= d.getLastRow())\n",
+    "1131": "        d.setLastRow(row.getRowNumber() + 1);\n",
+    "1133": "    if (row.getRowNumber() < d.getFirstRow())\n",
+    "1135": "        d.setFirstRow(row.getRowNumber());\n",
+    "1139": "     RowRecord existingRow = rows.getRow(row.getRowNumber());\n"
+  }
+}

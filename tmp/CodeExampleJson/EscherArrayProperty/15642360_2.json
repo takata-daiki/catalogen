@@ -1,0 +1,15 @@
+{
+  "id": "15642360",
+  "lines": {
+    "117": "EscherArrayProperty segmentsProp = new EscherArrayProperty(EscherProperties.GEOMETRY__SEGMENTINFO, false, null );\n",
+    "118": "segmentsProp.setSizeOfElements(0x0002);\n",
+    "119": "segmentsProp.setNumberOfElementsInArray(hssfShape.getXPoints().length * 2 + 4);\n",
+    "120": "segmentsProp.setNumberOfElementsInMemory(hssfShape.getXPoints().length * 2 + 4);\n",
+    "121": "segmentsProp.setElement(0, new byte[] { (byte)0x00, (byte)0x40 } );\n",
+    "122": "segmentsProp.setElement(1, new byte[] { (byte)0x00, (byte)0xAC } );\n",
+    "125": "    segmentsProp.setElement(2 + i * 2, new byte[] { (byte)0x01, (byte)0x00 } );\n",
+    "126": "    segmentsProp.setElement(3 + i * 2, new byte[] { (byte)0x00, (byte)0xAC } );\n",
+    "128": "segmentsProp.setElement(segmentsProp.getNumberOfElementsInArray() - 2, new byte[] { (byte)0x01, (byte)0x60 } );\n",
+    "129": "segmentsProp.setElement(segmentsProp.getNumberOfElementsInArray() - 1, new byte[] { (byte)0x00, (byte)0x80 } );\n"
+  }
+}

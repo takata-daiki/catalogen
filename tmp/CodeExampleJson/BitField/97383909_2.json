@@ -1,0 +1,9 @@
+{
+  "id": "97383909",
+  "lines": {
+    "35": "private static BitField fVersion = BitFieldFactory.getInstance(0x000f);\n",
+    "132": "    setVersion( fVersion.getShortValue( options ) );\n",
+    "284": "    return fVersion.getShortValue( _options );\n",
+    "295": "    _options = fVersion.setShortValue( _options, value );\n"
+  }
+}

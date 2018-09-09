@@ -1,0 +1,10 @@
+{
+  "id": "64531687",
+  "lines": {
+    "59": "XSSFPrintSetup printSetup = sheet0.getPrintSetup();\n",
+    "60": "assertEquals( PaperSize.A4_PAPER,  printSetup.getPaperSizeEnum() );\n",
+    "61": "assertEquals( PrintOrientation.LANDSCAPE, printSetup.getOrientation() );\n",
+    "62": "assertEquals( 1.0 / 2.54, printSetup.getHeaderMargin(), 0.01 );\n",
+    "63": "assertEquals( 1.0 / 2.54, printSetup.getFooterMargin(), 0.01 );\n"
+  }
+}

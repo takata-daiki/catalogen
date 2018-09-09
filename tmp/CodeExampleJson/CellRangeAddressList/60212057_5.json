@@ -1,0 +1,9 @@
+{
+  "id": "60212057",
+  "lines": {
+    "1358": "CellRangeAddressList list = ExcelUtils.getSpecialCells(sh, cra, ExcelUtils.XlCellType.xlCellTypeFormulas);\n",
+    "1359": "if (list != null && list.getSize() >0){\n",
+    "1360": "  for(int jj=0; jj < list.countRanges(); jj++){\n",
+    "1361": "  CellRangeAddress crb = list.getCellRangeAddress(jj);  \n"
+  }
+}

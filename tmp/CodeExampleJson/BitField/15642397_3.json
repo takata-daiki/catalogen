@@ -1,0 +1,10 @@
+{
+  "id": "15642397",
+  "lines": {
+    "77": "private  static final BitField   richText  = BitFieldFactory.getInstance(0x8);\n",
+    "431": "  field_2_optionflags = richText.setByte(field_2_optionflags);\n",
+    "444": "    field_2_optionflags = richText.clearByte(field_2_optionflags);\n",
+    "450": "  field_2_optionflags = richText.clearByte(field_2_optionflags);\n",
+    "924": "  return richText.isSet(getOptionFlags());\n"
+  }
+}

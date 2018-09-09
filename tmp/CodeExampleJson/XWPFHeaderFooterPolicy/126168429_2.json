@@ -1,0 +1,12 @@
+{
+  "id": "126168429",
+  "lines": {
+    "145": "private void extractHeaders(final StringBuilder buffy, final XWPFHeaderFooterPolicy hfPolicy) {\n",
+    "146": "  if (hfPolicy.getFirstPageHeader() != null) {\n",
+    "147": "    buffy.append(hfPolicy.getFirstPageHeader().getText()).append(' ');\n",
+    "149": "  if (hfPolicy.getEvenPageHeader() != null) {\n",
+    "150": "    buffy.append(hfPolicy.getEvenPageHeader().getText()).append(' ');\n",
+    "152": "  if (hfPolicy.getDefaultHeader() != null) {\n",
+    "153": "    buffy.append(hfPolicy.getDefaultHeader().getText()).append(' ');\n"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "15642359",
+  "lines": {
+    "117": "protected int addStandardOptions( HSSFShape shape, EscherOptRecord opt )\n",
+    "122": "    java.util.List props = opt.getEscherProperties();\n",
+    "139": "    opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.GROUPSHAPE__PRINT, comment.isVisible() ? 0x000A0000 : 0x000A0002) );\n",
+    "140": "    opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.SHADOWSTYLE__SHADOWOBSURED, 0x00030003 ) );\n",
+    "141": "    opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.SHADOWSTYLE__COLOR, 0x00000000 ) );\n",
+    "142": "    opt.sortProperties();\n",
+    "143": "    return opt.getEscherProperties().size();   // # options added\n"
+  }
+}

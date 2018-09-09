@@ -1,0 +1,17 @@
+{
+  "id": "15642365",
+  "lines": {
+    "110": "protected ValueRecordsAggregate      cells             =     null;\n",
+    "231": "                retval.cells.construct( k, recs );\n",
+    "633": "            records.size(), cells.getPhysicalNumberOfCells(),\n",
+    "635": "            records.size() + cells.getPhysicalNumberOfCells()\n",
+    "639": "    return records.size() + cells.getPhysicalNumberOfCells()\n",
+    "823": "    cellBlockOffset += null == cells ? 0 : cells.getRowCellBlockSize(rows.getStartRowNumberForBlock(block),\n",
+    "1001": "    cells.insertCell(col);\n",
+    "1044": "    cells.removeCell(col);\n",
+    "1089": "    cells.removeCell(newval);\n",
+    "1090": "    cells.insertCell(newval);\n",
+    "1245": "        valueRecIterator = cells.getIterator();\n",
+    "2197": "            if (cells != null && cells.rowHasCells(row.getRowNumber()))\n"
+  }
+}

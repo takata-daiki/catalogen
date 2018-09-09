@@ -1,0 +1,17 @@
+{
+  "id": "12208720",
+  "lines": {
+    "126": "public static StringBuilder getStyle( XWPFParagraph paragraph, XWPFStyle style, CTDocDefaults defaults )\n",
+    "181": "    if ( indentationLeft == -1 && paragraph.getIndentationLeft() != -1 )\n",
+    "183": "        indentationLeft = dxa2points( paragraph.getIndentationLeft() );\n",
+    "185": "    if ( indentationRight == -1 && paragraph.getIndentationRight() != -1 )\n",
+    "187": "        indentationRight = dxa2points( paragraph.getIndentationRight() );\n",
+    "189": "    if ( firstLineIndent == -1 && paragraph.getIndentationFirstLine() != -1 )\n",
+    "191": "        firstLineIndent = dxa2points( paragraph.getIndentationFirstLine() );\n",
+    "193": "    if ( spacingBefore == -1 && paragraph.getSpacingBefore() != -1 )\n",
+    "195": "        spacingBefore = dxa2points( paragraph.getSpacingBefore() );\n",
+    "197": "    if ( spacingAfter == -1 && paragraph.getSpacingAfter() != -1 )\n",
+    "199": "        spacingAfter = dxa2points( paragraph.getSpacingAfter() );\n",
+    "222": "    ParagraphAlignment alignment = paragraph.getAlignment();\n"
+  }
+}

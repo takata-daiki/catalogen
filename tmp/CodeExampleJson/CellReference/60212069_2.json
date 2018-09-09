@@ -1,0 +1,9 @@
+{
+  "id": "60212069",
+  "lines": {
+    "660": "for(CellReference cellRef:areaRef.getAllReferencedCells()){\n",
+    "662": "    HSSFCell cell = getCell(sh, cellRef.getRow(), cellRef.getCol());\n",
+    "665": "      getRow(sh, cellRef.getRow()).setZeroHeight(true);\n",
+    "667": "  else getRow(sh, cellRef.getRow()).setZeroHeight(false);\n"
+  }
+}

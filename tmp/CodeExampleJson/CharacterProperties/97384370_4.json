@@ -1,0 +1,20 @@
+{
+  "id": "97384370",
+  "lines": {
+    "164": "static void unCompressCHPOperation (CharacterProperties oldCHP,\n",
+    "338": "          newCHP = oldCHP.clone();\n",
+    "345": "      newCHP.setFBold (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFBold ()));\n",
+    "348": "      newCHP.setFItalic (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFItalic ()));\n",
+    "351": "      newCHP.setFStrike (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFStrike ()));\n",
+    "354": "      newCHP.setFOutline (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFOutline ()));\n",
+    "357": "      newCHP.setFShadow (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFShadow ()));\n",
+    "360": "      newCHP.setFSmallCaps (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFSmallCaps ()));\n",
+    "363": "      newCHP.setFCaps (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFCaps ()));\n",
+    "366": "      newCHP.setFVanish (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFVanish ()));\n",
+    "397": "      if (fAdjust && hpsPos != 128 && hpsPos != 0 && oldCHP.getHpsPos () == 0)\n",
+    "401": "      if (fAdjust && hpsPos == 0 && oldCHP.getHpsPos () != 0)\n",
+    "428": "        if (oldCHP.getHpsPos () == 0)\n",
+    "435": "        if (oldCHP.getHpsPos () != 0)\n",
+    "712": "        oldCHP.isFNoProof()));\n"
+  }
+}

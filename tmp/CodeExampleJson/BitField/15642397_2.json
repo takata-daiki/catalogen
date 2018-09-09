@@ -1,0 +1,9 @@
+{
+  "id": "15642397",
+  "lines": {
+    "76": "private  static final BitField   extBit    = BitFieldFactory.getInstance(0x4);\n",
+    "459": "    field_2_optionflags = extBit.setByte(field_2_optionflags);\n",
+    "460": "  else field_2_optionflags = extBit.clearByte(field_2_optionflags);\n",
+    "929": "    return extBit.isSet(getOptionFlags());\n"
+  }
+}

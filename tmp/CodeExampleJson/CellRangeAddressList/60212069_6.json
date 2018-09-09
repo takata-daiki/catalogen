@@ -1,0 +1,9 @@
+{
+  "id": "60212069",
+  "lines": {
+    "1005": "CellRangeAddressList listCrA = new CellRangeAddressList(); \n",
+    "1010": "    listCrA.addCellRangeAddress(crA);\n",
+    "1018": "  listCrA.addCellRangeAddress(crA);\n",
+    "1020": "return listCrA.countRanges() > 0?listCrA:null;\n"
+  }
+}

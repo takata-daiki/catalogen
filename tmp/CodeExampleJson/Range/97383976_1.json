@@ -1,0 +1,24 @@
+{
+  "id": "97383976",
+  "lines": {
+    "293": "    final int currentTableLevel, final Range range, final Element block )\n",
+    "312": "            .getBookmarksStartedBetween( range.getStartOffset(),\n",
+    "313": "                    range.getEndOffset() );\n",
+    "330": "    for ( int c = 0; c < range.numCharacterRuns(); c++ )\n",
+    "332": "        CharacterRun characterRun = range.getCharacterRun( c );\n",
+    "359": "                                characterRun.getStartOffset(), range\n",
+    "372": "int previous = range.getStartOffset();\n",
+    "409": "            int end = Math.min( range.getEndOffset(), structure.end );\n",
+    "446": "    previous = Math.min( range.getEndOffset(), structure.end );\n",
+    "449": "if ( previous != range.getStartOffset() )\n",
+    "451": "    if ( previous > range.getEndOffset() )\n",
+    "455": "                range.getStartOffset() + \"; \" + range.getEndOffset(),\n",
+    "460": "    if ( previous < range.getEndOffset() )\n",
+    "462": "        Range subrange = new Range( previous, range.getEndOffset(),\n",
+    "477": "for ( int c = 0; c < range.numCharacterRuns(); c++ )\n",
+    "479": "    CharacterRun characterRun = range.getCharacterRun( c );\n",
+    "547": "                while ( c < range.numCharacterRuns()\n",
+    "548": "                        && range.getCharacterRun( c ).getEndOffset() <= continueAfter )\n",
+    "551": "                if ( c < range.numCharacterRuns() )\n"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "15642594",
+  "lines": {
+    "385": "RowRecord rowrec = new RowRecord();\n",
+    "388": "rowrec.setRowNumber(row);\n",
+    "389": "rowrec.setHeight(( short ) 0xff);\n",
+    "390": "rowrec.setOptimize(( short ) 0x0);\n",
+    "391": "rowrec.setOptionFlags(( short ) 0x100);  // seems necessary for outlining\n",
+    "392": "rowrec.setXFIndex(( short ) 0xf);\n"
+  }
+}

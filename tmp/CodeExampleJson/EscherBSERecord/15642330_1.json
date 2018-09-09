@@ -1,0 +1,8 @@
+{
+  "id": "15642330",
+  "lines": {
+    "127": "EscherBSERecord bse = (EscherBSERecord)patriarch.sheet.book.getBSERecord(pictureIndex);\n",
+    "128": "byte[] data = bse.getBlipRecord().getPicturedata();\n",
+    "129": "int type = bse.getBlipTypeWin32();\n"
+  }
+}

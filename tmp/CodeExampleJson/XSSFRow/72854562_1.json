@@ -1,0 +1,9 @@
+{
+  "id": "72854562",
+  "lines": {
+    "253": "XSSFRow xssfRow = xssfSheet.getRow(setCellValue.getRow());\n",
+    "257": "XSSFCell xssfCell = xssfRow.getCell(setCellValue.getCol());\n",
+    "259": "    xssfCell = xssfRow.createCell(setCellValue.getCol());\n",
+    "266": "        xssfRow.removeCell(xssfCell);\n"
+  }
+}

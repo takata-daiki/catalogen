@@ -1,0 +1,9 @@
+{
+  "id": "60212057",
+  "lines": {
+    "2000": "CellRangeAddress workMergeRef1 = ExcelUtils.mergeArea(activeSheet, new CellReference(cellAHRef.getFirstCell().getRow(), lastCol + 1));\n",
+    "2009": "HSSFCell srcCell = ExcelUtils.getCell(activeSheet, workMergeRef1.getFirstRow(), workMergeRef1.getFirstColumn());\n",
+    "2014": "for(int row=workMergeRef1.getFirstRow(); row <=workMergeRef1.getLastRow(); row++)\n",
+    "2015": "  for(int col=workMergeRef1.getFirstColumn(); col <=workMergeRef1.getLastColumn(); col++)\n"
+  }
+}

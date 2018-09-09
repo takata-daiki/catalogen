@@ -1,0 +1,9 @@
+{
+  "id": "111785505",
+  "lines": {
+    "73": "PackageRelationshipCollection core = \n",
+    "75": "if(core.size() != 1) {\n",
+    "76": "   throw new IOException(\"Invalid OOXML Package received - expected 1 core document, found \" + core.size());\n",
+    "80": "PackagePart corePart = pkg.getPart(core.getRelationship(0));\n"
+  }
+}

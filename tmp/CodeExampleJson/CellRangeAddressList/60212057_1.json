@@ -1,0 +1,10 @@
+{
+  "id": "60212057",
+  "lines": {
+    "797": "CellRangeAddressList workR, sArea, workFormul;\n",
+    "820": "          workR.addCellRangeAddress(yyy, yyy, 0, 0);\n",
+    "823": "    if (workR != null && workR.countRanges() > 0){\n",
+    "825": "        CellRangeAddress cellReff = workR.getCellRangeAddress(0);\n",
+    "832": "        cellReff = workR.getCellRangeAddress(workR.countRanges()-1);\n"
+  }
+}

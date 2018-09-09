@@ -1,0 +1,14 @@
+{
+  "id": "112311786",
+  "lines": {
+    "107": "final HSSFCellStyle headerCellStyle = workbook.createCellStyle();\n",
+    "108": "headerCellStyle.setAlignment(HSSFCellStyle.ALIGN_CENTER);\n",
+    "109": "headerCellStyle.setFont(headerFont);\n",
+    "110": "headerCellStyle.setBorderBottom(HSSFCellStyle.BORDER_THIN);\n",
+    "111": "headerCellStyle.setBottomBorderColor(HSSFColor.BLACK.index);\n",
+    "112": "headerCellStyle.setBorderLeft(HSSFCellStyle.BORDER_THIN);\n",
+    "113": "headerCellStyle.setLeftBorderColor(HSSFColor.BLACK.index);\n",
+    "114": "headerCellStyle.setBorderRight(HSSFCellStyle.BORDER_THIN);\n",
+    "115": "headerCellStyle.setRightBorderColor(HSSFColor.BLACK.index);\n"
+  }
+}

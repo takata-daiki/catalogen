@@ -1,0 +1,9 @@
+{
+  "id": "15642365",
+  "lines": {
+    "1970": "GutsRecord guts = (GutsRecord) findFirstRecordBySid( GutsRecord.sid );\n",
+    "1971": "guts.setColLevelMax( (short) ( maxLevel+1 ) );\n",
+    "1973": "    guts.setTopColGutter( (short)0 );\n",
+    "1975": "    guts.setTopColGutter( (short) ( 29 + (12 * (maxLevel-1)) ) );\n"
+  }
+}

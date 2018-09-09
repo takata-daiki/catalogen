@@ -1,0 +1,8 @@
+{
+  "id": "60212069",
+  "lines": {
+    "653": "public static void autoFilter(HSSFSheet sh, CellRangeAddress cellsRef, Object filterValue){\n",
+    "654": "  autoFilter(sh, new  AreaReference(new CellReference(cellsRef.getFirstRow(), cellsRef.getFirstColumn()),\n",
+    "655": "      new CellReference(cellsRef.getLastRow(), cellsRef.getLastColumn())), filterValue);\n"
+  }
+}

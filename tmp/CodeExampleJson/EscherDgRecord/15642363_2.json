@@ -1,0 +1,11 @@
+{
+  "id": "15642363",
+  "lines": {
+    "86": "EscherDgRecord dg = (EscherDgRecord) dgMap.get(new Short(drawingGroupId));\n",
+    "87": "int lastShapeId = dg.getLastMSOSPID();\n",
+    "116": "        if (dg.getLastMSOSPID() == -1)\n",
+    "123": "            newShapeId = dg.getLastMSOSPID() + 1;\n",
+    "137": "dg.setLastMSOSPID(newShapeId);\n",
+    "139": "dg.incrementShapeCount();\n"
+  }
+}

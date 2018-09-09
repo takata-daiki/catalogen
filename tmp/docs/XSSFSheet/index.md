@@ -1,0 +1,224 @@
+# XSSFSheet
+
+***
+
+### [Cluster 1](./1)
+{% highlight java %}
+115. XSSFSheet sheet3 = wb.createSheet("Instructions");
+116. sheet3.setDefaultColumnWidth(120);
+{% endhighlight %}
+
+***
+
+### [Cluster 2](./2)
+{% highlight java %}
+44. XSSFSheet dataSheet = wb.createSheet("Data");
+49.   dataSheet.autoSizeColumn(ii);
+{% endhighlight %}
+
+***
+
+### [Cluster 3](./3)
+{% highlight java %}
+98. XSSFSheet sheet1 = wb.createSheet("Upper Form");
+99. sheet1.setDisplayGridlines(true);
+103.   sheet1.setDefaultColumnWidth(30);
+{% endhighlight %}
+
+***
+
+### [Cluster 4](./4)
+{% highlight java %}
+100. XSSFSheet sheet2 = null;
+110.   sheet2.setDefaultColumnWidth(30);
+111.   sheet2.setDisplayGridlines(true);
+{% endhighlight %}
+
+***
+
+### [Cluster 5](./5)
+{% highlight java %}
+296. final XSSFSheet xssfSheet = workbook.createSheet("ExcelExport_" + sdf.format(new Date()));
+297. final XSSFRow xssfHeaderRow = xssfSheet.createRow(0);
+311.     final XSSFRow xssfRow = xssfSheet.createRow(rowNr);
+{% endhighlight %}
+
+***
+
+### [Cluster 6](./6)
+{% highlight java %}
+60. final XSSFSheet xssfSheet = workbook.createSheet(table.getTableName());
+62. final XSSFRow xssfHeaderRow = xssfSheet.createRow(0);
+77.     final XSSFRow xssfRow = xssfSheet.createRow(row.getRowNr() + 1);
+{% endhighlight %}
+
+***
+
+### [Cluster 7](./7)
+{% highlight java %}
+85. protected void createDataRows(XSSFSheet dataSheet) {
+92.       Row row = dataSheet.createRow((short) rowIndex);
+{% endhighlight %}
+
+***
+
+### [Cluster 8](./8)
+{% highlight java %}
+56. protected int createHeaderRow(XSSFSheet dataSheet) {
+57.   Row row = dataSheet.createRow((short) 0);
+61.   Font font = dataSheet.getWorkbook().createFont();
+67.   XSSFCellStyle style = dataSheet.getWorkbook().createCellStyle();
+{% endhighlight %}
+
+***
+
+### [Cluster 9](./9)
+{% highlight java %}
+287. private void createBatchStatusRow(XSSFSheet sheet, CreationHelper createHelper, XSSFCellStyle cs, short rowindex, String value){
+289.   XSSFRow row = sheet.createRow(rowindex);
+{% endhighlight %}
+
+***
+
+### [Cluster 10](./10)
+{% highlight java %}
+196. private void readRows(XSSFSheet sheet, String type) throws Exception{
+197.    Iterator<Row> it = sheet.iterator() ;
+{% endhighlight %}
+
+***
+
+### [Cluster 11](./11)
+{% highlight java %}
+161. private void createSheetData(XSSFSheet sheet,  List<String> delist, String type) throws Exception {
+164.    XSSFRow row = sheet.createRow(rowindex);
+170.        row = sheet.createRow(i+1);
+{% endhighlight %}
+
+***
+
+### [Cluster 12](./12)
+{% highlight java %}
+37. private XSSFSheet sheet;
+58.   int firstRow = sheet.getFirstRowNum();
+59.   int lastRow = sheet.getLastRowNum();
+61.     XSSFRow row = sheet.getRow(rowIndex);
+77.     String oldName = sheet.getSheetName();
+117.     int width = (sheet.getColumnWidth(col) / 256) * 6;
+134.     for(Iterator<Row> it = sheet.rowIterator(); it.hasNext(); ) {
+136.         sheet.removeRow(row);
+141.     XSSFRow hssfRow = sheet.getRow(row);
+157.         hssfRow = sheet.createRow(row);
+167.     XSSFRow theRow = sheet.getRow(row);
+208.   DataValidationConstraint constraint = sheet.getDataValidationHelper().createCustomConstraint(formula);
+209.   DataValidation dataValidation = sheet.getDataValidationHelper().createValidation(constraint, addressList);
+210.     sheet.addValidationData(dataValidation);
+215.     DataValidationConstraint constraint = sheet.getDataValidationHelper().createFormulaListConstraint(namedRange);
+216.     DataValidation dataValidation = sheet.getDataValidationHelper().createValidation(constraint, addressList);
+241.   return sheet.getDataValidations();
+245.   if (sheet.getCTWorksheet().getDataValidations() != null) {        
+246.     for (int i=0;i<sheet.getCTWorksheet().getDataValidations().getCount();i++) {
+248.         sheet.getCTWorksheet().getDataValidations().removeDataValidation(0);
+{% endhighlight %}
+
+***
+
+### [Cluster 13](./13)
+{% highlight java %}
+149.   XSSFSheet sheet) throws XMLStreamException {
+150. List<XSSFDataValidation> validationData = sheet.getDataValidations();
+{% endhighlight %}
+
+***
+
+### [Cluster 14](./14)
+{% highlight java %}
+158. for(XSSFSheet sheet : document) {
+159.    PackagePart part = sheet.getPackagePart();
+{% endhighlight %}
+
+***
+
+### [Cluster 15](./15)
+{% highlight java %}
+78. XSSFSheet sheet = (XSSFSheet) document.getSheetAt(i);
+82. extractHeaderFooter(sheet.getFirstHeader(), xhtml);
+83. extractHeaderFooter(sheet.getOddHeader(), xhtml);
+84. extractHeaderFooter(sheet.getEvenHeader(), xhtml);
+134. extractHeaderFooter(sheet.getFirstFooter(), xhtml);
+135. extractHeaderFooter(sheet.getOddFooter(), xhtml);
+136. extractHeaderFooter(sheet.getEvenFooter(), xhtml);
+{% endhighlight %}
+
+***
+
+### [Cluster 16](./16)
+{% highlight java %}
+198. XSSFSheet sheet = document.getSheetAt(i);
+200. if (sheet.getProtect()) {
+{% endhighlight %}
+
+***
+
+### [Cluster 17](./17)
+{% highlight java %}
+49. XSSFSheet sheet0 = workbook.getSheetAt(0);
+50. XSSFPrintSetup printSetup = sheet0.getPrintSetup();
+55. assertEquals( 0.7 / 2.54, sheet0.getMargin( Sheet.LeftMargin ), 0.01 );
+56. assertEquals( 0.7 / 2.54, sheet0.getMargin( Sheet.RightMargin ), 0.01 );
+57. assertEquals( 1.7 / 2.54, sheet0.getMargin( Sheet.TopMargin ), 0.01 );
+58. assertEquals( 1.7 / 2.54, sheet0.getMargin( Sheet.BottomMargin ), 0.01 );
+{% endhighlight %}
+
+***
+
+### [Cluster 18](./18)
+{% highlight java %}
+107. XSSFSheet sheet0 = workbook.getSheetAt(0);
+108. XSSFPrintSetup printSetup = sheet0.getPrintSetup();
+113. assertEquals( 0.7, sheet0.getMargin( Sheet.LeftMargin ), 0.01 );
+114. assertEquals( 0.7, sheet0.getMargin( Sheet.RightMargin ), 0.01 );
+115. assertEquals( 0.75, sheet0.getMargin( Sheet.TopMargin ), 0.01 );
+116. assertEquals( 0.75, sheet0.getMargin( Sheet.BottomMargin ), 0.01 );
+{% endhighlight %}
+
+***
+
+### [Cluster 19](./19)
+{% highlight java %}
+44. XSSFSheet sheet = wb.createSheet();
+45. List<XSSFDataValidation> dataValidations = sheet.getDataValidations();  //<-- works
+49. sheet.createRow(0).createCell(0);    
+51. DataValidationHelper dataValidationHelper = sheet.getDataValidationHelper();
+55. sheet.addValidationData(validation);          
+57. dataValidations = sheet.getDataValidations();  //<-- raised XmlValueOutOfRangeException  
+{% endhighlight %}
+
+***
+
+### [Cluster 20](./20)
+{% highlight java %}
+38. XSSFSheet sheet = workbook.createSheet();
+39. XSSFRow row = sheet.createRow(0);
+{% endhighlight %}
+
+***
+
+### [Cluster 21](./21)
+{% highlight java %}
+44. XSSFSheet sheet=wb.getSheetAt(0);
+45. XSSFCellStyle cellStyle = sheet.getRow(0).getCell(0).getCellStyle();
+53. System.out.println("Index: " + sheet.getRow(0).getCell(0).getCellStyle().getIndex());
+{% endhighlight %}
+
+***
+
+### [Cluster 22](./22)
+{% highlight java %}
+252. XSSFSheet xssfSheet = workbook.getSheet(setCellValue.getSheet().getName());
+253. XSSFRow xssfRow = xssfSheet.getRow(setCellValue.getRow());
+255.     xssfRow = xssfSheet.createRow(setCellValue.getRow());
+{% endhighlight %}
+
+***
+

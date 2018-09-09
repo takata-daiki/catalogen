@@ -1,0 +1,11 @@
+{
+  "id": "15642595",
+  "lines": {
+    "504": "ColumnInfoRecord currentCol = (ColumnInfoRecord) records.get( columnIdx );\n",
+    "505": "boolean adjacentColumns = previousCol.getLastColumn() == currentCol.getFirstColumn() - 1;\n",
+    "510": "        previousCol.getXFIndex() == currentCol.getXFIndex() &&\n",
+    "511": "        previousCol.getOptions() == currentCol.getOptions() &&\n",
+    "512": "        previousCol.getColumnWidth() == currentCol.getColumnWidth();\n",
+    "516": "    previousCol.setLastColumn( currentCol.getLastColumn() );\n"
+  }
+}

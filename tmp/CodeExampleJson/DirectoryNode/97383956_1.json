@@ -1,0 +1,10 @@
+{
+  "id": "97383956",
+  "lines": {
+    "215": "public HWPFDocument(DirectoryNode directory) throws IOException\n",
+    "237": "          (DocumentEntry)directory.getEntry(name);\n",
+    "244": "  directory.createDocumentInputStream(name).read(_tableStream);\n",
+    "252": "        (DocumentEntry)directory.getEntry(STREAM_DATA);\n",
+    "254": "    directory.createDocumentInputStream(STREAM_DATA).read(_dataStream);\n"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "72854626",
+  "lines": {
+    "236": "HSSFRow hssfRow = hssfSheet.getRow(setCellValue.getRow());\n",
+    "240": "HSSFCell hssfCell = hssfRow.getCell(setCellValue.getCol());\n",
+    "242": "    hssfCell = hssfRow.createCell(setCellValue.getCol());\n",
+    "249": "        hssfRow.removeCell(hssfCell);\n"
+  }
+}

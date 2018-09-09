@@ -1,0 +1,11 @@
+{
+  "id": "91974023",
+  "lines": {
+    "38": "XSSFWorkbook xssfWorkbook = new XSSFWorkbook();\n",
+    "39": "XSSFSheet sheet = xssfWorkbook.createSheet(\"Betreuerinnen\");\n",
+    "42": "XSSFFont font = xssfWorkbook.createFont();\n",
+    "46": "XSSFCellStyle headerStyle = xssfWorkbook.createCellStyle();\n",
+    "51": "XSSFCellStyle dataStyle = xssfWorkbook.createCellStyle();\n",
+    "175": "xssfWorkbook.write(fileOutputStream);\n"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "15642409",
+  "lines": {
+    "579": "EscherContainerRecord dgContainer = (EscherContainerRecord) getEscherRecord( 0 );\n",
+    "581": "for ( int i = 0; i < dgContainer.getChildRecords().size(); i++ )\n",
+    "582": "    if ( dgContainer.getChild( i ).getRecordId() == EscherContainerRecord.SPGR_CONTAINER )\n",
+    "583": "        spgrContainer = (EscherContainerRecord) dgContainer.getChild( i );\n"
+  }
+}

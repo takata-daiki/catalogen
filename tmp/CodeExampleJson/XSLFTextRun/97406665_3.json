@@ -1,0 +1,16 @@
+{
+  "id": "97406665",
+  "lines": {
+    "861": "for (XSLFTextRun run : _runs){\n",
+    "862": "    int length = run.getRenderableText().length();\n",
+    "872": "    if (run.isBold() && run.isItalic()) {\n",
+    "874": "    } else if (run.isItalic()) {\n",
+    "876": "    } else if (run.isBold()) {\n",
+    "880": "    ColorStateList color = ColorStateList.valueOf(run.getFontColor().getRGB());\n",
+    "882": "    at.setSpan(new TextAppearanceSpan(run.getFontFamily(), style, (int) run.getFontSize(),\n",
+    "902": "    if(run.isUnderline()) {\n",
+    "905": "    if(run.isStrikethrough()) {\n",
+    "916": "    if (run.isSuperscript()) {\n",
+    "919": "    if (run.isSubscript()) {\n"
+  }
+}

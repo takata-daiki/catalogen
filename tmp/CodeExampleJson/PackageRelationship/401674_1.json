@@ -1,0 +1,7 @@
+{
+  "id": "401674",
+  "lines": {
+    "38": "for (PackageRelationship rel : pack.getRelationshipsByType(TKitRelationshipTypes.CORE_DOCUMENT))\n",
+    "40": "    res.add(pack.getPart(PackagingURIHelper.createPartName(rel.getTargetURI())));\n"
+  }
+}

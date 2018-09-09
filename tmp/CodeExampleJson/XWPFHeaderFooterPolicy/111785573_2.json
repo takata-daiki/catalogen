@@ -1,0 +1,12 @@
+{
+  "id": "111785573",
+  "lines": {
+    "114": "    XHTMLContentHandler xhtml, XWPFHeaderFooterPolicy hfPolicy)\n",
+    "116": "if (hfPolicy.getFirstPageHeader() != null) {\n",
+    "117": "    xhtml.element(\"p\", hfPolicy.getFirstPageHeader().getText());\n",
+    "119": "if (hfPolicy.getEvenPageHeader() != null) {\n",
+    "120": "    xhtml.element(\"p\", hfPolicy.getEvenPageHeader().getText());\n",
+    "122": "if (hfPolicy.getDefaultHeader() != null) {\n",
+    "123": "    xhtml.element(\"p\", hfPolicy.getDefaultHeader().getText());\n"
+  }
+}

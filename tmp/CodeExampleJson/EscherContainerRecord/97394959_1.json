@@ -1,0 +1,11 @@
+{
+  "id": "97394959",
+  "lines": {
+    "800": "EscherContainerRecord bstore;\n",
+    "807": "  bstore.setRecordId(EscherContainerRecord.BSTORE_CONTAINER);\n",
+    "811": "  Iterator<EscherRecord> iter = bstore.getChildIterator();\n",
+    "845": "bstore.addChildRecord(bse);\n",
+    "846": "int count = bstore.getChildRecords().size();\n",
+    "847": "bstore.setOptions((short) ((count << 4) | 0xF));\n"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "15642397",
+  "lines": {
+    "75": "private  static final BitField   highByte  = BitFieldFactory.getInstance(0x1);\n",
+    "382": "      field_2_optionflags = highByte.setByte(field_2_optionflags);\n",
+    "383": "    else field_2_optionflags = highByte.clearByte(field_2_optionflags);\n",
+    "697": "  field_2_optionflags = highByte.setByte(field_2_optionflags);\n",
+    "701": "  field_2_optionflags = highByte.clearByte(field_2_optionflags);\n",
+    "706": "    return highByte.isSet(getOptionFlags());\n"
+  }
+}

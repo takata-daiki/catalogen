@@ -1,0 +1,10 @@
+{
+  "id": "3760572",
+  "lines": {
+    "207": "CellValue obj = evaluator.evaluate(m_cell);\n",
+    "212": "switch(obj.getCellType())\n",
+    "217": "        return Boolean.valueOf(obj.getBooleanValue());\n",
+    "221": "        return new Double(obj.getNumberValue());\n",
+    "224": "        return obj.getStringValue();\n"
+  }
+}

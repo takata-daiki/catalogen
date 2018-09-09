@@ -1,0 +1,7 @@
+{
+  "id": "97394265",
+  "lines": {
+    "116": "EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.LINESTYLE__LINEWIDTH);\n",
+    "117": "double width = prop == null ? DEFAULT_LINE_WIDTH : (double)prop.getPropertyValue()/EMU_PER_POINT;\n"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "114533602",
+  "lines": {
+    "238": "HSSFCell cell = row.createCell(col);\n",
+    "250": "  cell.setCellStyle(style);\n",
+    "253": "  cell.setCellType(HSSFCell.CELL_TYPE_STRING);\n",
+    "256": "  cell.setCellValue((String) value);\n",
+    "259": "  cell.setCellValue((Date) value);\n",
+    "261": "  cell.setCellValue(((Boolean) value).booleanValue());\n",
+    "263": "  cell.setCellValue(((Number) value).doubleValue());\n",
+    "268": "  cell.setCellValue(value.toString());\n"
+  }
+}

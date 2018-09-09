@@ -1,0 +1,14 @@
+{
+  "id": "47133171",
+  "lines": {
+    "112": "CellValue value = evaluator.evaluate(cell);\n",
+    "115": "    if (value.getCellType() == Cell.CELL_TYPE_NUMERIC) {\n",
+    "116": "        y = value.getNumberValue();\n",
+    "120": "        x = value.getNumberValue();\n",
+    "125": "    switch (value.getCellType()) {\n",
+    "130": "            builder.set(name, value.getNumberValue());\n",
+    "132": "            final java.util.Date javaDate = HSSFDateUtil.getJavaDate(value\n",
+    "155": "        builder.set(name, value.getStringValue().trim());\n",
+    "158": "        builder.set(name, value.getBooleanValue());\n"
+  }
+}

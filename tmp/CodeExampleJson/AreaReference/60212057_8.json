@@ -1,0 +1,12 @@
+{
+  "id": "60212057",
+  "lines": {
+    "1989": "AreaReference cellAHRef = new AreaReference(cellAH);\n",
+    "1990": "if(cellAHRef.isSingleCell() && ExcelUtils.getCell(activeSheet, cellAHRef.getFirstCell().getRow(), cellAHRef.getFirstCell().getCol()).getCellStyle().getWrapText()){\n",
+    "1991": "  CellRangeAddress workMergeRef = ExcelUtils.mergeArea(activeSheet, cellAHRef.getFirstCell());\n",
+    "1998": "  ExcelUtils.paste(activeSheet, cellAHRef.getFirstCell().getRow(), lastCol + 1, ExcelUtils.copy(activeSheet, workMergeRef), ExcelUtils.xlFormats);\n",
+    "2000": "  CellRangeAddress workMergeRef1 = ExcelUtils.mergeArea(activeSheet, new CellReference(cellAHRef.getFirstCell().getRow(), lastCol + 1));\n",
+    "2010": "  HSSFCell distCell = ExcelUtils.getCell(activeSheet, cellAHRef.getFirstCell().getRow(), lastCol);\n",
+    "2021": "    distCell.setCellFormula(cellAHRef.getFirstCell().formatAsString());\n"
+  }
+}

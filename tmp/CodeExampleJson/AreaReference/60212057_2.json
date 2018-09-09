@@ -1,0 +1,7 @@
+{
+  "id": "60212057",
+  "lines": {
+    "556": "AreaReference areaReferance = new AreaReference(\"A\"+(wRow+1)+\":A\"+(ExcelUtils.getReferanceNameRange(nameDataRangeE).getFirstCell().getRow()));\n",
+    "557": "for(CellReference celRef:areaReferance.getAllReferencedCells()){\n"
+  }
+}

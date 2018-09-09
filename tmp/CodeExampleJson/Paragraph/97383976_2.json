@@ -1,0 +1,14 @@
+{
+  "id": "97383976",
+  "lines": {
+    "1061": "Paragraph paragraph = range.getParagraph( p );\n",
+    "1063": "if ( paragraph.isInTable()\n",
+    "1064": "        && paragraph.getTableLevel() != currentTableLevel )\n",
+    "1066": "    if ( paragraph.getTableLevel() < currentTableLevel )\n",
+    "1069": "                        + paragraph.getTableLevel()\n",
+    "1082": "if ( paragraph.text().equals( \"\\u000c\" ) )\n",
+    "1088": "if ( paragraph.isInList() )\n",
+    "1092": "        HWPFList hwpfList = paragraph.getList();\n",
+    "1096": "                (char) paragraph.getIlvl() );\n"
+  }
+}

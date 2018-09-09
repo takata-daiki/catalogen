@@ -1,0 +1,11 @@
+{
+  "id": "122565092",
+  "lines": {
+    "107": "XSSFSheet sheet0 = workbook.getSheetAt(0);\n",
+    "108": "XSSFPrintSetup printSetup = sheet0.getPrintSetup();\n",
+    "113": "assertEquals( 0.7, sheet0.getMargin( Sheet.LeftMargin ), 0.01 );\n",
+    "114": "assertEquals( 0.7, sheet0.getMargin( Sheet.RightMargin ), 0.01 );\n",
+    "115": "assertEquals( 0.75, sheet0.getMargin( Sheet.TopMargin ), 0.01 );\n",
+    "116": "assertEquals( 0.75, sheet0.getMargin( Sheet.BottomMargin ), 0.01 );\n"
+  }
+}

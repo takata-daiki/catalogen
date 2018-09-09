@@ -1,0 +1,11 @@
+{
+  "id": "72854552",
+  "lines": {
+    "167": "private Font getFont(XSSFFont xssfFont) {\n",
+    "171": "        String name = xssfFont.getFontName();\n",
+    "172": "        int size = xssfFont.getFontHeightInPoints();\n",
+    "174": "        if (xssfFont.getBoldweight() == XSSFFont.BOLDWEIGHT_BOLD) {\n",
+    "176": "            if (xssfFont.getItalic()) {\n",
+    "180": "        else if (xssfFont.getItalic()) {\n"
+  }
+}

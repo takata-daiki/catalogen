@@ -1,0 +1,9 @@
+{
+  "id": "60212069",
+  "lines": {
+    "1023": "public static CellRangeAddress  mergeArea(HSSFSheet sh, CellReference cellRef){\n",
+    "1026": "    if (cellRef.getCol() >= rangeRef.getFirstColumn()  && cellRef.getCol() <= rangeRef.getLastColumn() &&\n",
+    "1027": "      cellRef.getRow() >= rangeRef.getFirstRow()  && cellRef.getRow() <= rangeRef.getLastRow()){\n",
+    "1031": "  return new CellRangeAddress(cellRef.getRow(), cellRef.getCol(), cellRef.getRow(), cellRef.getCol());\n"
+  }
+}

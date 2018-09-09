@@ -1,0 +1,10 @@
+{
+  "id": "121321570",
+  "lines": {
+    "222": "CellRangeAddress cellRangeAddress = worksheet.getMergedRegion(i);\n",
+    "223": "if (cellRangeAddress.getFirstRow() == sourceRow.getRowNum()) {\n",
+    "226": "                      newRow.getRowNum() + (cellRangeAddress.getLastRow() - cellRangeAddress.getFirstRow()),\n",
+    "227": "                      cellRangeAddress.getFirstColumn(),\n",
+    "228": "                      cellRangeAddress.getLastColumn());\n"
+  }
+}

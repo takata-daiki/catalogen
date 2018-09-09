@@ -1,0 +1,11 @@
+{
+  "id": "15642252",
+  "lines": {
+    "74": "private IntList    _entries;\n",
+    "105": "                                                  + _entries.size(), size);\n",
+    "141": "    int startBlock = _entries.size();\n",
+    "150": "            _entries.add(index++);\n",
+    "152": "        _entries.add(POIFSConstants.END_OF_CHAIN);\n",
+    "174": "    _blocks = BATBlock.createBATBlocks(_entries.toArray(), size);\n"
+  }
+}

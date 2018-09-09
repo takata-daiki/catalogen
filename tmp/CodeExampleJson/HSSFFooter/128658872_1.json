@@ -1,0 +1,9 @@
+{
+  "id": "128658872",
+  "lines": {
+    "340": "HSSFFooter footer = sheet.getFooter();\n",
+    "341": "footer.setLeft(Adempiere.ADEMPIERE_R);\n",
+    "342": "footer.setCenter(Env.getHeader(getCtx(), 0));\n",
+    "344": "footer.setRight(DisplayType.getDateFormat(DisplayType.DateTime, getLanguage()).format(now));\n"
+  }
+}

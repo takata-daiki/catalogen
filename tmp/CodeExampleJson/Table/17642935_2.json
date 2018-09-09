@@ -1,0 +1,9 @@
+{
+  "id": "17642935",
+  "lines": {
+    "278": "private static int numCol(Table t) {\n",
+    "280": "for (int i = 0; i < t.numRows(); i++) {\n",
+    "281": "  if (t.getRow(i).numCells() > col)\n",
+    "282": "    col = t.getRow(i).numCells();\n"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "122444114",
+  "lines": {
+    "305": "private void makeHeader ( final List<Field> columns, final HSSFSheet sheet )\n",
+    "307": "    final Font font = sheet.getWorkbook ().createFont ();\n",
+    "312": "    final CellStyle style = sheet.getWorkbook ().createCellStyle ();\n",
+    "317": "    final HSSFRow row = sheet.createRow ( 0 );\n"
+  }
+}

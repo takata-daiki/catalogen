@@ -1,0 +1,8 @@
+{
+  "id": "122565098",
+  "lines": {
+    "63": "XSSFName name = workbook.getName( XSSFName.BUILTIN_FILTER_DB );\n",
+    "64": "assertEquals( 0, name.getSheetIndex() );\n",
+    "65": "assertEquals( \"Sheet0!$A$2:$M$124\", name.getRefersToFormula() );\n"
+  }
+}

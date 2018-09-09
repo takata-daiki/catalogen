@@ -1,0 +1,12 @@
+{
+  "id": "126168429",
+  "lines": {
+    "133": "private void extractFooters(final StringBuilder buffy, final XWPFHeaderFooterPolicy hfPolicy) {\n",
+    "134": "  if (hfPolicy.getFirstPageFooter() != null) {\n",
+    "135": "    buffy.append(hfPolicy.getFirstPageFooter().getText()).append(' ');\n",
+    "137": "  if (hfPolicy.getEvenPageFooter() != null) {\n",
+    "138": "    buffy.append(hfPolicy.getEvenPageFooter().getText()).append(' ');\n",
+    "140": "  if (hfPolicy.getDefaultFooter() != null) {\n",
+    "141": "    buffy.append(hfPolicy.getDefaultFooter().getText()).append(' ');\n"
+  }
+}

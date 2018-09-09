@@ -1,0 +1,12 @@
+{
+  "id": "111785558",
+  "lines": {
+    "109": "private void parse(DocumentSummaryInformation summary) {\n",
+    "110": "    set(Metadata.COMPANY, summary.getCompany());\n",
+    "111": "    set(Metadata.MANAGER, summary.getManager());\n",
+    "113": "    set(Metadata.CATEGORY, summary.getCategory());\n",
+    "114": "    set(Metadata.SLIDE_COUNT, summary.getSlideCount());\n",
+    "115": "    if (summary.getSlideCount() > 0) {\n",
+    "116": "        metadata.set(PagedText.N_PAGES, summary.getSlideCount());\n"
+  }
+}
