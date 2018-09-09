@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<input type="text id="myInput" onkeyup="myFunction()" placeholder="Search for any class.." title="Type in a name">
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for any class.." title="Type in a name">
 
 ***
 
