@@ -17,7 +17,7 @@ def homepage():
     os.chdir('CodeExampleJson/')
     li = glob.glob('*')
     for line in sorted(li):
-        text += '<li><a class="page-scroll" href="./{}/">{}</a></li>\n'.format(line.lower(), line)
+        text += '<li><a class="page-scroll" href="./{}/">{}</a></li>\n'.format(line, line)
     os.chdir('../')
     text += '</ul>'
 
