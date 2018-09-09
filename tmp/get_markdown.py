@@ -10,7 +10,7 @@ df = pd.read_csv('cluster_v4.csv').set_index(['directory', 'filename'])
 
 def homepage():
     text = '---\nlayout: default\n---\n\n' \
-           '<input type="text id="myInput" onkeyup="myFunction()" placeholder="Search for any class.."' \
+           '<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for any class.."' \
            ' title="Type in a name">\n\n***\n\n' \
            '<ul id="myUL">\n'
 
