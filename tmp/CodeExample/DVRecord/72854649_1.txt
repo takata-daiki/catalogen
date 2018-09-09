@@ -1,0 +1,6 @@
+          DVRecord dvRecord = (DVRecord) r;
+          CellRangeAddressList cellRangeAddressList = dvRecord
+          int validationType = dvRecord.getDataType();
+            Formula f1 = dvRecord.getFormula1();
+            Formula f2 = dvRecord.getFormula2();
+            int comparison = dvRecord.getConditionOperator();

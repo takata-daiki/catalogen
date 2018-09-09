@@ -1,0 +1,2 @@
+    private EscherContainerRecord createSpContainer( HSSFSimpleShape hssfShape, int shapeId )
+        short shapeType = objTypeToShapeType( hssfShape.getShapeType() );

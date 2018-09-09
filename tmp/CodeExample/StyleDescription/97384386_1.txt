@@ -1,0 +1,6 @@
+            StyleDescription styleDescription = hwpfDocument.getStyleSheet()
+                    + styleDescription.getName() + "' ===" );
+            if ( styleDescription.getPAPX() != null )
+                dumpSprms( new SprmIterator( styleDescription.getPAPX(), 2 ),
+            if ( styleDescription.getCHPX() != null )
+                dumpSprms( new SprmIterator( styleDescription.getCHPX(), 0 ),

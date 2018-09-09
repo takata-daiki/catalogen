@@ -1,0 +1,3 @@
+        DocumentSummaryInformation dsi = doc.getDocumentSummaryInformation();
+        CustomProperties cp = dsi.getCustomProperties();
+        dsi.setCustomProperties(cp);

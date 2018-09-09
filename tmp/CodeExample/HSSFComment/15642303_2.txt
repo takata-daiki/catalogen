@@ -1,0 +1,3 @@
+    public void setCellComment(HSSFComment comment){
+        comment.setRow((short)record.getRow());
+        comment.setColumn(record.getColumn());

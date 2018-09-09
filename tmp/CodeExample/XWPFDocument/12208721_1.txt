@@ -1,0 +1,4 @@
+    private XWPFDocument document;
+            defaults = document.getStyle().getDocDefaults();
+        for ( POIXMLDocumentPart part : document.getRelations() )
+            List<IBodyElement> bodyElement = document.getBodyElements();

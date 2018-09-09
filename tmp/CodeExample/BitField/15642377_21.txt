@@ -1,0 +1,3 @@
+    static final private BitField _border_left   = BitFieldFactory.getInstance(0x000F);
+            _border_left.setShortValue(field_6_border_options, border);
+        return _border_left.getShortValue(field_6_border_options);

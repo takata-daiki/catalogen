@@ -1,0 +1,5 @@
+    for (TableRecord record : produceItems) {
+      String key = record.itemName + " " + record.oper;
+      cell.setCellValue(record.itemName);
+      cell.setCellValue(record.oper);
+      cell.setCellValue(record.UOMId);

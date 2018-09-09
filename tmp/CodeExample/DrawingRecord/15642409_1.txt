@@ -1,0 +1,3 @@
+            DrawingRecord drawingRecord = (DrawingRecord) records.get( loc );
+            System.arraycopy( drawingRecord.getData(), 0, buffer, offset, drawingRecord.getData().length );
+            offset += drawingRecord.getData().length;

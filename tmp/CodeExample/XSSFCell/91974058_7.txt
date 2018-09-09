@@ -1,0 +1,6 @@
+          XSSFCell cell1 = dataRow.createCell(j + 2);
+          cell1.setCellStyle(dataStyle);
+            cell1.setCellValue(new XSSFRichTextString(""
+            cell1.setCellValue(new XSSFRichTextString(f
+              cell1.setCellValue(new XSSFRichTextString(neu
+            cell1.setCellValue(new XSSFRichTextString(f.getArea()));

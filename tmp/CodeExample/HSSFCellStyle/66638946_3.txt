@@ -1,0 +1,6 @@
+    HSSFCellStyle cellStyle = book.createCellStyle();
+        cellStyle.setWrapText(true);
+        cellStyle.setBorderTop(HSSFCellStyle.BORDER_MEDIUM);
+        cellStyle.setBottomBorderColor((short)8);
+        cellStyle.setVerticalAlignment(HSSFCellStyle.VERTICAL_TOP);
+        cellStyle.setBorderTop(HSSFCellStyle.BORDER_DOUBLE);

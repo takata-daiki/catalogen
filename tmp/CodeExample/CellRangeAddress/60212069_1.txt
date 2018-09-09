@@ -1,0 +1,3 @@
+  public static Boolean hasFormula (HSSFSheet sh, CellRangeAddress cRA){
+    for(int row=cRA.getFirstRow(); row <= cRA.getLastRow(); row++){
+        for(int col=cRA.getFirstColumn(); col <= cRA.getLastColumn(); col++){

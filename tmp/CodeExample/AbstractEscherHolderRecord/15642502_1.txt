@@ -1,0 +1,3 @@
+    public void join( AbstractEscherHolderRecord record )
+        int length = this.rawData.length + record.getRawData().length;
+        System.arraycopy( record.getRawData(), 0, data, rawData.length, record.getRawData().length );

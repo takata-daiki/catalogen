@@ -1,0 +1,2 @@
+        HSSFFormulaEvaluator evaluator = new HSSFFormulaEvaluator(this.m_workBook.getHSSFWorkbook());
+        CellValue obj = evaluator.evaluate(m_cell);

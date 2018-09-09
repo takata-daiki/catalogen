@@ -1,0 +1,8 @@
+    void copy(XSLFTextRun r){
+        String srcFontFamily = r.getFontFamily();
+        Color srcFontColor = r.getFontColor();
+        double srcFontSize = r.getFontSize();
+        boolean bold = r.isBold();
+        boolean italic = r.isItalic();
+        boolean underline = r.isUnderline();
+        boolean strike = r.isStrikethrough();

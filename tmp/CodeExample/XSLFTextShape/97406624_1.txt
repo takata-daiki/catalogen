@@ -1,0 +1,2 @@
+        XSLFTextShape txt = getTextShapeByType(Placeholder.TITLE);
+        return txt == null ? "" : txt.getText();

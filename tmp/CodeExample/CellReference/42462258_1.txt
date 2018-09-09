@@ -1,0 +1,4 @@
+    CellReference cellRef = new CellReference(reference);
+    String sheetName = cellRef.getSheetName();
+    Row xlsRow = sheet.getRow(cellRef.getRow());
+    Cell styleCell = xlsRow.getCell(cellRef.getCol());

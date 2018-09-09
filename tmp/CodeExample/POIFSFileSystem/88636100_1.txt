@@ -1,0 +1,2 @@
+   public static ChunkGroup[] parse(POIFSFileSystem fs) throws IOException {
+      return parse(fs.getRoot());

@@ -1,0 +1,3 @@
+    private static final BitField          badFontHeight = BitFieldFactory.getInstance(0x40);
+            badFontHeight.setShortBoolean(field_7_option_flags, f);
+        return badFontHeight.isSet(field_7_option_flags);

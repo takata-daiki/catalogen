@@ -1,0 +1,7 @@
+            XHTMLContentHandler xhtml, XWPFHeaderFooterPolicy hfPolicy)
+        if (hfPolicy.getFirstPageHeader() != null) {
+            xhtml.element("p", hfPolicy.getFirstPageHeader().getText());
+        if (hfPolicy.getEvenPageHeader() != null) {
+            xhtml.element("p", hfPolicy.getEvenPageHeader().getText());
+        if (hfPolicy.getDefaultHeader() != null) {
+            xhtml.element("p", hfPolicy.getDefaultHeader().getText());

@@ -1,0 +1,3 @@
+    /**/private static final BitField fProt = new BitField(0x0200);
+        field_2_bits = (short)fProt.setBoolean(field_2_bits, value);
+        return fProt.isSet(field_2_bits);

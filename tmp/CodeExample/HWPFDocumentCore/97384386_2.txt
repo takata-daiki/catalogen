@@ -1,0 +1,11 @@
+    private final HWPFDocumentCore _doc;
+        String text = _doc.getDocumentText();
+        for ( CHPX chpx : _doc.getCharacterTable().getTextRuns() )
+                        _doc.getStyleSheet(), (short) StyleSheet.NIL_STYLE ) );
+                        _doc.getOverallRange() )
+        FileInformationBlock fib = _doc.getFileInformationBlock();
+        for ( PAPX papx : _doc.getParagraphTable().getParagraphs() )
+                        _doc.getOverallRange(), papx );
+                for ( PAPX papx : _doc.getParagraphTable().getParagraphs() )
+        Range range = _doc.getOverallRange();
+        for ( TextPiece textPiece : _doc.getTextTable().getTextPieces() )

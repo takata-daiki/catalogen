@@ -1,0 +1,4 @@
+        XSLFSheet masterSheet = _shape.getSheet();
+        while (masterSheet.getMasterSheet() != null){
+            masterSheet = masterSheet.getMasterSheet();
+        XmlObject[] o = masterSheet.getXmlObject().selectPath(

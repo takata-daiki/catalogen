@@ -1,0 +1,2 @@
+        HSSFSheet sheet = ((HSSFWorkbook) data.wb).getSheetAt(sheetNum);
+        sheet.setForceFormulaRecalculation(true);

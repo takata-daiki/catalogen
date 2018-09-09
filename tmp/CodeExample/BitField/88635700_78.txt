@@ -1,0 +1,3 @@
+    /**/private static BitField fGramAllDone = new BitField(0x0020);
+        field_37_docinfo5 = (short)fGramAllDone.setBoolean(field_37_docinfo5, value);
+        return fGramAllDone.isSet(field_37_docinfo5);

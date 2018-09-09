@@ -1,0 +1,5 @@
+            final RawDataBlockList blockList, final RootProperty root,
+                .extract(blockList.fetchBlocks(root.getStartBlock()),
+                  blockList.getBigBlockSize()));
+        new BlockAllocationTableReader(blockList.fetchBlocks(sbatStart),
+                                       list, blockList.getBigBlockSize());

@@ -1,0 +1,3 @@
+        HSSFName hssfName = workbook.createName();
+        hssfName.setNameName(name);
+        hssfName.setRefersToFormula(rng.toFixedAddress());

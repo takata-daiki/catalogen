@@ -1,0 +1,3 @@
+      ListData lst = _listMap.get(x);
+      tableStream.write(lst.toByteArray());
+      ListLevel[] lvls = lst.getLevels();

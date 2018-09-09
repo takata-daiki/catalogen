@@ -1,0 +1,4 @@
+    private Xstz _xstzStatText;
+        offset += this._xstzStatText.getSize();
+        size += _xstzStatText.getSize();
+        offset += _xstzStatText.serialize( buffer, offset );

@@ -1,0 +1,3 @@
+    protected POILogger logger = POILogFactory.getLogger(this.getClass());
+                logger.log(POILogger.WARN, "EscherSpRecord.FLAG_CHILD is set but EscherChildAnchorRecord was not found");
+        logger.log(POILogger.INFO, "Rendering " + getShapeName());

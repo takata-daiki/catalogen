@@ -1,0 +1,5 @@
+                 LabelSSTRecord newrec   = new LabelSSTRecord();
+                 newrec.setRow(oldrec.getRow());
+                 newrec.setColumn(oldrec.getColumn());
+                 newrec.setXFIndex(oldrec.getXFIndex());
+                 newrec.setSSTIndex(stringid);

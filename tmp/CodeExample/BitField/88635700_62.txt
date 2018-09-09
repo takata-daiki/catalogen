@@ -1,0 +1,3 @@
+    /**/private static BitField fSupressSpdfAfterPageBreak = new BitField(0x00000004);
+        field_33_docinfo4 = (int)fSupressSpdfAfterPageBreak.setBoolean(field_33_docinfo4, value);
+        return fSupressSpdfAfterPageBreak.isSet(field_33_docinfo4);

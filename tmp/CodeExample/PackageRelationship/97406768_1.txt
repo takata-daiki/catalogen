@@ -1,0 +1,3 @@
+        PackageRelationship rel = getPackagePart().addRelationship(
+        addRelation(rel.getId(), new XSLFPictureData(pic, rel));
+        XSLFPictureShape sh = getDrawing().createPicture(rel.getId());

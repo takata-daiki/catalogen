@@ -1,0 +1,3 @@
+    private XMLSlideShow generateDetailShop(XMLSlideShow ppt, MarketingSlideInfo slide, Function<String, byte[]> pictureGetter, MarketingReportData mData) {
+        XSLFSlide pptSlide = ppt.createSlide();
+            int idx = ppt.addPicture(picBytes1, XSLFPictureData.PICTURE_TYPE_PNG);

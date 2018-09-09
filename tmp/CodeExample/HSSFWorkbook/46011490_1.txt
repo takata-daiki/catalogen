@@ -1,0 +1,12 @@
+  private HSSFWorkbook wb;
+    HSSFSheet sheet = wb.createSheet();
+    wb.write(fileOut);
+    csText = wb.createCellStyle();
+    csHeader = wb.createCellStyle();
+    HSSFFont f = wb.createFont();
+    csTitle = wb.createCellStyle();
+    f = wb.createFont();
+    csIntNum = wb.createCellStyle();
+    csIntNum.setDataFormat(wb.createDataFormat().getFormat("#,##0"));
+    csDoubleNum = wb.createCellStyle();
+    csDoubleNum.setDataFormat(wb.createDataFormat().getFormat("#.##"));

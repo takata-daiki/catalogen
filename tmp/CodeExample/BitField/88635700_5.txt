@@ -1,0 +1,3 @@
+    /**/private static BitField fpc = new BitField(0x60);
+        field_1_formatFlags = (byte)fpc.setValue(field_1_formatFlags, value);
+        return ( byte )fpc.getValue(field_1_formatFlags);

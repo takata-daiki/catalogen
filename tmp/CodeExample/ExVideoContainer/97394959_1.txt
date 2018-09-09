@@ -1,0 +1,4 @@
+    ExVideoContainer exVideo = mci.getExVideo();
+    exVideo.getExMediaAtom().setObjectId(objectId);
+    exVideo.getExMediaAtom().setMask(0xE80000);
+    exVideo.getPathAtom().setText(path);

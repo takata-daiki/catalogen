@@ -1,0 +1,4 @@
+        HSSFTextbox textbox = escherGroup.createTextbox( new HSSFChildAnchor( x, y, x + width, y + height ) );
+        textbox.setNoFill( true );
+        textbox.setLineStyle( HSSFShape.LINESTYLE_NONE );
+        textbox.setString( s );

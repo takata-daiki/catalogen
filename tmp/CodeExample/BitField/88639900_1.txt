@@ -1,0 +1,3 @@
+    private static final BitField settingsProtectedFlag = BitFieldFactory.getInstance(0x0001);
+        _options = settingsProtectedFlag.setBoolean(_options, protect);
+        return settingsProtectedFlag.isSet(_options);

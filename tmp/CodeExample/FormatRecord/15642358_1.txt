@@ -1,0 +1,21 @@
+        FormatRecord retval = new FormatRecord();   // the differnt formats
+                retval.setIndexCode(( short ) 5);
+                retval.setFormatStringLength(( byte ) 0x17);
+                retval.setFormatString("\"$\"#,##0_);\\(\"$\"#,##0\\)");
+                retval.setIndexCode(( short ) 6);
+                retval.setFormatStringLength(( byte ) 0x1c);
+                retval.setFormatString("\"$\"#,##0_);[Red]\\(\"$\"#,##0\\)");
+                retval.setIndexCode(( short ) 7);
+                retval.setFormatStringLength(( byte ) 0x1d);
+                retval.setFormatString("\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)");
+                retval.setIndexCode(( short ) 8);
+                retval.setFormatStringLength(( byte ) 0x22);
+                retval.setFormatString(
+                retval.setIndexCode(( short ) 0x2a);
+                retval.setFormatStringLength(( byte ) 0x32);
+                retval.setIndexCode(( short ) 0x29);
+                retval.setFormatStringLength(( byte ) 0x29);
+                retval.setIndexCode(( short ) 0x2c);
+                retval.setFormatStringLength(( byte ) 0x3a);
+                retval.setIndexCode(( short ) 0x2b);
+                retval.setFormatStringLength(( byte ) 0x31);

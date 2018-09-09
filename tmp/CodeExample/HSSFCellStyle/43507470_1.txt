@@ -1,0 +1,6 @@
+          HSSFCellStyle cellStyleHeader = workBook.createCellStyle();
+          cellStyleHeader.setWrapText(true);
+          cellStyleHeader.setVerticalAlignment(HSSFCellStyle.ALIGN_JUSTIFY);
+          cellStyleHeader.setFillForegroundColor(HSSFColor.GREEN.index);
+          cellStyleHeader.setFillPattern(HSSFCellStyle.SOLID_FOREGROUND);      
+          cellStyleHeader.setFont(headerCellFont);                

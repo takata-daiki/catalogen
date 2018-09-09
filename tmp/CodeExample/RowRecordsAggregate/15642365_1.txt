@@ -1,0 +1,23 @@
+    protected RowRecordsAggregate        rows              =     null;
+                retval.rows.insertRow(row);
+                rows.getPhysicalNumberOfRows(),
+                + rows.getPhysicalNumberOfRows() - 2
+               + rows.getPhysicalNumberOfRows() - 2;
+      index.setFirstRow(rows.getFirstRowNum());
+      index.setLastRowAdd1(rows.getLastRowNum()+1);
+      int blockCount = rows.getRowBlockCount();
+        rowBlockOffset += rows.getRowBlockSize(block);
+        cellBlockOffset += null == cells ? 0 : cells.getRowCellBlockSize(rows.getStartRowNumberForBlock(block),
+                                                     rows.getEndRowNumberForBlock(block));
+        dbCellOffset += (8 + (rows.getRowCountForBlock(block) * 2));
+         RowRecord existingRow = rows.getRow(row.getRowNumber());
+           rows.removeRow(existingRow);
+        rows.insertRow(row);
+        rows.removeRow(row);
+            rowRecIterator = rows.getIterator();
+        return rows.getRow(rownum);
+            final int blocks = rows.getRowBlockCount();
+            for (Iterator itr = rows.getIterator(); itr.hasNext();) {
+        Iterator iterator = rows.getIterator();
+            rows.collapseRow( row );
+            rows.expandRow( row );

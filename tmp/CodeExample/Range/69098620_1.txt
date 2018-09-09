@@ -1,0 +1,3 @@
+      Range range = doc.getRange();
+      for (int i = 0; i < range.numCharacterRuns(); i++) {
+        CharacterRun run = range.getCharacterRun(i);

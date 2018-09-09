@@ -1,0 +1,4 @@
+    public IntList(final IntList list)
+        this(list._array.length);
+        System.arraycopy(list._array, 0, _array, 0, _array.length);
+        _limit = list._limit;

@@ -1,0 +1,4 @@
+    HDGFDiagram hdgf = new HDGFDiagram(
+        hdgf.getDocumentSize() + "   (" +
+        Long.toHexString(hdgf.getDocumentSize()) + ")");
+    dumpStream(hdgf.getTrailerStream(), 0);

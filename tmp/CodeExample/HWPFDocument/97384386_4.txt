@@ -1,0 +1,5 @@
+            HWPFDocument doc = (HWPFDocument) _doc;
+            PlexOfCps binTable = new PlexOfCps( doc.getTableStream(), doc
+                    .getFileInformationBlock().getFcPlcfbtePapx(), doc
+                        mainStream, doc.getDataStream(), pageOffset,
+                        doc.getTextTable() );

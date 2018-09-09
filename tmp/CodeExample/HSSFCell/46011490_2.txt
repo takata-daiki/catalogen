@@ -1,0 +1,10 @@
+    HSSFCell cell = row.createCell(0);
+    cell.setCellStyle(csTitle);
+    cell.setCellValue(title);
+          cell.setCellStyle(csHeader);
+            cell.setCellStyle(csIntNum);
+            cell.setCellValue(Double.parseDouble(value.toString()));
+            cell.setCellStyle(csDoubleNum);
+            cell.setCellValue(bd.doubleValue());
+            cell.setCellStyle(csText);
+            cell.setCellValue(baseColumn.convertToString(value));

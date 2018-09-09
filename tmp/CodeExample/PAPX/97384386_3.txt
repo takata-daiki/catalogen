@@ -1,0 +1,2 @@
+        for ( PAPX papx : _doc.getParagraphTable().getParagraphs() )
+                SprmIterator sprmIt = new SprmIterator( papx.getGrpprl(), 2 );

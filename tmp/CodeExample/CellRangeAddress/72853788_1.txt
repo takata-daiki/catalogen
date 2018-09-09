@@ -1,0 +1,5 @@
+    CellRangeAddress rangeAddresses = cellRangeAddresses[0];
+    assertEquals(4,rangeAddresses.getFirstColumn());
+    assertEquals(4,rangeAddresses.getLastColumn());
+    assertEquals(11,rangeAddresses.getFirstRow());
+    assertEquals(11,rangeAddresses.getLastRow());

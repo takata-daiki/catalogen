@@ -1,0 +1,4 @@
+        EscherContainerRecord dggContainer = (EscherContainerRecord) drawingGroup.getEscherRecord( 0 );
+        if (dggContainer.getChild( 1 ).getRecordId() == EscherContainerRecord.BSTORE_CONTAINER )
+            bstoreContainer = (EscherContainerRecord) dggContainer.getChild( 1 );
+            dggContainer.getChildRecords().add( 1, bstoreContainer );

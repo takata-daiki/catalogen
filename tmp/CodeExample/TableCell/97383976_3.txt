@@ -1,0 +1,3 @@
+                TableCell nextTableCell = nextRow.getCell( c );
+                if ( !nextTableCell.isVerticallyMerged()
+                        || nextTableCell.isFirstVerticallyMerged() )

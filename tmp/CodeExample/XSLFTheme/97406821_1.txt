@@ -1,0 +1,3 @@
+            XSLFTheme theme = getSheet().getTheme();
+                    theme.getXmlObject().getThemeElements().getFmtScheme().getBgFillStyleLst();
+            fill = rShape.selectPaint(graphics, bgStyle, phClr, theme.getPackagePart());

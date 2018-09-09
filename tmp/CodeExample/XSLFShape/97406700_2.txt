@@ -1,0 +1,3 @@
+        for (XSLFShape shape : getShapes()) {
+            shape.applyTransform(graphics);
+          shape.draw(graphics);

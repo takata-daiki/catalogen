@@ -1,0 +1,3 @@
+    Range r = doc.getRange();
+    for (int x = 0; x < r.numSections(); x++) {
+      Section s = r.getSection(x);

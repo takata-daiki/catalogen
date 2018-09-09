@@ -1,0 +1,8 @@
+        XSLFTextShape tsh = (XSLFTextShape)sh;
+        boolean srcWordWrap = tsh.getWordWrap();
+        double leftInset = tsh.getLeftInset();
+        double rightInset = tsh.getRightInset();
+        double topInset = tsh.getTopInset();
+        double bottomInset = tsh.getBottomInset();
+        VerticalAlignment vAlign = tsh.getVerticalAlignment();
+        List<XSLFTextParagraph> srcP = tsh.getTextParagraphs();

@@ -1,0 +1,3 @@
+      HSSFCell cell = row.createCell(i + nextCellOffset);
+      cell.setCellValue(column.getText());
+      cell.setCellStyle(csHeader);

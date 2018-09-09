@@ -1,0 +1,4 @@
+        XSLFSlide slide = (XSLFSlide)createRelationship(
+        slideId.setId2(slide.getPackageRelationship().getId());
+        slide.addRelation(layout.getPackageRelationship().getId(), layout);
+        slide.getPackagePart().addRelationship(ppName, TargetMode.INTERNAL,

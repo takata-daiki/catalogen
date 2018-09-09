@@ -1,0 +1,3 @@
+             PackagePart corePart = getCorePart();
+            PackagePart slidePart = corePart.getRelatedPart(
+                  corePart.getRelationship(ctSlide.getId2()));

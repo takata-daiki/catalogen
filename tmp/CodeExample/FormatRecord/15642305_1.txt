@@ -1,0 +1,4 @@
+            FormatRecord r = (FormatRecord) i.next();
+            if ( formats.size() < r.getIndexCode() + 1 )
+                formats.setSize( r.getIndexCode() + 1 );
+            formats.set( r.getIndexCode(), r.getFormatString() );

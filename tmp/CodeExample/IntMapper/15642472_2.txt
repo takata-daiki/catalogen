@@ -1,0 +1,2 @@
+    public SSTSerializer( IntMapper strings, int numStrings, int numUniqueStrings )
+        int infoRecs = ExtSSTRecord.getNumberOfInfoRecsForStrings(strings.size());

@@ -1,0 +1,6 @@
+        RowRecord rowrec = new RowRecord();
+        rowrec.setRowNumber(row);
+        rowrec.setHeight(( short ) 0xff);
+        rowrec.setOptimize(( short ) 0x0);
+        rowrec.setOptionFlags(( short ) 0x100);  // seems necessary for outlining
+        rowrec.setXFIndex(( short ) 0xf);

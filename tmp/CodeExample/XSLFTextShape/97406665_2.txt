@@ -1,0 +1,3 @@
+            XSLFTextShape shape = getParentShape();
+            ok = shape.fetchShapeProperty(visitor);
+                CTPlaceholder ph = shape.getCTPlaceholder();

@@ -1,0 +1,2 @@
+    private void extractTableContent(XWPFDocument doc, XHTMLContentHandler xhtml)
+        for (CTTbl table : doc.getDocument().getBody().getTblArray()) {

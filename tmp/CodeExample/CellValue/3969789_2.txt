@@ -1,0 +1,4 @@
+    CellValue value = _evaluator.evaluate(cell);
+    assertEquals(6, value.getNumberValue(), 0.0000000000000001);
+    assertEquals(Cell.CELL_TYPE_NUMERIC, value.getCellType());
+    assertEquals(7, value.getNumberValue(), 0.0000000000000001);

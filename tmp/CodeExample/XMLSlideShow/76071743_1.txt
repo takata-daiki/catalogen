@@ -1,0 +1,4 @@
+    XMLSlideShow ppt = new XMLSlideShow();
+    XSLFSlide slide = ppt.createSlide();
+    int pictureIndex = ppt.addPicture(data,
+    ppt.write(outs);

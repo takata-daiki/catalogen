@@ -1,0 +1,2 @@
+          XSSFCellFill fill = ((XSSFWorkbook) designer.workbook).getStylesSource().getFillAt(fillId);
+          fillForegroundColorColor = fill.getFillForegroundColor();

@@ -1,0 +1,4 @@
+        PlfLfo other = (PlfLfo) obj;
+        if ( _lfoMac != other._lfoMac )
+        if ( !Arrays.equals( _rgLfo, other._rgLfo ) )
+        if ( !Arrays.equals( _rgLfoData, other._rgLfoData ) )

@@ -1,0 +1,5 @@
+    public XSLFSlide createSlide(XSLFSlideLayout layout) {
+        layout.copyLayout(slide);
+        slide.addRelation(layout.getPackageRelationship().getId(), layout);
+        PackagePartName ppName = layout.getPackagePart().getPartName();
+                layout.getPackageRelationship().getRelationshipType());

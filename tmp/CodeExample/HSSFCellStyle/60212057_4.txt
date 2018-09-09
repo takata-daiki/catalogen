@@ -1,0 +1,3 @@
+                  HSSFCellStyle style= wb.createCellStyle();
+                  style.cloneStyleFrom(cell.getCellStyle());
+                  style.setIndention((short)1);

@@ -1,0 +1,3 @@
+        (final UnsupportedVariantTypeException ex)
+            Long vt = Long.valueOf(ex.getVariantType());
+              logger.log( POILogger.ERROR, ex.getMessage());

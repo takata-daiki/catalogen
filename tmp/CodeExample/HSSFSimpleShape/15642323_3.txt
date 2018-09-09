@@ -1,0 +1,5 @@
+        HSSFSimpleShape shape = escherGroup.createShape(new HSSFChildAnchor( x, y, x + width, y + height ) );
+        shape.setShapeType(HSSFSimpleShape.OBJECT_TYPE_OVAL);
+        shape.setLineStyle(HSSFShape.LINESTYLE_NONE);
+        shape.setFillColor(foreground.getRed(), foreground.getGreen(), foreground.getBlue());
+        shape.setLineStyleColor(foreground.getRed(), foreground.getGreen(), foreground.getBlue());

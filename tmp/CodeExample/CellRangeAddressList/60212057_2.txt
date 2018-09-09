@@ -1,0 +1,8 @@
+          CellRangeAddressList areas =  ExcelUtils.getEntireRow(workR);
+          for(int iArea=0; iArea < areas.countRanges(); iArea++)
+            ExcelUtils.paste(sh, areas.getCellRangeAddress(iArea), buff, ExcelUtils.xlFormats);
+                      areas.getCellRangeAddress(0));
+            for(int iArea=0; iArea < areas.countRanges(); iArea++){
+                  areas.getCellRangeAddress(iArea));
+              for(int iArea=0; iArea < areas.countRanges(); iArea++){
+                        areas.getCellRangeAddress(iArea));

@@ -1,0 +1,3 @@
+            UserEditAtom usr = (UserEditAtom) Record.buildRecordAtOffset(docstream, usrOffset);
+            int psrOffset = usr.getPersistPointersOffset();
+            usrOffset = usr.getLastUserEditAtomOffset();

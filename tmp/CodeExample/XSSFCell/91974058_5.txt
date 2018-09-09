@@ -1,0 +1,3 @@
+        XSSFCell cell1f = dataRow.createCell(0);
+        cell1f.setCellStyle(dataStyle);
+        cell1f.setCellValue(new XSSFRichTextString(f.getAufgehort()));

@@ -1,0 +1,2 @@
+            EscherProperty escherProperty = (EscherProperty) iterator.next();
+            pos += escherProperty.serializeComplexPart( data, pos );

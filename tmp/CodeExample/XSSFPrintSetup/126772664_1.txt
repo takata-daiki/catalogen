@@ -1,0 +1,5 @@
+      XSSFPrintSetup printSetup = sheet0.getPrintSetup();
+      assertEquals( PaperSize.A4_PAPER,  printSetup.getPaperSizeEnum() );
+      assertEquals( PrintOrientation.LANDSCAPE, printSetup.getOrientation() );
+      assertEquals( 1.0 / 2.54, printSetup.getHeaderMargin(), 0.01 );
+      assertEquals( 1.0 / 2.54, printSetup.getFooterMargin(), 0.01 );

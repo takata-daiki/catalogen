@@ -1,0 +1,3 @@
+       POIFSFileSystem newFS = new POIFSFileSystem();
+       copy(dir, newFS.getRoot());
+           newFS.writeFilesystem(out);

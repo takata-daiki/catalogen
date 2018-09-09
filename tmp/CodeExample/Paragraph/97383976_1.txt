@@ -1,0 +1,9 @@
+            Element parentElement, int currentTableLevel, Paragraph paragraph,
+            if ( paragraph.isInTable()
+                    && paragraph.getTableLevel() != currentTableLevel )
+                if ( paragraph.getTableLevel() < currentTableLevel )
+                                    + paragraph.getTableLevel()
+            if ( paragraph.text().equals( "\u000c" ) )
+            if ( paragraph.isInList() )
+                    HWPFList hwpfList = paragraph.getList();
+                            (char) paragraph.getIlvl() );

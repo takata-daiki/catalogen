@@ -1,0 +1,3 @@
+    public XSLFSheet importContent(XSLFSheet src){
+        getSpTree().set(src.getSpTree());
+        List<XSLFShape> srcShapes = src.getShapeList();

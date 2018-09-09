@@ -1,0 +1,2 @@
+          HSSFRow row = sheet1.createRow(count); 
+          row.createCell(0).setCellValue(res.getString("Url")); 

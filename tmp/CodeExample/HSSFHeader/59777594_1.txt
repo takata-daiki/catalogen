@@ -1,0 +1,2 @@
+    HSSFHeader header = sheet.getHeader();
+    header.setRight(HSSFHeader.page()+ " / "+HSSFHeader.numPages());

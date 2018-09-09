@@ -1,0 +1,5 @@
+            Element parentElement, int currentTableLevel, Paragraph paragraph,
+        final int charRuns = paragraph.numCharacterRuns();
+            final CharacterRun characterRun = paragraph.getCharacterRun( 0 );
+                    float firstLinePosition = paragraph.getIndentFromLeft()
+                            + paragraph.getFirstLineIndent() + 20; // char have

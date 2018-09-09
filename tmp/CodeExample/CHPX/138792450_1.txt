@@ -1,0 +1,4 @@
+      CHPX chpx = (CHPX)runsIt.next();
+      int runStart = chpx.getStart() + fcMin;
+      int runEnd = chpx.getEnd() + fcMin;
+      if (!isDeleted(chpx.getGrpprl()))

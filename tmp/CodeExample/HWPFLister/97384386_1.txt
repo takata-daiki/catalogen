@@ -1,0 +1,7 @@
+        HWPFLister listerOriginal = new HWPFLister( original );
+        listerOriginal.dumpFileSystem();
+        listerOriginal.dumpFIB();
+            listerOriginal.dumpDop();
+            listerOriginal.dumpTextPieces( outputTextPiecesText );
+            listerOriginal.dumpChpx( outputChpxProperties, outputChpxSprms );
+            listerOriginal.dumpPapx( outputPapxProperties, outputPapxSprms );

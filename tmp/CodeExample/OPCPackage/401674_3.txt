@@ -1,0 +1,2 @@
+      OPCPackage pack = part.getPackage();
+      return pack.getPart(PackagingURIHelper.createPartName(rels.getRelationship(0).getTargetURI()));

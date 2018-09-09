@@ -1,0 +1,4 @@
+          CellValue cellvalue = getEval().evaluate(cell);
+          switch (cellvalue.getCellType()) {
+            booleanValue = cellvalue.getBooleanValue();
+            doubleValue = cellvalue.getNumberValue();

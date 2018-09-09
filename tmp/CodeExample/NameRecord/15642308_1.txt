@@ -1,0 +1,8 @@
+    private NameRecord       name;
+        short indexToExternSheet = name.getExternSheetNumber();
+        String result = name.getNameText();
+        name.setNameText(nameName);
+        name.setNameTextLength((byte)nameName.length());
+        result = name.getAreaReference(book);
+        name.setExternSheetNumber(externSheetNumber);
+        name.setAreaReference(ref);

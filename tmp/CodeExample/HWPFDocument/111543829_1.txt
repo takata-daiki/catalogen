@@ -1,0 +1,4 @@
+        HWPFDocument doc = new HWPFDocument(fs);
+        Range range = doc.getRange();
+        DocumentSummaryInformation dsi = doc.getDocumentSummaryInformation();
+        doc.write(new FileOutputStream("new-hwpf-file.doc"));

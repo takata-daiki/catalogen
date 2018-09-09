@@ -1,0 +1,6 @@
+    XSSFCellStyle cellStyle = sheet.getRow(0).getCell(0).getCellStyle();
+        System.out.println("Found cellstule with index " + i + " vs. " + cellStyle.getIndex());
+    System.out.println("Fill ID: " + cellStyle.getCoreXf().getFillId());
+      XSSFCellFill fill = stylesSource.getFillAt(cellStyle.getIndex()+1);
+        System.out.println("Index: " + cellStyle.getIndex() + " "+ fill.getFillBackgroundColor().getARGBHex());
+      System.out.println("Index: " +cellStyle.getIndex() + " "+ fill.getFillForegroundColor().getARGBHex());

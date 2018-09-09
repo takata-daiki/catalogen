@@ -1,0 +1,7 @@
+        final PropertySet ps = (PropertySet) o;
+        int byteOrder1 = ps.getByteOrder();
+        ClassID classID1 = ps.getClassID();
+        int format1 = ps.getFormat();
+        int osVersion1 = ps.getOSVersion();
+        int sectionCount1 = ps.getSectionCount();
+        return Util.equals(getSections(), ps.getSections());

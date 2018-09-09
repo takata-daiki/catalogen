@@ -1,0 +1,3 @@
+    HSSFCellStyle style3 = createStyle(workbook, HSSFColor.WHITE.index, HSSFCellStyle.SOLID_FOREGROUND,
+    style3.setVerticalAlignment(HSSFCellStyle.VERTICAL_CENTER);
+    style3.setDataFormat(format.getFormat("0.000"));

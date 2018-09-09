@@ -1,0 +1,6 @@
+            EscherOptRecord opt = new EscherOptRecord();
+            opt.setRecordId((short) 0xF00B);
+            opt.setOptions((short) 0x0033);
+            opt.addEscherProperty( new EscherBoolProperty(EscherProperties.TEXT__SIZE_TEXT_TO_FIT_SHAPE, 524296) );
+            opt.addEscherProperty( new EscherRGBProperty(EscherProperties.FILL__FILLCOLOR, 0x08000041) );
+            opt.addEscherProperty( new EscherRGBProperty(EscherProperties.LINESTYLE__COLOR, 134217792) );

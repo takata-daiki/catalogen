@@ -1,0 +1,7 @@
+        Header header = new Header();
+        header.wmfsize = data.length - 512;
+        header.bounds = new and.awt.Rectangle(0, 0, 200, 200);
+        header.size = new and.awt.Dimension(header.bounds.width*Shape.EMU_PER_POINT,
+                header.bounds.height*Shape.EMU_PER_POINT);
+        header.zipsize = compressed.length;
+        header.write(out);

@@ -1,0 +1,3 @@
+          HSSFFont dataCellFont = workBook.createFont();
+          dataCellFont.setFontHeightInPoints((short)10);
+          dataCellFont.setColor(HSSFColor.GREY_80_PERCENT.index);  

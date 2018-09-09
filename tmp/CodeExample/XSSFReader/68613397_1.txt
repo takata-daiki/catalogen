@@ -1,0 +1,3 @@
+    XSSFReader r = new XSSFReader(pkg);
+    SharedStringsTable sst = r.getSharedStringsTable();
+    InputStream sheet2 = r.getSheet("rId"+sheetId);

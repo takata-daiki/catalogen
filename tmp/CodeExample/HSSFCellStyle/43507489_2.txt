@@ -1,0 +1,4 @@
+    HSSFCellStyle rowStyle = wb.createCellStyle();
+    rowStyle.setAlignment(HSSFCellStyle.ALIGN_LEFT);
+    rowStyle.setVerticalAlignment(HSSFCellStyle.VERTICAL_CENTER);
+    rowStyle.setWrapText(true);

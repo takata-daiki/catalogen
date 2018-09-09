@@ -1,0 +1,2 @@
+      final XWPFParagraphDecorator decorator = new XWPFCommentsDecorator(new XWPFHyperlinkDecorator(paragraph, null, true));
+      buffy.append(decorator.getText()).append(' ');

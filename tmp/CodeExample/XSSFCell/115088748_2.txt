@@ -1,0 +1,6 @@
+                    final XSSFCell xssfCell = xssfRow.createCell(cell.getColInfo().getSpaltenNr());
+                        xssfCell.setCellValue(cell.getFormattedValue());
+                        xssfCell.setCellType(XSSFCell.CELL_TYPE_STRING); //JIRA MOD-32 CellType in Abh채ngigkeit der ValueClass z.B. Number
+                        xssfCell.setCellValue(cell.getLabel());
+                        xssfCell.setHyperlink(xssfHyperlink);
+                        xssfCell.setCellStyle(hlink_style);

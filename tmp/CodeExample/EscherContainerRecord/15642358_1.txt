@@ -1,0 +1,7 @@
+            EscherContainerRecord dggContainer = new EscherContainerRecord();
+            dggContainer.setRecordId((short) 0xF000);
+            dggContainer.setOptions((short) 0x000F);
+            dggContainer.addChildRecord(dgg);
+                dggContainer.addChildRecord( bstoreContainer );
+            dggContainer.addChildRecord(opt);
+            dggContainer.addChildRecord(splitMenuColors);

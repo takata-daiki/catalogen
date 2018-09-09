@@ -1,0 +1,7 @@
+    public void parseFormulaRecord(FormulaRecord record)
+        System.out.print("row = " + record.getRow());
+        System.out.println(", col = " + record.getColumn());
+        System.out.println("value = " + record.getValue());
+        System.out.print("xf = " + record.getXFIndex());
+                           + record.getNumberOfExpressionTokens());
+        System.out.println(", options = " + record.getOptions());

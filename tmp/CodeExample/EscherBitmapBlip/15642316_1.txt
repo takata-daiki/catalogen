@@ -1,0 +1,11 @@
+        EscherBitmapBlip blipRecord = new EscherBitmapBlip();
+        blipRecord.setRecordId( (short) ( EscherBitmapBlip.RECORD_ID_START + format ) );
+                blipRecord.setOptions(HSSFPictureData.MSOBI_EMF);
+                blipRecord.setOptions(HSSFPictureData.MSOBI_WMF);
+                blipRecord.setOptions(HSSFPictureData.MSOBI_PICT);
+                blipRecord.setOptions(HSSFPictureData.MSOBI_PNG);
+                blipRecord.setOptions(HSSFPictureData.MSOBI_JPEG);
+                blipRecord.setOptions(HSSFPictureData.MSOBI_DIB);
+        blipRecord.setUID( uid );
+        blipRecord.setMarker( (byte) 0xFF );
+        blipRecord.setPictureData( pictureData );

@@ -1,0 +1,3 @@
+      POIFSReader reader = new POIFSReader();
+      reader.registerListener(listener);
+      reader.read(contentStream);

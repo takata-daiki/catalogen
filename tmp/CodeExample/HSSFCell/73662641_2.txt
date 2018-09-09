@@ -1,0 +1,5 @@
+    protected void writeCell(Object value, HSSFCell cell) {
+            cell.setCellValue(num.doubleValue());
+            cell.setCellValue((Date) value);
+            cell.setCellValue((Calendar) value);
+            cell.setCellValue(new HSSFRichTextString(escapeColumnValue(value)));

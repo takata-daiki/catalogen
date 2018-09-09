@@ -1,0 +1,9 @@
+                CellValue value = evaluator.evaluate(cell);
+                    if (value.getCellType() == Cell.CELL_TYPE_NUMERIC) {
+                        y = value.getNumberValue();
+                        x = value.getNumberValue();
+                    switch (value.getCellType()) {
+                            builder.set(name, value.getNumberValue());
+                            final java.util.Date javaDate = HSSFDateUtil.getJavaDate(value
+                        builder.set(name, value.getStringValue().trim());
+                        builder.set(name, value.getBooleanValue());

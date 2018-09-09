@@ -1,0 +1,5 @@
+        final CustomProperty c = (CustomProperty) o;
+        final String name1 = c.getName();
+        return equalNames && c.getID() == this.getID()
+                && c.getType() == this.getType()
+                && c.getValue().equals(this.getValue());

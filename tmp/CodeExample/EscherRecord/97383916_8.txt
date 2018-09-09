@@ -1,0 +1,2 @@
+            EscherRecord record = iterator.next();
+            builder.append(record.toXml(tab+"\t"));

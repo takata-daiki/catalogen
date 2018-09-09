@@ -1,0 +1,7 @@
+    private DocumentProperty _property;
+        _property.setDocument(this);
+        if (_property.shouldUseSmallBlocks())
+        _property.setStartBlock(index);
+                if (data.length > _property.getSize())
+                    byte[] tmp = new byte[ _property.getSize() ];
+        buffer.append("Document: \"").append(_property.getName())

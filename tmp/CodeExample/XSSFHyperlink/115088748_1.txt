@@ -1,0 +1,3 @@
+                        final XSSFHyperlink xssfHyperlink = helper.createHyperlink(Hyperlink.LINK_URL);
+                        xssfHyperlink.setAddress(cell.getFormattedValue());
+                        xssfHyperlink.setLabel(cell.getLabel());

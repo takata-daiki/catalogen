@@ -1,0 +1,5 @@
+            PackagePart slidePart = corePart.getRelatedPart(
+            for(PackageRelationship rel : slidePart.getRelationshipsByType(OLE_OBJECT_REL_TYPE))
+                embedds.add(slidePart.getRelatedPart(rel)); // TODO: Add this reference to each slide as well
+            for(PackageRelationship rel : slidePart.getRelationshipsByType(PACK_OBJECT_REL_TYPE))
+                  embedds.add(slidePart.getRelatedPart(rel));

@@ -1,0 +1,4 @@
+        BlockAllocationTableWriter bat        =
+                bmo.setStartBlock(bat.allocateSpace(block_count));
+        int               batStartBlock       = bat.createBlocks();
+            header_block_writer.setBATBlocks(bat.countBlocks(),

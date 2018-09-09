@@ -1,0 +1,3 @@
+                XSLFSheet sheet = _shape.getSheet();
+                XSLFTheme theme = sheet.getTheme();
+                    paint = selectPaint(graphics, fillProps, phClr, sheet.getPackagePart());

@@ -1,0 +1,6 @@
+  protected final HSSFWorkbook workbook;
+    sheet = workbook.createSheet(sheetName);
+    final HSSFFont font = workbook.createFont();
+    final HSSFCellStyle headerCellStyle = workbook.createCellStyle();
+    final HSSFCellStyle bodyCellStyle = workbook.createCellStyle();
+      drawingPatriarch = workbook.getSheet(sheetName)

@@ -1,0 +1,2 @@
+    protected IITextContainer startVisitTable( XWPFTable table, IITextContainer tableContainer )
+        CTString str = table.getCTTbl().getTblPr().getTblStyle();

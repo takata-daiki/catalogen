@@ -1,0 +1,2 @@
+      HSSFPalette palette = ((HSSFWorkbook) xlWorkbook).getCustomPalette();
+        palette.setColorAtIndex((short) (55 - colorIndex.indexOf(swtColor)),

@@ -1,0 +1,3 @@
+        for (XSLFSlide slide : slides) {
+            CTSlide rawSlide = slide._getCTSlide();
+            CTSlideIdListEntry slideId = slide._getCTSlideId();

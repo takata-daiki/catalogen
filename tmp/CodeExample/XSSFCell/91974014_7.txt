@@ -1,0 +1,10 @@
+          XSSFCell cell = dataRow.createCell(j + 2);
+          cell.setCellStyle(dataStyle);
+            cell.setCellValue(new XSSFRichTextString(b
+            cell.setCellValue(new XSSFRichTextString(b.getStadt()));
+            cell.setCellValue(new XSSFRichTextString(b.getPlz()));
+            cell.setCellValue(new XSSFRichTextString(b.getEmail()));
+            cell.setCellValue(new XSSFRichTextString(b.getVsnr()));
+            cell.setCellValue(new XSSFRichTextString(b.getMgnr()));
+            cell.setCellValue(new XSSFRichTextString(b.getArea()));
+            cell.setCellValue(new XSSFRichTextString(b.getAufgehort()));

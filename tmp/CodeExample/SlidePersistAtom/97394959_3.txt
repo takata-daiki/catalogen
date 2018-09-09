@@ -1,0 +1,3 @@
+    SlidePersistAtom prev = null;
+        if (prev.getSlideIdentifier() < spa.getSlideIdentifier()) {
+    sp.setSlideIdentifier(prev == null ? 256 : (prev.getSlideIdentifier() + 1));

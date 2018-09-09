@@ -1,0 +1,3 @@
+            IntList cols = (IntList) rows.get(row);
+            if (col >= cols.size())
+                return cols.get( col );

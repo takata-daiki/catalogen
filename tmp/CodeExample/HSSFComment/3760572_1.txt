@@ -1,0 +1,3 @@
+        HSSFComment comment = this.m_cell.getCellComment();
+            comment.setString(new HSSFRichTextString(strCommecnt));
+            comment.setAuthor(strAuthor);

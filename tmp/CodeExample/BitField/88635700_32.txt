@@ -1,0 +1,3 @@
+    /**/private static BitField fEmbedFonts = new BitField(0x80);
+        field_7_docinfo2 = (byte)fEmbedFonts.setBoolean(field_7_docinfo2, value);
+        return fEmbedFonts.isSet(field_7_docinfo2);

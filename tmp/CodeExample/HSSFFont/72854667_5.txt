@@ -1,0 +1,6 @@
+    private Font getFont(HSSFFont hssfFont) {
+            String name = hssfFont.getFontName();
+            int size = hssfFont.getFontHeightInPoints();
+            if (hssfFont.getBoldweight() == HSSFFont.BOLDWEIGHT_BOLD) {
+                if (hssfFont.getItalic()) {
+            else if (hssfFont.getItalic()) {

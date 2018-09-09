@@ -1,0 +1,3 @@
+    private static final BitField          formatted     = BitFieldFactory.getInstance(0x80);
+        field_7_option_flags = formatted.setShortBoolean(field_7_option_flags,
+        return formatted.isSet(field_7_option_flags);

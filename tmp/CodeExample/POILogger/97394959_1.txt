@@ -1,0 +1,7 @@
+  private POILogger logger = POILogFactory.getLogger(this.getClass());
+    logger.log(POILogger.ERROR,
+          logger.log(POILogger.ERROR, "A Notes SlideAtomSet at " + i
+          logger.log(POILogger.ERROR, "A Slide SlideAtomSet at " + i
+          logger.log(POILogger.ERROR, "Notes not found for noteId=" + noteId);
+    logger.log(POILogger.INFO, "Added slide " + _slides.length + " with ref " + sp.getRefID()
+    logger.log(POILogger.INFO, "New slide ended up at " + slideOffset);

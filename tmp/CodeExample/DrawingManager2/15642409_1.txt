@@ -1,0 +1,5 @@
+    private DrawingManager2 drawingManager;
+                        drawingManager.allocateShapeId(drawingGroupId) );
+        int shapeId = drawingManager.allocateShapeId(drawingGroupId);
+        dg = drawingManager.createDgRecord();
+        sp1.setShapeId( drawingManager.allocateShapeId(dg.getDrawingGroupId()) );

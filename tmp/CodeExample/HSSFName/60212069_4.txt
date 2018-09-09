@@ -1,0 +1,2 @@
+        HSSFName iName = wb.getNameAt(i);
+        if((iName != null) && (iName.getNameName() == null)) return iName;

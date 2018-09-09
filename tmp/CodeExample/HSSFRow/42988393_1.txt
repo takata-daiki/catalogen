@@ -1,0 +1,34 @@
+          HSSFRow row = st.getRow(i);
+          if(row != null && row.getCell(0) != null && !"".equals(row.getCell(0).getStringCellValue())){
+            cus.setName(getStringValue(row.getCell(0)));            
+            if(row.getCell(2) != null){
+              String strIstry = getStringValue(row.getCell(2));
+            if(row.getCell(11) != null){
+              cus.setCategory(CusCategory.valueOf(getStringValue(row.getCell(11))));
+            if(row.getCell(12) != null){
+              String strArea = getStringValue(row.getCell(12));
+            if(row.getCell(13) != null){
+              String strCusType = getStringValue(row.getCell(13));
+            if(row.getCell(1) != null && !"".equals(row.getCell(1).getStringCellValue())){
+              cus.setScale(Integer.valueOf(row.getCell(1).getStringCellValue()));
+            cus.setPhone(getStringValue(row.getCell(3)));
+            if(row.getCell(4) != null){
+              cus.setUseSoft(row.getCell(4).getBooleanCellValue());            
+            cus.setUrl(getStringValue(row.getCell(5)));
+            cus.setAddress(getStringValue(row.getCell(6)));
+            cus.setRemark(getStringValue(row.getCell(7)));
+            if(row.getCell(8) != null){
+              cus.setNextContactDate(getDateValue(row.getCell(8)));            
+            if(row.getCell(10) != null){
+              cus.setLastTrackDate(getDateValue(row.getCell(10)));            
+            if(row.getCell(14) != null || row.getCell(15) != null || row.getCell(16) != null){
+              if(row.getCell(14) != null){
+                track.setTtime(getDateValue(row.getCell(14)));
+              track.setRemark(getStringValue(row.getCell(15)));
+              track.setNextPlan(getStringValue(row.getCell(16)));
+            if(row.getCell(17) != null){
+              Contact contact = new Contact(getStringValue(row.getCell(17)));
+              contact.setEmail(getStringValue(row.getCell(18)));
+              contact.setQq(getStringValue(row.getCell(19)));
+              contact.setPhone(getStringValue(row.getCell(20)));
+              contact.setTel(getStringValue(row.getCell(21)));

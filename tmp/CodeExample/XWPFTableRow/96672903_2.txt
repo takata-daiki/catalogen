@@ -1,0 +1,2 @@
+    protected String[] getStyleID( XWPFTableRow row )
+        return new String[] { row.getTable().getStyleID() };

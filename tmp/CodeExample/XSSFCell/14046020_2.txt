@@ -1,0 +1,5 @@
+  private static String getCellValue(XSSFCell cell, int cellType) {
+        Date date = cell.getDateCellValue();
+      returnvalue = String.valueOf(cell.getNumericCellValue());
+      returnvalue = cell.toString();
+      returnvalue = cell.getBooleanCellValue() ? "true" : "false";

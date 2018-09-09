@@ -1,0 +1,3 @@
+    HSSFPalette customColorsPalette;
+                    customColorsPalette.setColorAtIndex(new Byte((byte) nextAvailableColorCode), new Byte((byte) redCode), new Byte((byte) greenCode), new Byte((byte) blueCode));
+                    returnedColorIndex = customColorsPalette.getColor(nextAvailableColorCode).getIndex();

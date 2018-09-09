@@ -1,0 +1,4 @@
+            WordToHtmlConverter wordToHtmlConverter = new WordToHtmlConverter(newDocument);
+            wordToHtmlConverter.setPicturesManager(new PictureSaving());
+            wordToHtmlConverter.processDocument(hwpfDocument);
+            transformer.transform(new DOMSource(wordToHtmlConverter.getDocument()), new StreamResult(stringWriter));

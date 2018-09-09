@@ -1,0 +1,3 @@
+    private void processHeader(LabelSSTRecord lrec)
+        if (lrec.getColumn() > 3)
+            String colHeader = sstrec.getString(lrec.getSSTIndex()).getString();

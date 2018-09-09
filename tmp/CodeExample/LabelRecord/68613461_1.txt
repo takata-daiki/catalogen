@@ -1,0 +1,4 @@
+      LabelRecord lrec = (LabelRecord) record;
+      curRow = thisRow = lrec.getRow();
+      thisColumn = lrec.getColumn();
+      value = lrec.getValue().trim();

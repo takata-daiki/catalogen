@@ -1,0 +1,6 @@
+    protected PageBreakRecord            rowBreaks         =     null;
+      rowBreaks.addBreak((short)row, fromCol, toCol);
+      rowBreaks.removeBreak((short)row);
+      return (rowBreaks == null) ? false : rowBreaks.getBreak((short)row) != null;
+      return rowBreaks.getBreaksIterator();
+      return (rowBreaks == null) ? 0 : (int)rowBreaks.getNumBreaks();

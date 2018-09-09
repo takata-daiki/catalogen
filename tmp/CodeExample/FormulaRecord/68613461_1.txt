@@ -1,0 +1,7 @@
+      FormulaRecord frec = (FormulaRecord) record;
+      thisRow = frec.getRow();
+      thisColumn = frec.getColumn();
+        if (Double.isNaN(frec.getValue())) {
+          nextRow = frec.getRow();
+          nextColumn = frec.getColumn();
+            frec.getParsedExpression()) + '"';

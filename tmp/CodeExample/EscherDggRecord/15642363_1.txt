@@ -1,0 +1,12 @@
+    EscherDggRecord dgg;
+        dgg.addCluster( dgId, 0 );
+        dgg.setDrawingsSaved( dgg.getDrawingsSaved() + 1 );
+            dgg.addCluster(drawingGroupId, 1);
+            for (int i = 0; i < dgg.getFileIdClusters().length; i++)
+                EscherDggRecord.FileIdCluster c = dgg.getFileIdClusters()[i];
+        dgg.setNumShapesSaved(dgg.getNumShapesSaved() + 1);
+        if (newShapeId >= dgg.getShapeIdMax())
+            dgg.setShapeIdMax(newShapeId + 1);
+        for ( int i = 0; i < dgg.getFileIdClusters().length; i++ )
+            if ( dgg.getFileIdClusters()[i].getDrawingGroupId() == dgId )
+        int max = dgg.getShapeIdMax();

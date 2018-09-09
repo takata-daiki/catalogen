@@ -1,0 +1,18 @@
+        SummaryInformation si = (SummaryInformation)
+        setProperty(DublinCore.TITLE, si.getTitle());
+        setProperty(Office.APPLICATION_NAME, si.getApplicationName());
+        setProperty(Office.AUTHOR, si.getAuthor());
+        setProperty(Office.CHARACTER_COUNT, si.getCharCount());
+        setProperty(Office.COMMENTS, si.getComments());
+        setProperty(DublinCore.DATE, si.getCreateDateTime());
+        setProperty(HttpHeaders.LAST_MODIFIED, si.getLastSaveDateTime());
+        setProperty(Office.KEYWORDS, si.getKeywords());
+        setProperty(Office.LAST_AUTHOR, si.getLastAuthor());
+        setProperty(Office.LAST_PRINTED, si.getLastPrinted());
+        setProperty(Office.LAST_SAVED, si.getLastSaveDateTime());
+        setProperty(Office.PAGE_COUNT, si.getPageCount());
+        setProperty(Office.REVISION_NUMBER, si.getRevNumber());
+        setProperty(DublinCore.RIGHTS, si.getSecurity());
+        setProperty(DublinCore.SUBJECT, si.getSubject());
+        setProperty(Office.TEMPLATE, si.getTemplate());
+        setProperty(Office.WORD_COUNT, si.getWordCount());

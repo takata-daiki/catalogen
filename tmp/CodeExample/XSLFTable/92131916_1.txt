@@ -1,0 +1,9 @@
+        XSLFTable table = slide.createTable();
+        table.setAnchor(new Rectangle(30, 120, 100, 100));
+        XSLFTableRow headerRow = table.addRow();
+            table.setColumnWidth(i, 160);
+            XSLFTableRow row = table.addRow();
+        table.setColumnWidth(0, 160);
+        table.setColumnWidth(1, 160);
+        table.setColumnWidth(2, 160);
+        table.setColumnWidth(3, 160);

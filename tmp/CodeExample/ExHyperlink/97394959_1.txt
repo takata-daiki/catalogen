@@ -1,0 +1,4 @@
+    ExHyperlink ctrl = new ExHyperlink();
+    ExHyperlinkAtom obj = ctrl.getExHyperlinkAtom();
+    ctrl.setLinkURL(link.getAddress());
+    ctrl.setLinkTitle(link.getTitle());

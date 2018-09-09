@@ -1,0 +1,3 @@
+    /**/private static BitField fAutoVersions = new BitField(0x0002);
+        field_38_docinfo6 = (short)fAutoVersions.setBoolean(field_38_docinfo6, value);
+        return fAutoVersions.isSet(field_38_docinfo6);

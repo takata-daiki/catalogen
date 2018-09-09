@@ -1,0 +1,2 @@
+    HSSFPatriarch patriarch = sheet.createDrawingPatriarch();
+    HSSFComment comment = patriarch.createComment(new HSSFClientAnchor(0, 0, 0, 0, (short) 4, 2, (short) 6, 5));

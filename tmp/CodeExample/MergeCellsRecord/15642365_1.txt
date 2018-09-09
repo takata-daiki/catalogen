@@ -1,0 +1,7 @@
+    protected MergeCellsRecord           merged            =     null;
+                retval.numMergedRegions += retval.merged.getNumAreas();
+        if (merged == null || merged.getNumAreas() == 1027)
+        merged.addArea(rowFrom, colFrom, rowTo, colTo);
+        if (numMergedRegions - index < merged.getNumAreas())
+            startNumRegions = numMergedRegions - merged.getNumAreas(); 
+            startNumRegions = numMergedRegions - merged.getNumAreas();

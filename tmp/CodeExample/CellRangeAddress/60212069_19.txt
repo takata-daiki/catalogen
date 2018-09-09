@@ -1,0 +1,3 @@
+  public static ExcelBuffer copy (HSSFSheet sh, CellRangeAddress cellsRef){
+    return  copy (sh, new AreaReference(new CellReference(cellsRef.getFirstRow(),  cellsRef.getFirstColumn()), 
+                        new CellReference(cellsRef.getLastRow(),  cellsRef.getLastColumn())));

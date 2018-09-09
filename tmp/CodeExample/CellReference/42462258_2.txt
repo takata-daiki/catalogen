@@ -1,0 +1,3 @@
+        CellReference cellRef = new CellReference(data.realStartingCell);
+        data.startingRow = cellRef.getRow();
+        data.startingCol = cellRef.getCol();

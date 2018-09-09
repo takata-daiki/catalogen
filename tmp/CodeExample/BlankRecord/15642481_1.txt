@@ -1,0 +1,4 @@
+                BlankRecord br = new BlankRecord();
+                br.setColumn(( short ) (k + mb.getFirstColumn()));
+                br.setRow(mb.getRow());
+                br.setXFIndex(mb.getXFAt(k));

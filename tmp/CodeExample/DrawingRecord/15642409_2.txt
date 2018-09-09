@@ -1,0 +1,3 @@
+            DrawingRecord drawing = new DrawingRecord();
+            drawing.setData( drawingData );
+            int temp = drawing.serialize( pos, data );

@@ -1,0 +1,3 @@
+    /**/private static final BitField iTypeTxt = new BitField(0x3800);
+        field_2_bits = (short)iTypeTxt.setValue(field_2_bits, value);
+        return ( byte )iTypeTxt.getValue(field_2_bits);

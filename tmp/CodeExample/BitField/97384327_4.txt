@@ -1,0 +1,3 @@
+    /**/private static final BitField fOutline = new BitField(0x00000008);
+        field_1_grpfChp = fOutline.setBoolean(field_1_grpfChp, value);
+        return fOutline.isSet(field_1_grpfChp);

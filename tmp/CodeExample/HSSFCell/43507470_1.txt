@@ -1,0 +1,3 @@
+        HSSFCell headerCell = null;
+            headerCell.setCellStyle(cellStyleHeader);
+            headerCell.setCellValue(new HSSFRichTextString(colName));

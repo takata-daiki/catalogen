@@ -1,0 +1,19 @@
+  protected PackagePartCollection partList;
+    for (PackagePart part : partList.values()) {
+      for (PackagePart part : partList.values()) {
+        if (partList.containsKey(part._partName))
+            partList.put(unmarshallPart._partName, unmarshallPart);
+            partList.put(part._partName, part);
+    return new ArrayList<PackagePart>(partList.values());
+    if (partList.containsKey(partName)
+        && !partList.get(partName).isDeleted()) {
+    this.partList.put(partName, part);
+    if (partList.containsKey(part._partName)) {
+      if (!partList.get(part._partName).isDeleted()) {
+      this.partList.remove(part._partName);
+    this.partList.put(part._partName, part);
+    if (this.partList.containsKey(partName)) {
+      this.partList.get(partName).setDeleted(true);
+      this.partList.remove(partName);
+    PackagePart relPart = this.partList.get(PackagingURIHelper
+    PackagePart partToRemove = this.partList.get(partName);

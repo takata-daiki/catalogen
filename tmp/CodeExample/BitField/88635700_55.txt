@@ -1,0 +1,3 @@
+    /**/private static BitField wvkSaved = new BitField(0x0007);
+        field_32_view = (short)wvkSaved.setValue(field_32_view, value);
+        return ( byte )wvkSaved.getValue(field_32_view);

@@ -1,0 +1,5 @@
+        EscherOptRecord opt = new EscherOptRecord();
+        opt.setRecordId( EscherOptRecord.RECORD_ID );
+        opt.setOptions( (short) 0x0023 );
+        opt.addEscherProperty( new EscherBoolProperty( EscherProperties.PROTECTION__LOCKAGAINSTGROUPING, 0x00040004 ) );
+        opt.addEscherProperty( new EscherBoolProperty( EscherProperties.GROUPSHAPE__PRINT, 0x00080000 ) );

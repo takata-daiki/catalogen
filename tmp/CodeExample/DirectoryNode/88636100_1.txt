@@ -1,0 +1,6 @@
+            DirectoryNode dir = (DirectoryNode)entry;
+            if(dir.getName().startsWith(AttachmentChunks.PREFIX)) {
+               group = new AttachmentChunks(dir.getName());
+            if(dir.getName().startsWith(NameIdChunks.PREFIX)) {
+            if(dir.getName().startsWith(RecipientChunks.PREFIX)) {
+               group = new RecipientChunks(dir.getName());

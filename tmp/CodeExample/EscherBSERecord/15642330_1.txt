@@ -1,0 +1,3 @@
+        EscherBSERecord bse = (EscherBSERecord)patriarch.sheet.book.getBSERecord(pictureIndex);
+        byte[] data = bse.getBlipRecord().getPicturedata();
+        int type = bse.getBlipTypeWin32();

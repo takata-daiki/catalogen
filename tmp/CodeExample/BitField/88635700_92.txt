@@ -1,0 +1,3 @@
+    /**/private static BitField KeyVirusSession30 = new BitField(0xfffffffc);
+        field_43_virusinfo = (int)KeyVirusSession30.setValue(field_43_virusinfo, value);
+        return ( int )KeyVirusSession30.getValue(field_43_virusinfo);

@@ -1,0 +1,2 @@
+        for (EscherProperty property: getEscherProperties()){
+            builder.append(property.toXml(tab+"\t"));

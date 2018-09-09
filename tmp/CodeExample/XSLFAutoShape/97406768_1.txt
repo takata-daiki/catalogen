@@ -1,0 +1,2 @@
+                XSLFAutoShape shape = XSLFAutoShape.create((CTShape)ch, this);
+                Log.d("textInset", "buildShapes: " + shape.getText() + ", x: " + shape.getAnchor().getX());

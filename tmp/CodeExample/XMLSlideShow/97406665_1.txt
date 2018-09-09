@@ -1,0 +1,2 @@
+                    XMLSlideShow ppt = getParentShape().getSheet().getSlideShow();
+                    CTTextParagraphProperties themeProps = ppt.getDefaultParagraphStyle(getLevel());

@@ -1,0 +1,3 @@
+        XSLFSheet masterSheet = getSheet().getMasterSheet();
+                masterShape = masterSheet.getPlaceholder(ph);
+                XSLFSheet master = masterSheet.getMasterSheet();

@@ -1,0 +1,2 @@
+    PackagePart masterPart = getSlideMasterPart(master);
+      SldMasterDocument.Factory.parse(masterPart.getInputStream());

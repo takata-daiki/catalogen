@@ -1,0 +1,13 @@
+        HSSFSheet overviewSheet = wb.createSheet(sheetName);
+        Header sheetHeader = overviewSheet.getHeader();
+        overviewSheet.createFreezePane(0, 1, 0, 1);
+        Row row = overviewSheet.createRow(0);
+            row = overviewSheet.createRow(overviewSheetRow);
+                row = overviewSheet.createRow(overviewSheetRow);
+            overviewSheet.groupRow(startRow, endRow);
+            overviewSheet.setRowGroupCollapsed(startRow, true);
+            overviewSheet.autoSizeColumn(i);
+        overviewSheet.setAutobreaks(true);
+        overviewSheet.getPrintSetup().setFitWidth((short) 1);
+        overviewSheet.getPrintSetup().setFitHeight((short) 500);
+        Footer footer = overviewSheet.getFooter();

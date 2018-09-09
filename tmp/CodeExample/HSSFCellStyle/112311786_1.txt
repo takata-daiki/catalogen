@@ -1,0 +1,9 @@
+    final HSSFCellStyle headerCellStyle = workbook.createCellStyle();
+    headerCellStyle.setAlignment(HSSFCellStyle.ALIGN_CENTER);
+    headerCellStyle.setFont(headerFont);
+    headerCellStyle.setBorderBottom(HSSFCellStyle.BORDER_THIN);
+    headerCellStyle.setBottomBorderColor(HSSFColor.BLACK.index);
+    headerCellStyle.setBorderLeft(HSSFCellStyle.BORDER_THIN);
+    headerCellStyle.setLeftBorderColor(HSSFColor.BLACK.index);
+    headerCellStyle.setBorderRight(HSSFCellStyle.BORDER_THIN);
+    headerCellStyle.setRightBorderColor(HSSFColor.BLACK.index);

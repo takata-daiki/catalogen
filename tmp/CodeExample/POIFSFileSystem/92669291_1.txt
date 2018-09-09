@@ -1,0 +1,2 @@
+            POIFSFileSystem poifs = new POIFSFileSystem(bis);
+            dis = poifs.createDocumentInputStream("Workbook");

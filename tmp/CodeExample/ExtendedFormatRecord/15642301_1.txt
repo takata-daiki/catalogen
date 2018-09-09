@@ -1,0 +1,50 @@
+    private ExtendedFormatRecord format                     = null;
+        format.setFormatIndex(fmt);
+        return format.getFormatIndex();
+        return format.getFormat(getDataFormat());
+        format.setIndentNotParentFont(true);
+        format.setFontIndex(fontindex);
+        return format.getFontIndex();
+        format.setIndentNotParentCellOptions(true);
+        format.setHidden(hidden);
+        return format.isHidden();
+        format.setLocked(locked);
+        return format.isLocked();
+        format.setIndentNotParentAlignment(true);
+        format.setAlignment(align);
+        return format.getAlignment();
+        format.setWrapText(wrapped);
+        return format.getWrapText();
+        format.setVerticalAlignment(align);
+        return format.getVerticalAlignment();
+        format.setRotation(rotation);
+      short rotation = format.getRotation();
+        format.setIndent(indent);
+        return format.getIndent();
+        format.setIndentNotParentBorder(true);
+        format.setBorderLeft(border);
+        return format.getBorderLeft();
+        format.setBorderRight(border);
+        return format.getBorderRight();
+        format.setBorderTop(border);
+        return format.getBorderTop();
+        format.setBorderBottom(border);
+        return format.getBorderBottom();
+        format.setLeftBorderPaletteIdx(color);
+        return format.getLeftBorderPaletteIdx();
+        format.setRightBorderPaletteIdx(color);
+        return format.getRightBorderPaletteIdx();
+        format.setTopBorderPaletteIdx(color);
+        return format.getTopBorderPaletteIdx();
+        format.setBottomBorderPaletteIdx(color);
+        return format.getBottomBorderPaletteIdx();
+        format.setAdtlFillPattern(fp);
+        return format.getAdtlFillPattern();
+      if (format.getFillForeground() == loci.poi.hssf.util.HSSFColor.AUTOMATIC.index) {
+        if (format.getFillBackground() != (loci.poi.hssf.util.HSSFColor.AUTOMATIC.index+1))
+      } else if (format.getFillBackground() == loci.poi.hssf.util.HSSFColor.AUTOMATIC.index+1)
+        if (format.getFillForeground() != loci.poi.hssf.util.HSSFColor.AUTOMATIC.index)
+        format.setFillBackground(bg);
+      short result = format.getFillBackground();
+        format.setFillForeground(bg);
+        return format.getFillForeground();

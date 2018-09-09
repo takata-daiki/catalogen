@@ -1,0 +1,3 @@
+        XSSFCell betreuerinnen_cell = dataRow.createCell(0);
+        betreuerinnen_cell.setCellStyle(dataStyle);
+        betreuerinnen_cell.setCellValue(new XSSFRichTextString(""

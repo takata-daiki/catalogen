@@ -1,0 +1,11 @@
+        EscherBSERecord r = new EscherBSERecord();
+        r.setRecordId( EscherBSERecord.RECORD_ID );
+        r.setOptions( (short) ( 0x0002 | ( format << 4 ) ) );
+        r.setBlipTypeMacOS( (byte) format );
+        r.setBlipTypeWin32( (byte) format );
+        r.setUid( uid );
+        r.setTag( (short) 0xFF );
+        r.setSize( pictureData.length + 25 );
+        r.setRef( 1 );
+        r.setOffset( 0 );
+        r.setBlipRecord( blipRecord );

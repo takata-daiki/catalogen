@@ -1,0 +1,3 @@
+  public static Boolean hasFormula (HSSFSheet sh, AreaReference areaRef){
+    return hasFormula(sh, new CellRangeAddress(areaRef.getFirstCell().getRow(), areaRef.getLastCell().getRow(),
+        areaRef.getFirstCell().getCol(), areaRef.getLastCell().getCol()));

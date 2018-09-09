@@ -1,0 +1,5 @@
+        SmallBlockTableWriter      sbtw       =
+        bm_objects.add(sbtw.getSBAT());
+        header_block_writer.setSBATStart(sbtw.getSBAT().getStartBlock());
+        header_block_writer.setSBATBlockCount(sbtw.getSBATBlockCount());
+        writers.add(sbtw.getSBAT());

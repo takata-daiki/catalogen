@@ -1,0 +1,2 @@
+  public static void fill(HSSFSheet sh, AreaReference areaRef, Object valueFill, byte lookIn){
+    for(CellReference cellRef:areaRef.getAllReferencedCells()){

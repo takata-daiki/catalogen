@@ -1,0 +1,3 @@
+    HSSFCell restriction = horzTitle.createCell(1);
+    restriction.setCellStyle(headingStyle);
+    restriction.setCellValue(new HSSFRichTextString("Restriction"));

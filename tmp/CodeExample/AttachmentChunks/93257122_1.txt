@@ -1,0 +1,3 @@
+    for (AttachmentChunks attachment : attachmentChunks) {
+      byte[] data = attachment.attachData.getValue();
+      String fileName = attachment.attachLongFileName.getValue();

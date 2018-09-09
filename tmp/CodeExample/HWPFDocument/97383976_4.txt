@@ -1,0 +1,5 @@
+    protected void processNoteAnchor( HWPFDocument doc,
+            Notes footnotes = doc.getFootnotes();
+                Range footnoteRange = doc.getFootnoteRange();
+            Notes endnotes = doc.getEndnotes();
+                Range endnoteRange = doc.getEndnoteRange();

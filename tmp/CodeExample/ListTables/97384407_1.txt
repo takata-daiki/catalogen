@@ -1,0 +1,3 @@
+        ListTables listTables = doc.getListTables();
+                lfo = listTables.getLfo( properties.getIlfo() );
+                final ListLevel listLevel = listTables.getLevel( lfo.getLsid(),
