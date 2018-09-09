@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 import json
-import requests
-import get_json
-import json_to_tokens
+
 import tokens_to_codes
+
+import get_json
 
 # get_json.input()
 # json_to_tokens.input()
@@ -28,5 +28,4 @@ with open('id_list.json') as f:
         for v in ans:
             val['lines'][v[0]] = v[1]
         with open('CodeExample/' + n + '.json', 'w') as ff:
-            get_json.output(val, ff)
-
+            get_json.output(val, f)
