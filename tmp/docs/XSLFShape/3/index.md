@@ -4,24 +4,16 @@
 
 ### [XSLFSheet.java](https://searchcode.com/codesearch/view/97406768/)
 {% highlight java %}
-316. XSLFShape s2 = tgtShapes.get(i);
-318. s2.copy(s1);
-{% endhighlight %}
-
-***
-
-### [XSLFSheet.java](https://searchcode.com/codesearch/view/97406768/)
-{% highlight java %}
-358. XSLFShape s2 = tgtShapes.get(numShapes + i);
-360. s2.copy(s1);
+237. public boolean removeShape(XSLFShape xShape) {
+238.     XmlObject obj = xShape.getXmlObject();
 {% endhighlight %}
 
 ***
 
 ### [XSLFGroupShape.java](https://searchcode.com/codesearch/view/97406700/)
 {% highlight java %}
-335. XSLFShape s2 = tgtShapes[i];
-337. s2.copy(s1);
+162. public boolean removeShape(XSLFShape xShape) {
+163.     XmlObject obj = xShape.getXmlObject();
 {% endhighlight %}
 
 ***

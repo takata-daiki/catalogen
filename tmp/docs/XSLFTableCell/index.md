@@ -2,15 +2,9 @@
 
 ***
 
-### [Cluster 1](./1)
-{% highlight java %}
-97. XSLFTableCell nCell = row.addCell();
-98. XSLFTextParagraph nCellP = nCell.addNewTextParagraph();
-{% endhighlight %}
-
-***
-
-### [Cluster 2](./2)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
 {% highlight java %}
 78. XSLFTableCell th = headerRow.addCell();
 79. XSLFTextParagraph p = th.addNewTextParagraph();

@@ -2,24 +2,17 @@
 
 ***
 
-### [Cluster 1](./1)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
 {% highlight java %}
-108. protected SelectionRecord            selection         =     null;
-2085.     return selection.getActiveCellRow();
-2099.         selection.setActiveCellRow(row);
-2115.     return selection.getActiveCellCol();
-2129.         selection.setActiveCellCol(col);
-{% endhighlight %}
-
-***
-
-### [Cluster 2](./2)
-{% highlight java %}
-2033. SelectionRecord retval = new SelectionRecord();
-2035. retval.setPane(( byte ) 0x3);
-2036. retval.setActiveCellCol(( short ) 0x0);
-2037. retval.setActiveCellRow(( short ) 0x0);
-2038. retval.setNumRefs(( short ) 0x0);
+289. SelectionRecord rec = new SelectionRecord();
+290. rec.field_1_pane = field_1_pane;
+291. rec.field_2_row_active_cell = field_2_row_active_cell;
+292. rec.field_3_col_active_cell = field_3_col_active_cell;
+293. rec.field_4_ref_active_cell = field_4_ref_active_cell;
+294. rec.field_5_num_refs = field_5_num_refs;
+295. rec.field_6_refs = field_6_refs;
 {% endhighlight %}
 
 ***

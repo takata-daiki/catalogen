@@ -2,32 +2,13 @@
 
 ***
 
-### [Sheet.java](https://searchcode.com/codesearch/view/15642365/)
+### [GutsRecord.java](https://searchcode.com/codesearch/view/15642380/)
 {% highlight java %}
-1586. GutsRecord retval = new GutsRecord();
-1588. retval.setLeftRowGutter(( short ) 0);
-1589. retval.setTopColGutter(( short ) 0);
-1590. retval.setRowLevelMax(( short ) 0);
-1591. retval.setColLevelMax(( short ) 0);
-{% endhighlight %}
-
-***
-
-### [Sheet.java](https://searchcode.com/codesearch/view/15642365/)
-{% highlight java %}
-1970. GutsRecord guts = (GutsRecord) findFirstRecordBySid( GutsRecord.sid );
-1971. guts.setColLevelMax( (short) ( maxLevel+1 ) );
-1973.     guts.setTopColGutter( (short)0 );
-1975.     guts.setTopColGutter( (short) ( 29 + (12 * (maxLevel-1)) ) );
-{% endhighlight %}
-
-***
-
-### [Sheet.java](https://searchcode.com/codesearch/view/15642365/)
-{% highlight java %}
-3161. GutsRecord guts = (GutsRecord) findFirstRecordBySid( GutsRecord.sid );
-3162. guts.setRowLevelMax( (short) ( maxLevel + 1 ) );
-3163. guts.setLeftRowGutter( (short) ( 29 + (12 * (maxLevel)) ) );
+221. GutsRecord rec = new GutsRecord();
+222. rec.field_1_left_row_gutter = field_1_left_row_gutter;
+223. rec.field_2_top_col_gutter = field_2_top_col_gutter;
+224. rec.field_3_row_level_max = field_3_row_level_max;
+225. rec.field_4_col_level_max = field_4_col_level_max;
 {% endhighlight %}
 
 ***

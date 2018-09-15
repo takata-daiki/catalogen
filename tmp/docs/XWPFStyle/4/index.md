@@ -2,10 +2,12 @@
 
 ***
 
-### [PDFMapper.java](https://searchcode.com/codesearch/view/96673303/)
+### [StyleEngineForIText.java](https://searchcode.com/codesearch/view/96673306/)
 {% highlight java %}
-722. XWPFStyle tableStyle = super.getXWPFStyle( cell.getTableRow().getTable().getStyleID() );
-725.     tableStyleBorders = tableStyle.getCTStyle().getTblPr().getTblBorders();
+264. XWPFStyle style = document.getStyles().getStyle( styleID );
+267. CTPPr xwpfParagraphProperties = style.getCTStyle().getPPr();
+272.     if ( style.getCTStyle().getRPr() != null )
+291. CTTblPrBase xwpfTableProperties = style.getCTStyle().getTblPr();
 {% endhighlight %}
 
 ***

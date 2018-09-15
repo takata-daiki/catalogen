@@ -2,14 +2,6 @@
 
 ***
 
-### [ExportEventsImpl.java](https://searchcode.com/codesearch/view/122444114/)
-{% highlight java %}
-264. final CustomProperties cp = new CustomProperties ();
-265. cp.put ( "openSCADA Export Version", Activator.getDefault ().getBundle ().getVersion ().toString () );
-{% endhighlight %}
-
-***
-
 ### [DocumentSummaryInformation.java](https://searchcode.com/codesearch/view/15642675/)
 {% highlight java %}
 630. public void setCustomProperties(final CustomProperties customProperties)

@@ -2,17 +2,6 @@
 
 ***
 
-### [Sheet.java](https://searchcode.com/codesearch/view/15642365/)
-{% highlight java %}
-108. protected SelectionRecord            selection         =     null;
-2085.     return selection.getActiveCellRow();
-2099.         selection.setActiveCellRow(row);
-2115.     return selection.getActiveCellCol();
-2129.         selection.setActiveCellCol(col);
-{% endhighlight %}
-
-***
-
 ### [SelectionRecord.java](https://searchcode.com/codesearch/view/15642427/)
 {% highlight java %}
 289. SelectionRecord rec = new SelectionRecord();

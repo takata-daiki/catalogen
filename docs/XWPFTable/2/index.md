@@ -2,11 +2,11 @@
 
 ***
 
-### [XWPFDocumentVisitor.java](https://searchcode.com/codesearch/view/96672565/)
+### [XWPFTableUtil.java](https://searchcode.com/codesearch/view/96672636/)
 {% highlight java %}
-1017. XWPFTable table = cell.getTableRow().getTable();
-1018. for ( int i = rowIndex + 1; i < table.getRows().size(); i++ )
-1020.     row = table.getRow( i );
+213. public static XWPFTableRow getFirstRow( XWPFTable table )
+215.     int numberOfRows = table.getNumberOfRows();
+218.         return table.getRow( 0 );
 {% endhighlight %}
 
 ***

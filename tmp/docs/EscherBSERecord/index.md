@@ -2,7 +2,9 @@
 
 ***
 
-### [Cluster 1](./1)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
 {% highlight java %}
 1309. EscherBSERecord r = new EscherBSERecord();
 1310. r.setRecordId( EscherBSERecord.RECORD_ID );
@@ -19,36 +21,22 @@
 
 ***
 
-### [Cluster 2](./2)
+## [Cluster 2](./2)
+1 results
+> code comments is here.
 {% highlight java %}
-257. EscherBSERecord bse = getEscherBSERecord();
-258. bse.setRef(bse.getRef() + 1);
-{% endhighlight %}
-
-***
-
-### [Cluster 3](./3)
-{% highlight java %}
-127. EscherBSERecord bse = (EscherBSERecord)patriarch.sheet.book.getBSERecord(pictureIndex);
-128. byte[] data = bse.getBlipRecord().getPicturedata();
-129. int type = bse.getBlipTypeWin32();
-{% endhighlight %}
-
-***
-
-### [Cluster 4](./4)
-{% highlight java %}
-182. EscherBSERecord bse = getEscherBSERecord();
-187.         if (pict[i].getOffset() ==  bse.getOffset()){
-191.     logger.log(POILogger.ERROR, "no picture found for our BSE offset " + bse.getOffset());
-{% endhighlight %}
-
-***
-
-### [Cluster 5](./5)
-{% highlight java %}
-565. EscherBSERecord bseRecord = (EscherBSERecord) escherRecord;
-566. switch ( bseRecord.getBlipTypeWin32() )
+825. EscherBSERecord bse = new EscherBSERecord();
+826. bse.setRecordId(EscherBSERecord.RECORD_ID);
+827. bse.setOptions((short) (0x0002 | (format << 4)));
+828. bse.setSize(pict.getRawData().length + 8);
+829. bse.setUid(uid);
+831. bse.setBlipTypeMacOS((byte) format);
+832. bse.setBlipTypeWin32((byte) format);
+835.   bse.setBlipTypeMacOS((byte) Picture.PICT);
+839.   bse.setBlipTypeWin32((byte) Picture.WMF);
+841. bse.setRef(0);
+842. bse.setOffset(offset);
+843. bse.setRemainingData(new byte[0]);
 {% endhighlight %}
 
 ***

@@ -2,16 +2,9 @@
 
 ***
 
-### [Cluster 1](./1)
-{% highlight java %}
-58. final XSSFReader xssfReader = mock(XSSFReader.class);
-59. when(xssfReader.getSheetsData()).thenReturn(sheetIterator);
-60. when(xssfReader.getSharedStringsTable()).thenReturn(sharedStringsTable);
-{% endhighlight %}
-
-***
-
-### [Cluster 2](./2)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
 {% highlight java %}
 43. XSSFReader r = new XSSFReader(pkg);
 44. SharedStringsTable sst = r.getSharedStringsTable();
@@ -20,19 +13,23 @@
 
 ***
 
-### [Cluster 3](./3)
+## [Cluster 2](./2)
+1 results
+> code comments is here.
 {% highlight java %}
-25. private XSSFReader reader;
-64.     workbookData = reader.getWorkbookData();
+273. XSSFReader r = new XSSFReader(pkg);
+280. Iterator<InputStream> sheets = r.getSheetsData();
 {% endhighlight %}
 
 ***
 
-### [Cluster 4](./4)
+## [Cluster 3](./3)
+1 results
+> code comments is here.
 {% highlight java %}
-38. public StaxPoiSheet( XSSFReader reader, String sheetName, String sheetID ) {
-41.     sst = reader.getSharedStringsTable();
-42.     sheetStream = reader.getSheet( sheetID );
+62. XSSFReader r = new XSSFReader(pkg);
+63. SharedStringsTable sst = r.getSharedStringsTable();
+67. Iterator<InputStream> sheets = r.getSheetsData();
 {% endhighlight %}
 
 ***

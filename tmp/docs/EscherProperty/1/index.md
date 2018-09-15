@@ -2,18 +2,10 @@
 
 ***
 
-### [EscherOptRecord.java](https://searchcode.com/codesearch/view/15642604/)
+### [AbstractEscherOptRecord.java](https://searchcode.com/codesearch/view/97383926/)
 {% highlight java %}
-206. EscherProperty p1 = (EscherProperty) o1;
-208. return new Short( p1.getPropertyNumber() ).compareTo( new Short( p2.getPropertyNumber() ) );
-{% endhighlight %}
-
-***
-
-### [EscherOptRecord.java](https://searchcode.com/codesearch/view/15642604/)
-{% highlight java %}
-207. EscherProperty p2 = (EscherProperty) o2;
-208. return new Short( p1.getPropertyNumber() ).compareTo( new Short( p2.getPropertyNumber() ) );
+130. public int compare( EscherProperty p1, EscherProperty p2 )
+132.     short s1 = p1.getPropertyNumber();
 {% endhighlight %}
 
 ***

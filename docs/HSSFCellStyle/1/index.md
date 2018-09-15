@@ -2,85 +2,96 @@
 
 ***
 
-### [CellHSSFImpl.java](https://searchcode.com/codesearch/view/72854667/)
+### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
 {% highlight java %}
-195.   HSSFCellStyle cellStyle = theCell.getCellStyle();
-200. short colorIndex=cellStyle.getFillForegroundColor();
+322. HSSFCellStyle style= wb.createCellStyle();
+323. style.cloneStyleFrom(cell.getCellStyle());
+324. style.setFont(font);
 {% endhighlight %}
 
 ***
 
-### [CellHSSFImpl.java](https://searchcode.com/codesearch/view/72854667/)
+### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
 {% highlight java %}
-279. HSSFCellStyle cellStyle = theCell.getCellStyle();
-283. short hssfAlignment = cellStyle.getAlignment();
+474. HSSFCellStyle style= wb.createCellStyle();
+475. style.cloneStyleFrom(cell.getCellStyle());
+476. style.setIndention((short)7);
 {% endhighlight %}
 
 ***
 
-### [SmjXlsReport.java](https://searchcode.com/codesearch/view/61719045/)
+### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
 {% highlight java %}
-245. HSSFCellStyle cellStyle = book.createCellStyle();
-279.     cellStyle.setWrapText(true);
-280.     cellStyle.setBorderTop(HSSFCellStyle.BORDER_MEDIUM);
-281.     cellStyle.setBottomBorderColor((short)8);
-292.     cellStyle.setVerticalAlignment(HSSFCellStyle.VERTICAL_TOP);
-300.     cellStyle.setBorderTop(HSSFCellStyle.BORDER_DOUBLE);
+482. HSSFCellStyle style= wb.createCellStyle();
+483. style.cloneStyleFrom(cell.getCellStyle());
+484. style.setIndention((short)8);
 {% endhighlight %}
 
 ***
 
-### [SmjXlsReport.java](https://searchcode.com/codesearch/view/61719045/)
+### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
 {% highlight java %}
-246. HSSFCellStyle cellStyleD = book.createCellStyle();
-282.     cellStyleD.setWrapText(true);
-283.     cellStyleD.setBorderTop(HSSFCellStyle.BORDER_MEDIUM);
-284.     cellStyleD.setBottomBorderColor((short)8);
-311.     cellStyleD.setVerticalAlignment(HSSFCellStyle.VERTICAL_TOP);
+1700. HSSFCellStyle cellStyle = wb.createCellStyle();
+1701. cellStyle.cloneStyleFrom(cell.getCellStyle());
+1702. cellStyle.setFont(fontWhiteColor);
+1703. cellStyle.setBorderTop(HSSFCellStyle.BORDER_NONE);
+1704. cellStyle.setBorderBottom(HSSFCellStyle.BORDER_NONE);
+1705. cellStyle.setWrapText(false);
 {% endhighlight %}
 
 ***
 
-### [SmjXlsReport.java](https://searchcode.com/codesearch/view/61719045/)
+### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
 {% highlight java %}
-247. HSSFCellStyle cellStyleN = book.createCellStyle();
-285.     cellStyleN.setWrapText(true);
-286.     cellStyleN.setBorderTop(HSSFCellStyle.BORDER_MEDIUM);
-287.     cellStyleN.setBottomBorderColor((short)8);
+409. HSSFCellStyle style= wb.createCellStyle();
+410. style.cloneStyleFrom(cell.getCellStyle());
+411. style.setAlignment(style.ALIGN_CENTER);
+412. style.setFont(font3);
 {% endhighlight %}
 
 ***
 
-### [SmjXlsReport.java](https://searchcode.com/codesearch/view/66638946/)
+### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
 {% highlight java %}
-245. HSSFCellStyle cellStyle = book.createCellStyle();
-279.     cellStyle.setWrapText(true);
-280.     cellStyle.setBorderTop(HSSFCellStyle.BORDER_MEDIUM);
-281.     cellStyle.setBottomBorderColor((short)8);
-292.     cellStyle.setVerticalAlignment(HSSFCellStyle.VERTICAL_TOP);
-300.     cellStyle.setBorderTop(HSSFCellStyle.BORDER_DOUBLE);
+432. HSSFCellStyle style= wb.createCellStyle();
+433. style.cloneStyleFrom(cell.getCellStyle());
+434. style.setIndention((short)2);
 {% endhighlight %}
 
 ***
 
-### [SmjXlsReport.java](https://searchcode.com/codesearch/view/66638946/)
+### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
 {% highlight java %}
-246. HSSFCellStyle cellStyleD = book.createCellStyle();
-282.     cellStyleD.setWrapText(true);
-283.     cellStyleD.setBorderTop(HSSFCellStyle.BORDER_MEDIUM);
-284.     cellStyleD.setBottomBorderColor((short)8);
-312.     cellStyleD.setVerticalAlignment(HSSFCellStyle.VERTICAL_TOP);
-313.     cellStyleD.setBorderBottom(HSSFCellStyle.BORDER_MEDIUM);
+440. HSSFCellStyle style= wb.createCellStyle();
+441. style.cloneStyleFrom(cell.getCellStyle());
+442. style.setIndention((short)3);
 {% endhighlight %}
 
 ***
 
-### [SmjXlsReport.java](https://searchcode.com/codesearch/view/66638946/)
+### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
 {% highlight java %}
-247. HSSFCellStyle cellStyleN = book.createCellStyle();
-285.     cellStyleN.setWrapText(true);
-286.     cellStyleN.setBorderTop(HSSFCellStyle.BORDER_MEDIUM);
-287.     cellStyleN.setBottomBorderColor((short)8);
+450. HSSFCellStyle style= wb.createCellStyle();
+451. style.cloneStyleFrom(cell.getCellStyle());
+452. style.setIndention((short)4);
+{% endhighlight %}
+
+***
+
+### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
+{% highlight java %}
+458. HSSFCellStyle style= wb.createCellStyle();
+459. style.cloneStyleFrom(cell.getCellStyle());
+460. style.setIndention((short)5);
+{% endhighlight %}
+
+***
+
+### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
+{% highlight java %}
+466. HSSFCellStyle style= wb.createCellStyle();
+467. style.cloneStyleFrom(cell.getCellStyle());
+468. style.setIndention((short)6);
 {% endhighlight %}
 
 ***

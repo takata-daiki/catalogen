@@ -2,10 +2,12 @@
 
 ***
 
-### [PageBreakRecord.java](https://searchcode.com/codesearch/view/15642463/)
+### [Sheet.java](https://searchcode.com/codesearch/view/15642365/)
 {% highlight java %}
-276. PageBreakRecord record = new PageBreakRecord(getSid());      
-280.    record.addBreak(original.main, original.subFrom, original.subTo);
+2741. public void shiftBreaks(PageBreakRecord breaks, short start, short stop, int count) {
+2745.   Iterator iterator = breaks.getBreaksIterator();
+2760.     breaks.removeBreak(breakItem.main);
+2761.     breaks.addBreak((short)(breakItem.main+count), breakItem.subFrom, breakItem.subTo);
 {% endhighlight %}
 
 ***

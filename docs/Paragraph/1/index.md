@@ -31,17 +31,6 @@
 
 ***
 
-### [WordToHtmlConverter.java](https://searchcode.com/codesearch/view/97383966/)
-{% highlight java %}
-507.     Element parentElement, int currentTableLevel, Paragraph paragraph,
-516. final int charRuns = paragraph.numCharacterRuns();
-526.     final CharacterRun characterRun = paragraph.getCharacterRun( 0 );
-553.             float firstLinePosition = paragraph.getIndentFromLeft()
-554.                     + paragraph.getFirstLineIndent() + 20; // char have
-{% endhighlight %}
-
-***
-
 ### [Paragraph.java](https://searchcode.com/codesearch/view/97384407/)
 {% highlight java %}
 629. Paragraph p = (Paragraph)super.clone();

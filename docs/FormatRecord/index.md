@@ -2,17 +2,9 @@
 
 ***
 
-### [Cluster 1](./1)
-{% highlight java %}
-126. FormatRecord r = (FormatRecord) i.next();
-127. if ( formats.size() < r.getIndexCode() + 1 )
-129.     formats.setSize( r.getIndexCode() + 1 );
-131. formats.set( r.getIndexCode(), r.getFormatString() );
-{% endhighlight %}
-
-***
-
-### [Cluster 2](./2)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
 {% highlight java %}
 1216. FormatRecord retval = new FormatRecord();   // the differnt formats
 1221.         retval.setIndexCode(( short ) 5);
@@ -35,6 +27,29 @@
 1261.         retval.setFormatStringLength(( byte ) 0x3a);
 1267.         retval.setIndexCode(( short ) 0x2b);
 1268.         retval.setFormatStringLength(( byte ) 0x31);
+{% endhighlight %}
+
+***
+
+## [Cluster 2](./2)
+1 results
+> code comments is here.
+{% highlight java %}
+2021.   FormatRecord r = (FormatRecord)iterator.next();
+2022.   if (r.getFormatString().equals(format)) {
+2023. return r.getIndexCode();
+{% endhighlight %}
+
+***
+
+## [Cluster 3](./3)
+1 results
+> code comments is here.
+{% highlight java %}
+126. FormatRecord r = (FormatRecord) i.next();
+127. if ( formats.size() < r.getIndexCode() + 1 )
+129.     formats.setSize( r.getIndexCode() + 1 );
+131. formats.set( r.getIndexCode(), r.getFormatString() );
 {% endhighlight %}
 
 ***

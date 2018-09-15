@@ -2,50 +2,81 @@
 
 ***
 
-### [MSExtractor.java](https://searchcode.com/codesearch/view/48925180/)
+### [WordToHtmlConverter.java](https://searchcode.com/codesearch/view/97383966/)
 {% highlight java %}
-148. SummaryInformation si = (SummaryInformation)
-150. setProperty(DublinCore.TITLE, si.getTitle());
-151. setProperty(Office.APPLICATION_NAME, si.getApplicationName());
-152. setProperty(Office.AUTHOR, si.getAuthor());
-153. setProperty(Office.CHARACTER_COUNT, si.getCharCount());
-154. setProperty(Office.COMMENTS, si.getComments());
-155. setProperty(DublinCore.DATE, si.getCreateDateTime());
-157. setProperty(HttpHeaders.LAST_MODIFIED, si.getLastSaveDateTime());
-158. setProperty(Office.KEYWORDS, si.getKeywords());
-159. setProperty(Office.LAST_AUTHOR, si.getLastAuthor());
-160. setProperty(Office.LAST_PRINTED, si.getLastPrinted());
-161. setProperty(Office.LAST_SAVED, si.getLastSaveDateTime());
-162. setProperty(Office.PAGE_COUNT, si.getPageCount());
-163. setProperty(Office.REVISION_NUMBER, si.getRevNumber());
-164. setProperty(DublinCore.RIGHTS, si.getSecurity());
-165. setProperty(DublinCore.SUBJECT, si.getSubject());
-166. setProperty(Office.TEMPLATE, si.getTemplate());
-167. setProperty(Office.WORD_COUNT, si.getWordCount());
+261.     SummaryInformation summaryInformation )
+263. if ( WordToHtmlUtils.isNotEmpty( summaryInformation.getTitle() ) )
+264.     htmlDocumentFacade.setTitle( summaryInformation.getTitle() );
+266. if ( WordToHtmlUtils.isNotEmpty( summaryInformation.getAuthor() ) )
+267.     htmlDocumentFacade.addAuthor( summaryInformation.getAuthor() );
+269. if ( WordToHtmlUtils.isNotEmpty( summaryInformation.getKeywords() ) )
+270.     htmlDocumentFacade.addKeywords( summaryInformation.getKeywords() );
+272. if ( WordToHtmlUtils.isNotEmpty( summaryInformation.getComments() ) )
+274.             .addDescription( summaryInformation.getComments() );
 {% endhighlight %}
 
 ***
 
-### [MSExtractor.java](https://searchcode.com/codesearch/view/138790528/)
+### [MSOfficeFileUtil.java](https://searchcode.com/codesearch/view/116052780/)
 {% highlight java %}
-148. SummaryInformation si = (SummaryInformation)
-150. setProperty(DublinCore.TITLE, si.getTitle());
-151. setProperty(Office.APPLICATION_NAME, si.getApplicationName());
-152. setProperty(Office.AUTHOR, si.getAuthor());
-153. setProperty(Office.CHARACTER_COUNT, si.getCharCount());
-154. setProperty(Office.COMMENTS, si.getComments());
-155. setProperty(DublinCore.DATE, si.getCreateDateTime());
-157. setProperty(HttpHeaders.LAST_MODIFIED, si.getLastSaveDateTime());
-158. setProperty(Office.KEYWORDS, si.getKeywords());
-159. setProperty(Office.LAST_AUTHOR, si.getLastAuthor());
-160. setProperty(Office.LAST_PRINTED, si.getLastPrinted());
-161. setProperty(Office.LAST_SAVED, si.getLastSaveDateTime());
-162. setProperty(Office.PAGE_COUNT, si.getPageCount());
-163. setProperty(Office.REVISION_NUMBER, si.getRevNumber());
-164. setProperty(DublinCore.RIGHTS, si.getSecurity());
-165. setProperty(DublinCore.SUBJECT, si.getSubject());
-166. setProperty(Office.TEMPLATE, si.getTemplate());
-167. setProperty(Office.WORD_COUNT, si.getWordCount());
+46. SummaryInformation summaryInformation =
+49. return summaryInformation.getLastSaveDateTime();
+{% endhighlight %}
+
+***
+
+### [InventJournalExcelExporter.java](https://searchcode.com/codesearch/view/137412606/)
+{% highlight java %}
+53. SummaryInformation summaryInfo = hwb.getSummaryInformation();
+54. summaryInfo.setAuthor("BMP-System");
+{% endhighlight %}
+
+***
+
+### [InventJournalExcelExporter.java](https://searchcode.com/codesearch/view/137412606/)
+{% highlight java %}
+287. SummaryInformation summaryInfo = hwb.getSummaryInformation();
+288. summaryInfo.setAuthor("BMP-System");
+{% endhighlight %}
+
+***
+
+### [ExcelExporter.java](https://searchcode.com/codesearch/view/137412604/)
+{% highlight java %}
+46. SummaryInformation summaryInfo = hwb.getSummaryInformation();
+47. summaryInfo.setAuthor("BMP-System");
+{% endhighlight %}
+
+***
+
+### [ProdTableExcellExporter.java](https://searchcode.com/codesearch/view/137412607/)
+{% highlight java %}
+45. SummaryInformation summaryInfo = hwb.getSummaryInformation();
+46. summaryInfo.setAuthor("BMP-System");
+{% endhighlight %}
+
+***
+
+### [ProdTableInRangeExellExporter.java](https://searchcode.com/codesearch/view/137412593/)
+{% highlight java %}
+58. SummaryInformation summaryInfo = hwb.getSummaryInformation();
+59. summaryInfo.setAuthor("BMP-System");
+{% endhighlight %}
+
+***
+
+### [InventLocationExcelExporter.java](https://searchcode.com/codesearch/view/137412597/)
+{% highlight java %}
+104. SummaryInformation summaryInfo = hwb.getSummaryInformation();
+105. summaryInfo.setAuthor("BMP-System");
+{% endhighlight %}
+
+***
+
+### [MX18StatReport.java](https://searchcode.com/codesearch/view/137412598/)
+{% highlight java %}
+47. SummaryInformation summaryInfo = hwb.getSummaryInformation();
+48. summaryInfo.setAuthor("BMP-System");
 {% endhighlight %}
 
 ***

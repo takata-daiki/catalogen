@@ -2,29 +2,13 @@
 
 ***
 
-### [Sheet.java](https://searchcode.com/codesearch/view/15642365/)
+### [HeaderRecord.java](https://searchcode.com/codesearch/view/15642431/)
 {% highlight java %}
-1636. HeaderRecord retval = new HeaderRecord();
-1638. retval.setHeaderLength(( byte ) 0);
-1639. retval.setHeader(null);
-{% endhighlight %}
-
-***
-
-### [HSSFHeader.java](https://searchcode.com/codesearch/view/15642332/)
-{% highlight java %}
-60. HeaderRecord headerRecord;
-73.     String head = headerRecord.getHeader();
-190.     headerRecord.setHeader( "&C" + ( center == null ? "" : center ) +
-193.     headerRecord.setHeaderLength( (byte) headerRecord.getHeader().length() );
-{% endhighlight %}
-
-***
-
-### [HSSFHeader.java](https://searchcode.com/codesearch/view/15642332/)
-{% highlight java %}
-70. protected HSSFHeader( HeaderRecord headerRecord )
-73.     String head = headerRecord.getHeader();
+229. HeaderRecord rec = new HeaderRecord();
+230. rec.field_1_header_len = field_1_header_len;
+231. rec.field_2_reserved = field_2_reserved;
+232. rec.field_3_unicode_flag = field_3_unicode_flag;
+233. rec.field_4_header = field_4_header;
 {% endhighlight %}
 
 ***

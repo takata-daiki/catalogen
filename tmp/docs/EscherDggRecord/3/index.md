@@ -2,15 +2,12 @@
 
 ***
 
-### [Workbook.java](https://searchcode.com/codesearch/view/15642358/)
+### [Slide.java](https://searchcode.com/codesearch/view/97394313/)
 {% highlight java %}
-2178. EscherDggRecord dgg = new EscherDggRecord();
-2184. dgg.setRecordId(EscherDggRecord.RECORD_ID);
-2185. dgg.setOptions((short)0x0000);
-2186. dgg.setShapeIdMax(1024);
-2187. dgg.setNumShapesSaved(0);
-2188. dgg.setDrawingsSaved(0);
-2189. dgg.setFileIdClusters(new EscherDggRecord.FileIdCluster[] {} );
+152. EscherDggRecord dgg = getSlideShow().getDocumentRecord().getPPDrawingGroup().getEscherDggRecord();
+155. int dgId = dgg.getMaxDrawingGroupId() + 1;
+157. dgg.setDrawingsSaved(dgg.getDrawingsSaved() + 1);
+158. dgg.setMaxDrawingGroupId(dgId);
 {% endhighlight %}
 
 ***

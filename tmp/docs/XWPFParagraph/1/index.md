@@ -2,38 +2,74 @@
 
 ***
 
-### [XHTMLStyleUtil.java](https://searchcode.com/codesearch/view/12208720/)
+### [TableCellVerticalAlignmentTestCase.java](https://searchcode.com/codesearch/view/96672468/)
 {% highlight java %}
-126. public static StringBuilder getStyle( XWPFParagraph paragraph, XWPFStyle style, CTDocDefaults defaults )
-181.     if ( indentationLeft == -1 && paragraph.getIndentationLeft() != -1 )
-183.         indentationLeft = dxa2points( paragraph.getIndentationLeft() );
-185.     if ( indentationRight == -1 && paragraph.getIndentationRight() != -1 )
-187.         indentationRight = dxa2points( paragraph.getIndentationRight() );
-189.     if ( firstLineIndent == -1 && paragraph.getIndentationFirstLine() != -1 )
-191.         firstLineIndent = dxa2points( paragraph.getIndentationFirstLine() );
-193.     if ( spacingBefore == -1 && paragraph.getSpacingBefore() != -1 )
-195.         spacingBefore = dxa2points( paragraph.getSpacingBefore() );
-197.     if ( spacingAfter == -1 && paragraph.getSpacingAfter() != -1 )
-199.         spacingAfter = dxa2points( paragraph.getSpacingAfter() );
-222.     ParagraphAlignment alignment = paragraph.getAlignment();
+250. private void testsI( XWPFParagraph paragraph, XWPFStylesDocument stylesDocument )
+253.     XWPFTableCell cell = (XWPFTableCell) paragraph.getBody();
 {% endhighlight %}
 
 ***
 
-### [XWPFParagraphUtils.java](https://searchcode.com/codesearch/view/12208683/)
+### [TableCellVerticalAlignmentTestCase.java](https://searchcode.com/codesearch/view/96672468/)
 {% highlight java %}
-52. public static void processLayout( XWPFParagraph paragraph, Paragraph pdfParagraph, XWPFStyle style,
-124.     if ( indentationLeft == -1 && paragraph.getIndentationLeft() != -1 )
-126.         indentationLeft = dxa2points( paragraph.getIndentationLeft() );
-129.     if ( indentationRight == -1 && paragraph.getIndentationRight() != -1 )
-131.         indentationRight = dxa2points( paragraph.getIndentationRight() );
-133.     if ( firstLineIndent == -1 && paragraph.getIndentationFirstLine() != -1 )
-135.         firstLineIndent = dxa2points( paragraph.getIndentationFirstLine() );
-137.     if ( spacingBefore == -1 && paragraph.getSpacingBefore() != -1 )
-139.         spacingBefore = dxa2points( paragraph.getSpacingBefore() );
-141.     if ( spacingAfter == -1 && paragraph.getSpacingAfter() != -1 )
-143.         spacingAfter = dxa2points( paragraph.getSpacingAfter() );
-172.     ParagraphAlignment alignment = paragraph.getAlignment();
+125. private void testsA( XWPFParagraph paragraph, XWPFStylesDocument stylesDocument )
+128.     XWPFTableCell cell = (XWPFTableCell) paragraph.getBody();
+{% endhighlight %}
+
+***
+
+### [TableCellVerticalAlignmentTestCase.java](https://searchcode.com/codesearch/view/96672468/)
+{% highlight java %}
+144. private void testsB( XWPFParagraph paragraph, XWPFStylesDocument stylesDocument )
+148.     XWPFTableCell cell = (XWPFTableCell) paragraph.getBody();
+{% endhighlight %}
+
+***
+
+### [TableCellVerticalAlignmentTestCase.java](https://searchcode.com/codesearch/view/96672468/)
+{% highlight java %}
+159. private void testsC( XWPFParagraph paragraph, XWPFStylesDocument stylesDocument )
+162.     XWPFTableCell cell = (XWPFTableCell) paragraph.getBody();
+{% endhighlight %}
+
+***
+
+### [TableCellVerticalAlignmentTestCase.java](https://searchcode.com/codesearch/view/96672468/)
+{% highlight java %}
+171. private void testsD( XWPFParagraph paragraph, XWPFStylesDocument stylesDocument )
+174.     XWPFTableCell cell = (XWPFTableCell) paragraph.getBody();
+{% endhighlight %}
+
+***
+
+### [TableCellVerticalAlignmentTestCase.java](https://searchcode.com/codesearch/view/96672468/)
+{% highlight java %}
+191. private void testsE( XWPFParagraph paragraph, XWPFStylesDocument stylesDocument )
+194.     XWPFTableCell cell = (XWPFTableCell) paragraph.getBody();
+{% endhighlight %}
+
+***
+
+### [TableCellVerticalAlignmentTestCase.java](https://searchcode.com/codesearch/view/96672468/)
+{% highlight java %}
+204. private void testsF( XWPFParagraph paragraph, XWPFStylesDocument stylesDocument )
+207.     XWPFTableCell cell = (XWPFTableCell) paragraph.getBody();
+{% endhighlight %}
+
+***
+
+### [TableCellVerticalAlignmentTestCase.java](https://searchcode.com/codesearch/view/96672468/)
+{% highlight java %}
+217. private void testsG( XWPFParagraph paragraph, XWPFStylesDocument stylesDocument )
+220.     XWPFTableCell cell = (XWPFTableCell) paragraph.getBody();
+{% endhighlight %}
+
+***
+
+### [TableCellVerticalAlignmentTestCase.java](https://searchcode.com/codesearch/view/96672468/)
+{% highlight java %}
+237. private void testsH( XWPFParagraph paragraph, XWPFStylesDocument stylesDocument )
+240.     XWPFTableCell cell = (XWPFTableCell) paragraph.getBody();
 {% endhighlight %}
 
 ***

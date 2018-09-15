@@ -2,20 +2,24 @@
 
 ***
 
-### [PPT2Text.java](https://searchcode.com/codesearch/view/126168426/)
+### [ContentReaderListener.java](https://searchcode.com/codesearch/view/48925118/)
 {% highlight java %}
-58. public void processPOIFSReaderEvent(final POIFSReaderEvent event) {
-63.     dis = event.getStream();
+65. public void processPOIFSReaderEvent(final POIFSReaderEvent event) {
+67.   if (event == null || event.getName() == null
+68.       || !event.getName().startsWith(PPTConstants.POWERPOINT_DOCUMENT)) {
+71.                + event.getName());
+77.     final DocumentInputStream dis = event.getStream();
 {% endhighlight %}
 
 ***
 
-### [POIFSReader.java](https://searchcode.com/codesearch/view/15642289/)
+### [ContentReaderListener.java](https://searchcode.com/codesearch/view/138791632/)
 {% highlight java %}
-333. public void processPOIFSReaderEvent(final POIFSReaderEvent event)
-335.     DocumentInputStream istream = event.getStream();
-336.     POIFSDocumentPath   path    = event.getPath();
-337.     String              name    = event.getName();
+65. public void processPOIFSReaderEvent(final POIFSReaderEvent event) {
+67.   if (event == null || event.getName() == null
+68.       || !event.getName().startsWith(PPTConstants.POWERPOINT_DOCUMENT)) {
+71.                + event.getName());
+77.     final DocumentInputStream dis = event.getStream();
 {% endhighlight %}
 
 ***

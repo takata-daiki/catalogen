@@ -2,17 +2,9 @@
 
 ***
 
-### [Cluster 1](./1)
-{% highlight java %}
-60. HeaderRecord headerRecord;
-73.     String head = headerRecord.getHeader();
-190.     headerRecord.setHeader( "&C" + ( center == null ? "" : center ) +
-193.     headerRecord.setHeaderLength( (byte) headerRecord.getHeader().length() );
-{% endhighlight %}
-
-***
-
-### [Cluster 2](./2)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
 {% highlight java %}
 229. HeaderRecord rec = new HeaderRecord();
 230. rec.field_1_header_len = field_1_header_len;

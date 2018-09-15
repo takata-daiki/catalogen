@@ -2,11 +2,10 @@
 
 ***
 
-### [EscherAggregate.java](https://searchcode.com/codesearch/view/15642409/)
+### [HSSFEventFactory.java](https://searchcode.com/codesearch/view/15642337/)
 {% highlight java %}
-376. DrawingRecord drawingRecord = (DrawingRecord) records.get( loc );
-377. System.arraycopy( drawingRecord.getData(), 0, buffer, offset, drawingRecord.getData().length );
-378. offset += drawingRecord.getData().length;
+162. DrawingRecord lastDrawingRecord = new DrawingRecord();
+222.       lastDrawingRecord.processContinueRecord( crec.getData() );
 {% endhighlight %}
 
 ***

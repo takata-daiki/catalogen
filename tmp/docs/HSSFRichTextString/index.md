@@ -2,7 +2,9 @@
 
 ***
 
-### [Cluster 1](./1)
+## [Cluster 1](./1)
+7 results
+> code comments is here.
 {% highlight java %}
 1722. HSSFRichTextString richTextString  = comment.getString();
 1724.   String textComment = richTextString.getString().toUpperCase();
@@ -10,16 +12,9 @@
 
 ***
 
-### [Cluster 2](./2)
-{% highlight java %}
-180. HSSFRichTextString str = ((HSSFCell) cell).getRichStringCellValue();
-181. if (str != null && str.length() > 0) {
-182.     text.append(str.toString());
-{% endhighlight %}
-
-***
-
-### [Cluster 3](./3)
+## [Cluster 2](./2)
+1 results
+> code comments is here.
 {% highlight java %}
 375. HSSFRichTextString richString = new HSSFRichTextString("合计");
 377. richString.applyFont(font4);

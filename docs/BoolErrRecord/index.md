@@ -2,21 +2,16 @@
 
 ***
 
-### [Cluster 1](./1)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
 {% highlight java %}
-272. BoolErrRecord boolErrRecord = ( BoolErrRecord ) record;
-274. retval = (boolErrRecord.isBoolean())
-{% endhighlight %}
-
-***
-
-### [Cluster 2](./2)
-{% highlight java %}
-451. BoolErrRecord boolRec = null;
-461. boolRec.setColumn(col);
-464.     boolRec.setValue(getBooleanCellValue());
-466. boolRec.setXFIndex(styleIndex);
-467. boolRec.setRow(row);
+398. BoolErrRecord rec = new BoolErrRecord();
+399. rec.field_1_row = field_1_row;
+400. rec.field_2_column = field_2_column;
+401. rec.field_3_xf_index = field_3_xf_index;
+402. rec.field_4_bBoolErr = field_4_bBoolErr;
+403. rec.field_5_fError = field_5_fError;
 {% endhighlight %}
 
 ***

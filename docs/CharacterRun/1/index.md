@@ -2,29 +2,28 @@
 
 ***
 
-### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
+### [CreateWordDoc.java](https://searchcode.com/codesearch/view/111543829/)
 {% highlight java %}
-191. protected Triplet getCharacterRunTriplet( CharacterRun characterRun )
-194.     original.bold = characterRun.isBold();
-195.     original.italic = characterRun.isItalic();
-196.     original.fontName = characterRun.getFontName();
-{% endhighlight %}
-
-***
-
-### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
-{% highlight java %}
-744. CharacterRun characterRun, Element block )
-751.     .getOfficeDrawingAt( characterRun.getStartOffset() );
-772.             "s" + characterRun.getStartOffset() + "." + type,
+28. CharacterRun run1 = par1.insertAfter("one");
+29. run1.setFontSize(2 * 18);
+33. Paragraph par2 = run1.insertAfter(new ParagraphProperties(), 0);
 {% endhighlight %}
 
 ***
 
 ### [CreateWordDoc.java](https://searchcode.com/codesearch/view/111543829/)
 {% highlight java %}
-42. CharacterRun run3 = par3.insertAfter("three three three three three three three three three "
-45. run3.setItalic(true);
+35. CharacterRun run2 = par2.insertAfter("two two two two two two two two two two two two two");
+36. run2.setBold(true);
+39. Paragraph par3 = run2.insertAfter(new ParagraphProperties(), 0);
+{% endhighlight %}
+
+***
+
+### [WordToHtmlConverter.java](https://searchcode.com/codesearch/view/97383966/)
+{% highlight java %}
+526. final CharacterRun characterRun = paragraph.getCharacterRun( 0 );
+530.     pFontSize = characterRun.getFontSize() / 2;
 {% endhighlight %}
 
 ***

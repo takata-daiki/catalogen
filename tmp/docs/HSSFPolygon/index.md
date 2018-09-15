@@ -2,15 +2,9 @@
 
 ***
 
-### [Cluster 1](./1)
-{% highlight java %}
-116. HSSFPolygon shape = new HSSFPolygon(this, anchor);
-117. shape.anchor = anchor;
-{% endhighlight %}
-
-***
-
-### [Cluster 2](./2)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
 {% highlight java %}
 77. private EscherContainerRecord createSpContainer( HSSFPolygon hssfShape, int shapeId )
 91.     if (hssfShape.getParent() == null)

@@ -2,11 +2,18 @@
 
 ***
 
-### [DefaultEscherRecordFactory.java](https://searchcode.com/codesearch/view/97383906/)
+### [Sheet.java](https://searchcode.com/codesearch/view/97394323/)
 {% highlight java %}
-98. EscherRecord escherRecord = null;
-107. escherRecord.setRecordId(recordId);
-108. escherRecord.setOptions(options);
+218. EscherRecord rec = it.next();
+219. if (rec.getRecordId() == EscherContainerRecord.SPGR_CONTAINER) {
+{% endhighlight %}
+
+***
+
+### [Sheet.java](https://searchcode.com/codesearch/view/97394323/)
+{% highlight java %}
+313. EscherRecord rec = it.next();
+314. if (rec.getRecordId() == EscherContainerRecord.SPGR_CONTAINER) {
 {% endhighlight %}
 
 ***

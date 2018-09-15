@@ -4,33 +4,33 @@
 
 ### [PageLayoutTest.java](https://searchcode.com/codesearch/view/122565092/)
 {% highlight java %}
-50. XSSFPrintSetup printSetup = sheet0.getPrintSetup();
-51. assertEquals( PaperSize.A4_PAPER,  printSetup.getPaperSizeEnum() );
-52. assertEquals( PrintOrientation.LANDSCAPE, printSetup.getOrientation() );
-53. assertEquals( 0.7 / 2.54, printSetup.getHeaderMargin(), 0.01 );
-54. assertEquals( 0.7 / 2.54, printSetup.getFooterMargin(), 0.01 );
+108. XSSFPrintSetup printSetup = sheet0.getPrintSetup();
+109. assertEquals( PaperSize.A4_PAPER,  printSetup.getPaperSizeEnum() );
+110. assertEquals( PrintOrientation.LANDSCAPE, printSetup.getOrientation() );
+111. assertEquals( 0.3, printSetup.getHeaderMargin(), 0.01 );
+112. assertEquals( 0.3, printSetup.getFooterMargin(), 0.01 );
 {% endhighlight %}
 
 ***
 
-### [Issue43StructuredHeader.java](https://searchcode.com/codesearch/view/122565074/)
+### [PageLayoutTest.java](https://searchcode.com/codesearch/view/64531687/)
 {% highlight java %}
-46. XSSFPrintSetup printSetup = sheet0.getPrintSetup();
-47. assertEquals( XSSFPrintSetup.A4_PAPERSIZE,  printSetup.getPaperSize() );
-48. assertEquals( false, printSetup.getLandscape() );
-50. assertEquals( 0.7 / 2.54, printSetup.getHeaderMargin(), 0.01 );
-51. assertEquals( 0.7 / 2.54, printSetup.getFooterMargin(), 0.01 );
+117. XSSFPrintSetup printSetup = sheet0.getPrintSetup();
+118. assertEquals( PaperSize.A4_PAPER,  printSetup.getPaperSizeEnum() );
+119. assertEquals( PrintOrientation.LANDSCAPE, printSetup.getOrientation() );
+120. assertEquals( 0.3, printSetup.getHeaderMargin(), 0.01 );
+121. assertEquals( 0.3, printSetup.getFooterMargin(), 0.01 );
 {% endhighlight %}
 
 ***
 
-### [Issue43StructuredHeader.java](https://searchcode.com/codesearch/view/122565074/)
+### [PageLayoutTest.java](https://searchcode.com/codesearch/view/126772664/)
 {% highlight java %}
-81. XSSFPrintSetup printSetup = sheet0.getPrintSetup();
-82. assertEquals( XSSFPrintSetup.A4_PAPERSIZE,  printSetup.getPaperSize() );
-83. assertEquals( false, printSetup.getLandscape() );
-85. assertEquals( 0.7 / 2.54, printSetup.getHeaderMargin(), 0.01 );
-86. assertEquals( 0.7 / 2.54, printSetup.getFooterMargin(), 0.01 );
+95. XSSFPrintSetup printSetup = sheet0.getPrintSetup();
+96. assertEquals( PaperSize.A4_PAPER,  printSetup.getPaperSizeEnum() );
+97. assertEquals( PrintOrientation.LANDSCAPE, printSetup.getOrientation() );
+98. assertEquals( 0.3, printSetup.getHeaderMargin(), 0.01 );
+99. assertEquals( 0.3, printSetup.getFooterMargin(), 0.01 );
 {% endhighlight %}
 
 ***

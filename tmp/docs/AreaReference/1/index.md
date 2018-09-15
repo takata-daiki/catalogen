@@ -2,44 +2,86 @@
 
 ***
 
-### [ExcelReader.java](https://searchcode.com/codesearch/view/46076963/)
+### [ExcelUtils.java](https://searchcode.com/codesearch/view/60212069/)
 {% highlight java %}
-160. private Object[][] getAreaValueArray(AreaReference ar) {
-161.   int cols = Math.abs(ar.getFirstCell().getCol() - ar.getLastCell().getCol()) + 1;
-162.   int rows = Math.abs(ar.getFirstCell().getRow() - ar.getLastCell().getRow()) + 1;
-163.   CellReference[] crs = ar.getAllReferencedCells();
+1233. public static Short getRowHeight(HSSFSheet sh, AreaReference area){
+1235.   for(int row = area.getFirstCell().getRow(); row <= area.getLastCell().getRow(); row++){
+1237.     if (row == area.getFirstCell().getRow()) height = hSSFRow.getHeight();  
 {% endhighlight %}
 
 ***
 
-### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
+### [ExcelUtils.java](https://searchcode.com/codesearch/view/60212069/)
 {% highlight java %}
-556. AreaReference areaReferance = new AreaReference("A"+(wRow+1)+":A"+(ExcelUtils.getReferanceNameRange(nameDataRangeE).getFirstCell().getRow()));
-557. for(CellReference celRef:areaReferance.getAllReferencedCells()){
+321. public static void clear(HSSFSheet sh, AreaReference aRef){
+322.   for(int row = aRef.getFirstCell().getRow(); row <= aRef.getLastCell().getRow(); row++){
+325.       for(int col = aRef.getFirstCell().getCol(); col <= aRef.getLastCell().getCol(); col++){
 {% endhighlight %}
 
 ***
 
-### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
+### [ExcelUtils.java](https://searchcode.com/codesearch/view/60212069/)
 {% highlight java %}
-964. AreaReference areaRef = new AreaReference(keyPageSeries[k] +""+(wRow+1) + ":" + keyPageSeries[k]+""+(rowNameDataRangeE+1));
-965. if(!areaRef.isSingleCell()){
-966.   for(int col = areaRef.getFirstCell().getCol(); col <= areaRef.getLastCell().getCol(); col++){
-968.     for(int row = areaRef.getFirstCell().getRow(); row <= areaRef.getLastCell().getRow(); row++){
-969.       if (row == areaRef.getFirstCell().getRow()){
+595. public static void fill(HSSFSheet sh, AreaReference areaRef, Object valueFill, byte lookIn){
+597.   for(CellReference cellRef:areaRef.getAllReferencedCells()){
 {% endhighlight %}
 
 ***
 
-### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
+### [ExcelUtils.java](https://searchcode.com/codesearch/view/60212069/)
 {% highlight java %}
-1989. AreaReference cellAHRef = new AreaReference(cellAH);
-1990. if(cellAHRef.isSingleCell() && ExcelUtils.getCell(activeSheet, cellAHRef.getFirstCell().getRow(), cellAHRef.getFirstCell().getCol()).getCellStyle().getWrapText()){
-1991.   CellRangeAddress workMergeRef = ExcelUtils.mergeArea(activeSheet, cellAHRef.getFirstCell());
-1998.   ExcelUtils.paste(activeSheet, cellAHRef.getFirstCell().getRow(), lastCol + 1, ExcelUtils.copy(activeSheet, workMergeRef), ExcelUtils.xlFormats);
-2000.   CellRangeAddress workMergeRef1 = ExcelUtils.mergeArea(activeSheet, new CellReference(cellAHRef.getFirstCell().getRow(), lastCol + 1));
-2010.   HSSFCell distCell = ExcelUtils.getCell(activeSheet, cellAHRef.getFirstCell().getRow(), lastCol);
-2021.     distCell.setCellFormula(cellAHRef.getFirstCell().formatAsString());
+658. public static void autoFilter(HSSFSheet sh, AreaReference areaRef, Object filterValue){
+659.   if (areaRef.getFirstCell().getCol() != areaRef.getLastCell().getCol()) return;
+660.   for(CellReference cellRef:areaRef.getAllReferencedCells()){
+{% endhighlight %}
+
+***
+
+### [ExcelUtils.java](https://searchcode.com/codesearch/view/60212069/)
+{% highlight java %}
+768.   AreaReference areaRef, Object valueSearch, Object valueReplace, byte lookIn, XlLookAt lookAt, XlSearchDirection searchDirection, boolean isFirst, boolean isReplace){
+793. int realFirstRow  = areaRef.getFirstCell().getRow() > sh.getFirstRowNum() ?areaRef.getFirstCell().getRow():sh.getFirstRowNum();
+794. int realLastRow  = areaRef.getLastCell().getRow() < sh.getLastRowNum() ?areaRef.getLastCell().getRow():sh.getLastRowNum();
+795. int realFirstCol  = areaRef.getFirstCell().getCol() > sh.getLeftCol() ?areaRef.getFirstCell().getCol():sh.getLeftCol();
+802.     for(int iCol = realFirstCol; iCol <= areaRef.getLastCell().getCol(); iCol++){
+803.       realCol = searchDirection == XlSearchDirection.xlNext ? iCol: areaRef.getLastCell().getCol()+(realFirstCol-iCol);
+{% endhighlight %}
+
+***
+
+### [ExcelUtils.java](https://searchcode.com/codesearch/view/60212069/)
+{% highlight java %}
+1062. public static ExcelBuffer copy (HSSFSheet sh, AreaReference areaRef){
+1064.   int offsetRow = areaRef.getFirstCell().getRow();
+1065.   int offsetCol = areaRef.getFirstCell().getCol();
+1066.   CellReference[] celRefs = areaRef.getAllReferencedCells();
+{% endhighlight %}
+
+***
+
+### [ExcelUtils.java](https://searchcode.com/codesearch/view/60212069/)
+{% highlight java %}
+1130. public static void paste (HSSFSheet sh, AreaReference areaRef,  ExcelBuffer buffer, byte typePaste){
+1137.   int pasteRow1 = areaRef.getFirstCell().getRow();
+1138.   int pasteCol1 = areaRef.getFirstCell().getCol();
+1139.   int pasteRow2 = areaRef.getLastCell().getRow();
+1140.   int pasteCol2 = areaRef.getLastCell().getCol();
+{% endhighlight %}
+
+***
+
+### [ExcelUtils.java](https://searchcode.com/codesearch/view/60212069/)
+{% highlight java %}
+1221. public static void hiddenRows(HSSFSheet sh, AreaReference area, boolean hide){
+1223.       for(int row = area.getFirstCell().getRow(); row <= area.getLastCell().getRow(); row++)
+{% endhighlight %}
+
+***
+
+### [ExcelUtils.java](https://searchcode.com/codesearch/view/60212069/)
+{% highlight java %}
+1228. public static void setRowHeight(HSSFSheet sh, AreaReference area, short height){
+1229.   for(int row = area.getFirstCell().getRow(); row <= area.getLastCell().getRow(); row++)
 {% endhighlight %}
 
 ***

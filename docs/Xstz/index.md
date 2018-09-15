@@ -2,17 +2,9 @@
 
 ***
 
-### [Cluster 1](./1)
-{% highlight java %}
-61. private Xstz _xstzEntryMcr;
-134.     offset += this._xstzEntryMcr.getSize();
-179.     size += _xstzEntryMcr.getSize();
-220.     offset += _xstzEntryMcr.serialize( buffer, offset );
-{% endhighlight %}
-
-***
-
-### [Cluster 2](./2)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
 {% highlight java %}
 83. private Xstz _xstzTextDef;
 105.         offset += this._xstzTextDef.getSize();

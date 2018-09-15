@@ -4,9 +4,10 @@
 
 ### [SlideShow.java](https://searchcode.com/codesearch/view/97394959/)
 {% highlight java %}
-565. SlideListWithText slwt = _documentRecord.getSlideSlideListWithText();
-566. SlideAtomsSet[] sas = slwt.getSlideAtomsSets();
-582. slwt.setChildRecord(r);
+603. SlideListWithText slwt = _documentRecord.getSlideSlideListWithText();
+604. SlideAtomsSet[] sas = slwt.getSlideAtomsSets();
+630.   slwt.setSlideAtomsSets(sa.toArray(new SlideAtomsSet[sa.size()]));
+631.   slwt.setChildRecord(records.toArray(new Record[records.size()]));
 {% endhighlight %}
 
 ***

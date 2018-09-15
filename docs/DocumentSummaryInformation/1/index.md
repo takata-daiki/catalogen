@@ -15,11 +15,3 @@
 
 ***
 
-### [SummaryExtractor.java](https://searchcode.com/codesearch/view/111785558/)
-{% highlight java %}
-120. private String getLanguage(DocumentSummaryInformation summary) {
-121.     CustomProperties customProperties = summary.getCustomProperties();
-{% endhighlight %}
-
-***
-

@@ -2,37 +2,42 @@
 
 ***
 
-### [ExcelParser.java](https://searchcode.com/codesearch/view/93105691/)
+### [GridsTests.java](https://searchcode.com/codesearch/view/122565038/)
 {% highlight java %}
-123. DataFormatter formatter = new DataFormatter( Locale.ENGLISH );
-146.                      formatter.formatCellValue( topLeft ),
-163.                         log.warn( "Cannot resolve externally linked value: " + formatter.formatCellValue( cell ) );
-185.                                  formatter.formatCellValue( cell ),
+48. DataFormatter formatter = new DataFormatter();
+50. assertEquals( "This is a label\nHeading 1\nThis is text\nHeading 2\nStyles\nBold, Italic, Bold and italic and finally Underline.\n• Oh\n• Dear\nIsle of Mann\nPlain text.\nAnd this is a label",                     formatter.formatCellValue(sheet.getRow(0).getCell(1)));
+53. assertEquals( "Hello",                   formatter.formatCellValue(sheet.getRow(1).getCell(0)));
+54. assertEquals( "End",                     formatter.formatCellValue(sheet.getRow(2).getCell(0)));
 {% endhighlight %}
 
 ***
 
-### [ExcelParser.java](https://searchcode.com/codesearch/view/93105691/)
+### [GridsTests.java](https://searchcode.com/codesearch/view/122565038/)
 {% highlight java %}
-196. DataFormatter formatter = new DataFormatter( Locale.ENGLISH );
-204.             cachedValue = formatter.formatCellValue( cell );
+77. DataFormatter formatter = new DataFormatter();
+79. assertEquals( "This is a label\nHeading 1\nThis is text\nHeading 2\nStyles\nBold, Italic, Bold and italic and finally Underline.\n• Oh\n• Dear\nIsle of Mann\nPlain text.\nAnd this is a label",                     formatter.formatCellValue(sheet.getRow(0).getCell(1)));
+82. assertEquals( "Hello",                   formatter.formatCellValue(sheet.getRow(1).getCell(0)));
+83. assertEquals( "End",                     formatter.formatCellValue(sheet.getRow(2).getCell(0)));
 {% endhighlight %}
 
 ***
 
-### [XlsUtil.java](https://searchcode.com/codesearch/view/12351345/)
+### [GridsTests.java](https://searchcode.com/codesearch/view/64531524/)
 {% highlight java %}
-30. String toString(FormulaEvaluator evaluator, DataFormatter formatter, Cell cell) {
-36.       content = formatter.formatCellValue(cell);
-38.       content = formatter.formatCellValue(cell,
+57. DataFormatter formatter = new DataFormatter();
+59. assertEquals( "This is a label\nHeading 1\nThis is text\nHeading 2\nStyles\nBold, Italic, Bold and italic and finally Underline.\n• Oh\n• Dear\nIsle of Mann\nPlain text.\nAnd this is a label",                     formatter.formatCellValue(sheet.getRow(0).getCell(1)));
+62. assertEquals( "Hello",                   formatter.formatCellValue(sheet.getRow(1).getCell(0)));
+63. assertEquals( "End",                     formatter.formatCellValue(sheet.getRow(2).getCell(0)));
 {% endhighlight %}
 
 ***
 
-### [ExcelUnit.java](https://searchcode.com/codesearch/view/64419074/)
+### [GridsTests.java](https://searchcode.com/codesearch/view/64531524/)
 {% highlight java %}
-23. private DataFormatter formatter = new HSSFDataFormatter();
-52.     return formatter.formatCellValue(cell, formulaEvaluator);
+86. DataFormatter formatter = new DataFormatter();
+88. assertEquals( "This is a label\nHeading 1\nThis is text\nHeading 2\nStyles\nBold, Italic, Bold and italic and finally Underline.\n• Oh\n• Dear\nIsle of Mann\nPlain text.\nAnd this is a label",                     formatter.formatCellValue(sheet.getRow(0).getCell(1)));
+91. assertEquals( "Hello",                   formatter.formatCellValue(sheet.getRow(1).getCell(0)));
+92. assertEquals( "End",                     formatter.formatCellValue(sheet.getRow(2).getCell(0)));
 {% endhighlight %}
 
 ***

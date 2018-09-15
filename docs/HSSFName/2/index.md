@@ -4,8 +4,8 @@
 
 ### [ExcelUtils.java](https://searchcode.com/codesearch/view/60212069/)
 {% highlight java %}
-104. public static AreaReference getReferanceNameRange(HSSFName nameRange){
-106.   return new AreaReference(nameRange.getRefersToFormula());
+1251. HSSFName iName = wb.getNameAt(i);
+1252. if((iName != null) && (iName.getNameName() == null)) return iName;
 {% endhighlight %}
 
 ***

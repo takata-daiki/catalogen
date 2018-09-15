@@ -2,7 +2,19 @@
 
 ***
 
-### [Cluster 1](./1)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
+{% highlight java %}
+317. final TextPiece textPiece = new SinglentonTextPiece( _text );
+319. _text = textPiece.getStringBuilder();
+{% endhighlight %}
+
+***
+
+## [Cluster 2](./2)
+2 results
+> code comments is here.
 {% highlight java %}
 139. TextPiece currentPiece = (TextPiece)textIt.next();
 140. int currentTextStart = currentPiece.getStart();
@@ -16,14 +28,6 @@
 190.     String str = currentPiece.substring(0, runEnd - currentTextStart);
 199.       currentTextStart = currentPiece.getStart();
 200.       currentTextEnd = currentPiece.getEnd();
-{% endhighlight %}
-
-***
-
-### [Cluster 2](./2)
-{% highlight java %}
-317. final TextPiece textPiece = new SinglentonTextPiece( _text );
-319. _text = textPiece.getStringBuilder();
 {% endhighlight %}
 
 ***

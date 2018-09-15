@@ -2,15 +2,19 @@
 
 ***
 
-### [Cluster 1](./1)
+## [Cluster 1](./1)
+5 results
+> code comments is here.
 {% highlight java %}
-79. XSSFColor bgColour = ((XSSFCell)sheet.getRow(0).getCell(0)).getCellStyle().getFillForegroundColorColor();
-80. assertEquals( "FF800000", bgColour.getARGBHex() );
+85. XSSFColor xssfColor = (XSSFColor) color;
+86. byte[] rgb = xssfColor.getRGB();
 {% endhighlight %}
 
 ***
 
-### [Cluster 2](./2)
+## [Cluster 2](./2)
+2 results
+> code comments is here.
 {% highlight java %}
 94. private String getRGBString(XSSFColor colour) {
 97.   if (colour == null || colour.isAuto()) {
@@ -19,34 +23,42 @@
 
 ***
 
-### [Cluster 3](./3)
+## [Cluster 3](./3)
+1 results
+> code comments is here.
 {% highlight java %}
-85. XSSFColor xssfColor = (XSSFColor) color;
-86. byte[] rgb = xssfColor.getRGB();
+61. XSSFColor bgColour = ((XSSFCell)sheet.getRow(0).getCell(0)).getCellStyle().getFillForegroundColorColor();
+62. assertEquals( "FFFFFFFF", bgColour.getARGBHex() );
 {% endhighlight %}
 
 ***
 
-### [Cluster 4](./4)
+## [Cluster 4](./4)
+2 results
+> code comments is here.
 {% highlight java %}
-212. XSSFColor colour = ((XSSFFont)font).getXSSFColor();
-213. int fgRgb[] = rgbOnly( colour.getARgb() );
+79. XSSFColor bgColour = ((XSSFCell)sheet.getRow(0).getCell(0)).getCellStyle().getFillForegroundColorColor();
+80. assertEquals( "FF800000", bgColour.getARGBHex() );
 {% endhighlight %}
 
 ***
 
-### [Cluster 5](./5)
+## [Cluster 5](./5)
+1 results
+> code comments is here.
 {% highlight java %}
-275. XSSFColor colour = theCell.getCellStyle().getFont().getXSSFColor();
-277.   foreground = translateRGB(colour.getRgb());
+64. XSSFColor baseColour = ((XSSFCell)sheet.getRow(0).getCell(0)).getCellStyle().getFont().getXSSFColor();
+65. assertEquals( "FFFFFFFF", baseColour.getARGBHex() );
 {% endhighlight %}
 
 ***
 
-### [Cluster 6](./6)
+## [Cluster 6](./6)
+2 results
+> code comments is here.
 {% highlight java %}
-216. XSSFColor xssfColour = cellStyle.getFillForegroundXSSFColor();
-221. colour = translateRGB(xssfColour.getRgb());
+81. XSSFColor baseColour = ((XSSFCell)sheet.getRow(0).getCell(0)).getCellStyle().getFont().getXSSFColor();
+82. assertEquals( "FF000000", baseColour.getARGBHex() );
 {% endhighlight %}
 
 ***

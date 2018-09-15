@@ -2,23 +2,9 @@
 
 ***
 
-### [Cluster 1](./1)
-{% highlight java %}
-111. XSSFCell xc = (XSSFCell) cell;
-112. String rawValue = xc.getRawValue();
-{% endhighlight %}
-
-***
-
-### [Cluster 2](./2)
-{% highlight java %}
-66. XSSFCell cell = row.getCell(cellIndex);
-67. if (cell!=null && !cell.getStringCellValue().isEmpty()) {
-{% endhighlight %}
-
-***
-
-### [Cluster 3](./3)
+## [Cluster 1](./1)
+32 results
+> code comments is here.
 {% highlight java %}
 35. private XSSFCell theCell;
 59.     return theCell.getRowIndex();
@@ -49,40 +35,6 @@
 316. return theCell.hashCode();
 323.   return cell.theCell.equals(this.theCell);      
 341. XSSFSheet sheet = theCell.getSheet();
-{% endhighlight %}
-
-***
-
-### [Cluster 4](./4)
-{% highlight java %}
-257. XSSFCell xssfCell = xssfRow.getCell(setCellValue.getCol());
-263.         xssfCell.setCellValue(new XSSFRichTextString(setCellValue.getNewValue().toString()));
-{% endhighlight %}
-
-***
-
-### [Cluster 5](./5)
-{% highlight java %}
-110. XSSFCell cell1 = dataRow.createCell(0);
-111. cell1.setCellStyle(dataStyle);
-112. cell1.setCellValue(new XSSFRichTextString(listBetreuung
-{% endhighlight %}
-
-***
-
-### [Cluster 6](./6)
-{% highlight java %}
-89. XSSFCell headerCell1 = headerRow.createCell(1);
-90. headerCell1.setCellStyle(headerStyle);
-91. headerCell1.setCellValue("Betreuerinnen");
-{% endhighlight %}
-
-***
-
-### [Cluster 7](./7)
-{% highlight java %}
-40. XSSFCell cell = row.createCell(0);
-41. cell.setCellValue("hello world");
 {% endhighlight %}
 
 ***

@@ -14,12 +14,3 @@
 
 ***
 
-### [EntryUtils.java](https://searchcode.com/codesearch/view/97383212/)
-{% highlight java %}
-248. DocumentInputStream inpA = null, inpB = null;
-255.       readA = inpA.read();
-263.    if (inpA != null) inpA.close();
-{% endhighlight %}
-
-***
-

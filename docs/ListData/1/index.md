@@ -2,26 +2,12 @@
 
 ***
 
-### [HWPFList.java](https://searchcode.com/codesearch/view/97384433/)
-{% highlight java %}
-60. private ListData _listData;
-78.     _lfo.setLsid( _listData.getLsid() );
-140.     if ( level >= _listData.numLevels() )
-145.                 + _listData.numLevels() + ")" );
-147.     ListLevel lvl = _listData.getLevels()[level];
-217.     ListLevel listLevel = _listData.getLevel( level );
-218.     int styleIndex = _listData.getLevelStyle( level );
-247.     _listData.setLevelStyle( level, styleIndex );
-{% endhighlight %}
-
-***
-
 ### [ListTables.java](https://searchcode.com/codesearch/view/97384153/)
 {% highlight java %}
-141.   ListData lst = _listMap.get(Integer.valueOf(lsid));
-142.   if(level < lst.numLevels()) {
-143.     ListLevel lvl = lst.getLevels()[level];
-146. log.log(POILogger.WARN, "Requested level " + level + " which was greater than the maximum defined (" + lst.numLevels() + ")");
+67. ListData lst = new ListData( tableStream, offset );
+68. _listMap.put( Integer.valueOf( lst.getLsid() ), lst );
+71. int num = lst.numLevels();
+76.     lst.setLevel( y, lvl );
 {% endhighlight %}
 
 ***

@@ -2,16 +2,9 @@
 
 ***
 
-### [Cluster 1](./1)
-{% highlight java %}
-520. HSSFHeader sheetHeader = overviewSheet.getHeader();
-521. sheetHeader.setLeft(lblHeaderLeft);
-522. sheetHeader.setRight(lblHeaderRight);
-{% endhighlight %}
-
-***
-
-### [Cluster 2](./2)
+## [Cluster 1](./1)
+16 results
+> code comments is here.
 {% highlight java %}
 331. HSSFHeader header = sheet.getHeader();
 332. header.setRight(HSSFHeader.page()+ " / "+HSSFHeader.numPages());
@@ -19,7 +12,19 @@
 
 ***
 
-### [Cluster 3](./3)
+## [Cluster 2](./2)
+1 results
+> code comments is here.
+{% highlight java %}
+85. HSSFHeader header = sheet.getHeader();
+86. header.setCenter(filename);
+{% endhighlight %}
+
+***
+
+## [Cluster 3](./3)
+1 results
+> code comments is here.
 {% highlight java %}
 273. final HSSFHeader header = sheet.getHeader ();
 274. header.setLeft ( Messages.ExportImpl_ExcelSheet_Header );

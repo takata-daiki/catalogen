@@ -2,10 +2,10 @@
 
 ***
 
-### [IcySpreadSheet.java](https://searchcode.com/codesearch/view/103223911/)
+### [CellXSSFImpl.java](https://searchcode.com/codesearch/view/72854552/)
 {% highlight java %}
-422. XSSFCellStyle cellStyle = (XSSFCellStyle) book.getCellStyleAt(i);
-424. if (cellStyle.getFillForegroundXSSFColor() == newColor)
+287. XSSFCellStyle cellStyle = theCell.getCellStyle();
+291. short xssfAlignment = cellStyle.getAlignment();
 {% endhighlight %}
 
 ***

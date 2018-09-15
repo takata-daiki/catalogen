@@ -2,11 +2,10 @@
 
 ***
 
-### [OOXMLSignatureVerifierTest.java](https://searchcode.com/codesearch/view/7982558/)
+### [OPCPackageUtil.java](https://searchcode.com/codesearch/view/401674/)
 {% highlight java %}
-154. OPCPackage opcPackage = OPCPackage.open(inputStream);
-156. ArrayList<PackagePart> parts = opcPackage.getParts();
-162. ArrayList<PackagePart> signatureParts = opcPackage
+66. OPCPackage pack = part.getPackage();
+67. return pack.getPart(PackagingURIHelper.createPartName(rels.getRelationship(0).getTargetURI()));
 {% endhighlight %}
 
 ***

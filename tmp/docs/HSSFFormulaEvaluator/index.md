@@ -2,18 +2,25 @@
 
 ***
 
-### [Cluster 1](./1)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
 {% highlight java %}
-89. HSSFFormulaEvaluator evaluator = new HSSFFormulaEvaluator(wb);
-110.         obj = getCellValue(evaluator.evaluateInCell(cell), formatter);
+25. private HSSFFormulaEvaluator evaluator;
+144.                 CellValue wert = evaluator.evaluate(zelle);
 {% endhighlight %}
 
 ***
 
-### [Cluster 2](./2)
+## [Cluster 2](./2)
+1 results
+> code comments is here.
 {% highlight java %}
-25. private HSSFFormulaEvaluator evaluator;
-144.                 CellValue wert = evaluator.evaluate(zelle);
+88. private HSSFFormulaEvaluator evaluator;
+286.                evaluator.evaluate(c);
+289.                evaluator.evaluateFormulaCell(c);
+292.                evaluator.evaluateInCell(c);
+1367.             evaluator.evaluateInCell(cell);
 {% endhighlight %}
 
 ***

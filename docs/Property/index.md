@@ -2,7 +2,19 @@
 
 ***
 
-### [Cluster 1](./1)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
+{% highlight java %}
+108. Property child     = ( Property ) iter.next();
+111. if (child.isDirectory())
+{% endhighlight %}
+
+***
+
+## [Cluster 2](./2)
+1 results
+> code comments is here.
 {% highlight java %}
 194. Property property = ( Property ) children.pop();
 197. if (property.isDirectory())
@@ -12,7 +24,9 @@
 
 ***
 
-### [Cluster 2](./2)
+## [Cluster 3](./3)
+2 results
+> code comments is here.
 {% highlight java %}
 412. Property      property = ( Property ) properties.next();
 413. String        name     = property.getName();

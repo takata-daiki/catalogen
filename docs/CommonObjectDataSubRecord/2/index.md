@@ -2,11 +2,16 @@
 
 ***
 
-### [HSSFCell.java](https://searchcode.com/codesearch/view/15642303/)
+### [PictureShape.java](https://searchcode.com/codesearch/view/15642357/)
 {% highlight java %}
-1044. CommonObjectDataSubRecord cmo = (CommonObjectDataSubRecord)sub;
-1045. if (cmo.getObjectType() == CommonObjectDataSubRecord.OBJECT_TYPE_COMMENT){
-1050.             txshapes.put(new Integer(cmo.getObjectId()), rec);
+122. CommonObjectDataSubRecord c = new CommonObjectDataSubRecord();
+123. c.setObjectType((short) ((HSSFSimpleShape)shape).getShapeType());
+125. c.setObjectId((short) ( shapeId ));
+126. c.setLocked(true);
+127. c.setPrintable(true);
+128. c.setAutofill(true);
+129. c.setAutoline(true);
+131. c.setReserved2( 0x0 );
 {% endhighlight %}
 
 ***

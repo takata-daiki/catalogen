@@ -2,11 +2,10 @@
 
 ***
 
-### [ExcelUtils.java](https://searchcode.com/codesearch/view/60212069/)
+### [WorkbookHSSFImpl.java](https://searchcode.com/codesearch/view/72854626/)
 {% highlight java %}
-98. HSSFName nameRange =  wb.createName();
-99. nameRange.setNameName(name);
-100. nameRange.setRefersToFormula(refersToR1C1);
+103. HSSFName name = workbook.getNameAt(i);
+104. if(!name.isDeleted() && !name.isFunctionName()) {
 {% endhighlight %}
 
 ***

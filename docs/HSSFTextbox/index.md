@@ -2,15 +2,9 @@
 
 ***
 
-### [Cluster 1](./1)
-{% highlight java %}
-101. HSSFTextbox shape = new HSSFTextbox(this, anchor);
-102. shape.anchor = anchor;
-{% endhighlight %}
-
-***
-
-### [Cluster 2](./2)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
 {% highlight java %}
 156. HSSFTextbox shape = hssfShape;
 163. int frLength = ( shape.getString().numFormattingRuns() + 1 ) * 8;

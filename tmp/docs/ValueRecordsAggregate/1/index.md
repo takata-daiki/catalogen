@@ -2,18 +2,11 @@
 
 ***
 
-### [Sheet.java](https://searchcode.com/codesearch/view/15642365/)
+### [RowRecordsAggregate.java](https://searchcode.com/codesearch/view/15642594/)
 {% highlight java %}
-378. ValueRecordsAggregate vrAgg = (ValueRecordsAggregate)rec;
-379. for (Iterator cellIter = vrAgg.getIterator();cellIter.hasNext();) {
-{% endhighlight %}
-
-***
-
-### [ValueRecordsAggregate.java](https://searchcode.com/codesearch/view/15642593/)
-{% highlight java %}
-312. ValueRecordsAggregate rec = new ValueRecordsAggregate();
-315.   rec.insertCell(val);
+220. public int serialize(int offset, byte [] data, ValueRecordsAggregate cells)
+240.         if (null != cells && cells.rowHasCells(row)) {
+241.           final int rowCellSize = cells.serializeCellRow(row, pos, data);
 {% endhighlight %}
 
 ***

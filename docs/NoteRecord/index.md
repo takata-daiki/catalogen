@@ -2,7 +2,9 @@
 
 ***
 
-### [Cluster 1](./1)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
 {% highlight java %}
 1029. NoteRecord note = (NoteRecord)rec;
 1030. if (note.getRow() == row && note.getColumn() == column){
@@ -15,14 +17,15 @@
 
 ***
 
-### [Cluster 2](./2)
+## [Cluster 2](./2)
+1 results
+> code comments is here.
 {% highlight java %}
-60. private NoteRecord note;
-100.     note.setColumn(shape.getColumn());
-101.     note.setRow((short)shape.getRow());
-102.     note.setFlags(shape.isVisible() ? NoteRecord.NOTE_VISIBLE : NoteRecord.NOTE_HIDDEN);
-103.     note.setShapeId((short)shapeId);
-104.     note.setAuthor(shape.getAuthor() == null ? "" : shape.getAuthor());
+61. private NoteRecord note = null;
+97.     if(note != null) note.setFlags(visible ? NoteRecord.NOTE_VISIBLE : NoteRecord.NOTE_HIDDEN);
+125.     if(note != null) note.setRow((short)row);
+144.     if(note != null) note.setColumn(col);
+163.     if(note != null) note.setAuthor(author);
 {% endhighlight %}
 
 ***

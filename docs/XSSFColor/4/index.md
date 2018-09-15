@@ -2,26 +2,18 @@
 
 ***
 
-### [StyleManagerXUtils.java](https://searchcode.com/codesearch/view/122565145/)
+### [NestedTables2ReportTest.java](https://searchcode.com/codesearch/view/122565043/)
 {% highlight java %}
-212. XSSFColor colour = ((XSSFFont)font).getXSSFColor();
-213. int fgRgb[] = rgbOnly( colour.getARgb() );
+79. XSSFColor bgColour = ((XSSFCell)sheet.getRow(0).getCell(0)).getCellStyle().getFillForegroundColorColor();
+80. assertEquals( "FF800000", bgColour.getARGBHex() );
 {% endhighlight %}
 
 ***
 
-### [StyleManagerXUtils.java](https://searchcode.com/codesearch/view/64530833/)
+### [NestedTables2ReportTest.java](https://searchcode.com/codesearch/view/64531651/)
 {% highlight java %}
-225. XSSFColor colour = ((XSSFFont)font).getXSSFColor();
-226. int fgRgb[] = rgbOnly( colour.getARgb() );
-{% endhighlight %}
-
-***
-
-### [StyleManagerXUtils.java](https://searchcode.com/codesearch/view/126772698/)
-{% highlight java %}
-223. XSSFColor colour = ((XSSFFont)font).getXSSFColor();
-224. int fgRgb[] = rgbOnly( colour.getARgb() );
+89. XSSFColor bgColour = ((XSSFCell)sheet.getRow(0).getCell(0)).getCellStyle().getFillForegroundColorColor();
+90. assertEquals( "FF800000", bgColour.getARGBHex() );
 {% endhighlight %}
 
 ***

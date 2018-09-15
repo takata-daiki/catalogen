@@ -2,23 +2,34 @@
 
 ***
 
-### [StyleEngineForIText.java](https://searchcode.com/codesearch/view/12208690/)
+### [XHTMLStyleUtil.java](https://searchcode.com/codesearch/view/12208720/)
 {% highlight java %}
-323. XWPFStyle style = document.getStyles().getStyle( styleID );
-326. CTPPr xwpfParagraphProperties = style.getCTStyle().getPPr();
-331.     if ( style.getCTStyle().getRPr() != null )
-333.         FontInfos fontInfos = processRPR( style.getCTStyle().getRPr() );
-350. CTTblPrBase xwpfTableProperties = style.getCTStyle().getTblPr();
+462. public static CTPPr getPPr( XWPFStyle style )
+469.     CTStyle ctStyle = style.getCTStyle();
 {% endhighlight %}
 
 ***
 
-### [StyleEngineForIText.java](https://searchcode.com/codesearch/view/96673306/)
+### [XHTMLStyleUtil.java](https://searchcode.com/codesearch/view/96673278/)
 {% highlight java %}
-264. XWPFStyle style = document.getStyles().getStyle( styleID );
-267. CTPPr xwpfParagraphProperties = style.getCTStyle().getPPr();
-272.     if ( style.getCTStyle().getRPr() != null )
-291. CTTblPrBase xwpfTableProperties = style.getCTStyle().getTblPr();
+467. public static CTPPr getPPr( XWPFStyle style )
+474.     CTStyle ctStyle = style.getCTStyle();
+{% endhighlight %}
+
+***
+
+### [XWPFParagraphUtils.java](https://searchcode.com/codesearch/view/12208683/)
+{% highlight java %}
+192. public static CTPPr getPPr( XWPFStyle style )
+199.     CTStyle ctStyle = style.getCTStyle();
+{% endhighlight %}
+
+***
+
+### [XWPFParagraphUtils.java](https://searchcode.com/codesearch/view/96673289/)
+{% highlight java %}
+41. public static CTPPr getPPr( XWPFStyle style )
+48.     CTStyle ctStyle = style.getCTStyle();
 {% endhighlight %}
 
 ***

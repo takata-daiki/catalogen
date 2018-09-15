@@ -2,20 +2,14 @@
 
 ***
 
-### [Cluster 1](./1)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
 {% highlight java %}
-68. ExcelExtractor extractor = new ExcelExtractor((HSSFWorkbook)wb);
-69. extractor.setFormulasNotResults(true);
-70. extractor.setIncludeSheetNames(false);
-71. text = extractor.getText();
-{% endhighlight %}
-
-***
-
-### [Cluster 2](./2)
-{% highlight java %}
-33. ExcelExtractor ex = new ExcelExtractor(fs);
-34. return ex.getText();
+160. ExcelExtractor extractor = null;
+166.   extractor.setFormulasNotResults(true);
+167.   extractor.setIncludeSheetNames(false);
+171. return extractor.getText();
 {% endhighlight %}
 
 ***

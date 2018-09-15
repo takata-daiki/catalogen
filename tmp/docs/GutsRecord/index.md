@@ -2,18 +2,9 @@
 
 ***
 
-### [Cluster 1](./1)
-{% highlight java %}
-1586. GutsRecord retval = new GutsRecord();
-1588. retval.setLeftRowGutter(( short ) 0);
-1589. retval.setTopColGutter(( short ) 0);
-1590. retval.setRowLevelMax(( short ) 0);
-1591. retval.setColLevelMax(( short ) 0);
-{% endhighlight %}
-
-***
-
-### [Cluster 2](./2)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
 {% highlight java %}
 221. GutsRecord rec = new GutsRecord();
 222. rec.field_1_left_row_gutter = field_1_left_row_gutter;

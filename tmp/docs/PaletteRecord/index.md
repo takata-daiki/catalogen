@@ -2,7 +2,9 @@
 
 ***
 
-### [Cluster 1](./1)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
 {% highlight java %}
 55. private PaletteRecord palette;
 74.       byte[] b = palette.getColor(index);

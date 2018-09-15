@@ -2,22 +2,26 @@
 
 ***
 
-### [ExcelKit.java](https://searchcode.com/codesearch/view/74368370/)
+### [HxlsAbstract.java](https://searchcode.com/codesearch/view/68613461/)
 {% highlight java %}
-115. Record record = (Record)obj;
-116. Map<String,Object> map = record.getColumns();
-118.   record.getColumns();
-123.     cell.setCellValue(record.get(key)+"");
+119. public void processRecord(Record record) {
+125.   switch (record.getSid()) {
 {% endhighlight %}
 
 ***
 
-### [PoiKit.java](https://searchcode.com/codesearch/view/92635013/)
+### [ExcelKeywordParser.java](https://searchcode.com/codesearch/view/12440040/)
 {% highlight java %}
-141. Record record = (Record) obj;
-142. Map<String, Object> map = record.getColumns();
-144.     record.getColumns();
-149.         cell.setCellValue(record.get(key) + "");
+86. public void processRecord(Record record)
+94.         switch (record.getSid())
+{% endhighlight %}
+
+***
+
+### [ExcelLanguageCentricParser.java](https://searchcode.com/codesearch/view/12440043/)
+{% highlight java %}
+84. public void processRecord(Record record)
+92.         switch (record.getSid())
 {% endhighlight %}
 
 ***

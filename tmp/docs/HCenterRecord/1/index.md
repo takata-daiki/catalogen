@@ -2,6 +2,14 @@
 
 ***
 
+### [Sheet.java](https://searchcode.com/codesearch/view/15642365/)
+{% highlight java %}
+1668. HCenterRecord retval = new HCenterRecord();
+1670. retval.setHCenter(false);
+{% endhighlight %}
+
+***
+
 ### [HSSFSheet.java](https://searchcode.com/codesearch/view/15642322/)
 {% highlight java %}
 557. HCenterRecord record =

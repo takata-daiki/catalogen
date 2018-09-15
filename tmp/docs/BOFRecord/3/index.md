@@ -2,15 +2,24 @@
 
 ***
 
-### [BOFRecord.java](https://searchcode.com/codesearch/view/15642479/)
+### [ExcelKeywordParser.java](https://searchcode.com/codesearch/view/12440040/)
 {% highlight java %}
-331. BOFRecord rec = new BOFRecord();
-332. rec.field_1_version = field_1_version;
-333. rec.field_2_type = field_2_type;
-334. rec.field_3_build = field_3_build;
-335. rec.field_4_year = field_4_year;
-336. rec.field_5_history = field_5_history;
-337. rec.field_6_rversion = field_6_rversion;
+101. final BOFRecord bof = (BOFRecord) record;
+102. if (bof.getType() == BOFRecord.TYPE_WORKBOOK) {
+107. else if (bof.getType() == BOFRecord.TYPE_WORKSHEET) {
+109.         logger.info("recordsize = " + bof.getRecordSize() + 
+111.                 bof.getRequiredVersion());
+{% endhighlight %}
+
+***
+
+### [ExcelLanguageCentricParser.java](https://searchcode.com/codesearch/view/12440043/)
+{% highlight java %}
+99. final BOFRecord bof = (BOFRecord) record;
+100. if (bof.getType() == BOFRecord.TYPE_WORKBOOK) {
+105. else if (bof.getType() == BOFRecord.TYPE_WORKSHEET) {
+107.         logger.info("recordsize = " + bof.getRecordSize() + 
+109.                 bof.getRequiredVersion());
 {% endhighlight %}
 
 ***

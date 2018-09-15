@@ -2,20 +2,34 @@
 
 ***
 
-### [EscherSimpleProperty.java](https://searchcode.com/codesearch/view/97383900/)
+### [TextShape.java](https://searchcode.com/codesearch/view/97394395/)
 {% highlight java %}
-91. final EscherSimpleProperty escherSimpleProperty = (EscherSimpleProperty) o;
-93. if ( propertyValue != escherSimpleProperty.propertyValue ) return false;
-94. if ( getId() != escherSimpleProperty.getId() ) return false;
+459. EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.TEXT__WRAPTEXT);
+460. return prop == null ? WrapSquare : prop.getPropertyValue();
 {% endhighlight %}
 
 ***
 
-### [EscherSimpleProperty.java](https://searchcode.com/codesearch/view/15642606/)
+### [SimpleShape.java](https://searchcode.com/codesearch/view/97394265/)
 {% highlight java %}
-114. final EscherSimpleProperty escherSimpleProperty = (EscherSimpleProperty) o;
-116. if ( propertyValue != escherSimpleProperty.propertyValue ) return false;
-117. if ( getId() != escherSimpleProperty.getId() ) return false;
+167. EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.LINESTYLE__LINEDASHING);
+168. return prop == null ? Line.PEN_SOLID : prop.getPropertyValue();
+{% endhighlight %}
+
+***
+
+### [SimpleShape.java](https://searchcode.com/codesearch/view/97394265/)
+{% highlight java %}
+199. EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.LINESTYLE__LINESTYLE);
+200. return prop == null ? Line.LINE_SIMPLE : prop.getPropertyValue();
+{% endhighlight %}
+
+***
+
+### [Shape.java](https://searchcode.com/codesearch/view/97394276/)
+{% highlight java %}
+337. EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, propId);
+338. return prop == null ? defaultValue : prop.getPropertyValue();
 {% endhighlight %}
 
 ***

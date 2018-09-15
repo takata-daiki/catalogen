@@ -2,10 +2,10 @@
 
 ***
 
-### [SimpleShape.java](https://searchcode.com/codesearch/view/97394265/)
+### [AbstractShape.java](https://searchcode.com/codesearch/view/15642354/)
 {% highlight java %}
-83. EscherSpRecord sp = new EscherSpRecord();
-86. sp.setFlags(flags);
+97. EscherSpRecord sp = shape.getSpContainer().getChildById(EscherSpRecord.RECORD_ID);
+99.     sp.setFlags(sp.getFlags() | EscherSpRecord.FLAG_CHILD);
 {% endhighlight %}
 
 ***

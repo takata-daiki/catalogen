@@ -2,19 +2,12 @@
 
 ***
 
-### [Cluster 1](./1)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
 {% highlight java %}
-119. protected ScenarioProtectRecord      scenprotect       =     null;
-2943.         scenprotect.setProtect(false);
-2953.                          (scenprotect != null && scenprotect.getProtect())};
-{% endhighlight %}
-
-***
-
-### [Cluster 2](./2)
-{% highlight java %}
-2917. ScenarioProtectRecord srec = createScenarioProtect();
-2918. srec.setProtect(true);
+148. ScenarioProtectRecord rec = new ScenarioProtectRecord();
+149. rec.field_1_protect = field_1_protect;
 {% endhighlight %}
 
 ***

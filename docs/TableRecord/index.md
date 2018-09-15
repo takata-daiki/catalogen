@@ -2,18 +2,9 @@
 
 ***
 
-### [Cluster 1](./1)
-{% highlight java %}
-150. for (TableRecord record : produceItems) {
-154.   String key = record.itemName + " " + record.oper;
-158.   cell.setCellValue(record.itemName);
-161.   cell.setCellValue(record.oper);
-170.   cell.setCellValue(record.UOMId);
-{% endhighlight %}
-
-***
-
-### [Cluster 2](./2)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
 {% highlight java %}
 107. TableRecord record = new TableRecord();
 108. record.itemName = item.getName();
@@ -23,6 +14,19 @@
 116.   record.oper = "Списано";
 118. String key = record.itemName + " " + record.oper;
 121.   if (record.oper.equals("Произведено"))
+{% endhighlight %}
+
+***
+
+## [Cluster 2](./2)
+1 results
+> code comments is here.
+{% highlight java %}
+132. TableRecord record = new TableRecord();
+133. record.itemName = prodItem.getName();
+136. record.UOMId = prodItem.getUOMId();
+137. record.oper = "Произведено";
+138. String key = record.itemName + " " + record.oper;
 {% endhighlight %}
 
 ***

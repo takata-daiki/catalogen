@@ -2,7 +2,9 @@
 
 ***
 
-### [Cluster 1](./1)
+## [Cluster 1](./1)
+5 results
+> code comments is here.
 {% highlight java %}
 87. public ArrayPtg(RecordInputStream in)
 89.   field_1_reserved = in.readByte();
@@ -12,23 +14,6 @@
 93.   field_5_reserved = in.readByte();
 94.   field_6_reserved = in.readByte();
 95.   field_7_reserved = in.readByte();
-{% endhighlight %}
-
-***
-
-### [Cluster 2](./2)
-{% highlight java %}
-294. RecordInputStream recStream = new RecordInputStream(in);
-296. while (recStream.hasNextRecord()) {
-297.   recStream.nextRecord();
-{% endhighlight %}
-
-***
-
-### [Cluster 3](./3)
-{% highlight java %}
-138. public static Ptg createPtg(RecordInputStream in)
-140.     byte id     = in.readByte();
 {% endhighlight %}
 
 ***

@@ -4,16 +4,16 @@
 
 ### [Shape.java](https://searchcode.com/codesearch/view/97394276/)
 {% highlight java %}
-462. EscherSpRecord spRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);
-463. if(spRecord != null) spRecord.setShapeId(id);
+176. EscherSpRecord spRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);
+177. int flags = spRecord.getFlags();
 {% endhighlight %}
 
 ***
 
-### [Slide.java](https://searchcode.com/codesearch/view/97394313/)
+### [Shape.java](https://searchcode.com/codesearch/view/97394276/)
 {% highlight java %}
-161. EscherSpRecord spr = null;
-171. if(spr != null) spr.setShapeId(allocateShapeId());
+225. EscherSpRecord spRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);
+226. int flags = spRecord.getFlags();
 {% endhighlight %}
 
 ***

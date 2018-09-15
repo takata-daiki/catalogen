@@ -2,18 +2,10 @@
 
 ***
 
-### [HSSFSheet.java](https://searchcode.com/codesearch/view/15642322/)
+### [Sheet.java](https://searchcode.com/codesearch/view/15642365/)
 {% highlight java %}
-1284. PageBreakRecord.Break breakItem = (PageBreakRecord.Break)iterator.next();
-1285. returnValue[i++] = (int)breakItem.main;
-{% endhighlight %}
-
-***
-
-### [HSSFSheet.java](https://searchcode.com/codesearch/view/15642322/)
-{% highlight java %}
-1304. PageBreakRecord.Break breakItem = (PageBreakRecord.Break)iterator.next();
-1305. returnValue[i++] = breakItem.main;
+2749. PageBreakRecord.Break breakItem = (PageBreakRecord.Break)iterator.next();
+2750. short breakLocation = breakItem.main;
 {% endhighlight %}
 
 ***

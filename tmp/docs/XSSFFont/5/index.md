@@ -2,10 +2,14 @@
 
 ***
 
-### [CellRenderer.java](https://searchcode.com/codesearch/view/121321564/)
+### [CellXSSFImpl.java](https://searchcode.com/codesearch/view/72854552/)
 {% highlight java %}
-209. XSSFFont xssfFont = (XSSFFont) f;
-210. label.setForeground(awtColor(xssfFont.getXSSFColor(), java.awt.Color.BLACK));
+167. private Font getFont(XSSFFont xssfFont) {
+171.         String name = xssfFont.getFontName();
+172.         int size = xssfFont.getFontHeightInPoints();
+174.         if (xssfFont.getBoldweight() == XSSFFont.BOLDWEIGHT_BOLD) {
+176.             if (xssfFont.getItalic()) {
+180.         else if (xssfFont.getItalic()) {
 {% endhighlight %}
 
 ***

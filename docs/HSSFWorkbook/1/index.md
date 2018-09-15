@@ -12,6 +12,20 @@
 
 ### [ReportingFacadeBean.java](https://searchcode.com/codesearch/view/39694396/)
 {% highlight java %}
+116. HSSFWorkbook wb = new HSSFWorkbook();
+121. Font headerFont = wb.createFont();
+125. Font userFont = wb.createFont();
+129. Font storyFont = wb.createFont();
+140. HSSFSheet overviewSheet = wb.createSheet(sheetName);
+234. wb.setRepeatingRowsAndColumns(0, 0, 0, 0, 0);
+235. wb.setPrintArea(0, 0, 8, 0, overviewSheetRow);
+247.     wb.write(baos);
+{% endhighlight %}
+
+***
+
+### [ReportingFacadeBean.java](https://searchcode.com/codesearch/view/39694396/)
+{% highlight java %}
 255. private CellStyle createUserStyle(HSSFWorkbook wb, Font userFont) {
 256.     CellStyle style = wb.createCellStyle();
 {% endhighlight %}
@@ -55,6 +69,42 @@
 328. private CellStyle createPercentStyle(HSSFWorkbook wb, Font font) {
 329.     CellStyle style = wb.createCellStyle();
 330.     CreationHelper creationHelper = wb.getCreationHelper();
+{% endhighlight %}
+
+***
+
+### [MetaDataFacadeBean.java](https://searchcode.com/codesearch/view/39694405/)
+{% highlight java %}
+457. HSSFWorkbook wb = new HSSFWorkbook();
+461. Font storyFont = wb.createFont();
+466. CellStyle style = wb.createCellStyle();
+477. CreationHelper createHelper = wb.getCreationHelper();
+478. CellStyle dateStyle = wb.createCellStyle();
+490. HSSFSheet overviewSheet = wb.createSheet(sheetName);
+536. wb.setRepeatingRowsAndColumns(0, 0, 0, 0, 0);
+542.     wb.write(baos);
+{% endhighlight %}
+
+***
+
+### [SearchEngineBean.java](https://searchcode.com/codesearch/view/39694394/)
+{% highlight java %}
+483. HSSFWorkbook wb = new HSSFWorkbook();
+488. Font storyFont = wb.createFont();
+493. CellStyle style = wb.createCellStyle();
+504. CreationHelper createHelper = wb.getCreationHelper();
+505. CellStyle dateStyle = wb.createCellStyle();
+517. HSSFSheet overviewSheet = wb.createSheet(sheetName);
+602. wb.setRepeatingRowsAndColumns(0, 0, 0, 0, 0);
+608.     wb.write(baos);
+{% endhighlight %}
+
+***
+
+### [ExcelUtil.java](https://searchcode.com/codesearch/view/73315299/)
+{% highlight java %}
+47. public static void writeWorkbook(HSSFWorkbook wb, String fileName) {
+51.     wb.write(fos);
 {% endhighlight %}
 
 ***

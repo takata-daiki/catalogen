@@ -34,6 +34,14 @@
 
 ***
 
+### [TextExtractor.java](https://searchcode.com/codesearch/view/107461104/)
+{% highlight java %}
+61. WordExtractor we = new WordExtractor(is);
+62. return we.getText();
+{% endhighlight %}
+
+***
+
 ### [WordDocPoiTest.java](https://searchcode.com/codesearch/view/112538974/)
 {% highlight java %}
 26. WordExtractor extractor = new WordExtractor(fs);
@@ -70,6 +78,14 @@
 {% highlight java %}
 52. WordExtractor we = new WordExtractor(doc);
 54. String[] paragraphs = we.getParagraphText();
+{% endhighlight %}
+
+***
+
+### [WORDParserImpl.java](https://searchcode.com/codesearch/view/11485147/)
+{% highlight java %}
+17. WordExtractor extractor = new WordExtractor(document);
+18. return extractor.getText();
 {% endhighlight %}
 
 ***

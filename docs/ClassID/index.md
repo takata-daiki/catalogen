@@ -2,18 +2,23 @@
 
 ***
 
-### [Cluster 1](./1)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
 {% highlight java %}
-340. public void setStorageClsid( ClassID clsidStorage)
-346.         clsidStorage.write( _raw_data, _storage_clsid_offset);
+224. final ClassID cid = (ClassID) o;
+225. if (bytes.length != cid.bytes.length)
+228.     if (bytes[i] != cid.bytes[i])
 {% endhighlight %}
 
 ***
 
-### [Cluster 2](./2)
+## [Cluster 2](./2)
+1 results
+> code comments is here.
 {% highlight java %}
-155. ClassID fid = getFormatID();
-161. fid.setBytes(formatID);
+168. public static int writeToStream(final OutputStream out, final ClassID n)
+172.     n.write(b, 0);
 {% endhighlight %}
 
 ***

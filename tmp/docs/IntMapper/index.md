@@ -2,15 +2,9 @@
 
 ***
 
-### [Cluster 1](./1)
-{% highlight java %}
-55. private IntMapper strings;
-78.   strings.add(string );
-{% endhighlight %}
-
-***
-
-### [Cluster 2](./2)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
 {% highlight java %}
 95. private IntMapper field_3_strings;
 140.     int index = field_3_strings.getIndex(ucs);

@@ -2,10 +2,10 @@
 
 ***
 
-### [CellXSSFImpl.java](https://searchcode.com/codesearch/view/72854552/)
+### [NestedTables2ReportTest.java](https://searchcode.com/codesearch/view/126772640/)
 {% highlight java %}
-275. XSSFColor colour = theCell.getCellStyle().getFont().getXSSFColor();
-277.   foreground = translateRGB(colour.getRgb());
+64. XSSFColor baseColour = ((XSSFCell)sheet.getRow(0).getCell(0)).getCellStyle().getFont().getXSSFColor();
+65. assertEquals( "FFFFFFFF", baseColour.getARGBHex() );
 {% endhighlight %}
 
 ***

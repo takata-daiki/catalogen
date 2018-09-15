@@ -2,7 +2,19 @@
 
 ***
 
-### [Cluster 1](./1)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
+{% highlight java %}
+131. DrawingRecord lastDrawingRecord = new DrawingRecord( );
+163.               lastDrawingRecord.processContinueRecord( ((ContinueRecord)record).getData() );
+{% endhighlight %}
+
+***
+
+## [Cluster 2](./2)
+1 results
+> code comments is here.
 {% highlight java %}
 162. DrawingRecord lastDrawingRecord = new DrawingRecord();
 222.       lastDrawingRecord.processContinueRecord( crec.getData() );
@@ -10,11 +22,13 @@
 
 ***
 
-### [Cluster 2](./2)
+## [Cluster 3](./3)
+1 results
+> code comments is here.
 {% highlight java %}
-376. DrawingRecord drawingRecord = (DrawingRecord) records.get( loc );
-377. System.arraycopy( drawingRecord.getData(), 0, buffer, offset, drawingRecord.getData().length );
-378. offset += drawingRecord.getData().length;
+468. DrawingRecord drawing = new DrawingRecord();
+471. drawing.setData( drawingData );
+472. int temp = drawing.serialize( pos, data );
 {% endhighlight %}
 
 ***

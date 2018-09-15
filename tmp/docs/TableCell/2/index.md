@@ -2,11 +2,10 @@
 
 ***
 
-### [Doc.java](https://searchcode.com/codesearch/view/17642935/)
+### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
 {% highlight java %}
-311. TableCell tc = tr.getCell(j);
-318. for (int y = 0; y < tc.numParagraphs(); y++) {
-319.   Paragraph p = tc.getParagraph(y);
+209.     int currentEdgeIndex, TableCell tableCell )
+213. int cellRightEdge = tableCell.getLeftEdge() + tableCell.getWidth();
 {% endhighlight %}
 
 ***

@@ -2,58 +2,28 @@
 
 ***
 
-### [InventJournalExcelExporter.java](https://searchcode.com/codesearch/view/137412606/)
+### [SummaryExtractor.java](https://searchcode.com/codesearch/view/111785558/)
 {% highlight java %}
-53. SummaryInformation summaryInfo = hwb.getSummaryInformation();
-54. summaryInfo.setAuthor("BMP-System");
-{% endhighlight %}
-
-***
-
-### [InventJournalExcelExporter.java](https://searchcode.com/codesearch/view/137412606/)
-{% highlight java %}
-287. SummaryInformation summaryInfo = hwb.getSummaryInformation();
-288. summaryInfo.setAuthor("BMP-System");
-{% endhighlight %}
-
-***
-
-### [ExcelExporter.java](https://searchcode.com/codesearch/view/137412604/)
-{% highlight java %}
-46. SummaryInformation summaryInfo = hwb.getSummaryInformation();
-47. summaryInfo.setAuthor("BMP-System");
-{% endhighlight %}
-
-***
-
-### [ProdTableExcellExporter.java](https://searchcode.com/codesearch/view/137412607/)
-{% highlight java %}
-45. SummaryInformation summaryInfo = hwb.getSummaryInformation();
-46. summaryInfo.setAuthor("BMP-System");
-{% endhighlight %}
-
-***
-
-### [ProdTableInRangeExellExporter.java](https://searchcode.com/codesearch/view/137412593/)
-{% highlight java %}
-58. SummaryInformation summaryInfo = hwb.getSummaryInformation();
-59. summaryInfo.setAuthor("BMP-System");
-{% endhighlight %}
-
-***
-
-### [InventLocationExcelExporter.java](https://searchcode.com/codesearch/view/137412597/)
-{% highlight java %}
-104. SummaryInformation summaryInfo = hwb.getSummaryInformation();
-105. summaryInfo.setAuthor("BMP-System");
-{% endhighlight %}
-
-***
-
-### [MX18StatReport.java](https://searchcode.com/codesearch/view/137412598/)
-{% highlight java %}
-47. SummaryInformation summaryInfo = hwb.getSummaryInformation();
-48. summaryInfo.setAuthor("BMP-System");
+86. private void parse(SummaryInformation summary) {
+87.     set(Metadata.TITLE, summary.getTitle());
+88.     set(Metadata.AUTHOR, summary.getAuthor());
+89.     set(Metadata.KEYWORDS, summary.getKeywords());
+90.     set(Metadata.SUBJECT, summary.getSubject());
+91.     set(Metadata.LAST_AUTHOR, summary.getLastAuthor());
+92.     set(Metadata.COMMENTS, summary.getComments());
+93.     set(Metadata.TEMPLATE, summary.getTemplate());
+94.     set(Metadata.APPLICATION_NAME, summary.getApplicationName());
+95.     set(Metadata.REVISION_NUMBER, summary.getRevNumber());
+96.     set(Metadata.CREATION_DATE, summary.getCreateDateTime());
+97.     set(Metadata.CHARACTER_COUNT, summary.getCharCount());
+98.     set(Metadata.EDIT_TIME, summary.getEditTime());
+99.     set(Metadata.LAST_SAVED, summary.getLastSaveDateTime());
+100.     set(Metadata.PAGE_COUNT, summary.getPageCount());
+101.     if (summary.getPageCount() > 0) {
+102.         metadata.set(PagedText.N_PAGES, summary.getPageCount());
+104.     set(Metadata.SECURITY, summary.getSecurity());
+105.     set(Metadata.WORD_COUNT, summary.getWordCount());
+106.     set(Metadata.LAST_PRINTED, summary.getLastPrinted());
 {% endhighlight %}
 
 ***

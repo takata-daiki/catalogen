@@ -2,12 +2,11 @@
 
 ***
 
-### [HSSFEventFactory.java](https://searchcode.com/codesearch/view/15642337/)
+### [HxlsAbstract.java](https://searchcode.com/codesearch/view/68613461/)
 {% highlight java %}
-151. protected short genericProcessEvents(HSSFRequest req, RecordInputStream in)
-188.         userCode = req.processRecord(rec);
-200.             userCode = req.processRecord(
-248.       userCode = req.processRecord(rec);
+102. HSSFRequest request = new HSSFRequest();
+105.   request.addListenerForAllRecords(formatListener);
+109.   request.addListenerForAllRecords(workbookBuildingListener);
 {% endhighlight %}
 
 ***

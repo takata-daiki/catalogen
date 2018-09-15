@@ -2,18 +2,10 @@
 
 ***
 
-### [PropertySet.java](https://searchcode.com/codesearch/view/15642677/)
+### [TypeWriter.java](https://searchcode.com/codesearch/view/15642684/)
 {% highlight java %}
-663. ClassID classID1 = ps.getClassID();
-672.     !classID1.equals(classID2)    ||
-{% endhighlight %}
-
-***
-
-### [MutableSection.java](https://searchcode.com/codesearch/view/15642671/)
-{% highlight java %}
-155. ClassID fid = getFormatID();
-161. fid.setBytes(formatID);
+168. public static int writeToStream(final OutputStream out, final ClassID n)
+172.     n.write(b, 0);
 {% endhighlight %}
 
 ***

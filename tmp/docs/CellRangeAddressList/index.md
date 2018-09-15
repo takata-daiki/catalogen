@@ -2,35 +2,24 @@
 
 ***
 
-### [Cluster 1](./1)
+## [Cluster 1](./1)
+2 results
+> code comments is here.
 {% highlight java %}
-451. CellRangeAddressList rangeList = new CellRangeAddressList();
-471.   for(CellRangeAddress crA:rangeListForColumns.get(0)) rangeList.addCellRangeAddress(crA);
+974. CellRangeAddressList listCrA = new CellRangeAddressList(); 
+979.     listCrA.addCellRangeAddress(crA);
+987.   listCrA.addCellRangeAddress(crA);
+989. return listCrA.countRanges() > 0?listCrA:null;
 {% endhighlight %}
 
 ***
 
-### [Cluster 2](./2)
+## [Cluster 2](./2)
+1 results
+> code comments is here.
 {% highlight java %}
-797. CellRangeAddressList workR, sArea, workFormul;
-820.           workR.addCellRangeAddress(yyy, yyy, 0, 0);
-823.     if (workR != null && workR.countRanges() > 0){
-825.         CellRangeAddress cellReff = workR.getCellRangeAddress(0);
-832.         cellReff = workR.getCellRangeAddress(workR.countRanges()-1);
-{% endhighlight %}
-
-***
-
-### [Cluster 3](./3)
-{% highlight java %}
-841. CellRangeAddressList areas =  ExcelUtils.getEntireRow(workR);
-842. for(int iArea=0; iArea < areas.countRanges(); iArea++)
-843.   ExcelUtils.paste(sh, areas.getCellRangeAddress(iArea), buff, ExcelUtils.xlFormats);
-855.             areas.getCellRangeAddress(0));
-863.   for(int iArea=0; iArea < areas.countRanges(); iArea++){
-865.         areas.getCellRangeAddress(iArea));
-872.     for(int iArea=0; iArea < areas.countRanges(); iArea++){
-878.               areas.getCellRangeAddress(iArea));
+482. CellRangeAddressList rangeList = new CellRangeAddressList();
+550. return rangeList.countRanges() > 0?rangeList:null;
 {% endhighlight %}
 
 ***

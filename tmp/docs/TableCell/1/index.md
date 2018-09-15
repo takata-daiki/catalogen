@@ -4,8 +4,8 @@
 
 ### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
 {% highlight java %}
-209.     int currentEdgeIndex, TableCell tableCell )
-213. int cellRightEdge = tableCell.getLeftEdge() + tableCell.getWidth();
+224.     int currentColumnIndex, TableCell tableCell )
+226. if ( !tableCell.isFirstVerticallyMerged() )
 {% endhighlight %}
 
 ***

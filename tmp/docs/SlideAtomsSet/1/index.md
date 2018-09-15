@@ -2,18 +2,10 @@
 
 ***
 
-### [SlideShow.java](https://searchcode.com/codesearch/view/97394959/)
+### [Slide.java](https://searchcode.com/codesearch/view/97394313/)
 {% highlight java %}
-306. SlideAtomsSet sas = masterSets[i];
-307. int sheetNo = sas.getSlidePersistAtom().getSlideIdentifier();
-{% endhighlight %}
-
-***
-
-### [SlideShow.java](https://searchcode.com/codesearch/view/97394959/)
-{% highlight java %}
-403. SlideAtomsSet sas = slidesSets[i];
-404. int slideIdentifier = sas.getSlidePersistAtom().getSlideIdentifier();
+55. private SlideAtomsSet _atomSet;
+83.     findTextRuns(_atomSet.getSlideRecords(),textRuns);
 {% endhighlight %}
 
 ***

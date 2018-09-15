@@ -2,21 +2,27 @@
 
 ***
 
-### [ImageToExcel.java](https://searchcode.com/codesearch/view/94171992/)
+### [ExcelUtil.java](https://searchcode.com/codesearch/view/73315299/)
 {% highlight java %}
-23. private HSSFPatriarch patriarch = null;
-51.     patriarch.createPicture(anchor, wb.addPicture(byteArrayOut.toByteArray(), HSSFWorkbook.PICTURE_TYPE_JPEG));
+112. HSSFPatriarch patriarch = sheet.createDrawingPatriarch();
+114. HSSFComment comment = patriarch.createComment(new HSSFClientAnchor(0, 0, 0, 0, (short) 4, 2, (short) 6, 5));
 {% endhighlight %}
 
 ***
 
-### [EscherAggregate.java](https://searchcode.com/codesearch/view/15642409/)
+### [ExcelUtil.java](https://searchcode.com/codesearch/view/73315299/)
 {% highlight java %}
-713. private void convertPatriarch( HSSFPatriarch patriarch )
-735.     spgr.setRectX1( patriarch.getX1() );
-736.     spgr.setRectY1( patriarch.getY1() );
-737.     spgr.setRectX2( patriarch.getX2() );
-738.     spgr.setRectY2( patriarch.getY2() );
+265. HSSFPatriarch patriarch = sheet.createDrawingPatriarch();
+267. HSSFComment comment = patriarch.createComment(new HSSFClientAnchor(0, 0, 0, 0, (short) 4, 2, (short) 6, 5));
+328.         patriarch.createPicture(anchor, workbook.addPicture(bsValue, HSSFWorkbook.PICTURE_TYPE_JPEG));
+{% endhighlight %}
+
+***
+
+### [Export.java](https://searchcode.com/codesearch/view/558689/)
+{% highlight java %}
+252. HSSFPatriarch patr = ((HSSFSheet) sheet).createDrawingPatriarch();
+266.         Comment comment = patr.createComment(new HSSFClientAnchor(0, 0, 0, 0, (short) 4, 2, (short) 8, 10));
 {% endhighlight %}
 
 ***

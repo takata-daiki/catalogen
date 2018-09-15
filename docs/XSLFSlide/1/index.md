@@ -2,11 +2,11 @@
 
 ***
 
-### [XSLFPowerPointExtractorDecorator.java](https://searchcode.com/codesearch/view/111785576/)
+### [PowerPointOOXMLDocument.java](https://searchcode.com/codesearch/view/126168430/)
 {% highlight java %}
-58. for (XSLFSlide slide : slides) {
-59.     CTSlide rawSlide = slide._getCTSlide();
-60.     CTSlideIdListEntry slideId = slide._getCTSlideId();
+106. for (final XSLFSlide slide : slides) {
+107.   final CTSlide rawSlide = slide._getCTSlide();
+108.   final CTSlideIdListEntry slideId = slide._getCTSlideId();
 {% endhighlight %}
 
 ***

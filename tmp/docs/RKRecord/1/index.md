@@ -2,6 +2,14 @@
 
 ***
 
+### [ExcelExtractor.java](https://searchcode.com/codesearch/view/111785559/)
+{% highlight java %}
+384. RKRecord rk = (RKRecord) record;
+385. addCell(record, new NumberCell(rk.getRKNumber(), format));
+{% endhighlight %}
+
+***
+
 ### [HxlsAbstract.java](https://searchcode.com/codesearch/view/68613461/)
 {% highlight java %}
 245. RKRecord rkrec = (RKRecord) record;

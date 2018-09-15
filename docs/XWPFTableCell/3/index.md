@@ -2,26 +2,29 @@
 
 ***
 
-### [XWPFDocumentVisitor.java](https://searchcode.com/codesearch/view/96672565/)
+### [XWPFTableUtil.java](https://searchcode.com/codesearch/view/12208688/)
 {% highlight java %}
-963. private int getCellIndex( int cellIndex, XWPFTableCell cell )
-965.     BigInteger gridSpan = stylesDocument.getTableCellGridSpan( cell.getCTTc().getTcPr() );
+157. public static CTDecimalNumber getGridSpan( XWPFTableCell cell )
+159.     if ( cell.getCTTc().getTcPr() != null )
+160.         return cell.getCTTc().getTcPr().getGridSpan();
 {% endhighlight %}
 
 ***
 
-### [XWPFDocumentVisitor.java](https://searchcode.com/codesearch/view/96672565/)
+### [XWPFTableUtil.java](https://searchcode.com/codesearch/view/96672636/)
 {% highlight java %}
-1001. private List<XWPFTableCell> getVMergedCells( XWPFTableCell cell, int rowIndex, int cellIndex )
-1017.             XWPFTable table = cell.getTableRow().getTable();
+223. public static CTDecimalNumber getGridSpan( XWPFTableCell cell )
+225.     if ( cell.getCTTc().getTcPr() != null )
+226.         return cell.getCTTc().getTcPr().getGridSpan();
 {% endhighlight %}
 
 ***
 
-### [TableInfo.java](https://searchcode.com/codesearch/view/96672683/)
+### [XWPFTableUtil.java](https://searchcode.com/codesearch/view/96673299/)
 {% highlight java %}
-143. private int getCellIndex( int cellIndex, XWPFTableCell cell )
-145.     BigInteger gridSpan = stylesDocument.getTableCellGridSpan( cell.getCTTc().getTcPr() );
+160. public static CTDecimalNumber getGridSpan( XWPFTableCell cell )
+162.     if ( cell.getCTTc().getTcPr() != null )
+163.         return cell.getCTTc().getTcPr().getGridSpan();
 {% endhighlight %}
 
 ***

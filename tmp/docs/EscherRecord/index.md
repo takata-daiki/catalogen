@@ -2,67 +2,42 @@
 
 ***
 
-### [Cluster 1](./1)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
 {% highlight java %}
-65. EscherRecord child = recordFactory.createRecord( data, offset );
-66. int childBytesWritten = child.fillFields( data, offset, recordFactory );
+247. EscherRecord rec = _childRecords.get(i);
+248. if(rec.getRecordId() == insertBeforeRecordId){
 {% endhighlight %}
 
 ***
 
-### [Cluster 2](./2)
+## [Cluster 2](./2)
+1 results
+> code comments is here.
 {% highlight java %}
-560. EscherRecord escherRecord = _blipRecords.get( 0 );
-561. switch ( escherRecord.getRecordId() )
+361. EscherRecord rec = it.next();
+362. if (rec.getRecordId() == EscherContainerRecord.SP_CONTAINER) {
 {% endhighlight %}
 
 ***
 
-### [Cluster 3](./3)
+## [Cluster 3](./3)
+2 results
+> code comments is here.
 {% highlight java %}
-98. EscherRecord escherRecord = null;
-107. escherRecord.setRecordId(recordId);
-108. escherRecord.setOptions(options);
+218. EscherRecord rec = it.next();
+219. if (rec.getRecordId() == EscherContainerRecord.SPGR_CONTAINER) {
 {% endhighlight %}
 
 ***
 
-### [Cluster 4](./4)
-{% highlight java %}
-324. EscherRecord r = iterator.next();
-328. } else if (r.getRecordId() == recordId){
-{% endhighlight %}
-
-***
-
-### [Cluster 5](./5)
-{% highlight java %}
-129. for (EscherRecord record : _childRecords) {
-130.     children.append( record.toString() );
-{% endhighlight %}
-
-***
-
-### [Cluster 6](./6)
-{% highlight java %}
-86. for (EscherRecord r : _childRecords) {
-87.     remainingBytes += r.getRecordSize();
-{% endhighlight %}
-
-***
-
-### [Cluster 7](./7)
+## [Cluster 4](./4)
+16 results
+> code comments is here.
 {% highlight java %}
 529. for(EscherRecord escherRecord : records) {
 574.    findPictures(escherRecord.getChildRecords());
-{% endhighlight %}
-
-***
-
-### [Cluster 8](./8)
-{% highlight java %}
-236. EscherRecord escherRecord = iterator.next();
-237. escherRecord.display(w, indent + 1);
 {% endhighlight %}
 
 ***

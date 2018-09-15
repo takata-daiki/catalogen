@@ -2,29 +2,40 @@
 
 ***
 
-### [Cluster 1](./1)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
 {% highlight java %}
-345. HSSFPrintSetup ps = sheet.getPrintSetup();
-346. ps.setFitWidth((short)1);
-347. ps.setNoColor(true);
-348. ps.setPaperSize(HSSFPrintSetup.A4_PAPERSIZE);
-349. ps.setLandscape(false);
+244. HSSFPrintSetup ps = sheet.getPrintSetup();
+245. ps.setFitWidth((short)1);
+246. ps.setFitHeight((short)9999);
+249. ps.setPaperSize(HSSFPrintSetup.LETTER_PAPERSIZE);
+250. if(colCount > 5){ps.setLandscape(true);}
+251. if(colCount > 10){ps.setPaperSize(HSSFPrintSetup.LEGAL_PAPERSIZE);}
+252. if(colCount > 14){ps.setPaperSize(HSSFPrintSetup.EXECUTIVE_PAPERSIZE);}
+254. ps.setHeaderMargin((double) .35);
+255. ps.setFooterMargin((double) .35);
 {% endhighlight %}
 
 ***
 
-### [Cluster 2](./2)
+## [Cluster 2](./2)
+1 results
+> code comments is here.
 {% highlight java %}
-1524. HSSFPrintSetup ps = sh.getPrintSetup();
-1525. float[]sizePage = ExcelUtils.PrintPagesFormat.get(ps.getPaperSize());
-1528. if (ps.getLandscape()) baseSizePage = sizePage[0];
-1530. float scale = ps.getScale() / 100;
-1531. double len = baseSizePage -(((ps.getFooterMargin()+ps.getHeaderMargin())*ExcelUtils.Factotr_MM_Inches)+50);
+284. final HSSFPrintSetup printSetup = sheet.getPrintSetup ();
+285. printSetup.setLandscape ( true );
+286. printSetup.setFitWidth ( (short)1 );
+287. printSetup.setFitHeight ( (short)0 );
+288. printSetup.setPaperSize ( PrintSetup.A4_PAPERSIZE );
+295. printSetup.setFooterMargin ( 0.25 );
 {% endhighlight %}
 
 ***
 
-### [Cluster 3](./3)
+## [Cluster 3](./3)
+6 results
+> code comments is here.
 {% highlight java %}
 79. HSSFPrintSetup printSetup = sheet0.getPrintSetup();
 80. assertEquals( HSSFPrintSetup.A4_PAPERSIZE,  printSetup.getPaperSize() );

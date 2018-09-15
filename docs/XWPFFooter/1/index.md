@@ -2,18 +2,10 @@
 
 ***
 
-### [XWPFDocumentVisitor.java](https://searchcode.com/codesearch/view/96672565/)
+### [PDFMapper.java](https://searchcode.com/codesearch/view/12208685/)
 {% highlight java %}
-135. private XWPFFooter currentFooter;
-1348.         return currentFooter.getPictureDataByID( blipId );
-{% endhighlight %}
-
-***
-
-### [XWPFDocumentVisitor.java](https://searchcode.com/codesearch/view/96673228/)
-{% highlight java %}
-48. private XWPFFooter currentFooter;
-239.         return currentFooter.getPictureDataByID( blipId );
+207. XWPFFooter hdr = getXWPFFooter( footerRef );
+208. visitBodyElements( hdr.getBodyElements(), (ExtendedPdfPCell) pdfFooter.getTableCell() );
 {% endhighlight %}
 
 ***

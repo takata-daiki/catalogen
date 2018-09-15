@@ -2,16 +2,29 @@
 
 ***
 
-### [Cluster 1](./1)
+## [Cluster 1](./1)
+4 results
+> code comments is here.
 {% highlight java %}
-114. final EscherSimpleProperty escherSimpleProperty = (EscherSimpleProperty) o;
-116. if ( propertyValue != escherSimpleProperty.propertyValue ) return false;
-117. if ( getId() != escherSimpleProperty.getId() ) return false;
+167. EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.LINESTYLE__LINEDASHING);
+168. return prop == null ? Line.PEN_SOLID : prop.getPropertyValue();
 {% endhighlight %}
 
 ***
 
-### [Cluster 2](./2)
+## [Cluster 2](./2)
+3 results
+> code comments is here.
+{% highlight java %}
+326. EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, propId);
+327. return prop == null ? 0 : prop.getPropertyValue();
+{% endhighlight %}
+
+***
+
+## [Cluster 3](./3)
+1 results
+> code comments is here.
 {% highlight java %}
 152. EscherSimpleProperty p = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.LINESTYLE__NOLINEDRAWDASH);
 153. if(p != null && (p.getPropertyValue() & 0x8) == 0) return null;
@@ -19,18 +32,13 @@
 
 ***
 
-### [Cluster 3](./3)
+## [Cluster 4](./4)
+2 results
+> code comments is here.
 {% highlight java %}
-116. EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.LINESTYLE__LINEWIDTH);
-117. double width = prop == null ? DEFAULT_LINE_WIDTH : (double)prop.getPropertyValue()/EMU_PER_POINT;
-{% endhighlight %}
-
-***
-
-### [Cluster 4](./4)
-{% highlight java %}
-290. EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.TEXT__ANCHORTEXT);
-315.     valign = prop.getPropertyValue();
+114. final EscherSimpleProperty escherSimpleProperty = (EscherSimpleProperty) o;
+116. if ( propertyValue != escherSimpleProperty.propertyValue ) return false;
+117. if ( getId() != escherSimpleProperty.getId() ) return false;
 {% endhighlight %}
 
 ***

@@ -20,12 +20,36 @@
 
 ***
 
+### [HSSFObjectData.java](https://searchcode.com/codesearch/view/15642306/)
+{% highlight java %}
+62. private ObjRecord record;
+89.     Iterator subRecordIter = record.getSubRecords().iterator();
+{% endhighlight %}
+
+***
+
+### [ObjRecord.java](https://searchcode.com/codesearch/view/15642527/)
+{% highlight java %}
+210. ObjRecord rec = new ObjRecord();
+213.     rec.addSubRecord(( (Record) iterator.next() ).clone());
+{% endhighlight %}
+
+***
+
 ### [EscherAggregate.java](https://searchcode.com/codesearch/view/15642409/)
 {% highlight java %}
 681. ObjRecord obj = new ObjRecord();
 691. obj.addSubRecord( cmo );
 692. obj.addSubRecord( gmo );
 693. obj.addSubRecord( end );
+{% endhighlight %}
+
+***
+
+### [HSSFCell.java](https://searchcode.com/codesearch/view/15642303/)
+{% highlight java %}
+1041. ObjRecord obj = (ObjRecord)rec;
+1042. SubRecord sub = (SubRecord)obj.getSubRecords().get(0);
 {% endhighlight %}
 
 ***

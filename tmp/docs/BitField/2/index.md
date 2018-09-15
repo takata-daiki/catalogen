@@ -2,18 +2,11 @@
 
 ***
 
-### [FormulaRecord.java](https://searchcode.com/codesearch/view/15642396/)
+### [DOPAbstractType.java](https://searchcode.com/codesearch/view/88635700/)
 {% highlight java %}
-79. private BitField          alwaysCalc = BitFieldFactory.getInstance(0x0001);
-514.         buffer.append("      .alwaysCalc         = ").append(alwaysCalc.isSet(getOptions()))
-{% endhighlight %}
-
-***
-
-### [FormulaRecord.java](https://searchcode.com/codesearch/view/15642396/)
-{% highlight java %}
-80. private BitField          calcOnLoad = BitFieldFactory.getInstance(0x0002);
-516.         buffer.append("      .calcOnLoad         = ").append(calcOnLoad.isSet(getOptions()))
+40. /**/private static BitField grfSupression = new BitField(0x18);
+1540.     field_1_formatFlags = (byte)grfSupression.setValue(field_1_formatFlags, value);
+1550.     return ( byte )grfSupression.getValue(field_1_formatFlags);
 {% endhighlight %}
 
 ***

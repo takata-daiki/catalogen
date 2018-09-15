@@ -5,7 +5,7 @@ import os
 
 import pandas as pd
 
-df = pd.read_csv('cluster_v4.csv').set_index(['directory', 'filename'])
+df = pd.read_csv('cluster_v5.csv').set_index(['directory', 'filename'])
 
 
 def homepage():
@@ -32,7 +32,7 @@ def represent():
     os.chdir('../')
 
     for name in li:
-        arr = []
+        rep_cluster_arr = []
         try:
             os.chdir('CodeExampleJson/{}/'.format(name))
         except FileNotFoundError:
@@ -48,18 +48,23 @@ def represent():
 
         for i in range(1, sz + 1):
             try:
-                x = [s[:-5] for s in sample if i == int(df.at[(name, '{}.txt'.format(s[:-5])), 'cluster'])][0]
+                tmp = [s[:-5] for s in sample if i == int(df.at[(name, '{}.txt'.format(s[:-5])), 'cluster'])]
+                x = tmp[0]
+                y = len(tmp)
             except KeyError:
                 x = sample[0][:-5]
-            arr.append(x)
+                y = 1
+            rep_cluster_arr.append({'id': x, 'num': y})
 
         text = '# {}\n\n***\n\n'.format(name)
-        for i, x in enumerate(arr):
-            with open('CodeExampleJson/{}/{}.json'.format(name, x), 'r') as f:
+        for i, dic in enumerate(rep_cluster_arr):
+            with open('CodeExampleJson/{}/{}.json'.format(name, dic['id']), 'r') as f:
                 data = json.load(f)
                 if not data['lines']:
                     continue
-                text += '### [Cluster {}](./{})\n'.format(i + 1, i + 1)
+                text += '## [Cluster {}](./{})\n'.format(i + 1, i + 1)
+                text += '{} results\n'.format(dic['num'])
+                text += '> code comments is here.\n'  # add comments
                 text += '{% highlight java %}\n'
                 for j, line in data['lines'].items():
                     text += '{0}. {1}\n'.format(j, line.split('\n')[0])

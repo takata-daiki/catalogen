@@ -2,13 +2,11 @@
 
 ***
 
-### [HSSFPicture.java](https://searchcode.com/codesearch/view/15642330/)
+### [ExcelPublicUtil.java](https://searchcode.com/codesearch/view/93182055/)
 {% highlight java %}
-125. HSSFClientAnchor anchor = new HSSFClientAnchor();
-161.             anchor.setCol2((short)col2);
-162.             anchor.setDx2(dx2);
-164.             anchor.setRow2(row2);
-165.             anchor.setDy2(dy2);
+235. HSSFClientAnchor anchor = (HSSFClientAnchor) shape.getAnchor();  
+240.     String picIndex = String.valueOf(anchor.getRow1()) + "_"  
+241.             + String.valueOf(anchor.getCol1());  
 {% endhighlight %}
 
 ***

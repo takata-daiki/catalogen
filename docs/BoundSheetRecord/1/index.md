@@ -2,18 +2,16 @@
 
 ***
 
-### [ExcelKeywordParser.java](https://searchcode.com/codesearch/view/12440040/)
+### [Workbook.java](https://searchcode.com/codesearch/view/15642358/)
 {% highlight java %}
-117. final BoundSheetRecord bsr = (BoundSheetRecord) record;
-120.     logger.debug("processing sheet: "+ bsr.getSheetname());
-{% endhighlight %}
-
-***
-
-### [ExcelLanguageCentricParser.java](https://searchcode.com/codesearch/view/12440043/)
-{% highlight java %}
-115. final BoundSheetRecord bsr = (BoundSheetRecord) record;
-118.     logger.debug("processing sheet: "+ bsr.getSheetname());
+1720. BoundSheetRecord retval = new BoundSheetRecord();
+1725.         retval.setPositionOfBof(0x0);   // should be set later
+1726.         retval.setOptionFlags(( short ) 0);
+1727.         retval.setSheetnameLength(( byte ) 0x6);
+1728.         retval.setCompressedUnicodeFlag(( byte ) 0);
+1729.         retval.setSheetname("Sheet1");
+1737.         retval.setSheetname("Sheet2");
+1745.         retval.setSheetname("Sheet3");
 {% endhighlight %}
 
 ***

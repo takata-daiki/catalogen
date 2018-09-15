@@ -2,16 +2,9 @@
 
 ***
 
-### [Cluster 1](./1)
-{% highlight java %}
-131. HSSFPicture shape = new HSSFPicture(this, anchor);
-132. shape.anchor = anchor;
-133. shape.setPictureIndex( pictureIndex );
-{% endhighlight %}
-
-***
-
-### [Cluster 2](./2)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
 {% highlight java %}
 237. HSSFPicture pic = (HSSFPicture) shape;  
 238. int pictureIndex = pic.getPictureIndex() - 1;  

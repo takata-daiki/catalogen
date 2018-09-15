@@ -2,7 +2,9 @@
 
 ***
 
-### [Cluster 1](./1)
+## [Cluster 1](./1)
+2 results
+> code comments is here.
 {% highlight java %}
 405. BlankRecord br = new BlankRecord();
 407. br.setColumn(( short ) (k + mb.getFirstColumn()));
@@ -12,12 +14,13 @@
 
 ***
 
-### [Cluster 2](./2)
+## [Cluster 2](./2)
+1 results
+> code comments is here.
 {% highlight java %}
-432. BlankRecord brec = null;
-442. brec.setColumn(col);
-445. brec.setXFIndex(styleIndex);
-446. brec.setRow(row);
+155. BlankRecord brec = (BlankRecord) record;
+157. thisRow = brec.getRow();
+158. thisColumn = brec.getColumn();
 {% endhighlight %}
 
 ***

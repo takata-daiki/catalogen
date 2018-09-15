@@ -2,19 +2,14 @@
 
 ***
 
-### [HxlsAbstract.java](https://searchcode.com/codesearch/view/68613461/)
+### [BoolErrRecord.java](https://searchcode.com/codesearch/view/15642458/)
 {% highlight java %}
-162. BoolErrRecord berec = (BoolErrRecord) record;
-164. thisRow = berec.getRow();
-165. thisColumn = berec.getColumn();
-{% endhighlight %}
-
-***
-
-### [HSSFCell.java](https://searchcode.com/codesearch/view/15642303/)
-{% highlight java %}
-272. BoolErrRecord boolErrRecord = ( BoolErrRecord ) record;
-274. retval = (boolErrRecord.isBoolean())
+398. BoolErrRecord rec = new BoolErrRecord();
+399. rec.field_1_row = field_1_row;
+400. rec.field_2_column = field_2_column;
+401. rec.field_3_xf_index = field_3_xf_index;
+402. rec.field_4_bBoolErr = field_4_bBoolErr;
+403. rec.field_5_fError = field_5_fError;
 {% endhighlight %}
 
 ***

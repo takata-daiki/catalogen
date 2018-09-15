@@ -11,6 +11,14 @@
 
 ***
 
+### [CellRenderer.java](https://searchcode.com/codesearch/view/121321564/)
+{% highlight java %}
+209. XSSFFont xssfFont = (XSSFFont) f;
+210. label.setForeground(awtColor(xssfFont.getXSSFColor(), java.awt.Color.BLACK));
+{% endhighlight %}
+
+***
+
 ### [StyleManagerXUtils.java](https://searchcode.com/codesearch/view/122565145/)
 {% highlight java %}
 180. XSSFFont xFont = (XSSFFont)font;

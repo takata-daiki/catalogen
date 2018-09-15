@@ -47,11 +47,3 @@
 
 ***
 
-### [EntryUtils.java](https://searchcode.com/codesearch/view/97383212/)
-{% highlight java %}
-55. DocumentInputStream dstream = new DocumentInputStream( dentry );
-57. dstream.close();
-{% endhighlight %}
-
-***
-

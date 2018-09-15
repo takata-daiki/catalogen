@@ -2,10 +2,10 @@
 
 ***
 
-### [TestVisioExtractor.java](https://searchcode.com/codesearch/view/88636800/)
+### [OfficeParser.java](https://searchcode.com/codesearch/view/111785560/)
 {% highlight java %}
-98. VisioTextExtractor ex = new VisioTextExtractor(_dgTests.openResourceAsStream(file));
-99. ex.getText();
+199. VisioTextExtractor visioTextExtractor =
+201. for (String text : visioTextExtractor.getAllText()) {
 {% endhighlight %}
 
 ***

@@ -2,12 +2,20 @@
 
 ***
 
-### [FieldsTables.java](https://searchcode.com/codesearch/view/88635600/)
+### [Word6CHPBinTable.java](https://searchcode.com/codesearch/view/48925102/)
 {% highlight java %}
-79. private static ArrayList<PlexOfField> toArrayList( PlexOfCps plexOfCps )
-85.             plexOfCps.length() );
-86.     for ( int i = 0; i < plexOfCps.length(); i++ )
-88.         GenericPropertyNode propNode = plexOfCps.getProperty( i );
+50. PlexOfCps binTable = new PlexOfCps(documentStream, offset, size, 2);
+52. int length = binTable.length();
+55.   GenericPropertyNode node = binTable.getProperty(x);
+{% endhighlight %}
+
+***
+
+### [Word6CHPBinTable.java](https://searchcode.com/codesearch/view/138792454/)
+{% highlight java %}
+50. PlexOfCps binTable = new PlexOfCps(documentStream, offset, size, 2);
+52. int length = binTable.length();
+55.   GenericPropertyNode node = binTable.getProperty(x);
 {% endhighlight %}
 
 ***

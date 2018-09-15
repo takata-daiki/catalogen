@@ -2,6 +2,14 @@
 
 ***
 
+### [AbstractShape.java](https://searchcode.com/codesearch/view/15642354/)
+{% highlight java %}
+76. HSSFSimpleShape simpleShape = (HSSFSimpleShape) hssfShape;
+77. switch ( simpleShape.getShapeType() )
+{% endhighlight %}
+
+***
+
 ### [EscherGraphics.java](https://searchcode.com/codesearch/view/15642323/)
 {% highlight java %}
 235. HSSFSimpleShape shape = escherGroup.createShape(new HSSFChildAnchor(x1, y1, x2, y2) );

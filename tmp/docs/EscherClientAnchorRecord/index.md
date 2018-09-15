@@ -2,18 +2,22 @@
 
 ***
 
-### [Cluster 1](./1)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
 {% highlight java %}
-184. EscherClientAnchorRecord clrec = (EscherClientAnchorRecord)getEscherChild(_escherContainer, EscherClientAnchorRecord.RECORD_ID);
-187.     (float)clrec.getCol1()*POINT_DPI/MASTER_DPI,
-188.     (float)clrec.getFlag()*POINT_DPI/MASTER_DPI,
-189.     (float)(clrec.getDx1()-clrec.getCol1())*POINT_DPI/MASTER_DPI,
-190.     (float)(clrec.getRow1()-clrec.getFlag())*POINT_DPI/MASTER_DPI
+235. EscherClientAnchorRecord rec = (EscherClientAnchorRecord)getEscherChild(_escherContainer, EscherClientAnchorRecord.RECORD_ID);
+236. rec.setFlag((short)(anchor.getY()*MASTER_DPI/POINT_DPI));
+237. rec.setCol1((short)(anchor.getX()*MASTER_DPI/POINT_DPI));
+238. rec.setDx1((short)(((anchor.getWidth() + anchor.getX())*MASTER_DPI/POINT_DPI)));
+239. rec.setRow1((short)(((anchor.getHeight() + anchor.getY())*MASTER_DPI/POINT_DPI)));
 {% endhighlight %}
 
 ***
 
-### [Cluster 2](./2)
+## [Cluster 2](./2)
+1 results
+> code comments is here.
 {% highlight java %}
 61. EscherClientAnchorRecord anchor = new EscherClientAnchorRecord();
 62. anchor.setRecordId( EscherClientAnchorRecord.RECORD_ID );
@@ -27,6 +31,19 @@
 71. anchor.setDx2( (short) a.getDx2() );
 72. anchor.setRow2( (short) Math.max(a.getRow1(), a.getRow2()) );
 73. anchor.setDy2( (short) a.getDy2() );
+{% endhighlight %}
+
+***
+
+## [Cluster 3](./3)
+1 results
+> code comments is here.
+{% highlight java %}
+184. EscherClientAnchorRecord clrec = (EscherClientAnchorRecord)getEscherChild(_escherContainer, EscherClientAnchorRecord.RECORD_ID);
+187.     (float)clrec.getCol1()*POINT_DPI/MASTER_DPI,
+188.     (float)clrec.getFlag()*POINT_DPI/MASTER_DPI,
+189.     (float)(clrec.getDx1()-clrec.getCol1())*POINT_DPI/MASTER_DPI,
+190.     (float)(clrec.getRow1()-clrec.getFlag())*POINT_DPI/MASTER_DPI
 {% endhighlight %}
 
 ***

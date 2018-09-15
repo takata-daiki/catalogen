@@ -2,7 +2,30 @@
 
 ***
 
-### [Cluster 1](./1)
+## [Cluster 1](./1)
+2 results
+> code comments is here.
+{% highlight java %}
+76. HSSFRequest     req   = new HSSFRequest();
+78. req.addListenerForAllRecords(new HSSFListener()
+{% endhighlight %}
+
+***
+
+## [Cluster 2](./2)
+1 results
+> code comments is here.
+{% highlight java %}
+102. HSSFRequest request = new HSSFRequest();
+105.   request.addListenerForAllRecords(formatListener);
+109.   request.addListenerForAllRecords(workbookBuildingListener);
+{% endhighlight %}
+
+***
+
+## [Cluster 3](./3)
+1 results
+> code comments is here.
 {% highlight java %}
 252. HSSFRequest hssfRequest = new HSSFRequest();
 254.     hssfRequest.addListenerForAllRecords(formatListener);
@@ -27,7 +50,9 @@
 
 ***
 
-### [Cluster 2](./2)
+## [Cluster 4](./4)
+1 results
+> code comments is here.
 {% highlight java %}
 151. protected short genericProcessEvents(HSSFRequest req, RecordInputStream in)
 188.         userCode = req.processRecord(rec);

@@ -2,50 +2,43 @@
 
 ***
 
-### [NestedTables2ReportTest.java](https://searchcode.com/codesearch/view/122565043/)
+### [CellXSSFImpl.java](https://searchcode.com/codesearch/view/72854552/)
 {% highlight java %}
-79. XSSFColor bgColour = ((XSSFCell)sheet.getRow(0).getCell(0)).getCellStyle().getFillForegroundColorColor();
-80. assertEquals( "FF800000", bgColour.getARGBHex() );
+216. XSSFColor xssfColour = cellStyle.getFillForegroundXSSFColor();
+221. colour = translateRGB(xssfColour.getRgb());
 {% endhighlight %}
 
 ***
 
-### [NestedTables2ReportTest.java](https://searchcode.com/codesearch/view/122565043/)
+### [CellXSSFImpl.java](https://searchcode.com/codesearch/view/72854552/)
 {% highlight java %}
-81. XSSFColor baseColour = ((XSSFCell)sheet.getRow(0).getCell(0)).getCellStyle().getFont().getXSSFColor();
-82. assertEquals( "FF000000", baseColour.getARGBHex() );
+275. XSSFColor colour = theCell.getCellStyle().getFont().getXSSFColor();
+277.   foreground = translateRGB(colour.getRgb());
 {% endhighlight %}
 
 ***
 
-### [NestedTables2ReportTest.java](https://searchcode.com/codesearch/view/64531651/)
+### [CellRenderer.java](https://searchcode.com/codesearch/view/121321564/)
 {% highlight java %}
-89. XSSFColor bgColour = ((XSSFCell)sheet.getRow(0).getCell(0)).getCellStyle().getFillForegroundColorColor();
-90. assertEquals( "FF800000", bgColour.getARGBHex() );
+85. XSSFColor xssfColor = (XSSFColor) color;
+86. byte[] rgb = xssfColor.getRGB();
 {% endhighlight %}
 
 ***
 
-### [NestedTables2ReportTest.java](https://searchcode.com/codesearch/view/64531651/)
+### [CellRenderer.java](https://searchcode.com/codesearch/view/121321564/)
 {% highlight java %}
-91. XSSFColor baseColour = ((XSSFCell)sheet.getRow(0).getCell(0)).getCellStyle().getFont().getXSSFColor();
-92. assertEquals( "FF000000", baseColour.getARGBHex() );
+108. XSSFColor xssfColor = (XSSFColor) color;
+109. byte[] rgb = xssfColor.getARGB();
 {% endhighlight %}
 
 ***
 
-### [NestedTables2ReportTest.java](https://searchcode.com/codesearch/view/126772640/)
+### [Issue36XlsColours.java](https://searchcode.com/codesearch/view/64531463/)
 {% highlight java %}
-61. XSSFColor bgColour = ((XSSFCell)sheet.getRow(0).getCell(0)).getCellStyle().getFillForegroundColorColor();
-62. assertEquals( "FFFFFFFF", bgColour.getARGBHex() );
-{% endhighlight %}
-
-***
-
-### [NestedTables2ReportTest.java](https://searchcode.com/codesearch/view/126772640/)
-{% highlight java %}
-64. XSSFColor baseColour = ((XSSFCell)sheet.getRow(0).getCell(0)).getCellStyle().getFont().getXSSFColor();
-65. assertEquals( "FFFFFFFF", baseColour.getARGBHex() );
+148. XSSFColor colorX = styleX.getFillForegroundColorColor();
+153.   byte[] rgbX = colorX.getARgb();
+156.   System.out.println( "Comparing " + colorX.getARGBHex() + " with " + colorS.getHexString() );
 {% endhighlight %}
 
 ***

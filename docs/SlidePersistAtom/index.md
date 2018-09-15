@@ -2,7 +2,9 @@
 
 ***
 
-### [Cluster 1](./1)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
 {% highlight java %}
 693. SlidePersistAtom prev = null;
 705.     if (prev.getSlideIdentifier() < spa.getSlideIdentifier()) {
@@ -11,18 +13,17 @@
 
 ***
 
-### [Cluster 2](./2)
+## [Cluster 2](./2)
+1 results
+> code comments is here.
 {% highlight java %}
-235. SlidePersistAtom spa = sas.getSlidePersistAtom();
-236. int refID = spa.getRefID();
-{% endhighlight %}
-
-***
-
-### [Cluster 3](./3)
-{% highlight java %}
-353. SlidePersistAtom spa = notesSets[i].getSlidePersistAtom();
-354. Integer slideId = Integer.valueOf(spa.getSlideIdentifier());
+712. SlidePersistAtom sp = new SlidePersistAtom();
+715. sp.setSlideIdentifier(prev == null ? 256 : (prev.getSlideIdentifier() + 1));
+721. Slide slide = new Slide(sp.getSlideIdentifier(), sp.getRefID(), _slides.length + 1);
+730. logger.log(POILogger.INFO, "Added slide " + _slides.length + " with ref " + sp.getRefID()
+731.     + " and identifier " + sp.getSlideIdentifier());
+768. sp.setRefID(psrId);
+779. ptr.addSlideLookup(sp.getRefID(), slideOffset);
 {% endhighlight %}
 
 ***

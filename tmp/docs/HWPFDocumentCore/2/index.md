@@ -2,10 +2,11 @@
 
 ***
 
-### [HWPFLister.java](https://searchcode.com/codesearch/view/97384386/)
+### [Paragraph.java](https://searchcode.com/codesearch/view/97384407/)
 {% highlight java %}
-301. HWPFDocumentCore original )
-306. original.write( baos );
+101. HWPFDocumentCore doc = parent._doc;
+102. ListTables listTables = doc.getListTables();
+103. StyleSheet styleSheet = doc.getStyleSheet();
 {% endhighlight %}
 
 ***

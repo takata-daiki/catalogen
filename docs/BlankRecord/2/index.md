@@ -2,22 +2,11 @@
 
 ***
 
-### [BlankRecord.java](https://searchcode.com/codesearch/view/15642441/)
+### [HxlsAbstract.java](https://searchcode.com/codesearch/view/68613461/)
 {% highlight java %}
-324. BlankRecord rec = new BlankRecord();
-325. rec.field_1_row = field_1_row;
-326. rec.field_2_col = field_2_col;
-327. rec.field_3_xf = field_3_xf;
-{% endhighlight %}
-
-***
-
-### [HSSFCell.java](https://searchcode.com/codesearch/view/15642303/)
-{% highlight java %}
-432. BlankRecord brec = null;
-442. brec.setColumn(col);
-445. brec.setXFIndex(styleIndex);
-446. brec.setRow(row);
+155. BlankRecord brec = (BlankRecord) record;
+157. thisRow = brec.getRow();
+158. thisColumn = brec.getColumn();
 {% endhighlight %}
 
 ***

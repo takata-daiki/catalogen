@@ -2,24 +2,9 @@
 
 ***
 
-### [Cluster 1](./1)
-{% highlight java %}
-2439. PaneRecord pane = new PaneRecord();
-2440. pane.setX((short)colSplit);
-2441. pane.setY((short)rowSplit);
-2442. pane.setTopRow((short) topRow);
-2443. pane.setLeftColumn((short) leftmostColumn);
-2446.     pane.setTopRow((short)0);
-2447.     pane.setActivePane((short)1);
-2451.     pane.setLeftColumn((short)64);
-2452.     pane.setActivePane((short)2);
-2456.     pane.setActivePane((short)0);
-2464. sel.setPane((byte)pane.getActivePane());
-{% endhighlight %}
-
-***
-
-### [Cluster 2](./2)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
 {% highlight java %}
 170. PaneRecord rec = new PaneRecord();
 172. rec.field_1_x = field_1_x;

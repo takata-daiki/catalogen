@@ -2,18 +2,26 @@
 
 ***
 
-### [POIXMLDocument.java](https://searchcode.com/codesearch/view/97406028/)
+### [OPCPackage.java](https://searchcode.com/codesearch/view/97406292/)
 {% highlight java %}
-69. } catch (InvalidFormatException e) {
-70.     throw new IOException(e.toString());
+164. } catch (InvalidFormatException e) {
+169.       e.getMessage()
 {% endhighlight %}
 
 ***
 
-### [ZipContainerDetector.java](https://searchcode.com/codesearch/view/111785505/)
+### [OPCPackage.java](https://searchcode.com/codesearch/view/97406292/)
 {% highlight java %}
-86. } catch(InvalidFormatException e) {
-87.    throw new IOException("Office Open XML File detected, but corrupted - " + e.getMessage());
+992. } catch (InvalidFormatException e) {
+996.       + e.getMessage());
+{% endhighlight %}
+
+***
+
+### [OPCPackage.java](https://searchcode.com/codesearch/view/97406292/)
+{% highlight java %}
+1284. } catch (InvalidFormatException e) {
+1286.       + e.getMessage()
 {% endhighlight %}
 
 ***

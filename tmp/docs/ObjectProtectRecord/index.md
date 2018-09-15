@@ -2,19 +2,12 @@
 
 ***
 
-### [Cluster 1](./1)
+## [Cluster 1](./1)
+1 results
+> code comments is here.
 {% highlight java %}
-2553. ObjectProtectRecord retval = new ObjectProtectRecord();
-2555. retval.setProtect(false);
-{% endhighlight %}
-
-***
-
-### [Cluster 2](./2)
-{% highlight java %}
-118. protected ObjectProtectRecord        objprotect        =     null;
-2940.         objprotect.setProtect(false);
-2952.                          (objprotect != null && objprotect.getProtect()),
+147. ObjectProtectRecord rec = new ObjectProtectRecord();
+148. rec.field_1_protect = field_1_protect;
 {% endhighlight %}
 
 ***
