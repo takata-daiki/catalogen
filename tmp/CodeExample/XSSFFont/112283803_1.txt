@@ -7,4 +7,5 @@
     if(!font.getFontName().equals(XSSFFont.DEFAULT_FONT_NAME))
       element.addElement("font-family").addText(font.getFontName());
     if(font.getColor() != XSSFFont.DEFAULT_FONT_COLOR)
-      String colorString = getRGBString(font.getXSSFColor());
+{      String colorString = getRGBString(font.getXSSFColor());
+}

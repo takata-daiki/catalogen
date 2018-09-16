@@ -1,3 +1,4 @@
     private BitField          displayGridlines        = BitFieldFactory.getInstance(0x02);
-        field_1_options = displayGridlines.setShortBoolean(field_1_options, gridlines);
-        return displayGridlines.isSet(field_1_options);
+{        field_1_options = displayGridlines.setShortBoolean(field_1_options, gridlines);
+}{        return displayGridlines.isSet(field_1_options);
+}

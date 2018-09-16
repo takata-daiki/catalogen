@@ -1,4 +1,4 @@
     XSSFExcelExtractor ee = null;
-      ee.setFormulasNotResults(true);
+{      ee.setFormulasNotResults(true);
       ee.setIncludeSheetNames(false);
-    return ee.getText();
+}    return ee.getText();

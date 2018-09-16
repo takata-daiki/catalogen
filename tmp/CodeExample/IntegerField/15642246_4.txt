@@ -1,2 +1,3 @@
     private IntegerField        _seconds_1;
-        time         += (( long ) _seconds_1.get()) & 0x0000FFFFL;
+{        time         += (( long ) _seconds_1.get()) & 0x0000FFFFL;
+}

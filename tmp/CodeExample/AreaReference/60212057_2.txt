@@ -1,2 +1,3 @@
       AreaReference areaReferance = new AreaReference("A"+(wRow+1)+":A"+(ExcelUtils.getReferanceNameRange(nameDataRangeE).getFirstCell().getRow()));
       for(CellReference celRef:areaReferance.getAllReferencedCells()){
+}

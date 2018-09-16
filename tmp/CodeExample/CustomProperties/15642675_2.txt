@@ -1,5 +1,6 @@
     public void setCustomProperties(final CustomProperties customProperties)
-        final Map dictionary = customProperties.getDictionary();
+{        final Map dictionary = customProperties.getDictionary();
         int cpCodepage = customProperties.getCodepage();
         customProperties.setCodepage(cpCodepage);
         for (final Iterator i = customProperties.values().iterator(); i.hasNext();)
+}

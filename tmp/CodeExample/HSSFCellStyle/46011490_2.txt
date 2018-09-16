@@ -1,5 +1,5 @@
   protected HSSFCellStyle csHeader;
-    csHeader.setDataFormat(HSSFDataFormat.getBuiltinFormat("text"));
+{    csHeader.setDataFormat(HSSFDataFormat.getBuiltinFormat("text"));
     csHeader.setBorderBottom(HSSFCellStyle.BORDER_MEDIUM);
     csHeader.setBorderLeft(HSSFCellStyle.BORDER_MEDIUM);
     csHeader.setBorderRight(HSSFCellStyle.BORDER_MEDIUM);
@@ -7,3 +7,4 @@
     csHeader.setAlignment(HSSFCellStyle.ALIGN_CENTER);
     csHeader.setVerticalAlignment(HSSFCellStyle.VERTICAL_CENTER);
     csHeader.setFont(f);
+}

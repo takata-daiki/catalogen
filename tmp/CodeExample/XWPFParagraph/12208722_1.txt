@@ -1,5 +1,6 @@
     protected XHTMLPageContentBuffer startVisitPargraph( XWPFParagraph paragraph, XHTMLPageContentBuffer parentContainer )
-        if ( paragraph.getStyleID() != null )
-                LOGGER.fine( "StyleID " + paragraph.getStyleID() );
-            parentContainer.setAttribute( CLASS_ATTR, paragraph.getStyleID() );
-            XHTMLStyleUtil.getStyle( paragraph, super.getXWPFStyle( paragraph.getStyleID() ), defaults );
+{        if ( paragraph.getStyleID() != null )
+{{                LOGGER.fine( "StyleID " + paragraph.getStyleID() );
+}            parentContainer.setAttribute( CLASS_ATTR, paragraph.getStyleID() );
+}            XHTMLStyleUtil.getStyle( paragraph, super.getXWPFStyle( paragraph.getStyleID() ), defaults );
+}

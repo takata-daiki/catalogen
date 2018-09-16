@@ -1,2 +1,3 @@
     public static CTTblWidth getWidth( XWPFTableCell cell )
-        return cell.getCTTc().getTcPr().getTcW();
+{        return cell.getCTTc().getTcPr().getTcW();
+}

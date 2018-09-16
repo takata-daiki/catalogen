@@ -1,4 +1,5 @@
     XWPFRun r1 = p1.createRun();
-      r1.setText("png");
+{      r1.setText("png");
       r1.addBreak();
       r1.addPicture(new ByteArrayInputStream(bytes),
+}

@@ -1,5 +1,5 @@
   static void unCompressCHPOperation (CharacterProperties oldCHP,
-            newCHP = oldCHP.clone();
+{{            newCHP = oldCHP.clone();
         newCHP.setFBold (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFBold ()));
         newCHP.setFItalic (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFItalic ()));
         newCHP.setFStrike (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFStrike ()));
@@ -10,6 +10,7 @@
         newCHP.setFVanish (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFVanish ()));
         if (fAdjust && hpsPos != 128 && hpsPos != 0 && oldCHP.getHpsPos () == 0)
         if (fAdjust && hpsPos == 0 && oldCHP.getHpsPos () != 0)
-          if (oldCHP.getHpsPos () == 0)
-          if (oldCHP.getHpsPos () != 0)
-          oldCHP.isFNoProof()));
+{          if (oldCHP.getHpsPos () == 0)
+}{          if (oldCHP.getHpsPos () != 0)
+}          oldCHP.isFNoProof()));
+}}

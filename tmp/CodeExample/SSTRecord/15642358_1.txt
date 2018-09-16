@@ -1,5 +1,6 @@
     protected SSTRecord        sst         = null;
-      return sst.addString(string);
-        UnicodeString retval = sst.getString(str);
-                    record = sst.createExtSSTRecord(sstPos + offset);
-                    retval += sst.calcExtSSTRecordSize();
+{      return sst.addString(string);
+}{        UnicodeString retval = sst.getString(str);
+}{{{{                    record = sst.createExtSSTRecord(sstPos + offset);
+}}}}{{{                    retval += sst.calcExtSSTRecordSize();
+}}}

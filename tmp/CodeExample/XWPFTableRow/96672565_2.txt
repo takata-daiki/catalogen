@@ -1,5 +1,6 @@
     protected void visitTableRow( XWPFTableRow row, float[] colWidths, T tableContainer, boolean firstRow,
-        List<XWPFTableCell> cells = row.getTableCells();
-            CTRow ctRow = row.getCtRow();
-                    XWPFTableCell cell = row.getTableCell( tc );
-                        XWPFTableCell cell = new XWPFTableCell( ctTc, row, row.getTable().getBody() );
+{        List<XWPFTableCell> cells = row.getTableCells();
+{            CTRow ctRow = row.getCtRow();
+{{                    XWPFTableCell cell = row.getTableCell( tc );
+}{{                        XWPFTableCell cell = new XWPFTableCell( ctTc, row, row.getTable().getBody() );
+}}}}}

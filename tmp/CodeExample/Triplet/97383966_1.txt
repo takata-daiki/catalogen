@@ -1,6 +1,6 @@
         Triplet triplet = getCharacterRunTriplet( characterRun );
         if ( WordToHtmlUtils.isNotEmpty( triplet.fontName )
                 && !WordToHtmlUtils.equals( triplet.fontName,
-            style.append( "font-family:" + triplet.fontName + ";" );
-        if ( triplet.bold )
+{            style.append( "font-family:" + triplet.fontName + ";" );
+}        if ( triplet.bold )
         if ( triplet.italic )

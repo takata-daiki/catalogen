@@ -1,3 +1,4 @@
     protected Object startVisitParagraph( XWPFParagraph paragraph, ListItemContext itemContext, Object parentContainer )
-        AttributesImpl attributes = createClassAttribute( paragraph.getStyleID() );
+{        AttributesImpl attributes = createClassAttribute( paragraph.getStyleID() );
         CTPPr pPr = paragraph.getCTP().getPPr();
+}

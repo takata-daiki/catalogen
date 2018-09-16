@@ -1,6 +1,7 @@
     public void addRow(RowRecord row)
-        if (row.getRowNumber() >= d.getLastRow())
-            d.setLastRow(row.getRowNumber() + 1);
-        if (row.getRowNumber() < d.getFirstRow())
-            d.setFirstRow(row.getRowNumber());
-         RowRecord existingRow = rows.getRow(row.getRowNumber());
+{        if (row.getRowNumber() >= d.getLastRow())
+{            d.setLastRow(row.getRowNumber() + 1);
+}        if (row.getRowNumber() < d.getFirstRow())
+{            d.setFirstRow(row.getRowNumber());
+}         RowRecord existingRow = rows.getRow(row.getRowNumber());
+}

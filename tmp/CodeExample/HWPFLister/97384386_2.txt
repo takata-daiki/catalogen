@@ -1,11 +1,12 @@
         HWPFLister listerRebuilded = new HWPFLister( doc );
-            listerRebuilded.dumpChpx( outputChpxProperties, outputChpxSprms );
-            listerRebuilded.dumpPapx( outputPapxProperties, outputPapxSprms );
-            listerRebuilded.dumpParagraphs( true );
+{            listerRebuilded.dumpChpx( outputChpxProperties, outputChpxSprms );
+}{            listerRebuilded.dumpPapx( outputPapxProperties, outputPapxSprms );
+}{            listerRebuilded.dumpParagraphs( true );
             listerRebuilded.dumpParagraphsDom( outputParagraphsText );
-            listerRebuilded.dumpBookmarks();
-            listerRebuilded.dumpEscher();
-            listerRebuilded.dumpFields();
-            listerRebuilded.dumpOfficeDrawings();
-            listerRebuilded.dumpPictures();
-            listerRebuilded.dumpStyles();
+}{            listerRebuilded.dumpBookmarks();
+}{            listerRebuilded.dumpEscher();
+}{            listerRebuilded.dumpFields();
+}{            listerRebuilded.dumpOfficeDrawings();
+}{            listerRebuilded.dumpPictures();
+}{            listerRebuilded.dumpStyles();
+}

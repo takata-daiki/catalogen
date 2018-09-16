@@ -1,8 +1,9 @@
     protected IITextContainer startVisitPargraph( XWPFParagraph docxParagraph, IITextContainer parentContainer )
-        if ( docxParagraph.getText().startsWith( "Cette commande client est co" ) )
+{        if ( docxParagraph.getText().startsWith( "Cette commande client est co" ) )
         Borders borderTop = docxParagraph.getBorderTop();
         Borders borderBottom = docxParagraph.getBorderBottom();
         Borders borderLeft = docxParagraph.getBorderLeft();
         Borders borderRight = docxParagraph.getBorderRight();
         CTPPr ppr = docxParagraph.getCTP().getPPr();
-                    LineSpacingRule lineSpacingRule = docxParagraph.getSpacingLineRule();
+{{{                    LineSpacingRule lineSpacingRule = docxParagraph.getSpacingLineRule();
+}}}}

@@ -1,6 +1,7 @@
     private Font getFont(XSSFFont xssfFont) {
-            String name = xssfFont.getFontName();
+{            String name = xssfFont.getFontName();
             int size = xssfFont.getFontHeightInPoints();
             if (xssfFont.getBoldweight() == XSSFFont.BOLDWEIGHT_BOLD) {
                 if (xssfFont.getItalic()) {
-            else if (xssfFont.getItalic()) {
+}}            else if (xssfFont.getItalic()) {
+}}

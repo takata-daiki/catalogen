@@ -2,3 +2,4 @@
                 if(rel.getTargetMode() == TargetMode.INTERNAL) {
                    PackagePartName relName = PackagingURIHelper.createPartName(rel.getTargetURI());
                    parts.add( rel.getPackage().getPart(relName) );
+}

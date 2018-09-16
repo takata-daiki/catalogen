@@ -1,13 +1,14 @@
     protected ColumnInfoRecordsAggregate columns           =     null;
-                retval.columns.insertColumn(col);
-            int count=columns.getNumColumns();
-                ci = columns.getColInfo(k);
-          int count=columns.getNumColumns();
-            for ( Iterator iterator = columns.getIterator(); iterator.hasNext(); )
-        columns.setColumn( column, null, width, level, hidden, collapsed );
-        columns.setColumn( column, xfStyle, width, level, hidden, collapsed );
-        columns.groupColumnRange( fromColumn, toColumn, indent);
+{{{                retval.columns.insertColumn(col);
+}}}{{            int count=columns.getNumColumns();
+{                ci = columns.getColInfo(k);
+}}}{{          int count=columns.getNumColumns();
+}}{{            for ( Iterator iterator = columns.getIterator(); iterator.hasNext(); )
+}}{        columns.setColumn( column, null, width, level, hidden, collapsed );
+}{        columns.setColumn( column, xfStyle, width, level, hidden, collapsed );
+}{        columns.groupColumnRange( fromColumn, toColumn, indent);
         int count=columns.getNumColumns();
-            ColumnInfoRecord columnInfoRecord = columns.getColInfo(k);
-            columns.collapseColumn( columnNumber );
-            columns.expandColumn( columnNumber );
+{            ColumnInfoRecord columnInfoRecord = columns.getColInfo(k);
+}}{{            columns.collapseColumn( columnNumber );
+}{            columns.expandColumn( columnNumber );
+}}

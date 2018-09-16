@@ -1,6 +1,7 @@
             Property property = ( Property ) properties.next();
             String   name     = property.getName();
             if (property.isDirectory())
-                int      startBlock = property.getStartBlock();
-                    int           size     = property.getSize();
+{                int      startBlock = property.getStartBlock();
+{                    int           size     = property.getSize();
                     if (property.shouldUseSmallBlocks())
+}}

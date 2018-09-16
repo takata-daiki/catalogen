@@ -1,3 +1,4 @@
         HSSFDataFormatter formater = new HSSFDataFormatter();
-                                Format dataformat = formater.createFormat(zelle);
-                                        text = String.format(formatvorn + "s" + formathinten, formater.formatCellValue(zelle,evaluator));
+{{{{{                                Format dataformat = formater.createFormat(zelle);
+{                                        text = String.format(formatvorn + "s" + formathinten, formater.formatCellValue(zelle,evaluator));
+}}}}}}

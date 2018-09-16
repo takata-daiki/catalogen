@@ -1,3 +1,4 @@
               BOFRecord bof = (BOFRecord)rec;
               switch (bof.getType()) {
                    throw new RuntimeException("Unsupported model type "+bof.getType());
+}

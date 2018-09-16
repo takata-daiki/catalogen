@@ -1,3 +1,4 @@
         final XSSFReader xssfReader = xssfReaderFactory.create(stream);
-            XSSFReader.SheetIterator sheetsData = (XSSFReader.SheetIterator) xssfReader.getSheetsData();
+{            XSSFReader.SheetIterator sheetsData = (XSSFReader.SheetIterator) xssfReader.getSheetsData();
             processSheets(sheetsData, sheetProcessor, xssfReader.getSharedStringsTable());
+}

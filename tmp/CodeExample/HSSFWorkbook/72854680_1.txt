@@ -1,8 +1,9 @@
     private HSSFWorkbook hssfWorkbook;
-        hssfWorkbook.setSheetName(hssfWorkbook.getSheetIndex(sheet), name);
-        return hssfWorkbook.isSheetHidden(hssfWorkbook.getSheetIndex(sheet));
-        hssfWorkbook.setSheetHidden(hssfWorkbook.getSheetIndex(sheet), b);
-            hssfWorkbook.setSheetHidden(hssfWorkbook.getSheetIndex(sheet), 2);
-            hssfWorkbook.setSheetHidden(hssfWorkbook.getSheetIndex(sheet), false);
-    return hssfWorkbook.isSheetVeryHidden(hssfWorkbook.getSheetIndex(sheet));
-        return hssfWorkbook.getSheetName(hssfWorkbook.getSheetIndex(sheet));
+{        hssfWorkbook.setSheetName(hssfWorkbook.getSheetIndex(sheet), name);
+}{        return hssfWorkbook.isSheetHidden(hssfWorkbook.getSheetIndex(sheet));
+}{        hssfWorkbook.setSheetHidden(hssfWorkbook.getSheetIndex(sheet), b);
+}{{            hssfWorkbook.setSheetHidden(hssfWorkbook.getSheetIndex(sheet), 2);
+}{            hssfWorkbook.setSheetHidden(hssfWorkbook.getSheetIndex(sheet), false);
+}}{    return hssfWorkbook.isSheetVeryHidden(hssfWorkbook.getSheetIndex(sheet));
+}{        return hssfWorkbook.getSheetName(hssfWorkbook.getSheetIndex(sheet));
+}

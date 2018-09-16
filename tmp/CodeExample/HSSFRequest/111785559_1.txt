@@ -1,6 +1,6 @@
             HSSFRequest hssfRequest = new HSSFRequest();
-                hssfRequest.addListenerForAllRecords(formatListener);
-                hssfRequest.addListener(formatListener, BOFRecord.sid);
+{                hssfRequest.addListenerForAllRecords(formatListener);
+}{                hssfRequest.addListener(formatListener, BOFRecord.sid);
                 hssfRequest.addListener(formatListener, EOFRecord.sid);
                 hssfRequest.addListener(formatListener, DateWindow1904Record.sid);
                 hssfRequest.addListener(formatListener, CountryRecord.sid);
@@ -17,3 +17,4 @@
                 hssfRequest.addListener(formatListener, FormatRecord.sid);
                 hssfRequest.addListener(formatListener, ExtendedFormatRecord.sid);
                 hssfRequest.addListener(formatListener, DrawingGroupRecord.sid);
+}

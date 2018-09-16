@@ -1,4 +1,5 @@
     protected Triplet getCharacterRunTriplet( CharacterRun characterRun )
-        original.bold = characterRun.isBold();
+{        original.bold = characterRun.isBold();
         original.italic = characterRun.isItalic();
         original.fontName = characterRun.getFontName();
+}

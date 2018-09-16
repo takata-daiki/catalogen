@@ -1,2 +1,3 @@
     protected XWPFTableCell getParentTableCell( XWPFRun run )
-        return StylesHelper.getEmbeddedTableCell( run.getParagraph() );
+{        return StylesHelper.getEmbeddedTableCell( run.getParagraph() );
+}

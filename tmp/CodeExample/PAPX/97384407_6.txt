@@ -1,5 +1,6 @@
     Paragraph( PAPX papx, ParagraphProperties properties, Range parent )
-        super( Math.max( parent._start, papx.getStart() ), Math.min(
+{        super( Math.max( parent._start, papx.getStart() ), Math.min(
                 parent._end, papx.getEnd() ), parent );
         _papx = papx.getSprmBuf();
         _istd = papx.getIstd();
+}

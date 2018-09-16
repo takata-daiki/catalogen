@@ -1,3 +1,4 @@
     private static final BitField BITFIELD_OP = BitFieldFactory
-        return BITFIELD_OP.getValue( opcode );
-        return BITFIELD_OP.getValue( _value );
+{        return BITFIELD_OP.getValue( opcode );
+}{        return BITFIELD_OP.getValue( _value );
+}

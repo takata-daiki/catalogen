@@ -1,6 +1,7 @@
   private static org.docx4j.wml.P handleP(Paragraph p,
-    if (p.getStyleIndex() > 0) {
+{    if (p.getStyleIndex() > 0) {
       log.debug("Styled paragraph, with index: " + p.getStyleIndex());
           .getStyleDescription(p.getStyleIndex()).getName();
-    for (int z = 0; z < p.numCharacterRuns(); z++) {
+}    for (int z = 0; z < p.numCharacterRuns(); z++) {
       CharacterRun run = p.getCharacterRun(z);
+}}

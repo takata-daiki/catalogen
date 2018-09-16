@@ -1,3 +1,4 @@
     /**/private static BitField oldfSuppressSpbfAfterPageBreak = new BitField(0x0004);
-        field_8_docinfo3 = (short)oldfSuppressSpbfAfterPageBreak.setBoolean(field_8_docinfo3, value);
-        return oldfSuppressSpbfAfterPageBreak.isSet(field_8_docinfo3);
+{        field_8_docinfo3 = (short)oldfSuppressSpbfAfterPageBreak.setBoolean(field_8_docinfo3, value);
+}{        return oldfSuppressSpbfAfterPageBreak.isSet(field_8_docinfo3);
+}

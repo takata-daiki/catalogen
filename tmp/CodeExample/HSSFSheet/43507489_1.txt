@@ -2,4 +2,5 @@
     HSSFRow horzTitle = sheet.createRow(0);
     sheet.setColumnWidth(0, 8000);
     sheet.setColumnWidth(1, 10000);
-      HSSFRow row = sheet.createRow(i+1);
+{      HSSFRow row = sheet.createRow(i+1);
+}

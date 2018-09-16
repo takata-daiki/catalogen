@@ -1,3 +1,4 @@
         final XSSFSheet xssfSheet = workbook.createSheet("ExcelExport_" + sdf.format(new Date()));
         final XSSFRow xssfHeaderRow = xssfSheet.createRow(0);
-            final XSSFRow xssfRow = xssfSheet.createRow(rowNr);
+{            final XSSFRow xssfRow = xssfSheet.createRow(rowNr);
+}

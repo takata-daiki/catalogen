@@ -1,5 +1,6 @@
                       final XWPFRun run = new XWPFRun(ctp.addNewR(), paragraph);
-                                run.setText(lines[0], 0);
-                                    run.addBreak();
+{                                run.setText(lines[0], 0);
+{                                    run.addBreak();
                                     run.setText(lines[iLine]);
-                                run.setText(formattedValue, 0);
+}}{                                run.setText(formattedValue, 0);
+}

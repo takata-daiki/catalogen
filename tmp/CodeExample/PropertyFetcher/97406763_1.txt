@@ -1,4 +1,5 @@
     boolean fetchShapeProperty(PropertyFetcher visitor) {
         boolean ok = visitor.fetch(this);
-                    ok = visitor.fetch(masterShape);
-                        ok = visitor.fetch(masterShape);
+{{{                    ok = visitor.fetch(masterShape);
+}}{{{                        ok = visitor.fetch(masterShape);
+}}}}

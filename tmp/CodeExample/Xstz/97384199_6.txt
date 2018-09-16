@@ -1,5 +1,6 @@
     private Xstz _xstzTextDef;
-            offset += this._xstzTextDef.getSize();
-            size += _xstzTextDef.getSize();
-        return _xstzTextDef.getAsJavaString();
-            offset += _xstzTextDef.serialize( buffer, offset );
+{{            offset += this._xstzTextDef.getSize();
+}}{{            size += _xstzTextDef.getSize();
+}}{        return _xstzTextDef.getAsJavaString();
+}{{            offset += _xstzTextDef.serialize( buffer, offset );
+}}

@@ -1,3 +1,4 @@
     void remove(EntryNode entry)
-        _property_table.removeProperty(entry.getProperty());
+{        _property_table.removeProperty(entry.getProperty());
         if (entry.isDocumentEntry())
+}

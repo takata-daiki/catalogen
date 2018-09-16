@@ -1,6 +1,7 @@
     private POIFSDocumentPath path;
-                rval = this.path.equals(descriptor.path)
-            hashcode = path.hashCode() ^ name.hashCode();
-        StringBuffer buffer = new StringBuffer(40 * (path.length() + 1));
+{{{                rval = this.path.equals(descriptor.path)
+}}}{{            hashcode = path.hashCode() ^ name.hashCode();
+}}{        StringBuffer buffer = new StringBuffer(40 * (path.length() + 1));
         for (int j = 0; j < path.length(); j++)
-            buffer.append(path.getComponent(j)).append("/");
+{            buffer.append(path.getComponent(j)).append("/");
+}}

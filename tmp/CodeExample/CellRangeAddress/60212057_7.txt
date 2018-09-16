@@ -1,5 +1,6 @@
           CellRangeAddress workMergeRef = ExcelUtils.mergeArea(activeSheet, cellAHRef.getFirstCell());
           for(int col=workMergeRef.getFirstColumn(); col <=workMergeRef.getLastColumn(); col++){
-          if (workMergeRef.getLastRow()-workMergeRef.getFirstRow() > 0 || 
+}          if (workMergeRef.getLastRow()-workMergeRef.getFirstRow() > 0 || 
               workMergeRef.getLastColumn()-workMergeRef.getFirstColumn() > 0){
-          if (workMergeRef.getLastRow()-workMergeRef.getFirstRow() > 0 ){
+}          if (workMergeRef.getLastRow()-workMergeRef.getFirstRow() > 0 ){
+}

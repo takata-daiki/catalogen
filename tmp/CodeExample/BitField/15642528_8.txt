@@ -1,3 +1,4 @@
     private BitField          displayGuts             = BitFieldFactory.getInstance(0x80);
-        field_1_options = displayGuts.setShortBoolean(field_1_options, guts);
-        return displayGuts.isSet(field_1_options);
+{        field_1_options = displayGuts.setShortBoolean(field_1_options, guts);
+}{        return displayGuts.isSet(field_1_options);
+}

@@ -1,6 +1,7 @@
     HSSFWorkbook    workBook = null;
-        HSSFSheet sheet = workBook.createSheet();
+{{        HSSFSheet sheet = workBook.createSheet();
           HSSFCellStyle cellStyleHeader = workBook.createCellStyle();
           HSSFFont headerCellFont = workBook.createFont();
           HSSFCellStyle cellStyleData = workBook.createCellStyle();
           HSSFFont dataCellFont = workBook.createFont();
+}}

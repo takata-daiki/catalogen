@@ -1,3 +1,4 @@
     for(CellReference cellRef:areaRef.getAllReferencedCells()){
-        setCellValue(getCell(sh, cellRef.getRow(), cellRef.getCol()), valueFill);
-        HSSFCell cell = getCell(sh, cellRef.getRow(), cellRef.getCol());
+{        setCellValue(getCell(sh, cellRef.getRow(), cellRef.getCol()), valueFill);
+}{        HSSFCell cell = getCell(sh, cellRef.getRow(), cellRef.getCol());
+}

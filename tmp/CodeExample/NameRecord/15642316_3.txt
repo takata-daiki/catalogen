@@ -1,2 +1,3 @@
     private boolean isRowColHeaderRecord( NameRecord r )
-        return r.getOptionFlag() == 0x20 && ("" + ((char)7)).equals(r.getNameText());
+{        return r.getOptionFlag() == 0x20 && ("" + ((char)7)).equals(r.getNameText());
+}

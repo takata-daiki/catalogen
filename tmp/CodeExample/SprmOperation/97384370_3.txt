@@ -1,6 +1,6 @@
                                       SprmOperation sprm)
-    switch (sprm.getOperation())
-        newCHP.setFRMarkDel (getFlag (sprm.getOperand()));
+{    switch (sprm.getOperation())
+{        newCHP.setFRMarkDel (getFlag (sprm.getOperand()));
         newCHP.setFRMark (getFlag (sprm.getOperand()));
         newCHP.setFFldVanish (getFlag (sprm.getOperand()));
             newCHP.setFcPic( sprm.getOperand() );
@@ -59,3 +59,4 @@
         newCHP.setIdctHint ((byte) sprm.getOperand());
             newCHP.setCv( new Colorref( sprm.getOperand() ) );
       newCHP.setFNoProof(getCHPFlag((byte) sprm.getOperand(),
+}}

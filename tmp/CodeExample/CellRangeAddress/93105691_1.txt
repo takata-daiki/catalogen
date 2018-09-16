@@ -1,2 +1,3 @@
                 CellRangeAddress merged = getRangeIfMerged( cell,
-                    Cell topLeft = sheet.getRow( merged.getFirstRow() ).getCell( merged.getFirstColumn() );
+{                    Cell topLeft = sheet.getRow( merged.getFirstRow() ).getCell( merged.getFirstColumn() );
+}

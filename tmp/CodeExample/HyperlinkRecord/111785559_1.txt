@@ -1,3 +1,4 @@
                     HyperlinkRecord link = (HyperlinkRecord) record;
                         new Point(link.getFirstColumn(), link.getFirstRow());
-                        addCell(record, new LinkedCell(cell, link.getAddress()));
+{                        addCell(record, new LinkedCell(cell, link.getAddress()));
+}

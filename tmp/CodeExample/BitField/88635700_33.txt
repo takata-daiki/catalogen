@@ -1,3 +1,4 @@
     /**/private static BitField oldfNoTabForInd = new BitField(0x0001);
-        field_8_docinfo3 = (short)oldfNoTabForInd.setBoolean(field_8_docinfo3, value);
-        return oldfNoTabForInd.isSet(field_8_docinfo3);
+{        field_8_docinfo3 = (short)oldfNoTabForInd.setBoolean(field_8_docinfo3, value);
+}{        return oldfNoTabForInd.isSet(field_8_docinfo3);
+}

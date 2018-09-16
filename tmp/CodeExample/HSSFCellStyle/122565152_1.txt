@@ -1,5 +1,5 @@
         HSSFCellStyle hStyle = (HSSFCellStyle)style;
-              hStyle.setBorderTop(hBorderStyle);
+{{{              hStyle.setBorderTop(hBorderStyle);
               hStyle.setTopBorderColor(colourIndex);
               hStyle.setBorderLeft(hBorderStyle);
               hStyle.setLeftBorderColor(colourIndex);
@@ -7,3 +7,4 @@
               hStyle.setRightBorderColor(colourIndex);
               hStyle.setBorderBottom(hBorderStyle);
               hStyle.setBottomBorderColor(colourIndex);
+}}}

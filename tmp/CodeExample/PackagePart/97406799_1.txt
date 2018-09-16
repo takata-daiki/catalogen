@@ -1,3 +1,4 @@
             PackagePart parentPart){
         PackageRelationship rel = parentPart.getRelationship(blipId);
-                BufferedImage img = renderer.readImage(parentPart.getRelatedPart(rel));
+{{                BufferedImage img = renderer.readImage(parentPart.getRelatedPart(rel));
+}}

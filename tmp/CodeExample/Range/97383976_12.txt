@@ -1,3 +1,4 @@
             HWPFDocumentCore wordDocument, Range range, int beginMark )
-        for ( int c = beginMark + 1; c < range.numCharacterRuns(); c++ )
-            CharacterRun characterRun = range.getCharacterRun( c );
+{        for ( int c = beginMark + 1; c < range.numCharacterRuns(); c++ )
+{            CharacterRun characterRun = range.getCharacterRun( c );
+}}

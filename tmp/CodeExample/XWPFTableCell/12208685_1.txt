@@ -1,3 +1,4 @@
     protected IITextContainer startVisitTableCell( XWPFTableCell cell, IITextContainer tableContainer )
-        XWPFTableRow row = cell.getTableRow();
+{        XWPFTableRow row = cell.getTableRow();
         CTTcPr tcPr = cell.getCTTc().getTcPr();
+}

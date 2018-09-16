@@ -1,7 +1,8 @@
     protected IITextContainer startVisitTable( XWPFTable table, IITextContainer pdfContainer )
-        if ( table.getCTTbl() != null )
-            if ( table.getCTTbl().getTblPr().getTblBorders() != null )
-                CTBorder bottom = table.getCTTbl().getTblPr().getTblBorders().getBottom();
+{        if ( table.getCTTbl() != null )
+{            if ( table.getCTTbl().getTblPr().getTblBorders() != null )
+{                CTBorder bottom = table.getCTTbl().getTblPr().getTblBorders().getBottom();
                 CTBorder left = table.getCTTbl().getTblPr().getTblBorders().getLeft();
                 CTBorder top = table.getCTTbl().getTblPr().getTblBorders().getTop();
                 CTBorder right = table.getCTTbl().getTblPr().getTblBorders().getRight();
+}}}

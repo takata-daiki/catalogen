@@ -1,5 +1,5 @@
             SummaryInformation summaryInformation )
-        if ( WordToHtmlUtils.isNotEmpty( summaryInformation.getTitle() ) )
+{        if ( WordToHtmlUtils.isNotEmpty( summaryInformation.getTitle() ) )
             htmlDocumentFacade.setTitle( summaryInformation.getTitle() );
         if ( WordToHtmlUtils.isNotEmpty( summaryInformation.getAuthor() ) )
             htmlDocumentFacade.addAuthor( summaryInformation.getAuthor() );
@@ -7,3 +7,4 @@
             htmlDocumentFacade.addKeywords( summaryInformation.getKeywords() );
         if ( WordToHtmlUtils.isNotEmpty( summaryInformation.getComments() ) )
                     .addDescription( summaryInformation.getComments() );
+}

@@ -2,4 +2,5 @@
     sheet.setDefaultColumnWidth(15);
     HSSFPatriarch patriarch = sheet.createDrawingPatriarch();
     HSSFRow row = sheet.createRow(0);
-      row = sheet.createRow(index);
+{      row = sheet.createRow(index);
+}

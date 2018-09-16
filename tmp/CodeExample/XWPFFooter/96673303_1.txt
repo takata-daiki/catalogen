@@ -1,3 +1,4 @@
     protected void visitFooter( XWPFFooter footer, CTHdrFtrRef footerRef, CTSectPr sectPr, StylableMasterPage masterPage )
-        List<IBodyElement> bodyElements = footer.getBodyElements();
+{        List<IBodyElement> bodyElements = footer.getBodyElements();
         visitBodyElements( footer.getBodyElements(), tableCell );
+}

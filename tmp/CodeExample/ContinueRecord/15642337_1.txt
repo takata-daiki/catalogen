@@ -1,3 +1,4 @@
           ContinueRecord crec = (ContinueRecord)recs[0];
-            lastDrawingRecord.processContinueRecord( crec.getData() );
-            ((DrawingGroupRecord)lastRec).processContinueRecord(crec.getData());
+{            lastDrawingRecord.processContinueRecord( crec.getData() );
+}{            ((DrawingGroupRecord)lastRec).processContinueRecord(crec.getData());
+}

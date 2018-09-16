@@ -1,4 +1,5 @@
       LabelSSTRecord lsrec = (LabelSSTRecord) record;
       curRow = thisRow = lsrec.getRow();
       thisColumn = lsrec.getColumn();
-        .getString(lsrec.getSSTIndex()).toString().trim();
+{        .getString(lsrec.getSSTIndex()).toString().trim();
+}

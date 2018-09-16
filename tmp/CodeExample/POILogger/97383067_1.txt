@@ -1,8 +1,9 @@
   private final static POILogger logger = POILogFactory.getLogger(POIDocument.class);
-      logger.log(POILogger.WARN, "DocumentSummaryInformation property set came back with wrong class - ", ps.getClass());
-      logger.log(POILogger.WARN, "SummaryInformation property set came back with wrong class - ", ps.getClass());
-        logger.log(POILogger.WARN, "Error getting property set with name " + setName + "\n" + ie);
-        logger.log(POILogger.WARN, "Error creating property set with name " + setName + "\n" + ie);
-        logger.log(POILogger.WARN, "Error creating property set with name " + setName + "\n" + he);
-      logger.log(POILogger.INFO, "Wrote property set " + name + " of size " + data.length);
-      logger.log( POILogger.ERROR, "Couldn't write property set with name " + name + " as not supported by HPSF yet");
+{{      logger.log(POILogger.WARN, "DocumentSummaryInformation property set came back with wrong class - ", ps.getClass());
+}{      logger.log(POILogger.WARN, "SummaryInformation property set came back with wrong class - ", ps.getClass());
+}}{{        logger.log(POILogger.WARN, "Error getting property set with name " + setName + "\n" + ie);
+}{        logger.log(POILogger.WARN, "Error creating property set with name " + setName + "\n" + ie);
+}{        logger.log(POILogger.WARN, "Error creating property set with name " + setName + "\n" + he);
+}}{{      logger.log(POILogger.INFO, "Wrote property set " + name + " of size " + data.length);
+}{      logger.log( POILogger.ERROR, "Couldn't write property set with name " + name + " as not supported by HPSF yet");
+}}

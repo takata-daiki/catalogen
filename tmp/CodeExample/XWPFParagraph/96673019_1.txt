@@ -1,3 +1,4 @@
     protected IITextContainer startVisitParagraph( XWPFParagraph docxParagraph, ListItemContext itemContext,
-                if ( ParagraphIndentationLeftValueProvider.INSTANCE.getValue( docxParagraph.getCTP().getPPr() ) == null )
+{{{                if ( ParagraphIndentationLeftValueProvider.INSTANCE.getValue( docxParagraph.getCTP().getPPr() ) == null )
                 if ( ParagraphIndentationHangingValueProvider.INSTANCE.getValue( docxParagraph.getCTP().getPPr() ) == null )
+}}}

@@ -1,5 +1,6 @@
     public void processAttachment(final AttachmentChunks attachment,
-        String fileName = attachment.attachFileName.toString();
+{        String fileName = attachment.attachFileName.toString();
         if (attachment.attachLongFileName != null) {
             fileName = attachment.attachLongFileName.toString();
-            fileOut.write(attachment.attachData.getValue());
+}{            fileOut.write(attachment.attachData.getValue());
+}}

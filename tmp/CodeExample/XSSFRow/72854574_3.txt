@@ -1,3 +1,4 @@
         XSSFRow hssfRow = sheet.getRow(row);
         XSSFCell cell = hssfRow.getCell(col);
-            cell = hssfRow.createCell(col);
+{            cell = hssfRow.createCell(col);
+}

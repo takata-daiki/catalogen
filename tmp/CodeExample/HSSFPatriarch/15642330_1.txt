@@ -1,2 +1,3 @@
     HSSFPatriarch patriarch;
-        EscherBSERecord bse = (EscherBSERecord)patriarch.sheet.book.getBSERecord(pictureIndex);
+{        EscherBSERecord bse = (EscherBSERecord)patriarch.sheet.book.getBSERecord(pictureIndex);
+}

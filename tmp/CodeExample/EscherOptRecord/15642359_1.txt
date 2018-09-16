@@ -1,7 +1,8 @@
     protected int addStandardOptions( HSSFShape shape, EscherOptRecord opt )
-        java.util.List props = opt.getEscherProperties();
+{        java.util.List props = opt.getEscherProperties();
         opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.GROUPSHAPE__PRINT, comment.isVisible() ? 0x000A0000 : 0x000A0002) );
         opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.SHADOWSTYLE__SHADOWOBSURED, 0x00030003 ) );
         opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.SHADOWSTYLE__COLOR, 0x00000000 ) );
         opt.sortProperties();
         return opt.getEscherProperties().size();   // # options added
+}

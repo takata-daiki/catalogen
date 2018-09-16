@@ -1,10 +1,11 @@
     protected ExternSheetRecord externSheet= null;
-            for (int k = 0; k < externSheet.getNumOfREFStructures(); k++) {
-        short indexToSheet = externSheet.getREFRecordAt(num).getIndexToFirstSupBook();
-        if (externSheetNumber >= externSheet.getNumOfREFStructures())
+{{            for (int k = 0; k < externSheet.getNumOfREFStructures(); k++) {
+}}}{        short indexToSheet = externSheet.getREFRecordAt(num).getIndexToFirstSupBook();
+}{        if (externSheetNumber >= externSheet.getNumOfREFStructures())
             return externSheet.getREFRecordAt(externSheetNumber).getIndexToFirstSupBook();
-        while (i < externSheet.getNumOfREFStructures() && !flag){
+}{        while (i < externSheet.getNumOfREFStructures() && !flag){
             ExternSheetSubRecord record = externSheet.getREFRecordAt(i);
-        externSheet.addREFRecord(record);
+}}{        externSheet.addREFRecord(record);
         externSheet.setNumOfREFStructures((short)(externSheet.getNumOfREFStructures() + 1));
         result = (short)(externSheet.getNumOfREFStructures() - 1);
+}

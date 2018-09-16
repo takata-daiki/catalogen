@@ -1,4 +1,5 @@
      public static void setEscherProperty(EscherOptRecord opt, short propId, int value){
         java.util.List props = opt.getEscherProperties();
-            opt.addEscherProperty(new EscherSimpleProperty(propId, value));
+{            opt.addEscherProperty(new EscherSimpleProperty(propId, value));
             opt.sortProperties();
+}

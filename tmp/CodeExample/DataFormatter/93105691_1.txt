@@ -1,4 +1,5 @@
         DataFormatter formatter = new DataFormatter( Locale.ENGLISH );
-                             formatter.formatCellValue( topLeft ),
-                                log.warn( "Cannot resolve externally linked value: " + formatter.formatCellValue( cell ) );
-                                         formatter.formatCellValue( cell ),
+{{{                             formatter.formatCellValue( topLeft ),
+}{{{                                log.warn( "Cannot resolve externally linked value: " + formatter.formatCellValue( cell ) );
+}{                                         formatter.formatCellValue( cell ),
+}}}}}

@@ -1,10 +1,11 @@
   private SXSSFWorkbook wb;
-    this.sheet = wb.createSheet("Export");
-    CellStyle style = wb.createCellStyle();
+{    this.sheet = wb.createSheet("Export");
+}{    CellStyle style = wb.createCellStyle();
     Font titleFont = wb.createFont();
     style = wb.createCellStyle();
     Font dataFont = wb.createFont();
     Font headerFont = wb.createFont();
-        DataFormat format = wb.createDataFormat();
-    wb.write(os);
-    wb.dispose();
+}{{{        DataFormat format = wb.createDataFormat();
+}}}{    wb.write(os);
+}{    wb.dispose();
+}

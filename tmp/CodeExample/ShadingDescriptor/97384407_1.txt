@@ -1,2 +1,3 @@
   public void setShading(ShadingDescriptor shd)
-    _papx.addSprm( SPRM_SHD, shd.serialize() );
+{    _papx.addSprm( SPRM_SHD, shd.serialize() );
+}

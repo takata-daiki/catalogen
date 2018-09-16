@@ -1,2 +1,3 @@
           HSSFComment comment = ExcelUtils.getCell(activeSheet,  i, j).getCellComment();
-            HSSFRichTextString richTextString  = comment.getString();
+{            HSSFRichTextString richTextString  = comment.getString();
+}

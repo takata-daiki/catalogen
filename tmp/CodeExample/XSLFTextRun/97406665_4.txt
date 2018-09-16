@@ -1,3 +1,4 @@
         XSLFTextRun r = addNewTextRun();
         r.setText(" ");
-            if(endPr.isSetSz()) r.setFontSize(endPr.getSz() / 100);
+{            if(endPr.isSetSz()) r.setFontSize(endPr.getSz() / 100);
+}

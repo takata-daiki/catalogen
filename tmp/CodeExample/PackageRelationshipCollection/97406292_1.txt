@@ -1,8 +1,9 @@
   protected PackageRelationshipCollection relationships;
-    PackageRelationship retRel = relationships.addRelationship(
-    PackageRelationship retRel = relationships.addRelationship(targetURI,
-      relationships.removeRelationship(id);
-    return this.relationships.getRelationships(id);
-      relationships.clear();
-    return this.relationships.getRelationshipByID(id);
-    return (relationships.size() > 0);
+{    PackageRelationship retRel = relationships.addRelationship(
+}{    PackageRelationship retRel = relationships.addRelationship(targetURI,
+}{{      relationships.removeRelationship(id);
+}}{    return this.relationships.getRelationships(id);
+}{{      relationships.clear();
+}}{    return this.relationships.getRelationshipByID(id);
+}{    return (relationships.size() > 0);
+}

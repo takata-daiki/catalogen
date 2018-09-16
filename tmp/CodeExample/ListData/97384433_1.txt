@@ -1,8 +1,9 @@
     private ListData _listData;
-        _lfo.setLsid( _listData.getLsid() );
-        if ( level >= _listData.numLevels() )
-                    + _listData.numLevels() + ")" );
-        ListLevel lvl = _listData.getLevels()[level];
-        ListLevel listLevel = _listData.getLevel( level );
+{        _lfo.setLsid( _listData.getLsid() );
+}{        if ( level >= _listData.numLevels() )
+{                    + _listData.numLevels() + ")" );
+}        ListLevel lvl = _listData.getLevels()[level];
+}{        ListLevel listLevel = _listData.getLevel( level );
         int styleIndex = _listData.getLevelStyle( level );
-        _listData.setLevelStyle( level, styleIndex );
+}{        _listData.setLevelStyle( level, styleIndex );
+}

@@ -1,14 +1,15 @@
     private HSSFSheet sheet;
-      int firstRow = sheet.getFirstRowNum();
+{      int firstRow = sheet.getFirstRowNum();
       int lastRow = sheet.getLastRowNum();
-        HSSFRow row = sheet.getRow(rowIndex);
-        String oldName = sheet.getSheetName();
-        int width = (sheet.getColumnWidth(col) / 256) * 6;
-        for(Iterator<Row> it = sheet.rowIterator(); it.hasNext(); ) {
+{        HSSFRow row = sheet.getRow(rowIndex);
+}}{        String oldName = sheet.getSheetName();
+}{        int width = (sheet.getColumnWidth(col) / 256) * 6;
+}{        for(Iterator<Row> it = sheet.rowIterator(); it.hasNext(); ) {
             sheet.removeRow(row);
-        HSSFRow hssfRow = sheet.getRow(row);
-            hssfRow = sheet.createRow(row);
-        HSSFRow theRow = sheet.getRow(row);
-      DataValidationConstraint constraint=sheet.getDataValidationHelper().createFormulaListConstraint(namedRange);      
-      DataValidationConstraint constraint = sheet.getDataValidationHelper().createCustomConstraint(formula);
-      sheet.addValidationData(dataValidation);
+}}{        HSSFRow hssfRow = sheet.getRow(row);
+}{{            hssfRow = sheet.createRow(row);
+}}{        HSSFRow theRow = sheet.getRow(row);
+}{      DataValidationConstraint constraint=sheet.getDataValidationHelper().createFormulaListConstraint(namedRange);      
+}{      DataValidationConstraint constraint = sheet.getDataValidationHelper().createCustomConstraint(formula);
+}{      sheet.addValidationData(dataValidation);
+}

@@ -1,2 +1,3 @@
             XWPFStyle tableStyle = super.getXWPFStyle( cell.getTableRow().getTable().getStyleID() );
-                tableStyleBorders = tableStyle.getCTStyle().getTblPr().getTblBorders();
+{                tableStyleBorders = tableStyle.getCTStyle().getTblPr().getTblBorders();
+}

@@ -1,3 +1,4 @@
   public void removePart(PackagePartName partName) {
     if (partName.isRelationshipPartURI()) {
           .getSourcePartUriFromRelationshipPartUri(partName.getURI());
+}

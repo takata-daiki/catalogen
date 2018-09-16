@@ -1,20 +1,21 @@
     private XSSFSheet sheet;
-      int firstRow = sheet.getFirstRowNum();
+{      int firstRow = sheet.getFirstRowNum();
       int lastRow = sheet.getLastRowNum();
-        XSSFRow row = sheet.getRow(rowIndex);
-        String oldName = sheet.getSheetName();
-        int width = (sheet.getColumnWidth(col) / 256) * 6;
-        for(Iterator<Row> it = sheet.rowIterator(); it.hasNext(); ) {
+{        XSSFRow row = sheet.getRow(rowIndex);
+}}{        String oldName = sheet.getSheetName();
+}{        int width = (sheet.getColumnWidth(col) / 256) * 6;
+}{        for(Iterator<Row> it = sheet.rowIterator(); it.hasNext(); ) {
             sheet.removeRow(row);
-        XSSFRow hssfRow = sheet.getRow(row);
-            hssfRow = sheet.createRow(row);
-        XSSFRow theRow = sheet.getRow(row);
-      DataValidationConstraint constraint = sheet.getDataValidationHelper().createCustomConstraint(formula);
+}}{        XSSFRow hssfRow = sheet.getRow(row);
+}{{            hssfRow = sheet.createRow(row);
+}}{        XSSFRow theRow = sheet.getRow(row);
+}{      DataValidationConstraint constraint = sheet.getDataValidationHelper().createCustomConstraint(formula);
       DataValidation dataValidation = sheet.getDataValidationHelper().createValidation(constraint, addressList);
         sheet.addValidationData(dataValidation);
-        DataValidationConstraint constraint = sheet.getDataValidationHelper().createFormulaListConstraint(namedRange);
+}{        DataValidationConstraint constraint = sheet.getDataValidationHelper().createFormulaListConstraint(namedRange);
         DataValidation dataValidation = sheet.getDataValidationHelper().createValidation(constraint, addressList);
-      return sheet.getDataValidations();
-      if (sheet.getCTWorksheet().getDataValidations() != null) {        
+}{      return sheet.getDataValidations();
+}{      if (sheet.getCTWorksheet().getDataValidations() != null) {        
         for (int i=0;i<sheet.getCTWorksheet().getDataValidations().getCount();i++) {
-            sheet.getCTWorksheet().getDataValidations().removeDataValidation(0);
+{            sheet.getCTWorksheet().getDataValidations().removeDataValidation(0);
+}}}}

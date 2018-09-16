@@ -1,3 +1,4 @@
       HSSFCellStyle style = styles.get(colour);            
-        style.setFillPattern(HSSFCellStyle.SOLID_FOREGROUND );
+{        style.setFillPattern(HSSFCellStyle.SOLID_FOREGROUND );
         style.setFillForegroundColor(col.getIndex());
+}

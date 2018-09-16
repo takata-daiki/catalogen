@@ -1,3 +1,4 @@
     protected Object startVisitTable( XWPFTable table, float[] colWidths, Object tableContainer )
-        AttributesImpl attributes = createClassAttribute( table.getStyleID() );
+{        AttributesImpl attributes = createClassAttribute( table.getStyleID() );
         CTTblPr tblPr = table.getCTTbl().getTblPr();
+}

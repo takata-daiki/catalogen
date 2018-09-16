@@ -4,5 +4,6 @@
                   rel.getRelationshipType().equals(RELATION_OLE_OBJECT) ||
                   rel.getRelationshipType().equals(RELATION_PACKAGE) ) {
                  if(rel.getTargetMode() == TargetMode.INTERNAL) {
-                       relName = PackagingURIHelper.createPartName(rel.getTargetURI());
-                    PackagePart relPart = rel.getPackage().getPart(relName);
+{                       relName = PackagingURIHelper.createPartName(rel.getTargetURI());
+}                    PackagePart relPart = rel.getPackage().getPart(relName);
+}}

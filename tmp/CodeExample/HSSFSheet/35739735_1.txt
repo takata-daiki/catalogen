@@ -1,4 +1,5 @@
          HSSFSheet mySheet;
-               if (mySheet.getRow(i) != null) {
+{{{               if (mySheet.getRow(i) != null) {
                  mySheet.removeRow(mySheet.getRow(i));
-               myRow = mySheet.createRow(rowNum);
+}}}{               myRow = mySheet.createRow(rowNum);
+}}

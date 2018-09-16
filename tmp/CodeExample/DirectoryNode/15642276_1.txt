@@ -1,3 +1,4 @@
             DirectoryNode parent   = (dir == null)
-                    ( DirectoryNode ) parent.createDirectory(name);
-                parent.createDocument(document);
+{                    ( DirectoryNode ) parent.createDirectory(name);
+}{                parent.createDocument(document);
+}

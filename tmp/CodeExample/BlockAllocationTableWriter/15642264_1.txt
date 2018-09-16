@@ -1,3 +1,4 @@
     private BlockAllocationTableWriter _sbat;
-                doc.setStartBlock(_sbat.allocateSpace(blocks.length));
-        _sbat.simpleCreateBlocks(size);
+{{{                doc.setStartBlock(_sbat.allocateSpace(blocks.length));
+}}        _sbat.simpleCreateBlocks(size);
+}

@@ -1,3 +1,4 @@
     protected void handleEmbedded(PackageRelationship rel, PackagePart part, 
-       String type = part.getContentType();
+{       String type = part.getContentType();
                TikaInputStream.get(part.getInputStream()), 
+}

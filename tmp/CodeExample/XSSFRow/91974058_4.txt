@@ -1,15 +1,16 @@
       XSSFRow row = sheet.createRow(1);
-            XSSFCell headerCell1 = row.createCell(0);
-            XSSFCell headerCell6 = row.createCell(kontaktperson1);
-            XSSFCell headerCell6 = row.createCell(patient2);
-          XSSFCell headerCell1 = row.createCell(0);
+{{{            XSSFCell headerCell1 = row.createCell(0);
+}{            XSSFCell headerCell6 = row.createCell(kontaktperson1);
+}}{{            XSSFCell headerCell6 = row.createCell(patient2);
+}}{          XSSFCell headerCell1 = row.createCell(0);
           XSSFCell headerCell2 = row.createCell(patient2);
           XSSFCell headerCell3 = row.createCell(patient2
-            XSSFCell headerCell6 = row.createCell(patient1);
-          XSSFCell headerCell2 = row.createCell(patient1);
+}}{{{            XSSFCell headerCell6 = row.createCell(patient1);
+}}{          XSSFCell headerCell2 = row.createCell(patient1);
           XSSFCell headerCell3 = row.createCell(patient1
-          XSSFCell headerCell3 = row.createCell(patient1 + patient2);
-        XSSFCell headerCell1 = row.createCell(0);
+}}{{          XSSFCell headerCell3 = row.createCell(patient1 + patient2);
+}}{        XSSFCell headerCell1 = row.createCell(0);
         XSSFCell headerCell2 = row.createCell(patient1);
         XSSFCell headerCell3 = row.createCell(patient1 + patient2);
         XSSFCell headerCell4 = row.createCell(patient1 + patient2
+}

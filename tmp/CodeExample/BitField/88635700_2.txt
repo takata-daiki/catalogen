@@ -1,3 +1,4 @@
     /**/private static BitField fWidowControl = new BitField(0x02);
-        field_1_formatFlags = (byte)fWidowControl.setBoolean(field_1_formatFlags, value);
-        return fWidowControl.isSet(field_1_formatFlags);
+{        field_1_formatFlags = (byte)fWidowControl.setBoolean(field_1_formatFlags, value);
+}{        return fWidowControl.isSet(field_1_formatFlags);
+}

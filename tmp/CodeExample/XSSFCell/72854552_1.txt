@@ -1,29 +1,30 @@
     private XSSFCell theCell;
-        return theCell.getRowIndex();
-        return theCell.getColumnIndex();
-        XSSFComment xssfComment = theCell.getCellComment();
-        XSSFFont xssfFont = theCell.getCellStyle().getFont();
-      XSSFFont xssfFont = theCell.getCellStyle().getFont();
-        if (theCell.getCellType() == XSSFCell.CELL_TYPE_BLANK) {
-        else if (theCell.getCellType() == XSSFCell.CELL_TYPE_BOOLEAN) {
+{        return theCell.getRowIndex();
+}{        return theCell.getColumnIndex();
+}{        XSSFComment xssfComment = theCell.getCellComment();
+}{        XSSFFont xssfFont = theCell.getCellStyle().getFont();
+}{      XSSFFont xssfFont = theCell.getCellStyle().getFont();
+}{        if (theCell.getCellType() == XSSFCell.CELL_TYPE_BLANK) {
+}        else if (theCell.getCellType() == XSSFCell.CELL_TYPE_BOOLEAN) {
             return Boolean.toString(theCell.getBooleanCellValue());
-        else if (theCell.getCellType() == XSSFCell.CELL_TYPE_ERROR) {
-        else if (theCell.getCellType() == XSSFCell.CELL_TYPE_FORMULA) {
+}        else if (theCell.getCellType() == XSSFCell.CELL_TYPE_ERROR) {
+}        else if (theCell.getCellType() == XSSFCell.CELL_TYPE_FORMULA) {
             return theCell.getCellFormula();
-        else if (theCell.getCellType() == XSSFCell.CELL_TYPE_NUMERIC) {
+}        else if (theCell.getCellType() == XSSFCell.CELL_TYPE_NUMERIC) {
             return Double.toString(theCell.getNumericCellValue());
-        else if (theCell.getCellType() == XSSFCell.CELL_TYPE_STRING) {
+}        else if (theCell.getCellType() == XSSFCell.CELL_TYPE_STRING) {
             return theCell.getRichStringCellValue().getString();
-            theCell.setCellValue(new XSSFRichTextString(value));
-            theCell.setCellValue(Boolean.parseBoolean(value));
-            theCell.setCellFormula(value);
-            theCell.setCellValue(Double.parseDouble(value));
-        XSSFCellStyle cellStyle = theCell.getCellStyle();        
-            theCell.setCellStyle(cellStyle);
-        XSSFCellStyle cellStyle = theCell.getCellStyle();
-      XSSFCellStyle cellStyle = theCell.getCellStyle();
-      theCell.setCellStyle(style);
-          XSSFColor colour = theCell.getCellStyle().getFont().getXSSFColor();
-    return theCell.hashCode();
-      return cell.theCell.equals(this.theCell);      
-    XSSFSheet sheet = theCell.getSheet();
+}}{{            theCell.setCellValue(new XSSFRichTextString(value));
+}{            theCell.setCellValue(Boolean.parseBoolean(value));
+}{            theCell.setCellFormula(value);
+}{            theCell.setCellValue(Double.parseDouble(value));
+}}{        XSSFCellStyle cellStyle = theCell.getCellStyle();        
+{            theCell.setCellStyle(cellStyle);
+}}{        XSSFCellStyle cellStyle = theCell.getCellStyle();
+}{      XSSFCellStyle cellStyle = theCell.getCellStyle();
+}{{      theCell.setCellStyle(style);
+}}{{          XSSFColor colour = theCell.getCellStyle().getFont().getXSSFColor();
+}}{    return theCell.hashCode();
+}{{      return cell.theCell.equals(this.theCell);      
+}}{    XSSFSheet sheet = theCell.getSheet();
+}

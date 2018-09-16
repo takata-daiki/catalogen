@@ -1,7 +1,8 @@
             Table table )
-        final int tableRows = table.numRows();
-            maxColumns = Math.max( maxColumns, table.getRow( r ).numCells() );
-            TableRow tableRow = table.getRow( r );
-                        table.getTableLevel() );
-                    Integer.valueOf( table.getStartOffset() ), "; ",
+{        final int tableRows = table.numRows();
+{            maxColumns = Math.max( maxColumns, table.getRow( r ).numCells() );
+}{            TableRow tableRow = table.getRow( r );
+{                        table.getTableLevel() );
+}}{                    Integer.valueOf( table.getStartOffset() ), "; ",
                     Integer.valueOf( table.getEndOffset() ), ")" );
+}}

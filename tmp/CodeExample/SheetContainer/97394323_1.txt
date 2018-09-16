@@ -1,5 +1,6 @@
     private SheetContainer _container;
-        return _container.getSheetId();
-        return _container.getPPDrawing();
-        EscherDgRecord dg = _container.getPPDrawing().getEscherDgRecord();
-        return _container.getColorScheme();
+{        return _container.getSheetId();
+}{        return _container.getPPDrawing();
+}{        EscherDgRecord dg = _container.getPPDrawing().getEscherDgRecord();
+}{        return _container.getColorScheme();
+}

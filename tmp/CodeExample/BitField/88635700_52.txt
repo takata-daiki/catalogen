@@ -1,3 +1,4 @@
     /**/private static BitField fSaveFormData = new BitField(0x0800);
-        field_24_Edn1 = (short)fSaveFormData.setBoolean(field_24_Edn1, value);
-        return fSaveFormData.isSet(field_24_Edn1);
+{        field_24_Edn1 = (short)fSaveFormData.setBoolean(field_24_Edn1, value);
+}{        return fSaveFormData.isSet(field_24_Edn1);
+}

@@ -1,43 +1,49 @@
 #!/usr/bin/env python3
-import re
-import os
-import json
-import subprocess
 import multiprocessing
-from pprint import pprint
+import os
+import re
+import subprocess
+
+blocks = ''
+block_num = {}
 
 
-def getter(classname, idname):
+def getter(class_name, id_name):
+    global blocks
     dic = {}
-    with open('CodeToken/{}/{}.token'.format(classname, idname), 'r') as f:
+    with open('CodeToken/{}/{}.token'.format(class_name, id_name), 'r') as f:
         dep = 0
         for data in f:
             arr = data.split(',')
             try:
                 pos = int(arr[0][2:])
-                ID = re.search(r"'(.+)'", arr[1]).group(1)
+                id_ = re.search(r"'(.+)'", arr[1]).group(1)
                 token = re.search(r'<(.+)>', arr[2]).group(1)
                 line = re.search(r'(.+):', arr[3]).group(1)
 
-                if ID == '}' or ID == ')':
+                if id_ == '}' or id_ == ')':
                     dep -= 1
 
-                dic[pos] = [ID, token, line, dep]
+                dic[pos] = [id_, token, line, dep]
 
-                if ID == '{' or ID == '(':
+                if id_ == '{' or id_ == '(':
                     dep += 1
+
+                if id_ == '{' or id_ == '}':
+                    blocks += id_
 
             except AttributeError as e:
                 dic[pos] = [',', "','", line, dep]
 
+            block_num[line] = len(blocks)
     # pprint(dic)
     return dic
 
 
-def extract(classname, dic):
+def extract(class_name, dic):
     catalog = []
     for s in range(len(dic)):
-        if s < 1 or dic[s - 1][0] != classname or dic[s][1] != 'Identifier' or dic[s + 1][0] == '(':
+        if s < 1 or dic[s - 1][0] != class_name or dic[s][1] != 'Identifier' or dic[s + 1][0] == '(':
             continue
 
         # Now, the instance should be determined whether it is function arguments or not
@@ -51,50 +57,56 @@ def extract(classname, dic):
         #         isArgs = True
         #         break
 
-        # The following <Identifier> is specified with 'classname <Identifier>'
+        # The following <Identifier> is specified with 'class_name <Identifier>'
         # Find all instance methods
-        tokenNum = set([s])
-        instancename = dic[s][0]
+        token_num = set([s])
+        instance_name = dic[s][0]
         for t in range(len(dic)):
             if s >= t:
                 continue
-            if dic[t][1] == 'Identifier' and dic[t + 1][0] == instancename and dic[s][3] == dic[t][3]:
+            if dic[t][1] == 'Identifier' and dic[t + 1][0] == instance_name and dic[s][3] == dic[t][3]:
                 break
             if dic[t][0] == '}' and dic[s][3] > dic[t][3]:
                 break
 
-            if dic[t][0] == instancename and dic[t + 1][0] == '.':
-                tokenNum.add(t)
+            if dic[t][0] == instance_name and dic[t + 1][0] == '.':
+                token_num.add(t)
 
         # Search lines including the instance methods
-        lineNum = set([dic[s][2]])
-        for n in tokenNum:
-            lineNum.add(dic[n][2])
+        line_num = set([dic[s][2]])
+        for n in token_num:
+            line_num.add(dic[n][2])
         #     for i in range(n)[::-1]: # front
         #         if dic[i][0] == '(':
-        #             lineNum.add(dic[i][2])
+        #             line_num.add(dic[i][2])
         #             break
         #         if dic[i][0] == ';' or dic[i][0] == '{' or dic[i][0] == '}':
-        #             lineNum.add(str(int(dic[i][2]) + 1))
+        #             line_num.add(str(int(dic[i][2]) + 1))
         #             break
         #
         #     for i in range(len(dic))[n + 1:]:
         #         if dic[i][0] == ';':
-        #             lineNum.add(dic[i][2])
+        #             line_num.add(dic[i][2])
         #             break
 
-        if len(lineNum) >= 2:
-            catalog.append(list(lineNum))
+        if len(line_num) >= 2:
+            catalog.append(list(line_num))
 
     # print(catalog)
     return catalog
 
 
-def setter(catalog, classname, idname):
+def removed(s):
+    for i in range(len(s)):
+        s = s.replace('{}', '')
+    return s
+
+
+def setter(catalog, class_name, id_name):
     li = []
     for example in catalog:
         tmp = []
-        with open('CodeResult/{}/{}.java'.format(classname, idname), 'r') as f:
+        with open('CodeResult/{}/{}.java'.format(class_name, id_name), 'r') as f:
             for i, line in enumerate(f):
                 if str(i + 1) in example:
                     tmp.append([str(i + 1), line.replace('\t', '  ')])
@@ -103,7 +115,7 @@ def setter(catalog, classname, idname):
         li.append(tmp)
     # print([[v[0] for v in x] for x in li])
 
-    jsn = {'id': idname, 'lines': []}
+    jsn = {'id': id_name, 'lines': []}
     for x in li:
         lines = {}
         for v in x:
@@ -112,37 +124,65 @@ def setter(catalog, classname, idname):
         jsn['lines'].append(lines)
 
     if jsn['lines']:
-        # os.makedirs('CodeExample/' + classname, exist_ok=True)
-        os.makedirs('CodeExampleJson/' + classname, exist_ok=True)
-    for idx, val in enumerate(jsn['lines']):
-        tmp = {'id': idname, 'lines': {}}
-        with open('CodeExampleJson/{}/{}_{}.json'.format(classname, idname, idx + 1), 'w') as f:
-            mn = min([re.match('(\t| )*', v).end() for v in val.values()])
-            for i, v in val.items():
-                tmp['lines'][i] = v[mn:]
-            json.dump(tmp, f, indent=2)
+        os.makedirs('CodeExample/' + class_name, exist_ok=True)
+        # os.makedirs('CodeExampleJson/' + class_name, exist_ok=True)
     # for idx, val in enumerate(jsn['lines']):
-    #     with open('CodeExample/{}/{}_{}.txt'.format(classname, idname, idx + 1), 'w') as f:
-    #         for v in val.values():
-    #             f.write(v)
+    #     tmp = {'id': id_name, 'lines': {}}
+    #     with open('CodeExampleJson/{}/{}_{}.json'.format(class_name, id_name, idx + 1), 'w') as f:
+    #         mn = min([re.match('(\t| )*', v).end() for v in val.values()])
+    #         for i, v in val.items():
+    #             tmp['lines'][i] = v[mn:]
+    #         json.dump(tmp, f, indent=2)
+    for idx, val in enumerate(jsn['lines']):
+        with open('CodeExample/{}/{}_{}.txt'.format(class_name, id_name, idx + 1), 'w') as f:
+            prev = None
+            s = None
+            for cur, v in val.items():
+                if prev is None:
+                    s = cur
+                    f.write(v)
+                else:
+                    left = block_num[prev]
+                    right = block_num[cur]
+                    if '{' in v:
+                        right -= 1
+                    if left < right:
+                        f.write(removed(blocks[left:right]))
+                    f.write(v)
+                prev = cur
+
+            left = block_num[s]
+            right = block_num[cur]
+            if left < right:
+                ss = blocks[left:right]
+            else:
+                ss = ''
+            f.write('}' * (len(ss) - 2 * ss.count('}')))
+
+            # for v in val.values():
+            #     f.write(v)
 
 
 def f(arg):
-    classname = arg
-    print('Download:', classname)
-    res = subprocess.check_output(['ls', '-1', 'CodeToken/{}/'.format(classname)]).decode('utf-8')
+    class_name = arg
+    print('Download:', class_name)
+    res = subprocess.check_output(['ls', '-1', 'CodeToken/{}/'.format(class_name)]).decode('utf-8')
     li = res.split('\n')[:-1]
     for x in li:
-        idname = x[:-6]
-        # print(idname)
-        res = getter(classname, idname)
-        data = extract(classname, res)
-        setter(data, classname, idname)
+        id_name = x[:-6]
+        # print(id_name)
+        res = getter(class_name, id_name)
+        data = extract(class_name, res)
+        setter(data, class_name, id_name)
 
 
-if __name__ == '__main__':
+def main():
     res = subprocess.check_output(['ls', '-1', 'CodeToken/']).decode('utf-8')
     li = res.split('\n')[:-1]
     # f('XSSFWorkbook')
     with multiprocessing.Pool(10) as p:
         p.map(f, li)
+
+
+if __name__ == '__main__':
+    main()

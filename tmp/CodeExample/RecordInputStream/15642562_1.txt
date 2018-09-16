@@ -1,5 +1,6 @@
     public AreaPtg(RecordInputStream in)
-        field_1_first_row    = in.readShort();
+{        field_1_first_row    = in.readShort();
         field_2_last_row     = in.readShort();
         field_3_first_column = in.readShort();
         field_4_last_column  = in.readShort();
+}

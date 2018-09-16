@@ -2,12 +2,13 @@
           if (areaPtgBase.isFirstRowRelative()) {
             areaPtgBase.setFirstRow(
               (short) (newCell.getRowIndex() - (oldCell.getRowIndex() - areaPtgBase.getFirstRow())));
-          if (areaPtgBase.isLastRowRelative()) {
+}          if (areaPtgBase.isLastRowRelative()) {
             areaPtgBase.setLastRow(
               (short) (newCell.getRowIndex() - (oldCell.getRowIndex() - areaPtgBase.getLastRow())));
-          if (areaPtgBase.isFirstColRelative()) {
+}          if (areaPtgBase.isFirstColRelative()) {
             areaPtgBase.setFirstColumn(
               (short) (newCell.getColumnIndex() - (oldCell.getColumnIndex() - areaPtgBase.getFirstColumn())));
-          if (areaPtgBase.isLastColRelative()) {
+}          if (areaPtgBase.isLastColRelative()) {
             areaPtgBase.setLastColumn(
               (short) (newCell.getColumnIndex() - (oldCell.getColumnIndex() - areaPtgBase.getLastColumn())));
+}

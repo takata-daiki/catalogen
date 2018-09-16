@@ -1,8 +1,9 @@
     public ArrayPtg(RecordInputStream in)
-      field_1_reserved = in.readByte();
+{      field_1_reserved = in.readByte();
       field_2_reserved = in.readByte();
       field_3_reserved = in.readByte();
       field_4_reserved = in.readByte();
       field_5_reserved = in.readByte();
       field_6_reserved = in.readByte();
       field_7_reserved = in.readByte();
+}

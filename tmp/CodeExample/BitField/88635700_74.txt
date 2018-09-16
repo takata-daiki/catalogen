@@ -1,3 +1,4 @@
     /**/private static BitField fPrintBodyBeforeHdr = new BitField(0x00040000);
-        field_33_docinfo4 = (int)fPrintBodyBeforeHdr.setBoolean(field_33_docinfo4, value);
-        return fPrintBodyBeforeHdr.isSet(field_33_docinfo4);
+{        field_33_docinfo4 = (int)fPrintBodyBeforeHdr.setBoolean(field_33_docinfo4, value);
+}{        return fPrintBodyBeforeHdr.isSet(field_33_docinfo4);
+}

@@ -1,4 +1,5 @@
     private IntegerField        _size;
-        return _size.get();
-        return Property.isSmall(_size.get());
-        _size.set(size, _raw_data);
+{        return _size.get();
+}{        return Property.isSmall(_size.get());
+}{        _size.set(size, _raw_data);
+}

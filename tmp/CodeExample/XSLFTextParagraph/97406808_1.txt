@@ -1,12 +1,13 @@
     private final XSLFTextParagraph _p;
-        final XSLFTheme theme = _p.getParentShape().getSheet().getTheme();
+{        final XSLFTheme theme = _p.getParentShape().getSheet().getTheme();
         CTShapeStyle style = _p.getParentShape().getSpStyle();
         CharacterPropertyFetcher<Color> fetcher = new CharacterPropertyFetcher<Color>(_p.getLevel()){
-        CharacterPropertyFetcher<Double> fetcher = new CharacterPropertyFetcher<Double>(_p.getLevel()){
-        CharacterPropertyFetcher<String> visitor = new CharacterPropertyFetcher<String>(_p.getLevel()){
-        CharacterPropertyFetcher<Byte> visitor = new CharacterPropertyFetcher<Byte>(_p.getLevel()){
-        CharacterPropertyFetcher<Boolean> fetcher = new CharacterPropertyFetcher<Boolean>(_p.getLevel()){
-        CharacterPropertyFetcher<TextCap> fetcher = new CharacterPropertyFetcher<TextCap>(_p.getLevel()){
-            XSLFTextShape shape = _p.getParentShape();
-                    CTTextParagraphProperties themeProps = ppt.getDefaultParagraphStyle(_p.getLevel());
-                    CTTextParagraphProperties defaultProps =  _p.getDefaultMasterStyle();
+}}{        CharacterPropertyFetcher<Double> fetcher = new CharacterPropertyFetcher<Double>(_p.getLevel()){
+}}{        CharacterPropertyFetcher<String> visitor = new CharacterPropertyFetcher<String>(_p.getLevel()){
+}}{        CharacterPropertyFetcher<Byte> visitor = new CharacterPropertyFetcher<Byte>(_p.getLevel()){
+}}{        CharacterPropertyFetcher<Boolean> fetcher = new CharacterPropertyFetcher<Boolean>(_p.getLevel()){
+}}{        CharacterPropertyFetcher<TextCap> fetcher = new CharacterPropertyFetcher<TextCap>(_p.getLevel()){
+}}{{            XSLFTextShape shape = _p.getParentShape();
+{{                    CTTextParagraphProperties themeProps = ppt.getDefaultParagraphStyle(_p.getLevel());
+}{                    CTTextParagraphProperties defaultProps =  _p.getDefaultMasterStyle();
+}}}}

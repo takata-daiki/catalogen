@@ -1,3 +1,4 @@
     /**/private static BitField oldfConvMailMergeEsc = new BitField(0x0040);
-        field_8_docinfo3 = (short)oldfConvMailMergeEsc.setBoolean(field_8_docinfo3, value);
-        return oldfConvMailMergeEsc.isSet(field_8_docinfo3);
+{        field_8_docinfo3 = (short)oldfConvMailMergeEsc.setBoolean(field_8_docinfo3, value);
+}{        return oldfConvMailMergeEsc.isSet(field_8_docinfo3);
+}

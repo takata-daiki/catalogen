@@ -1,3 +1,4 @@
   public static void hiddenRows(HSSFSheet sh, CellRangeAddressList list, boolean hide){
-      for(int jj=0; jj<list.countRanges(); jj++){
+{      for(int jj=0; jj<list.countRanges(); jj++){
         CellRangeAddress cra = list.getCellRangeAddress(jj);
+}}

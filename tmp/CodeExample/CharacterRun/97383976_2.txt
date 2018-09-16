@@ -1,13 +1,14 @@
             CharacterRun characterRun, String text );
-                if ( characterRun.getStartOffset() < skipUntil )
+{{{                if ( characterRun.getStartOffset() < skipUntil )
                 String text = characterRun.text();
                                 characterRun.getStartOffset() );
-                                        characterRun.getStartOffset(), range
-                processImage( block, characterRun.text().charAt( 0 ) == 0x01,
-            String text = characterRun.text();
+{{                                        characterRun.getStartOffset(), range
+}}}}{{                processImage( block, characterRun.text().charAt( 0 ) == 0x01,
+}            String text = characterRun.text();
             if ( characterRun.isSpecialCharacter() )
-                if ( characterRun.isOle2()
+{                if ( characterRun.isOle2()
                 if ( characterRun.isSymbol()
-                                    characterRun.getStartOffset() );
-            if ( characterRun.isSpecialCharacter() || characterRun.isObj()
+}{{                                    characterRun.getStartOffset() );
+}}            if ( characterRun.isSpecialCharacter() || characterRun.isObj()
                     || characterRun.isOle2() )
+}}

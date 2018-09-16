@@ -1,6 +1,7 @@
                     NumberRecord numrec = (NumberRecord) record;
                     if(numrec.getRow() == 0) {
-                    } else if(numrec.getColumn() == 0) { //第一列
+}                    } else if(numrec.getColumn() == 0) { //第一列
                         current.setId(Double.valueOf(numrec.getValue()).longValue());
-                    } else if(numrec.getColumn() == 1) {//第二列
+}                    } else if(numrec.getColumn() == 1) {//第二列
                         current.setContent(String.valueOf(Double.valueOf(numrec.getValue()).longValue()));
+}

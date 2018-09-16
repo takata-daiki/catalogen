@@ -1,3 +1,4 @@
           HSSFName paramCellName = ExcelUtils.getNamedRange(wb, param.getKey());
-            HSSFSheet paramCellSheet = wb.getSheet(paramCellName.getSheetName());
+{            HSSFSheet paramCellSheet = wb.getSheet(paramCellName.getSheetName());
             AreaReference paramCellAreaRef = new AreaReference(paramCellName.getRefersToFormula());
+}

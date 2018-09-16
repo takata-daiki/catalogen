@@ -1,3 +1,4 @@
     /**/private static BitField fOnlyWinPics = new BitField(0x02);
-        field_5_docinfo = (byte)fOnlyWinPics.setBoolean(field_5_docinfo, value);
-        return fOnlyWinPics.isSet(field_5_docinfo);
+{        field_5_docinfo = (byte)fOnlyWinPics.setBoolean(field_5_docinfo, value);
+}{        return fOnlyWinPics.isSet(field_5_docinfo);
+}

@@ -1,4 +1,5 @@
     private boolean fetchParagraphProperty(ParagraphPropertyFetcher visitor){
         if(_p.isSetPPr()) ok = visitor.fetch(_p.getPPr());
-                    if(themeProps != null) ok = visitor.fetch(themeProps);
-                    if(defaultProps != null) ok = visitor.fetch(defaultProps);
+{{{                    if(themeProps != null) ok = visitor.fetch(themeProps);
+}{                    if(defaultProps != null) ok = visitor.fetch(defaultProps);
+}}}

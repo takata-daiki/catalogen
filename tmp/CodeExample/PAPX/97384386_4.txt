@@ -1,4 +1,5 @@
                 for ( PAPX papx : _doc.getParagraphTable().getParagraphs() )
-                    if ( papx.getStart() <= endOfParagraphCharOffset.intValue()
+{                    if ( papx.getStart() <= endOfParagraphCharOffset.intValue()
                             && endOfParagraphCharOffset.intValue() < papx
-                                papx.getGrpprl(), 2 );
+{                                papx.getGrpprl(), 2 );
+}}

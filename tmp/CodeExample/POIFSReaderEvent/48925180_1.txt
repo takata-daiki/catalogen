@@ -1,3 +1,4 @@
     public void processPOIFSReaderEvent(POIFSReaderEvent event) {
       if (!event.getName().startsWith(SummaryInformation.DEFAULT_STREAM_NAME)) {
-                                  PropertySetFactory.create(event.getStream());
+}{                                  PropertySetFactory.create(event.getStream());
+}

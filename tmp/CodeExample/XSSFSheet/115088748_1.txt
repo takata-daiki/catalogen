@@ -1,3 +1,4 @@
         final XSSFSheet xssfSheet = workbook.createSheet(table.getTableName());
         final XSSFRow xssfHeaderRow = xssfSheet.createRow(0);
-            final XSSFRow xssfRow = xssfSheet.createRow(row.getRowNr() + 1);
+{            final XSSFRow xssfRow = xssfSheet.createRow(row.getRowNr() + 1);
+}

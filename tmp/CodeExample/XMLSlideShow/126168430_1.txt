@@ -1,4 +1,5 @@
   private void extractContent(final StringBuilder buffy, final XMLSlideShow xmlSlideShow) throws IOException, XmlException {
     final XSLFSlide[] slides = xmlSlideShow.getSlides();
-      final CTNotesSlide notes = xmlSlideShow._getXSLFSlideShow().getNotes(slideId);
+{      final CTNotesSlide notes = xmlSlideShow._getXSLFSlideShow().getNotes(slideId);
       final CTCommentList comments = xmlSlideShow._getXSLFSlideShow().getSlideComments(slideId);
+}

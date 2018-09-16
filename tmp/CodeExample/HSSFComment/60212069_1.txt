@@ -1,3 +1,4 @@
               HSSFComment comment = cell.getCellComment();
-                HSSFRichTextString richTextString  = comment.getString();
-                      comment.setString(new HSSFRichTextString(res));
+{                HSSFRichTextString richTextString  = comment.getString();
+{{{                      comment.setString(new HSSFRichTextString(res));
+}}}}

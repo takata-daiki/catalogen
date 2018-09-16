@@ -1,3 +1,4 @@
   private static PackagePart getPartByRelationshipType(PackagePart part, String relationshipType) {
-      PackageRelationshipCollection rels = part.getRelationshipsByType(relationshipType);
+{      PackageRelationshipCollection rels = part.getRelationshipsByType(relationshipType);
       OPCPackage pack = part.getPackage();
+}

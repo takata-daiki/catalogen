@@ -1,5 +1,6 @@
      private NoteRecord createNoteRecord( HSSFComment shape, int shapeId )
-        note.setColumn(shape.getColumn());
+{        note.setColumn(shape.getColumn());
         note.setRow((short)shape.getRow());
         note.setFlags(shape.isVisible() ? NoteRecord.NOTE_VISIBLE : NoteRecord.NOTE_HIDDEN);
         note.setAuthor(shape.getAuthor() == null ? "" : shape.getAuthor());
+}

@@ -1,4 +1,4 @@
             XWPFStyle style = document.getStyles().getStyle( styleID );
             CTPPr xwpfParagraphProperties = style.getCTStyle().getPPr();
-                if ( style.getCTStyle().getRPr() != null )
-            CTTblPrBase xwpfTableProperties = style.getCTStyle().getTblPr();
+{                if ( style.getCTStyle().getRPr() != null )
+}            CTTblPrBase xwpfTableProperties = style.getCTStyle().getTblPr();

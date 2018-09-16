@@ -2,3 +2,4 @@
     if (ref.isSingleCell()){
       String shName = ref.getFirstCell().getSheetName();
       return  getCell(wb.getSheet(shName), ref.getFirstCell().getRow(), ref.getFirstCell().getCol());
+}

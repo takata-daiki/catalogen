@@ -1,4 +1,5 @@
         HSSFRow row = sheet.getRow(rowIndex);
-          int firstCell = row.getFirstCellNum();
+{          int firstCell = row.getFirstCellNum();
             int lastCell = row.getLastCellNum();
-              HSSFCell cell = row.getCell(cellIndex);
+{              HSSFCell cell = row.getCell(cellIndex);
+}}

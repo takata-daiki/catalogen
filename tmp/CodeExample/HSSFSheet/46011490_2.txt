@@ -1,6 +1,7 @@
     HSSFSheet sheet = wb.createSheet();
     HSSFRow row = sheet.createRow(rowIdx);
-      sheet.setColumnWidth(i, (int) (258 / 8 * columnWidths.get(i)));
-      row = sheet.getRow(rowIdx + headerDepth - 1);
-          sheet.setColumnWidth(i, (int) (258 / 8 * column.getPrefWidth()));
-      row = sheet.createRow(rowIdx);
+{      sheet.setColumnWidth(i, (int) (258 / 8 * columnWidths.get(i)));
+}{      row = sheet.getRow(rowIdx + headerDepth - 1);
+{{          sheet.setColumnWidth(i, (int) (258 / 8 * column.getPrefWidth()));
+}}}{      row = sheet.createRow(rowIdx);
+}

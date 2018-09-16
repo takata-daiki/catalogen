@@ -1,3 +1,4 @@
   public StaxPoiSheet( XSSFReader reader, String sheetName, String sheetID ) {
-      sst = reader.getSharedStringsTable();
+{      sst = reader.getSharedStringsTable();
       sheetStream = reader.getSheet( sheetID );
+}

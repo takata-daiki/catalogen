@@ -1,3 +1,4 @@
     for (RecipientChunks recipient : recipientChunks) {
       if (name.equals(recipient.getRecipientName())) {
             new InternetAddress(recipient.getRecipientEmailAddress(), recipient.getRecipientName());
+}

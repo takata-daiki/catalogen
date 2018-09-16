@@ -1,5 +1,5 @@
         FormatRecord retval = new FormatRecord();   // the differnt formats
-                retval.setIndexCode(( short ) 5);
+{                retval.setIndexCode(( short ) 5);
                 retval.setFormatStringLength(( byte ) 0x17);
                 retval.setFormatString("\"$\"#,##0_);\\(\"$\"#,##0\\)");
                 retval.setIndexCode(( short ) 6);
@@ -19,3 +19,4 @@
                 retval.setFormatStringLength(( byte ) 0x3a);
                 retval.setIndexCode(( short ) 0x2b);
                 retval.setFormatStringLength(( byte ) 0x31);
+}

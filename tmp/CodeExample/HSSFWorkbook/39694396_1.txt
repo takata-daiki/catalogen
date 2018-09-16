@@ -5,4 +5,5 @@
         HSSFSheet overviewSheet = wb.createSheet(sheetName);
         wb.setRepeatingRowsAndColumns(0, 0, 0, 0, 0);
         wb.setPrintArea(0, 0, 8, 0, overviewSheetRow);
-            wb.write(baos);
+{            wb.write(baos);
+}

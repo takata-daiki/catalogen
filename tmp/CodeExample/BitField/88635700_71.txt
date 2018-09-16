@@ -1,3 +1,4 @@
     /**/private static BitField fSwapBordersFacingPgs = new BitField(0x00000800);
-        field_33_docinfo4 = (int)fSwapBordersFacingPgs.setBoolean(field_33_docinfo4, value);
-        return fSwapBordersFacingPgs.isSet(field_33_docinfo4);
+{        field_33_docinfo4 = (int)fSwapBordersFacingPgs.setBoolean(field_33_docinfo4, value);
+}{        return fSwapBordersFacingPgs.isSet(field_33_docinfo4);
+}

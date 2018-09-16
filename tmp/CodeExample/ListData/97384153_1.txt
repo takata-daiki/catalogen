@@ -1,4 +1,5 @@
             ListData lst = new ListData( tableStream, offset );
             _listMap.put( Integer.valueOf( lst.getLsid() ), lst );
             int num = lst.numLevels();
-                lst.setLevel( y, lvl );
+{                lst.setLevel( y, lvl );
+}

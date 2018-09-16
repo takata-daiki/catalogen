@@ -1,4 +1,5 @@
         HSSFRow hssfRow = hssfSheet.getRow(setCellValue.getRow());
         HSSFCell hssfCell = hssfRow.getCell(setCellValue.getCol());
-            hssfCell = hssfRow.createCell(setCellValue.getCol());
-                hssfRow.removeCell(hssfCell);
+{            hssfCell = hssfRow.createCell(setCellValue.getCol());
+}{{                hssfRow.removeCell(hssfCell);
+}}

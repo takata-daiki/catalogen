@@ -1,3 +1,4 @@
     /**/private static BitField fHaveVersions = new BitField(0x0001);
-        field_38_docinfo6 = (short)fHaveVersions.setBoolean(field_38_docinfo6, value);
-        return fHaveVersions.isSet(field_38_docinfo6);
+{        field_38_docinfo6 = (short)fHaveVersions.setBoolean(field_38_docinfo6, value);
+}{        return fHaveVersions.isSet(field_38_docinfo6);
+}

@@ -1,4 +1,4 @@
         ColumnInfoRecord ci = null;
-                if ((ci.getFirstColumn() <= column)
+{{                if ((ci.getFirstColumn() <= column)
                         && (column <= ci.getLastColumn())) {
-        retval = (ci != null) ? ci.getXFIndex() : 0xF;
+}}}        retval = (ci != null) ? ci.getXFIndex() : 0xF;

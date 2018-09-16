@@ -1,3 +1,4 @@
     String importBlip(String blipId, PackagePart packagePart) {
         PackageRelationship blipRel = packagePart.getRelationship(blipId);
-            blipPart = packagePart.getRelatedPart(blipRel);
+{            blipPart = packagePart.getRelatedPart(blipRel);
+}

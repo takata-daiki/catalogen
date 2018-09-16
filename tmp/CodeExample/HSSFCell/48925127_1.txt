@@ -1,5 +1,6 @@
     HSSFCell cell;
-            if (cell.getCellType() == HSSFCell.CELL_TYPE_STRING) {
+{{{{            if (cell.getCellType() == HSSFCell.CELL_TYPE_STRING) {
               resultText.append(cell.getStringCellValue()).append(" ");
-            } else if (cell.getCellType() == HSSFCell.CELL_TYPE_NUMERIC) {
+}            } else if (cell.getCellType() == HSSFCell.CELL_TYPE_NUMERIC) {
               double d = cell.getNumericCellValue();
+}}}}}

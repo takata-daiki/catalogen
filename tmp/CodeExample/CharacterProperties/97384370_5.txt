@@ -1,5 +1,5 @@
                                       CharacterProperties newCHP,
-        newCHP.setFRMarkDel (getFlag (sprm.getOperand()));
+{{        newCHP.setFRMarkDel (getFlag (sprm.getOperand()));
         newCHP.setFRMark (getFlag (sprm.getOperand()));
         newCHP.setFFldVanish (getFlag (sprm.getOperand()));
             newCHP.setFcPic( sprm.getOperand() );
@@ -39,20 +39,20 @@
         newCHP.setFVanish (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFVanish ()));
         newCHP.setFtcAscii ((short) sprm.getOperand());
         newCHP.setKul ((byte) sprm.getOperand());
-          newCHP.setHps (hps);
-          newCHP.setHps (Math.max (newCHP.getHps () + (cInc * 2), 2));
-          newCHP.setHpsPos (hpsPos);
-          newCHP.setHps (Math.max (newCHP.getHps () + ( -2), 2));
-          newCHP.setHps (Math.max (newCHP.getHps () + 2, 2));
-        newCHP.setDxaSpace (sprm.getOperand());
+{          newCHP.setHps (hps);
+}{          newCHP.setHps (Math.max (newCHP.getHps () + (cInc * 2), 2));
+}{          newCHP.setHpsPos (hpsPos);
+}{          newCHP.setHps (Math.max (newCHP.getHps () + ( -2), 2));
+}{          newCHP.setHps (Math.max (newCHP.getHps () + 2, 2));
+}        newCHP.setDxaSpace (sprm.getOperand());
         newCHP.setLidDefault ((short) sprm.getOperand());
         newCHP.setIco ((byte) sprm.getOperand());
         newCHP.setHps (sprm.getOperand());
         newCHP.setHps (Math.max (newCHP.getHps () + (hpsLvl * 2), 2));
         newCHP.setHpsPos ((short) sprm.getOperand());
-            newCHP.setHps (Math.max (newCHP.getHps () + ( -2), 2));
-            newCHP.setHps (Math.max (newCHP.getHps () + 2, 2));
-        newCHP.setIss ((byte) sprm.getOperand());
+{{            newCHP.setHps (Math.max (newCHP.getHps () + ( -2), 2));
+}}{{            newCHP.setHps (Math.max (newCHP.getHps () + 2, 2));
+}}        newCHP.setIss ((byte) sprm.getOperand());
         newCHP.setHps (LittleEndian.getShort (sprm.getGrpprl(), sprm.getGrpprlOffset()));
         newCHP.setHps (Math.max (newCHP.getHps () + increment, 8));
         newCHP.setHpsKern (sprm.getOperand());
@@ -82,3 +82,4 @@
         newCHP.setIdctHint ((byte) sprm.getOperand());
             newCHP.setCv( new Colorref( sprm.getOperand() ) );
       newCHP.setFNoProof(getCHPFlag((byte) sprm.getOperand(),
+}}

@@ -1,5 +1,6 @@
     HSSFCellStyle style = book.createCellStyle();
-        style.setDataFormat(format.getFormat(cellFormat));
-        style.setAlignment(HSSFCellStyle.ALIGN_LEFT);
-        style.setAlignment(HSSFCellStyle.ALIGN_CENTER);
-        style.setAlignment(HSSFCellStyle.ALIGN_RIGHT);
+{{        style.setDataFormat(format.getFormat(cellFormat));
+}}{{        style.setAlignment(HSSFCellStyle.ALIGN_LEFT);
+}{        style.setAlignment(HSSFCellStyle.ALIGN_CENTER);
+}{        style.setAlignment(HSSFCellStyle.ALIGN_RIGHT);
+}}

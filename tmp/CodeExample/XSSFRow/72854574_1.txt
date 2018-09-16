@@ -1,4 +1,5 @@
         XSSFRow row = sheet.getRow(rowIndex);
-          int firstCell = row.getFirstCellNum();
+{          int firstCell = row.getFirstCellNum();
             int lastCell = row.getLastCellNum();
-              XSSFCell cell = row.getCell(cellIndex);
+{              XSSFCell cell = row.getCell(cellIndex);
+}}

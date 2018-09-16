@@ -1,5 +1,6 @@
     private StringRecord stringRecord;
-            pos += stringRecord.serialize(pos, data);
-        int size = formulaRecord.getRecordSize() + (stringRecord == null ? 0 : stringRecord.getRecordSize());
-      StringRecord clonedString = (stringRecord == null) ? null : (StringRecord)stringRecord.clone();
-        return stringRecord.getString();
+{{            pos += stringRecord.serialize(pos, data);
+}}{        int size = formulaRecord.getRecordSize() + (stringRecord == null ? 0 : stringRecord.getRecordSize());
+}{      StringRecord clonedString = (stringRecord == null) ? null : (StringRecord)stringRecord.clone();
+}{        return stringRecord.getString();
+}

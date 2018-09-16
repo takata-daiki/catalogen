@@ -1,7 +1,8 @@
             Property      property = ( Property ) properties.next();
             String        name     = property.getName();
             if (property.isDirectory())
-                new_dir.setStorageClsid( property.getStorageClsid() );
-                int           startBlock = property.getStartBlock();
+{                new_dir.setStorageClsid( property.getStorageClsid() );
+}{                int           startBlock = property.getStartBlock();
                 int           size       = property.getSize();
                 if (property.shouldUseSmallBlocks())
+}

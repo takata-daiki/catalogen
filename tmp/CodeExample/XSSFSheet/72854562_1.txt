@@ -1,3 +1,4 @@
         XSSFSheet xssfSheet = workbook.getSheet(setCellValue.getSheet().getName());
         XSSFRow xssfRow = xssfSheet.getRow(setCellValue.getRow());
-            xssfRow = xssfSheet.createRow(setCellValue.getRow());
+{            xssfRow = xssfSheet.createRow(setCellValue.getRow());
+}

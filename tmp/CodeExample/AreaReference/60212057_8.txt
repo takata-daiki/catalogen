@@ -4,4 +4,5 @@
           ExcelUtils.paste(activeSheet, cellAHRef.getFirstCell().getRow(), lastCol + 1, ExcelUtils.copy(activeSheet, workMergeRef), ExcelUtils.xlFormats);
           CellRangeAddress workMergeRef1 = ExcelUtils.mergeArea(activeSheet, new CellReference(cellAHRef.getFirstCell().getRow(), lastCol + 1));
           HSSFCell distCell = ExcelUtils.getCell(activeSheet, cellAHRef.getFirstCell().getRow(), lastCol);
-            distCell.setCellFormula(cellAHRef.getFirstCell().formatAsString());
+{            distCell.setCellFormula(cellAHRef.getFirstCell().formatAsString());
+}}

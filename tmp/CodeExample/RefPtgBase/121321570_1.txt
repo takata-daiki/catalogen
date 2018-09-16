@@ -2,6 +2,7 @@
                     if (refPtgBase.isRowRelative()) {
                       refPtgBase.setRow(
                         (short) (newCell.getRowIndex() - (oldCell.getRowIndex() - refPtgBase.getRow())));
-                    if (refPtgBase.isColRelative()) {
+}                    if (refPtgBase.isColRelative()) {
                       refPtgBase.setColumn(
                         (short) (newCell.getColumnIndex() - (oldCell.getColumnIndex() - refPtgBase.getColumn())));
+}

@@ -1,3 +1,4 @@
   public static void fill(HSSFSheet sh, CellRangeAddress srcCRA, CellRangeAddress distCRA, byte lookIn){
-      for(int row = distCRA.getFirstRow(); row <=distCRA.getLastRow(); row++){
+{      for(int row = distCRA.getFirstRow(); row <=distCRA.getLastRow(); row++){
         for(int col = distCRA.getFirstColumn(); col <=distCRA.getLastColumn(); col++){
+}}}

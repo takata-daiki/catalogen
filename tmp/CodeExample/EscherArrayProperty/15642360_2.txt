@@ -2,9 +2,9 @@
         segmentsProp.setSizeOfElements(0x0002);
         segmentsProp.setNumberOfElementsInArray(hssfShape.getXPoints().length * 2 + 4);
         segmentsProp.setNumberOfElementsInMemory(hssfShape.getXPoints().length * 2 + 4);
-        segmentsProp.setElement(0, new byte[] { (byte)0x00, (byte)0x40 } );
-        segmentsProp.setElement(1, new byte[] { (byte)0x00, (byte)0xAC } );
-            segmentsProp.setElement(2 + i * 2, new byte[] { (byte)0x01, (byte)0x00 } );
-            segmentsProp.setElement(3 + i * 2, new byte[] { (byte)0x00, (byte)0xAC } );
-        segmentsProp.setElement(segmentsProp.getNumberOfElementsInArray() - 2, new byte[] { (byte)0x01, (byte)0x60 } );
-        segmentsProp.setElement(segmentsProp.getNumberOfElementsInArray() - 1, new byte[] { (byte)0x00, (byte)0x80 } );
+{        segmentsProp.setElement(0, new byte[] { (byte)0x00, (byte)0x40 } );
+{        segmentsProp.setElement(1, new byte[] { (byte)0x00, (byte)0xAC } );
+{{            segmentsProp.setElement(2 + i * 2, new byte[] { (byte)0x01, (byte)0x00 } );
+{            segmentsProp.setElement(3 + i * 2, new byte[] { (byte)0x00, (byte)0xAC } );
+}{        segmentsProp.setElement(segmentsProp.getNumberOfElementsInArray() - 2, new byte[] { (byte)0x01, (byte)0x60 } );
+{        segmentsProp.setElement(segmentsProp.getNumberOfElementsInArray() - 1, new byte[] { (byte)0x00, (byte)0x80 } );

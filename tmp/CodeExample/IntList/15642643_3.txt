@@ -1,7 +1,8 @@
     public boolean addAll(final int index, final IntList c)
-        if (c._limit != 0)
-            if ((_limit + c._limit) > _array.length)
-                growArray(_limit + c._limit);
-            System.arraycopy(_array, index, _array, index + c._limit,
+{        if (c._limit != 0)
+{            if ((_limit + c._limit) > _array.length)
+{                growArray(_limit + c._limit);
+}            System.arraycopy(_array, index, _array, index + c._limit,
             System.arraycopy(c._array, 0, _array, index, c._limit);
             _limit += c._limit;
+}}

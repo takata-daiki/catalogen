@@ -1,2 +1,3 @@
   private PackagePart createPart(OPCPackage pack, PackagePart corePart, String name, File file, String contentType, String relationshipType) {    
-        corePart.addRelationship(partName, TargetMode.INTERNAL, relationshipType);
+{        corePart.addRelationship(partName, TargetMode.INTERNAL, relationshipType);
+}

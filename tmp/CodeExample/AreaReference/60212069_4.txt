@@ -1,3 +1,4 @@
   public static void autoFilter(HSSFSheet sh, AreaReference areaRef, Object filterValue){
     if (areaRef.getFirstCell().getCol() != areaRef.getLastCell().getCol()) return;
     for(CellReference cellRef:areaRef.getAllReferencedCells()){
+}

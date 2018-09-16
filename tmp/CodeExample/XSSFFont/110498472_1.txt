@@ -6,3 +6,4 @@
     if (!font.getFontName().equals(XSSFFont.DEFAULT_FONT_NAME))
     if (font.getColor() != XSSFFont.DEFAULT_FONT_COLOR) {
       String colorString = getRGBString(font.getXSSFColor());
+}

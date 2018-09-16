@@ -1,7 +1,8 @@
             HWPFList list, char level )
-        char[] xst = list.getNumberText( level ).toCharArray();
-                int lsid = list.getLsid();
+{        char[] xst = list.getNumberText( level ).toCharArray();
+{{                int lsid = list.getLsid();
                 if ( !list.isStartAtOverriden( element )
-                    num = list.getStartAt( element );
-                        list.getNumberFormat( level ) ) );
-        byte follow = list.getTypeOfCharFollowingTheNumber( level );
+{                    num = list.getStartAt( element );
+}                        list.getNumberFormat( level ) ) );
+}}        byte follow = list.getTypeOfCharFollowingTheNumber( level );
+}

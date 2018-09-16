@@ -1,6 +1,7 @@
     private PaletteRecord palette;
-          byte[] b = palette.getColor(index);
-        byte[] b = palette.getColor(PaletteRecord.FIRST_COLOR_INDEX);
+{{          byte[] b = palette.getColor(index);
+}}{        byte[] b = palette.getColor(PaletteRecord.FIRST_COLOR_INDEX);
             b = palette.getColor(++i))
-        palette.setColor(index, red, green, blue);
-        for (i = (short) PaletteRecord.FIRST_COLOR_INDEX; i < PaletteRecord.STANDARD_PALETTE_SIZE + PaletteRecord.FIRST_COLOR_INDEX; b = palette.getColor(++i))
+}{        palette.setColor(index, red, green, blue);
+}{        for (i = (short) PaletteRecord.FIRST_COLOR_INDEX; i < PaletteRecord.STANDARD_PALETTE_SIZE + PaletteRecord.FIRST_COLOR_INDEX; b = palette.getColor(++i))
+}

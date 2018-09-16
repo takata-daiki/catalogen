@@ -1,2 +1,3 @@
     private BitField          alwaysCalc = BitFieldFactory.getInstance(0x0001);
-            buffer.append("      .alwaysCalc         = ").append(alwaysCalc.isSet(getOptions()))
+{            buffer.append("      .alwaysCalc         = ").append(alwaysCalc.isSet(getOptions()))
+}

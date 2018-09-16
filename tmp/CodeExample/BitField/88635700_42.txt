@@ -1,3 +1,4 @@
     /**/private static BitField oldfTransparentMetafiles = new BitField(0x0200);
-        field_8_docinfo3 = (short)oldfTransparentMetafiles.setBoolean(field_8_docinfo3, value);
-        return oldfTransparentMetafiles.isSet(field_8_docinfo3);
+{        field_8_docinfo3 = (short)oldfTransparentMetafiles.setBoolean(field_8_docinfo3, value);
+}{        return oldfTransparentMetafiles.isSet(field_8_docinfo3);
+}

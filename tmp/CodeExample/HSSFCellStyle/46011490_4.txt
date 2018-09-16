@@ -1,6 +1,7 @@
   protected HSSFCellStyle csIntNum;
-    csIntNum.setDataFormat(wb.createDataFormat().getFormat("#,##0"));
+{    csIntNum.setDataFormat(wb.createDataFormat().getFormat("#,##0"));
     csIntNum.setBorderBottom(HSSFCellStyle.BORDER_THIN);
     csIntNum.setBorderLeft(HSSFCellStyle.BORDER_THIN);
     csIntNum.setBorderRight(HSSFCellStyle.BORDER_THIN);
     csIntNum.setBorderTop(HSSFCellStyle.BORDER_THIN);
+}

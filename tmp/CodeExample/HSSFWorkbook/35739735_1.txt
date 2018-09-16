@@ -1,5 +1,6 @@
          HSSFWorkbook myWorkBook;
-             mySheet = myWorkBook.getSheetAt(0);
+{{             mySheet = myWorkBook.getSheetAt(0);
              myWorkBook.getSheetAt(1).getRow(1).createCell(1).setCellValue(TestHarness.TEST_PERIOD);
-             mySheet = myWorkBook.createSheet();
-             myWorkBook.write(out);
+}{             mySheet = myWorkBook.createSheet();
+}             myWorkBook.write(out);
+}

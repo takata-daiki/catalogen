@@ -1,14 +1,15 @@
     HSSFFont font = newStyle.getFont(workbook);
     if (font.getBoldweight() == HSSFFont.BOLDWEIGHT_BOLD) {
-    if (font.getItalic()) {
-    if (font.getUnderline() != HSSFFont.U_NONE) {
-    if (font.getFontHeightInPoints() != 10
+}    if (font.getItalic()) {
+}    if (font.getUnderline() != HSSFFont.U_NONE) {
+}    if (font.getFontHeightInPoints() != 10
         && font.getFontHeightInPoints() != 11) {
       xmlWriter.writeCharacters(String.valueOf(font
-    if (!font.getFontName().equals("Arial")
+}    if (!font.getFontName().equals("Arial")
         && !font.getFontName().equals("Calibri")) {
       xmlWriter.writeCharacters(font.getFontName());
-    if ((font.getColor() != HSSFFont.COLOR_NORMAL)
+}    if ((font.getColor() != HSSFFont.COLOR_NORMAL)
         && (getRGBString(font.getColor()) != null)
         && !getRGBString(font.getColor()).equals("#000")) {
       xmlWriter.writeCharacters(getRGBString(font.getColor()));
+}

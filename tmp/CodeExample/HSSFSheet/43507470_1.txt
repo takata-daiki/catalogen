@@ -1,4 +1,5 @@
         HSSFSheet sheet = workBook.createSheet();
         HSSFRow headerRow = sheet.createRow(0);
-          HSSFRow row = sheet.createRow(rowIndex++);
-            sheet.autoSizeColumn((short)i);
+{          HSSFRow row = sheet.createRow(rowIndex++);
+{            sheet.autoSizeColumn((short)i);
+}}

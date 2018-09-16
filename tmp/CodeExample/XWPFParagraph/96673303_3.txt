@@ -1,2 +1,3 @@
     private void applyStyles( XWPFParagraph ele, IStylableElement<XWPFParagraph> element )
-        Style style = styleEngine.getStyle( ele.getStyleID() );
+{        Style style = styleEngine.getStyle( ele.getStyleID() );
+}

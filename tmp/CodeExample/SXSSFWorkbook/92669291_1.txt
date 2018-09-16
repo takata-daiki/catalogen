@@ -1,5 +1,6 @@
         SXSSFWorkbook wb = null;
-            wb.setCompressTempFiles(true);//生成的临时文件将进行gzip压缩
-                Sheet sheet = wb.createSheet();
-            wb.write(out);
-            wb.dispose();
+{            wb.setCompressTempFiles(true);//生成的临时文件将进行gzip压缩
+{                Sheet sheet = wb.createSheet();
+}            wb.write(out);
+}{            wb.dispose();
+}

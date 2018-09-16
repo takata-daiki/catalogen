@@ -1,5 +1,5 @@
         InteractiveInfoAtom infoAtom = info.getInteractiveInfoAtom();
-                infoAtom.setAction(InteractiveInfoAtom.ACTION_JUMP);
+{                infoAtom.setAction(InteractiveInfoAtom.ACTION_JUMP);
                 infoAtom.setJump(InteractiveInfoAtom.JUMP_FIRSTSLIDE);
                 infoAtom.setHyperlinkType(InteractiveInfoAtom.LINK_FirstSlide);
                 infoAtom.setJump(InteractiveInfoAtom.JUMP_LASTSLIDE);
@@ -11,4 +11,4 @@
                 infoAtom.setAction(InteractiveInfoAtom.ACTION_HYPERLINK);
                 infoAtom.setJump(InteractiveInfoAtom.JUMP_NONE);
                 infoAtom.setHyperlinkType(InteractiveInfoAtom.LINK_Url);
-        infoAtom.setHyperlinkID(link.getId());
+}        infoAtom.setHyperlinkID(link.getId());

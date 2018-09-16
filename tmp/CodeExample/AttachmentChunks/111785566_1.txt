@@ -1,6 +1,7 @@
            for (AttachmentChunks attachment : msg.getAttachmentFiles()) {
                if (attachment.attachLongFileName != null) {
              filename = attachment.attachLongFileName.getValue();
-               } else if (attachment.attachFileName != null) {
+}               } else if (attachment.attachFileName != null) {
              filename = attachment.attachFileName.getValue();
-                     new ByteArrayInputStream(attachment.attachData.getValue()),
+}{                     new ByteArrayInputStream(attachment.attachData.getValue()),
+}

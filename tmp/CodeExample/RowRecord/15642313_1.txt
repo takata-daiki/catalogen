@@ -1,25 +1,26 @@
     private RowRecord row;
-        row.setOptionFlags( (short)0x100 );   // seems necessary for outlining to work.  
+{        row.setOptionFlags( (short)0x100 );   // seems necessary for outlining to work.  
         row.setHeight((short) 0xff);
         row.setLastCol((short) -1);
         row.setFirstCol((short) -1);
-        if (cell.getCellNum() == row.getLastCol())
-            row.setLastCol(findLastCell(row.getLastCol()));
-        if (cell.getCellNum() == row.getFirstCol())
-            row.setFirstCol(findFirstCell(row.getFirstCol()));
-            row.setRowNumber(rowNum);   // used only for KEY comparison (HSSFRow)
-        if (row.getFirstCol() == -1)
-            row.setFirstCol(column);
-        if (row.getLastCol() == -1)
-            row.setLastCol(column);
-        if (column < row.getFirstCol())
+}{        if (cell.getCellNum() == row.getLastCol())
+{            row.setLastCol(findLastCell(row.getLastCol()));
+}        if (cell.getCellNum() == row.getFirstCol())
+{            row.setFirstCol(findFirstCell(row.getFirstCol()));
+}}{{            row.setRowNumber(rowNum);   // used only for KEY comparison (HSSFRow)
+}}{        if (row.getFirstCol() == -1)
+{            row.setFirstCol(column);
+}        if (row.getLastCol() == -1)
+{            row.setLastCol(column);
+}        if (column < row.getFirstCol())
         if (column > row.getLastCol())
-            return row.getFirstCol();
-            return row.getLastCol();
-        row.setBadFontHeight(true);
+}{            return row.getFirstCol();
+}{            return row.getLastCol();
+}{        row.setBadFontHeight(true);
         row.setHeight(height);
-        row.setZeroHeight(zHeight);
-        return row.getZeroHeight();
-        row.setHeight((short) (height * 20));
-        return row.getHeight();
-        return (row.getHeight() / 20);
+}{        row.setZeroHeight(zHeight);
+}{        return row.getZeroHeight();
+}{        row.setHeight((short) (height * 20));
+}{        return row.getHeight();
+}{        return (row.getHeight() / 20);
+}

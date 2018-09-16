@@ -1,6 +1,7 @@
     private FFDataBase _base;
-        if ( _base.getIType() == FFDataBase.ITYPE_TEXT )
+{        if ( _base.getIType() == FFDataBase.ITYPE_TEXT )
         if ( _base.getIType() == FFDataBase.ITYPE_CHCK
                 || _base.getIType() == FFDataBase.ITYPE_DROP )
         if ( _base.getIType() == FFDataBase.ITYPE_DROP )
-        _base.serialize( buffer, offset );
+}{        _base.serialize( buffer, offset );
+}

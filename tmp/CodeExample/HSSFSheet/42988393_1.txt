@@ -1,3 +1,4 @@
         HSSFSheet st = wb.getSheetAt(0);
         countRows = st.getPhysicalNumberOfRows()-1;
-          HSSFRow row = st.getRow(i);
+{          HSSFRow row = st.getRow(i);
+}

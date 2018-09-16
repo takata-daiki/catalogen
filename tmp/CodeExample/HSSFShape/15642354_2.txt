@@ -1,9 +1,10 @@
     protected int addStandardOptions( HSSFShape shape, EscherOptRecord opt )
-        if ( shape.isNoFill() )
+{        if ( shape.isNoFill() )
         opt.addEscherProperty( new EscherRGBProperty( EscherProperties.FILL__FILLCOLOR, shape.getFillColor() ) );
         opt.addEscherProperty( new EscherRGBProperty( EscherProperties.LINESTYLE__COLOR, shape.getLineStyleColor() ) );
         if (shape.getLineWidth() != HSSFShape.LINEWIDTH_DEFAULT)
-            opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.LINESTYLE__LINEWIDTH, shape.getLineWidth()));
-        if (shape.getLineStyle() != HSSFShape.LINESTYLE_SOLID)
-            opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.LINESTYLE__LINEDASHING, shape.getLineStyle()));
+{            opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.LINESTYLE__LINEWIDTH, shape.getLineWidth()));
+}        if (shape.getLineStyle() != HSSFShape.LINESTYLE_SOLID)
+{            opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.LINESTYLE__LINEDASHING, shape.getLineStyle()));
             if (shape.getLineStyle() == HSSFShape.LINESTYLE_NONE)
+}}

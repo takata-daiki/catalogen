@@ -1,7 +1,7 @@
         ParagraphProperties properties = new ParagraphProperties();
         properties.setIstd( papx.getIstd() );
         if ( properties.getIlfo() != 0 && listTables != null )
-                lfo = listTables.getLfo( properties.getIlfo() );
-                        properties.getIlfo(), " that does not exists" );
-                        properties.getIlvl() );
-        if ( properties.getIlfo() > 0 )
+{{                lfo = listTables.getLfo( properties.getIlfo() );
+}{                        properties.getIlfo(), " that does not exists" );
+}{                        properties.getIlvl() );
+}}        if ( properties.getIlfo() > 0 )

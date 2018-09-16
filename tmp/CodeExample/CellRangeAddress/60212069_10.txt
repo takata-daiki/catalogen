@@ -1,3 +1,4 @@
   public static void fill(HSSFSheet sh, CellRangeAddress srcCRA, CellRangeAddress distCRA, byte lookIn){
-        HSSFRow srcRow = getRow(sh, srcCRA.getFirstRow()+(countRow++));
-          HSSFCell srcCell = getCell(srcRow, srcCRA.getFirstColumn()+(countCol++));
+{{        HSSFRow srcRow = getRow(sh, srcCRA.getFirstRow()+(countRow++));
+{          HSSFCell srcCell = getCell(srcRow, srcCRA.getFirstColumn()+(countCol++));
+}}}

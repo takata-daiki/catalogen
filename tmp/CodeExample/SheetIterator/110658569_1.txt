@@ -1,3 +1,4 @@
     private void processSheets(final XSSFReader.SheetIterator sheetsData, final SheetProcessor sheetProcessor, final SharedStringsTable sharedStringsTable)
-        while(sheetsData.hasNext())
-            processNext(sheetsData.next(), sheetsData.getSheetName(), sheetProcessor, sharedStringsTable);
+{        while(sheetsData.hasNext())
+{            processNext(sheetsData.next(), sheetsData.getSheetName(), sheetProcessor, sharedStringsTable);
+}}

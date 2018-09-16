@@ -1,4 +1,5 @@
   private PackagePart activePart;
-          xliffReader.open(new RawDocument(activePart.getInputStream(), "UTF-8", srcLoc, srcLoc));
-              activePart.getPartName().getName()), e);
-    String partName = activePart.getPartName().toString();
+{{{          xliffReader.open(new RawDocument(activePart.getInputStream(), "UTF-8", srcLoc, srcLoc));
+}{              activePart.getPartName().getName()), e);
+}}}{    String partName = activePart.getPartName().toString();
+}

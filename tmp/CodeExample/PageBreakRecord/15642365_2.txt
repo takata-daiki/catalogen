@@ -1,6 +1,7 @@
     protected PageBreakRecord            colBreaks         =     null;
-      colBreaks.addBreak(column, fromRow, toRow);
-      colBreaks.removeBreak(column);
-      return (colBreaks == null) ? false : colBreaks.getBreak(column) != null;
-      return colBreaks.getBreaksIterator();
-      return (colBreaks == null) ? 0 : (int)colBreaks.getNumBreaks();
+{      colBreaks.addBreak(column, fromRow, toRow);
+}{      colBreaks.removeBreak(column);
+}{      return (colBreaks == null) ? false : colBreaks.getBreak(column) != null;
+}{      return colBreaks.getBreaksIterator();
+}{      return (colBreaks == null) ? 0 : (int)colBreaks.getNumBreaks();
+}
