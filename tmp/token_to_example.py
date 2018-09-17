@@ -74,6 +74,20 @@ def extract(class_name, dic):
 
         # Search lines including the instance methods
         line_num = set([dic[s][2]])
+        for i in range(s)[::-1]:
+            if dic[i][2] == dic[s][2] and dic[i][0] == '(':
+                break
+            if i > 1 and dic[i - 1][0] == ')' and dic[i][0] == '{':
+                st = set()
+                for j in range(i - 1)[::-1]:
+                    st.add(dic[j][2])
+                    if dic[j][0] == '(':
+                        if dic[j - 2][0] != '.' and dic[j - 1][1] == 'Identifier':
+                            line_num |= st
+                        break
+                if len(line_num) > 1:
+                    break
+
         for n in token_num:
             line_num.add(dic[n][2])
             for i in range(n)[::-1]:  # front
