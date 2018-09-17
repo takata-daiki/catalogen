@@ -1,8 +1,12 @@
     protected RowRecordsAggregate        rows              =     null;
 {{{                retval.rows.insertRow(row);
-}}}{{{                rows.getPhysicalNumberOfRows(),
+}}}{{{                records.size(), cells.getPhysicalNumberOfCells(),
+                rows.getPhysicalNumberOfRows(),
+                records.size() + cells.getPhysicalNumberOfCells()
                 + rows.getPhysicalNumberOfRows() - 2
-}}               + rows.getPhysicalNumberOfRows() - 2;
+}            });
+}        return records.size() + cells.getPhysicalNumberOfCells()
+               + rows.getPhysicalNumberOfRows() - 2;
 }{      index.setFirstRow(rows.getFirstRowNum());
       index.setLastRowAdd1(rows.getLastRowNum()+1);
       int blockCount = rows.getRowBlockCount();
@@ -11,6 +15,7 @@
                                                      rows.getEndRowNumberForBlock(block));
         dbCellOffset += (8 + (rows.getRowCountForBlock(block) * 2));
 }}{         RowRecord existingRow = rows.getRow(row.getRowNumber());
+         if (existingRow != null)
            rows.removeRow(existingRow);
         rows.insertRow(row);
 }{        rows.removeRow(row);

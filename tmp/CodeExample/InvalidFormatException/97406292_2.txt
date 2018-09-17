@@ -1,2 +1,2 @@
     } catch (InvalidFormatException e) {
-          + e.getMessage());
+      throw new IllegalStateException(e);

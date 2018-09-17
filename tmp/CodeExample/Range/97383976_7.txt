@@ -1,2 +1,9 @@
-            Range fieldContent = field.firstSubrange( parentRange );
-            CharacterRun cr = fieldContent.getCharacterRun( fieldContent
+            Range formulaRange = new Range( range.getCharacterRun(
+                    beginMark + 1 ).getStartOffset(), range.getCharacterRun(
+                    separatorMark - 1 ).getEndOffset(), range )
+            {
+                @Override
+                public String toString()
+                {
+                    return "Dead field formula subrange: " + super.toString();
+}}            String formula = formulaRange.text();

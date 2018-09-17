@@ -1,0 +1,5 @@
+    protected void visitTableRow( XWPFTableRow row, T tableContainer )
+        throws Exception
+    {
+        List<XWPFTableCell> cells = row.getTableCells();
+}

@@ -1,3 +1,4 @@
   protected void createDataRows(XSSFSheet dataSheet) {
+    int rowIndex = 1;
 {{        Row row = dataSheet.createRow((short) rowIndex);
 }}

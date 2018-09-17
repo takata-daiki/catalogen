@@ -1,6 +1,6 @@
-    private int savePlex( FileInformationBlock fib, FieldsDocumentPart part,
-{{            fib.setFieldsPlcfOffset( part, outputStream.getOffset() );
-            fib.setFieldsPlcfLength( part, 0 );
-}        fib.setFieldsPlcfOffset( part, start );
-        fib.setFieldsPlcfLength( part, length );
+    private PlexOfCps readPLCF( byte[] tableStream, FileInformationBlock fib,
+            FieldsDocumentPart documentPart )
+    {
+        int start = fib.getFieldsPlcfOffset( documentPart );
+        int length = fib.getFieldsPlcfLength( documentPart );
 }

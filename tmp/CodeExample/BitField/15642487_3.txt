@@ -1,4 +1,2 @@
-    static final private BitField rowsumsbelow        = BitFieldFactory.getInstance(
-{        field_1_wsbool = rowsumsbelow.setByteBoolean(field_1_wsbool, below);
-}{        return rowsumsbelow.isSet(field_1_wsbool);
-}
+    static final private BitField applystyles         =
+        BitFieldFactory.getInstance(0x20);                               // whether to apply automatic styles to outlines

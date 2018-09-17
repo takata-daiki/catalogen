@@ -1,3 +1,4 @@
     public XSLFSheet appendContent(XSLFSheet src){
+        CTGroupShape spTree = getSpTree();
         CTGroupShape srcTree = src.getSpTree();
         List<XSLFShape> srcShapes = src.getShapeList();

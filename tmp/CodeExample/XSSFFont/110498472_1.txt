@@ -1,5 +1,6 @@
     XSSFFont font = newStyle.getFont();
     if (font.getBold())
+      return false;
     if (font.getItalic())
     if (font.getUnderline() != XSSFFont.U_NONE)
     if (font.getFontHeight() != XSSFFont.DEFAULT_FONT_SIZE)

@@ -1,4 +1,5 @@
                             XWPFPictureData pictureData = getPictureData( picture );
 {{                                    extractor.extract( WORD_MEDIA + pictureData.getFileName(), pictureData.getData() );
-}{                                                "Error while extracting the image " + pictureData.getFileName(), e );
+}{                                    LOGGER.log( Level.SEVERE,
+                                                "Error while extracting the image " + pictureData.getFileName(), e );
 }}

@@ -1,2 +1,5 @@
+        case 0x66:
             ShadingDescriptor80 oldDescriptor = new ShadingDescriptor80(
+                    sprm.getGrpprl(), sprm.getGrpprlOffset() );
             ShadingDescriptor newDescriptor = oldDescriptor
+                    .toShadingDescriptor();

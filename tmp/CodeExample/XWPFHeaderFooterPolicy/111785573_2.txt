@@ -1,5 +1,7 @@
+    private void extractHeaders(
             XHTMLContentHandler xhtml, XWPFHeaderFooterPolicy hfPolicy)
-{        if (hfPolicy.getFirstPageHeader() != null) {
+            throws SAXException {
+        if (hfPolicy.getFirstPageHeader() != null) {
             xhtml.element("p", hfPolicy.getFirstPageHeader().getText());
 }        if (hfPolicy.getEvenPageHeader() != null) {
             xhtml.element("p", hfPolicy.getEvenPageHeader().getText());

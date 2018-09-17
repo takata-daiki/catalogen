@@ -1,3 +1,4 @@
-    private void testTableCell( XWPFTableCell cell, XWPFStylesDocument stylesDocument )
-{        XWPFParagraph paragraph = cell.getParagraphs().get( 0 );
+        for ( XWPFTableCell cell : cells )
+        {
+            testTableCell( cell, stylesDocument );
 }

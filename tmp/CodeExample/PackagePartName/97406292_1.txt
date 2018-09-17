@@ -1,2 +1,2 @@
-          PackagePartName partName = part.getPartName();
-          String name = partName.getName();
+  public PackagePart getPart(PackagePartName partName) {
+    throwExceptionIfWriteOnly();

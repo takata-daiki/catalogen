@@ -1,0 +1,3 @@
+        PackagePartName targetPartName = PackagingURIHelper
+            .createPartName(PackagingURIHelper.resolvePartUri(
+                partName.getURI(), relationship.getTargetURI()));

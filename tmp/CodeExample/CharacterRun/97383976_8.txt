@@ -1,4 +1,7 @@
-            CharacterRun characterRun, final Element block )
-{{                    .getNoteIndexByAnchorPosition( characterRun
-}{            int noteIndex = endnotes.getNoteIndexByAnchorPosition( characterRun
-}}
+            CharacterRun separator = field
+                    .getMarkSeparatorCharacterRun( parentRange );
+            if ( separator.isOle2() )
+            {
+                boolean processed = processOle2( wordDocument, separator,
+                        currentBlock );
+}

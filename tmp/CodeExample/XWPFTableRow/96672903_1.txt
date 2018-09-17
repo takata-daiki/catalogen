@@ -1,3 +1,4 @@
     public CTTrPr getTrPr( XWPFTableRow row )
-{        return row.getCtRow().getTrPr();
+    {
+        return row.getCtRow().getTrPr();
 }

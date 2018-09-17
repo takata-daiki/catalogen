@@ -1,0 +1,4 @@
+  protected void writeFooter(HSSFSheet sheet, int rowIdx, int dataCount) {
+}  }
+  private void prepareStyle() {
+    csText = wb.createCellStyle();

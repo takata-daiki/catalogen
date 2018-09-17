@@ -1,3 +1,8 @@
+  private static org.docx4j.wml.P handleP(Paragraph p,
       org.apache.poi.hwpf.model.StyleSheet stylesheet,
-{{      String styleName = stylesheet
+      MainDocumentPart documentPart,
+      org.docx4j.wml.ObjectFactory factory) {
+    org.docx4j.wml.P wmlP =  null;         
+{      String styleName = stylesheet
+          .getStyleDescription(p.getStyleIndex()).getName();
 }}

@@ -6,7 +6,8 @@
        (crB.getFirstRow() == crA.getFirstRow() && crB.getLastRow() == crA.getLastRow() &&
        (Math.abs(crB.getLastColumn() - crA.getFirstColumn()) == 1 || 
            Math.abs(crB.getFirstColumn()-crA.getLastColumn())==1));
-{        new CellRangeAddress(Math.min(crA.getFirstRow(), crB.getFirstRow()), 
+{      return 
+        new CellRangeAddress(Math.min(crA.getFirstRow(), crB.getFirstRow()), 
                    Math.max(crA.getLastRow(), crB.getLastRow()),
                    Math.min(crA.getFirstColumn(), crB.getFirstColumn()), 
                    Math.max(crA.getLastColumn(), crB.getLastColumn()));

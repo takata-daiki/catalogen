@@ -1,3 +1,7 @@
+    protected static ParagraphProperties newParagraph_applyStyleProperties(
             StyleSheet styleSheet, PAPX papx, ParagraphProperties properties )
-{        int style = papx.getIstd();
+    {
+        if ( styleSheet == null )
+            return properties;
+        int style = papx.getIstd();
 }

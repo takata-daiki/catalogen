@@ -1,3 +1,2 @@
-  PackagePart createPart(PackagePartName partName, String contentType,
-{{          "A part with the name '" + partName.getName() + "'" +
-}}
+          PackagePartName partName = part.getPartName();
+          String name = partName.getName();

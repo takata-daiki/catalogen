@@ -1,3 +1,4 @@
         POIFSFileSystem filesystem;
         for (Entry entry : filesystem.getRoot()) {
+            POIFSDocumentType type = POIFSDocumentType.detectType(entry);
 }

@@ -1,5 +1,6 @@
     private PropertyTable _property_table;
 {        _property_table.preWrite();
+        SmallBlockTableWriter      sbtw       =
             new SmallBlockTableWriter(bigBlockSize, _documents, _property_table.getRoot());
         header_block_writer.setPropertyStart(_property_table.getStartBlock());
 }{{            _root = new DirectoryNode(_property_table.getRoot(), this, null);

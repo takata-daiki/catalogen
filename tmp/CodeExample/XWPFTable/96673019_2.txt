@@ -1,0 +1,5 @@
+    private StylableTable createPDFTable( XWPFTable table, float[] colWidths, IITextContainer pdfParentContainer )
+        throws DocumentException
+    {
+        TableWidth tableWidth = stylesDocument.getTableWidth( table );
+}

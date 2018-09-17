@@ -1,5 +1,6 @@
         FFDataBaseAbstractType other = (FFDataBaseAbstractType) obj;
         if ( field_1_version != other.field_1_version )
+            return false;
         if ( field_2_bits != other.field_2_bits )
         if ( field_3_cch != other.field_3_cch )
         if ( field_4_hps != other.field_4_hps )

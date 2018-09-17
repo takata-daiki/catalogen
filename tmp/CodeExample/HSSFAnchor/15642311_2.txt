@@ -1,0 +1,7 @@
+    public void setAnchor( HSSFAnchor anchor )
+    {
+        if ( parent == null )
+        {
+            if ( anchor instanceof HSSFChildAnchor )
+                throw new IllegalArgumentException( "Must use client anchors for shapes directly attached to sheet." );
+}}

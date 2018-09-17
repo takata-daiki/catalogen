@@ -1,0 +1,2 @@
+    catch (OfficeXmlFileException e) {
+      throw new InvalidPropertyValueException("data","error.dbmsgsrc.unsupportedExcelVersion", "The Excel version is not support. Please save Excel file as version 97 - 2003");

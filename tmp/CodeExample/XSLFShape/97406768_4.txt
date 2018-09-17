@@ -1,3 +1,2 @@
-        for(XSLFShape shape : getShapeList()) {
-            shape.applyTransform(graphics);
-            shape.draw(graphics);
+            XSLFShape s2 = tgtShapes.get(numShapes + i);
+            s2.copy(s1);

@@ -1,2 +1,3 @@
                 HWPFDocument newFormat = (HWPFDocument) wordDocument;
                 Picture picture = newFormat.getPicturesTable().extractPicture(
+                        characterRun, true );

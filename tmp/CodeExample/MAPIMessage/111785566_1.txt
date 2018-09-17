@@ -7,6 +7,8 @@
            metadata.set(Metadata.MESSAGE_BCC, msg.getDisplayBCC());
            metadata.set(Metadata.SUBJECT, msg.getConversationTopic());
 {           for(String recipientAddress : msg.getRecipientEmailAddressList()) {
+               if(recipientAddress != null)
+             metadata.add(Metadata.MESSAGE_RECIPIENT_ADDRESS, recipientAddress);
 }}           if(msg.getMessageDate() != null) {
               metadata.set(Metadata.EDIT_TIME, msg.getMessageDate().getTime().toString());
               metadata.set(Metadata.LAST_SAVED, msg.getMessageDate().getTime().toString());
@@ -17,4 +19,5 @@
 {               header(xhtml, "Recipients", msg.getRecipientEmailAddress());
 }           xhtml.element("p", msg.getTextBody());
            for (AttachmentChunks attachment : msg.getAttachmentFiles()) {
+               xhtml.startElement("div", "class", "attachment-entry");
 }}}

@@ -1,5 +1,8 @@
     private IntList    _entries;
-{{                                                      + _entries.size(), size);
+{{            int calculated_bat_blocks  =
+                BATBlock.calculateStorageRequirements(bat_blocks
+                                                      + xbat_blocks
+                                                      + _entries.size(), size);
 }}{        int startBlock = _entries.size();
 {{                _entries.add(index++);
 }            _entries.add(POIFSConstants.END_OF_CHAIN);

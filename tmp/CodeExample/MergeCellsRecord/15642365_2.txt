@@ -1,3 +1,5 @@
                 MergeCellsRecord record = (MergeCellsRecord) mergedRecords.get(n);
                 if (startNumRegions + record.getNumAreas() > index)
-                startNumRegions += record.getNumAreas(); 
+                {
+                    pos = n;
+}                startNumRegions += record.getNumAreas(); 

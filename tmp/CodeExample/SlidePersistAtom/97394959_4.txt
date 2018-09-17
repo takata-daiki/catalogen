@@ -1,4 +1,7 @@
       SlidePersistAtom spa = sas[j].getSlidePersistAtom();
       if (spa.getSlideIdentifier() < 0) {
-}{        if (prev.getSlideIdentifier() < spa.getSlideIdentifier()) {
+}      } else {
+        if (prev == null) {
+          prev = spa;
+}        if (prev.getSlideIdentifier() < spa.getSlideIdentifier()) {
 }}

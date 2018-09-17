@@ -1,4 +1,8 @@
     static final private BitField _top_border_palette_idx    =
-{            _top_border_palette_idx.setValue(field_8_adtl_palette_options,
+        BitFieldFactory.getInstance(0x0000007F);
+{        field_8_adtl_palette_options =
+            _top_border_palette_idx.setValue(field_8_adtl_palette_options,
+                                             border);
 }{        return ( short ) _top_border_palette_idx
+            .getValue(field_8_adtl_palette_options);
 }

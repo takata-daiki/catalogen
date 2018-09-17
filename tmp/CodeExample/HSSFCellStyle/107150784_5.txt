@@ -1,0 +1,2 @@
+    private void addCell(HSSFRow row, int i, String text, HSSFCellStyle style) {
+      HSSFCell cell = row.createCell((short) i);

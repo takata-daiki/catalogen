@@ -1,5 +1,7 @@
         SlideListWithText nslwt = _documentRecord.getNotesSlideListWithText();
         for (SlideAtomsSet ns : nslwt.getSlideAtomsSets()) {
-}{          nslwt.setSlideAtomsSets(na.toArray(new SlideAtomsSet[na.size()]));
+          if (ns.getSlidePersistAtom().getSlideIdentifier() != notesId) {
+            na.add(ns);
+}}{          nslwt.setSlideAtomsSets(na.toArray(new SlideAtomsSet[na.size()]));
           nslwt.setChildRecord(records.toArray(new Record[records.size()]));
 }

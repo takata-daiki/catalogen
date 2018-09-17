@@ -5,5 +5,14 @@
                                        header_block.getBATArray(),
                                        header_block.getXBATCount(),
                                        header_block.getXBATIndex(),
+                                       data_blocks);
+        processProperties(
+            SmallBlockTableReader.getSmallDocumentBlocks(
+                  bigBlockSize, data_blocks, properties.getRoot(),
                 header_block.getSBATStart()
+            ),
+            data_blocks,
+            properties.getRoot().getChildren(),
+            null,
             header_block.getPropertyStart()
+        );

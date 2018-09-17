@@ -1,0 +1,13 @@
+    @Override
+    protected void endVisitTableCell( XWPFTableCell cell, IITextContainer tableContainer,
+                                      IITextContainer tableCellContainer )
+    {
+}    }
+    protected void visitPicture( XWPFPicture picture, IITextContainer parentContainer )
+        throws Exception
+    protected void endVisitDocument()
+    protected void visitHeader( CTHdrFtrRef headerRef )
+    protected void visitFooter( CTHdrFtrRef footerRef )
+    public String getClassName( String familyName, String styleName )
+{        StringBuilder className = new StringBuilder();
+}

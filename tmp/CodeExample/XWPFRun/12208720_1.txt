@@ -1,4 +1,6 @@
     public static StringBuilder getStyle( XWPFRun run, XWPFStyle runStyle, XWPFStyle style, CTDocDefaults defaults )
-{        float fontSize = run.getFontSize();
+    {
+        StringBuilder htmlStyle = new StringBuilder();
+        float fontSize = run.getFontSize();
         UnderlinePatterns underlinePatterns = run.getUnderline();
 }

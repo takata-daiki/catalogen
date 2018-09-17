@@ -1,0 +1,4 @@
+  private HSSFCellStyle createBorderedBoldFontCellStyle(
+      final HSSFWorkbook workbook) {
+    final HSSFCellStyle cellStyle = createBorderedHeaderCellStyle(workbook);
+}

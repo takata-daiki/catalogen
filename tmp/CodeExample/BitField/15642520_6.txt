@@ -1,4 +1,5 @@
     static final private BitField notes         =
+        BitFieldFactory.getInstance(0x20);   // print the notes
 {        field_6_options = notes.setShortBoolean(field_6_options, printnotes);
 }{        return notes.isSet(field_6_options);
 }

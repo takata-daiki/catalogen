@@ -1,0 +1,2 @@
+    } catch(org.apache.poi.hpsf.WritingNotSupportedException wnse) {
+      logger.log( POILogger.ERROR, "Couldn't write property set with name " + name + " as not supported by HPSF yet");

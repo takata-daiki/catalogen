@@ -1,5 +1,7 @@
                 EscherDggRecord.FileIdCluster c = dgg.getFileIdClusters()[i];
                 if (c.getDrawingGroupId() == drawingGroupId)
-{                    if (c.getNumShapeIdsUsed() != 1024)
-{                        c.incrementShapeId();
+                {
+                    if (c.getNumShapeIdsUsed() != 1024)
+                    {
+                        c.incrementShapeId();
 }}

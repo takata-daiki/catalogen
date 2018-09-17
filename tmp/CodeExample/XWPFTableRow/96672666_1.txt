@@ -1,0 +1,4 @@
+    public TableHeight getTableRowHeight( XWPFTableRow row )
+    {
+        return TableRowHeightValueProvider.INSTANCE.getValue( row, this );
+}

@@ -1,3 +1,5 @@
         catch (UnsupportedVariantTypeException ex)
-{            value = ex.getValue();
+        {
+            VariantSupport.writeUnsupportedTypeMessage(ex);
+            value = ex.getValue();
 }

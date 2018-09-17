@@ -1,2 +1,8 @@
-        XWPFTableRow row = cell.getTableRow();
-        XWPFTable table = row.getTable();
+    @Override
+    protected void startVisitTableRow( XWPFTableRow row, IITextContainer tableContainer, int rowIndex, boolean headerRow )
+        throws Exception
+    {
+        if ( headerRow )
+        {
+            PdfPTable table = (PdfPTable) tableContainer;
+}}

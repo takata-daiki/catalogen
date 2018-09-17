@@ -1,3 +1,5 @@
-    protected String[] getStyleID( XWPFRun run )
-{        XWPFParagraph paragraph = run.getParagraph();
+    @Override
+    public Value getValueFromElement( XWPFRun run, XWPFStylesDocument stylesDocument )
+    {
+        return getValue( getRPr( run ), stylesDocument );
 }

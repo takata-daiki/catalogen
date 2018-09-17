@@ -4,4 +4,5 @@
 }{    final HSSFCellStyle headerCellStyle = workbook.createCellStyle();
 }{    final HSSFCellStyle bodyCellStyle = workbook.createCellStyle();
 }{{      drawingPatriarch = workbook.getSheet(sheetName)
+          .createDrawingPatriarch();
 }}

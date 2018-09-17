@@ -1,3 +1,4 @@
         Paragraph p = s.getParagraph(y);
                 if (p.isInTable()) {
+          Table t = s.getTable(p);
 }

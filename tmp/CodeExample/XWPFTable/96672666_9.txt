@@ -1,0 +1,4 @@
+    public TableCellBorder getTableBorderInsideV( XWPFTable table )
+    {
+        return TableBorderInsideVValueProvider.INSTANCE.getValue( table, this );
+}

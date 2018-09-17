@@ -1,0 +1,7 @@
+    public TableCellBorder getTableCellBorder( XWPFTableCell cell, BorderSide borderSide )
+    {
+        switch ( borderSide )
+        {
+            case TOP:
+                return getTableCellBorderTop( cell );
+}}

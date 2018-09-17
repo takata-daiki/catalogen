@@ -1,4 +1,7 @@
+    @Override
     protected void visitRun( XWPFRun run, boolean pageNumber, String url, Object paragraphContainer )
-{        XWPFParagraph paragraph = run.getParagraph();
+        throws Exception
+    {
+        XWPFParagraph paragraph = run.getParagraph();
         CTRPr rPr = run.getCTR().getRPr();
 }

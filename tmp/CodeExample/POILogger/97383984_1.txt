@@ -1,4 +1,8 @@
     private static final POILogger logger = POILogFactory
-{{            logger.log( POILogger.WARN, "Uknown or unmapped language code: ",
-}}{          logger.log( POILogger.INFO, "NYI: toListItemNumberLabel(): " + format );
+            .getLogger( AbstractWordUtils.class );
+{{        default:
+            logger.log( POILogger.WARN, "Uknown or unmapped language code: ",
+                    Integer.valueOf( languageCode ) );
+}}{        if ( format != 0 )
+          logger.log( POILogger.INFO, "NYI: toListItemNumberLabel(): " + format );
 }

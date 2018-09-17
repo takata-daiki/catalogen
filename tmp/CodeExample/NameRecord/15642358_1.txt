@@ -1,3 +1,4 @@
           NameRecord record = ( NameRecord ) iterator.next();
           if (record.getBuiltInName() == name && record.getIndexToSheet() == sheetIndex) {
+              return record;
 }

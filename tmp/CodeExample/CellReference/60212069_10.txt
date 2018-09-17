@@ -1,0 +1,2 @@
+  public static void replace(HSSFSheet sh, CellReference topLeft, CellReference botRight, Object valueSearch, Object valueReplace, byte lookIn, XlLookAt lookAt, XlSearchDirection searchDirection){
+    replace(sh, new  AreaReference(topLeft, botRight), valueSearch, valueReplace, lookIn, lookAt, searchDirection);

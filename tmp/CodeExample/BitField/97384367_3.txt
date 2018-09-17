@@ -1,4 +1,2 @@
-    private static final BitField BITFIELD_TYPE = BitFieldFactory
-{        return BITFIELD_TYPE.getValue( opcode );
-}{        return BITFIELD_TYPE.getValue( _value );
-}
+    private static final BitField BITFIELD_SPECIAL = BitFieldFactory
+            .getInstance( 0x200 );

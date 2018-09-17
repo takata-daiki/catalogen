@@ -1,4 +1,9 @@
     protected int getNumberRowsSpanned( Table table,
-{        final int numRows = table.numRows();
+            final int[] tableCellEdges, int currentRowIndex,
+            int currentColumnIndex, TableCell tableCell )
+    {
+        if ( !tableCell.isFirstVerticallyMerged() )
+            return 1;
+        final int numRows = table.numRows();
 {            TableRow nextRow = table.getRow( r1 );
 }}

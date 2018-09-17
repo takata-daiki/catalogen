@@ -1,0 +1,4 @@
+    public Color getTextHighlighting( XWPFRun run )
+    {
+        return RunTextHighlightingValueProvider.INSTANCE.getValue( run, this );
+}

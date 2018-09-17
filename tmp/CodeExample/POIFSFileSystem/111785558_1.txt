@@ -1,3 +1,4 @@
-            POIFSFileSystem filesystem, String entryName)
-{{                (DocumentEntry) filesystem.getRoot().getEntry(entryName);
-}}
+    public void parseSummaries(POIFSFileSystem filesystem)
+            throws IOException, TikaException {
+        parseSummaryEntryIfExists(filesystem, SUMMARY_INFORMATION);
+}

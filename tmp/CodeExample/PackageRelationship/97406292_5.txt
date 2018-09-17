@@ -1,0 +1,6 @@
+      for (PackageRelationship relationship : partToDelete
+          .getRelationships()) {
+        PackagePartName targetPartName = PackagingURIHelper
+            .createPartName(PackagingURIHelper.resolvePartUri(
+                partName.getURI(), relationship.getTargetURI()));
+}

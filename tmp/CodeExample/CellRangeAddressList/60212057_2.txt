@@ -1,9 +1,16 @@
           CellRangeAddressList areas =  ExcelUtils.getEntireRow(workR);
           for(int iArea=0; iArea < areas.countRanges(); iArea++)
             ExcelUtils.paste(sh, areas.getCellRangeAddress(iArea), buff, ExcelUtils.xlFormats);
-{{{                      areas.getCellRangeAddress(0));
+{{{                  crA = ExcelUtils.intersectRectangular(sArea.getCellRangeAddress(indexArea), 
+                      areas.getCellRangeAddress(0));
 }}}{            for(int iArea=0; iArea < areas.countRanges(); iArea++){
+              CellRangeAddress crA = ExcelUtils.intersectRectangular(new CellRangeAddress(0, ExcelUtils.xlMaxNumRow-1, formatCol, formatCol),
                   areas.getCellRangeAddress(iArea));
 }}{{              for(int iArea=0; iArea < areas.countRanges(); iArea++){
+                CellRangeAddress crA = ExcelUtils.intersectRectangular(
+                    new CellRangeAddress(0, 
+                        ExcelUtils.xlMaxNumRow-1, 
+                        formatCol, 
+                        lastCol - formatCol), 
                         areas.getCellRangeAddress(iArea));
 }}}

@@ -1,3 +1,5 @@
   private void setColumnHeaders( XSSFRow row,  List<String> delist){
+     if(logger.isDebugEnabled())
+        logger.debug("setColumns ---- "+delist.size() );
 {        XSSFCell cell = row.createCell(columnIndex);
 }

@@ -1,4 +1,6 @@
       for (HSSFDataValidation validation : validationData) {
         for (CellRangeAddress address : validation.getRegions()
-{          String formula = validation.getValidationConstraint()
+            .getCellRangeAddresses()) {
+          String formula = validation.getValidationConstraint()
+              .getFormula1();
 }

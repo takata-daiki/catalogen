@@ -1,0 +1,6 @@
+    @Override
+    public void convert( XWPFDocument XWPFDocument, OutputStream out, PDFViaITextOptions options )
+        throws XWPFConverterException, IOException
+    {
+        super.convert( XWPFDocument, out, options );
+}

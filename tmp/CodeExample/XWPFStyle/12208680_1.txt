@@ -1,3 +1,7 @@
     public static CTRPr getRPr( XWPFStyle style )
-{        CTStyle ctStyle = style.getCTStyle();
+    {
+        if ( style == null )
+        {
+            return null;
+}        CTStyle ctStyle = style.getCTStyle();
 }

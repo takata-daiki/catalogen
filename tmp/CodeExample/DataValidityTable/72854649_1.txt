@@ -1,3 +1,6 @@
     DataValidityTable dvt = sheet.getDataValidityTable();
     dvt.visitContainedRecords(new RecordAggregate.RecordVisitor() {
-}
+      public void visitRecord(Record r) {
+        if (r instanceof DVRecord) {
+          DVRecord dvRecord = (DVRecord) r;
+}}}

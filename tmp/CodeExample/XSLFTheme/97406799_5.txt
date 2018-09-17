@@ -1,0 +1,3 @@
+                    XSLFTheme theme = _shape.getSheet().getTheme();
+                    XmlObject lnProps = theme.getXmlObject().
+                            getThemeElements().getFmtScheme().getLnStyleLst().selectPath("*")[idx - 1];

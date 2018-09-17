@@ -1,0 +1,6 @@
+    private static Paint createRadialGradientPaint(
+            CTGradientFillProperties gradFill, Rectangle2D anchor,
+            XSLFTheme theme, CTSchemeColor phClr) {
+        @SuppressWarnings("deprecation")
+        CTGradientStop[] gs = gradFill.getGsLst().getGsArray();
+}

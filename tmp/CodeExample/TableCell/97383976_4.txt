@@ -1,3 +1,4 @@
             TableCell nextCell = nextRow.getCell( currentColumnIndex );
             if ( !nextCell.isVerticallyMerged()
                     || nextCell.isFirstVerticallyMerged() )
+                break;

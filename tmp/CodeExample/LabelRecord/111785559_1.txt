@@ -1,2 +1,3 @@
+            case LabelRecord.sid: // strings stored directly in the cell
                 LabelRecord label = (LabelRecord) record;
                 addTextCell(record, label.getValue());

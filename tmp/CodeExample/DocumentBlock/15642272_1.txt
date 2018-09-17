@@ -1,3 +1,6 @@
             DocumentBlock block     = new DocumentBlock(stream, size);
             int           blockSize = block.size();
             if (block.partiallyRead())
+            {
+                break;
+}

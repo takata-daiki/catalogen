@@ -2,5 +2,7 @@
         sp.setRecordId( EscherSpRecord.RECORD_ID );
         sp.setOptions( (short) 0x0002 );
         sp.setShapeId( shapeId );
+        if (shape.getAnchor() instanceof HSSFClientAnchor)
             sp.setFlags( EscherSpRecord.FLAG_GROUP | EscherSpRecord.FLAG_HAVEANCHOR );
+        else
             sp.setFlags( EscherSpRecord.FLAG_GROUP | EscherSpRecord.FLAG_HAVEANCHOR | EscherSpRecord.FLAG_CHILD );

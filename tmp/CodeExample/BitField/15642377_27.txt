@@ -1,4 +1,6 @@
     static final private BitField _diag                     =
+        BitFieldFactory.getInstance(0xC000);
 {        field_7_palette_options = _diag.setShortValue(field_7_palette_options,
+                diag);
 }{        return _diag.getShortValue(field_7_palette_options);
 }

@@ -1,4 +1,12 @@
+    @Override
     protected IITextContainer startVisitParagraph( XWPFParagraph docxParagraph, ListItemContext itemContext,
-{{{                if ( ParagraphIndentationLeftValueProvider.INSTANCE.getValue( docxParagraph.getCTP().getPPr() ) == null )
-                if ( ParagraphIndentationHangingValueProvider.INSTANCE.getValue( docxParagraph.getCTP().getPPr() ) == null )
-}}}
+                                                   IITextContainer pdfParentContainer )
+        throws Exception
+    {
+        this.currentRunX = null;
+{{                if ( ParagraphIndentationLeftValueProvider.INSTANCE.getValue( docxParagraph.getCTP().getPPr() ) == null )
+                {
+                    Float indLeft = ParagraphIndentationLeftValueProvider.INSTANCE.getValue( lvlPPr );
+}                if ( ParagraphIndentationHangingValueProvider.INSTANCE.getValue( docxParagraph.getCTP().getPPr() ) == null )
+{                    Float hanging = stylesDocument.getIndentationHanging( lvlPPr );
+}}}}

@@ -1,3 +1,5 @@
       public void processFile(POIFSFileSystem filesystem, boolean listenForAllRecords)
-{            DocumentInputStream documentInputStream = filesystem.createDocumentInputStream("Workbook");
+        throws IOException, SAXException, TikaException {
+            HSSFRequest hssfRequest = new HSSFRequest();
+            DocumentInputStream documentInputStream = filesystem.createDocumentInputStream("Workbook");
 }

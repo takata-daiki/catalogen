@@ -1,2 +1,3 @@
+            case BoundSheetRecord.sid: // Worksheet index record
                 BoundSheetRecord boundSheetRecord = (BoundSheetRecord) record;
                 sheetNames.add(boundSheetRecord.getSheetname());

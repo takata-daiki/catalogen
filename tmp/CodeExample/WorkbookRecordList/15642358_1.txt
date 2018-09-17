@@ -47,7 +47,8 @@
         records.add( retval.createExtendedSST() );
         records.add( retval.createEOF() );
 }{        return records.size();
-}{        ( FontRecord ) records.get((records.getFontpos() - (numfonts - 1)) + index);
+}{        FontRecord retval =
+        ( FontRecord ) records.get((records.getFontpos() - (numfonts - 1)) + index);
 }{        records.add(records.getFontpos()+1, rec);
         records.setFontpos( records.getFontpos() + 1 );
 }{        return ( BackupRecord ) records.get(records.getBackuppos());
@@ -56,6 +57,7 @@
 }}{{            records.remove(records.getBspos() - (boundsheets.size() - 1) + sheetnum);
 }}{        TabIdRecord tir = ( TabIdRecord ) records.get(records.getTabpos());
 }{        int xfptr = records.getXfpos() - (numxfs - 1);
+        ExtendedFormatRecord retval =
         ( ExtendedFormatRecord ) records.get(xfptr);
 }{        records.add(records.getXfpos()+1, xf);
         records.setXfpos( records.getXfpos() + 1 );
@@ -68,6 +70,7 @@
 }}{        records.add(idx+1, externSheet);
         records.add(idx+1, supbook);
 }{        while ( pos < records.size() && records.get( pos ).getSid() != FormatRecord.sid )
+            pos++;
         records.add( pos, rec );
 }{        for (Iterator iterator = records.iterator(); iterator.hasNext(); ) {
 }}{        return records.getRecords();

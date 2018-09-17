@@ -1,2 +1,3 @@
+            case SeriesTextRecord.sid: // Chart label or title
                 SeriesTextRecord str = (SeriesTextRecord) record;
                 addTextCell(record, str.getText());

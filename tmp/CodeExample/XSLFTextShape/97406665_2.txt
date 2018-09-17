@@ -1,4 +1,2 @@
-            XSLFTextShape shape = getParentShape();
-            ok = shape.fetchShapeProperty(visitor);
-{                CTPlaceholder ph = shape.getCTPlaceholder();
-}
+    XSLFTextParagraph(CTTextParagraph p, XSLFTextShape shape){
+        _p = p;

@@ -1,3 +1,4 @@
     private void set(String name, Date value) {
-{            metadata.set(name, value.toString());
+        if (value != null) {
+            metadata.set(name, value.toString());
 }

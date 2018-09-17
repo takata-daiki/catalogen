@@ -1,3 +1,7 @@
+    @Internal
     void copy(XSLFShape sh) {
-{                    "Can't copy " + sh.getClass().getSimpleName() + " into " + getClass().getSimpleName());
+        if (!getClass().isInstance(sh)) {
+            throw new IllegalArgumentException(
+                    "Can't copy " + sh.getClass().getSimpleName() + " into " + getClass().getSimpleName());
 }        setAnchor(sh.getAnchor());
+}

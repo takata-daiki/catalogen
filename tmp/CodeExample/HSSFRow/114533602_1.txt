@@ -1,3 +1,6 @@
   public void genHerderRow(HSSFWorkbook wb, HSSFSheet sheet, HSSFRow row,
-{{      HSSFCell cell = row.createCell((short) 0);
+      String beginTime, String endTime) {
+    if (title != null) {
+      sheet.addMergedRegion(new Region(0, (short) 0, 0, (short) 7));
+      HSSFCell cell = row.createCell((short) 0);
 }}

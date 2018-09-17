@@ -1,2 +1,5 @@
-  public static void setRowHeight(HSSFSheet sh, AreaReference area, short height){
-    for(int row = area.getFirstCell().getRow(); row <= area.getLastCell().getRow(); row++)
+  public static ExcelBuffer copy (HSSFSheet sh, AreaReference areaRef){
+    Map<String, ExcelCell> mapCell = new HashMap<String, ExcelCell>();
+    int offsetRow = areaRef.getFirstCell().getRow();
+    int offsetCol = areaRef.getFirstCell().getCol();
+    CellReference[] celRefs = areaRef.getAllReferencedCells();

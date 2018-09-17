@@ -1,3 +1,4 @@
              for(EscherProperty property : escherOptRecord.getEscherProperties()){
                 if(EscherProperties.GROUPSHAPE__DESCRIPTION == property.getPropertyNumber()){
+                   byte[] complexData = ((EscherComplexProperty)property).getComplexData();
 }

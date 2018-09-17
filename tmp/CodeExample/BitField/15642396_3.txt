@@ -2,4 +2,5 @@
 {        return sharedFormula.isSet(field_5_options);
 }{      sharedFormula.setBoolean(field_5_options, flag);
 }{            buffer.append("      .sharedFormula         = ").append(sharedFormula.isSet(getOptions()))
+                .append("\n");
 }

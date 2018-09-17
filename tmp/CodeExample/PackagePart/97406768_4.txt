@@ -1,2 +1,4 @@
-        PackagePart pic = ppt.getAllPictures().get(pictureIdx).getPackagePart();
-                pic.getPartName(), TargetMode.INTERNAL, blipRel.getRelationshipType());
+    String importBlip(String blipId, PackagePart packagePart) {
+        PackageRelationship blipRel = packagePart.getRelationship(blipId);
+{            blipPart = packagePart.getRelatedPart(blipRel);
+}

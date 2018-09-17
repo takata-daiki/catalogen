@@ -1,0 +1,2 @@
+        } catch(ChunkNotFoundException e) {
+           throw new TikaException("POI MAPIMessage broken - didn't return null on missing chunk", e);

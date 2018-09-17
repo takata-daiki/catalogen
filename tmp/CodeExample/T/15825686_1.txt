@@ -1,0 +1,5 @@
+  @SuppressWarnings("unchecked")
+  public <T> T initialize(T proxy) {
+    if (proxy instanceof HibernateProxy) {
+      LazyInitializer init = ((HibernateProxy) proxy).getHibernateLazyInitializer();
+}}

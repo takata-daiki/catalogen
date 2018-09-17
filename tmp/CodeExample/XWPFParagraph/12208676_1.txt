@@ -1,4 +1,5 @@
-    protected void visitParagraphBody( XWPFParagraph paragraph, T paragraphContainer )
-{        List<XWPFRun> runs = paragraph.getRuns();
-{            for ( XWPFRun run : paragraph.getRuns() )
-}}
+    protected void visitParagraph( XWPFParagraph paragraph, T container )
+        throws Exception
+    {
+        T paragraphContainer = startVisitPargraph( paragraph, container );
+}

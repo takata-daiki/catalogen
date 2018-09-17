@@ -1,4 +1,5 @@
     POIFSFileSystem fsys = new POIFSFileSystem(in);
+    DocumentEntry headerProps =
         (DocumentEntry)fsys.getRoot().getEntry("WordDocument");
     DocumentInputStream din = fsys.createDocumentInputStream("WordDocument");
     DocumentEntry table = (DocumentEntry)fsys.getRoot().getEntry(tableName);

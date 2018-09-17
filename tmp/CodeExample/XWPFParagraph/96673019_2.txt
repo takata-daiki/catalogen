@@ -1,0 +1,7 @@
+    @Override
+    protected void endVisitParagraph( XWPFParagraph docxParagraph, IITextContainer pdfParentContainer,
+                                      IITextContainer pdfParagraphContainer )
+        throws Exception
+    {
+        ExtendedParagraph pdfParagraph = (ExtendedParagraph) pdfParagraphContainer;
+}

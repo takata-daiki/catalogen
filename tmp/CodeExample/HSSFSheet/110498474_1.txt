@@ -1,3 +1,5 @@
+  private void writeHSSFDataValidations(XMLStreamWriter xmlWriter,
       HSSFSheet sheet) throws XMLStreamException {
-{      List<HSSFDataValidation> validationData = sheet.getDataValidations();
-}
+    try {
+      List<HSSFDataValidation> validationData = sheet.getDataValidations();
+}}

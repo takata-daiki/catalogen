@@ -1,2 +1,2 @@
-            CharacterRun characterRun = range.getCharacterRun( c );
-            String text = characterRun.text();
+    protected abstract void processLineBreak( Element block,
+            CharacterRun characterRun );

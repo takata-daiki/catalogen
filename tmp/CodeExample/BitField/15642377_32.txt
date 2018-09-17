@@ -1,4 +1,7 @@
     static final private BitField _adtl_fill_pattern         =
-{            _adtl_fill_pattern.setValue(field_8_adtl_palette_options, fill);
+        BitFieldFactory.getInstance(0xfc000000);
+{        field_8_adtl_palette_options =
+            _adtl_fill_pattern.setValue(field_8_adtl_palette_options, fill);
 }{        return ( short ) _adtl_fill_pattern
+            .getValue(field_8_adtl_palette_options);
 }

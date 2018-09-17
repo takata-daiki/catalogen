@@ -1,2 +1,5 @@
-    final HSSFCellStyle cellStyle = createBorderedHeaderCellStyle(workbook);
-    cellStyle.setAlignment(HSSFCellStyle.ALIGN_RIGHT);
+  protected HSSFCell createNumberCell(final short x,
+      final double euroAndCents, final HSSFRow row,
+      final HSSFCellStyle cellStyle) {
+    final HSSFCell cell = row.createCell(x);
+}

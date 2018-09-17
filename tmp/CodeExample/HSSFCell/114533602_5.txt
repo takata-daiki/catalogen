@@ -1,5 +1,6 @@
   public void setCellValue(HSSFCell cell, Object value) {
-{      cell.setCellType(HSSFCell.CELL_TYPE_STRING);
+    if (value instanceof String) {
+      cell.setCellType(HSSFCell.CELL_TYPE_STRING);
       cell.setCellValue((String) value);
 }{      cell.setCellValue((Date) value);
 }{      cell.setCellValue(((Boolean) value).booleanValue());

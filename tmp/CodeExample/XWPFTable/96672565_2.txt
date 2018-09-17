@@ -1,4 +1,6 @@
-                XWPFTable table = cell.getTableRow().getTable();
-                for ( int i = rowIndex + 1; i < table.getRows().size(); i++ )
-{                    row = table.getRow( i );
+    protected void visitTableBody( XWPFTable table, float[] colWidths, T tableContainer )
+        throws Exception
+    {
+        boolean firstRow = false;
+        List<XWPFTableRow> rows = table.getRows();
 }

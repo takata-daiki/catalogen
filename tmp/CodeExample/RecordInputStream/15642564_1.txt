@@ -1,3 +1,4 @@
-    public static Ptg createPtg(RecordInputStream in)
-{        byte id     = in.readByte();
+    public static Stack createParsedExpressionTokens(short size,  RecordInputStream in )
+    {
+        Stack stack = new Stack();
 }

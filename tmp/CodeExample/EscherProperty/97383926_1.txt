@@ -1,3 +1,4 @@
-        for ( EscherProperty property : properties )
-{            totalSize += property.getPropertySize();
+    public void addEscherProperty( EscherProperty prop )
+    {
+        properties.add( prop );
 }

@@ -5,6 +5,7 @@
         currentTextEnd = currentPiece.getEnd ();
 }{        String str = currentPiece.substring(runStart - currentTextStart, runEnd - currentTextStart);
 }{{          String str = currentPiece.substring(runStart - currentTextStart,
+                                   currentTextEnd - currentTextStart);
 {            currentTextStart = currentPiece.getStart ();
             currentTextEnd = currentPiece.getEnd ();
 }}        String str = currentPiece.substring(0, runEnd - currentTextStart);

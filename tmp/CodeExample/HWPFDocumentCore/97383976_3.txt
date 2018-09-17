@@ -1,0 +1,15 @@
+    protected void processDeadField( HWPFDocumentCore wordDocument,
+            Element currentBlock, Range range, int currentTableLevel,
+            int beginMark, int separatorMark, int endMark )
+    {
+        if ( beginMark + 1 < separatorMark && separatorMark + 1 < endMark )
+        {
+            Range formulaRange = new Range( range.getCharacterRun(
+                    beginMark + 1 ).getStartOffset(), range.getCharacterRun(
+                    separatorMark - 1 ).getEndOffset(), range )
+            {
+                @Override
+                public String toString()
+                {
+                    return "Dead field formula subrange: " + super.toString();
+}}}}

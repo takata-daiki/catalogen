@@ -2,5 +2,6 @@
 {      return sst.addString(string);
 }{        UnicodeString retval = sst.getString(str);
 }{{{{                    record = sst.createExtSSTRecord(sstPos + offset);
-}}}}{{{                    retval += sst.calcExtSSTRecordSize();
+}}}}{{{                if (record.getSid() == ExtSSTRecord.sid && sst != null)
+                    retval += sst.calcExtSSTRecordSize();
 }}}

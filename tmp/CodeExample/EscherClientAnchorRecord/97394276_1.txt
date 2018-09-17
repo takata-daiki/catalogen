@@ -1,5 +1,7 @@
                 EscherClientAnchorRecord clrec = (EscherClientAnchorRecord)getEscherChild(_escherContainer, EscherClientAnchorRecord.RECORD_ID);
+                anchor = new Rectangle2D.Float(
                     (float)clrec.getCol1()*POINT_DPI/MASTER_DPI,
                     (float)clrec.getFlag()*POINT_DPI/MASTER_DPI,
                     (float)(clrec.getDx1()-clrec.getCol1())*POINT_DPI/MASTER_DPI,
                     (float)(clrec.getRow1()-clrec.getFlag())*POINT_DPI/MASTER_DPI
+                );

@@ -1,4 +1,6 @@
   String toString(FormulaEvaluator evaluator, DataFormatter formatter, Cell cell) {
+    String content;
 {{        content = formatter.formatCellValue(cell);
 }{        content = formatter.formatCellValue(cell,
+            evaluator);
 }}

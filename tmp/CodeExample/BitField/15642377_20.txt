@@ -1,4 +1,8 @@
     static final private BitField _indent_not_parent_cell_options =
-{            _indent_not_parent_cell_options
+        BitFieldFactory.getInstance(0x8000);
+{        field_5_indention_options =
+            _indent_not_parent_cell_options
+                .setShortBoolean(field_5_indention_options, options);
 }{        return _indent_not_parent_cell_options
+            .isSet(field_5_indention_options);
 }

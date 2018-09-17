@@ -1,2 +1,3 @@
                     final CustomProperty cp = new CustomProperty(p,
+                            (String) dictionary.get(new Long(id)));
                     cps.put(cp.getName(), cp);

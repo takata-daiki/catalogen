@@ -1,7 +1,10 @@
     HSSFFont font = newStyle.getFont(workbook);
     if(font.getBoldweight() == HSSFFont.BOLDWEIGHT_BOLD)
+      element.addElement("font-weight").addText("bold");
     if(font.getItalic())
+      element.addElement("font-style").addText("italics");
     if(font.getUnderline() != HSSFFont.U_NONE)
+      element.addElement("text-decoration").addText("underline");
     if(font.getFontHeightInPoints() != 10 && font.getFontHeightInPoints() != 11)
       element.addElement("font-size").addText(String.valueOf(font.getFontHeightInPoints() + "pt"));
     if(!font.getFontName().equals("Arial") && !font.getFontName().equals("Calibri"))

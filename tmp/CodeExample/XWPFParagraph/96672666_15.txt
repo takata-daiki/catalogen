@@ -1,0 +1,4 @@
+    public CTNumPr getParagraphNumPr( XWPFParagraph docxParagraph )
+    {
+        return ParagraphNumPrValueProvider.INSTANCE.getValue( docxParagraph, this );
+}

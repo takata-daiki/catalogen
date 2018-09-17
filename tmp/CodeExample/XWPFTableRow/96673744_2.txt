@@ -1,2 +1,9 @@
-        XWPFTableRow row = cell.getTableRow();
-        XWPFTable table = row.getTable();
+    @Override
+    protected void endVisitTableRow( XWPFTableRow row, Object tableContainer, boolean firstRow, boolean lastRow,
+                                     boolean headerRow )
+        throws Exception
+    {
+        if ( headerRow )
+        {
+            endElement( TH_ELEMENT );
+}}

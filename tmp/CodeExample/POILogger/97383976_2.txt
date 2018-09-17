@@ -1,3 +1,5 @@
     private POILogger log = POILogFactory.getLogger( getClass() );
 {{{{                    log.log(
+                            POILogger.WARN,
+                            exc );
 }}}}

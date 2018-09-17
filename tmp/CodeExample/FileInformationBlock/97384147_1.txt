@@ -1,4 +1,7 @@
     void writeTo( FileInformationBlock fib, HWPFOutputStream outputStream )
-{        fib.setFcPlfLfo( offset );
+            throws IOException
+    {
+        final int offset = outputStream.getOffset();
+        fib.setFcPlfLfo( offset );
         fib.setLcbPlfLfo( outputStream.getOffset() - offset );
 }

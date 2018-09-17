@@ -1,0 +1,7 @@
+    @Override
+    protected void processSingleSection( HWPFDocumentCore wordDocument,
+            Section section )
+    {
+        htmlDocumentFacade.addStyleClass( htmlDocumentFacade.body, "b",
+                getSectionStyle( section ) );
+}

@@ -1,0 +1,4 @@
+    public TableWidth getTableCellWith( XWPFTableCell cell )
+    {
+        return TableCellWidthValueProvider.INSTANCE.getValue( cell, this );
+}

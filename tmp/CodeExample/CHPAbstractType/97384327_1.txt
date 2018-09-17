@@ -1,5 +1,6 @@
         CHPAbstractType other = (CHPAbstractType) obj;
         if ( field_1_grpfChp != other.field_1_grpfChp )
+            return false;
         if ( field_2_hps != other.field_2_hps )
         if ( field_3_ftcAscii != other.field_3_ftcAscii )
         if ( field_4_ftcFE != other.field_4_ftcFE )
@@ -7,6 +8,7 @@
         if ( field_6_ftcBi != other.field_6_ftcBi )
         if ( field_7_dxaSpace != other.field_7_dxaSpace )
 {            if ( other.field_8_cv != null )
+                return false;
 }        else if ( !field_8_cv.equals( other.field_8_cv ) )
         if ( field_9_ico != other.field_9_ico )
         if ( field_10_pctCharWidth != other.field_10_pctCharWidth )

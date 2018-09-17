@@ -1,0 +1,5 @@
+    private static Map<Header, Value> makeRow ( final HSSFWorkbook workbook, final Map<Integer, Header> headers, final Row row )
+    {
+        final Map<Header, Value> result = new HashMap<Header, Value> ();
+{{{                    final HSSFFont font = workbook.getFontAt ( cell.getCellStyle ().getFontIndex () );
+}}}}

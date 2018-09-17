@@ -1,5 +1,10 @@
+    @Override
     protected IITextContainer startVisitTableCell( XWPFTableCell cell, IITextContainer tableContainer,
-{        XWPFTableRow row = cell.getTableRow();
+                                                   boolean firstRow, boolean lastRow, boolean firstCell,
+                                                   boolean lastCell )
+    {
+        StylableTable pdfPTable = (StylableTable) tableContainer;
+        XWPFTableRow row = cell.getTableRow();
         CTTcPr tcPr = cell.getCTTc().getTcPr();
 {            XWPFStyle tableStyle = super.getXWPFStyle( cell.getTableRow().getTable().getStyleID() );
             CTTblBorders tableBorders = XWPFTableUtil.getTblBorders( cell.getTableRow().getTable() );

@@ -1,2 +1,6 @@
-        XWPFParagraph paragraph = run.getParagraph();
-        this.currentRunAttributes = createClassAttribute( paragraph.getStyleID() );
+    @Override
+    protected void endVisitParagraph( XWPFParagraph paragraph, Object parentContainer, Object paragraphContainer )
+        throws Exception
+    {
+        endElement( P_ELEMENT );
+}

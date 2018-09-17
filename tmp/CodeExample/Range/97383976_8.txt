@@ -1,5 +1,9 @@
-            final Range firstSubrange = field.firstSubrange( parentRange );
-{                String formula = firstSubrange.text();
-{{                        textRange = new Range( firstSubrange.getStartOffset()
-                                firstSubrange.getStartOffset()
-}}}
+            Range valueRange = new Range( range.getCharacterRun(
+                    separatorMark + 1 ).getStartOffset(), range
+                    .getCharacterRun( endMark - 1 ).getEndOffset(), range )
+            {
+                @Override
+                public String toString()
+                {
+                    return "Dead field value subrange: " + super.toString();
+}}

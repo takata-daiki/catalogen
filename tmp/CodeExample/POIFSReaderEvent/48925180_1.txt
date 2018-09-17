@@ -1,4 +1,6 @@
     public void processPOIFSReaderEvent(POIFSReaderEvent event) {
       if (!event.getName().startsWith(SummaryInformation.DEFAULT_STREAM_NAME)) {
-}{                                  PropertySetFactory.create(event.getStream());
+        return;
+}{        SummaryInformation si = (SummaryInformation)
+                                  PropertySetFactory.create(event.getStream());
 }

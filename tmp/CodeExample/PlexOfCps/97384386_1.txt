@@ -1,4 +1,6 @@
             PlexOfCps binTable = new PlexOfCps( doc.getTableStream(), doc
+                    .getFileInformationBlock().getFcPlcfbtePapx(), doc
+                    .getFileInformationBlock().getLcbPlcfbtePapx(), 4 );
             int length = binTable.length();
 {                GenericPropertyNode node = binTable.getProperty( x );
 }

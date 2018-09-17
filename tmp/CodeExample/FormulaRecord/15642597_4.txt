@@ -1,3 +1,4 @@
     private String composeFormula(FormulaRecord record)
-{       return  loci.poi.hssf.model.FormulaParser.toFormulaString((Workbook)null,record.getParsedExpression());
+    {
+       return  loci.poi.hssf.model.FormulaParser.toFormulaString((Workbook)null,record.getParsedExpression());
 }

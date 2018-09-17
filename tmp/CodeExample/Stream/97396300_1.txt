@@ -1,4 +1,5 @@
   public static void dumpStream(Stream stream, int indent) {
+    String ind = "";
     Pointer ptr = stream.getPointer();
 {      int decompLen = stream._getContentsLength();
 }    System.out.println(ind + "  Stream is\t" + stream.getClass().getName());

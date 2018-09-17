@@ -1,2 +1,3 @@
             CodePageString string = (CodePageString) typedPropertyValue
+                    .getValue();
             return string.getJavaValue( codepage );

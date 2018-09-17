@@ -1,4 +1,8 @@
-            final Range range )
-{        for ( int s = 0; s < range.numSections(); s++ )
-{            processSection( wordDocument, range.getSection( s ), s );
+                Range subrange = new Range( previous, range.getEndOffset(),
+                        range )
+                {
+                    @Override
+                    public String toString()
+                    {
+                        return "AfterStructureSubrange " + super.toString();
 }}

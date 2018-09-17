@@ -1,3 +1,4 @@
-    protected void visitTableRow( XWPFTableRow row, T tableContainer )
-{        List<XWPFTableCell> cells = row.getTableCells();
+        for ( XWPFTableRow row : rows )
+        {
+            visitTableRow( row, tableContainer );
 }

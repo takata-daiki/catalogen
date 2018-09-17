@@ -1,4 +1,13 @@
                 XSSFCell cell1 = dataRow.createCell(j
+                    + spalten.size() * z + 2);
                 cell1.setCellStyle(dataStyle);
 {                  cell1.setCellValue(new XSSFRichTextString(
+                      zahlung.getMonat()));
+}{                      zahlung.getBetrag()));
+}{                      zahlung.getRechnungsinfo()));
+}{                      zahlung.getRechnungsnummer()));
+}{                      zahlung.getRechnungsdatum()));
+}{                      zahlung.getBezahlt_datum()));
+}{                      zahlung.getBar_bank()));
+}{                      zahlung.getKontoauszug()));
 }

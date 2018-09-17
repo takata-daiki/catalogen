@@ -5,7 +5,10 @@
     bse.setUid(uid);
     bse.setBlipTypeMacOS((byte) format);
     bse.setBlipTypeWin32((byte) format);
+    if (format == Picture.EMF)
       bse.setBlipTypeMacOS((byte) Picture.PICT);
+    else if (format == Picture.WMF)
+    else if (format == Picture.PICT)
       bse.setBlipTypeWin32((byte) Picture.WMF);
     bse.setRef(0);
     bse.setOffset(offset);

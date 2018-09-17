@@ -1,3 +1,5 @@
     private void convertShapes( HSSFShapeContainer parent, EscherContainerRecord escherParent, Map shapeToObj )
-{{{                escherParent.addChildRecord( shapeModel.getSpContainer() );
+    {
+        if ( escherParent == null ) throw new IllegalArgumentException( "Parent record required" );
+{{                escherParent.addChildRecord( shapeModel.getSpContainer() );
 }}}

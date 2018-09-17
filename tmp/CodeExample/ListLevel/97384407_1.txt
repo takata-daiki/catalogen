@@ -1,4 +1,7 @@
                 final ListLevel listLevel = listTables.getLevel( lfo.getLsid(),
+                        properties.getIlvl() );
                 if ( listLevel != null && listLevel.getGrpprlPapx() != null )
-{                            properties, listLevel.getGrpprlPapx(), 0 );
+                {
+                    properties = ParagraphSprmUncompressor.uncompressPAP(
+                            properties, listLevel.getGrpprlPapx(), 0 );
 }

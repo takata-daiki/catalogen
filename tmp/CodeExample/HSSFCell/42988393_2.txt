@@ -1,5 +1,6 @@
     private Date getDateValue(HSSFCell cell){
-{        int type = cell.getCellType();
+      if(cell != null){
+        int type = cell.getCellType();
 {          String s =  cell.getStringCellValue();
 }{          return cell.getDateCellValue();
 }}

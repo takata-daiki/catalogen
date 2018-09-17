@@ -1,0 +1,5 @@
+    protected void visitTableCellBody( XWPFTableCell cell, T tableCellContainer )
+        throws Exception
+    {
+        List<IBodyElement> bodyElements = cell.getBodyElements();
+}

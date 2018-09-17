@@ -1,3 +1,5 @@
     protected List<IBodyElement> getBodyElements( XWPFHeaderFooter part )
-{        XmlTokenSource headerFooter = part._getHdrFtr();
+    {
+        List<IBodyElement> bodyElements = new ArrayList<IBodyElement>();
+        XmlTokenSource headerFooter = part._getHdrFtr();
 }

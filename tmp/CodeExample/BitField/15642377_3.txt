@@ -1,4 +1,5 @@
     static final private BitField _xf_type      = BitFieldFactory.getInstance(0x0004);
 {        field_3_cell_options = _xf_type.setShortValue(field_3_cell_options,
+                type);
 }{        return _xf_type.getShortValue(field_3_cell_options);
 }

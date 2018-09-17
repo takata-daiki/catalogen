@@ -1,3 +1,4 @@
     private BitField          calcOnLoad = BitFieldFactory.getInstance(0x0002);
 {            buffer.append("      .calcOnLoad         = ").append(calcOnLoad.isSet(getOptions()))
+                .append("\n");
 }

@@ -1,0 +1,5 @@
+      PackagePartName sourcePartName;
+      if (sourcePartName.getURI().equals(
+          PackagingURIHelper.PACKAGE_ROOT_URI)) {
+        clearRelationships();
+}

@@ -1,3 +1,2 @@
-    private void visitRuns( XWPFParagraph paragraph, T paragraphContainer )
-{        CTP ctp = paragraph.getCTP();
-}
+    protected abstract void endVisitParagraph( XWPFParagraph paragraph, T parentContainer, T paragraphContainer )
+        throws Exception;

@@ -1,20 +1,38 @@
   protected PackagePartCollection partList;
 {    for (PackagePart part : partList.values()) {
+      if (part.getContentType().equals(contentType))
+        retArr.add(part);
 }}{      for (PackagePart part : partList.values()) {
+          PackagePartName partName = part.getPartName();
 }}{{{        if (partList.containsKey(part._partName))
+          throw new InvalidFormatException(
+              "A part with the name '" +
+              part._partName +
+                    "' already exist : Packages shall not contain equivalent " +
+                    "part names and package implementers shall neither create " +
+                    "nor recognize packages with equivalent part names. [M1.12]");
 {{            partList.put(unmarshallPart._partName, unmarshallPart);
 }}{{            partList.put(part._partName, part);
 }}}}    return new ArrayList<PackagePart>(partList.values());
 }{    if (partList.containsKey(partName)
         && !partList.get(partName).isDeleted()) {
+      throw new PartAlreadyExistsException(
+          "A part with the name '" + partName.getName() + "'" +
+          " already exists : Packages shall not contain equivalent part names and package" +
+          " implementers shall neither create nor recognize packages with equivalent part names. [M1.12]");
 }    this.partList.put(partName, part);
 }{    if (partList.containsKey(part._partName)) {
       if (!partList.get(part._partName).isDeleted()) {
+        throw new InvalidOperationException(
+            "A part with the name '"
+                + part._partName.getName()
+                + "' already exists : Packages shall not contain equivalent part names and package implementers shall neither create nor recognize packages with equivalent part names. [M1.12]");
 }      this.partList.remove(part._partName);
 }    this.partList.put(part._partName, part);
 }{    if (this.partList.containsKey(partName)) {
       this.partList.get(partName).setDeleted(true);
       this.partList.remove(partName);
 }}{    PackagePart relPart = this.partList.get(PackagingURIHelper
+        .getRelationshipPartName(partName));
     PackagePart partToRemove = this.partList.get(partName);
 }

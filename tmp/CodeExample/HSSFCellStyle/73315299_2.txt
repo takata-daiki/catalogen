@@ -1,3 +1,5 @@
     HSSFCellStyle style2 = createStyle(workbook, HSSFColor.WHITE.index, HSSFCellStyle.SOLID_FOREGROUND,
+        HSSFCellStyle.BORDER_THIN, HSSFCellStyle.BORDER_THIN, HSSFCellStyle.BORDER_THIN,
+        HSSFCellStyle.BORDER_THIN, HSSFCellStyle.ALIGN_CENTER);
     style2.setVerticalAlignment(HSSFCellStyle.VERTICAL_CENTER);
     style2.setFont(font2);

@@ -1,3 +1,9 @@
+    public PropertyTable(final int startBlock,
                          final RawDataBlockList blockList)
-{                .convertToProperties(blockList.fetchBlocks(startBlock));
+        throws IOException
+    {
+        _start_block = POIFSConstants.END_OF_CHAIN;
+        _properties  =
+            PropertyFactory
+                .convertToProperties(blockList.fetchBlocks(startBlock));
 }

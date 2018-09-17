@@ -1,2 +1,2 @@
-  private void createBatchStatusRow(XSSFSheet sheet, CreationHelper createHelper, XSSFCellStyle cs, short rowindex, String value){
-    XSSFRow row = sheet.createRow(rowindex);
+  private void setInstructions(XSSFSheet sheet, CreationHelper createHelper, XSSFCellStyle cs){
+    short rowindex = 0;

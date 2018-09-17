@@ -1,0 +1,2 @@
+  public static ExcelBuffer copy (HSSFSheet sh, CellReference topLeft, CellReference botRight){
+    return  copy (sh, new AreaReference(topLeft, botRight));

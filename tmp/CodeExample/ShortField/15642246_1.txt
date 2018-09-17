@@ -1,4 +1,7 @@
     private ShortField          _name_size;
 {        int name_length = (_name_size.get() / LittleEndianConsts.SHORT_SIZE)
+                          - 1;
 }{        _name_size
+            .set(( short ) ((limit + 1)
+                            * LittleEndianConsts.SHORT_SIZE), _raw_data);
 }

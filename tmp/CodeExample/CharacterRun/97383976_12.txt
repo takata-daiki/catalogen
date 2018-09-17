@@ -1,0 +1,13 @@
+    private boolean processOle2( HWPFDocument doc, CharacterRun characterRun,
+            Element block )
+    {
+        Entry entry = doc.getObjectsPool().getObjectById(
+                "_" + characterRun.getPicOffset() );
+{            logger.log( POILogger.WARN, "Referenced OLE2 object '",
+                    Integer.valueOf( characterRun.getPicOffset() ),
+                    "' not found in ObjectPool" );
+}{            logger.log( POILogger.WARN,
+                    "Unable to convert internal OLE2 object '",
+                    Integer.valueOf( characterRun.getPicOffset() ), "': ", exc,
+                    exc );
+}}

@@ -1,3 +1,6 @@
-    protected void endVisitPargraph( XWPFParagraph paragraph, IITextContainer parentContainer,
-{        CTPPr ppr = paragraph.getCTP().getPPr();
+    @Override
+    protected IITextContainer startVisitPargraph( XWPFParagraph docxParagraph, IITextContainer parentContainer )
+        throws Exception
+    {
+        StylableParagraph pdfParagraph = pdfDocument.createParagraph( (IStylableContainer) null );
 }

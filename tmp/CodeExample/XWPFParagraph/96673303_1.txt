@@ -1,6 +1,11 @@
+    @Override
     protected IITextContainer startVisitPargraph( XWPFParagraph docxParagraph, IITextContainer parentContainer )
-{        if ( docxParagraph.getText().startsWith( "Cette commande client est co" ) )
-        Borders borderTop = docxParagraph.getBorderTop();
+        throws Exception
+    {
+        if ( docxParagraph.getText().startsWith( "Cette commande client est co" ) )
+        {
+            System.err.println();
+}        Borders borderTop = docxParagraph.getBorderTop();
         Borders borderBottom = docxParagraph.getBorderBottom();
         Borders borderLeft = docxParagraph.getBorderLeft();
         Borders borderRight = docxParagraph.getBorderRight();

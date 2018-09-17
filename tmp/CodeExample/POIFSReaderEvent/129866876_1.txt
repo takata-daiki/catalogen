@@ -1,4 +1,9 @@
         public void processPOIFSReaderEvent(POIFSReaderEvent event)
-{{            if (!event.getName().equalsIgnoreCase("PowerPoint Document"))
-            DocumentInputStream input = event.getStream();
+        {
+          try
+          {
+            if (!event.getName().equalsIgnoreCase("PowerPoint Document"))
+            {
+              return;
+}            DocumentInputStream input = event.getStream();
 }}

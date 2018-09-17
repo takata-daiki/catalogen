@@ -1,5 +1,7 @@
         CellValue cellValue = evaluator.evaluate(cell);                
         info.value=cellValue.formatAsString();
         switch(cellValue.getCellType()) {
+        case Cell.CELL_TYPE_BOOLEAN:
+          info.type="boolean";
 {            info.value=dateFormatter.format(DateUtil.getJavaDate(cellValue.getNumberValue()));
 }}

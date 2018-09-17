@@ -1,2 +1,2 @@
-    public static EscherRecord getEscherChild(EscherContainerRecord owner, int recordId){
-        for ( Iterator<EscherRecord> iterator = owner.getChildIterator(); iterator.hasNext(); )
+      protected Shape(EscherContainerRecord escherRecord, Shape parent){
+        _escherContainer = escherRecord;

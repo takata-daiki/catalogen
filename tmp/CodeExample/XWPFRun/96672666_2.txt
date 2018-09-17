@@ -1,0 +1,4 @@
+    public String getFontFamilyEastAsia( XWPFRun run )
+    {
+        return RunFontFamilyEastAsiaValueProvider.INSTANCE.getValue( run, this );
+}

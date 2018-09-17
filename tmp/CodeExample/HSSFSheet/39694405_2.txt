@@ -1,3 +1,7 @@
     private void generateChildRows(HSSFSheet overviewSheet, CellStyle style,
-{        HSSFRow row = overviewSheet.createRow(rowNumber++);
+            dk.i2m.converge.core.metadata.Concept concept, int rowNumber,
+            int indent) {
+        if (concept == null) {
+            return;
+}        HSSFRow row = overviewSheet.createRow(rowNumber++);
 }

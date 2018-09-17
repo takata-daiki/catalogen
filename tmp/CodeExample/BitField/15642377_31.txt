@@ -1,4 +1,8 @@
     static final private BitField _adtl_diag_line_style      =
-{            _adtl_diag_line_style.setValue(field_8_adtl_palette_options,
+        BitFieldFactory.getInstance(0x01e00000);
+{        field_8_adtl_palette_options =
+            _adtl_diag_line_style.setValue(field_8_adtl_palette_options,
+                                           diag);
 }{        return ( short ) _adtl_diag_line_style
+            .getValue(field_8_adtl_palette_options);
 }

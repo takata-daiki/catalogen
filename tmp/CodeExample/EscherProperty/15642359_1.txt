@@ -1,3 +1,11 @@
             EscherProperty prop = (EscherProperty) iterator.next();
             switch (prop.getId()){
+                case EscherProperties.TEXT__TEXTLEFT:
+                case EscherProperties.TEXT__TEXTRIGHT:
+                case EscherProperties.TEXT__TEXTTOP:
+                case EscherProperties.TEXT__TEXTBOTTOM:
+                case EscherProperties.GROUPSHAPE__PRINT:
+                case EscherProperties.FILL__FILLBACKCOLOR:
+                case EscherProperties.LINESTYLE__COLOR:
+                    iterator.remove();
 }

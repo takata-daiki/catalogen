@@ -1,5 +1,9 @@
     private XWPFDocument document;
 {{            defaults = document.getStyle().getDocDefaults();
 }}{        for ( POIXMLDocumentPart part : document.getRelations() )
-}{{            List<IBodyElement> bodyElement = document.getBodyElements();
+        {
+            if ( part.getPackageRelationship().getId().equals( blipId ) )
+            {
+                return (XWPFPictureData) part;
+}}}{{            List<IBodyElement> bodyElement = document.getBodyElements();
 }}

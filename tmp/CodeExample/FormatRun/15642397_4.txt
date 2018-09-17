@@ -1,3 +1,5 @@
         FormatRun r = (FormatRun)field_4_format_runs.get(i);
         if (r.character == characterPos)
+          return i;
         else if (r.character > characterPos)
+          return -1;

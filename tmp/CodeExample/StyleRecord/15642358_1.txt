@@ -1,15 +1,21 @@
         StyleRecord retval = new StyleRecord();
-{                retval.setIndex(( short ) 0xffff8010);
+{            case 0 :
+                retval.setIndex(( short ) 0xffff8010);
                 retval.setBuiltin(( byte ) 3);
                 retval.setOutlineStyleLevel(( byte ) 0xffffffff);
+            case 1 :
                 retval.setIndex(( short ) 0xffff8011);
                 retval.setBuiltin(( byte ) 6);
+            case 2 :
                 retval.setIndex(( short ) 0xffff8012);
                 retval.setBuiltin(( byte ) 4);
+            case 3 :
                 retval.setIndex(( short ) 0xffff8013);
                 retval.setBuiltin(( byte ) 7);
+            case 4 :
                 retval.setIndex(( short ) 0xffff8000);
                 retval.setBuiltin(( byte ) 0);
+            case 5 :
                 retval.setIndex(( short ) 0xffff8014);
                 retval.setBuiltin(( byte ) 5);
 }

@@ -1,3 +1,6 @@
+    @Override
     protected IITextContainer startVisitTable( XWPFTable table, IITextContainer tableContainer )
-{        CTString str = table.getCTTbl().getTblPr().getTblStyle();
+        throws Exception
+    {
+        CTString str = table.getCTTbl().getTblPr().getTblStyle();
 }

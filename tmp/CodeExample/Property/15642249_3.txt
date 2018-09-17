@@ -1,0 +1,6 @@
+            Property property = ( Property ) children.pop();
+            if (property.isDirectory())
+            {
+                populatePropertyTree(( DirectoryProperty ) property);
+}            index = property.getPreviousChildIndex();
+            index = property.getNextChildIndex();

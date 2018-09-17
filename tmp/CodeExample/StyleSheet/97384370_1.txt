@@ -1,3 +1,7 @@
     public static CharacterProperties uncompressCHP( StyleSheet styleSheet,
-{{{                applySprms( parStyle, styleSheet.getCHPX( style ), 0, false,
+            CharacterProperties parStyle, byte[] grpprl, int offset )
+    {
+        CharacterProperties newProperties;
+{{                applySprms( parStyle, styleSheet.getCHPX( style ), 0, false,
+                        newProperties );
 }}}

@@ -1,3 +1,4 @@
     public CTTblPrEx getTblPrEx( XWPFTableRow row )
-{        return row.getCtRow().getTblPrEx();
+    {
+        return row.getCtRow().getTblPrEx();
 }

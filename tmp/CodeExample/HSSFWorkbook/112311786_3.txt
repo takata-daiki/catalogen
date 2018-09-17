@@ -1,3 +1,4 @@
   private HSSFFont createFont(final HSSFWorkbook workbook,
-{    final HSSFFont font = workbook.createFont();
+      final boolean bold, final boolean doubleUnderlined) {
+    final HSSFFont font = workbook.createFont();
 }

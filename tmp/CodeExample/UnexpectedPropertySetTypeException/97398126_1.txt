@@ -1,3 +1,4 @@
         catch (UnexpectedPropertySetTypeException ex)
-{            throw new IOException(ex.toString());
+        {
+            throw new IOException(ex.toString());
 }

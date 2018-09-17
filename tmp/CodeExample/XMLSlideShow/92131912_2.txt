@@ -1,2 +1,3 @@
     private void drawImage(XMLSlideShow ppt, XSLFSlide slide) throws IOException {
+        byte[] bytes = IOUtils.toByteArray(this.getClass().getResourceAsStream(imageName));
         int idx = ppt.addPicture(bytes, XSLFPictureData.PICTURE_TYPE_PNG);

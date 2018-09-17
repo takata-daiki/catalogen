@@ -1,5 +1,7 @@
     private Object put(final CustomProperty customProperty) throws ClassCastException
-{        final String name = customProperty.getName();
+    {
+        final String name = customProperty.getName();
+        if (oldId != null)
             customProperty.setID(oldId.longValue());
 {            customProperty.setID(max + 1);
 }}

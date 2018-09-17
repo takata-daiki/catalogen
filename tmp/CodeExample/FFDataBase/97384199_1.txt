@@ -1,7 +1,18 @@
     private FFDataBase _base;
 {        if ( _base.getIType() == FFDataBase.ITYPE_TEXT )
-        if ( _base.getIType() == FFDataBase.ITYPE_CHCK
+        {
+            _xstzTextDef = new Xstz( std, offset );
+}        if ( _base.getIType() == FFDataBase.ITYPE_CHCK
                 || _base.getIType() == FFDataBase.ITYPE_DROP )
-        if ( _base.getIType() == FFDataBase.ITYPE_DROP )
-}{        _base.serialize( buffer, offset );
-}
+{            this._wDef = Integer
+                    .valueOf( LittleEndian.getUShort( std, offset ) );
+}        if ( _base.getIType() == FFDataBase.ITYPE_DROP )
+{            _hsttbDropList = new Sttb( std, offset );
+}}{{            size += _xstzTextDef.getSize();
+}{            size += LittleEndian.SHORT_SIZE;
+}{            size += _hsttbDropList.getSize();
+}}{        _base.serialize( buffer, offset );
+{            offset += _xstzTextDef.serialize( buffer, offset );
+}{            LittleEndian.putUShort( buffer, offset, _wDef );
+}{            offset += _hsttbDropList.serialize( buffer, offset );
+}}

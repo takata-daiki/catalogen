@@ -1,3 +1,6 @@
     private final DataFormatter formatter;
-{{{{{                            formatter.formatRawCellContents(cell.getNumericCellValue(),
+{{{{{                        xhtml.characters(
+                            formatter.formatRawCellContents(cell.getNumericCellValue(),
+                                                            style.getDataFormat(),
+                                                            style.getDataFormatString()));
 }}}}}

@@ -1,4 +1,5 @@
       HSSFColor hssfColor = customPalette.getColor(c);
       if (hssfColor == null || hssfColor.equals(HSSFColor.AUTOMATIC.getInstance())) {
+        awtColor = defaultColor;
 }{        short[] rgb = hssfColor.getTriplet();
 }

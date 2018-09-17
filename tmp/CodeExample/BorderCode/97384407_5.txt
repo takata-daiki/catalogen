@@ -1,3 +1,5 @@
   public void setBarBorder(BorderCode bar)
-{    _papx.updateSprm(SPRM_BRCBAR, bar.toInt());
+  {
+    _props.setBrcBar(bar);
+    _papx.updateSprm(SPRM_BRCBAR, bar.toInt());
 }

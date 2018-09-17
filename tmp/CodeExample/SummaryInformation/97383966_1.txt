@@ -1,10 +1,14 @@
+    @Override
+    protected void processDocumentInformation(
             SummaryInformation summaryInformation )
-{        if ( WordToHtmlUtils.isNotEmpty( summaryInformation.getTitle() ) )
+    {
+        if ( WordToHtmlUtils.isNotEmpty( summaryInformation.getTitle() ) )
             htmlDocumentFacade.setTitle( summaryInformation.getTitle() );
         if ( WordToHtmlUtils.isNotEmpty( summaryInformation.getAuthor() ) )
             htmlDocumentFacade.addAuthor( summaryInformation.getAuthor() );
         if ( WordToHtmlUtils.isNotEmpty( summaryInformation.getKeywords() ) )
             htmlDocumentFacade.addKeywords( summaryInformation.getKeywords() );
         if ( WordToHtmlUtils.isNotEmpty( summaryInformation.getComments() ) )
+            htmlDocumentFacade
                     .addDescription( summaryInformation.getComments() );
 }

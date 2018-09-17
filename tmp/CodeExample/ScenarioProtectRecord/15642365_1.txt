@@ -1,4 +1,6 @@
     protected ScenarioProtectRecord      scenprotect       =     null;
 {{            scenprotect.setProtect(false);
-}}{                             (scenprotect != null && scenprotect.getProtect())};
+}}{        return new boolean[] { (protect != null && protect.getProtect()), 
+                             (objprotect != null && objprotect.getProtect()),
+}                             (scenprotect != null && scenprotect.getProtect())};
 }

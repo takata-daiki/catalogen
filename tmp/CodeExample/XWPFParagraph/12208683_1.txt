@@ -1,6 +1,10 @@
     public static void processLayout( XWPFParagraph paragraph, Paragraph pdfParagraph, XWPFStyle style,
-{        if ( indentationLeft == -1 && paragraph.getIndentationLeft() != -1 )
-{            indentationLeft = dxa2points( paragraph.getIndentationLeft() );
+                                      CTDocDefaults defaults )
+    {
+        float indentationLeft = -1;
+        if ( indentationLeft == -1 && paragraph.getIndentationLeft() != -1 )
+        {
+            indentationLeft = dxa2points( paragraph.getIndentationLeft() );
 }        if ( indentationRight == -1 && paragraph.getIndentationRight() != -1 )
 {            indentationRight = dxa2points( paragraph.getIndentationRight() );
 }        if ( firstLineIndent == -1 && paragraph.getIndentationFirstLine() != -1 )

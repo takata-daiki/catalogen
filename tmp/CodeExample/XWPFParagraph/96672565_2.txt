@@ -1,4 +1,7 @@
-    protected void visitParagraphBody( XWPFParagraph paragraph, int index, T paragraphContainer )
-{        List<XWPFRun> runs = paragraph.getRuns();
-        CTPPr ppr = paragraph.getCTP().getPPr();
-}
+    protected void visitParagraph( XWPFParagraph paragraph, int index, T container )
+        throws Exception
+    {
+        if ( isWordDocumentPartParsing() )
+        {
+            masterPageManager.update( paragraph );
+}}

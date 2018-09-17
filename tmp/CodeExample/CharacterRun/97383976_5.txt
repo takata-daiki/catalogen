@@ -1,4 +1,12 @@
+    protected void processDrawnObject( HWPFDocument doc,
             CharacterRun characterRun, Element block )
-{                .getOfficeDrawingAt( characterRun.getStartOffset() );
+    {
+        if ( getPicturesManager() == null )
+            return;
+        OfficeDrawing officeDrawing = doc.getOfficeDrawingsMain()
+                .getOfficeDrawingAt( characterRun.getStartOffset() );
+        String path = getPicturesManager()
+                .savePicture( pictureData, type,
                         "s" + characterRun.getStartOffset() + "." + type,
+                        width, height );
 }

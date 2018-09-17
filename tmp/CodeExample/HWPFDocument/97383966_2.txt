@@ -1,0 +1,7 @@
+    @Override
+    protected void processEndnoteAutonumbered( HWPFDocument wordDocument,
+            int noteIndex, Element block, Range endnoteTextRange )
+    {
+        processNoteAutonumbered( wordDocument, "end", noteIndex, block,
+                endnoteTextRange );
+}

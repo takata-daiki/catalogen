@@ -1,6 +1,9 @@
     public static StringBuilder getStyle( XWPFParagraph paragraph, XWPFStyle style, CTDocDefaults defaults )
-{        if ( indentationLeft == -1 && paragraph.getIndentationLeft() != -1 )
-{            indentationLeft = dxa2points( paragraph.getIndentationLeft() );
+    {
+        StringBuilder htmlStyle = new StringBuilder();
+        if ( indentationLeft == -1 && paragraph.getIndentationLeft() != -1 )
+        {
+            indentationLeft = dxa2points( paragraph.getIndentationLeft() );
 }        if ( indentationRight == -1 && paragraph.getIndentationRight() != -1 )
 {            indentationRight = dxa2points( paragraph.getIndentationRight() );
 }        if ( firstLineIndent == -1 && paragraph.getIndentationFirstLine() != -1 )

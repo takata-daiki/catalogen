@@ -1,4 +1,6 @@
   private String getRGBString(XSSFColor colour) {
+    String string = null;
     if (colour == null || colour.isAuto()) {
+      return string;
 }{      String rgb = colour.getARGBHex();
 }

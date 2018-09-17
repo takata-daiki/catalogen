@@ -1,6 +1,7 @@
     CellRangeAddressList workR, sArea, workFormul;
 {{{              workR.addCellRangeAddress(yyy, yyy, 0, 0);
 }        if (workR != null && workR.countRanges() > 0){
-{            CellRangeAddress cellReff = workR.getCellRangeAddress(0);
+          if(kFRowE > 1){
+            CellRangeAddress cellReff = workR.getCellRangeAddress(0);
             cellReff = workR.getCellRangeAddress(workR.countRanges()-1);
 }}}}

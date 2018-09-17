@@ -1,0 +1,5 @@
+  public XMLReader fetchSheetParser(SharedStringsTable sst)
+      throws SAXException {
+    XMLReader parser = XMLReaderFactory
+        .createXMLReader("org.apache.xerces.parsers.SAXParser");
+}

@@ -1,3 +1,4 @@
               HSSFCell cell = row.getCell(cellIndex);
               if (cell!=null && !cell.getStringCellValue().isEmpty()) {
+                cells.add(new CellHSSFImpl(hssfWorkbook, cell));
 }

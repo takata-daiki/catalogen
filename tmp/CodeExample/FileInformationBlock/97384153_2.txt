@@ -1,0 +1,5 @@
+    public void writeListOverridesTo( FileInformationBlock fib,
+            HWPFOutputStream tableStream ) throws IOException
+    {
+        _plfLfo.writeTo( fib, tableStream );
+}

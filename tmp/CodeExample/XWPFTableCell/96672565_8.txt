@@ -1,0 +1,3 @@
+    protected abstract T startVisitTableCell( XWPFTableCell cell, T tableContainer, boolean firstRow, boolean lastRow,
+                                              boolean firstCol, boolean lastCol, List<XWPFTableCell> vMergeCells )
+        throws Exception;

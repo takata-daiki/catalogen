@@ -1,3 +1,4 @@
   private static final POILogger _logger =
+    POILogFactory.getLogger(POIFSFileSystem.class);
 {{            _logger.log(POILogger.WARN, msg);
 }}

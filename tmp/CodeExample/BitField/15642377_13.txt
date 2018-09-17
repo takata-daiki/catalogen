@@ -1,4 +1,6 @@
     static final private BitField _merge_cells                    =
-{            _merge_cells.setShortBoolean(field_5_indention_options, merge);
+        BitFieldFactory.getInstance(0x0020);
+{        field_5_indention_options =
+            _merge_cells.setShortBoolean(field_5_indention_options, merge);
 }{        return _merge_cells.isSet(field_5_indention_options);
 }

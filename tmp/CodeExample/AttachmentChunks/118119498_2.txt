@@ -1,0 +1,7 @@
+    public void processAttachment(final AttachmentChunks attachment,
+            final File dir) throws IOException {
+        String fileName = attachment.attachFileName.toString();
+        if (attachment.attachLongFileName != null) {
+            fileName = attachment.attachLongFileName.toString();
+}{            fileOut.write(attachment.attachData.getValue());
+}}

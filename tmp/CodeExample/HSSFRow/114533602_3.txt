@@ -1,3 +1,6 @@
   public void genCountRow(HSSFRow row, HSSFWorkbook wb, int rowIndex) {
-{{        HSSFCell cell = row.createCell(i);
+    if (this.countLine != null) {
+      String str[] = { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J",
+}          "K", "L", "M", "N", "O" };
+{        HSSFCell cell = row.createCell(i);
 }}

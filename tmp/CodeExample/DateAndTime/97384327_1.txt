@@ -1,4 +1,6 @@
     protected DateAndTime field_42_dttmRMark;
 {        else if ( !field_42_dttmRMark.equals( other.field_42_dttmRMark ) )
-}{                + ((field_42_dttmRMark == null) ? 0 : field_42_dttmRMark.hashCode());
+            return false;
+}{        result = prime * result
+                + ((field_42_dttmRMark == null) ? 0 : field_42_dttmRMark.hashCode());
 }

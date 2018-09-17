@@ -1,0 +1,6 @@
+    @Override
+    protected void endVisitTableCell( XWPFTableCell cell, XHTMLPageContentBuffer tableContainer,
+                                      XHTMLPageContentBuffer tableCellContainer )
+    {
+        tableContainer.endElement( TD_ELEMENT );
+}

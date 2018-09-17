@@ -1,3 +1,4 @@
        PackagePart corePart = getCorePart(); 
       return corePart.getRelatedPart(
         corePart.getRelationship(master.getId2())
+      );

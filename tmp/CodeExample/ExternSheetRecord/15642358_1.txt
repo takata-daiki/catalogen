@@ -2,6 +2,8 @@
 {{            for (int k = 0; k < externSheet.getNumOfREFStructures(); k++) {
 }}}{        short indexToSheet = externSheet.getREFRecordAt(num).getIndexToFirstSupBook();
 }{        if (externSheetNumber >= externSheet.getNumOfREFStructures())
+            return -1;
+        else
             return externSheet.getREFRecordAt(externSheetNumber).getIndexToFirstSupBook();
 }{        while (i < externSheet.getNumOfREFStructures() && !flag){
             ExternSheetSubRecord record = externSheet.getREFRecordAt(i);

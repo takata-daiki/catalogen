@@ -1,2 +1,2 @@
-          CellRangeAddress cRA =  workR.getCellRangeAddress(workR.countRanges()-1);
-              ExcelUtils.getCell(sh, cRA.getLastRow()+ 1, formatCol));
+                CellRangeAddress crA = ExcelUtils.intersectRectangular(sArea.getCellRangeAddress(indexArea), 
+                    new CellRangeAddress(kFRowB, kFRowB+kFRowE-1, 0, ExcelUtils.xlMaxNumCol-1));

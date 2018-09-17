@@ -1,0 +1,2 @@
+        } catch (UnexpectedPropertySetTypeException e) {
+            throw new TikaException("Unexpected HPSF document", e);

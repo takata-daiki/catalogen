@@ -1,5 +1,6 @@
-            Element flow, Range range, int currentTableLevel )
-{        final int paragraphs = range.numParagraphs();
-{            Paragraph paragraph = range.getParagraph( p );
-{                Table table = range.getTable( paragraph );
-}}}
+    protected void processDocumentPart( HWPFDocumentCore wordDocument,
+            final Range range )
+    {
+        for ( int s = 0; s < range.numSections(); s++ )
+{            processSection( wordDocument, range.getSection( s ), s );
+}}

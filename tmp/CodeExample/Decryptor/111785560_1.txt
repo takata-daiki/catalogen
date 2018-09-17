@@ -1,4 +1,7 @@
                     Decryptor d = new Decryptor(info);
 {                        if (!d.verifyPassword(Decryptor.DEFAULT_PASSWORD)) {
+                            throw new TikaException("Unable to process: document is encrypted");
 }                        parser.parse(d.getDataStream(filesystem), new EmbeddedContentHandler(
+                                        new BodyContentHandler(xhtml)),
+                                        metadata, context);
 }

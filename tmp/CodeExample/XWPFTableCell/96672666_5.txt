@@ -1,0 +1,4 @@
+    public CTTextDirection getTextDirection( XWPFTableCell cell )
+    {
+        return TableCellTextDirectionValueProvider.INSTANCE.getValue( cell, this );
+}

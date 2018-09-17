@@ -8,7 +8,8 @@
         windowTwo.setFreezePanesNoSplit(true);
 }{        windowTwo.setFreezePanes(false);
         windowTwo.setFreezePanesNoSplit(false);
-}{                             rec.getLeftColumn(), (byte)rec.getActivePane(), windowTwo.getFreezePanes());      
+}{      return new PaneInformation(rec.getX(), rec.getY(), rec.getTopRow(),
+                             rec.getLeftColumn(), (byte)rec.getActivePane(), windowTwo.getFreezePanes());      
 }{        windowTwo.setDisplayGridlines(show);
 }{  return windowTwo.getDisplayGridlines();
 }{        windowTwo.setDisplayFormulas(show);

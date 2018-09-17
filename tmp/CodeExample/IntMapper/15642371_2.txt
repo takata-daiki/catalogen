@@ -1,3 +1,4 @@
-    static public void addToStringTable( IntMapper strings, UnicodeString string )
-{      strings.add(string );
+    public SSTDeserializer( IntMapper strings )
+    {
+        this.strings = strings;
 }

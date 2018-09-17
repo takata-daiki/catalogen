@@ -1,2 +1,3 @@
-    } catch (InvalidFormatException e) {
-          + e.getMessage()
+      } catch (InvalidFormatException e2) {
+        throw new InvalidOperationException(
+            "Can't add a thumbnail file named '" + filename + "'");

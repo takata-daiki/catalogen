@@ -1,2 +1,7 @@
-            Range formulaRange = new Range( range.getCharacterRun(
-            String formula = formulaRange.text();
+                Range subrange = new Range( previous, structure.start, range )
+                {
+                    @Override
+                    public String toString()
+                    {
+                        return "BetweenStructuresSubrange " + super.toString();
+}}

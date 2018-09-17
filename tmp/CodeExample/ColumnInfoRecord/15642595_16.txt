@@ -1,4 +1,3 @@
-        ColumnInfoRecord ci;
-{            if ((ci.getFirstColumn() <= column)
-                    && (column <= ci.getLastColumn()))
-}
+            ColumnInfoRecord nci = ( ColumnInfoRecord ) createColInfo();
+            nci.setFirstColumn(column);
+            nci.setLastColumn(column);

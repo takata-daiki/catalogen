@@ -104,12 +104,17 @@
 }{        return _fieldHandler.getFieldOffset(FIBFieldHandler.DGGINFO);
 }{        return _fieldHandler.getFieldSize(FIBFieldHandler.DGGINFO);
 }{        return _fieldHandler.getFieldOffset( noteType
+                .getFibDescriptorsFieldIndex() );
 }{        _fieldHandler.setFieldOffset( noteType.getFibDescriptorsFieldIndex(),
+                offset );
 }{        return _fieldHandler.getFieldSize( noteType
 }{        _fieldHandler.setFieldSize( noteType.getFibDescriptorsFieldIndex(),
+}{                .getFibTextPositionsFieldIndex() );
 }{        _fieldHandler.setFieldOffset( noteType.getFibTextPositionsFieldIndex(),
 }{        _fieldHandler.setFieldSize( noteType.getFibTextPositionsFieldIndex(),
 }{        _cbRgFcLcb = _fieldHandler.getFieldsCount();
         _fieldHandler.writeTo( mainStream, offset, tableStream );
-}{                + LittleEndian.SHORT_SIZE + _fieldHandler.sizeInBytes();
+}{        return FibBase.getSize() + LittleEndian.SHORT_SIZE + FibRgW97.getSize()
+                + LittleEndian.SHORT_SIZE + FibRgLw97.getSize()
+                + LittleEndian.SHORT_SIZE + _fieldHandler.sizeInBytes();
 }

@@ -3,7 +3,8 @@
 }{        XWPFNum num = document.getNumbering().getNum( numID.getVal() );
 }{        XWPFAbstractNum abstractNum = document.getNumbering().getAbstractNum( abstractNumID.getVal() );
 }{{{                XWPFHyperlink hyperlink = document.getHyperlinkByID( hyperlinkId );
-}}}{            return document.getStyles().getStyle( styleID );
+}}}{        else
+            return document.getStyles().getStyle( styleID );
 }{        PackagePart hdrPart = document.getPartById( headerRef.getId() );
         List<XWPFHeader> headers = document.getHeaderList();
 }{        PackagePart hdrPart = document.getPartById( footerRef.getId() );

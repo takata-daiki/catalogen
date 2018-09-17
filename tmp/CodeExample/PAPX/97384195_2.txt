@@ -1,0 +1,7 @@
+        PAPX papx = null;
+{            byte[] phe = papx.getParagraphHeight().toByteArray();
+            byte[] grpprl = papx.getGrpprl();
+            LittleEndian.putInt( buf, fcOffset,
+                    translator.getByteIndex( papx.getStart() ) );
+}        LittleEndian.putInt( buf, fcOffset,
+                translator.getByteIndex( papx.getEnd() ) );

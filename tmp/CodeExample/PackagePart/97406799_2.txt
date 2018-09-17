@@ -1,0 +1,6 @@
+    private Paint createTexturePaint(CTBlipFillProperties blipFill, Graphics2D graphics,
+            PackagePart parentPart){
+        Paint paint = null;
+        PackageRelationship rel = parentPart.getRelationship(blipId);
+{{                BufferedImage img = renderer.readImage(parentPart.getRelatedPart(rel));
+}}}

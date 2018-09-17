@@ -1,7 +1,10 @@
+    protected void processImage( Element currentBlock, boolean inlined,
             Picture picture, String imageSourcePath )
-{        final int aspectRatioX = picture.getHorizontalScalingFactor();
+    {
+        final int aspectRatioX = picture.getHorizontalScalingFactor();
         final int aspectRatioY = picture.getVerticalScalingFactor();
 {            imageWidth = picture.getDxaGoal() * aspectRatioX / 1000
+                    / TWIPS_PER_INCH;
             cropRight = picture.getDxaCropRight() * aspectRatioX / 1000
             cropLeft = picture.getDxaCropLeft() * aspectRatioX / 1000
 }{            imageWidth = picture.getDxaGoal() / TWIPS_PER_INCH;

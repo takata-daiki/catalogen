@@ -1,3 +1,5 @@
         for ( TextPiece textPiece : _doc.getTextTable().getTextPieces() )
-{{                System.out.println( "\t" + textPiece.getStringBuilder() );
+        {
+            System.out.println( textPiece );
+{                System.out.println( "\t" + textPiece.getStringBuilder() );
 }}

@@ -1,0 +1,2 @@
+   public DocumentInputStream(NPOIFSDocument document) {
+      delegate = new NDocumentInputStream(document);

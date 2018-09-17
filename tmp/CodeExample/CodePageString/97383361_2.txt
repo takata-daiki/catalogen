@@ -1,2 +1,3 @@
                 CodePageString codePageString = new CodePageString( (String) value,
+                        codepage );
                 length += codePageString.write( out );

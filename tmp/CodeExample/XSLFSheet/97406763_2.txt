@@ -1,4 +1,2 @@
-        XSLFSheet masterSheet = getSheet().getMasterSheet();
-{{                masterShape = masterSheet.getPlaceholder(ph);
-}{                XSLFSheet master = masterSheet.getMasterSheet();
-}}
+    /* package */XSLFSimpleShape(XmlObject shape, XSLFSheet sheet) {
+        _shape = shape;

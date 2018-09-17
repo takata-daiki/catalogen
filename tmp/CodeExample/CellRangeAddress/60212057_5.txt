@@ -1,5 +1,3 @@
-            CellRangeAddress crb = list.getCellRangeAddress(jj);  
-            wRHidden = ExcelUtils.getRow(sh, crb.getFirstRow()).getZeroHeight();
-            HSSFCell cell = ExcelUtils.getCell(sh, crb.getFirstRow(), crb.getFirstColumn());
-{              AreaReference area3 = new AreaReference(crb.formatAsString());
-}
+          CellRangeAddress cRA =  workR.getCellRangeAddress(workR.countRanges()-1);
+          Object value = ExcelUtils.getCellValue(
+              ExcelUtils.getCell(sh, cRA.getLastRow()+ 1, formatCol));

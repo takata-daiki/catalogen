@@ -1,3 +1,6 @@
+    @Override
     protected IITextContainer startVisitPargraph( XWPFParagraph xwpfParagraph, IITextContainer pdfParagraph )
-{        String styleID = xwpfParagraph.getStyleID();
+        throws Exception
+    {
+        String styleID = xwpfParagraph.getStyleID();
 }

@@ -1,2 +1,3 @@
+            case FormulaRecord.sid: // Cell value from a formula
                 FormulaRecord formula = (FormulaRecord) record;
                 addCell(record, new NumberCell(formula.getValue(), format));

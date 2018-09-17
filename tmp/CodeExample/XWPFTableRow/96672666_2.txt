@@ -1,0 +1,4 @@
+    public Float getTableRowMarginTop( XWPFTableRow row )
+    {
+        return TableRowMarginTopValueProvider.INSTANCE.getValue( row, this );
+}

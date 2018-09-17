@@ -1,4 +1,5 @@
       CHPFormattedDiskPage cfkp = new CHPFormattedDiskPage(documentStream,
+        pageOffset, fcMin);
       int fkpSize = cfkp.size();
 {        _textRuns.add(cfkp.getCHPX(y));
 }

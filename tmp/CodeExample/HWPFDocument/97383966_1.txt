@@ -1,0 +1,7 @@
+    @Override
+    protected void processDrawnObject( HWPFDocument doc,
+            CharacterRun characterRun, OfficeDrawing officeDrawing,
+            String path, Element block )
+    {
+        Element img = htmlDocumentFacade.createImage( path );
+}

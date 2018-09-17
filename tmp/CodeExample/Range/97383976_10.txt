@@ -1,2 +1,5 @@
-                Range endnoteRange = doc.getEndnoteRange();
-                int rangeStartOffset = endnoteRange.getStartOffset();
+        final Range docRange = wordDocument.getRange();
+        if ( docRange.numSections() == 1 )
+        {
+            processSingleSection( wordDocument, docRange.getSection( 0 ) );
+}

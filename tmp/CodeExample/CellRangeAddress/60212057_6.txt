@@ -1,2 +1,3 @@
-              CellRangeAddress cra2 = ExcelUtils.mergeArea(sh, area2.getAllReferencedCells()[0]);
-              for (int row = cra2.getFirstRow(); row <=cra2.getLastRow(); row++)
+            CellRangeAddress res = ExcelUtils.intersectRectangular(new CellRangeAddress(
+                area.getFirstCell().getRow(), area.getLastCell().getRow(),
+                area.getFirstCell().getCol(), area.getLastCell().getCol()), crB);

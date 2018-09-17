@@ -1,3 +1,4 @@
             EscherRecord r = iterator.next();
             if(r.getRecordId() == recordId) {
+                return true;
 }

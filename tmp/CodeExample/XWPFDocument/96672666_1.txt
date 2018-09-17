@@ -2,5 +2,9 @@
 {        List<CTStyle> styles = document.getStyle().getStyleList();
 }{{            return document.getStyle().getDocDefaults();
 }}{        for ( POIXMLDocumentPart p : document.getRelations() )
-}{{            for ( POIXMLDocumentPart p : document.getRelations() )
-}}
+        {
+            String relationshipType = p.getPackageRelationship().getRelationshipType();
+}}{{            for ( POIXMLDocumentPart p : document.getRelations() )
+            {
+                String relationshipType = p.getPackageRelationship().getRelationshipType();
+}}}

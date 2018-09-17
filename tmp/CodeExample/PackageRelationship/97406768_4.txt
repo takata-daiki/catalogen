@@ -1,0 +1,4 @@
+        PackageRelationship rel = getPackagePart().addRelationship(
+                pic.getPartName(), TargetMode.INTERNAL, blipRel.getRelationshipType());
+        addRelation(rel.getId(), new XSLFPictureData(pic, rel));
+        return rel.getId();

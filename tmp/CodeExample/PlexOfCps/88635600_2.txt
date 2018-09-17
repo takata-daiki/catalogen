@@ -1,4 +1,9 @@
+    private int savePlex( FileInformationBlock fib, FieldsDocumentPart part,
             PlexOfCps plexOfCps, HWPFOutputStream outputStream )
-{        if ( plexOfCps == null || plexOfCps.length() == 0 )
-        byte[] data = plexOfCps.toByteArray();
+            throws IOException
+    {
+        if ( plexOfCps == null || plexOfCps.length() == 0 )
+        {
+            fib.setFieldsPlcfOffset( part, outputStream.getOffset() );
+}        byte[] data = plexOfCps.toByteArray();
 }

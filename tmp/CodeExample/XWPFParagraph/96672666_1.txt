@@ -1,0 +1,4 @@
+    public Float getSpacingBefore( XWPFParagraph docxParagraph )
+    {
+        return ParagraphSpacingBeforeValueProvider.INSTANCE.getValue( docxParagraph, this );
+}

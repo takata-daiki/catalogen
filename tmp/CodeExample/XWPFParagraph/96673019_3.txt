@@ -1,0 +1,6 @@
+    @Override
+    protected void visitBookmark( CTBookmark bookmark, XWPFParagraph paragraph, IITextContainer paragraphContainer )
+        throws Exception
+    {
+        Chunk chunk = new Chunk( TAB );
+}

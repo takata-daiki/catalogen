@@ -1,0 +1,4 @@
+        catch ( OldWordFileFormatException exc )
+        {
+            return new HWPFOldDocument( poifsFileSystem );
+}

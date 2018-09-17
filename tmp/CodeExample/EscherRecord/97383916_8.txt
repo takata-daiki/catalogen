@@ -1,2 +1,2 @@
-            EscherRecord record = iterator.next();
-            builder.append(record.toXml(tab+"\t"));
+    public void addChildRecord(EscherRecord record) {
+        _childRecords.add(record);

@@ -1,4 +1,5 @@
-    static final private BitField alternateexpression =   // whether to use alternate expression eval
-{        field_2_wsbool = alternateexpression.setByteBoolean(field_2_wsbool,
-}{        return alternateexpression.isSet(field_2_wsbool);
+    static final private BitField displayguts         = BitFieldFactory.getInstance(
+        0x06);                                            // whether to display outline symbols (in the gutters)
+{        field_2_wsbool = displayguts.setByteBoolean(field_2_wsbool, guts);
+}{        return displayguts.isSet(field_2_wsbool);
 }

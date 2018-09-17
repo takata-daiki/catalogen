@@ -1,3 +1,7 @@
+    @Override
     protected void visitPicture( XWPFPicture picture, XHTMLPageContentBuffer parentContainer )
-{        CTPicture ctPic = picture.getCTPicture();
+        throws Exception
+    {
+        parentContainer.startElementNotEnclosed( IMG_ELEMENT );
+        CTPicture ctPic = picture.getCTPicture();
 }

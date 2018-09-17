@@ -1,4 +1,5 @@
     HSSFSheet sheet;
 {      rNum = sheet.getLastRowNum();
 {        if ((row = sheet.getRow(j)) == null){
+          continue;
 }}}

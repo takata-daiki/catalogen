@@ -1,0 +1,6 @@
+    public TableInfo getTableInfo( XWPFTable table )
+    {
+        if ( tableInfos == null )
+        {
+            tableInfos = new HashMap<XWPFTable, TableInfo>();
+}}

@@ -1,4 +1,10 @@
-            DirectoryNode parent   = (dir == null)
-{                    ( DirectoryNode ) parent.createDirectory(name);
-}{                parent.createDocument(document);
-}
+    private void processProperties(final BlockList small_blocks,
+                                   final BlockList big_blocks,
+                                   final Iterator properties,
+                                   final DirectoryNode dir)
+        throws IOException
+    {
+        while (properties.hasNext())
+        {
+            Property      property = ( Property ) properties.next();
+}}

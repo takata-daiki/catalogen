@@ -1,3 +1,4 @@
-        for ( EscherProperty prop : properties )
-{            if ( prop.getPropertyNumber() == propId )
+        for ( EscherProperty property : properties )
+        {
+            totalSize += property.getPropertySize();
 }

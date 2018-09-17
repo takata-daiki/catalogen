@@ -1,0 +1,4 @@
+    public Float getTableCellMarginRight( XWPFTableCell cell )
+    {
+        return TableCellMarginRightValueProvider.INSTANCE.getValue( cell, this );
+}

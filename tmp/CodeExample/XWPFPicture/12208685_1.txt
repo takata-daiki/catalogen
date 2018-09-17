@@ -1,4 +1,7 @@
+    @Override
     protected void visitPicture( XWPFPicture picture, IITextContainer parentContainer )
-{        CTPositiveSize2D ext = picture.getCTPicture().getSpPr().getXfrm().getExt();
+        throws Exception
+    {
+        CTPositiveSize2D ext = picture.getCTPicture().getSpPr().getXfrm().getExt();
         CTPicture ctPic = picture.getCTPicture();
 }

@@ -1,4 +1,6 @@
     public static int getNumberOfColumnFromFirstRow( XWPFTable table )
-{        int numberOfRows = table.getNumberOfRows();
+    {
+        int nbCols = 0;
+        int numberOfRows = table.getNumberOfRows();
 {            XWPFTableRow firstRow = table.getRow( 0 );
 }}

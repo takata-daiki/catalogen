@@ -1,3 +1,6 @@
-                XSLFTheme theme = sheet.getTheme();
-{                    fillProps = theme.getXmlObject().
+    private Paint createLinearGradientPaint(
+            Graphics2D graphics,
+            CTGradientFillProperties gradFill, Rectangle2D anchor,
+            XSLFTheme theme, CTSchemeColor phClr) {
+        double angle = gradFill.getLin().getAng() / 60000;
 }

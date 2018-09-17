@@ -1,5 +1,9 @@
+    protected void processParagraph( HWPFDocumentCore hwpfDocument,
             Element parentElement, int currentTableLevel, Paragraph paragraph,
-{        final int charRuns = paragraph.numCharacterRuns();
+            String bulletText )
+    {
+        final Element pElement = htmlDocumentFacade.createParagraph();
+        final int charRuns = paragraph.numCharacterRuns();
 {            final CharacterRun characterRun = paragraph.getCharacterRun( 0 );
 }{{{                    float firstLinePosition = paragraph.getIndentFromLeft()
                             + paragraph.getFirstLineIndent() + 20; // char have

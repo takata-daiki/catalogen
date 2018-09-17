@@ -1,0 +1,2 @@
+  public static PackagePart getResourcesPart(PackagePart part) {    
+    return getPartByRelationshipType(part, TKitRelationshipTypes.RESOURCES);

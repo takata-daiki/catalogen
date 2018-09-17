@@ -1,3 +1,4 @@
-    public static TableWidth getTableWidth( XWPFTableCell cell )
-{        CTTcPr tblPr = cell.getCTTc().getTcPr();
+    public static CTTblWidth getWidth( XWPFTableCell cell )
+    {
+        return cell.getCTTc().getTcPr().getTcW();
 }

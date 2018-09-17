@@ -1,2 +1,3 @@
     PackagePart notesPart = getNodesPart(slide);
+    NotesDocument notesDoc =
       NotesDocument.Factory.parse(notesPart.getInputStream());

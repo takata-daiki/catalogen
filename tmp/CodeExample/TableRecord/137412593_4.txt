@@ -1,4 +1,5 @@
     for (TableRecord record : writeOffItems) {
+      HSSFRow currentRow = sheet.createRow(rowIndex);
       String key = record.itemName + " " + record.oper;
       cell.setCellValue(record.itemName);
       cell.setCellValue(record.oper);

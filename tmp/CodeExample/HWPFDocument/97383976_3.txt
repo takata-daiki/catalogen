@@ -1,3 +1,8 @@
     protected void processDrawnObject( HWPFDocument doc,
-{        OfficeDrawing officeDrawing = doc.getOfficeDrawingsMain()
+            CharacterRun characterRun, Element block )
+    {
+        if ( getPicturesManager() == null )
+            return;
+        OfficeDrawing officeDrawing = doc.getOfficeDrawingsMain()
+                .getOfficeDrawingAt( characterRun.getStartOffset() );
 }

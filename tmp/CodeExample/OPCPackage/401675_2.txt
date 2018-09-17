@@ -1,5 +1,7 @@
   private PackagePart createPart(OPCPackage pack, PackagePart corePart, String name, File file, String contentType, String relationshipType) {    
+    PackagePart part = null;
 {      if (pack.containPart(partName))  return null;
       part = pack.createPart(partName, contentType);
+      else 
         pack.addRelationship(partName, TargetMode.INTERNAL, relationshipType);        
 }

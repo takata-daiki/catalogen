@@ -1,5 +1,6 @@
     private String getStringValue(HSSFCell cell){
-{        int type = cell.getCellType();
+      if(cell != null){
+        int type = cell.getCellType();
 {          return cell.getStringCellValue();
 }{          BigDecimal big = new BigDecimal(cell.getNumericCellValue());
 }}

@@ -1,0 +1,2 @@
+  public static List<HSSFCell> findAll(HSSFSheet sh, CellReference topLeft, CellReference botRight, Object valueSearch, byte lookIn, XlLookAt lookAt, XlSearchDirection searchDirection){
+    return findAll(sh, new  AreaReference(topLeft, botRight), valueSearch, lookIn, lookAt, searchDirection);

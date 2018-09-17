@@ -1,3 +1,8 @@
+    @Override
     protected XHTMLPageContentBuffer startVisitTableCell( XWPFTableCell tableCell,
-{        CTTcPr tcPr = tableCell.getCTTc().getTcPr();
+                                                          XHTMLPageContentBuffer tableContainer, boolean firstRow,
+                                                          boolean lastRow, boolean firstCell, boolean lastCell )
+    {
+        tableContainer.startElementNotEnclosed( TD_ELEMENT );
+        CTTcPr tcPr = tableCell.getCTTc().getTcPr();
 }

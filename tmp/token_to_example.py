@@ -76,18 +76,17 @@ def extract(class_name, dic):
         line_num = set([dic[s][2]])
         for n in token_num:
             line_num.add(dic[n][2])
-        #     for i in range(n)[::-1]: # front
-        #         if dic[i][0] == '(':
-        #             line_num.add(dic[i][2])
-        #             break
-        #         if dic[i][0] == ';' or dic[i][0] == '{' or dic[i][0] == '}':
-        #             line_num.add(str(int(dic[i][2]) + 1))
-        #             break
-        #
-        #     for i in range(len(dic))[n + 1:]:
-        #         if dic[i][0] == ';':
-        #             line_num.add(dic[i][2])
-        #             break
+            for i in range(n)[::-1]:  # front
+                if dic[i][2] == dic[n][2]:
+                    continue
+                if dic[i][0] == ';' or dic[i][0] == '{' or dic[i][0] == '}':
+                    break
+                line_num.add(dic[i][2])
+
+            for i in range(len(dic))[n + 1:]:  # back
+                line_num.add(dic[i][2])
+                if dic[i][0] == ';':
+                    break
 
         if len(line_num) >= 2:
             catalog.append(list(line_num))

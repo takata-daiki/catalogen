@@ -2,3 +2,6 @@
         while (masterSheet.getMasterSheet() != null){
             masterSheet = masterSheet.getMasterSheet();
 }        XmlObject[] o = masterSheet.getXmlObject().selectPath(
+                "declare namespace p='http://schemas.openxmlformats.org/presentationml/2006/main' " +
+                "declare namespace a='http://schemas.openxmlformats.org/drawingml/2006/main' " +
+                ".//p:txStyles/p:" + defaultStyleSelector +"/a:lvl" +(level+1)+ "pPr");

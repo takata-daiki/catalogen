@@ -3,4 +3,5 @@
         for(int col = areaRef.getFirstCell().getCol(); col <= areaRef.getLastCell().getCol(); col++){
           for(int row = areaRef.getFirstCell().getRow(); row <= areaRef.getLastCell().getRow(); row++){
             if (row == areaRef.getFirstCell().getRow()){
+              HSSFRow row0 = sh.getRow(row);
 }}}}

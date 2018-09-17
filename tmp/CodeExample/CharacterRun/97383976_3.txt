@@ -1,6 +1,16 @@
                 CharacterRun characterRun = range.getCharacterRun( c );
                 if ( characterRun.getStartOffset() < skipUntil )
+                    continue;
                 String text = characterRun.text();
+                Field aliveField = ( (HWPFDocument) wordDocument ).getFields()
+                        .getFieldByStartOffset( FieldsDocumentPart.MAIN,
                                 characterRun.getStartOffset() );
-{{                                        characterRun.getStartOffset(), range
+{{                        addToStructures(
+                                structures,
+                                new Structure( new DeadFieldBoundaries( c,
+                                        separatorEnd[0], separatorEnd[1] ),
+                                        characterRun.getStartOffset(), range
+                                                .getCharacterRun(
+                                                        separatorEnd[1] )
+                                                .getEndOffset() ) );
 }}

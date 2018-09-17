@@ -1,2 +1,3 @@
-      HSSFFont font2 = wb.createFont();
-      font2.setItalic(true);
+      HSSFFont font1 = wb.createFont();
+      font1.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);
+      font1.setFontHeightInPoints((short)10);

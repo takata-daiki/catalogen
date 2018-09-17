@@ -1,5 +1,6 @@
     public MutablePropertySet(final PropertySet ps)
-{        byteOrder = ps.getByteOrder();
+    {
+        byteOrder = ps.getByteOrder();
         format = ps.getFormat();
         osVersion = ps.getOSVersion();
         setClassID(ps.getClassID());

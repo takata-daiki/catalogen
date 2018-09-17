@@ -1,0 +1,16 @@
+    protected void processImage( Element currentBlock, boolean inlined,
+            Picture picture )
+    {
+        PicturesManager fileManager = getPicturesManager();
+{            final int aspectRatioX = picture.getHorizontalScalingFactor();
+            final int aspectRatioY = picture.getVerticalScalingFactor();
+            final float imageWidth = aspectRatioX > 0 ? picture.getDxaGoal()
+                    * aspectRatioX / 1000 / AbstractWordUtils.TWIPS_PER_INCH
+                    : picture.getDxaGoal() / AbstractWordUtils.TWIPS_PER_INCH;
+            final float imageHeight = aspectRatioY > 0 ? picture.getDyaGoal()
+                    * aspectRatioY / 1000 / AbstractWordUtils.TWIPS_PER_INCH
+                    : picture.getDyaGoal() / AbstractWordUtils.TWIPS_PER_INCH;
+            String url = fileManager.savePicture( picture.getContent(),
+                    picture.suggestPictureType(),
+                    picture.suggestFullFileName(), imageWidth, imageHeight );
+}}

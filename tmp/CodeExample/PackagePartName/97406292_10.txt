@@ -1,0 +1,3 @@
+  public void deletePart(PackagePartName partName) {
+    if (partName == null)
+      throw new IllegalArgumentException("partName");

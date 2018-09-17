@@ -1,0 +1,4 @@
+        catch (UnexpectedPropertySetTypeException ex)
+        {
+            throw new HPSFRuntimeException(ex);
+}

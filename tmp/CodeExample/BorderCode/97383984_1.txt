@@ -1,3 +1,10 @@
     public static String getBorderType( BorderCode borderCode )
-{        switch ( borderCode.getBorderType() )
-}
+    {
+        if ( borderCode == null )
+            throw new IllegalArgumentException( "borderCode is null" );
+        switch ( borderCode.getBorderType() )
+        {
+        case 1:
+        case 2:
+            return "solid";
+}}

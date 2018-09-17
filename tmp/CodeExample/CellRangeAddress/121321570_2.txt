@@ -1,6 +1,5 @@
-      CellRangeAddress cellRangeAddress = worksheet.getMergedRegion(i);
-      if (cellRangeAddress.getFirstRow() == sourceRow.getRowNum()) {
-                            newRow.getRowNum() + (cellRangeAddress.getLastRow() - cellRangeAddress.getFirstRow()),
-                            cellRangeAddress.getFirstColumn(),
-                            cellRangeAddress.getLastColumn());
-}
+            CellRangeAddress newCellRangeAddress
+                     = new CellRangeAddress(newRow.getRowNum(),
+                                newRow.getRowNum() + (cellRangeAddress.getLastRow() - cellRangeAddress.getFirstRow()),
+                                cellRangeAddress.getFirstColumn(),
+                                cellRangeAddress.getLastColumn());

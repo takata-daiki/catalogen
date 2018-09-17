@@ -1,0 +1,4 @@
+    public String getFontFamilyAscii( XWPFRun run )
+    {
+        return RunFontFamilyAsciiValueProvider.INSTANCE.getValue( run, this );
+}

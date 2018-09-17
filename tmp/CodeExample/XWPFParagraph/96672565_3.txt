@@ -1,3 +1,2 @@
-    private boolean isAddNewLine( XWPFParagraph paragraph, int index )
-{        IBody body = paragraph.getBody();
-}
+    protected abstract T startVisitParagraph( XWPFParagraph paragraph, ListItemContext itemContext, T parentContainer )
+        throws Exception;

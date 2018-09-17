@@ -1,4 +1,8 @@
-            POIFSDocumentPath   path    = event.getPath();
-{                int pathLength = path.length();
-{                    System.out.print("/" + path.getComponent(k));
+    public void registerListener(final POIFSReaderListener listener,
+                                 final POIFSDocumentPath path,
+                                 final String name)
+    {
+        if ((listener == null) || (name == null) || (name.length() == 0))
+        {
+            throw new NullPointerException();
 }}

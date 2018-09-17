@@ -1,3 +1,4 @@
     public static String extractContentWordDocument(final XWPFWordExtractor wde){
+        String bodyText = null;
 {            bodyText = wde.getText();
 }

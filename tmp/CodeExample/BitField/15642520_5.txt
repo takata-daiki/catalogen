@@ -1,4 +1,5 @@
     static final private BitField draft         =
+        BitFieldFactory.getInstance(0x10);   // print draft quality
 {        field_6_options = draft.setShortBoolean(field_6_options, d);
 }{        return draft.isSet(field_6_options);
 }

@@ -1,62 +1,128 @@
+  static void unCompressCHPOperation (CharacterProperties oldCHP,
+                                      CharacterProperties newCHP,
                                       SprmOperation sprm)
-{    switch (sprm.getOperation())
-{        newCHP.setFRMarkDel (getFlag (sprm.getOperand()));
+  {
+    switch (sprm.getOperation())
+    {
+      case 0:
+        newCHP.setFRMarkDel (getFlag (sprm.getOperand()));
+      case 0x1:
         newCHP.setFRMark (getFlag (sprm.getOperand()));
+      case 0x2:
         newCHP.setFFldVanish (getFlag (sprm.getOperand()));
+        case 0x3:
             newCHP.setFcPic( sprm.getOperand() );
+      case 0x4:
         newCHP.setIbstRMark ((short) sprm.getOperand());
+      case 0x5:
         newCHP.setDttmRMark (new DateAndTime(sprm.getGrpprl(), sprm.getGrpprlOffset()));
+      case 0x6:
         newCHP.setFData (getFlag (sprm.getOperand()));
+      case 0x8:
         int operand =sprm.getOperand();
         newCHP.setFtcSym (LittleEndian.getShort (sprm.getGrpprl(), sprm.getGrpprlOffset()));
         newCHP.setXchSym (LittleEndian.getShort (sprm.getGrpprl(), sprm.getGrpprlOffset() + 2));
+      case 0xa:
         newCHP.setFOle2 (getFlag (sprm.getOperand()));
+      case 0xc:
         newCHP.setIcoHighlight ((byte) sprm.getOperand());
         newCHP.setFHighlight (getFlag (sprm.getOperand()));
+      case 0xe:
         newCHP.setFcObj (sprm.getOperand());
+        case 0x30:
             newCHP.setIstd( sprm.getOperand() );
+      case 0x35:
         newCHP.setFBold (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFBold ()));
+      case 0x36:
         newCHP.setFItalic (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFItalic ()));
+      case 0x37:
         newCHP.setFStrike (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFStrike ()));
+      case 0x38:
         newCHP.setFOutline (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFOutline ()));
+      case 0x39:
         newCHP.setFShadow (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFShadow ()));
+      case 0x3a:
         newCHP.setFSmallCaps (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFSmallCaps ()));
+      case 0x3b:
         newCHP.setFCaps (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFCaps ()));
+      case 0x3c:
         newCHP.setFVanish (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFVanish ()));
+      case 0x3d:
         newCHP.setFtcAscii ((short) sprm.getOperand());
+      case 0x3e:
         newCHP.setKul ((byte) sprm.getOperand());
+      case 0x3f:
         operand = sprm.getOperand();
+      case 0x40:
         newCHP.setDxaSpace (sprm.getOperand());
+      case 0x41:
         newCHP.setLidDefault ((short) sprm.getOperand());
+      case 0x42:
         newCHP.setIco ((byte) sprm.getOperand());
+      case 0x43:
         newCHP.setHps (sprm.getOperand());
+      case 0x44:
         byte hpsLvl = (byte) sprm.getOperand();
+      case 0x45:
         newCHP.setHpsPos ((short) sprm.getOperand());
+      case 0x46:
         if (sprm.getOperand() != 0)
+        {
+          if (oldCHP.getHpsPos () == 0)
+          {
+            newCHP.setHps (Math.max (newCHP.getHps () + ( -2), 2));
+}}      case 0x48:
         newCHP.setIss ((byte) sprm.getOperand());
+      case 0x49:
         newCHP.setHps (LittleEndian.getShort (sprm.getGrpprl(), sprm.getGrpprlOffset()));
+      case 0x4a:
         int increment = LittleEndian.getShort (sprm.getGrpprl(), sprm.getGrpprlOffset());
+      case 0x4b:
         newCHP.setHpsKern (sprm.getOperand());
+        case 0x4d:
             float percentage = sprm.getOperand() / 100.0f;
+        case 0x4e:
+            Hyphenation hyphenation = new Hyphenation(
                     (short) sprm.getOperand() );
+      case 0x4f:
+      case 0x50:
         newCHP.setFtcFE ((short) sprm.getOperand());
+      case 0x51:
         newCHP.setFtcOther ((short) sprm.getOperand());
+      case 0x53:
         newCHP.setFDStrike (getFlag (sprm.getOperand()));
+      case 0x54:
         newCHP.setFImprint (getFlag (sprm.getOperand()));
+        case 0x55:
             newCHP.setFSpec( getFlag( sprm.getOperand() ) );
+      case 0x56:
         newCHP.setFObj (getFlag (sprm.getOperand()));
+        case 0x57:
             byte[] buf = sprm.getGrpprl();
             int offset = sprm.getGrpprlOffset();
+      case 0x58:
         newCHP.setFEmboss (getFlag (sprm.getOperand()));
+      case 0x59:
         newCHP.setSfxtText ((byte) sprm.getOperand());
             buf = sprm.getGrpprl();
             offset = sprm.getGrpprlOffset();
+      case 0x63:
         newCHP.setIbstRMarkDel ((short) sprm.getOperand());
+      case 0x64:
         newCHP.setDttmRMarkDel (new DateAndTime(sprm.getGrpprl(), sprm.getGrpprlOffset()));
+      case 0x65:
         newCHP.setBrc (new BorderCode(sprm.getGrpprl(), sprm.getGrpprlOffset()));
+        case 0x66:
+            ShadingDescriptor80 oldDescriptor = new ShadingDescriptor80(
                     sprm.getGrpprl(), sprm.getGrpprlOffset() );
+      case 0x6d:
+      case 0x6e:
         newCHP.setLidFE ((short) sprm.getOperand());
+      case 0x6f:
         newCHP.setIdctHint ((byte) sprm.getOperand());
+        case 0x70:
             newCHP.setCv( new Colorref( sprm.getOperand() ) );
+    case 0x75:
       newCHP.setFNoProof(getCHPFlag((byte) sprm.getOperand(),
+          oldCHP.isFNoProof()));
 }}

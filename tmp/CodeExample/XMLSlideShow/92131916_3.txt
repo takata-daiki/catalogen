@@ -1,0 +1,4 @@
+    private XMLSlideShow generateDetailShops(XMLSlideShow ppt, List<? extends MarketingSlideInfo> slides, Function<String, byte[]> pictureGetter, MarketingReportData mData) {
+        for (MarketingSlideInfo slide : slides) {
+            ppt = generateDetailShop(ppt, slide, pictureGetter, mData);
+}

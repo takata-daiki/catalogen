@@ -1,4 +1,3 @@
-    public void processDocument( HWPFDocumentCore wordDocument )
-{{            final SummaryInformation summaryInformation = wordDocument
-}        final Range docRange = wordDocument.getRange();
-}
+    protected abstract void processBookmarks( HWPFDocumentCore wordDocument,
+            Element currentBlock, Range range, int currentTableLevel,
+            List<Bookmark> rangeBookmarks );

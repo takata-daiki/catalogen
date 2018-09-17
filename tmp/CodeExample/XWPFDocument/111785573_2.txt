@@ -1,3 +1,5 @@
     private void extractTableContent(XWPFDocument doc, XHTMLContentHandler xhtml)
-{        for (CTTbl table : doc.getDocument().getBody().getTblArray()) {
+            throws SAXException {
+        for (CTTbl table : doc.getDocument().getBody().getTblArray()) {
+            xhtml.startElement("table");
 }}

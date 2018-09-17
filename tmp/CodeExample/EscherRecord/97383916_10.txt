@@ -1,3 +1,4 @@
-            EscherRecord r = iterator.next();
-            } else if (r.getRecordId() == recordId){
+            EscherRecord rec = _childRecords.get(i);
+            if(rec.getRecordId() == insertBeforeRecordId){
+                _childRecords.add(i++, record);
 }

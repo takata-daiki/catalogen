@@ -1,2 +1,3 @@
           HSSFDataFormat format = workbook.createDataFormat();
           cellStyle.setDataFormat(format.getFormat(sourceCell
+              .getCellStyle().getDataFormatString()));

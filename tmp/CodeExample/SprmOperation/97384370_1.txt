@@ -1,2 +1,8 @@
             SprmOperation sprm = sprmIt.next();
             if ( sprm.getType() != 2 )
+            {
+                if ( warnAboutNonChpSprms )
+                {
+                    logger.log( POILogger.WARN,
+                            "Non-CHP SPRM returned by SprmIterator: " + sprm );
+}}

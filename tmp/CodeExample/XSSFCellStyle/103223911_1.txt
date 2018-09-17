@@ -1,2 +1,5 @@
                     XSSFCellStyle cellStyle = (XSSFCellStyle) book.getCellStyleAt(i);
                     if (cellStyle.getFillForegroundXSSFColor() == newColor)
+                    {
+                        cell.setCellStyle(cellStyle);
+}

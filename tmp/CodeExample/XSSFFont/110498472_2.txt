@@ -1,10 +1,16 @@
     XSSFFont font = newStyle.getFont();
     if (font.getBold()) {
+      xmlWriter.writeStartElement("font-weight");
 }    if (font.getItalic()) {
+      xmlWriter.writeStartElement("font-style");
 }    if (font.getUnderline() != XSSFFont.U_NONE) {
+      xmlWriter.writeStartElement("text-decoration");
 }    if (font.getFontHeight() != XSSFFont.DEFAULT_FONT_SIZE) {
+      xmlWriter.writeStartElement("font-size");
       xmlWriter.writeCharacters(String.valueOf(font
+          .getFontHeightInPoints()) + "pt");
 }    if (!font.getFontName().equals(XSSFFont.DEFAULT_FONT_NAME)) {
+      xmlWriter.writeStartElement("font-family");
       xmlWriter.writeCharacters(String.valueOf(font.getFontName()));
 }    if (font.getColor() != XSSFFont.DEFAULT_FONT_COLOR) {
       String colorString = getRGBString(font.getXSSFColor());

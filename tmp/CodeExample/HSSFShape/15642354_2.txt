@@ -1,10 +1,15 @@
     protected int addStandardOptions( HSSFShape shape, EscherOptRecord opt )
-{        if ( shape.isNoFill() )
-        opt.addEscherProperty( new EscherRGBProperty( EscherProperties.FILL__FILLCOLOR, shape.getFillColor() ) );
+    {
+        opt.addEscherProperty( new EscherBoolProperty( EscherProperties.TEXT__SIZE_TEXT_TO_FIT_SHAPE, 0x080000 ) );
+        if ( shape.isNoFill() )
+        {
+            opt.addEscherProperty( new EscherBoolProperty( EscherProperties.FILL__NOFILLHITTEST, 0x00110000 ) );
+}        opt.addEscherProperty( new EscherRGBProperty( EscherProperties.FILL__FILLCOLOR, shape.getFillColor() ) );
         opt.addEscherProperty( new EscherRGBProperty( EscherProperties.LINESTYLE__COLOR, shape.getLineStyleColor() ) );
         if (shape.getLineWidth() != HSSFShape.LINEWIDTH_DEFAULT)
 {            opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.LINESTYLE__LINEWIDTH, shape.getLineWidth()));
 }        if (shape.getLineStyle() != HSSFShape.LINESTYLE_SOLID)
 {            opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.LINESTYLE__LINEDASHING, shape.getLineStyle()));
             if (shape.getLineStyle() == HSSFShape.LINESTYLE_NONE)
+                opt.addEscherProperty( new EscherBoolProperty( EscherProperties.LINESTYLE__NOLINEDRAWDASH, 0x00080000));
 }}

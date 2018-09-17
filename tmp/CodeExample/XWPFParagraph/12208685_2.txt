@@ -1,3 +1,7 @@
-    private void applyStyles( XWPFParagraph ele, IStylableElement<XWPFParagraph> element )
-{        Style style = styleEngine.getStyle( ele.getStyleID() );
+    @Override
+    protected void endVisitPargraph( XWPFParagraph paragraph, IITextContainer parentContainer,
+                                     IITextContainer paragraphContainer )
+        throws Exception
+    {
+        CTPPr ppr = paragraph.getCTP().getPPr();
 }

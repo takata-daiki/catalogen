@@ -1,3 +1,2 @@
-          NameRecord rec = book.getNameRecord(i);
-{            if (rec.getNameText().equalsIgnoreCase(getNameName()))
-}
+    protected HSSFName(Workbook book, NameRecord name) {
+        this.book = book;

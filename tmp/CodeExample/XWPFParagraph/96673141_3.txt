@@ -1,0 +1,4 @@
+    public Float getIndentationLeft( XWPFParagraph paragraph )
+    {
+        return ParagraphIndentationLeftValueProvider.INSTANCE.getValue( paragraph, this );
+}

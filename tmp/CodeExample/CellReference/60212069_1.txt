@@ -1,4 +1,2 @@
-    for(CellReference cellRef:areaRef.getAllReferencedCells()){
-{        setCellValue(getCell(sh, cellRef.getRow(), cellRef.getCol()), valueFill);
-}{        HSSFCell cell = getCell(sh, cellRef.getRow(), cellRef.getCol());
-}
+  public static Boolean hasFormula (HSSFSheet sh, CellReference topLeft, CellReference botRight){
+    return hasFormula(sh, new  AreaReference(topLeft, botRight));

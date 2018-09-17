@@ -1,2 +1,3 @@
     PackagePart signaturePart = signatureParts.get(0);
+    LOG.debug("signature part class type: "
         + signaturePart.getClass().getName());

@@ -1,0 +1,5 @@
+    public static void copyNodes( FilteringDirectoryNode filteredSource,
+            FilteringDirectoryNode filteredTarget ) throws IOException
+    {
+        copyNodes( (DirectoryEntry)filteredSource, (DirectoryEntry)filteredTarget );
+}

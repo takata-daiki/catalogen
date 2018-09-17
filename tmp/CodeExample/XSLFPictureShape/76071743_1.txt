@@ -1,2 +1,3 @@
     XSLFPictureShape shape = slide.createPicture(pictureIndex);
     shape.setAnchor(new Rectangle(5, 5, mapLink.getWidth(), mapLink
+        .getHeight()));

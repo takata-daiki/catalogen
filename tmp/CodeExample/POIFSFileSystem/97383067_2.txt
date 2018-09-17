@@ -1,3 +1,2 @@
-  protected void writePropertySet(String name, PropertySet set, POIFSFileSystem outFS) throws IOException {
-{      outFS.createDocument(bIn,name);
-}
+    protected POIDocument(POIFSFileSystem fs) {
+       this(fs.getRoot());

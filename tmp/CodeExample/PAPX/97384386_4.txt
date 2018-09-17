@@ -1,5 +1,10 @@
                 for ( PAPX papx : _doc.getParagraphTable().getParagraphs() )
-{                    if ( papx.getStart() <= endOfParagraphCharOffset.intValue()
+                {
+                    if ( papx.getStart() <= endOfParagraphCharOffset.intValue()
                             && endOfParagraphCharOffset.intValue() < papx
-{                                papx.getGrpprl(), 2 );
+                                    .getEnd() )
+                    {
+                        hasAssotiatedPapx = true;
+                        SprmIterator sprmIt = new SprmIterator(
+                                papx.getGrpprl(), 2 );
 }}

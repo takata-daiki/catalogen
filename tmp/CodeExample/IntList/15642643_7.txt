@@ -1,3 +1,7 @@
     public boolean retainAll(final IntList c)
-{{            if (!c.contains(_array[ j ]))
-}}
+    {
+        boolean rval = false;
+{            if (!c.contains(_array[ j ]))
+            {
+                remove(j);
+}}}

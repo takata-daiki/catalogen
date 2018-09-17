@@ -1,4 +1,6 @@
   public static Boolean hasFormula (HSSFSheet sh, CellRangeAddress cRA){
+    boolean isNotFormula = false;
     for(int row=cRA.getFirstRow(); row <= cRA.getLastRow(); row++){
+      if (r != null)
         for(int col=cRA.getFirstColumn(); col <= cRA.getLastColumn(); col++){
 }}

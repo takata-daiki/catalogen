@@ -1,3 +1,4 @@
     private String formulaString(FormulaRecord record) {
+        StringBuffer formula = new StringBuffer("=");
         int          numptgs = record.getNumberOfExpressionTokens();
         List         tokens    = record.getParsedExpression();

@@ -1,5 +1,2 @@
-  public static void paste (HSSFSheet sh, AreaReference areaRef,  ExcelBuffer buffer, byte typePaste){
-    int pasteRow1 = areaRef.getFirstCell().getRow();
-    int pasteCol1 = areaRef.getFirstCell().getCol();
-    int pasteRow2 = areaRef.getLastCell().getRow();
-    int pasteCol2 = areaRef.getLastCell().getCol();
+  public static HSSFCell find(HSSFSheet sh, AreaReference areaRef, Object valueSearch, byte lookIn, XlLookAt lookAt, XlSearchDirection searchDirection){
+    List<HSSFCell> list = findInArea(sh, areaRef, valueSearch, null, lookIn, lookAt, searchDirection, true, false);

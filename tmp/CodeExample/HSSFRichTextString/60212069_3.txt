@@ -1,3 +1,5 @@
+            case HSSFCell.CELL_TYPE_STRING:
               HSSFRichTextString rich = cell.getRichStringCellValue();
 {                if((rich != null) && markValue.equals(rich.getString())){
+                  return row.getRowNum();
 }}

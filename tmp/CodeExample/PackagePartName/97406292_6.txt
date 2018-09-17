@@ -1,4 +1,6 @@
-  public PackageRelationship addRelationship(PackagePartName targetPartName,
-{    if (targetPartName.isRelationshipPartURI()) {
-}        targetPartName.getURI(), targetMode, relationshipType, relID);
+  public void removePart(PackagePartName partName) {
+    throwExceptionIfReadOnly();
+    if (partName.isRelationshipPartURI()) {
+      URI sourceURI = PackagingURIHelper
+          .getSourcePartUriFromRelationshipPartUri(partName.getURI());
 }

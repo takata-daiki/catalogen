@@ -1,3 +1,7 @@
     public CharacterProperties getCharacterProperties( StyleSheet ss, short istd )
-{        CharacterProperties baseStyle = ss.getCharacterStyle( istd );
+    {
+        if ( ss == null )
+        {
+            return new CharacterProperties();
+}        CharacterProperties baseStyle = ss.getCharacterStyle( istd );
 }

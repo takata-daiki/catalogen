@@ -1,3 +1,6 @@
-          CellRangeAddress cra = new CellRangeAddress(
-{{{              cell  =  ExcelUtils.getCell(sh, rowNameDataRangeE, cra.getFirstColumn());
-}}}
+                CellRangeAddress crA = ExcelUtils.intersectRectangular(
+                    new CellRangeAddress(0, 
+                        ExcelUtils.xlMaxNumRow-1, 
+                        formatCol, 
+                        lastCol - formatCol), 
+                        areas.getCellRangeAddress(iArea));

@@ -1,0 +1,6 @@
+    @Override
+    protected XWPFStylesDocument createStylesDocument( XWPFDocument document )
+        throws XmlException, IOException
+    {
+        return new CSSStylesDocument( document, options.isIgnoreStylesIfUnused(), options.getIndent() );
+}

@@ -22,6 +22,7 @@
 }            if(row.getCell(10) != null){
               cus.setLastTrackDate(getDateValue(row.getCell(10)));            
 }            if(row.getCell(14) != null || row.getCell(15) != null || row.getCell(16) != null){
+              Track track = new Track();
               if(row.getCell(14) != null){
                 track.setTtime(getDateValue(row.getCell(14)));
 }              track.setRemark(getStringValue(row.getCell(15)));

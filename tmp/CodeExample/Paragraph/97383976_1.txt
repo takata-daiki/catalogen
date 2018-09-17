@@ -1,10 +1,23 @@
+    protected abstract void processParagraph( HWPFDocumentCore wordDocument,
             Element parentElement, int currentTableLevel, Paragraph paragraph,
+            String bulletText );
 {{            if ( paragraph.isInTable()
                     && paragraph.getTableLevel() != currentTableLevel )
-{                if ( paragraph.getTableLevel() < currentTableLevel )
+            {
+                if ( paragraph.getTableLevel() < currentTableLevel )
+                    throw new IllegalStateException(
+                            "Trying to process table cell with higher level ("
                                     + paragraph.getTableLevel()
+                                    + ") than current table level ("
+                                    + currentTableLevel
+                                    + ") as inner table part" );
 }            if ( paragraph.text().equals( "\u000c" ) )
-            if ( paragraph.isInList() )
-{{                    HWPFList hwpfList = paragraph.getList();
+{                processPageBreak( wordDocument, flow );
+}            if ( paragraph.isInList() )
+{                try
+                {
+                    HWPFList hwpfList = paragraph.getList();
+                    String label = AbstractWordUtils.getBulletText(
+                            numberingState, hwpfList,
                             (char) paragraph.getIlvl() );
 }}}}

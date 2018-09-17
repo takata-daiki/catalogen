@@ -1,0 +1,4 @@
+    public STMerge.Enum getTableCellVMerge( XWPFTableCell cell )
+    {
+        return TableCellVMergeValueProvider.INSTANCE.getValue( cell, this );
+}

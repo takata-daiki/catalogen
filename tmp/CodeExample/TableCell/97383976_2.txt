@@ -1,3 +1,7 @@
+    protected int getNumberRowsSpanned( Table table,
+            final int[] tableCellEdges, int currentRowIndex,
             int currentColumnIndex, TableCell tableCell )
-{        if ( !tableCell.isFirstVerticallyMerged() )
+    {
+        if ( !tableCell.isFirstVerticallyMerged() )
+            return 1;
 }

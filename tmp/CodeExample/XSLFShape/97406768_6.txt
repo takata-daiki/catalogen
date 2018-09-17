@@ -1,0 +1,4 @@
+            for(XSLFShape sh : getShapes()){
+                if(sh instanceof XSLFTextShape){
+                    XSLFTextShape sShape = (XSLFTextShape)sh;
+}

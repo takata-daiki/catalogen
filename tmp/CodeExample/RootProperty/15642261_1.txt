@@ -1,3 +1,10 @@
+    public static BlockList getSmallDocumentBlocks(
             final RawDataBlockList blockList, final RootProperty root,
-{                .extract(blockList.fetchBlocks(root.getStartBlock()),
+            final int sbatStart)
+        throws IOException
+    {
+        BlockList list =
+            new SmallDocumentBlockList(SmallDocumentBlock
+                .extract(blockList.fetchBlocks(root.getStartBlock()),
+                  blockList.getBigBlockSize()));
 }

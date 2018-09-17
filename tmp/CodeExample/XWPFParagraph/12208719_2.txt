@@ -1,0 +1,11 @@
+    @Override
+    protected void endVisitPargraph( XWPFParagraph paragraph, IITextContainer parentContainer,
+                                     IITextContainer paragraphContainer )
+        throws Exception
+    {
+}    }
+    protected void visitEmptyRun( IITextContainer paragraphContainer )
+    protected void visitRun( XWPFRun run, IITextContainer paragraphContainer )
+    protected IITextContainer startVisitTable( XWPFTable table, IITextContainer tableContainer )
+{        return null;
+}

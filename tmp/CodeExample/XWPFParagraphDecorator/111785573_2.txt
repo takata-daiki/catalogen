@@ -1,2 +1,3 @@
                         XWPFParagraphDecorator decorator = new XWPFCommentsDecorator(
+                                new XWPFHyperlinkDecorator(p, null, true));
                         xhtml.element("p", decorator.getText());

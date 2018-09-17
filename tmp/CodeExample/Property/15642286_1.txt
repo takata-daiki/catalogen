@@ -1,2 +1,6 @@
             Property child     = ( Property ) iter.next();
             if (child.isDirectory())
+            {
+                childNode = new DirectoryNode(( DirectoryProperty ) child,
+                                              _filesystem, this);
+}

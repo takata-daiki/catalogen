@@ -1,9 +1,22 @@
     private static final POILogger logger = POILogFactory
+            .getLogger( AbstractWordConverter.class );
 {{{                logger.log( POILogger.WARN, "Latest structure in ", range,
+                        " ended at #" + previous, " after range boundaries [",
+                        range.getStartOffset() + "; " + range.getEndOffset(),
+                        ")" );
 }}}{        logger.log( POILogger.WARN, debug );
 }{{            logger.log( POILogger.WARN,
+                    "Unable to process document summary information: ", exc,
+                    exc );
 }}{{            logger.log( POILogger.WARN, "Characters #" + characterRun
+                    + " references missing drawn object" );
 }}{{{{                logger.log( POILogger.WARN, parentRange + " contains " + field
+                        + " with 'Embedded Object' but without separator mark" );
 }}}        logger.log( POILogger.WARN, parentRange + " contains " + field
+                + " with unsupported type or format" );
 }{{            logger.log( POILogger.WARN, "Referenced OLE2 object '",
+                    Integer.valueOf( characterRun.getPicOffset() ),
+                    "' not found in ObjectPool" );
+}{                    "Unable to convert internal OLE2 object '",
+                    Integer.valueOf( characterRun.getPicOffset() ), "': ", exc,
 }}

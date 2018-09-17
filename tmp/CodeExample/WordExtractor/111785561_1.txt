@@ -1,6 +1,8 @@
         org.apache.poi.hwpf.extractor.WordExtractor wordExtractor =
+            new org.apache.poi.hwpf.extractor.WordExtractor(document);
         addTextIfAny(xhtml, "header", wordExtractor.getHeaderText());
         for (String paragraph : wordExtractor.getParagraphText()) {
+            xhtml.element("p", paragraph);
 }        for (String paragraph : wordExtractor.getFootnoteText()) {
 }        for (String paragraph : wordExtractor.getCommentsText()) {
 }        for (String paragraph : wordExtractor.getEndnoteText()) {

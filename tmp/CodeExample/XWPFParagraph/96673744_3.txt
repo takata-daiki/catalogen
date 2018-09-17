@@ -1,0 +1,2 @@
+        XWPFParagraph paragraph = run.getParagraph();
+        this.currentRunAttributes = createClassAttribute( paragraph.getStyleID() );

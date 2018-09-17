@@ -1,0 +1,5 @@
+  public PackageRelationship addRelationship(PackagePartName targetPartName,
+      TargetMode targetMode, String relationshipType) {
+    return this.addRelationship(targetPartName, targetMode,
+        relationshipType, null);
+}

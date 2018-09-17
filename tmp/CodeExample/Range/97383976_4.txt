@@ -1,4 +1,7 @@
-        final Range docRange = wordDocument.getRange();
-        if ( docRange.numSections() == 1 )
-{            processSingleSection( wordDocument, docRange.getSection( 0 ) );
-}
+                    Range subrange = new Range( structure.start, end, range )
+                    {
+                        @Override
+                        public String toString()
+                        {
+                            return "BookmarksSubrange " + super.toString();
+}}

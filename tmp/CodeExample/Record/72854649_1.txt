@@ -1,0 +1,4 @@
+      public void visitRecord(Record r) {
+        if (r instanceof DVRecord) {
+          DVRecord dvRecord = (DVRecord) r;
+}

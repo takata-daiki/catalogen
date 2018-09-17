@@ -1,0 +1,7 @@
+    public void write( FileInformationBlock fib, HWPFOutputStream tableStream )
+            throws IOException
+    {
+        for ( FieldsDocumentPart part : FieldsDocumentPart.values() )
+        {
+            PlexOfCps plexOfCps = _tables.get( part );
+}}

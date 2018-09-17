@@ -1,3 +1,12 @@
-                XWPFTableRow row = null;
-{                    c = row.getCell( cellIndex );
+    protected void startVisitTableRow( XWPFTableRow row, T tableContainer, int rowIndex, boolean headerRow )
+        throws Exception
+    {
+}    }
+    protected void endVisitTableRow( XWPFTableRow row, T tableContainer, boolean firstRow, boolean lastRow,
+                                     boolean headerRow )
+    protected void visitCell( XWPFTableCell cell, T tableContainer, boolean firstRow, boolean lastRow,
+                              boolean firstCol, boolean lastCol, int rowIndex, int cellIndex,
+                              List<XWPFTableCell> vMergedCells )
+{        T tableCellContainer =
+            startVisitTableCell( cell, tableContainer, firstRow, lastRow, firstCol, lastCol, vMergedCells );
 }

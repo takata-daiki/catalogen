@@ -1,4 +1,5 @@
         EntryNode child = ( EntryNode ) _entries.get(oldName);
-{                .changeName(child.getProperty(), newName);
+{            rval = (( DirectoryProperty ) getProperty())
+                .changeName(child.getProperty(), newName);
 {                _entries.put(child.getProperty().getName(), child);
 }}

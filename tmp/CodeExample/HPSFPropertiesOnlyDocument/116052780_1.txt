@@ -1,2 +1,4 @@
       HPSFPropertiesOnlyDocument hpsfPropertiesOnlyDocument =
+        new HPSFPropertiesOnlyDocument(npoifsFileSystem);
+      SummaryInformation summaryInformation =
         hpsfPropertiesOnlyDocument.getSummaryInformation();

@@ -1,6 +1,9 @@
                     final BOFRecord bof = (BOFRecord) record;
                     if (bof.getType() == BOFRecord.TYPE_WORKBOOK) {
+                        if (logger.isInfoEnabled())
+                            logger.info("Processing excel workbook");
 }                    else if (bof.getType() == BOFRecord.TYPE_WORKSHEET) {
                             logger.info("recordsize = " + bof.getRecordSize() + 
+                                    ", required version = " +
                                     bof.getRequiredVersion());
 }

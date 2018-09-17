@@ -1,0 +1,4 @@
+          CellRangeAddress workMergeRef1 = ExcelUtils.mergeArea(activeSheet, new CellReference(cellAHRef.getFirstCell().getRow(), lastCol + 1));
+          HSSFCell srcCell = ExcelUtils.getCell(activeSheet, workMergeRef1.getFirstRow(), workMergeRef1.getFirstColumn());
+          for(int row=workMergeRef1.getFirstRow(); row <=workMergeRef1.getLastRow(); row++)
+            for(int col=workMergeRef1.getFirstColumn(); col <=workMergeRef1.getLastColumn(); col++)

@@ -1,4 +1,7 @@
+    @Override
     protected Object startVisitParagraph( XWPFParagraph paragraph, ListItemContext itemContext, Object parentContainer )
-{        AttributesImpl attributes = createClassAttribute( paragraph.getStyleID() );
+        throws Exception
+    {     
+        AttributesImpl attributes = createClassAttribute( paragraph.getStyleID() );
         CTPPr pPr = paragraph.getCTP().getPPr();
 }

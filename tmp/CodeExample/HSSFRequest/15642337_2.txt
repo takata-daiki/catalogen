@@ -1,0 +1,5 @@
+  public short abortableProcessWorkbookEvents(HSSFRequest req, POIFSFileSystem fs)
+    throws IOException, HSSFUserException
+  {
+    InputStream in = fs.createDocumentInputStream("Workbook");
+}

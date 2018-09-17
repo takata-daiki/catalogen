@@ -1,3 +1,4 @@
         XSSFCell familien_cell = dataRow.createCell(0);
         familien_cell.setCellStyle(dataStyle);
         familien_cell.setCellValue(new XSSFRichTextString(""
+            + b.getNummer()));

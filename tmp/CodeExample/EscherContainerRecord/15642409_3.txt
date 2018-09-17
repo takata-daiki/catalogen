@@ -1,3 +1,5 @@
     private void convertGroup( HSSFShapeGroup shape, EscherContainerRecord escherParent, Map shapeToObj )
-{        escherParent.addChildRecord( spgrContainer );
+    {
+        EscherContainerRecord spgrContainer = new EscherContainerRecord();
+        escherParent.addChildRecord( spgrContainer );
 }

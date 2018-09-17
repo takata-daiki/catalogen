@@ -1,6 +1,7 @@
                   HSSFCell aCell = aRow.getCell(selectCol[index]);
                   if (aCell.getCellType() == HSSFCell.CELL_TYPE_NUMERIC) {
-{                      double d = aCell.getNumericCellValue();
+                    if (HSSFDateUtil.isCellDateFormatted(aCell)) {
+                      double d = aCell.getNumericCellValue();
 }{                      fields[index]="" + (long)aCell.getNumericCellValue();
 }}{                    fields[index]=aCell.getStringCellValue();
 }

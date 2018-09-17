@@ -1,5 +1,6 @@
-    AreaReference ref = range(wb, nameRange, mapWbNames, sheetNames);
-    if (ref.isSingleCell()){
-      String shName = ref.getFirstCell().getSheetName();
-      return  getCell(wb.getSheet(shName), ref.getFirstCell().getRow(), ref.getFirstCell().getCol());
-}
+  public static void paste (HSSFSheet sh, AreaReference areaRef,  ExcelBuffer buffer, byte typePaste){
+    int copyRow1 = buffer.getAreaRef().getFirstCell().getRow();
+    int pasteRow1 = areaRef.getFirstCell().getRow();
+    int pasteCol1 = areaRef.getFirstCell().getCol();
+    int pasteRow2 = areaRef.getLastCell().getRow();
+    int pasteCol2 = areaRef.getLastCell().getCol();

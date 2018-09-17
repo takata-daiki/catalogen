@@ -1,2 +1,5 @@
         RowRecord loc = ( RowRecord ) obj;
         if (this.getRowNumber() == loc.getRowNumber())
+        {
+            return true;
+}

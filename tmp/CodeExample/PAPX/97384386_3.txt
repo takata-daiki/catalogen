@@ -1,3 +1,5 @@
         for ( PAPX papx : _doc.getParagraphTable().getParagraphs() )
-{{                SprmIterator sprmIt = new SprmIterator( papx.getGrpprl(), 2 );
+        {
+            System.out.println( papx );
+{                SprmIterator sprmIt = new SprmIterator( papx.getGrpprl(), 2 );
 }}

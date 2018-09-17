@@ -1,3 +1,6 @@
     public static Record [] createRecord(RecordInputStream in)
-{{                ( Constructor ) recordsMap.get(new Short(in.getSid()));
+    {
+        Record   retval     = null;
+{            Constructor constructor =
+                ( Constructor ) recordsMap.get(new Short(in.getSid()));
 }}

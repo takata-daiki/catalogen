@@ -1,0 +1,4 @@
+    public UnderlinePatterns getUnderline( XWPFRun run )
+    {
+        return RunUnderlineValueProvider.INSTANCE.getValue( run, this );
+}

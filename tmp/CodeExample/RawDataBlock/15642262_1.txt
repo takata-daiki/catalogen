@@ -1,2 +1,5 @@
             RawDataBlock block = new RawDataBlock(stream, size, pointer);
             if (block.eof())
+            {
+                break;
+}

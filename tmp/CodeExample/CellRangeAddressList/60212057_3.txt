@@ -7,4 +7,5 @@
               begRow = workR.getCellRangeAddress(i).getLastRow()+1;
 }}{            for(int i=0; i< workR.countRanges(); i++){
               cRA = ExcelUtils.intersectRectangular(workR.getCellRangeAddress(i), 
+                  new CellRangeAddress(0, ExcelUtils.xlMaxNumRow-1, formatCol, formatCol));
 }}}}}

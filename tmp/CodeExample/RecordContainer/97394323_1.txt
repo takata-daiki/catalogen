@@ -1,3 +1,9 @@
         RecordContainer progTags = (RecordContainer)
-{                progTags.findFirstOfType(
+                getSheetContainer().findFirstOfType(
+                            RecordTypes.ProgTags.typeID
+        );
+{            RecordContainer progBinaryTag = (RecordContainer)
+                progTags.findFirstOfType(
+                        RecordTypes.ProgBinaryTag.typeID
+            );
 }

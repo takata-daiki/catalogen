@@ -1,0 +1,4 @@
+    public Color getBackgroundColor( XWPFParagraph paragraph )
+    {
+        return ParagraphBackgroundColorValueProvider.INSTANCE.getValue( paragraph, this );
+}

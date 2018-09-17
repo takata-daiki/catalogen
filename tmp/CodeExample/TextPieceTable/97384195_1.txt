@@ -1,0 +1,5 @@
+    public PAPFormattedDiskPage( byte[] documentStream, byte[] dataStream,
+            int offset, int fcMin, TextPieceTable tpt )
+    {
+        this( documentStream, dataStream, offset, tpt );
+}

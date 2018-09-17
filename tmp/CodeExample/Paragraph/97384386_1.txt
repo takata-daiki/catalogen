@@ -1,3 +1,2 @@
-            Paragraph paragraph = range.getParagraph( p );
-            System.out.println( p + ":\t" + paragraph.toString() );
-                System.out.println( paragraph.text() );
+                Paragraph paragraph = (Paragraph) newParagraph.invoke( null,
+                        _doc.getOverallRange(), papx );

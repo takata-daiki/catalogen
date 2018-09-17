@@ -1,5 +1,4 @@
-    private boolean processOle2( HWPFDocument doc, CharacterRun characterRun,
-{                "_" + characterRun.getPicOffset() );
-{                    Integer.valueOf( characterRun.getPicOffset() ),
-}{                    Integer.valueOf( characterRun.getPicOffset() ), "': ", exc,
-}}
+            CharacterRun cr = fieldContent.getCharacterRun( fieldContent
+                    .numCharacterRuns() - 1 );
+            String[] values = cr.getDropDownListValues();
+            Integer defIndex = cr.getDropDownListDefaultItemIndex();

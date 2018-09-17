@@ -1,5 +1,12 @@
   protected ContentTypeManager contentTypeManager;
 {{      pkg.contentTypeManager
+          .addContentType(
+              PackagingURIHelper
+                  .createPartName(PackagingURIHelper.PACKAGE_RELATIONSHIPS_ROOT_URI),
+              ContentTypes.RELATIONSHIPS_PART);
+          .addContentType(PackagingURIHelper
+              .createPartName("/default.xml"),
+              ContentTypes.PLAIN_OLD_XML);
 }}{    this.contentTypeManager.clearAll();
 }{    this.contentTypeManager.addContentType(partName, contentType);
 }{    this.contentTypeManager.removeContentType(partName);

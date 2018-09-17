@@ -1,6 +1,6 @@
       StyleDescription sd = _styleDescriptions[istd];
-      CharacterProperties chp = sd.getCHP();
-      byte[] chpx = sd.getCHPX();
+      ParagraphProperties pap = sd.getPAP();
+      byte[] papx = sd.getPAPX();
       int baseIndex = sd.getBaseStyle();
-{          sd.setCHP(chp);
+{          sd.setPAP(pap);
 }

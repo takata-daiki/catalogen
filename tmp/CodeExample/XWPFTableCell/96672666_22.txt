@@ -1,0 +1,4 @@
+    public TableCellInfo getTableCellInfo( XWPFTableCell cell )
+    {
+        XWPFTable table = cell.getTableRow().getTable();
+}

@@ -1,0 +1,7 @@
+    public POIFSDocument(final String name, final int size,
+                         final POIFSDocumentPath path,
+                         final POIFSWriterListener writer, int blockSize)
+        throws IOException
+    {
+        bigBlockSize = blockSize;
+}

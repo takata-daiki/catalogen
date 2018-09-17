@@ -1,3 +1,2 @@
-      UnhandledDataStructure ds = _unknownMap.get(Integer.valueOf(x));
-{        byte[] buf = ds.getBuf();
-}
+            UnhandledDataStructure unhandled = new UnhandledDataStructure(
+              tableStream, dsOffset, dsSize);

@@ -1,3 +1,7 @@
                 TableCell tableCell = tableRow.getCell( c );
                 if ( tableCell.isVerticallyMerged()
                         && !tableCell.isFirstVerticallyMerged() )
+                {
+                    currentEdgeIndex += getNumberColumnsSpanned(
+                            tableCellEdges, currentEdgeIndex, tableCell );
+}

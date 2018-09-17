@@ -1,0 +1,4 @@
+    public HSSFPicture createPicture(HSSFChildAnchor anchor, int pictureIndex)
+    {
+      HSSFPicture shape = new HSSFPicture(this, anchor);
+}

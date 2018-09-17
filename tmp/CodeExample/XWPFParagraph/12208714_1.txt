@@ -1,5 +1,9 @@
     public void applyStyles( XWPFParagraph p, Style style )
-{        ParagraphAlignment paragraphAlignment = p.getAlignment();
+    {
+        if ( style != null )
+        {
+            StyleParagraphProperties paragraphProperties = style.getParagraphProperties();
+}        ParagraphAlignment paragraphAlignment = p.getAlignment();
         int indentationLeft = p.getIndentationLeft();
         int indentationFirstLine = p.getIndentationFirstLine();
         int indentationRight = p.getIndentationRight();
@@ -11,7 +15,9 @@
 {            setSpacingAfter( dxa2points( p.getSpacingAfter() ) );
 }        if ( p.getCTP().getPPr() != null )
 {            if ( p.getCTP().getPPr().getSpacing() != null )
-{                if ( p.getCTP().getPPr().getSpacing().getLine() != null )
-{                    float leading = ( p.getCTP().getPPr().getSpacing().getLine().floatValue() / 240 );
+            {
+                if ( p.getCTP().getPPr().getSpacing().getLine() != null )
+                {
+                    float leading = ( p.getCTP().getPPr().getSpacing().getLine().floatValue() / 240 );
 }}}        ParagraphAlignment alignment = p.getAlignment();
 }

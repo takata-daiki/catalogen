@@ -8,4 +8,5 @@
     System.out.println(ind + "  Length is\t" + ptr.getLength() +
         " - " + Integer.toHexString(ptr.getLength()));
     if(ptr.destinationCompressed()) {
+      int decompLen = stream._getContentsLength();
 }    System.out.println(ind + "  Compressed is\t" + ptr.destinationCompressed());

@@ -1,4 +1,2 @@
-  public static ExcelBuffer copy (HSSFSheet sh, AreaReference areaRef){
-    int offsetRow = areaRef.getFirstCell().getRow();
-    int offsetCol = areaRef.getFirstCell().getCol();
-    CellReference[] celRefs = areaRef.getAllReferencedCells();
+  public static List<HSSFCell> findAll(HSSFSheet sh, AreaReference areaRef, Object valueSearch, byte lookIn, XlLookAt lookAt, XlSearchDirection searchDirection){
+    return findInArea(sh, areaRef, valueSearch, null, lookIn, lookAt, searchDirection, false, false);

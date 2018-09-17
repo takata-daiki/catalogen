@@ -1,4 +1,5 @@
     static final private BitField _123_prefix   = BitFieldFactory.getInstance(0x0008);
-{            _123_prefix.setShortBoolean(field_3_cell_options, prefix);
+{        field_3_cell_options =
+            _123_prefix.setShortBoolean(field_3_cell_options, prefix);
 }{        return _123_prefix.isSet(field_3_cell_options);
 }

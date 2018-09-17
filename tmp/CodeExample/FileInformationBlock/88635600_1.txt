@@ -1,4 +1,5 @@
-    private PlexOfCps readPLCF( byte[] tableStream, FileInformationBlock fib,
-{        int start = fib.getFieldsPlcfOffset( documentPart );
-        int length = fib.getFieldsPlcfLength( documentPart );
+    public FieldsTables( byte[] tableStream, FileInformationBlock fib )
+    {
+        _tables = new HashMap<FieldsDocumentPart, PlexOfCps>(
+                FieldsDocumentPart.values().length );
 }

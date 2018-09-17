@@ -1,3 +1,2 @@
-        for ( XWPFFooter footer : footers )
-{            if ( footer.getPackagePart().equals( hdrPart ) )
-}
+    protected abstract void visitFooter( XWPFFooter footer, CTHdrFtrRef footerRef, CTSectPr sectPr, E masterPage )
+        throws Exception;

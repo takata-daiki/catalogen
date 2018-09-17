@@ -1,3 +1,4 @@
   private SSTRecord sstRecord;
 {{{        value =  sstRecord
+        .getString(lsrec.getSSTIndex()).toString().trim();
 }}}

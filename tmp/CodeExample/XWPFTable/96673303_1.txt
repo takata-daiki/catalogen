@@ -1,3 +1,5 @@
-    private void applyStyles( XWPFTable ele, IStylableElement<XWPFTable> element )
-{        CTString tblStyle = ele.getCTTbl().getTblPr().getTblStyle();
+    protected IITextContainer startVisitTable( XWPFTable table, IITextContainer pdfContainer )
+        throws Exception
+    {
+        styleEngine.startVisitTable( table, pdfContainer );
 }

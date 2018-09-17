@@ -1,4 +1,10 @@
+    protected static void writeUnsupportedTypeMessage
         (final UnsupportedVariantTypeException ex)
-{{            Long vt = new Long(ex.getVariantType());
+    {
+        if (isLogUnsupportedTypes())
+        {
+            if (unsupportedMessage == null)
+                unsupportedMessage = new LinkedList();
+            Long vt = new Long(ex.getVariantType());
 {                System.err.println(ex.getMessage());
 }}}

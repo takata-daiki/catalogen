@@ -1,0 +1,5 @@
+   protected static void processChunks(DirectoryNode node, ChunkGroup grouping) {
+      for(Entry entry : node) {
+         if(entry instanceof DocumentNode) {
+            process(entry, grouping);
+}}

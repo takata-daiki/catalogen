@@ -1,0 +1,9 @@
+    XSSFCellStyle cs = wb.createCellStyle();
+      cs.setWrapText(true);
+      cs.setBorderBottom(XSSFCellStyle.BORDER_THIN);
+      cs.setBottomBorderColor(IndexedColors.BLACK.getIndex());
+      cs.setBorderLeft(XSSFCellStyle.BORDER_THIN);
+      cs.setLeftBorderColor(IndexedColors.BLACK.getIndex());
+      cs.setFillForegroundColor(color);
+      cs.setFillPattern(XSSFCellStyle.SOLID_FOREGROUND);   
+      cs.setFont(font);

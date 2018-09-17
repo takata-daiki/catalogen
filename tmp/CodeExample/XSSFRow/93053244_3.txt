@@ -1,3 +1,4 @@
   private void setColumnData( XSSFRow row,  String[] data){
-{        XSSFCell cell = row.createCell(columnIndex);
+     for( int columnIndex = 0; columnIndex < data.length; columnIndex++){
+        XSSFCell cell = row.createCell(columnIndex);
 }

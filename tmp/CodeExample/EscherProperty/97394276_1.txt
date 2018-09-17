@@ -1,2 +1,3 @@
             EscherProperty prop = (EscherProperty) iterator.next();
             if (prop.getPropertyNumber() == propId)
+                return prop;

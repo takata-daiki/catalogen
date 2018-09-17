@@ -1,3 +1,4 @@
         final HSSFFormulaEvaluator eval = new HSSFFormulaEvaluator ( workbook );
-{            return eval.evaluate ( cell ).getStringValue ();
+{        case Cell.CELL_TYPE_FORMULA:
+            return eval.evaluate ( cell ).getStringValue ();
 }

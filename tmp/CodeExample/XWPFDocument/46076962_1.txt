@@ -1,4 +1,5 @@
   private final XWPFDocument document;
 {{      for (XWPFParagraph p : document.getParagraphs()) {
+        extractStructuredDocumentTags(p.getCTP().getSdtArray());
 }      Iterator<XWPFTable> tableIter = document.getTablesIterator();
 }}

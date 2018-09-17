@@ -1,2 +1,6 @@
     } catch (InvalidFormatException e) {
-          + e.getMessage() + "'. The marshaller will not be added !");
+      try {
+        thumbnailPartName = PackagingURIHelper
+            .createPartName("/docProps/thumbnail"
+                + path.substring(path.lastIndexOf(".") + 1));
+}

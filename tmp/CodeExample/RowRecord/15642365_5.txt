@@ -1,0 +1,2 @@
+            RowRecord rowRecord = (RowRecord) iterator.next();
+            maxLevel = Math.max(rowRecord.getOutlineLevel(), maxLevel);

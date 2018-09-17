@@ -1,2 +1,3 @@
   public NDocumentInputStream(NPOIFSDocument document) {
+      _current_offset = 0;
     _document_size = document.getSize();

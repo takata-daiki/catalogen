@@ -1,3 +1,6 @@
-    private static Map<Header, Value> makeRow ( final HSSFWorkbook workbook, final Map<Integer, Header> headers, final Row row )
-{{{{                    final HSSFFont font = workbook.getFontAt ( cell.getCellStyle ().getFontIndex () );
-}}}}
+    private static Item convertToItem ( final HSSFWorkbook workbook, final Map<Integer, Header> header, final Row row, final String debugInformation )
+    {
+        if ( row == null || row.getLastCellNum () < 2 )
+        {
+            return null;
+}}

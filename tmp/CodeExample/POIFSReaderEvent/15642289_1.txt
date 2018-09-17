@@ -1,5 +1,6 @@
         public void processPOIFSReaderEvent(final POIFSReaderEvent event)
-{            DocumentInputStream istream = event.getStream();
+        {
+            DocumentInputStream istream = event.getStream();
             POIFSDocumentPath   path    = event.getPath();
             String              name    = event.getName();
 }

@@ -1,3 +1,3 @@
-            UnhandledDataStructure structure = _unknownMap.get( Integer
-{                result.append( structure._buf.length );
+      UnhandledDataStructure ds = _unknownMap.get(Integer.valueOf(x));
+{        byte[] buf = ds.getBuf();
 }

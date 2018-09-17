@@ -1,3 +1,4 @@
             HSSFName name = workbook.getNameAt(i);
             if(!name.isDeleted() && !name.isFunctionName()) {
+                NamedRange range = new NamedRangeHSSFImpl(this, name);
 }

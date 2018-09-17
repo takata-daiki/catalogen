@@ -1,0 +1,4 @@
+    public TableCellBorder getTableCellBorderRight( XWPFTableCell cell )
+    {
+        return TableCellBorderRightValueProvider.INSTANCE.getValue( cell, this );
+}

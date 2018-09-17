@@ -1,3 +1,9 @@
             RecordContainer progBinaryTag = (RecordContainer)
-{                    progBinaryTag.findFirstOfType(
+                progTags.findFirstOfType(
+                        RecordTypes.ProgBinaryTag.typeID
+            );
+{                CString binaryTag = (CString)
+                    progBinaryTag.findFirstOfType(
+                            RecordTypes.CString.typeID
+                );
 }

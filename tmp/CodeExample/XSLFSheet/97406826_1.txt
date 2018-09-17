@@ -1,2 +1,4 @@
     /*package*/ XSLFDrawing(XSLFSheet sheet, CTGroupShape spTree){
+        _sheet = sheet;
         XmlObject[] cNvPr = sheet.getSpTree().selectPath(
+                "declare namespace p='http://schemas.openxmlformats.org/presentationml/2006/main' .//*/p:cNvPr");

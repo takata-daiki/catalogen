@@ -1,0 +1,4 @@
+    public Float getFontSize( XWPFRun run )
+    {
+        return RunFontSizeValueProvider.INSTANCE.getValue( run, this );
+}

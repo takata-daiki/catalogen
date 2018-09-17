@@ -1,5 +1,6 @@
             TableRow nextRow = table.getRow( r1 );
             if ( currentColumnIndex >= nextRow.numCells() )
+                break;
             for ( int c = 0; c < nextRow.numCells(); c++ )
 {                TableCell nextTableCell = nextRow.getCell( c );
 }            TableCell nextCell = nextRow.getCell( currentColumnIndex );

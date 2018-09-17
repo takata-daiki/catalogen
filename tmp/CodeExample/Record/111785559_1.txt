@@ -1,3 +1,5 @@
-        private void internalProcessRecord(Record record) throws SAXException, TikaException, IOException {
-            switch (record.getSid()) {
-}            previousSid = record.getSid();
+        public void processRecord(Record record) {
+            if (exception == null) {
+                try {
+                    internalProcessRecord(record);
+}}

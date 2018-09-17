@@ -1,2 +1,2 @@
-            public boolean fetch(XSLFSimpleShape shape) {
-                CTShapeProperties spPr = shape.getSpPr();
+    public RenderableShape(XSLFSimpleShape shape){
+        _shape = shape;

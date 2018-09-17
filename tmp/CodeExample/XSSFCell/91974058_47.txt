@@ -1,3 +1,4 @@
         XSSFCell headerCell4 = row.createCell(patient1 + patient2
+            + kontaktperson1);
         headerCell4.setCellStyle(headerStyle);
         headerCell4.setCellValue("Kontaktperson 2");

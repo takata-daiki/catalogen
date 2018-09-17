@@ -1,4 +1,5 @@
     StylesTable stylesSource = wb.getStylesSource();
     for (int i=0; i<stylesSource.getNumCellStyles(); i++)
       if (stylesSource.getStyleAt(i).equals(cellStyle))
+        System.out.println("Found cellstule with index " + i + " vs. " + cellStyle.getIndex());
       XSSFCellFill fill = stylesSource.getFillAt(cellStyle.getIndex()+1);

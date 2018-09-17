@@ -1,3 +1,4 @@
   public HWPFDocument(POIFSFileSystem pfilesystem) throws IOException
-{    this(pfilesystem.getRoot());
+  {
+    this(pfilesystem.getRoot());
 }

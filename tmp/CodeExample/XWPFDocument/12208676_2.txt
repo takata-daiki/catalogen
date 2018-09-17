@@ -1,3 +1,5 @@
     public XWPFElementVisitor( XWPFDocument document )
-{{            this.defaults = document.getStyle().getDocDefaults();
+    {
+        this.document = document;
+{            this.defaults = document.getStyle().getDocDefaults();
 }}

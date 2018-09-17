@@ -1,2 +1,3 @@
-          FormatRun run1 = (FormatRun)field_4_format_runs.get(i);
-          result = run1.compareTo(run2);
+          FormatRun r = (FormatRun)field_4_format_runs.get(i);
+          LittleEndian.putShort(data, pos, r.character);
+          LittleEndian.putShort(data, pos, r.fontIndex);

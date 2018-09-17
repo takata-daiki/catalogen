@@ -1,0 +1,6 @@
+        POIFSFileSystem outFS = new POIFSFileSystem();
+        outFS.createDocument(bais,"PowerPoint Document");
+{            outFS.createDocument(
+                new ByteArrayInputStream(pict.toByteArray()), "Pictures"
+            );
+}        outFS.writeFilesystem(out);

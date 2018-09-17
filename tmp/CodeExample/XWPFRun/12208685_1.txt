@@ -1,5 +1,8 @@
+    @Override
     protected void visitRun( XWPFRun run, IITextContainer pdfContainer )
-{        CTR ctr = run.getCTR();
+        throws Exception
+    {
+        CTR ctr = run.getCTR();
         CTRPr rprStyle = getRPr( super.getXWPFStyle( run.getParagraph().getStyleID() ) );
         float fontSize = run.getFontSize();
         UnderlinePatterns underlinePatterns = run.getUnderline();

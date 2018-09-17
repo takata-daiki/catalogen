@@ -1,4 +1,10 @@
+    protected static void writeUnsupportedTypeMessage
         (final UnsupportedVariantTypeException ex)
-{{            Long vt = Long.valueOf(ex.getVariantType());
+    {
+        if (isLogUnsupportedTypes())
+        {
+            if (unsupportedMessage == null)
+                unsupportedMessage = new LinkedList<Long>();
+            Long vt = Long.valueOf(ex.getVariantType());
 {              logger.log( POILogger.ERROR, ex.getMessage());
 }}}

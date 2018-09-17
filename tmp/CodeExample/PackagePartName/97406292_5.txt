@@ -1,4 +1,4 @@
-  public void deletePartRecursive(PackagePartName partName) {
-{{                partName.getURI(), relationship.getTargetURI()));
-}}{          + partName.getName()
+  public PackagePart createPart(PackagePartName partName, String contentType,
+      ByteArrayOutputStream content) {
+    PackagePart addedPart = this.createPart(partName, contentType);
 }

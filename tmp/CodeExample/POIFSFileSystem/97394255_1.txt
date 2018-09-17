@@ -1,3 +1,4 @@
   public HSLFSlideShow(POIFSFileSystem filesystem) throws IOException
-{    this(filesystem.getRoot());
+  {
+    this(filesystem.getRoot());
 }

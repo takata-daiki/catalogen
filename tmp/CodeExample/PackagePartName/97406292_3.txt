@@ -1,4 +1,2 @@
-  public void removePart(PackagePartName partName) {
-    if (partName.isRelationshipPartURI()) {
-          .getSourcePartUriFromRelationshipPartUri(partName.getURI());
-}
+  public PackagePart createPart(PackagePartName partName, String contentType) {
+    return this.createPart(partName, contentType, true);

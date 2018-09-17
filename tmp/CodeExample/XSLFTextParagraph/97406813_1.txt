@@ -1,2 +1,3 @@
         for (XSLFTextParagraph p : _paragraphs) {
+            if (out.length() > 0) out.append('\n');
             out.append(p.getText());

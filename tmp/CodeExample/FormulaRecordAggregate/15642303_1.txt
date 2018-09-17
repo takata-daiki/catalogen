@@ -1,3 +1,4 @@
+            case CELL_TYPE_FORMULA :
                 FormulaRecordAggregate frec = null;
                 frec.setColumn(col);
 {                    frec.getFormulaRecord().setValue(getNumericCellValue());

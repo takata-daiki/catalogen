@@ -1,3 +1,6 @@
+                case VISIO:
                     VisioTextExtractor visioTextExtractor =
+                        new VisioTextExtractor(filesystem);
                     for (String text : visioTextExtractor.getAllText()) {
+                        xhtml.element("p", text);
 }

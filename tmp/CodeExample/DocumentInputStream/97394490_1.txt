@@ -1,5 +1,6 @@
       DocumentInputStream is = getStream();
 {        if (rawdataPos > is.position()) {
+          Log.d("Bitmap", "rawdataPos > is.position()");
           is.skip(rawdataPos - is.position() + 17);
 }{        is.reset();
         is.skip(rawdataPos + 17);

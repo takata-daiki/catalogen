@@ -1,2 +1,4 @@
+                case PUBLISHER:
                     PublisherTextExtractor publisherTextExtractor =
+                        new PublisherTextExtractor(filesystem);
                     xhtml.element("p", publisherTextExtractor.getText());

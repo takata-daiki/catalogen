@@ -1,2 +1,4 @@
            for(EscherRecord escherRecord : records) {
-              findPictures(escherRecord.getChildRecords());
+              if (escherRecord instanceof EscherBSERecord) {
+                 EscherBlipRecord blip = ((EscherBSERecord) escherRecord).getBlipRecord();
+}              findPictures(escherRecord.getChildRecords());

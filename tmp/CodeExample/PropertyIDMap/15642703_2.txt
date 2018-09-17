@@ -1,0 +1,5 @@
+    public Object put(final byte[] sectionFormatID,
+                      final PropertyIDMap propertyIDMap)
+    {
+        return super.put(new String(sectionFormatID), propertyIDMap);
+}

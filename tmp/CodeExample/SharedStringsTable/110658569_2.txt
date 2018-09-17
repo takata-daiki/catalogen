@@ -1,0 +1,5 @@
+    private void processNext(final InputStream next, final String sheetName, final SheetProcessor sheetProcessor, final SharedStringsTable sharedStringsTable)
+    {
+        final WorksheetParser worksheetParser =
+                xssfWorksheetParserFactory.createParserFor(new RichTextSharedStringTableLookup(sharedStringsTable), sheetProcessor.getNewRowProcessor(sheetName));
+}

@@ -1,3 +1,8 @@
         PropertyTable properties =
+            new PropertyTable(header_block_reader.getPropertyStart(),
+                              data_blocks);
+        processProperties(SmallBlockTableReader
             .getSmallDocumentBlocks(data_blocks, properties
+                .getRoot(), header_block_reader
                     .getSBATStart()), data_blocks, properties.getRoot()
+                        .getChildren(), new POIFSDocumentPath());

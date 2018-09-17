@@ -1,2 +1,4 @@
-        for (EscherProperty property: getEscherProperties()){
-            builder.append(property.toXml(tab+"\t"));
+        for ( EscherProperty property : properties )
+        {
+            stringBuilder.append( "    " + property.toString() + nl );
+}

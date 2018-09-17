@@ -1,0 +1,6 @@
+  @Deprecated
+    protected void copyNodes( POIFSFileSystem source, POIFSFileSystem target,
+            List<String> excepts ) throws IOException
+    {
+        EntryUtils.copyNodes( source, target, excepts );
+}

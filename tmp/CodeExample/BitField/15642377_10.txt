@@ -1,4 +1,5 @@
     static final private BitField _rotation           = BitFieldFactory.getInstance(0xFF00);
-{            _rotation.setShortValue(field_4_alignment_options, rotation);
+{        field_4_alignment_options =
+            _rotation.setShortValue(field_4_alignment_options, rotation);
 }{        return _rotation.getShortValue(field_4_alignment_options);
 }

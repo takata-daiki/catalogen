@@ -1,4 +1,11 @@
         HWPFDocument document = (HWPFDocument) _doc;
         if ( document.getOfficeDrawingsHeaders() != null )
-{            for ( OfficeDrawing officeDrawing : document
+        {
+            System.out.println( "=== Document part: HEADER ===" );
+            for ( OfficeDrawing officeDrawing : document
+                    .getOfficeDrawingsHeaders().getOfficeDrawings() )
+            {
+                System.out.println( officeDrawing );
+}}{            System.out.println( "=== Document part: MAIN ===" );
+                    .getOfficeDrawingsMain().getOfficeDrawings() )
 }

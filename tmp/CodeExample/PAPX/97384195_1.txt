@@ -1,5 +1,2 @@
-        PAPX papx = null;
-{            byte[] phe = papx.getParagraphHeight().toByteArray();
-            byte[] grpprl = papx.getGrpprl();
-                    translator.getByteIndex( papx.getStart() ) );
-}                translator.getByteIndex( papx.getEnd() ) );
+                PAPX papx = new PAPX( range[0], range[1], getGrpprl( x ),
+                        getParagraphHeight( x ), dataStream );

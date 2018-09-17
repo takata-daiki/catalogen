@@ -1,0 +1,7 @@
+    private void visitRun( XWPFParagraph paragraph, XmlObject o, T paragraphContainer )
+        throws Exception
+    {
+        if ( o instanceof CTHyperlink )
+        {
+            CTHyperlink link = (CTHyperlink) o;
+}}

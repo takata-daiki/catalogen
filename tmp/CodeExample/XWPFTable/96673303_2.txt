@@ -1,0 +1,5 @@
+    private StylableTable createPDFTable( XWPFTable table )
+        throws DocumentException
+    {
+        float[] colWidths = XWPFTableUtil.computeColWidths( table );
+}

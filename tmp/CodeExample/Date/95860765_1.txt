@@ -1,2 +1,2 @@
-        public static long dateToFileTime(final Date date) {
-            final long ms_since_19700101 = date.getTime();
+        public FILETIME(Date date) {
+            long rawValue = dateToFileTime(date);

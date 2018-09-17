@@ -1,3 +1,5 @@
     public static StringBuilder getStyle( XWPFPicture picture )
-{        CTPositiveSize2D ext = picture.getCTPicture().getSpPr().getXfrm().getExt();
+    {
+        StringBuilder htmlStyle = new StringBuilder();
+        CTPositiveSize2D ext = picture.getCTPicture().getSpPr().getXfrm().getExt();
 }

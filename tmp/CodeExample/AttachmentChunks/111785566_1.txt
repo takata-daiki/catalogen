@@ -1,7 +1,13 @@
            for (AttachmentChunks attachment : msg.getAttachmentFiles()) {
+               xhtml.startElement("div", "class", "attachment-entry");
                if (attachment.attachLongFileName != null) {
              filename = attachment.attachLongFileName.getValue();
 }               } else if (attachment.attachFileName != null) {
              filename = attachment.attachFileName.getValue();
-}{                     new ByteArrayInputStream(attachment.attachData.getValue()),
+}{                   context.get(Parser.class, EmptyParser.INSTANCE).parse(
+                     new ByteArrayInputStream(attachment.attachData.getValue()),
+                           new EmbeddedContentHandler(new BodyContentHandler(xhtml)),
+                           entrydata,
+                           context
+                   );
 }

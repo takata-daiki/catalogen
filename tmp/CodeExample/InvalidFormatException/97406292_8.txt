@@ -1,0 +1,5 @@
+    } catch (InvalidFormatException e) {
+      logger.log(POILogger.WARN, "An exception occurs while deleting part '"
+          + partName.getName()
+          + "'. Some parts may remain in the package. - "
+          + e.getMessage());

@@ -1,3 +1,4 @@
-    final HSSFCellStyle cellStyle = createBorderedCellStyle(workbook);
-{      cellStyle.setFont(font);
-}    cellStyle.setDataFormat((short) 4);
+  protected HSSFCell createCell(final short x, final int content,
+      final HSSFRow row, final HSSFCellStyle cellStyle) {
+    final HSSFCell cell = row.createCell(x);
+}

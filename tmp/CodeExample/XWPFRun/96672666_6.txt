@@ -1,0 +1,4 @@
+    public Boolean getFontStyleItalic( XWPFRun run )
+    {
+        return RunFontStyleItalicValueProvider.INSTANCE.getValue( run, this );
+}

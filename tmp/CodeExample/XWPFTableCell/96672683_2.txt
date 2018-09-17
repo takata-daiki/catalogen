@@ -1,3 +1,4 @@
-    private int getCellIndex( int cellIndex, XWPFTableCell cell )
-{        BigInteger gridSpan = stylesDocument.getTableCellGridSpan( cell.getCTTc().getTcPr() );
+    public void addCellInfo( XWPFTableCell cell, boolean firstRow, boolean lastRow, boolean firstCol, boolean lastCol )
+    {
+        TableCellInfo cellInfo = new TableCellInfo( this, firstRow, lastRow, firstCol, lastCol );
 }

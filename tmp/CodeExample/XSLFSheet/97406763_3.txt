@@ -1,3 +1,4 @@
-                XSLFSheet master = masterSheet.getMasterSheet();
-{                    masterShape = master.getPlaceholderByType(textType);
-}
+        XSLFSheet masterSheet = getSheet().getMasterSheet();
+{{                masterShape = masterSheet.getPlaceholder(ph);
+}{                XSLFSheet master = masterSheet.getMasterSheet();
+}}

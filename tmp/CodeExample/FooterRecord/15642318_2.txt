@@ -1,2 +1,3 @@
     protected HSSFFooter(FooterRecord footerRecord) {
+  this.footerRecord = footerRecord;
   String foot = footerRecord.getFooter();

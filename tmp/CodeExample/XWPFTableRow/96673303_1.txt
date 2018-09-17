@@ -1,5 +1,9 @@
+    @Override
     protected void visitTableRow( XWPFTableRow row, IITextContainer tableContainer, boolean firstRow, boolean lastRow )
-{        List<XWPFTableCell> cells = row.getTableCells();
+        throws Exception
+    {
+        StylableTable pdfTable = (StylableTable) tableContainer;
+        List<XWPFTableCell> cells = row.getTableCells();
 {            CTRow ctRow = row.getCtRow();
 {{                    XWPFTableCell cell = row.getTableCell( tc );
 }{{                        XWPFTableCell cell = new XWPFTableCell( ctTc, row, row.getTable().getBody() );

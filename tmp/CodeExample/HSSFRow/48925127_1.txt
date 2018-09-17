@@ -1,4 +1,6 @@
     HSSFRow row;
 {{        cNum = row.getLastCellNum();
 {          if ((cell = row.getCell((short) k)) != null) {
-}}}}
+            if (cell.getCellType() == HSSFCell.CELL_TYPE_STRING) {
+              resultText.append(cell.getStringCellValue()).append(" ");
+}}}}}

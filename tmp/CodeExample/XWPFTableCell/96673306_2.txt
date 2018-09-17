@@ -1,0 +1,11 @@
+    @Override
+    protected void endVisitTableCell( XWPFTableCell cell, IITextContainer tableContainer,
+                                      IITextContainer tableCellContainer )
+    {
+}    }
+    protected void endVisitDocument()
+        throws Exception
+    protected void visitParagraph( XWPFParagraph ele )
+    public Style getDefaultStyle()
+{        return stylesMap.get( DEFAULT_STYLE );
+}

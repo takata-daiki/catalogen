@@ -1,2 +1,5 @@
-        CellRangeAddress cra = list.getCellRangeAddress(jj);
-        for(int row = cra.getFirstRow(); row <= cra.getLastRow(); row++)
+              CellRangeAddress pasteCRA = 
+                new CellRangeAddress(indexBegRowMergeRegion, 
+                    indexEndRowMergeRegion, 
+                    indexBegColMergeRegion, 
+                    indexBegColMergeRegion+countColMergeRegion);

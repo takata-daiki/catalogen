@@ -1,0 +1,5 @@
+    @Override
+    protected CTStyle getDefaultStyle( XWPFTableRow row, XWPFStylesDocument stylesDocument )
+    {
+        return stylesDocument.getDefaultTableStyle();
+}

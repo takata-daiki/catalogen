@@ -1,0 +1,5 @@
+    protected XWPFStylesDocument createStylesDocument( XWPFDocument document )
+        throws XmlException, IOException
+    {
+        return new XWPFStylesDocument( document );
+}

@@ -1,3 +1,2 @@
-          FormatRun r = (FormatRun)field_4_format_runs.get(i);
-          LittleEndian.putShort(data, pos, r.character);
-          LittleEndian.putShort(data, pos, r.fontIndex);
+            FormatRun r = (FormatRun)field_4_format_runs.get(i);
+            buffer.append("      .format_run"+i+"          = ").append(r.toString()).append("\n");

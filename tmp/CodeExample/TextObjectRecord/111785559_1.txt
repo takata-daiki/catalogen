@@ -1,2 +1,3 @@
+            case TextObjectRecord.sid:
                 TextObjectRecord tor = (TextObjectRecord) record;
                 addTextCell(record, tor.getStr().getString());

@@ -1,3 +1,5 @@
           Command command = chunk.getCommands()[j];
+          System.out.println(ind3 + "" +
               command.getDefinition().getName() +
               " " + command.getValue()
+          );

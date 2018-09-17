@@ -1,5 +1,13 @@
         DataFormatter formatter = new DataFormatter( Locale.ENGLISH );
-{{{                             formatter.formatCellValue( topLeft ),
+{{{                    newCell( listeners,
+                             i,
+                             cellNum,
+                             formatter.formatCellValue( topLeft ),
+                             topLeft.getColumnIndex() );
 }{{{                                log.warn( "Cannot resolve externally linked value: " + formatter.formatCellValue( cell ) );
-}{                                         formatter.formatCellValue( cell ),
+}{                                newCell( listeners,
+                                         i,
+                                         cellNum,
+                                         formatter.formatCellValue( cell ),
+                                         DataListener.NON_MERGED );
 }}}}}

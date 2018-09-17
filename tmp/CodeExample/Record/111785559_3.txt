@@ -1,0 +1,7 @@
+        private void addCell(Record record, Cell cell) throws SAXException {
+            if (cell == null) {
+}            } else if (currentSheet != null
+                    && record instanceof CellValueRecordInterface) {
+                CellValueRecordInterface value =
+                    (CellValueRecordInterface) record;
+}

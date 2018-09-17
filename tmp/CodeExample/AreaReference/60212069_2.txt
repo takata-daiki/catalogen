@@ -1,4 +1,5 @@
   public static void clear(HSSFSheet sh, AreaReference aRef){
     for(int row = aRef.getFirstCell().getRow(); row <= aRef.getLastCell().getRow(); row++){
+      if (r !=null)
         for(int col = aRef.getFirstCell().getCol(); col <= aRef.getLastCell().getCol(); col++){
 }}

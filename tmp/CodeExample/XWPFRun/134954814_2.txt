@@ -1,5 +1,8 @@
   private void replaceBookmark(CTBookmark bookmark, XWPFRun run,
-{{{{                    run.getCTR().getDomNode().insertBefore(
+            XWPFParagraph para) {
+        Node nextNode = null;
+{{{                    run.getCTR().getDomNode().insertBefore(
                             styleNode.cloneNode(true), run.getCTR().getDomNode().getFirstChild());
-}}}                run.getCTR().getDomNode(), nextNode);
+}}}        para.getCTP().getDomNode().insertBefore(
+                run.getCTR().getDomNode(), nextNode);
 }

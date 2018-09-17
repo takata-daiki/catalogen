@@ -1,0 +1,7 @@
+    @Override
+    protected void processHyperlink( HWPFDocumentCore wordDocument,
+            Element currentBlock, Range textRange, int currentTableLevel,
+            String hyperlink )
+    {
+        Element basicLink = htmlDocumentFacade.createHyperlink( hyperlink );
+}

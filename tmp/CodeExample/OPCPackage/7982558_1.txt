@@ -1,3 +1,4 @@
     OPCPackage opcPackage = OPCPackage.open(inputStream);
     ArrayList<PackagePart> parts = opcPackage.getParts();
     ArrayList<PackagePart> signatureParts = opcPackage
+        .getPartsByContentType("application/vnd.openxmlformats-package.digital-signature-xmlsignature+xml");

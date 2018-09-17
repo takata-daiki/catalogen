@@ -1,3 +1,5 @@
   public void setTopBorder(BorderCode top)
-{    _papx.updateSprm(SPRM_BRCTOP, top.toInt());
+  {
+    _props.setBrcTop(top);
+    _papx.updateSprm(SPRM_BRCTOP, top.toInt());
 }

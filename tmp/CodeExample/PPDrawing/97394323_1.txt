@@ -1,2 +1,3 @@
     public static TextRun[] findTextRuns(PPDrawing ppdrawing) {
+        final List<TextRun> runsV = new ArrayList<TextRun>();
         EscherTextboxWrapper[] wrappers = ppdrawing.getTextboxWrappers();

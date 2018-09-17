@@ -1,9 +1,16 @@
     private Xst _xst = new Xst();
-{                && lvl._xst.equals( this._xst );
+{        return lvl._lvlf.equals( this._lvlf )
+                && Arrays.equals( lvl._grpprlChpx, _grpprlChpx )
+                && Arrays.equals( lvl._grpprlPapx, _grpprlPapx )
+                && lvl._xst.equals( this._xst );
 }{        return _xst.getAsJavaString();
-}{                + _lvlf.getCbGrpprlPapx() + _xst.getSize();
+}{        return LVLF.getSize() + _lvlf.getCbGrpprlChpx()
+                + _lvlf.getCbGrpprlPapx() + _xst.getSize();
 }{        offset += _xst.getSize();
 {            if ( _xst.getCch() != 1 )
-{                        Integer.valueOf( _xst.getCch() ), ")" );
+            {
+                logger.log( POILogger.WARN, "LVL at offset ",
+                        Integer.valueOf( startOffset ),
+                        Integer.valueOf( _xst.getCch() ), ")" );
 }}}{        _xst.serialize( buf, offset );
 }

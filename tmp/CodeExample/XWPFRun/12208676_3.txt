@@ -1,0 +1,5 @@
+    protected void visitPictures( XWPFRun run, T parentContainer )
+        throws Exception
+    {
+        List<XWPFPicture> embeddedPictures = run.getEmbeddedPictures();
+}

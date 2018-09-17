@@ -1,4 +1,5 @@
     HSSFCell cell = row.createCell(col);
+    if (style != null)
       cell.setCellStyle(style);
 {      cell.setCellType(HSSFCell.CELL_TYPE_STRING);
       cell.setCellValue((String) value);

@@ -1,6 +1,10 @@
   private static String get2007CellValue(XSSFCell cell, int cellType) {
+    String returnvalue = "";
 {{        Date date = cell.getDateCellValue();
 }      returnvalue = String.valueOf(cell.getNumericCellValue());
+    case XSSFCell.CELL_TYPE_STRING:
       returnvalue = cell.toString();
+    case HSSFCell.CELL_TYPE_BOOLEAN:
       returnvalue = cell.getBooleanCellValue() ? "true" : "false";
+    default:
 }

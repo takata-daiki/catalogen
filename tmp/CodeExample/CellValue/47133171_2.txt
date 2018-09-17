@@ -1,4 +1,5 @@
             CellValue value = evaluator.evaluate(cell);
             int type = value.getCellType();
 {{{                        if (value.getNumberValue() < 1.0) {
+                            clazz = Time.class;
 }}}}

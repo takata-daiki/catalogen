@@ -1,2 +1,3 @@
             Formula f1 = dvRecord.getFormula1();
+            String formula1 = getStringFromPtgTokens(
                 f1.getTokens(), workbook);

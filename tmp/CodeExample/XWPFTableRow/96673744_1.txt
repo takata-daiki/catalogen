@@ -1,3 +1,6 @@
+    @Override
     protected void startVisitTableRow( XWPFTableRow row, Object tableContainer, int rowIndex, boolean headerRow )
-{        XWPFTable table = row.getTable();
+        throws Exception
+    {
+        XWPFTable table = row.getTable();
 }

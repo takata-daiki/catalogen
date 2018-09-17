@@ -1,3 +1,8 @@
+    private static HWPFDocumentCore writeOutAndReadBack(
             HWPFDocumentCore original )
-{{            original.write( baos );
+    {
+        try
+        {
+            ByteArrayOutputStream baos = new ByteArrayOutputStream( 4096 );
+            original.write( baos );
 }}

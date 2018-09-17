@@ -1,4 +1,5 @@
         EscherBSERecord bse = getEscherBSERecord();
 {{                if (pict[i].getOffset() ==  bse.getOffset()){
+                    return pict[i];
 }}            logger.log(POILogger.ERROR, "no picture found for our BSE offset " + bse.getOffset());
 }

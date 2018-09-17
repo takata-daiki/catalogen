@@ -1,7 +1,9 @@
     public void insertRow(RowRecord row)
-{        size += row.getRecordSize();
+    {
+        size += row.getRecordSize();
         if ((row.getRowNumber() < firstrow) || (firstrow == -1))
-{            firstrow = row.getRowNumber();
+        {
+            firstrow = row.getRowNumber();
 }        if ((row.getRowNumber() > lastrow) || (lastrow == -1))
 {            lastrow = row.getRowNumber();
 }}

@@ -1,0 +1,2 @@
+  public static void paste (HSSFSheet sh, CellReference topLeft, CellReference botRight,  ExcelBuffer buffer){
+    paste (sh, new AreaReference(topLeft, botRight),  buffer, xlAll);

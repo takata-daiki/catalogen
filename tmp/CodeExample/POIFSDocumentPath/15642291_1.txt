@@ -1,0 +1,8 @@
+    void registerListener(final POIFSReaderListener listener,
+                          final POIFSDocumentPath path,
+                          final String documentName)
+    {
+        if (!omnivorousListeners.contains(listener))
+        {
+            Set descriptors = ( Set ) selectiveListeners.get(listener);
+}}

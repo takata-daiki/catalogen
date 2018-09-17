@@ -1,3 +1,10 @@
+    protected void parse(
             POIFSFileSystem filesystem, XHTMLContentHandler xhtml,
-{        for (Entry entry : filesystem.getRoot()) {
-}}
+            Locale locale) throws IOException, SAXException, TikaException {
+        TikaHSSFListener listener = new TikaHSSFListener(xhtml, locale, this);
+        for (Entry entry : filesystem.getRoot()) {
+            if (entry.getName().startsWith("MBD")
+                    && entry instanceof DirectoryEntry) {
+                try {
+                    handleEmbededOfficeDoc((DirectoryEntry) entry, xhtml);
+}}}}

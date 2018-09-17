@@ -1,2 +1,3 @@
   public static AreaReference getReferanceNameRange(HSSFName nameRange){
+    if (nameRange == null) return null;
     return new AreaReference(nameRange.getRefersToFormula());

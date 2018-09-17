@@ -1,3 +1,4 @@
-            public int compare( EscherProperty p1, EscherProperty p2 )
-{                short s1 = p1.getPropertyNumber();
+        for ( EscherProperty property : properties )
+        {
+            pos += property.serializeComplexPart( data, pos );
 }

@@ -1,3 +1,5 @@
-    protected void visitTableCellBody( XWPFTableCell cell, List<XWPFTableCell> vMergeCells, T tableCellContainer )
-{{            List<IBodyElement> bodyElements = cell.getBodyElements();
-}}
+    private List<XWPFTableCell> getVMergedCells( XWPFTableCell cell, int rowIndex, int cellIndex )
+    {
+        List<XWPFTableCell> vMergedCells = null;
+{{                XWPFTable table = cell.getTableRow().getTable();
+}}}

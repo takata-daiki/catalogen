@@ -1,2 +1,3 @@
+            case LabelSSTRecord.sid: // Ref. a string in the shared string table
                 LabelSSTRecord sst = (LabelSSTRecord) record;
                 UnicodeString unicode = sstRecord.getString(sst.getSSTIndex());

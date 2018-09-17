@@ -1,0 +1,4 @@
+    public Float getTableMarginTop( XWPFTable table )
+    {
+        return TableMarginTopValueProvider.INSTANCE.getValue( table, this );
+}

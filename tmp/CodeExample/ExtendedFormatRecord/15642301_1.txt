@@ -42,8 +42,10 @@
 }{        return format.getAdtlFillPattern();
 }{      if (format.getFillForeground() == loci.poi.hssf.util.HSSFColor.AUTOMATIC.index) {
         if (format.getFillBackground() != (loci.poi.hssf.util.HSSFColor.AUTOMATIC.index+1))
+          setFillBackgroundColor((short)(loci.poi.hssf.util.HSSFColor.AUTOMATIC.index+1));
 }      } else if (format.getFillBackground() == loci.poi.hssf.util.HSSFColor.AUTOMATIC.index+1)
         if (format.getFillForeground() != loci.poi.hssf.util.HSSFColor.AUTOMATIC.index)
+          setFillBackgroundColor(loci.poi.hssf.util.HSSFColor.AUTOMATIC.index);
 }{        format.setFillBackground(bg);
 }{      short result = format.getFillBackground();
 }{        format.setFillForeground(bg);

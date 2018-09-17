@@ -1,2 +1,4 @@
-        ClassID fid = getFormatID();
-        fid.setBytes(formatID);
+    public void setFormatID(final ClassID formatID)
+    {
+        this.formatID = formatID;
+}

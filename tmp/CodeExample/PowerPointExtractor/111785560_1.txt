@@ -1,2 +1,4 @@
+                case POWERPOINT:
                     PowerPointExtractor powerPointExtractor =
+                        new PowerPointExtractor(filesystem);
                     xhtml.element("p", powerPointExtractor.getText(true, true));

@@ -3,4 +3,6 @@
         if ( _picfAndOfficeArtData != null && _picfAndOfficeArtData.getBlipRecords() != null) {
            _blipRecords = _picfAndOfficeArtData.getBlipRecords();
 }}{       for(EscherRecord escherRecord : _picfAndOfficeArtData.getShape().getChildRecords()){
-}}
+          if(escherRecord instanceof EscherOptRecord){
+             EscherOptRecord escherOptRecord = (EscherOptRecord) escherRecord;
+}}}

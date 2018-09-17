@@ -2,4 +2,10 @@
             final int rowCells = tableRow.numCells();
 {                TableCell tableCell = tableRow.getCell( c );
                 if ( tableRow.isTableHeader() )
-}            if ( tableRow.isTableHeader() )
+                {
+                    tableCellElement = htmlDocumentFacade
+                            .createTableHeaderCell();
+}}            if ( tableRow.isTableHeader() )
+            {
+                tableHeader.appendChild( tableRowElement );
+}

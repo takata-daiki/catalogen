@@ -1,0 +1,12 @@
+            final Range firstSubrange = field.firstSubrange( parentRange );
+{                String formula = firstSubrange.text();
+{{                        textRange = new Range( firstSubrange.getStartOffset()
+                                + matcher.start( 2 ),
+                                firstSubrange.getStartOffset()
+                                        + matcher.end( 2 ), firstSubrange )
+                        {
+                            @Override
+                            public String toString()
+                            {
+                                return "Local hyperlink text";
+}}}}}

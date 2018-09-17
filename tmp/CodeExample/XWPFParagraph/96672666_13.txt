@@ -1,0 +1,4 @@
+    public CTTabs getParagraphTabs( XWPFParagraph docxParagraph )
+    {
+        return ParagraphTabsValueProvider.INSTANCE.getValue( docxParagraph, this );
+}

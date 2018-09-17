@@ -2,4 +2,6 @@
 {      r1.setText("png");
       r1.addBreak();
       r1.addPicture(new ByteArrayInputStream(bytes),
+          Document.PICTURE_TYPE_PNG, "pic.png", Units.toEMU(width),
+          Units.toEMU(height));
 }

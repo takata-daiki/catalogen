@@ -1,4 +1,5 @@
         SummaryInformation si = (SummaryInformation)
+                                  PropertySetFactory.create(event.getStream());
         setProperty(DublinCore.TITLE, si.getTitle());
         setProperty(Office.APPLICATION_NAME, si.getApplicationName());
         setProperty(Office.AUTHOR, si.getAuthor());

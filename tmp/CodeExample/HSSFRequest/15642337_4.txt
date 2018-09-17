@@ -1,0 +1,5 @@
+    public short abortableProcessEvents(HSSFRequest req, InputStream in)
+        throws IOException, HSSFUserException
+    {
+    return genericProcessEvents(req, new RecordInputStream(in));
+}

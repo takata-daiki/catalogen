@@ -1,5 +1,6 @@
         FormatRun r = (FormatRun)obj;
         if ((character == r.character) && (fontIndex == r.fontIndex))
+          return 0;
         if (character == r.character)
           return fontIndex - r.fontIndex;
         else return character - r.character;
