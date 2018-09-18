@@ -1,6 +1,8 @@
     HeaderRecord headerRecord;
-{        String head = headerRecord.getHeader();
-}{        headerRecord.setHeader( "&C" + ( center == null ? "" : center ) +
+{
+        String head = headerRecord.getHeader();
+}{
+        headerRecord.setHeader( "&C" + ( center == null ? "" : center ) +
                 "&L" + ( left == null ? "" : left ) +
                 "&R" + ( right == null ? "" : right ) );
         headerRecord.setHeaderLength( (byte) headerRecord.getHeader().length() );

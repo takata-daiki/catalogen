@@ -1,3 +1,6 @@
+    public String getMimeType() {
+}{{{
                 HSSFFont bold = wb.createFont();
                 bold.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);
                 bold.setColor(HSSFColor.WHITE.index);
+}}

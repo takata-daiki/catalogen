@@ -1,2 +1,3 @@
+    public void setMasterSheet(MasterSheet master){
         SlideAtom sa = getSlideRecord().getSlideAtom();
         sa.setMasterID(sheetNo);

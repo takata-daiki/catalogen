@@ -1,5 +1,4 @@
-        EscherContainerRecord dgContainer = new EscherContainerRecord();
-        dgContainer.setRecordId( EscherContainerRecord.DG_CONTAINER );
-        dgContainer.setOptions( (short) 0x000F );
-        dgContainer.addChildRecord( dg );
-        dgContainer.addChildRecord( spgrContainer );
+    private EscherRecord findClientData( EscherContainerRecord spContainer )
+    {
+        for ( Iterator iterator = spContainer.getChildRecords().iterator(); iterator.hasNext(); )
+}

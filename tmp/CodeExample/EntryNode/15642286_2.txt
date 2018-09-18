@@ -3,5 +3,6 @@
         boolean rval =
             (( DirectoryProperty ) getProperty())
                 .deleteChild(entry.getProperty());
-{            _entries.remove(entry.getName());
+{
+            _entries.remove(entry.getName());
 }}

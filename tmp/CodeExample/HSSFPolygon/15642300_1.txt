@@ -1,2 +1,5 @@
+    public HSSFPolygon createPolygon(HSSFChildAnchor anchor)
+{
         HSSFPolygon shape = new HSSFPolygon(this, anchor);
         shape.anchor = anchor;
+}

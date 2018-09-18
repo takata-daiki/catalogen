@@ -1,8 +1,4 @@
-    protected void visitCell( XWPFTableCell cell, T tableContainer, boolean firstRow, boolean lastRow,
-                              boolean firstCol, boolean lastCol, int rowIndex, int cellIndex,
-                              List<XWPFTableCell> vMergedCells )
-        throws Exception
-    {
-        T tableCellContainer =
-            startVisitTableCell( cell, tableContainer, firstRow, lastRow, firstCol, lastCol, vMergedCells );
-}
+    private boolean isLastRow( int rowIndex, int rowsSize )
+{{{{{
+                        XWPFTableCell cell = new XWPFTableCell( ctTc, row, row.getTable().getBody() );
+}}}}}

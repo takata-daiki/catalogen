@@ -1,3 +1,6 @@
+  public Slide createSlide() {
+
     org.apache.poi.hslf.record.Slide slideRecord = slide.getSlideRecord();
+
     slideRecord.setSheetId(psrId);
     slideRecord.setLastOnDiskOffset(slideOffset);

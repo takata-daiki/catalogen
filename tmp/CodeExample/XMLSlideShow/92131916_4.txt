@@ -3,5 +3,6 @@
                 titleHeight = 70, subTitleHeight = 80, titlesSumHeight = titleHeight + subTitleHeight,
                 fullPictureWidthPlace = maxPictureWidth + betweenDifference;
         XSLFSlide pptSlide = ppt.createSlide();
-{            int idx = ppt.addPicture(picBytes1, XSLFPictureData.PICTURE_TYPE_PNG);
+{
+            int idx = ppt.addPicture(picBytes1, XSLFPictureData.PICTURE_TYPE_PNG);
 }

@@ -1,4 +1,8 @@
+  public static <T> void exportExcel(String title, String[] headers, String[] cols, Collection<T> dataset,
+      OutputStream out, String pattern, String[] sumcols) {
     HSSFRow row = sheet.createRow(0);
-{      HSSFCell cell = row.createCell(i);
-}{{{          HSSFCell cell = row.createCell(j);
-}}}
+{
+      HSSFCell cell = row.createCell(i);
+}{{{
+          HSSFCell cell = row.createCell(j);
+}}}}

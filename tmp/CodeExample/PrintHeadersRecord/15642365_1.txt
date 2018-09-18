@@ -1,2 +1,5 @@
+    protected Record createPrintHeaders()
+{
         PrintHeadersRecord retval = new PrintHeadersRecord();
         retval.setPrintHeaders(false);
+}

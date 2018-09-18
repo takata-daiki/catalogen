@@ -1,3 +1,4 @@
-            final CustomProperty cp = (CustomProperty) i.next();
-            if (cp.getID() == PropertyIDMap.PID_CODEPAGE)
-                codepage = ((Integer) cp.getValue()).intValue();
+    public Object put(final String name, final Long value)
+{
+        final CustomProperty cp = new CustomProperty(p, name);
+}

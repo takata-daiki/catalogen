@@ -1,5 +1,8 @@
+    public void setAnchor(Rectangle2D anchor){
+{
             EscherChildAnchorRecord rec = (EscherChildAnchorRecord)getEscherChild(_escherContainer, EscherChildAnchorRecord.RECORD_ID);
             rec.setDx1((int)(anchor.getX()*MASTER_DPI/POINT_DPI));
             rec.setDy1((int)(anchor.getY()*MASTER_DPI/POINT_DPI));
             rec.setDx2((int)((anchor.getWidth() + anchor.getX())*MASTER_DPI/POINT_DPI));
             rec.setDy2((int)((anchor.getHeight() + anchor.getY())*MASTER_DPI/POINT_DPI));
+}

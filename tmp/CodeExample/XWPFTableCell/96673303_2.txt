@@ -1,6 +1,4 @@
-    @Override
-    protected void endVisitTableCell( XWPFTableCell cell, IITextContainer tableContainer,
-                                      IITextContainer tableCellContainer )
-    {
-        ExtendedPdfPTable pdfPTable = (ExtendedPdfPTable) tableContainer;
-}
+    private void visitBR( IITextContainer pdfContainer, CTBr br )
+{{{{{
+                        XWPFTableCell cell = new XWPFTableCell( ctTc, row, row.getTable().getBody() );
+}}}}}

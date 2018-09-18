@@ -1,3 +1,5 @@
+    void remove(EntryNode entry)
+{{
             Property      property = ( Property ) properties.next();
             String        name     = property.getName();
             if (property.isDirectory())
@@ -5,11 +7,12 @@
                 DirectoryNode new_dir =
                     ( DirectoryNode ) parent.createDirectory(name);
                 new_dir.setStorageClsid( property.getStorageClsid() );
-}{                int           startBlock = property.getStartBlock();
+}{
+                int           startBlock = property.getStartBlock();
                 int           size       = property.getSize();
                 if (property.shouldUseSmallBlocks())
                 {
                     document =
                         new POIFSDocument(name, small_blocks
                             .fetchBlocks(startBlock), size, bigBlockSize);
-}}
+}}}}

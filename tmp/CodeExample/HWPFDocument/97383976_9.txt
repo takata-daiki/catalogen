@@ -1,6 +1,6 @@
-    private boolean processOle2( HWPFDocument doc, CharacterRun characterRun,
-            Element block )
-    {
-        Entry entry = doc.getObjectsPool().getObjectById(
-                "_" + characterRun.getPicOffset() );
-}
+    protected void processDropDownList( Element block,
+            CharacterRun characterRun, String[] values, int defaultIndex )
+
+    protected abstract void processEndnoteAutonumbered(
+            HWPFDocument wordDocument, int noteIndex, Element block,
+            Range endnoteTextRange );

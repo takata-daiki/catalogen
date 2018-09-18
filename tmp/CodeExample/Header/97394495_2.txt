@@ -1,3 +1,5 @@
+    public byte[] getData(){
+}{
         Header header = new Header();
         header.wmfsize = data.length - 512;
         header.bounds = new and.awt.Rectangle(0, 0, 200, 200);

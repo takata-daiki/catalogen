@@ -1,0 +1,8 @@
+  private Object getSingleCellValue(CellReference cr) {
+    Object value = null;
+    String sheetName = cr.getSheetName();
+
+    Row row = sheet.getRow(cr.getRow());
+{
+      Cell cell = row.getCell(cr.getCol());
+}

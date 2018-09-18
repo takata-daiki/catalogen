@@ -1,0 +1,11 @@
+    public void collapseColInfoRecords( int columnIdx )
+{
+        ColumnInfoRecord currentCol = (ColumnInfoRecord) records.get( columnIdx );
+        boolean adjacentColumns = previousCol.getLastColumn() == currentCol.getFirstColumn() - 1;
+        boolean columnsMatch =
+                previousCol.getXFIndex() == currentCol.getXFIndex() &&
+                previousCol.getOptions() == currentCol.getOptions() &&
+                previousCol.getColumnWidth() == currentCol.getColumnWidth();
+{
+            previousCol.setLastColumn( currentCol.getLastColumn() );
+}}

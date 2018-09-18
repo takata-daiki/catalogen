@@ -1,6 +1,9 @@
+    public void processDocument( HWPFDocumentCore wordDocument )
+
     protected void processDocumentPart( HWPFDocumentCore wordDocument,
             final Range range )
     {
         for ( int s = 0; s < range.numSections(); s++ )
-{            processSection( wordDocument, range.getSection( s ), s );
+{
+            processSection( wordDocument, range.getSection( s ), s );
 }}

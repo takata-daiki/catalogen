@@ -1,2 +1,4 @@
-        final CustomProperty cp = (CustomProperty) super.get(id);
-        return cp != null ? cp.getValue() : null;
+    public Object put(final String name, final String value)
+{
+        final CustomProperty cp = new CustomProperty(p, name);
+}

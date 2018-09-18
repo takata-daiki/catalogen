@@ -1,4 +1,3 @@
-        XSSFFont font = cellStyle.getFont();
-{            font.setBoldweight(XSSFFont.BOLDWEIGHT_BOLD);
-}{            font.setBoldweight(XSSFFont.BOLDWEIGHT_NORMAL);
-}
+    public boolean isItalic() {
+      XSSFFont xssfFont = theCell.getCellStyle().getFont();
+        return xssfFont.getItalic();

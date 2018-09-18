@@ -1,6 +1,11 @@
+  public Slide createSlide() {
+}{
     EscherContainerRecord bstore;
-{      bstore.setRecordId(EscherContainerRecord.BSTORE_CONTAINER);
-}{      Iterator<EscherRecord> iter = bstore.getChildIterator();
-}    bstore.addChildRecord(bse);
+{
+      bstore.setRecordId(EscherContainerRecord.BSTORE_CONTAINER);
+}{
+      Iterator<EscherRecord> iter = bstore.getChildIterator();
+}
+    bstore.addChildRecord(bse);
     int count = bstore.getChildRecords().size();
     bstore.setOptions((short) ((count << 4) | 0xF));

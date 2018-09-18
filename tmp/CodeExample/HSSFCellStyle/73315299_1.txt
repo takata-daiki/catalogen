@@ -1,4 +1,7 @@
+  public static <T> void exportExcel(String title, String[] headers, String[] cols, Collection<T> dataset,
+      OutputStream out, String pattern, String[] sumcols) {
     HSSFCellStyle style = createStyle(workbook, HSSFColor.LIME.index, HSSFCellStyle.SOLID_FOREGROUND,
         HSSFCellStyle.BORDER_THIN, HSSFCellStyle.BORDER_THIN, HSSFCellStyle.BORDER_THIN,
         HSSFCellStyle.BORDER_THIN, HSSFCellStyle.ALIGN_CENTER);
     style.setFont(font);
+}

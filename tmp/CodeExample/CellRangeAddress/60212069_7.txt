@@ -1,3 +1,4 @@
-  public static void fill(HSSFSheet sh, CellRangeAddress cellsRef, Object valueFill, byte lookIn){
-    fill(sh, new  AreaReference(new CellReference(cellsRef.getFirstRow(), cellsRef.getFirstColumn()),
-        new CellReference(cellsRef.getLastRow(), cellsRef.getLastColumn())), valueFill, lookIn);
+  private static CellRangeAddressList unionAllRectangular(List<List<CellRangeAddress>> rangeListForColumns){
+{{{
+          CellRangeAddress res = null;
+}}}

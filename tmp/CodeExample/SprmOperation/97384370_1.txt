@@ -1,3 +1,7 @@
+    private static void applySprms( CharacterProperties parentProperties,
+            byte[] grpprl, int offset, boolean warnAboutNonChpSprms,
+            CharacterProperties targetProperties )
+{{
             SprmOperation sprm = sprmIt.next();
             if ( sprm.getType() != 2 )
             {
@@ -5,4 +9,4 @@
                 {
                     logger.log( POILogger.WARN,
                             "Non-CHP SPRM returned by SprmIterator: " + sprm );
-}}
+}}}}

@@ -1,2 +1,7 @@
-    HSSFRichTextString text = new HSSFRichTextString(Msg.translate(
-        Env.getCtx(), "name").toUpperCase());
+  public HSSFWorkbook generate(LinkedList<ReportTO> data,
+      String generalTitle[], String clientName, String clientNIT,
+      String periodName, String currencyName, MReportColumn[] m_columns, 
+      String city, Integer logoId) {
+{
+      HSSFRichTextString text = new HSSFRichTextString(generalTitle[0]);
+}}

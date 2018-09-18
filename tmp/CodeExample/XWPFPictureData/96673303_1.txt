@@ -1,3 +1,6 @@
+    protected void visitPicture( CTPicture picture, IITextContainer parentContainer )
+{
         XWPFPictureData pictureData = super.getPictureDataByID( blipId );
-{{                Image img = Image.getInstance( pictureData.getData() );
-}}
+{{
+                Image img = Image.getInstance( pictureData.getData() );
+}}}

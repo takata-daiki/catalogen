@@ -1,3 +1,6 @@
+  public void render(OutputStream out) {
+{{
         HSSFName nameDataBeg = ExcelUtils.getNamedRange(wb, dataBegFieldName);
         String nameShData = nameDataBeg.getSheetName();
         AreaReference areaDataBeg = new AreaReference(nameDataBeg.getRefersToFormula());
+}}

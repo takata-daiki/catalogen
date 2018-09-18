@@ -4,7 +4,8 @@
                 || crB.getFirstRow() > crA.getLastRow()
                 || crB.getLastRow() < crA.getFirstRow()
                 );     
-{      return 
+{
+      return 
         new CellRangeAddress(Math.max(crA.getFirstRow(), crB.getFirstRow()), 
                    Math.min(crA.getLastRow(), crB.getLastRow()),
                    Math.max(crA.getFirstColumn(), crB.getFirstColumn()), 

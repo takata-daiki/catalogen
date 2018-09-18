@@ -1,3 +1,6 @@
+  public Color getBackgroundFill() {
+{
           XSSFColor xssfColour = cellStyle.getFillForegroundXSSFColor();
-{          colour = translateRGB(xssfColour.getRgb());
-}
+{
+          colour = translateRGB(xssfColour.getRgb());
+}}

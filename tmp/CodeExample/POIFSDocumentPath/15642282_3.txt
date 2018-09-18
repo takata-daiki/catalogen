@@ -1,3 +1,6 @@
+    public POIFSDocumentPath getParent()
+{
         POIFSDocumentPath parent = new POIFSDocumentPath(null);
         parent.components = new String[ length ];
         System.arraycopy(components, 0, parent.components, 0, length);
+}

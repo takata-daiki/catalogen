@@ -1,2 +1,13 @@
-    private void putFontInCache(XSSFFont xssfFont,Font font) {
-      Map<XSSFFont,Font> cache = fontCache.get(getWorkbook());
+    private Font getFont(XSSFFont xssfFont) {
+        Font font = getFontFromCache(xssfFont);
+{
+            String name = xssfFont.getFontName();
+            int size = xssfFont.getFontHeightInPoints();
+            if (xssfFont.getBoldweight() == XSSFFont.BOLDWEIGHT_BOLD) {
+                style = Font.BOLD;
+                if (xssfFont.getItalic()) {
+                    style = style | Font.ITALIC;
+}}
+            else if (xssfFont.getItalic()) {
+                style = Font.ITALIC;
+}}

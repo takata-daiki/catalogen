@@ -1,5 +1,7 @@
     static final private BitField fittopage           =
         BitFieldFactory.getInstance(0x01);                               // whether to fit stuff to the page
-{        field_2_wsbool = fittopage.setByteBoolean(field_2_wsbool, fit2page);
-}{        return fittopage.isSet(field_2_wsbool);
+{
+        field_2_wsbool = fittopage.setByteBoolean(field_2_wsbool, fit2page);
+}{
+        return fittopage.isSet(field_2_wsbool);
 }

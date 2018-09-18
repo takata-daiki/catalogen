@@ -1,3 +1,5 @@
+    private static Integer getIstd( byte[] grpprl, int offset )
+
   static void unCompressCHPOperation (CharacterProperties oldCHP,
                                       CharacterProperties newCHP,
                                       SprmOperation sprm)
@@ -53,6 +55,7 @@
         newCHP.setKul ((byte) sprm.getOperand());
       case 0x3f:
         operand = sprm.getOperand();
+
       case 0x40:
         newCHP.setDxaSpace (sprm.getOperand());
       case 0x41:
@@ -71,7 +74,8 @@
           if (oldCHP.getHpsPos () == 0)
           {
             newCHP.setHps (Math.max (newCHP.getHps () + ( -2), 2));
-}}      case 0x48:
+}}
+      case 0x48:
         newCHP.setIss ((byte) sprm.getOperand());
       case 0x49:
         newCHP.setHps (LittleEndian.getShort (sprm.getGrpprl(), sprm.getGrpprlOffset()));

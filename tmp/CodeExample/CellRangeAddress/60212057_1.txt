@@ -1,5 +1,8 @@
+  private void formatLine(HSSFSheet sh){
+}{{{{{
             CellRangeAddress cellReff = workR.getCellRangeAddress(0);
             if(cellReff.getLastRow()-cellReff.getFirstRow()+1 != kFRowE){
               ExcelUtils.autoFilter(sh, yyy - 1, 0, xxx, 0, null);
-}{              zzz++;
-}
+}{
+              zzz++;
+}}}}}

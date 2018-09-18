@@ -1,3 +1,4 @@
-            CellRangeAddress res = ExcelUtils.intersectRectangular(new CellRangeAddress(
-                area.getFirstCell().getRow(), area.getLastCell().getRow(),
-                area.getFirstCell().getCol(), area.getLastCell().getCol()), crB);
+  private void modelDelete(HSSFSheet sh){
+{{{
+          CellRangeAddress crB = new CellRangeAddress(j, i, 0, ExcelUtils.xlMaxNumCol-1);  
+}}}

@@ -1,3 +1,6 @@
+  public static <T> void exportExcel(String title, String[] headers, String[] cols, Collection<T> dataset,
+      OutputStream out, String pattern, String[] sumcols) {
     HSSFComment comment = patriarch.createComment(new HSSFClientAnchor(0, 0, 0, 0, (short) 4, 2, (short) 6, 5));
     comment.setString(new HSSFRichTextString("happy life"));
     comment.setAuthor("dylan");
+}

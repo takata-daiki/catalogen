@@ -1,4 +1,6 @@
     /**/private static BitField fDispFormFldSel = new BitField(0x04);
-{        field_7_docinfo2 = (byte)fDispFormFldSel.setBoolean(field_7_docinfo2, value);
-}{        return fDispFormFldSel.isSet(field_7_docinfo2);
+{
+        field_7_docinfo2 = (byte)fDispFormFldSel.setBoolean(field_7_docinfo2, value);
+}{
+        return fDispFormFldSel.isSet(field_7_docinfo2);
 }

@@ -1,5 +1,4 @@
-        for(XSLFShape shape : getShapeList()) {
-          if (isCanceled.get()) {
-            Log.d("Slide", "Thread.Canceled");
-}            shape.applyTransform(graphics);
-            shape.draw(graphics);
+            for(XSLFShape sh : getShapes()){
+                if(sh instanceof XSLFTextShape){
+                    XSLFTextShape sShape = (XSLFTextShape)sh;
+}

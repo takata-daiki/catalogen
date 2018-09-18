@@ -1,7 +1,9 @@
+    static Paragraph newParagraph( Range parent, PAPX papx )
+{{{
                 final ListLevel listLevel = listTables.getLevel( lfo.getLsid(),
                         properties.getIlvl() );
                 if ( listLevel != null && listLevel.getGrpprlPapx() != null )
                 {
                     properties = ParagraphSprmUncompressor.uncompressPAP(
                             properties, listLevel.getGrpprlPapx(), 0 );
-}
+}}}}

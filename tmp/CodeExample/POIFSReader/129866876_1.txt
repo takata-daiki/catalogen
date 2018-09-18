@@ -1,3 +1,5 @@
+        public void processPOIFSReaderEvent(POIFSReaderEvent event)
+}
       POIFSReader reader = new POIFSReader();
       reader.registerListener(listener);
       reader.read(contentStream);

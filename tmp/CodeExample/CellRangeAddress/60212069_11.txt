@@ -1,6 +1,4 @@
-  public static void fill(HSSFSheet sh, CellRangeAddress srcCRA, CellRangeAddress distCRA, byte lookIn){
-    if (equalsRectangularAreas(srcCRA, distCRA) && intersectRectangular(srcCRA, distCRA) == null){
-      int countRow =0;
-      for(int row = distCRA.getFirstRow(); row <=distCRA.getLastRow(); row++){
-        for(int col = distCRA.getFirstColumn(); col <=distCRA.getLastColumn(); col++){
-}}}
+  public static CellRangeAddressList getSpecialCells(HSSFSheet sh, CellRangeAddress cellRef0, XlCellType xlCellType){
+{{{{
+                  CellRangeAddress res = unionRectangular(cRB, cRA);
+}}}}

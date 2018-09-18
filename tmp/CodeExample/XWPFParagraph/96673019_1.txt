@@ -4,9 +4,12 @@
         throws Exception
     {
         this.currentRunX = null;
-{{                if ( ParagraphIndentationLeftValueProvider.INSTANCE.getValue( docxParagraph.getCTP().getPPr() ) == null )
+{{
+                if ( ParagraphIndentationLeftValueProvider.INSTANCE.getValue( docxParagraph.getCTP().getPPr() ) == null )
                 {
                     Float indLeft = ParagraphIndentationLeftValueProvider.INSTANCE.getValue( lvlPPr );
-}                if ( ParagraphIndentationHangingValueProvider.INSTANCE.getValue( docxParagraph.getCTP().getPPr() ) == null )
-{                    Float hanging = stylesDocument.getIndentationHanging( lvlPPr );
+}
+                if ( ParagraphIndentationHangingValueProvider.INSTANCE.getValue( docxParagraph.getCTP().getPPr() ) == null )
+{
+                    Float hanging = stylesDocument.getIndentationHanging( lvlPPr );
 }}}}

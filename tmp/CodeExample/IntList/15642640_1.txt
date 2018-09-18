@@ -1,5 +1,8 @@
+    public int get(int col, int row)
+{{
             IntList cols = (IntList) rows.get(row);
             if (col >= cols.size())
                 return 0;
             else
                 return cols.get( col );
+}}

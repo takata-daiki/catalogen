@@ -1,6 +1,8 @@
     public LessThanPtg(RecordInputStream in)
     {
-}    }
+}
+    }
     public void writeBytes(byte[] array, int offset)
-{        array[ offset + 0 ] = sid;
+{
+        array[ offset + 0 ] = sid;
 }

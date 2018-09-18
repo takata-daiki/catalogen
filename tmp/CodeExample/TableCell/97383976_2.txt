@@ -1,3 +1,6 @@
+    protected int getNumberColumnsSpanned( int[] tableCellEdges,
+            int currentEdgeIndex, TableCell tableCell )
+
     protected int getNumberRowsSpanned( Table table,
             final int[] tableCellEdges, int currentRowIndex,
             int currentColumnIndex, TableCell tableCell )

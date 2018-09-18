@@ -1,0 +1,4 @@
+    public HSSFCellStyle getCellStyleAt(short idx)
+{
+        ExtendedFormatRecord xfr = workbook.getExFormatAt(idx);
+}

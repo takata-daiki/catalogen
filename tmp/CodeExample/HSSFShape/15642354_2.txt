@@ -4,12 +4,16 @@
         if ( shape.isNoFill() )
         {
             opt.addEscherProperty( new EscherBoolProperty( EscherProperties.FILL__NOFILLHITTEST, 0x00110000 ) );
-}        opt.addEscherProperty( new EscherRGBProperty( EscherProperties.FILL__FILLCOLOR, shape.getFillColor() ) );
+}
+        opt.addEscherProperty( new EscherRGBProperty( EscherProperties.FILL__FILLCOLOR, shape.getFillColor() ) );
         opt.addEscherProperty( new EscherRGBProperty( EscherProperties.LINESTYLE__COLOR, shape.getLineStyleColor() ) );
         if (shape.getLineWidth() != HSSFShape.LINEWIDTH_DEFAULT)
-{            opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.LINESTYLE__LINEWIDTH, shape.getLineWidth()));
-}        if (shape.getLineStyle() != HSSFShape.LINESTYLE_SOLID)
-{            opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.LINESTYLE__LINEDASHING, shape.getLineStyle()));
+{
+            opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.LINESTYLE__LINEWIDTH, shape.getLineWidth()));
+}
+        if (shape.getLineStyle() != HSSFShape.LINESTYLE_SOLID)
+{
+            opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.LINESTYLE__LINEDASHING, shape.getLineStyle()));
             if (shape.getLineStyle() == HSSFShape.LINESTYLE_NONE)
                 opt.addEscherProperty( new EscherBoolProperty( EscherProperties.LINESTYLE__NOLINEDRAWDASH, 0x00080000));
 }}

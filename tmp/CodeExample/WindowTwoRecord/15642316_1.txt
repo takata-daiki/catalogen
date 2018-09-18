@@ -1,3 +1,6 @@
+    public HSSFSheet createSheet()
+{
         WindowTwoRecord windowTwo = (WindowTwoRecord) sheet.getSheet().findFirstRecordBySid(WindowTwoRecord.sid);
         windowTwo.setSelected(sheets.size() == 1);
         windowTwo.setPaged(sheets.size() == 1);
+}

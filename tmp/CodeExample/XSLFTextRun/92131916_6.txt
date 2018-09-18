@@ -1,3 +1,7 @@
+    private XMLSlideShow generatePreview(XMLSlideShow ppt, List<PreviewReportingDocument> previewData, String cityName,
+                                         int repDocsStartNum) {
+{
             XSLFTextRun netCellR = netCellP.addNewTextRun();
             netCellR.setText(dataRow.getNetwork());
             netCellR.setFontSize(11);
+}}

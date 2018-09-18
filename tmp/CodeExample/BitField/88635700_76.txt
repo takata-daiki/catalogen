@@ -1,4 +1,6 @@
     /**/private static BitField fMWSmallCaps = new BitField(0x00200000);
-{        field_33_docinfo4 = (int)fMWSmallCaps.setBoolean(field_33_docinfo4, value);
-}{        return fMWSmallCaps.isSet(field_33_docinfo4);
+{
+        field_33_docinfo4 = (int)fMWSmallCaps.setBoolean(field_33_docinfo4, value);
+}{
+        return fMWSmallCaps.isSet(field_33_docinfo4);
 }

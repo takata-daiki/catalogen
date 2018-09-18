@@ -1,6 +1,9 @@
-    @SuppressWarnings( "unused" )
-    protected boolean processOle2( HWPFDocument wordDocument, Element block,
-            Entry entry ) throws Exception
+    protected void processField( HWPFDocument wordDocument, Range parentRange,
+            int currentTableLevel, Field field, Element currentBlock )
     {
-        return false;
-}
+        switch ( field.getType() )
+        {
+        case 37: // page reference
+{
+            final Range firstSubrange = field.firstSubrange( parentRange );
+}}}

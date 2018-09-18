@@ -1,3 +1,4 @@
-          XSSFColor colour = theCell.getCellStyle().getFont().getXSSFColor();
-{            foreground = translateRGB(colour.getRgb());
+  private XSSFCellStyle getFillStyleForColour(Color colour) {
+{
+        XSSFColor col = new XSSFColor(colour);
 }

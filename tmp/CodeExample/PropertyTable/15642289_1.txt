@@ -1,3 +1,5 @@
+    public POIFSReader()
+{
         PropertyTable properties =
             new PropertyTable(header_block_reader.getPropertyStart(),
                               data_blocks);
@@ -6,3 +8,4 @@
                 .getRoot(), header_block_reader
                     .getSBATStart()), data_blocks, properties.getRoot()
                         .getChildren(), new POIFSDocumentPath());
+}

@@ -1,13 +1,18 @@
+    private void processSheet( Sheet sheet,
+                               List<? extends DataListener> listeners ) {
         DataFormatter formatter = new DataFormatter( Locale.ENGLISH );
-{{{                    newCell( listeners,
+{{{
+                    newCell( listeners,
                              i,
                              cellNum,
                              formatter.formatCellValue( topLeft ),
                              topLeft.getColumnIndex() );
-}{{{                                log.warn( "Cannot resolve externally linked value: " + formatter.formatCellValue( cell ) );
-}{                                newCell( listeners,
+}{{{
+                                log.warn( "Cannot resolve externally linked value: " + formatter.formatCellValue( cell ) );
+}{
+                                newCell( listeners,
                                          i,
                                          cellNum,
                                          formatter.formatCellValue( cell ),
                                          DataListener.NON_MERGED );
-}}}}}
+}}}}}}

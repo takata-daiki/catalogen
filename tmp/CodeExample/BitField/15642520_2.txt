@@ -1,5 +1,7 @@
     static final private BitField landscape     =
         BitFieldFactory.getInstance(0x02);   // landscape mode
-{        field_6_options = landscape.setShortBoolean(field_6_options, ls);
-}{        return landscape.isSet(field_6_options);
+{
+        field_6_options = landscape.setShortBoolean(field_6_options, ls);
+}{
+        return landscape.isSet(field_6_options);
 }

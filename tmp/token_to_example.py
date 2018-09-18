@@ -160,7 +160,7 @@ def setter(catalog, class_name, id_name):
                     if '{' in v:
                         right -= 1
                     if left < right:
-                        f.write(removed(blocks[left:right]))
+                        f.write('{}\n'.format(removed(blocks[left:right])))
                     f.write(v)
                 prev = cur
 

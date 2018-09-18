@@ -1,2 +1,4 @@
-        CharacterProperties props = CharacterSprmUncompressor.uncompressCHP(
-                ss, baseStyle, getGrpprl(), 0 );
+    public CharacterProperties getCharacterProperties( StyleSheet ss, short istd )
+{
+        CharacterProperties baseStyle = ss.getCharacterStyle( istd );
+}

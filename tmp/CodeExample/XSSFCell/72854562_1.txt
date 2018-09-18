@@ -1,3 +1,6 @@
+    public void visit(SetCellValue setCellValue) {
+
         XSSFCell xssfCell = xssfRow.getCell(setCellValue.getCol());
-{{                xssfCell.setCellValue(new XSSFRichTextString(setCellValue.getNewValue().toString()));
+{{
+                xssfCell.setCellValue(new XSSFRichTextString(setCellValue.getNewValue().toString()));
 }}

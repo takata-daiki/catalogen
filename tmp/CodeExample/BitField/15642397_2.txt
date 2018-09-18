@@ -1,6 +1,8 @@
     private  static final BitField   extBit    = BitFieldFactory.getInstance(0x4);
-{      if (ext_rst != null)
+{
+      if (ext_rst != null)
         field_2_optionflags = extBit.setByte(field_2_optionflags);
       else field_2_optionflags = extBit.clearByte(field_2_optionflags);
-}{        return extBit.isSet(getOptionFlags());
+}{
+        return extBit.isSet(getOptionFlags());
 }

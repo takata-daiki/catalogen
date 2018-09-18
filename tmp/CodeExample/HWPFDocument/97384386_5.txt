@@ -1,5 +1,8 @@
+    private void dumpStyles()
+{
         HWPFDocument hwpfDocument = (HWPFDocument) _doc;
         for ( int s = 0; s < hwpfDocument.getStyleSheet().numStyles(); s++ )
-{            StyleDescription styleDescription = hwpfDocument.getStyleSheet()
+{
+            StyleDescription styleDescription = hwpfDocument.getStyleSheet()
                     .getStyleDescription( s );
-}
+}}

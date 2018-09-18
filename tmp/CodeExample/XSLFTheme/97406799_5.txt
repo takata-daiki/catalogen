@@ -1,3 +1,9 @@
-                    XSLFTheme theme = _shape.getSheet().getTheme();
-                    XmlObject lnProps = theme.getXmlObject().
-                            getThemeElements().getFmtScheme().getLnStyleLst().selectPath("*")[idx - 1];
+            public boolean fetch(XSLFSimpleShape shape) {
+}}{{
+                XSLFTheme theme = sheet.getTheme();
+{
+                    fillProps = theme.getXmlObject().
+                            getThemeElements().getFmtScheme().getFillStyleLst().selectPath("*")[idx - 1];
+}{
+                            getThemeElements().getFmtScheme().getBgFillStyleLst().selectPath("*")[idx - 1001];
+}

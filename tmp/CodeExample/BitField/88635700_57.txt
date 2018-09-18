@@ -1,4 +1,6 @@
     /**/private static BitField zkSaved = new BitField(0x3000);
-{        field_32_view = (short)zkSaved.setValue(field_32_view, value);
-}{        return ( byte )zkSaved.getValue(field_32_view);
+{
+        field_32_view = (short)zkSaved.setValue(field_32_view, value);
+}{
+        return ( byte )zkSaved.getValue(field_32_view);
 }

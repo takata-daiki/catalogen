@@ -1,4 +1,6 @@
     /**/private static BitField nEdn = new BitField(0xfffc);
-{        field_23_Edn = (short)nEdn.setValue(field_23_Edn, value);
-}{        return ( short )nEdn.getValue(field_23_Edn);
+{
+        field_23_Edn = (short)nEdn.setValue(field_23_Edn, value);
+}{
+        return ( short )nEdn.getValue(field_23_Edn);
 }

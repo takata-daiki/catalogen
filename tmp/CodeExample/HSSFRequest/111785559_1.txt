@@ -1,6 +1,10 @@
+        private TikaHSSFListener(XHTMLContentHandler handler, Locale locale, AbstractPOIFSExtractor extractor) {
+}{
             HSSFRequest hssfRequest = new HSSFRequest();
-{                hssfRequest.addListenerForAllRecords(formatListener);
-}{                hssfRequest.addListener(formatListener, BOFRecord.sid);
+{
+                hssfRequest.addListenerForAllRecords(formatListener);
+}{
+                hssfRequest.addListener(formatListener, BOFRecord.sid);
                 hssfRequest.addListener(formatListener, EOFRecord.sid);
                 hssfRequest.addListener(formatListener, DateWindow1904Record.sid);
                 hssfRequest.addListener(formatListener, CountryRecord.sid);

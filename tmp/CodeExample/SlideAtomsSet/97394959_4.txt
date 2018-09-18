@@ -1,7 +1,3 @@
-        for (SlideAtomsSet ns : nslwt.getSlideAtomsSets()) {
-          if (ns.getSlidePersistAtom().getSlideIdentifier() != notesId) {
-            na.add(ns);
-            records.add(ns.getSlidePersistAtom());
-            if (ns.getSlideRecords() != null)
-              records.addAll(Arrays.asList(ns.getSlideRecords()));
-}
+  public void reorderSlide(int oldSlideNumber, int newSlideNumber) {
+
+    SlideAtomsSet tmp = sas[oldSlideNumber - 1];

@@ -1,2 +1,5 @@
+    public Cell setHyperLinkURL(String strAddress)
+{{
             HSSFHyperlink link = new HSSFHyperlink(HSSFHyperlink.LINK_URL);
             link.setAddress(strAddress);
+}}

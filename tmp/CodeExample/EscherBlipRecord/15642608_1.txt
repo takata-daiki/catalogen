@@ -1,7 +1,12 @@
     private EscherBlipRecord field_12_blipRecord;
-{{            bytesRead = field_12_blipRecord.fillFields( data, pos + 36, recordFactory );
-}        return bytesRemaining + 8 + 36 + (field_12_blipRecord == null ? 0 : field_12_blipRecord.getRecordSize()) ;
-}{        int blipSize = field_12_blipRecord == null ? 0 : field_12_blipRecord.getRecordSize();
-{            bytesWritten = field_12_blipRecord.serialize( offset + 44, data, new NullEscherSerializationListener() );
-}}{        return 8 + 1 + 1 + 16 + 2 + 4 + 4 + 4 + 1 + 1 + 1 + 1 + field_12_blipRecord.getRecordSize() + (remainingData == null ? 0 : remainingData.length);
+{{
+            bytesRead = field_12_blipRecord.fillFields( data, pos + 36, recordFactory );
+}
+        return bytesRemaining + 8 + 36 + (field_12_blipRecord == null ? 0 : field_12_blipRecord.getRecordSize()) ;
+}{
+        int blipSize = field_12_blipRecord == null ? 0 : field_12_blipRecord.getRecordSize();
+{
+            bytesWritten = field_12_blipRecord.serialize( offset + 44, data, new NullEscherSerializationListener() );
+}}{
+        return 8 + 1 + 1 + 16 + 2 + 4 + 4 + 4 + 1 + 1 + 1 + 1 + field_12_blipRecord.getRecordSize() + (remainingData == null ? 0 : remainingData.length);
 }

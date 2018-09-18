@@ -1,9 +1,12 @@
+    public boolean equals(final Object o)
+{{{
                 POIFSDocumentPath path = ( POIFSDocumentPath ) o;
                 if (path.components.length == this.components.length)
                 {
                     rval = true;
-{                        if (!path.components[ j ]
+{
+                        if (!path.components[ j ]
                                 .equals(this.components[ j ]))
                         {
                             rval = false;
-}}}
+}}}}}}

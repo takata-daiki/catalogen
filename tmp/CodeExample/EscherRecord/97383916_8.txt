@@ -1,2 +1,5 @@
-    public void addChildRecord(EscherRecord record) {
-        _childRecords.add(record);
+    public void display(PrintWriter w, int indent) {
+{
+            EscherRecord escherRecord = iterator.next();
+            escherRecord.display(w, indent + 1);
+}

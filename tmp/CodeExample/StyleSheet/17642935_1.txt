@@ -3,6 +3,7 @@
       MainDocumentPart documentPart,
       org.docx4j.wml.ObjectFactory factory) {
     org.docx4j.wml.P wmlP =  null;         
-{      String styleName = stylesheet
+{
+      String styleName = stylesheet
           .getStyleDescription(p.getStyleIndex()).getName();
 }}

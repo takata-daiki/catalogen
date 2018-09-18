@@ -1,5 +1,9 @@
+    public void createDrawingGroup()
+{{
             EscherContainerRecord bstoreContainer = null;
-{                bstoreContainer.setRecordId( EscherContainerRecord.BSTORE_CONTAINER );
+{
+                bstoreContainer.setRecordId( EscherContainerRecord.BSTORE_CONTAINER );
                 bstoreContainer.setOptions( (short) ( (escherBSERecords.size() << 4) | 0xF ) );
-{                    bstoreContainer.addChildRecord( escherRecord );
-}}
+{
+                    bstoreContainer.addChildRecord( escherRecord );
+}}}}

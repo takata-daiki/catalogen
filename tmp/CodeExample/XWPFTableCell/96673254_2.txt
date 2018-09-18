@@ -1,5 +1,6 @@
-    protected void visitTableCellBody( XWPFTableCell cell, T tableCellContainer )
+    protected void visitCell( XWPFTableCell cell, T tableContainer, boolean firstRow, boolean lastRow,
+                              boolean firstCell, boolean lastCell )
         throws Exception
     {
-        List<IBodyElement> bodyElements = cell.getBodyElements();
+        T tableCellContainer = startVisitTableCell( cell, tableContainer, firstRow, lastRow, firstCell, lastCell );
 }

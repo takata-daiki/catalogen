@@ -1,7 +1,12 @@
     private XSSFWorkbook workbook;
-{        XSSFFont font = workbook.getFontAt((short) 0);
-}{{            cellStyle = workbook.createCellStyle();
-}{            font = workbook.createFont();
-}}{    return workbook.getSheetName(getSheetIndex());
-}{    return workbook.getSheetIndex(sheet);
+{
+        XSSFFont font = workbook.getFontAt((short) 0);
+}{{
+            cellStyle = workbook.createCellStyle();
+}{
+            font = workbook.createFont();
+}}{
+    return workbook.getSheetName(getSheetIndex());
+}{
+    return workbook.getSheetIndex(sheet);
 }

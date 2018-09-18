@@ -1,3 +1,5 @@
+    protected PackagePart getCorePart() {
+}{
         PackageRelationshipCollection partsC =
             getPackagePart().getRelationshipsByType(contentType);
         PackagePart[] parts = new PackagePart[partsC.size()];

@@ -1,5 +1,7 @@
     static final private BitField noOrientation =
         BitFieldFactory.getInstance(0x40);   // the orientation is not set
-{        field_6_options = noOrientation.setShortBoolean(field_6_options, orientation);
-}{        return noOrientation.isSet(field_6_options);
+{
+        field_6_options = noOrientation.setShortBoolean(field_6_options, orientation);
+}{
+        return noOrientation.isSet(field_6_options);
 }

@@ -1,5 +1,8 @@
-    public int writeHidden( RowRecord rowRecord, int row, boolean hidden )
-    {
+    public int findStartOfRowOutlineGroup(int row)
+{
+        RowRecord rowRecord = this.getRow( row );
         int level = rowRecord.getOutlineLevel();
-{            rowRecord.setZeroHeight( hidden );
+{
+            if (rowRecord.getOutlineLevel() < level)
+                return currentRow + 1;
 }}

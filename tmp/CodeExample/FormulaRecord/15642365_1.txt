@@ -1,8 +1,13 @@
+    public FormulaRecord createFormula(int row, short col, String formula)
+{
         FormulaRecord rec = new FormulaRecord();
         rec.setRow(row);
         rec.setColumn(col);
         rec.setOptions(( short ) 2);
         rec.setValue(0);
         rec.setXFIndex(( short ) 0x0f);
-{            rec.pushExpressionToken(ptg[ k ]);
-}        rec.setExpressionLength(( short ) size);
+{
+            rec.pushExpressionToken(ptg[ k ]);
+}
+        rec.setExpressionLength(( short ) size);
+}

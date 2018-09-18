@@ -1,2 +1,4 @@
-    protected boolean canDraw(XSLFShape shape){
-        return true;
+        for(XSLFShape shape : this.getShapes()){
+            if(shape instanceof XSLFTextShape) {
+               XSLFTextShape txt = (XSLFTextShape)shape;
+}

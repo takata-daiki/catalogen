@@ -1,5 +1,6 @@
     private TextObjectRecord txo = null;
-{{            txo.setFormattingRunLength( (short) frLength );
+{{
+            txo.setFormattingRunLength( (short) frLength );
             txo.setTextLength( (short) string.length() );
             txo.setStr( string );
 }}

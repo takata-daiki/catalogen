@@ -1,4 +1,4 @@
-        ColumnInfoRecord retval = new ColumnInfoRecord();
-        retval.setColumnWidth(( short ) 2275);
-        retval.setOptions(( short ) 2);
-        retval.setXFIndex(( short ) 0x0f);
+    public void expandColumn( short columnNumber )
+{
+        ColumnInfoRecord endColumnInfo = getColInfo( endIdx );
+}

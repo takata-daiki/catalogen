@@ -1,2 +1,5 @@
+    public Paint selectPaint(Graphics2D graphics, XmlObject obj, CTSchemeColor phClr, PackagePart parentPart) {
+{
             XSLFColor c = new XSLFColor(solidFill, theme, phClr);
             paint = c.getColor();
+}

@@ -1,2 +1,6 @@
+    public XSSFExcelExtractorDecorator(
+            XSSFExcelExtractor extractor, Locale locale) {
+}{{{{{
                         XSSFCell xc = (XSSFCell) cell;
                         String rawValue = xc.getRawValue();
+}}}}}

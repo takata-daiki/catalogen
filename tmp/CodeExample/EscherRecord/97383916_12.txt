@@ -1,7 +1,4 @@
-        for ( EscherRecord childRecord : _childRecords )
-        {
-            if ( childRecord.getRecordId() == recordId )
-            {
-                @SuppressWarnings( "unchecked" )
-                final T result = (T) childRecord;
-}}
+    public String toString()
+{{{
+                EscherRecord record = iterator.next();
+}}}

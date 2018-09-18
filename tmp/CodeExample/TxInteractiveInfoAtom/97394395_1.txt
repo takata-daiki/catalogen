@@ -1,3 +1,4 @@
+    public void setHyperlink(int linkId, int beginIndex, int endIndex){
         TxInteractiveInfoAtom txiatom = new TxInteractiveInfoAtom();
         txiatom.setStartIndex(beginIndex);
         txiatom.setEndIndex(endIndex);

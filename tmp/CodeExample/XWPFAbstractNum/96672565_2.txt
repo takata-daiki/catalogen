@@ -1,2 +1,5 @@
+    private CTNumPr getNumPr( CTNumPr numPr )
+{{{
                 XWPFAbstractNum abstractNum = getXWPFAbstractNum( num );
                 CTString numStyleLink = abstractNum.getAbstractNum().getNumStyleLink();
+}}}

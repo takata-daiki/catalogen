@@ -1,2 +1,5 @@
+  public InputStream getXmlDocument(DocumentListEntry document) {
+{{
         WordExtractor extractor = new WordExtractor(inStream);
         String extractStr = extractor.getText().replaceAll("[^\\p{Print}]", "");
+}}

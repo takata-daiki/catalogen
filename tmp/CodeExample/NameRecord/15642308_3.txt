@@ -1,4 +1,7 @@
+    public void setNameName(String nameName){
+{
           NameRecord rec = book.getNameRecord(i);
-{            if (rec.getNameText().equalsIgnoreCase(getNameName()))
+{
+            if (rec.getNameText().equalsIgnoreCase(getNameName()))
               throw new IllegalArgumentException("The workbook already contains this name (case-insensitive)");
-}
+}}

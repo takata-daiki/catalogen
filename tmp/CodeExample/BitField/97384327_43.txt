@@ -1,4 +1,6 @@
     /**/private static final BitField fTNYCompress = new BitField(0x10);
-{        field_30_copt = (byte)fTNYCompress.setBoolean(field_30_copt, value);
-}{        return fTNYCompress.isSet(field_30_copt);
+{
+        field_30_copt = (byte)fTNYCompress.setBoolean(field_30_copt, value);
+}{
+        return fTNYCompress.isSet(field_30_copt);
 }

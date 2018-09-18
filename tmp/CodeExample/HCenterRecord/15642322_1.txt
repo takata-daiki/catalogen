@@ -1,3 +1,6 @@
+    public void setHorizontallyCenter(boolean value)
+{
         HCenterRecord record =
                 (HCenterRecord) sheet.findFirstRecordBySid(HCenterRecord.sid);
         record.setHCenter(value);
+}

@@ -1,4 +1,8 @@
+  public void setReportFacade(ReportFacadeLocal reportFacade) {
+}{{
       final XWPFDocument doc = ((XWPFDocument)docObj);
-{{{            final List<XWPFTable> tableList = doc.getTables();
+{{{
+            final List<XWPFTable> tableList = doc.getTables();
+
                 lstParagraphs.addAll(doc.getParagraphs());
-}}}
+}}}}

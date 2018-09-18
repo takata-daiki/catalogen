@@ -1,2 +1,3 @@
+    public int getShapeType(){
         EscherSpRecord spRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);
         return spRecord.getShapeType();

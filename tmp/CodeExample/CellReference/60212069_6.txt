@@ -1,5 +1,6 @@
     for(CellReference cellRef:areaRef.getAllReferencedCells()){
       if (lookIn == xlValues){
         setCellValue(getCell(sh, cellRef.getRow(), cellRef.getCol()), valueFill);
-}{        HSSFCell cell = getCell(sh, cellRef.getRow(), cellRef.getCol());
+}{
+        HSSFCell cell = getCell(sh, cellRef.getRow(), cellRef.getCol());
 }

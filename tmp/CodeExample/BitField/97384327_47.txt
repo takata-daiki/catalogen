@@ -1,4 +1,6 @@
     /**/private static final BitField icoHighlight = new BitField(0x001f);
-{        field_48_Highlight = (short)icoHighlight.setValue(field_48_Highlight, value);
-}{        return ( byte )icoHighlight.getValue(field_48_Highlight);
+{
+        field_48_Highlight = (short)icoHighlight.setValue(field_48_Highlight, value);
+}{
+        return ( byte )icoHighlight.getValue(field_48_Highlight);
 }

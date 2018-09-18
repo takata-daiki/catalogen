@@ -1,5 +1,6 @@
   private POIFSFileSystem filesystem;
-{    DocumentEntry docProps =
+{
+    DocumentEntry docProps =
       (DocumentEntry)filesystem.getRoot().getEntry("VisioDocument");
     filesystem.createDocumentInputStream("VisioDocument").read(contents);
 }

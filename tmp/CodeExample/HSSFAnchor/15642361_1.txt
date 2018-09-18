@@ -1,5 +1,8 @@
+    private EscherContainerRecord createSpContainer(HSSFSimpleShape hssfShape, int shapeId)
+{
         HSSFAnchor userAnchor = shape.getAnchor();
         if (userAnchor.isHorizontallyFlipped())
             sp.setFlags(sp.getFlags() | EscherSpRecord.FLAG_FLIPHORIZ);
         if (userAnchor.isVerticallyFlipped())
             sp.setFlags(sp.getFlags() | EscherSpRecord.FLAG_FLIPVERT);
+}

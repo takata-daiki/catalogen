@@ -1,2 +1,2 @@
-        XSSFFont xssfFont = theCell.getCellStyle().getFont();
-        return xssfFont.getStrikeout();
+    public Font getDefaultFont() {
+        XSSFFont font = workbook.getFontAt((short) 0);

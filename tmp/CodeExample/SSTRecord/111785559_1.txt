@@ -1,3 +1,6 @@
+    public void setListenForAllRecords(boolean listenForAllRecords) {
+}{
         private SSTRecord sstRecord;
-{{                UnicodeString unicode = sstRecord.getString(sst.getSSTIndex());
+{{
+                UnicodeString unicode = sstRecord.getString(sst.getSSTIndex());
 }}

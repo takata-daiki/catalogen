@@ -1,5 +1,6 @@
             for (POIXMLDocumentPart p : getRelations()) {
                 if (p instanceof XSLFSlide) {
                     shIdMap.put(p.getPackageRelationship().getId(), (XSLFSlide) p);
-}{                    _masters.put(p.getPackageRelationship().getId(), master);
+}{
+                    _masters.put(p.getPackageRelationship().getId(), master);
 }

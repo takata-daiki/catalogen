@@ -1,3 +1,4 @@
+    protected Record createBackup() {
         BackupRecord retval = new BackupRecord();
         retval.setBackup(
         ( short ) 0);   // by default DONT save backups of files...just loose data

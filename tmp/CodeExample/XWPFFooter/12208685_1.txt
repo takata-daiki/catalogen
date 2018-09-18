@@ -1,2 +1,5 @@
+    private void applySectPr( CTSectPr sectPr )
+{
         XWPFFooter hdr = getXWPFFooter( footerRef );
         visitBodyElements( hdr.getBodyElements(), (ExtendedPdfPCell) pdfFooter.getTableCell() );
+}

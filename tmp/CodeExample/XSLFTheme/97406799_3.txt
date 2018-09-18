@@ -1,6 +1,7 @@
-    private static Paint createRadialGradientPaint(
+            public int compare(CTGradientStop o1, CTGradientStop o2) {
+}}}
+    private static Paint toRadialGradientPaint(
             CTGradientFillProperties gradFill, Rectangle2D anchor,
             XSLFTheme theme, CTSchemeColor phClr) {
         @SuppressWarnings("deprecation")
         CTGradientStop[] gs = gradFill.getGsLst().getGsArray();
-}

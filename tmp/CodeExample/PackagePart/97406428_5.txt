@@ -1,4 +1,7 @@
+  public CTSlideMasterIdList getSlideMasterReferences() {
+}{{
         PackagePart corePart = getCorePart(); 
         return corePart.getRelatedPart(
            corePart.getRelationship(slide.getId2())
         );
+}

@@ -1,15 +1,20 @@
     protected WorkbookRecordList        records     = new WorkbookRecordList();
-{{{                records.add(rec);
-}{                    retval.records.setBspos( k );
+{{{
+                records.add(rec);
+}{
+                    retval.records.setBspos( k );
                     retval.records.setFontpos( k );
                     retval.records.setXfpos( k );
                     retval.records.setTabpos( k );
                     retval.records.setProtpos( k );
                     retval.records.setBackuppos( k );
                     retval.records.setPalettepos( k );
-}            records.add(rec);
-}        retval.records.setRecords(records);
-}{        records.add( retval.createBOF() );
+}
+            records.add(rec);
+}
+        retval.records.setRecords(records);
+}{
+        records.add( retval.createBOF() );
         records.add( retval.createInterfaceHdr() );
         records.add( retval.createMMS() );
         records.add( retval.createInterfaceEnd() );
@@ -35,55 +40,90 @@
         records.add( retval.createBookBool() );
         records.add( retval.createFont() );
         retval.records.setFontpos( records.size() - 1 );   // last font record postion
-{            records.add( rec );
-}{            records.add( retval.createExtendedFormat( k ) );
-}        retval.records.setXfpos( records.size() - 1 );
-{            records.add( retval.createStyle( k ) );
-}        records.add( retval.createUseSelFS() );
-{            records.add( bsr );
+{
+            records.add( rec );
+}{
+            records.add( retval.createExtendedFormat( k ) );
+}
+        retval.records.setXfpos( records.size() - 1 );
+{
+            records.add( retval.createStyle( k ) );
+}
+        records.add( retval.createUseSelFS() );
+{
+            records.add( bsr );
             retval.records.setBspos( records.size() - 1 );
-}        records.add( retval.createCountry() );
+}
+        records.add( retval.createCountry() );
         records.add( retval.sst );
         records.add( retval.createExtendedSST() );
         records.add( retval.createEOF() );
-}{        return records.size();
-}{        FontRecord retval =
+}{
+        return records.size();
+}{
+        FontRecord retval =
         ( FontRecord ) records.get((records.getFontpos() - (numfonts - 1)) + index);
-}{        records.add(records.getFontpos()+1, rec);
+}{
+        records.add(records.getFontpos()+1, rec);
         records.setFontpos( records.getFontpos() + 1 );
-}{        return ( BackupRecord ) records.get(records.getBackuppos());
-}{{            records.add(records.getBspos()+1, bsr);
+}{
+        return ( BackupRecord ) records.get(records.getBackuppos());
+}{{
+            records.add(records.getBspos()+1, bsr);
             records.setBspos( records.getBspos() + 1 );
-}}{{            records.remove(records.getBspos() - (boundsheets.size() - 1) + sheetnum);
-}}{        TabIdRecord tir = ( TabIdRecord ) records.get(records.getTabpos());
-}{        int xfptr = records.getXfpos() - (numxfs - 1);
+}}{{
+            records.remove(records.getBspos() - (boundsheets.size() - 1) + sheetnum);
+}}{
+        TabIdRecord tir = ( TabIdRecord ) records.get(records.getTabpos());
+}{
+        int xfptr = records.getXfpos() - (numxfs - 1);
         ExtendedFormatRecord retval =
         ( ExtendedFormatRecord ) records.get(xfptr);
-}{        records.add(records.getXfpos()+1, xf);
+}{
+        records.add(records.getXfpos()+1, xf);
         records.setXfpos( records.getXfpos() + 1 );
-}{        records.add(records.size() - 1, createExtendedSST());
+}{
+        records.add(records.size() - 1, createExtendedSST());
         records.add(records.size() - 2, sst);
-}{        for ( int k = 0; k < records.size(); k++ )
-{            Record record = records.get( k );
-}}{        records.add(idx+names.size()+1, name);
-}{{            records.remove(idx + namenum);
-}}{        records.add(idx+1, externSheet);
+}{
+        for ( int k = 0; k < records.size(); k++ )
+{
+            Record record = records.get( k );
+}}{
+        records.add(idx+names.size()+1, name);
+}{{
+            records.remove(idx + namenum);
+}}{
+        records.add(idx+1, externSheet);
         records.add(idx+1, supbook);
-}{        while ( pos < records.size() && records.get( pos ).getSid() != FormatRecord.sid )
+}{
+        while ( pos < records.size() && records.get( pos ).getSid() != FormatRecord.sid )
             pos++;
         records.add( pos, rec );
-}{        for (Iterator iterator = records.iterator(); iterator.hasNext(); ) {
-}}{        return records.getRecords();
-}{      int palettePos = records.getPalettepos();
-{        Record rec = records.get(palettePos);
-}{          records.add(1, palette);
+}{
+        for (Iterator iterator = records.iterator(); iterator.hasNext(); ) {
+}}{
+        return records.getRecords();
+}{
+      int palettePos = records.getPalettepos();
+{
+        Record rec = records.get(palettePos);
+}{
+          records.add(1, palette);
           records.setPalettepos(1);
-}}{{                i < records.size() && !(records.get(i) instanceof BOFRecord); 
+}}{{
+                i < records.size() && !(records.get(i) instanceof BOFRecord); 
+
            records.add(i+1,this.writeProtect);
-}}{{                i < records.size() && !(records.get(i) instanceof InterfaceEndRecord); 
+}}{{
+                i < records.size() && !(records.get(i) instanceof InterfaceEndRecord); 
+
            records.add(i+1,this.writeAccess);
-}}{{                i < records.size() && !(records.get(i) instanceof WriteAccessRecord); 
+}}{{
+                i < records.size() && !(records.get(i) instanceof WriteAccessRecord); 
+
            records.add(i+1,this.fileShare);
-}}{        records.remove(fileShare);
+}}{
+        records.remove(fileShare);
         records.remove(writeProtect);
 }

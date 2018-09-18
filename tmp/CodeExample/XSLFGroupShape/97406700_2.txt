@@ -1,0 +1,3 @@
+    void copy(XSLFShape src){
+        XSLFGroupShape gr = (XSLFGroupShape)src;
+        XSLFShape[] srcShapes = gr.getShapes();

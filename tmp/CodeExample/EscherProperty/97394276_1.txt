@@ -1,3 +1,6 @@
+     public static EscherProperty getEscherProperty(EscherOptRecord opt, int propId){
+{
             EscherProperty prop = (EscherProperty) iterator.next();
             if (prop.getPropertyNumber() == propId)
                 return prop;
+}

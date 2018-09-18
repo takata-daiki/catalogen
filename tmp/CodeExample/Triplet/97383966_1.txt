@@ -1,11 +1,18 @@
+    protected void outputCharacters( Element pElement,
+            CharacterRun characterRun, String text )
+{
         Triplet triplet = getCharacterRunTriplet( characterRun );
         if ( WordToHtmlUtils.isNotEmpty( triplet.fontName )
                 && !WordToHtmlUtils.equals( triplet.fontName,
                         blockProperies.pFontName ) )
         {
             style.append( "font-family:" + triplet.fontName + ";" );
-}        if ( triplet.bold )
-{            style.append( "font-weight:bold;" );
-}        if ( triplet.italic )
-{            style.append( "font-style:italic;" );
 }
+        if ( triplet.bold )
+{
+            style.append( "font-weight:bold;" );
+}
+        if ( triplet.italic )
+{
+            style.append( "font-style:italic;" );
+}}

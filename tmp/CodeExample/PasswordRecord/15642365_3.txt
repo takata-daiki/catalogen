@@ -1,2 +1,5 @@
+    public void unprotectSheet( boolean sheet, boolean objects, boolean scenarios ) {
+{
            PasswordRecord pass = getPassword();
            pass.setPassword((short)00);
+}

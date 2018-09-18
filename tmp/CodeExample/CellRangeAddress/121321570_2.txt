@@ -1,5 +1,9 @@
+  public static void shiftRows(Workbook workbook, Sheet worksheet, FormulaParsingWorkbook parsingWorkbook,
+                 FormulaRenderingWorkbook renderingWorkbook, int rowNum) {
+{{{{
             CellRangeAddress newCellRangeAddress
                      = new CellRangeAddress(newRow.getRowNum(),
                                 newRow.getRowNum() + (cellRangeAddress.getLastRow() - cellRangeAddress.getFirstRow()),
                                 cellRangeAddress.getFirstColumn(),
                                 cellRangeAddress.getLastColumn());
+}}}}}

@@ -1,3 +1,6 @@
+  public HSSFCellStyle getCellStyle(HSSFWorkbook book, Object value,
+      CellDefine cd) {
     HSSFDataFormat format = book.createDataFormat();
-{{        style.setDataFormat(format.getFormat(cellFormat));
-}}
+{{
+        style.setDataFormat(format.getFormat(cellFormat));
+}}}

@@ -1,4 +1,6 @@
     /**/private static BitField wScaleSaved = new BitField(0x0ff8);
-{        field_32_view = (short)wScaleSaved.setValue(field_32_view, value);
-}{        return ( short )wScaleSaved.getValue(field_32_view);
+{
+        field_32_view = (short)wScaleSaved.setValue(field_32_view, value);
+}{
+        return ( short )wScaleSaved.getValue(field_32_view);
 }

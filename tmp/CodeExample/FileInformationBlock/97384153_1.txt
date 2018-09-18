@@ -3,5 +3,6 @@
     {
         final int startOffset = tableStream.getOffset();
         fib.setFcPlfLst( startOffset );
+
         fib.setLcbPlfLst( tableStream.getOffset() - startOffset );
 }

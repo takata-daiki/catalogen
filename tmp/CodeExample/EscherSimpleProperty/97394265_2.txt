@@ -1,2 +1,3 @@
+    public Color getLineColor(){
         EscherSimpleProperty p = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.LINESTYLE__NOLINEDRAWDASH);
         if(p != null && (p.getPropertyValue() & 0x8) == 0) return null;

@@ -1,2 +1,5 @@
+    private void applySectPr( CTSectPr sectPr )
+{
         XWPFHeader hdr = getXWPFHeader( headerRef );
         visitBodyElements( hdr.getBodyElements(), (ExtendedPdfPCell) pdfHeader.getTableCell() );
+}

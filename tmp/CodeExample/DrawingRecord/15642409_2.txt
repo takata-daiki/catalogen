@@ -1,3 +1,5 @@
+                public void afterRecordSerialize( int offset, short recordId, int size, EscherRecord record )
+}}{
             DrawingRecord drawing = new DrawingRecord();
             drawing.setData( drawingData );
             int temp = drawing.serialize( pos, data );

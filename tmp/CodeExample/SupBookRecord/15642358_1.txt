@@ -1,2 +1,3 @@
+    protected ExternSheetRecord createExternSheet(){
         SupBookRecord supbook = new SupBookRecord();
         supbook.setNumberOfSheets((short)getNumSheets());

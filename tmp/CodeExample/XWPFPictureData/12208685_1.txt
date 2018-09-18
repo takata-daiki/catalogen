@@ -1,3 +1,7 @@
+    protected void endVisitTableCell( XWPFTableCell cell, IITextContainer tableContainer,
+                                      IITextContainer tableCellContainer )
+{
         XWPFPictureData pictureData = XWPFPictureUtil.getPictureData( document, blipId );
-{{                Image img = Image.getInstance( pictureData.getData() );
-}}
+{{
+                Image img = Image.getInstance( pictureData.getData() );
+}}}

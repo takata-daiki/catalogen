@@ -1,4 +1,4 @@
-    private static int getNbColumnsToIgnore( XWPFTableRow row, boolean before )
-    {
-        CTTrPr trPr = row.getCtRow().getTrPr();
+            for ( XWPFTableRow row : rows )
+            {
+                currentColWidths = computeColWidths( row );
 }

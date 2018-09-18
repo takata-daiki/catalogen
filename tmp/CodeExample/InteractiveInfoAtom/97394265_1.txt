@@ -1,5 +1,8 @@
+    public void setHyperlink(Hyperlink link){
+
         InteractiveInfoAtom infoAtom = info.getInteractiveInfoAtom();
-{            case Hyperlink.LINK_FIRSTSLIDE:
+{
+            case Hyperlink.LINK_FIRSTSLIDE:
                 infoAtom.setAction(InteractiveInfoAtom.ACTION_JUMP);
                 infoAtom.setJump(InteractiveInfoAtom.JUMP_FIRSTSLIDE);
                 infoAtom.setHyperlinkType(InteractiveInfoAtom.LINK_FirstSlide);
@@ -16,4 +19,5 @@
                 infoAtom.setAction(InteractiveInfoAtom.ACTION_HYPERLINK);
                 infoAtom.setJump(InteractiveInfoAtom.JUMP_NONE);
                 infoAtom.setHyperlinkType(InteractiveInfoAtom.LINK_Url);
-}        infoAtom.setHyperlinkID(link.getId());
+}
+        infoAtom.setHyperlinkID(link.getId());

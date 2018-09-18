@@ -1,3 +1,4 @@
     private XWPFHeader currentHeader;
-{{            return currentHeader.getPictureDataByID( blipId );
+{{
+            return currentHeader.getPictureDataByID( blipId );
 }}

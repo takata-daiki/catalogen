@@ -1,5 +1,8 @@
-            CellRangeAddress crb = list.getCellRangeAddress(jj);  
-            wRHidden = ExcelUtils.getRow(sh, crb.getFirstRow()).getZeroHeight();
-            HSSFCell cell = ExcelUtils.getCell(sh, crb.getFirstRow(), crb.getFirstColumn());
-{              AreaReference area3 = new AreaReference(crb.formatAsString());
-}
+  private void modelDelete(HSSFSheet sh){
+{{{
+          CellRangeAddress cra = new CellRangeAddress(
+              area.getFirstCell().getRow(), area.getLastCell().getRow(),
+              area.getFirstCell().getCol(), area.getLastCell().getCol());
+{{{
+              cell  =  ExcelUtils.getCell(sh, rowNameDataRangeE, cra.getFirstColumn());
+}}}}}}

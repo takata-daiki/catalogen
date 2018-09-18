@@ -1,2 +1,4 @@
+            public void render ( final Event event, final Cell cell )
+}}{
         final HSSFCellStyle dateCellStyle = workbook.createCellStyle ();
         dateCellStyle.setDataFormat ( dateFormat.getFormat ( "YYYY-MM-DD hh:mm:ss.000" ) );

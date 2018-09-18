@@ -1,2 +1,5 @@
-        for(XSLFShape shape : getShapes()){
-            removeShape(shape);
+    void copy(XSLFShape src){
+{
+            XSLFShape s2 = tgtShapes[i];
+            s2.copy(s1);
+}

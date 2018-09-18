@@ -1,7 +1,10 @@
+    public SummaryExtractor(Metadata metadata) {
+}{{
             PropertySet properties =
                 new PropertySet(new DocumentInputStream(entry));
             if (properties.isSummaryInformation()) {
                 parse(new SummaryInformation(properties));
-}            if (properties.isDocumentSummaryInformation()) {
-                parse(new DocumentSummaryInformation(properties));
 }
+            if (properties.isDocumentSummaryInformation()) {
+                parse(new DocumentSummaryInformation(properties));
+}}

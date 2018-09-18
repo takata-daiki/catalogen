@@ -3,5 +3,6 @@
         final String name = customProperty.getName();
         if (oldId != null)
             customProperty.setID(oldId.longValue());
-{            customProperty.setID(max + 1);
+{
+            customProperty.setID(max + 1);
 }}

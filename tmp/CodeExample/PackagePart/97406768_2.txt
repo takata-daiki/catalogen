@@ -1,3 +1,5 @@
+    public XSLFPictureShape createPicture(int pictureIndex){
+
         PackagePart pic = pics.get(0);
         PackageRelationship rel = getPackagePart().addRelationship(
                 pic.getPartName(), TargetMode.INTERNAL, XSLFRelation.IMAGES.getRelation());

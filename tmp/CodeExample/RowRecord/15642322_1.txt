@@ -1,4 +1,4 @@
-    private HSSFRow createRowFromRecord(RowRecord row)
-    {
-        HSSFRow hrow = new HSSFRow(book, sheet, row);
+    private void setPropertiesFromSheet(Sheet sheet)
+{
+        RowRecord row = sheet.getNextRow();
 }

@@ -1,0 +1,5 @@
+  private void setStyleRow(HSSFSheet ash,  String strStyle, int row, int beCol, int countCol, int breakCol,   
+      Map<String,  HSSFCellStyle[]> styleRowMap, HSSFFont font){
+}{
+    HSSFName nameContentBegCol = useGeneral? ExcelUtils.getNamedRange(wb, RANGE_ContentBegCol): ExcelUtils.getNamedRangeInSheets(namesMap, RANGE_ContentBegCol, sheets);
+}

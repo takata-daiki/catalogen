@@ -1,3 +1,7 @@
+    public XWPFWordExtractorDecorator(XWPFWordExtractor extractor) {
+}{{
             XWPFParagraphDecorator decorator = new XWPFCommentsDecorator(
                     new XWPFHyperlinkDecorator(paragraph, null, true));
+
             xhtml.element("p", decorator.getText());
+}

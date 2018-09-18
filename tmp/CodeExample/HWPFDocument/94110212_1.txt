@@ -1,3 +1,7 @@
+  public String getWordText(File tempFile) {
+
     HWPFDocument hdt = null;
+
     Fields fields = hdt.getFields();
+
     Range range = hdt.getRange();

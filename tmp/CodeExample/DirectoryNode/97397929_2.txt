@@ -1,7 +1,13 @@
-            DirectoryNode parent   = (dir == null)
-                                     ? (( DirectoryNode ) getRoot())
-                                     : dir;
-{                DirectoryNode new_dir =
-                    ( DirectoryNode ) parent.createDirectory(name);
-}{                parent.createDocument(document);
-}
+    void remove(EntryNode entry)
+
+    private void processProperties(final BlockList small_blocks,
+                                   final BlockList big_blocks,
+                                   final Iterator properties,
+                                   final DirectoryNode dir,
+                                   final int headerPropertiesStartAt)
+        throws IOException
+    {
+        while (properties.hasNext())
+        {
+            Property      property = ( Property ) properties.next();
+}}

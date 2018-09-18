@@ -1,8 +1,10 @@
+    public Comment[] getComments() {
       RecordContainer progTags = (RecordContainer)
           getSheetContainer().findFirstOfType(
                 RecordTypes.ProgTags.typeID
       );
-{        RecordContainer progBinaryTag = (RecordContainer)
+{
+        RecordContainer progBinaryTag = (RecordContainer)
           progTags.findFirstOfType(
               RecordTypes.ProgBinaryTag.typeID
         );

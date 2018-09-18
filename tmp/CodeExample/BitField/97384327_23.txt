@@ -1,4 +1,6 @@
     /**/private static final BitField fItalicBi = new BitField(0x00200000);
-{        field_1_grpfChp = fItalicBi.setBoolean(field_1_grpfChp, value);
-}{        return fItalicBi.isSet(field_1_grpfChp);
+{
+        field_1_grpfChp = fItalicBi.setBoolean(field_1_grpfChp, value);
+}{
+        return fItalicBi.isSet(field_1_grpfChp);
 }

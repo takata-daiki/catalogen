@@ -1,7 +1,3 @@
-        ClassID classID1 = ps.getClassID();
-        if (byteOrder1 != byteOrder2      ||
-            !classID1.equals(classID2)    ||
-            format1 != format2            ||
-            osVersion1 != osVersion2      ||
-            sectionCount1 != sectionCount2)
-            return false;
+    public int getOSVersion()
+
+    protected ClassID classID;

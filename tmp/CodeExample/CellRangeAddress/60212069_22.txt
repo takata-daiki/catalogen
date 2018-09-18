@@ -1,8 +1,3 @@
-        CellRangeAddress cra = buffer.getSrcSheet().getMergedRegion(indexMergeRegion);
-        if (cra.getFirstRow() >= copyRow1 && cra.getLastRow() <= copyRow2 
-            && cra.getFirstColumn() >= copyCol1 && cra.getLastColumn() <= copyCol2){
-          int offsetRow = cra.getFirstRow()-copyRow1;
-          int offsetCol = cra.getFirstColumn()-copyCol1;
-          int countRowMergeRegion = cra.getLastRow()-cra.getFirstRow();
-          int countColMergeRegion = cra.getLastColumn()-cra.getFirstColumn();
-}
+  public static List<HSSFCell> findAll(HSSFSheet sh, CellRangeAddress cellsRef, Object valueSearch, byte lookIn, XlLookAt lookAt, XlSearchDirection searchDirection){
+    return findAll(sh, new  AreaReference(new CellReference(cellsRef.getFirstRow(), cellsRef.getFirstColumn()),
+        new CellReference(cellsRef.getLastRow(), cellsRef.getLastColumn())), valueSearch, lookIn, lookAt, searchDirection);

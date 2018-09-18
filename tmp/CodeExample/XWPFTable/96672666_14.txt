@@ -1,7 +1,4 @@
-    public TableCellBorder getTableBorder( XWPFTable table, BorderSide borderSide )
-    {
-        switch ( borderSide )
-        {
-            case TOP:
-                return getTableBorderTop( table );
+    public TableCellBorder getTableCellBorderWithConflicts( XWPFTableCell cell, BorderSide borderSide )
+{{
+            XWPFTable table = cell.getTableRow().getTable();
 }}

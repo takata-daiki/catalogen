@@ -1,2 +1,5 @@
+  public static <T> void exportExcel(String title, String[] headers, String[] cols, Collection<T> dataset,
+      OutputStream out, String pattern, String[] sumcols) {
     HSSFFont font2 = workbook.createFont();
     font2.setBoldweight(HSSFFont.BOLDWEIGHT_NORMAL);
+}

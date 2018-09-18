@@ -1,0 +1,4 @@
+  private PackagePart createPart(OPCPackage pack, PackagePart corePart, String name, File file, String contentType, String relationshipType) {    
+{
+      PackagePartName partName = PackagingURIHelper.createPartName("/" + name);
+}

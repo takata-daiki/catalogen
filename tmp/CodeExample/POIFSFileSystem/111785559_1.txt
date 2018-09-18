@@ -1,3 +1,5 @@
+    public void setListenForAllRecords(boolean listenForAllRecords) {
+}
     protected void parse(
             POIFSFileSystem filesystem, XHTMLContentHandler xhtml,
             Locale locale) throws IOException, SAXException, TikaException {
@@ -7,4 +9,4 @@
                     && entry instanceof DirectoryEntry) {
                 try {
                     handleEmbededOfficeDoc((DirectoryEntry) entry, xhtml);
-}}}}
+}}}

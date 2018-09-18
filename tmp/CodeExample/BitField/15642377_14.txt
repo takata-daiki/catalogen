@@ -1,6 +1,8 @@
     static final private BitField _reading_order                  =
         BitFieldFactory.getInstance(0x00C0);
-{        field_5_indention_options =
+{
+        field_5_indention_options =
             _reading_order.setShortValue(field_5_indention_options, order);
-}{        return _reading_order.getShortValue(field_5_indention_options);
+}{
+        return _reading_order.getShortValue(field_5_indention_options);
 }

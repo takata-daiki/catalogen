@@ -1,10 +1,4 @@
-    private void extractHeaders(
-            XHTMLContentHandler xhtml, XWPFHeaderFooterPolicy hfPolicy)
-            throws SAXException {
-        if (hfPolicy.getFirstPageHeader() != null) {
-            xhtml.element("p", hfPolicy.getFirstPageHeader().getText());
-}        if (hfPolicy.getEvenPageHeader() != null) {
-            xhtml.element("p", hfPolicy.getEvenPageHeader().getText());
-}        if (hfPolicy.getDefaultHeader() != null) {
-            xhtml.element("p", hfPolicy.getDefaultHeader().getText());
-}}
+    public XWPFWordExtractorDecorator(XWPFWordExtractor extractor) {
+}{{
+            XWPFHeaderFooterPolicy headerFooterPolicy = null;
+}

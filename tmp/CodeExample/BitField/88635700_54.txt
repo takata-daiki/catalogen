@@ -1,4 +1,6 @@
     /**/private static BitField fWCFtnEdn = new BitField(0x8000);
-{        field_24_Edn1 = (short)fWCFtnEdn.setBoolean(field_24_Edn1, value);
-}{        return fWCFtnEdn.isSet(field_24_Edn1);
+{
+        field_24_Edn1 = (short)fWCFtnEdn.setBoolean(field_24_Edn1, value);
+}{
+        return fWCFtnEdn.isSet(field_24_Edn1);
 }

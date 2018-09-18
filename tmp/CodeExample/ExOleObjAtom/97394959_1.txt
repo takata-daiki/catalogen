@@ -1,3 +1,5 @@
+  public int addControl(String name, String progId) {
+
     ExOleObjAtom oleObj = ctrl.getExOleObjAtom();
     oleObj.setObjID(objectId);
     oleObj.setDrawAspect(ExOleObjAtom.DRAW_ASPECT_VISIBLE);

@@ -1,6 +1,8 @@
   private POIFSReader reader = null;
-{    reader.registerListener(
+{
+    reader.registerListener(
             new ContentReaderListener(this.text),
             PPTConstants.POWERPOINT_DOCUMENT);
-{      this.reader.read(input);
+{
+      this.reader.read(input);
 }}

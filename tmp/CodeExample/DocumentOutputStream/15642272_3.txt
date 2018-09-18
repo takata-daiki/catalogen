@@ -1,5 +1,8 @@
+            if (isValid())
+{{
                     DocumentOutputStream dstream =
                         new DocumentOutputStream(stream, size);
                     dstream.writeFiller(countBlocks()
                                         * bigBlockSize, DocumentBlock
                                             .getFillByte());
+}}

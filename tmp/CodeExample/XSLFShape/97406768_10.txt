@@ -1,0 +1,6 @@
+        for(XSLFShape shape : getShapeList()) {
+          if (isCanceled.get()) {
+            Log.d("Slide", "Thread.Canceled");
+}
+            shape.applyTransform(graphics);
+            shape.draw(graphics);

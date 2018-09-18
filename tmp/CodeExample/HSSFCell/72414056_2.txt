@@ -1,2 +1,4 @@
+    AbstractExcelView excelView = new AbstractExcelView() {
+}
     HSSFCell cell = row.getCell((short) 4);
     assertEquals("Test Value", cell.getStringCellValue());

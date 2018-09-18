@@ -1,5 +1,8 @@
     protected DefaultColWidthRecord      defaultcolwidth   =     null;
-{        return defaultcolwidth.getColWidth();
-}{        defaultcolwidth.setColWidth(dcw);
-}{{            retval = defaultcolwidth.getColWidth();
+{
+        return defaultcolwidth.getColWidth();
+}{
+        defaultcolwidth.setColWidth(dcw);
+}{{
+            retval = defaultcolwidth.getColWidth();
 }}

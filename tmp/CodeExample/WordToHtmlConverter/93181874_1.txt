@@ -1,3 +1,6 @@
+  public void WordConverterHtml(String docfile, String htmlfile){
+{
     WordToHtmlConverter wordToHtmlConverter = new WordToHtmlConverter(DocumentBuilderFactory.newInstance().newDocumentBuilder().newDocument());
     wordToHtmlConverter.processDocument(wordDocument);
     Document htmlDocument = wordToHtmlConverter.getDocument();
+}

@@ -1,5 +1,7 @@
+    public boolean equals(Object obj)
+{
         RowRecord loc = ( RowRecord ) obj;
         if (this.getRowNumber() == loc.getRowNumber())
         {
             return true;
-}
+}}

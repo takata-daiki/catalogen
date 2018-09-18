@@ -1,3 +1,4 @@
+    public XSLFConnectorShape createConnector(){
         XSLFConnectorShape shape = new XSLFConnectorShape(sp, _sheet);
         shape.setAnchor(new Rectangle());
         shape.setLineColor(Color.black);

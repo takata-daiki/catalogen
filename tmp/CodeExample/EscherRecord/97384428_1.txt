@@ -1,4 +1,4 @@
-       for(EscherRecord escherRecord : _picfAndOfficeArtData.getShape().getChildRecords()){
-          if(escherRecord instanceof EscherOptRecord){
-             EscherOptRecord escherOptRecord = (EscherOptRecord) escherRecord;
+    public byte[] getRawContent()
+{
+        EscherRecord escherRecord = _blipRecords.get( 0 );
 }

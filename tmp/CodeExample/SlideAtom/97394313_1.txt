@@ -1,4 +1,7 @@
+  public void setNotes(Notes notes) {
     SlideAtom sa = getSlideRecord().getSlideAtom();
-{      sa.setNotesID(0);
-}{      sa.setNotesID(notes._getSheetNumber());
+{
+      sa.setNotesID(0);
+}{
+      sa.setNotesID(notes._getSheetNumber());
 }

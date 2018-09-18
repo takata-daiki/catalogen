@@ -1,10 +1,13 @@
+    public void processRecord(Record record)
+{{{
                     final LabelSSTRecord lrec = (LabelSSTRecord) record;
                     if (lrec.getRow() != 0)
                     {
                         if (lrec.getColumn() == 0)
                         {
                             evaluateRowType(lrec);
-}{                            final String cellValue = sstrec.getString(lrec.getSSTIndex()).getString();
+}{
+                            final String cellValue = sstrec.getString(lrec.getSSTIndex()).getString();
                             if (lrec.getColumn() == 1)
                             {
                                 switch (rowType)
@@ -12,16 +15,26 @@
                                     case keyword:
                                         if (keyword != null && keyword.getTranslations().isEmpty())
                                             keywords.put(keyword.getKeyword(), keyword);
-}}                            else if (lrec.getColumn() == 2)
-{                                baseTranslation = new Translation();
-}                            else if (lrec.getColumn() == 4)
-{                                final CountryCode code = 
+}}
+                            else if (lrec.getColumn() == 2)
+{
+                                baseTranslation = new Translation();
+}
+                            else if (lrec.getColumn() == 4)
+{
+                                final CountryCode code = 
                                     ImporterUtils.evaluateCountryCode(cellValue, errorCodes);
-}                            else if (lrec.getColumn() == 6)
-{                                final Bundle bundle = keywordService.getBundleByName(cellValue);
-}                            else if (lrec.getColumn() == 7)
-{                                final TranslationState state = 
+}
+                            else if (lrec.getColumn() == 6)
+{
+                                final Bundle bundle = keywordService.getBundleByName(cellValue);
+}
+                            else if (lrec.getColumn() == 7)
+{
+                                final TranslationState state = 
                                     ImporterUtils.evaluateTranslationState(cellValue, errorCodes);
-}                            else if (lrec.getColumn() == 8)
-{                                baseTranslation.setValue(cellValue);
-}}}
+}
+                            else if (lrec.getColumn() == 8)
+{
+                                baseTranslation.setValue(cellValue);
+}}}}}}

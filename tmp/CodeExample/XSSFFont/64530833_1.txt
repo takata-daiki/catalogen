@@ -1,3 +1,6 @@
+  public void addColourToFont(Workbook workbook, Font font, String colour) {
+{
       XSSFFont xFont = (XSSFFont)font;
-{        xFont.setColor(xColour);
-}
+{
+        xFont.setColor(xColour);
+}}

@@ -1,4 +1,2 @@
-        for (HSSFDataValidation validation : getValidationData()) {
-            for (CellRangeAddress address : validation.getRegions().getCellRangeAddresses()) {
-                validationList.add(new ValidationImpl(validation.getConstraint().getFormula1(), this, address.getFirstColumn(), address.getLastColumn(), address.getFirstRow(), address.getLastRow()));
-}
+    protected void addConstraint(DataValidationConstraint constraint, int firstCol, int firstRow, int lastCol, int lastRow) {
+      HSSFDataValidation dataValidation = new HSSFDataValidation(addressList, constraint);

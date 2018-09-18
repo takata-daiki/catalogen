@@ -1,6 +1,8 @@
     static final private BitField _fill_foreground = BitFieldFactory.getInstance(0x007F);
-{        field_9_fill_palette_options =
+{
+        field_9_fill_palette_options =
             _fill_foreground.setShortValue(field_9_fill_palette_options,
                                            color);
-}{        return _fill_foreground.getShortValue(field_9_fill_palette_options);
+}{
+        return _fill_foreground.getShortValue(field_9_fill_palette_options);
 }

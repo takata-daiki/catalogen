@@ -1,4 +1,7 @@
+    private XMLSlideShow generatePreview(XMLSlideShow ppt, List<PreviewReportingDocument> previewData, String cityName,
+                                         int repDocsStartNum) {
         XSLFTableRow headerRow = table.addRow();
         headerRow.setHeight(20);
-{            XSLFTableCell th = headerRow.addCell();
-}
+{
+            XSLFTableCell th = headerRow.addCell();
+}}

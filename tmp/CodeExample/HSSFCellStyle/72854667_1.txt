@@ -1,4 +1,7 @@
+    public void setBold(boolean b) {
         HSSFCellStyle cellStyle = theCell.getCellStyle();        
+
         HSSFFont font = cellStyle.getFont(getWorkbook());
-{            cellStyle.setFont(font);
+{
+            cellStyle.setFont(font);
 }

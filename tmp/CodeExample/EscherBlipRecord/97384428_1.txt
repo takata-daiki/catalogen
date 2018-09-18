@@ -1,4 +1,5 @@
     public Picture( EscherBlipRecord blipRecord )
     {
-{       this._blipRecords = Arrays.asList(new EscherBlipRecord[] {blipRecord});
+{
+       this._blipRecords = Arrays.asList(new EscherBlipRecord[] {blipRecord});
 }

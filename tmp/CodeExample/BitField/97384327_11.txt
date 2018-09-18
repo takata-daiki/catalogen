@@ -1,4 +1,6 @@
     /**/private static final BitField fStrike = new BitField(0x00000400);
-{        field_1_grpfChp = fStrike.setBoolean(field_1_grpfChp, value);
-}{        return fStrike.isSet(field_1_grpfChp);
+{
+        field_1_grpfChp = fStrike.setBoolean(field_1_grpfChp, value);
+}{
+        return fStrike.isSet(field_1_grpfChp);
 }

@@ -1,2 +1,3 @@
+    protected Record createPassword() {
         PasswordRecord retval = new PasswordRecord();
         retval.setPassword(( short ) 0);   // no password by default!

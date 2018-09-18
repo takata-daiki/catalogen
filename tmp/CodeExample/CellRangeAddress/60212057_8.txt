@@ -1,5 +1,5 @@
-          CellRangeAddress cra = new CellRangeAddress(
-              area.getFirstCell().getRow(), area.getLastCell().getRow(),
-              area.getFirstCell().getCol(), area.getLastCell().getCol());
-{{{              cell  =  ExcelUtils.getCell(sh, rowNameDataRangeE, cra.getFirstColumn());
-}}}
+  private void modelDelete(HSSFSheet sh){
+{{{{{{{{
+                    CellRangeAddress workRange = l.getCellRangeAddress(ii);
+                    for(int row = workRange.getFirstRow(); row <= workRange.getLastRow(); row++)
+}}}}}}}}

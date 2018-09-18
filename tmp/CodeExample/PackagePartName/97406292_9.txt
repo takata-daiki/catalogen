@@ -1,3 +1,5 @@
-        PackagePartName partNameToRemove = PackagingURIHelper
-            .createPartName(PackagingURIHelper.resolvePartUri(rel
-                .getSourceURI(), rel.getTargetURI()));
+  public void removePartRecursive(PackagePartName partName)
+      throws InvalidFormatException {
+    PackagePart relPart = this.partList.get(PackagingURIHelper
+        .getRelationshipPartName(partName));
+}

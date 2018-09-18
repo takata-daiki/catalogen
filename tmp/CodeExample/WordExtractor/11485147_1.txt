@@ -1,2 +1,5 @@
+  public String parseFile(String fileName) {
+{
       WordExtractor extractor = new WordExtractor(document);
       return extractor.getText();
+}

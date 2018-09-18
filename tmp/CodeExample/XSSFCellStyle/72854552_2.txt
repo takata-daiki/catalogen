@@ -1,2 +1,4 @@
+    public Font getFont() {      
         XSSFCellStyle cellStyle = theCell.getCellStyle();
+
         XSSFFont xssfFont = cellStyle.getFont();

@@ -1,25 +1,7 @@
-        ColumnInfoRecord ci = null;
-{            if ((ci.getFirstColumn() <= column)
-                    && (column <= ci.getLastColumn()))
-            {
-                break;
-}}{      boolean styleChanged = xfIndex != null && ci.getXFIndex() != xfIndex.shortValue();
-            boolean widthChanged = width != null && ci.getColumnWidth() != width.shortValue();
-            boolean levelChanged = level != null && ci.getOutlineLevel() != level.intValue();
-            boolean hiddenChanged = hidden != null && ci.getHidden() != hidden.booleanValue();
-            boolean collapsedChanged = collapsed != null && ci.getCollapsed() != collapsed.booleanValue();
-            else if ((ci.getFirstColumn() == column)
-                     && (ci.getLastColumn() == column))
-            {                               // if its only for this cell then
-                setColumnInfoFields( ci, xfIndex, width, level, hidden, collapsed );
-}                     || (ci.getLastColumn() == column))
-{                if (ci.getFirstColumn() == column)
-                {
-                    ci.setFirstColumn(( short ) (column + 1));
-}{                    ci.setLastColumn(( short ) (column - 1));
-}                nci.setOptions(ci.getOptions());
-                nci.setXFIndex(ci.getXFIndex());
-}{                short lastcolumn = ci.getLastColumn();
-                ci.setLastColumn(( short ) (column - 1));
-                nci.setColumnWidth(ci.getColumnWidth());
-}}
+    public static Record createColInfo()
+{
+        ColumnInfoRecord retval = new ColumnInfoRecord();
+        retval.setColumnWidth(( short ) 2275);
+        retval.setOptions(( short ) 2);
+        retval.setXFIndex(( short ) 0x0f);
+}

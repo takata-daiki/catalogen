@@ -1,2 +1,6 @@
+    protected boolean isWordDocumentPartParsing()
+{
         PackagePart hdrPart = document.getPartById( headerRef.getId() );
+
         HdrDocument hdrDoc = HdrDocument.Factory.parse( hdrPart.getInputStream() );
+}

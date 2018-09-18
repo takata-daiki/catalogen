@@ -1,2 +1,3 @@
+   public int getEscherProperty(short propId){
         EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, propId);
         return prop == null ? 0 : prop.getPropertyValue();

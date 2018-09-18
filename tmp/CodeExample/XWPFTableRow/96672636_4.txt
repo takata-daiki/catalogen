@@ -1,5 +1,8 @@
-    private static Collection<Float> computeColWidths( XWPFTableRow row )
+    public static int getNumberOfColumns( XWPFTableRow row )
     {
-        List<Float> colWidths = new ArrayList<Float>();
-        List<XWPFTableCell> cells = row.getTableCells();
+        if ( row == null )
+        {
+            return 0;
+}
+        List<XWPFTableCell> tableCellsOffFirstRow = row.getTableCells();
 }

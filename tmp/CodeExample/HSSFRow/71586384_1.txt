@@ -1,2 +1,5 @@
+  public boolean writeExcel(String file, ResultSet res)
+{{{
           HSSFRow row = sheet1.createRow(count); 
           row.createCell(0).setCellValue(res.getString("Url")); 
+}}}

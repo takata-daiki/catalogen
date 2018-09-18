@@ -1,4 +1,9 @@
+  protected void setNumericCell(HSSFCell cell, BigDecimal value,
+      HSSFWorkbook workbook) {
+
     HSSFDataFormat df = workbook.createDataFormat();
-{      format = df.getFormat("####");
-}{      format = df.getFormat("####." + zeros);
-}
+{
+      format = df.getFormat("####");
+}{
+      format = df.getFormat("####." + zeros);
+}}

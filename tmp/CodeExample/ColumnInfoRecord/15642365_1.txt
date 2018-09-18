@@ -1,7 +1,4 @@
-        ColumnInfoRecord ci     = null;
-{{                if ((ci.getFirstColumn() <= column)
-                        && (column <= ci.getLastColumn()))
-                {
-                    break;
-}}}{            retval = ci.getColumnWidth();
-}
+    public static Sheet createSheet(List recs, int sheetnum, int offset)
+{{{
+                ColumnInfoRecord col = (ColumnInfoRecord)rec;
+}}}

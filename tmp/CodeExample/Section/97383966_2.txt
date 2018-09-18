@@ -1,3 +1,7 @@
+    protected void processParagraph( HWPFDocumentCore hwpfDocument,
+            Element parentElement, int currentTableLevel, Paragraph paragraph,
+            String bulletText )
+
     protected void processSection( HWPFDocumentCore wordDocument,
             Section section, int sectionCounter )
     {

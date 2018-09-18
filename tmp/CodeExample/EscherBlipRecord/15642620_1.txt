@@ -1,3 +1,7 @@
+    public EscherRecord createRecord( byte[] data, int offset )
+{{
             EscherBlipRecord r;
+
             r.setRecordId( header.getRecordId() );
             r.setOptions( header.getOptions() );
+}}

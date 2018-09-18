@@ -1,4 +1,4 @@
-            for ( XWPFTableRow row : rows )
-            {
-                currentColWidths = computeColWidths( row );
+    public static float[] computeColWidths( XWPFTable table )
+{
+        XWPFTableRow firstRow = getFirstRow( table );
 }

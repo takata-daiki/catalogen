@@ -1,5 +1,8 @@
+  public final java.awt.Color awtColor(Short c, java.awt.Color defaultColor) {
+{
       HSSFColor hssfColor = customPalette.getColor(c);
       if (hssfColor == null || hssfColor.equals(HSSFColor.AUTOMATIC.getInstance())) {
         awtColor = defaultColor;
-}{        short[] rgb = hssfColor.getTriplet();
-}
+}{
+        short[] rgb = hssfColor.getTriplet();
+}}

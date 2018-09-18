@@ -1,6 +1,7 @@
     public int serialize(int offset, byte [] data, ValueRecordsAggregate cells)
     {
         int pos = offset;
-{{            if (null != cells && cells.rowHasCells(row)) {
+{{
+            if (null != cells && cells.rowHasCells(row)) {
               final int rowCellSize = cells.serializeCellRow(row, pos, data);
 }}}}

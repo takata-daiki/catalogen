@@ -1,6 +1,9 @@
+  public void tfidfFilter(InputStream is) {
+{{{{{{{
                   HSSFCell aCell = aRow.getCell(index);
                   if(aCell.getCellType() == HSSFCell.CELL_TYPE_STRING) {
                     currstr = aCell.getStringCellValue();
-}                  } else if (aCell.getCellType() == HSSFCell.CELL_TYPE_NUMERIC) {
-                    val[index-1] = aCell.getNumericCellValue();
 }
+                  } else if (aCell.getCellType() == HSSFCell.CELL_TYPE_NUMERIC) {
+                    val[index-1] = aCell.getNumericCellValue();
+}}}}}}}}

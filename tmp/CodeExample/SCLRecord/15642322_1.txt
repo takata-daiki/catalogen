@@ -1,3 +1,6 @@
+    public void setZoom( int numerator, int denominator)
+{
         SCLRecord sclRecord = new SCLRecord();
         sclRecord.setNumerator((short)numerator);
         sclRecord.setDenominator((short)denominator);
+}

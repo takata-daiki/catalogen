@@ -1,0 +1,6 @@
+  public static CellRangeAddress getMergedRegion(HSSFSheet sheet, int rowNum, short cellNum) {     
+{
+          CellRangeAddress merged = sheet.getMergedRegion(i);     
+          if (merged.isInRange(rowNum, cellNum)) {     
+              return merged;     
+}}

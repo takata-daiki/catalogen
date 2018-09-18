@@ -1,4 +1,6 @@
     private IntegerField        _child_property;
-{        _child_property.set(child, _raw_data);
-}{        return _child_property.get();
+{
+        _child_property.set(child, _raw_data);
+}{
+        return _child_property.get();
 }

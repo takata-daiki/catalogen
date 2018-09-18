@@ -1,5 +1,7 @@
-      PackagePartName sourcePartName;
-      if (sourcePartName.getURI().equals(
-          PackagingURIHelper.PACKAGE_ROOT_URI)) {
-        clearRelationships();
+  public void removePart(PackagePartName partName) {
+    throwExceptionIfReadOnly();
+
+    if (partName.isRelationshipPartURI()) {
+      URI sourceURI = PackagingURIHelper
+          .getSourcePartUriFromRelationshipPartUri(partName.getURI());
 }

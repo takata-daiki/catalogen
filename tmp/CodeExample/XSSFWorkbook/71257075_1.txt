@@ -1,3 +1,6 @@
+  public ExcelReport(ReportPropertyData propertyData) {
+}{
     XSSFWorkbook wb = new XSSFWorkbook();
     XSSFSheet dataSheet = wb.createSheet("Data");
+
     wb.write(fileOut);

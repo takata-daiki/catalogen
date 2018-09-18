@@ -1,2 +1,5 @@
+    public short[] getColumnBreaks(){
+{{
         PageBreakRecord.Break breakItem = (PageBreakRecord.Break)iterator.next();
         returnValue[i++] = breakItem.main;
+}}

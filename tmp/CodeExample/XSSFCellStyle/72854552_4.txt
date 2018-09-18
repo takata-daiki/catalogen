@@ -1,4 +1,2 @@
-      XSSFCellStyle style = styles.get(colour);
-{        style.setFillPattern(XSSFCellStyle.SOLID_FOREGROUND );
-        style.setFillForegroundColor(col);
-}
+  public void setBackgroundFill(Color colour) {
+    XSSFCellStyle style = getFillStyleForColour(colour);

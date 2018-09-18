@@ -1,7 +1,12 @@
     private EscherGraphics _escherGraphics;
-{        _escherGraphics.drawRect(x,y,width,height);
-}{        _escherGraphics.fillOval(x,y,width,height);
-}{        _escherGraphics.fillPolygon(xPoints, yPoints, nPoints);
-}{        return _escherGraphics.getColor();
-}{        _escherGraphics.setColor(c);
+{
+        _escherGraphics.drawRect(x,y,width,height);
+}{
+        _escherGraphics.fillOval(x,y,width,height);
+}{
+        _escherGraphics.fillPolygon(xPoints, yPoints, nPoints);
+}{
+        return _escherGraphics.getColor();
+}{
+        _escherGraphics.setColor(c);
 }

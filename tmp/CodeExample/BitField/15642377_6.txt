@@ -1,5 +1,7 @@
     static final private BitField _alignment          = BitFieldFactory.getInstance(0x0007);
-{        field_4_alignment_options =
+{
+        field_4_alignment_options =
             _alignment.setShortValue(field_4_alignment_options, align);
-}{        return _alignment.getShortValue(field_4_alignment_options);
+}{
+        return _alignment.getShortValue(field_4_alignment_options);
 }

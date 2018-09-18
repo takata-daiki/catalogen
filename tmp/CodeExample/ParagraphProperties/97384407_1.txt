@@ -1,12 +1,19 @@
+    static Paragraph newParagraph( Range parent, PAPX papx )
+{
         ParagraphProperties properties = new ParagraphProperties();
         properties.setIstd( papx.getIstd() );
         if ( properties.getIlfo() != 0 && listTables != null )
         {
             LFO lfo = null;
-{                lfo = listTables.getLfo( properties.getIlfo() );
-}{                log.log( POILogger.WARN, "Paragraph refers to LFO #",
+{
+                lfo = listTables.getLfo( properties.getIlfo() );
+}{
+                log.log( POILogger.WARN, "Paragraph refers to LFO #",
                         properties.getIlfo(), " that does not exists" );
-}{                final ListLevel listLevel = listTables.getLevel( lfo.getLsid(),
+}{
+                final ListLevel listLevel = listTables.getLevel( lfo.getLsid(),
                         properties.getIlvl() );
-}}        if ( properties.getIlfo() > 0 )
+}}
+        if ( properties.getIlfo() > 0 )
             return new ListEntry( papx, properties, parent );
+}

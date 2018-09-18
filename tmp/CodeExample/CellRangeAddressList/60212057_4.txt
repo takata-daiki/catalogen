@@ -1,4 +1,18 @@
-                CellRangeAddressList l = ExcelUtils.getEntireRow(list);
-{                  for(int ii=0; ii<l.countRanges(); ii++){
-                    CellRangeAddress workRange = l.getCellRangeAddress(ii);
-}}
+  private void format2(HSSFSheet sh, int begF, int endF, int numOutl, int maxOutl){
+    CellRangeAddressList workR, sArea;
+{{{{
+            workR.addCellRangeAddress(yyy, yyy, 0, 0);
+}}{
+          CellRangeAddress cRA =  workR.getCellRangeAddress(workR.countRanges()-1);
+
+          for(int i=0; i< workR.countRanges(); i++){
+{
+              begRow = workR.getCellRangeAddress(i).getLastRow()+1; 
+}{
+              sh.groupRow(begRow, workR.getCellRangeAddress(i).getFirstRow()-1);
+              begRow = workR.getCellRangeAddress(i).getLastRow()+1;
+}}{
+            for(int i=0; i< workR.countRanges(); i++){
+              cRA = ExcelUtils.intersectRectangular(workR.getCellRangeAddress(i), 
+                  new CellRangeAddress(0, ExcelUtils.xlMaxNumRow-1, formatCol, formatCol));
+}}}}}

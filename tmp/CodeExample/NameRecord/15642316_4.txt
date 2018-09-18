@@ -1,3 +1,6 @@
+  public void setPrintArea(int sheetIndex, String reference)
+{
     NameRecord name = workbook.getSpecificBuiltinRecord(NameRecord.BUILTIN_PRINT_AREA, sheetIndex+1);
     name.setExternSheetNumber(externSheetIndex);
     name.setAreaReference(reference);
+}

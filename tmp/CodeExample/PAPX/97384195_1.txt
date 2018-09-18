@@ -1,2 +1,6 @@
+    public PAPFormattedDiskPage( byte[] documentStream, byte[] dataStream,
+            int offset, CharIndexTranslator translator )
+{{{
                 PAPX papx = new PAPX( range[0], range[1], getGrpprl( x ),
                         getParagraphHeight( x ), dataStream );
+}}}

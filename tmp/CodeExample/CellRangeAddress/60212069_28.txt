@@ -1,0 +1,7 @@
+  public static CellRangeAddress  mergeArea(HSSFSheet sh, CellReference cellRef){
+{
+      CellRangeAddress rangeRef = sh.getMergedRegion(i);
+      if (cellRef.getCol() >= rangeRef.getFirstColumn()  && cellRef.getCol() <= rangeRef.getLastColumn() &&
+        cellRef.getRow() >= rangeRef.getFirstRow()  && cellRef.getRow() <= rangeRef.getLastRow()){
+        return rangeRef;
+}}

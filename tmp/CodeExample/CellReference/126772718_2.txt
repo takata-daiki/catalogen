@@ -1,2 +1,3 @@
+  protected void createName(HandlerState state, String bookmark, int row1, int col1, int row2, int col2 ) {
     CellReference crLast = new CellReference( row2, col2, true, true );
     String formula = crFirst.formatAsString() + ":" + crLast.formatAsString();

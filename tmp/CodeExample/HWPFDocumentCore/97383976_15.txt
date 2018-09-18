@@ -1,3 +1,6 @@
+    protected int tryDeadField( HWPFDocumentCore wordDocument, Range range,
+            int currentTableLevel, int beginMark, Element currentBlock )
+
     private int[] tryDeadField_lookupFieldSeparatorEnd(
             HWPFDocumentCore wordDocument, Range range, int beginMark )
     {

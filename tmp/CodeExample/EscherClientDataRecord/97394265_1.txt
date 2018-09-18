@@ -1,4 +1,6 @@
     protected EscherClientDataRecord _clientData;
-{{            byte[] data = _clientData.getRemainingData();
-}}{{            _clientData.setRemainingData(out.toByteArray());
+{{
+            byte[] data = _clientData.getRemainingData();
+}}{{
+            _clientData.setRemainingData(out.toByteArray());
 }}

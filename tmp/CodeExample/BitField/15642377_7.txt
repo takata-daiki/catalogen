@@ -1,5 +1,7 @@
     static final private BitField _wrap_text          = BitFieldFactory.getInstance(0x0008);
-{        field_4_alignment_options =
+{
+        field_4_alignment_options =
             _wrap_text.setShortBoolean(field_4_alignment_options, wrapped);
-}{        return _wrap_text.isSet(field_4_alignment_options);
+}{
+        return _wrap_text.isSet(field_4_alignment_options);
 }

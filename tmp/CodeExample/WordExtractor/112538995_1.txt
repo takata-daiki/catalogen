@@ -1,2 +1,5 @@
+    public Document scan(String file) {
+{
             WordExtractor extractor = new WordExtractor(fs);
             String[] paragraphs = extractor.getParagraphText();
+}

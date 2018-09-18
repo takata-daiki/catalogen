@@ -1,6 +1,8 @@
     catch (HSSFUserException hue)
-{    {/*If an HSSFUserException user exception is thrown, ignore it.*/ }
-}  }
+{
+    {/*If an HSSFUserException user exception is thrown, ignore it.*/ }
+}
+  }
     public short abortableProcessEvents(HSSFRequest req, InputStream in)
         throws IOException, HSSFUserException
     {

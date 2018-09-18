@@ -1,7 +1,10 @@
     private POILogger logger = POILogFactory.getLogger(getClass());
-{{            if (logger.check(POILogger.WARN))
+{{
+            if (logger.check(POILogger.WARN))
                 logger.log(POILogger.WARN, "draw not fully supported");
-}}{        if (logger.check( POILogger.WARN ))
+}}{
+        if (logger.check( POILogger.WARN ))
             logger.log(POILogger.WARN,"drawImage() not supported");
-}{            logger.log(POILogger.WARN,"fill(Shape) not supported");
+}{
+            logger.log(POILogger.WARN,"fill(Shape) not supported");
 }

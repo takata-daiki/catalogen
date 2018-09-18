@@ -1,4 +1,8 @@
+    protected boolean processCharacters( final HWPFDocumentCore wordDocument,
+            final int currentTableLevel, final Range range, final Element block )
+{{
             final HWPFDocument doc = (HWPFDocument) wordDocument;
             Map<Integer, List<Bookmark>> rangeBookmarks = doc.getBookmarks()
                     .getBookmarksStartedBetween( range.getStartOffset(),
                             range.getEndOffset() );
+}}

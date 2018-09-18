@@ -1,6 +1,9 @@
+    public boolean equals(final Object o)
+{{
             IntList other = ( IntList ) o;
             if (other._limit == _limit)
             {
                 rval = true;
-{                    rval = _array[ j ] == other._array[ j ];
-}}
+{
+                    rval = _array[ j ] == other._array[ j ];
+}}}}

@@ -1,4 +1,6 @@
     /**/private static final BitField fUsePgsuSettings = new BitField(0x00080000);
-{        field_1_grpfChp = fUsePgsuSettings.setBoolean(field_1_grpfChp, value);
-}{        return fUsePgsuSettings.isSet(field_1_grpfChp);
+{
+        field_1_grpfChp = fUsePgsuSettings.setBoolean(field_1_grpfChp, value);
+}{
+        return fUsePgsuSettings.isSet(field_1_grpfChp);
 }

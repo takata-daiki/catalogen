@@ -1,2 +1,3 @@
+  public boolean areFontsEmpty(CellStyle style) {
     HSSFCellStyle newStyle = (HSSFCellStyle) style;
     HSSFFont font = newStyle.getFont(workbook);

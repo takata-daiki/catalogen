@@ -1,4 +1,9 @@
+    public int serialize(int offset, byte [] data, ValueRecordsAggregate cells)
+{{
           DBCellRecord cellRecord = new DBCellRecord();
-{{              cellRecord.addCellOffset((short)cellRefOffset);
-}}          cellRecord.setRowOffset(pos - rowStartPos);
+{{
+              cellRecord.addCellOffset((short)cellRefOffset);
+}}
+          cellRecord.setRowOffset(pos - rowStartPos);
           pos += cellRecord.serialize(pos, data);
+}}

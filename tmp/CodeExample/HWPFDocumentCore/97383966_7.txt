@@ -1,5 +1,6 @@
-    protected void processSection( HWPFDocumentCore wordDocument,
-            Section section, int sectionCounter )
+    protected void processParagraph( HWPFDocumentCore hwpfDocument,
+            Element parentElement, int currentTableLevel, Paragraph paragraph,
+            String bulletText )
     {
-        Element div = htmlDocumentFacade.createBlock();
+        final Element pElement = htmlDocumentFacade.createParagraph();
 }

@@ -1,2 +1,4 @@
+    private void fixTabIdRecord() {
         TabIdRecord tir = ( TabIdRecord ) records.get(records.getTabpos());
+
         tir.setTabIdArray(tia);

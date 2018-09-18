@@ -1,5 +1,6 @@
   private HSSFCellStyle csDoubleNum;
-{    csDoubleNum.setDataFormat(wb.createDataFormat().getFormat("#.##"));
+{
+    csDoubleNum.setDataFormat(wb.createDataFormat().getFormat("#.##"));
     csDoubleNum.setBorderBottom(HSSFCellStyle.BORDER_THIN);
     csDoubleNum.setBorderLeft(HSSFCellStyle.BORDER_THIN);
     csDoubleNum.setBorderRight(HSSFCellStyle.BORDER_THIN);

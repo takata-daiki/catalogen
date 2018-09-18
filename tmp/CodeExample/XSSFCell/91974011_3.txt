@@ -1,3 +1,6 @@
+  public void erstelleExcel(ArrayList<String> spalten) {
+{{
         XSSFCell celltemp = row1.createCell(2 + (spalten.size() * i));
         celltemp.setCellStyle(headerStyle);
         celltemp.setCellValue("Betreuung " + (i + 1));
+}}

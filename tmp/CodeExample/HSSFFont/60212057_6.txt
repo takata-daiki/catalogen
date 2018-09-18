@@ -1,4 +1,8 @@
+  private void setStyleRow(HSSFSheet ash,  String strStyle, int row, int beCol, int countCol, int breakCol,   
+      Map<String,  HSSFCellStyle[]> styleRowMap, HSSFFont font){
+}{{
       HSSFFont font4 = wb.createFont();
       font4.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);
       font4.setItalic(true);
       font4.setFontHeightInPoints((short)8);
+}}

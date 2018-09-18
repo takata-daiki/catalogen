@@ -1,3 +1,5 @@
+  public Font correctFontColorIfBackground(FontManager fm, Workbook wb, BirtStyle birtStyle, Font font) {
     HSSFPalette palette = ((HSSFWorkbook)wb).getCustomPalette();    
-{      fgRgb = palette.getColor(font.getColor()).getTriplet();
+{
+      fgRgb = palette.getColor(font.getColor()).getTriplet();
 }

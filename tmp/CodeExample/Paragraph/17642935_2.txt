@@ -7,6 +7,7 @@
       log.debug("Styled paragraph, with index: " + p.getStyleIndex());
       String styleName = stylesheet
           .getStyleDescription(p.getStyleIndex()).getName();
-}    for (int z = 0; z < p.numCharacterRuns(); z++) {
+}
+    for (int z = 0; z < p.numCharacterRuns(); z++) {
       CharacterRun run = p.getCharacterRun(z);
 }}

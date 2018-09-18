@@ -1,0 +1,4 @@
+    protected XWPFNum getXWPFNum( CTNumPr numPr )
+{
+        XWPFNum num = document.getNumbering().getNum( numID.getVal() );
+}

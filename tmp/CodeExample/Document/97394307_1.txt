@@ -1,2 +1,3 @@
+    protected EscherBSERecord getEscherBSERecord(){
         Document doc = ppt.getDocumentRecord();
         EscherContainerRecord dggContainer = doc.getPPDrawingGroup().getDggContainer();

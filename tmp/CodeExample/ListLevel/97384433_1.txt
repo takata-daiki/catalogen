@@ -1,2 +1,4 @@
-        ListLevel listLevel = _listData.getLevel( level );
-        listLevel.setNumberProperties( grpprl );
+    ListLevel getLVL( char level )
+{
+        ListLevel lvl = _listData.getLevels()[level];
+}

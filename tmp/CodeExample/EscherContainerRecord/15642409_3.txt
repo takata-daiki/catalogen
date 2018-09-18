@@ -1,5 +1,6 @@
-    private void convertGroup( HSSFShapeGroup shape, EscherContainerRecord escherParent, Map shapeToObj )
+    private void convertShapes( HSSFShapeContainer parent, EscherContainerRecord escherParent, Map shapeToObj )
     {
-        EscherContainerRecord spgrContainer = new EscherContainerRecord();
-        escherParent.addChildRecord( spgrContainer );
-}
+        if ( escherParent == null ) throw new IllegalArgumentException( "Parent record required" );
+{{
+                escherParent.addChildRecord( shapeModel.getSpContainer() );
+}}}

@@ -1,5 +1,7 @@
     private static POILogger _nullLogger = new NullLogger();
-{{{            _loggerClassName = _nullLogger.getClass().getName();
-}}        if(_loggerClassName.equals(_nullLogger.getClass().getName())) {
+{{{
+            _loggerClassName = _nullLogger.getClass().getName();
+}}
+        if(_loggerClassName.equals(_nullLogger.getClass().getName())) {
           return _nullLogger;
 }}

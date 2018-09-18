@@ -1,2 +1,3 @@
+    public int getWordWrap(){
         EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.TEXT__WRAPTEXT);
         return prop == null ? WrapSquare : prop.getPropertyValue();

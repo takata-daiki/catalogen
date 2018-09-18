@@ -1,5 +1,7 @@
     static final private BitField dialog              =
         BitFieldFactory.getInstance(0x10);                               // is sheet dialog sheet
-{        field_1_wsbool = dialog.setByteBoolean(field_1_wsbool, isDialog);
-}{        return dialog.isSet(field_1_wsbool);
+{
+        field_1_wsbool = dialog.setByteBoolean(field_1_wsbool, isDialog);
+}{
+        return dialog.isSet(field_1_wsbool);
 }

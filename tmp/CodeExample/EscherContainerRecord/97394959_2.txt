@@ -1,3 +1,6 @@
+  public Slide createSlide() {
+}{
     EscherContainerRecord dggContainer = _documentRecord.getPPDrawingGroup().getDggContainer();
-{      dggContainer.addChildBefore(bstore, EscherOptRecord.RECORD_ID);
+{
+      dggContainer.addChildBefore(bstore, EscherOptRecord.RECORD_ID);
 }

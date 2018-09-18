@@ -1,0 +1,5 @@
+    public void groupColumnRange(short fromColumn, short toColumn, boolean indent)
+{{
+            ColumnInfoRecord columnInfoRecord = columns.getColInfo(k);
+            maxLevel = Math.max(columnInfoRecord.getOutlineLevel(), maxLevel);
+}}

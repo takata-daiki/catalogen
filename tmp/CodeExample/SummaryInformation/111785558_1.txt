@@ -15,6 +15,7 @@
         set(Metadata.PAGE_COUNT, summary.getPageCount());
         if (summary.getPageCount() > 0) {
             metadata.set(PagedText.N_PAGES, summary.getPageCount());
-}        set(Metadata.SECURITY, summary.getSecurity());
+}
+        set(Metadata.SECURITY, summary.getSecurity());
         set(Metadata.WORD_COUNT, summary.getWordCount());
         set(Metadata.LAST_PRINTED, summary.getLastPrinted());

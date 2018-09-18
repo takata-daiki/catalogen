@@ -1,3 +1,7 @@
+    public static String getPIDString(final byte[] sectionFormatID,
+                                      final long pid)
+{
         final PropertyIDMap m = getInstance().get(sectionFormatID);
-{            final String s = (String) m.get(pid);
-}
+{
+            final String s = (String) m.get(pid);
+}}

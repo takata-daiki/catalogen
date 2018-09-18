@@ -1,4 +1,6 @@
     /**/private static BitField fAutoHyphen = new BitField(0x10);
-{        field_5_docinfo = (byte)fAutoHyphen.setBoolean(field_5_docinfo, value);
-}{        return fAutoHyphen.isSet(field_5_docinfo);
+{
+        field_5_docinfo = (byte)fAutoHyphen.setBoolean(field_5_docinfo, value);
+}{
+        return fAutoHyphen.isSet(field_5_docinfo);
 }

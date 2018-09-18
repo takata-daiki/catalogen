@@ -1,5 +1,8 @@
+    public static SectionIDMap getInstance()
+{{
             final SectionIDMap m = new SectionIDMap();
             m.put(SUMMARY_INFORMATION_ID,
                   PropertyIDMap.getSummaryInformationProperties());
             m.put(DOCUMENT_SUMMARY_INFORMATION_ID[0],
                   PropertyIDMap.getDocumentSummaryInformationProperties());
+}}

@@ -1,4 +1,5 @@
+  public boolean isSelected() {
+}
   public CellRange<? extends Cell> setArrayFormula(String formula,
       CellRangeAddress range) {
     return sheet.setArrayFormula(formula, range);
-}

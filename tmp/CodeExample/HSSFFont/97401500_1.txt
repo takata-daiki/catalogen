@@ -1,6 +1,11 @@
+  public boolean equals(Object obj) {
+{
       final HSSFFont other = (HSSFFont) obj;
-{        if (other.font != null)
+{
+        if (other.font != null)
           return false;
-}      } else if (!font.equals(other.font))
+}
+      } else if (!font.equals(other.font))
         return false;
       if (index != other.index)
+}

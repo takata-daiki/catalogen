@@ -1,2 +1,5 @@
+    public void addListenerForAllRecords(HSSFListener lsnr)
+{{{{
           AbortableHSSFListener listener = ( AbortableHSSFListener ) listenObj;
                   userCode = listener.abortableProcessRecord(rec);
+}}}}

@@ -1,3 +1,4 @@
+  public static HSSFName createNameRange(String name, String refersToR1C1, HSSFWorkbook wb){
     HSSFName nameRange =  wb.createName();
     nameRange.setNameName(name);
     nameRange.setRefersToFormula(refersToR1C1);

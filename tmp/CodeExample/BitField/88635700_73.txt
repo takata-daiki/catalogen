@@ -1,4 +1,6 @@
     /**/private static BitField fTruncDxaExpand = new BitField(0x00020000);
-{        field_33_docinfo4 = (int)fTruncDxaExpand.setBoolean(field_33_docinfo4, value);
-}{        return fTruncDxaExpand.isSet(field_33_docinfo4);
+{
+        field_33_docinfo4 = (int)fTruncDxaExpand.setBoolean(field_33_docinfo4, value);
+}{
+        return fTruncDxaExpand.isSet(field_33_docinfo4);
 }

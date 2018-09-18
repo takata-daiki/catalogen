@@ -1,2 +1,4 @@
-         Break original = (Break)iterator.next();
-         record.addBreak(original.main, original.subFrom, original.subTo);
+    public void removeBreak(short main)
+{
+        Break region = (Break)BreakMap.get(rowKey);
+}

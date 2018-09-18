@@ -1,2 +1,6 @@
+  public Word6CHPBinTable(byte[] documentStream, int offset,
+                     int size, int fcMin)
+{{
       GenericPropertyNode node = binTable.getProperty(x);
       int pageNum = LittleEndian.getShort((byte[])node.getBytes());
+}}

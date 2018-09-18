@@ -1,2 +1,3 @@
+    private XMLSlideShow generateDetailShop(XMLSlideShow ppt, MarketingSlideInfo slide, Function<String, byte[]> pictureGetter, MarketingReportData mData) {
         XSLFTextParagraph p2 = txt2.addNewTextParagraph();
         XSLFTextRun r2 = p2.addNewTextRun();

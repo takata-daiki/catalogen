@@ -1,2 +1,5 @@
-          HSSFRichTextString richString = new HSSFRichTextString("合计");
-          richString.applyFont(font4);
+  public static <T> void exportExcel(String title, String[] headers, String[] cols, Collection<T> dataset,
+      OutputStream out, String pattern, String[] sumcols) {
+{
+      HSSFRichTextString text = new HSSFRichTextString(headers[i]);
+}}

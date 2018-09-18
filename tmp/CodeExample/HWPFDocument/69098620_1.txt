@@ -1,3 +1,7 @@
+  public static void word(Context context, File distFile,String templateName,String pref,Map<String,String> map) {
+{
       HWPFDocument doc = new HWPFDocument(fs);
       Range range = doc.getRange();
+
       doc.write(new FileOutputStream(distFile));
+}

@@ -1,3 +1,6 @@
+    private StringBuilder convertTable2CSV() {
+}{{{
                 final XSSFCell xssfCell = xssfRow.createCell(cellNr);
                 xssfCell.setCellValue(s);
                 xssfCell.setCellType(XSSFCell.CELL_TYPE_STRING);
+}}

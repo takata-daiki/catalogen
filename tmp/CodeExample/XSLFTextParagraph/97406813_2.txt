@@ -1,2 +1,2 @@
-        XSLFTextParagraph p = _paragraphs.get(i);
-        y += p.draw(graphics, x, y);
+    public XSLFTextParagraph addNewTextParagraph() {
+        XSLFTextParagraph paragraph = new XSLFTextParagraph(p, this);

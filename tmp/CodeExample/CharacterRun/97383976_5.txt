@@ -1,3 +1,6 @@
+    protected void processDocumentPart( HWPFDocumentCore wordDocument,
+            final Range range )
+
     protected void processDrawnObject( HWPFDocument doc,
             CharacterRun characterRun, Element block )
     {
@@ -5,6 +8,7 @@
             return;
         OfficeDrawing officeDrawing = doc.getOfficeDrawingsMain()
                 .getOfficeDrawingAt( characterRun.getStartOffset() );
+
         String path = getPicturesManager()
                 .savePicture( pictureData, type,
                         "s" + characterRun.getStartOffset() + "." + type,

@@ -1,4 +1,5 @@
     private static final BitField BITFIELD_SIZECODE = BitFieldFactory
             .getInstance( 0xe000 );
-{        return BITFIELD_SIZECODE.getValue( _value );
+{
+        return BITFIELD_SIZECODE.getValue( _value );
 }

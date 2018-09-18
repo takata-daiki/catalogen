@@ -1,3 +1,5 @@
+    private void convertPatriarch( HSSFPatriarch patriarch )
+{
         EscherSpgrRecord spgr = new EscherSpgrRecord();
         spgr.setRecordId( EscherSpgrRecord.RECORD_ID );
         spgr.setOptions( (short) 0x0001 );    // version
@@ -5,3 +7,4 @@
         spgr.setRectY1( patriarch.getY1() );
         spgr.setRectX2( patriarch.getX2() );
         spgr.setRectY2( patriarch.getY2() );
+}

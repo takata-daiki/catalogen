@@ -1,2 +1,5 @@
-  public PackagePart createPart(PackagePartName partName, String contentType) {
-    return this.createPart(partName, contentType, true);
+  public List<PackagePart> getPartsByName(final Pattern namePattern) {
+{
+          PackagePartName partName = part.getPartName();
+          String name = partName.getName();
+}

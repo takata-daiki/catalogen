@@ -1,3 +1,5 @@
-    protected abstract void processFootnoteAutonumbered(
-            HWPFDocument wordDocument, int noteIndex, Element block,
-            Range footnoteTextRange );
+    protected void processField( HWPFDocument wordDocument, Range parentRange,
+            int currentTableLevel, Field field, Element currentBlock )
+{{{{{
+                    Range textRange = null;
+}}}}}

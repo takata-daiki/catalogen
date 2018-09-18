@@ -1,2 +1,7 @@
+    protected void processParagraph( HWPFDocumentCore hwpfDocument,
+            Element parentElement, int currentTableLevel, Paragraph paragraph,
+            String bulletText )
+{{{
                 Triplet triplet = getCharacterRunTriplet( characterRun );
                 pFontName = triplet.fontName;
+}}}

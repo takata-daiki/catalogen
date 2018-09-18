@@ -1,21 +1,29 @@
+    public void processRecord(Record record)
+{{{
                     final LabelSSTRecord lrec = (LabelSSTRecord) record;
                     if (lrec.getRow() == 0)
                     { 
                         processHeader(lrec);
-}{                        if (lrec.getColumn() == 0) {
+}{
+                        if (lrec.getColumn() == 0) {
                             String keywordStr = 
                                 sstrec.getString(lrec.getSSTIndex()).getString();
-}                        else if (lrec.getColumn() == 1) {
+}
+                        else if (lrec.getColumn() == 1) {
                             keyword.setContext(
                                     sstrec.getString(lrec.getSSTIndex()).getString());
-}                        else if (lrec.getColumn() == 2) {
+}
+                        else if (lrec.getColumn() == 2) {
                             baseTranslation = new Translation();
                             String name = sstrec.getString(lrec.getSSTIndex()).getString();
-}                        else if (lrec.getColumn() == 3) {
+}
+                        else if (lrec.getColumn() == 3) {
                             String colHeader = 
-}{                            Language language = 
+}{
+                            Language language = 
                                 languages.get(lrec.getColumn()-4);
                             String value = sstrec.getString(lrec.getSSTIndex()).getString();
-}                        if (isLastColumn(lrec.getColumn())) {
+}
+                        if (isLastColumn(lrec.getColumn())) {
                             keywords.put(keyword.getKeyword(), keyword);
-}}
+}}}}}

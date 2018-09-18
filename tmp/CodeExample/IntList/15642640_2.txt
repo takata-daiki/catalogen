@@ -1,2 +1,5 @@
+    public void set(int col, int row, int value)
+{
         IntList cols = (IntList) rows.get( row );
         cols.set( col, value );
+}

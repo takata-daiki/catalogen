@@ -1,2 +1,5 @@
+  protected void createSimpleComment(final HSSFCell cell,
+      final String commentString, final String author) {
     final HSSFClientAnchor anchor = new HSSFClientAnchor(0, 0, 0, 0,
         (short) 4, 2, (short) 6, 7);
+}

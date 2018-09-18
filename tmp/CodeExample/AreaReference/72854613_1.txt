@@ -1,3 +1,4 @@
+    public Range getRange() {
         AreaReference areaReference = new AreaReference(formula);
         CellReference firstCellReference = areaReference.getFirstCell();
         CellReference lastCellReference = areaReference.getLastCell();

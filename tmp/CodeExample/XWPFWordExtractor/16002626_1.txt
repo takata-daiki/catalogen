@@ -1,4 +1,4 @@
-    public static String extractContentWordDocument(final XWPFWordExtractor wde){
-        String bodyText = null;
-{            bodyText = wde.getText();
+     public void deleteAttachmentFromIndex(AttachmentIndex attachmentIndex, final IndexWriterManager indexWriter ) {
+}{{
+            XWPFWordExtractor parserDoc;
 }

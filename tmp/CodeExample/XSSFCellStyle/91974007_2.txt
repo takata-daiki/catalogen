@@ -1,3 +1,6 @@
+  public void erstelleExcel(ArrayList<String> spalten, String von, String bis) {
+{
       XSSFCellStyle dataStyle = xssfWorkbook.createCellStyle();
       dataStyle.setWrapText(true);
       dataStyle.setAlignment(HorizontalAlignment.CENTER);
+}

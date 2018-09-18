@@ -1,5 +1,8 @@
+    private void dumpFields()
+{
         HWPFDocument document = (HWPFDocument) _doc;
-{            for ( Field field : document.getFields().getFields( part ) )
+{
+            for ( Field field : document.getFields().getFields( part ) )
             {
                 System.out.println( field );
-}}
+}}}

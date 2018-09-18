@@ -1,7 +1,10 @@
   private HSSFWorkbook wb;
-{    HSSFSheet sheet = wb.createSheet();
+{
+    HSSFSheet sheet = wb.createSheet();
+
     wb.write(fileOut);
-}{    csText = wb.createCellStyle();
+}{
+    csText = wb.createCellStyle();
     csHeader = wb.createCellStyle();
     HSSFFont f = wb.createFont();
     csTitle = wb.createCellStyle();

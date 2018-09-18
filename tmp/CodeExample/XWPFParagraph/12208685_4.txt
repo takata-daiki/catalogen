@@ -3,5 +3,6 @@
         if ( paragraph == null )
         {
             return null;
-}        return getXWPFStyle( paragraph.getStyleID() );
+}
+        return getXWPFStyle( paragraph.getStyleID() );
 }

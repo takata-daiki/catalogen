@@ -1,5 +1,8 @@
+    public String getProgrammableTag(){
+{{
                 CString binaryTag = (CString)
                     progBinaryTag.findFirstOfType(
                             RecordTypes.CString.typeID
                 );
                 if(binaryTag != null) tag = binaryTag.getText();
+}}

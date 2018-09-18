@@ -1,7 +1,5 @@
-    @Override
-    protected void processSingleSection( HWPFDocumentCore wordDocument,
-            Section section )
+    protected void processSection( HWPFDocumentCore wordDocument,
+            Section section, int sectionCounter )
     {
-        htmlDocumentFacade.addStyleClass( htmlDocumentFacade.body, "b",
-                getSectionStyle( section ) );
+        Element div = htmlDocumentFacade.createBlock();
 }

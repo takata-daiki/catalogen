@@ -1,3 +1,5 @@
+    private void closeInputStream(InputStream stream, boolean success) {
+}{
         HeaderBlockWriter header_block_writer = new HeaderBlockWriter(bigBlockSize);
         BATBlock[]        xbat_blocks         =
             header_block_writer.setBATBlocks(bat.countBlocks(),

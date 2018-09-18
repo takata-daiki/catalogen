@@ -1,2 +1,6 @@
+    private boolean isStrikeout ( final Row row )
+{
         final HSSFFont font = this.workbook.getFontAt ( style.getFontIndex () );
+
         return font.getStrikeout ();
+}

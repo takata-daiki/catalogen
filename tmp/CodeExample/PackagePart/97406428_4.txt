@@ -1,3 +1,5 @@
+  public CTSlideMasterIdList getSlideMasterReferences() {
+}{
     PackagePart masterPart = getSlideMasterPart(master);
     SldMasterDocument masterDoc =
       SldMasterDocument.Factory.parse(masterPart.getInputStream());

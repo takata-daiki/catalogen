@@ -1,2 +1,10 @@
-        CharacterProperties styleProperties = newProperties;
-        newProperties = styleProperties.clone();
+    public static CharacterProperties uncompressCHP(
+            CharacterProperties parent, byte[] grpprl, int offset )
+
+    public static CharacterProperties uncompressCHP( StyleSheet styleSheet,
+            CharacterProperties parStyle, byte[] grpprl, int offset )
+    {
+        CharacterProperties newProperties;
+{
+            newProperties = parStyle.clone();
+}}

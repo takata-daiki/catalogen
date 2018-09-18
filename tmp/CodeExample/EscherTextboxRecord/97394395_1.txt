@@ -1,0 +1,4 @@
+    protected EscherTextboxWrapper getEscherTextboxWrapper(){
+{
+            EscherTextboxRecord textRecord = (EscherTextboxRecord)Shape.getEscherChild(_escherContainer, EscherTextboxRecord.RECORD_ID);
+}

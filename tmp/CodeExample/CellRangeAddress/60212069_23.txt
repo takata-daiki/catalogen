@@ -1,5 +1,4 @@
-              CellRangeAddress pasteCRA = 
-                new CellRangeAddress(indexBegRowMergeRegion, 
-                    indexEndRowMergeRegion, 
-                    indexBegColMergeRegion, 
-                    indexBegColMergeRegion+countColMergeRegion);
+  public static HSSFCell find(HSSFSheet sh, CellRangeAddress cellsRef, Object valueSearch, byte lookIn, XlLookAt lookAt, XlSearchDirection searchDirection){
+    return find(sh, new  AreaReference(new CellReference(cellsRef.getFirstRow(), cellsRef.getFirstColumn()),
+        new CellReference(cellsRef.getLastRow(), cellsRef.getLastColumn())),
+        valueSearch, lookIn, lookAt, searchDirection);

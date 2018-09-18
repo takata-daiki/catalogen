@@ -1,3 +1,5 @@
+    private String tryToReadCachedValue( Cell cell ) {
         DataFormatter formatter = new DataFormatter( Locale.ENGLISH );
-{{                    cachedValue = formatter.formatCellValue( cell );
+{{
+                    cachedValue = formatter.formatCellValue( cell );
 }}

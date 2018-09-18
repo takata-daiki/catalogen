@@ -1,6 +1,4 @@
-    @Override
-    protected void endVisitTableCell( XWPFTableCell cell, IITextContainer tableContainer,
-                                      IITextContainer tableCellContainer )
-    {
-        ExtendedPdfPTable pdfPTable = (ExtendedPdfPTable) tableContainer;
+    private boolean isClearTab( CTTabStop tabStop )
+{
+        XWPFTableCell lastVMergedCell = null;
 }

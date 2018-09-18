@@ -1,5 +1,7 @@
+  public int addFont(PPFont font) {
     FontCollection fonts = getDocumentRecord().getEnvironment().getFontCollection();
     int idx = fonts.getFontIndex(font.getFontName());
-{      idx = fonts.addFont(font.getFontName(), font.getCharSet(), font.getFontFlags(), font
+{
+      idx = fonts.addFont(font.getFontName(), font.getCharSet(), font.getFontFlags(), font
           .getFontType(), font.getPitchAndFamily());
 }

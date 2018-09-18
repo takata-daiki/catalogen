@@ -1,5 +1,6 @@
     public TableCellInfo getCellInfo( XWPFTableCell cell )
     {
         TableCellInfo cellInfo = cellInfos.get( cell );
+
         computeCellInfos( cell.getTableRow() );
 }

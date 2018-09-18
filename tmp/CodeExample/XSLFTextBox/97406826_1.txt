@@ -1,2 +1,3 @@
+    public XSLFTextBox createTextBox(){
         XSLFTextBox shape = new XSLFTextBox(sp, _sheet);
         shape.setAnchor(new Rectangle());

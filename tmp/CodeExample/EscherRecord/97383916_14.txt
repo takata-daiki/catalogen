@@ -1,0 +1,7 @@
+        for ( EscherRecord childRecord : _childRecords )
+        {
+            if ( childRecord.getRecordId() == recordId )
+            {
+                @SuppressWarnings( "unchecked" )
+                final T result = (T) childRecord;
+}}

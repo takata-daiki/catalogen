@@ -1,4 +1,5 @@
            for(Picture picture : pictures) {
               String mimeType = "image/unknown";
               String extension = picture.suggestFileExtension();
+
               TikaInputStream stream = TikaInputStream.get(picture.getContent());

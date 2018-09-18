@@ -1,5 +1,7 @@
+    public String getDescription()
+{{{
              EscherOptRecord escherOptRecord = (EscherOptRecord) escherRecord;
              for(EscherProperty property : escherOptRecord.getEscherProperties()){
                 if(EscherProperties.GROUPSHAPE__DESCRIPTION == property.getPropertyNumber()){
                    byte[] complexData = ((EscherComplexProperty)property).getComplexData();
-}}
+}}}}}

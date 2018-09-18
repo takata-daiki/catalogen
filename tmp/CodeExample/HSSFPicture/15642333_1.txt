@@ -1,4 +1,7 @@
+    public HSSFPicture createPicture(HSSFClientAnchor anchor, int pictureIndex)
+{
         HSSFPicture shape = new HSSFPicture(null, anchor);
         shape.setPictureIndex( pictureIndex );
         shape.anchor = anchor;
         shape.patriarch = this;
+}

@@ -3,10 +3,12 @@
     {
         Entry entry = doc.getObjectsPool().getObjectById(
                 "_" + characterRun.getPicOffset() );
-{            logger.log( POILogger.WARN, "Referenced OLE2 object '",
+{
+            logger.log( POILogger.WARN, "Referenced OLE2 object '",
                     Integer.valueOf( characterRun.getPicOffset() ),
                     "' not found in ObjectPool" );
-}{            logger.log( POILogger.WARN,
+}{
+            logger.log( POILogger.WARN,
                     "Unable to convert internal OLE2 object '",
                     Integer.valueOf( characterRun.getPicOffset() ), "': ", exc,
                     exc );

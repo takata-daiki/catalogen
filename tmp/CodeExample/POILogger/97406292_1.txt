@@ -1,21 +1,28 @@
     private static POILogger logger = POILogFactory.getLogger(OPCPackage.class);
-{{      logger.log(POILogger.WARN, 
+{{
+      logger.log(POILogger.WARN, 
               "The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead !");
-}}{{{{{             logger.log(POILogger.WARN, "OPC Compliance error [M4.1]: " +
+}}{{{{{
+             logger.log(POILogger.WARN, "OPC Compliance error [M4.1]: " +
                  "there is more than one core properties relationship in the package! " +
                  "POI will use only the first, but other software may reject this file.");
-}}{{            logger.log(POILogger.WARN, "Unmarshall operation : IOException for "
+}}{{
+            logger.log(POILogger.WARN, "Unmarshall operation : IOException for "
                 + part._partName);
-}}}}}{{{        logger
+}}}}}{{{
+        logger
             .log(POILogger.ERROR, "Part name URI '"
                 + sourceURI
                 + "' is not valid ! This message is not intended to be displayed !");
-}}}{{      logger.log(POILogger.WARN, "An exception occurs while deleting part '"
+}}}{{
+      logger.log(POILogger.WARN, "An exception occurs while deleting part '"
           + partName.getName()
           + "'. Some parts may remain in the package. - "
           + e.getMessage());
-}}{{      logger.log(POILogger.WARN, "The specified content type is not valid: '"
+}}{{
+      logger.log(POILogger.WARN, "The specified content type is not valid: '"
           + e.getMessage() + "'. The marshaller will not be added !");
-}}{{          + e.getMessage()
+}}{{
+          + e.getMessage()
           + "'. The unmarshaller will not be added !");
 }}

@@ -1,10 +1,13 @@
   public HWPFDocument(DirectoryNode directory) throws IOException
   {
     super(directory);
-{        tableProps =
+{
+        tableProps =
             (DocumentEntry)directory.getEntry(name);
-}    directory.createDocumentInputStream(name).read(_tableStream);
-{      DocumentEntry dataProps =
+}
+    directory.createDocumentInputStream(name).read(_tableStream);
+{
+      DocumentEntry dataProps =
           (DocumentEntry)directory.getEntry(STREAM_DATA);
       directory.createDocumentInputStream(STREAM_DATA).read(_dataStream);
 }}

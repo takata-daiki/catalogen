@@ -1,3 +1,5 @@
+  private void specHidden(HSSFSheet sh, int hOut){
+}{
     HSSFPrintSetup ps = sh.getPrintSetup();
     float[]sizePage = ExcelUtils.PrintPagesFormat.get(ps.getPaperSize());
     if (ps.getLandscape()) baseSizePage = sizePage[0];

@@ -1,3 +1,6 @@
-                Range noteTextRange = new Range( rangeStartOffset
-                        + noteTextStartOffset, rangeStartOffset
-                        + noteTextEndOffset, doc );
+    protected void processNoteAnchor( HWPFDocument doc,
+            CharacterRun characterRun, final Element block )
+{{{
+                Range footnoteRange = doc.getFootnoteRange();
+                int rangeStartOffset = footnoteRange.getStartOffset();
+}}}

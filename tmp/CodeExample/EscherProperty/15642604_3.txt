@@ -1,2 +1,5 @@
+    private int getPropertiesSize()
+{{
             EscherProperty escherProperty = (EscherProperty) iterator.next();
             totalSize += escherProperty.getPropertySize();
+}}

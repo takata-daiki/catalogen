@@ -1,2 +1,3 @@
+  public String getProdOrderReportFilename(String orderId, String dataAreaId) {
     SummaryInformation summaryInfo = hwb.getSummaryInformation();
     summaryInfo.setAuthor("BMP-System");

@@ -1,7 +1,11 @@
+  public Slide createSlide() {
+{
       SlidePersistAtom spa = sas[j].getSlidePersistAtom();
       if (spa.getSlideIdentifier() < 0) {
-}      } else {
+}
+      } else {
         if (prev == null) {
           prev = spa;
-}        if (prev.getSlideIdentifier() < spa.getSlideIdentifier()) {
-}}
+}
+        if (prev.getSlideIdentifier() < spa.getSlideIdentifier()) {
+}}}

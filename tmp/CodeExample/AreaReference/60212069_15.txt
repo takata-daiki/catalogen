@@ -1,3 +1,4 @@
+  public static HSSFCell singleRangeToCell(HSSFWorkbook wb, String nameRange, Map<String, Map<String, HSSFName>> mapWbNames, String[] sheetNames){
     AreaReference ref = range(wb, nameRange, mapWbNames, sheetNames);
     if (ref.isSingleCell()){
       String shName = ref.getFirstCell().getSheetName();

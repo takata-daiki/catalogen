@@ -1,5 +1,8 @@
+    public void addBreak(short main, short subFrom, short subTo)
+{
         Break region = (Break)BreakMap.get(key);
-{            region.main = main;
+{
+            region.main = main;
             region.subFrom = subFrom;
             region.subTo = subTo;
-}
+}}

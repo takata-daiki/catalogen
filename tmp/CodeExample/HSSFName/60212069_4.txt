@@ -1,2 +1,8 @@
-        HSSFName iName = wb.getNameAt(i);
-        if((iName != null) && (iName.getNameName() == null)) return iName;
+  public static Map<String, Map<String, HSSFName>> createNamesMap(HSSFWorkbook wb){
+{
+      HSSFName iName = wb.getNameAt(i);
+{
+        String iNameName = iName.getNameName();
+{
+          String iShName = iName.getSheetName();
+}}}

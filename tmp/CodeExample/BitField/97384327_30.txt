@@ -1,4 +1,6 @@
     /**/private static final BitField fWebHidden = new BitField(0x10000000);
-{        field_1_grpfChp = fWebHidden.setBoolean(field_1_grpfChp, value);
-}{        return fWebHidden.isSet(field_1_grpfChp);
+{
+        field_1_grpfChp = fWebHidden.setBoolean(field_1_grpfChp, value);
+}{
+        return fWebHidden.isSet(field_1_grpfChp);
 }

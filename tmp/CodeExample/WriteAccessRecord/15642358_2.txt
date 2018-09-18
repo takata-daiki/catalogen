@@ -1,2 +1,3 @@
+    public void writeProtectWorkbook( String password, String username ) {
         WriteAccessRecord waccess = getWriteAccess();
         waccess.setUsername(username);

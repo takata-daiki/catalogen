@@ -1,6 +1,9 @@
+  private void formatLine(HSSFSheet sh){
+}{{{{{{{
                 CellRangeAddress crA = ExcelUtils.intersectRectangular(
                     new CellRangeAddress(0, 
                         ExcelUtils.xlMaxNumRow-1, 
                         formatCol, 
                         lastCol - formatCol), 
                         areas.getCellRangeAddress(iArea));
+}}}}}}

@@ -1,4 +1,7 @@
+  public void erstelleExcel(ArrayList<String> spalten, String von, String bis) {
+{
       XSSFCellStyle headerStyle = xssfWorkbook.createCellStyle();
       headerStyle.setFillForegroundColor(LAVENDER.index);
       headerStyle.setFont(font);
       headerStyle.setAlignment(HorizontalAlignment.CENTER);
+}

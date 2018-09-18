@@ -1,2 +1,5 @@
+    public void processRecord(Record record)
+{{{
                     final RowRecord rowrec = (RowRecord) record;
                     lastColOfRow = rowrec.getLastCol();
+}}}

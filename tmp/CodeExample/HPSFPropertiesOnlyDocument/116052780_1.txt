@@ -1,4 +1,7 @@
+  public static Date getLastSavedDate(Path filePath) {
+{
       HPSFPropertiesOnlyDocument hpsfPropertiesOnlyDocument =
         new HPSFPropertiesOnlyDocument(npoifsFileSystem);
       SummaryInformation summaryInformation =
         hpsfPropertiesOnlyDocument.getSummaryInformation();
+}

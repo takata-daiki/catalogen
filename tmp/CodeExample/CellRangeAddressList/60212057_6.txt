@@ -1,0 +1,7 @@
+  private void modelDelete(HSSFSheet sh){
+{{{{{{
+                CellRangeAddressList l = ExcelUtils.getEntireRow(list);
+{
+                  for(int ii=0; ii<l.countRanges(); ii++){
+                    CellRangeAddress workRange = l.getCellRangeAddress(ii);
+}}}}}}}}

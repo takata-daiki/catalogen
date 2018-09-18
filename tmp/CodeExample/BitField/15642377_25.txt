@@ -1,8 +1,10 @@
     static final private BitField _left_border_palette_idx  =
         BitFieldFactory.getInstance(0x007F);
-{        field_7_palette_options =
+{
+        field_7_palette_options =
             _left_border_palette_idx.setShortValue(field_7_palette_options,
                                                    border);
-}{        return _left_border_palette_idx
+}{
+        return _left_border_palette_idx
             .getShortValue(field_7_palette_options);
 }

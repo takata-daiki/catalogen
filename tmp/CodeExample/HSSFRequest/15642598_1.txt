@@ -1,7 +1,9 @@
+    public EFBiffViewer()
+{
         HSSFRequest     req   = new HSSFRequest();
         req.addListenerForAllRecords(new HSSFListener()
         {
             public void processRecord(Record rec)
             {
                 System.out.println(rec.toString());
-}}
+}}}

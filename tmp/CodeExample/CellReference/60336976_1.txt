@@ -1,2 +1,5 @@
+  public void render(OutputStream out) {
+{{{{
             CellReference paramCellAreaRefFirstCell = paramCellAreaRef.getFirstCell();
             HSSFCell paramCell = getCell(paramCellSheet, paramCellAreaRefFirstCell.getRow(), paramCellAreaRefFirstCell.getCol());
+}}}}

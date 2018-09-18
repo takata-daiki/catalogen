@@ -1,3 +1,6 @@
-    protected abstract T startVisitTableCell( XWPFTableCell cell, T tableContainer, boolean firstRow, boolean lastRow,
-                                              boolean firstCol, boolean lastCol, List<XWPFTableCell> vMergeCells )
-        throws Exception;
+    private List<XWPFTableCell> getVMergedCells( XWPFTableCell cell, int rowIndex, int cellIndex )
+    {
+        List<XWPFTableCell> vMergedCells = null;
+{{
+                XWPFTable table = cell.getTableRow().getTable();
+}}}

@@ -1,2 +1,3 @@
+    public int getShapeId(){
         EscherSpRecord spRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);
         return spRecord == null ? 0 : spRecord.getShapeId();

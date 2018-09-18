@@ -1,6 +1,10 @@
+  private HSSFFont createFont(final HSSFWorkbook workbook,
+      final boolean bold, final boolean doubleUnderlined) {
     final HSSFFont font = workbook.createFont();
     font.setFontHeightInPoints((short) 10);
     font.setFontName("Arial");
-{      font.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);
-}{      font.setUnderline(HSSFFont.U_DOUBLE);
-}
+{
+      font.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);
+}{
+      font.setUnderline(HSSFFont.U_DOUBLE);
+}}

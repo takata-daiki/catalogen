@@ -1,2 +1,5 @@
+  private void setImageToCell(short col1, int row1, short col2, int row2, String imagePath) {
+{
       HSSFClientAnchor anchor = new HSSFClientAnchor(0, 0, 1023, 255, col1, row1, col2, row2);
       anchor.setAnchorType(2);
+}

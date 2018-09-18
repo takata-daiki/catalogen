@@ -1,5 +1,7 @@
     static final private BitField _locked       = BitFieldFactory.getInstance(0x0001);
-{        field_3_cell_options = _locked.setShortBoolean(field_3_cell_options,
+{
+        field_3_cell_options = _locked.setShortBoolean(field_3_cell_options,
                 locked);
-}{        return _locked.isSet(field_3_cell_options);
+}{
+        return _locked.isSet(field_3_cell_options);
 }

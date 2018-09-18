@@ -1,5 +1,9 @@
+    public void visit(SetCellValue setCellValue) {
         XSSFRow xssfRow = xssfSheet.getRow(setCellValue.getRow());
+
         XSSFCell xssfCell = xssfRow.getCell(setCellValue.getCol());
-{            xssfCell = xssfRow.createCell(setCellValue.getCol());
-}{{                xssfRow.removeCell(xssfCell);
+{
+            xssfCell = xssfRow.createCell(setCellValue.getCol());
+}{{
+                xssfRow.removeCell(xssfCell);
 }}

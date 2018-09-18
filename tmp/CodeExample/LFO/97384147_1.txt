@@ -1,4 +1,4 @@
-    void add( LFO lfo, LFOData lfoData )
-    {
-        final int newLfoMac = _lfoMac + 1;
-}
+    PlfLfo( byte[] tableStream, int fcPlfLfo, int lcbPlfLfo )
+{{
+            LFO lfo = new LFO( tableStream, offset );
+}}

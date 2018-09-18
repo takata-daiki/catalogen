@@ -2,6 +2,7 @@
             CharacterProperties parStyle, byte[] grpprl, int offset )
     {
         CharacterProperties newProperties;
-{{                applySprms( parStyle, styleSheet.getCHPX( style ), 0, false,
+{{
+                applySprms( parStyle, styleSheet.getCHPX( style ), 0, false,
                         newProperties );
 }}}

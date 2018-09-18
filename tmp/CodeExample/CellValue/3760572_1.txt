@@ -1,4 +1,7 @@
+    private Object getFormulaValue()
+{
         CellValue obj = evaluator.evaluate(m_cell);
+
         switch(obj.getCellType())
         {
             case org.apache.poi.hssf.usermodel.HSSFCell.CELL_TYPE_BLANK:
@@ -10,4 +13,4 @@
             case org.apache.poi.hssf.usermodel.HSSFCell.CELL_TYPE_STRING:
             default:
                 return obj.getStringValue();
-}
+}}

@@ -1,3 +1,5 @@
+                public String toString()
+}}
         Range deadFieldValueSubrage = new Range( range.getCharacterRun(
                 separatorMark ).getStartOffset() + 1, range.getCharacterRun(
                 endMark ).getStartOffset(), range )
@@ -6,4 +8,3 @@
             public String toString()
             {
                 return "DeadFieldValueSubrange (" + super.toString() + ")";
-}}

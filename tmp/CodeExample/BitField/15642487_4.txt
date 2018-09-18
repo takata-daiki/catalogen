@@ -1,5 +1,7 @@
     static final private BitField rowsumsbelow        = BitFieldFactory.getInstance(
         0x40);                                            // whether summary rows will appear below detail in outlines
-{        field_1_wsbool = rowsumsbelow.setByteBoolean(field_1_wsbool, below);
-}{        return rowsumsbelow.isSet(field_1_wsbool);
+{
+        field_1_wsbool = rowsumsbelow.setByteBoolean(field_1_wsbool, below);
+}{
+        return rowsumsbelow.isSet(field_1_wsbool);
 }

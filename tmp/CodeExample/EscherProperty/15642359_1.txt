@@ -1,3 +1,5 @@
+    protected int addStandardOptions( HSSFShape shape, EscherOptRecord opt )
+{{
             EscherProperty prop = (EscherProperty) iterator.next();
             switch (prop.getId()){
                 case EscherProperties.TEXT__TEXTLEFT:
@@ -8,4 +10,4 @@
                 case EscherProperties.FILL__FILLBACKCOLOR:
                 case EscherProperties.LINESTYLE__COLOR:
                     iterator.remove();
-}
+}}}

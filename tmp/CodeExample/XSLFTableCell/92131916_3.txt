@@ -1,2 +1,6 @@
+    private XMLSlideShow generatePreview(XMLSlideShow ppt, List<PreviewReportingDocument> previewData, String cityName,
+                                         int repDocsStartNum) {
+{
             XSLFTableCell cityCell = row.addCell();
             XSLFTextParagraph cityCellP = cityCell.addNewTextParagraph();
+}}

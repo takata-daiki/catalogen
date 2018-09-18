@@ -1,5 +1,9 @@
+  public void erstelleExcel(ArrayList<String> spalten, int patient1,
+      int patient2, int kontaktperson1, int kontaktperson2, String von, String bis) {
+{{
         XSSFRow dataRow = sheet.createRow(i + 3);
         XSSFCell cell1f = dataRow.createCell(0);
         XSSFCell cell0 = dataRow.createCell(1);
-{          XSSFCell cell1 = dataRow.createCell(j + 2);
-}
+{
+          XSSFCell cell1 = dataRow.createCell(j + 2);
+}}}}

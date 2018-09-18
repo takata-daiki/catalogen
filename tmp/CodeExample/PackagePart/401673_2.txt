@@ -1,4 +1,5 @@
   private PackagePart resourcesPart;
-{{{          if (resourcesPart != null)
+{{{
+          if (resourcesPart != null)
             session.start(resourcesPart.getInputStream());
 }}}

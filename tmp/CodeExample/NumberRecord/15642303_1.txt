@@ -1,6 +1,12 @@
+    private void setCellType(int cellType, boolean setValue, int row,short col, short styleIndex)
+{{
             case CELL_TYPE_NUMERIC :
                 NumberRecord nrec = null;
+
                 nrec.setColumn(col);
-{                    nrec.setValue(getNumericCellValue());
-}                nrec.setXFIndex(styleIndex);
+{
+                    nrec.setValue(getNumericCellValue());
+}
+                nrec.setXFIndex(styleIndex);
                 nrec.setRow(row);
+}}

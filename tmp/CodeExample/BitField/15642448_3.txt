@@ -1,5 +1,7 @@
     private static final BitField          zeroHeight    = BitFieldFactory.getInstance(0x20);
-{        field_7_option_flags =
+{
+        field_7_option_flags =
             zeroHeight.setShortBoolean(field_7_option_flags, z);
-}{        return zeroHeight.isSet(field_7_option_flags);
+}{
+        return zeroHeight.isSet(field_7_option_flags);
 }

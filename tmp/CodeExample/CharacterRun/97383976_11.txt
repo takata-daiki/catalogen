@@ -1,3 +1,6 @@
+    protected void processImage( Element currentBlock, boolean inlined,
+            Picture picture )
+
     protected void processNoteAnchor( HWPFDocument doc,
             CharacterRun characterRun, final Element block )
     {
@@ -6,6 +9,7 @@
             int noteIndex = footnotes
                     .getNoteIndexByAnchorPosition( characterRun
                             .getStartOffset() );
-}{            int noteIndex = endnotes.getNoteIndexByAnchorPosition( characterRun
+}{
+            int noteIndex = endnotes.getNoteIndexByAnchorPosition( characterRun
                     .getStartOffset() );
 }}

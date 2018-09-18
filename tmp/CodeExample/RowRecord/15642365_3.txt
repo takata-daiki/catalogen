@@ -1,3 +1,4 @@
-                RowRecord row = (RowRecord)itr.next();
-                if (cells != null && cells.rowHasCells(row.getRowNumber()))
-                    retval += 2;
+    public void addRow(RowRecord row)
+{
+         RowRecord existingRow = rows.getRow(row.getRowNumber());
+}

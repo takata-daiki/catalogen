@@ -1,3 +1,4 @@
+    protected Record createWindowProtect() {
         WindowProtectRecord retval = new WindowProtectRecord();
         retval.setProtect(
         false);   // by default even when we support it we won't

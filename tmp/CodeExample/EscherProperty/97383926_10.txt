@@ -1,4 +1,6 @@
+    public void removeEscherProperty(int num){
+{
             EscherProperty prop = iterator.next();
             if (prop.getPropertyNumber() == num){
                 iterator.remove();
-}
+}}

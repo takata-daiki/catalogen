@@ -1,3 +1,6 @@
+    private static Map<Header, Value> makeRow ( final HSSFWorkbook workbook, final Map<Integer, Header> headers, final Row row )
+{{{{
                     final HSSFFont font = workbook.getFontAt ( cell.getCellStyle ().getFontIndex () );
-{                        value.setStrikeThrough ( font.getStrikeout () );
-}
+{
+                        value.setStrikeThrough ( font.getStrikeout () );
+}}}}}

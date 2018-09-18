@@ -1,0 +1,8 @@
+  public static void paste (HSSFSheet sh, AreaReference areaRef,  ExcelBuffer buffer, byte typePaste){
+{{{{{
+              CellRangeAddress pasteCRA = 
+                new CellRangeAddress(indexBegRowMergeRegion, 
+                    indexEndRowMergeRegion, 
+                    indexBegColMergeRegion, 
+                    indexBegColMergeRegion+countColMergeRegion);
+}}}}}

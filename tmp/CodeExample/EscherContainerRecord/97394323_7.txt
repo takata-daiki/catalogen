@@ -1,0 +1,5 @@
+    public boolean removeShape(Shape shape) {
+        EscherContainerRecord spgr = null;
+
+        List<EscherRecord> lst = spgr.getChildRecords();
+        spgr.setChildRecords(lst);

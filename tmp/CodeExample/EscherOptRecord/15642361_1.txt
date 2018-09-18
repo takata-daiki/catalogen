@@ -1,4 +1,7 @@
+    private EscherContainerRecord createSpContainer(HSSFSimpleShape hssfShape, int shapeId)
+{
         EscherOptRecord opt = new EscherOptRecord();
         opt.setRecordId( EscherOptRecord.RECORD_ID );
         opt.addEscherProperty( new EscherShapePathProperty( EscherProperties.GEOMETRY__SHAPEPATH, EscherShapePathProperty.COMPLEX ) );
         opt.addEscherProperty( new EscherBoolProperty( EscherProperties.LINESTYLE__NOLINEDRAWDASH, 1048592 ) );
+}

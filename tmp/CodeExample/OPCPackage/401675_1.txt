@@ -1,6 +1,8 @@
   private OPCPackage pack;
-{{      pack.close();
-}}{{      if (pack.containPart(partName))  return null;
+{{
+      pack.close();
+}}{{
+      if (pack.containPart(partName))  return null;
       part = pack.createPart(partName, contentType);
       else 
         pack.addRelationship(partName, TargetMode.INTERNAL, relationshipType);        

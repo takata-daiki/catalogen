@@ -1,2 +1,3 @@
+    Color getColor(short colorProperty, short opacityProperty, int defaultColor){
         EscherSimpleProperty p = (EscherSimpleProperty)getEscherProperty(opt, colorProperty);
         int val = p == null ? defaultColor : p.getPropertyValue();

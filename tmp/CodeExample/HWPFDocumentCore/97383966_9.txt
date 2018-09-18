@@ -1,5 +1,7 @@
-    protected void processTable( HWPFDocumentCore hwpfDocument, Element flow,
-            Table table )
+    @Override
+    protected void processSingleSection( HWPFDocumentCore wordDocument,
+            Section section )
     {
-        Element tableHeader = htmlDocumentFacade.createTableHeader();
+        htmlDocumentFacade.addStyleClass( htmlDocumentFacade.body, "b",
+                getSectionStyle( section ) );
 }

@@ -1,3 +1,5 @@
+  private static CellRangeAddressList unionAllRectangular(List<List<CellRangeAddress>> rangeListForColumns){
     CellRangeAddressList rangeList = new CellRangeAddressList();
-{      for(CellRangeAddress crA:rangeListForColumns.get(0)) rangeList.addCellRangeAddress(crA);
+{
+      for(CellRangeAddress crA:rangeListForColumns.get(0)) rangeList.addCellRangeAddress(crA);
 }

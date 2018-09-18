@@ -1,4 +1,6 @@
     /**/private static BitField fBackward = new BitField(0x0002);
-{        field_40_fontAlign = (short)fBackward.setBoolean(field_40_fontAlign, value);
-}{        return fBackward.isSet(field_40_fontAlign);
+{
+        field_40_fontAlign = (short)fBackward.setBoolean(field_40_fontAlign, value);
+}{
+        return fBackward.isSet(field_40_fontAlign);
 }

@@ -1,8 +1,11 @@
+    public static Record [] createRecord(RecordInputStream in)
+{{
             MulRKRecord mrk = ( MulRKRecord ) retval;
             realretval = new Record[ mrk.getNumColumns() ];
             for (int k = 0; k < mrk.getNumColumns(); k++)
-{                nr.setColumn(( short ) (k + mrk.getFirstColumn()));
+{
+                nr.setColumn(( short ) (k + mrk.getFirstColumn()));
                 nr.setRow(mrk.getRow());
                 nr.setXFIndex(mrk.getXFAt(k));
                 nr.setValue(mrk.getRKNumberAt(k));
-}
+}}}

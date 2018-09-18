@@ -1,3 +1,4 @@
+    public void resize(){
         HSSFClientAnchor anchor = (HSSFClientAnchor)getAnchor();
         anchor.setAnchorType(2);
         int row2 = anchor.getRow1() + (pref.getRow2() - pref.getRow1());

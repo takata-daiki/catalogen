@@ -1,2 +1,6 @@
+  FIBFieldHandler(byte[] mainStream, int offset, int cbRgFcLcb, byte[] tableStream,
+                         HashSet<Integer> offsetList, boolean areKnown)
+{{{{{
             UnhandledDataStructure unhandled = new UnhandledDataStructure(
               tableStream, dsOffset, dsSize);
+}}}}}

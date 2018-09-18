@@ -1,17 +1,27 @@
+    public boolean isSupportedType(final int variantType)
+{
         TypedPropertyValue typedPropertyValue = new TypedPropertyValue(
                 (int) type, null );
-{            unpadded = typedPropertyValue.readValue( src, offset );
-}{        case Variant.VT_EMPTY:
+{
+            unpadded = typedPropertyValue.readValue( src, offset );
+}{
+        case Variant.VT_EMPTY:
         case Variant.VT_I4:
         case Variant.VT_I8:
         case Variant.VT_R8:
             return typedPropertyValue.getValue();
-{            return Integer.valueOf( ( (Short) typedPropertyValue.getValue() )
+{
+            return Integer.valueOf( ( (Short) typedPropertyValue.getValue() )
                     .intValue() );
-}{            Filetime filetime = (Filetime) typedPropertyValue.getValue();
-}{            CodePageString string = (CodePageString) typedPropertyValue
+}{
+            Filetime filetime = (Filetime) typedPropertyValue.getValue();
+}{
+            CodePageString string = (CodePageString) typedPropertyValue
                     .getValue();
-}{            UnicodeString string = (UnicodeString) typedPropertyValue
-}{            ClipboardData clipboardData = (ClipboardData) typedPropertyValue
-}{            VariantBool bool = (VariantBool) typedPropertyValue.getValue();
-}}
+}{
+            UnicodeString string = (UnicodeString) typedPropertyValue
+}{
+            ClipboardData clipboardData = (ClipboardData) typedPropertyValue
+}{
+            VariantBool bool = (VariantBool) typedPropertyValue.getValue();
+}}}

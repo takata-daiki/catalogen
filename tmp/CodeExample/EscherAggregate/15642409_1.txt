@@ -1,5 +1,9 @@
-        EscherAggregate agg = new EscherAggregate(drawingManager);
-{            agg.addEscherRecord( r );
-}        agg.shapeToObj = new HashMap();
-{            agg.shapeToObj.put( shapeRecords.get( shapeIndex++ ), objRecord );
+            public EscherRecord createRecord( byte[] data, int offset )
 }
+        EscherAggregate agg = new EscherAggregate(drawingManager);
+{
+            agg.addEscherRecord( r );
+}
+        agg.shapeToObj = new HashMap();
+{
+            agg.shapeToObj.put( shapeRecords.get( shapeIndex++ ), objRecord );

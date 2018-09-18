@@ -1,0 +1,2 @@
+  public static AreaReference range(HSSFWorkbook wb, String nameRange, Map<String, Map<String, HSSFName>> mapWbNames, String[] sheetNames){
+    HSSFName name = sheetNames == null ? getNamedRange(wb, nameRange):getNamedRangeInSheets(mapWbNames, nameRange, sheetNames);

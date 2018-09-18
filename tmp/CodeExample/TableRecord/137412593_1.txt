@@ -1,12 +1,19 @@
+  public String getReportFilename(Date fromDate, Date toDate,
+      String dataAreaId) {
+{{
         TableRecord record = new TableRecord();
         record.itemName = item.getName();
         record.UOMId = item.getUOMId();
-{          if (bom.getPercentage() < 0)
+{
+          if (bom.getPercentage() < 0)
             record.oper = "Списано";
           else
             record.oper = "Произведено";
-}{          record.oper = "Списано";
-}        String key = record.itemName + " " + record.oper;
-{          if (record.oper.equals("Произведено"))
-            produceItems.add(record);
+}{
+          record.oper = "Списано";
 }
+        String key = record.itemName + " " + record.oper;
+{
+          if (record.oper.equals("Произведено"))
+            produceItems.add(record);
+}}}}

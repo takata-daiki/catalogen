@@ -1,0 +1,2 @@
+  private void testToFormulaString(Cell cell, String expect) {
+    HSSFEvaluationWorkbook evalbook = HSSFEvaluationWorkbook.create((HSSFWorkbook)_workbook);

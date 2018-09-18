@@ -1,2 +1,5 @@
+  private static PackagePart getPartByRelationshipType(PackagePart part, String relationshipType) {
+{
       OPCPackage pack = part.getPackage();
       return pack.getPart(PackagingURIHelper.createPartName(rels.getRelationship(0).getTargetURI()));
+}

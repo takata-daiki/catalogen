@@ -1,5 +1,4 @@
-    private List<XWPFTableCell> getVMergedCells( XWPFTableCell cell, int rowIndex, int cellIndex )
-    {
-        List<XWPFTableCell> vMergedCells = null;
-{{                XWPFTable table = cell.getTableRow().getTable();
+    private boolean isLastRow( int rowIndex, int rowsSize )
+{{{
+                XWPFTableCell cell = cells.get( i );
 }}}

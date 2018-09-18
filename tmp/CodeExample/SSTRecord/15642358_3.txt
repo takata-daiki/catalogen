@@ -1,4 +1,7 @@
+    public int getSize()
+{
         SSTRecord sst = null;
-{{                if (record.getSid() == ExtSSTRecord.sid && sst != null)
+{{
+                if (record.getSid() == ExtSSTRecord.sid && sst != null)
                     retval += sst.calcExtSSTRecordSize();
-}}
+}}}

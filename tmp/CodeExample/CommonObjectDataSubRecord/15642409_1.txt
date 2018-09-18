@@ -1,3 +1,5 @@
+    private void convertGroup( HSSFShapeGroup shape, EscherContainerRecord escherParent, Map shapeToObj )
+{
         CommonObjectDataSubRecord cmo = new CommonObjectDataSubRecord();
         cmo.setObjectType( CommonObjectDataSubRecord.OBJECT_TYPE_GROUP );
         cmo.setObjectId( (short) ( shapeId ) );
@@ -5,3 +7,4 @@
         cmo.setPrintable( true );
         cmo.setAutofill( true );
         cmo.setAutoline( true );
+}

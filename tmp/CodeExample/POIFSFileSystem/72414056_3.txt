@@ -1,0 +1,3 @@
+    AbstractExcelView excelView = new AbstractExcelView() {
+}
+    POIFSFileSystem poiFs = new POIFSFileSystem(new ByteArrayInputStream(response.getContentAsByteArray()));

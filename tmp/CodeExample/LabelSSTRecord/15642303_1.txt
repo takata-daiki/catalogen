@@ -1,7 +1,11 @@
+    private void setCellType(int cellType, boolean setValue, int row,short col, short styleIndex)
+{{
             case CELL_TYPE_STRING :
                 LabelSSTRecord lrec = null;
+
                 lrec.setColumn(col);
                 lrec.setRow(row);
                 lrec.setXFIndex(styleIndex);
-{{                        lrec.setSSTIndex(sst);
-}}
+{{
+                        lrec.setSSTIndex(sst);
+}}}}

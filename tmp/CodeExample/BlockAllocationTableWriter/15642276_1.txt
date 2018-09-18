@@ -1,7 +1,12 @@
+    public POIFSFileSystem()
+{
         BlockAllocationTableWriter bat        =
             new BlockAllocationTableWriter();
-{{                bmo.setStartBlock(bat.allocateSpace(block_count));
-}}        int               batStartBlock       = bat.createBlocks(512);
+{{
+                bmo.setStartBlock(bat.allocateSpace(block_count));
+}}
+        int               batStartBlock       = bat.createBlocks(512);
         BATBlock[]        xbat_blocks         =
             header_block_writer.setBATBlocks(bat.countBlocks(),
                                              batStartBlock, 512);
+}

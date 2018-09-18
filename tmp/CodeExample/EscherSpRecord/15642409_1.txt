@@ -1,3 +1,5 @@
+    private void convertGroup( HSSFShapeGroup shape, EscherContainerRecord escherParent, Map shapeToObj )
+{
         EscherSpRecord sp = new EscherSpRecord();
         sp.setRecordId( EscherSpRecord.RECORD_ID );
         sp.setOptions( (short) 0x0002 );
@@ -6,3 +8,4 @@
             sp.setFlags( EscherSpRecord.FLAG_GROUP | EscherSpRecord.FLAG_HAVEANCHOR );
         else
             sp.setFlags( EscherSpRecord.FLAG_GROUP | EscherSpRecord.FLAG_HAVEANCHOR | EscherSpRecord.FLAG_CHILD );
+}

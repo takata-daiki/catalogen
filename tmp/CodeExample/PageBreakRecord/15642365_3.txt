@@ -2,6 +2,7 @@
       if(rowBreaks == null)
         return;
       Iterator iterator = breaks.getBreaksIterator();
-{        breaks.removeBreak(breakItem.main);
+{
+        breaks.removeBreak(breakItem.main);
         breaks.addBreak((short)(breakItem.main+count), breakItem.subFrom, breakItem.subTo);
 }

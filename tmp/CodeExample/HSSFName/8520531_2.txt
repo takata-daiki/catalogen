@@ -1,5 +1,6 @@
       HSSFName aNamedCell = wb.getNameAt(namedCellIdx);
       AreaReference aref = new AreaReference(aNamedCell.getReference());
-{{          String cellHandle = Range.getUniqueCellName(aNamedCell
+{{
+          String cellHandle = Range.getUniqueCellName(aNamedCell
               .getNameName(), thisCellinRange);
 }}

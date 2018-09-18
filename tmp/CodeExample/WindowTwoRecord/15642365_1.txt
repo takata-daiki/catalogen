@@ -1,19 +1,33 @@
     protected WindowTwoRecord            windowTwo         =     null;
-{      return (windowTwo==null) ? (short) 0 : windowTwo.getTopRow();
-}{{        windowTwo.setTopRow(topRow);
-}}{{          windowTwo.setLeftCol(leftCol);
-}}{          return (windowTwo==null) ? (short) 0 : windowTwo.getLeftCol();
-}{        windowTwo.setSelected(sel);
-}{        windowTwo.setFreezePanes(true);
+{
+      return (windowTwo==null) ? (short) 0 : windowTwo.getTopRow();
+}{{
+        windowTwo.setTopRow(topRow);
+}}{{
+          windowTwo.setLeftCol(leftCol);
+}}{
+          return (windowTwo==null) ? (short) 0 : windowTwo.getLeftCol();
+}{
+        windowTwo.setSelected(sel);
+}{
+        windowTwo.setFreezePanes(true);
         windowTwo.setFreezePanesNoSplit(true);
-}{        windowTwo.setFreezePanes(false);
+}{
+        windowTwo.setFreezePanes(false);
         windowTwo.setFreezePanesNoSplit(false);
-}{      return new PaneInformation(rec.getX(), rec.getY(), rec.getTopRow(),
+}{
+      return new PaneInformation(rec.getX(), rec.getY(), rec.getTopRow(),
                              rec.getLeftColumn(), (byte)rec.getActivePane(), windowTwo.getFreezePanes());      
-}{        windowTwo.setDisplayGridlines(show);
-}{  return windowTwo.getDisplayGridlines();
-}{        windowTwo.setDisplayFormulas(show);
-}{  return windowTwo.getDisplayFormulas();
-}{        windowTwo.setDisplayRowColHeadings(show);
-}{      return windowTwo.getDisplayRowColHeadings();
+}{
+        windowTwo.setDisplayGridlines(show);
+}{
+  return windowTwo.getDisplayGridlines();
+}{
+        windowTwo.setDisplayFormulas(show);
+}{
+  return windowTwo.getDisplayFormulas();
+}{
+        windowTwo.setDisplayRowColHeadings(show);
+}{
+      return windowTwo.getDisplayRowColHeadings();
 }

@@ -1,5 +1,8 @@
+  protected void formatPage(HSSFSheet sheet)
+{
     HSSFPrintSetup ps = sheet.getPrintSetup();
     ps.setFitWidth((short)1);
     ps.setNoColor(true);
     ps.setPaperSize(HSSFPrintSetup.A4_PAPERSIZE);
     ps.setLandscape(false);
+}

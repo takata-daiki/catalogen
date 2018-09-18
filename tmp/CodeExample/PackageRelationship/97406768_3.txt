@@ -1,3 +1,5 @@
+    String importBlip(String blipId, PackagePart packagePart) {
         PackageRelationship blipRel = packagePart.getRelationship(blipId);
+
         PackageRelationship rel = getPackagePart().addRelationship(
                 pic.getPartName(), TargetMode.INTERNAL, blipRel.getRelationshipType());

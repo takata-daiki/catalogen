@@ -1,2 +1,6 @@
+    private void addBodyElements( XmlTokenSource source, IBody part, List<IBodyElement> bodyElements )
+{
         PackagePart hdrPart = document.getPartById( footerRef.getId() );
+
         FtrDocument hdrDoc = FtrDocument.Factory.parse( hdrPart.getInputStream() );
+}

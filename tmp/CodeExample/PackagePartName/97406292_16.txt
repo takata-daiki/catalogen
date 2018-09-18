@@ -1,5 +1,12 @@
   public PackageRelationship addRelationship(PackagePartName targetPartName,
-      TargetMode targetMode, String relationshipType) {
-    return this.addRelationship(targetPartName, targetMode,
-        relationshipType, null);
+      TargetMode targetMode, String relationshipType, String relID) {
+    if (relationshipType.equals(PackageRelationshipTypes.CORE_PROPERTIES)
+        && this.packageProperties != null)
+      throw new InvalidOperationException(
+          "OPC Compliance error [M4.1]: can't add another core properties part ! Use the built-in package method instead.");
+    if (targetPartName.isRelationshipPartURI()) {
+          "Rule M1.25: The Relationships part shall not have relationships to any other part.");
+}
+    PackageRelationship retRel = relationships.addRelationship(
+        targetPartName.getURI(), targetMode, relationshipType, relID);
 }

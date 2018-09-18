@@ -1,0 +1,4 @@
+  public String readPptx(String path) {
+{
+      OPCPackage opcPackage = POIXMLDocument.openPackage(path);
+}

@@ -1,3 +1,6 @@
+    public MediaType getDefault() {
+}{
          POIFSFileSystem fs =
              new POIFSFileSystem(new FileInputStream(stream.getFile()));
+
          MediaType mt = detectCorel(fs.getRoot());

@@ -1,4 +1,7 @@
+  public void processRecord(Record record) {
+{
     case NoteRecord.sid:
       NoteRecord nrec = (NoteRecord) record;
       thisRow = nrec.getRow();
       thisColumn = nrec.getColumn();
+}

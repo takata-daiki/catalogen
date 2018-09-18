@@ -1,4 +1,6 @@
     protected GridsetRecord              gridset           =     null;
-{        return !gridset.getGridset();
-}{        gridset.setGridset(!value);
+{
+        return !gridset.getGridset();
+}{
+        gridset.setGridset(!value);
 }

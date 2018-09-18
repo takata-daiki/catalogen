@@ -1,33 +1,52 @@
     private final XSLFTextParagraph _p;
-{        final XSLFTheme theme = _p.getParentShape().getSheet().getTheme();
+{
+        final XSLFTheme theme = _p.getParentShape().getSheet().getTheme();
         CTShapeStyle style = _p.getParentShape().getSpStyle();
         CharacterPropertyFetcher<Color> fetcher = new CharacterPropertyFetcher<Color>(_p.getLevel()){
             public boolean fetch(CTTextCharacterProperties props){
                 CTSolidColorFillProperties solidFill = props.getSolidFill();
-}}}{        CharacterPropertyFetcher<Double> fetcher = new CharacterPropertyFetcher<Double>(_p.getLevel()){
-{                if(props.isSetSz()){
+}}}{
+        CharacterPropertyFetcher<Double> fetcher = new CharacterPropertyFetcher<Double>(_p.getLevel()){
+{
+                if(props.isSetSz()){
                     setValue(props.getSz()*0.01);
-}}}}{{{                if(props.isSetSpc()){
+}}}}{{{
+                if(props.isSetSpc()){
                     setValue(props.getSpc()*0.01);
-}}}}{        CharacterPropertyFetcher<String> visitor = new CharacterPropertyFetcher<String>(_p.getLevel()){
-{                CTTextFont font = props.getLatin();
-}}}{        CharacterPropertyFetcher<Byte> visitor = new CharacterPropertyFetcher<Byte>(_p.getLevel()){
-}}{        CharacterPropertyFetcher<Boolean> fetcher = new CharacterPropertyFetcher<Boolean>(_p.getLevel()){
-{                if(props.isSetStrike()){
+}}}}{
+        CharacterPropertyFetcher<String> visitor = new CharacterPropertyFetcher<String>(_p.getLevel()){
+{
+                CTTextFont font = props.getLatin();
+}}}{
+        CharacterPropertyFetcher<Byte> visitor = new CharacterPropertyFetcher<Byte>(_p.getLevel()){
+}}{
+        CharacterPropertyFetcher<Boolean> fetcher = new CharacterPropertyFetcher<Boolean>(_p.getLevel()){
+{
+                if(props.isSetStrike()){
                     setValue(props.getStrike() != STTextStrikeType.NO_STRIKE);
-}}}}{{{                if(props.isSetBaseline()){
+}}}}{{{
+                if(props.isSetBaseline()){
                     setValue(props.getBaseline() > 0);
-}}}}{{{{                    setValue(props.getBaseline() < 0);
-}}}}{        CharacterPropertyFetcher<TextCap> fetcher = new CharacterPropertyFetcher<TextCap>(_p.getLevel()){
-{                if(props.isSetCap()){
+}}}}{{{{
+                    setValue(props.getBaseline() < 0);
+}}}}{
+        CharacterPropertyFetcher<TextCap> fetcher = new CharacterPropertyFetcher<TextCap>(_p.getLevel()){
+{
+                if(props.isSetCap()){
                     int idx = props.getCap().intValue() - 1;
-}}}}{{{                if(props.isSetB()){
+}}}}{{{
+                if(props.isSetB()){
                     setValue(props.getB());
-}}}}{{{                if(props.isSetI()){
+}}}}{{{
+                if(props.isSetI()){
                     setValue(props.getI());
-}}}}{{{                if(props.isSetU()){
+}}}}{{{
+                if(props.isSetU()){
                     setValue(props.getU() != STTextUnderlineType.NONE);
-}}}}{{            XSLFTextShape shape = _p.getParentShape();
-{{                    CTTextParagraphProperties themeProps = ppt.getDefaultParagraphStyle(_p.getLevel());
-}{                    CTTextParagraphProperties defaultProps =  _p.getDefaultMasterStyle();
+}}}}{{
+            XSLFTextShape shape = _p.getParentShape();
+{{
+                    CTTextParagraphProperties themeProps = ppt.getDefaultParagraphStyle(_p.getLevel());
+}{
+                    CTTextParagraphProperties defaultProps =  _p.getDefaultMasterStyle();
 }}}}

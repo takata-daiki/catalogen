@@ -1,3 +1,7 @@
+  private static List<HSSFCell> findInArea(HSSFSheet sh, 
+      AreaReference areaRef, Object valueSearch, Object valueReplace, byte lookIn, XlLookAt lookAt, XlSearchDirection searchDirection, boolean isFirst, boolean isReplace){
+{{{{{{
                 HSSFRichTextString richTextString  = comment.getString();
-{                  String textComment = richTextString.getString();
-}
+{
+                  String textComment = richTextString.getString();
+}}}}}}}}

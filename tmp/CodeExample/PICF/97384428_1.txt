@@ -1,12 +1,25 @@
+    private static boolean matchSignature( byte[] pictureData,
+            byte[] signature, int offset )
+
     private PICF _picf;
-{        return _picf.getMx() / 10;
-}{        return _picf.getMy() / 10;
-}{        return _picf.getDxaReserved1();
-}{        return _picf.getDxaReserved2();
-}{        return _picf.getDxaGoal();
-}{        return _picf.getDyaReserved2();
-}{        return _picf.getDyaReserved1();
-}{        return _picf.getDyaGoal();
-}{        return _picf.getMx();
-}{        return _picf.getMy();
+{
+        return _picf.getMx() / 10;
+}{
+        return _picf.getMy() / 10;
+}{
+        return _picf.getDxaReserved1();
+}{
+        return _picf.getDxaReserved2();
+}{
+        return _picf.getDxaGoal();
+}{
+        return _picf.getDyaReserved2();
+}{
+        return _picf.getDyaReserved1();
+}{
+        return _picf.getDyaGoal();
+}{
+        return _picf.getMx();
+}{
+        return _picf.getMy();
 }

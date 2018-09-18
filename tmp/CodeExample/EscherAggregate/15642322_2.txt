@@ -1,3 +1,6 @@
+    public HSSFPatriarch createDrawingPatriarch()
+{
         EscherAggregate agg = (EscherAggregate) sheet.findFirstRecordBySid(EscherAggregate.sid);
         agg.clear();     // Initially the behaviour will be to clear out any existing shapes in the sheet when
         agg.setPatriarch(patriarch);
+}

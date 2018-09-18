@@ -1,2 +1,5 @@
+    public boolean isSupportedType(final int variantType)
+{{{
             VariantBool bool = (VariantBool) typedPropertyValue.getValue();
             return Boolean.valueOf( bool.getValue() );
+}}}

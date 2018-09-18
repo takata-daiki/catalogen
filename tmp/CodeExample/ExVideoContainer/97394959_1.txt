@@ -1,3 +1,5 @@
+  public int addMovie(String path, int type) {
+
     ExVideoContainer exVideo = mci.getExVideo();
     exVideo.getExMediaAtom().setObjectId(objectId);
     exVideo.getExMediaAtom().setMask(0xE80000);

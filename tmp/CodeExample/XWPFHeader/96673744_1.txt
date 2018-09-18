@@ -2,8 +2,10 @@
     protected void visitHeader( XWPFHeader header, CTHdrFtrRef headerRef, CTSectPr sectPr, XHTMLMasterPage masterPage )
         throws Exception
     {
-}    }
+}
+    }
     protected void visitFooter( XWPFFooter footer, CTHdrFtrRef footerRef, CTSectPr sectPr, XHTMLMasterPage masterPage )
+
     protected void visitPicture( CTPicture picture,
                                  Float offsetX,
                                  Enum relativeFromH,
@@ -11,5 +13,6 @@
                                  org.openxmlformats.schemas.drawingml.x2006.wordprocessingDrawing.STRelFromV.Enum relativeFromV,
                                  org.openxmlformats.schemas.drawingml.x2006.wordprocessingDrawing.STWrapText.Enum wrapText,
                                  Object parentContainer )
-{        AttributesImpl attributes = null;
+{
+        AttributesImpl attributes = null;
 }

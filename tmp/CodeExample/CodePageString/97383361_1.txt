@@ -1,3 +1,6 @@
+    public boolean isSupportedType(final int variantType)
+{{{
             CodePageString string = (CodePageString) typedPropertyValue
                     .getValue();
             return string.getJavaValue( codepage );
+}}}

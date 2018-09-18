@@ -1,4 +1,5 @@
   public static void writeWorkbook(HSSFWorkbook wb, String fileName) {
     FileOutputStream fos = null;
-{      wb.write(fos);
+{
+      wb.write(fos);
 }

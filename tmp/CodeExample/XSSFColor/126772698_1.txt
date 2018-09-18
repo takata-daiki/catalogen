@@ -1,2 +1,4 @@
-    XSSFColor colour = ((XSSFFont)font).getXSSFColor();
-    int fgRgb[] = rgbOnly( colour.getARgb() );
+  public void applyBorderStyle(Workbook workbook, CellStyle style, BorderSide side, CSSValue colour, CSSValue borderStyle, CSSValue width) {
+{{
+        XSSFColor xBorderColour = getXColour(colourString);
+}}

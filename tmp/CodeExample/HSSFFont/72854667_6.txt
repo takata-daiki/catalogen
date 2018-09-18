@@ -1,2 +1,3 @@
-            HSSFFont hssfFont = cellStyle.getFont(getWorkbook());
-            short colorIndex = hssfFont.getColor();
+    public Font getFont() {
+
+        HSSFFont hssfFont = cellStyle.getFont(getWorkbook());

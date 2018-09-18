@@ -1,4 +1,7 @@
+  public void erstelleExcel(ArrayList<String> spalten) {
+{{
         XSSFCell betreuerinnen_cell = dataRow.createCell(0);
         betreuerinnen_cell.setCellStyle(dataStyle);
         betreuerinnen_cell.setCellValue(new XSSFRichTextString(""
             + b.getNummer()));
+}}

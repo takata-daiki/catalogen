@@ -1,6 +1,9 @@
+  private void createChp(int istd)
+{
       StyleDescription sd = _styleDescriptions[istd];
       CharacterProperties chp = sd.getCHP();
       byte[] chpx = sd.getCHPX();
       int baseIndex = sd.getBaseStyle();
-{          sd.setCHP(chp);
-}
+{
+          sd.setCHP(chp);
+}}

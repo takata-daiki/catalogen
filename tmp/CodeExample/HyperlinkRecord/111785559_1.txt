@@ -1,5 +1,8 @@
+        public void processRecord(Record record) {
+}{{{
                     HyperlinkRecord link = (HyperlinkRecord) record;
                     Point point =
                         new Point(link.getFirstColumn(), link.getFirstRow());
-{                        addCell(record, new LinkedCell(cell, link.getAddress()));
-}
+{
+                        addCell(record, new LinkedCell(cell, link.getAddress()));
+}}}

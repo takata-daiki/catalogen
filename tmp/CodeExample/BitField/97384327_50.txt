@@ -1,4 +1,6 @@
     /**/private static final BitField fMacChs = new BitField(0x0020);
-{        field_49_CharsetFlags = (short)fMacChs.setBoolean(field_49_CharsetFlags, value);
-}{        return fMacChs.isSet(field_49_CharsetFlags);
+{
+        field_49_CharsetFlags = (short)fMacChs.setBoolean(field_49_CharsetFlags, value);
+}{
+        return fMacChs.isSet(field_49_CharsetFlags);
 }

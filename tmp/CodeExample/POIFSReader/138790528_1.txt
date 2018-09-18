@@ -1,6 +1,8 @@
   private POIFSReader reader = null;
-{    this.reader.registerListener(
+{
+    this.reader.registerListener(
             new PropertiesReaderListener(this.properties),
             SummaryInformation.DEFAULT_STREAM_NAME);
-{      reader.read(input);
+{
+      reader.read(input);
 }}

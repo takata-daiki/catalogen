@@ -1,8 +1,11 @@
+    private void dumpOfficeDrawings()
+{{
             HWPFDocument doc = (HWPFDocument) _doc;
             PlexOfCps binTable = new PlexOfCps( doc.getTableStream(), doc
                     .getFileInformationBlock().getFcPlcfbtePapx(), doc
                     .getFileInformationBlock().getLcbPlcfbtePapx(), 4 );
-{                PAPFormattedDiskPage pfkp = new PAPFormattedDiskPage(
+{
+                PAPFormattedDiskPage pfkp = new PAPFormattedDiskPage(
                         mainStream, doc.getDataStream(), pageOffset,
                         doc.getTextTable() );
-}
+}}}

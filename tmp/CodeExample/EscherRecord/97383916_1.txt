@@ -1,2 +1,5 @@
+    public int fillFields(byte[] data, int pOffset, EscherRecordFactory recordFactory) {
+{
             EscherRecord child = recordFactory.createRecord(data, offset);
             int childBytesWritten = child.fillFields(data, offset, recordFactory);
+}

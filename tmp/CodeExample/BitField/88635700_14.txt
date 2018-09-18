@@ -1,4 +1,6 @@
     /**/private static BitField fFormNoFields = new BitField(0x20);
-{        field_5_docinfo = (byte)fFormNoFields.setBoolean(field_5_docinfo, value);
-}{        return fFormNoFields.isSet(field_5_docinfo);
+{
+        field_5_docinfo = (byte)fFormNoFields.setBoolean(field_5_docinfo, value);
+}{
+        return fFormNoFields.isSet(field_5_docinfo);
 }

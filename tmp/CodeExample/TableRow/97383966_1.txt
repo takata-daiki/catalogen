@@ -1,11 +1,17 @@
+    protected void processTable( HWPFDocumentCore hwpfDocument, Element flow,
+            Table table )
+{{
             TableRow tableRow = table.getRow( r );
             final int rowCells = tableRow.numCells();
-{                TableCell tableCell = tableRow.getCell( c );
+{
+                TableCell tableCell = tableRow.getCell( c );
+
                 if ( tableRow.isTableHeader() )
                 {
                     tableCellElement = htmlDocumentFacade
                             .createTableHeaderCell();
-}}            if ( tableRow.isTableHeader() )
+}}
+            if ( tableRow.isTableHeader() )
             {
                 tableHeader.appendChild( tableRowElement );
-}
+}}}

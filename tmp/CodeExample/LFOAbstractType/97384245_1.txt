@@ -1,3 +1,5 @@
+    public boolean equals( Object obj )
+{
         LFOAbstractType other = (LFOAbstractType) obj;
         if ( field_1_lsid != other.field_1_lsid )
             return false;
@@ -5,7 +7,10 @@
         if ( field_3_unused2 != other.field_3_unused2 )
         if ( field_4_clfolvl != other.field_4_clfolvl )
         if ( field_5_ibstFltAutoNum != other.field_5_ibstFltAutoNum )
-{            if ( other.field_6_grfhic != null )
+{
+            if ( other.field_6_grfhic != null )
                 return false;
-}        else if ( !field_6_grfhic.equals( other.field_6_grfhic ) )
+}
+        else if ( !field_6_grfhic.equals( other.field_6_grfhic ) )
         if ( field_7_unused3 != other.field_7_unused3 )
+}

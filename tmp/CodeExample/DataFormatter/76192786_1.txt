@@ -1,3 +1,5 @@
+    public <T> List<T> values(RowMapper<T> mapper) {
         DataFormatter formatter = new DataFormatter();
-{{{{                        cellValues.add(formatter.formatCellValue(row.getCell(k)));
+{{{{
+                        cellValues.add(formatter.formatCellValue(row.getCell(k)));
 }}}}

@@ -1,11 +1,20 @@
+  public void erstelleExcel(ArrayList<String> spalten, String von, String bis) {
+{{{
           XSSFCell cell = dataRow.createCell(j+2);
           cell.setCellStyle(dataStyle);
-{            cell.setCellValue(new XSSFRichTextString(listzahlung
+{
+            cell.setCellValue(new XSSFRichTextString(listzahlung
                 .getRechnungsdatum()));
-}{                .getBetrag()));
-}{                .getRechnungsinfo()));
-}{                .getRechnungsnummer()));
-}{                .getBezahlt_datum()));
-}{                .getBar_bank()));
-}{                .getKontoauszug()));
-}
+}{
+                .getBetrag()));
+}{
+                .getRechnungsinfo()));
+}{
+                .getRechnungsnummer()));
+}{
+                .getBezahlt_datum()));
+}{
+                .getBar_bank()));
+}{
+                .getKontoauszug()));
+}}}}

@@ -1,4 +1,6 @@
     HSSFRequest request = new HSSFRequest();
-{      request.addListenerForAllRecords(formatListener);
-}{      request.addListenerForAllRecords(workbookBuildingListener);
+{
+      request.addListenerForAllRecords(formatListener);
+}{
+      request.addListenerForAllRecords(workbookBuildingListener);
 }

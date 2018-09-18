@@ -1,2 +1,5 @@
+  public void processRecord(Record record) {
+{{
         StringRecord srec = (StringRecord) record;
         thisStr = srec.getString();
+}}

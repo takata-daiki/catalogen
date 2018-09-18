@@ -1,3 +1,5 @@
+                        public String toString()
+}}}}{{
                 Range subrange = new Range( previous, range.getEndOffset(),
                         range )
                 {
@@ -5,4 +7,3 @@
                     public String toString()
                     {
                         return "AfterStructureSubrange " + super.toString();
-}}

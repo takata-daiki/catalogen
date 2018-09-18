@@ -1,14 +1,20 @@
     TextPiece currentPiece = (TextPiece)textIt.next();
     int currentTextStart = currentPiece.getStart();
     int currentTextEnd = currentPiece.getEnd();
-{{        currentTextStart = currentPiece.getStart ();
+{{
+        currentTextStart = currentPiece.getStart ();
         currentTextEnd = currentPiece.getEnd ();
-}{        String str = currentPiece.substring(runStart - currentTextStart, runEnd - currentTextStart);
-}{{          String str = currentPiece.substring(runStart - currentTextStart,
+}{
+        String str = currentPiece.substring(runStart - currentTextStart, runEnd - currentTextStart);
+}{{
+          String str = currentPiece.substring(runStart - currentTextStart,
                                    currentTextEnd - currentTextStart);
-{            currentTextStart = currentPiece.getStart ();
+{
+            currentTextStart = currentPiece.getStart ();
             currentTextEnd = currentPiece.getEnd ();
-}}        String str = currentPiece.substring(0, runEnd - currentTextStart);
-}{{          currentTextStart = currentPiece.getStart();
+}}
+        String str = currentPiece.substring(0, runEnd - currentTextStart);
+}{{
+          currentTextStart = currentPiece.getStart();
           currentTextEnd = currentPiece.getEnd();
 }}}

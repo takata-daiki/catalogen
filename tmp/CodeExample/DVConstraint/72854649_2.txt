@@ -1,3 +1,6 @@
+      public void visitRecord(Record r) {
+{{
             DVConstraint dvConstraint = DVConstraint
                 .createNumericConstraint(validationType,
                     comparison, formula1, formula2);
+}}

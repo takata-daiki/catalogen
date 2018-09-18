@@ -2,8 +2,11 @@
     throws IOException, HSSFUserException
   {
     short userCode = 0;
-{{{          userCode = req.processRecord(rec);
-}{{{              userCode = req.processRecord(
+{{{
+          userCode = req.processRecord(rec);
+}{{{
+              userCode = req.processRecord(
                 recs[ k ]);          // contain continue records
-}}}}{        userCode = req.processRecord(rec);
+}}}}{
+        userCode = req.processRecord(rec);
 }}}

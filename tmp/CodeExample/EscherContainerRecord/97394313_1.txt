@@ -1,3 +1,4 @@
+    public void onCreate(){
         EscherContainerRecord dgContainer = (EscherContainerRecord)getSheetContainer().getPPDrawing().getEscherRecords()[0];
         for (EscherContainerRecord c : dgContainer.getChildContainers()) {
             EscherSpRecord spr = null;

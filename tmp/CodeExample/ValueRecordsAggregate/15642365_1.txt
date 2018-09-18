@@ -1,19 +1,29 @@
     protected ValueRecordsAggregate      cells             =     null;
-{{{{                    retval.cells.construct( k, recs );
-}}}}{{{                records.size(), cells.getPhysicalNumberOfCells(),
+{{{{
+                    retval.cells.construct( k, recs );
+}}}}{{{
+                records.size(), cells.getPhysicalNumberOfCells(),
                 rows.getPhysicalNumberOfRows(),
                 records.size() + cells.getPhysicalNumberOfCells()
                 + rows.getPhysicalNumberOfRows() - 2
-}            });
-}        return records.size() + cells.getPhysicalNumberOfCells()
+}
+            });
+}
+        return records.size() + cells.getPhysicalNumberOfCells()
                + rows.getPhysicalNumberOfRows() - 2;
-}{{        cellBlockOffset += null == cells ? 0 : cells.getRowCellBlockSize(rows.getStartRowNumberForBlock(block),
+}{{
+        cellBlockOffset += null == cells ? 0 : cells.getRowCellBlockSize(rows.getStartRowNumberForBlock(block),
                                                      rows.getEndRowNumberForBlock(block));
-}}{        cells.insertCell(col);
-}{        cells.removeCell(col);
-}{        cells.removeCell(newval);
+}}{
+        cells.insertCell(col);
+}{
+        cells.removeCell(col);
+}{
+        cells.removeCell(newval);
         cells.insertCell(newval);
-}{{            valueRecIterator = cells.getIterator();
-}}{{{                if (cells != null && cells.rowHasCells(row.getRowNumber()))
+}{{
+            valueRecIterator = cells.getIterator();
+}}{{{
+                if (cells != null && cells.rowHasCells(row.getRowNumber()))
                     retval += 2;
 }}}

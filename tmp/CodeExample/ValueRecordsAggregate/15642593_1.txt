@@ -1,3 +1,5 @@
+    public Object clone() {
       ValueRecordsAggregate rec = new ValueRecordsAggregate();
-{        rec.insertCell(val);
+{
+        rec.insertCell(val);
 }

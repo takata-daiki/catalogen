@@ -3,5 +3,6 @@
         if (!getClass().isInstance(sh)) {
             throw new IllegalArgumentException(
                     "Can't copy " + sh.getClass().getSimpleName() + " into " + getClass().getSimpleName());
-}        setAnchor(sh.getAnchor());
+}
+        setAnchor(sh.getAnchor());
 }

@@ -1,8 +1,12 @@
+  public static String getCopyFormula(Workbook workbook, Sheet sheet, Cell oldCell,
+                    Cell newCell) {
+{{{
           RefPtgBase refPtgBase = (RefPtgBase) ptg;
           if (refPtgBase.isRowRelative()) {
             refPtgBase.setRow(
               (short) (newCell.getRowIndex() - (oldCell.getRowIndex() - refPtgBase.getRow())));
-}          if (refPtgBase.isColRelative()) {
+}
+          if (refPtgBase.isColRelative()) {
             refPtgBase.setColumn(
               (short) (newCell.getColumnIndex() - (oldCell.getColumnIndex() - refPtgBase.getColumn())));
-}
+}}}}}

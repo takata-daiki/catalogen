@@ -1,0 +1,4 @@
+    public HSSFFont getFontAt(short idx)
+{
+        FontRecord font = workbook.getFontRecordAt(idx);
+}

@@ -1,2 +1,3 @@
+    public void setAnchor(Rectangle2D anchor){
         EscherSpRecord spRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);
         int flags = spRecord.getFlags();

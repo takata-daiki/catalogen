@@ -1,0 +1,5 @@
+    private void recalcRowGutter()
+{{
+            RowRecord rowRecord = (RowRecord) iterator.next();
+            maxLevel = Math.max(rowRecord.getOutlineLevel(), maxLevel);
+}}

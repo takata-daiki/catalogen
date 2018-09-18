@@ -1,2 +1,4 @@
+    public Cell getCellAt(int col, int row) {
         XSSFRow hssfRow = sheet.getRow(row);
+
         XSSFCell hssfCell = hssfRow.getCell(col);

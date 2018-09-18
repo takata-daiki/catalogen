@@ -1,4 +1,8 @@
+    private void processSheet( Sheet sheet,
+                               List<? extends DataListener> listeners ) {
+{{
                 CellRangeAddress merged = getRangeIfMerged( cell,
                                                             mergedRanges );
-{                    Cell topLeft = sheet.getRow( merged.getFirstRow() ).getCell( merged.getFirstColumn() );
-}
+{
+                    Cell topLeft = sheet.getRow( merged.getFirstRow() ).getCell( merged.getFirstColumn() );
+}}}}

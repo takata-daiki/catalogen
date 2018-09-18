@@ -1,2 +1,5 @@
+  public void readContent(ClassifiableContentIF cc, TextHandlerIF handler) {
+{
       XWPFWordExtractor extractor = new XWPFWordExtractor(opc);
       String s = extractor.getText();
+}

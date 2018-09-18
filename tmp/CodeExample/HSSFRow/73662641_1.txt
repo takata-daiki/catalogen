@@ -1,3 +1,6 @@
+    public String getMimeType() {
+}{{{
                 HSSFRow xlsRow = sheet.createRow(rowNum++);
-{                    HSSFCell cell = xlsRow.createCell(colNum++);
-}
+{
+                    HSSFCell cell = xlsRow.createCell(colNum++);
+}}}

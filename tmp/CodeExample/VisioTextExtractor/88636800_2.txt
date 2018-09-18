@@ -1,3 +1,5 @@
+  protected void setUp() {
+}{
     VisioTextExtractor extractor =
       new VisioTextExtractor(_dgTests.openResourceAsStream(defFilename));
     String[] text = extractor.getAllText();

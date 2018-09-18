@@ -1,4 +1,8 @@
+  public ListLevel getLevel(int lsid, int level)
+{
     ListData lst = _listMap.get(Integer.valueOf(lsid));
     if(level < lst.numLevels()) {
       ListLevel lvl = lst.getLevels()[level];
-}  log.log(POILogger.WARN, "Requested level " + level + " which was greater than the maximum defined (" + lst.numLevels() + ")");
+}
+  log.log(POILogger.WARN, "Requested level " + level + " which was greater than the maximum defined (" + lst.numLevels() + ")");
+}

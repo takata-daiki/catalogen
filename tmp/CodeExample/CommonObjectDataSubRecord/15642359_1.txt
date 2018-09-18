@@ -1,2 +1,5 @@
+     public CommentShape( HSSFComment hssfShape, int shapeId )
+{{{
                 CommonObjectDataSubRecord cmo = (CommonObjectDataSubRecord)r;
                 cmo.setAutofill(false);
+}}}

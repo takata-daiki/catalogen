@@ -1,32 +1,56 @@
     private HSSFCell theCell;
-{        return theCell.getRowIndex();
-}{        return theCell.getColumnIndex();
-}{        HSSFComment hssfComment = theCell.getCellComment();
-}{        HSSFFont hssfFont = theCell.getCellStyle().getFont(getWorkbook());
-}{        if (theCell.getCellType() == HSSFCell.CELL_TYPE_BLANK) {
+{
+        return theCell.getRowIndex();
+}{
+        return theCell.getColumnIndex();
+}{
+        HSSFComment hssfComment = theCell.getCellComment();
+}{
+        HSSFFont hssfFont = theCell.getCellStyle().getFont(getWorkbook());
+}{
+        if (theCell.getCellType() == HSSFCell.CELL_TYPE_BLANK) {
             return "";
-}        else if (theCell.getCellType() == HSSFCell.CELL_TYPE_BOOLEAN) {
+}
+        else if (theCell.getCellType() == HSSFCell.CELL_TYPE_BOOLEAN) {
             return Boolean.toString(theCell.getBooleanCellValue());
-}        else if (theCell.getCellType() == HSSFCell.CELL_TYPE_ERROR) {
+}
+        else if (theCell.getCellType() == HSSFCell.CELL_TYPE_ERROR) {
             return "<ERROR?>";
-}        else if (theCell.getCellType() == HSSFCell.CELL_TYPE_FORMULA) {
+}
+        else if (theCell.getCellType() == HSSFCell.CELL_TYPE_FORMULA) {
             return theCell.getCellFormula();
-}        else if (theCell.getCellType() == HSSFCell.CELL_TYPE_NUMERIC) {
+}
+        else if (theCell.getCellType() == HSSFCell.CELL_TYPE_NUMERIC) {
             return Double.toString(theCell.getNumericCellValue());
-}        else if (theCell.getCellType() == HSSFCell.CELL_TYPE_STRING) {
+}
+        else if (theCell.getCellType() == HSSFCell.CELL_TYPE_STRING) {
             return theCell.getRichStringCellValue().getString();
-}}{{            theCell.setCellValue(new HSSFRichTextString(value));
-}{            theCell.setCellValue(Boolean.parseBoolean(value));
-}        }
-{            theCell.setCellFormula(value);
-}{            theCell.setCellValue(Double.parseDouble(value));
-}}{        HSSFCellStyle cellStyle = theCell.getCellStyle();        
-{            theCell.setCellStyle(cellStyle);
-}}{        HSSFCellStyle cellStyle = theCell.getCellStyle();
-}{      HSSFCellStyle cellStyle = theCell.getCellStyle();
-}{{      theCell.setCellStyle(getFillStyleForColour(colour));
-}}{{            HSSFCellStyle cellStyle = theCell.getCellStyle();
-}}{    return theCell.hashCode();
-}{{      return cell.theCell.equals(this.theCell);      
-}}{    HSSFSheet sheet = theCell.getSheet();
+}}{{
+            theCell.setCellValue(new HSSFRichTextString(value));
+}{
+            theCell.setCellValue(Boolean.parseBoolean(value));
+}
+        }
+{
+            theCell.setCellFormula(value);
+}{
+            theCell.setCellValue(Double.parseDouble(value));
+}}{
+        HSSFCellStyle cellStyle = theCell.getCellStyle();        
+{
+            theCell.setCellStyle(cellStyle);
+}}{
+        HSSFCellStyle cellStyle = theCell.getCellStyle();
+}{
+      HSSFCellStyle cellStyle = theCell.getCellStyle();
+}{{
+      theCell.setCellStyle(getFillStyleForColour(colour));
+}}{{
+            HSSFCellStyle cellStyle = theCell.getCellStyle();
+}}{
+    return theCell.hashCode();
+}{{
+      return cell.theCell.equals(this.theCell);      
+}}{
+    HSSFSheet sheet = theCell.getSheet();
 }

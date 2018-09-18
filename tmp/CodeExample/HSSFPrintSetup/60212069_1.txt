@@ -1,3 +1,5 @@
+  public static HSSFRow clearRow(HSSFSheet sh, int indexRow){
+}{
     HSSFPrintSetup ps = sh.getPrintSetup();
     float[]sizePage = PrintPagesFormat.get(ps.getPaperSize());
     if (ps.getLandscape()) baseSizePage = sizePage[0];

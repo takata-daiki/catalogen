@@ -1,2 +1,5 @@
+    public int addBSERecord(EscherBSERecord e)
+{
         DrawingGroupRecord drawingGroup = (DrawingGroupRecord) getRecords().get( dgLoc );
         EscherContainerRecord dggContainer = (EscherContainerRecord) drawingGroup.getEscherRecord( 0 );
+}

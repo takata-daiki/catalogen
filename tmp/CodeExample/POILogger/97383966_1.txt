@@ -1,6 +1,9 @@
+        public BlockProperies( String pFontName, int pFontSize )
+}
     private static final POILogger logger = POILogFactory
             .getLogger( WordToHtmlConverter.class );
-{{            logger.log( POILogger.WARN, "Table without body starting at [",
+{{
+            logger.log( POILogger.WARN, "Table without body starting at [",
                     Integer.valueOf( table.getStartOffset() ), "; ",
                     Integer.valueOf( table.getEndOffset() ), ")" );
-}}
+}

@@ -1,2 +1,5 @@
+  public String getStatReportInDateRange(Date fromDate, Date toDate,
+      String dataAreaId) {
     SummaryInformation summaryInfo = hwb.getSummaryInformation();
     summaryInfo.setAuthor("BMP-System");
+}

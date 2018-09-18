@@ -1,3 +1,6 @@
+  private void setStyleRow(HSSFSheet ash,  String strStyle, int row, int beCol, int countCol, int breakCol,   
+      Map<String,  HSSFCellStyle[]> styleRowMap, HSSFFont font){
+}{{
       AreaReference ref = ExcelUtils.getReferanceNameRange(nameCUsing);
       String shName = ref.getFirstCell().getSheetName();
       int c = ref.getFirstCell().getCol();
@@ -7,3 +10,4 @@
       r = ref.getFirstCell().getRow();
       HSSFSheet ash = wb.getSheet(ref.getFirstCell().getSheetName());
       int begRow = ref.getFirstCell().getRow();
+}}

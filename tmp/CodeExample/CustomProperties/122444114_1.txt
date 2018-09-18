@@ -1,2 +1,5 @@
+    private void makeDocInfo ( final HSSFWorkbook workbook )
+{
         final CustomProperties cp = new CustomProperties ();
         cp.put ( "openSCADA Export Version", Activator.getDefault ().getBundle ().getVersion ().toString () );
+}

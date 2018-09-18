@@ -1,3 +1,5 @@
+  public void setFontProperties(CellStyle style, Element element)
+{
     XSSFFont font = newStyle.getFont();
     if(font.getBold())
       element.addElement("font-weight").addText("bold");
@@ -12,4 +14,4 @@
     if(font.getColor() != XSSFFont.DEFAULT_FONT_COLOR)
     {
       String colorString = getRGBString(font.getXSSFColor());
-}
+}}

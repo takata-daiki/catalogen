@@ -1,3 +1,5 @@
+    public String getComment() {
         HSSFComment hssfComment = theCell.getCellComment();
-{            return hssfComment.toString();
+{
+            return hssfComment.toString();
 }

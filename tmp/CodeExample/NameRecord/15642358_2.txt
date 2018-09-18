@@ -1,4 +1,2 @@
-    public NameRecord addName(NameRecord name)
-    {
-        int idx = findFirstRecordLocBySid(ExternSheetRecord.sid);
-}
+  public void removeBuiltinRecord(byte name, int sheetIndex) {
+    NameRecord record = getSpecificBuiltinRecord(name, sheetIndex);

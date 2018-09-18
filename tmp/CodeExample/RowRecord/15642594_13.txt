@@ -1,0 +1,7 @@
+    public void expandRow( int rowNumber )
+{
+        RowRecord row = getRow( startIdx );
+{{
+                if ( row.getOutlineLevel() == getRow( i ).getOutlineLevel() )
+                    getRow( i ).setZeroHeight( false );
+}}}

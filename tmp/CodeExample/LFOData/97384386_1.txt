@@ -1,0 +1,5 @@
+    protected void dumpParagraphLevels( ListTables listTables,
+            ParagraphProperties paragraph )
+{{
+            final LFOData lfoData = listTables.getLfoData( paragraph.getIlfo() );
+}}

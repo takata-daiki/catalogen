@@ -1,3 +1,6 @@
+  public final void processPOIFSReaderEvent(final POIFSReaderEvent event) {
+{
       DocumentInputStream input = event.getStream();
       byte buffer[] = new byte[input.available()];
       input.read(buffer, 0, input.available());
+}

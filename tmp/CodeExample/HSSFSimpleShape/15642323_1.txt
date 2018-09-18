@@ -1,4 +1,7 @@
+    public void drawLine(int x1, int y1, int x2, int y2, int width)
+{
         HSSFSimpleShape shape = escherGroup.createShape(new HSSFChildAnchor(x1, y1, x2, y2) );
         shape.setShapeType(HSSFSimpleShape.OBJECT_TYPE_LINE);
         shape.setLineWidth(width);
         shape.setLineStyleColor(foreground.getRed(), foreground.getGreen(), foreground.getBlue());
+}

@@ -1,0 +1,2 @@
+    protected void addConstraint(DataValidationConstraint constraint, int firstCol, int firstRow, int lastCol, int lastRow) {
+      CellRangeAddressList addressList = new CellRangeAddressList(firstRow, lastRow, firstCol, lastCol);      

@@ -1,5 +1,7 @@
+    protected Record createFormat(int id) {   // we'll need multiple editions for
         FormatRecord retval = new FormatRecord();   // the differnt formats
-{            case 0 :
+{
+            case 0 :
                 retval.setIndexCode(( short ) 5);
                 retval.setFormatStringLength(( byte ) 0x17);
                 retval.setFormatString("\"$\"#,##0_);\\(\"$\"#,##0\\)");

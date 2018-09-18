@@ -1,5 +1,9 @@
+    static Paragraph newParagraph( Range parent, PAPX papx )
+{
         ListTables listTables = doc.getListTables();
-{{                lfo = listTables.getLfo( properties.getIlfo() );
-}{                final ListLevel listLevel = listTables.getLevel( lfo.getLsid(),
+{{
+                lfo = listTables.getLfo( properties.getIlfo() );
+}{
+                final ListLevel listLevel = listTables.getLevel( lfo.getLsid(),
                         properties.getIlvl() );
-}}
+}}}

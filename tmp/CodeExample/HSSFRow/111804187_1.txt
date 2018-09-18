@@ -1,2 +1,3 @@
+  public void setCell(int rowNumber, int cellNumber, String cellValue) {
     HSSFRow row = createRow(rowNumber);
     cell = row.createCell(cellNumber);

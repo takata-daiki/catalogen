@@ -1,2 +1,4 @@
-  public boolean containPart(PackagePartName partName) {
-    return (this.getPart(partName) != null);
+  public void deletePartRecursive(PackagePartName partName) {
+
+    PackagePartName relationshipPartName = PackagingURIHelper
+        .getRelationshipPartName(partName);

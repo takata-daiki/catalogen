@@ -1,6 +1,4 @@
-        XSLFSlide slide = (XSLFSlide)createRelationship(
-                XSLFRelation.SLIDE, XSLFFactory.getInstance(), cnt);
-        slideId.setId2(slide.getPackageRelationship().getId());
-        slide.addRelation(layout.getPackageRelationship().getId(), layout);
-        slide.getPackagePart().addRelationship(ppName, TargetMode.INTERNAL,
-                layout.getPackageRelationship().getRelationshipType());
+            for (POIXMLDocumentPart p : getRelations()) {
+}{{
+                    XSLFSlide sh = shIdMap.get(slId.getId2());
+}

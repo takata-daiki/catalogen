@@ -1,3 +1,6 @@
+    PlfLfo( byte[] tableStream, int fcPlfLfo, int lcbPlfLfo )
+{{
             LFOData lfoData = new LFOData( tableStream, offset,
                     _rgLfo[x].getClfolvl() );
             offset += lfoData.getSizeInBytes();
+}}

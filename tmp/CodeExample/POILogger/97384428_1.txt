@@ -1,6 +1,7 @@
     private static final POILogger log = POILogFactory
             .getLogger( Picture.class );
-{{{                log.log( POILogger.INFO,
+{{{
+                log.log( POILogger.INFO,
                         "Possibly corrupt compression or non-compressed data",
                         e );
 }}}

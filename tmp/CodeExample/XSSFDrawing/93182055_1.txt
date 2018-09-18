@@ -1,2 +1,6 @@
+    public static Map<String, PictureData> getSheetPictrues07(  
+            XSSFSheet sheet, XSSFWorkbook workbook) {  
+{{
                 XSSFDrawing drawing = (XSSFDrawing) dr;  
                 List<XSSFShape> shapes = drawing.getShapes();  
+}}}

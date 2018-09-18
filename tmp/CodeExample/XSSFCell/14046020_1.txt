@@ -1,3 +1,5 @@
+  private static List<ExcelFileBean> getBeanList(XSSFWorkbook workbook, ExcelFileBean bean) {
     XSSFCell cell;
-{{{{{              int cellType = cell.getCellType();
+{{{{{
+              int cellType = cell.getCellType();
 }}}}}

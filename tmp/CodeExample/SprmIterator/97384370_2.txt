@@ -1,5 +1,7 @@
+    private static Integer getIstd( byte[] grpprl, int offset )
+{{
             SprmIterator sprmIt = new SprmIterator( grpprl, offset );
             while ( sprmIt.hasNext() )
             {
                 SprmOperation sprm = sprmIt.next();
-}
+}}}

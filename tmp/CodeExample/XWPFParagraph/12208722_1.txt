@@ -7,7 +7,9 @@
             if ( LOGGER.isLoggable( Level.FINE ) )
             {
                 LOGGER.fine( "StyleID " + paragraph.getStyleID() );
-}            parentContainer.setAttribute( CLASS_ATTR, paragraph.getStyleID() );
-}        StringBuilder htmlStyle =
+}
+            parentContainer.setAttribute( CLASS_ATTR, paragraph.getStyleID() );
+}
+        StringBuilder htmlStyle =
             XHTMLStyleUtil.getStyle( paragraph, super.getXWPFStyle( paragraph.getStyleID() ), defaults );
 }

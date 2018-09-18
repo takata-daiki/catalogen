@@ -1,2 +1,5 @@
+    private String getCellContent(Cell cell, FormulaEvaluator eval) {
+{{
                     CellValue cellValue = eval.evaluate(cell);
                     value = org.mypomodoro.util.DateUtil.getFormatedDate(DateUtil.getJavaDate(cellValue.getNumberValue(), true), importInputForm.getDatePattern());
+}}

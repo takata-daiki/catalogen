@@ -1,4 +1,6 @@
+    public int construct(int offset, List records)
+{{{
               FormulaRecord formula = (FormulaRecord)rec;
               if (formula.isSharedFormula()) {
                 Record nextRecord = (Record) records.get(k + 1);
-}
+}}}}

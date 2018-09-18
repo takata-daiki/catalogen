@@ -1,3 +1,5 @@
+    public ExcelColumnItem(int index, String name, String column, Field field) {
+}{{{
         case Cell.CELL_TYPE_FORMULA:
           CellValue cellvalue = getEval().evaluate(cell);
           switch (cellvalue.getCellType()) {
@@ -5,4 +7,4 @@
             booleanValue = cellvalue.getBooleanValue();
           case Cell.CELL_TYPE_NUMERIC:
             doubleValue = cellvalue.getNumberValue();
-}
+}}}

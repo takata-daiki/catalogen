@@ -1,4 +1,5 @@
-            EscherRecord r = iterator.next();
-            } else if (r.getRecordId() == recordId){
-                out.add(r);
+    public String toXml(String tab) {
+{
+            EscherRecord record = iterator.next();
+            builder.append(record.toXml(tab+"\t"));
 }

@@ -1,4 +1,6 @@
     /**/private static BitField fMinFontSizePag = new BitField(0x8000);
-{        field_37_docinfo5 = (short)fMinFontSizePag.setBoolean(field_37_docinfo5, value);
-}{        return fMinFontSizePag.isSet(field_37_docinfo5);
+{
+        field_37_docinfo5 = (short)fMinFontSizePag.setBoolean(field_37_docinfo5, value);
+}{
+        return fMinFontSizePag.isSet(field_37_docinfo5);
 }

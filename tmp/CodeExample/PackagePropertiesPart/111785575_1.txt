@@ -1,3 +1,4 @@
+    private void extractMetadata(CoreProperties properties, Metadata metadata) {
         PackagePropertiesPart propsHolder = properties
                 .getUnderlyingProperties();
         addProperty(metadata, Metadata.CATEGORY, propsHolder.getCategoryProperty());

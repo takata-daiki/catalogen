@@ -1,3 +1,4 @@
+  public boolean areFontsEmpty(CellStyle style) {
     HSSFFont font = newStyle.getFont(workbook);
     if (font.getBoldweight() == HSSFFont.BOLDWEIGHT_BOLD)
       return false;

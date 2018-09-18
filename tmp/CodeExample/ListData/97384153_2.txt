@@ -1,3 +1,7 @@
+    public ListTables( byte[] tableStream, final int lstOffset,
+            final int fcPlfLfo, final int lcbPlfLfo )
+{{
       ListData lst = _listMap.get(x);
       tableStream.write(lst.toByteArray());
       ListLevel[] lvls = lst.getLevels();
+}}

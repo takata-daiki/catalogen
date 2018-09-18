@@ -1,2 +1,5 @@
+    public HSSFTextbox createTextbox(HSSFClientAnchor anchor)
+{
         HSSFTextbox shape = new HSSFTextbox(null, anchor);
         shape.anchor = anchor;
+}

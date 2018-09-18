@@ -1,3 +1,6 @@
+    protected boolean processCharacters( final HWPFDocumentCore wordDocument,
+            final int currentTableLevel, final Range range, final Element block )
+{{{
                 CharacterRun characterRun = range.getCharacterRun( c );
                 if ( characterRun.getStartOffset() < skipUntil )
                     continue;
@@ -5,7 +8,8 @@
                 Field aliveField = ( (HWPFDocument) wordDocument ).getFields()
                         .getFieldByStartOffset( FieldsDocumentPart.MAIN,
                                 characterRun.getStartOffset() );
-{{                        addToStructures(
+{{
+                        addToStructures(
                                 structures,
                                 new Structure( new DeadFieldBoundaries( c,
                                         separatorEnd[0], separatorEnd[1] ),
@@ -13,4 +17,4 @@
                                                 .getCharacterRun(
                                                         separatorEnd[1] )
                                                 .getEndOffset() ) );
-}}
+}}}}}

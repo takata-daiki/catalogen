@@ -1,3 +1,6 @@
+    public TextShape getPlaceholder(int type){
+{{
                 OEPlaceholderAtom oep = tx.getPlaceholderAtom();
-{                    placeholderId = oep.getPlaceholderId();
-}
+{
+                    placeholderId = oep.getPlaceholderId();
+}}}

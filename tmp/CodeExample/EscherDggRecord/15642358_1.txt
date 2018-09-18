@@ -1,7 +1,11 @@
+    public void createDrawingGroup()
+{{
             EscherDggRecord dgg = new EscherDggRecord();
             dgg.setRecordId(EscherDggRecord.RECORD_ID);
             dgg.setOptions((short)0x0000);
             dgg.setShapeIdMax(1024);
             dgg.setNumShapesSaved(0);
             dgg.setDrawingsSaved(0);
-{            dgg.setFileIdClusters(new EscherDggRecord.FileIdCluster[] {} );
+{
+            dgg.setFileIdClusters(new EscherDggRecord.FileIdCluster[] {} );
+}}

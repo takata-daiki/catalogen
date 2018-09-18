@@ -1,2 +1,5 @@
+    protected void afterInsert(Sheet sh){
+{
             PPDrawing ppdrawing = sh.getPPDrawing();
             ppdrawing.addTextboxWrapper(_txtbox);
+}

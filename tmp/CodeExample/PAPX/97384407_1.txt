@@ -5,6 +5,7 @@
         properties.setIstd( papx.getIstd() );
         properties = ParagraphSprmUncompressor.uncompressPAP( properties,
                 papx.getGrpprl(), 2 );
-{{{                    properties = ParagraphSprmUncompressor.uncompressPAP(
+{{{
+                    properties = ParagraphSprmUncompressor.uncompressPAP(
                             properties, papx.getGrpprl(), 2 );
 }}}}

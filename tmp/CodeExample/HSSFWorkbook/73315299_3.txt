@@ -1,8 +1,13 @@
+  public static void export(String title, String[] headers, String[] cols, Collection<Map<String, Object>> dataset,
+      OutputStream out, String pattern, String[] sumcols) {
     HSSFWorkbook workbook = new HSSFWorkbook();
     HSSFSheet sheet = workbook.createSheet(title);
     HSSFFont font2 = workbook.createFont();
     HSSFDataFormat format = workbook.createDataFormat();
-{{{{            patriarch.createPicture(anchor, workbook.addPicture(bsValue, HSSFWorkbook.PICTURE_TYPE_JPEG));
-}}}}{{        HSSFFont font4 = workbook.createFont();
-}}{      workbook.write(out);
-}
+{{{{
+            patriarch.createPicture(anchor, workbook.addPicture(bsValue, HSSFWorkbook.PICTURE_TYPE_JPEG));
+}}}}{{
+        HSSFFont font4 = workbook.createFont();
+}}{
+      workbook.write(out);
+}}

@@ -1,2 +1,3 @@
+    public void protectSheet( String password, boolean objects, boolean scenarios ) {
         ProtectRecord prec = getProtect();
         prec.setProtect(true);

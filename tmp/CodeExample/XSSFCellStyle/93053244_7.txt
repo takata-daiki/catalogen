@@ -1,3 +1,4 @@
+  private XSSFCellStyle getInstructionCellStyle(XSSFWorkbook wb){
     XSSFCellStyle cs = wb.createCellStyle();
       cs.setWrapText(true);
       cs.setBorderBottom(XSSFCellStyle.BORDER_THIN);

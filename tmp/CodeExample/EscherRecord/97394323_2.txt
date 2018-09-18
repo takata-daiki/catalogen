@@ -1,4 +1,6 @@
+    public boolean removeShape(Shape shape) {
+{
             EscherRecord rec = it.next();
             if (rec.getRecordId() == EscherContainerRecord.SPGR_CONTAINER) {
                 spgr = (EscherContainerRecord) rec;
-}
+}}

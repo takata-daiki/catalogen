@@ -1,4 +1,7 @@
+    public void dumpParagraphsDom( boolean withText )
+{{
             Paragraph paragraph = range.getParagraph( p );
             System.out.println( p + ":\t" + paragraph.toString() );
             if ( withText )
                 System.out.println( paragraph.text() );
+}}

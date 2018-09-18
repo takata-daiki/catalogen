@@ -1,6 +1,4 @@
-    protected void visitCell( XWPFTableCell cell, T tableContainer, boolean firstRow, boolean lastRow,
-                              boolean firstCell, boolean lastCell )
-        throws Exception
-    {
-        T tableCellContainer = startVisitTableCell( cell, tableContainer, firstRow, lastRow, firstCell, lastCell );
-}
+    public XWPFElementVisitor( XWPFDocument document )
+{{
+            XWPFTableCell cell = cells.get( i );
+}}

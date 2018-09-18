@@ -1,7 +1,11 @@
+    public void createDrawingGroup()
+{{
             EscherSplitMenuColorsRecord splitMenuColors = new EscherSplitMenuColorsRecord();
+
             splitMenuColors.setRecordId((short) 0xF11E);
             splitMenuColors.setOptions((short) 0x0040);
             splitMenuColors.setColor1(0x0800000D);
             splitMenuColors.setColor2(0x0800000C);
             splitMenuColors.setColor3(0x08000017);
             splitMenuColors.setColor4(0x100000F7);
+}}

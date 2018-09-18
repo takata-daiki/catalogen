@@ -1,2 +1,3 @@
+    public boolean isStrikeThrough() {
         HSSFFont hssfFont = theCell.getCellStyle().getFont(getWorkbook());
-        return hssfFont.getUnderline() != 0;
+        return hssfFont.getStrikeout();

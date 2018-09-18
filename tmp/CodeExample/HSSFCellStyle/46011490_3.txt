@@ -1,4 +1,5 @@
   private HSSFCellStyle csTitle;
-{    csTitle.setDataFormat(HSSFDataFormat.getBuiltinFormat("text"));
+{
+    csTitle.setDataFormat(HSSFDataFormat.getBuiltinFormat("text"));
     csTitle.setFont(f);
 }

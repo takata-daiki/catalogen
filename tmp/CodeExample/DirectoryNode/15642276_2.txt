@@ -1,7 +1,11 @@
+    void remove(EntryNode entry)
+{{
             DirectoryNode parent   = (dir == null)
                                      ? (( DirectoryNode ) getRoot())
                                      : dir;
-{                DirectoryNode new_dir =
+{
+                DirectoryNode new_dir =
                     ( DirectoryNode ) parent.createDirectory(name);
-}{                parent.createDocument(document);
-}
+}{
+                parent.createDocument(document);
+}}}

@@ -1,2 +1,5 @@
+            public boolean fetch(CTTextParagraphProperties props){
+{
                     XSLFColor c = new XSLFColor(props.getBuClr(), theme, null);
                     setValue(c.getColor());
+}

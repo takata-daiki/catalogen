@@ -1,6 +1,9 @@
+    public int addPicture(byte[] pictureData, int format)
+{
         EscherBitmapBlip blipRecord = new EscherBitmapBlip();
         blipRecord.setRecordId( (short) ( EscherBitmapBlip.RECORD_ID_START + format ) );
-{            case PICTURE_TYPE_EMF:
+{
+            case PICTURE_TYPE_EMF:
                 blipRecord.setOptions(HSSFPictureData.MSOBI_EMF);
             case PICTURE_TYPE_WMF:
                 blipRecord.setOptions(HSSFPictureData.MSOBI_WMF);
@@ -12,6 +15,8 @@
                 blipRecord.setOptions(HSSFPictureData.MSOBI_JPEG);
             case HSSFWorkbook.PICTURE_TYPE_DIB:
                 blipRecord.setOptions(HSSFPictureData.MSOBI_DIB);
-}        blipRecord.setUID( uid );
+}
+        blipRecord.setUID( uid );
         blipRecord.setMarker( (byte) 0xFF );
         blipRecord.setPictureData( pictureData );
+}

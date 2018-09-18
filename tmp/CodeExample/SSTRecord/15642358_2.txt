@@ -1,3 +1,6 @@
+    public int serialize( int offset, byte[] data )
+{
         SSTRecord sst = null;
-{{{                    record = sst.createExtSSTRecord(sstPos + offset);
-}}}
+{{{
+                    record = sst.createExtSSTRecord(sstPos + offset);
+}}}}

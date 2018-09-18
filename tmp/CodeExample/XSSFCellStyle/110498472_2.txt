@@ -1,2 +1,3 @@
+  public boolean areFontsEmpty(CellStyle style) {
     XSSFCellStyle newStyle = (XSSFCellStyle) style;
     XSSFFont font = newStyle.getFont();

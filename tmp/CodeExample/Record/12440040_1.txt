@@ -3,7 +3,8 @@
         if (record == null)
         {
             if (logger.isInfoEnabled()) logger.info("no record to process");
-}{            switch (record.getSid())
+}{
+            switch (record.getSid())
             {
                 case BOFRecord.sid:
                     if (!(record instanceof BOFRecord))

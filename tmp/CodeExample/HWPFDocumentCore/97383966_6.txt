@@ -1,6 +1,6 @@
-    protected void processParagraph( HWPFDocumentCore hwpfDocument,
-            Element parentElement, int currentTableLevel, Paragraph paragraph,
-            String bulletText )
+    protected void processPageref( HWPFDocumentCore hwpfDocument,
+            Element currentBlock, Range textRange, int currentTableLevel,
+            String pageref )
     {
-        final Element pElement = htmlDocumentFacade.createParagraph();
+        Element basicLink = htmlDocumentFacade.createHyperlink( "#" + pageref );
 }

@@ -1,2 +1,3 @@
+    public float getMarginLeft(){
         EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.TEXT__TEXTLEFT);
         int val = prop == null ? EMU_PER_INCH/10 : prop.getPropertyValue();

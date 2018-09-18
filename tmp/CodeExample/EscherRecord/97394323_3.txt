@@ -1,4 +1,6 @@
+    public Background getBackground() {
+{{
                 EscherRecord rec = it.next();
                 if (rec.getRecordId() == EscherContainerRecord.SP_CONTAINER) {
                     spContainer = (EscherContainerRecord) rec;
-}
+}}}

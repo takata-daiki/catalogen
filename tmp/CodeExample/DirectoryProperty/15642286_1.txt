@@ -3,7 +3,10 @@
                   final DirectoryNode parent)
     {
         super(property, parent);
-{{                property.getName()
-}            });
-}        Iterator iter = property.getChildren();
+{{
+                property.getName()
+}
+            });
+}
+        Iterator iter = property.getChildren();
 }

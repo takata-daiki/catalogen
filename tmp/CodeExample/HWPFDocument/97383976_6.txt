@@ -1,8 +1,3 @@
-    protected void processField( HWPFDocument wordDocument, Range parentRange,
-            int currentTableLevel, Field field, Element currentBlock )
-    {
-        switch ( field.getType() )
-        {
-        case 37: // page reference
-{            final Range firstSubrange = field.firstSubrange( parentRange );
-}}}
+                    public String toString()
+}}}{{{
+                    HWPFDocument doc = (HWPFDocument) wordDocument;

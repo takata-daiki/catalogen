@@ -1,3 +1,5 @@
+            public void modify( CellStyle style ) {
+}}}
     public void putBorder( final short borderTop, final XSSFColor topBorderColor,
                            final short borderBottom, final XSSFColor bottomBorderColor,
                            final short borderLeft, final XSSFColor leftBorderColor,
@@ -5,7 +7,7 @@
                            int[] rowIndices, int[] colIndices )
     {
         modifyCellStyle(rowIndices, colIndices, new CellStyleModifier() {
-            public void modify( CellStyle style ) {
+{
                 if ( style instanceof XSSFCellStyle ) {
                     XSSFCellStyle xssfStyle = (XSSFCellStyle)style;
-}}}}
+}

@@ -1,4 +1,6 @@
     /**/private static BitField fSnapBorder = new BitField(0x0800);
-{        field_37_docinfo5 = (short)fSnapBorder.setBoolean(field_37_docinfo5, value);
-}{        return fSnapBorder.isSet(field_37_docinfo5);
+{
+        field_37_docinfo5 = (short)fSnapBorder.setBoolean(field_37_docinfo5, value);
+}{
+        return fSnapBorder.isSet(field_37_docinfo5);
 }

@@ -1,15 +1,27 @@
+  public void erstelleExcel(ArrayList<String> spalten, String von, String bis) {
+{{{
           XSSFCell cell = dataRow.createCell(j + 2);
           cell.setCellStyle(dataStyle);
-{            cell.setCellValue(new XSSFRichTextString(""
+{
+            cell.setCellValue(new XSSFRichTextString(""
                 + listBetreuung.getBetreuerin_nummer()));
-}{            cell.setCellValue(new XSSFRichTextString(listBetreuung
+}{
+            cell.setCellValue(new XSSFRichTextString(listBetreuung
                 .getBetreuerin_nachname()));
-}{                .getAngefangen()));
-}{                .getAngemeldet()));
-}{                .getAbgemeldet()));
-}{                .getFahrgeld()));
-}{                .getVerdienst()));
-}{                .getSva()));
-}{                .getReferenz()));
-}{                .getInformation()));
-}
+}{
+                .getAngefangen()));
+}{
+                .getAngemeldet()));
+}{
+                .getAbgemeldet()));
+}{
+                .getFahrgeld()));
+}{
+                .getVerdienst()));
+}{
+                .getSva()));
+}{
+                .getReferenz()));
+}{
+                .getInformation()));
+}}}}

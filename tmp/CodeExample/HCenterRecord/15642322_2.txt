@@ -1,3 +1,6 @@
+    public boolean getHorizontallyCenter()
+{
         HCenterRecord record =
                 (HCenterRecord) sheet.findFirstRecordBySid(HCenterRecord.sid);
         return record.getHCenter();
+}

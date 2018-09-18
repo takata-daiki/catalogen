@@ -1,7 +1,4 @@
-    public static int getNumberOfColumns( XWPFTableRow row )
+    private static int getNbColumnsToIgnore( XWPFTableRow row, boolean before )
     {
-        if ( row == null )
-        {
-            return 0;
-}        List<XWPFTableCell> tableCellsOffFirstRow = row.getTableCells();
+        CTTrPr trPr = row.getCtRow().getTrPr();
 }

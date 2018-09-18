@@ -1,2 +1,5 @@
+    public void setFillColor(int row, int column, Color color)
+{{
             HSSFPalette palette = ((HSSFWorkbook) book).getCustomPalette();
             colorIndex = palette.findSimilarColor(color.getRed(), color.getGreen(), color.getBlue()).getIndex();
+}}

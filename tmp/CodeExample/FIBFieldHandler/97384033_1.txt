@@ -1,120 +1,233 @@
     private FIBFieldHandler _fieldHandler;
-{      return _fieldHandler.getFieldOffset(FIBFieldHandler.DOP);
-}{      _fieldHandler.setFieldOffset(FIBFieldHandler.DOP, fcDop);
-}{      return _fieldHandler.getFieldSize(FIBFieldHandler.DOP);
-}{      _fieldHandler.setFieldSize(FIBFieldHandler.DOP, lcbDop);
-}{      return _fieldHandler.getFieldOffset(FIBFieldHandler.STSHF);
-}{      return _fieldHandler.getFieldSize(FIBFieldHandler.STSHF);
-}{      _fieldHandler.setFieldOffset(FIBFieldHandler.STSHF, fcStshf);
-}{      _fieldHandler.setFieldSize(FIBFieldHandler.STSHF, lcbStshf);
-}{      return _fieldHandler.getFieldOffset(FIBFieldHandler.CLX);
-}{      return _fieldHandler.getFieldSize(FIBFieldHandler.CLX);
-}{      _fieldHandler.setFieldOffset(FIBFieldHandler.CLX, fcClx);
-}{      _fieldHandler.setFieldSize(FIBFieldHandler.CLX, lcbClx);
-}{      return _fieldHandler.getFieldOffset(FIBFieldHandler.PLCFBTECHPX);
-}{      return _fieldHandler.getFieldSize(FIBFieldHandler.PLCFBTECHPX);
-}{      _fieldHandler.setFieldOffset(FIBFieldHandler.PLCFBTECHPX, fcPlcfBteChpx);
-}{      _fieldHandler.setFieldSize(FIBFieldHandler.PLCFBTECHPX, lcbPlcfBteChpx);
-}{      return _fieldHandler.getFieldOffset(FIBFieldHandler.PLCFBTEPAPX);
-}{      return _fieldHandler.getFieldSize(FIBFieldHandler.PLCFBTEPAPX);
-}{      _fieldHandler.setFieldOffset(FIBFieldHandler.PLCFBTEPAPX, fcPlcfBtePapx);
-}{      _fieldHandler.setFieldSize(FIBFieldHandler.PLCFBTEPAPX, lcbPlcfBtePapx);
-}{      return _fieldHandler.getFieldOffset(FIBFieldHandler.PLCFSED);
-}{      return _fieldHandler.getFieldSize(FIBFieldHandler.PLCFSED);
-}{      _fieldHandler.setFieldOffset(FIBFieldHandler.PLCFSED, fcPlcfSed);
-}{      _fieldHandler.setFieldSize(FIBFieldHandler.PLCFSED, lcbPlcfSed);
-}{      return _fieldHandler.getFieldOffset(FIBFieldHandler.PLCFLST);
-}{        return _fieldHandler.getFieldOffset( FIBFieldHandler.PLFLST );
-}{      return _fieldHandler.getFieldSize(FIBFieldHandler.PLCFLST);
-}{        return _fieldHandler.getFieldSize( FIBFieldHandler.PLFLST );
-}{        _fieldHandler.setFieldOffset( FIBFieldHandler.PLCFLST, fcPlcfLst );
-}{        _fieldHandler.setFieldOffset( FIBFieldHandler.PLFLST, fcPlfLst );
-}{        _fieldHandler.setFieldSize( FIBFieldHandler.PLCFLST, lcbPlcfLst );
-}{        _fieldHandler.setFieldSize( FIBFieldHandler.PLFLST, lcbPlfLst );
-}{        return _fieldHandler.getFieldOffset( FIBFieldHandler.PLFLFO );
-}{      return _fieldHandler.getFieldSize(FIBFieldHandler.PLFLFO);
-}{        return _fieldHandler.getFieldOffset( FIBFieldHandler.STTBFBKMK );
-}{        _fieldHandler.setFieldOffset( FIBFieldHandler.STTBFBKMK, offset );
-}{        return _fieldHandler.getFieldSize( FIBFieldHandler.STTBFBKMK );
-}{        _fieldHandler.setFieldSize( FIBFieldHandler.STTBFBKMK, length );
-}{        return _fieldHandler.getFieldOffset( FIBFieldHandler.PLCFBKF );
-}{        _fieldHandler.setFieldOffset( FIBFieldHandler.PLCFBKF, offset );
-}{        return _fieldHandler.getFieldSize( FIBFieldHandler.PLCFBKF );
-}{        _fieldHandler.setFieldSize( FIBFieldHandler.PLCFBKF, length );
-}{        return _fieldHandler.getFieldOffset( FIBFieldHandler.PLCFBKL );
-}{        _fieldHandler.setFieldOffset( FIBFieldHandler.PLCFBKL, offset );
-}{        return _fieldHandler.getFieldSize( FIBFieldHandler.PLCFBKL );
-}{        _fieldHandler.setFieldSize( FIBFieldHandler.PLCFBKL, length );
-}{      _fieldHandler.setFieldOffset(FIBFieldHandler.PLFLFO, fcPlfLfo);
-}{      _fieldHandler.setFieldSize(FIBFieldHandler.PLFLFO, lcbPlfLfo);
-}{      return _fieldHandler.getFieldOffset(FIBFieldHandler.STTBFFFN);
-}{      return _fieldHandler.getFieldSize(FIBFieldHandler.STTBFFFN);
-}{      _fieldHandler.setFieldOffset(FIBFieldHandler.STTBFFFN, fcSttbFffn);
-}{      _fieldHandler.setFieldSize(FIBFieldHandler.STTBFFFN, lcbSttbFffn);
-}{      return _fieldHandler.getFieldOffset(FIBFieldHandler.STTBFRMARK);
-}{      return _fieldHandler.getFieldSize(FIBFieldHandler.STTBFRMARK);
-}{      _fieldHandler.setFieldOffset(FIBFieldHandler.STTBFRMARK, fcSttbfRMark);
-}{      _fieldHandler.setFieldSize(FIBFieldHandler.STTBFRMARK, lcbSttbfRMark);
-}{       return _fieldHandler.getFieldOffset(FIBFieldHandler.PLCFHDD);
-}{      return _fieldHandler.getFieldSize(FIBFieldHandler.PLCFHDD);
-}{      _fieldHandler.setFieldOffset(FIBFieldHandler.PLCFHDD, fcPlcfHdd);
-}{      _fieldHandler.setFieldSize(FIBFieldHandler.PLCFHDD, lcbPlcfHdd);
-}{        return _fieldHandler.getFieldOffset(FIBFieldHandler.STTBSAVEDBY);
-}{        return _fieldHandler.getFieldSize(FIBFieldHandler.STTBSAVEDBY);
-}{      _fieldHandler.setFieldOffset(FIBFieldHandler.STTBSAVEDBY, fcSttbSavedBy);
-}{      _fieldHandler.setFieldSize(FIBFieldHandler.STTBSAVEDBY, fcSttbSavedBy);
-}{      return _fieldHandler.getFieldOffset(FIBFieldHandler.PLFLFO);
-}{      _fieldHandler.setFieldOffset(FIBFieldHandler.PLFLFO, modifiedLow);
-}{      _fieldHandler.setFieldSize(FIBFieldHandler.PLFLFO, modifiedHigh);
-}{      _fieldHandler.clearFields();
-}{        return _fieldHandler.getFieldOffset( part.getFibFieldsField() );
-}{        return _fieldHandler.getFieldSize( part.getFibFieldsField() );
-}{        _fieldHandler.setFieldOffset( part.getFibFieldsField(), offset );
-}{        _fieldHandler.setFieldSize( part.getFibFieldsField(), length );
-}{      return _fieldHandler.getFieldOffset(FIBFieldHandler.PLCFFLDATN);
-}{      return _fieldHandler.getFieldSize(FIBFieldHandler.PLCFFLDATN);
-}{        _fieldHandler.setFieldOffset( FIBFieldHandler.PLCFFLDATN, offset );
-}{        _fieldHandler.setFieldSize( FIBFieldHandler.PLCFFLDATN, size );
-}{      return _fieldHandler.getFieldOffset(FIBFieldHandler.PLCFFLDEDN);
-}{      return _fieldHandler.getFieldSize(FIBFieldHandler.PLCFFLDEDN);
-}{        _fieldHandler.setFieldOffset( FIBFieldHandler.PLCFFLDEDN, offset );
-}{        _fieldHandler.setFieldSize( FIBFieldHandler.PLCFFLDEDN, size );
-}{      return _fieldHandler.getFieldOffset(FIBFieldHandler.PLCFFLDFTN);
-}{      return _fieldHandler.getFieldSize(FIBFieldHandler.PLCFFLDFTN);
-}{        _fieldHandler.setFieldOffset( FIBFieldHandler.PLCFFLDFTN, offset );
-}{        _fieldHandler.setFieldSize( FIBFieldHandler.PLCFFLDFTN, size );
-}{      return _fieldHandler.getFieldOffset(FIBFieldHandler.PLCFFLDHDR);
-}{      return _fieldHandler.getFieldSize(FIBFieldHandler.PLCFFLDHDR);
-}{        _fieldHandler.setFieldOffset( FIBFieldHandler.PLCFFLDHDR, offset );
-}{        _fieldHandler.setFieldSize( FIBFieldHandler.PLCFFLDHDR, size );
-}{      return _fieldHandler.getFieldOffset(FIBFieldHandler.PLCFFLDHDRTXBX);
-}{      return _fieldHandler.getFieldSize(FIBFieldHandler.PLCFFLDHDRTXBX);
-}{        _fieldHandler.setFieldOffset( FIBFieldHandler.PLCFFLDHDRTXBX, offset );
-}{        _fieldHandler.setFieldSize( FIBFieldHandler.PLCFFLDHDRTXBX, size );
-}{      return _fieldHandler.getFieldOffset(FIBFieldHandler.PLCFFLDMOM);
-}{      return _fieldHandler.getFieldSize(FIBFieldHandler.PLCFFLDMOM);
-}{        _fieldHandler.setFieldOffset( FIBFieldHandler.PLCFFLDMOM, offset );
-}{        _fieldHandler.setFieldSize( FIBFieldHandler.PLCFFLDMOM, size );
-}{      return _fieldHandler.getFieldOffset(FIBFieldHandler.PLCFFLDTXBX);
-}{      return _fieldHandler.getFieldSize(FIBFieldHandler.PLCFFLDTXBX);
-}{        _fieldHandler.setFieldOffset( FIBFieldHandler.PLCFFLDTXBX, offset );
-}{        _fieldHandler.setFieldSize( FIBFieldHandler.PLCFFLDTXBX, size );
-}{        return _fieldHandler.getFieldOffset(FIBFieldHandler.PLCSPAMOM);
-}{        return _fieldHandler.getFieldSize(FIBFieldHandler.PLCSPAMOM);
-}{        return _fieldHandler.getFieldOffset(FIBFieldHandler.DGGINFO);
-}{        return _fieldHandler.getFieldSize(FIBFieldHandler.DGGINFO);
-}{        return _fieldHandler.getFieldOffset( noteType
+{
+      return _fieldHandler.getFieldOffset(FIBFieldHandler.DOP);
+}{
+      _fieldHandler.setFieldOffset(FIBFieldHandler.DOP, fcDop);
+}{
+      return _fieldHandler.getFieldSize(FIBFieldHandler.DOP);
+}{
+      _fieldHandler.setFieldSize(FIBFieldHandler.DOP, lcbDop);
+}{
+      return _fieldHandler.getFieldOffset(FIBFieldHandler.STSHF);
+}{
+      return _fieldHandler.getFieldSize(FIBFieldHandler.STSHF);
+}{
+      _fieldHandler.setFieldOffset(FIBFieldHandler.STSHF, fcStshf);
+}{
+      _fieldHandler.setFieldSize(FIBFieldHandler.STSHF, lcbStshf);
+}{
+      return _fieldHandler.getFieldOffset(FIBFieldHandler.CLX);
+}{
+      return _fieldHandler.getFieldSize(FIBFieldHandler.CLX);
+}{
+      _fieldHandler.setFieldOffset(FIBFieldHandler.CLX, fcClx);
+}{
+      _fieldHandler.setFieldSize(FIBFieldHandler.CLX, lcbClx);
+}{
+      return _fieldHandler.getFieldOffset(FIBFieldHandler.PLCFBTECHPX);
+}{
+      return _fieldHandler.getFieldSize(FIBFieldHandler.PLCFBTECHPX);
+}{
+      _fieldHandler.setFieldOffset(FIBFieldHandler.PLCFBTECHPX, fcPlcfBteChpx);
+}{
+      _fieldHandler.setFieldSize(FIBFieldHandler.PLCFBTECHPX, lcbPlcfBteChpx);
+}{
+      return _fieldHandler.getFieldOffset(FIBFieldHandler.PLCFBTEPAPX);
+}{
+      return _fieldHandler.getFieldSize(FIBFieldHandler.PLCFBTEPAPX);
+}{
+      _fieldHandler.setFieldOffset(FIBFieldHandler.PLCFBTEPAPX, fcPlcfBtePapx);
+}{
+      _fieldHandler.setFieldSize(FIBFieldHandler.PLCFBTEPAPX, lcbPlcfBtePapx);
+}{
+      return _fieldHandler.getFieldOffset(FIBFieldHandler.PLCFSED);
+}{
+      return _fieldHandler.getFieldSize(FIBFieldHandler.PLCFSED);
+}{
+      _fieldHandler.setFieldOffset(FIBFieldHandler.PLCFSED, fcPlcfSed);
+}{
+      _fieldHandler.setFieldSize(FIBFieldHandler.PLCFSED, lcbPlcfSed);
+}{
+      return _fieldHandler.getFieldOffset(FIBFieldHandler.PLCFLST);
+}{
+        return _fieldHandler.getFieldOffset( FIBFieldHandler.PLFLST );
+}{
+      return _fieldHandler.getFieldSize(FIBFieldHandler.PLCFLST);
+}{
+        return _fieldHandler.getFieldSize( FIBFieldHandler.PLFLST );
+}{
+        _fieldHandler.setFieldOffset( FIBFieldHandler.PLCFLST, fcPlcfLst );
+}{
+        _fieldHandler.setFieldOffset( FIBFieldHandler.PLFLST, fcPlfLst );
+}{
+        _fieldHandler.setFieldSize( FIBFieldHandler.PLCFLST, lcbPlcfLst );
+}{
+        _fieldHandler.setFieldSize( FIBFieldHandler.PLFLST, lcbPlfLst );
+}{
+        return _fieldHandler.getFieldOffset( FIBFieldHandler.PLFLFO );
+}{
+      return _fieldHandler.getFieldSize(FIBFieldHandler.PLFLFO);
+}{
+        return _fieldHandler.getFieldOffset( FIBFieldHandler.STTBFBKMK );
+}{
+        _fieldHandler.setFieldOffset( FIBFieldHandler.STTBFBKMK, offset );
+}{
+        return _fieldHandler.getFieldSize( FIBFieldHandler.STTBFBKMK );
+}{
+        _fieldHandler.setFieldSize( FIBFieldHandler.STTBFBKMK, length );
+}{
+        return _fieldHandler.getFieldOffset( FIBFieldHandler.PLCFBKF );
+}{
+        _fieldHandler.setFieldOffset( FIBFieldHandler.PLCFBKF, offset );
+}{
+        return _fieldHandler.getFieldSize( FIBFieldHandler.PLCFBKF );
+}{
+        _fieldHandler.setFieldSize( FIBFieldHandler.PLCFBKF, length );
+}{
+        return _fieldHandler.getFieldOffset( FIBFieldHandler.PLCFBKL );
+}{
+        _fieldHandler.setFieldOffset( FIBFieldHandler.PLCFBKL, offset );
+}{
+        return _fieldHandler.getFieldSize( FIBFieldHandler.PLCFBKL );
+}{
+        _fieldHandler.setFieldSize( FIBFieldHandler.PLCFBKL, length );
+}{
+      _fieldHandler.setFieldOffset(FIBFieldHandler.PLFLFO, fcPlfLfo);
+}{
+      _fieldHandler.setFieldSize(FIBFieldHandler.PLFLFO, lcbPlfLfo);
+}{
+      return _fieldHandler.getFieldOffset(FIBFieldHandler.STTBFFFN);
+}{
+      return _fieldHandler.getFieldSize(FIBFieldHandler.STTBFFFN);
+}{
+      _fieldHandler.setFieldOffset(FIBFieldHandler.STTBFFFN, fcSttbFffn);
+}{
+      _fieldHandler.setFieldSize(FIBFieldHandler.STTBFFFN, lcbSttbFffn);
+}{
+      return _fieldHandler.getFieldOffset(FIBFieldHandler.STTBFRMARK);
+}{
+      return _fieldHandler.getFieldSize(FIBFieldHandler.STTBFRMARK);
+}{
+      _fieldHandler.setFieldOffset(FIBFieldHandler.STTBFRMARK, fcSttbfRMark);
+}{
+      _fieldHandler.setFieldSize(FIBFieldHandler.STTBFRMARK, lcbSttbfRMark);
+}{
+       return _fieldHandler.getFieldOffset(FIBFieldHandler.PLCFHDD);
+}{
+      return _fieldHandler.getFieldSize(FIBFieldHandler.PLCFHDD);
+}{
+      _fieldHandler.setFieldOffset(FIBFieldHandler.PLCFHDD, fcPlcfHdd);
+}{
+      _fieldHandler.setFieldSize(FIBFieldHandler.PLCFHDD, lcbPlcfHdd);
+}{
+        return _fieldHandler.getFieldOffset(FIBFieldHandler.STTBSAVEDBY);
+}{
+        return _fieldHandler.getFieldSize(FIBFieldHandler.STTBSAVEDBY);
+}{
+      _fieldHandler.setFieldOffset(FIBFieldHandler.STTBSAVEDBY, fcSttbSavedBy);
+}{
+      _fieldHandler.setFieldSize(FIBFieldHandler.STTBSAVEDBY, fcSttbSavedBy);
+}{
+      return _fieldHandler.getFieldOffset(FIBFieldHandler.PLFLFO);
+}{
+      _fieldHandler.setFieldOffset(FIBFieldHandler.PLFLFO, modifiedLow);
+}{
+      _fieldHandler.setFieldSize(FIBFieldHandler.PLFLFO, modifiedHigh);
+}{
+      _fieldHandler.clearFields();
+}{
+        return _fieldHandler.getFieldOffset( part.getFibFieldsField() );
+}{
+        return _fieldHandler.getFieldSize( part.getFibFieldsField() );
+}{
+        _fieldHandler.setFieldOffset( part.getFibFieldsField(), offset );
+}{
+        _fieldHandler.setFieldSize( part.getFibFieldsField(), length );
+}{
+      return _fieldHandler.getFieldOffset(FIBFieldHandler.PLCFFLDATN);
+}{
+      return _fieldHandler.getFieldSize(FIBFieldHandler.PLCFFLDATN);
+}{
+        _fieldHandler.setFieldOffset( FIBFieldHandler.PLCFFLDATN, offset );
+}{
+        _fieldHandler.setFieldSize( FIBFieldHandler.PLCFFLDATN, size );
+}{
+      return _fieldHandler.getFieldOffset(FIBFieldHandler.PLCFFLDEDN);
+}{
+      return _fieldHandler.getFieldSize(FIBFieldHandler.PLCFFLDEDN);
+}{
+        _fieldHandler.setFieldOffset( FIBFieldHandler.PLCFFLDEDN, offset );
+}{
+        _fieldHandler.setFieldSize( FIBFieldHandler.PLCFFLDEDN, size );
+}{
+      return _fieldHandler.getFieldOffset(FIBFieldHandler.PLCFFLDFTN);
+}{
+      return _fieldHandler.getFieldSize(FIBFieldHandler.PLCFFLDFTN);
+}{
+        _fieldHandler.setFieldOffset( FIBFieldHandler.PLCFFLDFTN, offset );
+}{
+        _fieldHandler.setFieldSize( FIBFieldHandler.PLCFFLDFTN, size );
+}{
+      return _fieldHandler.getFieldOffset(FIBFieldHandler.PLCFFLDHDR);
+}{
+      return _fieldHandler.getFieldSize(FIBFieldHandler.PLCFFLDHDR);
+}{
+        _fieldHandler.setFieldOffset( FIBFieldHandler.PLCFFLDHDR, offset );
+}{
+        _fieldHandler.setFieldSize( FIBFieldHandler.PLCFFLDHDR, size );
+}{
+      return _fieldHandler.getFieldOffset(FIBFieldHandler.PLCFFLDHDRTXBX);
+}{
+      return _fieldHandler.getFieldSize(FIBFieldHandler.PLCFFLDHDRTXBX);
+}{
+        _fieldHandler.setFieldOffset( FIBFieldHandler.PLCFFLDHDRTXBX, offset );
+}{
+        _fieldHandler.setFieldSize( FIBFieldHandler.PLCFFLDHDRTXBX, size );
+}{
+      return _fieldHandler.getFieldOffset(FIBFieldHandler.PLCFFLDMOM);
+}{
+      return _fieldHandler.getFieldSize(FIBFieldHandler.PLCFFLDMOM);
+}{
+        _fieldHandler.setFieldOffset( FIBFieldHandler.PLCFFLDMOM, offset );
+}{
+        _fieldHandler.setFieldSize( FIBFieldHandler.PLCFFLDMOM, size );
+}{
+      return _fieldHandler.getFieldOffset(FIBFieldHandler.PLCFFLDTXBX);
+}{
+      return _fieldHandler.getFieldSize(FIBFieldHandler.PLCFFLDTXBX);
+}{
+        _fieldHandler.setFieldOffset( FIBFieldHandler.PLCFFLDTXBX, offset );
+}{
+        _fieldHandler.setFieldSize( FIBFieldHandler.PLCFFLDTXBX, size );
+}{
+        return _fieldHandler.getFieldOffset(FIBFieldHandler.PLCSPAMOM);
+}{
+        return _fieldHandler.getFieldSize(FIBFieldHandler.PLCSPAMOM);
+}{
+        return _fieldHandler.getFieldOffset(FIBFieldHandler.DGGINFO);
+}{
+        return _fieldHandler.getFieldSize(FIBFieldHandler.DGGINFO);
+}{
+        return _fieldHandler.getFieldOffset( noteType
                 .getFibDescriptorsFieldIndex() );
-}{        _fieldHandler.setFieldOffset( noteType.getFibDescriptorsFieldIndex(),
+}{
+        _fieldHandler.setFieldOffset( noteType.getFibDescriptorsFieldIndex(),
                 offset );
-}{        return _fieldHandler.getFieldSize( noteType
-}{        _fieldHandler.setFieldSize( noteType.getFibDescriptorsFieldIndex(),
-}{                .getFibTextPositionsFieldIndex() );
-}{        _fieldHandler.setFieldOffset( noteType.getFibTextPositionsFieldIndex(),
-}{        _fieldHandler.setFieldSize( noteType.getFibTextPositionsFieldIndex(),
-}{        _cbRgFcLcb = _fieldHandler.getFieldsCount();
+}{
+        return _fieldHandler.getFieldSize( noteType
+}{
+        _fieldHandler.setFieldSize( noteType.getFibDescriptorsFieldIndex(),
+}{
+                .getFibTextPositionsFieldIndex() );
+}{
+        _fieldHandler.setFieldOffset( noteType.getFibTextPositionsFieldIndex(),
+}{
+        _fieldHandler.setFieldSize( noteType.getFibTextPositionsFieldIndex(),
+}{
+        _cbRgFcLcb = _fieldHandler.getFieldsCount();
         _fieldHandler.writeTo( mainStream, offset, tableStream );
-}{        return FibBase.getSize() + LittleEndian.SHORT_SIZE + FibRgW97.getSize()
+}{
+        return FibBase.getSize() + LittleEndian.SHORT_SIZE + FibRgW97.getSize()
                 + LittleEndian.SHORT_SIZE + FibRgLw97.getSize()
                 + LittleEndian.SHORT_SIZE + _fieldHandler.sizeInBytes();
 }

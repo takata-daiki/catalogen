@@ -1,0 +1,3 @@
+  public Font correctFontColorIfBackground( FontManager fm, Workbook wb, BirtStyle birtStyle, Font font ) {
+    XSSFColor colour = ((XSSFFont)font).getXSSFColor();
+    int fgRgb[] = rgbOnly( colour.getARgb() );

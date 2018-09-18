@@ -4,5 +4,6 @@
       if (LOG.isWarnEnabled()) {
         LOG.warn("Stream not processed. It is not a PowerPoint document: : "
                  + event.getName());
-}}{      final DocumentInputStream dis = event.getStream();
+}}{
+      final DocumentInputStream dis = event.getStream();
 }

@@ -1,4 +1,6 @@
     /**/private static BitField fRotateFont = new BitField(0x0004);
-{        field_40_fontAlign = (short)fRotateFont.setBoolean(field_40_fontAlign, value);
-}{        return fRotateFont.isSet(field_40_fontAlign);
+{
+        field_40_fontAlign = (short)fRotateFont.setBoolean(field_40_fontAlign, value);
+}{
+        return fRotateFont.isSet(field_40_fontAlign);
 }

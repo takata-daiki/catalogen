@@ -1,5 +1,8 @@
+    public void drawOval(int x, int y, int width, int height)
+{
         HSSFSimpleShape shape = escherGroup.createShape(new HSSFChildAnchor(x,y,x+width,y+height) );
         shape.setShapeType(HSSFSimpleShape.OBJECT_TYPE_OVAL);
         shape.setLineWidth(0);
         shape.setLineStyleColor(foreground.getRed(), foreground.getGreen(), foreground.getBlue());
         shape.setNoFill(true);
+}

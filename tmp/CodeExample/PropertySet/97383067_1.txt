@@ -1,4 +1,7 @@
+  protected void readProperties() {
     PropertySet ps;
-{      logger.log(POILogger.WARN, "DocumentSummaryInformation property set came back with wrong class - ", ps.getClass());
-}{      logger.log(POILogger.WARN, "SummaryInformation property set came back with wrong class - ", ps.getClass());
+{
+      logger.log(POILogger.WARN, "DocumentSummaryInformation property set came back with wrong class - ", ps.getClass());
+}{
+      logger.log(POILogger.WARN, "SummaryInformation property set came back with wrong class - ", ps.getClass());
 }

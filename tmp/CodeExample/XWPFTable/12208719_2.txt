@@ -2,7 +2,9 @@
     protected void endVisitTable( XWPFTable table, IITextContainer parentContainer, IITextContainer tableContainer )
         throws Exception
     {
-}    }
+}
+    }
     protected IITextContainer startVisitTableCell( XWPFTableCell cell, IITextContainer tableContainer )
-{        return null;
+{
+        return null;
 }

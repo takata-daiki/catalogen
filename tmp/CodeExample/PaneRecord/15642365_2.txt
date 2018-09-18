@@ -1,6 +1,9 @@
+    public void createSplitPane(int xSplitPos, int ySplitPos, int topRow, int leftmostColumn, int activePane )
+{
         PaneRecord r = new PaneRecord();
         r.setX((short)xSplitPos);
         r.setY((short)ySplitPos);
         r.setTopRow((short) topRow);
         r.setLeftColumn((short) leftmostColumn);
         r.setActivePane((short) activePane);
+}

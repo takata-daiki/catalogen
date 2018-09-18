@@ -1,0 +1,4 @@
+    protected XWPFAbstractNum getXWPFAbstractNum( XWPFNum num )
+    {
+        CTDecimalNumber abstractNumID = num.getCTNum().getAbstractNumId();
+}

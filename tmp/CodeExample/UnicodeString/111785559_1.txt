@@ -1,2 +1,5 @@
+        public void processRecord(Record record) {
+}{{
                 UnicodeString unicode = sstRecord.getString(sst.getSSTIndex());
                 addTextCell(record, unicode.getString());
+}

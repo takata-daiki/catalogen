@@ -1,3 +1,5 @@
+    public void processPOIFSReaderEvent(POIFSReaderEvent event) {
+{
         SummaryInformation si = (SummaryInformation)
                                   PropertySetFactory.create(event.getStream());
         setProperty(DublinCore.TITLE, si.getTitle());
@@ -17,3 +19,4 @@
         setProperty(DublinCore.SUBJECT, si.getSubject());
         setProperty(Office.TEMPLATE, si.getTemplate());
         setProperty(Office.WORD_COUNT, si.getWordCount());
+}

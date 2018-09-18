@@ -1,15 +1,23 @@
+    public static void main( String[] args )
+
     private final HtmlDocumentFacade htmlDocumentFacade;
-{        if ( notes != null )
+{
+        if ( notes != null )
             htmlDocumentFacade.getBody().appendChild( notes );
         htmlDocumentFacade.updateStylesheet();
-}{        return htmlDocumentFacade.getDocument();
-}{        Element span = htmlDocumentFacade.document.createElement( "span" );
+}{
+        return htmlDocumentFacade.getDocument();
+}{
+        Element span = htmlDocumentFacade.document.createElement( "span" );
+
         if ( style.length() != 0 )
             htmlDocumentFacade.addStyleClass( span, "s", style.toString() );
         Text textNode = htmlDocumentFacade.createText( text );
-}{{            Element bookmarkElement = htmlDocumentFacade
+}{{
+            Element bookmarkElement = htmlDocumentFacade
                     .createBookmark( bookmark.getName() );
-}}{        if ( WordToHtmlUtils.isNotEmpty( summaryInformation.getTitle() ) )
+}}{
+        if ( WordToHtmlUtils.isNotEmpty( summaryInformation.getTitle() ) )
             htmlDocumentFacade.setTitle( summaryInformation.getTitle() );
         if ( WordToHtmlUtils.isNotEmpty( summaryInformation.getAuthor() ) )
             htmlDocumentFacade.addAuthor( summaryInformation.getAuthor() );
@@ -18,12 +26,17 @@
         if ( WordToHtmlUtils.isNotEmpty( summaryInformation.getComments() ) )
             htmlDocumentFacade
                     .addDescription( summaryInformation.getComments() );
-}{        Element select = htmlDocumentFacade.createSelect();
-{            select.appendChild( htmlDocumentFacade.createOption( values[i],
+}{
+        Element select = htmlDocumentFacade.createSelect();
+{
+            select.appendChild( htmlDocumentFacade.createOption( values[i],
                     defaultIndex == i ) );
-}}{        Element img = htmlDocumentFacade.createImage( path );
-}{        Element basicLink = htmlDocumentFacade.createHyperlink( hyperlink );
-}{{            root = htmlDocumentFacade.createBlock();
+}}{
+        Element img = htmlDocumentFacade.createImage( path );
+}{
+        Element basicLink = htmlDocumentFacade.createHyperlink( hyperlink );
+}{{
+            root = htmlDocumentFacade.createBlock();
             htmlDocumentFacade.addStyleClass( root, "d",
                     "vertical-align:text-bottom;width:" + visibleWidth
                             + "in;height:" + visibleHeight + "in;" );
@@ -36,24 +49,34 @@
                     "position:absolute;left:-" + cropLeft + ";top:-" + cropTop
                             + ";width:" + imageWidth + "in;height:"
                             + imageHeight + "in;" );
-}{            root = htmlDocumentFacade.createImage( imageSourcePath );
-}}{        currentBlock.appendChild( htmlDocumentFacade.document
+}{
+            root = htmlDocumentFacade.createImage( imageSourcePath );
+}}{
+        currentBlock.appendChild( htmlDocumentFacade.document
                 .createComment( "Image link to '"
                         + picture.suggestFullFileName() + "' can be here" ) );
-}{        block.appendChild( htmlDocumentFacade.createLineBreak() );
-}{        final String textIndexClass = htmlDocumentFacade.getOrCreateCssClass(
+}{
+        block.appendChild( htmlDocumentFacade.createLineBreak() );
+}{
+        final String textIndexClass = htmlDocumentFacade.getOrCreateCssClass(
                 "a", "vertical-align:super;font-size:smaller;" );
         Element anchor = htmlDocumentFacade.createHyperlink( "#"
                 + forwardNoteLink );
-{            notes = htmlDocumentFacade.createBlock();
-}        Element note = htmlDocumentFacade.createBlock();
+{
+            notes = htmlDocumentFacade.createBlock();
+}
+        Element note = htmlDocumentFacade.createBlock();
         Element bookmark = htmlDocumentFacade.createBookmark( forwardNoteLink );
         note.appendChild( htmlDocumentFacade.createText( " " ) );
         Element span = htmlDocumentFacade.getDocument().createElement( "span" );
-}{        flow.appendChild( htmlDocumentFacade.createLineBreak() );
-}{        Element basicLink = htmlDocumentFacade.createHyperlink( "#" + pageref );
-}{        final Element pElement = htmlDocumentFacade.createParagraph();
-{{{                    Element span = htmlDocumentFacade.getDocument()
+}{
+        flow.appendChild( htmlDocumentFacade.createLineBreak() );
+}{
+        Element basicLink = htmlDocumentFacade.createHyperlink( "#" + pageref );
+}{
+        final Element pElement = htmlDocumentFacade.createParagraph();
+{{{
+                    Element span = htmlDocumentFacade.getDocument()
                             .createElement( "span" );
                     htmlDocumentFacade
                             .addStyleClass( span, "s",
@@ -64,32 +87,44 @@
                             .substring( 0, bulletText.length() - 1 )
                             + UNICODECHAR_ZERO_WIDTH_SPACE
                             + UNICODECHAR_NO_BREAK_SPACE );
-}{                            .substring( 0, bulletText.length() - 1 ) );
-}}}        if ( style.length() > 0 )
+}{
+                            .substring( 0, bulletText.length() - 1 ) );
+}}}
+        if ( style.length() > 0 )
             htmlDocumentFacade.addStyleClass( pElement, "p", style.toString() );
-}{        Element div = htmlDocumentFacade.createBlock();
+}{
+        Element div = htmlDocumentFacade.createBlock();
         htmlDocumentFacade.addStyleClass( div, "d", getSectionStyle( section ) );
         htmlDocumentFacade.body.appendChild( div );
-}{        htmlDocumentFacade.addStyleClass( htmlDocumentFacade.body, "b",
+}{
+        htmlDocumentFacade.addStyleClass( htmlDocumentFacade.body, "b",
                 getSectionStyle( section ) );
         processParagraphes( wordDocument, htmlDocumentFacade.body, section,
                 Integer.MIN_VALUE );
-}{        Element tableHeader = htmlDocumentFacade.createTableHeader();
+}{
+        Element tableHeader = htmlDocumentFacade.createTableHeader();
         Element tableBody = htmlDocumentFacade.createTableBody();
-{            Element tableRowElement = htmlDocumentFacade.createTableRow();
-{{                    tableCellElement = htmlDocumentFacade
+{
+            Element tableRowElement = htmlDocumentFacade.createTableRow();
+{{
+                    tableCellElement = htmlDocumentFacade
                             .createTableHeaderCell();
-}{                    tableCellElement = htmlDocumentFacade.createTableCell();
-}{                    tableCellElement.appendChild( htmlDocumentFacade
+}{
+                    tableCellElement = htmlDocumentFacade.createTableCell();
+}{
+                    tableCellElement.appendChild( htmlDocumentFacade
                             .createParagraph() );
-}                if ( tableCellStyle.length() > 0 )
+}
+                if ( tableCellStyle.length() > 0 )
                     htmlDocumentFacade.addStyleClass( tableCellElement,
                             tableCellElement.getTagName(),
                             tableCellStyle.toString() );
-}            if ( tableRowStyle.length() > 0 )
+}
+            if ( tableRowStyle.length() > 0 )
                 tableRowElement.setAttribute( "class", htmlDocumentFacade
                         .getOrCreateCssClass( "r", tableRowStyle.toString() ) );
-}        final Element tableElement = htmlDocumentFacade.createTable();
+}
+        final Element tableElement = htmlDocumentFacade.createTable();
         tableElement
                 .setAttribute(
                         "class",

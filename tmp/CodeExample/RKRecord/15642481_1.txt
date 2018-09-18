@@ -1,5 +1,8 @@
+    public static Record [] createRecord(RecordInputStream in)
+{{
             RKRecord     rk  = ( RKRecord ) retval;
             num.setColumn(rk.getColumn());
             num.setRow(rk.getRow());
             num.setXFIndex(rk.getXFIndex());
             num.setValue(rk.getRKNumber());
+}}

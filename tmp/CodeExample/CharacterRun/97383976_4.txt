@@ -1,20 +1,28 @@
+                    public String toString()
+}}}{
             CharacterRun characterRun = range.getCharacterRun( c );
-{                processImage( block, characterRun.text().charAt( 0 ) == 0x01,
+{
+                processImage( block, characterRun.text().charAt( 0 ) == 0x01,
                         picture );
-}            String text = characterRun.text();
+}
+            String text = characterRun.text();
             if ( characterRun.isSpecialCharacter() )
             {
                 if ( text.charAt( 0 ) == SPECCHAR_AUTONUMBERED_FOOTNOTE_REFERENCE
                         && ( wordDocument instanceof HWPFDocument ) )
                 {
                     HWPFDocument doc = (HWPFDocument) wordDocument;
-}                if ( characterRun.isOle2()
+}
+                if ( characterRun.isOle2()
+
                 if ( characterRun.isSymbol()
-}{{                    Field aliveField = ( (HWPFDocument) wordDocument )
+}{{
+                    Field aliveField = ( (HWPFDocument) wordDocument )
                             .getFields().getFieldByStartOffset(
                                     FieldsDocumentPart.MAIN,
                                     characterRun.getStartOffset() );
-}}            if ( characterRun.isSpecialCharacter() || characterRun.isObj()
+}}
+            if ( characterRun.isSpecialCharacter() || characterRun.isObj()
                     || characterRun.isOle2() )
-{                continue;
-}
+{
+                continue;

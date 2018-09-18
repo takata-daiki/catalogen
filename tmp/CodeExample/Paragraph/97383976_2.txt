@@ -1,3 +1,6 @@
+    protected void processParagraphes( HWPFDocumentCore wordDocument,
+            Element flow, Range range, int currentTableLevel )
+{{
             Paragraph paragraph = range.getParagraph( p );
             if ( paragraph.isInTable()
                     && paragraph.getTableLevel() != currentTableLevel )
@@ -9,13 +12,17 @@
                                     + ") than current table level ("
                                     + currentTableLevel
                                     + ") as inner table part" );
-}            if ( paragraph.text().equals( "\u000c" ) )
-{                processPageBreak( wordDocument, flow );
-}            if ( paragraph.isInList() )
-{                try
+}
+            if ( paragraph.text().equals( "\u000c" ) )
+{
+                processPageBreak( wordDocument, flow );
+}
+            if ( paragraph.isInList() )
+{
+                try
                 {
                     HWPFList hwpfList = paragraph.getList();
                     String label = AbstractWordUtils.getBulletText(
                             numberingState, hwpfList,
                             (char) paragraph.getIlvl() );
-}}
+}}}}

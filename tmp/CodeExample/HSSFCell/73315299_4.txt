@@ -1,7 +1,13 @@
+  public static void export(String title, String[] headers, String[] cols, Collection<Map<String, Object>> dataset,
+      OutputStream out, String pattern, String[] sumcols) {
+{{
         HSSFCell cell = row.createCell(i);
         cell.setCellStyle(style2);
-{{{              cell.setCellStyle(style3);
+{{{
+              cell.setCellStyle(style3);
               cell.setCellValue(Double.parseDouble(textValue));
-}{              cell.setCellStyle(style4);
-}{              cell.setCellValue(textValue);
-}}}
+}{
+              cell.setCellStyle(style4);
+}{
+              cell.setCellValue(textValue);
+}}}}}}

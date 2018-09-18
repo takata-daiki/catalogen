@@ -1,3 +1,6 @@
+    private ObjRecord createObjRecord( HSSFTextbox hssfShape, int shapeId )
+{
         ObjRecord obj = new ObjRecord();
         obj.addSubRecord( c );
         obj.addSubRecord( e );
+}

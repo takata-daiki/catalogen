@@ -1,2 +1,5 @@
-            FormatRun r = (FormatRun) field_4_format_runs.get(i);
-            str.field_4_format_runs.add(new FormatRun(r.character, r.fontIndex));
+    public int compareTo(Object obj)
+{{
+          FormatRun run1 = (FormatRun)field_4_format_runs.get(i);
+          result = run1.compareTo(run2);
+}}

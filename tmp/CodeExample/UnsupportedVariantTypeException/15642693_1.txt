@@ -6,5 +6,6 @@
             if (unsupportedMessage == null)
                 unsupportedMessage = new LinkedList();
             Long vt = new Long(ex.getVariantType());
-{                System.err.println(ex.getMessage());
+{
+                System.err.println(ex.getMessage());
 }}}

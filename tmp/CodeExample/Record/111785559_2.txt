@@ -2,4 +2,5 @@
             switch (record.getSid()) {
             case BOFRecord.sid: // start of workbook, worksheet etc. records
                 BOFRecord bof = (BOFRecord) record;
-}            previousSid = record.getSid();
+}
+            previousSid = record.getSid();

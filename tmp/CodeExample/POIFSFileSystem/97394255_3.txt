@@ -1,6 +1,11 @@
+  private void readOtherStreams() {
+}{
         POIFSFileSystem outFS = new POIFSFileSystem();
+
         outFS.createDocument(bais,"PowerPoint Document");
-{            outFS.createDocument(
+{
+            outFS.createDocument(
                 new ByteArrayInputStream(pict.toByteArray()), "Pictures"
             );
-}        outFS.writeFilesystem(out);
+}
+        outFS.writeFilesystem(out);

@@ -1,5 +1,7 @@
     static final private BitField italic     =
         BitFieldFactory.getInstance(0x02);                                   // is this font in italics
-{        field_2_attributes = italic.setShortBoolean(field_2_attributes, italics);
-}{        return italic.isSet(field_2_attributes);
+{
+        field_2_attributes = italic.setShortBoolean(field_2_attributes, italics);
+}{
+        return italic.isSet(field_2_attributes);
 }

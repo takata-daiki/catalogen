@@ -2,8 +2,11 @@
     protected void visitFooter( XWPFFooter footer, CTHdrFtrRef footerRef, CTSectPr sectPr, XHTMLMasterPage masterPage )
         throws Exception
     {
-}    }
+}
+    }
     protected void setActiveMasterPage( XHTMLMasterPage masterPage )
+
     protected XHTMLMasterPage createMasterPage( CTSectPr sectPr )
-{        return new XHTMLMasterPage( sectPr );
+{
+        return new XHTMLMasterPage( sectPr );
 }

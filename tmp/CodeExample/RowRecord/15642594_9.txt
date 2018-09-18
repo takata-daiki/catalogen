@@ -1,2 +1,6 @@
-            RowRecord row = createRow( lastRow + 1);
-            row.setColapsed( true );
+    public int writeHidden( RowRecord rowRecord, int row, boolean hidden )
+    {
+        int level = rowRecord.getOutlineLevel();
+{
+            rowRecord.setZeroHeight( hidden );
+}}

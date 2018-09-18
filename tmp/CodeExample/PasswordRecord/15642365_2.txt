@@ -1,2 +1,3 @@
+    public void protectSheet( String password, boolean objects, boolean scenarios ) {
         PasswordRecord pass = getPassword();
         pass.setPassword(PasswordRecord.hashPassword(password));

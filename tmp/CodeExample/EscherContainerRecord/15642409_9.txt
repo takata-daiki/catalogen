@@ -1,5 +1,7 @@
-        EscherContainerRecord spContainer1 = new EscherContainerRecord();
-        spContainer1.setRecordId( EscherContainerRecord.SP_CONTAINER );
-        spContainer1.setOptions( (short) 0x000F );
-        spContainer1.addChildRecord( spgr );
-        spContainer1.addChildRecord( sp1 );
+    private void convertPatriarch( HSSFPatriarch patriarch )
+{
+        EscherContainerRecord spgrContainer = new EscherContainerRecord();
+        spgrContainer.setRecordId( EscherContainerRecord.SPGR_CONTAINER );
+        spgrContainer.setOptions( (short) 0x000F );
+        spgrContainer.addChildRecord( spContainer1 );
+}

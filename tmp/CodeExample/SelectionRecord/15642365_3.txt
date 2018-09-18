@@ -1,2 +1,5 @@
+    public void createFreezePane(int colSplit, int rowSplit, int topRow, int leftmostColumn )
+{
         SelectionRecord sel = (SelectionRecord) findFirstRecordBySid(SelectionRecord.sid);
         sel.setPane((byte)pane.getActivePane());
+}

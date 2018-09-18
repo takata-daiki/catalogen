@@ -1,0 +1,5 @@
+  public static HSSFName getNamedRange(HSSFWorkbook wb, String name){
+{{
+        HSSFName iName = wb.getNameAt(i);
+        if((iName != null) && (iName.getNameName() != null) && iName.getNameName().equals(name)) return iName;
+}}

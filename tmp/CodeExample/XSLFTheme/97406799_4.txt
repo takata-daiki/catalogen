@@ -1,5 +1,7 @@
-                XSLFTheme theme = sheet.getTheme();
-{                    fillProps = theme.getXmlObject().
-                            getThemeElements().getFmtScheme().getFillStyleLst().selectPath("*")[idx - 1];
-}{                            getThemeElements().getFmtScheme().getBgFillStyleLst().selectPath("*")[idx - 1001];
-}
+            public int compare(CTGradientStop o1, CTGradientStop o2) {
+}}}
+    private static Paint createRadialGradientPaint(
+            CTGradientFillProperties gradFill, Rectangle2D anchor,
+            XSLFTheme theme, CTSchemeColor phClr) {
+        @SuppressWarnings("deprecation")
+        CTGradientStop[] gs = gradFill.getGsLst().getGsArray();

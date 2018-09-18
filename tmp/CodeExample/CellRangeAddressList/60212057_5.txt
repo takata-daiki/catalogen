@@ -1,5 +1,4 @@
-          CellRangeAddressList list = ExcelUtils.getSpecialCells(sh, cra, ExcelUtils.XlCellType.xlCellTypeFormulas);
-          if (list != null && list.getSize() >0){
-            for(int jj=0; jj < list.countRanges(); jj++){
-            CellRangeAddress crb = list.getCellRangeAddress(jj);  
-}}
+  private void modelDelete(HSSFSheet sh){
+{{{{{
+              CellRangeAddressList list = ExcelUtils.getSpecialCells(sh, res, ExcelUtils.XlCellType.xlCellTypeFormulas);
+}}}}}

@@ -1,2 +1,5 @@
+    private int serializeRowBlock(final int block, final int offset, byte[] data) {
+{
         RowRecord row = (RowRecord)rowIterator.next();
         pos += row.serialize(pos, data);
+}

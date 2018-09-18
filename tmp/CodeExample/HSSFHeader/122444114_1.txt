@@ -1,3 +1,6 @@
+    private HSSFSheet createSheet ( final List<Event> events, final HSSFWorkbook workbook, final List<Field> columns )
+{
         final HSSFHeader header = sheet.getHeader ();
         header.setLeft ( Messages.ExportImpl_ExcelSheet_Header );
         header.setRight ( HeaderFooter.date () + " " + HeaderFooter.time () );//$NON-NLS-1$
+}

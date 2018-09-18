@@ -1,10 +1,13 @@
         for ( CHPX chpx : _doc.getCharacterTable().getTextRuns() )
         {
             System.out.println( chpx );
-{                System.out.println( chpx.getCharacterProperties(
+{
+                System.out.println( chpx.getCharacterProperties(
                         _doc.getStyleSheet(), (short) StyleSheet.NIL_STYLE ) );
-}{                SprmIterator sprmIt = new SprmIterator( chpx.getGrpprl(), 0 );
-}{                String text = new Range( chpx.getStart(), chpx.getEnd(),
+}{
+                SprmIterator sprmIt = new SprmIterator( chpx.getGrpprl(), 0 );
+}{
+                String text = new Range( chpx.getStart(), chpx.getEnd(),
                         _doc.getOverallRange() )
                 {
                     public String toString()

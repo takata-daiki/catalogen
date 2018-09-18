@@ -1,3 +1,5 @@
+    public boolean equals( Object obj )
+{
         CHPAbstractType other = (CHPAbstractType) obj;
         if ( field_1_grpfChp != other.field_1_grpfChp )
             return false;
@@ -7,9 +9,11 @@
         if ( field_5_ftcOther != other.field_5_ftcOther )
         if ( field_6_ftcBi != other.field_6_ftcBi )
         if ( field_7_dxaSpace != other.field_7_dxaSpace )
-{            if ( other.field_8_cv != null )
+{
+            if ( other.field_8_cv != null )
                 return false;
-}        else if ( !field_8_cv.equals( other.field_8_cv ) )
+}
+        else if ( !field_8_cv.equals( other.field_8_cv ) )
         if ( field_9_ico != other.field_9_ico )
         if ( field_10_pctCharWidth != other.field_10_pctCharWidth )
         if ( field_11_lidDefault != other.field_11_lidDefault )
@@ -21,14 +25,20 @@
         if ( field_17_idct != other.field_17_idct )
         if ( field_18_idctHint != other.field_18_idctHint )
         if ( field_19_kul != other.field_19_kul )
-{            if ( other.field_20_hresi != null )
-}        else if ( !field_20_hresi.equals( other.field_20_hresi ) )
+{
+            if ( other.field_20_hresi != null )
+}
+        else if ( !field_20_hresi.equals( other.field_20_hresi ) )
         if ( field_21_hpsKern != other.field_21_hpsKern )
         if ( field_22_hpsPos != other.field_22_hpsPos )
-{            if ( other.field_23_shd != null )
-}        else if ( !field_23_shd.equals( other.field_23_shd ) )
-{            if ( other.field_24_brc != null )
-}        else if ( !field_24_brc.equals( other.field_24_brc ) )
+{
+            if ( other.field_23_shd != null )
+}
+        else if ( !field_23_shd.equals( other.field_23_shd ) )
+{
+            if ( other.field_24_brc != null )
+}
+        else if ( !field_24_brc.equals( other.field_24_brc ) )
         if ( field_25_ibstRMark != other.field_25_ibstRMark )
         if ( field_26_sfxtText != other.field_26_sfxtText )
         if ( field_27_fDblBdr != other.field_27_fDblBdr )
@@ -44,13 +54,19 @@
         if ( field_37_fcObj != other.field_37_fcObj )
         if ( field_38_lTagObj != other.field_38_lTagObj )
         if ( field_39_fcData != other.field_39_fcData )
-{            if ( other.field_40_hresiOld != null )
-}        else if ( !field_40_hresiOld.equals( other.field_40_hresiOld ) )
+{
+            if ( other.field_40_hresiOld != null )
+}
+        else if ( !field_40_hresiOld.equals( other.field_40_hresiOld ) )
         if ( field_41_ibstRMarkDel != other.field_41_ibstRMarkDel )
-{            if ( other.field_42_dttmRMark != null )
-}        else if ( !field_42_dttmRMark.equals( other.field_42_dttmRMark ) )
-{            if ( other.field_43_dttmRMarkDel != null )
-}        else if ( !field_43_dttmRMarkDel.equals( other.field_43_dttmRMarkDel ) )
+{
+            if ( other.field_42_dttmRMark != null )
+}
+        else if ( !field_42_dttmRMark.equals( other.field_42_dttmRMark ) )
+{
+            if ( other.field_43_dttmRMarkDel != null )
+}
+        else if ( !field_43_dttmRMarkDel.equals( other.field_43_dttmRMarkDel ) )
         if ( field_44_istd != other.field_44_istd )
         if ( field_45_idslRMReason != other.field_45_idslRMReason )
         if ( field_46_idslReasonDel != other.field_46_idslReasonDel )
@@ -60,18 +76,24 @@
         if ( field_50_chse != other.field_50_chse )
         if ( field_51_fPropRMark != other.field_51_fPropRMark )
         if ( field_52_ibstPropRMark != other.field_52_ibstPropRMark )
-{            if ( other.field_53_dttmPropRMark != null )
-}        else if ( !field_53_dttmPropRMark.equals( other.field_53_dttmPropRMark ) )
+{
+            if ( other.field_53_dttmPropRMark != null )
+}
+        else if ( !field_53_dttmPropRMark.equals( other.field_53_dttmPropRMark ) )
         if ( field_54_fConflictOrig != other.field_54_fConflictOrig )
         if ( field_55_fConflictOtherDel != other.field_55_fConflictOtherDel )
         if ( field_56_wConflict != other.field_56_wConflict )
         if ( field_57_IbstConflict != other.field_57_IbstConflict )
-{            if ( other.field_58_dttmConflict != null )
-}        else if ( !field_58_dttmConflict.equals( other.field_58_dttmConflict ) )
+{
+            if ( other.field_58_dttmConflict != null )
+}
+        else if ( !field_58_dttmConflict.equals( other.field_58_dttmConflict ) )
         if ( field_59_fDispFldRMark != other.field_59_fDispFldRMark )
         if ( field_60_ibstDispFldRMark != other.field_60_ibstDispFldRMark )
-{            if ( other.field_61_dttmDispFldRMark != null )
-}        else if ( !field_61_dttmDispFldRMark.equals( other.field_61_dttmDispFldRMark ) )
+{
+            if ( other.field_61_dttmDispFldRMark != null )
+}
+        else if ( !field_61_dttmDispFldRMark.equals( other.field_61_dttmDispFldRMark ) )
         if ( !Arrays.equals( field_62_xstDispFldRMark, other.field_62_xstDispFldRMark ) )
         if ( field_63_fcObjp != other.field_63_fcObjp )
         if ( field_64_lbrCRJ != other.field_64_lbrCRJ )
@@ -79,3 +101,4 @@
         if ( field_66_fHasOldProps != other.field_66_fHasOldProps )
         if ( field_67_fSdtVanish != other.field_67_fSdtVanish )
         if ( field_68_wCharScale != other.field_68_wCharScale )
+}

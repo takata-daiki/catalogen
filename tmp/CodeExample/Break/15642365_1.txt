@@ -1,2 +1,5 @@
+    public void shiftBreaks(PageBreakRecord breaks, short start, short stop, int count) {
+{
         PageBreakRecord.Break breakItem = (PageBreakRecord.Break)iterator.next();
         short breakLocation = breakItem.main;
+}

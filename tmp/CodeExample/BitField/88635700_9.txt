@@ -1,4 +1,6 @@
     /**/private static BitField fOnlyMacPics = new BitField(0x01);
-{        field_5_docinfo = (byte)fOnlyMacPics.setBoolean(field_5_docinfo, value);
-}{        return fOnlyMacPics.isSet(field_5_docinfo);
+{
+        field_5_docinfo = (byte)fOnlyMacPics.setBoolean(field_5_docinfo, value);
+}{
+        return fOnlyMacPics.isSet(field_5_docinfo);
 }

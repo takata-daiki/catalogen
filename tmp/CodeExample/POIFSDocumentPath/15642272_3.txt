@@ -1,5 +1,5 @@
-        BigBlockStore(final POIFSDocumentPath path, final String name,
-                      final int size, final POIFSWriterListener writer)
+        SmallBlockStore(final POIFSDocumentPath path, final String name,
+                        final int size, final POIFSWriterListener writer)
         {
-            bigBlocks   = new DocumentBlock[ 0 ];
+            smallBlocks = new SmallDocumentBlock[ 0 ];
 }

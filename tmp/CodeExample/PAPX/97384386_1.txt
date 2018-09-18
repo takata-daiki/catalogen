@@ -1,6 +1,7 @@
                 for ( PAPX papx : pfkp.getPAPXs() )
                 {
                     System.out.println( "** " + papx );
-{                        SprmIterator sprmIt = new SprmIterator(
+{
+                        SprmIterator sprmIt = new SprmIterator(
                                 papx.getGrpprl(), 2 );
 }}

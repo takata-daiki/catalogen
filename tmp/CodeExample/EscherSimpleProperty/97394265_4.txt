@@ -1,2 +1,3 @@
+    public int getLineStyle(){
         EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.LINESTYLE__LINESTYLE);
         return prop == null ? Line.LINE_SIMPLE : prop.getPropertyValue();

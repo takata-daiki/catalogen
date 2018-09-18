@@ -1,2 +1,3 @@
+    protected EscherContainerRecord createSpContainer(boolean isChild) {
         EscherSpRecord sp = new EscherSpRecord();
         sp.setFlags(flags);

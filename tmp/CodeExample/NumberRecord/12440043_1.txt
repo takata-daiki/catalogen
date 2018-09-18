@@ -1,5 +1,8 @@
+    public void processRecord(Record record)
+{{{
                     final NumberRecord numrec = (NumberRecord) record;
                     logger.warn("Cell [" + numrec.getRow() + "," + 
                             numrec.getColumn() + 
                             "] expecting a string value not numeric: " + 
                             numrec.getValue() + ". Ignoring value");
+}}}

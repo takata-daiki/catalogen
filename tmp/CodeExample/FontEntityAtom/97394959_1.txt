@@ -1,4 +1,6 @@
+  public PPFont getFont(int idx) {
+{{
         FontEntityAtom atom = (FontEntityAtom) ch[i];
         if (atom.getFontIndex() == idx) {
           font = new PPFont(atom);
-}
+}}}

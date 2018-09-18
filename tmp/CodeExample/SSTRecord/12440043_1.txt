@@ -1,12 +1,19 @@
     private SSTRecord sstrec;
-{{{{                        logger.debug("file contains " + 
+{{{{
+                        logger.debug("file contains " + 
                             sstrec.getNumUniqueStrings() + " unique strings");
-}{{                            String keywordStr = 
+}{{
+                            String keywordStr = 
                                 sstrec.getString(lrec.getSSTIndex()).getString();
-}{                            keyword.setContext(
+}{
+                            keyword.setContext(
                                     sstrec.getString(lrec.getSSTIndex()).getString());
-}{                            String name = sstrec.getString(lrec.getSSTIndex()).getString();
-}{                            String colHeader = 
-}{                            String value = sstrec.getString(lrec.getSSTIndex()).getString();
-}}}}}{{            String colHeader = sstrec.getString(lrec.getSSTIndex()).getString();
+}{
+                            String name = sstrec.getString(lrec.getSSTIndex()).getString();
+}{
+                            String colHeader = 
+}{
+                            String value = sstrec.getString(lrec.getSSTIndex()).getString();
+}}}}}{{
+            String colHeader = sstrec.getString(lrec.getSSTIndex()).getString();
 }}

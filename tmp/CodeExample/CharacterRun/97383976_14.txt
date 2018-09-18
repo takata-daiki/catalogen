@@ -1,2 +1,6 @@
+    private int[] tryDeadField_lookupFieldSeparatorEnd(
+            HWPFDocumentCore wordDocument, Range range, int beginMark )
+{{
             CharacterRun characterRun = range.getCharacterRun( c );
             String text = characterRun.text();
+}}

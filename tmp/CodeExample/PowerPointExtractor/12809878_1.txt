@@ -1,2 +1,5 @@
+  public void readContent(ClassifiableContentIF cc, TextHandlerIF handler) {
+{
       PowerPointExtractor extractor = new PowerPointExtractor(new BufferedInputStream(new ByteArrayInputStream(cc.getContent())));
       String s = extractor.getText();
+}

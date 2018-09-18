@@ -1,2 +1,5 @@
+    public void importExcel2003(final User user, final InputStream is) {
+{
             HSSFRequest req = new HSSFRequest();
             req.addListenerForAllRecords(new Excel2003ImportListener(proxy, dataList, batchSize));
+}

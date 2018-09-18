@@ -1,2 +1,5 @@
+  public void setFontProperties(CellStyle style, Element element)
+{
     XSSFCellStyle newStyle = (XSSFCellStyle) style;
     XSSFFont font = newStyle.getFont();
+}

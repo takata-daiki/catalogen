@@ -1,3 +1,6 @@
+    protected void processFootnoteAutonumbered( HWPFDocument wordDocument,
+            int noteIndex, Element block, Range footnoteTextRange )
+
     @Override
     protected void processHyperlink( HWPFDocumentCore wordDocument,
             Element currentBlock, Range textRange, int currentTableLevel,

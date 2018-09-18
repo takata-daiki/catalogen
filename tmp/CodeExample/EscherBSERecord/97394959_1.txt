@@ -1,4 +1,6 @@
+  public Slide createSlide() {
+}{{{
         EscherBSERecord bse = (EscherBSERecord) iter.next();
         if (Arrays.equals(bse.getUid(), uid)) {
           return i + 1;
-}
+}}}

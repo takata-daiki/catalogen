@@ -1,7 +1,11 @@
+    private void closeInputStream(InputStream stream, boolean success) {
+}{
         BlockAllocationTableWriter bat        =
             new BlockAllocationTableWriter(bigBlockSize);
-{{                bmo.setStartBlock(bat.allocateSpace(block_count));
-}}        int               batStartBlock       = bat.createBlocks();
+{{
+                bmo.setStartBlock(bat.allocateSpace(block_count));
+}}
+        int               batStartBlock       = bat.createBlocks();
         BATBlock[]        xbat_blocks         =
             header_block_writer.setBATBlocks(bat.countBlocks(),
                                              batStartBlock);

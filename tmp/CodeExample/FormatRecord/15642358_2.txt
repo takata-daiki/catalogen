@@ -1,4 +1,6 @@
+    public short getFormat(String format, boolean createIfNotFound) {
+{
       FormatRecord r = (FormatRecord)iterator.next();
       if (r.getFormatString().equals(format)) {
     return r.getIndexCode();
-}
+}}

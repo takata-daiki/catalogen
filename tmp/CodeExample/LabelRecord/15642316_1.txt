@@ -1,6 +1,9 @@
+     private void convertLabelRecords(List records, int offset)
+{{{
                  LabelRecord oldrec = ( LabelRecord ) rec;
                  int            stringid =
                      workbook.addSSTString(new UnicodeString(oldrec.getValue()));
                  newrec.setRow(oldrec.getRow());
                  newrec.setColumn(oldrec.getColumn());
                  newrec.setXFIndex(oldrec.getXFIndex());
+}}}

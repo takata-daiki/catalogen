@@ -1,5 +1,9 @@
+    boolean changeName(final String oldName, final String newName)
+{
         EntryNode child = ( EntryNode ) _entries.get(oldName);
-{            rval = (( DirectoryProperty ) getProperty())
+{
+            rval = (( DirectoryProperty ) getProperty())
                 .changeName(child.getProperty(), newName);
-{                _entries.put(child.getProperty().getName(), child);
-}}
+{
+                _entries.put(child.getProperty().getName(), child);
+}}}

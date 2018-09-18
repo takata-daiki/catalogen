@@ -1,3 +1,6 @@
+        if (isContainer(options, recordId)) {
+}
         EscherRecord escherRecord = null;
+
         escherRecord.setRecordId(recordId);
         escherRecord.setOptions(options);

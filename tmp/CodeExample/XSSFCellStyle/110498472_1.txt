@@ -1,2 +1,3 @@
+  public String getBGColour(CellStyle style) {
     XSSFCellStyle newStyle = (XSSFCellStyle) style;
     XSSFColor colour = newStyle.getFillForegroundXSSFColor();

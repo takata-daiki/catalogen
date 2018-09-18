@@ -1,4 +1,4 @@
-  protected void writePropertySet(String name, PropertySet set, POIFSFileSystem outFS) throws IOException {
-    try {
-      MutablePropertySet mSet = new MutablePropertySet(set);
+  protected PropertySet getPropertySet(String setName) {
+{
+        PropertySet set = PropertySetFactory.create(dis);
 }

@@ -1,4 +1,6 @@
+        return new MetadataExtractor(extractor, TYPE) {
+{{
                     XSSFSheet sheet = document.getSheetAt(i);
                     if (sheet.getProtect()) {
                         metadata.set(TikaMetadataKeys.PROTECTED, "true");
-}
+}}}

@@ -1,6 +1,9 @@
   private PackagePart activePart;
-{{{          xliffReader.open(new RawDocument(activePart.getInputStream(), "UTF-8", srcLoc, srcLoc));
-}{          throw new RuntimeException(String.format("OPCPackageReader: cannot open input stream for %s", 
+{{{
+          xliffReader.open(new RawDocument(activePart.getInputStream(), "UTF-8", srcLoc, srcLoc));
+}{
+          throw new RuntimeException(String.format("OPCPackageReader: cannot open input stream for %s", 
               activePart.getPartName().getName()), e);
-}}}{    String partName = activePart.getPartName().toString();
+}}}{
+    String partName = activePart.getPartName().toString();
 }

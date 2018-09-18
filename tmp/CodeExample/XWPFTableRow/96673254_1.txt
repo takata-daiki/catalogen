@@ -1,6 +1,4 @@
-    protected void visitTableRow( XWPFTableRow row, T tableContainer, boolean firstRow, boolean lastRow )
-        throws Exception
-    {
-        boolean firstCell = false;
-        List<XWPFTableCell> cells = row.getTableCells();
-}
+    public XWPFElementVisitor( XWPFDocument document )
+{{
+            XWPFTableRow row = rows.get( i );
+}}

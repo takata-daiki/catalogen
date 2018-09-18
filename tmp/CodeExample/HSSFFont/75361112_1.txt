@@ -1,3 +1,4 @@
+    public static HSSFCellStyle createHeaderStyle(final HSSFWorkbook workbook) {        
         HSSFFont font = workbook.createFont();        
         font.setColor(HSSFColor.BLACK.index);
         font.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);

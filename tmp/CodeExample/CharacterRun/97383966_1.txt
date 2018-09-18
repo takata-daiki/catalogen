@@ -1,8 +1,11 @@
+    public Document getDocument()
+
     @Override
     protected void outputCharacters( Element pElement,
             CharacterRun characterRun, String text )
     {
         Element span = htmlDocumentFacade.document.createElement( "span" );
+
         if ( characterRun.getFontSize() / 2 != blockProperies.pFontSize )
         {
             style.append( "font-size:" + characterRun.getFontSize() / 2 + "pt;" );

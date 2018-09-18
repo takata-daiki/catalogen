@@ -1,13 +1,6 @@
-    private void setColumnInfoFields( ColumnInfoRecord ci, Short xfStyle, Short width, Integer level, Boolean hidden, Boolean collapsed )
-    {
-  if (xfStyle != null)
-      ci.setXFIndex(xfStyle.shortValue());
-        if (width != null)
-            ci.setColumnWidth(width.shortValue());
-        if (level != null)
-            ci.setOutlineLevel( level.shortValue() );
-        if (hidden != null)
-            ci.setHidden( hidden.booleanValue() );
-        if (collapsed != null)
-            ci.setCollapsed( collapsed.booleanValue() );
-}
+    public void setColumn(short column, Short xfIndex, Short width, Integer level, Boolean hidden, Boolean collapsed)
+{{
+            ColumnInfoRecord nci = ( ColumnInfoRecord ) createColInfo();
+            nci.setFirstColumn(column);
+            nci.setLastColumn(column);
+}}

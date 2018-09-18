@@ -1,3 +1,6 @@
+  public void reorderSlide(int oldSlideNumber, int newSlideNumber) {
+
     SlideListWithText slwt = _documentRecord.getSlideSlideListWithText();
     SlideAtomsSet[] sas = slwt.getSlideAtomsSets();
+
     slwt.setChildRecord(r);

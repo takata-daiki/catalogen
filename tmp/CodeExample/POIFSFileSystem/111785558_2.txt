@@ -1,7 +1,9 @@
+    public SummaryExtractor(Metadata metadata) {
+}
     private void parseSummaryEntryIfExists(
             POIFSFileSystem filesystem, String entryName)
             throws IOException, TikaException {
         try {
             DocumentEntry entry =
                 (DocumentEntry) filesystem.getRoot().getEntry(entryName);
-}}
+}

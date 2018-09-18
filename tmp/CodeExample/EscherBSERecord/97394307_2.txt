@@ -1,2 +1,3 @@
+    protected void afterInsert(Sheet sh){
         EscherBSERecord bse = getEscherBSERecord();
         bse.setRef(bse.getRef() + 1);

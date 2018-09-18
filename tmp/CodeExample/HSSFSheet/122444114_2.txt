@@ -1,3 +1,5 @@
+    private HSSFSheet createSheet ( final List<Event> events, final HSSFWorkbook workbook, final List<Field> columns )
+{
         final HSSFSheet sheet = workbook.createSheet ( Messages.ExportImpl_ExcelSheet_Name );
         final HSSFHeader header = sheet.getHeader ();
         final HSSFFooter footer = sheet.getFooter ();
@@ -10,3 +12,4 @@
         sheet.setMargin ( Sheet.RightMargin, 0.25 );
         sheet.setMargin ( Sheet.TopMargin, 0.25 );
         sheet.setMargin ( Sheet.BottomMargin, 0.5 );
+}

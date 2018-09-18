@@ -1,0 +1,6 @@
+  public void createCell(HSSFWorkbook book, HSSFRow row, short col,
+      Object value, CellDefine cd, Map bookStyleCache) {
+    if (value == null)
+      return;
+    HSSFCell cell = row.createCell(col);
+}

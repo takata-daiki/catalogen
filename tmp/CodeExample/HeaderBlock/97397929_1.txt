@@ -1,18 +1,4 @@
-        HeaderBlock header_block;
-{            bigBlockSize = header_block.getBigBlockSize();
-}        new BlockAllocationTableReader(header_block.getBigBlockSize(),
-                                       header_block.getBATCount(),
-                                       header_block.getBATArray(),
-                                       header_block.getXBATCount(),
-                                       header_block.getXBATIndex(),
-                                       data_blocks);
-        processProperties(
-            SmallBlockTableReader.getSmallDocumentBlocks(
-                  bigBlockSize, data_blocks, properties.getRoot(),
-                header_block.getSBATStart()
-            ),
-            data_blocks,
-            properties.getRoot().getChildren(),
-            null,
-            header_block.getPropertyStart()
-        );
+    public POIFSFileSystem()
+{
+        HeaderBlock header_block = new HeaderBlock(bigBlockSize);
+}

@@ -1,2 +1,5 @@
+  public StyleSheet(byte[] tableStream, int offset)
+{{{
               StyleDescription aStyle = new StyleDescription(tableStream,
                       _stshif.getCbSTDBaseInFile(), offset, true);
+}}}

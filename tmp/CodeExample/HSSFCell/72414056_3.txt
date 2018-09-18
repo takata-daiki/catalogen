@@ -1,2 +1,5 @@
+    AbstractExcelView excelView = new AbstractExcelView() {
+{
         HSSFCell cell = getCell(sheet, 2, 4);
         cell.setCellValue("Test Value");
+}

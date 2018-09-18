@@ -1,3 +1,5 @@
+                    public String toString()
+}}}}
     protected void processDeadField( HWPFDocumentCore wordDocument,
             Element currentBlock, Range range, int currentTableLevel,
             int beginMark, int separatorMark, int endMark )
@@ -12,15 +14,20 @@
                 public String toString()
                 {
                     return "Dead field formula subrange: " + super.toString();
-}}            Range valueRange = new Range( range.getCharacterRun(
+}}
+            Range valueRange = new Range( range.getCharacterRun(
                     separatorMark + 1 ).getStartOffset(), range
                     .getCharacterRun( endMark - 1 ).getEndOffset(), range )
-{{                    return "Dead field value subrange: " + super.toString();
-}}}{            debug.append( range.getCharacterRun( i ) );
-}        Range deadFieldValueSubrage = new Range( range.getCharacterRun(
+{{
+                    return "Dead field value subrange: " + super.toString();
+}}}{
+            debug.append( range.getCharacterRun( i ) );
+}
+        Range deadFieldValueSubrage = new Range( range.getCharacterRun(
                 separatorMark ).getStartOffset() + 1, range.getCharacterRun(
                 endMark ).getStartOffset(), range )
-{            @Override
+{
+            @Override
             public String toString()
-{                return "DeadFieldValueSubrange (" + super.toString() + ")";
-}}}
+{
+                return "DeadFieldValueSubrange (" + super.toString() + ")";

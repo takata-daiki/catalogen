@@ -1,0 +1,5 @@
+    public void clearCellAt(int col, int row) {
+{
+            HSSFCell theCell = theRow.getCell(col);
+            theCell.setCellValue("");
+}

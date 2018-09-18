@@ -1,5 +1,7 @@
     @Override
-    protected void processPageBreak( HWPFDocumentCore wordDocument, Element flow )
+    protected void processHyperlink( HWPFDocumentCore wordDocument,
+            Element currentBlock, Range textRange, int currentTableLevel,
+            String hyperlink )
     {
-        flow.appendChild( htmlDocumentFacade.createLineBreak() );
+        Element basicLink = htmlDocumentFacade.createHyperlink( hyperlink );
 }

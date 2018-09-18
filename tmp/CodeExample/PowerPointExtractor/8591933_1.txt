@@ -1,3 +1,5 @@
+                        parser.parse(zipOpenDoc, new DefaultHandler() {
+}}}}{
                 PowerPointExtractor pptExtractor = new PowerPointExtractor(pptStream);
                 Reader contentReader = new StringReader(pptExtractor.getText(true, true));
                 pptExtractor.close();

@@ -1,7 +1,9 @@
   private static String getCellValue(XSSFCell cell, int cellType) {
     String returnvalue = "";
-{{        Date date = cell.getDateCellValue();
-}      returnvalue = String.valueOf(cell.getNumericCellValue());
+{{
+        Date date = cell.getDateCellValue();
+}
+      returnvalue = String.valueOf(cell.getNumericCellValue());
     case XSSFCell.CELL_TYPE_STRING:
       returnvalue = cell.toString();
     case XSSFCell.CELL_TYPE_BOOLEAN:

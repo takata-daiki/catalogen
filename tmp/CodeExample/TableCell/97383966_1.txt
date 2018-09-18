@@ -1,7 +1,10 @@
+    protected void processTable( HWPFDocumentCore hwpfDocument, Element flow,
+            Table table )
+{{{
                 TableCell tableCell = tableRow.getCell( c );
                 if ( tableCell.isVerticallyMerged()
                         && !tableCell.isFirstVerticallyMerged() )
                 {
                     currentEdgeIndex += getNumberColumnsSpanned(
                             tableCellEdges, currentEdgeIndex, tableCell );
-}
+}}}}

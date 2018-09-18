@@ -1,2 +1,11 @@
-            ColumnInfoRecord columnInfoRecord = columns.getColInfo(k);
-            maxLevel = Math.max(columnInfoRecord.getOutlineLevel(), maxLevel);
+    public boolean isColumnHidden(short column)
+{
+        ColumnInfoRecord ci     = null;
+{{
+                if ((ci.getFirstColumn() <= column)
+                        && (column <= ci.getLastColumn()))
+                {
+                    break;
+}}}{
+            retval = ci.getHidden();
+}}

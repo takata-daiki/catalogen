@@ -1,11 +1,8 @@
-    private Font getFont(XSSFFont xssfFont) {
-        Font font = getFontFromCache(xssfFont);
-{            String name = xssfFont.getFontName();
-            int size = xssfFont.getFontHeightInPoints();
-            if (xssfFont.getBoldweight() == XSSFFont.BOLDWEIGHT_BOLD) {
-                style = Font.BOLD;
-                if (xssfFont.getItalic()) {
-                    style = style | Font.ITALIC;
-}}            else if (xssfFont.getItalic()) {
-                style = Font.ITALIC;
-}}
+    public void setBold(boolean b) {
+
+        XSSFFont font = cellStyle.getFont();
+{
+            font.setBoldweight(XSSFFont.BOLDWEIGHT_BOLD);
+}{
+            font.setBoldweight(XSSFFont.BOLDWEIGHT_NORMAL);
+}

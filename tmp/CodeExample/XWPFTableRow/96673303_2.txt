@@ -1,2 +1,8 @@
+    protected IITextContainer startVisitTableCell( XWPFTableCell cell, IITextContainer tableContainer,
+                                                   boolean firstRow, boolean lastRow, boolean firstCell,
+                                                   boolean lastCell )
+{
         XWPFTableRow row = cell.getTableRow();
+
         int height = row.getHeight();
+}

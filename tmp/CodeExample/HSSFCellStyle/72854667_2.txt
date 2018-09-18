@@ -1,2 +1,4 @@
+    public Font getFont() {
         HSSFCellStyle cellStyle = theCell.getCellStyle();
+
         HSSFFont hssfFont = cellStyle.getFont(getWorkbook());

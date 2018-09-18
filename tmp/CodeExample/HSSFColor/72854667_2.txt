@@ -1,2 +1,5 @@
+    private HSSFCellStyle getFillStyleForColour(Color colour) {
+{
         HSSFColor col = translateColour(colour);
         style.setFillForegroundColor(col.getIndex());
+}

@@ -1,3 +1,6 @@
+    public static AbstractShape createShape( HSSFShape hssfShape, int shapeId )
+{
         EscherSpRecord sp = shape.getSpContainer().getChildById(EscherSpRecord.RECORD_ID);
         if (hssfShape.getParent() != null)
             sp.setFlags(sp.getFlags() | EscherSpRecord.FLAG_CHILD);
+}

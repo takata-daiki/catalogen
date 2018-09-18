@@ -1,5 +1,7 @@
     private static final BitField          outlineLevel  = BitFieldFactory.getInstance(0x07);
-{        field_7_option_flags =
+{
+        field_7_option_flags =
             outlineLevel.setShortValue(field_7_option_flags, ol);
-}{        return outlineLevel.getShortValue(field_7_option_flags);
+}{
+        return outlineLevel.getShortValue(field_7_option_flags);
 }

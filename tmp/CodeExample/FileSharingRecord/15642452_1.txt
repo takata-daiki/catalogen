@@ -1,3 +1,4 @@
+    public Object clone() {
       FileSharingRecord clone = new FileSharingRecord();
       clone.setReadOnly(field_1_readonly);
       clone.setPassword(field_2_password);

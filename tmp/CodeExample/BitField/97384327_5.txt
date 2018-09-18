@@ -1,4 +1,6 @@
     /**/private static final BitField fFldVanish = new BitField(0x00000010);
-{        field_1_grpfChp = fFldVanish.setBoolean(field_1_grpfChp, value);
-}{        return fFldVanish.isSet(field_1_grpfChp);
+{
+        field_1_grpfChp = fFldVanish.setBoolean(field_1_grpfChp, value);
+}{
+        return fFldVanish.isSet(field_1_grpfChp);
 }

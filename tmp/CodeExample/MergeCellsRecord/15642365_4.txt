@@ -1,5 +1,9 @@
+    public MergeCellsRecord.MergedRegion getMergedRegionAt(int index)
+{{{
                 MergeCellsRecord record = (MergeCellsRecord) mergedRecords.get(n);
                 if (startNumRegions + record.getNumAreas() > index)
                 {
                     pos = n;
-}                startNumRegions += record.getNumAreas(); 
+}
+                startNumRegions += record.getNumAreas(); 
+}}}

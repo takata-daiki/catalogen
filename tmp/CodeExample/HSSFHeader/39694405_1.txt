@@ -1,3 +1,5 @@
+    public byte[] exportConcepts(Class clazz, ConceptOutput format) {
+
         HSSFHeader sheetHeader = overviewSheet.getHeader();
         sheetHeader.setLeft(lblHeaderLeft);
         sheetHeader.setRight(lblHeaderRight);

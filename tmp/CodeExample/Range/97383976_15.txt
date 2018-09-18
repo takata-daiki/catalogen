@@ -1,3 +1,7 @@
+    protected void processField( HWPFDocument wordDocument, Range parentRange,
+            int currentTableLevel, Field field, Element currentBlock )
+{{{
             Range fieldContent = field.firstSubrange( parentRange );
             CharacterRun cr = fieldContent.getCharacterRun( fieldContent
                     .numCharacterRuns() - 1 );
+}}}

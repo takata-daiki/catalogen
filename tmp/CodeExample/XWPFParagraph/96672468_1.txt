@@ -1,21 +1,39 @@
+    private void testTableCell( XWPFTableCell cell, XWPFStylesDocument stylesDocument )
+{
         XWPFParagraph paragraph = cell.getParagraphs().get( 0 );
         if ( "A".equals( paragraph.getText() ) )
         {
             testsA( paragraph, stylesDocument );
-}        else if ( "B".equals( paragraph.getText() ) )
-{            testsB( paragraph, stylesDocument );
-}        else if ( "C".equals( paragraph.getText() ) )
-{            testsC( paragraph, stylesDocument );
-}        else if ( "D".equals( paragraph.getText() ) )
-{            testsD( paragraph, stylesDocument );
-}        else if ( "E".equals( paragraph.getText() ) )
-{            testsE( paragraph, stylesDocument );
-}        else if ( "F".equals( paragraph.getText() ) )
-{            testsF( paragraph, stylesDocument );
-}        else if ( "G".equals( paragraph.getText() ) )
-{            testsG( paragraph, stylesDocument );
-}        else if ( "H".equals( paragraph.getText() ) )
-{            testsH( paragraph, stylesDocument );
-}        else if ( "I".equals( paragraph.getText() ) )
-{            testsI( paragraph, stylesDocument );
 }
+        else if ( "B".equals( paragraph.getText() ) )
+{
+            testsB( paragraph, stylesDocument );
+}
+        else if ( "C".equals( paragraph.getText() ) )
+{
+            testsC( paragraph, stylesDocument );
+}
+        else if ( "D".equals( paragraph.getText() ) )
+{
+            testsD( paragraph, stylesDocument );
+}
+        else if ( "E".equals( paragraph.getText() ) )
+{
+            testsE( paragraph, stylesDocument );
+}
+        else if ( "F".equals( paragraph.getText() ) )
+{
+            testsF( paragraph, stylesDocument );
+}
+        else if ( "G".equals( paragraph.getText() ) )
+{
+            testsG( paragraph, stylesDocument );
+}
+        else if ( "H".equals( paragraph.getText() ) )
+{
+            testsH( paragraph, stylesDocument );
+}
+        else if ( "I".equals( paragraph.getText() ) )
+{
+            testsI( paragraph, stylesDocument );
+}}

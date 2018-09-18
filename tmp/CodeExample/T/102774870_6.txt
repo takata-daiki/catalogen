@@ -1,0 +1,4 @@
+  public T getPersistedInstance(boolean fresh) {
+{
+      T foundInstance = getEntityManager().find(getEntityClass(), id);
+}

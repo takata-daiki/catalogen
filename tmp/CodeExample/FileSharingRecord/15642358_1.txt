@@ -1,3 +1,4 @@
+    public void writeProtectWorkbook( String password, String username ) {
         FileSharingRecord frec = getFileSharing();
         frec.setReadOnly((short)1);
         frec.setPassword(FileSharingRecord.hashPassword(password));

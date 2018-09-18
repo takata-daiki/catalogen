@@ -1,3 +1,4 @@
   protected RevisionMarkAuthorTable _rmat;
-{{      _rmat.writeTo(tableStream);
+{{
+      _rmat.writeTo(tableStream);
 }}

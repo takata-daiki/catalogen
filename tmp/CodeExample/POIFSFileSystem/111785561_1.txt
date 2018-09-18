@@ -1,7 +1,10 @@
+    public WordExtractor(ParseContext context) {
+}
     protected void parse(
             POIFSFileSystem filesystem, XHTMLContentHandler xhtml)
             throws IOException, SAXException, TikaException {
         HWPFDocument document = new HWPFDocument(filesystem);
-{            DirectoryEntry op =
+{
+            DirectoryEntry op =
                 (DirectoryEntry) filesystem.getRoot().getEntry("ObjectPool");
-}}
+}

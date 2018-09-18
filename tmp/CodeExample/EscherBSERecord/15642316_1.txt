@@ -1,3 +1,5 @@
+    public int addPicture(byte[] pictureData, int format)
+{
         EscherBSERecord r = new EscherBSERecord();
         r.setRecordId( EscherBSERecord.RECORD_ID );
         r.setOptions( (short) ( 0x0002 | ( format << 4 ) ) );
@@ -9,3 +11,4 @@
         r.setRef( 1 );
         r.setOffset( 0 );
         r.setBlipRecord( blipRecord );
+}

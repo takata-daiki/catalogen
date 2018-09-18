@@ -1,3 +1,6 @@
+  public ExcelReport(ReportPropertyData propertyData) {
+}{
     XSSFSheet dataSheet = wb.createSheet("Data");
-{      dataSheet.autoSizeColumn(ii);
+{
+      dataSheet.autoSizeColumn(ii);
 }

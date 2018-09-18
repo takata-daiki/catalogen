@@ -1,7 +1,14 @@
+    public boolean equals( Object obj )
+{
         ListTables other = (ListTables) obj;
-{            if ( other._listMap != null )
+{
+            if ( other._listMap != null )
                 return false;
-}        else if ( !_listMap.equals( other._listMap ) )
+}
+        else if ( !_listMap.equals( other._listMap ) )
             return false;
-{            if ( other._plfLfo != null )
-}        else if ( !_plfLfo.equals( other._plfLfo ) )
+{
+            if ( other._plfLfo != null )
+}
+        else if ( !_plfLfo.equals( other._plfLfo ) )
+}

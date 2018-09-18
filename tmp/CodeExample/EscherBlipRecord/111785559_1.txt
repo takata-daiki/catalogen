@@ -1,6 +1,10 @@
+        private void newSheet() {
+}{{{
                  EscherBlipRecord blip = ((EscherBSERecord) escherRecord).getBlipRecord();
-{                    switch (blip.getRecordId()) {
+{
+                    switch (blip.getRecordId()) {
                     case EscherMetafileBlip.RECORD_ID_WMF:
                        mimeType =  "image/x-wmf";
-}                    TikaInputStream stream = TikaInputStream.get(blip.getPicturedata());
 }
+                    TikaInputStream stream = TikaInputStream.get(blip.getPicturedata());
+}}}

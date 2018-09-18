@@ -1,6 +1,10 @@
+    public POIFSDocument(final String name,
+                         final SmallDocumentBlock [] blocks, final int length)
+{{
             DocumentBlock block     = new DocumentBlock(stream, size);
             int           blockSize = block.size();
+
             if (block.partiallyRead())
             {
                 break;
-}
+}}}

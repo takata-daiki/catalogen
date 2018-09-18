@@ -1,6 +1,10 @@
+    public void drawPolygon(int xPoints[], int yPoints[],
+             int nPoints)
+{
         HSSFPolygon shape = escherGroup.createPolygon(new HSSFChildAnchor(left,top,right,bottom) );
         shape.setPolygonDrawArea(right - left, bottom - top);
         shape.setPoints(addToAll(xPoints, -left), addToAll(yPoints, -top));
         shape.setLineStyleColor(foreground.getRed(), foreground.getGreen(), foreground.getBlue());
         shape.setLineWidth(0);
         shape.setNoFill(true);
+}

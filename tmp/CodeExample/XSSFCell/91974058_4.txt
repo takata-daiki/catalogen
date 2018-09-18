@@ -1,3 +1,7 @@
+  public void erstelleExcel(ArrayList<String> spalten, int patient1,
+      int patient2, int kontaktperson1, int kontaktperson2, String von, String bis) {
+{
       XSSFCell spaltenCells = zweiteZeile.createCell(1);
       spaltenCells.setCellStyle(headerStyle);
       spaltenCells.setCellValue("Familien");
+}}

@@ -1,4 +1,5 @@
         final CustomProperty cp = (CustomProperty) customProperty;
+
         if (!(name.equals(cp.getName())))
             throw new IllegalArgumentException("Parameter \"name\" (" + name +
                     ") and custom property's name (" + cp.getName() +

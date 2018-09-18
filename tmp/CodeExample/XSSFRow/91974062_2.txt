@@ -1,4 +1,7 @@
+  public void erstelleExcel(ArrayList<String> spalten) {
+{
       XSSFRow row1 = sheet.createRow(1);
       XSSFCell betreuerinnenCell = row1.createCell(0);
-{        XSSFCell celltemp = row1.createCell(2 + (spalten.size() * i));
-}
+{
+        XSSFCell celltemp = row1.createCell(2 + (spalten.size() * i));
+}}

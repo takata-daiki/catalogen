@@ -1,5 +1,11 @@
+    public void registerListener(final POIFSReaderListener listener,
+                                 final POIFSDocumentPath path,
+                                 final String name)
+{{{
                 POIFSDocumentPath new_path = new POIFSDocumentPath(path,
                                                  new String[]
                 {
                     name
-}                });
+}
+                });
+}}}

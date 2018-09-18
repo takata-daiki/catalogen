@@ -8,9 +8,11 @@
         verticesProp.setNumberOfElementsInArray(hssfShape.getXPoints().length+1);
         verticesProp.setNumberOfElementsInMemory(hssfShape.getXPoints().length+1);
         for (int i = 0; i < hssfShape.getXPoints().length; i++)
-{            LittleEndian.putShort(data, 0, (short)hssfShape.getXPoints()[i]);
+{
+            LittleEndian.putShort(data, 0, (short)hssfShape.getXPoints()[i]);
             LittleEndian.putShort(data, 2, (short)hssfShape.getYPoints()[i]);
-}        int point = hssfShape.getXPoints().length;
+}
+        int point = hssfShape.getXPoints().length;
         LittleEndian.putShort(data, 0, (short)hssfShape.getXPoints()[0]);
         LittleEndian.putShort(data, 2, (short)hssfShape.getYPoints()[0]);
         segmentsProp.setNumberOfElementsInArray(hssfShape.getXPoints().length * 2 + 4);

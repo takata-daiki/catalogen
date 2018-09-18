@@ -1,4 +1,12 @@
-          CellRangeAddress workMergeRef1 = ExcelUtils.mergeArea(activeSheet, new CellReference(cellAHRef.getFirstCell().getRow(), lastCol + 1));
-          HSSFCell srcCell = ExcelUtils.getCell(activeSheet, workMergeRef1.getFirstRow(), workMergeRef1.getFirstColumn());
-          for(int row=workMergeRef1.getFirstRow(); row <=workMergeRef1.getLastRow(); row++)
-            for(int col=workMergeRef1.getFirstColumn(); col <=workMergeRef1.getLastColumn(); col++)
+  private void autoHeight(HSSFSheet activeSheet){
+{{{
+          CellRangeAddress workMergeRef = ExcelUtils.mergeArea(activeSheet, cellAHRef.getFirstCell());
+          for(int col=workMergeRef.getFirstColumn(); col <=workMergeRef.getLastColumn(); col++){
+}
+          if (workMergeRef.getLastRow()-workMergeRef.getFirstRow() > 0 || 
+              workMergeRef.getLastColumn()-workMergeRef.getFirstColumn() > 0){
+            distCell.setCellFormula(cellAHRef.getFirstCell().formatAsString());
+}
+          if (workMergeRef.getLastRow()-workMergeRef.getFirstRow() > 0 ){
+            HSSFCellStyle defaultCellStyle2 = wb.createCellStyle();
+}}}}

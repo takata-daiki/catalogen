@@ -1,4 +1,6 @@
     /**/private static BitField fShadeFormData = new BitField(0x1000);
-{        field_24_Edn1 = (short)fShadeFormData.setBoolean(field_24_Edn1, value);
-}{        return fShadeFormData.isSet(field_24_Edn1);
+{
+        field_24_Edn1 = (short)fShadeFormData.setBoolean(field_24_Edn1, value);
+}{
+        return fShadeFormData.isSet(field_24_Edn1);
 }

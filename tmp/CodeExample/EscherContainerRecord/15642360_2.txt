@@ -1,7 +1,11 @@
+    private EscherContainerRecord createSpContainer( HSSFPolygon hssfShape, int shapeId )
+{
         EscherContainerRecord spContainer = new EscherContainerRecord();
         spContainer.setRecordId( EscherContainerRecord.SP_CONTAINER );
         spContainer.setOptions( (short) 0x000F );
+
         spContainer.addChildRecord( sp );
         spContainer.addChildRecord( opt );
         spContainer.addChildRecord( anchor );
         spContainer.addChildRecord( clientData );
+}

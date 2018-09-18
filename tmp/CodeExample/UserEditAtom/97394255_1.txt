@@ -1,3 +1,7 @@
+    private Record[] read(byte[] docstream, int usrOffset){
+{
             UserEditAtom usr = (UserEditAtom) Record.buildRecordAtOffset(docstream, usrOffset);
             int psrOffset = usr.getPersistPointersOffset();
+
             usrOffset = usr.getLastUserEditAtomOffset();
+}

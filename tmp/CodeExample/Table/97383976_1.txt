@@ -5,5 +5,6 @@
         if ( !tableCell.isFirstVerticallyMerged() )
             return 1;
         final int numRows = table.numRows();
-{            TableRow nextRow = table.getRow( r1 );
+{
+            TableRow nextRow = table.getRow( r1 );
 }}

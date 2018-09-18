@@ -1,8 +1,4 @@
-  private void extractHeaders(final StringBuilder buffy, final XWPFHeaderFooterPolicy hfPolicy) {
-    if (hfPolicy.getFirstPageHeader() != null) {
-      buffy.append(hfPolicy.getFirstPageHeader().getText()).append(' ');
-}    if (hfPolicy.getEvenPageHeader() != null) {
-      buffy.append(hfPolicy.getEvenPageHeader().getText()).append(' ');
-}    if (hfPolicy.getDefaultHeader() != null) {
-      buffy.append(hfPolicy.getDefaultHeader().getText()).append(' ');
+  public WordOOXMLDocument() {
+}{{
+      XWPFHeaderFooterPolicy headerFooterPolicy = null;
 }

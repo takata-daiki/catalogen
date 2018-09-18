@@ -1,3 +1,5 @@
-  public void deletePart(PackagePartName partName) {
-    if (partName == null)
-      throw new IllegalArgumentException("partName");
+      } else if (containPart(sourcePartName)) {
+}}}{{{
+        PackagePartName partNameToRemove = PackagingURIHelper
+            .createPartName(PackagingURIHelper.resolvePartUri(rel
+                .getSourceURI(), rel.getTargetURI()));

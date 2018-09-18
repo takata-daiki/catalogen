@@ -1,2 +1,6 @@
+    protected IITextContainer startVisitTableCell( XWPFTableCell cell, IITextContainer tableContainer )
+{
         XWPFTableRow row = cell.getTableRow();
+
         int height = row.getHeight();
+}

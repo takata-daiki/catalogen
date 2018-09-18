@@ -1,7 +1,4 @@
-    @Override
-    protected void processBookmarks( HWPFDocumentCore wordDocument,
-            Element currentBlock, Range range, int currentTableLevel,
-            List<Bookmark> rangeBookmarks )
-    {
-        Element parent = currentBlock;
+    public static void main( String[] args )
+{
+        final HWPFDocumentCore wordDocument = WordToHtmlUtils.loadDoc( docFile );
 }

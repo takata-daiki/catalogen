@@ -1,2 +1,4 @@
+    public FontRecord getFontRecordAt(int idx) {
+
         FontRecord retval =
         ( FontRecord ) records.get((records.getFontpos() - (numfonts - 1)) + index);

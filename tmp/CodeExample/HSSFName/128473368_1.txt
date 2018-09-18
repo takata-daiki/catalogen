@@ -1,3 +1,6 @@
+    protected void parseSheet() {
+{
             HSSFName nm = shTemplate.getWorkbook().getNameAt(i);
             AreaReference aref = new AreaReference(nm.getRefersToFormula());
             band.setName(nm.getNameName());
+}

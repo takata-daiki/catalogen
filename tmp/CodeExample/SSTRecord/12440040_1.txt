@@ -1,7 +1,10 @@
     private SSTRecord sstrec;
-{{{{                        logger.debug("file contains " + 
+{{{{
+                        logger.debug("file contains " + 
                             sstrec.getNumUniqueStrings() + " unique strings");
-}{{                            final String cellValue = sstrec.getString(lrec.getSSTIndex()).getString();
-}}}}}{        final String value = 
+}{{
+                            final String cellValue = sstrec.getString(lrec.getSSTIndex()).getString();
+}}}}}{
+        final String value = 
             sstrec.getString(lrec.getSSTIndex()).getString();
 }

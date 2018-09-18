@@ -1,3 +1,5 @@
+    public void clearCellAt(int col, int row) {
         HSSFRow theRow = sheet.getRow(row);
-{            HSSFCell theCell = theRow.getCell(col);
+{
+            HSSFCell theCell = theRow.getCell(col);
 }

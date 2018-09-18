@@ -4,6 +4,8 @@
         if ((row.getRowNumber() < firstrow) || (firstrow == -1))
         {
             firstrow = row.getRowNumber();
-}        if ((row.getRowNumber() > lastrow) || (lastrow == -1))
-{            lastrow = row.getRowNumber();
+}
+        if ((row.getRowNumber() > lastrow) || (lastrow == -1))
+{
+            lastrow = row.getRowNumber();
 }}

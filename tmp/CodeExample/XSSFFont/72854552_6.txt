@@ -1,2 +1,3 @@
-    private Font getFontFromCache(XSSFFont xssfFont) {
-      Map<XSSFFont,Font> cache = fontCache.get(getWorkbook());
+    public Font getFont() {      
+
+        XSSFFont xssfFont = cellStyle.getFont();

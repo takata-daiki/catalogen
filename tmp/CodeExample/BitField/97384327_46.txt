@@ -1,4 +1,6 @@
     /**/private static final BitField unused = new BitField(0x80);
-{        field_30_copt = (byte)unused.setBoolean(field_30_copt, value);
-}{        return unused.isSet(field_30_copt);
+{
+        field_30_copt = (byte)unused.setBoolean(field_30_copt, value);
+}{
+        return unused.isSet(field_30_copt);
 }

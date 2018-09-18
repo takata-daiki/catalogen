@@ -1,9 +1,12 @@
+    public String getProgrammableTag(){
+{
             RecordContainer progBinaryTag = (RecordContainer)
                 progTags.findFirstOfType(
                         RecordTypes.ProgBinaryTag.typeID
             );
-{                CString binaryTag = (CString)
+{
+                CString binaryTag = (CString)
                     progBinaryTag.findFirstOfType(
                             RecordTypes.CString.typeID
                 );
-}
+}}

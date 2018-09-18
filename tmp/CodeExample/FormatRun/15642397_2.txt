@@ -1,3 +1,4 @@
+      public int compareTo(Object obj) {
         FormatRun r = (FormatRun)obj;
         if ((character == r.character) && (fontIndex == r.fontIndex))
           return 0;

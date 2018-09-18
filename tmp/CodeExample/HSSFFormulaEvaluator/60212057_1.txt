@@ -1,9 +1,11 @@
   private HSSFFormulaEvaluator evaluator;
-{{{{{{               case 0:
+{{{{{{
+               case 0:
                  evaluator.evaluate(c);
                case 1:
                  evaluator.evaluateFormulaCell(c);
                case 2:
                  evaluator.evaluateInCell(c);
-}}}}}}{{{{{{{              evaluator.evaluateInCell(cell);
+}}}}}}{{{{{{{
+              evaluator.evaluateInCell(cell);
 }}}}}}}

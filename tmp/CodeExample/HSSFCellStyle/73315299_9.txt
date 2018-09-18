@@ -1,3 +1,5 @@
+  private static HSSFCellStyle createStyle(HSSFWorkbook workbook, short fillForegroundColor, short fillPattern,
+      short borderBottom, short borderleft, short borderright, short bordertop, short alignment) {
     HSSFCellStyle style = workbook.createCellStyle();
     style.setFillForegroundColor(fillForegroundColor);
     style.setFillPattern(fillPattern);
@@ -6,3 +8,4 @@
     style.setBorderRight(borderright);
     style.setBorderTop(bordertop);
     style.setAlignment(alignment);
+}

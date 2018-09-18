@@ -1,5 +1,9 @@
+  public void reportTable(HSSFWorkbook book, LinkedList<ReportTO> data,
+      HSSFSheet sheet, int fila) {
+
     HSSFCellStyle cellStyleN = book.createCellStyle();
-{{        cellStyleN.setWrapText(true);
+{{
+        cellStyleN.setWrapText(true);
         cellStyleN.setBorderTop(HSSFCellStyle.BORDER_MEDIUM);
         cellStyleN.setBottomBorderColor((short)8);
-}}
+}}}

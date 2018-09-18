@@ -1,3 +1,6 @@
+    private HSSFSheet createSheet ( final List<Event> events, final HSSFWorkbook workbook, final List<Field> columns )
+{
         final HSSFFooter footer = sheet.getFooter ();
         footer.setLeft ( String.format ( Messages.ExportImpl_ExcelSheet_Footer_1, events.size () ) );
         footer.setRight ( Messages.ExportImpl_ExcelSheet_Footer_2 + HeaderFooter.page () + Messages.ExportImpl_ExcelSheet_Footer_3 + HeaderFooter.numPages () );
+}

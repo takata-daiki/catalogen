@@ -1,2 +1,5 @@
+  public String getContent(ContentResource contentResource)
+{{
       POITextExtractor DocExt = ExtractorFactory.createExtractor(contentStream);
       return DocExt.getText();
+}}

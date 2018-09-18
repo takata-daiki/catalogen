@@ -1,23 +1,30 @@
     private final MAPIMessage msg;
-{{           msg.setReturnNullOnMissingChunk(true);
+{{
+           msg.setReturnNullOnMissingChunk(true);
            String subject = msg.getSubject();
            String from = msg.getDisplayFrom();
            metadata.set(Metadata.MESSAGE_TO, msg.getDisplayTo());
            metadata.set(Metadata.MESSAGE_CC, msg.getDisplayCC());
            metadata.set(Metadata.MESSAGE_BCC, msg.getDisplayBCC());
            metadata.set(Metadata.SUBJECT, msg.getConversationTopic());
-{           for(String recipientAddress : msg.getRecipientEmailAddressList()) {
+{
+           for(String recipientAddress : msg.getRecipientEmailAddressList()) {
                if(recipientAddress != null)
              metadata.add(Metadata.MESSAGE_RECIPIENT_ADDRESS, recipientAddress);
-}}           if(msg.getMessageDate() != null) {
+}}
+           if(msg.getMessageDate() != null) {
               metadata.set(Metadata.EDIT_TIME, msg.getMessageDate().getTime().toString());
               metadata.set(Metadata.LAST_SAVED, msg.getMessageDate().getTime().toString());
-}{{                 String[] headers = msg.getHeaders();
-}}           header(xhtml, "To", msg.getDisplayTo());
+}{{
+                 String[] headers = msg.getHeaders();
+}}
+           header(xhtml, "To", msg.getDisplayTo());
            header(xhtml, "Cc", msg.getDisplayCC());
            header(xhtml, "Bcc", msg.getDisplayBCC());
-{               header(xhtml, "Recipients", msg.getRecipientEmailAddress());
-}           xhtml.element("p", msg.getTextBody());
+{
+               header(xhtml, "Recipients", msg.getRecipientEmailAddress());
+}
+           xhtml.element("p", msg.getTextBody());
            for (AttachmentChunks attachment : msg.getAttachmentFiles()) {
                xhtml.startElement("div", "class", "attachment-entry");
 }}}

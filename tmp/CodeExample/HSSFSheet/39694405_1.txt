@@ -1,9 +1,15 @@
+    public byte[] exportConcepts(Class clazz, ConceptOutput format) {
+
         HSSFSheet overviewSheet = wb.createSheet(sheetName);
         HSSFHeader sheetHeader = overviewSheet.getHeader();
         Footer footer = overviewSheet.getFooter();
+
         Row row = overviewSheet.createRow(0);
         overviewSheet.createFreezePane(0, 1, 0, 1);
-{            row = overviewSheet.createRow(overviewSheetRow++);
-}{            overviewSheet.autoSizeColumn(i);
-}        overviewSheet.setFitToPage(true);
+{
+            row = overviewSheet.createRow(overviewSheetRow++);
+}{
+            overviewSheet.autoSizeColumn(i);
+}
+        overviewSheet.setFitToPage(true);
         overviewSheet.setAutobreaks(true);

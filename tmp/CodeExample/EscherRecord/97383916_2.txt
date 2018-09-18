@@ -1,2 +1,5 @@
+    public int serialize( int offset, byte[] data, EscherSerializationListener listener )
+{{
             EscherRecord r = iterator.next();
             remainingBytes += r.getRecordSize();
+}}

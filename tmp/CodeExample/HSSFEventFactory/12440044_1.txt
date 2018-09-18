@@ -1,2 +1,5 @@
+    public ExcelImporter(ExcelParser parser, KeywordService keywordService, TransferRepository transferRepository)
+{{
             HSSFEventFactory factory = new HSSFEventFactory();
             factory.processEvents(req, dis);
+}}

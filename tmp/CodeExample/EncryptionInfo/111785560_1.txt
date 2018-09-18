@@ -1,2 +1,5 @@
+    public Set<MediaType> getSupportedTypes(ParseContext context) {
+}{{{
                 case ENCRYPTED:
                     EncryptionInfo info = new EncryptionInfo(filesystem);
+}}

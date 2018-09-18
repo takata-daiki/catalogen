@@ -1,2 +1,5 @@
+    public void createSplitPane(int xSplitPos, int ySplitPos, int topRow, int leftmostColumn, int activePane )
+{
         SelectionRecord sel = (SelectionRecord) findFirstRecordBySid(SelectionRecord.sid);
         sel.setPane(PANE_LOWER_RIGHT);
+}

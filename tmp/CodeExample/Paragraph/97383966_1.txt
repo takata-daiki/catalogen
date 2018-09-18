@@ -1,10 +1,16 @@
+    protected void processPageref( HWPFDocumentCore hwpfDocument,
+            Element currentBlock, Range textRange, int currentTableLevel,
+            String pageref )
+
     protected void processParagraph( HWPFDocumentCore hwpfDocument,
             Element parentElement, int currentTableLevel, Paragraph paragraph,
             String bulletText )
     {
         final Element pElement = htmlDocumentFacade.createParagraph();
         final int charRuns = paragraph.numCharacterRuns();
-{            final CharacterRun characterRun = paragraph.getCharacterRun( 0 );
-}{{{                    float firstLinePosition = paragraph.getIndentFromLeft()
+{
+            final CharacterRun characterRun = paragraph.getCharacterRun( 0 );
+}{{{
+                    float firstLinePosition = paragraph.getIndentFromLeft()
                             + paragraph.getFirstLineIndent() + 20; // char have
 }}}}

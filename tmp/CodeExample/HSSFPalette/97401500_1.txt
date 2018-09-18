@@ -1,2 +1,5 @@
+    public HSSFColor getHSSFColor(HSSFWorkbook wb)
+{
        HSSFPalette pallette = wb.getCustomPalette();
        return pallette.getColor( getColor() );
+}

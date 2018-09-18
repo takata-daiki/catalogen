@@ -1,11 +1,18 @@
   protected PackageRelationshipCollection relationships;
-{    PackageRelationship retRel = relationships.addRelationship(
+{
+    PackageRelationship retRel = relationships.addRelationship(
         targetPartName.getURI(), targetMode, relationshipType, relID);
-}{    PackageRelationship retRel = relationships.addRelationship(targetURI,
+}{
+    PackageRelationship retRel = relationships.addRelationship(targetURI,
         TargetMode.EXTERNAL, relationshipType, id);
-}{{      relationships.removeRelationship(id);
-}}{    return this.relationships.getRelationships(id);
-}{{      relationships.clear();
-}}{    return this.relationships.getRelationshipByID(id);
-}{    return (relationships.size() > 0);
+}{{
+      relationships.removeRelationship(id);
+}}{
+    return this.relationships.getRelationships(id);
+}{{
+      relationships.clear();
+}}{
+    return this.relationships.getRelationshipByID(id);
+}{
+    return (relationships.size() > 0);
 }

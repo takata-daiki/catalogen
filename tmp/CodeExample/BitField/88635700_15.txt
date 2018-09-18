@@ -1,4 +1,6 @@
     /**/private static BitField fLinkStyles = new BitField(0x40);
-{        field_5_docinfo = (byte)fLinkStyles.setBoolean(field_5_docinfo, value);
-}{        return fLinkStyles.isSet(field_5_docinfo);
+{
+        field_5_docinfo = (byte)fLinkStyles.setBoolean(field_5_docinfo, value);
+}{
+        return fLinkStyles.isSet(field_5_docinfo);
 }

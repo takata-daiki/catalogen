@@ -1,3 +1,5 @@
+    private void dumpOfficeDrawings()
+{
         HWPFDocument document = (HWPFDocument) _doc;
         if ( document.getOfficeDrawingsHeaders() != null )
         {
@@ -6,6 +8,7 @@
                     .getOfficeDrawingsHeaders().getOfficeDrawings() )
             {
                 System.out.println( officeDrawing );
-}}{            System.out.println( "=== Document part: MAIN ===" );
+}}{
+            System.out.println( "=== Document part: MAIN ===" );
                     .getOfficeDrawingsMain().getOfficeDrawings() )
-}
+}}

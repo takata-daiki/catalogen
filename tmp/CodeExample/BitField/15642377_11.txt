@@ -1,6 +1,8 @@
     static final private BitField _indent                         =
         BitFieldFactory.getInstance(0x000F);
-{        field_5_indention_options =
+{
+        field_5_indention_options =
             _indent.setShortValue(field_5_indention_options, indent);
-}{        return _indent.getShortValue(field_5_indention_options);
+}{
+        return _indent.getShortValue(field_5_indention_options);
 }

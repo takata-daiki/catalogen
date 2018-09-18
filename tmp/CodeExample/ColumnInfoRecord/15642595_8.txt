@@ -1,8 +1,10 @@
     public ColumnInfoRecord writeHidden( ColumnInfoRecord columnInfo, int idx, boolean hidden )
     {
         int level = columnInfo.getOutlineLevel();
-{            columnInfo.setHidden( hidden );
-{                if (columnInfo.getLastColumn() + 1 == nextColumnInfo.getFirstColumn())
+{
+            columnInfo.setHidden( hidden );
+{
+                if (columnInfo.getLastColumn() + 1 == nextColumnInfo.getFirstColumn())
                 {
                     if (nextColumnInfo.getOutlineLevel() < level)
                         break;

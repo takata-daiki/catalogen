@@ -1,8 +1,12 @@
+    public void processRecord(final Record record) {
+{{
                     LabelSSTRecord lrec = (LabelSSTRecord) record;
                     if(lrec.getRow() == 0) {
                         break;
-}                    } else if(lrec.getColumn() == 0) { //第一列
+}
+                    } else if(lrec.getColumn() == 0) { //第一列
                         current = new ExcelData();
                         String value = sstrec.getString(lrec.getSSTIndex()).getString();
-}                    } else if(lrec.getColumn() == 1) {//第二列
 }
+                    } else if(lrec.getColumn() == 1) {//第二列
+}}}

@@ -1,2 +1,5 @@
+    private void dumpOfficeDrawings()
+{{{
                 GenericPropertyNode node = binTable.getProperty( x );
                 int pageNum = LittleEndian.getInt( node.getBytes() );
+}}}

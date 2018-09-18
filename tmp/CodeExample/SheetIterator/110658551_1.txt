@@ -1,4 +1,7 @@
+    private SheetProcessor rowProcessorFactory(final String sheetName, final RowProcessor rowProcessor)
+{
         final XSSFReader.SheetIterator sheetIterator = mock(XSSFReader.SheetIterator.class);
         stub(sheetIterator.hasNext()).toReturn(true).toReturn(false);
         when(sheetIterator.next()).thenReturn(inputStream);
         when(sheetIterator.getSheetName()).thenReturn(sheetName);
+}

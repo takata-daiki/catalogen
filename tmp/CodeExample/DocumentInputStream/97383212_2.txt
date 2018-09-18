@@ -1,4 +1,8 @@
+    public static boolean areDirectoriesIdentical(DirectoryEntry dirA, DirectoryEntry dirB) {
+}{
        DocumentInputStream inpA = null, inpB = null;
-{{             readA = inpA.read();
-}}{          if (inpA != null) inpA.close();
+{{
+             readA = inpA.read();
+}}{
+          if (inpA != null) inpA.close();
 }

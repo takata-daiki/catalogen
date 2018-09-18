@@ -1,3 +1,6 @@
+  private void buildSlidesAndNotes() {
+
     SlideListWithText slidesSLWT = _documentRecord.getSlideSlideListWithText();
-{      slidesSets = slidesSLWT.getSlideAtomsSets();
+{
+      slidesSets = slidesSLWT.getSlideAtomsSets();
 }

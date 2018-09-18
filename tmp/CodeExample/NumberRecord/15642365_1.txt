@@ -1,5 +1,8 @@
+    public NumberRecord createNumber(int row, short col, double value)
+{
         NumberRecord rec = new NumberRecord();
         rec.setRow(row);
         rec.setColumn(col);
         rec.setValue(value);
         rec.setXFIndex(( short ) 0x0f);
+}

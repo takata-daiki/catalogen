@@ -1,5 +1,6 @@
   protected void createSimpleComment(final HSSFCell cell,
       final String commentString, final String author) {
     Validate.notNull(commentString);
+
     cell.setCellComment(comment);
 }

@@ -1,3 +1,6 @@
+    protected void processDrawnObject( HWPFDocument doc,
+            CharacterRun characterRun, Element block )
+
     protected abstract void processDrawnObject( HWPFDocument doc,
             CharacterRun characterRun, OfficeDrawing officeDrawing,
             String path, Element block );

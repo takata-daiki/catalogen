@@ -1,3 +1,6 @@
+  public static void shiftRows(Workbook workbook, Sheet worksheet, FormulaParsingWorkbook parsingWorkbook,
+                 FormulaRenderingWorkbook renderingWorkbook, int rowNum) {
+{{{
           CellRangeAddress cellRangeAddress = worksheet.getMergedRegion(i);
           if (cellRangeAddress.getFirstRow() == sourceRow.getRowNum()) {
             CellRangeAddress newCellRangeAddress
@@ -5,4 +8,4 @@
                                 newRow.getRowNum() + (cellRangeAddress.getLastRow() - cellRangeAddress.getFirstRow()),
                                 cellRangeAddress.getFirstColumn(),
                                 cellRangeAddress.getLastColumn());
-}
+}}}}}

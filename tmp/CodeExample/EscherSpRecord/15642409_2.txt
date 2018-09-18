@@ -1,5 +1,8 @@
+    private void convertPatriarch( HSSFPatriarch patriarch )
+{
         EscherSpRecord sp1 = new EscherSpRecord();
         sp1.setRecordId( EscherSpRecord.RECORD_ID );
         sp1.setOptions( (short) 0x0002 );
         sp1.setShapeId( drawingManager.allocateShapeId(dg.getDrawingGroupId()) );
         sp1.setFlags( EscherSpRecord.FLAG_GROUP | EscherSpRecord.FLAG_PATRIARCH );
+}

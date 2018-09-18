@@ -1,2 +1,6 @@
+    public int fillFields( byte[] data, int offset,
+            EscherRecordFactory recordFactory )
+{
         EscherPropertyFactory f = new EscherPropertyFactory();
         properties = f.createProperties( data, pos, propertiesCount );
+}

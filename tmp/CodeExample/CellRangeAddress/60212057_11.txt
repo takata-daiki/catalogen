@@ -1,8 +1,5 @@
-          CellRangeAddress workMergeRef = ExcelUtils.mergeArea(activeSheet, cellAHRef.getFirstCell());
-          for(int col=workMergeRef.getFirstColumn(); col <=workMergeRef.getLastColumn(); col++){
-}          if (workMergeRef.getLastRow()-workMergeRef.getFirstRow() > 0 || 
-              workMergeRef.getLastColumn()-workMergeRef.getFirstColumn() > 0){
-            distCell.setCellFormula(cellAHRef.getFirstCell().formatAsString());
-}          if (workMergeRef.getLastRow()-workMergeRef.getFirstRow() > 0 ){
-            HSSFCellStyle defaultCellStyle2 = wb.createCellStyle();
-}
+  private void modelDelete(HSSFSheet sh){
+{{{{{{
+              CellRangeAddress cra2 = ExcelUtils.mergeArea(sh, area2.getAllReferencedCells()[0]);
+              for (int row = cra2.getFirstRow(); row <=cra2.getLastRow(); row++)
+}}}}}}

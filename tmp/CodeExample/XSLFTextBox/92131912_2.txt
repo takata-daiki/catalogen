@@ -1,3 +1,6 @@
+    public XMLSlideShow generate(XMLSlideShow ppt, MarketingReportSettings reportSettings,
+                                 MarketingReportDataOneCity marketingReportDataOneCity, Function<String, byte[]> pictureGetter) {
         XSLFTextBox txt2 = slide1.createTextBox();
         txt2.setAnchor(new java.awt.Rectangle(420, 480, 200, 40));
         XSLFTextParagraph p2 = txt2.addNewTextParagraph();
+}

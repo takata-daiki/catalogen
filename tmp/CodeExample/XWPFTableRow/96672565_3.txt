@@ -1,12 +1,13 @@
-    protected void startVisitTableRow( XWPFTableRow row, T tableContainer, int rowIndex, boolean headerRow )
+    protected void visitTableRow( XWPFTableRow row, float[] colWidths, T tableContainer, boolean firstRow,
+                                  boolean lastRowIfNoneVMerge, int rowIndex, int rowsSize )
         throws Exception
     {
-}    }
-    protected void endVisitTableRow( XWPFTableRow row, T tableContainer, boolean firstRow, boolean lastRow,
-                                     boolean headerRow )
-    protected void visitCell( XWPFTableCell cell, T tableContainer, boolean firstRow, boolean lastRow,
-                              boolean firstCol, boolean lastCol, int rowIndex, int cellIndex,
-                              List<XWPFTableCell> vMergedCells )
-{        T tableCellContainer =
-            startVisitTableCell( cell, tableContainer, firstRow, lastRow, firstCol, lastCol, vMergedCells );
-}
+        boolean headerRow = stylesDocument.isTableRowHeader( row );
+        List<XWPFTableCell> cells = row.getTableCells();
+{
+            CTRow ctRow = row.getCtRow();
+{{
+                    XWPFTableCell cell = row.getTableCell( tc );
+}{{
+                        XWPFTableCell cell = new XWPFTableCell( ctTc, row, row.getTable().getBody() );
+}}}}}

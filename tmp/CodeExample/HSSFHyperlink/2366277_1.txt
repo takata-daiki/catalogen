@@ -1,3 +1,6 @@
+            public void addRow(List<CellData> cells, boolean isHeader) {
+{{{{
                                 HSSFHyperlink hl = new HSSFHyperlink(HSSFHyperlink.LINK_URL);
                                 hl.setLabel(cellData.text);
                                 hl.setAddress(cellData.link);
+}}}}

@@ -1,3 +1,5 @@
+    public Rectangle2D getAnchor2D(){
+{
             EscherClientAnchorRecord rec = (EscherClientAnchorRecord)getEscherChild(_escherContainer, EscherClientAnchorRecord.RECORD_ID);
             anchor = new Rectangle2D.Float(
                 (float)rec.getCol1()*POINT_DPI/MASTER_DPI,
@@ -5,3 +7,4 @@
                 (float)(rec.getDx1()-rec.getCol1())*POINT_DPI/MASTER_DPI,
                 (float)(rec.getRow1()-rec.getFlag())*POINT_DPI/MASTER_DPI
             );
+}

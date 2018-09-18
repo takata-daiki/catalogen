@@ -1,5 +1,7 @@
     static final private BitField nocolor       =
         BitFieldFactory.getInstance(0x08);   // print mono/b&w, colorless
-{        field_6_options = nocolor.setShortBoolean(field_6_options, mono);
-}{        return nocolor.isSet(field_6_options);
+{
+        field_6_options = nocolor.setShortBoolean(field_6_options, mono);
+}{
+        return nocolor.isSet(field_6_options);
 }

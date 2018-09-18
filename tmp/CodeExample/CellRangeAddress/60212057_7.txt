@@ -1,2 +1,6 @@
-                    CellRangeAddress workRange = l.getCellRangeAddress(ii);
-                    for(int row = workRange.getFirstRow(); row <= workRange.getLastRow(); row++)
+  private void modelDelete(HSSFSheet sh){
+{{{{
+            CellRangeAddress res = ExcelUtils.intersectRectangular(new CellRangeAddress(
+                area.getFirstCell().getRow(), area.getLastCell().getRow(),
+                area.getFirstCell().getCol(), area.getLastCell().getCol()), crB);
+}}}}

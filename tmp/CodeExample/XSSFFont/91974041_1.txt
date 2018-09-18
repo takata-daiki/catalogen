@@ -1,2 +1,5 @@
+  public void erstelleExcel(ArrayList<String> spalten) {
+{
       XSSFFont font = xssfWorkbook.createFont();
       font.setBoldweight((short) 700);
+}

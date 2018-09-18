@@ -1,3 +1,5 @@
+  public Slide createSlide() {
+}{
     EscherBSERecord bse = new EscherBSERecord();
     bse.setRecordId(EscherBSERecord.RECORD_ID);
     bse.setOptions((short) (0x0002 | (format << 4)));

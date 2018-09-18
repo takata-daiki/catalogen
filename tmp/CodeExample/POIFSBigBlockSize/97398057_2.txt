@@ -1,6 +1,7 @@
     public BlockAllocationTableReader(POIFSBigBlockSize bigBlockSize, int block_count, int [] block_array,
             int xbat_count, int xbat_index, BlockList raw_block_list) throws IOException {
         this(bigBlockSize);
-{            int max_entries_per_block = bigBlockSize.getXBATEntriesPerBlock(); 
+{
+            int max_entries_per_block = bigBlockSize.getXBATEntriesPerBlock(); 
             int chain_index_offset    = bigBlockSize.getNextXBATChainOffset(); 
 }}

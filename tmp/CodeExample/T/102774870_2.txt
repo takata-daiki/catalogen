@@ -1,2 +1,2 @@
-  private void initEntity(T instance) throws Exception {
-    getEntityUtils().initEntity(instance);
+  protected T createInstance() {
+    T instance = super.createInstance();

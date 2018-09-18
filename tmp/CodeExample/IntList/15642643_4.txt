@@ -1,8 +1,10 @@
     public boolean containsAll(final IntList c)
     {
         boolean rval = true;
-{            for (int j = 0; rval && (j < c._limit); j++)
-{                if (!contains(c._array[ j ]))
+{
+            for (int j = 0; rval && (j < c._limit); j++)
+{
+                if (!contains(c._array[ j ]))
                 {
                     rval = false;
 }}}}

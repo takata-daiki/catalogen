@@ -1,2 +1,4 @@
-    HSSFSheet sheet = wb.getSheet("Test Sheet");
-    HSSFRow row = sheet.getRow(2);
+    AbstractExcelView excelView = new AbstractExcelView() {
+{
+        HSSFSheet sheet = wb.createSheet();
+}

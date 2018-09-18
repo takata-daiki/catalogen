@@ -1,5 +1,8 @@
+  public static void export(String title, String[] headers, String[] cols, Collection<Map<String, Object>> dataset,
+      OutputStream out, String pattern, String[] sumcols) {
     HSSFCellStyle style3 = createStyle(workbook, HSSFColor.WHITE.index, HSSFCellStyle.SOLID_FOREGROUND,
         HSSFCellStyle.BORDER_THIN, HSSFCellStyle.BORDER_THIN, HSSFCellStyle.BORDER_THIN,
         HSSFCellStyle.BORDER_THIN, HSSFCellStyle.ALIGN_CENTER);
     style3.setVerticalAlignment(HSSFCellStyle.VERTICAL_CENTER);
     style3.setDataFormat(format.getFormat("0.000"));
+}

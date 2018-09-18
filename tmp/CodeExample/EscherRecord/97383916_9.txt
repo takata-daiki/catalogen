@@ -1,3 +1,2 @@
-    public void addChildBefore(EscherRecord record, int insertBeforeRecordId) {
-        for (int i = 0; i < _childRecords.size(); i++) {
-}
+    public void addChildRecord(EscherRecord record) {
+        _childRecords.add(record);

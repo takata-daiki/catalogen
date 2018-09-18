@@ -1,6 +1,9 @@
-    private static Paint toRadialGradientPaint(
+    private Paint createTexturePaint(CTBlipFillProperties blipFill, Graphics2D graphics,
+            PackagePart parentPart){
+}
+    private Paint createLinearGradientPaint(
+            Graphics2D graphics,
             CTGradientFillProperties gradFill, Rectangle2D anchor,
             XSLFTheme theme, CTSchemeColor phClr) {
-        @SuppressWarnings("deprecation")
-        CTGradientStop[] gs = gradFill.getGsLst().getGsArray();
+        double angle = gradFill.getLin().getAng() / 60000;
 }

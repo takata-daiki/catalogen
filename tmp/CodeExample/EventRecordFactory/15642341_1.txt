@@ -1,3 +1,4 @@
+    public void run(InputStream stream) {
         EventRecordFactory factory = new EventRecordFactory(true);
         factory.registerListener(this,null);
         factory.processRecords(stream);

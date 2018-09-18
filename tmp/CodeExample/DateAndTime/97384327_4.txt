@@ -1,6 +1,8 @@
     protected DateAndTime field_58_dttmConflict;
-{        else if ( !field_58_dttmConflict.equals( other.field_58_dttmConflict ) )
+{
+        else if ( !field_58_dttmConflict.equals( other.field_58_dttmConflict ) )
             return false;
-}{        result = prime * result
+}{
+        result = prime * result
                 + ((field_58_dttmConflict == null) ? 0 : field_58_dttmConflict.hashCode());
 }

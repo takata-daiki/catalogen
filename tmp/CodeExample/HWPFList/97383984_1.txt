@@ -1,15 +1,21 @@
+    public static String getBorderWidth( BorderCode borderCode )
+
     public static String getBulletText( NumberingState numberingState,
             HWPFList list, char level )
     {
         StringBuffer bulletBuffer = new StringBuffer();
         char[] xst = list.getNumberText( level ).toCharArray();
-{{                int lsid = list.getLsid();
+{{
+                int lsid = list.getLsid();
                 if ( !list.isStartAtOverriden( element )
                         && numberingState.levels.containsKey( key ) )
                 {
                     num = numberingState.levels.get( key ).intValue();
-}{                    num = list.getStartAt( element );
-}                bulletBuffer.append( NumberFormatter.getNumber( num,
+}{
+                    num = list.getStartAt( element );
+}
+                bulletBuffer.append( NumberFormatter.getNumber( num,
                         list.getNumberFormat( level ) ) );
-}}        byte follow = list.getTypeOfCharFollowingTheNumber( level );
+}}
+        byte follow = list.getTypeOfCharFollowingTheNumber( level );
 }

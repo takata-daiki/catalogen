@@ -1,3 +1,6 @@
+  public void erstelleExcel(ArrayList<String> spalten, String suchevon, String suchebis) {
+{{{
           XSSFCell headerCell1 = headerRow.createCell(count);
           headerCell1.setCellStyle(headerStyle);
           headerCell1.setCellValue(spaltenname);
+}}}

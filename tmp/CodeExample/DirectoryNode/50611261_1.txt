@@ -1,3 +1,6 @@
+    private String fixPlainTextContentEncoding(String content) {
+}{{
             DirectoryNode root = fs.getRoot();
-{{                    DocumentInputStream inputStream = root.createDocumentInputStream(entry);
-}}
+{{
+                    DocumentInputStream inputStream = root.createDocumentInputStream(entry);
+}}}

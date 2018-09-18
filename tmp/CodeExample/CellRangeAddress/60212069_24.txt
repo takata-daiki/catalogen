@@ -1,2 +1,5 @@
-        CellRangeAddress cra = list.getCellRangeAddress(jj);
-        for(int row = cra.getFirstRow(); row <= cra.getLastRow(); row++)
+  public static CellRangeAddressList getEntireColumn(CellRangeAddressList cellsRefs){
+{
+      CellRangeAddress crA  = cellsRefs.getCellRangeAddress(i);
+      for(int row =crA.getFirstRow(); row<=crA.getLastRow(); row++)
+}

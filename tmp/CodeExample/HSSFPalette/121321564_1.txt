@@ -1,2 +1,5 @@
+  public final java.awt.Color awtColor(Short c, java.awt.Color defaultColor) {
+{
       HSSFPalette customPalette = ((HSSFWorkbook) designer.workbook).getCustomPalette();
       HSSFColor hssfColor = customPalette.getColor(c);
+}

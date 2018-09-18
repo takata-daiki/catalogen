@@ -1,4 +1,4 @@
-  private HSSFCellStyle createBorderedCurrencyCellStyle(
-      final HSSFWorkbook workbook, final HSSFFont font) {
-    final HSSFCellStyle cellStyle = createBorderedCellStyle(workbook);
+  private HSSFCellStyle createBorderedHeaderCellStyle(
+      final HSSFWorkbook workbook) {
+    final HSSFFont headerFont = createFont(workbook, true, false);
 }

@@ -1,2 +1,5 @@
+    private void dumpBookmarks()
+{
         HWPFDocument document = (HWPFDocument) _doc;
         Bookmarks bookmarks = document.getBookmarks();
+}

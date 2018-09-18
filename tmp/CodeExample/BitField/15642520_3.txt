@@ -1,5 +1,7 @@
     static final private BitField validsettings = BitFieldFactory.getInstance(
         0x04);                // if papersize, scale, resolution, copies, landscape
-{        field_6_options = validsettings.setShortBoolean(field_6_options, valid);
-}{        return validsettings.isSet(field_6_options);
+{
+        field_6_options = validsettings.setShortBoolean(field_6_options, valid);
+}{
+        return validsettings.isSet(field_6_options);
 }

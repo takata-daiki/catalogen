@@ -1,6 +1,9 @@
+  public static <T> void exportExcel(String title, String[] headers, String[] cols, Collection<T> dataset,
+      OutputStream out, String pattern, String[] sumcols) {
     HSSFSheet sheet = workbook.createSheet(title);
     sheet.setDefaultColumnWidth(15);
     HSSFPatriarch patriarch = sheet.createDrawingPatriarch();
     HSSFRow row = sheet.createRow(0);
-{      row = sheet.createRow(index);
-}
+{
+      row = sheet.createRow(index);
+}}

@@ -1,4 +1,3 @@
-        HSSFSheet hssfSheet = workbook.getSheet(setCellValue.getSheet().getName());
-        HSSFRow hssfRow = hssfSheet.getRow(setCellValue.getRow());
-{            hssfRow = hssfSheet.createRow(setCellValue.getRow());
+      while (containsSheet(name)) {
 }
+      HSSFSheet hssfSheet = workbook.createSheet(name);

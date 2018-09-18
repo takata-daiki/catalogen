@@ -1,2 +1,4 @@
+      public boolean equals(Object o) {
+
         FormatRun other = ( FormatRun ) o;
         return ((character == other.character) && (fontIndex == other.fontIndex));

@@ -1,4 +1,6 @@
     /**/private static final BitField fKumimoji = new BitField(0x0400);
-{        field_29_ufel = (short)fKumimoji.setBoolean(field_29_ufel, value);
-}{        return fKumimoji.isSet(field_29_ufel);
+{
+        field_29_ufel = (short)fKumimoji.setBoolean(field_29_ufel, value);
+}{
+        return fKumimoji.isSet(field_29_ufel);
 }

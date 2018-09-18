@@ -1,6 +1,8 @@
-    public TableInfo getTableInfo( XWPFTable table )
+    public TableCellBorder getTableBorderInside( XWPFTable table, BorderSide borderSide )
     {
-        if ( tableInfos == null )
+        switch ( borderSide )
         {
-            tableInfos = new HashMap<XWPFTable, TableInfo>();
+            case TOP:
+            case BOTTOM:
+                return getTableBorderInsideH( table );
 }}

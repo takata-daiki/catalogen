@@ -1,0 +1,7 @@
+    public void getRecordsById(short recordId, List<EscherRecord> out){
+{
+            EscherRecord r = iterator.next();
+
+            } else if (r.getRecordId() == recordId){
+                out.add(r);
+}}

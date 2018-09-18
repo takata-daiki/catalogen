@@ -1,0 +1,46 @@
+  static void unCompressCHPOperation (CharacterProperties oldCHP,
+                                      CharacterProperties newCHP,
+                                      SprmOperation sprm)
+  {
+    switch (sprm.getOperation())
+    {
+      case 0:
+        newCHP.setFRMarkDel (getFlag (sprm.getOperand()));
+            newCHP = oldCHP.clone();
+      case 0x35:
+        newCHP.setFBold (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFBold ()));
+      case 0x36:
+        newCHP.setFItalic (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFItalic ()));
+      case 0x37:
+        newCHP.setFStrike (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFStrike ()));
+      case 0x38:
+        newCHP.setFOutline (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFOutline ()));
+      case 0x39:
+        newCHP.setFShadow (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFShadow ()));
+      case 0x3a:
+        newCHP.setFSmallCaps (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFSmallCaps ()));
+      case 0x3b:
+        newCHP.setFCaps (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFCaps ()));
+      case 0x3c:
+        newCHP.setFVanish (getCHPFlag ((byte) sprm.getOperand(), oldCHP.isFVanish ()));
+
+        if (fAdjust && hpsPos != 128 && hpsPos != 0 && oldCHP.getHpsPos () == 0)
+        {
+          newCHP.setHps (Math.max (newCHP.getHps () + ( -2), 2));
+}
+        if (fAdjust && hpsPos == 0 && oldCHP.getHpsPos () != 0)
+{
+          newCHP.setHps (Math.max (newCHP.getHps () + 2, 2));
+}{
+          if (oldCHP.getHpsPos () == 0)
+          {
+            newCHP.setHps (Math.max (newCHP.getHps () + ( -2), 2));
+}}{
+          if (oldCHP.getHpsPos () != 0)
+{
+            newCHP.setHps (Math.max (newCHP.getHps () + 2, 2));
+}}
+    case 0x75:
+      newCHP.setFNoProof(getCHPFlag((byte) sprm.getOperand(),
+          oldCHP.isFNoProof()));
+}}

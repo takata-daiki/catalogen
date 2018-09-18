@@ -1,2 +1,3 @@
-      XSSFFont xssfFont = theCell.getCellStyle().getFont();
-        return xssfFont.getUnderline() != 0;
+    public boolean isStrikeThrough() {
+        XSSFFont xssfFont = theCell.getCellStyle().getFont();
+        return xssfFont.getStrikeout();

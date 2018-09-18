@@ -1,2 +1,3 @@
-            XSSFCell theCell = theRow.getCell(col);
-            theCell.setCellValue("");
+    public Cell getCellAt(int col, int row) {
+
+        XSSFCell hssfCell = hssfRow.getCell(col);

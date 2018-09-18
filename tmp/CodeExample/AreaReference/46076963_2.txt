@@ -1,0 +1,4 @@
+  private Object[][] getAreaValueArray(AreaReference ar) {
+    int cols = Math.abs(ar.getFirstCell().getCol() - ar.getLastCell().getCol()) + 1;
+    int rows = Math.abs(ar.getFirstCell().getRow() - ar.getLastCell().getRow()) + 1;
+    CellReference[] crs = ar.getAllReferencedCells();

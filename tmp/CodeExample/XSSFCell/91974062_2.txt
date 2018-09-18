@@ -1,3 +1,6 @@
+  public void erstelleExcel(ArrayList<String> spalten) {
+{
       XSSFCell betreuerinnenCell = row1.createCell(0);
       betreuerinnenCell.setCellStyle(headerStyle);
       betreuerinnenCell.setCellValue("Betreuerinnen");
+}

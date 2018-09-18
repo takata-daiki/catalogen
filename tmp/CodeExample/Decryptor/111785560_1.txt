@@ -1,7 +1,11 @@
+    public Set<MediaType> getSupportedTypes(ParseContext context) {
+}{{{
                     Decryptor d = new Decryptor(info);
-{                        if (!d.verifyPassword(Decryptor.DEFAULT_PASSWORD)) {
+{
+                        if (!d.verifyPassword(Decryptor.DEFAULT_PASSWORD)) {
                             throw new TikaException("Unable to process: document is encrypted");
-}                        parser.parse(d.getDataStream(filesystem), new EmbeddedContentHandler(
+}
+                        parser.parse(d.getDataStream(filesystem), new EmbeddedContentHandler(
                                         new BodyContentHandler(xhtml)),
                                         metadata, context);
-}
+}}}

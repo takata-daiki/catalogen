@@ -1,7 +1,11 @@
+    private boolean processOle2( HWPFDocument doc, CharacterRun characterRun,
+            Element block )
+
     protected abstract void processParagraph( HWPFDocumentCore wordDocument,
             Element parentElement, int currentTableLevel, Paragraph paragraph,
             String bulletText );
-{{            if ( paragraph.isInTable()
+{{
+            if ( paragraph.isInTable()
                     && paragraph.getTableLevel() != currentTableLevel )
             {
                 if ( paragraph.getTableLevel() < currentTableLevel )
@@ -11,10 +15,14 @@
                                     + ") than current table level ("
                                     + currentTableLevel
                                     + ") as inner table part" );
-}            if ( paragraph.text().equals( "\u000c" ) )
-{                processPageBreak( wordDocument, flow );
-}            if ( paragraph.isInList() )
-{                try
+}
+            if ( paragraph.text().equals( "\u000c" ) )
+{
+                processPageBreak( wordDocument, flow );
+}
+            if ( paragraph.isInList() )
+{
+                try
                 {
                     HWPFList hwpfList = paragraph.getList();
                     String label = AbstractWordUtils.getBulletText(

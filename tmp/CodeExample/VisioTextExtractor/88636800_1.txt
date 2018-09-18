@@ -1,3 +1,5 @@
+  protected void setUp() {
+}{
     VisioTextExtractor extractor;
     assertNotNull(extractor.getAllText());
     assertEquals(defTextChunks, extractor.getAllText().length);

@@ -1,15 +1,23 @@
+    public ExcelFeatureSource(ContentEntry entry, Query query) {
+{{
                 CellValue value = evaluator.evaluate(cell);
-{                    if (value.getCellType() == Cell.CELL_TYPE_NUMERIC) {
+{
+                    if (value.getCellType() == Cell.CELL_TYPE_NUMERIC) {
                         y = value.getNumberValue();
-}}{{                        x = value.getNumberValue();
-}}{                    switch (value.getCellType()) {
+}}{{
+                        x = value.getNumberValue();
+}}{
+                    switch (value.getCellType()) {
                     case Cell.CELL_TYPE_NUMERIC:
                         AttributeType type = schema.getType(name);
-{                            builder.set(name, value.getNumberValue());
-}{                            final java.util.Date javaDate = HSSFDateUtil.getJavaDate(value
+{
+                            builder.set(name, value.getNumberValue());
+}{
+                            final java.util.Date javaDate = HSSFDateUtil.getJavaDate(value
                                     .getNumberValue());
-}                    case Cell.CELL_TYPE_STRING:
+}
+                    case Cell.CELL_TYPE_STRING:
                         builder.set(name, value.getStringValue().trim());
                     case Cell.CELL_TYPE_BOOLEAN:
                         builder.set(name, value.getBooleanValue());
-}}
+}}}}

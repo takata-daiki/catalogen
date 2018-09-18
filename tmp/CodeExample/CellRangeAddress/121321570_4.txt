@@ -1,5 +1,8 @@
+  public static void copyRow(Workbook workbook, Sheet worksheet, int sourceRowNum, int destinationRowNum) {
+{{
         CellRangeAddress newCellRangeAddress
                  = new CellRangeAddress(newRow.getRowNum(),
                             newRow.getRowNum() + (cellRangeAddress.getLastRow() - cellRangeAddress.getFirstRow()),
                             cellRangeAddress.getFirstColumn(),
                             cellRangeAddress.getLastColumn());
+}}

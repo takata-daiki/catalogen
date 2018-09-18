@@ -1,2 +1,5 @@
+        if ( isWordDocumentPartParsing() )
+{{
                 XWPFAbstractNum abstractNum = getXWPFAbstractNum( num );
                 CTLvl lvl = abstractNum.getAbstractNum().getLvlArray( level );
+}}

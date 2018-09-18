@@ -1,2 +1,5 @@
+  private String extractTextToIndex(DigitalAssetVO digitalAssetVO, File file)
+{{{
         WordExtractor we = new WordExtractor(doc);
         text = we.getText();
+}}}

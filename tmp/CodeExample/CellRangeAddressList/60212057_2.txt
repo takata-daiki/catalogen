@@ -1,16 +1,12 @@
-          CellRangeAddressList areas =  ExcelUtils.getEntireRow(workR);
-          for(int iArea=0; iArea < areas.countRanges(); iArea++)
-            ExcelUtils.paste(sh, areas.getCellRangeAddress(iArea), buff, ExcelUtils.xlFormats);
-{{{                  crA = ExcelUtils.intersectRectangular(sArea.getCellRangeAddress(indexArea), 
-                      areas.getCellRangeAddress(0));
-}}}{            for(int iArea=0; iArea < areas.countRanges(); iArea++){
-              CellRangeAddress crA = ExcelUtils.intersectRectangular(new CellRangeAddress(0, ExcelUtils.xlMaxNumRow-1, formatCol, formatCol),
-                  areas.getCellRangeAddress(iArea));
-}}{{              for(int iArea=0; iArea < areas.countRanges(); iArea++){
-                CellRangeAddress crA = ExcelUtils.intersectRectangular(
-                    new CellRangeAddress(0, 
-                        ExcelUtils.xlMaxNumRow-1, 
-                        formatCol, 
-                        lastCol - formatCol), 
-                        areas.getCellRangeAddress(iArea));
-}}}
+  private void formatLine(HSSFSheet sh){
+}{
+    CellRangeAddressList workR, sArea, workFormul;
+{{{
+              workR.addCellRangeAddress(yyy, yyy, 0, 0);
+}
+        if (workR != null && workR.countRanges() > 0){
+          if(kFRowE > 1){
+            CellRangeAddress cellReff = workR.getCellRangeAddress(0);
+
+            cellReff = workR.getCellRangeAddress(workR.countRanges()-1);
+}}}}

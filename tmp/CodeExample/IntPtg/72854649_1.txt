@@ -1,2 +1,6 @@
+  protected String getStringFromPtgTokens(Ptg[] tokens,
+      HSSFWorkbook hssfWorkbook) {
+{{
         IntPtg intPtg = (IntPtg) token;
         sb.append(intPtg.getValue());
+}}}

@@ -1,3 +1,8 @@
+    public void registerListener(final POIFSReaderListener listener,
+                                 final POIFSDocumentPath path,
+                                 final String name)
+{{
             POIFSReader         reader   = new POIFSReader();
             reader.registerListener(listener);
             reader.read(istream, 512);
+}}

@@ -1,8 +1,13 @@
+  public static void export(String title, String[] headers, String[] cols, Collection<Map<String, Object>> dataset,
+      OutputStream out, String pattern, String[] sumcols) {
     HSSFSheet sheet = workbook.createSheet(title);
     sheet.setDefaultColumnWidth(15);
     HSSFPatriarch patriarch = sheet.createDrawingPatriarch();
     HSSFRow row = sheet.createRow(0);
-{      row = sheet.createRow(index);
-{{{            sheet.setColumnWidth(i, (short) (35.7 * 80));
-}}}}{      row = sheet.createRow(index + 1);
-}
+{
+      row = sheet.createRow(index);
+{{{
+            sheet.setColumnWidth(i, (short) (35.7 * 80));
+}}}}{
+      row = sheet.createRow(index + 1);
+}}

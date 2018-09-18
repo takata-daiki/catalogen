@@ -1,4 +1,6 @@
     /**/private static BitField fWrapTrailSpaces = new BitField(0x00000008);
-{        field_33_docinfo4 = (int)fWrapTrailSpaces.setBoolean(field_33_docinfo4, value);
-}{        return fWrapTrailSpaces.isSet(field_33_docinfo4);
+{
+        field_33_docinfo4 = (int)fWrapTrailSpaces.setBoolean(field_33_docinfo4, value);
+}{
+        return fWrapTrailSpaces.isSet(field_33_docinfo4);
 }

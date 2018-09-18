@@ -3,11 +3,14 @@
         if (index > _limit)
         {
             throw new IndexOutOfBoundsException();
-}        if (c._limit != 0)
-{            if ((_limit + c._limit) > _array.length)
+}
+        if (c._limit != 0)
+{
+            if ((_limit + c._limit) > _array.length)
             {
                 growArray(_limit + c._limit);
-}            System.arraycopy(_array, index, _array, index + c._limit,
+}
+            System.arraycopy(_array, index, _array, index + c._limit,
                              _limit - index);
             System.arraycopy(c._array, 0, _array, index, c._limit);
             _limit += c._limit;

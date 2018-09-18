@@ -1,4 +1,6 @@
     /**/private static BitField fSupressTopSpacing = new BitField(0x00000080);
-{        field_33_docinfo4 = (int)fSupressTopSpacing.setBoolean(field_33_docinfo4, value);
-}{        return fSupressTopSpacing.isSet(field_33_docinfo4);
+{
+        field_33_docinfo4 = (int)fSupressTopSpacing.setBoolean(field_33_docinfo4, value);
+}{
+        return fSupressTopSpacing.isSet(field_33_docinfo4);
 }

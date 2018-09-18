@@ -1,4 +1,7 @@
+    public static FontDetails create( String fontName, Properties fontMetricsProps )
+{
         FontDetails d = new FontDetails(fontName, height);
-{            if (charactersStrArray[i].length() != 0)
+{
+            if (charactersStrArray[i].length() != 0)
                 d.addChar(charactersStrArray[i].charAt(0), Integer.parseInt(widthsStrArray[i]));
-}
+}}

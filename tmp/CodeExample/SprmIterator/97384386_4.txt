@@ -1,6 +1,4 @@
-    protected void dumpSprms( SprmIterator sprmIt, String linePrefix )
-    {
-        while ( sprmIt.hasNext() )
-        {
-            SprmOperation sprm = sprmIt.next();
-}}
+    private void dumpOfficeDrawings()
+{{{
+                SprmIterator sprmIt = new SprmIterator( papx.getGrpprl(), 2 );
+}}}

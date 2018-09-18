@@ -1,17 +1,32 @@
   private DocumentInputStream delegate;
-{     return delegate.available();
-}{     delegate.close();
-}{    delegate.mark(ignoredReadlimit);
-}{     return delegate.read();
-}{     return delegate.read(b, off, len);
-}{     delegate.reset();
-}{     return delegate.skip(n);
-}{     return delegate.readByte();
-}{     return delegate.readDouble();
-}{     delegate.readFully(buf, off, len);
-}{     return delegate.readLong();
-}{     return delegate.readInt();
-}{     return delegate.readUShort();
-}{     return delegate.readUByte();
-}{    return delegate.position();
+{
+     return delegate.available();
+}{
+     delegate.close();
+}{
+    delegate.mark(ignoredReadlimit);
+}{
+     return delegate.read();
+}{
+     return delegate.read(b, off, len);
+}{
+     delegate.reset();
+}{
+     return delegate.skip(n);
+}{
+     return delegate.readByte();
+}{
+     return delegate.readDouble();
+}{
+     delegate.readFully(buf, off, len);
+}{
+     return delegate.readLong();
+}{
+     return delegate.readInt();
+}{
+     return delegate.readUShort();
+}{
+     return delegate.readUByte();
+}{
+    return delegate.position();
 }

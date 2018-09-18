@@ -1,3 +1,6 @@
+  protected HSSFCell createCell(final short x, final int content,
+      final HSSFRow row, final HSSFCellStyle cellStyle) {
     final HSSFCell cell = row.createCell(x);
     cell.setCellValue(content);
     cell.setCellStyle(cellStyle);
+}

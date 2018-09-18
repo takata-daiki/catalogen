@@ -1,6 +1,12 @@
-    protected int tryDeadField( HWPFDocumentCore wordDocument, Range range,
-            int currentTableLevel, int beginMark, Element currentBlock )
+    private boolean processOle2( HWPFDocument doc, CharacterRun characterRun,
+            Element block )
+
+    protected void processParagraphes( HWPFDocumentCore wordDocument,
+            Element flow, Range range, int currentTableLevel )
     {
-        int[] separatorEnd = tryDeadField_lookupFieldSeparatorEnd(
-                wordDocument, range, beginMark );
-}
+        final int paragraphs = range.numParagraphs();
+{
+            Paragraph paragraph = range.getParagraph( p );
+{
+                Table table = range.getTable( paragraph );
+}}}

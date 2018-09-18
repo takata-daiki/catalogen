@@ -1,2 +1,6 @@
+  public void genHerderRow(HSSFWorkbook wb, HSSFSheet sheet, HSSFRow row,
+      String beginTime, String endTime) {
+{
       HSSFCell cell = row.createCell((short) 0);
       cell.setCellValue(cellValue);
+}}
