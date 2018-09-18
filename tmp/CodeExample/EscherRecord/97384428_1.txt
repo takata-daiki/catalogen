@@ -1,4 +1,8 @@
-    public byte[] getRawContent()
-{
+public void wrapperMethod() {
         EscherRecord escherRecord = _blipRecords.get( 0 );
-}
+        switch ( escherRecord.getRecordId() )
+        {
+        case (short) 0xF007:
+{
+            EscherBSERecord bseRecord = (EscherBSERecord) escherRecord;
+}}}

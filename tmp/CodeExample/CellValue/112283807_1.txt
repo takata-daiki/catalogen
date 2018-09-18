@@ -1,5 +1,4 @@
-  private CellInfo getCellInfo(Cell cell) {
-{{
+public void wrapperMethod() {
         CellValue cellValue = evaluator.evaluate(cell);                
         info.value=cellValue.formatAsString();
         switch(cellValue.getCellType()) {
@@ -7,4 +6,4 @@
           info.type="boolean";
 {
             info.value=dateFormatter.format(DateUtil.getJavaDate(cellValue.getNumberValue()));
-}}}}
+}}}

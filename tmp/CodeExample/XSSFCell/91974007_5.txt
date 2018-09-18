@@ -1,7 +1,6 @@
-  public void erstelleExcel(ArrayList<String> spalten, String von, String bis) {
-{{
+public void wrapperMethod() {
         XSSFCell cell1 = dataRow.createCell(0);
         cell1.setCellStyle(dataStyle);
         cell1.setCellValue(new XSSFRichTextString(listBetreuung
             .getAufgehort()));
-}}
+}

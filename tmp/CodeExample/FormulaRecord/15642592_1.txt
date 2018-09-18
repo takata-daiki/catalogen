@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private FormulaRecord formulaRecord;
 {
         pos += formulaRecord.serialize(pos, data);
@@ -29,4 +30,4 @@
         return formulaRecord.toString();
 }{
         return new FormulaRecordAggregate((FormulaRecord) this.formulaRecord.clone(), clonedString);
-}
+}}

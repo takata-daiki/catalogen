@@ -1,6 +1,7 @@
-    public Object clone() {
+public void wrapperMethod() {
       GutsRecord rec = new GutsRecord();
       rec.field_1_left_row_gutter = field_1_left_row_gutter;
       rec.field_2_top_col_gutter = field_2_top_col_gutter;
       rec.field_3_row_level_max = field_3_row_level_max;
       rec.field_4_col_level_max = field_4_col_level_max;
+}

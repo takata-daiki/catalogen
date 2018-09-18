@@ -1,9 +1,7 @@
-    public ListTables( byte[] tableStream, final int lstOffset,
-            final int fcPlfLfo, final int lcbPlfLfo )
-{{
+public void wrapperMethod() {
             ListData lst = new ListData( tableStream, offset );
             _listMap.put( Integer.valueOf( lst.getLsid() ), lst );
             int num = lst.numLevels();
 {
                 lst.setLevel( y, lvl );
-}}}
+}}

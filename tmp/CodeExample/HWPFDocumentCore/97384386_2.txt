@@ -1,6 +1,4 @@
-    private static HWPFDocumentCore writeOutAndReadBack(
-            HWPFDocumentCore original )
-
+public void wrapperMethod() {
     private final HWPFDocumentCore _doc;
 {
         String text = _doc.getDocumentText();
@@ -41,4 +39,4 @@
         for ( TextPiece textPiece : _doc.getTextTable().getTextPieces() )
 {
             System.out.println( textPiece );
-}}
+}}}

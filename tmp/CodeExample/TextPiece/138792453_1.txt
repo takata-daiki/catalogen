@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     TextPiece currentPiece = (TextPiece)textIt.next();
     int currentTextStart = currentPiece.getStart();
     int currentTextEnd = currentPiece.getEnd();
@@ -17,4 +18,4 @@
 }{{
           currentTextStart = currentPiece.getStart();
           currentTextEnd = currentPiece.getEnd();
-}}}
+}}}}

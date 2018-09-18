@@ -1,8 +1,0 @@
-  private HSSFFont createFont(final HSSFWorkbook workbook,
-      final boolean bold, final boolean doubleUnderlined) {
-}
-  private HSSFCellStyle createBorderedHeaderCellStyle(
-      final HSSFWorkbook workbook) {
-    final HSSFFont headerFont = createFont(workbook, true, false);
-    final HSSFCellStyle headerCellStyle = workbook.createCellStyle();
-}

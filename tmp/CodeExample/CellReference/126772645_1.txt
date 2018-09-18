@@ -1,3 +1,4 @@
-  protected static String buildCellReference( int zeroBasedRow, int zeroBasedCol ) {
+public void wrapperMethod() {
     CellReference cr = new CellReference(zeroBasedRow, zeroBasedCol);
     return cr.formatAsString();
+}

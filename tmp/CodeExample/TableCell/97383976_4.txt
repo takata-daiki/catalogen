@@ -1,9 +1,0 @@
-    protected int getNumberRowsSpanned( Table table,
-            final int[] tableCellEdges, int currentRowIndex,
-            int currentColumnIndex, TableCell tableCell )
-{{
-            TableCell nextCell = nextRow.getCell( currentColumnIndex );
-            if ( !nextCell.isVerticallyMerged()
-                    || nextCell.isFirstVerticallyMerged() )
-                break;
-}}

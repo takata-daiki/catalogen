@@ -1,3 +1,0 @@
-    public boolean isUnderline() {
-      XSSFFont xssfFont = theCell.getCellStyle().getFont();
-        return xssfFont.getUnderline() != 0;

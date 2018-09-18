@@ -1,3 +1,6 @@
-  public static Boolean hasFormula (HSSFSheet sh, AreaReference areaRef){
-    return hasFormula(sh, new CellRangeAddress(areaRef.getFirstCell().getRow(), areaRef.getLastCell().getRow(),
-        areaRef.getFirstCell().getCol(), areaRef.getLastCell().getCol()));
+  public static ExcelBuffer copy (HSSFSheet sh, AreaReference areaRef){
+    Map<String, ExcelCell> mapCell = new HashMap<String, ExcelCell>();
+    int offsetRow = areaRef.getFirstCell().getRow();
+    int offsetCol = areaRef.getFirstCell().getCol();
+    CellReference[] celRefs = areaRef.getAllReferencedCells();
+}

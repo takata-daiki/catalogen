@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private XSSFWorkbook workbook;
 {
         XSSFFont font = workbook.getFontAt((short) 0);
@@ -9,4 +10,4 @@
     return workbook.getSheetName(getSheetIndex());
 }{
     return workbook.getSheetIndex(sheet);
-}
+}}

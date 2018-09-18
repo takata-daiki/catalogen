@@ -1,8 +1,0 @@
-    protected void processPageBreak( HWPFDocumentCore wordDocument, Element flow )
-
-    protected void processPageref( HWPFDocumentCore hwpfDocument,
-            Element currentBlock, Range textRange, int currentTableLevel,
-            String pageref )
-    {
-        Element basicLink = htmlDocumentFacade.createHyperlink( "#" + pageref );
-}

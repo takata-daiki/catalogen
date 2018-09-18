@@ -1,8 +1,0 @@
-    protected void processField( HWPFDocument wordDocument, Range parentRange,
-            int currentTableLevel, Field field, Element currentBlock )
-{{{
-            CharacterRun cr = fieldContent.getCharacterRun( fieldContent
-                    .numCharacterRuns() - 1 );
-            String[] values = cr.getDropDownListValues();
-            Integer defIndex = cr.getDropDownListDefaultItemIndex();
-}}}

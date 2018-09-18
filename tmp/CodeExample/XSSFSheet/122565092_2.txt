@@ -1,6 +1,8 @@
+public void wrapperMethod() {
       XSSFSheet sheet0 = workbook.getSheetAt(0);
       XSSFPrintSetup printSetup = sheet0.getPrintSetup();
       assertEquals( 0.7, sheet0.getMargin( Sheet.LeftMargin ), 0.01 );
       assertEquals( 0.7, sheet0.getMargin( Sheet.RightMargin ), 0.01 );
       assertEquals( 0.75, sheet0.getMargin( Sheet.TopMargin ), 0.01 );
       assertEquals( 0.75, sheet0.getMargin( Sheet.BottomMargin ), 0.01 );
+}

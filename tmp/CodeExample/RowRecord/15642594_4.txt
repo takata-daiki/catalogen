@@ -1,4 +1,4 @@
-    public int getStartRowNumberForBlock(int block) {
-      RowRecord row = null;
-
-      return row.getRowNumber();
+public void wrapperMethod() {
+            RowRecord row = createRow( lastRow + 1);
+            row.setColapsed( true );
+}

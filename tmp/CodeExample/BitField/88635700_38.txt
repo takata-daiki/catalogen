@@ -1,6 +1,7 @@
-    /**/private static BitField oldfNoColumnBalance = new BitField(0x0020);
+public void wrapperMethod() {
+    /**/private static BitField fWCFtnEdn = new BitField(0x8000);
 {
-        field_8_docinfo3 = (short)oldfNoColumnBalance.setBoolean(field_8_docinfo3, value);
+        field_24_Edn1 = (short)fWCFtnEdn.setBoolean(field_24_Edn1, value);
 }{
-        return oldfNoColumnBalance.isSet(field_8_docinfo3);
-}
+        return fWCFtnEdn.isSet(field_24_Edn1);
+}}

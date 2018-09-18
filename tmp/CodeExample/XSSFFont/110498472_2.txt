@@ -1,5 +1,4 @@
-  public boolean areFontsEmpty(CellStyle style) {
-}{
+public void wrapperMethod() {
     XSSFFont font = newStyle.getFont();
     if (font.getBold()) {
       xmlWriter.writeStartElement("font-weight");
@@ -21,4 +20,4 @@
 }
     if (font.getColor() != XSSFFont.DEFAULT_FONT_COLOR) {
       String colorString = getRGBString(font.getXSSFColor());
-}
+}}

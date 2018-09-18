@@ -1,6 +1,0 @@
-  public HSSFWorkbook generateReportSectionToXLS(String database, String query)
-{{{{{
-            HSSFCell dataCell = row.createCell(i);
-            dataCell.setCellStyle(cellStyleData);
-            dataCell.setCellValue(new HSSFRichTextString(dataCellContent));
-}}}}}

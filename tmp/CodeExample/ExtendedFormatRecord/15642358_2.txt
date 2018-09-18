@@ -1,2 +1,16 @@
-    public ExtendedFormatRecord createCellXF() {
-        ExtendedFormatRecord xf = createExtendedFormat();
+public void wrapperMethod() {
+        ExtendedFormatRecord retval = new ExtendedFormatRecord();
+        retval.setFontIndex(( short ) 0);
+        retval.setFormatIndex(( short ) 0x0);
+        retval.setCellOptions(( short ) 0x1);
+        retval.setAlignmentOptions(( short ) 0x20);
+        retval.setIndentionOptions(( short ) 0);
+        retval.setBorderOptions(( short ) 0);
+        retval.setPaletteOptions(( short ) 0);
+        retval.setAdtlPaletteOptions(( short ) 0);
+        retval.setFillPaletteOptions(( short ) 0x20c0);
+        retval.setTopBorderPaletteIdx(HSSFColor.BLACK.index);
+        retval.setBottomBorderPaletteIdx(HSSFColor.BLACK.index);
+        retval.setLeftBorderPaletteIdx(HSSFColor.BLACK.index);
+        retval.setRightBorderPaletteIdx(HSSFColor.BLACK.index);
+}

@@ -1,6 +1,4 @@
-    public ListTables( byte[] tableStream, final int lstOffset,
-            final int fcPlfLfo, final int lcbPlfLfo )
-{{{
+public void wrapperMethod() {
                 ListLevel lvl = new ListLevel();
                 levelOffset += lvl.read( tableStream, levelOffset );
-}}}
+}

@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private final XWPFDocument document;
 {
         List<CTStyle> styles = document.getStyle().getStyleList();
@@ -11,4 +12,4 @@
             for ( POIXMLDocumentPart p : document.getRelations() )
             {
                 String relationshipType = p.getPackageRelationship().getRelationshipType();
-}}}
+}}}}

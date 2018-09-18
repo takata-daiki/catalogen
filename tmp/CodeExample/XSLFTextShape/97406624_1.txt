@@ -1,3 +1,4 @@
-    public String getTitle(){
+public void wrapperMethod() {
         XSLFTextShape txt = getTextShapeByType(Placeholder.TITLE);
         return txt == null ? "" : txt.getText();
+}

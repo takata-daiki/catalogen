@@ -1,7 +1,0 @@
-    private static String makeStringValue ( final HSSFWorkbook workbook, final Cell cell )
-{
-        final HSSFFormulaEvaluator eval = new HSSFFormulaEvaluator ( workbook );
-{
-        case Cell.CELL_TYPE_FORMULA:
-            return eval.evaluate ( cell ).getStringValue ();
-}}

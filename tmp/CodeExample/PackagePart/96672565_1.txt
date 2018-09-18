@@ -1,6 +1,0 @@
-    private void addBodyElements( XmlTokenSource source, IBody part, List<IBodyElement> bodyElements )
-{
-        PackagePart hdrPart = document.getPartById( headerRef.getId() );
-
-        HdrDocument hdrDoc = HdrDocument.Factory.parse( hdrPart.getInputStream() );
-}

@@ -1,5 +1,6 @@
+public void wrapperMethod() {
   private static PackagePart getPartByRelationshipType(PackagePart part, String relationshipType) {
     try {
       PackageRelationshipCollection rels = part.getRelationshipsByType(relationshipType);
       OPCPackage pack = part.getPackage();
-}
+}}}

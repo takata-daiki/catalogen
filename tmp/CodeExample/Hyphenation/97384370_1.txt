@@ -1,8 +1,0 @@
-  static void unCompressCHPOperation (CharacterProperties oldCHP,
-                                      CharacterProperties newCHP,
-                                      SprmOperation sprm)
-{{
-        case 0x4e:
-            Hyphenation hyphenation = new Hyphenation(
-                    (short) sprm.getOperand() );
-}}

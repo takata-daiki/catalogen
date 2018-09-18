@@ -1,5 +1,4 @@
-      public void visitRecord(Record r) {
-{
+public void wrapperMethod() {
           DVRecord dvRecord = (DVRecord) r;
           CellRangeAddressList cellRangeAddressList = dvRecord
               .getCellRangeAddress();

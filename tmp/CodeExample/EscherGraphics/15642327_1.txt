@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private EscherGraphics escherGraphics;
 {
         escherGraphics.drawRect(x,y,width,height);
@@ -9,4 +10,4 @@
         return escherGraphics.getColor();
 }{
         escherGraphics.setColor(c);
-}
+}}

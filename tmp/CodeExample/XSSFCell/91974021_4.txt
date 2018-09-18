@@ -1,6 +1,6 @@
-  public void erstelleExcel(ArrayList<String> spalten, String von, String bis) {
-{
-      XSSFCell headerCell1 = headerRow.createCell(1);
-      headerCell1.setCellStyle(headerStyle);
-      headerCell1.setCellValue("Familien");
+public void wrapperMethod() {
+        XSSFCell cell1 = dataRow.createCell(0);
+        cell1.setCellStyle(dataStyle);
+        cell1.setCellValue(new XSSFRichTextString(listBetreuung
+            .getAufgehort()));
 }

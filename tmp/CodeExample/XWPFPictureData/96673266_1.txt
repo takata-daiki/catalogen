@@ -1,6 +1,4 @@
-    protected void endVisitTableCell( XWPFTableCell cell, XHTMLPageContentBuffer tableContainer,
-                                      XHTMLPageContentBuffer tableCellContainer )
-{
+public void wrapperMethod() {
         XWPFPictureData pictureData = super.getPictureDataByID( blipId );
 {
             String src = pictureData.getFileName();

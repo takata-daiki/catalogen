@@ -1,7 +1,6 @@
-    public boolean word2Html()
-{{
+public void wrapperMethod() {
             WordToHtmlConverter wordToHtmlConverter = new WordToHtmlConverter(newDocument);
             wordToHtmlConverter.setPicturesManager(new PictureSaving());
             wordToHtmlConverter.processDocument(hwpfDocument);
             transformer.transform(new DOMSource(wordToHtmlConverter.getDocument()), new StreamResult(stringWriter));
-}}
+}

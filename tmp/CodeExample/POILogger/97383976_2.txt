@@ -1,9 +1,7 @@
-    private static void addToStructures( List<Structure> structures,
-            Structure structure )
-
+public void wrapperMethod() {
     private POILogger log = POILogFactory.getLogger( getClass() );
 {{{{
                     log.log(
                             POILogger.WARN,
                             exc );
-}}}}
+}}}}}

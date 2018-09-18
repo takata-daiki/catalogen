@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private XWPFDocument document;
 {{
             defaults = document.getStyle().getDocDefaults();
@@ -9,4 +10,4 @@
                 return (XWPFPictureData) part;
 }}}{{
             List<IBodyElement> bodyElement = document.getBodyElements();
-}}
+}}}

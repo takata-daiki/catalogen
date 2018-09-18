@@ -1,2 +1,4 @@
-        for (XSLFTextRun r : _runs) {
-            out.append(r.getRenderableText());
+public void wrapperMethod() {
+            XSLFTextRun r2 = tgtR.get(i);
+            r2.copy(r1);
+}

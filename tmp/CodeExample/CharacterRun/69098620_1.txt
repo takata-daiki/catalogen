@@ -1,7 +1,0 @@
-  public static void word(Context context, File distFile,String templateName,String pref,Map<String,String> map) {
-{{
-        CharacterRun run = range.getCharacterRun(i);
-        String text = run.text();
-{
-          run.replaceText(map.get(text), true);
-}}}

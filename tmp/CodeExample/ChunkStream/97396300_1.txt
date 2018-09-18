@@ -1,8 +1,0 @@
-  public static void dumpStream(Stream stream, int indent) {
-{
-      ChunkStream cs = (ChunkStream)stream;
-      System.out.println(ind + "  Has " + cs.getChunks().length +
-          " chunks:");
-      for(int i=0; i<cs.getChunks().length; i++) {
-        Chunk chunk = cs.getChunks()[i];
-}}

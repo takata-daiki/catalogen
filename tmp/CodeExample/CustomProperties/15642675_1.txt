@@ -1,9 +1,0 @@
-    public CustomProperties getCustomProperties()
-{
-        CustomProperties cps = null;
-{{{
-                    cps.put(cp.getName(), cp);
-}}
-            if (cps.size() != propertyCount)
-                cps.setPure(false);
-}}

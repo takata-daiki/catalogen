@@ -1,6 +1,7 @@
-    /**/private static BitField fLockRev = new BitField(0x40);
+public void wrapperMethod() {
+    /**/private static BitField oldfTransparentMetafiles = new BitField(0x0200);
 {
-        field_7_docinfo2 = (byte)fLockRev.setBoolean(field_7_docinfo2, value);
+        field_8_docinfo3 = (short)oldfTransparentMetafiles.setBoolean(field_8_docinfo3, value);
 }{
-        return fLockRev.isSet(field_7_docinfo2);
-}
+        return oldfTransparentMetafiles.isSet(field_8_docinfo3);
+}}

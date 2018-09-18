@@ -1,4 +1,4 @@
-    public void removeRow(RowRecord row)
-    {
-        checkRows();
+public void wrapperMethod() {
+            RowRecord rowRecord = (RowRecord) iterator.next();
+            maxLevel = Math.max(rowRecord.getOutlineLevel(), maxLevel);
 }

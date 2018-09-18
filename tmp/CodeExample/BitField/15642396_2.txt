@@ -1,5 +1,10 @@
-    private BitField          calcOnLoad = BitFieldFactory.getInstance(0x0002);
+public void wrapperMethod() {
+    private BitField          sharedFormula = BitFieldFactory.getInstance(0x0008);    
 {
-            buffer.append("      .calcOnLoad         = ").append(calcOnLoad.isSet(getOptions()))
+        return sharedFormula.isSet(field_5_options);
+}{
+      sharedFormula.setBoolean(field_5_options, flag);
+}{
+            buffer.append("      .sharedFormula         = ").append(sharedFormula.isSet(getOptions()))
                 .append("\n");
-}
+}}

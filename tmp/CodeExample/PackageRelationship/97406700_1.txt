@@ -1,5 +1,0 @@
-    public XSLFPictureShape createPicture(int pictureIndex){
-
-        PackageRelationship rel = _sheet.getPackagePart().addRelationship(
-                pic.getPartName(), TargetMode.INTERNAL, XSLFRelation.IMAGES.getRelation());
-        XSLFPictureShape sh = getDrawing().createPicture(rel.getId());

@@ -1,13 +1,10 @@
-  public void reportTable(HSSFWorkbook book, LinkedList<ReportTO> data,
-      HSSFSheet sheet, int fila) {
-
-    HSSFCellStyle cellStyle = book.createCellStyle();
+public void wrapperMethod() {
+    HSSFCellStyle cellStyleD = book.createCellStyle();
 {{
-        cellStyle.setWrapText(true);
-        cellStyle.setBorderTop(HSSFCellStyle.BORDER_MEDIUM);
-        cellStyle.setBottomBorderColor((short)8);
+        cellStyleD.setWrapText(true);
+        cellStyleD.setBorderTop(HSSFCellStyle.BORDER_MEDIUM);
+        cellStyleD.setBottomBorderColor((short)8);
 }{
-        cellStyle.setVerticalAlignment(HSSFCellStyle.VERTICAL_TOP);
-}{
-        cellStyle.setBorderTop(HSSFCellStyle.BORDER_DOUBLE);
+        cellStyleD.setVerticalAlignment(HSSFCellStyle.VERTICAL_TOP);
+        cellStyleD.setBorderBottom(HSSFCellStyle.BORDER_MEDIUM);
 }}}

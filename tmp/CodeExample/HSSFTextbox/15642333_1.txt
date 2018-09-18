@@ -1,5 +1,4 @@
-    public HSSFTextbox createTextbox(HSSFClientAnchor anchor)
-{
+public void wrapperMethod() {
         HSSFTextbox shape = new HSSFTextbox(null, anchor);
         shape.anchor = anchor;
 }

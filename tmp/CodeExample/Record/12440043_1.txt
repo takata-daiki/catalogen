@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     public void processRecord(Record record)
     {
         if (record == null)
@@ -9,4 +10,4 @@
                 case BOFRecord.sid:
                     if (!(record instanceof BOFRecord))
                         throw new ImportException("unknown excel element", null);
-}}}
+}}}}

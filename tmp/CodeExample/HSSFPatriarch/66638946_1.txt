@@ -1,8 +1,4 @@
-  public HSSFWorkbook generate(LinkedList<ReportTO> data,
-      String generalTitle[], String clientName, String clientNIT,
-      String periodName, String currencyName, MReportColumn[] m_columns, 
-      String city, Integer logoId) {
-{{
+public void wrapperMethod() {
         HSSFPatriarch patriarch = sheet.createDrawingPatriarch();
         patriarch.createPicture(anchor, pictureIndex);
-}}}
+}

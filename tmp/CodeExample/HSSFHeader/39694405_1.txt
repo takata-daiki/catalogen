@@ -1,5 +1,5 @@
-    public byte[] exportConcepts(Class clazz, ConceptOutput format) {
-
+public void wrapperMethod() {
         HSSFHeader sheetHeader = overviewSheet.getHeader();
         sheetHeader.setLeft(lblHeaderLeft);
         sheetHeader.setRight(lblHeaderRight);
+}

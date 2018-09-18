@@ -1,5 +1,0 @@
-    public void onCreate(){
-        EscherDggRecord dgg = getSlideShow().getDocumentRecord().getPPDrawingGroup().getEscherDggRecord();
-        int dgId = dgg.getMaxDrawingGroupId() + 1;
-        dgg.setDrawingsSaved(dgg.getDrawingsSaved() + 1);
-        dgg.setMaxDrawingGroupId(dgId);

@@ -1,5 +1,4 @@
-            public void modify( CellStyle style ) {
-{
+public void wrapperMethod() {
                     XSSFCellStyle xssfStyle = (XSSFCellStyle)style;
                     xssfStyle.setFillForegroundColor( foreground );
                     xssfStyle.setFillBackgroundColor( background );

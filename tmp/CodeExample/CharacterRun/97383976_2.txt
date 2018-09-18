@@ -1,24 +1,6 @@
-    public PicturesManager getPicturesManager()
-
-    protected abstract void outputCharacters( Element block,
-            CharacterRun characterRun, String text );
-{{{
-                if ( characterRun.getStartOffset() < skipUntil )
-                    continue;
-                String text = characterRun.text();
-                Field aliveField = ( (HWPFDocument) wordDocument ).getFields()
-                        .getFieldByStartOffset( FieldsDocumentPart.MAIN,
-                                characterRun.getStartOffset() );
-{{
-                        addToStructures(
-                                structures,
-                                new Structure( new DeadFieldBoundaries( c,
-                                        separatorEnd[0], separatorEnd[1] ),
-                                        characterRun.getStartOffset(), range
-                                                .getCharacterRun(
-                                                        separatorEnd[1] )
-                                                .getEndOffset() ) );
-}}}}{{
+public void wrapperMethod() {
+            CharacterRun characterRun = range.getCharacterRun( c );
+{
                 processImage( block, characterRun.text().charAt( 0 ) == 0x01,
                         picture );
 }
@@ -43,4 +25,4 @@
                     || characterRun.isOle2() )
 {
                 continue;
-}}}
+}}

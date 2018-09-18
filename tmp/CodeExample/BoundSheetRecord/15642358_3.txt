@@ -1,6 +1,6 @@
-    public boolean doesContainsSheetName( String name, int excludeSheetIdx )
-{{
-            BoundSheetRecord boundSheetRecord = (BoundSheetRecord) boundsheets.get( i );
-            if (excludeSheetIdx != i && name.equals(boundSheetRecord.getSheetname()))
-                return true;
-}}
+public void wrapperMethod() {
+        BoundSheetRecord sheet = (BoundSheetRecord)boundsheets.get( sheetnum );
+        sheet.setSheetname(sheetname);
+        sheet.setSheetnameLength( (byte)sheetname.length() );
+    sheet.setCompressedUnicodeFlag( (byte)encoding );
+}

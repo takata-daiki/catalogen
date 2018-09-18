@@ -1,6 +1,6 @@
-    public void render(Graphics2D graphics){
+public void wrapperMethod() {
         XSLFShadow shadow = _shape.getShadow();
 {{
                 if(fill != null) shadow.fill(graphics, o.getOutline());
                 else if(line != null) shadow.draw(graphics, o.getOutline());
-}}
+}}}

@@ -1,6 +1,5 @@
-  public void render(OutputStream out) {
-{{
+public void wrapperMethod() {
         HSSFName nameDataBeg = ExcelUtils.getNamedRange(wb, dataBegFieldName);
         String nameShData = nameDataBeg.getSheetName();
         AreaReference areaDataBeg = new AreaReference(nameDataBeg.getRefersToFormula());
-}}
+}

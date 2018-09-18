@@ -1,5 +1,4 @@
-    private SheetProcessor rowProcessorFactory(final String sheetName, final RowProcessor rowProcessor)
-{
+public void wrapperMethod() {
         final XSSFReader xssfReader = mock(XSSFReader.class);
         when(xssfReader.getSheetsData()).thenReturn(sheetIterator);
         when(xssfReader.getSharedStringsTable()).thenReturn(sharedStringsTable);

@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private  static final BitField   highByte  = BitFieldFactory.getInstance(0x1);
 {
         if (useUTF16)
@@ -9,4 +10,4 @@
       field_2_optionflags = highByte.clearByte(field_2_optionflags);
 }{
         return highByte.isSet(getOptionFlags());
-}
+}}

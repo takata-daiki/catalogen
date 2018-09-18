@@ -1,5 +1,4 @@
-    public boolean equalsContents(final Object o)
-{
+public void wrapperMethod() {
         final CustomProperty c = (CustomProperty) o;
         final String name1 = c.getName();
         return equalNames && c.getID() == this.getID()

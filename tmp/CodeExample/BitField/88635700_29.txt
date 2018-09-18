@@ -1,6 +1,7 @@
-    /**/private static BitField fRMPrint = new BitField(0x10);
+public void wrapperMethod() {
+    /**/private static BitField oldfSupressTopSpacing = new BitField(0x0080);
 {
-        field_7_docinfo2 = (byte)fRMPrint.setBoolean(field_7_docinfo2, value);
+        field_8_docinfo3 = (short)oldfSupressTopSpacing.setBoolean(field_8_docinfo3, value);
 }{
-        return fRMPrint.isSet(field_7_docinfo2);
-}
+        return oldfSupressTopSpacing.isSet(field_8_docinfo3);
+}}

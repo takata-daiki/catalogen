@@ -1,7 +1,6 @@
-  public HSSFWorkbook generateReportSectionToXLS(String database, String query)
-{{{
+public void wrapperMethod() {
           HSSFFont headerCellFont = workBook.createFont();
           headerCellFont.setFontHeightInPoints((short)10);
           headerCellFont.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);
           headerCellFont.setColor(HSSFColor.WHITE.index);
-}}}
+}

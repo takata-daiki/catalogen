@@ -1,7 +1,9 @@
-    static final private BitField _wrap_text          = BitFieldFactory.getInstance(0x0008);
+public void wrapperMethod() {
+    static final private BitField _indent                         =
+        BitFieldFactory.getInstance(0x000F);
 {
-        field_4_alignment_options =
-            _wrap_text.setShortBoolean(field_4_alignment_options, wrapped);
+        field_5_indention_options =
+            _indent.setShortValue(field_5_indention_options, indent);
 }{
-        return _wrap_text.isSet(field_4_alignment_options);
-}
+        return _indent.getShortValue(field_5_indention_options);
+}}

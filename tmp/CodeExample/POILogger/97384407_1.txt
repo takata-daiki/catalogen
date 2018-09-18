@@ -1,5 +1,6 @@
+public void wrapperMethod() {
     private static POILogger log = POILogFactory.getLogger( Paragraph.class );
 {{{
                 log.log( POILogger.WARN, "Paragraph refers to LFO #",
                         properties.getIlfo(), " that does not exists" );
-}}}
+}}}}

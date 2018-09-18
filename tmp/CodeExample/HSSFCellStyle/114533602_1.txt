@@ -1,5 +1,4 @@
-  public void genFirstRow(HSSFWorkbook wb, HSSFRow row) {
-{
+public void wrapperMethod() {
       HSSFCellStyle style = wb.createCellStyle();
       style.setAlignment(HSSFCellStyle.ALIGN_CENTER);
       style.setFont(font);

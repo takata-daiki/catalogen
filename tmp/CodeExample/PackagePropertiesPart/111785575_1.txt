@@ -1,4 +1,4 @@
-    private void extractMetadata(CoreProperties properties, Metadata metadata) {
+public void wrapperMethod() {
         PackagePropertiesPart propsHolder = properties
                 .getUnderlyingProperties();
         addProperty(metadata, Metadata.CATEGORY, propsHolder.getCategoryProperty());
@@ -30,3 +30,4 @@
                 .getSubjectProperty());
         addProperty(metadata, Metadata.TITLE, propsHolder.getTitleProperty());
         addProperty(metadata, Metadata.VERSION, propsHolder.getVersionProperty());
+}

@@ -1,3 +1,4 @@
+public void wrapperMethod() {
   private Document _documentRecord;
 {{{{
           _fonts = _documentRecord.getEnvironment().getFontCollection();
@@ -27,4 +28,4 @@
     ExObjList lst = (ExObjList) _documentRecord.findFirstOfType(RecordTypes.ExObjList.typeID);
 {
       _documentRecord.addChildAfter(lst, _documentRecord.getDocumentAtom());
-}}
+}}}

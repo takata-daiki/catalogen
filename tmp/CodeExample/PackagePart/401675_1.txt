@@ -1,6 +1,5 @@
-  private PackagePart createPart(OPCPackage pack, PackagePart corePart, String name, File file, String contentType, String relationshipType) {    
+public void wrapperMethod() {
     PackagePart part = null;
-{
-      if (corePart != null)
-        corePart.addRelationship(partName, TargetMode.INTERNAL, relationshipType);
-}
+{{
+        OutputStream os = part.getOutputStream(); 
+}}}

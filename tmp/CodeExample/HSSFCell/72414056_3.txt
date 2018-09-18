@@ -1,5 +1,4 @@
-    AbstractExcelView excelView = new AbstractExcelView() {
-{
-        HSSFCell cell = getCell(sheet, 2, 4);
-        cell.setCellValue("Test Value");
+public void wrapperMethod() {
+    HSSFCell cell = row.getCell((short) 0);
+    assertEquals("Test Template auf Deutsch", cell.getStringCellValue());
 }

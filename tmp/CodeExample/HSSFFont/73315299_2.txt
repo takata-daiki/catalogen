@@ -1,5 +1,5 @@
-  public static <T> void exportExcel(String title, String[] headers, String[] cols, Collection<T> dataset,
-      OutputStream out, String pattern, String[] sumcols) {
-    HSSFFont font2 = workbook.createFont();
-    font2.setBoldweight(HSSFFont.BOLDWEIGHT_NORMAL);
+public void wrapperMethod() {
+    HSSFFont font = createFont(workbook, HSSFColor.BLACK.index, HSSFFont.BOLDWEIGHT_BOLD);
+    font.setFontHeightInPoints((short) 12);
+    font.setFontName("微软雅黑");
 }

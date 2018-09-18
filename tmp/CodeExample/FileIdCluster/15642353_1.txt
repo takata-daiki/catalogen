@@ -1,8 +1,0 @@
-    public int allocateShapeId(short drawingGroupId)
-{{
-            EscherDggRecord.FileIdCluster c = dgg.getFileIdClusters()[i];
-            if (c.getDrawingGroupId() == drawingGroupId && c.getNumShapeIdsUsed() != 1024)
-            {
-                int result = c.getNumShapeIdsUsed() + (1024 * (i+1));
-                c.incrementShapeId();
-}}}

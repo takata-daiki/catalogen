@@ -1,3 +1,4 @@
+public void wrapperMethod() {
   SprmBuffer _chpx;
 {
     _chpx.updateSprm(SPRM_FRMARKDEL, newVal);
@@ -57,4 +58,4 @@
     _chpx.updateSprm(SPRM_PICLOCATION, offset);
 }{
     _chpx.updateSprm(SPRM_OBJLOCATION, obj);
-}
+}}

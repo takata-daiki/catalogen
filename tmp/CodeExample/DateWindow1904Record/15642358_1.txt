@@ -1,4 +1,5 @@
-    protected Record createDateWindow1904() {
+public void wrapperMethod() {
         DateWindow1904Record retval = new DateWindow1904Record();
         retval.setWindowing(
         ( short ) 0);   // don't EVER use 1904 date windowing...tick tock..
+}

@@ -1,3 +1,4 @@
+public void wrapperMethod() {
   private POIFSReader reader = null;
 {
     reader.registerListener(
@@ -5,4 +6,4 @@
             PPTConstants.POWERPOINT_DOCUMENT);
 {
       this.reader.read(input);
-}}
+}}}

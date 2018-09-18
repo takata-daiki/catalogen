@@ -1,6 +1,0 @@
-  protected DirectoryNode directory;
-{
-     if(directory == null || !directory.hasEntry(setName)) return null;
-{
-        dis = directory.createDocumentInputStream( directory.getEntry(setName) );
-}}

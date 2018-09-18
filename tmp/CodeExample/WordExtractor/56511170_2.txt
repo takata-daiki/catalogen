@@ -1,5 +1,4 @@
-  public InputStream getDocument(String foldername, String title) {
-{{
+public void wrapperMethod() {
         WordExtractor extractor = new WordExtractor(inStream);
         String extractStr = extractor.getText().replaceAll("[^\\p{Print}]", "");
-}}
+}

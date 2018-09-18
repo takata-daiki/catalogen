@@ -1,6 +1,7 @@
-  public static HSSFWorkbook createXLSSource(List<String> l) {
+public void wrapperMethod() {
     HSSFWorkbook wb = new HSSFWorkbook();
     HSSFSheet sheet = wb.createSheet("Resources Restriction");
     HSSFCellStyle headingStyle = wb.createCellStyle();
     HSSFFont headingFont = wb.createFont();
     HSSFCellStyle rowStyle = wb.createCellStyle();
+}

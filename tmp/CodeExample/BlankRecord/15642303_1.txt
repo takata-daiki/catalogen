@@ -1,9 +1,0 @@
-    private void setCellType(int cellType, boolean setValue, int row,short col, short styleIndex)
-{{
-            case CELL_TYPE_BLANK :
-                BlankRecord brec = null;
-
-                brec.setColumn(col);
-                brec.setXFIndex(styleIndex);
-                brec.setRow(row);
-}}

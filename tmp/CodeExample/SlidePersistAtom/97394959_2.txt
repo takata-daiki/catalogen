@@ -1,5 +1,4 @@
-  private void buildSlidesAndNotes() {
-{{{
+public void wrapperMethod() {
           SlidePersistAtom spa = notesSets[i].getSlidePersistAtom();
           Integer slideId = Integer.valueOf(spa.getSlideIdentifier());
-}}}
+}

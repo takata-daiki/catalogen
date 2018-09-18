@@ -1,5 +1,4 @@
-        if (isContainerRecord()) {
-{
-                EscherRecord child = recordFactory.createRecord( data, offset );
-                int childBytesWritten = child.fillFields( data, offset, recordFactory );
+public void wrapperMethod() {
+            EscherRecord record = iterator.next();
+            builder.append(record.toXml(tab+"\t"));
 }

@@ -1,5 +1,4 @@
-    protected Record createBOF()
-{
+public void wrapperMethod() {
         BOFRecord retval = new BOFRecord();
         retval.setVersion(( short ) 0x600);
         retval.setType(( short ) 0x010);

@@ -1,8 +1,9 @@
-  public Slide createSlide() {
-
-    SlidePersistAtom prev = null;
-{{
-        if (prev.getSlideIdentifier() < spa.getSlideIdentifier()) {
+public void wrapperMethod() {
+      SlidePersistAtom spa = sas[j].getSlidePersistAtom();
+      if (spa.getSlideIdentifier() < 0) {
+      } else {
+        if (prev == null) {
           prev = spa;
+}
+        if (prev.getSlideIdentifier() < spa.getSlideIdentifier()) {
 }}}
-    sp.setSlideIdentifier(prev == null ? 256 : (prev.getSlideIdentifier() + 1));

@@ -1,6 +1,4 @@
-    public XSSFExcelExtractorDecorator(
-            XSSFExcelExtractor extractor, Locale locale) {
-}{{
+public void wrapperMethod() {
             XSSFSheet sheet = (XSSFSheet) document.getSheetAt(i);
             extractHeaderFooter(sheet.getFirstHeader(), xhtml);
             extractHeaderFooter(sheet.getOddHeader(), xhtml);
@@ -9,4 +7,4 @@
             extractHeaderFooter(sheet.getFirstFooter(), xhtml);
             extractHeaderFooter(sheet.getOddFooter(), xhtml);
             extractHeaderFooter(sheet.getEvenFooter(), xhtml);
-}}
+}

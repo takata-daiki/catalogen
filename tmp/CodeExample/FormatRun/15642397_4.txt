@@ -1,4 +1,4 @@
-    public boolean equals(Object o)
-{{
-          FormatRun run2 = (FormatRun)other.field_4_format_runs.get(i);
-}}
+public void wrapperMethod() {
+            FormatRun r = (FormatRun)field_4_format_runs.get(i);
+            buffer.append("      .format_run"+i+"          = ").append(r.toString()).append("\n");
+}

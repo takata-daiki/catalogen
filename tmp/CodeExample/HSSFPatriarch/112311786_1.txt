@@ -1,5 +1,4 @@
-  protected void createSimpleComment(final HSSFCell cell,
-      final String commentString, final String author) {
+public void wrapperMethod() {
     final HSSFPatriarch patr = this.getDrawingPatriarch();
     final HSSFComment comment = patr.createComment(anchor);
 }

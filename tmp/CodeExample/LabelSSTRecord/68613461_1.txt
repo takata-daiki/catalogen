@@ -1,5 +1,4 @@
-  public void processRecord(Record record) {
-{
+public void wrapperMethod() {
     case LabelSSTRecord.sid:
       LabelSSTRecord lsrec = (LabelSSTRecord) record;
       curRow = thisRow = lsrec.getRow();

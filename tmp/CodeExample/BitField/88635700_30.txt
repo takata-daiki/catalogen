@@ -1,6 +1,7 @@
-    /**/private static BitField unused4 = new BitField(0x20);
+public void wrapperMethod() {
+    /**/private static BitField oldfOrigWordTableRules = new BitField(0x0100);
 {
-        field_7_docinfo2 = (byte)unused4.setBoolean(field_7_docinfo2, value);
+        field_8_docinfo3 = (short)oldfOrigWordTableRules.setBoolean(field_8_docinfo3, value);
 }{
-        return unused4.isSet(field_7_docinfo2);
-}
+        return oldfOrigWordTableRules.isSet(field_8_docinfo3);
+}}

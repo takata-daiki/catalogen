@@ -1,8 +1,7 @@
-  protected String getFileExtension() {
-}{
+public void wrapperMethod() {
     HSSFCellStyle locked;
 {
       locked.setLocked(true);
       locked.setWrapText(true);
       locked.setVerticalAlignment(HSSFCellStyle.VERTICAL_TOP);
-}
+}}

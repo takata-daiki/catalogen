@@ -1,5 +1,4 @@
-  public static void word(Context context, File distFile,String templateName,String pref,Map<String,String> map) {
-{
+public void wrapperMethod() {
       Range range = doc.getRange();
       for (int i = 0; i < range.numCharacterRuns(); i++) {
         CharacterRun run = range.getCharacterRun(i);

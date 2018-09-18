@@ -1,5 +1,4 @@
-    static Paragraph newParagraph( Range parent, PAPX papx )
-{
+public void wrapperMethod() {
         ListTables listTables = doc.getListTables();
 {{
                 lfo = listTables.getLfo( properties.getIlfo() );

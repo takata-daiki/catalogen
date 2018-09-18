@@ -1,9 +1,8 @@
-    public boolean processRecord(Record rec)
-{{{
+public void wrapperMethod() {
               BOFRecord bof = (BOFRecord)rec;
               switch (bof.getType()) {
                case BOFRecord.TYPE_WORKBOOK:
                  currentmodel = new Workbook();                 
               default:
                    throw new RuntimeException("Unsupported model type "+bof.getType());
-}}}}
+}}

@@ -1,5 +1,4 @@
-    protected void visitPicture( CTPicture picture, IITextContainer parentContainer )
-{
+public void wrapperMethod() {
         XWPFPictureData pictureData = super.getPictureDataByID( blipId );
 {{
                 Image img = Image.getInstance( pictureData.getData() );

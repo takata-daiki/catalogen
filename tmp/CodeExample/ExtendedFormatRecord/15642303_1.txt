@@ -1,5 +1,0 @@
-    protected HSSFCell(Workbook book, Sheet sheet, int row,
-                       CellValueRecordInterface cval)
-{
-        ExtendedFormatRecord xf = book.getExFormatAt(cval.getXFIndex());
-}

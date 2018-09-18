@@ -1,6 +1,5 @@
-     public static EscherProperty getEscherProperty(EscherOptRecord opt, int propId){
-{
+public void wrapperMethod() {
             EscherProperty prop = (EscherProperty) iterator.next();
-            if (prop.getPropertyNumber() == propId)
-                return prop;
-}
+            if (prop.getId() == propId){
+                iterator.remove();
+}}

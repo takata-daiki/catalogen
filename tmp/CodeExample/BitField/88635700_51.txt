@@ -1,6 +1,7 @@
-    /**/private static BitField fPrintFormData = new BitField(0x0400);
+public void wrapperMethod() {
+    /**/private static BitField fTruncDxaExpand = new BitField(0x00020000);
 {
-        field_24_Edn1 = (short)fPrintFormData.setBoolean(field_24_Edn1, value);
+        field_33_docinfo4 = (int)fTruncDxaExpand.setBoolean(field_33_docinfo4, value);
 }{
-        return fPrintFormData.isSet(field_24_Edn1);
-}
+        return fTruncDxaExpand.isSet(field_33_docinfo4);
+}}

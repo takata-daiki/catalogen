@@ -1,5 +1,4 @@
-    public Shape[] getShapes() {
-{
+public void wrapperMethod() {
             EscherRecord rec = it.next();
             if (rec.getRecordId() == EscherContainerRecord.SPGR_CONTAINER) {
                 spgr = (EscherContainerRecord) rec;

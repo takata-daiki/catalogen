@@ -1,5 +1,4 @@
-  private HSSFCellStyle createBorderedHeaderCellStyle(
-      final HSSFWorkbook workbook) {
+public void wrapperMethod() {
     final HSSFCellStyle headerCellStyle = workbook.createCellStyle();
     headerCellStyle.setAlignment(HSSFCellStyle.ALIGN_CENTER);
     headerCellStyle.setFont(headerFont);

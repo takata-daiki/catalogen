@@ -1,6 +1,6 @@
-    public XSLFPictureShape createPicture(int pictureIndex){
+public void wrapperMethod() {
+        PackageRelationship blipRel = packagePart.getRelationship(blipId);
 
         PackageRelationship rel = getPackagePart().addRelationship(
-                pic.getPartName(), TargetMode.INTERNAL, XSLFRelation.IMAGES.getRelation());
-        addRelation(rel.getId(), new XSLFPictureData(pic, rel));
-        XSLFPictureShape sh = getDrawing().createPicture(rel.getId());
+                pic.getPartName(), TargetMode.INTERNAL, blipRel.getRelationshipType());
+}

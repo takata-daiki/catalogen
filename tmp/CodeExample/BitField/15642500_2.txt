@@ -1,6 +1,0 @@
-    static final private BitField outlevel  = BitFieldFactory.getInstance(0x0700);
-{
-        field_5_options = outlevel.setShortValue(field_5_options, olevel);
-}{
-        return outlevel.getShortValue(field_5_options);
-}

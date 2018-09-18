@@ -1,2 +1,7 @@
-    public Paint selectPaint(Graphics2D graphics, XmlObject obj, CTSchemeColor phClr, PackagePart parentPart) {
-        XSLFTheme theme = _shape.getSheet().getTheme();
+    private Paint createTexturePaint(CTBlipFillProperties blipFill, Graphics2D graphics,
+            PackagePart parentPart){
+        Paint paint = null;
+        PackageRelationship rel = parentPart.getRelationship(blipId);
+{{
+                BufferedImage img = renderer.readImage(parentPart.getRelatedPart(rel));
+}}}

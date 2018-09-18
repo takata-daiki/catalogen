@@ -1,4 +1,4 @@
-    public boolean equals(Object o) {
-
+public void wrapperMethod() {
         EscherComplexProperty escherComplexProperty = (EscherComplexProperty) o;
         if ( !Arrays.equals( _complexData, escherComplexProperty._complexData ) ) return false;
+}

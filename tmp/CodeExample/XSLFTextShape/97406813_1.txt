@@ -1,4 +1,4 @@
-    void copy(XSLFShape sh){
+public void wrapperMethod() {
         XSLFTextShape tsh = (XSLFTextShape)sh;
         boolean srcWordWrap = tsh.getWordWrap();
 
@@ -13,3 +13,4 @@
         VerticalAlignment vAlign = tsh.getVerticalAlignment();
 
         List<XSLFTextParagraph> srcP = tsh.getTextParagraphs();
+}

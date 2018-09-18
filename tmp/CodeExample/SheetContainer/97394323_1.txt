@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private SheetContainer _container;
 {
         return _container.getSheetId();
@@ -7,4 +8,4 @@
         EscherDgRecord dg = _container.getPPDrawing().getEscherDgRecord();
 }{
         return _container.getColorScheme();
-}
+}}

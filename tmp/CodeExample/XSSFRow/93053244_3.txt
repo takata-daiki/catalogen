@@ -1,4 +1,6 @@
-  private void setColumnData( XSSFRow row,  String[] data){
-     for( int columnIndex = 0; columnIndex < data.length; columnIndex++){
-        XSSFCell cell = row.createCell(columnIndex);
+public void wrapperMethod() {
+    XSSFRow row = sheet.createRow(rowindex);
+      row.setHeightInPoints((short)25);
+      XSSFCell cell = row.createCell(0);
+      cell = row.createCell(1);
 }

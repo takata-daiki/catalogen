@@ -1,4 +1,5 @@
-    public void setFormatID(final ClassID formatID)
-    {
-        this.formatID = formatID;
+public void wrapperMethod() {
+        ClassID fid = getFormatID();
+
+        fid.setBytes(formatID);
 }

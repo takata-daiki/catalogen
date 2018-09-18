@@ -1,5 +1,4 @@
-  public void processRecord(Record record) {
-{
+public void wrapperMethod() {
     case FormulaRecord.sid:
       FormulaRecord frec = (FormulaRecord) record;
       thisRow = frec.getRow();

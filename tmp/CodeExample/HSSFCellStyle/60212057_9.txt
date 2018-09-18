@@ -1,7 +1,8 @@
-  private void setStyleRow(HSSFSheet ash,  String strStyle, int row, int beCol, int countCol, int breakCol,   
-      Map<String,  HSSFCellStyle[]> styleRowMap, HSSFFont font){
-}{{{{{{{{
-                  HSSFCellStyle style= wb.createCellStyle();
-                  style.cloneStyleFrom(cell.getCellStyle());
-                  style.setIndention((short)6);
-}}}}}}}}
+public void wrapperMethod() {
+            HSSFCellStyle cellStyle = wb.createCellStyle();
+            cellStyle.cloneStyleFrom(cell.getCellStyle());
+            cellStyle.setFont(fontWhiteColor);
+            cellStyle.setBorderTop(HSSFCellStyle.BORDER_NONE);
+            cellStyle.setBorderBottom(HSSFCellStyle.BORDER_NONE);
+            cellStyle.setWrapText(false);
+}

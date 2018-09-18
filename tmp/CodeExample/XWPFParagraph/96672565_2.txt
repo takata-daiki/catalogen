@@ -1,7 +1,6 @@
-    protected void visitParagraph( XWPFParagraph paragraph, int index, T container )
+    private void visitRuns( XWPFParagraph paragraph, T paragraphContainer )
         throws Exception
     {
-        if ( isWordDocumentPartParsing() )
-        {
-            masterPageManager.update( paragraph );
-}}
+        boolean fldCharTypeParsing = false;
+        CTP ctp = paragraph.getCTP();
+}

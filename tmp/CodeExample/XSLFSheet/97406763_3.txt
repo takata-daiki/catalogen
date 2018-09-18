@@ -1,7 +1,5 @@
-    boolean fetchShapeProperty(PropertyFetcher visitor) {
-        XSLFSheet masterSheet = getSheet().getMasterSheet();
-{{
-                masterShape = masterSheet.getPlaceholder(ph);
-}{
+public void wrapperMethod() {
                 XSLFSheet master = masterSheet.getMasterSheet();
+{
+                    masterShape = master.getPlaceholderByType(textType);
 }}

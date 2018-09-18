@@ -1,6 +1,0 @@
-    private EscherContainerRecord createSpContainer( HSSFPolygon hssfShape, int shapeId )
-{
-        HSSFShape shape = hssfShape;
-
-        EscherRecord anchor = createAnchor( shape.getAnchor() );
-}

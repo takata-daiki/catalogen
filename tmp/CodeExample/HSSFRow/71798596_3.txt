@@ -1,6 +1,5 @@
-  public void myprint(String mymessage){
-}{{
-             HSSFRow row = mySheet.getRow(i);
+public void wrapperMethod() {
+          HSSFRow row = osheet.createRow(myrow);
 {
-                 HSSFCell cell = row.getCell(j); // To read value from each col in each row
+            HSSFCell cell = row.createCell(mycol);
 }}

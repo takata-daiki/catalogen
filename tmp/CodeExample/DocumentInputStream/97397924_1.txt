@@ -1,3 +1,4 @@
+public void wrapperMethod() {
   private DocumentInputStream delegate;
 {
      return delegate.available();
@@ -29,4 +30,4 @@
      return delegate.readUByte();
 }{
     return delegate.position();
-}
+}}

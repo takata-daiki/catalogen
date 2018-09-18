@@ -1,7 +1,18 @@
-    protected Triplet getCharacterRunTriplet( CharacterRun characterRun )
-    {
-        Triplet original = new Triplet();
-        original.bold = characterRun.isBold();
-        original.italic = characterRun.isItalic();
-        original.fontName = characterRun.getFontName();
-}
+public void wrapperMethod() {
+                CharacterRun characterRun = range.getCharacterRun( c );
+                if ( characterRun.getStartOffset() < skipUntil )
+                    continue;
+                String text = characterRun.text();
+                Field aliveField = ( (HWPFDocument) wordDocument ).getFields()
+                        .getFieldByStartOffset( FieldsDocumentPart.MAIN,
+                                characterRun.getStartOffset() );
+{{
+                        addToStructures(
+                                structures,
+                                new Structure( new DeadFieldBoundaries( c,
+                                        separatorEnd[0], separatorEnd[1] ),
+                                        characterRun.getStartOffset(), range
+                                                .getCharacterRun(
+                                                        separatorEnd[1] )
+                                                .getEndOffset() ) );
+}}}

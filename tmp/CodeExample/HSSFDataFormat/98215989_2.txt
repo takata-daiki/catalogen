@@ -1,6 +1,4 @@
-  protected void setNumericCell(HSSFCell cell, BigDecimal value,
-      HSSFWorkbook workbook) {
-
+public void wrapperMethod() {
     HSSFDataFormat df = workbook.createDataFormat();
 {
       format = df.getFormat("####");

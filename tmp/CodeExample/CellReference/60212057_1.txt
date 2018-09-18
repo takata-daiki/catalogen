@@ -1,2 +1,0 @@
-      for(CellReference celRef:areaReferance.getAllReferencedCells()){
-        ExcelUtils.setCellValue(ExcelUtils.getCell(sheet, celRef.getRow(), celRef.getCol()), 0);

@@ -1,6 +1,7 @@
-    /**/private static BitField fBackward = new BitField(0x0002);
+public void wrapperMethod() {
+    /**/private static BitField fRotateFont = new BitField(0x0004);
 {
-        field_40_fontAlign = (short)fBackward.setBoolean(field_40_fontAlign, value);
+        field_40_fontAlign = (short)fRotateFont.setBoolean(field_40_fontAlign, value);
 }{
-        return fBackward.isSet(field_40_fontAlign);
-}
+        return fRotateFont.isSet(field_40_fontAlign);
+}}

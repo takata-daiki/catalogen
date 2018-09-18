@@ -1,6 +1,0 @@
-    @Deprecated
-    protected Paragraph( PAPX papx, Range parent )
-    {
-        super( Math.max( parent._start, papx.getStart() ), Math.min(
-                parent._end, papx.getEnd() ), parent );
-}

@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     protected final XWPFDocument document;
 {{
             this.defaults = document.getStyle().getDocDefaults();
@@ -11,4 +12,4 @@
 }{
         else
             return document.getStyles().getStyle( styleID );
-}
+}}

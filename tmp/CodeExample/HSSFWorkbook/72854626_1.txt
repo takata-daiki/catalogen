@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private HSSFWorkbook workbook;
 {
         workbook.createSheet();        
@@ -30,4 +31,4 @@
         workbook.write(stream);        
 }{
         HSSFSheet hssfSheet = workbook.getSheet(setCellValue.getSheet().getName());
-}
+}}

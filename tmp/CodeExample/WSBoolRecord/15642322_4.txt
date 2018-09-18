@@ -1,6 +1,0 @@
-    public void setDialog(boolean b)
-{
-        WSBoolRecord record =
-                (WSBoolRecord) sheet.findFirstRecordBySid(WSBoolRecord.sid);
-        record.setDialog(b);
-}

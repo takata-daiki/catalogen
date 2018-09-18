@@ -1,5 +1,4 @@
-    public POIFSFileSystem()
-{
+public void wrapperMethod() {
         HeaderBlockWriter header_block_writer = new HeaderBlockWriter(512);
         BATBlock[]        xbat_blocks         =
             header_block_writer.setBATBlocks(bat.countBlocks(),

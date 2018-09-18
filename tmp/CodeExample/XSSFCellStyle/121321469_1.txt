@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     XSSFCellStyle cellStyle = sheet.getRow(0).getCell(0).getCellStyle();
     for (int i=0; i<stylesSource.getNumCellStyles(); i++)
       if (stylesSource.getStyleAt(i).equals(cellStyle))
@@ -8,3 +9,4 @@
         System.out.println("Index: " + cellStyle.getIndex() + " "+ fill.getFillBackgroundColor().getARGBHex());
       if (fill.getFillForegroundColor()!=null)
       System.out.println("Index: " +cellStyle.getIndex() + " "+ fill.getFillForegroundColor().getARGBHex());
+}

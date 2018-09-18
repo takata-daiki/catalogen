@@ -1,3 +1,4 @@
-   public int getEscherProperty(short propId){
+public void wrapperMethod() {
         EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, propId);
-        return prop == null ? 0 : prop.getPropertyValue();
+        return prop == null ? defaultValue : prop.getPropertyValue();
+}

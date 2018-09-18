@@ -1,5 +1,4 @@
-        private TikaHSSFListener(XHTMLContentHandler handler, Locale locale, AbstractPOIFSExtractor extractor) {
-}{
+public void wrapperMethod() {
             HSSFRequest hssfRequest = new HSSFRequest();
 {
                 hssfRequest.addListenerForAllRecords(formatListener);
@@ -21,4 +20,4 @@
                 hssfRequest.addListener(formatListener, FormatRecord.sid);
                 hssfRequest.addListener(formatListener, ExtendedFormatRecord.sid);
                 hssfRequest.addListener(formatListener, DrawingGroupRecord.sid);
-}
+}}

@@ -1,7 +1,0 @@
-    @Override
-    protected void endVisitPargraph( XWPFParagraph paragraph, XHTMLPageContentBuffer parentContainer,
-                                     XHTMLPageContentBuffer paragraphContainer )
-        throws Exception
-    {
-        paragraphContainer.endElement( P_ELEMENT );
-}

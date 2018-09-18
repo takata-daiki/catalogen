@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     PrintSetupRecord printSetupRecord;
 {
   printSetupRecord.setPaperSize(size);
@@ -75,4 +76,4 @@
         return printSetupRecord.getFooterMargin();
 }{
         return printSetupRecord.getCopies();
-}
+}}

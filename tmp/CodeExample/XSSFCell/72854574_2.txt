@@ -1,3 +1,4 @@
-    public Cell getCellAt(int col, int row) {
-
-        XSSFCell hssfCell = hssfRow.getCell(col);
+public void wrapperMethod() {
+            XSSFCell theCell = theRow.getCell(col);
+            theCell.setCellValue("");
+}

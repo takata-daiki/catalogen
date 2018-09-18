@@ -1,5 +1,4 @@
-    void remove(EntryNode entry)
-{{
+public void wrapperMethod() {
             Property      property = ( Property ) properties.next();
             String        name     = property.getName();
             if (property.isDirectory())
@@ -15,4 +14,4 @@
                     document =
                         new POIFSDocument(name, small_blocks
                             .fetchBlocks(startBlock), size, bigBlockSize);
-}}}}
+}}}

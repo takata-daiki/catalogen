@@ -1,6 +1,8 @@
+public void wrapperMethod() {
       DocumentNode doc = (DocumentNode)document;
     DocumentProperty property = (DocumentProperty)doc.getProperty();
     _document = new NPOIFSDocument(
           property, 
           ((DirectoryNode)doc.getParent()).getNFileSystem()
     );
+}

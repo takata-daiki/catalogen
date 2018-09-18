@@ -1,5 +1,4 @@
-  public void convert(Insurance insurance){
-}{{
+public void wrapperMethod() {
       ExcelExtractor extractor = new ExcelExtractor((HSSFWorkbook)wb);
       extractor.setFormulasNotResults(true);
       extractor.setIncludeSheetNames(false);

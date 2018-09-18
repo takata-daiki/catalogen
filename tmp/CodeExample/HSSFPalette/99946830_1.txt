@@ -1,3 +1,4 @@
-  public static HSSFCellStyle setHeadStyle(HSSFWorkbook workbook, HSSFCellStyle style) {
+public void wrapperMethod() {
     HSSFPalette palette = workbook.getCustomPalette();
     palette.setColorAtIndex((short) 9, (byte) (220), (byte) (240), (byte) (138));
+}

@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     protected final XWPFDocument document;
 {
         List<IBodyElement> bodyElements = document.getBodyElements();
@@ -18,4 +19,4 @@
         List<XWPFFooter> footers = document.getFooterList();
 }{
         return document.getPictureDataByID( blipId );
-}
+}}

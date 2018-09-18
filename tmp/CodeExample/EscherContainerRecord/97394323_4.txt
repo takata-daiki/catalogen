@@ -1,2 +1,6 @@
-    public void addShape(Shape shape) {
-        EscherContainerRecord dgContainer = (EscherContainerRecord) ppdrawing.getEscherRecords()[0];
+public void wrapperMethod() {
+        EscherContainerRecord spgr = null;
+
+        List<EscherRecord> lst = spgr.getChildRecords();
+        spgr.setChildRecords(lst);
+}

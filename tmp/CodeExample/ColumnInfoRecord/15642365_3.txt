@@ -1,8 +1,0 @@
-    public short getXFIndexForColAt(short column) {
-        ColumnInfoRecord ci = null;
-{{
-                if ((ci.getFirstColumn() <= column)
-                        && (column <= ci.getLastColumn())) {
-                    break;
-}}}
-        retval = (ci != null) ? ci.getXFIndex() : 0xF;

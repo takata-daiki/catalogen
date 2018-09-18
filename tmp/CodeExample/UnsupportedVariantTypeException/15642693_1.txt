@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     protected static void writeUnsupportedTypeMessage
         (final UnsupportedVariantTypeException ex)
     {
@@ -8,4 +9,4 @@
             Long vt = new Long(ex.getVariantType());
 {
                 System.err.println(ex.getMessage());
-}}}
+}}}}

@@ -1,6 +1,0 @@
-    private void makeHeader ( final List<Field> columns, final HSSFSheet sheet )
-    {
-        final Font font = sheet.getWorkbook ().createFont ();
-        final CellStyle style = sheet.getWorkbook ().createCellStyle ();
-        final HSSFRow row = sheet.createRow ( 0 );
-}

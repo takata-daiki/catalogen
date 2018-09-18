@@ -1,6 +1,4 @@
-    protected void dumpParagraphLevels( ListTables listTables,
-            ParagraphProperties paragraph )
-{{{
+public void wrapperMethod() {
                 final ListLevel listLevel = listTables.getLevel( lfo.getLsid(),
                         paragraph.getIlvl() );
                 if ( listLevel.getGrpprlPapx() != null )
@@ -12,4 +10,4 @@
 }{
                     System.out.println( "PAP's ListLevel CHPX:" );
                             new SprmIterator( listLevel.getGrpprlChpx(), 0 ),
-}}}}
+}}

@@ -1,5 +1,4 @@
-    public boolean equals(final Object o)
-{
+public void wrapperMethod() {
         final PropertySet ps = (PropertySet) o;
         int byteOrder1 = ps.getByteOrder();
         ClassID classID1 = ps.getClassID();

@@ -1,6 +1,4 @@
-  public Word6CHPBinTable(byte[] documentStream, int offset,
-                     int size, int fcMin)
-{
+public void wrapperMethod() {
     PlexOfCps binTable = new PlexOfCps(documentStream, offset, size, 2);
     int length = binTable.length();
 {

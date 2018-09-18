@@ -1,6 +1,7 @@
-    /**/private static final BitField fWebHidden = new BitField(0x10000000);
+public void wrapperMethod() {
+    /**/private static final BitField icoHighlight = new BitField(0x001f);
 {
-        field_1_grpfChp = fWebHidden.setBoolean(field_1_grpfChp, value);
+        field_48_Highlight = (short)icoHighlight.setValue(field_48_Highlight, value);
 }{
-        return fWebHidden.isSet(field_1_grpfChp);
-}
+        return ( byte )icoHighlight.getValue(field_48_Highlight);
+}}

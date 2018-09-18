@@ -1,5 +1,6 @@
-  public static HSSFWorkbook createXLSSource(List<String> l) {
+public void wrapperMethod() {
     HSSFFont headingFont = wb.createFont();
     headingFont.setFontHeightInPoints((short)10);
     headingFont.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);
     headingFont.setColor(HSSFColor.WHITE.index);
+}

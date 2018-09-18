@@ -1,2 +1,4 @@
+public void wrapperMethod() {
         AreaReference aref = new AreaReference(aNamedCell.getRefersToFormula());
         CellReference[] crefs = aref.getAllReferencedCells();
+}

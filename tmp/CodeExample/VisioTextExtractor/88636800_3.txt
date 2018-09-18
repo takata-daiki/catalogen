@@ -1,5 +1,4 @@
-  protected void setUp() {
-}{{
+public void wrapperMethod() {
             VisioTextExtractor ex = new VisioTextExtractor(_dgTests.openResourceAsStream(file));
             ex.getText();
 }

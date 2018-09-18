@@ -1,4 +1,5 @@
-            public void render ( final Event event, final Cell cell )
-}}{{{{
-                    final HSSFRow row = sheet.createRow ( i + 1 );
+public void wrapperMethod() {
+        final HSSFRow row = sheet.createRow ( 0 );
+{
+            final HSSFCell cell = row.createCell ( i );
 }}

@@ -1,10 +1,8 @@
-  protected DocumentInputStream() {}
-{
+public void wrapperMethod() {
      DirectoryNode parentNode = (DirectoryNode)document.getParent();
-
+{
      } else if(parentNode.getFileSystem() != null) {
         delegate = new ODocumentInputStream(document);
-}
      } else if(parentNode.getNFileSystem() != null) {
         delegate = new NDocumentInputStream(document);
 }}

@@ -1,4 +1,5 @@
-    public void run(InputStream stream) {
+public void wrapperMethod() {
         EventRecordFactory factory = new EventRecordFactory(true);
         factory.registerListener(this,null);
         factory.processRecords(stream);
+}

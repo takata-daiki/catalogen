@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     public POIFSDocumentPath(final POIFSDocumentPath path,
                              final String [] components)
         throws IllegalArgumentException
@@ -15,4 +16,4 @@
 }{{
                 this.components[ j + path.components.length ] =
                     components[ j ];
-}}}
+}}}}

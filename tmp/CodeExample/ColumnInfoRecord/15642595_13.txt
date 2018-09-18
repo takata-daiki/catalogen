@@ -1,7 +1,8 @@
-    public static Record createColInfo()
+public void wrapperMethod() {
+        ColumnInfoRecord ci;
 {
-        ColumnInfoRecord retval = new ColumnInfoRecord();
-        retval.setColumnWidth(( short ) 2275);
-        retval.setOptions(( short ) 2);
-        retval.setXFIndex(( short ) 0x0f);
-}
+            if ((ci.getFirstColumn() <= column)
+                    && (column <= ci.getLastColumn()))
+            {
+                return k;
+}}}

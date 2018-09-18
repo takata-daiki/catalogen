@@ -1,5 +1,0 @@
-  public boolean drawImage(Graphics2D graphics, XSLFPictureData data,
-      Rectangle2D anchor) {
-    try {
-      BufferedImage img = ImageIO.read(data.getPackagePart().getInputStream());
-}}

@@ -1,4 +1,0 @@
-        if ( getIlfo() == 0x000 || getIlfo() == 0xF801 )
-
-        HWPFList hwpfList = new HWPFList( getDocument().getStyleSheet(),
-                getDocument().getListTables(), getIlfo() );

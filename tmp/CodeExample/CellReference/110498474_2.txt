@@ -1,9 +1,0 @@
-  private String xml10Characters(String original) {
-}{{{{
-          CellReference lastCellReference = areaReference
-              .getLastCell();
-          xmlWriter.writeAttribute("last_column",
-              String.valueOf(lastCellReference.getCol() + 1));
-          xmlWriter.writeAttribute("last_row",
-              String.valueOf(lastCellReference.getRow() + 1));
-}}}

@@ -1,7 +1,0 @@
-    @Override
-    protected void visitTableRow( XWPFTableRow row, XHTMLPageContentBuffer tableContainer, boolean firstRow,
-                                  boolean lastRow )
-        throws Exception
-    {
-        tableContainer.startElementNotEnclosed( TR_ELEMENT );
-}

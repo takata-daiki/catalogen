@@ -1,7 +1,0 @@
-    public Set<MediaType> getSupportedTypes(ParseContext context) {
-}{{{
-                case PUBLISHER:
-                    PublisherTextExtractor publisherTextExtractor =
-                        new PublisherTextExtractor(filesystem);
-                    xhtml.element("p", publisherTextExtractor.getText());
-}}

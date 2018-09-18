@@ -1,5 +1,4 @@
-    public HSSFSimpleShape createShape(HSSFChildAnchor anchor)
-{
+public void wrapperMethod() {
         HSSFSimpleShape shape = new HSSFSimpleShape(this, anchor);
         shape.anchor = anchor;
 }

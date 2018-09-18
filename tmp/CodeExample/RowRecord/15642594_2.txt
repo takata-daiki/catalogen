@@ -1,4 +1,4 @@
-    public void removeRow(RowRecord row)
-    {
-        size -= row.getRecordSize();
+public void wrapperMethod() {
+        RowRecord row = (RowRecord)rowIterator.next();
+        pos += row.serialize(pos, data);
 }

@@ -1,8 +1,0 @@
-  public CTSlideMasterIdList getSlideMasterReferences() {
-}{
-    PackagePart slidePart = getSlidePart(parentSlide);
-{
-      notes = slidePart.getRelationshipsByType(XSLFRelation.NOTES.getRelation());
-}{
-       return slidePart.getRelatedPart(notes.getRelationship(0));
-}

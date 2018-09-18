@@ -1,5 +1,4 @@
-  public Slide createSlide() {
-}{
+public void wrapperMethod() {
     EscherContainerRecord bstore;
 {
       bstore.setRecordId(EscherContainerRecord.BSTORE_CONTAINER);
@@ -9,3 +8,4 @@
     bstore.addChildRecord(bse);
     int count = bstore.getChildRecords().size();
     bstore.setOptions((short) ((count << 4) | 0xF));
+}

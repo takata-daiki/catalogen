@@ -1,3 +1,4 @@
+public void wrapperMethod() {
   String toString(FormulaEvaluator evaluator, DataFormatter formatter, Cell cell) {
     String content;
 {{
@@ -5,4 +6,4 @@
 }{
         content = formatter.formatCellValue(cell,
             evaluator);
-}}
+}}}}

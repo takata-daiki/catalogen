@@ -1,5 +1,8 @@
-  public static void writeWorkbook(HSSFWorkbook wb, String fileName) {
-    FileOutputStream fos = null;
+public void wrapperMethod() {
+    HSSFWorkbook workbook = new HSSFWorkbook();
+    HSSFSheet sheet = workbook.createSheet(title);
+    HSSFFont font2 = workbook.createFont();
+    HSSFDataFormat format = workbook.createDataFormat();
 {
-      wb.write(fos);
-}
+      workbook.write(out);
+}}

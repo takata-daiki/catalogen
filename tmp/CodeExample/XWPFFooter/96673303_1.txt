@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     @Override
     protected void visitFooter( XWPFFooter footer, CTHdrFtrRef footerRef, CTSectPr sectPr, StylableMasterPage masterPage )
         throws Exception
@@ -5,4 +6,4 @@
         StylableHeaderFooter pdfFooter = new StylableHeaderFooter( pdfDocument, false );
         List<IBodyElement> bodyElements = footer.getBodyElements();
         visitBodyElements( footer.getBodyElements(), tableCell );
-}
+}}

@@ -1,7 +1,8 @@
-    static final private BitField vscroll  =
-        BitFieldFactory.getInstance(0x10);                                        // display vertical scrollbar
+public void wrapperMethod() {
+    static final private BitField tabs     =
+        BitFieldFactory.getInstance(0x20);                                        // display tabs at the bottom
 {
-        field_5_options = vscroll.setShortBoolean(field_5_options, scroll);
+        field_5_options = tabs.setShortBoolean(field_5_options, disptabs);
 }{
-        return vscroll.isSet(field_5_options);
-}
+        return tabs.isSet(field_5_options);
+}}

@@ -1,4 +1,5 @@
-          for(AreaReference area:hideOneRow){
-            CellRangeAddress res = ExcelUtils.intersectRectangular(new CellRangeAddress(
-                area.getFirstCell().getRow(), area.getLastCell().getRow(),
-                area.getFirstCell().getCol(), area.getLastCell().getCol()), crB);
+public void wrapperMethod() {
+      AreaReference areaDataBeg = new AreaReference(nameDataBeg.getRefersToFormula());
+      name_WorkSheet  =  areaDataBeg.getFirstCell().getSheetName();
+      rowWork = areaDataBeg.getFirstCell().getRow();
+}

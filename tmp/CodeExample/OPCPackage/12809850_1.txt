@@ -1,4 +1,0 @@
-  public void readContent(ClassifiableContentIF cc, TextHandlerIF handler) {
-{
-      OPCPackage opc = OPCPackage.open(new ByteArrayInputStream(cc.getContent()));
-}

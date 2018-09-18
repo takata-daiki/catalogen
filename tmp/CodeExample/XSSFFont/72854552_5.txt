@@ -1,8 +1,0 @@
-    public void setBold(boolean b) {
-
-        XSSFFont font = cellStyle.getFont();
-{
-            font.setBoldweight(XSSFFont.BOLDWEIGHT_BOLD);
-}{
-            font.setBoldweight(XSSFFont.BOLDWEIGHT_NORMAL);
-}

@@ -1,9 +1,4 @@
-  private int keyPage(HSSFSheet sh){
-{
-      AreaReference areaRef = new AreaReference(keyPageSeries[k] +""+(wRow+1) + ":" + keyPageSeries[k]+""+(rowNameDataRangeE+1));
-      if(!areaRef.isSingleCell()){
-        for(int col = areaRef.getFirstCell().getCol(); col <= areaRef.getLastCell().getCol(); col++){
-          for(int row = areaRef.getFirstCell().getRow(); row <= areaRef.getLastCell().getRow(); row++){
-            if (row == areaRef.getFirstCell().getRow()){
-              HSSFRow row0 = sh.getRow(row);
-}}}}}
+public void wrapperMethod() {
+              AreaReference area2 = new AreaReference(cell.getCellFormula());
+              CellRangeAddress cra2 = ExcelUtils.mergeArea(sh, area2.getAllReferencedCells()[0]);
+}

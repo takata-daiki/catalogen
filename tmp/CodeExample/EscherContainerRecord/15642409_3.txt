@@ -1,6 +1,10 @@
-    private void convertShapes( HSSFShapeContainer parent, EscherContainerRecord escherParent, Map shapeToObj )
-    {
-        if ( escherParent == null ) throw new IllegalArgumentException( "Parent record required" );
-{{
-                escherParent.addChildRecord( shapeModel.getSpContainer() );
-}}}
+public void wrapperMethod() {
+        EscherContainerRecord spContainer = new EscherContainerRecord();
+        spContainer.setRecordId( EscherContainerRecord.SP_CONTAINER );
+        spContainer.setOptions( (short) 0x000F );
+        spContainer.addChildRecord( spgr );
+        spContainer.addChildRecord( sp );
+        spContainer.addChildRecord( opt );
+        spContainer.addChildRecord( anchor );
+        spContainer.addChildRecord( clientData );
+}

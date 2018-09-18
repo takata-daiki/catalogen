@@ -1,7 +1,5 @@
-  public CTSlideMasterIdList getSlideMasterReferences() {
-}{{
-       PackagePart corePart = getCorePart(); 
-      return corePart.getRelatedPart(
-        corePart.getRelationship(master.getId2())
-      );
+public void wrapperMethod() {
+    PackagePart slidePart = getSlidePart(slide);
+    SldDocument slideDoc =
+      SldDocument.Factory.parse(slidePart.getInputStream());
 }

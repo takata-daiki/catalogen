@@ -1,6 +1,0 @@
-    private boolean processOle2( HWPFDocument doc, CharacterRun characterRun,
-            Element block )
-    {
-        Entry entry = doc.getObjectsPool().getObjectById(
-                "_" + characterRun.getPicOffset() );
-}

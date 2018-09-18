@@ -1,6 +1,0 @@
-    public void setEscherProperty(EscherProperty value){
-        for ( Iterator<EscherProperty> iterator =
-                      properties.iterator(); iterator.hasNext(); ) {
-            if (prop.getId() == value.getId()){
-                iterator.remove();
-}}

@@ -1,4 +1,4 @@
-    public Object clone() {
+public void wrapperMethod() {
         LegendRecord rec = new LegendRecord();
         rec.field_1_xAxisUpperLeft = field_1_xAxisUpperLeft;
         rec.field_2_yAxisUpperLeft = field_2_yAxisUpperLeft;
@@ -7,3 +7,4 @@
         rec.field_5_type = field_5_type;
         rec.field_6_spacing = field_6_spacing;
         rec.field_7_options = field_7_options;
+}

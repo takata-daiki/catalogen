@@ -1,5 +1,5 @@
-    public XSLFPictureShape createPicture(int pictureIndex){
-
+public void wrapperMethod() {
         PackagePart pic = pics.get(0);
         PackageRelationship rel = _sheet.getPackagePart().addRelationship(
                 pic.getPartName(), TargetMode.INTERNAL, XSLFRelation.IMAGES.getRelation());
+}

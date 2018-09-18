@@ -1,33 +1,9 @@
-                    public String toString()
-}}}}
-    protected void processDeadField( HWPFDocumentCore wordDocument,
-            Element currentBlock, Range range, int currentTableLevel,
-            int beginMark, int separatorMark, int endMark )
+    protected void processParagraphes( HWPFDocumentCore wordDocument,
+            Element flow, Range range, int currentTableLevel )
     {
-        if ( beginMark + 1 < separatorMark && separatorMark + 1 < endMark )
-        {
-            Range formulaRange = new Range( range.getCharacterRun(
-                    beginMark + 1 ).getStartOffset(), range.getCharacterRun(
-                    separatorMark - 1 ).getEndOffset(), range )
-            {
-                @Override
-                public String toString()
-                {
-                    return "Dead field formula subrange: " + super.toString();
-}}
-            Range valueRange = new Range( range.getCharacterRun(
-                    separatorMark + 1 ).getStartOffset(), range
-                    .getCharacterRun( endMark - 1 ).getEndOffset(), range )
-{{
-                    return "Dead field value subrange: " + super.toString();
-}}}{
-            debug.append( range.getCharacterRun( i ) );
-}
-        Range deadFieldValueSubrage = new Range( range.getCharacterRun(
-                separatorMark ).getStartOffset() + 1, range.getCharacterRun(
-                endMark ).getStartOffset(), range )
+        final int paragraphs = range.numParagraphs();
 {
-            @Override
-            public String toString()
+            Paragraph paragraph = range.getParagraph( p );
 {
-                return "DeadFieldValueSubrange (" + super.toString() + ")";
+                Table table = range.getTable( paragraph );
+}}}

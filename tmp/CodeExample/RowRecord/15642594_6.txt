@@ -1,5 +1,6 @@
-    private int serializeRowBlock(final int block, final int offset, byte[] data) {
-{
-        RowRecord row = (RowRecord)rowIterator.next();
-        pos += row.serialize(pos, data);
-}
+public void wrapperMethod() {
+        RowRecord row = getRow( startIdx );
+{{
+                if ( row.getOutlineLevel() == getRow( i ).getOutlineLevel() )
+                    getRow( i ).setZeroHeight( false );
+}}}

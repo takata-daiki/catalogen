@@ -1,7 +1,0 @@
-        if ( getDocument() instanceof HWPFDocument )
-{{
-                NilPICFAndBinData data = new NilPICFAndBinData(
-                        ( (HWPFDocument) getDocument() ).getDataStream(),
-                        getPicOffset() );
-                FFData ffData = new FFData( data.getBinData(), 0 );
-}}

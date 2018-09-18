@@ -1,6 +1,0 @@
-    public ByteArrayOutputStream export(final Table table) {
-{
-            final XSSFRow xssfRow = xssfSheet.createRow(row.getRowNr() + 1);
-{{
-                    final XSSFCell xssfCell = xssfRow.createCell(cell.getColInfo().getSpaltenNr());
-}}}

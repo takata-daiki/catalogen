@@ -1,2 +1,0 @@
-  public static HSSFCell find(HSSFSheet sh, CellReference topLeft, CellReference botRight, Object valueSearch, byte lookIn, XlLookAt lookAt, XlSearchDirection searchDirection){
-    return find(sh, new  AreaReference(topLeft, botRight), valueSearch, lookIn, lookAt, searchDirection);

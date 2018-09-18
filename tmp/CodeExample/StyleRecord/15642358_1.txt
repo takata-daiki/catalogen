@@ -1,4 +1,4 @@
-    protected Record createStyle(int id) {   // we'll need multiple editions
+public void wrapperMethod() {
         StyleRecord retval = new StyleRecord();
 {
             case 0 :
@@ -20,4 +20,4 @@
             case 5 :
                 retval.setIndex(( short ) 0xffff8014);
                 retval.setBuiltin(( byte ) 5);
-}
+}}

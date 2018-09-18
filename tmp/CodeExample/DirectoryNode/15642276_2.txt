@@ -1,11 +1,5 @@
-    void remove(EntryNode entry)
-{{
-            DirectoryNode parent   = (dir == null)
-                                     ? (( DirectoryNode ) getRoot())
-                                     : dir;
-{
+public void wrapperMethod() {
                 DirectoryNode new_dir =
                     ( DirectoryNode ) parent.createDirectory(name);
-}{
-                parent.createDocument(document);
-}}}
+                new_dir.setStorageClsid( property.getStorageClsid() );
+}

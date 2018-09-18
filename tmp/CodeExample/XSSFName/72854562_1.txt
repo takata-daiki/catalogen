@@ -1,6 +1,0 @@
-    public Collection<NamedRange> getNamedRanges() {
-{
-            XSSFName name = workbook.getNameAt(i);
-            if(!name.isDeleted() && !name.isFunctionName()) {
-                NamedRange range = new NamedRangeXSSFImpl(this, name);
-}}

@@ -1,3 +1,4 @@
+public void wrapperMethod() {
   private HSSFCellStyle captionStyle;
 {
     captionStyle.setBorderTop(CellStyle.BORDER_MEDIUM);
@@ -7,4 +8,4 @@
     captionStyle.setAlignment(CellStyle.ALIGN_CENTER);
     captionStyle.setWrapText(true);
     captionStyle.setFont(font);
-}
+}}

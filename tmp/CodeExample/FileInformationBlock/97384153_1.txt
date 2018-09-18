@@ -1,8 +1,0 @@
-    public void writeListDataTo( FileInformationBlock fib,
-            HWPFOutputStream tableStream ) throws IOException
-    {
-        final int startOffset = tableStream.getOffset();
-        fib.setFcPlfLst( startOffset );
-
-        fib.setLcbPlfLst( tableStream.getOffset() - startOffset );
-}

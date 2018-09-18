@@ -1,7 +1,0 @@
-  public XMLGeneration(Workbook poiWorkbook) {
-}
-  private void writeHSSFDataValidations(XMLStreamWriter xmlWriter,
-      HSSFSheet sheet) throws XMLStreamException {
-    try {
-      List<HSSFDataValidation> validationData = sheet.getDataValidations();
-}

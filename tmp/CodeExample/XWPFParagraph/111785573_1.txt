@@ -1,8 +1,0 @@
-    public XWPFWordExtractorDecorator(XWPFWordExtractor extractor) {
-}{{
-            XWPFParagraph paragraph = i.next();
-            if (paragraph.getCTP().getPPr() != null) {
-                ctSectPr = paragraph.getCTP().getPPr().getSectPr();
-}
-            CTBookmark[] bookmarks = paragraph.getCTP().getBookmarkStartArray();
-}

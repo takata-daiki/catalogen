@@ -1,4 +1,0 @@
-        for (XSLFShape shape : getShapes()) {
-          AffineTransform at = graphics.getTransform();
-            shape.applyTransform(graphics);
-          shape.draw(graphics);

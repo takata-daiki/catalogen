@@ -1,6 +1,5 @@
-    public void setAlternativeFormula(boolean b)
-{
+public void wrapperMethod() {
         WSBoolRecord record =
                 (WSBoolRecord) sheet.findFirstRecordBySid(WSBoolRecord.sid);
-        record.setAlternateFormula(b);
+        record.setRowSumsRight(b);
 }

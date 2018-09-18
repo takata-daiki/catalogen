@@ -1,13 +1,4 @@
-  public static CellRangeAddress intersectRectangular(CellRangeAddress crA, CellRangeAddress crB){
-    boolean isIntersect =  !( crB.getFirstColumn() > crA.getLastColumn()
-                || crB.getLastColumn() < crA.getFirstColumn()
-                || crB.getFirstRow() > crA.getLastRow()
-                || crB.getLastRow() < crA.getFirstRow()
-                );     
-{
-      return 
-        new CellRangeAddress(Math.max(crA.getFirstRow(), crB.getFirstRow()), 
-                   Math.min(crA.getLastRow(), crB.getLastRow()),
-                   Math.max(crA.getFirstColumn(), crB.getFirstColumn()), 
-                   Math.min(crA.getLastColumn(), crB.getLastColumn()));
+public void wrapperMethod() {
+        CellRangeAddress cra = list.getCellRangeAddress(jj);
+        for(int row = cra.getFirstRow(); row <= cra.getLastRow(); row++)
 }

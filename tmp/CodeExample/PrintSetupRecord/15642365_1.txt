@@ -1,5 +1,4 @@
-    protected Record createPrintSetup()
-{
+public void wrapperMethod() {
         PrintSetupRecord retval = new PrintSetupRecord();
         retval.setPaperSize(( short ) 1);
         retval.setScale(( short ) 100);

@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private void parse(DocumentSummaryInformation summary) {
         set(Metadata.COMPANY, summary.getCompany());
         set(Metadata.MANAGER, summary.getManager());
@@ -5,4 +6,4 @@
         set(Metadata.SLIDE_COUNT, summary.getSlideCount());
         if (summary.getSlideCount() > 0) {
             metadata.set(PagedText.N_PAGES, summary.getSlideCount());
-}
+}}}

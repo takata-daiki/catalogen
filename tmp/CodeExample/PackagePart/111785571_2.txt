@@ -1,4 +1,12 @@
-    public MetadataExtractor getMetadataExtractor() {
-}{{{{{
-                    PackagePart relPart = rel.getPackage().getPart(relName);
-}}}}
+    protected void handleEmbedded(PackageRelationship rel, PackagePart part, 
+            ContentHandler handler, ParseContext context)
+            throws SAXException, XmlException, IOException, TikaException {
+       String name = rel.getTargetURI().toString();
+
+       String type = part.getContentType();
+       parser.parse(
+               TikaInputStream.get(part.getInputStream()), 
+               new EmbeddedContentHandler(handler),
+               metadata, context
+       );
+}

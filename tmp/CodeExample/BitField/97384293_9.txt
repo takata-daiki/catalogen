@@ -1,6 +1,0 @@
-    /**/private static final BitField fHasListBox = new BitField(0x8000);
-{
-        field_2_bits = (short)fHasListBox.setBoolean(field_2_bits, value);
-}{
-        return fHasListBox.isSet(field_2_bits);
-}

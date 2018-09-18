@@ -1,5 +1,8 @@
-  public StyleSheet(byte[] tableStream, int offset)
-{{{
-              StyleDescription aStyle = new StyleDescription(tableStream,
-                      _stshif.getCbSTDBaseInFile(), offset, true);
-}}}
+public void wrapperMethod() {
+      StyleDescription sd = _styleDescriptions[istd];
+      CharacterProperties chp = sd.getCHP();
+      byte[] chpx = sd.getCHPX();
+      int baseIndex = sd.getBaseStyle();
+{
+          sd.setCHP(chp);
+}}

@@ -1,5 +1,4 @@
-    public boolean equals(final Object o)
-{
+public void wrapperMethod() {
         final ClassID cid = (ClassID) o;
         if (bytes.length != cid.bytes.length)
             return false;

@@ -1,7 +1,7 @@
-        for(int k = 0; k < getNumBreaks(); k++)
+public void wrapperMethod() {
+        Break region = (Break)BreakMap.get(key);
 {
-            Break region = (Break)iterator.next();
-            retval.append("     .").append(mainLabel).append(" (zero-based) =").append(region.main).append("\n");
-            retval.append("     .").append(subLabel).append("From    =").append(region.subFrom).append("\n");
-            retval.append("     .").append(subLabel).append("To      =").append(region.subTo).append("\n");
-}
+            region.main = main;
+            region.subFrom = subFrom;
+            region.subTo = subTo;
+}}

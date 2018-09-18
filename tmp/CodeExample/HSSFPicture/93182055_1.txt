@@ -1,6 +1,4 @@
-  public static Map<String, PictureData> getSheetPictrues03(HSSFSheet sheet, 
-        HSSFWorkbook workbook) {  
-{{{
+public void wrapperMethod() {
                     HSSFPicture pic = (HSSFPicture) shape;  
                     int pictureIndex = pic.getPictureIndex() - 1;  
-}}}}
+}

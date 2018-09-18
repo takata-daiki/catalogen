@@ -6,3 +6,4 @@
         PackagePartName ppName = layout.getPackagePart().getPartName();
         slide.getPackagePart().addRelationship(ppName, TargetMode.INTERNAL,
                 layout.getPackageRelationship().getRelationshipType());
+}

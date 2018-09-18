@@ -1,6 +1,0 @@
-    public int getSize()
-{{{
-                RowRecord row = (RowRecord)itr.next();
-                if (cells != null && cells.rowHasCells(row.getRowNumber()))
-                    retval += 2;
-}}}

@@ -1,5 +1,4 @@
-    public int serialize( int offset, byte[] data, EscherSerializationListener listener )
-{{
+public void wrapperMethod() {
             EscherRecord r = iterator.next();
-            remainingBytes += r.getRecordSize();
-}}
+            childRecordsSize += r.getRecordSize();
+}

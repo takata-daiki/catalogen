@@ -1,7 +1,0 @@
-    public Cell addComment(String strAuthor,String strCommecnt)
-{{
-            HSSFPatriarch hssfp = m_sheet.getHSSFPatriarch();
-            comment = hssfp.createComment(new HSSFClientAnchor(0,0,0,0,
-                (short) (this.getColumnIndex() + 1),this.getRowIndex(),
-                (short) (this.getColumnIndex() + 5),this.getRowIndex() + 5));
-}}

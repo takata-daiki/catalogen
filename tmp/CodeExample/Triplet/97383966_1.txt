@@ -1,6 +1,4 @@
-    protected void outputCharacters( Element pElement,
-            CharacterRun characterRun, String text )
-{
+public void wrapperMethod() {
         Triplet triplet = getCharacterRunTriplet( characterRun );
         if ( WordToHtmlUtils.isNotEmpty( triplet.fontName )
                 && !WordToHtmlUtils.equals( triplet.fontName,

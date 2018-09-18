@@ -1,6 +1,0 @@
-    private PlexOfCps readPLCF( byte[] tableStream, FileInformationBlock fib,
-            FieldsDocumentPart documentPart )
-    {
-        int start = fib.getFieldsPlcfOffset( documentPart );
-        int length = fib.getFieldsPlcfLength( documentPart );
-}

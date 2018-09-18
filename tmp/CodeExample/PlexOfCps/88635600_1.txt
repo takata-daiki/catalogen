@@ -1,10 +1,11 @@
-    private static ArrayList<PlexOfField> toArrayList( PlexOfCps plexOfCps )
+public void wrapperMethod() {
+    private int savePlex( FileInformationBlock fib, FieldsDocumentPart part,
+            PlexOfCps plexOfCps, HWPFOutputStream outputStream )
+            throws IOException
     {
-        if ( plexOfCps == null )
-            return new ArrayList<PlexOfField>();
-        ArrayList<PlexOfField> fields = new ArrayList<PlexOfField>(
-                plexOfCps.length() );
-        for ( int i = 0; i < plexOfCps.length(); i++ )
-{
-            GenericPropertyNode propNode = plexOfCps.getProperty( i );
+        if ( plexOfCps == null || plexOfCps.length() == 0 )
+        {
+            fib.setFieldsPlcfOffset( part, outputStream.getOffset() );
+}
+        byte[] data = plexOfCps.toByteArray();
 }}

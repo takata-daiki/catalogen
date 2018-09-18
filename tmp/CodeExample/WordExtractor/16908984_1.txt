@@ -1,5 +1,4 @@
-  private String extractTextToIndex(DigitalAssetVO digitalAssetVO, File file)
-{{{
+public void wrapperMethod() {
         WordExtractor we = new WordExtractor(doc);
         text = we.getText();
-}}}
+}

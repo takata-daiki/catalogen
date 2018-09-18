@@ -1,6 +1,0 @@
-    for (PackageRelationship rel : relationships) {
-      if (rel.getRelationshipType().equals(partRel.getRelationshipType())) {
-        try {
-          retPart = getPart(PackagingURIHelper.createPartName(rel
-              .getTargetURI()));
-}}

@@ -1,4 +1,6 @@
-  private HSSFFont m_fontHeader = null;
-{{{
-        m_fontHeader.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);
-}}}
+public void wrapperMethod() {
+    HSSFFont font = null;
+{
+      font.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);
+      font.setItalic(true);
+}}

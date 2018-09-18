@@ -1,6 +1,4 @@
-  protected HSSFCell createNumberCell(final short x,
-      final double euroAndCents, final HSSFRow row,
-      final HSSFCellStyle cellStyle) {
+public void wrapperMethod() {
     final HSSFCell cell = row.createCell(x);
     cell.setCellValue(euroAndCents);
     cell.setCellStyle(cellStyle);

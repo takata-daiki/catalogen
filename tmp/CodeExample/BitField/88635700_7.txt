@@ -1,6 +1,7 @@
-    /**/private static BitField rncFtn = new BitField(0x0003);
+public void wrapperMethod() {
+    /**/private static BitField fLabelDoc = new BitField(0x04);
 {
-        field_3_footnoteInfo = (short)rncFtn.setValue(field_3_footnoteInfo, value);
+        field_5_docinfo = (byte)fLabelDoc.setBoolean(field_5_docinfo, value);
 }{
-        return ( byte )rncFtn.getValue(field_3_footnoteInfo);
-}
+        return fLabelDoc.isSet(field_5_docinfo);
+}}

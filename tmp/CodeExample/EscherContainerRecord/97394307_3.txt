@@ -1,4 +1,0 @@
-    protected EscherBSERecord getEscherBSERecord(){
-        EscherContainerRecord bstore = (EscherContainerRecord)Shape.getEscherChild(dggContainer, EscherContainerRecord.BSTORE_CONTAINER);
-
-        List lst = bstore.getChildRecords();

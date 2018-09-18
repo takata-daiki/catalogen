@@ -1,7 +1,5 @@
-  protected String getStringFromPtgTokens(Ptg[] tokens,
-      HSSFWorkbook hssfWorkbook) {
-{{
+public void wrapperMethod() {
         HSSFEvaluationWorkbook wb = HSSFEvaluationWorkbook
             .create(hssfWorkbook);
         sb.append(wb.getNameText(namePtg));
-}}}
+}

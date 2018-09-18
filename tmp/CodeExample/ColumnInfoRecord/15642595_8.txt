@@ -1,11 +1,34 @@
-    public ColumnInfoRecord writeHidden( ColumnInfoRecord columnInfo, int idx, boolean hidden )
-    {
-        int level = columnInfo.getOutlineLevel();
+public void wrapperMethod() {
+        ColumnInfoRecord ci = null;
 {
-            columnInfo.setHidden( hidden );
+            if ((ci.getFirstColumn() <= column)
+                    && (column <= ci.getLastColumn()))
+            {
+                break;
+}}{
+      boolean styleChanged = xfIndex != null && ci.getXFIndex() != xfIndex.shortValue();
+            boolean widthChanged = width != null && ci.getColumnWidth() != width.shortValue();
+            boolean levelChanged = level != null && ci.getOutlineLevel() != level.intValue();
+            boolean hiddenChanged = hidden != null && ci.getHidden() != hidden.booleanValue();
+            boolean collapsedChanged = collapsed != null && ci.getCollapsed() != collapsed.booleanValue();
+
+            else if ((ci.getFirstColumn() == column)
+                     && (ci.getLastColumn() == column))
+            {                               // if its only for this cell then
+                setColumnInfoFields( ci, xfIndex, width, level, hidden, collapsed );
+}
+                     || (ci.getLastColumn() == column))
 {
-                if (columnInfo.getLastColumn() + 1 == nextColumnInfo.getFirstColumn())
+                if (ci.getFirstColumn() == column)
                 {
-                    if (nextColumnInfo.getOutlineLevel() < level)
-                        break;
-}}}}
+                    ci.setFirstColumn(( short ) (column + 1));
+}{
+                    ci.setLastColumn(( short ) (column - 1));
+}
+                nci.setOptions(ci.getOptions());
+                nci.setXFIndex(ci.getXFIndex());
+}{
+                short lastcolumn = ci.getLastColumn();
+                ci.setLastColumn(( short ) (column - 1));
+                nci.setColumnWidth(ci.getColumnWidth());
+}}}

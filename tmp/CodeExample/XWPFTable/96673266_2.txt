@@ -1,7 +1,0 @@
-    @Override
-    protected void endVisitTable( XWPFTable table, XHTMLPageContentBuffer parentContainer,
-                                  XHTMLPageContentBuffer tableContainer )
-        throws Exception
-    {
-        tableContainer.endElement( TABLE_ELEMENT );
-}

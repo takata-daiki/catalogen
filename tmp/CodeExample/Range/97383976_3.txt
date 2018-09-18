@@ -1,10 +1,6 @@
-    protected boolean processCharacters( final HWPFDocumentCore wordDocument,
-            final int currentTableLevel, final Range range, final Element block )
-{{{
-                Range subrange = new Range( previous, structure.start, range )
-                {
-                    @Override
-                    public String toString()
-                    {
-                        return "BetweenStructuresSubrange " + super.toString();
-}}}}}
+public void wrapperMethod() {
+        final Range docRange = wordDocument.getRange();
+        if ( docRange.numSections() == 1 )
+        {
+            processSingleSection( wordDocument, docRange.getSection( 0 ) );
+}}

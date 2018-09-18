@@ -1,5 +1,4 @@
-    private void convertGroup( HSSFShapeGroup shape, EscherContainerRecord escherParent, Map shapeToObj )
-{
+public void wrapperMethod() {
         CommonObjectDataSubRecord cmo = new CommonObjectDataSubRecord();
         cmo.setObjectType( CommonObjectDataSubRecord.OBJECT_TYPE_GROUP );
         cmo.setObjectId( (short) ( shapeId ) );

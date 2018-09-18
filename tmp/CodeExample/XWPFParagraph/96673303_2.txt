@@ -1,7 +1,8 @@
-    @Override
-    protected void endVisitPargraph( XWPFParagraph paragraph, IITextContainer parentContainer,
-                                     IITextContainer paragraphContainer )
-        throws Exception
+    protected XWPFStyle getXWPFStyle( XWPFParagraph paragraph )
     {
-        CTPPr ppr = paragraph.getCTP().getPPr();
+        if ( paragraph == null )
+        {
+            return null;
+}
+        return getXWPFStyle( paragraph.getStyleID() );
 }

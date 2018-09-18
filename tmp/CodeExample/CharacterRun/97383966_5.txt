@@ -1,8 +1,0 @@
-    protected void processParagraph( HWPFDocumentCore hwpfDocument,
-            Element parentElement, int currentTableLevel, Paragraph paragraph,
-            String bulletText )
-{{
-            final CharacterRun characterRun = paragraph.getCharacterRun( 0 );
-{
-                pFontSize = characterRun.getFontSize() / 2;
-}}}

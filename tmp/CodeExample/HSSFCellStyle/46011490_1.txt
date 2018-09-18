@@ -1,3 +1,4 @@
+public void wrapperMethod() {
   protected HSSFCellStyle csText;
 {
     csText.setDataFormat(HSSFDataFormat.getBuiltinFormat("text"));
@@ -5,4 +6,4 @@
     csText.setBorderLeft(HSSFCellStyle.BORDER_THIN);
     csText.setBorderRight(HSSFCellStyle.BORDER_THIN);
     csText.setBorderTop(HSSFCellStyle.BORDER_THIN);
-}
+}}

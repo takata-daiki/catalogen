@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private static String getSectionStyle( Section section )
     {
         float leftMargin = section.getMarginLeft() / TWIPS_PER_INCH;
@@ -11,4 +12,4 @@
             {
                 float distance = section.getDistanceBetweenColumns()
                         / TWIPS_PER_INCH;
-}}}
+}}}}

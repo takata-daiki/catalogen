@@ -1,6 +1,4 @@
-  public static void shiftRows(Workbook workbook, Sheet worksheet, FormulaParsingWorkbook parsingWorkbook,
-                 FormulaRenderingWorkbook renderingWorkbook, int rowNum) {
-{{{{{{{
+public void wrapperMethod() {
                     AreaPtgBase areaPtgBase = (AreaPtgBase) ptg;
                     if (areaPtgBase.isFirstRowRelative() && areaPtgBase.getFirstRow() > oldCell.getRowIndex()) {
                       areaPtgBase.setFirstRow(
@@ -17,4 +15,4 @@
                     if (areaPtgBase.isLastColRelative()) {
                       areaPtgBase.setLastColumn(
                         (short) (newCell.getColumnIndex() - (oldCell.getColumnIndex() - areaPtgBase.getLastColumn())));
-}}}}}}}}}
+}}

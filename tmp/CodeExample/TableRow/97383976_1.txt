@@ -1,7 +1,4 @@
-    protected int getNumberRowsSpanned( Table table,
-            final int[] tableCellEdges, int currentRowIndex,
-            int currentColumnIndex, TableCell tableCell )
-{{
+public void wrapperMethod() {
             TableRow nextRow = table.getRow( r1 );
             if ( currentColumnIndex >= nextRow.numCells() )
                 break;
@@ -10,4 +7,4 @@
                 TableCell nextTableCell = nextRow.getCell( c );
 }
             TableCell nextCell = nextRow.getCell( currentColumnIndex );
-}}
+}

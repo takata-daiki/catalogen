@@ -1,5 +1,4 @@
-    private boolean isAddNewLine( XWPFParagraph paragraph, int index )
-{{{
+public void wrapperMethod() {
                 XWPFHyperlink hyperlink = document.getHyperlinkByID( hyperlinkId );
                 href = hyperlink.getURL();
-}}}
+}

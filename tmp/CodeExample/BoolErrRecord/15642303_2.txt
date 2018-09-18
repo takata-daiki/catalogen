@@ -1,5 +1,4 @@
-    private void setCellType(int cellType, boolean setValue, int row,short col, short styleIndex)
-{{
+public void wrapperMethod() {
             case CELL_TYPE_BOOLEAN :
                 BoolErrRecord boolRec = null;
 
@@ -9,4 +8,4 @@
 }
                 boolRec.setXFIndex(styleIndex);
                 boolRec.setRow(row);
-}}
+}

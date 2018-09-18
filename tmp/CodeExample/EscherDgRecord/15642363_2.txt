@@ -1,5 +1,4 @@
-    public int allocateShapeId(short drawingGroupId)
-{
+public void wrapperMethod() {
         EscherDgRecord dg = (EscherDgRecord) dgMap.get(new Short(drawingGroupId));
         int lastShapeId = dg.getLastMSOSPID();
 {{

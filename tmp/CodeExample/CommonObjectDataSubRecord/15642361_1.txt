@@ -1,5 +1,4 @@
-    private ObjRecord createObjRecord(HSSFShape hssfShape, int shapeId)
-{
+public void wrapperMethod() {
         CommonObjectDataSubRecord c = new CommonObjectDataSubRecord();
         c.setObjectType((short) ((HSSFSimpleShape)shape).getShapeType());
         c.setObjectId((short) ( shapeId ));

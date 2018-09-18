@@ -1,5 +1,4 @@
-        public String toString()
-}
+public void wrapperMethod() {
     private static final POILogger logger = POILogFactory
             .getLogger( AbstractWordConverter.class );
 {{{
@@ -29,4 +28,4 @@
 }{
                     "Unable to convert internal OLE2 object '",
                     Integer.valueOf( characterRun.getPicOffset() ), "': ", exc,
-}
+}}}

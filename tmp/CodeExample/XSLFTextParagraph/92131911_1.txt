@@ -1,6 +1,4 @@
-    public XMLSlideShow generate(XMLSlideShow ppt, MarketingReportSettings reportSettings,
-                                 MarketingReportDataOneCity marketingReportDataOneCity,
-                                 Function<String, byte[]> pictureGetter) {
+public void wrapperMethod() {
         XSLFTextParagraph p1 = txt1.addNewTextParagraph();
         XSLFTextRun r1 = p1.addNewTextRun();
 }

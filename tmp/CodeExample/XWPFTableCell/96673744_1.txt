@@ -1,8 +1,0 @@
-    @Override
-    protected Object startVisitTableCell( XWPFTableCell cell, Object tableContainer, boolean firstRow, boolean lastRow,
-                                          boolean firstCell, boolean lastCell, List<XWPFTableCell> vMergeCells )
-        throws Exception
-    {
-        XWPFTableRow row = cell.getTableRow();
-        CTTcPr tcPr = cell.getCTTc().getTcPr();
-}

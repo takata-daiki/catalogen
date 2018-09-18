@@ -1,5 +1,4 @@
-    private void closeInputStream(InputStream stream, boolean success) {
-}{
+public void wrapperMethod() {
         BlockAllocationTableWriter bat        =
             new BlockAllocationTableWriter(bigBlockSize);
 {{
@@ -9,3 +8,4 @@
         BATBlock[]        xbat_blocks         =
             header_block_writer.setBATBlocks(bat.countBlocks(),
                                              batStartBlock);
+}

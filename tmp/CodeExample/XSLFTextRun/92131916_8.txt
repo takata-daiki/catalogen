@@ -1,7 +1,0 @@
-    private XMLSlideShow generateDetailShop(XMLSlideShow ppt, MarketingSlideInfo slide, Function<String, byte[]> pictureGetter, MarketingReportData mData) {
-        XSLFTextRun r1 = p1.addNewTextRun();
-        r1.setText(slide.getUnitRegionNetworkName() + ", " + slide.getUnitRegionName());
-        r1.setFontFamily("Verdana");
-        r1.setFontColor(new Color(255, 0, 102));
-        r1.setFontSize(24);
-        r1.setBold(true);

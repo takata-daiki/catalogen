@@ -1,3 +1,0 @@
-    protected Record createExtendedSST() {
-        ExtSSTRecord retval = new ExtSSTRecord();
-        retval.setNumStringsPerBucket(( short ) 0x8);

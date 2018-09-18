@@ -1,6 +1,6 @@
-  public int addHyperlink(Hyperlink link) {
-
+public void wrapperMethod() {
     ExHyperlink ctrl = new ExHyperlink();
     ExHyperlinkAtom obj = ctrl.getExHyperlinkAtom();
     ctrl.setLinkURL(link.getAddress());
     ctrl.setLinkTitle(link.getTitle());
+}

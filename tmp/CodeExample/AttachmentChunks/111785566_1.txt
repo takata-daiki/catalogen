@@ -1,8 +1,8 @@
+public void wrapperMethod() {
            for (AttachmentChunks attachment : msg.getAttachmentFiles()) {
                xhtml.startElement("div", "class", "attachment-entry");
                if (attachment.attachLongFileName != null) {
              filename = attachment.attachLongFileName.getValue();
-}
                } else if (attachment.attachFileName != null) {
              filename = attachment.attachFileName.getValue();
 }{
@@ -12,4 +12,4 @@
                            entrydata,
                            context
                    );
-}
+}}}

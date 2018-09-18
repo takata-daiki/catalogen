@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private SSTRecord sstrec;
 {{{{
                         logger.debug("file contains " + 
@@ -7,4 +8,4 @@
 }}}}}{
         final String value = 
             sstrec.getString(lrec.getSSTIndex()).getString();
-}
+}}

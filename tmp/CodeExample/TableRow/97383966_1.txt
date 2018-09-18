@@ -1,6 +1,4 @@
-    protected void processTable( HWPFDocumentCore hwpfDocument, Element flow,
-            Table table )
-{{
+public void wrapperMethod() {
             TableRow tableRow = table.getRow( r );
             final int rowCells = tableRow.numCells();
 {
@@ -14,4 +12,4 @@
             if ( tableRow.isTableHeader() )
             {
                 tableHeader.appendChild( tableRowElement );
-}}}
+}}

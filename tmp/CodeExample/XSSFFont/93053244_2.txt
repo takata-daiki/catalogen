@@ -1,3 +1,4 @@
-  private XSSFCellStyle getInstructionCellStyle(XSSFWorkbook wb){
+public void wrapperMethod() {
       XSSFFont font = wb.createFont();
       font.setBoldweight(XSSFFont.BOLDWEIGHT_BOLD);
+}

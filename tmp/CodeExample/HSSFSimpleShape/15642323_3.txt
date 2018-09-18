@@ -1,5 +1,4 @@
-    public void fillOval(int x, int y, int width, int height)
-{
+public void wrapperMethod() {
         HSSFSimpleShape shape = escherGroup.createShape(new HSSFChildAnchor( x, y, x + width, y + height ) );
         shape.setShapeType(HSSFSimpleShape.OBJECT_TYPE_OVAL);
         shape.setLineStyle(HSSFShape.LINESTYLE_NONE);

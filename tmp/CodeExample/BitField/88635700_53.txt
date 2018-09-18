@@ -1,6 +1,7 @@
-    /**/private static BitField fShadeFormData = new BitField(0x1000);
+public void wrapperMethod() {
+    /**/private static BitField fGramAllDone = new BitField(0x0020);
 {
-        field_24_Edn1 = (short)fShadeFormData.setBoolean(field_24_Edn1, value);
+        field_37_docinfo5 = (short)fGramAllDone.setBoolean(field_37_docinfo5, value);
 }{
-        return fShadeFormData.isSet(field_24_Edn1);
-}
+        return fGramAllDone.isSet(field_37_docinfo5);
+}}

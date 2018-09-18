@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private FontRecord         font;
 {
         font.setFontName(name);
@@ -41,7 +42,7 @@
         font.setCharset(charset);
 }{
     result = prime * result + ((font == null) ? 0 : font.hashCode());
-}{{
+}{{{
       } else if (!font.equals(other.font))
         return false;
-}}
+}}}

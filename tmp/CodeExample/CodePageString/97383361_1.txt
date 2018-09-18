@@ -1,6 +1,5 @@
-    public boolean isSupportedType(final int variantType)
-{{{
+public void wrapperMethod() {
             CodePageString string = (CodePageString) typedPropertyValue
                     .getValue();
             return string.getJavaValue( codepage );
-}}}
+}

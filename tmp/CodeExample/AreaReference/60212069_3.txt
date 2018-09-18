@@ -1,6 +1,0 @@
-  public static void fill(HSSFSheet sh, AreaReference areaRef, Object valueFill, byte lookIn){
-    if (lookIn == xlFormulas && ! (valueFill instanceof String)) return;
-    for(CellReference cellRef:areaRef.getAllReferencedCells()){
-      if (lookIn == xlValues){
-        setCellValue(getCell(sh, cellRef.getRow(), cellRef.getCol()), valueFill);
-}}

@@ -1,5 +1,6 @@
-  protected int createHeaderRow(XSSFSheet dataSheet) {
+public void wrapperMethod() {
     XSSFCellStyle style = dataSheet.getWorkbook().createCellStyle();
     style.setFont(font);
       style.setFillForegroundColor(IndexedColors.ORANGE.getIndex());
       style.setFillPattern(CellStyle.SOLID_FOREGROUND);
+}

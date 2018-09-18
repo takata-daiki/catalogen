@@ -1,3 +1,5 @@
+public void wrapperMethod() {
         CharacterRun run2 = par2.insertAfter("two two two two two two two two two two two two two");
         run2.setBold(true);
         Paragraph par3 = run2.insertAfter(new ParagraphProperties(), 0);
+}

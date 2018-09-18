@@ -1,6 +1,0 @@
-    public XMLSlideShow generate(XMLSlideShow ppt, MarketingReportSettings reportSettings,
-                                 MarketingReportDataOneCity marketingReportDataOneCity, Function<String, byte[]> pictureGetter) {
-}{
-        XSLFPictureShape pic = slide.createPicture(idx);
-        pic.setAnchor(new Rectangle(30, 80, 210, 340));
-}

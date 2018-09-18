@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private StringRecord stringRecord;
 {{
             pos += stringRecord.serialize(pos, data);
@@ -7,4 +8,4 @@
       StringRecord clonedString = (stringRecord == null) ? null : (StringRecord)stringRecord.clone();
 }{
         return stringRecord.getString();
-}
+}}

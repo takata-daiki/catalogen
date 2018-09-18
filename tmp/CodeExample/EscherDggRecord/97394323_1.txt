@@ -1,5 +1,4 @@
-    public int allocateShapeId()
-{
+public void wrapperMethod() {
         EscherDggRecord dgg = _slideShow.getDocumentRecord().getPPDrawingGroup().getEscherDggRecord();
         dgg.setNumShapesSaved( dgg.getNumShapesSaved() + 1 );
         for (int i = 0; i < dgg.getFileIdClusters().length; i++)

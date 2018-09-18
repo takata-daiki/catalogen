@@ -1,3 +1,4 @@
-    public Rectangle2D getAnchor2D(){
+public void wrapperMethod() {
         EscherSpRecord spRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);
-        int flags = spRecord.getFlags();
+        if(spRecord != null) spRecord.setShapeId(id);
+}

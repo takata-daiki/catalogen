@@ -1,9 +1,8 @@
-  public Word6Extractor()
-{{
+public void wrapperMethod() {
       CHPX chpx = (CHPX)runsIt.next();
       int runStart = chpx.getStart() + fcMin;
       int runEnd = chpx.getEnd() + fcMin;
       if (!isDeleted(chpx.getGrpprl()))
       {
         String s = new String(mainStream, runStart, Math.min(runEnd, fcMax) - runStart, "Cp1252");
-}}}
+}}

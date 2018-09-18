@@ -1,12 +1,10 @@
-    private BitField          optGoto      = BitFieldFactory.getInstance(0x08);
+public void wrapperMethod() {
+    private BitField          sum          = BitFieldFactory.getInstance(0x10);
 {
-        return optGoto.isSet(getOptions());
+        return sum.isSet(getOptions());
 }{
-    field_1_options=optGoto.setByteBoolean(field_1_options, isGoto);
+        field_1_options=sum.setByteBoolean(field_1_options,bsum);
 }{
-        } else if (optGoto.isSet(field_1_options)) {
-            return toFormulaString((Workbook)null) + operands[0];   //goto isn't a real formula element should not show up
-}}{
-      if(optGoto.isSet(field_1_options)) {
-        return "";
-}}
+      if(sum.isSet(field_1_options)) {
+        return "SUM";
+}}}

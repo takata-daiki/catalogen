@@ -1,5 +1,7 @@
+public void wrapperMethod() {
       XSSFPrintSetup printSetup = sheet0.getPrintSetup();
       assertEquals( XSSFPrintSetup.A4_PAPERSIZE,  printSetup.getPaperSize() );
       assertEquals( false, printSetup.getLandscape() );
       assertEquals( 0.7 / 2.54, printSetup.getHeaderMargin(), 0.01 );
       assertEquals( 0.7 / 2.54, printSetup.getFooterMargin(), 0.01 );
+}

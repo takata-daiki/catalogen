@@ -1,7 +1,8 @@
+public void wrapperMethod() {
     @Override
     protected void visitPicture( XWPFPicture picture, IITextContainer parentContainer )
         throws Exception
     {
         CTPositiveSize2D ext = picture.getCTPicture().getSpPr().getXfrm().getExt();
         CTPicture ctPic = picture.getCTPicture();
-}
+}}

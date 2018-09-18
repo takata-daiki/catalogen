@@ -1,5 +1,8 @@
-    public static void processLayout( XWPFParagraph paragraph, Paragraph pdfParagraph, XWPFStyle style,
-                                      CTDocDefaults defaults )
+    public static CTPPr getPPr( XWPFStyle style )
     {
-        float indentationLeft = -1;
+        if ( style == null )
+        {
+            return null;
+}
+        CTStyle ctStyle = style.getCTStyle();
 }

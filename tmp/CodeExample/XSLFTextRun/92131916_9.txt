@@ -1,7 +1,0 @@
-    private XMLSlideShow generateDetailShop(XMLSlideShow ppt, MarketingSlideInfo slide, Function<String, byte[]> pictureGetter, MarketingReportData mData) {
-        XSLFTextRun r2 = p2.addNewTextRun();
-        r2.setText(generateDatesOnDetailShop(slide, mData));
-        r2.setFontFamily("Verdana");
-        r2.setFontColor(new Color(255, 0, 102));
-        r2.setFontSize(20);
-        r2.setBold(true);

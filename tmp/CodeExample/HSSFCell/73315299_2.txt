@@ -1,10 +1,8 @@
-  public static <T> void exportExcel(String title, String[] headers, String[] cols, Collection<T> dataset,
-      OutputStream out, String pattern, String[] sumcols) {
-{{{
+public void wrapperMethod() {
           HSSFCell cell = row.createCell(j);
           cell.setCellStyle(style2);
 {{{
                 cell.setCellValue(Double.parseDouble(textValue));
 }{
                 cell.setCellValue(textValue);
-}}}}}}}
+}}}}

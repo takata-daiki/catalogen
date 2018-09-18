@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     @Internal
     static Paragraph newParagraph( Range parent, PAPX papx )
     {
@@ -8,4 +9,4 @@
 {{{
                     properties = ParagraphSprmUncompressor.uncompressPAP(
                             properties, papx.getGrpprl(), 2 );
-}}}}
+}}}}}

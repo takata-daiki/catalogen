@@ -1,3 +1,4 @@
-    public void setFollowMasterObjects(boolean flag){
+public void wrapperMethod() {
         SlideAtom sa = getSlideRecord().getSlideAtom();
-        sa.setFollowMasterObjects(flag);
+        return sa.getFollowMasterObjects();
+}

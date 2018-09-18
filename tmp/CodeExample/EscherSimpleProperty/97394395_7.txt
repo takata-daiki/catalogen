@@ -1,3 +1,0 @@
-    public int getTextId(){
-        EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.TEXT__TEXTID);
-        return prop == null ? 0 : prop.getPropertyValue();

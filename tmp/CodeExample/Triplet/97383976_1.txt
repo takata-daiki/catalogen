@@ -1,5 +1,4 @@
-    protected Triplet getCharacterRunTriplet( CharacterRun characterRun )
-{
+public void wrapperMethod() {
         Triplet original = new Triplet();
         original.bold = characterRun.isBold();
         original.italic = characterRun.isItalic();

@@ -1,8 +1,0 @@
-    static final private BitField alternateformula    =   // whether to use alternate formula entry
-        BitFieldFactory.getInstance(0x80);
-{
-        field_2_wsbool = alternateformula.setByteBoolean(field_2_wsbool,
-                formula);
-}{
-        return alternateformula.isSet(field_2_wsbool);
-}

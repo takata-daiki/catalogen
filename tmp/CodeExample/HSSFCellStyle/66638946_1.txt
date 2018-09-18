@@ -1,11 +1,7 @@
-  public HSSFWorkbook generate(LinkedList<ReportTO> data,
-      String generalTitle[], String clientName, String clientNIT,
-      String periodName, String currencyName, MReportColumn[] m_columns, 
-      String city, Integer logoId) {
-{
-      HSSFCellStyle cellStyle = book.createCellStyle();
-      cellStyle.setWrapText(true);
-      cellStyle.setAlignment(HSSFCellStyle.ALIGN_CENTER);
-      cellStyle.setVerticalAlignment(HSSFCellStyle.VERTICAL_TOP);
-      cellStyle.setFont(font);
-}}
+public void wrapperMethod() {
+    HSSFCellStyle cellStyle = book.createCellStyle();
+    cellStyle.setWrapText(true);
+    cellStyle.setAlignment(HSSFCellStyle.ALIGN_JUSTIFY);
+    cellStyle.setVerticalAlignment(HSSFCellStyle.VERTICAL_TOP);
+    cellStyle.setFont(font);
+}

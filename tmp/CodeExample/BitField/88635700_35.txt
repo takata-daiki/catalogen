@@ -1,6 +1,7 @@
-    /**/private static BitField oldfSuppressSpbfAfterPageBreak = new BitField(0x0004);
+public void wrapperMethod() {
+    /**/private static BitField nfcFtnRef1 = new BitField(0x003c);
 {
-        field_8_docinfo3 = (short)oldfSuppressSpbfAfterPageBreak.setBoolean(field_8_docinfo3, value);
+        field_24_Edn1 = (short)nfcFtnRef1.setValue(field_24_Edn1, value);
 }{
-        return oldfSuppressSpbfAfterPageBreak.isSet(field_8_docinfo3);
-}
+        return ( byte )nfcFtnRef1.getValue(field_24_Edn1);
+}}

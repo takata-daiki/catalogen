@@ -1,7 +1,0 @@
-    static final private BitField collapsed = BitFieldFactory.getInstance(0x1000);
-{
-        field_5_options = collapsed.setShortBoolean(field_5_options,
-                                                    iscollapsed);
-}{
-        return collapsed.isSet(field_5_options);
-}

@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private final XSLFTextParagraph _p;
 {
         final XSLFTheme theme = _p.getParentShape().getSheet().getTheme();
@@ -49,4 +50,4 @@
                     CTTextParagraphProperties themeProps = ppt.getDefaultParagraphStyle(_p.getLevel());
 }{
                     CTTextParagraphProperties defaultProps =  _p.getDefaultMasterStyle();
-}}}}
+}}}}}

@@ -1,7 +1,0 @@
-    protected void processField( HWPFDocument wordDocument, Range parentRange,
-            int currentTableLevel, Field field, Element currentBlock )
-{{{
-            final Range firstSubrange = field.firstSubrange( parentRange );
-{
-                String formula = firstSubrange.text();
-}}}}

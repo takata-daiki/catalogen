@@ -1,7 +1,0 @@
-  private static void createStringCell(Row row, int index, String text,
-      CellStyle style, ExcelExportEntity entity) {
-}{
-    HSSFClientAnchor anchor = new HSSFClientAnchor(
-              0,0,0,0, (short) i, row.getRowNum(),
-              (short) (i+1),row.getRowNum()+1);
-}

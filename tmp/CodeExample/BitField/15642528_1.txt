@@ -1,6 +1,7 @@
+public void wrapperMethod() {
     private BitField          displayFormulas         = BitFieldFactory.getInstance(0x01);
 {
         field_1_options = displayFormulas.setShortBoolean(field_1_options, formulas);
 }{
         return displayFormulas.isSet(field_1_options);
-}
+}}

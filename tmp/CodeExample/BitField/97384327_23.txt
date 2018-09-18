@@ -1,6 +1,7 @@
-    /**/private static final BitField fItalicBi = new BitField(0x00200000);
+public void wrapperMethod() {
+    /**/private static final BitField fFmtLineProp = new BitField(0x80000000);
 {
-        field_1_grpfChp = fItalicBi.setBoolean(field_1_grpfChp, value);
+        field_1_grpfChp = fFmtLineProp.setBoolean(field_1_grpfChp, value);
 }{
-        return fItalicBi.isSet(field_1_grpfChp);
-}
+        return fFmtLineProp.isSet(field_1_grpfChp);
+}}

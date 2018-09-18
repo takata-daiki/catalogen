@@ -1,6 +1,0 @@
-    @Override
-    protected void endVisitTable( XWPFTable table, IITextContainer pdfParentContainer, IITextContainer pdfTableContainer )
-        throws Exception
-    {
-        pdfParentContainer.addElement( ( (ExtendedPdfPTable) pdfTableContainer ).getElement() );
-}

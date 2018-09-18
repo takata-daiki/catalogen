@@ -1,6 +1,0 @@
-    public boolean equals(final Object o)
-{{{
-                DocumentDescriptor descriptor = ( DocumentDescriptor ) o;
-                rval = this.path.equals(descriptor.path)
-                       && this.name.equals(descriptor.name);
-}}}

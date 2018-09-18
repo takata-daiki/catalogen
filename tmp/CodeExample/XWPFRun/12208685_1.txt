@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     @Override
     protected void visitRun( XWPFRun run, IITextContainer pdfContainer )
         throws Exception
@@ -9,4 +10,4 @@
         UnderlinePatterns underlinePatterns = run.getUnderline();
 
         List<CTText> texts = run.getCTR().getTList();
-}
+}}

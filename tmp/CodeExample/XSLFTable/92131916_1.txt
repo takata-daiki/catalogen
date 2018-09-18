@@ -1,5 +1,4 @@
-    private XMLSlideShow generatePreview(XMLSlideShow ppt, List<PreviewReportingDocument> previewData, String cityName,
-                                         int repDocsStartNum) {
+public void wrapperMethod() {
         XSLFTable table = slide.createTable();
         table.setAnchor(new Rectangle(30, 120, 100, 100));
         XSLFTableRow headerRow = table.addRow();

@@ -1,5 +1,4 @@
-    private XMLSlideShow generateDetailShop(XMLSlideShow ppt, MarketingSlideInfo slide, Function<String, byte[]> pictureGetter, MarketingReportData mData) {
-{
+public void wrapperMethod() {
             XSLFPictureShape pic = pptSlide.createPicture(idx);
             double realWidth = pic.getAnchor().getWidth();
             double realHeight = pic.getAnchor().getHeight();

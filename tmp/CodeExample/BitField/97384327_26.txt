@@ -1,6 +1,7 @@
-    /**/private static final BitField fNonGlyph = new BitField(0x01000000);
+public void wrapperMethod() {
+    /**/private static final BitField fLSFitText = new BitField(0x1000);
 {
-        field_1_grpfChp = fNonGlyph.setBoolean(field_1_grpfChp, value);
+        field_29_ufel = (short)fLSFitText.setBoolean(field_29_ufel, value);
 }{
-        return fNonGlyph.isSet(field_1_grpfChp);
-}
+        return fLSFitText.isSet(field_29_ufel);
+}}

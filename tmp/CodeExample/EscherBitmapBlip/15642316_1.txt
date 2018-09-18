@@ -1,5 +1,4 @@
-    public int addPicture(byte[] pictureData, int format)
-{
+public void wrapperMethod() {
         EscherBitmapBlip blipRecord = new EscherBitmapBlip();
         blipRecord.setRecordId( (short) ( EscherBitmapBlip.RECORD_ID_START + format ) );
 {

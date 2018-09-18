@@ -1,9 +1,0 @@
-  public void processPOIFSReaderEvent(final POIFSReaderEvent event) {
-    if (event == null || event.getName() == null
-        || !event.getName().startsWith(PPTConstants.POWERPOINT_DOCUMENT)) {
-      if (LOG.isWarnEnabled()) {
-        LOG.warn("Stream not processed. It is not a PowerPoint document: : "
-                 + event.getName());
-}}{
-      final DocumentInputStream dis = event.getStream();
-}

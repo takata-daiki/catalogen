@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     public static final POILogger logger = POILogFactory
             .getLogger( FileInformationBlock.class );
 {
@@ -7,4 +8,4 @@
 }{
                 " value of FIB.cswNew MUST be ",
                 strExpectedCswNew + ", not 0x", Integer.toHexString( cswNew ) );
-}
+}}

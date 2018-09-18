@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     protected RowRecordsAggregate        rows              =     null;
 {{{
                 retval.rows.insertRow(row);
@@ -6,7 +7,6 @@
                 rows.getPhysicalNumberOfRows(),
                 records.size() + cells.getPhysicalNumberOfCells()
                 + rows.getPhysicalNumberOfRows() - 2
-}
             });
 }
         return records.size() + cells.getPhysicalNumberOfCells()
@@ -41,4 +41,4 @@
             rows.collapseRow( row );
 }{
             rows.expandRow( row );
-}}
+}}}

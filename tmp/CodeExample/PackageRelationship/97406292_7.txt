@@ -1,6 +1,0 @@
-  public PackageRelationship addExternalRelationship(String target,
-      String relationshipType, String id) {
-
-    PackageRelationship retRel = relationships.addRelationship(targetURI,
-        TargetMode.EXTERNAL, relationshipType, id);
-}

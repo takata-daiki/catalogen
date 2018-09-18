@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     public void parseFormulaRecord(FormulaRecord record)
     {
         System.out.println("==============================");
@@ -8,4 +9,4 @@
         System.out.print(", number of ptgs = "
                            + record.getNumberOfExpressionTokens());
         System.out.println(", options = " + record.getOptions());
-}
+}}

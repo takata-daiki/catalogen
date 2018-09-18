@@ -1,6 +1,5 @@
-    public void visit(SetCellValue setCellValue) {
-
+public void wrapperMethod() {
         XSSFCell xssfCell = xssfRow.getCell(setCellValue.getCol());
 {{
                 xssfCell.setCellValue(new XSSFRichTextString(setCellValue.getNewValue().toString()));
-}}
+}}}

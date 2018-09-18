@@ -1,6 +1,7 @@
+public void wrapperMethod() {
     private final XSLFSheet _sheet;
 {{
             CTStyleMatrix styleMatrix = _sheet.getTheme().getXmlObject().getThemeElements().getFmtScheme();
 }}{{{{
                     CTStyleMatrix styleMatrix = _sheet.getTheme().getXmlObject().getThemeElements().getFmtScheme();
-}}}}
+}}}}}

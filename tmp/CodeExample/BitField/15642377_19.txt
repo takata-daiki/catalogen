@@ -1,9 +1,9 @@
-    static final private BitField _indent_not_parent_pattern      =
-        BitFieldFactory.getInstance(0x4000);
+public void wrapperMethod() {
+    static final private BitField _diag                     =
+        BitFieldFactory.getInstance(0xC000);
 {
-        field_5_indention_options =
-            _indent_not_parent_pattern
-                .setShortBoolean(field_5_indention_options, pattern);
+        field_7_palette_options = _diag.setShortValue(field_7_palette_options,
+                diag);
 }{
-        return _indent_not_parent_pattern.isSet(field_5_indention_options);
-}
+        return _diag.getShortValue(field_7_palette_options);
+}}

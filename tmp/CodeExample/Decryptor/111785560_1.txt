@@ -1,5 +1,4 @@
-    public Set<MediaType> getSupportedTypes(ParseContext context) {
-}{{{
+public void wrapperMethod() {
                     Decryptor d = new Decryptor(info);
 {
                         if (!d.verifyPassword(Decryptor.DEFAULT_PASSWORD)) {
@@ -8,4 +7,4 @@
                         parser.parse(d.getDataStream(filesystem), new EmbeddedContentHandler(
                                         new BodyContentHandler(xhtml)),
                                         metadata, context);
-}}}
+}}

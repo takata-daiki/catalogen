@@ -1,3 +1,0 @@
-  private Color translateColour(short colorIndex) {
-    HSSFPalette palette = getWorkbook().getCustomPalette();
-    HSSFColor color = palette.getColor(colorIndex);

@@ -1,5 +1,4 @@
-    public void addValueRecord(int row, CellValueRecordInterface col)
-{
+public void wrapperMethod() {
         DimensionsRecord d = ( DimensionsRecord ) records.get(getDimsLoc());
         if (col.getColumn() > d.getLastCol())
         {

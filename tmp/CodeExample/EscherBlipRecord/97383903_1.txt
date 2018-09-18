@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private EscherBlipRecord field_12_blipRecord;
 {{
             bytesRead = field_12_blipRecord.fillFields( data, pos + 36, recordFactory );
@@ -9,4 +10,4 @@
             bytesWritten = field_12_blipRecord.serialize( offset + 44, data, new NullEscherSerializationListener() );
 }}{{
             field_12_size = field_12_blipRecord.getRecordSize();
-}}
+}}}

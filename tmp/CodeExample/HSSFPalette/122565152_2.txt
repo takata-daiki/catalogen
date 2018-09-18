@@ -1,5 +1,5 @@
-  public Font correctFontColorIfBackground(FontManager fm, Workbook wb, BirtStyle birtStyle, Font font) {
+public void wrapperMethod() {
     HSSFPalette palette = ((HSSFWorkbook)wb).getCustomPalette();    
 {
       fgRgb = palette.getColor(font.getColor()).getTriplet();
-}
+}}

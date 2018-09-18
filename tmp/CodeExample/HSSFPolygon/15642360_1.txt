@@ -1,4 +1,20 @@
-    PolygonShape( HSSFPolygon hssfShape, int shapeId )
+    private EscherContainerRecord createSpContainer( HSSFPolygon hssfShape, int shapeId )
     {
-        spContainer = createSpContainer( hssfShape, shapeId );
+        HSSFShape shape = hssfShape;
+        if (hssfShape.getParent() == null)
+            sp.setFlags( EscherSpRecord.FLAG_HAVEANCHOR | EscherSpRecord.FLAG_HASSHAPETYPE );
+        opt.addEscherProperty(new EscherSimpleProperty(EscherProperties.GEOMETRY__RIGHT, false, false, hssfShape.getDrawAreaWidth()));
+        opt.addEscherProperty(new EscherSimpleProperty(EscherProperties.GEOMETRY__BOTTOM, false, false, hssfShape.getDrawAreaHeight()));
+        verticesProp.setNumberOfElementsInArray(hssfShape.getXPoints().length+1);
+        verticesProp.setNumberOfElementsInMemory(hssfShape.getXPoints().length+1);
+        for (int i = 0; i < hssfShape.getXPoints().length; i++)
+{
+            LittleEndian.putShort(data, 0, (short)hssfShape.getXPoints()[i]);
+            LittleEndian.putShort(data, 2, (short)hssfShape.getYPoints()[i]);
+}
+        int point = hssfShape.getXPoints().length;
+        LittleEndian.putShort(data, 0, (short)hssfShape.getXPoints()[0]);
+        LittleEndian.putShort(data, 2, (short)hssfShape.getYPoints()[0]);
+        segmentsProp.setNumberOfElementsInArray(hssfShape.getXPoints().length * 2 + 4);
+        segmentsProp.setNumberOfElementsInMemory(hssfShape.getXPoints().length * 2 + 4);
 }

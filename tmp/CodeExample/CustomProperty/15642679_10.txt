@@ -1,6 +1,0 @@
-    public int getCodepage()
-{{
-            final CustomProperty cp = (CustomProperty) i.next();
-            if (cp.getID() == PropertyIDMap.PID_CODEPAGE)
-                codepage = ((Integer) cp.getValue()).intValue();
-}}

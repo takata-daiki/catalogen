@@ -1,5 +1,4 @@
-    public int allocateShapeId()
-{
+public void wrapperMethod() {
         EscherDgRecord dg = _container.getPPDrawing().getEscherDgRecord();
 {
             if (c.getDrawingGroupId() == dg.getDrawingGroupId() && c.getNumShapeIdsUsed() != 1024)

@@ -1,5 +1,4 @@
-    public int compareTo(Object obj)
-{
+public void wrapperMethod() {
         RowRecord loc = ( RowRecord ) obj;
         if (this.getRowNumber() == loc.getRowNumber())
         {

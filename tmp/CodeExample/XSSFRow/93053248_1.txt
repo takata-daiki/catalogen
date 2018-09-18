@@ -1,4 +1,5 @@
-  public List<String[]> getLiData(){
-}{{
-        XSSFRow row = (XSSFRow)it.next();
-}
+  private void readDataRow(XSSFRow row,String type) throws Exception{
+    String[] strdata = new String[upperdenames.size()];
+{
+         XSSFCell cell = row.getCell(count);
+}}

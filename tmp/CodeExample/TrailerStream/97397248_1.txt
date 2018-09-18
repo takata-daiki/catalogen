@@ -1,6 +1,0 @@
-  public void testGetChildren() {
-    TrailerStream trailer = (TrailerStream)
-      Stream.createStream(trailerPointer, contents, chunkFactory, ptrFactory);
-    Pointer[] ptrs = trailer.getChildPointers();
-
-    trailer.findChildren(contents);

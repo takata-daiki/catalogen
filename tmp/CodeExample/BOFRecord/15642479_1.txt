@@ -1,4 +1,4 @@
-    public Object clone() {
+public void wrapperMethod() {
       BOFRecord rec = new BOFRecord();
       rec.field_1_version = field_1_version;
       rec.field_2_type = field_2_type;
@@ -6,3 +6,4 @@
       rec.field_4_year = field_4_year;
       rec.field_5_history = field_5_history;
       rec.field_6_rversion = field_6_rversion;
+}

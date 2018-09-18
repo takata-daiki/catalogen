@@ -1,7 +1,8 @@
+public void wrapperMethod() {
   @Override
   public final void processPOIFSReaderEvent(final POIFSReaderEvent event) {
     if (!event.getName().equalsIgnoreCase("PowerPoint Document")) {
       return;
 }{
       DocumentInputStream input = event.getStream();
-}}
+}}}

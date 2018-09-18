@@ -1,4 +1,0 @@
-  private Object getCellValue(HSSFCell cell, HSSFDataFormat formatter) {
-    if (cell == null)
-      return null;
-    String fmt = formatter.getFormat(dataFormat);

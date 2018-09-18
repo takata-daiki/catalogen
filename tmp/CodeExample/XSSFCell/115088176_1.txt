@@ -1,5 +1,4 @@
-    private StringBuilder convertTable2CSV() {
-}{{
+public void wrapperMethod() {
             final XSSFCell xssfCell = xssfHeaderRow.createCell(colNr);
             xssfCell.setCellValue(columnText);
             xssfCell.setCellType(XSSFCell.CELL_TYPE_STRING);

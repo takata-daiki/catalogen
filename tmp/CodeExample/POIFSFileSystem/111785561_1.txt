@@ -1,5 +1,3 @@
-    public WordExtractor(ParseContext context) {
-}
     protected void parse(
             POIFSFileSystem filesystem, XHTMLContentHandler xhtml)
             throws IOException, SAXException, TikaException {
@@ -7,4 +5,4 @@
 {
             DirectoryEntry op =
                 (DirectoryEntry) filesystem.getRoot().getEntry("ObjectPool");
-}
+}}

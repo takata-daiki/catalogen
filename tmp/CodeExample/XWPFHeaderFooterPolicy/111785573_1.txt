@@ -1,3 +1,12 @@
-    public XWPFWordExtractorDecorator(XWPFWordExtractor extractor) {
-}{
-        XWPFHeaderFooterPolicy hfPolicy = document.getHeaderFooterPolicy();
+    private void extractFooters(
+            XHTMLContentHandler xhtml, XWPFHeaderFooterPolicy hfPolicy)
+            throws SAXException {
+        if (hfPolicy.getFirstPageFooter() != null) {
+            xhtml.element("p", hfPolicy.getFirstPageFooter().getText());
+}
+        if (hfPolicy.getEvenPageFooter() != null) {
+            xhtml.element("p", hfPolicy.getEvenPageFooter().getText());
+}
+        if (hfPolicy.getDefaultFooter() != null) {
+            xhtml.element("p", hfPolicy.getDefaultFooter().getText());
+}}

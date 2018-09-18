@@ -1,6 +1,6 @@
-  public void erstelleExcel(ArrayList<String> spalten) {
-{{{
-          XSSFCell headerCell1 = headerRow.createCell(count);
-          headerCell1.setCellStyle(headerStyle);
-          headerCell1.setCellValue(spaltenname);
-}}}
+public void wrapperMethod() {
+        XSSFCell betreuerinnen_cell = dataRow.createCell(0);
+        betreuerinnen_cell.setCellStyle(dataStyle);
+        betreuerinnen_cell.setCellValue(new XSSFRichTextString(""
+            + b.getNummer()));
+}

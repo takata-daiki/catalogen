@@ -1,5 +1,0 @@
-  public static CellRangeAddressList getEntireColumn(CellRangeAddressList cellsRefs){
-    Set<Integer> set = new HashSet<Integer>();
-    for(int i=0; i<cellsRefs.countRanges(); i++){
-      CellRangeAddress crA  = cellsRefs.getCellRangeAddress(i);
-}

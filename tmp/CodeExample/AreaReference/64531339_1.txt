@@ -1,4 +1,4 @@
-  private void validateNamedRange( Workbook workbook, int index, String name, int sheetIndex, int row1, int col1, int row2, int col2 ) {
+public void wrapperMethod() {
         AreaReference ref = new AreaReference( namedRange.getRefersToFormula() );
 {
           assertTrue( ref.isSingleCell() );
@@ -9,4 +9,4 @@
           assertEquals( col1, Math.min( ref.getFirstCell().getCol(), ref.getLastCell().getCol() ) );
           assertEquals( row2, Math.max( ref.getFirstCell().getRow(), ref.getLastCell().getRow() ) );
           assertEquals( col2, Math.max( ref.getFirstCell().getCol(), ref.getLastCell().getCol() ) );
-}
+}}

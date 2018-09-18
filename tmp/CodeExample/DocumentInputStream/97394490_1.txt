@@ -1,4 +1,4 @@
-    public byte[] getData(){
+public void wrapperMethod() {
       DocumentInputStream is = getStream();
 {
         if (rawdataPos > is.position()) {
@@ -9,4 +9,4 @@
         is.skip(rawdataPos + 17);
 }
         is.read(imgdata, 0, imgdata.length);
-}
+}}

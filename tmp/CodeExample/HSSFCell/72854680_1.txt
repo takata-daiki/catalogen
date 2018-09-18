@@ -1,6 +1,4 @@
-    public List<Cell> getCellsWithContent() {
-{{{
-              HSSFCell cell = row.getCell(cellIndex);
-              if (cell!=null && !cell.getStringCellValue().isEmpty()) {
-                cells.add(new CellHSSFImpl(hssfWorkbook, cell));
-}}}}
+public void wrapperMethod() {
+            HSSFCell theCell = theRow.getCell(col);
+            theCell.setCellValue("");
+}

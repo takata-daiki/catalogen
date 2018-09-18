@@ -1,5 +1,4 @@
-    public XMLSlideShow generate(XMLSlideShow ppt,MarketingReportSettings reportSettings,
-                                 MarketingReportDataOneCity marketingReportDataOneCity, Function<String, byte[]> pictureGetter) {
+public void wrapperMethod() {
         XSLFTextRun r1 = p1.addNewTextRun();
         r1.setText("Cost estimation");
         r1.setFontFamily("Verdana");

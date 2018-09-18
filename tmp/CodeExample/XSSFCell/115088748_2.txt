@@ -1,5 +1,4 @@
-    public ByteArrayOutputStream export(final Table table) {
-{{{
+public void wrapperMethod() {
                     final XSSFCell xssfCell = xssfRow.createCell(cell.getColInfo().getSpaltenNr());
 {
                         xssfCell.setCellValue(cell.getFormattedValue());
@@ -8,4 +7,4 @@
                         xssfCell.setCellValue(cell.getLabel());
                         xssfCell.setHyperlink(xssfHyperlink);
                         xssfCell.setCellStyle(hlink_style);
-}}}}
+}}

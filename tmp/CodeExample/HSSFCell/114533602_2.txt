@@ -1,5 +1,4 @@
-  public void genFirstRow(HSSFWorkbook wb, HSSFRow row) {
-{
+public void wrapperMethod() {
       HSSFCell cell = row.createCell(i);
       cell.setCellStyle(style);
 }

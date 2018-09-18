@@ -1,8 +1,0 @@
-    public static int getNumberOfColumns( XWPFTableRow row )
-    {
-        if ( row == null )
-        {
-            return 0;
-}
-        List<XWPFTableCell> tableCellsOffFirstRow = row.getTableCells();
-}

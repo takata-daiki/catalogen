@@ -1,7 +1,7 @@
-    public void setBold(boolean b) {
+public void wrapperMethod() {
         XSSFCellStyle cellStyle = theCell.getCellStyle();        
 
         XSSFFont font = cellStyle.getFont();
 {
             cellStyle.setFont(font);
-}
+}}

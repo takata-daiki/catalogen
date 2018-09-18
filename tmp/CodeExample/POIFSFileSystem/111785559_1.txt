@@ -1,12 +1,6 @@
-    public void setListenForAllRecords(boolean listenForAllRecords) {
+      public void processFile(POIFSFileSystem filesystem, boolean listenForAllRecords)
+        throws IOException, SAXException, TikaException {
+            HSSFRequest hssfRequest = new HSSFRequest();
+
+            DocumentInputStream documentInputStream = filesystem.createDocumentInputStream("Workbook");
 }
-    protected void parse(
-            POIFSFileSystem filesystem, XHTMLContentHandler xhtml,
-            Locale locale) throws IOException, SAXException, TikaException {
-        TikaHSSFListener listener = new TikaHSSFListener(xhtml, locale, this);
-        for (Entry entry : filesystem.getRoot()) {
-            if (entry.getName().startsWith("MBD")
-                    && entry instanceof DirectoryEntry) {
-                try {
-                    handleEmbededOfficeDoc((DirectoryEntry) entry, xhtml);
-}}}

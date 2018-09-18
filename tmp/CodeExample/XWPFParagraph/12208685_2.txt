@@ -1,7 +1,0 @@
-    @Override
-    protected void endVisitPargraph( XWPFParagraph paragraph, IITextContainer parentContainer,
-                                     IITextContainer paragraphContainer )
-        throws Exception
-    {
-        CTPPr ppr = paragraph.getCTP().getPPr();
-}

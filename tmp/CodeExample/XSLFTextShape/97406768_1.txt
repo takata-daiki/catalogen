@@ -1,6 +1,5 @@
-    protected XSLFTextShape getTextShapeByType(Placeholder type){
-{{
+public void wrapperMethod() {
                XSLFTextShape txt = (XSLFTextShape)shape;
                 if(txt.getTextType() == type) {
                     return txt;
-}}}
+}}

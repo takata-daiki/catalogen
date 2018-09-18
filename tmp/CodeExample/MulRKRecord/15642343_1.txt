@@ -1,5 +1,4 @@
-    public static Record [] createRecord(RecordInputStream in)
-{{
+public void wrapperMethod() {
             MulRKRecord mrk = ( MulRKRecord ) retval;
             realretval = new Record[ mrk.getNumColumns() ];
             for (int k = 0; k < mrk.getNumColumns(); k++)
@@ -8,4 +7,4 @@
                 nr.setRow(mrk.getRow());
                 nr.setXFIndex(mrk.getXFAt(k));
                 nr.setValue(mrk.getRKNumberAt(k));
-}}}
+}}

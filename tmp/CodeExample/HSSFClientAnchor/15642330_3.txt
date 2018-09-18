@@ -1,8 +1,8 @@
-    public HSSFClientAnchor getPreferredSize(){
+public void wrapperMethod() {
         HSSFClientAnchor anchor = new HSSFClientAnchor();
 {{
                     anchor.setCol2((short)col2);
                     anchor.setDx2(dx2);
                     anchor.setRow2(row2);
                     anchor.setDy2(dy2);
-}}
+}}}

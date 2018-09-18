@@ -1,5 +1,4 @@
-    public ExcelFeatureSource(ContentEntry entry, Query query) {
-{{
+public void wrapperMethod() {
                 CellValue value = evaluator.evaluate(cell);
 {
                     if (value.getCellType() == Cell.CELL_TYPE_NUMERIC) {
@@ -20,4 +19,4 @@
                         builder.set(name, value.getStringValue().trim());
                     case Cell.CELL_TYPE_BOOLEAN:
                         builder.set(name, value.getBooleanValue());
-}}}}
+}}}

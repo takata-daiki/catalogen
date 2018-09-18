@@ -1,7 +1,5 @@
-  public void erstelleExcel(ArrayList<String> spalten, int patient1,
-      int patient2, int kontaktperson1, int kontaktperson2, String von, String bis) {
-{{{
-          XSSFCell spaltenCells = zweiteZeile.createCell(count);
-          spaltenCells.setCellStyle(headerStyle);
-          spaltenCells.setCellValue(spaltenname.substring(2));
-}}}}
+public void wrapperMethod() {
+      XSSFCell headerCell00 = zweiteZeile.createCell(0);
+      headerCell00.setCellStyle(headerStyle);
+      headerCell00.setCellValue("Aufgehรถrt");
+}

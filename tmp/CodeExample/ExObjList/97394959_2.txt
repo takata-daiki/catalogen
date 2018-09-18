@@ -1,5 +1,6 @@
-  public int addControl(String name, String progId) {
+public void wrapperMethod() {
     ExObjList lst = (ExObjList) _documentRecord.findFirstOfType(RecordTypes.ExObjList.typeID);
 
     ExObjListAtom objAtom = lst.getExObjListAtom();
     lst.addChildAfter(ctrl, objAtom);
+}

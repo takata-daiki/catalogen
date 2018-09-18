@@ -1,6 +1,0 @@
-    @Override
-    protected XHTMLPageContentBuffer startVisitTable( XWPFTable table, XHTMLPageContentBuffer tableContainer )
-        throws Exception
-    {
-        tableContainer.startElementNotEnclosed( TABLE_ELEMENT );
-}

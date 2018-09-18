@@ -1,6 +1,7 @@
-    /**/private static BitField fOnlyWinPics = new BitField(0x02);
+public void wrapperMethod() {
+    /**/private static BitField fFormNoFields = new BitField(0x20);
 {
-        field_5_docinfo = (byte)fOnlyWinPics.setBoolean(field_5_docinfo, value);
+        field_5_docinfo = (byte)fFormNoFields.setBoolean(field_5_docinfo, value);
 }{
-        return fOnlyWinPics.isSet(field_5_docinfo);
-}
+        return fFormNoFields.isSet(field_5_docinfo);
+}}

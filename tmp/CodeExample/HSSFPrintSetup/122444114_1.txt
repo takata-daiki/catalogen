@@ -1,5 +1,4 @@
-    private HSSFSheet createSheet ( final List<Event> events, final HSSFWorkbook workbook, final List<Field> columns )
-{
+public void wrapperMethod() {
         final HSSFPrintSetup printSetup = sheet.getPrintSetup ();
         printSetup.setLandscape ( true );
         printSetup.setFitWidth ( (short)1 );

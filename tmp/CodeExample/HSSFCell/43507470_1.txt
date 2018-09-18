@@ -1,7 +1,6 @@
-  public HSSFWorkbook generateReportSectionToXLS(String database, String query)
-{{{
+public void wrapperMethod() {
         HSSFCell headerCell = null;
 {
             headerCell.setCellStyle(cellStyleHeader);
             headerCell.setCellValue(new HSSFRichTextString(colName));
-}}}}
+}}

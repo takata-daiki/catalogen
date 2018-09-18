@@ -1,7 +1,7 @@
-  public StreamingPPTXImpl(MapProducer producer, MapLink mapLink) {
-}{
+public void wrapperMethod() {
     XMLSlideShow ppt = new XMLSlideShow();
     XSLFSlide slide = ppt.createSlide();
     int pictureIndex = ppt.addPicture(data,
         XSLFPictureData.PICTURE_TYPE_PNG);
     ppt.write(outs);
+}

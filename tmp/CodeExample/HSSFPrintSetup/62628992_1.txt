@@ -1,5 +1,4 @@
-  protected void formatPage(HSSFSheet sheet)
-{
+public void wrapperMethod() {
     HSSFPrintSetup ps = sheet.getPrintSetup();
     ps.setFitWidth((short)1);
     ps.setNoColor(true);

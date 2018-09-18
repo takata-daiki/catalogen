@@ -1,5 +1,4 @@
-  private void recalculateAllWorkbookFormulas()
-{{{
+public void wrapperMethod() {
         HSSFSheet sheet = ((HSSFWorkbook) data.wb).getSheetAt(sheetNum);
         sheet.setForceFormulaRecalculation(true);
-}}}
+}

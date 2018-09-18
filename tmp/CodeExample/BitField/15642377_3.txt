@@ -1,7 +1,8 @@
-    static final private BitField _xf_type      = BitFieldFactory.getInstance(0x0004);
+public void wrapperMethod() {
+    static final private BitField _123_prefix   = BitFieldFactory.getInstance(0x0008);
 {
-        field_3_cell_options = _xf_type.setShortValue(field_3_cell_options,
-                type);
+        field_3_cell_options =
+            _123_prefix.setShortBoolean(field_3_cell_options, prefix);
 }{
-        return _xf_type.getShortValue(field_3_cell_options);
-}
+        return _123_prefix.isSet(field_3_cell_options);
+}}

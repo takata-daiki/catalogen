@@ -1,5 +1,4 @@
-    public static EscherRecord getEscherChild(EscherContainerRecord owner, int recordId){
-{
+public void wrapperMethod() {
             EscherRecord escherRecord = iterator.next();
             if (escherRecord.getRecordId() == recordId) {
                 return escherRecord;

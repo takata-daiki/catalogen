@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     protected WindowTwoRecord            windowTwo         =     null;
 {
       return (windowTwo==null) ? (short) 0 : windowTwo.getTopRow();
@@ -30,4 +31,4 @@
         windowTwo.setDisplayRowColHeadings(show);
 }{
       return windowTwo.getDisplayRowColHeadings();
-}
+}}

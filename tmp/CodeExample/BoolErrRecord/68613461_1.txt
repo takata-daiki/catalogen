@@ -1,5 +1,4 @@
-  public void processRecord(Record record) {
-{
+public void wrapperMethod() {
     case BoolErrRecord.sid:
       BoolErrRecord berec = (BoolErrRecord) record;
       thisRow = berec.getRow();

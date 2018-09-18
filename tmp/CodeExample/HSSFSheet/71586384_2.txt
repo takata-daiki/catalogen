@@ -1,7 +1,0 @@
-  public boolean readExcel(InputStream is) {
-{{{
-          HSSFSheet aSheet = workbook.getSheetAt(numSheets);
-          for (int rowNumOfSheet = 1; rowNumOfSheet <= aSheet.getLastRowNum(); rowNumOfSheet++) {
-            if (null != aSheet.getRow(rowNumOfSheet)) {
-              HSSFRow aRow = aSheet.getRow(rowNumOfSheet);
-}}}}}

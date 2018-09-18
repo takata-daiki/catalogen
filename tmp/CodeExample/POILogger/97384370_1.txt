@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private static final POILogger logger = POILogFactory
             .getLogger( CharacterSprmUncompressor.class );
 {{{
@@ -14,4 +15,4 @@
 }}{{
       default:
           logger.log( POILogger.DEBUG, "Unknown CHP sprm ignored: " + sprm );
-}}
+}}}

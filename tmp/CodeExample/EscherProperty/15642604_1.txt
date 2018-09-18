@@ -1,5 +1,4 @@
-    public int serialize( int offset, byte[] data, EscherSerializationListener listener )
-{{
+public void wrapperMethod() {
             EscherProperty escherProperty = (EscherProperty) iterator.next();
             pos += escherProperty.serializeSimplePart( data, pos );
-}}
+}

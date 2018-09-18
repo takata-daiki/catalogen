@@ -1,9 +1,7 @@
-    public List<Cell> getCellsWithContent() {
+public void wrapperMethod() {
+        HSSFRow hssfRow = sheet.getRow(row);
+
+        HSSFCell cell = hssfRow.getCell(col);
 {
-        HSSFRow row = sheet.getRow(rowIndex);
-{
-          int firstCell = row.getFirstCellNum();
-            int lastCell = row.getLastCellNum();
-{
-              HSSFCell cell = row.getCell(cellIndex);
-}}}
+            cell = hssfRow.createCell(col);
+}}

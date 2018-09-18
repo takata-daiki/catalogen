@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private final MAPIMessage msg;
 {{
            msg.setReturnNullOnMissingChunk(true);
@@ -27,4 +28,4 @@
            xhtml.element("p", msg.getTextBody());
            for (AttachmentChunks attachment : msg.getAttachmentFiles()) {
                xhtml.startElement("div", "class", "attachment-entry");
-}}}
+}}}}

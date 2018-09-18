@@ -1,6 +1,0 @@
-  private void format2(HSSFSheet sh, int begF, int endF, int numOutl, int maxOutl){
-{{{
-          CellRangeAddress cRA =  workR.getCellRangeAddress(workR.countRanges()-1);
-          Object value = ExcelUtils.getCellValue(
-              ExcelUtils.getCell(sh, cRA.getLastRow()+ 1, formatCol));
-}}}

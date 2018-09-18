@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private FontRecord         font;
 {
         font.setFontName(name);
@@ -40,4 +41,4 @@
         return font.getCharset();
 }{
         font.setCharset(charset);
-}
+}}

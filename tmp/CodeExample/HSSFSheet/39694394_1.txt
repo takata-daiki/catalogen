@@ -1,5 +1,4 @@
-    public byte[] generateReport(SearchResults results) {
-
+public void wrapperMethod() {
         HSSFSheet overviewSheet = wb.createSheet(sheetName);
         HSSFHeader sheetHeader = overviewSheet.getHeader();
         Footer footer = overviewSheet.getFooter();
@@ -15,3 +14,4 @@
 }
         overviewSheet.setFitToPage(true);
         overviewSheet.setAutobreaks(true);
+}

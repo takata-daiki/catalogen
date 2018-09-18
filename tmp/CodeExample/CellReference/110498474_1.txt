@@ -1,9 +1,8 @@
-  private String xml10Characters(String original) {
-}{{{{
+public void wrapperMethod() {
           CellReference firstCellReference = areaReference
               .getFirstCell();
           xmlWriter.writeAttribute("first_column",
               String.valueOf(firstCellReference.getCol() + 1));
           xmlWriter.writeAttribute("first_row",
               String.valueOf(firstCellReference.getRow() + 1));
-}}}
+}

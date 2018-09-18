@@ -1,5 +1,4 @@
-    private Record[] read(byte[] docstream, int usrOffset){
-{
+public void wrapperMethod() {
             UserEditAtom usr = (UserEditAtom) Record.buildRecordAtOffset(docstream, usrOffset);
             int psrOffset = usr.getPersistPointersOffset();
 

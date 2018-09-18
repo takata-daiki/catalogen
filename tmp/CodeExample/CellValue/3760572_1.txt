@@ -1,5 +1,4 @@
-    private Object getFormulaValue()
-{
+public void wrapperMethod() {
         CellValue obj = evaluator.evaluate(m_cell);
 
         switch(obj.getCellType())

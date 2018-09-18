@@ -1,5 +1,4 @@
-    private static String makeStringValue ( final HSSFWorkbook workbook, final Cell cell )
-{
+public void wrapperMethod() {
         final HSSFFormulaEvaluator eval = new HSSFFormulaEvaluator ( workbook );
 {
         case Cell.CELL_TYPE_FORMULA:

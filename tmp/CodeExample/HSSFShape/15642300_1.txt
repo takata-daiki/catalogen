@@ -1,4 +1,4 @@
-    public HSSFShapeGroup( HSSFShape parent, HSSFAnchor anchor )
-    {
-        super( parent, anchor );
+public void wrapperMethod() {
+            HSSFShape shape = (HSSFShape) iterator.next();
+            count += shape.countOfAllChildren();
 }

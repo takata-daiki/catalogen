@@ -1,6 +1,0 @@
-    public void setHyperlink(Hyperlink link){
-
-        EscherClientDataRecord cldata = new EscherClientDataRecord();
-        cldata.setOptions((short)0xF);
-
-        cldata.setRemainingData(out.toByteArray());

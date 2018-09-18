@@ -1,5 +1,4 @@
-    public WordExtractor(ParseContext context) {
-}{
+public void wrapperMethod() {
         org.apache.poi.hwpf.extractor.WordExtractor wordExtractor =
             new org.apache.poi.hwpf.extractor.WordExtractor(document);
         addTextIfAny(xhtml, "header", wordExtractor.getHeaderText());
@@ -13,3 +12,4 @@
         for (String paragraph : wordExtractor.getEndnoteText()) {
 }
         addTextIfAny(xhtml, "footer", wordExtractor.getFooterText());
+}

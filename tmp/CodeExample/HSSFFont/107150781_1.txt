@@ -1,4 +1,5 @@
-    private void createHeadings(String... labels) {
+public void wrapperMethod() {
         HSSFFont font = wb.createFont();
         font.setFontName("Trebuchet MS");
         font.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);
+}

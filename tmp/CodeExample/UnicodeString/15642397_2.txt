@@ -1,5 +1,4 @@
-    public int compareTo(Object obj)
-{
+public void wrapperMethod() {
         UnicodeString str = ( UnicodeString ) obj;
         int result = getString().compareTo(str.getString());
         if ((field_4_format_runs == null) && (str.field_4_format_runs == null))

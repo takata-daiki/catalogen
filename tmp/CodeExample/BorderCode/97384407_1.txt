@@ -1,5 +1,5 @@
-  public void setTopBorder(BorderCode top)
+  public void setBottomBorder(BorderCode bottom)
   {
-    _props.setBrcTop(top);
-    _papx.updateSprm(SPRM_BRCTOP, top.toInt());
+    _props.setBrcBottom(bottom);
+    _papx.updateSprm(SPRM_BRCBOTTOM, bottom.toInt());
 }

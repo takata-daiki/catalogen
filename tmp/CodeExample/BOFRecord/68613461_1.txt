@@ -1,9 +1,0 @@
-  public void processRecord(Record record) {
-{
-    case BOFRecord.sid:
-      BOFRecord br = (BOFRecord) record;
-      if (br.getType() == BOFRecord.TYPE_WORKSHEET) {
-        if (workbookBuildingListener != null && stubWorkbook == null) {
-          stubWorkbook = workbookBuildingListener
-              .getStubHSSFWorkbook();
-}}}

@@ -1,5 +1,4 @@
-  public CTSlideMasterIdList getSlideMasterReferences() {
-}{
+public void wrapperMethod() {
     PackageRelationshipCollection notes;
 
     if(notes.size() == 0) {
@@ -9,4 +8,4 @@
       throw new IllegalStateException("Expecting 0 or 1 notes for a slide, but found " + notes.size());
 }{
        return slidePart.getRelatedPart(notes.getRelationship(0));
-}
+}}

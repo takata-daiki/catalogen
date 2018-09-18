@@ -1,3 +1,4 @@
-    public void draw(Graphics2D graphics, AtomicBoolean isCanceled, Handler handler, int position){
+public void wrapperMethod() {
         XSLFBackground bg = getBackground();
         if(bg != null) bg.draw(graphics);
+}

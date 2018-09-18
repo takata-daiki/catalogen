@@ -1,6 +1,4 @@
-  public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus,
-          int row, int column) {
-{{
+public void wrapperMethod() {
         XSSFCellStyle xssfCellStyle = (XSSFCellStyle) cellStyle1;
         if (xssfCellStyle.getBorderTop()!=BorderStyle.NONE) {
           topBorder = BorderFactory.createMatteBorder(getThickness(cellStyle1.getBorderTop()), 0, 0, 0, awtColor(xssfCellStyle.getTopBorderXSSFColor(), java.awt.Color.BLACK));
@@ -10,4 +8,4 @@
           leftBorder = BorderFactory.createMatteBorder(0, getThickness(cellStyle1.getBorderLeft()), 0, 0, awtColor(xssfCellStyle.getLeftBorderXSSFColor(), java.awt.Color.BLACK));
 }{
           rightBorder = BorderFactory.createMatteBorder(0, 0, 0, getThickness(cellStyle1.getBorderRight()), awtColor(xssfCellStyle.getRightBorderXSSFColor(), java.awt.Color.BLACK));
-}}}}
+}}

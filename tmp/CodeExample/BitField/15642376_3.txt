@@ -1,7 +1,8 @@
-    static final private BitField hscroll  =
-        BitFieldFactory.getInstance(0x08);                                        // display horizontal scrollbar
+public void wrapperMethod() {
+    static final private BitField vscroll  =
+        BitFieldFactory.getInstance(0x10);                                        // display vertical scrollbar
 {
-        field_5_options = hscroll.setShortBoolean(field_5_options, scroll);
+        field_5_options = vscroll.setShortBoolean(field_5_options, scroll);
 }{
-        return hscroll.isSet(field_5_options);
-}
+        return vscroll.isSet(field_5_options);
+}}

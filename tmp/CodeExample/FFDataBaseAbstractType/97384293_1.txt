@@ -1,5 +1,4 @@
-    public boolean equals( Object obj )
-{
+public void wrapperMethod() {
         FFDataBaseAbstractType other = (FFDataBaseAbstractType) obj;
         if ( field_1_version != other.field_1_version )
             return false;

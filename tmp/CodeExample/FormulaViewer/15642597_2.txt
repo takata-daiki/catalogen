@@ -1,6 +1,5 @@
-    public static void main(String args[])
-{{{
+public void wrapperMethod() {
                 FormulaViewer viewer = new FormulaViewer();
                 viewer.setFile(args[ 0 ]);
                 viewer.run();
-}}}
+}

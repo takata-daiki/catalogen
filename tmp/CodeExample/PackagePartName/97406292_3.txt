@@ -1,5 +1,7 @@
-  public List<PackagePart> getPartsByName(final Pattern namePattern) {
-{
-          PackagePartName partName = part.getPartName();
-          String name = partName.getName();
-}
+  public void removePart(PackagePartName partName) {
+    throwExceptionIfReadOnly();
+
+    if (partName.isRelationshipPartURI()) {
+      URI sourceURI = PackagingURIHelper
+          .getSourcePartUriFromRelationshipPartUri(partName.getURI());
+}}

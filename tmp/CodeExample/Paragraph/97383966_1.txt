@@ -1,7 +1,4 @@
-    protected void processPageref( HWPFDocumentCore hwpfDocument,
-            Element currentBlock, Range textRange, int currentTableLevel,
-            String pageref )
-
+public void wrapperMethod() {
     protected void processParagraph( HWPFDocumentCore hwpfDocument,
             Element parentElement, int currentTableLevel, Paragraph paragraph,
             String bulletText )
@@ -13,4 +10,4 @@
 }{{{
                     float firstLinePosition = paragraph.getIndentFromLeft()
                             + paragraph.getFirstLineIndent() + 20; // char have
-}}}}
+}}}}}

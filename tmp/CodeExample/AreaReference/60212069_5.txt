@@ -1,2 +1,0 @@
-  public static void replace(HSSFSheet sh, AreaReference areaRef, Object valueSearch, Object valueReplace, byte lookIn, XlLookAt lookAt, XlSearchDirection searchDirection){
-    findInArea(sh, areaRef, valueSearch, valueReplace, lookIn, lookAt, searchDirection, false, true);

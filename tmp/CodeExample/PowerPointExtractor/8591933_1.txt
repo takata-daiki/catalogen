@@ -1,5 +1,5 @@
-                        parser.parse(zipOpenDoc, new DefaultHandler() {
-}}}}{
+public void wrapperMethod() {
                 PowerPointExtractor pptExtractor = new PowerPointExtractor(pptStream);
                 Reader contentReader = new StringReader(pptExtractor.getText(true, true));
                 pptExtractor.close();
+}

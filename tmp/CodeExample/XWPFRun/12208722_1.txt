@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     @Override
     protected void visitRun( XWPFRun run, XHTMLPageContentBuffer paragraphContainer )
         throws Exception
@@ -8,4 +9,4 @@
         List<CTBr> brs = run.getCTR().getBrList();
 
         List<CTText> texts = run.getCTR().getTList();
-}
+}}

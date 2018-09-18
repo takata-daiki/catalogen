@@ -1,5 +1,4 @@
-            for(XSLFShape sh : getShapes()){
-{
+public void wrapperMethod() {
                     XSLFTextShape sShape = (XSLFTextShape)sh;
                     CTPlaceholder ph = sShape.getCTPlaceholder();
 }

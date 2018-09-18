@@ -1,5 +1,4 @@
-    public HSSFPicture createPicture(HSSFChildAnchor anchor, int pictureIndex)
-{
+public void wrapperMethod() {
       HSSFPicture shape = new HSSFPicture(this, anchor);
       shape.anchor = anchor;
       shape.setPictureIndex( pictureIndex );

@@ -1,11 +1,4 @@
-    public int findEndOfColumnOutlineGroup(int idx)
-{
-        ColumnInfoRecord columnInfo = (ColumnInfoRecord) records.get( idx );
-        int level = columnInfo.getOutlineLevel();
-{
-            if (columnInfo.getLastColumn() + 1 == nextColumnInfo.getFirstColumn())
-            {
-                if (nextColumnInfo.getOutlineLevel() < level)
-                {
-                    break;
-}}}}
+public void wrapperMethod() {
+        ColumnInfoRecord columnInfo = (ColumnInfoRecord) records.get( findStartOfColumnOutlineGroup( idx ) );
+        setColumn( (short) ( columnInfo.getLastColumn() + 1 ), null, null, null, null, Boolean.TRUE);
+}

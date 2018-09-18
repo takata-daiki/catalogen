@@ -1,5 +1,4 @@
-    public byte[] getData(){
-{
+public void wrapperMethod() {
             Header header = new Header();
             header.read(rawdata, CHECKSUM_SIZE);
             is.skip(header.getSize() + CHECKSUM_SIZE);

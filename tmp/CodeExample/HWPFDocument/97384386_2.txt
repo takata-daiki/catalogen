@@ -1,5 +1,4 @@
-    private void dumpFields()
-{
+public void wrapperMethod() {
         HWPFDocument document = (HWPFDocument) _doc;
 {
             for ( Field field : document.getFields().getFields( part ) )

@@ -1,8 +1,0 @@
-    public TableCellBorder getTableCellBorderInside( XWPFTableCell cell, BorderSide borderSide )
-    {
-        switch ( borderSide )
-        {
-            case TOP:
-            case BOTTOM:
-                return getTableCellBorderInsideH( cell );
-}}

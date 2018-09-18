@@ -1,9 +1,0 @@
-  private void createPap(int istd)
-{
-      StyleDescription sd = _styleDescriptions[istd];
-      ParagraphProperties pap = sd.getPAP();
-      byte[] papx = sd.getPAPX();
-      int baseIndex = sd.getBaseStyle();
-{
-          sd.setPAP(pap);
-}}

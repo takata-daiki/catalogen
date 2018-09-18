@@ -1,7 +1,7 @@
-  public void setNotes(Notes notes) {
+public void wrapperMethod() {
     SlideAtom sa = getSlideRecord().getSlideAtom();
 {
       sa.setNotesID(0);
 }{
       sa.setNotesID(notes._getSheetNumber());
-}
+}}

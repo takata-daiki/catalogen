@@ -1,16 +1,12 @@
-    protected void processDocumentPart( HWPFDocumentCore wordDocument,
-            final Range range )
-
-    protected void processDrawnObject( HWPFDocument doc,
-            CharacterRun characterRun, Element block )
+    protected void processNoteAnchor( HWPFDocument doc,
+            CharacterRun characterRun, final Element block )
     {
-        if ( getPicturesManager() == null )
-            return;
-        OfficeDrawing officeDrawing = doc.getOfficeDrawingsMain()
-                .getOfficeDrawingAt( characterRun.getStartOffset() );
-
-        String path = getPicturesManager()
-                .savePicture( pictureData, type,
-                        "s" + characterRun.getStartOffset() + "." + type,
-                        width, height );
-}
+        {
+            Notes footnotes = doc.getFootnotes();
+            int noteIndex = footnotes
+                    .getNoteIndexByAnchorPosition( characterRun
+                            .getStartOffset() );
+}{
+            int noteIndex = endnotes.getNoteIndexByAnchorPosition( characterRun
+                    .getStartOffset() );
+}}

@@ -1,4 +1,13 @@
-    public ExcelIdentifier(String name, String source) {
-}{{{{
-                    HSSFCell cell = row.getCell(columnIndex);
+    protected Object getCellString(HSSFCell cell) {
+        Object result = null;
+{
+            int cellType = cell.getCellType();
+{
+            case HSSFCell.CELL_TYPE_STRING:
+                result = cell.getRichStringCellValue().getString();
+            case HSSFCell.CELL_TYPE_NUMERIC:
+                result = cell.getNumericCellValue();
+            case HSSFCell.CELL_TYPE_FORMULA:
+            case HSSFCell.CELL_TYPE_BOOLEAN:
+                result = cell.getBooleanCellValue();
 }}}

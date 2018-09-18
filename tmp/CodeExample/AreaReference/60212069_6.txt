@@ -1,2 +1,0 @@
-  public static List<HSSFCell> findAll(HSSFSheet sh, AreaReference areaRef, Object valueSearch, byte lookIn, XlLookAt lookAt, XlSearchDirection searchDirection){
-    return findInArea(sh, areaRef, valueSearch, null, lookIn, lookAt, searchDirection, false, false);

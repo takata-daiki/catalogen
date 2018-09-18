@@ -1,4 +1,5 @@
-    SimpleFilledShape( HSSFSimpleShape hssfShape, int shapeId )
+    private EscherContainerRecord createSpContainer( HSSFSimpleShape hssfShape, int shapeId )
     {
-        spContainer = createSpContainer( hssfShape, shapeId );
+        HSSFShape shape = hssfShape;
+        short shapeType = objTypeToShapeType( hssfShape.getShapeType() );
 }

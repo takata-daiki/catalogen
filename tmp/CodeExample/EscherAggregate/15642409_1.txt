@@ -1,5 +1,4 @@
-            public EscherRecord createRecord( byte[] data, int offset )
-}
+public void wrapperMethod() {
         EscherAggregate agg = new EscherAggregate(drawingManager);
 {
             agg.addEscherRecord( r );
@@ -7,3 +6,4 @@
         agg.shapeToObj = new HashMap();
 {
             agg.shapeToObj.put( shapeRecords.get( shapeIndex++ ), objRecord );
+}}

@@ -1,7 +1,0 @@
-  private XSSFCellStyle getCellDataStyle(){
-    XSSFCellStyle cs = this.wb.createCellStyle();
-      cs.setWrapText(true);
-      cs.setBorderBottom(XSSFCellStyle.BORDER_THIN);
-      cs.setBottomBorderColor(IndexedColors.BLACK.getIndex());
-      cs.setBorderLeft(XSSFCellStyle.BORDER_THIN);
-      cs.setLeftBorderColor(IndexedColors.BLACK.getIndex());

@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     HDGFDiagram hdgf = new HDGFDiagram(
         new POIFSFileSystem(new FileInputStream(args[0]))
     );
@@ -5,3 +6,4 @@
         hdgf.getDocumentSize() + "   (" +
         Long.toHexString(hdgf.getDocumentSize()) + ")");
     dumpStream(hdgf.getTrailerStream(), 0);
+}

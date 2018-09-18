@@ -1,5 +1,4 @@
-    public void setHyperlink(Hyperlink link){
-
+public void wrapperMethod() {
         InteractiveInfoAtom infoAtom = info.getInteractiveInfoAtom();
 {
             case Hyperlink.LINK_FIRSTSLIDE:
@@ -21,3 +20,4 @@
                 infoAtom.setHyperlinkType(InteractiveInfoAtom.LINK_Url);
 }
         infoAtom.setHyperlinkID(link.getId());
+}

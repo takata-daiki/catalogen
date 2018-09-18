@@ -1,7 +1,0 @@
-    public void dumpParagraphsDom( boolean withText )
-{
-        Range range = _doc.getOverallRange();
-        for ( int p = 0; p < range.numParagraphs(); p++ )
-{
-            Paragraph paragraph = range.getParagraph( p );
-}}

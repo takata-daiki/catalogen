@@ -1,5 +1,5 @@
-    private void closeInputStream(InputStream stream, boolean success) {
-}{
+public void wrapperMethod() {
         LongField signature = new LongField(HeaderBlockConstants._signature_offset, header);
 
         return (signature.get() == HeaderBlockConstants._signature);
+}

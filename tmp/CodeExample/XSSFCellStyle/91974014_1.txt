@@ -1,5 +1,4 @@
-  public void erstelleExcel(ArrayList<String> spalten, String suchevon, String suchebis) {
-{
+public void wrapperMethod() {
       XSSFCellStyle headerStyle = xssfWorkbook.createCellStyle();
       headerStyle.setFillForegroundColor(LAVENDER.index);
       headerStyle.setFont(font);

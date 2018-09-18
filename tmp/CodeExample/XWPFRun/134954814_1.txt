@@ -1,5 +1,4 @@
-  public void setReportFacade(ReportFacadeLocal reportFacade) {
-}{{{{{{{{{
+public void wrapperMethod() {
                       final XWPFRun run = new XWPFRun(ctp.addNewR(), paragraph);
 {
                                 run.setText(lines[0], 0);
@@ -8,4 +7,4 @@
                                     run.setText(lines[iLine]);
 }}{
                                 run.setText(formattedValue, 0);
-}}}}}}}}}
+}}

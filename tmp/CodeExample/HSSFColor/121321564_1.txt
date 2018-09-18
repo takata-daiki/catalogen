@@ -1,5 +1,7 @@
-  public final static java.awt.Color awtColor(org.apache.poi.ss.usermodel.Color color) {
-{
-      HSSFColor hssfColor = (HSSFColor) color;
-      short[] rgb = hssfColor.getTriplet();
-}
+public void wrapperMethod() {
+      HSSFColor hssfColor = customPalette.getColor(c);
+      if (hssfColor == null || hssfColor.equals(HSSFColor.AUTOMATIC.getInstance())) {
+        awtColor = defaultColor;
+}{
+        short[] rgb = hssfColor.getTriplet();
+}}

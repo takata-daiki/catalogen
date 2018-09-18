@@ -1,3 +1,4 @@
+public void wrapperMethod() {
         for ( CHPX chpx : _doc.getCharacterTable().getTextRuns() )
         {
             System.out.println( chpx );
@@ -13,4 +14,4 @@
                     public String toString()
                     {
                         return "CHPX range (" + super.toString() + ")";
-}}}}
+}}}}}

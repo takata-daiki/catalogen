@@ -1,5 +1,0 @@
-  public void createCell(HSSFWorkbook book, HSSFRow row, short col,
-      Object value, CellDefine cd, Map bookStyleCache) {
-    HSSFCellStyle style = (HSSFCellStyle) bookStyleCache
-        .get(new Short(col));
-}

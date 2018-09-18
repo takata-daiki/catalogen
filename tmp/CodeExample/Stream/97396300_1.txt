@@ -1,3 +1,4 @@
+public void wrapperMethod() {
   public static void dumpStream(Stream stream, int indent) {
     String ind = "";
 
@@ -7,3 +8,4 @@
 }
     System.out.println(ind + "  Stream is\t" + stream.getClass().getName());
     byte[] db = stream._getStore()._getContents();
+}}

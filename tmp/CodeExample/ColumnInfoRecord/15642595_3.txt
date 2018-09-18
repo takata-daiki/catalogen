@@ -1,4 +1,10 @@
-    public void insertColumn( int idx, ColumnInfoRecord col )
-    {
-        records.add( idx, col );
-}
+public void wrapperMethod() {
+        ColumnInfoRecord columnInfo = (ColumnInfoRecord) records.get( idx );
+        int level = columnInfo.getOutlineLevel();
+{
+            if (columnInfo.getLastColumn() + 1 == nextColumnInfo.getFirstColumn())
+            {
+                if (nextColumnInfo.getOutlineLevel() < level)
+                {
+                    break;
+}}}}

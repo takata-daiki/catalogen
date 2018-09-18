@@ -1,8 +1,7 @@
-    public PictureType suggestPictureType()
-{{{
+public void wrapperMethod() {
             EscherBSERecord bseRecord = (EscherBSERecord) escherRecord;
             switch ( bseRecord.getBlipTypeWin32() )
             {
             case 0x00:
                 return PictureType.UNKNOWN;
-}}}}
+}}

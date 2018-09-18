@@ -1,4 +1,4 @@
-  public static HSSFName getNamedRangeInSheets(Map<String, Map<String, HSSFName>> mapWbNames, String name, String[] sheetNames){
-{{
-        HSSFName nameFound = mapShNames.get(name);
-}}
+public void wrapperMethod() {
+        HSSFName iName = wb.getNameAt(i);
+        if((iName != null) && (iName.getNameName() != null) && iName.getNameName().equals(name)) return iName;
+}

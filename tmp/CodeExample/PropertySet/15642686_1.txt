@@ -1,7 +1,8 @@
+public void wrapperMethod() {
         final PropertySet ps = new PropertySet(stream);
 {
             if (ps.isSummaryInformation())
                 return new SummaryInformation(ps);
             else if (ps.isDocumentSummaryInformation())
                 return new DocumentSummaryInformation(ps);
-}
+}}

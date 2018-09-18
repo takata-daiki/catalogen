@@ -1,6 +1,0 @@
-    @Override
-    protected void doConvert( XWPFDocument document, OutputStream out, Writer writer, PDFViaITextOptions options )
-        throws XWPFConverterException, IOException
-    {
-        PDFMapper mapper = new PDFMapper( document, options );
-}

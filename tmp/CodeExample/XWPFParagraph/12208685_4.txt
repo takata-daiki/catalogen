@@ -1,8 +1,0 @@
-    protected XWPFStyle getXWPFStyle( XWPFParagraph paragraph )
-    {
-        if ( paragraph == null )
-        {
-            return null;
-}
-        return getXWPFStyle( paragraph.getStyleID() );
-}

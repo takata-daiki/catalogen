@@ -1,5 +1,4 @@
-  public void erstelleExcel(ArrayList<String> spalten, String von, String bis) {
-{{{
+public void wrapperMethod() {
           XSSFCell cell = dataRow.createCell(j + 2);
           cell.setCellStyle(dataStyle);
 {
@@ -24,4 +23,4 @@
                 .getReferenz()));
 }{
                 .getInformation()));
-}}}}
+}}

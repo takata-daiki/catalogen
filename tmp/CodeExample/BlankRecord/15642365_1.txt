@@ -1,7 +1,0 @@
-    public BlankRecord createBlank(int row, short col)
-{
-        BlankRecord rec = new BlankRecord();
-        rec.setRow(row);
-        rec.setColumn(col);
-        rec.setXFIndex(( short ) 0x0f);
-}

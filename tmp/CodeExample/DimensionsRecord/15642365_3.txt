@@ -1,5 +1,4 @@
-    public void addRow(RowRecord row)
-{
+public void wrapperMethod() {
         DimensionsRecord d = ( DimensionsRecord ) records.get(getDimsLoc());
         if (row.getRowNumber() >= d.getLastRow())
         {

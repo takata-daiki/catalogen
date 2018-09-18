@@ -1,9 +1,0 @@
-    public static CharacterProperties uncompressCHP( StyleSheet styleSheet,
-            CharacterProperties parStyle, byte[] grpprl, int offset )
-
-    private static void applySprms( CharacterProperties parentProperties,
-            byte[] grpprl, int offset, boolean warnAboutNonChpSprms,
-            CharacterProperties targetProperties )
-    {
-        SprmIterator sprmIt = new SprmIterator( grpprl, offset );
-}

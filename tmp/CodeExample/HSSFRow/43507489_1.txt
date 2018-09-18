@@ -1,4 +1,5 @@
-  public static HSSFWorkbook createXLSSource(List<String> l) {
+public void wrapperMethod() {
     HSSFRow horzTitle = sheet.createRow(0);
     HSSFCell source = horzTitle.createCell(0);
     HSSFCell restriction = horzTitle.createCell(1);
+}

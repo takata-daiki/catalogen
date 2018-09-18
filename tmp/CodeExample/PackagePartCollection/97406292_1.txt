@@ -1,3 +1,4 @@
+public void wrapperMethod() {
   protected PackagePartCollection partList;
 {
     for (PackagePart part : partList.values()) {
@@ -48,4 +49,4 @@
     PackagePart relPart = this.partList.get(PackagingURIHelper
         .getRelationshipPartName(partName));
     PackagePart partToRemove = this.partList.get(partName);
-}
+}}

@@ -1,8 +1,0 @@
-  private void modelDelete(HSSFSheet sh){
-{{{
-          CellRangeAddress cra = new CellRangeAddress(
-              area.getFirstCell().getRow(), area.getLastCell().getRow(),
-              area.getFirstCell().getCol(), area.getLastCell().getCol());
-{{{
-              cell  =  ExcelUtils.getCell(sh, rowNameDataRangeE, cra.getFirstColumn());
-}}}}}}

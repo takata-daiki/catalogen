@@ -1,9 +1,7 @@
-  public Word6CHPBinTable(byte[] documentStream, int offset,
-                     int size, int fcMin, TextPieceTable tpt)
-{{
+public void wrapperMethod() {
       CHPFormattedDiskPage cfkp = new CHPFormattedDiskPage(documentStream,
         pageOffset, fcMin, tpt);
       int fkpSize = cfkp.size();
 {
         _textRuns.add(cfkp.getCHPX(y));
-}}}
+}}

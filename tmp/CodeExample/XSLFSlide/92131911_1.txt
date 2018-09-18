@@ -1,7 +1,0 @@
-    public XMLSlideShow generate(XMLSlideShow ppt, MarketingReportSettings reportSettings,
-                                 MarketingReportDataOneCity marketingReportDataOneCity,
-                                 Function<String, byte[]> pictureGetter) {
-        XSLFSlide slide1 = ppt.createSlide();
-        XSLFTextBox txt1 = slide1.createTextBox();
-        XSLFTextBox txt2 = slide1.createTextBox();
-}

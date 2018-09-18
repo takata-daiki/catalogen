@@ -1,6 +1,9 @@
-  public void reorderSlide(int oldSlideNumber, int newSlideNumber) {
-
-    SlideListWithText slwt = _documentRecord.getSlideSlideListWithText();
-    SlideAtomsSet[] sas = slwt.getSlideAtomsSets();
-
-    slwt.setChildRecord(r);
+public void wrapperMethod() {
+        SlideListWithText nslwt = _documentRecord.getNotesSlideListWithText();
+        for (SlideAtomsSet ns : nslwt.getSlideAtomsSets()) {
+          if (ns.getSlidePersistAtom().getSlideIdentifier() != notesId) {
+            na.add(ns);
+}}{
+          nslwt.setSlideAtomsSets(na.toArray(new SlideAtomsSet[na.size()]));
+          nslwt.setChildRecord(records.toArray(new Record[records.size()]));
+}}

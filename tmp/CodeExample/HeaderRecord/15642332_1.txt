@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     HeaderRecord headerRecord;
 {
         String head = headerRecord.getHeader();
@@ -6,4 +7,4 @@
                 "&L" + ( left == null ? "" : left ) +
                 "&R" + ( right == null ? "" : right ) );
         headerRecord.setHeaderLength( (byte) headerRecord.getHeader().length() );
-}
+}}

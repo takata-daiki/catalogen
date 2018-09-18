@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private FIBFieldHandler _fieldHandler;
 {
       return _fieldHandler.getFieldOffset(FIBFieldHandler.DOP);
@@ -230,4 +231,4 @@
         return FibBase.getSize() + LittleEndian.SHORT_SIZE + FibRgW97.getSize()
                 + LittleEndian.SHORT_SIZE + FibRgLw97.getSize()
                 + LittleEndian.SHORT_SIZE + _fieldHandler.sizeInBytes();
-}
+}}

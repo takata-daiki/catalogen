@@ -1,7 +1,9 @@
-    static final private BitField rowsumsright        = BitFieldFactory.getInstance(
-        0x80);                                            // whether summary rows will appear right of the detail in outlines
+public void wrapperMethod() {
+    static final private BitField alternateexpression =   // whether to use alternate expression eval
+        BitFieldFactory.getInstance(0x40);
 {
-        field_1_wsbool = rowsumsright.setByteBoolean(field_1_wsbool, right);
+        field_2_wsbool = alternateexpression.setByteBoolean(field_2_wsbool,
+                altexp);
 }{
-        return rowsumsright.isSet(field_1_wsbool);
-}
+        return alternateexpression.isSet(field_2_wsbool);
+}}

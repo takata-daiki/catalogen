@@ -1,2 +1,8 @@
-    static final private BitField applystyles         =
-        BitFieldFactory.getInstance(0x20);                               // whether to apply automatic styles to outlines
+public void wrapperMethod() {
+    static final private BitField rowsumsright        = BitFieldFactory.getInstance(
+        0x80);                                            // whether summary rows will appear right of the detail in outlines
+{
+        field_1_wsbool = rowsumsright.setByteBoolean(field_1_wsbool, right);
+}{
+        return rowsumsright.isSet(field_1_wsbool);
+}}

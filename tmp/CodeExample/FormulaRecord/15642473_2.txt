@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     public void convertSharedFormulaRecord(FormulaRecord formula) {
       final int formulaRow = formula.getRow();
       final int formulaColumn = formula.getColumn();
@@ -6,4 +7,4 @@
 
         formula.setParsedExpression(newPtgStack);
         formula.setSharedFormula(false);
-}
+}}}

@@ -1,6 +1,7 @@
-    /**/private static BitField fRotateFontW6 = new BitField(0x4000);
+public void wrapperMethod() {
+    /**/private static BitField fForcePageSizePag = new BitField(0x4000);
 {
-        field_32_view = (short)fRotateFontW6.setBoolean(field_32_view, value);
+        field_37_docinfo5 = (short)fForcePageSizePag.setBoolean(field_37_docinfo5, value);
 }{
-        return fRotateFontW6.isSet(field_32_view);
-}
+        return fForcePageSizePag.isSet(field_37_docinfo5);
+}}

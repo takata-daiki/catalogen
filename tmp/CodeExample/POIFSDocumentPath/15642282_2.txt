@@ -1,5 +1,4 @@
-    public boolean equals(final Object o)
-{{{
+public void wrapperMethod() {
                 POIFSDocumentPath path = ( POIFSDocumentPath ) o;
                 if (path.components.length == this.components.length)
                 {
@@ -9,4 +8,4 @@
                                 .equals(this.components[ j ]))
                         {
                             rval = false;
-}}}}}}
+}}}}

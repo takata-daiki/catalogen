@@ -1,6 +1,0 @@
-    public void setFill( final XSSFColor foreground, final XSSFColor background, final short pattern, int[] rowIndices, int[] colIndices )
-    {
-        modifyCellStyle(rowIndices, colIndices, new CellStyleModifier() {
-            public void modify( CellStyle style ) {
-                style.setFillPattern( pattern );
-}}}

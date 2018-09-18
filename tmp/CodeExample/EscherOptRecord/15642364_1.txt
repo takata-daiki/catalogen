@@ -1,5 +1,4 @@
-    private EscherContainerRecord createSpContainer( HSSFTextbox hssfShape, int shapeId )
-{
+public void wrapperMethod() {
         EscherOptRecord opt = new EscherOptRecord();
         opt.setRecordId( EscherOptRecord.RECORD_ID );
         opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.TEXT__TEXTID, 0 ) );

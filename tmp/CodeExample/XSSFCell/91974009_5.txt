@@ -1,7 +1,19 @@
-  public void erstelleExcel(ArrayList<String> spalten, String von, String bis) {
-{{
-        XSSFCell cell1 = dataRow.createCell(0);
-        cell1.setCellStyle(dataStyle);
-        cell1.setCellValue(new XSSFRichTextString(listzahlung
-            .getMonat()));
+public void wrapperMethod() {
+          XSSFCell cell = dataRow.createCell(j+2);
+          cell.setCellStyle(dataStyle);
+{
+            cell.setCellValue(new XSSFRichTextString(listzahlung
+                .getRechnungsdatum()));
+}{
+                .getBetrag()));
+}{
+                .getRechnungsinfo()));
+}{
+                .getRechnungsnummer()));
+}{
+                .getBezahlt_datum()));
+}{
+                .getBar_bank()));
+}{
+                .getKontoauszug()));
 }}

@@ -1,5 +1,6 @@
-    public RowRecord getRow(int rownum)
+    public int writeHidden( RowRecord rowRecord, int row, boolean hidden )
+    {
+        int level = rowRecord.getOutlineLevel();
 {
-        RowRecord row = new RowRecord();
-        row.setRowNumber(rownum);
-}
+            rowRecord.setZeroHeight( hidden );
+}}

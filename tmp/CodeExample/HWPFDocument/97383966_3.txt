@@ -1,7 +1,0 @@
-    @Override
-    protected void processFootnoteAutonumbered( HWPFDocument wordDocument,
-            int noteIndex, Element block, Range footnoteTextRange )
-    {
-        processNoteAutonumbered( wordDocument, "foot", noteIndex, block,
-                footnoteTextRange );
-}

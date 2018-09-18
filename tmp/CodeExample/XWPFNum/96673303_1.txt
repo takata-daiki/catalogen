@@ -1,6 +1,5 @@
-        if ( hasBorder( borderRight ) )
-{{
+public void wrapperMethod() {
                 XWPFNum num = document.getNumbering().getNum( numID.getVal() );
 {
                     CTDecimalNumber abstractNumID = num.getCTNum().getAbstractNumId();
-}}}
+}}

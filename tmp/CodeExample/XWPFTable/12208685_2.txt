@@ -1,6 +1,0 @@
-    @Override
-    protected void endVisitTable( XWPFTable table, IITextContainer parentContainer, IITextContainer tableContainer )
-        throws Exception
-    {
-        parentContainer.addElement( (Element) tableContainer );
-}

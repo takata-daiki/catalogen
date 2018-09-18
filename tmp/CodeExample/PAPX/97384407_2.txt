@@ -1,9 +1,6 @@
-    static Paragraph newParagraph( Range parent, PAPX papx )
-
-    protected static ParagraphProperties newParagraph_applyStyleProperties(
-            StyleSheet styleSheet, PAPX papx, ParagraphProperties properties )
-    {
-        if ( styleSheet == null )
-            return properties;
-        int style = papx.getIstd();
+public void wrapperMethod() {
+        PAPX papx = _paragraphs.get( _parEnd - 1 );
+        _props = papx.getParagraphProperties( _doc.getStyleSheet() );
+        _papx = papx.getSprmBuf();
+        _istd = papx.getIstd();
 }

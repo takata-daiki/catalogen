@@ -1,4 +1,7 @@
-    public void addEscherProperty( EscherProperty prop )
-    {
-        properties.add( prop );
-}
+public void wrapperMethod() {
+    public void setEscherProperty(EscherProperty value){
+        for ( Iterator<EscherProperty> iterator =
+                      properties.iterator(); iterator.hasNext(); ) {
+            if (prop.getId() == value.getId()){
+                iterator.remove();
+}}}}

@@ -1,7 +1,0 @@
-        for ( EscherProperty prop : properties )
-        {
-            if ( prop.getPropertyNumber() == propId )
-            {
-                @SuppressWarnings( "unchecked" )
-                final T result = (T) prop;
-}}

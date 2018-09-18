@@ -1,5 +1,0 @@
-  public static ExcelBuffer copy (HSSFSheet sh, AreaReference areaRef){
-    Map<String, ExcelCell> mapCell = new HashMap<String, ExcelCell>();
-    int offsetRow = areaRef.getFirstCell().getRow();
-    int offsetCol = areaRef.getFirstCell().getCol();
-    CellReference[] celRefs = areaRef.getAllReferencedCells();

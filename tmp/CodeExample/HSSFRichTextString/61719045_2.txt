@@ -1,5 +1,0 @@
-  private void titleTable(HSSFWorkbook book, HSSFSheet sheet, int fila,
-      MReportColumn[] m_columns) {
-    HSSFRichTextString text = new HSSFRichTextString(Msg.translate(
-        Env.getCtx(), "name").toUpperCase());
-}

@@ -1,6 +1,7 @@
+public void wrapperMethod() {
       Section s = r.getSection(x);
       for (int y = 0; y < s.numParagraphs(); y++) {
         Paragraph p = s.getParagraph(y);
 {
           Table t = s.getTable(p);
-}}
+}}}

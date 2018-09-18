@@ -1,12 +1,8 @@
-  private static org.docx4j.wml.P handleP(Paragraph p,
-      org.apache.poi.hwpf.model.StyleSheet stylesheet,
-      MainDocumentPart documentPart,
-      org.docx4j.wml.ObjectFactory factory) {
-{
+public void wrapperMethod() {
       CharacterRun run = p.getCharacterRun(z);
       if (run.isBold()) {
         if (rPr == null) {
           rPr = factory.createRPr();
 }}
       String text = run.text();
-}}
+}

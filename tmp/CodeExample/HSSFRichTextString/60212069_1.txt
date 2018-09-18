@@ -1,8 +1,4 @@
-  public static Object getCellValue(
-      HSSFCell cell, 
-      boolean stringAsJavaLangString, 
-      boolean formulaAsNull
-{{{
+public void wrapperMethod() {
         HSSFRichTextString rich = cell.getRichStringCellValue();
         return (rich==null)? null: rich.getString();
-}}}
+}

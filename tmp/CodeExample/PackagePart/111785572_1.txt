@@ -1,6 +1,4 @@
-    public XSSFExcelExtractorDecorator(
-            XSSFExcelExtractor extractor, Locale locale) {
-}{{
+public void wrapperMethod() {
           PackagePart part = sheet.getPackagePart();
 {
              for(PackageRelationship rel : part.getRelationshipsByType(XSSFRelation.DRAWINGS.getRelation())) {
@@ -8,4 +6,4 @@
                    PackagePartName relName = PackagingURIHelper.createPartName(rel.getTargetURI());
 }}
              for(PackageRelationship rel : part.getRelationshipsByType(XSSFRelation.VML_DRAWINGS.getRelation())) {
-}}}}
+}}}

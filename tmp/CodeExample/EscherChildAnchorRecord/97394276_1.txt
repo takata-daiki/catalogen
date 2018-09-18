@@ -1,5 +1,4 @@
-    public Rectangle2D getAnchor2D(){
-{
+public void wrapperMethod() {
             EscherChildAnchorRecord rec = (EscherChildAnchorRecord)getEscherChild(_escherContainer, EscherChildAnchorRecord.RECORD_ID);
 {
                 anchor = new Rectangle2D.Float(

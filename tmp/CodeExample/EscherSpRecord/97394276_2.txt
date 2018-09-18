@@ -1,4 +1,4 @@
-    public void setShapeType(int type){
+public void wrapperMethod() {
         EscherSpRecord spRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);
-        spRecord.setShapeType( (short) type );
-        spRecord.setVersion( (short) 0x2 );
+        return spRecord == null ? 0 : spRecord.getShapeId();
+}

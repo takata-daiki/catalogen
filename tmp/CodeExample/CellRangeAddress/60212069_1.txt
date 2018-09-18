@@ -1,6 +1,11 @@
-  public static Boolean hasFormula (HSSFSheet sh, CellRangeAddress cRA){
-    boolean isNotFormula = false;
-    for(int row=cRA.getFirstRow(); row <= cRA.getLastRow(); row++){
-      if (r != null)
-        for(int col=cRA.getFirstColumn(); col <= cRA.getLastColumn(); col++){
-}}
+public void wrapperMethod() {
+  public static CellRangeAddressList getSpecialCells(HSSFSheet sh, CellRangeAddress cellRef0, XlCellType xlCellType){
+    CellRangeAddressList rangeList = new CellRangeAddressList();
+{
+        for(int col = cellRef0.getFirstColumn(); col <= cellRef0.getLastColumn(); col++)
+{
+            for(int row = cellRef0.getFirstRow(); row <= cellRef0.getLastRow(); row++)
+}
+        for(int col = cellRef0.getFirstColumn(); col <= cellRef0.getLastColumn(); col++){
+          for(int row = cellRef0.getFirstRow(); row <= cellRef0.getLastRow(); row++){
+}}}}}

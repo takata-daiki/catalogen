@@ -1,6 +1,0 @@
-    private EscherContainerRecord createSpContainer( HSSFSimpleShape hssfShape, int shapeId )
-{
-        EscherClientDataRecord clientData = new EscherClientDataRecord();
-        clientData.setRecordId( EscherClientDataRecord.RECORD_ID );
-        clientData.setOptions( (short) 0x0000 );
-}

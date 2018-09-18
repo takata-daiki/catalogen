@@ -1,8 +1,0 @@
-    @Override
-    protected IITextContainer startVisitTableCell( final XWPFTableCell cell, IITextContainer pdfTableContainer,
-                                                   boolean firstRow, boolean lastRow, boolean firstCol,
-                                                   boolean lastCol, List<XWPFTableCell> vMergeCells )
-        throws Exception
-    {
-        XWPFTableRow row = cell.getTableRow();
-}

@@ -1,5 +1,4 @@
-  public void genFirstRow(HSSFWorkbook wb, HSSFRow row) {
-{
+public void wrapperMethod() {
       HSSFFont font = wb.createFont();
       font.setColor(HSSFColor.BLUE_GREY.index);
       font.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);

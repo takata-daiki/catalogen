@@ -1,6 +1,4 @@
-  public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus,
-          int row, int column) {
-{{
+public void wrapperMethod() {
         XSSFFont xssfFont = (XSSFFont) f;
         label.setForeground(awtColor(xssfFont.getXSSFColor(), java.awt.Color.BLACK));
-}}}
+}

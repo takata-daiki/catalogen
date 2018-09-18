@@ -1,5 +1,4 @@
-    private XMLSlideShow generatePreview(XMLSlideShow ppt, List<PreviewReportingDocument> previewData, String cityName,
-                                         int repDocsStartNum) {
+public void wrapperMethod() {
         XSLFTextBox txt1 = slide.createTextBox();
         txt1.setAnchor(new java.awt.Rectangle(20, 40, 600, 50));
         XSLFTextParagraph p1 = txt1.addNewTextParagraph();

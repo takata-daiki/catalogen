@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private SSTRecord sstrec;
 {{{{
                         logger.debug("file contains " + 
@@ -16,4 +17,4 @@
                             String value = sstrec.getString(lrec.getSSTIndex()).getString();
 }}}}}{{
             String colHeader = sstrec.getString(lrec.getSSTIndex()).getString();
-}}
+}}}

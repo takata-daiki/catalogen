@@ -1,5 +1,4 @@
-    public void processRecord(Record record)
-{{{
+public void wrapperMethod() {
                     final BOFRecord bof = (BOFRecord) record;
                     if (bof.getType() == BOFRecord.TYPE_WORKBOOK) {
                         if (logger.isInfoEnabled())
@@ -9,4 +8,4 @@
                             logger.info("recordsize = " + bof.getRecordSize() + 
                                     ", required version = " +
                                     bof.getRequiredVersion());
-}}}}
+}}

@@ -1,9 +1,7 @@
-    private XMLSlideShow generatePreview(XMLSlideShow ppt, List<PreviewReportingDocument> previewData, String cityName,
-                                         int repDocsStartNum) {
-{
+public void wrapperMethod() {
             XSLFTextRun r = p.addNewTextRun();
             r.setText(previewTableHeader[i]);
             r.setBold(true);
             r.setFontColor(Color.white);
             r.setFontSize(11);
-}}
+}

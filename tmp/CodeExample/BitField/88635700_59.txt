@@ -1,6 +1,7 @@
-    /**/private static BitField iGutterPos = new BitField(0x8000);
+public void wrapperMethod() {
+    /**/private static BitField fMinFontSizePag = new BitField(0x8000);
 {
-        field_32_view = (short)iGutterPos.setBoolean(field_32_view, value);
+        field_37_docinfo5 = (short)fMinFontSizePag.setBoolean(field_37_docinfo5, value);
 }{
-        return iGutterPos.isSet(field_32_view);
-}
+        return fMinFontSizePag.isSet(field_37_docinfo5);
+}}

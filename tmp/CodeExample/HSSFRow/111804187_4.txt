@@ -1,3 +1,4 @@
-  public void setCell(int rowNumber, int cellNumber, int cellValue) {
+public void wrapperMethod() {
     HSSFRow row = createRow(rowNumber);
     cell = row.createCell(cellNumber);
+}

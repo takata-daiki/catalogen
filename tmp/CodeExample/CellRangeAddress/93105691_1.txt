@@ -1,8 +1,5 @@
-    private void processSheet( Sheet sheet,
-                               List<? extends DataListener> listeners ) {
-{{
-                CellRangeAddress merged = getRangeIfMerged( cell,
-                                                            mergedRanges );
-{
-                    Cell topLeft = sheet.getRow( merged.getFirstRow() ).getCell( merged.getFirstColumn() );
-}}}}
+public void wrapperMethod() {
+            CellRangeAddress r = mergedRanges[ i ];
+            if ( r.isInRange( cell.getRowIndex(), cell.getColumnIndex() ) ) {
+                return r;
+}}

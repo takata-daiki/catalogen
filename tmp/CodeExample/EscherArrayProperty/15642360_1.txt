@@ -1,5 +1,4 @@
-    private EscherContainerRecord createSpContainer( HSSFPolygon hssfShape, int shapeId )
-{
+public void wrapperMethod() {
         EscherArrayProperty verticesProp = new EscherArrayProperty(EscherProperties.GEOMETRY__VERTICES, false, new byte[0] );
         verticesProp.setNumberOfElementsInArray(hssfShape.getXPoints().length+1);
         verticesProp.setNumberOfElementsInMemory(hssfShape.getXPoints().length+1);

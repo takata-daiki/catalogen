@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     @Override
     protected void visitTableRow( XWPFTableRow row, IITextContainer tableContainer, boolean firstRow, boolean lastRow )
         throws Exception
@@ -10,4 +11,4 @@
                     XWPFTableCell cell = row.getTableCell( tc );
 }{{
                         XWPFTableCell cell = new XWPFTableCell( ctTc, row, row.getTable().getBody() );
-}}}}}
+}}}}}}

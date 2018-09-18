@@ -1,6 +1,4 @@
-    protected void processSingleSection( HWPFDocumentCore wordDocument,
-            Section section )
-
+public void wrapperMethod() {
     protected void processTable( HWPFDocumentCore hwpfDocument, Element flow,
             Table table )
     {
@@ -17,4 +15,4 @@
             logger.log( POILogger.WARN, "Table without body starting at [",
                     Integer.valueOf( table.getStartOffset() ), "; ",
                     Integer.valueOf( table.getEndOffset() ), ")" );
-}}
+}}}

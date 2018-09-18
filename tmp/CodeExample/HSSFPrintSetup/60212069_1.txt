@@ -1,7 +1,7 @@
-  public static HSSFRow clearRow(HSSFSheet sh, int indexRow){
-}{
+public void wrapperMethod() {
     HSSFPrintSetup ps = sh.getPrintSetup();
     float[]sizePage = PrintPagesFormat.get(ps.getPaperSize());
     if (ps.getLandscape()) baseSizePage = sizePage[0];
     float scale = ps.getScale() / 100;
     double l = baseSizePage -(((ps.getFooterMargin()+ps.getHeaderMargin())*Factotr_MM_Inches)+50);
+}

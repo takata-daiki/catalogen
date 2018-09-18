@@ -1,3 +1,10 @@
-    public static InputStream createNonClosingInputStream(InputStream is) {
-}
-    private DirectoryNode _root;
+public void wrapperMethod() {
+            DirectoryNode parent   = (dir == null)
+                                     ? (( DirectoryNode ) getRoot())
+                                     : dir;
+{
+                DirectoryNode new_dir =
+                    ( DirectoryNode ) parent.createDirectory(name);
+}{
+                parent.createDocument(document);
+}}

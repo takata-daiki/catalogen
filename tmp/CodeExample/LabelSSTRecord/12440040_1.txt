@@ -1,5 +1,4 @@
-    public void processRecord(Record record)
-{{{
+public void wrapperMethod() {
                     final LabelSSTRecord lrec = (LabelSSTRecord) record;
                     if (lrec.getRow() != 0)
                     {
@@ -37,4 +36,4 @@
                             else if (lrec.getColumn() == 8)
 {
                                 baseTranslation.setValue(cellValue);
-}}}}}}
+}}}}

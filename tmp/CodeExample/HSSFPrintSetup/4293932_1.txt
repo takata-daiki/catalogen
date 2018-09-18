@@ -1,12 +1,11 @@
+public void wrapperMethod() {
         HSSFPrintSetup ps = sheet.getPrintSetup();
         ps.setFitWidth((short)1);
         ps.setFitHeight((short)9999);
         ps.setPaperSize(HSSFPrintSetup.LETTER_PAPERSIZE);
-{
         if(colCount > 5){ps.setLandscape(true);}
-{
         if(colCount > 10){ps.setPaperSize(HSSFPrintSetup.LEGAL_PAPERSIZE);}
-{
         if(colCount > 14){ps.setPaperSize(HSSFPrintSetup.EXECUTIVE_PAPERSIZE);}
         ps.setHeaderMargin((double) .35);
         ps.setFooterMargin((double) .35);
+}

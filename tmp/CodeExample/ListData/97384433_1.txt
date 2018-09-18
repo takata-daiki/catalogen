@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private ListData _listData;
 {
         _lfo.setLsid( _listData.getLsid() );
@@ -15,4 +16,4 @@
         int styleIndex = _listData.getLevelStyle( level );
 }{
         _listData.setLevelStyle( level, styleIndex );
-}
+}}

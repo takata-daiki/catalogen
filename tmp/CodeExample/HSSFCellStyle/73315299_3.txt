@@ -1,8 +1,7 @@
-  public static <T> void exportExcel(String title, String[] headers, String[] cols, Collection<T> dataset,
-      OutputStream out, String pattern, String[] sumcols) {
-    HSSFCellStyle style3 = createStyle(workbook, HSSFColor.WHITE.index, HSSFCellStyle.SOLID_FOREGROUND,
+public void wrapperMethod() {
+    HSSFCellStyle style4 = createStyle(workbook, HSSFColor.WHITE.index, HSSFCellStyle.SOLID_FOREGROUND,
         HSSFCellStyle.BORDER_THIN, HSSFCellStyle.BORDER_THIN, HSSFCellStyle.BORDER_THIN,
         HSSFCellStyle.BORDER_THIN, HSSFCellStyle.ALIGN_CENTER);
-    style3.setVerticalAlignment(HSSFCellStyle.VERTICAL_CENTER);
-    style3.setDataFormat(format.getFormat("0.000"));
+    style4.setVerticalAlignment(HSSFCellStyle.VERTICAL_CENTER);
+    style4.setDataFormat(HSSFDataFormat.getBuiltinFormat("0"));
 }

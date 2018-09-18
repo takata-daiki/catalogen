@@ -1,10 +1,5 @@
-  public void createCell(HSSFWorkbook book, HSSFRow row, short col,
-      Object value, CellDefine cd, Map bookStyleCache) {
-    HSSFCell cell = row.createCell(col);
-
-    if (style != null)
-      cell.setCellStyle(style);
-{
+  public void setCellValue(HSSFCell cell, Object value) {
+    if (value instanceof String) {
       cell.setCellType(HSSFCell.CELL_TYPE_STRING);
       cell.setCellValue((String) value);
 }{

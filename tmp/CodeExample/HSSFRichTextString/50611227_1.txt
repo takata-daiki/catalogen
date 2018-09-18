@@ -1,6 +1,5 @@
-    private Object evaluateFormula(final Cell cell) {
-{{
+public void wrapperMethod() {
                 HSSFRichTextString str = ((HSSFCell) cell).getRichStringCellValue();
                 if (str != null && str.length() > 0) {
                     text.append(str.toString());
-}}}
+}}

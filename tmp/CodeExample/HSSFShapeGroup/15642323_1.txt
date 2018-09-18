@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private HSSFShapeGroup escherGroup;
 {
         HSSFSimpleShape shape = escherGroup.createShape(new HSSFChildAnchor(x1, y1, x2, y2) );
@@ -9,4 +10,4 @@
         HSSFTextbox textbox = escherGroup.createTextbox( new HSSFChildAnchor( x, y, x + width, y + height ) );
 }{
         HSSFSimpleShape shape = escherGroup.createShape(new HSSFChildAnchor( x, y, x + width, y + height ) );
-}
+}}

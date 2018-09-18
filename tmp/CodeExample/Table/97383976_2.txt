@@ -1,6 +1,4 @@
-    protected void processParagraphes( HWPFDocumentCore wordDocument,
-            Element flow, Range range, int currentTableLevel )
-{{{
+public void wrapperMethod() {
                 Table table = range.getTable( paragraph );
                 p += table.numParagraphs();
-}}}
+}

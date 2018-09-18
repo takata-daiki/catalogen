@@ -1,5 +1,4 @@
-  private HSSFFont createFont(final HSSFWorkbook workbook,
-      final boolean bold, final boolean doubleUnderlined) {
+public void wrapperMethod() {
     final HSSFFont font = workbook.createFont();
     font.setFontHeightInPoints((short) 10);
     font.setFontName("Arial");

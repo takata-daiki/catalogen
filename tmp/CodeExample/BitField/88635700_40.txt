@@ -1,6 +1,7 @@
-    /**/private static BitField oldfSupressTopSpacing = new BitField(0x0080);
+public void wrapperMethod() {
+    /**/private static BitField zkSaved = new BitField(0x3000);
 {
-        field_8_docinfo3 = (short)oldfSupressTopSpacing.setBoolean(field_8_docinfo3, value);
+        field_32_view = (short)zkSaved.setValue(field_32_view, value);
 }{
-        return oldfSupressTopSpacing.isSet(field_8_docinfo3);
-}
+        return ( byte )zkSaved.getValue(field_32_view);
+}}

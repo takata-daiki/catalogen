@@ -1,6 +1,7 @@
-    /**/private static BitField oldfMapPrintTextColor = new BitField(0x0010);
+public void wrapperMethod() {
+    /**/private static BitField fShadeFormData = new BitField(0x1000);
 {
-        field_8_docinfo3 = (short)oldfMapPrintTextColor.setBoolean(field_8_docinfo3, value);
+        field_24_Edn1 = (short)fShadeFormData.setBoolean(field_24_Edn1, value);
 }{
-        return oldfMapPrintTextColor.isSet(field_8_docinfo3);
-}
+        return fShadeFormData.isSet(field_24_Edn1);
+}}

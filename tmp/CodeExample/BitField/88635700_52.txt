@@ -1,6 +1,7 @@
-    /**/private static BitField fSaveFormData = new BitField(0x0800);
+public void wrapperMethod() {
+    /**/private static BitField fPrintBodyBeforeHdr = new BitField(0x00040000);
 {
-        field_24_Edn1 = (short)fSaveFormData.setBoolean(field_24_Edn1, value);
+        field_33_docinfo4 = (int)fPrintBodyBeforeHdr.setBoolean(field_33_docinfo4, value);
 }{
-        return fSaveFormData.isSet(field_24_Edn1);
-}
+        return fPrintBodyBeforeHdr.isSet(field_33_docinfo4);
+}}

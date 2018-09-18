@@ -1,6 +1,7 @@
-    /**/private static BitField fDfltTrueType = new BitField(0x80);
+public void wrapperMethod() {
+    /**/private static BitField oldfNoTabForInd = new BitField(0x0001);
 {
-        field_6_docinfo1 = (byte)fDfltTrueType.setBoolean(field_6_docinfo1, value);
+        field_8_docinfo3 = (short)oldfNoTabForInd.setBoolean(field_8_docinfo3, value);
 }{
-        return fDfltTrueType.isSet(field_6_docinfo1);
-}
+        return oldfNoTabForInd.isSet(field_8_docinfo3);
+}}

@@ -1,5 +1,4 @@
-  public void applyBorderStyle(Workbook workbook, CellStyle style, BorderSide side, CSSValue colour, CSSValue borderStyle, CSSValue width) {
-{{
+public void wrapperMethod() {
         HSSFCellStyle hStyle = (HSSFCellStyle)style;
 {{{
             case TOP:
@@ -14,4 +13,4 @@
             case BOTTOM:
               hStyle.setBorderBottom(hBorderStyle);
               hStyle.setBottomBorderColor(colourIndex);
-}}}}}
+}}}}

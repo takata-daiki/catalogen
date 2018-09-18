@@ -1,5 +1,4 @@
-  public void addBackgroundColourToStyle(Workbook workbook, CellStyle style, String colour) {
-{
+public void wrapperMethod() {
       HSSFCellStyle cellStyle = (HSSFCellStyle)style;
 {
         cellStyle.setFillForegroundColor(colourIndex);

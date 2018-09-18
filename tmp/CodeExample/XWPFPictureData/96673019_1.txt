@@ -1,6 +1,4 @@
-    protected void endVisitTableCell( XWPFTableCell cell, IITextContainer tableContainer,
-                                      IITextContainer tableCellContainer )
-{
+public void wrapperMethod() {
         XWPFPictureData pictureData = super.getPictureData( picture );
 {{
                 Image img = Image.getInstance( pictureData.getData() );

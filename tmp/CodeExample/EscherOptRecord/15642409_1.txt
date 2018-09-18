@@ -1,5 +1,4 @@
-    private void convertGroup( HSSFShapeGroup shape, EscherContainerRecord escherParent, Map shapeToObj )
-{
+public void wrapperMethod() {
         EscherOptRecord opt = new EscherOptRecord();
         opt.setRecordId( EscherOptRecord.RECORD_ID );
         opt.setOptions( (short) 0x0023 );

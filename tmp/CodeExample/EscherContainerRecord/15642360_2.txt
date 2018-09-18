@@ -1,5 +1,4 @@
-    private EscherContainerRecord createSpContainer( HSSFPolygon hssfShape, int shapeId )
-{
+public void wrapperMethod() {
         EscherContainerRecord spContainer = new EscherContainerRecord();
         spContainer.setRecordId( EscherContainerRecord.SP_CONTAINER );
         spContainer.setOptions( (short) 0x000F );

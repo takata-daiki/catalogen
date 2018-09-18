@@ -1,7 +1,0 @@
-  public String readXlsx(String path) {
-    XSSFExcelExtractor ee = null;
-{
-      ee.setFormulasNotResults(true);
-      ee.setIncludeSheetNames(false);
-}
-    return ee.getText();

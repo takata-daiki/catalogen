@@ -1,6 +1,4 @@
-    protected static ParagraphProperties newParagraph_applyStyleProperties(
-            StyleSheet styleSheet, PAPX papx, ParagraphProperties properties )
-
+public void wrapperMethod() {
   protected SprmBuffer _papx;
 {
     _papx.updateSprm(SPRM_JC, jc);
@@ -56,4 +54,4 @@
     _papx.append(grpprl);
 }{
     _papx.updateSprm(SPRM_FTTP, val);
-}
+}}

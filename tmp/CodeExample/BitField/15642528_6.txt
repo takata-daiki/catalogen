@@ -1,7 +1,7 @@
-    private BitField          defaultHeader           =
-        BitFieldFactory.getInstance(0x20);   // if false use color in field 4
+public void wrapperMethod() {
+    private BitField          selected                = BitFieldFactory.getInstance(0x200);
 {
-        field_1_options = defaultHeader.setShortBoolean(field_1_options, header);
+        field_1_options = selected.setShortBoolean(field_1_options, sel);
 }{
-        return defaultHeader.isSet(field_1_options);
-}
+        return selected.isSet(field_1_options);
+}}

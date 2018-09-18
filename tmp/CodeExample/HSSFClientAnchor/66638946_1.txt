@@ -1,8 +1,0 @@
-  public HSSFWorkbook generate(LinkedList<ReportTO> data,
-      String generalTitle[], String clientName, String clientNIT,
-      String periodName, String currencyName, MReportColumn[] m_columns, 
-      String city, Integer logoId) {
-{{
-        HSSFClientAnchor anchor;
-        anchor.setAnchorType( 2 );
-}}}

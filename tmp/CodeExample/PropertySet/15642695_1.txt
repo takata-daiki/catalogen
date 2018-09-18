@@ -1,8 +1,0 @@
-    public MutablePropertySet(final PropertySet ps)
-    {
-        byteOrder = ps.getByteOrder();
-        format = ps.getFormat();
-        osVersion = ps.getOSVersion();
-        setClassID(ps.getClassID());
-        for (final Iterator i = ps.getSections().iterator(); i.hasNext();)
-}

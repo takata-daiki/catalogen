@@ -1,17 +1,8 @@
-    public boolean addAll(final int index, final IntList c)
-    {
-        if (index > _limit)
-        {
-            throw new IndexOutOfBoundsException();
-}
-        if (c._limit != 0)
-{
-            if ((_limit + c._limit) > _array.length)
+public void wrapperMethod() {
+            IntList other = ( IntList ) o;
+            if (other._limit == _limit)
             {
-                growArray(_limit + c._limit);
-}
-            System.arraycopy(_array, index, _array, index + c._limit,
-                             _limit - index);
-            System.arraycopy(c._array, 0, _array, index, c._limit);
-            _limit += c._limit;
-}}
+                rval = true;
+{
+                    rval = _array[ j ] == other._array[ j ];
+}}}

@@ -1,5 +1,4 @@
-  public String getBGColour(CellStyle style)
-{
+public void wrapperMethod() {
     XSSFCellStyle newStyle = (XSSFCellStyle) style;
-    XSSFColor colour = newStyle.getFillForegroundXSSFColor();
+    XSSFFont font = newStyle.getFont();
 }

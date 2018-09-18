@@ -1,4 +1,4 @@
-  static DocType getDocType(String filepath) {
-}{
+public void wrapperMethod() {
     XWPFWordExtractor extractor = new XWPFWordExtractor(docx);
     return extractor.getText().toCharArray();
+}

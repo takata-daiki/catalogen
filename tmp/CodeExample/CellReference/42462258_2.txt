@@ -1,6 +1,5 @@
-  public String buildFilename(int splitNr)
-{{{
+public void wrapperMethod() {
         CellReference cellRef = new CellReference(data.realStartingCell);
         data.startingRow = cellRef.getRow();
         data.startingCol = cellRef.getCol();
-}}}
+}

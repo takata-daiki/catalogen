@@ -1,6 +1,0 @@
-  public boolean isExtractMode() {
-}{{{
-        SXSSFWorkbook wb = (SXSSFWorkbook) handlerState.getWb();
-        if (!wb.dispose()) {
-          log.error(0, "Failed to dispose SXSSFWorkbook.", new Exception("SXSSFWorkbook.dispose() has returned false."));
-}}}

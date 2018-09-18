@@ -1,9 +1,4 @@
-                    public String toString()
-}}{{
-                    Range subrange = new Range( structure.start, end, range )
-                    {
-                        @Override
-                        public String toString()
-                        {
-                            return "BookmarksSubrange " + super.toString();
-}}
+public void wrapperMethod() {
+                Range footnoteRange = doc.getFootnoteRange();
+                int rangeStartOffset = footnoteRange.getStartOffset();
+}

@@ -1,2 +1,6 @@
-        public static POIFSDocumentType detectType(POIFSFileSystem fs) {
-            return detectType(fs.getRoot());
+public void wrapperMethod() {
+        POIFSFileSystem filesystem;
+
+        for (Entry entry : filesystem.getRoot()) {
+            POIFSDocumentType type = POIFSDocumentType.detectType(entry);
+}}

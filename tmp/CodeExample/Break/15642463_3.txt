@@ -1,8 +1,4 @@
-    public void addBreak(short main, short subFrom, short subTo)
-{
-        Break region = (Break)BreakMap.get(key);
-{
-            region.main = main;
-            region.subFrom = subFrom;
-            region.subTo = subTo;
-}}
+public void wrapperMethod() {
+         Break original = (Break)iterator.next();
+         record.addBreak(original.main, original.subFrom, original.subTo);
+}

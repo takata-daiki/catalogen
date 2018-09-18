@@ -1,6 +1,7 @@
-    public Object clone() {
+public void wrapperMethod() {
       NumberRecord rec = new NumberRecord();
       rec.field_1_row = field_1_row;
       rec.field_2_col = field_2_col;
       rec.field_3_xf = field_3_xf;
       rec.field_4_value = field_4_value;
+}

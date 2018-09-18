@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private HSSFSheet sheet;
 {
       int firstRow = sheet.getFirstRowNum();
@@ -23,4 +24,4 @@
       DataValidationConstraint constraint = sheet.getDataValidationHelper().createCustomConstraint(formula);
 }{
       sheet.addValidationData(dataValidation);
-}
+}}

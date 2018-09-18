@@ -1,5 +1,4 @@
-  public static void dumpStream(Stream stream, int indent) {
-{
+public void wrapperMethod() {
       PointerContainingStream pcs = (PointerContainingStream)stream;
       System.out.println(ind + "  Has " +
           pcs.getPointedToStreams().length + " children:");

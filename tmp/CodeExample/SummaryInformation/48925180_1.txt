@@ -1,5 +1,4 @@
-    public void processPOIFSReaderEvent(POIFSReaderEvent event) {
-{
+public void wrapperMethod() {
         SummaryInformation si = (SummaryInformation)
                                   PropertySetFactory.create(event.getStream());
         setProperty(DublinCore.TITLE, si.getTitle());

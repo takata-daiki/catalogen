@@ -1,5 +1,0 @@
-  public int addHyperlink(Hyperlink link) {
-    ExObjList lst = (ExObjList) _documentRecord.findFirstOfType(RecordTypes.ExObjList.typeID);
-
-    ExObjListAtom objAtom = lst.getExObjListAtom();
-    lst.addChildAfter(ctrl, objAtom);

@@ -1,3 +1,4 @@
+public void wrapperMethod() {
   private POILogger logger = POILogFactory.getLogger(this.getClass());
 {
     logger.log(POILogger.ERROR,
@@ -18,4 +19,4 @@
         + " and identifier " + sp.getSlideIdentifier());
 
     logger.log(POILogger.INFO, "New slide ended up at " + slideOffset);
-}
+}}

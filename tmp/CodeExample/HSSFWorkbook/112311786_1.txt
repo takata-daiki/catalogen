@@ -1,3 +1,4 @@
+public void wrapperMethod() {
   protected final HSSFWorkbook workbook;
 {
     sheet = workbook.createSheet(sheetName);
@@ -10,4 +11,4 @@
 }{{
       drawingPatriarch = workbook.getSheet(sheetName)
           .createDrawingPatriarch();
-}}
+}}}

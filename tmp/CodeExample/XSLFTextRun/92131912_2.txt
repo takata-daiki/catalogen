@@ -1,9 +1,0 @@
-    public XMLSlideShow generate(XMLSlideShow ppt, MarketingReportSettings reportSettings,
-                                 MarketingReportDataOneCity marketingReportDataOneCity, Function<String, byte[]> pictureGetter) {
-        XSLFTextRun r2 = p2.addNewTextRun();
-        r2.setText(marketingReportDataOneCity.getMarketingSourceByCity().getCityName()
-                + "\n" + otherUtils.getMonthName(mData.getMonth()) + " " + mData.getYear());
-        r2.setFontFamily("Verdana");
-        r2.setFontColor(Color.black);
-        r2.setFontSize(16);
-}

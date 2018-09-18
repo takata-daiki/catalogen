@@ -1,3 +1,0 @@
-    public boolean isStrikeThrough() {
-        XSSFFont xssfFont = theCell.getCellStyle().getFont();
-        return xssfFont.getStrikeout();

@@ -1,5 +1,0 @@
-  @Deprecated
-  public CHPX(int fcStart, int fcEnd, CharIndexTranslator translator, SprmBuffer buf)
-  {
-    super(fcStart, translator.lookIndexBackward(fcEnd), translator ,buf);
-}

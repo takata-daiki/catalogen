@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private RowRecord row;
 {
         row.setOptionFlags( (short)0x100 );   // seems necessary for outlining to work.  
@@ -44,4 +45,4 @@
         return row.getHeight();
 }{
         return (row.getHeight() / 20);
-}
+}}

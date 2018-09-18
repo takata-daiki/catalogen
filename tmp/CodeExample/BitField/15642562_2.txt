@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private BitField         colRelative = BitFieldFactory.getInstance(0x4000);
 {
         return colRelative.isSet(field_3_first_column);
@@ -7,4 +8,4 @@
         return colRelative.isSet(field_4_last_column);
 }{
         field_4_last_column=colRelative.setShortBoolean(field_4_last_column,rel);
-}
+}}

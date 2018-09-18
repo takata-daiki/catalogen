@@ -1,6 +1,0 @@
-    public boolean getVerticallyCenter(boolean value)
-{
-        VCenterRecord record =
-                (VCenterRecord) sheet.findFirstRecordBySid(VCenterRecord.sid);
-        return record.getVCenter();
-}

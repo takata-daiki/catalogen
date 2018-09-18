@@ -1,6 +1,5 @@
-     public static void writeDataToExcelFile(String fileName, long[][] data, int numDeleteRows) {
-
+public void wrapperMethod() {
          HSSFRow myRow = null;
 {{{
                  myCell = myRow.createCell(cellNum);
-}}}
+}}}}

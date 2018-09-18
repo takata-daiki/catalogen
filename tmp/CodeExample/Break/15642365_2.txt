@@ -1,6 +1,0 @@
-    public void shiftBreaks(PageBreakRecord breaks, short start, short stop, int count) {
-{
-      PageBreakRecord.Break breakItem = (PageBreakRecord.Break)iterator.next();
-        breaks.removeBreak(breakItem.main);
-        breaks.addBreak((short)(breakItem.main+count), breakItem.subFrom, breakItem.subTo);
-}

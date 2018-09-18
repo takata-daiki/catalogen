@@ -1,5 +1,4 @@
-    public CharacterProperties clone()
-{{
+public void wrapperMethod() {
             CharacterProperties cp = (CharacterProperties) super.clone();
             cp.setCv( getCv().clone() );
             cp.setDttmRMark( (DateAndTime) getDttmRMark().clone() );
@@ -9,4 +8,4 @@
             cp.setXstDispFldRMark( getXstDispFldRMark().clone() );
             cp.setShd( (ShadingDescriptor) getShd().clone() );
             cp.setBrc( (BorderCode) getBrc().clone() );
-}}
+}

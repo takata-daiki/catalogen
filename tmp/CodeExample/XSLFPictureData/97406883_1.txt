@@ -1,5 +1,0 @@
-    public int addPicture(byte[] pictureData, int format) {
-        XSLFPictureData img = findPictureData(pictureData);
-{{
-                OutputStream out = img.getPackagePart().getOutputStream();
-}}

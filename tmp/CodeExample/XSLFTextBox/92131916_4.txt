@@ -1,4 +1,5 @@
-    private XMLSlideShow generateDetailShop(XMLSlideShow ppt, MarketingSlideInfo slide, Function<String, byte[]> pictureGetter, MarketingReportData mData) {
+public void wrapperMethod() {
         XSLFTextBox txt2 = pptSlide.createTextBox();
         txt2.setAnchor(new java.awt.Rectangle(20, titleHeight + 40, 650, subTitleHeight));
         XSLFTextParagraph p2 = txt2.addNewTextParagraph();
+}

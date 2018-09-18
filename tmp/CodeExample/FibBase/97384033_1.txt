@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private FibBase _fibBase;
 {
         if ( _fibBase.isFEncrypted() )
@@ -13,4 +14,4 @@
             return _fibBase.getNFib();
 }{
         _fibBase.serialize( mainStream, 0 );
-}
+}}

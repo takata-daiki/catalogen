@@ -1,6 +1,0 @@
-    @Override
-    protected IITextContainer startVisitTable( XWPFTable table, float[] colWidths, IITextContainer pdfParentContainer )
-        throws Exception
-    {
-        StylableTable pdfPTable = createPDFTable( table, colWidths, pdfParentContainer );
-}

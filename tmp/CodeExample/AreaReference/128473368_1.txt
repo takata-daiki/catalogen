@@ -1,5 +1,4 @@
-    protected void parseSheet() {
-{
+public void wrapperMethod() {
             AreaReference aref = new AreaReference(nm.getRefersToFormula());
             band.c1 = aref.getFirstCell().getCol();
             band.c2 = aref.getLastCell().getCol();

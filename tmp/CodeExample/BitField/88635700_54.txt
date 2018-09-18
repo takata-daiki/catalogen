@@ -1,6 +1,7 @@
-    /**/private static BitField fWCFtnEdn = new BitField(0x8000);
+public void wrapperMethod() {
+    /**/private static BitField fGramAllClean = new BitField(0x0040);
 {
-        field_24_Edn1 = (short)fWCFtnEdn.setBoolean(field_24_Edn1, value);
+        field_37_docinfo5 = (short)fGramAllClean.setBoolean(field_37_docinfo5, value);
 }{
-        return fWCFtnEdn.isSet(field_24_Edn1);
-}
+        return fGramAllClean.isSet(field_37_docinfo5);
+}}

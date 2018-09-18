@@ -1,5 +1,4 @@
-  public void genCountRow(HSSFRow row, HSSFWorkbook wb, int rowIndex) {
-{{
+public void wrapperMethod() {
         HSSFCell cell = row.createCell(i);
 {
           cell.setCellStyle(style);
@@ -7,4 +6,4 @@
           cell.setCellType(HSSFCell.CELL_TYPE_FORMULA);
           cell.setCellFormula("SUM(" + str[i] + "3:" + str[i]
               + (rowIndex - 1) + ")");
-}}}
+}}

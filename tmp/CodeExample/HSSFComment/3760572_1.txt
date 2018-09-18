@@ -1,5 +1,4 @@
-    public Cell addComment(String strAuthor,String strCommecnt)
-{
+public void wrapperMethod() {
         HSSFComment comment = this.m_cell.getCellComment();
 {
             comment.setString(new HSSFRichTextString(strCommecnt));

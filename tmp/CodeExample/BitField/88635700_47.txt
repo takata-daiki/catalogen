@@ -1,6 +1,7 @@
-    /**/private static BitField nEdn = new BitField(0xfffc);
+public void wrapperMethod() {
+    /**/private static BitField fSupressTopSpacing = new BitField(0x00000080);
 {
-        field_23_Edn = (short)nEdn.setValue(field_23_Edn, value);
+        field_33_docinfo4 = (int)fSupressTopSpacing.setBoolean(field_33_docinfo4, value);
 }{
-        return ( short )nEdn.getValue(field_23_Edn);
-}
+        return fSupressTopSpacing.isSet(field_33_docinfo4);
+}}

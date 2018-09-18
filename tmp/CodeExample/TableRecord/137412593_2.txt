@@ -1,9 +1,8 @@
-  public String getReportFilename(Date fromDate, Date toDate,
-      String dataAreaId) {
-{{
-        TableRecord record = new TableRecord();
-        record.itemName = prodItem.getName();
-        record.UOMId = prodItem.getUOMId();
-        record.oper = "Произведено";
-        String key = record.itemName + " " + record.oper;
-}}}
+public void wrapperMethod() {
+    for (TableRecord record : produceItems) {
+      HSSFRow currentRow = sheet.createRow(rowIndex);
+      String key = record.itemName + " " + record.oper;
+      cell.setCellValue(record.itemName);
+      cell.setCellValue(record.oper);
+      cell.setCellValue(record.UOMId);
+}}

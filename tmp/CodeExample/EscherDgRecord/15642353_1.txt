@@ -1,5 +1,4 @@
-    public EscherDgRecord createDgRecord()
-{
+public void wrapperMethod() {
         EscherDgRecord dg = new EscherDgRecord();
         dg.setRecordId( EscherDgRecord.RECORD_ID );
         dg.setOptions( (short) ( dgId << 4 ) );

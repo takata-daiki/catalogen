@@ -1,9 +1,9 @@
+public void wrapperMethod() {
     protected ObjectProtectRecord        objprotect        =     null;
 {{
             objprotect.setProtect(false);
 }}{
         return new boolean[] { (protect != null && protect.getProtect()), 
                              (objprotect != null && objprotect.getProtect()),
-}
                              (scenprotect != null && scenprotect.getProtect())};
-}
+}}

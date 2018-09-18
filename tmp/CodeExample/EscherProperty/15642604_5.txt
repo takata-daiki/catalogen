@@ -1,5 +1,0 @@
-            public int compare( Object o1, Object o2 )
-{
-                EscherProperty p1 = (EscherProperty) o1;
-                return new Short( p1.getPropertyNumber() ).compareTo( new Short( p2.getPropertyNumber() ) );
-}

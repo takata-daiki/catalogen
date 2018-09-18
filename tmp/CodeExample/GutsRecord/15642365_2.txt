@@ -1,5 +1,4 @@
-    public void groupColumnRange(short fromColumn, short toColumn, boolean indent)
-{
+public void wrapperMethod() {
         GutsRecord guts = (GutsRecord) findFirstRecordBySid( GutsRecord.sid );
         guts.setColLevelMax( (short) ( maxLevel+1 ) );
         if (maxLevel == 0)

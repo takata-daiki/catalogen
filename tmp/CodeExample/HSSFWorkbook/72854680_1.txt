@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private HSSFWorkbook hssfWorkbook;
 {
         hssfWorkbook.setSheetName(hssfWorkbook.getSheetIndex(sheet), name);
@@ -13,4 +14,4 @@
     return hssfWorkbook.isSheetVeryHidden(hssfWorkbook.getSheetIndex(sheet));
 }{
         return hssfWorkbook.getSheetName(hssfWorkbook.getSheetIndex(sheet));
-}
+}}

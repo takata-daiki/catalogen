@@ -1,3 +1,0 @@
-  public static void autoFilter(HSSFSheet sh, CellRangeAddress cellsRef, Object filterValue){
-    autoFilter(sh, new  AreaReference(new CellReference(cellsRef.getFirstRow(), cellsRef.getFirstColumn()),
-        new CellReference(cellsRef.getLastRow(), cellsRef.getLastColumn())), filterValue);

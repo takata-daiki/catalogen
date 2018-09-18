@@ -1,5 +1,4 @@
-    private double drawParagraphs(Graphics2D graphics,  double x, double y) {
-{
-        XSLFTextParagraph p = _paragraphs.get(i);
-        y += p.draw(graphics, x, y);
+public void wrapperMethod() {
+            XSLFTextParagraph p2 = tgtP.get(i);
+            p2.copy(p1);
 }

@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private void parse(SummaryInformation summary) {
         set(Metadata.TITLE, summary.getTitle());
         set(Metadata.AUTHOR, summary.getAuthor());
@@ -19,3 +20,4 @@
         set(Metadata.SECURITY, summary.getSecurity());
         set(Metadata.WORD_COUNT, summary.getWordCount());
         set(Metadata.LAST_PRINTED, summary.getLastPrinted());
+}}

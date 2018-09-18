@@ -1,7 +1,8 @@
+public void wrapperMethod() {
     static final private BitField autobreaks          =
         BitFieldFactory.getInstance(0x01);                               // are automatic page breaks visible
 {
         field_1_wsbool = autobreaks.setByteBoolean(field_1_wsbool, ab);
 }{
         return autobreaks.isSet(field_1_wsbool);
-}
+}}

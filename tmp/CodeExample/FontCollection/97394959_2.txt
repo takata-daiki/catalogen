@@ -1,3 +1,4 @@
-  public PPFont getFont(int idx) {
+public void wrapperMethod() {
     FontCollection fonts = getDocumentRecord().getEnvironment().getFontCollection();
     Record[] ch = fonts.getChildRecords();
+}

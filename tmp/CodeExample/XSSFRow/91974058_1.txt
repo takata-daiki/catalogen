@@ -1,6 +1,4 @@
-  public void erstelleExcel(ArrayList<String> spalten, int patient1,
-      int patient2, int kontaktperson1, int kontaktperson2, String von, String bis) {
-{
+public void wrapperMethod() {
       XSSFRow zeile = sheet.createRow(0);
       XSSFCell headerCell0 = zeile.createCell(0);
-}}
+}

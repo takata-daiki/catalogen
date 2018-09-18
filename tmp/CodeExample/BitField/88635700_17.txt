@@ -1,6 +1,7 @@
-    /**/private static BitField fBackup = new BitField(0x01);
+public void wrapperMethod() {
+    /**/private static BitField fDfltTrueType = new BitField(0x80);
 {
-        field_6_docinfo1 = (byte)fBackup.setBoolean(field_6_docinfo1, value);
+        field_6_docinfo1 = (byte)fDfltTrueType.setBoolean(field_6_docinfo1, value);
 }{
-        return fBackup.isSet(field_6_docinfo1);
-}
+        return fDfltTrueType.isSet(field_6_docinfo1);
+}}

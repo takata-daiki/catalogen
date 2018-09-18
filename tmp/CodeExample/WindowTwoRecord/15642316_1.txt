@@ -1,5 +1,4 @@
-    public HSSFSheet createSheet()
-{
+public void wrapperMethod() {
         WindowTwoRecord windowTwo = (WindowTwoRecord) sheet.getSheet().findFirstRecordBySid(WindowTwoRecord.sid);
         windowTwo.setSelected(sheets.size() == 1);
         windowTwo.setPaged(sheets.size() == 1);

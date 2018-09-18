@@ -1,6 +1,7 @@
-    /**/private static BitField fOnlyMacPics = new BitField(0x01);
+public void wrapperMethod() {
+    /**/private static BitField fAutoHyphen = new BitField(0x10);
 {
-        field_5_docinfo = (byte)fOnlyMacPics.setBoolean(field_5_docinfo, value);
+        field_5_docinfo = (byte)fAutoHyphen.setBoolean(field_5_docinfo, value);
 }{
-        return fOnlyMacPics.isSet(field_5_docinfo);
-}
+        return fAutoHyphen.isSet(field_5_docinfo);
+}}

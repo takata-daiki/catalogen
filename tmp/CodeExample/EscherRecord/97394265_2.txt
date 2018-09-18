@@ -1,5 +1,4 @@
-    protected Record[] getClientRecords() {
-{
+public void wrapperMethod() {
             EscherRecord r = Shape.getEscherChild(getSpContainer(), EscherClientDataRecord.RECORD_ID);
 {
                 byte[] data = r.serialize();

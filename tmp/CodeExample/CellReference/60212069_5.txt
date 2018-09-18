@@ -1,2 +1,0 @@
-  public static void fill(HSSFSheet sh, CellReference topLeft, CellReference botRight, Object valueFill, byte lookIn){
-    fill(sh, new  AreaReference(topLeft, botRight), valueFill, lookIn);

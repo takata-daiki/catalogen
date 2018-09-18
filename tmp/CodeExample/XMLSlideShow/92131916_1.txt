@@ -1,6 +1,9 @@
-    @Override
-    public XMLSlideShow generate(XMLSlideShow ppt, MarketingReportSettings reportSettings,
-                                 MarketingReportDataOneCity marketingReportDataOneCity,
-                                 Function<String, byte[]> pictureGetter) {
-        MarketingReportData mData = marketingReportDataOneCity.getMarketingReportData();
-}
+public void wrapperMethod() {
+    private XMLSlideShow generateDetailShop(XMLSlideShow ppt, MarketingSlideInfo slide, Function<String, byte[]> pictureGetter, MarketingReportData mData) {
+        final int maxPictureWidth = 185, maxPictureHeight = 300, leftPicturePadding = 50, betweenDifference = 30,
+                titleHeight = 70, subTitleHeight = 80, titlesSumHeight = titleHeight + subTitleHeight,
+                fullPictureWidthPlace = maxPictureWidth + betweenDifference;
+        XSLFSlide pptSlide = ppt.createSlide();
+{
+            int idx = ppt.addPicture(picBytes1, XSLFPictureData.PICTURE_TYPE_PNG);
+}}}

@@ -1,6 +1,7 @@
-    /**/private static BitField fAutoHyphen = new BitField(0x10);
+public void wrapperMethod() {
+    /**/private static BitField fExactCWords = new BitField(0x02);
 {
-        field_5_docinfo = (byte)fAutoHyphen.setBoolean(field_5_docinfo, value);
+        field_6_docinfo1 = (byte)fExactCWords.setBoolean(field_6_docinfo1, value);
 }{
-        return fAutoHyphen.isSet(field_5_docinfo);
-}
+        return fExactCWords.isSet(field_6_docinfo1);
+}}

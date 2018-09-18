@@ -1,11 +1,14 @@
-    public Comment[] getComments() {
-      RecordContainer progTags = (RecordContainer)
-          getSheetContainer().findFirstOfType(
-                RecordTypes.ProgTags.typeID
-      );
+public void wrapperMethod() {
+          RecordContainer binaryTags = (RecordContainer)
+            progBinaryTag.findFirstOfType(
+                RecordTypes.BinaryTagData.typeID
+          );
 {
-        RecordContainer progBinaryTag = (RecordContainer)
-          progTags.findFirstOfType(
-              RecordTypes.ProgBinaryTag.typeID
-        );
-}
+            for(int i=0; i<binaryTags.getChildRecords().length; i++) {
+              if(binaryTags.getChildRecords()[i] instanceof Comment2000) {
+                count++;
+}}{{
+                comments[i] = new Comment(
+                    (Comment2000)binaryTags.getChildRecords()[i]
+                );
+}}}}

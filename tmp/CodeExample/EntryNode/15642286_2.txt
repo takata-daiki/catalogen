@@ -1,8 +1,0 @@
-    boolean deleteEntry(final EntryNode entry)
-    {
-        boolean rval =
-            (( DirectoryProperty ) getProperty())
-                .deleteChild(entry.getProperty());
-{
-            _entries.remove(entry.getName());
-}}

@@ -1,5 +1,4 @@
-    public boolean isSupportedType(final int variantType)
-{{{
+public void wrapperMethod() {
             VariantBool bool = (VariantBool) typedPropertyValue.getValue();
             return Boolean.valueOf( bool.getValue() );
-}}}
+}

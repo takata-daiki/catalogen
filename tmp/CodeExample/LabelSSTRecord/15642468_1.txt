@@ -1,6 +1,7 @@
-    public Object clone() {
+public void wrapperMethod() {
       LabelSSTRecord rec = new LabelSSTRecord();
       rec.field_1_row = field_1_row;
       rec.field_2_column = field_2_column;
       rec.field_3_xf_index = field_3_xf_index;
       rec.field_4_sst_index = field_4_sst_index;
+}

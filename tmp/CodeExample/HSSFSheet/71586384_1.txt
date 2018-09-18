@@ -1,6 +1,6 @@
-  public boolean writeExcel(String file, ResultSet res)
-{
-      HSSFSheet sheet1 = workbook.createSheet("sheet1");
-{{
-          HSSFRow row = sheet1.createRow(count); 
+public void wrapperMethod() {
+          HSSFSheet aSheet = workbook.getSheetAt(numSheets);
+          for (int rowNumOfSheet = 1; rowNumOfSheet <= aSheet.getLastRowNum(); rowNumOfSheet++) {
+            if (null != aSheet.getRow(rowNumOfSheet)) {
+              HSSFRow aRow = aSheet.getRow(rowNumOfSheet);
 }}}

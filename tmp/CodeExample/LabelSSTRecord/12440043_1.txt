@@ -1,5 +1,4 @@
-    public void processRecord(Record record)
-{{{
+public void wrapperMethod() {
                     final LabelSSTRecord lrec = (LabelSSTRecord) record;
                     if (lrec.getRow() == 0)
                     { 
@@ -26,4 +25,4 @@
 }
                         if (isLastColumn(lrec.getColumn())) {
                             keywords.put(keyword.getKeyword(), keyword);
-}}}}}
+}}}

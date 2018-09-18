@@ -1,5 +1,4 @@
-  private Cell getCellFromReference(String reference)
-{
+public void wrapperMethod() {
     CellReference cellRef = new CellReference(reference);
     String sheetName = cellRef.getSheetName();
 

@@ -1,7 +1,0 @@
-    static final private BitField usepage       =
-        BitFieldFactory.getInstance(0x80);   // use a user set page no, instead of auto
-{
-        field_6_options = usepage.setShortBoolean(field_6_options, page);
-}{
-        return usepage.isSet(field_6_options);
-}

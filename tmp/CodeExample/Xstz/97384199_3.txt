@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private Xstz _xstzHelpText;
 {
         offset += this._xstzHelpText.getSize();
@@ -5,4 +6,4 @@
         size += _xstzHelpText.getSize();
 }{
         offset += _xstzHelpText.serialize( buffer, offset );
-}
+}}

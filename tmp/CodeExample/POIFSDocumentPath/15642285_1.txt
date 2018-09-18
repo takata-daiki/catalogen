@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private POIFSDocumentPath path;
 {{{
                 rval = this.path.equals(descriptor.path)
@@ -9,4 +10,4 @@
         for (int j = 0; j < path.length(); j++)
 {
             buffer.append(path.getComponent(j)).append("/");
-}}
+}}}

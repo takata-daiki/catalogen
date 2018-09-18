@@ -1,7 +1,8 @@
-    static final private BitField notes         =
-        BitFieldFactory.getInstance(0x20);   // print the notes
+public void wrapperMethod() {
+    static final private BitField usepage       =
+        BitFieldFactory.getInstance(0x80);   // use a user set page no, instead of auto
 {
-        field_6_options = notes.setShortBoolean(field_6_options, printnotes);
+        field_6_options = usepage.setShortBoolean(field_6_options, page);
 }{
-        return notes.isSet(field_6_options);
-}
+        return usepage.isSet(field_6_options);
+}}

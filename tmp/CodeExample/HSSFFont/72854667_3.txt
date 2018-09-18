@@ -1,3 +1,0 @@
-    public boolean isUnderline() {
-        HSSFFont hssfFont = theCell.getCellStyle().getFont(getWorkbook());
-        return hssfFont.getUnderline() != 0;

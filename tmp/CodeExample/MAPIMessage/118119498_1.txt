@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private final MAPIMessage msg;
 {{{
                 headers = msg.getHeaders();
@@ -15,4 +16,4 @@
                 String body = msg.getTextBody();
 }
             AttachmentChunks[] attachments = msg.getAttachmentFiles();
-}}
+}}}

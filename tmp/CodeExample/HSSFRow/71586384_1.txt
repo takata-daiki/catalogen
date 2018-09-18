@@ -1,5 +1,4 @@
-  public boolean writeExcel(String file, ResultSet res)
-{{{
+public void wrapperMethod() {
           HSSFRow row = sheet1.createRow(count); 
           row.createCell(0).setCellValue(res.getString("Url")); 
-}}}
+}

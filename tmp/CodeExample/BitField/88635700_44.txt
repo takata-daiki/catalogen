@@ -1,6 +1,7 @@
-    /**/private static BitField oldfSwapBordersFacingPgs = new BitField(0x0800);
+public void wrapperMethod() {
+    /**/private static BitField fMapPrintTextColor = new BitField(0x00000010);
 {
-        field_8_docinfo3 = (short)oldfSwapBordersFacingPgs.setBoolean(field_8_docinfo3, value);
+        field_33_docinfo4 = (int)fMapPrintTextColor.setBoolean(field_33_docinfo4, value);
 }{
-        return oldfSwapBordersFacingPgs.isSet(field_8_docinfo3);
-}
+        return fMapPrintTextColor.isSet(field_33_docinfo4);
+}}

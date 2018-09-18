@@ -1,9 +1,8 @@
-    protected static HSSFComment findCellComment(Sheet sheet, int row, int column){
-{{{
+public void wrapperMethod() {
                    CommonObjectDataSubRecord cmo = (CommonObjectDataSubRecord)sub;
                    if (cmo.getObjectType() == CommonObjectDataSubRecord.OBJECT_TYPE_COMMENT){
                        while(it.hasNext()) {
                            rec = ( Record ) it.next();
 {
                                txshapes.put(new Integer(cmo.getObjectId()), rec);
-}}}}}}
+}}}}

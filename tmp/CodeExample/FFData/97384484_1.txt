@@ -1,5 +1,4 @@
-        if ( getDocument() instanceof HWPFDocument )
-{{
+public void wrapperMethod() {
                 FFData ffData = new FFData( data.getBinData(), 0 );
                 String[] values = ffData.getDropList();
-}}
+}

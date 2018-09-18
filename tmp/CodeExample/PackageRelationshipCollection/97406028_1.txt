@@ -1,5 +1,5 @@
-    protected PackagePart getCorePart() {
-}{
+public void wrapperMethod() {
         PackageRelationshipCollection partsC =
             getPackagePart().getRelationshipsByType(contentType);
         PackagePart[] parts = new PackagePart[partsC.size()];
+}

@@ -1,5 +1,4 @@
-    public short createFormat( String format )
-{
+public void wrapperMethod() {
         FormatRecord rec = new FormatRecord();
         rec.setIndexCode( maxformatid );
         rec.setFormatStringLength( (byte) format.length() );

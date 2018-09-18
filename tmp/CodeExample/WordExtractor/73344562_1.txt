@@ -1,2 +1,4 @@
+public void wrapperMethod() {
       WordExtractor we = new WordExtractor(doc);
-      paragraphs = we.getParagraphText();
+      String[] paragraphs = we.getParagraphText();
+}

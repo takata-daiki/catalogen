@@ -1,5 +1,4 @@
-    public void importExcel2003(final User user, final InputStream is) {
-{
+public void wrapperMethod() {
             POIFSFileSystem poifs = new POIFSFileSystem(bis);
             dis = poifs.createDocumentInputStream("Workbook");
 }

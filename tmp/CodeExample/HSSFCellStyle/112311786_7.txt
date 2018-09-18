@@ -1,8 +1,0 @@
-  private HSSFCellStyle createBorderedCurrencyCellStyle(
-      final HSSFWorkbook workbook, final HSSFFont font) {
-    final HSSFCellStyle cellStyle = createBorderedCellStyle(workbook);
-{
-      cellStyle.setFont(font);
-}
-    cellStyle.setDataFormat((short) 4);
-}

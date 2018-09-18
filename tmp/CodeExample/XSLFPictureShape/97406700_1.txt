@@ -1,4 +1,0 @@
-    public XSLFPictureShape createPicture(int pictureIndex){
-
-        XSLFPictureShape sh = getDrawing().createPicture(rel.getId());
-        sh.resize();

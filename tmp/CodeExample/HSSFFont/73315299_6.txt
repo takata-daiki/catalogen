@@ -1,5 +1,0 @@
-  private static HSSFFont createFont(HSSFWorkbook workbook, short color, short bold) {
-    HSSFFont font = workbook.createFont();
-    font.setColor(color);
-    font.setFontHeightInPoints((short) 12);
-    font.setBoldweight(bold);

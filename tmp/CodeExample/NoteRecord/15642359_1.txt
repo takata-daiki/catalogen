@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private NoteRecord note;
 {
         note.setColumn(shape.getColumn());
@@ -5,4 +6,4 @@
         note.setFlags(shape.isVisible() ? NoteRecord.NOTE_VISIBLE : NoteRecord.NOTE_HIDDEN);
         note.setShapeId((short)shapeId);
         note.setAuthor(shape.getAuthor() == null ? "" : shape.getAuthor());
-}
+}}

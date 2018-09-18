@@ -1,8 +1,5 @@
-    private int findFormatRunAt(int characterPos) {
-{
-        FormatRun r = (FormatRun)field_4_format_runs.get(i);
-        if (r.character == characterPos)
-          return i;
-        else if (r.character > characterPos)
-          return -1;
+public void wrapperMethod() {
+          FormatRun r = (FormatRun)field_4_format_runs.get(i);
+          LittleEndian.putShort(data, pos, r.character);
+          LittleEndian.putShort(data, pos, r.fontIndex);
 }

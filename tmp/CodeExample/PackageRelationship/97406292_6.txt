@@ -1,6 +1,0 @@
-  public PackageRelationship addRelationship(PackagePartName targetPartName,
-      TargetMode targetMode, String relationshipType, String relID) {
-
-    PackageRelationship retRel = relationships.addRelationship(
-        targetPartName.getURI(), targetMode, relationshipType, relID);
-}

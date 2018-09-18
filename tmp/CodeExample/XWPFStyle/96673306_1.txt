@@ -1,13 +1,11 @@
-    protected Style buildStyle( String styleID )
-{{
+public void wrapperMethod() {
             XWPFStyle style = document.getStyles().getStyle( styleID );
             CTPPr xwpfParagraphProperties = style.getCTStyle().getPPr();
 {
                 if ( style.getCTStyle().getRPr() != null )
                 {
-}
                 }
                 CTPBdr borders = xwpfParagraphProperties.getPBdr();
 }
             CTTblPrBase xwpfTableProperties = style.getCTStyle().getTblPr();
-}}
+}

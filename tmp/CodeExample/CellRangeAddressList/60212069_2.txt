@@ -1,4 +1,0 @@
-  public static CellRangeAddressList getSpecialCells(HSSFSheet sh, CellRangeAddress cellRef0, XlCellType xlCellType){
-    CellRangeAddressList rangeList = new CellRangeAddressList();
-
-    return rangeList.countRanges() > 0?rangeList:null;

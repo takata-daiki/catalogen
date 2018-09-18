@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     protected Grfhic field_6_grfhic;
 {
         field_6_grfhic.serialize( data, 0xe + offset );
@@ -9,4 +10,4 @@
                 + ((field_6_grfhic == null) ? 0 : field_6_grfhic.hashCode());
 }{
         builder.append(" ( ").append( field_6_grfhic == null ? "null" : field_6_grfhic.toString().replaceAll( "\n", "\n    " ) ).append( " )\n" );
-}
+}}

@@ -1,4 +1,6 @@
-    public Enum getTableCellVerticalAlignment( XWPFTableCell cell )
+    public TableCellBorder getTableCellBorderWithConflicts( XWPFTableCell cell, BorderSide borderSide )
     {
-        return TableCellVerticalAlignmentValueProvider.INSTANCE.getValue( cell, this );
-}
+        TableCellBorder border = getTableCellBorder( cell, borderSide );
+{
+            XWPFTable table = cell.getTableRow().getTable();
+}}

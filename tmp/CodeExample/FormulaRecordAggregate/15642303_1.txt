@@ -1,5 +1,4 @@
-    private void setCellType(int cellType, boolean setValue, int row,short col, short styleIndex)
-{{
+public void wrapperMethod() {
             case CELL_TYPE_FORMULA :
                 FormulaRecordAggregate frec = null;
 
@@ -9,4 +8,4 @@
 }
                 frec.setXFIndex(styleIndex);
                 frec.setRow(row);
-}}
+}

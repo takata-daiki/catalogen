@@ -1,5 +1,4 @@
-    public void process(final InputStream stream, final SheetProcessor sheetProcessor)
-{
+public void wrapperMethod() {
         final XSSFReader xssfReader = xssfReaderFactory.create(stream);
 {
             XSSFReader.SheetIterator sheetsData = (XSSFReader.SheetIterator) xssfReader.getSheetsData();

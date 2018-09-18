@@ -1,9 +1,0 @@
-    private EscherContainerRecord createSpContainer( HSSFTextbox hssfShape, int shapeId )
-{
-        HSSFTextbox shape = hssfShape;
-        opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.TEXT__TEXTLEFT, shape.getMarginLeft() ) );
-        opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.TEXT__TEXTRIGHT, shape.getMarginRight() ) );
-        opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.TEXT__TEXTBOTTOM, shape.getMarginBottom() ) );
-        opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.TEXT__TEXTTOP, shape.getMarginTop() ) );
-        HSSFAnchor userAnchor = shape.getAnchor();
-}

@@ -1,12 +1,4 @@
-    public byte[] convertToExcel(ActivityReport report) {
-        HSSFWorkbook wb = new HSSFWorkbook();
-        Font headerFont = wb.createFont();
-        Font userFont = wb.createFont();
-        Font storyFont = wb.createFont();
-        HSSFSheet overviewSheet = wb.createSheet(sheetName);
-
-        wb.setRepeatingRowsAndColumns(0, 0, 0, 0, 0);
-        wb.setPrintArea(0, 0, 8, 0, overviewSheetRow);
-{
-            wb.write(baos);
+    private CellStyle createPercentStyle(HSSFWorkbook wb, Font font) {
+        CellStyle style = wb.createCellStyle();
+        CreationHelper creationHelper = wb.getCreationHelper();
 }

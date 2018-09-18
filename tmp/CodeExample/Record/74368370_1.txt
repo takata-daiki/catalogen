@@ -1,10 +1,8 @@
-  private static HSSFWorkbook export(String sheetName, int cellWidth,
-      int headerRow, String[] headers, String[] columns,List  list,int columnNum,  boolean hasHeaders) {
-{{{
+public void wrapperMethod() {
           Record record = (Record)obj;
           Map<String,Object> map = record.getColumns();
 {
             record.getColumns();
 {
               cell.setCellValue(record.get(key)+"");
-}}}}}}
+}}}

@@ -1,9 +1,5 @@
-    public void expandColumn( short columnNumber )
-{
-        ColumnInfoRecord columnInfo = getColInfo( startIdx );
-{{
-                if (columnInfo.getOutlineLevel() == getColInfo(i).getOutlineLevel())
-                    getColInfo(i).setHidden( false );
-}}
-        setColumn( (short) ( columnInfo.getLastColumn() + 1 ), null, null, null, null, Boolean.FALSE);
+public void wrapperMethod() {
+            ColumnInfoRecord nci = ( ColumnInfoRecord ) createColInfo();
+            nci.setFirstColumn(column);
+            nci.setLastColumn(column);
 }

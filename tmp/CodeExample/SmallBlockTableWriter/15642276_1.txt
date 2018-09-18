@@ -1,5 +1,4 @@
-    public POIFSFileSystem()
-{
+public void wrapperMethod() {
         SmallBlockTableWriter      sbtw       =
             new SmallBlockTableWriter(_documents, _property_table.getRoot());
         bm_objects.add(sbtw.getSBAT());

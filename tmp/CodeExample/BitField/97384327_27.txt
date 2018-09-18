@@ -1,6 +1,7 @@
-    /**/private static final BitField fBoldOther = new BitField(0x02000000);
+public void wrapperMethod() {
+    /**/private static final BitField fWarichuNoOpenBracket = new BitField(0x08);
 {
-        field_1_grpfChp = fBoldOther.setBoolean(field_1_grpfChp, value);
+        field_30_copt = (byte)fWarichuNoOpenBracket.setBoolean(field_30_copt, value);
 }{
-        return fBoldOther.isSet(field_1_grpfChp);
-}
+        return fWarichuNoOpenBracket.isSet(field_30_copt);
+}}

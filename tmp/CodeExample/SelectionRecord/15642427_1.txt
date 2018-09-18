@@ -1,4 +1,4 @@
-    public Object clone() {
+public void wrapperMethod() {
       SelectionRecord rec = new SelectionRecord();
       rec.field_1_pane = field_1_pane;
       rec.field_2_row_active_cell = field_2_row_active_cell;
@@ -6,3 +6,4 @@
       rec.field_4_ref_active_cell = field_4_ref_active_cell;
       rec.field_5_num_refs = field_5_num_refs;
       rec.field_6_refs = field_6_refs;
+}

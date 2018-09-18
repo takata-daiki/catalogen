@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     protected ShadingDescriptor field_23_shd;
 {
         else if ( !field_23_shd.equals( other.field_23_shd ) )
@@ -5,4 +6,4 @@
 }{
         result = prime * result
                 + ((field_23_shd == null) ? 0 : field_23_shd.hashCode());
-}
+}}

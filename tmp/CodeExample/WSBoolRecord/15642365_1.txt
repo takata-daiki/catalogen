@@ -1,5 +1,4 @@
-    protected Record createWSBool()
-{
+public void wrapperMethod() {
         WSBoolRecord retval = new WSBoolRecord();
         retval.setWSBool1(( byte ) 0x4);
         retval.setWSBool2(( byte ) 0xffffffc1);

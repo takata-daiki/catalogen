@@ -1,6 +1,0 @@
-    public void setFitToPage(boolean b)
-{
-        WSBoolRecord record =
-                (WSBoolRecord) sheet.findFirstRecordBySid(WSBoolRecord.sid);
-        record.setFitToPage(b);
-}

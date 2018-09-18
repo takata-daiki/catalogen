@@ -1,5 +1,4 @@
-    public int fillFields( byte[] data, int offset, EscherRecordFactory recordFactory )
-{
+public void wrapperMethod() {
         EscherPropertyFactory f = new EscherPropertyFactory();
         properties = f.createProperties( data, pos, getInstance() );
 }

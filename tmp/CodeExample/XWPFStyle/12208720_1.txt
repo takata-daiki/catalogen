@@ -1,4 +1,8 @@
-    public static StringBuilder getStyle( XWPFParagraph paragraph, XWPFStyle style, CTDocDefaults defaults )
+    public static CTPPr getPPr( XWPFStyle style )
     {
-        StringBuilder htmlStyle = new StringBuilder();
+        if ( style == null )
+        {
+            return null;
+}
+        CTStyle ctStyle = style.getCTStyle();
 }

@@ -1,6 +1,4 @@
-    @Override
-    protected void endVisitTable( XWPFTable table, Object parentContainer, Object tableContainer )
-        throws Exception
-    {
-        endElement( TABLE_ELEMENT );
+public void wrapperMethod() {
+        XWPFTable table = row.getTable();
+        AttributesImpl attributes = createClassAttribute( table.getStyleID() );
 }

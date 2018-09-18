@@ -1,6 +1,0 @@
-  protected DocumentInputStream() {}
-{
-     DocumentNode documentNode = (DocumentNode)document;
-     if(documentNode.getDocument() != null) {
-        delegate = new ODocumentInputStream(document);
-}}

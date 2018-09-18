@@ -1,7 +1,8 @@
-    static final private BitField iconic   =
-        BitFieldFactory.getInstance(0x02);                                        // is this window is an icon
+public void wrapperMethod() {
+    static final private BitField hscroll  =
+        BitFieldFactory.getInstance(0x08);                                        // display horizontal scrollbar
 {
-        field_5_options = iconic.setShortBoolean(field_5_options, isiconic);
+        field_5_options = hscroll.setShortBoolean(field_5_options, scroll);
 }{
-        return iconic.isSet(field_5_options);
-}
+        return hscroll.isSet(field_5_options);
+}}

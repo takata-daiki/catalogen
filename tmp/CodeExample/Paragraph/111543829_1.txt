@@ -1,4 +1,6 @@
+public void wrapperMethod() {
         Paragraph par1 = range.insertAfter(new ParagraphProperties(), 0);
         par1.setSpacingAfter(200);
         par1.setJustification((byte) 1);
         CharacterRun run1 = par1.insertAfter("one");
+}

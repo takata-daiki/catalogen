@@ -1,7 +1,5 @@
-    public static Map<String, PictureData> getSheetPictrues07(  
-            XSSFSheet sheet, XSSFWorkbook workbook) {  
-{{{
+public void wrapperMethod() {
                     XSSFPicture pic = (XSSFPicture) shape;  
                     XSSFClientAnchor anchor = pic.getPreferredSize();  
                     sheetIndexPicMap.put(picIndex, pic.getPictureData());  
-}}}}
+}

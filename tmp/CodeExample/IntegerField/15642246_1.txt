@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private IntegerField        _previous_property;
 {
         return _previous_property.get();
@@ -5,4 +6,4 @@
         _previous_property.set((child == null) ? _NO_INDEX
                                                : (( Property ) child)
                                                    .getIndex(), _raw_data);
-}
+}}

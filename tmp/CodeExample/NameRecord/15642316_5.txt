@@ -1,5 +1,0 @@
-  public String getPrintArea(int sheetIndex)
-{
-    NameRecord name = workbook.getSpecificBuiltinRecord(NameRecord.BUILTIN_PRINT_AREA, sheetIndex+1);
-    return name.getAreaReference(workbook);
-}

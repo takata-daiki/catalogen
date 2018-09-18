@@ -1,5 +1,4 @@
-    private TextObjectRecord createTextObjectRecord( HSSFTextbox hssfShape, int shapeId )
-{
+public void wrapperMethod() {
         TextObjectRecord obj = new TextObjectRecord();
         obj.setHorizontalTextAlignment( TextObjectRecord.HORIZONTAL_TEXT_ALIGNMENT_LEFT_ALIGNED );
         obj.setVerticalTextAlignment( TextObjectRecord.VERTICAL_TEXT_ALIGNMENT_TOP );

@@ -2,4 +2,4 @@
     HSSFRow row = sheet.createRow(rowIdx);
 {
       sheet.addMergedRegion(new CellRangeAddress(rowIdx, rowIdx + headerOffset[0], i + nextCellOffset, i + headerOffset[1] + nextCellOffset));
-}
+}}

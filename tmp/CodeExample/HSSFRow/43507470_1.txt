@@ -1,6 +1,5 @@
-  public HSSFWorkbook generateReportSectionToXLS(String database, String query)
-{{{
-        HSSFRow headerRow = sheet.createRow(0);
+public void wrapperMethod() {
+          HSSFRow row = sheet.createRow(rowIndex++);
 {
-          headerCell = headerRow.createCell(i);            
-}}}}
+            HSSFCell dataCell = row.createCell(i);
+}}

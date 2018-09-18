@@ -1,3 +1,4 @@
+public void wrapperMethod() {
   private MAPIMessage message;
 {
     message.setReturnNullOnMissingChunk(true);
@@ -23,4 +24,4 @@
       String chunkContent = message.getMainChunks().messageHeaders.getValue();
 }}{
     AttachmentChunks[] attachmentChunks = message.getAttachmentFiles();
-}
+}}

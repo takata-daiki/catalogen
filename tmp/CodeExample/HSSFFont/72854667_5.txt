@@ -1,8 +1,0 @@
-    public void setBold(boolean b) {
-
-        HSSFFont font = cellStyle.getFont(getWorkbook());
-{
-            font.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);
-}{
-            font.setBoldweight(HSSFFont.BOLDWEIGHT_NORMAL);
-}

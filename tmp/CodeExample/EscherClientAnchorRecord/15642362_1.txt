@@ -1,5 +1,4 @@
-    public static EscherRecord createAnchor( HSSFAnchor userAnchor )
-{{
+public void wrapperMethod() {
             EscherClientAnchorRecord anchor = new EscherClientAnchorRecord();
             anchor.setRecordId( EscherClientAnchorRecord.RECORD_ID );
             anchor.setOptions( (short) 0x0000 );
@@ -12,4 +11,4 @@
             anchor.setDx2( (short) a.getDx2() );
             anchor.setRow2( (short) Math.max(a.getRow1(), a.getRow2()) );
             anchor.setDy2( (short) a.getDy2() );
-}}
+}

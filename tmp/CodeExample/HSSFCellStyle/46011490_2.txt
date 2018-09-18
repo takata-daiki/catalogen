@@ -1,3 +1,4 @@
+public void wrapperMethod() {
   protected HSSFCellStyle csHeader;
 {
     csHeader.setDataFormat(HSSFDataFormat.getBuiltinFormat("text"));
@@ -8,4 +9,4 @@
     csHeader.setAlignment(HSSFCellStyle.ALIGN_CENTER);
     csHeader.setVerticalAlignment(HSSFCellStyle.VERTICAL_CENTER);
     csHeader.setFont(f);
-}
+}}

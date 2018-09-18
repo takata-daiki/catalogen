@@ -1,2 +1,4 @@
-  private Record getCoreRecordForSAS(SlideAtomsSet sas) {
-    SlidePersistAtom spa = sas.getSlidePersistAtom();
+public void wrapperMethod() {
+        SlideAtomsSet sas = masterSets[i];
+        int sheetNo = sas.getSlidePersistAtom().getSlideIdentifier();
+}

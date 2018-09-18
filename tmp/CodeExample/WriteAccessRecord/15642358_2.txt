@@ -1,3 +1,4 @@
-    public void writeProtectWorkbook( String password, String username ) {
+public void wrapperMethod() {
         WriteAccessRecord waccess = getWriteAccess();
         waccess.setUsername(username);
+}

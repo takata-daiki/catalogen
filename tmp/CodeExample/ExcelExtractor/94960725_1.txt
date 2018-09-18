@@ -1,7 +1,8 @@
-  public String readXls(File xls) {
+public void wrapperMethod() {
     ExcelExtractor extractor = null;
 {
       extractor.setFormulasNotResults(true);
       extractor.setIncludeSheetNames(false);
 }
     return extractor.getText();
+}

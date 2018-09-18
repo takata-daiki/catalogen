@@ -1,6 +1,4 @@
-  public String getFileExtension() {
-}{
-    HSSFCellStyle hidden;
-{
-      hidden.setLocked(true);
+public void wrapperMethod() {
+      HSSFCellStyle style = wb.createCellStyle();
+        style.setFont(font);
 }

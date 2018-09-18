@@ -1,3 +1,4 @@
-    protected EscherContainerRecord createSpContainer(boolean isChild) {
-        EscherSpRecord sp = new EscherSpRecord();
-        sp.setFlags(flags);
+public void wrapperMethod() {
+        EscherSpRecord spRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);
+        return (spRecord.getFlags()& EscherSpRecord.FLAG_FLIPVERT) != 0;
+}

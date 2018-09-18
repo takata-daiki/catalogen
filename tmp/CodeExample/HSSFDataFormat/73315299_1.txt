@@ -1,5 +1,4 @@
-  public static <T> void exportExcel(String title, String[] headers, String[] cols, Collection<T> dataset,
-      OutputStream out, String pattern, String[] sumcols) {
+public void wrapperMethod() {
     HSSFDataFormat format = workbook.createDataFormat();
     style3.setDataFormat(format.getFormat("0.000"));
 }

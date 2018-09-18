@@ -1,7 +1,0 @@
-    protected void visitParagraphBody( XWPFParagraph paragraph, int index, T paragraphContainer )
-        throws Exception
-    {
-        List<XWPFRun> runs = paragraph.getRuns();
-
-        CTPPr ppr = paragraph.getCTP().getPPr();
-}

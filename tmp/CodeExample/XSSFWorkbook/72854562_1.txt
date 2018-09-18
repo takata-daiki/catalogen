@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private XSSFWorkbook workbook;
 {
         workbook.createSheet();
@@ -32,4 +33,4 @@
         XSSFSheet xssfSheet = workbook.getSheetAt(index);
 }{
         XSSFSheet xssfSheet = workbook.getSheet(setCellValue.getSheet().getName());
-}
+}}

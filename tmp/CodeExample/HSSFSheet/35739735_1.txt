@@ -1,9 +1,8 @@
-     public static void writeDataToExcelFile(String fileName, long[][] data, int numDeleteRows) {
-
+public void wrapperMethod() {
          HSSFSheet mySheet;
 {{{
                if (mySheet.getRow(i) != null) {
                  mySheet.removeRow(mySheet.getRow(i));
 }}}{
                myRow = mySheet.createRow(rowNum);
-}}
+}}}

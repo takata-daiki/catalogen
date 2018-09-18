@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private XSSFSheet sheet;
 {
       int firstRow = sheet.getFirstRowNum();
@@ -31,4 +32,4 @@
         for (int i=0;i<sheet.getCTWorksheet().getDataValidations().getCount();i++) {
 {
             sheet.getCTWorksheet().getDataValidations().removeDataValidation(0);
-}}}}
+}}}}}

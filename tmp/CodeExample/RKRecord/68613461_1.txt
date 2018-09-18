@@ -1,5 +1,4 @@
-  public void processRecord(Record record) {
-{
+public void wrapperMethod() {
     case RKRecord.sid:
       RKRecord rkrec = (RKRecord) record;
       thisRow = rkrec.getRow();

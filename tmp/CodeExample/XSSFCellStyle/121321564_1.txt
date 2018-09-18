@@ -1,10 +1,8 @@
-  public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus,
-          int row, int column) {
-{{
+public void wrapperMethod() {
         XSSFCellStyle xssfCellStyle = xssfCell.getCellStyle();
         XSSFColor fillForegroundColorColor = xssfCellStyle.getFillForegroundColorColor();
 {
           short fillId = (short) xssfCellStyle.getCoreXf().getFillId();
 }
         f = designer.workbook.getFontAt(xssfCellStyle.getFontIndex());
-}}}
+}

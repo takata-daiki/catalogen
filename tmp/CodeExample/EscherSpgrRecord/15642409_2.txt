@@ -1,5 +1,4 @@
-    private void convertPatriarch( HSSFPatriarch patriarch )
-{
+public void wrapperMethod() {
         EscherSpgrRecord spgr = new EscherSpgrRecord();
         spgr.setRecordId( EscherSpgrRecord.RECORD_ID );
         spgr.setOptions( (short) 0x0001 );    // version

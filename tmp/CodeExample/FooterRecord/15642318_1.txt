@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     FooterRecord footerRecord;
 {
   String foot = footerRecord.getFooter();
@@ -7,4 +8,4 @@
              "&L" + (left == null ? "" : left) +
              "&R" + (right == null ? "" : right));
   footerRecord.setFooterLength((byte)footerRecord.getFooter().length());
-}
+}}

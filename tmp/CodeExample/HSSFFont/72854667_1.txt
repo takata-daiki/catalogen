@@ -1,2 +1,7 @@
-    public Font getDefaultFont() {
-        HSSFFont font = getWorkbook().getFontAt((short) 0);
+public void wrapperMethod() {
+        HSSFFont font = cellStyle.getFont(getWorkbook());
+{
+            font.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);
+}{
+            font.setBoldweight(HSSFFont.BOLDWEIGHT_NORMAL);
+}}

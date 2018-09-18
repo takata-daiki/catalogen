@@ -1,3 +1,4 @@
-  private XSSFCellStyle getCellHeaderStyle(){
+public void wrapperMethod() {
       XSSFFont font = this.wb.createFont();
       font.setBoldweight(XSSFFont.BOLDWEIGHT_BOLD);
+}

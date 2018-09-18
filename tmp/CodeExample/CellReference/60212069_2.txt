@@ -1,2 +1,0 @@
-  public static Boolean hasFormula (HSSFSheet sh, CellReference topLeft, CellReference botRight){
-    return hasFormula(sh, new  AreaReference(topLeft, botRight));

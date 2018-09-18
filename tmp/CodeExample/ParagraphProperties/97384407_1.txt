@@ -1,5 +1,4 @@
-    static Paragraph newParagraph( Range parent, PAPX papx )
-{
+public void wrapperMethod() {
         ParagraphProperties properties = new ParagraphProperties();
         properties.setIstd( papx.getIstd() );
         if ( properties.getIlfo() != 0 && listTables != null )

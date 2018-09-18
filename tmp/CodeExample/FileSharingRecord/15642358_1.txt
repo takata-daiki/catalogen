@@ -1,5 +1,6 @@
-    public void writeProtectWorkbook( String password, String username ) {
+public void wrapperMethod() {
         FileSharingRecord frec = getFileSharing();
         frec.setReadOnly((short)1);
         frec.setPassword(FileSharingRecord.hashPassword(password));
         frec.setUsername(username);
+}

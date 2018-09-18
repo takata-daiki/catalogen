@@ -1,6 +1,5 @@
-  private void hPCheck(){
-}{{{
+public void wrapperMethod() {
       case HSSFCell.CELL_TYPE_STRING:
         HSSFRichTextString rich = cell.getRichStringCellValue();
         if (rich != null) value = Integer.parseInt(rich.getString());
-}}
+}

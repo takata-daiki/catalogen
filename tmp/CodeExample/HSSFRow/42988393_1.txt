@@ -1,5 +1,4 @@
-    public void run() {
-{{
+public void wrapperMethod() {
           HSSFRow row = st.getRow(i);
           if(row != null && row.getCell(0) != null && !"".equals(row.getCell(0).getStringCellValue())){
             cus.setName(getStringValue(row.getCell(0)));            
@@ -45,4 +44,4 @@
               contact.setQq(getStringValue(row.getCell(19)));
               contact.setPhone(getStringValue(row.getCell(20)));
               contact.setTel(getStringValue(row.getCell(21)));
-}}}}
+}}}

@@ -1,3 +1,4 @@
+public void wrapperMethod() {
            for(PackageRelationship rel : rels) {
               if( rel.getRelationshipType().equals(RELATION_AUDIO) ||
                   rel.getRelationshipType().equals(RELATION_IMAGE) ||
@@ -9,4 +10,4 @@
                        relName = PackagingURIHelper.createPartName(rel.getTargetURI());
 }
                     PackagePart relPart = rel.getPackage().getPart(relName);
-}}
+}}}}

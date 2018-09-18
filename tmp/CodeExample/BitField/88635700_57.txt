@@ -1,6 +1,7 @@
-    /**/private static BitField zkSaved = new BitField(0x3000);
+public void wrapperMethod() {
+    /**/private static BitField fIncludeFooter = new BitField(0x2000);
 {
-        field_32_view = (short)zkSaved.setValue(field_32_view, value);
+        field_37_docinfo5 = (short)fIncludeFooter.setBoolean(field_37_docinfo5, value);
 }{
-        return ( byte )zkSaved.getValue(field_32_view);
-}
+        return fIncludeFooter.isSet(field_37_docinfo5);
+}}

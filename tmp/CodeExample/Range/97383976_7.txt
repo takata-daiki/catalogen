@@ -1,15 +1,8 @@
-    protected void processDeadField( HWPFDocumentCore wordDocument,
-            Element currentBlock, Range range, int currentTableLevel,
-            int beginMark, int separatorMark, int endMark )
-{{
-            Range formulaRange = new Range( range.getCharacterRun(
-                    beginMark + 1 ).getStartOffset(), range.getCharacterRun(
-                    separatorMark - 1 ).getEndOffset(), range )
-            {
-                @Override
-                public String toString()
-                {
-                    return "Dead field formula subrange: " + super.toString();
-}}
-            String formula = formulaRange.text();
+    private int[] tryDeadField_lookupFieldSeparatorEnd(
+            HWPFDocumentCore wordDocument, Range range, int beginMark )
+    {
+        int separatorMark = -1;
+        for ( int c = beginMark + 1; c < range.numCharacterRuns(); c++ )
+{
+            CharacterRun characterRun = range.getCharacterRun( c );
 }}

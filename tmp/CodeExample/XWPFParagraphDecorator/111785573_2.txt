@@ -1,6 +1,5 @@
-    public XWPFWordExtractorDecorator(XWPFWordExtractor extractor) {
-}{{{{{
+public void wrapperMethod() {
                         XWPFParagraphDecorator decorator = new XWPFCommentsDecorator(
                                 new XWPFHyperlinkDecorator(p, null, true));
                         xhtml.element("p", decorator.getText());
-}}}}
+}

@@ -1,5 +1,58 @@
-    public PicturesManager getPicturesManager()
+    protected boolean processCharacters( final HWPFDocumentCore wordDocument,
+            final int currentTableLevel, final Range range, final Element block )
+    {
+        if ( range == null )
+            return false;
+{
+            Map<Integer, List<Bookmark>> rangeBookmarks = doc.getBookmarks()
+                    .getBookmarksStartedBetween( range.getStartOffset(),
+                            range.getEndOffset() );
 
-    protected abstract void processBookmarks( HWPFDocumentCore wordDocument,
-            Element currentBlock, Range range, int currentTableLevel,
-            List<Bookmark> rangeBookmarks );
+            for ( int c = 0; c < range.numCharacterRuns(); c++ )
+{
+                CharacterRun characterRun = range.getCharacterRun( c );
+{{
+                        addToStructures(
+                                structures,
+                                new Structure( new DeadFieldBoundaries( c,
+                                        separatorEnd[0], separatorEnd[1] ),
+                                        characterRun.getStartOffset(), range
+                                                .getCharacterRun(
+                                                        separatorEnd[1] )
+                                                .getEndOffset() ) );
+}}}}
+        int previous = range.getStartOffset();
+{{{
+                    int end = Math.min( range.getEndOffset(), structure.end );
+}}
+            previous = Math.min( range.getEndOffset(), structure.end );
+}
+        if ( previous != range.getStartOffset() )
+        {
+            if ( previous > range.getEndOffset() )
+            {
+                logger.log( POILogger.WARN, "Latest structure in ", range,
+                        " ended at #" + previous, " after range boundaries [",
+                        range.getStartOffset() + "; " + range.getEndOffset(),
+                        ")" );
+}
+            if ( previous < range.getEndOffset() )
+{
+                Range subrange = new Range( previous, range.getEndOffset(),
+                        range )
+                {
+                    @Override
+                    public String toString()
+                    {
+                        return "AfterStructureSubrange " + super.toString();
+}}}}
+        for ( int c = 0; c < range.numCharacterRuns(); c++ )
+{
+            CharacterRun characterRun = range.getCharacterRun( c );
+{{{
+                        while ( c < range.numCharacterRuns()
+                                && range.getCharacterRun( c ).getEndOffset() <= continueAfter )
+                            c++;
+                        if ( c < range.numCharacterRuns() )
+                            c--;
+}}}}}

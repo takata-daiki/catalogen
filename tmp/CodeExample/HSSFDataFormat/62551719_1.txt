@@ -1,6 +1,7 @@
+public void wrapperMethod() {
   private HSSFDataFormat m_dataFormat;
 {{{
         cs.setDataFormat(m_dataFormat.getFormat(DisplayType.getDateFormat(getLanguage()).toPattern()));
 }{
         cs.setDataFormat(m_dataFormat.getFormat(format));
-}}}
+}}}}

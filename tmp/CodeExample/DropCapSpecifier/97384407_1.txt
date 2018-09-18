@@ -1,5 +1,0 @@
-  public void setDropCap(DropCapSpecifier dcs)
-  {
-    _props.setDcs(dcs);
-    _papx.updateSprm(SPRM_DCS, dcs.toShort());
-}

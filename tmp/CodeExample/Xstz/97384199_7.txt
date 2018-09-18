@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private Xstz _xstzTextFormat;
 {
         offset += this._xstzTextFormat.getSize();
@@ -5,4 +6,4 @@
         size += _xstzTextFormat.getSize();
 }{
         offset += _xstzTextFormat.serialize( buffer, offset );
-}
+}}

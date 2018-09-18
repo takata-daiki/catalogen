@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private Xst _xst = new Xst();
 {
         return lvl._lvlf.equals( this._lvlf )
@@ -19,4 +20,4 @@
                         Integer.valueOf( _xst.getCch() ), ")" );
 }}}{
         _xst.serialize( buf, offset );
-}
+}}

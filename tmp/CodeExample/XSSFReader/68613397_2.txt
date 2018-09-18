@@ -1,3 +1,0 @@
-    XSSFReader r = new XSSFReader(pkg);
-    SharedStringsTable sst = r.getSharedStringsTable();
-    Iterator<InputStream> sheets = r.getSheetsData();

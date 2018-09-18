@@ -1,8 +1,7 @@
-    public ColumnInfoRecord writeHidden( ColumnInfoRecord columnInfo, int idx, boolean hidden )
-{{{
-                ColumnInfoRecord nextColumnInfo = (ColumnInfoRecord) records.get( idx + 1 );
-                if (columnInfo.getLastColumn() + 1 == nextColumnInfo.getFirstColumn())
-                {
-                    if (nextColumnInfo.getOutlineLevel() < level)
-                        break;
-}}}}
+public void wrapperMethod() {
+                ColumnInfoRecord nci = ( ColumnInfoRecord ) createColInfo();
+                nci.setFirstColumn(column);
+                nci.setLastColumn(column);
+                nci.setOptions(ci.getOptions());
+                nci.setXFIndex(ci.getXFIndex());
+}

@@ -1,6 +1,7 @@
-    /**/private static BitField fWrapTrailSpaces = new BitField(0x00000008);
+public void wrapperMethod() {
+    /**/private static BitField KeyVirusSession30 = new BitField(0xfffffffc);
 {
-        field_33_docinfo4 = (int)fWrapTrailSpaces.setBoolean(field_33_docinfo4, value);
+        field_43_virusinfo = (int)KeyVirusSession30.setValue(field_43_virusinfo, value);
 }{
-        return fWrapTrailSpaces.isSet(field_33_docinfo4);
-}
+        return ( int )KeyVirusSession30.getValue(field_43_virusinfo);
+}}

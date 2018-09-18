@@ -1,2 +1,0 @@
-  public static void autoFilter(HSSFSheet sh, CellReference topLeft, CellReference botRight, Object filterValue){
-    autoFilter(sh, new  AreaReference(topLeft, botRight), filterValue);

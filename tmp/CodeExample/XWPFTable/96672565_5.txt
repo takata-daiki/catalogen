@@ -1,7 +1,0 @@
-    private List<XWPFTableCell> getVMergedCells( XWPFTableCell cell, int rowIndex, int cellIndex )
-{{{
-                XWPFTable table = cell.getTableRow().getTable();
-                for ( int i = rowIndex + 1; i < table.getRows().size(); i++ )
-{
-                    row = table.getRow( i );
-}}}}

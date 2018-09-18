@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private DrawingManager2 drawingManager;
 {{{
                 AbstractShape shapeModel = AbstractShape.createShape(
@@ -8,4 +9,4 @@
 }{
         dg = drawingManager.createDgRecord();
         sp1.setShapeId( drawingManager.allocateShapeId(dg.getDrawingGroupId()) );
-}
+}}

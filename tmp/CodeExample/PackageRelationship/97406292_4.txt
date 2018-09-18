@@ -1,4 +1,0 @@
-      for (PackageRelationship rel : partRels) {
-        PackagePartName partNameToRemove = PackagingURIHelper
-            .createPartName(PackagingURIHelper.resolvePartUri(rel
-                .getSourceURI(), rel.getTargetURI()));

@@ -1,5 +1,4 @@
-    private static SmallDocumentBlock makeEmptySmallDocumentBlock(int size)
-{
+public void wrapperMethod() {
         SmallDocumentBlock block = new SmallDocumentBlock(size);
         Arrays.fill(block._data, _default_fill);
 }

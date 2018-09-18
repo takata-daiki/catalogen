@@ -1,3 +1,4 @@
+public void wrapperMethod() {
       DataFormatter formatter = new DataFormatter();
       assertEquals( "1",                     formatter.formatCellValue(sheet.getRow(1).getCell(1)));
       assertEquals( "2019-10-11 13:18:46",   formatter.formatCellValue(sheet.getRow(1).getCell(2)));
@@ -68,3 +69,4 @@
       assertEquals( "628.32%",               formatter.formatCellValue(sheet.getRow(24).getCell(5)));
       assertEquals( "6.28E00",               formatter.formatCellValue(sheet.getRow(24).getCell(6)));
       assertEquals( "6.28E00",               formatter.formatCellValue(sheet.getRow(24).getCell(7)));
+}

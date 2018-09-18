@@ -1,5 +1,4 @@
-  public void processRecord(Record record) {
-{
+public void wrapperMethod() {
     case BlankRecord.sid:
       BlankRecord brec = (BlankRecord) record;
       thisRow = brec.getRow();

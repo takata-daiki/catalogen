@@ -1,4 +1,5 @@
-  public static void copyRow(HSSFSheet srcSheet, HSSFSheet destSheet, HSSFRow srcRow, HSSFRow destRow, Map<Integer, HSSFCellStyle> styleMap) {     
-{{{
-                CellRangeAddress newMergedRegion = new CellRangeAddress(mergedRegion.getFirstRow()+deltaRows, mergedRegion.getLastRow()+deltaRows, mergedRegion.getFirstColumn(),  mergedRegion.getLastColumn());  
-}}}
+public void wrapperMethod() {
+          CellRangeAddress merged = sheet.getMergedRegion(i);     
+          if (merged.isInRange(rowNum, cellNum)) {     
+              return merged;     
+}}

@@ -1,5 +1,5 @@
-    public int serialize( int offset, byte[] data, EscherSerializationListener listener )
-{{
+public void wrapperMethod() {
             EscherRecord r = iterator.next();
-            pos += r.serialize(pos, data, listener );
+            if(r.getRecordId() == recordId) {
+                return true;
 }}

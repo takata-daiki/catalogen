@@ -1,5 +1,4 @@
-    static Paragraph newParagraph( Range parent, PAPX papx )
-{
+public void wrapperMethod() {
         HWPFDocumentCore doc = parent._doc;
         ListTables listTables = doc.getListTables();
         StyleSheet styleSheet = doc.getStyleSheet();

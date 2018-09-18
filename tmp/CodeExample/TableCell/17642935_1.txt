@@ -1,9 +1,5 @@
-  private static void handleTable(Table t,
-      org.apache.poi.hwpf.model.StyleSheet stylesheet,      
-      MainDocumentPart documentPart,
-      org.docx4j.wml.ObjectFactory factory) {
-{{
+public void wrapperMethod() {
         TableCell tc = tr.getCell(j);
         for (int y = 0; y < tc.numParagraphs(); y++) {
           Paragraph p = tc.getParagraph(y);
-}}}}
+}}

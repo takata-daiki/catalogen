@@ -1,7 +1,0 @@
-    public Cell addCellAt(int col, int row) {
-        HSSFRow hssfRow = sheet.getRow(row);
-
-        HSSFCell cell = hssfRow.getCell(col);
-{
-            cell = hssfRow.createCell(col);
-}

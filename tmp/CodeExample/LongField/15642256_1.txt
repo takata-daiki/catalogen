@@ -1,3 +1,4 @@
+public void wrapperMethod() {
         LongField signature = new LongField(_signature_offset, _data);
         if (signature.get() != _signature)
         {
@@ -8,4 +9,4 @@
             throw new IOException("Invalid header signature; read "
                                   + signature.get() + ", expected "
                                   + _signature);
-}
+}}

@@ -1,2 +1,0 @@
-    private HSSFColor translateColour(Color colour) {
-      HSSFColor col = palette.findSimilarColor((byte)colour.getRed(), (byte)colour.getGreen(), (byte)colour.getBlue());

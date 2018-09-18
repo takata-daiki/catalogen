@@ -1,5 +1,4 @@
-    public boolean equals(Object o)
-{
+public void wrapperMethod() {
         UnicodeString other = ( UnicodeString ) o;
         boolean eq = ((field_1_charCount == other.field_1_charCount)
                 && (field_2_optionflags == other.field_2_optionflags)

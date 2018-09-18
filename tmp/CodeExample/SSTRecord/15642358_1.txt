@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     protected SSTRecord        sst         = null;
 {
       return sst.addString(string);
@@ -8,4 +9,4 @@
 }}}}{{{
                 if (record.getSid() == ExtSSTRecord.sid && sst != null)
                     retval += sst.calcExtSSTRecordSize();
-}}}
+}}}}

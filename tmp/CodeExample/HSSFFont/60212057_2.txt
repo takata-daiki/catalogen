@@ -1,5 +1,5 @@
-  public void t_Query(String ws_Name, String query_Text, String ws_Dist){
+public void wrapperMethod() {
+      HSSFFont font1 = wb.createFont();
+      font1.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);
+      font1.setFontHeightInPoints((short)10);
 }
-  private void setStyleRow(HSSFSheet ash,  String strStyle, int row, int beCol, int countCol, int breakCol,   
-      Map<String,  HSSFCellStyle[]> styleRowMap, HSSFFont font){
-    int count =0;

@@ -1,5 +1,6 @@
-    public XSLFConnectorShape createConnector(){
+public void wrapperMethod() {
         XSLFConnectorShape shape = new XSLFConnectorShape(sp, _sheet);
         shape.setAnchor(new Rectangle());
         shape.setLineColor(Color.black);
         shape.setLineWidth(0.75);
+}

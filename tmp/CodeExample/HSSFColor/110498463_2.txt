@@ -1,5 +1,5 @@
-  private String getRGBString(short index) {
+public void wrapperMethod() {
     HSSFColor color = palette.getColor(index);
 {
       short[] rgb = color.getTriplet();
-}
+}}

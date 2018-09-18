@@ -1,5 +1,4 @@
-  public void erstelleExcel(ArrayList<String> spalten) {
-{
+public void wrapperMethod() {
       XSSFWorkbook xssfWorkbook = new XSSFWorkbook();
       XSSFSheet sheet = xssfWorkbook
           .createSheet("Familien");

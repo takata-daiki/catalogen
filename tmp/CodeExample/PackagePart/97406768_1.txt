@@ -1,2 +1,5 @@
-    public XSLFSheet(PackagePart part, PackageRelationship rel){
-        super(part, rel);
+    String importBlip(String blipId, PackagePart packagePart) {
+        PackageRelationship blipRel = packagePart.getRelationship(blipId);
+{
+            blipPart = packagePart.getRelatedPart(blipRel);
+}}

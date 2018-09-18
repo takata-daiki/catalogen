@@ -1,6 +1,7 @@
-    /**/private static final BitField fObj = new BitField(0x00000800);
+public void wrapperMethod() {
+    /**/private static final BitField fEmboss = new BitField(0x00010000);
 {
-        field_1_grpfChp = fObj.setBoolean(field_1_grpfChp, value);
+        field_1_grpfChp = fEmboss.setBoolean(field_1_grpfChp, value);
 }{
-        return fObj.isSet(field_1_grpfChp);
-}
+        return fEmboss.isSet(field_1_grpfChp);
+}}

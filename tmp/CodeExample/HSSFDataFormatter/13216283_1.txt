@@ -1,8 +1,8 @@
-    public String getRow(int tabelle, int zeile, Object format) {
+public void wrapperMethod() {
         HSSFDataFormatter formater = new HSSFDataFormatter();
 {{{{{
                             case HSSFCell.CELL_TYPE_NUMERIC:
                                 Format dataformat = formater.createFormat(zelle);
 {
                                         text = String.format(formatvorn + "s" + formathinten, formater.formatCellValue(zelle,evaluator));
-}}}}}}
+}}}}}}}

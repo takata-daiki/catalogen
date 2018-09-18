@@ -1,9 +1,0 @@
-    public boolean removeAll(final IntList c)
-    {
-        boolean rval = false;
-        for (int j = 0; j < c._limit; j++)
-{
-            if (removeValue(c._array[ j ]))
-            {
-                rval = true;
-}}}

@@ -1,9 +1,0 @@
-    public int registerList( HWPFList list )
-    {
-        if ( _lt == null )
-        {
-            _lt = new ListTables();
-}
-        return _lt.addList( list.getListData(), list.getLFO(),
-                list.getLFOData() );
-}

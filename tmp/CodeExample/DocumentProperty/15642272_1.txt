@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private DocumentProperty _property;
 {
         _property.setDocument(this);
@@ -21,4 +22,4 @@
 }}}}{
         buffer.append("Document: \"").append(_property.getName())
             .append("\"");
-}
+}}

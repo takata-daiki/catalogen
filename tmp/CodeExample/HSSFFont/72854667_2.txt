@@ -1,3 +1,13 @@
-    public boolean isStrikeThrough() {
-        HSSFFont hssfFont = theCell.getCellStyle().getFont(getWorkbook());
-        return hssfFont.getStrikeout();
+    private Font getFont(HSSFFont hssfFont) {
+        Font font = fontCache.get(hssfFont);
+{
+            String name = hssfFont.getFontName();
+            int size = hssfFont.getFontHeightInPoints();
+            if (hssfFont.getBoldweight() == HSSFFont.BOLDWEIGHT_BOLD) {
+                style = Font.BOLD;
+                if (hssfFont.getItalic()) {
+                    style = style | Font.ITALIC;
+}}
+            else if (hssfFont.getItalic()) {
+                style = Font.ITALIC;
+}}}

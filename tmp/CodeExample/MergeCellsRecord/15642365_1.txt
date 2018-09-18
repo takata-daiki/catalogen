@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     protected MergeCellsRecord           merged            =     null;
 {{{
                 retval.numMergedRegions += retval.merged.getNumAreas();
@@ -14,4 +15,4 @@
             startNumRegions = numMergedRegions - merged.getNumAreas(); 
 }}{{
             startNumRegions = numMergedRegions - merged.getNumAreas();
-}}
+}}}

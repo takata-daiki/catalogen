@@ -1,6 +1,0 @@
-    @Override
-    public XMLSlideShow generate(XMLSlideShow ppt, MarketingReportSettings reportSettings,
-                                 MarketingReportDataOneCity marketingReportDataOneCity, Function<String, byte[]> pictureGetter) {
-        String title = marketingReportDataOneCity.getMarketingReportData().getReportTitle();
-        XSLFSlide slide1 = ppt.createSlide();
-}

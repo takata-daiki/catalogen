@@ -1,5 +1,4 @@
-    public static void main( String[] args )
-
+public void wrapperMethod() {
     private final HtmlDocumentFacade htmlDocumentFacade;
 {
         if ( notes != null )
@@ -131,4 +130,4 @@
                         htmlDocumentFacade
                                 .getOrCreateCssClass( "t",
                                         "table-layout:fixed;border-collapse:collapse;border-spacing:0;" ) );
-}
+}}

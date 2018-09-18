@@ -1,3 +1,4 @@
+public void wrapperMethod() {
         HWPFLister listerRebuilded = new HWPFLister( doc );
 {
             listerRebuilded.dumpChpx( outputChpxProperties, outputChpxSprms );
@@ -18,4 +19,4 @@
             listerRebuilded.dumpPictures();
 }{
             listerRebuilded.dumpStyles();
-}
+}}

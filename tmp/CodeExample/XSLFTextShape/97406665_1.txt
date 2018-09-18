@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private final XSLFTextShape _shape;
 {
         double leftInset = _shape.getLeftInset();
@@ -8,4 +9,4 @@
         CTPlaceholder ph = _shape.getCTPlaceholder();
 
         XSLFSheet masterSheet = _shape.getSheet();
-}
+}}

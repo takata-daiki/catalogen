@@ -1,5 +1,5 @@
-    public static Workbook createWorkbook()
-{{
-            BoundSheetRecord bsr =
-                    (BoundSheetRecord) retval.createBoundSheet( k );
-}}
+public void wrapperMethod() {
+        BoundSheetRecord sheet = (BoundSheetRecord)boundsheets.get( sheetnum );
+        sheet.setSheetname(sheetname);
+        sheet.setSheetnameLength( (byte)sheetname.length() );
+}

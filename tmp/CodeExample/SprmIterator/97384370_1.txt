@@ -1,7 +1,4 @@
-    private static void applySprms( CharacterProperties parentProperties,
-            byte[] grpprl, int offset, boolean warnAboutNonChpSprms,
-            CharacterProperties targetProperties )
-{
+public void wrapperMethod() {
         SprmIterator sprmIt = new SprmIterator( grpprl, offset );
         while ( sprmIt.hasNext() )
         {

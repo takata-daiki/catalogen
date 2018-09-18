@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private HSSFCell theCell;
 {
         return theCell.getRowIndex();
@@ -29,7 +30,7 @@
             theCell.setCellValue(new HSSFRichTextString(value));
 }{
             theCell.setCellValue(Boolean.parseBoolean(value));
-}
+}{
         }
 {
             theCell.setCellFormula(value);
@@ -53,4 +54,4 @@
       return cell.theCell.equals(this.theCell);      
 }}{
     HSSFSheet sheet = theCell.getSheet();
-}
+}}

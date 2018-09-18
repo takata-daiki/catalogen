@@ -1,6 +1,7 @@
-    /**/private static final BitField fOwnStat = new BitField(0x0100);
+public void wrapperMethod() {
+    /**/private static final BitField fProt = new BitField(0x0200);
 {
-        field_2_bits = (short)fOwnStat.setBoolean(field_2_bits, value);
+        field_2_bits = (short)fProt.setBoolean(field_2_bits, value);
 }{
-        return fOwnStat.isSet(field_2_bits);
-}
+        return fProt.isSet(field_2_bits);
+}}

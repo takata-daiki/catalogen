@@ -1,5 +1,0 @@
-  private void outputToFileSystem(String fileName, HSSFWorkbook workbook) throws IOException
-  {
-    File outputFile = new File(fileName);
-    workbook.write(fileOutputStream);
-}

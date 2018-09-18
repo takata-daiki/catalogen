@@ -1,6 +1,0 @@
-    public void addChildBefore(EscherRecord record, int insertBeforeRecordId) {
-{
-            EscherRecord rec = _childRecords.get(i);
-            if(rec.getRecordId() == insertBeforeRecordId){
-                _childRecords.add(i++, record);
-}}

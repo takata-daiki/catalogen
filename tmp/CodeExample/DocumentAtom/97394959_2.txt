@@ -1,4 +1,5 @@
-  public void setPageSize(Dimension pgsize) {
+public void wrapperMethod() {
     DocumentAtom docatom = _documentRecord.getDocumentAtom();
     docatom.setSlideSizeX(pgsize.width * Shape.MASTER_DPI / Shape.POINT_DPI);
     docatom.setSlideSizeY(pgsize.height * Shape.MASTER_DPI / Shape.POINT_DPI);
+}

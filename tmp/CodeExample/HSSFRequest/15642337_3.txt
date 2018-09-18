@@ -1,7 +1,0 @@
-    public void processEvents(HSSFRequest req, InputStream in)
-        throws IOException
-  {
-    try
-    {
-      genericProcessEvents(req, new RecordInputStream(in));
-}}

@@ -1,10 +1,10 @@
-    public ArrayPtg(RecordInputStream in)
-    {
-      field_1_reserved = in.readByte();
-      field_2_reserved = in.readByte();
-      field_3_reserved = in.readByte();
-      field_4_reserved = in.readByte();
-      field_5_reserved = in.readByte();
-      field_6_reserved = in.readByte();
-      field_7_reserved = in.readByte();
-}
+    public void readTokenValues(RecordInputStream in) {      
+        token_1_columns = (short)(0x00ff & in.readByte());
+        token_2_rows = in.readShort();
+{{
+            byte grbit = in.readByte();
+{
+          token_3_arrayValues[x][y] = new Double(in.readDouble());
+}{
+              token_3_arrayValues[x][y] = in.readUnicodeString();
+}}}}

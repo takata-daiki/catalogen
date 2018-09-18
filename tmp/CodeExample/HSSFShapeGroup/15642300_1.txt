@@ -1,5 +1,4 @@
-    public HSSFShapeGroup createGroup(HSSFChildAnchor anchor)
-{
+public void wrapperMethod() {
         HSSFShapeGroup group = new HSSFShapeGroup(this, anchor);
         group.anchor = anchor;
 }

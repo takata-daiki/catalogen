@@ -1,5 +1,4 @@
-    private void testTableCell( XWPFTableCell cell, XWPFStylesDocument stylesDocument )
-{
+public void wrapperMethod() {
         XWPFParagraph paragraph = cell.getParagraphs().get( 0 );
         if ( "A".equals( paragraph.getText() ) )
         {

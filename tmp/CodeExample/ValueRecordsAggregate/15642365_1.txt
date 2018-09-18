@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     protected ValueRecordsAggregate      cells             =     null;
 {{{{
                     retval.cells.construct( k, recs );
@@ -6,7 +7,6 @@
                 rows.getPhysicalNumberOfRows(),
                 records.size() + cells.getPhysicalNumberOfCells()
                 + rows.getPhysicalNumberOfRows() - 2
-}
             });
 }
         return records.size() + cells.getPhysicalNumberOfCells()
@@ -26,4 +26,4 @@
 }}{{{
                 if (cells != null && cells.rowHasCells(row.getRowNumber()))
                     retval += 2;
-}}}
+}}}}

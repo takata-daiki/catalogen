@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private static HWPFDocumentCore writeOutAndReadBack(
             HWPFDocumentCore original )
     {
@@ -5,4 +6,4 @@
         {
             ByteArrayOutputStream baos = new ByteArrayOutputStream( 4096 );
             original.write( baos );
-}}
+}}}

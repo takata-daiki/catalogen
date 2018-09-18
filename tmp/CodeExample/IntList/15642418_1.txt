@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     public IntList            field_5_dbcells;         // array of offsets to DBCELL records
 {{
             field_5_dbcells.add(in.readInt());
@@ -11,4 +12,4 @@
         return field_5_dbcells.get(cellnum);
 }{
       rec.field_5_dbcells.addAll(field_5_dbcells);
-}
+}}

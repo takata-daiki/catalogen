@@ -1,5 +1,4 @@
-    public void setCellFormula(String formula) {
-{
+public void wrapperMethod() {
             FormulaRecord frec = rec.getFormulaRecord();
             frec.setOptions(( short ) 2);
             frec.setValue(0);

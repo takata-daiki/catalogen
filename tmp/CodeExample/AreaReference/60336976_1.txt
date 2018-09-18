@@ -1,5 +1,5 @@
-  public void render(OutputStream out) {
-{{{{
-            AreaReference paramCellAreaRef = new AreaReference(paramCellName.getRefersToFormula());
-            CellReference paramCellAreaRefFirstCell = paramCellAreaRef.getFirstCell();
-}}}}
+public void wrapperMethod() {
+        AreaReference areaDataBeg = new AreaReference(nameDataBeg.getRefersToFormula());
+        int dataBegRow = areaDataBeg.getFirstCell().getRow();
+        int dataBegCol = areaDataBeg.getFirstCell().getCol();
+}

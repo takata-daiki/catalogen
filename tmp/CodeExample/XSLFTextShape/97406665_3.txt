@@ -1,7 +1,0 @@
-    private boolean fetchParagraphProperty(ParagraphPropertyFetcher visitor){
-{
-            XSLFTextShape shape = getParentShape();
-            ok = shape.fetchShapeProperty(visitor);
-{
-                CTPlaceholder ph = shape.getCTPlaceholder();
-}}

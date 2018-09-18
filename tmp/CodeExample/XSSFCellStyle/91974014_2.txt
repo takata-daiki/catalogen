@@ -1,5 +1,4 @@
-  public void erstelleExcel(ArrayList<String> spalten, String suchevon, String suchebis) {
-{
+public void wrapperMethod() {
       XSSFCellStyle dataStyle = xssfWorkbook.createCellStyle();
       dataStyle.setWrapText(true);
       dataStyle.setAlignment(HorizontalAlignment.CENTER);

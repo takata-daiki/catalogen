@@ -1,8 +1,7 @@
-    public String getProgrammableTag(){
-{{
+public void wrapperMethod() {
                 CString binaryTag = (CString)
                     progBinaryTag.findFirstOfType(
                             RecordTypes.CString.typeID
                 );
                 if(binaryTag != null) tag = binaryTag.getText();
-}}
+}

@@ -1,4 +1,4 @@
-    public Object clone() {
+public void wrapperMethod() {
       IndexRecord rec = new IndexRecord();
       rec.field_1_zero = field_1_zero;
       rec.field_2_first_row = field_2_first_row;
@@ -6,3 +6,4 @@
       rec.field_4_zero = field_4_zero;
       rec.field_5_dbcells = new IntList();
       rec.field_5_dbcells.addAll(field_5_dbcells);
+}

@@ -1,6 +1,0 @@
-    public void onCreate(){
-{{
-                case EscherContainerRecord.SPGR_CONTAINER:
-                    EscherContainerRecord dc = (EscherContainerRecord)c.getChild(0);
-                    spr = dc.getChildById(EscherSpRecord.RECORD_ID);
-}}

@@ -1,5 +1,4 @@
-    public Object clone()
-{
+public void wrapperMethod() {
         ObjRecord rec = new ObjRecord();
         for ( Iterator iterator = subrecords.iterator(); iterator.hasNext(); )
             rec.addSubRecord(( (Record) iterator.next() ).clone());

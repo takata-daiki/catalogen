@@ -1,5 +1,6 @@
-  public void setData(List<String[]> upper_data_list,List<String[]> li_data_list){
-}{{
-       XSSFSheet sheet4 = wb.createSheet("Status");
-       sheet4.setDefaultColumnWidth(50);
-}
+  private void createSheetData(XSSFSheet sheet,  List<String> delist, String type) throws Exception {
+    short rowindex = 0;
+     XSSFRow row = sheet.createRow(rowindex);
+{{
+         row = sheet.createRow(i+1);
+}}}

@@ -1,5 +1,4 @@
-    public boolean equals( Object o )
-{
+public void wrapperMethod() {
         SSTRecord other = (SSTRecord) o;
         return ( ( field_1_num_strings == other
                 .field_1_num_strings ) && ( field_2_num_unique_strings == other

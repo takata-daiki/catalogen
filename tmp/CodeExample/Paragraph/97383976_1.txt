@@ -1,6 +1,4 @@
-    private boolean processOle2( HWPFDocument doc, CharacterRun characterRun,
-            Element block )
-
+public void wrapperMethod() {
     protected abstract void processParagraph( HWPFDocumentCore wordDocument,
             Element parentElement, int currentTableLevel, Paragraph paragraph,
             String bulletText );
@@ -28,4 +26,4 @@
                     String label = AbstractWordUtils.getBulletText(
                             numberingState, hwpfList,
                             (char) paragraph.getIlvl() );
-}}}}
+}}}}}

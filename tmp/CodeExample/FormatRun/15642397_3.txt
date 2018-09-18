@@ -1,6 +1,6 @@
-    public boolean equals(Object o)
-{{
-          FormatRun run1 = (FormatRun)field_4_format_runs.get(i);
-          if (!run1.equals(run2))
-            return false;
+public void wrapperMethod() {
+    public void addFormatRun(FormatRun r) {
+      if (field_4_format_runs == null)
+        field_4_format_runs = new ArrayList();
+      int index = findFormatRunAt(r.character);
 }}

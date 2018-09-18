@@ -1,5 +1,4 @@
-  public void setFontProperties(CellStyle style, Element element)
-{
+public void wrapperMethod() {
     HSSFFont font = newStyle.getFont(workbook);
     if(font.getBoldweight() == HSSFFont.BOLDWEIGHT_BOLD)
       element.addElement("font-weight").addText("bold");

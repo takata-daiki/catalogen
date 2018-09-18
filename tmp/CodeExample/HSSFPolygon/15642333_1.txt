@@ -1,5 +1,4 @@
-    public HSSFPolygon createPolygon(HSSFClientAnchor anchor)
-{
+public void wrapperMethod() {
         HSSFPolygon shape = new HSSFPolygon(null, anchor);
         shape.anchor = anchor;
 }

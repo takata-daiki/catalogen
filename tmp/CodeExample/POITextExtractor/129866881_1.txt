@@ -1,5 +1,4 @@
-  public String getContent(ContentResource contentResource)
-{{
+public void wrapperMethod() {
       POITextExtractor DocExt = ExtractorFactory.createExtractor(contentStream);
       return DocExt.getText();
-}}
+}

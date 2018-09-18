@@ -1,6 +1,0 @@
-    /**/private static BitField fShowBreaksInFrames = new BitField(0x00000400);
-{
-        field_33_docinfo4 = (int)fShowBreaksInFrames.setBoolean(field_33_docinfo4, value);
-}{
-        return fShowBreaksInFrames.isSet(field_33_docinfo4);
-}

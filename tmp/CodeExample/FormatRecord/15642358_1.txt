@@ -1,4 +1,4 @@
-    protected Record createFormat(int id) {   // we'll need multiple editions for
+public void wrapperMethod() {
         FormatRecord retval = new FormatRecord();   // the differnt formats
 {
             case 0 :
@@ -34,4 +34,4 @@
                 retval.setIndexCode(( short ) 0x2b);
                 retval.setFormatStringLength(( byte ) 0x31);
                 "_(* #,##0.00_);_(* \\(#,##0.00\\);_(* \"-\"??_);_(@_)");
-}
+}}

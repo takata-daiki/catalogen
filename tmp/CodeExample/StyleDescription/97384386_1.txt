@@ -1,5 +1,4 @@
-    private void dumpStyles()
-{{
+public void wrapperMethod() {
             StyleDescription styleDescription = hwpfDocument.getStyleSheet()
                     .getStyleDescription( s );
             System.out.println( "=== Style #" + s + " '"
@@ -10,4 +9,4 @@
             if ( styleDescription.getCHPX() != null )
                 dumpSprms( new SprmIterator( styleDescription.getCHPX(), 0 ),
                         "Style's CHP SPRM: " );
-}}
+}

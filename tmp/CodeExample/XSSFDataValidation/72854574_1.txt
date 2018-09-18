@@ -1,4 +1,0 @@
-        for (XSSFDataValidation validation : getValidationData()) {
-            for (CellRangeAddress address : validation.getRegions().getCellRangeAddresses()) {
-              String formula1=validation.getValidationConstraint().getFormula1();              
-}

@@ -1,4 +1,5 @@
-        if (isContainer(options, recordId)) {
+public void wrapperMethod() {
             EscherContainerRecord r = new EscherContainerRecord();
             r.setRecordId( recordId );
             r.setOptions( options );
+}

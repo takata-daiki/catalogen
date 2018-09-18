@@ -1,8 +1,0 @@
-    private String getCellValue( final CellValue cv ) {
-        switch ( cv.getCellType() ) {
-            case Cell.CELL_TYPE_BOOLEAN:
-                return Boolean.toString( cv.getBooleanValue() );
-            case Cell.CELL_TYPE_NUMERIC:
-                return String.valueOf( cv.getNumberValue() );
-}
-        return cv.getStringValue();

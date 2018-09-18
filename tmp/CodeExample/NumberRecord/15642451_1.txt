@@ -1,5 +1,4 @@
-    public int serialize(int offset, byte [] data)
-{
+public void wrapperMethod() {
         NumberRecord rec = new NumberRecord();
         rec.setColumn(getColumn());
         rec.setRow(getRow());

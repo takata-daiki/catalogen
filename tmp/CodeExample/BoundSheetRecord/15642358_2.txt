@@ -1,4 +1,5 @@
-    public void setSheetName(int sheetnum, String sheetname ) {
-        BoundSheetRecord sheet = (BoundSheetRecord)boundsheets.get( sheetnum );
-        sheet.setSheetname(sheetname);
-        sheet.setSheetnameLength( (byte)sheetname.length() );
+public void wrapperMethod() {
+            BoundSheetRecord boundSheetRecord = (BoundSheetRecord) boundsheets.get( i );
+            if (excludeSheetIdx != i && name.equals(boundSheetRecord.getSheetname()))
+                return true;
+}

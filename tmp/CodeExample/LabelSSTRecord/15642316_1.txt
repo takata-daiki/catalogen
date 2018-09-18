@@ -1,8 +1,7 @@
-     private void convertLabelRecords(List records, int offset)
-{{{
+public void wrapperMethod() {
                  LabelSSTRecord newrec   = new LabelSSTRecord();
                  newrec.setRow(oldrec.getRow());
                  newrec.setColumn(oldrec.getColumn());
                  newrec.setXFIndex(oldrec.getXFIndex());
                  newrec.setSSTIndex(stringid);
-}}}
+}

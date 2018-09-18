@@ -1,5 +1,0 @@
-    @Override
-    protected void processPageBreak( HWPFDocumentCore wordDocument, Element flow )
-    {
-        flow.appendChild( htmlDocumentFacade.createLineBreak() );
-}

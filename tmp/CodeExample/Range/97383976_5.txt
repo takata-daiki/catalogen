@@ -1,9 +1,4 @@
-                        public String toString()
-}}}}{{
-                Range subrange = new Range( previous, range.getEndOffset(),
-                        range )
-                {
-                    @Override
-                    public String toString()
-                    {
-                        return "AfterStructureSubrange " + super.toString();
+public void wrapperMethod() {
+                Range endnoteRange = doc.getEndnoteRange();
+                int rangeStartOffset = endnoteRange.getStartOffset();
+}

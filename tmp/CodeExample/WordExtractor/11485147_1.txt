@@ -1,5 +1,4 @@
-  public String parseFile(String fileName) {
-{
+public void wrapperMethod() {
       WordExtractor extractor = new WordExtractor(document);
       return extractor.getText();
 }

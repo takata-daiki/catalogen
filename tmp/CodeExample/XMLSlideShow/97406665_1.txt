@@ -1,5 +1,4 @@
-    private boolean fetchParagraphProperty(ParagraphPropertyFetcher visitor){
-{{{
+public void wrapperMethod() {
                     XMLSlideShow ppt = getParentShape().getSheet().getSlideShow();
                     CTTextParagraphProperties themeProps = ppt.getDefaultParagraphStyle(getLevel());
-}}}
+}

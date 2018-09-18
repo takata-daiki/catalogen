@@ -1,10 +1,9 @@
-    public boolean containsAll(final IntList c)
+    public boolean removeAll(final IntList c)
     {
-        boolean rval = true;
+        boolean rval = false;
+        for (int j = 0; j < c._limit; j++)
 {
-            for (int j = 0; rval && (j < c._limit); j++)
-{
-                if (!contains(c._array[ j ]))
-                {
-                    rval = false;
-}}}}
+            if (removeValue(c._array[ j ]))
+            {
+                rval = true;
+}}}

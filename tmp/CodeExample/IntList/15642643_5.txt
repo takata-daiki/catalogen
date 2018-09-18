@@ -1,9 +1,8 @@
-    public boolean equals(final Object o)
-{{
-            IntList other = ( IntList ) o;
-            if (other._limit == _limit)
-            {
-                rval = true;
+    public boolean retainAll(final IntList c)
+    {
+        boolean rval = false;
 {
-                    rval = _array[ j ] == other._array[ j ];
-}}}}
+            if (!c.contains(_array[ j ]))
+            {
+                remove(j);
+}}}

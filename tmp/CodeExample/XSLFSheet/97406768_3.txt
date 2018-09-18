@@ -1,3 +1,0 @@
-    public void draw(Graphics2D graphics, AtomicBoolean isCanceled, Handler handler, int position){
-        XSLFSheet master = getMasterSheet();
-        if(getFollowMasterGraphics() && master != null) master.draw(graphics, isCanceled, handler, position);

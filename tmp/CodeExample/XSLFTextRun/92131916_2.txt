@@ -1,5 +1,4 @@
-    private XMLSlideShow generatePreview(XMLSlideShow ppt, List<PreviewReportingDocument> previewData, String cityName,
-                                         int repDocsStartNum) {
+public void wrapperMethod() {
         XSLFTextRun r2 = p2.addNewTextRun();
         r2.setText("Address program: " + cityName);
         r2.setFontColor(Color.black);

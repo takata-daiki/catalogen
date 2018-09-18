@@ -1,3 +1,4 @@
-    private HSSFColor translateColour(Color colour) {
+public void wrapperMethod() {
       HSSFPalette palette = getWorkbook().getCustomPalette();
       HSSFColor col = palette.findSimilarColor((byte)colour.getRed(), (byte)colour.getGreen(), (byte)colour.getBlue());
+}

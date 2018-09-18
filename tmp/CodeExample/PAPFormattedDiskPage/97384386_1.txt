@@ -1,9 +1,0 @@
-    private void dumpOfficeDrawings()
-{{{
-                PAPFormattedDiskPage pfkp = new PAPFormattedDiskPage(
-                        mainStream, doc.getDataStream(), pageOffset,
-                        doc.getTextTable() );
-                for ( PAPX papx : pfkp.getPAPXs() )
-                {
-                    System.out.println( "** " + papx );
-}}}}

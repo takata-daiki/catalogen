@@ -1,4 +1,5 @@
-  public static HSSFWorkbook createXLSSource(List<String> l) {
-    HSSFCell restriction = horzTitle.createCell(1);
-    restriction.setCellStyle(headingStyle);
-    restriction.setCellValue(new HSSFRichTextString("Restriction"));
+public void wrapperMethod() {
+      HSSFCell c2 = row.createCell(1);
+      c2.setCellStyle(rowStyle);
+      c2.setCellValue(new HSSFRichTextString(p[1]));
+}

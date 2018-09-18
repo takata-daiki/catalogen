@@ -1,8 +1,0 @@
-  private static void handleTable(Table t,
-      org.apache.poi.hwpf.model.StyleSheet stylesheet,      
-      MainDocumentPart documentPart,
-      org.docx4j.wml.ObjectFactory factory) {
-    org.docx4j.wml.Tbl tbl = factory.createTbl();
-    for (int i = 0; i < t.numRows(); i++) {
-      TableRow tr = t.getRow(i);
-}}

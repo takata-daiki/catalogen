@@ -1,7 +1,5 @@
-  private XSSFCellStyle getFillStyleForColour(Color colour) {
+public void wrapperMethod() {
+        XSSFCellStyle cellStyle = theCell.getCellStyle();
 
-      XSSFCellStyle style = styles.get(colour);
-{
-        style.setFillPattern(XSSFCellStyle.SOLID_FOREGROUND );
-        style.setFillForegroundColor(col);
+        short xssfAlignment = cellStyle.getAlignment();
 }

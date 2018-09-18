@@ -1,5 +1,4 @@
-    public Document getDocument()
-
+public void wrapperMethod() {
     @Override
     protected void outputCharacters( Element pElement,
             CharacterRun characterRun, String text )
@@ -9,4 +8,4 @@
         if ( characterRun.getFontSize() / 2 != blockProperies.pFontSize )
         {
             style.append( "font-size:" + characterRun.getFontSize() / 2 + "pt;" );
-}}
+}}}

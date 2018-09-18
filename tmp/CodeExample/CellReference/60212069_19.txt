@@ -1,3 +1,0 @@
-    for(CellReference celRef:celRefs){
-      String key =  (celRef.getRow()-offsetRow)+"_"+(celRef.getCol()-offsetCol);
-      mapCell.put(key, new ExcelCell(getCell(sh, celRef.getRow(), celRef.getCol())));

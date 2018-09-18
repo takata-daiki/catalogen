@@ -1,6 +1,0 @@
-    public boolean getBackupFlag()
-{
-        BackupRecord backupRecord = workbook.getBackupRecord();
-        return (backupRecord.getBackup() == 0) ? false
-                : true;
-}

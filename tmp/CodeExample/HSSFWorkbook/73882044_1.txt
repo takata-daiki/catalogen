@@ -1,5 +1,4 @@
-    protected void addSelectiveData ( final int row, final int column, final boolean available, final String value, final boolean ackRequired )
-{
+public void wrapperMethod() {
         final HSSFWorkbook workbook = new HSSFWorkbook ( new FileInputStream ( fileName ) );
         final Sheet sheet = workbook.getSheetAt ( 0 );
 }

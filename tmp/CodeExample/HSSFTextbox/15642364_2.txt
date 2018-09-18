@@ -1,4 +1,6 @@
-    private ObjRecord createObjRecord( HSSFTextbox hssfShape, int shapeId )
-    {
-        HSSFShape shape = hssfShape;
+public void wrapperMethod() {
+        HSSFTextbox shape = hssfShape;
+        int frLength = ( shape.getString().numFormattingRuns() + 1 ) * 8;
+        obj.setTextLength( (short) shape.getString().length() );
+        obj.setStr( shape.getString() );
 }

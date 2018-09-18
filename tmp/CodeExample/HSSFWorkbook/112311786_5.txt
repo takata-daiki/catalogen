@@ -1,3 +1,0 @@
-  private HSSFCellStyle createBorderedCellStyle(final HSSFWorkbook workbook) {
-    final HSSFFont bodyCellFont = createFont(workbook, false, false);
-    final HSSFCellStyle bodyCellStyle = workbook.createCellStyle();

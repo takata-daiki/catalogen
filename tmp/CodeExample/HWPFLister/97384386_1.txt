@@ -1,3 +1,4 @@
+public void wrapperMethod() {
         HWPFLister listerOriginal = new HWPFLister( original );
         listerOriginal.dumpFileSystem();
         listerOriginal.dumpFIB();
@@ -9,4 +10,4 @@
             listerOriginal.dumpChpx( outputChpxProperties, outputChpxSprms );
 }{
             listerOriginal.dumpPapx( outputPapxProperties, outputPapxSprms );
-}
+}}

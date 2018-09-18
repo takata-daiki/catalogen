@@ -1,9 +1,10 @@
+public void wrapperMethod() {
     @Deprecated
-    protected Paragraph( PAPX papx, Range parent )
+    protected Paragraph( PAPX papx, Range parent, int start )
     {
-        super( Math.max( parent._start, papx.getStart() ), Math.min(
-                parent._end, papx.getEnd() ), parent );
+        super( Math.max( parent._start, start ), Math.min( parent._end,
+                papx.getEnd() ), parent );
         _props = papx.getParagraphProperties( _doc.getStyleSheet() );
         _papx = papx.getSprmBuf();
         _istd = papx.getIstd();
-}
+}}

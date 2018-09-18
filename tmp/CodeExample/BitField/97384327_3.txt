@@ -1,6 +1,7 @@
+public void wrapperMethod() {
     /**/private static final BitField fRMarkDel = new BitField(0x00000004);
 {
         field_1_grpfChp = fRMarkDel.setBoolean(field_1_grpfChp, value);
 }{
         return fRMarkDel.isSet(field_1_grpfChp);
-}
+}}

@@ -1,6 +1,4 @@
-    public void fillPolygon(int xPoints[], int yPoints[],
-             int nPoints)
-{
+public void wrapperMethod() {
         HSSFPolygon shape = escherGroup.createPolygon(new HSSFChildAnchor(left,top,right,bottom) );
         shape.setPolygonDrawArea(right - left, bottom - top);
         shape.setPoints(addToAll(xPoints, -left), addToAll(yPoints, -top));

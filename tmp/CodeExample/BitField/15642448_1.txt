@@ -1,7 +1,8 @@
-    private static final BitField          outlineLevel  = BitFieldFactory.getInstance(0x07);
+public void wrapperMethod() {
+    private static final BitField          colapsed      = BitFieldFactory.getInstance(0x10);
 {
-        field_7_option_flags =
-            outlineLevel.setShortValue(field_7_option_flags, ol);
+        field_7_option_flags = colapsed.setShortBoolean(field_7_option_flags,
+                c);
 }{
-        return outlineLevel.getShortValue(field_7_option_flags);
-}
+        return (colapsed.isSet(field_7_option_flags));
+}}

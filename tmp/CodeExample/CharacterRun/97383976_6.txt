@@ -1,6 +1,4 @@
-    protected void processDrawnObject( HWPFDocument doc,
-            CharacterRun characterRun, Element block )
-
-    protected abstract void processDrawnObject( HWPFDocument doc,
-            CharacterRun characterRun, OfficeDrawing officeDrawing,
-            String path, Element block );
+public void wrapperMethod() {
+            CharacterRun characterRun = range.getCharacterRun( c );
+            String text = characterRun.text();
+}

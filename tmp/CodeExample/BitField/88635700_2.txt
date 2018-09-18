@@ -1,6 +1,7 @@
-    /**/private static BitField fWidowControl = new BitField(0x02);
+public void wrapperMethod() {
+    /**/private static BitField fPMHMainDoc = new BitField(0x04);
 {
-        field_1_formatFlags = (byte)fWidowControl.setBoolean(field_1_formatFlags, value);
+        field_1_formatFlags = (byte)fPMHMainDoc.setBoolean(field_1_formatFlags, value);
 }{
-        return fWidowControl.isSet(field_1_formatFlags);
-}
+        return fPMHMainDoc.isSet(field_1_formatFlags);
+}}

@@ -1,5 +1,4 @@
-    private void dumpOfficeDrawings()
-{
+public void wrapperMethod() {
         HWPFDocument document = (HWPFDocument) _doc;
         if ( document.getOfficeDrawingsHeaders() != null )
         {

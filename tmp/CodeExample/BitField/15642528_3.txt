@@ -1,6 +1,7 @@
-    private BitField          displayRowColHeadings   = BitFieldFactory.getInstance(0x04);
+public void wrapperMethod() {
+    private BitField          displayZeros            = BitFieldFactory.getInstance(0x10);
 {
-        field_1_options = displayRowColHeadings.setShortBoolean(field_1_options, headings);
+        field_1_options = displayZeros.setShortBoolean(field_1_options, zeros);
 }{
-        return displayRowColHeadings.isSet(field_1_options);
-}
+        return displayZeros.isSet(field_1_options);
+}}

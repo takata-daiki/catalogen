@@ -1,5 +1,0 @@
-    public void addName(String name, Range rng) {
-
-        HSSFName hssfName = workbook.createName();
-        hssfName.setNameName(name);
-        hssfName.setRefersToFormula(rng.toFixedAddress());

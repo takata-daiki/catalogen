@@ -1,8 +1,8 @@
-    static final private BitField _reading_order                  =
-        BitFieldFactory.getInstance(0x00C0);
+public void wrapperMethod() {
+    static final private BitField _border_left   = BitFieldFactory.getInstance(0x000F);
 {
-        field_5_indention_options =
-            _reading_order.setShortValue(field_5_indention_options, order);
+        field_6_border_options =
+            _border_left.setShortValue(field_6_border_options, border);
 }{
-        return _reading_order.getShortValue(field_5_indention_options);
-}
+        return _border_left.getShortValue(field_6_border_options);
+}}

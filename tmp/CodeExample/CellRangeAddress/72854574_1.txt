@@ -1,3 +1,0 @@
-            for (CellRangeAddress address : validation.getRegions().getCellRangeAddresses()) {
-              String formula1=validation.getValidationConstraint().getFormula1();              
-                validationList.add(new ValidationImpl(formula1, this, address.getFirstColumn(), address.getLastColumn(), address.getFirstRow(), address.getLastRow()));

@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private HSSFComment              comment;
 {
         comment.setRow((short)record.getRow());
@@ -8,4 +9,4 @@
                    comment.setAuthor(note.getAuthor());
                    comment.setVisible(note.getFlags() == NoteRecord.NOTE_VISIBLE);
                    comment.setString(txo.getStr());
-}}}}
+}}}}}

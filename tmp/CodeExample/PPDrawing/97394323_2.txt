@@ -1,3 +1,4 @@
-    public Shape[] getShapes() {
+public void wrapperMethod() {
         PPDrawing ppdrawing = getPPDrawing();
         EscherContainerRecord dg = (EscherContainerRecord) ppdrawing.getEscherRecords()[0];
+}

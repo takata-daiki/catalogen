@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private static final POILogger logger = POILogFactory
             .getLogger( AbstractWordUtils.class );
 {{
@@ -7,4 +8,4 @@
 }}{
         if ( format != 0 )
           logger.log( POILogger.INFO, "NYI: toListItemNumberLabel(): " + format );
-}
+}}

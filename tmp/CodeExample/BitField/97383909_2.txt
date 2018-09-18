@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private static BitField fVersion = BitFieldFactory.getInstance(0x000f);
 {
         setVersion( fVersion.getShortValue( options ) );
@@ -5,4 +6,4 @@
         return fVersion.getShortValue( _options );
 }{
         _options = fVersion.setShortValue( _options, value );
-}
+}}

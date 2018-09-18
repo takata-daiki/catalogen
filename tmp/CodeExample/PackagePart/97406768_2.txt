@@ -1,5 +1,5 @@
-    public XSLFPictureShape createPicture(int pictureIndex){
-
-        PackagePart pic = pics.get(0);
+public void wrapperMethod() {
+        PackagePart pic = ppt.getAllPictures().get(pictureIdx).getPackagePart();
         PackageRelationship rel = getPackagePart().addRelationship(
-                pic.getPartName(), TargetMode.INTERNAL, XSLFRelation.IMAGES.getRelation());
+                pic.getPartName(), TargetMode.INTERNAL, blipRel.getRelationshipType());
+}

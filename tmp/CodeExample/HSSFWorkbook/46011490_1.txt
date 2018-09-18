@@ -1,3 +1,4 @@
+public void wrapperMethod() {
   private HSSFWorkbook wb;
 {
     HSSFSheet sheet = wb.createSheet();
@@ -13,4 +14,4 @@
     csIntNum.setDataFormat(wb.createDataFormat().getFormat("#,##0"));
     csDoubleNum = wb.createCellStyle();
     csDoubleNum.setDataFormat(wb.createDataFormat().getFormat("#.##"));
-}
+}}

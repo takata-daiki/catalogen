@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private POILogger logger = POILogFactory.getLogger(getClass());
 {{
             if (logger.check(POILogger.WARN))
@@ -7,4 +8,4 @@
             logger.log(POILogger.WARN,"drawImage() not supported");
 }{
             logger.log(POILogger.WARN,"fill(Shape) not supported");
-}
+}}

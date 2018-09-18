@@ -1,5 +1,4 @@
-  public static void dumpStream(Stream stream, int indent) {
-
+public void wrapperMethod() {
     Pointer ptr = stream.getPointer();
     System.out.println(ind + "Stream at\t" + ptr.getOffset() +
         " - " + Integer.toHexString(ptr.getOffset()));
@@ -13,3 +12,4 @@
       int decompLen = stream._getContentsLength();
 }
     System.out.println(ind + "  Compressed is\t" + ptr.destinationCompressed());
+}

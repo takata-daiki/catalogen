@@ -1,8 +1,0 @@
-    public void setBAT(final BlockAllocationTableReader bat)
-        throws IOException
-    {
-        if (_bat != null)
-        {
-            throw new IOException(
-                "Attempt to replace existing BlockAllocationTable");
-}}

@@ -1,5 +1,4 @@
-  public WordDocument() {
-}{
+public void wrapperMethod() {
     final WordExtractor extractor = new WordExtractor(filesystem);
     addTextIfAny(sb, extractor.getHeaderText());
     for (final String paragraph : extractor.getParagraphText()) {
@@ -12,3 +11,4 @@
     for (final String paragraph : extractor.getEndnoteText()) {
 }
     addTextIfAny(sb, extractor.getFooterText());
+}

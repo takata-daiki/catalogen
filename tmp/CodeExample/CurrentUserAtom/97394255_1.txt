@@ -1,3 +1,4 @@
+public void wrapperMethod() {
   private CurrentUserAtom currentUser;
 {
         _records = read(_docstream, (int)currentUser.getCurrentEditOffset());
@@ -6,4 +7,4 @@
 
         currentUser.setCurrentEditOffset(newLastUserEditAtomPos.intValue());
         currentUser.writeToFS(outFS);
-}
+}}

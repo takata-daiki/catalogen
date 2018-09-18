@@ -1,7 +1,0 @@
-    public void processDocument( HWPFDocumentCore wordDocument )
-{
-        final Range docRange = wordDocument.getRange();
-        if ( docRange.numSections() == 1 )
-        {
-            processSingleSection( wordDocument, docRange.getSection( 0 ) );
-}}

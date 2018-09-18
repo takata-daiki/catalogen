@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private FFDataBase _base;
 {
         if ( _base.getIType() == FFDataBase.ITYPE_TEXT )
@@ -27,4 +28,4 @@
             LittleEndian.putUShort( buffer, offset, _wDef );
 }{
             offset += _hsttbDropList.serialize( buffer, offset );
-}}
+}}}

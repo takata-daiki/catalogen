@@ -1,6 +1,6 @@
-  protected void setUp() {
-}{
+public void wrapperMethod() {
     VisioTextExtractor extractor =
       new VisioTextExtractor(_dgTests.openResourceAsStream(defFilename));
     String[] text = extractor.getAllText();
     String textS = extractor.getText();
+}

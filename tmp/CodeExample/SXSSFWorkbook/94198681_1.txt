@@ -1,3 +1,4 @@
+public void wrapperMethod() {
   private SXSSFWorkbook wb;
 {
     this.sheet = wb.createSheet("Export");
@@ -13,4 +14,4 @@
     wb.write(os);
 }{
     wb.dispose();
-}
+}}

@@ -1,5 +1,5 @@
-    public void resize() {
+public void wrapperMethod() {
         XSLFPictureData pict = getPictureData();
 {
             BufferedImage img = ImageIO.read(new ByteArrayInputStream(pict.getData()));
-}
+}}

@@ -1,5 +1,0 @@
-        if ( getDocument() instanceof HWPFDocument )
-{{
-                FFData ffData = new FFData( data.getBinData(), 0 );
-                return Integer.valueOf( ffData.getDefaultDropDownItemIndex() );
-}}

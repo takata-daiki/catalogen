@@ -1,5 +1,4 @@
-  private int getHeaderDepth(TableColumn<T, ?> column, int depth) {
-}{
+public void wrapperMethod() {
     HSSFSheet sheet = wb.createSheet();
     HSSFRow row = sheet.createRow(rowIdx);
 {
@@ -10,4 +9,4 @@
           sheet.setColumnWidth(i, (int) (258 / 8 * column.getPrefWidth()));
 }}}{
       row = sheet.createRow(rowIdx);
-}
+}}

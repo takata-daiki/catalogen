@@ -1,3 +1,4 @@
+public void wrapperMethod() {
   private NPOIFSDocument _document;
 {
     _data = _document.getBlockIterator();
@@ -5,4 +6,4 @@
       _data = _document.getBlockIterator();
 }{{
         _data = _document.getBlockIterator();
-}}
+}}}

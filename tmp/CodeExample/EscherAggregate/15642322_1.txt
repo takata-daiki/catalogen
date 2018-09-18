@@ -1,5 +1,4 @@
-    public void dumpDrawingRecords(boolean fat)
-{
+public void wrapperMethod() {
         EscherAggregate r = (EscherAggregate) getSheet().findFirstRecordBySid(EscherAggregate.sid);
         List escherRecords = r.getEscherRecords();
 }

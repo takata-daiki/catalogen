@@ -1,6 +1,7 @@
-    /**/private static BitField oldfWrapTrailSpaces = new BitField(0x0008);
+public void wrapperMethod() {
+    /**/private static BitField fSaveFormData = new BitField(0x0800);
 {
-        field_8_docinfo3 = (short)oldfWrapTrailSpaces.setBoolean(field_8_docinfo3, value);
+        field_24_Edn1 = (short)fSaveFormData.setBoolean(field_24_Edn1, value);
 }{
-        return oldfWrapTrailSpaces.isSet(field_8_docinfo3);
-}
+        return fSaveFormData.isSet(field_24_Edn1);
+}}

@@ -1,5 +1,5 @@
-    private XMLSlideShow generatePreview(XMLSlideShow ppt, List<PreviewReportingDocument> previewData, String cityName,
-                                         int repDocsStartNum) {
-        XSLFTextParagraph p2 = txt2.addNewTextParagraph();
-        XSLFTextRun r2 = p2.addNewTextRun();
+public void wrapperMethod() {
+            XSLFTextParagraph p = th.addNewTextParagraph();
+            p.setTextAlign(TextAlign.CENTER);
+            XSLFTextRun r = p.addNewTextRun();
 }

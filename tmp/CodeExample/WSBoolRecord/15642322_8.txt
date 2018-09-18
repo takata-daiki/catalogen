@@ -1,6 +1,0 @@
-    public void setRowSumsRight(boolean b)
-{
-        WSBoolRecord record =
-                (WSBoolRecord) sheet.findFirstRecordBySid(WSBoolRecord.sid);
-        record.setRowSumsRight(b);
-}

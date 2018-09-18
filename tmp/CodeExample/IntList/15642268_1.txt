@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private IntList _entries;
 {{
             currentBlock = _entries.get(currentBlock);
@@ -9,4 +10,4 @@
                     raw_blocks.zap(_entries.size());
 }
                 _entries.add(entry);
-}}}
+}}}}

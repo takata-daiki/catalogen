@@ -1,5 +1,4 @@
-   public HSSFComment createComment(HSSFAnchor anchor)
-{
+public void wrapperMethod() {
         HSSFComment shape = new HSSFComment(null, anchor);
         shape.anchor = anchor;
 }

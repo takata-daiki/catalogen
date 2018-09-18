@@ -1,7 +1,4 @@
-    protected void processParagraph( HWPFDocumentCore hwpfDocument,
-            Element parentElement, int currentTableLevel, Paragraph paragraph,
-            String bulletText )
-{{{
+public void wrapperMethod() {
                 Triplet triplet = getCharacterRunTriplet( characterRun );
                 pFontName = triplet.fontName;
-}}}
+}

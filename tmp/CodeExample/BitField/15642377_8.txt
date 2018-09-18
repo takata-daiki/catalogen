@@ -1,8 +1,9 @@
-    static final private BitField _vertical_alignment = BitFieldFactory.getInstance(0x0070);
+public void wrapperMethod() {
+    static final private BitField _shrink_to_fit                  =
+        BitFieldFactory.getInstance(0x0010);
 {
-        field_4_alignment_options =
-            _vertical_alignment.setShortValue(field_4_alignment_options,
-                                              align);
+        field_5_indention_options =
+            _shrink_to_fit.setShortBoolean(field_5_indention_options, shrink);
 }{
-        return _vertical_alignment.getShortValue(field_4_alignment_options);
-}
+        return _shrink_to_fit.isSet(field_5_indention_options);
+}}

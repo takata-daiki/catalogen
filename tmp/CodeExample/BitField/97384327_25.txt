@@ -1,6 +1,7 @@
-    /**/private static final BitField fIcoBi = new BitField(0x00800000);
+public void wrapperMethod() {
+    /**/private static final BitField fKumimoji = new BitField(0x0400);
 {
-        field_1_grpfChp = fIcoBi.setBoolean(field_1_grpfChp, value);
+        field_29_ufel = (short)fKumimoji.setBoolean(field_29_ufel, value);
 }{
-        return fIcoBi.isSet(field_1_grpfChp);
-}
+        return fKumimoji.isSet(field_29_ufel);
+}}

@@ -1,9 +1,11 @@
-    static final private BitField _indent_not_parent_alignment    =
-        BitFieldFactory.getInstance(0x1000);
+public void wrapperMethod() {
+    static final private BitField _left_border_palette_idx  =
+        BitFieldFactory.getInstance(0x007F);
 {
-        field_5_indention_options =
-            _indent_not_parent_alignment
-                .setShortBoolean(field_5_indention_options, alignment);
+        field_7_palette_options =
+            _left_border_palette_idx.setShortValue(field_7_palette_options,
+                                                   border);
 }{
-        return _indent_not_parent_alignment.isSet(field_5_indention_options);
-}
+        return _left_border_palette_idx
+            .getShortValue(field_7_palette_options);
+}}

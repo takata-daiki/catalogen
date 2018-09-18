@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private PaletteRecord palette;
 {{
           byte[] b = palette.getColor(index);
@@ -18,4 +19,4 @@
             if (b == null)
 {
                 setColorAtIndex( i, red, green, blue );
-}}}
+}}}}

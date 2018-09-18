@@ -1,20 +1,13 @@
-    protected boolean processCharacters( final HWPFDocumentCore wordDocument,
-            final int currentTableLevel, final Range range, final Element block )
-{{{
-                CharacterRun characterRun = range.getCharacterRun( c );
-                if ( characterRun.getStartOffset() < skipUntil )
-                    continue;
-                String text = characterRun.text();
-                Field aliveField = ( (HWPFDocument) wordDocument ).getFields()
-                        .getFieldByStartOffset( FieldsDocumentPart.MAIN,
-                                characterRun.getStartOffset() );
-{{
-                        addToStructures(
-                                structures,
-                                new Structure( new DeadFieldBoundaries( c,
-                                        separatorEnd[0], separatorEnd[1] ),
-                                        characterRun.getStartOffset(), range
-                                                .getCharacterRun(
-                                                        separatorEnd[1] )
-                                                .getEndOffset() ) );
-}}}}}
+    protected void processDrawnObject( HWPFDocument doc,
+            CharacterRun characterRun, Element block )
+    {
+        if ( getPicturesManager() == null )
+            return;
+        OfficeDrawing officeDrawing = doc.getOfficeDrawingsMain()
+                .getOfficeDrawingAt( characterRun.getStartOffset() );
+
+        String path = getPicturesManager()
+                .savePicture( pictureData, type,
+                        "s" + characterRun.getStartOffset() + "." + type,
+                        width, height );
+}

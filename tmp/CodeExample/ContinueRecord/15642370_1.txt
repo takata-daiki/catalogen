@@ -1,6 +1,5 @@
-    public int serialize( int offset, byte[] data )
-{{
-            ContinueRecord c2 = createContinue2();
+public void wrapperMethod() {
+        ContinueRecord c2 = new ContinueRecord();
 
-            int bytesWritten3 = c2.serialize( pos, data );
-}}
+        c2.setData( c2Data );
+}

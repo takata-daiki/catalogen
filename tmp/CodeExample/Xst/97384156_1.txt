@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     private Xst _xst;
 {
         offset += _xst.getSize();
@@ -9,4 +10,4 @@
         _xst.serialize( data, offset );
 }{
         return "[Xstz]" + _xst.getAsJavaString() + "[/Xstz]";
-}
+}}

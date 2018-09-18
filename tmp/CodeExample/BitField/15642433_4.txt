@@ -1,7 +1,0 @@
-    static final private BitField macshadow  = BitFieldFactory.getInstance(
-        0x20);                                                // some weird macintosh thing....but who understands those mac people anyhow
-{
-        field_2_attributes = macshadow.setShortBoolean(field_2_attributes, mac);
-}{
-        return macshadow.isSet(field_2_attributes);
-}
