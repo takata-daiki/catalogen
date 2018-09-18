@@ -1,4 +1,8 @@
-    static final private BitField italic     =
-{        field_2_attributes = italic.setShortBoolean(field_2_attributes, italics);
-}{        return italic.isSet(field_2_attributes);
-}
+public void wrapperMethod() {
+    static final private BitField strikeout  =
+        BitFieldFactory.getInstance(0x08);                                   // is this font has a line through the center
+{
+        field_2_attributes = strikeout.setShortBoolean(field_2_attributes, strike);
+}{
+        return strikeout.isSet(field_2_attributes);
+}}

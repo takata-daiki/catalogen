@@ -1,2 +1,6 @@
-    public boolean removeShape(XSLFShape xShape) {
-        XmlObject obj = xShape.getXmlObject();
+public void wrapperMethod() {
+        for (XSLFShape shape : getShapes()) {
+          AffineTransform at = graphics.getTransform();
+            shape.applyTransform(graphics);
+          shape.draw(graphics);
+}}

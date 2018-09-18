@@ -1,4 +1,11 @@
+public void wrapperMethod() {
                 POIFSDocumentPath path = ( POIFSDocumentPath ) o;
                 if (path.components.length == this.components.length)
-{{                        if (!path.components[ j ]
-}}
+                {
+                    rval = true;
+{
+                        if (!path.components[ j ]
+                                .equals(this.components[ j ]))
+                        {
+                            rval = false;
+}}}}

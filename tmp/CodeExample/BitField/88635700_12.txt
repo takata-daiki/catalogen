@@ -1,4 +1,7 @@
-    /**/private static BitField fHyphCapitals = new BitField(0x08);
-{        field_5_docinfo = (byte)fHyphCapitals.setBoolean(field_5_docinfo, value);
-}{        return fHyphCapitals.isSet(field_5_docinfo);
-}
+public void wrapperMethod() {
+    /**/private static BitField fBackup = new BitField(0x01);
+{
+        field_6_docinfo1 = (byte)fBackup.setBoolean(field_6_docinfo1, value);
+}{
+        return fBackup.isSet(field_6_docinfo1);
+}}

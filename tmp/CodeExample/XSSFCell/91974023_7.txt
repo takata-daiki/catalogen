@@ -1,5 +1,26 @@
+public void wrapperMethod() {
           XSSFCell cell = dataRow.createCell(j + 2);
           cell.setCellStyle(dataStyle);
-{            cell.setCellValue(new XSSFRichTextString(""
-}{            cell.setCellValue(new XSSFRichTextString(listBetreuung
-}
+{
+            cell.setCellValue(new XSSFRichTextString(""
+                + listBetreuung.getFamilie_nummer()));
+}{
+            cell.setCellValue(new XSSFRichTextString(listBetreuung
+                .getFamilie_nachname()));
+}{
+                .getAufgehort()));
+}{
+                .getAngemeldet()));
+}{
+                .getAbgemeldet()));
+}{
+                .getFahrgeld()));
+}{
+                .getVerdienst()));
+}{
+                .getSva()));
+}{
+                .getReferenz()));
+}{
+                .getInformation()));
+}}

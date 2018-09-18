@@ -1,2 +1,4 @@
+public void wrapperMethod() {
     FontCollection fonts = getDocumentRecord().getEnvironment().getFontCollection();
     Record[] ch = fonts.getChildRecords();
+}

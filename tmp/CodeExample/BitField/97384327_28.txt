@@ -1,4 +1,7 @@
-    /**/private static final BitField fItalicOther = new BitField(0x04000000);
-{        field_1_grpfChp = fItalicOther.setBoolean(field_1_grpfChp, value);
-}{        return fItalicOther.isSet(field_1_grpfChp);
-}
+public void wrapperMethod() {
+    /**/private static final BitField fTNYFetchTxm = new BitField(0x20);
+{
+        field_30_copt = (byte)fTNYFetchTxm.setBoolean(field_30_copt, value);
+}{
+        return fTNYFetchTxm.isSet(field_30_copt);
+}}

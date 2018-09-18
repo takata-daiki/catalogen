@@ -1,4 +1,8 @@
-    static final private BitField strikeout  =
-{        field_2_attributes = strikeout.setShortBoolean(field_2_attributes, strike);
-}{        return strikeout.isSet(field_2_attributes);
-}
+public void wrapperMethod() {
+    static final private BitField macoutline = BitFieldFactory.getInstance(
+        0x10);                                                // some weird macintosh thing....but who understands those mac people anyhow
+{
+        field_2_attributes = macoutline.setShortBoolean(field_2_attributes, mac);
+}{
+        return macoutline.isSet(field_2_attributes);
+}}

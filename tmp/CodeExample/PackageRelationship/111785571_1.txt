@@ -1,9 +1,13 @@
+public void wrapperMethod() {
            for(PackageRelationship rel : rels) {
               if( rel.getRelationshipType().equals(RELATION_AUDIO) ||
                   rel.getRelationshipType().equals(RELATION_IMAGE) ||
                   rel.getRelationshipType().equals(RELATION_OLE_OBJECT) ||
                   rel.getRelationshipType().equals(RELATION_PACKAGE) ) {
                  if(rel.getTargetMode() == TargetMode.INTERNAL) {
-{                       relName = PackagingURIHelper.createPartName(rel.getTargetURI());
-}                    PackagePart relPart = rel.getPackage().getPart(relName);
-}}
+                    PackagePartName relName;
+{
+                       relName = PackagingURIHelper.createPartName(rel.getTargetURI());
+}
+                    PackagePart relPart = rel.getPackage().getPart(relName);
+}}}}

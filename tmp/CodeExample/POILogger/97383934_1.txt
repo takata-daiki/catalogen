@@ -1,4 +1,7 @@
+public void wrapperMethod() {
     private static final POILogger log = POILogFactory.getLogger(EscherMetafileBlip.class);
-{{            log.log(POILogger.WARN, "Possibly corrupt compression or non-compressed data", e);
-}}{        log.log(POILogger.WARN, "Unknown metafile: " + getRecordId());
-}
+{{
+            log.log(POILogger.WARN, "Possibly corrupt compression or non-compressed data", e);
+}}{
+        log.log(POILogger.WARN, "Unknown metafile: " + getRecordId());
+}}

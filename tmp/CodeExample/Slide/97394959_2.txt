@@ -1,5 +1,8 @@
+public void wrapperMethod() {
     Slide slide = new Slide(sp.getSlideIdentifier(), sp.getRefID(), _slides.length + 1);
     slide.setSlideShow(this);
     slide.onCreate();
     org.apache.poi.hslf.record.Slide slideRecord = slide.getSlideRecord();
+
     slide.setMasterSheet(_masters[0]);
+}

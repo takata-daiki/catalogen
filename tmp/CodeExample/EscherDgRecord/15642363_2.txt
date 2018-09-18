@@ -1,6 +1,13 @@
+public void wrapperMethod() {
         EscherDgRecord dg = (EscherDgRecord) dgMap.get(new Short(drawingGroupId));
         int lastShapeId = dg.getLastMSOSPID();
-{{                if (dg.getLastMSOSPID() == -1)
-{                    newShapeId = dg.getLastMSOSPID() + 1;
-}}}        dg.setLastMSOSPID(newShapeId);
+{{
+                if (dg.getLastMSOSPID() == -1)
+                {
+                    newShapeId = findFreeSPIDBlock();
+}{
+                    newShapeId = dg.getLastMSOSPID() + 1;
+}}}
+        dg.setLastMSOSPID(newShapeId);
         dg.incrementShapeCount();
+}

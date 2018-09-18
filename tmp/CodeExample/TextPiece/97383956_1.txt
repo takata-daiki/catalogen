@@ -1,2 +1,4 @@
+public void wrapperMethod() {
             final TextPiece textPiece = new SinglentonTextPiece( _text );
             _text = textPiece.getStringBuilder();
+}

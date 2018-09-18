@@ -1,8 +1,0 @@
-  private HSLFSlideShow _hslfSlideShow;
-{    _records = _hslfSlideShow.getRecords();
-}{    _hslfSlideShow.write(out);
-}{    return _hslfSlideShow.getPictures();
-}{    return _hslfSlideShow.getEmbeddedObjects();
-}{    int slideRecordPos = _hslfSlideShow.appendRootLevelRecord(slideRecord);
-}{    int offset = _hslfSlideShow.addPicture(pict);
-}

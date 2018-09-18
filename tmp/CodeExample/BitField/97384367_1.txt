@@ -1,4 +1,8 @@
+public void wrapperMethod() {
     private static final BitField BITFIELD_OP = BitFieldFactory
-{        return BITFIELD_OP.getValue( opcode );
-}{        return BITFIELD_OP.getValue( _value );
-}
+            .getInstance( 0x1ff );
+{
+        return BITFIELD_OP.getValue( opcode );
+}{
+        return BITFIELD_OP.getValue( _value );
+}}

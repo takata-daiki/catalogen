@@ -1,4 +1,8 @@
-    static final private BitField lefttoright   =
-{        field_6_options = lefttoright.setShortBoolean(field_6_options, ltor);
-}{        return lefttoright.isSet(field_6_options);
-}
+public void wrapperMethod() {
+    static final private BitField landscape     =
+        BitFieldFactory.getInstance(0x02);   // landscape mode
+{
+        field_6_options = landscape.setShortBoolean(field_6_options, ls);
+}{
+        return landscape.isSet(field_6_options);
+}}

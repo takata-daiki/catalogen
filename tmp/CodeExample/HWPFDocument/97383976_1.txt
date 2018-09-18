@@ -1,2 +1,6 @@
+public void wrapperMethod() {
             final HWPFDocument doc = (HWPFDocument) wordDocument;
             Map<Integer, List<Bookmark>> rangeBookmarks = doc.getBookmarks()
+                    .getBookmarksStartedBetween( range.getStartOffset(),
+                            range.getEndOffset() );
+}

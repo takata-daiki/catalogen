@@ -1,4 +1,11 @@
     DirectoryNode(final DirectoryProperty property,
-{{{                property.getName()
-}}        Iterator iter = property.getChildren();
+                  final POIFSFileSystem filesystem,
+                  final DirectoryNode parent)
+    {
+        super(property, parent);
+{{
+                property.getName()
+            });
+}
+        Iterator iter = property.getChildren();
 }

@@ -1,4 +1,6 @@
+public void wrapperMethod() {
                 XSSFColor colorX = styleX.getFillForegroundColorColor();
-{                  byte[] rgbX = colorX.getARgb();
+{
+                  byte[] rgbX = colorX.getARgb();
                   System.out.println( "Comparing " + colorX.getARGBHex() + " with " + colorS.getHexString() );
-}
+}}

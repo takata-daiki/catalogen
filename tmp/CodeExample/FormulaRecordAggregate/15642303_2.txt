@@ -1,4 +1,7 @@
+public void wrapperMethod() {
             FormulaRecordAggregate rec = (FormulaRecordAggregate) record;
             FormulaRecord frec = rec.getFormulaRecord();
             if (rec.getXFIndex() == (short)0) rec.setXFIndex(( short ) 0x0f);
+
             rec.getFormulaRecord().setExpressionLength(( short ) size);
+}

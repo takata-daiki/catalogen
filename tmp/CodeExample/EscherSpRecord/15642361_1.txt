@@ -1,7 +1,11 @@
+public void wrapperMethod() {
         EscherSpRecord sp = new EscherSpRecord();
         sp.setRecordId( EscherSpRecord.RECORD_ID );
         sp.setOptions( (short) ( (EscherAggregate.ST_LINE << 4) | 0x2 ) );
         sp.setShapeId( shapeId );
         sp.setFlags( EscherSpRecord.FLAG_HAVEANCHOR | EscherSpRecord.FLAG_HASSHAPETYPE );
+        if (userAnchor.isHorizontallyFlipped())
             sp.setFlags(sp.getFlags() | EscherSpRecord.FLAG_FLIPHORIZ);
+        if (userAnchor.isVerticallyFlipped())
             sp.setFlags(sp.getFlags() | EscherSpRecord.FLAG_FLIPVERT);
+}

@@ -1,4 +1,7 @@
-    /**/private static BitField fNoTabForInd = new BitField(0x00000001);
-{        field_33_docinfo4 = (int)fNoTabForInd.setBoolean(field_33_docinfo4, value);
-}{        return fNoTabForInd.isSet(field_33_docinfo4);
-}
+public void wrapperMethod() {
+    /**/private static BitField fHaveVersions = new BitField(0x0001);
+{
+        field_38_docinfo6 = (short)fHaveVersions.setBoolean(field_38_docinfo6, value);
+}{
+        return fHaveVersions.isSet(field_38_docinfo6);
+}}

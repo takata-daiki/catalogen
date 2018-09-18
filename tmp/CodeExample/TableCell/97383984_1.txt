@@ -1,4 +1,6 @@
+public void wrapperMethod() {
                 TableCell tableCell = tableRow.getCell( c );
                 edges.add( Integer.valueOf( tableCell.getLeftEdge() ) );
                 edges.add( Integer.valueOf( tableCell.getLeftEdge()
                         + tableCell.getWidth() ) );
+}

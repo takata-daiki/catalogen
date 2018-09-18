@@ -1,3 +1,5 @@
-        PackagePart corePart = getCorePart(); 
-        return corePart.getRelatedPart(
-           corePart.getRelationship(slide.getId2())
+public void wrapperMethod() {
+    PackagePart notesPart = getNodesPart(slide);
+    NotesDocument notesDoc =
+      NotesDocument.Factory.parse(notesPart.getInputStream());
+}

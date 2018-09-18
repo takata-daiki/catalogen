@@ -1,3 +1,0 @@
-        XSLFPictureShape p = (XSLFPictureShape)sh;
-        String blipId = p.getBlipId();
-        String relId = getSheet().importBlip(blipId, p.getSheet().getPackagePart());

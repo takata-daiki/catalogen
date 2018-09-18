@@ -1,3 +1,5 @@
+public void wrapperMethod() {
         ColumnInfoRecordsAggregate rec = new ColumnInfoRecordsAggregate();
-{            rec.insertColumn( ci );
-}
+{
+            rec.insertColumn( ci );
+}}

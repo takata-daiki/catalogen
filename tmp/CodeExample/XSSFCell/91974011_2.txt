@@ -1,3 +1,5 @@
+public void wrapperMethod() {
       XSSFCell familienCell = row1.createCell(0);
       familienCell.setCellStyle(headerStyle);
       familienCell.setCellValue("Familien");
+}

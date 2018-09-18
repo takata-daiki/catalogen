@@ -1,3 +1,5 @@
+public void wrapperMethod() {
       HSSFCell cell = row.createCell(i);
       cell.setCellStyle(style);
       cell.setCellValue(text);
+}

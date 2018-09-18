@@ -1,3 +1,6 @@
+public void wrapperMethod() {
             XSLFTheme theme = getSheet().getTheme();
+            CTBackgroundFillStyleList bgStyles =
                     theme.getXmlObject().getThemeElements().getFmtScheme().getBgFillStyleLst();
             fill = rShape.selectPaint(graphics, bgStyle, phClr, theme.getPackagePart());
+}

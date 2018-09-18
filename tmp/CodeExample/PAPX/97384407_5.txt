@@ -1,6 +1,0 @@
-    protected Paragraph( PAPX papx, Range parent, int start )
-{                papx.getEnd() ), parent );
-        _props = papx.getParagraphProperties( _doc.getStyleSheet() );
-        _papx = papx.getSprmBuf();
-        _istd = papx.getIstd();
-}

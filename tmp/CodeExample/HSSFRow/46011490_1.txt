@@ -1,3 +1,12 @@
+public void wrapperMethod() {
     HSSFRow row = sheet.createRow(rowIdx);
-{      HSSFCell cell = row.createCell(i + nextCellOffset);
-}
+
+    HSSFCell cell = row.createCell(0);
+    row.setHeight((short) (row.getHeight() * 3));
+{{{
+          cell = row.getCell(i);
+{
+            cell = row.createCell(i);
+}}}}{{{
+          cell = row.createCell(j);
+}}}}

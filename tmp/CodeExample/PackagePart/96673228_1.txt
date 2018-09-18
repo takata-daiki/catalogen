@@ -1,2 +1,5 @@
-        PackagePart hdrPart = document.getPartById( headerRef.getId() );
-        HdrDocument hdrDoc = HdrDocument.Factory.parse( hdrPart.getInputStream() );
+public void wrapperMethod() {
+        PackagePart hdrPart = document.getPartById( footerRef.getId() );
+
+        FtrDocument hdrDoc = FtrDocument.Factory.parse( hdrPart.getInputStream() );
+}

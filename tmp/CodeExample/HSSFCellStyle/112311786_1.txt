@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     final HSSFCellStyle headerCellStyle = workbook.createCellStyle();
     headerCellStyle.setAlignment(HSSFCellStyle.ALIGN_CENTER);
     headerCellStyle.setFont(headerFont);
@@ -7,3 +8,4 @@
     headerCellStyle.setLeftBorderColor(HSSFColor.BLACK.index);
     headerCellStyle.setBorderRight(HSSFCellStyle.BORDER_THIN);
     headerCellStyle.setRightBorderColor(HSSFColor.BLACK.index);
+}

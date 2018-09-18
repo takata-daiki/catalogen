@@ -1,5 +1,9 @@
+public void wrapperMethod() {
+    case LabelSSTRecord.sid:
       LabelSSTRecord lsrec = (LabelSSTRecord) record;
       curRow = thisRow = lsrec.getRow();
       thisColumn = lsrec.getColumn();
-{        .getString(lsrec.getSSTIndex()).toString().trim();
-}
+{
+        value =  sstRecord
+        .getString(lsrec.getSSTIndex()).toString().trim();
+}}

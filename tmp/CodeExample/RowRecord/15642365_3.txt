@@ -1,3 +1,6 @@
+public void wrapperMethod() {
             RowRecord row = getRow( rowNum );
+
             int level = row.getOutlineLevel();
             row.setOutlineLevel((short) ( level ));
+}

@@ -1,6 +1,12 @@
+public void wrapperMethod() {
             StyleDescription styleDescription = hwpfDocument.getStyleSheet()
+                    .getStyleDescription( s );
+            System.out.println( "=== Style #" + s + " '"
                     + styleDescription.getName() + "' ===" );
             if ( styleDescription.getPAPX() != null )
                 dumpSprms( new SprmIterator( styleDescription.getPAPX(), 2 ),
+                        "Style's PAP SPRM: " );
             if ( styleDescription.getCHPX() != null )
                 dumpSprms( new SprmIterator( styleDescription.getCHPX(), 0 ),
+                        "Style's CHP SPRM: " );
+}

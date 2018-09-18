@@ -1,4 +1,6 @@
+public void wrapperMethod() {
       ExcelExtractor extractor = new ExcelExtractor((HSSFWorkbook)wb);
       extractor.setFormulasNotResults(true);
       extractor.setIncludeSheetNames(false);
       text = extractor.getText();
+}

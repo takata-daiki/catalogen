@@ -1,3 +1,6 @@
+public void wrapperMethod() {
+    case NumberRecord.sid:
       NumberRecord numrec = (NumberRecord) record;
       curRow = thisRow = numrec.getRow();
       thisColumn = numrec.getColumn();
+}

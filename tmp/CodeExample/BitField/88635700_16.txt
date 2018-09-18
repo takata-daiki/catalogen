@@ -1,4 +1,7 @@
-    /**/private static BitField fRevMarking = new BitField(0x80);
-{        field_5_docinfo = (byte)fRevMarking.setBoolean(field_5_docinfo, value);
-}{        return fRevMarking.isSet(field_5_docinfo);
-}
+public void wrapperMethod() {
+    /**/private static BitField unused3 = new BitField(0x40);
+{
+        field_6_docinfo1 = (byte)unused3.setBoolean(field_6_docinfo1, value);
+}{
+        return unused3.isSet(field_6_docinfo1);
+}}

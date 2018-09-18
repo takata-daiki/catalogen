@@ -1,4 +1,7 @@
-    /**/private static final BitField fProt = new BitField(0x0200);
-{        field_2_bits = (short)fProt.setBoolean(field_2_bits, value);
-}{        return fProt.isSet(field_2_bits);
-}
+public void wrapperMethod() {
+    /**/private static final BitField iTypeTxt = new BitField(0x3800);
+{
+        field_2_bits = (short)iTypeTxt.setValue(field_2_bits, value);
+}{
+        return ( byte )iTypeTxt.getValue(field_2_bits);
+}}

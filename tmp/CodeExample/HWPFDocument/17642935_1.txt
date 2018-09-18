@@ -1,5 +1,6 @@
   private static void convert(HWPFDocument doc,
-{    org.apache.poi.hwpf.model.StyleSheet stylesheet = doc.getStyleSheet();
+      WordprocessingMLPackage wordMLPackage) throws Exception {
+    org.apache.poi.hwpf.model.StyleSheet stylesheet = doc.getStyleSheet();
     org.apache.poi.hwpf.model.ListTables listTables = doc.getListTables();
     org.apache.poi.hwpf.model.DocumentProperties docProps = doc.getDocProperties();
     Range r = doc.getRange();

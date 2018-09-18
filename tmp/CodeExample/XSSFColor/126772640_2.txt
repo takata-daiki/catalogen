@@ -1,2 +1,0 @@
-      XSSFColor baseColour = ((XSSFCell)sheet.getRow(0).getCell(0)).getCellStyle().getFont().getXSSFColor();
-      assertEquals( "FFFFFFFF", baseColour.getARGBHex() );

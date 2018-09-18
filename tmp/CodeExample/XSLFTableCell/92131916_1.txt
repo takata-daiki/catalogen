@@ -1,5 +1,7 @@
+public void wrapperMethod() {
             XSLFTableCell th = headerRow.addCell();
             XSLFTextParagraph p = th.addNewTextParagraph();
             th.setFillColor(Color.RED);
             th.setBorderBottom(2);
             th.setBorderBottomColor(Color.white);
+}

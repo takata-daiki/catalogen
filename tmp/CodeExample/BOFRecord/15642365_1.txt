@@ -1,3 +1,4 @@
+public void wrapperMethod() {
         BOFRecord retval = new BOFRecord();
         retval.setVersion(( short ) 0x600);
         retval.setType(( short ) 0x010);
@@ -5,3 +6,4 @@
         retval.setBuildYear(( short ) 1996);
         retval.setHistoryBitMask(0xc1);
         retval.setRequiredVersion(0x6);
+}

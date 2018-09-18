@@ -1,2 +1,4 @@
+public void wrapperMethod() {
     CellReference cr = new CellReference(zeroBasedRow, zeroBasedCol);
     return cr.formatAsString();
+}

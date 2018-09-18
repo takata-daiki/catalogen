@@ -1,3 +1,5 @@
     private void listFormula(FormulaRecord record) {
+        String sep="~";
         List tokens= record.getParsedExpression();
         int numptgs = record.getNumberOfExpressionTokens();
+}

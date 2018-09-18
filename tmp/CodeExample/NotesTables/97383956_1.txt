@@ -1,4 +1,6 @@
+public void wrapperMethod() {
   protected NotesTables _endnotesTables = new NotesTables( NoteType.ENDNOTE );
-{        _endnotesTables.writeRef( _fib, tableStream );
+{
+        _endnotesTables.writeRef( _fib, tableStream );
         _endnotesTables.writeTxt( _fib, tableStream );
-}
+}}

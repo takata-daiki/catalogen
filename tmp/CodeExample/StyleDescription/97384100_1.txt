@@ -1,6 +1,8 @@
+public void wrapperMethod() {
       StyleDescription sd = _styleDescriptions[istd];
-      ParagraphProperties pap = sd.getPAP();
-      byte[] papx = sd.getPAPX();
+      CharacterProperties chp = sd.getCHP();
+      byte[] chpx = sd.getCHPX();
       int baseIndex = sd.getBaseStyle();
-{          sd.setPAP(pap);
-}
+{
+          sd.setCHP(chp);
+}}

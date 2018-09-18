@@ -1,2 +1,4 @@
-  public static AreaReference getReferanceNameRange(HSSFName nameRange){
-    return new AreaReference(nameRange.getRefersToFormula());
+public void wrapperMethod() {
+        HSSFName iName = wb.getNameAt(i);
+        if((iName != null) && (iName.getNameName() == null)) return iName;
+}

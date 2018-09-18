@@ -1,2 +1,5 @@
+public void wrapperMethod() {
       SummaryInformation summaryInformation =
+        hpsfPropertiesOnlyDocument.getSummaryInformation();
       return summaryInformation.getLastSaveDateTime();
+}

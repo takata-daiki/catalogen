@@ -1,8 +1,0 @@
-    HSSFWorkbook workbook = new HSSFWorkbook();
-    HSSFSheet sheet = workbook.createSheet(title);
-    HSSFFont font2 = workbook.createFont();
-    HSSFDataFormat format = workbook.createDataFormat();
-{{{{            patriarch.createPicture(anchor, workbook.addPicture(bsValue, HSSFWorkbook.PICTURE_TYPE_JPEG));
-}}}}{{        HSSFFont font4 = workbook.createFont();
-}}{      workbook.write(out);
-}

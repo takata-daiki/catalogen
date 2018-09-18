@@ -1,2 +1,6 @@
-    HSSFFont font2 = workbook.createFont();
-    font2.setBoldweight(HSSFFont.BOLDWEIGHT_NORMAL);
+public void wrapperMethod() {
+    HSSFFont font = workbook.createFont();
+    font.setColor(color);
+    font.setFontHeightInPoints((short) 12);
+    font.setBoldweight(bold);
+}

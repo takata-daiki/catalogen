@@ -1,4 +1,8 @@
+public void wrapperMethod() {
         EntryNode child = ( EntryNode ) _entries.get(oldName);
-{                .changeName(child.getProperty(), newName);
-{                _entries.put(child.getProperty().getName(), child);
-}}
+{
+            rval = (( DirectoryProperty ) getProperty())
+                .changeName(child.getProperty(), newName);
+{
+                _entries.put(child.getProperty().getName(), child);
+}}}

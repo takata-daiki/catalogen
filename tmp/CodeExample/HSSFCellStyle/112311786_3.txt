@@ -1,2 +1,7 @@
-    final HSSFCellStyle cellStyle = createBorderedHeaderCellStyle(workbook);
-    cellStyle.setAlignment(HSSFCellStyle.ALIGN_RIGHT);
+public void wrapperMethod() {
+    final HSSFCellStyle cellStyle = createBorderedCellStyle(workbook);
+{
+      cellStyle.setFont(font);
+}
+    cellStyle.setDataFormat((short) 4);
+}

@@ -1,5 +1,7 @@
+public void wrapperMethod() {
       XSSFCellFill fill = stylesSource.getFillAt(cellStyle.getIndex()+1);
       if (fill.getFillBackgroundColor()!=null)
         System.out.println("Index: " + cellStyle.getIndex() + " "+ fill.getFillBackgroundColor().getARGBHex());
       if (fill.getFillForegroundColor()!=null)
       System.out.println("Index: " +cellStyle.getIndex() + " "+ fill.getFillForegroundColor().getARGBHex());
+}

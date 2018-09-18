@@ -1,4 +1,7 @@
-    /**/private static BitField fpc = new BitField(0x60);
-{        field_1_formatFlags = (byte)fpc.setValue(field_1_formatFlags, value);
-}{        return ( byte )fpc.getValue(field_1_formatFlags);
-}
+public void wrapperMethod() {
+    /**/private static BitField nFtn = new BitField(0xfffc);
+{
+        field_3_footnoteInfo = (short)nFtn.setValue(field_3_footnoteInfo, value);
+}{
+        return ( short )nFtn.getValue(field_3_footnoteInfo);
+}}

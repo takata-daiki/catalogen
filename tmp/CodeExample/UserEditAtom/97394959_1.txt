@@ -1,4 +1,7 @@
+public void wrapperMethod() {
     UserEditAtom usr = null;
+
     int psrId = usr.getMaxPersistWritten() + 1;
     usr.setLastViewType((short) UserEditAtom.LAST_VIEW_SLIDE_VIEW);
     usr.setMaxPersistWritten(psrId); // increment the number of persit
+}

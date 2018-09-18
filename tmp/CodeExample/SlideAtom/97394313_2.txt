@@ -1,2 +1,4 @@
+public void wrapperMethod() {
         SlideAtom sa = getSlideRecord().getSlideAtom();
-        int masterId = sa.getMasterID();
+        sa.setFollowMasterBackground(flag);
+}

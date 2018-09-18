@@ -1,3 +1,6 @@
-        HSSFCellStyle style= wb.createCellStyle();
-        style.cloneStyleFrom(cell.getCellStyle());
-        style.setFont(font);
+public void wrapperMethod() {
+                  HSSFCellStyle style= wb.createCellStyle();
+                  style.cloneStyleFrom(cell.getCellStyle());
+                  style.setAlignment(style.ALIGN_CENTER);
+                  style.setFont(font3);
+}

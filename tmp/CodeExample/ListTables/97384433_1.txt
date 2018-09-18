@@ -1,7 +1,12 @@
     public HWPFList( StyleSheet styleSheet, ListTables listTables, int ilfo )
-{{            _lfo = listTables.getLfo( ilfo );
+    {
+        _listTables = listTables;
+{
+            _lfo = listTables.getLfo( ilfo );
             _lfoData = listTables.getLfoData( ilfo );
-}{            _lfo = listTables.getLfo( nilfo );
+}{
+            _lfo = listTables.getLfo( nilfo );
             _lfoData = listTables.getLfoData( nilfo );
-}        _listData = listTables.getListData( _lfo.getLsid() );
+}
+        _listData = listTables.getListData( _lfo.getLsid() );
 }

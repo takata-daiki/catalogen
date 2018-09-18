@@ -1,3 +1,5 @@
+public void wrapperMethod() {
   private XSSFFormulaEvaluator evaluator;
-{    evaluator.evaluateFormulaCell(getCell(rowNumber, cellNumber));
-}
+{
+    evaluator.evaluateFormulaCell(getCell(rowNumber, cellNumber));
+}}

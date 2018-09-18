@@ -1,5 +1,10 @@
+public void wrapperMethod() {
   private PackagePart activePart;
-{{{          xliffReader.open(new RawDocument(activePart.getInputStream(), "UTF-8", srcLoc, srcLoc));
-}{              activePart.getPartName().getName()), e);
-}}}{    String partName = activePart.getPartName().toString();
-}
+{{{
+          xliffReader.open(new RawDocument(activePart.getInputStream(), "UTF-8", srcLoc, srcLoc));
+}{
+          throw new RuntimeException(String.format("OPCPackageReader: cannot open input stream for %s", 
+              activePart.getPartName().getName()), e);
+}}}{
+    String partName = activePart.getPartName().toString();
+}}

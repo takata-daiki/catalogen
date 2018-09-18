@@ -1,4 +1,7 @@
+public void wrapperMethod() {
             HSSFRow row = sheet.getRow(rowIndex);
-{                int columnCount = row.getLastCellNum();
-{                    HSSFCell cell = row.getCell(columnIndex);
-}}
+{
+                int columnCount = row.getLastCellNum();
+{
+                    HSSFCell cell = row.getCell(columnIndex);
+}}}

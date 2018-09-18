@@ -1,5 +1,11 @@
+public void wrapperMethod() {
     FooterRecord footerRecord;
-{  String foot = footerRecord.getFooter();
-}{  footerRecord.setFooter(
+{
+  String foot = footerRecord.getFooter();
+}{
+  footerRecord.setFooter(
+             "&C" + (center == null ? "" : center) +
+             "&L" + (left == null ? "" : left) +
+             "&R" + (right == null ? "" : right));
   footerRecord.setFooterLength((byte)footerRecord.getFooter().length());
-}
+}}

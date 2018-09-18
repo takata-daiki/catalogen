@@ -1,4 +1,7 @@
+public void wrapperMethod() {
     HSSFDataFormat df = workbook.createDataFormat();
-{      format = df.getFormat("####");
-}{      format = df.getFormat("####." + zeros);
-}
+{
+      format = df.getFormat("####");
+}{
+      format = df.getFormat("####." + zeros);
+}}

@@ -1,4 +1,7 @@
-    /**/private static BitField fNoSpaceRaiseLower = new BitField(0x00000002);
-{        field_33_docinfo4 = (int)fNoSpaceRaiseLower.setBoolean(field_33_docinfo4, value);
-}{        return fNoSpaceRaiseLower.isSet(field_33_docinfo4);
-}
+public void wrapperMethod() {
+    /**/private static BitField fAutoVersions = new BitField(0x0002);
+{
+        field_38_docinfo6 = (short)fAutoVersions.setBoolean(field_38_docinfo6, value);
+}{
+        return fAutoVersions.isSet(field_38_docinfo6);
+}}

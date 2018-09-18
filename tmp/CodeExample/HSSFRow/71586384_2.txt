@@ -1,4 +1,6 @@
+public void wrapperMethod() {
               HSSFRow aRow = aSheet.getRow(rowNumOfSheet);
-{                if (null != aRow.getCell(selectCol[index])) {
+{
+                if (null != aRow.getCell(selectCol[index])) {
                   HSSFCell aCell = aRow.getCell(selectCol[index]);
-}}
+}}}

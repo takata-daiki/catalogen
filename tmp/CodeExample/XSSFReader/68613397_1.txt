@@ -1,3 +1,5 @@
+public void wrapperMethod() {
     XSSFReader r = new XSSFReader(pkg);
     SharedStringsTable sst = r.getSharedStringsTable();
-    InputStream sheet2 = r.getSheet("rId"+sheetId);
+    Iterator<InputStream> sheets = r.getSheetsData();
+}

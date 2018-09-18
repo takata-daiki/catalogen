@@ -1,2 +1,4 @@
+public void wrapperMethod() {
       XSSFColor xssfColor = (XSSFColor) color;
-      byte[] rgb = xssfColor.getRGB();
+      byte[] rgb = xssfColor.getARGB();
+}

@@ -1,2 +1,7 @@
+public void wrapperMethod() {
+            case BoolErrRecord.sid :
                 BoolErrRecord boolErrRecord = ( BoolErrRecord ) record;
                 retval = (boolErrRecord.isBoolean())
+                         ? HSSFCell.CELL_TYPE_BOOLEAN
+                         : HSSFCell.CELL_TYPE_ERROR;
+}

@@ -1,3 +1,5 @@
-        HSSFRow headerRow = sheet.createRow(0);
-{          headerCell = headerRow.createCell(i);            
-}
+public void wrapperMethod() {
+          HSSFRow row = sheet.createRow(rowIndex++);
+{
+            HSSFCell dataCell = row.createCell(i);
+}}

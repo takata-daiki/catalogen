@@ -1,4 +1,6 @@
+public void wrapperMethod() {
         final XSSFReader.SheetIterator sheetIterator = mock(XSSFReader.SheetIterator.class);
         stub(sheetIterator.hasNext()).toReturn(true).toReturn(false);
         when(sheetIterator.next()).thenReturn(inputStream);
         when(sheetIterator.getSheetName()).thenReturn(sheetName);
+}

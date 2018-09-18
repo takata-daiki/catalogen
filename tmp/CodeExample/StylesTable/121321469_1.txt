@@ -1,4 +1,0 @@
-    StylesTable stylesSource = wb.getStylesSource();
-    for (int i=0; i<stylesSource.getNumCellStyles(); i++)
-      if (stylesSource.getStyleAt(i).equals(cellStyle))
-      XSSFCellFill fill = stylesSource.getFillAt(cellStyle.getIndex()+1);

@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     XSSFCellStyle cs = this.wb.createCellStyle();
       cs.setWrapText(true);
       cs.setBorderBottom(XSSFCellStyle.BORDER_THIN);
@@ -7,3 +8,4 @@
       cs.setFillForegroundColor(color);
       cs.setFillPattern(XSSFCellStyle.SOLID_FOREGROUND);   
       cs.setFont(font);
+}

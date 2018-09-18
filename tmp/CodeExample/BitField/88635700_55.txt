@@ -1,4 +1,7 @@
-    /**/private static BitField wvkSaved = new BitField(0x0007);
-{        field_32_view = (short)wvkSaved.setValue(field_32_view, value);
-}{        return ( byte )wvkSaved.getValue(field_32_view);
-}
+public void wrapperMethod() {
+    /**/private static BitField fHideLastVersion = new BitField(0x0100);
+{
+        field_37_docinfo5 = (short)fHideLastVersion.setBoolean(field_37_docinfo5, value);
+}{
+        return fHideLastVersion.isSet(field_37_docinfo5);
+}}

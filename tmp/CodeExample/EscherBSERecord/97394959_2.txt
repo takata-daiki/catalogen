@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     EscherBSERecord bse = new EscherBSERecord();
     bse.setRecordId(EscherBSERecord.RECORD_ID);
     bse.setOptions((short) (0x0002 | (format << 4)));
@@ -5,8 +6,12 @@
     bse.setUid(uid);
     bse.setBlipTypeMacOS((byte) format);
     bse.setBlipTypeWin32((byte) format);
+    if (format == Picture.EMF)
       bse.setBlipTypeMacOS((byte) Picture.PICT);
+    else if (format == Picture.WMF)
+    else if (format == Picture.PICT)
       bse.setBlipTypeWin32((byte) Picture.WMF);
     bse.setRef(0);
     bse.setOffset(offset);
     bse.setRemainingData(new byte[0]);
+}

@@ -1,4 +1,6 @@
+public void wrapperMethod() {
       XSSFRow row1 = sheet.createRow(1);
       XSSFCell familienCell = row1.createCell(0);
-{        XSSFCell celltemp = row1.createCell(2 + (spalten.size() * i));
-}
+{
+        XSSFCell celltemp = row1.createCell(2 + (spalten.size() * i));
+}}

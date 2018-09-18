@@ -1,4 +1,8 @@
-    static final private BitField landscape     =
-{        field_6_options = landscape.setShortBoolean(field_6_options, ls);
-}{        return landscape.isSet(field_6_options);
-}
+public void wrapperMethod() {
+    static final private BitField validsettings = BitFieldFactory.getInstance(
+        0x04);                // if papersize, scale, resolution, copies, landscape
+{
+        field_6_options = validsettings.setShortBoolean(field_6_options, valid);
+}{
+        return validsettings.isSet(field_6_options);
+}}

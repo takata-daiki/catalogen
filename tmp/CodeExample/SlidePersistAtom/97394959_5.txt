@@ -1,7 +1,0 @@
-    SlidePersistAtom sp = new SlidePersistAtom();
-    sp.setSlideIdentifier(prev == null ? 256 : (prev.getSlideIdentifier() + 1));
-    Slide slide = new Slide(sp.getSlideIdentifier(), sp.getRefID(), _slides.length + 1);
-    logger.log(POILogger.INFO, "Added slide " + _slides.length + " with ref " + sp.getRefID()
-        + " and identifier " + sp.getSlideIdentifier());
-    sp.setRefID(psrId);
-    ptr.addSlideLookup(sp.getRefID(), slideOffset);

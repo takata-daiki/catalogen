@@ -1,3 +1,5 @@
+public void wrapperMethod() {
     for (final XSLFSlide slide : slides) {
       final CTSlide rawSlide = slide._getCTSlide();
       final CTSlideIdListEntry slideId = slide._getCTSlideId();
+}}

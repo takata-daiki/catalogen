@@ -1,4 +1,8 @@
-    static final private BitField vscroll  =
-{        field_5_options = vscroll.setShortBoolean(field_5_options, scroll);
-}{        return vscroll.isSet(field_5_options);
-}
+public void wrapperMethod() {
+    static final private BitField tabs     =
+        BitFieldFactory.getInstance(0x20);                                        // display tabs at the bottom
+{
+        field_5_options = tabs.setShortBoolean(field_5_options, disptabs);
+}{
+        return tabs.isSet(field_5_options);
+}}

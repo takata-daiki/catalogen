@@ -1,4 +1,7 @@
-    /**/private static final BitField fStrike = new BitField(0x00000400);
-{        field_1_grpfChp = fStrike.setBoolean(field_1_grpfChp, value);
-}{        return fStrike.isSet(field_1_grpfChp);
-}
+public void wrapperMethod() {
+    /**/private static final BitField fData = new BitField(0x00004000);
+{
+        field_1_grpfChp = fData.setBoolean(field_1_grpfChp, value);
+}{
+        return fData.isSet(field_1_grpfChp);
+}}

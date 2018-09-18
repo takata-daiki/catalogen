@@ -1,8 +1,0 @@
-    private final NotesTables notesTables;
-{        return notesTables.getDescriptor( index ).getStart();
-}{        return notesTables.getDescriptorsCount();
-}{        return notesTables.getTextPosition( index ).getEnd();
-}{        return notesTables.getTextPosition( index ).getStart();
-}{        for ( int n = 0; n < notesTables.getDescriptorsCount(); n++ )
-{            int anchorPosition = notesTables.getDescriptor( n ).getStart();
-}}

@@ -1,3 +1,29 @@
-        XSSFCell betreuerinnen_cell = dataRow.createCell(0);
-        betreuerinnen_cell.setCellStyle(dataStyle);
-        betreuerinnen_cell.setCellValue(new XSSFRichTextString(""
+public void wrapperMethod() {
+                XSSFCell cell1 = dataRow.createCell(j
+                    + spalten.size() * z + 2);
+                cell1.setCellStyle(dataStyle);
+{
+                  cell1.setCellValue(new XSSFRichTextString(""+
+                      betreuung.getFamilie_nummer()));
+}{
+                  cell1.setCellValue(new XSSFRichTextString(
+                      betreuung.getFamilie_nachname()));
+}{
+                      betreuung.getAngefangen()));
+}{
+                      betreuung.getAufgehort()));
+}{
+                      betreuung.getAngemeldet()));
+}{
+                      betreuung.getAbgemeldet()));
+}{
+                      betreuung.getFahrgeld()));
+}{
+                      betreuung.getVerdienst()));
+}{
+                      betreuung.getSva()));
+}{
+                      betreuung.getReferenz()));
+}{
+                      betreuung.getInformation()));
+}}

@@ -1,4 +1,10 @@
-    static final private BitField _rotation           = BitFieldFactory.getInstance(0xFF00);
-{            _rotation.setShortValue(field_4_alignment_options, rotation);
-}{        return _rotation.getShortValue(field_4_alignment_options);
-}
+public void wrapperMethod() {
+    static final private BitField _indent_not_parent_font         =
+        BitFieldFactory.getInstance(0x0800);
+{
+        field_5_indention_options =
+            _indent_not_parent_font.setShortBoolean(field_5_indention_options,
+                                                    font);
+}{
+        return _indent_not_parent_font.isSet(field_5_indention_options);
+}}

@@ -1,4 +1,7 @@
-    /**/private static BitField fPagSupressTopSpacing = new BitField(0x01);
-{        field_7_docinfo2 = (byte)fPagSupressTopSpacing.setBoolean(field_7_docinfo2, value);
-}{        return fPagSupressTopSpacing.isSet(field_7_docinfo2);
-}
+public void wrapperMethod() {
+    /**/private static BitField oldfNoSpaceRaiseLower = new BitField(0x0002);
+{
+        field_8_docinfo3 = (short)oldfNoSpaceRaiseLower.setBoolean(field_8_docinfo3, value);
+}{
+        return oldfNoSpaceRaiseLower.isSet(field_8_docinfo3);
+}}

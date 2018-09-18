@@ -1,3 +1,8 @@
+public void wrapperMethod() {
                 XSLFTheme theme = sheet.getTheme();
-{                    fillProps = theme.getXmlObject().
-}
+{
+                    fillProps = theme.getXmlObject().
+                            getThemeElements().getFmtScheme().getFillStyleLst().selectPath("*")[idx - 1];
+}{
+                            getThemeElements().getFmtScheme().getBgFillStyleLst().selectPath("*")[idx - 1001];
+}}

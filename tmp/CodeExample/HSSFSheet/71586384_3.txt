@@ -1,5 +1,0 @@
-          HSSFSheet aSheet = workbook.getSheetAt(numSheets);
-          for (int rowNumOfSheet = 0; rowNumOfSheet <= aSheet.getLastRowNum(); rowNumOfSheet++) {
-            if (null != aSheet.getRow(rowNumOfSheet)) {
-              HSSFRow aRow = aSheet.getRow(rowNumOfSheet);
-}}

@@ -1,4 +1,8 @@
+public void wrapperMethod() {
         HSSFDataFormatter formater = new HSSFDataFormatter();
-{{{{{                                Format dataformat = formater.createFormat(zelle);
-{                                        text = String.format(formatvorn + "s" + formathinten, formater.formatCellValue(zelle,evaluator));
-}}}}}}
+{{{{{
+                            case HSSFCell.CELL_TYPE_NUMERIC:
+                                Format dataformat = formater.createFormat(zelle);
+{
+                                        text = String.format(formatvorn + "s" + formathinten, formater.formatCellValue(zelle,evaluator));
+}}}}}}}

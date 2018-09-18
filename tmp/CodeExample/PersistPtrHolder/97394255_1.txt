@@ -1,2 +1,4 @@
+public void wrapperMethod() {
             PersistPtrHolder ptr = (PersistPtrHolder)Record.buildRecordAtOffset(docstream, psrOffset);
             Hashtable<Integer,Integer> entries = ptr.getSlideLocationsLookup();
+}

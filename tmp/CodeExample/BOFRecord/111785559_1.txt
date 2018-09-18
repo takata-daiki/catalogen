@@ -1,5 +1,12 @@
+public void wrapperMethod() {
+            case BOFRecord.sid: // start of workbook, worksheet etc. records
                 BOFRecord bof = (BOFRecord) record;
                 if (bof.getType() == BOFRecord.TYPE_WORKBOOK) {
-}                } else if (bof.getType() == BOFRecord.TYPE_CHART) {
-}                } else if (bof.getType() == BOFRecord.TYPE_WORKSHEET) {
+                    currentSheetIndex = -1;
+                } else if (bof.getType() == BOFRecord.TYPE_CHART) {
+                    if(previousSid == EOFRecord.sid) {
+                        newSheet();
 }
+                } else if (bof.getType() == BOFRecord.TYPE_WORKSHEET) {
+                    newSheet();
+}}

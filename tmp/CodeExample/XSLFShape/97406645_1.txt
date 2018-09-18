@@ -1,3 +1,9 @@
+public void wrapperMethod() {
+    @Internal
     void copy(XSLFShape sh) {
-{                    "Can't copy " + sh.getClass().getSimpleName() + " into " + getClass().getSimpleName());
-}        setAnchor(sh.getAnchor());
+        if (!getClass().isInstance(sh)) {
+            throw new IllegalArgumentException(
+                    "Can't copy " + sh.getClass().getSimpleName() + " into " + getClass().getSimpleName());
+}
+        setAnchor(sh.getAnchor());
+}}

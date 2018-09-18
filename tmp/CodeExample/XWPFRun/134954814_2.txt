@@ -1,5 +1,0 @@
-  private void replaceBookmark(CTBookmark bookmark, XWPFRun run,
-{{{{                    run.getCTR().getDomNode().insertBefore(
-                            styleNode.cloneNode(true), run.getCTR().getDomNode().getFirstChild());
-}}}                run.getCTR().getDomNode(), nextNode);
-}

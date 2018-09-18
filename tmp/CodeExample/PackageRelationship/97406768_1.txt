@@ -1,3 +1,6 @@
+public void wrapperMethod() {
         PackageRelationship rel = getPackagePart().addRelationship(
+                pic.getPartName(), TargetMode.INTERNAL, XSLFRelation.IMAGES.getRelation());
         addRelation(rel.getId(), new XSLFPictureData(pic, rel));
         XSLFPictureShape sh = getDrawing().createPicture(rel.getId());
+}

@@ -1,12 +1,22 @@
+public void wrapperMethod() {
     protected final XWPFDocument document;
-{        List<IBodyElement> bodyElements = document.getBodyElements();
-}{        XWPFNum num = document.getNumbering().getNum( numID.getVal() );
-}{        XWPFAbstractNum abstractNum = document.getNumbering().getAbstractNum( abstractNumID.getVal() );
-}{{{                XWPFHyperlink hyperlink = document.getHyperlinkByID( hyperlinkId );
-}}}{            return document.getStyles().getStyle( styleID );
-}{        PackagePart hdrPart = document.getPartById( headerRef.getId() );
+{
+        List<IBodyElement> bodyElements = document.getBodyElements();
+}{
+        XWPFNum num = document.getNumbering().getNum( numID.getVal() );
+}{
+        XWPFAbstractNum abstractNum = document.getNumbering().getAbstractNum( abstractNumID.getVal() );
+}{{{
+                XWPFHyperlink hyperlink = document.getHyperlinkByID( hyperlinkId );
+}}}{
+        else
+            return document.getStyles().getStyle( styleID );
+}{
+        PackagePart hdrPart = document.getPartById( headerRef.getId() );
         List<XWPFHeader> headers = document.getHeaderList();
-}{        PackagePart hdrPart = document.getPartById( footerRef.getId() );
+}{
+        PackagePart hdrPart = document.getPartById( footerRef.getId() );
         List<XWPFFooter> footers = document.getFooterList();
-}{        return document.getPictureDataByID( blipId );
-}
+}{
+        return document.getPictureDataByID( blipId );
+}}

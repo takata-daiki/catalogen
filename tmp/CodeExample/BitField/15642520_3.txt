@@ -1,4 +1,8 @@
-    static final private BitField validsettings = BitFieldFactory.getInstance(
-{        field_6_options = validsettings.setShortBoolean(field_6_options, valid);
-}{        return validsettings.isSet(field_6_options);
-}
+public void wrapperMethod() {
+    static final private BitField nocolor       =
+        BitFieldFactory.getInstance(0x08);   // print mono/b&w, colorless
+{
+        field_6_options = nocolor.setShortBoolean(field_6_options, mono);
+}{
+        return nocolor.isSet(field_6_options);
+}}

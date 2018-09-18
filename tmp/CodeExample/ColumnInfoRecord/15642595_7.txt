@@ -1,4 +1,6 @@
-                ColumnInfoRecord nextColumnInfo = (ColumnInfoRecord) records.get( idx + 1 );
-                if (columnInfo.getLastColumn() + 1 == nextColumnInfo.getFirstColumn())
-{                    if (nextColumnInfo.getOutlineLevel() < level)
+public void wrapperMethod() {
+        ColumnInfoRecord retval = new ColumnInfoRecord();
+        retval.setColumnWidth(( short ) 2275);
+        retval.setOptions(( short ) 2);
+        retval.setXFIndex(( short ) 0x0f);
 }

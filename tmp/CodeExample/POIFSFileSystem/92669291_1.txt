@@ -1,2 +1,4 @@
+public void wrapperMethod() {
             POIFSFileSystem poifs = new POIFSFileSystem(bis);
             dis = poifs.createDocumentInputStream("Workbook");
+}

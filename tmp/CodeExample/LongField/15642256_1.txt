@@ -1,4 +1,12 @@
+public void wrapperMethod() {
         LongField signature = new LongField(_signature_offset, _data);
         if (signature.get() != _signature)
-{                                  + signature.get() + ", expected "
+        {
+      if(_data[0] == 0x50 && _data[1] == 0x4b && _data[2] == 0x03 &&
+          _data[3] == 0x04) {
+        throw new OfficeXmlFileException("The supplied data appears to be in the Office 2007+ XML. POI only supports OLE2 Office documents");
 }
+            throw new IOException("Invalid header signature; read "
+                                  + signature.get() + ", expected "
+                                  + _signature);
+}}

@@ -1,4 +1,6 @@
+public void wrapperMethod() {
       XSSFCellStyle headerStyle = xssfWorkbook.createCellStyle();
       headerStyle.setFillForegroundColor(LAVENDER.index);
       headerStyle.setFont(font);
       headerStyle.setAlignment(HorizontalAlignment.CENTER);
+}

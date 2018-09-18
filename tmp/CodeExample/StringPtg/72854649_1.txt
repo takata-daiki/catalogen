@@ -1,2 +1,4 @@
+public void wrapperMethod() {
         StringPtg stringPtg = (StringPtg) token;
         sb.append(stringPtg.getValue());
+}

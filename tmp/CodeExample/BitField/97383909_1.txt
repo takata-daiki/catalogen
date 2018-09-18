@@ -1,6 +1,11 @@
+public void wrapperMethod() {
     private static BitField fInstance = BitFieldFactory.getInstance(0xfff0);
-{        return fInstance.getShortValue( options );
-}{        setInstance( fInstance.getShortValue( options ) );
-}{        return fInstance.getShortValue( _options );
-}{        _options = fInstance.setShortValue( _options, value );
-}
+{
+        return fInstance.getShortValue( options );
+}{
+        setInstance( fInstance.getShortValue( options ) );
+}{
+        return fInstance.getShortValue( _options );
+}{
+        _options = fInstance.setShortValue( _options, value );
+}}

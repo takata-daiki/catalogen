@@ -1,8 +1,12 @@
+public void wrapperMethod() {
     private final XSLFTextShape _shape;
-{        double leftInset = _shape.getLeftInset();
+{
+        double leftInset = _shape.getLeftInset();
         double rightInset = _shape.getRightInset();
         if(!_shape.getWordWrap()) {
             width = _shape.getSheet().getSlideShow().getPageSize().getWidth() - anchor.getX();
-}}{        CTPlaceholder ph = _shape.getCTPlaceholder();
+}}{
+        CTPlaceholder ph = _shape.getCTPlaceholder();
+
         XSLFSheet masterSheet = _shape.getSheet();
-}
+}}

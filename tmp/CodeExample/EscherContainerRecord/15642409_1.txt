@@ -1,4 +1,6 @@
-                EscherContainerRecord dgContainer = (EscherContainerRecord) getEscherRecord( 0 );
-                for ( int i = 0; i < dgContainer.getChildRecords().size(); i++ )
-                    if ( dgContainer.getChild( i ).getRecordId() == EscherContainerRecord.SPGR_CONTAINER )
-                        spgrContainer = (EscherContainerRecord) dgContainer.getChild( i );
+    private void convertShapes( HSSFShapeContainer parent, EscherContainerRecord escherParent, Map shapeToObj )
+    {
+        if ( escherParent == null ) throw new IllegalArgumentException( "Parent record required" );
+{{
+                escherParent.addChildRecord( shapeModel.getSpContainer() );
+}}}

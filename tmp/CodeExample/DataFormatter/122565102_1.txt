@@ -1,17 +1,23 @@
+public void wrapperMethod() {
       DataFormatter formatter = new DataFormatter();
       assertEquals( "1",                     formatter.formatCellValue(sheet.getRow(1).getCell(1)));
       assertEquals( "2019-10-11 13:18:46",   formatter.formatCellValue(sheet.getRow(1).getCell(2)));
       assertEquals( "3.1415926536",          formatter.formatCellValue(sheet.getRow(1).getCell(3)));
       assertEquals( "3.1415926536",          formatter.formatCellValue(sheet.getRow(1).getCell(4)));
       assertEquals( "false",                 formatter.formatCellValue(sheet.getRow(1).getCell(5)));
-{        assertEquals( "Oct 11, 2019",          formatter.formatCellValue(sheet.getRow(1).getCell(6)));
+{
+        assertEquals( "Oct 11, 2019",          formatter.formatCellValue(sheet.getRow(1).getCell(6)));
         assertEquals( "1:18:46 PM",            formatter.formatCellValue(sheet.getRow(1).getCell(7)));
-}{        assertEquals( "11-Oct-2019",           formatter.formatCellValue(sheet.getRow(1).getCell(6)));
+}{
+        assertEquals( "11-Oct-2019",           formatter.formatCellValue(sheet.getRow(1).getCell(6)));
         assertEquals( "13:18:46",              formatter.formatCellValue(sheet.getRow(1).getCell(7)));
-}      assertEquals( "2",                     formatter.formatCellValue(sheet.getRow(2).getCell(1)));
+}
+      assertEquals( "2",                     formatter.formatCellValue(sheet.getRow(2).getCell(1)));
       assertEquals( "2019-10-11 13:18:46",   formatter.formatCellValue(sheet.getRow(2).getCell(2)));
       assertEquals( "6.2831853072",          formatter.formatCellValue(sheet.getRow(2).getCell(3)));
       assertEquals( "6.2831853072",          formatter.formatCellValue(sheet.getRow(2).getCell(4)));
       assertEquals( "true",                  formatter.formatCellValue(sheet.getRow(2).getCell(5)));
+
       assertEquals( "B2+B3",                formatter.formatCellValue(sheet.getRow(3).getCell(1))); 
       assertEquals( "D2+D3",                formatter.formatCellValue(sheet.getRow(3).getCell(3))); 
+}

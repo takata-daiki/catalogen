@@ -1,2 +1,7 @@
-            DocumentInputStream dstream = new DocumentInputStream( dentry );
-            dstream.close();
+public void wrapperMethod() {
+       DocumentInputStream inpA = null, inpB = null;
+{{
+             readA = inpA.read();
+}}{
+          if (inpA != null) inpA.close();
+}}

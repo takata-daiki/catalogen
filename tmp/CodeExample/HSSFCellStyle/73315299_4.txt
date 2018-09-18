@@ -1,3 +1,10 @@
-    HSSFCellStyle style4 = createStyle(workbook, HSSFColor.WHITE.index, HSSFCellStyle.SOLID_FOREGROUND,
-    style4.setVerticalAlignment(HSSFCellStyle.VERTICAL_CENTER);
-    style4.setDataFormat(HSSFDataFormat.getBuiltinFormat("0"));
+public void wrapperMethod() {
+    HSSFCellStyle style = workbook.createCellStyle();
+    style.setFillForegroundColor(fillForegroundColor);
+    style.setFillPattern(fillPattern);
+    style.setBorderBottom(borderBottom);
+    style.setBorderLeft(borderleft);
+    style.setBorderRight(borderright);
+    style.setBorderTop(bordertop);
+    style.setAlignment(alignment);
+}

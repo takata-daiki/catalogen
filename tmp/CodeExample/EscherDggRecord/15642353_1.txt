@@ -1,17 +1,27 @@
+public void wrapperMethod() {
     EscherDggRecord dgg;
-{        dgg.addCluster( dgId, 0 );
+{
+        dgg.addCluster( dgId, 0 );
         dgg.setDrawingsSaved( dgg.getDrawingsSaved() + 1 );
-}{        dgg.setNumShapesSaved( dgg.getNumShapesSaved() + 1 );
+}{
+        dgg.setNumShapesSaved( dgg.getNumShapesSaved() + 1 );
         for (int i = 0; i < dgg.getFileIdClusters().length; i++)
-{            EscherDggRecord.FileIdCluster c = dgg.getFileIdClusters()[i];
-{                if (result >= dgg.getShapeIdMax())
+{
+            EscherDggRecord.FileIdCluster c = dgg.getFileIdClusters()[i];
+{
+                if (result >= dgg.getShapeIdMax())
                     dgg.setShapeIdMax( result + 1 );
-}}        dgg.addCluster( drawingGroupId, 0 );
+}}
+        dgg.addCluster( drawingGroupId, 0 );
         dgg.getFileIdClusters()[dgg.getFileIdClusters().length-1].incrementShapeId();
         int result = (1024 * dgg.getFileIdClusters().length);
         if (result >= dgg.getShapeIdMax())
             dgg.setShapeIdMax( result + 1 );
-}{        for ( int i = 0; i < dgg.getFileIdClusters().length; i++ )
-{            if ( dgg.getFileIdClusters()[i].getDrawingGroupId() == dgId )
-}}{        int max = dgg.getShapeIdMax();
-}
+}{
+        for ( int i = 0; i < dgg.getFileIdClusters().length; i++ )
+{
+            if ( dgg.getFileIdClusters()[i].getDrawingGroupId() == dgId )
+                return true;
+}}{
+        int max = dgg.getShapeIdMax();
+}}

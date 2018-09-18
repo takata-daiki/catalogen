@@ -1,6 +1,9 @@
     private boolean fetchCharacterProperty(CharacterPropertyFetcher fetcher){
+        boolean ok = false;
         if(_r.isSetRPr()) ok = fetcher.fetch(getRPr());
-{{{{                        fetcher.isFetchingFromMaster = true;
+{{{{
+                        fetcher.isFetchingFromMaster = true;
                         ok = fetcher.fetch(themeProps);
-}}{{                        ok = fetcher.fetch(defaultProps);
-}}}}
+}}{{
+                        ok = fetcher.fetch(defaultProps);
+}}}}}

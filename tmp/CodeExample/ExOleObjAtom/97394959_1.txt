@@ -1,5 +1,7 @@
+public void wrapperMethod() {
     ExOleObjAtom oleObj = ctrl.getExOleObjAtom();
     oleObj.setObjID(objectId);
     oleObj.setDrawAspect(ExOleObjAtom.DRAW_ASPECT_VISIBLE);
     oleObj.setType(ExOleObjAtom.TYPE_CONTROL);
     oleObj.setSubType(ExOleObjAtom.SUBTYPE_DEFAULT);
+}

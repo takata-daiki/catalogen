@@ -1,7 +1,10 @@
-    public boolean addAll(final IntList c)
-{        if (c._limit != 0)
-{            if ((_limit + c._limit) > _array.length)
-{                growArray(_limit + c._limit);
-}            System.arraycopy(c._array, 0, _array, _limit, c._limit);
-            _limit += c._limit;
-}}
+    public boolean containsAll(final IntList c)
+    {
+        boolean rval = true;
+{
+            for (int j = 0; rval && (j < c._limit); j++)
+{
+                if (!contains(c._array[ j ]))
+                {
+                    rval = false;
+}}}}

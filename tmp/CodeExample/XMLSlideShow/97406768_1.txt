@@ -1,3 +1,5 @@
+public void wrapperMethod() {
         XMLSlideShow ppt = getSlideShow();
         int pictureIdx = ppt.addPicture(data.getData(), data.getPictureType());
         PackagePart pic = ppt.getAllPictures().get(pictureIdx).getPackagePart();
+}

@@ -1,4 +1,7 @@
-    /**/private static BitField rncEdn = new BitField(0x0003);
-{        field_23_Edn = (short)rncEdn.setValue(field_23_Edn, value);
-}{        return ( byte )rncEdn.getValue(field_23_Edn);
-}
+public void wrapperMethod() {
+    /**/private static BitField fConvMailMergeEsc = new BitField(0x00000040);
+{
+        field_33_docinfo4 = (int)fConvMailMergeEsc.setBoolean(field_33_docinfo4, value);
+}{
+        return fConvMailMergeEsc.isSet(field_33_docinfo4);
+}}

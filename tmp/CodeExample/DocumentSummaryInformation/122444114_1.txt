@@ -1,3 +1,5 @@
+public void wrapperMethod() {
         final DocumentSummaryInformation dsi = workbook.getDocumentSummaryInformation ();
         dsi.setCompany ( "TH4 SYSTEMS GmbH" );
         dsi.setCustomProperties ( cp );
+}

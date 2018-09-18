@@ -1,4 +1,0 @@
-    HSSFFooter footer = sheet.getFooter();
-    footer.setLeft(Adempiere.ADEMPIERE_R);
-    footer.setCenter(Env.getHeader(getCtx(), 0));
-    footer.setRight(DisplayType.getDateFormat(DisplayType.DateTime, getLanguage()).format(now));

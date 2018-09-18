@@ -47,6 +47,13 @@ def extract(class_name, dic):
             continue
 
         # Now, the instance should be determined whether it is function arguments or not
+        # is_args = False
+        # for i in range(s)[::-1]:
+        #     if dic[i][2] != dic[s][2]:
+        #         break
+        #     if dic[i][0] == '(':
+        #         is_args = True
+        #
         # isArgs = False
         # for t in range(len(dic)):
         #     if s >= t:
@@ -74,22 +81,33 @@ def extract(class_name, dic):
 
         # Search lines including the instance methods
         line_num = set([dic[s][2]])
+        #     if i > 1 and dic[i - 1][0] == ')' and dic[i][0] == '{':
+        #         st = set()
+        #         for j in range(i - 1)[::-1]:
+        #             st.add(dic[j][2])
+        #             if dic[j][0] == '(':
+        #                 if dic[j - 2][0] != '.' and dic[j - 1][1] == 'Identifier':
+        #                     line_num |= st
+        #                 break
+        #         if len(line_num) > 1:
+        #             break
         for n in token_num:
             line_num.add(dic[n][2])
-        #     for i in range(n)[::-1]: # front
-        #         if dic[i][0] == '(':
-        #             line_num.add(dic[i][2])
-        #             break
-        #         if dic[i][0] == ';' or dic[i][0] == '{' or dic[i][0] == '}':
-        #             line_num.add(str(int(dic[i][2]) + 1))
-        #             break
-        #
-        #     for i in range(len(dic))[n + 1:]:
-        #         if dic[i][0] == ';':
-        #             line_num.add(dic[i][2])
-        #             break
+            for i in range(n)[::-1]:  # front
+                if dic[i][2] == dic[n][2]:
+                    continue
+                if dic[i][0] == ';' or dic[i][0] == '{' or dic[i][0] == '}':
+                    break
+                line_num.add(dic[i][2])
 
-        if len(line_num) >= 2:
+            for i in range(len(dic))[n + 1:]:  # back
+                line_num.add(dic[i][2])
+                if dic[i][0] == ';':
+                    break
+            if n == s:
+                now_cnt = len(line_num)
+
+        if len(line_num) > now_cnt:
             catalog.append(list(line_num))
 
     # print(catalog)
@@ -137,27 +155,45 @@ def setter(catalog, class_name, id_name):
         with open('CodeExample/{}/{}_{}.txt'.format(class_name, id_name, idx + 1), 'w') as f:
             prev = None
             s = None
+            is_args = False
+            block_s_cnt = 0
+            block_t_cnt = 0
             for cur, v in val.items():
                 if prev is None:
                     s = cur
+                    if '(' in v[:v.find(class_name)]:
+                        if 'for' not in v:
+                            is_args = True
+                    if not is_args:
+                        f.write('public void wrapperMethod() {\n')
+                        block_s_cnt += 1
                     f.write(v)
                 else:
                     left = block_num[prev]
                     right = block_num[cur]
-                    if '{' in v:
-                        right -= 1
+                    right -= v.count('{') + v.count('}')
                     if left < right:
-                        f.write(removed(blocks[left:right]))
+                        tmp = removed(blocks[left:right])
+                        f.write('{}\n'.format(tmp))
+                        block_s_cnt += tmp.count('{')
+                        block_t_cnt += tmp.count('}')
                     f.write(v)
+                block_s_cnt += v.count('{')
+                block_t_cnt += v.count('}')
                 prev = cur
 
-            left = block_num[s]
-            right = block_num[cur]
-            if left < right:
-                ss = blocks[left:right]
-            else:
-                ss = ''
-            f.write('}' * (len(ss) - 2 * ss.count('}')))
+            # left = block_num[s]
+            # right = block_num[cur]
+            # if left < right:
+            #     ss = blocks[left:right]
+            # else:
+            #     ss = ''
+            # f.write('}' * (len(ss) - 2 * ss.count('}')))
+            if not is_args:
+                f.write('}')
+                block_t_cnt += 1
+            f.write('}' * max([0, block_s_cnt - block_t_cnt]))
+
 
             # for v in val.values():
             #     f.write(v)

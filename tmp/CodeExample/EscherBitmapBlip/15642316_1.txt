@@ -1,11 +1,21 @@
+public void wrapperMethod() {
         EscherBitmapBlip blipRecord = new EscherBitmapBlip();
         blipRecord.setRecordId( (short) ( EscherBitmapBlip.RECORD_ID_START + format ) );
-{                blipRecord.setOptions(HSSFPictureData.MSOBI_EMF);
+{
+            case PICTURE_TYPE_EMF:
+                blipRecord.setOptions(HSSFPictureData.MSOBI_EMF);
+            case PICTURE_TYPE_WMF:
                 blipRecord.setOptions(HSSFPictureData.MSOBI_WMF);
+            case PICTURE_TYPE_PICT:
                 blipRecord.setOptions(HSSFPictureData.MSOBI_PICT);
+            case PICTURE_TYPE_PNG:
                 blipRecord.setOptions(HSSFPictureData.MSOBI_PNG);
+            case HSSFWorkbook.PICTURE_TYPE_JPEG:
                 blipRecord.setOptions(HSSFPictureData.MSOBI_JPEG);
+            case HSSFWorkbook.PICTURE_TYPE_DIB:
                 blipRecord.setOptions(HSSFPictureData.MSOBI_DIB);
-}        blipRecord.setUID( uid );
+}
+        blipRecord.setUID( uid );
         blipRecord.setMarker( (byte) 0xFF );
         blipRecord.setPictureData( pictureData );
+}

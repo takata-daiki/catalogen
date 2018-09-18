@@ -1,3 +1,4 @@
-    protected ProtectRecord              protect           =     null;
-{        return new boolean[] { (protect != null && protect.getProtect()), 
-}}
+public void wrapperMethod() {
+        ProtectRecord prec = getProtect();
+        prec.setProtect(true);
+}

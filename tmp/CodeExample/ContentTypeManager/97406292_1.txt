@@ -1,7 +1,0 @@
-  protected ContentTypeManager contentTypeManager;
-{{      pkg.contentTypeManager
-}}{    this.contentTypeManager.clearAll();
-}{    this.contentTypeManager.addContentType(partName, contentType);
-}{    this.contentTypeManager.removeContentType(partName);
-}{{{                contentTypeManager.addContentType(partName, newContentType);
-}}}

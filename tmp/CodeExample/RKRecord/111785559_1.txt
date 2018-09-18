@@ -1,2 +1,5 @@
+public void wrapperMethod() {
+            case RKRecord.sid: // Excel internal number record
                 RKRecord rk = (RKRecord) record;
                 addCell(record, new NumberCell(rk.getRKNumber(), format));
+}

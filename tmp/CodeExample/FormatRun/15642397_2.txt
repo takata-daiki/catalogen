@@ -1,5 +1,7 @@
-        FormatRun r = (FormatRun)obj;
-        if ((character == r.character) && (fontIndex == r.fontIndex))
-        if (character == r.character)
-          return fontIndex - r.fontIndex;
-        else return character - r.character;
+public void wrapperMethod() {
+        FormatRun r = (FormatRun)field_4_format_runs.get(i);
+        if (r.character == characterPos)
+          return i;
+        else if (r.character > characterPos)
+          return -1;
+}

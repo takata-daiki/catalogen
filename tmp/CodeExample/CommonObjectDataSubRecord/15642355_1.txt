@@ -1,3 +1,4 @@
+public void wrapperMethod() {
         CommonObjectDataSubRecord c = new CommonObjectDataSubRecord();
         c.setObjectType( (short) ( (HSSFSimpleShape) shape ).getShapeType() );
         c.setObjectId( (short) ( shapeId ) );
@@ -5,3 +6,4 @@
         c.setPrintable( true );
         c.setAutofill( true );
         c.setAutoline( true );
+}

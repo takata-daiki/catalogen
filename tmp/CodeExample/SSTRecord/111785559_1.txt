@@ -1,3 +1,5 @@
+public void wrapperMethod() {
         private SSTRecord sstRecord;
-{{                UnicodeString unicode = sstRecord.getString(sst.getSSTIndex());
-}}
+{{
+                UnicodeString unicode = sstRecord.getString(sst.getSSTIndex());
+}}}

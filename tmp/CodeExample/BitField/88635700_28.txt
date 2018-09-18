@@ -1,4 +1,7 @@
-    /**/private static BitField fRMView = new BitField(0x08);
-{        field_7_docinfo2 = (byte)fRMView.setBoolean(field_7_docinfo2, value);
-}{        return fRMView.isSet(field_7_docinfo2);
-}
+public void wrapperMethod() {
+    /**/private static BitField oldfConvMailMergeEsc = new BitField(0x0040);
+{
+        field_8_docinfo3 = (short)oldfConvMailMergeEsc.setBoolean(field_8_docinfo3, value);
+}{
+        return oldfConvMailMergeEsc.isSet(field_8_docinfo3);
+}}

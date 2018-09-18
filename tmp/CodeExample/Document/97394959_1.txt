@@ -1,17 +1,31 @@
+public void wrapperMethod() {
   private Document _documentRecord;
-{{{{          _fonts = _documentRecord.getEnvironment().getFontCollection();
-}}}}{    SlideListWithText masterSLWT = _documentRecord.getMasterSlideListWithText();
+{{{{
+          _fonts = _documentRecord.getEnvironment().getFontCollection();
+}}}}{
+    SlideListWithText masterSLWT = _documentRecord.getMasterSlideListWithText();
     SlideListWithText slidesSLWT = _documentRecord.getSlideSlideListWithText();
     SlideListWithText notesSLWT = _documentRecord.getNotesSlideListWithText();
-}{    DocumentAtom docatom = _documentRecord.getDocumentAtom();
-}{    SlideListWithText slwt = _documentRecord.getSlideSlideListWithText();
-}{{      _documentRecord.removeSlideListWithText(slwt);
-}{{        SlideListWithText nslwt = _documentRecord.getNotesSlideListWithText();
-{          _documentRecord.removeSlideListWithText(nslwt);
-}}}}{    slist = _documentRecord.getSlideSlideListWithText();
-{      _documentRecord.addSlideListWithText(slist);
-}}{    EscherContainerRecord dggContainer = _documentRecord.getPPDrawingGroup().getDggContainer();
-}{    Record[] ch = _documentRecord.getChildRecords();
-}{    ExObjList lst = (ExObjList) _documentRecord.findFirstOfType(RecordTypes.ExObjList.typeID);
-{      _documentRecord.addChildAfter(lst, _documentRecord.getDocumentAtom());
-}}
+}{
+    DocumentAtom docatom = _documentRecord.getDocumentAtom();
+}{
+    SlideListWithText slwt = _documentRecord.getSlideSlideListWithText();
+}{{
+      _documentRecord.removeSlideListWithText(slwt);
+}{{
+        SlideListWithText nslwt = _documentRecord.getNotesSlideListWithText();
+{
+          _documentRecord.removeSlideListWithText(nslwt);
+}}}}{
+    slist = _documentRecord.getSlideSlideListWithText();
+{
+      _documentRecord.addSlideListWithText(slist);
+}}{
+    EscherContainerRecord dggContainer = _documentRecord.getPPDrawingGroup().getDggContainer();
+}{
+    Record[] ch = _documentRecord.getChildRecords();
+}{
+    ExObjList lst = (ExObjList) _documentRecord.findFirstOfType(RecordTypes.ExObjList.typeID);
+{
+      _documentRecord.addChildAfter(lst, _documentRecord.getDocumentAtom());
+}}}

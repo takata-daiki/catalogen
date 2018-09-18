@@ -1,2 +1,4 @@
+public void wrapperMethod() {
       XSSFColor bgColour = ((XSSFCell)sheet.getRow(0).getCell(0)).getCellStyle().getFillForegroundColorColor();
       assertEquals( "FFFFFFFF", bgColour.getARGBHex() );
+}

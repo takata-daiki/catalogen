@@ -1,2 +1,4 @@
+public void wrapperMethod() {
                 XWPFAbstractNum abstractNum = getXWPFAbstractNum( num );
-                CTLvl lvl = abstractNum.getAbstractNum().getLvlArray( level );
+                CTString numStyleLink = abstractNum.getAbstractNum().getNumStyleLink();
+}

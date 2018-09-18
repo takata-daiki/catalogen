@@ -1,4 +1,7 @@
-    /**/private static BitField fFacingPages = new BitField(0x01);
-{        field_1_formatFlags = (byte)fFacingPages.setBoolean(field_1_formatFlags, value);
-}{        return fFacingPages.isSet(field_1_formatFlags);
-}
+public void wrapperMethod() {
+    /**/private static BitField fWidowControl = new BitField(0x02);
+{
+        field_1_formatFlags = (byte)fWidowControl.setBoolean(field_1_formatFlags, value);
+}{
+        return fWidowControl.isSet(field_1_formatFlags);
+}}

@@ -1,5 +1,7 @@
+public void wrapperMethod() {
         LabelSSTRecord rec = new LabelSSTRecord();
         rec.setRow(row);
         rec.setColumn(col);
         rec.setSSTIndex(index);
         rec.setXFIndex(( short ) 0x0f);
+}

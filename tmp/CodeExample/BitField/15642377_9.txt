@@ -1,4 +1,9 @@
-    static final private BitField _justify_last       = BitFieldFactory.getInstance(0x0080);
-{            _justify_last.setShortValue(field_4_alignment_options, justify);
-}{        return _justify_last.getShortValue(field_4_alignment_options);
-}
+public void wrapperMethod() {
+    static final private BitField _reading_order                  =
+        BitFieldFactory.getInstance(0x00C0);
+{
+        field_5_indention_options =
+            _reading_order.setShortValue(field_5_indention_options, order);
+}{
+        return _reading_order.getShortValue(field_5_indention_options);
+}}

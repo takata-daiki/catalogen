@@ -1,9 +1,6 @@
-    private NameRecord       name;
-{        short indexToExternSheet = name.getExternSheetNumber();
-}{        String result = name.getNameText();
-}{        name.setNameText(nameName);
-        name.setNameTextLength((byte)nameName.length());
-}{        result = name.getAreaReference(book);
-}{        name.setExternSheetNumber(externSheetNumber);
-}{        name.setAreaReference(ref);
-}
+public void wrapperMethod() {
+          NameRecord rec = book.getNameRecord(i);
+{
+            if (rec.getNameText().equalsIgnoreCase(getNameName()))
+              throw new IllegalArgumentException("The workbook already contains this name (case-insensitive)");
+}}

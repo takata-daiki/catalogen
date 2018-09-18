@@ -1,4 +1,6 @@
+public void wrapperMethod() {
         HSSFPicture shape = new HSSFPicture(null, anchor);
         shape.setPictureIndex( pictureIndex );
         shape.anchor = anchor;
         shape.patriarch = this;
+}

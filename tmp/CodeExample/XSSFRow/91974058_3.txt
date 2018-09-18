@@ -1,5 +1,27 @@
-        XSSFRow dataRow = sheet.createRow(i + 3);
-        XSSFCell cell1f = dataRow.createCell(0);
-        XSSFCell cell0 = dataRow.createCell(1);
-{          XSSFCell cell1 = dataRow.createCell(j + 2);
-}
+public void wrapperMethod() {
+      XSSFRow row = sheet.createRow(1);
+{{{
+            XSSFCell headerCell1 = row.createCell(0);
+}{
+            XSSFCell headerCell6 = row.createCell(kontaktperson1);
+}}{{
+            XSSFCell headerCell6 = row.createCell(patient2);
+}}{
+          XSSFCell headerCell1 = row.createCell(0);
+          XSSFCell headerCell2 = row.createCell(patient2);
+          XSSFCell headerCell3 = row.createCell(patient2
+              + kontaktperson1);
+}}{{{
+            XSSFCell headerCell6 = row.createCell(patient1);
+}}{
+          XSSFCell headerCell2 = row.createCell(patient1);
+          XSSFCell headerCell3 = row.createCell(patient1
+}}{{
+          XSSFCell headerCell3 = row.createCell(patient1 + patient2);
+}}{
+        XSSFCell headerCell1 = row.createCell(0);
+        XSSFCell headerCell2 = row.createCell(patient1);
+        XSSFCell headerCell3 = row.createCell(patient1 + patient2);
+        XSSFCell headerCell4 = row.createCell(patient1 + patient2
+            + kontaktperson1);
+}}

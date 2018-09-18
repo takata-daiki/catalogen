@@ -1,3 +1,5 @@
-        XSSFCell celltemp = row1.createCell(2 + (spalten.size() * i));
-        celltemp.setCellStyle(headerStyle);
-        celltemp.setCellValue("Zahlung " + (i + 1));
+public void wrapperMethod() {
+      XSSFCell nachnameCell = headerRow.createCell(1);
+      nachnameCell.setCellStyle(headerStyle);
+      nachnameCell.setCellValue("Nachname");
+}

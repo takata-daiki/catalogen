@@ -1,3 +1,5 @@
+public void wrapperMethod() {
         EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.TEXT__ANCHORTEXT);
-{            valign = prop.getPropertyValue();
-}
+{
+            valign = prop.getPropertyValue();
+}}

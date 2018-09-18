@@ -1,14 +1,22 @@
+public void wrapperMethod() {
         UnicodeString str = ( UnicodeString ) obj;
         int result = getString().compareTo(str.getString());
         if ((field_4_format_runs == null) && (str.field_4_format_runs == null))
+          return 0;
         if ((field_4_format_runs == null) && (str.field_4_format_runs != null))
+          return 1;
         if ((field_4_format_runs != null) && (str.field_4_format_runs == null))
+          return -1;
         if (size != str.field_4_format_runs.size())
           return size - str.field_4_format_runs.size();
-{          FormatRun run2 = (FormatRun)str.field_4_format_runs.get(i);
-}        if ((field_5_ext_rst == null) && (str.field_5_ext_rst == null))
-        if ((field_5_ext_rst == null) && (str.field_5_ext_rst != null))
-        if ((field_5_ext_rst != null) && (str.field_5_ext_rst == null))
-{          if (field_5_ext_rst[i] != str.field_5_ext_rst[i])
-            return field_5_ext_rst[i] - str.field_5_ext_rst[i];
+{
+          FormatRun run2 = (FormatRun)str.field_4_format_runs.get(i);
 }
+        if ((field_5_ext_rst == null) && (str.field_5_ext_rst == null))
+        if ((field_5_ext_rst == null) && (str.field_5_ext_rst != null))
+         return 1;
+        if ((field_5_ext_rst != null) && (str.field_5_ext_rst == null))
+{
+          if (field_5_ext_rst[i] != str.field_5_ext_rst[i])
+            return field_5_ext_rst[i] - str.field_5_ext_rst[i];
+}}

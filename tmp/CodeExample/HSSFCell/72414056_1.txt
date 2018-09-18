@@ -1,2 +1,4 @@
-        HSSFCell cell = getCell(sheet, 2, 4);
-        cell.setCellValue("Test Value");
+public void wrapperMethod() {
+    HSSFCell cell = row.getCell((short) 4);
+    assertEquals("Test Value", cell.getStringCellValue());
+}

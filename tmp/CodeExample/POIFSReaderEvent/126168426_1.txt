@@ -1,3 +1,7 @@
+public void wrapperMethod() {
+    @Override
     public void processPOIFSReaderEvent(final POIFSReaderEvent event) {
-{        dis = event.getStream();
-}
+      int errorCounter = 0;
+{
+        dis = event.getStream();
+}}}

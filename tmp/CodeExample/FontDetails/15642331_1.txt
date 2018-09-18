@@ -1,3 +1,6 @@
+public void wrapperMethod() {
         FontDetails d = new FontDetails(fontName, height);
-{                d.addChar(charactersStrArray[i].charAt(0), Integer.parseInt(widthsStrArray[i]));
-}
+{
+            if (charactersStrArray[i].length() != 0)
+                d.addChar(charactersStrArray[i].charAt(0), Integer.parseInt(widthsStrArray[i]));
+}}

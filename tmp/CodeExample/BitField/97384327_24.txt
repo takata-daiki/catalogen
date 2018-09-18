@@ -1,4 +1,7 @@
-    /**/private static final BitField fBiDi = new BitField(0x00400000);
-{        field_1_grpfChp = fBiDi.setBoolean(field_1_grpfChp, value);
-}{        return fBiDi.isSet(field_1_grpfChp);
-}
+public void wrapperMethod() {
+    /**/private static final BitField fTNY = new BitField(0x0100);
+{
+        field_29_ufel = (short)fTNY.setBoolean(field_29_ufel, value);
+}{
+        return fTNY.isSet(field_29_ufel);
+}}

@@ -1,2 +1,4 @@
-            CharacterRun separator = field
-            if ( separator.isOle2() )
+public void wrapperMethod() {
+            CharacterRun characterRun = range.getCharacterRun( c );
+            String text = characterRun.text();
+}

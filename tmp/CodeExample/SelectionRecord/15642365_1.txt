@@ -1,6 +1,11 @@
+public void wrapperMethod() {
     protected SelectionRecord            selection         =     null;
-{        return selection.getActiveCellRow();
-}{{            selection.setActiveCellRow(row);
-}}{        return selection.getActiveCellCol();
-}{{            selection.setActiveCellCol(col);
-}}
+{
+        return selection.getActiveCellRow();
+}{{
+            selection.setActiveCellRow(row);
+}}{
+        return selection.getActiveCellCol();
+}{{
+            selection.setActiveCellCol(col);
+}}}

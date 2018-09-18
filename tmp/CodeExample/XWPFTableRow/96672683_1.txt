@@ -1,6 +1,12 @@
     private void computeCellInfos( XWPFTableRow row )
-{{            nbColumns = XWPFTableUtil.computeColWidths( row.getTable() ).length;
-}        CTRow ctRow = row.getCtRow();
-{{                XWPFTableCell cell = row.getTableCell( tc );
-}{{                    XWPFTableCell cell = new XWPFTableCell( ctTc, row, row.getTable().getBody() );
+    {
+        if ( nbColumns == null )
+        {
+            nbColumns = XWPFTableUtil.computeColWidths( row.getTable() ).length;
+}
+        CTRow ctRow = row.getCtRow();
+{{
+                XWPFTableCell cell = row.getTableCell( tc );
+}{{
+                    XWPFTableCell cell = new XWPFTableCell( ctTc, row, row.getTable().getBody() );
 }}}}

@@ -1,2 +1,4 @@
+public void wrapperMethod() {
                 GenericPropertyNode node = binTable.getProperty( x );
                 int pageNum = LittleEndian.getInt( node.getBytes() );
+}

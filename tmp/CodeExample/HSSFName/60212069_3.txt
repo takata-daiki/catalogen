@@ -1,4 +1,4 @@
-      HSSFName iName = wb.getNameAt(i);
-{        String iNameName = iName.getNameName();
-{          String iShName = iName.getSheetName();
-}}
+public void wrapperMethod() {
+        HSSFName iName = wb.getNameAt(i);
+        if((iName != null) && (iName.getNameName() != null) && iName.getNameName().equals(name)) return iName;
+}

@@ -1,2 +1,4 @@
-        EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, propId);
-        return prop == null ? defaultValue : prop.getPropertyValue();
+public void wrapperMethod() {
+        EscherSimpleProperty p = (EscherSimpleProperty)getEscherProperty(opt, colorProperty);
+        int val = p == null ? defaultColor : p.getPropertyValue();
+}

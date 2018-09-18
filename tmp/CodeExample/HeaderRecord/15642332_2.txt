@@ -1,3 +1,5 @@
     protected HSSFHeader( HeaderRecord headerRecord )
-{        String head = headerRecord.getHeader();
+    {
+        this.headerRecord = headerRecord;
+        String head = headerRecord.getHeader();
 }

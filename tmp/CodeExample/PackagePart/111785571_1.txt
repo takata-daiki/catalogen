@@ -1,3 +1,6 @@
+public void wrapperMethod() {
         for(PackagePart part : mainParts) {
-{              rels = part.getRelationships();
-}
+           PackageRelationshipCollection rels;
+{
+              rels = part.getRelationships();
+}}}

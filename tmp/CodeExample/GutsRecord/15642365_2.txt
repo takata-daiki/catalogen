@@ -1,4 +1,8 @@
+public void wrapperMethod() {
         GutsRecord guts = (GutsRecord) findFirstRecordBySid( GutsRecord.sid );
         guts.setColLevelMax( (short) ( maxLevel+1 ) );
+        if (maxLevel == 0)
             guts.setTopColGutter( (short)0 );
+        else
             guts.setTopColGutter( (short) ( 29 + (12 * (maxLevel-1)) ) );
+}

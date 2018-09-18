@@ -1,4 +1,6 @@
+public void wrapperMethod() {
         EscherContainerRecord spgrContainer = new EscherContainerRecord();
         spgrContainer.setRecordId( EscherContainerRecord.SPGR_CONTAINER );
         spgrContainer.setOptions( (short) 0x000F );
-        spgrContainer.addChildRecord( spContainer );
+        spgrContainer.addChildRecord( spContainer1 );
+}

@@ -1,2 +1,7 @@
-        XSSFFont xssfFont = theCell.getCellStyle().getFont();
-        return xssfFont.getStrikeout();
+public void wrapperMethod() {
+        XSSFFont font = cellStyle.getFont();
+{
+            font.setBoldweight(XSSFFont.BOLDWEIGHT_BOLD);
+}{
+            font.setBoldweight(XSSFFont.BOLDWEIGHT_NORMAL);
+}}

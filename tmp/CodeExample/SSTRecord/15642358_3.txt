@@ -1,3 +1,6 @@
+public void wrapperMethod() {
         SSTRecord sst = null;
-{{                    retval += sst.calcExtSSTRecordSize();
-}}
+{{
+                if (record.getSid() == ExtSSTRecord.sid && sst != null)
+                    retval += sst.calcExtSSTRecordSize();
+}}}

@@ -1,9 +1,12 @@
+public void wrapperMethod() {
     private HSSFComment              comment;
-{        comment.setRow((short)record.getRow());
+{
+        comment.setRow((short)record.getRow());
         comment.setColumn(record.getColumn());
-}{{{{                   comment.setRow(note.getRow());
+}{{{{
+                   comment.setRow(note.getRow());
                    comment.setColumn(note.getColumn());
                    comment.setAuthor(note.getAuthor());
                    comment.setVisible(note.getFlags() == NoteRecord.NOTE_VISIBLE);
                    comment.setString(txo.getStr());
-}}}}
+}}}}}

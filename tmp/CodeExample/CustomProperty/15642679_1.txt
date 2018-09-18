@@ -1,4 +1,8 @@
-        final CustomProperty cp = (CustomProperty) customProperty;
-        if (!(name.equals(cp.getName())))
-                    ") and custom property's name (" + cp.getName() +
-        final Long idKey = new Long(cp.getID());
+    private Object put(final CustomProperty customProperty) throws ClassCastException
+    {
+        final String name = customProperty.getName();
+        if (oldId != null)
+            customProperty.setID(oldId.longValue());
+{
+            customProperty.setID(max + 1);
+}}

@@ -1,4 +1,6 @@
+public void wrapperMethod() {
         InteractiveInfoAtom infoAtom = info.getInteractiveInfoAtom();
         infoAtom.setAction(InteractiveInfoAtom.ACTION_HYPERLINK);
         infoAtom.setHyperlinkType(InteractiveInfoAtom.LINK_Url);
         infoAtom.setHyperlinkID(linkId);
+}

@@ -1,5 +1,0 @@
-            EscherClientAnchorRecord rec = (EscherClientAnchorRecord)getEscherChild(_escherContainer, EscherClientAnchorRecord.RECORD_ID);
-            rec.setFlag((short)(anchor.getY()*MASTER_DPI/POINT_DPI));
-            rec.setCol1((short)(anchor.getX()*MASTER_DPI/POINT_DPI));
-            rec.setDx1((short)(((anchor.getWidth() + anchor.getX())*MASTER_DPI/POINT_DPI)));
-            rec.setRow1((short)(((anchor.getHeight() + anchor.getY())*MASTER_DPI/POINT_DPI)));

@@ -1,4 +1,8 @@
+public void wrapperMethod() {
     private LFOData _lfoData;
-{{            return _lfoData.getRgLfoLvl()[level].getIStartAt();
-}}{        ListFormatOverrideLevel lfolvl = _lfoData.getRgLfoLvl().length > level ? _lfoData
-}
+{{
+            return _lfoData.getRgLfoLvl()[level].getIStartAt();
+}}{
+        ListFormatOverrideLevel lfolvl = _lfoData.getRgLfoLvl().length > level ? _lfoData
+                .getRgLfoLvl()[level] : null;
+}}

@@ -1,3 +1,9 @@
-            final Range firstSubrange = field.firstSubrange( parentRange );
-{                String formula = firstSubrange.text();
-}
+    protected void processParagraphes( HWPFDocumentCore wordDocument,
+            Element flow, Range range, int currentTableLevel )
+    {
+        final int paragraphs = range.numParagraphs();
+{
+            Paragraph paragraph = range.getParagraph( p );
+{
+                Table table = range.getTable( paragraph );
+}}}

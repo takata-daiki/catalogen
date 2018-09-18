@@ -1,2 +1,5 @@
-  private void readHeaderRow(XSSFRow row, String type) throws Exception{
-    Iterator<Cell> cellit = row.cellIterator();
+  private void readDataRow(XSSFRow row,String type) throws Exception{
+    String[] strdata = new String[upperdenames.size()];
+{
+         XSSFCell cell = row.getCell(count);
+}}

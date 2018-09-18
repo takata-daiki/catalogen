@@ -1,4 +1,9 @@
+public void wrapperMethod() {
                  EscherBlipRecord blip = ((EscherBSERecord) escherRecord).getBlipRecord();
-{                    switch (blip.getRecordId()) {
-}                    TikaInputStream stream = TikaInputStream.get(blip.getPicturedata());
+{
+                    switch (blip.getRecordId()) {
+                    case EscherMetafileBlip.RECORD_ID_WMF:
+                       mimeType =  "image/x-wmf";
 }
+                    TikaInputStream stream = TikaInputStream.get(blip.getPicturedata());
+}}

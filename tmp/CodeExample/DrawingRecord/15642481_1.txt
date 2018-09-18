@@ -1,3 +1,5 @@
+public void wrapperMethod() {
             DrawingRecord lastDrawingRecord = new DrawingRecord( );
-{{{{{                          lastDrawingRecord.processContinueRecord( ((ContinueRecord)record).getData() );
-}}}}}
+{{{{{
+                          lastDrawingRecord.processContinueRecord( ((ContinueRecord)record).getData() );
+}}}}}}

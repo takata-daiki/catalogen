@@ -1,2 +1,5 @@
-        PackagePart pic = pics.get(0);
-                pic.getPartName(), TargetMode.INTERNAL, XSLFRelation.IMAGES.getRelation());
+    String importBlip(String blipId, PackagePart packagePart) {
+        PackageRelationship blipRel = packagePart.getRelationship(blipId);
+{
+            blipPart = packagePart.getRelatedPart(blipRel);
+}}

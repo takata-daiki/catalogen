@@ -1,2 +1,0 @@
-        EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.LINESTYLE__LINEDASHING);
-        return prop == null ? Line.PEN_SOLID : prop.getPropertyValue();

@@ -1,2 +1,5 @@
-    public void addFormatRun(FormatRun r) {
-      int index = findFormatRunAt(r.character);
+public void wrapperMethod() {
+          FormatRun r = (FormatRun)field_4_format_runs.get(i);
+          LittleEndian.putShort(data, pos, r.character);
+          LittleEndian.putShort(data, pos, r.fontIndex);
+}

@@ -1,3 +1,4 @@
+public void wrapperMethod() {
         PrintSetupRecord retval = new PrintSetupRecord();
         retval.setPaperSize(( short ) 1);
         retval.setScale(( short ) 100);
@@ -10,3 +11,4 @@
         retval.setHeaderMargin( 0.5);
         retval.setFooterMargin( 0.5);
         retval.setCopies(( short ) 0);
+}

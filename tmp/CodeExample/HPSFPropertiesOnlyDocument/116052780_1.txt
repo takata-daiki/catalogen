@@ -1,2 +1,6 @@
+public void wrapperMethod() {
       HPSFPropertiesOnlyDocument hpsfPropertiesOnlyDocument =
+        new HPSFPropertiesOnlyDocument(npoifsFileSystem);
+      SummaryInformation summaryInformation =
         hpsfPropertiesOnlyDocument.getSummaryInformation();
+}

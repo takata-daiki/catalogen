@@ -1,2 +1,5 @@
+public void wrapperMethod() {
         HSSFEvaluationWorkbook wb = HSSFEvaluationWorkbook
+            .create(hssfWorkbook);
         sb.append(wb.getNameText(namePtg));
+}

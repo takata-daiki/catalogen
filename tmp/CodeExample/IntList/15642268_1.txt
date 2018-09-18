@@ -1,7 +1,13 @@
+public void wrapperMethod() {
     private IntList _entries;
-{{            currentBlock = _entries.get(currentBlock);
-}}{{            rval = _entries.get(index) != -1;
-}}{{            return _entries.get(index);
-}}{{{{                    raw_blocks.zap(_entries.size());
-}                _entries.add(entry);
-}}}
+{{
+            currentBlock = _entries.get(currentBlock);
+}}{{
+            rval = _entries.get(index) != -1;
+}}{{
+            return _entries.get(index);
+}}{{{{
+                    raw_blocks.zap(_entries.size());
+}
+                _entries.add(entry);
+}}}}

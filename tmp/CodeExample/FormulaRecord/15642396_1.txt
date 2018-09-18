@@ -1,3 +1,4 @@
+public void wrapperMethod() {
       FormulaRecord rec = new FormulaRecord();
       rec.field_1_row = field_1_row;
       rec.field_2_column = field_2_column;
@@ -7,6 +8,9 @@
       rec.field_6_zero = field_6_zero;
       rec.field_7_expression_len = field_7_expression_len;
       rec.field_8_parsed_expr = new Stack();
-{        rec.field_8_parsed_expr.add(i, ptg);
-}      rec.value_data = value_data;
+{
+        rec.field_8_parsed_expr.add(i, ptg);
+}
+      rec.value_data = value_data;
       rec.all_data = all_data;
+}

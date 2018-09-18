@@ -1,3 +1,6 @@
-    private void convertShapes( HSSFShapeContainer parent, EscherContainerRecord escherParent, Map shapeToObj )
-{{{                escherParent.addChildRecord( shapeModel.getSpContainer() );
-}}}
+public void wrapperMethod() {
+        EscherContainerRecord spgrContainer = new EscherContainerRecord();
+        spgrContainer.setRecordId( EscherContainerRecord.SPGR_CONTAINER );
+        spgrContainer.setOptions( (short) 0x000F );
+        spgrContainer.addChildRecord( spContainer );
+}

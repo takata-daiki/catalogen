@@ -1,3 +1,9 @@
   PackagePart createPart(PackagePartName partName, String contentType,
-{{          "A part with the name '" + partName.getName() + "'" +
+      boolean loadRelationships) {
+    throwExceptionIfReadOnly();
+{
+      throw new PartAlreadyExistsException(
+          "A part with the name '" + partName.getName() + "'" +
+          " already exists : Packages shall not contain equivalent part names and package" +
+          " implementers shall neither create nor recognize packages with equivalent part names. [M1.12]");
 }}

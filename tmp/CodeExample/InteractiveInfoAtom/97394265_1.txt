@@ -1,14 +1,23 @@
+public void wrapperMethod() {
         InteractiveInfoAtom infoAtom = info.getInteractiveInfoAtom();
-{                infoAtom.setAction(InteractiveInfoAtom.ACTION_JUMP);
+{
+            case Hyperlink.LINK_FIRSTSLIDE:
+                infoAtom.setAction(InteractiveInfoAtom.ACTION_JUMP);
                 infoAtom.setJump(InteractiveInfoAtom.JUMP_FIRSTSLIDE);
                 infoAtom.setHyperlinkType(InteractiveInfoAtom.LINK_FirstSlide);
+            case Hyperlink.LINK_LASTSLIDE:
                 infoAtom.setJump(InteractiveInfoAtom.JUMP_LASTSLIDE);
                 infoAtom.setHyperlinkType(InteractiveInfoAtom.LINK_LastSlide);
+            case Hyperlink.LINK_NEXTSLIDE:
                 infoAtom.setJump(InteractiveInfoAtom.JUMP_NEXTSLIDE);
                 infoAtom.setHyperlinkType(InteractiveInfoAtom.LINK_NextSlide);
+            case Hyperlink.LINK_PREVIOUSSLIDE:
                 infoAtom.setJump(InteractiveInfoAtom.JUMP_PREVIOUSSLIDE);
                 infoAtom.setHyperlinkType(InteractiveInfoAtom.LINK_PreviousSlide);
+            case Hyperlink.LINK_URL:
                 infoAtom.setAction(InteractiveInfoAtom.ACTION_HYPERLINK);
                 infoAtom.setJump(InteractiveInfoAtom.JUMP_NONE);
                 infoAtom.setHyperlinkType(InteractiveInfoAtom.LINK_Url);
-}        infoAtom.setHyperlinkID(link.getId());
+}
+        infoAtom.setHyperlinkID(link.getId());
+}

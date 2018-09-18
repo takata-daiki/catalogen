@@ -1,6 +1,8 @@
+public void wrapperMethod() {
     HSSFCellStyle headingStyle = wb.createCellStyle();
     headingStyle.setFont(headingFont);
     headingStyle.setAlignment(HSSFCellStyle.ALIGN_LEFT);
     headingStyle.setVerticalAlignment(HSSFCellStyle.VERTICAL_CENTER);
     headingStyle.setFillForegroundColor(HSSFColor.GREEN.index);
     headingStyle.setFillPattern(HSSFCellStyle.SOLID_FOREGROUND);
+}

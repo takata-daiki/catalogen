@@ -1,2 +1,8 @@
-      SlideAtomsSet sas = slidesSets[i];
-      int slideIdentifier = sas.getSlidePersistAtom().getSlideIdentifier();
+public void wrapperMethod() {
+        for (SlideAtomsSet ns : nslwt.getSlideAtomsSets()) {
+          if (ns.getSlidePersistAtom().getSlideIdentifier() != notesId) {
+            na.add(ns);
+            records.add(ns.getSlidePersistAtom());
+            if (ns.getSlideRecords() != null)
+              records.addAll(Arrays.asList(ns.getSlideRecords()));
+}}}

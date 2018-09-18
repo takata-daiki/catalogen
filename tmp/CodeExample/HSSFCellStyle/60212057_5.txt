@@ -1,3 +1,5 @@
+public void wrapperMethod() {
                   HSSFCellStyle style= wb.createCellStyle();
                   style.cloneStyleFrom(cell.getCellStyle());
-                  style.setIndention((short)2);
+                  style.setIndention((short)5);
+}

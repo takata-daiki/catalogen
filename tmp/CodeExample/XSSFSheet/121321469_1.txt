@@ -1,3 +1,5 @@
+public void wrapperMethod() {
     XSSFSheet sheet=wb.getSheetAt(0);
     XSSFCellStyle cellStyle = sheet.getRow(0).getCell(0).getCellStyle();
     System.out.println("Index: " + sheet.getRow(0).getCell(0).getCellStyle().getIndex());
+}

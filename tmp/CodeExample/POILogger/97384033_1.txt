@@ -1,3 +1,11 @@
+public void wrapperMethod() {
     public static final POILogger logger = POILogFactory
-{        logger.log( POILogger.WARN, "Since FIB.nFib == ", strNFib,
-}
+            .getLogger( FileInformationBlock.class );
+{
+        logger.log( POILogger.WARN, "Since FIB.nFib == ", strNFib,
+                " value of FIB.cbRgFcLcb MUST be ", strCbRgFcLcb + ", not 0x",
+                Integer.toHexString( cbRgFcLcb ) );
+}{
+                " value of FIB.cswNew MUST be ",
+                strExpectedCswNew + ", not 0x", Integer.toHexString( cswNew ) );
+}}

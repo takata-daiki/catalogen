@@ -1,4 +1,8 @@
+public void wrapperMethod() {
     static final private BitField hidden   =
-{        field_5_options = hidden.setShortBoolean(field_5_options, ishidden);
-}{        return hidden.isSet(field_5_options);
-}
+        BitFieldFactory.getInstance(0x01);                                        // is this window is hidden
+{
+        field_5_options = hidden.setShortBoolean(field_5_options, ishidden);
+}{
+        return hidden.isSet(field_5_options);
+}}

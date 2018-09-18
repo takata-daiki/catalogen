@@ -1,4 +1,9 @@
-    static final private BitField _parent_index = BitFieldFactory.getInstance(0xFFF0);
-{            _parent_index.setShortValue(field_3_cell_options, parent);
-}{        return _parent_index.getShortValue(field_3_cell_options);
-}
+public void wrapperMethod() {
+    static final private BitField _vertical_alignment = BitFieldFactory.getInstance(0x0070);
+{
+        field_4_alignment_options =
+            _vertical_alignment.setShortValue(field_4_alignment_options,
+                                              align);
+}{
+        return _vertical_alignment.getShortValue(field_4_alignment_options);
+}}

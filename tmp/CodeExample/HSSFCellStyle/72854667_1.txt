@@ -1,4 +1,6 @@
-        HSSFCellStyle cellStyle = theCell.getCellStyle();        
-        HSSFFont font = cellStyle.getFont(getWorkbook());
-{            cellStyle.setFont(font);
-}
+public void wrapperMethod() {
+      HSSFCellStyle style = styles.get(colour);            
+{
+        style.setFillPattern(HSSFCellStyle.SOLID_FOREGROUND );
+        style.setFillForegroundColor(col.getIndex());
+}}

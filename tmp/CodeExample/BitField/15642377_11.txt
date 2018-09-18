@@ -1,4 +1,10 @@
-    static final private BitField _indent                         =
-{            _indent.setShortValue(field_5_indention_options, indent);
-}{        return _indent.getShortValue(field_5_indention_options);
-}
+public void wrapperMethod() {
+    static final private BitField _indent_not_parent_alignment    =
+        BitFieldFactory.getInstance(0x1000);
+{
+        field_5_indention_options =
+            _indent_not_parent_alignment
+                .setShortBoolean(field_5_indention_options, alignment);
+}{
+        return _indent_not_parent_alignment.isSet(field_5_indention_options);
+}}

@@ -1,8 +1,14 @@
+public void wrapperMethod() {
+    case FormulaRecord.sid:
       FormulaRecord frec = (FormulaRecord) record;
       thisRow = frec.getRow();
       thisColumn = frec.getColumn();
-{        if (Double.isNaN(frec.getValue())) {
+{
+        if (Double.isNaN(frec.getValue())) {
+          outputNextStringRecord = true;
           nextRow = frec.getRow();
           nextColumn = frec.getColumn();
-}}{            frec.getParsedExpression()) + '"';
-}
+}}{
+        thisStr = '"' + HSSFFormulaParser.toFormulaString(stubWorkbook,
+            frec.getParsedExpression()) + '"';
+}}

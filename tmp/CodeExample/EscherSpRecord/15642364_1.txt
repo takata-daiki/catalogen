@@ -1,5 +1,7 @@
+public void wrapperMethod() {
         EscherSpRecord sp = new EscherSpRecord();
         sp.setRecordId( EscherSpRecord.RECORD_ID );
         sp.setOptions( (short) ( ( EscherAggregate.ST_TEXTBOX << 4 ) | 0x2 ) );
         sp.setShapeId( shapeId );
         sp.setFlags( EscherSpRecord.FLAG_HAVEANCHOR | EscherSpRecord.FLAG_HASSHAPETYPE );
+}

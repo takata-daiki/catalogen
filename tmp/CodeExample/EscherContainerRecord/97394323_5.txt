@@ -1,3 +1,4 @@
-        EscherContainerRecord spgr = null;
-        List<EscherRecord> lst = spgr.getChildRecords();
-        spgr.setChildRecords(lst);
+public void wrapperMethod() {
+            EscherContainerRecord dg = (EscherContainerRecord) ppdrawing.getEscherRecords()[0];
+            for (Iterator<EscherRecord> it = dg.getChildIterator(); it.hasNext();) {
+}}

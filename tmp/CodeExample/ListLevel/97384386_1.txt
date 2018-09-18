@@ -1,5 +1,13 @@
+public void wrapperMethod() {
                 final ListLevel listLevel = listTables.getLevel( lfo.getLsid(),
+                        paragraph.getIlvl() );
                 if ( listLevel.getGrpprlPapx() != null )
-{                            new SprmIterator( listLevel.getGrpprlPapx(), 0 ),
-}{                            new SprmIterator( listLevel.getGrpprlChpx(), 0 ),
-}
+                {
+                    System.out.println( "PAP's ListLevel PAPX:" );
+                    dumpSprms(
+                            new SprmIterator( listLevel.getGrpprlPapx(), 0 ),
+                            "* " );
+}{
+                    System.out.println( "PAP's ListLevel CHPX:" );
+                            new SprmIterator( listLevel.getGrpprlChpx(), 0 ),
+}}

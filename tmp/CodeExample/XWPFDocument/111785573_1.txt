@@ -1,3 +1,5 @@
+public void wrapperMethod() {
         XWPFDocument document = (XWPFDocument) extractor.getDocument();
         XWPFHeaderFooterPolicy hfPolicy = document.getHeaderFooterPolicy();
         Iterator<XWPFParagraph> i = document.getParagraphsIterator();
+}

@@ -1,2 +1,4 @@
+public void wrapperMethod() {
         HSSFRichTextString rich = cell.getRichStringCellValue();
         return (rich==null)? null: rich.getString();
+}

@@ -1,3 +1,5 @@
-      XSSFCell betreuerinnenCell = row1.createCell(0);
-      betreuerinnenCell.setCellStyle(headerStyle);
-      betreuerinnenCell.setCellValue("Betreuerinnen");
+public void wrapperMethod() {
+        XSSFCell celltemp = row1.createCell(2 + (spalten.size() * i));
+        celltemp.setCellStyle(headerStyle);
+        celltemp.setCellValue("Zahlung " + (i + 1));
+}

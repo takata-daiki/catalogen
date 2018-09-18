@@ -1,2 +1,4 @@
+public void wrapperMethod() {
         EscherPropertyFactory f = new EscherPropertyFactory();
         properties = f.createProperties( data, pos, getInstance() );
+}

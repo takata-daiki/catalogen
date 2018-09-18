@@ -1,5 +1,5 @@
-    HSSFPalette palette = workbook.getCustomPalette();
-    HSSFColor result = palette.findColor(rgbByte[0], rgbByte[1], rgbByte[2]);
-{{        palette.setColorAtIndex(paletteIndex, rgbByte[0], rgbByte[1], rgbByte[2]);
-}{        result = palette.findSimilarColor(rgbByte[0], rgbByte[1], rgbByte[2]);
+public void wrapperMethod() {
+    HSSFPalette palette = ((HSSFWorkbook)wb).getCustomPalette();    
+{
+      fgRgb = palette.getColor(font.getColor()).getTriplet();
 }}

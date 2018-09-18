@@ -1,5 +1,7 @@
+public void wrapperMethod() {
     ExControl ctrl = new ExControl();
     ExOleObjAtom oleObj = ctrl.getExOleObjAtom();
     ctrl.setProgId(progId);
     ctrl.setMenuName(name);
     ctrl.setClipboardName(name);
+}

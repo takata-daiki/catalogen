@@ -1,2 +1,5 @@
+public void wrapperMethod() {
           HSSFDataFormat format = workbook.createDataFormat();
           cellStyle.setDataFormat(format
+              .getFormat("yyyy-mm-dd hh:mm:ss"));
+}

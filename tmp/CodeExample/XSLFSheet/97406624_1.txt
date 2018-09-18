@@ -1,3 +1,7 @@
+public void wrapperMethod() {
+    @Override
     public XSLFSlide importContent(XSLFSheet src){
-{{                String relId = importBlip(blipId, src.getPackagePart());
-}}
+        super.importContent(src);
+{{
+                String relId = importBlip(blipId, src.getPackagePart());
+}}}}

@@ -1,2 +1,4 @@
-    HSSFRow row = sheet.getRow(2);
-    HSSFCell cell = row.getCell((short) 4);
+public void wrapperMethod() {
+    HSSFRow row = sheet.getRow(0);
+    HSSFCell cell = row.getCell((short) 0);
+}

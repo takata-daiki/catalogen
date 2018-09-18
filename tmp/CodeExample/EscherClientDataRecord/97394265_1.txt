@@ -1,4 +1,6 @@
-    protected EscherClientDataRecord _clientData;
-{{            byte[] data = _clientData.getRemainingData();
-}}{{            _clientData.setRemainingData(out.toByteArray());
-}}
+public void wrapperMethod() {
+        EscherClientDataRecord cldata = new EscherClientDataRecord();
+        cldata.setOptions((short)0xF);
+
+        cldata.setRemainingData(out.toByteArray());
+}

@@ -1,4 +1,9 @@
+public void wrapperMethod() {
       final HSSFFont other = (HSSFFont) obj;
-{        if (other.font != null)
-}      } else if (!font.equals(other.font))
+{
+        if (other.font != null)
+          return false;
+      } else if (!font.equals(other.font))
+        return false;
       if (index != other.index)
+}

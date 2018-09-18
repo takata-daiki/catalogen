@@ -1,4 +1,9 @@
-    protected DateAndTime field_43_dttmRMarkDel;
-{        else if ( !field_43_dttmRMarkDel.equals( other.field_43_dttmRMarkDel ) )
-}{                + ((field_43_dttmRMarkDel == null) ? 0 : field_43_dttmRMarkDel.hashCode());
-}
+public void wrapperMethod() {
+    protected DateAndTime field_53_dttmPropRMark;
+{
+        else if ( !field_53_dttmPropRMark.equals( other.field_53_dttmPropRMark ) )
+            return false;
+}{
+        result = prime * result
+                + ((field_53_dttmPropRMark == null) ? 0 : field_53_dttmPropRMark.hashCode());
+}}

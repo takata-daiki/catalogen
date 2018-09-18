@@ -1,4 +1,7 @@
-    /**/private static BitField fPagResults = new BitField(0x08);
-{        field_6_docinfo1 = (byte)fPagResults.setBoolean(field_6_docinfo1, value);
-}{        return fPagResults.isSet(field_6_docinfo1);
-}
+public void wrapperMethod() {
+    /**/private static BitField fRMView = new BitField(0x08);
+{
+        field_7_docinfo2 = (byte)fRMView.setBoolean(field_7_docinfo2, value);
+}{
+        return fRMView.isSet(field_7_docinfo2);
+}}

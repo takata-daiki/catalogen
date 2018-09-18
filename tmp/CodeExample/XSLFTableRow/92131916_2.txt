@@ -1,6 +1,8 @@
+public void wrapperMethod() {
             XSLFTableRow row = table.addRow();
             XSLFTableCell nCell = row.addCell();
             XSLFTableCell cityCell = row.addCell();
             XSLFTableCell netCell = row.addCell();
             XSLFTableCell addressCell = row.addCell();
             row.setHeight(11);
+}

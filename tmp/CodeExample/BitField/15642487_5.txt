@@ -1,4 +1,9 @@
-    static final private BitField fittopage           =
-{        field_2_wsbool = fittopage.setByteBoolean(field_2_wsbool, fit2page);
-}{        return fittopage.isSet(field_2_wsbool);
-}
+public void wrapperMethod() {
+    static final private BitField alternateexpression =   // whether to use alternate expression eval
+        BitFieldFactory.getInstance(0x40);
+{
+        field_2_wsbool = alternateexpression.setByteBoolean(field_2_wsbool,
+                altexp);
+}{
+        return alternateexpression.isSet(field_2_wsbool);
+}}

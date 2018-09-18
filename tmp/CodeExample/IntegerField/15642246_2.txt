@@ -1,4 +1,7 @@
-    private IntegerField        _next_property;
-{        return _next_property.get();
-}{        _next_property.set((child == null) ? _NO_INDEX
-}
+public void wrapperMethod() {
+    private IntegerField        _child_property;
+{
+        _child_property.set(child, _raw_data);
+}{
+        return _child_property.get();
+}}

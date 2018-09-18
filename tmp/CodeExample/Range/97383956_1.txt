@@ -1,2 +1,4 @@
+public void wrapperMethod() {
     Range r = new Range(start, start + length, this);
     r.delete();
+}

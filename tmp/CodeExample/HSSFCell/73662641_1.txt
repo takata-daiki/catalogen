@@ -1,3 +1,5 @@
+public void wrapperMethod() {
                     HSSFCell cell = xlsRow.createCell(colNum++);
                     cell.setCellValue(new HSSFRichTextString(columnHeader));
                     cell.setCellStyle(headerStyle);
+}

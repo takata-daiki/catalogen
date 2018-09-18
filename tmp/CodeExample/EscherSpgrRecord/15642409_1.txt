@@ -1,3 +1,4 @@
+public void wrapperMethod() {
         EscherSpgrRecord spgr = new EscherSpgrRecord();
         spgr.setRecordId( EscherSpgrRecord.RECORD_ID );
         spgr.setOptions( (short) 0x0001 );
@@ -5,3 +6,4 @@
         spgr.setRectY1( shape.getY1() );
         spgr.setRectX2( shape.getX2() );
         spgr.setRectY2( shape.getY2() );
+}

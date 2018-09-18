@@ -1,3 +1,5 @@
+public void wrapperMethod() {
                     XSSFPicture pic = (XSSFPicture) shape;  
                     XSSFClientAnchor anchor = pic.getPreferredSize();  
                     sheetIndexPicMap.put(picIndex, pic.getPictureData());  
+}

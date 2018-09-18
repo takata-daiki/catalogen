@@ -1,2 +1,4 @@
+public void wrapperMethod() {
         final HSSFWorkbook workbook = new HSSFWorkbook ( new FileInputStream ( fileName ) );
         final Sheet sheet = workbook.getSheetAt ( 0 );
+}

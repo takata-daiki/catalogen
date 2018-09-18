@@ -1,5 +1,12 @@
+public void wrapperMethod() {
+    @Override
     protected void visitRun( XWPFRun run, XHTMLPageContentBuffer paragraphContainer )
-{            XHTMLStyleUtil.getStyle( run, runStyle, super.getXWPFStyle( run.getParagraph().getStyle() ), defaults );
+        throws Exception
+    {
+        CTString rStyle = getRStyle( run );
+        StringBuilder htmlStyle =
+            XHTMLStyleUtil.getStyle( run, runStyle, super.getXWPFStyle( run.getParagraph().getStyle() ), defaults );
         List<CTBr> brs = run.getCTR().getBrList();
+
         List<CTText> texts = run.getCTR().getTList();
-}
+}}

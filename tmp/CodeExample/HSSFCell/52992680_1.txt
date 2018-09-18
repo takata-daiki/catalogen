@@ -1,6 +1,13 @@
     protected Object getCellString(HSSFCell cell) {
-{            int cellType = cell.getCellType();
-{                result = cell.getRichStringCellValue().getString();
+        Object result = null;
+{
+            int cellType = cell.getCellType();
+{
+            case HSSFCell.CELL_TYPE_STRING:
+                result = cell.getRichStringCellValue().getString();
+            case HSSFCell.CELL_TYPE_NUMERIC:
                 result = cell.getNumericCellValue();
+            case HSSFCell.CELL_TYPE_FORMULA:
+            case HSSFCell.CELL_TYPE_BOOLEAN:
                 result = cell.getBooleanCellValue();
-}}
+}}}

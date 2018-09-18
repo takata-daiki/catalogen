@@ -1,6 +1,10 @@
   public static String cellToString(HSSFCell cell) {
         int type = cell.getCellType();
-{                result = cell.getNumericCellValue();
+{
+            case HSSFCell.CELL_TYPE_NUMERIC: //0
+                result = cell.getNumericCellValue();
+            case HSSFCell.CELL_TYPE_STRING: //1
                 result = cell.getStringCellValue();
+            case HSSFCell.CELL_TYPE_BOOLEAN: //4
                 result = cell.getBooleanCellValue();
-}
+}}

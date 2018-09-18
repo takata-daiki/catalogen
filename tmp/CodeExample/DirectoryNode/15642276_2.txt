@@ -1,2 +1,5 @@
+public void wrapperMethod() {
                 DirectoryNode new_dir =
+                    ( DirectoryNode ) parent.createDirectory(name);
                 new_dir.setStorageClsid( property.getStorageClsid() );
+}

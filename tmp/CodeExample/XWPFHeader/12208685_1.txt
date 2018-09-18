@@ -1,2 +1,4 @@
+public void wrapperMethod() {
         XWPFHeader hdr = getXWPFHeader( headerRef );
         visitBodyElements( hdr.getBodyElements(), (ExtendedPdfPCell) pdfHeader.getTableCell() );
+}

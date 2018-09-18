@@ -1,4 +1,7 @@
-    /**/private static final BitField fBoldBi = new BitField(0x00100000);
-{        field_1_grpfChp = fBoldBi.setBoolean(field_1_grpfChp, value);
-}{        return fBoldBi.isSet(field_1_grpfChp);
-}
+public void wrapperMethod() {
+    /**/private static final BitField fWebHidden = new BitField(0x10000000);
+{
+        field_1_grpfChp = fWebHidden.setBoolean(field_1_grpfChp, value);
+}{
+        return fWebHidden.isSet(field_1_grpfChp);
+}}

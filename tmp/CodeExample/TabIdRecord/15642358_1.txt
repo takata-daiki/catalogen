@@ -1,2 +1,5 @@
-        TabIdRecord tir = ( TabIdRecord ) records.get(records.getTabpos());
-        tir.setTabIdArray(tia);
+public void wrapperMethod() {
+        TabIdRecord retval     = new TabIdRecord();
+
+        retval.setTabIdArray(tabidarray);
+}

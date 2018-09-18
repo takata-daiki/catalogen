@@ -1,4 +1,0 @@
-  public static PackagePart getCorePart(OPCPackage pack) {
-    for (PackageRelationship rel : pack.getRelationshipsByType(TKitRelationshipTypes.CORE_DOCUMENT))
-{        res.add(pack.getPart(PackagingURIHelper.createPartName(rel.getTargetURI())));
-}

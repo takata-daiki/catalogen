@@ -1,4 +1,7 @@
-    /**/private static final BitField iRes = new BitField(0x007C);
-{        field_2_bits = (short)iRes.setValue(field_2_bits, value);
-}{        return ( byte )iRes.getValue(field_2_bits);
-}
+public void wrapperMethod() {
+    /**/private static final BitField fOwnHelp = new BitField(0x0080);
+{
+        field_2_bits = (short)fOwnHelp.setBoolean(field_2_bits, value);
+}{
+        return fOwnHelp.isSet(field_2_bits);
+}}

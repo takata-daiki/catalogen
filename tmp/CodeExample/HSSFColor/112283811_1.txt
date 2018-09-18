@@ -1,3 +1,5 @@
-  private static final HSSFColor HSSF_AUTO = new HSSFColor.AUTOMATIC();
-{    if (index == HSSF_AUTO.getIndex() || color == null)
-}
+public void wrapperMethod() {
+    HSSFColor color = palette.getColor(index);
+{
+      short[] rgb = color.getTriplet();
+}}

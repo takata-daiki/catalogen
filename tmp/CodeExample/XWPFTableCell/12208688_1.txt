@@ -1,4 +1,0 @@
-    public static CTDecimalNumber getGridSpan( XWPFTableCell cell )
-{        if ( cell.getCTTc().getTcPr() != null )
-            return cell.getCTTc().getTcPr().getGridSpan();
-}

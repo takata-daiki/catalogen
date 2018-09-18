@@ -1,6 +1,0 @@
-    private NoteRecord note = null;
-{        if(note != null) note.setFlags(visible ? NoteRecord.NOTE_VISIBLE : NoteRecord.NOTE_HIDDEN);
-}{        if(note != null) note.setRow((short)row);
-}{        if(note != null) note.setColumn(col);
-}{        if(note != null) note.setAuthor(author);
-}

@@ -1,4 +1,0 @@
-      HSSFPalette palette = workbook.getCustomPalette();
-      System.out.println( "Palette: " + palette.toString() );
-{        cell.setCellValue( palette.getColor(i) == null ? "null" : palette.getColor(i).getHexString() );
-}

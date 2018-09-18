@@ -1,5 +1,9 @@
-    SlideListWithText slwt = _documentRecord.getSlideSlideListWithText();
-    SlideAtomsSet[] sas = slwt.getSlideAtomsSets();
-{      slwt.setSlideAtomsSets(sa.toArray(new SlideAtomsSet[sa.size()]));
-      slwt.setChildRecord(records.toArray(new Record[records.size()]));
+public void wrapperMethod() {
+    SlideListWithText slist = null;
+{
+      slist.setInstance(SlideListWithText.SLIDES);
+}
+    SlideAtomsSet[] sas = slist.getSlideAtomsSets();
+
+    slist.addSlidePersistAtom(sp);
 }

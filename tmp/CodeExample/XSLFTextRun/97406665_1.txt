@@ -1,2 +1,26 @@
-        for (XSLFTextRun r : _runs) {
-            out.append(r.getText());
+public void wrapperMethod() {
+        for (XSLFTextRun run : _runs){
+            int length = run.getRenderableText().length();
+
+            if (run.isBold() && run.isItalic()) {
+              style = Typeface.BOLD_ITALIC;
+            } else if (run.isItalic()) {
+              style = Typeface.ITALIC;
+            } else if (run.isBold()) {
+              style = Typeface.BOLD;
+}
+            ColorStateList color = ColorStateList.valueOf(run.getFontColor().getRGB());
+            at.setSpan(new TextAppearanceSpan(run.getFontFamily(), style, (int) run.getFontSize(),
+                color, color), startIndex, endIndex, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+            if(run.isUnderline()) {
+              at.setSpan(new UnderlineSpan(), startIndex, endIndex, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+}
+            if(run.isStrikethrough()) {
+              at.setSpan(new StrikethroughSpan(), startIndex, endIndex, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+}
+            if (run.isSuperscript()) {
+              at.setSpan(new SuperscriptSpan(), startIndex, endIndex, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+}
+            if (run.isSubscript()) {
+              at.setSpan(new SubscriptSpan(), startIndex, endIndex, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+}}}

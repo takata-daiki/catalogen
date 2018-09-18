@@ -1,4 +1,7 @@
     public static float[] computeColWidths( XWPFTable table )
-{        CTTblGrid grid = table.getCTTbl().getTblGrid();
-{            List<XWPFTableRow> rows = table.getRows();
+    {
+        XWPFTableRow firstRow = getFirstRow( table );
+        CTTblGrid grid = table.getCTTbl().getTblGrid();
+{
+            List<XWPFTableRow> rows = table.getRows();
 }}

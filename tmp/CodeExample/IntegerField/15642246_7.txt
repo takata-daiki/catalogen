@@ -1,3 +1,9 @@
-    private IntegerField        _days_2;
-{        time         = _days_2.get();
-}
+public void wrapperMethod() {
+    private IntegerField        _size;
+{
+        return _size.get();
+}{
+        return Property.isSmall(_size.get());
+}{
+        _size.set(size, _raw_data);
+}}

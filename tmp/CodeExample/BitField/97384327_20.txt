@@ -1,4 +1,7 @@
-    /**/private static final BitField fUsePgsuSettings = new BitField(0x00080000);
-{        field_1_grpfChp = fUsePgsuSettings.setBoolean(field_1_grpfChp, value);
-}{        return fUsePgsuSettings.isSet(field_1_grpfChp);
-}
+public void wrapperMethod() {
+    /**/private static final BitField fNoProof = new BitField(0x08000000);
+{
+        field_1_grpfChp = fNoProof.setBoolean(field_1_grpfChp, value);
+}{
+        return fNoProof.isSet(field_1_grpfChp);
+}}

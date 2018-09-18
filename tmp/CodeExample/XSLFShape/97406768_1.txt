@@ -1,2 +1,4 @@
-    public boolean removeShape(XSLFShape xShape) {
-        XmlObject obj = xShape.getXmlObject();
+public void wrapperMethod() {
+            XSLFShape s2 = tgtShapes.get(i);
+            s2.copy(s1);
+}

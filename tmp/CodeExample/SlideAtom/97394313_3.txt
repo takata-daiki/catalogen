@@ -1,2 +1,4 @@
+public void wrapperMethod() {
         SlideAtom sa = getSlideRecord().getSlideAtom();
-        sa.setMasterID(sheetNo);
+        return sa.getFollowMasterBackground();
+}

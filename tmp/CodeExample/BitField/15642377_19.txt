@@ -1,4 +1,9 @@
-    static final private BitField _indent_not_parent_pattern      =
-{            _indent_not_parent_pattern
-}{        return _indent_not_parent_pattern.isSet(field_5_indention_options);
-}
+public void wrapperMethod() {
+    static final private BitField _diag                     =
+        BitFieldFactory.getInstance(0xC000);
+{
+        field_7_palette_options = _diag.setShortValue(field_7_palette_options,
+                diag);
+}{
+        return _diag.getShortValue(field_7_palette_options);
+}}

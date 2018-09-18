@@ -1,7 +1,0 @@
-    private IntList    _entries;
-{{                                                      + _entries.size(), size);
-}}{        int startBlock = _entries.size();
-{{                _entries.add(index++);
-}            _entries.add(POIFSConstants.END_OF_CHAIN);
-}}{        _blocks = BATBlock.createBATBlocks(_entries.toArray(), size);
-}

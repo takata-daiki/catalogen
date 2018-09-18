@@ -1,2 +1,13 @@
-      PackagePartName sourcePartName;
-      if (sourcePartName.getURI().equals(
+  public void deletePartRecursive(PackagePartName partName) {
+    if (partName == null || !this.containPart(partName))
+      throw new IllegalArgumentException("partName");
+{{
+        PackagePartName targetPartName = PackagingURIHelper
+            .createPartName(PackagingURIHelper.resolvePartUri(
+                partName.getURI(), relationship.getTargetURI()));
+}}{
+      logger.log(POILogger.WARN, "An exception occurs while deleting part '"
+          + partName.getName()
+          + "'. Some parts may remain in the package. - "
+          + e.getMessage());
+}}

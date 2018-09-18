@@ -1,4 +1,7 @@
-    /**/private static BitField nfcFtnRef1 = new BitField(0x003c);
-{        field_24_Edn1 = (short)nfcFtnRef1.setValue(field_24_Edn1, value);
-}{        return ( byte )nfcFtnRef1.getValue(field_24_Edn1);
-}
+public void wrapperMethod() {
+    /**/private static BitField fShowBreaksInFrames = new BitField(0x00000400);
+{
+        field_33_docinfo4 = (int)fShowBreaksInFrames.setBoolean(field_33_docinfo4, value);
+}{
+        return fShowBreaksInFrames.isSet(field_33_docinfo4);
+}}

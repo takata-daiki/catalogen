@@ -1,2 +1,5 @@
+public void wrapperMethod() {
         WSBoolRecord record =
+                (WSBoolRecord) sheet.findFirstRecordBySid(WSBoolRecord.sid);
         record.setAlternateExpression(b);
+}

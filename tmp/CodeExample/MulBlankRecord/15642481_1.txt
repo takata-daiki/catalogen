@@ -1,7 +1,9 @@
+public void wrapperMethod() {
             MulBlankRecord mb = ( MulBlankRecord ) retval;
             realretval = new Record[ mb.getNumColumns() ];
             for (int k = 0; k < mb.getNumColumns(); k++)
-{                br.setColumn(( short ) (k + mb.getFirstColumn()));
+{
+                br.setColumn(( short ) (k + mb.getFirstColumn()));
                 br.setRow(mb.getRow());
                 br.setXFIndex(mb.getXFAt(k));
-}
+}}

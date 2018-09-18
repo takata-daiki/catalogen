@@ -1,7 +1,0 @@
-    private void setColumnInfoFields( ColumnInfoRecord ci, Short xfStyle, Short width, Integer level, Boolean hidden, Boolean collapsed )
-{      ci.setXFIndex(xfStyle.shortValue());
-            ci.setColumnWidth(width.shortValue());
-            ci.setOutlineLevel( level.shortValue() );
-            ci.setHidden( hidden.booleanValue() );
-            ci.setCollapsed( collapsed.booleanValue() );
-}

@@ -1,3 +1,5 @@
+public void wrapperMethod() {
     Paragraph p = (Paragraph)super.clone();
     p._props = (ParagraphProperties)_props.clone();
     p._papx = new SprmBuffer(0);
+}

@@ -1,3 +1,5 @@
+public void wrapperMethod() {
         BoundSheetRecord sheet = (BoundSheetRecord)boundsheets.get( sheetnum );
         sheet.setSheetname(sheetname);
         sheet.setSheetnameLength( (byte)sheetname.length() );
+}

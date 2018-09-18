@@ -1,4 +1,6 @@
-    protected void visitParagraphBody( XWPFParagraph paragraph, int index, T paragraphContainer )
-{        List<XWPFRun> runs = paragraph.getRuns();
-        CTPPr ppr = paragraph.getCTP().getPPr();
+    private void visitRuns( XWPFParagraph paragraph, T paragraphContainer )
+        throws Exception
+    {
+        boolean fldCharTypeParsing = false;
+        CTP ctp = paragraph.getCTP();
 }

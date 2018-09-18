@@ -1,3 +1,7 @@
+  @SuppressWarnings("unchecked")
   public void processRecord(Record record) {
+    int thisRow = -1;
     switch (record.getSid()) {
-}
+    case BoundSheetRecord.sid:
+      boundSheetRecords.add(record);
+}}

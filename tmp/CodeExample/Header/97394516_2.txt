@@ -1,6 +1,8 @@
+public void wrapperMethod() {
         Header header = new Header();
         header.wmfsize = data.length - aldus.getSize();
         header.bounds = new and.awt.Rectangle((short)aldus.left, (short)aldus.top, (short)aldus.right-(short)aldus.left, (short)aldus.bottom-(short)aldus.top);
         header.size = new and.awt.Dimension(header.bounds.width*coeff, header.bounds.height*coeff);
         header.zipsize = compressed.length;
         header.write(out);
+}

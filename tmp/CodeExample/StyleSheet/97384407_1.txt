@@ -1,3 +1,7 @@
+    protected static ParagraphProperties newParagraph_applyStyleProperties(
             StyleSheet styleSheet, PAPX papx, ParagraphProperties properties )
-{        byte[] grpprl = styleSheet.getPAPX( style );
+    {
+        if ( styleSheet == null )
+            return properties;
+        byte[] grpprl = styleSheet.getPAPX( style );
 }

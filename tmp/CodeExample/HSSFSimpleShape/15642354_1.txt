@@ -1,2 +1,7 @@
+public void wrapperMethod() {
             HSSFSimpleShape simpleShape = (HSSFSimpleShape) hssfShape;
             switch ( simpleShape.getShapeType() )
+            {
+                case HSSFSimpleShape.OBJECT_TYPE_PICTURE:
+                    shape = new PictureShape( simpleShape, shapeId );
+}}

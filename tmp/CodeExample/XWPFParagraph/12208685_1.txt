@@ -1,3 +1,8 @@
-    protected void endVisitPargraph( XWPFParagraph paragraph, IITextContainer parentContainer,
-{        CTPPr ppr = paragraph.getCTP().getPPr();
+    protected XWPFStyle getXWPFStyle( XWPFParagraph paragraph )
+    {
+        if ( paragraph == null )
+        {
+            return null;
+}
+        return getXWPFStyle( paragraph.getStyleID() );
 }

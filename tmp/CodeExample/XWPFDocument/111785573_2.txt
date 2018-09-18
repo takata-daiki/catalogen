@@ -1,3 +1,4 @@
-    private void extractTableContent(XWPFDocument doc, XHTMLContentHandler xhtml)
-{        for (CTTbl table : doc.getDocument().getBody().getTblArray()) {
-}}
+public void wrapperMethod() {
+       XWPFDocument document = (XWPFDocument) extractor.getDocument();
+       parts.add( document.getPackagePart() );
+}

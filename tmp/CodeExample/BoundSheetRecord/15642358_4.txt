@@ -1,9 +1,14 @@
+public void wrapperMethod() {
         BoundSheetRecord retval = new BoundSheetRecord();
-{                retval.setPositionOfBof(0x0);   // should be set later
+{
+            case 0 :
+                retval.setPositionOfBof(0x0);   // should be set later
                 retval.setOptionFlags(( short ) 0);
                 retval.setSheetnameLength(( byte ) 0x6);
                 retval.setCompressedUnicodeFlag(( byte ) 0);
                 retval.setSheetname("Sheet1");
+            case 1 :
                 retval.setSheetname("Sheet2");
+            case 2 :
                 retval.setSheetname("Sheet3");
-}
+}}

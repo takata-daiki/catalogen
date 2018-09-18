@@ -1,4 +1,6 @@
+public void wrapperMethod() {
                 HSSFCellStyle headerStyle = wb.createCellStyle();
                 headerStyle.setFillPattern(HSSFCellStyle.FINE_DOTS);
                 headerStyle.setFillBackgroundColor(HSSFColor.BLUE_GREY.index);
                 headerStyle.setFont(bold);
+}

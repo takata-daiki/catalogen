@@ -1,2 +1,5 @@
-        PackagePart part = getPackagePart();
-        OutputStream out = part.getOutputStream();
+public void wrapperMethod() {
+        PackagePart pic = ppt.getAllPictures().get(pictureIdx).getPackagePart();
+        PackageRelationship rel = getPackagePart().addRelationship(
+                pic.getPartName(), TargetMode.INTERNAL, blipRel.getRelationshipType());
+}

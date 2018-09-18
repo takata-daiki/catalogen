@@ -1,2 +1,5 @@
+public void wrapperMethod() {
         HSSFCellStyle cellStyle = theCell.getCellStyle();
-        HSSFFont hssfFont = cellStyle.getFont(getWorkbook());
+
+        short hssfAlignment = cellStyle.getAlignment();
+}

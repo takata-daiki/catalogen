@@ -1,2 +1,5 @@
+public void wrapperMethod() {
             EscherProperty prop = (EscherProperty) iterator.next();
-            if (prop.getPropertyNumber() == propId)
+            if (prop.getId() == propId){
+                iterator.remove();
+}}

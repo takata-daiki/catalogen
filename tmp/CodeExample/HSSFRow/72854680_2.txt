@@ -1,2 +1,5 @@
-        HSSFRow hssfRow = sheet.getRow(row);
-        HSSFCell hssfCell = hssfRow.getCell(col);
+public void wrapperMethod() {
+        HSSFRow theRow = sheet.getRow(row);
+{
+            HSSFCell theCell = theRow.getCell(col);
+}}

@@ -1,4 +1,9 @@
+public void wrapperMethod() {
             for ( XWPFTableCell c : cells )
-{                if ( c.getBodyElements().size() != 1 )
-                IBodyElement element = c.getBodyElements().get( 0 );
+            {
+                if ( c.getBodyElements().size() != 1 )
+                {
+                    return false;
 }
+                IBodyElement element = c.getBodyElements().get( 0 );
+}}

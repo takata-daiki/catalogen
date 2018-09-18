@@ -1,4 +1,10 @@
-        ColumnInfoRecord retval = new ColumnInfoRecord();
-        retval.setColumnWidth(( short ) 2275);
-        retval.setOptions(( short ) 2);
-        retval.setXFIndex(( short ) 0x0f);
+public void wrapperMethod() {
+                ColumnInfoRecord nci = ( ColumnInfoRecord ) createColInfo();
+                nci.setFirstColumn(column);
+                nci.setLastColumn(column);
+                nci.setOptions(ci.getOptions());
+                nci.setXFIndex(ci.getXFIndex());
+                nci.setFirstColumn((short)(column+1));
+                nci.setLastColumn(lastcolumn);
+                nci.setColumnWidth(ci.getColumnWidth());
+}

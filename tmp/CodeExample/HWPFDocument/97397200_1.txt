@@ -1,6 +1,8 @@
+public void wrapperMethod() {
     HWPFDocument doc = HWPFTestDataSamples.openSampleFile("WithArtShapes.doc");
     List shapes = doc.getShapesTable().getAllShapes();
     List vshapes = doc.getShapesTable().getVisibleShapes();
     doc.write(baos);
     shapes = doc.getShapesTable().getAllShapes();
     vshapes = doc.getShapesTable().getVisibleShapes();
+}

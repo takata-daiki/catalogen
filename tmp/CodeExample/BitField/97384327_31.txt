@@ -1,4 +1,7 @@
-    /**/private static final BitField fFitText = new BitField(0x20000000);
-{        field_1_grpfChp = fFitText.setBoolean(field_1_grpfChp, value);
-}{        return fFitText.isSet(field_1_grpfChp);
-}
+public void wrapperMethod() {
+    /**/private static final BitField fHighlight = new BitField(0x0020);
+{
+        field_48_Highlight = (short)fHighlight.setBoolean(field_48_Highlight, value);
+}{
+        return fHighlight.isSet(field_48_Highlight);
+}}

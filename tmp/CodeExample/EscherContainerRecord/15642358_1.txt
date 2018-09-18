@@ -1,7 +1,11 @@
+public void wrapperMethod() {
             EscherContainerRecord dggContainer = new EscherContainerRecord();
             dggContainer.setRecordId((short) 0xF000);
             dggContainer.setOptions((short) 0x000F);
+
             dggContainer.addChildRecord(dgg);
+            if (bstoreContainer != null)
                 dggContainer.addChildRecord( bstoreContainer );
             dggContainer.addChildRecord(opt);
             dggContainer.addChildRecord(splitMenuColors);
+}

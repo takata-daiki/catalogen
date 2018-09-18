@@ -1,5 +1,0 @@
-        for (EscherContainerRecord c : dgContainer.getChildContainers()) {
-            switch(c.getRecordId()){
-                    EscherContainerRecord dc = (EscherContainerRecord)c.getChild(0);
-                    spr = c.getChildById(EscherSpRecord.RECORD_ID);
-}

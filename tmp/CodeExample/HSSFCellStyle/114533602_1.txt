@@ -1,4 +1,6 @@
+public void wrapperMethod() {
       HSSFCellStyle style = wb.createCellStyle();
       style.setAlignment(HSSFCellStyle.ALIGN_CENTER);
       style.setFont(font);
       style.setFillForegroundColor(HSSFColor.GREY_50_PERCENT.index);
+}

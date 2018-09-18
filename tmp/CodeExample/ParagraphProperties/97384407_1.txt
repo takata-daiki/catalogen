@@ -1,7 +1,18 @@
+public void wrapperMethod() {
         ParagraphProperties properties = new ParagraphProperties();
         properties.setIstd( papx.getIstd() );
         if ( properties.getIlfo() != 0 && listTables != null )
-{{                lfo = listTables.getLfo( properties.getIlfo() );
-}{                        properties.getIlfo(), " that does not exists" );
-}{                        properties.getIlvl() );
-}}        if ( properties.getIlfo() > 0 )
+        {
+            LFO lfo = null;
+{
+                lfo = listTables.getLfo( properties.getIlfo() );
+}{
+                log.log( POILogger.WARN, "Paragraph refers to LFO #",
+                        properties.getIlfo(), " that does not exists" );
+}{
+                final ListLevel listLevel = listTables.getLevel( lfo.getLsid(),
+                        properties.getIlvl() );
+}}
+        if ( properties.getIlfo() > 0 )
+            return new ListEntry( papx, properties, parent );
+}

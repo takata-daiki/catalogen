@@ -1,3 +1,4 @@
-            XSLFTextParagraph p = th.addNewTextParagraph();
-            p.setTextAlign(TextAlign.CENTER);
-            XSLFTextRun r = p.addNewTextRun();
+public void wrapperMethod() {
+            XSLFTextParagraph cityCellP = cityCell.addNewTextParagraph();
+            XSLFTextRun cityCellR = cityCellP.addNewTextRun();
+}

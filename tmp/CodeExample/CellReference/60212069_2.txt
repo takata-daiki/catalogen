@@ -1,4 +1,0 @@
-    for(CellReference cellRef:areaRef.getAllReferencedCells()){
-{        HSSFCell cell = getCell(sh, cellRef.getRow(), cellRef.getCol());
-          getRow(sh, cellRef.getRow()).setZeroHeight(true);
-}      else getRow(sh, cellRef.getRow()).setZeroHeight(false);

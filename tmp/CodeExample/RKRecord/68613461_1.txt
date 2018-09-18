@@ -1,3 +1,6 @@
+public void wrapperMethod() {
+    case RKRecord.sid:
       RKRecord rkrec = (RKRecord) record;
       thisRow = rkrec.getRow();
       thisColumn = rkrec.getColumn();
+}

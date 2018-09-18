@@ -1,3 +1,4 @@
-        WindowTwoRecord windowTwo = (WindowTwoRecord) sheet.getSheet().findFirstRecordBySid(WindowTwoRecord.sid);
-        windowTwo.setSelected(sheets.size() == 1);
-        windowTwo.setPaged(sheets.size() == 1);
+public void wrapperMethod() {
+        WindowTwoRecord w2 = (WindowTwoRecord) sheet.getSheet().findFirstRecordBySid(WindowTwoRecord.sid);
+        w2.setPaged(true);
+}

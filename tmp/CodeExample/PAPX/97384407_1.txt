@@ -1,5 +1,12 @@
+public void wrapperMethod() {
+    @Internal
     static Paragraph newParagraph( Range parent, PAPX papx )
-{        properties.setIstd( papx.getIstd() );
+    {
+        HWPFDocumentCore doc = parent._doc;
+        properties.setIstd( papx.getIstd() );
+        properties = ParagraphSprmUncompressor.uncompressPAP( properties,
                 papx.getGrpprl(), 2 );
-{{{                            properties, papx.getGrpprl(), 2 );
-}}}}
+{{{
+                    properties = ParagraphSprmUncompressor.uncompressPAP(
+                            properties, papx.getGrpprl(), 2 );
+}}}}}

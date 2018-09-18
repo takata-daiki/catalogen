@@ -1,8 +1,9 @@
+public void wrapperMethod() {
         CellValue cellValue = evaluator.evaluate(cell);
         if (cellValue.getCellType() == Cell.CELL_TYPE_BOOLEAN) {
             result = cellValue.getBooleanValue();
-}        } else if (cellValue.getCellType() == Cell.CELL_TYPE_NUMERIC) {
+        } else if (cellValue.getCellType() == Cell.CELL_TYPE_NUMERIC) {
             result = cellValue.getNumberValue();
-}        } else if (cellValue.getCellType() == Cell.CELL_TYPE_STRING) {
+        } else if (cellValue.getCellType() == Cell.CELL_TYPE_STRING) {
             result = cellValue.getStringValue();   
-}
+}}

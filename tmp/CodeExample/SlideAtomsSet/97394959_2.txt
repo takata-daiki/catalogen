@@ -1,2 +1,4 @@
-        SlideAtomsSet sas = masterSets[i];
-        int sheetNo = sas.getSlidePersistAtom().getSlideIdentifier();
+public void wrapperMethod() {
+      SlideAtomsSet sas = slidesSets[i];
+      int slideIdentifier = sas.getSlidePersistAtom().getSlideIdentifier();
+}

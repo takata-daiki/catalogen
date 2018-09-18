@@ -1,3 +1,8 @@
+    protected void parse(
             POIFSFileSystem filesystem, XHTMLContentHandler xhtml)
-{{                (DirectoryEntry) filesystem.getRoot().getEntry("ObjectPool");
+            throws IOException, SAXException, TikaException {
+        HWPFDocument document = new HWPFDocument(filesystem);
+{
+            DirectoryEntry op =
+                (DirectoryEntry) filesystem.getRoot().getEntry("ObjectPool");
 }}

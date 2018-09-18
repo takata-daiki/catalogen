@@ -1,4 +1,7 @@
-    /**/private static BitField fLinkStyles = new BitField(0x40);
-{        field_5_docinfo = (byte)fLinkStyles.setBoolean(field_5_docinfo, value);
-}{        return fLinkStyles.isSet(field_5_docinfo);
-}
+public void wrapperMethod() {
+    /**/private static BitField fMirrorMargins = new BitField(0x20);
+{
+        field_6_docinfo1 = (byte)fMirrorMargins.setBoolean(field_6_docinfo1, value);
+}{
+        return fMirrorMargins.isSet(field_6_docinfo1);
+}}

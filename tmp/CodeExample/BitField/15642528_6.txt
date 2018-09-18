@@ -1,4 +1,7 @@
-    private BitField          defaultHeader           =
-{        field_1_options = defaultHeader.setShortBoolean(field_1_options, header);
-}{        return defaultHeader.isSet(field_1_options);
-}
+public void wrapperMethod() {
+    private BitField          selected                = BitFieldFactory.getInstance(0x200);
+{
+        field_1_options = selected.setShortBoolean(field_1_options, sel);
+}{
+        return selected.isSet(field_1_options);
+}}

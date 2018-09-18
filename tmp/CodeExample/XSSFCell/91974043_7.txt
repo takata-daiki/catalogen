@@ -1,3 +1,22 @@
-        XSSFCell familien_cell = dataRow.createCell(0);
-        familien_cell.setCellStyle(dataStyle);
-        familien_cell.setCellValue(new XSSFRichTextString(""
+public void wrapperMethod() {
+                XSSFCell cell1 = dataRow.createCell(j
+                    + spalten.size() * z + 2);
+                cell1.setCellStyle(dataStyle);
+{
+                  cell1.setCellValue(new XSSFRichTextString(
+                      zahlung.getMonat()));
+}{
+                      zahlung.getBetrag()));
+}{
+                      zahlung.getRechnungsinfo()));
+}{
+                      zahlung.getRechnungsnummer()));
+}{
+                      zahlung.getRechnungsdatum()));
+}{
+                      zahlung.getBezahlt_datum()));
+}{
+                      zahlung.getBar_bank()));
+}{
+                      zahlung.getKontoauszug()));
+}}

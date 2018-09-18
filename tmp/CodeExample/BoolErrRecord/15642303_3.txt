@@ -1,5 +1,11 @@
+public void wrapperMethod() {
+            case CELL_TYPE_ERROR :
                 BoolErrRecord errRec = null;
+
                 errRec.setColumn(col);
-{                    errRec.setValue(getErrorCellValue());
-}                errRec.setXFIndex(styleIndex);
+{
+                    errRec.setValue(getErrorCellValue());
+}
+                errRec.setXFIndex(styleIndex);
                 errRec.setRow(row);
+}

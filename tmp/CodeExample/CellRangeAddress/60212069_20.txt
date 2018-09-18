@@ -1,3 +1,0 @@
-  public static void paste(HSSFSheet sh, CellRangeAddress cellsRef, ExcelBuffer buffer ){
-    paste (sh, new AreaReference(new CellReference(cellsRef.getFirstRow(),  cellsRef.getFirstColumn()), 
-        new CellReference(cellsRef.getLastRow(),  cellsRef.getLastColumn())),  buffer, xlAll);

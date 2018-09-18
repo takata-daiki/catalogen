@@ -1,3 +1,4 @@
+public void wrapperMethod() {
                NoteRecord note = (NoteRecord)rec;
                if (note.getRow() == row && note.getColumn() == column){
                    TextObjectRecord txo = (TextObjectRecord)txshapes.get(new Integer(note.getShapeId()));
@@ -5,4 +6,4 @@
                    comment.setColumn(note.getColumn());
                    comment.setAuthor(note.getAuthor());
                    comment.setVisible(note.getFlags() == NoteRecord.NOTE_VISIBLE);
-}
+}}

@@ -1,3 +1,6 @@
+public void wrapperMethod() {
     XSSFWorkbook wb = new XSSFWorkbook();
     XSSFSheet dataSheet = wb.createSheet("Data");
+
     wb.write(fileOut);
+}

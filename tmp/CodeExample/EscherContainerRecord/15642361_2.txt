@@ -1,3 +1,4 @@
+public void wrapperMethod() {
         EscherContainerRecord spContainer = new EscherContainerRecord();
         spContainer.setRecordId( EscherContainerRecord.SP_CONTAINER );
         spContainer.setOptions( (short) 0x000F );
@@ -5,3 +6,4 @@
         spContainer.addChildRecord(opt);
         spContainer.addChildRecord(anchor);
         spContainer.addChildRecord(clientData);
+}

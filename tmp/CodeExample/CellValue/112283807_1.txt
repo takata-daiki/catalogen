@@ -1,5 +1,9 @@
+public void wrapperMethod() {
         CellValue cellValue = evaluator.evaluate(cell);                
         info.value=cellValue.formatAsString();
         switch(cellValue.getCellType()) {
-{            info.value=dateFormatter.format(DateUtil.getJavaDate(cellValue.getNumberValue()));
-}}
+        case Cell.CELL_TYPE_BOOLEAN:
+          info.type="boolean";
+{
+            info.value=dateFormatter.format(DateUtil.getJavaDate(cellValue.getNumberValue()));
+}}}

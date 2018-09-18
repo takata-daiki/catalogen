@@ -1,3 +1,5 @@
+public void wrapperMethod() {
     HSSFCell source = horzTitle.createCell(0);
     source.setCellStyle(headingStyle);
     source.setCellValue(new HSSFRichTextString("Resource"));
+}

@@ -1,5 +1,8 @@
+public void wrapperMethod() {
                  LabelRecord oldrec = ( LabelRecord ) rec;
+                 int            stringid =
                      workbook.addSSTString(new UnicodeString(oldrec.getValue()));
                  newrec.setRow(oldrec.getRow());
                  newrec.setColumn(oldrec.getColumn());
                  newrec.setXFIndex(oldrec.getXFIndex());
+}

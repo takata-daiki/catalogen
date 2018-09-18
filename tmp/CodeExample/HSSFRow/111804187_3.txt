@@ -1,2 +1,4 @@
+public void wrapperMethod() {
     HSSFRow row = createRow(rowNumber);
     cell = row.createCell(cellNumber);
+}

@@ -1,2 +1,4 @@
+public void wrapperMethod() {
                 UnicodeString unicode = sstRecord.getString(sst.getSSTIndex());
                 addTextCell(record, unicode.getString());
+}

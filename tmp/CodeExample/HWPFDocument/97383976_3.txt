@@ -1,3 +1,12 @@
-    protected void processDrawnObject( HWPFDocument doc,
-{        OfficeDrawing officeDrawing = doc.getOfficeDrawingsMain()
-}
+    protected void processNoteAnchor( HWPFDocument doc,
+            CharacterRun characterRun, final Element block )
+    {
+        {
+            Notes footnotes = doc.getFootnotes();
+{
+                Range footnoteRange = doc.getFootnoteRange();
+}}{
+            Notes endnotes = doc.getEndnotes();
+{
+                Range endnoteRange = doc.getEndnoteRange();
+}}}

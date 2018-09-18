@@ -1,4 +1,13 @@
-    private PlexOfCps readPLCF( byte[] tableStream, FileInformationBlock fib,
-{        int start = fib.getFieldsPlcfOffset( documentPart );
-        int length = fib.getFieldsPlcfLength( documentPart );
+public void wrapperMethod() {
+    private int savePlex( FileInformationBlock fib, FieldsDocumentPart part,
+            PlexOfCps plexOfCps, HWPFOutputStream outputStream )
+            throws IOException
+    {
+        if ( plexOfCps == null || plexOfCps.length() == 0 )
+        {
+            fib.setFieldsPlcfOffset( part, outputStream.getOffset() );
+            fib.setFieldsPlcfLength( part, 0 );
 }
+        fib.setFieldsPlcfOffset( part, start );
+        fib.setFieldsPlcfLength( part, length );
+}}

@@ -1,3 +1,6 @@
     public void setStorageClsid( ClassID clsidStorage)
-{{            clsidStorage.write( _raw_data, _storage_clsid_offset);
+    {
+        _storage_clsid = clsidStorage;
+{
+            clsidStorage.write( _raw_data, _storage_clsid_offset);
 }}

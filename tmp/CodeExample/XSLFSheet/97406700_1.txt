@@ -1,5 +1,11 @@
+public void wrapperMethod() {
     private final XSLFSheet _sheet;
-{        _shapes = _sheet.buildShapes(_shape);
-}{        List<PackagePart>  pics = _sheet.getPackagePart().getPackage()
+{
+        _shapes = _sheet.buildShapes(_shape);
+}{
+        List<PackagePart>  pics = _sheet.getPackagePart().getPackage()
+                .getPartsByName(Pattern.compile("/ppt/media/image" + (pictureIndex + 1) + ".*?"));
+
         PackageRelationship rel = _sheet.getPackagePart().addRelationship(
-}
+                pic.getPartName(), TargetMode.INTERNAL, XSLFRelation.IMAGES.getRelation());
+}}

@@ -1,3 +1,8 @@
+public void wrapperMethod() {
+    @Override
     protected void visitHeader( XWPFHeader header, CTHdrFtrRef headerRef, CTSectPr sectPr, StylableMasterPage masterPage )
-{        List<IBodyElement> bodyElements = header.getBodyElements();
-}
+        throws Exception
+    {
+        StylableHeaderFooter pdfHeader = new StylableHeaderFooter( pdfDocument, true );
+        List<IBodyElement> bodyElements = header.getBodyElements();
+}}

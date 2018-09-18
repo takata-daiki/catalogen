@@ -1,2 +1,4 @@
+public void wrapperMethod() {
        HSSFPalette pallette = wb.getCustomPalette();
        return pallette.getColor( getColor() );
+}

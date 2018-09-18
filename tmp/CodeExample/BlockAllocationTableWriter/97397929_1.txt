@@ -1,4 +1,11 @@
+public void wrapperMethod() {
         BlockAllocationTableWriter bat        =
-{{                bmo.setStartBlock(bat.allocateSpace(block_count));
-}}        int               batStartBlock       = bat.createBlocks();
+            new BlockAllocationTableWriter(bigBlockSize);
+{{
+                bmo.setStartBlock(bat.allocateSpace(block_count));
+}}
+        int               batStartBlock       = bat.createBlocks();
+        BATBlock[]        xbat_blocks         =
             header_block_writer.setBATBlocks(bat.countBlocks(),
+                                             batStartBlock);
+}

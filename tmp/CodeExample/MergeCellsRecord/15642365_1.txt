@@ -1,8 +1,18 @@
+public void wrapperMethod() {
     protected MergeCellsRecord           merged            =     null;
-{{{                retval.numMergedRegions += retval.merged.getNumAreas();
-}}}{        if (merged == null || merged.getNumAreas() == 1027)
+{{{
+                retval.numMergedRegions += retval.merged.getNumAreas();
+}}}{
+        if (merged == null || merged.getNumAreas() == 1027)
+        {
+            merged = ( MergeCellsRecord ) createMergedCells();
+}
         merged.addArea(rowFrom, colFrom, rowTo, colTo);
-}{        if (numMergedRegions - index < merged.getNumAreas())
-{            startNumRegions = numMergedRegions - merged.getNumAreas(); 
-}}{{            startNumRegions = numMergedRegions - merged.getNumAreas();
-}}
+}{
+        if (numMergedRegions - index < merged.getNumAreas())
+{
+            pos = mergedRecords.size() - 1;
+            startNumRegions = numMergedRegions - merged.getNumAreas(); 
+}}{{
+            startNumRegions = numMergedRegions - merged.getNumAreas();
+}}}

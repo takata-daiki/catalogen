@@ -1,3 +1,4 @@
+public void wrapperMethod() {
     Pointer ptr = stream.getPointer();
     System.out.println(ind + "Stream at\t" + ptr.getOffset() +
         " - " + Integer.toHexString(ptr.getOffset()));
@@ -8,4 +9,7 @@
     System.out.println(ind + "  Length is\t" + ptr.getLength() +
         " - " + Integer.toHexString(ptr.getLength()));
     if(ptr.destinationCompressed()) {
-}    System.out.println(ind + "  Compressed is\t" + ptr.destinationCompressed());
+      int decompLen = stream._getContentsLength();
+}
+    System.out.println(ind + "  Compressed is\t" + ptr.destinationCompressed());
+}

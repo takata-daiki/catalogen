@@ -1,4 +1,9 @@
+public void wrapperMethod() {
         NameRecord rec;
-{            if (name.equals(rec.getNameText())) {
-}}        rec.setNameText(name);
+{
+            if (name.equals(rec.getNameText())) {
+                field_1_label_index = i;
+}}
+        rec.setNameText(name);
         rec.setNameTextLength((byte) name.length());
+}

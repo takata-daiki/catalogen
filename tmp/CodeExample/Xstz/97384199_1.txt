@@ -1,5 +1,9 @@
+public void wrapperMethod() {
     private Xstz _xstzEntryMcr;
-{        offset += this._xstzEntryMcr.getSize();
-}{        size += _xstzEntryMcr.getSize();
-}{        offset += _xstzEntryMcr.serialize( buffer, offset );
-}
+{
+        offset += this._xstzEntryMcr.getSize();
+}{
+        size += _xstzEntryMcr.getSize();
+}{
+        offset += _xstzEntryMcr.serialize( buffer, offset );
+}}

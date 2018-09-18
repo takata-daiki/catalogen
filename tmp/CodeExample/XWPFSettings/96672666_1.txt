@@ -1,4 +1,5 @@
-    private XWPFSettings settings;
-{{{                CTTwipsMeasure value = settings.getDefaultTabStop();
-}}}{{{                InputStream inputStream = settings.getPackagePart().getInputStream();
+public void wrapperMethod() {
+        XWPFSettings settings = getSettings();
+{{
+                InputStream inputStream = settings.getPackagePart().getInputStream();
 }}}

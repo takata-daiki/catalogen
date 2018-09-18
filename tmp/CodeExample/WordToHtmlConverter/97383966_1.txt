@@ -1,3 +1,7 @@
+public void wrapperMethod() {
         WordToHtmlConverter wordToHtmlConverter = new WordToHtmlConverter(
+                DocumentBuilderFactory.newInstance().newDocumentBuilder()
+                        .newDocument() );
         wordToHtmlConverter.processDocument( wordDocument );
         return wordToHtmlConverter.getDocument();
+}

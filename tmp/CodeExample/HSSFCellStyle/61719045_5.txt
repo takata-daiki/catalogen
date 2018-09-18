@@ -1,5 +1,5 @@
-    HSSFCellStyle cellStyleN = book.createCellStyle();
-{{        cellStyleN.setWrapText(true);
-        cellStyleN.setBorderTop(HSSFCellStyle.BORDER_MEDIUM);
-        cellStyleN.setBottomBorderColor((short)8);
-}}
+  private void putRow(HSSFCellStyle cellStyle, HSSFCellStyle cellStyleD, HSSFCellStyle cellStyleN, 
+      HSSFSheet sheet, HSSFRow row, int fila, ReportTO rpt){
+    HSSFRichTextString text;
+    cellStyle.setAlignment(HSSFCellStyle.ALIGN_RIGHT);
+}

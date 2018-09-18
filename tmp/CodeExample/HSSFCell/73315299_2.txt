@@ -1,5 +1,8 @@
+public void wrapperMethod() {
           HSSFCell cell = row.createCell(j);
           cell.setCellStyle(style2);
-{{{                cell.setCellValue(Double.parseDouble(textValue));
-}{                cell.setCellValue(textValue);
-}}}
+{{{
+                cell.setCellValue(Double.parseDouble(textValue));
+}{
+                cell.setCellValue(textValue);
+}}}}

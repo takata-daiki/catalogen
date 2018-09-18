@@ -1,4 +1,8 @@
+public void wrapperMethod() {
             XSLFPictureShape pic = pptSlide.createPicture(idx);
             double realWidth = pic.getAnchor().getWidth();
             double realHeight = pic.getAnchor().getHeight();
             pic.setAnchor(new Rectangle(leftPicturePadding + fullPictureWidthPlace * i + centerWidthPadding,
+                    titlesSumHeight + 20 + centerHeightPadding,
+                    width, height));
+}

@@ -1,4 +1,6 @@
+public void wrapperMethod() {
         MergeCellsRecord rec = new MergeCellsRecord();        
         rec.field_2_regions = new ArrayList();
-{           rec.addArea(oldRegion.row_from, oldRegion.col_from, oldRegion.row_to, oldRegion.col_to);
-}
+{
+           rec.addArea(oldRegion.row_from, oldRegion.col_from, oldRegion.row_to, oldRegion.col_to);
+}}

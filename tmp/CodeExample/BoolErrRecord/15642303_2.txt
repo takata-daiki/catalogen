@@ -1,5 +1,11 @@
+public void wrapperMethod() {
+            case CELL_TYPE_BOOLEAN :
                 BoolErrRecord boolRec = null;
+
                 boolRec.setColumn(col);
-{                    boolRec.setValue(getBooleanCellValue());
-}                boolRec.setXFIndex(styleIndex);
+{
+                    boolRec.setValue(getBooleanCellValue());
+}
+                boolRec.setXFIndex(styleIndex);
                 boolRec.setRow(row);
+}

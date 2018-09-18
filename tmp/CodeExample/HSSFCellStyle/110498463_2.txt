@@ -1,2 +1,4 @@
+public void wrapperMethod() {
     HSSFCellStyle newStyle = (HSSFCellStyle) style;
     HSSFFont font = newStyle.getFont(workbook);
+}

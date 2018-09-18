@@ -1,3 +1,4 @@
+public void wrapperMethod() {
       AreaReference ref = ExcelUtils.getReferanceNameRange(nameCUsing);
       String shName = ref.getFirstCell().getSheetName();
       int c = ref.getFirstCell().getCol();
@@ -7,3 +8,4 @@
       r = ref.getFirstCell().getRow();
       HSSFSheet ash = wb.getSheet(ref.getFirstCell().getSheetName());
       int begRow = ref.getFirstCell().getRow();
+}

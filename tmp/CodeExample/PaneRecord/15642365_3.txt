@@ -1,3 +1,0 @@
-      PaneRecord rec = (PaneRecord)findFirstRecordBySid(PaneRecord.sid);
-      return new PaneInformation(rec.getX(), rec.getY(), rec.getTopRow(),
-                             rec.getLeftColumn(), (byte)rec.getActivePane(), windowTwo.getFreezePanes());      

@@ -1,3 +1,4 @@
+public void wrapperMethod() {
         ExtendedFormatRecord retval = new ExtendedFormatRecord();
         retval.setFontIndex(( short ) 0);
         retval.setFormatIndex(( short ) 0x0);
@@ -12,3 +13,4 @@
         retval.setBottomBorderPaletteIdx(HSSFColor.BLACK.index);
         retval.setLeftBorderPaletteIdx(HSSFColor.BLACK.index);
         retval.setRightBorderPaletteIdx(HSSFColor.BLACK.index);
+}

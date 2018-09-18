@@ -1,3 +1,5 @@
+public void wrapperMethod() {
       PackageRelationshipCollection rels = part.getRelationshipsByType(relationshipType);
       if (rels.size() == 0) return null;
       return pack.getPart(PackagingURIHelper.createPartName(rels.getRelationship(0).getTargetURI()));
+}

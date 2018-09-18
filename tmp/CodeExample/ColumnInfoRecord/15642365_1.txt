@@ -1,5 +1,10 @@
+public void wrapperMethod() {
         ColumnInfoRecord ci     = null;
-{{                if ((ci.getFirstColumn() <= column)
+{{
+                if ((ci.getFirstColumn() <= column)
                         && (column <= ci.getLastColumn()))
-}}{            retval = ci.getColumnWidth();
-}
+                {
+                    break;
+}}}{
+            retval = ci.getHidden();
+}}

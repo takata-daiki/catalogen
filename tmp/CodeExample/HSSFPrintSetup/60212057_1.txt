@@ -1,5 +1,0 @@
-    HSSFPrintSetup ps = sh.getPrintSetup();
-    float[]sizePage = ExcelUtils.PrintPagesFormat.get(ps.getPaperSize());
-    if (ps.getLandscape()) baseSizePage = sizePage[0];
-    float scale = ps.getScale() / 100;
-    double len = baseSizePage -(((ps.getFooterMargin()+ps.getHeaderMargin())*ExcelUtils.Factotr_MM_Inches)+50);

@@ -1,3 +1,5 @@
-      XSSFCell nrCell = headerRow.createCell(0);
-      nrCell.setCellStyle(headerStyle);
-      nrCell.setCellValue("Nr");
+public void wrapperMethod() {
+          XSSFCell headerCell1 = headerRow.createCell(count);
+          headerCell1.setCellStyle(headerStyle);
+          headerCell1.setCellValue(spaltenname);
+}

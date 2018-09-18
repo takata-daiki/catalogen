@@ -1,3 +1,5 @@
   public void setLineSpacing(LineSpacingDescriptor lspd)
-{    _papx.updateSprm(SPRM_DYALINE, lspd.toInt());
+  {
+    _props.setLspd(lspd);
+    _papx.updateSprm(SPRM_DYALINE, lspd.toInt());
 }

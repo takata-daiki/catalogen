@@ -1,2 +1,4 @@
-    CellReference crFirst = new CellReference( state.currentSheet.getSheetName(), row1, col1, true, true );
+public void wrapperMethod() {
+    CellReference crLast = new CellReference( row2, col2, true, true );
     String formula = crFirst.formatAsString() + ":" + crLast.formatAsString();
+}

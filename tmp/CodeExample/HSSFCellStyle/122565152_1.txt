@@ -1,10 +1,16 @@
+public void wrapperMethod() {
         HSSFCellStyle hStyle = (HSSFCellStyle)style;
-{{{              hStyle.setBorderTop(hBorderStyle);
+{{{
+            case TOP:
+              hStyle.setBorderTop(hBorderStyle);
               hStyle.setTopBorderColor(colourIndex);
+            case LEFT:
               hStyle.setBorderLeft(hBorderStyle);
               hStyle.setLeftBorderColor(colourIndex);
+            case RIGHT:
               hStyle.setBorderRight(hBorderStyle);
               hStyle.setRightBorderColor(colourIndex);
+            case BOTTOM:
               hStyle.setBorderBottom(hBorderStyle);
               hStyle.setBottomBorderColor(colourIndex);
-}}}
+}}}}

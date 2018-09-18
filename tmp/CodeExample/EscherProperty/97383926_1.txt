@@ -1,3 +1,7 @@
-        for ( EscherProperty property : properties )
-{            totalSize += property.getPropertySize();
-}
+public void wrapperMethod() {
+    public void setEscherProperty(EscherProperty value){
+        for ( Iterator<EscherProperty> iterator =
+                      properties.iterator(); iterator.hasNext(); ) {
+            if (prop.getId() == value.getId()){
+                iterator.remove();
+}}}}

@@ -1,2 +1,4 @@
+public void wrapperMethod() {
       HSSFPalette customPalette = ((HSSFWorkbook) designer.workbook).getCustomPalette();
       HSSFColor hssfColor = customPalette.getColor(c);
+}

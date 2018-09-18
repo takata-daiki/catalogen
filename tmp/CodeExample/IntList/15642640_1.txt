@@ -1,3 +1,4 @@
-            IntList cols = (IntList) rows.get(row);
-            if (col >= cols.size())
-                return cols.get( col );
+public void wrapperMethod() {
+            IntList cols = (IntList) rows.get( row );
+            return ( col < cols.size() );
+}

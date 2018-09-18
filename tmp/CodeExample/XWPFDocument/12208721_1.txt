@@ -1,5 +1,13 @@
+public void wrapperMethod() {
     private XWPFDocument document;
-{{            defaults = document.getStyle().getDocDefaults();
-}}{        for ( POIXMLDocumentPart part : document.getRelations() )
-}{{            List<IBodyElement> bodyElement = document.getBodyElements();
-}}
+{{
+            defaults = document.getStyle().getDocDefaults();
+}}{
+        for ( POIXMLDocumentPart part : document.getRelations() )
+        {
+            if ( part.getPackageRelationship().getId().equals( blipId ) )
+            {
+                return (XWPFPictureData) part;
+}}}{{
+            List<IBodyElement> bodyElement = document.getBodyElements();
+}}}

@@ -1,2 +1,4 @@
-        EscherContainerRecord spgr = null;
-        Iterator<EscherRecord> it = spgr.getChildIterator();
+public void wrapperMethod() {
+        EscherContainerRecord spgr = (EscherContainerRecord) Shape.getEscherChild(dgContainer, EscherContainerRecord.SPGR_CONTAINER);
+        spgr.addChildRecord(shape.getSpContainer());
+}

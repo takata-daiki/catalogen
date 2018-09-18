@@ -1,4 +1,4 @@
-            final Range range )
-{        for ( int s = 0; s < range.numSections(); s++ )
-{            processSection( wordDocument, range.getSection( s ), s );
-}}
+public void wrapperMethod() {
+                Range endnoteRange = doc.getEndnoteRange();
+                int rangeStartOffset = endnoteRange.getStartOffset();
+}

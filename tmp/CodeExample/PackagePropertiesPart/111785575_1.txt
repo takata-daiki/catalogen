@@ -1,18 +1,33 @@
+public void wrapperMethod() {
         PackagePropertiesPart propsHolder = properties
+                .getUnderlyingProperties();
         addProperty(metadata, Metadata.CATEGORY, propsHolder.getCategoryProperty());
         addProperty(metadata, Metadata.CONTENT_STATUS, propsHolder
+                .getContentStatusProperty());
         addProperty(metadata, Metadata.DATE, propsHolder
+                .getCreatedProperty());
         addProperty(metadata, Metadata.CREATION_DATE, propsHolder
         addProperty(metadata, Metadata.CREATOR, propsHolder
+                .getCreatorProperty());
         addProperty(metadata, Metadata.AUTHOR, propsHolder
         addProperty(metadata, Metadata.DESCRIPTION, propsHolder
+                .getDescriptionProperty());
         addProperty(metadata, Metadata.IDENTIFIER, propsHolder
+                .getIdentifierProperty());
         addProperty(metadata, Metadata.KEYWORDS, propsHolder
+                .getKeywordsProperty());
         addProperty(metadata, Metadata.LANGUAGE, propsHolder
+                .getLanguageProperty());
         addProperty(metadata, Metadata.LAST_AUTHOR, propsHolder
+                .getLastModifiedByProperty());
         addProperty(metadata, Metadata.LAST_PRINTED, propsHolder
+                .getLastPrintedPropertyString());
         addProperty(metadata, Metadata.LAST_MODIFIED, propsHolder
+                .getModifiedProperty());
         addProperty(metadata, Metadata.REVISION_NUMBER, propsHolder
+                .getRevisionProperty());
         addProperty(metadata, Metadata.SUBJECT, propsHolder
+                .getSubjectProperty());
         addProperty(metadata, Metadata.TITLE, propsHolder.getTitleProperty());
         addProperty(metadata, Metadata.VERSION, propsHolder.getVersionProperty());
+}

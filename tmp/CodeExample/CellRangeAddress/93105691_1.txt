@@ -1,3 +1,5 @@
-                CellRangeAddress merged = getRangeIfMerged( cell,
-{                    Cell topLeft = sheet.getRow( merged.getFirstRow() ).getCell( merged.getFirstColumn() );
-}
+public void wrapperMethod() {
+            CellRangeAddress r = mergedRanges[ i ];
+            if ( r.isInRange( cell.getRowIndex(), cell.getColumnIndex() ) ) {
+                return r;
+}}

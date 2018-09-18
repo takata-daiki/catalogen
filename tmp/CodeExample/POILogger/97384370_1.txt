@@ -1,6 +1,18 @@
+public void wrapperMethod() {
     private static final POILogger logger = POILogFactory
-{{{                logger.log( POILogger.ERROR, "Unable to apply all style ",
-}}{            logger.log( POILogger.ERROR,
-}}{{{{                    logger.log( POILogger.WARN,
-}}}}{{          logger.log( POILogger.DEBUG, "Unknown CHP sprm ignored: " + sprm );
-}}
+            .getLogger( CharacterSprmUncompressor.class );
+{{{
+                logger.log( POILogger.ERROR, "Unable to apply all style ",
+                        style, " CHP SPRMs to CHP: ", exc, exc );
+}}{
+            logger.log( POILogger.ERROR,
+                    "Unable to process all direct CHP SPRMs: ", exc, exc );
+}}{{{{
+                    logger.log( POILogger.WARN,
+                            "Non-CHP SPRM returned by SprmIterator: " + sprm );
+}}}}{{
+                    "Unable to extract istd from direct CHP SPRM: ", exc, exc );
+}}{{
+      default:
+          logger.log( POILogger.DEBUG, "Unknown CHP sprm ignored: " + sprm );
+}}}

@@ -1,6 +1,13 @@
-                CharacterRun characterRun = range.getCharacterRun( c );
-                if ( characterRun.getStartOffset() < skipUntil )
-                String text = characterRun.text();
-                                characterRun.getStartOffset() );
-{{                                        characterRun.getStartOffset(), range
-}}
+    protected void processDrawnObject( HWPFDocument doc,
+            CharacterRun characterRun, Element block )
+    {
+        if ( getPicturesManager() == null )
+            return;
+        OfficeDrawing officeDrawing = doc.getOfficeDrawingsMain()
+                .getOfficeDrawingAt( characterRun.getStartOffset() );
+
+        String path = getPicturesManager()
+                .savePicture( pictureData, type,
+                        "s" + characterRun.getStartOffset() + "." + type,
+                        width, height );
+}

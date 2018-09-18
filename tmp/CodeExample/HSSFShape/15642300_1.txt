@@ -1,2 +1,4 @@
+public void wrapperMethod() {
             HSSFShape shape = (HSSFShape) iterator.next();
             count += shape.countOfAllChildren();
+}

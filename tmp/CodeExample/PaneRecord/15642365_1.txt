@@ -1,11 +1,17 @@
+public void wrapperMethod() {
         PaneRecord pane = new PaneRecord();
         pane.setX((short)colSplit);
         pane.setY((short)rowSplit);
         pane.setTopRow((short) topRow);
         pane.setLeftColumn((short) leftmostColumn);
-{            pane.setTopRow((short)0);
+{
+            pane.setTopRow((short)0);
             pane.setActivePane((short)1);
-}{            pane.setLeftColumn((short)64);
+}{
+            pane.setLeftColumn((short)64);
             pane.setActivePane((short)2);
-}{            pane.setActivePane((short)0);
-}        sel.setPane((byte)pane.getActivePane());
+}{
+            pane.setActivePane((short)0);
+}
+        sel.setPane((byte)pane.getActivePane());
+}

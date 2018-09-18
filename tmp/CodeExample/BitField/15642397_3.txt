@@ -1,6 +1,11 @@
+public void wrapperMethod() {
     private  static final BitField   richText  = BitFieldFactory.getInstance(0x8);
-{      field_2_optionflags = richText.setByte(field_2_optionflags);
-}{{        field_2_optionflags = richText.clearByte(field_2_optionflags);
-}}{      field_2_optionflags = richText.clearByte(field_2_optionflags);
-}{      return richText.isSet(getOptionFlags());
-}
+{
+      field_2_optionflags = richText.setByte(field_2_optionflags);
+}{{
+        field_2_optionflags = richText.clearByte(field_2_optionflags);
+}}{
+      field_2_optionflags = richText.clearByte(field_2_optionflags);
+}{
+      return richText.isSet(getOptionFlags());
+}}

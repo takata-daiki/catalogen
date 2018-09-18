@@ -1,2 +1,4 @@
+public void wrapperMethod() {
     CHPBinTable cbt = new CHPBinTable(header, tableStream, chpOffset, chpSize, fcMin, tpt);
     List textRuns = cbt.getTextRuns();
+}

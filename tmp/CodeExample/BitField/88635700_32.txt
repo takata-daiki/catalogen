@@ -1,4 +1,7 @@
-    /**/private static BitField fEmbedFonts = new BitField(0x80);
-{        field_7_docinfo2 = (byte)fEmbedFonts.setBoolean(field_7_docinfo2, value);
-}{        return fEmbedFonts.isSet(field_7_docinfo2);
-}
+public void wrapperMethod() {
+    /**/private static BitField oldfSwapBordersFacingPgs = new BitField(0x0800);
+{
+        field_8_docinfo3 = (short)oldfSwapBordersFacingPgs.setBoolean(field_8_docinfo3, value);
+}{
+        return oldfSwapBordersFacingPgs.isSet(field_8_docinfo3);
+}}

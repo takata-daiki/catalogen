@@ -1,17 +1,33 @@
+public void wrapperMethod() {
     private FormulaRecord formulaRecord;
-{        pos += formulaRecord.serialize(pos, data);
-}{        int size = formulaRecord.getRecordSize() + (stringRecord == null ? 0 : stringRecord.getRecordSize());
-}{        return formulaRecord.isEqual( i );
-}{        return formulaRecord.isAfter( i );
-}{        return formulaRecord.isBefore( i );
-}{        return formulaRecord.getXFIndex();
-}{        formulaRecord.setXFIndex( xf );
-}{        formulaRecord.setColumn( col );
-}{        formulaRecord.setRow( row );
-}{        return formulaRecord.getColumn();
-}{        return formulaRecord.getRow();
-}{        return formulaRecord.compareTo( o );
-}{        return formulaRecord.equals( obj );
-}{        return formulaRecord.toString();
-}{        return new FormulaRecordAggregate((FormulaRecord) this.formulaRecord.clone(), clonedString);
-}
+{
+        pos += formulaRecord.serialize(pos, data);
+}{
+        int size = formulaRecord.getRecordSize() + (stringRecord == null ? 0 : stringRecord.getRecordSize());
+}{
+        return formulaRecord.isEqual( i );
+}{
+        return formulaRecord.isAfter( i );
+}{
+        return formulaRecord.isBefore( i );
+}{
+        return formulaRecord.getXFIndex();
+}{
+        formulaRecord.setXFIndex( xf );
+}{
+        formulaRecord.setColumn( col );
+}{
+        formulaRecord.setRow( row );
+}{
+        return formulaRecord.getColumn();
+}{
+        return formulaRecord.getRow();
+}{
+        return formulaRecord.compareTo( o );
+}{
+        return formulaRecord.equals( obj );
+}{
+        return formulaRecord.toString();
+}{
+        return new FormulaRecordAggregate((FormulaRecord) this.formulaRecord.clone(), clonedString);
+}}

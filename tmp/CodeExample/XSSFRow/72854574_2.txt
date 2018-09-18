@@ -1,2 +1,7 @@
+public void wrapperMethod() {
         XSSFRow hssfRow = sheet.getRow(row);
-        XSSFCell hssfCell = hssfRow.getCell(col);
+
+        XSSFCell cell = hssfRow.getCell(col);
+{
+            cell = hssfRow.createCell(col);
+}}

@@ -1,10 +1,19 @@
+public void wrapperMethod() {
     private final MAPIMessage msg;
-{{{                headers = msg.getHeaders();
-}{                String displayFrom = msg.getDisplayFrom();
-}{                String displayTo = msg.getDisplayTo();
-}{                String displayCC = msg.getDisplayCC();
-}{                String displayBCC = msg.getDisplayBCC();
-}{                String subject = msg.getSubject();
-}{                String body = msg.getTextBody();
-}            AttachmentChunks[] attachments = msg.getAttachmentFiles();
-}}
+{{{
+                headers = msg.getHeaders();
+}{
+                String displayFrom = msg.getDisplayFrom();
+}{
+                String displayTo = msg.getDisplayTo();
+}{
+                String displayCC = msg.getDisplayCC();
+}{
+                String displayBCC = msg.getDisplayBCC();
+}{
+                String subject = msg.getSubject();
+}{
+                String body = msg.getTextBody();
+}
+            AttachmentChunks[] attachments = msg.getAttachmentFiles();
+}}}

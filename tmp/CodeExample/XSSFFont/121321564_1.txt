@@ -1,2 +1,4 @@
+public void wrapperMethod() {
         XSSFFont xssfFont = (XSSFFont) f;
         label.setForeground(awtColor(xssfFont.getXSSFColor(), java.awt.Color.BLACK));
+}

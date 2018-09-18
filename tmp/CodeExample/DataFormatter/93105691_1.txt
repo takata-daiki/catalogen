@@ -1,5 +1,5 @@
+public void wrapperMethod() {
         DataFormatter formatter = new DataFormatter( Locale.ENGLISH );
-{{{                             formatter.formatCellValue( topLeft ),
-}{{{                                log.warn( "Cannot resolve externally linked value: " + formatter.formatCellValue( cell ) );
-}{                                         formatter.formatCellValue( cell ),
-}}}}}
+{{
+                    cachedValue = formatter.formatCellValue( cell );
+}}}

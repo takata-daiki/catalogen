@@ -1,4 +1,7 @@
-    /**/private static BitField fPMHMainDoc = new BitField(0x04);
-{        field_1_formatFlags = (byte)fPMHMainDoc.setBoolean(field_1_formatFlags, value);
-}{        return fPMHMainDoc.isSet(field_1_formatFlags);
-}
+public void wrapperMethod() {
+    /**/private static BitField fpc = new BitField(0x60);
+{
+        field_1_formatFlags = (byte)fpc.setValue(field_1_formatFlags, value);
+}{
+        return ( byte )fpc.getValue(field_1_formatFlags);
+}}

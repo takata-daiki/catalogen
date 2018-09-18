@@ -1,3 +1,5 @@
-      XSSFCell headerCell0 = row.createCell(0);
-      headerCell0.setCellStyle(headerStyle);
-      headerCell0.setCellValue("Betreuerinnen ZENTRALLISTE");
+public void wrapperMethod() {
+      XSSFCell betreuerinnenCell = row1.createCell(0);
+      betreuerinnenCell.setCellStyle(headerStyle);
+      betreuerinnenCell.setCellValue("Betreuerinnen");
+}

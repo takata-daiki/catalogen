@@ -1,3 +1,0 @@
-    Chunks mainChunks = message.getMainChunks();
-    InternetAddress from = new InternetAddress(mainChunks.emailFromChunk.getValue(),
-        mainChunks.displayFromChunk.getValue());

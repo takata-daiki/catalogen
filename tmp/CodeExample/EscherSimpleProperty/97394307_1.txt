@@ -1,2 +1,4 @@
+public void wrapperMethod() {
         EscherSimpleProperty prop = (EscherSimpleProperty)getEscherProperty(opt, EscherProperties.BLIP__BLIPTODISPLAY);
         return prop == null ? 0 : prop.getPropertyValue();
+}

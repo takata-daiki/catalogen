@@ -1,3 +1,6 @@
-      XSSFCell nachnameCell = headerRow.createCell(1);
-      nachnameCell.setCellStyle(headerStyle);
-      nachnameCell.setCellValue("Nachname");
+public void wrapperMethod() {
+        XSSFCell betreuerinnen_cell = dataRow.createCell(0);
+        betreuerinnen_cell.setCellStyle(dataStyle);
+        betreuerinnen_cell.setCellValue(new XSSFRichTextString(""
+            + b.getNummer()));
+}

@@ -1,3 +1,4 @@
-        FormatRun r = (FormatRun)field_4_format_runs.get(i);
-        if (r.character == characterPos)
-        else if (r.character > characterPos)
+public void wrapperMethod() {
+            FormatRun r = (FormatRun)field_4_format_runs.get(i);
+            buffer.append("      .format_run"+i+"          = ").append(r.toString()).append("\n");
+}

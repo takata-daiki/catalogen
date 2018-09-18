@@ -1,3 +1,5 @@
+public void wrapperMethod() {
       final DocumentInputStream dis = event.getStream();
       final byte pptdata[] = new byte[dis.available()];
       dis.read(pptdata, 0, dis.available());
+}

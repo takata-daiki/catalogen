@@ -1,4 +1,4 @@
-        final Range docRange = wordDocument.getRange();
-        if ( docRange.numSections() == 1 )
-{            processSingleSection( wordDocument, docRange.getSection( 0 ) );
+public void wrapperMethod() {
+                Range footnoteRange = doc.getFootnoteRange();
+                int rangeStartOffset = footnoteRange.getStartOffset();
 }

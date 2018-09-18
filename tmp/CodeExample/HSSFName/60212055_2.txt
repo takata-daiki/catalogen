@@ -1,3 +1,0 @@
-        HSSFName nameDataBeg = ExcelUtils.getNamedRange(wb, "DataBeg");
-        String nameShData = nameDataBeg.getSheetName();
-        AreaReference areaDataBeg = new AreaReference(nameDataBeg.getRefersToFormula());

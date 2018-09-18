@@ -1,2 +1,4 @@
+public void wrapperMethod() {
            XWPFWordExtractor wde = new XWPFWordExtractor(wd);
            bodyText = wde.getText();
+}

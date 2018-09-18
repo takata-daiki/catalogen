@@ -1,5 +1,9 @@
+public void wrapperMethod() {
     private XSLFSimpleShape _parent;
-{        double shapeRotation = _parent.getRotation();
+{
+        double shapeRotation = _parent.getRotation();
         if(_parent.getFlipVertical()){
-}}{        return _parent.getAnchor();
-}
+            shapeRotation += 180;
+}}{
+        return _parent.getAnchor();
+}}

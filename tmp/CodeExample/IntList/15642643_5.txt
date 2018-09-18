@@ -1,4 +1,8 @@
-            IntList other = ( IntList ) o;
-            if (other._limit == _limit)
-{{                    rval = _array[ j ] == other._array[ j ];
-}}
+    public boolean retainAll(final IntList c)
+    {
+        boolean rval = false;
+{
+            if (!c.contains(_array[ j ]))
+            {
+                remove(j);
+}}}

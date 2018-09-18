@@ -1,3 +1,6 @@
+public void wrapperMethod() {
     public XSLFSheet importContent(XSLFSheet src){
+        _shapes = null;
         getSpTree().set(src.getSpTree());
         List<XSLFShape> srcShapes = src.getShapeList();
+}}

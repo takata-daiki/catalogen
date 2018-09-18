@@ -1,2 +1,4 @@
+public void wrapperMethod() {
     XSSFCellStyle newStyle = (XSSFCellStyle) style;
     XSSFFont font = newStyle.getFont();
+}

@@ -1,3 +1,5 @@
+public void wrapperMethod() {
         EscherComplexProperty prop = (EscherComplexProperty)getEscherProperty(opt, EscherProperties.BLIP__BLIPFILENAME);
-{{                name = new String(prop.getComplexData(), "UTF-16LE");
-}}
+{{
+                name = new String(prop.getComplexData(), "UTF-16LE");
+}}}

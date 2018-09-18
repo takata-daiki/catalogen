@@ -1,6 +1,15 @@
+public void wrapperMethod() {
         CellValue obj = evaluator.evaluate(m_cell);
+
         switch(obj.getCellType())
-{                return Boolean.valueOf(obj.getBooleanValue());
+        {
+            case org.apache.poi.hssf.usermodel.HSSFCell.CELL_TYPE_BLANK:
+                return "";
+            case org.apache.poi.hssf.usermodel.HSSFCell.CELL_TYPE_BOOLEAN:
+                return Boolean.valueOf(obj.getBooleanValue());
+            case org.apache.poi.hssf.usermodel.HSSFCell.CELL_TYPE_NUMERIC:
                 return new Double(obj.getNumberValue());
+            case org.apache.poi.hssf.usermodel.HSSFCell.CELL_TYPE_STRING:
+            default:
                 return obj.getStringValue();
-}
+}}

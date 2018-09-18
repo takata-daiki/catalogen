@@ -1,3 +1,5 @@
+public void wrapperMethod() {
     private DataFormatter formatter = new HSSFDataFormatter();
-{        return formatter.formatCellValue(cell, formulaEvaluator);
-}
+{
+        return formatter.formatCellValue(cell, formulaEvaluator);
+}}

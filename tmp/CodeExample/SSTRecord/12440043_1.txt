@@ -1,8 +1,20 @@
+public void wrapperMethod() {
     private SSTRecord sstrec;
-{{{{                            sstrec.getNumUniqueStrings() + " unique strings");
-}{{                                sstrec.getString(lrec.getSSTIndex()).getString();
-}{                                    sstrec.getString(lrec.getSSTIndex()).getString());
-}{                            String name = sstrec.getString(lrec.getSSTIndex()).getString();
-}{                            String value = sstrec.getString(lrec.getSSTIndex()).getString();
-}}}}}{{            String colHeader = sstrec.getString(lrec.getSSTIndex()).getString();
-}}
+{{{{
+                        logger.debug("file contains " + 
+                            sstrec.getNumUniqueStrings() + " unique strings");
+}{{
+                            String keywordStr = 
+                                sstrec.getString(lrec.getSSTIndex()).getString();
+}{
+                            keyword.setContext(
+                                    sstrec.getString(lrec.getSSTIndex()).getString());
+}{
+                            String name = sstrec.getString(lrec.getSSTIndex()).getString();
+}{
+                            String colHeader = 
+}{
+                            String value = sstrec.getString(lrec.getSSTIndex()).getString();
+}}}}}{{
+            String colHeader = sstrec.getString(lrec.getSSTIndex()).getString();
+}}}

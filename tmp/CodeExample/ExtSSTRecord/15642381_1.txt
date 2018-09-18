@@ -1,3 +1,5 @@
+public void wrapperMethod() {
         ExtSSTRecord extSST = new ExtSSTRecord();
         extSST.setNumStringsPerBucket((short)8);
         extSST.setBucketOffsets(absoluteOffsets, relativeOffsets);
+}

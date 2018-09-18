@@ -1,4 +1,10 @@
-    static final private BitField _shrink_to_fit                  =
-{            _shrink_to_fit.setShortBoolean(field_5_indention_options, shrink);
-}{        return _shrink_to_fit.isSet(field_5_indention_options);
-}
+public void wrapperMethod() {
+    static final private BitField _indent_not_parent_pattern      =
+        BitFieldFactory.getInstance(0x4000);
+{
+        field_5_indention_options =
+            _indent_not_parent_pattern
+                .setShortBoolean(field_5_indention_options, pattern);
+}{
+        return _indent_not_parent_pattern.isSet(field_5_indention_options);
+}}

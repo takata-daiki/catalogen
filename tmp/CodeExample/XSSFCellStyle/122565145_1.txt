@@ -1,10 +1,16 @@
+public void wrapperMethod() {
         XSSFCellStyle xStyle = (XSSFCellStyle)style;
-{{            xStyle.setBorderTop(xBorderStyle);
+{{
+          case TOP:
+            xStyle.setBorderTop(xBorderStyle);
             xStyle.setTopBorderColor(xBorderColour);
+          case LEFT:
             xStyle.setBorderLeft(xBorderStyle);
             xStyle.setLeftBorderColor(xBorderColour);
+          case RIGHT:
             xStyle.setBorderRight(xBorderStyle);
             xStyle.setRightBorderColor(xBorderColour);
+          case BOTTOM:
             xStyle.setBorderBottom(xBorderStyle);
             xStyle.setBottomBorderColor(xBorderColour);
-}}
+}}}

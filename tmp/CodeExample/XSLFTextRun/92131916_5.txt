@@ -1,3 +1,5 @@
-            XSLFTextRun cityCellR = cityCellP.addNewTextRun();
-            cityCellR.setText(cityName);
-            cityCellR.setFontSize(11);
+public void wrapperMethod() {
+            XSLFTextRun addressCellR = addressCellP.addNewTextRun();
+            addressCellR.setText(dataRow.getAddress());
+            addressCellR.setFontSize(11);
+}

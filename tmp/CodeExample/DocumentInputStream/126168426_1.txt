@@ -1,3 +1,5 @@
+public void wrapperMethod() {
         DocumentInputStream dis = null;
         final byte btoWrite[] = new byte[dis.available()];
         dis.read(btoWrite, 0, dis.available());
+}

@@ -1,4 +1,7 @@
-    /**/private static final BitField fSmallCaps = new BitField(0x00000020);
-{        field_1_grpfChp = fSmallCaps.setBoolean(field_1_grpfChp, value);
-}{        return fSmallCaps.isSet(field_1_grpfChp);
-}
+public void wrapperMethod() {
+    /**/private static final BitField fCaps = new BitField(0x00000040);
+{
+        field_1_grpfChp = fCaps.setBoolean(field_1_grpfChp, value);
+}{
+        return fCaps.isSet(field_1_grpfChp);
+}}

@@ -1,5 +1,7 @@
+public void wrapperMethod() {
         DimensionsRecord retval = new DimensionsRecord();
         retval.setFirstCol(( short ) 0);
         retval.setLastRow(1);             // one more than it is
         retval.setFirstRow(0);
         retval.setLastCol(( short ) 1);   // one more than it is
+}

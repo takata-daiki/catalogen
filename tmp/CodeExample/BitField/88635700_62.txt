@@ -1,4 +1,7 @@
-    /**/private static BitField fSupressSpdfAfterPageBreak = new BitField(0x00000004);
-{        field_33_docinfo4 = (int)fSupressSpdfAfterPageBreak.setBoolean(field_33_docinfo4, value);
-}{        return fSupressSpdfAfterPageBreak.isSet(field_33_docinfo4);
-}
+public void wrapperMethod() {
+    /**/private static BitField fVirusLoadSafe = new BitField(0x0002);
+{
+        field_43_virusinfo = (int)fVirusLoadSafe.setBoolean(field_43_virusinfo, value);
+}{
+        return fVirusLoadSafe.isSet(field_43_virusinfo);
+}}

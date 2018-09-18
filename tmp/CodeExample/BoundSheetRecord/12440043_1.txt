@@ -1,2 +1,5 @@
+public void wrapperMethod() {
                     final BoundSheetRecord bsr = (BoundSheetRecord) record;
+                    if (logger.isDebugEnabled()) 
                         logger.debug("processing sheet: "+ bsr.getSheetname());
+}

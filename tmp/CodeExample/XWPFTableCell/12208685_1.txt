@@ -1,4 +1,8 @@
+public void wrapperMethod() {
+    @Override
     protected IITextContainer startVisitTableCell( XWPFTableCell cell, IITextContainer tableContainer )
-{        XWPFTableRow row = cell.getTableRow();
+    {
+        StylableTable pdfPTable = (StylableTable) tableContainer;
+        XWPFTableRow row = cell.getTableRow();
         CTTcPr tcPr = cell.getCTTc().getTcPr();
-}
+}}

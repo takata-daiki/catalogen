@@ -1,5 +1,8 @@
+public void wrapperMethod() {
     private POIFSBigBlockSize bigBlockSize;
-{{            int max_entries_per_block = bigBlockSize.getXBATEntriesPerBlock(); 
+{{
+            int max_entries_per_block = bigBlockSize.getXBATEntriesPerBlock(); 
             int chain_index_offset    = bigBlockSize.getNextXBATChainOffset(); 
-}}{        int limit = bigBlockSize.getBATEntriesPerBlock(); 
-}
+}}{
+        int limit = bigBlockSize.getBATEntriesPerBlock(); 
+}}

@@ -1,2 +1,0 @@
-  public static void hiddenRows(HSSFSheet sh, AreaReference area, boolean hide){
-        for(int row = area.getFirstCell().getRow(); row <= area.getLastCell().getRow(); row++)

@@ -1,3 +1,8 @@
+public void wrapperMethod() {
     private static final POILogger logger = POILogFactory
-{{            logger.log( POILogger.WARN, "Table without body starting at [",
-}}
+            .getLogger( WordToHtmlConverter.class );
+{{
+            logger.log( POILogger.WARN, "Table without body starting at [",
+                    Integer.valueOf( table.getStartOffset() ), "; ",
+                    Integer.valueOf( table.getEndOffset() ), ")" );
+}}}

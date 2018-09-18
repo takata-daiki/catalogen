@@ -1,3 +1,7 @@
-    private IntegerField        _seconds_2;
-{        time         += (( long ) _seconds_2.get()) & 0x0000FFFFL;
-}
+public void wrapperMethod() {
+    private IntegerField        _start_block;
+{
+        _start_block.set(startBlock, _raw_data);
+}{
+        return _start_block.get();
+}}

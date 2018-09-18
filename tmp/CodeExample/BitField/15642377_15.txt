@@ -1,4 +1,8 @@
-    static final private BitField _indent_not_parent_format       =
-{            _indent_not_parent_format
-}{        return _indent_not_parent_format.isSet(field_5_indention_options);
-}
+public void wrapperMethod() {
+    static final private BitField _border_top    = BitFieldFactory.getInstance(0x0F00);
+{
+        field_6_border_options =
+            _border_top.setShortValue(field_6_border_options, border);
+}{
+        return _border_top.getShortValue(field_6_border_options);
+}}

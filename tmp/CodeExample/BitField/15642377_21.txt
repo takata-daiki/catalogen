@@ -1,4 +1,11 @@
-    static final private BitField _border_left   = BitFieldFactory.getInstance(0x000F);
-{            _border_left.setShortValue(field_6_border_options, border);
-}{        return _border_left.getShortValue(field_6_border_options);
-}
+public void wrapperMethod() {
+    static final private BitField _bottom_border_palette_idx =
+        BitFieldFactory.getInstance(0x00003F80);
+{
+        field_8_adtl_palette_options =
+            _bottom_border_palette_idx.setValue(field_8_adtl_palette_options,
+                                                border);
+}{
+        return ( short ) _bottom_border_palette_idx
+            .getValue(field_8_adtl_palette_options);
+}}

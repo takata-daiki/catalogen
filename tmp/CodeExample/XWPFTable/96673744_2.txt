@@ -1,2 +1,4 @@
+public void wrapperMethod() {
         XWPFTable table = row.getTable();
         AttributesImpl attributes = createClassAttribute( table.getStyleID() );
+}

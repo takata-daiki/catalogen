@@ -1,5 +1,7 @@
+public void wrapperMethod() {
             HSSFChildAnchor a = (HSSFChildAnchor) userAnchor;
             anchor.setDx1( (short) Math.min(a.getDx1(), a.getDx2()) );
             anchor.setDy1( (short) Math.min(a.getDy1(), a.getDy2()) );
             anchor.setDx2( (short) Math.max(a.getDx2(), a.getDx1()) );
             anchor.setDy2( (short) Math.max(a.getDy2(), a.getDy1()) );
+}

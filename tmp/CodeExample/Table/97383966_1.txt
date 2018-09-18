@@ -1,8 +1,18 @@
+public void wrapperMethod() {
+    protected void processTable( HWPFDocumentCore hwpfDocument, Element flow,
             Table table )
-{        final int tableRows = table.numRows();
-{            maxColumns = Math.max( maxColumns, table.getRow( r ).numCells() );
-}{            TableRow tableRow = table.getRow( r );
-{                        table.getTableLevel() );
-}}{                    Integer.valueOf( table.getStartOffset() ), "; ",
+    {
+        Element tableHeader = htmlDocumentFacade.createTableHeader();
+        final int tableRows = table.numRows();
+{
+            maxColumns = Math.max( maxColumns, table.getRow( r ).numCells() );
+}{
+            TableRow tableRow = table.getRow( r );
+{
+                processParagraphes( hwpfDocument, tableCellElement, tableCell,
+                        table.getTableLevel() );
+}}{
+            logger.log( POILogger.WARN, "Table without body starting at [",
+                    Integer.valueOf( table.getStartOffset() ), "; ",
                     Integer.valueOf( table.getEndOffset() ), ")" );
-}}
+}}}

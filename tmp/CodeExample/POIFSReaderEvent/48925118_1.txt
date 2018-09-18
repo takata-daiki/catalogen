@@ -1,6 +1,0 @@
-  public void processPOIFSReaderEvent(final POIFSReaderEvent event) {
-    if (event == null || event.getName() == null
-        || !event.getName().startsWith(PPTConstants.POWERPOINT_DOCUMENT)) {
-{                 + event.getName());
-}}{      final DocumentInputStream dis = event.getStream();
-}

@@ -1,8 +1,15 @@
+public void wrapperMethod() {
     protected final XWPFDocument document;
-{{            this.defaults = document.getStyle().getDocDefaults();
-}}{        CTSectPr sectPr = document.getDocument().getBody().getSectPr();
+{{
+            this.defaults = document.getStyle().getDocDefaults();
+}}{
+        CTSectPr sectPr = document.getDocument().getBody().getSectPr();
         List<IBodyElement> bodyElements = document.getBodyElements();
-}{        PackagePart hdrPart = document.getPartById( headerRef.getId() );
-}{        PackagePart hdrPart = document.getPartById( footerRef.getId() );
-}{            return document.getStyles().getStyle( styleID );
-}
+}{
+        PackagePart hdrPart = document.getPartById( headerRef.getId() );
+}{
+        PackagePart hdrPart = document.getPartById( footerRef.getId() );
+}{
+        else
+            return document.getStyles().getStyle( styleID );
+}}

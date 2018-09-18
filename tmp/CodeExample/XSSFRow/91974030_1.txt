@@ -1,2 +1,8 @@
-      XSSFRow row = sheet.createRow(0);
-      XSSFCell headerCell0 = row.createCell(0);
+public void wrapperMethod() {
+      XSSFRow headerRow = sheet.createRow(1);
+{{
+          XSSFCell headerCell1 = headerRow.createCell(count);
+}}
+      XSSFCell headerCell00 = headerRow.createCell(0);
+      XSSFCell headerCell1 = headerRow.createCell(1);
+}

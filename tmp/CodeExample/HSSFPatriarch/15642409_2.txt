@@ -1,5 +1,7 @@
     private void convertPatriarch( HSSFPatriarch patriarch )
-{        spgr.setRectX1( patriarch.getX1() );
+    {
+        EscherContainerRecord dgContainer = new EscherContainerRecord();
+        spgr.setRectX1( patriarch.getX1() );
         spgr.setRectY1( patriarch.getY1() );
         spgr.setRectX2( patriarch.getX2() );
         spgr.setRectY2( patriarch.getY2() );

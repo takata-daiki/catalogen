@@ -1,6 +1,8 @@
+public void wrapperMethod() {
         XSLFTextRun r1 = p1.addNewTextRun();
         r1.setText("Cost estimation");
         r1.setFontFamily("Verdana");
         r1.setFontColor(new Color(255, 0, 102));
         r1.setFontSize(32);
         r1.setBold(true);
+}

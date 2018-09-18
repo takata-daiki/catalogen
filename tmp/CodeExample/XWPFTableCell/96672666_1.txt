@@ -1,3 +1,6 @@
     public TableCellBorder getTableCellBorderWithConflicts( XWPFTableCell cell, BorderSide borderSide )
-{{            XWPFTable table = cell.getTableRow().getTable();
+    {
+        TableCellBorder border = getTableCellBorder( cell, borderSide );
+{
+            XWPFTable table = cell.getTableRow().getTable();
 }}

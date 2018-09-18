@@ -1,6 +1,13 @@
+public void wrapperMethod() {
     private BitField          optiIf       = BitFieldFactory.getInstance(0x02);
-{        return optiIf.isSet(getOptions());
-}{        field_1_options=optiIf.setByteBoolean(field_1_options,bif);
-}{        } else if (optiIf.isSet(field_1_options)) {
-}}{      if(optiIf.isSet(field_1_options)) {
-}}
+{
+        return optiIf.isSet(getOptions());
+}{
+        field_1_options=optiIf.setByteBoolean(field_1_options,bif);
+}{{
+        } else if (optiIf.isSet(field_1_options)) {
+            return toFormulaString((Workbook)null) + "(" + operands[ 0 ]             +")";
+}}{
+      if(optiIf.isSet(field_1_options)) {
+        return "IF";
+}}}

@@ -1,4 +1,7 @@
-    /**/private static final BitField iSize = new BitField(0x0400);
-{        field_2_bits = (short)iSize.setBoolean(field_2_bits, value);
-}{        return iSize.isSet(field_2_bits);
-}
+public void wrapperMethod() {
+    /**/private static final BitField fRecalc = new BitField(0x4000);
+{
+        field_2_bits = (short)fRecalc.setBoolean(field_2_bits, value);
+}{
+        return fRecalc.isSet(field_2_bits);
+}}

@@ -1,3 +1,5 @@
+public void wrapperMethod() {
     HWPFFileSystem docSys = new HWPFFileSystem();
     HWPFOutputStream wordDocumentStream = docSys.getStream(STREAM_WORD_DOCUMENT);
     HWPFOutputStream tableStream = docSys.getStream(STREAM_TABLE_1);
+}

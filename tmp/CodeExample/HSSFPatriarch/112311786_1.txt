@@ -1,2 +1,4 @@
+public void wrapperMethod() {
     final HSSFPatriarch patr = this.getDrawingPatriarch();
     final HSSFComment comment = patr.createComment(anchor);
+}

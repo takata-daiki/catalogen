@@ -1,3 +1,6 @@
-    protected void visitTableBody( XWPFTable table, float[] colWidths, T tableContainer )
-{        List<XWPFTableRow> rows = table.getRows();
-}
+public void wrapperMethod() {
+                XWPFTable table = cell.getTableRow().getTable();
+                for ( int i = rowIndex + 1; i < table.getRows().size(); i++ )
+{
+                    row = table.getRow( i );
+}}

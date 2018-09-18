@@ -1,5 +1,7 @@
-        HSSFRow row = sheet.getRow(rowIndex);
-{          int firstCell = row.getFirstCellNum();
-            int lastCell = row.getLastCellNum();
-{              HSSFCell cell = row.getCell(cellIndex);
+public void wrapperMethod() {
+        HSSFRow hssfRow = sheet.getRow(row);
+
+        HSSFCell cell = hssfRow.getCell(col);
+{
+            cell = hssfRow.createCell(col);
 }}

@@ -1,6 +1,17 @@
+public void wrapperMethod() {
     private FibBase _fibBase;
-{        if ( _fibBase.isFEncrypted() )
-        if ( _fibBase.getNFib() < 105 )
-}{            return _fibBase.getNFib();
-}{        _fibBase.serialize( mainStream, 0 );
+{
+        if ( _fibBase.isFEncrypted() )
+        {
+            throw new EncryptedDocumentException(
+                    "Cannot process encrypted word file" );
 }
+        if ( _fibBase.getNFib() < 105 )
+{
+            _fibRgLw = new FibRgLw95( mainDocument, offset );
+}}{
+        if ( _cswNew == 0 )
+            return _fibBase.getNFib();
+}{
+        _fibBase.serialize( mainStream, 0 );
+}}

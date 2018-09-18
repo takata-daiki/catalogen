@@ -1,4 +1,7 @@
-  public static void clear(HSSFSheet sh, AreaReference aRef){
-    for(int row = aRef.getFirstCell().getRow(); row <= aRef.getLastCell().getRow(); row++){
-        for(int col = aRef.getFirstCell().getCol(); col <= aRef.getLastCell().getCol(); col++){
-}}
+  public static void paste (HSSFSheet sh, AreaReference areaRef,  ExcelBuffer buffer, byte typePaste){
+    int copyRow1 = buffer.getAreaRef().getFirstCell().getRow();
+    int pasteRow1 = areaRef.getFirstCell().getRow();
+    int pasteCol1 = areaRef.getFirstCell().getCol();
+    int pasteRow2 = areaRef.getLastCell().getRow();
+    int pasteCol2 = areaRef.getLastCell().getCol();
+}

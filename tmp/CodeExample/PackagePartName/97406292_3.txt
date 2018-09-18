@@ -1,4 +1,7 @@
   public void removePart(PackagePartName partName) {
+    throwExceptionIfReadOnly();
+
     if (partName.isRelationshipPartURI()) {
+      URI sourceURI = PackagingURIHelper
           .getSourcePartUriFromRelationshipPartUri(partName.getURI());
-}
+}}

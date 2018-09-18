@@ -1,2 +1,4 @@
+public void wrapperMethod() {
     HSSFDataFormat format = workbook.createDataFormat();
     short dateFormatCode = format.getFormat(DATE_FORMAT_AS_NUMBER_DBUNIT);
+}

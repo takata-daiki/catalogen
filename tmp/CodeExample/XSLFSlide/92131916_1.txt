@@ -1,4 +1,7 @@
-        XSLFSlide slide = ppt.createSlide();
-        XSLFTextBox txt1 = slide.createTextBox();
-        XSLFTextBox txt2 = slide.createTextBox();
-        XSLFTable table = slide.createTable();
+public void wrapperMethod() {
+        XSLFSlide pptSlide = ppt.createSlide();
+        XSLFTextBox txt1 = pptSlide.createTextBox();
+        XSLFTextBox txt2 = pptSlide.createTextBox();
+{
+            XSLFPictureShape pic = pptSlide.createPicture(idx);
+}}

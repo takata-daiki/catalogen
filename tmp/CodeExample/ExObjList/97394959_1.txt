@@ -1,3 +1,6 @@
+public void wrapperMethod() {
     ExObjList lst = (ExObjList) _documentRecord.findFirstOfType(RecordTypes.ExObjList.typeID);
+
     ExObjListAtom objAtom = lst.getExObjListAtom();
-    lst.appendChildRecord(mci);
+    lst.addChildAfter(ctrl, objAtom);
+}

@@ -1,3 +1,5 @@
+public void wrapperMethod() {
             HSSFCell cell = row.createCell(mycol);
             cell.setCellType(HSSFCell.CELL_TYPE_STRING);
             cell.setCellValue(xldata[myrow][mycol]);
+}

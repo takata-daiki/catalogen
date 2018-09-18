@@ -1,6 +1,9 @@
+public void wrapperMethod() {
                     LabelSSTRecord lrec = (LabelSSTRecord) record;
                     if(lrec.getRow() == 0) {
-}                    } else if(lrec.getColumn() == 0) { //第一列
+                        break;
+                    } else if(lrec.getColumn() == 0) { //第一列
+                        current = new ExcelData();
                         String value = sstrec.getString(lrec.getSSTIndex()).getString();
-}                    } else if(lrec.getColumn() == 1) {//第二列
-}
+                    } else if(lrec.getColumn() == 1) {//第二列
+}}

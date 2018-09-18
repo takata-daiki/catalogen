@@ -1,8 +1,7 @@
-        EscherContainerRecord spContainer = new EscherContainerRecord();
-        spContainer.setRecordId( EscherContainerRecord.SP_CONTAINER );
-        spContainer.setOptions( (short) 0x000F );
-        spContainer.addChildRecord( spgr );
-        spContainer.addChildRecord( sp );
-        spContainer.addChildRecord( opt );
-        spContainer.addChildRecord( anchor );
-        spContainer.addChildRecord( clientData );
+public void wrapperMethod() {
+        EscherContainerRecord spContainer1 = new EscherContainerRecord();
+        spContainer1.setRecordId( EscherContainerRecord.SP_CONTAINER );
+        spContainer1.setOptions( (short) 0x000F );
+        spContainer1.addChildRecord( spgr );
+        spContainer1.addChildRecord( sp1 );
+}

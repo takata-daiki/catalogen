@@ -1,8 +1,0 @@
-        CellRangeAddress cra = buffer.getSrcSheet().getMergedRegion(indexMergeRegion);
-        if (cra.getFirstRow() >= copyRow1 && cra.getLastRow() <= copyRow2 
-            && cra.getFirstColumn() >= copyCol1 && cra.getLastColumn() <= copyCol2){
-          int offsetRow = cra.getFirstRow()-copyRow1;
-          int offsetCol = cra.getFirstColumn()-copyCol1;
-          int countRowMergeRegion = cra.getLastRow()-cra.getFirstRow();
-          int countColMergeRegion = cra.getLastColumn()-cra.getFirstColumn();
-}

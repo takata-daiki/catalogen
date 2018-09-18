@@ -1,3 +1,5 @@
+public void wrapperMethod() {
             EscherRecord escherRecord = iterator.next();
             if (escherRecord.getRecordId() == recordId) {
-}
+                return escherRecord;
+}}

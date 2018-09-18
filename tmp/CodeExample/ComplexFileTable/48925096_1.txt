@@ -1,2 +1,4 @@
+public void wrapperMethod() {
     ComplexFileTable cft = new ComplexFileTable(header, tableStream, complexOffset, fcMin);
     TextPieceTable tpt = cft.getTextPieceTable();
+}

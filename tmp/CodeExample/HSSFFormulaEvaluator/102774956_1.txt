@@ -1,3 +1,5 @@
+public void wrapperMethod() {
     HSSFFormulaEvaluator evaluator = new HSSFFormulaEvaluator(wb);
-{{{{            obj = getCellValue(evaluator.evaluateInCell(cell), formatter);
-}}}}
+{{{{
+            obj = getCellValue(evaluator.evaluateInCell(cell), formatter);
+}}}}}

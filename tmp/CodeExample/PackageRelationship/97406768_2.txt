@@ -1,2 +1,6 @@
+public void wrapperMethod() {
         PackageRelationship blipRel = packagePart.getRelationship(blipId);
+
+        PackageRelationship rel = getPackagePart().addRelationship(
                 pic.getPartName(), TargetMode.INTERNAL, blipRel.getRelationshipType());
+}

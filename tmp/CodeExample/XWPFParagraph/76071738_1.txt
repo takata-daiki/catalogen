@@ -1,3 +1,5 @@
+public void wrapperMethod() {
     XWPFParagraph p1 = doc.createParagraph();
     p1.setAlignment(ParagraphAlignment.CENTER);
     XWPFRun r1 = p1.createRun();
+}

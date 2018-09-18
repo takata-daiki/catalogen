@@ -1,2 +1,7 @@
-    PackagePart masterPart = getSlideMasterPart(master);
-      SldMasterDocument.Factory.parse(masterPart.getInputStream());
+public void wrapperMethod() {
+    PackagePart slidePart = getSlidePart(parentSlide);
+{
+      notes = slidePart.getRelationshipsByType(XSLFRelation.NOTES.getRelation());
+}{
+       return slidePart.getRelatedPart(notes.getRelationship(0));
+}}

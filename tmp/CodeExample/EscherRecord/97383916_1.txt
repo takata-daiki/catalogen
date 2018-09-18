@@ -1,2 +1,4 @@
-            EscherRecord child = recordFactory.createRecord(data, offset);
-            int childBytesWritten = child.fillFields(data, offset, recordFactory);
+public void wrapperMethod() {
+            EscherRecord r = iterator.next();
+            remainingBytes += r.getRecordSize();
+}

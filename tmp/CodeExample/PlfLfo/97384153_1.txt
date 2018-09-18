@@ -1,9 +1,19 @@
+public void wrapperMethod() {
     private PlfLfo _plfLfo;
-{        _plfLfo.writeTo( fib, tableStream );
-}{        return _plfLfo.getLfo( ilfo );
-}{        return _plfLfo.getLfoData( ilfo );
-}{        return _plfLfo.getIlfoByLsid( lsid );
-}{                + ( ( _plfLfo == null ) ? 0 : _plfLfo.hashCode() );
-}{        else if ( !_plfLfo.equals( other._plfLfo ) )
-}{{            _plfLfo.add( lfo, lfoData );
-}}
+{
+        _plfLfo.writeTo( fib, tableStream );
+}{
+        return _plfLfo.getLfo( ilfo );
+}{
+        return _plfLfo.getLfoData( ilfo );
+}{
+        return _plfLfo.getIlfoByLsid( lsid );
+}{
+        result = prime * result
+                + ( ( _plfLfo == null ) ? 0 : _plfLfo.hashCode() );
+}{
+        else if ( !_plfLfo.equals( other._plfLfo ) )
+            return false;
+}{{
+            _plfLfo.add( lfo, lfoData );
+}}}

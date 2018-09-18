@@ -1,3 +1,8 @@
+public void wrapperMethod() {
       CharacterRun run = p.getCharacterRun(z);
       if (run.isBold()) {
-}      String text = run.text();
+        if (rPr == null) {
+          rPr = factory.createRPr();
+}}
+      String text = run.text();
+}

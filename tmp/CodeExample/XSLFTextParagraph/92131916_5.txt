@@ -1,2 +1,4 @@
-            XSLFTextParagraph cityCellP = cityCell.addNewTextParagraph();
-            XSLFTextRun cityCellR = cityCellP.addNewTextRun();
+public void wrapperMethod() {
+        XSLFTextParagraph p1 = txt1.addNewTextParagraph();
+        XSLFTextRun r1 = p1.addNewTextRun();
+}

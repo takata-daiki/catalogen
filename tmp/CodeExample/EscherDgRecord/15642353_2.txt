@@ -1,3 +1,5 @@
+public void wrapperMethod() {
                 EscherDgRecord dg = getDrawingGroup(drawingGroupId);
                 dg.setNumShapes( dg.getNumShapes() + 1 );
                 dg.setLastMSOSPID( result );
+}

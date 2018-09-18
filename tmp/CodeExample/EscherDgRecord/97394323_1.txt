@@ -1,7 +1,13 @@
+public void wrapperMethod() {
         EscherDgRecord dg = _container.getPPDrawing().getEscherDgRecord();
-{            if (c.getDrawingGroupId() == dg.getDrawingGroupId() && c.getNumShapeIdsUsed() != 1024)
-{                dg.setNumShapes( dg.getNumShapes() + 1 );
+{
+            if (c.getDrawingGroupId() == dg.getDrawingGroupId() && c.getNumShapeIdsUsed() != 1024)
+            {
+                int result = c.getNumShapeIdsUsed() + (1024 * (i+1));
+                dg.setNumShapes( dg.getNumShapes() + 1 );
                 dg.setLastMSOSPID( result );
-}}        dgg.addCluster( dg.getDrawingGroupId(), 0, false );
+}}
+        dgg.addCluster( dg.getDrawingGroupId(), 0, false );
         dg.setNumShapes( dg.getNumShapes() + 1 );
         dg.setLastMSOSPID( result );
+}

@@ -1,4 +1,7 @@
-    /**/private static final BitField icoFore = new BitField(0x001F);
-{        field_1_value = (short)icoFore.setValue(field_1_value, value);
-}{        return ( byte )icoFore.getValue(field_1_value);
-}
+public void wrapperMethod() {
+    /**/private static final BitField icoBack = new BitField(0x03E0);
+{
+        field_1_value = (short)icoBack.setValue(field_1_value, value);
+}{
+        return ( byte )icoBack.getValue(field_1_value);
+}}

@@ -1,2 +1,5 @@
+public void wrapperMethod() {
         WSBoolRecord record =
-        record.setAlternateFormula(b);
+                (WSBoolRecord) sheet.findFirstRecordBySid(WSBoolRecord.sid);
+        record.setRowSumsRight(b);
+}

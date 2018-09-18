@@ -1,2 +1,4 @@
+public void wrapperMethod() {
                    TextObjectRecord txo = (TextObjectRecord)txshapes.get(new Integer(note.getShapeId()));
                    comment.setString(txo.getStr());
+}

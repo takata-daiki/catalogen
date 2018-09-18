@@ -1,9 +1,12 @@
-            Element currentBlock, Range range, int currentTableLevel,
-{{            Range formulaRange = new Range( range.getCharacterRun(
+public void wrapperMethod() {
+            Range formulaRange = new Range( range.getCharacterRun(
                     beginMark + 1 ).getStartOffset(), range.getCharacterRun(
-            Range valueRange = new Range( range.getCharacterRun(
-                    separatorMark + 1 ).getStartOffset(), range
-}{            debug.append( range.getCharacterRun( i ) );
-}        Range deadFieldValueSubrage = new Range( range.getCharacterRun(
-                separatorMark ).getStartOffset() + 1, range.getCharacterRun(
+                    separatorMark - 1 ).getEndOffset(), range )
+            {
+                @Override
+                public String toString()
+                {
+                    return "Dead field formula subrange: " + super.toString();
+}}
+            String formula = formulaRange.text();
 }

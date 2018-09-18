@@ -1,2 +1,6 @@
-            Range formulaRange = new Range( range.getCharacterRun(
-            String formula = formulaRange.text();
+public void wrapperMethod() {
+        final Range docRange = wordDocument.getRange();
+        if ( docRange.numSections() == 1 )
+        {
+            processSingleSection( wordDocument, docRange.getSection( 0 ) );
+}}

@@ -1,3 +1,5 @@
+public void wrapperMethod() {
               XSSFCell cell = row.getCell(cellIndex);
               if (cell!=null && !cell.getStringCellValue().isEmpty()) {
-}
+                cells.add(new CellXSSFImpl(hssfWorkbook, cell));
+}}

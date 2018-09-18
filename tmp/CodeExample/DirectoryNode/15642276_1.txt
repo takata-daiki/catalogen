@@ -1,4 +1,10 @@
+public void wrapperMethod() {
             DirectoryNode parent   = (dir == null)
-{                    ( DirectoryNode ) parent.createDirectory(name);
-}{                parent.createDocument(document);
-}
+                                     ? (( DirectoryNode ) getRoot())
+                                     : dir;
+{
+                DirectoryNode new_dir =
+                    ( DirectoryNode ) parent.createDirectory(name);
+}{
+                parent.createDocument(document);
+}}

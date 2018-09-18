@@ -1,9 +1,17 @@
+public void wrapperMethod() {
         TableRecord record = new TableRecord();
         record.itemName = item.getName();
         record.UOMId = item.getUOMId();
-{            record.oper = "Списано";
+{
+          if (bom.getPercentage() < 0)
+            record.oper = "Списано";
+          else
             record.oper = "Произведено";
-}{          record.oper = "Списано";
-}        String key = record.itemName + " " + record.oper;
-{          if (record.oper.equals("Произведено"))
+}{
+          record.oper = "Списано";
 }
+        String key = record.itemName + " " + record.oper;
+{
+          if (record.oper.equals("Произведено"))
+            produceItems.add(record);
+}}

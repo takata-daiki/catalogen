@@ -1,3 +1,5 @@
+public void wrapperMethod() {
     private SSTRecord sstrec;
-{{{{                        String value = sstrec.getString(lrec.getSSTIndex()).getString();
-}}}}
+{{{{
+                        String value = sstrec.getString(lrec.getSSTIndex()).getString();
+}}}}}

@@ -1,5 +1,9 @@
+public void wrapperMethod() {
       IndexRecord index = new IndexRecord();
       index.setFirstRow(rows.getFirstRowNum());
       index.setLastRowAdd1(rows.getLastRowNum()+1);
-{        index.addDbcell(offset + indexRecSize + sheetRecSize + dbCellOffset + rowBlockOffset + cellBlockOffset);
-}      return index.serialize(offset, data);
+{
+        index.addDbcell(offset + indexRecSize + sheetRecSize + dbCellOffset + rowBlockOffset + cellBlockOffset);
+}
+      return index.serialize(offset, data);
+}

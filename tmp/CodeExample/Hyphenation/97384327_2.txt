@@ -1,4 +1,9 @@
+public void wrapperMethod() {
     protected Hyphenation field_40_hresiOld;
-{        else if ( !field_40_hresiOld.equals( other.field_40_hresiOld ) )
-}{                + ((field_40_hresiOld == null) ? 0 : field_40_hresiOld.hashCode());
-}
+{
+        else if ( !field_40_hresiOld.equals( other.field_40_hresiOld ) )
+            return false;
+}{
+        result = prime * result
+                + ((field_40_hresiOld == null) ? 0 : field_40_hresiOld.hashCode());
+}}

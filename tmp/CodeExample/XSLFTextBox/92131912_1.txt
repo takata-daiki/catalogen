@@ -1,3 +1,5 @@
+public void wrapperMethod() {
         XSLFTextBox txt1 = slide1.createTextBox();
         txt1.setAnchor(new java.awt.Rectangle(250, 250, 450, 200));
         XSLFTextParagraph p1 = txt1.addNewTextParagraph();
+}

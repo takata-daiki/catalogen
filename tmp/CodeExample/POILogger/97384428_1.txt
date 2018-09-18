@@ -1,3 +1,8 @@
+public void wrapperMethod() {
     private static final POILogger log = POILogFactory
-{{{                log.log( POILogger.INFO,
-}}}
+            .getLogger( Picture.class );
+{{{
+                log.log( POILogger.INFO,
+                        "Possibly corrupt compression or non-compressed data",
+                        e );
+}}}}

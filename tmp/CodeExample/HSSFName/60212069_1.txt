@@ -1,3 +1,7 @@
-    HSSFName nameRange =  wb.createName();
-    nameRange.setNameName(name);
-    nameRange.setRefersToFormula(refersToR1C1);
+public void wrapperMethod() {
+      HSSFName iName = wb.getNameAt(i);
+{
+        String iNameName = iName.getNameName();
+{
+          String iShName = iName.getSheetName();
+}}}

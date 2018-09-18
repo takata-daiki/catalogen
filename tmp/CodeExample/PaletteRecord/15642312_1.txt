@@ -1,7 +1,22 @@
+public void wrapperMethod() {
     private PaletteRecord palette;
-{{          byte[] b = palette.getColor(index);
-}}{        byte[] b = palette.getColor(PaletteRecord.FIRST_COLOR_INDEX);
+{{
+          byte[] b = palette.getColor(index);
+}}{
+        byte[] b = palette.getColor(PaletteRecord.FIRST_COLOR_INDEX);
             b = palette.getColor(++i))
-}{        palette.setColor(index, red, green, blue);
-}{        for (i = (short) PaletteRecord.FIRST_COLOR_INDEX; i < PaletteRecord.STANDARD_PALETTE_SIZE + PaletteRecord.FIRST_COLOR_INDEX; b = palette.getColor(++i))
-}
+        {
+            if (b[0] == red && b[1] == green && b[2] == blue)
+            {
+                return new CustomColor(i, b);
+}}}{{
+            int colorDistance = red - b[0] + green - b[1] + blue - b[2];
+}}{
+        palette.setColor(index, red, green, blue);
+}{
+        for (i = (short) PaletteRecord.FIRST_COLOR_INDEX; i < PaletteRecord.STANDARD_PALETTE_SIZE + PaletteRecord.FIRST_COLOR_INDEX; b = palette.getColor(++i))
+{
+            if (b == null)
+{
+                setColorAtIndex( i, red, green, blue );
+}}}}

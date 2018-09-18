@@ -1,3 +1,5 @@
-        XSSFCell cell1f = dataRow.createCell(0);
-        cell1f.setCellStyle(dataStyle);
-        cell1f.setCellValue(new XSSFRichTextString(f.getAufgehort()));
+public void wrapperMethod() {
+        XSSFCell cell0 = dataRow.createCell(1);
+        cell0.setCellStyle(dataStyle);
+        cell0.setCellValue(new XSSFRichTextString(f.getNummer()+" "+f.getNachname_patient()));
+}

@@ -1,2 +1,4 @@
+public void wrapperMethod() {
             HSSFPalette palette = ((HSSFWorkbook) book).getCustomPalette();
             colorIndex = palette.findSimilarColor(color.getRed(), color.getGreen(), color.getBlue()).getIndex();
+}

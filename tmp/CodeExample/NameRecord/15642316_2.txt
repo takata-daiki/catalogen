@@ -1,3 +1,4 @@
-        NameRecord r = null;
-{            int indexToSheet = r.getEqualsToIndexToSheet() -1;
+public void wrapperMethod() {
+    NameRecord name = workbook.getSpecificBuiltinRecord(NameRecord.BUILTIN_PRINT_AREA, sheetIndex+1);
+    return name.getAreaReference(workbook);
 }

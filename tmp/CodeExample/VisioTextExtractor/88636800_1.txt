@@ -1,3 +1,5 @@
+public void wrapperMethod() {
     VisioTextExtractor extractor;
     assertNotNull(extractor.getAllText());
     assertEquals(defTextChunks, extractor.getAllText().length);
+}

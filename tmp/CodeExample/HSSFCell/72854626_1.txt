@@ -1,3 +1,5 @@
+public void wrapperMethod() {
         HSSFCell hssfCell = hssfRow.getCell(setCellValue.getCol());
-{{                hssfCell.setCellValue(new HSSFRichTextString(setCellValue.getNewValue().toString()));
-}}
+{{
+                hssfCell.setCellValue(new HSSFRichTextString(setCellValue.getNewValue().toString()));
+}}}

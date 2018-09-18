@@ -1,5 +1,4 @@
-    public ColumnInfoRecord writeHidden( ColumnInfoRecord columnInfo, int idx, boolean hidden )
-{        int level = columnInfo.getOutlineLevel();
-{            columnInfo.setHidden( hidden );
-{                if (columnInfo.getLastColumn() + 1 == nextColumnInfo.getFirstColumn())
-}}}
+public void wrapperMethod() {
+        ColumnInfoRecord columnInfo = (ColumnInfoRecord) records.get( findStartOfColumnOutlineGroup( idx ) );
+        setColumn( (short) ( columnInfo.getLastColumn() + 1 ), null, null, null, null, Boolean.TRUE);
+}

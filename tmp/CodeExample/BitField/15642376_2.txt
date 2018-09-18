@@ -1,4 +1,8 @@
-    static final private BitField iconic   =
-{        field_5_options = iconic.setShortBoolean(field_5_options, isiconic);
-}{        return iconic.isSet(field_5_options);
-}
+public void wrapperMethod() {
+    static final private BitField hscroll  =
+        BitFieldFactory.getInstance(0x08);                                        // display horizontal scrollbar
+{
+        field_5_options = hscroll.setShortBoolean(field_5_options, scroll);
+}{
+        return hscroll.isSet(field_5_options);
+}}

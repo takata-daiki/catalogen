@@ -1,2 +1,4 @@
+public void wrapperMethod() {
         EscherSpRecord spRecord = _escherContainer.getChildById(EscherSpRecord.RECORD_ID);
         spRecord.setOptions((short)((ShapeTypes.PictureFrame << 4) | 0x2));
+}
