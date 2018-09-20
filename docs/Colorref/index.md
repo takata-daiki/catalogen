@@ -4,11 +4,11 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> test that we get the same value as excel and , for 
 {% highlight java %}
-44. protected Colorref field_1_cvFore;
-63.     field_1_cvFore.serialize( data, 0x0 + offset );
-107.     result = prime * result + field_1_cvFore.hashCode();
+45. protected Colorref field_2_cvBack;
+64.     field_2_cvBack.serialize( data, 0x4 + offset );
+108.     result = prime * result + field_2_cvBack.hashCode();
 {% endhighlight %}
 
 ***

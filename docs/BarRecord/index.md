@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> set the style ' s field for the 8 record . 
 {% highlight java %}
 159. BarRecord rec = new BarRecord();
 161. rec.field_1_barSpace = field_1_barSpace;

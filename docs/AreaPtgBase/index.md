@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> sets the line compound style @ param style the style of the paragraph 
 {% highlight java %}
 109. AreaPtgBase areaPtgBase = (AreaPtgBase) ptg;
 111. if (areaPtgBase.isFirstRowRelative() && areaPtgBase.getFirstRow() > oldCell.getRowIndex()) {

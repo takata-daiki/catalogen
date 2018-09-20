@@ -3,11 +3,11 @@
 ***
 
 ## [Cluster 1](./1)
-7 results
-> code comments is here.
+1 results
+> change } and from a new only should be called on the document . 
 {% highlight java %}
-229. public XSLFSlide importContent(XSLFSheet src){
-239.             String relId = importBlip(blipId, src.getPackagePart());
+623. XSLFSheet master = masterSheet.getMasterSheet();
+625.     masterShape = master.getPlaceholderByType(textType);
 {% endhighlight %}
 
 ***

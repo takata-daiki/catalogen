@@ -4,24 +4,11 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> test that we get the same value as excel and , for 
 {% highlight java %}
-92. EscherDggRecord.FileIdCluster c = dgg.getFileIdClusters()[i];
-93. if (c.getDrawingGroupId() == drawingGroupId && c.getNumShapeIdsUsed() != 1024)
-95.     int result = c.getNumShapeIdsUsed() + (1024 * (i+1));
-96.     c.incrementShapeId();
-{% endhighlight %}
-
-***
-
-## [Cluster 2](./2)
-5 results
-> code comments is here.
-{% highlight java %}
-106. EscherDggRecord.FileIdCluster c = dgg.getFileIdClusters()[i];
-107. if (c.getDrawingGroupId() == drawingGroupId)
-109.     if (c.getNumShapeIdsUsed() != 1024)
-112.         c.incrementShapeId();
+272. FileIdCluster f1 = (FileIdCluster) o1;
+274. if (f1.getDrawingGroupId() == f2.getDrawingGroupId())
+276. if (f1.getDrawingGroupId() < f2.getDrawingGroupId())
 {% endhighlight %}
 
 ***

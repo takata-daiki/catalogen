@@ -4,13 +4,12 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> test that we get the same value as excel and , for 
 {% highlight java %}
-83. private Xstz _xstzTextDef;
-105.         offset += this._xstzTextDef.getSize();
-167.         size += _xstzTextDef.getSize();
-192.     return _xstzTextDef.getAsJavaString();
-207.         offset += _xstzTextDef.serialize( buffer, offset );
+61. private Xstz _xstzEntryMcr;
+134.     offset += this._xstzEntryMcr.getSize();
+179.     size += _xstzEntryMcr.getSize();
+220.     offset += _xstzEntryMcr.serialize( buffer, offset );
 {% endhighlight %}
 
 ***

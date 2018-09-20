@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
 109. private PICFAndOfficeArtData _picfAndOfficeArtData;
 137.     _picf = _picfAndOfficeArtData.getPicf();

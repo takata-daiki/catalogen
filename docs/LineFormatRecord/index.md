@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> set the reserved 3 field for the axis record . 
 {% highlight java %}
 185. LineFormatRecord rec = new LineFormatRecord();
 187. rec.field_1_lineColor = field_1_lineColor;

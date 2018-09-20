@@ -4,10 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> creates the 
 {% highlight java %}
-646. BackupRecord backupRecord = workbook.getBackupRecord();
-648. backupRecord.setBackup(backupValue ? (short) 1
+1101. BackupRecord retval = new BackupRecord();
+1103. retval.setBackup(
 {% endhighlight %}
 
 ***

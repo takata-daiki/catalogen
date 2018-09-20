@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> does the be workbook . the 
 {% highlight java %}
 235. CHPAbstractType other = (CHPAbstractType) obj;
 236. if ( field_1_grpfChp != other.field_1_grpfChp )

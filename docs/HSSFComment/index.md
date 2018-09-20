@@ -3,12 +3,11 @@
 ***
 
 ## [Cluster 1](./1)
-14 results
-> code comments is here.
+1 results
+> this comment could not be generated...
 {% highlight java %}
-216. final HSSFComment comment = patr.createComment(anchor);
-219. comment.setString(new HSSFRichTextString(commentString));
-222.   comment.setAuthor(author);
+1900. HSSFComment comment = ExcelUtils.getCell(activeSheet,  i, j).getCellComment();
+1903.   HSSFRichTextString richTextString  = comment.getString();
 {% endhighlight %}
 
 ***

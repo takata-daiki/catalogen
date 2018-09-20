@@ -3,11 +3,11 @@
 ***
 
 ## [Cluster 1](./1)
-19 results
-> code comments is here.
+1 results
+> set the text for this sheet . 
 {% highlight java %}
-61. WordExtractor we = new WordExtractor(is);
-62. return we.getText();
+2404. WordExtractor we = new WordExtractor(doc);
+2407. text = we.getText();
 {% endhighlight %}
 
 ***

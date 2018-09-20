@@ -4,21 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> sets the storage class id for this property stream . this is the class id of the com object which can read and write this property stream @ param < code > true < / code > if the storage has been a valid id , or value a value 
 {% highlight java %}
-224. final ClassID cid = (ClassID) o;
-225. if (bytes.length != cid.bytes.length)
-228.     if (bytes[i] != cid.bytes[i])
-{% endhighlight %}
-
-***
-
-## [Cluster 2](./2)
-1 results
-> code comments is here.
-{% highlight java %}
-168. public static int writeToStream(final OutputStream out, final ClassID n)
-172.     n.write(b, 0);
+340. public void setStorageClsid( ClassID clsidStorage)
+346.         clsidStorage.write( _raw_data, _storage_clsid_offset);
 {% endhighlight %}
 
 ***

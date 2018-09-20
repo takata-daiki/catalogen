@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> test that we get the same value as excel and , for 
 {% highlight java %}
 168. private final HtmlDocumentFacade htmlDocumentFacade;
 193.         htmlDocumentFacade.getBody().appendChild( notes );

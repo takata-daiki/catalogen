@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> set a single paragraph of this shape to the drawing group @ param id - the new shape 
 {% highlight java %}
 64. DVRecord dvRecord = (DVRecord) r;
 65. CellRangeAddressList cellRangeAddressList = dvRecord

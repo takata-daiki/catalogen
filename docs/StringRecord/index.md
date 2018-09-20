@@ -4,12 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> main for the document , or main if the file is null ( { @ link # , } ) @ param the workbook to throws the file 
 {% highlight java %}
-211. StringRecord rec = new StringRecord();
-212. rec.field_1_string_length = this.field_1_string_length;
-213. rec.field_2_unicode_flag= this.field_2_unicode_flag;
-214. rec.field_3_string = this.field_3_string;
+193. StringRecord srec = (StringRecord) record;
+194. thisStr = srec.getString();
 {% endhighlight %}
 
 ***

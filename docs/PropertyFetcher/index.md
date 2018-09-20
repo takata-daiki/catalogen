@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> < p > the method is called by poi ' s eventing api for each file in the origin poifs . < / p > @ param @ the value to check 
 {% highlight java %}
 588. boolean fetchShapeProperty(PropertyFetcher visitor) {
 589.     boolean ok = visitor.fetch(this);

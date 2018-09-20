@@ -4,11 +4,11 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
-97. protected DefaultRowHeightRecord     defaultrowheight  =     null;
-1792.     defaultrowheight.setRowHeight(dch);
-1802.     return defaultrowheight.getRowHeight();
+164. DefaultRowHeightRecord rec = new DefaultRowHeightRecord();
+165. rec.field_1_option_flags = field_1_option_flags;
+166. rec.field_2_row_height = field_2_row_height;
 {% endhighlight %}
 
 ***

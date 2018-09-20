@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> test that we get the same value as excel and , for 
 {% highlight java %}
 57. protected POIXMLTextExtractor extractor;
 70.     return extractor.getDocument();

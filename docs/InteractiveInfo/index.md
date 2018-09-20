@@ -4,11 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this is the starting row into the bottom - right corner . 
 {% highlight java %}
-387. InteractiveInfo info = new InteractiveInfo();
-388. InteractiveInfoAtom infoAtom = info.getInteractiveInfoAtom();
-422.     info.writeOut(out);
+596. InteractiveInfo info = new InteractiveInfo();
+597. InteractiveInfoAtom infoAtom = info.getInteractiveInfoAtom();
 {% endhighlight %}
 
 ***

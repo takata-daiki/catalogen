@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> set the text for the associated lower level list items . 
 {% highlight java %}
 203. PositionDependentRecordContainer pdrc = (PositionDependentRecordContainer) _records[i];
 204. pdrc.setSheetId(thisID.intValue());

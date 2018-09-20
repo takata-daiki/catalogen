@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> set whether the text should be wrapped @ param wrapped a boolean value indicating if the text in a cell should be line - wrapped within the cell . 
 {% highlight java %}
 486. private boolean fetchCharacterProperty(CharacterPropertyFetcher fetcher){
 489.     if(_r.isSetRPr()) ok = fetcher.fetch(getRPr());

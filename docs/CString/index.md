@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> return the formula that is associated with the for this with a for of the cell that . @ return the cell 
 {% highlight java %}
 452. CString binaryTag = (CString)
 456. if(binaryTag != null) tag = binaryTag.getText();

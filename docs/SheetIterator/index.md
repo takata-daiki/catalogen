@@ -4,12 +4,11 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
-51. final XSSFReader.SheetIterator sheetIterator = mock(XSSFReader.SheetIterator.class);
-52. stub(sheetIterator.hasNext()).toReturn(true).toReturn(false);
-53. when(sheetIterator.next()).thenReturn(inputStream);
-54. when(sheetIterator.getSheetName()).thenReturn(sheetName);
+50. private void processSheets(final XSSFReader.SheetIterator sheetsData, final SheetProcessor sheetProcessor, final SharedStringsTable sharedStringsTable)
+52.     while(sheetsData.hasNext())
+54.         processNext(sheetsData.next(), sheetsData.getSheetName(), sheetProcessor, sharedStringsTable);
 {% endhighlight %}
 
 ***

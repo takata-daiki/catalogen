@@ -3,11 +3,11 @@
 ***
 
 ## [Cluster 1](./1)
-2 results
-> code comments is here.
+1 results
+> set a boolean value for the boldness to use . 
 {% highlight java %}
-139. XWPFTableRow firstRow = table.getRow( 0 );
-140. List<XWPFTableCell> tableCellsOffFirstRow = firstRow.getTableCells();
+332. protected void startVisitTableRow( XWPFTableRow row, Object tableContainer, int rowIndex, boolean headerRow )
+338.     XWPFTable table = row.getTable();
 {% endhighlight %}
 
 ***

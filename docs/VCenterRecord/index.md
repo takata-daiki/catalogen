@@ -3,11 +3,11 @@
 ***
 
 ## [Cluster 1](./1)
-3 results
-> code comments is here.
+1 results
+> this comment could not be generated...
 {% highlight java %}
-532. VCenterRecord record =
-535. record.setVCenter(value);
+544. VCenterRecord record =
+547. return record.getVCenter();
 {% endhighlight %}
 
 ***

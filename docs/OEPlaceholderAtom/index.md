@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> set the formula expression to be used on the text . 
 {% highlight java %}
 419. OEPlaceholderAtom oep = tx.getPlaceholderAtom();
 421.     placeholderId = oep.getPlaceholderId();

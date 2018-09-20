@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> @ param anchor the position of the child table 
 {% highlight java %}
 80. XSLFConnectorShape shape = new XSLFConnectorShape(sp, _sheet);
 81. shape.setAnchor(new Rectangle());

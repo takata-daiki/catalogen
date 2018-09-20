@@ -4,11 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> sets the for the specified font , the < code > null < / code > in the < code > graphics 2 d < / code > context . 
 {% highlight java %}
-914. WriteAccessRecord retval = new WriteAccessRecord();
-918.     retval.setUsername(System.getProperty("user.name"));
-924.         retval.setUsername("POI");
+2331. WriteAccessRecord waccess = getWriteAccess();
+2336. waccess.setUsername(username);
 {% endhighlight %}
 
 ***

@@ -4,10 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> creates the < code > null < / code > which holds shape data for this sheet 
 {% highlight java %}
-173. ContinueRecord clone = new ContinueRecord();
-174. clone.setData(field_1_data);
+117. ContinueRecord c2 = createContinue2();
+156. int bytesWritten3 = c2.serialize( pos, data );
 {% endhighlight %}
 
 ***

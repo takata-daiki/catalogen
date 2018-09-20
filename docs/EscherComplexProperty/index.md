@@ -4,10 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> name of the sound ( e . g . " crash " ) 
 {% highlight java %}
-132. final EscherComplexProperty escherComplexProperty = (EscherComplexProperty) o;
-134. if ( !Arrays.equals( complexData, escherComplexProperty.complexData ) ) return false;
+221. EscherComplexProperty prop = (EscherComplexProperty)getEscherProperty(opt, EscherProperties.BLIP__BLIPFILENAME);
+225.         name = new String(prop.getComplexData(), "UTF-16LE");
 {% endhighlight %}
 
 ***
