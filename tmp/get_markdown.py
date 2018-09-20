@@ -152,17 +152,22 @@ def catalog(classname, n):
     except KeyError:
         li = [sample[0][:-5]]
 
-    files = {}
+    files = []
     with open('CodeIndex/{}.json'.format(classname), 'r') as f:
         data = json.load(f)
-        for d in data['results']:
-            for x in li:
+        for x in li:
+            for d in data['results']:
                 s = x.split('_')[0]
                 if str(d['id']) == s:
-                    files[x] = d['filename']
+                    files.append([x, d['filename']])
+        # for d in data['results']:
+        #     for x in li:
+        #         s = x.split('_')[0]
+        #         if str(d['id']) == s:
+        #             files[x] = d['filename']
 
     text = '# {} @Cluster {}\n\n***\n\n'.format(classname, n + 1)
-    for k, v in files.items():
+    for k, v in files:
         with open('CodeExampleJson/{}/{}.json'.format(classname, k), 'r') as f:
             data = json.load(f)
             if not data['lines']:
@@ -173,8 +178,8 @@ def catalog(classname, n):
                 text += '{0}. {1}\n'.format(i, line.split('\n')[0])
             text += '{% endhighlight %}\n\n***\n\n'
 
-    os.makedirs('docs/{}/{}'.format(classname, n), exist_ok=True)
-    with open('docs/{}/{}/index.md'.format(classname, n), 'w') as f:
+    os.makedirs('docs/{}/{}'.format(classname, n + 1), exist_ok=True)
+    with open('docs/{}/{}/index.md'.format(classname, n + 1), 'w') as f:
         f.write(text)
 
     print(text)
