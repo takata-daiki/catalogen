@@ -3,7 +3,17 @@
 ***
 
 ## [Cluster 1](./1)
-1 results
+4 results
+> sets the 
+{% highlight java %}
+1255. XWPFPictureData pictureData = super.getPictureData( picture );
+1260.         Image img = Image.getInstance( pictureData.getData() );
+{% endhighlight %}
+
+***
+
+## [Cluster 2](./2)
+3 results
 > sets the 
 {% highlight java %}
 438. XWPFPictureData pictureData = super.getPictureData( picture );

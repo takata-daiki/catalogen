@@ -30,25 +30,14 @@ def represent():
         li = os.listdir('CodeExampleJson')
     except FileNotFoundError:
         return
-    # os.chdir('CodeExampleJson/')
-    # li = glob.glob('*')
-    li = [line for line in sorted(li)]
-    # os.chdir('../')
 
-    for name in li:
+    for name in sorted(li):
         rep_cluster_arr = []
-        # try:
-        #     os.chdir('CodeExampleJson/{}/'.format(name))
-        # except FileNotFoundError:
-        #     continue
-        #
-        # sample = glob.glob('*')
-        # # sample.sort()
-        # os.chdir('../../')
         try:
             sample = os.listdir('CodeExampleJson/{}'.format(name))
         except FileNotFoundError:
-            return
+            continue
+        # sample.sort()
         tmp = []
         for s in sample:
             with open('CodeExampleJson/{}/{}'.format(name, s), 'r') as f:
@@ -63,7 +52,7 @@ def represent():
 
         for i in range(sz + 1):
             try:
-                tmp = [s[:-5] for s in sample if i == int(df.at[(name, s[:-5]), 'cluster'])]
+                tmp = [s[:-5] for s in sample if i == int(df.at[(name, '{}.txt'.format(s[:-5])), 'cluster'])]
                 y = len(tmp)
                 for j in range(len(tmp)):
                     x = tmp[j]
@@ -102,7 +91,7 @@ def represent():
                 except FileNotFoundError:
                     z = 'this comment could not be generated...'
 
-        rep_cluster_arr.append({'id': x, 'num': y, 'comment': z})
+            rep_cluster_arr.append({'id': x, 'num': y, 'comment': z})
 
         text = '# {}\n\n***\n\n'.format(name)
         for i, dic in enumerate(rep_cluster_arr):
@@ -128,18 +117,11 @@ def represent():
 
 
 def catalog(classname, n):
-    # try:
-    #     os.chdir('CodeExampleJson/{}/'.format(classname))
-    # except FileNotFoundError:
-    #     return
-    #
-    # sample = glob.glob('*')
-    # # sample.sort()
-    # os.chdir('../../')
     try:
         sample = os.listdir('CodeExampleJson/{}'.format(classname))
     except FileNotFoundError:
         return
+    # sample.sort()
     tmp = []
     for s in sample:
         with open('CodeExampleJson/{}/{}'.format(classname, s), 'r') as f:
@@ -160,11 +142,6 @@ def catalog(classname, n):
                 s = x.split('_')[0]
                 if str(d['id']) == s:
                     files.append([x, d['filename']])
-        # for d in data['results']:
-        #     for x in li:
-        #         s = x.split('_')[0]
-        #         if str(d['id']) == s:
-        #             files[x] = d['filename']
 
     text = '# {} @Cluster {}\n\n***\n\n'.format(classname, n + 1)
     for k, v in files:

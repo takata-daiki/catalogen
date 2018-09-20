@@ -3,7 +3,18 @@
 ***
 
 ## [Cluster 1](./1)
-1 results
+6 results
+> sets all the text from the file @ throws ioexception 
+{% highlight java %}
+597. for(CellReference cellRef:areaRef.getAllReferencedCells()){
+599.     setCellValue(getCell(sh, cellRef.getRow(), cellRef.getCol()), valueFill);
+601.     HSSFCell cell = getCell(sh, cellRef.getRow(), cellRef.getCol());
+{% endhighlight %}
+
+***
+
+## [Cluster 2](./2)
+18 results
 > creates an empty workbook object with the specified sheet . 
 {% highlight java %}
 35. CellReference firstCellReference = areaReference.getFirstCell();

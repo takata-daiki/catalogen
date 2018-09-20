@@ -3,11 +3,22 @@
 ***
 
 ## [Cluster 1](./1)
-1 results
-> this comment could not be generated...
+21 results
+> sets the 
 {% highlight java %}
-1366. AreaReference area2 = new AreaReference(cell.getCellFormula());
-1368. CellRangeAddress cra2 = ExcelUtils.mergeArea(sh, area2.getAllReferencedCells()[0]);
+96. AreaReference paramCellAreaRef = new AreaReference(paramCellName.getRefersToFormula());
+97. CellReference paramCellAreaRefFirstCell = paramCellAreaRef.getFirstCell();
+{% endhighlight %}
+
+***
+
+## [Cluster 2](./2)
+9 results
+> sets the content types of the file ( s ) to input , and returns the result @ param sheet the sheet to look up @ param color the starting offset into the byte array @ param value the short ( 1 6 - bit ) value 
+{% highlight java %}
+321. public static void clear(HSSFSheet sh, AreaReference aRef){
+322.   for(int row = aRef.getFirstCell().getRow(); row <= aRef.getLastCell().getRow(); row++){
+325.       for(int col = aRef.getFirstCell().getCol(); col <= aRef.getLastCell().getCol(); col++){
 {% endhighlight %}
 
 ***

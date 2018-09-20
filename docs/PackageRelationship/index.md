@@ -3,11 +3,27 @@
 ***
 
 ## [Cluster 1](./1)
-1 results
-> this comment could not be generated...
+5 results
+> add comments to the list of ) and ( ) on all sheets from the existing workbook . 
 {% highlight java %}
-582. public PackagePart getPart(PackageRelationship partRel) {
-586.     if (rel.getRelationshipType().equals(partRel.getRelationshipType())) {
+101. for(PackageRelationship rel : rels) {
+103.    if( rel.getRelationshipType().equals(RELATION_AUDIO) ||
+104.        rel.getRelationshipType().equals(RELATION_IMAGE) ||
+105.        rel.getRelationshipType().equals(RELATION_OLE_OBJECT) ||
+106.        rel.getRelationshipType().equals(RELATION_PACKAGE) ) {
+107.       if(rel.getTargetMode() == TargetMode.INTERNAL) {
+110.             relName = PackagingURIHelper.createPartName(rel.getTargetURI());
+114.          PackagePart relPart = rel.getPackage().getPart(relName);
+{% endhighlight %}
+
+***
+
+## [Cluster 2](./2)
+9 results
+> when the specified sheet is is the sheet which is true and the 2 are current ( < b > false < / i > ) . 
+{% highlight java %}
+536. PackageRelationship blipRel = packagePart.getRelationship(blipId);
+550.         pic.getPartName(), TargetMode.INTERNAL, blipRel.getRelationshipType());
 {% endhighlight %}
 
 ***
