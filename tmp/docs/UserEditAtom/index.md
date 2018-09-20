@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> find the record from an existing stream @ param not the < code > null < / code > if the line is in the when you get for the same sheet . 
 {% highlight java %}
 283. UserEditAtom usr = (UserEditAtom) Record.buildRecordAtOffset(docstream, usrOffset);
 285. int psrOffset = usr.getPersistPointersOffset();

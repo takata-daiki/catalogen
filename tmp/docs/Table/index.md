@@ -3,12 +3,11 @@
 ***
 
 ## [Cluster 1](./1)
-5 results
-> code comments is here.
+1 results
+> set the contents of the record string , i . e . the code from the . 
 {% highlight java %}
-115. Table t = s.getTable(p);
-118. log.info("Found " + t.numRows() + "x" + cl
-126. y += t.numParagraphs() - 1;
+1074. Table table = range.getTable( paragraph );
+1077. p += table.numParagraphs();
 {% endhighlight %}
 
 ***

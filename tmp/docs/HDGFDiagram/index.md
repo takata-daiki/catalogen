@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> < p > tests the bytes from the stream . < / p > 
 {% highlight java %}
 43. HDGFDiagram hdgf = new HDGFDiagram(
 49.     hdgf.getDocumentSize() + "   (" +

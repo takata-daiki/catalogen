@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> set the type of underlining for the font 
 {% highlight java %}
 1704. UseSelFSRecord retval = new UseSelFSRecord();
 1706. retval.setFlag(( short ) 0);

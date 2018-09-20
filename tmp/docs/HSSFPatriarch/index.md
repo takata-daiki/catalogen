@@ -3,11 +3,11 @@
 ***
 
 ## [Cluster 1](./1)
-3 results
-> code comments is here.
+1 results
+> sets the 
 {% highlight java %}
-252. HSSFPatriarch patr = ((HSSFSheet) sheet).createDrawingPatriarch();
-266.         Comment comment = patr.createComment(new HSSFClientAnchor(0, 0, 0, 0, (short) 4, 2, (short) 8, 10));
+210. final HSSFPatriarch patr = this.getDrawingPatriarch();
+216. final HSSFComment comment = patr.createComment(anchor);
 {% endhighlight %}
 
 ***

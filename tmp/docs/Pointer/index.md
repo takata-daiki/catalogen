@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> make sure that the specified evaluated cell value represents a single the right type ( ' ) ' a single : ' / row ' ) @ throws evaluationexception 
 {% highlight java %}
 65. Pointer ptr = stream.getPointer();
 66. System.out.println(ind + "Stream at\t" + ptr.getOffset() +

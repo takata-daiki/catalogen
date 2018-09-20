@@ -4,10 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
-277. public static EscherProperty getEscherProperty(EscherOptRecord opt, int propId){
-278.    if(opt != null) for ( Iterator iterator = opt.getEscherProperties().iterator(); iterator.hasNext(); )
+516. EscherOptRecord escherOptRecord = (EscherOptRecord) escherRecord;
+517. for(EscherProperty property : escherOptRecord.getEscherProperties()){
 {% endhighlight %}
 
 ***

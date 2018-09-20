@@ -4,11 +4,11 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> set the contents of this shape to be a copy of the source shape . this method is called recursively for each shape when 0 . @ param p the font to be used for to text 
 {% highlight java %}
-990. ExObjList lst = (ExObjList) _documentRecord.findFirstOfType(RecordTypes.ExObjList.typeID);
-996. ExObjListAtom objAtom = lst.getExObjListAtom();
-1012. lst.appendChildRecord(mci);
+1031. ExObjList lst = (ExObjList) _documentRecord.findFirstOfType(RecordTypes.ExObjList.typeID);
+1036. ExObjListAtom objAtom = lst.getExObjListAtom();
+1050. lst.addChildAfter(ctrl, objAtom);
 {% endhighlight %}
 
 ***

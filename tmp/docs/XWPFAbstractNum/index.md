@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> sets the a number of the header that contains the hyperlink @ param row the 0 - based column of the cell that contains the hyperlink 
 {% highlight java %}
 307. XWPFAbstractNum abstractNum = getXWPFAbstractNum( num );
 316. CTLvl lvl = abstractNum.getAbstractNum().getLvlArray( level );

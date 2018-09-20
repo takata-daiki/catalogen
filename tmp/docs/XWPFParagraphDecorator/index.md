@@ -4,10 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> initialize the data table / used for will font the workbook 
 {% highlight java %}
-78. XWPFParagraphDecorator decorator = new XWPFCommentsDecorator(
-86. xhtml.element("p", decorator.getText());
+145. XWPFParagraphDecorator decorator = new XWPFCommentsDecorator(
+148. xhtml.element("p", decorator.getText());
 {% endhighlight %}
 
 ***

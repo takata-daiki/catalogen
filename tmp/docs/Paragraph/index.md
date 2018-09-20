@@ -3,13 +3,11 @@
 ***
 
 ## [Cluster 1](./1)
-4 results
-> code comments is here.
+1 results
+> set the contents of this shape to be a copy of the source shape . this method is called recursively for each shape when 0 . @ param @ param 
 {% highlight java %}
-23. Paragraph par1 = range.insertAfter(new ParagraphProperties(), 0);
-24. par1.setSpacingAfter(200);
-25. par1.setJustification((byte) 1);
-28. CharacterRun run1 = par1.insertAfter("one");
+24. Paragraph p = r.getParagraph(x);
+25. String text = p.text();
 {% endhighlight %}
 
 ***

@@ -13,7 +13,7 @@ from clustering import xmean
 def make_cluster(class_name):
     data = np.load('vectorize_v2.npz')
     xm = np.array([data['vector'][i] for i in range(len(data['vector'])) if data['directory'][i] == class_name])
-    files = np.array([data['filename'][i] for i in range(len(data['vector'])) if data['directory'][i] == class_name])
+    files = np.array([data['filename'][i][:-4] for i in range(len(data['vector'])) if data['directory'][i] == class_name])
     clusters = xmean(xm.tolist())
 
     df = pd.DataFrame({'filename': [], 'directory': [], 'cluster': []})
@@ -38,19 +38,52 @@ def get_md(class_name, df):
     tmp.sort(key=lambda x: x[0])
     sample = [t[1] for t in tmp]
     try:
-        sz = max([int(df.at[(class_name, '{}.txt'.format(s[:-5])), 'cluster']) for s in sample])
+        sz = max([int(df.at[(class_name, s[:-5]), 'cluster']) for s in sample])
     except KeyError:
         sz = 0
 
     for i in range(sz + 1):
         try:
-            tmp = [s[:-5] for s in sample if i == int(df.at[(class_name, '{}.txt'.format(s[:-5])), 'cluster'])]
-            x = tmp[0]
+            tmp = [s[:-5] for s in sample if i == int(df.at[(class_name, s[:-5]), 'cluster'])]
             y = len(tmp)
+            for j in range(len(tmp)):
+                x = tmp[j]
+                try:
+                    with open('CodeAst/_{}_{}.txt'.format(class_name, x), 'r') as f:
+                        rd = f.read()
+                    p = 0
+                    with open('ast_seqs.txt', 'r') as f:
+                        for k, comm in enumerate(f):
+                            if comm == rd:
+                                p = k
+                                break
+                    with open('jd_comms.txt', 'r') as f:
+                        z = f.read().split('\n')[p]
+                    break
+                except FileNotFoundError:
+                    continue
+            else:
+                x = tmp[0]
+                z = 'this comment could not be generated...'
+
         except KeyError:
             x = sample[0][:-5]
             y = 1
-        rep_cluster_arr.append({'id': x, 'num': y})
+            try:
+                with open('CodeAst/_{}_{}.txt'.format(class_name, x), 'r') as f:
+                    rd = f.read()
+                p = 0
+                with open('ast_seqs.txt', 'r') as f:
+                    for k, comm in enumerate(f):
+                        if comm == rd:
+                            p = k
+                            break
+                with open('jd_comms.txt', 'r') as f:
+                    z = f.read().split('\n')[p]
+            except FileNotFoundError:
+                z = 'this comment could not be generated...'
+
+        rep_cluster_arr.append({'id': x, 'num': y, 'comment': z})
 
     text = '---\nlayout: default\n---\n\n# {}\n\n***\n\n'.format(class_name)
     for i, dic in enumerate(rep_cluster_arr):
@@ -60,7 +93,7 @@ def get_md(class_name, df):
                 continue
             text += '## [Cluster {}](./cluster/{}/index.html)\n'.format(i + 1, i + 1)
             text += '{} results\n'.format(dic['num'])
-            text += '> code comments is here.\n'  # add comments
+            text += '> {}\n'.format(dic['comment'])
             text += '{% highlight java %}\n'
             for j, line in data['lines'].items():
                 text += '{0}. {1}\n'.format(j, line.split('\n')[0])
@@ -88,7 +121,7 @@ def catalog(class_name, n, df):
     tmp.sort(key=lambda x: x[0])
     sample = [t[1] for t in tmp]
     try:
-        li = [s[:-5] for s in sample if n == int(df.at[(class_name, '{}.txt'.format(s[:-5])), 'cluster'])]
+        li = [s[:-5] for s in sample if n == int(df.at[(class_name, s[:-5]), 'cluster'])]
     except KeyError:
         li = [sample[0][:-5]]
 

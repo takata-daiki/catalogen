@@ -4,12 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> sets the @ param for the if one 
 {% highlight java %}
-49. private NPOIFSDocument _document;
-79.   _data = _document.getBlockIterator();
-95.     _data = _document.getBlockIterator();
-165.       _data = _document.getBlockIterator();
+87. public NDocumentInputStream(NPOIFSDocument document) {
+92.   _document_size = document.getSize();
 {% endhighlight %}
 
 ***

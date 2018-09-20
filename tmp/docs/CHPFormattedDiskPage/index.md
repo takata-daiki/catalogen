@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> add a new excel at position of the cursor @ param cursor 
 {% highlight java %}
 60. CHPFormattedDiskPage cfkp = new CHPFormattedDiskPage(documentStream,
 63. int fkpSize = cfkp.size();

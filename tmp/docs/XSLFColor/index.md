@@ -4,10 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
-278. XSLFColor c = new XSLFColor(props.getBuClr(), theme, null);
-279. setValue(c.getColor());
+114. XSLFColor c = new XSLFColor(solidFill, theme, phClr);
+115. paint = c.getColor();
 {% endhighlight %}
 
 ***

@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
 60. private EscherTextboxRecord escherTextbox;
 138.     escherTextbox.setRecordId( EscherTextboxRecord.RECORD_ID );

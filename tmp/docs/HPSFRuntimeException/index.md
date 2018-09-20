@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
 258. catch (HPSFRuntimeException ex)
 260.     final Throwable cause = ex.getReason();

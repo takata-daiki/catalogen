@@ -4,11 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> get the source part uri from a specified relationships part . 
 {% highlight java %}
-114. LongField signature = new LongField(_signature_offset, _data);
-116. if (signature.get() != _signature)
-126.                           + signature.get() + ", expected "
+219. LongField signature = new LongField(HeaderBlockConstants._signature_offset, header);
+230. return (signature.get() == HeaderBlockConstants._signature);
 {% endhighlight %}
 
 ***

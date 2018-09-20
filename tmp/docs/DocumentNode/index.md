@@ -4,11 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
-73.   DocumentNode doc = (DocumentNode)document;
-74. DocumentProperty property = (DocumentProperty)doc.getProperty();
-77.       ((DirectoryNode)doc.getParent()).getNFileSystem()
+56. DocumentNode documentNode = (DocumentNode)document;
+59. if(documentNode.getDocument() != null) {
 {% endhighlight %}
 
 ***

@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> creates the 
 {% highlight java %}
 1056. PasswordRev4Record retval = new PasswordRev4Record();
 1058. retval.setPassword(( short ) 0);   // no password by default!

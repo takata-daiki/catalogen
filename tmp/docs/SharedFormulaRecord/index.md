@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
 176. SharedFormulaRecord shrd = (SharedFormulaRecord)sharedFormulas.get(i);
 177. if (shrd.isFormulaInShared(formula)) {

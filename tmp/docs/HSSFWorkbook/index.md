@@ -3,11 +3,11 @@
 ***
 
 ## [Cluster 1](./1)
-17 results
-> code comments is here.
+1 results
+> this comment could not be generated...
 {% highlight java %}
-89. private HSSFFont createFont(final HSSFWorkbook workbook,
-91.   final HSSFFont font = workbook.createFont();
+22. private HSSFWorkbook workbook;
+44.     HSSFSheet sheet = workbook.getSheetAt(sheetNumber);
 {% endhighlight %}
 
 ***

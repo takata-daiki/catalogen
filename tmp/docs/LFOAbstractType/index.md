@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
 101. LFOAbstractType other = (LFOAbstractType) obj;
 102. if ( field_1_lsid != other.field_1_lsid )

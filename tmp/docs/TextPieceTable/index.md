@@ -4,10 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
-126. TextPieceTable tpt = cft.getTextPieceTable();
-127. List textPieces = tpt.getTextPieces();
+125. TextPieceTable tpt = cft.getTextPieceTable();
+128. List textPieces = tpt.getTextPieces();
 {% endhighlight %}
 
 ***

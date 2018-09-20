@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> set the rgb value for accent colour 
 {% highlight java %}
 131. GroupMarkerSubRecord rec = new GroupMarkerSubRecord();
 132. rec.reserved = new byte[reserved.length];

@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> set the options field for the frame record . 
 {% highlight java %}
 200. LegendRecord rec = new LegendRecord();
 202. rec.field_1_xAxisUpperLeft = field_1_xAxisUpperLeft;

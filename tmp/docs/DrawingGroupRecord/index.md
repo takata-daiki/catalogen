@@ -3,12 +3,11 @@
 ***
 
 ## [Cluster 1](./1)
-5 results
-> code comments is here.
+1 results
+> this comment could not be generated...
 {% highlight java %}
-285. for(DrawingGroupRecord dgr : drawingGroups) {
-286.    dgr.decode();
-287.    findPictures(dgr.getEscherRecords());
+2224. DrawingGroupRecord drawingGroup = new DrawingGroupRecord();
+2225. drawingGroup.addEscherRecord(dggContainer);
 {% endhighlight %}
 
 ***

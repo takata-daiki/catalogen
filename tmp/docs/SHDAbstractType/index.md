@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> does the file 2 0 0 2 not the name record 
 {% highlight java %}
 92. SHDAbstractType other = (SHDAbstractType) obj;
 93. if ( field_1_cvFore != other.field_1_cvFore )

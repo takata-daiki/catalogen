@@ -4,11 +4,11 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> test that we get the same value as excel and , for 
 {% highlight java %}
-142. protected NotesTables _endnotesTables = new NotesTables( NoteType.ENDNOTE );
-759.       _endnotesTables.writeRef( _fib, tableStream );
-760.       _endnotesTables.writeTxt( _fib, tableStream );
+148. protected NotesTables _footnotesTables = new NotesTables( NoteType.FOOTNOTE );
+788.       _footnotesTables.writeRef( _fib, tableStream );
+789.       _footnotesTables.writeTxt( _fib, tableStream );
 {% endhighlight %}
 
 ***

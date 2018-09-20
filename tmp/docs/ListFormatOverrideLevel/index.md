@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
 76. for ( ListFormatOverrideLevel lfolvl : _rgLfoLvl )
 77.     result += lfolvl.getSizeInBytes();

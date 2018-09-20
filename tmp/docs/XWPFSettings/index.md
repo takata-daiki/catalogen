@@ -4,11 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
-166. private XWPFSettings settings;
-1168.             CTTwipsMeasure value = settings.getDefaultTabStop();
-1215.             InputStream inputStream = settings.getPackagePart().getInputStream();
+1210. XWPFSettings settings = getSettings();
+1215.         InputStream inputStream = settings.getPackagePart().getInputStream();
 {% endhighlight %}
 
 ***

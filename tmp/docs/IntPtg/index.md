@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> print out a summary of the document is added . 
 {% highlight java %}
 132. IntPtg intPtg = (IntPtg) token;
 133. sb.append(intPtg.getValue());

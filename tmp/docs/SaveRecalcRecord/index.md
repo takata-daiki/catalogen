@@ -4,10 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
-1524. SaveRecalcRecord retval = new SaveRecalcRecord();
-1526. retval.setRecalc(true);
+94. SaveRecalcRecord rec = new SaveRecalcRecord();
+95. rec.field_1_recalc = field_1_recalc;
 {% endhighlight %}
 
 ***

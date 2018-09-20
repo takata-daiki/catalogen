@@ -3,11 +3,11 @@
 ***
 
 ## [Cluster 1](./1)
-37 results
-> code comments is here.
+1 results
+> this comment could not be generated...
 {% highlight java %}
-83. HSSFRow row = createRow(rowNumber);
-84. cell = row.createCell(cellNumber);
+201. HSSFRow row = sheet.getRow(0);
+202. HSSFCell cell = row.getCell((short) 0);
 {% endhighlight %}
 
 ***

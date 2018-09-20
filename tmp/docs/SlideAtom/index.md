@@ -3,12 +3,11 @@
 ***
 
 ## [Cluster 1](./1)
-6 results
-> code comments is here.
+1 results
+> whether this boolean property is false @ return true , if this boolean property is false @ see # no _ excel _ , 
 {% highlight java %}
-123. SlideAtom sa = getSlideRecord().getSlideAtom();
-127.   sa.setNotesID(0);
-130.   sa.setNotesID(notes._getSheetNumber());
+317. SlideAtom sa = getSlideRecord().getSlideAtom();
+318. sa.setFollowMasterObjects(flag);
 {% endhighlight %}
 
 ***

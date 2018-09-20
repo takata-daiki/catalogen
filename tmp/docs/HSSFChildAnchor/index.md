@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> @ param value the param length of the stream in the set - 1 should be 
 {% highlight java %}
 78. HSSFChildAnchor a = (HSSFChildAnchor) userAnchor;
 82. anchor.setDx1( (short) Math.min(a.getDx1(), a.getDx2()) );

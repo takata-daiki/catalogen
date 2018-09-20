@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> sets the for the specified count . 
 {% highlight java %}
 43. HPSFPropertiesOnlyDocument hpsfPropertiesOnlyDocument =
 47.   hpsfPropertiesOnlyDocument.getSummaryInformation();

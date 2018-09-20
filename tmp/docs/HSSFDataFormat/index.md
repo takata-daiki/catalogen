@@ -3,12 +3,11 @@
 ***
 
 ## [Cluster 1](./1)
-17 results
-> code comments is here.
+1 results
+> this comment could not be generated...
 {% highlight java %}
-119. private HSSFDataFormat m_dataFormat;
-234.       cs.setDataFormat(m_dataFormat.getFormat("DD.MM.YYYY"));
-239.       cs.setDataFormat(m_dataFormat.getFormat(format));
+254. HSSFDataFormat format = workbook.createDataFormat();
+255. style3.setDataFormat(format.getFormat("0.000"));
 {% endhighlight %}
 
 ***

@@ -4,11 +4,11 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> test that we get the same value as excel and , for 
 {% highlight java %}
-126. protected Hyphenation field_20_hresi;
-284.     else if ( !field_20_hresi.equals( other.field_20_hresi ) )
-451.             + ((field_20_hresi == null) ? 0 : field_20_hresi.hashCode());
+166. protected Hyphenation field_40_hresiOld;
+339.     else if ( !field_40_hresiOld.equals( other.field_40_hresiOld ) )
+474.             + ((field_40_hresiOld == null) ? 0 : field_40_hresiOld.hashCode());
 {% endhighlight %}
 
 ***

@@ -4,20 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
-204. XWPFWordExtractor we = null;
-215. return we.getText();
-{% endhighlight %}
-
-***
-
-## [Cluster 2](./2)
-1 results
-> code comments is here.
-{% highlight java %}
-155. XWPFWordExtractor extractor = new XWPFWordExtractor(docx);
-156. return extractor.getText().toCharArray();
+47. XWPFWordExtractor extract2007;
+56.         result = extract2007.getText();
 {% endhighlight %}
 
 ***

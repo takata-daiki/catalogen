@@ -3,11 +3,11 @@
 ***
 
 ## [Cluster 1](./1)
-5 results
-> code comments is here.
+1 results
+> sets the 
 {% highlight java %}
-560. for ( PAPX papx : pfkp.getPAPXs() )
-567.                 papx.getGrpprl(), 2 );
+150.     StyleSheet styleSheet, PAPX papx, ParagraphProperties properties )
+155. int style = papx.getIstd();
 {% endhighlight %}
 
 ***

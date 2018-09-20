@@ -3,22 +3,11 @@
 ***
 
 ## [Cluster 1](./1)
-3 results
-> code comments is here.
-{% highlight java %}
-86. public void processRecord(Record record)
-94.         switch (record.getSid())
-{% endhighlight %}
-
-***
-
-## [Cluster 2](./2)
 1 results
-> code comments is here.
+> process the record ourselves , but do not pass it on to our child listener , to make up the stream if it is not specified . 
 {% highlight java %}
-322. private void internalProcessRecord(Record record) throws SAXException, TikaException, IOException {
-323.     switch (record.getSid()) {
-418.     previousSid = record.getSid();
+84. public void processRecord(Record record)
+92.         switch (record.getSid())
 {% endhighlight %}
 
 ***

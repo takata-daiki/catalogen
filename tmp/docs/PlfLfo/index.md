@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> compare number of sheets . 
 {% highlight java %}
 137. PlfLfo other = (PlfLfo) obj;
 138. if ( _lfoMac != other._lfoMac )

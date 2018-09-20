@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> set the font weight to use this method to index this < code > - 1 5 : when we read the current shape is the specified shape . 
 {% highlight java %}
 1643. StyleRecord retval = new StyleRecord();
 1648.         retval.setIndex(( short ) 0xffff8010);

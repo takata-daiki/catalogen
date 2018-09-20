@@ -3,13 +3,11 @@
 ***
 
 ## [Cluster 1](./1)
-14 results
-> code comments is here.
+1 results
+> get the for the document , for example , < code > null < / code > if no formatting is required . 
 {% highlight java %}
-55. XMLSlideShow xmlSlideShow = new XMLSlideShow(slideShow);
-57. XSLFSlide[] slides = xmlSlideShow.getSlides();
-62.     CTNotesSlide notes = xmlSlideShow._getXSLFSlideShow().getNotes(
-64.     CTCommentList comments = xmlSlideShow._getXSLFSlideShow()
+49. XMLSlideShow xmlslideshow = null;
+54.   return getBeanList(pptBean, xmlslideshow.getSlides());
 {% endhighlight %}
 
 ***

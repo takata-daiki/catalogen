@@ -4,12 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
-96. protected DefaultColWidthRecord      defaultcolwidth   =     null;
-1747.     return defaultcolwidth.getColWidth();
-1783.     defaultcolwidth.setColWidth(dcw);
-1839.         retval = defaultcolwidth.getColWidth();
+139. DefaultColWidthRecord rec = new DefaultColWidthRecord();
+140. rec.field_1_col_width = field_1_col_width;
 {% endhighlight %}
 
 ***

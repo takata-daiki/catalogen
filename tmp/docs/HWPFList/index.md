@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
 1027. public int registerList( HWPFList list )
 1033.     return _lt.addList( list.getListData(), list.getLFO(),

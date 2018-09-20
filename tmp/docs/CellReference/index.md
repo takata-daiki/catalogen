@@ -3,12 +3,11 @@
 ***
 
 ## [Cluster 1](./1)
-18 results
-> code comments is here.
+1 results
+> creates an empty workbook object with the specified sheet . 
 {% highlight java %}
-292. CellReference firstCellReference = areaReference
-301.     String.valueOf(firstCellReference.getCol() + 1));
-303.     String.valueOf(firstCellReference.getRow() + 1));
+35. CellReference firstCellReference = areaReference.getFirstCell();
+37. return new Range(workbook.getSheet(sheetName), firstCellReference.getCol(), firstCellReference.getRow(), lastCellReference.getCol(), lastCellReference.getRow());
 {% endhighlight %}
 
 ***

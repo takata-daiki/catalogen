@@ -4,58 +4,22 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> test that we get the same value as excel and , for 
 {% highlight java %}
-64. private ExtendedFormatRecord format                     = null;
-283.     format.setFormatIndex(fmt);
-293.     return format.getFormatIndex();
-304.     return format.getFormat(getDataFormat());
-316.     format.setIndentNotParentFont(true);
-318.     format.setFontIndex(fontindex);
-323.     return format.getFontIndex();
-333.     format.setIndentNotParentCellOptions(true);
-334.     format.setHidden(hidden);
-344.     return format.isHidden();
-355.     format.setLocked(locked);
-365.     return format.isLocked();
-382.     format.setIndentNotParentAlignment(true);
-383.     format.setAlignment(align);
-400.     return format.getAlignment();
-433.     format.setWrapText(wrapped);
-443.     return format.getWrapText();
-457.     format.setVerticalAlignment(align);
-471.     return format.getVerticalAlignment();
-489.     format.setRotation(rotation);
-499.   short rotation = format.getRotation();
-513.     format.setIndent(indent);
-523.     return format.getIndent();
-547.     format.setIndentNotParentBorder(true);
-548.     format.setBorderLeft(border);
-572.     return format.getBorderLeft();
-597.     format.setBorderRight(border);
-621.     return format.getBorderRight();
-646.     format.setBorderTop(border);
-670.     return format.getBorderTop();
-695.     format.setBorderBottom(border);
-719.     return format.getBorderBottom();
-729.     format.setLeftBorderPaletteIdx(color);
-739.     return format.getLeftBorderPaletteIdx();
-749.     format.setRightBorderPaletteIdx(color);
-759.     return format.getRightBorderPaletteIdx();
-769.     format.setTopBorderPaletteIdx(color);
-779.     return format.getTopBorderPaletteIdx();
-789.     format.setBottomBorderPaletteIdx(color);
-799.     return format.getBottomBorderPaletteIdx();
-828.     format.setAdtlFillPattern(fp);
-838.     return format.getAdtlFillPattern();
-852.   if (format.getFillForeground() == loci.poi.hssf.util.HSSFColor.AUTOMATIC.index) {
-856.     if (format.getFillBackground() != (loci.poi.hssf.util.HSSFColor.AUTOMATIC.index+1))
-858.   } else if (format.getFillBackground() == loci.poi.hssf.util.HSSFColor.AUTOMATIC.index+1)
-860.     if (format.getFillForeground() != loci.poi.hssf.util.HSSFColor.AUTOMATIC.index)
-892.     format.setFillBackground(bg);
-903.   short result = format.getFillBackground();
-919.     format.setFillForeground(bg);
-930.     return format.getFillForeground();
+1615. ExtendedFormatRecord retval = new ExtendedFormatRecord();
+1617. retval.setFontIndex(( short ) 0);
+1618. retval.setFormatIndex(( short ) 0x0);
+1619. retval.setCellOptions(( short ) 0x1);
+1620. retval.setAlignmentOptions(( short ) 0x20);
+1621. retval.setIndentionOptions(( short ) 0);
+1622. retval.setBorderOptions(( short ) 0);
+1623. retval.setPaletteOptions(( short ) 0);
+1624. retval.setAdtlPaletteOptions(( short ) 0);
+1625. retval.setFillPaletteOptions(( short ) 0x20c0);
+1626. retval.setTopBorderPaletteIdx(HSSFColor.BLACK.index);
+1627. retval.setBottomBorderPaletteIdx(HSSFColor.BLACK.index);
+1628. retval.setLeftBorderPaletteIdx(HSSFColor.BLACK.index);
+1629. retval.setRightBorderPaletteIdx(HSSFColor.BLACK.index);
 {% endhighlight %}
 
 ***

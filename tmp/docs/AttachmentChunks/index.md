@@ -4,14 +4,11 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> set sheet with the given name 
 {% highlight java %}
-117. for (AttachmentChunks attachment : msg.getAttachmentFiles()) {
-122.     if (attachment.attachLongFileName != null) {
-123.   filename = attachment.attachLongFileName.getValue();
-124.     } else if (attachment.attachFileName != null) {
-125.   filename = attachment.attachFileName.getValue();
-135.           new ByteArrayInputStream(attachment.attachData.getValue()),
+192. for (AttachmentChunks attachment : attachmentChunks) {
+193.   byte[] data = attachment.attachData.getValue();
+194.   String fileName = attachment.attachLongFileName.getValue();
 {% endhighlight %}
 
 ***
