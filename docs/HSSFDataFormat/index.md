@@ -3,11 +3,21 @@
 ***
 
 ## [Cluster 1](./1)
-1 results
-> this comment could not be generated...
+2 results
+> set the contents of the record to be an does this list a property ' s position . this is not be a part of the shape . 
 {% highlight java %}
-254. HSSFDataFormat format = workbook.createDataFormat();
-255. style3.setDataFormat(format.getFormat("0.000"));
+101. HSSFDataFormat format = workbook.createDataFormat();
+102. style3.setDataFormat(format.getFormat("0.000"));
+{% endhighlight %}
+
+***
+
+## [Cluster 2](./2)
+17 results
+> sets the type of ole object . < code > the < code > cell on the { @ link < } > is 2 . < p > 
+{% highlight java %}
+135. HSSFDataFormat format = workbook.createDataFormat();
+136. short dateFormatCode = format.getFormat(DATE_FORMAT_AS_NUMBER_DBUNIT);
 {% endhighlight %}
 
 ***

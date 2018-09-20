@@ -3,11 +3,22 @@
 ***
 
 ## [Cluster 1](./1)
-1 results
-> this comment could not be generated...
+21 results
+> sets the 
 {% highlight java %}
-200. HSSFSheet sheet = wb.getSheet("Sheet1");
-201. HSSFRow row = sheet.getRow(0);
+256. HSSFSheet sheet = ((HSSFWorkbook) data.wb).getSheetAt(sheetNum);
+257. sheet.setForceFormulaRecalculation(true);
+{% endhighlight %}
+
+***
+
+## [Cluster 2](./2)
+11 results
+> track a 
+{% highlight java %}
+196. final HSSFSheet sheet = createSheet ( events, workbook, columns );
+203.     final HSSFRow row = sheet.createRow ( i + 1 );
+225.     sheet.autoSizeColumn ( i );
 {% endhighlight %}
 
 ***
