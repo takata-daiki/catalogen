@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> test that we get the same value as excel and , for 
 {% highlight java %}
 40. private FFDataBase _base;
 102.     if ( _base.getIType() == FFDataBase.ITYPE_TEXT )

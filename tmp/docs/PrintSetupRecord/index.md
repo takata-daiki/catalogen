@@ -4,47 +4,20 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> sets the height of the in ( 0 based ) of the second cell . 
 {% highlight java %}
-71.   PrintSetupRecord printSetupRecord;
-86. printSetupRecord.setPaperSize(size);
-94. printSetupRecord.setScale(scale);
-102. printSetupRecord.setPageStart(start);
-110. printSetupRecord.setFitWidth(width);
-118. printSetupRecord.setFitHeight(height);
-126. printSetupRecord.setOptions(options);
-134. printSetupRecord.setLeftToRight(ltor);
-142. printSetupRecord.setLandscape(!ls);
-150. printSetupRecord.setValidSettings(valid);
-158. printSetupRecord.setNoColor(mono);
-166. printSetupRecord.setDraft(d);
-174. printSetupRecord.setNotes(printnotes);
-182. printSetupRecord.setNoOrientation(orientation);
-190. printSetupRecord.setUsePage(page);
-198. printSetupRecord.setHResolution(resolution);
-206. printSetupRecord.setVResolution(resolution);
-214. printSetupRecord.setHeaderMargin(headermargin);
-222. printSetupRecord.setFooterMargin(footermargin);
-230. printSetupRecord.setCopies(copies);
-238.       return printSetupRecord.getPaperSize();
-246.       return printSetupRecord.getScale();
-254.       return printSetupRecord.getPageStart();
-262.       return printSetupRecord.getFitWidth();
-270.       return printSetupRecord.getFitHeight();
-278.       return printSetupRecord.getOptions();
-286.       return printSetupRecord.getLeftToRight();
-294.       return !printSetupRecord.getLandscape();
-302.       return printSetupRecord.getValidSettings();
-310.       return printSetupRecord.getNoColor();
-318.       return printSetupRecord.getDraft();
-326.       return printSetupRecord.getNotes();
-334.       return printSetupRecord.getNoOrientation();
-342.       return printSetupRecord.getUsePage();
-350.       return printSetupRecord.getHResolution();
-358.       return printSetupRecord.getVResolution();
-366.       return printSetupRecord.getHeaderMargin();
-374.       return printSetupRecord.getFooterMargin();
-382.       return printSetupRecord.getCopies();
+400. PrintSetupRecord rec = new PrintSetupRecord();
+401. rec.field_1_paper_size = field_1_paper_size;
+402. rec.field_2_scale = field_2_scale;
+403. rec.field_3_page_start = field_3_page_start;
+404. rec.field_4_fit_width = field_4_fit_width;
+405. rec.field_5_fit_height = field_5_fit_height;
+406. rec.field_6_options = field_6_options;
+407. rec.field_7_hresolution = field_7_hresolution;
+408. rec.field_8_vresolution = field_8_vresolution;
+409. rec.field_9_headermargin = field_9_headermargin;
+410. rec.field_10_footermargin = field_10_footermargin;
+411. rec.field_11_copies = field_11_copies;
 {% endhighlight %}
 
 ***

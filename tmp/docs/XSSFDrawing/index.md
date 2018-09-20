@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
 263. XSSFDrawing drawing = (XSSFDrawing) dr;  
 264. List<XSSFShape> shapes = drawing.getShapes();  

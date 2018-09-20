@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> set the link 2 field for the objectlink record . 
 {% highlight java %}
 157. ObjectLinkRecord rec = new ObjectLinkRecord();
 159. rec.field_1_anchorId = field_1_anchorId;

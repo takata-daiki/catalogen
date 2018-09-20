@@ -4,10 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> sets the , if this sheet should be used to return the < code > specified < / code > for the ( < code > java . text . < / code > ) 1 / a range of the < code > object < / code > that . 
 {% highlight java %}
-122. CHPBinTable cbt = new CHPBinTable(header, tableStream, chpOffset, chpSize, fcMin);
-135. List textRuns = cbt.getTextRuns();
+126. CHPBinTable cbt = new CHPBinTable(header, tableStream, chpOffset, chpSize, fcMin, tpt);
+136. List textRuns = cbt.getTextRuns();
 {% endhighlight %}
 
 ***

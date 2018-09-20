@@ -4,11 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
-115. for (HSSFDataValidation validation : validationData) {
-116.   for (CellRangeAddress address : validation.getRegions()
-118.     String formula = validation.getValidationConstraint()
+30. HSSFDataValidation val = validationData.get(0);
+31. CellRangeAddress[] cellRangeAddresses = val.getRegions().getCellRangeAddresses();
 {% endhighlight %}
 
 ***

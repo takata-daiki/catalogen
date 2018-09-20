@@ -4,10 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> set the rgb value for accent colour 
 {% highlight java %}
-1509. DeltaRecord retval = new DeltaRecord();
-1511. retval.setMaxChange(0.0010);
+142. DeltaRecord rec = new DeltaRecord();
+143. rec.field_1_max_change = field_1_max_change;
 {% endhighlight %}
 
 ***

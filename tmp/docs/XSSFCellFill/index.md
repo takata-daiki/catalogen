@@ -4,13 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
-56. XSSFCellFill fill = stylesSource.getFillAt(cellStyle.getIndex()+1);
-58. if (fill.getFillBackgroundColor()!=null)
-59.   System.out.println("Index: " + cellStyle.getIndex() + " "+ fill.getFillBackgroundColor().getARGBHex());
-61. if (fill.getFillForegroundColor()!=null)
-62. System.out.println("Index: " +cellStyle.getIndex() + " "+ fill.getFillForegroundColor().getARGBHex());
+173. XSSFCellFill fill = ((XSSFWorkbook) designer.workbook).getStylesSource().getFillAt(fillId);
+175. fillForegroundColorColor = fill.getFillForegroundColor();
 {% endhighlight %}
 
 ***

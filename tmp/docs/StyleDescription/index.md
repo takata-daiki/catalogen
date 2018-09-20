@@ -4,13 +4,13 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
-215. StyleDescription sd = _styleDescriptions[istd];
-216. ParagraphProperties pap = sd.getPAP();
-217. byte[] papx = sd.getPAPX();
-218. int baseIndex = sd.getBaseStyle();
-243.     sd.setPAP(pap);
+259. StyleDescription sd = _styleDescriptions[istd];
+260. CharacterProperties chp = sd.getCHP();
+261. byte[] chpx = sd.getCHPX();
+262. int baseIndex = sd.getBaseStyle();
+289.     sd.setCHP(chp);
 {% endhighlight %}
 
 ***

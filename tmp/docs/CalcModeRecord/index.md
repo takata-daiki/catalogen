@@ -4,10 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
-1449. CalcModeRecord retval = new CalcModeRecord();
-1451. retval.setCalcMode(( short ) 1);
+169. CalcModeRecord rec = new CalcModeRecord();
+170. rec.field_1_calcmode = field_1_calcmode;
 {% endhighlight %}
 
 ***

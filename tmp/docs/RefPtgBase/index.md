@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> tests that the create record function returns a properly constructed record in the case of a { @ link . } 
 {% highlight java %}
 96. RefPtgBase refPtgBase = (RefPtgBase) ptg;
 98. if (refPtgBase.isRowRelative()) {

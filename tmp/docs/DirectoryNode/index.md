@@ -3,12 +3,11 @@
 ***
 
 ## [Cluster 1](./1)
-5 results
-> code comments is here.
+1 results
+> this comment could not be generated...
 {% highlight java %}
-414. DirectoryNode parent   = (dir == null)
-421.         ( DirectoryNode ) parent.createDirectory(name);
-448.     parent.createDocument(document);
+504. DirectoryNode new_dir =
+507. new_dir.setStorageClsid( property.getStorageClsid() );
 {% endhighlight %}
 
 ***

@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> sets the line compound style @ see org . apache . poi . openxml 4 j . opc . packageproperties # workbook ( ) 
 {% highlight java %}
 1281. EscherBitmapBlip blipRecord = new EscherBitmapBlip();
 1282. blipRecord.setRecordId( (short) ( EscherBitmapBlip.RECORD_ID_START + format ) );

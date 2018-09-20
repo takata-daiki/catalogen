@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> sets the record the text in the slideshow 
 {% highlight java %}
 107. Section s = r.getSection(x);
 111. for (int y = 0; y < s.numParagraphs(); y++) {

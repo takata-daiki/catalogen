@@ -3,11 +3,11 @@
 ***
 
 ## [Cluster 1](./1)
-30 results
-> code comments is here.
+1 results
+> this comment could not be generated...
 {% highlight java %}
-205. protected void createSimpleComment(final HSSFCell cell,
-224.   cell.setCellComment(comment);
+132. HSSFCell cell = row.getCell((short) 0);
+133. assertEquals("Test Template", cell.getStringCellValue());
 {% endhighlight %}
 
 ***

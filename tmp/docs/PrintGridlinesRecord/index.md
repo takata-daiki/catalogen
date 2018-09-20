@@ -4,10 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
-1556. PrintGridlinesRecord retval = new PrintGridlinesRecord();
-1558. retval.setPrintGridlines(false);
+147. PrintGridlinesRecord rec = new PrintGridlinesRecord();
+148. rec.field_1_print_gridlines = field_1_print_gridlines;
 {% endhighlight %}
 
 ***

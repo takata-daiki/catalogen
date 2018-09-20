@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> set normal , super or subscript , that representing the vertical - alignment of the text . 
 {% highlight java %}
 135. HeaderBlock header_block;
 140.     bigBlockSize = header_block.getBigBlockSize();

@@ -4,10 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
-98. XSLFPictureShape shape = new XSLFPictureShape(obj, _sheet);
-99. shape.setAnchor(new Rectangle());
+195. XSLFPictureShape sh = getDrawing().createPicture(rel.getId());
+196. sh.resize();
 {% endhighlight %}
 
 ***

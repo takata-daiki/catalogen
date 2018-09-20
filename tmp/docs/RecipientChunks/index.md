@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
 144. for (RecipientChunks recipient : recipientChunks) {
 145.   if (name.equals(recipient.getRecipientName())) {

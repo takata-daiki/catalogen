@@ -35,15 +35,18 @@ def elbow(Z):  # divided by using elbow method
 
 
 def xmean(X):
-    initial_centers = kmeans_plusplus_initializer(X, 2).initialize()
-    xmeans_instance = xmeans(X, initial_centers, ccore=False)
-    xmeans_instance.process()
-    tmp = xmeans_instance.get_clusters()
-    flat = list(chain.from_iterable(tmp))
-    clusters = [None] * len(flat)
-    for i in range(len(tmp)):
-        for x in tmp[i]:
-            clusters[x] = i
+    try:
+        initial_centers = kmeans_plusplus_initializer(X, 2).initialize()
+        xmeans_instance = xmeans(X, initial_centers, ccore=False)
+        xmeans_instance.process()
+        tmp = xmeans_instance.get_clusters()
+        flat = list(chain.from_iterable(tmp))
+        clusters = [None] * len(flat)
+        for i in range(len(tmp)):
+            for x in tmp[i]:
+                clusters[x] = i
+    except AttributeError:
+        clusters = []
     return clusters
 
 

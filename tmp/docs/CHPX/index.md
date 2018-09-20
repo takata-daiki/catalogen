@@ -3,13 +3,13 @@
 ***
 
 ## [Cluster 1](./1)
-4 results
-> code comments is here.
+1 results
+> this comment could not be generated...
 {% highlight java %}
-149. CHPX chpx = (CHPX)runIt.next();
-150. boolean deleted = isDeleted(chpx.getGrpprl());
-156. int runStart = chpx.getStart();
-157. int runEnd = chpx.getEnd();
+366. for ( CHPX chpx : _doc.getCharacterTable().getTextRuns() )
+372.         System.out.println( chpx.getCharacterProperties(
+378.         SprmIterator sprmIt = new SprmIterator( chpx.getGrpprl(), 0 );
+388.         String text = new Range( chpx.getStart(), chpx.getEnd(),
 {% endhighlight %}
 
 ***

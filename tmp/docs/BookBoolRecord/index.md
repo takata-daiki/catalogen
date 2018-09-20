@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
 1174. BookBoolRecord retval = new BookBoolRecord();
 1176. retval.setSaveLinkValues(( short ) 0);

@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> color the point to this shape @ see # no _ fill @ see # index 
 {% highlight java %}
 401. ColorSchemeAtom ca = sheet.getColorScheme();
 402. int schemeColor = ca.getColor(r);

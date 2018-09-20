@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import json
 import multiprocessing
 import os
 import re
@@ -91,6 +92,8 @@ def extract(class_name, dic):
         #                 break
         #         if len(line_num) > 1:
         #             break
+
+        now_cnt = 1
         for n in token_num:
             line_num.add(dic[n][2])
             for i in range(n)[::-1]:  # front
@@ -142,8 +145,8 @@ def setter(catalog, class_name, id_name):
         jsn['lines'].append(lines)
 
     if jsn['lines']:
-        os.makedirs('CodeExample/' + class_name, exist_ok=True)
         # os.makedirs('CodeExampleJson/' + class_name, exist_ok=True)
+        os.makedirs('CodeExample/' + class_name, exist_ok=True)
     # for idx, val in enumerate(jsn['lines']):
     #     tmp = {'id': id_name, 'lines': {}}
     #     with open('CodeExampleJson/{}/{}_{}.json'.format(class_name, id_name, idx + 1), 'w') as f:
@@ -154,13 +157,11 @@ def setter(catalog, class_name, id_name):
     for idx, val in enumerate(jsn['lines']):
         with open('CodeExample/{}/{}_{}.txt'.format(class_name, id_name, idx + 1), 'w') as f:
             prev = None
-            s = None
             is_args = False
             block_s_cnt = 0
             block_t_cnt = 0
             for cur, v in val.items():
                 if prev is None:
-                    s = cur
                     if '(' in v[:v.find(class_name)]:
                         if 'for' not in v:
                             is_args = True
@@ -182,18 +183,10 @@ def setter(catalog, class_name, id_name):
                 block_t_cnt += v.count('}')
                 prev = cur
 
-            # left = block_num[s]
-            # right = block_num[cur]
-            # if left < right:
-            #     ss = blocks[left:right]
-            # else:
-            #     ss = ''
-            # f.write('}' * (len(ss) - 2 * ss.count('}')))
             if not is_args:
                 f.write('}')
                 block_t_cnt += 1
             f.write('}' * max([0, block_s_cnt - block_t_cnt]))
-
 
             # for v in val.values():
             #     f.write(v)

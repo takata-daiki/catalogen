@@ -4,10 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
-82. Formula f2 = dvRecord.getFormula2();
-86.     f2.getTokens(), workbook);
+81. Formula f1 = dvRecord.getFormula1();
+84.     f1.getTokens(), workbook);
 {% endhighlight %}
 
 ***

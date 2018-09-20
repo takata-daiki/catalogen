@@ -3,13 +3,12 @@
 ***
 
 ## [Cluster 1](./1)
-9 results
-> code comments is here.
+1 results
+> this method is to set the internal 
 {% highlight java %}
-134. final NumberRecord numrec = (NumberRecord) record;
-135. logger.warn("Cell [" + numrec.getRow() + "," + 
-136.         numrec.getColumn() + 
-138.         numrec.getValue() + ". Ignoring value");
+233. NumberRecord numrec = (NumberRecord) record;
+235. curRow = thisRow = numrec.getRow();
+236. thisColumn = numrec.getColumn();
 {% endhighlight %}
 
 ***

@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> sets whether the rowcolheadings are shown in a viewer @ param show whether to show rowcolheadings or not 
 {% highlight java %}
 215. HWPFLister listerOriginal = new HWPFLister( original );
 219. listerOriginal.dumpFileSystem();

@@ -4,10 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
-1464. CalcCountRecord retval = new CalcCountRecord();
-1466. retval.setIterations(( short ) 0x64);   // default 64 iterations
+144. CalcCountRecord rec = new CalcCountRecord();
+145. rec.field_1_iterations = field_1_iterations;
 {% endhighlight %}
 
 ***

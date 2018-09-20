@@ -4,12 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> sets the 
 {% highlight java %}
-58. private LFO _lfo;
-78.     _lfo.setLsid( _listData.getLsid() );
-111.     _listData = listTables.getListData( _lfo.getLsid() );
-134.     return _lfo.getLsid();
+720. final LFO lfo = listTables.getLfo( paragraph.getIlfo() );
+728.     final ListLevel listLevel = listTables.getLevel( lfo.getLsid(),
 {% endhighlight %}
 
 ***

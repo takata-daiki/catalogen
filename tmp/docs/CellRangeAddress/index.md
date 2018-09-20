@@ -3,14 +3,11 @@
 ***
 
 ## [Cluster 1](./1)
-34 results
-> code comments is here.
+1 results
+> this comment could not be generated...
 {% highlight java %}
-147. CellRangeAddress cellRangeAddress = worksheet.getMergedRegion(i);
-148. if (cellRangeAddress.getFirstRow() == sourceRow.getRowNum()) {
-151.                       newRow.getRowNum() + (cellRangeAddress.getLastRow() - cellRangeAddress.getFirstRow()),
-152.                       cellRangeAddress.getFirstColumn(),
-153.                       cellRangeAddress.getLastColumn());
+1214. CellRangeAddress cra = list.getCellRangeAddress(jj);
+1215. for(int row = cra.getFirstRow(); row <= cra.getLastRow(); row++)
 {% endhighlight %}
 
 ***

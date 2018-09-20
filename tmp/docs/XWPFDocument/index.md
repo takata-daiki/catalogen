@@ -3,12 +3,11 @@
 ***
 
 ## [Cluster 1](./1)
-10 results
-> code comments is here.
+1 results
+> sets the 
 {% highlight java %}
-54. XWPFDocument document = (XWPFDocument) extractor.getDocument();
-55. XWPFHeaderFooterPolicy hfPolicy = document.getHeaderFooterPolicy();
-61. Iterator<XWPFParagraph> i = document.getParagraphsIterator();
+60. public OLDXHTMLMapper( XWPFDocument document )
+66.         defaults = document.getStyle().getDocDefaults();
 {% endhighlight %}
 
 ***

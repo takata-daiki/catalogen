@@ -4,11 +4,11 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> set the num categories field for the series record . 
 {% highlight java %}
-960. SCLRecord sclRecord = new SCLRecord();
-961. sclRecord.setNumerator((short)numerator);
-962. sclRecord.setDenominator((short)denominator);
+144. SCLRecord rec = new SCLRecord();
+146. rec.field_1_numerator = field_1_numerator;
+147. rec.field_2_denominator = field_2_denominator;
 {% endhighlight %}
 
 ***

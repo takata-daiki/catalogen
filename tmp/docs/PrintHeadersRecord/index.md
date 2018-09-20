@@ -4,10 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
-1539. PrintHeadersRecord retval = new PrintHeadersRecord();
-1541. retval.setPrintHeaders(false);
+146. PrintHeadersRecord rec = new PrintHeadersRecord();
+147. rec.field_1_print_headers = field_1_print_headers;
 {% endhighlight %}
 
 ***

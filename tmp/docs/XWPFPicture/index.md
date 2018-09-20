@@ -4,11 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
-565. protected void visitPicture( XWPFPicture picture, IITextContainer parentContainer )
-568.     CTPositiveSize2D ext = picture.getCTPicture().getSpPr().getXfrm().getExt();
-572.     CTPicture ctPic = picture.getCTPicture();
+263. protected void visitPicture( XWPFPicture picture, XHTMLPageContentBuffer parentContainer )
+268.     CTPicture ctPic = picture.getCTPicture();
 {% endhighlight %}
 
 ***

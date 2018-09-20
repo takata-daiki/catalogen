@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> set the contents of this shape to be a copy of the source shape . this method is called recursively for each shape when 0 . @ param @ param 
 {% highlight java %}
 100. EscherArrayProperty verticesProp = new EscherArrayProperty(EscherProperties.GEOMETRY__VERTICES, false, new byte[0] );
 101. verticesProp.setNumberOfElementsInArray(hssfShape.getXPoints().length+1);

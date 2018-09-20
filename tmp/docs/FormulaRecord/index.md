@@ -3,11 +3,11 @@
 ***
 
 ## [Cluster 1](./1)
-12 results
-> code comments is here.
+1 results
+> this comment could not be generated...
 {% highlight java %}
-363. FormulaRecord formula = (FormulaRecord) record;
-364. addCell(record, new NumberCell(formula.getValue(), format));
+165. FormulaRecord formula = (FormulaRecord)rec;
+166. if (formula.isSharedFormula()) {
 {% endhighlight %}
 
 ***

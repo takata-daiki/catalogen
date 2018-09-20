@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> is the sheet from a shape @ param 
 {% highlight java %}
 521. XSLFShadow shadow = _shape.getShadow();
 531.         if(fill != null) shadow.fill(graphics, o.getOutline());

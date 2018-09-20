@@ -4,12 +4,11 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> method run @ throws illegalstateexception if the workbook 0 - 3 2 7 6 bytes 
 {% highlight java %}
-255. FormulaViewer viewer = new FormulaViewer();
-256. viewer.setFile(args[1]);
-257. viewer.setList(true);
-258. viewer.run();
+269. FormulaViewer viewer = new FormulaViewer();
+271. viewer.setFile(args[ 0 ]);
+272. viewer.run();
 {% endhighlight %}
 
 ***

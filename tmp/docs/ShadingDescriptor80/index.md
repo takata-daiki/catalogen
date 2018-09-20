@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
 658. ShadingDescriptor80 oldDescriptor = new ShadingDescriptor80(
 660. ShadingDescriptor newDescriptor = oldDescriptor

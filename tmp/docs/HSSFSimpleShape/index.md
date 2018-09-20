@@ -3,11 +3,11 @@
 ***
 
 ## [Cluster 1](./1)
-7 results
-> code comments is here.
+1 results
+> sets the shape id . 
 {% highlight java %}
-88. HSSFSimpleShape shape = new HSSFSimpleShape(this, anchor);
-89. shape.anchor = anchor;
+76. HSSFSimpleShape simpleShape = (HSSFSimpleShape) hssfShape;
+77. switch ( simpleShape.getShapeType() )
 {% endhighlight %}
 
 ***

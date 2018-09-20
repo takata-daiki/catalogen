@@ -4,11 +4,11 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> sets the content - / row / 0 . 0 - based index @ param 3 the current row @ param this cell is zero or not 
 {% highlight java %}
-506. DocumentAtom docatom = _documentRecord.getDocumentAtom();
-507. int pgx = (int) docatom.getSlideSizeX() * Shape.POINT_DPI / Shape.MASTER_DPI;
-508. int pgy = (int) docatom.getSlideSizeY() * Shape.POINT_DPI / Shape.MASTER_DPI;
+519. DocumentAtom docatom = _documentRecord.getDocumentAtom();
+520. docatom.setSlideSizeX(pgsize.width * Shape.MASTER_DPI / Shape.POINT_DPI);
+521. docatom.setSlideSizeY(pgsize.height * Shape.MASTER_DPI / Shape.POINT_DPI);
 {% endhighlight %}
 
 ***

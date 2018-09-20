@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> the the 
 {% highlight java %}
 1095. private boolean fetchParagraphProperty(ParagraphPropertyFetcher visitor){
 1098.     if(_p.isSetPPr()) ok = visitor.fetch(_p.getPPr());

@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> test that we get the same value as excel and , for 
 {% highlight java %}
 2180. EscherSplitMenuColorsRecord splitMenuColors = new EscherSplitMenuColorsRecord();
 2208. splitMenuColors.setRecordId((short) 0xF11E);

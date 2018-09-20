@@ -3,12 +3,11 @@
 ***
 
 ## [Cluster 1](./1)
-9 results
-> code comments is here.
+1 results
+> this comment could not be generated...
 {% highlight java %}
-1233. public static Short getRowHeight(HSSFSheet sh, AreaReference area){
-1235.   for(int row = area.getFirstCell().getRow(); row <= area.getLastCell().getRow(); row++){
-1237.     if (row == area.getFirstCell().getRow()) height = hSSFRow.getHeight();  
+1366. AreaReference area2 = new AreaReference(cell.getCellFormula());
+1368. CellRangeAddress cra2 = ExcelUtils.mergeArea(sh, area2.getAllReferencedCells()[0]);
 {% endhighlight %}
 
 ***

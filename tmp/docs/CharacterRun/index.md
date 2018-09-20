@@ -3,12 +3,11 @@
 ***
 
 ## [Cluster 1](./1)
-3 results
-> code comments is here.
+1 results
+> this comment could not be generated...
 {% highlight java %}
-28. CharacterRun run1 = par1.insertAfter("one");
-29. run1.setFontSize(2 * 18);
-33. Paragraph par2 = run1.insertAfter(new ParagraphProperties(), 0);
+526. final CharacterRun characterRun = paragraph.getCharacterRun( 0 );
+530.     pFontSize = characterRun.getFontSize() / 2;
 {% endhighlight %}
 
 ***

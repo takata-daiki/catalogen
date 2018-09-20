@@ -3,14 +3,12 @@
 ***
 
 ## [Cluster 1](./1)
-4 results
-> code comments is here.
+1 results
+> excel ' s format to if ( you have two table , 8 1 0 ) 
 {% highlight java %}
-68. EscherDgRecord dg = new EscherDgRecord();
-69. dg.setRecordId( EscherDgRecord.RECORD_ID );
-71. dg.setOptions( (short) ( dgId << 4 ) );
-72. dg.setNumShapes( 0 );
-73. dg.setLastMSOSPID( -1 );
+97. EscherDgRecord dg = getDrawingGroup(drawingGroupId);
+98. dg.setNumShapes( dg.getNumShapes() + 1 );
+99. dg.setLastMSOSPID( result );
 {% endhighlight %}
 
 ***

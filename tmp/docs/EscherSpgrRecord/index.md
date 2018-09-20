@@ -4,7 +4,7 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> sets the 
 {% highlight java %}
 633. EscherSpgrRecord spgr = new EscherSpgrRecord();
 643. spgr.setRecordId( EscherSpgrRecord.RECORD_ID );

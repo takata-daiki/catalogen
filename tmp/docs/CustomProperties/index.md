@@ -4,13 +4,10 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> this comment could not be generated...
 {% highlight java %}
-630. public void setCustomProperties(final CustomProperties customProperties)
-634.     final Map dictionary = customProperties.getDictionary();
-640.     int cpCodepage = customProperties.getCodepage();
-645.     customProperties.setCodepage(cpCodepage);
-648.     for (final Iterator i = customProperties.values().iterator(); i.hasNext();)
+49. CustomProperties cp = dsi.getCustomProperties();
+52. cp.put("myProperty", "foo bar baz");
 {% endhighlight %}
 
 ***

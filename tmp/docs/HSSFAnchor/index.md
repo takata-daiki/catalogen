@@ -4,11 +4,11 @@
 
 ## [Cluster 1](./1)
 1 results
-> code comments is here.
+> @ param value whether shapes on the master slide should be shown or not . 
 {% highlight java %}
-97. HSSFAnchor userAnchor = shape.getAnchor();
-98. if (userAnchor.isHorizontallyFlipped())
-100. if (userAnchor.isVerticallyFlipped())
+96. HSSFAnchor userAnchor = shape.getAnchor();
+97. if (userAnchor.isHorizontallyFlipped())
+99. if (userAnchor.isVerticallyFlipped())
 {% endhighlight %}
 
 ***
