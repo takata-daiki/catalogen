@@ -2,18 +2,22 @@
 import json
 import os
 import sys
-from collections import OrderedDict
 
 import numpy as np
 import pandas as pd
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 from clustering import xmean
 
 
 def make_cluster(class_name):
     data = np.load('vectorize_v2.npz')
-    xm = np.array([data['vector'][i] for i in range(len(data['vector'])) if data['directory'][i] == class_name])
-    files = np.array([data['filename'][i][:-4] for i in range(len(data['vector'])) if data['directory'][i] == class_name])
+    sample = os.listdir('CodeExample/{}'.format(class_name))
+    xm = np.array([data['vector'][i] for i in range(len(data['vector'])) if
+                   data['directory'][i] == class_name and data['filename'][i] in sample])
+    files = np.array(
+        [data['filename'][i][:-4] for i in range(len(data['vector'])) if
+         data['directory'][i] == class_name and data['filename'][i] in sample])
     clusters = xmean(xm.tolist())
 
     df = pd.DataFrame({'filename': [], 'directory': [], 'cluster': []})
@@ -29,6 +33,8 @@ def get_md(class_name, df):
         sample = os.listdir('CodeExampleJson/{}'.format(class_name))
     except FileNotFoundError:
         return
+    tmp = os.listdir('CodeExample/{}'.format(class_name))
+    sample = [s for s in sample if '{}.txt'.format(s[:-5]) in tmp]
     # sample.sort()
     tmp = []
     for s in sample:
@@ -42,34 +48,22 @@ def get_md(class_name, df):
     except KeyError:
         sz = 0
 
+    tfidf_vectorizer = TfidfVectorizer(input='filename', max_df=0.5, min_df=1, max_features=3, norm='l2')
     for i in range(sz + 1):
         try:
             tmp = [s[:-5] for s in sample if i == int(df.at[(class_name, s[:-5]), 'cluster'])]
+
+            files = ['CodeExample/{}/{}.txt'.format(class_name, t) for t in tmp]
+            try:
+                tfidf = tfidf_vectorizer.fit_transform(files)
+            except ValueError:
+                tfidf_vectorizer = TfidfVectorizer(input='filename', max_df=1.0, min_df=1, max_features=3, norm='l2')
+                tfidf = tfidf_vectorizer.fit_transform(files)
+            feature = tfidf_vectorizer.get_feature_names()
+
             y = len(tmp)
             for j in range(len(tmp)):
                 x = tmp[j]
-                try:
-                    with open('CodeAst/_{}_{}.txt'.format(class_name, x), 'r') as f:
-                        rd = f.read()
-                    p = 0
-                    with open('ast_seqs.txt', 'r') as f:
-                        for k, comm in enumerate(f):
-                            if comm == rd:
-                                p = k
-                                break
-                    with open('jd_comms.txt', 'r') as f:
-                        z = f.read().split('\n')[p]
-                    break
-                except FileNotFoundError:
-                    continue
-            else:
-                x = tmp[0]
-                z = 'this comment could not be generated...'
-
-        except KeyError:
-            x = sample[0][:-5]
-            y = 1
-            try:
                 with open('CodeAst/_{}_{}.txt'.format(class_name, x), 'r') as f:
                     rd = f.read()
                 p = 0
@@ -80,10 +74,25 @@ def get_md(class_name, df):
                             break
                 with open('jd_comms.txt', 'r') as f:
                     z = f.read().split('\n')[p]
-            except FileNotFoundError:
-                z = 'this comment could not be generated...'
+                break
+            else:
+                x = tmp[0]
 
-        rep_cluster_arr.append({'id': x, 'num': y, 'comment': z})
+        except KeyError:
+            x = sample[0][:-5]
+            y = 1
+            with open('CodeAst/_{}_{}.txt'.format(class_name, x), 'r') as f:
+                rd = f.read()
+            p = 0
+            with open('ast_seqs.txt', 'r') as f:
+                for k, comm in enumerate(f):
+                    if comm == rd:
+                        p = k
+                        break
+            with open('jd_comms.txt', 'r') as f:
+                z = f.read().split('\n')[p]
+
+        rep_cluster_arr.append({'id': x, 'num': y, 'comment': z, 'feature': feature})
 
     text = '---\nlayout: default\n---\n\n# {}\n\n***\n\n'.format(class_name)
     for i, dic in enumerate(rep_cluster_arr):
@@ -91,7 +100,11 @@ def get_md(class_name, df):
             data = json.load(f)
             if not data['lines']:
                 continue
-            text += '## [Cluster {}](./cluster/{}/index.html)\n'.format(i + 1, i + 1)
+            text += '## [Cluster {} ({}, {}, {})](./cluster/{}/index.html)\n'.format(i + 1,
+                                                                                     dic['feature'][0],
+                                                                                     dic['feature'][1],
+                                                                                     dic['feature'][2],
+                                                                                     i + 1)
             text += '{} results\n'.format(dic['num'])
             text += '> {}\n'.format(dic['comment'])
             text += '{% highlight java %}\n'
@@ -99,19 +112,19 @@ def get_md(class_name, df):
                 text += '{0}. {1}\n'.format(j, line.split('\n')[0])
             text += '{% endhighlight %}\n\n***\n\n'
 
-        catalog(class_name, i, df)
+        catalog(class_name, i, df, dic['feature'])
 
-    with open('minimal/index.md'.format(class_name), 'w') as f:
+    with open('minimal/index.md', 'w') as f:
         f.write(text)
 
-    print('done.')
 
-
-def catalog(class_name, n, df):
+def catalog(class_name, n, df, feature):
     try:
         sample = os.listdir('CodeExampleJson/{}'.format(class_name))
     except FileNotFoundError:
         return
+    tmp = os.listdir('CodeExample/{}'.format(class_name))
+    sample = [s for s in sample if '{}.txt'.format(s[:-5]) in tmp]
     # sample.sort()
     tmp = []
     for s in sample:
@@ -129,18 +142,33 @@ def catalog(class_name, n, df):
     with open('CodeIndex/{}.json'.format(class_name), 'r') as f:
         data = json.load(f)
         for x in li:
+            with open('CodeAst/_{}_{}.txt'.format(class_name, x), 'r') as f2:
+                rd = f2.read()
+            p = 0
+            with open('ast_seqs.txt', 'r') as f2:
+                for k, comm in enumerate(f2):
+                    if comm == rd:
+                        p = k
+                        break
+            with open('jd_comms.txt', 'r') as f2:
+                z = f2.read().split('\n')[p]
+
             for d in data['results']:
                 s = x.split('_')[0]
                 if str(d['id']) == s:
-                    files.append([x, d['filename']])
+                    files.append([x, d['filename'], z])
 
-    text = '---\nlayout: default\n---\n\n# {} @Cluster {}\n\n***\n\n'.format(class_name, n + 1)
-    for k, v in files:
+    text = '---\nlayout: default\n---\n\n# {} @Cluster {} ({}, {}, {})\n\n***\n\n'.format(class_name, n + 1,
+                                                                                          feature[0],
+                                                                                          feature[1],
+                                                                                          feature[2])
+    for k, v, c in files:
         with open('CodeExampleJson/{}/{}.json'.format(class_name, k), 'r') as f:
             data = json.load(f)
             if not data['lines']:
                 continue
             text += '### [{}](https://searchcode.com/codesearch/view/{}/)\n'.format(v, k.split('_')[0])
+            text += '> {}\n'.format(c)
             text += '{% highlight java %}\n'
             for i, line in data['lines'].items():
                 text += '{0}. {1}\n'.format(i, line.split('\n')[0])
@@ -152,8 +180,11 @@ def catalog(class_name, n, df):
 
 
 def main(class_name):
+    print('> Making clusters...')
     df = make_cluster(class_name)
+    print('> Making markdown files and dependencies...')
     get_md(class_name, df)
+    print('>>> Done!')
 
 
 if __name__ == '__main__':
