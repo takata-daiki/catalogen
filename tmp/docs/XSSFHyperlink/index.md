@@ -2,13 +2,13 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (700, createfont, font)](./1)
 1 results
-> this comment could not be generated...
+> sets whether the rowcolheadings are shown in a viewer @ param show whether to show rowcolheadings or not 
 {% highlight java %}
-88. final XSSFHyperlink xssfHyperlink = helper.createHyperlink(Hyperlink.LINK_URL);
-89. xssfHyperlink.setAddress(cell.getFormattedValue());
-90. xssfHyperlink.setLabel(cell.getLabel());
+69. final XSSFHyperlink xssfHyperlink = helper.createHyperlink(Hyperlink.LINK_URL);
+70. xssfHyperlink.setAddress(cell.getFormattedValue());
+71. xssfHyperlink.setLabel(cell.getLabel());
 {% endhighlight %}
 
 ***

@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (berec, boolrec, errrec)](./1)
 4 results
 > sets the record or null , if there isn ' t one 
 {% highlight java %}
@@ -12,7 +12,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (boolerrrecord, field_1_row, rec)](./2)
 1 results
 > set the index to the extendedformat @ see org . apache . poi . hssf . usermodel . hssfworkbook # getfontat ( short ) 
 {% highlight java %}

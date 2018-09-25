@@ -1,8 +1,9 @@
-# EscherGraphics @Cluster 1
+# EscherGraphics @Cluster 1 (dgg, getfileidclusters, int)
 
 ***
 
 ### [EscherGraphics2d.java](https://searchcode.com/codesearch/view/15642327/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 97. private EscherGraphics escherGraphics;
 293.     escherGraphics.drawRect(x,y,width,height);

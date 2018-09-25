@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-3 results
+## [Cluster 1 (if, parent, path)](./1)
+2 results
 > sets the list of colours that are interpolated between . the number must match { @ link # / } and { @ link # , ( ) } and { @ link # @ see # to ( ) } if < code > null < / code > for default ( if ' array ) should be a valid range to 0 . 
 {% highlight java %}
 184. POIFSDocumentPath path = ( POIFSDocumentPath ) o;
@@ -13,7 +13,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (hashcode, name, path)](./2)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
@@ -27,7 +27,7 @@
 
 ***
 
-## [Cluster 3](./3)
+## [Cluster 3 (components, length, path)](./3)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}

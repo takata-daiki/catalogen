@@ -1,16 +1,9 @@
-# HSSFRow @Cluster 1
-
-***
-
-### [ExcelViewTests.java](https://searchcode.com/codesearch/view/72414056/)
-{% highlight java %}
-201. HSSFRow row = sheet.getRow(0);
-202. HSSFCell cell = row.getCell((short) 0);
-{% endhighlight %}
+# HSSFRow @Cluster 1 (getstringvalue, if, null)
 
 ***
 
 ### [SheetHSSFImpl.java](https://searchcode.com/codesearch/view/72854680/)
+> sets the shape properties . 
 {% highlight java %}
 153. HSSFRow hssfRow = sheet.getRow(row);
 157. HSSFCell hssfCell = hssfRow.getCell(col);
@@ -19,6 +12,7 @@
 ***
 
 ### [ExcelViewTests.java](https://searchcode.com/codesearch/view/72414056/)
+> sets the " pattfill " element 
 {% highlight java %}
 131. HSSFRow row = sheet.getRow(0);
 132. HSSFCell cell = row.getCell((short) 0);
@@ -26,23 +20,8 @@
 
 ***
 
-### [SheetHSSFImpl.java](https://searchcode.com/codesearch/view/72854680/)
-{% highlight java %}
-179. HSSFRow theRow = sheet.getRow(row);
-181.     HSSFCell theCell = theRow.getCell(col);
-{% endhighlight %}
-
-***
-
 ### [ExcelViewTests.java](https://searchcode.com/codesearch/view/72414056/)
-{% highlight java %}
-166. HSSFRow row = sheet.getRow(0);
-167. HSSFCell cell = row.getCell((short) 0);
-{% endhighlight %}
-
-***
-
-### [ExcelViewTests.java](https://searchcode.com/codesearch/view/72414056/)
+> sets the " pattfill " element 
 {% highlight java %}
 96. HSSFRow row = sheet.getRow(2);
 97. HSSFCell cell = row.getCell((short) 4);
@@ -51,6 +30,7 @@
 ***
 
 ### [ExcelIdentifier.java](https://searchcode.com/codesearch/view/52992680/)
+> sets the " pattfill " element 
 {% highlight java %}
 52. HSSFRow row = sheet.getRow(rowIndex);
 56.     int columnCount = row.getLastCellNum();
@@ -59,16 +39,8 @@
 
 ***
 
-### [SheetHSSFImpl.java](https://searchcode.com/codesearch/view/72854680/)
-{% highlight java %}
-167. HSSFRow hssfRow = sheet.getRow(row);
-171. HSSFCell cell = hssfRow.getCell(col);
-173.     cell = hssfRow.createCell(col);
-{% endhighlight %}
-
-***
-
 ### [ExcelHandler.java](https://searchcode.com/codesearch/view/71586384/)
+> sets the 
 {% highlight java %}
 91. HSSFRow aRow = aSheet.getRow(rowNumOfSheet);
 95.   if (null != aRow.getCell(selectCol[index])) {
@@ -77,17 +49,8 @@
 
 ***
 
-### [ExcelHandler.java](https://searchcode.com/codesearch/view/71586384/)
-{% highlight java %}
-161. HSSFRow aRow = aSheet.getRow(rowNumOfSheet);
-163. for (int index = 0; index <= aRow.getLastCellNum(); index++) {
-164.   if (null != aRow.getCell(index)) {
-165.     HSSFCell aCell = aRow.getCell(index);
-{% endhighlight %}
-
-***
-
 ### [WorkbookHSSFImpl.java](https://searchcode.com/codesearch/view/72854626/)
+> remove all 
 {% highlight java %}
 236. HSSFRow hssfRow = hssfSheet.getRow(setCellValue.getRow());
 240. HSSFCell hssfCell = hssfRow.getCell(setCellValue.getCol());
@@ -98,6 +61,7 @@
 ***
 
 ### [SheetHSSFImpl.java](https://searchcode.com/codesearch/view/72854680/)
+> sets the shape types . 
 {% highlight java %}
 64. HSSFRow row = sheet.getRow(rowIndex);
 66.   int firstCell = row.getFirstCellNum();
@@ -108,6 +72,7 @@
 ***
 
 ### [UpLoadFileWindow.java](https://searchcode.com/codesearch/view/42988393/)
+> sets all one { @ link and } the specified in any . 
 {% highlight java %}
 190. HSSFRow row = st.getRow(i);
 191. if(row != null && row.getCell(0) != null && !"".equals(row.getCell(0).getStringCellValue())){

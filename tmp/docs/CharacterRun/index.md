@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-15 results
+## [Cluster 1 (getstartoffset, hwpfdocument, three)](./1)
+9 results
 > set the contents of this shape to be a copy of the source shape . < p > the 0 is specified in points . positive values will be 2 , but use to be a shape must not be shape . 
 {% highlight java %}
 824. CharacterRun separator = field
@@ -12,8 +12,8 @@
 
 ***
 
-## [Cluster 2](./2)
-3 results
+## [Cluster 2 (run1, run2, two)](./2)
+2 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
 28. CharacterRun run1 = par1.insertAfter("one");

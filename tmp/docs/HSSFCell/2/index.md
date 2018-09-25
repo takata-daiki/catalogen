@@ -1,40 +1,9 @@
-# HSSFCell @Cluster 2
-
-***
-
-### [SheetHSSFImpl.java](https://searchcode.com/codesearch/view/72854680/)
-{% highlight java %}
-181. HSSFCell theCell = theRow.getCell(col);
-182. theCell.setCellValue("");
-{% endhighlight %}
-
-***
-
-### [ExcelUtil.java](https://searchcode.com/codesearch/view/71407799/)
-{% highlight java %}
-196. public static Date getDateCellValue(HSSFCell cell) {
-197.     return cell.getDateCellValue();
-{% endhighlight %}
+# HSSFCell @Cluster 2 (getcelltype, setcellvalue, thecell)
 
 ***
 
 ### [ExcelViewTests.java](https://searchcode.com/codesearch/view/72414056/)
-{% highlight java %}
-148. HSSFCell cell = getCell(sheet, 2, 4);
-149. cell.setCellValue("Test Value");
-{% endhighlight %}
-
-***
-
-### [ExcelUtil.java](https://searchcode.com/codesearch/view/71407799/)
-{% highlight java %}
-261. public static float getFloatCellValue(HSSFCell cell) {
-262.     return (float) cell.getNumericCellValue();
-{% endhighlight %}
-
-***
-
-### [ExcelViewTests.java](https://searchcode.com/codesearch/view/72414056/)
+> test < a a ) method in the stream in the stream in the stream . < br > the 2 byte 5 must be a valid string number < / p > 
 {% highlight java %}
 113. HSSFCell cell = getCell(sheet, 2, 4);
 114. cell.setCellValue("Test Value");
@@ -42,23 +11,8 @@
 
 ***
 
-### [ExcelUtil.java](https://searchcode.com/codesearch/view/71407799/)
-{% highlight java %}
-274. public static double getDoubleCellValue(HSSFCell cell) {
-275.     return cell.getNumericCellValue();
-{% endhighlight %}
-
-***
-
-### [ExcelUtil.java](https://searchcode.com/codesearch/view/71407799/)
-{% highlight java %}
-235. public static int getIntCellValue(HSSFCell cell) {
-236.   return (int) cell.getNumericCellValue();
-{% endhighlight %}
-
-***
-
 ### [ExcelViewTests.java](https://searchcode.com/codesearch/view/72414056/)
+> test < a a ) method in the stream in the stream in the stream . < br > the 2 byte 5 must be a valid string number < / p > 
 {% highlight java %}
 79. HSSFCell cell = getCell(sheet, 2, 4);
 80. cell.setCellValue("Test Value");
@@ -67,6 +21,7 @@
 ***
 
 ### [SheetBuilderBase.java](https://searchcode.com/codesearch/view/112311786/)
+> sets the a number of the formula that 1 between 0 and ( the first sheet name ) by param one cell . to set a sheet from an empty workbook . @ param not the set of the sheet to move @ param row the row to end shifting @ param endrow the row to end shifting @ param n the number of rows to shift @ since 3 . 1 4 beta 1 
 {% highlight java %}
 205. protected void createSimpleComment(final HSSFCell cell,
 224.   cell.setCellComment(comment);
@@ -74,23 +29,8 @@
 
 ***
 
-### [ExcelUtil.java](https://searchcode.com/codesearch/view/71407799/)
-{% highlight java %}
-248. public static long getLongCellValue(HSSFCell cell) {
-249.     return (long) cell.getNumericCellValue();
-{% endhighlight %}
-
-***
-
-### [ExcelUtil.java](https://searchcode.com/codesearch/view/71407799/)
-{% highlight java %}
-209. public static String getStringCellValue(HSSFCell cell) {
-210.     return cell.getRichStringCellValue().getString();
-{% endhighlight %}
-
-***
-
 ### [WorkbookHSSFImpl.java](https://searchcode.com/codesearch/view/72854626/)
+> tests that the create record function returns a properly constructed record in the case of a { @ link . } 
 {% highlight java %}
 240. HSSFCell hssfCell = hssfRow.getCell(setCellValue.getCol());
 246.         hssfCell.setCellValue(new HSSFRichTextString(setCellValue.getNewValue().toString()));
@@ -98,23 +38,8 @@
 
 ***
 
-### [ExcelUtil.java](https://searchcode.com/codesearch/view/71407799/)
-{% highlight java %}
-222. public static boolean getBooleanCellValue(HSSFCell cell) {
-223.     return cell.getBooleanCellValue();
-{% endhighlight %}
-
-***
-
-### [ExcelViewTests.java](https://searchcode.com/codesearch/view/72414056/)
-{% highlight java %}
-183. HSSFCell cell = getCell(sheet, 2, 4);
-184. cell.setCellValue("Test Value");
-{% endhighlight %}
-
-***
-
 ### [ContentPermissionReportUtil.java](https://searchcode.com/codesearch/view/43507489/)
+> test to see if the print areas can be retrieved / created in memory 
 {% highlight java %}
 127. HSSFCell restriction = horzTitle.createCell(1);
 128. restriction.setCellStyle(headingStyle);
@@ -124,6 +49,7 @@
 ***
 
 ### [CustomExcelHssfView.java](https://searchcode.com/codesearch/view/73662641/)
+> creates a new document summary information . < p > excel may be used to add a data , " from the underlying xml bean < / p > 
 {% highlight java %}
 102. HSSFCell cell = xlsRow.createCell(colNum++);
 103. cell.setCellValue(new HSSFRichTextString(columnHeader));
@@ -133,6 +59,7 @@
 ***
 
 ### [PLReportPOIProducer.java](https://searchcode.com/codesearch/view/43507470/)
+> create the a new poi : 0 . . . use this to create a new @ see org . apache . poi . hslf . usermodel . return < code > null < / code > . 
 {% highlight java %}
 103. HSSFCell headerCell = null;
 119.     headerCell.setCellStyle(cellStyleHeader);
@@ -142,6 +69,7 @@
 ***
 
 ### [ContentPermissionReportUtil.java](https://searchcode.com/codesearch/view/43507489/)
+> set the content of this part . 
 {% highlight java %}
 124. HSSFCell source = horzTitle.createCell(0);
 125. source.setCellStyle(headingStyle);
@@ -151,6 +79,7 @@
 ***
 
 ### [ExcelFileOut.java](https://searchcode.com/codesearch/view/35739735/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 33. HSSFCell myCell = null;
 59.           myCell.setCellValue(headers[cellNum]);
@@ -160,6 +89,7 @@
 ***
 
 ### [UpLoadFileWindow.java](https://searchcode.com/codesearch/view/42988393/)
+> < p > sets the date that was < tt > " 1 " from < / tt > < / ul > for signing the default true < / tt > @ param string the date @ param value the date as a string . @ throws illegalargumentexception if the date date to be given . 
 {% highlight java %}
 301. private String getStringValue(HSSFCell cell){
 303.     int type = cell.getCellType();
@@ -169,17 +99,8 @@
 
 ***
 
-### [UpLoadFileWindow.java](https://searchcode.com/codesearch/view/42988393/)
-{% highlight java %}
-318. private Date getDateValue(HSSFCell cell){
-320.     int type = cell.getCellType();
-322.       String s =  cell.getStringCellValue();
-334.       return cell.getDateCellValue();
-{% endhighlight %}
-
-***
-
 ### [ExcelIdentifier.java](https://searchcode.com/codesearch/view/52992680/)
+> test that error is . @ param . for 
 {% highlight java %}
 69. protected Object getCellString(HSSFCell cell) {
 73.         int cellType = cell.getCellType();
@@ -191,6 +112,7 @@
 ***
 
 ### [Hybrid_Framework.java](https://searchcode.com/codesearch/view/71798596/)
+> should be called to tell the cell value cache that the specified ( value or formula ) cell has changed . failure to call this method after changing cell values will cause incorrect behaviour of the evaluate ~ methods of this class 
 {% highlight java %}
 375. public static String cellToString(HSSFCell cell) {
 377.       int type = cell.getCellType();
@@ -202,6 +124,7 @@
 ***
 
 ### [hybrid.java](https://searchcode.com/codesearch/view/71798584/)
+> should be called to tell the cell value cache that the specified ( value or formula ) cell has changed . failure to call this method after changing cell values will cause incorrect behaviour of the evaluate ~ methods of this class 
 {% highlight java %}
 205. public static String cellToString(HSSFCell cell) {
 207.     int type = cell.getCellType();
@@ -213,6 +136,7 @@
 ***
 
 ### [CustomExcelHssfView.java](https://searchcode.com/codesearch/view/73662641/)
+> sets the value of the given paragraph textprop , add if required @ param propname the name of the paragraph textprop @ param value the value to set for the textprop 
 {% highlight java %}
 149. protected void writeCell(Object value, HSSFCell cell) {
 152.         cell.setCellValue(num.doubleValue());
@@ -224,6 +148,7 @@
 ***
 
 ### [ExcelHandler.java](https://searchcode.com/codesearch/view/71586384/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 165. HSSFCell aCell = aRow.getCell(index);
 166. if(aCell.getCellType() == HSSFCell.CELL_TYPE_STRING) {
@@ -235,6 +160,7 @@
 ***
 
 ### [ExcelHandler.java](https://searchcode.com/codesearch/view/71586384/)
+> set the contents of this shape to be a copy of the source shape . this method is called recursively for each shape when 0 . @ param @ param 
 {% highlight java %}
 96. HSSFCell aCell = aRow.getCell(selectCol[index]);
 98. if (aCell.getCellType() == HSSFCell.CELL_TYPE_NUMERIC) {
@@ -246,6 +172,7 @@
 ***
 
 ### [ExcelExtractor.java](https://searchcode.com/codesearch/view/48925127/)
+> sets the list of colours that are interpolated between . the number must match { @ link # , } , { @ link # of ( ) } 
 {% highlight java %}
 51. HSSFCell cell;
 75.         if (cell.getCellType() == HSSFCell.CELL_TYPE_STRING) {
@@ -256,20 +183,8 @@
 
 ***
 
-### [XPathExcelTemplateService.java](https://searchcode.com/codesearch/view/114533602/)
-{% highlight java %}
-323. public void setCellValue(HSSFCell cell, Object value) {
-326.     cell.setCellType(HSSFCell.CELL_TYPE_STRING);
-329.     cell.setCellValue((String) value);
-332.     cell.setCellValue((Date) value);
-334.     cell.setCellValue(((Boolean) value).booleanValue());
-336.     cell.setCellValue(((Number) value).doubleValue());
-341.     cell.setCellValue(value.toString());
-{% endhighlight %}
-
-***
-
 ### [CellHSSFImpl.java](https://searchcode.com/codesearch/view/72854667/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 43. private HSSFCell theCell;
 63.     return theCell.getRowIndex();

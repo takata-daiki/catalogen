@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (customproperty, final, this)](./1)
 1 results
 > set a single paragraph of this shape to the drawing group @ param id - the new shape 
 {% highlight java %}

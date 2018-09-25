@@ -2,13 +2,14 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (field_1_pane, field_2_row_active_cell, rec)](./1)
 1 results
-> this comment could not be generated...
+> of / sets the content types part to this part . if this is a 0 - based , then ' . a ' sheets ' , ' , ' a ' and ' , ' @ param ' the cell ' s format ' s formula 
 {% highlight java %}
-50. private void processSheets(final XSSFReader.SheetIterator sheetsData, final SheetProcessor sheetProcessor, final SharedStringsTable sharedStringsTable)
-52.     while(sheetsData.hasNext())
-54.         processNext(sheetsData.next(), sheetsData.getSheetName(), sheetProcessor, sharedStringsTable);
+51. final XSSFReader.SheetIterator sheetIterator = mock(XSSFReader.SheetIterator.class);
+52. stub(sheetIterator.hasNext()).toReturn(true).toReturn(false);
+53. when(sheetIterator.next()).thenReturn(inputStream);
+54. when(sheetIterator.getSheetName()).thenReturn(sheetName);
 {% endhighlight %}
 
 ***

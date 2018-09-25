@@ -1,8 +1,9 @@
-# HSSFPolygon @Cluster 1
+# HSSFPolygon @Cluster 1 (anchor, foreground, top)
 
 ***
 
 ### [HSSFPatriarch.java](https://searchcode.com/codesearch/view/15642333/)
+> creates a new . @ param anchor the client anchor describes how this group is attached to the sheet . 
 {% highlight java %}
 130. HSSFPolygon shape = new HSSFPolygon(null, anchor);
 131. shape.anchor = anchor;
@@ -11,6 +12,7 @@
 ***
 
 ### [HSSFShapeGroup.java](https://searchcode.com/codesearch/view/15642300/)
+> creates a new . @ param anchor the client anchor describes how this group is attached to the sheet . 
 {% highlight java %}
 116. HSSFPolygon shape = new HSSFPolygon(this, anchor);
 117. shape.anchor = anchor;
@@ -19,6 +21,7 @@
 ***
 
 ### [EscherGraphics.java](https://searchcode.com/codesearch/view/15642323/)
+> creates an empty 5 element if one does not already exist 
 {% highlight java %}
 402. HSSFPolygon shape = escherGroup.createPolygon(new HSSFChildAnchor(left,top,right,bottom) );
 403. shape.setPolygonDrawArea(right - left, bottom - top);
@@ -30,6 +33,7 @@
 ***
 
 ### [EscherGraphics.java](https://searchcode.com/codesearch/view/15642323/)
+> creates a new is object to the list of in the right @ param p 
 {% highlight java %}
 257. HSSFPolygon shape = escherGroup.createPolygon(new HSSFChildAnchor(left,top,right,bottom) );
 258. shape.setPolygonDrawArea(right - left, bottom - top);

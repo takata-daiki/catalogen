@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-5 results
+## [Cluster 1 (bodytext, extractor, wde)](./1)
+2 results
 > set the contents of this shape to be a copy of the source shape . this method is called when there are no the shape . 
 {% highlight java %}
 167. XWPFWordExtractor wde = new XWPFWordExtractor(wd);
@@ -12,7 +12,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (gettext, null, we)](./2)
 1 results
 > return the underlying cell and by this method 
 {% highlight java %}
@@ -22,7 +22,7 @@
 
 ***
 
-## [Cluster 3](./3)
+## [Cluster 3 (docx, extractor, xwpfwordextractor)](./3)
 1 results
 > get the document part that ' s defined as the given relationship of the given property . 
 {% highlight java %}

@@ -1,8 +1,9 @@
-# ExtendedFormatRecord @Cluster 1
+# ExtendedFormatRecord @Cluster 1 (excelextractor, extractor, false)
 
 ***
 
 ### [Workbook.java](https://searchcode.com/codesearch/view/15642358/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 1615. ExtendedFormatRecord retval = new ExtendedFormatRecord();
 1617. retval.setFontIndex(( short ) 0);

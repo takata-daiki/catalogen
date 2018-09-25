@@ -1,8 +1,9 @@
-# IntList @Cluster 1
+# IntList @Cluster 1 (add, cell, field_5_dbcells)
 
 ***
 
 ### [IndexRecord.java](https://searchcode.com/codesearch/view/15642418/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 67. public IntList            field_5_dbcells;         // array of offsets to DBCELL records
 103.         field_5_dbcells.add(in.readInt());

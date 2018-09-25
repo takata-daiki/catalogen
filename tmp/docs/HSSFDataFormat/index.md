@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-2 results
+## [Cluster 1 (000, createdataformat, format)](./1)
+1 results
 > set the contents of the record to be an does this list a property ' s position . this is not be a part of the shape . 
 {% highlight java %}
 101. HSSFDataFormat format = workbook.createDataFormat();
@@ -12,8 +12,8 @@
 
 ***
 
-## [Cluster 2](./2)
-17 results
+## [Cluster 2 (getformat, m_dataformat, setdataformat)](./2)
+13 results
 > sets the type of ole object . < code > the < code > cell on the { @ link < } > is 2 . < p > 
 {% highlight java %}
 135. HSSFDataFormat format = workbook.createDataFormat();

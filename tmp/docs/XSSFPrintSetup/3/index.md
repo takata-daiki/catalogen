@@ -1,8 +1,9 @@
-# XSSFPrintSetup @Cluster 3
+# XSSFPrintSetup @Cluster 3 (01, assertequals, printsetup)
 
 ***
 
 ### [PageLayoutTest.java](https://searchcode.com/codesearch/view/64531687/)
+> test for parsing 
 {% highlight java %}
 59. XSSFPrintSetup printSetup = sheet0.getPrintSetup();
 60. assertEquals( PaperSize.A4_PAPER,  printSetup.getPaperSizeEnum() );
@@ -14,6 +15,7 @@
 ***
 
 ### [PageLayoutTest.java](https://searchcode.com/codesearch/view/126772664/)
+> test for parsing 
 {% highlight java %}
 37. XSSFPrintSetup printSetup = sheet0.getPrintSetup();
 38. assertEquals( PaperSize.A4_PAPER,  printSetup.getPaperSizeEnum() );

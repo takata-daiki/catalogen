@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-12 results
+## [Cluster 1 (at, error, this)](./1)
+8 results
 > set normal , super or subscript , that representing the vertical - alignment . 
 {% highlight java %}
 175. private POILogger log = POILogFactory.getLogger( getClass() );
@@ -12,8 +12,8 @@
 
 ***
 
-## [Cluster 2](./2)
-8 results
+## [Cluster 2 (error, property, set)](./2)
+7 results
 > sets the 
 {% highlight java %}
 52. public static final POILogger logger = POILogFactory
@@ -22,7 +22,7 @@
 
 ***
 
-## [Cluster 3](./3)
+## [Cluster 3 (log, logger, poilogger)](./3)
 1 results
 > set a boolean value for the cell @ param value the boolean value to set this to . for formulas we ' ll set the precalculated value , for numerics we ' ll set its value . for other types we will change the cell to an error cell and set its value . 
 {% highlight java %}

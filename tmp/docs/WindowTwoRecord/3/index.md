@@ -1,8 +1,9 @@
-# WindowTwoRecord @Cluster 3
+# WindowTwoRecord @Cluster 3 (retval, short, windowtworecord)
 
 ***
 
 ### [Sheet.java](https://searchcode.com/codesearch/view/15642365/)
+> creates the 
 {% highlight java %}
 2012. WindowTwoRecord retval = new WindowTwoRecord();
 2014. retval.setOptions(( short ) 0x6b6);

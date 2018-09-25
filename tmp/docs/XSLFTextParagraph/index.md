@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (copy, get, p2)](./1)
 1 results
 > set normal , super or subscript , that representing the vertical - alignment setting . 
 {% highlight java %}
@@ -12,7 +12,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (_paragraphs, draw, get)](./2)
 1 results
 > updates the text in the atom 
 {% highlight java %}
@@ -22,8 +22,8 @@
 
 ***
 
-## [Cluster 3](./3)
-16 results
+## [Cluster 3 (void, wrappermethod, xslftextparagraph)](./3)
+11 results
 > used to ensure that 0 . the 
 {% highlight java %}
 24. XSLFTextParagraph p1 = txt1.addNewTextParagraph();
@@ -32,9 +32,9 @@
 
 ***
 
-## [Cluster 4](./4)
+## [Cluster 4 (_p, characterpropertyfetcher, props)](./4)
 1 results
-> this comment could not be generated...
+> used to ensure that 0 . the 
 {% highlight java %}
 49. private final XSLFTextParagraph _p;
 139.     final XSLFTheme theme = _p.getParentShape().getSheet().getTheme();

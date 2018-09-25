@@ -1,8 +1,9 @@
-# XWPFHeaderFooterPolicy @Cluster 3
+# XWPFHeaderFooterPolicy @Cluster 3 (append, buffy, hfpolicy)
 
 ***
 
 ### [WordOOXMLDocument.java](https://searchcode.com/codesearch/view/126168429/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 145. private void extractHeaders(final StringBuilder buffy, final XWPFHeaderFooterPolicy hfPolicy) {
 146.   if (hfPolicy.getFirstPageHeader() != null) {

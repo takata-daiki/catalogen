@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-2 results
+## [Cluster 1 (getheader, hssfheader, sheetheader)](./1)
+1 results
 > set the contents of this shape to be a copy of the source shape . this method is called recursively for each shape when 0 . @ param p the font to be used for to @ since poi 3 . 1 5 beta 3 
 {% highlight java %}
 493. HSSFHeader sheetHeader = overviewSheet.getHeader();
@@ -13,8 +13,8 @@
 
 ***
 
-## [Cluster 2](./2)
-16 results
+## [Cluster 2 (getheader, header, hssfheader)](./2)
+4 results
 > set the type of underlining for the font 
 {% highlight java %}
 335. HSSFHeader header = sheet.getHeader();
@@ -23,7 +23,7 @@
 
 ***
 
-## [Cluster 3](./3)
+## [Cluster 3 (filename, getheader, header)](./3)
 1 results
 > set the param height of the in the range . 
 {% highlight java %}
@@ -33,7 +33,7 @@
 
 ***
 
-## [Cluster 4](./4)
+## [Cluster 4 (date, header, headerfooter)](./4)
 1 results
 > set normal , super or subscript , that representing the vertical - alignment setting . 
 {% highlight java %}

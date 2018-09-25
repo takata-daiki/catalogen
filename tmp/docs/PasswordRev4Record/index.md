@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (par1, par2, two)](./1)
 1 results
 > creates the 
 {% highlight java %}

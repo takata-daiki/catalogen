@@ -1,8 +1,9 @@
-# HSSFPrintSetup @Cluster 2
+# HSSFPrintSetup @Cluster 2 (colcount, hssfprintsetup, ps)
 
 ***
 
 ### [ExcelExportControllerBean.java](https://searchcode.com/codesearch/view/4293932/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 244. HSSFPrintSetup ps = sheet.getPrintSetup();
 245. ps.setFitWidth((short)1);

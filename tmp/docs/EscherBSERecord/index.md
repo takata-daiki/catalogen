@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-5 results
+## [Cluster 1 (0x00, bserecord, type)](./1)
+3 results
 > @ return the < code > null < / code > if the two range parts can be combined in an { @ link 
 {% highlight java %}
 565. EscherBSERecord bseRecord = (EscherBSERecord) escherRecord;
@@ -12,7 +12,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (escherbserecord, format, short)](./2)
 1 results
 > set the visibility state for a given column @ param columnindex - the column to set ( 0 - based ) @ return width - the number of pages 
 {% highlight java %}
@@ -31,7 +31,7 @@
 
 ***
 
-## [Cluster 3](./3)
+## [Cluster 3 (bse, byte, format)](./3)
 1 results
 > 
 {% highlight java %}

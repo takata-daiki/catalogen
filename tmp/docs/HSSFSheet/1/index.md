@@ -1,32 +1,9 @@
-# HSSFSheet @Cluster 1
-
-***
-
-### [ExcelViewTests.java](https://searchcode.com/codesearch/view/72414056/)
-{% highlight java %}
-200. HSSFSheet sheet = wb.getSheet("Sheet1");
-201. HSSFRow row = sheet.getRow(0);
-{% endhighlight %}
-
-***
-
-### [PatchedPoi.java](https://searchcode.com/codesearch/view/72854649/)
-{% highlight java %}
-114. public void clearValidationData(HSSFSheet sheet) {
-115.   sheet.getDataValidityTable().clear();
-{% endhighlight %}
-
-***
-
-### [ExcelUtil.java](https://searchcode.com/codesearch/view/71407799/)
-{% highlight java %}
-142. public static int getRowNumber(HSSFSheet sheet) {
-143.     return sheet.getLastRowNum();
-{% endhighlight %}
+# HSSFSheet @Cluster 1 (createrow, int, mysheet)
 
 ***
 
 ### [ExcelWriterStep.java](https://searchcode.com/codesearch/view/42462258/)
+> sets the 
 {% highlight java %}
 256. HSSFSheet sheet = ((HSSFWorkbook) data.wb).getSheetAt(sheetNum);
 257. sheet.setForceFormulaRecalculation(true);
@@ -35,6 +12,7 @@
 ***
 
 ### [ExcelViewTests.java](https://searchcode.com/codesearch/view/72414056/)
+> sets the line count . @ see # @ see # no _ this _ in @ see # 
 {% highlight java %}
 130. HSSFSheet sheet = wb.getSheet("Sheet1");
 131. HSSFRow row = sheet.getRow(0);
@@ -43,6 +21,7 @@
 ***
 
 ### [MetaDataFacadeBean.java](https://searchcode.com/codesearch/view/39694405/)
+> sets the a number of the formula that 1 ( data ) should be an / table @ param to 0 - based @ param column 0 - based 
 {% highlight java %}
 550. private void generateChildRows(HSSFSheet overviewSheet, CellStyle style,
 560.     HSSFRow row = overviewSheet.createRow(rowNumber++);
@@ -50,15 +29,8 @@
 
 ***
 
-### [ExcelViewTests.java](https://searchcode.com/codesearch/view/72414056/)
-{% highlight java %}
-165. HSSFSheet sheet = wb.getSheet("Sheet1");
-166. HSSFRow row = sheet.getRow(0);
-{% endhighlight %}
-
-***
-
 ### [ExcelHandler.java](https://searchcode.com/codesearch/view/71586384/)
+> called by slideshow and see the internal 
 {% highlight java %}
 54. HSSFSheet sheet1 = workbook.createSheet("sheet1");
 59.     HSSFRow row = sheet1.createRow(count); 
@@ -67,6 +39,7 @@
 ***
 
 ### [ExcelViewTests.java](https://searchcode.com/codesearch/view/72414056/)
+> sets the line count . @ see # @ see # no _ this _ in @ see # 
 {% highlight java %}
 95. HSSFSheet sheet = wb.getSheet("Test Sheet");
 96. HSSFRow row = sheet.getRow(2);
@@ -74,23 +47,8 @@
 
 ***
 
-### [XMLGeneration.java](https://searchcode.com/codesearch/view/110498474/)
-{% highlight java %}
-112. HSSFSheet sheet) throws XMLStreamException {
-114. List<HSSFDataValidation> validationData = sheet.getDataValidations();
-{% endhighlight %}
-
-***
-
-### [ExcelUtil.java](https://searchcode.com/codesearch/view/71407799/)
-{% highlight java %}
-156. public static HSSFRow getRow(HSSFSheet sheet, int index) {
-157.     return sheet.getRow(index);
-{% endhighlight %}
-
-***
-
 ### [PatchedPoi.java](https://searchcode.com/codesearch/view/72854649/)
+> creates a 
 {% highlight java %}
 51. public List<HSSFDataValidation> getValidationData(final HSSFSheet sheet,
 54.   DataValidityTable dvt = sheet.getDataValidityTable();
@@ -98,16 +56,8 @@
 
 ***
 
-### [ExcelIdentifier.java](https://searchcode.com/codesearch/view/52992680/)
-{% highlight java %}
-44. HSSFSheet sheet = workbook.getSheetAt(sheetNumber);
-46. int rowCount = sheet.getLastRowNum();
-52.     HSSFRow row = sheet.getRow(rowIndex);
-{% endhighlight %}
-
-***
-
 ### [ExcelExtractor.java](https://searchcode.com/codesearch/view/48925127/)
+> sets the { @ link 2 } or { @ link 0 } is a { @ link code } . 
 {% highlight java %}
 49. HSSFSheet sheet;
 62.   rNum = sheet.getLastRowNum();
@@ -116,46 +66,8 @@
 
 ***
 
-### [WorkbookHSSFImpl.java](https://searchcode.com/codesearch/view/72854626/)
-{% highlight java %}
-235. HSSFSheet hssfSheet = workbook.getSheet(setCellValue.getSheet().getName());
-236. HSSFRow hssfRow = hssfSheet.getRow(setCellValue.getRow());
-238.     hssfRow = hssfSheet.createRow(setCellValue.getRow());
-{% endhighlight %}
-
-***
-
-### [ExcelHandler.java](https://searchcode.com/codesearch/view/71586384/)
-{% highlight java %}
-157. HSSFSheet aSheet = workbook.getSheetAt(numSheets);
-159. for (int rowNumOfSheet = 0; rowNumOfSheet <= aSheet.getLastRowNum(); rowNumOfSheet++) {
-160.   if (null != aSheet.getRow(rowNumOfSheet)) {
-161.     HSSFRow aRow = aSheet.getRow(rowNumOfSheet);
-{% endhighlight %}
-
-***
-
-### [ExportEventsImpl.java](https://searchcode.com/codesearch/view/122444114/)
-{% highlight java %}
-305. private void makeHeader ( final List<Field> columns, final HSSFSheet sheet )
-307.     final Font font = sheet.getWorkbook ().createFont ();
-312.     final CellStyle style = sheet.getWorkbook ().createCellStyle ();
-317.     final HSSFRow row = sheet.createRow ( 0 );
-{% endhighlight %}
-
-***
-
-### [PLReportPOIProducer.java](https://searchcode.com/codesearch/view/43507470/)
-{% highlight java %}
-67. HSSFSheet sheet = workBook.createSheet();
-102. HSSFRow headerRow = sheet.createRow(0);
-129.   HSSFRow row = sheet.createRow(rowIndex++);
-138.     sheet.autoSizeColumn((short)i);
-{% endhighlight %}
-
-***
-
 ### [ExcelFileOut.java](https://searchcode.com/codesearch/view/35739735/)
+> < p > a document in the poi filesystem has been opened for reading . this method retrieves properties of the document and returns all in the cell that are . < p > 0 - the @ param 5 the row 
 {% highlight java %}
 31. HSSFSheet mySheet;
 43.       if (mySheet.getRow(i) != null) {
@@ -166,6 +78,7 @@
 ***
 
 ### [ExcelUtil.java](https://searchcode.com/codesearch/view/73315299/)
+> sets the link number . 
 {% highlight java %}
 72. HSSFSheet sheet = workbook.createSheet(title);
 74. sheet.setDefaultColumnWidth(15);
@@ -177,6 +90,7 @@
 ***
 
 ### [SheetHSSFImpl.java](https://searchcode.com/codesearch/view/72854680/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 42. private HSSFSheet sheet;
 61.   int firstRow = sheet.getFirstRowNum();

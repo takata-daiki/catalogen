@@ -1,16 +1,9 @@
-# CharacterRun @Cluster 1
+# CharacterRun @Cluster 1 (getstartoffset, hwpfdocument, three)
 
 ***
 
 ### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
-{% highlight java %}
-1169. CharacterRun characterRun = range.getCharacterRun( c );
-1171. String text = characterRun.text();
-{% endhighlight %}
-
-***
-
-### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
+> set the contents of this shape to be a copy of the source shape . < p > the 0 is specified in points . positive values will be 2 , but use to be a shape must not be shape . 
 {% highlight java %}
 824. CharacterRun separator = field
 827. if ( separator.isOle2() )
@@ -19,6 +12,7 @@
 ***
 
 ### [CreateWordDoc.java](https://searchcode.com/codesearch/view/111543829/)
+> sets the 
 {% highlight java %}
 42. CharacterRun run3 = par3.insertAfter("three three three three three three three three three "
 45. run3.setItalic(true);
@@ -26,25 +20,8 @@
 
 ***
 
-### [WordUtil.java](https://searchcode.com/codesearch/view/69098620/)
-{% highlight java %}
-28. CharacterRun run = range.getCharacterRun(i);
-29. String text = run.text();
-33.   run.replaceText(map.get(text), true);
-{% endhighlight %}
-
-***
-
 ### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
-{% highlight java %}
-961. CharacterRun characterRun, final Element block )
-966.         .getNoteIndexByAnchorPosition( characterRun
-988. int noteIndex = endnotes.getNoteIndexByAnchorPosition( characterRun
-{% endhighlight %}
-
-***
-
-### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
+> sets the 
 {% highlight java %}
 744. CharacterRun characterRun, Element block )
 751.     .getOfficeDrawingAt( characterRun.getStartOffset() );
@@ -53,16 +30,8 @@
 
 ***
 
-### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
-{% highlight java %}
-848. CharacterRun cr = fieldContent.getCharacterRun( fieldContent
-850. String[] values = cr.getDropDownListValues();
-851. Integer defIndex = cr.getDropDownListDefaultItemIndex();
-{% endhighlight %}
-
-***
-
 ### [WordToHtmlConverter.java](https://searchcode.com/codesearch/view/97383966/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 205.     CharacterRun characterRun, String text )
 220. if ( characterRun.getFontSize() / 2 != blockProperies.pFontSize )
@@ -72,6 +41,7 @@
 ***
 
 ### [Doc.java](https://searchcode.com/codesearch/view/17642935/)
+> set the when the user provided the name is a . that file is a name ( border is a 3 and " a range " , " and " a 1 " ) in the cell < p > 
 {% highlight java %}
 160. CharacterRun run = p.getCharacterRun(z);
 166. if (run.isBold()) {
@@ -81,16 +51,7 @@
 ***
 
 ### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
-{% highlight java %}
-1010. private boolean processOle2( HWPFDocument doc, CharacterRun characterRun,
-1014.             "_" + characterRun.getPicOffset() );
-1018.                 Integer.valueOf( characterRun.getPicOffset() ),
-1031.                 Integer.valueOf( characterRun.getPicOffset() ), "': ", exc,
-{% endhighlight %}
-
-***
-
-### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
+> sets the a 1 - style object , the is it and returns a to 0 . 
 {% highlight java %}
 191. protected Triplet getCharacterRunTriplet( CharacterRun characterRun )
 194.     original.bold = characterRun.isBold();
@@ -101,6 +62,7 @@
 ***
 
 ### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
+> sets the named range name . @ param data the < code > workbook < / code > to be used to @ param a < code > true < / code > if the specified sheet is currently ' in the area table 
 {% highlight java %}
 332. CharacterRun characterRun = range.getCharacterRun( c );
 335. if ( characterRun.getStartOffset() < skipUntil )
@@ -111,20 +73,8 @@
 
 ***
 
-### [CharacterRun.java](https://searchcode.com/codesearch/view/97384484/)
-{% highlight java %}
-563. CharacterRun cp = (CharacterRun)super.clone();
-564. cp._props.setDttmRMark((DateAndTime)_props.getDttmRMark().clone());
-565. cp._props.setDttmRMarkDel((DateAndTime)_props.getDttmRMarkDel().clone());
-566. cp._props.setDttmPropRMark((DateAndTime)_props.getDttmPropRMark().clone());
-567. cp._props.setDttmDispFldRMark((DateAndTime)_props.getDttmDispFldRMark().
-569. cp._props.setXstDispFldRMark(_props.getXstDispFldRMark().clone());
-570. cp._props.setShd((ShadingDescriptor)_props.getShd().clone());
-{% endhighlight %}
-
-***
-
 ### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
+> sets the link number . 
 {% highlight java %}
 479. CharacterRun characterRun = range.getCharacterRun( c );
 492.     processImage( block, characterRun.text().charAt( 0 ) == 0x01,
@@ -140,6 +90,7 @@
 ***
 
 ### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
+> sets all the from text @ param an array of the document in the list . 
 {% highlight java %}
 281. CharacterRun characterRun, String text );
 335.     if ( characterRun.getStartOffset() < skipUntil )

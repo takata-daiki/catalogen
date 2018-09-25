@@ -1,8 +1,9 @@
-# EscherBSERecord @Cluster 3
+# EscherBSERecord @Cluster 3 (bse, byte, format)
 
 ***
 
 ### [SlideShow.java](https://searchcode.com/codesearch/view/97394959/)
+> 
 {% highlight java %}
 825. EscherBSERecord bse = new EscherBSERecord();
 826. bse.setRecordId(EscherBSERecord.RECORD_ID);

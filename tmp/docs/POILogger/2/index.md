@@ -1,8 +1,9 @@
-# POILogger @Cluster 2
+# POILogger @Cluster 2 (error, property, set)
 
 ***
 
 ### [FileInformationBlock.java](https://searchcode.com/codesearch/view/97384033/)
+> sets the 
 {% highlight java %}
 52. public static final POILogger logger = POILogFactory
 179.     logger.log( POILogger.WARN, "Since FIB.nFib == ", strNFib,
@@ -11,6 +12,7 @@
 ***
 
 ### [Picture.java](https://searchcode.com/codesearch/view/97384428/)
+> sets the 2 - d color of the drawing group 
 {% highlight java %}
 62. private static final POILogger log = POILogFactory
 186.             log.log( POILogger.INFO,
@@ -18,15 +20,8 @@
 
 ***
 
-### [POIFSFileSystem.java](https://searchcode.com/codesearch/view/97397929/)
-{% highlight java %}
-68. private static final POILogger _logger =
-190.           _logger.log(POILogger.WARN, msg);
-{% endhighlight %}
-
-***
-
 ### [WordToHtmlConverter.java](https://searchcode.com/codesearch/view/97383966/)
+> sets the 
 {% highlight java %}
 82. private static final POILogger logger = POILogFactory
 740.         logger.log( POILogger.WARN, "Table without body starting at [",
@@ -35,6 +30,7 @@
 ***
 
 ### [EscherMetafileBlip.java](https://searchcode.com/codesearch/view/97383934/)
+> sets the 
 {% highlight java %}
 36. private static final POILogger log = POILogFactory.getLogger(EscherMetafileBlip.class);
 162.         log.log(POILogger.WARN, "Possibly corrupt compression or non-compressed data", e);
@@ -44,6 +40,7 @@
 ***
 
 ### [AbstractWordUtils.java](https://searchcode.com/codesearch/view/97383984/)
+> set the formula expression to use for the bottom border @ param see the one of the border 
 {% highlight java %}
 54. private static final POILogger logger = POILogFactory
 451.         logger.log( POILogger.WARN, "Uknown or unmapped language code: ",
@@ -53,6 +50,7 @@
 ***
 
 ### [CharacterSprmUncompressor.java](https://searchcode.com/codesearch/view/97384370/)
+> sets the , and false for ) @ param cell 
 {% highlight java %}
 37. private static final POILogger logger = POILogFactory
 81.             logger.log( POILogger.ERROR, "Unable to apply all style ",
@@ -64,6 +62,7 @@
 ***
 
 ### [POIDocument.java](https://searchcode.com/codesearch/view/97383067/)
+> sets the 
 {% highlight java %}
 58. private final static POILogger logger = POILogFactory.getLogger(POIDocument.class);
 130.     logger.log(POILogger.WARN, "DocumentSummaryInformation property set came back with wrong class - ", ps.getClass());

@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-9 results
+## [Cluster 1 (pictureindex, sheet, spgr)](./1)
+8 results
 > sets the 
 {% highlight java %}
 210. final HSSFPatriarch patr = this.getDrawingPatriarch();
@@ -12,8 +12,8 @@
 
 ***
 
-## [Cluster 2](./2)
-3 results
+## [Cluster 2 (addpicture, patriarch, short)](./2)
+1 results
 > sets the 
 {% highlight java %}
 112. HSSFPatriarch patriarch = sheet.createDrawingPatriarch();

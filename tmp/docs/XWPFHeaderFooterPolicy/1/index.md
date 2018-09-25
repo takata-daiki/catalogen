@@ -1,8 +1,9 @@
-# XWPFHeaderFooterPolicy @Cluster 1
+# XWPFHeaderFooterPolicy @Cluster 1 (element, hfpolicy, xhtml)
 
 ***
 
 ### [XWPFWordExtractorDecorator.java](https://searchcode.com/codesearch/view/111785573/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 114.     XHTMLContentHandler xhtml, XWPFHeaderFooterPolicy hfPolicy)
 116. if (hfPolicy.getFirstPageHeader() != null) {

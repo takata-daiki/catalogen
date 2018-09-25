@@ -1,8 +1,9 @@
-# Stream @Cluster 1
+# Stream @Cluster 1 (getoperand, getoperation, op)
 
 ***
 
 ### [VSDDumper.java](https://searchcode.com/codesearch/view/97396300/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 56. public static void dumpStream(Stream stream, int indent) {
 65.   Pointer ptr = stream.getPointer();

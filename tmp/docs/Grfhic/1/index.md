@@ -1,8 +1,9 @@
-# Grfhic @Cluster 1
+# Grfhic @Cluster 1 (fmagg, formularecordaggregate, rec)
 
 ***
 
 ### [LFOAbstractType.java](https://searchcode.com/codesearch/view/97384245/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 47. protected Grfhic field_6_grfhic;
 73.     field_6_grfhic.serialize( data, 0xe + offset );

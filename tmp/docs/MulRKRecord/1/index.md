@@ -1,8 +1,9 @@
-# MulRKRecord @Cluster 1
+# MulRKRecord @Cluster 1 (mergecellsrecord, oldregion, rec)
 
 ***
 
 ### [RecordFactory.java](https://searchcode.com/codesearch/view/15642481/)
+> find the given record in the record list by their sid . @ param 0 the 2 5 0 of the document " @ since poi 3 . 1 5 beta 3 
 {% highlight java %}
 232. MulRKRecord mrk = ( MulRKRecord ) retval;
 234. realretval = new Record[ mrk.getNumColumns() ];

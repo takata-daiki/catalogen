@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-6 results
+## [Cluster 1 (_end, math, parent)](./1)
+4 results
 > sets the 
 {% highlight java %}
 150.     StyleSheet styleSheet, PAPX papx, ParagraphProperties properties )
@@ -12,8 +12,8 @@
 
 ***
 
-## [Cluster 2](./2)
-5 results
+## [Cluster 2 (papx, paragraphsprmuncompressor, properties)](./2)
+1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
 99. static Paragraph newParagraph( Range parent, PAPX papx )

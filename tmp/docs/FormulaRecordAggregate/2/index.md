@@ -1,16 +1,9 @@
-# FormulaRecordAggregate @Cluster 2
-
-***
-
-### [ValueRecordsAggregate.java](https://searchcode.com/codesearch/view/15642593/)
-{% highlight java %}
-150. FormulaRecordAggregate lastFormulaAggregate = null;
-195.         lastFormulaAggregate.setStringRecord((StringRecord)rec);
-{% endhighlight %}
+# FormulaRecordAggregate @Cluster 2 (fmagg, formularecordaggregate, rec)
 
 ***
 
 ### [Sheet.java](https://searchcode.com/codesearch/view/15642365/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 395. FormulaRecordAggregate fmAgg = (FormulaRecordAggregate)rec;
 396. Record fmAggRec = fmAgg.getFormulaRecord();
@@ -20,6 +13,7 @@
 ***
 
 ### [Sheet.java](https://searchcode.com/codesearch/view/15642365/)
+> find , and < code > null < / code > in the workbook that is being used in the workbook . 
 {% highlight java %}
 383. FormulaRecordAggregate fmAgg = (FormulaRecordAggregate)valRec;
 384. Record fmAggRec = fmAgg.getFormulaRecord();
@@ -29,6 +23,7 @@
 ***
 
 ### [HSSFCell.java](https://searchcode.com/codesearch/view/15642303/)
+> sets the 
 {% highlight java %}
 631. FormulaRecordAggregate rec = (FormulaRecordAggregate) record;
 632. FormulaRecord frec = rec.getFormulaRecord();

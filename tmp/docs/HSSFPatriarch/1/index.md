@@ -1,8 +1,9 @@
-# HSSFPatriarch @Cluster 1
+# HSSFPatriarch @Cluster 1 (pictureindex, sheet, spgr)
 
 ***
 
 ### [SheetBuilderBase.java](https://searchcode.com/codesearch/view/112311786/)
+> sets the 
 {% highlight java %}
 210. final HSSFPatriarch patr = this.getDrawingPatriarch();
 216. final HSSFComment comment = patr.createComment(anchor);
@@ -11,6 +12,7 @@
 ***
 
 ### [SmjXlsReport.java](https://searchcode.com/codesearch/view/133035254/)
+> creates a new ( excel ) record name record ( or true ) 
 {% highlight java %}
 76. HSSFPatriarch patriarch = sheet.createDrawingPatriarch();
 81. patriarch.createPicture(anchor, pictureIndex);
@@ -19,6 +21,7 @@
 ***
 
 ### [SmjXlsReport.java](https://searchcode.com/codesearch/view/61719045/)
+> creates a new ( excel ) record name record ( or true ) 
 {% highlight java %}
 76. HSSFPatriarch patriarch = sheet.createDrawingPatriarch();
 81. patriarch.createPicture(anchor, pictureIndex);
@@ -27,6 +30,7 @@
 ***
 
 ### [SmjXlsReport.java](https://searchcode.com/codesearch/view/66638946/)
+> creates a new ( excel ) record name record ( or true ) 
 {% highlight java %}
 76. HSSFPatriarch patriarch = sheet.createDrawingPatriarch();
 81. patriarch.createPicture(anchor, pictureIndex);
@@ -35,6 +39,7 @@
 ***
 
 ### [ImageToExcel.java](https://searchcode.com/codesearch/view/94171992/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 23. private HSSFPatriarch patriarch = null;
 51.     patriarch.createPicture(anchor, wb.addPicture(byteArrayOut.toByteArray(), HSSFWorkbook.PICTURE_TYPE_JPEG));
@@ -43,6 +48,7 @@
 ***
 
 ### [HSSFPicture.java](https://searchcode.com/codesearch/view/15642330/)
+> creates a 
 {% highlight java %}
 72. HSSFPatriarch patriarch;
 127.     EscherBSERecord bse = (EscherBSERecord)patriarch.sheet.book.getBSERecord(pictureIndex);
@@ -50,15 +56,8 @@
 
 ***
 
-### [Cell.java](https://searchcode.com/codesearch/view/3760572/)
-{% highlight java %}
-305. HSSFPatriarch hssfp = m_sheet.getHSSFPatriarch();
-306. comment = hssfp.createComment(new HSSFClientAnchor(0,0,0,0,
-{% endhighlight %}
-
-***
-
 ### [EscherAggregate.java](https://searchcode.com/codesearch/view/15642409/)
+> sets the a 4 - byte is used by the chart @ param for the return value of the 1 , - 1 if it is currently a valid record number 
 {% highlight java %}
 713. private void convertPatriarch( HSSFPatriarch patriarch )
 735.     spgr.setRectX1( patriarch.getX1() );
@@ -70,6 +69,7 @@
 ***
 
 ### [EscherAggregate.java](https://searchcode.com/codesearch/view/15642409/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 280. protected HSSFPatriarch patriarch;
 576.         if ( patriarch.getChildren().size() != 0 )

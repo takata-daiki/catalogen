@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (assertequals, name, xssfname)](./1)
 1 results
 > tests that the create record function returns a properly constructed record in the simple case . 
 {% highlight java %}
@@ -13,8 +13,8 @@
 
 ***
 
-## [Cluster 2](./2)
-2 results
+## [Cluster 2 (assertequals, name, xssfname)](./2)
+1 results
 > tests that the create record function returns a properly constructed record in the simple case . 
 {% highlight java %}
 137. XSSFName name = workbook.getName( XSSFName.BUILTIN_FILTER_DB );
@@ -24,7 +24,7 @@
 
 ***
 
-## [Cluster 3](./3)
+## [Cluster 3 (assertequals, name, xssfname)](./3)
 2 results
 > tests that the create record function returns a properly constructed record in the simple case . 
 {% highlight java %}
@@ -35,7 +35,7 @@
 
 ***
 
-## [Cluster 4](./4)
+## [Cluster 4 (assertequals, name, xssfname)](./4)
 1 results
 > tests that the create record function returns a properly constructed record in the simple case . 
 {% highlight java %}
@@ -46,7 +46,7 @@
 
 ***
 
-## [Cluster 5](./5)
+## [Cluster 5 (formula, name, string)](./5)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
@@ -54,16 +54,6 @@
 28.     return name.getNameName();
 32.     String sheetName = name.getSheetName();
 33.     String formula = name.getRefersToFormula();
-{% endhighlight %}
-
-***
-
-## [Cluster 6](./6)
-1 results
-> this comment could not be generated...
-{% highlight java %}
-119. XSSFName name = workbook.getNameAt(i);
-120. if(!name.isDeleted() && !name.isFunctionName()) {
 {% endhighlight %}
 
 ***

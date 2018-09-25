@@ -1,8 +1,9 @@
-# EscherSpgrRecord @Cluster 1
+# EscherSpgrRecord @Cluster 1 (_eschercontainer, eschersprecord, sprecord)
 
 ***
 
 ### [EscherAggregate.java](https://searchcode.com/codesearch/view/15642409/)
+> sets the 
 {% highlight java %}
 633. EscherSpgrRecord spgr = new EscherSpgrRecord();
 643. spgr.setRecordId( EscherSpgrRecord.RECORD_ID );

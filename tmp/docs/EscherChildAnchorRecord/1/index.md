@@ -1,8 +1,9 @@
-# EscherChildAnchorRecord @Cluster 1
+# EscherChildAnchorRecord @Cluster 1 (field_12_bliprecord, getrecordsize, null)
 
 ***
 
 ### [Shape.java](https://searchcode.com/codesearch/view/97394276/)
+> sets the and color 2 for the sheet @ param this a cell to set the properties with @ param cell the cell to set 
 {% highlight java %}
 180. EscherChildAnchorRecord rec = (EscherChildAnchorRecord)getEscherChild(_escherContainer, EscherChildAnchorRecord.RECORD_ID);
 194.         (float)rec.getDx1()*POINT_DPI/MASTER_DPI,

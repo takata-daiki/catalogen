@@ -1,8 +1,9 @@
-# XSSFDataValidation @Cluster 1
+# XSSFDataValidation @Cluster 1 (assertequals, basecolour, ff000000)
 
 ***
 
 ### [SheetXSSFImplTest.java](https://searchcode.com/codesearch/view/72853788/)
+> sets the 
 {% highlight java %}
 30. XSSFDataValidation val = validationData.get(0);
 31. CellRangeAddress[] cellRangeAddresses = val.getRegions().getCellRangeAddresses();

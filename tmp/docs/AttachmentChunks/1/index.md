@@ -1,8 +1,9 @@
-# AttachmentChunks @Cluster 1
+# AttachmentChunks @Cluster 1 (arearef, getfirstcell, int)
 
 ***
 
 ### [MSGExtractor.java](https://searchcode.com/codesearch/view/93257122/)
+> set sheet with the given name 
 {% highlight java %}
 192. for (AttachmentChunks attachment : attachmentChunks) {
 193.   byte[] data = attachment.attachData.getValue();

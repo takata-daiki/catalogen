@@ -1,8 +1,9 @@
-# SummaryInformation @Cluster 1
+# SummaryInformation @Cluster 1 (office, setproperty, si)
 
 ***
 
 ### [MSExtractor.java](https://searchcode.com/codesearch/view/48925180/)
+> < p > writes an unsigned two - byte value to an output stream . < / p > 
 {% highlight java %}
 148. SummaryInformation si = (SummaryInformation)
 150. setProperty(DublinCore.TITLE, si.getTitle());
@@ -27,6 +28,7 @@
 ***
 
 ### [MSExtractor.java](https://searchcode.com/codesearch/view/138790528/)
+> < p > writes an unsigned two - byte value to an output stream . < / p > 
 {% highlight java %}
 148. SummaryInformation si = (SummaryInformation)
 150. setProperty(DublinCore.TITLE, si.getTitle());

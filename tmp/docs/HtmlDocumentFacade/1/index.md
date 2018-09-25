@@ -1,8 +1,9 @@
-# HtmlDocumentFacade @Cluster 1
+# HtmlDocumentFacade @Cluster 1 (field_1_header_len, field_2_reserved, rec)
 
 ***
 
 ### [WordToHtmlConverter.java](https://searchcode.com/codesearch/view/97383966/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 168. private final HtmlDocumentFacade htmlDocumentFacade;
 193.         htmlDocumentFacade.getBody().appendChild( notes );

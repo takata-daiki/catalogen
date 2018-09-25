@@ -2,13 +2,13 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (dir, directory, parent)](./1)
 1 results
-> this comment could not be generated...
+> < p > writes a the property set to a poifs and reads it back in . < / p > @ param in the formula to create a string in @ param offset the offset to create at 
 {% highlight java %}
-178. private void populatePropertyTree(DirectoryProperty root)
-181.     int index = root.getChildIndex();
-196.         root.addChild(property);
+86. DirectoryNode(final DirectoryProperty property,
+99.             property.getName()
+104.     Iterator iter = property.getChildren();
 {% endhighlight %}
 
 ***

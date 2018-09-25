@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (1000, aspectratiox, twips_per_inch)](./1)
 1 results
 > set the text for the associated lower level list items . 
 {% highlight java %}

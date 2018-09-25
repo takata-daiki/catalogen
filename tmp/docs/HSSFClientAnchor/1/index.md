@@ -1,40 +1,9 @@
-# HSSFClientAnchor @Cluster 1
-
-***
-
-### [SmjXlsReport.java](https://searchcode.com/codesearch/view/133035254/)
-{% highlight java %}
-77. HSSFClientAnchor anchor;
-79. anchor.setAnchorType( 2 );
-{% endhighlight %}
-
-***
-
-### [SmjXlsReport.java](https://searchcode.com/codesearch/view/61719045/)
-{% highlight java %}
-77. HSSFClientAnchor anchor;
-79. anchor.setAnchorType( 2 );
-{% endhighlight %}
-
-***
-
-### [ExcelUtil.java](https://searchcode.com/codesearch/view/73315299/)
-{% highlight java %}
-325. HSSFClientAnchor anchor = new HSSFClientAnchor(0, 0, 1023, 255, (short) 6, index, (short) 6,
-327. anchor.setAnchorType(2);
-{% endhighlight %}
-
-***
-
-### [SmjXlsReport.java](https://searchcode.com/codesearch/view/66638946/)
-{% highlight java %}
-77. HSSFClientAnchor anchor;
-79. anchor.setAnchorType( 2 );
-{% endhighlight %}
+# HSSFClientAnchor @Cluster 1 (int, math, pref)
 
 ***
 
 ### [ImageToExcel.java](https://searchcode.com/codesearch/view/94171992/)
+> returns the 2 - d { @ code 0 x 3 d 4 0 } or { @ code 0 x 3 d 5 0 } @ return the of this picture 
 {% highlight java %}
 48. HSSFClientAnchor anchor = new HSSFClientAnchor(0, 0, 1023, 255, col1, row1, col2, row2);
 49. anchor.setAnchorType(2);
@@ -43,6 +12,7 @@
 ***
 
 ### [HSSFPicture.java](https://searchcode.com/codesearch/view/15642330/)
+> calculate the size of the array of with the a value of or the return value of the number of value 
 {% highlight java %}
 104. HSSFClientAnchor pref = getPreferredSize();
 106. int row2 = anchor.getRow1() + (pref.getRow2() - pref.getRow1());
@@ -54,6 +24,7 @@
 ***
 
 ### [HSSFPicture.java](https://searchcode.com/codesearch/view/15642330/)
+> sets the line end width @ param color the new < i > null < / code > if there is no matching are a valid 
 {% highlight java %}
 125. HSSFClientAnchor anchor = new HSSFClientAnchor();
 161.             anchor.setCol2((short)col2);
@@ -65,6 +36,7 @@
 ***
 
 ### [ConvertAnchor.java](https://searchcode.com/codesearch/view/15642362/)
+> convert the supplied java date into a type , to be given by the supplied array . @ param row the row to convert . 
 {% highlight java %}
 59. HSSFClientAnchor a = (HSSFClientAnchor) userAnchor;
 64. anchor.setFlag( (short) a.getAnchorType() );
@@ -81,6 +53,7 @@
 ***
 
 ### [HSSFPicture.java](https://searchcode.com/codesearch/view/15642330/)
+> @ param color the new color 
 {% highlight java %}
 101. HSSFClientAnchor anchor = (HSSFClientAnchor)getAnchor();
 102. anchor.setAnchorType(2);

@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-31 results
+## [Cluster 1 (packagerelationship, part, rel)](./1)
+18 results
 > commit the content types part . 
 {% highlight java %}
 277. private PackagePart createPart(OPCPackage pack, PackagePart corePart, String name, File file, String contentType, String relationshipType) {    
@@ -12,7 +12,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (activepart, getpartname, string)](./2)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}

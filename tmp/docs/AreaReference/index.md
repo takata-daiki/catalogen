@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-21 results
+## [Cluster 1 (assertequals, math, ref)](./1)
+16 results
 > sets the 
 {% highlight java %}
 96. AreaReference paramCellAreaRef = new AreaReference(paramCellName.getRefersToFormula());
@@ -12,8 +12,8 @@
 
 ***
 
-## [Cluster 2](./2)
-9 results
+## [Cluster 2 (arearef, getfirstcell, int)](./2)
+1 results
 > sets the content types of the file ( s ) to input , and returns the result @ param sheet the sheet to look up @ param color the starting offset into the byte array @ param value the short ( 1 6 - bit ) value 
 {% highlight java %}
 321. public static void clear(HSSFSheet sh, AreaReference aRef){

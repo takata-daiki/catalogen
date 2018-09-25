@@ -2,12 +2,13 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (characterpos, data, other)](./1)
 1 results
-> this comment could not be generated...
+> test that we get the same value as excel and , for 
 {% highlight java %}
-186. private FormatTrackingHSSFListener formatListener;
-380.         addTextCell(record, formatListener.formatNumberDateCell(number));
+52. private FormatTrackingHSSFListener formatListener;
+183.         thisStr = formatListener.formatNumberDateCell(frec);
+237.     value = formatListener.formatNumberDateCell(numrec).trim();
 {% endhighlight %}
 
 ***

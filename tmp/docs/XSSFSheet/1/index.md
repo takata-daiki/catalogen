@@ -1,8 +1,9 @@
-# XSSFSheet @Cluster 1
+# XSSFSheet @Cluster 1 (01, assertequals, sheet0)
 
 ***
 
 ### [WorkbookXSSFImplTest.java](https://searchcode.com/codesearch/view/72853773/)
+> sets the and used for the user defined and the default font size . < p > works 1 0 0 7 4 0 < p > the type of the string are by _ value ! < / p > 
 {% highlight java %}
 38. XSSFSheet sheet = workbook.createSheet();
 39. XSSFRow row = sheet.createRow(0);
@@ -10,40 +11,8 @@
 
 ***
 
-### [XMLGeneration.java](https://searchcode.com/codesearch/view/110498474/)
-{% highlight java %}
-149.   XSSFSheet sheet) throws XMLStreamException {
-150. List<XSSFDataValidation> validationData = sheet.getDataValidations();
-{% endhighlight %}
-
-***
-
-### [XSSFExcelExtractorDecorator.java](https://searchcode.com/codesearch/view/111785572/)
-{% highlight java %}
-198. XSSFSheet sheet = document.getSheetAt(i);
-200. if (sheet.getProtect()) {
-{% endhighlight %}
-
-***
-
-### [XSSFExcelExtractorDecorator.java](https://searchcode.com/codesearch/view/111785572/)
-{% highlight java %}
-158. for(XSSFSheet sheet : document) {
-159.    PackagePart part = sheet.getPackagePart();
-{% endhighlight %}
-
-***
-
-### [FilteredTableContextMenu.java](https://searchcode.com/codesearch/view/115088176/)
-{% highlight java %}
-296. final XSSFSheet xssfSheet = workbook.createSheet("ExcelExport_" + sdf.format(new Date()));
-297. final XSSFRow xssfHeaderRow = xssfSheet.createRow(0);
-311.     final XSSFRow xssfRow = xssfSheet.createRow(rowNr);
-{% endhighlight %}
-
-***
-
 ### [XLColorTest.java](https://searchcode.com/codesearch/view/121321469/)
+> sets the 
 {% highlight java %}
 44. XSSFSheet sheet=wb.getSheetAt(0);
 45. XSSFCellStyle cellStyle = sheet.getRow(0).getCell(0).getCellStyle();
@@ -53,6 +22,7 @@
 ***
 
 ### [PageLayoutTest.java](https://searchcode.com/codesearch/view/122565092/)
+> test the that method is of the or more type of the formula ' s formula . 
 {% highlight java %}
 107. XSSFSheet sheet0 = workbook.getSheetAt(0);
 108. XSSFPrintSetup printSetup = sheet0.getPrintSetup();
@@ -65,6 +35,7 @@
 ***
 
 ### [PageLayoutTest.java](https://searchcode.com/codesearch/view/122565092/)
+> test the that method of a < tt > . < / tt > if it is not . 
 {% highlight java %}
 49. XSSFSheet sheet0 = workbook.getSheetAt(0);
 50. XSSFPrintSetup printSetup = sheet0.getPrintSetup();
@@ -77,6 +48,7 @@
 ***
 
 ### [SheetXSSFImplTest.java](https://searchcode.com/codesearch/view/72853788/)
+> sets the a number of the number of columns that were previously @ param range - the number of columns to shift by 
 {% highlight java %}
 44. XSSFSheet sheet = wb.createSheet();
 45. List<XSSFDataValidation> dataValidations = sheet.getDataValidations();  //<-- works
@@ -89,6 +61,7 @@
 ***
 
 ### [XSSFExcelExtractorDecorator.java](https://searchcode.com/codesearch/view/111785572/)
+> set the contents of the record back , so it can be written to disk . 
 {% highlight java %}
 78. XSSFSheet sheet = (XSSFSheet) document.getSheetAt(i);
 82. extractHeaderFooter(sheet.getFirstHeader(), xhtml);
@@ -102,6 +75,7 @@
 ***
 
 ### [SheetXSSFImpl.java](https://searchcode.com/codesearch/view/72854574/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 37. private XSSFSheet sheet;
 58.   int firstRow = sheet.getFirstRowNum();

@@ -1,8 +1,9 @@
-# POIFSDocumentPath @Cluster 3
+# POIFSDocumentPath @Cluster 3 (components, length, path)
 
 ***
 
 ### [POIFSDocumentPath.java](https://searchcode.com/codesearch/view/15642282/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 129. public POIFSDocumentPath(final POIFSDocumentPath path,
 135.         this.components = new String[ path.components.length ];

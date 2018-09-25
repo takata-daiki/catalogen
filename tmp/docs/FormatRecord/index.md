@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (format, formatrecord, rec)](./1)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
@@ -14,9 +14,9 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (byte, retval, short)](./2)
 1 results
-> this comment could not be generated...
+> test that we get the same value as excel and , for 
 {% highlight java %}
 1216. FormatRecord retval = new FormatRecord();   // the differnt formats
 1221.         retval.setIndexCode(( short ) 5);
@@ -43,25 +43,13 @@
 
 ***
 
-## [Cluster 3](./3)
+## [Cluster 3 (equals, format, formatrecord)](./3)
 1 results
 > returns the color of the given sheet @ see org . apache . poi . xwpf . usermodel . ibody # " ( 1 2 1 6 ) . 
 {% highlight java %}
 2021.   FormatRecord r = (FormatRecord)iterator.next();
 2022.   if (r.getFormatString().equals(format)) {
 2023. return r.getIndexCode();
-{% endhighlight %}
-
-***
-
-## [Cluster 4](./4)
-1 results
-> this comment could not be generated...
-{% highlight java %}
-126. FormatRecord r = (FormatRecord) i.next();
-127. if ( formats.size() < r.getIndexCode() + 1 )
-129.     formats.setSize( r.getIndexCode() + 1 );
-131. formats.set( r.getIndexCode(), r.getFormatString() );
 {% endhighlight %}
 
 ***

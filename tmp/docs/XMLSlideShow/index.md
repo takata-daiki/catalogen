@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (getbeanlist, getslides, xmlslideshow)](./1)
 1 results
 > get the for the document , for example , < code > null < / code > if no formatting is required . 
 {% highlight java %}
@@ -12,8 +12,8 @@
 
 ***
 
-## [Cluster 2](./2)
-14 results
+## [Cluster 2 (ppt, void, xmlslideshow)](./2)
+6 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
 42. private XMLSlideShow generatePreview(XMLSlideShow ppt, List<PreviewReportingDocument> previewData, String cityName,

@@ -1,8 +1,9 @@
-# FibBase @Cluster 1
+# FibBase @Cluster 1 (excelextractor, extractor, false)
 
 ***
 
 ### [FileInformationBlock.java](https://searchcode.com/codesearch/view/97384033/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 55. private FibBase _fibBase;
 75.     if ( _fibBase.isFEncrypted() )

@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (add, cell, field_5_dbcells)](./1)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
@@ -17,8 +17,8 @@
 
 ***
 
-## [Cluster 2](./2)
-14 results
+## [Cluster 2 (_array, intlist, rval)](./2)
+7 results
 > remove a number of merged regions of cells ( hence letting them free ) @ param indices a set of the regions to unmerge 
 {% highlight java %}
 342. IntList other = ( IntList ) o;

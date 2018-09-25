@@ -2,12 +2,14 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (papx, paragraphsprmuncompressor, properties)](./1)
 1 results
-> this comment could not be generated...
+> test that we get the same value as excel and , for 
 {% highlight java %}
-86. private POIFSBigBlockSize bigBlockSize = 
-603.   return bigBlockSize.getBigBlockSize();
+59. private POIFSBigBlockSize bigBlockSize;
+124.         int max_entries_per_block = bigBlockSize.getXBATEntriesPerBlock(); 
+125.         int chain_index_offset    = bigBlockSize.getNextXBATChainOffset(); 
+292.     int limit = bigBlockSize.getBATEntriesPerBlock(); 
 {% endhighlight %}
 
 ***

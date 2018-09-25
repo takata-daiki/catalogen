@@ -1,8 +1,9 @@
-# Colorref @Cluster 1
+# Colorref @Cluster 1 (16, byte, final)
 
 ***
 
 ### [SHDAbstractType.java](https://searchcode.com/codesearch/view/97384258/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 45. protected Colorref field_2_cvBack;
 64.     field_2_cvBack.serialize( data, 0x4 + offset );

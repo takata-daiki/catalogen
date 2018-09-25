@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-41 results
+## [Cluster 1 (cs, datastyle, headerstyle)](./1)
+34 results
 > this method is for the sheet and it # value @ param 
 {% highlight java %}
 30. XSSFCellStyle newStyle = (XSSFCellStyle) style;
@@ -12,7 +12,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (designer, short, xssfcellstyle)](./2)
 1 results
 > sets the 
 {% highlight java %}
@@ -24,7 +24,7 @@
 
 ***
 
-## [Cluster 3](./3)
+## [Cluster 3 (cellstyle, getalignment, getcellstyle)](./3)
 1 results
 > if the shape is top then @ param to 0 - based 
 {% highlight java %}

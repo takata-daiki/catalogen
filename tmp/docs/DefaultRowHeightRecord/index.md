@@ -2,13 +2,13 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (field_42_dttmrmark, field_53_dttmproprmark, field_58_dttmconflict)](./1)
 1 results
-> this comment could not be generated...
+> creates the 
 {% highlight java %}
-164. DefaultRowHeightRecord rec = new DefaultRowHeightRecord();
-165. rec.field_1_option_flags = field_1_option_flags;
-166. rec.field_2_row_height = field_2_row_height;
+1604. DefaultRowHeightRecord retval = new DefaultRowHeightRecord();
+1606. retval.setOptionFlags(( short ) 0);
+1607. retval.setRowHeight(( short ) 0xff);
 {% endhighlight %}
 
 ***

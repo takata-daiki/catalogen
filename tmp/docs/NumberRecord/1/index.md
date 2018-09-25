@@ -1,8 +1,9 @@
-# NumberRecord @Cluster 1
+# NumberRecord @Cluster 1 (field_1_row, nrec, rec)
 
 ***
 
 ### [NumberRecord.java](https://searchcode.com/codesearch/view/15642464/)
+> sets the auto series field value . excel 5 only ( true ) 
 {% highlight java %}
 327. NumberRecord rec = new NumberRecord();
 328. rec.field_1_row = field_1_row;
@@ -14,23 +15,13 @@
 ***
 
 ### [HSSFCell.java](https://searchcode.com/codesearch/view/15642303/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 374. NumberRecord nrec = null;
 384. nrec.setColumn(col);
 387.     nrec.setValue(getNumericCellValue());
 389. nrec.setXFIndex(styleIndex);
 390. nrec.setRow(row);
-{% endhighlight %}
-
-***
-
-### [Sheet.java](https://searchcode.com/codesearch/view/15642365/)
-{% highlight java %}
-893. NumberRecord rec = new NumberRecord();
-896. rec.setRow(row);
-897. rec.setColumn(col);
-898. rec.setValue(value);
-899. rec.setXFIndex(( short ) 0x0f);
 {% endhighlight %}
 
 ***

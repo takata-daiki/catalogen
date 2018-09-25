@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (cells, null, rows)](./1)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
@@ -22,7 +22,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (cells, data, int)](./2)
 1 results
 > called by the class that is responsible for writing this sucker . subclasses should implement this so that their data is passed back in a byte array . @ param offset to in bytes @ param data the data stream to serialize to . @ throws ioexception if an error occurs while writing . 
 {% highlight java %}
@@ -33,7 +33,7 @@
 
 ***
 
-## [Cluster 3](./3)
+## [Cluster 3 (insertcell, rec, valuerecordsaggregate)](./3)
 1 results
 > creates the < code > slideshow < / code > object that represents the slide ' s that this class belongs to . 
 {% highlight java %}
@@ -43,7 +43,7 @@
 
 ***
 
-## [Cluster 4](./4)
+## [Cluster 4 (celliter, valuerecordsaggregate, vragg)](./4)
 1 results
 > sets the 
 {% highlight java %}

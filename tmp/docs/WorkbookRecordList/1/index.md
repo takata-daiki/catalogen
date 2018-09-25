@@ -1,8 +1,9 @@
-# WorkbookRecordList @Cluster 1
+# WorkbookRecordList @Cluster 1 (extractor, wordextractor, wrappermethod)
 
 ***
 
 ### [Workbook.java](https://searchcode.com/codesearch/view/15642358/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 97. protected WorkbookRecordList        records     = new WorkbookRecordList();
 163.             records.add(rec);

@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (note, note_visible, record)](./1)
 4 results
 > assign a comment to this cell @ param comment comment associated with this cell 
 {% highlight java %}
@@ -13,8 +13,8 @@
 
 ***
 
-## [Cluster 2](./2)
-14 results
+## [Cluster 2 (anchor, createcomment, short)](./2)
+7 results
 > sets the shape - @ param this 
 {% highlight java %}
 160. HSSFComment shape = new HSSFComment(null, anchor);

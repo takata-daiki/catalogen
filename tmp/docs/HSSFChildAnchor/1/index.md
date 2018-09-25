@@ -1,8 +1,9 @@
-# HSSFChildAnchor @Cluster 1
+# HSSFChildAnchor @Cluster 1 (cellstyle, defaultcellstyle2, setfont)
 
 ***
 
 ### [ConvertAnchor.java](https://searchcode.com/codesearch/view/15642362/)
+> @ param value the param length of the stream in the set - 1 should be 
 {% highlight java %}
 78. HSSFChildAnchor a = (HSSFChildAnchor) userAnchor;
 82. anchor.setDx1( (short) Math.min(a.getDx1(), a.getDx2()) );

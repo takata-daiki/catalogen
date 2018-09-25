@@ -1,8 +1,9 @@
-# FormulaRecord @Cluster 1
+# FormulaRecord @Cluster 1 (formularecord, return, stringrecord)
 
 ***
 
 ### [FormulaRecordAggregate.java](https://searchcode.com/codesearch/view/15642592/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 58. private FormulaRecord formulaRecord;
 88.     pos += formulaRecord.serialize(pos, data);

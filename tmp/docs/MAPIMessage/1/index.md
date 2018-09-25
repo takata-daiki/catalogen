@@ -1,8 +1,9 @@
-# MAPIMessage @Cluster 1
+# MAPIMessage @Cluster 1 (getgrpprlpapx, listlevel, properties)
 
 ***
 
 ### [Msg2Txt.java](https://searchcode.com/codesearch/view/118119498/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 47. private final MAPIMessage msg;
 72.             headers = msg.getHeaders();

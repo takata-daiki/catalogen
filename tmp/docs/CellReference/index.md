@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-6 results
+## [Cluster 1 (if, setzeroheight, sh)](./1)
+2 results
 > sets all the text from the file @ throws ioexception 
 {% highlight java %}
 597. for(CellReference cellRef:areaRef.getAllReferencedCells()){
@@ -13,8 +13,8 @@
 
 ***
 
-## [Cluster 2](./2)
-18 results
+## [Cluster 2 (firstcellreference, getrow, true)](./2)
+9 results
 > creates an empty workbook object with the specified sheet . 
 {% highlight java %}
 35. CellReference firstCellReference = areaReference.getFirstCell();

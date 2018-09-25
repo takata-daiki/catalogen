@@ -1,8 +1,9 @@
-# BoundSheetRecord @Cluster 2
+# BoundSheetRecord @Cluster 2 (case, retval, setsheetname)
 
 ***
 
 ### [Workbook.java](https://searchcode.com/codesearch/view/15642358/)
+> set the cells type ( numeric , formula or string ) 
 {% highlight java %}
 1720. BoundSheetRecord retval = new BoundSheetRecord();
 1725.         retval.setPositionOfBof(0x0);   // should be set later

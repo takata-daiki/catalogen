@@ -1,8 +1,9 @@
-# ExControl @Cluster 1
+# ExControl @Cluster 1 (_eschercontainer, eschersprecord, sprecord)
 
 ***
 
 ### [SlideShow.java](https://searchcode.com/codesearch/view/97394959/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 1040. ExControl ctrl = new ExControl();
 1041. ExOleObjAtom oleObj = ctrl.getExOleObjAtom();

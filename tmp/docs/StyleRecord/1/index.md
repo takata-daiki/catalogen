@@ -1,8 +1,9 @@
-# StyleRecord @Cluster 1
+# StyleRecord @Cluster 1 (getoperand, getoperation, op)
 
 ***
 
 ### [Workbook.java](https://searchcode.com/codesearch/view/15642358/)
+> set the font weight to use this method to index this < code > - 1 5 : when we read the current shape is the specified shape . 
 {% highlight java %}
 1643. StyleRecord retval = new StyleRecord();
 1648.         retval.setIndex(( short ) 0xffff8010);

@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-6 results
+## [Cluster 1 (maplink, pic, shape)](./1)
+2 results
 > set a boolean value for the property specifying whether to use italics or not if omitted , the default value is true . @ see org . apache . poi . hssf . usermodel . hssfworkbook # bottom ( short ) 
 {% highlight java %}
 98. XSLFPictureShape shape = slide.createPicture(pictureIndex);
@@ -12,7 +12,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (new, shape, xslfpictureshape)](./2)
 1 results
 > creates the 
 {% highlight java %}
