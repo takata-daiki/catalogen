@@ -1,4 +1,4 @@
-# UserEditAtom @Cluster 1 (field_5_ext_rst, null, str)
+# UserEditAtom @Cluster 1 (usereditatom, usr, usroffset)
 
 ***
 

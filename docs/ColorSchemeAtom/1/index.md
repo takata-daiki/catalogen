@@ -1,4 +1,4 @@
-# ColorSchemeAtom @Cluster 1 (16, byte, final)
+# ColorSchemeAtom @Cluster 1 (ca, colorschemeatom, getcolor)
 
 ***
 

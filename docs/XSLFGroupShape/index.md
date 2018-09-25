@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (ppt, void, xmlslideshow)](./1)
+## [Cluster 1 (new, shape, xslfgroupshape)](./1)
 1 results
 > creates a new ( excel ) record from the supplied record @ since poi 3 . 1 4 - beta 2 
 {% highlight java %}

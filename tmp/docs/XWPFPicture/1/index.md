@@ -1,4 +1,4 @@
-# XWPFPicture @Cluster 1 (docxparagraph, getstyleid, null)
+# XWPFPicture @Cluster 1 (getctpicture, picture, void)
 
 ***
 

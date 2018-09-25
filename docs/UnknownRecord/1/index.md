@@ -1,4 +1,4 @@
-# UnknownRecord @Cluster 1 (field_5_ext_rst, null, str)
+# UnknownRecord @Cluster 1 (rec, sid, thedata)
 
 ***
 

@@ -1,4 +1,4 @@
-# UseSelFSRecord @Cluster 1 (field_5_ext_rst, null, str)
+# UseSelFSRecord @Cluster 1 (new, retval, useselfsrecord)
 
 ***
 

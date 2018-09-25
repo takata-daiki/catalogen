@@ -1,4 +1,4 @@
-# OEPlaceholderAtom @Cluster 1 (mrk, nr, numrec)
+# OEPlaceholderAtom @Cluster 1 (getplaceholderatom, getplaceholderid, oep)
 
 ***
 

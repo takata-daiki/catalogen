@@ -1,4 +1,4 @@
-# XWPFParagraphDecorator @Cluster 1 (docxparagraph, getstyleid, null)
+# XWPFParagraphDecorator @Cluster 1 (decorator, element, new)
 
 ***
 

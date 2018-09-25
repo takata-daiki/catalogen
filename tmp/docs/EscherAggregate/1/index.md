@@ -1,4 +1,4 @@
-# EscherAggregate @Cluster 1 (crec, drawingrecord, lastdrawingrecord)
+# EscherAggregate @Cluster 1 (escheraggregate, escherrecords, findfirstrecordbysid)
 
 ***
 

@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (dir, directory, parent)](./1)
+## [Cluster 1 (directorynode, final, property)](./1)
 1 results
 > < p > writes a the property set to a poifs and reads it back in . < / p > @ param in the formula to create a string in @ param offset the offset to create at 
 {% highlight java %}

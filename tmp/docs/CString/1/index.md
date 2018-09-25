@@ -1,4 +1,4 @@
-# CString @Cluster 1 (_doc, chpx, public)
+# CString @Cluster 1 (binarytag, cstring, findfirstoftype)
 
 ***
 

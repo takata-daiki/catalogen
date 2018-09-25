@@ -1,4 +1,4 @@
-# FibRgW97 @Cluster 1 (excelextractor, extractor, false)
+# FibRgW97 @Cluster 1 (_fibrgw, fibrgw97, mainstream)
 
 ***
 

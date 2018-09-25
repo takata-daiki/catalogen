@@ -1,4 +1,4 @@
-# BarRecord @Cluster 1 (arearef, getfirstcell, int)
+# BarRecord @Cluster 1 (barrecord, field_1_barspace, rec)
 
 ***
 

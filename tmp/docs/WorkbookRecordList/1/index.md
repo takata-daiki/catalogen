@@ -1,4 +1,4 @@
-# WorkbookRecordList @Cluster 1 (extractor, wordextractor, wrappermethod)
+# WorkbookRecordList @Cluster 1 (add, records, retval)
 
 ***
 

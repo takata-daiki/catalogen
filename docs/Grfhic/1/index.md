@@ -1,4 +1,4 @@
-# Grfhic @Cluster 1 (fmagg, formularecordaggregate, rec)
+# Grfhic @Cluster 1 (append, field_6_grfhic, null)
 
 ***
 

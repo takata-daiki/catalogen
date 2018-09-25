@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (formula, name, string)](./1)
+## [Cluster 1 (anchor, pic, xssfpicture)](./1)
 1 results
 > add a new child poixmldocumentpart @ param 8 the , which is the list of blocks , - 1 if it ' s not been @ throws . if the . 
 {% highlight java %}

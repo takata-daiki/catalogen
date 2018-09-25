@@ -1,4 +1,4 @@
-# ChartRecord @Cluster 1 (run1, run2, two)
+# ChartRecord @Cluster 1 (chartrecord, field_1_x, rec)
 
 ***
 

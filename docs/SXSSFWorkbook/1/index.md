@@ -1,4 +1,4 @@
-# SXSSFWorkbook @Cluster 1 (getstring, sst, sstrec)
+# SXSSFWorkbook @Cluster 1 (createsheet, sheet, wb)
 
 ***
 

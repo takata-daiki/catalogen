@@ -1,4 +1,4 @@
-# RootProperty @Cluster 1 (in, readshort, recordinputstream)
+# RootProperty @Cluster 1 (_root, _small_blocks, private)
 
 ***
 

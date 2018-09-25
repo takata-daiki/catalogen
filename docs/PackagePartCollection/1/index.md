@@ -1,4 +1,4 @@
-# PackagePartCollection @Cluster 1 (activepart, getpartname, string)
+# PackagePartCollection @Cluster 1 (part, partlist, partname)
 
 ***
 

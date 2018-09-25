@@ -1,4 +1,4 @@
-# CurrentUserAtom @Cluster 1 (c2, crec, getdata)
+# CurrentUserAtom @Cluster 1 (currentuser, getcurrenteditoffset, int)
 
 ***
 

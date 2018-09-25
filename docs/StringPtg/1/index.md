@@ -1,4 +1,4 @@
-# StringPtg @Cluster 1 (getoperand, getoperation, op)
+# StringPtg @Cluster 1 (append, getvalue, stringptg)
 
 ***
 

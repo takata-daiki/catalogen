@@ -1,4 +1,4 @@
-# Ole10Native @Cluster 1 (getprotect, null, objprotect)
+# Ole10Native @Cluster 1 (createfromembeddedoleobject, ole, ole10native)
 
 ***
 

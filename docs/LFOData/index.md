@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (_lfo, _listdata, getlsid)](./1)
+## [Cluster 1 (_lfodata, getrglfolvl, level)](./1)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}

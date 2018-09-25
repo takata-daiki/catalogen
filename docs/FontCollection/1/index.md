@@ -1,4 +1,4 @@
-# FontCollection @Cluster 1 (excelextractor, extractor, false)
+# FontCollection @Cluster 1 (ch, fontcollection, fonts)
 
 ***
 

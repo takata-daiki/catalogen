@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (activepart, getpartname, string)](./1)
+## [Cluster 1 (part, partlist, partname)](./1)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}

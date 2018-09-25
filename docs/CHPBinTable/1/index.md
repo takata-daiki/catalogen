@@ -1,4 +1,4 @@
-# CHPBinTable @Cluster 1 (break, data, littleendian)
+# CHPBinTable @Cluster 1 (cbt, chpbintable, chpoffset)
 
 ***
 

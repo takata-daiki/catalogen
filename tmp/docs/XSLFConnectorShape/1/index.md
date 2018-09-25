@@ -1,4 +1,4 @@
-# XSLFConnectorShape @Cluster 1 (ppt, void, xmlslideshow)
+# XSLFConnectorShape @Cluster 1 (new, shape, xslfconnectorshape)
 
 ***
 

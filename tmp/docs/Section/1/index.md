@@ -1,4 +1,4 @@
-# Section @Cluster 1 (getstring, sst, sstrec)
+# Section @Cluster 1 (for, getparagraph, getsection)
 
 ***
 

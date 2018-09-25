@@ -1,4 +1,4 @@
-# GridsetRecord @Cluster 1 (fmagg, formularecordaggregate, rec)
+# GridsetRecord @Cluster 1 (getgridset, gridset, gridsetrecord)
 
 ***
 

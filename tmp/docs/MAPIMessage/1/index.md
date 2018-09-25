@@ -1,4 +1,4 @@
-# MAPIMessage @Cluster 1 (getgrpprlpapx, listlevel, properties)
+# MAPIMessage @Cluster 1 (attachmentchunks, msg, string)
 
 ***
 

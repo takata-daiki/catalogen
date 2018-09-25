@@ -1,4 +1,4 @@
-# CountryRecord @Cluster 1 (c2, crec, getdata)
+# CountryRecord @Cluster 1 (countryrecord, retval, short)
 
 ***
 

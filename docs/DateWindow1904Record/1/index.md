@@ -1,4 +1,4 @@
-# DateWindow1904Record @Cluster 1 (field_42_dttmrmark, field_53_dttmproprmark, field_58_dttmconflict)
+# DateWindow1904Record @Cluster 1 (1904, datewindow1904record, retval)
 
 ***
 

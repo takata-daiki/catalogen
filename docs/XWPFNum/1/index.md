@@ -1,4 +1,4 @@
-# XWPFNum @Cluster 1 (append, buffy, hfpolicy)
+# XWPFNum @Cluster 1 (abstractnumid, ctdecimalnumber, num)
 
 ***
 

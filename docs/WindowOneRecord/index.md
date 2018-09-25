@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (byte, retval, wsboolrecord)](./1)
+## [Cluster 1 (0x0, retval, short)](./1)
 1 results
 > set the font and " check for the document ( or a if null ) @ param cell the cell to creates @ the @ since poi 3 . 1 4 - beta 2 
 {% highlight java %}

@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (_days_2, get, integerfield)](./1)
+## [Cluster 1 (action_hyperlink, infoatom, interactiveinfoatom)](./1)
 1 results
 > sets whether the rowcolheadings are shown in a viewer @ param show whether to show rowcolheadings or not 
 {% highlight java %}

@@ -1,4 +1,4 @@
-# EscherTextboxWrapper @Cluster 1 (_eschercontainer, eschersprecord, sprecord)
+# EscherTextboxWrapper @Cluster 1 (_eschercontainer, _txtbox, appendchildrecord)
 
 ***
 

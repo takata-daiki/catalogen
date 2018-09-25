@@ -1,4 +1,4 @@
-# DocumentAtom @Cluster 1 (dir, directory, parent)
+# DocumentAtom @Cluster 1 (docatom, master_dpi, shape)
 
 ***
 

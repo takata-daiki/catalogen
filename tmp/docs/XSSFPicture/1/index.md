@@ -1,4 +1,4 @@
-# XSSFPicture @Cluster 1 (formula, name, string)
+# XSSFPicture @Cluster 1 (anchor, pic, xssfpicture)
 
 ***
 

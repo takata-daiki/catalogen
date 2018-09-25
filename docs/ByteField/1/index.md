@@ -1,4 +1,4 @@
-# ByteField @Cluster 1 (break, data, littleendian)
+# ByteField @Cluster 1 (_property_type, _raw_data, bytefield)
 
 ***
 

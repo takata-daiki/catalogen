@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (_doc, chpx, papx)](./1)
+## [Cluster 1 (dumpchpx, hwpflister, listeroriginal)](./1)
 1 results
 > sets whether the rowcolheadings are shown in a viewer @ param show whether to show rowcolheadings or not 
 {% highlight java %}

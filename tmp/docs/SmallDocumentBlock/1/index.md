@@ -1,4 +1,4 @@
-# SmallDocumentBlock @Cluster 1 (getslideidentifier, if, spa)
+# SmallDocumentBlock @Cluster 1 (_data, block, smalldocumentblock)
 
 ***
 

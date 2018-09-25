@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (run1, run2, two)](./1)
+## [Cluster 1 (chartrecord, field_1_x, rec)](./1)
 1 results
 > set the height field for the text record . 
 {% highlight java %}

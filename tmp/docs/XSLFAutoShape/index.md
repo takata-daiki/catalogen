@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (ppt, void, xmlslideshow)](./1)
+## [Cluster 1 (new, shape, xslfautoshape)](./1)
 1 results
 > set the contents of this shape to be a copy of the source shape . this method is called recursively for each shape when 0 . @ param p the font to be used if there ' s a . 
 {% highlight java %}

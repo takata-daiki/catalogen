@@ -1,4 +1,4 @@
-# DocumentNode @Cluster 1 (is, position, rawdatapos)
+# DocumentNode @Cluster 1 (doc, documentnode, documentproperty)
 
 ***
 

@@ -1,4 +1,4 @@
-# PPTXMLDump @Cluster 1 (dg, eschercontainerrecord, ppdrawing)
+# PPTXMLDump @Cluster 1 (dump, new, pptxmldump)
 
 ***
 

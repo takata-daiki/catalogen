@@ -1,4 +1,4 @@
-# ExtSSTRecord @Cluster 1 (excelextractor, extractor, false)
+# ExtSSTRecord @Cluster 1 (absoluteoffsets, extsst, extsstrecord)
 
 ***
 

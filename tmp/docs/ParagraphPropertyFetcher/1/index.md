@@ -1,4 +1,4 @@
-# ParagraphPropertyFetcher @Cluster 1 (par1, par2, two)
+# ParagraphPropertyFetcher @Cluster 1 (fetch, ok, visitor)
 
 ***
 

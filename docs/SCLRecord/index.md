@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (getrownumber, if, short)](./1)
+## [Cluster 1 (field_1_numerator, field_2_denominator, rec)](./1)
 1 results
 > set the num categories field for the series record . 
 {% highlight java %}

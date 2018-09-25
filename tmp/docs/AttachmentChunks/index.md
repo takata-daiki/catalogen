@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (arearef, getfirstcell, int)](./1)
+## [Cluster 1 (attachment, attachmentchunks, getvalue)](./1)
 1 results
 > set sheet with the given name 
 {% highlight java %}

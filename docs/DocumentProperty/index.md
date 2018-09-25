@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (is, position, rawdatapos)](./1)
+## [Cluster 1 (_entries, document, property)](./1)
 1 results
 > ensure the object is a not that of the default set @ param type the record to create 
 {% highlight java %}

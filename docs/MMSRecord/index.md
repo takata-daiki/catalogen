@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (getgrpprlpapx, listlevel, properties)](./1)
+## [Cluster 1 (byte, mmsrecord, retval)](./1)
 1 results
 > creates the 
 {% highlight java %}

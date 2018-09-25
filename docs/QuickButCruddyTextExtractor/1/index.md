@@ -1,4 +1,4 @@
-# QuickButCruddyTextExtractor @Cluster 1 (data_blocks, getroot, properties)
+# QuickButCruddyTextExtractor @Cluster 1 (gettextasstring, qbcte, quickbutcruddytextextractor)
 
 ***
 

@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (currentpiece, currenttextend, currenttextstart)](./1)
+## [Cluster 1 (cft, gettextpieces, tpt)](./1)
 1 results
 > sets the 
 {% highlight java %}

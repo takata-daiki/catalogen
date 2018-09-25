@@ -1,4 +1,4 @@
-# ObjectLinkRecord @Cluster 1 (pack, packagepart, partname)
+# ObjectLinkRecord @Cluster 1 (field_1_anchorid, field_2_link1, rec)
 
 ***
 

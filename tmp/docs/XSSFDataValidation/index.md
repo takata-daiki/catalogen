@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (assertequals, basecolour, ff000000)](./1)
+## [Cluster 1 (cellrangeaddress, cellrangeaddresses, val)](./1)
 1 results
 > sets the 
 {% highlight java %}

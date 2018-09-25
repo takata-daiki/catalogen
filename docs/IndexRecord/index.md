@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (field_1_header_len, field_2_reserved, rec)](./1)
+## [Cluster 1 (index, offset, rows)](./1)
 1 results
 > serializes the record to an existing . @ param index the index of the formatting to return the properties to @ return the number of bytes 
 {% highlight java %}

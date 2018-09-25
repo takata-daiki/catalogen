@@ -1,4 +1,4 @@
-# FileSharingRecord @Cluster 1 (excelextractor, extractor, false)
+# FileSharingRecord @Cluster 1 (filesharingrecord, frec, getfilesharing)
 
 ***
 

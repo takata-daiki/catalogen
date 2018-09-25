@@ -1,4 +1,4 @@
-# ComplexFileTable @Cluster 1 (commonobjectdatasubrecord, short, true)
+# ComplexFileTable @Cluster 1 (cft, complexfiletable, complexoffset)
 
 ***
 

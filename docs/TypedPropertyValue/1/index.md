@@ -1,4 +1,4 @@
-# TypedPropertyValue @Cluster 1 (currentpiece, currenttextend, currenttextstart)
+# TypedPropertyValue @Cluster 1 (case, getvalue, typedpropertyvalue)
 
 ***
 

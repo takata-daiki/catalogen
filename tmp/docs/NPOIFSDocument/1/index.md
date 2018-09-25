@@ -1,4 +1,4 @@
-# NPOIFSDocument @Cluster 1 (mergecellsrecord, oldregion, rec)
+# NPOIFSDocument @Cluster 1 (_current_offset, _document_size, document)
 
 ***
 

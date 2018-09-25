@@ -1,4 +1,4 @@
-# WriteAccessRecord @Cluster 1 (extractor, wordextractor, wrappermethod)
+# WriteAccessRecord @Cluster 1 (getwriteaccess, public, waccess)
 
 ***
 

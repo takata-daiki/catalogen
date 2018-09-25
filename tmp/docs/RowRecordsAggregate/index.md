@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (getrownumber, if, short)](./1)
+## [Cluster 1 (rowiter, rowrecordsaggregate, rragg)](./1)
 1 results
 > sets the 
 {% highlight java %}

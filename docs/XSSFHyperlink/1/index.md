@@ -1,4 +1,4 @@
-# XSSFHyperlink @Cluster 1 (700, createfont, font)
+# XSSFHyperlink @Cluster 1 (cell, createhyperlink, xssfhyperlink)
 
 ***
 

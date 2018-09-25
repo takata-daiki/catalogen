@@ -1,4 +1,4 @@
-# Pointer @Cluster 1 (1000, aspectratiox, twips_per_inch)
+# Pointer @Cluster 1 (out, ptr, system)
 
 ***
 

@@ -1,4 +1,4 @@
-# SprmBuffer @Cluster 1 (getslideidentifier, if, spa)
+# SprmBuffer @Cluster 1 (_papx, short, updatesprm)
 
 ***
 

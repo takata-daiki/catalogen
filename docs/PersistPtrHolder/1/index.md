@@ -1,4 +1,4 @@
-# PersistPtrHolder @Cluster 1 (par1, par2, two)
+# PersistPtrHolder @Cluster 1 (integer, persistptrholder, ptr)
 
 ***
 

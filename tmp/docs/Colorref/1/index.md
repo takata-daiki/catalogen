@@ -1,4 +1,4 @@
-# Colorref @Cluster 1 (16, byte, final)
+# Colorref @Cluster 1 (0x4, field_2_cvback, result)
 
 ***
 

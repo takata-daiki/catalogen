@@ -1,4 +1,4 @@
-# XSLFGroupShape @Cluster 1 (ppt, void, xmlslideshow)
+# XSLFGroupShape @Cluster 1 (new, shape, xslfgroupshape)
 
 ***
 

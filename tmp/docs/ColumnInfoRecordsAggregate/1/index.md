@@ -1,4 +1,4 @@
-# ColumnInfoRecordsAggregate @Cluster 1 (ci, column, columninforecord)
+# ColumnInfoRecordsAggregate @Cluster 1 (ci, columninforecordsaggregate, rec)
 
 ***
 

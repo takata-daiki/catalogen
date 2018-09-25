@@ -1,4 +1,4 @@
-# SHD80AbstractType @Cluster 1 (getrownumber, if, short)
+# SHD80AbstractType @Cluster 1 (field_1_value, other, shd80abstracttype)
 
 ***
 

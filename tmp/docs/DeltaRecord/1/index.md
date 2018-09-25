@@ -1,4 +1,4 @@
-# DeltaRecord @Cluster 1 (field_42_dttmrmark, field_53_dttmproprmark, field_58_dttmconflict)
+# DeltaRecord @Cluster 1 (deltarecord, field_1_max_change, rec)
 
 ***
 

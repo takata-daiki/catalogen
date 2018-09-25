@@ -1,4 +1,4 @@
-# PointerContainingStream @Cluster 1 (1000, aspectratiox, twips_per_inch)
+# PointerContainingStream @Cluster 1 (getpointedtostreams, length, pcs)
 
 ***
 

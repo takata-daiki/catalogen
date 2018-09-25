@@ -1,4 +1,4 @@
-# POITextExtractor @Cluster 1 (log, logger, poilogger)
+# POITextExtractor @Cluster 1 (contentstream, createextractor, docext)
 
 ***
 

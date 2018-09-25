@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (bse, byte, format)](./1)
+## [Cluster 1 (bliprecord, case, hssfpicturedata)](./1)
 1 results
 > sets the line compound style @ see org . apache . poi . openxml 4 j . opc . packageproperties # workbook ( ) 
 {% highlight java %}

@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (getoperand, getoperation, op)](./1)
+## [Cluster 1 (append, getvalue, stringptg)](./1)
 1 results
 > @ param 8 2 the 4 - byte unsigned integer that specifies an id for the xml . 
 {% highlight java %}

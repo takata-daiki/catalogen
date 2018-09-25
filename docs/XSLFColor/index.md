@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (ppt, void, xmlslideshow)](./1)
+## [Cluster 1 (getbuclr, getcolor, xslfcolor)](./1)
 1 results
 > @ since poi 3 . 1 5 beta 3 
 {% highlight java %}

@@ -1,4 +1,4 @@
-# PasswordRev4Record @Cluster 1 (par1, par2, two)
+# PasswordRev4Record @Cluster 1 (by, passwordrev4record, retval)
 
 ***
 

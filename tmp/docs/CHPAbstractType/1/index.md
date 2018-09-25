@@ -1,4 +1,4 @@
-# CHPAbstractType @Cluster 1 (break, data, littleendian)
+# CHPAbstractType @Cluster 1 (equals, if, other)
 
 ***
 

@@ -1,4 +1,4 @@
-# LFOData @Cluster 1 (_lfo, _listdata, getlsid)
+# LFOData @Cluster 1 (_lfodata, getrglfolvl, level)
 
 ***
 

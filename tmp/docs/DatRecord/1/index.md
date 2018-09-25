@@ -1,4 +1,4 @@
-# DatRecord @Cluster 1 (customproperty, final, this)
+# DatRecord @Cluster 1 (datrecord, field_1_options, rec)
 
 ***
 

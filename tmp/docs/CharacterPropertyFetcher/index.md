@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (firstcellreference, getrow, true)](./1)
+## [Cluster 1 (fetch, fetcher, ok)](./1)
 1 results
 > set whether the text should be wrapped @ param wrapped a boolean value indicating if the text in a cell should be line - wrapped within the cell . 
 {% highlight java %}

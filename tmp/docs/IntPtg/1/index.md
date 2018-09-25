@@ -1,4 +1,4 @@
-# IntPtg @Cluster 1 (for, get, index)
+# IntPtg @Cluster 1 (append, getvalue, intptg)
 
 ***
 

@@ -1,4 +1,4 @@
-# ExtendedFormatRecord @Cluster 1 (excelextractor, extractor, false)
+# ExtendedFormatRecord @Cluster 1 (black, retval, short)
 
 ***
 

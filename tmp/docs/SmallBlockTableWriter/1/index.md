@@ -1,4 +1,4 @@
-# SmallBlockTableWriter @Cluster 1 (getslideidentifier, if, spa)
+# SmallBlockTableWriter @Cluster 1 (getsbat, header_block_writer, sbtw)
 
 ***
 

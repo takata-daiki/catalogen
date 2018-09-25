@@ -1,4 +1,4 @@
-# VariantBool @Cluster 1 (celliter, valuerecordsaggregate, vragg)
+# VariantBool @Cluster 1 (bool, getvalue, variantbool)
 
 ***
 

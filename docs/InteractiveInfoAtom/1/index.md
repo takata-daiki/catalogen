@@ -1,4 +1,4 @@
-# InteractiveInfoAtom @Cluster 1 (_days_2, get, integerfield)
+# InteractiveInfoAtom @Cluster 1 (action_hyperlink, infoatom, interactiveinfoatom)
 
 ***
 

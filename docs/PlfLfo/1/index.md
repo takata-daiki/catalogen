@@ -1,4 +1,4 @@
-# PlfLfo @Cluster 1 (1000, aspectratiox, twips_per_inch)
+# PlfLfo @Cluster 1 (_lfomac, if, other)
 
 ***
 

@@ -1,4 +1,4 @@
-# FFDataBaseAbstractType @Cluster 1 (excelextractor, extractor, false)
+# FFDataBaseAbstractType @Cluster 1 (ffdatabaseabstracttype, if, other)
 
 ***
 

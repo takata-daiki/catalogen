@@ -1,4 +1,4 @@
-# LineFormatRecord @Cluster 1 (newrec, rec, record)
+# LineFormatRecord @Cluster 1 (field_1_linecolor, field_2_linepattern, rec)
 
 ***
 

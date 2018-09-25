@@ -1,4 +1,4 @@
-# EscherSpgrRecord @Cluster 1 (_eschercontainer, eschersprecord, sprecord)
+# EscherSpgrRecord @Cluster 1 (escherspgrrecord, shape, spgr)
 
 ***
 

@@ -1,4 +1,4 @@
-# InteractiveInfo @Cluster 1 (_days_2, get, integerfield)
+# InteractiveInfo @Cluster 1 (getinteractiveinfoatom, info, interactiveinfo)
 
 ***
 

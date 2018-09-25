@@ -1,4 +1,4 @@
-# MMSRecord @Cluster 1 (getgrpprlpapx, listlevel, properties)
+# MMSRecord @Cluster 1 (byte, mmsrecord, retval)
 
 ***
 

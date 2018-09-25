@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (cell, cell1, thecell)](./1)
+## [Cluster 1 (cellstyle, fill, getindex)](./1)
 1 results
 > . xlsx 
 {% highlight java %}

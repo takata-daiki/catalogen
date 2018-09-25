@@ -1,4 +1,4 @@
-# SCLRecord @Cluster 1 (getrownumber, if, short)
+# SCLRecord @Cluster 1 (field_1_numerator, field_2_denominator, rec)
 
 ***
 

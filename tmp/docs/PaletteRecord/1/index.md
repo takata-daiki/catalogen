@@ -1,4 +1,4 @@
-# PaletteRecord @Cluster 1 (packagerelationship, pic, rel)
+# PaletteRecord @Cluster 1 (blue, palette, paletterecord)
 
 ***
 

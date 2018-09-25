@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (field_1_pane, field_2_row_active_cell, rec)](./1)
+## [Cluster 1 (field_1_chartgroupindex, rec, serieschartgroupindexrecord)](./1)
 1 results
 > set the line pattern field for the lineformat record . 
 {% highlight java %}

@@ -1,4 +1,4 @@
-# EscherGraphics @Cluster 1 (dgg, getfileidclusters, int)
+# EscherGraphics @Cluster 1 (eschergraphics, height, width)
 
 ***
 
