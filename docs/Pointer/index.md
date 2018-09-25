@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (1000, aspectratiox, twips_per_inch)](./1)
+## [Cluster 1 (out, ptr, system)](./1)
 1 results
 > make sure that the specified evaluated cell value represents a single the right type ( ' ) ' a single : ' / row ' ) @ throws evaluationexception 
 {% highlight java %}

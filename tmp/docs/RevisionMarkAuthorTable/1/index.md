@@ -1,4 +1,4 @@
-# RevisionMarkAuthorTable @Cluster 1 (in, readshort, recordinputstream)
+# RevisionMarkAuthorTable @Cluster 1 (_rmat, protected, public)
 
 ***
 

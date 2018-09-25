@@ -1,4 +1,4 @@
-# PackagePropertiesPart @Cluster 1 (activepart, getpartname, string)
+# PackagePropertiesPart @Cluster 1 (date, new, packageproperties)
 
 ***
 

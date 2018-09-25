@@ -1,4 +1,4 @@
-# XSSFClientAnchor @Cluster 1 (cellstyle, getalignment, getcellstyle)
+# XSSFClientAnchor @Cluster 1 (anchor, ctmarker, getfrom)
 
 ***
 

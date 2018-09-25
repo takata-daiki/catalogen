@@ -1,4 +1,4 @@
-# DBCellRecord @Cluster 1 (customproperty, final, this)
+# DBCellRecord @Cluster 1 (cellrecord, dbcellrecord, pos)
 
 ***
 

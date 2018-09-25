@@ -1,4 +1,4 @@
-# XSLFShadow @Cluster 1 (new, shape, xslfpictureshape)
+# XSLFShadow @Cluster 1 (fill, getoutline, shadow)
 
 ***
 

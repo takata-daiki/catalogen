@@ -1,4 +1,4 @@
-# MulRKRecord @Cluster 1 (mergecellsrecord, oldregion, rec)
+# MulRKRecord @Cluster 1 (getnumcolumns, mrk, nr)
 
 ***
 

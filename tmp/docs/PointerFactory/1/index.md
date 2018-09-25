@@ -1,4 +1,4 @@
-# PointerFactory @Cluster 1 (1000, aspectratiox, twips_per_inch)
+# PointerFactory @Cluster 1 (0x24, contents, ptrfactory)
 
 ***
 

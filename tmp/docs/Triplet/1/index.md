@@ -1,4 +1,4 @@
-# Triplet @Cluster 1 (currentpiece, currenttextend, currenttextstart)
+# Triplet @Cluster 1 (characterrun, fontname, triplet)
 
 ***
 

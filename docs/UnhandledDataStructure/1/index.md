@@ -1,4 +1,4 @@
-# UnhandledDataStructure @Cluster 1 (currentpiece, currenttextend, currenttextstart)
+# UnhandledDataStructure @Cluster 1 (_unknownmap, buf, ds)
 
 ***
 

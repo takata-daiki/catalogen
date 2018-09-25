@@ -1,4 +1,4 @@
-# StringRecord @Cluster 1 (getoperand, getoperation, op)
+# StringRecord @Cluster 1 (getstring, srec, stringrecord)
 
 ***
 

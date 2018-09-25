@@ -1,4 +1,4 @@
-# EscherSplitMenuColorsRecord @Cluster 1 (_eschercontainer, eschersprecord, sprecord)
+# EscherSplitMenuColorsRecord @Cluster 1 (eschersplitmenucolorsrecord, short, splitmenucolors)
 
 ***
 

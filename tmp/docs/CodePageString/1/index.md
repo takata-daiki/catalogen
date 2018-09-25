@@ -1,4 +1,4 @@
-# CodePageString @Cluster 1 (16, byte, final)
+# CodePageString @Cluster 1 (codepage, codepagestring, string)
 
 ***
 

@@ -1,4 +1,4 @@
-# BackupRecord @Cluster 1 (arearef, getfirstcell, int)
+# BackupRecord @Cluster 1 (backuprecord, retval, short)
 
 ***
 

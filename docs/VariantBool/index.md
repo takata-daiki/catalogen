@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (celliter, valuerecordsaggregate, vragg)](./1)
+## [Cluster 1 (bool, getvalue, variantbool)](./1)
 1 results
 > return the underlying font for this header / footer @ return the . 
 {% highlight java %}

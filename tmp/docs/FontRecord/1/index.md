@@ -1,4 +1,4 @@
-# FontRecord @Cluster 1 (excelextractor, extractor, false)
+# FontRecord @Cluster 1 (fontrecord, retval, short)
 
 ***
 

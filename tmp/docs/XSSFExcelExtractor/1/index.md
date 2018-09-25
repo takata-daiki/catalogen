@@ -1,4 +1,4 @@
-# XSSFExcelExtractor @Cluster 1 (assertequals, basecolour, ff000000)
+# XSSFExcelExtractor @Cluster 1 (extractor, false, xssfexcelextractor)
 
 ***
 

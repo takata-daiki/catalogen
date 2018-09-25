@@ -1,4 +1,4 @@
-# HSSFDataFormatter @Cluster 1 (getformat, m_dataformat, setdataformat)
+# HSSFDataFormatter @Cluster 1 (format, formater, zelle)
 
 ***
 

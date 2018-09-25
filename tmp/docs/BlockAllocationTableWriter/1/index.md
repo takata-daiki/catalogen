@@ -1,4 +1,4 @@
-# BlockAllocationTableWriter @Cluster 1 (blankrecord, brec, case)
+# BlockAllocationTableWriter @Cluster 1 (_sbat, allocatespace, blockallocationtablewriter)
 
 ***
 

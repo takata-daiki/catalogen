@@ -1,4 +1,4 @@
-# XWPFSettings @Cluster 1 (document, getpicturedatabyid, picture)
+# XWPFSettings @Cluster 1 (getinputstream, inputstream, settings)
 
 ***
 

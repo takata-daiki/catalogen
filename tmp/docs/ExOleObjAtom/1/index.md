@@ -1,4 +1,4 @@
-# ExOleObjAtom @Cluster 1 (_eschercontainer, eschersprecord, sprecord)
+# ExOleObjAtom @Cluster 1 (ctrl, exoleobjatom, oleobj)
 
 ***
 

@@ -1,4 +1,4 @@
-# LegendRecord @Cluster 1 (newrec, rec, record)
+# LegendRecord @Cluster 1 (field_1_xaxisupperleft, field_2_yaxisupperleft, rec)
 
 ***
 

@@ -1,4 +1,4 @@
-# PositionDependentRecordContainer @Cluster 1 (1000, aspectratiox, twips_per_inch)
+# PositionDependentRecordContainer @Cluster 1 (_records, pdrc, positiondependentrecordcontainer)
 
 ***
 

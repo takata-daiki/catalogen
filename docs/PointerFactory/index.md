@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (1000, aspectratiox, twips_per_inch)](./1)
+## [Cluster 1 (0x24, contents, ptrfactory)](./1)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}

@@ -1,4 +1,4 @@
-# POIXMLTextExtractor @Cluster 1 (log, logger, poilogger)
+# POIXMLTextExtractor @Cluster 1 (extractor, getdocument, poixmltextextractor)
 
 ***
 

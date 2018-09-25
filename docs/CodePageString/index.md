@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (16, byte, final)](./1)
+## [Cluster 1 (codepage, codepagestring, string)](./1)
 1 results
 > returns the instance of a string with the of type 
 {% highlight java %}

@@ -1,4 +1,4 @@
-# PrintSetupRecord @Cluster 1 (close, pptextractor, true)
+# PrintSetupRecord @Cluster 1 (field_10_footermargin, printsetuprecord, rec)
 
 ***
 

@@ -1,4 +1,4 @@
-# LineSpacingDescriptor @Cluster 1 (newrec, rec, record)
+# LineSpacingDescriptor @Cluster 1 (_papx, _props, lspd)
 
 ***
 

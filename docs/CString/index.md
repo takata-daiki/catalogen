@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (_doc, chpx, public)](./1)
+## [Cluster 1 (binarytag, cstring, findfirstoftype)](./1)
 1 results
 > return the formula that is associated with the for this with a for of the cell that . @ return the cell 
 {% highlight java %}

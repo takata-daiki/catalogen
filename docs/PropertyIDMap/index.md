@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (close, pptextractor, true)](./1)
+## [Cluster 1 (pid_linksdirty, pid_presformat, put)](./1)
 1 results
 > returns the par count or 0 if the { @ link documentsummaryinformation } does not contain a manager . 
 {% highlight java %}

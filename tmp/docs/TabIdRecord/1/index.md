@@ -1,4 +1,4 @@
-# TabIdRecord @Cluster 1 (getsummaryinformation, summaryinfo, summaryinformation)
+# TabIdRecord @Cluster 1 (new, retval, tabidrecord)
 
 ***
 

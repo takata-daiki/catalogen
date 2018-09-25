@@ -1,4 +1,4 @@
-# ExObjList @Cluster 1 (_eschercontainer, eschersprecord, sprecord)
+# ExObjList @Cluster 1 (exobjlist, lst, objatom)
 
 ***
 

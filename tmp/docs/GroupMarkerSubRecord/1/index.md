@@ -1,4 +1,4 @@
-# GroupMarkerSubRecord @Cluster 1 (fmagg, formularecordaggregate, rec)
+# GroupMarkerSubRecord @Cluster 1 (groupmarkersubrecord, rec, reserved)
 
 ***
 

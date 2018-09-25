@@ -1,4 +1,4 @@
-# XSLFAutoShape @Cluster 1 (ppt, void, xmlslideshow)
+# XSLFAutoShape @Cluster 1 (new, shape, xslfautoshape)
 
 ***
 

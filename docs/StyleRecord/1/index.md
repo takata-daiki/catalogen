@@ -1,4 +1,4 @@
-# StyleRecord @Cluster 1 (getoperand, getoperation, op)
+# StyleRecord @Cluster 1 (byte, retval, short)
 
 ***
 

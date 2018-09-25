@@ -1,4 +1,4 @@
-# EscherChildAnchorRecord @Cluster 1 (field_12_bliprecord, getrecordsize, null)
+# EscherChildAnchorRecord @Cluster 1 (float, master_dpi, rec)
 
 ***
 

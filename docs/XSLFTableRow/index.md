@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (addcell, color, th)](./1)
+## [Cluster 1 (20, addcell, headerrow)](./1)
 1 results
 > sets the 
 {% highlight java %}

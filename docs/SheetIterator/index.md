@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (field_1_pane, field_2_row_active_cell, rec)](./1)
+## [Cluster 1 (sheetiterator, toreturn, when)](./1)
 1 results
 > of / sets the content types part to this part . if this is a 0 - based , then ' . a ' sheets ' , ' , ' a ' and ' , ' @ param ' the cell ' s format ' s formula 
 {% highlight java %}

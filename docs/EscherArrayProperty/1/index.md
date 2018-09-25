@@ -1,4 +1,4 @@
-# EscherArrayProperty @Cluster 1 (crec, drawingrecord, lastdrawingrecord)
+# EscherArrayProperty @Cluster 1 (data, length, verticesprop)
 
 ***
 

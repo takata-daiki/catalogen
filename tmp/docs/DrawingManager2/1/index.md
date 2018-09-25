@@ -1,4 +1,4 @@
-# DrawingManager2 @Cluster 1 (metadata, set, summary)
+# DrawingManager2 @Cluster 1 (abstractshape, allocateshapeid, drawingmanager)
 
 ***
 

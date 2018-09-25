@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (new, shape, xslfpictureshape)](./1)
+## [Cluster 1 (fill, getoutline, shadow)](./1)
 1 results
 > is the sheet from a shape @ param 
 {% highlight java %}

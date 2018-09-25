@@ -1,4 +1,4 @@
-# HSSFChildAnchor @Cluster 1 (cellstyle, defaultcellstyle2, setfont)
+# HSSFChildAnchor @Cluster 1 (anchor, math, short)
 
 ***
 

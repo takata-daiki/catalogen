@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (getformat, m_dataformat, setdataformat)](./1)
+## [Cluster 1 (format, formater, zelle)](./1)
 1 results
 > sets the 
 {% highlight java %}

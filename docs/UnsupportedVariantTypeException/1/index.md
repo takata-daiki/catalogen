@@ -1,4 +1,4 @@
-# UnsupportedVariantTypeException @Cluster 1 (field_5_ext_rst, null, str)
+# UnsupportedVariantTypeException @Cluster 1 (catch, ex, getvalue)
 
 ***
 

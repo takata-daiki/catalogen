@@ -1,4 +1,4 @@
-# HeaderBlock @Cluster 1 (_doc, chpx, papx)
+# HeaderBlock @Cluster 1 (bigblocksize, data_blocks, header_block)
 
 ***
 

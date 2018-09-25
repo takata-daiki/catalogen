@@ -1,4 +1,4 @@
-# WordToHtmlConverter @Cluster 1 (extractor, wordextractor, wrappermethod)
+# WordToHtmlConverter @Cluster 1 (document, documentbuilderfactory, wordtohtmlconverter)
 
 ***
 

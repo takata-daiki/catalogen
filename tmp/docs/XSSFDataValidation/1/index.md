@@ -1,4 +1,4 @@
-# XSSFDataValidation @Cluster 1 (assertequals, basecolour, ff000000)
+# XSSFDataValidation @Cluster 1 (cellrangeaddress, cellrangeaddresses, val)
 
 ***
 

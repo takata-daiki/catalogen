@@ -1,4 +1,4 @@
-# XSLFColor @Cluster 1 (ppt, void, xmlslideshow)
+# XSLFColor @Cluster 1 (getbuclr, getcolor, xslfcolor)
 
 ***
 

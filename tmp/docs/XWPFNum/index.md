@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (append, buffy, hfpolicy)](./1)
+## [Cluster 1 (abstractnumid, ctdecimalnumber, num)](./1)
 1 results
 > set the formula expression to be used on the text . 
 {% highlight java %}

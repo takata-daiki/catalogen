@@ -1,4 +1,4 @@
-# EscherPropertyFactory @Cluster 1 (eschershapepathproperty, eschersimpleproperty, false)
+# EscherPropertyFactory @Cluster 1 (createproperties, data, escherpropertyfactory)
 
 ***
 

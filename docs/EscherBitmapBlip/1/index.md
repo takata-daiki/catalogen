@@ -1,4 +1,4 @@
-# EscherBitmapBlip @Cluster 1 (bse, byte, format)
+# EscherBitmapBlip @Cluster 1 (bliprecord, case, hssfpicturedata)
 
 ***
 

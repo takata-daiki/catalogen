@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (field_1_left_row_gutter, field_2_top_col_gutter, rec)](./1)
+## [Cluster 1 (getsummaryinformation, hpsfpropertiesonlydocument, summaryinformation)](./1)
 1 results
 > sets the for the specified count . 
 {% highlight java %}

@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (getformat, m_dataformat, setdataformat)](./1)
+## [Cluster 1 (append, hssfevaluationworkbook, wb)](./1)
 1 results
 > print out a summary of the document . 
 {% highlight java %}

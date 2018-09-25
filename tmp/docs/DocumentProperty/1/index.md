@@ -1,4 +1,4 @@
-# DocumentProperty @Cluster 1 (is, position, rawdatapos)
+# DocumentProperty @Cluster 1 (_entries, document, property)
 
 ***
 

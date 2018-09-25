@@ -1,4 +1,4 @@
-# Xst @Cluster 1 (docx, extractor, xwpfwordextractor)
+# Xst @Cluster 1 (_cch, _rgtchar, other)
 
 ***
 

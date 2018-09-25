@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (is, position, rawdatapos)](./1)
+## [Cluster 1 (doc, documentnode, documentproperty)](./1)
 1 results
 > set the text for this shape 
 {% highlight java %}

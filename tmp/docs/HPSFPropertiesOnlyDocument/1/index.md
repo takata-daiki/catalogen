@@ -1,4 +1,4 @@
-# HPSFPropertiesOnlyDocument @Cluster 1 (field_1_left_row_gutter, field_2_top_col_gutter, rec)
+# HPSFPropertiesOnlyDocument @Cluster 1 (getsummaryinformation, hpsfpropertiesonlydocument, summaryinformation)
 
 ***
 

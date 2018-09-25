@@ -1,4 +1,4 @@
-# PrintHeadersRecord @Cluster 1 (close, pptextractor, true)
+# PrintHeadersRecord @Cluster 1 (false, printheadersrecord, retval)
 
 ***
 

@@ -1,4 +1,4 @@
-# ExControl @Cluster 1 (_eschercontainer, eschersprecord, sprecord)
+# ExControl @Cluster 1 (ctrl, excontrol, name)
 
 ***
 

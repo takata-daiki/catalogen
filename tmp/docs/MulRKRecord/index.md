@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (mergecellsrecord, oldregion, rec)](./1)
+## [Cluster 1 (getnumcolumns, mrk, nr)](./1)
 1 results
 > find the given record in the record list by their sid . @ param 0 the 2 5 0 of the document " @ since poi 3 . 1 5 beta 3 
 {% highlight java %}

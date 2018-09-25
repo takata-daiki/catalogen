@@ -1,4 +1,4 @@
-# XSLFBackground @Cluster 1 (ppt, void, xmlslideshow)
+# XSLFBackground @Cluster 1 (bg, bgshape, ctbackground)
 
 ***
 

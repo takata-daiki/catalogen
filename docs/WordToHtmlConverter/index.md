@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (extractor, wordextractor, wrappermethod)](./1)
+## [Cluster 1 (document, documentbuilderfactory, wordtohtmlconverter)](./1)
 1 results
 > parses all the style information from another , or if one 
 {% highlight java %}

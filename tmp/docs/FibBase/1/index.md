@@ -1,4 +1,4 @@
-# FibBase @Cluster 1 (excelextractor, extractor, false)
+# FibBase @Cluster 1 (_fibbase, getnfib, if)
 
 ***
 

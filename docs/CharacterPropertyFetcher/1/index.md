@@ -1,4 +1,4 @@
-# CharacterPropertyFetcher @Cluster 1 (firstcellreference, getrow, true)
+# CharacterPropertyFetcher @Cluster 1 (fetch, fetcher, ok)
 
 ***
 

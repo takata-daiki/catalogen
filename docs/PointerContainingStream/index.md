@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (1000, aspectratiox, twips_per_inch)](./1)
+## [Cluster 1 (getpointedtostreams, length, pcs)](./1)
 1 results
 > method < p > the type is to be in the range [ 0 . 1 2 ] . < br > the in the color for the of 0 ( if ) 0 is a valid value must be in the range [ 0 . @ see # 1 _ i . e . ' . xls > 1 0 0 2 . 1 2 7 > 1 2 4 > 1 4 . @ param workbook the workbook to be used in the workbook . 
 {% highlight java %}

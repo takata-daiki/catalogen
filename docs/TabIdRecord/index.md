@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (getsummaryinformation, summaryinfo, summaryinformation)](./1)
+## [Cluster 1 (new, retval, tabidrecord)](./1)
 1 results
 > creates the 
 {% highlight java %}

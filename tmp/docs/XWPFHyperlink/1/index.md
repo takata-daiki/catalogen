@@ -1,4 +1,4 @@
-# XWPFHyperlink @Cluster 1 (append, buffy, hfpolicy)
+# XWPFHyperlink @Cluster 1 (document, gethyperlinkbyid, hyperlink)
 
 ***
 

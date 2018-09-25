@@ -1,4 +1,4 @@
-# WindowOneRecord @Cluster 1 (byte, retval, wsboolrecord)
+# WindowOneRecord @Cluster 1 (0x0, retval, short)
 
 ***
 

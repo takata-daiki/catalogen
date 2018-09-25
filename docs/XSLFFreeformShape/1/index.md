@@ -1,4 +1,4 @@
-# XSLFFreeformShape @Cluster 1 (ppt, void, xmlslideshow)
+# XSLFFreeformShape @Cluster 1 (new, shape, xslffreeformshape)
 
 ***
 

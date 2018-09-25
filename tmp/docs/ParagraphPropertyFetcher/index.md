@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (par1, par2, two)](./1)
+## [Cluster 1 (fetch, ok, visitor)](./1)
 1 results
 > the the 
 {% highlight java %}

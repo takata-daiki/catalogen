@@ -1,4 +1,4 @@
-# NotesTables @Cluster 1 (comment, note, noterecord)
+# NotesTables @Cluster 1 (_fib, _footnotestables, notestables)
 
 ***
 

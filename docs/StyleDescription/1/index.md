@@ -1,4 +1,4 @@
-# StyleDescription @Cluster 1 (getoperand, getoperation, op)
+# StyleDescription @Cluster 1 (_styledescriptions, chp, sd)
 
 ***
 

@@ -1,4 +1,4 @@
-# FontDetails @Cluster 1 (excelextractor, extractor, false)
+# FontDetails @Cluster 1 (addchar, charactersstrarray, fontdetails)
 
 ***
 

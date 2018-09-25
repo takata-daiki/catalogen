@@ -1,4 +1,4 @@
-# TextPieceTable @Cluster 1 (currentpiece, currenttextend, currenttextstart)
+# TextPieceTable @Cluster 1 (cft, gettextpieces, tpt)
 
 ***
 

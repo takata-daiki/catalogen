@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (fmagg, formularecordaggregate, rec)](./1)
+## [Cluster 1 (append, field_6_grfhic, null)](./1)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}

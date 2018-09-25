@@ -1,4 +1,4 @@
-# ShortField @Cluster 1 (field_1_pane, field_2_row_active_cell, rec)
+# ShortField @Cluster 1 (_name_size, littleendianconsts, short_size)
 
 ***
 

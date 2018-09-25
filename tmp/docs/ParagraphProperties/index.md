@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (par1, par2, two)](./1)
+## [Cluster 1 (getilfo, lfo, properties)](./1)
 1 results
 > create a new comment located . 
 {% highlight java %}

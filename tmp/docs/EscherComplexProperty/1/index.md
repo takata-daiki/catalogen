@@ -1,4 +1,4 @@
-# EscherComplexProperty @Cluster 1 (0xf, cldata, escherclientdatarecord)
+# EscherComplexProperty @Cluster 1 (16le, eschercomplexproperty, prop)
 
 ***
 

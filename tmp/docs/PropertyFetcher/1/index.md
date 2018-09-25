@@ -1,4 +1,4 @@
-# PropertyFetcher @Cluster 1 (close, pptextractor, true)
+# PropertyFetcher @Cluster 1 (fetch, ok, visitor)
 
 ***
 

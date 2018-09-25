@@ -1,4 +1,4 @@
-# FormulaViewer @Cluster 1 (fmagg, formularecordaggregate, rec)
+# FormulaViewer @Cluster 1 (args, formulaviewer, viewer)
 
 ***
 

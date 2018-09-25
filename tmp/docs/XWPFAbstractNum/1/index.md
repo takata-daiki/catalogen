@@ -1,4 +1,4 @@
-# XWPFAbstractNum @Cluster 1 (workbook, xssfsheet, xssfworkbook)
+# XWPFAbstractNum @Cluster 1 (abstractnum, ctstring, getabstractnum)
 
 ***
 

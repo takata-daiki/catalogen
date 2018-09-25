@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (getstring, sst, sstrec)](./1)
+## [Cluster 1 (createsheet, sheet, wb)](./1)
 1 results
 > dump the record to an existing map @ since poi 3 . 1 4 beta 3 
 {% highlight java %}

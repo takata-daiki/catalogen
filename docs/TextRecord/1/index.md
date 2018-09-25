@@ -1,4 +1,4 @@
-# TextRecord @Cluster 1 (currentpiece, currenttextend, currenttextstart)
+# TextRecord @Cluster 1 (field_10_indexofcolorvalue, rec, textrecord)
 
 ***
 

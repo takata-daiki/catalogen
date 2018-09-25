@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (700, createfont, font)](./1)
+## [Cluster 1 (cell, createhyperlink, xssfhyperlink)](./1)
 1 results
 > sets whether the rowcolheadings are shown in a viewer @ param show whether to show rowcolheadings or not 
 {% highlight java %}

@@ -1,4 +1,4 @@
-# XSSFCellFill @Cluster 1 (cell, cell1, thecell)
+# XSSFCellFill @Cluster 1 (cellstyle, fill, getindex)
 
 ***
 

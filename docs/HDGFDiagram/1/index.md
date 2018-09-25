@@ -1,4 +1,4 @@
-# HDGFDiagram @Cluster 1 (field_1_left_row_gutter, field_2_top_col_gutter, rec)
+# HDGFDiagram @Cluster 1 (getdocumentsize, hdgf, new)
 
 ***
 

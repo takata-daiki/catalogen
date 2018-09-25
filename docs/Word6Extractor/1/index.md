@@ -1,4 +1,4 @@
-# Word6Extractor @Cluster 1 (rec, return, windowtwo)
+# Word6Extractor @Cluster 1 (case, oldextractor, word6extractor)
 
 ***
 

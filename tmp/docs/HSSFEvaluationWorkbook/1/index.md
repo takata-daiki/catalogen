@@ -1,4 +1,4 @@
-# HSSFEvaluationWorkbook @Cluster 1 (getformat, m_dataformat, setdataformat)
+# HSSFEvaluationWorkbook @Cluster 1 (append, hssfevaluationworkbook, wb)
 
 ***
 

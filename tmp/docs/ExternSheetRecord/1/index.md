@@ -1,4 +1,4 @@
-# ExternSheetRecord @Cluster 1 (excelextractor, extractor, false)
+# ExternSheetRecord @Cluster 1 (externsheet, getnumofrefstructures, short)
 
 ***
 

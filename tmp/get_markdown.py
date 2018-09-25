@@ -90,6 +90,18 @@ def represent():
 
             except KeyError:
                 x = sample[0][:-5]
+
+                files = ['CodeExample/{}/{}.txt'.format(name, x)]
+                if not files:
+                    is_ok = False
+                    break
+                try:
+                    tfidf = tfidf_vectorizer.fit_transform(files)
+                except ValueError:
+                    tfidf_vectorizer = TfidfVectorizer(input='filename', max_df=1.0, min_df=1, max_features=3, norm='l2')
+                    tfidf = tfidf_vectorizer.fit_transform(files)
+                feature = tfidf_vectorizer.get_feature_names()
+
                 y = 1
                 try:
                     with open('CodeAst/_{}_{}.txt'.format(name, x), 'r') as f:
@@ -105,11 +117,7 @@ def represent():
                 with open('jd_comms.txt', 'r') as f:
                     z = f.read().split('\n')[p]
 
-            try:
-                rep_cluster_arr.append({'id': x, 'num': y, 'comment': z, 'feature': feature})
-            except UnboundLocalError:
-                is_ok = False
-                break
+            rep_cluster_arr.append({'id': x, 'num': y, 'comment': z, 'feature': feature})
 
         if not is_ok:
             continue

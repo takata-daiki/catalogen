@@ -1,4 +1,4 @@
-# HWPFLister @Cluster 1 (_doc, chpx, papx)
+# HWPFLister @Cluster 1 (dumpchpx, hwpflister, listeroriginal)
 
 ***
 

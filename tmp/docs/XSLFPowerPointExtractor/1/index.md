@@ -1,4 +1,4 @@
-# XSLFPowerPointExtractor @Cluster 1 (new, shape, xslfpictureshape)
+# XSLFPowerPointExtractor @Cluster 1 (extractor, gettext, xslfpowerpointextractor)
 
 ***
 

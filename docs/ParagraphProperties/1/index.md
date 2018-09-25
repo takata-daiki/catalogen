@@ -1,4 +1,4 @@
-# ParagraphProperties @Cluster 1 (par1, par2, two)
+# ParagraphProperties @Cluster 1 (getilfo, lfo, properties)
 
 ***
 

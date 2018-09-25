@@ -1,4 +1,4 @@
-# DefaultRowHeightRecord @Cluster 1 (field_42_dttmrmark, field_53_dttmproprmark, field_58_dttmconflict)
+# DefaultRowHeightRecord @Cluster 1 (defaultrowheightrecord, retval, short)
 
 ***
 

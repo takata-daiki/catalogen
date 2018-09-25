@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1 (ppt, void, xmlslideshow)](./1)
+## [Cluster 1 (new, shape, xslfconnectorshape)](./1)
 1 results
 > @ param anchor the position of the child table 
 {% highlight java %}

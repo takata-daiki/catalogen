@@ -1,4 +1,4 @@
-# EventRecordFactory @Cluster 1 (_eschercontainer, eschersprecord, sprecord)
+# EventRecordFactory @Cluster 1 (eventrecordfactory, factory, new)
 
 ***
 

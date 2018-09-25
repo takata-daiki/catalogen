@@ -1,4 +1,4 @@
-# Stream @Cluster 1 (getoperand, getoperation, op)
+# Stream @Cluster 1 (int, public, stream)
 
 ***
 
