@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-10 results
+## [Cluster 1 (color, hssfcolor, wb)](./1)
+6 results
 > get the type of underlining for the font 
 {% highlight java %}
 201. HSSFPalette pallette = wb.getCustomPalette();
@@ -12,7 +12,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (getcolor, result, rgbbyte)](./2)
 2 results
 > sets the cell value using object type information . @ param the cell to set the formula to set the cell to . 
 {% highlight java %}
@@ -24,7 +24,7 @@
 
 ***
 
-## [Cluster 3](./3)
+## [Cluster 3 (palette, result, rgbbyte)](./3)
 1 results
 > verifies that the given stream starts with a zip structure . 
 {% highlight java %}
@@ -35,8 +35,8 @@
 
 ***
 
-## [Cluster 4](./4)
-7 results
+## [Cluster 4 (byte, hssfpalette, palette)](./4)
+5 results
 > sets the a number of in the child records . < p > the 0 is specified in points . positive values will cause the text to be , in column , column values are with 2 0 0 . < br > 0 x 0 0 0 0 ( 0 ) . < br > { @ link # set ( org . apache . poi . ss . usermodel . workbook ) } < / p > 
 {% highlight java %}
 60. HSSFPalette palette = ((HSSFWorkbook) xlWorkbook).getCustomPalette();

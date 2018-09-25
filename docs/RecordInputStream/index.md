@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-6 results
+## [Cluster 1 (hasnextrecord, recordinputstream, recstream)](./1)
+1 results
 > create an array of records from an input stream @ return the array of bytes that were used by the 
 {% highlight java %}
 294. RecordInputStream recStream = new RecordInputStream(in);
@@ -13,8 +13,8 @@
 
 ***
 
-## [Cluster 2](./2)
-5 results
+## [Cluster 2 (in, readshort, recordinputstream)](./2)
+3 results
 > invokes the delegate ' s < code > mark ( int ) < / code > method . @ param as the stream to read from 
 {% highlight java %}
 75. public Ref3DPtg(RecordInputStream in) {

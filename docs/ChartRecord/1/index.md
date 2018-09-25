@@ -1,8 +1,9 @@
-# ChartRecord @Cluster 1
+# ChartRecord @Cluster 1 (run1, run2, two)
 
 ***
 
 ### [ChartRecord.java](https://searchcode.com/codesearch/view/15642417/)
+> set the height field for the text record . 
 {% highlight java %}
 158. ChartRecord rec = new ChartRecord();
 160. rec.field_1_x = field_1_x;

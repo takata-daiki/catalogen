@@ -1,8 +1,9 @@
-# DVRecord @Cluster 1
+# DVRecord @Cluster 1 (customproperty, final, this)
 
 ***
 
 ### [PatchedPoi.java](https://searchcode.com/codesearch/view/72854649/)
+> set a single paragraph of this shape to the drawing group @ param id - the new shape 
 {% highlight java %}
 64. DVRecord dvRecord = (DVRecord) r;
 65. CellRangeAddressList cellRangeAddressList = dvRecord

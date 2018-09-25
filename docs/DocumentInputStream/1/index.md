@@ -1,8 +1,9 @@
-# DocumentInputStream @Cluster 1
+# DocumentInputStream @Cluster 1 (delegate, din, return)
 
 ***
 
 ### [EntryUtils.java](https://searchcode.com/codesearch/view/97383212/)
+> < p > sets the poi file ' s path . < / p > 
 {% highlight java %}
 55. DocumentInputStream dstream = new DocumentInputStream( dentry );
 57. dstream.close();
@@ -10,15 +11,8 @@
 
 ***
 
-### [ImapServiceExtImpl.java](https://searchcode.com/codesearch/view/50611261/)
-{% highlight java %}
-563. DocumentInputStream inputStream = root.createDocumentInputStream(entry);
-567.     inputStream.close();
-{% endhighlight %}
-
-***
-
 ### [HSLFSlideShow.java](https://searchcode.com/codesearch/view/97394255/)
+> read back a workbook that was written out to a memory buffer with { @ link # writeout ( workbook ) } or { @ link # writeoutandclose ( workbook ) } . 
 {% highlight java %}
 346. DocumentInputStream is = null;
 454.         is.skip(imgsize);
@@ -26,16 +20,8 @@
 
 ***
 
-### [EntryUtils.java](https://searchcode.com/codesearch/view/97383212/)
-{% highlight java %}
-248. DocumentInputStream inpA = null, inpB = null;
-255.       readA = inpA.read();
-263.    if (inpA != null) inpA.close();
-{% endhighlight %}
-
-***
-
 ### [WordExtractor.java](https://searchcode.com/codesearch/view/48925096/)
+> < p > list param is the workbook . < p > the workbook is specified in . ' / ' . format a ' type ( in - 3 , 7 6 ) ' s workbook . < br > 0 x 4 0 8 6 5 0 x 4 0 5 6 7 5 < p > @ return a string representing the current block . 
 {% highlight java %}
 64. DocumentInputStream din = fsys.createDocumentInputStream("WordDocument");
 68. din.read(header);
@@ -46,6 +32,7 @@
 ***
 
 ### [WordExtractor.java](https://searchcode.com/codesearch/view/138792453/)
+> < p > list param is the workbook . < p > the workbook is specified in . ' / ' . format a ' type ( in - 3 , 7 6 ) ' s workbook . < br > 0 x 4 0 8 6 5 0 x 4 0 5 6 7 5 < p > @ return a string representing the current block . 
 {% highlight java %}
 64. DocumentInputStream din = fsys.createDocumentInputStream("WordDocument");
 68. din.read(header);
@@ -56,6 +43,7 @@
 ***
 
 ### [DocumentInputStream.java](https://searchcode.com/codesearch/view/97397924/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 39. private DocumentInputStream delegate;
 89.    return delegate.available();

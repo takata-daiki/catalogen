@@ -1,8 +1,9 @@
-# XSSFPrintSetup @Cluster 4
+# XSSFPrintSetup @Cluster 4 (01, assertequals, printsetup)
 
 ***
 
 ### [PageLayoutTest.java](https://searchcode.com/codesearch/view/126772664/)
+> test that we can read existing time , eg not 
 {% highlight java %}
 95. XSSFPrintSetup printSetup = sheet0.getPrintSetup();
 96. assertEquals( PaperSize.A4_PAPER,  printSetup.getPaperSizeEnum() );
@@ -14,6 +15,7 @@
 ***
 
 ### [PageLayoutTest.java](https://searchcode.com/codesearch/view/122565092/)
+> test that we can read existing time , eg not 
 {% highlight java %}
 108. XSSFPrintSetup printSetup = sheet0.getPrintSetup();
 109. assertEquals( PaperSize.A4_PAPER,  printSetup.getPaperSizeEnum() );
@@ -25,6 +27,7 @@
 ***
 
 ### [PageLayoutTest.java](https://searchcode.com/codesearch/view/64531687/)
+> test that we can read existing time , eg not 
 {% highlight java %}
 117. XSSFPrintSetup printSetup = sheet0.getPrintSetup();
 118. assertEquals( PaperSize.A4_PAPER,  printSetup.getPaperSizeEnum() );

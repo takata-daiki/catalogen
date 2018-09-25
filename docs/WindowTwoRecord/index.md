@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-4 results
+## [Cluster 1 (clonedsheet, true, w2)](./1)
+3 results
 > if this is a value , the number of false format 
 {% highlight java %}
 578. WindowTwoRecord windowTwo = (WindowTwoRecord) sheet.getSheet().findFirstRecordBySid(WindowTwoRecord.sid);
@@ -13,7 +13,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (field_1_options, field_2_top_row, rec)](./2)
 1 results
 > set the logical col number for the last cell this row ( 0 based index ) 
 {% highlight java %}
@@ -29,7 +29,7 @@
 
 ***
 
-## [Cluster 3](./3)
+## [Cluster 3 (retval, short, windowtworecord)](./3)
 1 results
 > creates the 
 {% highlight java %}
@@ -44,7 +44,7 @@
 
 ***
 
-## [Cluster 4](./4)
+## [Cluster 4 (rec, return, windowtwo)](./4)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}

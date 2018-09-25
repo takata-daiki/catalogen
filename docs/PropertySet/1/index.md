@@ -1,8 +1,9 @@
-# PropertySet @Cluster 1
+# PropertySet @Cluster 1 (back, int, warn)
 
 ***
 
 ### [POIDocument.java](https://searchcode.com/codesearch/view/97383067/)
+> @ throws nullpointerexception if cell 1 is null ( fixed position ) @ see org . apache . poi . ss . usermodel . clientanchor # or ( short ) 
 {% highlight java %}
 123. PropertySet ps;
 130.   logger.log(POILogger.WARN, "DocumentSummaryInformation property set came back with wrong class - ", ps.getClass());
@@ -11,19 +12,8 @@
 
 ***
 
-### [MutablePropertySet.java](https://searchcode.com/codesearch/view/15642695/)
-{% highlight java %}
-112. public MutablePropertySet(final PropertySet ps)
-114.     byteOrder = ps.getByteOrder();
-115.     format = ps.getFormat();
-116.     osVersion = ps.getOSVersion();
-117.     setClassID(ps.getClassID());
-119.     for (final Iterator i = ps.getSections().iterator(); i.hasNext();)
-{% endhighlight %}
-
-***
-
 ### [PropertySet.java](https://searchcode.com/codesearch/view/15642677/)
+> get the document part that ' s defined as the given relationship of the given property . 
 {% highlight java %}
 660. final PropertySet ps = (PropertySet) o;
 661. int byteOrder1 = ps.getByteOrder();

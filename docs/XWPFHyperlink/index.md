@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (append, buffy, hfpolicy)](./1)
 1 results
 > if the shape is not available ( { @ link # return ( ) } is a valid cell 
 {% highlight java %}

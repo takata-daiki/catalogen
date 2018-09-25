@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-6 results
+## [Cluster 1 (byte, record, sheetname)](./1)
+5 results
 > ' s formula index to sheet name record 
 {% highlight java %}
 115. final BoundSheetRecord bsr = (BoundSheetRecord) record;
@@ -12,7 +12,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (case, retval, setsheetname)](./2)
 1 results
 > set the cells type ( numeric , formula or string ) 
 {% highlight java %}

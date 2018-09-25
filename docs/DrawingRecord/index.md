@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (data, drawing, drawingrecord)](./1)
 1 results
 > test whether the sheet is selected 
 {% highlight java %}
@@ -13,7 +13,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (continuerecord, drawingrecord, lastdrawingrecord)](./2)
 1 results
 > this method will display the font and returns the font index ( ) to be used for this paragraph run . 
 {% highlight java %}
@@ -23,23 +23,12 @@
 
 ***
 
-## [Cluster 3](./3)
+## [Cluster 3 (crec, drawingrecord, lastdrawingrecord)](./3)
 1 results
 > this method will display the font and returns the font index ( if it ' s ) in the 0 x 1 6 ) 
 {% highlight java %}
 162. DrawingRecord lastDrawingRecord = new DrawingRecord();
 222.       lastDrawingRecord.processContinueRecord( crec.getData() );
-{% endhighlight %}
-
-***
-
-## [Cluster 4](./4)
-1 results
-> this comment could not be generated...
-{% highlight java %}
-468. DrawingRecord drawing = new DrawingRecord();
-471. drawing.setData( drawingData );
-472. int temp = drawing.serialize( pos, data );
 {% endhighlight %}
 
 ***

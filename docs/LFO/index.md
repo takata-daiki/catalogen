@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-3 results
+## [Cluster 1 (final, lfo, listlevel)](./1)
+1 results
 > sets the 
 {% highlight java %}
 720. final LFO lfo = listTables.getLfo( paragraph.getIlfo() );
@@ -12,7 +12,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (_lfo, _listdata, getlsid)](./2)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}

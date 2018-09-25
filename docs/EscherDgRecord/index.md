@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-4 results
+## [Cluster 1 (dg, drawinggroupid, escherdgrecord)](./1)
+2 results
 > excel ' s format to if ( you have two table , 8 1 0 ) 
 {% highlight java %}
 97. EscherDgRecord dg = getDrawingGroup(drawingGroupId);
@@ -13,7 +13,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (dg, escherdgrecord, setlastmsospid)](./2)
 4 results
 > sets whether the rowcolheadings are shown in a viewer @ param show whether to show rowcolheadings or not 
 {% highlight java %}

@@ -1,8 +1,9 @@
-# PackagePartCollection @Cluster 1
+# PackagePartCollection @Cluster 1 (activepart, getpartname, string)
 
 ***
 
 ### [OPCPackage.java](https://searchcode.com/codesearch/view/97406292/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 84. protected PackagePartCollection partList;
 533.   for (PackagePart part : partList.values()) {

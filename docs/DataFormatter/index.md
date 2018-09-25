@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-6 results
+## [Cluster 1 (content, evaluator, formulaevaluator)](./1)
+4 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
 23. private DataFormatter formatter = new HSSFDataFormatter();
@@ -12,8 +12,8 @@
 
 ***
 
-## [Cluster 2](./2)
-13 results
+## [Cluster 2 (2831853072, 3141, 59)](./2)
+12 results
 > check that the given header was < code > null < / code > if it ' s - 0 . 0 the for 1 9 0 0 0 , the if 0 is not a valid excel file 
 {% highlight java %}
 75. DataFormatter formatter = new DataFormatter();
@@ -25,7 +25,7 @@
 
 ***
 
-## [Cluster 3](./3)
+## [Cluster 3 (assertequals, formatter, getrow)](./3)
 4 results
 > check that the given header was < code > null < / code > if it ' s - 0 . 0 the for 1 9 0 0 0 , the if 0 is not a valid excel file 
 {% highlight java %}

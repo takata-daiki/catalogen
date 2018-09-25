@@ -1,8 +1,9 @@
-# PrintSetupRecord @Cluster 1
+# PrintSetupRecord @Cluster 1 (close, pptextractor, true)
 
 ***
 
 ### [PrintSetupRecord.java](https://searchcode.com/codesearch/view/15642520/)
+> sets the height of the in ( 0 based ) of the second cell . 
 {% highlight java %}
 400. PrintSetupRecord rec = new PrintSetupRecord();
 401. rec.field_1_paper_size = field_1_paper_size;

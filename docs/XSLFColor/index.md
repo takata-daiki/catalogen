@@ -2,12 +2,12 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (ppt, void, xmlslideshow)](./1)
 1 results
-> this comment could not be generated...
+> @ since poi 3 . 1 5 beta 3 
 {% highlight java %}
-114. XSLFColor c = new XSLFColor(solidFill, theme, phClr);
-115. paint = c.getColor();
+278. XSLFColor c = new XSLFColor(props.getBuClr(), theme, null);
+279. setValue(c.getColor());
 {% endhighlight %}
 
 ***

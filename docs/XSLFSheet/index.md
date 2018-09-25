@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-4 results
+## [Cluster 1 (ctstylematrix, sheet, stylematrix)](./1)
+3 results
 > set the ' returns ' value ' , if to specified region 
 {% highlight java %}
 384. XSLFSheet sheet = _shape.getSheet();
@@ -13,8 +13,8 @@
 
 ***
 
-## [Cluster 2](./2)
-7 results
+## [Cluster 2 (getmastersheet, mastersheet, src)](./2)
+6 results
 > change } and from a new only should be called on the document . 
 {% highlight java %}
 623. XSLFSheet master = masterSheet.getMasterSheet();

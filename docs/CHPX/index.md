@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (chpx, runstart, string)](./1)
 2 results
 > sets the 
 {% highlight java %}
@@ -14,8 +14,8 @@
 
 ***
 
-## [Cluster 2](./2)
-4 results
+## [Cluster 2 (_doc, chpx, public)](./2)
+2 results
 > set the contents of this shape to be a copy of the source shape . this method is called recursively for each shape when 0 . @ param picture the data to be @ 
 {% highlight java %}
 149. CHPX chpx = (CHPX)runIt.next();

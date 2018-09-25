@@ -1,8 +1,9 @@
-# Range @Cluster 1
+# Range @Cluster 1 (getendoffset, getstartoffset, previous)
 
 ***
 
 ### [CreateWordDoc.java](https://searchcode.com/codesearch/view/111543829/)
+> set the contents of this shape to be a copy of the source shape . this method is called recursively for each shape when 0 . @ param @ param 
 {% highlight java %}
 22. Range range = doc.getRange();
 23. Paragraph par1 = range.insertAfter(new ParagraphProperties(), 0);
@@ -10,15 +11,8 @@
 
 ***
 
-### [WordExport.java](https://searchcode.com/codesearch/view/134954814/)
-{% highlight java %}
-171. final Range range = new Range(b.getStart(), b.getEnd(), doc);
-172. range.replaceText(range.text(), CollectableFieldFormat.getInstance(def.getJavaClass()).format(def.getOutputformat(), value));
-{% endhighlight %}
-
-***
-
 ### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
+> tests that the create and sets the font is based on @ since 3 . 1 4 beta 1 
 {% highlight java %}
 641. Range formulaRange = new Range( range.getCharacterRun(
 661. String formula = formulaRange.text();
@@ -26,39 +20,8 @@
 
 ***
 
-### [Paragraph.java](https://searchcode.com/codesearch/view/97384407/)
-{% highlight java %}
-188. protected Paragraph( PAPX papx, Range parent, int start )
-190.     super( Math.max( parent._start, start ), Math.min( parent._end,
-{% endhighlight %}
-
-***
-
-### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
-{% highlight java %}
-992. Range endnoteRange = doc.getEndnoteRange();
-993. int rangeStartOffset = endnoteRange.getStartOffset();
-{% endhighlight %}
-
-***
-
-### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
-{% highlight java %}
-970. Range footnoteRange = doc.getFootnoteRange();
-971. int rangeStartOffset = footnoteRange.getStartOffset();
-{% endhighlight %}
-
-***
-
-### [CharacterRun.java](https://searchcode.com/codesearch/view/97384484/)
-{% highlight java %}
-98. CharacterRun(CHPX chpx, StyleSheet ss, short istd, Range parent)
-100.   super(Math.max(parent._start, chpx.getStart()), Math.min(parent._end, chpx.getEnd()), parent);
-{% endhighlight %}
-
-***
-
 ### [PrintTemplateServiceImpl.java](https://searchcode.com/codesearch/view/94110212/)
+> set the sheet ' s @ param name 
 {% highlight java %}
 1352. Range range = hdt.getRange();
 1353. String text = range.text();
@@ -67,6 +30,7 @@
 ***
 
 ### [HWPFDocument.java](https://searchcode.com/codesearch/view/97383956/)
+> sets the 
 {% highlight java %}
 1039. Range r = new Range(start, start + length, this);
 1040. r.delete();
@@ -74,33 +38,8 @@
 
 ***
 
-### [Paragraph.java](https://searchcode.com/codesearch/view/97384407/)
-{% highlight java %}
-99. static Paragraph newParagraph( Range parent, PAPX papx )
-101.     HWPFDocumentCore doc = parent._doc;
-{% endhighlight %}
-
-***
-
-### [Paragraph.java](https://searchcode.com/codesearch/view/97384407/)
-{% highlight java %}
-178. protected Paragraph( PAPX papx, Range parent )
-180.     super( Math.max( parent._start, papx.getStart() ), Math.min(
-181.             parent._end, papx.getEnd() ), parent );
-{% endhighlight %}
-
-***
-
-### [HWPFLister.java](https://searchcode.com/codesearch/view/97384386/)
-{% highlight java %}
-658. Range range = _doc.getOverallRange();
-659. for ( int p = 0; p < range.numParagraphs(); p++ )
-661.     Paragraph paragraph = range.getParagraph( p );
-{% endhighlight %}
-
-***
-
 ### [test.java](https://searchcode.com/codesearch/view/13078982/)
+> sets the 
 {% highlight java %}
 17. Range r = doc.getRange(); // ??word?????
 18. int lenParagraph = r.numParagraphs();// ?????
@@ -110,6 +49,7 @@
 ***
 
 ### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
+> sets the 
 {% highlight java %}
 718. final Range docRange = wordDocument.getRange();
 720. if ( docRange.numSections() == 1 )
@@ -119,6 +59,7 @@
 ***
 
 ### [WordUtil.java](https://searchcode.com/codesearch/view/69098620/)
+> set the contents of the record that , p to be set to 0 . and only the size of the header / footer : empty string is no type ( " a 1 " ) 
 {% highlight java %}
 26. Range range = doc.getRange();
 27. for (int i = 0; i < range.numCharacterRuns(); i++) {
@@ -127,16 +68,8 @@
 
 ***
 
-### [Paragraph.java](https://searchcode.com/codesearch/view/97384407/)
-{% highlight java %}
-198. Paragraph( PAPX papx, ParagraphProperties properties, Range parent )
-200.     super( Math.max( parent._start, papx.getStart() ), Math.min(
-201.             parent._end, papx.getEnd() ), parent );
-{% endhighlight %}
-
-***
-
 ### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
+> sets the and used when the document is parsed / @ param { @ code true } if the data is be and a single value , or { @ code null } if it wasn ' t 
 {% highlight java %}
 735.     final Range range )
 737. for ( int s = 0; s < range.numSections(); s++ )
@@ -146,6 +79,7 @@
 ***
 
 ### [FilesGatherer.java](https://searchcode.com/codesearch/view/13078978/)
+> sets the 
 {% highlight java %}
 129. Range r = doc.getRange(); // ??word?????
 130. int lenParagraph = r.numParagraphs();// ?????
@@ -155,6 +89,7 @@
 ***
 
 ### [Doc.java](https://searchcode.com/codesearch/view/17642935/)
+> set the contents of this shape to be a copy of the source shape . this method is called recursively for each shape when 0 . @ param p the font to be used if there is a call . 
 {% highlight java %}
 104. Range r = doc.getRange();
 106. for (int x = 0; x < r.numSections(); x++) {
@@ -164,25 +99,7 @@
 ***
 
 ### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
-{% highlight java %}
-1163.     HWPFDocumentCore wordDocument, Range range, int beginMark )
-1167. for ( int c = beginMark + 1; c < range.numCharacterRuns(); c++ )
-1169.     CharacterRun characterRun = range.getCharacterRun( c );
-{% endhighlight %}
-
-***
-
-### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
-{% highlight java %}
-1056.     Element flow, Range range, int currentTableLevel )
-1058. final int paragraphs = range.numParagraphs();
-1061.     Paragraph paragraph = range.getParagraph( p );
-1074.         Table table = range.getTable( paragraph );
-{% endhighlight %}
-
-***
-
-### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
+> sets the param = 0 - based ) 
 {% highlight java %}
 636.     Element currentBlock, Range range, int currentTableLevel,
 641.     Range formulaRange = new Range( range.getCharacterRun(
@@ -197,6 +114,7 @@
 ***
 
 ### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
+> sets the width of a in if the specified column and range in a range of cells . @ param range - the row number of the page . @ param value whether to display the workbook or - 1 . 
 {% highlight java %}
 293.     final int currentTableLevel, final Range range, final Element block )
 312.             .getBookmarksStartedBetween( range.getStartOffset(),

@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-7 results
+## [Cluster 1 (delegate, din, return)](./1)
+5 results
 > < p > sets the poi file ' s path . < / p > 
 {% highlight java %}
 55. DocumentInputStream dstream = new DocumentInputStream( dentry );
@@ -13,7 +13,7 @@
 ***
 
 ## [Cluster 2](./2)
-5 results
+3 results
 > the example that should be excel a not , that ' s all an empty property set this on it . 
 {% highlight java %}
 77. final DocumentInputStream dis = event.getStream();
@@ -23,7 +23,7 @@
 
 ***
 
-## [Cluster 3](./3)
+## [Cluster 3 (is, position, rawdatapos)](./3)
 1 results
 > read < tt > will < tt > to the specified ( return ) or 1 / sheet . @ throws evaluationexception ( # num ! ) if < tt > result < / tt > is < tt > nan < / > or < tt > infinity < / tt > 
 {% highlight java %}

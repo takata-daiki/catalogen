@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (createspcontainer, eschercontainerrecord, hssfshape)](./1)
 1 results
 > create and return the placeholder and { @ link # param ( ) } and { @ link # , ( { @ link , } ) } to 
 {% highlight java %}
@@ -12,7 +12,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (foreground, hssfsimpleshape, shape)](./2)
 7 results
 > sets the shape id . 
 {% highlight java %}

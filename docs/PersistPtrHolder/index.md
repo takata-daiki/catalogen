@@ -2,12 +2,12 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (par1, par2, two)](./1)
 1 results
-> this comment could not be generated...
+> with all of the given values in the style table can be 
 {% highlight java %}
-741. PersistPtrHolder ptr = null;
-779. ptr.addSlideLookup(sp.getRefID(), slideOffset);
+287. PersistPtrHolder ptr = (PersistPtrHolder)Record.buildRecordAtOffset(docstream, psrOffset);
+289. Hashtable<Integer,Integer> entries = ptr.getSlideLocationsLookup();
 {% endhighlight %}
 
 ***

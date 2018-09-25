@@ -1,8 +1,9 @@
-# EscherSplitMenuColorsRecord @Cluster 1
+# EscherSplitMenuColorsRecord @Cluster 1 (_eschercontainer, eschersprecord, sprecord)
 
 ***
 
 ### [Workbook.java](https://searchcode.com/codesearch/view/15642358/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 2180. EscherSplitMenuColorsRecord splitMenuColors = new EscherSplitMenuColorsRecord();
 2208. splitMenuColors.setRecordId((short) 0xF11E);

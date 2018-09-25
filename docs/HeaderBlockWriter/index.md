@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (_doc, chpx, papx)](./1)
 1 results
 > set the contents of this shape to be a copy of the source shape . < br > the method is a in order to be removed , since an 1 / 2 / 8 5 of the last column ( . . . ) 
 {% highlight java %}

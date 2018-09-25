@@ -1,24 +1,9 @@
-# Picture @Cluster 1
-
-***
-
-### [HWPFLister.java](https://searchcode.com/codesearch/view/97384386/)
-{% highlight java %}
-679. for ( Picture picture : allPictures )
-681.     System.out.println( picture.toString() );
-{% endhighlight %}
-
-***
-
-### [WordToHtmlConverter.java](https://searchcode.com/codesearch/view/97383966/)
-{% highlight java %}
-424. boolean inlined, Picture picture )
-429.             + picture.suggestFullFileName() + "' can be here" ) );
-{% endhighlight %}
+# Picture @Cluster 1 (1000, aspectratiox, twips_per_inch)
 
 ***
 
 ### [WordExtractor.java](https://searchcode.com/codesearch/view/111785561/)
+> set the contents of this shape to be a copy of the source shape . this method is called recursively for each shape when 0 . 
 {% highlight java %}
 72. for(Picture picture : pictures) {
 78.    String extension = picture.suggestFileExtension();
@@ -28,6 +13,7 @@
 ***
 
 ### [WordToHtmlConverter.java](https://searchcode.com/codesearch/view/97383966/)
+> sets the a 1 - style , style the child @ param cell the cell to set @ param change the number of pages 
 {% highlight java %}
 336.     Picture picture, String imageSourcePath )
 338. final int aspectRatioX = picture.getHorizontalScalingFactor();

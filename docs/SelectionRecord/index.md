@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-4 results
+## [Cluster 1 (0x0, retval, selection)](./1)
+3 results
 > sets whether the rowcolheadings are shown in a viewer @ param show whether to show rowcolheadings or not 
 {% highlight java %}
 2463. SelectionRecord sel = (SelectionRecord) findFirstRecordBySid(SelectionRecord.sid);
@@ -12,7 +12,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (field_1_pane, field_2_row_active_cell, rec)](./2)
 1 results
 > sets the auto numbering index of the object id . 
 {% highlight java %}

@@ -1,8 +1,9 @@
-# BarRecord @Cluster 1
+# BarRecord @Cluster 1 (arearef, getfirstcell, int)
 
 ***
 
 ### [BarRecord.java](https://searchcode.com/codesearch/view/15642489/)
+> set the style ' s field for the 8 record . 
 {% highlight java %}
 159. BarRecord rec = new BarRecord();
 161. rec.field_1_barSpace = field_1_barSpace;

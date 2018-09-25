@@ -2,12 +2,13 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (fmagg, formularecordaggregate, rec)](./1)
 1 results
-> this comment could not be generated...
+> test that we get the same value as excel and , for 
 {% highlight java %}
-1571. GridsetRecord retval = new GridsetRecord();
-1573. retval.setGridset(true);
+98. protected GridsetRecord              gridset           =     null;
+1763.     return !gridset.getGridset();
+1773.     gridset.setGridset(!value);
 {% endhighlight %}
 
 ***

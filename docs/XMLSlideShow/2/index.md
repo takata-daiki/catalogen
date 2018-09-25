@@ -1,16 +1,9 @@
-# XMLSlideShow @Cluster 2
-
-***
-
-### [MarketingReportCostEstimationGeneratorImpl.java](https://searchcode.com/codesearch/view/92131918/)
-{% highlight java %}
-17. public XMLSlideShow generate(XMLSlideShow ppt,MarketingReportSettings reportSettings,
-19.     XSLFSlide slide1 = ppt.createSlide();
-{% endhighlight %}
+# XMLSlideShow @Cluster 2 (ppt, void, xmlslideshow)
 
 ***
 
 ### [MarketingReportInCityGeneratorImpl.java](https://searchcode.com/codesearch/view/92131916/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 42. private XMLSlideShow generatePreview(XMLSlideShow ppt, List<PreviewReportingDocument> previewData, String cityName,
 45.     XSLFSlide slide = ppt.createSlide();
@@ -18,23 +11,8 @@
 
 ***
 
-### [MarketingReportFirstSlideGeneratorImpl.java](https://searchcode.com/codesearch/view/92131912/)
-{% highlight java %}
-31. public XMLSlideShow generate(XMLSlideShow ppt, MarketingReportSettings reportSettings,
-39.     XSLFSlide slide1 = ppt.createSlide();
-{% endhighlight %}
-
-***
-
-### [XSLFTextRun.java](https://searchcode.com/codesearch/view/97406808/)
-{% highlight java %}
-498. XMLSlideShow ppt = shape.getSheet().getSlideShow();
-499. CTTextParagraphProperties themeProps = ppt.getDefaultParagraphStyle(_p.getLevel());
-{% endhighlight %}
-
-***
-
 ### [XSLFTextParagraph.java](https://searchcode.com/codesearch/view/97406665/)
+> text and the paragraph the < code > null < / code > if there is no @ param this cell to the is being from 
 {% highlight java %}
 1107. XMLSlideShow ppt = getParentShape().getSheet().getSlideShow();
 1108. CTTextParagraphProperties themeProps = ppt.getDefaultParagraphStyle(getLevel());
@@ -42,23 +20,8 @@
 
 ***
 
-### [MarketingReportFirstSlideGeneratorImpl.java](https://searchcode.com/codesearch/view/92131912/)
-{% highlight java %}
-73. private void drawImage(XMLSlideShow ppt, XSLFSlide slide) throws IOException {
-75.     int idx = ppt.addPicture(bytes, XSLFPictureData.PICTURE_TYPE_PNG);
-{% endhighlight %}
-
-***
-
-### [MarketingReportLastSlideGeneratorImpl.java](https://searchcode.com/codesearch/view/92131911/)
-{% highlight java %}
-17. public XMLSlideShow generate(XMLSlideShow ppt, MarketingReportSettings reportSettings,
-20.     XSLFSlide slide1 = ppt.createSlide();
-{% endhighlight %}
-
-***
-
 ### [XSLFSheet.java](https://searchcode.com/codesearch/view/97406768/)
+> text from the shape or footer styles 
 {% highlight java %}
 545. XMLSlideShow ppt = getSlideShow();
 546. int pictureIdx = ppt.addPicture(data.getData(), data.getPictureType());
@@ -68,6 +31,7 @@
 ***
 
 ### [OpenActivity.java](https://searchcode.com/codesearch/view/97405824/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 79. private XMLSlideShow ppt;
 187.         pgsize = ppt.getPageSize();
@@ -76,25 +40,8 @@
 
 ***
 
-### [MarketingReportGeneratorImpl.java](https://searchcode.com/codesearch/view/92131913/)
-{% highlight java %}
-40. XMLSlideShow ppt = new XMLSlideShow(getClass().getResourceAsStream("/marketing_template.pptx"));
-63. Arrays.stream(ppt.getSlides()).forEach(reportSettings::fillBackgroundAndIncrementIndex);
-65. ppt.write(outputStream);
-{% endhighlight %}
-
-***
-
-### [MarketingReportInCityGeneratorImpl.java](https://searchcode.com/codesearch/view/92131916/)
-{% highlight java %}
-139. private XMLSlideShow generateDetailShop(XMLSlideShow ppt, MarketingSlideInfo slide, Function<String, byte[]> pictureGetter, MarketingReportData mData) {
-144.     XSLFSlide pptSlide = ppt.createSlide();
-172.         int idx = ppt.addPicture(picBytes1, XSLFPictureData.PICTURE_TYPE_PNG);
-{% endhighlight %}
-
-***
-
 ### [StreamingPPTXImpl.java](https://searchcode.com/codesearch/view/76071743/)
+> write the block ' s data to an outputstream @ of stream 
 {% highlight java %}
 54. XMLSlideShow ppt = new XMLSlideShow();
 56. XSLFSlide slide = ppt.createSlide();
@@ -104,17 +51,8 @@
 
 ***
 
-### [XSLFPowerPointExtractorDecorator.java](https://searchcode.com/codesearch/view/111785576/)
-{% highlight java %}
-55. XMLSlideShow xmlSlideShow = new XMLSlideShow(slideShow);
-57. XSLFSlide[] slides = xmlSlideShow.getSlides();
-62.     CTNotesSlide notes = xmlSlideShow._getXSLFSlideShow().getNotes(
-64.     CTCommentList comments = xmlSlideShow._getXSLFSlideShow()
-{% endhighlight %}
-
-***
-
 ### [PowerPointOOXMLDocument.java](https://searchcode.com/codesearch/view/126168430/)
+> sets the 
 {% highlight java %}
 104. private void extractContent(final StringBuilder buffy, final XMLSlideShow xmlSlideShow) throws IOException, XmlException {
 105.   final XSLFSlide[] slides = xmlSlideShow.getSlides();

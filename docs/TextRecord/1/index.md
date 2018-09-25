@@ -1,8 +1,9 @@
-# TextRecord @Cluster 1
+# TextRecord @Cluster 1 (currentpiece, currenttextend, currenttextstart)
 
 ***
 
 ### [TextRecord.java](https://searchcode.com/codesearch/view/15642428/)
+> set the height field for the text record . 
 {% highlight java %}
 267. TextRecord rec = new TextRecord();
 269. rec.field_1_horizontalAlignment = field_1_horizontalAlignment;

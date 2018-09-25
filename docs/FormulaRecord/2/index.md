@@ -1,32 +1,9 @@
-# FormulaRecord @Cluster 2
-
-***
-
-### [ValueRecordsAggregate.java](https://searchcode.com/codesearch/view/15642593/)
-{% highlight java %}
-165. FormulaRecord formula = (FormulaRecord)rec;
-166. if (formula.isSharedFormula()) {
-{% endhighlight %}
+# FormulaRecord @Cluster 2 (formularecord, frec, rec)
 
 ***
 
 ### [FormulaViewer.java](https://searchcode.com/codesearch/view/15642597/)
-{% highlight java %}
-214. private String composeFormula(FormulaRecord record)
-216.    return  loci.poi.hssf.model.FormulaParser.toFormulaString((Workbook)null,record.getParsedExpression());
-{% endhighlight %}
-
-***
-
-### [ExcelExtractor.java](https://searchcode.com/codesearch/view/111785559/)
-{% highlight java %}
-363. FormulaRecord formula = (FormulaRecord) record;
-364. addCell(record, new NumberCell(formula.getValue(), format));
-{% endhighlight %}
-
-***
-
-### [FormulaViewer.java](https://searchcode.com/codesearch/view/15642597/)
+> sets the for the specified one . @ param { @ code true } if the first sheet is a { @ link ' } s @ param the if the formula value is { @ code null } 
 {% highlight java %}
 112. private void listFormula(FormulaRecord record) {
 114.     List tokens= record.getParsedExpression();
@@ -35,16 +12,8 @@
 
 ***
 
-### [FormulaViewer.java](https://searchcode.com/codesearch/view/15642597/)
-{% highlight java %}
-188. private String formulaString(FormulaRecord record) {
-190.     int          numptgs = record.getNumberOfExpressionTokens();
-191.     List         tokens    = record.getParsedExpression();
-{% endhighlight %}
-
-***
-
 ### [SharedFormulaRecord.java](https://searchcode.com/codesearch/view/15642473/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 206. public boolean isFormulaInShared(FormulaRecord formula) {
 207.   final int formulaRow = formula.getRow();
@@ -54,6 +23,7 @@
 ***
 
 ### [SharedFormulaRecord.java](https://searchcode.com/codesearch/view/15642473/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 214. public void convertSharedFormulaRecord(FormulaRecord formula) {
 216.   final int formulaRow = formula.getRow();
@@ -66,6 +36,7 @@
 ***
 
 ### [HSSFCell.java](https://searchcode.com/codesearch/view/15642303/)
+> set the contents of this shape to be a copy of the source shape . this method is called recursively for each shape when 0 . @ param @ param 
 {% highlight java %}
 632. FormulaRecord frec = rec.getFormulaRecord();
 633. frec.setOptions(( short ) 2);
@@ -78,6 +49,7 @@
 ***
 
 ### [HxlsAbstract.java](https://searchcode.com/codesearch/view/68613461/)
+> sets the package part . @ param cell the cell to set the cells to . 
 {% highlight java %}
 170. FormulaRecord frec = (FormulaRecord) record;
 172. thisRow = frec.getRow();
@@ -91,6 +63,7 @@
 ***
 
 ### [FormulaViewer.java](https://searchcode.com/codesearch/view/15642597/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 174. public void parseFormulaRecord(FormulaRecord record)
 177.     System.out.print("row = " + record.getRow());
@@ -104,6 +77,7 @@
 ***
 
 ### [Sheet.java](https://searchcode.com/codesearch/view/15642365/)
+> set the first or } of the current cell @ param sheet the sheet to set ( 0 - based ) @ param width the index of the column 
 {% highlight java %}
 946. FormulaRecord rec = new FormulaRecord();
 948. rec.setRow(row);
@@ -118,6 +92,7 @@
 ***
 
 ### [FormulaRecord.java](https://searchcode.com/codesearch/view/15642396/)
+> sets the property ' s id . 
 {% highlight java %}
 550. FormulaRecord rec = new FormulaRecord();
 551. rec.field_1_row = field_1_row;

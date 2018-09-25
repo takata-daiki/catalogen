@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (anchor, group, hssfshapegroup)](./1)
 1 results
 > sets the shape group . 
 {% highlight java %}
@@ -12,7 +12,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (anchor, group, hssfshapegroup)](./2)
 1 results
 > sets the shape group . 
 {% highlight java %}
@@ -22,7 +22,7 @@
 
 ***
 
-## [Cluster 3](./3)
+## [Cluster 3 (eschercontainerrecord, shape, spgr)](./3)
 1 results
 > @ param < code > true < / code > if the specified record id normally appears in the range ( s ) may be a valid name . 
 {% highlight java %}
@@ -37,7 +37,7 @@
 
 ***
 
-## [Cluster 4](./4)
+## [Cluster 4 (eschergroup, hssfchildanchor, new)](./4)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}

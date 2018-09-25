@@ -1,8 +1,9 @@
-# ExObjList @Cluster 1
+# ExObjList @Cluster 1 (_eschercontainer, eschersprecord, sprecord)
 
 ***
 
 ### [SlideShow.java](https://searchcode.com/codesearch/view/97394959/)
+> set the contents of this shape to be a copy of the source shape . this method is called recursively for each shape when 0 . @ param p the font to be used for to text 
 {% highlight java %}
 1031. ExObjList lst = (ExObjList) _documentRecord.findFirstOfType(RecordTypes.ExObjList.typeID);
 1036. ExObjListAtom objAtom = lst.getExObjListAtom();

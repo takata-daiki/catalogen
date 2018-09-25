@@ -1,26 +1,9 @@
-# TableCell @Cluster 1
-
-***
-
-### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
-{% highlight java %}
-243. TableCell nextTableCell = nextRow.getCell( c );
-244. if ( !nextTableCell.isVerticallyMerged()
-245.         || nextTableCell.isFirstVerticallyMerged() )
-{% endhighlight %}
-
-***
-
-### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
-{% highlight java %}
-266. TableCell nextCell = nextRow.getCell( currentColumnIndex );
-267. if ( !nextCell.isVerticallyMerged()
-268.         || nextCell.isFirstVerticallyMerged() )
-{% endhighlight %}
+# TableCell @Cluster 1 (add, integer, tc)
 
 ***
 
 ### [WordToHtmlConverter.java](https://searchcode.com/codesearch/view/97383966/)
+> set the when we ' re java ( 1 ) of this { @ link # ' } s in the poi filesystem with not . 
 {% highlight java %}
 650. TableCell tableCell = tableRow.getCell( c );
 652. if ( tableCell.isVerticallyMerged()
@@ -30,6 +13,7 @@
 ***
 
 ### [Doc.java](https://searchcode.com/codesearch/view/17642935/)
+> sets the 
 {% highlight java %}
 311. TableCell tc = tr.getCell(j);
 318. for (int y = 0; y < tc.numParagraphs(); y++) {
@@ -39,6 +23,7 @@
 ***
 
 ### [AbstractWordUtils.java](https://searchcode.com/codesearch/view/97383984/)
+> @ param a and adds the format to null ( value for the param cell ) @ since 3 . 1 7 beta 1 
 {% highlight java %}
 78. TableCell tableCell = tableRow.getCell( c );
 80. edges.add( Integer.valueOf( tableCell.getLeftEdge() ) );

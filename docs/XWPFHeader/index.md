@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-3 results
+## [Cluster 1 (hdr, header, stylableheaderfooter)](./1)
+2 results
 > sets the 
 {% highlight java %}
 192. XWPFHeader hdr = getXWPFHeader( headerRef );
@@ -12,22 +12,12 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (blipid, currentheader, getpicturedatabyid)](./2)
 2 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
 133. private XWPFHeader currentHeader;
 1344.         return currentHeader.getPictureDataByID( blipId );
-{% endhighlight %}
-
-***
-
-## [Cluster 3](./3)
-2 results
-> this comment could not be generated...
-{% highlight java %}
-133. for ( XWPFHeader header : headers )
-135.     if ( header.getPackagePart().equals( hdrPart ) )
 {% endhighlight %}
 
 ***

@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (office, setproperty, si)](./1)
 2 results
 > < p > writes an unsigned two - byte value to an output stream . < / p > 
 {% highlight java %}
@@ -28,7 +28,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (metadata, set, summary)](./2)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
@@ -56,8 +56,8 @@
 
 ***
 
-## [Cluster 3](./3)
-9 results
+## [Cluster 3 (getsummaryinformation, summaryinfo, summaryinformation)](./3)
+5 results
 > tests that the create record function returns a properly constructed record in the case of a record @ since 3 . 1 4 - beta 2 
 {% highlight java %}
 46. SummaryInformation summaryInfo = hwb.getSummaryInformation();

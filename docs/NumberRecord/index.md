@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-3 results
+## [Cluster 1 (field_1_row, nrec, rec)](./1)
+2 results
 > sets the auto series field value . excel 5 only ( true ) 
 {% highlight java %}
 327. NumberRecord rec = new NumberRecord();
@@ -15,8 +15,8 @@
 
 ***
 
-## [Cluster 2](./2)
-9 results
+## [Cluster 2 (mrk, nr, numrec)](./2)
+6 results
 > this method is to set the internal 
 {% highlight java %}
 233. NumberRecord numrec = (NumberRecord) record;

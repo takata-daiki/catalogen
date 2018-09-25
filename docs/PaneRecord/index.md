@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-3 results
+## [Cluster 1 (64, activepane, pane)](./1)
+2 results
 > sets the auto numbering index of the handled paragraph @ param index the number of the first in the ' 0 ' a with 1 if the index is a value of the chart type . 
 {% highlight java %}
 2488. PaneRecord r = new PaneRecord();
@@ -16,7 +16,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (field_1_x, field_2_y, rec)](./2)
 1 results
 > set the text orientation field for the frame record . 
 {% highlight java %}

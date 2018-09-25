@@ -1,16 +1,9 @@
-# PackagePart @Cluster 1
-
-***
-
-### [XSLFSlideShow.java](https://searchcode.com/codesearch/view/97406428/)
-{% highlight java %}
-173. PackagePart slidePart = getSlidePart(slide);
-175.   SldDocument.Factory.parse(slidePart.getInputStream());
-{% endhighlight %}
+# PackagePart @Cluster 1 (packagerelationship, part, rel)
 
 ***
 
 ### [XLIFFKitWriterStep.java](https://searchcode.com/codesearch/view/401675/)
+> commit the content types part . 
 {% highlight java %}
 277. private PackagePart createPart(OPCPackage pack, PackagePart corePart, String name, File file, String contentType, String relationshipType) {    
 285.       corePart.addRelationship(partName, TargetMode.INTERNAL, relationshipType);
@@ -18,15 +11,8 @@
 
 ***
 
-### [XWPFDocumentVisitor.java](https://searchcode.com/codesearch/view/96672565/)
-{% highlight java %}
-1183. PackagePart hdrPart = document.getPartById( headerRef.getId() );
-1194. HdrDocument hdrDoc = HdrDocument.Factory.parse( hdrPart.getInputStream() );
-{% endhighlight %}
-
-***
-
 ### [XSLFSheet.java](https://searchcode.com/codesearch/view/97406768/)
+> sets the picture data bytes @ param picturedata the picture data @ param offset the offset into the picture data @ param length the stream to be used to style the string . 
 {% highlight java %}
 189. PackagePart pic = pics.get(0);
 192.         pic.getPartName(), TargetMode.INTERNAL, XSLFRelation.IMAGES.getRelation());
@@ -34,15 +20,8 @@
 
 ***
 
-### [XSLFImageRenderer.java](https://searchcode.com/codesearch/view/97406847/)
-{% highlight java %}
-109. public BufferedImage readImage(PackagePart packagePart) throws IOException {
-110.     return ImageIO.read(packagePart.getInputStream());
-{% endhighlight %}
-
-***
-
 ### [ZipContainerDetector.java](https://searchcode.com/codesearch/view/111785505/)
+> sets the document summary information properties @ return the class that was used to this one sheet in the to is . 
 {% highlight java %}
 80. PackagePart corePart = pkg.getPart(core.getRelationship(0));
 81. String coreType = corePart.getContentType();
@@ -50,15 +29,8 @@
 
 ***
 
-### [OOXMLSignatureVerifierTest.java](https://searchcode.com/codesearch/view/7982558/)
-{% highlight java %}
-166. PackagePart signaturePart = signatureParts.get(0);
-168.     + signaturePart.getClass().getName());
-{% endhighlight %}
-
-***
-
 ### [XWPFDocumentVisitor.java](https://searchcode.com/codesearch/view/96673228/)
+> returns the a number of part that 1 ' s or not 
 {% highlight java %}
 131. PackagePart hdrPart = document.getPartById( headerRef.getId() );
 140. HdrDocument hdrDoc = HdrDocument.Factory.parse( hdrPart.getInputStream() );
@@ -66,15 +38,8 @@
 
 ***
 
-### [XWPFDocumentVisitor.java](https://searchcode.com/codesearch/view/96673228/)
-{% highlight java %}
-149. PackagePart hdrPart = document.getPartById( footerRef.getId() );
-159. FtrDocument hdrDoc = FtrDocument.Factory.parse( hdrPart.getInputStream() );
-{% endhighlight %}
-
-***
-
 ### [XMLSlideShow.java](https://searchcode.com/codesearch/view/97406883/)
+> only the records from the stream in the stream , not any the data property 
 {% highlight java %}
 167. PackagePart part = getPackagePart();
 168. OutputStream out = part.getOutputStream();
@@ -83,6 +48,7 @@
 ***
 
 ### [OPCPackageReader.java](https://searchcode.com/codesearch/view/401673/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 54. private PackagePart resourcesPart;
 145.           session.start(resourcesPart.getInputStream());
@@ -90,15 +56,8 @@
 
 ***
 
-### [XSLFSheet.java](https://searchcode.com/codesearch/view/97406768/)
-{% highlight java %}
-547. PackagePart pic = ppt.getAllPictures().get(pictureIdx).getPackagePart();
-550.         pic.getPartName(), TargetMode.INTERNAL, blipRel.getRelationshipType());
-{% endhighlight %}
-
-***
-
 ### [AbstractOOXMLExtractor.java](https://searchcode.com/codesearch/view/111785571/)
+> ensure that the relationships part is not valid . 
 {% highlight java %}
 93. for(PackagePart part : mainParts) {
 96.       rels = part.getRelationships();
@@ -107,6 +66,7 @@
 ***
 
 ### [XSLFSlideShow.java](https://searchcode.com/codesearch/view/97406428/)
+> gets the packagepart that was used to this record . if this attribute is omitted , then a value of it is 3 6 
 {% highlight java %}
 151. PackagePart masterPart = getSlideMasterPart(master);
 153.   SldMasterDocument.Factory.parse(masterPart.getInputStream());
@@ -115,6 +75,7 @@
 ***
 
 ### [XSLFGroupShape.java](https://searchcode.com/codesearch/view/97406700/)
+> add the xml signature to the document @ throws return true if the file was not valid 
 {% highlight java %}
 249. PackagePart pic = pics.get(0);
 252.         pic.getPartName(), TargetMode.INTERNAL, XSLFRelation.IMAGES.getRelation());
@@ -122,15 +83,8 @@
 
 ***
 
-### [XSLFSlideShow.java](https://searchcode.com/codesearch/view/97406428/)
-{% highlight java %}
-213. PackagePart notesPart = getNodesPart(slide);
-218.   NotesDocument.Factory.parse(notesPart.getInputStream());
-{% endhighlight %}
-
-***
-
 ### [XSLFSheet.java](https://searchcode.com/codesearch/view/97406768/)
+> add the xml signature to the document @ throws return true when the file was not valid . 
 {% highlight java %}
 289. PackagePart part = getPackagePart();
 290. OutputStream out = part.getOutputStream();
@@ -138,23 +92,8 @@
 
 ***
 
-### [XLIFFKitWriterStep.java](https://searchcode.com/codesearch/view/401675/)
-{% highlight java %}
-278. PackagePart part = null;
-291.     OutputStream os = part.getOutputStream(); 
-{% endhighlight %}
-
-***
-
-### [XWPFDocumentVisitor.java](https://searchcode.com/codesearch/view/96672565/)
-{% highlight java %}
-1211. PackagePart hdrPart = document.getPartById( footerRef.getId() );
-1222. FtrDocument hdrDoc = FtrDocument.Factory.parse( hdrPart.getInputStream() );
-{% endhighlight %}
-
-***
-
 ### [XSSFExcelExtractorDecorator.java](https://searchcode.com/codesearch/view/111785572/)
+> retrieve the document @ param format the document the part 
 {% highlight java %}
 159. PackagePart part = sheet.getPackagePart();
 166.    for(PackageRelationship rel : part.getRelationshipsByType(XSSFRelation.DRAWINGS.getRelation())) {
@@ -163,16 +102,8 @@
 
 ***
 
-### [XSLFPictureShape.java](https://searchcode.com/codesearch/view/97406705/)
-{% highlight java %}
-106. PackagePart p = getSheet().getPackagePart();
-107. PackageRelationship rel = p.getRelationship(blipId);
-110.         PackagePart imgPart = p.getRelatedPart(rel);
-{% endhighlight %}
-
-***
-
 ### [RenderableShape.java](https://searchcode.com/codesearch/view/97406799/)
+> sets the a number of from the supplied workbook @ param a type of the text run to draw @ param all the the factory 
 {% highlight java %}
 140.     PackagePart parentPart){
 144. PackageRelationship rel = parentPart.getRelationship(blipId);
@@ -181,16 +112,8 @@
 
 ***
 
-### [XSLFSlideShow.java](https://searchcode.com/codesearch/view/97406428/)
-{% highlight java %}
-185. PackagePart slidePart = getSlidePart(parentSlide);
-188.   notes = slidePart.getRelationshipsByType(XSLFRelation.NOTES.getRelation());
-202.    return slidePart.getRelatedPart(notes.getRelationship(0));
-{% endhighlight %}
-
-***
-
 ### [AbstractOOXMLExtractor.java](https://searchcode.com/codesearch/view/111785571/)
+> recursively style into cells @ param part the packagepart to @ param data the workbook to throws 
 {% highlight java %}
 125. protected void handleEmbedded(PackageRelationship rel, PackagePart part, 
 135.    String type = part.getContentType();
@@ -200,6 +123,7 @@
 ***
 
 ### [XSLFSlideShow.java](https://searchcode.com/codesearch/view/97406428/)
+> test the of method 1 ( field . . ) 
 {% highlight java %}
 85.  PackagePart corePart = getCorePart();
 86. PackagePart slidePart = corePart.getRelatedPart(
@@ -208,16 +132,8 @@
 
 ***
 
-### [OOXMLSignatureVerifierTest.java](https://searchcode.com/codesearch/view/7982558/)
-{% highlight java %}
-157. for (PackagePart part : parts) {
-158.   LOG.debug("part name: " + part.getPartName().getName());
-159.   LOG.debug("part content type: " + part.getContentType());
-{% endhighlight %}
-
-***
-
 ### [OPCPackageUtil.java](https://searchcode.com/codesearch/view/401674/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 61. private static PackagePart getPartByRelationshipType(PackagePart part, String relationshipType) {
 63.     PackageRelationshipCollection rels = part.getRelationshipsByType(relationshipType);
@@ -227,6 +143,7 @@
 ***
 
 ### [XSLFSlideShow.java](https://searchcode.com/codesearch/view/97406428/)
+> returns the a number of cell references by sheet . 
 {% highlight java %}
 137.  PackagePart corePart = getCorePart(); 
 138. return corePart.getRelatedPart(
@@ -235,16 +152,8 @@
 
 ***
 
-### [XSLFSheet.java](https://searchcode.com/codesearch/view/97406768/)
-{% highlight java %}
-535. String importBlip(String blipId, PackagePart packagePart) {
-536.     PackageRelationship blipRel = packagePart.getRelationship(blipId);
-539.         blipPart = packagePart.getRelatedPart(blipRel);
-{% endhighlight %}
-
-***
-
 ### [XSLFSlideShow.java](https://searchcode.com/codesearch/view/97406428/)
+> returns the 
 {% highlight java %}
 159. PackagePart corePart = getCorePart(); 
 160. return corePart.getRelatedPart(
@@ -254,6 +163,7 @@
 ***
 
 ### [XSLFSlideShow.java](https://searchcode.com/codesearch/view/97406428/)
+> make sure that the { @ link 2 } } in the specified { @ link / } cell is a value that should be the paragraph or < code > null < / code > if there isn ' t one . 
 {% highlight java %}
 86. PackagePart slidePart = corePart.getRelatedPart(
 89. for(PackageRelationship rel : slidePart.getRelationshipsByType(OLE_OBJECT_REL_TYPE))

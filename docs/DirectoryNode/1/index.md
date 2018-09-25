@@ -1,16 +1,9 @@
-# DirectoryNode @Cluster 1
-
-***
-
-### [POIFSFileSystem.java](https://searchcode.com/codesearch/view/97397929/)
-{% highlight java %}
-504. DirectoryNode new_dir =
-507. new_dir.setStorageClsid( property.getStorageClsid() );
-{% endhighlight %}
+# DirectoryNode @Cluster 1 (_parent, dir, getname)
 
 ***
 
 ### [POIFSFileSystem.java](https://searchcode.com/codesearch/view/15642276/)
+> the example from the a java string , and not it . 
 {% highlight java %}
 420. DirectoryNode new_dir =
 423. new_dir.setStorageClsid( property.getStorageClsid() );
@@ -19,6 +12,7 @@
 ***
 
 ### [ImapServiceExtImpl.java](https://searchcode.com/codesearch/view/50611261/)
+> get the document part that ' s defined as the given relationship of the given property . 
 {% highlight java %}
 560. DirectoryNode root = fs.getRoot();
 563.         DocumentInputStream inputStream = root.createDocumentInputStream(entry);
@@ -26,15 +20,8 @@
 
 ***
 
-### [DirectoryNode.java](https://searchcode.com/codesearch/view/15642286/)
-{% highlight java %}
-88.       final DirectoryNode parent)
-97. _path = new POIFSDocumentPath(parent._path, new String[]
-{% endhighlight %}
-
-***
-
 ### [EntryNode.java](https://searchcode.com/codesearch/view/15642274/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 65. private DirectoryNode _parent;
 181.         rval = _parent.deleteEntry(this);
@@ -44,6 +31,7 @@
 ***
 
 ### [POIFSChunkParser.java](https://searchcode.com/codesearch/view/88636100/)
+> the test data was created from an { @ link 
 {% highlight java %}
 61. DirectoryNode dir = (DirectoryNode)entry;
 65. if(dir.getName().startsWith(AttachmentChunks.PREFIX)) {

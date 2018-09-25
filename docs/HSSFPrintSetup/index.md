@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (a4_papersize, hssfprintsetup, ps)](./1)
 10 results
 > set the type of underlining for the font 
 {% highlight java %}
@@ -15,7 +15,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (colcount, hssfprintsetup, ps)](./2)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
@@ -32,7 +32,7 @@
 
 ***
 
-## [Cluster 3](./3)
+## [Cluster 3 (25, printsetup, short)](./3)
 1 results
 > sets the line count . @ see # @ see # was one ( ) 
 {% highlight java %}
@@ -46,8 +46,8 @@
 
 ***
 
-## [Cluster 4](./4)
-6 results
+## [Cluster 4 (assertequals, hssfprintsetup, printsetup)](./4)
+5 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
 1279. HSSFPrintSetup ps = sh.getPrintSetup();

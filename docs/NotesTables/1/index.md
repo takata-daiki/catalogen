@@ -1,8 +1,9 @@
-# NotesTables @Cluster 1
+# NotesTables @Cluster 1 (comment, note, noterecord)
 
 ***
 
 ### [HWPFDocument.java](https://searchcode.com/codesearch/view/97383956/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 148. protected NotesTables _footnotesTables = new NotesTables( NoteType.FOOTNOTE );
 788.       _footnotesTables.writeRef( _fib, tableStream );

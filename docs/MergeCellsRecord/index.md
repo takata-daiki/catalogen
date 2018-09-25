@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-5 results
+## [Cluster 1 (merged, nummergedregions, record)](./1)
+4 results
 > checks that the given stream starts with a zip structure . 
 {% highlight java %}
 551. MergeCellsRecord record = (MergeCellsRecord) mergedRecords.get(n);
@@ -13,7 +13,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (mergecellsrecord, oldregion, rec)](./2)
 1 results
 > adds the given sheet to the table record and see the . @ see # 5 ( int ) 
 {% highlight java %}

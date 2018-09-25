@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (customproperty, final, oldid)](./1)
 1 results
 > adds a < code > a < / code > object that in this sheet . @ param column the index of the column to add a function . @ param value the value to set . 
 {% highlight java %}
@@ -14,7 +14,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (cp, customproperty, new)](./2)
 1 results
 > sets the a number of the header that is to be used . to this to create new reference to the list . 
 {% highlight java %}
@@ -24,8 +24,8 @@
 
 ***
 
-## [Cluster 3](./3)
-4 results
+## [Cluster 3 (customproperty, final, this)](./3)
+1 results
 > compares the one with the type of the text in the slideshow , 2 and 3 5 6 of the line . 
 {% highlight java %}
 126. final CustomProperty c = (CustomProperty) o;

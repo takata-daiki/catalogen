@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (addescherproperty, blip__bliptodisplay, escherproperties)](./1)
 3 results
 > set the contents of this shape to be a copy of the source shape . this method is called recursively for each shape when 0 . @ param @ since poi 3 . 1 4 - beta 2 
 {% highlight java %}
@@ -13,7 +13,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (getpictureindex, hssfpicture, pic)](./2)
 1 results
 > creates an empty return the 
 {% highlight java %}

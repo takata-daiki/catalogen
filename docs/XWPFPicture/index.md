@@ -2,12 +2,13 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (docxparagraph, getstyleid, null)](./1)
 1 results
-> this comment could not be generated...
+> test that we get the same value as excel and , for 
 {% highlight java %}
-263. protected void visitPicture( XWPFPicture picture, XHTMLPageContentBuffer parentContainer )
-268.     CTPicture ctPic = picture.getCTPicture();
+565. protected void visitPicture( XWPFPicture picture, IITextContainer parentContainer )
+568.     CTPositiveSize2D ext = picture.getCTPicture().getSpPr().getXfrm().getExt();
+572.     CTPicture ctPic = picture.getCTPicture();
 {% endhighlight %}
 
 ***

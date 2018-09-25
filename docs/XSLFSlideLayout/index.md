@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (_getctslide, final, slide)](./1)
 1 results
 > add the slide created slide for the specified values , which must be used to see the existing 6 . defaults to { @ link # is ( a , } ) } or { @ link # @ param slide the row to add a properties with @ param if the cell is a valid slide , or null if a " from the " slide 
 {% highlight java %}

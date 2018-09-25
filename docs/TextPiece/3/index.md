@@ -1,26 +1,9 @@
-# TextPiece @Cluster 3
-
-***
-
-### [WordExtractor.java](https://searchcode.com/codesearch/view/48925096/)
-{% highlight java %}
-140. TextPiece currentPiece = (TextPiece)textIt.next();
-141. int currentTextStart = currentPiece.getStart();
-142. int currentTextEnd = currentPiece.getEnd();
-163.     currentTextStart = currentPiece.getStart ();
-164.     currentTextEnd = currentPiece.getEnd ();
-169.     String str = currentPiece.substring(runStart - currentTextStart, runEnd - currentTextStart);
-176.       String str = currentPiece.substring(runStart - currentTextStart,
-182.         currentTextStart = currentPiece.getStart ();
-184.         currentTextEnd = currentPiece.getEnd ();
-191.     String str = currentPiece.substring(0, runEnd - currentTextStart);
-200.       currentTextStart = currentPiece.getStart();
-201.       currentTextEnd = currentPiece.getEnd();
-{% endhighlight %}
+# TextPiece @Cluster 3 (currentpiece, currenttextend, currenttextstart)
 
 ***
 
 ### [WordExtractor.java](https://searchcode.com/codesearch/view/138792453/)
+> set default character width from the workbook ' s default font @ param an 
 {% highlight java %}
 139. TextPiece currentPiece = (TextPiece)textIt.next();
 140. int currentTextStart = currentPiece.getStart();

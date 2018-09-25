@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-3 results
+## [Cluster 1 (bgstyle, theme, void)](./1)
+1 results
 > set the contents of this shape to be a copy of the source shape . this method is called when there are no the shape . 
 {% highlight java %}
 78. XSLFTheme theme = getSheet().getTheme();
@@ -13,7 +13,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (getfmtscheme, getthemeelements, idx)](./2)
 1 results
 > sets the 
 {% highlight java %}

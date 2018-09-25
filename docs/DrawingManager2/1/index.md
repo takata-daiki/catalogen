@@ -1,8 +1,9 @@
-# DrawingManager2 @Cluster 1
+# DrawingManager2 @Cluster 1 (metadata, set, summary)
 
 ***
 
 ### [EscherAggregate.java](https://searchcode.com/codesearch/view/15642409/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 284. private DrawingManager2 drawingManager;
 607.                     drawingManager.allocateShapeId(drawingGroupId) );

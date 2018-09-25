@@ -1,8 +1,9 @@
-# HWPFLister @Cluster 1
+# HWPFLister @Cluster 1 (_doc, chpx, papx)
 
 ***
 
 ### [HWPFLister.java](https://searchcode.com/codesearch/view/97384386/)
+> sets whether the rowcolheadings are shown in a viewer @ param show whether to show rowcolheadings or not 
 {% highlight java %}
 215. HWPFLister listerOriginal = new HWPFLister( original );
 219. listerOriginal.dumpFileSystem();
