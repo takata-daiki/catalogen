@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (field_1_row, field_2_column, rec)](./1)
 1 results
 > sets the auto series field value . true = text is where 
 {% highlight java %}
@@ -17,7 +17,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (labelrecord, lrec, oldrec)](./2)
 3 results
 > sets the 
 {% highlight java %}

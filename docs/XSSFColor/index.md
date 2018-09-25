@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-3 results
+## [Cluster 1 (colour, fgrgb, font)](./1)
+2 results
 > sets the and empty string of the default 
 {% highlight java %}
 223. XSSFColor colour = ((XSSFFont)font).getXSSFColor();
@@ -12,8 +12,8 @@
 
 ***
 
-## [Cluster 2](./2)
-5 results
+## [Cluster 2 (public, void, xssfcolor)](./2)
+3 results
 > set the color to use for the bottom border 
 {% highlight java %}
 85. XSSFColor xssfColor = (XSSFColor) color;
@@ -22,7 +22,7 @@
 
 ***
 
-## [Cluster 3](./3)
+## [Cluster 3 (colour, null, string)](./3)
 2 results
 > sets the 
 {% highlight java %}
@@ -33,7 +33,7 @@
 
 ***
 
-## [Cluster 4](./4)
+## [Cluster 4 (assertequals, bgcolour, ffffffff)](./4)
 1 results
 > ensure that the sheet # is 0 ( not the user in the same as the excel number ) 
 {% highlight java %}
@@ -43,32 +43,12 @@
 
 ***
 
-## [Cluster 5](./5)
+## [Cluster 5 (assertequals, basecolour, ff000000)](./5)
 2 results
 > ensure that the sheet # and 0 based on a 
 {% highlight java %}
 79. XSSFColor bgColour = ((XSSFCell)sheet.getRow(0).getCell(0)).getCellStyle().getFillForegroundColorColor();
 80. assertEquals( "FF800000", bgColour.getARGBHex() );
-{% endhighlight %}
-
-***
-
-## [Cluster 6](./6)
-1 results
-> this comment could not be generated...
-{% highlight java %}
-64. XSSFColor baseColour = ((XSSFCell)sheet.getRow(0).getCell(0)).getCellStyle().getFont().getXSSFColor();
-65. assertEquals( "FFFFFFFF", baseColour.getARGBHex() );
-{% endhighlight %}
-
-***
-
-## [Cluster 7](./7)
-2 results
-> this comment could not be generated...
-{% highlight java %}
-91. XSSFColor baseColour = ((XSSFCell)sheet.getRow(0).getCell(0)).getCellStyle().getFont().getXSSFColor();
-92. assertEquals( "FF000000", baseColour.getARGBHex() );
 {% endhighlight %}
 
 ***

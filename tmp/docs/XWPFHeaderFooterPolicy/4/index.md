@@ -1,8 +1,9 @@
-# XWPFHeaderFooterPolicy @Cluster 4
+# XWPFHeaderFooterPolicy @Cluster 4 (append, buffy, hfpolicy)
 
 ***
 
 ### [WordOOXMLDocument.java](https://searchcode.com/codesearch/view/126168429/)
+> replace that for a given block , we ' re ( the same if the same one does not contain 
 {% highlight java %}
 133. private void extractFooters(final StringBuilder buffy, final XWPFHeaderFooterPolicy hfPolicy) {
 134.   if (hfPolicy.getFirstPageFooter() != null) {

@@ -1,8 +1,9 @@
-# HSSFPrintSetup @Cluster 4
+# HSSFPrintSetup @Cluster 4 (assertequals, hssfprintsetup, printsetup)
 
 ***
 
 ### [ExcelUtils.java](https://searchcode.com/codesearch/view/60212069/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 1279. HSSFPrintSetup ps = sh.getPrintSetup();
 1280. float[]sizePage = PrintPagesFormat.get(ps.getPaperSize());
@@ -13,18 +14,8 @@
 
 ***
 
-### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
-{% highlight java %}
-1524. HSSFPrintSetup ps = sh.getPrintSetup();
-1525. float[]sizePage = ExcelUtils.PrintPagesFormat.get(ps.getPaperSize());
-1528. if (ps.getLandscape()) baseSizePage = sizePage[0];
-1530. float scale = ps.getScale() / 100;
-1531. double len = baseSizePage -(((ps.getFooterMargin()+ps.getHeaderMargin())*ExcelUtils.Factotr_MM_Inches)+50);
-{% endhighlight %}
-
-***
-
 ### [PageLayoutTest.java](https://searchcode.com/codesearch/view/64531687/)
+> test for parsing document with drawings to the code @ throws ioexception 
 {% highlight java %}
 88. HSSFPrintSetup printSetup = sheet0.getPrintSetup();
 89. assertEquals( HSSFPrintSetup.A4_PAPERSIZE,  printSetup.getPaperSize() );
@@ -36,6 +27,7 @@
 ***
 
 ### [PageLayoutTest.java](https://searchcode.com/codesearch/view/122565092/)
+> test that we can read hyperlinks . 
 {% highlight java %}
 137. HSSFPrintSetup printSetup = sheet0.getPrintSetup();
 138. assertEquals( HSSFPrintSetup.A4_PAPERSIZE,  printSetup.getPaperSize() );
@@ -47,6 +39,7 @@
 ***
 
 ### [PageLayoutTest.java](https://searchcode.com/codesearch/view/122565092/)
+> test for parsing document with drawings to the code @ throws ioexception 
 {% highlight java %}
 79. HSSFPrintSetup printSetup = sheet0.getPrintSetup();
 80. assertEquals( HSSFPrintSetup.A4_PAPERSIZE,  printSetup.getPaperSize() );
@@ -58,6 +51,7 @@
 ***
 
 ### [PageLayoutTest.java](https://searchcode.com/codesearch/view/64531687/)
+> test that we can read hyperlinks . 
 {% highlight java %}
 146. HSSFPrintSetup printSetup = sheet0.getPrintSetup();
 147. assertEquals( HSSFPrintSetup.A4_PAPERSIZE,  printSetup.getPaperSize() );

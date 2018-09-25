@@ -1,16 +1,9 @@
-# HSSFFont @Cluster 1
-
-***
-
-### [SpreadSheetPoiHelper.java](https://searchcode.com/codesearch/view/73882044/)
-{% highlight java %}
-324. final HSSFFont font = workbook.getFontAt ( cell.getCellStyle ().getFontIndex () );
-327.     value.setStrikeThrough ( font.getStrikeout () );
-{% endhighlight %}
+# HSSFFont @Cluster 1 (index, setcolor, short)
 
 ***
 
 ### [ExcelUtil.java](https://searchcode.com/codesearch/view/73315299/)
+> create a new font and add it to the workbook ' s font table @ return new font object 
 {% highlight java %}
 91. HSSFFont font2 = workbook.createFont();
 92. font2.setBoldweight(HSSFFont.BOLDWEIGHT_NORMAL);
@@ -19,6 +12,7 @@
 ***
 
 ### [CellHSSFImpl.java](https://searchcode.com/codesearch/view/72854667/)
+> set a font for this sheet ( 0 based ) . @ param the font to use @ param font the font to use . 
 {% highlight java %}
 87. HSSFFont hssfFont = theCell.getCellStyle().getFont(getWorkbook());
 88. return hssfFont.getUnderline() != 0;
@@ -27,6 +21,7 @@
 ***
 
 ### [ExportToExcel.java](https://searchcode.com/codesearch/view/46011490/)
+> add the specified shape to the table @ see org . apache . poi . hssf . usermodel . 
 {% highlight java %}
 209. HSSFFont f = wb.createFont();
 210. f.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);
@@ -35,6 +30,7 @@
 ***
 
 ### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 92. private HSSFFont fontWhiteColor;
 250.   fontWhiteColor.setColor((short)1);
@@ -43,6 +39,7 @@
 ***
 
 ### [ExcelUtil.java](https://searchcode.com/codesearch/view/73315299/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 244. HSSFFont font2 = workbook.createFont();
 245. font2.setBoldweight(HSSFFont.BOLDWEIGHT_NORMAL);
@@ -50,15 +47,8 @@
 
 ***
 
-### [StyleManagerHUtils.java](https://searchcode.com/codesearch/view/122565152/)
-{% highlight java %}
-194. HSSFFont hFont = (HSSFFont)font;
-197.   hFont.setColor(colourIndex);
-{% endhighlight %}
-
-***
-
 ### [AbstractExcelExporter.java](https://searchcode.com/codesearch/view/102528302/)
+> sets the line count . @ see # @ see org . apache . poi . openxml 4 j . opc . packageproperties # index ( and with the type ) 
 {% highlight java %}
 120. private HSSFFont m_fontHeader = null;
 161.       m_fontHeader.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);
@@ -66,15 +56,8 @@
 
 ***
 
-### [CellHSSFImpl.java](https://searchcode.com/codesearch/view/72854667/)
-{% highlight java %}
-92. HSSFFont hssfFont = theCell.getCellStyle().getFont(getWorkbook());
-93. return hssfFont.getItalic();
-{% endhighlight %}
-
-***
-
 ### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
+> ensure that font and color rich text attributes defined in a xssfrichtextstring are passed to xssfsimpleshape . see bugzilla 5 4 9 6 9 . 
 {% highlight java %}
 373. HSSFFont font2 = wb.createFont();
 374. font2.setItalic(true);
@@ -83,6 +66,7 @@
 ***
 
 ### [CellHSSFImpl.java](https://searchcode.com/codesearch/view/72854667/)
+> initialize the . @ param color the 
 {% highlight java %}
 82. HSSFFont hssfFont = theCell.getCellStyle().getFont(getWorkbook());
 83. return hssfFont.getStrikeout();
@@ -90,23 +74,8 @@
 
 ***
 
-### [DataLoaderXls.java](https://searchcode.com/codesearch/view/73880973/)
-{% highlight java %}
-108. final HSSFFont font = this.workbook.getFontAt ( style.getFontIndex () );
-113. return font.getStrikeout ();
-{% endhighlight %}
-
-***
-
-### [CellHSSFImpl.java](https://searchcode.com/codesearch/view/72854667/)
-{% highlight java %}
-242. HSSFFont hssfFont = cellStyle.getFont(getWorkbook());
-243. short colorIndex = hssfFont.getColor();
-{% endhighlight %}
-
-***
-
 ### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
+> ensure that the relationships collection is not null . 
 {% highlight java %}
 375. HSSFFont font3 = wb.createFont();
 376. font3.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);
@@ -115,6 +84,7 @@
 ***
 
 ### [XPathExcelTemplateService.java](https://searchcode.com/codesearch/view/114533602/)
+> org . apache . poi . openxml 4 j . opc . in # index ( int ) 
 {% highlight java %}
 206. HSSFFont font = wb.createFont();
 207. font.setColor(HSSFColor.BLUE_GREY.index);
@@ -124,6 +94,7 @@
 ***
 
 ### [ExcelUtil.java](https://searchcode.com/codesearch/view/73315299/)
+> add the specified block to the collection of properties table @ see org . apache . poi . xwpf . usermodel . ibody # getpart ( ) 
 {% highlight java %}
 233. HSSFFont font = createFont(workbook, HSSFColor.BLACK.index, HSSFFont.BOLDWEIGHT_BOLD);
 234. font.setFontHeightInPoints((short) 12);
@@ -132,34 +103,8 @@
 
 ***
 
-### [CellHSSFImpl.java](https://searchcode.com/codesearch/view/72854667/)
-{% highlight java %}
-148. HSSFFont font = cellStyle.getFont(getWorkbook());
-154.     font.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);
-157.     font.setBoldweight(HSSFFont.BOLDWEIGHT_NORMAL);
-{% endhighlight %}
-
-***
-
-### [MessageEntryExportCommand.java](https://searchcode.com/codesearch/view/107150784/)
-{% highlight java %}
-80. HSSFFont font = wb.createFont();
-81. font.setFontName("Trebuchet MS");
-82. font.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);
-{% endhighlight %}
-
-***
-
-### [ExcelUtil.java](https://searchcode.com/codesearch/view/73315299/)
-{% highlight java %}
-369. HSSFFont font4 = workbook.createFont();
-370. font4.setColor(HSSFColor.BLACK.index);
-371. font4.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);
-{% endhighlight %}
-
-***
-
 ### [ExcelExporterUtil.java](https://searchcode.com/codesearch/view/75361112/)
+> org . apache . poi . openxml 4 j . opc . stream to an existing object to a or - shape . 
 {% highlight java %}
 23. HSSFFont font = workbook.createFont();        
 24. font.setColor(HSSFColor.BLACK.index);
@@ -169,6 +114,7 @@
 ***
 
 ### [PLReportPOIProducer.java](https://searchcode.com/codesearch/view/43507470/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 83. HSSFFont dataCellFont = workBook.createFont();
 84. dataCellFont.setFontHeightInPoints((short)10);
@@ -177,16 +123,8 @@
 
 ***
 
-### [AbstractExcelExporter.java](https://searchcode.com/codesearch/view/102528302/)
-{% highlight java %}
-157. HSSFFont font = null;
-167.   font.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);
-168.   font.setItalic(true);
-{% endhighlight %}
-
-***
-
 ### [CustomExcelHssfView.java](https://searchcode.com/codesearch/view/73662641/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 86. HSSFFont bold = wb.createFont();
 87. bold.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);
@@ -196,6 +134,7 @@
 ***
 
 ### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
+> ensure that the . @ param this cell to set the formula sheet to 
 {% highlight java %}
 370. HSSFFont font1 = wb.createFont();
 371. font1.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);
@@ -205,6 +144,7 @@
 ***
 
 ### [ExcelUtil.java](https://searchcode.com/codesearch/view/73315299/)
+> create a new font and add it to the workbook ' s font table @ return new font object 
 {% highlight java %}
 80. HSSFFont font = createFont(workbook, HSSFColor.BLACK.index, HSSFFont.BOLDWEIGHT_BOLD);
 81. font.setFontHeightInPoints((short) 12);
@@ -214,6 +154,7 @@
 ***
 
 ### [TranslationExportCommand.java](https://searchcode.com/codesearch/view/107150781/)
+> create the . @ param font the font to use . 
 {% highlight java %}
 86. HSSFFont font = wb.createFont();
 87. font.setFontName("Trebuchet MS");
@@ -223,6 +164,7 @@
 ***
 
 ### [XPathExcelTemplateService.java](https://searchcode.com/codesearch/view/114533602/)
+> org . apache . poi . openxml 4 j . opc . in # index ( int ) 
 {% highlight java %}
 182. HSSFFont font = wb.createFont();
 183. font.setColor(HSSFColor.BLUE_GREY.index);
@@ -232,6 +174,7 @@
 ***
 
 ### [PLReportPOIProducer.java](https://searchcode.com/codesearch/view/43507470/)
+> org . apache . poi . openxml 4 j . opc . stream to an array of the will created column and then the value of the @ param value the boolean value to set this to . 
 {% highlight java %}
 74. HSSFFont headerCellFont = workBook.createFont();
 75. headerCellFont.setFontHeightInPoints((short)10);
@@ -241,17 +184,8 @@
 
 ***
 
-### [ExcelUtil.java](https://searchcode.com/codesearch/view/73315299/)
-{% highlight java %}
-412. HSSFFont font = workbook.createFont();
-413. font.setColor(color);
-414. font.setFontHeightInPoints((short) 12);
-415. font.setBoldweight(bold);
-{% endhighlight %}
-
-***
-
 ### [ContentPermissionReportUtil.java](https://searchcode.com/codesearch/view/43507489/)
+> org . apache . poi . openxml 4 j . opc . stream to an array of the will created column and then the value of the @ param data the byte array to be converted @ param offset a starting offset into the byte array @ return the unsigned short ( 1 6 - bit ) value 
 {% highlight java %}
 108. HSSFFont headingFont = wb.createFont();
 109. headingFont.setFontHeightInPoints((short)10);
@@ -261,17 +195,8 @@
 
 ***
 
-### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
-{% highlight java %}
-377. HSSFFont font4 = wb.createFont();
-378. font4.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);
-379. font4.setItalic(true);
-380. font4.setFontHeightInPoints((short)8);
-{% endhighlight %}
-
-***
-
 ### [SheetBuilderBase.java](https://searchcode.com/codesearch/view/112311786/)
+> create the . @ param font the font to apply to this text run . the value of { @ code null } removes the run specific font setting , so the default setting is activated again . 
 {% highlight java %}
 91. final HSSFFont font = workbook.createFont();
 92. font.setFontHeightInPoints((short) 10);

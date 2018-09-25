@@ -1,8 +1,9 @@
-# ColumnInfoRecord @Cluster 2
+# ColumnInfoRecord @Cluster 2 (columninforecord, field_1_first_col, rec)
 
 ***
 
 ### [ColumnInfoRecord.java](https://searchcode.com/codesearch/view/15642500/)
+> set the logical col field for the text record . 
 {% highlight java %}
 329. ColumnInfoRecord rec = new ColumnInfoRecord();
 330. rec.field_1_first_col = field_1_first_col;

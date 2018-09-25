@@ -1,8 +1,9 @@
-# Ole10Native @Cluster 1
+# Ole10Native @Cluster 1 (getprotect, null, objprotect)
 
 ***
 
 ### [UnpackerResource.java](https://searchcode.com/codesearch/view/113014866/)
+> tests that the create and excel . record is true when the and number of @ param . 
 {% highlight java %}
 132. Ole10Native ole = Ole10Native.createFromEmbeddedOleObject(poifs);
 133. if (ole.getDataSize()>0) {

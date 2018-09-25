@@ -1,8 +1,9 @@
-# SprmBuffer @Cluster 1
+# SprmBuffer @Cluster 1 (getslideidentifier, if, spa)
 
 ***
 
 ### [Paragraph.java](https://searchcode.com/codesearch/view/97384407/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 162. protected SprmBuffer _papx;
 254.   _papx.updateSprm(SPRM_JC, jc);

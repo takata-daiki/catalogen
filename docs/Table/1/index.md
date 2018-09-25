@@ -1,26 +1,9 @@
-# Table @Cluster 1
+# Table @Cluster 1 (col, getrow, int)
 
 ***
 
 ### [Doc.java](https://searchcode.com/codesearch/view/17642935/)
-{% highlight java %}
-288. private static void handleTable(Table t,
-304.   for (int i = 0; i < t.numRows(); i++) {
-305.     TableRow tr = t.getRow(i);
-{% endhighlight %}
-
-***
-
-### [AbstractWordUtils.java](https://searchcode.com/codesearch/view/97383984/)
-{% highlight java %}
-69. static int[] buildTableCellEdgesArray( Table table )
-73.     for ( int r = 0; r < table.numRows(); r++ )
-75.         TableRow tableRow = table.getRow( r );
-{% endhighlight %}
-
-***
-
-### [Doc.java](https://searchcode.com/codesearch/view/17642935/)
+> sets the top border style for a region of cells by manipulating the cell style of the individual cells on the bottom @ param border the new border @ param region the region that should have the border @ param sheet the sheet that the region is on . @ since poi 3 . 1 6 beta 1 
 {% highlight java %}
 278. private static int numCol(Table t) {
 280. for (int i = 0; i < t.numRows(); i++) {

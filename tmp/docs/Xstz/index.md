@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (_xstzentrymcr, _xstzexitmcr, _xstzhelptext)](./1)
 6 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
@@ -14,7 +14,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (_xstztextdef, getsize, offset)](./2)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}

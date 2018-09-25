@@ -1,35 +1,9 @@
-# CustomProperty @Cluster 3
-
-***
-
-### [CustomProperties.java](https://searchcode.com/codesearch/view/15642679/)
-{% highlight java %}
-296. final CustomProperty cp = (CustomProperty) super.get(id);
-297. return cp != null ? cp.getValue() : null;
-{% endhighlight %}
-
-***
-
-### [CustomProperties.java](https://searchcode.com/codesearch/view/15642679/)
-{% highlight java %}
-359. final CustomProperty cp = (CustomProperty) i.next();
-360. if (cp.getID() == PropertyIDMap.PID_CODEPAGE)
-361.     codepage = ((Integer) cp.getValue()).intValue();
-{% endhighlight %}
-
-***
-
-### [CustomProperties.java](https://searchcode.com/codesearch/view/15642679/)
-{% highlight java %}
-154. private Object put(final CustomProperty customProperty) throws ClassCastException
-156.     final String name = customProperty.getName();
-161.         customProperty.setID(oldId.longValue());
-171.         customProperty.setID(max + 1);
-{% endhighlight %}
+# CustomProperty @Cluster 3 (customproperty, final, this)
 
 ***
 
 ### [CustomProperty.java](https://searchcode.com/codesearch/view/15642672/)
+> compares the one with the type of the text in the slideshow , 2 and 3 5 6 of the line . 
 {% highlight java %}
 126. final CustomProperty c = (CustomProperty) o;
 127. final String name1 = c.getName();

@@ -1,8 +1,9 @@
-# HSSFDataFormatter @Cluster 1
+# HSSFDataFormatter @Cluster 1 (getformat, m_dataformat, setdataformat)
 
 ***
 
 ### [ExcelReader.java](https://searchcode.com/codesearch/view/13216283/)
+> sets the 
 {% highlight java %}
 120. HSSFDataFormatter formater = new HSSFDataFormatter();
 159.                         Format dataformat = formater.createFormat(zelle);

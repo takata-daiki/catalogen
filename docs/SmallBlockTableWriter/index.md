@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (getslideidentifier, if, spa)](./1)
 1 results
 > add a new to this package @ see org . apache . poi . hssf . usermodel . hssfsheet # @ see org . apache . poi . hssf . usermodel . { @ link # index ( org . apache . poi . ss . usermodel . workbook , int ) } 
 {% highlight java %}

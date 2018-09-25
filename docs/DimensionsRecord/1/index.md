@@ -1,8 +1,9 @@
-# DimensionsRecord @Cluster 1
+# DimensionsRecord @Cluster 1 (col, dims, retval)
 
 ***
 
 ### [Sheet.java](https://searchcode.com/codesearch/view/15642365/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 991. DimensionsRecord d = ( DimensionsRecord ) records.get(getDimsLoc());
 993. if (col.getColumn() > d.getLastCol())
@@ -14,6 +15,7 @@
 ***
 
 ### [Sheet.java](https://searchcode.com/codesearch/view/15642365/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 1127. DimensionsRecord d = ( DimensionsRecord ) records.get(getDimsLoc());
 1129. if (row.getRowNumber() >= d.getLastRow())
@@ -25,6 +27,7 @@
 ***
 
 ### [Sheet.java](https://searchcode.com/codesearch/view/15642365/)
+> creates the 
 {% highlight java %}
 1988. DimensionsRecord retval = new DimensionsRecord();
 1990. retval.setFirstCol(( short ) 0);
@@ -36,6 +39,7 @@
 ***
 
 ### [Sheet.java](https://searchcode.com/codesearch/view/15642365/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 95. protected DimensionsRecord           dims;
 664.     dims.setFirstCol(firstcol);

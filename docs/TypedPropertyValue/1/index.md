@@ -1,8 +1,9 @@
-# TypedPropertyValue @Cluster 1
+# TypedPropertyValue @Cluster 1 (currentpiece, currenttextend, currenttextstart)
 
 ***
 
 ### [VariantSupport.java](https://searchcode.com/codesearch/view/97383361/)
+> sets the document summary information of the document @ throws ioexception if the file can ' t be read or contained errors 
 {% highlight java %}
 161. TypedPropertyValue typedPropertyValue = new TypedPropertyValue(
 166.     unpadded = typedPropertyValue.readValue( src, offset );

@@ -1,8 +1,9 @@
-# XSSFRow @Cluster 4
+# XSSFRow @Cluster 4 (cell1, datarow, headercell00)
 
 ***
 
 ### [ExcelBetreuerinnen.java](https://searchcode.com/codesearch/view/91974026/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 77. XSSFRow headerRow = sheet.createRow(1);
 81.   XSSFCell headerCell1 = headerRow.createCell(count);
@@ -11,6 +12,7 @@
 ***
 
 ### [ExcelFamilieZahlungenB.java](https://searchcode.com/codesearch/view/91974028/)
+> sets the 
 {% highlight java %}
 74. XSSFRow headerRow = sheet.createRow(1);
 79.     XSSFCell headerCell1 = headerRow.createCell(count);
@@ -21,6 +23,7 @@
 ***
 
 ### [ExcelBetreuerinZahlungenRD.java](https://searchcode.com/codesearch/view/91974030/)
+> sets the 
 {% highlight java %}
 72. XSSFRow headerRow = sheet.createRow(1);
 77.     XSSFCell headerCell1 = headerRow.createCell(count);
@@ -31,6 +34,7 @@
 ***
 
 ### [ExcelFamilieZahlungen.java](https://searchcode.com/codesearch/view/91974043/)
+> sets the 
 {% highlight java %}
 121. XSSFRow headerRow = sheet.createRow(2);
 123. XSSFCell nrCell = headerRow.createCell(0);
@@ -41,6 +45,7 @@
 ***
 
 ### [ExcelBetreuerinnenAN.java](https://searchcode.com/codesearch/view/91974014/)
+> sets the 
 {% highlight java %}
 76. XSSFRow headerRow = sheet.createRow(1);
 81.     XSSFCell headerCell1 = headerRow.createCell(count);
@@ -50,17 +55,8 @@
 
 ***
 
-### [ExcelBetreuerinZahlungen.java](https://searchcode.com/codesearch/view/91974041/)
-{% highlight java %}
-120. XSSFRow headerRow = sheet.createRow(2);
-122. XSSFCell nrCell = headerRow.createCell(0);
-126. XSSFCell nachnameCell = headerRow.createCell(1);
-133.     XSSFCell headerCell1 = headerRow.createCell(count);
-{% endhighlight %}
-
-***
-
 ### [ExcelFamilienAU.java](https://searchcode.com/codesearch/view/91974058/)
+> sets the 
 {% highlight java %}
 86. XSSFRow zweiteZeile = sheet.createRow(2);
 91.     XSSFCell spaltenCells = zweiteZeile.createCell(count);
@@ -71,6 +67,7 @@
 ***
 
 ### [ExcelFamilieBetreuung.java](https://searchcode.com/codesearch/view/91974011/)
+> 0 x 3 2 4 0 - . ' s zero . @ throws evaluationexception if no 0 - based . 
 {% highlight java %}
 122. XSSFRow headerRow = sheet.createRow(2);
 124. XSSFCell nrCell = headerRow.createCell(0);
@@ -81,6 +78,7 @@
 ***
 
 ### [ExcelBetreuerinBetreuung.java](https://searchcode.com/codesearch/view/91974062/)
+> sets the 
 {% highlight java %}
 125. XSSFRow headerRow = sheet.createRow(2);
 127. XSSFCell nrCell = headerRow.createCell(0);
@@ -91,6 +89,7 @@
 ***
 
 ### [ExcelBetreuerinBetreuungAU.java](https://searchcode.com/codesearch/view/91974007/)
+> sets the 
 {% highlight java %}
 73. XSSFRow headerRow = sheet.createRow(1);
 78.     XSSFCell headerCell1 = headerRow.createCell(count);
@@ -101,6 +100,7 @@
 ***
 
 ### [ExcelBetreuerinBetreuungAN.java](https://searchcode.com/codesearch/view/91974023/)
+> sets the 
 {% highlight java %}
 73. XSSFRow headerRow = sheet.createRow(1);
 78.     XSSFCell headerCell1 = headerRow.createCell(count);
@@ -111,6 +111,7 @@
 ***
 
 ### [ExcelFamilieZahlungenM.java](https://searchcode.com/codesearch/view/91974009/)
+> sets the 
 {% highlight java %}
 74. XSSFRow headerRow = sheet.createRow(1);
 79.     XSSFCell headerCell1 = headerRow.createCell(count);
@@ -121,6 +122,7 @@
 ***
 
 ### [ExcelFamilieBetreuungAU.java](https://searchcode.com/codesearch/view/91974021/)
+> sets the 
 {% highlight java %}
 75. XSSFRow headerRow = sheet.createRow(1);
 80.     XSSFCell headerCell1 = headerRow.createCell(count);

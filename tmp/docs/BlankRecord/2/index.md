@@ -1,18 +1,9 @@
-# BlankRecord @Cluster 2
-
-***
-
-### [RecordFactory.java](https://searchcode.com/codesearch/view/15642481/)
-{% highlight java %}
-253. BlankRecord br = new BlankRecord();
-255. br.setColumn(( short ) (k + mb.getFirstColumn()));
-256. br.setRow(mb.getRow());
-257. br.setXFIndex(mb.getXFAt(k));
-{% endhighlight %}
+# BlankRecord @Cluster 2 (blankrecord, br, mb)
 
 ***
 
 ### [EventRecordFactory.java](https://searchcode.com/codesearch/view/15642343/)
+> sets the a number of the number of the that contains the comment @ param row the row that the region is on . 
 {% highlight java %}
 405. BlankRecord br = new BlankRecord();
 407. br.setColumn(( short ) (k + mb.getFirstColumn()));

@@ -1,8 +1,9 @@
-# ExternSheetRecord @Cluster 1
+# ExternSheetRecord @Cluster 1 (excelextractor, extractor, false)
 
 ***
 
 ### [Workbook.java](https://searchcode.com/codesearch/view/15642358/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 108. protected ExternSheetRecord externSheet= null;
 1818.         for (int k = 0; k < externSheet.getNumOfREFStructures(); k++) {

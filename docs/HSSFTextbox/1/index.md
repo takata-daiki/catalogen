@@ -1,8 +1,9 @@
-# HSSFTextbox @Cluster 1
+# HSSFTextbox @Cluster 1 (addescherproperty, escherproperties, eschersimpleproperty)
 
 ***
 
 ### [HSSFPatriarch.java](https://searchcode.com/codesearch/view/15642333/)
+> sets the line end text @ param color the new color 
 {% highlight java %}
 145. HSSFTextbox shape = new HSSFTextbox(null, anchor);
 146. shape.anchor = anchor;
@@ -11,6 +12,7 @@
 ***
 
 ### [HSSFShapeGroup.java](https://searchcode.com/codesearch/view/15642300/)
+> sets the line end width @ param color the new < i > null < / code > 
 {% highlight java %}
 101. HSSFTextbox shape = new HSSFTextbox(this, anchor);
 102. shape.anchor = anchor;
@@ -18,17 +20,8 @@
 
 ***
 
-### [EscherGraphics.java](https://searchcode.com/codesearch/view/15642323/)
-{% highlight java %}
-311. HSSFTextbox textbox = escherGroup.createTextbox( new HSSFChildAnchor( x, y, x + width, y + height ) );
-312. textbox.setNoFill( true );
-313. textbox.setLineStyle( HSSFShape.LINESTYLE_NONE );
-317. textbox.setString( s );
-{% endhighlight %}
-
-***
-
 ### [TextboxShape.java](https://searchcode.com/codesearch/view/15642364/)
+> sets the line compound style @ param style new 9 value of the < code > null < / code > object to the default 
 {% highlight java %}
 106. HSSFTextbox shape = hssfShape;
 125. opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.TEXT__TEXTLEFT, shape.getMarginLeft() ) );

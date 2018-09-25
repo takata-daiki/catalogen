@@ -1,8 +1,9 @@
-# ValueRecordsAggregate @Cluster 1
+# ValueRecordsAggregate @Cluster 1 (cells, null, rows)
 
 ***
 
 ### [Sheet.java](https://searchcode.com/codesearch/view/15642365/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 110. protected ValueRecordsAggregate      cells             =     null;
 231.                 retval.cells.construct( k, recs );

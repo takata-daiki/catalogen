@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-3 results
+## [Cluster 1 (back, int, warn)](./1)
+2 results
 > @ throws nullpointerexception if cell 1 is null ( fixed position ) @ see org . apache . poi . ss . usermodel . clientanchor # or ( short ) 
 {% highlight java %}
 123. PropertySet ps;
@@ -13,8 +13,8 @@
 
 ***
 
-## [Cluster 2](./2)
-3 results
+## [Cluster 2 (if, new, ps)](./2)
+2 results
 > < p > returns the poi file ' s sheet . < / p > @ return the poi file ' s variant type . 
 {% highlight java %}
 84. final PropertySet ps = new PropertySet(stream);
@@ -24,7 +24,7 @@
 
 ***
 
-## [Cluster 3](./3)
+## [Cluster 3 (if, new, properties)](./3)
 1 results
 > < p > writes an unsigned two - byte value to an output stream . < / p > 
 {% highlight java %}

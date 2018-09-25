@@ -1,8 +1,9 @@
-# HSSFPrintSetup @Cluster 1
+# HSSFPrintSetup @Cluster 1 (a4_papersize, hssfprintsetup, ps)
 
 ***
 
 ### [AbstractExcelExporter.java](https://searchcode.com/codesearch/view/61401276/)
+> set the type of underlining for the font 
 {% highlight java %}
 349. HSSFPrintSetup ps = sheet.getPrintSetup();
 350. ps.setFitWidth((short)1);
@@ -14,6 +15,7 @@
 ***
 
 ### [AbstractExcelExporter.java](https://searchcode.com/codesearch/view/62628992/)
+> set the type of underlining for the font 
 {% highlight java %}
 349. HSSFPrintSetup ps = sheet.getPrintSetup();
 350. ps.setFitWidth((short)1);
@@ -25,6 +27,7 @@
 ***
 
 ### [AbstractExcelExporter.java](https://searchcode.com/codesearch/view/3305415/)
+> set the type of underlining for the font 
 {% highlight java %}
 351. HSSFPrintSetup ps = sheet.getPrintSetup();
 352. ps.setFitWidth((short)1);
@@ -36,6 +39,7 @@
 ***
 
 ### [AbstractExcelExporter.java](https://searchcode.com/codesearch/view/59777594/)
+> set the type of underlining for the font 
 {% highlight java %}
 349. HSSFPrintSetup ps = sheet.getPrintSetup();
 350. ps.setFitWidth((short)1);
@@ -47,6 +51,7 @@
 ***
 
 ### [AbstractExcelExporter.java](https://searchcode.com/codesearch/view/102528302/)
+> set the type of underlining for the font 
 {% highlight java %}
 345. HSSFPrintSetup ps = sheet.getPrintSetup();
 346. ps.setFitWidth((short)1);
@@ -58,6 +63,7 @@
 ***
 
 ### [AbstractExcelExporter.java](https://searchcode.com/codesearch/view/62551719/)
+> set the type of underlining for the font 
 {% highlight java %}
 351. HSSFPrintSetup ps = sheet.getPrintSetup();
 352. ps.setFitWidth((short)1);
@@ -69,6 +75,7 @@
 ***
 
 ### [AbstractExcelExporter.java](https://searchcode.com/codesearch/view/8373941/)
+> set the type of underlining for the font 
 {% highlight java %}
 345. HSSFPrintSetup ps = sheet.getPrintSetup();
 346. ps.setFitWidth((short)1);
@@ -80,6 +87,7 @@
 ***
 
 ### [AbstractExcelExporter.java](https://searchcode.com/codesearch/view/63585397/)
+> set the type of underlining for the font 
 {% highlight java %}
 345. HSSFPrintSetup ps = sheet.getPrintSetup();
 346. ps.setFitWidth((short)1);
@@ -91,6 +99,7 @@
 ***
 
 ### [AbstractExcelExporter.java](https://searchcode.com/codesearch/view/63687137/)
+> set the type of underlining for the font 
 {% highlight java %}
 345. HSSFPrintSetup ps = sheet.getPrintSetup();
 346. ps.setFitWidth((short)1);
@@ -102,6 +111,7 @@
 ***
 
 ### [AbstractExcelExporter.java](https://searchcode.com/codesearch/view/63385794/)
+> set the type of underlining for the font 
 {% highlight java %}
 345. HSSFPrintSetup ps = sheet.getPrintSetup();
 346. ps.setFitWidth((short)1);

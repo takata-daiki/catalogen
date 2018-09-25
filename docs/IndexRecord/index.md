@@ -2,13 +2,15 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (field_1_header_len, field_2_reserved, rec)](./1)
 1 results
-> this comment could not be generated...
+> serializes the record to an existing . @ param index the index of the formatting to return the properties to @ return the number of bytes 
 {% highlight java %}
-1433. IndexRecord retval = new IndexRecord();
-1435. retval.setFirstRow(0);   // must be set explicitly
-1436. retval.setLastRowAdd1(0);
+800. IndexRecord index = new IndexRecord();
+801. index.setFirstRow(rows.getFirstRowNum());
+802. index.setLastRowAdd1(rows.getLastRowNum()+1);
+827.   index.addDbcell(offset + indexRecSize + sheetRecSize + dbCellOffset + rowBlockOffset + cellBlockOffset);
+831. return index.serialize(offset, data);
 {% endhighlight %}
 
 ***

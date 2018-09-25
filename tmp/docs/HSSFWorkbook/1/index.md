@@ -1,16 +1,9 @@
-# HSSFWorkbook @Cluster 1
-
-***
-
-### [ExcelIdentifier.java](https://searchcode.com/codesearch/view/52992680/)
-{% highlight java %}
-22. private HSSFWorkbook workbook;
-44.     HSSFSheet sheet = workbook.getSheetAt(sheetNumber);
-{% endhighlight %}
+# HSSFWorkbook @Cluster 1 (createcellstyle, getsheetindex, wb)
 
 ***
 
 ### [SpreadSheetPoiHelper.java](https://searchcode.com/codesearch/view/73882044/)
+> read the xml signature 0 and throws excel 
 {% highlight java %}
 242. final HSSFWorkbook workbook = new HSSFWorkbook ( new FileInputStream ( fileName ) );
 244. final Sheet sheet = workbook.getSheetAt ( 0 );
@@ -19,6 +12,7 @@
 ***
 
 ### [UpLoadFileWindow.java](https://searchcode.com/codesearch/view/42988393/)
+> sets the document 
 {% highlight java %}
 180. HSSFWorkbook wb = new HSSFWorkbook(bin);
 181. HSSFSheet st = wb.getSheetAt(0);
@@ -26,15 +20,8 @@
 
 ***
 
-### [SheetBuilderBase.java](https://searchcode.com/codesearch/view/112311786/)
-{% highlight java %}
-46. public SheetBuilderBase(final HSSFWorkbook workbook, final String sheetName) {
-62.   sheet = workbook.createSheet(sheetName);
-{% endhighlight %}
-
-***
-
 ### [CellHSSFImpl.java](https://searchcode.com/codesearch/view/72854667/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 45. private HSSFWorkbook workbook;
 336. return workbook.getSheetName(getSheetIndex());
@@ -44,6 +31,7 @@
 ***
 
 ### [ExcelExtractor.java](https://searchcode.com/codesearch/view/48925127/)
+> sets the a number of from the spreadsheet , i . e . null ( not a 0 x 1 0 ) @ throws evaluationexception ( # num ! ) if < tt > result < / tt > is < tt > nan < / > or < tt > infinity < / tt > 
 {% highlight java %}
 44. HSSFWorkbook wb = new HSSFWorkbook(input);
 56. sNum = wb.getNumberOfSheets();
@@ -53,6 +41,7 @@
 ***
 
 ### [ExcelUtil.java](https://searchcode.com/codesearch/view/73315299/)
+> dump the record content into < code > in . will 1 
 {% highlight java %}
 70. HSSFWorkbook workbook = new HSSFWorkbook();
 72. HSSFSheet sheet = workbook.createSheet(title);
@@ -64,6 +53,7 @@
 ***
 
 ### [ContentPermissionReportUtil.java](https://searchcode.com/codesearch/view/43507489/)
+> create an array of records from an input stream @ param in the stream 
 {% highlight java %}
 103. HSSFWorkbook wb = new HSSFWorkbook();
 105. HSSFSheet sheet = wb.createSheet("Resources Restriction");
@@ -74,18 +64,8 @@
 
 ***
 
-### [ExcelFileOut.java](https://searchcode.com/codesearch/view/35739735/)
-{% highlight java %}
-30. HSSFWorkbook myWorkBook;
-40.     mySheet = myWorkBook.getSheetAt(0);
-47.     myWorkBook.getSheetAt(1).getRow(1).createCell(1).setCellValue(TestHarness.TEST_PERIOD);
-50.     mySheet = myWorkBook.createSheet();
-67.     myWorkBook.write(out);
-{% endhighlight %}
-
-***
-
 ### [SheetBuilderBase.java](https://searchcode.com/codesearch/view/112311786/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 30. protected final HSSFWorkbook workbook;
 62.   sheet = workbook.createSheet(sheetName);
@@ -98,6 +78,7 @@
 ***
 
 ### [PLReportPOIProducer.java](https://searchcode.com/codesearch/view/43507470/)
+> create the . @ param data the byte array to be in the records @ param offset the offset into the byte array @ return the number of bytes written 
 {% highlight java %}
 47. HSSFWorkbook    workBook = null;
 67.     HSSFSheet sheet = workBook.createSheet();
@@ -109,20 +90,8 @@
 
 ***
 
-### [ExcelUtil.java](https://searchcode.com/codesearch/view/73315299/)
-{% highlight java %}
-223. HSSFWorkbook workbook = new HSSFWorkbook();
-225. HSSFSheet sheet = workbook.createSheet(title);
-244. HSSFFont font2 = workbook.createFont();
-254. HSSFDataFormat format = workbook.createDataFormat();
-328.         patriarch.createPicture(anchor, workbook.addPicture(bsValue, HSSFWorkbook.PICTURE_TYPE_JPEG));
-369.     HSSFFont font4 = workbook.createFont();
-390.   workbook.write(out);
-{% endhighlight %}
-
-***
-
 ### [SheetHSSFImpl.java](https://searchcode.com/codesearch/view/72854680/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 40. private HSSFWorkbook hssfWorkbook;
 90.     hssfWorkbook.setSheetName(hssfWorkbook.getSheetIndex(sheet), name);
@@ -137,6 +106,7 @@
 ***
 
 ### [ExportToExcel.java](https://searchcode.com/codesearch/view/46011490/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 22. private HSSFWorkbook wb;
 94.   HSSFSheet sheet = wb.createSheet();
@@ -155,6 +125,7 @@
 ***
 
 ### [WorkbookHSSFImpl.java](https://searchcode.com/codesearch/view/72854626/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 50. private HSSFWorkbook workbook;
 58.     workbook.createSheet();        

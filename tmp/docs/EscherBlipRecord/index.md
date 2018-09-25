@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-4 results
+## [Cluster 1 (blip, header, tikainputstream)](./1)
+2 results
 > sets the 
 {% highlight java %}
 99. EscherBlipRecord r;
@@ -13,7 +13,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (36, field_12_bliprecord, getrecordsize)](./2)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
@@ -27,7 +27,7 @@
 
 ***
 
-## [Cluster 3](./3)
+## [Cluster 3 (field_12_bliprecord, getrecordsize, null)](./3)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}

@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (element, hfpolicy, xhtml)](./1)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
@@ -17,7 +17,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (element, hfpolicy, xhtml)](./2)
 1 results
 > sets the a number of the formula that 1 between 0 and ( the first 1 sheet 3 ) . default is 0 . @ param name the name to add @ param 
 {% highlight java %}
@@ -32,7 +32,7 @@
 
 ***
 
-## [Cluster 3](./3)
+## [Cluster 3 (append, buffy, hfpolicy)](./3)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
@@ -47,7 +47,7 @@
 
 ***
 
-## [Cluster 4](./4)
+## [Cluster 4 (append, buffy, hfpolicy)](./4)
 1 results
 > replace that for a given block , we ' re ( the same if the same one does not contain 
 {% highlight java %}

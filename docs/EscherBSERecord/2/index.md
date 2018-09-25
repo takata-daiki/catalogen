@@ -1,8 +1,9 @@
-# EscherBSERecord @Cluster 2
+# EscherBSERecord @Cluster 2 (escherbserecord, format, short)
 
 ***
 
 ### [HSSFWorkbook.java](https://searchcode.com/codesearch/view/15642316/)
+> set the visibility state for a given column @ param columnindex - the column to set ( 0 - based ) @ return width - the number of pages 
 {% highlight java %}
 1309. EscherBSERecord r = new EscherBSERecord();
 1310. r.setRecordId( EscherBSERecord.RECORD_ID );

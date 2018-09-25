@@ -1,8 +1,9 @@
-# Table @Cluster 2
+# Table @Cluster 2 (int, table, void)
 
 ***
 
 ### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
+> set the contents of the record string , i . e . the code from the . 
 {% highlight java %}
 1074. Table table = range.getTable( paragraph );
 1077. p += table.numParagraphs();
@@ -10,16 +11,8 @@
 
 ***
 
-### [PrintTemplateServiceImpl.java](https://searchcode.com/codesearch/view/94110212/)
-{% highlight java %}
-1588. Table table = (Table) anno[i];
-1589. System.out.println(table.name());
-1590. tableName = table.name();
-{% endhighlight %}
-
-***
-
 ### [Doc.java](https://searchcode.com/codesearch/view/17642935/)
+> sets the 
 {% highlight java %}
 115. Table t = s.getTable(p);
 118. log.info("Found " + t.numRows() + "x" + cl
@@ -29,6 +22,7 @@
 ***
 
 ### [AbstractWordConverter.java](https://searchcode.com/codesearch/view/97383976/)
+> sets the { @ link a 3 d } object with the given name . @ param name the name to this cell is being read @ param is the workbook to write the formula to 
 {% highlight java %}
 222. protected int getNumberRowsSpanned( Table table,
 229.     final int numRows = table.numRows();
@@ -38,6 +32,7 @@
 ***
 
 ### [WordToHtmlConverter.java](https://searchcode.com/codesearch/view/97383966/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 622.     Table table )
 629. final int tableRows = table.numRows();

@@ -2,12 +2,13 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (in, readshort, recordinputstream)](./1)
 1 results
-> this comment could not be generated...
+> test that we get the same value as excel and , for 
 {% highlight java %}
-75. final RawDataBlockList blockList, final RootProperty root,
-81.     .extract(blockList.fetchBlocks(root.getStartBlock()),
+65. private RootProperty               _root;
+99.     _root.setSize(_small_blocks.size());
+146.     _root.setStartBlock(start_block);
 {% endhighlight %}
 
 ***

@@ -1,8 +1,9 @@
-# LineFormatRecord @Cluster 1
+# LineFormatRecord @Cluster 1 (newrec, rec, record)
 
 ***
 
 ### [LineFormatRecord.java](https://searchcode.com/codesearch/view/15642512/)
+> set the reserved 3 field for the axis record . 
 {% highlight java %}
 185. LineFormatRecord rec = new LineFormatRecord();
 187. rec.field_1_lineColor = field_1_lineColor;

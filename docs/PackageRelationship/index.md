@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-5 results
+## [Cluster 1 (equals, getrelationshiptype, rel)](./1)
+1 results
 > add comments to the list of ) and ( ) on all sheets from the existing workbook . 
 {% highlight java %}
 101. for(PackageRelationship rel : rels) {
@@ -18,8 +18,8 @@
 
 ***
 
-## [Cluster 2](./2)
-9 results
+## [Cluster 2 (packagerelationship, pic, rel)](./2)
+2 results
 > when the specified sheet is is the sheet which is true and the 2 are current ( < b > false < / i > ) . 
 {% highlight java %}
 536. PackageRelationship blipRel = packagePart.getRelationship(blipId);

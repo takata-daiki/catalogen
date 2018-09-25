@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (getstring, sst, sstrec)](./1)
 1 results
 > sets the record the text in the slideshow 
 {% highlight java %}

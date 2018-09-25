@@ -1,8 +1,9 @@
-# EscherBlipRecord @Cluster 1
+# EscherBlipRecord @Cluster 1 (blip, header, tikainputstream)
 
 ***
 
 ### [DefaultEscherRecordFactory.java](https://searchcode.com/codesearch/view/15642620/)
+> sets the 
 {% highlight java %}
 99. EscherBlipRecord r;
 116. r.setRecordId( header.getRecordId() );
@@ -11,25 +12,8 @@
 
 ***
 
-### [HSSFPictureData.java](https://searchcode.com/codesearch/view/15642299/)
-{% highlight java %}
-65. private EscherBlipRecord blip;
-84.     return blip.getPicturedata();
-94.     switch (blip.getOptions() & FORMAT_MASK)
-{% endhighlight %}
-
-***
-
-### [DefaultEscherRecordFactory.java](https://searchcode.com/codesearch/view/97383906/)
-{% highlight java %}
-77. EscherBlipRecord r;
-92. r.setRecordId( recordId );
-93. r.setOptions( options );
-{% endhighlight %}
-
-***
-
 ### [ExcelExtractor.java](https://searchcode.com/codesearch/view/111785559/)
+> @ since 3 . 1 7 beta 1 
 {% highlight java %}
 531. EscherBlipRecord blip = ((EscherBSERecord) escherRecord).getBlipRecord();
 540.    switch (blip.getRecordId()) {

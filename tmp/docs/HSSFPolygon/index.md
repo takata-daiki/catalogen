@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (anchor, foreground, top)](./1)
 4 results
 > creates a new . @ param anchor the client anchor describes how this group is attached to the sheet . 
 {% highlight java %}
@@ -12,7 +12,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (getxpoints, hssfshape, length)](./2)
 1 results
 > create an record from the record list and sets the @ param record the sid to be picture @ param offset type the shape to use 
 {% highlight java %}

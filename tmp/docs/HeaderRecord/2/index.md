@@ -1,8 +1,9 @@
-# HeaderRecord @Cluster 2
+# HeaderRecord @Cluster 2 (field_1_header_len, field_2_reserved, rec)
 
 ***
 
 ### [HeaderRecord.java](https://searchcode.com/codesearch/view/15642431/)
+> set the minor unit field for the axisoptions record . 
 {% highlight java %}
 229. HeaderRecord rec = new HeaderRecord();
 230. rec.field_1_header_len = field_1_header_len;

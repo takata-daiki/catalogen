@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-10 results
+## [Cluster 1 (currenttablelevel, table, text)](./1)
+6 results
 > set the contents of this shape to be a copy of the source shape . this method is called recursively for each shape when 0 . @ param @ param 
 {% highlight java %}
 24. Paragraph p = r.getParagraph(x);
@@ -12,8 +12,8 @@
 
 ***
 
-## [Cluster 2](./2)
-4 results
+## [Cluster 2 (par1, par2, two)](./2)
+3 results
 > tests that the create record function returns a properly constructed record in the simple case . 
 {% highlight java %}
 33. Paragraph par2 = run1.insertAfter(new ParagraphProperties(), 0);

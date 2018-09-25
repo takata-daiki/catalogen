@@ -1,8 +1,9 @@
-# FooterRecord @Cluster 4
+# FooterRecord @Cluster 4 (field_1_footer_len, field_2_reserved, rec)
 
 ***
 
 ### [FooterRecord.java](https://searchcode.com/codesearch/view/15642430/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 229. FooterRecord rec = new FooterRecord();
 230. rec.field_1_footer_len = field_1_footer_len;

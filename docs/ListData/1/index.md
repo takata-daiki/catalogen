@@ -1,17 +1,9 @@
-# ListData @Cluster 1
+# ListData @Cluster 1 (_listdata, int, log)
 
 ***
 
 ### [ListTables.java](https://searchcode.com/codesearch/view/97384153/)
-{% highlight java %}
-194. public int addList( ListData lst, LFO lfo, LFOData lfoData )
-196.     int lsid = lst.getLsid();
-199.         lsid = lst.resetListID();
-{% endhighlight %}
-
-***
-
-### [ListTables.java](https://searchcode.com/codesearch/view/97384153/)
+> sets the 
 {% highlight java %}
 99. ListData lst = _listMap.get(x);
 100. tableStream.write(lst.toByteArray());
@@ -21,6 +13,7 @@
 ***
 
 ### [ListTables.java](https://searchcode.com/codesearch/view/97384153/)
+> sets the 
 {% highlight java %}
 141.   ListData lst = _listMap.get(Integer.valueOf(lsid));
 142.   if(level < lst.numLevels()) {
@@ -31,6 +24,7 @@
 ***
 
 ### [HWPFList.java](https://searchcode.com/codesearch/view/97384433/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 60. private ListData _listData;
 78.     _lfo.setLsid( _listData.getLsid() );

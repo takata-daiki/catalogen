@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (in, readshort, recordinputstream)](./1)
 1 results
 > tests that the create record function returns a properly constructed record in the case of a { @ link . } 
 {% highlight java %}

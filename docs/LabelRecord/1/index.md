@@ -1,8 +1,9 @@
-# LabelRecord @Cluster 1
+# LabelRecord @Cluster 1 (field_1_row, field_2_column, rec)
 
 ***
 
 ### [LabelRecord.java](https://searchcode.com/codesearch/view/15642496/)
+> sets the auto series field value . true = text is where 
 {% highlight java %}
 302. LabelRecord rec = new LabelRecord();
 303. rec.field_1_row = field_1_row;

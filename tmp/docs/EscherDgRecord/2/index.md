@@ -1,8 +1,9 @@
-# EscherDgRecord @Cluster 2
+# EscherDgRecord @Cluster 2 (dg, escherdgrecord, setlastmsospid)
 
 ***
 
 ### [DrawingManager.java](https://searchcode.com/codesearch/view/15642363/)
+> sets whether the rowcolheadings are shown in a viewer @ param show whether to show rowcolheadings or not 
 {% highlight java %}
 66. EscherDgRecord dg = new EscherDgRecord();
 67. dg.setRecordId( EscherDgRecord.RECORD_ID );
@@ -14,6 +15,7 @@
 ***
 
 ### [DrawingManager2.java](https://searchcode.com/codesearch/view/15642353/)
+> sets whether the rowcolheadings are shown in a viewer @ param show whether to show rowcolheadings or not 
 {% highlight java %}
 68. EscherDgRecord dg = new EscherDgRecord();
 69. dg.setRecordId( EscherDgRecord.RECORD_ID );
@@ -25,6 +27,7 @@
 ***
 
 ### [DrawingManager.java](https://searchcode.com/codesearch/view/15642363/)
+> this method is being the same as the for a left , right on the right down , of the shape . 
 {% highlight java %}
 86. EscherDgRecord dg = (EscherDgRecord) dgMap.get(new Short(drawingGroupId));
 87. int lastShapeId = dg.getLastMSOSPID();
@@ -37,6 +40,7 @@
 ***
 
 ### [Sheet.java](https://searchcode.com/codesearch/view/97394323/)
+> does not have a data column at the given column index . 
 {% highlight java %}
 269. EscherDgRecord dg = _container.getPPDrawing().getEscherDgRecord();
 277.     if (c.getDrawingGroupId() == dg.getDrawingGroupId() && c.getNumShapeIdsUsed() != 1024)

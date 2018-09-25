@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (field_12_bliprecord, getrecordsize, null)](./1)
 1 results
 > sets the and color 2 for the sheet @ param this a cell to set the properties with @ param cell the cell to set 
 {% highlight java %}

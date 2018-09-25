@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-4 results
+## [Cluster 1 (_listdata, int, log)](./1)
+3 results
 > sets the 
 {% highlight java %}
 99. ListData lst = _listMap.get(x);
@@ -13,7 +13,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (_listmap, listdata, lst)](./2)
 1 results
 > add a new excel record to this < code > ppdrawing < / code > . 
 {% highlight java %}

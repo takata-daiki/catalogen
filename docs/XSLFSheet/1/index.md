@@ -1,16 +1,9 @@
-# XSLFSheet @Cluster 1
-
-***
-
-### [XSLFDrawing.java](https://searchcode.com/codesearch/view/97406826/)
-{% highlight java %}
-42. /*package*/ XSLFDrawing(XSLFSheet sheet, CTGroupShape spTree){
-45.     XmlObject[] cNvPr = sheet.getSpTree().selectPath(
-{% endhighlight %}
+# XSLFSheet @Cluster 1 (ctstylematrix, sheet, stylematrix)
 
 ***
 
 ### [RenderableShape.java](https://searchcode.com/codesearch/view/97406799/)
+> set the ' returns ' value ' , if to specified region 
 {% highlight java %}
 384. XSLFSheet sheet = _shape.getSheet();
 385. XSLFTheme theme = sheet.getTheme();
@@ -20,6 +13,7 @@
 ***
 
 ### [XSLFSimpleShape.java](https://searchcode.com/codesearch/view/97406763/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 78. private final XSLFSheet _sheet;
 272.         CTStyleMatrix styleMatrix = _sheet.getTheme().getXmlObject().getThemeElements().getFmtScheme();
@@ -29,6 +23,7 @@
 ***
 
 ### [XSLFGroupShape.java](https://searchcode.com/codesearch/view/97406700/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 56. private final XSLFSheet _sheet;
 65.     _shapes = _sheet.buildShapes(_shape);

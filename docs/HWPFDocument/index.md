@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-4 results
+## [Cluster 1 (doc, hwpfdocument, plexofcps)](./1)
+1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
 532. HWPFDocument doc = (HWPFDocument) _doc;
@@ -15,8 +15,8 @@
 
 ***
 
-## [Cluster 2](./2)
-14 results
+## [Cluster 2 (doc, document, hwpfdocument)](./2)
+8 results
 > sets the as string from the { @ link a 3 d } or { @ link # a 2 d } or { @ code null } @ param the cell to ' s format @ param and the font that should be used @ param cell the cell @ param 0 the null value @ param sheet the number format 
 {% highlight java %}
 488. HWPFDocument newFormat = (HWPFDocument) wordDocument;

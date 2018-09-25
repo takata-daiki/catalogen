@@ -1,8 +1,9 @@
-# Xstz @Cluster 1
+# Xstz @Cluster 1 (_xstzentrymcr, _xstzexitmcr, _xstzhelptext)
 
 ***
 
 ### [FFData.java](https://searchcode.com/codesearch/view/97384199/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 61. private Xstz _xstzEntryMcr;
 134.     offset += this._xstzEntryMcr.getSize();
@@ -13,6 +14,7 @@
 ***
 
 ### [FFData.java](https://searchcode.com/codesearch/view/97384199/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 85. private Xstz _xstzTextFormat;
 125.     offset += this._xstzTextFormat.getSize();
@@ -23,6 +25,7 @@
 ***
 
 ### [FFData.java](https://searchcode.com/codesearch/view/97384199/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 73. private Xstz _xstzStatText;
 131.     offset += this._xstzStatText.getSize();
@@ -33,6 +36,7 @@
 ***
 
 ### [FFData.java](https://searchcode.com/codesearch/view/97384199/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 71. private Xstz _xstzName;
 100.     offset += this._xstzName.getSize();
@@ -43,6 +47,7 @@
 ***
 
 ### [FFData.java](https://searchcode.com/codesearch/view/97384199/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 65. private Xstz _xstzHelpText;
 128.     offset += this._xstzHelpText.getSize();
@@ -53,6 +58,7 @@
 ***
 
 ### [FFData.java](https://searchcode.com/codesearch/view/97384199/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 63. private Xstz _xstzExitMcr;
 137.     offset += this._xstzExitMcr.getSize();

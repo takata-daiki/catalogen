@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (center, footerrecord, null)](./1)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
@@ -14,7 +14,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (foot, footerrecord, getfooter)](./2)
 1 results
 > sets the title of the series as a string literal . @ param 
 {% highlight java %}
@@ -24,7 +24,7 @@
 
 ***
 
-## [Cluster 3](./3)
+## [Cluster 3 (byte, footerrecord, retval)](./3)
 1 results
 > sets the param = 0 - based . 
 {% highlight java %}
@@ -35,7 +35,7 @@
 
 ***
 
-## [Cluster 4](./4)
+## [Cluster 4 (field_1_footer_len, field_2_reserved, rec)](./4)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}

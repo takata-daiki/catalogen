@@ -1,24 +1,9 @@
-# Formula @Cluster 1
+# Formula @Cluster 1 (dvrecord, f2, formula)
 
 ***
 
 ### [PatchedPoi.java](https://searchcode.com/codesearch/view/72854649/)
-{% highlight java %}
-81. Formula f1 = dvRecord.getFormula1();
-84.     f1.getTokens(), workbook);
-{% endhighlight %}
-
-***
-
-### [PatchedPoi.java](https://searchcode.com/codesearch/view/72854649/)
-{% highlight java %}
-95. Formula f1 = dvRecord.getFormula1();
-98.     f1.getTokens(), workbook);
-{% endhighlight %}
-
-***
-
-### [PatchedPoi.java](https://searchcode.com/codesearch/view/72854649/)
+> cell ranges like the following are valid = $ c : $ sheets : $ 1 : $ b $ 1 : $ b $ 8 , $ b $ 1 0 : $ b $ 6 5 5 3 6 , $ a : $ a 
 {% highlight java %}
 69. Formula f1 = dvRecord.getFormula1();
 71.     f1.getTokens(), workbook);

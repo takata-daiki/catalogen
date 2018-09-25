@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-6 results
+## [Cluster 1 (areareference, crb, excelutils)](./1)
+2 results
 > returns the a 1 - based index of the drawing group . 
 {% highlight java %}
 138. CellRangeAddress merged = getRangeIfMerged( cell,
@@ -12,8 +12,8 @@
 
 ***
 
-## [Cluster 2](./2)
-34 results
+## [Cluster 2 (cellref0, col, row)](./2)
+8 results
 > sets the 
 {% highlight java %}
 127. CellRangeAddress mergedRegion = getMergedRegion(srcSheet, srcRow.getRowNum(), (short)oldCell.getColumnIndex());     

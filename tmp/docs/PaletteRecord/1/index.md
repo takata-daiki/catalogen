@@ -1,8 +1,9 @@
-# PaletteRecord @Cluster 1
+# PaletteRecord @Cluster 1 (packagerelationship, pic, rel)
 
 ***
 
 ### [HSSFPalette.java](https://searchcode.com/codesearch/view/15642312/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 55. private PaletteRecord palette;
 74.       byte[] b = palette.getColor(index);

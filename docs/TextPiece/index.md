@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (out, println, textpiece)](./1)
 1 results
 > sets the list of colours that are interpolated between . 
 {% highlight java %}
@@ -12,7 +12,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (_text, final, textpiece)](./2)
 1 results
 > sets the 
 {% highlight java %}
@@ -22,8 +22,8 @@
 
 ***
 
-## [Cluster 3](./3)
-2 results
+## [Cluster 3 (currentpiece, currenttextend, currenttextstart)](./3)
+1 results
 > set default character width from the workbook ' s default font @ param an 
 {% highlight java %}
 139. TextPiece currentPiece = (TextPiece)textIt.next();

@@ -1,8 +1,9 @@
-# XSSFCellStyle @Cluster 2
+# XSSFCellStyle @Cluster 2 (designer, short, xssfcellstyle)
 
 ***
 
 ### [CellRenderer.java](https://searchcode.com/codesearch/view/121321564/)
+> sets the 
 {% highlight java %}
 168. XSSFCellStyle xssfCellStyle = xssfCell.getCellStyle();
 170. XSSFColor fillForegroundColorColor = xssfCellStyle.getFillForegroundColorColor();

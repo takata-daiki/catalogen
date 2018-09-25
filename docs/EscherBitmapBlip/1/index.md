@@ -1,8 +1,9 @@
-# EscherBitmapBlip @Cluster 1
+# EscherBitmapBlip @Cluster 1 (bse, byte, format)
 
 ***
 
 ### [HSSFWorkbook.java](https://searchcode.com/codesearch/view/15642316/)
+> sets the line compound style @ see org . apache . poi . openxml 4 j . opc . packageproperties # workbook ( ) 
 {% highlight java %}
 1281. EscherBitmapBlip blipRecord = new EscherBitmapBlip();
 1282. blipRecord.setRecordId( (short) ( EscherBitmapBlip.RECORD_ID_START + format ) );

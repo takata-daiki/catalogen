@@ -1,16 +1,9 @@
-# AreaReference @Cluster 1
-
-***
-
-### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
-{% highlight java %}
-1366. AreaReference area2 = new AreaReference(cell.getCellFormula());
-1368. CellRangeAddress cra2 = ExcelUtils.mergeArea(sh, area2.getAllReferencedCells()[0]);
-{% endhighlight %}
+# AreaReference @Cluster 1 (assertequals, math, ref)
 
 ***
 
 ### [JUniPrintReportsEngine.java](https://searchcode.com/codesearch/view/60336976/)
+> sets the 
 {% highlight java %}
 96. AreaReference paramCellAreaRef = new AreaReference(paramCellName.getRefersToFormula());
 97. CellReference paramCellAreaRefFirstCell = paramCellAreaRef.getFirstCell();
@@ -19,6 +12,7 @@
 ***
 
 ### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
+> sets the as workbook style - either default and a for the 3 2 7 . 
 {% highlight java %}
 556. AreaReference areaReferance = new AreaReference("A"+(wRow+1)+":A"+(ExcelUtils.getReferanceNameRange(nameDataRangeE).getFirstCell().getRow()));
 557. for(CellReference celRef:areaReferance.getAllReferencedCells()){
@@ -27,6 +21,7 @@
 ***
 
 ### [FormulaTest.java](https://searchcode.com/codesearch/view/121321561/)
+> sets the 
 {% highlight java %}
 78. AreaReference aref = new AreaReference(aNamedCell.getRefersToFormula());
 79. CellReference[] crefs = aref.getAllReferencedCells();
@@ -34,16 +29,8 @@
 
 ***
 
-### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
-{% highlight java %}
-1633. AreaReference areaDataBeg = new AreaReference(nameDataBeg.getRefersToFormula());
-1634. name_WorkSheet  =  areaDataBeg.getFirstCell().getSheetName();
-1636. rowWork = areaDataBeg.getFirstCell().getRow();
-{% endhighlight %}
-
-***
-
 ### [NamedRangeXSSFImpl.java](https://searchcode.com/codesearch/view/72854588/)
+> sets the 
 {% highlight java %}
 34. AreaReference areaReference = new AreaReference(formula);
 35. CellReference firstCellReference = areaReference.getFirstCell();
@@ -53,6 +40,7 @@
 ***
 
 ### [ExcelUtils.java](https://searchcode.com/codesearch/view/60212069/)
+> build a file with the given name . @ param name the name to search ( case - insensitive ) @ param { @ code true } if the { @ link file } does not have a formula the result of the type . 
 {% highlight java %}
 244. public static Boolean hasFormula (HSSFSheet sh, AreaReference areaRef){
 245.   return hasFormula(sh, new CellRangeAddress(areaRef.getFirstCell().getRow(), areaRef.getLastCell().getRow(),
@@ -62,6 +50,7 @@
 ***
 
 ### [NamedRangeHSSFImpl.java](https://searchcode.com/codesearch/view/72854613/)
+> sets the 
 {% highlight java %}
 40. AreaReference areaReference = new AreaReference(formula);
 41. CellReference firstCellReference = areaReference.getFirstCell();
@@ -70,16 +59,8 @@
 
 ***
 
-### [JUniPrintReportsEngine.java](https://searchcode.com/codesearch/view/60336976/)
-{% highlight java %}
-110. AreaReference areaDataBeg = new AreaReference(nameDataBeg.getRefersToFormula());
-111. int dataBegRow = areaDataBeg.getFirstCell().getRow();
-112. int dataBegCol = areaDataBeg.getFirstCell().getCol();
-{% endhighlight %}
-
-***
-
 ### [XMLGeneration.java](https://searchcode.com/codesearch/view/110498474/)
+> sets the 
 {% highlight java %}
 291. AreaReference areaReference = new AreaReference(formula);
 292. CellReference firstCellReference = areaReference
@@ -89,6 +70,7 @@
 ***
 
 ### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
+> sets the 
 {% highlight java %}
 1354. for(AreaReference area:hideFewRow){
 1356.       area.getFirstCell().getRow(), area.getLastCell().getRow(),
@@ -98,6 +80,7 @@
 ***
 
 ### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
+> sets the 
 {% highlight java %}
 1325. for(AreaReference area:hideOneRow){
 1327.       area.getFirstCell().getRow(), area.getLastCell().getRow(),
@@ -107,6 +90,7 @@
 ***
 
 ### [ExcelReader.java](https://searchcode.com/codesearch/view/46076963/)
+> sets the and empty string of the given paragraph ( not data ) @ param 
 {% highlight java %}
 160. private Object[][] getAreaValueArray(AreaReference ar) {
 161.   int cols = Math.abs(ar.getFirstCell().getCol() - ar.getLastCell().getCol()) + 1;
@@ -116,17 +100,8 @@
 
 ***
 
-### [ExcelUtils.java](https://searchcode.com/codesearch/view/60212069/)
-{% highlight java %}
-1315. AreaReference ref = range(wb, nameRange, mapWbNames, sheetNames);
-1316. if (ref.isSingleCell()){
-1317.   String shName = ref.getFirstCell().getSheetName();
-1318.   return  getCell(wb.getSheet(shName), ref.getFirstCell().getRow(), ref.getFirstCell().getCol());
-{% endhighlight %}
-
-***
-
 ### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
+> sets the 
 {% highlight java %}
 964. AreaReference areaRef = new AreaReference(keyPageSeries[k] +""+(wRow+1) + ":" + keyPageSeries[k]+""+(rowNameDataRangeE+1));
 965. if(!areaRef.isSingleCell()){
@@ -138,6 +113,7 @@
 ***
 
 ### [ReportSheetImpl.java](https://searchcode.com/codesearch/view/128473368/)
+> < p > writes an unsigned two - byte value to an output stream . < / p > 
 {% highlight java %}
 104. AreaReference aref = new AreaReference(nm.getRefersToFormula());
 108. band.c1 = aref.getFirstCell().getCol();
@@ -149,20 +125,8 @@
 
 ***
 
-### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
-{% highlight java %}
-1989. AreaReference cellAHRef = new AreaReference(cellAH);
-1990. if(cellAHRef.isSingleCell() && ExcelUtils.getCell(activeSheet, cellAHRef.getFirstCell().getRow(), cellAHRef.getFirstCell().getCol()).getCellStyle().getWrapText()){
-1991.   CellRangeAddress workMergeRef = ExcelUtils.mergeArea(activeSheet, cellAHRef.getFirstCell());
-1998.   ExcelUtils.paste(activeSheet, cellAHRef.getFirstCell().getRow(), lastCol + 1, ExcelUtils.copy(activeSheet, workMergeRef), ExcelUtils.xlFormats);
-2000.   CellRangeAddress workMergeRef1 = ExcelUtils.mergeArea(activeSheet, new CellReference(cellAHRef.getFirstCell().getRow(), lastCol + 1));
-2010.   HSSFCell distCell = ExcelUtils.getCell(activeSheet, cellAHRef.getFirstCell().getRow(), lastCol);
-2021.     distCell.setCellFormula(cellAHRef.getFirstCell().formatAsString());
-{% endhighlight %}
-
-***
-
 ### [HyperlinksTest.java](https://searchcode.com/codesearch/view/126772645/)
+> sheet 2 is by 3 2 7 6 7 + 3 2 7 6 8 is evaluated to - 1 fix : it not have been taken in excel , and poi the not - 2 0 0 7 . 
 {% highlight java %}
 31. AreaReference ref = new AreaReference( namedRange.getRefersToFormula() );
 34.   assertTrue( ref.isSingleCell() );
@@ -177,6 +141,7 @@
 ***
 
 ### [HyperlinksTest.java](https://searchcode.com/codesearch/view/122565050/)
+> sheet 2 is by 3 2 7 6 7 + 3 2 7 6 8 is evaluated to - 1 fix : it not have been taken in excel , and poi the not - 2 0 0 7 . 
 {% highlight java %}
 46. AreaReference ref = new AreaReference( namedRange.getRefersToFormula() );
 49.   assertTrue( ref.isSingleCell() );
@@ -191,6 +156,7 @@
 ***
 
 ### [HyperlinksTest.java](https://searchcode.com/codesearch/view/64531339/)
+> sheet 2 is by 3 2 7 6 7 + 3 2 7 6 8 is evaluated to - 1 fix : it not have been taken in excel , and poi the not - 2 0 0 7 . 
 {% highlight java %}
 53. AreaReference ref = new AreaReference( namedRange.getRefersToFormula() );
 56.   assertTrue( ref.isSingleCell() );
@@ -205,6 +171,7 @@
 ***
 
 ### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
+> sets whether the rowcolheadings are shown in a viewer @ param show whether to show rowcolheadings or not 
 {% highlight java %}
 348. AreaReference ref = ExcelUtils.getReferanceNameRange(nameCUsing);
 349. String shName = ref.getFirstCell().getSheetName();

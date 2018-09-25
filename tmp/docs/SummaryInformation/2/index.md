@@ -1,8 +1,9 @@
-# SummaryInformation @Cluster 2
+# SummaryInformation @Cluster 2 (metadata, set, summary)
 
 ***
 
 ### [SummaryExtractor.java](https://searchcode.com/codesearch/view/111785558/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 86. private void parse(SummaryInformation summary) {
 87.     set(Metadata.TITLE, summary.getTitle());

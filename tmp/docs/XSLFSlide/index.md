@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-10 results
+## [Cluster 1 (pptslide, slide, xslftextbox)](./1)
+4 results
 > text and the paragraph is with @ param cell 
 {% highlight java %}
 39. XSLFSlide slide1 = ppt.createSlide();
@@ -13,7 +13,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (_getctslide, final, slide)](./2)
 1 results
 > return the chart at the given index @ param idx index of the to be in @ see org . apache . poi . hssf . usermodel . by # default ( ) 
 {% highlight java %}

@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (getoperand, getoperation, op)](./1)
 1 results
 > set the font weight to use this method to index this < code > - 1 5 : when we read the current shape is the specified shape . 
 {% highlight java %}

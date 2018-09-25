@@ -1,8 +1,9 @@
-# FFDataBase @Cluster 1
+# FFDataBase @Cluster 1 (excelextractor, extractor, false)
 
 ***
 
 ### [FFData.java](https://searchcode.com/codesearch/view/97384199/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 40. private FFDataBase _base;
 102.     if ( _base.getIType() == FFDataBase.ITYPE_TEXT )

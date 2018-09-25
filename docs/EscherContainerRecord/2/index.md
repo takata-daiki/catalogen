@@ -1,18 +1,9 @@
-# EscherContainerRecord @Cluster 2
-
-***
-
-### [Workbook.java](https://searchcode.com/codesearch/view/15642358/)
-{% highlight java %}
-2261. EscherContainerRecord bstoreContainer;
-2269.     bstoreContainer.setRecordId( EscherContainerRecord.BSTORE_CONTAINER );
-2272. bstoreContainer.setOptions( (short) ( (escherBSERecords.size() << 4) | 0xF ) );
-2274. bstoreContainer.addChildRecord( e );
-{% endhighlight %}
+# EscherContainerRecord @Cluster 2 (bstore, dggcontainer, spcontainer1)
 
 ***
 
 ### [EscherAggregate.java](https://searchcode.com/codesearch/view/15642409/)
+> create and create a new sheet from the sheet and save the @ param was the < code > true < / code > if the line is inside a group , < code > false < / code > otherwise 
 {% highlight java %}
 631. EscherContainerRecord spgrContainer = new EscherContainerRecord();
 639. spgrContainer.setRecordId( EscherContainerRecord.SPGR_CONTAINER );
@@ -22,17 +13,8 @@
 
 ***
 
-### [EscherAggregate.java](https://searchcode.com/codesearch/view/15642409/)
-{% highlight java %}
-717. EscherContainerRecord spgrContainer = new EscherContainerRecord();
-729. spgrContainer.setRecordId( EscherContainerRecord.SPGR_CONTAINER );
-730. spgrContainer.setOptions( (short) 0x000F );
-746. spgrContainer.addChildRecord( spContainer1 );
-{% endhighlight %}
-
-***
-
 ### [Workbook.java](https://searchcode.com/codesearch/view/15642358/)
+> create and create a new sheet from the data , or create if it isn ' t has a valid record . 
 {% highlight java %}
 2191. EscherContainerRecord bstoreContainer = null;
 2195.     bstoreContainer.setRecordId( EscherContainerRecord.BSTORE_CONTAINER );
@@ -42,29 +24,8 @@
 
 ***
 
-### [EscherAggregate.java](https://searchcode.com/codesearch/view/15642409/)
-{% highlight java %}
-715. EscherContainerRecord dgContainer = new EscherContainerRecord();
-722. dgContainer.setRecordId( EscherContainerRecord.DG_CONTAINER );
-723. dgContainer.setOptions( (short) 0x000F );
-744. dgContainer.addChildRecord( dg );
-745. dgContainer.addChildRecord( spgrContainer );
-{% endhighlight %}
-
-***
-
-### [EscherAggregate.java](https://searchcode.com/codesearch/view/15642409/)
-{% highlight java %}
-718. EscherContainerRecord spContainer1 = new EscherContainerRecord();
-731. spContainer1.setRecordId( EscherContainerRecord.SP_CONTAINER );
-732. spContainer1.setOptions( (short) 0x000F );
-747. spContainer1.addChildRecord( spgr );
-748. spContainer1.addChildRecord( sp1 );
-{% endhighlight %}
-
-***
-
 ### [SlideShow.java](https://searchcode.com/codesearch/view/97394959/)
+> create the escher records associated with this sheet . 
 {% highlight java %}
 800. EscherContainerRecord bstore;
 807.   bstore.setRecordId(EscherContainerRecord.BSTORE_CONTAINER);
@@ -77,6 +38,7 @@
 ***
 
 ### [PolygonShape.java](https://searchcode.com/codesearch/view/15642360/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 58. private EscherContainerRecord spContainer;
 86.     spContainer.setRecordId( EscherContainerRecord.SP_CONTAINER );
@@ -90,6 +52,7 @@
 ***
 
 ### [Workbook.java](https://searchcode.com/codesearch/view/15642358/)
+> create a new ctworkbook with all values set to default 
 {% highlight java %}
 2177. EscherContainerRecord dggContainer = new EscherContainerRecord();
 2182. dggContainer.setRecordId((short) 0xF000);
@@ -102,20 +65,8 @@
 
 ***
 
-### [SimpleFilledShape.java](https://searchcode.com/codesearch/view/15642355/)
-{% highlight java %}
-79. EscherContainerRecord spContainer = new EscherContainerRecord();
-84. spContainer.setRecordId( EscherContainerRecord.SP_CONTAINER );
-85. spContainer.setOptions( (short) 0x000F );
-97. spContainer.addChildRecord( sp );
-98. spContainer.addChildRecord( opt );
-99. spContainer.addChildRecord( anchor );
-100. spContainer.addChildRecord( clientData );
-{% endhighlight %}
-
-***
-
 ### [LineShape.java](https://searchcode.com/codesearch/view/15642361/)
+> create a new ctworkbook with all values set to default 
 {% highlight java %}
 79. EscherContainerRecord spContainer = new EscherContainerRecord();
 85. spContainer.setRecordId( EscherContainerRecord.SP_CONTAINER );
@@ -129,6 +80,7 @@
 ***
 
 ### [PictureShape.java](https://searchcode.com/codesearch/view/15642357/)
+> create a new ctworkbook with all values set to default 
 {% highlight java %}
 78. EscherContainerRecord spContainer = new EscherContainerRecord();
 84. spContainer.setRecordId( EscherContainerRecord.SP_CONTAINER );
@@ -142,6 +94,7 @@
 ***
 
 ### [LineShape.java](https://searchcode.com/codesearch/view/15642361/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 56. private EscherContainerRecord spContainer;
 85.     spContainer.setRecordId( EscherContainerRecord.SP_CONTAINER );
@@ -155,6 +108,7 @@
 ***
 
 ### [PictureShape.java](https://searchcode.com/codesearch/view/15642357/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 55. private EscherContainerRecord spContainer;
 84.     spContainer.setRecordId( EscherContainerRecord.SP_CONTAINER );
@@ -168,6 +122,7 @@
 ***
 
 ### [SimpleFilledShape.java](https://searchcode.com/codesearch/view/15642355/)
+> create a new ctworkbook with all values set to default 
 {% highlight java %}
 54. private EscherContainerRecord spContainer;
 84.     spContainer.setRecordId( EscherContainerRecord.SP_CONTAINER );
@@ -181,6 +136,7 @@
 ***
 
 ### [PolygonShape.java](https://searchcode.com/codesearch/view/15642360/)
+> create a new ctworkbook with all values set to default 
 {% highlight java %}
 81. EscherContainerRecord spContainer = new EscherContainerRecord();
 86. spContainer.setRecordId( EscherContainerRecord.SP_CONTAINER );
@@ -194,6 +150,7 @@
 ***
 
 ### [EscherAggregate.java](https://searchcode.com/codesearch/view/15642409/)
+> create and create a new 3 and sheet . 
 {% highlight java %}
 632. EscherContainerRecord spContainer = new EscherContainerRecord();
 641. spContainer.setRecordId( EscherContainerRecord.SP_CONTAINER );

@@ -1,8 +1,9 @@
-# HSSFPolygon @Cluster 2
+# HSSFPolygon @Cluster 2 (getxpoints, hssfshape, length)
 
 ***
 
 ### [PolygonShape.java](https://searchcode.com/codesearch/view/15642360/)
+> create an record from the record list and sets the @ param record the sid to be picture @ param offset type the shape to use 
 {% highlight java %}
 77. private EscherContainerRecord createSpContainer( HSSFPolygon hssfShape, int shapeId )
 91.     if (hssfShape.getParent() == null)

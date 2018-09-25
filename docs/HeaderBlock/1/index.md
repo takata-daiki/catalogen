@@ -1,8 +1,9 @@
-# HeaderBlock @Cluster 1
+# HeaderBlock @Cluster 1 (_doc, chpx, papx)
 
 ***
 
 ### [POIFSFileSystem.java](https://searchcode.com/codesearch/view/97397929/)
+> set normal , super or subscript , that representing the vertical - alignment of the text . 
 {% highlight java %}
 135. HeaderBlock header_block;
 140.     bigBlockSize = header_block.getBigBlockSize();

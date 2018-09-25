@@ -1,8 +1,9 @@
-# DocumentInputStream @Cluster 3
+# DocumentInputStream @Cluster 3 (is, position, rawdatapos)
 
 ***
 
 ### [Bitmap.java](https://searchcode.com/codesearch/view/97394490/)
+> read < tt > will < tt > to the specified ( return ) or 1 / sheet . @ throws evaluationexception ( # num ! ) if < tt > result < / tt > is < tt > nan < / > or < tt > infinity < / tt > 
 {% highlight java %}
 43. DocumentInputStream is = getStream();
 46.   if (rawdataPos > is.position()) {

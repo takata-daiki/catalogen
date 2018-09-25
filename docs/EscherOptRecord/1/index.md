@@ -1,24 +1,9 @@
-# EscherOptRecord @Cluster 1
-
-***
-
-### [Picture.java](https://searchcode.com/codesearch/view/97384428/)
-{% highlight java %}
-516. EscherOptRecord escherOptRecord = (EscherOptRecord) escherRecord;
-517. for(EscherProperty property : escherOptRecord.getEscherProperties()){
-{% endhighlight %}
-
-***
-
-### [Picture.java](https://searchcode.com/codesearch/view/97394307/)
-{% highlight java %}
-241. EscherOptRecord opt = (EscherOptRecord)getEscherChild(_escherContainer, EscherOptRecord.RECORD_ID);
-245.     opt.addEscherProperty(prop);
-{% endhighlight %}
+# EscherOptRecord @Cluster 1 (eschershapepathproperty, eschersimpleproperty, false)
 
 ***
 
 ### [SimpleShape.java](https://searchcode.com/codesearch/view/97394265/)
+> the example from the a { @ link 
 {% highlight java %}
 89. EscherOptRecord opt = new EscherOptRecord();
 90. opt.setRecordId(EscherOptRecord.RECORD_ID);
@@ -26,24 +11,8 @@
 
 ***
 
-### [SimpleFilledShape.java](https://searchcode.com/codesearch/view/15642355/)
-{% highlight java %}
-81. EscherOptRecord opt = new EscherOptRecord();
-91. opt.setRecordId( EscherOptRecord.RECORD_ID );
-{% endhighlight %}
-
-***
-
-### [PictureShape.java](https://searchcode.com/codesearch/view/15642357/)
-{% highlight java %}
-80. EscherOptRecord opt = new EscherOptRecord();
-91. opt.setRecordId( EscherOptRecord.RECORD_ID );
-93. opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.BLIP__BLIPTODISPLAY, false, true, shape.getPictureIndex() ) );
-{% endhighlight %}
-
-***
-
 ### [LineShape.java](https://searchcode.com/codesearch/view/15642361/)
+> creates the . @ param set the stream to write to 
 {% highlight java %}
 81. EscherOptRecord opt = new EscherOptRecord();
 92. opt.setRecordId( EscherOptRecord.RECORD_ID );
@@ -53,17 +22,8 @@
 
 ***
 
-### [Shape.java](https://searchcode.com/codesearch/view/97394276/)
-{% highlight java %}
-294. public static void setEscherProperty(EscherOptRecord opt, short propId, int value){
-295.    java.util.List props = opt.getEscherProperties();
-303.        opt.addEscherProperty(new EscherSimpleProperty(propId, value));
-304.        opt.sortProperties();
-{% endhighlight %}
-
-***
-
 ### [EscherAggregate.java](https://searchcode.com/codesearch/view/15642409/)
+> creates the picture data . 
 {% highlight java %}
 635. EscherOptRecord opt = new EscherOptRecord();
 657. opt.setRecordId( EscherOptRecord.RECORD_ID );
@@ -75,6 +35,7 @@
 ***
 
 ### [Workbook.java](https://searchcode.com/codesearch/view/15642358/)
+> creates the . @ param null 
 {% highlight java %}
 2179. EscherOptRecord opt = new EscherOptRecord();
 2203. opt.setRecordId((short) 0xF00B);
@@ -87,6 +48,7 @@
 ***
 
 ### [TextboxShape.java](https://searchcode.com/codesearch/view/15642364/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 110. EscherOptRecord opt = new EscherOptRecord();
 122. opt.setRecordId( EscherOptRecord.RECORD_ID );
@@ -99,20 +61,8 @@
 
 ***
 
-### [CommentShape.java](https://searchcode.com/codesearch/view/15642359/)
-{% highlight java %}
-117. protected int addStandardOptions( HSSFShape shape, EscherOptRecord opt )
-122.     java.util.List props = opt.getEscherProperties();
-139.     opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.GROUPSHAPE__PRINT, comment.isVisible() ? 0x000A0000 : 0x000A0002) );
-140.     opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.SHADOWSTYLE__SHADOWOBSURED, 0x00030003 ) );
-141.     opt.addEscherProperty( new EscherSimpleProperty( EscherProperties.SHADOWSTYLE__COLOR, 0x00000000 ) );
-142.     opt.sortProperties();
-143.     return opt.getEscherProperties().size();   // # options added
-{% endhighlight %}
-
-***
-
 ### [PolygonShape.java](https://searchcode.com/codesearch/view/15642360/)
+> creates the . if this sheet already exists , it is removed record 
 {% highlight java %}
 83. EscherOptRecord opt = new EscherOptRecord();
 95. opt.setRecordId( EscherOptRecord.RECORD_ID );

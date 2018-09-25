@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (font, getsheetindex, workbook)](./1)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
@@ -16,7 +16,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (assertequals, getsheetat, workbook)](./2)
 1 results
 > tests reading a file containing this package . 
 {% highlight java %}
@@ -33,8 +33,8 @@
 
 ***
 
-## [Cluster 3](./3)
-15 results
+## [Cluster 3 (workbook, xssfsheet, xssfworkbook)](./3)
+11 results
 > creates the 
 {% highlight java %}
 43. XSSFWorkbook wb = new XSSFWorkbook();

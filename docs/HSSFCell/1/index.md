@@ -1,16 +1,9 @@
-# HSSFCell @Cluster 1
-
-***
-
-### [ExcelViewTests.java](https://searchcode.com/codesearch/view/72414056/)
-{% highlight java %}
-132. HSSFCell cell = row.getCell((short) 0);
-133. assertEquals("Test Template", cell.getStringCellValue());
-{% endhighlight %}
+# HSSFCell @Cluster 1 (mycol, textvalue, value)
 
 ***
 
 ### [XPathExcelTemplateService.java](https://searchcode.com/codesearch/view/114533602/)
+> creates an the document from this workbook , and { @ link # ' } s if it ' s not been removed . 
 {% highlight java %}
 177. HSSFCell cell = row.createCell(i);
 189. cell.setCellStyle(style);
@@ -19,14 +12,7 @@
 ***
 
 ### [ExcelViewTests.java](https://searchcode.com/codesearch/view/72414056/)
-{% highlight java %}
-202. HSSFCell cell = row.getCell((short) 0);
-203. assertEquals("Test Template auf Deutsch", cell.getStringCellValue());
-{% endhighlight %}
-
-***
-
-### [ExcelViewTests.java](https://searchcode.com/codesearch/view/72414056/)
+> cell ranges in the { @ link # _ pointer } array . 
 {% highlight java %}
 97. HSSFCell cell = row.getCell((short) 4);
 98. assertEquals("Test Value", cell.getStringCellValue());
@@ -34,15 +20,8 @@
 
 ***
 
-### [ExcelViewTests.java](https://searchcode.com/codesearch/view/72414056/)
-{% highlight java %}
-167. HSSFCell cell = row.getCell((short) 0);
-168. assertEquals("Test Template American English", cell.getStringCellValue());
-{% endhighlight %}
-
-***
-
 ### [XPathExcelTemplateService.java](https://searchcode.com/codesearch/view/114533602/)
+> sets the " a cell " attribute of the cell @ since poi 3 . 1 4 - beta 2 
 {% highlight java %}
 166. HSSFCell cell = row.createCell((short) 0);
 169. cell.setCellValue(cellValue);
@@ -51,6 +30,7 @@
 ***
 
 ### [SheetHSSFImpl.java](https://searchcode.com/codesearch/view/72854680/)
+> sets the 
 {% highlight java %}
 69. HSSFCell cell = row.getCell(cellIndex);
 70. if (cell!=null && !cell.getStringCellValue().isEmpty()) {
@@ -58,16 +38,8 @@
 
 ***
 
-### [ContentPermissionReportUtil.java](https://searchcode.com/codesearch/view/43507489/)
-{% highlight java %}
-142. HSSFCell c1 = row.createCell(0);
-143. c1.setCellStyle(rowStyle);
-144. c1.setCellValue(new HSSFRichTextString(p[0]));
-{% endhighlight %}
-
-***
-
 ### [ExcelUtil.java](https://searchcode.com/codesearch/view/73315299/)
+> creates an the document from this workbook , if there are one . 
 {% highlight java %}
 276. HSSFCell cell = row.createCell(i);
 277. cell.setCellStyle(style);
@@ -77,6 +49,7 @@
 ***
 
 ### [SheetBuilderBase.java](https://searchcode.com/codesearch/view/112311786/)
+> creates a 
 {% highlight java %}
 121. final HSSFCell cell = row.createCell(x);
 122. cell.setCellValue(content);
@@ -86,6 +59,7 @@
 ***
 
 ### [ExportToExcel.java](https://searchcode.com/codesearch/view/46011490/)
+> creates an empty string from the given xml , the two ( a byte array ) . 
 {% highlight java %}
 54. HSSFCell cell = row.createCell(i + nextCellOffset);
 55. cell.setCellValue(column.getText());
@@ -94,34 +68,8 @@
 
 ***
 
-### [ContentPermissionReportUtil.java](https://searchcode.com/codesearch/view/43507489/)
-{% highlight java %}
-145. HSSFCell c2 = row.createCell(1);
-146. c2.setCellStyle(rowStyle);
-147. c2.setCellValue(new HSSFRichTextString(p[1]));
-{% endhighlight %}
-
-***
-
-### [PLReportPOIProducer.java](https://searchcode.com/codesearch/view/43507470/)
-{% highlight java %}
-134. HSSFCell dataCell = row.createCell(i);
-137. dataCell.setCellStyle(cellStyleData);
-139. dataCell.setCellValue(new HSSFRichTextString(dataCellContent));
-{% endhighlight %}
-
-***
-
 ### [Hybrid_Framework.java](https://searchcode.com/codesearch/view/71798596/)
-{% highlight java %}
-427. HSSFCell cell = row.createCell(mycol);
-428. cell.setCellType(HSSFCell.CELL_TYPE_STRING);
-429. cell.setCellValue(xldata[myrow][mycol]);
-{% endhighlight %}
-
-***
-
-### [Hybrid_Framework.java](https://searchcode.com/codesearch/view/71798596/)
+> test that we can read existing column styles that are not have a shape , or poi type is for to be row 2 , and 1 2 . 
 {% highlight java %}
 409. HSSFCell cell = row.createCell(mycol);
 410. cell.setCellType(HSSFCell.CELL_TYPE_STRING);
@@ -131,6 +79,7 @@
 ***
 
 ### [hybrid.java](https://searchcode.com/codesearch/view/71798584/)
+> test that we can read existing column styles that are not have a shape , or poi type is for to be row 2 , and 1 2 . 
 {% highlight java %}
 244. HSSFCell cell = row.createCell(mycol);
 246. cell.setCellType(HSSFCell.CELL_TYPE_STRING);
@@ -140,6 +89,7 @@
 ***
 
 ### [ExcelUtil.java](https://searchcode.com/codesearch/view/73315299/)
+> creates an the document from this workbook , if there are one . 
 {% highlight java %}
 124. HSSFCell cell = row.createCell(i);
 125. cell.setCellStyle(style);
@@ -149,6 +99,7 @@
 ***
 
 ### [SheetBuilderBase.java](https://searchcode.com/codesearch/view/112311786/)
+> creates a 
 {% highlight java %}
 138. final HSSFCell cell = row.createCell(x);
 139. cell.setCellValue(content);
@@ -158,6 +109,7 @@
 ***
 
 ### [SheetBuilderBase.java](https://searchcode.com/codesearch/view/112311786/)
+> creates a 
 {% highlight java %}
 130. final HSSFCell cell = row.createCell(x);
 131. cell.setCellValue(euroAndCents);
@@ -167,6 +119,7 @@
 ***
 
 ### [ExcelUtil.java](https://searchcode.com/codesearch/view/73315299/)
+> creates an a cell that is data for this . 
 {% highlight java %}
 149. HSSFCell cell = row.createCell(j);
 150. cell.setCellStyle(style2);
@@ -177,6 +130,7 @@
 ***
 
 ### [XPathExcelTemplateService.java](https://searchcode.com/codesearch/view/114533602/)
+> sets the 
 {% highlight java %}
 202. HSSFCell cell = row.createCell(i);
 213.   cell.setCellStyle(style);
@@ -187,6 +141,7 @@
 ***
 
 ### [ExcelUtil.java](https://searchcode.com/codesearch/view/73315299/)
+> test writing a hyperlink with large number of unique strings , open resulting file in excel to check results ! 
 {% highlight java %}
 367. HSSFCell cell = row.createCell(i);
 368. cell.setCellStyle(style2);
@@ -198,6 +153,7 @@
 ***
 
 ### [ExcelUtil.java](https://searchcode.com/codesearch/view/73315299/)
+> creates an a cell that is data for this cell @ throws illegalstateexception if the cell type returned by { @ link # getcelltypeenum ( ) } isn ' t { @ link celltype # formula } @ see org . apache . poi . ss . usermodel . drawing 
 {% highlight java %}
 304. HSSFCell cell = row.createCell(i);
 305. cell.setCellStyle(style2);
@@ -210,6 +166,7 @@
 ***
 
 ### [XPathExcelTemplateService.java](https://searchcode.com/codesearch/view/114533602/)
+> sets the cell value using object type information . @ param cell cell to change @ param value value to set 
 {% highlight java %}
 238. HSSFCell cell = row.createCell(col);
 250.   cell.setCellStyle(style);
@@ -219,22 +176,6 @@
 261.   cell.setCellValue(((Boolean) value).booleanValue());
 263.   cell.setCellValue(((Number) value).doubleValue());
 268.   cell.setCellValue(value.toString());
-{% endhighlight %}
-
-***
-
-### [ExportToExcel.java](https://searchcode.com/codesearch/view/46011490/)
-{% highlight java %}
-103. HSSFCell cell = row.createCell(0);
-104. cell.setCellStyle(csTitle);
-105. cell.setCellValue(title);
-122.       cell.setCellStyle(csHeader);
-150.         cell.setCellStyle(csIntNum);
-151.         cell.setCellValue(Double.parseDouble(value.toString()));
-153.         cell.setCellStyle(csDoubleNum);
-158.         cell.setCellValue(bd.doubleValue());
-160.         cell.setCellStyle(csText);
-161.         cell.setCellValue(baseColumn.convertToString(value));
 {% endhighlight %}
 
 ***

@@ -1,8 +1,9 @@
-# SmallBlockTableWriter @Cluster 1
+# SmallBlockTableWriter @Cluster 1 (getslideidentifier, if, spa)
 
 ***
 
 ### [POIFSFileSystem.java](https://searchcode.com/codesearch/view/15642276/)
+> add a new to this package @ see org . apache . poi . hssf . usermodel . hssfsheet # @ see org . apache . poi . hssf . usermodel . { @ link # index ( org . apache . poi . ss . usermodel . workbook , int ) } 
 {% highlight java %}
 215. SmallBlockTableWriter      sbtw       =
 229. bm_objects.add(sbtw.getSBAT());

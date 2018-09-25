@@ -1,8 +1,9 @@
-# XSSFPicture @Cluster 1
+# XSSFPicture @Cluster 1 (formula, name, string)
 
 ***
 
 ### [ExcelPublicUtil.java](https://searchcode.com/codesearch/view/93182055/)
+> add a new child poixmldocumentpart @ param 8 the , which is the list of blocks , - 1 if it ' s not been @ throws . if the . 
 {% highlight java %}
 266. XSSFPicture pic = (XSSFPicture) shape;  
 267. XSSFClientAnchor anchor = pic.getPreferredSize();  

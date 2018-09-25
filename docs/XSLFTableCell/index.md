@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (addresscell, citycell, ncell)](./1)
 4 results
 > sets the " pattfill " element 
 {% highlight java %}
@@ -12,7 +12,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (addcell, color, th)](./2)
 1 results
 > sets the line compound style @ param style new 9 < code > null < / code > , which defines the 
 {% highlight java %}

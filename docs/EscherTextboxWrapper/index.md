@@ -2,12 +2,18 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (_eschercontainer, eschersprecord, sprecord)](./1)
 1 results
-> this comment could not be generated...
+> test that we get the same value as excel and , for 
 {% highlight java %}
-519. EscherTextboxWrapper txtbox = getEscherTextboxWrapper();
-526. Record[] child = txtbox.getChildRecords();
+97. protected EscherTextboxWrapper _txtbox;
+143.         _txtbox.appendChildRecord(tha);
+146.         _txtbox.appendChildRecord(tca);
+149.         _txtbox.appendChildRecord(sta);
+155.         _escherContainer.addChildRecord(_txtbox.getEscherRecord());
+213.             _txtbox.writeOut(null);
+602.     _txtbox.appendChildRecord(info);
+607.     _txtbox.appendChildRecord(txiatom);
 {% endhighlight %}
 
 ***

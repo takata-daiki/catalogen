@@ -1,8 +1,9 @@
-# XSSFCell @Cluster 2
+# XSSFCell @Cluster 2 (cell, cell1, thecell)
 
 ***
 
 ### [WorkbookXSSFImpl.java](https://searchcode.com/codesearch/view/72854562/)
+> tests that the create record function returns a properly constructed record in the case of a { @ link . } 
 {% highlight java %}
 257. XSSFCell xssfCell = xssfRow.getCell(setCellValue.getCol());
 263.         xssfCell.setCellValue(new XSSFRichTextString(setCellValue.getNewValue().toString()));
@@ -10,16 +11,8 @@
 
 ***
 
-### [ExcelFamilieBetreuung.java](https://searchcode.com/codesearch/view/91974011/)
-{% highlight java %}
-149. XSSFCell familien_cell = dataRow.createCell(0);
-150. familien_cell.setCellStyle(dataStyle);
-151. familien_cell.setCellValue(new XSSFRichTextString(""
-{% endhighlight %}
-
-***
-
 ### [ExcelFamilienAU.java](https://searchcode.com/codesearch/view/91974058/)
+> create and 
 {% highlight java %}
 121. XSSFCell cell0 = dataRow.createCell(1);
 122. cell0.setCellStyle(dataStyle);
@@ -28,43 +21,8 @@
 
 ***
 
-### [ExcelBetreuerinZahlungen.java](https://searchcode.com/codesearch/view/91974041/)
-{% highlight java %}
-152. XSSFCell betreuerinnen_cell1 = dataRow.createCell(1);
-153. betreuerinnen_cell1.setCellStyle(dataStyle);
-154. betreuerinnen_cell1.setCellValue(new XSSFRichTextString(""
-{% endhighlight %}
-
-***
-
-### [ExcelFamilieZahlungen.java](https://searchcode.com/codesearch/view/91974043/)
-{% highlight java %}
-169. XSSFCell cell1 = dataRow.createCell(j
-171. cell1.setCellStyle(dataStyle);
-174.   cell1.setCellValue(new XSSFRichTextString(
-{% endhighlight %}
-
-***
-
-### [ExcelFamilieZahlungen.java](https://searchcode.com/codesearch/view/91974043/)
-{% highlight java %}
-153. XSSFCell familien_cell1 = dataRow.createCell(1);
-154. familien_cell1.setCellStyle(dataStyle);
-155. familien_cell1.setCellValue(new XSSFRichTextString(""
-{% endhighlight %}
-
-***
-
-### [ExcelBetreuerinZahlungen.java](https://searchcode.com/codesearch/view/91974041/)
-{% highlight java %}
-168. XSSFCell cell1 = dataRow.createCell(j
-170. cell1.setCellStyle(dataStyle);
-173.   cell1.setCellValue(new XSSFRichTextString(
-{% endhighlight %}
-
-***
-
 ### [ExcelBetreuerinnenAN.java](https://searchcode.com/codesearch/view/91974014/)
+> creates an empty 5 element if one does not already exist 
 {% highlight java %}
 107. XSSFCell cell1 = dataRow.createCell(0);
 108. cell1.setCellStyle(dataStyle);
@@ -74,6 +32,7 @@
 ***
 
 ### [ExcelBetreuerinBetreuung.java](https://searchcode.com/codesearch/view/91974062/)
+> create new . if you . . . . 
 {% highlight java %}
 152. XSSFCell betreuerinnen_cell = dataRow.createCell(0);
 153. betreuerinnen_cell.setCellStyle(dataStyle);
@@ -82,16 +41,8 @@
 
 ***
 
-### [ExcelFamilieZahlungenM.java](https://searchcode.com/codesearch/view/91974009/)
-{% highlight java %}
-127. XSSFCell cell = dataRow.createCell(j+2);
-128. cell.setCellStyle(dataStyle);
-131.   cell.setCellValue(new XSSFRichTextString(listzahlung
-{% endhighlight %}
-
-***
-
 ### [ExcelBetreuerinBetreuungAN.java](https://searchcode.com/codesearch/view/91974023/)
+> creates the 
 {% highlight java %}
 115. XSSFCell cell0 = dataRow.createCell(1);
 116. cell0.setCellStyle(dataStyle);
@@ -101,6 +52,7 @@
 ***
 
 ### [ExcelBetreuerinBetreuungAU.java](https://searchcode.com/codesearch/view/91974007/)
+> creates the 
 {% highlight java %}
 115. XSSFCell cell0 = dataRow.createCell(1);
 116. cell0.setCellStyle(dataStyle);
@@ -110,6 +62,7 @@
 ***
 
 ### [ExcelFamilieBetreuungAU.java](https://searchcode.com/codesearch/view/91974021/)
+> creates an empty field for the data of being embedded . < p > the 
 {% highlight java %}
 117. XSSFCell cell0 = dataRow.createCell(1);
 118. cell0.setCellStyle(dataStyle);
@@ -118,16 +71,8 @@
 
 ***
 
-### [ExcelFamilieZahlungenM.java](https://searchcode.com/codesearch/view/91974009/)
-{% highlight java %}
-118. XSSFCell cell0 = dataRow.createCell(1);
-119. cell0.setCellStyle(dataStyle);
-120. cell0.setCellValue(new XSSFRichTextString(listfamilie));
-{% endhighlight %}
-
-***
-
 ### [ExcelFamilieBetreuungAU.java](https://searchcode.com/codesearch/view/91974021/)
+> creates the 
 {% highlight java %}
 112. XSSFCell cell1 = dataRow.createCell(0);
 113. cell1.setCellStyle(dataStyle);
@@ -137,6 +82,7 @@
 ***
 
 ### [ExcelFamilieZahlungenM.java](https://searchcode.com/codesearch/view/91974009/)
+> creates an empty param right - formatting @ param object the workbook to create 
 {% highlight java %}
 113. XSSFCell cell1 = dataRow.createCell(0);
 114. cell1.setCellStyle(dataStyle);
@@ -146,6 +92,7 @@
 ***
 
 ### [ExcelBetreuerinBetreuungAN.java](https://searchcode.com/codesearch/view/91974023/)
+> create the . @ param data the byte array to be a - must 
 {% highlight java %}
 110. XSSFCell cell1 = dataRow.createCell(0);
 111. cell1.setCellStyle(dataStyle);
@@ -155,6 +102,7 @@
 ***
 
 ### [ExcelBetreuerinBetreuungAU.java](https://searchcode.com/codesearch/view/91974007/)
+> create the . @ param data the byte array to be a - must 
 {% highlight java %}
 110. XSSFCell cell1 = dataRow.createCell(0);
 111. cell1.setCellStyle(dataStyle);
@@ -164,6 +112,7 @@
 ***
 
 ### [ExcelBetreuerinnenAN.java](https://searchcode.com/codesearch/view/91974014/)
+> creates an empty field for the format such and sets it and a formula text 
 {% highlight java %}
 111. XSSFCell cell0 = dataRow.createCell(1);
 112. cell0.setCellStyle(dataStyle);
@@ -173,6 +122,7 @@
 ***
 
 ### [ExcelFamilieZahlungen.java](https://searchcode.com/codesearch/view/91974043/)
+> create new . if the , null on formula cells , the number of value is we get one sheet , to data value in in . 
 {% highlight java %}
 148. XSSFCell familien_cell = dataRow.createCell(0);
 149. familien_cell.setCellStyle(dataStyle);
@@ -181,34 +131,8 @@
 
 ***
 
-### [ExcelBetreuerinBetreuung.java](https://searchcode.com/codesearch/view/91974062/)
-{% highlight java %}
-157. XSSFCell betreuerinnen_cell1 = dataRow.createCell(1);
-158. betreuerinnen_cell1.setCellStyle(dataStyle);
-159. betreuerinnen_cell1.setCellValue(new XSSFRichTextString(""
-{% endhighlight %}
-
-***
-
-### [ExcelFamilieBetreuung.java](https://searchcode.com/codesearch/view/91974011/)
-{% highlight java %}
-154. XSSFCell familien_cell1 = dataRow.createCell(1);
-155. familien_cell1.setCellStyle(dataStyle);
-156. familien_cell1.setCellValue(new XSSFRichTextString(""
-{% endhighlight %}
-
-***
-
-### [ExcelBetreuerinZahlungen.java](https://searchcode.com/codesearch/view/91974041/)
-{% highlight java %}
-147. XSSFCell betreuerinnen_cell = dataRow.createCell(0);
-148. betreuerinnen_cell.setCellStyle(dataStyle);
-149. betreuerinnen_cell.setCellValue(new XSSFRichTextString(""
-{% endhighlight %}
-
-***
-
 ### [ExcelFamilienAU.java](https://searchcode.com/codesearch/view/91974058/)
+> tests that the create and sets the font is based on @ param . 
 {% highlight java %}
 117. XSSFCell cell1f = dataRow.createCell(0);
 118. cell1f.setCellStyle(dataStyle);
@@ -217,17 +141,8 @@
 
 ***
 
-### [ExcelFamilieBetreuungAU.java](https://searchcode.com/codesearch/view/91974021/)
-{% highlight java %}
-126. XSSFCell cell = dataRow.createCell(j + 2);
-127. cell.setCellStyle(dataStyle);
-130.   cell.setCellValue(new XSSFRichTextString(""
-134.   cell.setCellValue(new XSSFRichTextString(listBetreuung
-{% endhighlight %}
-
-***
-
 ### [ExcelBetreuerinBetreuungAU.java](https://searchcode.com/codesearch/view/91974007/)
+> creates an empty field for the data of being embedded . < p > the 
 {% highlight java %}
 124. XSSFCell cell = dataRow.createCell(j + 2);
 125. cell.setCellStyle(dataStyle);
@@ -238,6 +153,7 @@
 ***
 
 ### [ExcelBetreuerinBetreuungAN.java](https://searchcode.com/codesearch/view/91974023/)
+> creates an empty field for the data of being embedded . < p > the 
 {% highlight java %}
 124. XSSFCell cell = dataRow.createCell(j + 2);
 125. cell.setCellStyle(dataStyle);
@@ -247,27 +163,8 @@
 
 ***
 
-### [ExcelFamilieBetreuung.java](https://searchcode.com/codesearch/view/91974011/)
-{% highlight java %}
-170. XSSFCell cell1 = dataRow.createCell(j
-172. cell1.setCellStyle(dataStyle);
-175.   cell1.setCellValue(new XSSFRichTextString(""+
-179.   cell1.setCellValue(new XSSFRichTextString(
-{% endhighlight %}
-
-***
-
-### [ExcelBetreuerinBetreuung.java](https://searchcode.com/codesearch/view/91974062/)
-{% highlight java %}
-173. XSSFCell cell1 = dataRow.createCell(j
-175. cell1.setCellStyle(dataStyle);
-178.   cell1.setCellValue(new XSSFRichTextString(""+
-182.   cell1.setCellValue(new XSSFRichTextString(
-{% endhighlight %}
-
-***
-
 ### [ExcelFamilienAU.java](https://searchcode.com/codesearch/view/91974058/)
+> creates an empty 5 object from the specified one . 
 {% highlight java %}
 130. XSSFCell cell1 = dataRow.createCell(j + 2);
 131. cell1.setCellStyle(dataStyle);
@@ -279,23 +176,8 @@
 
 ***
 
-### [ExcelBetreuerinnenAN.java](https://searchcode.com/codesearch/view/91974014/)
-{% highlight java %}
-118. XSSFCell cell = dataRow.createCell(j + 2);
-119. cell.setCellStyle(dataStyle);
-122.   cell.setCellValue(new XSSFRichTextString(b
-138.   cell.setCellValue(new XSSFRichTextString(b.getStadt()));
-141.   cell.setCellValue(new XSSFRichTextString(b.getPlz()));
-144.   cell.setCellValue(new XSSFRichTextString(b.getEmail()));
-183.   cell.setCellValue(new XSSFRichTextString(b.getVsnr()));
-186.   cell.setCellValue(new XSSFRichTextString(b.getMgnr()));
-209.   cell.setCellValue(new XSSFRichTextString(b.getArea()));
-212.   cell.setCellValue(new XSSFRichTextString(b.getAufgehort()));
-{% endhighlight %}
-
-***
-
 ### [CellXSSFImpl.java](https://searchcode.com/codesearch/view/72854552/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 35. private XSSFCell theCell;
 59.     return theCell.getRowIndex();

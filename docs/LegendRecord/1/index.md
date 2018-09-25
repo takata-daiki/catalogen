@@ -1,8 +1,9 @@
-# LegendRecord @Cluster 1
+# LegendRecord @Cluster 1 (newrec, rec, record)
 
 ***
 
 ### [LegendRecord.java](https://searchcode.com/codesearch/view/15642446/)
+> set the options field for the frame record . 
 {% highlight java %}
 200. LegendRecord rec = new LegendRecord();
 202. rec.field_1_xAxisUpperLeft = field_1_xAxisUpperLeft;

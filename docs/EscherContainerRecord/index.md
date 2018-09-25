@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-8 results
+## [Cluster 1 (bstorecontainer, escherparent, spgr)](./1)
+5 results
 > create a new ctworkbook with all values set to default 
 {% highlight java %}
 214. EscherContainerRecord dg = (EscherContainerRecord) ppdrawing.getEscherRecords()[0];
@@ -12,8 +12,8 @@
 
 ***
 
-## [Cluster 2](./2)
-17 results
+## [Cluster 2 (bstore, dggcontainer, spcontainer1)](./2)
+12 results
 > create and create a new sheet from the sheet and save the @ param was the < code > true < / code > if the line is inside a group , < code > false < / code > otherwise 
 {% highlight java %}
 631. EscherContainerRecord spgrContainer = new EscherContainerRecord();
@@ -24,8 +24,8 @@
 
 ***
 
-## [Cluster 3](./3)
-12 results
+## [Cluster 3 (addchildrecord, dg, spcontainer)](./3)
+9 results
 > create a new ctworkbook with all values set to default 
 {% highlight java %}
 802. EscherContainerRecord dggContainer = _documentRecord.getPPDrawingGroup().getDggContainer();

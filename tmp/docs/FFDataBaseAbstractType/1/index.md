@@ -1,8 +1,9 @@
-# FFDataBaseAbstractType @Cluster 1
+# FFDataBaseAbstractType @Cluster 1 (excelextractor, extractor, false)
 
 ***
 
 ### [FFDataBaseAbstractType.java](https://searchcode.com/codesearch/view/97384293/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 124. FFDataBaseAbstractType other = (FFDataBaseAbstractType) obj;
 125. if ( field_1_version != other.field_1_version )

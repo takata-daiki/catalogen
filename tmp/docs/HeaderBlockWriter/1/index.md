@@ -1,8 +1,9 @@
-# HeaderBlockWriter @Cluster 1
+# HeaderBlockWriter @Cluster 1 (_doc, chpx, papx)
 
 ***
 
 ### [POIFSFileSystem.java](https://searchcode.com/codesearch/view/15642276/)
+> set the contents of this shape to be a copy of the source shape . < br > the method is a in order to be removed , since an 1 / 2 / 8 5 of the last column ( . . . ) 
 {% highlight java %}
 258. HeaderBlockWriter header_block_writer = new HeaderBlockWriter(512);
 260.     header_block_writer.setBATBlocks(bat.countBlocks(),

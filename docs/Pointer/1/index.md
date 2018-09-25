@@ -1,8 +1,9 @@
-# Pointer @Cluster 1
+# Pointer @Cluster 1 (1000, aspectratiox, twips_per_inch)
 
 ***
 
 ### [VSDDumper.java](https://searchcode.com/codesearch/view/97396300/)
+> make sure that the specified evaluated cell value represents a single the right type ( ' ) ' a single : ' / row ' ) @ throws evaluationexception 
 {% highlight java %}
 65. Pointer ptr = stream.getPointer();
 66. System.out.println(ind + "Stream at\t" + ptr.getOffset() +

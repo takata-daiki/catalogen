@@ -1,8 +1,9 @@
-# XSLFShadow @Cluster 1
+# XSLFShadow @Cluster 1 (new, shape, xslfpictureshape)
 
 ***
 
 ### [RenderableShape.java](https://searchcode.com/codesearch/view/97406799/)
+> is the sheet from a shape @ param 
 {% highlight java %}
 521. XSLFShadow shadow = _shape.getShadow();
 531.         if(fill != null) shadow.fill(graphics, o.getOutline());

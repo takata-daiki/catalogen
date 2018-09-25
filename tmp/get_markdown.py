@@ -4,6 +4,7 @@ import json
 import os
 
 import pandas as pd
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 df = pd.read_csv('cluster_v5.csv').set_index(['directory', 'filename'])
 
@@ -14,11 +15,9 @@ def homepage():
            ' title="Type in a name">\n\n***\n\n' \
            '<ul id="myUL">\n'
 
-    os.chdir('CodeExampleJson/')
-    li = glob.glob('*')
+    li = os.listdir('CodeExample')
     for line in sorted(li):
         text += '<li><a class="page-scroll" href="./{}/">{}</a></li>\n'.format(line, line)
-    os.chdir('../')
     text += '</ul>'
 
     with open('docs/index.md', 'w') as f:
@@ -27,16 +26,19 @@ def homepage():
 
 def represent():
     try:
-        li = os.listdir('CodeExampleJson')
+        li = os.listdir('CodeExample')
     except FileNotFoundError:
         return
 
     for name in sorted(li):
+        is_ok = True
         rep_cluster_arr = []
         try:
             sample = os.listdir('CodeExampleJson/{}'.format(name))
         except FileNotFoundError:
             continue
+        tmp = os.listdir('CodeExample/{}'.format(name))
+        sample = [s for s in sample if '{}.txt'.format(s[:-5]) in tmp]
         # sample.sort()
         tmp = []
         for s in sample:
@@ -50,36 +52,30 @@ def represent():
         except KeyError:
             sz = 0
 
+        tfidf_vectorizer = TfidfVectorizer(input='filename', max_df=0.5, min_df=1, max_features=3, norm='l2')
         for i in range(sz + 1):
             try:
                 tmp = [s[:-5] for s in sample if i == int(df.at[(name, '{}.txt'.format(s[:-5])), 'cluster'])]
+
+                files = ['CodeExample/{}/{}.txt'.format(name, t) for t in tmp]
+                if not files:
+                    is_ok = False
+                    break
+                try:
+                    tfidf = tfidf_vectorizer.fit_transform(files)
+                except ValueError:
+                    tfidf_vectorizer = TfidfVectorizer(input='filename', max_df=1.0, min_df=1, max_features=3, norm='l2')
+                    tfidf = tfidf_vectorizer.fit_transform(files)
+                feature = tfidf_vectorizer.get_feature_names()
+
                 y = len(tmp)
                 for j in range(len(tmp)):
                     x = tmp[j]
                     try:
                         with open('CodeAst/_{}_{}.txt'.format(name, x), 'r') as f:
                             rd = f.read()
-                        p = 0
-                        with open('ast_seqs.txt', 'r') as f:
-                            for k, comm in enumerate(f):
-                                if comm == rd:
-                                    p = k
-                                    break
-                        with open('jd_comms.txt', 'r') as f:
-                            z = f.read().split('\n')[p]
-                        break
                     except FileNotFoundError:
                         continue
-                else:
-                    x = tmp[0]
-                    z = 'this comment could not be generated...'
-
-            except KeyError:
-                x = sample[0][:-5]
-                y = 1
-                try:
-                    with open('CodeAst/_{}_{}.txt'.format(name, x), 'r') as f:
-                        rd = f.read()
                     p = 0
                     with open('ast_seqs.txt', 'r') as f:
                         for k, comm in enumerate(f):
@@ -88,10 +84,35 @@ def represent():
                                 break
                     with open('jd_comms.txt', 'r') as f:
                         z = f.read().split('\n')[p]
-                except FileNotFoundError:
-                    z = 'this comment could not be generated...'
+                    break
+                else:
+                    x = tmp[0]
 
-            rep_cluster_arr.append({'id': x, 'num': y, 'comment': z})
+            except KeyError:
+                x = sample[0][:-5]
+                y = 1
+                try:
+                    with open('CodeAst/_{}_{}.txt'.format(name, x), 'r') as f:
+                        rd = f.read()
+                except FileNotFoundError:
+                    continue
+                p = 0
+                with open('ast_seqs.txt', 'r') as f:
+                    for k, comm in enumerate(f):
+                        if comm == rd:
+                            p = k
+                            break
+                with open('jd_comms.txt', 'r') as f:
+                    z = f.read().split('\n')[p]
+
+            try:
+                rep_cluster_arr.append({'id': x, 'num': y, 'comment': z, 'feature': feature})
+            except UnboundLocalError:
+                is_ok = False
+                break
+
+        if not is_ok:
+            continue
 
         text = '# {}\n\n***\n\n'.format(name)
         for i, dic in enumerate(rep_cluster_arr):
@@ -99,7 +120,14 @@ def represent():
                 data = json.load(f)
                 if not data['lines']:
                     continue
-                text += '## [Cluster {}](./{})\n'.format(i + 1, i + 1)
+                try:
+                    text += '## [Cluster {} ({}, {}, {})](./{})\n'.format(i + 1,
+                                                                      dic['feature'][0],
+                                                                      dic['feature'][1],
+                                                                      dic['feature'][2],
+                                                                      i + 1)
+                except IndexError:
+                    text += '## [Cluster {}](./{})\n'.format(i + 1, i + 1)
                 text += '{} results\n'.format(dic['num'])
                 text += '> {}\n'.format(dic['comment'])
                 text += '{% highlight java %}\n'
@@ -107,7 +135,7 @@ def represent():
                     text += '{0}. {1}\n'.format(j, line.split('\n')[0])
                 text += '{% endhighlight %}\n\n***\n\n'
 
-            catalog(name, i)
+            catalog(name, i, dic['feature'])
 
         os.makedirs('docs/{}'.format(name), exist_ok=True)
         with open('docs/{}/index.md'.format(name), 'w') as f:
@@ -116,7 +144,7 @@ def represent():
         print(text)
 
 
-def catalog(classname, n):
+def catalog(classname, n, feature):
     try:
         sample = os.listdir('CodeExampleJson/{}'.format(classname))
     except FileNotFoundError:
@@ -138,18 +166,40 @@ def catalog(classname, n):
     with open('CodeIndex/{}.json'.format(classname), 'r') as f:
         data = json.load(f)
         for x in li:
+            try:
+                with open('CodeAst/_{}_{}.txt'.format(classname, x), 'r') as f2:
+                    rd = f2.read()
+            except FileNotFoundError:
+                continue
+            p = 0
+            with open('ast_seqs.txt', 'r') as f2:
+                for k, comm in enumerate(f2):
+                    if comm == rd:
+                        p = k
+                        break
+            with open('jd_comms.txt', 'r') as f2:
+                z = f2.read().split('\n')[p]
+
             for d in data['results']:
                 s = x.split('_')[0]
                 if str(d['id']) == s:
-                    files.append([x, d['filename']])
+                    files.append([x, d['filename'], z])
 
-    text = '# {} @Cluster {}\n\n***\n\n'.format(classname, n + 1)
-    for k, v in files:
+    try:
+        text = '# {} @Cluster {} ({}, {}, {})\n\n***\n\n'.format(classname, n + 1,
+                                                feature[0],
+                                                feature[1],
+                                                feature[2])
+    except IndexError:
+        text = '# {} @Cluster {}\n\n***\n\n'.format(classname, n + 1)
+
+    for k, v, c in files:
         with open('CodeExampleJson/{}/{}.json'.format(classname, k), 'r') as f:
             data = json.load(f)
             if not data['lines']:
                 continue
             text += '### [{}](https://searchcode.com/codesearch/view/{}/)\n'.format(v, k.split('_')[0])
+            text += '> {}\n'.format(c)
             text += '{% highlight java %}\n'
             for i, line in data['lines'].items():
                 text += '{0}. {1}\n'.format(i, line.split('\n')[0])

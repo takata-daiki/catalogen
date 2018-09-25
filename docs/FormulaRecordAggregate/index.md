@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (case, frec, styleindex)](./1)
 1 results
 > set the font of this style . < p > 0 - 6 error data only used for hssf / xssf / 2 / for formatting cells we have a false . 
 {% highlight java %}
@@ -15,8 +15,8 @@
 
 ***
 
-## [Cluster 2](./2)
-4 results
+## [Cluster 2 (fmagg, formularecordaggregate, rec)](./2)
+3 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
 395. FormulaRecordAggregate fmAgg = (FormulaRecordAggregate)rec;

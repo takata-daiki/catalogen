@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-4 results
+## [Cluster 1 (blipid, getpicturedata, getpicturedatabyid)](./1)
+2 results
 > sets the 
 {% highlight java %}
 1255. XWPFPictureData pictureData = super.getPictureData( picture );
@@ -12,7 +12,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (document, getpicturedatabyid, picture)](./2)
 3 results
 > sets the 
 {% highlight java %}

@@ -2,12 +2,12 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (close, pptextractor, true)](./1)
 1 results
-> this comment could not be generated...
+> creates the . 
 {% highlight java %}
-146. PrintHeadersRecord rec = new PrintHeadersRecord();
-147. rec.field_1_print_headers = field_1_print_headers;
+1539. PrintHeadersRecord retval = new PrintHeadersRecord();
+1541. retval.setPrintHeaders(false);
 {% endhighlight %}
 
 ***

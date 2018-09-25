@@ -1,8 +1,9 @@
-# HSSFColor @Cluster 1
+# HSSFColor @Cluster 1 (automatic, result, rgbbyte)
 
 ***
 
 ### [CellRenderer.java](https://searchcode.com/codesearch/view/121321564/)
+> @ param tests - the color to the end of the 
 {% highlight java %}
 78. HSSFColor hssfColor = (HSSFColor) color;
 79. short[] rgb = hssfColor.getTriplet();
@@ -10,23 +11,8 @@
 
 ***
 
-### [CellHSSFImpl.java](https://searchcode.com/codesearch/view/72854667/)
-{% highlight java %}
-227. HSSFColor col = translateColour(colour);
-230. style.setFillForegroundColor(col.getIndex());
-{% endhighlight %}
-
-***
-
-### [HSSFStyleHelper.java](https://searchcode.com/codesearch/view/112283811/)
-{% highlight java %}
-58. HSSFColor color = palette.getColor(index);
-66.   short[] rgb = color.getTriplet();
-{% endhighlight %}
-
-***
-
 ### [HSSFXMLStyleHelper.java](https://searchcode.com/codesearch/view/110498463/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 29. private static final HSSFColor HSSF_AUTO = new HSSFColor.AUTOMATIC();
 114.   if (index == HSSF_AUTO.getIndex() || color == null) {
@@ -35,6 +21,7 @@
 ***
 
 ### [StyleManagerHUtils.java](https://searchcode.com/codesearch/view/122565152/)
+> get the 2 - d string value by a record . 
 {% highlight java %}
 130. HSSFColor result = palette.findColor(rgbByte[0], rgbByte[1], rgbByte[2]);
 140. return result.getIndex();
@@ -42,15 +29,8 @@
 
 ***
 
-### [CellHSSFImpl.java](https://searchcode.com/codesearch/view/72854667/)
-{% highlight java %}
-269. HSSFColor color = palette.getColor(colorIndex);
-272.     short[] triplet = color.getTriplet();
-{% endhighlight %}
-
-***
-
 ### [HSSFXMLStyleHelper.java](https://searchcode.com/codesearch/view/110498463/)
+> index into the < tt > collection < / tt > to the specified shape . 
 {% highlight java %}
 112. HSSFColor color = palette.getColor(index);
 117.   short[] rgb = color.getTriplet();
@@ -59,26 +39,10 @@
 ***
 
 ### [HSSFStyleHelper.java](https://searchcode.com/codesearch/view/112283811/)
+> index into the < tt > collection < / tt > to the specified shape . 
 {% highlight java %}
 21. private static final HSSFColor HSSF_AUTO = new HSSFColor.AUTOMATIC();
 60.   if (index == HSSF_AUTO.getIndex() || color == null)
-{% endhighlight %}
-
-***
-
-### [CellRenderer.java](https://searchcode.com/codesearch/view/121321564/)
-{% highlight java %}
-101. HSSFColor hssfColor = (HSSFColor) color;
-102. short[] rgb = hssfColor.getTriplet();
-{% endhighlight %}
-
-***
-
-### [CellRenderer.java](https://searchcode.com/codesearch/view/121321564/)
-{% highlight java %}
-124. HSSFColor hssfColor = customPalette.getColor(c);
-125. if (hssfColor == null || hssfColor.equals(HSSFColor.AUTOMATIC.getInstance())) {
-128.   short[] rgb = hssfColor.getTriplet();
 {% endhighlight %}
 
 ***

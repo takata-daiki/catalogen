@@ -1,8 +1,9 @@
-# XSLFTextRun @Cluster 2
+# XSLFTextRun @Cluster 2 (attention, cost, documents)
 
 ***
 
 ### [MarketingReportCostEstimationGeneratorImpl.java](https://searchcode.com/codesearch/view/92131918/)
+> @ since 3 . 1 5 beta 2 
 {% highlight java %}
 26. XSLFTextRun r1 = p1.addNewTextRun();
 27. r1.setText("Cost estimation");
@@ -15,6 +16,7 @@
 ***
 
 ### [MarketingReportInCityGeneratorImpl.java](https://searchcode.com/codesearch/view/92131916/)
+> @ since 3 . 1 5 beta 2 
 {% highlight java %}
 50. XSLFTextRun r1 = p1.addNewTextRun();
 51. r1.setText("Reporting documents");
@@ -27,6 +29,7 @@
 ***
 
 ### [MarketingReportFirstSlideGeneratorImpl.java](https://searchcode.com/codesearch/view/92131912/)
+> @ param value whether shapes on the master slide should be shown or not . 
 {% highlight java %}
 45. XSLFTextRun r1 = p1.addNewTextRun();
 46. r1.setText(title);
@@ -38,31 +41,8 @@
 
 ***
 
-### [MarketingReportInCityGeneratorImpl.java](https://searchcode.com/codesearch/view/92131916/)
-{% highlight java %}
-149. XSLFTextRun r1 = p1.addNewTextRun();
-150. r1.setText(slide.getUnitRegionNetworkName() + ", " + slide.getUnitRegionName());
-151. r1.setFontFamily("Verdana");
-152. r1.setFontColor(new Color(255, 0, 102));
-153. r1.setFontSize(24);
-154. r1.setBold(true);
-{% endhighlight %}
-
-***
-
-### [MarketingReportInCityGeneratorImpl.java](https://searchcode.com/codesearch/view/92131916/)
-{% highlight java %}
-160. XSLFTextRun r2 = p2.addNewTextRun();
-161. r2.setText(generateDatesOnDetailShop(slide, mData));
-162. r2.setFontFamily("Verdana");
-163. r2.setFontColor(new Color(255, 0, 102));
-164. r2.setFontSize(20);
-165. r2.setBold(true);
-{% endhighlight %}
-
-***
-
 ### [MarketingReportLastSlideGeneratorImpl.java](https://searchcode.com/codesearch/view/92131911/)
+> @ since 3 . 1 5 beta 2 
 {% highlight java %}
 27. XSLFTextRun r1 = p1.addNewTextRun();
 28. r1.setText("Thank you for your attention!");

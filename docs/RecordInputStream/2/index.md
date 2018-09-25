@@ -1,16 +1,9 @@
-# RecordInputStream @Cluster 2
-
-***
-
-### [SaveRecalcRecord.java](https://searchcode.com/codesearch/view/88639700/)
-{% highlight java %}
-43. public SaveRecalcRecord(RecordInputStream in)
-45.     field_1_recalc = in.readShort();
-{% endhighlight %}
+# RecordInputStream @Cluster 2 (in, readshort, recordinputstream)
 
 ***
 
 ### [Ref3DPtg.java](https://searchcode.com/codesearch/view/15642577/)
+> invokes the delegate ' s < code > mark ( int ) < / code > method . @ param as the stream to read from 
 {% highlight java %}
 75. public Ref3DPtg(RecordInputStream in) {
 76.     field_1_index_extern_sheet = in.readShort();
@@ -21,6 +14,7 @@
 ***
 
 ### [AreaPtg.java](https://searchcode.com/codesearch/view/15642562/)
+> invokes the delegate ' s < code > mark ( int ) < / code > method . @ param as the start last the contents to read . 
 {% highlight java %}
 100. public AreaPtg(RecordInputStream in)
 102.     field_1_first_row    = in.readShort();
@@ -31,19 +25,8 @@
 
 ***
 
-### [Area3DPtg.java](https://searchcode.com/codesearch/view/15642563/)
-{% highlight java %}
-89. public Area3DPtg(RecordInputStream in)
-91.   field_1_index_extern_sheet = in.readShort();
-92.   field_2_first_row = in.readShort();
-93.   field_3_last_row = in.readShort();
-94.   field_4_first_column = in.readShort();
-95.   field_5_last_column = in.readShort();
-{% endhighlight %}
-
-***
-
 ### [ArrayPtg.java](https://searchcode.com/codesearch/view/15642537/)
+> this method is being used by the xml signature service engine during pre - sign [ 0 . . . 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 @ param . @ param . 
 {% highlight java %}
 87. public ArrayPtg(RecordInputStream in)
 89.   field_1_reserved = in.readByte();

@@ -1,8 +1,9 @@
-# HSSFName @Cluster 1
+# HSSFName @Cluster 1 (iname, namedatabeg, string)
 
 ***
 
 ### [JUniPrint.java](https://searchcode.com/codesearch/view/60212057/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 67. private HSSFName nameDataBeg;
 1633.     AreaReference areaDataBeg = new AreaReference(nameDataBeg.getRefersToFormula());
@@ -11,6 +12,7 @@
 ***
 
 ### [ExcelUtils.java](https://searchcode.com/codesearch/view/60212069/)
+> returns the instance of a string with the of the given type , or null if none is the same style does not exist . 
 {% highlight java %}
 104. public static AreaReference getReferanceNameRange(HSSFName nameRange){
 106.   return new AreaReference(nameRange.getRefersToFormula());
@@ -18,16 +20,8 @@
 
 ***
 
-### [WorkbookHSSFImpl.java](https://searchcode.com/codesearch/view/72854626/)
-{% highlight java %}
-143. HSSFName hssfName = workbook.createName();
-144. hssfName.setNameName(name);
-145. hssfName.setRefersToFormula(rng.toFixedAddress());
-{% endhighlight %}
-
-***
-
 ### [ExcelUtils.java](https://searchcode.com/codesearch/view/60212069/)
+> sets the 
 {% highlight java %}
 98. HSSFName nameRange =  wb.createName();
 99. nameRange.setNameName(name);
@@ -37,6 +31,7 @@
 ***
 
 ### [JUniPrintReportsEngine.java](https://searchcode.com/codesearch/view/60336976/)
+> sets the 
 {% highlight java %}
 93. HSSFName paramCellName = ExcelUtils.getNamedRange(wb, param.getKey());
 95.   HSSFSheet paramCellSheet = wb.getSheet(paramCellName.getSheetName());
@@ -45,25 +40,8 @@
 
 ***
 
-### [RangeConvertor.java](https://searchcode.com/codesearch/view/8520531/)
-{% highlight java %}
-101. HSSFName aNamedCell = wb.getNameAt(namedCellIdx);
-104. AreaReference aref = new AreaReference(aNamedCell.getReference());
-119.     String cellHandle = Range.getUniqueCellName(aNamedCell
-{% endhighlight %}
-
-***
-
-### [JUniPrintTest.java](https://searchcode.com/codesearch/view/60212055/)
-{% highlight java %}
-38. HSSFName nameDataBeg = ExcelUtils.getNamedRange(wb, "DataBeg");
-40. String nameShData = nameDataBeg.getSheetName();
-43. AreaReference areaDataBeg = new AreaReference(nameDataBeg.getRefersToFormula());
-{% endhighlight %}
-
-***
-
 ### [ReportSheetImpl.java](https://searchcode.com/codesearch/view/128473368/)
+> sets the a number of the style of the that was a copy of the style table . 
 {% highlight java %}
 102. HSSFName nm = shTemplate.getWorkbook().getNameAt(i);
 104. AreaReference aref = new AreaReference(nm.getRefersToFormula());
@@ -73,6 +51,7 @@
 ***
 
 ### [RangeConvertor.java](https://searchcode.com/codesearch/view/8520531/)
+> sets the 
 {% highlight java %}
 46. HSSFName aNamedRage = wb.getNameAt(namedRangeIdx);
 49. AreaReference aref = new AreaReference(aNamedRage.getReference());
@@ -81,16 +60,8 @@
 
 ***
 
-### [JUniPrintTest.java](https://searchcode.com/codesearch/view/60212055/)
-{% highlight java %}
-96. HSSFName nameDataBeg = ExcelUtils.getNamedRange(wb, "DataBeg");
-98. String nameShData = nameDataBeg.getSheetName();
-101. AreaReference areaDataBeg = new AreaReference(nameDataBeg.getRefersToFormula());
-{% endhighlight %}
-
-***
-
 ### [JUniPrintReportsEngine.java](https://searchcode.com/codesearch/view/60336976/)
+> sets the 
 {% highlight java %}
 105. HSSFName nameDataBeg = ExcelUtils.getNamedRange(wb, dataBegFieldName);
 107. String nameShData = nameDataBeg.getSheetName();
@@ -100,6 +71,7 @@
 ***
 
 ### [ExcelUtils.java](https://searchcode.com/codesearch/view/60212069/)
+> gets the value of the given paragraph textprop , add if required @ param propname the name of the paragraph 
 {% highlight java %}
 178. HSSFName iName = wb.getNameAt(i);
 180.   String iNameName = iName.getNameName();
@@ -109,6 +81,7 @@
 ***
 
 ### [NamedRangeHSSFImpl.java](https://searchcode.com/codesearch/view/72854613/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 26. private HSSFName name;
 34.     return name.getNameName();

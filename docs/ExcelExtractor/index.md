@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-4 results
+## [Cluster 1 (exceltext, false, fs)](./1)
+2 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
 23. ExcelExtractor extractor = new ExcelExtractor(fs);
@@ -12,7 +12,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (excelextractor, extractor, false)](./2)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}

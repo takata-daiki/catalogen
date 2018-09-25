@@ -1,8 +1,9 @@
-# ByteField @Cluster 1
+# ByteField @Cluster 1 (break, data, littleendian)
 
 ***
 
 ### [Property.java](https://searchcode.com/codesearch/view/15642246/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 95. private ByteField           _property_type;
 357.     _property_type.set(propertyType, _raw_data);

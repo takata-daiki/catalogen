@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-4 results
+## [Cluster 1 (leveloffset, listlevel, lvl)](./1)
+1 results
 > set the as string < p > 
 {% highlight java %}
 74. ListLevel lvl = new ListLevel();
@@ -12,7 +12,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (listlevel, sprmiterator, system)](./2)
 1 results
 > sets the string to either the value or " " if the value is null . 
 {% highlight java %}
@@ -24,7 +24,7 @@
 
 ***
 
-## [Cluster 3](./3)
+## [Cluster 3 (getgrpprlpapx, listlevel, properties)](./3)
 1 results
 > tests that the create and sets the font is based on @ since 3 . 1 4 beta 1 
 {% highlight java %}

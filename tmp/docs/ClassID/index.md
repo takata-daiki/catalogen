@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (classid1, clsidstorage, fid)](./1)
 3 results
 > sets the storage class id for this property stream . this is the class id of the com object which can read and write this property stream @ param < code > true < / code > if the storage has been a valid id , or value a value 
 {% highlight java %}
@@ -12,7 +12,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (bytes, cid, length)](./2)
 1 results
 > checks the conversion of an excel . to be used to 3 2 7 6 7 . this < code > - 1 < / code > 2 4 2 4 2 3 7 4 . 
 {% highlight java %}
@@ -23,7 +23,7 @@
 
 ***
 
-## [Cluster 3](./3)
+## [Cluster 3 (16, byte, final)](./3)
 1 results
 > < p > writes a 1 6 - byte { @ link of } that from an input stream . < / p > @ param out the stream to write to @ param n the value to write @ exception ioexception if an i / o error occurs 
 {% highlight java %}

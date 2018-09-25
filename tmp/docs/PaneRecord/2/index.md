@@ -1,8 +1,9 @@
-# PaneRecord @Cluster 2
+# PaneRecord @Cluster 2 (field_1_x, field_2_y, rec)
 
 ***
 
 ### [PaneRecord.java](https://searchcode.com/codesearch/view/15642391/)
+> set the text orientation field for the frame record . 
 {% highlight java %}
 170. PaneRecord rec = new PaneRecord();
 172. rec.field_1_x = field_1_x;

@@ -1,8 +1,9 @@
-# ParagraphPropertyFetcher @Cluster 1
+# ParagraphPropertyFetcher @Cluster 1 (par1, par2, two)
 
 ***
 
 ### [XSLFTextParagraph.java](https://searchcode.com/codesearch/view/97406665/)
+> the the 
 {% highlight java %}
 1095. private boolean fetchParagraphProperty(ParagraphPropertyFetcher visitor){
 1098.     if(_p.isSetPPr()) ok = visitor.fetch(_p.getPPr());

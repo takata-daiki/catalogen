@@ -1,8 +1,9 @@
-# WindowTwoRecord @Cluster 2
+# WindowTwoRecord @Cluster 2 (field_1_options, field_2_top_row, rec)
 
 ***
 
 ### [WindowTwoRecord.java](https://searchcode.com/codesearch/view/15642528/)
+> set the logical col number for the last cell this row ( 0 based index ) 
 {% highlight java %}
 590. WindowTwoRecord rec = new WindowTwoRecord();
 591. rec.field_1_options = field_1_options;

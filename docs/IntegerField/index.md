@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-8 results
+## [Cluster 1 (_bat_count, _days_1, _sbat_start)](./1)
+4 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
 67. private IntegerField _bat_count;
@@ -12,7 +12,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (_child_property, _raw_data, child)](./2)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
@@ -23,7 +23,7 @@
 
 ***
 
-## [Cluster 3](./3)
+## [Cluster 3 (_no_index, _previous_property, child)](./3)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
@@ -34,8 +34,8 @@
 
 ***
 
-## [Cluster 4](./4)
-6 results
+## [Cluster 4 (_data, _xbat_start, set)](./4)
+1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
 67. private IntegerField      _bat_count;
@@ -44,7 +44,7 @@
 
 ***
 
-## [Cluster 5](./5)
+## [Cluster 5 (_raw_data, _start_block, get)](./5)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
@@ -54,7 +54,7 @@
 
 ***
 
-## [Cluster 6](./6)
+## [Cluster 6 (_size, get, return)](./6)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
@@ -64,7 +64,7 @@
 
 ***
 
-## [Cluster 7](./7)
+## [Cluster 7 (0x0000ffffl, _seconds_2, get)](./7)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
@@ -74,7 +74,7 @@
 
 ***
 
-## [Cluster 8](./8)
+## [Cluster 8 (_days_2, get, integerfield)](./8)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}

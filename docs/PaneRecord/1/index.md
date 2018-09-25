@@ -1,17 +1,9 @@
-# PaneRecord @Cluster 1
+# PaneRecord @Cluster 1 (64, activepane, pane)
 
 ***
 
 ### [Sheet.java](https://searchcode.com/codesearch/view/15642365/)
-{% highlight java %}
-2509. PaneRecord rec = (PaneRecord)findFirstRecordBySid(PaneRecord.sid);
-2513. return new PaneInformation(rec.getX(), rec.getY(), rec.getTopRow(),
-2514.                        rec.getLeftColumn(), (byte)rec.getActivePane(), windowTwo.getFreezePanes());      
-{% endhighlight %}
-
-***
-
-### [Sheet.java](https://searchcode.com/codesearch/view/15642365/)
+> sets the auto numbering index of the handled paragraph @ param index the number of the first in the ' 0 ' a with 1 if the index is a value of the chart type . 
 {% highlight java %}
 2488. PaneRecord r = new PaneRecord();
 2489. r.setX((short)xSplitPos);
@@ -24,6 +16,7 @@
 ***
 
 ### [Sheet.java](https://searchcode.com/codesearch/view/15642365/)
+> creates a 
 {% highlight java %}
 2439. PaneRecord pane = new PaneRecord();
 2440. pane.setX((short)colSplit);

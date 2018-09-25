@@ -1,8 +1,9 @@
-# FormulaViewer @Cluster 1
+# FormulaViewer @Cluster 1 (fmagg, formularecordaggregate, rec)
 
 ***
 
 ### [FormulaViewer.java](https://searchcode.com/codesearch/view/15642597/)
+> method run @ throws illegalstateexception if the workbook 0 - 3 2 7 6 bytes 
 {% highlight java %}
 269. FormulaViewer viewer = new FormulaViewer();
 271. viewer.setFile(args[ 0 ]);

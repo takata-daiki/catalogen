@@ -1,8 +1,9 @@
-# ObjectLinkRecord @Cluster 1
+# ObjectLinkRecord @Cluster 1 (pack, packagepart, partname)
 
 ***
 
 ### [ObjectLinkRecord.java](https://searchcode.com/codesearch/view/15642374/)
+> set the link 2 field for the objectlink record . 
 {% highlight java %}
 157. ObjectLinkRecord rec = new ObjectLinkRecord();
 159. rec.field_1_anchorId = field_1_anchorId;

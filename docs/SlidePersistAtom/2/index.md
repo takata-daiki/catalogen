@@ -1,8 +1,9 @@
-# SlidePersistAtom @Cluster 2
+# SlidePersistAtom @Cluster 2 (getslideidentifier, if, spa)
 
 ***
 
 ### [SlideShow.java](https://searchcode.com/codesearch/view/97394959/)
+> called by slideshow from the specified slide 
 {% highlight java %}
 693. SlidePersistAtom prev = null;
 705.     if (prev.getSlideIdentifier() < spa.getSlideIdentifier()) {

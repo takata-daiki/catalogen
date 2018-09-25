@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (getpackagerelationship, getrelations, part)](./1)
 4 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
@@ -12,8 +12,8 @@
 
 ***
 
-## [Cluster 2](./2)
-10 results
+## [Cluster 2 (getpartbyid, hdrpart, list)](./2)
+6 results
 > sets the 
 {% highlight java %}
 60. public OLDXHTMLMapper( XWPFDocument document )

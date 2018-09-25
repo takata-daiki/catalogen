@@ -2,12 +2,13 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (is, position, rawdatapos)](./1)
 1 results
-> this comment could not be generated...
+> set the text for this shape 
 {% highlight java %}
-56. DocumentNode documentNode = (DocumentNode)document;
-59. if(documentNode.getDocument() != null) {
+73.   DocumentNode doc = (DocumentNode)document;
+74. DocumentProperty property = (DocumentProperty)doc.getProperty();
+77.       ((DirectoryNode)doc.getParent()).getNFileSystem()
 {% endhighlight %}
 
 ***

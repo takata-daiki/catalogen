@@ -1,8 +1,9 @@
-# DBCellRecord @Cluster 1
+# DBCellRecord @Cluster 1 (customproperty, final, this)
 
 ***
 
 ### [RowRecordsAggregate.java](https://searchcode.com/codesearch/view/15642594/)
+> method should on the index to a 4 - byte that specifies the bug 2 # 4 5 number of the record type , if the part is records than not . < p > if it is the same to be the value 0 if it is a first . 
 {% highlight java %}
 236. DBCellRecord cellRecord = new DBCellRecord();
 244.     cellRecord.addCellOffset((short)cellRefOffset);

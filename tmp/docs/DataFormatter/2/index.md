@@ -1,8 +1,9 @@
-# DataFormatter @Cluster 2
+# DataFormatter @Cluster 2 (2831853072, 3141, 59)
 
 ***
 
 ### [CurrencyFormatsTest.java](https://searchcode.com/codesearch/view/122565018/)
+> check that the given header was < code > null < / code > if it ' s - 0 . 0 the for 1 9 0 0 0 , the if 0 is not a valid excel file 
 {% highlight java %}
 75. DataFormatter formatter = new DataFormatter();
 77. assertEquals( "Ł3141.59",              formatter.formatCellValue(sheet.getRow(1).getCell(1)));
@@ -14,6 +15,7 @@
 ***
 
 ### [CurrencyFormatsTest.java](https://searchcode.com/codesearch/view/64531655/)
+> check that the given header was < code > null < / code > if it ' s - 0 . 0 the for 1 9 0 0 0 , the if 0 is not a valid excel file 
 {% highlight java %}
 84. DataFormatter formatter = new DataFormatter();
 86. assertEquals( "£3141.59",              formatter.formatCellValue(sheet.getRow(1).getCell(1)));
@@ -25,6 +27,7 @@
 ***
 
 ### [CurrencyFormatsTest.java](https://searchcode.com/codesearch/view/64531655/)
+> check that the given header was < code > null < / code > if it ' s - 0 . 0 the for 1 9 0 0 0 , the if 0 is not a valid excel file 
 {% highlight java %}
 56. DataFormatter formatter = new DataFormatter();
 58. assertEquals( "£3141.59",              formatter.formatCellValue(sheet.getRow(1).getCell(1)));
@@ -36,6 +39,7 @@
 ***
 
 ### [CurrencyFormatsTest.java](https://searchcode.com/codesearch/view/122565018/)
+> check that the given header was < code > null < / code > if it ' s - 0 . 0 the for 1 9 0 0 0 , the if 0 is not a valid excel file 
 {% highlight java %}
 47. DataFormatter formatter = new DataFormatter();
 49. assertEquals( "Ł3141.59",              formatter.formatCellValue(sheet.getRow(1).getCell(1)));
@@ -47,6 +51,7 @@
 ***
 
 ### [BackgroundFormatsTests.java](https://searchcode.com/codesearch/view/64531708/)
+> tests various that is an list of all the right of the header that was found to the list of of the shape ( ) with { @ link # 
 {% highlight java %}
 112. DataFormatter formatter = new DataFormatter();
 114. assertEquals( "1",                     formatter.formatCellValue(sheet.getRow(1).getCell(1)));
@@ -58,19 +63,8 @@
 
 ***
 
-### [AutoColWidthsTest.java](https://searchcode.com/codesearch/view/122564986/)
-{% highlight java %}
-57. DataFormatter formatter = new DataFormatter();
-59. assertEquals( "1",                     formatter.formatCellValue(sheet.getRow(2).getCell(1)));
-60. assertEquals( "2019-10-11 13:18:46",   formatter.formatCellValue(sheet.getRow(2).getCell(2)));
-61. assertEquals( "3.1415926536",          formatter.formatCellValue(sheet.getRow(2).getCell(3)));
-62. assertEquals( "3.1415926536",          formatter.formatCellValue(sheet.getRow(2).getCell(4)));
-63. assertEquals( "false",                 formatter.formatCellValue(sheet.getRow(2).getCell(5)));
-{% endhighlight %}
-
-***
-
 ### [BackgroundFormatsTests.java](https://searchcode.com/codesearch/view/122565100/)
+> tests various that is an list of all the right of the header that was found to the list of of the shape ( ) with { @ link # 
 {% highlight java %}
 103. DataFormatter formatter = new DataFormatter();
 105. assertEquals( "1",                     formatter.formatCellValue(sheet.getRow(1).getCell(1)));
@@ -83,6 +77,7 @@
 ***
 
 ### [BackgroundFormatsTests.java](https://searchcode.com/codesearch/view/122565100/)
+> tests various that is an list of all the right of the header that was found to the list of of the shape ( ) with { @ link # 
 {% highlight java %}
 49. DataFormatter formatter = new DataFormatter();
 51. assertEquals( "1",                     formatter.formatCellValue(sheet.getRow(1).getCell(1)));
@@ -95,6 +90,7 @@
 ***
 
 ### [BackgroundFormatsTests.java](https://searchcode.com/codesearch/view/64531708/)
+> tests various that is an list of all the right of the header that was found to the list of of the shape ( ) with { @ link # 
 {% highlight java %}
 58. DataFormatter formatter = new DataFormatter();
 60. assertEquals( "1",                     formatter.formatCellValue(sheet.getRow(1).getCell(1)));
@@ -107,6 +103,7 @@
 ***
 
 ### [AutoColWidthsTest.java](https://searchcode.com/codesearch/view/64531720/)
+> tests various that is an list of all the right of the header that was found to the list of of the shape ( ) with { @ link # 
 {% highlight java %}
 67. DataFormatter formatter = new DataFormatter();
 69. assertEquals( "1",                     formatter.formatCellValue(sheet.getRow(2).getCell(1)));
@@ -119,6 +116,7 @@
 ***
 
 ### [Issue85Formulae.java](https://searchcode.com/codesearch/view/122565102/)
+> tests various that is an in 
 {% highlight java %}
 58. DataFormatter formatter = new DataFormatter();
 61. assertEquals( "1",                     formatter.formatCellValue(sheet.getRow(1).getCell(1)));
@@ -142,6 +140,7 @@
 ***
 
 ### [NumberFormatsTest.java](https://searchcode.com/codesearch/view/64531662/)
+> tests various that is an in 
 {% highlight java %}
 67. DataFormatter formatter = new DataFormatter();
 70. assertEquals( "1",                     formatter.formatCellValue(sheet.getRow(1).getCell(1)));
@@ -192,6 +191,7 @@
 ***
 
 ### [NumberFormatsTest.java](https://searchcode.com/codesearch/view/122565023/)
+> tests various that is an in 
 {% highlight java %}
 58. DataFormatter formatter = new DataFormatter();
 61. assertEquals( "1",                     formatter.formatCellValue(sheet.getRow(1).getCell(1)));

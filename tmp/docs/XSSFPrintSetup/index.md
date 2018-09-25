@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (01, assertequals, printsetup)](./1)
 1 results
 > test for parsing 
 {% highlight java %}
@@ -15,7 +15,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (01, assertequals, printsetup)](./2)
 2 results
 > test for parsing document with drawings to the code @ throws ioexception 
 {% highlight java %}
@@ -28,7 +28,7 @@
 
 ***
 
-## [Cluster 3](./3)
+## [Cluster 3 (01, assertequals, printsetup)](./3)
 2 results
 > test for parsing 
 {% highlight java %}
@@ -41,7 +41,7 @@
 
 ***
 
-## [Cluster 4](./4)
+## [Cluster 4 (01, assertequals, printsetup)](./4)
 3 results
 > test that we can read existing time , eg not 
 {% highlight java %}

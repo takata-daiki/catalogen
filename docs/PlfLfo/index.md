@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (1000, aspectratiox, twips_per_inch)](./1)
 1 results
 > compare number of sheets . 
 {% highlight java %}

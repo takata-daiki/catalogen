@@ -1,8 +1,9 @@
-# GutsRecord @Cluster 2
+# GutsRecord @Cluster 2 (field_1_left_row_gutter, field_2_top_col_gutter, rec)
 
 ***
 
 ### [GutsRecord.java](https://searchcode.com/codesearch/view/15642380/)
+> set the type of underlining for the font 
 {% highlight java %}
 221. GutsRecord rec = new GutsRecord();
 222. rec.field_1_left_row_gutter = field_1_left_row_gutter;

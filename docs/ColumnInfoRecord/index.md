@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-6 results
+## [Cluster 1 (if, nci, null)](./1)
+3 results
 > set the contents of this shape to be a copy of the source shape . < p > the 0 is specified in points . positive values will cause the to and font to the specified in the index of the font . 
 {% highlight java %}
 102. ColumnInfoRecord ci = ( ColumnInfoRecord ) records.get(k);
@@ -12,7 +12,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (columninforecord, field_1_first_col, rec)](./2)
 1 results
 > set the logical col field for the text record . 
 {% highlight java %}
@@ -27,8 +27,8 @@
 
 ***
 
-## [Cluster 3](./3)
-16 results
+## [Cluster 3 (ci, column, columninforecord)](./3)
+11 results
 > check that and return a list of the font in the table . 
 {% highlight java %}
 305. ColumnInfoRecord columnInfo = (ColumnInfoRecord) records.get( findStartOfColumnOutlineGroup( idx ) );

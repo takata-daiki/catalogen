@@ -1,8 +1,9 @@
-# HSSFPrintSetup @Cluster 3
+# HSSFPrintSetup @Cluster 3 (25, printsetup, short)
 
 ***
 
 ### [ExportEventsImpl.java](https://searchcode.com/codesearch/view/122444114/)
+> sets the line count . @ see # @ see # was one ( ) 
 {% highlight java %}
 284. final HSSFPrintSetup printSetup = sheet.getPrintSetup ();
 285. printSetup.setLandscape ( true );

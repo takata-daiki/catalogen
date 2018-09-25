@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-3 results
+## [Cluster 1 (blankrecord, field_1_row, rec)](./1)
+1 results
 > set the logical col number for the last cell this row ( 0 based index ) 
 {% highlight java %}
 324. BlankRecord rec = new BlankRecord();
@@ -14,8 +14,8 @@
 
 ***
 
-## [Cluster 2](./2)
-2 results
+## [Cluster 2 (blankrecord, br, mb)](./2)
+1 results
 > sets the a number of the number of the that contains the comment @ param row the row that the region is on . 
 {% highlight java %}
 405. BlankRecord br = new BlankRecord();
@@ -26,7 +26,7 @@
 
 ***
 
-## [Cluster 3](./3)
+## [Cluster 3 (blankrecord, brec, case)](./3)
 1 results
 > sets the 
 {% highlight java %}

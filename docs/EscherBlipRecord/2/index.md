@@ -1,8 +1,9 @@
-# EscherBlipRecord @Cluster 2
+# EscherBlipRecord @Cluster 2 (36, field_12_bliprecord, getrecordsize)
 
 ***
 
 ### [EscherBSERecord.java](https://searchcode.com/codesearch/view/97383903/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 55. private EscherBlipRecord field_12_blipRecord;
 79.         bytesRead = field_12_blipRecord.fillFields( data, pos + 36, recordFactory );

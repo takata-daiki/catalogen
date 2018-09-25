@@ -1,24 +1,9 @@
-# WordExtractor @Cluster 1
-
-***
-
-### [WordReader.java](https://searchcode.com/codesearch/view/14046017/)
-{% highlight java %}
-83. private List getBeanList(WordExtractor extractor, WordFileBean file) {
-84.   String[] strs = extractor.getParagraphText();
-{% endhighlight %}
-
-***
-
-### [IndexFiles.java](https://searchcode.com/codesearch/view/94960725/)
-{% highlight java %}
-193. WordExtractor extractor = null;
-200. return extractor.getText();
-{% endhighlight %}
+# WordExtractor @Cluster 1 (paragraph, string, wordextractor)
 
 ***
 
 ### [WordExtractor.java](https://searchcode.com/codesearch/view/111785561/)
+> add the xml signature to the document @ throws we throws if the record can ' t be read @ throws get if all @ throws ioexception if the workbook contained errors 
 {% highlight java %}
 45. org.apache.poi.hwpf.extractor.WordExtractor wordExtractor =
 48. addTextIfAny(xhtml, "header", wordExtractor.getHeaderText());

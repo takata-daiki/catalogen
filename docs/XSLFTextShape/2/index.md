@@ -1,8 +1,9 @@
-# XSLFTextShape @Cluster 2
+# XSLFTextShape @Cluster 2 (double, tsh, xslftextshape)
 
 ***
 
 ### [XSLFTextShape.java](https://searchcode.com/codesearch/view/97406813/)
+> sets all the formula expression 1 and is not if you set code to ( { @ link # and ( ) } than { @ link # @ ( org . apache . poi . ss . usermodel . workbook , int ) } < p > 
 {% highlight java %}
 579. XSLFTextShape tsh = (XSLFTextShape)sh;
 581. boolean srcWordWrap = tsh.getWordWrap();

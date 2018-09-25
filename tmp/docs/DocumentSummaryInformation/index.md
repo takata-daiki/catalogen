@@ -2,8 +2,8 @@
 
 ***
 
-## [Cluster 1](./1)
-3 results
+## [Cluster 1 (cp, documentsummaryinformation, dsi)](./1)
+1 results
 > sets the string value of the given map . 
 {% highlight java %}
 261. final DocumentSummaryInformation dsi = workbook.getDocumentSummaryInformation ();
@@ -13,7 +13,7 @@
 
 ***
 
-## [Cluster 2](./2)
+## [Cluster 2 (metadata, set, summary)](./2)
 1 results
 > sets the formula expression the file to . 1 2 7 0 0 0 . this value is one of a . @ param data @ param offset @ param stream @ return 
 {% highlight java %}

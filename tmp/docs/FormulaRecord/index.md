@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (formularecord, return, stringrecord)](./1)
 1 results
 > test that we get the same value as excel and , for 
 {% highlight java %}
@@ -26,8 +26,8 @@
 
 ***
 
-## [Cluster 2](./2)
-12 results
+## [Cluster 2 (formularecord, frec, rec)](./2)
+8 results
 > sets the for the specified one . @ param { @ code true } if the first sheet is a { @ link ' } s @ param the if the formula value is { @ code null } 
 {% highlight java %}
 112. private void listFormula(FormulaRecord record) {

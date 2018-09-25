@@ -1,8 +1,9 @@
-# EscherBSERecord @Cluster 1
+# EscherBSERecord @Cluster 1 (0x00, bserecord, type)
 
 ***
 
 ### [Picture.java](https://searchcode.com/codesearch/view/97384428/)
+> @ return the < code > null < / code > if the two range parts can be combined in an { @ link 
 {% highlight java %}
 565. EscherBSERecord bseRecord = (EscherBSERecord) escherRecord;
 566. switch ( bseRecord.getBlipTypeWin32() )
@@ -10,15 +11,8 @@
 
 ***
 
-### [Picture.java](https://searchcode.com/codesearch/view/97394307/)
-{% highlight java %}
-257. EscherBSERecord bse = getEscherBSERecord();
-258. bse.setRef(bse.getRef() + 1);
-{% endhighlight %}
-
-***
-
 ### [SlideShow.java](https://searchcode.com/codesearch/view/97394959/)
+> returns the underlying 
 {% highlight java %}
 813. EscherBSERecord bse = (EscherBSERecord) iter.next();
 814. if (Arrays.equals(bse.getUid(), uid)) {
@@ -26,16 +20,8 @@
 
 ***
 
-### [Picture.java](https://searchcode.com/codesearch/view/97394307/)
-{% highlight java %}
-182. EscherBSERecord bse = getEscherBSERecord();
-187.         if (pict[i].getOffset() ==  bse.getOffset()){
-191.     logger.log(POILogger.ERROR, "no picture found for our BSE offset " + bse.getOffset());
-{% endhighlight %}
-
-***
-
 ### [HSSFPicture.java](https://searchcode.com/codesearch/view/15642330/)
+> 
 {% highlight java %}
 127. EscherBSERecord bse = (EscherBSERecord)patriarch.sheet.book.getBSERecord(pictureIndex);
 128. byte[] data = bse.getBlipRecord().getPicturedata();

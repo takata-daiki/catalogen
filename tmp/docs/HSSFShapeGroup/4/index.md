@@ -1,8 +1,9 @@
-# HSSFShapeGroup @Cluster 4
+# HSSFShapeGroup @Cluster 4 (eschergroup, hssfchildanchor, new)
 
 ***
 
 ### [EscherGraphics.java](https://searchcode.com/codesearch/view/15642323/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 87. private HSSFShapeGroup escherGroup;
 235.     HSSFSimpleShape shape = escherGroup.createShape(new HSSFChildAnchor(x1, y1, x2, y2) );

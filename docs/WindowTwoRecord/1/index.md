@@ -1,16 +1,9 @@
-# WindowTwoRecord @Cluster 1
+# WindowTwoRecord @Cluster 1 (clonedsheet, true, w2)
 
 ***
 
 ### [HSSFWorkbook.java](https://searchcode.com/codesearch/view/15642316/)
-{% highlight java %}
-776. WindowTwoRecord w2 = (WindowTwoRecord) sheet.getSheet().findFirstRecordBySid(WindowTwoRecord.sid);
-777. w2.setPaged(true);
-{% endhighlight %}
-
-***
-
-### [HSSFWorkbook.java](https://searchcode.com/codesearch/view/15642316/)
+> if this is a value , the number of false format 
 {% highlight java %}
 578. WindowTwoRecord windowTwo = (WindowTwoRecord) sheet.getSheet().findFirstRecordBySid(WindowTwoRecord.sid);
 579. windowTwo.setSelected(sheets.size() == 1);
@@ -20,6 +13,7 @@
 ***
 
 ### [HSSFWorkbook.java](https://searchcode.com/codesearch/view/15642316/)
+> @ param value 
 {% highlight java %}
 536. WindowTwoRecord windowTwo = (WindowTwoRecord) clonedSheet.getSheet().findFirstRecordBySid(WindowTwoRecord.sid);
 537. windowTwo.setSelected(sheets.size() == 1);
@@ -29,6 +23,7 @@
 ***
 
 ### [HSSFWorkbook.java](https://searchcode.com/codesearch/view/15642316/)
+> @ param value 
 {% highlight java %}
 519. WindowTwoRecord windowTwo = (WindowTwoRecord) sheet.getSheet().findFirstRecordBySid(WindowTwoRecord.sid);
 520. windowTwo.setSelected(sheets.size() == 1);

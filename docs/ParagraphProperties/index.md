@@ -2,15 +2,17 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (par1, par2, two)](./1)
 1 results
-> this comment could not be generated...
+> create a new comment located . 
 {% highlight java %}
-716.     ParagraphProperties paragraph )
-718. if ( paragraph.getIlfo() != 0 )
-720.     final LFO lfo = listTables.getLfo( paragraph.getIlfo() );
-723.     final LFOData lfoData = listTables.getLfoData( paragraph.getIlfo() );
-729.                 paragraph.getIlvl() );
+105. ParagraphProperties properties = new ParagraphProperties();
+106. properties.setIstd( papx.getIstd() );
+113. if ( properties.getIlfo() != 0 && listTables != null )
+118.         lfo = listTables.getLfo( properties.getIlfo() );
+123.                 properties.getIlfo(), " that does not exists" );
+128.                 properties.getIlvl() );
+143. if ( properties.getIlfo() > 0 )
 {% endhighlight %}
 
 ***

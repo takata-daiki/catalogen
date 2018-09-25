@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (currentpiece, currenttextend, currenttextstart)](./1)
 1 results
 > sets the document summary information of the document @ throws ioexception if the file can ' t be read or contained errors 
 {% highlight java %}

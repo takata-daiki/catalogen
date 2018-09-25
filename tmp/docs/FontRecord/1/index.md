@@ -1,8 +1,9 @@
-# FontRecord @Cluster 1
+# FontRecord @Cluster 1 (excelextractor, extractor, false)
 
 ***
 
 ### [Workbook.java](https://searchcode.com/codesearch/view/15642358/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 1195. FontRecord retval = new FontRecord();
 1197. retval.setFontHeight(( short ) 0xc8);

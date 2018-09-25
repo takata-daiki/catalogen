@@ -1,8 +1,9 @@
-# SelectionRecord @Cluster 2
+# SelectionRecord @Cluster 2 (field_1_pane, field_2_row_active_cell, rec)
 
 ***
 
 ### [SelectionRecord.java](https://searchcode.com/codesearch/view/15642427/)
+> sets the auto numbering index of the object id . 
 {% highlight java %}
 289. SelectionRecord rec = new SelectionRecord();
 290. rec.field_1_pane = field_1_pane;

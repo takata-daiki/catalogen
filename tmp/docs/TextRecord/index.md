@@ -2,7 +2,7 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (currentpiece, currenttextend, currenttextstart)](./1)
 1 results
 > set the height field for the text record . 
 {% highlight java %}

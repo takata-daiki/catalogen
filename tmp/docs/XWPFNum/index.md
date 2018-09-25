@@ -2,12 +2,12 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (append, buffy, hfpolicy)](./1)
 1 results
-> this comment could not be generated...
+> set the formula expression to be used on the text . 
 {% highlight java %}
-471. protected XWPFAbstractNum getXWPFAbstractNum( XWPFNum num )
-473.     CTDecimalNumber abstractNumID = num.getCTNum().getAbstractNumId();
+324. XWPFNum num = document.getNumbering().getNum( numID.getVal() );
+327.     CTDecimalNumber abstractNumID = num.getCTNum().getAbstractNumId();
 {% endhighlight %}
 
 ***

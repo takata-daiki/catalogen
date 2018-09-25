@@ -2,12 +2,12 @@
 
 ***
 
-## [Cluster 1](./1)
+## [Cluster 1 (currentpiece, currenttextend, currenttextstart)](./1)
 1 results
-> this comment could not be generated...
+> sets the 
 {% highlight java %}
-125. TextPieceTable tpt = cft.getTextPieceTable();
-128. List textPieces = tpt.getTextPieces();
+126. TextPieceTable tpt = cft.getTextPieceTable();
+127. List textPieces = tpt.getTextPieces();
 {% endhighlight %}
 
 ***

@@ -1,8 +1,9 @@
-# CHPAbstractType @Cluster 1
+# CHPAbstractType @Cluster 1 (break, data, littleendian)
 
 ***
 
 ### [CHPAbstractType.java](https://searchcode.com/codesearch/view/97384327/)
+> does the be workbook . the 
 {% highlight java %}
 235. CHPAbstractType other = (CHPAbstractType) obj;
 236. if ( field_1_grpfChp != other.field_1_grpfChp )

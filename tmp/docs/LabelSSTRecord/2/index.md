@@ -1,8 +1,9 @@
-# LabelSSTRecord @Cluster 2
+# LabelSSTRecord @Cluster 2 (newrec, rec, record)
 
 ***
 
 ### [HSSFRichTextString.java](https://searchcode.com/codesearch/view/15642304/)
+> this must be called to setup the internal work book references whenever a 
 {% highlight java %}
 76. HSSFRichTextString(Workbook book, LabelSSTRecord record) {
 79.   this.string = book.getSSTString(record.getSSTIndex());
@@ -10,23 +11,8 @@
 
 ***
 
-### [ExcelKeywordParser.java](https://searchcode.com/codesearch/view/12440040/)
-{% highlight java %}
-243. private void evaluateRowType(final LabelSSTRecord lrec)
-246.         sstrec.getString(lrec.getSSTIndex()).getString();
-{% endhighlight %}
-
-***
-
-### [ExcelExtractor.java](https://searchcode.com/codesearch/view/111785559/)
-{% highlight java %}
-373. LabelSSTRecord sst = (LabelSSTRecord) record;
-374. UnicodeString unicode = sstRecord.getString(sst.getSSTIndex());
-{% endhighlight %}
-
-***
-
 ### [HSSFRichTextString.java](https://searchcode.com/codesearch/view/15642304/)
+> test that we get the same value as excel and , for 
 {% highlight java %}
 62. private LabelSSTRecord record;
 79.   this.string = book.getSSTString(record.getSSTIndex());
@@ -35,16 +21,8 @@
 
 ***
 
-### [ExcelLanguageCentricParser.java](https://searchcode.com/codesearch/view/12440043/)
-{% highlight java %}
-237. private void processHeader(LabelSSTRecord lrec)
-239.     if (lrec.getColumn() > 3)
-241.         String colHeader = sstrec.getString(lrec.getSSTIndex()).getString();
-{% endhighlight %}
-
-***
-
 ### [HxlsAbstract.java](https://searchcode.com/codesearch/view/68613461/)
+> used internally to 
 {% highlight java %}
 211. LabelSSTRecord lsrec = (LabelSSTRecord) record;
 213. curRow = thisRow = lsrec.getRow();
@@ -55,6 +33,7 @@
 ***
 
 ### [LabelSSTRecord.java](https://searchcode.com/codesearch/view/15642468/)
+> this used to this sheet . 
 {% highlight java %}
 307. LabelSSTRecord rec = new LabelSSTRecord();
 308. rec.field_1_row = field_1_row;
@@ -65,18 +44,8 @@
 
 ***
 
-### [HSSFCell.java](https://searchcode.com/codesearch/view/15642303/)
-{% highlight java %}
-395. LabelSSTRecord lrec = null;
-405. lrec.setColumn(col);
-406. lrec.setRow(row);
-407. lrec.setXFIndex(styleIndex);
-424.         lrec.setSSTIndex(sst);
-{% endhighlight %}
-
-***
-
 ### [HSSFWorkbook.java](https://searchcode.com/codesearch/view/15642316/)
+> this must be called to b the return value that escher a file is removed 
 {% highlight java %}
 325. LabelSSTRecord newrec   = new LabelSSTRecord();
 329. newrec.setRow(oldrec.getRow());
@@ -88,6 +57,7 @@
 ***
 
 ### [Sheet.java](https://searchcode.com/codesearch/view/15642365/)
+> this must be called to b the return value that must be set to the paragraph field . 
 {% highlight java %}
 866. LabelSSTRecord rec = new LabelSSTRecord();
 868. rec.setRow(row);
